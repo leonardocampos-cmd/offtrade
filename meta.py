@@ -1,0 +1,87 @@
+#META
+import pandas as pd
+import oracledb
+from sqlalchemy import create_engine
+from datetime import datetime
+import numpy as np
+
+oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
+
+user = "vpn"
+password = "vpn2320vpn"
+dsn = "crc_oci" 
+
+engine = create_engine(f'oracle+oracledb://{user}:{password}@{dsn}')
+
+tabela_vendas = pd.read_sql("""
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPROD,
+           PCMOV.CODFORNEC    AS CODFORNEC,
+           PCMOV.NUMNOTA    AS NUMNOTA,
+           PCMOV.CODOPER    AS CODOPER,
+           PCMOV.QT         AS QT,
+           PCMOV.PUNIT      AS PUNIT,
+           PCMOV.CODFILIAL  AS CODFILIAL,
+           PCMOV.CODCLI     AS CODCLI,
+           PCMOV.CODUSUR    AS CODUSUR,
+           PCMOV.NUMNOTADEV AS NUMNOTADEV,
+           PCMOV.DTCANCEL   AS DTCANCEL,
+           PCMOV.DESCRICAO  AS DESCRICAO,
+           PCUSUARI.NOME    AS VENDEDOR,
+           PCFORNEC.FORNECEDOR AS FORNECEDOR,
+           PCFORNEC.FANTASIA AS FANTASIA,                    
+           (PCMOV.PUNIT * PCMOV.QT) AS FATURAMENTO
+                            
+    FROM CRC.PCMOV
+    JOIN CRC.PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
+    JOIN CRC.PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD 
+    JOIN CRC.PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC                    
+    WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
+    AND PCMOV.CODOPER = 'S'
+    AND PCMOV.CODFILIAL IN (2,4)
+    AND PCMOV.NUMNOTADEV IS NULL
+    AND PCMOV.DTCANCEL IS NULL
+    AND PCUSUARI.NOME LIKE '%OFF TRADE%'
+""", con=engine, dtype=str)
+
+tabela_vendas.columns = tabela_vendas.columns.str.upper()
+arquivo = pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - MARÇO 2026.xlsx")
+tabela_vendas['FATURAMENTO'] = pd.to_numeric(tabela_vendas['FATURAMENTO'], errors='coerce')
+tabela_vendas.drop(columns=['CODPROD', 'CODFORNEC', 'NUMNOTA', 'CODOPER', 'QT', 'PUNIT',
+       'CODFILIAL', 'CODUSUR', 'NUMNOTADEV', 'DTCANCEL', 'FORNECEDOR'],inplace=True)
+tabela_vendas['DTMOV'] = pd.to_datetime(tabela_vendas['DTMOV']).dt.date
+
+tabela_vendas = tabela_vendas[tabela_vendas['DTMOV'].apply(lambda x: x.month == datetime.now().month and x.year == datetime.now().year)]
+tabela_vendas['DTMOV'] = pd.to_datetime(tabela_vendas['DTMOV']).dt.strftime('%d/%m/%Y')
+tabela_vendas['FATURAMENTO'] = tabela_vendas['FATURAMENTO'].round(2)
+
+#FATURAMENTO TOTAL
+faturamento_total = float(tabela_vendas['FATURAMENTO'].sum())
+
+#FATURAMENTO CASTAS
+faturamento_castas = float(tabela_vendas[tabela_vendas['FANTASIA'].str.contains('castas', case=False, na=False)]['FATURAMENTO'].sum().round(2))
+
+#FATURAMENTO DOMECQ / PASSPORT
+fat_domecq_passport = float(tabela_vendas[tabela_vendas['DESCRICAO'].str.contains('DOMECQ|PASSPORT', case=False, na=False)]['FATURAMENTO'].sum().round(2))
+
+#FATURAMENTO AZEITE HBO
+fat_azeite_hbo = float(tabela_vendas[
+    tabela_vendas['DESCRICAO'].str.contains('AZEITE', case=False, na=False) |
+    tabela_vendas['FANTASIA'].str.contains('HOB', case=False, na=False)
+]['FATURAMENTO'].sum().round(2))
+
+positivacao_azeite_hob = int(tabela_vendas[
+    tabela_vendas['DESCRICAO'].str.contains('AZEITE', case=False, na=False) |
+    tabela_vendas['FANTASIA'].str.contains('HOB', case=False, na=False)
+]['CODCLI'].nunique())
+
+positivacao_tt = int(tabela_vendas['CODCLI'].nunique())
+
+positivacao_reckit = int(tabela_vendas[
+    tabela_vendas['FANTASIA'].str.contains('RECKIT', case=False, na= False)
+]['CODCLI'].nunique())
+
+positivacao_crusoe = int(tabela_vendas[tabela_vendas['FANTASIA'].str.contains('ROBINSON CRUSOE', case=False, na=False)]['CODCLI'].nunique())
+positivacao_tatuzinho = int(tabela_vendas[tabela_vendas['FANTASIA'].str.contains('TATUZINHO', case=False, na=False)]['CODCLI'].nunique())
+positivacao_redbull = int(tabela_vendas[tabela_vendas['FANTASIA'].str.contains('RED BULL', case=False, na=False)]['CODCLI'].nunique())
+positivacao_pinatti = int(tabela_vendas[tabela_vendas['FANTASIA'].str.contains('PINATI', case=False, na=False)]['CODCLI'].nunique())

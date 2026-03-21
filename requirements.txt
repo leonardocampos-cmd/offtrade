@@ -1,0 +1,6 @@
+pandas
+numpy
+oracledb
+sqlalchemy
+openpyxl
+requests
