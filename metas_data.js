@@ -2,7 +2,7 @@
 
 const METAS_DATA = {
   "mes": "March 2026",
-  "atualizado_em": "21/03/2026",
+  "atualizado_em": "23/03/2026",
   "vendedores": [
     {
       "nome": "MARIA LUIZA",
@@ -105,7 +105,7 @@ const METAS_DATA = {
       "rca": "412",
       "fat_tt": {
         "meta": 100000.0,
-        "realizado": 27579.83
+        "realizado": 27197.75
       },
       "fat_castas": {
         "meta": 7000.0,
@@ -121,7 +121,7 @@ const METAS_DATA = {
       },
       "pos_tt": {
         "meta": 65,
-        "realizado": 39
+        "realizado": 38
       },
       "pos_hob_azeite": {
         "meta": 5,
@@ -137,7 +137,7 @@ const METAS_DATA = {
       },
       "pos_tatuzinho": {
         "meta": 0,
-        "realizado": 20
+        "realizado": 19
       },
       "pos_redbull": {
         "meta": 0,
@@ -585,7 +585,7 @@ const METAS_DATA = {
       "rca": "431",
       "fat_tt": {
         "meta": 30000.0,
-        "realizado": 24321.96
+        "realizado": 24258.38
       },
       "fat_castas": {
         "meta": 2000.0,
@@ -601,7 +601,7 @@ const METAS_DATA = {
       },
       "pos_tt": {
         "meta": 65,
-        "realizado": 35
+        "realizado": 34
       },
       "pos_hob_azeite": {
         "meta": 5,
@@ -625,7 +625,7 @@ const METAS_DATA = {
       },
       "pos_pinatti": {
         "meta": 10,
-        "realizado": 7
+        "realizado": 6
       }
     },
     {
@@ -729,7 +729,7 @@ const METAS_DATA = {
       "rca": "378",
       "fat_tt": {
         "meta": 50000.0,
-        "realizado": 47605.56
+        "realizado": 47331.16
       },
       "fat_castas": {
         "meta": 0.0,
@@ -745,7 +745,7 @@ const METAS_DATA = {
       },
       "pos_tt": {
         "meta": 30,
-        "realizado": 15
+        "realizado": 13
       },
       "pos_hob_azeite": {
         "meta": 0,
@@ -761,15 +761,15 @@ const METAS_DATA = {
       },
       "pos_tatuzinho": {
         "meta": 18,
-        "realizado": 7
+        "realizado": 6
       },
       "pos_redbull": {
         "meta": 20,
-        "realizado": 11
+        "realizado": 9
       },
       "pos_pinatti": {
         "meta": 12,
-        "realizado": 5
+        "realizado": 4
       }
     }
   ]
