@@ -105,7 +105,7 @@ const METAS_DATA = {
       "rca": "412",
       "fat_tt": {
         "meta": 100000.0,
-        "realizado": 27197.75
+        "realizado": 26982.05
       },
       "fat_castas": {
         "meta": 7000.0,
@@ -121,7 +121,7 @@ const METAS_DATA = {
       },
       "pos_tt": {
         "meta": 65,
-        "realizado": 38
+        "realizado": 37
       },
       "pos_hob_azeite": {
         "meta": 5,
