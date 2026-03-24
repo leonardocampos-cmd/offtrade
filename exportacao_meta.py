@@ -41,18 +41,20 @@ def safe_float(v):
 
 def _build_nao_pos(nome_oracle):
     df = _df_nao_pos[_df_nao_pos['NOME_RCA'] == nome_oracle][
-        ['CODCLI', 'CLIENTE', 'DTULTCOMP', 'FANTASIA', 'DESCRICAO']
+        ['CLIENTE', 'DTULTCOMP', 'FANTASIA', 'DESCRICAO']
     ].copy()
     df['FANTASIA']  = df['FANTASIA'].fillna('')
     df['DESCRICAO'] = df['DESCRICAO'].fillna('')
     result = []
-    for (codcli, cliente), grp in df.groupby(['CODCLI', 'CLIENTE'], sort=False):
+    for cliente, grp in df.groupby('CLIENTE', sort=False):
         dt = grp['DTULTCOMP'].dropna().max()
+        # Produtos apenas da data mais recente
+        prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
         result.append({
             '_dt': dt,
             'CLIENTE':   cliente,
             'DTULTCOMP': dt.strftime('%d/%m/%Y') if pd.notna(dt) else '',
-            'produtos':  grp[['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records'),
+            'produtos':  prods,
         })
     result.sort(key=lambda x: x['_dt'] if pd.notna(x['_dt']) else pd.Timestamp.min, reverse=True)
     for r in result:
