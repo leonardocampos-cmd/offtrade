@@ -221,6 +221,32 @@
     }
     .no-data strong { color: var(--text); }
 
+    /* Tabela não positivados */
+    .nao-pos-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.76rem;
+      margin-top: 4px;
+    }
+    .nao-pos-table th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 600;
+      padding: 6px 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    .nao-pos-table td {
+      padding: 7px 8px;
+      border-bottom: 1px solid rgba(45,49,68,0.5);
+      vertical-align: top;
+    }
+    .nao-pos-table tr:last-child td { border-bottom: none; }
+    .nao-pos-table tr:hover td { background: var(--card2); }
+    .nao-pos-cliente { font-weight: 500; color: var(--text); }
+    .nao-pos-sub { color: var(--muted); font-size: 0.7rem; margin-top: 2px; }
+    .nao-pos-date { color: var(--red); white-space: nowrap; }
+    .nao-pos-empty { color: var(--muted); font-size: 0.8rem; padding: 12px 0; }
+
     @media (max-width: 480px) {
       .cards-grid { grid-template-columns: 1fr; }
       body { padding: 12px; }
@@ -314,6 +340,32 @@ function buildBar(name, realizado, meta, tipo) {
     </div>`;
 }
 
+function buildNaoPosTable(lista) {
+  if (!lista || lista.length === 0) {
+    return `<div class="nao-pos-empty">Todos os clientes positivados este mês.</div>`;
+  }
+  const rows = lista.map(c => `
+    <tr>
+      <td>
+        <div class="nao-pos-cliente">${c.CLIENTE || '—'}</div>
+        <div class="nao-pos-sub">${c.DESCRICAO || ''}</div>
+      </td>
+      <td><div class="nao-pos-sub">${c.FANTASIA || '—'}</div></td>
+      <td class="nao-pos-date">${c.DTULTCOMP || '—'}</td>
+    </tr>`).join('');
+  return `
+    <table class="nao-pos-table">
+      <thead>
+        <tr>
+          <th>Cliente / Produto</th>
+          <th>Fornecedor</th>
+          <th>Últ. compra</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
 // ── Roteamento por URL ────────────────────────────────────
 
 function getParam() {
@@ -383,6 +435,11 @@ function renderDetail(v) {
       ${buildBar('Tatuzinho', v.pos_tatuzinho.realizado, v.pos_tatuzinho.meta, 'pos')}
       ${buildBar('Red Bull', v.pos_redbull.realizado, v.pos_redbull.meta, 'pos')}
       ${buildBar('Pinatti', v.pos_pinatti.realizado, v.pos_pinatti.meta, 'pos')}
+    </div>
+
+    <div class="detail-card">
+      <div class="section-title">Clientes não positivados (sem compra no mês)</div>
+      ${buildNaoPosTable(v.nao_positivados)}
     </div>`;
 }
 

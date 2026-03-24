@@ -4,6 +4,9 @@ import pandas as pd
 from datetime import date
 from pathlib import Path
 from meta import engine, engine_theking, arquivo, tabela_vendas
+import nao_positivados as _np_mod
+
+_df_nao_pos = _np_mod.nao_positivados
 
 # Busca o nome Oracle de cada vendedor pelo RCA (CODUSUR) nos dois bancos
 map_rca = pd.concat([
@@ -55,6 +58,9 @@ for _, m in metas_com_nome.iterrows():
         "pos_tatuzinho":        {"meta": safe_int(m.get('POSITIVAÇÃO TATUZINHO')),       "realizado": real_pos(grupo, lambda d: d['FANTASIA'].str.contains('TATUZINHO', case=False, na=False))},
         "pos_redbull":          {"meta": safe_int(m.get('POSITIVAÇÃO RED BULL')),        "realizado": real_pos(grupo, lambda d: d['FANTASIA'].str.contains('RED BULL', case=False, na=False))},
         "pos_pinatti":          {"meta": safe_int(m.get('POSITIVAÇÃO PINATTI')),         "realizado": real_pos(grupo, lambda d: d['FANTASIA'].str.contains('PINATI', case=False, na=False))},
+        "nao_positivados": _df_nao_pos[
+            _df_nao_pos['NOME_RCA'] == nome_oracle
+        ][['CLIENTE', 'FANTASIA', 'DESCRICAO', 'DTULTCOMP']].fillna('').to_dict('records'),
     })
 
 payload = {

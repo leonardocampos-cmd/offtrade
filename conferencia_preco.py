@@ -126,9 +126,9 @@ df["PORCENTAGEM DIFERENÇA"] = np.where(
 df['PORCENTAGEM DIFERENÇA'] = df['PORCENTAGEM DIFERENÇA'].round(2).apply(lambda x: f"{x:.2f}%")
 
 df['DATA'] = pd.to_datetime(df['DATA']).dt.date
-# hoje = date.today()
-ontem = date.today() - timedelta(days=1)
-df = df[df['DATA'] == ontem]
+hoje = date.today()
+# ontem = date.today() - timedelta(days=1)
+df = df[df['DATA'] == hoje]
 df = df.sort_values(by='DATA', ascending=False)
 df = df[df['STATUS_CONFERENCIA']=='ABAIXO DA TABELA']
 print(df)
