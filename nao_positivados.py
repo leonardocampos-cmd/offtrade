@@ -47,6 +47,10 @@ positivados = set(tabela_vendas['CODCLI'].dropna().unique())
 # Remove positivados
 nao_positivados = clientes[~clientes['CODCLI'].isin(positivados)].copy()
 
+# Versão completa (todos os produtos, DTULTCOMP como datetime) para uso no dashboard
+nao_positivados_full = nao_positivados.copy()
+nao_positivados_full['DTULTCOMP'] = pd.to_datetime(nao_positivados_full['DTULTCOMP'], errors='coerce')
+
 # Formata data
 nao_positivados['DTULTCOMP'] = pd.to_datetime(nao_positivados['DTULTCOMP'], errors='coerce').dt.strftime('%d/%m/%Y')
 

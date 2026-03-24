@@ -6,7 +6,7 @@ from pathlib import Path
 from meta import engine, engine_theking, arquivo, tabela_vendas
 import nao_positivados as _np_mod
 
-_df_nao_pos = _np_mod.nao_positivados
+_df_nao_pos = _np_mod.nao_positivados_full
 
 # Busca o nome Oracle de cada vendedor pelo RCA (CODUSUR) nos dois bancos
 map_rca = pd.concat([
@@ -39,6 +39,26 @@ def safe_float(v):
     try: return float(v) if pd.notna(v) else 0.0
     except: return 0.0
 
+def _build_nao_pos(nome_oracle):
+    df = _df_nao_pos[_df_nao_pos['NOME_RCA'] == nome_oracle][
+        ['CODCLI', 'CLIENTE', 'DTULTCOMP', 'FANTASIA', 'DESCRICAO']
+    ].copy()
+    df['FANTASIA']  = df['FANTASIA'].fillna('')
+    df['DESCRICAO'] = df['DESCRICAO'].fillna('')
+    result = []
+    for (codcli, cliente), grp in df.groupby(['CODCLI', 'CLIENTE'], sort=False):
+        dt = grp['DTULTCOMP'].dropna().max()
+        result.append({
+            '_dt': dt,
+            'CLIENTE':   cliente,
+            'DTULTCOMP': dt.strftime('%d/%m/%Y') if pd.notna(dt) else '',
+            'produtos':  grp[['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records'),
+        })
+    result.sort(key=lambda x: x['_dt'] if pd.notna(x['_dt']) else pd.Timestamp.min, reverse=True)
+    for r in result:
+        del r['_dt']
+    return result
+
 vendedores_out = []
 for _, m in metas_com_nome.iterrows():
     nome_oracle = m.get('NOME')
@@ -58,9 +78,7 @@ for _, m in metas_com_nome.iterrows():
         "pos_tatuzinho":        {"meta": safe_int(m.get('POSITIVAÇÃO TATUZINHO')),       "realizado": real_pos(grupo, lambda d: d['FANTASIA'].str.contains('TATUZINHO', case=False, na=False))},
         "pos_redbull":          {"meta": safe_int(m.get('POSITIVAÇÃO RED BULL')),        "realizado": real_pos(grupo, lambda d: d['FANTASIA'].str.contains('RED BULL', case=False, na=False))},
         "pos_pinatti":          {"meta": safe_int(m.get('POSITIVAÇÃO PINATTI')),         "realizado": real_pos(grupo, lambda d: d['FANTASIA'].str.contains('PINATI', case=False, na=False))},
-        "nao_positivados": _df_nao_pos[
-            _df_nao_pos['NOME_RCA'] == nome_oracle
-        ][['CLIENTE', 'FANTASIA', 'DESCRICAO', 'DTULTCOMP']].fillna('').to_dict('records'),
+        "nao_positivados": _build_nao_pos(nome_oracle),
     })
 
 payload = {

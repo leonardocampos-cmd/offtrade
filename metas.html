@@ -344,21 +344,25 @@ function buildNaoPosTable(lista) {
   if (!lista || lista.length === 0) {
     return `<div class="nao-pos-empty">Todos os clientes positivados este mês.</div>`;
   }
-  const rows = lista.map(c => `
+  const rows = lista.map(c => {
+    const prods = (c.produtos || [])
+      .filter(p => p.FANTASIA || p.DESCRICAO)
+      .map(p => `<div class="nao-pos-sub">${p.FANTASIA}${p.FANTASIA && p.DESCRICAO ? ' · ' : ''}${p.DESCRICAO}</div>`)
+      .join('');
+    return `
     <tr>
       <td>
         <div class="nao-pos-cliente">${c.CLIENTE || '—'}</div>
-        <div class="nao-pos-sub">${c.DESCRICAO || ''}</div>
+        ${prods}
       </td>
-      <td><div class="nao-pos-sub">${c.FANTASIA || '—'}</div></td>
       <td class="nao-pos-date">${c.DTULTCOMP || '—'}</td>
-    </tr>`).join('');
+    </tr>`;
+  }).join('');
   return `
     <table class="nao-pos-table">
       <thead>
         <tr>
-          <th>Cliente / Produto</th>
-          <th>Fornecedor</th>
+          <th>Cliente</th>
           <th>Últ. compra</th>
         </tr>
       </thead>
