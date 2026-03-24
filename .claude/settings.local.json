@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd //c \"schtasks /create /tn \\\\\"Offtrade\\\\\" /tr \\\\\"\\\\\\\\\\\\\"G:\\\\\\\\Meu Drive\\\\\\\\offtrade\\\\\\\\rodar.bat\\\\\\\\\\\\\"\\\\\" /sc hourly /mo 1 /st 08:00 /f\")"
+    ]
+  }
+}
