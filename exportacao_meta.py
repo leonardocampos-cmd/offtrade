@@ -78,6 +78,6 @@ print(f"✅ metas_data.js gerado com {len(vendedores_out)} vendedores → {outpu
 import subprocess
 repo_dir = str(Path(__file__).parent)
 subprocess.run(["git", "-C", repo_dir, "add", "metas_data.js"], check=True)
-subprocess.run(["git", "-C", repo_dir, "commit", "-m", f"Atualiza metas_data.js - {date.today().strftime('%d/%m/%Y')}"], check=True)
+subprocess.run(["git", "-C", repo_dir, "commit", "-m", f"Atualiza metas_data.js - {date.today().strftime('%d/%m/%Y')}"])
 subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
 print("✅ GitHub Pages atualizado.")
