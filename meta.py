@@ -15,7 +15,9 @@ dsn_theking = "theking_oci"
 engine = create_engine(f'oracle+oracledb://{user}:{password}@{dsn}')
 engine_theking = create_engine(f'oracle+oracledb://{user}:{password}@{dsn_theking}')
 
-_query_vendas = lambda schema: f"""
+def _query_vendas(schema=None):
+    p = f"{schema}." if schema else ""
+    return f"""
     SELECT PCMOV.DTMOV      AS DTMOV,
            PCMOV.CODPROD    AS CODPROD,
            PCMOV.CODFORNEC    AS CODFORNEC,
@@ -34,10 +36,10 @@ _query_vendas = lambda schema: f"""
            PCFORNEC.FANTASIA AS FANTASIA,
            (PCMOV.PUNIT * PCMOV.QT) AS FATURAMENTO
 
-    FROM {schema}.PCMOV
-    JOIN {schema}.PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
-    JOIN {schema}.PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD
-    JOIN {schema}.PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC
+    FROM {p}PCMOV
+    JOIN {p}PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
+    JOIN {p}PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD
+    JOIN {p}PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC
     WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
     AND PCMOV.CODOPER = 'S'
     AND PCMOV.CODFILIAL IN (2,4)
@@ -47,8 +49,8 @@ _query_vendas = lambda schema: f"""
 """
 
 tabela_vendas = pd.concat([
-    pd.read_sql(_query_vendas("CRC"),     con=engine,         dtype=str),
-    pd.read_sql(_query_vendas("THEKING"), con=engine_theking, dtype=str),
+    pd.read_sql(_query_vendas("CRC"), con=engine,         dtype=str),
+    pd.read_sql(_query_vendas('thekings'),     con=engine_theking, dtype=str),
 ], ignore_index=True)
 
 tabela_vendas.columns = tabela_vendas.columns.str.upper()
