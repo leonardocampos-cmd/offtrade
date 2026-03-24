@@ -3,13 +3,13 @@ import json
 import pandas as pd
 from datetime import date
 from pathlib import Path
-from meta import engine, arquivo, tabela_vendas
+from meta import engine, engine_theking, arquivo, tabela_vendas
 
-# Busca o nome Oracle de cada vendedor pelo RCA (CODUSUR)
-map_rca = pd.read_sql(
-    "SELECT CODUSUR AS RCA, NOME FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'",
-    con=engine
-)
+# Busca o nome Oracle de cada vendedor pelo RCA (CODUSUR) nos dois bancos
+map_rca = pd.concat([
+    pd.read_sql("SELECT CODUSUR AS RCA, NOME FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", con=engine),
+    pd.read_sql("SELECT CODUSUR AS RCA, NOME FROM THEKING.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", con=engine_theking),
+], ignore_index=True).drop_duplicates(subset=['RCA'])
 map_rca.columns = map_rca.columns.str.upper()
 map_rca['RCA'] = pd.to_numeric(map_rca['RCA'], errors='coerce')
 arquivo['RCA']  = pd.to_numeric(arquivo['RCA'],  errors='coerce')

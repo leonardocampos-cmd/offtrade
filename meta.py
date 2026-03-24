@@ -9,11 +9,13 @@ oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
 
 user = "vpn"
 password = "vpn2320vpn"
-dsn = "crc_oci" 
+dsn = "crc_oci"
+dsn_theking = "theking_oci"
 
 engine = create_engine(f'oracle+oracledb://{user}:{password}@{dsn}')
+engine_theking = create_engine(f'oracle+oracledb://{user}:{password}@{dsn_theking}')
 
-tabela_vendas = pd.read_sql("""
+_query_vendas = lambda schema: f"""
     SELECT PCMOV.DTMOV      AS DTMOV,
            PCMOV.CODPROD    AS CODPROD,
            PCMOV.CODFORNEC    AS CODFORNEC,
@@ -29,20 +31,25 @@ tabela_vendas = pd.read_sql("""
            PCMOV.DESCRICAO  AS DESCRICAO,
            PCUSUARI.NOME    AS VENDEDOR,
            PCFORNEC.FORNECEDOR AS FORNECEDOR,
-           PCFORNEC.FANTASIA AS FANTASIA,                    
+           PCFORNEC.FANTASIA AS FANTASIA,
            (PCMOV.PUNIT * PCMOV.QT) AS FATURAMENTO
-                            
-    FROM CRC.PCMOV
-    JOIN CRC.PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
-    JOIN CRC.PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD 
-    JOIN CRC.PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC                    
+
+    FROM {schema}.PCMOV
+    JOIN {schema}.PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
+    JOIN {schema}.PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD
+    JOIN {schema}.PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC
     WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
     AND PCMOV.CODOPER = 'S'
     AND PCMOV.CODFILIAL IN (2,4)
     AND PCMOV.NUMNOTADEV IS NULL
     AND PCMOV.DTCANCEL IS NULL
     AND PCUSUARI.NOME LIKE '%OFF TRADE%'
-""", con=engine, dtype=str)
+"""
+
+tabela_vendas = pd.concat([
+    pd.read_sql(_query_vendas("CRC"),     con=engine,         dtype=str),
+    pd.read_sql(_query_vendas("THEKING"), con=engine_theking, dtype=str),
+], ignore_index=True)
 
 tabela_vendas.columns = tabela_vendas.columns.str.upper()
 arquivo = pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - MARÇO 2026.xlsx")
