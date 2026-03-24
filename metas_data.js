@@ -441,7 +441,7 @@ const METAS_DATA = {
       "rca": "417",
       "fat_tt": {
         "meta": 680000.0,
-        "realizado": 68016.81
+        "realizado": 301837.36
       },
       "fat_castas": {
         "meta": 10000.0,
@@ -457,7 +457,7 @@ const METAS_DATA = {
       },
       "pos_tt": {
         "meta": 35,
-        "realizado": 29
+        "realizado": 44
       },
       "pos_hob_azeite": {
         "meta": 5,
@@ -477,7 +477,7 @@ const METAS_DATA = {
       },
       "pos_redbull": {
         "meta": 0,
-        "realizado": 0
+        "realizado": 1
       },
       "pos_pinatti": {
         "meta": 0,
@@ -489,7 +489,7 @@ const METAS_DATA = {
       "rca": "439",
       "fat_tt": {
         "meta": 150000.0,
-        "realizado": 11108.98
+        "realizado": 45366.75
       },
       "fat_castas": {
         "meta": 7000.0,
@@ -505,7 +505,7 @@ const METAS_DATA = {
       },
       "pos_tt": {
         "meta": 15,
-        "realizado": 10
+        "realizado": 16
       },
       "pos_hob_azeite": {
         "meta": 5,
@@ -525,7 +525,7 @@ const METAS_DATA = {
       },
       "pos_redbull": {
         "meta": 0,
-        "realizado": 0
+        "realizado": 2
       },
       "pos_pinatti": {
         "meta": 0,
