@@ -57,7 +57,7 @@ const METAS_DATA = {
       "rca": "156",
       "fat_tt": {
         "meta": 120000.0,
-        "realizado": 82937.34
+        "realizado": 88315.4
       },
       "fat_castas": {
         "meta": 12000.0,
@@ -73,7 +73,7 @@ const METAS_DATA = {
       },
       "pos_tt": {
         "meta": 100,
-        "realizado": 72
+        "realizado": 74
       },
       "pos_hob_azeite": {
         "meta": 5,
@@ -89,7 +89,7 @@ const METAS_DATA = {
       },
       "pos_tatuzinho": {
         "meta": 0,
-        "realizado": 46
+        "realizado": 47
       },
       "pos_redbull": {
         "meta": 0,
@@ -153,7 +153,7 @@ const METAS_DATA = {
       "rca": "153",
       "fat_tt": {
         "meta": 150000.0,
-        "realizado": 131111.81
+        "realizado": 137842.49
       },
       "fat_castas": {
         "meta": 12000.0,
@@ -169,7 +169,7 @@ const METAS_DATA = {
       },
       "pos_tt": {
         "meta": 50,
-        "realizado": 32
+        "realizado": 36
       },
       "pos_hob_azeite": {
         "meta": 5,
@@ -177,7 +177,7 @@ const METAS_DATA = {
       },
       "pos_reckit": {
         "meta": 6,
-        "realizado": 10
+        "realizado": 14
       },
       "pos_crusoe": {
         "meta": 0,
@@ -201,7 +201,7 @@ const METAS_DATA = {
       "rca": "158",
       "fat_tt": {
         "meta": 400000.0,
-        "realizado": 388058.5
+        "realizado": 389647.06
       },
       "fat_castas": {
         "meta": 10000.0,
@@ -217,7 +217,7 @@ const METAS_DATA = {
       },
       "pos_tt": {
         "meta": 10,
-        "realizado": 10
+        "realizado": 11
       },
       "pos_hob_azeite": {
         "meta": 5,
@@ -249,7 +249,7 @@ const METAS_DATA = {
       "rca": "238",
       "fat_tt": {
         "meta": 280000.0,
-        "realizado": 216628.32
+        "realizado": 251442.88
       },
       "fat_castas": {
         "meta": 25000.0,
@@ -265,7 +265,7 @@ const METAS_DATA = {
       },
       "pos_tt": {
         "meta": 20,
-        "realizado": 6
+        "realizado": 25
       },
       "pos_hob_azeite": {
         "meta": 5,
@@ -585,7 +585,7 @@ const METAS_DATA = {
       "rca": "431",
       "fat_tt": {
         "meta": 30000.0,
-        "realizado": 26004.29
+        "realizado": 26620.11
       },
       "fat_castas": {
         "meta": 2000.0,
@@ -601,7 +601,7 @@ const METAS_DATA = {
       },
       "pos_tt": {
         "meta": 65,
-        "realizado": 35
+        "realizado": 36
       },
       "pos_hob_azeite": {
         "meta": 5,
@@ -625,7 +625,7 @@ const METAS_DATA = {
       },
       "pos_pinatti": {
         "meta": 10,
-        "realizado": 7
+        "realizado": 8
       }
     },
     {
