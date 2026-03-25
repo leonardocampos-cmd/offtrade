@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(cmd //c \"schtasks /create /tn \\\\\"Offtrade\\\\\" /tr \\\\\"\\\\\\\\\\\\\"G:\\\\\\\\Meu Drive\\\\\\\\offtrade\\\\\\\\rodar.bat\\\\\\\\\\\\\"\\\\\" /sc hourly /mo 1 /st 08:00 /f\")",
-      "Bash(schtasks /query /fo CSV /v)"
+      "Bash(schtasks /query /fo CSV /v)",
+      "Bash(schtasks /query /fo LIST /v)",
+      "Bash(powershell -Command \"Get-ScheduledTask | Where-Object { \\\\$_.TaskName -like '*offtrade*' -or \\\\$_.TaskName -like '*rodar*' -or \\\\$_.TaskName -like '*metas*' } | Select-Object TaskName, TaskPath\")",
+      "Bash(powershell -Command \"Get-ScheduledTask -TaskName 'Offtrade' | Get-ScheduledTaskInfo; \\(Get-ScheduledTask -TaskName 'Offtrade'\\).Triggers | Format-List *; \\(Get-ScheduledTask -TaskName 'Offtrade'\\).Actions | Format-List *\")",
+      "Bash(powershell -Command \"\\(Get-ScheduledTask -TaskName 'Offtrade'\\).Triggers.Repetition | Format-List *\")"
     ]
   }
 }
