@@ -53,7 +53,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "81922",
           "CLIENTE": "LUZ PROMOCOES E EVENTOS LTDA",
+          "BAIRROENT": "FREGUESIA (JACAREPAGUA)",
           "DTULTCOMP": "24/03/2026",
           "produtos": [
             {
@@ -75,7 +77,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93368",
           "CLIENTE": "CASAFRUTI DAS AMERICAS S/A",
+          "BAIRROENT": "COPACABANA",
           "DTULTCOMP": "27/02/2026",
           "produtos": [
             {
@@ -93,7 +97,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81298",
           "CLIENTE": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "11/02/2026",
           "produtos": [
             {
@@ -119,7 +125,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84011",
           "CLIENTE": "NAOMI COMERCIO DE ALIMENTOS LTDA",
+          "BAIRROENT": "COMERCIAL",
           "DTULTCOMP": "11/02/2026",
           "produtos": [
             {
@@ -147,13 +155,31 @@ const METAS_DATA = {
               "DESCRICAO": "VILLA ROSA TINTO 750ML"
             },
             {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM BLACK CHERRY 1L"
+            },
+            {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "VILLA ROSA BRANCO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA  ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI BRUT 750ML"
             }
           ]
         },
         {
+          "CODCLI": "84033",
           "CLIENTE": "EMISE SUPERMERCADO LTDA",
+          "BAIRROENT": "VIGA",
           "DTULTCOMP": "11/02/2026",
           "produtos": [
             {
@@ -219,7 +245,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91668",
           "CLIENTE": "SENDAS DISTRIBUIDORA S/A",
+          "BAIRROENT": "PACIÊNCIA",
           "DTULTCOMP": "26/01/2026",
           "produtos": [
             {
@@ -233,7 +261,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85095",
           "CLIENTE": "DRIFT COMERCIO DE ALIMENTOS S A",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "19/12/2025",
           "produtos": [
             {
@@ -251,7 +281,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "72630",
           "CLIENTE": "MULTI ANGRA MERCADO LTDA",
+          "BAIRROENT": "PARQUE BELEM",
           "DTULTCOMP": "18/11/2025",
           "produtos": [
             {
@@ -269,7 +301,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85921",
           "CLIENTE": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "BAIRROENT": "CAMPO REDONDO",
           "DTULTCOMP": "18/11/2025",
           "produtos": [
             {
@@ -287,7 +321,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "31193",
           "CLIENTE": "FLORESTA COMERCIO E INDUSTRIA S/A - EM RECUPERACAO JUDICIAL",
+          "BAIRROENT": "TRES POCOS",
           "DTULTCOMP": "14/11/2025",
           "produtos": [
             {
@@ -297,7 +333,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83454",
           "CLIENTE": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "BAIRROENT": "CAMPO REDONDO",
           "DTULTCOMP": "18/08/2025",
           "produtos": [
             {
@@ -323,7 +361,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83581",
           "CLIENTE": "CEREAIS BRAMIL LTDA",
+          "BAIRROENT": "CANTAGALO",
           "DTULTCOMP": "30/05/2025",
           "produtos": [
             {
@@ -349,7 +389,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "73022",
           "CLIENTE": "ATACADAO S.A.",
+          "BAIRROENT": "MUTONDO",
           "DTULTCOMP": "07/01/2025",
           "produtos": [
             {
@@ -371,7 +413,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80345",
           "CLIENTE": "WMS SUPERMERCADOS DO BRASIL LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "15/11/2024",
           "produtos": [
             {
@@ -397,7 +441,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79679",
           "CLIENTE": "WMS SUPERMERCADOS DO BRASIL LTDA.",
+          "BAIRROENT": "NEVES (NEVES)",
           "DTULTCOMP": "18/10/2024",
           "produtos": [
             {
@@ -427,7 +473,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "72795",
           "CLIENTE": "SUPER MERCADO ZONA SUL S/A",
+          "BAIRROENT": "JARDIM BOTANICO",
           "DTULTCOMP": "23/09/2023",
           "produtos": [
             {
@@ -437,7 +485,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2882",
           "CLIENTE": "SUPERMERCADOS VIANENSE LTDA",
+          "BAIRROENT": "PIAM",
           "DTULTCOMP": "10/10/2022",
           "produtos": [
             {
@@ -497,7 +547,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "93190",
           "CLIENTE": "G NORONHA PAPINI LTDA",
+          "BAIRROENT": "CAVA",
           "DTULTCOMP": "24/03/2026",
           "produtos": [
             {
@@ -515,7 +567,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82919",
           "CLIENTE": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "18/03/2026",
           "produtos": [
             {
@@ -529,7 +583,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84449",
           "CLIENTE": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
+          "BAIRROENT": "GRAJAU",
           "DTULTCOMP": "27/02/2026",
           "produtos": [
             {
@@ -539,7 +595,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93221",
           "CLIENTE": "POSTO DE COMBUSTIVEIS HO DO CATARINA LTDA",
+          "BAIRROENT": "JARDIM CATARINA",
           "DTULTCOMP": "27/02/2026",
           "produtos": [
             {
@@ -565,7 +623,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93483",
           "CLIENTE": "64.965.560 AILA ALVES DE SOUSA FERREIRA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "27/02/2026",
           "produtos": [
             {
@@ -631,7 +691,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3656",
           "CLIENTE": "AUTO POSTO REZENDE RECREIO II LTDA",
+          "BAIRROENT": "RECREIO DOS BANDEIRANTES",
           "DTULTCOMP": "26/02/2026",
           "produtos": [
             {
@@ -649,7 +711,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90759",
           "CLIENTE": "ML & JB COM. E SERV. LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "26/02/2026",
           "produtos": [
             {
@@ -663,7 +727,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93632",
           "CLIENTE": "CLINICA SOROVITTA BARRA DA TIJUCA 1 LTDA",
+          "BAIRROENT": "JACAREPAGUÁ",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
             {
@@ -677,7 +743,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93635",
           "CLIENTE": "INSTITUTO DEMOLINARI DE SERVICOS MEDICOS LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
             {
@@ -691,7 +759,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84566",
           "CLIENTE": "SNACK STORE BARRA LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
             {
@@ -729,7 +799,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80886",
           "CLIENTE": "POSTO SUPERSONICO LTDA",
+          "BAIRROENT": "GALEAO",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -771,7 +843,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "73248",
           "CLIENTE": "POSTO DE GASOLINA JB CAXIAS LTDA",
+          "BAIRROENT": "CHACARA RIO PETROPOLIS",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -781,7 +855,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2139",
           "CLIENTE": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -803,7 +879,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "11534",
           "CLIENTE": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "BAIRROENT": "VARGEM GRANDE",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -817,7 +895,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82739",
           "CLIENTE": "A PARANAGUA LOJA DE CONVENIENCIA LTDA",
+          "BAIRROENT": "JARDIM PRIMAVERA",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -839,7 +919,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93218",
           "CLIENTE": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "BAIRROENT": "LAGOA",
           "DTULTCOMP": "20/02/2026",
           "produtos": [
             {
@@ -881,7 +963,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76248",
           "CLIENTE": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
+          "BAIRROENT": "CHÁCARAS RIO-PETRÓPOLIS",
           "DTULTCOMP": "19/02/2026",
           "produtos": [
             {
@@ -907,7 +991,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2310",
           "CLIENTE": "POSTO DE GASOLINA BRACARENSE LTDA",
+          "BAIRROENT": "MARACANA",
           "DTULTCOMP": "19/02/2026",
           "produtos": [
             {
@@ -917,7 +1003,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2573",
           "CLIENTE": "QUITANDA E MERCEARIA RABAL LTDA ME",
+          "BAIRROENT": "TODOS OS SANTOS",
           "DTULTCOMP": "19/02/2026",
           "produtos": [
             {
@@ -939,7 +1027,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "20777",
           "CLIENTE": "LAGOA SANTA LOJA DE CONVENIENCIA LTDA",
+          "BAIRROENT": "ANIL",
           "DTULTCOMP": "19/02/2026",
           "produtos": [
             {
@@ -969,7 +1059,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93012",
           "CLIENTE": "ROOFTOP METROPOLITANO BAR E EVENTOS LTDA",
+          "BAIRROENT": "JACAREPAGUÁ",
           "DTULTCOMP": "19/02/2026",
           "produtos": [
             {
@@ -991,7 +1083,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "559",
           "CLIENTE": "POSTO BARRA LINDA LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "18/02/2026",
           "produtos": [
             {
@@ -1005,7 +1099,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2454",
           "CLIENTE": "POSTO DE GASOLINA GUADIANA LTDA",
+          "BAIRROENT": "TIJUCA",
           "DTULTCOMP": "12/02/2026",
           "produtos": [
             {
@@ -1027,7 +1123,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "4083",
           "CLIENTE": "AUTO CENTER GALINA LTDA",
+          "BAIRROENT": "BOTAFOGO",
           "DTULTCOMP": "12/02/2026",
           "produtos": [
             {
@@ -1053,7 +1151,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91086",
           "CLIENTE": "AUTO POSTO LIDERANCA DE NOVA IGUACU LTDA.",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "12/02/2026",
           "produtos": [
             {
@@ -1063,7 +1163,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81958",
           "CLIENTE": "CAFE TRES CORACOES S A",
+          "BAIRROENT": "PENHA",
           "DTULTCOMP": "12/02/2026",
           "produtos": [
             {
@@ -1073,7 +1175,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86258",
           "CLIENTE": "ROCAL PRODUTOS DE PETROLEO LTDA",
+          "BAIRROENT": "BOTAFOGO",
           "DTULTCOMP": "11/02/2026",
           "produtos": [
             {
@@ -1083,7 +1187,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "34",
           "CLIENTE": "ALG POSTO DE ABASTECIMENTO E SERVIÇOS LT",
+          "BAIRROENT": "BONSUCESSO",
           "DTULTCOMP": "10/02/2026",
           "produtos": [
             {
@@ -1093,7 +1199,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "73247",
           "CLIENTE": "GALAPAGOS CENTRO AUTOMOTIVO LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "09/02/2026",
           "produtos": [
             {
@@ -1103,7 +1211,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3110",
           "CLIENTE": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "BAIRROENT": "SÃO CRISTOVÃO",
           "DTULTCOMP": "05/02/2026",
           "produtos": [
             {
@@ -1113,7 +1223,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90925",
           "CLIENTE": "POSTO MAR AZUL LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "05/02/2026",
           "produtos": [
             {
@@ -1139,7 +1251,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3471",
           "CLIENTE": "POSTO JARDIM OCEANICO LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -1153,7 +1267,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79822",
           "CLIENTE": "AUTO POSTO GARDENIA AZUL LTDA",
+          "BAIRROENT": "ANIL",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -1167,7 +1283,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83308",
           "CLIENTE": "CENTRO AUTOMOTIVO GOLFE CLUBE LTDA",
+          "BAIRROENT": "SAO CONRADO",
           "DTULTCOMP": "02/02/2026",
           "produtos": [
             {
@@ -1185,7 +1303,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93264",
           "CLIENTE": "CONVENIENCIA BR CAFUBA LTDA",
+          "BAIRROENT": "PIRATININGA",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -1223,7 +1343,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93282",
           "CLIENTE": "POSTO DE ABASTECIMENTO CAFUBA TDA",
+          "BAIRROENT": "PIRATININGA",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -1261,7 +1383,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90126",
           "CLIENTE": "CONVENIENCIA PRAIA RASA LTDA",
+          "BAIRROENT": "PRAIA RASA",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -1275,7 +1399,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86529",
           "CLIENTE": "FRUIT MARKET LTDA",
+          "BAIRROENT": "JACAREPAGUÁ",
           "DTULTCOMP": "26/01/2026",
           "produtos": [
             {
@@ -1297,7 +1423,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83626",
           "CLIENTE": "POSTO CANUDOS LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "23/01/2026",
           "produtos": [
             {
@@ -1323,7 +1451,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84107",
           "CLIENTE": "POSTO DE GASOLINA RECREIOMAR LTDA.",
+          "BAIRROENT": "RECREIO DOS BANDEIRANTES",
           "DTULTCOMP": "22/01/2026",
           "produtos": [
             {
@@ -1333,7 +1463,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84157",
           "CLIENTE": "LAN X GAME COMERCIO DE CONVENIENCIAS LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "22/01/2026",
           "produtos": [
             {
@@ -1347,7 +1479,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84469",
           "CLIENTE": "INOVA RIO CONVENIENCIA LTDA",
+          "BAIRROENT": "ANDARAÍ",
           "DTULTCOMP": "22/01/2026",
           "produtos": [
             {
@@ -1361,7 +1495,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "51829",
           "CLIENTE": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "BAIRROENT": "MANGUINHOS/ ARMACAO DOS BUZIOS",
           "DTULTCOMP": "21/01/2026",
           "produtos": [
             {
@@ -1375,7 +1511,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82040",
           "CLIENTE": "POSTO NOVA SAO PEDRO LTDA",
+          "BAIRROENT": "NOVA SAO PEDRO",
           "DTULTCOMP": "20/01/2026",
           "produtos": [
             {
@@ -1385,7 +1523,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91261",
           "CLIENTE": "COUTIN DISTRIBUIDORA LTDA",
+          "BAIRROENT": "INHOAIBA",
           "DTULTCOMP": "19/01/2026",
           "produtos": [
             {
@@ -1395,7 +1535,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84103",
           "CLIENTE": "POSTO DE GASOLINA JOINHA LTDA",
+          "BAIRROENT": "PRACA SECA",
           "DTULTCOMP": "19/01/2026",
           "produtos": [
             {
@@ -1405,7 +1547,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "553",
           "CLIENTE": "POSTO MODELO JMLBG LTDA",
+          "BAIRROENT": "BOTAFOGO",
           "DTULTCOMP": "16/01/2026",
           "produtos": [
             {
@@ -1439,7 +1583,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83959",
           "CLIENTE": "PETROLEO E DERIVADOS PIRAQUE LTDA",
+          "BAIRROENT": "LAGOA",
           "DTULTCOMP": "16/01/2026",
           "produtos": [
             {
@@ -1461,7 +1607,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "6502",
           "CLIENTE": "POSTO DE GASOLINA JOCKEY RIO LTDA",
+          "BAIRROENT": "LEBLON",
           "DTULTCOMP": "16/01/2026",
           "produtos": [
             {
@@ -1483,7 +1631,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84331",
           "CLIENTE": "DR J - CONVENIENCIA LTDA",
+          "BAIRROENT": "CACUIA",
           "DTULTCOMP": "13/01/2026",
           "produtos": [
             {
@@ -1509,7 +1659,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2406",
           "CLIENTE": "PITUBA COMESTIVEIS LTDA - EPP",
+          "BAIRROENT": "BALDEADOR",
           "DTULTCOMP": "09/01/2026",
           "produtos": [
             {
@@ -1519,7 +1671,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "558",
           "CLIENTE": "POSTO DE BASTECIMENTO GALLENA LAGOA LTDA",
+          "BAIRROENT": "IPANEMA",
           "DTULTCOMP": "07/01/2026",
           "produtos": [
             {
@@ -1545,7 +1699,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91845",
           "CLIENTE": "B.S DE BRITO MERCEARIA TABACARIA FRIOS E DESCARTAVEIS LTDA",
+          "BAIRROENT": "PRAIA GRANDE",
           "DTULTCOMP": "06/01/2026",
           "produtos": [
             {
@@ -1563,7 +1719,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3538",
           "CLIENTE": "SUPERMERCADO PREMIUN VILA ISABEL LTDA",
+          "BAIRROENT": "VILA ISABEL",
           "DTULTCOMP": "30/12/2025",
           "produtos": [
             {
@@ -1573,7 +1731,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91976",
           "CLIENTE": "AUTO POSTO GIROMANILHA LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "30/12/2025",
           "produtos": [
             {
@@ -1583,7 +1743,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91411",
           "CLIENTE": "RESTAURANTE E CONVENIENCIA TERE BRASIL LTDA",
+          "BAIRROENT": "SANTA DALILA (SURUI)",
           "DTULTCOMP": "27/12/2025",
           "produtos": [
             {
@@ -1593,7 +1755,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91935",
           "CLIENTE": "MARCLAU COMERCIO DE COMBUSTIVEIS LTDA",
+          "BAIRROENT": "COVANCA",
           "DTULTCOMP": "26/12/2025",
           "produtos": [
             {
@@ -1607,7 +1771,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3543",
           "CLIENTE": "MERCADO FAMILLE LTDA",
+          "BAIRROENT": "PIEDADE",
           "DTULTCOMP": "26/12/2025",
           "produtos": [
             {
@@ -1617,7 +1783,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80337",
           "CLIENTE": "LA VIA PREFERIDA LANCHONETE LTDA",
+          "BAIRROENT": "FREGUESIA (JACAREPAGUA)",
           "DTULTCOMP": "26/12/2025",
           "produtos": [
             {
@@ -1631,7 +1799,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79919",
           "CLIENTE": "POSTO DE GASOLINA PORTAL DO ITANHANGA LTDA",
+          "BAIRROENT": "ITANHANGA",
           "DTULTCOMP": "23/12/2025",
           "produtos": [
             {
@@ -1645,7 +1815,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90264",
           "CLIENTE": "POSTO DE ABASTECIMENTO LIPE LTDA",
+          "BAIRROENT": "PILARES",
           "DTULTCOMP": "22/12/2025",
           "produtos": [
             {
@@ -1659,7 +1831,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "6543",
           "CLIENTE": "POSTO DE GASOLINA E BAR GAROA LTDA",
+          "BAIRROENT": "S?O CONRADO",
           "DTULTCOMP": "18/12/2025",
           "produtos": [
             {
@@ -1673,7 +1847,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "8086",
           "CLIENTE": "BARRA 3 POSTO DE GASOLINA LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "18/12/2025",
           "produtos": [
             {
@@ -1683,7 +1859,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79886",
           "CLIENTE": "CENTRO AUTOMOTIVO PACO DE SOUZA LTDA.",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "10/12/2025",
           "produtos": [
             {
@@ -1693,7 +1871,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83777",
           "CLIENTE": "GOL OLIMPICO COMBUSTIVEIS E SERVICOS LTDA",
+          "BAIRROENT": "ARSENAL",
           "DTULTCOMP": "10/12/2025",
           "produtos": [
             {
@@ -1711,7 +1891,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91260",
           "CLIENTE": "AUTO POSTO TREVO DE MAGE LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "05/12/2025",
           "produtos": [
             {
@@ -1781,7 +1963,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3537",
           "CLIENTE": "SUPERMERCADO PREMIUN DE COELHO NETO LTDA",
+          "BAIRROENT": "COELHO NETO",
           "DTULTCOMP": "04/12/2025",
           "produtos": [
             {
@@ -1827,7 +2011,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3539",
           "CLIENTE": "PREMIUN BELFORD ROXO SUPERMERCADO LTDA",
+          "BAIRROENT": "CENTRO- BELFORD ROXO",
           "DTULTCOMP": "03/12/2025",
           "produtos": [
             {
@@ -1841,7 +2027,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3544",
           "CLIENTE": "MERCADO ITATIAIA LTDA",
+          "BAIRROENT": "VILA ITAMARATI",
           "DTULTCOMP": "03/12/2025",
           "produtos": [
             {
@@ -1871,7 +2059,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "61923",
           "CLIENTE": "MERCADO NOVAS VENDAS CAMPO GRANDE LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "03/12/2025",
           "produtos": [
             {
@@ -1905,7 +2095,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83784",
           "CLIENTE": "JUBARTE CONVENIENCIA LTDA",
+          "BAIRROENT": "MANGUINHOS",
           "DTULTCOMP": "01/12/2025",
           "produtos": [
             {
@@ -1923,7 +2115,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3557",
           "CLIENTE": "SUPERMERCADO PREMIUN NOVA IGUAÇU LTDA",
+          "BAIRROENT": "COMENDADOR SOARES",
           "DTULTCOMP": "29/11/2025",
           "produtos": [
             {
@@ -1937,7 +2131,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3540",
           "CLIENTE": "SUPERMERCADO NEWS PREMIUN COMERCIO LTDA-",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "28/11/2025",
           "produtos": [
             {
@@ -1959,7 +2155,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "468",
           "CLIENTE": "JPX COMBUSTIVEL E CONVENIENCIA",
+          "BAIRROENT": "RECREIO",
           "DTULTCOMP": "21/11/2025",
           "produtos": [
             {
@@ -1969,7 +2167,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "20882",
           "CLIENTE": "POSTO BUZIOS DO FUTURO LTDA",
+          "BAIRROENT": "BAIA FORMOSA",
           "DTULTCOMP": "17/11/2025",
           "produtos": [
             {
@@ -1991,7 +2191,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "1116",
           "CLIENTE": "MLEJB COMERCIO E SERVICOS LTDA",
+          "BAIRROENT": "LARANJEIRAS",
           "DTULTCOMP": "13/11/2025",
           "produtos": [
             {
@@ -2001,7 +2203,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2119",
           "CLIENTE": "POSTO DE GASOLINA CORDEIRO LTDA",
+          "BAIRROENT": "FREGUESIA",
           "DTULTCOMP": "13/11/2025",
           "produtos": [
             {
@@ -2011,7 +2215,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2138",
           "CLIENTE": "AUTO POSTO PATINHO FEIO LTDA",
+          "BAIRROENT": "TIJUCA",
           "DTULTCOMP": "27/10/2025",
           "produtos": [
             {
@@ -2037,7 +2243,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3567",
           "CLIENTE": "POSTO DE GASOLINA KOHARA LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "22/10/2025",
           "produtos": [
             {
@@ -2055,7 +2263,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85957",
           "CLIENTE": "POSTO DE GASOLINA BELO DE CAPIVARI LTDA",
+          "BAIRROENT": "PARQUE DUQUE",
           "DTULTCOMP": "21/10/2025",
           "produtos": [
             {
@@ -2069,7 +2279,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "71390",
           "CLIENTE": "AUTO POSTO CONFIANCA DE NOVA IGUACU LTDA",
+          "BAIRROENT": "MOQUETA",
           "DTULTCOMP": "17/10/2025",
           "produtos": [
             {
@@ -2079,7 +2291,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84321",
           "CLIENTE": "J LOPES GONCALVES POSTO LTDA",
+          "BAIRROENT": "JACAREPAGUÁ",
           "DTULTCOMP": "16/10/2025",
           "produtos": [
             {
@@ -2105,7 +2319,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90642",
           "CLIENTE": "LOJA DE CONVENIENCIA REDE PARCEIRO BANDEIRANTES LTDA",
+          "BAIRROENT": "JACAREPAGUÁ",
           "DTULTCOMP": "13/10/2025",
           "produtos": [
             {
@@ -2115,7 +2331,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90643",
           "CLIENTE": "LOJA DE CONVENIENCIA VICOM LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "08/10/2025",
           "produtos": [
             {
@@ -2129,7 +2347,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2971",
           "CLIENTE": "VEREDASGAS AUTO POSTO LTDA",
+          "BAIRROENT": "PENHA CIRCULAR",
           "DTULTCOMP": "07/10/2025",
           "produtos": [
             {
@@ -2139,7 +2359,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "1626",
           "CLIENTE": "POSTO DE GASOLINA LORD BARRA SUL",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "30/09/2025",
           "produtos": [
             {
@@ -2157,7 +2379,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "74536",
           "CLIENTE": "NOVO AUTO POSTO SANTA MONICA LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "17/09/2025",
           "produtos": [
             {
@@ -2167,7 +2391,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82654",
           "CLIENTE": "PONEI POSTO DE GASOLINA LTDA",
+          "BAIRROENT": "LAGOA",
           "DTULTCOMP": "15/09/2025",
           "produtos": [
             {
@@ -2189,7 +2415,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "59221",
           "CLIENTE": "AST VOVO LEDA COMERCIO DE ALIMENTOS EIRELI",
+          "BAIRROENT": "PARQUE SANTA LUCIA",
           "DTULTCOMP": "12/09/2025",
           "produtos": [
             {
@@ -2199,7 +2427,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82383",
           "CLIENTE": "POSTO MARKEN MACAE LTDA",
+          "BAIRROENT": "COSTA DO SOL",
           "DTULTCOMP": "13/08/2025",
           "produtos": [
             {
@@ -2293,7 +2523,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84800",
           "CLIENTE": "EXPRESS CONVENIENCIA BINGEN LTDA",
+          "BAIRROENT": "BINGEN",
           "DTULTCOMP": "13/08/2025",
           "produtos": [
             {
@@ -2323,7 +2555,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "10339",
           "CLIENTE": "POSTO DE COMBUSTIVEIS ALLGAS LTDA",
+          "BAIRROENT": "RECREIO DOS BANDEIRANTES",
           "DTULTCOMP": "08/08/2025",
           "produtos": [
             {
@@ -2345,7 +2579,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "14120",
           "CLIENTE": "POSTO DE ABASTECIMENTO AMOR DA LEOPOLDINA LTDA ",
+          "BAIRROENT": "PENHA",
           "DTULTCOMP": "24/07/2025",
           "produtos": [
             {
@@ -2371,7 +2607,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84815",
           "CLIENTE": "EXPRESSO RJ CONVENIENCIA LTDA",
+          "BAIRROENT": "BINGEN",
           "DTULTCOMP": "04/06/2025",
           "produtos": [
             {
@@ -2433,7 +2671,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2161",
           "CLIENTE": "AUTO POSTO ALVORADA RIO LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "30/05/2025",
           "produtos": [
             {
@@ -2499,7 +2739,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3082",
           "CLIENTE": "POSTO DE GASOLINA ELTECON LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "30/05/2025",
           "produtos": [
             {
@@ -2569,7 +2811,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81150",
           "CLIENTE": "AUTO POSTO PARADA CERTA UM LTDA",
+          "BAIRROENT": "VILA SANTA ALICE",
           "DTULTCOMP": "13/02/2025",
           "produtos": [
             {
@@ -2579,7 +2823,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81713",
           "CLIENTE": "A S DA COSTA LOJA DE CONVENIENCIA",
+          "BAIRROENT": "TIJUCA",
           "DTULTCOMP": "27/01/2025",
           "produtos": [
             {
@@ -2589,7 +2835,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80468",
           "CLIENTE": "MERCADO E CONVENIENCIA VITORIA LTDA.",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "30/12/2024",
           "produtos": [
             {
@@ -2603,7 +2851,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "77890",
           "CLIENTE": "BR MANIA ABELARDO",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "13/11/2024",
           "produtos": [
             {
@@ -2613,7 +2863,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79257",
           "CLIENTE": "POSTO DE GASOLINA VIA 22 LTDA",
+          "BAIRROENT": "JARDIM IMPERIAL",
           "DTULTCOMP": "10/10/2024",
           "produtos": [
             {
@@ -2639,7 +2891,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79254",
           "CLIENTE": "TRES PODERES COMERCIO ALIMENTICIO LTDA",
+          "BAIRROENT": "JARDIM VINTE E CINCO DE AGOSTO",
           "DTULTCOMP": "10/10/2024",
           "produtos": [
             {
@@ -2665,7 +2919,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "11570",
           "CLIENTE": "POSTO 15 PADARIA E CONVENIENCIA LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "26/08/2024",
           "produtos": [
             {
@@ -2687,7 +2943,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76478",
           "CLIENTE": "LOJA DE CONVENIENCIA REDE PARCEIRO ANIL LTDA",
+          "BAIRROENT": "ANIL",
           "DTULTCOMP": "08/05/2024",
           "produtos": [
             {
@@ -2709,7 +2967,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "74140",
           "CLIENTE": "POSTO DE GASOLINA PRAIA DA BICA LTDA",
+          "BAIRROENT": "CACUIA",
           "DTULTCOMP": "19/12/2023",
           "produtos": [
             {
@@ -2719,7 +2979,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "4241",
           "CLIENTE": "M2LC CONVENIECIA DELIVERY LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "27/07/2023",
           "produtos": [
             {
@@ -2745,7 +3007,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "50904",
           "CLIENTE": "NOVO TEMPO COMERCIO DE BEBIDAS E CONVENIENCIAS EIRELI",
+          "BAIRROENT": "RECREIO DOS BANDEIRANTES",
           "DTULTCOMP": "07/07/2023",
           "produtos": [
             {
@@ -2767,7 +3031,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "51127",
           "CLIENTE": "TREVO DA DUTRA PADARIA, CONFEITARIA E RESTAURANTE LTDA.",
+          "BAIRROENT": "PRATA",
           "DTULTCOMP": "02/06/2023",
           "produtos": [
             {
@@ -2777,7 +3043,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "6596",
           "CLIENTE": "ALO MADRUGA IPANEMA ALIMENTOS LTDA",
+          "BAIRROENT": "IPANEMA",
           "DTULTCOMP": "23/05/2023",
           "produtos": [
             {
@@ -2795,7 +3063,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "9399",
           "CLIENTE": "AM BARRA COMERCIO DE ALIMENTOS LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "19/04/2023",
           "produtos": [
             {
@@ -2829,7 +3099,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "50754",
           "CLIENTE": "MTV VISTA ALEGRE COMERCIO DE BEBIDAS LTDA",
+          "BAIRROENT": "VISTA ALEGRE",
           "DTULTCOMP": "30/03/2023",
           "produtos": [
             {
@@ -2859,7 +3131,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "50527",
           "CLIENTE": "DISTRIBUIDORA E COMERCIO DE BEBIDAS BERALDO LTDA",
+          "BAIRROENT": "RECREIO DOS BANDEIRANTES",
           "DTULTCOMP": "28/03/2023",
           "produtos": [
             {
@@ -2873,7 +3147,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "70809",
           "CLIENTE": "S. FINAMOR GARCIA CONVENIENCIAS LTDA",
+          "BAIRROENT": "MANGUINHOS",
           "DTULTCOMP": "03/01/2023",
           "produtos": [
             {
@@ -2887,7 +3163,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "54389",
           "CLIENTE": "FARAH MANIA CONVENIENCIA LTDA",
+          "BAIRROENT": "JACARE/ CABO FRIO",
           "DTULTCOMP": "20/12/2022",
           "produtos": [
             {
@@ -2917,7 +3195,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2474",
           "CLIENTE": "QUIOSQUE DA TIA TONHA LANCHES LTDA",
+          "BAIRROENT": "TROBOBÓ",
           "DTULTCOMP": "16/12/2022",
           "produtos": [
             {
@@ -2927,7 +3207,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "14766",
           "CLIENTE": "R&R VCO COMERCIO DE ALIMENTOS LTDA ",
+          "BAIRROENT": "BOTAFOGO",
           "DTULTCOMP": "10/10/2022",
           "produtos": [
             {
@@ -2937,7 +3219,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "1862",
           "CLIENTE": "POSTO DE GASOLINA BOUGAINVILLE LTDA",
+          "BAIRROENT": "ANDARAÍ",
           "DTULTCOMP": "07/10/2022",
           "produtos": [
             {
@@ -2947,7 +3231,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "4977",
           "CLIENTE": "ROCHA COMERCIO DE ALIMENTOS, BEBIDAS E P",
+          "BAIRROENT": "BAIA FORMOSA ",
           "DTULTCOMP": "15/07/2022",
           "produtos": [
             {
@@ -3007,7 +3293,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "89936",
           "CLIENTE": "POSTO DE GASOLINA SANTA BARBARA DO MEIER LTDA",
+          "BAIRROENT": "MEIER",
           "DTULTCOMP": "23/03/2026",
           "produtos": [
             {
@@ -3017,7 +3305,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93388",
           "CLIENTE": "SUPERMERCADOS ADONAI LTDA",
+          "BAIRROENT": "VARGEM PEQUENA",
           "DTULTCOMP": "23/03/2026",
           "produtos": [
             {
@@ -3027,7 +3317,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92342",
           "CLIENTE": "AUTO POSTO 3F LTDA",
+          "BAIRROENT": "GLÓRIA",
           "DTULTCOMP": "28/02/2026",
           "produtos": [
             {
@@ -3037,7 +3329,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90885",
           "CLIENTE": "DROGARIA KERO DO PRE LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "27/02/2026",
           "produtos": [
             {
@@ -3071,7 +3365,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90886",
           "CLIENTE": "DROGARIA CRAQUE DO SANTISSIMO LTDA",
+          "BAIRROENT": "SANTÍSSIMO",
           "DTULTCOMP": "27/02/2026",
           "produtos": [
             {
@@ -3105,7 +3401,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89944",
           "CLIENTE": "SAO BENTO DE ITAIPU AUTO POSTO LTDA",
+          "BAIRROENT": "SERRA GRANDE",
           "DTULTCOMP": "27/02/2026",
           "produtos": [
             {
@@ -3119,7 +3417,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89937",
           "CLIENTE": "POSTO GARAGEM NOVO MODELO LTDA",
+          "BAIRROENT": "BONSUCESSO",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
             {
@@ -3133,7 +3433,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "78327",
           "CLIENTE": "ARCANJO EXPRESS CONVENIENCIA LTDA",
+          "BAIRROENT": "SENADOR VASCONCELOS",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
             {
@@ -3151,7 +3453,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82474",
           "CLIENTE": "MERCADOS BRAGA LTDA",
+          "BAIRROENT": "SANTISSIMO",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -3169,7 +3473,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89940",
           "CLIENTE": "AUTO POSTO TORONTO LTDA.",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -3183,7 +3489,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86454",
           "CLIENTE": "COSTA VERDE GASTRONOMIA LTDA",
+          "BAIRROENT": "BRISA MAR",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -3205,7 +3513,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90883",
           "CLIENTE": "GUARAGAS DO BRASIL POSTO DE GASOLINA LTDA",
+          "BAIRROENT": "GUARATIBA",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -3243,7 +3553,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90884",
           "CLIENTE": "FGA CONVENIENCIA LTDA",
+          "BAIRROENT": "GUARATIBA",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -3257,7 +3569,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76836",
           "CLIENTE": "POSTO DE ABASTECIMENTO AIMEE LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "18/02/2026",
           "produtos": [
             {
@@ -3267,7 +3581,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76233",
           "CLIENTE": "LOJA NOVO PEDAGIO CONVENIENCIA LTDA",
+          "BAIRROENT": "SANTA ALICE",
           "DTULTCOMP": "10/02/2026",
           "produtos": [
             {
@@ -3277,7 +3593,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79441",
           "CLIENTE": "STOP MANIA IGUACU LTDA",
+          "BAIRROENT": "SANTA RITA",
           "DTULTCOMP": "06/02/2026",
           "produtos": [
             {
@@ -3295,7 +3613,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "4321",
           "CLIENTE": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
+          "BAIRROENT": "PARQUE DUQUE",
           "DTULTCOMP": "05/02/2026",
           "produtos": [
             {
@@ -3313,7 +3633,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79479",
           "CLIENTE": "POSTO LIGHT HIGHWAY LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "05/02/2026",
           "produtos": [
             {
@@ -3335,7 +3657,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3078",
           "CLIENTE": "POSTO DE ABASTECIMENTO BARRA MONTEIRO",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "02/02/2026",
           "produtos": [
             {
@@ -3349,7 +3673,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76866",
           "CLIENTE": "SHEKINAH DE CAMPO GRANDE LIMITADA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "02/02/2026",
           "produtos": [
             {
@@ -3379,7 +3705,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86141",
           "CLIENTE": "BOOM LOJA DE CONVENIENCIA LTDA",
+          "BAIRROENT": "PACIENCIA",
           "DTULTCOMP": "02/02/2026",
           "produtos": [
             {
@@ -3393,7 +3721,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91904",
           "CLIENTE": "DROGARIAS DIAS LIMA JH LTDA",
+          "BAIRROENT": "GUARATIBA",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -3403,7 +3733,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91905",
           "CLIENTE": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
+          "BAIRROENT": "SEPETIBA",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -3413,7 +3745,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89949",
           "CLIENTE": "AUTO POSTO REDE PARCEIRO NILOPOLIS LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "27/01/2026",
           "produtos": [
             {
@@ -3439,7 +3773,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89952",
           "CLIENTE": "POSTO DE COMBUSTIVEIS BICUIBA BRANCA LTDA",
+          "BAIRROENT": "BICUIBA",
           "DTULTCOMP": "27/01/2026",
           "produtos": [
             {
@@ -3453,7 +3789,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91169",
           "CLIENTE": "ANA CRISTINA SILVA DE OLIVEIRA 93458495720",
+          "BAIRROENT": "PADRE MIGUEL",
           "DTULTCOMP": "27/01/2026",
           "produtos": [
             {
@@ -3483,7 +3821,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "74669",
           "CLIENTE": "PARADA OESTE III CONVENIENCIAS LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "26/01/2026",
           "produtos": [
             {
@@ -3493,7 +3833,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92977",
           "CLIENTE": "POSTO MANEIRINHO LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "23/01/2026",
           "produtos": [
             {
@@ -3507,7 +3849,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82147",
           "CLIENTE": "PERY COMERCIO E PARTICIPACOES LTDA",
+          "BAIRROENT": "PACIENCIA",
           "DTULTCOMP": "22/01/2026",
           "produtos": [
             {
@@ -3529,7 +3873,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92978",
           "CLIENTE": "POSTO DE GASOLINA ESPLANADA DO CASTELO LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "21/01/2026",
           "produtos": [
             {
@@ -3543,7 +3889,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89948",
           "CLIENTE": "POSTO DE SERVICO BRASIL LTDA",
+          "BAIRROENT": "SAO LOURENCO",
           "DTULTCOMP": "12/01/2026",
           "produtos": [
             {
@@ -3553,7 +3901,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "30602",
           "CLIENTE": "GIGABYTE LOJA DE CONVENIENCIA LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "09/01/2026",
           "produtos": [
             {
@@ -3563,7 +3913,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86299",
           "CLIENTE": "61.287.142 BRUNA CRISTIANE SOUZA SILVA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "08/01/2026",
           "produtos": [
             {
@@ -3577,7 +3929,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90153",
           "CLIENTE": "LANCHES SERVVERDE LTDA",
+          "BAIRROENT": "MURIQUI",
           "DTULTCOMP": "07/01/2026",
           "produtos": [
             {
@@ -3587,7 +3941,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84052",
           "CLIENTE": "DROGARIA E PERFUMARIA LAEL LTDA",
+          "BAIRROENT": "BANGU",
           "DTULTCOMP": "07/01/2026",
           "produtos": [
             {
@@ -3597,7 +3953,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89943",
           "CLIENTE": "POSTO DE GASOLINA GURUPI LIMITADA",
+          "BAIRROENT": "GRAJAU",
           "DTULTCOMP": "07/01/2026",
           "produtos": [
             {
@@ -3607,7 +3965,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3077",
           "CLIENTE": "AUTO CENTER DUDUCA LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "05/01/2026",
           "produtos": [
             {
@@ -3621,7 +3981,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79324",
           "CLIENTE": "BRITO'S ALIMENTOS LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "30/12/2025",
           "produtos": [
             {
@@ -3631,7 +3993,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90363",
           "CLIENTE": "MERCADO REI DA PEDRA DE GUARATIBA LTDA",
+          "BAIRROENT": "PEDRA DE GUARATIBA",
           "DTULTCOMP": "30/12/2025",
           "produtos": [
             {
@@ -3657,7 +4021,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91906",
           "CLIENTE": "FARMACIA DIAS DE GUARATIBA LTDA",
+          "BAIRROENT": "GUARATIBA",
           "DTULTCOMP": "30/12/2025",
           "produtos": [
             {
@@ -3667,7 +4033,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83754",
           "CLIENTE": "LOJA DE CONVENIENCIA ALTERNATO ALVES DE FREITAS LTDA",
+          "BAIRROENT": "LAGES",
           "DTULTCOMP": "29/12/2025",
           "produtos": [
             {
@@ -3685,7 +4053,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80863",
           "CLIENTE": "DROGARIA E PERFUMARIA DA ROOSEVELT LTDA",
+          "BAIRROENT": "PARQUE URUGUAIANA",
           "DTULTCOMP": "19/12/2025",
           "produtos": [
             {
@@ -3695,7 +4065,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82244",
           "CLIENTE": "AUTO POSTO NOVO INTENDENTE LTDA",
+          "BAIRROENT": "BENTO RIBEIRO",
           "DTULTCOMP": "17/12/2025",
           "produtos": [
             {
@@ -3705,7 +4077,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2869",
           "CLIENTE": "POSTO DE GASOLINA BOA FE LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "16/12/2025",
           "produtos": [
             {
@@ -3727,7 +4101,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79480",
           "CLIENTE": "ENZO QUEIMADOS LTDA.",
+          "BAIRROENT": "VILA PACAEMBU",
           "DTULTCOMP": "10/12/2025",
           "produtos": [
             {
@@ -3745,7 +4121,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "59638",
           "CLIENTE": "DARLAN DE OLIVEIRA ROHEM MOREIRA 14701380776",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "09/12/2025",
           "produtos": [
             {
@@ -3755,7 +4133,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89938",
           "CLIENTE": "AUTO POSTO GERANIUS CAFUBA LTDA",
+          "BAIRROENT": "PIRATININGA",
           "DTULTCOMP": "04/12/2025",
           "produtos": [
             {
@@ -3769,7 +4149,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86303",
           "CLIENTE": "POSTO DE GASOLINA SANTANA LIMITADA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "27/11/2025",
           "produtos": [
             {
@@ -3787,7 +4169,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86306",
           "CLIENTE": "CP3 - CONVENIENCIA LTDA",
+          "BAIRROENT": "BRISA MAR",
           "DTULTCOMP": "27/11/2025",
           "produtos": [
             {
@@ -3817,7 +4201,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82911",
           "CLIENTE": "AUTO POSTO AVENIDA CENTRAL DE IRAJA LTDA",
+          "BAIRROENT": "VIGARIO GERAL",
           "DTULTCOMP": "26/11/2025",
           "produtos": [
             {
@@ -3827,7 +4213,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76926",
           "CLIENTE": "AUTO POSTO DE ABASTECIMENTO DO PRE LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "19/11/2025",
           "produtos": [
             {
@@ -3841,7 +4229,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82704",
           "CLIENTE": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "BAIRROENT": "JD. RIVIERA",
           "DTULTCOMP": "18/11/2025",
           "produtos": [
             {
@@ -3863,7 +4253,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90670",
           "CLIENTE": "POSTO PODIUM DE TERESOPOLIS LTDA",
+          "BAIRROENT": "VARZEA",
           "DTULTCOMP": "18/11/2025",
           "produtos": [
             {
@@ -3893,7 +4285,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3081",
           "CLIENTE": "AUTO POSTO ARARAJUBA LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "05/11/2025",
           "produtos": [
             {
@@ -3903,7 +4297,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83566",
           "CLIENTE": "DROGARIA CANEPPA FARMA LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "31/10/2025",
           "produtos": [
             {
@@ -3937,7 +4333,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79449",
           "CLIENTE": "AMOREIRAS INDUSTRIA E COMERCIO LTDA",
+          "BAIRROENT": "COSMOS",
           "DTULTCOMP": "23/10/2025",
           "produtos": [
             {
@@ -3947,7 +4345,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76806",
           "CLIENTE": "DELI DA JUJU PADARIA E CONFEITARIA LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "22/10/2025",
           "produtos": [
             {
@@ -3957,7 +4357,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81287",
           "CLIENTE": "DROGARIA E PERFUMARIA SAO FIDELIS LTDA",
+          "BAIRROENT": "PIABETA (INHOMIRIM)",
           "DTULTCOMP": "16/10/2025",
           "produtos": [
             {
@@ -3979,7 +4381,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "74746",
           "CLIENTE": "POSTO DE SERVICOS ALIANCA DE CAMPO GRANDE LTDA",
+          "BAIRROENT": "SENADOR VASCONCELOS",
           "DTULTCOMP": "16/10/2025",
           "produtos": [
             {
@@ -3989,7 +4393,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "14267",
           "CLIENTE": "POSTO DE COMBUSTIVEIS AMOR DE BANGU LTDA",
+          "BAIRROENT": "PADRE MIGUEL",
           "DTULTCOMP": "08/10/2025",
           "produtos": [
             {
@@ -3999,7 +4405,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "74681",
           "CLIENTE": "AUTO POSTO MARRAKESHY LTDA",
+          "BAIRROENT": "JARDIM MERITI",
           "DTULTCOMP": "07/10/2025",
           "produtos": [
             {
@@ -4013,7 +4421,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "67045",
           "CLIENTE": "CJ DE ITACURUCA LANCHONETE EIRELI",
+          "BAIRROENT": "ITACURUCA",
           "DTULTCOMP": "01/10/2025",
           "produtos": [
             {
@@ -4023,7 +4433,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81961",
           "CLIENTE": "DROGARIA E PERFUMARIA PERIMETRAL DO ROSARIO LTDA",
+          "BAIRROENT": "JARDIM PRIMAVERA",
           "DTULTCOMP": "29/09/2025",
           "produtos": [
             {
@@ -4049,7 +4461,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81373",
           "CLIENTE": "DE GUSTO PADARIA E LANCHONETE LTDA",
+          "BAIRROENT": "PEDRA DE GUARATIBA",
           "DTULTCOMP": "11/09/2025",
           "produtos": [
             {
@@ -4063,7 +4477,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81288",
           "CLIENTE": "DROGARIA CONSELHEIRO MACEDO SOARES LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "04/09/2025",
           "produtos": [
             {
@@ -4073,7 +4489,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80789",
           "CLIENTE": "DROGARIA E PERFUMARIA VILA IMPERIAL LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "02/09/2025",
           "produtos": [
             {
@@ -4083,7 +4501,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80961",
           "CLIENTE": "DROGARIA E PERFUMARIA CENTRO RIO LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "28/08/2025",
           "produtos": [
             {
@@ -4093,7 +4513,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76928",
           "CLIENTE": "AUTO CENTER MAYARA LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "28/08/2025",
           "produtos": [
             {
@@ -4107,7 +4529,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81963",
           "CLIENTE": "DROGARIA LAMEIRAO DA POSSE LTDA",
+          "BAIRROENT": "JARDIM SANTANA DO PILAR",
           "DTULTCOMP": "14/07/2025",
           "produtos": [
             {
@@ -4137,7 +4561,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76977",
           "CLIENTE": "DROGARIA E PERFUMARIA EDNA DINIZ LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "11/07/2025",
           "produtos": [
             {
@@ -4151,7 +4577,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "72881",
           "CLIENTE": "PEDRO HENRIQUE PIMENTEL CASTRO 14984459778",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "20/05/2025",
           "produtos": [
             {
@@ -4213,7 +4641,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81289",
           "CLIENTE": "DROGARIA CASA DO REMEDIO LTDA",
+          "BAIRROENT": "SANTA LUZIA",
           "DTULTCOMP": "09/05/2025",
           "produtos": [
             {
@@ -4223,7 +4653,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79442",
           "CLIENTE": "AMIGO DA RODOVIA AUTO POSTO LTDA",
+          "BAIRROENT": "INDUSTRIAL",
           "DTULTCOMP": "29/04/2025",
           "produtos": [
             {
@@ -4241,7 +4673,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76889",
           "CLIENTE": "POSTO DE GASOLINA PINA RANGEL LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "06/12/2024",
           "produtos": [
             {
@@ -4305,7 +4739,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "83909",
           "CLIENTE": "SUPERMERCADO TRADICAO RJ LTDA",
+          "BAIRROENT": "MANTIQUIRA",
           "DTULTCOMP": "20/03/2026",
           "produtos": [
             {
@@ -4323,7 +4759,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84059",
           "CLIENTE": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
+          "BAIRROENT": "PENHA CIRCULAR",
           "DTULTCOMP": "20/03/2026",
           "produtos": [
             {
@@ -4361,7 +4799,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90486",
           "CLIENTE": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "BAIRROENT": "JARDIM SAO JORGE",
           "DTULTCOMP": "20/03/2026",
           "produtos": [
             {
@@ -4395,7 +4835,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92391",
           "CLIENTE": "SUPERMERCADO MARECHAL R.A LTDA",
+          "BAIRROENT": "RICARDO DE ALBUQUERQUE",
           "DTULTCOMP": "20/03/2026",
           "produtos": [
             {
@@ -4417,7 +4859,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93867",
           "CLIENTE": "HORTIFRUTI NUNES COMERCIO ALIMENTICIOS LTDA",
+          "BAIRROENT": "VILA ISABEL",
           "DTULTCOMP": "13/03/2026",
           "produtos": [
             {
@@ -4431,7 +4875,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84202",
           "CLIENTE": "SUPERMERCADO RIO SUL DO PANTANAL LTDA",
+          "BAIRROENT": "VILA SANTO ANTÔNIO",
           "DTULTCOMP": "27/02/2026",
           "produtos": [
             {
@@ -4441,7 +4887,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86494",
           "CLIENTE": "VICTOR HUGO SOARES TEIXEIRA 13550375735",
+          "BAIRROENT": "JARDIM GUANABARA",
           "DTULTCOMP": "27/02/2026",
           "produtos": [
             {
@@ -4451,7 +4899,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84320",
           "CLIENTE": "MERCADO JV DUQUE DE CAXIAS LTDA",
+          "BAIRROENT": "PARQUE NOVA ESPERANÇA",
           "DTULTCOMP": "26/02/2026",
           "produtos": [
             {
@@ -4489,7 +4939,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90880",
           "CLIENTE": "FERNANDO DOS SANTOS LOCACOES DE ARTIGOS PARA FESTA",
+          "BAIRROENT": "QUISSAMA",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
             {
@@ -4515,7 +4967,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91626",
           "CLIENTE": "POSTO DE GASOLINA GIGANTE DA WASHINGTON LUIZ LTDA",
+          "BAIRROENT": "VILA ACTURA",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -4525,7 +4979,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84066",
           "CLIENTE": "PREDILECTA DE XEREM COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+          "BAIRROENT": "XERÉM",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -4535,7 +4991,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91149",
           "CLIENTE": "MERCADO RIO SUL PARADA MODELO LTDA",
+          "BAIRROENT": "PARADA MODELO",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -4545,7 +5003,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91150",
           "CLIENTE": "MERCADO DE GUAPIMIRIM RJ LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -4575,7 +5035,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91559",
           "CLIENTE": "SAAR COMERCIAL DE BEBIDAS E MERCEARIA LTDA",
+          "BAIRROENT": "VILA SARAPUÍ",
           "DTULTCOMP": "20/02/2026",
           "produtos": [
             {
@@ -4593,7 +5055,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "50448",
           "CLIENTE": "MERCADO E DISTRIBUIDORA SUPER ECONOMICO DE FRAGOSO DE MAGE L",
+          "BAIRROENT": "VILA SERRANA (VILA INHOMIRIM)",
           "DTULTCOMP": "20/02/2026",
           "produtos": [
             {
@@ -4603,7 +5067,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91119",
           "CLIENTE": "MERCADO LEAL LTDA",
+          "BAIRROENT": "OLAVO BILAC",
           "DTULTCOMP": "20/02/2026",
           "produtos": [
             {
@@ -4613,7 +5079,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90669",
           "CLIENTE": "HORA DO DOCE LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "20/02/2026",
           "produtos": [
             {
@@ -4623,7 +5091,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84931",
           "CLIENTE": "PAULO DO CARMO MAGALHAES MERCEARIA",
+          "BAIRROENT": "CAMPOS ELÍSEOS",
           "DTULTCOMP": "20/02/2026",
           "produtos": [
             {
@@ -4637,7 +5107,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90341",
           "CLIENTE": "CLAUDIA HONORIO DE LIMA ASSIS 03369320738",
+          "BAIRROENT": "CHACARAS ARCAMPO",
           "DTULTCOMP": "20/02/2026",
           "produtos": [
             {
@@ -4655,7 +5127,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84126",
           "CLIENTE": "R L CORDEIRO COMERCIO LTDA",
+          "BAIRROENT": "NOVA CAMPINAS",
           "DTULTCOMP": "20/02/2026",
           "produtos": [
             {
@@ -4669,7 +5143,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "60349",
           "CLIENTE": "CEREAIS IRENE LTDA",
+          "BAIRROENT": "PARQUE PAULISTA",
           "DTULTCOMP": "09/02/2026",
           "produtos": [
             {
@@ -4679,7 +5155,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91576",
           "CLIENTE": "SUPERMERCADO JAPERI LTDA",
+          "BAIRROENT": "NOVA BELEM",
           "DTULTCOMP": "06/02/2026",
           "produtos": [
             {
@@ -4705,7 +5183,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84250",
           "CLIENTE": "SUPERMERCADO RIO SUL DE NILOPOLIS LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "04/02/2026",
           "produtos": [
             {
@@ -4719,7 +5199,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "75125",
           "CLIENTE": "MERCADO RIO SUL DE PIABETA LTDA",
+          "BAIRROENT": "PIABETÁ (INHOMIRIM)",
           "DTULTCOMP": "30/01/2026",
           "produtos": [
             {
@@ -4729,7 +5211,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92969",
           "CLIENTE": "A . B & NETOS COMERCIO E DISTRIBUIDORA - LTDA",
+          "BAIRROENT": "VILA SANTA CRUZ",
           "DTULTCOMP": "28/01/2026",
           "produtos": [
             {
@@ -4739,7 +5223,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83627",
           "CLIENTE": "MERCADO SANTO ALEIXO RJ LTDA",
+          "BAIRROENT": "VILA VELHA (SANTO ALEIXO)",
           "DTULTCOMP": "19/01/2026",
           "produtos": [
             {
@@ -4749,7 +5235,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "78072",
           "CLIENTE": "MERCADO RIO SUL DE SANTA CRUZ DA SERRA LTDA",
+          "BAIRROENT": "VILA SANTA CRUZ",
           "DTULTCOMP": "06/01/2026",
           "produtos": [
             {
@@ -4763,7 +5251,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91680",
           "CLIENTE": "SAL DA TERRA COMERCIO ATACADISTA LTDA",
+          "BAIRROENT": "PARQUE BOM RETIRO",
           "DTULTCOMP": "19/12/2025",
           "produtos": [
             {
@@ -4785,7 +5275,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84489",
           "CLIENTE": "MERCADO RIO SUL DE SURUI LTDA",
+          "BAIRROENT": "CENTRO (SURUÍ)",
           "DTULTCOMP": "15/12/2025",
           "produtos": [
             {
@@ -4799,7 +5291,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84310",
           "CLIENTE": "VILA SANTA CRUZ COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+          "BAIRROENT": "SANTA CRUZ DA SERRA",
           "DTULTCOMP": "09/12/2025",
           "produtos": [
             {
@@ -4817,7 +5311,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91501",
           "CLIENTE": "CESTA DE ALIMENTOS BRASIL LTDA",
+          "BAIRROENT": "QUISSAMA",
           "DTULTCOMP": "01/12/2025",
           "produtos": [
             {
@@ -4843,7 +5339,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84111",
           "CLIENTE": "C.H.S.BANDEIRA - COMERCIO DE ALIMENTOS",
+          "BAIRROENT": "PARQUE PAULISTA",
           "DTULTCOMP": "27/11/2025",
           "produtos": [
             {
@@ -4853,7 +5351,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "75124",
           "CLIENTE": "MERCADO RIO SUL DE FRAGOSO LTDA",
+          "BAIRROENT": "VILA SERRANA (VILA INHOMIRIM)",
           "DTULTCOMP": "21/11/2025",
           "produtos": [
             {
@@ -4867,7 +5367,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89956",
           "CLIENTE": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "BAIRROENT": "HELIOPOLIS",
           "DTULTCOMP": "21/11/2025",
           "produtos": [
             {
@@ -4905,7 +5407,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91575",
           "CLIENTE": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "BAIRROENT": "VILA SAO LUIS",
           "DTULTCOMP": "21/11/2025",
           "produtos": [
             {
@@ -4943,7 +5447,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91055",
           "CLIENTE": "MARCIOCHOPP ALIMENTOS E BEBIDAS LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "11/11/2025",
           "produtos": [
             {
@@ -4953,7 +5459,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85962",
           "CLIENTE": "SUPERMERCADO RIO SUL DE VARZEA LTDA",
+          "BAIRROENT": "VARZEA",
           "DTULTCOMP": "31/10/2025",
           "produtos": [
             {
@@ -5003,7 +5511,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90869",
           "CLIENTE": "SUPERMERCADO MAIS ECONOMIA LTDA",
+          "BAIRROENT": "CARANGOLA",
           "DTULTCOMP": "29/10/2025",
           "produtos": [
             {
@@ -5029,7 +5539,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "74091",
           "CLIENTE": "DISTRIBUIDORA MARCIOCHOPP LTDA",
+          "BAIRROENT": "VILA NORMA",
           "DTULTCOMP": "24/10/2025",
           "produtos": [
             {
@@ -5055,7 +5567,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84154",
           "CLIENTE": "NOSSA PROMESSA SUPERMERCADO LTDA",
+          "BAIRROENT": "PARQUE SAO JOAO",
           "DTULTCOMP": "21/10/2025",
           "produtos": [
             {
@@ -5077,7 +5591,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82892",
           "CLIENTE": "ATACADAO CENTRAL DE CAXIAS LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "21/10/2025",
           "produtos": [
             {
@@ -5087,7 +5603,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90868",
           "CLIENTE": "SUPERMERCADO GRG DE MAUA LTDA",
+          "BAIRROENT": "CENTRO (SURUI)",
           "DTULTCOMP": "16/10/2025",
           "produtos": [
             {
@@ -5113,7 +5631,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90867",
           "CLIENTE": "MINIMERCADO VOVO CELMA LTDA",
+          "BAIRROENT": "PRAIA DA ESPERANÇA GUIA DE PACOBAIBA",
           "DTULTCOMP": "16/10/2025",
           "produtos": [
             {
@@ -5135,7 +5655,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90864",
           "CLIENTE": "SUPERMERCADO GRG LTDA",
+          "BAIRROENT": "VILA SANTA ALICE",
           "DTULTCOMP": "15/10/2025",
           "produtos": [
             {
@@ -5169,7 +5691,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83583",
           "CLIENTE": "RB DISTRIBUIDORA DE ALIMENTOS 2017 LTDA",
+          "BAIRROENT": "VILA LEOPOLDINA",
           "DTULTCOMP": "09/10/2025",
           "produtos": [
             {
@@ -5183,7 +5707,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83551",
           "CLIENTE": "HORTI PRIME BRASIL PADARIA E CONFEITARIA LTDA",
+          "BAIRROENT": "JARDIM PRIMAVERA",
           "DTULTCOMP": "01/10/2025",
           "produtos": [
             {
@@ -5197,7 +5723,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "77807",
           "CLIENTE": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "BAIRROENT": "PILAR",
           "DTULTCOMP": "29/08/2025",
           "produtos": [
             {
@@ -5215,7 +5743,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79925",
           "CLIENTE": "ARMAZEM DO GRAO LTDA",
+          "BAIRROENT": "BINGEN",
           "DTULTCOMP": "26/08/2025",
           "produtos": [
             {
@@ -5237,7 +5767,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "58811",
           "CLIENTE": "CEREAIS MARREQUINHO DE NOVA CAMPINAS LTDA",
+          "BAIRROENT": "PARQUE PAULISTA",
           "DTULTCOMP": "10/07/2025",
           "produtos": [
             {
@@ -5251,7 +5783,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85463",
           "CLIENTE": "MERCEARIA FIDELENCE LTDA",
+          "BAIRROENT": "CAMPOS ELÍSEOS",
           "DTULTCOMP": "04/07/2025",
           "produtos": [
             {
@@ -5297,9 +5831,15 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85375",
           "CLIENTE": "MERCEARIAS SUPERMIX LTDA",
+          "BAIRROENT": "ANDORINHAS (SANTO ALEIXO)",
           "DTULTCOMP": "02/07/2025",
           "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "PAPEL TOALHA BELI CHEF 1PTX2 ROLOS"
+            },
             {
               "FANTASIA": "",
               "DESCRICAO": "PAPEL TOALHA BELI CHEF 1PTX2 ROLOS"
@@ -5307,7 +5847,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83872",
           "CLIENTE": "MERCADO AVENIDA SP LTDA",
+          "BAIRROENT": "PARQUE MARILANDIA",
           "DTULTCOMP": "25/06/2025",
           "produtos": [
             {
@@ -5337,7 +5879,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "72277",
           "CLIENTE": "PAULINHO DISTRIBUIDORA DE BEBIDAS E MERCEARIA LTDA",
+          "BAIRROENT": "ANCHIETA",
           "DTULTCOMP": "18/06/2025",
           "produtos": [
             {
@@ -5375,7 +5919,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84836",
           "CLIENTE": "MERCEARIA ESTRELA DA PRIMAVERA LTDA",
+          "BAIRROENT": "JARDIM SANTANA DO PILAR",
           "DTULTCOMP": "06/06/2025",
           "produtos": [
             {
@@ -5397,7 +5943,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84226",
           "CLIENTE": "MERCEARIA E BAR DA MOITA LTDA",
+          "BAIRROENT": "CHÁCARAS RIO-PETRÓPOLIS",
           "DTULTCOMP": "23/05/2025",
           "produtos": [
             {
@@ -5411,7 +5959,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84464",
           "CLIENTE": "ALFA DOCES DE XEREM COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "BAIRROENT": "VILA SANTA ALICE",
           "DTULTCOMP": "21/05/2025",
           "produtos": [
             {
@@ -5437,7 +5987,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84311",
           "CLIENTE": "BAOO MARKET XEREM LTDA",
+          "BAIRROENT": "MANTIQUIRA",
           "DTULTCOMP": "13/05/2025",
           "produtos": [
             {
@@ -5507,7 +6059,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84185",
           "CLIENTE": "MERCADO BEM VINDO IMBARIE LTDA",
+          "BAIRROENT": "IMBARIE",
           "DTULTCOMP": "06/05/2025",
           "produtos": [
             {
@@ -5533,7 +6087,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "60682",
           "CLIENTE": "CESTA DE ALIMENTOS BRASIL",
+          "BAIRROENT": "CHACARA RIO PETROPOLIS",
           "DTULTCOMP": "08/11/2023",
           "produtos": [
             {
@@ -5593,7 +6149,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "67821",
           "CLIENTE": "SUPERMERCADO BARRA OESTE LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "20/03/2026",
           "produtos": [
             {
@@ -5603,7 +6161,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "16159",
           "CLIENTE": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
+          "BAIRROENT": "PENHA CIRCULAR",
           "DTULTCOMP": "28/02/2026",
           "produtos": [
             {
@@ -5613,7 +6173,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90426",
           "CLIENTE": "46.920.770 IGOR BARCELOS DE ARAUJO",
+          "BAIRROENT": "MARIA PAULA",
           "DTULTCOMP": "26/02/2026",
           "produtos": [
             {
@@ -5635,7 +6197,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "7755",
           "CLIENTE": "IMBATIVEL SUPERMERCADOS LTDA",
+          "BAIRROENT": "PIRATININGA",
           "DTULTCOMP": "13/01/2026",
           "produtos": [
             {
@@ -5645,7 +6209,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91791",
           "CLIENTE": "ALFA E OMEGA MERCADO LTDA",
+          "BAIRROENT": "JARDIM JOSE BONIFACIO",
           "DTULTCOMP": "06/12/2025",
           "produtos": [
             {
@@ -5683,7 +6249,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91152",
           "CLIENTE": "REVAYAH CORRETAGEM DE SEGUROS LTDA",
+          "BAIRROENT": "FONSECA",
           "DTULTCOMP": "21/11/2025",
           "produtos": [
             {
@@ -5705,7 +6273,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "59686",
           "CLIENTE": "POLISUPER DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "BAIRROENT": "SEPETIBA",
           "DTULTCOMP": "10/11/2025",
           "produtos": [
             {
@@ -5719,7 +6289,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3015",
           "CLIENTE": "GERMANS DISTRIBUIDORA DE COMESTIVEIS LTDA",
+          "BAIRROENT": "CORDOVIL",
           "DTULTCOMP": "06/11/2025",
           "produtos": [
             {
@@ -5733,7 +6305,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "6940",
           "CLIENTE": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "BAIRROENT": "PADRE MIGUEL",
           "DTULTCOMP": "17/10/2025",
           "produtos": [
             {
@@ -5743,7 +6317,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84179",
           "CLIENTE": "SUPERMERCADO MUITO MAIS VOCE LTDA",
+          "BAIRROENT": "ROCHA MIRANDA",
           "DTULTCOMP": "08/10/2025",
           "produtos": [
             {
@@ -5773,7 +6349,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83341",
           "CLIENTE": "MERCADO NOVO IRAJA LTDA",
+          "BAIRROENT": "IRAJA",
           "DTULTCOMP": "03/04/2025",
           "produtos": [
             {
@@ -5795,7 +6373,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "42",
           "CLIENTE": "AM DISTRIBUIDORA DE BEBIDAS LTDA ME",
+          "BAIRROENT": "BENFICA",
           "DTULTCOMP": "17/03/2023",
           "produtos": [
             {
@@ -5855,7 +6435,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "78665",
           "CLIENTE": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "BAIRROENT": "DEL CASTILHO",
           "DTULTCOMP": "12/03/2026",
           "produtos": [
             {
@@ -5865,7 +6447,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "9604",
           "CLIENTE": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "BAIRROENT": "PIRATININGA",
           "DTULTCOMP": "09/03/2026",
           "produtos": [
             {
@@ -5903,7 +6487,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79589",
           "CLIENTE": "DOM ATACAREJO S.A.",
+          "BAIRROENT": "SAO BERNARDO",
           "DTULTCOMP": "02/03/2026",
           "produtos": [
             {
@@ -5913,7 +6499,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85494",
           "CLIENTE": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
+          "BAIRROENT": "VILA DA PENHA",
           "DTULTCOMP": "28/02/2026",
           "produtos": [
             {
@@ -5923,9 +6511,31 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91842",
           "CLIENTE": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+          "BAIRROENT": "BARRETO",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM APPLE 1L"
+            },
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM BLACK CHERRY 1L"
+            },
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM HONEY 1L"
+            },
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM WHITE 1L"
+            },
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "GIN LARIOS ORIGINAL 700ML"
+            },
             {
               "FANTASIA": "BEAM SUNTORY",
               "DESCRICAO": "WHISKY JIM BEAM APPLE 1L"
@@ -5949,7 +6559,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84958",
           "CLIENTE": "MARIA BONITA CLINICA DE ESTETICA LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -5959,7 +6571,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "7886",
           "CLIENTE": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "BAIRROENT": "PENHA",
           "DTULTCOMP": "12/02/2026",
           "produtos": [
             {
@@ -5989,7 +6603,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91051",
           "CLIENTE": "CPN ALIMENTOS LTDA EM RECUPERACAO JUDICIAL",
+          "BAIRROENT": "COELHO DA ROCHA",
           "DTULTCOMP": "12/02/2026",
           "produtos": [
             {
@@ -5999,7 +6615,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89197",
           "CLIENTE": "PAO COM LETRAS PANIFICADORA LTDA.",
+          "BAIRROENT": "PAISSANDU",
           "DTULTCOMP": "02/02/2026",
           "produtos": [
             {
@@ -6021,7 +6639,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3813",
           "CLIENTE": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "BAIRROENT": "BANGU",
           "DTULTCOMP": "12/01/2026",
           "produtos": [
             {
@@ -6079,7 +6699,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84064",
           "CLIENTE": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "BAIRROENT": "SENADOR CAMARA",
           "DTULTCOMP": "09/01/2026",
           "produtos": [
             {
@@ -6121,7 +6743,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "58707",
           "CLIENTE": "SUPERMERCADO PADRAO DO FONSECA EIRELLI",
+          "BAIRROENT": "PAVUNA",
           "DTULTCOMP": "27/11/2025",
           "produtos": [
             {
@@ -6143,7 +6767,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83998",
           "CLIENTE": "FERREIRA S DISTRIBUIDORA DE BEBIDAS LTDA",
+          "BAIRROENT": "BANGU",
           "DTULTCOMP": "10/10/2025",
           "produtos": [
             {
@@ -6165,7 +6791,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90037",
           "CLIENTE": "PADARIA E CONFEITARIA PEDERSETTI LTDA",
+          "BAIRROENT": "BANGU",
           "DTULTCOMP": "27/08/2025",
           "produtos": [
             {
@@ -6183,7 +6811,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85984",
           "CLIENTE": "DIO MAR COMERCIO VAREJISTA DE PRODUTOS ALIMENTICIOS LTDA",
+          "BAIRROENT": "BANGU",
           "DTULTCOMP": "23/07/2025",
           "produtos": [
             {
@@ -6241,7 +6871,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85464",
           "CLIENTE": "ALINE CRISTINA ALMEIDA DA SILVA 13062470712",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "18/07/2025",
           "produtos": [
             {
@@ -6251,7 +6883,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85316",
           "CLIENTE": "60.818.446 DENISE DE SOUZA",
+          "BAIRROENT": "BARRA OLIMPICA",
           "DTULTCOMP": "11/07/2025",
           "produtos": [
             {
@@ -6261,7 +6895,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81623",
           "CLIENTE": "CENCOSUD BRASIL COMERCIAL S.A.",
+          "BAIRROENT": "BOTAFOGO",
           "DTULTCOMP": "13/02/2025",
           "produtos": [
             {
@@ -6279,7 +6915,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80605",
           "CLIENTE": "DISTRIBUIDORA E ATACADISTA SUPER REDE LTDA",
+          "BAIRROENT": "MAGALHAES BASTOS",
           "DTULTCOMP": "29/11/2024",
           "produtos": [
             {
@@ -6301,7 +6939,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "7187",
           "CLIENTE": "G M A P SUPERMERCADOS S.A.",
+          "BAIRROENT": "CENTRO (MANILHA)",
           "DTULTCOMP": "12/12/2023",
           "produtos": [
             {
@@ -6311,9 +6951,15 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2983",
           "CLIENTE": "TORRE E CIA SUPERMERCADOS S/A",
+          "BAIRROENT": "PILARES",
           "DTULTCOMP": "11/02/2022",
           "produtos": [
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+            },
             {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "VILLA ROSA TINTO 750ML"
@@ -6371,7 +7017,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "91003",
           "CLIENTE": "H V MINE MERCADO LTDA",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "26/02/2026",
           "produtos": [
             {
@@ -6393,7 +7041,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "62991",
           "CLIENTE": "ROSILENE DE OLIVEIRA 10390029785",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -6403,7 +7053,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90387",
           "CLIENTE": "MERCADO RIO SUL DE PEDRA DE GUARATIBA LTDA",
+          "BAIRROENT": "GUARATIBA",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -6413,7 +7065,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90388",
           "CLIENTE": "SUPERMERCADO JPA LTDA",
+          "BAIRROENT": "ITANHANGA",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -6423,7 +7077,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83705",
           "CLIENTE": "MERCADO RIO SUL DE CAMPO GRANDE LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -6433,7 +7089,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91431",
           "CLIENTE": "MSP COM ALIMENTOS LTDA",
+          "BAIRROENT": "BANGU",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -6455,7 +7113,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91434",
           "CLIENTE": "PANIFICACAO E CONFEITARIA MINISTRO ARY FRANCO LTDA",
+          "BAIRROENT": "BANGU",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -6465,7 +7125,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90212",
           "CLIENTE": "BLING MERCADO DAS CARNES LTDA",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -6475,7 +7137,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "70944",
           "CLIENTE": "ITANIA COSTA ANTONIO VIANA 16136309726",
+          "BAIRROENT": "JARDIM GUANDU",
           "DTULTCOMP": "11/02/2026",
           "produtos": [
             {
@@ -6489,7 +7153,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90504",
           "CLIENTE": "47.093.098 MARCIA CRISTINA MENDONCA DO NASCIMENTO",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "11/02/2026",
           "produtos": [
             {
@@ -6499,7 +7165,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84538",
           "CLIENTE": "CAMINHO BOM MERCEARIA LTDA",
+          "BAIRROENT": "COSMOS",
           "DTULTCOMP": "09/02/2026",
           "produtos": [
             {
@@ -6509,7 +7177,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3935",
           "CLIENTE": "SUPERMERCADOS CELEIRO LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -6523,7 +7193,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "72989",
           "CLIENTE": "WESLEY DA SILVA NASCIMENTO 16108100745",
+          "BAIRROENT": "GUARATIBA",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -6533,7 +7205,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "50653",
           "CLIENTE": "JCS COMERCIO DE BEBIDAS",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -6543,7 +7217,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90581",
           "CLIENTE": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
+          "BAIRROENT": "COSMOS",
           "DTULTCOMP": "30/01/2026",
           "produtos": [
             {
@@ -6557,7 +7233,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90210",
           "CLIENTE": "J C BOTECO DOS IRMAOS LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "30/01/2026",
           "produtos": [
             {
@@ -6579,7 +7257,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81633",
           "CLIENTE": "SUPERMERCADOS MEGA LTDA",
+          "BAIRROENT": "COSMOS",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -6603,6 +7283,22 @@ const METAS_DATA = {
               "DESCRICAO": "ESPUM CASA PERINI BRUT ROSE 750ML"
             },
             {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "ST PIERRE LATA PINK LEMON LT 24X270ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "ST PIERRE LATA RED MINT LT 24X270ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "ST PIERRE VIDRO RED MINT LN 275X12"
+            },
+            {
+              "FANTASIA": "CATUABA",
+              "DESCRICAO": "COQUETEL BANANINHA REGGIANI 950ML"
+            },
+            {
               "FANTASIA": "PERNOD",
               "DESCRICAO": "CONHAQUE DOMECQ 1L"
             },
@@ -6613,7 +7309,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90874",
           "CLIENTE": "56.003.128 GABRIELLY DE OLIVEIRA VIEIRA",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -6627,7 +7325,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81636",
           "CLIENTE": "MEGA NOVA CIDADE SUPERMERCADOS LTDA",
+          "BAIRROENT": "INHOAIBA",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -6641,7 +7341,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81632",
           "CLIENTE": "MEGA SENADOR VASCONCELOS SUPERMERCADOS LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -6671,7 +7373,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81634",
           "CLIENTE": "MEGA CESARIO DE MELO SUPERMERCADOS LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -6685,7 +7389,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91062",
           "CLIENTE": "61.739.029 RAFAELA DE CASTRO ABREU SARMENTO DA SILVA",
+          "BAIRROENT": "SANTISSIMO",
           "DTULTCOMP": "28/01/2026",
           "produtos": [
             {
@@ -6703,7 +7409,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91030",
           "CLIENTE": "CARLOS LEONARDO PEREIRA DA FONSECA 11690374705",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "26/01/2026",
           "produtos": [
             {
@@ -6725,7 +7433,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81757",
           "CLIENTE": "MERCADO IDEAL DA AREIA BRANCA LTDA",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "23/01/2026",
           "produtos": [
             {
@@ -6751,7 +7461,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90147",
           "CLIENTE": "59.454.147 KAUA LUCAS FERREIRA NEPOMUCENO",
+          "BAIRROENT": "PACIENCIA",
           "DTULTCOMP": "21/01/2026",
           "produtos": [
             {
@@ -6761,7 +7473,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90149",
           "CLIENTE": "COMERCIO DE CARNES REIZAO DO RIO LTDA",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "21/01/2026",
           "produtos": [
             {
@@ -6771,7 +7485,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90228",
           "CLIENTE": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "19/01/2026",
           "produtos": [
             {
@@ -6785,7 +7501,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "62243",
           "CLIENTE": "RODRIGO DA SILVA NAZARETH",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "15/01/2026",
           "produtos": [
             {
@@ -6803,7 +7521,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90146",
           "CLIENTE": "37.598.352 LUCAS DA SILVA GOMES",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "08/01/2026",
           "produtos": [
             {
@@ -6865,7 +7585,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "50673",
           "CLIENTE": "DISTRIBUIDORA GARCIA - COMERCIO DE BEBIDAS EIRELI",
+          "BAIRROENT": "INHOAIBA",
           "DTULTCOMP": "08/01/2026",
           "produtos": [
             {
@@ -6875,7 +7597,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3849",
           "CLIENTE": "EMANUEL COMERCIO DE GENEROS ALIMENTICIOS",
+          "BAIRROENT": "PEDRA DE GUARATIBA",
           "DTULTCOMP": "30/12/2025",
           "produtos": [
             {
@@ -6889,7 +7613,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90346",
           "CLIENTE": "FLAUSINO'S BAR E REFEICOES LTDA",
+          "BAIRROENT": "GUARATIBA",
           "DTULTCOMP": "30/12/2025",
           "produtos": [
             {
@@ -6903,7 +7629,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "88092",
           "CLIENTE": "E F GOMES FILHO PADARIA E MERCEARIA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "30/12/2025",
           "produtos": [
             {
@@ -6941,7 +7669,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91772",
           "CLIENTE": "EMANUEL COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "29/12/2025",
           "produtos": [
             {
@@ -6955,7 +7685,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3850",
           "CLIENTE": "EMANUEL COMÉRCIO DE GENEROS ALIMENTICIOS",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "19/12/2025",
           "produtos": [
             {
@@ -6997,7 +7729,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76830",
           "CLIENTE": "MERCEARIA PONTO DO SAO CLAUDIO LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "15/12/2025",
           "produtos": [
             {
@@ -7007,7 +7741,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81102",
           "CLIENTE": "E. N. RIBEIRO MERCEARIA E ARMAZEM VAREJI",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "15/12/2025",
           "produtos": [
             {
@@ -7025,7 +7761,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86220",
           "CLIENTE": "SUPERMERCADO MONTE SIAO LTDA",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "19/11/2025",
           "produtos": [
             {
@@ -7051,7 +7789,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90891",
           "CLIENTE": "58.849.362 MARCOS ARMANDO DA SILVA",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "15/10/2025",
           "produtos": [
             {
@@ -7069,7 +7809,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90580",
           "CLIENTE": "ISABEL PLACIDO SILIO 12733672789",
+          "BAIRROENT": "INHOAIBA",
           "DTULTCOMP": "01/10/2025",
           "produtos": [
             {
@@ -7083,7 +7825,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "19076",
           "CLIENTE": "MERCADINHO FLOR DO AMANHECER LTDA",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "15/05/2025",
           "produtos": [
             {
@@ -7097,7 +7841,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "19077",
           "CLIENTE": "MERCEARIA ECLIPSE DO CESARAO LTDA",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "15/05/2025",
           "produtos": [
             {
@@ -7107,7 +7853,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81758",
           "CLIENTE": "MERCADO POP MARKET LTDA",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "15/05/2025",
           "produtos": [
             {
@@ -7125,7 +7873,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81759",
           "CLIENTE": "MERCADO IDEAL SANTA EUGENIA LTDA",
+          "BAIRROENT": "PACIENCIA",
           "DTULTCOMP": "15/05/2025",
           "produtos": [
             {
@@ -7139,7 +7889,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81756",
           "CLIENTE": "MERCADO IDEAL DE PACIENCIA LTDA",
+          "BAIRROENT": "PACIENCIA",
           "DTULTCOMP": "18/04/2025",
           "produtos": [
             {
@@ -7149,7 +7901,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76938",
           "CLIENTE": "MERCEARIA E BAZAR NOVA MORICABA LTDA",
+          "BAIRROENT": "SENADOR VASCONCELOS",
           "DTULTCOMP": "21/02/2025",
           "produtos": [
             {
@@ -7163,7 +7917,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81755",
           "CLIENTE": "MERCADO IDEAL DA VITOR DUMAS LTDA",
+          "BAIRROENT": "SANTA CRUZ",
           "DTULTCOMP": "29/01/2025",
           "produtos": [
             {
@@ -7177,7 +7933,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76996",
           "CLIENTE": "PANIFICACAO COMERCIO DE ALIMENTOS LANCHONETE FIELD LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "09/09/2024",
           "produtos": [
             {
@@ -7187,7 +7945,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76902",
           "CLIENTE": "MERCEARIA LENLIS LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "14/08/2024",
           "produtos": [
             {
@@ -7221,7 +7981,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76944",
           "CLIENTE": "E.S. DE ARAUJO MERCEARIA LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "13/08/2024",
           "produtos": [
             {
@@ -7235,7 +7997,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "14982",
           "CLIENTE": "CONGRESSO DO CHOPP BAR E RESTAURANTE LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "30/07/2024",
           "produtos": [
             {
@@ -7245,7 +8009,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76942",
           "CLIENTE": "MERCEARIA AMARELINHO DE NOVA GUARATIBA LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "20/06/2024",
           "produtos": [
             {
@@ -7347,7 +8113,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "50615",
           "CLIENTE": "BAR, BAZAR VNC LTDA",
+          "BAIRROENT": "SANTISSIMO",
           "DTULTCOMP": "05/06/2024",
           "produtos": [
             {
@@ -7407,7 +8175,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "84077",
           "CLIENTE": "FORNERIA ORIGINAL COZINHA E COMESTIVEIS LTDA",
+          "BAIRROENT": "CAMORIM",
           "DTULTCOMP": "20/03/2026",
           "produtos": [
             {
@@ -7417,7 +8187,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86240",
           "CLIENTE": "MERCADO BELOT LTDA",
+          "BAIRROENT": "PARQUE GUARARAPES",
           "DTULTCOMP": "13/03/2026",
           "produtos": [
             {
@@ -7463,7 +8235,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91561",
           "CLIENTE": "RESTAURANTE E BAR DI PIRRACA LTDA",
+          "BAIRROENT": "BENTO RIBEIRO",
           "DTULTCOMP": "09/03/2026",
           "produtos": [
             {
@@ -7473,7 +8247,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "62232",
           "CLIENTE": "TANIA RIBEIRO MARQUES PEREIRA",
+          "BAIRROENT": "CAMPINHO",
           "DTULTCOMP": "06/03/2026",
           "produtos": [
             {
@@ -7491,7 +8267,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "50853",
           "CLIENTE": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "BAIRROENT": "VIDIGAL",
           "DTULTCOMP": "02/03/2026",
           "produtos": [
             {
@@ -7501,7 +8279,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81631",
           "CLIENTE": "LUIZ VICTOR SOUZA PINTO 14684613704",
+          "BAIRROENT": "COSMOS",
           "DTULTCOMP": "28/02/2026",
           "produtos": [
             {
@@ -7511,7 +8291,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "60369",
           "CLIENTE": "ALAN SOBRERA DA SILVA 13193217719",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "26/02/2026",
           "produtos": [
             {
@@ -7525,7 +8307,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81847",
           "CLIENTE": "MERCADO ESPERANCA DE GUARATIBA LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
             {
@@ -7535,7 +8319,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86115",
           "CLIENTE": "MINIMERCADO ALFERES LTDA",
+          "BAIRROENT": "PARQUE BARCELLOS",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -7557,7 +8343,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86431",
           "CLIENTE": "MERCADO E DISTRIBUIDORA DA PRACA 2021 LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "20/02/2026",
           "produtos": [
             {
@@ -7567,7 +8355,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81424",
           "CLIENTE": "MERCADO SALMOS 2 LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "19/02/2026",
           "produtos": [
             {
@@ -7577,7 +8367,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "55051",
           "CLIENTE": "BELA BAGUETE PADARIA E CONFEITARIA LTDA",
+          "BAIRROENT": "VARGEM GRANDE",
           "DTULTCOMP": "13/02/2026",
           "produtos": [
             {
@@ -7591,7 +8383,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "51189",
           "CLIENTE": "MERCADO DONA ANA EIRELI",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "11/02/2026",
           "produtos": [
             {
@@ -7617,7 +8411,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92854",
           "CLIENTE": "HORIZONTE ALFA MERCADO LTDA",
+          "BAIRROENT": "GUARATIBA",
           "DTULTCOMP": "11/02/2026",
           "produtos": [
             {
@@ -7635,7 +8431,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86437",
           "CLIENTE": "EDIVALDO C DA FONSECA MERCADINHO LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "09/02/2026",
           "produtos": [
             {
@@ -7645,7 +8443,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81886",
           "CLIENTE": "JOTA 88 CONVENIENCIA E CONFORTO VEICULAR LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "06/02/2026",
           "produtos": [
             {
@@ -7655,7 +8455,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86433",
           "CLIENTE": "NERIS MINIMERCADO LTDA",
+          "BAIRROENT": "ANIL",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -7665,7 +8467,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85206",
           "CLIENTE": "HORTIFRUTI FREGUESIA JPA LTDA",
+          "BAIRROENT": "PECHINCHA",
           "DTULTCOMP": "02/02/2026",
           "produtos": [
             {
@@ -7683,7 +8487,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81163",
           "CLIENTE": "POP CONVENIENCIA E MERCADO LTDA",
+          "BAIRROENT": "ITANHANGA",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -7693,7 +8499,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85451",
           "CLIENTE": "MERCEARIA LEAO FM LTDA",
+          "BAIRROENT": "ITANHANGA",
           "DTULTCOMP": "28/01/2026",
           "produtos": [
             {
@@ -7707,7 +8515,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "67345",
           "CLIENTE": "VICTOR FERNANDES DE OLIVEIRA 11865587761",
+          "BAIRROENT": "BANGU",
           "DTULTCOMP": "22/01/2026",
           "produtos": [
             {
@@ -7717,7 +8527,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "6401",
           "CLIENTE": "MINI MARKET BARRA SUL MERCADO",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "13/01/2026",
           "produtos": [
             {
@@ -7727,7 +8539,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89961",
           "CLIENTE": "ELIEZER BARBOSA FERREIRA 10307587436",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "12/01/2026",
           "produtos": [
             {
@@ -7741,7 +8555,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85345",
           "CLIENTE": "MARIA JOSE SILVA SOUZA 11197169776",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "09/01/2026",
           "produtos": [
             {
@@ -7763,7 +8579,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81685",
           "CLIENTE": "L DO ROSARIO COELHO DEPOSITO DE BEBIDAS",
+          "BAIRROENT": "PACIENCIA",
           "DTULTCOMP": "08/01/2026",
           "produtos": [
             {
@@ -7801,7 +8619,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84290",
           "CLIENTE": "PADARIA E CONFEITARIA ARATICUM LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "02/01/2026",
           "produtos": [
             {
@@ -7811,7 +8631,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "56256",
           "CLIENTE": "REZENDE ALIMENTOS CDD LTDA",
+          "BAIRROENT": "CIDADE DE DEUS",
           "DTULTCOMP": "30/12/2025",
           "produtos": [
             {
@@ -7829,7 +8651,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81852",
           "CLIENTE": "AMARA SUPERMERCADOS LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "29/12/2025",
           "produtos": [
             {
@@ -7843,7 +8667,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "78575",
           "CLIENTE": "MERCADO FLAVIENSE DE JACAREPAGUA LTDA",
+          "BAIRROENT": "VILA VALQUEIRE",
           "DTULTCOMP": "26/12/2025",
           "produtos": [
             {
@@ -7881,7 +8707,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84950",
           "CLIENTE": "CRISTIANO F. DE SOUSA MERCADO, PADARIA E ACOUGUE",
+          "BAIRROENT": "GARDENIA AZUL",
           "DTULTCOMP": "26/12/2025",
           "produtos": [
             {
@@ -7891,7 +8719,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3558",
           "CLIENTE": "VALQUEIRE FRUT HORTIFRUTIGRANJEIROS LTDA ME",
+          "BAIRROENT": "VILA VALQUEIRE",
           "DTULTCOMP": "23/12/2025",
           "produtos": [
             {
@@ -7901,7 +8731,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81446",
           "CLIENTE": "REZENDE ALIMENTOS JPA LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "23/12/2025",
           "produtos": [
             {
@@ -7923,7 +8755,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "62087",
           "CLIENTE": "F.F.G.F.DO COUTO COMERCIO DE BEBIDAS",
+          "BAIRROENT": "GUARATIBA",
           "DTULTCOMP": "22/12/2025",
           "produtos": [
             {
@@ -7941,7 +8775,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86212",
           "CLIENTE": "MIMOS D'ARCADIA PRESENTES E ARTESANATOS LTDA",
+          "BAIRROENT": "MIGUEL PEREIRA",
           "DTULTCOMP": "18/12/2025",
           "produtos": [
             {
@@ -7951,7 +8787,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85208",
           "CLIENTE": "HORTI RIOS HORTIFRUTI LTDA",
+          "BAIRROENT": "FREGUESIA (JACAREPAGUÁ)",
           "DTULTCOMP": "16/12/2025",
           "produtos": [
             {
@@ -7973,7 +8811,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84302",
           "CLIENTE": "PADARIA E CONFEITARIA MAPENDI LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "12/12/2025",
           "produtos": [
             {
@@ -7995,7 +8835,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81774",
           "CLIENTE": "MERCADO LOMAS VALENTIM LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "10/12/2025",
           "produtos": [
             {
@@ -8005,7 +8847,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86207",
           "CLIENTE": "DELICIAS D'ARCADIA RESTAURANTE E LANCHONETE LTDA",
+          "BAIRROENT": "ARCADIA",
           "DTULTCOMP": "10/12/2025",
           "produtos": [
             {
@@ -8023,7 +8867,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86214",
           "CLIENTE": "PARADA ARCADIA PADARIA MERCEARIA E ARTESANATO LTDA",
+          "BAIRROENT": "MIGUEL PEREIRA",
           "DTULTCOMP": "10/12/2025",
           "produtos": [
             {
@@ -8041,7 +8887,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "68840",
           "CLIENTE": "MERCADO VITORIA FREIRE LTDA",
+          "BAIRROENT": "ITANHANGA",
           "DTULTCOMP": "08/12/2025",
           "produtos": [
             {
@@ -8071,7 +8919,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82054",
           "CLIENTE": "ANTONIO CARLOS ARAUJO DA SILVA 72002050791",
+          "BAIRROENT": "BANGU",
           "DTULTCOMP": "08/12/2025",
           "produtos": [
             {
@@ -8081,7 +8931,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "61833",
           "CLIENTE": "MARCELO DA SILVA MOUTINHO 02578431752",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "05/12/2025",
           "produtos": [
             {
@@ -8099,7 +8951,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91704",
           "CLIENTE": "57.131.206 FLAVIA DA SILVA PAULA DE CARVALHO",
+          "BAIRROENT": "GOVERNADOR PORTELA",
           "DTULTCOMP": "04/12/2025",
           "produtos": [
             {
@@ -8113,7 +8967,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91574",
           "CLIENTE": "MERCADO BOM PRECO DO 48 LTDA",
+          "BAIRROENT": "ITANHANGA",
           "DTULTCOMP": "28/11/2025",
           "produtos": [
             {
@@ -8155,7 +9011,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "55383",
           "CLIENTE": "MERCADO 24 HORAS DA ROCINHA LTDA",
+          "BAIRROENT": "ROCINHA",
           "DTULTCOMP": "21/11/2025",
           "produtos": [
             {
@@ -8165,7 +9023,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "56257",
           "CLIENTE": "MULTI ALIMENTOS MENDANHA LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "21/11/2025",
           "produtos": [
             {
@@ -8179,7 +9039,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "56258",
           "CLIENTE": "REZENDE ALIMENTOS NOVA HOLANDA LTDA",
+          "BAIRROENT": "MARE",
           "DTULTCOMP": "21/11/2025",
           "produtos": [
             {
@@ -8189,7 +9051,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83251",
           "CLIENTE": "DINGO'S DISTRIBUIDORA DE BEBIDAS LTDA",
+          "BAIRROENT": "BENTO RIBEIRO",
           "DTULTCOMP": "18/11/2025",
           "produtos": [
             {
@@ -8199,7 +9063,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80531",
           "CLIENTE": "DANTHE MERCEARIA EIRELI",
+          "BAIRROENT": "ANIL",
           "DTULTCOMP": "17/11/2025",
           "produtos": [
             {
@@ -8213,7 +9079,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85367",
           "CLIENTE": "JOSE ROBERTO MELO PINHEIRO 09440339705",
+          "BAIRROENT": "PRACA SECA",
           "DTULTCOMP": "11/11/2025",
           "produtos": [
             {
@@ -8227,7 +9095,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86109",
           "CLIENTE": "RESTAURANTE SEU BIE LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "06/11/2025",
           "produtos": [
             {
@@ -8237,7 +9107,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86393",
           "CLIENTE": "JCA DA COSTA REPRESENTACAO COMERCIAL",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "31/10/2025",
           "produtos": [
             {
@@ -8247,7 +9119,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84904",
           "CLIENTE": "ERIVALDO DE SOUZA SANTOS",
+          "BAIRROENT": "PRACA SECA",
           "DTULTCOMP": "01/10/2025",
           "produtos": [
             {
@@ -8257,7 +9131,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "73166",
           "CLIENTE": "MERCADO E ACOUGUE AREAL RP LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "29/09/2025",
           "produtos": [
             {
@@ -8267,7 +9143,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84960",
           "CLIENTE": "17.038.221 MARIA JOSE DA SILVA DELFIACO",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "23/09/2025",
           "produtos": [
             {
@@ -8297,7 +9175,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81425",
           "CLIENTE": "MERCADO SALMAO 3 LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "17/09/2025",
           "produtos": [
             {
@@ -8311,7 +9191,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81732",
           "CLIENTE": "RICARDO AFFONSO DA SILVA 18509409757",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "11/09/2025",
           "produtos": [
             {
@@ -8325,7 +9207,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "51015",
           "CLIENTE": "DISTRIBUIDORA E MERCEARIA BRAZ LTDA",
+          "BAIRROENT": "GAVEA",
           "DTULTCOMP": "29/08/2025",
           "produtos": [
             {
@@ -8335,7 +9219,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86108",
           "CLIENTE": "LUIZ FELIPE PIMENTA DE CARVALHO 13049587792",
+          "BAIRROENT": "PRACA DA PONTE",
           "DTULTCOMP": "27/08/2025",
           "produtos": [
             {
@@ -8353,7 +9239,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85068",
           "CLIENTE": "PANIFICACAO MARINHO LTDA",
+          "BAIRROENT": "OSWALDO CRUZ",
           "DTULTCOMP": "18/08/2025",
           "produtos": [
             {
@@ -8363,7 +9251,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85381",
           "CLIENTE": "MERCADO SUPER CARIOCA RP LTDA",
+          "BAIRROENT": "ITANHANGA",
           "DTULTCOMP": "24/07/2025",
           "produtos": [
             {
@@ -8373,7 +9263,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85143",
           "CLIENTE": "JPLOGCOMPANY TRANSPORTADORA LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "22/07/2025",
           "produtos": [
             {
@@ -8411,7 +9303,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81686",
           "CLIENTE": "SUPERMERCADO NOVOS VENTOS LTDA",
+          "BAIRROENT": "PACIENCIA",
           "DTULTCOMP": "18/07/2025",
           "produtos": [
             {
@@ -8429,7 +9323,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84309",
           "CLIENTE": "MERCADO MEGA REDE LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "16/07/2025",
           "produtos": [
             {
@@ -8451,7 +9347,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83071",
           "CLIENTE": "PADARIA MERCADINHO MENDES LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "09/07/2025",
           "produtos": [
             {
@@ -8469,7 +9367,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "718",
           "CLIENTE": "ALS BAZAR E MERCEARIA LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "03/07/2025",
           "produtos": [
             {
@@ -8487,7 +9387,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "78947",
           "CLIENTE": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+          "BAIRROENT": "JACAREPAGUÁ",
           "DTULTCOMP": "02/07/2025",
           "produtos": [
             {
@@ -8525,7 +9427,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "73317",
           "CLIENTE": "MERCADINHO E HORTIFRUTI DO BIBI LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "02/07/2025",
           "produtos": [
             {
@@ -8535,7 +9439,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85336",
           "CLIENTE": "TENDA DOS MILAGRES ARTIGOS RELIGIOSOS LTDA M E",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "01/07/2025",
           "produtos": [
             {
@@ -8545,7 +9451,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84788",
           "CLIENTE": "MERCADO SUPER 3 LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "27/06/2025",
           "produtos": [
             {
@@ -8563,7 +9471,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85029",
           "CLIENTE": "IMPERIO DAS BEBIDA$ LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "23/06/2025",
           "produtos": [
             {
@@ -8589,7 +9499,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "84967",
           "CLIENTE": "57.507.601 HELENA PEREIRA GOMES",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "18/06/2025",
           "produtos": [
             {
@@ -8619,7 +9531,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "4311",
           "CLIENTE": "BROWS COMERCIO DE ALIMENTOS LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "17/06/2025",
           "produtos": [
             {
@@ -8633,7 +9547,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82195",
           "CLIENTE": "BAR RESTAURANTE E PIZZARIA MISTURA KRIOK LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "17/06/2025",
           "produtos": [
             {
@@ -8655,7 +9571,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85028",
           "CLIENTE": "MERCEARIA SABEL LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "17/06/2025",
           "produtos": [
             {
@@ -8673,7 +9591,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83558",
           "CLIENTE": "SOL DO RECREIO MINIMERCADO LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "13/06/2025",
           "produtos": [
             {
@@ -8687,7 +9607,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81336",
           "CLIENTE": "MERCEARIA SAO SEBASTIAO DE GUARATIBA LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "10/06/2025",
           "produtos": [
             {
@@ -8717,11 +9639,17 @@ const METAS_DATA = {
             {
               "FANTASIA": "CASA PERINI",
               "DESCRICAO": "ESPUM CASA PERINI ICE DEMI-SEC 750ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI ICE DEMI-SEC 750ML"
             }
           ]
         },
         {
+          "CODCLI": "81895",
           "CLIENTE": "KINA COMERCIO DE ALIMENTOS LTDA",
+          "BAIRROENT": "PADRE MIGUEL",
           "DTULTCOMP": "29/05/2025",
           "produtos": [
             {
@@ -8731,7 +9659,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83527",
           "CLIENTE": "35.517.438 DANILLO LIMA RODRIGUES DE ARAUJO",
+          "BAIRROENT": "BENFICA",
           "DTULTCOMP": "14/05/2025",
           "produtos": [
             {
@@ -8741,7 +9671,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "10380",
           "CLIENTE": "NEXT MARKET MINIMERCADO LTDA",
+          "BAIRROENT": "PECHINCHA",
           "DTULTCOMP": "08/02/2025",
           "produtos": [
             {
@@ -8755,7 +9687,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81662",
           "CLIENTE": "NOVA MERCEARIA CASTANHEIRA LTDA",
+          "BAIRROENT": "VARGEM PEQUENA",
           "DTULTCOMP": "27/01/2025",
           "produtos": [
             {
@@ -8781,7 +9715,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76883",
           "CLIENTE": "MERCADO SANTO AGOSTINHO LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "08/01/2025",
           "produtos": [
             {
@@ -8815,7 +9751,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81152",
           "CLIENTE": "SUPER REDE MERCEARIA DE REALENGO LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "30/12/2024",
           "produtos": [
             {
@@ -8837,7 +9775,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "7768",
           "CLIENTE": "ARMAZEM URBANO ARAGUAIA COMERCIO DE PRODUTOS ALIMENTICIOS LT",
+          "BAIRROENT": "FREGUESIA",
           "DTULTCOMP": "29/12/2023",
           "produtos": [
             {
@@ -8847,7 +9787,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3575",
           "CLIENTE": "NOVO HORIZONTE COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+          "BAIRROENT": "GUARATIBA",
           "DTULTCOMP": "08/09/2023",
           "produtos": [
             {
@@ -8907,7 +9849,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "60083",
           "CLIENTE": "TOP MIX ATACAREJO EIRELI",
+          "BAIRROENT": "INOA",
           "DTULTCOMP": "26/02/2026",
           "produtos": [
             {
@@ -8953,7 +9897,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85608",
           "CLIENTE": "TOCA DO ATLETA COM DE SUPLEMENTOS LTDA",
+          "BAIRROENT": "ICARAÍ",
           "DTULTCOMP": "26/02/2026",
           "produtos": [
             {
@@ -8971,7 +9917,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "6941",
           "CLIENTE": "PRINCESA AUTO SERVICO DE COMESTIVEIS LTDA",
+          "BAIRROENT": "PENHA CIRCULAR",
           "DTULTCOMP": "08/12/2025",
           "produtos": [
             {
@@ -8981,7 +9929,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "7173",
           "CLIENTE": "RAMIGOS SUPERMERCADOS LTDA",
+          "BAIRROENT": "BANGU",
           "DTULTCOMP": "21/11/2025",
           "produtos": [
             {
@@ -8991,7 +9941,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "56716",
           "CLIENTE": "REUNIDOS COMERCIO DE ALIMENTOS LTDA",
+          "BAIRROENT": "VENDA DAS PEDRAS",
           "DTULTCOMP": "21/11/2025",
           "produtos": [
             {
@@ -9021,7 +9973,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "58584",
           "CLIENTE": "SUPERMERCADO ALVORADA EIRELI",
+          "BAIRROENT": "ENGENHO VELHO",
           "DTULTCOMP": "14/11/2025",
           "produtos": [
             {
@@ -9039,7 +9993,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91098",
           "CLIENTE": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "BAIRROENT": "SAO JOSE DO IMBASSAI",
           "DTULTCOMP": "12/11/2025",
           "produtos": [
             {
@@ -9099,7 +10055,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "76068",
           "CLIENTE": "EDUARDO METZKER DE LIMA 88949150778",
+          "BAIRROENT": "CONCEICAO DE JACAREI",
           "DTULTCOMP": "11/03/2026",
           "produtos": [
             {
@@ -9129,7 +10087,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76094",
           "CLIENTE": "CLEONICE DE AZEVEDO SANTOS MELLO LIRA 01241687790",
+          "BAIRROENT": "CONCEICAO DE JACAREI",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
             {
@@ -9143,7 +10103,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79061",
           "CLIENTE": "LV FERREIRA COMERCIO E SERVICO LTDA",
+          "BAIRROENT": "AEROPORTO (CUNHAMBEBE)",
           "DTULTCOMP": "19/02/2026",
           "produtos": [
             {
@@ -9153,7 +10115,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93518",
           "CLIENTE": "64.502.421 AMELIA SAVIOLO RAMOS RODRIGUES",
+          "BAIRROENT": "JACUACANGA",
           "DTULTCOMP": "18/02/2026",
           "produtos": [
             {
@@ -9163,7 +10127,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76097",
           "CLIENTE": "WELGENS CHAMBARELLI COELHO 07558037794",
+          "BAIRROENT": "VILA DA PETROBRÁS",
           "DTULTCOMP": "13/02/2026",
           "produtos": [
             {
@@ -9173,7 +10139,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "74817",
           "CLIENTE": "BAR DO RODRIGO BREVES RESTAURANTE LTDA",
+          "BAIRROENT": "SERRA D'ÁGUA (CUNHAMBEBE)",
           "DTULTCOMP": "04/02/2026",
           "produtos": [
             {
@@ -9187,7 +10155,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "75495",
           "CLIENTE": "ROSALVO DA CONCEICAO - ATACADISTA",
+          "BAIRROENT": "ENCRUZO DA ENSEADA (CUNHAMBEBE)",
           "DTULTCOMP": "28/01/2026",
           "produtos": [
             {
@@ -9201,7 +10171,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79187",
           "CLIENTE": "54.085.426 REINALDO ARAUJO DO NASCIMENTO",
+          "BAIRROENT": "VILLAGE",
           "DTULTCOMP": "28/01/2026",
           "produtos": [
             {
@@ -9211,7 +10183,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "74980",
           "CLIENTE": "COMANDO GERAL POUSADA E RESTAURANTE LTDA",
+          "BAIRROENT": "PRAIA GRANDE",
           "DTULTCOMP": "26/01/2026",
           "produtos": [
             {
@@ -9225,7 +10199,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92898",
           "CLIENTE": "61.545.981 YAN DA SILVA MODESTO",
+          "BAIRROENT": "MONSUABA",
           "DTULTCOMP": "22/01/2026",
           "produtos": [
             {
@@ -9235,7 +10211,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93144",
           "CLIENTE": "52.042.610 TATIANI KOYAMA",
+          "BAIRROENT": "PRAINHA DE MAMBUCABA",
           "DTULTCOMP": "21/01/2026",
           "produtos": [
             {
@@ -9249,7 +10227,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92966",
           "CLIENTE": "50.837.594 MILENA LIMA VITOR ALVES",
+          "BAIRROENT": "CAMPO BELO (CUNHAMBEBE)",
           "DTULTCOMP": "14/01/2026",
           "produtos": [
             {
@@ -9259,7 +10239,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79049",
           "CLIENTE": "M. A. RODRIGUES COMERCIO DE BEBIDAS",
+          "BAIRROENT": "PRAIA DO SACO",
           "DTULTCOMP": "14/01/2026",
           "produtos": [
             {
@@ -9285,7 +10267,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "75348",
           "CLIENTE": "51.328.385 OSVALDO AFFONSO NETO",
+          "BAIRROENT": "BALNEARIO",
           "DTULTCOMP": "14/01/2026",
           "produtos": [
             {
@@ -9299,7 +10283,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "70129",
           "CLIENTE": "SERGIO LUIZ DE SOUZA BARUD MOTO E BICICLETA BAZAR",
+          "BAIRROENT": "VEROLME",
           "DTULTCOMP": "14/01/2026",
           "produtos": [
             {
@@ -9309,7 +10295,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81773",
           "CLIENTE": "COMERCIAL JARAGUA DE PRODUTOS ALIMENTICIOS LTDA",
+          "BAIRROENT": "AREAL (CUNHAMBEBE)",
           "DTULTCOMP": "16/12/2025",
           "produtos": [
             {
@@ -9319,7 +10307,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "75408",
           "CLIENTE": "POUPE MAMBUCABA COMERCIO DE ALIMENTOS LTDA",
+          "BAIRROENT": "PARQUE MAMBUCABA",
           "DTULTCOMP": "15/12/2025",
           "produtos": [
             {
@@ -9329,7 +10319,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81735",
           "CLIENTE": "AVALON MERCEARIA DA TERRA LTDA",
+          "BAIRROENT": "VILA MURY",
           "DTULTCOMP": "29/10/2025",
           "produtos": [
             {
@@ -9367,7 +10359,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81841",
           "CLIENTE": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
+          "BAIRROENT": "PARAISO",
           "DTULTCOMP": "29/10/2025",
           "produtos": [
             {
@@ -9413,7 +10407,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81382",
           "CLIENTE": "A2 TICKET LTDA",
+          "BAIRROENT": "CONFORTO",
           "DTULTCOMP": "09/05/2025",
           "produtos": [
             {
@@ -9423,7 +10419,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80001",
           "CLIENTE": "BERENICE DA MATA GABRIEL",
+          "BAIRROENT": "AGUA LIMPA",
           "DTULTCOMP": "07/05/2025",
           "produtos": [
             {
@@ -9445,7 +10443,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79093",
           "CLIENTE": "LANCHONETE NUCLEAR DE RIO CLARO LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "07/05/2025",
           "produtos": [
             {
@@ -9505,7 +10505,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "93399",
           "CLIENTE": "56.157.783 PABLO DE JESUS LOPES BAPTISTA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "11/03/2026",
           "produtos": [
             {
@@ -9515,7 +10517,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81289",
           "CLIENTE": "MERCADO IDEAL DE JACAREI LTDA",
+          "BAIRROENT": "CONCEICAO DE JACAREI",
           "DTULTCOMP": "28/02/2026",
           "produtos": [
             {
@@ -9525,7 +10529,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79160",
           "CLIENTE": "53.530.578 RICIELLE DE OLIVEIRA SOUZA",
+          "BAIRROENT": "AREAL (CUNHAMBEBE)",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
             {
@@ -9543,7 +10549,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "69463",
           "CLIENTE": "J. A. M. DA SILVA",
+          "BAIRROENT": "MAMBUCABINHA",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
             {
@@ -9573,7 +10581,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "65062",
           "CLIENTE": "JOSE CARLOS DE OLIVEIRA 38202620597",
+          "BAIRROENT": "PRAIA DO ANIL",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -9587,7 +10597,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "69866",
           "CLIENTE": "MERCADO REI DOS REIS NISSIN LTDA",
+          "BAIRROENT": "SERRA D'AGUA (CUNHAMBEBE)",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -9605,7 +10617,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "75420",
           "CLIENTE": "LIGIA MERCADO OSB LTDA",
+          "BAIRROENT": "PARQUE DA MANGUEIRA",
           "DTULTCOMP": "16/02/2026",
           "produtos": [
             {
@@ -9615,7 +10629,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "69045",
           "CLIENTE": "MERCADO S.A GARATUCAIA LTDA",
+          "BAIRROENT": "GARATUCAIA",
           "DTULTCOMP": "11/02/2026",
           "produtos": [
             {
@@ -9629,7 +10645,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79495",
           "CLIENTE": "FELIPE MAGALHAES RODRIGUES 11157566723",
+          "BAIRROENT": "CENTRO/LIDICE",
           "DTULTCOMP": "04/02/2026",
           "produtos": [
             {
@@ -9643,7 +10661,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93187",
           "CLIENTE": "60.113.010 RODRIGO CARLOS GOMES DE SOUSA",
+          "BAIRROENT": "PARQUE BELÉM (CUNHAMBEBE)",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -9657,7 +10677,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79083",
           "CLIENTE": "LCR DISTRIBUIDORA DE BEBIDAS LTDA",
+          "BAIRROENT": "FRADE (CUNHAMBEBE)",
           "DTULTCOMP": "28/01/2026",
           "produtos": [
             {
@@ -9687,7 +10709,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "75423",
           "CLIENTE": "LUIS CLAUDIO DOS S VIEIRA RELU VENDAS",
+          "BAIRROENT": "ARIRO (CUNHAMBEBE)",
           "DTULTCOMP": "28/01/2026",
           "produtos": [
             {
@@ -9721,7 +10745,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93127",
           "CLIENTE": "M VINICIUS BAR E RESTAURANTE LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "21/01/2026",
           "produtos": [
             {
@@ -9731,7 +10757,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "75192",
           "CLIENTE": "J. W. DISTRIBUIDORA DE BEBIDAS LTDA",
+          "BAIRROENT": "PANTANAL",
           "DTULTCOMP": "21/01/2026",
           "produtos": [
             {
@@ -9765,7 +10793,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "75217",
           "CLIENTE": "30.626.134 WANDA KEILA BOTELHO DA COSTA",
+          "BAIRROENT": "CAMORIM",
           "DTULTCOMP": "16/01/2026",
           "produtos": [
             {
@@ -9890,7 +10920,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "94089",
           "CLIENTE": "DROGARIA RAFAELA LTDA",
+          "BAIRROENT": "MARECHAL HERMES",
           "DTULTCOMP": "23/03/2026",
           "produtos": [
             {
@@ -9904,7 +10936,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92284",
           "CLIENTE": "DROGARIA FF & FRANKLIN LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "02/03/2026",
           "produtos": [
             {
@@ -9922,7 +10956,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93452",
           "CLIENTE": "PADARIA E CONFEITARIA KJM LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "02/03/2026",
           "produtos": [
             {
@@ -9932,7 +10968,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86899",
           "CLIENTE": "MERCADINHO E PADARIA RENASCER LTDA",
+          "BAIRROENT": "SANTISSIMO",
           "DTULTCOMP": "02/03/2026",
           "produtos": [
             {
@@ -9942,7 +10980,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91201",
           "CLIENTE": "18.650.905 CARMINDA LUCIA MARTINS DA SILVA",
+          "BAIRROENT": "QUITANDINHA",
           "DTULTCOMP": "28/02/2026",
           "produtos": [
             {
@@ -9988,7 +11028,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93697",
           "CLIENTE": "DROGARIA MEDITERRANEO LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "27/02/2026",
           "produtos": [
             {
@@ -10006,7 +11048,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92907",
           "CLIENTE": "DROGARIA BARATO DO MEIER LTDA",
+          "BAIRROENT": "MÉIER",
           "DTULTCOMP": "27/02/2026",
           "produtos": [
             {
@@ -10024,7 +11068,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91520",
           "CLIENTE": "DROGARIA RAIO DE SOL LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "26/02/2026",
           "produtos": [
             {
@@ -10038,7 +11084,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91286",
           "CLIENTE": "ACOUGUE VILA NOVA DE OLARIA LTDA",
+          "BAIRROENT": "OLARIA",
           "DTULTCOMP": "26/02/2026",
           "produtos": [
             {
@@ -10052,7 +11100,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91424",
           "CLIENTE": "KVSO I COM PROD FAR LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -10070,7 +11120,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91288",
           "CLIENTE": "RESTAURANTE FRIGIDEIRA DA VOVO LTDA",
+          "BAIRROENT": "OLARIA",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -10084,7 +11136,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93197",
           "CLIENTE": "DROGARIA NACIONAL DO VALQUEIRE LTDA",
+          "BAIRROENT": "GRAMACHO",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -10098,7 +11152,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76961",
           "CLIENTE": "MERCADINHO CARAPIA LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -10116,7 +11172,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82906",
           "CLIENTE": "ATLM MARECHAL COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+          "BAIRROENT": "MARECHAL HERMES",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -10126,7 +11184,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91254",
           "CLIENTE": "DROGARIA NOBRE DE REALENGO LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -10152,7 +11212,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91410",
           "CLIENTE": "RESTAURANTE E BAR RAINHA DE JACAREPAGUA LTDA",
+          "BAIRROENT": "VARGEM PEQUENA",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -10170,7 +11232,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92277",
           "CLIENTE": "WALLAF DA SILVA MENEZES GOMES MERCADO E PADARIA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -10180,7 +11244,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91243",
           "CLIENTE": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "23/02/2026",
           "produtos": [
             {
@@ -10202,7 +11268,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91491",
           "CLIENTE": "MERCADO ELLISCH E KELLER LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "20/02/2026",
           "produtos": [
             {
@@ -10248,7 +11316,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93502",
           "CLIENTE": "MIMOSA DE COPACABANA CONFEITARIA LTDA",
+          "BAIRROENT": "COPACABANA",
           "DTULTCOMP": "12/02/2026",
           "produtos": [
             {
@@ -10262,7 +11332,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82838",
           "CLIENTE": "PANIFICACAO E CONFEITARIA TUPAN LTDA",
+          "BAIRROENT": "COPACABANA",
           "DTULTCOMP": "11/02/2026",
           "produtos": [
             {
@@ -10276,7 +11348,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91357",
           "CLIENTE": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "11/02/2026",
           "produtos": [
             {
@@ -10306,7 +11380,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92388",
           "CLIENTE": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "10/02/2026",
           "produtos": [
             {
@@ -10320,7 +11396,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91332",
           "CLIENTE": "BAR E RESTAURANTE FAMILIA MESQUITA LTDA",
+          "BAIRROENT": "PENHA",
           "DTULTCOMP": "06/02/2026",
           "produtos": [
             {
@@ -10330,7 +11408,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91378",
           "CLIENTE": "PL MESQUITA BAR E RESTAURANTE LTDA",
+          "BAIRROENT": "PENHA",
           "DTULTCOMP": "06/02/2026",
           "produtos": [
             {
@@ -10340,7 +11420,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91330",
           "CLIENTE": "LC MESQUITA BAR E LANCHONETE",
+          "BAIRROENT": "OLARIA",
           "DTULTCOMP": "06/02/2026",
           "produtos": [
             {
@@ -10350,7 +11432,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91801",
           "CLIENTE": "PADARIA CASA DO PAO COMERCIAL DE ALIMENTOS LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -10368,7 +11452,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93198",
           "CLIENTE": "DROGARIA NACIONAL DO BILAC LTDA",
+          "BAIRROENT": "OLAVO BILAC",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -10382,7 +11468,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91465",
           "CLIENTE": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -10408,7 +11496,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93191",
           "CLIENTE": "VDROGARIA NACIONAL DO LOTE XV LTDA",
+          "BAIRROENT": "LOTE XV",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -10422,7 +11512,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93193",
           "CLIENTE": "DROGARIA NACIONAL DO PARQUE SAO VICENTE LTDA",
+          "BAIRROENT": "SAO VICENTE",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -10436,7 +11528,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93196",
           "CLIENTE": "DROGARIA FAMILIA DE QUINTINO LTDA",
+          "BAIRROENT": "PRACA SECA",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -10450,7 +11544,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93252",
           "CLIENTE": "JOSE RENATO LEAL TANNURI 75716461700",
+          "BAIRROENT": "OSWALDO CRUZ",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -10464,7 +11560,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3066",
           "CLIENTE": "PADARIA QUERO PAO DA TAQUARA LTDA ME",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "02/02/2026",
           "produtos": [
             {
@@ -10490,7 +11588,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90993",
           "CLIENTE": "MARAMBAIA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "BAIRROENT": "BARRA DE GUARATIBA",
           "DTULTCOMP": "02/02/2026",
           "produtos": [
             {
@@ -10536,7 +11636,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93267",
           "CLIENTE": "MERCADO Q BARATO LTDA",
+          "BAIRROENT": "HONÓRIO GURGEL",
           "DTULTCOMP": "30/01/2026",
           "produtos": [
             {
@@ -10546,7 +11648,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93270",
           "CLIENTE": "MINI MARKET NOVO SAPE LTDA",
+          "BAIRROENT": "TURIAÇU",
           "DTULTCOMP": "30/01/2026",
           "produtos": [
             {
@@ -10556,7 +11660,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93194",
           "CLIENTE": "DROGARIA MIRAFARMACENTRO BRAZ DE PINA LTDA",
+          "BAIRROENT": "BRAZ DE PINA",
           "DTULTCOMP": "30/01/2026",
           "produtos": [
             {
@@ -10570,7 +11676,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93195",
           "CLIENTE": "FARMACIA TRADICAO DE VICENTE DE CARVALHO LTDA.",
+          "BAIRROENT": "VAZ LOBO",
           "DTULTCOMP": "30/01/2026",
           "produtos": [
             {
@@ -10584,7 +11692,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92910",
           "CLIENTE": "LOFM COMERCIO DE MATERIAIS DE LIMPEZA E BAZAR LTDA",
+          "BAIRROENT": "VILA CAPRI",
           "DTULTCOMP": "30/01/2026",
           "produtos": [
             {
@@ -10594,7 +11704,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81818",
           "CLIENTE": "BOTECO COPO FURADO LTDA",
+          "BAIRROENT": "OLARIA",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -10608,7 +11720,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93151",
           "CLIENTE": "PADARIA CP DO PAO LTDA",
+          "BAIRROENT": "JARDIM AMÉRICA",
           "DTULTCOMP": "27/01/2026",
           "produtos": [
             {
@@ -10622,7 +11736,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91056",
           "CLIENTE": "PADARIA SKINA DAS MASSAS LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "26/01/2026",
           "produtos": [
             {
@@ -10636,7 +11752,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93152",
           "CLIENTE": "43.844.591 MIGUEL MARIO MARTINS DA SILVA",
+          "BAIRROENT": "GUADALUPE",
           "DTULTCOMP": "23/01/2026",
           "produtos": [
             {
@@ -10654,7 +11772,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93054",
           "CLIENTE": "FABIANA MOURA SANTOS 12870783701",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "23/01/2026",
           "produtos": [
             {
@@ -10664,7 +11784,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93055",
           "CLIENTE": "22.785.781 DEYVISON DE SOUZA AMARAL",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "23/01/2026",
           "produtos": [
             {
@@ -10674,7 +11796,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91413",
           "CLIENTE": "KATIA ALVES DA SILVA 05665250708",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "21/01/2026",
           "produtos": [
             {
@@ -10688,7 +11812,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92810",
           "CLIENTE": "GOULART UTILIDADES PARA O LAR LTDA",
+          "BAIRROENT": "PARATY",
           "DTULTCOMP": "21/01/2026",
           "produtos": [
             {
@@ -10702,7 +11828,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82929",
           "CLIENTE": "AVIARIO GALO FORTE DE PADRE MIGUEL LTDA",
+          "BAIRROENT": "PADRE MIGUEL",
           "DTULTCOMP": "15/01/2026",
           "produtos": [
             {
@@ -10716,7 +11844,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91781",
           "CLIENTE": "DROGARIA SIX LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "13/01/2026",
           "produtos": [
             {
@@ -10726,7 +11856,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91782",
           "CLIENTE": "DROGARIA FERNANDO LEITE LTDA",
+          "BAIRROENT": "RECREIO DOS BANDEIRANTES",
           "DTULTCOMP": "13/01/2026",
           "produtos": [
             {
@@ -10744,7 +11876,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91092",
           "CLIENTE": "HORTALICEHORTIFRUTI DA HORTA LTDA",
+          "BAIRROENT": "TAUA",
           "DTULTCOMP": "12/01/2026",
           "produtos": [
             {
@@ -10754,7 +11888,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86901",
           "CLIENTE": "MERCADO T F DA COSTA LTDA",
+          "BAIRROENT": "BALNEARIO DAS CONCHAS",
           "DTULTCOMP": "12/01/2026",
           "produtos": [
             {
@@ -10768,7 +11904,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90003",
           "CLIENTE": "TALM COMERCIO DE BEBIDAS LTDA",
+          "BAIRROENT": "OLARIA",
           "DTULTCOMP": "07/01/2026",
           "produtos": [
             {
@@ -10778,7 +11916,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91137",
           "CLIENTE": "MERCADO E PADARIA GLORIA ETERNA LTDA",
+          "BAIRROENT": "JARDIM SULACAP",
           "DTULTCOMP": "05/01/2026",
           "produtos": [
             {
@@ -10788,7 +11928,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80464",
           "CLIENTE": "ART BEER CAMORIM LTDA",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "26/12/2025",
           "produtos": [
             {
@@ -10798,7 +11940,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91171",
           "CLIENTE": "43.970.924 ANDRE MEIRELES DA COSTA SILVA",
+          "BAIRROENT": "CAMPO DOS AFONSOS",
           "DTULTCOMP": "26/12/2025",
           "produtos": [
             {
@@ -10836,7 +11980,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2003",
           "CLIENTE": "PANIFICAÇÃO ATITUBA LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "19/12/2025",
           "produtos": [
             {
@@ -10846,7 +11992,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91170",
           "CLIENTE": "60.460.619 FRANCISCO ELIANDRO PATRICIO LOPES",
+          "BAIRROENT": "INHOAÍBA",
           "DTULTCOMP": "19/12/2025",
           "produtos": [
             {
@@ -10860,7 +12008,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92336",
           "CLIENTE": "ETA TREM BAO TEMPEROS E CONDIMENTOS LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "18/12/2025",
           "produtos": [
             {
@@ -10898,7 +12048,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92390",
           "CLIENTE": "37.107.971 ALEX WANDERLEY ALBUQUERQUE MIRANDA",
+          "BAIRROENT": "BANGU",
           "DTULTCOMP": "18/12/2025",
           "produtos": [
             {
@@ -10912,7 +12064,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92326",
           "CLIENTE": "DROGARIA AMOY LTDA",
+          "BAIRROENT": "PECHINCHA",
           "DTULTCOMP": "16/12/2025",
           "produtos": [
             {
@@ -10926,7 +12080,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91281",
           "CLIENTE": "DROGARIA BKA LTDA",
+          "BAIRROENT": "OLARIA",
           "DTULTCOMP": "16/12/2025",
           "produtos": [
             {
@@ -10944,7 +12100,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "88538",
           "CLIENTE": "JOSEMAR PERONI 40552721700",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "15/12/2025",
           "produtos": [
             {
@@ -10962,7 +12120,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91089",
           "CLIENTE": "PANIFICACAO E CONFEITARIA VALE DE CAMBRA LTDA",
+          "BAIRROENT": "TAUA",
           "DTULTCOMP": "11/12/2025",
           "produtos": [
             {
@@ -10972,7 +12132,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92020",
           "CLIENTE": "JILCA MARTINS DO NASCIMENTO 08130053705",
+          "BAIRROENT": "OLARIA",
           "DTULTCOMP": "09/12/2025",
           "produtos": [
             {
@@ -10990,7 +12152,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92037",
           "CLIENTE": "48.035.569 GISLANE SILVA FARIAS",
+          "BAIRROENT": "OLARIA",
           "DTULTCOMP": "09/12/2025",
           "produtos": [
             {
@@ -11008,7 +12172,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91654",
           "CLIENTE": "45.129.967 JHONNY MANHAES GOMES REIS DA SILVA SANTOS",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "06/12/2025",
           "produtos": [
             {
@@ -11038,7 +12204,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91127",
           "CLIENTE": "RESTAURANTE E BAR CHUA DA ILHA LTDA",
+          "BAIRROENT": "JARDIM GUANABARA",
           "DTULTCOMP": "05/12/2025",
           "produtos": [
             {
@@ -11052,7 +12220,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90876",
           "CLIENTE": "DON RUAN PADARIA E SALGADEIRA LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "04/12/2025",
           "produtos": [
             {
@@ -11062,7 +12232,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91511",
           "CLIENTE": "XAVECON COMERCIO DE LATICINIOS PRODUTOS ALIMENTICIOS E SEVIC",
+          "BAIRROENT": "CAMPO DOS AFONSOS",
           "DTULTCOMP": "04/12/2025",
           "produtos": [
             {
@@ -11072,7 +12244,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91843",
           "CLIENTE": "M&F MELAO FRUTI VAREJISTA LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "04/12/2025",
           "produtos": [
             {
@@ -11098,7 +12272,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76912",
           "CLIENTE": "PANIFICACAO SESIL LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "01/12/2025",
           "produtos": [
             {
@@ -11112,7 +12288,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91493",
           "CLIENTE": "REALZAO LATICINIOS E COMERCIO LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "01/12/2025",
           "produtos": [
             {
@@ -11122,7 +12300,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91854",
           "CLIENTE": "MGL PADARIA E BISTRO LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "28/11/2025",
           "produtos": [
             {
@@ -11140,7 +12320,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91851",
           "CLIENTE": "MALL BAKERY LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "28/11/2025",
           "produtos": [
             {
@@ -11158,7 +12340,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91827",
           "CLIENTE": "RG COMERCIO DE DESCARTAVEIS E EMBALAGENS LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "28/11/2025",
           "produtos": [
             {
@@ -11168,7 +12352,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91578",
           "CLIENTE": "49.932.533 JULIANA VIEIRA DE SOUZA",
+          "BAIRROENT": "GUARATIBA",
           "DTULTCOMP": "26/11/2025",
           "produtos": [
             {
@@ -11186,7 +12372,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91785",
           "CLIENTE": "CANTINHO DA PRACA BAR E LANCHONETE LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "26/11/2025",
           "produtos": [
             {
@@ -11200,7 +12388,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91733",
           "CLIENTE": "MARCIO DE OLIVEIRA BRUNO 00841274738",
+          "BAIRROENT": "CURICICA",
           "DTULTCOMP": "25/11/2025",
           "produtos": [
             {
@@ -11210,7 +12400,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91754",
           "CLIENTE": "NELSON PONTES DE OLIVEIRA 09425827729",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "25/11/2025",
           "produtos": [
             {
@@ -11228,7 +12420,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91755",
           "CLIENTE": "DOGINALDO TERTO ANTAS 08069334703",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "25/11/2025",
           "produtos": [
             {
@@ -11238,7 +12432,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91711",
           "CLIENTE": "PAO DA VIDA CHANTILLY PADARIA E CONFEITARIA LTDA",
+          "BAIRROENT": "CURICICA",
           "DTULTCOMP": "25/11/2025",
           "produtos": [
             {
@@ -11252,7 +12448,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83752",
           "CLIENTE": "FRANCISCO DAS CHAGAS DOS SANTOS 99144107404",
+          "BAIRROENT": "JACAREPAGUA",
           "DTULTCOMP": "24/11/2025",
           "produtos": [
             {
@@ -11286,7 +12484,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91707",
           "CLIENTE": "57.623.300 ROMULO ALVES DOS SANTOS",
+          "BAIRROENT": "CURICICA",
           "DTULTCOMP": "24/11/2025",
           "produtos": [
             {
@@ -11308,7 +12508,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91701",
           "CLIENTE": "PANIFICACAO FLOR DO TRIGO LTDA",
+          "BAIRROENT": "OLARIA",
           "DTULTCOMP": "24/11/2025",
           "produtos": [
             {
@@ -11330,7 +12532,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91669",
           "CLIENTE": "CH SANTOS MERCEARIA, PADARIA E CONFEITARIA LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "21/11/2025",
           "produtos": [
             {
@@ -11356,7 +12560,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91644",
           "CLIENTE": "LUIZA DE MARILAC SOUZA BITTENCOURT 81477597700",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "19/11/2025",
           "produtos": [
             {
@@ -11390,7 +12596,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91653",
           "CLIENTE": "CANTINHO DA BOIUNA RESTAURANTE LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "19/11/2025",
           "produtos": [
             {
@@ -11400,7 +12608,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91360",
           "CLIENTE": "REFUGIO DO SABOR LANCHONETE LTDA",
+          "BAIRROENT": "OLARIA",
           "DTULTCOMP": "19/11/2025",
           "produtos": [
             {
@@ -11414,7 +12624,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91129",
           "CLIENTE": "MAX COMERCIO E DISTRIBUICAO DE BEBIDAS E ALIMENTOS LTDA",
+          "BAIRROENT": "JARDIM GUANABARA",
           "DTULTCOMP": "18/11/2025",
           "produtos": [
             {
@@ -11428,7 +12640,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "78744",
           "CLIENTE": "GARDEN BRASA REALENGO RESTAURANTE LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "12/11/2025",
           "produtos": [
             {
@@ -11438,7 +12652,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91308",
           "CLIENTE": "MAGNO SACOLAO E MERCEARIA LTDA",
+          "BAIRROENT": "OLARIA",
           "DTULTCOMP": "12/11/2025",
           "produtos": [
             {
@@ -11448,7 +12664,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86717",
           "CLIENTE": "CARIRE BAR E RESTAURANTE LTDA",
+          "BAIRROENT": "PENHA",
           "DTULTCOMP": "10/11/2025",
           "produtos": [
             {
@@ -11458,7 +12676,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86851",
           "CLIENTE": "LANCHONETE E CASA DE SUCO LAGOA DO MEIO LTDA",
+          "BAIRROENT": "PENHA",
           "DTULTCOMP": "10/11/2025",
           "produtos": [
             {
@@ -11468,7 +12688,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91447",
           "CLIENTE": "HORTIFRUTIGRANJEIROS BETOFRUTI LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "10/11/2025",
           "produtos": [
             {
@@ -11482,7 +12704,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91370",
           "CLIENTE": "48.924.998 ANGELO VICTOR PEREIRA FERNANDES",
+          "BAIRROENT": "PENHA",
           "DTULTCOMP": "06/11/2025",
           "produtos": [
             {
@@ -11504,7 +12728,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91365",
           "CLIENTE": "PANIFICACAO BARIRI LTDA",
+          "BAIRROENT": "OLARIA",
           "DTULTCOMP": "06/11/2025",
           "produtos": [
             {
@@ -11518,7 +12744,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91334",
           "CLIENTE": "FARMACIA RIOFARMA LTDA",
+          "BAIRROENT": "PENHA",
           "DTULTCOMP": "05/11/2025",
           "produtos": [
             {
@@ -11528,7 +12756,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91131",
           "CLIENTE": "AUTO POSTO ACONCHEGO DE MERITI LTDA",
+          "BAIRROENT": "AGOSTINHO PORTO",
           "DTULTCOMP": "31/10/2025",
           "produtos": [
             {
@@ -11538,7 +12768,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86671",
           "CLIENTE": "BAR E CAFE LUXO DA MALLETLTDA",
+          "BAIRROENT": "MALLET",
           "DTULTCOMP": "30/10/2025",
           "produtos": [
             {
@@ -11548,7 +12780,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91185",
           "CLIENTE": "PADARIA PALADINO & ETC LTDA",
+          "BAIRROENT": "TAQUARA",
           "DTULTCOMP": "30/10/2025",
           "produtos": [
             {
@@ -11558,7 +12792,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91054",
           "CLIENTE": "ESPETAO GAUCHO LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "29/10/2025",
           "produtos": [
             {
@@ -11572,7 +12808,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91100",
           "CLIENTE": "PADARIA ESTRELA DOURADA LTDA",
+          "BAIRROENT": "TAUA",
           "DTULTCOMP": "27/10/2025",
           "produtos": [
             {
@@ -11582,7 +12820,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "76914",
           "CLIENTE": "JOAO WILSON FONTENELE MACHADO 01404916784",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "24/10/2025",
           "produtos": [
             {
@@ -11596,7 +12836,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83815",
           "CLIENTE": "POSTO DE GASOLINA E SERVICOS NOVA VALQUEIRE LTDA",
+          "BAIRROENT": "VILA VALQUEIRE",
           "DTULTCOMP": "22/10/2025",
           "produtos": [
             {
@@ -11606,7 +12848,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91001",
           "CLIENTE": "VEM QUE TEM COMERCIO DE BEBIDAS LTDA",
+          "BAIRROENT": "BARRA DE GUARATIBA",
           "DTULTCOMP": "22/10/2025",
           "produtos": [
             {
@@ -11616,7 +12860,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90964",
           "CLIENTE": "RIBAS DA SERRA BAR E RESTAURANTE LTDA",
+          "BAIRROENT": "VILA SAO LUIS",
           "DTULTCOMP": "21/10/2025",
           "produtos": [
             {
@@ -11634,7 +12880,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81354",
           "CLIENTE": "MERCEARIA FLOR DO JARDIM NOVO LTDA",
+          "BAIRROENT": "REALENGO",
           "DTULTCOMP": "20/10/2025",
           "produtos": [
             {
@@ -11698,7 +12946,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "93801",
           "CLIENTE": "POSTO DE GASOLINA VIA LIGHT D IGUACU LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "17/03/2026",
           "produtos": [
             {
@@ -11724,7 +12974,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "74748",
           "CLIENTE": "CBC CENTRO AUTOMOTIVO LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "11/03/2026",
           "produtos": [
             {
@@ -11750,7 +13002,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80664",
           "CLIENTE": "50.571.060 THIAGO FERREIRA DE OLIVEIRA",
+          "BAIRROENT": "CABUCU",
           "DTULTCOMP": "27/02/2026",
           "produtos": [
             {
@@ -11760,7 +13014,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "72641",
           "CLIENTE": "DENISE ESTEVES PINHEIRO 09969562711",
+          "BAIRROENT": "EDSON PASSOS",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
             {
@@ -11786,7 +13042,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91432",
           "CLIENTE": "BSCRJ DISTRIBUIDORA DE BEBIDAS E MERCEARIA LTDA",
+          "BAIRROENT": "JARDIM METROPOLE",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -11796,7 +13054,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91508",
           "CLIENTE": "MN GAZZOLI MERCEARIA LTDA",
+          "BAIRROENT": "ANCHIETA",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -11806,7 +13066,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91468",
           "CLIENTE": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
+          "BAIRROENT": "GRANDE RIO",
           "DTULTCOMP": "18/02/2026",
           "produtos": [
             {
@@ -11824,7 +13086,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91353",
           "CLIENTE": "GR 2 ALIMENTOS LTDA",
+          "BAIRROENT": "SEPETIBA",
           "DTULTCOMP": "13/02/2026",
           "produtos": [
             {
@@ -11834,7 +13098,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "66299",
           "CLIENTE": "SAL COM ERVAS GASTRONOMIA E EVENTOS LTDA",
+          "BAIRROENT": "COELHO DA ROCHA",
           "DTULTCOMP": "12/02/2026",
           "produtos": [
             {
@@ -11844,7 +13110,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91515",
           "CLIENTE": "BAR E MERCEARIA SANTOS MIRIM LTDA",
+          "BAIRROENT": "P MIRIM",
           "DTULTCOMP": "12/02/2026",
           "produtos": [
             {
@@ -11858,7 +13126,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80289",
           "CLIENTE": "R R DEPOSITO E EMPORIO DE BEBIDAS 137 S S LTDA",
+          "BAIRROENT": "COELHO DA ROCHA",
           "DTULTCOMP": "10/02/2026",
           "produtos": [
             {
@@ -11872,7 +13142,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91848",
           "CLIENTE": "SEVERINO MAMEDES DE LIMA BAR E MERCEARIA",
+          "BAIRROENT": "PARQUE ALIAN",
           "DTULTCOMP": "10/02/2026",
           "produtos": [
             {
@@ -11938,7 +13210,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91345",
           "CLIENTE": "44.108.914 ALEXANDRE GOMES CARDOSO",
+          "BAIRROENT": "PARQUE COLUMBIA",
           "DTULTCOMP": "09/02/2026",
           "produtos": [
             {
@@ -11956,7 +13230,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91674",
           "CLIENTE": "ANTONIO PEREIRA DA PENHA 28583493391",
+          "BAIRROENT": "PARQUE FELICIDADE",
           "DTULTCOMP": "06/02/2026",
           "produtos": [
             {
@@ -11974,7 +13250,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91678",
           "CLIENTE": "RMA ALIMENTOS E LACTICINIOS LTDA",
+          "BAIRROENT": "COSMOS",
           "DTULTCOMP": "06/02/2026",
           "produtos": [
             {
@@ -11984,7 +13262,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91483",
           "CLIENTE": "MARIANGELA QUEIROZ DA SILVA 09084239776",
+          "BAIRROENT": "JARDIM JOSE BONIFACIO",
           "DTULTCOMP": "05/02/2026",
           "produtos": [
             {
@@ -12002,7 +13282,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92023",
           "CLIENTE": "50.828.095 MATHEUS DA SILVA LIMA",
+          "BAIRROENT": "BRAZ DE PINA",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -12016,7 +13298,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91700",
           "CLIENTE": "SUPERDOCE RIO DISTRIBUIDORA LTDA",
+          "BAIRROENT": "PAVUNA",
           "DTULTCOMP": "02/02/2026",
           "produtos": [
             {
@@ -12026,7 +13310,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82775",
           "CLIENTE": "ADEGA DO ROMEU LTDA",
+          "BAIRROENT": "RICARDO DE ALBUQUERQUE",
           "DTULTCOMP": "02/02/2026",
           "produtos": [
             {
@@ -12044,7 +13330,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89919",
           "CLIENTE": "TOP 1 DISTRIBUIDORA DE BEBIDAS, MERCEARIA E MINI MERCADO LIM",
+          "BAIRROENT": "VILAR DOS TELES",
           "DTULTCOMP": "30/01/2026",
           "produtos": [
             {
@@ -12062,7 +13350,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92495",
           "CLIENTE": "MERCEARIA TROPICAL DA ALCOBACA LTDA",
+          "BAIRROENT": "RICARDO DE ALBUQUERQUE",
           "DTULTCOMP": "30/01/2026",
           "produtos": [
             {
@@ -12072,7 +13362,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91333",
           "CLIENTE": "MERCEARIA MAIS ECONOMIA LTDA",
+          "BAIRROENT": "VALE DA SIMPATIA",
           "DTULTCOMP": "28/01/2026",
           "produtos": [
             {
@@ -12090,7 +13382,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92064",
           "CLIENTE": "ROSEDOL COMERCIO LTDA",
+          "BAIRROENT": "MARECHAL HERMES",
           "DTULTCOMP": "22/01/2026",
           "produtos": [
             {
@@ -12104,7 +13398,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "79715",
           "CLIENTE": "57.680.658 JOAO PAULO DA SILVA FILHO",
+          "BAIRROENT": "PARQUE ANCHIETA",
           "DTULTCOMP": "22/01/2026",
           "produtos": [
             {
@@ -12118,7 +13414,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91760",
           "CLIENTE": "MERCADO DO SONY LTDA",
+          "BAIRROENT": "VILAR DOS TELES",
           "DTULTCOMP": "21/01/2026",
           "produtos": [
             {
@@ -12128,7 +13426,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91752",
           "CLIENTE": "MERCEARIA GARRIDO' NETOS LTDA",
+          "BAIRROENT": "PARQUE ANCHIETA",
           "DTULTCOMP": "14/01/2026",
           "produtos": [
             {
@@ -12142,7 +13442,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92120",
           "CLIENTE": "ROBERTO DA SILVA CARVALHO 04789345726",
+          "BAIRROENT": "ANCHIETA",
           "DTULTCOMP": "14/01/2026",
           "produtos": [
             {
@@ -12152,7 +13454,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81057",
           "CLIENTE": "MANDARIM CEREAIS E MERCEARIA LTDA",
+          "BAIRROENT": "ENGENHEIRO BELFORD",
           "DTULTCOMP": "07/01/2026",
           "produtos": [
             {
@@ -12162,7 +13466,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91720",
           "CLIENTE": "RESTAURANTE E BISTRO SANTA FE LTDA",
+          "BAIRROENT": "COELHO DA ROCHA",
           "DTULTCOMP": "05/01/2026",
           "produtos": [
             {
@@ -12176,7 +13482,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91445",
           "CLIENTE": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM OLAVO BI",
+          "BAIRROENT": "OLAVO BILAC",
           "DTULTCOMP": "26/12/2025",
           "produtos": [
             {
@@ -12190,7 +13498,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91544",
           "CLIENTE": "JOYCE AMARAL P DE OLIVEIRA MERCADINHO PARA TODOS",
+          "BAIRROENT": "VILA NORMA",
           "DTULTCOMP": "26/12/2025",
           "produtos": [
             {
@@ -12204,7 +13514,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91710",
           "CLIENTE": "CEREAIS E MERCEARIA MANDARIM DE NILOPOLIS LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "15/12/2025",
           "produtos": [
             {
@@ -12214,7 +13526,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91702",
           "CLIENTE": "MERCADO LIDER ECONOMIA LTDA",
+          "BAIRROENT": "PAVUNA",
           "DTULTCOMP": "12/12/2025",
           "produtos": [
             {
@@ -12224,7 +13538,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92135",
           "CLIENTE": "58G DISTRIBUIDORA DE EMBALAGENS E ALIMENTOS LTDA",
+          "BAIRROENT": "BRAZ DE PINA",
           "DTULTCOMP": "11/12/2025",
           "produtos": [
             {
@@ -12234,7 +13550,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91495",
           "CLIENTE": "HAMILTON PEREIRA DAS NEVES ARMAZEM",
+          "BAIRROENT": "ANCHIETA",
           "DTULTCOMP": "10/12/2025",
           "produtos": [
             {
@@ -12252,7 +13570,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91875",
           "CLIENTE": "METROPOLE COMERCIO DE DOCES LTDA",
+          "BAIRROENT": "JARDIM METROPOLE",
           "DTULTCOMP": "09/12/2025",
           "produtos": [
             {
@@ -12262,7 +13582,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91467",
           "CLIENTE": "FARRULA COMERCIO DE GELO E BEBIDAS LTDA",
+          "BAIRROENT": "VILA ROSALI",
           "DTULTCOMP": "02/12/2025",
           "produtos": [
             {
@@ -12272,7 +13594,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91671",
           "CLIENTE": "HORTIFRUTI 415 DA PRACA LTDA",
+          "BAIRROENT": "JARDIM MERITI",
           "DTULTCOMP": "21/11/2025",
           "produtos": [
             {
@@ -12286,7 +13610,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91352",
           "CLIENTE": "CRUZEIRO DO SUL MERCADO LTDA",
+          "BAIRROENT": "JARDIM VINTE E CINCO DE AGOSTO",
           "DTULTCOMP": "10/11/2025",
           "produtos": [
             {
@@ -12300,7 +13626,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "2961",
           "CLIENTE": "MERCADO MULTI PENHA RIO LTDA ME",
+          "BAIRROENT": "PENHA",
           "DTULTCOMP": "08/11/2025",
           "produtos": [
             {
@@ -12360,7 +13688,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "67339",
           "CLIENTE": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
+          "BAIRROENT": "COPACABANA",
           "DTULTCOMP": "24/03/2026",
           "produtos": [
             {
@@ -12374,7 +13704,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "78848",
           "CLIENTE": "TOQUINHO LANCHES LTDA",
+          "BAIRROENT": "JARDIM BOTÂNICO",
           "DTULTCOMP": "20/02/2026",
           "produtos": [
             {
@@ -12392,7 +13724,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91049",
           "CLIENTE": "LANCHONETE RECANTO DA PRAIA FISH LTDA",
+          "BAIRROENT": "BOTAFOGO",
           "DTULTCOMP": "11/11/2025",
           "produtos": [
             {
@@ -12418,7 +13752,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "1105",
           "CLIENTE": "CAFÉ E BAR PRÍNCIPE DA VOLUNTÁRIOS LTDA",
+          "BAIRROENT": "BOTAFOGO",
           "DTULTCOMP": "27/11/2024",
           "produtos": [
             {
@@ -12478,7 +13814,9 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "91809",
           "CLIENTE": "51.012.990 GABRIEL JORGE DO NASCIMENTO",
+          "BAIRROENT": "RIO COMPRIDO",
           "DTULTCOMP": "25/02/2026",
           "produtos": [
             {
@@ -12500,7 +13838,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "71823",
           "CLIENTE": "ECOBAR LANCHES LTDA",
+          "BAIRROENT": "URCA",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -12510,7 +13850,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92344",
           "CLIENTE": "EMPORIANOS COMERCIO DE PRODUTOS NATURAIS LTDA",
+          "BAIRROENT": "BOTAFOGO",
           "DTULTCOMP": "24/02/2026",
           "produtos": [
             {
@@ -12524,7 +13866,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91988",
           "CLIENTE": "GOLLAN'S LANCHES LTDA",
+          "BAIRROENT": "BOTAFOGO",
           "DTULTCOMP": "19/02/2026",
           "produtos": [
             {
@@ -12558,7 +13902,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93263",
           "CLIENTE": "L2R CENTRO DE TREINAMENTO LTDA",
+          "BAIRROENT": "MEIER",
           "DTULTCOMP": "11/02/2026",
           "produtos": [
             {
@@ -12580,7 +13926,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91910",
           "CLIENTE": "YVA RESTAURANTE LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
@@ -12598,7 +13946,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "93281",
           "CLIENTE": "FOOD SERV SC LTDA",
+          "BAIRROENT": "SAO CONRADO",
           "DTULTCOMP": "02/02/2026",
           "produtos": [
             {
@@ -12620,7 +13970,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85607",
           "CLIENTE": "BENVENUTO SAO FRANCISCO LTDA",
+          "BAIRROENT": "SÃO FRANCISCO",
           "DTULTCOMP": "29/01/2026",
           "produtos": [
             {
@@ -12634,7 +13986,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92019",
           "CLIENTE": "JCP NATURAIS COMERCIO LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "21/01/2026",
           "produtos": [
             {
@@ -12648,7 +14002,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85611",
           "CLIENTE": "BRAZIL NUTRITON COMERCIO DE PRODUTOS NATURAIS LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "16/01/2026",
           "produtos": [
             {
@@ -12662,7 +14018,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "8268",
           "CLIENTE": "NOVO LEBLON C CANTINA LTDA",
+          "BAIRROENT": "LEBLON",
           "DTULTCOMP": "15/01/2026",
           "produtos": [
             {
@@ -12676,7 +14034,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85642",
           "CLIENTE": "50.041.992 ALESSANDRO CIRNE DAVID MACHADO",
+          "BAIRROENT": "MÉIER",
           "DTULTCOMP": "12/01/2026",
           "produtos": [
             {
@@ -12710,7 +14070,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91913",
           "CLIENTE": "MERCADO ITAPIRU LTDA",
+          "BAIRROENT": "CATUMBI",
           "DTULTCOMP": "05/01/2026",
           "produtos": [
             {
@@ -12720,7 +14082,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92018",
           "CLIENTE": "COMERCIAL PONTILLO LTDA",
+          "BAIRROENT": "MADUREIRA",
           "DTULTCOMP": "26/12/2025",
           "produtos": [
             {
@@ -12734,7 +14098,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "92088",
           "CLIENTE": "VIDA & RAIZ DO FLAMENGO PRODUTOS NATURAIS LTDA",
+          "BAIRROENT": "FLAMENGO",
           "DTULTCOMP": "10/12/2025",
           "produtos": [
             {
@@ -12756,7 +14122,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91805",
           "CLIENTE": "FAZ BEM ALIMENTOS LTDA",
+          "BAIRROENT": "ITANHANGA",
           "DTULTCOMP": "04/12/2025",
           "produtos": [
             {
@@ -12770,7 +14138,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "57458",
           "CLIENTE": "TERESA CRISTINA DA SILVA MACEDO 01386322784",
+          "BAIRROENT": "SAO CONRADO",
           "DTULTCOMP": "28/11/2025",
           "produtos": [
             {
@@ -12784,7 +14154,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90261",
           "CLIENTE": "55.718.855 DANIEL TAVARES RANGEL",
+          "BAIRROENT": "SAUDE",
           "DTULTCOMP": "21/10/2025",
           "produtos": [
             {
@@ -12794,7 +14166,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "68610",
           "CLIENTE": "RODA CONVENIENCIA EM VENDING LTDA",
+          "BAIRROENT": "SAO CRISTOVAO",
           "DTULTCOMP": "30/10/2023",
           "produtos": [
             {
@@ -12804,7 +14178,9 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "8784",
           "CLIENTE": "FAZ BEM ALIMENTOS EIRELI ME",
+          "BAIRROENT": "BARRA DA TIJUCA",
           "DTULTCOMP": "20/03/2023",
           "produtos": [
             {
