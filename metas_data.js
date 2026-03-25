@@ -115,12 +115,24 @@ const METAS_DATA = {
               "DESCRICAO": "VILLA ROSA TINTO 750ML"
             },
             {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI BRUT 750ML"
+            },
+            {
               "FANTASIA": "CASA PERINI",
               "DESCRICAO": "ESPUM CASA PERINI MOSCATEL 750ML"
             },
             {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "VILLA ROSA BRANCO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA  ROSE 750ML"
             }
           ]
         },
@@ -217,6 +229,14 @@ const METAS_DATA = {
             {
               "FANTASIA": "CASA PERINI",
               "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI BRUT 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA  ROSE 750ML"
             },
             {
               "FANTASIA": "CASTAS",
@@ -3902,7 +3922,7 @@ const METAS_DATA = {
         },
         {
           "CODCLI": "30602",
-          "CLIENTE": "GIGABYTE LOJA DE CONVENIENCIA LTDA",
+          "CLIENTE": "GIGABYTE LOJA DE CONVENIENCIA - CAMPO GRANDE",
           "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "09/01/2026",
           "produtos": [
@@ -6169,30 +6189,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "HENNESSY",
               "DESCRICAO": "CHAMP VEUVE CLICQUOT ROSE 750 ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "90426",
-          "CLIENTE": "46.920.770 IGOR BARCELOS DE ARAUJO",
-          "BAIRROENT": "MARIA PAULA",
-          "DTULTCOMP": "26/02/2026",
-          "produtos": [
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL TROPICAL 4X250ML"
-            },
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL ZERO"
-            },
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL"
-            },
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL MELANCIA"
             }
           ]
         },
@@ -9897,6 +9893,30 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90426",
+          "CLIENTE": "46.920.770 IGOR BARCELOS DE ARAUJO",
+          "BAIRROENT": "MARIA PAULA",
+          "DTULTCOMP": "26/02/2026",
+          "produtos": [
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL TROPICAL 4X250ML"
+            },
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL ZERO"
+            },
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL"
+            },
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL MELANCIA"
+            }
+          ]
+        },
+        {
           "CODCLI": "85608",
           "CLIENTE": "TOCA DO ATLETA COM DE SUPLEMENTOS LTDA",
           "BAIRROENT": "ICARAÍ",
@@ -10869,7 +10889,28 @@ const METAS_DATA = {
         "meta": 0,
         "realizado": 0
       },
-      "nao_positivados": []
+      "nao_positivados": [
+        {
+          "CODCLI": "81155",
+          "CLIENTE": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
+          "DTULTCOMP": "06/02/2025",
+          "produtos": [
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM WHITE 1L"
+            },
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM HONEY 1L"
+            },
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM APPLE 1L"
+            }
+          ]
+        }
+      ]
     },
     {
       "nome": "ADEILSON GONÇALVES",
