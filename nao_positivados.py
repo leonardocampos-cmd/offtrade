@@ -10,6 +10,8 @@ def _query_clientes(schema):
         SELECT
             C.CODCLI,
             C.CLIENTE,
+            C.BAIRROENT,
+            C.FANTASIA,
             C.RCA,
             C.RCA2,
             C.DTULTCOMP,
@@ -63,7 +65,7 @@ nao_positivados = nao_positivados.drop_duplicates(subset=['CODCLI'])
 mes_atual = datetime.now().strftime('%m-%Y')
 output_path = str(Path(__file__).parent / f"nao_positivados_{mes_atual}.xlsx")
 
-nao_positivados[['CODCLI', 'CLIENTE','DESCRICAO','NOME_RCA', 'NOME_RCA2', 'DTULTCOMP']].to_excel(
+nao_positivados[['CODCLI', 'CLIENTE','BAIRROENT','DESCRICAO','NOME_RCA', 'NOME_RCA2', 'DTULTCOMP']].to_excel(
     output_path, index=False
 )
 

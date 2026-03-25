@@ -352,7 +352,11 @@ function buildNaoPosTable(lista) {
     return `
     <tr>
       <td>
-        <div class="nao-pos-cliente">${c.CLIENTE || '—'}</div>
+        <div class="nao-pos-cliente">
+          ${c.CLIENTE || '—'}
+          ${c.CODCLI ? `<strong>#${c.CODCLI}</strong>` : ''}
+          ${c.BAIRROENT ? `<strong>${c.BAIRROENT}</strong>` : ''}
+        </div>
         ${prods}
       </td>
       <td class="nao-pos-date">${c.DTULTCOMP || '—'}</td>
