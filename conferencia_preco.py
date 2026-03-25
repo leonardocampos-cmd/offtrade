@@ -46,44 +46,45 @@ tabela_promo = pd.read_excel(
 tabela_promo['PREÇO PROMO'] = tabela_promo['PREÇO PROMO'].str.replace(',', '.').astype(float).round(2)
 
 # 3. Extração de Dados do Banco (Query Corrigida para evitar duplicidade de PVENDA)
-query = """
+tabela_mov = """
     SELECT 
         NUMPED, NUMNOTA, DATA, CLIENTE, CODPROD, 
-        ROUND(PVENDA, 2) AS PVENDA, 
+        ROUND(TOTAL / NULLIF(QT, 0), 2) AS PVENDA, 
         DESCRICAO, NOME, QT, TOTAL, CODCOB
-    FROM crc.PBI_PCPEDI
+    FROM CRC.PBI_PCPEDI
     WHERE 
         TRUNC(DATA, 'MM') = TRUNC(SYSDATE, 'MM')
         AND NOME LIKE '%OFF TRADE%'   
 """
-df = pd.read_sql(query, con=engine)
+df = pd.read_sql(tabela_mov, con=engine)
+profit = pd.read_excel(r"G:\Drives compartilhados\Profit RJ\Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb", sheet_name='Precificação', skiprows=8)
+profit.drop(columns=['Unnamed: 0', 'PRODUTO', 'FORNECEDORA', 'TIPO',
+       'NACIONALIDADE', 'PAUTA', 'MVA%', 'BASE DO ST', 'CUSTO SEM ST/IPI',
+       'CUSTO COM ST/IPI', 'PREÇO DE VENDA', 'PREÇO SEM ST',
+       'PREÇO PROMO (S.A)', 'MARGEM', 'MARKUP', 'VL.CONTA',
+       '90% ACIMA DA PAUTA?', 'DESCONTO/ACRESCIMO', 'VALOR', 'BASE DE RETENÇÃO'], inplace=True)
 df.columns = df.columns.str.upper()
-
-# 4. Cruzamento de Dados (Merges)
 df['CODPROD'] = df['CODPROD'].astype(str).str.strip()
 
 df = df.merge(tabela_preco_off[['COD ', 'PREÇO OFF']], left_on='CODPROD', right_on='COD ', how='left')
 df = df.merge(tabela_preco_on[['COD CRC', 'PREÇO']], left_on='CODPROD', right_on='COD CRC', how='left')
 df = df.merge(tabela_promo[['COD PROMO', 'PREÇO PROMO']], left_on='CODPROD', right_on='COD PROMO', how='left')
+profit['CODIGO'] = profit['CODIGO'].astype(str).str.strip()
+df = df.merge(profit[['CODIGO', 'CUSTO COM DESCONTO']], left_on='CODPROD', right_on='CODIGO', how='left')
 
-# Renomear Preço ON para clareza
 df = df.rename(columns={'PREÇO': 'PREÇO ON'})
 
-# 5. Função de Conferência de Preços (Lógica de Prioridade: Promo -> OFF -> ON)
 def aplicar_conferencia(df_local):
-    # Calcula o menor valor entre as referências disponíveis
+   
     df_local['MENOR_VALOR'] = df_local[['PREÇO OFF', 'PREÇO ON', 'PREÇO PROMO']].min(axis=1).round(2)
     
-    # Define a classificação baseada na sua regra de negócio
     def classificar(row):
         pv = row['PVENDA']
         menor = row['MENOR_VALOR']
         
-        # 1. Se estiver abaixo do menor preço de todas as tabelas, é irregular
         if pv < menor:
             return 'ABAIXO DA TABELA'
         
-        # 2. Segue a sua hierarquia de conferência: PROMO -> OFF -> ON
         if pd.notna(row['PREÇO PROMO']) and pv <= row['PREÇO PROMO']:
             return 'PREÇO PROMO'
         
@@ -125,13 +126,22 @@ df["PORCENTAGEM DIFERENÇA"] = np.where(
     0
 )
 df['PORCENTAGEM DIFERENÇA'] = df['PORCENTAGEM DIFERENÇA'].round(2).apply(lambda x: f"{x:.2f}%")
+# Converter as colunas para numérico (forçando erro a virar NaN)
+df['PVENDA'] = pd.to_numeric(df['PVENDA'], errors='coerce')
+df['CUSTO COM DESCONTO'] = pd.to_numeric(df['CUSTO COM DESCONTO'], errors='coerce')
 
+# Agora o cálculo deve funcionar
+df['MARGEM'] = (df['PVENDA'] - df['CUSTO COM DESCONTO']) / df['CUSTO COM DESCONTO']
+
+# Opcional: Tratar possíveis NaNs ou divisões por zero geradas
+df['MARGEM'] = df['MARGEM'].fillna(0)
+df['MARGEM'] = df['MARGEM'].round(2).apply(lambda x: f"{x:.2f}%")
 df['DATA'] = pd.to_datetime(df['DATA']).dt.date
 hoje = date.today()
 # ontem = date.today() - timedelta(days=1)
 df = df[df['DATA'] == hoje]
 df = df.sort_values(by='DATA', ascending=False)
 df = df[df['STATUS_CONFERENCIA']=='ABAIXO DA TABELA']
-print(df)
+display(df)
 
-df.to_excel('conferencia_precos_final.xlsx', index=False)
+# df.to_excel('conferencia_precos_final.xlsx', index=False)
