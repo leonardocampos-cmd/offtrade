@@ -1,7 +1,7 @@
 # EXPORTAÇÃO PARA metas.html
 import json
 import pandas as pd
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from meta import engine, engine_theking, arquivo, tabela_vendas
 import nao_positivados as _np_mod
@@ -89,7 +89,7 @@ for _, m in metas_com_nome.iterrows():
 
 payload = {
     "mes": date.today().strftime('%B %Y').capitalize(),
-    "atualizado_em": date.today().strftime('%d/%m/%Y'),
+    "atualizado_em": datetime.now().strftime('%d/%m/%Y %H:%M'),
     "vendedores": vendedores_out
 }
 
