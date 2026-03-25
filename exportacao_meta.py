@@ -102,7 +102,7 @@ output_path = str(Path(__file__).parent / "metas_data.js")
 with open(output_path, 'w', encoding='utf-8') as f:
     f.write(js_out)
 
-print(f"✅ metas_data.js gerado com {len(vendedores_out)} vendedores → {output_path}")
+print(f"OK metas_data.js gerado com {len(vendedores_out)} vendedores -> {output_path}")
 
 # Push automático para o GitHub Pages
 import subprocess
@@ -110,4 +110,4 @@ repo_dir = str(Path(__file__).parent)
 subprocess.run(["git", "-C", repo_dir, "add", "metas_data.js"], check=True)
 subprocess.run(["git", "-C", repo_dir, "commit", "-m", f"Atualiza metas_data.js - {date.today().strftime('%d/%m/%Y')}"])
 subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
-print("✅ GitHub Pages atualizado.")
+print("OK GitHub Pages atualizado.")
