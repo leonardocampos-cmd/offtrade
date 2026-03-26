@@ -39,6 +39,22 @@ def safe_float(v):
     try: return float(v) if pd.notna(v) else 0.0
     except: return 0.0
 
+def daily_series(grupo):
+    """Retorna [{dia, fat, pos}, ...] por dia do mês, ordenado por data."""
+    if grupo.empty:
+        return []
+    df = grupo.copy()
+    df['_dt'] = pd.to_datetime(df['DTMOV'], dayfirst=True, errors='coerce')
+    result = []
+    for dt, grp in df.groupby('_dt'):
+        result.append({
+            'dia':  dt.strftime('%d/%m'),
+            'fat':  float(grp['FATURAMENTO'].sum().round(2)),
+            'pos':  int(grp['CODCLI'].nunique()),
+        })
+    result.sort(key=lambda x: x['dia'])
+    return result
+
 def _build_nao_pos(nome_oracle):
     df = _df_nao_pos[_df_nao_pos['NOME_RCA'] == nome_oracle][
         ['CODCLI', 'CLIENTE', 'BAIRROENT', 'DTULTCOMP', 'FANTASIA', 'DESCRICAO']
@@ -85,6 +101,7 @@ for _, m in metas_com_nome.iterrows():
         "pos_redbull":          {"meta": safe_int(m.get('POSITIVAÇÃO RED BULL')),        "realizado": real_pos(grupo, lambda d: d['FANTASIA'].str.contains('RED BULL', case=False, na=False))},
         "pos_pinatti":          {"meta": safe_int(m.get('POSITIVAÇÃO PINATTI')),         "realizado": real_pos(grupo, lambda d: d['FANTASIA'].str.contains('PINATI', case=False, na=False))},
         "nao_positivados": _build_nao_pos(nome_oracle),
+        "historico": daily_series(grupo),
     })
 
 payload = {

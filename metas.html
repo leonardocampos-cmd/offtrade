@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Metas OFF TRADE RJ</title>
   <script src="metas_data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -247,6 +248,8 @@
     .nao-pos-date { color: var(--red); white-space: nowrap; }
     .nao-pos-empty { color: var(--muted); font-size: 0.8rem; padding: 12px 0; }
 
+    .chart-wrap { position: relative; height: 200px; }
+
     @media (max-width: 480px) {
       .cards-grid { grid-template-columns: 1fr; }
       body { padding: 12px; }
@@ -374,6 +377,108 @@ function buildNaoPosTable(lista) {
     </table>`;
 }
 
+// ── Gráficos ──────────────────────────────────────────────
+
+const CHART_DEFAULTS = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: { legend: { labels: { color: '#94a3b8', font: { size: 11 }, boxWidth: 14 } } },
+  scales: {
+    x: { ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { color: '#2d3144' } },
+    y: { ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { color: '#2d3144' } },
+  }
+};
+
+function avgLine(labels, avg) {
+  return {
+    label: 'Média',
+    data: labels.map(() => avg),
+    type: 'line',
+    borderColor: '#94a3b8',
+    borderWidth: 1.5,
+    borderDash: [5, 3],
+    pointRadius: 0,
+    order: 0,
+  };
+}
+
+function buildCharts(v) {
+  const hist = v.historico || [];
+  if (!hist.length) return;
+
+  const labels = hist.map(d => d.dia);
+
+  // -- Faturamento --
+  const fatVals = hist.map(d => d.fat);
+  const fatAvg  = fatVals.reduce((a, b) => a + b, 0) / fatVals.length;
+  new Chart(document.getElementById('chart-fat'), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'Faturamento',
+          data: fatVals,
+          backgroundColor: 'rgba(245,197,24,0.45)',
+          borderColor: '#f5c518',
+          borderWidth: 1,
+          order: 1,
+        },
+        { ...avgLine(labels, fatAvg), label: `Média ${fmtFat(fatAvg)}` },
+      ]
+    },
+    options: {
+      ...CHART_DEFAULTS,
+      plugins: {
+        ...CHART_DEFAULTS.plugins,
+        tooltip: { callbacks: { label: ctx => ctx.dataset.type === 'line'
+          ? `Média: ${fmtFat(ctx.raw)}`
+          : `Fat: ${fmtFat(ctx.raw)}` } }
+      },
+      scales: {
+        x: CHART_DEFAULTS.scales.x,
+        y: { ...CHART_DEFAULTS.scales.y, ticks: { ...CHART_DEFAULTS.scales.y.ticks,
+          callback: v => 'R$' + (v >= 1000 ? (v/1000).toFixed(0)+'k' : v) } }
+      }
+    }
+  });
+
+  // -- Positivação --
+  const posVals = hist.map(d => d.pos);
+  const posAvg  = posVals.reduce((a, b) => a + b, 0) / posVals.length;
+  new Chart(document.getElementById('chart-pos'), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'Clientes',
+          data: posVals,
+          backgroundColor: 'rgba(34,197,94,0.4)',
+          borderColor: '#22c55e',
+          borderWidth: 1,
+          order: 1,
+        },
+        { ...avgLine(labels, posAvg), label: `Média ${posAvg.toFixed(1)}` },
+      ]
+    },
+    options: {
+      ...CHART_DEFAULTS,
+      plugins: {
+        ...CHART_DEFAULTS.plugins,
+        tooltip: { callbacks: { label: ctx => ctx.dataset.type === 'line'
+          ? `Média: ${posAvg.toFixed(1)}`
+          : `Clientes: ${ctx.raw}` } }
+      },
+      scales: {
+        x: CHART_DEFAULTS.scales.x,
+        y: { ...CHART_DEFAULTS.scales.y, ticks: { ...CHART_DEFAULTS.scales.y.ticks,
+          stepSize: 1 } }
+      }
+    }
+  });
+}
+
 // ── Roteamento por URL ────────────────────────────────────
 
 function getParam() {
@@ -446,9 +551,21 @@ function renderDetail(v) {
     </div>
 
     <div class="detail-card">
+      <div class="section-title">Faturamento diário</div>
+      <div class="chart-wrap"><canvas id="chart-fat"></canvas></div>
+    </div>
+
+    <div class="detail-card">
+      <div class="section-title">Positivação diária (clientes únicos/dia)</div>
+      <div class="chart-wrap"><canvas id="chart-pos"></canvas></div>
+    </div>
+
+    <div class="detail-card">
       <div class="section-title">Clientes não positivados (ÚLTIMAS VENDAS)</div>
       ${buildNaoPosTable(v.nao_positivados)}
     </div>`;
+
+  buildCharts(v);
 }
 
 function renderAll(vendedores) {
