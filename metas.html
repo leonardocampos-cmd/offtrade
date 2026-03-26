@@ -408,7 +408,7 @@ function voltarParaTodos() {
 
 function renderDetail(v) {
   document.getElementById('header-sub').textContent =
-    `${METAS_DATA.mes}  ·  Atualizado ${METAS_DATA.atualizado_em}`;
+    `Atualizado ${METAS_DATA.atualizado_em}`;
 
   document.getElementById('header-actions').innerHTML =
     `<button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>`;
@@ -446,7 +446,7 @@ function renderDetail(v) {
     </div>
 
     <div class="detail-card">
-      <div class="section-title">Clientes não positivados (ÙLTIMAS VENDAS)</div>
+      <div class="section-title">Clientes não positivados (ÚLTIMAS VENDAS)</div>
       ${buildNaoPosTable(v.nao_positivados)}
     </div>`;
 }

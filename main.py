@@ -37,5 +37,5 @@ def main():
     print(f"  Concluído em {duracao}s")
     print(f"{'='*50}\n")
 
-if __name__ == "__main__":
+if __name__ == "__main__":  
     main()

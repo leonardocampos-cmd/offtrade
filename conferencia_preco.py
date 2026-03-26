@@ -57,7 +57,7 @@ tabela_mov = """
         AND NOME LIKE '%OFF TRADE%'   
 """
 df = pd.read_sql(tabela_mov, con=engine)
-profit = pd.read_excel(r"G:\Drives compartilhados\Profit RJ\Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb", sheet_name='Precificação', skiprows=8)
+profit = pd.read_excel(r"G:\Drives compartilhados\Profit RJ\Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb", sheet_name='Precificação', skiprows=8, engine='pyxlsb')
 profit.drop(columns=['Unnamed: 0', 'PRODUTO', 'FORNECEDORA', 'TIPO',
        'NACIONALIDADE', 'PAUTA', 'MVA%', 'BASE DO ST', 'CUSTO SEM ST/IPI',
        'CUSTO COM ST/IPI', 'PREÇO DE VENDA', 'PREÇO SEM ST',
@@ -142,6 +142,5 @@ hoje = date.today()
 df = df[df['DATA'] == hoje]
 df = df.sort_values(by='DATA', ascending=False)
 df = df[df['STATUS_CONFERENCIA']=='ABAIXO DA TABELA']
-display(df)
 
-# df.to_excel('conferencia_precos_final.xlsx', index=False)
+df.to_excel('conferencia_precos_final.xlsx', index=False)
