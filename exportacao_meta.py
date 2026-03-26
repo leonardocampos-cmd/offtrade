@@ -39,21 +39,57 @@ def safe_float(v):
     try: return float(v) if pd.notna(v) else 0.0
     except: return 0.0
 
-def daily_series(grupo):
-    """Retorna [{dia, fat, pos}, ...] por dia do mês, ordenado por data."""
-    if grupo.empty:
+def _query_historico(schema):
+    s = schema.upper()
+    return f"""
+        SELECT
+            TRUNC(M.DTMOV, 'MM')  AS MES,
+            M.CODUSUR              AS CODUSUR,
+            SUM(M.PUNIT * M.QT)   AS FATURAMENTO,
+            COUNT(DISTINCT M.CODCLI) AS POSITIVACAO
+        FROM {s}.PCMOV M
+        JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
+        WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -11)
+          AND M.CODOPER = 'S'
+          AND M.CODFILIAL IN (1, 2, 4)
+          AND M.NUMNOTADEV IS NULL
+          AND M.DTCANCEL IS NULL
+          AND U.NOME LIKE '%OFF TRADE%'
+        GROUP BY TRUNC(M.DTMOV, 'MM'), M.CODUSUR
+    """
+
+_hist_raw = pd.concat([
+    pd.read_sql(_query_historico("CRC"),      con=engine,         dtype=str),
+    pd.read_sql(_query_historico("thekings"), con=engine_theking, dtype=str),
+], ignore_index=True)
+_hist_raw.columns = _hist_raw.columns.str.upper()
+_hist_raw['MES']         = pd.to_datetime(_hist_raw['MES'], errors='coerce')
+_hist_raw['FATURAMENTO'] = pd.to_numeric(_hist_raw['FATURAMENTO'], errors='coerce').fillna(0)
+_hist_raw['POSITIVACAO'] = pd.to_numeric(_hist_raw['POSITIVACAO'], errors='coerce').fillna(0).astype(int)
+_hist_raw['CODUSUR']     = pd.to_numeric(_hist_raw['CODUSUR'], errors='coerce')
+
+# Junta CODUSUR → NOME para poder indexar igual ao resto
+_hist_raw = _hist_raw.merge(
+    map_rca.rename(columns={'NOME': 'NOME_ORACLE'}),
+    left_on='CODUSUR', right_on='RCA', how='left'
+)
+
+def monthly_series(nome_oracle):
+    df = _hist_raw[_hist_raw['NOME_ORACLE'] == nome_oracle].copy()
+    if df.empty:
         return []
-    df = grupo.copy()
-    df['_dt'] = pd.to_datetime(df['DTMOV'], dayfirst=True, errors='coerce')
-    result = []
-    for dt, grp in df.groupby('_dt'):
-        result.append({
-            'dia':  dt.strftime('%d/%m'),
-            'fat':  float(grp['FATURAMENTO'].sum().round(2)),
-            'pos':  int(grp['CODCLI'].nunique()),
-        })
-    result.sort(key=lambda x: x['dia'])
-    return result
+    agg = df.groupby('MES', as_index=False).agg(
+        fat=('FATURAMENTO', 'sum'),
+        pos=('POSITIVACAO', 'sum'),
+    ).sort_values('MES')
+    return [
+        {
+            'mes': row['MES'].strftime('%b/%y'),
+            'fat': round(float(row['fat']), 2),
+            'pos': int(row['pos']),
+        }
+        for _, row in agg.iterrows()
+    ]
 
 def _build_nao_pos(nome_oracle):
     df = _df_nao_pos[_df_nao_pos['NOME_RCA'] == nome_oracle][
@@ -101,7 +137,7 @@ for _, m in metas_com_nome.iterrows():
         "pos_redbull":          {"meta": safe_int(m.get('POSITIVAÇÃO RED BULL')),        "realizado": real_pos(grupo, lambda d: d['FANTASIA'].str.contains('RED BULL', case=False, na=False))},
         "pos_pinatti":          {"meta": safe_int(m.get('POSITIVAÇÃO PINATTI')),         "realizado": real_pos(grupo, lambda d: d['FANTASIA'].str.contains('PINATI', case=False, na=False))},
         "nao_positivados": _build_nao_pos(nome_oracle),
-        "historico": daily_series(grupo),
+        "historico": monthly_series(nome_oracle),
     })
 
 payload = {
