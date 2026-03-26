@@ -3,6 +3,7 @@ import requests
 import json
 import os
 from datetime import datetime
+from conferencia_preco import df
 
 # Configurações da Evolution API
 EVOLUTION_URL = "http://localhost:8083"

@@ -5278,3 +5278,1323 @@ OK GitHub Pages atualizado.
 [ERRO] Falha na execução:
 [26/03/2026 10:01:07,13] ERRO (codigo 1
 ---------------------------------------- 
+[26/03/2026 11:00:01,74] Iniciando... 
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+g:\Meu Drive\offtrade\exportacao_meta.py:53: UserWarning: DataFrame columns are not unique, some columns will be omitted.
+  prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
+[master de79644] Atualiza metas_data.js - 26/03/2026
+ 1 file changed, 1339 insertions(+), 1339 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   b560e8c..de79644  master -> master
+
+==================================================
+  OFFTRADE - 26/03/2026 11:00
+==================================================
+
+--------------------------------------------------
+  1/4 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+--------------------------------------------------
+  2/4 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+Clientes nao positivados em 03/2026: 2753
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_03-2026.xlsx
+OK metas_data.js gerado com 16 vendedores -> g:\Meu Drive\offtrade\metas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+
+--------------------------------------------------
+  4/4 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 26 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (26 chave(s) no total).
+
+==================================================
+  Concluído em 58s
+==================================================
+
+[26/03/2026 11:01:01,47] OK 
+---------------------------------------- 

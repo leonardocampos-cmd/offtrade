@@ -143,5 +143,4 @@ df = df[df['DATA'] == hoje]
 df = df.sort_values(by='DATA', ascending=False)
 df = df[df['STATUS_CONFERENCIA']=='ABAIXO DA TABELA']
 
-
 df.to_excel('conferencia_precos_final.xlsx', index=False)
