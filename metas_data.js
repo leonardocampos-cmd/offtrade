@@ -2,7 +2,7 @@
 
 const METAS_DATA = {
   "mes": "March 2026",
-  "atualizado_em": "26/03/2026 07:38",
+  "atualizado_em": "26/03/2026 07:41",
   "vendedores": [
     {
       "nome": "MARIA LUIZA",
