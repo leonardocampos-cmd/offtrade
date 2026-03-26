@@ -250,6 +250,40 @@
 
     .chart-wrap { position: relative; height: 200px; }
 
+    .prev-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 4px;
+    }
+    .prev-box {
+      background: var(--card2);
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+    .prev-box-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+    .prev-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 6px;
+    }
+    .prev-row-label { font-size: 0.72rem; color: var(--muted); }
+    .prev-row-val   { font-size: 0.88rem; font-weight: 700; color: var(--text); }
+    .prev-du {
+      font-size: 0.65rem;
+      color: var(--muted);
+      margin-top: 8px;
+      padding-top: 6px;
+      border-top: 1px solid var(--border);
+    }
+
     @media (max-width: 480px) {
       .cards-grid { grid-template-columns: 1fr; }
       body { padding: 12px; }
@@ -375,6 +409,50 @@ function buildNaoPosTable(lista) {
       </thead>
       <tbody>${rows}</tbody>
     </table>`;
+}
+
+// ── Previsão ──────────────────────────────────────────────
+
+function buildPrevisao(v) {
+  const p = v.previsao;
+  if (!p) return '';
+
+  function diff(proj, media) {
+    if (!media) return '';
+    const d = ((proj - media) / media * 100);
+    const sign = d >= 0 ? '+' : '';
+    const color = d >= 0 ? 'var(--green)' : 'var(--red)';
+    return `<span style="font-size:0.7rem;color:${color};margin-left:6px">${sign}${d.toFixed(1)}%</span>`;
+  }
+
+  return `
+    <div class="detail-card">
+      <div class="section-title">Previsão de fechamento — ${p.du_passados} de ${p.du_total} dias úteis</div>
+      <div class="prev-grid">
+        <div class="prev-box">
+          <div class="prev-box-label">Faturamento</div>
+          <div class="prev-row">
+            <span class="prev-row-label">Projeção (ritmo atual)</span>
+            <span class="prev-row-val">${fmtFat(p.fat_proj)}${diff(p.fat_proj, p.fat_media_hist)}</span>
+          </div>
+          <div class="prev-row">
+            <span class="prev-row-label">Média 3 meses anteriores</span>
+            <span class="prev-row-val" style="color:var(--muted)">${fmtFat(p.fat_media_hist)}</span>
+          </div>
+        </div>
+        <div class="prev-box">
+          <div class="prev-box-label">Positivação</div>
+          <div class="prev-row">
+            <span class="prev-row-label">Projeção (ritmo atual)</span>
+            <span class="prev-row-val">${Number(p.pos_proj).toFixed(0)} clientes${diff(p.pos_proj, p.pos_media_hist)}</span>
+          </div>
+          <div class="prev-row">
+            <span class="prev-row-label">Média 3 meses anteriores</span>
+            <span class="prev-row-val" style="color:var(--muted)">${Number(p.pos_media_hist).toFixed(0)} clientes</span>
+          </div>
+        </div>
+      </div>
+    </div>`;
 }
 
 // ── Gráficos ──────────────────────────────────────────────
@@ -551,6 +629,8 @@ function renderDetail(v) {
       ${buildBar('Red Bull', v.pos_redbull.realizado, v.pos_redbull.meta, 'pos')}
       ${buildBar('Pinatti', v.pos_pinatti.realizado, v.pos_pinatti.meta, 'pos')}
     </div>
+
+    ${buildPrevisao(v)}
 
     <div class="detail-card">
       <div class="section-title">Faturamento mensal</div>

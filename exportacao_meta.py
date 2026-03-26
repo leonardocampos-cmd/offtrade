@@ -91,6 +91,37 @@ def monthly_series(nome_oracle):
         for _, row in agg.iterrows()
     ]
 
+# Dias úteis do mês atual (seg–sex, sem feriados)
+_hoje        = date.today()
+_inicio_mes  = _hoje.replace(day=1)
+_fim_mes     = (_hoje.replace(day=28) + pd.offsets.MonthEnd(1)).date()
+_du_passados = max(len(pd.bdate_range(_inicio_mes, _hoje)), 1)
+_du_total    = len(pd.bdate_range(_inicio_mes, _fim_mes))
+
+def previsao(nome_oracle, fat_realizado, pos_realizado):
+    # Abordagem 1 – ritmo atual extrapolado para o mês
+    fat_proj = round(fat_realizado / _du_passados * _du_total, 2)
+    pos_proj = round(pos_realizado / _du_passados * _du_total, 1)
+
+    # Abordagem 2 – média dos últimos 3 meses fechados
+    mes_atual = pd.Timestamp(_inicio_mes)
+    df_hist = _hist_raw[
+        (_hist_raw['NOME_ORACLE'] == nome_oracle) &
+        (_hist_raw['MES'] < mes_atual)
+    ].groupby('MES').agg(fat=('FATURAMENTO', 'sum'), pos=('POSITIVACAO', 'sum')).sort_values('MES').tail(3)
+
+    fat_media = round(float(df_hist['fat'].mean()), 2) if len(df_hist) > 0 else 0.0
+    pos_media = round(float(df_hist['pos'].mean()), 1) if len(df_hist) > 0 else 0.0
+
+    return {
+        'fat_proj':       fat_proj,
+        'fat_media_hist': fat_media,
+        'pos_proj':       pos_proj,
+        'pos_media_hist': pos_media,
+        'du_passados':    _du_passados,
+        'du_total':       _du_total,
+    }
+
 def _build_nao_pos(nome_oracle):
     df = _df_nao_pos[_df_nao_pos['NOME_RCA'] == nome_oracle][
         ['CODCLI', 'CLIENTE', 'BAIRROENT', 'DTULTCOMP', 'FANTASIA', 'DESCRICAO']
@@ -137,7 +168,8 @@ for _, m in metas_com_nome.iterrows():
         "pos_redbull":          {"meta": safe_int(m.get('POSITIVAÇÃO RED BULL')),        "realizado": real_pos(grupo, lambda d: d['FANTASIA'].str.contains('RED BULL', case=False, na=False))},
         "pos_pinatti":          {"meta": safe_int(m.get('POSITIVAÇÃO PINATTI')),         "realizado": real_pos(grupo, lambda d: d['FANTASIA'].str.contains('PINATI', case=False, na=False))},
         "nao_positivados": _build_nao_pos(nome_oracle),
-        "historico": monthly_series(nome_oracle),
+        "historico":       monthly_series(nome_oracle),
+        "previsao":        previsao(nome_oracle, real_fat(grupo), real_pos(grupo)),
     })
 
 payload = {
