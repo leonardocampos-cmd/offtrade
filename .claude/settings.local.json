@@ -6,7 +6,23 @@
       "Bash(schtasks /query /fo LIST /v)",
       "Bash(powershell -Command \"Get-ScheduledTask | Where-Object { \\\\$_.TaskName -like '*offtrade*' -or \\\\$_.TaskName -like '*rodar*' -or \\\\$_.TaskName -like '*metas*' } | Select-Object TaskName, TaskPath\")",
       "Bash(powershell -Command \"Get-ScheduledTask -TaskName 'Offtrade' | Get-ScheduledTaskInfo; \\(Get-ScheduledTask -TaskName 'Offtrade'\\).Triggers | Format-List *; \\(Get-ScheduledTask -TaskName 'Offtrade'\\).Actions | Format-List *\")",
-      "Bash(powershell -Command \"\\(Get-ScheduledTask -TaskName 'Offtrade'\\).Triggers.Repetition | Format-List *\")"
+      "Bash(powershell -Command \"\\(Get-ScheduledTask -TaskName 'Offtrade'\\).Triggers.Repetition | Format-List *\")",
+      "Bash(sc query:*)",
+      "Bash(schtasks /query /fo CSV)",
+      "Bash(cmd /c \"schtasks /query /fo CSV 2>&1\")",
+      "Bash(powershell -Command \"Get-ScheduledTask | Select-Object TaskName, State | Format-Table -AutoSize\" 2>&1)",
+      "Bash(powershell -Command \"Get-ScheduledTask -TaskName 'Offtrade' | Get-ScheduledTaskInfo | Format-List *\" 2>&1)",
+      "Bash(powershell -Command \"Get-ScheduledTask -TaskName 'Offtrade' | Select-Object -ExpandProperty Actions | Format-List *\" 2>&1)",
+      "Bash(powershell -Command \"Get-ScheduledTask -TaskName 'Offtrade' | Select-Object -ExpandProperty Actions | Format-List Execute, Arguments, WorkingDirectory\" 2>&1)",
+      "Bash(powershell -Command \"Start-ScheduledTask -TaskName 'Offtrade'; Start-Sleep -Seconds 5; Get-ScheduledTask -TaskName 'Offtrade' | Get-ScheduledTaskInfo | Select-Object LastRunTime, LastTaskResult, NextRunTime\" 2>&1)",
+      "Bash(powershell -Command \"Start-Sleep -Seconds 10; Get-ScheduledTask -TaskName 'Offtrade' | Get-ScheduledTaskInfo | Select-Object LastRunTime, LastTaskResult\" 2>&1)",
+      "Bash(powershell -Command \"Start-Sleep -Seconds 15; Get-ScheduledTask -TaskName 'Offtrade' | Get-ScheduledTaskInfo | Select-Object LastRunTime, LastTaskResult\" 2>&1)",
+      "Bash(powershell -Command \"Start-Sleep -Seconds 20; Get-ScheduledTask -TaskName 'Offtrade' | Get-ScheduledTaskInfo | Select-Object LastRunTime, LastTaskResult\" 2>&1)",
+      "Bash(powershell -Command \"Get-Content 'G:\\\\Meu Drive\\\\offtrade\\\\offtrade.log' -Tail 5\" 2>&1)",
+      "Bash(powershell -Command \"Get-Content 'G:\\\\Meu Drive\\\\offtrade\\\\offtrade.log' -Tail 30\" 2>&1)",
+      "Bash(powershell -Command \"Get-Content 'G:\\\\Meu Drive\\\\offtrade\\\\offtrade.log' -Tail 60\" 2>&1)",
+      "Bash(powershell -Command \"Start-ScheduledTask -TaskName 'Offtrade'; Write-Host 'Aguardando...'; Start-Sleep -Seconds 60; Get-ScheduledTask -TaskName 'Offtrade' | Get-ScheduledTaskInfo | Select-Object LastRunTime, LastTaskResult\" 2>&1)",
+      "Bash(powershell -Command \"Get-Content 'G:\\\\Meu Drive\\\\offtrade\\\\offtrade.log' -Tail 20\" 2>&1)"
     ]
   }
 }
