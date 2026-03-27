@@ -1,7 +1,6 @@
-// Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "mes": "March 2026",
+//  "mes": "March 2026",
   "atualizado_em": "26/03/2026 20:59",
   "vendedores": [
     {
