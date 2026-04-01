@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "01/04/2026 12:00",
+  "atualizado_em": "01/04/2026 13:01",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -105560,20 +105560,6 @@ const VENDAS_DATA = {
           "valor": 165.38
         },
         {
-          "data": "30/03/2026",
-          "cliente": "A CASA DA PROTEINA SUPLEMENTOS LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "30/03/2026",
-          "cliente": "A CASA DA PROTEINA SUPLEMENTOS LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
           "data": "10/03/2026",
           "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
           "produto": "4 PACK RED BULL MELANCIA",
@@ -105978,20 +105964,6 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "qt": 10,
           "valor": 209.0
-        },
-        {
-          "data": "30/03/2026",
-          "cliente": "50.041.992 ALESSANDRO CIRNE DAVID MACHADO",
-          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "30/03/2026",
-          "cliente": "50.041.992 ALESSANDRO CIRNE DAVID MACHADO",
-          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
-          "qt": 1,
-          "valor": 27.56
         },
         {
           "data": "04/03/2026",
@@ -115019,6 +114991,15 @@ const VENDAS_DATA = {
           "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
           "qt": 198,
           "valor": 12711.6
+        }
+      ],
+      "Abr/26": [
+        {
+          "data": "01/04/2026",
+          "cliente": "JM LISAMAR SUPERMERCADO LTDA",
+          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "qt": 3,
+          "valor": 689.7
         }
       ],
       "Nov/25": [
