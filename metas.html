@@ -113,8 +113,26 @@
     /* Cards grid */
     .cards-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
       gap: 14px;
+    }
+
+    .card-vendas-wrap {
+      margin-top: 14px;
+      max-height: 260px;
+      overflow-y: auto;
+      border-top: 1px solid var(--border);
+      padding-top: 10px;
+    }
+    .card-vendas-wrap::-webkit-scrollbar { width: 4px; }
+    .card-vendas-wrap::-webkit-scrollbar-track { background: transparent; }
+    .card-vendas-wrap::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+    .card-vendas-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 8px;
     }
 
     .vendor-card {
@@ -315,7 +333,7 @@
       border-top: 1px solid var(--border);
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 600px) {
       .cards-grid { grid-template-columns: 1fr; }
       body { padding: 12px; }
     }
@@ -821,6 +839,10 @@ function renderAll(vendedores) {
         <div class="vendor-rca">RCA ${v.rca}</div>
         ${buildBar('Faturamento Total', v.fat_tt.realizado, v.fat_tt.meta, 'fat')}
         ${buildBar('Positivação Total', v.pos_tt.realizado, v.pos_tt.meta, 'pos')}
+        <div class="card-vendas-wrap">
+          <div class="card-vendas-label">Vendas do mês</div>
+          ${buildVendasTable(v.vendas)}
+        </div>
         <div class="card-actions">
           <button class="btn btn-dl" onclick="downloadCSV(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'))">&#8595; Baixar CSV</button>
           <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>
