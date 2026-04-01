@@ -11,11 +11,9 @@ def _query_clientes(schema):
             C.CODCLI,
             C.CLIENTE,
             C.BAIRROENT,
-            C.FANTASIA,
             C.RCA,
             C.RCA2,
-            C.DTULTCOMP,
-            C.NOTA_ULT_VENDA,
+            LV.DTULTCOMP,
             M.CODPROD,
             M.CODUSUR,
             (M.PUNIT * M.QT) AS FATURAMENTO,
@@ -26,14 +24,26 @@ def _query_clientes(schema):
             U1.NOME AS NOME_RCA,
             U2.NOME AS NOME_RCA2
         FROM {s}.PBI_PCCLIENT C
-        LEFT JOIN {s}.PCMOV M ON (C.CODCLI = M.CODCLI AND C.NOTA_ULT_VENDA = M.NUMNOTA)
-        LEFT JOIN {s}.PCPRODUT P ON (M.CODPROD = P.CODPROD)
-        LEFT JOIN {s}.PCFORNEC F ON (P.CODFORNEC = F.CODFORNEC)
-        LEFT JOIN {s}.PCUSUARI U1 ON (C.RCA = U1.CODUSUR)
-        LEFT JOIN {s}.PCUSUARI U2 ON (C.RCA2 = U2.CODUSUR)
-        WHERE C.DTULTCOMP IS NOT NULL
-        AND (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%')
-        ORDER BY C.DTULTCOMP DESC
+        JOIN (
+            SELECT
+                CODCLI,
+                MAX(DTMOV) AS DTULTCOMP,
+                MAX(NUMNOTA) KEEP (DENSE_RANK LAST ORDER BY DTMOV) AS NUMNOTA,
+                MAX(CODUSUR) KEEP (DENSE_RANK LAST ORDER BY DTMOV) AS CODUSUR
+            FROM {s}.PCMOV
+            WHERE CODOPER = 'S'
+              AND NUMNOTADEV IS NULL
+              AND DTCANCEL IS NULL
+            GROUP BY CODCLI
+        ) LV ON C.CODCLI = LV.CODCLI
+        LEFT JOIN {s}.PCMOV M ON (M.CODCLI = LV.CODCLI AND M.NUMNOTA = LV.NUMNOTA
+                                   AND M.CODOPER = 'S' AND M.NUMNOTADEV IS NULL AND M.DTCANCEL IS NULL)
+        LEFT JOIN {s}.PCPRODUT P ON M.CODPROD = P.CODPROD
+        LEFT JOIN {s}.PCFORNEC F ON P.CODFORNEC = F.CODFORNEC
+        LEFT JOIN {s}.PCUSUARI U1 ON C.RCA = U1.CODUSUR
+        LEFT JOIN {s}.PCUSUARI U2 ON C.RCA2 = U2.CODUSUR
+        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%')
+        ORDER BY LV.DTULTCOMP DESC
 """
 
 clientes = pd.concat([

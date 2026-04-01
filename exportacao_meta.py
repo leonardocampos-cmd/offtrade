@@ -3,7 +3,7 @@ import json
 import pandas as pd
 from datetime import date, datetime
 from pathlib import Path
-from meta import engine, engine_theking, arquivo, tabela_vendas
+from meta import engine, engine_theking, arquivo, tabela_vendas, tabela_vendas_anterior
 import nao_positivados as _np_mod
 
 _df_nao_pos = _np_mod.nao_positivados_full
@@ -22,6 +22,7 @@ arquivo['RCA']  = pd.to_numeric(arquivo['RCA'],  errors='coerce')
 metas_com_nome = arquivo.merge(map_rca, on='RCA', how='left')
 
 por_vendedor = tabela_vendas.groupby('VENDEDOR')
+por_vendedor_anterior = tabela_vendas_anterior.groupby('VENDEDOR') if not tabela_vendas_anterior.empty else {}
 
 def real_fat(grupo, filtro=None):
     df = grupo[filtro(grupo)] if filtro else grupo
@@ -171,6 +172,7 @@ vendedores_out = []
 for _, m in metas_com_nome.iterrows():
     nome_oracle = m.get('NOME')
     grupo = por_vendedor.get_group(nome_oracle) if nome_oracle in por_vendedor.groups else tabela_vendas.iloc[0:0]
+    grupo_anterior = por_vendedor_anterior.get_group(nome_oracle) if hasattr(por_vendedor_anterior, 'groups') and nome_oracle in por_vendedor_anterior.groups else tabela_vendas_anterior.iloc[0:0]
 
     vendedores_out.append({
         "nome": str(m['VENDEDOR']),
@@ -189,7 +191,7 @@ for _, m in metas_com_nome.iterrows():
         "nao_positivados": _build_nao_pos(nome_oracle),
         "historico":       monthly_series(nome_oracle),
         "previsao":        previsao(nome_oracle, real_fat(grupo), real_pos(grupo)),
-        "vendas":          _build_vendas(grupo),
+        "vendas":          _build_vendas(grupo_anterior),
     })
 
 payload = {

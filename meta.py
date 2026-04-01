@@ -15,8 +15,9 @@ dsn_theking = "theking_oci"
 engine = create_engine(f'oracle+oracledb://{user}:{password}@{dsn}')
 engine_theking = create_engine(f'oracle+oracledb://{user}:{password}@{dsn_theking}')
 
-def _query_vendas(schema=None):
+def _query_vendas(schema=None, mes_anterior=False):
     p = f"{schema}." if schema else ""
+    filtro_mes = "ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -1)" if mes_anterior else "TRUNC(SYSDATE, 'MM')"
     return f"""
     SELECT PCMOV.DTMOV      AS DTMOV,
            PCMOV.CODPROD    AS CODPROD,
@@ -42,7 +43,7 @@ def _query_vendas(schema=None):
     JOIN {p}PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD
     JOIN {p}PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC
     LEFT JOIN {p}PCCLIENT ON PCMOV.CODCLI = PCCLIENT.CODCLI
-    WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
+    WHERE TRUNC(PCMOV.DTMOV, 'MM') = {filtro_mes}
     AND PCMOV.CODOPER = 'S'
     AND PCMOV.CODFILIAL IN (1,2,4)
     AND PCMOV.NUMNOTADEV IS NULL
@@ -66,6 +67,20 @@ tabela_vendas['DTMOV'] = pd.to_datetime(tabela_vendas['DTMOV']).dt.date
 tabela_vendas = tabela_vendas[tabela_vendas['DTMOV'].apply(lambda x: x.month == datetime.now().month and x.year == datetime.now().year)]
 tabela_vendas['DTMOV'] = pd.to_datetime(tabela_vendas['DTMOV']).dt.strftime('%d/%m/%Y')
 tabela_vendas['FATURAMENTO'] = tabela_vendas['FATURAMENTO'].round(2)
+
+# Vendas do mês anterior (para exibição no detalhe do vendedor)
+tabela_vendas_anterior = pd.concat([
+    pd.read_sql(_query_vendas("CRC",      mes_anterior=True), con=engine,         dtype=str),
+    pd.read_sql(_query_vendas('thekings', mes_anterior=True), con=engine_theking, dtype=str),
+], ignore_index=True)
+
+tabela_vendas_anterior.columns = tabela_vendas_anterior.columns.str.upper()
+tabela_vendas_anterior['FATURAMENTO'] = pd.to_numeric(tabela_vendas_anterior['FATURAMENTO'], errors='coerce')
+tabela_vendas_anterior.drop(columns=['CODPROD', 'CODFORNEC', 'NUMNOTA', 'CODOPER', 'PUNIT',
+       'CODFILIAL', 'CODUSUR', 'NUMNOTADEV', 'DTCANCEL', 'FORNECEDOR'],inplace=True)
+tabela_vendas_anterior['QT'] = pd.to_numeric(tabela_vendas_anterior['QT'], errors='coerce').fillna(0)
+tabela_vendas_anterior['DTMOV'] = pd.to_datetime(tabela_vendas_anterior['DTMOV']).dt.strftime('%d/%m/%Y')
+tabela_vendas_anterior['FATURAMENTO'] = tabela_vendas_anterior['FATURAMENTO'].round(2)
 
 #FATURAMENTO TOTAL
 faturamento_total = float(tabela_vendas['FATURAMENTO'].sum())
