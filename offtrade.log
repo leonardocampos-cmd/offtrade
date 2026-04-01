@@ -50625,3 +50625,61 @@ OK GitHub Pages atualizado.
 [ERRO] Falha na execução:
 [01/04/2026 15:00:47,22] ERRO (codigo 1
 ---------------------------------------- 
+[01/04/2026 16:00:00,69] Iniciando... 
+[master 3a558a4] Atualiza metas_data.js + vendas_data.js - 01/04/2026
+ 2 files changed, 5544 insertions(+), 5489 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   cf9fbdf..3a558a4  master -> master
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 24, in main
+    import conferencia_preco
+  File "g:\Meu Drive\offtrade\conferencia_preco.py", line 39, in <module>
+    tabela_preco_on['PREÇO'] = tabela_preco_on['PREÇO'].str.replace(',', '.').astype(float).round(2)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\core\generic.py", line 6541, in astype
+    new_data = self._mgr.astype(dtype=dtype, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 611, in astype
+    return self.apply("astype", dtype=dtype, errors=errors)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\core\internals\managers.py", line 442, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\core\internals\blocks.py", line 607, in astype
+    new_values = astype_array_safe(values, dtype, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 240, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\core\dtypes\astype.py", line 182, in astype_array
+    values = values.astype(dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\core\arrays\string_.py", line 940, in astype
+    values = arr.astype(dtype)
+             ^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '-'
+
+==================================================
+  OFFTRADE - 01/04/2026 16:00
+==================================================
+
+--------------------------------------------------
+  1/4 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+--------------------------------------------------
+  2/4 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+Clientes nao positivados em 04/2026: 3931
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_04-2026.xlsx
+OK metas_data.js gerado — 16 vendedores, meses: ['Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+
+[ERRO] Falha na execução:
+[01/04/2026 16:00:53,43] ERRO (codigo 1
+---------------------------------------- 
