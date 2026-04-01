@@ -748,7 +748,7 @@ function _atualizarTabela(nomeVendedor) {
   // Resumo
   const total    = lista.reduce((s, r) => s + r.valor, 0);
   const totalQt  = lista.reduce((s, r) => s + r.qt, 0);
-  const nClientes = new Set(lista.map(r => r.cliente)).size;
+  const nClientes = new Set(lista.map(r => r.codcli || r.cliente)).size;
   document.getElementById('vendas-resumo').innerHTML = `
     <div class="vendas-resumo-box">
       <div class="vendas-resumo-label">Faturamento</div>

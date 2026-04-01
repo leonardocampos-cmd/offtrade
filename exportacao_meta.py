@@ -317,6 +317,7 @@ for _, row in _vh.iterrows():
     mes    = row['MES_STR']
     _por_vendedor_hist.setdefault(v_nome, {}).setdefault(mes, []).append({
         'data':    str(row['DATA']),
+        'codcli':  str(row['CODCLI']),
         'cliente': str(row['CLIENTE']),
         'produto': str(row['PRODUTO']),
         'qt':      int(row['QT']),
