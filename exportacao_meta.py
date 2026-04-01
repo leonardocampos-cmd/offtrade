@@ -122,6 +122,25 @@ def previsao(nome_oracle, fat_realizado, pos_realizado):
         'du_total':       _du_total,
     }
 
+def _build_vendas(grupo):
+    if grupo.empty:
+        return []
+    cols = [c for c in ['DTMOV', 'CLIENTE', 'CODCLI', 'DESCRICAO', 'QT', 'FATURAMENTO'] if c in grupo.columns]
+    df = grupo[cols].copy()
+    df['QT']          = pd.to_numeric(df['QT'],          errors='coerce').fillna(0)
+    df['FATURAMENTO'] = pd.to_numeric(df['FATURAMENTO'], errors='coerce').fillna(0)
+    df = df.sort_values('DTMOV', ascending=False)
+    result = []
+    for _, row in df.iterrows():
+        result.append({
+            'data':     str(row['DTMOV']) if pd.notna(row.get('DTMOV')) else '',
+            'cliente':  str(row['CLIENTE'])  if 'CLIENTE'  in row and pd.notna(row['CLIENTE'])  else str(row.get('CODCLI', '')),
+            'produto':  str(row['DESCRICAO']) if pd.notna(row.get('DESCRICAO')) else '',
+            'qt':       int(row['QT']),
+            'valor':    round(float(row['FATURAMENTO']), 2),
+        })
+    return result
+
 def _build_nao_pos(nome_oracle):
     df = _df_nao_pos[_df_nao_pos['NOME_RCA'] == nome_oracle][
         ['CODCLI', 'CLIENTE', 'BAIRROENT', 'DTULTCOMP', 'FANTASIA', 'DESCRICAO']
@@ -170,6 +189,7 @@ for _, m in metas_com_nome.iterrows():
         "nao_positivados": _build_nao_pos(nome_oracle),
         "historico":       monthly_series(nome_oracle),
         "previsao":        previsao(nome_oracle, real_fat(grupo), real_pos(grupo)),
+        "vendas":          _build_vendas(grupo),
     })
 
 payload = {

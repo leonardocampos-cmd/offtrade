@@ -75,6 +75,8 @@
     .btn-primary { background: var(--accent); color: #111; border-color: var(--accent); font-weight: 700; }
     .btn-primary:hover { background: #d4a90e; color: #111; }
     .btn.copied { border-color: var(--green); color: var(--green); }
+    .btn-dl { border-color: #2d6a4f; color: #52b788; }
+    .btn-dl:hover { border-color: #52b788; color: #52b788; background: rgba(82,183,136,0.1); }
 
     /* Ring */
     .ring-wrap {
@@ -250,6 +252,35 @@
 
     .chart-wrap { position: relative; height: 200px; }
 
+    /* Tabela de vendas */
+    .vendas-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.76rem;
+      margin-top: 4px;
+    }
+    .vendas-table th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 600;
+      padding: 6px 8px;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    .vendas-table td {
+      padding: 7px 8px;
+      border-bottom: 1px solid rgba(45,49,68,0.5);
+      vertical-align: top;
+    }
+    .vendas-table tr:last-child td { border-bottom: none; }
+    .vendas-table tr:hover td { background: var(--card2); }
+    .vendas-date  { color: var(--muted); white-space: nowrap; font-size: 0.72rem; }
+    .vendas-cli   { font-weight: 500; color: var(--text); }
+    .vendas-prod  { color: var(--muted); font-size: 0.72rem; }
+    .vendas-qt    { text-align: right; color: var(--text); white-space: nowrap; }
+    .vendas-val   { text-align: right; color: var(--accent); white-space: nowrap; font-weight: 600; }
+    .vendas-empty { color: var(--muted); font-size: 0.8rem; padding: 12px 0; }
+
     .prev-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -375,6 +406,34 @@ function buildBar(name, realizado, meta, tipo) {
         <div class="bar-fill bar-${cls}" style="width:${Math.min(p, 100)}%"></div>
       </div>
     </div>`;
+}
+
+function buildVendasTable(lista) {
+  if (!lista || lista.length === 0) {
+    return `<div class="vendas-empty">Nenhuma venda registrada este mês.</div>`;
+  }
+  const rows = lista.map(v => `
+    <tr>
+      <td class="vendas-date">${v.data || '—'}</td>
+      <td>
+        <div class="vendas-cli">${v.cliente || '—'}</div>
+        <div class="vendas-prod">${v.produto || ''}</div>
+      </td>
+      <td class="vendas-qt">${Number(v.qt).toLocaleString('pt-BR')}</td>
+      <td class="vendas-val">${fmtFat(v.valor)}</td>
+    </tr>`).join('');
+  return `
+    <table class="vendas-table">
+      <thead>
+        <tr>
+          <th>Data</th>
+          <th>Cliente / Produto</th>
+          <th style="text-align:right">Qtde</th>
+          <th style="text-align:right">Valor</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
 }
 
 function buildNaoPosTable(lista) {
@@ -559,6 +618,99 @@ function buildCharts(v) {
   });
 }
 
+// ── Download CSV ──────────────────────────────────────────
+
+function downloadCSV(v) {
+  const sep = ';';
+  const mes = METAS_DATA.mes || '';
+  const atualizado = METAS_DATA.atualizado_em || '';
+
+  function pctStr(real, meta) {
+    if (!meta) return '0%';
+    return ((real / meta) * 100).toFixed(1) + '%';
+  }
+  function numBR(n) {
+    return Number(n).toFixed(2).replace('.', ',');
+  }
+
+  const rows = [];
+
+  // Cabeçalho
+  rows.push([`RELATÓRIO DE VENDAS${sep}${v.nome}${sep}RCA ${v.rca}`]);
+  rows.push([`Mês${sep}${mes}`]);
+  rows.push([`Atualizado em${sep}${atualizado}`]);
+  rows.push(['']);
+
+  // Faturamento
+  rows.push([`FATURAMENTO${sep}Meta${sep}Realizado${sep}%`]);
+  rows.push([`Total${sep}${numBR(v.fat_tt.meta)}${sep}${numBR(v.fat_tt.realizado)}${sep}${pctStr(v.fat_tt.realizado, v.fat_tt.meta)}`]);
+  rows.push([`Castas${sep}${numBR(v.fat_castas.meta)}${sep}${numBR(v.fat_castas.realizado)}${sep}${pctStr(v.fat_castas.realizado, v.fat_castas.meta)}`]);
+  rows.push([`Domecq + Passport${sep}${numBR(v.fat_domecq_passport.meta)}${sep}${numBR(v.fat_domecq_passport.realizado)}${sep}${pctStr(v.fat_domecq_passport.realizado, v.fat_domecq_passport.meta)}`]);
+  rows.push([`HOB + Azeite${sep}${numBR(v.fat_hob_azeite.meta)}${sep}${numBR(v.fat_hob_azeite.realizado)}${sep}${pctStr(v.fat_hob_azeite.realizado, v.fat_hob_azeite.meta)}`]);
+  rows.push(['']);
+
+  // Positivação
+  rows.push([`POSITIVAÇÃO${sep}Meta${sep}Realizado${sep}%`]);
+  rows.push([`Total${sep}${v.pos_tt.meta}${sep}${v.pos_tt.realizado}${sep}${pctStr(v.pos_tt.realizado, v.pos_tt.meta)}`]);
+  rows.push([`HOB + Azeite${sep}${v.pos_hob_azeite.meta}${sep}${v.pos_hob_azeite.realizado}${sep}${pctStr(v.pos_hob_azeite.realizado, v.pos_hob_azeite.meta)}`]);
+  rows.push([`Reckitt${sep}${v.pos_reckit.meta}${sep}${v.pos_reckit.realizado}${sep}${pctStr(v.pos_reckit.realizado, v.pos_reckit.meta)}`]);
+  rows.push([`Robinson Crusoe${sep}${v.pos_crusoe.meta}${sep}${v.pos_crusoe.realizado}${sep}${pctStr(v.pos_crusoe.realizado, v.pos_crusoe.meta)}`]);
+  rows.push([`Tatuzinho${sep}${v.pos_tatuzinho.meta}${sep}${v.pos_tatuzinho.realizado}${sep}${pctStr(v.pos_tatuzinho.realizado, v.pos_tatuzinho.meta)}`]);
+  rows.push([`Red Bull${sep}${v.pos_redbull.meta}${sep}${v.pos_redbull.realizado}${sep}${pctStr(v.pos_redbull.realizado, v.pos_redbull.meta)}`]);
+  rows.push([`Pinatti${sep}${v.pos_pinatti.meta}${sep}${v.pos_pinatti.realizado}${sep}${pctStr(v.pos_pinatti.realizado, v.pos_pinatti.meta)}`]);
+  rows.push(['']);
+
+  // Previsão
+  if (v.previsao) {
+    const p = v.previsao;
+    rows.push([`PREVISÃO DE FECHAMENTO${sep}Dias úteis passados${sep}${p.du_passados} de ${p.du_total}`]);
+    rows.push([`Faturamento${sep}Projeção${sep}${numBR(p.fat_proj)}${sep}Média 3m${sep}${numBR(p.fat_media_hist)}`]);
+    rows.push([`Positivação${sep}Projeção${sep}${Number(p.pos_proj).toFixed(0)}${sep}Média 3m${sep}${Number(p.pos_media_hist).toFixed(0)}`]);
+    rows.push(['']);
+  }
+
+  // Histórico
+  if (v.historico && v.historico.length) {
+    rows.push([`HISTÓRICO MENSAL${sep}Faturamento${sep}Positivação`]);
+    v.historico.forEach(h => {
+      rows.push([`${h.mes}${sep}${numBR(h.fat)}${sep}${h.pos}`]);
+    });
+    rows.push(['']);
+  }
+
+  // Vendas do mês
+  rows.push([`VENDAS DO MÊS${sep}Data${sep}Cliente${sep}Produto${sep}Quantidade${sep}Valor (R$)`]);
+  if (!v.vendas || v.vendas.length === 0) {
+    rows.push([`Nenhuma venda registrada este mês.`]);
+  } else {
+    v.vendas.forEach(s => {
+      rows.push([`${sep}${s.data || ''}${sep}${s.cliente || ''}${sep}${s.produto || ''}${sep}${s.qt || 0}${sep}${numBR(s.valor || 0)}`]);
+    });
+  }
+  rows.push(['']);
+
+  // Não positivados
+  rows.push([`CLIENTES NÃO POSITIVADOS${sep}Código${sep}Bairro${sep}Última Compra${sep}Marcas`]);
+  if (!v.nao_positivados || v.nao_positivados.length === 0) {
+    rows.push([`Todos os clientes positivados este mês.`]);
+  } else {
+    v.nao_positivados.forEach(c => {
+      const marcas = (c.produtos || []).map(p => p.FANTASIA || p.DESCRICAO || '').filter(Boolean).join(' | ');
+      rows.push([`${c.CLIENTE || ''}${sep}${c.CODCLI || ''}${sep}${c.BAIRROENT || ''}${sep}${c.DTULTCOMP || ''}${sep}${marcas}`]);
+    });
+  }
+
+  const csv = '\uFEFF' + rows.map(r => r[0]).join('\r\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `vendas_${v.nome.replace(/\s+/g, '_')}_${mes.replace(/\s+/g, '_')}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
+}
+
 // ── Roteamento por URL ────────────────────────────────────
 
 function getParam() {
@@ -596,7 +748,8 @@ function renderDetail(v) {
     `Atualizado ${METAS_DATA.atualizado_em}`;
 
   document.getElementById('header-actions').innerHTML =
-    `<button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>`;
+    `<button class="btn btn-dl" onclick="downloadCSV(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'))">&#8595; Baixar CSV</button>
+     <button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>`;
 
   const p = pct(v.fat_tt.realizado, v.fat_tt.meta);
 
@@ -643,6 +796,11 @@ function renderDetail(v) {
     </div>
 
     <div class="detail-card">
+      <div class="section-title">Vendas do mês</div>
+      ${buildVendasTable(v.vendas)}
+    </div>
+
+    <div class="detail-card">
       <div class="section-title">Clientes não positivados (ÚLTIMAS VENDAS)</div>
       ${buildNaoPosTable(v.nao_positivados)}
     </div>`;
@@ -664,7 +822,7 @@ function renderAll(vendedores) {
         ${buildBar('Faturamento Total', v.fat_tt.realizado, v.fat_tt.meta, 'fat')}
         ${buildBar('Positivação Total', v.pos_tt.realizado, v.pos_tt.meta, 'pos')}
         <div class="card-actions">
-          <button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>
+          <button class="btn btn-dl" onclick="downloadCSV(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'))">&#8595; Baixar CSV</button>
           <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>
         </div>
       </div>`;

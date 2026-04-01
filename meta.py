@@ -27,6 +27,7 @@ def _query_vendas(schema=None):
            PCMOV.PUNIT      AS PUNIT,
            PCMOV.CODFILIAL  AS CODFILIAL,
            PCMOV.CODCLI     AS CODCLI,
+           PCCLIENT.CLIENTE AS CLIENTE,
            PCMOV.CODUSUR    AS CODUSUR,
            PCMOV.NUMNOTADEV AS NUMNOTADEV,
            PCMOV.DTCANCEL   AS DTCANCEL,
@@ -40,10 +41,11 @@ def _query_vendas(schema=None):
     JOIN {p}PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
     JOIN {p}PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD
     JOIN {p}PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC
+    LEFT JOIN {p}PCCLIENT ON PCMOV.CODCLI = PCCLIENT.CODCLI
     WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
     AND PCMOV.CODOPER = 'S'
     AND PCMOV.CODFILIAL IN (1,2,4)
-    AND PCMOV.NUMNOTADEV IS NULL    
+    AND PCMOV.NUMNOTADEV IS NULL
     AND PCMOV.DTCANCEL IS NULL
     AND PCUSUARI.NOME LIKE '%OFF TRADE%'
 """
@@ -56,8 +58,9 @@ tabela_vendas = pd.concat([
 tabela_vendas.columns = tabela_vendas.columns.str.upper()
 arquivo = pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - MARÇO 2026.xlsx")
 tabela_vendas['FATURAMENTO'] = pd.to_numeric(tabela_vendas['FATURAMENTO'], errors='coerce')
-tabela_vendas.drop(columns=['CODPROD', 'CODFORNEC', 'NUMNOTA', 'CODOPER', 'QT', 'PUNIT',
+tabela_vendas.drop(columns=['CODPROD', 'CODFORNEC', 'NUMNOTA', 'CODOPER', 'PUNIT',
        'CODFILIAL', 'CODUSUR', 'NUMNOTADEV', 'DTCANCEL', 'FORNECEDOR'],inplace=True)
+tabela_vendas['QT'] = pd.to_numeric(tabela_vendas['QT'], errors='coerce').fillna(0)
 tabela_vendas['DTMOV'] = pd.to_datetime(tabela_vendas['DTMOV']).dt.date
 
 tabela_vendas = tabela_vendas[tabela_vendas['DTMOV'].apply(lambda x: x.month == datetime.now().month and x.year == datetime.now().year)]
