@@ -932,9 +932,7 @@ function _buildCards(vendedores, mes) {
         ${buildBar('Faturamento Total', _mv(pm,'fat_tt','realizado'), _mv(pm,'fat_tt','meta'), 'fat')}
         ${buildBar('Positivação Total', _mv(pm,'pos_tt','realizado'), _mv(pm,'pos_tt','meta'), 'pos')}
         <div class="card-actions">
-          <button class="btn btn-dl" onclick="downloadCSV(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'), '${mes}')">&#8595; Baixar CSV</button>
-          <a class="btn" href="?vendedor=${encodeURIComponent(v.nome)}&view=vendas">&#128203; Vendas</a>
-          <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Metas</a>
+          <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>
         </div>
       </div>`;
   }).join('');
