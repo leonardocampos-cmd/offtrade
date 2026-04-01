@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "01/04/2026 11:00",
+  "atualizado_em": "01/04/2026 12:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -88387,6 +88387,78 @@ const VENDAS_DATA = {
           "produto": "ESPUMANTE ALUD BRANCO 750ML",
           "qt": 1,
           "valor": 25.9
+        }
+      ],
+      "Abr/26": [
+        {
+          "data": "01/04/2026",
+          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "01/04/2026",
+          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "01/04/2026",
+          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "01/04/2026",
+          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 12,
+          "valor": 270.0
+        },
+        {
+          "data": "01/04/2026",
+          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 12,
+          "valor": 270.0
+        },
+        {
+          "data": "01/04/2026",
+          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
+          "produto": "GIN ROCKS 1000ML",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "01/04/2026",
+          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "qt": 12,
+          "valor": 150.48
+        },
+        {
+          "data": "01/04/2026",
+          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
+          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+          "qt": 6,
+          "valor": 107.4
+        },
+        {
+          "data": "01/04/2026",
+          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 140.4
+        },
+        {
+          "data": "01/04/2026",
+          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "qt": 1,
+          "valor": 76.74
         }
       ]
     },
