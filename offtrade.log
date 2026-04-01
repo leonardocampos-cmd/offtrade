@@ -50422,3 +50422,32 @@ OK GitHub Pages atualizado.
 
 [01/04/2026 10:00:38,43] OK 
 ---------------------------------------- 
+[01/04/2026 11:00:00,62] Iniciando... 
+[master 159bcbe] Atualiza metas_data.js + vendas_data.js - 01/04/2026
+ 2 files changed, 5826 insertions(+), 5842 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   08601a8..159bcbe  master -> master
+
+==================================================
+  OFFTRADE - 01/04/2026 11:00
+==================================================
+
+--------------------------------------------------
+  1/4 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+--------------------------------------------------
+  2/4 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+Clientes nao positivados em 04/2026: 3958
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_04-2026.xlsx
+OK metas_data.js gerado — 16 vendedores, meses: ['Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+==================================================
+  Concluído em 33s
+==================================================
+
+[01/04/2026 11:00:34,20] OK 
+---------------------------------------- 
