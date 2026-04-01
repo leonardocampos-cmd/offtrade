@@ -2,7 +2,7 @@
 
 const METAS_DATA = {
   "mes": "April 2026",
-  "atualizado_em": "01/04/2026 06:26",
+  "atualizado_em": "01/04/2026 06:33",
   "vendedores": [
     {
       "nome": "MARIA LUIZA",
@@ -15809,9 +15809,9 @@ const METAS_DATA = {
         {
           "data": "01/04/2026",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
-          "produto": "GIN GORDONS PINK 700ML",
+          "produto": "RUM MONTILLA OURO 1000ML",
           "qt": 6,
-          "valor": 319.86
+          "valor": 122.7
         },
         {
           "data": "01/04/2026",
@@ -15830,16 +15830,16 @@ const METAS_DATA = {
         {
           "data": "01/04/2026",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
-          "produto": "RUM MONTILLA OURO 1000ML",
+          "produto": "BEEFEATER PINK 700ML",
           "qt": 6,
-          "valor": 122.7
+          "valor": 409.8
         },
         {
           "data": "01/04/2026",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
-          "produto": "BEEFEATER PINK 700ML",
+          "produto": "GIN GORDONS PINK 700ML",
           "qt": 6,
-          "valor": 409.8
+          "valor": 319.86
         },
         {
           "data": "01/04/2026",
