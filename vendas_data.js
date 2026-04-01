@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "01/04/2026 16:05",
+  "atualizado_em": "01/04/2026 17:05",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -37117,6 +37117,160 @@ const VENDAS_DATA = {
           "qt": 60,
           "valor": 1436.4
         }
+      ],
+      "Abr/26": [
+        {
+          "data": "01/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 3,
+          "valor": 80.7
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 4,
+          "valor": 79.6
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 209.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 5,
+          "valor": 144.5
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "76424",
+          "cliente": "CRUZADA DA BARRA PADARIA LTDA",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "qt": 12,
+          "valor": 259.2
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "76424",
+          "cliente": "CRUZADA DA BARRA PADARIA LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "qt": 2,
+          "valor": 205.8
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 7,
+          "valor": 139.3
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 3,
+          "valor": 65.7
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 6,
+          "valor": 125.4
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 5,
+          "valor": 144.5
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 1,
+          "valor": 26.9
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 2,
+          "valor": 43.8
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 209.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 5,
+          "valor": 144.5
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91093",
+          "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 50,
+          "valor": 1045.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91093",
+          "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 20,
+          "valor": 578.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91093",
+          "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91093",
+          "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 10,
+          "valor": 269.0
+        }
       ]
     },
     "ADEILSON GONÇALVES": {
@@ -49827,6 +49981,62 @@ const VENDAS_DATA = {
         }
       ],
       "Abr/26": [
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "ST PIERRE ZERO LATA LARANJA  LT 24X310ML",
+          "qt": 1,
+          "valor": 105.9
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "ST PIERRE ZERO LATA COLA  LT24X310ML",
+          "qt": 1,
+          "valor": 105.9
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 1,
+          "valor": 21.85
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 3,
+          "valor": 62.7
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "ST PIERRE ZERO LATA GUARANA  LT 24X310ML",
+          "qt": 1,
+          "valor": 105.9
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "NECTAR LARANJA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.42
+        },
         {
           "data": "01/04/2026",
           "codcli": "91431",
@@ -90326,6 +90536,14 @@ const VENDAS_DATA = {
           "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
           "qt": 7,
           "valor": 570.36
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "94276",
+          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "qt": 7,
+          "valor": 570.36
         }
       ]
     },
@@ -101112,6 +101330,206 @@ const VENDAS_DATA = {
           "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
           "qt": 30,
           "valor": 1587.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "qt": 12,
+          "valor": 245.4
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "qt": 12,
+          "valor": 245.4
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1000ML",
+          "qt": 12,
+          "valor": 245.4
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "VODKA NATASHA 900ML",
+          "qt": 48,
+          "valor": 576.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 36,
+          "valor": 1256.4
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 18,
+          "valor": 628.2
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 750 ML",
+          "qt": 12,
+          "valor": 1403.52
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "qt": 12,
+          "valor": 874.68
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "GIN MARINA 750ML",
+          "qt": 6,
+          "valor": 203.4
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "GIN MARINA ROSE 750ML",
+          "qt": 6,
+          "valor": 203.4
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "KIT AMARULA COFFEE 750ML +1 COPO DUBAI",
+          "qt": 6,
+          "valor": 534.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "RUM BACARDI MOJITO 700ML",
+          "qt": 7,
+          "valor": 174.79
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 12,
+          "valor": 270.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "VELHO BARREIRO CAFE  910 ML",
+          "qt": 6,
+          "valor": 103.68
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 12,
+          "valor": 270.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "GIN ROCKS 1000ML",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "RUM MALIBU 750 ML",
+          "qt": 6,
+          "valor": 264.6
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "GIN MARINA BLACKBERRY 750ML",
+          "qt": 6,
+          "valor": 203.4
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "qt": 6,
+          "valor": 136.92
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "qt": 6,
+          "valor": 136.92
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 36,
+          "valor": 568.08
         },
         {
           "data": "01/04/2026",
@@ -131599,6 +132017,14 @@ const VENDAS_DATA = {
         }
       ],
       "Abr/26": [
+        {
+          "data": "01/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RUM MALIBU 750 ML",
+          "qt": 24,
+          "valor": 1077.6
+        },
         {
           "data": "01/04/2026",
           "codcli": "69426",
