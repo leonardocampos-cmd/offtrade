@@ -738,7 +738,12 @@ function _vendasDoMes(nomeVendedor, mes) {
 
 function _atualizarTabela(nomeVendedor) {
   const mes   = document.getElementById('sel-mes').value;
-  const lista = _vendasDoMes(nomeVendedor, mes);
+  const lista = _vendasDoMes(nomeVendedor, mes)
+    .slice()
+    .sort((a, b) => {
+      const [da, ma, ya] = a.data.split('/'); const [db, mb, yb] = b.data.split('/');
+      return new Date(yb, mb-1, db) - new Date(ya, ma-1, da);
+    });
 
   // Resumo
   const total    = lista.reduce((s, r) => s + r.valor, 0);
