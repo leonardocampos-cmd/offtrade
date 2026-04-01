@@ -647,49 +647,53 @@ function buildCharts(v) {
   });
 }
 
+// ── Mês selecionado (estado global) ──────────────────────────────────────────
+
+let _mesSel = null;
+function _getMes() { return _mesSel || (METAS_DATA.meses && METAS_DATA.meses[0]) || ''; }
+function _pm(v, mes) { return (v.por_mes || {})[mes] || {}; }
+function _mv(pm, campo, sub) { return ((pm[campo] || {})[sub]) || 0; }
+
 // ── Download CSV ──────────────────────────────────────────
 
-function downloadCSV(v) {
+function downloadCSV(v, mes) {
+  mes = mes || _getMes();
+  const pm  = _pm(v, mes);
   const sep = ';';
-  const mes = METAS_DATA.mes || '';
   const atualizado = METAS_DATA.atualizado_em || '';
 
   function pctStr(real, meta) {
     if (!meta) return '0%';
     return ((real / meta) * 100).toFixed(1) + '%';
   }
-  function numBR(n) {
-    return Number(n).toFixed(2).replace('.', ',');
-  }
+  function numBR(n) { return Number(n).toFixed(2).replace('.', ','); }
+  function fat(c) { return _mv(pm, c, 'realizado'); }
+  function meta(c) { return _mv(pm, c, 'meta'); }
 
   const rows = [];
 
-  // Cabeçalho
-  rows.push([`RELATÓRIO DE VENDAS${sep}${v.nome}${sep}RCA ${v.rca}`]);
+  rows.push([`RELATÓRIO DE METAS${sep}${v.nome}${sep}RCA ${v.rca}`]);
   rows.push([`Mês${sep}${mes}`]);
   rows.push([`Atualizado em${sep}${atualizado}`]);
   rows.push(['']);
 
-  // Faturamento
   rows.push([`FATURAMENTO${sep}Meta${sep}Realizado${sep}%`]);
-  rows.push([`Total${sep}${numBR(v.fat_tt.meta)}${sep}${numBR(v.fat_tt.realizado)}${sep}${pctStr(v.fat_tt.realizado, v.fat_tt.meta)}`]);
-  rows.push([`Castas${sep}${numBR(v.fat_castas.meta)}${sep}${numBR(v.fat_castas.realizado)}${sep}${pctStr(v.fat_castas.realizado, v.fat_castas.meta)}`]);
-  rows.push([`Domecq + Passport${sep}${numBR(v.fat_domecq_passport.meta)}${sep}${numBR(v.fat_domecq_passport.realizado)}${sep}${pctStr(v.fat_domecq_passport.realizado, v.fat_domecq_passport.meta)}`]);
-  rows.push([`HOB + Azeite${sep}${numBR(v.fat_hob_azeite.meta)}${sep}${numBR(v.fat_hob_azeite.realizado)}${sep}${pctStr(v.fat_hob_azeite.realizado, v.fat_hob_azeite.meta)}`]);
+  rows.push([`Total${sep}${numBR(meta('fat_tt'))}${sep}${numBR(fat('fat_tt'))}${sep}${pctStr(fat('fat_tt'), meta('fat_tt'))}`]);
+  rows.push([`Castas${sep}${numBR(meta('fat_castas'))}${sep}${numBR(fat('fat_castas'))}${sep}${pctStr(fat('fat_castas'), meta('fat_castas'))}`]);
+  rows.push([`Domecq + Passport${sep}${numBR(meta('fat_domecq_passport'))}${sep}${numBR(fat('fat_domecq_passport'))}${sep}${pctStr(fat('fat_domecq_passport'), meta('fat_domecq_passport'))}`]);
+  rows.push([`HOB + Azeite${sep}${numBR(meta('fat_hob_azeite'))}${sep}${numBR(fat('fat_hob_azeite'))}${sep}${pctStr(fat('fat_hob_azeite'), meta('fat_hob_azeite'))}`]);
   rows.push(['']);
 
-  // Positivação
   rows.push([`POSITIVAÇÃO${sep}Meta${sep}Realizado${sep}%`]);
-  rows.push([`Total${sep}${v.pos_tt.meta}${sep}${v.pos_tt.realizado}${sep}${pctStr(v.pos_tt.realizado, v.pos_tt.meta)}`]);
-  rows.push([`HOB + Azeite${sep}${v.pos_hob_azeite.meta}${sep}${v.pos_hob_azeite.realizado}${sep}${pctStr(v.pos_hob_azeite.realizado, v.pos_hob_azeite.meta)}`]);
-  rows.push([`Reckitt${sep}${v.pos_reckit.meta}${sep}${v.pos_reckit.realizado}${sep}${pctStr(v.pos_reckit.realizado, v.pos_reckit.meta)}`]);
-  rows.push([`Robinson Crusoe${sep}${v.pos_crusoe.meta}${sep}${v.pos_crusoe.realizado}${sep}${pctStr(v.pos_crusoe.realizado, v.pos_crusoe.meta)}`]);
-  rows.push([`Tatuzinho${sep}${v.pos_tatuzinho.meta}${sep}${v.pos_tatuzinho.realizado}${sep}${pctStr(v.pos_tatuzinho.realizado, v.pos_tatuzinho.meta)}`]);
-  rows.push([`Red Bull${sep}${v.pos_redbull.meta}${sep}${v.pos_redbull.realizado}${sep}${pctStr(v.pos_redbull.realizado, v.pos_redbull.meta)}`]);
-  rows.push([`Pinatti${sep}${v.pos_pinatti.meta}${sep}${v.pos_pinatti.realizado}${sep}${pctStr(v.pos_pinatti.realizado, v.pos_pinatti.meta)}`]);
+  rows.push([`Total${sep}${meta('pos_tt')}${sep}${fat('pos_tt')}${sep}${pctStr(fat('pos_tt'), meta('pos_tt'))}`]);
+  rows.push([`HOB + Azeite${sep}${meta('pos_hob_azeite')}${sep}${fat('pos_hob_azeite')}${sep}${pctStr(fat('pos_hob_azeite'), meta('pos_hob_azeite'))}`]);
+  rows.push([`Reckitt${sep}${meta('pos_reckit')}${sep}${fat('pos_reckit')}${sep}${pctStr(fat('pos_reckit'), meta('pos_reckit'))}`]);
+  rows.push([`Robinson Crusoe${sep}${meta('pos_crusoe')}${sep}${fat('pos_crusoe')}${sep}${pctStr(fat('pos_crusoe'), meta('pos_crusoe'))}`]);
+  rows.push([`Tatuzinho${sep}${meta('pos_tatuzinho')}${sep}${fat('pos_tatuzinho')}${sep}${pctStr(fat('pos_tatuzinho'), meta('pos_tatuzinho'))}`]);
+  rows.push([`Red Bull${sep}${meta('pos_redbull')}${sep}${fat('pos_redbull')}${sep}${pctStr(fat('pos_redbull'), meta('pos_redbull'))}`]);
+  rows.push([`Pinatti${sep}${meta('pos_pinatti')}${sep}${fat('pos_pinatti')}${sep}${pctStr(fat('pos_pinatti'), meta('pos_pinatti'))}`]);
   rows.push(['']);
 
-  // Previsão
   if (v.previsao) {
     const p = v.previsao;
     rows.push([`PREVISÃO DE FECHAMENTO${sep}Dias úteis passados${sep}${p.du_passados} de ${p.du_total}`]);
@@ -698,27 +702,12 @@ function downloadCSV(v) {
     rows.push(['']);
   }
 
-  // Histórico
   if (v.historico && v.historico.length) {
     rows.push([`HISTÓRICO MENSAL${sep}Faturamento${sep}Positivação`]);
-    v.historico.forEach(h => {
-      rows.push([`${h.mes}${sep}${numBR(h.fat)}${sep}${h.pos}`]);
-    });
+    v.historico.forEach(h => rows.push([`${h.mes}${sep}${numBR(h.fat)}${sep}${h.pos}`]));
     rows.push(['']);
   }
 
-  // Vendas do mês
-  rows.push([`VENDAS DO MÊS${sep}Data${sep}Cliente${sep}Produto${sep}Quantidade${sep}Valor (R$)`]);
-  if (!v.vendas || v.vendas.length === 0) {
-    rows.push([`Nenhuma venda registrada este mês.`]);
-  } else {
-    v.vendas.forEach(s => {
-      rows.push([`${sep}${s.data || ''}${sep}${s.cliente || ''}${sep}${s.produto || ''}${sep}${s.qt || 0}${sep}${numBR(s.valor || 0)}`]);
-    });
-  }
-  rows.push(['']);
-
-  // Não positivados
   rows.push([`CLIENTES NÃO POSITIVADOS${sep}Código${sep}Bairro${sep}Última Compra${sep}Marcas`]);
   if (!v.nao_positivados || v.nao_positivados.length === 0) {
     rows.push([`Todos os clientes positivados este mês.`]);
@@ -729,12 +718,12 @@ function downloadCSV(v) {
     });
   }
 
-  const csv = '\uFEFF' + rows.map(r => r[0]).join('\r\n');
+  const csv  = '\uFEFF' + rows.map(r => r[0]).join('\r\n');
   const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
   a.href = url;
-  a.download = `vendas_${v.nome.replace(/\s+/g, '_')}_${mes.replace(/\s+/g, '_')}.csv`;
+  a.download = `metas_${v.nome.replace(/\s+/g, '_')}_${mes.replace('/', '_')}.csv`;
   document.body.appendChild(a);
   a.click();
   setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
@@ -862,15 +851,26 @@ function voltarParaTodos() {
 
 // ── Views ─────────────────────────────────────────────────
 
-function renderDetail(v) {
-  document.getElementById('header-sub').textContent =
-    `Atualizado ${METAS_DATA.atualizado_em}`;
+function renderDetail(v, mes) {
+  mes = mes || _getMes();
+  _mesSel = mes;
+  const pm = _pm(v, mes);
 
-  document.getElementById('header-actions').innerHTML =
-    `<button class="btn btn-dl" onclick="downloadCSV(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'))">&#8595; Baixar CSV</button>
-     <button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>`;
+  function r(c) { return _mv(pm, c, 'realizado'); }
+  function m(c) { return _mv(pm, c, 'meta'); }
 
-  const p = pct(v.fat_tt.realizado, v.fat_tt.meta);
+  document.getElementById('header-sub').textContent = `Atualizado ${METAS_DATA.atualizado_em}`;
+
+  const mesOpts = (METAS_DATA.meses || []).map(mo =>
+    `<option value="${mo}" ${mo === mes ? 'selected' : ''}>${mo}</option>`
+  ).join('');
+
+  document.getElementById('header-actions').innerHTML = `
+    <select class="mes-select" onchange="renderDetail(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'), this.value)">${mesOpts}</select>
+    <button class="btn btn-dl" onclick="downloadCSV(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'), '${mes}')">&#8595; Baixar CSV</button>
+    <button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>`;
+
+  const p = pct(r('fat_tt'), m('fat_tt'));
 
   document.getElementById('app').innerHTML = `
     <div class="detail-header">
@@ -881,25 +881,25 @@ function renderDetail(v) {
       <button class="btn" onclick="voltarParaTodos()">\u2190 Todos os vendedores</button>
     </div>
 
-    ${buildRing(p, fmtFat(v.fat_tt.realizado), fmtFat(v.fat_tt.meta))}
+    ${buildRing(p, fmtFat(r('fat_tt')), fmtFat(m('fat_tt')))}
 
     <div class="detail-card">
       <div class="section-title">Faturamento</div>
-      ${buildBar('Total', v.fat_tt.realizado, v.fat_tt.meta, 'fat')}
-      ${buildBar('Castas', v.fat_castas.realizado, v.fat_castas.meta, 'fat')}
-      ${buildBar('Domecq + Passport', v.fat_domecq_passport.realizado, v.fat_domecq_passport.meta, 'fat')}
-      ${buildBar('HOB + Azeite', v.fat_hob_azeite.realizado, v.fat_hob_azeite.meta, 'fat')}
+      ${buildBar('Total',            r('fat_tt'),              m('fat_tt'),              'fat')}
+      ${buildBar('Castas',           r('fat_castas'),          m('fat_castas'),          'fat')}
+      ${buildBar('Domecq + Passport',r('fat_domecq_passport'), m('fat_domecq_passport'), 'fat')}
+      ${buildBar('HOB + Azeite',     r('fat_hob_azeite'),      m('fat_hob_azeite'),      'fat')}
     </div>
 
     <div class="detail-card">
       <div class="section-title">Positivação (clientes únicos)</div>
-      ${buildBar('Total', v.pos_tt.realizado, v.pos_tt.meta, 'pos')}
-      ${buildBar('HOB + Azeite', v.pos_hob_azeite.realizado, v.pos_hob_azeite.meta, 'pos')}
-      ${buildBar('Reckitt', v.pos_reckit.realizado, v.pos_reckit.meta, 'pos')}
-      ${buildBar('Robinson Crusoe', v.pos_crusoe.realizado, v.pos_crusoe.meta, 'pos')}
-      ${buildBar('Tatuzinho', v.pos_tatuzinho.realizado, v.pos_tatuzinho.meta, 'pos')}
-      ${buildBar('Red Bull', v.pos_redbull.realizado, v.pos_redbull.meta, 'pos')}
-      ${buildBar('Pinatti', v.pos_pinatti.realizado, v.pos_pinatti.meta, 'pos')}
+      ${buildBar('Total',           r('pos_tt'),         m('pos_tt'),         'pos')}
+      ${buildBar('HOB + Azeite',    r('pos_hob_azeite'), m('pos_hob_azeite'), 'pos')}
+      ${buildBar('Reckitt',         r('pos_reckit'),     m('pos_reckit'),     'pos')}
+      ${buildBar('Robinson Crusoe', r('pos_crusoe'),     m('pos_crusoe'),     'pos')}
+      ${buildBar('Tatuzinho',       r('pos_tatuzinho'),  m('pos_tatuzinho'),  'pos')}
+      ${buildBar('Red Bull',        r('pos_redbull'),    m('pos_redbull'),    'pos')}
+      ${buildBar('Pinatti',         r('pos_pinatti'),    m('pos_pinatti'),    'pos')}
     </div>
 
     ${buildPrevisao(v)}
@@ -915,11 +915,6 @@ function renderDetail(v) {
     </div>
 
     <div class="detail-card">
-      <div class="section-title">Vendas — ${METAS_DATA.mes}</div>
-      ${buildVendasTable(v.vendas)}
-    </div>
-
-    <div class="detail-card">
       <div class="section-title">Clientes não positivados (ÚLTIMAS VENDAS)</div>
       ${buildNaoPosTable(v.nao_positivados)}
     </div>`;
@@ -927,33 +922,44 @@ function renderDetail(v) {
   buildCharts(v);
 }
 
-function renderAll(vendedores) {
-  document.getElementById('header-sub').textContent =
-    `${METAS_DATA.mes}  ·  Atualizado ${METAS_DATA.atualizado_em}`;
-
-  const cards = vendedores.map(v => {
-    const p = pct(v.fat_tt.realizado, v.fat_tt.meta);
-    const cls = pctClass(p);
+function _buildCards(vendedores, mes) {
+  return vendedores.map(v => {
+    const pm = _pm(v, mes);
     return `
       <div class="vendor-card" data-nome="${v.nome.toLowerCase()}">
         <div class="vendor-name">${v.nome}</div>
         <div class="vendor-rca">RCA ${v.rca}</div>
-        ${buildBar('Faturamento Total', v.fat_tt.realizado, v.fat_tt.meta, 'fat')}
-        ${buildBar('Positivação Total', v.pos_tt.realizado, v.pos_tt.meta, 'pos')}
+        ${buildBar('Faturamento Total', _mv(pm,'fat_tt','realizado'), _mv(pm,'fat_tt','meta'), 'fat')}
+        ${buildBar('Positivação Total', _mv(pm,'pos_tt','realizado'), _mv(pm,'pos_tt','meta'), 'pos')}
         <div class="card-actions">
-          <button class="btn btn-dl" onclick="downloadCSV(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'))">&#8595; Baixar CSV</button>
+          <button class="btn btn-dl" onclick="downloadCSV(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'), '${mes}')">&#8595; Baixar CSV</button>
           <a class="btn" href="?vendedor=${encodeURIComponent(v.nome)}&view=vendas">&#128203; Vendas</a>
           <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Metas</a>
         </div>
       </div>`;
   }).join('');
+}
+
+function renderAll(vendedores, mes) {
+  mes = mes || _getMes();
+  _mesSel = mes;
+
+  const mesOpts = (METAS_DATA.meses || []).map(mo =>
+    `<option value="${mo}" ${mo === mes ? 'selected' : ''}>${mo}</option>`
+  ).join('');
+
+  document.getElementById('header-sub').textContent =
+    `${mes}  ·  Atualizado ${METAS_DATA.atualizado_em}`;
+
+  document.getElementById('header-actions').innerHTML =
+    `<select class="mes-select" onchange="_mesSel=this.value; document.getElementById('cards-grid').innerHTML=_buildCards(METAS_DATA.vendedores, this.value); document.getElementById('header-sub').textContent=this.value+' · Atualizado ${METAS_DATA.atualizado_em}'">${mesOpts}</select>`;
 
   document.getElementById('app').innerHTML = `
     <div class="search-wrap">
       <input class="search-input" type="text" placeholder="Buscar vendedor..."
         oninput="filterCards(this.value)">
     </div>
-    <div class="cards-grid" id="cards-grid">${cards}</div>`;
+    <div class="cards-grid" id="cards-grid">${_buildCards(vendedores, mes)}</div>`;
 }
 
 function filterCards(q) {
@@ -980,13 +986,16 @@ function filterCards(q) {
   const params = new URLSearchParams(window.location.search);
   const param  = params.get('vendedor') || null;
   const view   = params.get('view') || 'metas';
+  const mesUrl = params.get('mes') || null;
+
+  _mesSel = mesUrl || (METAS_DATA.meses && METAS_DATA.meses[0]) || '';
 
   if (param) {
     const v = METAS_DATA.vendedores.find(x =>
       x.nome.toLowerCase() === param.toLowerCase());
     if (v) {
       if (view === 'vendas') renderVendas(v);
-      else                   renderDetail(v);
+      else                   renderDetail(v, _mesSel);
     } else {
       document.getElementById('app').innerHTML = `
         <div class="no-data">
@@ -995,7 +1004,7 @@ function filterCards(q) {
         </div>`;
     }
   } else {
-    renderAll(METAS_DATA.vendedores);
+    renderAll(METAS_DATA.vendedores, _mesSel);
   }
 })();
 </script>
