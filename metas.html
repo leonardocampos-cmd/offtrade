@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Metas OFF TRADE RJ</title>
   <script src="metas_data.js"></script>
+  <script src="vendas_data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -314,6 +315,34 @@
       padding-top: 6px;
       border-top: 1px solid var(--border);
     }
+
+    .mes-select {
+      background: var(--card2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: 0.85rem;
+      padding: 7px 12px;
+      cursor: pointer;
+      outline: none;
+    }
+    .mes-select:focus { border-color: var(--accent); }
+
+    .vendas-resumo {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+    .vendas-resumo-box {
+      background: var(--card2);
+      border-radius: 8px;
+      padding: 10px 16px;
+      flex: 1;
+      min-width: 120px;
+    }
+    .vendas-resumo-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 4px; }
+    .vendas-resumo-val   { font-size: 1rem; font-weight: 700; color: var(--text); }
 
     @media (max-width: 480px) {
       .cards-grid { grid-template-columns: 1fr; }
@@ -711,6 +740,96 @@ function downloadCSV(v) {
   setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
 }
 
+// ── View de Vendas ───────────────────────────────────────
+
+function _vendasDoMes(nomeVendedor, mes) {
+  if (typeof VENDAS_DATA === 'undefined') return [];
+  return (VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || [];
+}
+
+function _atualizarTabela(nomeVendedor) {
+  const mes   = document.getElementById('sel-mes').value;
+  const lista = _vendasDoMes(nomeVendedor, mes);
+
+  // Resumo
+  const total    = lista.reduce((s, r) => s + r.valor, 0);
+  const totalQt  = lista.reduce((s, r) => s + r.qt, 0);
+  const nClientes = new Set(lista.map(r => r.cliente)).size;
+  document.getElementById('vendas-resumo').innerHTML = `
+    <div class="vendas-resumo-box">
+      <div class="vendas-resumo-label">Faturamento</div>
+      <div class="vendas-resumo-val">${fmtFat(total)}</div>
+    </div>
+    <div class="vendas-resumo-box">
+      <div class="vendas-resumo-label">Itens vendidos</div>
+      <div class="vendas-resumo-val">${totalQt.toLocaleString('pt-BR')}</div>
+    </div>
+    <div class="vendas-resumo-box">
+      <div class="vendas-resumo-label">Clientes</div>
+      <div class="vendas-resumo-val">${nClientes}</div>
+    </div>`;
+
+  document.getElementById('vendas-tabela').innerHTML = buildVendasTable(lista);
+}
+
+function exportarVendasCSV(nomeVendedor) {
+  const mes   = document.getElementById('sel-mes').value;
+  const lista = _vendasDoMes(nomeVendedor, mes);
+  const sep   = ';';
+
+  const rows = [
+    `VENDAS — ${nomeVendedor} — ${mes}`,
+    `Data${sep}Cliente${sep}Produto${sep}Quantidade${sep}Valor (R$)`,
+    ...lista.map(s =>
+      `${s.data}${sep}${s.cliente}${sep}${s.produto}${sep}${s.qt}${sep}${Number(s.valor).toFixed(2).replace('.', ',')}`
+    ),
+  ];
+
+  const csv  = '\uFEFF' + rows.join('\r\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url;
+  a.download = `vendas_${nomeVendedor.replace(/\s+/g, '_')}_${mes.replace('/', '_')}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
+}
+
+function renderVendas(v) {
+  document.getElementById('header-sub').textContent =
+    typeof VENDAS_DATA !== 'undefined'
+      ? `Atualizado ${VENDAS_DATA.atualizado_em}`
+      : 'Dados de vendas não disponíveis';
+
+  document.getElementById('header-actions').innerHTML = `
+    <button class="btn btn-dl" onclick="exportarVendasCSV('${v.nome}')">&#8595; Baixar CSV</button>
+    <button class="btn" onclick="voltarParaTodos()">\u2190 Todos</button>`;
+
+  const meses = typeof VENDAS_DATA !== 'undefined' ? VENDAS_DATA.meses : [];
+  const opts  = meses.map(m => `<option value="${m}">${m}</option>`).join('');
+
+  document.getElementById('app').innerHTML = `
+    <div class="detail-header">
+      <div>
+        <div class="detail-name">${v.nome}</div>
+        <div class="detail-rca">RCA ${v.rca}</div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <select id="sel-mes" class="mes-select"
+          onchange="_atualizarTabela('${v.nome}')">${opts}</select>
+        <a class="btn" href="?vendedor=${encodeURIComponent(v.nome)}">Ver metas</a>
+      </div>
+    </div>
+
+    <div class="detail-card">
+      <div id="vendas-resumo" class="vendas-resumo"></div>
+      <div id="vendas-tabela"></div>
+    </div>`;
+
+  _atualizarTabela(v.nome);
+}
+
 // ── Roteamento por URL ────────────────────────────────────
 
 function getParam() {
@@ -823,7 +942,8 @@ function renderAll(vendedores) {
         ${buildBar('Positivação Total', v.pos_tt.realizado, v.pos_tt.meta, 'pos')}
         <div class="card-actions">
           <button class="btn btn-dl" onclick="downloadCSV(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'))">&#8595; Baixar CSV</button>
-          <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>
+          <a class="btn" href="?vendedor=${encodeURIComponent(v.nome)}&view=vendas">&#128203; Vendas</a>
+          <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Metas</a>
         </div>
       </div>`;
   }).join('');
@@ -857,12 +977,16 @@ function filterCards(q) {
     return;
   }
 
-  const param = getParam();
+  const params = new URLSearchParams(window.location.search);
+  const param  = params.get('vendedor') || null;
+  const view   = params.get('view') || 'metas';
+
   if (param) {
     const v = METAS_DATA.vendedores.find(x =>
       x.nome.toLowerCase() === param.toLowerCase());
     if (v) {
-      renderDetail(v);
+      if (view === 'vendas') renderVendas(v);
+      else                   renderDetail(v);
     } else {
       document.getElementById('app').innerHTML = `
         <div class="no-data">

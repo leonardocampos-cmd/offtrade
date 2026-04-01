@@ -211,10 +211,98 @@ with open(output_path, 'w', encoding='utf-8') as f:
 
 print(f"OK metas_data.js gerado com {len(vendedores_out)} vendedores -> {output_path}")
 
+# ── Geração do vendas_data.js ─────────────────────────────────────────────────
+
+_MESES_PT = {
+    'Jan': 'Jan', 'Feb': 'Fev', 'Mar': 'Mar', 'Apr': 'Abr',
+    'May': 'Mai', 'Jun': 'Jun', 'Jul': 'Jul', 'Aug': 'Ago',
+    'Sep': 'Set', 'Oct': 'Out', 'Nov': 'Nov', 'Dec': 'Dez',
+}
+
+def _mes_pt(dt):
+    return f"{_MESES_PT.get(dt.strftime('%b'), dt.strftime('%b'))}/{dt.strftime('%y')}"
+
+def _query_vendas_historico(schema):
+    s = schema.upper()
+    return f"""
+        SELECT
+            TRUNC(M.DTMOV, 'MM')            AS MES,
+            TO_CHAR(M.DTMOV, 'DD/MM/YYYY') AS DATA,
+            M.CODCLI,
+            C.CLIENTE,
+            M.DESCRICAO                     AS PRODUTO,
+            M.QT,
+            (M.PUNIT * M.QT)               AS VALOR,
+            U.NOME                          AS NOME_ORACLE
+        FROM {s}.PCMOV M
+        JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
+        LEFT JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
+        WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
+          AND M.CODOPER = 'S'
+          AND M.CODFILIAL IN (1, 2, 4)
+          AND M.NUMNOTADEV IS NULL
+          AND M.DTCANCEL IS NULL
+          AND U.NOME LIKE '%OFF TRADE%'
+    """
+
+_vh = pd.concat([
+    pd.read_sql(_query_vendas_historico("CRC"),      con=engine,         dtype=str),
+    pd.read_sql(_query_vendas_historico("thekings"), con=engine_theking, dtype=str),
+], ignore_index=True)
+_vh.columns = _vh.columns.str.upper()
+_vh['MES']   = pd.to_datetime(_vh['MES'],   errors='coerce')
+_vh['QT']    = pd.to_numeric(_vh['QT'],     errors='coerce').fillna(0).astype(int)
+_vh['VALOR'] = pd.to_numeric(_vh['VALOR'],  errors='coerce').fillna(0).round(2)
+_vh['CLIENTE'] = _vh['CLIENTE'].fillna(_vh['CODCLI'])
+
+# Oracle name → display name (mesmo mapeamento do loop de metas)
+_oracle_to_display = {
+    str(r['NOME']): str(r['VENDEDOR'])
+    for _, r in metas_com_nome.iterrows()
+    if pd.notna(r.get('NOME'))
+}
+_vh['VENDEDOR'] = _vh['NOME_ORACLE'].map(_oracle_to_display)
+_vh = _vh[_vh['VENDEDOR'].notna()].copy()
+
+# Meses disponíveis (ordem decrescente)
+_meses_dt  = sorted(_vh['MES'].dropna().unique(), reverse=True)
+_meses_str = [_mes_pt(m) for m in _meses_dt]
+_vh['MES_STR'] = _vh['MES'].apply(_mes_pt)
+
+# Monta dicionário {vendedor: {mes: [linhas]}}
+_por_vendedor_hist: dict = {}
+for _, row in _vh.iterrows():
+    v_nome = row['VENDEDOR']
+    mes    = row['MES_STR']
+    _por_vendedor_hist.setdefault(v_nome, {}).setdefault(mes, []).append({
+        'data':    str(row['DATA']),
+        'cliente': str(row['CLIENTE']),
+        'produto': str(row['PRODUTO']) if pd.notna(row['PRODUTO']) else '',
+        'qt':      int(row['QT']),
+        'valor':   float(row['VALOR']),
+    })
+
+vendas_payload = {
+    'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
+    'meses':         _meses_str,
+    'por_vendedor':  _por_vendedor_hist,
+}
+
+js_vendas = (
+    "// Gerado automaticamente pelo notebook analisedados.ipynb\n\n"
+    f"const VENDAS_DATA = {json.dumps(vendas_payload, ensure_ascii=False, indent=2)};\n"
+)
+
+vendas_path = str(Path(__file__).parent / "vendas_data.js")
+with open(vendas_path, 'w', encoding='utf-8') as f:
+    f.write(js_vendas)
+
+print(f"OK vendas_data.js gerado -> {vendas_path}")
+
 # Push automático para o GitHub Pages
 import subprocess
 repo_dir = str(Path(__file__).parent)
-subprocess.run(["git", "-C", repo_dir, "add", "metas_data.js"], check=True)
-subprocess.run(["git", "-C", repo_dir, "commit", "-m", f"Atualiza metas_data.js - {date.today().strftime('%d/%m/%Y')}"])
+subprocess.run(["git", "-C", repo_dir, "add", "metas_data.js", "vendas_data.js"], check=True)
+subprocess.run(["git", "-C", repo_dir, "commit", "-m", f"Atualiza metas_data.js + vendas_data.js - {date.today().strftime('%d/%m/%Y')}"])
 subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
 print("OK GitHub Pages atualizado.")
