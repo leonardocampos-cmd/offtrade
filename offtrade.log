@@ -50451,3 +50451,61 @@ OK GitHub Pages atualizado.
 
 [01/04/2026 11:00:34,20] OK 
 ---------------------------------------- 
+[01/04/2026 12:00:00,64] Iniciando... 
+[master 1c983f0] Atualiza metas_data.js + vendas_data.js - 01/04/2026
+ 2 files changed, 6262 insertions(+), 6185 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   93cfdb9..1c983f0  master -> master
+
+==================================================
+  OFFTRADE - 01/04/2026 12:00
+==================================================
+
+--------------------------------------------------
+  1/4 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+--------------------------------------------------
+  2/4 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+Clientes nao positivados em 04/2026: 3958
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_04-2026.xlsx
+OK metas_data.js gerado — 16 vendedores, meses: ['Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+==================================================
+  Concluído em 42s
+==================================================
+
+[01/04/2026 12:00:44,18] OK 
+---------------------------------------- 
+[01/04/2026 13:00:13,17] Iniciando... 
+[master 9a7b805] Atualiza metas_data.js + vendas_data.js - 01/04/2026
+ 2 files changed, 6081 insertions(+), 6091 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   1c983f0..9a7b805  master -> master
+
+==================================================
+  OFFTRADE - 01/04/2026 13:00
+==================================================
+
+--------------------------------------------------
+  1/4 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+--------------------------------------------------
+  2/4 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+Clientes nao positivados em 04/2026: 3957
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_04-2026.xlsx
+OK metas_data.js gerado — 16 vendedores, meses: ['Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+==================================================
+  Concluído em 50s
+==================================================
+
+[01/04/2026 13:01:08,78] OK 
+---------------------------------------- 

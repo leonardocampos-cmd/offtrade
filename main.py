@@ -20,11 +20,11 @@ def main():
         step("2/4 - Exportando dashboard HTML (metas_data.js)")
         import exportacao_meta
 
-        # step("3/4 - Conferência de preços")
-        # import conferencia_preco
+        step("3/4 - Conferência de preços")
+        import conferencia_preco
 
-        # step("4/4 - Enviando alerta WhatsApp")
-        # import envio_whatsapp
+        step("4/4 - Enviando alerta WhatsApp")
+        import envio_whatsapp
 
     except Exception:
         print("\n[ERRO] Falha na execução:")

@@ -873,7 +873,6 @@ function renderDetail(v, mes) {
 
   document.getElementById('header-actions').innerHTML = `
     <select class="mes-select" onchange="renderDetail(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'), this.value)">${mesOpts}</select>
-    <button class="btn btn-dl" onclick="downloadCSV(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'), '${mes}')">&#8595; Baixar CSV</button>
     <button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>`;
 
   const p = pct(r('fat_tt'), m('fat_tt'));
@@ -925,7 +924,10 @@ function renderDetail(v, mes) {
 
     <div class="detail-card">
       <div class="section-title">Clientes não positivados (ÚLTIMAS VENDAS)</div>
-      ${buildNaoPosTable(v.nao_positivados)}
+      ${buildNaoPosTable((v.nao_positivados || []).filter(c => {
+        const comprouNoMes = new Set(_vendasDoMes(v.nome, mes).map(s => s.cliente.trim().toUpperCase()));
+        return !comprouNoMes.has((c.CLIENTE || '').trim().toUpperCase());
+      }))}
     </div>`;
 
   buildCharts(v);
