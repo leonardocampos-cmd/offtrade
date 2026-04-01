@@ -50364,3 +50364,32 @@ Registro salvo em 'pedidos_enviados.json' (413 chave(s) no total).
 
 [31/03/2026 17:00:59,68] OK 
 ---------------------------------------- 
+[01/04/2026  9:00:00,64] Iniciando... 
+[master f71918a] Atualiza metas_data.js + vendas_data.js - 01/04/2026
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   d30d84a..f71918a  master -> master
+
+==================================================
+  OFFTRADE - 01/04/2026 09:00
+==================================================
+
+--------------------------------------------------
+  1/4 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+--------------------------------------------------
+  2/4 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+Clientes nao positivados em 04/2026: 3960
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_04-2026.xlsx
+OK metas_data.js gerado — 16 vendedores, meses: ['Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+==================================================
+  Concluído em 28s
+==================================================
+
+[01/04/2026  9:00:29,69] OK 
+---------------------------------------- 
