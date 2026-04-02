@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/04/2026 16:00",
+  "atualizado_em": "02/04/2026 17:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -120980,78 +120980,6 @@ const VENDAS_DATA = {
           "valor": 1138.8
         },
         {
-          "data": "27/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "qt": 5,
-          "valor": 972.95
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "qt": 3,
-          "valor": 583.71
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 1,
-          "valor": 152.07
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "qt": 2,
-          "valor": 304.16
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "qt": 2,
-          "valor": 304.16
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "qt": 2,
-          "valor": 335.38
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "qt": 3,
-          "valor": 503.07
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 3,
-          "valor": 602.76
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 7,
-          "valor": 1406.44
-        },
-        {
           "data": "30/03/2026",
           "codcli": "85095",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
@@ -126934,6 +126862,86 @@ const VENDAS_DATA = {
           "produto": "RED BULL 24X250ML",
           "qt": 1,
           "valor": 165.36
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF AMORA",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF BLUEBERRY BAUNILHA",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 2,
+          "valor": 57.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 2,
+          "valor": 41.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "qt": 2,
+          "valor": 55.12
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 1,
+          "valor": 21.9
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "valor": 189.4
         }
       ]
     },
