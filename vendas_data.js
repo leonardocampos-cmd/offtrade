@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/04/2026 10:04",
+  "atualizado_em": "02/04/2026 11:01",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -133002,7 +133002,7 @@ const VENDAS_DATA = {
       ],
       "Abr/26": [
         {
-          "data": "01/04/2026",
+          "data": "02/04/2026",
           "codcli": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
           "produto": "RUM MALIBU 750 ML",
@@ -133120,6 +133120,46 @@ const VENDAS_DATA = {
           "produto": "NECTAR LARANJA 12X1000ML",
           "qt": 1,
           "valor": 59.88
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "qt": 91,
+          "valor": 11638.9
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "qt": 30,
+          "valor": 901.2
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "qt": 10,
+          "valor": 560.6
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "qt": 10,
+          "valor": 391.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "qt": 10,
+          "valor": 512.1
         }
       ],
       "Nov/25": [
@@ -137898,6 +137938,14 @@ const VENDAS_DATA = {
           "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "qt": 6,
           "valor": 209.4
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "qt": 20,
+          "valor": 2598.0
         }
       ]
     }
