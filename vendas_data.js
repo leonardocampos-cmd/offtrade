@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/04/2026 15:07",
+  "atualizado_em": "02/04/2026 16:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -34478,38 +34478,6 @@ const VENDAS_DATA = {
           "valor": 87.48
         },
         {
-          "data": "30/03/2026",
-          "codcli": "79252",
-          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "qt": 2,
-          "valor": 279.8
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "79252",
-          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 10,
-          "valor": 330.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "79252",
-          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
-          "produto": "VODKA SMIRNOFF 600 ML",
-          "qt": 10,
-          "valor": 229.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "79252",
-          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
-          "produto": "COQUETEL PINK MOON 12X600ML - PET",
-          "qt": 2,
-          "valor": 149.8
-        },
-        {
           "data": "04/03/2026",
           "codcli": "83180",
           "cliente": "POSTO MEGA VERAO LTDA",
@@ -40242,30 +40210,6 @@ const VENDAS_DATA = {
           "produto": "GUARAVITON GINSENG 12X500ML",
           "qt": 2,
           "valor": 56.16
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "91424",
-          "cliente": "KVSO I COM PROD FAR LTDA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "qt": 1,
-          "valor": 14.16
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "91424",
-          "cliente": "KVSO I COM PROD FAR LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 3,
-          "valor": 64.08
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "91424",
-          "cliente": "KVSO I COM PROD FAR LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 1,
-          "valor": 26.99
         },
         {
           "data": "31/03/2026",
@@ -75402,6 +75346,14 @@ const VENDAS_DATA = {
           "valor": 249.8
         },
         {
+          "data": "02/04/2026",
+          "codcli": "81424",
+          "cliente": "MERCADO SALMOS 2 LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 15,
+          "valor": 328.5
+        },
+        {
           "data": "01/04/2026",
           "codcli": "81685",
           "cliente": "L DO ROSARIO COELHO DEPOSITO DE BEBIDAS",
@@ -91108,6 +91060,30 @@ const VENDAS_DATA = {
           "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
           "qt": 1,
           "valor": 71.2
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "79253",
+          "cliente": "AUTO POSTO TREVO DAS AMERICAS LTDA",
+          "produto": "COQUETEL PINK MOON 12X600ML - PET",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "79253",
+          "cliente": "AUTO POSTO TREVO DAS AMERICAS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 3,
+          "valor": 65.7
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "79253",
+          "cliente": "AUTO POSTO TREVO DAS AMERICAS LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "valor": 139.9
         },
         {
           "data": "01/04/2026",
@@ -120636,14 +120612,6 @@ const VENDAS_DATA = {
           "valor": 1138.8
         },
         {
-          "data": "20/03/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "AGUA NA CAIXA 12X500ML",
-          "qt": 3600,
-          "valor": 163728.0
-        },
-        {
           "data": "03/03/2026",
           "codcli": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
@@ -121662,6 +121630,16 @@ const VENDAS_DATA = {
           "produto": "WHISKY JIM BEAM APPLE 1L",
           "qt": 660,
           "valor": 63294.0
+        }
+      ],
+      "Abr/26": [
+        {
+          "data": "02/04/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "AGUA NA CAIXA 12X500ML",
+          "qt": 3600,
+          "valor": 163728.0
         }
       ]
     },
@@ -122756,38 +122734,6 @@ const VENDAS_DATA = {
           "valor": 48.9
         },
         {
-          "data": "31/03/2026",
-          "codcli": "92019",
-          "cliente": "JCP NATURAIS COMERCIO LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "92019",
-          "cliente": "JCP NATURAIS COMERCIO LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 1,
-          "valor": 21.9
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "92019",
-          "cliente": "JCP NATURAIS COMERCIO LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 1,
-          "valor": 21.32
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "92019",
-          "cliente": "JCP NATURAIS COMERCIO LTDA",
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "qt": 1,
-          "valor": 28.9
-        },
-        {
           "data": "30/03/2026",
           "codcli": "91386",
           "cliente": "PRISCILA BESSA DE PAULA 08926465780",
@@ -122930,22 +122876,6 @@ const VENDAS_DATA = {
           "produto": "4 PACK RED BULL",
           "qt": 6,
           "valor": 165.36
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "93263",
-          "cliente": "L2R CENTRO DE TREINAMENTO LTDA",
-          "produto": "4 PACK RED BULL SF AMORA",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "93263",
-          "cliente": "L2R CENTRO DE TREINAMENTO LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "qt": 1,
-          "valor": 27.56
         }
       ],
       "Dez/25": [
