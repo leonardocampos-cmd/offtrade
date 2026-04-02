@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/04/2026 12:00",
+  "atualizado_em": "02/04/2026 13:19",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -82478,38 +82478,6 @@ const VENDAS_DATA = {
           "valor": 139.9
         },
         {
-          "data": "31/03/2026",
-          "codcli": "89949",
-          "cliente": "AUTO POSTO REDE PARCEIRO NILOPOLIS LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 1,
-          "valor": 21.9
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "89949",
-          "cliente": "AUTO POSTO REDE PARCEIRO NILOPOLIS LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 1,
-          "valor": 26.9
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "89949",
-          "cliente": "AUTO POSTO REDE PARCEIRO NILOPOLIS LTDA",
-          "produto": "COQUETEL PINK MOON 12X600ML - PET",
-          "qt": 2,
-          "valor": 149.8
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "89949",
-          "cliente": "AUTO POSTO REDE PARCEIRO NILOPOLIS LTDA",
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "qt": 1,
-          "valor": 139.9
-        },
-        {
           "data": "27/03/2026",
           "codcli": "89936",
           "cliente": "POSTO DE GASOLINA SANTA BARBARA DO MEIER LTDA",
@@ -82564,14 +82532,6 @@ const VENDAS_DATA = {
           "produto": "GUARAVITON GINSENG 12X500ML",
           "qt": 4,
           "valor": 107.94
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "89944",
-          "cliente": "SAO BENTO DE ITAIPU AUTO POSTO LTDA",
-          "produto": "COQUETEL PINK MOON 12X600ML - PET",
-          "qt": 2,
-          "valor": 149.8
         },
         {
           "data": "10/03/2026",
