@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/04/2026 09:00",
+  "atualizado_em": "02/04/2026 10:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -121820,14 +121820,6 @@ const VENDAS_DATA = {
           "valor": 83.88
         },
         {
-          "data": "30/03/2026",
-          "codcli": "50648",
-          "cliente": "RASIBIA CANTINA LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "qt": 2,
-          "valor": 55.12
-        },
-        {
           "data": "09/03/2026",
           "codcli": "52102",
           "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
@@ -130130,6 +130122,70 @@ const VENDAS_DATA = {
           "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
           "qt": 50,
           "valor": 6395.0
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "qt": 10,
+          "valor": 1677.6
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "qt": 10,
+          "valor": 1677.6
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "qt": 10,
+          "valor": 1677.6
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML - ENERG",
+          "qt": 5,
+          "valor": 838.8
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL CEREJA 24X250ML",
+          "qt": 2,
+          "valor": 335.52
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+          "qt": 3,
+          "valor": 503.28
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "qt": 91,
+          "valor": 11638.9
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "qt": 104,
+          "valor": 10853.44
         },
         {
           "data": "17/03/2026",
