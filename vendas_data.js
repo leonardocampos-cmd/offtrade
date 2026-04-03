@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/04/2026 17:00",
+  "atualizado_em": "03/04/2026 11:38",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -37088,6 +37088,38 @@ const VENDAS_DATA = {
       ],
       "Abr/26": [
         {
+          "data": "02/04/2026",
+          "codcli": "2454",
+          "cliente": "POSTO DE GASOLINA GUADIANA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 2,
+          "valor": 63.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "2454",
+          "cliente": "POSTO DE GASOLINA GUADIANA LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 750ML",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "2454",
+          "cliente": "POSTO DE GASOLINA GUADIANA LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 4,
+          "valor": 115.6
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "2454",
+          "cliente": "POSTO DE GASOLINA GUADIANA LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 1,
+          "valor": 36.9
+        },
+        {
           "data": "01/04/2026",
           "codcli": "3110",
           "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
@@ -37128,6 +37160,14 @@ const VENDAS_DATA = {
           "valor": 144.5
         },
         {
+          "data": "02/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 10,
+          "valor": 199.0
+        },
+        {
           "data": "01/04/2026",
           "codcli": "8390",
           "cliente": "GOLDEN GREEN MANIA DELICATSSE LTDA",
@@ -37158,6 +37198,30 @@ const VENDAS_DATA = {
           "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "qt": 1,
           "valor": 94.68
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "59810",
+          "cliente": "LORD RODRIGO COMERCIO DE COMBUSTIVEIS LTDA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "qt": 1,
+          "valor": 77.6
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 15,
+          "valor": 298.5
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 209.0
         },
         {
           "data": "01/04/2026",
@@ -37358,6 +37422,14 @@ const VENDAS_DATA = {
           "produto": "GUARAVITON GINSENG 12X500ML",
           "qt": 10,
           "valor": 269.0
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "91093",
+          "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 30,
+          "valor": 597.0
         }
       ]
     },
@@ -75322,6 +75394,54 @@ const VENDAS_DATA = {
           "valor": 270.0
         },
         {
+          "data": "02/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
+          "qt": 20,
+          "valor": 780.0
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "qt": 3,
+          "valor": 190.5
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "54856",
+          "cliente": "GOMES RESTAURANTE E BAR RJ EIRELI",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 2,
+          "valor": 187.9
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "54856",
+          "cliente": "GOMES RESTAURANTE E BAR RJ EIRELI",
+          "produto": "GIN GORDONS 750 ML",
+          "qt": 2,
+          "valor": 57.9
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "54856",
+          "cliente": "GOMES RESTAURANTE E BAR RJ EIRELI",
+          "produto": "GIN GORDONS 750 ML",
+          "qt": 10,
+          "valor": 499.0
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "54856",
+          "cliente": "GOMES RESTAURANTE E BAR RJ EIRELI",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 24,
+          "valor": 588.0
+        },
+        {
           "data": "01/04/2026",
           "codcli": "81163",
           "cliente": "POP CONVENIENCIA E MERCADO LTDA",
@@ -77052,6 +77172,22 @@ const VENDAS_DATA = {
           "produto": "CHANDON GARDEN SPRITZ 750 ML",
           "qt": 30,
           "valor": 2097.0
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "6278",
+          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 360,
+          "valor": 33840.0
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "6278",
+          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 180,
+          "valor": 16920.0
         }
       ],
       "Nov/25": [
@@ -90990,6 +91126,78 @@ const VENDAS_DATA = {
       ],
       "Abr/26": [
         {
+          "data": "02/04/2026",
+          "codcli": "76866",
+          "cliente": "SHEKINAH DE CAMPO GRANDE LIMITADA",
+          "produto": "VINHO MOV TINTO",
+          "qt": 5,
+          "valor": 164.5
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "82781",
+          "cliente": "ADONAI ATACADISTA LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "qt": 3,
+          "valor": 404.7
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "82781",
+          "cliente": "ADONAI ATACADISTA LTDA",
+          "produto": "VINHO PERINI ARBO CAB SAUV 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "82781",
+          "cliente": "ADONAI ATACADISTA LTDA",
+          "produto": "VINHO PERINI ARBO MARSELAN 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "82781",
+          "cliente": "ADONAI ATACADISTA LTDA",
+          "produto": "VINHO PERINI ARBO TANNAT 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
           "data": "01/04/2026",
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
@@ -91086,6 +91294,38 @@ const VENDAS_DATA = {
           "valor": 139.9
         },
         {
+          "data": "02/04/2026",
+          "codcli": "90497",
+          "cliente": "55.634.657 BARBARA SANTOS JOE CABRAL",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "qt": 1,
+          "valor": 38.9
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "90497",
+          "cliente": "55.634.657 BARBARA SANTOS JOE CABRAL",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 1,
+          "valor": 11.5
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "90497",
+          "cliente": "55.634.657 BARBARA SANTOS JOE CABRAL",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "qt": 1,
+          "valor": 13.99
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "90497",
+          "cliente": "55.634.657 BARBARA SANTOS JOE CABRAL",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 47.9
+        },
+        {
           "data": "01/04/2026",
           "codcli": "94276",
           "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
@@ -91132,6 +91372,222 @@ const VENDAS_DATA = {
           "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
           "qt": 7,
           "valor": 570.36
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "91612",
+          "cliente": "MERCADO DA FAMILIA REALENGO LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 5,
+          "valor": 57.45
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93382",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO CAB SAUV 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93382",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO MARSELAN 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93382",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO MERLOT 750ML",
+          "qt": 24,
+          "valor": 645.6
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93382",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO TANNAT 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93382",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "qt": 2,
+          "valor": 269.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93382",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93385",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO CAB SAUV 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93385",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO MARSELAN 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93385",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO TANNAT 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93386",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93386",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO CAB SAUV 750ML",
+          "qt": 24,
+          "valor": 645.6
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93386",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO MARSELAN 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93386",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO TANNAT 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93388",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "qt": 3,
+          "valor": 404.7
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93388",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 30,
+          "valor": 1035.0
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93388",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 12,
+          "valor": 414.0
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93388",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO CAB SAUV 750ML",
+          "qt": 24,
+          "valor": 645.6
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93388",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO MARSELAN 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93388",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO MERLOT 750ML",
+          "qt": 24,
+          "valor": 645.6
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93388",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO TANNAT 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93388",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93388",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93389",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO CAB SAUV 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93389",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO MARSELAN 750ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93389",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "93389",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "produto": "VINHO PERINI ARBO TANNAT 750ML",
+          "qt": 12,
+          "valor": 322.8
         }
       ]
     },
@@ -101968,6 +102424,14 @@ const VENDAS_DATA = {
           "produto": "GIN ROCKS 1000ML",
           "qt": 6,
           "valor": 135.0
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "83583",
+          "cliente": "RB DISTRIBUIDORA DE ALIMENTOS 2017 LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 500,
+          "valor": 32640.0
         },
         {
           "data": "01/04/2026",
