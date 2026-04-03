@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "03/04/2026 13:44",
+  "atualizado_em": "03/04/2026 18:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -40202,30 +40202,6 @@ const VENDAS_DATA = {
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
           "qt": 1,
           "valor": 76.3
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "91378",
-          "cliente": "PL MESQUITA BAR E RESTAURANTE LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 4,
-          "valor": 110.24
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "91378",
-          "cliente": "PL MESQUITA BAR E RESTAURANTE LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 10,
-          "valor": 218.4
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "91378",
-          "cliente": "PL MESQUITA BAR E RESTAURANTE LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
         },
         {
           "data": "02/03/2026",
