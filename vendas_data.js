@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "03/04/2026 18:00",
+  "atualizado_em": "06/04/2026 09:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -98921,150 +98921,6 @@ const VENDAS_DATA = {
           "data": "30/03/2026",
           "codcli": "85897",
           "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "CONHAQUE DOMUS 900ML",
-          "qt": 12,
-          "valor": 120.48
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "qt": 36,
-          "valor": 443.16
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "ESPUM CASA PERINI ICE 750ML",
-          "qt": 6,
-          "valor": 209.4
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "ESPUM CASA PERINI ICE ROSE 750ML",
-          "qt": 6,
-          "valor": 209.4
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
-          "qt": 6,
-          "valor": 209.4
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "CHANDON PASSION ROSE 750ML",
-          "qt": 6,
-          "valor": 449.4
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "GIN ROCKS 1000ML",
-          "qt": 12,
-          "valor": 264.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 30,
-          "valor": 660.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "GIN ROCKS GREEN APPLE 1000ML",
-          "qt": 12,
-          "valor": 264.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
-          "qt": 12,
-          "valor": 240.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "RUM MONTILLA OURO 1000ML",
-          "qt": 12,
-          "valor": 240.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "RUM MALIBU 750 ML",
-          "qt": 6,
-          "valor": 267.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VODKA NATASHA 900ML",
-          "qt": 24,
-          "valor": 286.56
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "qt": 12,
-          "valor": 1220.88
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "qt": 6,
-          "valor": 213.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "qt": 2,
-          "valor": 1304.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
           "produto": "VINHO VILLA ROSA FRISANTE ROSE",
           "qt": 24,
           "valor": 550.08
@@ -102426,6 +102282,142 @@ const VENDAS_DATA = {
           "valor": 1587.0
         },
         {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 36,
+          "valor": 443.16
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "ESPUM CASA PERINI ICE 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "ESPUM CASA PERINI ICE ROSE 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "CHANDON PASSION ROSE 750ML",
+          "qt": 6,
+          "valor": 449.4
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "GIN ROCKS 1000ML",
+          "qt": 12,
+          "valor": 276.3
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 12,
+          "valor": 1220.88
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "qt": 6,
+          "valor": 213.0
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 30,
+          "valor": 690.75
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "qt": 12,
+          "valor": 275.37
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "qt": 12,
+          "valor": 240.0
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "qt": 12,
+          "valor": 240.0
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "RUM MALIBU 750 ML",
+          "qt": 6,
+          "valor": 267.0
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "VODKA NATASHA 900ML",
+          "qt": 24,
+          "valor": 286.56
+        },
+        {
+          "data": "04/04/2026",
+          "codcli": "85897",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
+          "qt": 2,
+          "valor": 1304.0
+        },
+        {
           "data": "01/04/2026",
           "codcli": "90484",
           "cliente": "MERCADO RC DE ITAGUAI LTDA",
@@ -102704,6 +102696,30 @@ const VENDAS_DATA = {
           "produto": "LIQUEUR AMARULA RASBERRY 750 ML",
           "qt": 12,
           "valor": 1068.0
+        },
+        {
+          "data": "03/04/2026",
+          "codcli": "92391",
+          "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "qt": 2,
+          "valor": 136.32
+        },
+        {
+          "data": "03/04/2026",
+          "codcli": "92391",
+          "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "qt": 3,
+          "valor": 204.48
+        },
+        {
+          "data": "03/04/2026",
+          "codcli": "92391",
+          "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "qt": 3,
+          "valor": 204.48
         },
         {
           "data": "01/04/2026",
@@ -122002,12 +122018,12 @@ const VENDAS_DATA = {
       ],
       "Abr/26": [
         {
-          "data": "02/04/2026",
+          "data": "04/04/2026",
           "codcli": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "produto": "AGUA NA CAIXA 12X500ML",
-          "qt": 3600,
-          "valor": 163728.0
+          "qt": 686,
+          "valor": 31199.28
         }
       ]
     },
