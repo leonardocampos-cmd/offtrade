@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "06/04/2026 11:00",
+  "atualizado_em": "06/04/2026 12:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -38661,30 +38661,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/03/2026",
-          "codcli": "94263",
-          "cliente": "MERCADO NOSSA REDE DE QUINTINO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "94263",
-          "cliente": "MERCADO NOSSA REDE DE QUINTINO LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 1,
-          "valor": 21.9
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "94263",
-          "cliente": "MERCADO NOSSA REDE DE QUINTINO LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 1,
-          "valor": 26.99
-        },
-        {
-          "data": "30/03/2026",
           "codcli": "94264",
           "cliente": "35.583.360 ALISSON DE ALMEIDA MAGALHAES",
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
@@ -40162,46 +40138,6 @@ const VENDAS_DATA = {
           "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
           "qt": 1,
           "valor": 14.16
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "91378",
-          "cliente": "PL MESQUITA BAR E RESTAURANTE LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 6,
-          "valor": 165.36
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "91378",
-          "cliente": "PL MESQUITA BAR E RESTAURANTE LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 10,
-          "valor": 219.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "91378",
-          "cliente": "PL MESQUITA BAR E RESTAURANTE LTDA",
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "qt": 10,
-          "valor": 289.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "91378",
-          "cliente": "PL MESQUITA BAR E RESTAURANTE LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 15,
-          "valor": 313.5
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "91378",
-          "cliente": "PL MESQUITA BAR E RESTAURANTE LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 76.3
         },
         {
           "data": "02/03/2026",
