@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "06/04/2026 12:00",
+  "atualizado_em": "06/04/2026 13:18",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -63125,30 +63125,6 @@ const VENDAS_DATA = {
       "Abr/26": [
         {
           "data": "01/04/2026",
-          "codcli": "66299",
-          "cliente": "SAL COM ERVAS GASTRONOMIA E EVENTOS LTDA",
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "qt": 6,
-          "valor": 437.4
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "66299",
-          "cliente": "SAL COM ERVAS GASTRONOMIA E EVENTOS LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "qt": 6,
-          "valor": 137.4
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "66299",
-          "cliente": "SAL COM ERVAS GASTRONOMIA E EVENTOS LTDA",
-          "produto": "CERVEJA HEINEKEN LONG 330ML",
-          "qt": 2,
-          "valor": 299.8
-        },
-        {
-          "data": "01/04/2026",
           "codcli": "71758",
           "cliente": "50.218.202 VIVIANE REGINA SILVA DE ALMEIDA SERPA PARADA",
           "produto": "RED BULL 24X250ML",
@@ -75312,38 +75288,6 @@ const VENDAS_DATA = {
           "produto": "GIN GORDONS 750 ML",
           "qt": 3,
           "valor": 190.5
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "54856",
-          "cliente": "GOMES RESTAURANTE E BAR RJ EIRELI",
-          "produto": "WHISKY J WALKER BLACK LABEL 1L",
-          "qt": 2,
-          "valor": 187.9
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "54856",
-          "cliente": "GOMES RESTAURANTE E BAR RJ EIRELI",
-          "produto": "GIN GORDONS 750 ML",
-          "qt": 2,
-          "valor": 57.9
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "54856",
-          "cliente": "GOMES RESTAURANTE E BAR RJ EIRELI",
-          "produto": "GIN GORDONS 750 ML",
-          "qt": 10,
-          "valor": 499.0
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "54856",
-          "cliente": "GOMES RESTAURANTE E BAR RJ EIRELI",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 24,
-          "valor": 588.0
         },
         {
           "data": "01/04/2026",
