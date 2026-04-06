@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "06/04/2026 10:09",
+  "atualizado_em": "06/04/2026 11:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -75318,14 +75318,6 @@ const VENDAS_DATA = {
           "produto": "GIN GORDONS 750 ML",
           "qt": 2,
           "valor": 57.9
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "92136",
-          "cliente": "63.529.210 KAUE ALVES DA SILVA SARAIVA",
-          "produto": "WHISKY J WALKER BLACK LABEL 1L",
-          "qt": 10,
-          "valor": 1499.0
         },
         {
           "data": "30/03/2026",
