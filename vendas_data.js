@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/04/2026 15:10",
+  "atualizado_em": "07/04/2026 16:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -76744,6 +76744,22 @@ const VENDAS_DATA = {
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "qt": 6,
           "valor": 221.4
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "84950",
+          "cliente": "CRISTIANO F. DE SOUSA MERCADO, PADARIA E ACOUGUE",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.6
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "84950",
+          "cliente": "CRISTIANO F. DE SOUSA MERCADO, PADARIA E ACOUGUE",
+          "produto": "CANTINA DA SERRA 1,5L",
+          "qt": 12,
+          "valor": 118.8
         }
       ]
     },
@@ -78220,6 +78236,22 @@ const VENDAS_DATA = {
           "produto": "MARTINI ROSATO 750 ML",
           "qt": 60,
           "valor": 1659.6
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "2909",
+          "cliente": "SUPERMERCADOS FEIRA NOVA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "qt": 36,
+          "valor": 968.4
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "2909",
+          "cliente": "SUPERMERCADOS FEIRA NOVA LTDA",
+          "produto": "RUM MALIBU 750 ML",
+          "qt": 24,
+          "valor": 1058.4
         },
         {
           "data": "01/04/2026",
@@ -123254,6 +123286,16 @@ const VENDAS_DATA = {
           "produto": "WHISKY JIM BEAM APPLE 1L",
           "qt": 660,
           "valor": 63294.0
+        }
+      ],
+      "Abr/26": [
+        {
+          "data": "07/04/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN MAR 750ML",
+          "qt": 42,
+          "valor": 2058.0
         }
       ]
     },
