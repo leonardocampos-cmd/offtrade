@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/04/2026 16:00",
+  "atualizado_em": "07/04/2026 17:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -37480,6 +37480,14 @@ const VENDAS_DATA = {
           "valor": 36.9
         },
         {
+          "data": "07/04/2026",
+          "codcli": "2310",
+          "cliente": "POSTO DE GASOLINA BRACARENSE LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 15,
+          "valor": 433.5
+        },
+        {
           "data": "06/04/2026",
           "codcli": "2511",
           "cliente": "CONFEITARIA MAJESTOSA DO JARDIM GUANABARA LTDA",
@@ -37502,6 +37510,54 @@ const VENDAS_DATA = {
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "qt": 1,
           "valor": 94.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "3471",
+          "cliente": "POSTO JARDIM OCEANICO LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 5,
+          "valor": 144.5
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "3471",
+          "cliente": "POSTO JARDIM OCEANICO LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 15,
+          "valor": 313.5
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "3471",
+          "cliente": "POSTO JARDIM OCEANICO LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 10,
+          "valor": 199.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "3471",
+          "cliente": "POSTO JARDIM OCEANICO LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 2,
+          "valor": 43.8
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "3471",
+          "cliente": "POSTO JARDIM OCEANICO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 3,
+          "valor": 65.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "3471",
+          "cliente": "POSTO JARDIM OCEANICO LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 3,
+          "valor": 80.7
         },
         {
           "data": "01/04/2026",
@@ -37584,6 +37640,86 @@ const VENDAS_DATA = {
           "valor": 94.68
         },
         {
+          "data": "07/04/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 50,
+          "valor": 1045.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 30,
+          "valor": 867.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
+          "qt": 2,
+          "valor": 175.2
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "COQUETEL PINK MOON 12X600ML - PET",
+          "qt": 2,
+          "valor": 149.8
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+          "qt": 1,
+          "valor": 105.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 20,
+          "valor": 398.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
           "data": "02/04/2026",
           "codcli": "59810",
           "cliente": "LORD RODRIGO COMERCIO DE COMBUSTIVEIS LTDA",
@@ -37606,6 +37742,38 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "qt": 10,
           "valor": 209.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 289.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 209.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 3,
+          "valor": 80.7
         },
         {
           "data": "06/04/2026",
@@ -76760,6 +76928,22 @@ const VENDAS_DATA = {
           "produto": "CANTINA DA SERRA 1,5L",
           "qt": 12,
           "valor": 118.8
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "92136",
+          "cliente": "63.529.210 KAUE ALVES DA SILVA SARAIVA",
+          "produto": "BALLANTINES SUNSHINE 700ML",
+          "qt": 60,
+          "valor": 3120.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "92136",
+          "cliente": "63.529.210 KAUE ALVES DA SILVA SARAIVA",
+          "produto": "BEEFEATER PINK 700ML",
+          "qt": 30,
+          "valor": 2160.0
         }
       ]
     },
@@ -83804,14 +83988,6 @@ const VENDAS_DATA = {
           "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
           "qt": 1,
           "valor": 139.9
-        },
-        {
-          "data": "24/03/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 15,
-          "valor": 968.4
         },
         {
           "data": "31/03/2026",
@@ -136848,70 +137024,6 @@ const VENDAS_DATA = {
           "produto": "ESPUM CASA PERINI PROSECCO 750ML",
           "qt": 6,
           "valor": 209.4
-        },
-        {
-          "data": "17/03/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "GIN MARINA 750ML",
-          "qt": 6,
-          "valor": 152.16
-        },
-        {
-          "data": "17/03/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "GIN MARINA ROSE 750ML",
-          "qt": 6,
-          "valor": 153.96
-        },
-        {
-          "data": "17/03/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "GIN MARINA BLACKBERRY 750ML",
-          "qt": 6,
-          "valor": 154.02
-        },
-        {
-          "data": "17/03/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "WHISKY GENTLEMAN JACK 1L",
-          "qt": 6,
-          "valor": 887.34
-        },
-        {
-          "data": "17/03/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
-          "qt": 12,
-          "valor": 275.04
-        },
-        {
-          "data": "17/03/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
-          "qt": 12,
-          "valor": 275.04
-        },
-        {
-          "data": "17/03/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "ESPUM ZERO MOSCATEL BRANCO QM 660ML",
-          "qt": 6,
-          "valor": 93.06
-        },
-        {
-          "data": "17/03/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "ESPUM ZERO MOSCATEL ROSE QM 660ML",
-          "qt": 12,
-          "valor": 186.12
         },
         {
           "data": "31/03/2026",
