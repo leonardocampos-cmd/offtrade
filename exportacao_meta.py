@@ -108,6 +108,13 @@ def safe_float(v):
     try: return float(v) if pd.notna(v) else 0.0
     except: return 0.0
 
+def coalesce(row, *keys):
+    for k in keys:
+        v = row.get(k)
+        if v is not None and pd.notna(v):
+            return v
+    return None
+
 def _realizado_mes(df):
     """Calcula todas as métricas realizadas a partir de um subset de _vh."""
     _zero = dict(fat_tt=0.0, fat_castas=0.0, fat_domecq_passport=0.0, fat_hob_azeite=0.0,
@@ -274,8 +281,8 @@ for _, m in metas_com_nome.iterrows():
     vendedores_dict[nome_display]['por_mes'][mes_str] = {
         'fat_tt':              {'meta': safe_float(m.get('FATURAMENTO TT')),           'realizado': real['fat_tt']},
         'fat_castas':          {'meta': safe_float(m.get('FAT CASTAS')),                'realizado': real['fat_castas']},
-        'fat_domecq_passport': {'meta': safe_float(m.get('FAT. DOMEQ + PASSPORT')),    'realizado': real['fat_domecq_passport']},
-        'fat_hob_azeite':      {'meta': safe_float(m.get('FATURAMENTO HOB + AZEITE')), 'realizado': real['fat_hob_azeite']},
+        'fat_domecq_passport': {'meta': safe_float(m.get('FAT. DOMEQ + PASSPORT')),                                                          'realizado': real['fat_domecq_passport']},
+        'fat_hob_azeite':      {'meta': safe_float(coalesce(m, 'FATURAMENTO AZEITE + ZE TONA', 'FATURAMENTO HOB + AZEITE')), 'realizado': real['fat_hob_azeite']},
         'pos_tt':              {'meta': safe_int(m.get('POSITIVAÇÃO TT')),              'realizado': real['pos_tt']},
         'pos_hob_azeite':      {'meta': safe_int(m.get('POSITIVAÇÃO HOB + AZEITE')),    'realizado': real['pos_hob_azeite']},
         'pos_reckit':          {'meta': safe_int(m.get('POSITIVAÇÃO RECKIT')),          'realizado': real['pos_reckit']},

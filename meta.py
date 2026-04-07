@@ -57,7 +57,10 @@ tabela_vendas = pd.concat([
 ], ignore_index=True)
 
 tabela_vendas.columns = tabela_vendas.columns.str.upper()
-arquivo = pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - MARÇO 2026.xlsx")
+arquivo = pd.concat([
+    pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - MARÇO 2026.xlsx"),
+    pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - Abril 2026.xlsx"),
+], ignore_index=True)
 tabela_vendas['FATURAMENTO'] = pd.to_numeric(tabela_vendas['FATURAMENTO'], errors='coerce')
 tabela_vendas.drop(columns=['CODPROD', 'CODFORNEC', 'NUMNOTA', 'CODOPER', 'PUNIT',
        'CODFILIAL', 'CODUSUR', 'NUMNOTADEV', 'DTCANCEL', 'FORNECEDOR'],inplace=True)
@@ -96,7 +99,9 @@ fat_azeite_hbo = float(tabela_vendas[
     tabela_vendas['DESCRICAO'].str.contains('AZEITE', case=False, na=False) |
     tabela_vendas['FANTASIA'].str.contains('HOB', case=False, na=False)
 ]['FATURAMENTO'].sum().round(2))
-
+#FATURAMENTO AZEITE     
+fat_azeite_zetona = float(tabela_vendas[
+    tabela_vendas['DESCRICAO'].str.contains('AZEITE', case=False, na=False)]['FATURAMENTO'].sum().round(2))
 positivacao_azeite_hob = int(tabela_vendas[
     tabela_vendas['DESCRICAO'].str.contains('AZEITE', case=False, na=False) |
     tabela_vendas['FANTASIA'].str.contains('HOB', case=False, na=False)

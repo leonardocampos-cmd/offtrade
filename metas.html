@@ -680,8 +680,8 @@ function downloadCSV(v, mes) {
   rows.push([`FATURAMENTO${sep}Meta${sep}Realizado${sep}%`]);
   rows.push([`Total${sep}${numBR(meta('fat_tt'))}${sep}${numBR(fat('fat_tt'))}${sep}${pctStr(fat('fat_tt'), meta('fat_tt'))}`]);
   rows.push([`Castas${sep}${numBR(meta('fat_castas'))}${sep}${numBR(fat('fat_castas'))}${sep}${pctStr(fat('fat_castas'), meta('fat_castas'))}`]);
-  rows.push([`Domecq + Passport${sep}${numBR(meta('fat_domecq_passport'))}${sep}${numBR(fat('fat_domecq_passport'))}${sep}${pctStr(fat('fat_domecq_passport'), meta('fat_domecq_passport'))}`]);
-  rows.push([`HOB + Azeite${sep}${numBR(meta('fat_hob_azeite'))}${sep}${numBR(fat('fat_hob_azeite'))}${sep}${pctStr(fat('fat_hob_azeite'), meta('fat_hob_azeite'))}`]);
+  if (meta('fat_domecq_passport') > 0) rows.push([`Domecq + Passport${sep}${numBR(meta('fat_domecq_passport'))}${sep}${numBR(fat('fat_domecq_passport'))}${sep}${pctStr(fat('fat_domecq_passport'), meta('fat_domecq_passport'))}`]);
+  rows.push([`${meta('fat_domecq_passport') > 0 ? 'HOB + Azeite' : 'Azeite + Zé Tona'}${sep}${numBR(meta('fat_hob_azeite'))}${sep}${numBR(fat('fat_hob_azeite'))}${sep}${pctStr(fat('fat_hob_azeite'), meta('fat_hob_azeite'))}`]);
   rows.push(['']);
 
   rows.push([`POSITIVAÇÃO${sep}Meta${sep}Realizado${sep}%`]);
@@ -894,8 +894,8 @@ function renderDetail(v, mes) {
       <div class="section-title">Faturamento</div>
       ${buildBar('Total',            r('fat_tt'),              m('fat_tt'),              'fat')}
       ${buildBar('Castas',           r('fat_castas'),          m('fat_castas'),          'fat')}
-      ${buildBar('Domecq + Passport',r('fat_domecq_passport'), m('fat_domecq_passport'), 'fat')}
-      ${buildBar('HOB + Azeite',     r('fat_hob_azeite'),      m('fat_hob_azeite'),      'fat')}
+      ${m('fat_domecq_passport') > 0 ? buildBar('Domecq + Passport', r('fat_domecq_passport'), m('fat_domecq_passport'), 'fat') : ''}
+      ${buildBar(m('fat_domecq_passport') > 0 ? 'HOB + Azeite' : 'Azeite + Zé Tona', r('fat_hob_azeite'), m('fat_hob_azeite'), 'fat')}
     </div>
 
     <div class="detail-card">
