@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/04/2026 15:00",
+  "atualizado_em": "07/04/2026 15:10",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -37296,6 +37296,158 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "COQUETEL PINK MOON 12X600ML - PET",
+          "qt": 2,
+          "valor": 149.8
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
+          "qt": 3,
+          "valor": 262.8
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "WHISKY JACK DANIELS  700ML",
+          "qt": 1,
+          "valor": 104.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 700ML",
+          "qt": 1,
+          "valor": 99.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "WHISKY JACK DANIELS HONEY 700ML",
+          "qt": 1,
+          "valor": 104.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 750ML",
+          "qt": 1,
+          "valor": 138.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "qt": 1,
+          "valor": 84.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 4,
+          "valor": 131.6
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "qt": 4,
+          "valor": 90.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "SMIRNOFF ICE 24 UNIDADES (LATA) 24X269ML",
+          "qt": 1,
+          "valor": 104.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "SMIRNOFF ICE GREEN APPLE (LATA) 24X269ML",
+          "qt": 1,
+          "valor": 104.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "SMIRNOFF ICE TROPICAL (LATA) 24X269ML",
+          "qt": 1,
+          "valor": 104.9
+        },
+        {
           "data": "02/04/2026",
           "codcli": "2454",
           "cliente": "POSTO DE GASOLINA GUADIANA LTDA",
@@ -37750,6 +37902,102 @@ const VENDAS_DATA = {
           "produto": "GUARAVITON GINSENG 12X500ML",
           "qt": 1,
           "valor": 26.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82967",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "qt": 1,
+          "valor": 84.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82967",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82967",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "produto": "VINHO CAB.SAUVIG QUINTA DO MORGADO 750ML",
+          "qt": 3,
+          "valor": 62.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82967",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "produto": "VINHO BORDO QUINTA DO MORGADO 1LT",
+          "qt": 1,
+          "valor": 19.49
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82967",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 5,
+          "valor": 144.5
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82967",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 209.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82967",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 3,
+          "valor": 65.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82967",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82967",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82967",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82967",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 750ML",
+          "qt": 2,
+          "valor": 137.8
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82967",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 1,
+          "valor": 79.9
         },
         {
           "data": "01/04/2026",
@@ -76240,6 +76488,70 @@ const VENDAS_DATA = {
           "produto": "GIN GORDONS 750 ML",
           "qt": 3,
           "valor": 190.5
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "WHISKY BUCHANAN'S 18 YEARS - 750ML",
+          "qt": 1,
+          "valor": 599.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 30,
+          "valor": 828.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "qt": 6,
+          "valor": 165.6
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "qt": 1,
+          "valor": 162.9
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 1,
+          "valor": 33.0
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "qt": 3,
+          "valor": 689.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "qt": 3,
+          "valor": 305.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "qt": 3,
+          "valor": 209.7
         },
         {
           "data": "01/04/2026",
