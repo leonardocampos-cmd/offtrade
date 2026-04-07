@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/04/2026 11:00",
+  "atualizado_em": "07/04/2026 11:10",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -92310,7 +92310,7 @@ const VENDAS_DATA = {
           "valor": 134.93
         },
         {
-          "data": "01/04/2026",
+          "data": "07/04/2026",
           "codcli": "94276",
           "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
           "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
@@ -92318,7 +92318,7 @@ const VENDAS_DATA = {
           "valor": 570.36
         },
         {
-          "data": "01/04/2026",
+          "data": "07/04/2026",
           "codcli": "94276",
           "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
@@ -92326,7 +92326,7 @@ const VENDAS_DATA = {
           "valor": 588.0
         },
         {
-          "data": "01/04/2026",
+          "data": "07/04/2026",
           "codcli": "94276",
           "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
@@ -92334,7 +92334,7 @@ const VENDAS_DATA = {
           "valor": 588.0
         },
         {
-          "data": "01/04/2026",
+          "data": "07/04/2026",
           "codcli": "94276",
           "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
           "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
@@ -92342,7 +92342,7 @@ const VENDAS_DATA = {
           "valor": 588.0
         },
         {
-          "data": "01/04/2026",
+          "data": "07/04/2026",
           "codcli": "94276",
           "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
           "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
@@ -92350,7 +92350,7 @@ const VENDAS_DATA = {
           "valor": 570.36
         },
         {
-          "data": "01/04/2026",
+          "data": "07/04/2026",
           "codcli": "94276",
           "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
           "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
