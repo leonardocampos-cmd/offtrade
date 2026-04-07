@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/04/2026 10:01",
+  "atualizado_em": "07/04/2026 11:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -77652,22 +77652,6 @@ const VENDAS_DATA = {
           "valor": 960.0
         },
         {
-          "data": "27/03/2026",
-          "codcli": "2909",
-          "cliente": "SUPERMERCADOS FEIRA NOVA LTDA",
-          "produto": "RUM MALIBU 750 ML",
-          "qt": 24,
-          "valor": 1058.4
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "2909",
-          "cliente": "SUPERMERCADOS FEIRA NOVA LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "qt": 36,
-          "valor": 968.4
-        },
-        {
           "data": "23/03/2026",
           "codcli": "5241",
           "cliente": "A SILVA JUNIOR LIQUIDOS E COMESTIVEIS FINOS - EPP",
@@ -122958,16 +122942,6 @@ const VENDAS_DATA = {
           "produto": "WHISKY JIM BEAM APPLE 1L",
           "qt": 660,
           "valor": 63294.0
-        }
-      ],
-      "Abr/26": [
-        {
-          "data": "04/04/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "AGUA NA CAIXA 12X500ML",
-          "qt": 686,
-          "valor": 31199.28
         }
       ]
     },
