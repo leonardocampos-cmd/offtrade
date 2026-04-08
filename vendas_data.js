@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/04/2026 10:00",
+  "atualizado_em": "08/04/2026 11:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -104544,6 +104544,78 @@ const VENDAS_DATA = {
           "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
           "qt": 1,
           "valor": 298.8
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "86429",
+          "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "qt": 24,
+          "valor": 547.68
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "86429",
+          "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV.",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "86429",
+          "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "86429",
+          "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
+          "produto": "ESPUMANTE ALUD ROSE 750ML",
+          "qt": 24,
+          "valor": 621.6
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "86429",
+          "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "86429",
+          "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
+          "qt": 12,
+          "valor": 286.8
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "86429",
+          "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "qt": 12,
+          "valor": 273.84
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "86429",
+          "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "qt": 12,
+          "valor": 273.84
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "86429",
+          "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "qt": 12,
+          "valor": 286.8
         },
         {
           "data": "01/04/2026",
