@@ -1063,6 +1063,7 @@ const CAMPANHAS = [
         campo: 'fat_pinatti',
         tipo: 'fat',
         gatilho: 15000,
+        tipo_premio: 'ranking',
         premios: [300, 200, 100],
         min_participar: null,
       },
@@ -1071,152 +1072,221 @@ const CAMPANHAS = [
         campo: 'pos_pinatti',
         tipo: 'pos',
         gatilho: 60,
+        tipo_premio: 'ranking',
         premios: [300, 200, 100],
         min_participar: 10,
       },
     ],
   },
+  {
+    nome: 'Campanha MOVING',
+    mes: 'Abr/26',
+    metricas: [
+      {
+        nome: 'Faturamento MOVING',
+        campo: 'fat_moving',
+        tipo: 'fat',
+        gatilho: 127000,
+        tipo_premio: 'pct_meta',
+        premio_pct: 5,
+        metas_individuais: {
+          '156': 35000,
+          '275': 7000,
+          '431': 18000,
+          '144': 2000,
+          '378': 10000,
+          '412': 5000,
+          '153': 9000,
+          '238': 6000,
+          '419': 7000,
+          '439': 5000,
+          '417': 7000,
+          '379': 5000,
+          '450': 5000,
+          '471': 3000,
+          '158': 3000,
+        },
+        min_participar: null,
+      },
+    ],
+  },
 ];
 
-function buildCampanha(mes) {
-  const camp = CAMPANHAS.find(c => c.mes === mes);
-  if (!camp) return '';
-
-  const medals = ['🥇', '🥈', '🥉'];
-  const vendedores = METAS_DATA.vendedores;
-
-  const cols = camp.metricas.map(m => {
-    // Totais da equipe
-    const totalEquipe = vendedores.reduce((acc, v) => {
-      const pm = _pm(v, mes);
-      return acc + _mv(pm, m.campo, 'realizado');
-    }, 0);
-
-    const gatilhoOk = totalEquipe >= m.gatilho;
-
-    // Barra de progresso equipe
-    const p = Math.min((totalEquipe / m.gatilho) * 100, 100);
-    const cls = p >= 100 ? 'green' : p >= 70 ? 'yellow' : 'red';
-    const gatilhoLabel = m.tipo === 'fat' ? fmtFat(m.gatilho) : fmtPos(m.gatilho);
-    const totalLabel   = m.tipo === 'fat' ? fmtFat(totalEquipe) : fmtPos(totalEquipe);
-
-    const barHtml = `
-      <div class="campanha-gatilho-bar">
-        <div class="campanha-gatilho-label">
-          <span class="campanha-gatilho-txt">Equipe: ${totalLabel} / ${gatilhoLabel}</span>
-          ${gatilhoOk ? '<span class="campanha-gatilho-ok">Gatilho atingido</span>' : `<span class="campanha-gatilho-val pct-${cls}">${p.toFixed(0)}%</span>`}
-        </div>
-        <div class="bar-bg">
-          <div class="bar-fill bar-${cls}" style="width:${p}%"></div>
-        </div>
-      </div>`;
-
-    // Ranking individual
-    let participantes = vendedores.map(v => {
-      const pm = _pm(v, mes);
-      return { nome: v.nome, val: _mv(pm, m.campo, 'realizado') };
-    });
-
-    if (m.min_participar !== null) {
-      participantes = participantes.filter(p => p.val >= m.min_participar);
-    }
-
-    participantes.sort((a, b) => b.val - a.val);
-
-    const rankHtml = participantes.length === 0
-      ? `<div class="campanha-rank-fora">Nenhum vendedor atingiu o mínimo de ${m.min_participar} PDVs.</div>`
-      : participantes.slice(0, 3).map((p, i) => {
-          const prizeVal = m.premios[i] || null;
-          const valFmt   = m.tipo === 'fat' ? fmtFat(p.val) : fmtPos(p.val);
-          return `
-          <div class="campanha-ranking-row">
-            <span class="campanha-medal">${medals[i]}</span>
-            <span class="campanha-rank-nome">${p.nome}</span>
-            <span class="campanha-rank-val">${valFmt}</span>
-            ${prizeVal ? `<span class="campanha-rank-prize">R$\u00a0${prizeVal}</span>` : ''}
-          </div>`;
-        }).join('');
-
-    return `
-      <div>
-        <div class="campanha-col-title">${m.nome}</div>
-        ${barHtml}
-        <div class="campanha-ranking">${rankHtml}</div>
-      </div>`;
-  }).join('');
-
+function _campanhaGatilhoBar(totalEquipe, m) {
+  const p   = Math.min((totalEquipe / m.gatilho) * 100, 100);
+  const cls = p >= 100 ? 'green' : p >= 70 ? 'yellow' : 'red';
+  const gatilhoLabel = m.tipo === 'fat' ? fmtFat(m.gatilho) : fmtPos(m.gatilho);
+  const totalLabel   = m.tipo === 'fat' ? fmtFat(totalEquipe) : fmtPos(totalEquipe);
+  const gatilhoOk    = totalEquipe >= m.gatilho;
   return `
-    <div class="campanha-card">
-      <div class="campanha-header">
-        <span class="campanha-badge">Campanha</span>
-        <span class="campanha-nome">${camp.nome}</span>
+    <div class="campanha-gatilho-bar">
+      <div class="campanha-gatilho-label">
+        <span class="campanha-gatilho-txt">Equipe: ${totalLabel} / ${gatilhoLabel}</span>
+        ${gatilhoOk ? '<span class="campanha-gatilho-ok">Gatilho atingido</span>' : `<span class="campanha-gatilho-val pct-${cls}">${p.toFixed(0)}%</span>`}
       </div>
-      <div class="campanha-cols">${cols}</div>
+      <div class="bar-bg">
+        <div class="bar-fill bar-${cls}" style="width:${p}%"></div>
+      </div>
     </div>`;
 }
 
-function buildCampanhaDetail(v, mes) {
-  const camp = CAMPANHAS.find(c => c.mes === mes);
-  if (!camp) return '';
+function buildCampanha(mes) {
+  const camps = CAMPANHAS.filter(c => c.mes === mes);
+  if (!camps.length) return '';
 
   const medals = ['🥇', '🥈', '🥉'];
   const vendedores = METAS_DATA.vendedores;
 
-  const rows = camp.metricas.map(m => {
-    const pm  = _pm(v, mes);
-    const val = _mv(pm, m.campo, 'realizado');
+  return camps.map(camp => {
+    const cols = camp.metricas.map(m => {
+      const totalEquipe = vendedores.reduce((acc, v) => acc + _mv(_pm(v, mes), m.campo, 'realizado'), 0);
+      const gatilhoOk   = totalEquipe >= m.gatilho;
+      const barHtml     = _campanhaGatilhoBar(totalEquipe, m);
 
-    // Calcula total da equipe para verificar gatilho
-    const totalEquipe = vendedores.reduce((acc, vv) => acc + _mv(_pm(vv, mes), m.campo, 'realizado'), 0);
-    const gatilhoOk = totalEquipe >= m.gatilho;
+      let rankHtml = '';
 
-    let participantes = vendedores.map(vv => {
-      const ppm = _pm(vv, mes);
-      return { nome: vv.nome, val: _mv(ppm, m.campo, 'realizado') };
-    });
+      if (m.tipo_premio === 'ranking') {
+        let participantes = vendedores.map(v => ({
+          nome: v.nome,
+          val:  _mv(_pm(v, mes), m.campo, 'realizado'),
+        }));
+        if (m.min_participar !== null) participantes = participantes.filter(p => p.val >= m.min_participar);
+        participantes.sort((a, b) => b.val - a.val);
 
-    if (m.min_participar !== null) {
-      participantes = participantes.filter(p => p.val >= m.min_participar);
-    }
-    participantes.sort((a, b) => b.val - a.val);
+        rankHtml = participantes.length === 0
+          ? `<div class="campanha-rank-fora">Nenhum vendedor atingiu o mínimo de ${m.min_participar} PDVs.</div>`
+          : participantes.slice(0, 3).map((p, i) => {
+              const valFmt = m.tipo === 'fat' ? fmtFat(p.val) : fmtPos(p.val);
+              return `
+              <div class="campanha-ranking-row">
+                <span class="campanha-medal">${medals[i]}</span>
+                <span class="campanha-rank-nome">${p.nome}</span>
+                <span class="campanha-rank-val">${valFmt}</span>
+                ${m.premios[i] ? `<span class="campanha-rank-prize">R$\u00a0${m.premios[i]}</span>` : ''}
+              </div>`;
+            }).join('');
 
-    const pos = participantes.findIndex(p => p.nome === v.nome);
-    const valFmt = m.tipo === 'fat' ? fmtFat(val) : fmtPos(val);
+      } else if (m.tipo_premio === 'pct_meta') {
+        const rows = vendedores.map(v => {
+          const val      = _mv(_pm(v, mes), m.campo, 'realizado');
+          const metaInd  = (m.metas_individuais || {})[v.rca] || 0;
+          const pct_val  = metaInd > 0 ? Math.min((val / metaInd) * 100, 999) : 0;
+          const cls2     = pct_val >= 100 ? 'green' : pct_val >= 70 ? 'yellow' : 'red';
+          const atingiu  = val >= metaInd && metaInd > 0;
+          const premio   = atingiu && gatilhoOk ? (val * m.premio_pct / 100) : null;
+          return { nome: v.nome, val, metaInd, pct_val, cls2, atingiu, premio };
+        }).sort((a, b) => b.pct_val - a.pct_val);
 
-    let posicaoHtml;
-    if (m.min_participar !== null && val < m.min_participar) {
-      const falta = m.min_participar - val;
-      posicaoHtml = `<span class="campanha-rank-fora">Fora (mín. ${m.min_participar} — faltam ${falta})</span>`;
-    } else if (pos >= 0 && pos < 3) {
-      posicaoHtml = `<span style="font-weight:700">${medals[pos]} ${pos + 1}º lugar</span>`;
-    } else if (pos >= 0) {
-      posicaoHtml = `<span style="color:var(--muted)">${pos + 1}º lugar</span>`;
-    } else {
-      posicaoHtml = `<span class="campanha-rank-fora">Sem vendas Pinati</span>`;
-    }
+        rankHtml = `<div style="margin-top:8px">` + rows.map(r => {
+          const valFmt   = fmtFat(r.val);
+          const metaFmt  = fmtFat(r.metaInd);
+          const pctDisp  = r.pct_val > 999 ? '>999' : r.pct_val.toFixed(0);
+          const premioHtml = r.premio !== null
+            ? `<span class="campanha-rank-prize">R$\u00a0${r.premio.toLocaleString('pt-BR', {minimumFractionDigits:2,maximumFractionDigits:2})}</span>`
+            : `<span class="campanha-rank-val pct-${r.cls2}">${pctDisp}%</span>`;
+          return `
+          <div class="campanha-ranking-row">
+            <span class="campanha-medal">${r.atingiu ? '✅' : '　'}</span>
+            <span class="campanha-rank-nome">${r.nome}</span>
+            <span class="campanha-rank-val" style="font-size:0.72rem">${valFmt} / ${metaFmt}</span>
+            ${premioHtml}
+          </div>`;
+        }).join('') + `</div>`;
+      }
 
-    // Prêmio só aparece se gatilho ativado e vendedor está no top 3
-    const gatilhoTag = gatilhoOk
-      ? `<span style="font-size:0.65rem;font-weight:700;background:var(--green);color:#000;border-radius:4px;padding:1px 6px;margin-left:6px">GATILHO: ATIVADO</span>`
-      : `<span style="font-size:0.65rem;font-weight:700;background:var(--red);color:#fff;border-radius:4px;padding:1px 6px;margin-left:6px">GATILHO: DESATIVADO</span>`;
+      return `
+        <div>
+          <div class="campanha-col-title">${m.nome}</div>
+          ${barHtml}
+          <div class="campanha-ranking">${rankHtml}</div>
+        </div>`;
+    }).join('');
 
-    let premioHtml = '';
-    if (gatilhoOk && pos >= 0 && pos < 3) {
-      premioHtml = `<span class="campanha-rank-prize" style="margin-left:6px">R$\u00a0${m.premios[pos]}</span>`;
-    }
-
+    const colsClass = camp.metricas.length === 1 ? '' : 'campanha-cols';
     return `
-      <div class="campanha-detail-row">
-        <span style="color:var(--muted)">${m.nome}: <strong style="color:var(--text)">${valFmt}</strong></span>
-        <span style="display:flex;align-items:center;gap:4px;flex-wrap:wrap;justify-content:flex-end">${posicaoHtml}${premioHtml}${gatilhoTag}</span>
+      <div class="campanha-card">
+        <div class="campanha-header">
+          <span class="campanha-badge">Campanha</span>
+          <span class="campanha-nome">${camp.nome}</span>
+        </div>
+        <div class="${colsClass}">${cols}</div>
       </div>`;
   }).join('');
+}
 
-  return `
-    <div class="campanha-detail-box">
-      <div class="campanha-detail-title">Campanha Pinati - Abril</div>
-      ${rows}
-    </div>`;
+function buildCampanhaDetail(v, mes) {
+  const camps = CAMPANHAS.filter(c => c.mes === mes);
+  if (!camps.length) return '';
+
+  const medals    = ['🥇', '🥈', '🥉'];
+  const vendedores = METAS_DATA.vendedores;
+
+  return camps.map(camp => {
+    const rows = camp.metricas.map(m => {
+      const val        = _mv(_pm(v, mes), m.campo, 'realizado');
+      const totalEquipe = vendedores.reduce((acc, vv) => acc + _mv(_pm(vv, mes), m.campo, 'realizado'), 0);
+      const gatilhoOk  = totalEquipe >= m.gatilho;
+      const valFmt     = m.tipo === 'fat' ? fmtFat(val) : fmtPos(val);
+
+      const gatilhoTag = gatilhoOk
+        ? `<span style="font-size:0.65rem;font-weight:700;background:var(--green);color:#000;border-radius:4px;padding:1px 6px">GATILHO: ATIVADO</span>`
+        : `<span style="font-size:0.65rem;font-weight:700;background:var(--red);color:#fff;border-radius:4px;padding:1px 6px">GATILHO: DESATIVADO</span>`;
+
+      let posicaoHtml = '';
+      let premioHtml  = '';
+
+      if (m.tipo_premio === 'ranking') {
+        let participantes = vendedores.map(vv => ({
+          nome: vv.nome, val: _mv(_pm(vv, mes), m.campo, 'realizado'),
+        }));
+        if (m.min_participar !== null) participantes = participantes.filter(p => p.val >= m.min_participar);
+        participantes.sort((a, b) => b.val - a.val);
+        const pos = participantes.findIndex(p => p.nome === v.nome);
+
+        if (m.min_participar !== null && val < m.min_participar) {
+          posicaoHtml = `<span class="campanha-rank-fora">Fora (mín. ${m.min_participar} — faltam ${m.min_participar - val})</span>`;
+        } else if (pos >= 0 && pos < 3) {
+          posicaoHtml = `<span style="font-weight:700">${medals[pos]} ${pos + 1}º lugar</span>`;
+          if (gatilhoOk) premioHtml = `<span class="campanha-rank-prize">R$\u00a0${m.premios[pos]}</span>`;
+        } else if (pos >= 0) {
+          posicaoHtml = `<span style="color:var(--muted)">${pos + 1}º lugar</span>`;
+        } else {
+          posicaoHtml = `<span class="campanha-rank-fora">Sem vendas</span>`;
+        }
+
+      } else if (m.tipo_premio === 'pct_meta') {
+        const metaInd = (m.metas_individuais || {})[v.rca] || 0;
+        const pct_val = metaInd > 0 ? (val / metaInd) * 100 : 0;
+        const pctDisp = pct_val > 999 ? '>999' : pct_val.toFixed(0);
+        const cls2    = pct_val >= 100 ? 'green' : pct_val >= 70 ? 'yellow' : 'red';
+        const atingiu = val >= metaInd && metaInd > 0;
+
+        posicaoHtml = metaInd === 0
+          ? `<span class="campanha-rank-fora">Sem meta definida</span>`
+          : `<span class="campanha-rank-val">${fmtFat(val)} / ${fmtFat(metaInd)}</span>
+             <span class="metric-pct pct-${cls2}" style="font-size:0.75rem">${pctDisp}%</span>`;
+
+        if (atingiu && gatilhoOk) {
+          const premio = val * m.premio_pct / 100;
+          premioHtml = `<span class="campanha-rank-prize">R$\u00a0${premio.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>`;
+        }
+      }
+
+      return `
+        <div class="campanha-detail-row">
+          <span style="color:var(--muted);font-size:0.78rem">${m.nome}</span>
+          <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
+            ${posicaoHtml}${premioHtml ? premioHtml : ''}${gatilhoTag}
+          </span>
+        </div>`;
+    }).join('');
+
+    return `
+      <div class="campanha-detail-box">
+        <div class="campanha-detail-title">${camp.nome}</div>
+        ${rows}
+      </div>`;
+  }).join('');
 }
 
 function _buildCards(vendedores, mes) {
