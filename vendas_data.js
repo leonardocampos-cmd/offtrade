@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/04/2026 11:00",
+  "atualizado_em": "08/04/2026 12:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -31342,54 +31342,6 @@ const VENDAS_DATA = {
           "valor": 109.5
         },
         {
-          "data": "31/03/2026",
-          "codcli": "3471",
-          "cliente": "POSTO JARDIM OCEANICO LTDA",
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "qt": 5,
-          "valor": 144.5
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "3471",
-          "cliente": "POSTO JARDIM OCEANICO LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 15,
-          "valor": 313.5
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "3471",
-          "cliente": "POSTO JARDIM OCEANICO LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-          "qt": 10,
-          "valor": 199.0
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "3471",
-          "cliente": "POSTO JARDIM OCEANICO LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 3,
-          "valor": 80.7
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "3471",
-          "cliente": "POSTO JARDIM OCEANICO LTDA",
-          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
-          "qt": 2,
-          "valor": 43.8
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "3471",
-          "cliente": "POSTO JARDIM OCEANICO LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 3,
-          "valor": 65.7
-        },
-        {
           "data": "09/03/2026",
           "codcli": "3551",
           "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
@@ -51428,14 +51380,6 @@ const VENDAS_DATA = {
           "produto": "NECTAR LARANJA TIAL 12X250ML",
           "qt": 1,
           "valor": 34.42
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "93630",
-          "cliente": "ATLM BANGU COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "qt": 1,
-          "valor": 119.9
         },
         {
           "data": "01/04/2026",
@@ -104888,86 +104832,6 @@ const VENDAS_DATA = {
           "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
           "qt": 2,
           "valor": 119.76
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "94281",
-          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "94281",
-          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "94281",
-          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "94281",
-          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 12,
-          "valor": 270.0
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "94281",
-          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "qt": 12,
-          "valor": 270.0
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "94281",
-          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
-          "produto": "GIN ROCKS 1000ML",
-          "qt": 6,
-          "valor": 135.0
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "94281",
-          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
-          "produto": "WHISKY BLACK STONE 1LT",
-          "qt": 12,
-          "valor": 150.48
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "94281",
-          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
-          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-          "qt": 6,
-          "valor": 107.4
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "94281",
-          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 12,
-          "valor": 140.4
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "94281",
-          "cliente": "SUPERMERCADOS RIO SUL DE QUEIMADOS LTDA",
-          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-          "qt": 1,
-          "valor": 76.74
         }
       ]
     },
@@ -125260,38 +125124,6 @@ const VENDAS_DATA = {
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "qt": 1,
           "valor": 94.7
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "91674",
-          "cliente": "ANTONIO PEREIRA DA PENHA 28583493391",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "91674",
-          "cliente": "ANTONIO PEREIRA DA PENHA 28583493391",
-          "produto": "4 PACK RED BULL ZERO",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "91674",
-          "cliente": "ANTONIO PEREIRA DA PENHA 28583493391",
-          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "91674",
-          "cliente": "ANTONIO PEREIRA DA PENHA 28583493391",
-          "produto": "4 PACK RED BULL MELANCIA",
-          "qt": 1,
-          "valor": 27.56
         },
         {
           "data": "20/03/2026",
