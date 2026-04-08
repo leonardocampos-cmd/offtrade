@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/04/2026 12:00",
+  "atualizado_em": "08/04/2026 13:31",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -119844,6 +119844,62 @@ const VENDAS_DATA = {
           "valor": 59.88
         },
         {
+          "data": "08/04/2026",
+          "codcli": "82050",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 750 ML",
+          "qt": 6,
+          "valor": 701.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "82050",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 6,
+          "valor": 101.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "82050",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "valor": 215.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "82050",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 6,
+          "valor": 137.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "82050",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 6,
+          "valor": 137.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "82050",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 12,
+          "valor": 149.88
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "82050",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "produto": "RED BULL 24X250ML",
+          "qt": 3,
+          "valor": 503.28
+        },
+        {
           "data": "01/04/2026",
           "codcli": "90148",
           "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
@@ -124120,6 +124176,14 @@ const VENDAS_DATA = {
           "produto": "YVY DESTILADO GIN MAR 750ML",
           "qt": 42,
           "valor": 2058.0
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "AGUA NA CAIXA 12X500ML",
+          "qt": 3600,
+          "valor": 163728.0
         }
       ]
     },
