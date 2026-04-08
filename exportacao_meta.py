@@ -117,7 +117,7 @@ def coalesce(row, *keys):
 
 def _realizado_mes(df):
     """Calcula todas as métricas realizadas a partir de um subset de _vh."""
-    _zero = dict(fat_tt=0.0, fat_castas=0.0, fat_domecq_passport=0.0, fat_hob_azeite=0.0,
+    _zero = dict(fat_tt=0.0, fat_castas=0.0, fat_domecq_passport=0.0, fat_hob_azeite=0.0, fat_pinatti=0.0,
                  pos_tt=0, pos_hob_azeite=0, pos_reckit=0, pos_crusoe=0,
                  pos_tatuzinho=0, pos_redbull=0, pos_pinatti=0)
     if df.empty:
@@ -136,6 +136,7 @@ def _realizado_mes(df):
         'fat_castas':          fat(df['FANTASIA'].str.contains('castas', case=False, na=False)),
         'fat_domecq_passport': fat(df['PRODUTO'].str.contains('DOMECQ|PASSPORT', case=False, na=False)),
         'fat_hob_azeite':      fat(df['PRODUTO'].str.contains('AZEITE', case=False, na=False) | df['FANTASIA'].str.contains('HOB', case=False, na=False)),
+        'fat_pinatti':         fat(df['FANTASIA'].str.contains('PINATI', case=False, na=False)),
         'pos_tt':              pos(),
         'pos_hob_azeite':      pos(df['PRODUTO'].str.contains('AZEITE', case=False, na=False) | df['FANTASIA'].str.contains('HOB', case=False, na=False)),
         'pos_reckit':          pos(df['FANTASIA'].str.contains('RECKIT', case=False, na=False)),
@@ -283,6 +284,7 @@ for _, m in metas_com_nome.iterrows():
         'fat_castas':          {'meta': safe_float(m.get('FAT CASTAS')),                'realizado': real['fat_castas']},
         'fat_domecq_passport': {'meta': safe_float(m.get('FAT. DOMEQ + PASSPORT')),                                                          'realizado': real['fat_domecq_passport']},
         'fat_hob_azeite':      {'meta': safe_float(coalesce(m, 'FATURAMENTO AZEITE + ZE TONA', 'FATURAMENTO HOB + AZEITE')), 'realizado': real['fat_hob_azeite']},
+        'fat_pinatti':         {'meta': 0,                                              'realizado': real['fat_pinatti']},
         'pos_tt':              {'meta': safe_int(m.get('POSITIVAÇÃO TT')),              'realizado': real['pos_tt']},
         'pos_hob_azeite':      {'meta': safe_int(m.get('POSITIVAÇÃO HOB + AZEITE')),    'realizado': real['pos_hob_azeite']},
         'pos_reckit':          {'meta': safe_int(m.get('POSITIVAÇÃO RECKIT')),          'realizado': real['pos_reckit']},
