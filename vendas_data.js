@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/04/2026 14:53",
+  "atualizado_em": "08/04/2026 15:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -38422,6 +38422,38 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
           "qt": 4,
           "valor": 115.6
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "84747",
+          "cliente": "INOVA CONVENIENCIA LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "qt": 2,
+          "valor": 49.8
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "84747",
+          "cliente": "INOVA CONVENIENCIA LTDA",
+          "produto": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+          "qt": 2,
+          "valor": 68.04
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "84747",
+          "cliente": "INOVA CONVENIENCIA LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 2,
+          "valor": 119.8
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "84747",
+          "cliente": "INOVA CONVENIENCIA LTDA",
+          "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
+          "qt": 2,
+          "valor": 67.8
         },
         {
           "data": "01/04/2026",
@@ -78806,6 +78838,22 @@ const VENDAS_DATA = {
           "produto": "VILLA ROSA TINTO 750ML",
           "qt": 1,
           "valor": 22.5
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "86115",
+          "cliente": "MINIMERCADO ALFERES LTDA",
+          "produto": "BALLANTINES SUNSHINE 700ML",
+          "qt": 6,
+          "valor": 312.0
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "86115",
+          "cliente": "MINIMERCADO ALFERES LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "qt": 1,
+          "valor": 68.4
         },
         {
           "data": "01/04/2026",
