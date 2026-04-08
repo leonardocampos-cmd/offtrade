@@ -1166,6 +1166,10 @@ function buildCampanhaDetail(v, mes) {
     const pm  = _pm(v, mes);
     const val = _mv(pm, m.campo, 'realizado');
 
+    // Calcula total da equipe para verificar gatilho
+    const totalEquipe = vendedores.reduce((acc, vv) => acc + _mv(_pm(vv, mes), m.campo, 'realizado'), 0);
+    const gatilhoOk = totalEquipe >= m.gatilho;
+
     let participantes = vendedores.map(vv => {
       const ppm = _pm(vv, mes);
       return { nome: vv.nome, val: _mv(ppm, m.campo, 'realizado') };
@@ -1179,23 +1183,32 @@ function buildCampanhaDetail(v, mes) {
     const pos = participantes.findIndex(p => p.nome === v.nome);
     const valFmt = m.tipo === 'fat' ? fmtFat(val) : fmtPos(val);
 
-    let statusHtml;
+    let posicaoHtml;
     if (m.min_participar !== null && val < m.min_participar) {
       const falta = m.min_participar - val;
-      statusHtml = `<span class="campanha-rank-fora">Fora (mín. ${m.min_participar} — faltam ${falta})</span>`;
+      posicaoHtml = `<span class="campanha-rank-fora">Fora (mín. ${m.min_participar} — faltam ${falta})</span>`;
     } else if (pos >= 0 && pos < 3) {
-      const prize = m.premios[pos];
-      statusHtml = `<span style="font-weight:700">${medals[pos]} ${pos + 1}º lugar</span> <span class="campanha-rank-prize" style="margin-left:6px">R$\u00a0${prize}</span>`;
+      posicaoHtml = `<span style="font-weight:700">${medals[pos]} ${pos + 1}º lugar</span>`;
     } else if (pos >= 0) {
-      statusHtml = `<span style="color:var(--muted)">${pos + 1}º lugar</span>`;
+      posicaoHtml = `<span style="color:var(--muted)">${pos + 1}º lugar</span>`;
     } else {
-      statusHtml = `<span class="campanha-rank-fora">Sem vendas Pinati</span>`;
+      posicaoHtml = `<span class="campanha-rank-fora">Sem vendas Pinati</span>`;
+    }
+
+    // Prêmio só aparece se gatilho ativado e vendedor está no top 3
+    const gatilhoTag = gatilhoOk
+      ? `<span style="font-size:0.65rem;font-weight:700;background:var(--green);color:#000;border-radius:4px;padding:1px 6px;margin-left:6px">GATILHO: ATIVADO</span>`
+      : `<span style="font-size:0.65rem;font-weight:700;background:var(--red);color:#fff;border-radius:4px;padding:1px 6px;margin-left:6px">GATILHO: DESATIVADO</span>`;
+
+    let premioHtml = '';
+    if (gatilhoOk && pos >= 0 && pos < 3) {
+      premioHtml = `<span class="campanha-rank-prize" style="margin-left:6px">R$\u00a0${m.premios[pos]}</span>`;
     }
 
     return `
       <div class="campanha-detail-row">
         <span style="color:var(--muted)">${m.nome}: <strong style="color:var(--text)">${valFmt}</strong></span>
-        <span>${statusHtml}</span>
+        <span style="display:flex;align-items:center;gap:4px;flex-wrap:wrap;justify-content:flex-end">${posicaoHtml}${premioHtml}${gatilhoTag}</span>
       </div>`;
   }).join('');
 
