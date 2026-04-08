@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "08/04/2026 14:01",
+  "atualizado_em": "08/04/2026 14:34",
   "meses": [
     "Abr/26",
     "Mar/26"
@@ -27,6 +27,10 @@ const METAS_DATA = {
           "fat_hob_azeite": {
             "meta": 8000.0,
             "realizado": 179.4
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
           },
           "pos_tt": {
             "meta": 15,
@@ -72,6 +76,10 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 3000.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
             "realizado": 0.0
           },
           "pos_tt": {
@@ -646,6 +654,10 @@ const METAS_DATA = {
             "meta": 1000.0,
             "realizado": 0.0
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 356.88
+          },
           "pos_tt": {
             "meta": 100,
             "realizado": 91
@@ -690,6 +702,10 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 500.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
             "realizado": 0.0
           },
           "pos_tt": {
@@ -4740,6 +4756,10 @@ const METAS_DATA = {
             "meta": 2000.0,
             "realizado": 0.0
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 524.18
+          },
           "pos_tt": {
             "meta": 65,
             "realizado": 49
@@ -4785,6 +4805,10 @@ const METAS_DATA = {
           "fat_hob_azeite": {
             "meta": 500.0,
             "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 491.06
           },
           "pos_tt": {
             "meta": 65,
@@ -6712,6 +6736,10 @@ const METAS_DATA = {
             "meta": 6000.0,
             "realizado": 1590.0
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
           "pos_tt": {
             "meta": 50,
             "realizado": 48
@@ -6757,6 +6785,10 @@ const METAS_DATA = {
           "fat_hob_azeite": {
             "meta": 3000.0,
             "realizado": 705.6
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
           },
           "pos_tt": {
             "meta": 50,
@@ -9002,6 +9034,10 @@ const METAS_DATA = {
             "meta": 7000.0,
             "realizado": 0.0
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
           "pos_tt": {
             "meta": 10,
             "realizado": 12
@@ -9046,6 +9082,10 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 3000.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
             "realizado": 0.0
           },
           "pos_tt": {
@@ -9507,6 +9547,10 @@ const METAS_DATA = {
             "meta": 5000.0,
             "realizado": 0.0
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
           "pos_tt": {
             "meta": 20,
             "realizado": 41
@@ -9551,6 +9595,10 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 3000.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
             "realizado": 0.0
           },
           "pos_tt": {
@@ -10327,6 +10375,10 @@ const METAS_DATA = {
             "meta": 3000.0,
             "realizado": 1398.0
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 849.8
+          },
           "pos_tt": {
             "meta": 50,
             "realizado": 42
@@ -10372,6 +10424,10 @@ const METAS_DATA = {
           "fat_hob_azeite": {
             "meta": 3000.0,
             "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 86.4
           },
           "pos_tt": {
             "meta": 50,
@@ -11997,6 +12053,10 @@ const METAS_DATA = {
             "meta": 1000.0,
             "realizado": 2473.8
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
           "pos_tt": {
             "meta": 25,
             "realizado": 27
@@ -12041,6 +12101,10 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 3000.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
             "realizado": 0.0
           },
           "pos_tt": {
@@ -13811,6 +13875,10 @@ const METAS_DATA = {
             "meta": 3000.0,
             "realizado": 286.8
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
           "pos_tt": {
             "meta": 7,
             "realizado": 12
@@ -13855,6 +13923,10 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 3000.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
             "realizado": 0.0
           },
           "pos_tt": {
@@ -14259,6 +14331,10 @@ const METAS_DATA = {
             "meta": 5000.0,
             "realizado": 1493.9
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
           "pos_tt": {
             "meta": 35,
             "realizado": 45
@@ -14303,6 +14379,10 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 3000.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
             "realizado": 0.0
           },
           "pos_tt": {
@@ -15385,6 +15465,10 @@ const METAS_DATA = {
             "meta": 5000.0,
             "realizado": 298.8
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 181.6
+          },
           "pos_tt": {
             "meta": 15,
             "realizado": 22
@@ -15429,6 +15513,10 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 3000.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
             "realizado": 0.0
           },
           "pos_tt": {
@@ -16027,6 +16115,10 @@ const METAS_DATA = {
             "meta": 0.0,
             "realizado": 0.0
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
           "pos_tt": {
             "meta": 0,
             "realizado": 0
@@ -16071,6 +16163,10 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
             "realizado": 0.0
           },
           "pos_tt": {
@@ -16135,6 +16231,10 @@ const METAS_DATA = {
             "meta": 2000.0,
             "realizado": 0.0
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 2426.94
+          },
           "pos_tt": {
             "meta": 65,
             "realizado": 69
@@ -16180,6 +16280,10 @@ const METAS_DATA = {
           "fat_hob_azeite": {
             "meta": 500.0,
             "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 95.57
           },
           "pos_tt": {
             "meta": 69,
@@ -19028,6 +19132,10 @@ const METAS_DATA = {
             "meta": 1000.0,
             "realizado": 0.0
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 1417.09
+          },
           "pos_tt": {
             "meta": 65,
             "realizado": 64
@@ -19072,6 +19180,10 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 500.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
             "realizado": 0.0
           },
           "pos_tt": {
@@ -20776,6 +20888,10 @@ const METAS_DATA = {
             "meta": 1000.0,
             "realizado": 374.4
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 955.58
+          },
           "pos_tt": {
             "meta": 30,
             "realizado": 34
@@ -20821,6 +20937,10 @@ const METAS_DATA = {
           "fat_hob_azeite": {
             "meta": 500.0,
             "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 91.1
           },
           "pos_tt": {
             "meta": 50,
@@ -21492,6 +21612,10 @@ const METAS_DATA = {
             "meta": 0.0,
             "realizado": 0.0
           },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 704.94
+          },
           "pos_tt": {
             "meta": 30,
             "realizado": 26
@@ -21537,6 +21661,10 @@ const METAS_DATA = {
           "fat_hob_azeite": {
             "meta": 500.0,
             "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 1258.98
           },
           "pos_tt": {
             "meta": 50,
