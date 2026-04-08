@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/04/2026 15:00",
+  "atualizado_em": "08/04/2026 15:12",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -51412,6 +51412,46 @@ const VENDAS_DATA = {
           "produto": "NECTAR LARANJA TIAL 12X250ML",
           "qt": 1,
           "valor": 34.42
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "NECTAR LARANJA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "NECTAR PESSEGO TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 3,
+          "valor": 82.68
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+          "qt": 4,
+          "valor": 79.6
         },
         {
           "data": "01/04/2026",
@@ -135780,6 +135820,22 @@ const VENDAS_DATA = {
           "valor": 59.88
         },
         {
+          "data": "08/04/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 218.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "qt": 3,
+          "valor": 188.7
+        },
+        {
           "data": "01/04/2026",
           "codcli": "76017",
           "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
@@ -140534,6 +140590,38 @@ const VENDAS_DATA = {
           "valor": 129.9
         },
         {
+          "data": "08/04/2026",
+          "codcli": "76150",
+          "cliente": "M. VIDAL DE OLIVEIRA BEBIDAS",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "valor": 221.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "76150",
+          "cliente": "M. VIDAL DE OLIVEIRA BEBIDAS",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 6,
+          "valor": 221.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "76150",
+          "cliente": "M. VIDAL DE OLIVEIRA BEBIDAS",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "valor": 221.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "76150",
+          "cliente": "M. VIDAL DE OLIVEIRA BEBIDAS",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 6,
+          "valor": 419.4
+        },
+        {
           "data": "01/04/2026",
           "codcli": "74928",
           "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
@@ -140580,6 +140668,30 @@ const VENDAS_DATA = {
           "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "qt": 6,
           "valor": 209.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "93110",
+          "cliente": "PORTO MIX DISTRIBUIDORA DE BEBIDAS E CONVENIÊNCIA LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 6,
+          "valor": 419.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "93110",
+          "cliente": "PORTO MIX DISTRIBUIDORA DE BEBIDAS E CONVENIÊNCIA LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "qt": 6,
+          "valor": 455.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "93110",
+          "cliente": "PORTO MIX DISTRIBUIDORA DE BEBIDAS E CONVENIÊNCIA LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "qt": 2,
+          "valor": 325.8
         },
         {
           "data": "02/04/2026",
