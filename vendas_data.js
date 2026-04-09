@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/04/2026 09:11",
+  "atualizado_em": "09/04/2026 10:41",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -132670,158 +132670,6 @@ const VENDAS_DATA = {
           "valor": 69.5
         },
         {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "qt": 12,
-          "valor": 820.8
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "qt": 4,
-          "valor": 273.6
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "qt": 2,
-          "valor": 136.8
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "qt": 2,
-          "valor": 136.8
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VEJA AG MARANHENSES COCO MELAO 12X1L",
-          "qt": 2,
-          "valor": 163.59
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VEJA COZINHA SACHET LARANJA 12X400ML",
-          "qt": 2,
-          "valor": 182.16
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VEJA COZINHA SACHET LIMAO 12X400ML",
-          "qt": 2,
-          "valor": 182.04
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VEJA PESADA ORIGINAL OFESPC 24X500ML",
-          "qt": 2,
-          "valor": 340.8
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VEJA PESADA X14 PROMO 12X1L",
-          "qt": 2,
-          "valor": 298.8
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "KIT VANISH LIQ PINK1,5L+WHITE 1,5L 50%",
-          "qt": 10,
-          "valor": 855.0
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VANISH LIQUIDO PINK REFIL 12X500ML",
-          "qt": 10,
-          "valor": 666.0
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "HARPIC LIQUIDO CLORO 12X200ML ",
-          "qt": 2,
-          "valor": 116.08
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "HARPIC POWER PLUS MAR 750ML 36X25G",
-          "qt": 2,
-          "valor": 234.56
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "HARPIC CX ACOPLADA  1UN MARINE 24X50G",
-          "qt": 1,
-          "valor": 329.38
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VEJA CRISTAL SACHET 12X400ML",
-          "qt": 1,
-          "valor": 93.62
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VANISH PO PINK REFIL 24X400G",
-          "qt": 3,
-          "valor": 920.88
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "FINSH POWDER DETERGENTE EM PO 12X450G",
-          "qt": 1,
-          "valor": 295.0
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "VEJA BAN ANTIBAC GAT 30% DESC 12X500ML",
-          "qt": 1,
-          "valor": 212.1
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "qt": 5,
-          "valor": 1434.0
-        },
-        {
           "data": "04/03/2026",
           "codcli": "13729",
           "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
@@ -142356,46 +142204,6 @@ const VENDAS_DATA = {
           "produto": "NECTAR MANGA 12X1000ML",
           "qt": 2,
           "valor": 119.76
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "69400",
-          "cliente": "BOCARRA'S BAR LTDA",
-          "produto": "COMARY MELFORT COQUETEL DE MEL 1L",
-          "qt": 2,
-          "valor": 21.8
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "69400",
-          "cliente": "BOCARRA'S BAR LTDA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "qt": 2,
-          "valor": 41.8
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "69400",
-          "cliente": "BOCARRA'S BAR LTDA",
-          "produto": "CATUABA SELVAGEM 900ML",
-          "qt": 2,
-          "valor": 30.4
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "69400",
-          "cliente": "BOCARRA'S BAR LTDA",
-          "produto": "JURUBEBA DUNORTE VINHO COMPOSTO 900ML",
-          "qt": 2,
-          "valor": 41.18
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "69400",
-          "cliente": "BOCARRA'S BAR LTDA",
-          "produto": "PIRASSUNUNGA 51 600 ML",
-          "qt": 6,
-          "valor": 23.4
         },
         {
           "data": "08/04/2026",
