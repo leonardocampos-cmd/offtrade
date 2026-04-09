@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/04/2026 17:00",
+  "atualizado_em": "09/04/2026 17:10",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -39246,6 +39246,14 @@ const VENDAS_DATA = {
           "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
           "qt": 4,
           "valor": 143.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "93012",
+          "cliente": "ROOFTOP METROPOLITANO BAR E EVENTOS LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 5,
+          "valor": 99.5
         }
       ]
     },
@@ -79960,6 +79968,38 @@ const VENDAS_DATA = {
           "valor": 249.8
         },
         {
+          "data": "09/04/2026",
+          "codcli": "81847",
+          "cliente": "MERCADO ESPERANCA DE GUARATIBA LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "qt": 1,
+          "valor": 68.9
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "81847",
+          "cliente": "MERCADO ESPERANCA DE GUARATIBA LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "qt": 1,
+          "valor": 68.9
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "81847",
+          "cliente": "MERCADO ESPERANCA DE GUARATIBA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "qt": 2,
+          "valor": 137.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "81847",
+          "cliente": "MERCADO ESPERANCA DE GUARATIBA LTDA",
+          "produto": "VEJA ANTIBAC BANH SQ LAV PROMO 24X500ML",
+          "qt": 1,
+          "valor": 228.0
+        },
+        {
           "data": "02/04/2026",
           "codcli": "81424",
           "cliente": "MERCADO SALMOS 2 LTDA",
@@ -80208,6 +80248,62 @@ const VENDAS_DATA = {
           "valor": 294.0
         },
         {
+          "data": "09/04/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RED BULL 24X250ML",
+          "qt": 10,
+          "valor": 1659.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 180,
+          "valor": 4410.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 12,
+          "valor": 838.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "qt": 12,
+          "valor": 838.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 12,
+          "valor": 1798.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "COQUETEL PINK MOON 12X600ML - PET",
+          "qt": 10,
+          "valor": 749.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "qt": 1,
+          "valor": 68.9
+        },
+        {
           "data": "01/04/2026",
           "codcli": "85451",
           "cliente": "MERCEARIA LEAO FM LTDA",
@@ -80262,6 +80358,70 @@ const VENDAS_DATA = {
           "produto": "4 PACK RED BULL",
           "qt": 30,
           "valor": 826.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
+          "qt": 200,
+          "valor": 9500.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "BEEFEATER PINK 700ML",
+          "qt": 12,
+          "valor": 864.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "GIN BEEFEATER 750ML",
+          "qt": 12,
+          "valor": 864.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "qt": 5,
+          "valor": 829.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 24,
+          "valor": 837.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "qt": 12,
+          "valor": 1954.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "qt": 1,
+          "valor": 68.4
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "GIN MARINA 750ML",
+          "qt": 1,
+          "valor": 39.9
         },
         {
           "data": "01/04/2026",
@@ -141856,14 +142016,6 @@ const VENDAS_DATA = {
           "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "qt": 6,
           "valor": 209.4
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "qt": 5,
-          "valor": 699.5
         },
         {
           "data": "11/03/2026",
