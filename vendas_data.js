@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/04/2026 11:00",
+  "atualizado_em": "09/04/2026 13:34",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -41900,14 +41900,6 @@ const VENDAS_DATA = {
           "valor": 94.68
         },
         {
-          "data": "10/03/2026",
-          "codcli": "91525",
-          "cliente": "31.626.449 RAMON RAMOS FERNANDES",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 30,
-          "valor": 640.8
-        },
-        {
           "data": "12/03/2026",
           "codcli": "91525",
           "cliente": "31.626.449 RAMON RAMOS FERNANDES",
@@ -78198,22 +78190,6 @@ const VENDAS_DATA = {
           "valor": 108.0
         },
         {
-          "data": "27/03/2026",
-          "codcli": "81446",
-          "cliente": "REZENDE ALIMENTOS JPA LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "qt": 90,
-          "valor": 2961.0
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "81446",
-          "cliente": "REZENDE ALIMENTOS JPA LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 90,
-          "valor": 2961.0
-        },
-        {
           "data": "30/03/2026",
           "codcli": "81847",
           "cliente": "MERCADO ESPERANCA DE GUARATIBA LTDA",
@@ -100951,14 +100927,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "02/03/2026",
-          "codcli": "78215",
-          "cliente": "MERCADO CAMPEAO DO LAUREANO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 10,
-          "valor": 645.6
-        },
-        {
-          "data": "02/03/2026",
           "codcli": "78216",
           "cliente": "SUPERMERCADO RIO SUL DO GRAMACHO LTDA",
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
@@ -102902,206 +102870,6 @@ const VENDAS_DATA = {
           "valor": 266.4
         },
         {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "RUM MALIBU 750 ML",
-          "qt": 6,
-          "valor": 264.6
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 36,
-          "valor": 1256.4
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "qt": 18,
-          "valor": 628.2
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "qt": 6,
-          "valor": 136.92
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "VELHO BARREIRO CAFE  910 ML",
-          "qt": 6,
-          "valor": 103.68
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "qt": 6,
-          "valor": 136.92
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "RUM BACARDI MOJITO 700ML",
-          "qt": 12,
-          "valor": 299.64
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "KIT AMARULA COFFEE 750ML +1 COPO DUBAI",
-          "qt": 6,
-          "valor": 540.96
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "GIN ROCKS GREEN APPLE 1000ML",
-          "qt": 6,
-          "valor": 135.0
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "GIN MARINA BLACKBERRY 750ML",
-          "qt": 6,
-          "valor": 203.4
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "WHISKY BUCHANANS 12 YEARS 750 ML",
-          "qt": 12,
-          "valor": 1403.52
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "WHISKY JAMESON 750ML",
-          "qt": 12,
-          "valor": 874.68
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "GIN MARINA 750ML",
-          "qt": 6,
-          "valor": 203.4
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "GIN MARINA ROSE 750ML",
-          "qt": 6,
-          "valor": 203.4
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "RUM MONTILLA OURO 1000ML",
-          "qt": 12,
-          "valor": 245.4
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
-          "qt": 12,
-          "valor": 245.4
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "RUM MONTILLA CRISTAL 1000ML",
-          "qt": 12,
-          "valor": 245.4
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "VODKA NATASHA 900ML",
-          "qt": 48,
-          "valor": 576.0
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 12,
-          "valor": 270.0
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "qt": 12,
-          "valor": 270.0
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "GIN ROCKS SUNSET 1000ML",
-          "qt": 6,
-          "valor": 135.0
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
-          "qt": 6,
-          "valor": 135.0
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "GIN ROCKS 1000ML",
-          "qt": 6,
-          "valor": 135.0
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "qt": 36,
-          "valor": 568.08
-        },
-        {
           "data": "26/03/2026",
           "codcli": "86429",
           "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
@@ -104248,14 +104016,6 @@ const VENDAS_DATA = {
           "valor": 32640.0
         },
         {
-          "data": "08/04/2026",
-          "codcli": "83588",
-          "cliente": "MERCADAO DE ALIMENTOS UNIDOS BRASIL LTDA",
-          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
           "data": "01/04/2026",
           "codcli": "83574",
           "cliente": "ALTAS HORAS COMERCIO VAREJISTA LTDA",
@@ -104646,14 +104406,6 @@ const VENDAS_DATA = {
           "produto": "COQUETEL BANANINHA REGGIANI 950ML",
           "qt": 36,
           "valor": 568.08
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "86429",
-          "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "qt": 1,
-          "valor": 298.8
         },
         {
           "data": "08/04/2026",
@@ -113140,6 +112892,40 @@ const VENDAS_DATA = {
           "produto": "GIN LARIOS ORIGINAL 700ML",
           "qt": 6,
           "valor": 281.88
+        }
+      ],
+      "Abr/26": [
+        {
+          "data": "09/04/2026",
+          "codcli": "91838",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "qt": 24,
+          "valor": 693.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "91838",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "qt": 30,
+          "valor": 867.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "91838",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "qt": 24,
+          "valor": 693.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "91838",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 12,
+          "valor": 658.8
         }
       ]
     },
@@ -124866,456 +124652,6 @@ const VENDAS_DATA = {
           "valor": 405.0
         }
       ],
-      "Mar/26": [
-        {
-          "data": "13/03/2026",
-          "codcli": "7191",
-          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "qt": 12,
-          "valor": 1138.8
-        },
-        {
-          "data": "03/03/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN MAR 6X710ML LT",
-          "qt": 10,
-          "valor": 1976.4
-        },
-        {
-          "data": "11/03/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN AR 750ML",
-          "qt": 48,
-          "valor": 2352.0
-        },
-        {
-          "data": "11/03/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN TERRA 6X710ML LT",
-          "qt": 6,
-          "valor": 1185.84
-        },
-        {
-          "data": "11/03/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN MAR 750ML",
-          "qt": 60,
-          "valor": 2940.0
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "qt": 37,
-          "valor": 7095.12
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "qt": 37,
-          "valor": 7095.12
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 32,
-          "valor": 4907.52
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "qt": 32,
-          "valor": 4907.52
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "qt": 32,
-          "valor": 6673.92
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "qt": 37,
-          "valor": 7716.72
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 54,
-          "valor": 13473.0
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 51,
-          "valor": 12724.5
-        },
-        {
-          "data": "02/03/2026",
-          "codcli": "83962",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "VINHO CASA PERINI FR. UNICA MERLOT 750ML",
-          "qt": 6,
-          "valor": 329.4
-        },
-        {
-          "data": "02/03/2026",
-          "codcli": "83962",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 24,
-          "valor": 837.6
-        },
-        {
-          "data": "02/03/2026",
-          "codcli": "83962",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "GIN ROCKS 1000ML",
-          "qt": 12,
-          "valor": 270.0
-        },
-        {
-          "data": "02/03/2026",
-          "codcli": "83962",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "83962",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "qt": 18,
-          "valor": 628.2
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "83962",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "qt": 90,
-          "valor": 3141.0
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "83962",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 60,
-          "valor": 2094.0
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "83962",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "qt": 18,
-          "valor": 628.2
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "qt": 2,
-          "valor": 164.16
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "valor": 82.08
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "qt": 12,
-          "valor": 1138.8
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "qt": 5,
-          "valor": 410.4
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 5,
-          "valor": 410.4
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 5,
-          "valor": 410.4
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "qt": 12,
-          "valor": 1138.8
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "qt": 12,
-          "valor": 1138.8
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 24,
-          "valor": 2277.6
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 1,
-          "valor": 82.08
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "qt": 1,
-          "valor": 151.68
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "qt": 12,
-          "valor": 1138.8
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 2,
-          "valor": 164.16
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "qt": 1,
-          "valor": 151.68
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING BOOSTER LIMAO 24X310ML",
-          "qt": 1,
-          "valor": 151.68
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "GIN MARINA 750ML",
-          "qt": 6,
-          "valor": 179.4
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "qt": 12,
-          "valor": 1138.8
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
-          "qt": 2,
-          "valor": 151.44
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "qt": 2,
-          "valor": 164.16
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 2,
-          "valor": 164.16
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 1,
-          "valor": 82.08
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "qt": 1,
-          "valor": 151.68
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING BOOSTER LIMAO 24X310ML",
-          "qt": 1,
-          "valor": 151.68
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84025",
-          "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "qt": 1,
-          "valor": 82.08
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84025",
-          "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 2,
-          "valor": 164.16
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84025",
-          "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "qt": 12,
-          "valor": 1138.8
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 3,
-          "valor": 602.76
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 7,
-          "valor": 1406.44
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "qt": 3,
-          "valor": 503.07
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "qt": 5,
-          "valor": 972.95
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "qt": 3,
-          "valor": 583.71
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 1,
-          "valor": 152.07
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "qt": 2,
-          "valor": 304.16
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "qt": 2,
-          "valor": 304.16
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "85095",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "qt": 2,
-          "valor": 335.38
-        }
-      ],
       "Dez/25": [
         {
           "data": "08/12/2025",
@@ -125822,6 +125158,424 @@ const VENDAS_DATA = {
           "produto": "WHISKY JIM BEAM APPLE 1L",
           "qt": 660,
           "valor": 63294.0
+        }
+      ],
+      "Mar/26": [
+        {
+          "data": "03/03/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN MAR 6X710ML LT",
+          "qt": 10,
+          "valor": 1976.4
+        },
+        {
+          "data": "11/03/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN AR 750ML",
+          "qt": 48,
+          "valor": 2352.0
+        },
+        {
+          "data": "11/03/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN TERRA 6X710ML LT",
+          "qt": 6,
+          "valor": 1185.84
+        },
+        {
+          "data": "11/03/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN MAR 750ML",
+          "qt": 60,
+          "valor": 2940.0
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "qt": 37,
+          "valor": 7095.12
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "qt": 37,
+          "valor": 7095.12
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "qt": 32,
+          "valor": 4907.52
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "qt": 32,
+          "valor": 4907.52
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "qt": 32,
+          "valor": 6673.92
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "qt": 37,
+          "valor": 7716.72
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 54,
+          "valor": 13473.0
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 51,
+          "valor": 12724.5
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "83962",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VINHO CASA PERINI FR. UNICA MERLOT 750ML",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "83962",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 24,
+          "valor": 837.6
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "83962",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS 1000ML",
+          "qt": 12,
+          "valor": 270.0
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "83962",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "83962",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 18,
+          "valor": 628.2
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "83962",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 90,
+          "valor": 3141.0
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "83962",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 60,
+          "valor": 2094.0
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "83962",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 18,
+          "valor": 628.2
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84029",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "qt": 2,
+          "valor": 164.16
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84029",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 82.08
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84029",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 12,
+          "valor": 1138.8
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "qt": 5,
+          "valor": 410.4
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 5,
+          "valor": 410.4
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "valor": 410.4
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 12,
+          "valor": 1138.8
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 12,
+          "valor": 1138.8
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 24,
+          "valor": 2277.6
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 82.08
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "valor": 151.68
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 12,
+          "valor": 1138.8
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84031",
+          "cliente": "ROYAL CENTER COMERCIAL LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "valor": 164.16
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84031",
+          "cliente": "ROYAL CENTER COMERCIAL LTDA",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "valor": 151.68
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84031",
+          "cliente": "ROYAL CENTER COMERCIAL LTDA",
+          "produto": "MOVING BOOSTER LIMAO 24X310ML",
+          "qt": 1,
+          "valor": 151.68
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84032",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "GIN MARINA 750ML",
+          "qt": 6,
+          "valor": 179.4
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84032",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 12,
+          "valor": 1138.8
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84034",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
+          "qt": 2,
+          "valor": 151.44
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84034",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "qt": 2,
+          "valor": 164.16
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84034",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "valor": 164.16
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84034",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 82.08
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84034",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "valor": 151.68
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "84034",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "MOVING BOOSTER LIMAO 24X310ML",
+          "qt": 1,
+          "valor": 151.68
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "85095",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 3,
+          "valor": 602.76
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "85095",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 7,
+          "valor": 1406.44
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "85095",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "qt": 3,
+          "valor": 503.07
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "85095",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "qt": 5,
+          "valor": 972.95
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "85095",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "qt": 3,
+          "valor": 583.71
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "85095",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "qt": 1,
+          "valor": 152.07
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "85095",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "qt": 2,
+          "valor": 304.16
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "85095",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "qt": 2,
+          "valor": 304.16
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "85095",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "qt": 2,
+          "valor": 335.38
         }
       ],
       "Abr/26": [
@@ -131425,6 +131179,66 @@ const VENDAS_DATA = {
         }
       ]
     },
+    "KELLY RAMOS (KAROL)": {
+      "Abr/26": [
+        {
+          "data": "09/04/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 1104,
+          "valor": 35107.2
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 1104,
+          "valor": 35107.2
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 3864,
+          "valor": 122875.2
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "ESPUM CASA PERINI ICE 750ML",
+          "qt": 552,
+          "valor": 17553.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "ESPUM CASA PERINI ICE ROSE 750ML",
+          "qt": 552,
+          "valor": 17553.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "ESPUM CASA PERINI PROSECCO 750ML",
+          "qt": 552,
+          "valor": 17553.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 552,
+          "valor": 17553.6
+        }
+      ]
+    },
     "DIRLEI": {
       "Fev/26": [
         {
@@ -133228,30 +133042,6 @@ const VENDAS_DATA = {
           "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
           "qt": 6,
           "valor": 203.4
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "qt": 1,
-          "valor": 175.2
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
         },
         {
           "data": "10/03/2026",
@@ -138738,14 +138528,6 @@ const VENDAS_DATA = {
           "valor": 359.88
         },
         {
-          "data": "31/03/2026",
-          "codcli": "28385",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
-          "produto": "KIT AQUARELA 7 GARRAFAS + BALDE",
-          "qt": 2,
-          "valor": 599.8
-        },
-        {
           "data": "05/03/2026",
           "codcli": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
@@ -139810,86 +139592,6 @@ const VENDAS_DATA = {
           "produto": "BALLANTINES SUNSHINE 700ML",
           "qt": 6,
           "valor": 258.84
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "APERITIVO CAMPARI 998ML",
-          "qt": 12,
-          "valor": 586.56
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "qt": 6,
-          "valor": 199.74
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 60,
-          "valor": 1997.4
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "qt": 6,
-          "valor": 424.02
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "GIN GORDONS 750 ML",
-          "qt": 6,
-          "valor": 335.88
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "LICOR STOCK MARULA 720 ML",
-          "qt": 2,
-          "valor": 101.08
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "RUM MONTILLA OURO 1000ML",
-          "qt": 6,
-          "valor": 122.7
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "SAKE AZUMA KIRIN SOFT 740ML",
-          "qt": 6,
-          "valor": 133.62
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "WHISKY  BALLANTINE'S 10YO 750ML",
-          "qt": 3,
-          "valor": 188.31
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "BALLANTINES SUNSHINE 700ML",
-          "qt": 12,
-          "valor": 517.68
         }
       ]
     },
