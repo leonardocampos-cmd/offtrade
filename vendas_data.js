@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/04/2026 14:00",
+  "atualizado_em": "09/04/2026 15:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -37648,6 +37648,38 @@ const VENDAS_DATA = {
           "valor": 80.7
         },
         {
+          "data": "09/04/2026",
+          "codcli": "3551",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 4,
+          "valor": 115.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "3551",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 3,
+          "valor": 65.7
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "3551",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 3,
+          "valor": 80.7
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "3551",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "produto": "GIN BEEFEATER 750ML",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
           "data": "01/04/2026",
           "codcli": "3110",
           "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
@@ -38406,6 +38438,22 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "qt": 30,
           "valor": 627.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "82867",
+          "cliente": "POSTO HILARIO DE GOUVEIA LIMITADA",
+          "produto": "TANQUERAY CX C/ 12X50ML",
+          "qt": 1,
+          "valor": 133.9
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "82867",
+          "cliente": "POSTO HILARIO DE GOUVEIA LIMITADA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 6,
+          "valor": 131.4
         },
         {
           "data": "06/04/2026",
@@ -65484,6 +65532,38 @@ const VENDAS_DATA = {
           "valor": 109.5
         },
         {
+          "data": "09/04/2026",
+          "codcli": "91847",
+          "cliente": "BRAULIO MERCADO DE COMESTIVEIS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+          "qt": 1,
+          "valor": 43.2
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "91847",
+          "cliente": "BRAULIO MERCADO DE COMESTIVEIS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 1,
+          "valor": 58.2
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "91847",
+          "cliente": "BRAULIO MERCADO DE COMESTIVEIS LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 1,
+          "valor": 26.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "91847",
+          "cliente": "BRAULIO MERCADO DE COMESTIVEIS LTDA",
+          "produto": "NECTAR CAJU 12X1000ML",
+          "qt": 1,
+          "valor": 58.2
+        },
+        {
           "data": "08/04/2026",
           "codcli": "91333",
           "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
@@ -65650,6 +65730,22 @@ const VENDAS_DATA = {
           "produto": "GIN ROCKS GREEN APPLE 1000ML",
           "qt": 1,
           "valor": 22.5
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "91468",
+          "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 3,
+          "valor": 65.7
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "91468",
+          "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 3,
+          "valor": 41.97
         },
         {
           "data": "07/04/2026",
@@ -65950,6 +66046,30 @@ const VENDAS_DATA = {
           "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
           "qt": 1,
           "valor": 43.2
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "53108",
+          "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
+          "produto": "PINATI NUTS COCO 20X30G",
+          "qt": 2,
+          "valor": 78.4
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "53108",
+          "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
+          "produto": "PINATI PROTEIN CUPS AMENDOIM 20X21G",
+          "qt": 1,
+          "valor": 95.9
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "53108",
+          "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 1,
+          "valor": 13.0
         },
         {
           "data": "08/04/2026",
