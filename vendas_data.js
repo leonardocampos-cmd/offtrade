@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/04/2026 15:00",
+  "atualizado_em": "09/04/2026 16:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -51726,6 +51726,22 @@ const VENDAS_DATA = {
       ],
       "Abr/26": [
         {
+          "data": "09/04/2026",
+          "codcli": "19666",
+          "cliente": "MERCEARIA HORIZONTE VIDIGAL LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.2
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "19666",
+          "cliente": "MERCEARIA HORIZONTE VIDIGAL LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 5,
+          "valor": 140.4
+        },
+        {
           "data": "06/04/2026",
           "codcli": "91059",
           "cliente": "MM CONVENIENCIA LTDA",
@@ -51852,6 +51868,30 @@ const VENDAS_DATA = {
           "produto": "RC PATE ATUM TRADICIONAL 12X80G",
           "qt": 1,
           "valor": 14.16
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 47.9
         },
         {
           "data": "01/04/2026",
@@ -52020,6 +52060,46 @@ const VENDAS_DATA = {
           "produto": "NECTAR LARANJA TIAL 12X250ML",
           "qt": 1,
           "valor": 34.42
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94382",
+          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 5,
+          "valor": 140.98
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94382",
+          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94382",
+          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94382",
+          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
+          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 14.17
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94382",
+          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 14.17
         },
         {
           "data": "08/04/2026",
@@ -65746,6 +65826,14 @@ const VENDAS_DATA = {
           "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
           "qt": 3,
           "valor": 41.97
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "91672",
+          "cliente": "PAVUNA EXPRESS COMERCIO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 20,
+          "valor": 438.0
         },
         {
           "data": "07/04/2026",
@@ -81634,22 +81722,6 @@ const VENDAS_DATA = {
           "produto": "MARTINI ROSATO 750 ML",
           "qt": 60,
           "valor": 1659.6
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "2909",
-          "cliente": "SUPERMERCADOS FEIRA NOVA LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "qt": 36,
-          "valor": 968.4
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "2909",
-          "cliente": "SUPERMERCADOS FEIRA NOVA LTDA",
-          "produto": "RUM MALIBU 750 ML",
-          "qt": 24,
-          "valor": 1058.4
         },
         {
           "data": "01/04/2026",
@@ -121628,6 +121700,30 @@ const VENDAS_DATA = {
           "produto": "ESPUM CASA PERINI BRUT 750ML",
           "qt": 60,
           "valor": 1950.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "93931",
+          "cliente": "MERCADO SC RECREIO LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "93931",
+          "cliente": "MERCADO SC RECREIO LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "93931",
+          "cliente": "MERCADO SC RECREIO LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
         }
       ]
     },
