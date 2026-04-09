@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/04/2026 10:41",
+  "atualizado_em": "09/04/2026 11:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -132310,38 +132310,6 @@ const VENDAS_DATA = {
           "valor": 209.4
         },
         {
-          "data": "25/03/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "qt": 1,
-          "valor": 175.2
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "MOVING BOOSTER LIMAO 24X310ML",
-          "qt": 1,
-          "valor": 175.2
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "qt": 1,
-          "valor": 175.2
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
           "data": "16/03/2026",
           "codcli": "8876",
           "cliente": "MULTI PARATY MERCADO LTDA",
@@ -132540,14 +132508,6 @@ const VENDAS_DATA = {
           "produto": "WHISKY JIM BEAM HONEY 1L",
           "qt": 12,
           "valor": 1042.8
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "8878",
-          "cliente": "MULTI ANGRA MERCADO LTDA",
-          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "qt": 1,
-          "valor": 175.2
         },
         {
           "data": "10/03/2026",
