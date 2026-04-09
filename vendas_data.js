@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/04/2026 16:00",
+  "atualizado_em": "09/04/2026 17:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -37528,6 +37528,38 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
+          "data": "09/04/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 2,
+          "valor": 65.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 2,
+          "valor": 279.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "SMIRNOFF ICE 24 UNIDADES (LATA) 24X269ML",
+          "qt": 1,
+          "valor": 104.9
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 3,
+          "valor": 71.82
+        },
+        {
           "data": "08/04/2026",
           "codcli": "3654",
           "cliente": "DISTRIBUIDORA WAY DE COMBUSTIVEIS LTDA",
@@ -37726,6 +37758,30 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "qt": 10,
           "valor": 199.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "4621",
+          "cliente": "AUTO POSTO MAP RECREIO LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 15,
+          "valor": 298.5
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "4621",
+          "cliente": "AUTO POSTO MAP RECREIO LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 5,
+          "valor": 104.5
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "4621",
+          "cliente": "AUTO POSTO MAP RECREIO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 6,
+          "valor": 131.4
         },
         {
           "data": "01/04/2026",
@@ -38040,6 +38096,14 @@ const VENDAS_DATA = {
           "valor": 220.0
         },
         {
+          "data": "09/04/2026",
+          "codcli": "73248",
+          "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 15,
+          "valor": 404.1
+        },
+        {
           "data": "01/04/2026",
           "codcli": "76424",
           "cliente": "CRUZADA DA BARRA PADARIA LTDA",
@@ -38150,6 +38214,46 @@ const VENDAS_DATA = {
           "produto": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
           "qt": 1,
           "valor": 139.9
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "74671",
+          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 20,
+          "valor": 578.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "74671",
+          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 70,
+          "valor": 1463.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "74671",
+          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 30,
+          "valor": 597.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "74671",
+          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "74671",
+          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 10,
+          "valor": 269.0
         },
         {
           "data": "07/04/2026",
@@ -38910,6 +39014,14 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
           "qt": 4,
           "valor": 115.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "89964",
+          "cliente": "POSTO DE GASOLINA COROA DO MAR LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 6,
+          "valor": 161.4
         },
         {
           "data": "08/04/2026",
@@ -51740,6 +51852,22 @@ const VENDAS_DATA = {
           "produto": "GUARAVITON GINSENG 12X500ML",
           "qt": 5,
           "valor": 140.4
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "80578",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 7,
+          "valor": 153.3
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "80578",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 2,
+          "valor": 56.39
         },
         {
           "data": "06/04/2026",
@@ -66076,6 +66204,22 @@ const VENDAS_DATA = {
           "codcli": "2279",
           "cliente": "VALE FORMOSO IMPORTACAO E EXPORTACAO LTDA",
           "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "qt": 1,
+          "valor": 178.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "2610",
+          "cliente": "SUPERMERCADO ULTRA SUL LTDA",
+          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "qt": 2,
+          "valor": 357.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "2610",
+          "cliente": "SUPERMERCADO ULTRA SUL LTDA",
+          "produto": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
           "qt": 1,
           "valor": 178.8
         },
@@ -81802,6 +81946,14 @@ const VENDAS_DATA = {
           "produto": "WHISKY JIM BEAM HONEY 1L",
           "qt": 180,
           "valor": 16920.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "18798",
+          "cliente": "EMPORIO DO CADEG LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 120,
+          "valor": 3948.0
         }
       ],
       "Nov/25": [
@@ -95788,6 +95940,30 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
+          "data": "09/04/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 30,
+          "valor": 627.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 40,
+          "valor": 796.0
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
           "data": "02/04/2026",
           "codcli": "82781",
           "cliente": "ADONAI ATACADISTA LTDA",
@@ -96394,6 +96570,14 @@ const VENDAS_DATA = {
           "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
           "qt": 5,
           "valor": 57.45
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "91422",
+          "cliente": "EMMENSA VAREJISTA DE SUPRIMENTOS E ALIMENTOS LTDA.",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 6,
+          "valor": 579.56
         },
         {
           "data": "02/04/2026",
@@ -121654,6 +121838,30 @@ const VENDAS_DATA = {
           "valor": 274.8
         },
         {
+          "data": "09/04/2026",
+          "codcli": "90581",
+          "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "qt": 12,
+          "valor": 238.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "90581",
+          "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "qt": 12,
+          "valor": 238.8
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "90581",
+          "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
+          "produto": "GIN TANQUERAY FLOR DE SEVILLA  700 ML",
+          "qt": 6,
+          "valor": 569.4
+        },
+        {
           "data": "06/04/2026",
           "codcli": "90211",
           "cliente": "FRANCISCO DAS CHAGAS SOUSA BATISTA",
@@ -131376,6 +131584,22 @@ const VENDAS_DATA = {
           "produto": "SUCO DE LARANJA 100% TIAL 12X1000ML",
           "qt": 1,
           "valor": 125.28
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "91674",
+          "cliente": "ANTONIO PEREIRA DA PENHA 28583493391",
+          "produto": "4 PACK RED BULL",
+          "qt": 4,
+          "valor": 110.24
         },
         {
           "data": "08/04/2026",
