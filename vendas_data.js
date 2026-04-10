@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/04/2026 14:01",
+  "atualizado_em": "10/04/2026 15:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -39054,6 +39054,54 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "qt": 10,
           "valor": 209.0
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "84103",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 2,
+          "valor": 67.12
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "84103",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "qt": 2,
+          "valor": 45.9
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "84103",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 3,
+          "valor": 49.5
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "84103",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "84103",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "qt": 1,
+          "valor": 79.6
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "84103",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "qt": 1,
+          "valor": 136.9
         },
         {
           "data": "06/04/2026",
@@ -97140,6 +97188,46 @@ const VENDAS_DATA = {
           "valor": 570.36
         },
         {
+          "data": "10/04/2026",
+          "codcli": "94276",
+          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 7,
+          "valor": 588.0
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94276",
+          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 7,
+          "valor": 570.36
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94276",
+          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "qt": 7,
+          "valor": 570.36
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94276",
+          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 7,
+          "valor": 588.0
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94276",
+          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 7,
+          "valor": 588.0
+        },
+        {
           "data": "08/04/2026",
           "codcli": "92095",
           "cliente": "JONATHAN FELIPE DE O. PEREIRA",
@@ -104655,6 +104743,62 @@ const VENDAS_DATA = {
         }
       ],
       "Abr/26": [
+        {
+          "data": "10/04/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 6,
+          "valor": 215.4
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "valor": 215.4
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "ESPUMANTE ALUD ROSE 750ML",
+          "qt": 6,
+          "valor": 155.4
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 6,
+          "valor": 155.4
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 6,
+          "valor": 359.4
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "valor": 430.8
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "valor": 215.4
+        },
         {
           "data": "08/04/2026",
           "codcli": "77807",
@@ -113896,6 +114040,46 @@ const VENDAS_DATA = {
       ],
       "Abr/26": [
         {
+          "data": "10/04/2026",
+          "codcli": "91981",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "qt": 12,
+          "valor": 269.88
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91981",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 18,
+          "valor": 404.82
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91981",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91981",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91981",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "qt": 36,
+          "valor": 449.64
+        },
+        {
           "data": "09/04/2026",
           "codcli": "91838",
           "cliente": "DOM ATACAREJO S.A.",
@@ -113926,6 +114110,94 @@ const VENDAS_DATA = {
           "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
           "qt": 12,
           "valor": 658.8
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "92001",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 90,
+          "valor": 2024.1
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "92001",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "92001",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 48,
+          "valor": 1079.52
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "92001",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "qt": 48,
+          "valor": 599.52
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "92001",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "qt": 36,
+          "valor": 809.64
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91987",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91987",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 18,
+          "valor": 404.82
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91987",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "qt": 36,
+          "valor": 449.64
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91987",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "valor": 146.28
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91987",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "qt": 18,
+          "valor": 404.82
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91987",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 24,
+          "valor": 539.76
         }
       ]
     },
