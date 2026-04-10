@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/04/2026 09:19",
+  "atualizado_em": "10/04/2026 10:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -138488,14 +138488,6 @@ const VENDAS_DATA = {
           "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
           "qt": 10,
           "valor": 512.1
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "69414",
-          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
-          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
-          "qt": 50,
-          "valor": 2665.5
         },
         {
           "data": "09/04/2026",
