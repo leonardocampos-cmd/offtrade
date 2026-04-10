@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/04/2026 10:00",
+  "atualizado_em": "10/04/2026 11:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -133834,22 +133834,6 @@ const VENDAS_DATA = {
           "produto": "WHISKY PASSPORT 1L",
           "qt": 60,
           "valor": 2274.0
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "69216",
-          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
-          "produto": "AMARULA C LIQUEUR 750 ML",
-          "qt": 12,
-          "valor": 1078.8
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "69216",
-          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
-          "produto": "GIN ROCKS 1000ML",
-          "qt": 12,
-          "valor": 270.0
         },
         {
           "data": "18/03/2026",
