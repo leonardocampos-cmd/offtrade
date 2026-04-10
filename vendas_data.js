@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/04/2026 12:01",
+  "atualizado_em": "10/04/2026 13:14",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -82480,14 +82480,6 @@ const VENDAS_DATA = {
           "codcli": "6278",
           "cliente": "SUPERMERCADOS MUNDIAL LTDA",
           "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "qt": 736,
-          "valor": 133363.2
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "6278",
-          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
           "qt": 736,
           "valor": 133363.2
         },
