@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/04/2026 10:00",
+  "atualizado_em": "13/04/2026 11:01",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -66666,30 +66666,6 @@ const VENDAS_DATA = {
           "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
           "qt": 5,
           "valor": 479.5
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "93889",
-          "cliente": "NOVO LATICINIO LTDA",
-          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
-          "qt": 1,
-          "valor": 167.88
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "93889",
-          "cliente": "NOVO LATICINIO LTDA",
-          "produto": "SUCO DE UVA BCO INT QUINTA DO MORGADO 1L",
-          "qt": 12,
-          "valor": 167.88
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "93889",
-          "cliente": "NOVO LATICINIO LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 12,
-          "valor": 167.88
         },
         {
           "data": "07/04/2026",
