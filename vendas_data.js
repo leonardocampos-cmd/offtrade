@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/04/2026 11:01",
+  "atualizado_em": "13/04/2026 12:01",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -52607,22 +52607,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "10/04/2026",
-          "codcli": "94407",
-          "cliente": "CASTELO DAS FRUTAS HORTIFRUTI LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 1,
-          "valor": 21.36
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94407",
-          "cliente": "CASTELO DAS FRUTAS HORTIFRUTI LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "10/04/2026",
           "codcli": "94419",
           "cliente": "ALFA MARKET SUPERMERCADO LTDA",
           "produto": "4 PACK RED BULL",
@@ -52780,54 +52764,6 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
           "qt": 4,
           "valor": 79.6
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94401",
-          "cliente": "LATICINIOS TEM TUDO DE VISTA ALEGRE LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94401",
-          "cliente": "LATICINIOS TEM TUDO DE VISTA ALEGRE LTDA",
-          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-          "qt": 1,
-          "valor": 14.17
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94401",
-          "cliente": "LATICINIOS TEM TUDO DE VISTA ALEGRE LTDA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "qt": 1,
-          "valor": 14.17
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94401",
-          "cliente": "LATICINIOS TEM TUDO DE VISTA ALEGRE LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 1,
-          "valor": 21.84
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94401",
-          "cliente": "LATICINIOS TEM TUDO DE VISTA ALEGRE LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 1,
-          "valor": 28.2
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94401",
-          "cliente": "LATICINIOS TEM TUDO DE VISTA ALEGRE LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 21.76
         },
         {
           "data": "10/04/2026",
@@ -114728,7 +114664,7 @@ const VENDAS_DATA = {
           "valor": 412.9
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "WHISKY CHANCELER 1L",
@@ -114736,7 +114672,7 @@ const VENDAS_DATA = {
           "valor": 172.08
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "CACHACA VELHO BARREIRO 910 ML",
@@ -114744,7 +114680,7 @@ const VENDAS_DATA = {
           "valor": 148.2
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1000ML",
@@ -114752,15 +114688,7 @@ const VENDAS_DATA = {
           "valor": 264.0
         },
         {
-          "data": "11/04/2026",
-          "codcli": "78665",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "GIN TANQUERAY  750 ML",
-          "qt": 3,
-          "valor": 269.34
-        },
-        {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "VILLA ROSA BRANCO 750ML",
@@ -114768,7 +114696,7 @@ const VENDAS_DATA = {
           "valor": 149.4
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
@@ -114776,7 +114704,7 @@ const VENDAS_DATA = {
           "valor": 226.5
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "WHISKY GENTLEMAN JACK 1L",
@@ -114784,7 +114712,7 @@ const VENDAS_DATA = {
           "valor": 443.67
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "PIRASSUNUNGA 51 965 ML",
@@ -134018,62 +133946,6 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
-          "data": "10/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "qt": 5,
-          "valor": 144.5
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 5,
-          "valor": 104.5
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-          "qt": 1,
-          "valor": 118.77
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL SF AMORA",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
           "data": "07/04/2026",
           "codcli": "90835",
           "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
@@ -134152,14 +134024,6 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 5,
           "valor": 109.5
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "91674",
-          "cliente": "ANTONIO PEREIRA DA PENHA 28583493391",
-          "produto": "4 PACK RED BULL",
-          "qt": 4,
-          "valor": 110.24
         },
         {
           "data": "10/04/2026",
