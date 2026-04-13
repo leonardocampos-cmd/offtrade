@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/04/2026 15:50",
+  "atualizado_em": "13/04/2026 16:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -114974,6 +114974,54 @@ const VENDAS_DATA = {
           "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
           "qt": 12,
           "valor": 1678.8
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90407",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "qt": 24,
+          "valor": 290.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90407",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "qt": 1,
+          "valor": 103.92
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90407",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "qt": 12,
+          "valor": 172.2
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90407",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
+          "qt": 12,
+          "valor": 1678.8
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90407",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 6,
+          "valor": 94.8
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90407",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 18,
+          "valor": 396.0
         },
         {
           "data": "11/04/2026",
