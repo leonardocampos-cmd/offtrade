@@ -54302,3 +54302,42 @@ OK GitHub Pages atualizado.
 [ERRO] Falha na execução:
 [13/04/2026 15:01:05,36] ERRO (codigo 1
 ---------------------------------------- 
+[13/04/2026 16:00:00,65] Iniciando... 
+[master d79b895] Atualiza metas_data.js + vendas_data.js - 13/04/2026
+ 2 files changed, 3991 insertions(+), 3963 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   64caba3..d79b895  master -> master
+
+==================================================
+  OFFTRADE - 13/04/2026 16:00
+==================================================
+
+--------------------------------------------------
+  1/4 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+--------------------------------------------------
+  2/4 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+Clientes nao positivados em 04/2026: 3488
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_04-2026.xlsx
+OK metas_data.js gerado — 16 vendedores, meses: ['Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+
+--------------------------------------------------
+  4/4 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 3 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (830 chave(s) no total).
+
+==================================================
+  Concluído em 41s
+==================================================
+
+[13/04/2026 16:00:42,37] OK 
+---------------------------------------- 
