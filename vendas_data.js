@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/04/2026 12:01",
+  "atualizado_em": "13/04/2026 13:20",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -114520,23 +114520,7 @@ const VENDAS_DATA = {
           "valor": 264.0
         },
         {
-          "data": "11/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "qt": 12,
-          "valor": 189.6
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 12,
-          "valor": 264.0
-        },
-        {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
@@ -114544,7 +114528,7 @@ const VENDAS_DATA = {
           "valor": 1678.8
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "RUM MONTILLA CRISTAL 1000ML",
@@ -114552,15 +114536,15 @@ const VENDAS_DATA = {
           "valor": 231.6
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
           "qt": 12,
-          "valor": 274.8
+          "valor": 264.0
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
@@ -114568,15 +114552,7 @@ const VENDAS_DATA = {
           "valor": 1302.3
         },
         {
-          "data": "11/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "GIN TANQUERAY  750 ML",
-          "qt": 2,
-          "valor": 179.56
-        },
-        {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "LICOR AMARETTO DEL'ORSO 700 ML",
@@ -114584,7 +114560,23 @@ const VENDAS_DATA = {
           "valor": 365.4
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 12,
+          "valor": 189.6
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "qt": 12,
+          "valor": 274.8
+        },
+        {
+          "data": "13/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "VILLA ROSA BRANCO 750ML",
@@ -114592,7 +114584,7 @@ const VENDAS_DATA = {
           "valor": 298.8
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "VINHO LATITUD 33 MALBEC  750 ML",
@@ -114600,7 +114592,7 @@ const VENDAS_DATA = {
           "valor": 198.0
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "VODKA BELVEDERE 700 ML",
