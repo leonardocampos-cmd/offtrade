@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/04/2026 15:19",
+  "atualizado_em": "13/04/2026 15:50",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -114691,33 +114691,9 @@ const VENDAS_DATA = {
           "data": "13/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
-          "qt": 12,
-          "valor": 1678.8
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "RUM MONTILLA CRISTAL 1000ML",
-          "qt": 12,
-          "valor": 231.6
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 12,
-          "valor": 264.0
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "qt": 18,
-          "valor": 1302.3
+          "produto": "VODKA BELVEDERE 700 ML",
+          "qt": 6,
+          "valor": 695.4
         },
         {
           "data": "13/04/2026",
@@ -114734,6 +114710,22 @@ const VENDAS_DATA = {
           "produto": "COQUETEL BANANINHA REGGIANI 950ML",
           "qt": 12,
           "valor": 189.6
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 12,
+          "valor": 264.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
+          "qt": 12,
+          "valor": 1678.8
         },
         {
           "data": "13/04/2026",
@@ -114763,9 +114755,9 @@ const VENDAS_DATA = {
           "data": "13/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "VODKA BELVEDERE 700 ML",
-          "qt": 6,
-          "valor": 695.4
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 18,
+          "valor": 1302.3
         },
         {
           "data": "11/04/2026",
@@ -114982,54 +114974,6 @@ const VENDAS_DATA = {
           "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
           "qt": 12,
           "valor": 1678.8
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
-          "qt": 12,
-          "valor": 1678.8
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "PIRASSUNUNGA 51 965 ML",
-          "qt": 24,
-          "valor": 290.88
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "qt": 6,
-          "valor": 94.8
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
-          "qt": 1,
-          "valor": 103.92
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "WHISKY CHANCELER 1L",
-          "qt": 12,
-          "valor": 172.2
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 18,
-          "valor": 396.0
         },
         {
           "data": "11/04/2026",
