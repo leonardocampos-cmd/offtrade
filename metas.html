@@ -1079,6 +1079,18 @@ const CAMPANHAS = [
     ],
   },
   {
+    nome: 'Campanha PERNOD',
+    mes: 'Abr/26',
+    metricas: [
+      {
+        nome: 'Bônus PERNOD (Whisky Jameson R$10 / demais R$5 por cliente+produto único)',
+        campo: 'bonus_pernod',
+        tipo: 'fat',
+        tipo_premio: 'direto',
+      },
+    ],
+  },
+  {
     nome: 'Campanha MOVING',
     mes: 'Abr/26',
     metricas: [
@@ -1140,12 +1152,29 @@ function buildCampanha(mes) {
   return camps.map(camp => {
     const cols = camp.metricas.map(m => {
       const totalEquipe = vendedores.reduce((acc, v) => acc + _mv(_pm(v, mes), m.campo, 'realizado'), 0);
-      const gatilhoOk   = totalEquipe >= m.gatilho;
-      const barHtml     = _campanhaGatilhoBar(totalEquipe, m);
+      const gatilhoOk   = m.gatilho != null ? totalEquipe >= m.gatilho : true;
+      const barHtml     = m.gatilho != null ? _campanhaGatilhoBar(totalEquipe, m) : '';
 
       let rankHtml = '';
 
-      if (m.tipo_premio === 'ranking') {
+      if (m.tipo_premio === 'direto') {
+        const participantes = vendedores
+          .map(v => ({ nome: v.nome, val: _mv(_pm(v, mes), m.campo, 'realizado') }))
+          .filter(p => p.val > 0)
+          .sort((a, b) => b.val - a.val);
+
+        const totalBonus = participantes.reduce((s, p) => s + p.val, 0);
+        rankHtml = participantes.length === 0
+          ? `<div class="campanha-rank-fora">Nenhum bônus registrado ainda.</div>`
+          : `<div style="margin-bottom:8px;font-size:0.72rem;color:var(--muted)">Total equipe: <strong>R$\u00a0${totalBonus.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</strong></div>`
+            + participantes.map((p, i) => `
+              <div class="campanha-ranking-row">
+                <span class="campanha-medal">${['🥇','🥈','🥉'][i] || ''}</span>
+                <span class="campanha-rank-nome">${p.nome}</span>
+                <span class="campanha-rank-prize">R$\u00a0${p.val.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
+              </div>`).join('');
+
+      } else if (m.tipo_premio === 'ranking') {
         let participantes = vendedores.map(v => ({
           nome: v.nome,
           val:  _mv(_pm(v, mes), m.campo, 'realizado'),
@@ -1225,17 +1254,27 @@ function buildCampanhaDetail(v, mes) {
     const rows = camp.metricas.map(m => {
       const val        = _mv(_pm(v, mes), m.campo, 'realizado');
       const totalEquipe = vendedores.reduce((acc, vv) => acc + _mv(_pm(vv, mes), m.campo, 'realizado'), 0);
-      const gatilhoOk  = totalEquipe >= m.gatilho;
+      const gatilhoOk  = m.gatilho != null ? totalEquipe >= m.gatilho : true;
       const valFmt     = m.tipo === 'fat' ? fmtFat(val) : fmtPos(val);
 
-      const gatilhoTag = gatilhoOk
-        ? `<span style="font-size:0.65rem;font-weight:700;background:var(--green);color:#000;border-radius:4px;padding:1px 6px">GATILHO: ATIVADO</span>`
-        : `<span style="font-size:0.65rem;font-weight:700;background:var(--red);color:#fff;border-radius:4px;padding:1px 6px">GATILHO: DESATIVADO</span>`;
+      const gatilhoTag = m.gatilho != null
+        ? (gatilhoOk
+            ? `<span style="font-size:0.65rem;font-weight:700;background:var(--green);color:#000;border-radius:4px;padding:1px 6px">GATILHO: ATIVADO</span>`
+            : `<span style="font-size:0.65rem;font-weight:700;background:var(--red);color:#fff;border-radius:4px;padding:1px 6px">GATILHO: DESATIVADO</span>`)
+        : '';
 
       let posicaoHtml = '';
       let premioHtml  = '';
 
-      if (m.tipo_premio === 'ranking') {
+      if (m.tipo_premio === 'direto') {
+        posicaoHtml = val > 0
+          ? `<span style="font-weight:700;color:var(--text)">Bônus acumulado</span>`
+          : `<span class="campanha-rank-fora">Sem vendas Pernod ainda</span>`;
+        if (val > 0) {
+          premioHtml = `<span class="campanha-rank-prize">R$\u00a0${val.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>`;
+        }
+
+      } else if (m.tipo_premio === 'ranking') {
         let participantes = vendedores.map(vv => ({
           nome: vv.nome, val: _mv(_pm(vv, mes), m.campo, 'realizado'),
         }));
@@ -1244,12 +1283,12 @@ function buildCampanhaDetail(v, mes) {
         const pos = participantes.findIndex(p => p.nome === v.nome);
 
         if (m.min_participar !== null && val < m.min_participar) {
-          posicaoHtml = `<span class="campanha-rank-fora">Fora (mín. ${m.min_participar} — faltam ${m.min_participar - val})</span>`;
+          posicaoHtml = `<span class="campanha-rank-val">${valFmt}</span><span class="campanha-rank-fora">Fora (mín. ${m.min_participar} — faltam ${m.min_participar - val})</span>`;
         } else if (pos >= 0 && pos < 3) {
-          posicaoHtml = `<span style="font-weight:700">${medals[pos]} ${pos + 1}º lugar</span>`;
+          posicaoHtml = `<span class="campanha-rank-val">${valFmt}</span><span style="font-weight:700">${medals[pos]} ${pos + 1}º lugar</span>`;
           if (gatilhoOk) premioHtml = `<span class="campanha-rank-prize">R$\u00a0${m.premios[pos]}</span>`;
         } else if (pos >= 0) {
-          posicaoHtml = `<span style="color:var(--muted)">${pos + 1}º lugar</span>`;
+          posicaoHtml = `<span class="campanha-rank-val">${valFmt}</span><span style="color:var(--muted)">${pos + 1}º lugar</span>`;
         } else {
           posicaoHtml = `<span class="campanha-rank-fora">Sem vendas</span>`;
         }

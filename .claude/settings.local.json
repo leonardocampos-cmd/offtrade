@@ -24,7 +24,10 @@
       "Bash(powershell -Command \"Start-ScheduledTask -TaskName 'Offtrade'; Write-Host 'Aguardando...'; Start-Sleep -Seconds 60; Get-ScheduledTask -TaskName 'Offtrade' | Get-ScheduledTaskInfo | Select-Object LastRunTime, LastTaskResult\" 2>&1)",
       "Bash(powershell -Command \"Get-Content 'G:\\\\Meu Drive\\\\offtrade\\\\offtrade.log' -Tail 20\" 2>&1)",
       "Bash(wc:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(curl:*)",
+      "Bash(docker restart evo-api-2:*)",
+      "Bash(ls:*)"
     ]
   }
 }

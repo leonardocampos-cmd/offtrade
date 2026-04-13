@@ -17,17 +17,6 @@ dsn = "crc_oci"
 engine = create_engine(f'oracle+oracledb://{user}:{password}@{dsn}')
 
 # 2. Carga das Tabelas de Referência
-# --- TABELA OFF ---
-tabela_preco_off = pd.read_excel(
-    r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\TABELA OFF RJ - CRC - 12-27 CREDITO - SEGUNDA SEMANA - MARÇO.xlsx", 
-    skiprows=3, 
-    dtype=str
-)
-col_off_excluir = ['Unnamed: 0', 'UNID / CX', 'IT PRIORIT', 'INDUSTRIA ', 'TIPO', 'PREÇO OFF2', 'PÇ REGULAR',
-                   'Unnamed: 10', 'Unnamed: 11', 'CUSTO PROFITY', 'CUSTO PROFITY.1', 'VAR.', 'VAR. %']
-tabela_preco_off.drop(columns=[c for c in col_off_excluir if c in tabela_preco_off.columns], inplace=True)
-tabela_preco_off['PREÇO OFF'] = tabela_preco_off['PREÇO OFF'].str.replace(',', '.').astype(float).round(2)
-
 # --- TABELA ON ---
 tabela_preco_on = pd.read_excel(
     r"G:\Drives compartilhados\EQUIPE DE VENDAS RJ\TABELA DE PREÇO RJ.xlsx",
@@ -66,7 +55,6 @@ profit.drop(columns=['Unnamed: 0', 'PRODUTO', 'FORNECEDORA', 'TIPO',
 df.columns = df.columns.str.upper()
 df['CODPROD'] = df['CODPROD'].astype(str).str.strip()
 
-df = df.merge(tabela_preco_off[['COD ', 'PREÇO OFF']], left_on='CODPROD', right_on='COD ', how='left')
 df = df.merge(tabela_preco_on[['COD CRC', 'PREÇO']], left_on='CODPROD', right_on='COD CRC', how='left')
 df = df.merge(tabela_promo[['COD PROMO', 'PREÇO PROMO']], left_on='CODPROD', right_on='COD PROMO', how='left')
 profit['CODIGO'] = profit['CODIGO'].astype(str).str.strip()
@@ -76,24 +64,21 @@ df = df.rename(columns={'PREÇO': 'PREÇO ON'})
 
 def aplicar_conferencia(df_local):
    
-    df_local['MENOR_VALOR'] = df_local[['PREÇO OFF', 'PREÇO ON', 'PREÇO PROMO']].min(axis=1).round(2)
-    
+    df_local['MENOR_VALOR'] = df_local[['PREÇO ON', 'PREÇO PROMO']].min(axis=1).round(2)
+
     def classificar(row):
         pv = row['PVENDA']
         menor = row['MENOR_VALOR']
-        
+
         if pv < menor:
             return 'ABAIXO DA TABELA'
-        
+
         if pd.notna(row['PREÇO PROMO']) and pv <= row['PREÇO PROMO']:
             return 'PREÇO PROMO'
-        
-        elif pd.notna(row['PREÇO OFF']) and pv <= row['PREÇO OFF']:
-            return 'PREÇO OFF'
-        
+
         elif pd.notna(row['PREÇO ON']) and pv <= row['PREÇO ON']:
             return 'PREÇO ON'
-        
+
         else:
             return 'ACIMA DA TABELA'
 
@@ -104,10 +89,7 @@ df = aplicar_conferencia(df)
 
 # 6. Limpeza e Cálculos Finais
 # Remove colunas auxiliares de join
-df.drop(columns=['COD ', 'COD CRC', 'COD PROMO'], inplace=True, errors='ignore')
-
-# Filtra apenas quem tem preço de referência (OFF)
-df = df[df['PREÇO OFF'].notnull()]
+df.drop(columns=['COD CRC', 'COD PROMO'], inplace=True, errors='ignore')
 
 # Filtra vendedores indesejados
 vendedores_remover = [

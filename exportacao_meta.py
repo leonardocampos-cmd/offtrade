@@ -119,7 +119,8 @@ def _realizado_mes(df):
     """Calcula todas as métricas realizadas a partir de um subset de _vh."""
     _zero = dict(fat_tt=0.0, fat_castas=0.0, fat_domecq_passport=0.0, fat_hob_azeite=0.0, fat_pinatti=0.0, fat_moving=0.0,
                  pos_tt=0, pos_hob_azeite=0, pos_reckit=0, pos_crusoe=0,
-                 pos_tatuzinho=0, pos_redbull=0, pos_pinatti=0)
+                 pos_tatuzinho=0, pos_redbull=0, pos_pinatti=0,
+                 bonus_pernod=0.0)
     if df.empty:
         return _zero
 
@@ -130,6 +131,13 @@ def _realizado_mes(df):
     def pos(mask=None):
         sub = df[mask] if mask is not None else df
         return int(sub['CODCLI'].nunique())
+
+    # Campanha PERNOD
+    mask_jameson      = df['PRODUTO'].str.upper().str.startswith('WHISKY JAMESON')
+    mask_pernod_other = df['FANTASIA'].str.contains('PERNOD', case=False, na=False) & ~mask_jameson
+    pares_jameson      = int(df[mask_jameson].drop_duplicates(subset=['CODCLI', 'PRODUTO']).shape[0])
+    pares_pernod_other = int(df[mask_pernod_other].drop_duplicates(subset=['CODCLI', 'PRODUTO']).shape[0])
+    bonus_pernod = round(pares_jameson * 10.0 + pares_pernod_other * 5.0, 2)
 
     return {
         'fat_tt':              fat(),
@@ -145,6 +153,7 @@ def _realizado_mes(df):
         'pos_tatuzinho':       pos(df['FANTASIA'].str.contains('TATUZINHO', case=False, na=False)),
         'pos_redbull':         pos(df['FANTASIA'].str.contains('RED BULL', case=False, na=False)),
         'pos_pinatti':         pos(df['FANTASIA'].str.contains('PINATI', case=False, na=False)),
+        'bonus_pernod':        bonus_pernod,
     }
 
 # ── Histórico mensal agregado (para gráficos) ─────────────────────────────────
@@ -294,6 +303,7 @@ for _, m in metas_com_nome.iterrows():
         'pos_tatuzinho':       {'meta': safe_int(m.get('POSITIVAÇÃO TATUZINHO')),       'realizado': real['pos_tatuzinho']},
         'pos_redbull':         {'meta': safe_int(m.get('POSITIVAÇÃO RED BULL')),        'realizado': real['pos_redbull']},
         'pos_pinatti':         {'meta': safe_int(m.get('POSITIVAÇÃO PINATTI')),         'realizado': real['pos_pinatti']},
+        'bonus_pernod':        {'meta': 0, 'realizado': real['bonus_pernod']},
     }
 
 vendedores_out = list(vendedores_dict.values())
