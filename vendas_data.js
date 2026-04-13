@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/04/2026 13:20",
+  "atualizado_em": "13/04/2026 14:59",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -82940,7 +82940,7 @@ const VENDAS_DATA = {
           "valor": 1659.6
         },
         {
-          "data": "01/04/2026",
+          "data": "13/04/2026",
           "codcli": "3755",
           "cliente": "SUPERMERCADO BARRA OESTE LTDA",
           "produto": "CHANDON RESERVE BRUT ROSE 750ML",
@@ -82948,7 +82948,7 @@ const VENDAS_DATA = {
           "valor": 2359.2
         },
         {
-          "data": "01/04/2026",
+          "data": "13/04/2026",
           "codcli": "3755",
           "cliente": "SUPERMERCADO BARRA OESTE LTDA",
           "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
@@ -82956,7 +82956,7 @@ const VENDAS_DATA = {
           "valor": 299.16
         },
         {
-          "data": "01/04/2026",
+          "data": "13/04/2026",
           "codcli": "3755",
           "cliente": "SUPERMERCADO BARRA OESTE LTDA",
           "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
@@ -82964,15 +82964,7 @@ const VENDAS_DATA = {
           "valor": 199.44
         },
         {
-          "data": "01/04/2026",
-          "codcli": "3755",
-          "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "qt": 4,
-          "valor": 370.48
-        },
-        {
-          "data": "01/04/2026",
+          "data": "13/04/2026",
           "codcli": "3755",
           "cliente": "SUPERMERCADO BARRA OESTE LTDA",
           "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
@@ -82980,7 +82972,7 @@ const VENDAS_DATA = {
           "valor": 2716.92
         },
         {
-          "data": "01/04/2026",
+          "data": "13/04/2026",
           "codcli": "3755",
           "cliente": "SUPERMERCADO BARRA OESTE LTDA",
           "produto": "CHANDON GARDEN SPRITZ 750 ML",
@@ -114816,31 +114808,7 @@ const VENDAS_DATA = {
           "valor": 1678.8
         },
         {
-          "data": "11/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "WHISKY CHANCELER 1L",
-          "qt": 12,
-          "valor": 172.2
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "PIRASSUNUNGA 51 965 ML",
-          "qt": 24,
-          "valor": 290.88
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
-          "qt": 1,
-          "valor": 103.92
-        },
-        {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
           "codcli": "90407",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
@@ -114848,7 +114816,15 @@ const VENDAS_DATA = {
           "valor": 1678.8
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
+          "codcli": "90407",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "qt": 24,
+          "valor": 290.88
+        },
+        {
+          "data": "13/04/2026",
           "codcli": "90407",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "COQUETEL BANANINHA REGGIANI 950ML",
@@ -114856,20 +114832,28 @@ const VENDAS_DATA = {
           "valor": 94.8
         },
         {
-          "data": "11/04/2026",
+          "data": "13/04/2026",
+          "codcli": "90407",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "qt": 1,
+          "valor": 103.92
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90407",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "qt": 12,
+          "valor": 172.2
+        },
+        {
+          "data": "13/04/2026",
           "codcli": "90407",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1000ML",
           "qt": 18,
           "valor": 396.0
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "RUM MONTILLA CRISTAL 1000ML",
-          "qt": 12,
-          "valor": 231.6
         },
         {
           "data": "11/04/2026",
