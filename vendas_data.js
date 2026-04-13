@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/04/2026 09:01",
+  "atualizado_em": "13/04/2026 10:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -83084,6 +83084,14 @@ const VENDAS_DATA = {
           "valor": 133363.2
         },
         {
+          "data": "13/04/2026",
+          "codcli": "6278",
+          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "qt": 161,
+          "valor": 29173.2
+        },
+        {
           "data": "02/04/2026",
           "codcli": "6278",
           "cliente": "SUPERMERCADOS MUNDIAL LTDA",
@@ -97698,54 +97706,6 @@ const VENDAS_DATA = {
           "produto": "GUARAVITON GINSENG 12X500ML",
           "qt": 5,
           "valor": 134.93
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "94276",
-          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
-          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
-          "qt": 7,
-          "valor": 570.36
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "94276",
-          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 7,
-          "valor": 588.0
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "94276",
-          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 7,
-          "valor": 588.0
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "94276",
-          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 7,
-          "valor": 588.0
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "94276",
-          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
-          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-          "qt": 7,
-          "valor": 570.36
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "94276",
-          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
-          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
-          "qt": 7,
-          "valor": 570.36
         },
         {
           "data": "10/04/2026",
