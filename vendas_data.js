@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/04/2026 15:03",
+  "atualizado_em": "13/04/2026 15:07",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -52550,6 +52550,30 @@ const VENDAS_DATA = {
           "valor": 14.17
         },
         {
+          "data": "13/04/2026",
+          "codcli": "91491",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 3,
+          "valor": 65.55
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91491",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 2,
+          "valor": 55.12
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91491",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "qt": 1,
+          "valor": 85.92
+        },
+        {
           "data": "01/04/2026",
           "codcli": "91673",
           "cliente": "TOCA DO AUTOMOVEL LTDA",
@@ -66396,6 +66420,38 @@ const VENDAS_DATA = {
           "valor": 199.5
         },
         {
+          "data": "13/04/2026",
+          "codcli": "91751",
+          "cliente": "BBC DISTRIBUIDORA ATACADISTA E VAREJISTA DE DOCES LTDA",
+          "produto": "RED BULL 24X250ML",
+          "qt": 1,
+          "valor": 165.36
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91751",
+          "cliente": "BBC DISTRIBUIDORA ATACADISTA E VAREJISTA DE DOCES LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91751",
+          "cliente": "BBC DISTRIBUIDORA ATACADISTA E VAREJISTA DE DOCES LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91751",
+          "cliente": "BBC DISTRIBUIDORA ATACADISTA E VAREJISTA DE DOCES LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
           "data": "01/04/2026",
           "codcli": "91623",
           "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
@@ -66434,6 +66490,38 @@ const VENDAS_DATA = {
           "produto": "GUARAVITON GINSENG 12X500ML",
           "qt": 2,
           "valor": 53.8
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91492",
+          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 2,
+          "valor": 399.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91492",
+          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 1,
+          "valor": 199.5
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91492",
+          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91492",
+          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 1,
+          "valor": 21.9
         },
         {
           "data": "08/04/2026",
@@ -66508,6 +66596,38 @@ const VENDAS_DATA = {
           "valor": 22.5
         },
         {
+          "data": "13/04/2026",
+          "codcli": "91507",
+          "cliente": "MERCADO DO JOKA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 1,
+          "valor": 21.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91507",
+          "cliente": "MERCADO DO JOKA LTDA",
+          "produto": "VANISH LIQUIDO PINK REFIL 12X500ML",
+          "qt": 2,
+          "valor": 133.2
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91507",
+          "cliente": "MERCADO DO JOKA LTDA",
+          "produto": "VANISH LIQUIDO WHITE REFIL 12X500ML",
+          "qt": 2,
+          "valor": 133.2
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91507",
+          "cliente": "MERCADO DO JOKA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
           "data": "09/04/2026",
           "codcli": "91468",
           "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
@@ -66530,6 +66650,14 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 20,
           "valor": 438.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91674",
+          "cliente": "ANTONIO PEREIRA DA PENHA 28583493391",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "qt": 36,
+          "valor": 5864.4
         },
         {
           "data": "07/04/2026",
@@ -66602,6 +66730,30 @@ const VENDAS_DATA = {
           "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
           "qt": 5,
           "valor": 479.5
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "SUCO DE UVA BCO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 167.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 167.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "valor": 2014.56
         },
         {
           "data": "07/04/2026",
@@ -80750,6 +80902,14 @@ const VENDAS_DATA = {
           "produto": "GIN ROCKS 1000ML",
           "qt": 12,
           "valor": 270.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "77422",
+          "cliente": "LUCRE BEM MERCEARIA LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 60,
+          "valor": 2094.0
         },
         {
           "data": "02/04/2026",
@@ -97026,6 +97186,22 @@ const VENDAS_DATA = {
           "produto": "AGUA MINALBA C/ GAS 6X1,5L",
           "qt": 5,
           "valor": 109.5
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "74669",
+          "cliente": "PARADA OESTE III CONVENIENCIAS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "valor": 221.4
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "74669",
+          "cliente": "PARADA OESTE III CONVENIENCIAS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 6,
+          "valor": 221.4
         },
         {
           "data": "02/04/2026",
