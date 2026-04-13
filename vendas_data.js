@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/04/2026 17:00",
+  "atualizado_em": "13/04/2026 18:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -97556,110 +97556,6 @@ const VENDAS_DATA = {
           "valor": 139.9
         },
         {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "WHISKY J WALKER BLACK LABEL 1L",
-          "qt": 1,
-          "valor": 173.9
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "WHISKY J WALKER BLACK LABEL 500ML",
-          "qt": 1,
-          "valor": 86.9
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "WHISKY J WALKER RED LABEL 1L",
-          "qt": 1,
-          "valor": 89.9
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "WHISKY J WALKER RED LABEL 500ML",
-          "qt": 1,
-          "valor": 52.9
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 1,
-          "valor": 32.9
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "VODKA SMIRNOFF 600 ML",
-          "qt": 1,
-          "valor": 22.9
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82704",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "qt": 2,
-          "valor": 199.8
-        },
-        {
           "data": "02/04/2026",
           "codcli": "90497",
           "cliente": "55.634.657 BARBARA SANTOS JOE CABRAL",
@@ -105800,6 +105696,78 @@ const VENDAS_DATA = {
           "valor": 22.9
         },
         {
+          "data": "13/04/2026",
+          "codcli": "77809",
+          "cliente": "MERCADO RIO SUL DE XEREM LTDA",
+          "produto": "ST PIERRE LATA MARGARITA LT 24X270ML",
+          "qt": 1,
+          "valor": 90.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "77809",
+          "cliente": "MERCADO RIO SUL DE XEREM LTDA",
+          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
+          "qt": 1,
+          "valor": 90.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "77809",
+          "cliente": "MERCADO RIO SUL DE XEREM LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "qt": 1,
+          "valor": 90.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "77809",
+          "cliente": "MERCADO RIO SUL DE XEREM LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "qt": 1,
+          "valor": 90.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "77809",
+          "cliente": "MERCADO RIO SUL DE XEREM LTDA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "qt": 1,
+          "valor": 45.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "77809",
+          "cliente": "MERCADO RIO SUL DE XEREM LTDA",
+          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "qt": 1,
+          "valor": 45.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "77809",
+          "cliente": "MERCADO RIO SUL DE XEREM LTDA",
+          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
+          "qt": 1,
+          "valor": 45.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "77809",
+          "cliente": "MERCADO RIO SUL DE XEREM LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 36,
+          "valor": 421.2
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "77809",
+          "cliente": "MERCADO RIO SUL DE XEREM LTDA",
+          "produto": "ST PIERRE LATA BLUEBERRY LT 24X270ML",
+          "qt": 1,
+          "valor": 90.0
+        },
+        {
           "data": "07/04/2026",
           "codcli": "83800",
           "cliente": "SUPERMERCADOS RIO SUL DE COMENDADOR SOARES LTDA",
@@ -105838,6 +105806,126 @@ const VENDAS_DATA = {
           "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
           "qt": 30,
           "valor": 1587.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 3,
+          "valor": 179.64
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "NECTAR CAJU 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 140.4
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "SUCO MISTO UVA 100% 24X200ML KIDS",
+          "qt": 1,
+          "valor": 59.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "qt": 1,
+          "valor": 45.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "qt": 1,
+          "valor": 45.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "AGUA DE COCO TIAL 12X1000ML",
+          "qt": 1,
+          "valor": 130.8
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "REFRESCO DE MARACUJA MINECRAFT 24X200ML",
+          "qt": 1,
+          "valor": 47.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "REFRESCO DE MORANGO MINECRAFT 24X200ML",
+          "qt": 1,
+          "valor": 47.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "89956",
+          "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+          "produto": "REFRESCO DE UVA MINECRAFT 24X200ML",
+          "qt": 1,
+          "valor": 47.76
         },
         {
           "data": "04/04/2026",
@@ -106254,6 +106342,134 @@ const VENDAS_DATA = {
           "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
           "qt": 12,
           "valor": 245.4
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 2,
+          "valor": 177.6
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "valor": 177.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "valor": 177.6
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "qt": 1,
+          "valor": 178.8
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "NECTAR MACA TIAL 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "qt": 1,
+          "valor": 91.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "qt": 1,
+          "valor": 91.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "qt": 1,
+          "valor": 45.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "qt": 1,
+          "valor": 45.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "ST PIERRE LATA BLUEBERRY LT 24X270ML",
+          "qt": 1,
+          "valor": 91.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 3,
+          "valor": 179.64
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "valor": 177.6
         },
         {
           "data": "08/04/2026",
@@ -123956,6 +124172,22 @@ const VENDAS_DATA = {
           "produto": "RED BULL 24X250ML",
           "qt": 3,
           "valor": 503.28
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "87273",
+          "cliente": "38.405.385 ARIANE DE CARVALHO ALVES",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "valor": 221.4
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "87273",
+          "cliente": "38.405.385 ARIANE DE CARVALHO ALVES",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 14.17
         },
         {
           "data": "01/04/2026",
