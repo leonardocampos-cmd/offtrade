@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/04/2026 16:00",
+  "atualizado_em": "13/04/2026 17:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -38080,6 +38080,38 @@ const VENDAS_DATA = {
           "valor": 80.7
         },
         {
+          "data": "13/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 5,
+          "valor": 104.5
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 20,
+          "valor": 398.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 3,
+          "valor": 80.7
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 209.0
+        },
+        {
           "data": "06/04/2026",
           "codcli": "74192",
           "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
@@ -38542,6 +38574,14 @@ const VENDAS_DATA = {
           "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
           "qt": 2,
           "valor": 175.2
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "79246",
+          "cliente": "J R CONVENIENCIAS LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 289.0
         },
         {
           "data": "06/04/2026",
@@ -52574,6 +52614,46 @@ const VENDAS_DATA = {
           "valor": 85.92
         },
         {
+          "data": "13/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 85.02
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 47.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "qt": 1,
+          "valor": 47.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 85.02
+        },
+        {
           "data": "01/04/2026",
           "codcli": "91673",
           "cliente": "TOCA DO AUTOMOVEL LTDA",
@@ -52628,6 +52708,22 @@ const VENDAS_DATA = {
           "produto": "NECTAR LARANJA TIAL 12X250ML",
           "qt": 1,
           "valor": 34.42
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94407",
+          "cliente": "CASTELO DAS FRUTAS HORTIFRUTI LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94407",
+          "cliente": "CASTELO DAS FRUTAS HORTIFRUTI LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 1,
+          "valor": 21.84
         },
         {
           "data": "10/04/2026",
@@ -115299,41 +115395,9 @@ const VENDAS_DATA = {
           "data": "10/04/2026",
           "codcli": "92001",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 90,
-          "valor": 2024.1
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "92001",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "produto": "GIN ROCKS SUNSET 1000ML",
           "qt": 6,
           "valor": 134.94
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "92001",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "qt": 48,
-          "valor": 1079.52
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "92001",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "WHISKY BLACK STONE 1LT",
-          "qt": 48,
-          "valor": 599.52
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "92001",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS 1000ML",
-          "qt": 36,
-          "valor": 809.64
         },
         {
           "data": "11/04/2026",
