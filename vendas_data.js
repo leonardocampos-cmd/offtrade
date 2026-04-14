@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/04/2026 12:00",
+  "atualizado_em": "14/04/2026 13:23",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -92624,7 +92624,7 @@ const VENDAS_DATA = {
         {
           "data": "18/11/2025",
           "codcli": "89948",
-          "cliente": "POSTO DE SERVICO BRASIL LTDA",
+          "cliente": "89948",
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 4,
           "valor": 86.0
@@ -92632,7 +92632,7 @@ const VENDAS_DATA = {
         {
           "data": "18/11/2025",
           "codcli": "89948",
-          "cliente": "POSTO DE SERVICO BRASIL LTDA",
+          "cliente": "89948",
           "produto": "GUARAVITON GINSENG 12X500ML",
           "qt": 2,
           "valor": 53.8
@@ -94626,7 +94626,7 @@ const VENDAS_DATA = {
         {
           "data": "02/01/2026",
           "codcli": "89948",
-          "cliente": "POSTO DE SERVICO BRASIL LTDA",
+          "cliente": "89948",
           "produto": "CERVEJA HEINEKEN LONG 330ML",
           "qt": 2,
           "valor": 259.8
@@ -94634,7 +94634,7 @@ const VENDAS_DATA = {
         {
           "data": "02/01/2026",
           "codcli": "89948",
-          "cliente": "POSTO DE SERVICO BRASIL LTDA",
+          "cliente": "89948",
           "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
           "qt": 2,
           "valor": 127.8
@@ -94642,7 +94642,7 @@ const VENDAS_DATA = {
         {
           "data": "02/01/2026",
           "codcli": "89948",
-          "cliente": "POSTO DE SERVICO BRASIL LTDA",
+          "cliente": "89948",
           "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
           "qt": 3,
           "valor": 147.0
@@ -94650,7 +94650,7 @@ const VENDAS_DATA = {
         {
           "data": "05/01/2026",
           "codcli": "89948",
-          "cliente": "POSTO DE SERVICO BRASIL LTDA",
+          "cliente": "89948",
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 3,
           "valor": 64.5
@@ -94658,7 +94658,7 @@ const VENDAS_DATA = {
         {
           "data": "05/01/2026",
           "codcli": "89948",
-          "cliente": "POSTO DE SERVICO BRASIL LTDA",
+          "cliente": "89948",
           "produto": "RED BULL 250ML CAIXA C/24 UNID",
           "qt": 1,
           "valor": 179.76
@@ -94666,7 +94666,7 @@ const VENDAS_DATA = {
         {
           "data": "05/01/2026",
           "codcli": "89948",
-          "cliente": "POSTO DE SERVICO BRASIL LTDA",
+          "cliente": "89948",
           "produto": "RED BULL SUGAR FREE 250 ML CX C/24",
           "qt": 1,
           "valor": 179.76
@@ -94674,7 +94674,7 @@ const VENDAS_DATA = {
         {
           "data": "12/01/2026",
           "codcli": "89948",
-          "cliente": "POSTO DE SERVICO BRASIL LTDA",
+          "cliente": "89948",
           "produto": "RED BULL 250ML CAIXA C/24 UNID",
           "qt": 1,
           "valor": 179.76
