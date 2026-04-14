@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/04/2026 09:00",
+  "atualizado_em": "14/04/2026 11:13",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -39064,102 +39064,6 @@ const VENDAS_DATA = {
           "valor": 95.7
         },
         {
-          "data": "10/04/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 2,
-          "valor": 189.4
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 2,
-          "valor": 189.4
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 2,
-          "valor": 189.4
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 2,
-          "valor": 189.4
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "qt": 1,
-          "valor": 139.9
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "SUCO MACA 100% DO BEM 24X200ML",
-          "qt": 1,
-          "valor": 129.12
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "GIN BEEFEATER 750ML",
-          "qt": 1,
-          "valor": 79.9
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "GIN BOMBAY SAPPHIRE 750ML",
-          "qt": 1,
-          "valor": 79.9
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "WHISKY JACK DANIELS HONEY 700ML",
-          "qt": 1,
-          "valor": 99.9
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
-          "qt": 2,
-          "valor": 47.88
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 3,
-          "valor": 98.7
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "VODKA SMIRNOFF 600 ML",
-          "qt": 3,
-          "valor": 67.5
-        },
-        {
           "data": "01/04/2026",
           "codcli": "84449",
           "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
@@ -53954,38 +53858,6 @@ const VENDAS_DATA = {
           "valor": 74.0
         },
         {
-          "data": "26/03/2026",
-          "codcli": "86094",
-          "cliente": "MERCADOS BOM PRECO DE SAO JOAO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "qt": 5,
-          "valor": 342.0
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "86094",
-          "cliente": "MERCADOS BOM PRECO DE SAO JOAO LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "qt": 1,
-          "valor": 68.4
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "86094",
-          "cliente": "MERCADOS BOM PRECO DE SAO JOAO LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "qt": 1,
-          "valor": 68.4
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "86094",
-          "cliente": "MERCADOS BOM PRECO DE SAO JOAO LTDA",
-          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "qt": 1,
-          "valor": 68.4
-        },
-        {
           "data": "27/03/2026",
           "codcli": "89919",
           "cliente": "TOP 1 DISTRIBUIDORA DE BEBIDAS, MERCEARIA E MINI MERCADO LIM",
@@ -67702,22 +67574,6 @@ const VENDAS_DATA = {
           "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
           "qt": 1,
           "valor": 182.38
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "94390",
-          "cliente": "SILVANOFARMA DROGARIA LTDA",
-          "produto": "RED BULL 24X250ML",
-          "qt": 1,
-          "valor": 179.76
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "94390",
-          "cliente": "SILVANOFARMA DROGARIA LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 10,
-          "valor": 191.0
         }
       ],
       "Mar/26": [
@@ -136468,38 +136324,6 @@ const VENDAS_DATA = {
           "valor": 155.4
         },
         {
-          "data": "25/03/2026",
-          "codcli": "76068",
-          "cliente": "EDUARDO METZKER DE LIMA 88949150778",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 6,
-          "valor": 221.4
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "76068",
-          "cliente": "EDUARDO METZKER DE LIMA 88949150778",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "qt": 3,
-          "valor": 89.7
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "76068",
-          "cliente": "EDUARDO METZKER DE LIMA 88949150778",
-          "produto": "NECTAR MARACUJA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "76068",
-          "cliente": "EDUARDO METZKER DE LIMA 88949150778",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
           "data": "04/03/2026",
           "codcli": "76017",
           "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
@@ -145866,30 +145690,6 @@ const VENDAS_DATA = {
           "produto": "CATUABA SELVAGEM 900ML",
           "qt": 2,
           "valor": 30.4
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "69866",
-          "cliente": "MERCADO REI DOS REIS NISSIN LTDA",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "qt": 3,
-          "valor": 55.5
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "69866",
-          "cliente": "MERCADO REI DOS REIS NISSIN LTDA",
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "qt": 1,
-          "valor": 139.9
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "69866",
-          "cliente": "MERCADO REI DOS REIS NISSIN LTDA",
-          "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "qt": 12,
-          "valor": 166.8
         },
         {
           "data": "01/04/2026",
