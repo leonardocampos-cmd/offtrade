@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/04/2026 15:00",
+  "atualizado_em": "14/04/2026 16:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -38672,6 +38672,174 @@ const VENDAS_DATA = {
           "valor": 109.5
         },
         {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 20,
+          "valor": 478.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "qt": 1,
+          "valor": 99.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 1,
+          "valor": 13.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 5,
+          "valor": 134.5
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 2,
+          "valor": 279.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "SMIRNOFF ICE 24 UNIDADES (LATA) 24X269ML",
+          "qt": 2,
+          "valor": 209.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "qt": 2,
+          "valor": 205.2
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "qt": 1,
+          "valor": 69.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "GIN ROCKS POCKET PET 12X200ML",
+          "qt": 1,
+          "valor": 104.4
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "GIN ROCKS 1000ML",
+          "qt": 1,
+          "valor": 23.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 1,
+          "valor": 23.6
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 1,
+          "valor": 65.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "qt": 1,
+          "valor": 69.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 1,
+          "valor": 65.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 1,
+          "valor": 65.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "80616",
+          "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 1,
+          "valor": 65.9
+        },
+        {
           "data": "06/04/2026",
           "codcli": "83308",
           "cliente": "CENTRO AUTOMOTIVO GOLFE CLUBE LTDA",
@@ -39321,6 +39489,286 @@ const VENDAS_DATA = {
         },
         {
           "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 5,
+          "valor": 134.5
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "ICE 51 FRUIT LONG NECK 24X275 ML",
+          "qt": 1,
+          "valor": 107.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 5,
+          "valor": 699.5
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "valor": 221.4
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "NECTAR PESSEGO TIAL 12X250ML",
+          "qt": 1,
+          "valor": 29.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 6,
+          "valor": 221.4
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "AGUA MINERAL MAMBA WATER C/ GAS - 24X350",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "AGUA MINERAL MAMBA WATER S/ GAS- 24X350",
+          "qt": 1,
+          "valor": 69.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "COQUETEL COCOBLANC 670 ML",
+          "qt": 3,
+          "valor": 94.47
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "VODKA BELVEDERE 700 ML",
+          "qt": 3,
+          "valor": 419.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85671",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85671",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 2,
+          "valor": 53.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85671",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "NECTAR MANGA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 29.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85671",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "qt": 2,
+          "valor": 215.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85671",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85671",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "COQUETEL COCOBLANC 670 ML",
+          "qt": 3,
+          "valor": 94.47
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85671",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "VODKA BELVEDERE 700 ML",
+          "qt": 2,
+          "valor": 279.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85671",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 6,
+          "valor": 449.4
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85671",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "CHANDON PASSION ROSE 750ML",
+          "qt": 6,
+          "valor": 449.4
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85671",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "qt": 6,
+          "valor": 449.4
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "valor": 221.4
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 5,
+          "valor": 699.5
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "qt": 6,
+          "valor": 83.94
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "VINHO FRISANTE BCO QUINTA MORGADO 750ML",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "VINHO FRISANTE ROSE QUINTA MORGADO 750ML",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "qt": 6,
+          "valor": 449.4
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "COQUETEL COCOBLANC 670 ML",
+          "qt": 3,
+          "valor": 94.47
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "VODKA ABSOLUT - 750 ML",
+          "qt": 6,
+          "valor": 389.4
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "VODKA BELVEDERE 700 ML",
+          "qt": 3,
+          "valor": 419.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 6,
+          "valor": 449.4
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 2,
+          "valor": 131.8
+        },
+        {
+          "data": "14/04/2026",
           "codcli": "91122",
           "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
           "produto": "WHISKY J WALKER BLACK LABEL 750ML",
@@ -39534,6 +39982,78 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "qt": 5,
           "valor": 99.5
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92886",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 2,
+          "valor": 53.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92886",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "ICE 51 CHA COM PESSEGO LN 24X275ML",
+          "qt": 1,
+          "valor": 107.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92886",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "qt": 1,
+          "valor": 107.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92886",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "ICE 51 FRUIT LONG NECK 24X275 ML",
+          "qt": 1,
+          "valor": 107.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92886",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92886",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92886",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "AGUA MINERAL MAMBA WATER C/ GAS - 24X350",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92886",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "AGUA MINERAL MAMBA WATER S/ GAS- 24X350",
+          "qt": 1,
+          "valor": 69.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92886",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "COQUETEL COCOBLANC 670 ML",
+          "qt": 3,
+          "valor": 94.47
         },
         {
           "data": "14/04/2026",
@@ -52374,6 +52894,14 @@ const VENDAS_DATA = {
           "valor": 43.68
         },
         {
+          "data": "14/04/2026",
+          "codcli": "81152",
+          "cliente": "SUPER REDE MERCEARIA DE REALENGO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
           "data": "11/04/2026",
           "codcli": "80577",
           "cliente": "CANTINA QUINTAL CARIOCA LTDA",
@@ -52622,6 +53150,78 @@ const VENDAS_DATA = {
           "valor": 47.9
         },
         {
+          "data": "14/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR MACA TIAL 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR CAJU 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
           "data": "01/04/2026",
           "codcli": "91654",
           "cliente": "45.129.967 JHONNY MANHAES GOMES REIS DA SILVA SANTOS",
@@ -52818,6 +53418,30 @@ const VENDAS_DATA = {
           "codcli": "94426",
           "cliente": "MINIMERCADO E BAR BUROCK LTDA",
           "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 85.02
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94445",
+          "cliente": "PADARIA PAO VIVO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94445",
+          "cliente": "PADARIA PAO VIVO LTDA",
+          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 85.02
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94445",
+          "cliente": "PADARIA PAO VIVO LTDA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
           "qt": 1,
           "valor": 85.02
         },
@@ -81488,6 +82112,22 @@ const VENDAS_DATA = {
           "valor": 233.14
         },
         {
+          "data": "14/04/2026",
+          "codcli": "81446",
+          "cliente": "REZENDE ALIMENTOS JPA LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 90,
+          "valor": 2961.0
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "81446",
+          "cliente": "REZENDE ALIMENTOS JPA LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 90,
+          "valor": 2961.0
+        },
+        {
           "data": "09/04/2026",
           "codcli": "81847",
           "cliente": "MERCADO ESPERANCA DE GUARATIBA LTDA",
@@ -89154,70 +89794,6 @@ const VENDAS_DATA = {
           "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
           "qt": 1,
           "valor": 139.9
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 15,
-          "valor": 968.4
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "qt": 1,
-          "valor": 95.9
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-          "qt": 1,
-          "valor": 105.9
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "qt": 1,
-          "valor": 51.9
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 1,
-          "valor": 139.9
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "qt": 1,
-          "valor": 139.9
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 1,
-          "valor": 249.5
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 1,
-          "valor": 249.5
         },
         {
           "data": "31/03/2026",
@@ -98236,14 +98812,6 @@ const VENDAS_DATA = {
           "valor": 51.9
         },
         {
-          "data": "08/04/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 15,
-          "valor": 968.4
-        },
-        {
           "data": "10/04/2026",
           "codcli": "94175",
           "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
@@ -102940,14 +103508,6 @@ const VENDAS_DATA = {
           "produto": "VINHO BORDO QUINTA DO MORGADO 1LT",
           "qt": 24,
           "valor": 421.92
-        },
-        {
-          "data": "23/03/2026",
-          "codcli": "59059",
-          "cliente": "AMIGAOZAO MERCADO LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 12,
-          "valor": 140.4
         },
         {
           "data": "17/03/2026",
@@ -135040,6 +135600,30 @@ const VENDAS_DATA = {
           "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
           "qt": 1,
           "valor": 48.14
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92281",
+          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "qt": 2,
+          "valor": 285.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92281",
+          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 2,
+          "valor": 55.12
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92281",
+          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 43.2
         },
         {
           "data": "08/04/2026",
