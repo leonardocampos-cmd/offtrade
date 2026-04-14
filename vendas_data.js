@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/04/2026 16:00",
+  "atualizado_em": "14/04/2026 17:01",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -67732,6 +67732,54 @@ const VENDAS_DATA = {
           "valor": 2014.56
         },
         {
+          "data": "14/04/2026",
+          "codcli": "92040",
+          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 4,
+          "valor": 95.76
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92040",
+          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 1,
+          "valor": 65.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92040",
+          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 1,
+          "valor": 65.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92040",
+          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 1,
+          "valor": 65.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92040",
+          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92040",
+          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
+          "produto": "WHISKY AME BUFFALO TRACE +1 COPO",
+          "qt": 1,
+          "valor": 144.9
+        },
+        {
           "data": "07/04/2026",
           "codcli": "91693",
           "cliente": "55.529.476 AUREA DOS SANTOS TEIXEIRA",
@@ -67778,6 +67826,54 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 5,
           "valor": 109.5
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 2,
+          "valor": 43.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 2,
+          "valor": 43.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 2,
+          "valor": 56.0
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 1,
+          "valor": 28.0
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 1,
+          "valor": 23.94
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+          "qt": 1,
+          "valor": 43.2
         },
         {
           "data": "01/04/2026",
@@ -131200,6 +131296,584 @@ const VENDAS_DATA = {
           "valor": 165.36
         }
       ],
+      "Abr/26": [
+        {
+          "data": "14/04/2026",
+          "codcli": "6317",
+          "cliente": "NOVO BISPO COMERCIO DE BEBIDAS E ALIMENTOS LTDA ME",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "6317",
+          "cliente": "NOVO BISPO COMERCIO DE BEBIDAS E ALIMENTOS LTDA ME",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "6317",
+          "cliente": "NOVO BISPO COMERCIO DE BEBIDAS E ALIMENTOS LTDA ME",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "6317",
+          "cliente": "NOVO BISPO COMERCIO DE BEBIDAS E ALIMENTOS LTDA ME",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 116.4
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "6317",
+          "cliente": "NOVO BISPO COMERCIO DE BEBIDAS E ALIMENTOS LTDA ME",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 43.2
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "8263",
+          "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "8263",
+          "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 3,
+          "valor": 82.68
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "qt": 2,
+          "valor": 86.4
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "qt": 2,
+          "valor": 142.4
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
+          "qt": 3,
+          "valor": 346.04
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "PINATI DOUBLE BAR DOCE DE LEITE 32X35G",
+          "qt": 3,
+          "valor": 344.7
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "qt": 3,
+          "valor": 119.4
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "PINATI NUTS COCO 20X30G",
+          "qt": 2,
+          "valor": 79.6
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 43.2
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "67267",
+          "cliente": "CATETE GRILL LTDA",
+          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "qt": 1,
+          "valor": 178.8
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "67267",
+          "cliente": "CATETE GRILL LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "qt": 1,
+          "valor": 286.8
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "82130",
+          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "qt": 65,
+          "valor": 10748.4
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "82130",
+          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 96.59
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "82130",
+          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 96.59
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "82130",
+          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "qt": 1,
+          "valor": 49.1
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL SF AMORA",
+          "qt": 2,
+          "valor": 55.12
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "qt": 1,
+          "valor": 71.2
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL SF AMORA",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "84459",
+          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "qt": 1,
+          "valor": 165.36
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "86115",
+          "cliente": "MINIMERCADO ALFERES LTDA",
+          "produto": "RED BULL 24X250ML",
+          "qt": 1,
+          "valor": 165.36
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "90389",
+          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 2,
+          "valor": 55.12
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "90389",
+          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "90389",
+          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "90389",
+          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "90389",
+          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "90389",
+          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF AMORA",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF BLUEBERRY BAUNILHA",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 2,
+          "valor": 57.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 2,
+          "valor": 41.8
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "qt": 2,
+          "valor": 55.12
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 1,
+          "valor": 21.9
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 5,
+          "valor": 144.5
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 5,
+          "valor": 104.5
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "90835",
+          "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "90835",
+          "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 4,
+          "valor": 110.24
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "90835",
+          "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "93695",
+          "cliente": "BAR BARBEARIA PIRRO LTDA",
+          "produto": "RED BULL 24X250ML",
+          "qt": 40,
+          "valor": 6614.4
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "93695",
+          "cliente": "BAR BARBEARIA PIRRO LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "93695",
+          "cliente": "BAR BARBEARIA PIRRO LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "93695",
+          "cliente": "BAR BARBEARIA PIRRO LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "93695",
+          "cliente": "BAR BARBEARIA PIRRO LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "qt": 1,
+          "valor": 48.14
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92281",
+          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "qt": 2,
+          "valor": 285.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92281",
+          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 2,
+          "valor": 55.12
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "92281",
+          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 43.2
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "SUCO DE LARANJA 100% TIAL 12X1000ML",
+          "qt": 1,
+          "valor": 125.28
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91988",
+          "cliente": "GOLLAN'S LANCHES LTDA",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91988",
+          "cliente": "GOLLAN'S LANCHES LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 2,
+          "valor": 55.12
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91913",
+          "cliente": "MERCADO ITAPIRU LTDA",
+          "produto": "RED BULL 24X250ML",
+          "qt": 1,
+          "valor": 165.36
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91913",
+          "cliente": "MERCADO ITAPIRU LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94455",
+          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94455",
+          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94455",
+          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94455",
+          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94455",
+          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94455",
+          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        }
+      ],
       "Dez/25": [
         {
           "data": "04/12/2025",
@@ -135182,544 +135856,6 @@ const VENDAS_DATA = {
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "qt": 1,
           "valor": 94.68
-        }
-      ],
-      "Abr/26": [
-        {
-          "data": "06/04/2026",
-          "codcli": "8263",
-          "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "8263",
-          "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
-          "produto": "4 PACK RED BULL ZERO",
-          "qt": 3,
-          "valor": 82.68
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "52102",
-          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
-          "qt": 2,
-          "valor": 86.4
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "52102",
-          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
-          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
-          "qt": 2,
-          "valor": 142.4
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "52102",
-          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
-          "produto": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
-          "qt": 3,
-          "valor": 346.04
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "52102",
-          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
-          "produto": "PINATI DOUBLE BAR DOCE DE LEITE 32X35G",
-          "qt": 3,
-          "valor": 344.7
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "52102",
-          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
-          "produto": "PINATI NUTS ORIGINAL 20X30G",
-          "qt": 3,
-          "valor": 119.4
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "52102",
-          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
-          "produto": "PINATI NUTS COCO 20X30G",
-          "qt": 2,
-          "valor": 79.6
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "52102",
-          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "qt": 1,
-          "valor": 43.2
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "67267",
-          "cliente": "CATETE GRILL LTDA",
-          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
-          "qt": 1,
-          "valor": 178.8
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "67267",
-          "cliente": "CATETE GRILL LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "qt": 1,
-          "valor": 286.8
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82130",
-          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
-          "produto": "RED BULL 24X250ML",
-          "qt": 65,
-          "valor": 10748.4
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82130",
-          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 96.59
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82130",
-          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "valor": 96.59
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82130",
-          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
-          "qt": 1,
-          "valor": 49.1
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "79902",
-          "cliente": "SAUCE & CO RESTAURANTE LTDA",
-          "produto": "4 PACK RED BULL SF AMORA",
-          "qt": 2,
-          "valor": 55.12
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "79902",
-          "cliente": "SAUCE & CO RESTAURANTE LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "79902",
-          "cliente": "SAUCE & CO RESTAURANTE LTDA",
-          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
-          "qt": 1,
-          "valor": 71.2
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "79902",
-          "cliente": "SAUCE & CO RESTAURANTE LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "79902",
-          "cliente": "SAUCE & CO RESTAURANTE LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "79902",
-          "cliente": "SAUCE & CO RESTAURANTE LTDA",
-          "produto": "4 PACK RED BULL SF AMORA",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "79902",
-          "cliente": "SAUCE & CO RESTAURANTE LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "79902",
-          "cliente": "SAUCE & CO RESTAURANTE LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "84459",
-          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
-          "produto": "RED BULL 24X250ML",
-          "qt": 1,
-          "valor": 165.36
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "86115",
-          "cliente": "MINIMERCADO ALFERES LTDA",
-          "produto": "RED BULL 24X250ML",
-          "qt": 1,
-          "valor": 165.36
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "90389",
-          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 2,
-          "valor": 55.12
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "90389",
-          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "90389",
-          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 2,
-          "valor": 189.4
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "90389",
-          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
-          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "90389",
-          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
-          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "90389",
-          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
-          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL SUGAR FREE",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL SF AMORA",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL SF BLUEBERRY BAUNILHA",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "qt": 2,
-          "valor": 57.8
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 2,
-          "valor": 41.8
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
-          "qt": 2,
-          "valor": 55.12
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 1,
-          "valor": 21.9
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 2,
-          "valor": 189.4
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "qt": 5,
-          "valor": 144.5
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 5,
-          "valor": 104.5
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "90835",
-          "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
-          "produto": "4 PACK RED BULL MELANCIA",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "90835",
-          "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 4,
-          "valor": 110.24
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "90835",
-          "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
-          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "93695",
-          "cliente": "BAR BARBEARIA PIRRO LTDA",
-          "produto": "RED BULL 24X250ML",
-          "qt": 40,
-          "valor": 6614.4
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "93695",
-          "cliente": "BAR BARBEARIA PIRRO LTDA",
-          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "93695",
-          "cliente": "BAR BARBEARIA PIRRO LTDA",
-          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "93695",
-          "cliente": "BAR BARBEARIA PIRRO LTDA",
-          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "93695",
-          "cliente": "BAR BARBEARIA PIRRO LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
-          "qt": 1,
-          "valor": 48.14
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "92281",
-          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
-          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-          "qt": 2,
-          "valor": 285.8
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "92281",
-          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 2,
-          "valor": 55.12
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "92281",
-          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "qt": 1,
-          "valor": 43.2
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94255",
-          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
-          "produto": "SUCO DE LARANJA 100% TIAL 12X1000ML",
-          "qt": 1,
-          "valor": 125.28
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "94255",
-          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 5,
-          "valor": 109.5
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "91988",
-          "cliente": "GOLLAN'S LANCHES LTDA",
-          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "qt": 1,
-          "valor": 175.2
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "91988",
-          "cliente": "GOLLAN'S LANCHES LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 2,
-          "valor": 55.12
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91913",
-          "cliente": "MERCADO ITAPIRU LTDA",
-          "produto": "RED BULL 24X250ML",
-          "qt": 1,
-          "valor": 165.36
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91913",
-          "cliente": "MERCADO ITAPIRU LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "94455",
-          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
-          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "qt": 1,
-          "valor": 175.2
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "94455",
-          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "94455",
-          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "94455",
-          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
-          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "94455",
-          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
-          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "94455",
-          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
-          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "qt": 1,
-          "valor": 87.6
         }
       ]
     },
