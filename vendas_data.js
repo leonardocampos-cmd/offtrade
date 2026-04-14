@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/04/2026 18:00",
+  "atualizado_em": "14/04/2026 09:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -38584,6 +38584,22 @@ const VENDAS_DATA = {
           "valor": 289.0
         },
         {
+          "data": "13/04/2026",
+          "codcli": "79820",
+          "cliente": "AUTO POSTO QUEBRAMAR LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 289.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "79820",
+          "cliente": "AUTO POSTO QUEBRAMAR LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 3,
+          "valor": 65.7
+        },
+        {
           "data": "06/04/2026",
           "codcli": "81665",
           "cliente": "HORA DO RECREIO COMERCIO DE ALIMENTOS E LANCHES LTDA",
@@ -38902,6 +38918,30 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 2,
           "valor": 43.8
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 2,
+          "valor": 43.8
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 7,
+          "valor": 139.3
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 1,
+          "valor": 26.9
         },
         {
           "data": "01/04/2026",
@@ -52711,6 +52751,22 @@ const VENDAS_DATA = {
         },
         {
           "data": "13/04/2026",
+          "codcli": "91365",
+          "cliente": "PANIFICACAO BARIRI LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91365",
+          "cliente": "PANIFICACAO BARIRI LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "13/04/2026",
           "codcli": "94407",
           "cliente": "CASTELO DAS FRUTAS HORTIFRUTI LTDA",
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
@@ -52804,6 +52860,86 @@ const VENDAS_DATA = {
           "produto": "RC PATE ATUM TRADICIONAL 12X80G",
           "qt": 1,
           "valor": 14.17
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 12,
+          "valor": 330.72
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 2,
+          "valor": 143.52
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 85.02
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 85.02
         },
         {
           "data": "08/04/2026",
@@ -67304,6 +67440,14 @@ const VENDAS_DATA = {
           "valor": 130.54
         },
         {
+          "data": "13/04/2026",
+          "codcli": "10734",
+          "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
+          "produto": "AGUA NA CAIXA 12X330ML",
+          "qt": 10,
+          "valor": 393.6
+        },
+        {
           "data": "09/04/2026",
           "codcli": "53108",
           "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
@@ -67326,6 +67470,14 @@ const VENDAS_DATA = {
           "produto": "CACHACA VELHO BARREIRO 910 ML",
           "qt": 1,
           "valor": 13.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "67339",
+          "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
+          "produto": "AGUA NA CAIXA 12X330ML",
+          "qt": 5,
+          "valor": 196.8
         },
         {
           "data": "08/04/2026",
@@ -67366,6 +67518,30 @@ const VENDAS_DATA = {
           "produto": "PISCO CHI CAPEL RESERVADO 700ML",
           "qt": 3,
           "valor": 299.7
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90969",
+          "cliente": "BARAO DA OFELIA DELIVERY LTDA",
+          "produto": "LICOR COINTREAU 700 ML",
+          "qt": 2,
+          "valor": 235.8
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90969",
+          "cliente": "BARAO DA OFELIA DELIVERY LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "qt": 2,
+          "valor": 67.8
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90969",
+          "cliente": "BARAO DA OFELIA DELIVERY LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 2,
+          "valor": 131.8
         },
         {
           "data": "08/04/2026",
@@ -67414,6 +67590,14 @@ const VENDAS_DATA = {
           "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
           "qt": 1,
           "valor": 71.2
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94091",
+          "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
+          "produto": "AGUA NA CAIXA 12X330ML",
+          "qt": 15,
+          "valor": 590.4
         },
         {
           "data": "09/04/2026",
@@ -81086,6 +81270,62 @@ const VENDAS_DATA = {
           "produto": "VODKA ABSOLUT - 1 LITRO",
           "qt": 3,
           "valor": 209.7
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
+          "qt": 20,
+          "valor": 780.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "VODKA ABSOLUT CX C/ 12X50ML",
+          "qt": 3,
+          "valor": 269.7
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "WHISKY BLACK LABEL  CX C/ 12X50 ML",
+          "qt": 3,
+          "valor": 599.7
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 3,
+          "valor": 92.7
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "qt": 4,
+          "valor": 224.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "qt": 2,
+          "valor": 191.8
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "qt": 2,
+          "valor": 63.8
         },
         {
           "data": "09/04/2026",
@@ -97556,6 +97796,78 @@ const VENDAS_DATA = {
           "valor": 139.9
         },
         {
+          "data": "13/04/2026",
+          "codcli": "82704",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "82704",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 84.7
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "82704",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 84.7
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "82704",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 84.7
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "82704",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 1,
+          "valor": 153.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "82704",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "produto": "WHISKY J WALKER BLACK LABEL 500ML",
+          "qt": 1,
+          "valor": 76.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "82704",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "82704",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 1,
+          "valor": 29.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "82704",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
           "data": "02/04/2026",
           "codcli": "90497",
           "cliente": "55.634.657 BARBARA SANTOS JOE CABRAL",
@@ -106107,62 +106419,6 @@ const VENDAS_DATA = {
           "data": "09/04/2026",
           "codcli": "90484",
           "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 12,
-          "valor": 1068.0
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "qt": 12,
-          "valor": 1068.0
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "qt": 12,
-          "valor": 1068.0
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "qt": 12,
-          "valor": 1068.0
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "LICOR BALLENA MORANGO 750 ML",
-          "qt": 12,
-          "valor": 1188.0
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-          "qt": 12,
-          "valor": 1188.0
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "LICOR BALLENA COCO 750ML",
-          "qt": 6,
-          "valor": 594.0
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
           "produto": "GIN ROCKS WATERMELON 1000ML",
           "qt": 12,
           "valor": 270.0
@@ -106342,6 +106598,54 @@ const VENDAS_DATA = {
           "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
           "qt": 12,
           "valor": 245.4
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 12,
+          "valor": 1068.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 12,
+          "valor": 1068.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 12,
+          "valor": 1068.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "qt": 12,
+          "valor": 1188.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "qt": 12,
+          "valor": 1188.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "qt": 6,
+          "valor": 594.0
         },
         {
           "data": "13/04/2026",
@@ -134218,6 +134522,38 @@ const VENDAS_DATA = {
           "valor": 27.56
         },
         {
+          "data": "13/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL SF AMORA",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
           "data": "01/04/2026",
           "codcli": "84459",
           "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
@@ -138204,6 +138540,86 @@ const VENDAS_DATA = {
           "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
           "qt": 50,
           "valor": 5220.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "qt": 20,
+          "valor": 294.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
+          "qt": 10,
+          "valor": 158.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 120,
+          "valor": 2052.0
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERV BADEN PILCRIST 600LGFA DES 12UN",
+          "qt": 1,
+          "valor": 148.2
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERV BADEN GOLD AL 600 DES 12UN",
+          "qt": 1,
+          "valor": 148.2
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA BADEN WITBIER 1X600ML",
+          "qt": 12,
+          "valor": 1807.2
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA BADEN PEACH 0,60LGFA DES 1UN PBR",
+          "qt": 12,
+          "valor": 150.6
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERV BADEN PEACH 0,60LGFA DES 12UN PBR",
+          "qt": 1,
+          "valor": 150.6
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "qt": 30,
+          "valor": 1684.8
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "qt": 50,
+          "valor": 1959.5
         },
         {
           "data": "09/04/2026",
@@ -145690,6 +146106,14 @@ const VENDAS_DATA = {
           "produto": "CERVEJA AMSTEL RET 24X600ML",
           "qt": 3,
           "valor": 429.6
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "qt": 100,
+          "valor": 6420.0
         }
       ]
     }
