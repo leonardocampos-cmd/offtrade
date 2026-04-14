@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/04/2026 14:00",
+  "atualizado_em": "14/04/2026 15:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -38160,6 +38160,46 @@ const VENDAS_DATA = {
           "valor": 209.0
         },
         {
+          "data": "14/04/2026",
+          "codcli": "74192",
+          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "74192",
+          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "74192",
+          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "74192",
+          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "qt": 2,
+          "valor": 49.2
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "74192",
+          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
+          "produto": "GIN GORDONS 750 ML",
+          "qt": 1,
+          "valor": 61.1
+        },
+        {
           "data": "07/04/2026",
           "codcli": "73248",
           "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
@@ -39280,6 +39320,46 @@ const VENDAS_DATA = {
           "valor": 99.5
         },
         {
+          "data": "14/04/2026",
+          "codcli": "91122",
+          "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 750ML",
+          "qt": 2,
+          "valor": 277.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91122",
+          "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 750ML",
+          "qt": 2,
+          "valor": 129.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91122",
+          "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 2,
+          "valor": 65.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91122",
+          "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
+          "produto": "WHISKY BALLANTINE'S FINEST 1L",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91122",
+          "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
+          "produto": "VODKA ABSOLUT - 750 ML",
+          "qt": 1,
+          "valor": 69.9
+        },
+        {
           "data": "01/04/2026",
           "codcli": "91093",
           "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
@@ -39454,6 +39534,150 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "qt": 5,
           "valor": 99.5
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "NECTAR MANGA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.44
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 6X270ML",
+          "qt": 1,
+          "valor": 22.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
+          "qt": 1,
+          "valor": 22.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "SMIRNOFF ICE 24 UNIDADES (LATA) 24X269ML",
+          "qt": 1,
+          "valor": 104.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "AGUA NA CAIXA 12X500ML",
+          "qt": 1,
+          "valor": 35.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "AGUA MINERAL MAMBA WATER C/ GAS - 6X350",
+          "qt": 2,
+          "valor": 159.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "AGUA MINERAL MAMBA WATER S/ GAS 12X350ML",
+          "qt": 1,
+          "valor": 69.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 29.88
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "NECTAR MANGA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 29.88
         }
       ]
     },
@@ -52868,6 +53092,14 @@ const VENDAS_DATA = {
           "produto": "AGUA MINALBA C/ GAS 6X1,5L",
           "qt": 5,
           "valor": 109.5
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91525",
+          "cliente": "31.626.449 RAMON RAMOS FERNANDES",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 20,
+          "valor": 436.8
         },
         {
           "data": "10/04/2026",
@@ -66596,6 +66828,22 @@ const VENDAS_DATA = {
           "valor": 53.8
         },
         {
+          "data": "14/04/2026",
+          "codcli": "91760",
+          "cliente": "MERCADO DO SONY LTDA",
+          "produto": "ZIN TONICA 12X310ML",
+          "qt": 1,
+          "valor": 48.16
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91760",
+          "cliente": "MERCADO DO SONY LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 4,
+          "valor": 95.76
+        },
+        {
           "data": "13/04/2026",
           "codcli": "91492",
           "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
@@ -67318,6 +67566,38 @@ const VENDAS_DATA = {
           "produto": "AGUA NA CAIXA 12X330ML",
           "qt": 10,
           "valor": 393.6
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "20697",
+          "cliente": "BARBUDO DISTRIBUIDORA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 12,
+          "valor": 366.0
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "20697",
+          "cliente": "BARBUDO DISTRIBUIDORA LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "qt": 6,
+          "valor": 479.52
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "20697",
+          "cliente": "BARBUDO DISTRIBUIDORA LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 2,
+          "valor": 33.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "20697",
+          "cliente": "BARBUDO DISTRIBUIDORA LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 12,
+          "valor": 156.0
         },
         {
           "data": "09/04/2026",
@@ -81560,6 +81840,14 @@ const VENDAS_DATA = {
           "valor": 383.5
         },
         {
+          "data": "14/04/2026",
+          "codcli": "84073",
+          "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "qt": 3,
+          "valor": 575.1
+        },
+        {
           "data": "01/04/2026",
           "codcli": "85451",
           "cliente": "MERCEARIA LEAO FM LTDA",
@@ -81614,6 +81902,14 @@ const VENDAS_DATA = {
           "produto": "4 PACK RED BULL",
           "qt": 30,
           "valor": 826.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85132",
+          "cliente": "MINIMERCADO BOM DO PANTANAL LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "qt": 5,
+          "valor": 334.95
         },
         {
           "data": "09/04/2026",
@@ -97324,6 +97620,30 @@ const VENDAS_DATA = {
           "valor": 164.5
         },
         {
+          "data": "14/04/2026",
+          "codcli": "76233",
+          "cliente": "LOJA NOVO PEDAGIO CONVENIENCIA LTDA",
+          "produto": "AGUA MINERAL PERRIER C/ GAS 6X200ML VD",
+          "qt": 1,
+          "valor": 40.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "76233",
+          "cliente": "LOJA NOVO PEDAGIO CONVENIENCIA LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "76233",
+          "cliente": "LOJA NOVO PEDAGIO CONVENIENCIA LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
           "data": "02/04/2026",
           "codcli": "74688",
           "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
@@ -106806,6 +107126,86 @@ const VENDAS_DATA = {
           "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
           "qt": 3,
           "valor": 204.48
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "qt": 2,
+          "valor": 89.52
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 5,
+          "valor": 999.5
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 5,
+          "valor": 999.5
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 3,
+          "valor": 179.64
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 3,
+          "valor": 179.64
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "produto": "AGUA DE COCO TIAL 12X1000ML",
+          "qt": 1,
+          "valor": 130.8
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "produto": "SUCO UVA E PERA 100% TIAL 12X1000 ML",
+          "qt": 1,
+          "valor": 120.39
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
+          "qt": 1,
+          "valor": 44.76
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "qt": 2,
+          "valor": 89.52
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "qt": 3,
+          "valor": 179.64
         },
         {
           "data": "07/04/2026",
@@ -134688,6 +135088,54 @@ const VENDAS_DATA = {
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "qt": 1,
           "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94455",
+          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94455",
+          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94455",
+          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94455",
+          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94455",
+          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94455",
+          "cliente": "27.604.832 MAX FRANCISCO DE SOUSA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
         }
       ]
     },
