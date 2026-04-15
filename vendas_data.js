@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "15/04/2026 11:00",
+  "atualizado_em": "15/04/2026 12:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -105662,54 +105662,6 @@ const VENDAS_DATA = {
           "valor": 84.9
         },
         {
-          "data": "24/03/2026",
-          "codcli": "90489",
-          "cliente": "MERCADO ILHA DO GOVERNADOR LTDA",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 1,
-          "valor": 165.36
-        },
-        {
-          "data": "24/03/2026",
-          "codcli": "90489",
-          "cliente": "MERCADO ILHA DO GOVERNADOR LTDA",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "qt": 1,
-          "valor": 165.36
-        },
-        {
-          "data": "24/03/2026",
-          "codcli": "90489",
-          "cliente": "MERCADO ILHA DO GOVERNADOR LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 65.28
-        },
-        {
-          "data": "24/03/2026",
-          "codcli": "90489",
-          "cliente": "MERCADO ILHA DO GOVERNADOR LTDA",
-          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-          "qt": 1,
-          "valor": 16.8
-        },
-        {
-          "data": "24/03/2026",
-          "codcli": "90489",
-          "cliente": "MERCADO ILHA DO GOVERNADOR LTDA",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "qt": 1,
-          "valor": 45.9
-        },
-        {
-          "data": "24/03/2026",
-          "codcli": "90489",
-          "cliente": "MERCADO ILHA DO GOVERNADOR LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
           "data": "31/03/2026",
           "codcli": "90341",
           "cliente": "CLAUDIA HONORIO DE LIMA ASSIS 03369320738",
@@ -117782,14 +117734,6 @@ const VENDAS_DATA = {
           "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
           "qt": 12,
           "valor": 658.8
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "94295",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "RUM MONTILLA CRISTAL 1000ML",
-          "qt": 12,
-          "valor": 231.6
         },
         {
           "data": "10/04/2026",
