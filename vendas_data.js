@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "15/04/2026 16:00",
+  "atualizado_em": "15/04/2026 17:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -53686,6 +53686,22 @@ const VENDAS_DATA = {
           "valor": 330.72
         },
         {
+          "data": "15/04/2026",
+          "codcli": "90866",
+          "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "90866",
+          "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.2
+        },
+        {
           "data": "06/04/2026",
           "codcli": "91243",
           "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
@@ -69281,6 +69297,22 @@ const VENDAS_DATA = {
         },
         {
           "data": "15/04/2026",
+          "codcli": "78872",
+          "cliente": "BAR E RESTAURANTE SOCIAL TRAPIA LTDA",
+          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "qt": 4,
+          "valor": 715.2
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "78872",
+          "cliente": "BAR E RESTAURANTE SOCIAL TRAPIA LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "qt": 6,
+          "valor": 809.4
+        },
+        {
+          "data": "15/04/2026",
           "codcli": "83501",
           "cliente": "CRISTINA DE JESUS MORGADO 01436151732",
           "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
@@ -69294,6 +69326,62 @@ const VENDAS_DATA = {
           "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
           "qt": 1,
           "valor": 51.84
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "89348",
+          "cliente": "RAIMUNDA EULENI DE SOUSA NEVES 71138951315",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "qt": 6,
+          "valor": 174.0
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "89348",
+          "cliente": "RAIMUNDA EULENI DE SOUSA NEVES 71138951315",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "qt": 1,
+          "valor": 101.9
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "89348",
+          "cliente": "RAIMUNDA EULENI DE SOUSA NEVES 71138951315",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "89348",
+          "cliente": "RAIMUNDA EULENI DE SOUSA NEVES 71138951315",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 2,
+          "valor": 345.8
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "89348",
+          "cliente": "RAIMUNDA EULENI DE SOUSA NEVES 71138951315",
+          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "qt": 1,
+          "valor": 234.9
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "89348",
+          "cliente": "RAIMUNDA EULENI DE SOUSA NEVES 71138951315",
+          "produto": "CACHACA JOIA DA SERRA OURO 1L",
+          "qt": 2,
+          "valor": 43.8
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "89348",
+          "cliente": "RAIMUNDA EULENI DE SOUSA NEVES 71138951315",
+          "produto": "COQUETEL  PINK MOON 12X600ML - VIDRO",
+          "qt": 1,
+          "valor": 74.88
         },
         {
           "data": "08/04/2026",
@@ -83496,6 +83584,22 @@ const VENDAS_DATA = {
           "valor": 190.8
         },
         {
+          "data": "15/04/2026",
+          "codcli": "83236",
+          "cliente": "CASA DA PIZZA 1910 LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "qt": 12,
+          "valor": 270.0
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "83236",
+          "cliente": "CASA DA PIZZA 1910 LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+          "qt": 6,
+          "valor": 299.4
+        },
+        {
           "data": "01/04/2026",
           "codcli": "81490",
           "cliente": "MAYRON S BAR LTDA",
@@ -83758,6 +83862,30 @@ const VENDAS_DATA = {
           "produto": "4 PACK RED BULL",
           "qt": 30,
           "valor": 826.8
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "86115",
+          "cliente": "MINIMERCADO ALFERES LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "qt": 25,
+          "valor": 3197.5
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "86115",
+          "cliente": "MINIMERCADO ALFERES LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "qt": 6,
+          "valor": 377.4
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "86115",
+          "cliente": "MINIMERCADO ALFERES LTDA",
+          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "qt": 2,
+          "valor": 245.8
         },
         {
           "data": "14/04/2026",
@@ -85522,6 +85650,14 @@ const VENDAS_DATA = {
           "produto": "WHISKY JIM BEAM HONEY 1L",
           "qt": 180,
           "valor": 16920.0
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "18798",
+          "cliente": "EMPORIO DO CADEG LTDA",
+          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "qt": 4,
+          "valor": 715.2
         },
         {
           "data": "09/04/2026",
@@ -148980,6 +149116,30 @@ const VENDAS_DATA = {
           "valor": 30.4
         },
         {
+          "data": "15/04/2026",
+          "codcli": "69866",
+          "cliente": "MERCADO REI DOS REIS NISSIN LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 12,
+          "valor": 166.8
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "69866",
+          "cliente": "MERCADO REI DOS REIS NISSIN LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "69866",
+          "cliente": "MERCADO REI DOS REIS NISSIN LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 3,
+          "valor": 55.5
+        },
+        {
           "data": "01/04/2026",
           "codcli": "75423",
           "cliente": "LUIS CLAUDIO DOS S VIEIRA RELU VENDAS",
@@ -149226,6 +149386,14 @@ const VENDAS_DATA = {
           "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
           "qt": 4,
           "valor": 287.04
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "82069",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
         },
         {
           "data": "11/04/2026",
