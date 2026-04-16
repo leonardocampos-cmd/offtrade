@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/04/2026 15:00",
+  "atualizado_em": "16/04/2026 16:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -53942,6 +53942,38 @@ const VENDAS_DATA = {
           "valor": 135.6
         },
         {
+          "data": "16/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 1,
+          "valor": 167.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 6X270ML",
+          "qt": 1,
+          "valor": 21.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
+          "qt": 1,
+          "valor": 21.9
+        },
+        {
           "data": "14/04/2026",
           "codcli": "94449",
           "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
@@ -54020,6 +54052,126 @@ const VENDAS_DATA = {
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
           "qt": 1,
           "valor": 71.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 2,
+          "valor": 47.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 114.5
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "qt": 1,
+          "valor": 104.7
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 2,
+          "valor": 95.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "NECTAR CAJU 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 2,
+          "valor": 47.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 2,
+          "valor": 189.36
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "valor": 189.36
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "valor": 189.2
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
         },
         {
           "data": "09/04/2026",
@@ -54732,6 +54884,14 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "qt": 5,
           "valor": 99.5
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94206",
+          "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 167.88
         },
         {
           "data": "10/04/2026",
@@ -100860,6 +101020,46 @@ const VENDAS_DATA = {
           "valor": 451.5
         },
         {
+          "data": "16/04/2026",
+          "codcli": "86303",
+          "cliente": "POSTO DE GASOLINA SANTANA LIMITADA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 15,
+          "valor": 298.5
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "86303",
+          "cliente": "POSTO DE GASOLINA SANTANA LIMITADA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 289.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "86303",
+          "cliente": "POSTO DE GASOLINA SANTANA LIMITADA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 209.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "86303",
+          "cliente": "POSTO DE GASOLINA SANTANA LIMITADA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 8,
+          "valor": 172.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "86303",
+          "cliente": "POSTO DE GASOLINA SANTANA LIMITADA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
           "data": "08/04/2026",
           "codcli": "94175",
           "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
@@ -100922,6 +101122,30 @@ const VENDAS_DATA = {
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
           "qt": 15,
           "valor": 968.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94235",
+          "cliente": "TAM TAM MINI MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94235",
+          "cliente": "TAM TAM MINI MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94235",
+          "cliente": "TAM TAM MINI MERCADO LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
         },
         {
           "data": "06/04/2026",
@@ -101242,6 +101466,14 @@ const VENDAS_DATA = {
           "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
           "qt": 1,
           "valor": 71.2
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94495",
+          "cliente": "23.674.855 JANICLEIDE AMABILIA DE SOUZA COSTA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
         }
       ]
     },
