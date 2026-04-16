@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/04/2026 16:00",
+  "atualizado_em": "16/04/2026 17:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -100300,6 +100300,38 @@ const VENDAS_DATA = {
       ],
       "Abr/26": [
         {
+          "data": "16/04/2026",
+          "codcli": "15053",
+          "cliente": "POSTO DE ABASTECIMENTO GRANDE AMOR LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "15053",
+          "cliente": "POSTO DE ABASTECIMENTO GRANDE AMOR LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "15053",
+          "cliente": "POSTO DE ABASTECIMENTO GRANDE AMOR LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "15053",
+          "cliente": "POSTO DE ABASTECIMENTO GRANDE AMOR LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "qt": 1,
+          "valor": 95.9
+        },
+        {
           "data": "06/04/2026",
           "codcli": "76947",
           "cliente": "OLINDA ELLIS CONVENIENCIA EXPRESS LTDA",
@@ -100410,6 +100442,46 @@ const VENDAS_DATA = {
           "produto": "AGUA MINALBA C/ GAS 6X1,5L",
           "qt": 5,
           "valor": 109.5
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 15,
+          "valor": 313.5
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 20,
+          "valor": 398.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 289.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "qt": 10,
+          "valor": 145.0
         },
         {
           "data": "13/04/2026",
