@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/04/2026 12:00",
+  "atualizado_em": "16/04/2026 14:03",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -54732,14 +54732,6 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "qt": 5,
           "valor": 99.5
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "94206",
-          "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 1,
-          "valor": 167.88
         },
         {
           "data": "10/04/2026",
