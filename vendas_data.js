@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/04/2026 09:00",
+  "atualizado_em": "16/04/2026 10:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -68876,30 +68876,6 @@ const VENDAS_DATA = {
           "valor": 479.5
         },
         {
-          "data": "13/04/2026",
-          "codcli": "93889",
-          "cliente": "NOVO LATICINIO LTDA",
-          "produto": "SUCO DE UVA BCO INT QUINTA DO MORGADO 1L",
-          "qt": 12,
-          "valor": 167.88
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "93889",
-          "cliente": "NOVO LATICINIO LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 12,
-          "valor": 167.88
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "93889",
-          "cliente": "NOVO LATICINIO LTDA",
-          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
-          "qt": 12,
-          "valor": 2014.56
-        },
-        {
           "data": "14/04/2026",
           "codcli": "92040",
           "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
@@ -100466,78 +100442,6 @@ const VENDAS_DATA = {
           "produto": "RED BULL ZERO  24X250ML",
           "qt": 2,
           "valor": 349.96
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "RED BULL 24X250ML",
-          "qt": 2,
-          "valor": 349.96
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "qt": 36,
-          "valor": 1796.4
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "CERRO DE PEDRA CHARDONNAY JOVEM BCO",
-          "qt": 24,
-          "valor": 2157.6
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
-          "qt": 24,
-          "valor": 1197.6
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "VINHO ARESTI CABINA 56 SAUV BLANC 750ML",
-          "qt": 36,
-          "valor": 1796.4
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 15,
-          "valor": 313.5
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-          "qt": 15,
-          "valor": 298.5
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 10,
-          "valor": 215.0
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "VINHO ARESTI ESTATE S. SAUV BLANC 750ML",
-          "qt": 24,
-          "valor": 1197.6
         },
         {
           "data": "14/04/2026",
