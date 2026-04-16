@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/04/2026 14:03",
+  "atualizado_em": "16/04/2026 15:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -68820,6 +68820,30 @@ const VENDAS_DATA = {
           "valor": 66.6
         },
         {
+          "data": "16/04/2026",
+          "codcli": "91549",
+          "cliente": "LATICINIOS QUEIJO BOM LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 1,
+          "valor": 199.5
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91549",
+          "cliente": "LATICINIOS QUEIJO BOM LTDA",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "qt": 1,
+          "valor": 153.36
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91549",
+          "cliente": "LATICINIOS QUEIJO BOM LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "qt": 1,
+          "valor": 67.2
+        },
+        {
           "data": "10/04/2026",
           "codcli": "91386",
           "cliente": "PRISCILA BESSA DE PAULA 08926465780",
@@ -68866,6 +68890,30 @@ const VENDAS_DATA = {
           "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
           "qt": 5,
           "valor": 479.5
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "SUCO DE UVA BCO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 167.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 167.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "valor": 167.88
         },
         {
           "data": "14/04/2026",
@@ -69018,6 +69066,14 @@ const VENDAS_DATA = {
           "produto": "VANISH LIQUIDO PINK REFIL 12X500ML",
           "qt": 5,
           "valor": 333.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "92855",
+          "cliente": "RAINHA DO IRIS MERCADO LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 60,
+          "valor": 690.0
         },
         {
           "data": "15/04/2026",
@@ -69302,6 +69358,14 @@ const VENDAS_DATA = {
           "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
           "qt": 1,
           "valor": 43.2
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "2710",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "qt": 1,
+          "valor": 178.8
         },
         {
           "data": "07/04/2026",
@@ -141652,38 +141716,6 @@ const VENDAS_DATA = {
           "valor": 102.42
         },
         {
-          "data": "31/03/2026",
-          "codcli": "69202",
-          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
-          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
-          "qt": 91,
-          "valor": 12467.91
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "69202",
-          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
-          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
-          "qt": 30,
-          "valor": 901.2
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "69202",
-          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
-          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
-          "qt": 10,
-          "valor": 560.6
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "69202",
-          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
-          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
-          "qt": 10,
-          "valor": 391.8
-        },
-        {
           "data": "27/03/2026",
           "codcli": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
@@ -141698,14 +141730,6 @@ const VENDAS_DATA = {
           "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
           "qt": 45,
           "valor": 5977.8
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "69202",
-          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
-          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
-          "qt": 10,
-          "valor": 512.1
         },
         {
           "data": "27/03/2026",
