@@ -120,7 +120,7 @@ def _realizado_mes(df):
     _zero = dict(fat_tt=0.0, fat_castas=0.0, fat_domecq_passport=0.0, fat_hob_azeite=0.0, fat_pinatti=0.0, fat_moving=0.0,
                  pos_tt=0, pos_hob_azeite=0, pos_reckit=0, pos_crusoe=0,
                  pos_tatuzinho=0, pos_redbull=0, pos_pinatti=0,
-                 bonus_pernod=0.0)
+                 bonus_pernod=0.0, pos_pernod=0)
     if df.empty:
         return _zero
 
@@ -138,6 +138,7 @@ def _realizado_mes(df):
     pares_jameson      = int(df[mask_jameson].drop_duplicates(subset=['CODCLI', 'PRODUTO']).shape[0])
     pares_pernod_other = int(df[mask_pernod_other].drop_duplicates(subset=['CODCLI', 'PRODUTO']).shape[0])
     bonus_pernod = round(pares_jameson * 10.0 + pares_pernod_other * 5.0, 2)
+    pos_pernod   = int(df[mask_jameson | mask_pernod_other]['CODCLI'].nunique())
 
     return {
         'fat_tt':              fat(),
@@ -154,6 +155,7 @@ def _realizado_mes(df):
         'pos_redbull':         pos(df['FANTASIA'].str.contains('RED BULL', case=False, na=False)),
         'pos_pinatti':         pos(df['FANTASIA'].str.contains('PINATI', case=False, na=False)),
         'bonus_pernod':        bonus_pernod,
+        'pos_pernod':          pos_pernod,
     }
 
 # ── Histórico mensal agregado (para gráficos) ─────────────────────────────────
@@ -304,6 +306,7 @@ for _, m in metas_com_nome.iterrows():
         'pos_redbull':         {'meta': safe_int(m.get('POSITIVAÇÃO RED BULL')),        'realizado': real['pos_redbull']},
         'pos_pinatti':         {'meta': safe_int(m.get('POSITIVAÇÃO PINATTI')),         'realizado': real['pos_pinatti']},
         'bonus_pernod':        {'meta': 0, 'realizado': real['bonus_pernod']},
+        'pos_pernod':          {'meta': 0, 'realizado': real['pos_pernod']},
     }
 
 vendedores_out = list(vendedores_dict.values())

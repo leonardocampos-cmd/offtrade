@@ -78,6 +78,8 @@
     .btn.copied { border-color: var(--green); color: var(--green); }
     .btn-dl { border-color: #2d6a4f; color: #52b788; }
     .btn-dl:hover { border-color: #52b788; color: #52b788; background: rgba(82,183,136,0.1); }
+    .btn-limite { border-color: #1d4ed8; color: #60a5fa; font-weight: 700; }
+    .btn-limite:hover { border-color: #60a5fa; color: #93c5fd; background: rgba(96,165,250,0.12); }
 
     /* Ring */
     .ring-wrap {
@@ -989,7 +991,8 @@ function renderDetail(v, mes) {
 
   document.getElementById('header-actions').innerHTML = `
     <select class="mes-select" onchange="renderDetail(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'), this.value)">${mesOpts}</select>
-    <button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>`;
+    <button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>
+    <a class="btn btn-limite" href="https://offtrade.duckdns.org/" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
 
   const p = pct(r('fat_tt'), m('fat_tt'));
 
@@ -1087,6 +1090,8 @@ const CAMPANHAS = [
         campo: 'bonus_pernod',
         tipo: 'fat',
         tipo_premio: 'direto',
+        gatilho: 300,
+        gatilho_campo: 'pos_pernod',
       },
     ],
   },
@@ -1151,9 +1156,11 @@ function buildCampanha(mes) {
 
   return camps.map(camp => {
     const cols = camp.metricas.map(m => {
+      const _campGatilhoCampo = m.gatilho_campo || m.campo;
       const totalEquipe = vendedores.reduce((acc, v) => acc + _mv(_pm(v, mes), m.campo, 'realizado'), 0);
-      const gatilhoOk   = m.gatilho != null ? totalEquipe >= m.gatilho : true;
-      const barHtml     = m.gatilho != null ? _campanhaGatilhoBar(totalEquipe, m) : '';
+      const totalGatilho = vendedores.reduce((acc, v) => acc + _mv(_pm(v, mes), _campGatilhoCampo, 'realizado'), 0);
+      const gatilhoOk   = m.gatilho != null ? totalGatilho >= m.gatilho : true;
+      const barHtml     = m.gatilho != null ? _campanhaGatilhoBar(totalGatilho, {...m, tipo: m.gatilho_campo ? 'pos' : m.tipo}) : '';
 
       let rankHtml = '';
 
@@ -1253,14 +1260,19 @@ function buildCampanhaDetail(v, mes) {
   return camps.map(camp => {
     const rows = camp.metricas.map(m => {
       const val        = _mv(_pm(v, mes), m.campo, 'realizado');
-      const totalEquipe = vendedores.reduce((acc, vv) => acc + _mv(_pm(vv, mes), m.campo, 'realizado'), 0);
-      const gatilhoOk  = m.gatilho != null ? totalEquipe >= m.gatilho : true;
+      const _detGatilhoCampo = m.gatilho_campo || m.campo;
+      const totalEquipe  = vendedores.reduce((acc, vv) => acc + _mv(_pm(vv, mes), m.campo, 'realizado'), 0);
+      const totalGatilho = vendedores.reduce((acc, vv) => acc + _mv(_pm(vv, mes), _detGatilhoCampo, 'realizado'), 0);
+      const gatilhoOk  = m.gatilho != null ? totalGatilho >= m.gatilho : true;
       const valFmt     = m.tipo === 'fat' ? fmtFat(val) : fmtPos(val);
 
+      const _gatilhoProgressLabel = m.gatilho != null
+        ? ` (${totalGatilho}/${m.gatilho} PDVs)`
+        : '';
       const gatilhoTag = m.gatilho != null
         ? (gatilhoOk
-            ? `<span style="font-size:0.65rem;font-weight:700;background:var(--green);color:#000;border-radius:4px;padding:1px 6px">GATILHO: ATIVADO</span>`
-            : `<span style="font-size:0.65rem;font-weight:700;background:var(--red);color:#fff;border-radius:4px;padding:1px 6px">GATILHO: DESATIVADO</span>`)
+            ? `<span style="font-size:0.65rem;font-weight:700;background:var(--green);color:#000;border-radius:4px;padding:1px 6px">GATILHO: ATIVADO${_gatilhoProgressLabel}</span>`
+            : `<span style="font-size:0.65rem;font-weight:700;background:var(--red);color:#fff;border-radius:4px;padding:1px 6px">GATILHO: DESATIVADO${_gatilhoProgressLabel}</span>`)
         : '';
 
       let posicaoHtml = '';
@@ -1356,7 +1368,8 @@ function renderAll(vendedores, mes) {
     `${mes}  ·  Atualizado ${METAS_DATA.atualizado_em}`;
 
   document.getElementById('header-actions').innerHTML =
-    `<select class="mes-select" onchange="_mesSel=this.value; document.getElementById('campanha-wrap').innerHTML=buildCampanha(this.value); document.getElementById('cards-grid').innerHTML=_buildCards(METAS_DATA.vendedores, this.value); document.getElementById('header-sub').textContent=this.value+' · Atualizado ${METAS_DATA.atualizado_em}'">${mesOpts}</select>`;
+    `<select class="mes-select" onchange="_mesSel=this.value; document.getElementById('campanha-wrap').innerHTML=buildCampanha(this.value); document.getElementById('cards-grid').innerHTML=_buildCards(METAS_DATA.vendedores, this.value); document.getElementById('header-sub').textContent=this.value+' · Atualizado ${METAS_DATA.atualizado_em}'">${mesOpts}</select>
+     <a class="btn btn-limite" href="https://offtrade.duckdns.org/" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
 
   document.getElementById('app').innerHTML = `
     <div id="campanha-wrap">${buildCampanha(mes)}</div>
