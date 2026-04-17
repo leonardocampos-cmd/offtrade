@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "17/04/2026 11:01",
+  "atualizado_em": "17/04/2026 12:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -135160,22 +135160,6 @@ const VENDAS_DATA = {
           "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
           "qt": 36,
           "valor": 500.4
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91913",
-          "cliente": "MERCADO ITAPIRU LTDA",
-          "produto": "RED BULL 24X250ML",
-          "qt": 1,
-          "valor": 165.36
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91913",
-          "cliente": "MERCADO ITAPIRU LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
         },
         {
           "data": "14/04/2026",
