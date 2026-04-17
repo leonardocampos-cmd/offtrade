@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "17/04/2026 15:00",
+  "atualizado_em": "17/04/2026 16:01",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -37840,6 +37840,38 @@ const VENDAS_DATA = {
           "valor": 87.6
         },
         {
+          "data": "17/04/2026",
+          "codcli": "3713",
+          "cliente": "BARRA GAS COM. E SERVICOS LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 289.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "3713",
+          "cliente": "BARRA GAS COM. E SERVICOS LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 10,
+          "valor": 199.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "3713",
+          "cliente": "BARRA GAS COM. E SERVICOS LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 209.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "3713",
+          "cliente": "BARRA GAS COM. E SERVICOS LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
           "data": "07/04/2026",
           "codcli": "3471",
           "cliente": "POSTO JARDIM OCEANICO LTDA",
@@ -37982,6 +38014,46 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "qt": 10,
           "valor": 199.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 4,
+          "valor": 87.6
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 1,
+          "valor": 26.9
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 3,
+          "valor": 62.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 5,
+          "valor": 99.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 3,
+          "valor": 86.7
         },
         {
           "data": "09/04/2026",
@@ -38318,6 +38390,38 @@ const VENDAS_DATA = {
           "produto": "PINATI SLIM WHEY BRIGADEIRO 16X35G",
           "qt": 1,
           "valor": 49.88
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 15,
+          "valor": 313.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 289.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 20,
+          "valor": 398.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 10,
+          "valor": 219.0
         },
         {
           "data": "08/04/2026",
@@ -53822,6 +53926,30 @@ const VENDAS_DATA = {
           "valor": 21.9
         },
         {
+          "data": "17/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
+          "qt": 1,
+          "valor": 21.9
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 190.8
+        },
+        {
           "data": "16/04/2026",
           "codcli": "94449",
           "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
@@ -68892,6 +69020,38 @@ const VENDAS_DATA = {
           "valor": 66.6
         },
         {
+          "data": "17/04/2026",
+          "codcli": "91399",
+          "cliente": "ALEXSANDER CASSIANO DE FARIA 07983983700",
+          "produto": "VANISH LIQUIDO WHITE REFIL 12X500ML",
+          "qt": 1,
+          "valor": 66.6
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91399",
+          "cliente": "ALEXSANDER CASSIANO DE FARIA 07983983700",
+          "produto": "SUCO MISTO PESSEGO 100% 24X200ML KIDS",
+          "qt": 1,
+          "valor": 47.76
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91399",
+          "cliente": "ALEXSANDER CASSIANO DE FARIA 07983983700",
+          "produto": "REFRESCO DE MORANGO MINECRAFT 24X200ML",
+          "qt": 1,
+          "valor": 47.76
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91399",
+          "cliente": "ALEXSANDER CASSIANO DE FARIA 07983983700",
+          "produto": "GIN ROCKS 1000ML",
+          "qt": 12,
+          "valor": 270.0
+        },
+        {
           "data": "16/04/2026",
           "codcli": "91549",
           "cliente": "LATICINIOS QUEIJO BOM LTDA",
@@ -68962,6 +69122,14 @@ const VENDAS_DATA = {
           "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
           "qt": 5,
           "valor": 479.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "92288",
+          "cliente": "PANIFICACAO MARAJA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.5
         },
         {
           "data": "16/04/2026",
@@ -100644,6 +100812,46 @@ const VENDAS_DATA = {
           "valor": 231.2
         },
         {
+          "data": "17/04/2026",
+          "codcli": "79969",
+          "cliente": "WMDIAS 24H LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 15,
+          "valor": 433.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "79969",
+          "cliente": "WMDIAS 24H LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 15,
+          "valor": 298.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "79969",
+          "cliente": "WMDIAS 24H LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 107.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "79969",
+          "cliente": "WMDIAS 24H LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 25,
+          "valor": 522.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "79969",
+          "cliente": "WMDIAS 24H LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 3,
+          "valor": 65.7
+        },
+        {
           "data": "01/04/2026",
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
@@ -101108,6 +101316,30 @@ const VENDAS_DATA = {
           "valor": 107.5
         },
         {
+          "data": "17/04/2026",
+          "codcli": "89937",
+          "cliente": "POSTO GARAGEM NOVO MODELO LTDA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "qt": 1,
+          "valor": 77.9
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "89937",
+          "cliente": "POSTO GARAGEM NOVO MODELO LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 6,
+          "valor": 197.4
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "89938",
+          "cliente": "AUTO POSTO GERANIUS CAFUBA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 107.5
+        },
+        {
           "data": "14/04/2026",
           "codcli": "89941",
           "cliente": "POSTO VANIA DE ABASTECIMENTO LTDA",
@@ -101138,6 +101370,30 @@ const VENDAS_DATA = {
           "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
           "qt": 3,
           "valor": 451.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "90885",
+          "cliente": "DROGARIA KERO DO PRE LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "90885",
+          "cliente": "DROGARIA KERO DO PRE LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "90885",
+          "cliente": "DROGARIA KERO DO PRE LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 2,
+          "valor": 65.52
         },
         {
           "data": "16/04/2026",
@@ -101264,6 +101520,14 @@ const VENDAS_DATA = {
           "codcli": "94235",
           "cliente": "TAM TAM MINI MERCADO LTDA",
           "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "94235",
+          "cliente": "TAM TAM MINI MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "qt": 1,
           "valor": 94.7
         },
@@ -109262,6 +109526,38 @@ const VENDAS_DATA = {
           "produto": "MARTINI BIANCO 750 ML",
           "qt": 4,
           "valor": 111.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "83643",
+          "cliente": "COMERCIO DE BEBIDAS DOS OLIVEIRAS LTDA",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "qt": 12,
+          "valor": 273.84
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "83643",
+          "cliente": "COMERCIO DE BEBIDAS DOS OLIVEIRAS LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "qt": 1,
+          "valor": 22.82
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "83643",
+          "cliente": "COMERCIO DE BEBIDAS DOS OLIVEIRAS LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "qt": 12,
+          "valor": 199.32
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "83643",
+          "cliente": "COMERCIO DE BEBIDAS DOS OLIVEIRAS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 12,
+          "valor": 270.0
         },
         {
           "data": "13/04/2026",
@@ -135091,6 +135387,38 @@ const VENDAS_DATA = {
         },
         {
           "data": "09/04/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 2,
+          "valor": 26.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "4 PACK RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "qt": 4,
+          "valor": 47.6
+        },
+        {
+          "data": "17/04/2026",
           "codcli": "94255",
           "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
           "produto": "GUARAVITA NATURAL 24X290ML",
