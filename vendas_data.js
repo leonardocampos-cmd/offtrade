@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/04/2026 17:00",
+  "atualizado_em": "17/04/2026 09:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -39432,63 +39432,7 @@ const VENDAS_DATA = {
           "valor": 26.9
         },
         {
-          "data": "14/04/2026",
-          "codcli": "79887",
-          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
-          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-          "qt": 1,
-          "valor": 78.9
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "79887",
-          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
-          "produto": "NECTAR MANGA TIAL 12X250ML",
-          "qt": 1,
-          "valor": 29.88
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "79887",
-          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
-          "produto": "NECTAR LARANJA TIAL 12X250ML",
-          "qt": 1,
-          "valor": 29.88
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "79887",
-          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
-          "produto": "NECTAR UVA TIAL 12X250ML",
-          "qt": 1,
-          "valor": 29.88
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "79887",
-          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
-          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
-          "qt": 1,
-          "valor": 107.98
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "79887",
-          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 1,
-          "valor": 13.9
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "79887",
-          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
-          "produto": "GIN ROCKS POCKET PET 12X200ML",
-          "qt": 1,
-          "valor": 105.0
-        },
-        {
-          "data": "14/04/2026",
+          "data": "17/04/2026",
           "codcli": "79887",
           "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
           "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
@@ -39496,7 +39440,55 @@ const VENDAS_DATA = {
           "valor": 47.88
         },
         {
-          "data": "14/04/2026",
+          "data": "17/04/2026",
+          "codcli": "79887",
+          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
+          "produto": "NECTAR MANGA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 29.88
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "79887",
+          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 29.88
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "79887",
+          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
+          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "qt": 1,
+          "valor": 107.98
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "79887",
+          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "79887",
+          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 1,
+          "valor": 13.9
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "79887",
+          "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
+          "produto": "GIN ROCKS POCKET PET 12X200ML",
+          "qt": 1,
+          "valor": 105.0
+        },
+        {
+          "data": "17/04/2026",
           "codcli": "79887",
           "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
           "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
@@ -39504,7 +39496,7 @@ const VENDAS_DATA = {
           "valor": 134.9
         },
         {
-          "data": "14/04/2026",
+          "data": "17/04/2026",
           "codcli": "79887",
           "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
           "produto": "LICOR ESP DIEGO ZAMORA 43 CHOCOLATE",
@@ -40758,150 +40750,6 @@ const VENDAS_DATA = {
           "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
           "qt": 1,
           "valor": 52.63
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93203",
-          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93203",
-          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93203",
-          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93203",
-          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
-          "produto": "NECTAR MANGA TIAL 12X250ML",
-          "qt": 1,
-          "valor": 34.44
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93203",
-          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93203",
-          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 6X270ML",
-          "qt": 1,
-          "valor": 22.9
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93203",
-          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
-          "qt": 1,
-          "valor": 22.9
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93446",
-          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93446",
-          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "SMIRNOFF ICE 24 UNIDADES (LATA) 24X269ML",
-          "qt": 1,
-          "valor": 104.9
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93446",
-          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "qt": 1,
-          "valor": 139.9
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93446",
-          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "AGUA NA CAIXA 12X500ML",
-          "qt": 1,
-          "valor": 35.9
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93446",
-          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "AGUA MINERAL MAMBA WATER C/ GAS - 6X350",
-          "qt": 2,
-          "valor": 159.8
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93446",
-          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "AGUA MINERAL MAMBA WATER S/ GAS 12X350ML",
-          "qt": 1,
-          "valor": 69.9
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93446",
-          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93446",
-          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93446",
-          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93446",
-          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "NECTAR UVA TIAL 12X250ML",
-          "qt": 1,
-          "valor": 29.88
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93446",
-          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "NECTAR MANGA TIAL 12X250ML",
-          "qt": 1,
-          "valor": 29.88
         }
       ]
     },
@@ -53974,7 +53822,7 @@ const VENDAS_DATA = {
           "valor": 21.9
         },
         {
-          "data": "14/04/2026",
+          "data": "16/04/2026",
           "codcli": "94449",
           "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
@@ -53982,7 +53830,7 @@ const VENDAS_DATA = {
           "valor": 71.76
         },
         {
-          "data": "14/04/2026",
+          "data": "16/04/2026",
           "codcli": "94449",
           "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
           "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
@@ -53990,15 +53838,7 @@ const VENDAS_DATA = {
           "valor": 59.88
         },
         {
-          "data": "14/04/2026",
-          "codcli": "94449",
-          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
-          "produto": "NECTAR MACA TIAL 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "14/04/2026",
+          "data": "16/04/2026",
           "codcli": "94449",
           "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
           "produto": "NECTAR MARACUJA 12X1000ML",
@@ -54006,7 +53846,7 @@ const VENDAS_DATA = {
           "valor": 59.88
         },
         {
-          "data": "14/04/2026",
+          "data": "16/04/2026",
           "codcli": "94449",
           "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
           "produto": "NECTAR MANGA 12X1000ML",
@@ -54014,7 +53854,7 @@ const VENDAS_DATA = {
           "valor": 59.88
         },
         {
-          "data": "14/04/2026",
+          "data": "16/04/2026",
           "codcli": "94449",
           "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
           "produto": "NECTAR LARANJA 12X1000ML",
@@ -54022,7 +53862,7 @@ const VENDAS_DATA = {
           "valor": 59.88
         },
         {
-          "data": "14/04/2026",
+          "data": "16/04/2026",
           "codcli": "94449",
           "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
           "produto": "NECTAR GOIABA 12X1000ML",
@@ -54030,7 +53870,7 @@ const VENDAS_DATA = {
           "valor": 59.88
         },
         {
-          "data": "14/04/2026",
+          "data": "16/04/2026",
           "codcli": "94449",
           "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
           "produto": "NECTAR CAJU 12X1000ML",
@@ -54038,10 +53878,10 @@ const VENDAS_DATA = {
           "valor": 59.88
         },
         {
-          "data": "14/04/2026",
+          "data": "16/04/2026",
           "codcli": "94449",
           "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
-          "produto": "NECTAR ABACAXI 12X1000ML",
+          "produto": "NECTAR MACA TIAL 12X1000ML",
           "qt": 1,
           "valor": 59.88
         },
@@ -68060,6 +67900,38 @@ const VENDAS_DATA = {
       ],
       "Abr/26": [
         {
+          "data": "16/04/2026",
+          "codcli": "66299",
+          "cliente": "SAL COM ERVAS GASTRONOMIA E EVENTOS LTDA",
+          "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
+          "qt": 1,
+          "valor": 599.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "66299",
+          "cliente": "SAL COM ERVAS GASTRONOMIA E EVENTOS LTDA",
+          "produto": "TEQUILA MEX 1800 CRISTALINO +1 COPO",
+          "qt": 1,
+          "valor": 299.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "66299",
+          "cliente": "SAL COM ERVAS GASTRONOMIA E EVENTOS LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "qt": 6,
+          "valor": 287.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "66299",
+          "cliente": "SAL COM ERVAS GASTRONOMIA E EVENTOS LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 12,
+          "valor": 310.8
+        },
+        {
           "data": "01/04/2026",
           "codcli": "71758",
           "cliente": "50.218.202 VIVIANE REGINA SILVA DE ALMEIDA SERPA PARADA",
@@ -68756,6 +68628,46 @@ const VENDAS_DATA = {
           "valor": 65.7
         },
         {
+          "data": "16/04/2026",
+          "codcli": "91623",
+          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91623",
+          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
+          "produto": "SUCO DE UVA BCO INT QUINTA DO MORGADO 1L",
+          "qt": 3,
+          "valor": 41.97
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91623",
+          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 2,
+          "valor": 45.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91623",
+          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
+          "produto": "ST PIERRE ZERO LAT PINK LEMONADE 6X310ML",
+          "qt": 1,
+          "valor": 23.36
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91623",
+          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
+          "produto": "VEJA PERF BAN DE CHEIRO ALG E JASM 12X1L",
+          "qt": 1,
+          "valor": 81.6
+        },
+        {
           "data": "06/04/2026",
           "codcli": "91712",
           "cliente": "PANIFICACAO E CONFEITARIA PRINCIPE DO PAO QUENTE LTDA",
@@ -69450,6 +69362,46 @@ const VENDAS_DATA = {
           "produto": "NECTAR MARACUJA 12X1000ML",
           "qt": 1,
           "valor": 58.2
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91432",
+          "cliente": "BSCRJ DISTRIBUIDORA DE BEBIDAS E MERCEARIA LTDA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "qt": 2,
+          "valor": 91.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91432",
+          "cliente": "BSCRJ DISTRIBUIDORA DE BEBIDAS E MERCEARIA LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "qt": 3,
+          "valor": 287.7
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91432",
+          "cliente": "BSCRJ DISTRIBUIDORA DE BEBIDAS E MERCEARIA LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "qt": 3,
+          "valor": 236.7
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91432",
+          "cliente": "BSCRJ DISTRIBUIDORA DE BEBIDAS E MERCEARIA LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "qt": 6,
+          "valor": 155.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91432",
+          "cliente": "BSCRJ DISTRIBUIDORA DE BEBIDAS E MERCEARIA LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "qt": 6,
+          "valor": 155.4
         }
       ]
     },
@@ -74200,6 +74152,46 @@ const VENDAS_DATA = {
           "valor": 176.7
         },
         {
+          "data": "16/04/2026",
+          "codcli": "6401",
+          "cliente": "MINI MARKET BARRA SUL MERCADO",
+          "produto": "VODKA NATASHA 900ML",
+          "qt": 12,
+          "valor": 142.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "6401",
+          "cliente": "MINI MARKET BARRA SUL MERCADO",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 2,
+          "valor": 47.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "6401",
+          "cliente": "MINI MARKET BARRA SUL MERCADO",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 15,
+          "valor": 328.5
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "6401",
+          "cliente": "MINI MARKET BARRA SUL MERCADO",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 2,
+          "valor": 31.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "6401",
+          "cliente": "MINI MARKET BARRA SUL MERCADO",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "qt": 1,
+          "valor": 54.0
+        },
+        {
           "data": "15/04/2026",
           "codcli": "7768",
           "cliente": "ARMAZEM URBANO ARAGUAIA COMERCIO DE PRODUTOS ALIMENTICIOS LT",
@@ -74414,6 +74406,14 @@ const VENDAS_DATA = {
           "produto": "WHISKY JACK DANIELS APPLE 1L",
           "qt": 12,
           "valor": 1534.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "60369",
+          "cliente": "ALAN SOBRERA DA SILVA 13193217719",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 12,
+          "valor": 294.0
         },
         {
           "data": "09/04/2026",
@@ -75006,6 +75006,14 @@ const VENDAS_DATA = {
           "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
           "qt": 5,
           "valor": 334.95
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "85383",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 6,
+          "valor": 131.4
         },
         {
           "data": "09/04/2026",
@@ -86426,6 +86434,46 @@ const VENDAS_DATA = {
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "qt": 120,
           "valor": 3948.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "18798",
+          "cliente": "EMPORIO DO CADEG LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 180,
+          "valor": 5922.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "18798",
+          "cliente": "EMPORIO DO CADEG LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 180,
+          "valor": 5922.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "86100",
+          "cliente": "OLIVIER ARMAZEM DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "VINHO TTO SUAV QUINTA MORGADO 24X245ML",
+          "qt": 2,
+          "valor": 328.32
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "86100",
+          "cliente": "OLIVIER ARMAZEM DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "VINHO BCO SUAVE QUINTA MORGADO 24X245ML",
+          "qt": 1,
+          "valor": 164.16
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "86100",
+          "cliente": "OLIVIER ARMAZEM DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "valor": 150.24
         },
         {
           "data": "15/04/2026",
@@ -101316,6 +101364,14 @@ const VENDAS_DATA = {
           "valor": 579.56
         },
         {
+          "data": "16/04/2026",
+          "codcli": "91422",
+          "cliente": "EMMENSA VAREJISTA DE SUPRIMENTOS E ALIMENTOS LTDA.",
+          "produto": "AGUA MINERAL MINALBA S/GAS LATA 12X310ML",
+          "qt": 3,
+          "valor": 108.63
+        },
+        {
           "data": "02/04/2026",
           "codcli": "93382",
           "cliente": "SUPERMERCADOS ADONAI LTDA",
@@ -108680,300 +108736,124 @@ const VENDAS_DATA = {
           "valor": 99.0
         },
         {
-          "data": "08/04/2026",
-          "codcli": "77807",
-          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
-          "produto": "NECTAR ABACAXI 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "77807",
-          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
-          "produto": "NECTAR CAJU 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "08/04/2026",
+          "data": "17/04/2026",
           "codcli": "77807",
           "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
           "produto": "NECTAR GOIABA 12X1000ML",
           "qt": 2,
-          "valor": 119.76
+          "valor": 122.16
         },
         {
-          "data": "08/04/2026",
+          "data": "17/04/2026",
           "codcli": "77807",
           "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
           "produto": "NECTAR LARANJA 12X1000ML",
           "qt": 2,
-          "valor": 119.76
+          "valor": 122.16
         },
         {
-          "data": "08/04/2026",
+          "data": "17/04/2026",
           "codcli": "77807",
           "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
           "produto": "NECTAR MACA TIAL 12X1000ML",
           "qt": 2,
-          "valor": 119.76
+          "valor": 122.16
         },
         {
-          "data": "08/04/2026",
+          "data": "17/04/2026",
           "codcli": "77807",
           "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
           "produto": "NECTAR MANGA 12X1000ML",
           "qt": 3,
-          "valor": 179.64
+          "valor": 183.23
         },
         {
-          "data": "08/04/2026",
-          "codcli": "77807",
-          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
-          "produto": "NECTAR MARACUJA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "08/04/2026",
+          "data": "17/04/2026",
           "codcli": "77807",
           "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
           "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
           "qt": 2,
-          "valor": 119.76
+          "valor": 122.16
         },
         {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR ABACAXI 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "data": "17/04/2026",
+          "codcli": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
           "produto": "NECTAR CAJU 12X1000ML",
           "qt": 2,
-          "valor": 119.76
+          "valor": 122.16
         },
         {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR GOIABA 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
+          "data": "16/04/2026",
+          "codcli": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "qt": 12,
+          "valor": 171.84
         },
         {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR LARANJA 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
+          "data": "16/04/2026",
+          "codcli": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "qt": 6,
+          "valor": 122.7
         },
         {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR MACA TIAL 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
+          "data": "16/04/2026",
+          "codcli": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "qt": 6,
+          "valor": 122.7
         },
         {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "qt": 3,
-          "valor": 179.64
+          "data": "16/04/2026",
+          "codcli": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "qt": 6,
+          "valor": 133.2
         },
         {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR MARACUJA 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
+          "data": "16/04/2026",
+          "codcli": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 6,
+          "valor": 133.2
         },
         {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "qt": 3,
-          "valor": 179.64
+          "data": "16/04/2026",
+          "codcli": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 6,
+          "valor": 133.2
         },
         {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "REFRESCO DE MARACUJA MINECRAFT 24X200ML",
-          "qt": 1,
-          "valor": 47.76
+          "data": "16/04/2026",
+          "codcli": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "qt": 6,
+          "valor": 409.8
         },
         {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "REFRESCO DE UVA MINECRAFT 24X200ML",
-          "qt": 1,
-          "valor": 47.76
+          "data": "16/04/2026",
+          "codcli": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "produto": "VODKA NATASHA 900ML",
+          "qt": 12,
+          "valor": 143.28
         },
         {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 2,
-          "valor": 177.6
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 88.8
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "valor": 88.8
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 2,
-          "valor": 177.6
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE LATA BLUEBERRY LT 24X270ML",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE LATA MARGARITA LT 24X270ML",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "qt": 1,
-          "valor": 95.9
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
-          "qt": 1,
-          "valor": 22.9
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
-          "qt": 1,
-          "valor": 178.8
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
-          "qt": 1,
-          "valor": 178.8
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 5,
-          "valor": 999.5
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 5,
-          "valor": 999.5
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
-          "qt": 1,
-          "valor": 45.9
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE ZERO LAT PINK LEMONADE 6X310ML",
-          "qt": 1,
-          "valor": 22.9
+          "data": "16/04/2026",
+          "codcli": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 12,
+          "valor": 147.72
         },
         {
           "data": "08/04/2026",
@@ -108982,6 +108862,230 @@ const VENDAS_DATA = {
           "produto": "ST PIERRE ZERO LATA TROPICAL LT 6X310ML",
           "qt": 1,
           "valor": 22.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "NECTAR CAJU 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "NECTAR MACA TIAL 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 3,
+          "valor": 179.64
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 3,
+          "valor": 179.64
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "REFRESCO DE MARACUJA MINECRAFT 24X200ML",
+          "qt": 1,
+          "valor": 47.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "REFRESCO DE UVA MINECRAFT 24X200ML",
+          "qt": 1,
+          "valor": 47.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 2,
+          "valor": 177.6
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "valor": 177.6
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "ST PIERRE LATA BLUEBERRY LT 24X270ML",
+          "qt": 1,
+          "valor": 91.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "ST PIERRE ZERO LAT PINK LEMONADE 6X310ML",
+          "qt": 1,
+          "valor": 22.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "ST PIERRE LATA MARGARITA LT 24X270ML",
+          "qt": 1,
+          "valor": 91.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
+          "qt": 1,
+          "valor": 91.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "qt": 1,
+          "valor": 95.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "qt": 1,
+          "valor": 91.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
+          "qt": 1,
+          "valor": 45.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
+          "qt": 1,
+          "valor": 22.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
+          "qt": 1,
+          "valor": 91.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "qt": 1,
+          "valor": 178.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
+          "qt": 1,
+          "valor": 178.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 5,
+          "valor": 999.5
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 5,
+          "valor": 999.5
         },
         {
           "data": "13/04/2026",
@@ -109118,6 +109222,46 @@ const VENDAS_DATA = {
           "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
           "qt": 30,
           "valor": 1587.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "83642",
+          "cliente": "MINIMERCADO JARDIM ROSARIO LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 18,
+          "valor": 405.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "83642",
+          "cliente": "MINIMERCADO JARDIM ROSARIO LTDA",
+          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "83642",
+          "cliente": "MINIMERCADO JARDIM ROSARIO LTDA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "qt": 4,
+          "valor": 121.72
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "83642",
+          "cliente": "MINIMERCADO JARDIM ROSARIO LTDA",
+          "produto": "MARTINI ROSATO 750 ML",
+          "qt": 4,
+          "valor": 110.64
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "83642",
+          "cliente": "MINIMERCADO JARDIM ROSARIO LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "qt": 4,
+          "valor": 111.0
         },
         {
           "data": "13/04/2026",
@@ -134482,6 +134626,30 @@ const VENDAS_DATA = {
           "valor": 43.2
         },
         {
+          "data": "16/04/2026",
+          "codcli": "55629",
+          "cliente": "DIOGO R DE ANDRADE - CANTINA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 32.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "55629",
+          "cliente": "DIOGO R DE ANDRADE - CANTINA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 1,
+          "valor": 32.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "55629",
+          "cliente": "DIOGO R DE ANDRADE - CANTINA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 43.2
+        },
+        {
           "data": "10/04/2026",
           "codcli": "67267",
           "cliente": "CATETE GRILL LTDA",
@@ -134928,6 +135096,22 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 5,
           "valor": 109.5
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "92344",
+          "cliente": "EMPORIANOS COMERCIO DE PRODUTOS NATURAIS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "92344",
+          "cliente": "EMPORIANOS COMERCIO DE PRODUTOS NATURAIS LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 32.76
         },
         {
           "data": "15/04/2026",
@@ -142150,6 +142334,246 @@ const VENDAS_DATA = {
           "valor": 879.8
         },
         {
+          "data": "16/04/2026",
+          "codcli": "8875",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 12,
+          "valor": 1042.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI PROSECCO 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 30,
+          "valor": 1047.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 30,
+          "valor": 1047.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "VINHO HORIZONTE TINTO 750ML",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
+          "qt": 6,
+          "valor": 203.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 12,
+          "valor": 1042.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+          "qt": 6,
+          "valor": 299.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "VINHO HORIZONTE TINTO 750ML",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI ICE DEMI-SEC 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+          "qt": 6,
+          "valor": 299.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 12,
+          "valor": 1042.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "WHISKY YAMAZAKI 12Y 700ML",
+          "qt": 2,
+          "valor": 1859.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 12,
+          "valor": 1042.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 48,
+          "valor": 1675.2
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI PROSECCO 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
           "data": "08/04/2026",
           "codcli": "13729",
           "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
@@ -142710,6 +143134,278 @@ const VENDAS_DATA = {
           "valor": 287.04
         },
         {
+          "data": "16/04/2026",
+          "codcli": "79318",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79318",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79319",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79319",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79319",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79319",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI PROSECCO 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79319",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
+          "qt": 24,
+          "valor": 813.6
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79319",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79319",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "qt": 6,
+          "valor": 137.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "VINHO HORIZONTE TINTO 750ML",
+          "qt": 6,
+          "valor": 30.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "WHISKY JIM BEAM BLACK 1L",
+          "qt": 12,
+          "valor": 1042.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79321",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79321",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79322",
+          "cliente": "MULTI ITAGUAI MERCADO LTDA",
+          "produto": "VINHO HORIZONTE TINTO 750ML",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79322",
+          "cliente": "MULTI ITAGUAI MERCADO LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79322",
+          "cliente": "MULTI ITAGUAI MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 18,
+          "valor": 628.2
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79322",
+          "cliente": "MULTI ITAGUAI MERCADO LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79323",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79323",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "79323",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "92006",
+          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 12,
+          "valor": 1042.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "92006",
+          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+          "qt": 6,
+          "valor": 299.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "92006",
+          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 18,
+          "valor": 628.2
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "92006",
+          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "92006",
+          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "92006",
+          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+          "produto": "VINHO HORIZONTE TINTO 750ML",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "92006",
+          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "92006",
+          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+          "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
+          "qt": 2,
+          "valor": 1279.8
+        },
+        {
           "data": "01/04/2026",
           "codcli": "92966",
           "cliente": "50.837.594 MILENA LIMA VITOR ALVES",
@@ -142804,6 +143500,38 @@ const VENDAS_DATA = {
           "produto": "CERV BADEN CHOC 0,60LGFA DES 12UN PBR",
           "qt": 5,
           "valor": 881.85
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "81395",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "qt": 340,
+          "valor": 4998.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "qt": 168,
+          "valor": 33984.72
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "qt": 220,
+          "valor": 14841.2
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV BADEN CHOC 0,60LGFA DES 12UN PBR",
+          "qt": 5,
+          "valor": 881.65
         },
         {
           "data": "09/04/2026",
@@ -142998,12 +143726,68 @@ const VENDAS_DATA = {
           "valor": 1557.0
         },
         {
+          "data": "16/04/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "qt": 20,
+          "valor": 783.6
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "qt": 100,
+          "valor": 5606.0
+        },
+        {
           "data": "09/04/2026",
           "codcli": "69375",
           "cliente": "MERCADO TATAIS ITINGA LTDA",
           "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
           "qt": 110,
           "valor": 6982.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA WITBIER PRAYA 600ML - CX12 UND",
+          "qt": 5,
+          "valor": 586.6
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "AGUA MINERAL MAMBA WATER S/ GAS- 24X350",
+          "qt": 20,
+          "valor": 1282.4
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "81395",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "qt": 20,
+          "valor": 850.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "81395",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "qt": 10,
+          "valor": 1368.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "74872",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "qt": 20,
+          "valor": 1038.0
         }
       ],
       "Dez/25": [
@@ -150684,12 +151468,36 @@ const VENDAS_DATA = {
           "valor": 6420.0
         },
         {
+          "data": "16/04/2026",
+          "codcli": "74928",
+          "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "qt": 3,
+          "valor": 447.72
+        },
+        {
           "data": "15/04/2026",
           "codcli": "74979",
           "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
           "produto": "CERVEJA HEINEKEN RET 24X600ML",
           "qt": 20,
           "valor": 3920.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "qt": 3,
+          "valor": 615.0
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "qt": 10,
+          "valor": 1314.7
         }
       ]
     }
