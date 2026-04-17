@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "17/04/2026 16:01",
+  "atualizado_em": "17/04/2026 17:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -38080,6 +38080,30 @@ const VENDAS_DATA = {
           "valor": 131.4
         },
         {
+          "data": "17/04/2026",
+          "codcli": "8739",
+          "cliente": "LOJA DE CONVENIENCIA MARAMAR LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 12,
+          "valor": 250.8
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "8739",
+          "cliente": "LOJA DE CONVENIENCIA MARAMAR LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 10,
+          "valor": 199.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "8739",
+          "cliente": "LOJA DE CONVENIENCIA MARAMAR LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
           "data": "01/04/2026",
           "codcli": "8390",
           "cliente": "GOLDEN GREEN MANIA DELICATSSE LTDA",
@@ -39824,6 +39848,22 @@ const VENDAS_DATA = {
           "valor": 26.9
         },
         {
+          "data": "17/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 3,
+          "valor": 65.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 5,
+          "valor": 144.5
+        },
+        {
           "data": "01/04/2026",
           "codcli": "82919",
           "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
@@ -39942,6 +39982,70 @@ const VENDAS_DATA = {
           "produto": "VODCA SMIRNOFF RED 998 ML",
           "qt": 3,
           "valor": 95.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "82926",
+          "cliente": "AUTO SERVICO PRIMEIRO DO BRASIL LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "82926",
+          "cliente": "AUTO SERVICO PRIMEIRO DO BRASIL LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "82926",
+          "cliente": "AUTO SERVICO PRIMEIRO DO BRASIL LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "82926",
+          "cliente": "AUTO SERVICO PRIMEIRO DO BRASIL LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 1,
+          "valor": 87.49
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "82926",
+          "cliente": "AUTO SERVICO PRIMEIRO DO BRASIL LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "qt": 1,
+          "valor": 87.49
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "82926",
+          "cliente": "AUTO SERVICO PRIMEIRO DO BRASIL LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "qt": 1,
+          "valor": 87.49
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "82926",
+          "cliente": "AUTO SERVICO PRIMEIRO DO BRASIL LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "82926",
+          "cliente": "AUTO SERVICO PRIMEIRO DO BRASIL LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "valor": 139.9
         },
         {
           "data": "01/04/2026",
@@ -54398,6 +54502,54 @@ const VENDAS_DATA = {
           "valor": 85.02
         },
         {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 6,
+          "valor": 119.4
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.25
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 6,
+          "valor": 173.4
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 12,
+          "valor": 330.72
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 6,
+          "valor": 125.4
+        },
+        {
           "data": "01/04/2026",
           "codcli": "91673",
           "cliente": "TOCA DO AUTOMOVEL LTDA",
@@ -54852,6 +55004,22 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "qt": 5,
           "valor": 99.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91447",
+          "cliente": "HORTIFRUTIGRANJEIROS BETOFRUTI LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 209.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91447",
+          "cliente": "HORTIFRUTIGRANJEIROS BETOFRUTI LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 47.9
         },
         {
           "data": "16/04/2026",
@@ -75462,6 +75630,38 @@ const VENDAS_DATA = {
           "produto": "WHISKY OLD PARR 12Y 1 L",
           "qt": 3,
           "valor": 449.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "84950",
+          "cliente": "CRISTIANO F. DE SOUSA MERCADO, PADARIA E ACOUGUE",
+          "produto": "APERITIVO CAMPARI 998ML",
+          "qt": 12,
+          "valor": 588.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "84950",
+          "cliente": "CRISTIANO F. DE SOUSA MERCADO, PADARIA E ACOUGUE",
+          "produto": "GIN ROCKS 1000ML",
+          "qt": 12,
+          "valor": 270.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "84950",
+          "cliente": "CRISTIANO F. DE SOUSA MERCADO, PADARIA E ACOUGUE",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "84950",
+          "cliente": "CRISTIANO F. DE SOUSA MERCADO, PADARIA E ACOUGUE",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "qt": 3,
+          "valor": 489.0
         },
         {
           "data": "07/04/2026",
@@ -110344,6 +110544,38 @@ const VENDAS_DATA = {
           "valor": 286.8
         },
         {
+          "data": "17/04/2026",
+          "codcli": "90171",
+          "cliente": "F CAMPANHA COMERCIO DE MATERIAL DE LIMPEZA EM GERAL LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 2,
+          "valor": 67.92
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "90171",
+          "cliente": "F CAMPANHA COMERCIO DE MATERIAL DE LIMPEZA EM GERAL LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 1,
+          "valor": 29.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "90171",
+          "cliente": "F CAMPANHA COMERCIO DE MATERIAL DE LIMPEZA EM GERAL LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "qt": 2,
+          "valor": 67.92
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "90171",
+          "cliente": "F CAMPANHA COMERCIO DE MATERIAL DE LIMPEZA EM GERAL LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "valor": 442.8
+        },
+        {
           "data": "01/04/2026",
           "codcli": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA LTDA",
@@ -128382,6 +128614,30 @@ const VENDAS_DATA = {
           "valor": 109.5
         },
         {
+          "data": "17/04/2026",
+          "codcli": "90158",
+          "cliente": "31.410.843 DANIELLE RESENDE DE OLIVEIRA",
+          "produto": "KIT AMARULA COFFEE 750ML +1 COPO DUBAI",
+          "qt": 3,
+          "valor": 269.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "90158",
+          "cliente": "31.410.843 DANIELLE RESENDE DE OLIVEIRA",
+          "produto": "LIQUEUR AMARULA RASBERRY 750 ML",
+          "qt": 3,
+          "valor": 269.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "90158",
+          "cliente": "31.410.843 DANIELLE RESENDE DE OLIVEIRA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "qt": 1,
+          "valor": 30.9
+        },
+        {
           "data": "14/04/2026",
           "codcli": "90147",
           "cliente": "59.454.147 KAUA LUCAS FERREIRA NEPOMUCENO",
@@ -135288,6 +135544,46 @@ const VENDAS_DATA = {
           "produto": "4 PACK RED BULL ZERO",
           "qt": 1,
           "valor": 27.56
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "qt": 1,
+          "valor": 33.96
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "qt": 1,
+          "valor": 33.96
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "qt": 1,
+          "valor": 33.96
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 5,
+          "valor": 104.5
         },
         {
           "data": "07/04/2026",
