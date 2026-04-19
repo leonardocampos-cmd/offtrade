@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "17/04/2026 18:01",
+  "atualizado_em": "19/04/2026 11:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -40958,6 +40958,14 @@ const VENDAS_DATA = {
           "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
           "qt": 1,
           "valor": 52.63
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91261",
+          "cliente": "COUTIN DISTRIBUIDORA LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 12,
+          "valor": 790.8
         }
       ]
     },
@@ -44026,6 +44034,1784 @@ const VENDAS_DATA = {
           "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
           "qt": 2,
           "valor": 45.8
+        }
+      ],
+      "Abr/26": [
+        {
+          "data": "17/04/2026",
+          "codcli": "548",
+          "cliente": "PADARIA, CONFEITARIA E MERCEARIA SANTA SARAH DE KALLI LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "19666",
+          "cliente": "MERCEARIA HORIZONTE VIDIGAL LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.2
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "19666",
+          "cliente": "MERCEARIA HORIZONTE VIDIGAL LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 5,
+          "valor": 140.4
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "60358",
+          "cliente": "MERCADINHO MINDELENSE LTDA (LJ.1)",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "82790",
+          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 2,
+          "valor": 56.39
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "82790",
+          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "82790",
+          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
+          "produto": "ST PIERRE LATA PALOMA LT 270MLX6",
+          "qt": 1,
+          "valor": 21.48
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "82790",
+          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 43.2
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "82790",
+          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "82790",
+          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "82790",
+          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 2,
+          "valor": 43.68
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "81152",
+          "cliente": "SUPER REDE MERCEARIA DE REALENGO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 3,
+          "valor": 84.59
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 15,
+          "valor": 327.6
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "80578",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 7,
+          "valor": 153.3
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "80578",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 2,
+          "valor": 56.39
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "80578",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "80578",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "80578",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "11/04/2026",
+          "codcli": "80578",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 5,
+          "valor": 358.8
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 12,
+          "valor": 330.72
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "84572",
+          "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "84572",
+          "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "86901",
+          "cliente": "MERCADO T F DA COSTA LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "86901",
+          "cliente": "MERCADO T F DA COSTA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "qt": 1,
+          "valor": 122.9
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "qt": 2,
+          "valor": 255.8
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 9,
+          "valor": 248.04
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 3,
+          "valor": 521.7
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 6,
+          "valor": 203.4
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "qt": 1,
+          "valor": 114.9
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "ICE 51 FRUIT LONG NECK 24X275 ML",
+          "qt": 1,
+          "valor": 114.9
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
+          "qt": 6,
+          "valor": 107.4
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "qt": 12,
+          "valor": 330.72
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "qt": 1,
+          "valor": 119.9
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "qt": 3,
+          "valor": 183.29
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "qt": 4,
+          "valor": 303.6
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "qt": 1,
+          "valor": 177.9
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "qt": 5,
+          "valor": 164.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 3,
+          "valor": 368.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "WHISKY OLD PARR 12Y 1 L",
+          "qt": 2,
+          "valor": 297.8
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "qt": 2,
+          "valor": 155.8
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "90866",
+          "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "90866",
+          "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.2
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91243",
+          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
+          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+          "qt": 12,
+          "valor": 214.8
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91243",
+          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 24,
+          "valor": 333.6
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91243",
+          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91243",
+          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
+          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91243",
+          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
+          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 14.16
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91243",
+          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 14.16
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 47.9
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "91091",
+          "cliente": "BAR E MERCEARIA TAUA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "qt": 4,
+          "valor": 135.6
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
+          "qt": 1,
+          "valor": 21.9
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 190.8
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 167.88
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 6X270ML",
+          "qt": 1,
+          "valor": 21.9
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
+          "qt": 1,
+          "valor": 21.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR CAJU 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94449",
+          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
+          "produto": "NECTAR MACA TIAL 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91654",
+          "cliente": "45.129.967 JHONNY MANHAES GOMES REIS DA SILVA SANTOS",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 2,
+          "valor": 47.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 114.5
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "qt": 1,
+          "valor": 104.7
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 2,
+          "valor": 95.8
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "NECTAR CAJU 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 2,
+          "valor": 47.88
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 2,
+          "valor": 189.36
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "valor": 189.36
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "valor": 189.2
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94266",
+          "cliente": "MERCADINHO SCHIO LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94266",
+          "cliente": "MERCADINHO SCHIO LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 4,
+          "valor": 112.78
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94266",
+          "cliente": "MERCADINHO SCHIO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "94266",
+          "cliente": "MERCADINHO SCHIO LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
+          "qt": 1,
+          "valor": 71.2
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 166.8
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "qt": 6,
+          "valor": 189.0
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 14.17
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 14.17
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
+          "qt": 1,
+          "valor": 71.2
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 166.8
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 14.17
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "94268",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 14.17
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "94275",
+          "cliente": "SANDRA REGINA DE SOUZA PAREDE 01131644751",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 1,
+          "valor": 249.5
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "94275",
+          "cliente": "SANDRA REGINA DE SOUZA PAREDE 01131644751",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 2,
+          "valor": 43.7
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91491",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 3,
+          "valor": 65.55
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91491",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 2,
+          "valor": 55.12
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91491",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "qt": 1,
+          "valor": 85.92
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 85.02
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 47.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "qt": 1,
+          "valor": 47.9
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 85.02
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 47.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94426",
+          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
+          "produto": "PINATI NUTS COCO 20X30G",
+          "qt": 1,
+          "valor": 39.2
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94445",
+          "cliente": "PADARIA PAO VIVO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94445",
+          "cliente": "PADARIA PAO VIVO LTDA",
+          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 85.02
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "94445",
+          "cliente": "PADARIA PAO VIVO LTDA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 85.02
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 6,
+          "valor": 119.4
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.25
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 6,
+          "valor": 173.4
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 12,
+          "valor": 330.72
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 6,
+          "valor": 125.4
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "ST PIERRE ZERO LATA LARANJA  LT 24X310ML",
+          "qt": 1,
+          "valor": 105.9
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "ST PIERRE ZERO LATA COLA  LT24X310ML",
+          "qt": 1,
+          "valor": 105.9
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 1,
+          "valor": 21.85
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 3,
+          "valor": 62.7
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "ST PIERRE ZERO LATA GUARANA  LT 24X310ML",
+          "qt": 1,
+          "valor": 105.9
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "NECTAR LARANJA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.42
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91365",
+          "cliente": "PANIFICACAO BARIRI LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "91365",
+          "cliente": "PANIFICACAO BARIRI LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91365",
+          "cliente": "PANIFICACAO BARIRI LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91365",
+          "cliente": "PANIFICACAO BARIRI LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94407",
+          "cliente": "CASTELO DAS FRUTAS HORTIFRUTI LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94407",
+          "cliente": "CASTELO DAS FRUTAS HORTIFRUTI LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 1,
+          "valor": 21.84
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94419",
+          "cliente": "ALFA MARKET SUPERMERCADO LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94419",
+          "cliente": "ALFA MARKET SUPERMERCADO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91317",
+          "cliente": "PADARIA E CONFEITARIA NOVA SANTA HELENA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 218.4
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91317",
+          "cliente": "PADARIA E CONFEITARIA NOVA SANTA HELENA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "91317",
+          "cliente": "PADARIA E CONFEITARIA NOVA SANTA HELENA LTDA",
+          "produto": "NECTAR CAJU 12X1000ML",
+          "qt": 1,
+          "valor": 70.08
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94382",
+          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 5,
+          "valor": 140.98
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94382",
+          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94382",
+          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94382",
+          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
+          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 14.17
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94382",
+          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 14.17
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 12,
+          "valor": 330.72
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 2,
+          "valor": 143.52
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 85.02
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 85.02
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 85.02
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 2,
+          "valor": 143.52
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 12,
+          "valor": 330.72
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 2,
+          "valor": 117.76
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "qt": 2,
+          "valor": 117.76
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91286",
+          "cliente": "ACOUGUE VILA NOVA DE OLARIA LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 289.0
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91286",
+          "cliente": "ACOUGUE VILA NOVA DE OLARIA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 5,
+          "valor": 99.5
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91286",
+          "cliente": "ACOUGUE VILA NOVA DE OLARIA LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93401",
+          "cliente": "MERCADO PONTO CERTO DAS CONCHAS LTDA",
+          "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+          "qt": 1,
+          "valor": 119.9
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93401",
+          "cliente": "MERCADO PONTO CERTO DAS CONCHAS LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "93401",
+          "cliente": "MERCADO PONTO CERTO DAS CONCHAS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "91525",
+          "cliente": "31.626.449 RAMON RAMOS FERNANDES",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 20,
+          "valor": 436.8
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94396",
+          "cliente": "CASA DE AVES NOVA BRASILIA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 1,
+          "valor": 21.84
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94396",
+          "cliente": "CASA DE AVES NOVA BRASILIA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "NECTAR LARANJA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "NECTAR PESSEGO TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 3,
+          "valor": 82.68
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+          "qt": 4,
+          "valor": 79.6
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 5,
+          "valor": 99.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91447",
+          "cliente": "HORTIFRUTIGRANJEIROS BETOFRUTI LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 209.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91447",
+          "cliente": "HORTIFRUTIGRANJEIROS BETOFRUTI LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 47.9
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "94206",
+          "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 167.88
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94403",
+          "cliente": "TREM GOURMET EMPORIO LTDA",
+          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+          "qt": 1,
+          "valor": 14.17
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94403",
+          "cliente": "TREM GOURMET EMPORIO LTDA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 14.17
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94403",
+          "cliente": "TREM GOURMET EMPORIO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 1,
+          "valor": 21.84
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94403",
+          "cliente": "TREM GOURMET EMPORIO LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 1,
+          "valor": 28.2
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94403",
+          "cliente": "TREM GOURMET EMPORIO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "94403",
+          "cliente": "TREM GOURMET EMPORIO LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 27.56
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "91843",
+          "cliente": "M&F MELAO FRUTI VAREJISTA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 12,
+          "valor": 330.72
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 2,
+          "valor": 55.34
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "qt": 2,
+          "valor": 55.34
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "qt": 2,
+          "valor": 55.34
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 1,
+          "valor": 27.67
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "qt": 1,
+          "valor": 27.67
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+          "qt": 18,
+          "valor": 343.2
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "valor": 177.67
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "PINATI NUTS COCO 20X30G",
+          "qt": 1,
+          "valor": 44.22
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL SF AMORA",
+          "qt": 2,
+          "valor": 55.34
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL MORANGO PESSEGO",
+          "qt": 1,
+          "valor": 27.67
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL CEREJA",
+          "qt": 1,
+          "valor": 27.67
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
+          "qt": 1,
+          "valor": 27.67
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 51.35
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
+          "qt": 1,
+          "valor": 14.16
         }
       ],
       "Dez/25": [
@@ -53546,1680 +55332,6 @@ const VENDAS_DATA = {
           "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
           "qt": 1,
           "valor": 87.48
-        }
-      ],
-      "Abr/26": [
-        {
-          "data": "09/04/2026",
-          "codcli": "19666",
-          "cliente": "MERCEARIA HORIZONTE VIDIGAL LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 5,
-          "valor": 109.2
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "19666",
-          "cliente": "MERCEARIA HORIZONTE VIDIGAL LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 5,
-          "valor": 140.4
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "76984",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "76984",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "76984",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "76984",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "60358",
-          "cliente": "MERCADINHO MINDELENSE LTDA (LJ.1)",
-          "produto": "4 PACK RED BULL",
-          "qt": 6,
-          "valor": 165.36
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82790",
-          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 2,
-          "valor": 56.39
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82790",
-          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82790",
-          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
-          "produto": "ST PIERRE LATA PALOMA LT 270MLX6",
-          "qt": 1,
-          "valor": 21.48
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82790",
-          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "qt": 1,
-          "valor": 43.2
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82790",
-          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82790",
-          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
-          "produto": "NECTAR UVA TIAL 12X250ML",
-          "qt": 1,
-          "valor": 34.68
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82790",
-          "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 2,
-          "valor": 43.68
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "81152",
-          "cliente": "SUPER REDE MERCEARIA DE REALENGO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "80577",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 3,
-          "valor": 84.59
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "80577",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "80577",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "80577",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "80577",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "80577",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 15,
-          "valor": 327.6
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "80578",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 7,
-          "valor": 153.3
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "80578",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 2,
-          "valor": 56.39
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "80578",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "80578",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "80578",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "80578",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84064",
-          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 5,
-          "valor": 358.8
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84064",
-          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
-          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84064",
-          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84064",
-          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84064",
-          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 12,
-          "valor": 330.72
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "86901",
-          "cliente": "MERCADO T F DA COSTA LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "86901",
-          "cliente": "MERCADO T F DA COSTA LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91059",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
-          "qt": 6,
-          "valor": 165.36
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91059",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "produto": "JACK DANIELS HONEY 1 L",
-          "qt": 1,
-          "valor": 122.9
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91059",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L",
-          "qt": 2,
-          "valor": 255.8
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91059",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 9,
-          "valor": 248.04
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91059",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "produto": "WHISKY J WALKER BLACK LABEL 1L",
-          "qt": 3,
-          "valor": 521.7
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91059",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 6,
-          "valor": 203.4
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91059",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
-          "qt": 1,
-          "valor": 114.9
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91059",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "produto": "ICE 51 FRUIT LONG NECK 24X275 ML",
-          "qt": 1,
-          "valor": 114.9
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91059",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
-          "qt": 6,
-          "valor": 107.4
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91059",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-          "qt": 12,
-          "valor": 330.72
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "90866",
-          "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
-          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-          "qt": 1,
-          "valor": 78.9
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "90866",
-          "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 5,
-          "valor": 109.2
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91243",
-          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
-          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-          "qt": 12,
-          "valor": 214.8
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91243",
-          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 24,
-          "valor": 333.6
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91243",
-          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
-          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
-          "qt": 6,
-          "valor": 135.0
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91243",
-          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
-          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
-          "qt": 6,
-          "valor": 135.0
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91243",
-          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
-          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-          "qt": 1,
-          "valor": 14.16
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91243",
-          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "qt": 1,
-          "valor": 14.16
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "90863",
-          "cliente": "PANIFICACAO LUANDA LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "90863",
-          "cliente": "PANIFICACAO LUANDA LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "90863",
-          "cliente": "PANIFICACAO LUANDA LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "91091",
-          "cliente": "BAR E MERCEARIA TAUA LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "qt": 4,
-          "valor": 135.6
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91168",
-          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 1,
-          "valor": 167.88
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91168",
-          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
-          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-          "qt": 1,
-          "valor": 78.9
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91168",
-          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 6X270ML",
-          "qt": 1,
-          "valor": 21.9
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91168",
-          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
-          "qt": 1,
-          "valor": 21.9
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91168",
-          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
-          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-          "qt": 1,
-          "valor": 78.9
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91168",
-          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
-          "qt": 1,
-          "valor": 21.9
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91168",
-          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 12,
-          "valor": 190.8
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "94449",
-          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "94449",
-          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "94449",
-          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
-          "produto": "NECTAR MARACUJA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "94449",
-          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "94449",
-          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
-          "produto": "NECTAR LARANJA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "94449",
-          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
-          "produto": "NECTAR GOIABA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "94449",
-          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
-          "produto": "NECTAR CAJU 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "94449",
-          "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
-          "produto": "NECTAR MACA TIAL 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "91654",
-          "cliente": "45.129.967 JHONNY MANHAES GOMES REIS DA SILVA SANTOS",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91617",
-          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
-          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
-          "qt": 2,
-          "valor": 47.8
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91617",
-          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 5,
-          "valor": 114.5
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91617",
-          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
-          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
-          "qt": 1,
-          "valor": 104.7
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91617",
-          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91617",
-          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91617",
-          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "qt": 2,
-          "valor": 95.8
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "NECTAR CAJU 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "NECTAR LARANJA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
-          "qt": 2,
-          "valor": 47.88
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 2,
-          "valor": 189.36
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 2,
-          "valor": 189.36
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 2,
-          "valor": 189.2
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "94266",
-          "cliente": "MERCADINHO SCHIO LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 6,
-          "valor": 165.36
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "94266",
-          "cliente": "MERCADINHO SCHIO LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 4,
-          "valor": 112.78
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "94266",
-          "cliente": "MERCADINHO SCHIO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
-          "qt": 1,
-          "valor": 71.2
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 12,
-          "valor": 166.8
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "MARTINI BIANCO 750 ML",
-          "qt": 6,
-          "valor": 189.0
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-          "qt": 1,
-          "valor": 14.17
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "qt": 1,
-          "valor": 14.17
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
-          "qt": 1,
-          "valor": 71.2
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 12,
-          "valor": 166.8
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-          "qt": 1,
-          "valor": 14.17
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "qt": 1,
-          "valor": 14.17
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "94275",
-          "cliente": "SANDRA REGINA DE SOUZA PAREDE 01131644751",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 1,
-          "valor": 249.5
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "94275",
-          "cliente": "SANDRA REGINA DE SOUZA PAREDE 01131644751",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 2,
-          "valor": 43.7
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "91491",
-          "cliente": "MERCADO ELLISCH E KELLER LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 3,
-          "valor": 65.55
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "91491",
-          "cliente": "MERCADO ELLISCH E KELLER LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 2,
-          "valor": 55.12
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "91491",
-          "cliente": "MERCADO ELLISCH E KELLER LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "qt": 1,
-          "valor": 85.92
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "qt": 1,
-          "valor": 85.02
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-          "qt": 1,
-          "valor": 85.02
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "PINATI NUTS COCO 20X30G",
-          "qt": 1,
-          "valor": 39.2
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "94445",
-          "cliente": "PADARIA PAO VIVO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "94445",
-          "cliente": "PADARIA PAO VIVO LTDA",
-          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-          "qt": 1,
-          "valor": 85.02
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "94445",
-          "cliente": "PADARIA PAO VIVO LTDA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "qt": 1,
-          "valor": 85.02
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91357",
-          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-          "qt": 6,
-          "valor": 119.4
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91357",
-          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
-          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
-          "qt": 6,
-          "valor": 131.4
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91357",
-          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 5,
-          "valor": 109.25
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91357",
-          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "qt": 6,
-          "valor": 173.4
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91357",
-          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 12,
-          "valor": 330.72
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91357",
-          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 6,
-          "valor": 125.4
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "91673",
-          "cliente": "TOCA DO AUTOMOVEL LTDA",
-          "produto": "ST PIERRE ZERO LATA LARANJA  LT 24X310ML",
-          "qt": 1,
-          "valor": 105.9
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "91673",
-          "cliente": "TOCA DO AUTOMOVEL LTDA",
-          "produto": "ST PIERRE ZERO LATA COLA  LT24X310ML",
-          "qt": 1,
-          "valor": 105.9
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "91673",
-          "cliente": "TOCA DO AUTOMOVEL LTDA",
-          "produto": "NECTAR UVA TIAL 12X250ML",
-          "qt": 1,
-          "valor": 34.68
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "91673",
-          "cliente": "TOCA DO AUTOMOVEL LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 1,
-          "valor": 21.85
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "91673",
-          "cliente": "TOCA DO AUTOMOVEL LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 3,
-          "valor": 62.7
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "91673",
-          "cliente": "TOCA DO AUTOMOVEL LTDA",
-          "produto": "ST PIERRE ZERO LATA GUARANA  LT 24X310ML",
-          "qt": 1,
-          "valor": 105.9
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "91673",
-          "cliente": "TOCA DO AUTOMOVEL LTDA",
-          "produto": "NECTAR LARANJA TIAL 12X250ML",
-          "qt": 1,
-          "valor": 34.42
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "91365",
-          "cliente": "PANIFICACAO BARIRI LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "91365",
-          "cliente": "PANIFICACAO BARIRI LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 6,
-          "valor": 165.36
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "91365",
-          "cliente": "PANIFICACAO BARIRI LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 6,
-          "valor": 165.36
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "91365",
-          "cliente": "PANIFICACAO BARIRI LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94407",
-          "cliente": "CASTELO DAS FRUTAS HORTIFRUTI LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94407",
-          "cliente": "CASTELO DAS FRUTAS HORTIFRUTI LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 1,
-          "valor": 21.84
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94419",
-          "cliente": "ALFA MARKET SUPERMERCADO LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 6,
-          "valor": 165.36
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94419",
-          "cliente": "ALFA MARKET SUPERMERCADO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "91317",
-          "cliente": "PADARIA E CONFEITARIA NOVA SANTA HELENA LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 10,
-          "valor": 218.4
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "91317",
-          "cliente": "PADARIA E CONFEITARIA NOVA SANTA HELENA LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "91317",
-          "cliente": "PADARIA E CONFEITARIA NOVA SANTA HELENA LTDA",
-          "produto": "NECTAR CAJU 12X1000ML",
-          "qt": 1,
-          "valor": 70.08
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "94382",
-          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 5,
-          "valor": 140.98
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "94382",
-          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "94382",
-          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "94382",
-          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-          "qt": 1,
-          "valor": 14.17
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "94382",
-          "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "qt": 1,
-          "valor": 14.17
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR GOIABA 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR ABACAXI 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR LARANJA 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR MARACUJA 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 12,
-          "valor": 330.72
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 2,
-          "valor": 143.52
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-          "qt": 1,
-          "valor": 85.02
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "qt": 1,
-          "valor": 85.02
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "qt": 1,
-          "valor": 85.02
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 2,
-          "valor": 143.52
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 12,
-          "valor": 330.72
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "qt": 2,
-          "valor": 117.76
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR LARANJA 12X1000ML",
-          "qt": 2,
-          "valor": 117.76
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR ABACAXI 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR GOIABA 12X1000ML",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91286",
-          "cliente": "ACOUGUE VILA NOVA DE OLARIA LTDA",
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "qt": 10,
-          "valor": 289.0
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91286",
-          "cliente": "ACOUGUE VILA NOVA DE OLARIA LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-          "qt": 5,
-          "valor": 99.5
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91286",
-          "cliente": "ACOUGUE VILA NOVA DE OLARIA LTDA",
-          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
-          "qt": 5,
-          "valor": 109.5
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93401",
-          "cliente": "MERCADO PONTO CERTO DAS CONCHAS LTDA",
-          "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-          "qt": 1,
-          "valor": 119.9
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93401",
-          "cliente": "MERCADO PONTO CERTO DAS CONCHAS LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 6,
-          "valor": 165.36
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "93401",
-          "cliente": "MERCADO PONTO CERTO DAS CONCHAS LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "91525",
-          "cliente": "31.626.449 RAMON RAMOS FERNANDES",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 20,
-          "valor": 436.8
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94396",
-          "cliente": "CASA DE AVES NOVA BRASILIA LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 1,
-          "valor": 21.84
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94396",
-          "cliente": "CASA DE AVES NOVA BRASILIA LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91782",
-          "cliente": "DROGARIA FERNANDO LEITE LTDA",
-          "produto": "NECTAR LARANJA TIAL 12X250ML",
-          "qt": 1,
-          "valor": 34.68
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91782",
-          "cliente": "DROGARIA FERNANDO LEITE LTDA",
-          "produto": "NECTAR PESSEGO TIAL 12X250ML",
-          "qt": 1,
-          "valor": 34.68
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91782",
-          "cliente": "DROGARIA FERNANDO LEITE LTDA",
-          "produto": "NECTAR UVA TIAL 12X250ML",
-          "qt": 1,
-          "valor": 34.68
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91782",
-          "cliente": "DROGARIA FERNANDO LEITE LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "qt": 3,
-          "valor": 82.68
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "91782",
-          "cliente": "DROGARIA FERNANDO LEITE LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
-          "qt": 4,
-          "valor": 79.6
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "91782",
-          "cliente": "DROGARIA FERNANDO LEITE LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 6,
-          "valor": 165.36
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "91782",
-          "cliente": "DROGARIA FERNANDO LEITE LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-          "qt": 5,
-          "valor": 99.5
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91447",
-          "cliente": "HORTIFRUTIGRANJEIROS BETOFRUTI LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 10,
-          "valor": 209.0
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91447",
-          "cliente": "HORTIFRUTIGRANJEIROS BETOFRUTI LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "94206",
-          "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 12,
-          "valor": 167.88
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94403",
-          "cliente": "TREM GOURMET EMPORIO LTDA",
-          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-          "qt": 1,
-          "valor": 14.17
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94403",
-          "cliente": "TREM GOURMET EMPORIO LTDA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "qt": 1,
-          "valor": 14.17
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94403",
-          "cliente": "TREM GOURMET EMPORIO LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 1,
-          "valor": 21.84
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94403",
-          "cliente": "TREM GOURMET EMPORIO LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 1,
-          "valor": 28.2
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94403",
-          "cliente": "TREM GOURMET EMPORIO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "94403",
-          "cliente": "TREM GOURMET EMPORIO LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "91843",
-          "cliente": "M&F MELAO FRUTI VAREJISTA LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 12,
-          "valor": 330.72
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 2,
-          "valor": 55.34
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL MELANCIA",
-          "qt": 2,
-          "valor": 55.34
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-          "qt": 2,
-          "valor": 55.34
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "qt": 1,
-          "valor": 27.67
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
-          "qt": 1,
-          "valor": 27.67
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-          "qt": 18,
-          "valor": 343.2
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 12,
-          "valor": 177.67
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "PINATI NUTS COCO 20X30G",
-          "qt": 1,
-          "valor": 44.22
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL SF AMORA",
-          "qt": 2,
-          "valor": 55.34
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL MORANGO PESSEGO",
-          "qt": 1,
-          "valor": 27.67
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL CEREJA",
-          "qt": 1,
-          "valor": 27.67
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
-          "qt": 1,
-          "valor": 27.67
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "qt": 1,
-          "valor": 51.35
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "qt": 1,
-          "valor": 14.16
         }
       ]
     },
@@ -68228,6 +68340,54 @@ const VENDAS_DATA = {
           "valor": 310.8
         },
         {
+          "data": "18/04/2026",
+          "codcli": "72641",
+          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "18/04/2026",
+          "codcli": "72641",
+          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
+          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "18/04/2026",
+          "codcli": "72641",
+          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 60,
+          "valor": 1350.0
+        },
+        {
+          "data": "18/04/2026",
+          "codcli": "72641",
+          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
+          "produto": "GIN ROCKS 1000ML",
+          "qt": 42,
+          "valor": 945.0
+        },
+        {
+          "data": "18/04/2026",
+          "codcli": "72641",
+          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "18/04/2026",
+          "codcli": "72641",
+          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 60,
+          "valor": 1350.0
+        },
+        {
           "data": "01/04/2026",
           "codcli": "71758",
           "cliente": "50.218.202 VIVIANE REGINA SILVA DE ALMEIDA SERPA PARADA",
@@ -68772,6 +68932,62 @@ const VENDAS_DATA = {
           "valor": 187.65
         },
         {
+          "data": "17/04/2026",
+          "codcli": "91485",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "qt": 1,
+          "valor": 66.48
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91485",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "qt": 1,
+          "valor": 66.48
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91485",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "qt": 1,
+          "valor": 66.48
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91485",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "qt": 2,
+          "valor": 51.8
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91485",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "VANISH LIQUIDO PINK REFIL 12X500ML",
+          "qt": 1,
+          "valor": 66.6
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91485",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "qt": 2,
+          "valor": 51.8
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91485",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "VANISH LIQUIDO PINK GARRAFA 12X500ML",
+          "qt": 1,
+          "valor": 92.28
+        },
+        {
           "data": "06/04/2026",
           "codcli": "91536",
           "cliente": "MERCEARIA E BAZAR DA FAMILIA LTDA",
@@ -68866,6 +69082,46 @@ const VENDAS_DATA = {
           "produto": "RC SARDINHA EM OLEO 50X125G",
           "qt": 1,
           "valor": 199.5
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91484",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91484",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91484",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "VANISH LIQUIDO PINK GARRAFA 12X500ML",
+          "qt": 1,
+          "valor": 92.28
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91484",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "VANISH LIQUIDO WHITE GARAFFA 12X500ML",
+          "qt": 1,
+          "valor": 92.28
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91484",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "VANISH LIQUIDO WHITE REFIL 12X500ML",
+          "qt": 1,
+          "valor": 66.6
         },
         {
           "data": "13/04/2026",
@@ -69814,6 +70070,22 @@ const VENDAS_DATA = {
           "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
           "qt": 1,
           "valor": 178.8
+        },
+        {
+          "data": "18/04/2026",
+          "codcli": "2710",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "produto": "AMARULA CREAM 12X750ML +6 COPOS DUBAI",
+          "qt": 1,
+          "valor": 1078.8
+        },
+        {
+          "data": "18/04/2026",
+          "codcli": "2710",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
+          "qt": 6,
+          "valor": 215.4
         },
         {
           "data": "07/04/2026",
@@ -74440,39 +74712,15 @@ const VENDAS_DATA = {
           "valor": 270.0
         },
         {
-          "data": "15/04/2026",
-          "codcli": "3766",
-          "cliente": "ARMAZEM URBANO COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-          "produto": "APERITIVO CAMPARI 998ML",
-          "qt": 3,
-          "valor": 146.7
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "3766",
-          "cliente": "ARMAZEM URBANO COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-          "produto": "VODKA ABSOLUT - 1 LITRO",
-          "qt": 3,
-          "valor": 209.7
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "3766",
-          "cliente": "ARMAZEM URBANO COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-          "produto": "WHISKY BLACK & WHITE 1L",
-          "qt": 3,
-          "valor": 206.7
-        },
-        {
-          "data": "15/04/2026",
+          "data": "17/04/2026",
           "codcli": "3766",
           "cliente": "ARMAZEM URBANO COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
           "produto": "WHISKY J WALKER BLACK LABEL 750ML",
-          "qt": 6,
-          "valor": 713.4
+          "qt": 5,
+          "valor": 594.5
         },
         {
-          "data": "15/04/2026",
+          "data": "17/04/2026",
           "codcli": "3766",
           "cliente": "ARMAZEM URBANO COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
           "produto": "WHISKY J WALKER RED LABEL 1L",
@@ -74480,12 +74728,36 @@ const VENDAS_DATA = {
           "valor": 236.7
         },
         {
-          "data": "15/04/2026",
+          "data": "17/04/2026",
           "codcli": "3766",
           "cliente": "ARMAZEM URBANO COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
           "produto": "WHISKY WHITE HORSE - 1L",
           "qt": 3,
           "valor": 176.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "3766",
+          "cliente": "ARMAZEM URBANO COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "APERITIVO CAMPARI 998ML",
+          "qt": 3,
+          "valor": 146.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "3766",
+          "cliente": "ARMAZEM URBANO COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "qt": 3,
+          "valor": 209.7
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "3766",
+          "cliente": "ARMAZEM URBANO COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "WHISKY BLACK & WHITE 1L",
+          "qt": 3,
+          "valor": 206.7
         },
         {
           "data": "16/04/2026",
@@ -74734,6 +75006,22 @@ const VENDAS_DATA = {
           "produto": "RUM BACARDI SUPERIOR 980ML",
           "qt": 2,
           "valor": 63.8
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "54856",
+          "cliente": "GOMES RESTAURANTE E BAR RJ EIRELI",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 24,
+          "valor": 588.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "54856",
+          "cliente": "GOMES RESTAURANTE E BAR RJ EIRELI",
+          "produto": "GIN GORDONS 750 ML",
+          "qt": 12,
+          "valor": 598.8
         },
         {
           "data": "09/04/2026",
@@ -75534,6 +75822,30 @@ const VENDAS_DATA = {
           "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
           "qt": 1,
           "valor": 68.4
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "86257",
+          "cliente": "MINI MERCADO BOA OPCAO LTDA",
+          "produto": "AGUA DE COCO TIAL 12X1000ML",
+          "qt": 2,
+          "valor": 261.0
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "86257",
+          "cliente": "MINI MERCADO BOA OPCAO LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 12,
+          "valor": 1246.8
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "86257",
+          "cliente": "MINI MERCADO BOA OPCAO LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "qt": 6,
+          "valor": 767.4
         },
         {
           "data": "07/04/2026",
@@ -119232,31 +119544,7 @@ const VENDAS_DATA = {
           "valor": 264.0
         },
         {
-          "data": "13/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "VODKA BELVEDERE 700 ML",
-          "qt": 6,
-          "valor": 695.4
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "LICOR AMARETTO DEL'ORSO 700 ML",
-          "qt": 6,
-          "valor": 365.4
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "qt": 12,
-          "valor": 189.6
-        },
-        {
-          "data": "13/04/2026",
+          "data": "18/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "GIN ROCKS STRAWBERRY 1000ML",
@@ -119264,23 +119552,7 @@ const VENDAS_DATA = {
           "valor": 264.0
         },
         {
-          "data": "13/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
-          "qt": 12,
-          "valor": 1678.8
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "VINHO HORIZONTE BRANCO 750ML",
-          "qt": 12,
-          "valor": 274.8
-        },
-        {
-          "data": "13/04/2026",
+          "data": "18/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "VILLA ROSA BRANCO 750ML",
@@ -119288,7 +119560,7 @@ const VENDAS_DATA = {
           "valor": 298.8
         },
         {
-          "data": "13/04/2026",
+          "data": "18/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "VINHO LATITUD 33 MALBEC  750 ML",
@@ -119296,12 +119568,44 @@ const VENDAS_DATA = {
           "valor": 198.0
         },
         {
-          "data": "13/04/2026",
+          "data": "18/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "qt": 18,
           "valor": 1302.3
+        },
+        {
+          "data": "18/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 12,
+          "valor": 189.6
+        },
+        {
+          "data": "18/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VODKA BELVEDERE 700 ML",
+          "qt": 6,
+          "valor": 695.4
+        },
+        {
+          "data": "18/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "LICOR AMARETTO DEL'ORSO 700 ML",
+          "qt": 6,
+          "valor": 365.4
+        },
+        {
+          "data": "18/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "qt": 12,
+          "valor": 274.8
         },
         {
           "data": "11/04/2026",
@@ -119510,54 +119814,6 @@ const VENDAS_DATA = {
           "produto": "PIRASSUNUNGA 51 965 ML",
           "qt": 60,
           "valor": 727.2
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "PIRASSUNUNGA 51 965 ML",
-          "qt": 24,
-          "valor": 290.88
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
-          "qt": 1,
-          "valor": 103.92
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "WHISKY CHANCELER 1L",
-          "qt": 12,
-          "valor": 172.2
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
-          "qt": 12,
-          "valor": 1678.8
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "qt": 6,
-          "valor": 94.8
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90407",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 18,
-          "valor": 396.0
         },
         {
           "data": "11/04/2026",
