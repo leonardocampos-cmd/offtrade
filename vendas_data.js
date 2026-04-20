@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "20/04/2026 14:00",
+  "atualizado_em": "20/04/2026 15:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -54492,22 +54492,6 @@ const VENDAS_DATA = {
           "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
           "qt": 12,
           "valor": 167.88
-        },
-        {
-          "data": "24/02/2026",
-          "codcli": "92278",
-          "cliente": "DROGARIA ZULIA LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "qt": 5,
-          "valor": 109.2
-        },
-        {
-          "data": "24/02/2026",
-          "codcli": "92278",
-          "cliente": "DROGARIA ZULIA LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "qt": 2,
-          "valor": 56.16
         },
         {
           "data": "12/02/2026",
