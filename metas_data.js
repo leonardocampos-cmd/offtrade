@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "19/04/2026 11:00",
+  "atualizado_em": "20/04/2026 07:23",
   "meses": [
     "Abr/26",
     "Mar/26"
@@ -493,11 +493,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 443640.56,
+        "fat_proj": 411951.95,
         "fat_media_hist": 170241.75,
-        "pos_proj": 25.4,
+        "pos_proj": 23.6,
         "pos_media_hist": 9.3,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -3599,11 +3599,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 133863.79,
+        "fat_proj": 124302.09,
         "fat_media_hist": 157687.27,
-        "pos_proj": 116.8,
+        "pos_proj": 108.4,
         "pos_media_hist": 89.3,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -5235,11 +5235,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 73378.97,
+        "fat_proj": 68137.61,
         "fat_media_hist": 63711.63,
-        "pos_proj": 60.9,
+        "pos_proj": 56.6,
         "pos_media_hist": 49.0,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -7233,11 +7233,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 175897.72,
+        "fat_proj": 163333.59,
         "fat_media_hist": 96320.69,
-        "pos_proj": 37.2,
+        "pos_proj": 34.6,
         "pos_media_hist": 32.3,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -7686,11 +7686,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 409764.96,
+        "fat_proj": 380496.03,
         "fat_media_hist": 400237.76,
-        "pos_proj": 10.2,
+        "pos_proj": 9.4,
         "pos_media_hist": 10.0,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -8379,11 +8379,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 259707.72,
+        "fat_proj": 241157.16,
         "fat_media_hist": 239577.33,
-        "pos_proj": 37.2,
+        "pos_proj": 34.6,
         "pos_media_hist": 29.0,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -9901,11 +9901,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 66975.6,
+        "fat_proj": 62191.63,
         "fat_media_hist": 91523.18,
-        "pos_proj": 22.0,
+        "pos_proj": 20.4,
         "pos_media_hist": 30.7,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -11467,11 +11467,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 269865.83,
+        "fat_proj": 250589.7,
         "fat_media_hist": 149796.18,
-        "pos_proj": 55.8,
+        "pos_proj": 51.9,
         "pos_media_hist": 28.7,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -11931,11 +11931,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 41869.54,
+        "fat_proj": 38878.86,
         "fat_media_hist": 23806.28,
-        "pos_proj": 15.2,
+        "pos_proj": 14.1,
         "pos_media_hist": 12.0,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -12725,11 +12725,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 411545.1,
+        "fat_proj": 382149.02,
         "fat_media_hist": 581818.66,
-        "pos_proj": 47.4,
+        "pos_proj": 44.0,
         "pos_media_hist": 33.3,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -13295,11 +13295,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 59132.68,
+        "fat_proj": 54908.92,
         "fat_media_hist": 70945.1,
-        "pos_proj": 28.8,
+        "pos_proj": 26.7,
         "pos_media_hist": 23.3,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -13441,11 +13441,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 413625.05,
+        "fat_proj": 384080.4,
         "fat_media_hist": 0.0,
-        "pos_proj": 1.7,
+        "pos_proj": 1.6,
         "pos_media_hist": 0.0,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -15910,11 +15910,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 40690.86,
+        "fat_proj": 37784.37,
         "fat_media_hist": 39273.37,
-        "pos_proj": 76.2,
+        "pos_proj": 70.7,
         "pos_media_hist": 57.0,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -17054,11 +17054,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 104739.46,
+        "fat_proj": 97258.07,
         "fat_media_hist": 83990.71,
-        "pos_proj": 72.8,
+        "pos_proj": 67.6,
         "pos_media_hist": 55.0,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -17534,11 +17534,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 31559.56,
+        "fat_proj": 29305.3,
         "fat_media_hist": 52258.6,
-        "pos_proj": 38.9,
+        "pos_proj": 36.1,
         "pos_media_hist": 34.0,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     },
@@ -18138,11 +18138,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 44353.96,
+        "fat_proj": 41185.82,
         "fat_media_hist": 59883.48,
-        "pos_proj": 33.8,
+        "pos_proj": 31.4,
         "pos_media_hist": 23.3,
-        "du_passados": 13,
+        "du_passados": 14,
         "du_total": 22
       }
     }
