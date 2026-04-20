@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "20/04/2026 11:00",
+  "atualizado_em": "20/04/2026 12:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -44094,14 +44094,6 @@ const VENDAS_DATA = {
           "valor": 94.68
         },
         {
-          "data": "14/04/2026",
-          "codcli": "60358",
-          "cliente": "MERCADINHO MINDELENSE LTDA (LJ.1)",
-          "produto": "4 PACK RED BULL",
-          "qt": 6,
-          "valor": 165.36
-        },
-        {
           "data": "10/04/2026",
           "codcli": "82790",
           "cliente": "AGUIA PARADA OBRIGATORIA COMERCIO LTDA",
@@ -44580,30 +44572,6 @@ const VENDAS_DATA = {
           "produto": "CONHAQUE DOMECQ 1L",
           "qt": 4,
           "valor": 135.6
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91168",
-          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
-          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-          "qt": 1,
-          "valor": 78.9
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91168",
-          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
-          "qt": 1,
-          "valor": 21.9
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91168",
-          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 12,
-          "valor": 190.8
         },
         {
           "data": "17/04/2026",
@@ -136040,22 +136008,6 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 5,
           "valor": 109.5
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "92344",
-          "cliente": "EMPORIANOS COMERCIO DE PRODUTOS NATURAIS LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "92344",
-          "cliente": "EMPORIANOS COMERCIO DE PRODUTOS NATURAIS LTDA",
-          "produto": "4 PACK RED BULL",
-          "qt": 1,
-          "valor": 32.76
         },
         {
           "data": "15/04/2026",
