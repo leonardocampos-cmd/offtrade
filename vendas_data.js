@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "20/04/2026 10:00",
+  "atualizado_em": "20/04/2026 11:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -70248,6 +70248,14 @@ const VENDAS_DATA = {
           "valor": 119.9
         },
         {
+          "data": "20/04/2026",
+          "codcli": "3816",
+          "cliente": "ORGANIZACOES FARINHA PURA LTDA",
+          "produto": "AMARULA CREAM 12X750ML +6 COPOS DUBAI",
+          "qt": 1,
+          "valor": 1078.8
+        },
+        {
           "data": "07/04/2026",
           "codcli": "5371",
           "cliente": "DELICATESSEN LEBLON EIRELI EPP",
@@ -70334,6 +70342,14 @@ const VENDAS_DATA = {
           "produto": "RC ATUM SOLIDO OLEO 24X170G",
           "qt": 2,
           "valor": 417.12
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "8984",
+          "cliente": "SUPERMERCADO ULTRA 07 LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "qt": 12,
+          "valor": 838.8
         },
         {
           "data": "13/04/2026",
@@ -119584,7 +119600,47 @@ const VENDAS_DATA = {
           "valor": 189.6
         },
         {
-          "data": "18/04/2026",
+          "data": "20/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 12,
+          "valor": 189.6
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 12,
+          "valor": 264.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "qt": 12,
+          "valor": 298.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "qt": 6,
+          "valor": 198.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 18,
+          "valor": 1302.3
+        },
+        {
+          "data": "20/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "VODKA BELVEDERE 700 ML",
@@ -119592,7 +119648,7 @@ const VENDAS_DATA = {
           "valor": 695.4
         },
         {
-          "data": "18/04/2026",
+          "data": "20/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "LICOR AMARETTO DEL'ORSO 700 ML",
@@ -119600,7 +119656,7 @@ const VENDAS_DATA = {
           "valor": 365.4
         },
         {
-          "data": "18/04/2026",
+          "data": "20/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "produto": "VINHO HORIZONTE BRANCO 750ML",
@@ -119720,7 +119776,7 @@ const VENDAS_DATA = {
           "valor": 290.88
         },
         {
-          "data": "11/04/2026",
+          "data": "20/04/2026",
           "codcli": "90406",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "CACHACA YPIOCA BRASILIZAR CG OURO 965ML",
@@ -119728,7 +119784,7 @@ const VENDAS_DATA = {
           "valor": 205.2
         },
         {
-          "data": "11/04/2026",
+          "data": "20/04/2026",
           "codcli": "90406",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "CONHAQUE DREHER 900ML",
@@ -119736,7 +119792,7 @@ const VENDAS_DATA = {
           "valor": 199.8
         },
         {
-          "data": "11/04/2026",
+          "data": "20/04/2026",
           "codcli": "90406",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1000ML",
@@ -119744,7 +119800,7 @@ const VENDAS_DATA = {
           "valor": 396.0
         },
         {
-          "data": "11/04/2026",
+          "data": "20/04/2026",
           "codcli": "90406",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "WHISKY CHANCELER 1L",
@@ -119752,7 +119808,7 @@ const VENDAS_DATA = {
           "valor": 172.2
         },
         {
-          "data": "11/04/2026",
+          "data": "20/04/2026",
           "codcli": "90406",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
@@ -119888,6 +119944,14 @@ const VENDAS_DATA = {
           "valor": 132.0
         },
         {
+          "data": "20/04/2026",
+          "codcli": "90415",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 6,
+          "valor": 132.0
+        },
+        {
           "data": "15/04/2026",
           "codcli": "89197",
           "cliente": "PAO COM LETRAS PANIFICADORA LTDA.",
@@ -119952,23 +120016,7 @@ const VENDAS_DATA = {
           "valor": 1104.0
         },
         {
-          "data": "11/04/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "WHISKY CHANCELER 1L",
-          "qt": 12,
-          "valor": 172.2
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
-          "qt": 1,
-          "valor": 103.92
-        },
-        {
-          "data": "11/04/2026",
+          "data": "20/04/2026",
           "codcli": "90820",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
           "produto": "SMIRNOFF ICE GREEN APPLE (LATA) 24X269ML",
@@ -119976,7 +120024,7 @@ const VENDAS_DATA = {
           "valor": 98.4
         },
         {
-          "data": "11/04/2026",
+          "data": "20/04/2026",
           "codcli": "90820",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
           "produto": "COQUETEL BANANINHA REGGIANI 950ML",
@@ -119984,7 +120032,15 @@ const VENDAS_DATA = {
           "valor": 189.6
         },
         {
-          "data": "11/04/2026",
+          "data": "20/04/2026",
+          "codcli": "90820",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 12,
+          "valor": 264.0
+        },
+        {
+          "data": "20/04/2026",
           "codcli": "90820",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
           "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
@@ -119992,12 +120048,20 @@ const VENDAS_DATA = {
           "valor": 1678.8
         },
         {
-          "data": "11/04/2026",
+          "data": "20/04/2026",
           "codcli": "90820",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "produto": "WHISKY CHANCELER 1L",
           "qt": 12,
-          "valor": 264.0
+          "valor": 172.2
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "90820",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "qt": 1,
+          "valor": 103.92
         },
         {
           "data": "11/04/2026",
@@ -144628,22 +144692,6 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MAMBA WATER S/ GAS- 24X350",
           "qt": 20,
           "valor": 1282.4
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "81395",
-          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
-          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
-          "qt": 20,
-          "valor": 850.0
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "81395",
-          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
-          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
-          "qt": 10,
-          "valor": 1368.8
         },
         {
           "data": "16/04/2026",
