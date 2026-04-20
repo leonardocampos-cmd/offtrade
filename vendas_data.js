@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "20/04/2026 16:00",
+  "atualizado_em": "20/04/2026 17:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -40864,6 +40864,30 @@ const VENDAS_DATA = {
           "valor": 597.0
         },
         {
+          "data": "20/04/2026",
+          "codcli": "91093",
+          "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 30,
+          "valor": 597.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "91093",
+          "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 20,
+          "valor": 578.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "91093",
+          "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
           "data": "08/04/2026",
           "codcli": "90205",
           "cliente": "POSTO SOL DA BARRA LTDA",
@@ -45676,6 +45700,54 @@ const VENDAS_DATA = {
           "produto": "NECTAR GOIABA 12X1000ML",
           "qt": 2,
           "valor": 119.76
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 2,
+          "valor": 95.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "qt": 1,
+          "valor": 38.9
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "PINATI NUTS COCO 20X30G",
+          "qt": 1,
+          "valor": 41.9
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "PINATI DOUBLE BAR DOCE DE LEITE 32X35G",
+          "qt": 1,
+          "valor": 114.9
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
+          "qt": 1,
+          "valor": 114.9
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "94431",
+          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "qt": 1,
+          "valor": 52.2
         },
         {
           "data": "08/04/2026",
@@ -71086,6 +71158,22 @@ const VENDAS_DATA = {
           "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
           "qt": 1,
           "valor": 182.38
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "94059",
+          "cliente": "REI DAS CARNES MERCEARIA LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "qt": 1,
+          "valor": 17.49
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "94059",
+          "cliente": "REI DAS CARNES MERCEARIA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 107.5
         }
       ],
       "Mar/26": [
@@ -75086,6 +75174,118 @@ const VENDAS_DATA = {
           "produto": "WHISKY BLACK & WHITE 1L",
           "qt": 3,
           "valor": 206.7
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 432,
+          "valor": 14191.2
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 42,
+          "valor": 1379.7
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 36,
+          "valor": 1182.6
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 48,
+          "valor": 1576.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "ESPUM CASA PERINI PROSECCO 750ML",
+          "qt": 24,
+          "valor": 788.4
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
+          "qt": 18,
+          "valor": 591.3
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 12,
+          "valor": 906.6
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "qt": 20,
+          "valor": 1858.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "qt": 18,
+          "valor": 405.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "qt": 12,
+          "valor": 270.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 24,
+          "valor": 1800.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 12,
+          "valor": 900.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 12,
+          "valor": 900.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "qt": 6,
+          "valor": 135.0
         },
         {
           "data": "16/04/2026",
@@ -109832,6 +110032,118 @@ const VENDAS_DATA = {
           "valor": 32640.0
         },
         {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "qt": 12,
+          "valor": 274.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "qt": 12,
+          "valor": 274.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "qt": 12,
+          "valor": 274.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV.",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 6,
+          "valor": 359.4
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 1,
+          "valor": 69.9
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
           "data": "01/04/2026",
           "codcli": "83574",
           "cliente": "ALTAS HORAS COMERCIO VAREJISTA LTDA",
@@ -132278,6 +132590,22 @@ const VENDAS_DATA = {
           "valor": 163728.0
         },
         {
+          "data": "20/04/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN MAR 750ML",
+          "qt": 42,
+          "valor": 2095.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN AR 6X710ML LT",
+          "qt": 5,
+          "valor": 988.2
+        },
+        {
           "data": "15/04/2026",
           "codcli": "81298",
           "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
@@ -132646,39 +132974,7 @@ const VENDAS_DATA = {
           "valor": 239.4
         },
         {
-          "data": "15/04/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 5,
-          "valor": 410.4
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "GIN MARINA 750ML",
-          "qt": 12,
-          "valor": 358.8
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "qt": 24,
-          "valor": 2277.6
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 24,
-          "valor": 2277.6
-        },
-        {
-          "data": "15/04/2026",
+          "data": "20/04/2026",
           "codcli": "84032",
           "cliente": "KETEK COMERCIAL LTDA",
           "produto": "CACHACA JOIA DA SERRA OURO 1L",
@@ -132686,7 +132982,7 @@ const VENDAS_DATA = {
           "valor": 239.4
         },
         {
-          "data": "15/04/2026",
+          "data": "20/04/2026",
           "codcli": "84032",
           "cliente": "KETEK COMERCIAL LTDA",
           "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
@@ -132694,7 +132990,7 @@ const VENDAS_DATA = {
           "valor": 119.7
         },
         {
-          "data": "15/04/2026",
+          "data": "20/04/2026",
           "codcli": "84032",
           "cliente": "KETEK COMERCIAL LTDA",
           "produto": "VILLA ROSA BRANCO 750ML",
@@ -132702,7 +132998,31 @@ const VENDAS_DATA = {
           "valor": 274.8
         },
         {
-          "data": "15/04/2026",
+          "data": "20/04/2026",
+          "codcli": "84032",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "valor": 410.4
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "84032",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "GIN MARINA 750ML",
+          "qt": 6,
+          "valor": 179.4
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "84032",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 12,
+          "valor": 1138.8
+        },
+        {
+          "data": "20/04/2026",
           "codcli": "84032",
           "cliente": "KETEK COMERCIAL LTDA",
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
@@ -132710,7 +133030,15 @@ const VENDAS_DATA = {
           "valor": 2094.0
         },
         {
-          "data": "15/04/2026",
+          "data": "20/04/2026",
+          "codcli": "84032",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 24,
+          "valor": 2277.6
+        },
+        {
+          "data": "20/04/2026",
           "codcli": "84032",
           "cliente": "KETEK COMERCIAL LTDA",
           "produto": "ESPUM CASA PERINI BRUT 750ML",
@@ -132718,7 +133046,7 @@ const VENDAS_DATA = {
           "valor": 628.2
         },
         {
-          "data": "15/04/2026",
+          "data": "20/04/2026",
           "codcli": "84032",
           "cliente": "KETEK COMERCIAL LTDA",
           "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
