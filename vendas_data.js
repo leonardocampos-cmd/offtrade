@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "20/04/2026 18:00",
+  "atualizado_em": "21/04/2026 14:01",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -38688,6 +38688,14 @@ const VENDAS_DATA = {
           "valor": 144.5
         },
         {
+          "data": "20/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 3,
+          "valor": 80.7
+        },
+        {
           "data": "06/04/2026",
           "codcli": "74192",
           "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
@@ -38795,14 +38803,6 @@ const VENDAS_DATA = {
           "data": "20/04/2026",
           "codcli": "74192",
           "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
-          "produto": "VODKA ABSOLUT - 750 ML",
-          "qt": 1,
-          "valor": 69.9
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "74192",
-          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
           "produto": "WHISKY J WALKER RED LABEL 1L",
           "qt": 2,
           "valor": 157.8
@@ -38812,8 +38812,16 @@ const VENDAS_DATA = {
           "codcli": "74192",
           "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 3,
-          "valor": 284.1
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "74192",
+          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
+          "produto": "VODKA ABSOLUT - 750 ML",
+          "qt": 1,
+          "valor": 69.9
         },
         {
           "data": "07/04/2026",
@@ -38899,14 +38907,6 @@ const VENDAS_DATA = {
           "data": "20/04/2026",
           "codcli": "76424",
           "cliente": "CRUZADA DA BARRA PADARIA LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "76424",
-          "cliente": "CRUZADA DA BARRA PADARIA LTDA",
           "produto": "SMIRNOFF ICE 24 UNIDADES (LATA) 24X269ML",
           "qt": 1,
           "valor": 104.9
@@ -38918,6 +38918,30 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 20,
           "valor": 438.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "76248",
+          "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "76248",
+          "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 20,
+          "valor": 398.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "76248",
+          "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 289.0
         },
         {
           "data": "06/04/2026",
@@ -39038,6 +39062,14 @@ const VENDAS_DATA = {
           "produto": "GUARAVITON GINSENG 12X500ML",
           "qt": 10,
           "valor": 269.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "74671",
+          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
         },
         {
           "data": "07/04/2026",
@@ -40000,6 +40032,54 @@ const VENDAS_DATA = {
           "valor": 144.5
         },
         {
+          "data": "20/04/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "qt": 3,
+          "valor": 67.5
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 3,
+          "valor": 98.7
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "GIN GORDONS 750 ML",
+          "qt": 1,
+          "valor": 59.9
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 3,
+          "valor": 71.82
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "BLACK LABEL 50 ML CX/12",
+          "qt": 2,
+          "valor": 440.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "GIN BEEFEATER 750ML",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
           "data": "09/04/2026",
           "codcli": "82920",
           "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
@@ -40302,6 +40382,62 @@ const VENDAS_DATA = {
           "produto": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
           "qt": 3,
           "valor": 134.7
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "84566",
+          "cliente": "SNACK STORE BARRA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 8,
+          "valor": 263.2
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "84566",
+          "cliente": "SNACK STORE BARRA LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 289.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "84566",
+          "cliente": "SNACK STORE BARRA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 40,
+          "valor": 796.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "84566",
+          "cliente": "SNACK STORE BARRA LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "84566",
+          "cliente": "SNACK STORE BARRA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "84566",
+          "cliente": "SNACK STORE BARRA LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "84566",
+          "cliente": "SNACK STORE BARRA LTDA",
+          "produto": "ICE 51 FRUIT LONG NECK 24X275 ML",
+          "qt": 1,
+          "valor": 114.9
         },
         {
           "data": "06/04/2026",
@@ -40886,6 +41022,14 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 10,
           "valor": 219.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "91093",
+          "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 10,
+          "valor": 269.0
         },
         {
           "data": "08/04/2026",
@@ -45492,6 +45636,14 @@ const VENDAS_DATA = {
           "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
           "qt": 1,
           "valor": 47.9
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "93997",
+          "cliente": "GUTO E JO COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 2,
+          "valor": 56.38
         },
         {
           "data": "20/04/2026",
@@ -71174,6 +71326,14 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 5,
           "valor": 107.5
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "94059",
+          "cliente": "REI DAS CARNES MERCEARIA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 5,
+          "valor": 134.5
         }
       ],
       "Mar/26": [
@@ -102596,6 +102756,22 @@ const VENDAS_DATA = {
           "valor": 134.93
         },
         {
+          "data": "20/04/2026",
+          "codcli": "91861",
+          "cliente": "POSTO REI ETERNO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "91861",
+          "cliente": "POSTO REI ETERNO LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 5,
+          "valor": 134.5
+        },
+        {
           "data": "10/04/2026",
           "codcli": "94276",
           "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
@@ -110035,6 +110211,14 @@ const VENDAS_DATA = {
           "data": "20/04/2026",
           "codcli": "83627",
           "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
           "produto": "VILLA ROSA  ROSE 750ML",
           "qt": 12,
           "valor": 274.8
@@ -110582,6 +110766,54 @@ const VENDAS_DATA = {
           "produto": "RED BULL 24X250ML",
           "qt": 2,
           "valor": 348.0
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "AGUA DE COCO TIAL 12X1000ML",
+          "qt": 3,
+          "valor": 392.4
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 5,
+          "valor": 997.5
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 5,
+          "valor": 997.5
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
+          "qt": 2,
+          "valor": 91.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "qt": 2,
+          "valor": 91.8
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "qt": 2,
+          "valor": 91.8
         },
         {
           "data": "09/04/2026",
@@ -119704,46 +119936,6 @@ const VENDAS_DATA = {
           "valor": 264.0
         },
         {
-          "data": "18/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 12,
-          "valor": 264.0
-        },
-        {
-          "data": "18/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "qt": 12,
-          "valor": 298.8
-        },
-        {
-          "data": "18/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
-          "qt": 6,
-          "valor": 198.0
-        },
-        {
-          "data": "18/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "qt": 18,
-          "valor": 1302.3
-        },
-        {
-          "data": "18/04/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "qt": 12,
-          "valor": 189.6
-        },
-        {
           "data": "20/04/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
@@ -120078,14 +120270,6 @@ const VENDAS_DATA = {
           "produto": "WHISKY CHIVAS REGAL 12 ANOS  750 ML",
           "qt": 3,
           "valor": 247.74
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "90415",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 6,
-          "valor": 132.0
         },
         {
           "data": "20/04/2026",
@@ -129036,6 +129220,22 @@ const VENDAS_DATA = {
           "produto": "RED BULL 24X250ML",
           "qt": 3,
           "valor": 503.28
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "90346",
+          "cliente": "FLAUSINO'S BAR E REFEICOES LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "qt": 1,
+          "valor": 162.9
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "90346",
+          "cliente": "FLAUSINO'S BAR E REFEICOES LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 1,
+          "valor": 104.0
         },
         {
           "data": "13/04/2026",
@@ -152418,6 +152618,14 @@ const VENDAS_DATA = {
           "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
           "qt": 3,
           "valor": 447.72
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "qt": 10,
+          "valor": 1349.9
         },
         {
           "data": "15/04/2026",
