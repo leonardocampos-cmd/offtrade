@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "21/04/2026 14:01",
+  "atualizado_em": "21/04/2026 16:36",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -70800,6 +70800,62 @@ const VENDAS_DATA = {
           "valor": 1078.8
         },
         {
+          "data": "21/04/2026",
+          "codcli": "3816",
+          "cliente": "ORGANIZACOES FARINHA PURA LTDA",
+          "produto": "AMARULA CREAM 12X750ML +6 COPOS DUBAI",
+          "qt": 1,
+          "valor": 1078.8
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "6325",
+          "cliente": "SUPERMERCADO ULTRA 11 LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "qt": 12,
+          "valor": 394.8
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "6325",
+          "cliente": "SUPERMERCADO ULTRA 11 LTDA",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "qt": 12,
+          "valor": 382.8
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "6325",
+          "cliente": "SUPERMERCADO ULTRA 11 LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 18,
+          "valor": 664.2
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "6325",
+          "cliente": "SUPERMERCADO ULTRA 11 LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 18,
+          "valor": 664.2
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "6325",
+          "cliente": "SUPERMERCADO ULTRA 11 LTDA",
+          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
+          "qt": 18,
+          "valor": 664.2
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "6325",
+          "cliente": "SUPERMERCADO ULTRA 11 LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "valor": 221.4
+        },
+        {
           "data": "07/04/2026",
           "codcli": "5371",
           "cliente": "DELICATESSEN LEBLON EIRELI EPP",
@@ -70846,6 +70902,30 @@ const VENDAS_DATA = {
           "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
           "qt": 1,
           "valor": 43.2
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "6690",
+          "cliente": "SUPERMERCADO ULTRA 12 LTDA",
+          "produto": "RUM BACARDI GOLD 980ML",
+          "qt": 36,
+          "valor": 1328.4
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "6690",
+          "cliente": "SUPERMERCADO ULTRA 12 LTDA",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "qt": 24,
+          "valor": 765.6
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "6690",
+          "cliente": "SUPERMERCADO ULTRA 12 LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "qt": 12,
+          "valor": 348.0
         },
         {
           "data": "09/04/2026",
