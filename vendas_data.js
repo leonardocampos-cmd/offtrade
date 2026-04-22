@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "21/04/2026 16:36",
+  "atualizado_em": "22/04/2026 09:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -75808,6 +75808,14 @@ const VENDAS_DATA = {
           "valor": 294.0
         },
         {
+          "data": "21/04/2026",
+          "codcli": "71425",
+          "cliente": "LUCELY COSTA DOS SANTOS 03528470771",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 5,
+          "valor": 499.5
+        },
+        {
           "data": "09/04/2026",
           "codcli": "81163",
           "cliente": "POP CONVENIENCIA E MERCADO LTDA",
@@ -132886,6 +132894,30 @@ const VENDAS_DATA = {
           "valor": 988.2
         },
         {
+          "data": "21/04/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 6,
+          "valor": 479.4
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 18,
+          "valor": 628.2
+        },
+        {
           "data": "15/04/2026",
           "codcli": "81298",
           "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
@@ -133022,15 +133054,7 @@ const VENDAS_DATA = {
           "valor": 3141.0
         },
         {
-          "data": "11/04/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "qt": 30,
-          "valor": 687.0
-        },
-        {
-          "data": "11/04/2026",
+          "data": "21/04/2026",
           "codcli": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "produto": "ESPUM CASA PERINI BRUT 750ML",
@@ -133038,7 +133062,7 @@ const VENDAS_DATA = {
           "valor": 1047.0
         },
         {
-          "data": "11/04/2026",
+          "data": "21/04/2026",
           "codcli": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
@@ -133046,31 +133070,7 @@ const VENDAS_DATA = {
           "valor": 3141.0
         },
         {
-          "data": "11/04/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 90,
-          "valor": 3141.0
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "qt": 30,
-          "valor": 1500.0
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
-          "qt": 5,
-          "valor": 378.6
-        },
-        {
-          "data": "11/04/2026",
+          "data": "21/04/2026",
           "codcli": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
@@ -133078,63 +133078,7 @@ const VENDAS_DATA = {
           "valor": 410.4
         },
         {
-          "data": "11/04/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "VILLA ROSA  ROSE 750ML",
-          "qt": 30,
-          "valor": 687.0
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "qt": 18,
-          "valor": 412.2
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "qt": 3,
-          "valor": 246.24
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 5,
-          "valor": 410.4
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 5,
-          "valor": 410.4
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
-          "qt": 12,
-          "valor": 239.4
-        },
-        {
-          "data": "11/04/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "qt": 12,
-          "valor": 1138.8
-        },
-        {
-          "data": "11/04/2026",
+          "data": "21/04/2026",
           "codcli": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "produto": "MOVING BOOSTER LIMAO 24X310ML",
@@ -133142,12 +133086,76 @@ const VENDAS_DATA = {
           "valor": 758.4
         },
         {
-          "data": "11/04/2026",
+          "data": "21/04/2026",
           "codcli": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "produto": "CACHACA JOIA DA SERRA OURO 1L",
           "qt": 12,
           "valor": 239.4
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+          "qt": 12,
+          "valor": 239.4
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 12,
+          "valor": 1138.8
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "qt": 30,
+          "valor": 687.0
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "qt": 30,
+          "valor": 687.0
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "qt": 18,
+          "valor": 412.2
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 90,
+          "valor": 3141.0
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 30,
+          "valor": 1500.0
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
+          "qt": 5,
+          "valor": 378.6
         },
         {
           "data": "15/04/2026",
@@ -144110,6 +144118,22 @@ const VENDAS_DATA = {
           "valor": 410.0
         },
         {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
           "data": "08/04/2026",
           "codcli": "13729",
           "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
@@ -144340,6 +144364,14 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 10,
           "valor": 205.0
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "PIRASSUNUNGA 51 600 ML",
+          "qt": 30,
+          "valor": 117.0
         },
         {
           "data": "15/04/2026",
@@ -144798,6 +144830,70 @@ const VENDAS_DATA = {
           "valor": 512.1
         },
         {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "qt": 20,
+          "valor": 2737.6
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFRI FYS LIMAO - L350ML C/12 DESC",
+          "qt": 1,
+          "valor": 32.45
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "qt": 30,
+          "valor": 1681.8
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFRI FYS GUARANA LT 12X350ML",
+          "qt": 2,
+          "valor": 64.9
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFRI FYS LARANJA LT 12X350ML",
+          "qt": 2,
+          "valor": 64.9
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "TONICA  FYS ZERO LT 12X350ML",
+          "qt": 2,
+          "valor": 68.56
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFR FYS GUARA ZERO 0,350LT DESC 12UNPBR",
+          "qt": 2,
+          "valor": 64.9
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFR FYS LIMAO ZERO 0,350LT DES 12UN PBR",
+          "qt": 2,
+          "valor": 64.72
+        },
+        {
           "data": "09/04/2026",
           "codcli": "69202",
           "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
@@ -145108,6 +145204,30 @@ const VENDAS_DATA = {
           "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
           "qt": 20,
           "valor": 1038.0
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "qt": 20,
+          "valor": 783.8
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "qt": 320,
+          "valor": 21587.2
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "qt": 42,
+          "valor": 8496.18
         }
       ],
       "Dez/25": [
@@ -152434,6 +152554,30 @@ const VENDAS_DATA = {
           "produto": "GUARAVITON GINSENG 12X500ML",
           "qt": 1,
           "valor": 26.99
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "74928",
+          "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
+          "produto": "RUM MALIBU 750 ML",
+          "qt": 1,
+          "valor": 49.9
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "74928",
+          "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "74928",
+          "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 1,
+          "valor": 26.9
         },
         {
           "data": "15/04/2026",
