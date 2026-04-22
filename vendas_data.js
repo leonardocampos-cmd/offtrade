@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "22/04/2026 15:00",
+  "atualizado_em": "22/04/2026 17:35",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -37488,6 +37488,30 @@ const VENDAS_DATA = {
           "valor": 36.9
         },
         {
+          "data": "22/04/2026",
+          "codcli": "2454",
+          "cliente": "POSTO DE GASOLINA GUADIANA LTDA",
+          "produto": "COQUETEL PINK MOON 12X600ML - PET",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "2454",
+          "cliente": "POSTO DE GASOLINA GUADIANA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 4,
+          "valor": 122.0
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "2454",
+          "cliente": "POSTO DE GASOLINA GUADIANA LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 4,
+          "valor": 115.6
+        },
+        {
           "data": "09/04/2026",
           "codcli": "2314",
           "cliente": "POSTO DE GASOLINA SOL DA PRAIA LTDA",
@@ -37774,6 +37798,110 @@ const VENDAS_DATA = {
           "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
           "qt": 1,
           "valor": 78.9
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "qt": 2,
+          "valor": 157.8
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 2,
+          "valor": 345.8
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "qt": 2,
+          "valor": 469.8
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 1,
+          "valor": 30.5
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 2,
+          "valor": 279.8
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "SMIRNOFF ICE 24 UNIDADES (LATA) 24X269ML",
+          "qt": 2,
+          "valor": 209.8
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 2,
+          "valor": 47.88
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "BLACK LABEL 50 ML CX/12",
+          "qt": 1,
+          "valor": 220.0
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "3582",
+          "cliente": "AUTO SERVICO ROCAR RIO LTDA",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "qt": 2,
+          "valor": 199.8
         },
         {
           "data": "08/04/2026",
@@ -39352,6 +39480,14 @@ const VENDAS_DATA = {
           "valor": 289.0
         },
         {
+          "data": "22/04/2026",
+          "codcli": "79246",
+          "cliente": "J R CONVENIENCIAS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
           "data": "13/04/2026",
           "codcli": "79820",
           "cliente": "AUTO POSTO QUEBRAMAR LTDA",
@@ -40438,6 +40574,38 @@ const VENDAS_DATA = {
           "produto": "ICE 51 FRUIT LONG NECK 24X275 ML",
           "qt": 1,
           "valor": 114.9
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "85686",
+          "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "85686",
+          "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "85686",
+          "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "85686",
+          "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "qt": 2,
+          "valor": 189.4
         },
         {
           "data": "06/04/2026",
@@ -44574,6 +44742,70 @@ const VENDAS_DATA = {
           "valor": 330.72
         },
         {
+          "data": "22/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "GIN INVICTUS TRADICIONAL 900ML",
+          "qt": 12,
+          "valor": 117.6
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "CANTINA DA SERRA 1,5L",
+          "qt": 36,
+          "valor": 356.4
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 24,
+          "valor": 335.76
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+          "qt": 6,
+          "valor": 105.0
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 12,
+          "valor": 402.7
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
+          "qt": 12,
+          "valor": 117.6
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "qt": 24,
+          "valor": 295.2
+        },
+        {
           "data": "14/04/2026",
           "codcli": "86901",
           "cliente": "MERCADO T F DA COSTA LTDA",
@@ -44740,6 +44972,22 @@ const VENDAS_DATA = {
           "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
           "qt": 1,
           "valor": 139.9
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 12,
+          "valor": 330.72
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 47.9
         },
         {
           "data": "15/04/2026",
@@ -45548,6 +45796,78 @@ const VENDAS_DATA = {
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
           "qt": 1,
           "valor": 71.76
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91585",
+          "cliente": "HELENA TEMPEROS LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "qt": 1,
+          "valor": 38.9
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91585",
+          "cliente": "HELENA TEMPEROS LTDA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "qt": 1,
+          "valor": 38.9
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91585",
+          "cliente": "HELENA TEMPEROS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91585",
+          "cliente": "HELENA TEMPEROS LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91585",
+          "cliente": "HELENA TEMPEROS LTDA",
+          "produto": "NECTAR MANGA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91585",
+          "cliente": "HELENA TEMPEROS LTDA",
+          "produto": "NECTAR MARACUJA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91585",
+          "cliente": "HELENA TEMPEROS LTDA",
+          "produto": "NECTAR PESSEGO TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91585",
+          "cliente": "HELENA TEMPEROS LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91585",
+          "cliente": "HELENA TEMPEROS LTDA",
+          "produto": "NECTAR PESSEGO 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
         },
         {
           "data": "13/04/2026",
@@ -69852,6 +70172,14 @@ const VENDAS_DATA = {
           "valor": 438.0
         },
         {
+          "data": "22/04/2026",
+          "codcli": "91672",
+          "cliente": "PAVUNA EXPRESS COMERCIO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 20,
+          "valor": 438.0
+        },
+        {
           "data": "13/04/2026",
           "codcli": "91674",
           "cliente": "ANTONIO PEREIRA DA PENHA 28583493391",
@@ -75800,6 +76128,14 @@ const VENDAS_DATA = {
           "valor": 499.5
         },
         {
+          "data": "22/04/2026",
+          "codcli": "78141",
+          "cliente": "MARCIO GARCIA SANCHES 01351218760",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 60,
+          "valor": 2034.0
+        },
+        {
           "data": "09/04/2026",
           "codcli": "81163",
           "cliente": "POP CONVENIENCIA E MERCADO LTDA",
@@ -76049,6 +76385,22 @@ const VENDAS_DATA = {
         },
         {
           "data": "15/04/2026",
+          "codcli": "83236",
+          "cliente": "CASA DA PIZZA 1910 LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+          "qt": 6,
+          "valor": 299.4
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "83236",
+          "cliente": "CASA DA PIZZA 1910 LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
+          "qt": 6,
+          "valor": 299.4
+        },
+        {
+          "data": "22/04/2026",
           "codcli": "83236",
           "cliente": "CASA DA PIZZA 1910 LTDA",
           "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
@@ -102444,6 +102796,86 @@ const VENDAS_DATA = {
           "valor": 89.9
         },
         {
+          "data": "22/04/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "PINATI NUTS COCO 20X30G",
+          "qt": 1,
+          "valor": 44.39
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "qt": 1,
+          "valor": 153.36
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "qt": 1,
+          "valor": 153.36
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+          "qt": 2,
+          "valor": 81.12
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "NECTAR CAJU KIDS CX 24X200ML",
+          "qt": 2,
+          "valor": 81.12
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+          "qt": 2,
+          "valor": 81.12
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO MANGA 24X200ML KIDS",
+          "qt": 2,
+          "valor": 81.12
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+          "qt": 1,
+          "valor": 40.56
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "NECTAR DE MARACUJA 24X200ML KIDS",
+          "qt": 1,
+          "valor": 40.56
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO GOIABA 24X200ML KIDS",
+          "qt": 1,
+          "valor": 40.56
+        },
+        {
           "data": "02/04/2026",
           "codcli": "90497",
           "cliente": "55.634.657 BARBARA SANTOS JOE CABRAL",
@@ -102474,6 +102906,86 @@ const VENDAS_DATA = {
           "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
           "qt": 1,
           "valor": 47.9
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "87069",
+          "cliente": "PALMARES DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "87069",
+          "cliente": "PALMARES DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "87069",
+          "cliente": "PALMARES DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "87069",
+          "cliente": "PALMARES DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "87069",
+          "cliente": "PALMARES DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "qt": 1,
+          "valor": 153.36
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "87069",
+          "cliente": "PALMARES DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "qt": 1,
+          "valor": 153.36
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "85692",
+          "cliente": "CONVENIENCIA AGUA BRANCA LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "qt": 1,
+          "valor": 38.9
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "85692",
+          "cliente": "CONVENIENCIA AGUA BRANCA LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "qt": 1,
+          "valor": 38.9
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "85692",
+          "cliente": "CONVENIENCIA AGUA BRANCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "85692",
+          "cliente": "CONVENIENCIA AGUA BRANCA LTDA",
+          "produto": "PINATI NUTS COCO 20X30G",
+          "qt": 1,
+          "valor": 39.2
         },
         {
           "data": "06/04/2026",
@@ -135986,6 +136498,22 @@ const VENDAS_DATA = {
           "valor": 49.1
         },
         {
+          "data": "22/04/2026",
+          "codcli": "82130",
+          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "qt": 100,
+          "valor": 19656.0
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "82130",
+          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "qt": 42,
+          "valor": 1375.92
+        },
+        {
           "data": "08/04/2026",
           "codcli": "79902",
           "cliente": "SAUCE & CO RESTAURANTE LTDA",
@@ -136043,6 +136571,30 @@ const VENDAS_DATA = {
         },
         {
           "data": "13/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 32.76
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 1,
+          "valor": 32.76
+        },
+        {
+          "data": "22/04/2026",
           "codcli": "79902",
           "cliente": "SAUCE & CO RESTAURANTE LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
@@ -136112,6 +136664,22 @@ const VENDAS_DATA = {
           "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
           "qt": 1,
           "valor": 87.6
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "90389",
+          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "90389",
+          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "qt": 1,
+          "valor": 95.9
         },
         {
           "data": "02/04/2026",
@@ -136458,6 +137026,22 @@ const VENDAS_DATA = {
           "valor": 109.5
         },
         {
+          "data": "22/04/2026",
+          "codcli": "94256",
+          "cliente": "E.F.DO VALE MERCEARIA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 12,
+          "valor": 209.4
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "94256",
+          "cliente": "E.F.DO VALE MERCEARIA",
+          "produto": "4 PACK RED BULL ZERO",
+          "qt": 1,
+          "valor": 32.76
+        },
+        {
           "data": "15/04/2026",
           "codcli": "91674",
           "cliente": "ANTONIO PEREIRA DA PENHA 28583493391",
@@ -136504,6 +137088,30 @@ const VENDAS_DATA = {
           "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
           "qt": 36,
           "valor": 500.4
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91913",
+          "cliente": "MERCADO ITAPIRU LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 43.9
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91913",
+          "cliente": "MERCADO ITAPIRU LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91913",
+          "cliente": "MERCADO ITAPIRU LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
         },
         {
           "data": "14/04/2026",
