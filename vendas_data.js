@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "22/04/2026 09:00",
+  "atualizado_em": "22/04/2026 11:35",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -44572,22 +44572,6 @@ const VENDAS_DATA = {
           "produto": "4 PACK RED BULL",
           "qt": 12,
           "valor": 330.72
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "84572",
-          "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "84572",
-          "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "qt": 1,
-          "valor": 71.76
         },
         {
           "data": "14/04/2026",
