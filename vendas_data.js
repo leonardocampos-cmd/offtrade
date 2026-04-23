@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "23/04/2026 15:32",
+  "atualizado_em": "23/04/2026 16:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -70594,6 +70594,14 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 20,
           "valor": 438.0
+        },
+        {
+          "data": "23/04/2026",
+          "codcli": "91672",
+          "cliente": "PAVUNA EXPRESS COMERCIO LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 10,
+          "valor": 269.0
         },
         {
           "data": "13/04/2026",
