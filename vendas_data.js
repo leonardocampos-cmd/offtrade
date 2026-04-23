@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "23/04/2026 17:00",
+  "atualizado_em": "23/04/2026 17:32",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -70962,6 +70962,14 @@ const VENDAS_DATA = {
           "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
           "qt": 1,
           "valor": 59.88
+        },
+        {
+          "data": "23/04/2026",
+          "codcli": "94591",
+          "cliente": "50.184.439 RENATA CRISTIANE BERTO DOS SANTOS",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 8,
+          "valor": 215.2
         },
         {
           "data": "06/04/2026",
