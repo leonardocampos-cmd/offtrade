@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "23/04/2026 16:32",
+  "atualizado_em": "23/04/2026 17:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -137048,6 +137048,22 @@ const VENDAS_DATA = {
           "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
           "qt": 1,
           "valor": 286.8
+        },
+        {
+          "data": "23/04/2026",
+          "codcli": "71823",
+          "cliente": "ECOBAR LANCHES LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 1,
+          "valor": 32.76
+        },
+        {
+          "data": "23/04/2026",
+          "codcli": "71823",
+          "cliente": "ECOBAR LANCHES LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 43.2
         },
         {
           "data": "06/04/2026",
