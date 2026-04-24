@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "24/04/2026 15:00",
+  "atualizado_em": "24/04/2026 16:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -37872,6 +37872,30 @@ const VENDAS_DATA = {
           "valor": 78.9
         },
         {
+          "data": "24/04/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 5,
+          "valor": 119.7
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
           "data": "22/04/2026",
           "codcli": "3582",
           "cliente": "AUTO SERVICO ROCAR RIO LTDA",
@@ -38424,6 +38448,30 @@ const VENDAS_DATA = {
           "valor": 109.5
         },
         {
+          "data": "24/04/2026",
+          "codcli": "8739",
+          "cliente": "LOJA DE CONVENIENCIA MARAMAR LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 12,
+          "valor": 343.2
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "8739",
+          "cliente": "LOJA DE CONVENIENCIA MARAMAR LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 2,
+          "valor": 53.2
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "8739",
+          "cliente": "LOJA DE CONVENIENCIA MARAMAR LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
           "data": "01/04/2026",
           "codcli": "8390",
           "cliente": "GOLDEN GREEN MANIA DELICATSSE LTDA",
@@ -38966,6 +39014,30 @@ const VENDAS_DATA = {
           "produto": "GUARAVITON GINSENG 12X500ML",
           "qt": 3,
           "valor": 80.7
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
+          "qt": 1,
+          "valor": 87.48
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "valor": 94.7
         },
         {
           "data": "06/04/2026",
@@ -39726,6 +39798,30 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 3,
           "valor": 65.7
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "79820",
+          "cliente": "AUTO POSTO QUEBRAMAR LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 10,
+          "valor": 199.0
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "79820",
+          "cliente": "AUTO POSTO QUEBRAMAR LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 209.0
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "79820",
+          "cliente": "AUTO POSTO QUEBRAMAR LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 2,
+          "valor": 53.8
         },
         {
           "data": "06/04/2026",
@@ -45286,6 +45382,22 @@ const VENDAS_DATA = {
           "valor": 95.9
         },
         {
+          "data": "24/04/2026",
+          "codcli": "90003",
+          "cliente": "TALM COMERCIO DE BEBIDAS LTDA",
+          "produto": "COQ. PINK MOON FRISANTE ROSE 24X275ML",
+          "qt": 2,
+          "valor": 165.8
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "90003",
+          "cliente": "TALM COMERCIO DE BEBIDAS LTDA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
           "data": "14/04/2026",
           "codcli": "86901",
           "cliente": "MERCADO T F DA COSTA LTDA",
@@ -45702,6 +45814,22 @@ const VENDAS_DATA = {
           "valor": 189.36
         },
         {
+          "data": "24/04/2026",
+          "codcli": "91583",
+          "cliente": "GOLD FARMA DROGARIA CG LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91583",
+          "cliente": "GOLD FARMA DROGARIA CG LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 1,
+          "valor": 28.2
+        },
+        {
           "data": "16/04/2026",
           "codcli": "94449",
           "cliente": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
@@ -45772,6 +45900,86 @@ const VENDAS_DATA = {
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
           "qt": 1,
           "valor": 71.76
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "92388",
+          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 3,
+          "valor": 84.59
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "92388",
+          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 5,
+          "valor": 109.25
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "92388",
+          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "92388",
+          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "92388",
+          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "92388",
+          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "92388",
+          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "NECTAR GOIABA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "92388",
+          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "NECTAR MANGA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "92388",
+          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "92388",
+          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 1,
+          "valor": 94.68
         },
         {
           "data": "16/04/2026",
@@ -45919,6 +46127,14 @@ const VENDAS_DATA = {
         },
         {
           "data": "17/04/2026",
+          "codcli": "94266",
+          "cliente": "MERCADINHO SCHIO LTDA",
+          "produto": "4 PACK RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "24/04/2026",
           "codcli": "94266",
           "cliente": "MERCADINHO SCHIO LTDA",
           "produto": "4 PACK RED BULL",
@@ -46260,6 +46476,54 @@ const VENDAS_DATA = {
           "produto": "NECTAR LARANJA TIAL 12X250ML",
           "qt": 1,
           "valor": 34.42
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "PINATI PROTEIN CUPS AVELA 18X21G",
+          "qt": 1,
+          "valor": 95.9
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 1,
+          "valor": 28.9
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 2,
+          "valor": 43.68
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "NECTAR LARANJA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "NECTAR MANGA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91673",
+          "cliente": "TOCA DO AUTOMOVEL LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "qt": 1,
+          "valor": 34.68
         },
         {
           "data": "13/04/2026",
@@ -77528,6 +77792,30 @@ const VENDAS_DATA = {
           "valor": 131.4
         },
         {
+          "data": "24/04/2026",
+          "codcli": "85383",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "qt": 24,
+          "valor": 405.6
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "85383",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 12,
+          "valor": 150.0
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "85383",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "produto": "COQUETEL PINK MOON 12X600ML - PET",
+          "qt": 3,
+          "valor": 224.7
+        },
+        {
           "data": "09/04/2026",
           "codcli": "86503",
           "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
@@ -104108,62 +104396,6 @@ const VENDAS_DATA = {
           "valor": 131.4
         },
         {
-          "data": "08/04/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 1,
-          "valor": 249.5
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 1,
-          "valor": 144.14
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "qt": 1,
-          "valor": 144.14
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "qt": 1,
-          "valor": 95.9
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-          "qt": 1,
-          "valor": 105.9
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 1,
-          "valor": 249.5
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94175",
-          "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "qt": 1,
-          "valor": 51.9
-        },
-        {
           "data": "10/04/2026",
           "codcli": "94175",
           "cliente": "RIO SUL SEPETIBA COMERCIO DE ALIMENTOS LTDA",
@@ -130478,6 +130710,46 @@ const VENDAS_DATA = {
           "valor": 1064.16
         },
         {
+          "data": "24/04/2026",
+          "codcli": "72989",
+          "cliente": "WESLEY DA SILVA NASCIMENTO 16108100745",
+          "produto": "GIN BEEFEATER 750ML",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "72989",
+          "cliente": "WESLEY DA SILVA NASCIMENTO 16108100745",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "valor": 430.8
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "73653",
+          "cliente": "CHARLES SILVA DE AQUINO 15692489740",
+          "produto": "LICOR STOCK MARULA 720 ML",
+          "qt": 2,
+          "valor": 119.8
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "73653",
+          "cliente": "CHARLES SILVA DE AQUINO 15692489740",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 1,
+          "valor": 103.92
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "73653",
+          "cliente": "CHARLES SILVA DE AQUINO 15692489740",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "qt": 1,
+          "valor": 30.0
+        },
+        {
           "data": "15/04/2026",
           "codcli": "70944",
           "cliente": "ITANIA COSTA ANTONIO VIANA 16136309726",
@@ -131036,6 +131308,22 @@ const VENDAS_DATA = {
           "produto": "ESPUM CASA PERINI BRUT 750ML",
           "qt": 60,
           "valor": 1950.0
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "90874",
+          "cliente": "56.003.128 GABRIELLY DE OLIVEIRA VIEIRA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 18,
+          "valor": 286.2
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "90874",
+          "cliente": "56.003.128 GABRIELLY DE OLIVEIRA VIEIRA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 1,
+          "valor": 103.92
         },
         {
           "data": "09/04/2026",
