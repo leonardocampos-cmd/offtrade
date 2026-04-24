@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "24/04/2026 14:00",
+  "atualizado_em": "24/04/2026 15:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -37296,6 +37296,14 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
+          "data": "24/04/2026",
+          "codcli": "559",
+          "cliente": "POSTO BARRA LINDA LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "qt": 6,
+          "valor": 419.4
+        },
+        {
           "data": "07/04/2026",
           "codcli": "604",
           "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
@@ -37552,6 +37560,46 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
+          "data": "24/04/2026",
+          "codcli": "2314",
+          "cliente": "POSTO DE GASOLINA SOL DA PRAIA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 20,
+          "valor": 398.0
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "2314",
+          "cliente": "POSTO DE GASOLINA SOL DA PRAIA LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "2314",
+          "cliente": "POSTO DE GASOLINA SOL DA PRAIA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "2314",
+          "cliente": "POSTO DE GASOLINA SOL DA PRAIA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 3,
+          "valor": 80.7
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "2314",
+          "cliente": "POSTO DE GASOLINA SOL DA PRAIA LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "valor": 289.0
+        },
+        {
           "data": "14/04/2026",
           "codcli": "2339",
           "cliente": "AUTO POSTO BOAVISTA LTDA",
@@ -37638,6 +37686,30 @@ const VENDAS_DATA = {
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "qt": 1,
           "valor": 94.7
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "2511",
+          "cliente": "CONFEITARIA MAJESTOSA DO JARDIM GUANABARA LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "2511",
+          "cliente": "CONFEITARIA MAJESTOSA DO JARDIM GUANABARA LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "2511",
+          "cliente": "CONFEITARIA MAJESTOSA DO JARDIM GUANABARA LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "qt": 1,
+          "valor": 87.6
         },
         {
           "data": "14/04/2026",
@@ -38168,6 +38240,22 @@ const VENDAS_DATA = {
           "valor": 65.7
         },
         {
+          "data": "24/04/2026",
+          "codcli": "3551",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 3,
+          "valor": 86.7
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "3551",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "produto": "WHISKY J WALKER BLACK LABEL 750ML",
+          "qt": 2,
+          "valor": 265.8
+        },
+        {
           "data": "01/04/2026",
           "codcli": "3110",
           "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
@@ -38254,6 +38342,38 @@ const VENDAS_DATA = {
           "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
           "qt": 3,
           "valor": 86.7
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 5,
+          "valor": 144.5
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 10,
+          "valor": 199.0
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 2,
+          "valor": 53.8
         },
         {
           "data": "09/04/2026",
@@ -40544,6 +40664,22 @@ const VENDAS_DATA = {
           "valor": 139.9
         },
         {
+          "data": "24/04/2026",
+          "codcli": "83578",
+          "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 7,
+          "valor": 202.3
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "83578",
+          "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
+          "produto": "COQUETEL PINK MOON 12X600ML - PET",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
           "data": "01/04/2026",
           "codcli": "84449",
           "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
@@ -41238,6 +41374,14 @@ const VENDAS_DATA = {
           "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
           "qt": 1,
           "valor": 52.63
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91086",
+          "cliente": "AUTO POSTO LIDERANCA DE NOVA IGUACU LTDA.",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 4,
+          "valor": 559.6
         },
         {
           "data": "14/04/2026",
@@ -70164,6 +70308,38 @@ const VENDAS_DATA = {
           "valor": 109.5
         },
         {
+          "data": "24/04/2026",
+          "codcli": "91536",
+          "cliente": "MERCEARIA E BAZAR DA FAMILIA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91536",
+          "cliente": "MERCEARIA E BAZAR DA FAMILIA LTDA",
+          "produto": "VANISH LIQUIDO WHITE REFIL 12X500ML",
+          "qt": 1,
+          "valor": 66.6
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91536",
+          "cliente": "MERCEARIA E BAZAR DA FAMILIA LTDA",
+          "produto": "VANISH LIQUIDO PINK REFIL 12X500ML",
+          "qt": 1,
+          "valor": 66.6
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91536",
+          "cliente": "MERCEARIA E BAZAR DA FAMILIA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 2,
+          "valor": 53.8
+        },
+        {
           "data": "09/04/2026",
           "codcli": "91847",
           "cliente": "BRAULIO MERCADO DE COMESTIVEIS LTDA",
@@ -70202,6 +70378,30 @@ const VENDAS_DATA = {
           "produto": "RC ATUM RALADO OLEO 24X140G",
           "qt": 1,
           "valor": 139.9
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91333",
+          "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 2,
+          "valor": 43.8
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91333",
+          "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "91333",
+          "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "qt": 2,
+          "valor": 27.98
         },
         {
           "data": "07/04/2026",
@@ -70404,6 +70604,14 @@ const VENDAS_DATA = {
           "valor": 53.8
         },
         {
+          "data": "24/04/2026",
+          "codcli": "91712",
+          "cliente": "PANIFICACAO E CONFEITARIA PRINCIPE DO PAO QUENTE LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 8,
+          "valor": 175.2
+        },
+        {
           "data": "14/04/2026",
           "codcli": "91760",
           "cliente": "MERCADO DO SONY LTDA",
@@ -70418,6 +70626,38 @@ const VENDAS_DATA = {
           "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
           "qt": 4,
           "valor": 95.76
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "94535",
+          "cliente": "GB COMERCIO VAREJISTA DE DOCES E PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 1,
+          "valor": 58.2
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "94535",
+          "cliente": "GB COMERCIO VAREJISTA DE DOCES E PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+          "qt": 1,
+          "valor": 43.2
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "94535",
+          "cliente": "GB COMERCIO VAREJISTA DE DOCES E PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "NECTAR DE MARACUJA 24X200ML KIDS",
+          "qt": 1,
+          "valor": 43.2
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "94535",
+          "cliente": "GB COMERCIO VAREJISTA DE DOCES E PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+          "qt": 1,
+          "valor": 43.2
         },
         {
           "data": "13/04/2026",
@@ -77120,6 +77360,22 @@ const VENDAS_DATA = {
           "valor": 146.4
         },
         {
+          "data": "24/04/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 12,
+          "valor": 1798.8
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "qt": 6,
+          "valor": 1259.4
+        },
+        {
           "data": "09/04/2026",
           "codcli": "84073",
           "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
@@ -77134,6 +77390,22 @@ const VENDAS_DATA = {
           "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
           "qt": 3,
           "valor": 575.1
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "85451",
+          "cliente": "MERCEARIA LEAO FM LTDA",
+          "produto": "VODKA NATASHA 900ML",
+          "qt": 36,
+          "valor": 428.4
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "85451",
+          "cliente": "MERCEARIA LEAO FM LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 6,
+          "valor": 135.0
         },
         {
           "data": "01/04/2026",
@@ -88698,6 +88970,22 @@ const VENDAS_DATA = {
           "produto": "RC ATUM SOLIDO OLEO 24X170G",
           "qt": 161,
           "valor": 29173.2
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "6278",
+          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "qt": 552,
+          "valor": 100022.4
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "6278",
+          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "qt": 552,
+          "valor": 100022.4
         },
         {
           "data": "02/04/2026",
