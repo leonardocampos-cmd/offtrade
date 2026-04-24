@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "23/04/2026 17:32",
+  "atualizado_em": "24/04/2026 12:01",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -38155,14 +38155,6 @@ const VENDAS_DATA = {
           "data": "23/04/2026",
           "codcli": "3551",
           "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 10,
-          "valor": 209.0
-        },
-        {
-          "data": "23/04/2026",
-          "codcli": "3551",
-          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "qt": 15,
           "valor": 298.5
@@ -70682,6 +70674,14 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 5,
           "valor": 109.5
+        },
+        {
+          "data": "23/04/2026",
+          "codcli": "92495",
+          "cliente": "MERCEARIA TROPICAL DA ALCOBACA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 3,
+          "valor": 80.7
         },
         {
           "data": "16/04/2026",
@@ -112560,7 +112560,7 @@ const VENDAS_DATA = {
           "valor": 204.48
         },
         {
-          "data": "15/04/2026",
+          "data": "23/04/2026",
           "codcli": "93342",
           "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
           "produto": "VINHO ALTOS DEL PLATA MALBEC 750 ML",
@@ -112568,39 +112568,7 @@ const VENDAS_DATA = {
           "valor": 253.86
         },
         {
-          "data": "15/04/2026",
-          "codcli": "93342",
-          "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
-          "produto": "CACHACA YPIOCA CG PRATA 965 ML",
-          "qt": 12,
-          "valor": 171.72
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "93342",
-          "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
-          "produto": "CACHACA SALINAS CRISTALINA 600ML",
-          "qt": 6,
-          "valor": 143.1
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "93342",
-          "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "qt": 6,
-          "valor": 171.54
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "93342",
-          "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
-          "produto": "VINHO LATITUD 33 SAUVIGNON BLANC 750 ML",
-          "qt": 6,
-          "valor": 198.12
-        },
-        {
-          "data": "15/04/2026",
+          "data": "23/04/2026",
           "codcli": "93342",
           "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
           "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
@@ -112608,7 +112576,7 @@ const VENDAS_DATA = {
           "valor": 198.13
         },
         {
-          "data": "15/04/2026",
+          "data": "23/04/2026",
           "codcli": "93342",
           "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
           "produto": "VINHO LATITUD 33 MALBEC  750 ML",
@@ -112616,7 +112584,7 @@ const VENDAS_DATA = {
           "valor": 198.12
         },
         {
-          "data": "15/04/2026",
+          "data": "23/04/2026",
           "codcli": "93342",
           "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
           "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
@@ -112624,10 +112592,34 @@ const VENDAS_DATA = {
           "valor": 198.12
         },
         {
-          "data": "15/04/2026",
+          "data": "23/04/2026",
           "codcli": "93342",
           "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
           "produto": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
+          "qt": 6,
+          "valor": 198.12
+        },
+        {
+          "data": "23/04/2026",
+          "codcli": "93342",
+          "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
+          "produto": "CACHACA SALINAS CRISTALINA 600ML",
+          "qt": 6,
+          "valor": 143.1
+        },
+        {
+          "data": "23/04/2026",
+          "codcli": "93342",
+          "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "qt": 6,
+          "valor": 171.54
+        },
+        {
+          "data": "23/04/2026",
+          "codcli": "93342",
+          "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
+          "produto": "VINHO LATITUD 33 SAUVIGNON BLANC 750 ML",
           "qt": 6,
           "valor": 198.12
         },
@@ -145588,14 +145580,6 @@ const VENDAS_DATA = {
           "produto": "GUARAVITA NATURAL 24X290ML",
           "qt": 10,
           "valor": 205.0
-        },
-        {
-          "data": "21/04/2026",
-          "codcli": "69965",
-          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
-          "produto": "PIRASSUNUNGA 51 600 ML",
-          "qt": 30,
-          "valor": 117.0
         },
         {
           "data": "15/04/2026",
