@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "25/04/2026 13:00",
+  "atualizado_em": "25/04/2026 14:00",
   "meses": [
     "Abr/26",
     "Mar/26"
@@ -11769,7 +11769,7 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA AMSTEL LAGER 0,269LT SHR 12UNPBR"
+              "DESCRICAO": "CERVEJA AMSTEL ULTRA LATA 12X269 ML"
             },
             {
               "FANTASIA": "HEINEKEN",
@@ -11777,11 +11777,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA AMSTEL ULTRA LATA 12X269 ML"
+              "DESCRICAO": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB"
             },
             {
               "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB"
+              "DESCRICAO": "CERVEJA AMSTEL LAGER 0,269LT SHR 12UNPBR"
             },
             {
               "FANTASIA": "BETTER DRINKS",
