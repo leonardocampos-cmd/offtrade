@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "25/04/2026 14:00",
+  "atualizado_em": "25/04/2026 15:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -46142,6 +46142,22 @@ const VENDAS_DATA = {
           "valor": 59.88
         },
         {
+          "data": "25/04/2026",
+          "codcli": "92284",
+          "cliente": "DROGARIA FF & FRANKLIN LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 5,
+          "valor": 99.5
+        },
+        {
+          "data": "25/04/2026",
+          "codcli": "92284",
+          "cliente": "DROGARIA FF & FRANKLIN LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 1,
+          "valor": 21.08
+        },
+        {
           "data": "09/04/2026",
           "codcli": "94266",
           "cliente": "MERCADINHO SCHIO LTDA",
@@ -46804,6 +46820,46 @@ const VENDAS_DATA = {
           "produto": "RC PATE ATUM TRADICIONAL 12X80G",
           "qt": 1,
           "valor": 14.17
+        },
+        {
+          "data": "25/04/2026",
+          "codcli": "92381",
+          "cliente": "A SUA FARMACIA DA TAQUARA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 3,
+          "valor": 60.89
+        },
+        {
+          "data": "25/04/2026",
+          "codcli": "92381",
+          "cliente": "A SUA FARMACIA DA TAQUARA LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "qt": 1,
+          "valor": 47.9
+        },
+        {
+          "data": "25/04/2026",
+          "codcli": "92381",
+          "cliente": "A SUA FARMACIA DA TAQUARA LTDA",
+          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "qt": 1,
+          "valor": 85.92
+        },
+        {
+          "data": "25/04/2026",
+          "codcli": "92381",
+          "cliente": "A SUA FARMACIA DA TAQUARA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "qt": 2,
+          "valor": 43.7
+        },
+        {
+          "data": "25/04/2026",
+          "codcli": "92381",
+          "cliente": "A SUA FARMACIA DA TAQUARA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "qt": 1,
+          "valor": 28.76
         },
         {
           "data": "15/04/2026",
