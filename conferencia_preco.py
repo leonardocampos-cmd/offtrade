@@ -63,15 +63,20 @@ df = df.merge(profit[['CODIGO', 'CUSTO COM DESCONTO']], left_on='CODPROD', right
 df = df.rename(columns={'PREÇO': 'PREÇO ON'})
 
 def aplicar_conferencia(df_local):
-   
+
     df_local['MENOR_VALOR'] = df_local[['PREÇO ON', 'PREÇO PROMO']].min(axis=1).round(2)
+    df_local['MAIOR_VALOR'] = df_local[['PREÇO ON', 'PREÇO PROMO']].max(axis=1).round(2)
 
     def classificar(row):
         pv = row['PVENDA']
         menor = row['MENOR_VALOR']
+        maior = row['MAIOR_VALOR']
 
         if pv < menor:
             return 'ABAIXO DA TABELA'
+
+        if pd.notna(maior) and pv > maior:
+            return 'ACIMA DA TABELA'
 
         if pd.notna(row['PREÇO PROMO']) and pv <= row['PREÇO PROMO']:
             return 'PREÇO PROMO'
@@ -97,7 +102,7 @@ vendedores_remover = [
     'ENEIVA RODRIGUES - OFF TRADE', 'ZEINALDO DE OLIVEIRA - OFF TRADE', 
     'EUDES MORGAN - OFF TRADE', 'RAQUEL ARAUJO - OFF TRADE','JOAO VICTOR DA ROCHA - OFF TRADE',
     'MARA DEPOLLI - OFF TRADE','GILDO ADRIANO - OFF TRADE','CARLOS TERRA - OFF TRADE','JOSIETH LIMA - OFF TRADE','FRANZ BENEVIDES - OFF TRADE','WANDERSON FERREIRA - OFF TRADE',
-    'TIAGO SILVA - OFF TRADE','ROSENIR RIBEIRO - OFF TRADE',
+    'TIAGO SILVA - OFF TRADE','ROSENIR RIBEIRO - OFF TRADE','ALDICEIA PEIXOTO - OFF TRADE','RICARDO CLAUDIO - OFF TRADE',
 ]
 df = df[~df['NOME'].isin(vendedores_remover)]
 
@@ -123,6 +128,6 @@ hoje = date.today()
 # ontem = date.today() - timedelta(days=1)
 df = df[df['DATA'] == hoje]
 df = df.sort_values(by='DATA', ascending=False)
-df = df[df['STATUS_CONFERENCIA']=='ABAIXO DA TABELA']
+df = df[df['STATUS_CONFERENCIA'].isin(['ABAIXO DA TABELA', 'ACIMA DA TABELA'])]
 
 df.to_excel('conferencia_precos_final.xlsx', index=False)

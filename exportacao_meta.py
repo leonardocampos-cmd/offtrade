@@ -344,6 +344,7 @@ for _, row in _vh.iterrows():
         'codcli':  str(row['CODCLI']),
         'cliente': str(row['CLIENTE']),
         'produto': str(row['PRODUTO']),
+        'fantasia': str(row['FANTASIA']),
         'qt':      int(row['QT']),
         'valor':   float(row['VALOR']),
     })
