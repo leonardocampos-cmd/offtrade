@@ -1280,13 +1280,10 @@ function buildCampanhaDetail(v, mes) {
       const gatilhoOk  = m.gatilho != null ? totalGatilho >= m.gatilho : true;
       const valFmt     = m.tipo === 'fat' ? fmtFat(val) : fmtPos(val);
 
-      const _gatilhoProgressLabel = m.gatilho != null
-        ? ` (${totalGatilho}/${m.gatilho} PDVs)`
-        : '';
       const gatilhoTag = m.gatilho != null
         ? (gatilhoOk
-            ? `<span style="font-size:0.65rem;font-weight:700;background:var(--green);color:#000;border-radius:4px;padding:1px 6px">GATILHO: ATIVADO${_gatilhoProgressLabel}</span>`
-            : `<span style="font-size:0.65rem;font-weight:700;background:var(--red);color:#fff;border-radius:4px;padding:1px 6px">GATILHO: DESATIVADO${_gatilhoProgressLabel}</span>`)
+            ? `<span style="font-size:0.65rem;font-weight:700;background:var(--green);color:#000;border-radius:4px;padding:1px 6px">GATILHO: ATIVADO</span>`
+            : `<span style="font-size:0.65rem;font-weight:700;background:var(--red);color:#fff;border-radius:4px;padding:1px 6px">GATILHO: DESATIVADO</span>`)
         : '';
 
       let posicaoHtml = '';
