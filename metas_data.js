@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "26/04/2026 21:00",
+  "atualizado_em": "27/04/2026 09:00",
   "meses": [
     "Abr/26",
     "Mar/26"
@@ -473,11 +473,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 297668.16,
+        "fat_proj": 282001.42,
         "fat_media_hist": 170241.75,
-        "pos_proj": 18.3,
+        "pos_proj": 17.4,
         "pos_media_hist": 9.3,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -3407,11 +3407,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 123107.59,
+        "fat_proj": 116628.24,
         "fat_media_hist": 157687.27,
-        "pos_proj": 92.9,
+        "pos_proj": 88.0,
         "pos_media_hist": 89.3,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -4939,11 +4939,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 58668.41,
+        "fat_proj": 55580.6,
         "fat_media_hist": 63711.63,
-        "pos_proj": 48.9,
+        "pos_proj": 46.3,
         "pos_media_hist": 49.0,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -7045,11 +7045,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 129265.35,
+        "fat_proj": 122461.91,
         "fat_media_hist": 92430.91,
-        "pos_proj": 24.4,
+        "pos_proj": 23.2,
         "pos_media_hist": 30.3,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -7486,11 +7486,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 561413.05,
+        "fat_proj": 531864.99,
         "fat_media_hist": 400237.76,
-        "pos_proj": 8.6,
+        "pos_proj": 8.1,
         "pos_media_hist": 10.0,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -8163,11 +8163,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 299799.39,
+        "fat_proj": 284020.47,
         "fat_media_hist": 234573.25,
-        "pos_proj": 45.2,
+        "pos_proj": 42.8,
         "pos_media_hist": 28.3,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -9645,11 +9645,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 53429.19,
+        "fat_proj": 50617.13,
         "fat_media_hist": 91200.38,
-        "pos_proj": 20.8,
+        "pos_proj": 19.7,
         "pos_media_hist": 30.0,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -11127,11 +11127,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 249511.25,
+        "fat_proj": 236379.08,
         "fat_media_hist": 149693.78,
-        "pos_proj": 45.2,
+        "pos_proj": 42.8,
         "pos_media_hist": 28.3,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -11623,11 +11623,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 30776.56,
+        "fat_proj": 29156.74,
         "fat_media_hist": 21007.04,
-        "pos_proj": 9.8,
+        "pos_proj": 9.3,
         "pos_media_hist": 12.0,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -12405,11 +12405,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 350305.72,
+        "fat_proj": 331868.58,
         "fat_media_hist": 581818.66,
-        "pos_proj": 36.7,
+        "pos_proj": 34.7,
         "pos_media_hist": 33.3,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -12947,11 +12947,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 56579.83,
+        "fat_proj": 53601.95,
         "fat_media_hist": 70945.1,
-        "pos_proj": 22.0,
+        "pos_proj": 20.8,
         "pos_media_hist": 23.3,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -13093,11 +13093,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 298729.2,
+        "fat_proj": 283006.61,
         "fat_media_hist": 0.0,
         "pos_proj": 1.2,
         "pos_media_hist": 0.0,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -15326,11 +15326,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 39404.05,
+        "fat_proj": 37330.16,
         "fat_media_hist": 39138.98,
-        "pos_proj": 69.7,
+        "pos_proj": 66.0,
         "pos_media_hist": 56.3,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -16434,11 +16434,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 83148.46,
+        "fat_proj": 78772.23,
         "fat_media_hist": 82162.71,
-        "pos_proj": 59.9,
+        "pos_proj": 56.7,
         "pos_media_hist": 55.0,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -16826,11 +16826,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 37275.97,
+        "fat_proj": 35314.08,
         "fat_media_hist": 52037.2,
-        "pos_proj": 36.7,
+        "pos_proj": 34.7,
         "pos_media_hist": 33.0,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     },
@@ -17402,11 +17402,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 66774.13,
+        "fat_proj": 63259.7,
         "fat_media_hist": 59883.48,
-        "pos_proj": 26.9,
+        "pos_proj": 25.5,
         "pos_media_hist": 23.3,
-        "du_passados": 18,
+        "du_passados": 19,
         "du_total": 22
       }
     }
