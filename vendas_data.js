@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "28/04/2026 13:01",
+  "atualizado_em": "28/04/2026 13:53",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -167256,6 +167256,24 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 2,
           "valor": 1279.8
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "93338",
+          "cliente": "QUINTAL DO JL LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 42,
+          "valor": 1465.8
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "93338",
+          "cliente": "QUINTAL DO JL LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 628.2
         },
         {
           "data": "01/04/2026",
