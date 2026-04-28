@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "28/04/2026 15:00",
+  "atualizado_em": "28/04/2026 15:53",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -108951,6 +108951,24 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 161,
           "valor": 29173.2
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "6278",
+          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 2760,
+          "valor": 90804.0
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "6278",
+          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 1656,
+          "valor": 54482.4
         },
         {
           "data": "27/04/2026",
