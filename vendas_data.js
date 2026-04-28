@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "28/04/2026 05:42",
+  "atualizado_em": "28/04/2026 09:32",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -51837,33 +51837,6 @@ const VENDAS_DATA = {
           "data": "27/04/2026",
           "codcli": "90863",
           "cliente": "PANIFICACAO LUANDA LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "90863",
-          "cliente": "PANIFICACAO LUANDA LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "90863",
-          "cliente": "PANIFICACAO LUANDA LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "90863",
-          "cliente": "PANIFICACAO LUANDA LTDA",
           "produto": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -97568,24 +97541,6 @@ const VENDAS_DATA = {
           "valor": 489.0
         },
         {
-          "data": "27/04/2026",
-          "codcli": "84950",
-          "cliente": "CRISTIANO F. DE SOUSA MERCADO, PADARIA E ACOUGUE",
-          "produto": "COQUETEL COMPOSTO PINK MOON 6X2L",
-          "fantasia": "COMARY",
-          "qt": 1,
-          "valor": 114.9
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "84950",
-          "cliente": "CRISTIANO F. DE SOUSA MERCADO, PADARIA E ACOUGUE",
-          "produto": "COQUETEL PINK MOON 12X600ML - PET",
-          "fantasia": "COMARY",
-          "qt": 1,
-          "valor": 74.9
-        },
-        {
           "data": "07/04/2026",
           "codcli": "84950",
           "cliente": "CRISTIANO F. DE SOUSA MERCADO, PADARIA E ACOUGUE",
@@ -142858,61 +142813,7 @@ const VENDAS_DATA = {
           "valor": 132.3
         },
         {
-          "data": "27/04/2026",
-          "codcli": "85494",
-          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
-          "produto": "VINHO LA GRANDE BASTIDE TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 72.2
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "85494",
-          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
-          "produto": "VINHO BRANCO SABICOS",
-          "fantasia": "CASTAS",
-          "qt": 4,
-          "valor": 149.44
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "85494",
-          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
-          "produto": "LA PETITE GARGOTTE CABERNET SAUV 750M",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 54.9
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "85494",
-          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
-          "produto": "ST PIERRE LATA GINGER LT 6X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 46.72
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "85494",
-          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
-          "produto": "VINHO ATAMISQUE SERBAL VIOGNIER 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 103.4
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "85494",
-          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
-          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
-          "fantasia": "FANTE",
-          "qt": 2,
-          "valor": 46.4
-        },
-        {
-          "data": "27/04/2026",
+          "data": "28/04/2026",
           "codcli": "85494",
           "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
           "produto": "VINHO MOV SAUVIGNON BLANC",
@@ -142921,7 +142822,7 @@ const VENDAS_DATA = {
           "valor": 18.7
         },
         {
-          "data": "27/04/2026",
+          "data": "28/04/2026",
           "codcli": "85494",
           "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
           "produto": "VINO ROSSO LOGGIA DELLE SASSAIE 750ML",
@@ -142930,7 +142831,7 @@ const VENDAS_DATA = {
           "valor": 38.4
         },
         {
-          "data": "27/04/2026",
+          "data": "28/04/2026",
           "codcli": "85494",
           "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
           "produto": "VINHO ADEGA DA SERRA TINTO 750ML",
@@ -142939,7 +142840,7 @@ const VENDAS_DATA = {
           "valor": 85.6
         },
         {
-          "data": "27/04/2026",
+          "data": "28/04/2026",
           "codcli": "85494",
           "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
           "produto": "VINHO TERRAS DE SANTAR COLHEITA TINTO",
@@ -142948,7 +142849,7 @@ const VENDAS_DATA = {
           "valor": 159.75
         },
         {
-          "data": "27/04/2026",
+          "data": "28/04/2026",
           "codcli": "85494",
           "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
           "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
@@ -142957,13 +142858,58 @@ const VENDAS_DATA = {
           "valor": 131.8
         },
         {
-          "data": "27/04/2026",
+          "data": "28/04/2026",
           "codcli": "85494",
           "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
           "produto": "WHISKY JIM BEAM WHITE 1L",
           "fantasia": "BEAM SUNTORY",
           "qt": 1,
           "valor": 65.9
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "85494",
+          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
+          "produto": "VINHO LA GRANDE BASTIDE TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 72.2
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "85494",
+          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
+          "produto": "VINHO BRANCO SABICOS",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 149.44
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "85494",
+          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
+          "produto": "LA PETITE GARGOTTE CABERNET SAUV 750M",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 54.9
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "85494",
+          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
+          "produto": "VINHO ATAMISQUE SERBAL VIOGNIER 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 103.4
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "85494",
+          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 46.4
         },
         {
           "data": "11/04/2026",
