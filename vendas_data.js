@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "28/04/2026 17:00",
+  "atualizado_em": "28/04/2026 17:53",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -168480,6 +168480,69 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 20,
           "valor": 1038.0
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 40,
+          "valor": 7286.4
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 15,
+          "valor": 2732.4
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 15,
+          "valor": 2732.4
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 6,
+          "valor": 1092.96
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL SUMMER NECTARINA SF 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 546.48
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL ZERO BR ALU CAN 24X250",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1821.6
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL SUMMER MELAO MARACUJA 24X250ML.",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 910.8
         },
         {
           "data": "22/04/2026",
