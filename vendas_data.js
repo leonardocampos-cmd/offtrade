@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "28/04/2026 11:03",
+  "atualizado_em": "28/04/2026 11:53",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -84467,33 +84467,6 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 57.9
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "93932",
-          "cliente": "RONNIE CESAR P. SILVA MERCEARIA",
-          "produto": "HARPIC LIQUIDO CLORO 12X200ML ",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 57.9
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "93932",
-          "cliente": "RONNIE CESAR P. SILVA MERCEARIA",
-          "produto": "KIT VANISH LIQ PINK1,5L+WHITE 1,5L 50%",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 85.5
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "93932",
-          "cliente": "RONNIE CESAR P. SILVA MERCEARIA",
-          "produto": "VANISH BARRA PINK/WHITE PACK C/2 24X150G",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 257.7
         },
         {
           "data": "12/03/2026",
