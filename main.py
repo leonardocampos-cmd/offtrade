@@ -14,16 +14,19 @@ def main():
     print(f"{'='*50}")
 
     try:
-        step("1/4 - Carregando metas e vendas (Oracle + Excel)")
+        step("1/5 - Carregando metas e vendas (Oracle + Excel)")
         import meta
 
-        step("2/4 - Exportando dashboard HTML (metas_data.js)")
+        step("2/5 - Exportando dashboard HTML (metas_data.js)")
         import exportacao_meta
 
         step("3/4 - Conferência de preços")
         import conferencia_preco
 
-        step("4/4 - Enviando alerta WhatsApp")
+        step("4/5 - Gerando página de entregas (entregas_data.js)")
+        import entregas
+
+        step("5/5 - Enviando alerta WhatsApp")
         import envio_whatsapp
 
     except Exception:
