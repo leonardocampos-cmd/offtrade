@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "29/04/2026 09:04",
+  "atualizado_em": "29/04/2026 10:00",
   "meses": [
     "Abr/26",
     "Mar/26"
@@ -11284,7 +11284,7 @@ const METAS_DATA = {
         "Abr/26": {
           "fat_tt": {
             "meta": 615000.0,
-            "realizado": 390130.19
+            "realizado": 387514.44
           },
           "fat_castas": {
             "meta": 12000.0,
@@ -11308,7 +11308,7 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 45,
-            "realizado": 33
+            "realizado": 32
           },
           "pos_hob_azeite": {
             "meta": 0,
@@ -11394,6 +11394,18 @@ const METAS_DATA = {
             {
               "FANTASIA": "BETTER DRINKS",
               "DESCRICAO": "BAER MATE LN 6X350ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "69204",
+          "CLIENTE": "MERCADO TATAIS PORTUGAL LTDA",
+          "BAIRROENT": "FRADE",
+          "DTULTCOMP": "26/03/2026",
+          "produtos": [
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
             }
           ]
         },
@@ -11940,14 +11952,14 @@ const METAS_DATA = {
         },
         {
           "mes": "Apr/26",
-          "fat": 390130.19,
-          "pos": 36
+          "fat": 387514.44,
+          "pos": 35
         }
       ],
       "previsao": {
-        "fat_proj": 408707.82,
+        "fat_proj": 405967.51,
         "fat_media_hist": 581818.66,
-        "pos_proj": 34.6,
+        "pos_proj": 33.5,
         "pos_media_hist": 33.3,
         "du_passados": 21,
         "du_total": 22
@@ -12710,7 +12722,7 @@ const METAS_DATA = {
         "Abr/26": {
           "fat_tt": {
             "meta": 45000.0,
-            "realizado": 43416.01
+            "realizado": 42861.35
           },
           "fat_castas": {
             "meta": 3500.0,
@@ -12726,7 +12738,7 @@ const METAS_DATA = {
           },
           "fat_pinatti": {
             "meta": 0,
-            "realizado": 2239.27
+            "realizado": 2168.07
           },
           "fat_moving": {
             "meta": 0,
@@ -14601,12 +14613,12 @@ const METAS_DATA = {
         },
         {
           "mes": "Apr/26",
-          "fat": 43416.01,
+          "fat": 42861.35,
           "pos": 65
         }
       ],
       "previsao": {
-        "fat_proj": 45483.44,
+        "fat_proj": 44902.37,
         "fat_media_hist": 39138.98,
         "pos_proj": 68.1,
         "pos_media_hist": 56.3,

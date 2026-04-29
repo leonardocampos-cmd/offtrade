@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/04/2026 09:04",
+  "atualizado_em": "29/04/2026 10:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -52768,69 +52768,6 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 6,
           "valor": 165.36
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 71.2
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 166.8
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "MARTINI BIANCO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 6,
-          "valor": 189.0
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 27.56
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 14.17
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "94268",
-          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 14.17
         },
         {
           "data": "08/04/2026",
@@ -168471,24 +168408,6 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 10,
           "valor": 512.1
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "69204",
-          "cliente": "MERCADO TATAIS PORTUGAL LTDA",
-          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
-          "fantasia": "HEINEKEN",
-          "qt": 15,
-          "valor": 2055.15
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "69204",
-          "cliente": "MERCADO TATAIS PORTUGAL LTDA",
-          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
-          "fantasia": "HEINEKEN",
-          "qt": 10,
-          "valor": 560.6
         },
         {
           "data": "21/04/2026",
