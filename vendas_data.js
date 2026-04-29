@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/04/2026 10:00",
+  "atualizado_em": "29/04/2026 11:05",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -85454,33 +85454,6 @@ const VENDAS_DATA = {
     "FABIO VALOTTI": {
       "Abr/26": [
         {
-          "data": "27/04/2026",
-          "codcli": "1360",
-          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
-          "produto": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 178.8
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "1360",
-          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
-          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 178.8
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "1360",
-          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
-          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 84,
-          "valor": 395.75
-        },
-        {
           "data": "28/04/2026",
           "codcli": "1360",
           "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
@@ -127284,33 +127257,6 @@ const VENDAS_DATA = {
           "valor": 107.5
         },
         {
-          "data": "27/04/2026",
-          "codcli": "89939",
-          "cliente": "TINGAS DO BRASIL POSTO DE GASOLINA LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 5,
-          "valor": 129.5
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "89939",
-          "cliente": "TINGAS DO BRASIL POSTO DE GASOLINA LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 5,
-          "valor": 149.5
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "89939",
-          "cliente": "TINGAS DO BRASIL POSTO DE GASOLINA LTDA",
-          "produto": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 51.27
-        },
-        {
           "data": "14/04/2026",
           "codcli": "89941",
           "cliente": "POSTO VANIA DE ABASTECIMENTO LTDA",
@@ -136123,15 +136069,6 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 2,
           "valor": 399.0
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82905",
-          "cliente": "ATLM DE CAXIAS COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 96,
-          "valor": 2102.4
         },
         {
           "data": "28/04/2026",
