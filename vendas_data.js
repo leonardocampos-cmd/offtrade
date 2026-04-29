@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/04/2026 17:08",
+  "atualizado_em": "29/04/2026 17:27",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -44601,6 +44601,33 @@ const VENDAS_DATA = {
           "valor": 289.0
         },
         {
+          "data": "29/04/2026",
+          "codcli": "74562",
+          "cliente": "VIP TIJUCA CONVENIENCIAS LTDA",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "74562",
+          "cliente": "VIP TIJUCA CONVENIENCIAS LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "74562",
+          "cliente": "VIP TIJUCA CONVENIENCIAS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
           "data": "15/04/2026",
           "codcli": "74562",
           "cliente": "VIP TIJUCA CONVENIENCIAS LTDA",
@@ -82892,6 +82919,69 @@ const VENDAS_DATA = {
           "valor": 43.2
         },
         {
+          "data": "29/04/2026",
+          "codcli": "3717",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 3,
+          "valor": 67.5
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "3717",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 67.8
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "3717",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "FANTE",
+          "qt": 3,
+          "valor": 67.5
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "3717",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 3,
+          "valor": 67.5
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "3717",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "FANTE",
+          "qt": 3,
+          "valor": 67.5
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "3717",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 3,
+          "valor": 67.5
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "3717",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "fantasia": "FANTE",
+          "qt": 3,
+          "valor": 67.5
+        },
+        {
           "data": "09/04/2026",
           "codcli": "3717",
           "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
@@ -82980,6 +83070,15 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 119.9
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "3816",
+          "cliente": "ORGANIZACOES FARINHA PURA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 15,
+          "valor": 979.2
         },
         {
           "data": "20/04/2026",
@@ -168248,6 +168347,24 @@ const VENDAS_DATA = {
           "valor": 205.0
         },
         {
+          "data": "29/04/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "CACHACA YPIOCA CG PRATA 965 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 101.4
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "CONHAQUE DOMUS 900ML",
+          "fantasia": "51",
+          "qt": 120,
+          "valor": 464.16
+        },
+        {
           "data": "08/04/2026",
           "codcli": "69965",
           "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
@@ -176771,6 +176888,33 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 12,
           "valor": 189.6
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "69045",
+          "cliente": "MERCADO S.A GARATUCAIA LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 3,
+          "valor": 110.7
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "69045",
+          "cliente": "MERCADO S.A GARATUCAIA LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 3,
+          "valor": 110.7
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "69045",
+          "cliente": "MERCADO S.A GARATUCAIA LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 3,
+          "valor": 110.7
         },
         {
           "data": "08/04/2026",
