@@ -25,7 +25,7 @@ def _caminho_logistica(d: date) -> str:
     ano  = d.strftime('%Y')
     upper, cap = _MESES_PT[mm]
     pasta   = f"{mm} {upper}"
-    arquivo = f"{mm} COPIA FINANCEIRO - Controle de Notas {cap} {ano}.xlsx"
+    arquivo = f"{mm} FINANCEIRO - Controle de Notas {cap} {ano}.xlsx"
     return (
         r"G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO"
         r"\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -"
@@ -54,6 +54,25 @@ tabela_pedidos['QT']       = pd.to_numeric(tabela_pedidos['QT'],      errors='co
 tabela_pedidos['NUMNOTA_NUM'] = pd.to_numeric(tabela_pedidos['NUMNOTA'], errors='coerce')
 tabela_pedidos['DATA']     = pd.to_datetime(tabela_pedidos['DATA'],   errors='coerce').dt.strftime('%d/%m/%Y')
 tabela_pedidos['STATUS']   = tabela_pedidos['STATUS'].fillna('').astype(str).str.strip()
+
+# ── Mapeia Oracle name → display name (igual ao metas.html) ───────────────────
+
+try:
+    from meta import arquivo as _arquivo_meta
+    _arq = _arquivo_meta[['RCA', 'VENDEDOR']].copy()
+    _arq['RCA'] = pd.to_numeric(_arq['RCA'], errors='coerce')
+    _arq = _arq.dropna(subset=['RCA', 'VENDEDOR']).drop_duplicates('RCA')
+    _rca_to_display = dict(zip(_arq['RCA'], _arq['VENDEDOR'].str.strip()))
+except Exception as e:
+    print(f"Aviso: mapeamento de nomes falhou ({e}), usando nomes Oracle.")
+    _rca_to_display = {}
+
+tabela_pedidos['CODUSUR_NUM'] = pd.to_numeric(tabela_pedidos['CODUSUR'], errors='coerce')
+tabela_pedidos['NOME'] = (
+    tabela_pedidos['CODUSUR_NUM']
+    .map(_rca_to_display)
+    .fillna(tabela_pedidos['NOME'].str.strip())
+)
 
 # ── Excel de logística — apenas a aba de HOJE ─────────────────────────────────
 
@@ -142,8 +161,17 @@ payload = {
     'vendedores':    vendedores_out,
 }
 
+import subprocess
+
 out = Path(__file__).parent / 'entregas_data.js'
 with open(out, 'w', encoding='utf-8') as f:
     f.write(f"const ENTREGAS_DATA = {json.dumps(payload, ensure_ascii=False, indent=2)};\n")
 
 print(f"OK — {len(vendedores_out)} vendedores, rota do dia {hoje_str} → {out}")
+
+repo_dir = str(Path(__file__).parent)
+subprocess.run(["git", "-C", repo_dir, "add", "entregas_data.js"], check=True)
+subprocess.run(["git", "-C", repo_dir, "commit", "-m",
+                f"Atualiza entregas_data.js - {date.today().strftime('%d/%m/%Y')}"])
+subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
+print("OK entregas_data.js enviado ao GitHub Pages.")
