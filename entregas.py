@@ -1,9 +1,8 @@
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
-import re
 import json
-from datetime import datetime
+from datetime import datetime, date
 from pathlib import Path
 
 oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
@@ -22,13 +21,14 @@ tabela_pedidos = pd.read_sql("""
     ORDER BY DATA DESC
 """, con=engine, dtype=str)
 
-tabela_pedidos.columns = tabela_pedidos.columns.str.upper()
-tabela_pedidos['TOTAL']       = pd.to_numeric(tabela_pedidos['TOTAL'],   errors='coerce').fillna(0)
-tabela_pedidos['QT']          = pd.to_numeric(tabela_pedidos['QT'],      errors='coerce').fillna(0).astype(int)
+tabela_pedidos.columns     = tabela_pedidos.columns.str.upper()
+tabela_pedidos['TOTAL']    = pd.to_numeric(tabela_pedidos['TOTAL'],   errors='coerce').fillna(0)
+tabela_pedidos['QT']       = pd.to_numeric(tabela_pedidos['QT'],      errors='coerce').fillna(0).astype(int)
 tabela_pedidos['NUMNOTA_NUM'] = pd.to_numeric(tabela_pedidos['NUMNOTA'], errors='coerce')
-tabela_pedidos['DATA']        = pd.to_datetime(tabela_pedidos['DATA'],   errors='coerce').dt.strftime('%d/%m/%Y')
+tabela_pedidos['DATA']     = pd.to_datetime(tabela_pedidos['DATA'],   errors='coerce').dt.strftime('%d/%m/%Y')
+tabela_pedidos['STATUS']   = tabela_pedidos['STATUS'].fillna('').astype(str).str.strip()
 
-# ── Excel de logística ─────────────────────────────────────────────────────────
+# ── Excel de logística — apenas a aba de HOJE ─────────────────────────────────
 
 caminho_excel = (
     r"G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO"
@@ -36,29 +36,33 @@ caminho_excel = (
     r"\04 COPIA FINANCEIRO - Controle de Notas Abril 2026.xlsx"
 )
 
-dict_abas   = pd.read_excel(caminho_excel, sheet_name=None)
-padrao_data = re.compile(r'^\d{2}\.\d{2}$')
-lista_dfs   = [df for aba, df in dict_abas.items() if padrao_data.match(aba)]
+hoje_str  = date.today().strftime('%d.%m')  # ex: "29.04"
+dict_abas = pd.read_excel(caminho_excel, sheet_name=None)
+df_hoje   = dict_abas.get(hoje_str, pd.DataFrame()).copy()
 
-if lista_dfs:
-    logistica = pd.concat(lista_dfs, ignore_index=True)
-    logistica = logistica[logistica['Nº NF'].notna()].copy()
-    logistica['NF_NUM'] = pd.to_numeric(logistica['Nº NF'], errors='coerce')
-    logistica = logistica.dropna(subset=['NF_NUM']).drop_duplicates('NF_NUM')
-    colunas_keep = ['NF_NUM']
-    if 'ROTA' in logistica.columns:
-        logistica['ROTA'] = logistica['ROTA'].fillna('').astype(str).str.strip()
-        colunas_keep.append('ROTA')
-    logistica = logistica[colunas_keep]
-else:
-    logistica = pd.DataFrame(columns=['NF_NUM', 'ROTA'])
+def _prep_logistica(df):
+    cols = {'NF_NUM': [], 'ROTA': [], 'STATUS_LOG': [], 'MOTIVO': []}
+    if df.empty or 'Nº NF' not in df.columns:
+        return pd.DataFrame(cols)
+    df = df[df['Nº NF'].notna()].copy()
+    df['NF_NUM'] = pd.to_numeric(df['Nº NF'], errors='coerce')
+    df = df.dropna(subset=['NF_NUM']).drop_duplicates('NF_NUM')
+    out = pd.DataFrame()
+    out['NF_NUM']     = df['NF_NUM']
+    out['ROTA']       = df['ROTA'].fillna('').astype(str).str.strip()     if 'ROTA'   in df.columns else ''
+    out['STATUS_LOG'] = df['STATUS'].fillna('').astype(str).str.strip()   if 'STATUS' in df.columns else ''
+    out['MOTIVO']     = df['MOTIVO'].fillna('').astype(str).str.strip()   if 'MOTIVO' in df.columns else ''
+    return out.reset_index(drop=True)
 
-# ── Merge ──────────────────────────────────────────────────────────────────────
+logistica_hoje = _prep_logistica(df_hoje)
 
-tabela_final = tabela_pedidos.merge(logistica, left_on='NUMNOTA_NUM', right_on='NF_NUM', how='left')
-if 'ROTA' not in tabela_final.columns:
-    tabela_final['ROTA'] = ''
-tabela_final['ROTA'] = tabela_final['ROTA'].fillna('').astype(str).str.strip()
+# ── Merge pedidos × logística de hoje ─────────────────────────────────────────
+
+tabela_final = tabela_pedidos.merge(logistica_hoje, left_on='NUMNOTA_NUM', right_on='NF_NUM', how='left')
+for col in ['ROTA', 'STATUS_LOG', 'MOTIVO']:
+    if col not in tabela_final.columns:
+        tabela_final[col] = ''
+    tabela_final[col] = tabela_final[col].fillna('').astype(str).str.strip()
 
 # ── Serialização ───────────────────────────────────────────────────────────────
 
@@ -70,13 +74,16 @@ def _agrupar(df):
     for numped, grp in df.groupby('NUMPED', sort=False):
         r0 = grp.iloc[0]
         result.append({
-            'numped':  _s(numped),
-            'numnota': _s(r0.get('NUMNOTA', '')),
-            'data':    _s(r0['DATA']),
-            'cliente': _s(r0['CLIENTE']),
-            'rota':    _s(r0.get('ROTA', '')),
-            'obs':     _s(r0['OBSENTREGA1']),
-            'total':   round(float(grp['TOTAL'].sum()), 2),
+            'numped':     _s(numped),
+            'numnota':    _s(r0.get('NUMNOTA', '')),
+            'data':       _s(r0['DATA']),
+            'cliente':    _s(r0['CLIENTE']),
+            'rota':       _s(r0.get('ROTA', '')),
+            'status_ped': _s(r0['STATUS']),
+            'status_log': _s(r0.get('STATUS_LOG', '')),
+            'motivo':     _s(r0.get('MOTIVO', '')),
+            'obs':        _s(r0['OBSENTREGA1']),
+            'total':      round(float(grp['TOTAL'].sum()), 2),
             'itens': [
                 {
                     'desc': _s(row['DESCRICAO']),
@@ -100,6 +107,7 @@ for nome, grp in tabela_final.groupby('NOME'):
 
 payload = {
     'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
+    'data_rota':     hoje_str,
     'vendedores':    vendedores_out,
 }
 
@@ -107,4 +115,4 @@ out = Path(__file__).parent / 'entregas_data.js'
 with open(out, 'w', encoding='utf-8') as f:
     f.write(f"const ENTREGAS_DATA = {json.dumps(payload, ensure_ascii=False, indent=2)};\n")
 
-print(f"OK — {len(vendedores_out)} vendedores → {out}")
+print(f"OK — {len(vendedores_out)} vendedores, rota do dia {hoje_str} → {out}")

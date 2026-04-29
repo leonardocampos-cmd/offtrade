@@ -15,6 +15,7 @@
       --accent: #f5c518;
       --green:  #22c55e;
       --yellow: #eab308;
+      --orange: #f97316;
       --red:    #ef4444;
       --blue:   #60a5fa;
       --text:   #e2e8f0;
@@ -44,7 +45,7 @@
     }
 
     .header-title h1 {
-      font-size: 1.25rem;
+      font-size: 1.2rem;
       font-weight: 700;
       color: var(--accent);
       letter-spacing: -0.02em;
@@ -54,6 +55,13 @@
       font-size: 0.72rem;
       color: var(--muted);
       margin-top: 4px;
+    }
+
+    .header-title .vendedor-nome {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-top: 5px;
     }
 
     select {
@@ -84,41 +92,19 @@
       border: 1px solid var(--border);
     }
 
-    .badge .cnt {
-      font-size: 1.7rem;
-      font-weight: 800;
-      display: block;
-      line-height: 1;
-    }
-
-    .badge .lbl {
-      font-size: 0.7rem;
-      color: var(--muted);
-      margin-top: 4px;
-      display: block;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .badge .val {
-      font-size: 0.78rem;
-      font-weight: 600;
-      margin-top: 3px;
-      display: block;
-    }
+    .badge .cnt  { font-size: 1.7rem; font-weight: 800; display: block; line-height: 1; }
+    .badge .lbl  { font-size: 0.68rem; color: var(--muted); margin-top: 4px; display: block; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge .val  { font-size: 0.78rem; font-weight: 600; margin-top: 3px; display: block; }
+    .badge .sub  { font-size: 0.68rem; color: var(--muted); margin-top: 1px; display: block; }
 
     .badge-rota   { border-color: #14532d; }
-    .badge-rota   .cnt { color: var(--green); }
-    .badge-rota   .val { color: var(--green); }
-
+    .badge-rota   .cnt, .badge-rota   .val { color: var(--green); }
     .badge-noemit { border-color: #713f12; }
-    .badge-noemit .cnt { color: var(--yellow); }
-    .badge-noemit .val { color: var(--yellow); }
+    .badge-noemit .cnt, .badge-noemit .val { color: var(--yellow); }
 
     /* ── Tabs ── */
     .tabs {
       display: flex;
-      gap: 0;
       margin-bottom: 16px;
       border-bottom: 1px solid var(--border);
     }
@@ -135,8 +121,7 @@
       font-weight: 600;
       transition: all 0.15s;
     }
-
-    .tab-btn.active        { color: var(--accent); border-bottom-color: var(--accent); }
+    .tab-btn.active             { color: var(--accent); border-bottom-color: var(--accent); }
     .tab-btn:hover:not(.active) { color: var(--text); }
 
     .section         { display: none; }
@@ -157,7 +142,7 @@
       padding: 14px 16px;
       margin-bottom: 10px;
     }
-
+    .card.cancelado { border-color: #7f1d1d; opacity: .75; }
     .card:last-child { margin-bottom: 0; }
 
     .card-header {
@@ -165,46 +150,53 @@
       align-items: flex-start;
       justify-content: space-between;
       gap: 10px;
-      margin-bottom: 9px;
+      margin-bottom: 8px;
     }
 
-    .card-cliente {
-      font-weight: 700;
-      font-size: 0.95rem;
-      line-height: 1.3;
-    }
-
-    .card-total {
-      font-size: 0.92rem;
-      font-weight: 700;
-      color: var(--accent);
-      white-space: nowrap;
-    }
+    .card-cliente { font-weight: 700; font-size: 0.95rem; line-height: 1.3; }
+    .card-total   { font-size: 0.92rem; font-weight: 700; color: var(--accent); white-space: nowrap; }
 
     .card-tags {
       display: flex;
       flex-wrap: wrap;
       gap: 5px;
       align-items: center;
+      margin-bottom: 6px;
     }
 
     .tag {
       display: inline-block;
-      font-size: 0.68rem;
+      font-size: 0.67rem;
       font-weight: 700;
       padding: 2px 7px;
       border-radius: 4px;
       letter-spacing: 0.04em;
+      text-transform: uppercase;
     }
 
-    .tag-rota   { background: #052e16; color: #4ade80; border: 1px solid #166534; }
-    .tag-nf     { background: #172554; color: var(--blue); border: 1px solid #1e40af; }
-    .tag-ped    { background: var(--card2); color: var(--muted); border: 1px solid var(--border); }
-    .tag-data   { background: var(--card2); color: var(--muted); border: 1px solid var(--border); }
-    .tag-status { background: #2d1a00; color: var(--yellow); border: 1px solid #92400e; }
+    .tag-rota     { background: #052e16; color: #4ade80;  border: 1px solid #166534; }
+    .tag-nf       { background: #172554; color: var(--blue); border: 1px solid #1e40af; }
+    .tag-ped      { background: var(--card2); color: var(--muted); border: 1px solid var(--border); }
+    .tag-data     { background: var(--card2); color: var(--muted); border: 1px solid var(--border); }
+    .tag-cancel   { background: #450a0a; color: #fca5a5; border: 1px solid #7f1d1d; }
+    .tag-bloq     { background: #422006; color: #fdba74; border: 1px solid #7c2d12; }
+    .tag-entregue { background: #052e16; color: #86efac; border: 1px solid #166534; }
+    .tag-devol    { background: #431407; color: #fb923c; border: 1px solid #9a3412; }
+    .tag-status   { background: var(--card2); color: var(--muted); border: 1px solid var(--border); }
+
+    .motivo {
+      margin-top: 7px;
+      font-size: 0.74rem;
+      background: #1c1a00;
+      border: 1px solid #713f12;
+      border-radius: 6px;
+      padding: 6px 10px;
+      color: var(--orange);
+    }
+    .motivo strong { color: var(--yellow); }
 
     .obs {
-      margin-top: 8px;
+      margin-top: 7px;
       font-size: 0.74rem;
       color: var(--yellow);
       background: #1c1500;
@@ -242,7 +234,6 @@
       gap: 8px;
     }
     .item-row + .item-row { border-top: 1px solid #1e2233; }
-
     .item-desc { flex: 1; }
     .item-qt   { white-space: nowrap; color: var(--text); font-weight: 600; }
     .item-val  { white-space: nowrap; color: var(--text); font-weight: 600; }
@@ -252,17 +243,19 @@
 
 <header>
   <div class="header-title">
-    <h1>Entregas OFF TRADE</h1>
-    <p id="atualizado">—</p>
+    <h1>&#x1F69A; Entregas OFF TRADE</h1>
+    <p id="header-sub">—</p>
+    <div class="vendedor-nome" id="header-vendedor" style="display:none"></div>
   </div>
-  <select id="vendedor-select" onchange="renderVendedor()"></select>
+  <select id="vendedor-select" onchange="renderVendedor()" style="display:none"></select>
 </header>
 
 <div class="summary">
   <div class="badge badge-rota">
     <span class="cnt" id="cnt-rota">—</span>
-    <span class="lbl">Em Rota</span>
+    <span class="lbl">Em Rota hoje</span>
     <span class="val" id="val-rota">—</span>
+    <span class="sub" id="sub-rota"></span>
   </div>
   <div class="badge badge-noemit">
     <span class="cnt" id="cnt-noemit">—</span>
@@ -272,7 +265,7 @@
 </div>
 
 <div class="tabs">
-  <button class="tab-btn active" onclick="switchTab('rota', this)">Em Rota</button>
+  <button class="tab-btn active" onclick="switchTab('rota',   this)">Em Rota</button>
   <button class="tab-btn"        onclick="switchTab('noemit', this)">Não Emitido</button>
 </div>
 
@@ -282,22 +275,58 @@
 <script>
 const D = (typeof ENTREGAS_DATA !== 'undefined') ? ENTREGAS_DATA : null;
 
+// ── URL param ?v=NOME ──────────────────────────────────────────────────────────
+const _urlV = new URLSearchParams(location.search).get('v');
+
 function fmt(v) {
   return 'R$ ' + v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
+function escHtml(s) {
+  return String(s||'')
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Tags de status ─────────────────────────────────────────────────────────────
+
+function tagStatusPed(s) {
+  if (!s) return '';
+  const u = s.toUpperCase();
+  if (u === 'C' || u.includes('CANCEL')) return `<span class="tag tag-cancel">Cancelado</span>`;
+  if (u === 'B' || u.includes('BLOQ'))   return `<span class="tag tag-bloq">Bloqueado</span>`;
+  return '';
+}
+
+function tagStatusLog(s) {
+  if (!s) return '';
+  const u = s.toUpperCase();
+  if (u.includes('ENTREGUE'))            return `<span class="tag tag-entregue">Entregue</span>`;
+  if (u.includes('DEVOL'))               return `<span class="tag tag-devol">Devolvido</span>`;
+  if (u.includes('CANCEL'))              return `<span class="tag tag-cancel">Cancelado</span>`;
+  return `<span class="tag tag-status">${escHtml(s)}</span>`;
+}
+
+// ── Render ─────────────────────────────────────────────────────────────────────
+
 function renderVendedor() {
   if (!D) return;
-  const nome = document.getElementById('vendedor-select').value;
+  const nome = _urlV || document.getElementById('vendedor-select').value;
   const v = D.vendedores.find(x => x.nome === nome);
   if (!v) return;
 
-  const totRota   = v.em_rota.reduce((s, p) => s + p.total, 0);
-  const totNoemit = v.nao_emitido.reduce((s, p) => s + p.total, 0);
+  const totRota   = v.em_rota.reduce((s,p)=>s+p.total, 0);
+  const totNoemit = v.nao_emitido.reduce((s,p)=>s+p.total, 0);
+
+  // Contagem de cancelados em rota
+  const cancelados = v.em_rota.filter(p => {
+    const u = p.status_ped.toUpperCase();
+    return u === 'C' || u.includes('CANCEL');
+  }).length;
 
   document.getElementById('cnt-rota').textContent   = v.em_rota.length;
-  document.getElementById('cnt-noemit').textContent = v.nao_emitido.length;
   document.getElementById('val-rota').textContent   = fmt(totRota);
+  document.getElementById('sub-rota').textContent   = cancelados > 0 ? `${cancelados} cancelado(s)` : '';
+  document.getElementById('cnt-noemit').textContent = v.nao_emitido.length;
   document.getElementById('val-noemit').textContent = fmt(totNoemit);
 
   document.getElementById('sec-rota').innerHTML   = renderCards(v.em_rota,    true);
@@ -306,17 +335,24 @@ function renderVendedor() {
 
 function renderCards(pedidos, isRota) {
   if (!pedidos.length) {
-    return `<div class="empty-msg">${isRota ? 'Nenhum pedido em rota.' : 'Nenhum pedido pendente de emissão.'}</div>`;
+    return `<div class="empty-msg">${isRota ? 'Nenhum pedido em rota hoje.' : 'Nenhum pedido pendente de emissão.'}</div>`;
   }
 
   return pedidos.map((p, i) => {
-    const prefix = isRota ? 'r' : 'n';
+    const isCancelado = p.status_ped.toUpperCase() === 'C' || p.status_ped.toUpperCase().includes('CANCEL');
+    const prefix  = isRota ? 'r' : 'n';
     const toggleId = `itens-${prefix}-${i}`;
 
-    const tagPed  = `<span class="tag tag-ped">Ped. ${p.numped}</span>`;
-    const tagNf   = p.numnota ? `<span class="tag tag-nf">NF ${p.numnota}</span>` : '';
-    const tagRota = p.rota    ? `<span class="tag tag-rota">${p.rota}</span>` : '';
-    const tagData = p.data    ? `<span class="tag tag-data">${p.data}</span>` : '';
+    const tagPed   = `<span class="tag tag-ped">Ped.&nbsp;${escHtml(p.numped)}</span>`;
+    const tagNf    = p.numnota ? `<span class="tag tag-nf">NF&nbsp;${escHtml(p.numnota)}</span>` : '';
+    const tagRota  = p.rota    ? `<span class="tag tag-rota">${escHtml(p.rota)}</span>` : '';
+    const tagData  = p.data    ? `<span class="tag tag-data">${escHtml(p.data)}</span>` : '';
+    const tagSPed  = tagStatusPed(p.status_ped);
+    const tagSLog  = tagStatusLog(p.status_log);
+
+    const motivoHtml = p.motivo
+      ? `<div class="motivo"><strong>Motivo:</strong> ${escHtml(p.motivo)}</div>`
+      : '';
 
     const obsHtml = p.obs
       ? `<div class="obs">Obs: ${escHtml(p.obs)}</div>`
@@ -332,28 +368,26 @@ function renderCards(pedidos, isRota) {
 
     const n = p.itens.length;
 
-    return `<div class="card">
+    return `<div class="card${isCancelado ? ' cancelado' : ''}">
       <div class="card-header">
         <span class="card-cliente">${escHtml(p.cliente) || '—'}</span>
         <span class="card-total">${fmt(p.total)}</span>
       </div>
-      <div class="card-tags">${tagPed}${tagNf}${tagRota}${tagData}</div>
-      ${obsHtml}
+      <div class="card-tags">${tagPed}${tagNf}${tagRota}${tagData}${tagSPed}${tagSLog}</div>
+      ${motivoHtml}${obsHtml}
       <button class="itens-toggle" onclick="toggleItens('${toggleId}',this)">
         Ver ${n} item${n !== 1 ? 'ns' : ''}
       </button>
-      <div class="itens-list" id="${toggleId}" style="display:none">
-        ${itensHtml}
-      </div>
+      <div class="itens-list" id="${toggleId}" style="display:none">${itensHtml}</div>
     </div>`;
   }).join('');
 }
 
 function toggleItens(id, btn) {
-  const el = document.getElementById(id);
-  const abrir = el.style.display === 'none';
-  el.style.display = abrir ? 'block' : 'none';
-  if (!abrir) {
+  const el   = document.getElementById(id);
+  const open = el.style.display === 'none';
+  el.style.display = open ? 'block' : 'none';
+  if (!open) {
     const n = el.querySelectorAll('.item-row').length;
     btn.textContent = `Ver ${n} item${n !== 1 ? 'ns' : ''}`;
   } else {
@@ -368,27 +402,38 @@ function switchTab(tab, btn) {
   document.getElementById('sec-noemit').classList.toggle('visible', tab === 'noemit');
 }
 
-function escHtml(s) {
-  return String(s)
-    .replace(/&/g,'&amp;')
-    .replace(/</g,'&lt;')
-    .replace(/>/g,'&gt;')
-    .replace(/"/g,'&quot;');
-}
+// ── Init ───────────────────────────────────────────────────────────────────────
 
-// Init
-if (D) {
-  document.getElementById('atualizado').textContent = 'Atualizado: ' + D.atualizado_em;
-  const sel = document.getElementById('vendedor-select');
-  D.vendedores.forEach(v => {
-    const opt = document.createElement('option');
-    opt.value       = v.nome;
-    opt.textContent = v.nome;
-    sel.appendChild(opt);
-  });
-  renderVendedor();
+if (!D) {
+  document.body.innerHTML =
+    '<p style="color:var(--red);padding:24px">Erro: entregas_data.js não encontrado. Execute entregas.py primeiro.</p>';
 } else {
-  document.body.innerHTML = '<p style="color:var(--red);padding:24px">Erro: entregas_data.js não encontrado. Execute entregas.py primeiro.</p>';
+  const dataRota = D.data_rota || '';
+  document.getElementById('header-sub').textContent =
+    `Atualizado: ${D.atualizado_em}${dataRota ? '  ·  Rota: ' + dataRota : ''}`;
+
+  if (_urlV) {
+    // Modo vendedor: trava no nome da URL, não mostra seletor
+    const v = D.vendedores.find(x => x.nome === _urlV);
+    if (v) {
+      const el = document.getElementById('header-vendedor');
+      el.textContent = v.nome;
+      el.style.display = 'block';
+      renderVendedor();
+    } else {
+      document.body.innerHTML = `<p style="color:var(--red);padding:24px">Vendedor não encontrado: ${escHtml(_urlV)}</p>`;
+    }
+  } else {
+    // Modo admin: mostra seletor
+    const sel = document.getElementById('vendedor-select');
+    sel.style.display = '';
+    D.vendedores.forEach(v => {
+      const opt = document.createElement('option');
+      opt.value = opt.textContent = v.nome;
+      sel.appendChild(opt);
+    });
+    renderVendedor();
+  }
 }
 </script>
 
