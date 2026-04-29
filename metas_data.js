@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "29/04/2026 17:42",
+  "atualizado_em": "29/04/2026 17:44",
   "meses": [
     "Abr/26",
     "Mar/26"
