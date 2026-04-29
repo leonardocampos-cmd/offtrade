@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "29/04/2026 15:00",
+  "atualizado_em": "29/04/2026 15:03",
   "meses": [
     "Abr/26",
     "Mar/26"
@@ -66,7 +66,7 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 0
           },
           "pos_pernod": {
             "meta": 0,
@@ -128,7 +128,7 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 0
           },
           "pos_pernod": {
             "meta": 0,
@@ -540,11 +540,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 125.0
+            "realizado": 36
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 16
+            "realizado": 6
           }
         },
         "Abr/26": {
@@ -602,11 +602,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 125.0
+            "realizado": 49
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 15
+            "realizado": 7
           }
         }
       },
@@ -3394,7 +3394,7 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 15.0
+            "realizado": 9
           },
           "pos_pernod": {
             "meta": 0,
@@ -3456,11 +3456,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 20.0
+            "realizado": 16
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 1
+            "realizado": 4
           }
         }
       },
@@ -4906,11 +4906,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 60.0
+            "realizado": 25
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 7
+            "realizado": 5
           }
         },
         "Abr/26": {
@@ -4968,11 +4968,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 80.0
+            "realizado": 100
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 4
+            "realizado": 10
           }
         }
       },
@@ -6932,11 +6932,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 25.0
+            "realizado": 25
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 3
+            "realizado": 5
           }
         },
         "Abr/26": {
@@ -6994,11 +6994,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 30.0
+            "realizado": 36
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 2
+            "realizado": 6
           }
         }
       },
@@ -7361,7 +7361,7 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 0
           },
           "pos_pernod": {
             "meta": 0,
@@ -7423,7 +7423,7 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 30.0
+            "realizado": 16
           },
           "pos_pernod": {
             "meta": 0,
@@ -7934,11 +7934,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 35.0
+            "realizado": 25
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 4
+            "realizado": 5
           }
         },
         "Abr/26": {
@@ -7996,11 +7996,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 45.0
+            "realizado": 36
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 8
+            "realizado": 6
           }
         }
       },
@@ -9308,7 +9308,7 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 60.0
+            "realizado": 49
           },
           "pos_pernod": {
             "meta": 0,
@@ -9370,11 +9370,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 75.0
+            "realizado": 36
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 9
+            "realizado": 6
           }
         }
       },
@@ -10774,11 +10774,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 40.0
+            "realizado": 4
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 8
+            "realizado": 2
           }
         },
         "Abr/26": {
@@ -10836,11 +10836,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 80.0
+            "realizado": 81
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 7
+            "realizado": 9
           }
         }
       },
@@ -11286,11 +11286,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 65.0
+            "realizado": 121
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 8
+            "realizado": 11
           }
         },
         "Abr/26": {
@@ -11348,11 +11348,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 30.0
+            "realizado": 16
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 3
+            "realizado": 4
           }
         }
       },
@@ -12036,7 +12036,7 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 25.0
+            "realizado": 16
           },
           "pos_pernod": {
             "meta": 0,
@@ -12098,11 +12098,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 15.0
+            "realizado": 9
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 2
+            "realizado": 3
           }
         }
       },
@@ -12640,7 +12640,7 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 0
           },
           "pos_pernod": {
             "meta": 0,
@@ -12724,11 +12724,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 15.0
+            "realizado": 4
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 3
+            "realizado": 2
           }
         },
         "Abr/26": {
@@ -12786,11 +12786,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 15.0
+            "realizado": 9
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 2
+            "realizado": 3
           }
         }
       },
@@ -14697,11 +14697,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 90.0
+            "realizado": 64
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 12
+            "realizado": 8
           }
         },
         "Abr/26": {
@@ -14759,11 +14759,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 100.0
+            "realizado": 121
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 8
+            "realizado": 11
           }
         }
       },
@@ -15569,11 +15569,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 60.0
+            "realizado": 100
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 8
+            "realizado": 10
           }
         },
         "Abr/26": {
@@ -15631,11 +15631,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 45.0
+            "realizado": 16
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 6
+            "realizado": 4
           }
         }
       },
@@ -15909,11 +15909,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 10.0
+            "realizado": 1
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 2
+            "realizado": 1
           }
         },
         "Abr/26": {
@@ -15971,7 +15971,7 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 0
           },
           "pos_pernod": {
             "meta": 0,
