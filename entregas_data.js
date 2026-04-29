@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "29/04/2026 14:59",
+  "atualizado_em": "29/04/2026 15:03",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
@@ -4536,7 +4536,39 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": []
+      "nao_emitido": [
+        {
+          "numped": "471000145",
+          "numnota": "",
+          "data": "29/04/2026",
+          "cliente": "MERCADINHO PERNAMBUCO LTDA",
+          "rota": "",
+          "obs": "",
+          "total": 153.6,
+          "itens": [
+            {
+              "desc": "RC PATE ATUM COM AZEITONAS 12X80G",
+              "qt": 1,
+              "val": 14.17
+            },
+            {
+              "desc": "RC PATE ATUM TRADICIONAL 12X80G",
+              "qt": 1,
+              "val": 14.17
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "HARPIC LIQUIDO CLORO 12X200ML",
+              "qt": 1,
+              "val": 59.98
+            }
+          ]
+        }
+      ]
     },
     {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
@@ -21091,7 +21123,7 @@ const ENTREGAS_DATA = {
           "data": "29/04/2026",
           "cliente": "MERCADO UNIAO DE MESQUITA LTDA",
           "rota": "",
-          "obs": "entrega de 8:00 as 17:00",
+          "obs": "",
           "total": 682.2,
           "itens": [
             {

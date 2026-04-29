@@ -476,7 +476,10 @@
     <h1>&#9679; METAS OFF TRADE RJ</h1>
     <p id="header-sub">Acompanhamento de Metas</p>
   </div>
-  <div id="header-actions"></div>
+  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+    <a class="btn" href="entregas.html">&#x1F69A; Entregas</a>
+    <div id="header-actions"></div>
+  </div>
 </header>
 
 <div id="app"></div>
@@ -1086,12 +1089,10 @@ const CAMPANHAS = [
     mes: 'Abr/26',
     metricas: [
       {
-        nome: 'Bônus PERNOD (Whisky Jameson R$10 / demais R$5 por cliente+produto único)',
+        nome: 'SKUs distintos vendidos',
         campo: 'bonus_pernod',
-        tipo: 'fat',
+        tipo: 'pos',
         tipo_premio: 'direto',
-        gatilho: 400,
-        gatilho_campo: 'pos_pernod',
       },
     ],
   },
