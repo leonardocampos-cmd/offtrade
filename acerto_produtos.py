@@ -19,3 +19,4 @@ engine_tk = create_engine(f'oracle+oracledb://{user}:{password}@{dsn_tk}')
 engine_sp = create_engine(f'oracle+oracledb://{user}:{password}@{dsn_sp}')
 engine_mg = create_engine(f'oracle+oracledb://{user}:{password}@{dsn_mg}')
 
+tabela_pedidos = 
