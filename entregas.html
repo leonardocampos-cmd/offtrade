@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entregas OFF TRADE</title>
+  <script src="entregas_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:     #0f1117;
+      --card:   #1a1d27;
+      --card2:  #22263a;
+      --accent: #f5c518;
+      --green:  #22c55e;
+      --yellow: #eab308;
+      --red:    #ef4444;
+      --blue:   #60a5fa;
+      --text:   #e2e8f0;
+      --muted:  #94a3b8;
+      --border: #2d3144;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+      padding: 16px;
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .header-title h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: -0.02em;
+    }
+
+    .header-title p {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    select {
+      background: var(--card2);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      min-width: 200px;
+      max-width: 300px;
+    }
+    select:focus { outline: none; border-color: var(--accent); }
+
+    /* ── Summary ── */
+    .summary {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .badge {
+      flex: 1;
+      padding: 12px 14px;
+      border-radius: 10px;
+      background: var(--card);
+      border: 1px solid var(--border);
+    }
+
+    .badge .cnt {
+      font-size: 1.7rem;
+      font-weight: 800;
+      display: block;
+      line-height: 1;
+    }
+
+    .badge .lbl {
+      font-size: 0.7rem;
+      color: var(--muted);
+      margin-top: 4px;
+      display: block;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .badge .val {
+      font-size: 0.78rem;
+      font-weight: 600;
+      margin-top: 3px;
+      display: block;
+    }
+
+    .badge-rota   { border-color: #14532d; }
+    .badge-rota   .cnt { color: var(--green); }
+    .badge-rota   .val { color: var(--green); }
+
+    .badge-noemit { border-color: #713f12; }
+    .badge-noemit .cnt { color: var(--yellow); }
+    .badge-noemit .val { color: var(--yellow); }
+
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      gap: 0;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .tab-btn {
+      padding: 8px 20px;
+      border: none;
+      background: none;
+      color: var(--muted);
+      font-size: 0.85rem;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      font-weight: 600;
+      transition: all 0.15s;
+    }
+
+    .tab-btn.active        { color: var(--accent); border-bottom-color: var(--accent); }
+    .tab-btn:hover:not(.active) { color: var(--text); }
+
+    .section         { display: none; }
+    .section.visible { display: block; }
+
+    /* ── Cards ── */
+    .empty-msg {
+      text-align: center;
+      color: var(--muted);
+      padding: 48px 0;
+      font-size: 0.88rem;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+    }
+
+    .card:last-child { margin-bottom: 0; }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 9px;
+    }
+
+    .card-cliente {
+      font-weight: 700;
+      font-size: 0.95rem;
+      line-height: 1.3;
+    }
+
+    .card-total {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      align-items: center;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+      letter-spacing: 0.04em;
+    }
+
+    .tag-rota   { background: #052e16; color: #4ade80; border: 1px solid #166534; }
+    .tag-nf     { background: #172554; color: var(--blue); border: 1px solid #1e40af; }
+    .tag-ped    { background: var(--card2); color: var(--muted); border: 1px solid var(--border); }
+    .tag-data   { background: var(--card2); color: var(--muted); border: 1px solid var(--border); }
+    .tag-status { background: #2d1a00; color: var(--yellow); border: 1px solid #92400e; }
+
+    .obs {
+      margin-top: 8px;
+      font-size: 0.74rem;
+      color: var(--yellow);
+      background: #1c1500;
+      border: 1px solid #713f12;
+      border-radius: 6px;
+      padding: 5px 10px;
+    }
+
+    .itens-toggle {
+      margin-top: 8px;
+      font-size: 0.72rem;
+      color: var(--accent);
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      display: block;
+      font-family: inherit;
+    }
+    .itens-toggle:hover { text-decoration: underline; }
+
+    .itens-list {
+      margin-top: 8px;
+      border-top: 1px solid var(--border);
+      padding-top: 8px;
+    }
+
+    .item-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.76rem;
+      color: var(--muted);
+      padding: 4px 0;
+      gap: 8px;
+    }
+    .item-row + .item-row { border-top: 1px solid #1e2233; }
+
+    .item-desc { flex: 1; }
+    .item-qt   { white-space: nowrap; color: var(--text); font-weight: 600; }
+    .item-val  { white-space: nowrap; color: var(--text); font-weight: 600; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-title">
+    <h1>Entregas OFF TRADE</h1>
+    <p id="atualizado">—</p>
+  </div>
+  <select id="vendedor-select" onchange="renderVendedor()"></select>
+</header>
+
+<div class="summary">
+  <div class="badge badge-rota">
+    <span class="cnt" id="cnt-rota">—</span>
+    <span class="lbl">Em Rota</span>
+    <span class="val" id="val-rota">—</span>
+  </div>
+  <div class="badge badge-noemit">
+    <span class="cnt" id="cnt-noemit">—</span>
+    <span class="lbl">Não Emitido</span>
+    <span class="val" id="val-noemit">—</span>
+  </div>
+</div>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="switchTab('rota', this)">Em Rota</button>
+  <button class="tab-btn"        onclick="switchTab('noemit', this)">Não Emitido</button>
+</div>
+
+<div id="sec-rota"   class="section visible"></div>
+<div id="sec-noemit" class="section"></div>
+
+<script>
+const D = (typeof ENTREGAS_DATA !== 'undefined') ? ENTREGAS_DATA : null;
+
+function fmt(v) {
+  return 'R$ ' + v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function renderVendedor() {
+  if (!D) return;
+  const nome = document.getElementById('vendedor-select').value;
+  const v = D.vendedores.find(x => x.nome === nome);
+  if (!v) return;
+
+  const totRota   = v.em_rota.reduce((s, p) => s + p.total, 0);
+  const totNoemit = v.nao_emitido.reduce((s, p) => s + p.total, 0);
+
+  document.getElementById('cnt-rota').textContent   = v.em_rota.length;
+  document.getElementById('cnt-noemit').textContent = v.nao_emitido.length;
+  document.getElementById('val-rota').textContent   = fmt(totRota);
+  document.getElementById('val-noemit').textContent = fmt(totNoemit);
+
+  document.getElementById('sec-rota').innerHTML   = renderCards(v.em_rota,    true);
+  document.getElementById('sec-noemit').innerHTML = renderCards(v.nao_emitido, false);
+}
+
+function renderCards(pedidos, isRota) {
+  if (!pedidos.length) {
+    return `<div class="empty-msg">${isRota ? 'Nenhum pedido em rota.' : 'Nenhum pedido pendente de emissão.'}</div>`;
+  }
+
+  return pedidos.map((p, i) => {
+    const prefix = isRota ? 'r' : 'n';
+    const toggleId = `itens-${prefix}-${i}`;
+
+    const tagPed  = `<span class="tag tag-ped">Ped. ${p.numped}</span>`;
+    const tagNf   = p.numnota ? `<span class="tag tag-nf">NF ${p.numnota}</span>` : '';
+    const tagRota = p.rota    ? `<span class="tag tag-rota">${p.rota}</span>` : '';
+    const tagData = p.data    ? `<span class="tag tag-data">${p.data}</span>` : '';
+
+    const obsHtml = p.obs
+      ? `<div class="obs">Obs: ${escHtml(p.obs)}</div>`
+      : '';
+
+    const itensHtml = p.itens.map(it =>
+      `<div class="item-row">
+        <span class="item-desc">${escHtml(it.desc)}</span>
+        <span class="item-qt">${it.qt}&nbsp;un</span>
+        <span class="item-val">${fmt(it.val)}</span>
+      </div>`
+    ).join('');
+
+    const n = p.itens.length;
+
+    return `<div class="card">
+      <div class="card-header">
+        <span class="card-cliente">${escHtml(p.cliente) || '—'}</span>
+        <span class="card-total">${fmt(p.total)}</span>
+      </div>
+      <div class="card-tags">${tagPed}${tagNf}${tagRota}${tagData}</div>
+      ${obsHtml}
+      <button class="itens-toggle" onclick="toggleItens('${toggleId}',this)">
+        Ver ${n} item${n !== 1 ? 'ns' : ''}
+      </button>
+      <div class="itens-list" id="${toggleId}" style="display:none">
+        ${itensHtml}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function toggleItens(id, btn) {
+  const el = document.getElementById(id);
+  const abrir = el.style.display === 'none';
+  el.style.display = abrir ? 'block' : 'none';
+  if (!abrir) {
+    const n = el.querySelectorAll('.item-row').length;
+    btn.textContent = `Ver ${n} item${n !== 1 ? 'ns' : ''}`;
+  } else {
+    btn.textContent = 'Ocultar itens';
+  }
+}
+
+function switchTab(tab, btn) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('sec-rota').classList.toggle('visible',  tab === 'rota');
+  document.getElementById('sec-noemit').classList.toggle('visible', tab === 'noemit');
+}
+
+function escHtml(s) {
+  return String(s)
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;');
+}
+
+// Init
+if (D) {
+  document.getElementById('atualizado').textContent = 'Atualizado: ' + D.atualizado_em;
+  const sel = document.getElementById('vendedor-select');
+  D.vendedores.forEach(v => {
+    const opt = document.createElement('option');
+    opt.value       = v.nome;
+    opt.textContent = v.nome;
+    sel.appendChild(opt);
+  });
+  renderVendedor();
+} else {
+  document.body.innerHTML = '<p style="color:var(--red);padding:24px">Erro: entregas_data.js não encontrado. Execute entregas.py primeiro.</p>';
+}
+</script>
+
+</body>
+</html>
