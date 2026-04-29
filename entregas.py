@@ -5,6 +5,33 @@ import json
 from datetime import datetime, date
 from pathlib import Path
 
+_MESES_PT = {
+    '01': ('JANEIRO',   'Janeiro'),
+    '02': ('FEVEREIRO', 'Fevereiro'),
+    '03': ('MARÇO',     'Março'),
+    '04': ('ABRIL',     'Abril'),
+    '05': ('MAIO',      'Maio'),
+    '06': ('JUNHO',     'Junho'),
+    '07': ('JULHO',     'Julho'),
+    '08': ('AGOSTO',    'Agosto'),
+    '09': ('SETEMBRO',  'Setembro'),
+    '10': ('OUTUBRO',   'Outubro'),
+    '11': ('NOVEMBRO',  'Novembro'),
+    '12': ('DEZEMBRO',  'Dezembro'),
+}
+
+def _caminho_logistica(d: date) -> str:
+    mm   = d.strftime('%m')
+    ano  = d.strftime('%Y')
+    upper, cap = _MESES_PT[mm]
+    pasta   = f"{mm} {upper}"
+    arquivo = f"{mm} COPIA FINANCEIRO - Controle de Notas {cap} {ano}.xlsx"
+    return (
+        r"G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO"
+        r"\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -"
+        f"\\{ano}\\{pasta}\\{arquivo}"
+    )
+
 oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
 engine = create_engine('oracle+oracledb://vpn:vpn2320vpn@crc_oci')
 
@@ -30,15 +57,17 @@ tabela_pedidos['STATUS']   = tabela_pedidos['STATUS'].fillna('').astype(str).str
 
 # ── Excel de logística — apenas a aba de HOJE ─────────────────────────────────
 
-caminho_excel = (
-    r"G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO"
-    r"\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\04 ABRIL"
-    r"\04 COPIA FINANCEIRO - Controle de Notas Abril 2026.xlsx"
-)
+hoje_str      = date.today().strftime('%d.%m')  # ex: "29.04"
+caminho_excel = _caminho_logistica(date.today())
 
-hoje_str  = date.today().strftime('%d.%m')  # ex: "29.04"
-dict_abas = pd.read_excel(caminho_excel, sheet_name=None)
-df_hoje   = dict_abas.get(hoje_str, pd.DataFrame()).copy()
+try:
+    dict_abas = pd.read_excel(caminho_excel, sheet_name=None)
+    df_hoje   = dict_abas.get(hoje_str, pd.DataFrame()).copy()
+    print(f"Logística: {caminho_excel}")
+except FileNotFoundError:
+    print(f"Aviso: arquivo de logística não encontrado:\n  {caminho_excel}")
+    dict_abas = {}
+    df_hoje   = pd.DataFrame()
 
 def _prep_logistica(df):
     cols = {'NF_NUM': [], 'ROTA': [], 'STATUS_LOG': [], 'MOTIVO': []}
@@ -97,12 +126,14 @@ def _agrupar(df):
 
 vendedores_out = []
 for nome, grp in tabela_final.groupby('NOME'):
-    em_rota     = grp[grp['ROTA'] != '']
-    nao_emitido = grp[grp['NUMNOTA_NUM'].isna()]
+    em_rota        = grp[grp['ROTA'] != '']
+    nao_emitido    = grp[grp['NUMNOTA_NUM'].isna()]
+    emitido_s_rota = grp[grp['NUMNOTA_NUM'].notna() & (grp['ROTA'] == '')]
     vendedores_out.append({
-        'nome':        _s(nome),
-        'em_rota':     _agrupar(em_rota),
-        'nao_emitido': _agrupar(nao_emitido),
+        'nome':           _s(nome),
+        'em_rota':        _agrupar(em_rota),
+        'nao_emitido':    _agrupar(nao_emitido),
+        'emitido_s_rota': _agrupar(emitido_s_rota),
     })
 
 payload = {

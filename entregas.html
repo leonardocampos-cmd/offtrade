@@ -97,10 +97,12 @@
     .badge .val  { font-size: 0.78rem; font-weight: 600; margin-top: 3px; display: block; }
     .badge .sub  { font-size: 0.68rem; color: var(--muted); margin-top: 1px; display: block; }
 
-    .badge-rota   { border-color: #14532d; }
-    .badge-rota   .cnt, .badge-rota   .val { color: var(--green); }
-    .badge-noemit { border-color: #713f12; }
-    .badge-noemit .cnt, .badge-noemit .val { color: var(--yellow); }
+    .badge-rota    { border-color: #14532d; }
+    .badge-rota    .cnt, .badge-rota    .val { color: var(--green); }
+    .badge-noemit  { border-color: #713f12; }
+    .badge-noemit  .cnt, .badge-noemit  .val { color: var(--yellow); }
+    .badge-semrota { border-color: #1e3a5f; }
+    .badge-semrota .cnt, .badge-semrota .val { color: var(--blue); }
 
     /* ── Tabs ── */
     .tabs {
@@ -257,6 +259,11 @@
     <span class="val" id="val-rota">—</span>
     <span class="sub" id="sub-rota"></span>
   </div>
+  <div class="badge badge-semrota">
+    <span class="cnt" id="cnt-semrota">—</span>
+    <span class="lbl">Emitido / Sem Rota</span>
+    <span class="val" id="val-semrota">—</span>
+  </div>
   <div class="badge badge-noemit">
     <span class="cnt" id="cnt-noemit">—</span>
     <span class="lbl">Não Emitido</span>
@@ -265,12 +272,14 @@
 </div>
 
 <div class="tabs">
-  <button class="tab-btn active" onclick="switchTab('rota',   this)">Em Rota</button>
-  <button class="tab-btn"        onclick="switchTab('noemit', this)">Não Emitido</button>
+  <button class="tab-btn active" onclick="switchTab('rota',    this)">Em Rota</button>
+  <button class="tab-btn"        onclick="switchTab('semrota', this)">Emitido / Sem Rota</button>
+  <button class="tab-btn"        onclick="switchTab('noemit',  this)">Não Emitido</button>
 </div>
 
-<div id="sec-rota"   class="section visible"></div>
-<div id="sec-noemit" class="section"></div>
+<div id="sec-rota"    class="section visible"></div>
+<div id="sec-semrota" class="section"></div>
+<div id="sec-noemit"  class="section"></div>
 
 <script>
 const D = (typeof ENTREGAS_DATA !== 'undefined') ? ENTREGAS_DATA : null;
@@ -323,25 +332,36 @@ function renderVendedor() {
     return u === 'C' || u.includes('CANCEL');
   }).length;
 
-  document.getElementById('cnt-rota').textContent   = v.em_rota.length;
-  document.getElementById('val-rota').textContent   = fmt(totRota);
-  document.getElementById('sub-rota').textContent   = cancelados > 0 ? `${cancelados} cancelado(s)` : '';
-  document.getElementById('cnt-noemit').textContent = v.nao_emitido.length;
-  document.getElementById('val-noemit').textContent = fmt(totNoemit);
+  const semRota    = v.emitido_s_rota || [];
+  const totSemRota = semRota.reduce((s,p)=>s+p.total, 0);
 
-  document.getElementById('sec-rota').innerHTML   = renderCards(v.em_rota,    true);
-  document.getElementById('sec-noemit').innerHTML = renderCards(v.nao_emitido, false);
+  document.getElementById('cnt-rota').textContent    = v.em_rota.length;
+  document.getElementById('val-rota').textContent    = fmt(totRota);
+  document.getElementById('sub-rota').textContent    = cancelados > 0 ? `${cancelados} cancelado(s)` : '';
+  document.getElementById('cnt-semrota').textContent = semRota.length;
+  document.getElementById('val-semrota').textContent = fmt(totSemRota);
+  document.getElementById('cnt-noemit').textContent  = v.nao_emitido.length;
+  document.getElementById('val-noemit').textContent  = fmt(totNoemit);
+
+  document.getElementById('sec-rota').innerHTML    = renderCards(v.em_rota,    'rota');
+  document.getElementById('sec-semrota').innerHTML = renderCards(semRota,      'semrota');
+  document.getElementById('sec-noemit').innerHTML  = renderCards(v.nao_emitido,'noemit');
 }
 
-function renderCards(pedidos, isRota) {
+const _emptyMsg = {
+  rota:    'Nenhum pedido em rota hoje.',
+  semrota: 'Nenhuma NF emitida aguardando rota.',
+  noemit:  'Nenhum pedido pendente de emissão.',
+};
+
+function renderCards(pedidos, prefixo) {
   if (!pedidos.length) {
-    return `<div class="empty-msg">${isRota ? 'Nenhum pedido em rota hoje.' : 'Nenhum pedido pendente de emissão.'}</div>`;
+    return `<div class="empty-msg">${_emptyMsg[prefixo] || '—'}</div>`;
   }
 
   return pedidos.map((p, i) => {
     const isCancelado = p.status_ped.toUpperCase() === 'C' || p.status_ped.toUpperCase().includes('CANCEL');
-    const prefix  = isRota ? 'r' : 'n';
-    const toggleId = `itens-${prefix}-${i}`;
+    const toggleId = `itens-${prefixo}-${i}`;
 
     const tagPed   = `<span class="tag tag-ped">Ped.&nbsp;${escHtml(p.numped)}</span>`;
     const tagNf    = p.numnota ? `<span class="tag tag-nf">NF&nbsp;${escHtml(p.numnota)}</span>` : '';
@@ -398,8 +418,9 @@ function toggleItens(id, btn) {
 function switchTab(tab, btn) {
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  document.getElementById('sec-rota').classList.toggle('visible',  tab === 'rota');
-  document.getElementById('sec-noemit').classList.toggle('visible', tab === 'noemit');
+  ['rota','semrota','noemit'].forEach(t =>
+    document.getElementById('sec-' + t).classList.toggle('visible', t === tab)
+  );
 }
 
 // ── Init ───────────────────────────────────────────────────────────────────────

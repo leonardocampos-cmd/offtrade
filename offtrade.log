@@ -62859,3 +62859,56 @@ OK GitHub Pages atualizado.
 [ERRO] Falha na execução:
 [29/04/2026 16:01:40,59] ERRO (codigo 1
 ---------------------------------------- 
+[29/04/2026 17:00:00,73] Iniciando... 
+[master d02f211] Atualiza metas_data.js + vendas_data.js - 29/04/2026
+ 2 files changed, 691 insertions(+), 691 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   df63029..d02f211  master -> master
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 27, in main
+    import entregas
+  File "g:\Meu Drive\offtrade\entregas.py", line 40, in <module>
+    dict_abas = pd.read_excel(caminho_excel, sheet_name=None)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 481, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1604, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1452, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\common.py", line 935, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\Drives compartilhados\\01-Logística\\LOGÍSTICA RJ\\APOIO LOGÍSTICO\\CONTROLE DE SAÍDAS LOGÍSTICA\\Controle de Saídas 2.0 - -\\2026\\04 ABRIL\\04 COPIA FINANCEIRO - Controle de Notas Abril 2026.xlsx'
+
+==================================================
+  OFFTRADE - 29/04/2026 17:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+Clientes nao positivados em 04/2026: 3101
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_04-2026.xlsx
+OK metas_data.js gerado — 16 vendedores, meses: ['Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+
+[ERRO] Falha na execução:
+[29/04/2026 17:00:57,99] ERRO (codigo 1
+---------------------------------------- 
