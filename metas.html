@@ -477,7 +477,7 @@
     <p id="header-sub">Acompanhamento de Metas</p>
   </div>
   <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-    <a class="btn" href="entregas.html">&#x1F69A; Entregas</a>
+    <a id="btn-entregas" class="btn" href="entregas.html">&#x1F69A; Entregas</a>
     <div id="header-actions"></div>
   </div>
 </header>
@@ -918,6 +918,7 @@ function renderVendas(v) {
       ? `Atualizado ${VENDAS_DATA.atualizado_em}`
       : 'Dados de vendas não disponíveis';
 
+  document.getElementById('btn-entregas').href = 'entregas.html?v=' + encodeURIComponent(v.nome);
   document.getElementById('header-actions').innerHTML = `
     <button class="btn btn-dl" onclick="exportarVendasCSV('${v.nome}')">&#8595; Baixar CSV</button>
     <button class="btn" onclick="voltarParaTodos()">\u2190 Todos</button>`;
@@ -992,6 +993,7 @@ function renderDetail(v, mes) {
     `<option value="${mo}" ${mo === mes ? 'selected' : ''}>${mo}</option>`
   ).join('');
 
+  document.getElementById('btn-entregas').href = 'entregas.html?v=' + encodeURIComponent(v.nome);
   document.getElementById('header-actions').innerHTML = `
     <select class="mes-select" onchange="renderDetail(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'), this.value)">${mesOpts}</select>
     <button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>
