@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "29/04/2026 17:36",
+  "atualizado_em": "29/04/2026 17:42",
   "data_rota": "29.04",
   "vendedores": [
     {
@@ -25157,6 +25157,45 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "379000862",
+          "numnota": "",
+          "data": "29/04/2026",
+          "cliente": "M T FERREIRA DA SILVA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 669.0,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 3,
+              "val": 195.84
+            },
+            {
+              "desc": "VANISH LIQUIDO PINK REFIL 12X500ML",
+              "qt": 1,
+              "val": 66.6
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 24,
+              "val": 276.0
+            }
+          ]
+        },
+        {
           "numped": "379000859",
           "numnota": "",
           "data": "29/04/2026",
@@ -40459,6 +40498,55 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "155003381",
+          "numnota": "",
+          "data": "29/04/2026",
+          "cliente": "CASA SOMAR BUZIOS LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3265.04,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 4,
+              "val": 786.24
+            },
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 10,
+              "val": 329.0
+            },
+            {
+              "desc": "RED BULL SF POMELO 24X250ML",
+              "qt": 2,
+              "val": 191.52
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 3,
+              "val": 589.68
+            },
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 2,
+              "val": 157.8
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 4,
+              "val": 691.6
+            },
+            {
+              "desc": "GIN BEEFEATER 750ML",
+              "qt": 8,
+              "val": 519.2
+            }
+          ]
+        },
+        {
           "numped": "155003380",
           "numnota": "",
           "data": "29/04/2026",
@@ -40528,55 +40616,6 @@ const ENTREGAS_DATA = {
               "desc": "LICOR BALLENA COCO 750ML",
               "qt": 1,
               "val": 94.0
-            }
-          ]
-        },
-        {
-          "numped": "155003381",
-          "numnota": "",
-          "data": "29/04/2026",
-          "cliente": "CASA SOMAR BUZIOS LTDA",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 3265.04,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 3,
-              "val": 589.68
-            },
-            {
-              "desc": "WHISKY J WALKER RED LABEL 1L",
-              "qt": 2,
-              "val": 157.8
-            },
-            {
-              "desc": "WHISKY J WALKER BLACK LABEL 1L",
-              "qt": 4,
-              "val": 691.6
-            },
-            {
-              "desc": "GIN BEEFEATER 750ML",
-              "qt": 8,
-              "val": 519.2
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 4,
-              "val": 786.24
-            },
-            {
-              "desc": "GIN LARIOS ORIGINAL 700ML",
-              "qt": 10,
-              "val": 329.0
-            },
-            {
-              "desc": "RED BULL SF POMELO 24X250ML",
-              "qt": 2,
-              "val": 191.52
             }
           ]
         },
