@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/04/2026 11:07",
+  "atualizado_em": "30/04/2026 11:12",
   "data_rota": "30.04",
   "vendedores": [
     {
@@ -9397,6 +9397,45 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
               "qt": 5,
               "val": 482.97
+            }
+          ]
+        },
+        {
+          "numped": "412001194",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "DROGARIA CRAQUE DO SANTISSIMO LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 539.08,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 5,
+              "val": 163.8
+            },
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 3,
+              "val": 98.28
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+              "qt": 1,
+              "val": 87.6
             }
           ]
         }
