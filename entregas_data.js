@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/04/2026 09:08",
+  "atualizado_em": "30/04/2026 10:19",
   "data_rota": "30.04",
   "vendedores": [
     {
@@ -6051,12 +6051,12 @@ const ENTREGAS_DATA = {
               "val": 784.31
             },
             {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "desc": "RED BULL MORANGO PESSEGO 24X250ML",
               "qt": 2,
               "val": 392.16
             },
             {
-              "desc": "RED BULL MORANGO PESSEGO 24X250ML",
+              "desc": "RED BULL CEREJA 24X250ML",
               "qt": 2,
               "val": 392.16
             },
@@ -6066,7 +6066,7 @@ const ENTREGAS_DATA = {
               "val": 392.16
             },
             {
-              "desc": "RED BULL CEREJA 24X250ML",
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
               "qt": 2,
               "val": 392.16
             }
@@ -14936,7 +14936,76 @@ const ENTREGAS_DATA = {
     {
       "nome": "DIOGO RAPOSO",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "144001379",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "MAYRON S BAR LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 958.3,
+          "itens": [
+            {
+              "desc": "ST PIERRE LATA AGUA TONICA TRAD 24X270ML",
+              "qt": 1,
+              "val": 92.9
+            },
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 294.0
+            },
+            {
+              "desc": "PIRASSUNUNGA 51 965 ML",
+              "qt": 12,
+              "val": 144.0
+            },
+            {
+              "desc": "GIN BOMBAY SAPPHIRE 750ML",
+              "qt": 4,
+              "val": 287.6
+            },
+            {
+              "desc": "VODKA ABSOLUT - 1 LITRO",
+              "qt": 2,
+              "val": 139.8
+            }
+          ]
+        },
+        {
+          "numped": "144001378",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "CASA DA PIZZA 1910 LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 868.8,
+          "itens": [
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 12,
+              "val": 270.0
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+              "qt": 6,
+              "val": 299.4
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
+              "qt": 6,
+              "val": 299.4
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "144001375",
@@ -17592,10 +17661,10 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "417000290",
+          "numped": "417000291",
           "numnota": "",
           "data": "30/04/2026",
-          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "cliente": "MULTI PARATY MERCADO LTDA",
           "rota": "",
           "status_ped": "",
           "status_log": "",
@@ -17611,10 +17680,10 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "417000291",
+          "numped": "417000290",
           "numnota": "",
           "data": "30/04/2026",
-          "cliente": "MULTI PARATY MERCADO LTDA",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
           "rota": "",
           "status_ped": "",
           "status_log": "",
