@@ -23,8 +23,7 @@ def _query(schema):
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL
           AND U.NOME LIKE '%OFF TRADE%'
-          AND (UPPER(M.DESCRICAO) LIKE 'WHISKY JAMESON%'
-               OR UPPER(F.FANTASIA) LIKE '%PERNOD%')
+          AND UPPER(F.FANTASIA) LIKE '%PERNOD%'
     """
 
 df = pd.concat([
@@ -43,29 +42,26 @@ leandro = df[df['NOME_ORACLE'].str.contains('LEANDRO', case=False, na=False)].co
 if leandro.empty:
     print("Nenhuma venda Pernod encontrada para Leandro neste mês.")
 else:
-    mask_jameson      = leandro['PRODUTO'].str.upper().str.startswith('WHISKY JAMESON')
-    mask_pernod_other = leandro['FANTASIA'].str.contains('PERNOD', case=False, na=False) & ~mask_jameson
-
-    jameson_pares      = leandro[mask_jameson].drop_duplicates(subset=['CODCLI', 'PRODUTO'])
-    pernod_other_pares = leandro[mask_pernod_other].drop_duplicates(subset=['CODCLI', 'PRODUTO'])
+    pares_unicos  = leandro.drop_duplicates(subset=['CODCLI', 'PRODUTO'])
+    mask_jamerson = pares_unicos['PRODUTO'].str.contains('JAMERSON', case=False, na=False)
+    jamerson_pares = pares_unicos[mask_jamerson]
+    outros_pares   = pares_unicos[~mask_jamerson]
 
     print(f"\n{'='*60}")
     print(f"  CAMPANHA PERNOD — LEANDRO")
     print(f"{'='*60}")
 
-    print(f"\n🥃 WHISKY JAMESON (R$10 cada) — {len(jameson_pares)} pares únicos")
-    print(f"   Subtotal: R$ {len(jameson_pares) * 10:.2f}")
-    if not jameson_pares.empty:
-        for _, r in jameson_pares.iterrows():
-            print(f"   • {r['CLIENTE'][:40]:<40} | {r['PRODUTO'][:40]}")
+    print(f"\nJAMERSON (x10) — {len(jamerson_pares)} par(es) cliente+produto")
+    print(f"   Subtotal: R$ {len(jamerson_pares) * 10:.2f}")
+    for _, r in jamerson_pares.iterrows():
+        print(f"   • {r['CLIENTE'][:35]:<35} | {r['PRODUTO'][:35]}")
 
-    print(f"\n🍷 PERNOD outros (R$5 cada) — {len(pernod_other_pares)} pares únicos")
-    print(f"   Subtotal: R$ {len(pernod_other_pares) * 5:.2f}")
-    if not pernod_other_pares.empty:
-        for _, r in pernod_other_pares.iterrows():
-            print(f"   • {r['CLIENTE'][:40]:<40} | {r['PRODUTO'][:40]}")
+    print(f"\nPERNOD outros (x5) — {len(outros_pares)} par(es) cliente+produto")
+    print(f"   Subtotal: R$ {len(outros_pares) * 5:.2f}")
+    for _, r in outros_pares.iterrows():
+        print(f"   • {r['CLIENTE'][:35]:<35} | {r['PRODUTO'][:35]}")
 
-    total = len(jameson_pares) * 10 + len(pernod_other_pares) * 5
+    total = len(jamerson_pares) * 10 + len(outros_pares) * 5
     print(f"\n{'='*60}")
-    print(f"  BÔNUS TOTAL: R$ {total:.2f}")
+    print(f"  BONUS TOTAL: R$ {total:.2f}")
     print(f"{'='*60}\n")

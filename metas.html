@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -1175,22 +1175,26 @@ function buildCampanha(mes) {
 
         const totalBonus = participantes.reduce((s, p) => s + p.val, 0);
 
-        // SKUs distintos PERNOD vendidos no mes (equipe toda)
+        // Métricas PERNOD da equipe no mês
         const _todasVendasMes = typeof VENDAS_DATA !== 'undefined'
           ? vendedores.flatMap(v => (VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [])
           : [];
-        const _skusPernod = new Set(
-          _todasVendasMes
-            .filter(s => (s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'))
-                      || s.produto.toUpperCase().startsWith('WHISKY JAMESON'))
-            .map(s => s.produto)
-        ).size;
-        const _skusLabel = _skusPernod > 0
-          ? `  ·  <strong>${_skusPernod}</strong> SKU${_skusPernod !== 1 ? 's' : ''} distintos vendidos`
+        const _pernodVendas = _todasVendasMes
+          .filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
+        const _fatPernod = _pernodVendas.reduce((s, v) => s + v.valor, 0);
+        const _paresMap = new Map();
+        _pernodVendas.forEach(s => {
+          const k = `${s.codcli}|${s.produto}`;
+          _paresMap.set(k, (_paresMap.get(k) || 0) + s.valor);
+        });
+        const _paresCount = _paresMap.size;
+        const _fatPares   = [..._paresMap.values()].reduce((s, v) => s + v, 0);
+        const _pernodLabel = _paresCount > 0
+          ? `  ·  <strong>${_paresCount}</strong> par${_paresCount !== 1 ? 'es' : ''} cli×sku  ·  R$ <strong>${_fatPares.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</strong>`
           : '';
         rankHtml = participantes.length === 0
           ? `<div class="campanha-rank-fora">Nenhum bônus registrado ainda.</div>`
-          : `<div style="margin-bottom:8px;font-size:0.72rem;color:var(--muted)">Total equipe: <strong>R$\u00a0${totalBonus.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</strong>${_skusLabel}</div>`
+          : `<div style="margin-bottom:8px;font-size:0.72rem;color:var(--muted)">Fat. PERNOD: <strong>R$ ${_fatPernod.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</strong>${_pernodLabel}</div>`
             + participantes.map((p, i) => `
               <div class="campanha-ranking-row">
                 <span class="campanha-medal">${['🥇','🥈','🥉'][i] || ''}</span>

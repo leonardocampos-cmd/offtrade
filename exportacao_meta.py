@@ -132,13 +132,14 @@ def _realizado_mes(df):
         sub = df[mask] if mask is not None else df
         return int(sub['CODCLI'].nunique())
 
-    # Campanha PERNOD
-    mask_jameson      = df['PRODUTO'].str.upper().str.startswith('WHISKY JAMESON')
-    mask_pernod_other = df['FANTASIA'].str.contains('PERNOD', case=False, na=False) & ~mask_jameson
-    mask_pernod       = mask_jameson | mask_pernod_other
-    n_skus            = int(df[mask_pernod]['PRODUTO'].nunique())
-    bonus_pernod      = n_skus * n_skus
-    pos_pernod        = n_skus
+    # Campanha PERNOD: pares únicos (cliente, produto) com FANTASIA=PERNOD; JAMERSON=10, demais=5
+    mask_pernod   = df['FANTASIA'].str.contains('PERNOD', case=False, na=False)
+    pernod_pairs  = df[mask_pernod].drop_duplicates(subset=['CODCLI', 'PRODUTO'])
+    mask_jamerson = pernod_pairs['PRODUTO'].str.contains('JAMERSON', case=False, na=False)
+    n_jamerson    = int(mask_jamerson.sum())
+    n_outros      = int((~mask_jamerson).sum())
+    bonus_pernod  = n_jamerson * 10 + n_outros * 5
+    pos_pernod    = n_jamerson + n_outros
 
     return {
         'fat_tt':              fat(),
