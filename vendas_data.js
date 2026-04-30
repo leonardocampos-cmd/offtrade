@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/04/2026 18:01",
+  "atualizado_em": "30/04/2026 19:01",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -46311,6 +46311,24 @@ const VENDAS_DATA = {
           "valor": 26.9
         },
         {
+          "data": "30/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 10,
+          "valor": 199.0
+        },
+        {
           "data": "01/04/2026",
           "codcli": "82919",
           "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
@@ -82942,6 +82960,15 @@ const VENDAS_DATA = {
           "valor": 139.2
         },
         {
+          "data": "30/04/2026",
+          "codcli": "92023",
+          "cliente": "50.828.095 MATHEUS DA SILVA LIMA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 65.9
+        },
+        {
           "data": "01/04/2026",
           "codcli": "94336",
           "cliente": "MERCADO E PADARIA BOLIVAS DE MESQUITA LTDA",
@@ -84573,6 +84600,51 @@ const VENDAS_DATA = {
           "fantasia": "AGUA NA CAIXA",
           "qt": 15,
           "valor": 590.4
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "93757",
+          "cliente": "LEVI LUCAS ARAUJO DOMINGOS 15617095730",
+          "produto": "PINATI NUTS COCO 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 78.4
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "93757",
+          "cliente": "LEVI LUCAS ARAUJO DOMINGOS 15617095730",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 78.4
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "93757",
+          "cliente": "LEVI LUCAS ARAUJO DOMINGOS 15617095730",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.8
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "93757",
+          "cliente": "LEVI LUCAS ARAUJO DOMINGOS 15617095730",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 86.4
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "93757",
+          "cliente": "LEVI LUCAS ARAUJO DOMINGOS 15617095730",
+          "produto": "ST PIERRE ZERO AGUA DE COCO LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 105.9
         },
         {
           "data": "09/04/2026",
@@ -86667,6 +86739,24 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 65.52
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "72650",
+          "cliente": "WILL'S FITNESS LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 32.76
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "72650",
+          "cliente": "WILL'S FITNESS LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 32.76
         },
         {
           "data": "30/04/2026",
@@ -129246,6 +129336,42 @@ const VENDAS_DATA = {
           "valor": 69.9
         },
         {
+          "data": "30/04/2026",
+          "codcli": "91905",
+          "cliente": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 59.9
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "91905",
+          "cliente": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 59.9
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "91905",
+          "cliente": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 44.31
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "91905",
+          "cliente": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
+          "produto": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 47.9
+        },
+        {
           "data": "16/04/2026",
           "codcli": "94235",
           "cliente": "TAM TAM MINI MERCADO LTDA",
@@ -137779,6 +137905,15 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 500,
           "valor": 32640.0
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "83586",
+          "cliente": "LUNA SUPERMERCADOS LTDA",
+          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+          "fantasia": "FANTE",
+          "qt": 3,
+          "valor": 53.7
         },
         {
           "data": "29/04/2026",
