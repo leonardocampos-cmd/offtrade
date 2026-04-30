@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/04/2026 10:19",
+  "atualizado_em": "30/04/2026 10:58",
   "data_rota": "30.04",
   "vendedores": [
     {
@@ -14973,6 +14973,30 @@ const ENTREGAS_DATA = {
               "desc": "VODKA ABSOLUT - 1 LITRO",
               "qt": 2,
               "val": 139.8
+            }
+          ]
+        },
+        {
+          "numped": "144001380",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "RESTAURANTE E BAR DI PIRRACA LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 74.4,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 1,
+              "val": 24.5
+            },
+            {
+              "desc": "GIN GORDONS 750 ML",
+              "qt": 1,
+              "val": 49.9
             }
           ]
         },
