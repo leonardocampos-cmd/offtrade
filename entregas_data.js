@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/04/2026 16:29",
+  "atualizado_em": "30/04/2026 16:44",
   "data_rota": "30.04",
   "vendedores": [
     {
@@ -6246,6 +6246,25 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "153001061",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "LUNA SUPERMERCADOS LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 53.7,
+          "itens": [
+            {
+              "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+              "qt": 3,
+              "val": 53.7
+            }
+          ]
+        },
+        {
           "numped": "153001056",
           "numnota": "",
           "data": "30/04/2026",
@@ -9823,6 +9842,30 @@ const ENTREGAS_DATA = {
               "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
               "qt": 15,
               "val": 795.6
+            }
+          ]
+        },
+        {
+          "numped": "412001197",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "OLINDA ELLIS CONVENIENCIA EXPRESS LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 290.8,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 7,
+              "val": 146.3
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 5,
+              "val": 144.5
             }
           ]
         }
