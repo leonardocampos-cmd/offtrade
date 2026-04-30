@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/04/2026 16:01",
+  "atualizado_em": "30/04/2026 16:29",
   "data_rota": "30.04",
   "vendedores": [
     {
@@ -4226,6 +4226,55 @@ const ENTREGAS_DATA = {
       "nome": "ANA CLARA PASSOS",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "471000165",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "D' PLANETA BEBIDAS E COMEST¿VEIS LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3478.54,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 24,
+              "val": 813.6
+            },
+            {
+              "desc": "ESPUM CASA PERINI DEMI-SEC 750ML",
+              "qt": 12,
+              "val": 406.8
+            },
+            {
+              "desc": "WHISKY JAMESON 750ML",
+              "qt": 2,
+              "val": 159.84
+            },
+            {
+              "desc": "WHISKY SUNTORY CHITA 700ML",
+              "qt": 2,
+              "val": 758.0
+            },
+            {
+              "desc": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
+              "qt": 1,
+              "val": 599.9
+            },
+            {
+              "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+              "qt": 12,
+              "val": 406.8
+            },
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+              "qt": 24,
+              "val": 333.6
+            }
+          ]
+        },
         {
           "numped": "471000163",
           "numnota": "",
@@ -15468,7 +15517,27 @@ const ENTREGAS_DATA = {
     {
       "nome": "DIOGO RAPOSO",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "144001381",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "LUCRE BEM MERCEARIA LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 690.0,
+          "itens": [
+            {
+              "desc": "WHISKY BALLANTINE'S FINEST 1L",
+              "qt": 12,
+              "val": 690.0
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "144001379",
@@ -18211,6 +18280,30 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "417000292",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "FRADE SPOT PARTICIPACOES S/A",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 908.1,
+          "itens": [
+            {
+              "desc": "RUM HAVANA CLUB 7 YEARS OLD - 700ML",
+              "qt": 3,
+              "val": 386.7
+            },
+            {
+              "desc": "WHISKY JACK DANIELS  700ML",
+              "qt": 6,
+              "val": 521.4
+            }
+          ]
+        },
+        {
           "numped": "417000291",
           "numnota": "",
           "data": "30/04/2026",
@@ -20062,6 +20155,45 @@ const ENTREGAS_DATA = {
       "nome": "FABIO VALOTTI",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "378000355",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 987.0,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 6,
+              "val": 197.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 6,
+              "val": 197.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 6,
+              "val": 197.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI DEMI-SEC 750ML",
+              "qt": 6,
+              "val": 197.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+              "qt": 6,
+              "val": 197.4
+            }
+          ]
+        },
         {
           "numped": "378000352",
           "numnota": "",
@@ -30771,6 +30903,30 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "450000078",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGAR 04/05",
+          "total": 232.9,
+          "itens": [
+            {
+              "desc": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
+              "qt": 1,
+              "val": 94.9
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 12,
+              "val": 138.0
+            }
+          ]
+        },
+        {
           "numped": "450000080",
           "numnota": "",
           "data": "30/04/2026",
@@ -30783,11 +30939,6 @@ const ENTREGAS_DATA = {
           "total": 489.4,
           "itens": [
             {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 24,
-              "val": 276.0
-            },
-            {
               "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
               "qt": 1,
               "val": 94.9
@@ -30796,6 +30947,11 @@ const ENTREGAS_DATA = {
               "desc": "ST PIERRE LATA PINK LEMON LT 6X270ML",
               "qt": 5,
               "val": 118.5
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 24,
+              "val": 276.0
             }
           ]
         },
@@ -30975,30 +31131,6 @@ const ENTREGAS_DATA = {
               "desc": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
               "qt": 1,
               "val": 94.9
-            }
-          ]
-        },
-        {
-          "numped": "450000078",
-          "numnota": "",
-          "data": "30/04/2026",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGAR 04/05",
-          "total": 232.9,
-          "itens": [
-            {
-              "desc": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
-              "qt": 1,
-              "val": 94.9
-            },
-            {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 12,
-              "val": 138.0
             }
           ]
         }
@@ -41070,7 +41202,37 @@ const ENTREGAS_DATA = {
     {
       "nome": "NATALI OLIVEIRA",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "419000547",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 304.7,
+          "itens": [
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 1,
+              "val": 29.9
+            },
+            {
+              "desc": "GIN ROCKS STRAWBERRY 1000ML",
+              "qt": 6,
+              "val": 137.4
+            },
+            {
+              "desc": "GIN ROCKS WATERMELON 1000ML",
+              "qt": 6,
+              "val": 137.4
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "419000540",
