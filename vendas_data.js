@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/04/2026 17:00",
+  "atualizado_em": "30/04/2026 18:01",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -51712,7 +51712,7 @@ const VENDAS_DATA = {
           "codcli": "84064",
           "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
           "produto": "GIN INVICTUS TRADICIONAL 900ML",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 12,
           "valor": 117.6
         },
@@ -51766,7 +51766,7 @@ const VENDAS_DATA = {
           "codcli": "84064",
           "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
           "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 12,
           "valor": 117.6
         },
@@ -51865,7 +51865,7 @@ const VENDAS_DATA = {
           "codcli": "84572",
           "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
           "produto": "SABOR DO SABOR GIN + COMBO TRADICIONAL",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 6,
           "valor": 58.8
         },
@@ -51874,7 +51874,7 @@ const VENDAS_DATA = {
           "codcli": "84572",
           "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
           "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 6,
           "valor": 58.8
         },
@@ -51883,7 +51883,7 @@ const VENDAS_DATA = {
           "codcli": "84572",
           "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
           "produto": "GIN INVICTUS MACA VERDE 900ML",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 6,
           "valor": 89.4
         },
@@ -51892,7 +51892,7 @@ const VENDAS_DATA = {
           "codcli": "84572",
           "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
           "produto": "GIN INVICTUS TROPICAL 900ML",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 6,
           "valor": 89.4
         },
@@ -51901,7 +51901,7 @@ const VENDAS_DATA = {
           "codcli": "84572",
           "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
           "produto": "GIN INVICTUS TRADICIONAL 900ML",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 6,
           "valor": 89.4
         },
@@ -51910,7 +51910,7 @@ const VENDAS_DATA = {
           "codcli": "84572",
           "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
           "produto": "GIN INVICTUS MELANCIA 900ML",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 6,
           "valor": 89.4
         },
@@ -80300,7 +80300,7 @@ const VENDAS_DATA = {
           "codcli": "77896",
           "cliente": "EYMARD'S MERCADINHO E DEPOSITO DE BEBIDAS E LATICINIOS LTDA",
           "produto": "APERITIVO LUCIA 750ML",
-          "fantasia": "",
+          "fantasia": "LUCIA",
           "qt": 1,
           "valor": 74.9
         },
@@ -81101,7 +81101,7 @@ const VENDAS_DATA = {
           "codcli": "83678",
           "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
           "produto": "APERITIVO LUCIA 750ML",
-          "fantasia": "",
+          "fantasia": "LUCIA",
           "qt": 12,
           "valor": 898.8
         },
@@ -81785,7 +81785,7 @@ const VENDAS_DATA = {
           "codcli": "91355",
           "cliente": "GR ALIMENTOS E LATICINIOS LTDA",
           "produto": "GIN INVICTUS MELANCIA 900ML",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 1,
           "valor": 14.9
         },
@@ -81794,7 +81794,7 @@ const VENDAS_DATA = {
           "codcli": "91355",
           "cliente": "GR ALIMENTOS E LATICINIOS LTDA",
           "produto": "SABOR DO SABOR WHISKY + COMBO TRAD",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 1,
           "valor": 9.8
         },
@@ -81803,7 +81803,7 @@ const VENDAS_DATA = {
           "codcli": "91355",
           "cliente": "GR ALIMENTOS E LATICINIOS LTDA",
           "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 1,
           "valor": 9.8
         },
@@ -82631,7 +82631,7 @@ const VENDAS_DATA = {
           "codcli": "92392",
           "cliente": "NATALIA MAYER DA COSTA LTDA",
           "produto": "SABOR DO SABOR WHISKY + COMBO TRAD",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 1,
           "valor": 9.8
         },
@@ -82640,7 +82640,7 @@ const VENDAS_DATA = {
           "codcli": "92392",
           "cliente": "NATALIA MAYER DA COSTA LTDA",
           "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 1,
           "valor": 9.8
         },
@@ -84240,6 +84240,15 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 174.0
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "89348",
+          "cliente": "RAIMUNDA EULENI DE SOUSA NEVES 71138951315",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
         },
         {
           "data": "15/04/2026",
@@ -86660,6 +86669,24 @@ const VENDAS_DATA = {
           "valor": 65.52
         },
         {
+          "data": "30/04/2026",
+          "codcli": "71085",
+          "cliente": "WILL'S FITNESS LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 32.76
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "71085",
+          "cliente": "WILL'S FITNESS LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 32.76
+        },
+        {
           "data": "01/04/2026",
           "codcli": "52102",
           "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
@@ -87918,6 +87945,15 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 196.56
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "91739",
+          "cliente": "NARCK RODRIGUES CENTRO DE TREINAMENTO E ENTRETENIMENTO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
         },
         {
           "data": "27/04/2026",
@@ -138141,6 +138177,15 @@ const VENDAS_DATA = {
           "valor": 270.0
         },
         {
+          "data": "30/04/2026",
+          "codcli": "83643",
+          "cliente": "COMERCIO DE BEBIDAS DOS OLIVEIRAS LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 30,
+          "valor": 1977.0
+        },
+        {
           "data": "28/04/2026",
           "codcli": "83946",
           "cliente": "MERCADO RIO SUL PARADA ANGELICA LTDA",
@@ -145787,7 +145832,7 @@ const VENDAS_DATA = {
           "codcli": "84958",
           "cliente": "MARIA BONITA CLINICA DE ESTETICA LTDA",
           "produto": "APERITIVO LUCIA 750ML",
-          "fantasia": "",
+          "fantasia": "LUCIA",
           "qt": 6,
           "valor": 449.4
         },
@@ -158432,7 +158477,7 @@ const VENDAS_DATA = {
           "codcli": "50931",
           "cliente": "HYGOR PORTO SERQUEIRA 09348357727",
           "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 12,
           "valor": 117.6
         },
@@ -158441,7 +158486,7 @@ const VENDAS_DATA = {
           "codcli": "50931",
           "cliente": "HYGOR PORTO SERQUEIRA 09348357727",
           "produto": "SABOR DO SABOR WHISKY + COMBO TRAD",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 12,
           "valor": 117.6
         },
@@ -164121,7 +164166,7 @@ const VENDAS_DATA = {
           "codcli": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "produto": "APERITIVO LUCIA 750ML",
-          "fantasia": "",
+          "fantasia": "LUCIA",
           "qt": 1200,
           "valor": 88200.0
         },
@@ -171855,6 +171900,33 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 220,
           "valor": 14845.6
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 546.48
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 364.32
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 25,
+          "valor": 4554.0
         }
       ],
       "Dez/25": [
@@ -178928,7 +179000,7 @@ const VENDAS_DATA = {
           "codcli": "69649",
           "cliente": "MERCADO ENSEADA DO SOL LTDA",
           "produto": "GIN INVICTUS MELANCIA 900ML",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 2,
           "valor": 29.8
         },
@@ -178937,7 +179009,7 @@ const VENDAS_DATA = {
           "codcli": "69649",
           "cliente": "MERCADO ENSEADA DO SOL LTDA",
           "produto": "GIN INVICTUS TRADICIONAL 900ML",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 2,
           "valor": 29.8
         },
@@ -178946,7 +179018,7 @@ const VENDAS_DATA = {
           "codcli": "69649",
           "cliente": "MERCADO ENSEADA DO SOL LTDA",
           "produto": "GIN INVICTUS TROPICAL 900ML",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 2,
           "valor": 29.8
         },
@@ -179819,7 +179891,7 @@ const VENDAS_DATA = {
           "codcli": "94760",
           "cliente": "55.210.498 RINGO EN SA MARTINS DOS SANTOS",
           "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 2,
           "valor": 19.6
         },
@@ -179828,7 +179900,7 @@ const VENDAS_DATA = {
           "codcli": "94760",
           "cliente": "55.210.498 RINGO EN SA MARTINS DOS SANTOS",
           "produto": "GIN INVICTUS TROPICAL 900ML",
-          "fantasia": "",
+          "fantasia": "INVICTUS",
           "qt": 1,
           "valor": 14.9
         },
