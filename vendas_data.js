@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/04/2026 16:48",
+  "atualizado_em": "30/04/2026 17:00",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -84026,6 +84026,15 @@ const VENDAS_DATA = {
           "valor": 1078.8
         },
         {
+          "data": "30/04/2026",
+          "codcli": "8058",
+          "cliente": "MERCEARIA DOM LUIZ EIRELI",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 573.6
+        },
+        {
           "data": "20/04/2026",
           "codcli": "8984",
           "cliente": "SUPERMERCADO ULTRA 07 LTDA",
@@ -86811,6 +86820,24 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 43.2
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "67436",
+          "cliente": "WILL S FITNESS LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 32.76
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "67436",
+          "cliente": "WILL S FITNESS LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 32.76
         },
         {
           "data": "10/04/2026",
