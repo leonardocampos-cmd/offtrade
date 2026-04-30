@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/04/2026 16:44",
+  "atualizado_em": "30/04/2026 16:48",
   "data_rota": "30.04",
   "vendedores": [
     {
@@ -33332,7 +33332,32 @@ const ENTREGAS_DATA = {
     {
       "nome": "MARILENA TRAGEL",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "156003237",
+          "numnota": "",
+          "data": "30/04/2026",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 308.5,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 10,
+              "val": 199.0
+            },
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 5,
+              "val": 109.5
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "156003233",
