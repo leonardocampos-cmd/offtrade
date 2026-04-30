@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/04/2026 11:12",
+  "atualizado_em": "30/04/2026 12:08",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -163575,6 +163575,15 @@ const VENDAS_DATA = {
           "fantasia": "AGUA NA CAIXA",
           "qt": 3600,
           "valor": 163728.0
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "",
+          "qt": 1200,
+          "valor": 88200.0
         },
         {
           "data": "20/04/2026",
