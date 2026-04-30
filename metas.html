@@ -1181,20 +1181,22 @@ function buildCampanha(mes) {
           : [];
         const _pernodVendas = _todasVendasMes
           .filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
-        const _fatPernod = _pernodVendas.reduce((s, v) => s + v.valor, 0);
-        const _paresMap = new Map();
-        _pernodVendas.forEach(s => {
-          const k = `${s.codcli}|${s.produto}`;
-          _paresMap.set(k, (_paresMap.get(k) || 0) + s.valor);
-        });
-        const _paresCount = _paresMap.size;
-        const _fatPares   = [..._paresMap.values()].reduce((s, v) => s + v, 0);
-        const _pernodLabel = _paresCount > 0
-          ? `  ·  <strong>${_paresCount}</strong> par${_paresCount !== 1 ? 'es' : ''} cli×sku  ·  R$ <strong>${_fatPares.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</strong>`
-          : '';
+        const _fatPernod  = _pernodVendas.reduce((s, v) => s + v.valor, 0);
+        const _posPernod  = new Set(_pernodVendas.map(s => s.codcli)).size;
+        const _bonusPernod = participantes.reduce((s, p) => s + p.val, 0);
+        const _paresSet   = new Set(_pernodVendas.map(s => `${s.codcli}|${s.produto}`));
+        const _paresCount = _paresSet.size;
+        const fmt2 = v => v.toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
+        const _resumoPernod = `
+          <div style="font-size:0.72rem;color:var(--muted);line-height:1.8;margin-bottom:8px">
+            <div>Faturamento Total: <strong>R$ ${fmt2(_fatPernod)}</strong></div>
+            <div>Positivação Total: <strong>${_posPernod}</strong></div>
+            <div>Bônus Total: <strong>R$ ${fmt2(_bonusPernod)}</strong></div>
+            <div>Qtd Produtos distintos por cliente: <strong>${_paresCount}</strong></div>
+          </div>`;
         rankHtml = participantes.length === 0
           ? `<div class="campanha-rank-fora">Nenhum bônus registrado ainda.</div>`
-          : `<div style="margin-bottom:8px;font-size:0.72rem;color:var(--muted)">Fat. PERNOD: <strong>R$ ${_fatPernod.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</strong>${_pernodLabel}</div>`
+          : _resumoPernod
             + participantes.map((p, i) => `
               <div class="campanha-ranking-row">
                 <span class="campanha-medal">${['🥇','🥈','🥉'][i] || ''}</span>

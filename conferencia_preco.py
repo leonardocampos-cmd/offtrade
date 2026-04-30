@@ -119,15 +119,17 @@ df['CUSTO COM DESCONTO'] = pd.to_numeric(df['CUSTO COM DESCONTO'], errors='coerc
 
 # Agora o cálculo deve funcionar
 df['MARGEM'] = (df['PVENDA'] - df['CUSTO COM DESCONTO']) / df['CUSTO COM DESCONTO']
-
+    
 # Opcional: Tratar possíveis NaNs ou divisões por zero geradas
 df['MARGEM'] = df['MARGEM'].fillna(0)
-df['MARGEM'] = df['MARGEM'].round(2).apply(lambda x: f"{x:.2f}%")
 df['DATA'] = pd.to_datetime(df['DATA']).dt.date
 hoje = date.today()
 # ontem = date.today() - timedelta(days=1)
 df = df[df['DATA'] == hoje]
-df = df.sort_values(by='DATA', ascending=False)
-df = df[df['STATUS_CONFERENCIA'].isin(['ABAIXO DA TABELA', 'ACIMA DA TABELA'])]
+df = df[(df['MARGEM'] <= 0) | (df['MARGEM'] > 1)]
 
-df.to_excel('conferencia_precos_final.xlsx', index=False)
+# 4. Ordenar os dados
+df = df.sort_values(by='DATA', ascending=False)
+
+# 5. SÓ AGORA transformar em texto para exibição/relatório
+df['MARGEM'] = df['MARGEM'].round(2).apply(lambda x: f"{x:.2f}%")
