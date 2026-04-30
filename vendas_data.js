@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/04/2026 12:08",
+  "atualizado_em": "30/04/2026 14:15",
   "meses": [
     "Abr/26",
     "Mar/26",
@@ -145286,15 +145286,6 @@ const VENDAS_DATA = {
           "fantasia": "CAMPARI",
           "qt": 12,
           "valor": 199.8
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "85494",
-          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
-          "produto": "VINHO LONGITUDE BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 3,
-          "valor": 132.3
         },
         {
           "data": "28/04/2026",
