@@ -63986,4 +63986,275 @@ Help: https://docs.oracle.com/error-help/db/ora-12170/
 [01/05/2026 12:19:30,85] ERRO (codigo 1
 ---------------------------------------- 
 [01/05/2026 14:16:16,34] Iniciando... 
-^C
+^C[01/05/2026 15:30:17,83] Iniciando... 
+[master aa049b7] Atualiza metas_data.js + vendas_data.js - 01/05/2026
+ 2 files changed, 21523 insertions(+), 21523 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   824df20..aa049b7  master -> master
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 27, in main
+    import entregas
+  File "g:\Meu Drive\offtrade\entregas.py", line 170, in <module>
+    print(f"OK — {len(vendedores_out)} vendedores, rota do dia {hoje_str} \u2192 {out}")
+  File "C:\Users\LeonardoCampos\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 37: character maps to <undefined>
+
+==================================================
+  OFFTRADE - 01/05/2026 15:30
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+Clientes nao positivados em 05/2026: 4026
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+OK metas_data.js gerado — 16 vendedores, meses: ['Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 FINANCEIRO - Controle de Notas Maio 2026.xlsx
+
+[ERRO] Falha na execução:
+[01/05/2026 15:31:01,68] ERRO (codigo 1
+---------------------------------------- 
+[01/05/2026 16:00:00,69] Iniciando... 
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 143, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3317, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 448, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1272, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    with util.safe_reraise():
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 175, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 389, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 667, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 630, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\connection.py", line 1698, in connect
+    return conn_class(dsn=dsn, pool=pool, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\connection.py", line 895, in __init__
+    impl.connect(params_impl, pool_impl)
+  File "src/oracledb/impl/thick/connection.pyx", line 527, in oracledb.thick_impl.ThickConnImpl.connect
+  File "src/oracledb/impl/thick/utils.pyx", line 474, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPY-4011: the database or network closed the connection
+ORA-03113: end-of-file on communication channel
+Process ID: 0
+Session ID: 0 Serial number: 0
+Help: https://docs.oracle.com/error-help/db/ora-03113/
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 18, in main
+    import meta
+  File "g:\Meu Drive\offtrade\meta.py", line 55, in <module>
+    pd.read_sql(_query_vendas("CRC"), con=engine,         dtype=str),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 700, in read_sql
+    with pandasSQL_builder(con) as pandas_sql:
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 908, in pandasSQL_builder
+    return SQLDatabase(con, schema, need_transaction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 1649, in __init__
+    con = self.exit_stack.enter_context(con.connect())
+                                        ^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3293, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 145, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2448, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 143, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3317, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 448, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1272, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    with util.safe_reraise():
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 175, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 389, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 667, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 630, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\connection.py", line 1698, in connect
+    return conn_class(dsn=dsn, pool=pool, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\connection.py", line 895, in __init__
+    impl.connect(params_impl, pool_impl)
+  File "src/oracledb/impl/thick/connection.pyx", line 527, in oracledb.thick_impl.ThickConnImpl.connect
+  File "src/oracledb/impl/thick/utils.pyx", line 474, in oracledb.thick_impl._raise_from_info
+sqlalchemy.exc.DatabaseError: (oracledb.exceptions.DatabaseError) DPY-4011: the database or network closed the connection
+ORA-03113: end-of-file on communication channel
+Process ID: 0
+Session ID: 0 Serial number: 0
+Help: https://docs.oracle.com/error-help/db/ora-03113/
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+
+==================================================
+  OFFTRADE - 01/05/2026 16:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+[ERRO] Falha na execução:
+[01/05/2026 16:00:28,92] ERRO (codigo 1
+---------------------------------------- 
+[01/05/2026 16:19:00,60] Iniciando... 
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\cursor.py", line 1197, in fetchall
+    rows = dbapi_cursor.fetchall()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\cursor.py", line 953, in fetchall
+    row = fetch_next_row(self)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "src/oracledb/impl/base/cursor.pyx", line 573, in oracledb.base_impl.BaseCursorImpl.fetch_next_row
+  File "src/oracledb/impl/thick/cursor.pyx", line 150, in oracledb.thick_impl.ThickCursorImpl._fetch_rows
+  File "src/oracledb/impl/thick/utils.pyx", line 484, in oracledb.thick_impl._raise_from_odpi
+  File "src/oracledb/impl/thick/utils.pyx", line 474, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPY-4011: the database or network closed the connection
+DPI-1080: connection was closed by ORA-03113
+ORA-03113: end-of-file on communication channel
+Process ID: 20267
+Session ID: 153 Serial number: 60919
+Help: https://docs.oracle.com/error-help/db/ora-03113/
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 21, in main
+    import exportacao_meta
+  File "g:\Meu Drive\offtrade\exportacao_meta.py", line 78, in <module>
+    pd.read_sql(_query_vendas_historico("CRC"),      con=engine,         dtype=str),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 730, in read_sql
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 1873, in read_query
+    data = result.fetchall()
+           ^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\result.py", line 1334, in fetchall
+    return self._allrows()
+           ^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\result.py", line 560, in _allrows
+    rows = self._fetchall_impl()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\cursor.py", line 2252, in _fetchall_impl
+    return self.cursor_strategy.fetchall(self, self.cursor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\cursor.py", line 1201, in fetchall
+    self.handle_exception(result, dbapi_cursor, e)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\cursor.py", line 1145, in handle_exception
+    result.connection._handle_dbapi_exception(
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\cursor.py", line 1197, in fetchall
+    rows = dbapi_cursor.fetchall()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\cursor.py", line 953, in fetchall
+    row = fetch_next_row(self)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "src/oracledb/impl/base/cursor.pyx", line 573, in oracledb.base_impl.BaseCursorImpl.fetch_next_row
+  File "src/oracledb/impl/thick/cursor.pyx", line 150, in oracledb.thick_impl.ThickCursorImpl._fetch_rows
+  File "src/oracledb/impl/thick/utils.pyx", line 484, in oracledb.thick_impl._raise_from_odpi
+  File "src/oracledb/impl/thick/utils.pyx", line 474, in oracledb.thick_impl._raise_from_info
+sqlalchemy.exc.DatabaseError: (oracledb.exceptions.DatabaseError) DPY-4011: the database or network closed the connection
+DPI-1080: connection was closed by ORA-03113
+ORA-03113: end-of-file on communication channel
+Process ID: 20267
+Session ID: 153 Serial number: 60919
+Help: https://docs.oracle.com/error-help/db/ora-03113/
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+
+==================================================
+  OFFTRADE - 01/05/2026 16:19
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+Clientes nao positivados em 05/2026: 4026
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+
+[ERRO] Falha na execução:
+[01/05/2026 16:20:10,69] ERRO (codigo 1
+---------------------------------------- 
