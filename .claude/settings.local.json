@@ -27,7 +27,9 @@
       "Bash(python:*)",
       "Bash(curl:*)",
       "Bash(docker restart evo-api-2:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(Get-ChildItem *)",
+      "Bash(/c/PythonEnvs/RoboWinthor/.venv/Scripts/python)"
     ]
   }
 }

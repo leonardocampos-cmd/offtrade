@@ -65,9 +65,6 @@ tabela_vendas['FATURAMENTO'] = pd.to_numeric(tabela_vendas['FATURAMENTO'], error
 tabela_vendas.drop(columns=['CODPROD', 'CODFORNEC', 'NUMNOTA', 'CODOPER', 'PUNIT',
        'CODFILIAL', 'CODUSUR', 'NUMNOTADEV', 'DTCANCEL', 'FORNECEDOR'],inplace=True)
 tabela_vendas['QT'] = pd.to_numeric(tabela_vendas['QT'], errors='coerce').fillna(0)
-tabela_vendas['DTMOV'] = pd.to_datetime(tabela_vendas['DTMOV']).dt.date
-
-tabela_vendas = tabela_vendas[tabela_vendas['DTMOV'].apply(lambda x: x.month == datetime.now().month and x.year == datetime.now().year)]
 tabela_vendas['DTMOV'] = pd.to_datetime(tabela_vendas['DTMOV']).dt.strftime('%d/%m/%Y')
 tabela_vendas['FATURAMENTO'] = tabela_vendas['FATURAMENTO'].round(2)
 
