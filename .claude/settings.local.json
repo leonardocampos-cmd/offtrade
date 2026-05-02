@@ -29,7 +29,8 @@
       "Bash(docker restart evo-api-2:*)",
       "Bash(ls:*)",
       "Bash(Get-ChildItem *)",
-      "Bash(/c/PythonEnvs/RoboWinthor/.venv/Scripts/python)"
+      "Bash(/c/PythonEnvs/RoboWinthor/.venv/Scripts/python)",
+      "PowerShell(\\(Get-Content \"G:\\\\Meu Drive\\\\offtrade\\\\offtrade.log\" -Encoding UTF8 | Select-Object -Last 40\\) -join \"`n\")"
     ]
   }
 }
