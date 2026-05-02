@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/05/2026 12:38",
+  "atualizado_em": "02/05/2026 14:20",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -71342,6 +71342,161 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 85.5
         }
+      ],
+      "Mai/26": [
+        {
+          "data": "02/05/2026",
+          "codcli": "2610",
+          "cliente": "SUPERMERCADO ULTRA SUL LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 592.2
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "2610",
+          "cliente": "SUPERMERCADO ULTRA SUL LTDA",
+          "produto": "RUM BACARDI GOLD 980ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 885.6
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "2610",
+          "cliente": "SUPERMERCADO ULTRA SUL LTDA",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 382.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "2610",
+          "cliente": "SUPERMERCADO ULTRA SUL LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 592.2
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "2610",
+          "cliente": "SUPERMERCADO ULTRA SUL LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 30,
+          "valor": 987.0
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "2610",
+          "cliente": "SUPERMERCADO ULTRA SUL LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 394.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "2610",
+          "cliente": "SUPERMERCADO ULTRA SUL LTDA",
+          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 394.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "2610",
+          "cliente": "SUPERMERCADO ULTRA SUL LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 838.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "2610",
+          "cliente": "SUPERMERCADO ULTRA SUL LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 36,
+          "valor": 450.0
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "8497",
+          "cliente": "D' PLANETA BEBIDAS E COMEST¿VEIS LTDA",
+          "produto": "WHISKY SUNTORY CHITA 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 2,
+          "valor": 758.0
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "8497",
+          "cliente": "D' PLANETA BEBIDAS E COMEST¿VEIS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 24,
+          "valor": 813.6
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "8497",
+          "cliente": "D' PLANETA BEBIDAS E COMEST¿VEIS LTDA",
+          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 406.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "8497",
+          "cliente": "D' PLANETA BEBIDAS E COMEST¿VEIS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 406.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "8497",
+          "cliente": "D' PLANETA BEBIDAS E COMEST¿VEIS LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 24,
+          "valor": 333.6
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "8497",
+          "cliente": "D' PLANETA BEBIDAS E COMEST¿VEIS LTDA",
+          "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 599.9
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "8497",
+          "cliente": "D' PLANETA BEBIDAS E COMEST¿VEIS LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 159.84
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "8984",
+          "cliente": "SUPERMERCADO ULTRA 07 LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 392.4
+        }
       ]
     },
     "FABIO VALOTTI": {
@@ -72938,6 +73093,53 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 87.6
+        }
+      ],
+      "Mai/26": [
+        {
+          "data": "02/05/2026",
+          "codcli": "1360",
+          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 197.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "1360",
+          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
+          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 197.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "1360",
+          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 197.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "1360",
+          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 197.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "1360",
+          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 197.4
         }
       ],
       "Mar/26": [
@@ -89591,6 +89793,17 @@ const VENDAS_DATA = {
           "qt": 2,
           "valor": 187.9
         }
+      ],
+      "Mai/26": [
+        {
+          "data": "02/05/2026",
+          "codcli": "77422",
+          "cliente": "LUCRE BEM MERCEARIA LTDA",
+          "produto": "WHISKY BALLANTINE'S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 690.0
+        }
       ]
     },
     "JOSE MARCELO LORES": {
@@ -105761,6 +105974,71 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 94.7
         }
+      ],
+      "Mai/26": [
+        {
+          "data": "02/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "VINHO MOV MALBEC",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 224.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "VINHO MOV SAUVIGNON BLANC",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 112.2
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "VINO ROSSO LOGGIA DELLE SASSAIE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 229.32
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "VINHO ADEGA DA SERRA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 128.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 137.52
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 137.52
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 136.92
+        }
       ]
     },
     "DANIELLE MOURA": {
@@ -121201,6 +121479,53 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 167.76
+        }
+      ],
+      "Mai/26": [
+        {
+          "data": "02/05/2026",
+          "codcli": "62177",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 197.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "62177",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 197.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "90228",
+          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 137.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "90228",
+          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 29.9
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "90228",
+          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 137.4
         }
       ]
     },
@@ -142980,6 +143305,791 @@ const VENDAS_DATA = {
       ]
     },
     "LEANDRO SOUZA": {
+      "Mai/26": [
+        {
+          "data": "02/05/2026",
+          "codcli": "9603",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 946.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 6,
+          "valor": 743.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 274.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "WHISKY GLENLIVET FOUNDER'S RESERVE",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 359.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28385",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 199.74
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28385",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.06
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28385",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 137.28
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28385",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.06
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28385",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 75.12
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28386",
+          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 75.24
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28386",
+          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
+          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 199.74
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28386",
+          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.06
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28386",
+          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.06
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28386",
+          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 6,
+          "valor": 637.86
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28386",
+          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 122.7
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28386",
+          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
+          "produto": "SAKE AZUMA KIRIN SOFT 740ML",
+          "fantasia": "KIRIN",
+          "qt": 6,
+          "valor": 133.62
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28386",
+          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 75.12
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28386",
+          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 71.64
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "72401",
+          "cliente": "I&B DE SANTA ROSA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY BALLANTINE'S FINEST 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 283.74
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "72401",
+          "cliente": "I&B DE SANTA ROSA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "LICOR COINTREAU 700 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 2,
+          "valor": 162.32
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "72401",
+          "cliente": "I&B DE SANTA ROSA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 198.12
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "72401",
+          "cliente": "I&B DE SANTA ROSA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 198.12
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "72401",
+          "cliente": "I&B DE SANTA ROSA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "RUM MALIBU 750 ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 264.6
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61992",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 75.24
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61992",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.06
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 115.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUMANTE ALUD ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 300.6
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 264.12
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUMANTE BRUT QUINTA DMORGADO 660ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 122.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.06
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 71.64
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "LICOR STOCK MARULA 720 ML",
+          "fantasia": "STOCK",
+          "qt": 6,
+          "valor": 303.24
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "LICOR STOCK APRICOT 720ML",
+          "fantasia": "STOCK",
+          "qt": 6,
+          "valor": 201.84
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 122.7
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 137.52
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 304.62
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 304.62
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 331.32
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 136.92
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 136.92
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 169.08
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 169.08
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV.",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 169.08
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 137.52
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 137.52
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 946.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 274.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "WHISKY GLENLIVET FOUNDER'S RESERVE",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 359.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80353",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 116.82
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80353",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 137.28
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80353",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.06
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80353",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 264.12
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80353",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 75.12
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80353",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 71.64
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80354",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.06
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80354",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 258.84
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80354",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 199.74
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80355",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 116.82
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80355",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.06
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80355",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.06
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 115.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 75.24
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 199.74
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 199.74
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "fantasia": "JURUPINGA",
+          "qt": 6,
+          "valor": 136.92
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "LICOR STOCK CURACAU BLUE 720 ML",
+          "fantasia": "STOCK",
+          "qt": 6,
+          "valor": 215.94
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "SAKE AZUMA KIRIN SOFT 740ML",
+          "fantasia": "KIRIN",
+          "qt": 6,
+          "valor": 133.62
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VINHO BCO SUAVE QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 75.12
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 71.64
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 122.7
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "90411",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 6,
+          "valor": 743.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 137.52
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 137.52
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 137.52
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 30,
+          "valor": 1017.0
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 137.52
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 6,
+          "valor": 497.88
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 6,
+          "valor": 497.88
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 6,
+          "valor": 497.88
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 6,
+          "valor": 497.88
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 406.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 406.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "ESPUM CASA PERINI ICE DEMI-SEC 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 406.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "KIT AQUARELA 7 GARRAFAS + BALDE",
+          "fantasia": "CASA PERINI",
+          "qt": 1,
+          "valor": 293.45
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 406.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "91841",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 6,
+          "valor": 743.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "91841",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 946.8
+        }
+      ],
       "Mar/26": [
         {
           "data": "16/03/2026",
