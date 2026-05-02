@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/05/2026 14:20",
+  "atualizado_em": "02/05/2026 15:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -53776,6 +53776,15 @@ const VENDAS_DATA = {
       "Mai/26": [
         {
           "data": "02/05/2026",
+          "codcli": "94818",
+          "cliente": "TALHO JOMAR LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 6,
+          "valor": 165.36
+        },
+        {
+          "data": "02/05/2026",
           "codcli": "94206",
           "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
           "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
@@ -53818,6 +53827,15 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94820",
+          "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
         }
       ]
     },
@@ -67961,6 +67979,44 @@ const VENDAS_DATA = {
           "qt": 4,
           "valor": 223.6
         }
+      ],
+      "Mai/26": [
+        {
+          "data": "02/05/2026",
+          "codcli": "94794",
+          "cliente": "M T FERREIRA DA SILVA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 12,
+          "valor": 150.0
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94794",
+          "cliente": "M T FERREIRA DA SILVA",
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "fantasia": "51",
+          "qt": 12,
+          "valor": 142.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "91693",
+          "cliente": "55.529.476 AUREA DOS SANTOS TEIXEIRA",
+          "produto": "SABOR DO SABOR WHISKY + COMBO TRAD",
+          "fantasia": "INVICTUS",
+          "qt": 6,
+          "valor": 58.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "91693",
+          "cliente": "55.529.476 AUREA DOS SANTOS TEIXEIRA",
+          "produto": "GIN INVICTUS TRADICIONAL 900ML",
+          "fantasia": "INVICTUS",
+          "qt": 6,
+          "valor": 89.4
+        }
       ]
     },
     "ANA CLARA PASSOS": {
@@ -71496,6 +71552,33 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 12,
           "valor": 392.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "93736",
+          "cliente": "MERCADINHO PERNAMBUCO LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 43.2
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94288",
+          "cliente": "LUCIA ELENA SANTANA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 43.2
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94288",
+          "cliente": "LUCIA ELENA SANTANA",
+          "produto": "VEJA MULTIUSO 500ML",
+          "fantasia": "SUPERDELLI",
+          "qt": 3,
+          "valor": 14.87
         }
       ]
     },
@@ -73140,6 +73223,78 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 6,
           "valor": 197.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "93245",
+          "cliente": "WAY SUPLEMENTOS DO VALQUEIRE LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 15,
+          "valor": 1420.5
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "93245",
+          "cliente": "WAY SUPLEMENTOS DO VALQUEIRE LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 15,
+          "valor": 1420.5
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "93245",
+          "cliente": "WAY SUPLEMENTOS DO VALQUEIRE LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 15,
+          "valor": 1420.5
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "93245",
+          "cliente": "WAY SUPLEMENTOS DO VALQUEIRE LTDA",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 876.0
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "93245",
+          "cliente": "WAY SUPLEMENTOS DO VALQUEIRE LTDA",
+          "produto": "MOVING BOOSTER LIMAO 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 700.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "93245",
+          "cliente": "WAY SUPLEMENTOS DO VALQUEIRE LTDA",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 350.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "93245",
+          "cliente": "WAY SUPLEMENTOS DO VALQUEIRE LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 15,
+          "valor": 1420.5
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "93245",
+          "cliente": "WAY SUPLEMENTOS DO VALQUEIRE LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 13,
+          "valor": 1231.1
         }
       ],
       "Mar/26": [
@@ -131403,6 +131558,35 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 25.9
         }
+      ],
+      "Mai/26": [
+        {
+          "data": "02/05/2026",
+          "codcli": "83653",
+          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 997.5
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "83653",
+          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 997.5
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "90669",
+          "cliente": "HORA DO DOCE LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 12,
+          "valor": 214.8
+        }
       ]
     },
     "MARIA LUIZA": {
@@ -134492,6 +134676,44 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 2,
           "valor": 335.38
+        }
+      ],
+      "Mai/26": [
+        {
+          "data": "02/05/2026",
+          "codcli": "94819",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94819",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94819",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94819",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4
         }
       ]
     },
@@ -143346,6 +143568,33 @@ const VENDAS_DATA = {
           "data": "02/05/2026",
           "codcli": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.9
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28385",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
+          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.9
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28385",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 24,
+          "valor": 276.0
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28385",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "produto": "WHISKY BLACK STONE 1LT",
           "fantasia": "FANTE",
           "qt": 6,
@@ -143386,6 +143635,15 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 75.12
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "28386",
+          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
+          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.9
         },
         {
           "data": "02/05/2026",
@@ -143535,6 +143793,24 @@ const VENDAS_DATA = {
           "data": "02/05/2026",
           "codcli": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.9
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 36,
+          "valor": 414.0
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
           "fantasia": "PERNOD",
           "qt": 6,
@@ -143620,6 +143896,69 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 137.52
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 175.2
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 98.7
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 98.7
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 175.2
         },
         {
           "data": "02/05/2026",
@@ -143796,6 +144135,24 @@ const VENDAS_DATA = {
           "data": "02/05/2026",
           "codcli": "80354",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.9
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80354",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 138.0
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80354",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1000ML",
           "fantasia": "FANTE",
           "qt": 6,
@@ -143823,6 +144180,15 @@ const VENDAS_DATA = {
           "data": "02/05/2026",
           "codcli": "80355",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 138.0
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "80355",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
           "fantasia": "FANTE",
           "qt": 6,
@@ -143845,6 +144211,33 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 132.06
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.9
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 6X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 118.5
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "84612",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 24,
+          "valor": 276.0
         },
         {
           "data": "02/05/2026",
@@ -143944,6 +144337,33 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 6,
           "valor": 743.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
         },
         {
           "data": "02/05/2026",
