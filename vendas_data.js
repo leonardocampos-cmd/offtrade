@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "04/05/2026 18:00",
+  "atualizado_em": "04/05/2026 18:19",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -145992,15 +145992,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 122.7
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "28385",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
-          "produto": "WHISKY  BALLANTINE'S 10YO 750ML",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 188.31
         },
         {
           "data": "01/04/2026",
