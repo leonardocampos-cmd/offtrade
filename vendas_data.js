@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "04/05/2026 10:08",
+  "atualizado_em": "04/05/2026 12:34",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -45415,15 +45415,6 @@ const VENDAS_DATA = {
           "valor": 27.56
         },
         {
-          "data": "27/04/2026",
-          "codcli": "93997",
-          "cliente": "GUTO E JO COMERCIO VAREJISTA DE ALIMENTOS LTDA",
-          "produto": "AZEITE OLIV EV ZETONA COZINHAR 12X500ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 492.88
-        },
-        {
           "data": "09/04/2026",
           "codcli": "94382",
           "cliente": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
@@ -69055,15 +69046,6 @@ const VENDAS_DATA = {
           "fantasia": "COMARY",
           "qt": 1,
           "valor": 74.88
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "89348",
-          "cliente": "RAIMUNDA EULENI DE SOUSA NEVES 71138951315",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 65.28
         },
         {
           "data": "08/04/2026",
@@ -105554,42 +105536,6 @@ const VENDAS_DATA = {
           "valor": 69.9
         },
         {
-          "data": "30/04/2026",
-          "codcli": "91905",
-          "cliente": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
-          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 59.9
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "91905",
-          "cliente": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
-          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 59.9
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "91905",
-          "cliente": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
-          "produto": "PINATI NUTS ORIGINAL 20X30G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 44.31
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "91905",
-          "cliente": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
-          "produto": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
           "data": "16/04/2026",
           "codcli": "94235",
           "cliente": "TAM TAM MINI MERCADO LTDA",
@@ -107235,33 +107181,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "23/03/2026",
-          "codcli": "91992",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS SUNSET 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 132.0
-        },
-        {
-          "data": "23/03/2026",
-          "codcli": "91992",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS 1000ML",
-          "fantasia": "FANTE",
-          "qt": 24,
-          "valor": 528.0
-        },
-        {
-          "data": "23/03/2026",
-          "codcli": "91992",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "WHISKY BLACK STONE 1LT",
-          "fantasia": "FANTE",
-          "qt": 24,
-          "valor": 299.76
-        },
-        {
-          "data": "23/03/2026",
           "codcli": "91993",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
@@ -107367,33 +107286,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 12,
           "valor": 264.0
-        },
-        {
-          "data": "23/03/2026",
-          "codcli": "92001",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 264.0
-        },
-        {
-          "data": "23/03/2026",
-          "codcli": "92001",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS SUNSET 1000ML",
-          "fantasia": "FANTE",
-          "qt": 18,
-          "valor": 396.0
-        },
-        {
-          "data": "23/03/2026",
-          "codcli": "92001",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "WHISKY BLACK STONE 1LT",
-          "fantasia": "FANTE",
-          "qt": 24,
-          "valor": 299.76
         },
         {
           "data": "23/03/2026",
@@ -112815,6 +112707,62 @@ const VENDAS_DATA = {
       ]
     },
     "NATALI OLIVEIRA": {
+      "Mai/26": [
+        {
+          "data": "04/05/2026",
+          "codcli": "3935",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "62177",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 197.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "62177",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 197.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "90228",
+          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 137.4
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "90228",
+          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 29.9
+        },
+        {
+          "data": "02/05/2026",
+          "codcli": "90228",
+          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 137.4
+        }
+      ],
       "Dez/25": [
         {
           "data": "02/12/2025",
@@ -121580,53 +121528,6 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 167.76
-        }
-      ],
-      "Mai/26": [
-        {
-          "data": "02/05/2026",
-          "codcli": "62177",
-          "cliente": "SUPERMERCADOS CELEIRO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 197.4
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "62177",
-          "cliente": "SUPERMERCADOS CELEIRO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 197.4
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "90228",
-          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 137.4
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "90228",
-          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 29.9
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "90228",
-          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 137.4
         }
       ]
     },
@@ -140360,42 +140261,6 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 5,
           "valor": 280.3
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "69375",
-          "cliente": "MERCADO TATAIS ITINGA LTDA",
-          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
-          "fantasia": "HEINEKEN",
-          "qt": 10,
-          "valor": 391.9
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "69375",
-          "cliente": "MERCADO TATAIS ITINGA LTDA",
-          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
-          "fantasia": "HEINEKEN",
-          "qt": 30,
-          "valor": 4110.3
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "69375",
-          "cliente": "MERCADO TATAIS ITINGA LTDA",
-          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
-          "fantasia": "HEINEKEN",
-          "qt": 10,
-          "valor": 560.6
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "69375",
-          "cliente": "MERCADO TATAIS ITINGA LTDA",
-          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
-          "fantasia": "HEINEKEN",
-          "qt": 5,
-          "valor": 259.5
         },
         {
           "data": "28/04/2026",
