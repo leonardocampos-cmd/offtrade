@@ -4,6 +4,7 @@ import oracledb
 from sqlalchemy import create_engine
 from datetime import datetime
 import numpy as np
+import time
 
 oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
 
@@ -12,8 +13,38 @@ password = "vpn2320vpn"
 dsn = "crc_oci"
 dsn_theking = "theking_oci"
 
-engine = create_engine(f'oracle+oracledb://{user}:{password}@{dsn}')
-engine_theking = create_engine(f'oracle+oracledb://{user}:{password}@{dsn_theking}')
+engine = create_engine(
+    f'oracle+oracledb://{user}:{password}@{dsn}',
+    pool_pre_ping=True,
+    pool_recycle=3600,
+    connect_args={"expire_time": 2}
+)
+engine_theking = create_engine(
+    f'oracle+oracledb://{user}:{password}@{dsn_theking}',
+    pool_pre_ping=True,
+    pool_recycle=3600,
+    connect_args={"expire_time": 2}
+)
+
+def carregar_dados(query, engine, nome_tabela="tabela", max_tentativas=5):
+    for tentativa in range(1, max_tentativas + 1):
+        try:
+            print(f"-> Lendo {nome_tabela} (Tentativa {tentativa}/{max_tentativas})...")
+            with engine.connect() as conn:
+                chunks = []
+                for chunk in pd.read_sql(query, con=conn, chunksize=5000):
+                    chunks.append(chunk)
+                df = pd.concat(chunks, ignore_index=True)
+                df.columns = df.columns.str.strip().str.upper()
+                print(f"OK {nome_tabela} carregada!")
+                return df
+        except Exception as e:
+            print(f"Erro na {nome_tabela}: {str(e)[:100]}")
+            engine.dispose()
+            if tentativa < max_tentativas:
+                time.sleep(10)
+            else:
+                raise e
 
 def _query_vendas(schema=None, mes_anterior=False):
     p = f"{schema}." if schema else ""
@@ -52,11 +83,9 @@ def _query_vendas(schema=None, mes_anterior=False):
 """
 
 tabela_vendas = pd.concat([
-    pd.read_sql(_query_vendas("CRC"), con=engine,         dtype=str),
-    pd.read_sql(_query_vendas('thekings'),     con=engine_theking, dtype=str),
+    carregar_dados(_query_vendas("CRC"),      engine,         "vendas_CRC"),
+    carregar_dados(_query_vendas('thekings'), engine_theking, "vendas_thekings"),
 ], ignore_index=True)
-
-tabela_vendas.columns = tabela_vendas.columns.str.upper()
 arquivo = pd.concat([
     pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - MARÇO 2026.xlsx"),
     pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - Abril 2026.xlsx"),
@@ -70,11 +99,9 @@ tabela_vendas['FATURAMENTO'] = tabela_vendas['FATURAMENTO'].round(2)
 
 # Vendas do mês anterior (para exibição no detalhe do vendedor)
 tabela_vendas_anterior = pd.concat([
-    pd.read_sql(_query_vendas("CRC",      mes_anterior=True), con=engine,         dtype=str),
-    pd.read_sql(_query_vendas('thekings', mes_anterior=True), con=engine_theking, dtype=str),
+    carregar_dados(_query_vendas("CRC",      mes_anterior=True), engine,         "vendas_anterior_CRC"),
+    carregar_dados(_query_vendas('thekings', mes_anterior=True), engine_theking, "vendas_anterior_thekings"),
 ], ignore_index=True)
-
-tabela_vendas_anterior.columns = tabela_vendas_anterior.columns.str.upper()
 tabela_vendas_anterior['FATURAMENTO'] = pd.to_numeric(tabela_vendas_anterior['FATURAMENTO'], errors='coerce')
 tabela_vendas_anterior.drop(columns=['CODPROD', 'CODFORNEC', 'NUMNOTA', 'CODOPER', 'PUNIT',
        'CODFILIAL', 'CODUSUR', 'NUMNOTADEV', 'DTCANCEL', 'FORNECEDOR'],inplace=True)

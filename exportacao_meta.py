@@ -3,7 +3,7 @@ import json
 import pandas as pd
 from datetime import date, datetime
 from pathlib import Path
-from meta import engine, engine_theking, arquivo
+from meta import engine, engine_theking, arquivo, carregar_dados
 import nao_positivados as _np_mod
 
 _df_nao_pos = _np_mod.nao_positivados_full
@@ -30,10 +30,9 @@ def _mes_sort_key(mes_str):
 # ── Mapeamento RCA → Nome Oracle ─────────────────────────────────────────────
 
 map_rca = pd.concat([
-    pd.read_sql("SELECT CODUSUR AS RCA, NOME FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", con=engine),
-    pd.read_sql("SELECT CODUSUR AS RCA, NOME FROM thekings.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", con=engine_theking),
+    carregar_dados("SELECT CODUSUR AS RCA, NOME FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", engine, "map_rca_CRC"),
+    carregar_dados("SELECT CODUSUR AS RCA, NOME FROM thekings.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", engine_theking, "map_rca_thekings"),
 ], ignore_index=True)
-map_rca.columns = map_rca.columns.str.upper()
 map_rca = map_rca.drop_duplicates(subset=['RCA'])
 map_rca['RCA'] = pd.to_numeric(map_rca['RCA'], errors='coerce')
 arquivo['RCA'] = pd.to_numeric(arquivo['RCA'],  errors='coerce')
@@ -75,10 +74,9 @@ def _query_vendas_historico(schema):
     """
 
 _vh = pd.concat([
-    pd.read_sql(_query_vendas_historico("CRC"),      con=engine,         dtype=str),
-    pd.read_sql(_query_vendas_historico("thekings"), con=engine_theking, dtype=str),
+    carregar_dados(_query_vendas_historico("CRC"),      engine,         "vendas_hist_CRC"),
+    carregar_dados(_query_vendas_historico("thekings"), engine_theking, "vendas_hist_thekings"),
 ], ignore_index=True)
-_vh.columns   = _vh.columns.str.upper()
 _vh['MES']    = pd.to_datetime(_vh['MES'],   errors='coerce')
 _vh['QT']     = pd.to_numeric(_vh['QT'],     errors='coerce').fillna(0).astype(int)
 _vh['VALOR']  = pd.to_numeric(_vh['VALOR'],  errors='coerce').fillna(0).round(2)
@@ -181,10 +179,9 @@ def _query_historico(schema):
     """
 
 _hist_raw = pd.concat([
-    pd.read_sql(_query_historico("CRC"),      con=engine,         dtype=str),
-    pd.read_sql(_query_historico("thekings"), con=engine_theking, dtype=str),
+    carregar_dados(_query_historico("CRC"),      engine,         "historico_CRC"),
+    carregar_dados(_query_historico("thekings"), engine_theking, "historico_thekings"),
 ], ignore_index=True)
-_hist_raw.columns    = _hist_raw.columns.str.upper()
 _hist_raw['MES']         = pd.to_datetime(_hist_raw['MES'], errors='coerce')
 _hist_raw['FATURAMENTO'] = pd.to_numeric(_hist_raw['FATURAMENTO'], errors='coerce').fillna(0)
 _hist_raw['POSITIVACAO'] = pd.to_numeric(_hist_raw['POSITIVACAO'], errors='coerce').fillna(0).astype(int)
