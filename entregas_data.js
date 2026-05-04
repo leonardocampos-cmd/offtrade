@@ -1,6 +1,6 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "02/05/2026 12:38",
-  "data_rota": "02.05",
+  "atualizado_em": "04/05/2026 09:27",
+  "data_rota": "04.05",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVES",
@@ -9,7 +9,7 @@ const ENTREGAS_DATA = {
       "emitido_s_rota": [
         {
           "numped": "431000863",
-          "numnota": "390074.0",
+          "numnota": "390074",
           "data": "02/05/2026",
           "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
           "rota": "",
@@ -51,10 +51,11 @@ const ENTREGAS_DATA = {
     {
       "nome": "JORGE MACIEL",
       "em_rota": [],
-      "nao_emitido": [
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "379000872",
-          "numnota": "",
+          "numnota": "390131",
           "data": "02/05/2026",
           "cliente": "M T FERREIRA DA SILVA",
           "rota": "",
@@ -78,7 +79,7 @@ const ENTREGAS_DATA = {
         },
         {
           "numped": "379000871",
-          "numnota": "",
+          "numnota": "390129",
           "data": "02/05/2026",
           "cliente": "55.529.476 AUREA DOS SANTOS TEIXEIRA",
           "rota": "",
@@ -100,16 +101,16 @@ const ENTREGAS_DATA = {
             }
           ]
         }
-      ],
-      "emitido_s_rota": []
+      ]
     },
     {
       "nome": "LEANDRO SOUZA",
       "em_rota": [],
-      "nao_emitido": [
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "450000106",
-          "numnota": "",
+          "numnota": "4486",
           "data": "02/05/2026",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "rota": "",
@@ -128,7 +129,7 @@ const ENTREGAS_DATA = {
         },
         {
           "numped": "450000107",
-          "numnota": "",
+          "numnota": "4503",
           "data": "02/05/2026",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
           "rota": "",
@@ -147,7 +148,7 @@ const ENTREGAS_DATA = {
         },
         {
           "numped": "450000108",
-          "numnota": "",
+          "numnota": "4495",
           "data": "02/05/2026",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
           "rota": "",
@@ -166,7 +167,7 @@ const ENTREGAS_DATA = {
         },
         {
           "numped": "450000104",
-          "numnota": "",
+          "numnota": "4489",
           "data": "02/05/2026",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "rota": "",
@@ -183,42 +184,16 @@ const ENTREGAS_DATA = {
             }
           ]
         }
-      ],
-      "emitido_s_rota": []
-    },
-    {
-      "nome": "MARILENA TRAGEL",
-      "em_rota": [],
-      "nao_emitido": [
-        {
-          "numped": "156003242",
-          "numnota": "",
-          "data": "02/05/2026",
-          "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 418.0,
-          "itens": [
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-              "qt": 20,
-              "val": 418.0
-            }
-          ]
-        }
-      ],
-      "emitido_s_rota": []
+      ]
     },
     {
       "nome": "RAPHAEL SANTOS - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "155003396",
-          "numnota": "",
+          "numnota": "390104",
           "data": "02/05/2026",
           "cliente": "QUALITYFOOD LOGISTICA GASTRONOMICA LTDA",
           "rota": "",
@@ -236,8 +211,37 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "155003398",
+          "numnota": "390102",
+          "data": "02/05/2026",
+          "cliente": "GIN & YANG DISTRIBUIDORA LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 651.2,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 6,
+              "val": 473.4
+            },
+            {
+              "desc": "APERITIVO CAMPARI 998ML",
+              "qt": 1,
+              "val": 54.9
+            },
+            {
+              "desc": "JACK DANIELS HONEY 1 L",
+              "qt": 1,
+              "val": 122.9
+            }
+          ]
+        },
+        {
           "numped": "155003397",
-          "numnota": "",
+          "numnota": "390106",
           "data": "02/05/2026",
           "cliente": "AGROCOMPEC MARTHI LTDA",
           "rota": "",
@@ -245,7 +249,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 457.7,
+          "total": 532.6,
           "itens": [
             {
               "desc": "WHISKY OLD PARR 12Y 1 L",
@@ -261,11 +265,34 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY CHIVAS XV GOLD 700ML",
               "qt": 1,
               "val": 179.9
+            },
+            {
+              "desc": "APERITIVO LUCIA 750ML",
+              "qt": 1,
+              "val": 74.9
+            }
+          ]
+        },
+        {
+          "numped": "155003399",
+          "numnota": "390145",
+          "data": "02/05/2026",
+          "cliente": "NATALIA DA SILVA DUARTE 10656196777",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 159.8,
+          "itens": [
+            {
+              "desc": "WHISKY JAMESON 750ML",
+              "qt": 2,
+              "val": 159.8
             }
           ]
         }
-      ],
-      "emitido_s_rota": []
+      ]
     }
   ]
 };
