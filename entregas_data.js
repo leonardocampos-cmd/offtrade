@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "04/05/2026 18:19",
+  "atualizado_em": "04/05/2026 18:21",
   "data_rota": "04.05",
   "vendedores": [
     {
@@ -1327,17 +1327,12 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 835.6,
+          "total": 815.3,
           "itens": [
             {
               "desc": "VODKA ABSOLUT - 1 LITRO",
               "qt": 1,
               "val": 75.9
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "qt": 1,
-              "val": 20.3
             },
             {
               "desc": "GUARAVITON GINSENG 12X500ML",
@@ -1368,6 +1363,30 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
               "qt": 1,
               "val": 94.7
+            }
+          ]
+        },
+        {
+          "numped": "156003258",
+          "numnota": "",
+          "data": "04/05/2026",
+          "cliente": "AUTO POSTO RUI BARBOSA LTDA",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 470.8,
+          "itens": [
+            {
+              "desc": "AGUA SAN PELLEGRINO C/GÁS 250ML",
+              "qt": 1,
+              "val": 190.9
+            },
+            {
+              "desc": "AGUA SAN PELLEGRINO C/ GAS 15X750ML",
+              "qt": 1,
+              "val": 279.9
             }
           ]
         },
@@ -1778,7 +1797,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 1575.64,
+          "total": 1315.84,
           "itens": [
             {
               "desc": "RED BULL 24X250ML",
@@ -1789,11 +1808,6 @@ const ENTREGAS_DATA = {
               "desc": "APERITIVO CAMPARI 998ML",
               "qt": 1,
               "val": 54.9
-            },
-            {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-              "qt": 2,
-              "val": 259.8
             },
             {
               "desc": "RED BULL TROPICAL 24X250ML",
