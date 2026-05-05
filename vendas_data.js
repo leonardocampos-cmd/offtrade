@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "05/05/2026 11:30",
+  "atualizado_em": "05/05/2026 11:35",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -72256,15 +72256,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 12,
           "valor": 392.4
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "93736",
-          "cliente": "MERCADINHO PERNAMBUCO LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 43.2
         },
         {
           "data": "04/05/2026",
