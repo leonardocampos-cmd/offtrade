@@ -25,7 +25,7 @@ def _caminho_logistica(d: date) -> str:
     ano  = d.strftime('%Y')
     upper, cap = _MESES_PT[mm]
     pasta   = f"{mm} {upper}"
-    arquivo = f"{mm} FINANCEIRO - Controle de Notas {cap} {ano}.xlsx"
+    arquivo = f"{mm} CONTROLE DE NOTAS.xlsx"
     return (
         r"G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO"
         r"\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -"
@@ -76,20 +76,28 @@ tabela_pedidos['NOME'] = (
 
 # ── Excel de logística — apenas a aba de HOJE ─────────────────────────────────
 
-hoje_str      = date.today().strftime('%d.%m')  # ex: "29.04"
+hoje_str      = date.today().strftime('%d.%m')  # ex: "05.05"
 caminho_excel = _caminho_logistica(date.today())
 
 try:
     dict_abas = pd.read_excel(caminho_excel, sheet_name=None)
-    df_hoje   = dict_abas.get(hoje_str, pd.DataFrame()).copy()
-    print(f"Logística: {caminho_excel}")
+    if hoje_str in dict_abas:
+        df_hoje = dict_abas[hoje_str].copy()
+    else:
+        # Arquivo com aba única + coluna DATA
+        df_all  = pd.concat(dict_abas.values(), ignore_index=True)
+        if 'DATA' in df_all.columns:
+            df_all['_data_fmt'] = pd.to_datetime(df_all['DATA'], errors='coerce').dt.strftime('%d.%m')
+            df_hoje = df_all[df_all['_data_fmt'] == hoje_str].drop(columns='_data_fmt').copy()
+        else:
+            df_hoje = df_all.copy()
+    print(f"Logística: {caminho_excel} | aba/filtro: {hoje_str} | {len(df_hoje)} linhas")
 except FileNotFoundError:
     print(f"Aviso: arquivo de logística não encontrado:\n  {caminho_excel}")
-    dict_abas = {}
-    df_hoje   = pd.DataFrame()
+    df_hoje = pd.DataFrame()
 
 def _prep_logistica(df):
-    cols = {'NF_NUM': [], 'ROTA': [], 'STATUS_LOG': [], 'MOTIVO': []}
+    cols = {'NF_NUM': [], 'PLACA': [], 'ROTA': [], 'STATUS_LOG': [], 'MOTIVO': []}
     if df.empty or 'Nº NF' not in df.columns:
         return pd.DataFrame(cols)
     df = df[df['Nº NF'].notna()].copy()
@@ -97,6 +105,7 @@ def _prep_logistica(df):
     df = df.dropna(subset=['NF_NUM']).drop_duplicates('NF_NUM')
     out = pd.DataFrame()
     out['NF_NUM']     = df['NF_NUM']
+    out['PLACA']      = df['PLACA'].fillna('').astype(str).str.strip()    if 'PLACA'  in df.columns else ''
     out['ROTA']       = df['ROTA'].fillna('').astype(str).str.strip()     if 'ROTA'   in df.columns else ''
     out['STATUS_LOG'] = df['STATUS'].fillna('').astype(str).str.strip()   if 'STATUS' in df.columns else ''
     out['MOTIVO']     = df['MOTIVO'].fillna('').astype(str).str.strip()   if 'MOTIVO' in df.columns else ''
@@ -107,7 +116,7 @@ logistica_hoje = _prep_logistica(df_hoje)
 # ── Merge pedidos × logística de hoje ─────────────────────────────────────────
 
 tabela_final = tabela_pedidos.merge(logistica_hoje, left_on='NUMNOTA_NUM', right_on='NF_NUM', how='left')
-for col in ['ROTA', 'STATUS_LOG', 'MOTIVO']:
+for col in ['PLACA', 'ROTA', 'STATUS_LOG', 'MOTIVO']:
     if col not in tabela_final.columns:
         tabela_final[col] = ''
     tabela_final[col] = tabela_final[col].fillna('').astype(str).str.strip()
@@ -126,6 +135,7 @@ def _agrupar(df):
             'numnota':    _s(r0.get('NUMNOTA', '')),
             'data':       _s(r0['DATA']),
             'cliente':    _s(r0['CLIENTE']),
+            'placa':      _s(r0.get('PLACA', '')),
             'rota':       _s(r0.get('ROTA', '')),
             'status_ped': _s(r0['STATUS']),
             'status_log': _s(r0.get('STATUS_LOG', '')),
