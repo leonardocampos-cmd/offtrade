@@ -515,6 +515,7 @@
 (function () {
   var SENHA = '918273';
   var gate  = document.getElementById('senha-gate');
+  if (new URLSearchParams(window.location.search).get('vendedor')) { gate.remove(); return; }
   if (sessionStorage.getItem('offtrade_auth') === '1') { gate.remove(); return; }
   function tentar() {
     if (document.getElementById('senha-input').value.trim() === SENHA) {

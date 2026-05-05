@@ -65273,3 +65273,8 @@ Aviso: arquivo de logística não encontrado:
 [ERRO] Falha na execução:
 [04/05/2026 18:19:47,40] ERRO (codigo 1
 ---------------------------------------- 
+[04/05/2026 19:21:47,13] Iniciando... 
+[master d823ece] Atualiza metas_data.js + vendas_data.js - 04/05/2026
+ 2 files changed, 6360 insertions(+), 6266 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   786150a..d823ece  master -> master
