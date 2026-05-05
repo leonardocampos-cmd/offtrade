@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "04/05/2026 19:22",
+  "atualizado_em": "05/05/2026 10:10",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -39418,6 +39418,15 @@ const VENDAS_DATA = {
         },
         {
           "data": "04/05/2026",
+          "codcli": "74192",
+          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 6,
+          "valor": 183.6
+        },
+        {
+          "data": "04/05/2026",
           "codcli": "73248",
           "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
           "produto": "GIN TANQUERAY  750 ML",
@@ -39568,6 +39577,15 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 20,
           "valor": 398.0
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "82253",
+          "cliente": "AUTO POSTO RUI BARBOSA LTDA",
+          "produto": "AGUA SAN PELLEGRINO C/GÁS 250ML",
+          "fantasia": "MINALBA",
+          "qt": 1,
+          "valor": 190.9
         },
         {
           "data": "04/05/2026",
@@ -54093,6 +54111,24 @@ const VENDAS_DATA = {
       "Mai/26": [
         {
           "data": "04/05/2026",
+          "codcli": "91089",
+          "cliente": "PANIFICACAO E CONFEITARIA VALE DE CAMBRA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 61.8
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "91089",
+          "cliente": "PANIFICACAO E CONFEITARIA VALE DE CAMBRA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "04/05/2026",
           "codcli": "91161",
           "cliente": "CRISTINA BORGES LOURENCO 08134291708",
           "produto": "GUARAVITA NATURAL 24X290ML",
@@ -68597,6 +68633,24 @@ const VENDAS_DATA = {
         },
         {
           "data": "04/05/2026",
+          "codcli": "91485",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "91485",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "VANISH LIQUIDO WHITE REFIL 12X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 66.6
+        },
+        {
+          "data": "04/05/2026",
           "codcli": "91484",
           "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
           "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
@@ -72213,6 +72267,24 @@ const VENDAS_DATA = {
           "valor": 43.2
         },
         {
+          "data": "04/05/2026",
+          "codcli": "94059",
+          "cliente": "REI DAS CARNES MERCEARIA LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 13.0
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94059",
+          "cliente": "REI DAS CARNES MERCEARIA LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 224.5
+        },
+        {
           "data": "02/05/2026",
           "codcli": "94288",
           "cliente": "LUCIA ELENA SANTANA",
@@ -73918,6 +73990,15 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 7,
           "valor": 153.3
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "93668",
+          "cliente": "EMPORIO DOWNTOWN PRODUTOS NATURAIS LTDA",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 39.9
         },
         {
           "data": "02/05/2026",
@@ -90653,6 +90734,15 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 690.0
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "73317",
+          "cliente": "MERCADINHO E HORTIFRUTI DO BIBI LTDA",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "fantasia": "JURUPINGA",
+          "qt": 72,
+          "valor": 1648.8
         },
         {
           "data": "04/05/2026",
@@ -135465,6 +135555,33 @@ const VENDAS_DATA = {
       ],
       "Mai/26": [
         {
+          "data": "04/05/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN MAR 750ML",
+          "fantasia": "YVY",
+          "qt": 30,
+          "valor": 1470.0
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN TERRA 6X710ML LT",
+          "fantasia": "YVY",
+          "qt": 5,
+          "valor": 988.2
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN AR 6X710ML LT",
+          "fantasia": "YVY",
+          "qt": 5,
+          "valor": 988.2
+        },
+        {
           "data": "02/05/2026",
           "codcli": "60844",
           "cliente": "DOM ATACAREJO S.A.",
@@ -135490,6 +135607,33 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 12,
           "valor": 1015.92
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "60846",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "GIN LARIOS ORIGINAL 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 24,
+          "valor": 1031.52
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "60846",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1016.04
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "60846",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1016.04
         },
         {
           "data": "02/05/2026",
@@ -144559,6 +144703,51 @@ const VENDAS_DATA = {
           "valor": 71.64
         },
         {
+          "data": "04/05/2026",
+          "codcli": "56716",
+          "cliente": "REUNIDOS COMERCIO DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 42,
+          "valor": 1381.8
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "56716",
+          "cliente": "REUNIDOS COMERCIO DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 210,
+          "valor": 6909.0
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "56716",
+          "cliente": "REUNIDOS COMERCIO DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI ICE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 394.8
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "56716",
+          "cliente": "REUNIDOS COMERCIO DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI ICE ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 394.8
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "56716",
+          "cliente": "REUNIDOS COMERCIO DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 90,
+          "valor": 2961.0
+        },
+        {
           "data": "02/05/2026",
           "codcli": "72401",
           "cliente": "I&B DE SANTA ROSA COMERCIO DE ALIMENTOS LTDA",
@@ -145322,6 +145511,123 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 12,
           "valor": 406.8
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "GIN DUBAR 960ML",
+          "fantasia": "DUBAR",
+          "qt": 12,
+          "valor": 223.8
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "fantasia": "JURUPINGA",
+          "qt": 12,
+          "valor": 273.84
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 199.32
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.18
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.18
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 137.28
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.06
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 245.4
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 231.6
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 231.6
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 143.28
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "LICOR STOCK MARULA 720 ML",
+          "fantasia": "STOCK",
+          "qt": 6,
+          "valor": 303.24
+        },
+        {
+          "data": "04/05/2026",
+          "codcli": "94797",
+          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
+          "produto": "LICOR STOCK DE DOCE DE LEITE 720 ML",
+          "fantasia": "STOCK",
+          "qt": 6,
+          "valor": 303.18
         },
         {
           "data": "02/05/2026",
