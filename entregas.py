@@ -82,22 +82,25 @@ tabela_pedidos['NOME'] = (
 
 # ── Excel de logística — apenas a aba de HOJE ─────────────────────────────────
 
-hoje_str      = date.today().strftime('%d.%m')  # ex: "05.05"
-caminho_excel = _caminho_logistica(date.today())
+_hoje_d       = date.today()
+hoje_str      = _hoje_d.strftime('%d.%m')   # "05.05"
+hoje_str_hif  = _hoje_d.strftime('%d-%m')   # "05-05"
+caminho_excel = _caminho_logistica(_hoje_d)
 
 try:
     dict_abas = pd.read_excel(caminho_excel, sheet_name=None)
-    if hoje_str in dict_abas:
-        df_hoje = dict_abas[hoje_str].copy()
+    aba_nome  = next((k for k in dict_abas if str(k) in (hoje_str, hoje_str_hif)), None)
+    if aba_nome:
+        df_hoje = dict_abas[aba_nome].copy()
     else:
         # Arquivo com aba única + coluna DATA
-        df_all  = pd.concat(dict_abas.values(), ignore_index=True)
+        df_all = pd.concat(dict_abas.values(), ignore_index=True)
         if 'DATA' in df_all.columns:
             df_all['_data_fmt'] = pd.to_datetime(df_all['DATA'], errors='coerce').dt.strftime('%d.%m')
             df_hoje = df_all[df_all['_data_fmt'] == hoje_str].drop(columns='_data_fmt').copy()
         else:
             df_hoje = df_all.copy()
-    print(f"Logística: {caminho_excel} | aba/filtro: {hoje_str} | {len(df_hoje)} linhas")
+    print(f"Logística: {caminho_excel} | aba: {aba_nome or 'DATA'} | {len(df_hoje)} linhas")
 except FileNotFoundError:
     print(f"Aviso: arquivo de logística não encontrado:\n  {caminho_excel}")
     df_hoje = pd.DataFrame()
