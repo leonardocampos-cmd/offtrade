@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "05/05/2026 11:06",
+  "atualizado_em": "05/05/2026 11:17",
   "meses": [
     "Abr/26",
     "Mar/26"
@@ -16838,6 +16838,30 @@ const METAS_DATA = {
       },
       "nao_positivados": [
         {
+          "CODCLI": "69414",
+          "CLIENTE": "SUPERMERCADO VICALI PARATY LTDA.",
+          "BAIRROENT": "PARQUE YPE",
+          "DTULTCOMP": "05/05/2026",
+          "produtos": [
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "BAER MATCHA 350ML LN C/6"
+            },
+            {
+              "FANTASIA": "BETTER DRINKS",
+              "DESCRICAO": "BAER MATE LN 6X350ML"
+            },
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA HEINEKEN - KEG 5 LITROS C/2 DESC"
+            },
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA BADEN IPA 1X600ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "6003",
           "CLIENTE": "FRADE SPOT PARTICIPACOES S/A",
           "BAIRROENT": "FRADE (CUNHAMBEBE)",
@@ -16873,15 +16897,15 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "RED BULL",
+              "DESCRICAO": "RED BULL TRADICIONAL 250ML CX C/24 UND"
+            },
+            {
+              "FANTASIA": "RED BULL",
               "DESCRICAO": "RED BULL TROPICAL EDITION 250 ML CX C/24"
             },
             {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "RED BULL SUGAR FREE 24X250ML"
-            },
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "RED BULL TRADICIONAL 250ML CX C/24 UND"
             }
           ]
         },
@@ -16906,26 +16930,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "HEINEKEN",
               "DESCRICAO": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB"
-            }
-          ]
-        },
-        {
-          "CODCLI": "74872",
-          "CLIENTE": "SUPERMERCADO VICALI PARATY LTDA.",
-          "BAIRROENT": "ILHA DAS COBRAS",
-          "DTULTCOMP": "30/04/2026",
-          "produtos": [
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN"
-            },
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML"
-            },
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA AMSTEL ULTRA LATA 12X269 ML"
             }
           ]
         },
@@ -17157,11 +17161,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML"
+              "DESCRICAO": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN"
             },
             {
               "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN"
+              "DESCRICAO": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML"
             }
           ]
         },
@@ -17384,8 +17388,12 @@ const METAS_DATA = {
           "DTULTCOMP": "30/03/2026",
           "produtos": [
             {
+              "FANTASIA": "BETTER DRINKS",
+              "DESCRICAO": "BAER MATE LN 6X350ML"
+            },
+            {
               "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML"
+              "DESCRICAO": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN"
             },
             {
               "FANTASIA": "HEINEKEN",
@@ -17393,11 +17401,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN"
-            },
-            {
-              "FANTASIA": "BETTER DRINKS",
-              "DESCRICAO": "BAER MATE LN 6X350ML"
+              "DESCRICAO": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML"
             }
           ]
         },
@@ -17745,11 +17749,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "RED BULL MELANCIA 250ML CX C/24"
+              "DESCRICAO": "RED BULL MORANGO PESSEGO 24X250ML"
             },
             {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "RED BULL POMELO 250ML CAIXA C/24 UND"
+              "DESCRICAO": "RED BULL MELANCIA 250ML CX C/24"
             },
             {
               "FANTASIA": "RED BULL",
@@ -17761,7 +17765,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "RED BULL MORANGO PESSEGO 24X250ML"
+              "DESCRICAO": "RED BULL POMELO 250ML CAIXA C/24 UND"
             }
           ]
         },
