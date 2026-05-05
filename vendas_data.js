@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "05/05/2026 11:19",
+  "atualizado_em": "05/05/2026 11:30",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -72431,24 +72431,6 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 65.52
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "71085",
-          "cliente": "WILL'S FITNESS LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 32.76
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "71085",
-          "cliente": "WILL'S FITNESS LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 32.76
         },
         {
           "data": "01/04/2026",
