@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "05/05/2026 10:18",
+  "atualizado_em": "05/05/2026 11:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -72434,24 +72434,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/04/2026",
-          "codcli": "72650",
-          "cliente": "WILL'S FITNESS LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 32.76
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "72650",
-          "cliente": "WILL'S FITNESS LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 32.76
-        },
-        {
-          "data": "30/04/2026",
           "codcli": "71085",
           "cliente": "WILL'S FITNESS LTDA",
           "produto": "4 PACK RED BULL",
@@ -72629,24 +72611,6 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 43.2
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "67436",
-          "cliente": "WILL S FITNESS LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 32.76
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "67436",
-          "cliente": "WILL S FITNESS LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 32.76
         },
         {
           "data": "10/04/2026",
@@ -73715,15 +73679,6 @@ const VENDAS_DATA = {
           "codcli": "94758",
           "cliente": "COMERCIO DE HORTFRUTI IRMA LUCIA DE FATIMA CATETE 2025 LTDA",
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "91739",
-          "cliente": "NARCK RODRIGUES CENTRO DE TREINAMENTO E ENTRETENIMENTO LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7
