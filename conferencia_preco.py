@@ -13,8 +13,14 @@ warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
 user = "vpn"
 password = "vpn2320vpn"
-dsn = "crc_oci" 
-engine = create_engine(f'oracle+oracledb://{user}:{password}@{dsn}')
+dsn = "crc_oci"
+engine = create_engine(
+    f'oracle+oracledb://{user}:{password}@{dsn}',
+    pool_pre_ping=True,
+    pool_recycle=3600,
+    connect_args={"expire_time": 2}
+)
+from meta import carregar_dados
 
 # 2. Carga das Tabelas de Referência
 # --- TABELA ON ---
@@ -45,7 +51,7 @@ tabela_mov = """
         TRUNC(DATA, 'MM') = TRUNC(SYSDATE, 'MM')
         AND NOME LIKE '%OFF TRADE%'   
 """
-df = pd.read_sql(tabela_mov, con=engine)
+df = carregar_dados(tabela_mov, engine, "conferencia_preco")
 profit = pd.read_excel(r"G:\Drives compartilhados\Profit RJ\Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb", sheet_name='Precificação', skiprows=8)
 profit.drop(columns=['Unnamed: 0', 'PRODUTO', 'FORNECEDORA', 'TIPO',
        'NACIONALIDADE', 'PAUTA', 'MVA%', 'BASE DO ST', 'CUSTO SEM ST/IPI',

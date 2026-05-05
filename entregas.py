@@ -33,11 +33,17 @@ def _caminho_logistica(d: date) -> str:
     )
 
 oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
-engine = create_engine('oracle+oracledb://vpn:vpn2320vpn@crc_oci')
+engine = create_engine(
+    'oracle+oracledb://vpn:vpn2320vpn@crc_oci',
+    pool_pre_ping=True,
+    pool_recycle=3600,
+    connect_args={"expire_time": 2}
+)
+from meta import carregar_dados
 
 # ── Pedidos do mês ─────────────────────────────────────────────────────────────
 
-tabela_pedidos = pd.read_sql("""
+tabela_pedidos = carregar_dados("""
     SELECT NUMPED, NUMNOTA, NOME, DATA, CODUSUR, CLIENTE, STATUS,
            DESCRICAO, PVENDA, QT, TOTAL, OBSENTREGA1
     FROM crc.PBI_PCPEDI
@@ -46,7 +52,7 @@ tabela_pedidos = pd.read_sql("""
       AND DATA >= TRUNC(SYSDATE, 'MM')
       AND DATA < LAST_DAY(SYSDATE) + 1
     ORDER BY DATA DESC
-""", con=engine, dtype=str)
+""", engine, "pedidos")
 
 tabela_pedidos.columns     = tabela_pedidos.columns.str.upper()
 tabela_pedidos['TOTAL']    = pd.to_numeric(tabela_pedidos['TOTAL'],   errors='coerce').fillna(0)
