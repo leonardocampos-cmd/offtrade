@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "06/05/2026 09:02",
+  "atualizado_em": "06/05/2026 13:02",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -46360,96 +46360,6 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 82.68
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR GOIABA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR ABACAXI 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR LARANJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR MARACUJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 12,
-          "valor": 330.72
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 143.52
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 85.02
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94431",
-          "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 85.02
         },
         {
           "data": "15/04/2026",
@@ -130425,15 +130335,6 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 500,
           "valor": 32640.0
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "83586",
-          "cliente": "LUNA SUPERMERCADOS LTDA",
-          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-          "fantasia": "FANTE",
-          "qt": 3,
-          "valor": 53.7
         },
         {
           "data": "20/04/2026",
