@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/05/2026 17:17",
+  "atualizado_em": "07/05/2026 18:01",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -39660,6 +39660,24 @@ const VENDAS_DATA = {
           "valor": 87.48
         },
         {
+          "data": "07/05/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 259.0
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 3,
+          "valor": 92.7
+        },
+        {
           "data": "04/05/2026",
           "codcli": "74192",
           "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
@@ -69460,6 +69478,51 @@ const VENDAS_DATA = {
       ],
       "Mai/26": [
         {
+          "data": "07/05/2026",
+          "codcli": "74425",
+          "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 15,
+          "valor": 943.5
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "74425",
+          "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "KAISER",
+          "qt": 1,
+          "valor": 128.9
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "77896",
+          "cliente": "EYMARD'S MERCADINHO E DEPOSITO DE BEBIDAS E LATICINIOS LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1320.0
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "77896",
+          "cliente": "EYMARD'S MERCADINHO E DEPOSITO DE BEBIDAS E LATICINIOS LTDA",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "fantasia": "BROWN",
+          "qt": 6,
+          "valor": 660.0
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "77896",
+          "cliente": "EYMARD'S MERCADINHO E DEPOSITO DE BEBIDAS E LATICINIOS LTDA",
+          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
+          "fantasia": "BROWN",
+          "qt": 6,
+          "valor": 660.0
+        },
+        {
           "data": "04/05/2026",
           "codcli": "83387",
           "cliente": "CGX COMERCIO DE ALIMENTOS LTDA",
@@ -69559,6 +69622,69 @@ const VENDAS_DATA = {
           "valor": 1320.9
         },
         {
+          "data": "07/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "BEB ABACAX MANGA AGUA COCO PLEY 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 4,
+          "valor": 71.52
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 32.28
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "BEB UVA LIMAO AGUA COCO PLEY 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 35.76
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "SUCO LARANJA INTEGRAL DO BEM 24X200ML",
+          "fantasia": "TIAL",
+          "qt": 5,
+          "valor": 298.8
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "CHA VERDE FRUTAS VERM.DESINCHA.12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 32.28
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "REFRESCO DE LARANJA MINECRAFT 24X200ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 71.52
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "CHA VERDE LARAN GENGI DESINCHA 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 32.28
+        },
+        {
           "data": "04/05/2026",
           "codcli": "91485",
           "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
@@ -69656,6 +69782,33 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 1,
           "valor": 22.5
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "91710",
+          "cliente": "CEREAIS E MERCEARIA MANDARIM DE NILOPOLIS LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 3,
+          "valor": 195.84
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "91710",
+          "cliente": "CEREAIS E MERCEARIA MANDARIM DE NILOPOLIS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 5,
+          "valor": 326.4
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "91710",
+          "cliente": "CEREAIS E MERCEARIA MANDARIM DE NILOPOLIS LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 130.56
         },
         {
           "data": "06/05/2026",
@@ -69791,6 +69944,69 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 1,
           "valor": 22.5
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "94865",
+          "cliente": "3D SALGADOS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 270.0
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "94865",
+          "cliente": "3D SALGADOS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "94865",
+          "cliente": "3D SALGADOS LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 790.8
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "94865",
+          "cliente": "3D SALGADOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 628.2
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "94865",
+          "cliente": "3D SALGADOS LTDA",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "94865",
+          "cliente": "3D SALGADOS LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 419.4
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "94865",
+          "cliente": "3D SALGADOS LTDA",
+          "produto": "WHISKY ROYAL SALUTE GRAIN 700ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 1299.8
         }
       ]
     },
