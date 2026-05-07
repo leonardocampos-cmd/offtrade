@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "07/05/2026 13:18",
+  "atualizado_em": "07/05/2026 14:01",
   "meses": [
     "Abr/26",
     "Mar/26"
@@ -845,12 +845,12 @@ const METAS_DATA = {
         },
         {
           "mes": "May/26",
-          "fat": 103491.84,
+          "fat": 102475.92,
           "pos": 7
         }
       ],
       "previsao": {
-        "fat_proj": 434665.73,
+        "fat_proj": 430398.86,
         "fat_media_hist": 147250.73,
         "pos_proj": 29.4,
         "pos_media_hist": 13.3,

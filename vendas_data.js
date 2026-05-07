@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/05/2026 13:18",
+  "atualizado_em": "07/05/2026 14:01",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -137920,15 +137920,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 6,
           "valor": 196.2
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "60846",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1015.92
         },
         {
           "data": "04/05/2026",
