@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/05/2026 14:01",
+  "atualizado_em": "07/05/2026 14:18",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -79317,24 +79317,6 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 54.32
-        },
-        {
-          "data": "24/02/2026",
-          "codcli": "86503",
-          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
-          "produto": "RED BULL 24X250ML ",
-          "fantasia": "RED BULL",
-          "qt": 10,
-          "valor": 1653.6
-        },
-        {
-          "data": "24/02/2026",
-          "codcli": "86503",
-          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
-          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-          "fantasia": "RED BULL",
-          "qt": 30,
-          "valor": 826.8
         },
         {
           "data": "04/02/2026",
