@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/05/2026 10:37",
+  "atualizado_em": "07/05/2026 13:16",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -39651,15 +39651,6 @@ const VENDAS_DATA = {
           "valor": 183.6
         },
         {
-          "data": "05/05/2026",
-          "codcli": "74192",
-          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 5,
-          "valor": 154.5
-        },
-        {
           "data": "04/05/2026",
           "codcli": "73248",
           "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
@@ -40198,123 +40189,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 6,
           "valor": 203.4
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.4
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.4
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.4
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.4
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.4
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "AGUA NA CAIXA 12X500ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 1,
-          "valor": 31.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
-          "fantasia": "MINALBA",
-          "qt": 1,
-          "valor": 56.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
-          "fantasia": "MINALBA",
-          "qt": 1,
-          "valor": 44.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "ESPUMANTE ARESTI ROSE 187,5ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 18.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "93218",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "produto": "ESPUMANTE ARESTI CHARDONNAY 187,5ML",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 226.8
         },
         {
           "data": "06/05/2026",
@@ -45327,15 +45201,6 @@ const VENDAS_DATA = {
           "valor": 321.6
         },
         {
-          "data": "29/04/2026",
-          "codcli": "94263",
-          "cliente": "MERCADO NOSSA REDE DE QUINTINO LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 298.8
-        },
-        {
           "data": "01/04/2026",
           "codcli": "91654",
           "cliente": "45.129.967 JHONNY MANHAES GOMES REIS DA SILVA SANTOS",
@@ -45901,51 +45766,6 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 3,
           "valor": 65.55
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "RC PATE ATUM TRADICIONAL 12X80G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 85.02
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "94426",
-          "cliente": "MINIMERCADO E BAR BUROCK LTDA",
-          "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 85.02
         },
         {
           "data": "14/04/2026",
@@ -55422,51 +55242,6 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 2,
           "valor": 51.36
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "94206",
-          "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "94206",
-          "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "94206",
-          "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "94206",
-          "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.68
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "94206",
-          "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.68
         },
         {
           "data": "02/05/2026",
@@ -138360,15 +138135,6 @@ const VENDAS_DATA = {
           "codcli": "91668",
           "cliente": "SENDAS DISTRIBUIDORA S/A",
           "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 660,
-          "valor": 63294.0
-        },
-        {
-          "data": "12/01/2026",
-          "codcli": "91668",
-          "cliente": "SENDAS DISTRIBUIDORA S/A",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
           "fantasia": "BEAM SUNTORY",
           "qt": 660,
           "valor": 63294.0
