@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/05/2026 16:01",
+  "atualizado_em": "08/05/2026 16:59",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -40174,6 +40174,33 @@ const VENDAS_DATA = {
         },
         {
           "data": "08/05/2026",
+          "codcli": "84103",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 2,
+          "valor": 35.8
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "84103",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "produto": "ESPUMANTE VILLA ROSA ROSE",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "84103",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 61.8
+        },
+        {
+          "data": "08/05/2026",
           "codcli": "89964",
           "cliente": "POSTO DE GASOLINA COROA DO MAR LTDA",
           "produto": "BEEFEATER PINK 700ML",
@@ -40243,6 +40270,33 @@ const VENDAS_DATA = {
           "fantasia": "BANANINHA CARIOCA",
           "qt": 2,
           "valor": 141.8
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "90925",
+          "cliente": "POSTO MAR AZUL LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "90925",
+          "cliente": "POSTO MAR AZUL LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 129.5
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "90925",
+          "cliente": "POSTO MAR AZUL LTDA",
+          "produto": "WHISKY JACK DANIELS  700ML",
+          "fantasia": "BROWN",
+          "qt": 2,
+          "valor": 199.8
         },
         {
           "data": "05/05/2026",
@@ -70171,6 +70225,87 @@ const VENDAS_DATA = {
           "valor": 943.5
         },
         {
+          "data": "08/05/2026",
+          "codcli": "94336",
+          "cliente": "MERCADO E PADARIA BOLIVAS DE MESQUITA LTDA",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.6
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "94336",
+          "cliente": "MERCADO E PADARIA BOLIVAS DE MESQUITA LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.6
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "94336",
+          "cliente": "MERCADO E PADARIA BOLIVAS DE MESQUITA LTDA",
+          "produto": "NECTAR PESSEGO 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.6
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "94121",
+          "cliente": "MINIMERCADO DISTRIBUIDORA DO FRANCA LEITE LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 157.8
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "94121",
+          "cliente": "MINIMERCADO DISTRIBUIDORA DO FRANCA LEITE LTDA",
+          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 110.0
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "94121",
+          "cliente": "MINIMERCADO DISTRIBUIDORA DO FRANCA LEITE LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "94121",
+          "cliente": "MINIMERCADO DISTRIBUIDORA DO FRANCA LEITE LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 183.0
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "94121",
+          "cliente": "MINIMERCADO DISTRIBUIDORA DO FRANCA LEITE LTDA",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 191.4
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "94121",
+          "cliente": "MINIMERCADO DISTRIBUIDORA DO FRANCA LEITE LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 161.4
+        },
+        {
           "data": "04/05/2026",
           "codcli": "94404",
           "cliente": "D+MERCADO COMERCIO EM ALIMENTOS E BEBIDAS LTDA",
@@ -75610,6 +75745,87 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 6,
           "valor": 197.4
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "4 PACK RED BULL SF AMORA",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "4 PACK RED BULL MORANGO PESSEGO",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "4 PACK RED BULL CEREJA",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 65.52
         },
         {
           "data": "04/05/2026",
@@ -109502,6 +109718,33 @@ const VENDAS_DATA = {
           "valor": 95.9
         },
         {
+          "data": "08/05/2026",
+          "codcli": "79969",
+          "cliente": "WMDIAS 24H LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 4,
+          "valor": 87.6
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "79969",
+          "cliente": "WMDIAS 24H LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "fantasia": "MINALBA",
+          "qt": 3,
+          "valor": 59.7
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "79969",
+          "cliente": "WMDIAS 24H LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 129.5
+        },
+        {
           "data": "07/05/2026",
           "codcli": "80679",
           "cliente": "DROGARIA ROMEIROS LTDA",
@@ -138982,33 +139225,6 @@ const VENDAS_DATA = {
           "fantasia": "LUCIA",
           "qt": 1200,
           "valor": 88200.0
-        },
-        {
-          "data": "04/05/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN MAR 750ML",
-          "fantasia": "YVY",
-          "qt": 30,
-          "valor": 1470.0
-        },
-        {
-          "data": "04/05/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN TERRA 6X710ML LT",
-          "fantasia": "YVY",
-          "qt": 5,
-          "valor": 988.2
-        },
-        {
-          "data": "04/05/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN AR 6X710ML LT",
-          "fantasia": "YVY",
-          "qt": 5,
-          "valor": 988.2
         },
         {
           "data": "02/05/2026",
