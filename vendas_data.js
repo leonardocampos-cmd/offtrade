@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/05/2026 11:18",
+  "atualizado_em": "08/05/2026 11:59",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -148379,33 +148379,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 2,
           "valor": 359.8
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "28385",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.9
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "28385",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
-          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.9
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "28385",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 24,
-          "valor": 276.0
         },
         {
           "data": "02/05/2026",
