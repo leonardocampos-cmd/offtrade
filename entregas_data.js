@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "08/05/2026 09:53",
+  "atualizado_em": "08/05/2026 11:18",
   "data_rota": "08.05",
   "vendedores": [
     {
@@ -3121,12 +3121,12 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 772.2,
+          "total": 1491.0,
           "itens": [
             {
               "desc": "GIN BOMBAY SAPPHIRE 750ML",
               "qt": 12,
-              "val": 144.0
+              "val": 862.8
             },
             {
               "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
@@ -5445,17 +5445,17 @@ const ENTREGAS_DATA = {
           "total": 195.84,
           "itens": [
             {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
               "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
               "qt": 1,
               "val": 65.28
             },
             {
               "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-              "qt": 1,
-              "val": 65.28
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
               "qt": 1,
               "val": 65.28
             }
@@ -9399,6 +9399,31 @@ const ENTREGAS_DATA = {
               "desc": "GUARAVITA NATURAL 24X290ML",
               "qt": 11,
               "val": 218.9
+            }
+          ]
+        },
+        {
+          "numped": "155003444",
+          "numnota": "",
+          "data": "08/05/2026",
+          "cliente": "SOS DISTRIBUIDORA DE BEBIDAS RASA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 799.2,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 6,
+              "val": 473.4
+            },
+            {
+              "desc": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+              "qt": 2,
+              "val": 325.8
             }
           ]
         }
