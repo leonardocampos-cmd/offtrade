@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/05/2026 15:01",
+  "atualizado_em": "08/05/2026 15:59",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -39489,6 +39489,114 @@ const VENDAS_DATA = {
           "valor": 284.1
         },
         {
+          "data": "08/05/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 1,
+          "valor": 99.9
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 345.8
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 1,
+          "valor": 99.9
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 2,
+          "valor": 67.8
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 1,
+          "valor": 34.9
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 1,
+          "valor": 34.9
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 162.9
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 5,
+          "valor": 119.7
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "GIN MARINA BLACKBERRY 750ML",
+          "fantasia": "CAPIM BRANCO",
+          "qt": 2,
+          "valor": 119.8
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 1,
+          "valor": 32.9
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "ESPUM CASA PERINI ICE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 1,
+          "valor": 32.9
+        },
+        {
           "data": "04/05/2026",
           "codcli": "3654",
           "cliente": "DISTRIBUIDORA WAY DE COMBUSTIVEIS LTDA",
@@ -39595,6 +39703,24 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 1,
           "valor": 30.9
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "4621",
+          "cliente": "AUTO POSTO MAP RECREIO LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 5,
+          "valor": 109.5
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "4621",
+          "cliente": "AUTO POSTO MAP RECREIO LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 3,
+          "valor": 92.7
         },
         {
           "data": "07/05/2026",
@@ -40045,6 +40171,78 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 6,
           "valor": 185.4
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "89964",
+          "cliente": "POSTO DE GASOLINA COROA DO MAR LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "89964",
+          "cliente": "POSTO DE GASOLINA COROA DO MAR LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 129.8
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "89964",
+          "cliente": "POSTO DE GASOLINA COROA DO MAR LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "89964",
+          "cliente": "POSTO DE GASOLINA COROA DO MAR LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 23.9
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "89964",
+          "cliente": "POSTO DE GASOLINA COROA DO MAR LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 92.7
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "89964",
+          "cliente": "POSTO DE GASOLINA COROA DO MAR LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "89964",
+          "cliente": "POSTO DE GASOLINA COROA DO MAR LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 172.9
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "89964",
+          "cliente": "POSTO DE GASOLINA COROA DO MAR LTDA",
+          "produto": "LICOR BANANINHA CARIOCA 750ML",
+          "fantasia": "BANANINHA CARIOCA",
+          "qt": 2,
+          "valor": 141.8
         },
         {
           "data": "05/05/2026",
@@ -108746,6 +108944,15 @@ const VENDAS_DATA = {
       ],
       "Mai/26": [
         {
+          "data": "08/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 276.0
+        },
+        {
           "data": "02/05/2026",
           "codcli": "3813",
           "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
@@ -108861,6 +109068,33 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 20,
           "valor": 438.0
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.4
         },
         {
           "data": "05/05/2026",
@@ -109113,6 +109347,15 @@ const VENDAS_DATA = {
           "fantasia": "COMARY",
           "qt": 2,
           "valor": 149.8
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "81055",
+          "cliente": "DROGARIA ROMEIROS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 129.5
         },
         {
           "data": "06/05/2026",
@@ -155388,6 +155631,15 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 20,
           "valor": 2087.2
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 1065.65
         },
         {
           "data": "07/05/2026",
