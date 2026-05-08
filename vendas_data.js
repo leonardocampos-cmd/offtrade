@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/05/2026 13:13",
+  "atualizado_em": "08/05/2026 14:43",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -70027,6 +70027,51 @@ const VENDAS_DATA = {
           "valor": 22.5
         },
         {
+          "data": "08/05/2026",
+          "codcli": "94809",
+          "cliente": "RALEF COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "94809",
+          "cliente": "RALEF COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "94809",
+          "cliente": "RALEF COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "94812",
+          "cliente": "LOS HERMANOS MINIMERCADO LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "94812",
+          "cliente": "LOS HERMANOS MINIMERCADO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 130.56
+        },
+        {
           "data": "07/05/2026",
           "codcli": "94865",
           "cliente": "3D SALGADOS LTDA",
@@ -135869,6 +135914,15 @@ const VENDAS_DATA = {
           "valor": 221.4
         },
         {
+          "data": "08/05/2026",
+          "codcli": "85931",
+          "cliente": "FAMILIA MARIO BROS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 786.24
+        },
+        {
           "data": "05/05/2026",
           "codcli": "86429",
           "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
@@ -155334,15 +155388,6 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 20,
           "valor": 2087.2
-        },
-        {
-          "data": "07/05/2026",
-          "codcli": "69400",
-          "cliente": "BOCARRA'S BAR LTDA",
-          "produto": "CERVEJA HEINEKEN RET 24X600ML",
-          "fantasia": "HEINEKEN",
-          "qt": 5,
-          "valor": 1565.65
         },
         {
           "data": "07/05/2026",
