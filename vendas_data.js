@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/05/2026 09:52",
+  "atualizado_em": "08/05/2026 10:59",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -75556,15 +75556,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 13,
           "valor": 1231.1
-        },
-        {
-          "data": "06/05/2026",
-          "codcli": "91913",
-          "cliente": "MERCADO ITAPIRU LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 6,
-          "valor": 196.56
         }
       ],
       "Mar/26": [
@@ -132218,60 +132209,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 6,
           "valor": 209.4
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "79258",
-          "cliente": "MERCADO JARDINS DA ILHA LTDA",
-          "produto": "NECTAR CAJU 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "79258",
-          "cliente": "MERCADO JARDINS DA ILHA LTDA",
-          "produto": "NECTAR GOIABA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "79258",
-          "cliente": "MERCADO JARDINS DA ILHA LTDA",
-          "produto": "NECTAR LARANJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 59.88
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "79258",
-          "cliente": "MERCADO JARDINS DA ILHA LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "79258",
-          "cliente": "MERCADO JARDINS DA ILHA LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 3,
-          "valor": 179.64
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "79258",
-          "cliente": "MERCADO JARDINS DA ILHA LTDA",
-          "produto": "NECTAR PESSEGO 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 59.88
         },
         {
           "data": "01/04/2026",
