@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/05/2026 18:01",
+  "atualizado_em": "08/05/2026 09:52",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -54677,6 +54677,51 @@ const VENDAS_DATA = {
       ],
       "Mai/26": [
         {
+          "data": "07/05/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 98.28
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 3,
+          "valor": 92.7
+        },
+        {
           "data": "05/05/2026",
           "codcli": "84572",
           "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
@@ -55001,6 +55046,15 @@ const VENDAS_DATA = {
           "valor": 71.76
         },
         {
+          "data": "07/05/2026",
+          "codcli": "92388",
+          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 154.5
+        },
+        {
           "data": "04/05/2026",
           "codcli": "91617",
           "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
@@ -55226,6 +55280,15 @@ const VENDAS_DATA = {
           "valor": 154.08
         },
         {
+          "data": "07/05/2026",
+          "codcli": "94266",
+          "cliente": "MERCADINHO SCHIO LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 12,
+          "valor": 393.12
+        },
+        {
           "data": "05/05/2026",
           "codcli": "91357",
           "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
@@ -55341,6 +55404,15 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 2,
           "valor": 51.36
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "94813",
+          "cliente": "50.689.886 THAIS VIRGINIA NOGUEIRA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "fantasia": "COMARY",
+          "qt": 1,
+          "valor": 74.9
         },
         {
           "data": "02/05/2026",
@@ -66713,51 +66785,6 @@ const VENDAS_DATA = {
           "valor": 628.2
         },
         {
-          "data": "15/04/2026",
-          "codcli": "84160",
-          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
-          "produto": "GIN ROCKS 1000ML",
-          "fantasia": "FANTE",
-          "qt": 18,
-          "valor": 405.0
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84160",
-          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 135.0
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84160",
-          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 270.0
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84160",
-          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
-          "produto": "MARTINI ROSATO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 427.56
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84160",
-          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
-          "produto": "MARTINI EXTRA DRY 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 427.56
-        },
-        {
           "data": "08/04/2026",
           "codcli": "84161",
           "cliente": "PQA ALIMENTOS PRACA SECA LTDA",
@@ -66783,24 +66810,6 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 2,
           "valor": 399.0
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84161",
-          "cliente": "PQA ALIMENTOS PRACA SECA LTDA",
-          "produto": "GIN ROCKS 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 135.0
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84161",
-          "cliente": "PQA ALIMENTOS PRACA SECA LTDA",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 135.0
         },
         {
           "data": "08/04/2026",
@@ -69541,6 +69550,69 @@ const VENDAS_DATA = {
           "valor": 1995.0
         },
         {
+          "data": "07/05/2026",
+          "codcli": "84160",
+          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "FANTE",
+          "qt": 4,
+          "valor": 88.24
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "84160",
+          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.35
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "84160",
+          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 264.71
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "84160",
+          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 419.18
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "84160",
+          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 419.18
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "84161",
+          "cliente": "PQA ALIMENTOS PRACA SECA LTDA",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "FANTE",
+          "qt": 4,
+          "valor": 88.24
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "84161",
+          "cliente": "PQA ALIMENTOS PRACA SECA LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.35
+        },
+        {
           "data": "06/05/2026",
           "codcli": "80664",
           "cliente": "50.571.060 THIAGO FERREIRA DE OLIVEIRA",
@@ -69890,6 +69962,15 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 135.0
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "91445",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM OLAVO BI",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 15,
+          "valor": 943.5
         },
         {
           "data": "04/05/2026",
@@ -73536,6 +73617,42 @@ const VENDAS_DATA = {
           "valor": 392.4
         },
         {
+          "data": "07/05/2026",
+          "codcli": "53108",
+          "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
+          "produto": "PINATI PROTEIN CUPS AMENDOIM 20X21G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 95.9
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "53108",
+          "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
+          "produto": "PINATI NUTS COCO 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 39.2
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "53108",
+          "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 78.4
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "53108",
+          "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 43.2
+        },
+        {
           "data": "05/05/2026",
           "codcli": "94417",
           "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
@@ -75358,6 +75475,15 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 2,
           "valor": 39.8
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "93668",
+          "cliente": "EMPORIO DOWNTOWN PRODUTOS NATURAIS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 43.8
         },
         {
           "data": "02/05/2026",
@@ -92156,6 +92282,33 @@ const VENDAS_DATA = {
           "fantasia": "JURUPINGA",
           "qt": 72,
           "valor": 1648.8
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 36,
+          "valor": 2516.4
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 36,
+          "valor": 2768.4
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 36,
+          "valor": 2768.4
         },
         {
           "data": "05/05/2026",
@@ -109068,6 +109221,15 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 95.9
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "80679",
+          "cliente": "DROGARIA ROMEIROS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 129.5
         },
         {
           "data": "06/05/2026",
@@ -139414,6 +139576,44 @@ const VENDAS_DATA = {
           "qt": 60,
           "valor": 5394.0
         }
+      ],
+      "Mai/26": [
+        {
+          "data": "07/05/2026",
+          "codcli": "81155",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 10,
+          "valor": 1742.4
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "81155",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 20,
+          "valor": 1903.2
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "81155",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 30,
+          "valor": 2854.8
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "81155",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 25,
+          "valor": 2379.0
+        }
       ]
     },
     "DIRLEI": {
@@ -149093,15 +149293,6 @@ const VENDAS_DATA = {
           "data": "02/05/2026",
           "codcli": "80355",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 138.0
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "80355",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
           "fantasia": "FANTE",
           "qt": 6,
@@ -155233,6 +155424,24 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 20,
           "valor": 2087.2
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 1565.65
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "74901",
+          "cliente": "GIOVANNI LEONCIO DE ALMEIDA DIAS 15223940792",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 546.8
         }
       ]
     }
