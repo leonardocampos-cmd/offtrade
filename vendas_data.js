@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "11/05/2026 17:00",
+  "atualizado_em": "11/05/2026 18:01",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -46776,24 +46776,6 @@ const VENDAS_DATA = {
           "valor": 34.68
         },
         {
-          "data": "13/04/2026",
-          "codcli": "91365",
-          "cliente": "PANIFICACAO BARIRI LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "91365",
-          "cliente": "PANIFICACAO BARIRI LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 6,
-          "valor": 165.36
-        },
-        {
           "data": "14/04/2026",
           "codcli": "91365",
           "cliente": "PANIFICACAO BARIRI LTDA",
@@ -71336,24 +71318,6 @@ const VENDAS_DATA = {
           "valor": 178.8
         },
         {
-          "data": "18/04/2026",
-          "codcli": "2710",
-          "cliente": "MERCADINHO BAMBINA LTDA",
-          "produto": "AMARULA CREAM 12X750ML +6 COPOS DUBAI",
-          "fantasia": "INTERFOOD",
-          "qt": 1,
-          "valor": 1078.8
-        },
-        {
-          "data": "18/04/2026",
-          "codcli": "2710",
-          "cliente": "MERCADINHO BAMBINA LTDA",
-          "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 215.4
-        },
-        {
           "data": "07/04/2026",
           "codcli": "2279",
           "cliente": "VALE FORMOSO IMPORTACAO E EXPORTACAO LTDA",
@@ -71406,15 +71370,6 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 1,
           "valor": 178.8
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "2610",
-          "cliente": "SUPERMERCADO ULTRA SUL LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "fantasia": "RECKITT",
-          "qt": 108,
-          "valor": 6480.0
         },
         {
           "data": "01/04/2026",
@@ -151250,60 +151205,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 12,
           "valor": 388.8
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "91990",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 194.4
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "91990",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 194.4
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "91990",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS SUNSET 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 132.0
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "91990",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 18,
-          "valor": 396.0
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "91990",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 194.4
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "91990",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 264.0
         },
         {
           "data": "05/05/2026",
