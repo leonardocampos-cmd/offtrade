@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "12/05/2026 10:23",
+  "atualizado_em": "12/05/2026 15:05",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -55917,15 +55917,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 6,
           "valor": 83.4
-        },
-        {
-          "data": "07/05/2026",
-          "codcli": "94777",
-          "cliente": "66.065.508 PATRICK RODRIGUES MIRANDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 11,
-          "valor": 294.8
         },
         {
           "data": "05/05/2026",
