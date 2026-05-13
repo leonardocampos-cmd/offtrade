@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "13/05/2026 17:04",
+  "atualizado_em": "13/05/2026 17:21",
   "data_rota": "13.05",
   "vendedores": [
     {
@@ -198,13 +198,8 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 147.85,
+          "total": 68.25,
           "itens": [
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "qt": 4,
-              "val": 79.6
-            },
             {
               "desc": "4 PACK RED BULL ZERO",
               "qt": 2,
@@ -3535,7 +3530,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 1038.12,
+          "total": 1048.72,
           "itens": [
             {
               "desc": "ICE 51 LIMAO LONG NECK 24X275ML",
@@ -3560,7 +3555,7 @@ const ENTREGAS_DATA = {
             {
               "desc": "GIN ROCKS STRAWBERRY 1000ML",
               "qt": 2,
-              "val": 47.8
+              "val": 58.4
             },
             {
               "desc": "PINATI NUTS ORIGINAL 20X30G",
@@ -3656,6 +3651,66 @@ const ENTREGAS_DATA = {
               "desc": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
               "qt": 1,
               "val": 59.9
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ]
+        },
+        {
+          "numped": "412001235",
+          "numnota": "",
+          "data": "13/05/2026",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Entrega 15/05 8h as 17h",
+          "total": 1359.82,
+          "itens": [
+            {
+              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+              "qt": 6,
+              "val": 623.52
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN MACA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+              "qt": 1,
+              "val": 87.6
             },
             {
               "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
@@ -5459,20 +5514,25 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 1104.78,
+          "total": 928.74,
           "itens": [
             {
-              "desc": "NECTAR LARANJA 12X1000ML",
+              "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+              "qt": 1,
+              "val": 175.2
+            },
+            {
+              "desc": "NECTAR CAJU 12X1000ML",
               "qt": 2,
               "val": 117.36
             },
             {
-              "desc": "NECTAR MANGA 12X1000ML",
-              "qt": 1,
-              "val": 58.68
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 2,
+              "val": 117.36
             },
             {
-              "desc": "NECTAR MARACUJA 12X1000ML",
+              "desc": "NECTAR LARANJA 12X1000ML",
               "qt": 2,
               "val": 117.36
             },
@@ -5495,21 +5555,6 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
               "qt": 1,
               "val": 94.7
-            },
-            {
-              "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-              "qt": 1,
-              "val": 175.2
-            },
-            {
-              "desc": "NECTAR CAJU 12X1000ML",
-              "qt": 2,
-              "val": 117.36
-            },
-            {
-              "desc": "NECTAR GOIABA 12X1000ML",
-              "qt": 2,
-              "val": 117.36
             }
           ]
         },
@@ -5544,13 +5589,8 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 719.56,
+          "total": 490.56,
           "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 10,
-              "val": 229.0
-            },
             {
               "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
               "qt": 12,
@@ -13808,6 +13848,11 @@ const ENTREGAS_DATA = {
           "total": 2535.0,
           "itens": [
             {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
+              "qt": 40,
+              "val": 716.0
+            },
+            {
               "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
               "qt": 40,
               "val": 980.0
@@ -13821,11 +13866,6 @@ const ENTREGAS_DATA = {
               "desc": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
               "qt": 40,
               "val": 580.0
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
-              "qt": 40,
-              "val": 716.0
             }
           ]
         },
@@ -13865,7 +13905,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 2535.0,
+          "total": 2015.9,
           "itens": [
             {
               "desc": "GUARAVITA NATURAL 24X290ML",
@@ -13879,13 +13919,33 @@ const ENTREGAS_DATA = {
             },
             {
               "desc": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
-              "qt": 40,
-              "val": 716.0
+              "qt": 11,
+              "val": 196.9
             },
             {
               "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
               "qt": 40,
               "val": 980.0
+            }
+          ]
+        },
+        {
+          "numped": "156003343",
+          "numnota": "",
+          "data": "13/05/2026",
+          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 519.1,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
+              "qt": 29,
+              "val": 519.1
             }
           ]
         },
@@ -16031,6 +16091,26 @@ const ENTREGAS_DATA = {
           "total": 579.34,
           "itens": [
             {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 3,
+              "val": 98.7
+            },
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 2,
+              "val": 69.8
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 2,
+              "val": 69.8
+            },
+            {
+              "desc": "GIN ROCKS STRAWBERRY 1000ML",
+              "qt": 2,
+              "val": 45.8
+            },
+            {
               "desc": "NECTAR CAJU 12X1000ML",
               "qt": 1,
               "val": 59.88
@@ -16054,26 +16134,6 @@ const ENTREGAS_DATA = {
               "desc": "ESP CASA PERINI BRUT ROSE RUBI ED 750ML",
               "qt": 2,
               "val": 69.8
-            },
-            {
-              "desc": "CONHAQUE DOMECQ 1L",
-              "qt": 3,
-              "val": 98.7
-            },
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 2,
-              "val": 69.8
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 2,
-              "val": 69.8
-            },
-            {
-              "desc": "GIN ROCKS STRAWBERRY 1000ML",
-              "qt": 2,
-              "val": 45.8
             }
           ]
         },
@@ -16163,7 +16223,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "Data da Entrega: 14/05/26",
-          "total": 902.16,
+          "total": 878.76,
           "itens": [
             {
               "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
@@ -16174,11 +16234,6 @@ const ENTREGAS_DATA = {
               "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
               "qt": 12,
               "val": 130.8
-            },
-            {
-              "desc": "PIRASSUNUNGA 51 600 ML",
-              "qt": 6,
-              "val": 23.4
             },
             {
               "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
@@ -16208,7 +16263,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "Data da Entrega: 14/05/26",
-          "total": 437.46,
+          "total": 275.88,
           "itens": [
             {
               "desc": "PIRASSUNUNGA 51 965 ML",
@@ -16219,41 +16274,6 @@ const ENTREGAS_DATA = {
               "desc": "CANTINA DA SERRA 1,5L",
               "qt": 12,
               "val": 113.88
-            },
-            {
-              "desc": "COQUETEL PINK MOON 12X600ML - PET",
-              "qt": 1,
-              "val": 78.3
-            },
-            {
-              "desc": "PIRASSUNUNGA 51 600 ML",
-              "qt": 6,
-              "val": 23.4
-            },
-            {
-              "desc": "CANTINA DA SERRA 750ML",
-              "qt": 12,
-              "val": 59.88
-            }
-          ]
-        },
-        {
-          "numped": "439000141",
-          "numnota": "",
-          "data": "11/05/2026",
-          "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Data de Entrega: 14/05/26",
-          "total": 229.0,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 10,
-              "val": 229.0
             }
           ]
         },
@@ -17566,6 +17586,41 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "155003473",
+          "numnota": "",
+          "data": "13/05/2026",
+          "cliente": "LIBERTY BAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 989.6,
+          "itens": [
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 4,
+              "val": 383.6
+            },
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 3,
+              "val": 236.7
+            },
+            {
+              "desc": "APERITIVO CAMPARI 998ML",
+              "qt": 4,
+              "val": 219.6
+            },
+            {
+              "desc": "APERITIVO APEROL 750 ML",
+              "qt": 3,
+              "val": 149.7
+            }
+          ]
+        },
+        {
           "numped": "155003472",
           "numnota": "",
           "data": "13/05/2026",
@@ -17627,41 +17682,6 @@ const ENTREGAS_DATA = {
               "desc": "MARTINI ROSSO 750 ML",
               "qt": 6,
               "val": 251.4
-            }
-          ]
-        },
-        {
-          "numped": "155003473",
-          "numnota": "",
-          "data": "13/05/2026",
-          "cliente": "LIBERTY BAR LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 989.6,
-          "itens": [
-            {
-              "desc": "GIN TANQUERAY  750 ML",
-              "qt": 4,
-              "val": 383.6
-            },
-            {
-              "desc": "WHISKY J WALKER RED LABEL 1L",
-              "qt": 3,
-              "val": 236.7
-            },
-            {
-              "desc": "APERITIVO CAMPARI 998ML",
-              "qt": 4,
-              "val": 219.6
-            },
-            {
-              "desc": "APERITIVO APEROL 750 ML",
-              "qt": 3,
-              "val": 149.7
             }
           ]
         }
