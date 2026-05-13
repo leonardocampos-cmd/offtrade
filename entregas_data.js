@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "13/05/2026 16:50",
+  "atualizado_em": "13/05/2026 16:55",
   "data_rota": "13.05",
   "vendedores": [
     {
@@ -1824,6 +1824,16 @@ const ENTREGAS_DATA = {
           "total": 7523.52,
           "itens": [
             {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 6,
+              "val": 1197.0
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 6,
+              "val": 1197.0
+            },
+            {
               "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
               "qt": 5,
               "val": 326.4
@@ -1842,16 +1852,6 @@ const ENTREGAS_DATA = {
               "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
               "qt": 1,
               "val": 298.8
-            },
-            {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 6,
-              "val": 1197.0
-            },
-            {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 6,
-              "val": 1197.0
             }
           ]
         }
@@ -16010,6 +16010,16 @@ const ENTREGAS_DATA = {
           "total": 579.34,
           "itens": [
             {
+              "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "GIN ROCKS GREEN APPLE 1000ML",
+              "qt": 2,
+              "val": 45.8
+            },
+            {
               "desc": "ESP CASA PERINI BRUT ROSE RUBI ED 750ML",
               "qt": 2,
               "val": 69.8
@@ -16043,16 +16053,6 @@ const ENTREGAS_DATA = {
               "desc": "NECTAR MARACUJA 12X1000ML",
               "qt": 1,
               "val": 59.88
-            },
-            {
-              "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
-              "qt": 1,
-              "val": 59.88
-            },
-            {
-              "desc": "GIN ROCKS GREEN APPLE 1000ML",
-              "qt": 2,
-              "val": 45.8
             }
           ]
         },
@@ -16359,7 +16359,33 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "419000571",
+          "numnota": "",
+          "data": "13/05/2026",
+          "cliente": "47.093.098 MARCIA CRISTINA MENDONCA DO NASCIMENTO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 172.7,
+          "itens": [
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 1,
+              "val": 29.9
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 12,
+              "val": 142.8
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "419000567",
