@@ -30,7 +30,9 @@
       "Bash(ls:*)",
       "Bash(Get-ChildItem *)",
       "Bash(/c/PythonEnvs/RoboWinthor/.venv/Scripts/python)",
-      "PowerShell(\\(Get-Content \"G:\\\\Meu Drive\\\\offtrade\\\\offtrade.log\" -Encoding UTF8 | Select-Object -Last 40\\) -join \"`n\")"
+      "PowerShell(\\(Get-Content \"G:\\\\Meu Drive\\\\offtrade\\\\offtrade.log\" -Encoding UTF8 | Select-Object -Last 40\\) -join \"`n\")",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\Activate.ps1\"; python --version)",
+      "PowerShell(Get-ChildItem \"G:\\\\Meu Drive\\\\offtrade\" -Exclude \".venv\" | Where-Object { $_.Name -ne \".venv\" } | Select-Object Name, Extension | Format-Table)"
     ]
   }
 }

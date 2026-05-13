@@ -68338,3 +68338,145 @@ Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CO
 [ERRO] Falha na execução:
 [13/05/2026 11:35:58,69] ERRO (codigo 1
 ---------------------------------------- 
+[13/05/2026 17:43:17,42] Iniciando... 
+[master ab34913] Atualiza metas_data.js + vendas_data.js - 13/05/2026
+ 2 files changed, 3058 insertions(+), 2739 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   05e30b5..ab34913  master -> master
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 27, in main
+    import entregas
+  File "g:\Meu Drive\offtrade\entregas.py", line 189, in <module>
+    print(f"OK — {len(vendedores_out)} vendedores, rota do dia {hoje_str} \u2192 {out}")
+  File "C:\Users\LeonardoCampos\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 38: character maps to <undefined>
+
+==================================================
+  OFFTRADE - 13/05/2026 17:43
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+Erro na vendas_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_CRC (Tentativa 2/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+Clientes nao positivados em 05/2026: 4041
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: 13-05 | 374 linhas
+
+[ERRO] Falha na execução:
+[13/05/2026 17:44:48,75] ERRO (codigo 1
+---------------------------------------- 
+[13/05/2026 18:00:00,65] Iniciando... 
+[master 548cbe8] Atualiza metas_data.js + vendas_data.js - 13/05/2026
+ 2 files changed, 1500 insertions(+), 1500 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   ab34913..548cbe8  master -> master
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 27, in main
+    import entregas
+  File "g:\Meu Drive\offtrade\entregas.py", line 189, in <module>
+    print(f"OK — {len(vendedores_out)} vendedores, rota do dia {hoje_str} \u2192 {out}")
+  File "C:\Users\LeonardoCampos\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 38: character maps to <undefined>
+
+==================================================
+  OFFTRADE - 13/05/2026 18:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+Clientes nao positivados em 05/2026: 4042
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 2/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 3/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: 13-05 | 374 linhas
+
+[ERRO] Falha na execução:
+[13/05/2026 18:02:30,41] ERRO (codigo 1
+---------------------------------------- 
