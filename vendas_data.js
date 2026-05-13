@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/05/2026 10:01",
+  "atualizado_em": "13/05/2026 11:32",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -86532,15 +86532,6 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 12,
           "valor": 294.0
-        },
-        {
-          "data": "21/04/2026",
-          "codcli": "71425",
-          "cliente": "LUCELY COSTA DOS SANTOS 03528470771",
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "fantasia": "DIAGEO",
-          "qt": 5,
-          "valor": 499.5
         },
         {
           "data": "27/04/2026",
