@@ -1,23 +1,8 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "13/05/2026 16:53",
+  "atualizado_em": "13/05/2026 17:03",
   "meses": [
-    "Ago/27",
-    "Jul/27",
-    "Jun/27",
-    "Mai/27",
-    "Abr/27",
-    "Mar/27",
-    "Fev/27",
-    "Jan/27",
-    "Dez/26",
-    "Nov/26",
-    "Out/26",
-    "Set/26",
-    "Ago/26",
-    "Jul/26",
-    "Jun/26",
     "Mai/26",
     "Abr/26",
     "Mar/26"
@@ -1008,14 +993,14 @@ const METAS_DATA = {
             "realizado": 26
           }
         },
-        "Jun/26": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 130000.0,
-            "realizado": 0.0
+            "realizado": 42940.77
           },
           "fat_castas": {
             "meta": 8000.0,
-            "realizado": 0.0
+            "realizado": 4400.9
           },
           "fat_domecq_passport": {
             "meta": 0.0,
@@ -1027,15 +1012,15 @@ const METAS_DATA = {
           },
           "fat_pinatti": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 124.72
           },
           "fat_moving": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 12019.58
           },
           "pos_tt": {
             "meta": 100,
-            "realizado": 0
+            "realizado": 50
           },
           "pos_hob_azeite": {
             "meta": 3,
@@ -1051,7 +1036,7 @@ const METAS_DATA = {
           },
           "pos_tatuzinho": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 29
           },
           "pos_redbull": {
             "meta": 0,
@@ -1059,15 +1044,15 @@ const METAS_DATA = {
           },
           "pos_pinatti": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 2
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 85
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 17
           }
         }
       },
@@ -5820,14 +5805,14 @@ const METAS_DATA = {
             "realizado": 5
           }
         },
-        "Jul/26": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 130000.0,
-            "realizado": 0.0
+            "realizado": 15372.32
           },
           "fat_castas": {
             "meta": 8000.0,
-            "realizado": 0.0
+            "realizado": 3002.58
           },
           "fat_domecq_passport": {
             "meta": 0.0,
@@ -5835,23 +5820,23 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 500.0,
-            "realizado": 0.0
+            "realizado": 276.0
           },
           "fat_pinatti": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 764.35
           },
           "fat_moving": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 4460.4
           },
           "pos_tt": {
             "meta": 65,
-            "realizado": 0
+            "realizado": 20
           },
           "pos_hob_azeite": {
             "meta": 3,
-            "realizado": 0
+            "realizado": 1
           },
           "pos_reckit": {
             "meta": 3,
@@ -5863,23 +5848,23 @@ const METAS_DATA = {
           },
           "pos_tatuzinho": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 5
           },
           "pos_redbull": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 5
           },
           "pos_pinatti": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 4
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 5
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 1
           }
         }
       },
@@ -8407,14 +8392,14 @@ const METAS_DATA = {
             "realizado": 15
           }
         },
-        "Ago/26": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 200000.0,
-            "realizado": 0.0
+            "realizado": 60995.29
           },
           "fat_castas": {
             "meta": 10000.0,
-            "realizado": 0.0
+            "realizado": 2751.56
           },
           "fat_domecq_passport": {
             "meta": 0.0,
@@ -8422,7 +8407,7 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 1500.0,
-            "realizado": 0.0
+            "realizado": 298.8
           },
           "fat_pinatti": {
             "meta": 0,
@@ -8430,31 +8415,31 @@ const METAS_DATA = {
           },
           "fat_moving": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 2302.32
           },
           "pos_tt": {
             "meta": 50,
-            "realizado": 0
+            "realizado": 24
           },
           "pos_hob_azeite": {
             "meta": 6,
-            "realizado": 0
+            "realizado": 1
           },
           "pos_reckit": {
             "meta": 7,
-            "realizado": 0
+            "realizado": 10
           },
           "pos_crusoe": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 2
           },
           "pos_tatuzinho": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 4
           },
           "pos_redbull": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 1
           },
           "pos_pinatti": {
             "meta": 0,
@@ -8462,11 +8447,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 15
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 3
           }
         }
       },
@@ -11407,10 +11392,10 @@ const METAS_DATA = {
             "realizado": 6
           }
         },
-        "Set/26": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 500000.0,
-            "realizado": 0.0
+            "realizado": 100029.01
           },
           "fat_castas": {
             "meta": 10000.0,
@@ -11434,7 +11419,7 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 10,
-            "realizado": 0
+            "realizado": 4
           },
           "pos_hob_azeite": {
             "meta": 3,
@@ -11446,7 +11431,7 @@ const METAS_DATA = {
           },
           "pos_crusoe": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 1
           },
           "pos_tatuzinho": {
             "meta": 0,
@@ -11462,7 +11447,7 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 0
           },
           "pos_pernod": {
             "meta": 0,
@@ -11963,10 +11948,10 @@ const METAS_DATA = {
             "realizado": 6
           }
         },
-        "Out/26": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 100000.0,
-            "realizado": 0.0
+            "realizado": 17978.98
           },
           "fat_castas": {
             "meta": 4000.0,
@@ -11990,7 +11975,7 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 1,
-            "realizado": 0
+            "realizado": 5
           },
           "pos_hob_azeite": {
             "meta": 0,
@@ -12018,7 +12003,7 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 0
           },
           "pos_pernod": {
             "meta": 0,
@@ -12263,22 +12248,22 @@ const METAS_DATA = {
             "realizado": 9
           }
         },
-        "Nov/26": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 150000.0,
-            "realizado": 0.0
+            "realizado": 19825.53
           },
           "fat_castas": {
             "meta": 10000.0,
-            "realizado": 0.0
+            "realizado": 424.4
           },
           "fat_domecq_passport": {
             "meta": 0.0,
-            "realizado": 0.0
+            "realizado": 154.5
           },
           "fat_hob_azeite": {
             "meta": 1500.0,
-            "realizado": 0.0
+            "realizado": 314.7
           },
           "fat_pinatti": {
             "meta": 0,
@@ -12290,11 +12275,11 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 50,
-            "realizado": 0
+            "realizado": 17
           },
           "pos_hob_azeite": {
             "meta": 4,
-            "realizado": 0
+            "realizado": 2
           },
           "pos_reckit": {
             "meta": 7,
@@ -12306,11 +12291,11 @@ const METAS_DATA = {
           },
           "pos_tatuzinho": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 7
           },
           "pos_redbull": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 3
           },
           "pos_pinatti": {
             "meta": 0,
@@ -12318,11 +12303,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 25
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 5
           }
         }
       },
@@ -14160,10 +14145,10 @@ const METAS_DATA = {
             "realizado": 16
           }
         },
-        "Dez/26": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 200000.0,
-            "realizado": 0.0
+            "realizado": 49231.77
           },
           "fat_castas": {
             "meta": 10000.0,
@@ -14175,7 +14160,7 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 1500.0,
-            "realizado": 0.0
+            "realizado": 997.5
           },
           "fat_pinatti": {
             "meta": 0,
@@ -14183,19 +14168,19 @@ const METAS_DATA = {
           },
           "fat_moving": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 189.4
           },
           "pos_tt": {
             "meta": 50,
-            "realizado": 0
+            "realizado": 13
           },
           "pos_hob_azeite": {
             "meta": 4,
-            "realizado": 0
+            "realizado": 2
           },
           "pos_reckit": {
             "meta": 7,
-            "realizado": 0
+            "realizado": 5
           },
           "pos_crusoe": {
             "meta": 0,
@@ -14203,11 +14188,11 @@ const METAS_DATA = {
           },
           "pos_tatuzinho": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 5
           },
           "pos_redbull": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 1
           },
           "pos_pinatti": {
             "meta": 0,
@@ -14215,11 +14200,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 15
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 3
           }
         }
       },
@@ -16476,14 +16461,14 @@ const METAS_DATA = {
             "realizado": 15
           }
         },
-        "Jan/27": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 300000.0,
-            "realizado": 0.0
+            "realizado": 76401.79
           },
           "fat_castas": {
             "meta": 10000.0,
-            "realizado": 0.0
+            "realizado": 3982.68
           },
           "fat_domecq_passport": {
             "meta": 0.0,
@@ -16499,11 +16484,11 @@ const METAS_DATA = {
           },
           "fat_moving": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 3541.8
           },
           "pos_tt": {
             "meta": 35,
-            "realizado": 0
+            "realizado": 39
           },
           "pos_hob_azeite": {
             "meta": 3,
@@ -16519,7 +16504,7 @@ const METAS_DATA = {
           },
           "pos_tatuzinho": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 7
           },
           "pos_redbull": {
             "meta": 0,
@@ -16531,11 +16516,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 80
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 16
           }
         }
       },
@@ -17387,10 +17372,10 @@ const METAS_DATA = {
             "realizado": 8
           }
         },
-        "Fev/27": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 650000.0,
-            "realizado": 0.0
+            "realizado": 23472.56
           },
           "fat_castas": {
             "meta": 12000.0,
@@ -17410,11 +17395,11 @@ const METAS_DATA = {
           },
           "fat_moving": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 350.4
           },
           "pos_tt": {
             "meta": 43,
-            "realizado": 0
+            "realizado": 5
           },
           "pos_hob_azeite": {
             "meta": 4,
@@ -17422,7 +17407,7 @@ const METAS_DATA = {
           },
           "pos_reckit": {
             "meta": 7,
-            "realizado": 0
+            "realizado": 1
           },
           "pos_crusoe": {
             "meta": 0,
@@ -17430,7 +17415,7 @@ const METAS_DATA = {
           },
           "pos_tatuzinho": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 1
           },
           "pos_redbull": {
             "meta": 0,
@@ -17442,11 +17427,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 5
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 1
           }
         }
       },
@@ -18607,10 +18592,10 @@ const METAS_DATA = {
             "realizado": 11
           }
         },
-        "Mar/27": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 150000.0,
-            "realizado": 0.0
+            "realizado": 10770.39
           },
           "fat_castas": {
             "meta": 12000.0,
@@ -18634,7 +18619,7 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 30,
-            "realizado": 0
+            "realizado": 6
           },
           "pos_hob_azeite": {
             "meta": 3,
@@ -18662,11 +18647,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 5
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 1
           }
         }
       },
@@ -19656,10 +19641,10 @@ const METAS_DATA = {
             "realizado": 0
           }
         },
-        "Abr/27": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 100000.0,
-            "realizado": 0.0
+            "realizado": 8879.4
           },
           "fat_castas": {
             "meta": 74000.0,
@@ -19679,11 +19664,11 @@ const METAS_DATA = {
           },
           "fat_moving": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 8879.4
           },
           "pos_tt": {
             "meta": 1,
-            "realizado": 0
+            "realizado": 1
           },
           "pos_hob_azeite": {
             "meta": 3,
@@ -19699,7 +19684,7 @@ const METAS_DATA = {
           },
           "pos_tatuzinho": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 1
           },
           "pos_redbull": {
             "meta": 0,
@@ -19711,7 +19696,7 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 0
           },
           "pos_pernod": {
             "meta": 0,
@@ -19894,10 +19879,10 @@ const METAS_DATA = {
             "realizado": 5
           }
         },
-        "Mai/27": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 60000.0,
-            "realizado": 0.0
+            "realizado": 15311.29
           },
           "fat_castas": {
             "meta": 4000.0,
@@ -19905,7 +19890,7 @@ const METAS_DATA = {
           },
           "fat_domecq_passport": {
             "meta": 0.0,
-            "realizado": 0.0
+            "realizado": 169.5
           },
           "fat_hob_azeite": {
             "meta": 500.0,
@@ -19913,15 +19898,15 @@ const METAS_DATA = {
           },
           "fat_pinatti": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 383.2
           },
           "fat_moving": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 2608.2
           },
           "pos_tt": {
             "meta": 70,
-            "realizado": 0
+            "realizado": 30
           },
           "pos_hob_azeite": {
             "meta": 4,
@@ -19929,7 +19914,7 @@ const METAS_DATA = {
           },
           "pos_reckit": {
             "meta": 22,
-            "realizado": 0
+            "realizado": 8
           },
           "pos_crusoe": {
             "meta": 0,
@@ -19937,23 +19922,23 @@ const METAS_DATA = {
           },
           "pos_tatuzinho": {
             "meta": 15,
-            "realizado": 0
+            "realizado": 9
           },
           "pos_redbull": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 16
           },
           "pos_pinatti": {
             "meta": 12,
-            "realizado": 0
+            "realizado": 7
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 15
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 3
           }
         }
       },
@@ -23614,14 +23599,14 @@ const METAS_DATA = {
             "realizado": 19
           }
         },
-        "Jun/27": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 80000.0,
-            "realizado": 0.0
+            "realizado": 39254.12
           },
           "fat_castas": {
             "meta": 4000.0,
-            "realizado": 0.0
+            "realizado": 1506.0
           },
           "fat_domecq_passport": {
             "meta": 0.0,
@@ -23629,51 +23614,51 @@ const METAS_DATA = {
           },
           "fat_hob_azeite": {
             "meta": 500.0,
-            "realizado": 0.0
+            "realizado": 621.7
           },
           "fat_pinatti": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 141.66
           },
           "fat_moving": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 378.8
           },
           "pos_tt": {
             "meta": 70,
-            "realizado": 0
+            "realizado": 36
           },
           "pos_hob_azeite": {
             "meta": 4,
-            "realizado": 0
+            "realizado": 2
           },
           "pos_reckit": {
             "meta": 22,
-            "realizado": 0
+            "realizado": 11
           },
           "pos_crusoe": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 6
           },
           "pos_tatuzinho": {
             "meta": 18,
-            "realizado": 0
+            "realizado": 3
           },
           "pos_redbull": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 2
           },
           "pos_pinatti": {
             "meta": 12,
-            "realizado": 0
+            "realizado": 2
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 30
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 6
           }
         }
       },
@@ -26021,14 +26006,14 @@ const METAS_DATA = {
             "realizado": 12
           }
         },
-        "Jul/27": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 60000.0,
-            "realizado": 0.0
+            "realizado": 13581.23
           },
           "fat_castas": {
             "meta": 4000.0,
-            "realizado": 0.0
+            "realizado": 550.2
           },
           "fat_domecq_passport": {
             "meta": 0.0,
@@ -26040,7 +26025,7 @@ const METAS_DATA = {
           },
           "fat_pinatti": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 537.9
           },
           "fat_moving": {
             "meta": 0,
@@ -26048,7 +26033,7 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 50,
-            "realizado": 0
+            "realizado": 11
           },
           "pos_hob_azeite": {
             "meta": 4,
@@ -26056,15 +26041,15 @@ const METAS_DATA = {
           },
           "pos_reckit": {
             "meta": 14,
-            "realizado": 0
+            "realizado": 4
           },
           "pos_crusoe": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 1
           },
           "pos_tatuzinho": {
             "meta": 12,
-            "realizado": 0
+            "realizado": 2
           },
           "pos_redbull": {
             "meta": 0,
@@ -26072,15 +26057,15 @@ const METAS_DATA = {
           },
           "pos_pinatti": {
             "meta": 12,
-            "realizado": 0
+            "realizado": 5
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 5
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 1
           }
         }
       },
@@ -27028,10 +27013,10 @@ const METAS_DATA = {
             "realizado": 0
           }
         },
-        "Ago/27": {
+        "Mai/26": {
           "fat_tt": {
             "meta": 60000.0,
-            "realizado": 0.0
+            "realizado": 11713.12
           },
           "fat_castas": {
             "meta": 4000.0,
@@ -27047,15 +27032,15 @@ const METAS_DATA = {
           },
           "fat_pinatti": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 111.1
           },
           "fat_moving": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 9124.4
           },
           "pos_tt": {
             "meta": 50,
-            "realizado": 0
+            "realizado": 7
           },
           "pos_hob_azeite": {
             "meta": 4,
@@ -27071,19 +27056,19 @@ const METAS_DATA = {
           },
           "pos_tatuzinho": {
             "meta": 18,
-            "realizado": 0
+            "realizado": 3
           },
           "pos_redbull": {
             "meta": 20,
-            "realizado": 0
+            "realizado": 4
           },
           "pos_pinatti": {
             "meta": 12,
-            "realizado": 0
+            "realizado": 2
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 0.0
+            "realizado": 0
           },
           "pos_pernod": {
             "meta": 0,
