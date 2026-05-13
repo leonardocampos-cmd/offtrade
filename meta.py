@@ -89,6 +89,7 @@ tabela_vendas = pd.concat([
 arquivo = pd.concat([
     pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - MARÇO 2026.xlsx"),
     pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - Abril 2026.xlsx"),
+    pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - MAIO 2026.xlsx"),
 ], ignore_index=True)
 tabela_vendas['FATURAMENTO'] = pd.to_numeric(tabela_vendas['FATURAMENTO'], errors='coerce')
 tabela_vendas.drop(columns=['CODPROD', 'CODFORNEC', 'NUMNOTA', 'CODOPER', 'PUNIT',
