@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/05/2026 15:29",
+  "atualizado_em": "13/05/2026 16:49",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -140398,7 +140398,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "RC SARDINHA EM OLEO 50X125G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 3,
@@ -140407,7 +140407,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 3,
@@ -140416,7 +140416,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
           "fantasia": "RECKITT",
           "qt": 5,
@@ -140425,7 +140425,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
           "fantasia": "RECKITT",
           "qt": 5,
@@ -140434,7 +140434,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
           "fantasia": "RECKITT",
           "qt": 30,
@@ -140443,7 +140443,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "RC ATUM SOLIDO NATURAL 24X170G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
@@ -140452,7 +140452,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "VEJA PESADA X14 PROMO 12X1L",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -140461,7 +140461,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "VEJA PESADA X14 PROMO 24X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -140470,7 +140470,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
           "fantasia": "RECKITT",
           "qt": 10,
@@ -140479,7 +140479,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "VANISH LIQUIDO PINK GARRAFA 12X500ML",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -140488,7 +140488,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "VANISH LIQUIDO WHITE GARAFFA 12X500ML",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -140497,7 +140497,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "VANISH LIQUIDO PINK REFIL 12X500ML",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -140506,7 +140506,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "VEJA PERF CON ALECRIM 12X100ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -140515,7 +140515,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "91575",
-          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
           "produto": "VEJA PERF CON LAVANDA 12X100ML",
           "fantasia": "RECKITT",
           "qt": 1,
