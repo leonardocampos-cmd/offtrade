@@ -1602,6 +1602,30 @@ function _buildCards(vendedores, mes) {
       </div>`;
   }).join('');
 }
+
+function renderAll(vendedores, mes) {
+  mes = mes || _getMes();
+  _mesSel = mes;
+
+  const mesOpts = (METAS_DATA.meses || []).map(mo =>
+    `<option value="${mo}" ${mo === mes ? 'selected' : ''}>${mo}</option>`
+  ).join('');
+
+  document.getElementById('header-sub').textContent =
+    `${mes}  ·  Atualizado ${METAS_DATA.atualizado_em}`;
+
+  document.getElementById('header-actions').innerHTML =
+    `<select class="mes-select" onchange="_mesSel=this.value; document.getElementById('campanha-wrap').innerHTML=buildCampanha(this.value); document.getElementById('cards-grid').innerHTML=_buildCards(METAS_DATA.vendedores, this.value); document.getElementById('header-sub').textContent=this.value+' · Atualizado ${METAS_DATA.atualizado_em}'">${mesOpts}</select>
+     <a class="btn btn-limite" href="https://offtrade.duckdns.org/" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
+
+  document.getElementById('app').innerHTML = `
+    <div id="campanha-wrap">${buildCampanha(mes)}</div>
+    <div class="search-wrap">
+      <input class="search-input" type="text" placeholder="Buscar vendedor..."
+        oninput="filterCards(this.value)">
+    </div>
+    <div class="cards-grid" id="cards-grid">${_buildCards(METAS_DATA.vendedores, mes)}</div>`;
+}
 function filterCards(q) {
   const q2 = q.toLowerCase().trim();
   document.querySelectorAll('.vendor-card').forEach(card => {
