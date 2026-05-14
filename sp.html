@@ -562,9 +562,12 @@ function _atualizarTabelaSP(nome) {
       return new Date(yb,mb-1,db) - new Date(ya,ma-1,da);
     });
 
-  const fat   = lista.reduce((s, r) => s + r.valor, 0);
-  const qt    = lista.reduce((s, r) => s + r.qt,    0);
-  const nCli  = new Set(lista.map(r => r.codcli || r.cliente)).size;
+  const fat       = lista.reduce((s, r) => s + r.valor, 0);
+  const qt        = lista.reduce((s, r) => s + r.qt,    0);
+  const nCli      = new Set(lista.map(r => r.codcli || r.cliente)).size;
+  const pernod    = lista.filter(r => r.fantasia && r.fantasia.toUpperCase().includes('PERNOD'));
+  const pPares    = new Set(pernod.map(r => `${r.codcli}|${r.produto}`)).size;
+  const pPDVs     = new Set(pernod.map(r => r.codcli)).size;
 
   document.getElementById('vendas-resumo').innerHTML = `
     <div class="vendas-resumo-box">
@@ -578,6 +581,10 @@ function _atualizarTabelaSP(nome) {
     <div class="vendas-resumo-box">
       <div class="vendas-resumo-label">Clientes</div>
       <div class="vendas-resumo-val">${nCli}</div>
+    </div>
+    <div class="vendas-resumo-box">
+      <div class="vendas-resumo-label">TDP PERNOD</div>
+      <div class="vendas-resumo-val" style="font-size:0.95rem">${pPares > 0 ? pPares + ' SKUs · ' + pPDVs + ' PDVs' : '—'}</div>
     </div>`;
 
   document.getElementById('vendas-tabela').innerHTML = buildVendasTable(lista);
