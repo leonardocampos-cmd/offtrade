@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "14/05/2026 16:01",
+  "atualizado_em": "14/05/2026 16:58",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -28291,6 +28291,51 @@ const VENDAS_SP_DATA = {
           "valor": 9702.0
         },
         {
+          "data": "14/05/2026",
+          "codcli": "33550",
+          "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1554.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "33550",
+          "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 2508.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "33550",
+          "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 240,
+          "valor": 14376.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "33550",
+          "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 15,
+          "valor": 517.5
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "33550",
+          "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 360,
+          "valor": 11844.0
+        },
+        {
           "data": "04/05/2026",
           "codcli": "36288",
           "cliente": "BEATRIZ CAETANO AMORIM DA SILVA 32018648",
@@ -28388,6 +28433,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 60,
           "valor": 1233.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "38619",
+          "cliente": "ADEGA FERNANDES JARAGUA LTDA",
+          "produto": "CACHACA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 144,
+          "valor": 3009.6
         },
         {
           "data": "07/05/2026",
@@ -28849,6 +28903,24 @@ const VENDAS_SP_DATA = {
           "valor": 752.4
         },
         {
+          "data": "14/05/2026",
+          "codcli": "46652",
+          "cliente": "ADEGA DO BADRA LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 250.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "46652",
+          "cliente": "ADEGA DO BADRA LTDA",
+          "produto": "CACHACA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 250.8
+        },
+        {
           "data": "04/05/2026",
           "codcli": "46791",
           "cliente": "EMPORIO SALVADOR COMERCIAL E DISTRIBUIDORA LTDA",
@@ -29126,6 +29198,51 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 514.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "46025",
+          "cliente": "CAMILA DE HOLANDA PLACIDO COMERCIO DE BEBIDAS",
+          "produto": "VODKA ABSOLUT 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1293.6
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "46831",
+          "cliente": "CLEITON TRANSPORTE E DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 778.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "46831",
+          "cliente": "CLEITON TRANSPORTE E DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 634.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "46831",
+          "cliente": "CLEITON TRANSPORTE E DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 623.4
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "46831",
+          "cliente": "CLEITON TRANSPORTE E DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 623.4
         },
         {
           "data": "06/05/2026",
@@ -29765,6 +29882,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1974.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "50347",
+          "cliente": "BRAZILLIAN STEAKCHURRASCO RESTAURANTE LTDA",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 3479.4
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "50347",
+          "cliente": "BRAZILLIAN STEAKCHURRASCO RESTAURANTE LTDA",
+          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 6,
+          "valor": 3988.98
         },
         {
           "data": "06/05/2026",
@@ -33683,6 +33818,60 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 240,
           "valor": 23736.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "49491",
+          "cliente": "SACOLAO HIGIENOPOLIS LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1736.88
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "49491",
+          "cliente": "SACOLAO HIGIENOPOLIS LTDA",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 1014.94
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "49491",
+          "cliente": "SACOLAO HIGIENOPOLIS LTDA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 1116.35
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "49492",
+          "cliente": "SACOLAO PERDIZES LTDA",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 1014.94
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "49492",
+          "cliente": "SACOLAO PERDIZES LTDA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 1116.35
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "49492",
+          "cliente": "SACOLAO PERDIZES LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 1042.13
         },
         {
           "data": "07/05/2026",
@@ -53150,6 +53339,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 3,
           "valor": 100.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "50353",
+          "cliente": "COMERCIO DE PRODUTOS ALIMENTICIOS FREGNI LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 296.7
         }
       ]
     },
