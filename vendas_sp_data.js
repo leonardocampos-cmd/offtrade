@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "14/05/2026 09:21",
+  "atualizado_em": "14/05/2026 10:23",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -732,132 +732,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 240,
           "valor": 13176.0
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "WHISKY GLENLIVET 18 ANOS 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 36,
-          "valor": 20804.4
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 5754.0
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "VODKA WYBOROWA 750ML",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 2874.0
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "VODKA ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 48,
-          "valor": 955.2
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "VODKA GREY GOOSE LORANGE 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1246.8
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1246.8
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "VODKA BELVEDERE SMOGORY 700 ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 2266.32
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "VODKA BELVEDERE BARTEZEK 700 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 1134.3
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "PERNOD",
-          "qt": 48,
-          "valor": 2664.0
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "VODKA ABSOLUT ELYX 1750ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 1979.4
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "MARTINI EXTRA DRY 750 ML",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 149.5
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "TEQUILA DON JULIO1942 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 14836.8
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "LICOR 43 DIEGO ZAMORA CHOCOLATE 700ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 3882.72
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 1674.0
         },
         {
           "data": "19/01/2026",
@@ -7689,6 +7563,132 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 48,
           "valor": 4747.2
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "WHISKY GLENLIVET 18 ANOS 750 ML",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 20804.4
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "WHISKY BALLANTINES 10YO 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 5754.0
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "VODKA WYBOROWA 750ML",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 2874.0
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 48,
+          "valor": 955.2
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "VODKA GREY GOOSE LORANGE 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1246.8
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1246.8
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "VODKA BELVEDERE SMOGORY 700 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 2266.32
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "VODKA BELVEDERE BARTEZEK 700 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 1134.3
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "fantasia": "PERNOD",
+          "qt": 48,
+          "valor": 2664.0
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "VODKA ABSOLUT ELYX 1750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 1979.4
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 149.5
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "TEQUILA DON JULIO1942 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 14836.8
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA CHOCOLATE 700ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 3882.72
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1674.0
         }
       ],
       "Fev/26": [
@@ -14742,42 +14742,6 @@ const VENDAS_SP_DATA = {
           "valor": 6270.0
         },
         {
-          "data": "13/03/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "WHISKY LAPHROAIG 10YO 750 ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 6,
-          "valor": 2434.68
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 1674.0
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "CHAMP PERRIER JOUET BLASON ROSE 750ML",
-          "fantasia": "PERNOD",
-          "qt": 53,
-          "valor": 20881.47
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "CHANDON GARDEN SPRITZ 750 ML",
-          "fantasia": "",
-          "qt": 120,
-          "valor": 7905.6
-        },
-        {
           "data": "26/03/2026",
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
@@ -21679,6 +21643,42 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "WHISKY LAPHROAIG 10YO 750 ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 6,
+          "valor": 2434.68
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1674.0
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "CHAMP PERRIER JOUET BLASON ROSE 750ML",
+          "fantasia": "PERNOD",
+          "qt": 53,
+          "valor": 20881.47
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "CHANDON GARDEN SPRITZ 750 ML",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 7905.6
         },
         {
           "data": "13/03/2026",
@@ -32277,24 +32277,6 @@ const VENDAS_SP_DATA = {
           "valor": 970.2
         },
         {
-          "data": "10/03/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "MARTINI BIANCO 750 ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 1789.2
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "MARTINI EXTRA DRY 750 ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 1848.0
-        },
-        {
           "data": "31/03/2026",
           "codcli": "23790",
           "cliente": "FAROFA CARIOCA BAR E RESTAURANTE LTDA",
@@ -33031,6 +33013,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1365.6
+        },
+        {
+          "data": "10/03/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1789.2
+        },
+        {
+          "data": "10/03/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1848.0
         }
       ],
       "Jan/26": [
@@ -37941,15 +37941,6 @@ const VENDAS_SP_DATA = {
           "valor": 39540.0
         },
         {
-          "data": "29/04/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "APERITIVO LUCIA 750ML",
-          "fantasia": "",
-          "qt": 480,
-          "valor": 29328.0
-        },
-        {
           "data": "10/04/2026",
           "codcli": "26977",
           "cliente": "MINI MERCADO HORTISABOR LTDA",
@@ -38614,6 +38605,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 653.4
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "",
+          "qt": 480,
+          "valor": 29328.0
         }
       ]
     },
@@ -39476,15 +39476,6 @@ const VENDAS_SP_DATA = {
           "valor": 1940.4
         },
         {
-          "data": "29/04/2026",
-          "codcli": "23329",
-          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
-          "produto": "APERITIVO LUCIA 750ML",
-          "fantasia": "",
-          "qt": 1600,
-          "valor": 97760.0
-        },
-        {
           "data": "10/04/2026",
           "codcli": "32446",
           "cliente": "COMERCIO DE BEBIDAS MARQUES DOURADO LTDA",
@@ -39519,6 +39510,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 6,
           "valor": 3474.0
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "",
+          "qt": 1600,
+          "valor": 97760.0
         }
       ],
       "Mai/26": [
@@ -46242,15 +46242,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 10,
           "valor": 329.0
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "49542",
-          "cliente": "ADAO NOE BISPO DE SOUZA",
-          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 1469.4
         }
       ],
       "Abr/26": [
@@ -49672,25 +49663,7 @@ const VENDAS_SP_DATA = {
           "valor": 621.6
         },
         {
-          "data": "12/05/2026",
-          "codcli": "40447",
-          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 180,
-          "valor": 11322.0
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "40447",
-          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-          "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 123.24
-        },
-        {
-          "data": "12/05/2026",
+          "data": "14/05/2026",
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
@@ -49699,7 +49672,25 @@ const VENDAS_SP_DATA = {
           "valor": 1864.8
         },
         {
-          "data": "12/05/2026",
+          "data": "14/05/2026",
+          "codcli": "40447",
+          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 180,
+          "valor": 11322.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "40447",
+          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 123.24
+        },
+        {
+          "data": "14/05/2026",
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "LICOR 43 DIEGO ZAMORA 700ML",
@@ -49708,7 +49699,7 @@ const VENDAS_SP_DATA = {
           "valor": 701.4
         },
         {
-          "data": "12/05/2026",
+          "data": "14/05/2026",
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "MARTINI ROSATO 750 ML",
@@ -49717,7 +49708,7 @@ const VENDAS_SP_DATA = {
           "valor": 676.56
         },
         {
-          "data": "12/05/2026",
+          "data": "14/05/2026",
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
@@ -49726,22 +49717,13 @@ const VENDAS_SP_DATA = {
           "valor": 1940.4
         },
         {
-          "data": "12/05/2026",
+          "data": "14/05/2026",
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
           "fantasia": "PERNOD",
           "qt": 12,
-          "valor": 246.0
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "40447",
-          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-          "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 501.6
+          "valor": 211.95
         },
         {
           "data": "12/05/2026",
@@ -51171,15 +51153,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 18,
           "valor": 1132.2
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "50299",
-          "cliente": "SHOPPING FARTURA PAINEIRAS COMERCIO DE HORTIFRUTI LTDA",
-          "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 754.8
         },
         {
           "data": "13/05/2026",
