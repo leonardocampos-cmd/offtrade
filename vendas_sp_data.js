@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "14/05/2026 14:51",
+  "atualizado_em": "14/05/2026 15:32",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -51455,6 +51455,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 16,
           "valor": 3040.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "CHAMP PERRIER JOUET GRAN BRUT 750ML",
+          "fantasia": "PERNOD",
+          "qt": 300,
+          "valor": 74700.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
+          "fantasia": "PERNOD",
+          "qt": 30,
+          "valor": 11970.0
         }
       ]
     },
