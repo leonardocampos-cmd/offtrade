@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "14/05/2026 16:58",
+  "atualizado_em": "14/05/2026 18:08",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -27905,6 +27905,15 @@ const VENDAS_SP_DATA = {
         },
         {
           "data": "14/05/2026",
+          "codcli": "23019",
+          "cliente": "MUNDO MIX MERCADO ATACADISTA DE BEBIDAS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "",
+          "qt": 600,
+          "valor": 12324.0
+        },
+        {
+          "data": "14/05/2026",
           "codcli": "25439",
           "cliente": "DISTRIBUIDORA SANTO EXPEDITO LTDA",
           "produto": "RUM BACARDI GOLD 980ML",
@@ -28109,6 +28118,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 173.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "26783",
+          "cliente": "MERCADINHO BOTEKINHAS LTDA",
+          "produto": "WHISKY JACK DANIELS 375 ML - DEST",
+          "fantasia": "",
+          "qt": 480,
+          "valor": 21561.6
         },
         {
           "data": "08/05/2026",
@@ -28334,6 +28352,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 360,
           "valor": 11844.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "34452",
+          "cliente": "NEW DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1557.6
         },
         {
           "data": "04/05/2026",
@@ -30224,6 +30251,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 36,
           "valor": 3560.4
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "31179",
+          "cliente": "COMERCIO DE BEBIDAS FORTALEZA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 3108.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "30260",
+          "cliente": "COMERCIAL CRESCER LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 144,
+          "valor": 3729.6
         },
         {
           "data": "04/05/2026",
@@ -39930,6 +39975,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 60,
           "valor": 1488.6
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "48007",
+          "cliente": "ANDORINHA SUPERMERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 1077.0
         },
         {
           "data": "11/05/2026",
