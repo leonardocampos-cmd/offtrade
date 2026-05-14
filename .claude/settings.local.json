@@ -40,7 +40,8 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git push *)",
-      "Bash(del metas_backup.html)"
+      "Bash(del metas_backup.html)",
+      "Bash(node -e ' *)"
     ]
   }
 }
