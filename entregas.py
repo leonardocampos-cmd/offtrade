@@ -186,7 +186,7 @@ out = Path(__file__).parent / 'entregas_data.js'
 with open(out, 'w', encoding='utf-8') as f:
     f.write(f"const ENTREGAS_DATA = {json.dumps(payload, ensure_ascii=False, indent=2)};\n")
 
-print(f"OK — {len(vendedores_out)} vendedores, rota do dia {hoje_str} → {out}")
+print(f"OK - {len(vendedores_out)} vendedores, rota do dia {hoje_str} -> {out}")
 
 repo_dir = str(Path(__file__).parent)
 subprocess.run(["git", "-C", repo_dir, "add", "entregas_data.js"], check=True)

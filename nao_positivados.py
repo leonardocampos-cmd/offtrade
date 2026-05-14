@@ -1,8 +1,24 @@
 # NAO POSITIVADOS - Clientes que não compraram no mês atual
+import time
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
 from meta import engine, engine_theking, tabela_vendas
+
+def _read_sql_retry(query, con, engine_obj, nome, dtype=str, max_tentativas=5):
+    for tentativa in range(1, max_tentativas + 1):
+        try:
+            print(f"-> Lendo {nome} (Tentativa {tentativa}/{max_tentativas})...")
+            df = pd.read_sql(query, con=con, dtype=dtype)
+            print(f"OK {nome} carregada!")
+            return df
+        except Exception as e:
+            print(f"Erro na {nome}: {str(e)[:100]}")
+            engine_obj.dispose()
+            if tentativa < max_tentativas:
+                time.sleep(10)
+            else:
+                raise e
 
 def _query_clientes(schema):
     s = schema.upper()
@@ -47,8 +63,8 @@ def _query_clientes(schema):
 """
 
 clientes = pd.concat([
-    pd.read_sql(_query_clientes("CRC"),      con=engine,         dtype=str),
-    pd.read_sql(_query_clientes("thekings"), con=engine_theking, dtype=str),
+    _read_sql_retry(_query_clientes("CRC"),      engine,         engine,         "nao_pos_CRC"),
+    _read_sql_retry(_query_clientes("thekings"), engine_theking, engine_theking, "nao_pos_thekings"),
 ], ignore_index=True)
 
 clientes.columns = clientes.columns.str.upper()

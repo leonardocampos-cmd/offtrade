@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OFF TRADE SP</title>
+  <script src="vendas_sp_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f1117;
+      --card: #1a1d27;
+      --card2: #22263a;
+      --accent: #f5c518;
+      --green: #22c55e;
+      --yellow: #eab308;
+      --red: #ef4444;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --border: #2d3144;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+      padding: 16px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .header-title h1 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: -0.02em;
+    }
+    .header-title p {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: var(--card2);
+      color: var(--text);
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+    .btn:hover { border-color: var(--accent); color: var(--accent); }
+    .btn-primary { background: var(--accent); color: #111; border-color: var(--accent); font-weight: 700; }
+    .btn-primary:hover { background: #d4a90e; color: #111; }
+    .btn-dl { border-color: #2d6a4f; color: #52b788; }
+    .btn-dl:hover { border-color: #52b788; color: #52b788; background: rgba(82,183,136,0.1); }
+
+    .mes-select {
+      background: var(--card2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      outline: none;
+    }
+    .mes-select:focus { border-color: var(--accent); }
+
+    .section-title {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    /* Campanha */
+    .campanha-card {
+      background: var(--card);
+      border: 1px solid #7c3aed55;
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin-bottom: 20px;
+    }
+    .campanha-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .campanha-badge {
+      background: #7c3aed;
+      color: #fff;
+      font-size: 0.62rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-radius: 5px;
+      padding: 2px 7px;
+    }
+    .campanha-nome { font-size: 0.95rem; font-weight: 700; }
+    .campanha-ranking { margin-top: 10px; }
+    .campanha-ranking-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.82rem;
+    }
+    .campanha-ranking-row:last-child { border-bottom: none; }
+    .campanha-medal { font-size: 1rem; width: 22px; text-align: center; flex-shrink: 0; }
+    .campanha-rank-nome { flex: 1; font-weight: 600; }
+    .campanha-rank-val { color: var(--muted); font-size: 0.78rem; }
+    .campanha-rank-prize { font-weight: 700; color: var(--accent); font-size: 0.82rem; white-space: nowrap; }
+    .campanha-rank-fora { font-size: 0.7rem; color: var(--muted); font-style: italic; }
+
+    /* PERNOD Dashboard */
+    .pernod-dash { margin-bottom: 16px; }
+    .pernod-kpis {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .pernod-kpi {
+      background: #0d1b2a;
+      border: 1px solid #1e3a5f66;
+      border-radius: 10px;
+      padding: 12px 14px;
+      text-align: center;
+    }
+    .pernod-kpi-label { font-size: 0.63rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 5px; }
+    .pernod-kpi-val   { font-size: 1.3rem; font-weight: 800; color: #60a5fa; }
+    .pernod-kpi-sub   { font-size: 0.61rem; color: var(--muted); margin-top: 2px; }
+    .pernod-efic {
+      background: linear-gradient(120deg, #0d1b2a, #1a1d27);
+      border: 1px solid #d4a90e44;
+      border-radius: 10px;
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .pernod-efic-title   { font-size: 0.72rem; color: var(--muted); }
+    .pernod-efic-formula { font-size: 0.61rem; color: var(--muted); opacity: .7; margin-top: 2px; }
+    .pernod-efic-val     { font-size: 1.55rem; font-weight: 800; color: #d4a90e; white-space: nowrap; }
+    .pernod-sep { border: none; border-top: 1px solid var(--border); margin: 14px 0 10px; }
+    .pernod-rank-title {
+      font-size: 0.63rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    /* Cards */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 14px;
+    }
+    .vendor-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      transition: border-color 0.2s, transform 0.15s;
+    }
+    .vendor-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .vendor-name { font-size: 0.95rem; font-weight: 600; margin-bottom: 2px; }
+    .vendor-sub  { font-size: 0.72rem; color: var(--muted); margin-bottom: 14px; }
+    .stat-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.8rem;
+    }
+    .stat-row:last-of-type { border-bottom: none; }
+    .stat-label { color: var(--muted); }
+    .stat-val   { font-weight: 600; }
+    .card-actions { display: flex; justify-content: flex-end; margin-top: 14px; }
+
+    /* Search */
+    .search-wrap { margin-bottom: 16px; }
+    .search-input {
+      width: 100%;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 0.88rem;
+      outline: none;
+    }
+    .search-input:focus { border-color: var(--accent); }
+
+    /* Vendas detail */
+    .detail-header {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .detail-name { font-size: 1.1rem; font-weight: 700; }
+    .detail-sub  { font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
+    .detail-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+    .vendas-resumo {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    .vendas-resumo-label { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+    .vendas-resumo-val   { font-size: 1.2rem; font-weight: 700; margin-top: 2px; }
+    .vendas-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+    .vendas-table th {
+      text-align: left;
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+      padding: 0 0 8px;
+    }
+    .vendas-table td { padding: 8px 0; border-bottom: 1px solid #1e2235; vertical-align: top; }
+    .vendas-table tr:last-child td { border-bottom: none; }
+    .vendas-date { color: var(--muted); white-space: nowrap; padding-right: 12px; }
+    .vendas-cli  { font-weight: 500; }
+    .vendas-prod { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
+    .vendas-qt   { text-align: right; padding-right: 16px; color: var(--muted); }
+    .vendas-val  { text-align: right; font-weight: 600; white-space: nowrap; }
+    .vendas-empty { text-align: center; color: var(--muted); padding: 24px; font-size: 0.85rem; }
+
+    /* No data */
+    .no-data {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.8;
+    }
+
+    /* Password gate */
+    #senha-gate {
+      position: fixed; inset: 0; z-index: 9999;
+      background: var(--bg);
+      display: flex; align-items: center; justify-content: center;
+    }
+    #senha-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px 32px;
+      text-align: center;
+      width: min(360px, 90vw);
+    }
+    #senha-box h2 { color: var(--accent); margin-bottom: 8px; font-size: 1.2rem; font-weight: 700; }
+    #senha-box p  { color: var(--muted); margin-bottom: 24px; font-size: 0.85rem; }
+    #senha-input {
+      width: 100%; padding: 10px 14px;
+      background: var(--card2); border: 1px solid var(--border);
+      border-radius: 8px; color: var(--text);
+      font-size: 1.2rem; letter-spacing: 6px; text-align: center;
+      margin-bottom: 16px; outline: none;
+    }
+    #senha-input:focus { border-color: var(--accent); }
+    #senha-btn {
+      width: 100%; padding: 10px;
+      background: var(--accent); color: #0f1117;
+      border: none; border-radius: 8px;
+      font-weight: 700; font-size: 0.95rem; cursor: pointer;
+    }
+    #senha-erro { color: var(--red); font-size: 0.8rem; margin-top: 12px; min-height: 18px; }
+  </style>
+</head>
+<body>
+
+<div id="senha-gate">
+  <div id="senha-box">
+    <h2>OFF TRADE SP</h2>
+    <p>Digite a senha para acessar</p>
+    <input id="senha-input" type="password" placeholder="······" maxlength="10" autofocus>
+    <button id="senha-btn">Entrar</button>
+    <div id="senha-erro"></div>
+  </div>
+</div>
+<script>
+(function () {
+  var SENHA = '918273';
+  var gate  = document.getElementById('senha-gate');
+  if (new URLSearchParams(window.location.search).get('vendedor')) { gate.remove(); return; }
+  if (sessionStorage.getItem('offtrade_auth') === '1') { gate.remove(); return; }
+  function tentar() {
+    if (document.getElementById('senha-input').value.trim() === SENHA) {
+      sessionStorage.setItem('offtrade_auth', '1');
+      gate.remove();
+    } else {
+      document.getElementById('senha-erro').textContent = 'Senha incorreta.';
+      document.getElementById('senha-input').value = '';
+      document.getElementById('senha-input').focus();
+    }
+  }
+  document.getElementById('senha-btn').addEventListener('click', tentar);
+  document.getElementById('senha-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') tentar();
+  });
+})();
+</script>
+
+<header>
+  <div class="header-title">
+    <h1>&#9679; OFF TRADE SP</h1>
+    <p id="header-sub">Carregando...</p>
+  </div>
+  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+    <a class="btn" href="metas.html">&#8592; RJ</a>
+    <div id="header-actions"></div>
+  </div>
+</header>
+
+<div id="app"></div>
+
+<script>
+// ── Utilitários ───────────────────────────────────────────
+
+function fmtFat(val) {
+  return 'R$ ' + Number(val).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
+}
+function fmtPos(val) { return Number(val).toLocaleString('pt-BR'); }
+function fmtN(v, d) {
+  return d !== undefined
+    ? v.toLocaleString('pt-BR', {minimumFractionDigits:d, maximumFractionDigits:d})
+    : v.toLocaleString('pt-BR');
+}
+
+// ── PERNOD: calcula stats direto das vendas brutas ────────
+
+function _pernodStats(mes) {
+  if (typeof VENDAS_SP_DATA === 'undefined') return {vendors:[], posPernod:0, paresCount:0};
+
+  const nomes      = Object.keys(VENDAS_SP_DATA.por_vendedor || {});
+  const todaPernod = [];
+
+  const vendors = nomes.map(nome => {
+    const vendas     = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
+    const pernodVend = vendas.filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
+    todaPernod.push(...pernodVend);
+
+    // Pares únicos (codcli, produto) → bonus
+    const paresMap = new Map();
+    for (const v of pernodVend) {
+      const key = `${v.codcli}|${v.produto}`;
+      if (!paresMap.has(key)) paresMap.set(key, v.produto);
+    }
+    let bonus = 0;
+    for (const [, prod] of paresMap) {
+      bonus += prod.toUpperCase().includes('JAMERSON') ? 10 : 5;
+    }
+
+    return {
+      nome,
+      bonus,
+      pares:      paresMap.size,
+      posPernod:  new Set(pernodVend.map(s => s.codcli)).size,
+      fat:        vendas.reduce((s, v) => s + v.valor, 0),
+      nCli:       new Set(vendas.map(v => v.codcli)).size,
+    };
+  });
+
+  const paresEquipe = new Set(todaPernod.map(s => `${s.codcli}|${s.produto}`));
+  const posEquipe   = new Set(todaPernod.map(s => s.codcli)).size;
+
+  return {vendors, posPernod: posEquipe, paresCount: paresEquipe.size};
+}
+
+// ── PERNOD Dashboard ──────────────────────────────────────
+
+function buildPernodDashboardHTML(realiz) {
+  var INV_TOTAL  = 26400;
+  var META_POS   = 400;
+  var META_TDP   = 1320;
+  var META_SKU   = META_TDP / META_POS;
+  var posPernod  = realiz ? realiz.posPernod  : 0;
+  var paresCount = realiz ? realiz.paresCount : 0;
+  var skuPDV     = posPernod > 0 ? paresCount / posPernod : 0;
+  var custoPDV   = (INV_TOTAL / META_POS).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
+  return `
+    <div class="pernod-dash">
+      <div class="pernod-kpis">
+        <div class="pernod-kpi">
+          <div class="pernod-kpi-label">Positivação</div>
+          <div class="pernod-kpi-val">${fmtN(posPernod)}</div>
+          <div class="pernod-kpi-sub">de ${fmtN(META_POS)} meta</div>
+        </div>
+        <div class="pernod-kpi">
+          <div class="pernod-kpi-label">TDP</div>
+          <div class="pernod-kpi-val">${fmtN(paresCount)}</div>
+          <div class="pernod-kpi-sub">de ${fmtN(META_TDP)} meta</div>
+        </div>
+        <div class="pernod-kpi">
+          <div class="pernod-kpi-label">SKUs / PDV</div>
+          <div class="pernod-kpi-val">${fmtN(skuPDV, 1)}</div>
+          <div class="pernod-kpi-sub">meta ${fmtN(META_SKU, 1)}</div>
+        </div>
+      </div>
+      <div class="pernod-efic">
+        <div>
+          <div class="pernod-efic-title">Custo médio por PDV positivado</div>
+          <div class="pernod-efic-formula">R$ 26.400 ÷ 400 PDVs</div>
+        </div>
+        <div class="pernod-efic-val">R$ ${custoPDV}</div>
+      </div>
+      <hr class="pernod-sep">
+      <div class="pernod-rank-title">Bônus por vendedor</div>
+    </div>`;
+}
+
+function buildPernodSP(mes) {
+  const {vendors, posPernod, paresCount} = _pernodStats(mes);
+  const medals = ['🥇','🥈','🥉'];
+
+  const participantes = vendors
+    .filter(v => v.bonus > 0)
+    .sort((a, b) => b.bonus - a.bonus);
+
+  const rankHtml = participantes.length === 0
+    ? `<div class="campanha-rank-fora">Nenhum bônus PERNOD registrado ainda.</div>`
+    : participantes.map((p, i) => `
+        <div class="campanha-ranking-row">
+          <span class="campanha-medal">${medals[i] || ''}</span>
+          <span class="campanha-rank-nome">${p.nome}</span>
+          <span class="campanha-rank-val">${p.pares} SKUs &middot; ${p.posPernod} PDVs</span>
+          <span class="campanha-rank-prize">R$&nbsp;${p.bonus.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
+        </div>`).join('');
+
+  return `
+    <div class="campanha-card">
+      <div class="campanha-header">
+        <span class="campanha-badge">Campanha</span>
+        <span class="campanha-nome">Campanha PERNOD &mdash; Mai/26</span>
+      </div>
+      ${buildPernodDashboardHTML({posPernod, paresCount})}
+      <div class="campanha-ranking">${rankHtml}</div>
+    </div>`;
+}
+
+// ── Cards de vendedores ───────────────────────────────────
+
+function _buildVendorCards(mes) {
+  if (typeof VENDAS_SP_DATA === 'undefined') return '';
+  const nomes = Object.keys(VENDAS_SP_DATA.por_vendedor || {});
+  if (!nomes.length) return `<div class="no-data">Nenhum vendedor encontrado.</div>`;
+
+  const {vendors} = _pernodStats(mes);
+  const statMap   = Object.fromEntries(vendors.map(v => [v.nome, v]));
+
+  return nomes.map(nome => {
+    const vendas = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
+    const fat    = vendas.reduce((s, v) => s + v.valor, 0);
+    const nCli   = new Set(vendas.map(v => v.codcli)).size;
+    const bonus  = (statMap[nome] || {}).bonus || 0;
+
+    return `
+      <div class="vendor-card" data-nome="${nome.toLowerCase()}">
+        <div class="vendor-name">${nome}</div>
+        <div class="vendor-sub">SP</div>
+        <div class="stat-row">
+          <span class="stat-label">Faturamento</span>
+          <span class="stat-val">${fmtFat(fat)}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Clientes</span>
+          <span class="stat-val">${fmtPos(nCli)}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Bônus PERNOD</span>
+          <span class="stat-val" style="color:var(--accent)">${bonus > 0 ? fmtFat(bonus) : '—'}</span>
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-primary" onclick="renderVendasSP('${nome.replace(/'/g,"\\'")}')">Ver vendas</button>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+// ── Tabela de Vendas ──────────────────────────────────────
+
+function buildVendasTable(lista) {
+  if (!lista || !lista.length)
+    return `<div class="vendas-empty">Nenhuma venda registrada este mês.</div>`;
+  return `
+    <table class="vendas-table">
+      <thead>
+        <tr>
+          <th>Data</th>
+          <th>Cliente / Produto</th>
+          <th style="text-align:right">Qtde</th>
+          <th style="text-align:right">Valor</th>
+        </tr>
+      </thead>
+      <tbody>${lista.map(v => `
+        <tr>
+          <td class="vendas-date">${v.data || '—'}</td>
+          <td>
+            <div class="vendas-cli">${v.cliente || '—'}</div>
+            <div class="vendas-prod">${v.produto || ''}</div>
+          </td>
+          <td class="vendas-qt">${Number(v.qt).toLocaleString('pt-BR')}</td>
+          <td class="vendas-val">${fmtFat(v.valor)}</td>
+        </tr>`).join('')}
+      </tbody>
+    </table>`;
+}
+
+// ── View de vendas individual ─────────────────────────────
+
+function _atualizarTabelaSP(nome) {
+  const mes   = document.getElementById('sel-mes-sp').value;
+  const lista = ((VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [])
+    .slice()
+    .sort((a, b) => {
+      const [da,ma,ya] = a.data.split('/'), [db,mb,yb] = b.data.split('/');
+      return new Date(yb,mb-1,db) - new Date(ya,ma-1,da);
+    });
+
+  const fat   = lista.reduce((s, r) => s + r.valor, 0);
+  const qt    = lista.reduce((s, r) => s + r.qt,    0);
+  const nCli  = new Set(lista.map(r => r.codcli || r.cliente)).size;
+
+  document.getElementById('vendas-resumo').innerHTML = `
+    <div class="vendas-resumo-box">
+      <div class="vendas-resumo-label">Faturamento</div>
+      <div class="vendas-resumo-val">${fmtFat(fat)}</div>
+    </div>
+    <div class="vendas-resumo-box">
+      <div class="vendas-resumo-label">Itens</div>
+      <div class="vendas-resumo-val">${qt.toLocaleString('pt-BR')}</div>
+    </div>
+    <div class="vendas-resumo-box">
+      <div class="vendas-resumo-label">Clientes</div>
+      <div class="vendas-resumo-val">${nCli}</div>
+    </div>`;
+
+  document.getElementById('vendas-tabela').innerHTML = buildVendasTable(lista);
+}
+
+function exportarVendasCSVSP(nome) {
+  const mes  = document.getElementById('sel-mes-sp').value;
+  const lista = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
+  const sep   = ';';
+  const rows  = [
+    `VENDAS — ${nome} — ${mes}`,
+    `Data${sep}Cliente${sep}Produto${sep}Quantidade${sep}Valor (R$)`,
+    ...lista.map(s => `${s.data}${sep}${s.cliente}${sep}${s.produto}${sep}${s.qt}${sep}${Number(s.valor).toFixed(2).replace('.',',')}`),
+  ];
+  const blob = new Blob(['﻿' + rows.join('\r\n')], {type:'text/csv;charset=utf-8;'});
+  const url  = URL.createObjectURL(blob);
+  const a    = Object.assign(document.createElement('a'), {
+    href: url,
+    download: `vendas_SP_${nome.replace(/\s+/g,'_')}_${mes.replace('/','_')}.csv`,
+  });
+  document.body.appendChild(a); a.click();
+  setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
+}
+
+function renderVendasSP(nome) {
+  const meses = (typeof VENDAS_SP_DATA !== 'undefined' ? VENDAS_SP_DATA.meses : []);
+  const opts  = meses.map(m => `<option value="${m}">${m}</option>`).join('');
+
+  history.pushState({}, '', `?vendedor=${encodeURIComponent(nome)}`);
+
+  document.getElementById('header-actions').innerHTML = `
+    <button class="btn btn-dl" onclick="exportarVendasCSVSP('${nome.replace(/'/g,"\\'")}')">&#8595; CSV</button>
+    <button class="btn" onclick="renderMain()">&#8592; Todos</button>`;
+
+  document.getElementById('app').innerHTML = `
+    <div class="detail-header">
+      <div>
+        <div class="detail-name">${nome}</div>
+        <div class="detail-sub">SP &middot; vendas</div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <select id="sel-mes-sp" class="mes-select"
+          onchange="_atualizarTabelaSP('${nome.replace(/'/g,"\\'")}')">
+          ${opts}
+        </select>
+      </div>
+    </div>
+    <div class="detail-card">
+      <div id="vendas-resumo" class="vendas-resumo"></div>
+      <div id="vendas-tabela"></div>
+    </div>`;
+
+  _atualizarTabelaSP(nome);
+}
+
+// ── View principal ────────────────────────────────────────
+
+function filterCards(q) {
+  const q2 = q.toLowerCase().trim();
+  document.querySelectorAll('.vendor-card').forEach(c => {
+    c.style.display = c.dataset.nome.includes(q2) ? '' : 'none';
+  });
+}
+
+function renderMain(mes) {
+  if (typeof VENDAS_SP_DATA === 'undefined') {
+    document.getElementById('header-sub').textContent = 'Dados SP não disponíveis';
+    document.getElementById('app').innerHTML = `
+      <div class="no-data">
+        <p>&#9888; Arquivo <strong>vendas_sp_data.js</strong> não encontrado.</p>
+        <p style="margin-top:8px;font-size:0.82rem">
+          Execute o script de exportação SP para gerar os dados.
+        </p>
+      </div>`;
+    return;
+  }
+
+  const meses = VENDAS_SP_DATA.meses || [];
+  mes = mes || meses[0] || '';
+
+  document.getElementById('header-sub').textContent =
+    `${mes}  ·  Atualizado ${VENDAS_SP_DATA.atualizado_em || '—'}`;
+
+  const mesOpts = meses.map(m =>
+    `<option value="${m}" ${m === mes ? 'selected':''}>${m}</option>`).join('');
+
+  document.getElementById('header-actions').innerHTML =
+    `<select class="mes-select" onchange="renderMain(this.value)">${mesOpts}</select>`;
+
+  document.getElementById('app').innerHTML = `
+    ${buildPernodSP(mes)}
+    <div class="section-title" style="margin-bottom:12px">Vendedores</div>
+    <div class="search-wrap">
+      <input class="search-input" type="text" placeholder="Buscar vendedor..."
+        oninput="filterCards(this.value)">
+    </div>
+    <div class="cards-grid">${_buildVendorCards(mes)}</div>`;
+
+  history.replaceState({}, '', location.pathname);
+}
+
+// ── Init ──────────────────────────────────────────────────
+
+window.addEventListener('popstate', function() {
+  if (!new URLSearchParams(location.search).get('vendedor')) renderMain();
+});
+
+(function init() {
+  const param = new URLSearchParams(location.search).get('vendedor');
+  if (param) renderVendasSP(decodeURIComponent(param));
+  else renderMain();
+})();
+</script>
+</body>
+</html>

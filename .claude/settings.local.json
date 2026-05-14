@@ -35,7 +35,8 @@
       "PowerShell(Get-ChildItem \"G:\\\\Meu Drive\\\\offtrade\" -Exclude \".venv\" | Where-Object { $_.Name -ne \".venv\" } | Select-Object Name, Extension | Format-Table)",
       "Bash(awk -F: '$1 > 1325 && $1 < 1470')",
       "Bash(Select-Object Name, PSIsContainer)",
-      "PowerShell(Get-ChildItem \"G:\\\\Meu Drive\\\\offtrade\" | Where-Object { $_.Name -ne \".venv\" } | Select-Object Name, PSIsContainer | Format-Table -AutoSize)"
+      "PowerShell(Get-ChildItem \"G:\\\\Meu Drive\\\\offtrade\" | Where-Object { $_.Name -ne \".venv\" } | Select-Object Name, PSIsContainer | Format-Table -AutoSize)",
+      "Bash(python3 *)"
     ]
   }
 }

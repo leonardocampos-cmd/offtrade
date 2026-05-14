@@ -26,7 +26,14 @@ def main():
         step("4/5 - Gerando página de entregas (entregas_data.js)")
         import entregas
 
-        step("5/5 - Enviando alerta WhatsApp")
+        step("5/6 - Exportando dashboard SP (vendas_sp_data.js)")
+        try:
+            import exportacao_sp
+        except Exception:
+            print("[AVISO] exportacao_sp falhou — SP ignorado, pipeline continua.")
+            traceback.print_exc()
+
+        step("6/6 - Enviando alerta WhatsApp")
         import envio_whatsapp
 
     except Exception:
