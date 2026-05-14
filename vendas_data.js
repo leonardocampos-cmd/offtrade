@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/05/2026 10:26",
+  "atualizado_em": "14/05/2026 11:07",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -143725,15 +143725,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 3,
           "valor": 246.09
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOET CHANDON BRUT IMPERIAL 750ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 1979.4
         },
         {
           "data": "12/05/2026",
