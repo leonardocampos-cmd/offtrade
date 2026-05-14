@@ -28,7 +28,15 @@ def main():
 
         step("5/6 - Exportando dashboard SP (vendas_sp_data.js)")
         try:
-            import exportacao_sp
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_sp.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_sp falhou — SP ignorado, pipeline continua.")
+                print(result.stderr)
         except Exception:
             print("[AVISO] exportacao_sp falhou — SP ignorado, pipeline continua.")
             traceback.print_exc()
