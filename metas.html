@@ -1287,27 +1287,34 @@ const CAMPANHAS = [
   },
 ];
 
-function buildPernodDashboardHTML() {
-  var INV_TOTAL = 26400;
-  var META_POS  = 400;
-  var custoPDV  = (INV_TOTAL / META_POS).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
+function buildPernodDashboardHTML(realiz) {
+  var INV_TOTAL  = 26400;
+  var META_POS   = 400;
+  var META_TDP   = 1320;
+  var META_SKU   = META_TDP / META_POS;
+  var posPernod  = realiz ? realiz.posPernod  : 0;
+  var paresCount = realiz ? realiz.paresCount : 0;
+  var skuPDV     = posPernod > 0 ? paresCount / posPernod : 0;
+  var custoPDV   = (INV_TOTAL / META_POS).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
+  var fmtN = v => v.toLocaleString('pt-BR');
+  var fmtF = (v, d) => v.toLocaleString('pt-BR', {minimumFractionDigits:d, maximumFractionDigits:d});
   return `
     <div class="pernod-dash">
       <div class="pernod-kpis">
         <div class="pernod-kpi">
           <div class="pernod-kpi-label">Positivação</div>
-          <div class="pernod-kpi-val">400</div>
-          <div class="pernod-kpi-sub">meta de PDVs</div>
+          <div class="pernod-kpi-val">${fmtN(posPernod)}</div>
+          <div class="pernod-kpi-sub">de ${fmtN(META_POS)} meta</div>
         </div>
         <div class="pernod-kpi">
           <div class="pernod-kpi-label">TDP</div>
-          <div class="pernod-kpi-val">1.320</div>
-          <div class="pernod-kpi-sub">total distrib. points</div>
+          <div class="pernod-kpi-val">${fmtN(paresCount)}</div>
+          <div class="pernod-kpi-sub">de ${fmtN(META_TDP)} meta</div>
         </div>
         <div class="pernod-kpi">
           <div class="pernod-kpi-label">SKUs / PDV</div>
-          <div class="pernod-kpi-val">3,2</div>
-          <div class="pernod-kpi-sub">média por ponto</div>
+          <div class="pernod-kpi-val">${fmtF(skuPDV, 1)}</div>
+          <div class="pernod-kpi-sub">meta ${fmtF(META_SKU, 1)}</div>
         </div>
       </div>
       <div class="pernod-efic">
@@ -1384,7 +1391,7 @@ function buildCampanha(mes) {
             <div>Bônus Total: <strong>R$ ${fmt2(_bonusPernod)}</strong></div>
             <div>Qtd Produtos distintos por cliente: <strong>${_paresCount}</strong></div>
           </div>`;
-        const _dashHtml = camp.nome.includes('PERNOD') ? buildPernodDashboardHTML() : '';
+        const _dashHtml = camp.nome.includes('PERNOD') ? buildPernodDashboardHTML({posPernod: _posPernod, paresCount: _paresCount}) : '';
         rankHtml = _dashHtml + (participantes.length === 0
           ? `<div class="campanha-rank-fora">Nenhum bônus registrado ainda.</div>`
           : _resumoPernod
