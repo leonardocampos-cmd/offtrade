@@ -82,7 +82,7 @@ QUERY_VENDAS_SP = """
       AND M.CODOPER = 'S'
       AND M.NUMNOTADEV IS NULL
       AND M.DTCANCEL  IS NULL
-      AND U.NOME LIKE '%OFF TRADE%'
+      AND (U.NOME LIKE '%OFF TRADE%' OR U.NOME = 'W.S')
 """
 
 # ── Carrega e limpa dados ─────────────────────────────────────────────────────
