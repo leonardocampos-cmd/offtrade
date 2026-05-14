@@ -131,6 +131,17 @@
 
     .vendor-name { font-size: 0.95rem; font-weight: 600; margin-bottom: 2px; }
     .vendor-rca { font-size: 0.72rem; color: var(--muted); margin-bottom: 14px; }
+    .vendor-card { cursor: pointer; }
+    .card-toggle { display:flex; justify-content:space-between; align-items:center; }
+    .card-toggle-icon { font-size:0.75rem; color:var(--muted); transition:transform 0.2s; }
+    .card-toggle-icon.open { transform:rotate(180deg); }
+    .vendor-expand { display:none; margin-top:12px; border-top:1px solid var(--border); padding-top:10px; }
+    .vendor-expand.open { display:block; }
+    .expand-table { width:100%; border-collapse:collapse; font-size:0.75rem; }
+    .expand-table th { color:var(--muted); font-weight:600; text-align:left; padding:4px 0; border-bottom:1px solid var(--border); }
+    .expand-table td { padding:4px 0; border-bottom:1px solid var(--border); vertical-align:top; }
+    .expand-table tr:last-child td { border-bottom:none; }
+    .expand-table .td-right { text-align:right; white-space:nowrap; }
     .stat-row { display:flex; justify-content:space-between; align-items:center; padding:5px 0; border-bottom:1px solid var(--border); font-size:0.8rem; }
     .stat-row:last-of-type { border-bottom:none; }
     .stat-label { color:var(--muted); }
@@ -1574,29 +1585,11 @@ function buildCampanhaDetail(v, mes) {
         posicaoHtml = metaInd === 0
           ? `<span class="campanha-rank-fora">Sem meta definida</span>`
           : `<span class="campanha-rank-val">${fmtFat(val)} / ${fmtFat(metaInd)}</span>
-             <span class="metric-pct pct-${cls2}" style="font-size:0.75rem">${pctDisp}%</span>`;
-
-        if (atingiu && gatilhoOk) {
-          const premio = val * m.premio_pct / 100;
-          premioHtml = `<span class="campanha-rank-prize">R$\u00a0${premio.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>`;
-        }
-      }
-
-      return `
-        <div class="campanha-detail-row">
-          <span style="color:var(--muted);font-size:0.78rem">${m.nome}</span>
-          <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
-            ${posicaoHtml}${premioHtml ? premioHtml : ''}${gatilhoTag}
-          </span>
-        </div>`;
-    }).join('');
-
-    return `
-      <div class="campanha-detail-box">
-        <div class="campanha-detail-title">${camp.nome}</div>
-        ${rows}
-      </div>`;
-  }).join('');
+             <span class="mfunction toggleCardRJ(card) {
+  const expand = card.querySelector('.vendor-expand');
+  const icon   = card.querySelector('.card-toggle-icon');
+  expand.classList.toggle('open');
+  icon.classList.toggle('open');
 }
 
 function _buildCards(vendedores, mes) {
@@ -1606,6 +1599,33 @@ function _buildCards(vendedores, mes) {
       ? ((VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || []).filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'))
       : [];
     const _pares     = new Set(_pv.map(s => `${s.codcli}|${s.produto}`)).size;
+    const _posPernod = new Set(_pv.map(s => s.codcli)).size;
+    const pernodRows = _pv.length === 0
+      ? '<div style="color:var(--muted);font-size:0.75rem;padding:6px 0">Sem vendas Pernod neste mês.</div>'
+      : '<table class="expand-table"><thead><tr><th>Cliente</th><th>Produto</th><th class="td-right">Qtd</th><th class="td-right">R$</th></tr></thead><tbody>'
+        + _pv.sort((a,b) => a.cliente.localeCompare(b.cliente)).map(r =>
+            `<tr><td>${r.cliente}</td><td style="color:var(--muted)">${r.produto}</td><td class="td-right">${r.qt}</td><td class="td-right">R$ ${Number(r.valor).toLocaleString('pt-BR',{minimumFractionDigits:2})}</td></tr>`
+          ).join('')
+        + '</tbody></table>';
+    return `
+      <div class="vendor-card" data-nome="${v.nome.toLowerCase()}" onclick="toggleCardRJ(this)">
+        <div class="card-toggle">
+          <div>
+            <div class="vendor-name">${v.nome}</div>
+            <div class="vendor-rca">RCA ${v.rca}</div>
+          </div>
+          <span class="card-toggle-icon">▼</span>
+        </div>
+        ${buildBar('Faturamento Total', _mv(pm,'fat_tt','realizado'), _mv(pm,'fat_tt','meta'), 'fat')}
+        ${buildBar('Positivação Total', _mv(pm,'pos_tt','realizado'), _mv(pm,'pos_tt','meta'), 'pos')}
+        <div class="stat-row" style="margin-top:8px">
+          <span class="stat-label">TDP PERNOD</span>
+          <span class="stat-val">${_pares > 0 ? _pares + ' SKUs · ' + _posPernod + ' PDVs' : '—'}</span>
+        </div>
+        <div class="vendor-expand">${pernodRows}</div>
+      </div>`;
+  }).join('');
+}
     const _posPernod = new Set(_pv.map(s => s.codcli)).size;
     return `
       <div class="vendor-card" data-nome="${v.nome.toLowerCase()}">

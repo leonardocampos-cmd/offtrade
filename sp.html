@@ -204,6 +204,17 @@
     .stat-label { color: var(--muted); }
     .stat-val   { font-weight: 600; }
     .card-actions { display: flex; justify-content: flex-end; margin-top: 14px; }
+    .vendor-card { cursor: pointer; }
+    .card-toggle { display:flex; justify-content:space-between; align-items:center; cursor:pointer; }
+    .card-toggle-icon { font-size:0.75rem; color:var(--muted); transition:transform 0.2s; }
+    .card-toggle-icon.open { transform:rotate(180deg); }
+    .vendor-expand { display:none; margin-top:12px; border-top:1px solid var(--border); padding-top:10px; }
+    .vendor-expand.open { display:block; }
+    .expand-table { width:100%; border-collapse:collapse; font-size:0.75rem; }
+    .expand-table th { color:var(--muted); font-weight:600; text-align:left; padding:4px 0; border-bottom:1px solid var(--border); }
+    .expand-table td { padding:4px 0; border-bottom:1px solid var(--border); vertical-align:top; }
+    .expand-table tr:last-child td { border-bottom:none; }
+    .expand-table .td-right { text-align:right; white-space:nowrap; }
 
     /* Search */
     .search-wrap { margin-bottom: 16px; }
@@ -485,6 +496,13 @@ function buildPernodSP(mes) {
 
 // ── Cards de vendedores ───────────────────────────────────
 
+function toggleCardSP(card) {
+  const expand = card.querySelector('.vendor-expand');
+  const icon   = card.querySelector('.card-toggle-icon');
+  expand.classList.toggle('open');
+  icon.classList.toggle('open');
+}
+
 function _buildVendorCards(mes) {
   if (typeof VENDAS_SP_DATA === 'undefined') return '';
   const nomes = Object.keys(VENDAS_SP_DATA.por_vendedor || {});
@@ -500,11 +518,24 @@ function _buildVendorCards(mes) {
     const bonus     = (statMap[nome] || {}).bonus     || 0;
     const tdp       = (statMap[nome] || {}).pares     || 0;
     const posPernod = (statMap[nome] || {}).posPernod || 0;
+    const pernodVendas = vendas.filter(v => v.fantasia && v.fantasia.toUpperCase().includes('PERNOD'));
+    const pernodRows = pernodVendas.length === 0
+      ? '<div style="color:var(--muted);font-size:0.75rem;padding:6px 0">Sem vendas Pernod neste mês.</div>'
+      : '<table class="expand-table"><thead><tr><th>Cliente</th><th>Produto</th><th class="td-right">Qtd</th><th class="td-right">R$</th></tr></thead><tbody>'
+        + pernodVendas.sort((a,b) => a.cliente.localeCompare(b.cliente)).map(r =>
+            `<tr><td>${r.cliente}</td><td style="color:var(--muted)">${r.produto}</td><td class="td-right">${r.qt}</td><td class="td-right">${fmtFat(r.valor)}</td></tr>`
+          ).join('')
+        + '</tbody></table>';
 
     return `
-      <div class="vendor-card" data-nome="${nome.toLowerCase()}">
-        <div class="vendor-name">${nome}</div>
-        <div class="vendor-sub">SP</div>
+      <div class="vendor-card" data-nome="${nome.toLowerCase()}" onclick="toggleCardSP(this)">
+        <div class="card-toggle">
+          <div>
+            <div class="vendor-name">${nome}</div>
+            <div class="vendor-sub">SP</div>
+          </div>
+          <span class="card-toggle-icon">▼</span>
+        </div>
         <div class="stat-row">
           <span class="stat-label">Faturamento</span>
           <span class="stat-val">${fmtFat(fat)}</span>
@@ -521,9 +552,7 @@ function _buildVendorCards(mes) {
           <span class="stat-label">Bônus PERNOD</span>
           <span class="stat-val" style="color:var(--accent)">${bonus > 0 ? fmtFat(bonus) : '—'}</span>
         </div>
-        <div class="card-actions">
-          <button class="btn btn-primary" onclick="renderVendasSP('${nome.replace(/'/g,"\\'")}')">Ver vendas</button>
-        </div>
+        <div class="vendor-expand">${pernodRows}</div>
       </div>`;
   }).join('');
 }
