@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "14/05/2026 15:31",
+  "atualizado_em": "14/05/2026 15:58",
   "data_rota": "14.05",
   "vendedores": [
     {
@@ -3824,6 +3824,26 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "412001249",
+          "numnota": "",
+          "data": "14/05/2026",
+          "cliente": "OLINDA ELLIS CONVENIENCIA EXPRESS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 129.9,
+          "itens": [
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 1,
+              "val": 129.9
+            }
+          ]
+        },
+        {
           "numped": "412001243",
           "numnota": "",
           "data": "14/05/2026",
@@ -3890,6 +3910,36 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
               "qt": 1,
               "val": 94.7
+            }
+          ]
+        },
+        {
+          "numped": "412001248",
+          "numnota": "",
+          "data": "14/05/2026",
+          "cliente": "POSTO VANIA DE ABASTECIMENTO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 300.5,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 5,
+              "val": 129.5
+            },
+            {
+              "desc": "COQUETEL PINK MOON 12X600ML - PET",
+              "qt": 1,
+              "val": 78.3
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 3,
+              "val": 92.7
             }
           ]
         }
@@ -14467,11 +14517,6 @@ const ENTREGAS_DATA = {
           "total": 613.19,
           "itens": [
             {
-              "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-              "qt": 1,
-              "val": 78.9
-            },
-            {
               "desc": "GUARAVITA NATURAL 24X290ML",
               "qt": 3,
               "val": 77.7
@@ -14500,6 +14545,11 @@ const ENTREGAS_DATA = {
               "desc": "GIN ROCKS POCKET PET 12X200ML",
               "qt": 1,
               "val": 104.4
+            },
+            {
+              "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+              "qt": 1,
+              "val": 78.9
             }
           ]
         },
@@ -14692,6 +14742,11 @@ const ENTREGAS_DATA = {
           "total": 613.56,
           "itens": [
             {
+              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
+              "qt": 2,
+              "val": 64.56
+            },
+            {
               "desc": "CHA VERDE LARAN GENGI DESINCHA 12X250ML",
               "qt": 2,
               "val": 64.56
@@ -14720,11 +14775,6 @@ const ENTREGAS_DATA = {
               "desc": "CHA VERDE MACA DESINCHA 12X1000ML",
               "qt": 1,
               "val": 69.72
-            },
-            {
-              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
-              "qt": 2,
-              "val": 64.56
             }
           ]
         },
@@ -19385,6 +19435,66 @@ const ENTREGAS_DATA = {
               "desc": "GIN GORDONS 750 ML",
               "qt": 3,
               "val": 167.7
+            }
+          ]
+        },
+        {
+          "numped": "155003485",
+          "numnota": "",
+          "data": "14/05/2026",
+          "cliente": "RESTAURANTE E CHOPERIA BRISA DO HORIZONTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1965.6,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 196.56
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 4,
+              "val": 786.24
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 196.56
+            },
+            {
+              "desc": "RED BULL MORANGO PESSEGO 24X250ML",
+              "qt": 3,
+              "val": 589.68
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 196.56
+            }
+          ]
+        },
+        {
+          "numped": "155003484",
+          "numnota": "",
+          "data": "14/05/2026",
+          "cliente": "TAIS TERRA MONTEIRO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2301.6,
+          "itens": [
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 24,
+              "val": 2301.6
             }
           ]
         }
