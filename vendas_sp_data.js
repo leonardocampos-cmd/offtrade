@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "14/05/2026 05:26",
+  "atualizado_em": "14/05/2026 05:41",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -45,7 +45,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23889",
           "cliente": "R.B.V. COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6468.0
         },
@@ -63,7 +63,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23889",
           "cliente": "R.B.V. COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 621.6
         },
@@ -72,7 +72,7 @@ const VENDAS_SP_DATA = {
           "codcli": "24120",
           "cliente": "EMPORIO M & L COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "WHISKY GLENLIVET FOUNDER'S RESERVE",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 22,
           "valor": 3737.8
         },
@@ -90,7 +90,7 @@ const VENDAS_SP_DATA = {
           "codcli": "24103",
           "cliente": "COMERCIAL RS EIRELI",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 672,
           "valor": 14044.8
         },
@@ -99,7 +99,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23790",
           "cliente": "FAROFA CARIOCA BAR E RESTAURANTE LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6468.0
         },
@@ -108,7 +108,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23790",
           "cliente": "FAROFA CARIOCA BAR E RESTAURANTE LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3774.0
         },
@@ -117,7 +117,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32788",
           "cliente": "FOOD CENTER ALIMENTOS E BEBIDAS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 144,
           "valor": 3009.6
         },
@@ -126,7 +126,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30772",
           "cliente": "ADEGA TOMMY BEBIDAS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1509.6
         },
@@ -144,7 +144,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30772",
           "cliente": "ADEGA TOMMY BEBIDAS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 562.8
         },
@@ -171,7 +171,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32396",
           "cliente": "BERGANTON FREDO & CIA LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3479.4
         },
@@ -198,7 +198,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30685",
           "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 752.4
         },
@@ -225,7 +225,7 @@ const VENDAS_SP_DATA = {
           "codcli": "31155",
           "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1509.6
         },
@@ -261,7 +261,7 @@ const VENDAS_SP_DATA = {
           "codcli": "31155",
           "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2508.0
         },
@@ -369,7 +369,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36538",
           "cliente": "DISTRIBUIDORA DO MINEIRO DE VARZEA PAULISTA LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1544.4
         },
@@ -378,7 +378,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36582",
           "cliente": "CDB DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 932.4
         },
@@ -414,7 +414,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39396",
           "cliente": "BOLSAO DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 672,
           "valor": 17404.8
         },
@@ -441,7 +441,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42699",
           "cliente": "STORM COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 900,
           "valor": 47610.0
         },
@@ -450,7 +450,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42699",
           "cliente": "STORM COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1200,
           "valor": 63480.0
         },
@@ -468,7 +468,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -477,7 +477,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -486,7 +486,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 389.4
         },
@@ -495,7 +495,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -504,7 +504,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -549,7 +549,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 514.8
         },
@@ -558,7 +558,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 425.4
         },
@@ -567,7 +567,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 389.4
         },
@@ -576,7 +576,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -585,7 +585,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -594,7 +594,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -621,7 +621,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 134160.0
         },
@@ -630,7 +630,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 32340.0
         },
@@ -639,7 +639,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3894.0
         },
@@ -648,7 +648,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 32940.0
         },
@@ -657,7 +657,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 20160.0
         },
@@ -666,7 +666,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 621.6
         },
@@ -675,7 +675,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 2814.0
         },
@@ -729,7 +729,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 932.4
         },
@@ -810,7 +810,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49448",
           "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 12696.0
         },
@@ -819,7 +819,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49448",
           "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3174.0
         },
@@ -828,7 +828,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49448",
           "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
           "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3594.0
         },
@@ -846,7 +846,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49448",
           "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 12936.0
         },
@@ -855,7 +855,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49448",
           "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 2875.2
         },
@@ -864,7 +864,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49448",
           "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6588.0
         },
@@ -873,7 +873,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49448",
           "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 5628.0
         },
@@ -882,7 +882,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49448",
           "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 8064.0
         },
@@ -900,7 +900,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49448",
           "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 15576.0
         },
@@ -990,7 +990,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49493",
           "cliente": "MAITAN COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3294.0
         },
@@ -999,7 +999,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49493",
           "cliente": "MAITAN COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 2587.2
         },
@@ -1008,7 +1008,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49493",
           "cliente": "MAITAN COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 6048.0
         },
@@ -1017,7 +1017,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49493",
           "cliente": "MAITAN COMERCIO DE BEBIDAS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3108.0
         },
@@ -1026,7 +1026,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49494",
           "cliente": "COMERCIO DE BEBIDAS JAU LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3294.0
         },
@@ -1035,7 +1035,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49494",
           "cliente": "COMERCIO DE BEBIDAS JAU LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -1044,7 +1044,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49494",
           "cliente": "COMERCIO DE BEBIDAS JAU LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 144,
           "valor": 4838.4
         },
@@ -1053,7 +1053,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49494",
           "cliente": "COMERCIO DE BEBIDAS JAU LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3108.0
         },
@@ -1098,7 +1098,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49851",
           "cliente": "GUILHERME HONORIO DE CARVALHO",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 20160.0
         },
@@ -1107,7 +1107,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49852",
           "cliente": "CAMILA DE ANGELO MARQUES 39437126801",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 3115.2
         },
@@ -1125,7 +1125,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49284",
           "cliente": "JEWINE COMERCIAL LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3479.4
         },
@@ -1134,7 +1134,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49284",
           "cliente": "JEWINE COMERCIAL LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -1143,7 +1143,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49284",
           "cliente": "JEWINE COMERCIAL LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3479.4
         },
@@ -1161,7 +1161,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49453",
           "cliente": "C.G. CAVALCANTE COMERCIO DE BEBIDAS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3108.0
         },
@@ -1179,7 +1179,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50047",
           "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -1188,7 +1188,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50047",
           "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         },
@@ -1215,7 +1215,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49555",
           "cliente": "JEREMIAS DOS SANTOS SILVA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1554.0
         },
@@ -1224,7 +1224,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49555",
           "cliente": "JEREMIAS DOS SANTOS SILVA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 2016.0
         },
@@ -1233,7 +1233,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49555",
           "cliente": "JEREMIAS DOS SANTOS SILVA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -1242,7 +1242,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49555",
           "cliente": "JEREMIAS DOS SANTOS SILVA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -1260,7 +1260,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49555",
           "cliente": "JEREMIAS DOS SANTOS SILVA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1194.0
         },
@@ -1269,7 +1269,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49531",
           "cliente": "VALDOMIRO SGORLON MARTINELLI JUNIOR",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 6216.0
         },
@@ -1278,7 +1278,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49733",
           "cliente": "RD DAROS SUPERMERCADOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -1287,7 +1287,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49733",
           "cliente": "RD DAROS SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1940.4
         },
@@ -1296,7 +1296,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49733",
           "cliente": "RD DAROS SUPERMERCADOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1509.6
         },
@@ -1305,7 +1305,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49733",
           "cliente": "RD DAROS SUPERMERCADOS LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1029.6
         },
@@ -1314,7 +1314,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49733",
           "cliente": "RD DAROS SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -1323,7 +1323,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49733",
           "cliente": "RD DAROS SUPERMERCADOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 477.6
         },
@@ -1332,7 +1332,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49733",
           "cliente": "RD DAROS SUPERMERCADOS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3479.4
         },
@@ -1341,7 +1341,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49703",
           "cliente": "D L COMERCIAL E UTILIDADES LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -1350,7 +1350,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49703",
           "cliente": "D L COMERCIAL E UTILIDADES LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -1359,7 +1359,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49703",
           "cliente": "D L COMERCIAL E UTILIDADES LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 403.2
         },
@@ -1368,7 +1368,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49703",
           "cliente": "D L COMERCIAL E UTILIDADES LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 658.8
         },
@@ -1377,7 +1377,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49703",
           "cliente": "D L COMERCIAL E UTILIDADES LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -1386,7 +1386,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49703",
           "cliente": "D L COMERCIAL E UTILIDADES LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 579.9
         },
@@ -1395,7 +1395,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49442",
           "cliente": "J. DA S. A. MINIMERCADO",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 6216.0
         },
@@ -1404,7 +1404,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49442",
           "cliente": "J. DA S. A. MINIMERCADO",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 8064.0
         }
@@ -1415,7 +1415,7 @@ const VENDAS_SP_DATA = {
           "codcli": "21330",
           "cliente": "HM HM SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 13656.0
         },
@@ -1424,7 +1424,7 @@ const VENDAS_SP_DATA = {
           "codcli": "21851",
           "cliente": "MHM SUPERMERCADOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1365.6
         },
@@ -1442,7 +1442,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23103",
           "cliente": "BEBIDA CHIC IMPORTACAO E EXPORTACAO LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 317.4
         },
@@ -1451,7 +1451,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23103",
           "cliente": "BEBIDA CHIC IMPORTACAO E EXPORTACAO LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 317.4
         },
@@ -1460,7 +1460,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23103",
           "cliente": "BEBIDA CHIC IMPORTACAO E EXPORTACAO LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 377.4
         },
@@ -1469,7 +1469,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23103",
           "cliente": "BEBIDA CHIC IMPORTACAO E EXPORTACAO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 970.2
         },
@@ -1496,7 +1496,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23790",
           "cliente": "FAROFA CARIOCA BAR E RESTAURANTE LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 12936.0
         },
@@ -1541,7 +1541,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27224",
           "cliente": "BOB PECHINCA ATACADISTA LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 5016.0
         },
@@ -1550,7 +1550,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27224",
           "cliente": "BOB PECHINCA ATACADISTA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 13656.0
         },
@@ -1577,7 +1577,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30334",
           "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -1586,7 +1586,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30334",
           "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -1595,7 +1595,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30334",
           "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 402.0
         },
@@ -1604,7 +1604,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27226",
           "cliente": "BOB PECHINCA ATACADISTA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 13656.0
         },
@@ -1631,7 +1631,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27226",
           "cliente": "BOB PECHINCA ATACADISTA LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 850.8
         },
@@ -1640,7 +1640,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27228",
           "cliente": "BOB PECHINCA ATACADISTA LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 300,
           "valor": 6270.0
         },
@@ -1667,7 +1667,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27557",
           "cliente": "BOB PECHINCHA ATACADISTA LTDA",
           "produto": "GIN BEEFEATER 24 ANOS 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 809.4
         },
@@ -1676,7 +1676,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27557",
           "cliente": "BOB PECHINCHA ATACADISTA LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 850.8
         },
@@ -1685,7 +1685,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27557",
           "cliente": "BOB PECHINCHA ATACADISTA LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 204,
           "valor": 4263.6
         },
@@ -1694,7 +1694,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30685",
           "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3228.0
         },
@@ -1721,7 +1721,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34024",
           "cliente": "D.J.D. COMERCIO LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1554.0
         },
@@ -1730,7 +1730,7 @@ const VENDAS_SP_DATA = {
           "codcli": "35890",
           "cliente": "D.J.D. COMERCIO LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1554.0
         },
@@ -1739,7 +1739,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39053",
           "cliente": "MERCADINHO DO COLMEIA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 322.8
         },
@@ -1748,7 +1748,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39053",
           "cliente": "MERCADINHO DO COLMEIA LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 790.8
         },
@@ -1766,7 +1766,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39899",
           "cliente": "HM SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1365.6
         },
@@ -1775,7 +1775,7 @@ const VENDAS_SP_DATA = {
           "codcli": "41307",
           "cliente": "JJ ADEGA TERRACOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0
         },
@@ -1802,7 +1802,7 @@ const VENDAS_SP_DATA = {
           "codcli": "41307",
           "cliente": "JJ ADEGA TERRACOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 407.4
         },
@@ -1811,7 +1811,7 @@ const VENDAS_SP_DATA = {
           "codcli": "41307",
           "cliente": "JJ ADEGA TERRACOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 790.8
         },
@@ -1838,7 +1838,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42699",
           "cliente": "STORM COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2508.0
         },
@@ -1874,7 +1874,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42699",
           "cliente": "STORM COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 562.8
         },
@@ -1910,7 +1910,7 @@ const VENDAS_SP_DATA = {
           "codcli": "45538",
           "cliente": "TICO & TECO DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0
         },
@@ -1919,7 +1919,7 @@ const VENDAS_SP_DATA = {
           "codcli": "45538",
           "cliente": "TICO & TECO DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0
         },
@@ -1928,7 +1928,7 @@ const VENDAS_SP_DATA = {
           "codcli": "45538",
           "cliente": "TICO & TECO DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2508.0
         },
@@ -1955,7 +1955,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47181",
           "cliente": "LATICINIOS TANI LTDA",
           "produto": "APERITIVO RAMAZZOTTI AMARO 7O0ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 347.4
         },
@@ -1973,7 +1973,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47181",
           "cliente": "LATICINIOS TANI LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 322.8
         },
@@ -2000,7 +2000,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46352",
           "cliente": "JSP COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA WYBOROWA 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 574.8
         },
@@ -2054,7 +2054,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47671",
           "cliente": "ADEGA COLORADO DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 4074.0
         },
@@ -2063,7 +2063,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47839",
           "cliente": "IRMAOS PINA HOTEL E RESTAURANTE LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -2099,7 +2099,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47839",
           "cliente": "IRMAOS PINA HOTEL E RESTAURANTE LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -2126,7 +2126,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47839",
           "cliente": "IRMAOS PINA HOTEL E RESTAURANTE LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 402.0
         },
@@ -2144,7 +2144,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49288",
           "cliente": "V&A DISTRIBUIDORA DE OVOS BARUERI LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 25740.0
         },
@@ -2198,7 +2198,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49110",
           "cliente": "BLACK BEV ATACADISTA LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 1222.8
         },
@@ -2207,7 +2207,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49213",
           "cliente": "ANDERSON CLODOALDO MAXIMO",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 682.8
         },
@@ -2216,7 +2216,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49213",
           "cliente": "ANDERSON CLODOALDO MAXIMO",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 402.0
         },
@@ -2225,7 +2225,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49213",
           "cliente": "ANDERSON CLODOALDO MAXIMO",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1365.6
         }
@@ -2236,7 +2236,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25926",
           "cliente": "E CORRADINI IRMAO LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 344.88
         },
@@ -2272,7 +2272,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30334",
           "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 852.96
         },
@@ -2290,7 +2290,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30334",
           "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 258.36
         },
@@ -2299,7 +2299,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32263",
           "cliente": "DISTRIBUIDORA MC LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 294.36
         },
@@ -2317,7 +2317,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32263",
           "cliente": "DISTRIBUIDORA MC LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 258.36
         },
@@ -2371,7 +2371,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42699",
           "cliente": "STORM COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "APERITIVO RAMAZZOTTI AMARO 7O0ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1311.36
         },
@@ -2508,7 +2508,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32788",
           "cliente": "FOOD CENTER ALIMENTOS E BEBIDAS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 2006.4
         },
@@ -2517,7 +2517,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32716",
           "cliente": "SILVANIA REGINA MINHOTO DE MELO",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1413.6
         },
@@ -2526,7 +2526,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32716",
           "cliente": "SILVANIA REGINA MINHOTO DE MELO",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1209.6
         },
@@ -2535,7 +2535,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32716",
           "cliente": "SILVANIA REGINA MINHOTO DE MELO",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1544.4
         },
@@ -2544,7 +2544,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32716",
           "cliente": "SILVANIA REGINA MINHOTO DE MELO",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 317.4
         },
@@ -2553,7 +2553,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32716",
           "cliente": "SILVANIA REGINA MINHOTO DE MELO",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 317.4
         },
@@ -2562,7 +2562,7 @@ const VENDAS_SP_DATA = {
           "codcli": "31155",
           "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1554.0
         },
@@ -2571,7 +2571,7 @@ const VENDAS_SP_DATA = {
           "codcli": "31155",
           "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1194.0
         },
@@ -2580,7 +2580,7 @@ const VENDAS_SP_DATA = {
           "codcli": "31155",
           "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3774.0
         },
@@ -2589,7 +2589,7 @@ const VENDAS_SP_DATA = {
           "codcli": "31155",
           "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1194.0
         },
@@ -2598,7 +2598,7 @@ const VENDAS_SP_DATA = {
           "codcli": "31155",
           "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 5174.4
         },
@@ -2607,7 +2607,7 @@ const VENDAS_SP_DATA = {
           "codcli": "31155",
           "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3108.0
         },
@@ -2616,7 +2616,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40053",
           "cliente": "M DE LEMOS SILVA BEBIDAS",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 2016.0
         },
@@ -2625,7 +2625,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40053",
           "cliente": "M DE LEMOS SILVA BEBIDAS",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 579.9
         },
@@ -2634,7 +2634,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40053",
           "cliente": "M DE LEMOS SILVA BEBIDAS",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 9702.0
         },
@@ -2643,7 +2643,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40053",
           "cliente": "M DE LEMOS SILVA BEBIDAS",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1413.6
         },
@@ -2670,7 +2670,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42699",
           "cliente": "STORM COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1557.6
         },
@@ -2742,7 +2742,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINES 7YO BARREL",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1605.6
         },
@@ -2751,7 +2751,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1437.6
         },
@@ -2769,7 +2769,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50088",
           "cliente": "PARTY PLAY COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1940.4
         },
@@ -2778,7 +2778,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50088",
           "cliente": "PARTY PLAY COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1209.6
         },
@@ -2787,7 +2787,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50088",
           "cliente": "PARTY PLAY COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1413.6
         },
@@ -2814,7 +2814,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49227",
           "cliente": "CENTRAL BEBIDAS E TABACARIA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1209.6
         },
@@ -2823,7 +2823,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49227",
           "cliente": "CENTRAL BEBIDAS E TABACARIA LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 514.8
         },
@@ -2832,7 +2832,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50118",
           "cliente": "BRANDINELI COMERCIO ATACADISTA DE MERCADORIAS EM GERAL LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3108.0
         },
@@ -2841,7 +2841,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49448",
           "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 12936.0
         },
@@ -2859,7 +2859,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50139",
           "cliente": "CP VILLA DISTRIBUIDORA LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 5016.0
         },
@@ -2904,7 +2904,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49555",
           "cliente": "JEREMIAS DOS SANTOS SILVA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -2913,7 +2913,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49555",
           "cliente": "JEREMIAS DOS SANTOS SILVA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -2931,7 +2931,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49555",
           "cliente": "JEREMIAS DOS SANTOS SILVA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -2940,7 +2940,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49555",
           "cliente": "JEREMIAS DOS SANTOS SILVA",
           "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 718.8
         },
@@ -2949,7 +2949,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50177",
           "cliente": "PARRILHA & VIEIRA PRODUTOS ALIMENTICIOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 3225.6
         },
@@ -2976,7 +2976,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50239",
           "cliente": "ALTAS HORAS MERCEARIA E CONVENIENCIA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 2016.0
         },
@@ -2994,7 +2994,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50160",
           "cliente": "A & C COMERCIO DE BEBIDAS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -3003,7 +3003,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50160",
           "cliente": "A & C COMERCIO DE BEBIDAS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 84,
           "valor": 1755.6
         },
@@ -3012,7 +3012,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50160",
           "cliente": "A & C COMERCIO DE BEBIDAS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3108.0
         },
@@ -3021,7 +3021,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30260",
           "cliente": "COMERCIAL CRESCER LTDA",
           "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 6038.4
         },
@@ -3030,7 +3030,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30260",
           "cliente": "COMERCIAL CRESCER LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3774.0
         },
@@ -3039,7 +3039,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49110",
           "cliente": "BLACK BEV ATACADISTA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         },
@@ -3057,7 +3057,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50034",
           "cliente": "DISTRIBUIDORA DE BEBIDAS M P PIRACICABA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 6048.0
         },
@@ -3066,7 +3066,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50045",
           "cliente": "ADIR JOAQUIM LEME",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 8064.0
         }
@@ -3077,7 +3077,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32788",
           "cliente": "FOOD CENTER ALIMENTOS E BEBIDAS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3325.2
         },
@@ -3104,7 +3104,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27224",
           "cliente": "BOB PECHINCA ATACADISTA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 672,
           "valor": 18614.4
         },
@@ -3158,7 +3158,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27226",
           "cliente": "BOB PECHINCA ATACADISTA LTDA",
           "produto": "WHISKY CHIVAS REGAL EXTRA 13 YO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 678.54
         },
@@ -3194,7 +3194,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27227",
           "cliente": "BOB PECHINCA ATACADISTA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 672,
           "valor": 18614.4
         },
@@ -3288,7 +3288,7 @@ const VENDAS_SP_DATA = {
           "codcli": "22703",
           "cliente": "GENERAL BANANA BAR E RESTAURANTE SA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 203.8
         },
@@ -3315,7 +3315,7 @@ const VENDAS_SP_DATA = {
           "codcli": "22703",
           "cliente": "GENERAL BANANA BAR E RESTAURANTE SA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -3324,7 +3324,7 @@ const VENDAS_SP_DATA = {
           "codcli": "22703",
           "cliente": "GENERAL BANANA BAR E RESTAURANTE SA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 10,
           "valor": 539.0
         },
@@ -3333,7 +3333,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32426",
           "cliente": "PIRANA - AUTO SERVICO LTDA",
           "produto": "APERITIVO LILLET BRANCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 329.7
         },
@@ -3360,7 +3360,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32426",
           "cliente": "PIRANA - AUTO SERVICO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         },
@@ -3369,7 +3369,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32426",
           "cliente": "PIRANA - AUTO SERVICO LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 804.0
         },
@@ -3522,7 +3522,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32797",
           "cliente": "EMPORIO DOS PRIMOS VIEIRA LTDA",
           "produto": "WHISKY ROYAL SALUTE MALT EDITION 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 629.9
         },
@@ -3576,7 +3576,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32797",
           "cliente": "EMPORIO DOS PRIMOS VIEIRA LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 305.7
         },
@@ -3585,7 +3585,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32797",
           "cliente": "EMPORIO DOS PRIMOS VIEIRA LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 579.8
         },
@@ -3621,7 +3621,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32797",
           "cliente": "EMPORIO DOS PRIMOS VIEIRA LTDA",
           "produto": "WHISKY ROYAL SALUTE 21YO GRAIN 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 629.9
         },
@@ -3630,7 +3630,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32797",
           "cliente": "EMPORIO DOS PRIMOS VIEIRA LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 629.9
         },
@@ -3675,7 +3675,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43134",
           "cliente": "VAREJAO TATU LTDA",
           "produto": "GIN MONKEY 47 500ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 477.8
         },
@@ -3693,7 +3693,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47840",
           "cliente": "FIGUEIREDO & CAMARGO PRODUTOS ALIMENTICIOS LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 113.8
         },
@@ -3702,7 +3702,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47840",
           "cliente": "FIGUEIREDO & CAMARGO PRODUTOS ALIMENTICIOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 111.0
         },
@@ -3729,7 +3729,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25075",
           "cliente": "EMPORIO SANTA VERENA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -3738,7 +3738,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25075",
           "cliente": "EMPORIO SANTA VERENA LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 658.8
         },
@@ -3765,7 +3765,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49385",
           "cliente": "QUALIDADE RIO CLARO COMÉRCIO VAREJISTA DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3594.0
         },
@@ -3783,7 +3783,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49454",
           "cliente": "BURANI EMPORIO, BEBIDAS E IMPORTADOS LTDA",
           "produto": "WHISKY GLENLIVET 15 ANOS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 779.8
         },
@@ -3792,7 +3792,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49454",
           "cliente": "BURANI EMPORIO, BEBIDAS E IMPORTADOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 203.8
         },
@@ -3810,7 +3810,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49454",
           "cliente": "BURANI EMPORIO, BEBIDAS E IMPORTADOS LTDA",
           "produto": "APERITIVO RAMAZZOTTI AMARO 7O0ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 173.7
         },
@@ -3846,7 +3846,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49454",
           "cliente": "BURANI EMPORIO, BEBIDAS E IMPORTADOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 353.4
         },
@@ -3864,7 +3864,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49455",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 51.8
         },
@@ -3909,7 +3909,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49455",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT ELYX 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 146.48
         },
@@ -3918,7 +3918,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49458",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT ELYX 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 292.96
         },
@@ -3936,7 +3936,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49459",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 129.8
         },
@@ -3981,7 +3981,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49459",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT ELYX 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 146.48
         },
@@ -4035,7 +4035,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49461",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT ELYX 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 146.48
         },
@@ -4044,7 +4044,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49461",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 323.4
         },
@@ -4053,7 +4053,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49461",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 402.0
         },
@@ -4071,7 +4071,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49463",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 155.4
         },
@@ -4116,7 +4116,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49463",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT ELYX 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 146.48
         },
@@ -4125,7 +4125,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49463",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 402.0
         },
@@ -4161,7 +4161,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49464",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -4188,7 +4188,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49464",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT ELYX 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 146.48
         },
@@ -4224,7 +4224,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49466",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 201.0
         },
@@ -4233,7 +4233,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49387",
           "cliente": "INFANGER & CIA LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 2156.4
         }
@@ -4253,7 +4253,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32426",
           "cliente": "PIRANA - AUTO SERVICO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1976.4
         },
@@ -4262,7 +4262,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43382",
           "cliente": "DAL GIARDINO RISTORANTE & EMPORIO LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 5,
           "valor": 129.5
         },
@@ -4271,7 +4271,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43382",
           "cliente": "DAL GIARDINO RISTORANTE & EMPORIO LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 85.8
         },
@@ -4280,7 +4280,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43382",
           "cliente": "DAL GIARDINO RISTORANTE & EMPORIO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -4298,7 +4298,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43143",
           "cliente": "BRAIT & PELLISSON LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -4343,7 +4343,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25075",
           "cliente": "EMPORIO SANTA VERENA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 334.8
         },
@@ -4361,7 +4361,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49454",
           "cliente": "BURANI EMPORIO, BEBIDAS E IMPORTADOS LTDA",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 191.8
         },
@@ -4370,7 +4370,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49454",
           "cliente": "BURANI EMPORIO, BEBIDAS E IMPORTADOS LTDA",
           "produto": "WHISKY ROYAL SALUTE 21YO GRAIN 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 579.9
         },
@@ -4379,7 +4379,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49454",
           "cliente": "BURANI EMPORIO, BEBIDAS E IMPORTADOS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 579.9
         },
@@ -4415,7 +4415,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49387",
           "cliente": "INFANGER & CIA LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 562.8
         },
@@ -4424,7 +4424,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49387",
           "cliente": "INFANGER & CIA LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 850.8
         },
@@ -4433,7 +4433,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49387",
           "cliente": "INFANGER & CIA LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 778.8
         },
@@ -4442,7 +4442,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49387",
           "cliente": "INFANGER & CIA LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -4451,7 +4451,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49387",
           "cliente": "INFANGER & CIA LTDA",
           "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 850.8
         },
@@ -4460,7 +4460,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49387",
           "cliente": "INFANGER & CIA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         },
@@ -4469,7 +4469,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49387",
           "cliente": "INFANGER & CIA LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 562.8
         },
@@ -4478,7 +4478,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49387",
           "cliente": "INFANGER & CIA LTDA",
           "produto": "WHISKY JAMESON 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 1068.0
         },
@@ -4487,7 +4487,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49387",
           "cliente": "INFANGER & CIA LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 579.9
         },
@@ -4496,7 +4496,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49387",
           "cliente": "INFANGER & CIA LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 838.8
         },
@@ -4514,7 +4514,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49387",
           "cliente": "INFANGER & CIA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 402.0
         },
@@ -4552,7 +4552,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28991",
           "cliente": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 728.04
         },
@@ -4561,7 +4561,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28991",
           "cliente": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 2663.4
         },
@@ -4570,7 +4570,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28991",
           "cliente": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 2592.0
         },
@@ -4626,7 +4626,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28991",
           "cliente": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2583.6
         },
@@ -4635,7 +4635,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28991",
           "cliente": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1291.8
         },
@@ -4644,7 +4644,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39897",
           "cliente": "MIAMI SPORTS IMPORTADORA E EXPORTADORA LTDA",
           "produto": "WHISKY ROYAL SALUTE 21YO GRAIN 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3892.8
         },
@@ -4653,7 +4653,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39897",
           "cliente": "MIAMI SPORTS IMPORTADORA E EXPORTADORA LTDA",
           "produto": "WHISKY CHIVAS REGAL EXTRA 13 YO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 678.54
         },
@@ -4662,7 +4662,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39897",
           "cliente": "MIAMI SPORTS IMPORTADORA E EXPORTADORA LTDA",
           "produto": "WHISKY CHIVAS REGAL XV 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1111.8
         },
@@ -4716,7 +4716,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39897",
           "cliente": "MIAMI SPORTS IMPORTADORA E EXPORTADORA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 703.32
         },
@@ -4734,7 +4734,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39897",
           "cliente": "MIAMI SPORTS IMPORTADORA E EXPORTADORA LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 3583.2
         },
@@ -4779,7 +4779,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43134",
           "cliente": "VAREJAO TATU LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 351.66
         },
@@ -4788,7 +4788,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43134",
           "cliente": "VAREJAO TATU LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 407.28
         },
@@ -4824,7 +4824,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48113",
           "cliente": "SUPERMERCADO NOVO MUNDO AMERICANA LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 555.0
         },
@@ -4907,7 +4907,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39897",
           "cliente": "MIAMI SPORTS IMPORTADORA E EXPORTADORA LTDA",
           "produto": "ABERLOUR 12 ANOS 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 2792.16
         },
@@ -4961,7 +4961,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39897",
           "cliente": "MIAMI SPORTS IMPORTADORA E EXPORTADORA LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 274.38
         },
@@ -4970,7 +4970,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39897",
           "cliente": "MIAMI SPORTS IMPORTADORA E EXPORTADORA LTDA",
           "produto": "WHISKY GLENLIVET CARIBEAN RESERVE",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 550.38
         },
@@ -5051,7 +5051,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49272",
           "cliente": "COMACHIO & SILVA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 176.7
         },
@@ -5069,7 +5069,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49272",
           "cliente": "COMACHIO & SILVA LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 140.7
         },
@@ -5208,7 +5208,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1739.4
         },
@@ -5298,7 +5298,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38500",
           "cliente": "CONVEM SUPERMERCADOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 790.8
         },
@@ -5307,7 +5307,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "WHISKY PASSPORT HONEY 670ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 15,
           "valor": 598.5
         },
@@ -5316,7 +5316,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 814.8
         },
@@ -5505,7 +5505,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48414",
           "cliente": "CENTRO DE DISTRIBUICAO BUTANTA LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1614.0
         },
@@ -5523,7 +5523,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49168",
           "cliente": "RIO TAMA DISTRIBUIDORA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 161.4
         },
@@ -5561,7 +5561,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23845",
           "cliente": "GRUPO FARTURA DE HORTIFRUT S.A.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 6216.0
         },
@@ -5624,7 +5624,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3234.0
         },
@@ -5633,7 +5633,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -5642,7 +5642,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3228.0
         },
@@ -5669,7 +5669,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -5786,7 +5786,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38500",
           "cliente": "CONVEM SUPERMERCADOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -5831,7 +5831,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49177",
           "cliente": "SUPERMERCADO CONVEM DE PERDOES LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -5849,7 +5849,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49177",
           "cliente": "SUPERMERCADO CONVEM DE PERDOES LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 155.4
         }
@@ -5869,7 +5869,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23845",
           "cliente": "GRUPO FARTURA DE HORTIFRUT S.A.",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6748.8
         },
@@ -5878,7 +5878,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23845",
           "cliente": "GRUPO FARTURA DE HORTIFRUT S.A.",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6748.8
         },
@@ -5932,7 +5932,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27534",
           "cliente": "SUPER VIP COMERCIAL ALIMENTICIOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 2120.4
         },
@@ -5950,7 +5950,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 838.8
         },
@@ -5968,7 +5968,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -5995,7 +5995,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "VODKA ABSOLUT - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1796.4
         },
@@ -6013,7 +6013,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 2827.2
         },
@@ -6078,7 +6078,7 @@ const VENDAS_SP_DATA = {
           "codcli": "31134",
           "cliente": "HORTIFRUTI E SUPERMERCADO BRAZ LEME - LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 1936.8
         },
@@ -6096,7 +6096,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27534",
           "cliente": "SUPER VIP COMERCIAL ALIMENTICIOS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3779.4
         },
@@ -6132,7 +6132,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1674.0
         },
@@ -6150,7 +6150,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1739.4
         },
@@ -6159,7 +6159,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1614.0
         },
@@ -6168,7 +6168,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1581.6
         },
@@ -6177,7 +6177,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 2731.2
         },
@@ -6186,7 +6186,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1608.0
         },
@@ -6195,7 +6195,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3414.0
         },
@@ -6213,7 +6213,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 968.4
         },
@@ -6222,7 +6222,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3954.0
         },
@@ -6285,7 +6285,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -6294,7 +6294,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -6303,7 +6303,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -6321,7 +6321,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1413.6
         },
@@ -6330,7 +6330,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 682.8
         },
@@ -6339,7 +6339,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 666.0
         },
@@ -6348,7 +6348,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1332.0
         },
@@ -6366,7 +6366,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3534.0
         },
@@ -6375,7 +6375,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1125.6
         },
@@ -6384,7 +6384,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1965.6
         },
@@ -6393,7 +6393,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "WHISKY CHIVAS REGAL XV 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1079.4
         },
@@ -6402,7 +6402,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "WHISKY CHIVAS REGAL EXTRA 13 YO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 658.8
         },
@@ -6429,7 +6429,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3779.4
         },
@@ -6456,7 +6456,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3534.0
         },
@@ -6465,7 +6465,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "VODKA ABSOLUT - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1796.4
         },
@@ -6474,7 +6474,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "WHISKY CHIVAS REGAL XV 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1079.4
         },
@@ -6483,7 +6483,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "WHISKY CHIVAS REGAL EXTRA 13 YO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 658.8
         },
@@ -6510,7 +6510,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3779.4
         },
@@ -6519,7 +6519,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 968.4
         },
@@ -6528,7 +6528,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3954.0
         },
@@ -6591,7 +6591,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -6600,7 +6600,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -6609,7 +6609,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -6618,7 +6618,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1413.6
         },
@@ -6627,7 +6627,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 682.8
         },
@@ -6636,7 +6636,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 666.0
         },
@@ -6645,7 +6645,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 666.0
         },
@@ -6663,7 +6663,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1413.6
         },
@@ -6672,7 +6672,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1125.6
         },
@@ -6690,7 +6690,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36699",
           "cliente": "HORTIFRUTI CELSO GARCIA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1291.2
         },
@@ -6699,7 +6699,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36699",
           "cliente": "HORTIFRUTI CELSO GARCIA LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3779.4
         },
@@ -6717,7 +6717,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 850.8
         },
@@ -6744,7 +6744,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 538.8
         },
@@ -6807,7 +6807,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3534.0
         },
@@ -6816,7 +6816,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 838.8
         },
@@ -6861,7 +6861,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6000,
           "valor": 125520.0
         },
@@ -6870,7 +6870,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2400,
           "valor": 49176.0
         },
@@ -6879,7 +6879,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 39603.6
         },
@@ -6888,7 +6888,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY  BALLANTINES 10YO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 15946.2
         },
@@ -6897,7 +6897,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1200,
           "valor": 55080.0
         },
@@ -6906,7 +6906,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 480,
           "valor": 48960.0
         },
@@ -6915,7 +6915,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "VODKA ABSOLUT - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 94,
           "valor": 4601.3
         },
@@ -6924,7 +6924,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "GIN ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 6107.4
         },
@@ -6933,7 +6933,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1200,
           "valor": 23904.0
         },
@@ -6942,7 +6942,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1200,
           "valor": 24588.0
         },
@@ -6951,7 +6951,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY PASSPORT HONEY 670ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 168,
           "valor": 6709.92
         },
@@ -6969,7 +6969,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48277",
           "cliente": "SACOLAO PIO XI LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 322.8
         },
@@ -7014,7 +7014,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48277",
           "cliente": "SACOLAO PIO XI LTDA.",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -7023,7 +7023,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48277",
           "cliente": "SACOLAO PIO XI LTDA.",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -7032,7 +7032,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48277",
           "cliente": "SACOLAO PIO XI LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -7068,7 +7068,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48277",
           "cliente": "SACOLAO PIO XI LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 706.8
         },
@@ -7077,7 +7077,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48277",
           "cliente": "SACOLAO PIO XI LTDA.",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 706.8
         },
@@ -7086,7 +7086,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48277",
           "cliente": "SACOLAO PIO XI LTDA.",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 982.8
         }
@@ -7151,7 +7151,7 @@ const VENDAS_SP_DATA = {
           "codcli": "26977",
           "cliente": "MINI MERCADO HORTISABOR LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 32340.0
         },
@@ -7313,7 +7313,7 @@ const VENDAS_SP_DATA = {
           "codcli": "28247",
           "cliente": "COMERCIAL TATENO DELIHOUSE LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 2587.2
         },
@@ -7340,7 +7340,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38500",
           "cliente": "CONVEM SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -7394,7 +7394,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38500",
           "cliente": "CONVEM SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1617.0
         },
@@ -7412,7 +7412,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38500",
           "cliente": "CONVEM SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 718.8
         },
@@ -7421,7 +7421,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38500",
           "cliente": "CONVEM SUPERMERCADOS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4,
           "valor": 2391.6
         },
@@ -7439,7 +7439,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38501",
           "cliente": "CONVEM SUPERMERCADOS DE BRAGANCA LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1617.0
         },
@@ -7448,7 +7448,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38501",
           "cliente": "CONVEM SUPERMERCADOS DE BRAGANCA LTDA.",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -7457,7 +7457,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38501",
           "cliente": "CONVEM SUPERMERCADOS DE BRAGANCA LTDA.",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 52.9
         },
@@ -7466,7 +7466,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38501",
           "cliente": "CONVEM SUPERMERCADOS DE BRAGANCA LTDA.",
           "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 281.4
         },
@@ -7529,7 +7529,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38501",
           "cliente": "CONVEM SUPERMERCADOS DE BRAGANCA LTDA.",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4,
           "valor": 2319.6
         },
@@ -7556,7 +7556,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 1504.8
         },
@@ -7565,7 +7565,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 645.6
         },
@@ -7574,7 +7574,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 778.8
         },
@@ -7583,7 +7583,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "WHISKY PASSPORT HONEY 670ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 2394.0
         },
@@ -7601,7 +7601,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 514.8
         },
@@ -7610,7 +7610,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -7637,7 +7637,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1677.6
         },
@@ -7655,7 +7655,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6468.0
         },
@@ -7664,7 +7664,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 21204.0
         },
@@ -7682,7 +7682,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3894.0
         },
@@ -7700,7 +7700,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3774.0
         },
@@ -7709,7 +7709,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 6958.8
         },
@@ -7772,7 +7772,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49168",
           "cliente": "RIO TAMA DISTRIBUIDORA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -7781,7 +7781,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49178",
           "cliente": "SUPERMERCADO NAKAMITSU LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 155.4
         },
@@ -7790,7 +7790,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49178",
           "cliente": "SUPERMERCADO NAKAMITSU LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -7799,7 +7799,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49178",
           "cliente": "SUPERMERCADO NAKAMITSU LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -7830,7 +7830,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25192",
           "cliente": "AGUAS BOAS D MINAS E DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0
         },
@@ -7839,7 +7839,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23136",
           "cliente": "ADEGA GLOBAL LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 4662.0
         },
@@ -7848,7 +7848,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30334",
           "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 403.2
         },
@@ -7884,7 +7884,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30334",
           "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 238.8
         },
@@ -7893,7 +7893,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30334",
           "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -7902,7 +7902,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30334",
           "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -8019,7 +8019,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46352",
           "cliente": "JSP COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -8073,7 +8073,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49730",
           "cliente": "ADEGA E MERCADINHO MACEDONIO LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3479.4
         },
@@ -8082,7 +8082,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50021",
           "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 210,
           "valor": 121779.0
         },
@@ -8091,7 +8091,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50021",
           "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2040,
           "valor": 108099.6
         }
@@ -8138,7 +8138,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23136",
           "cliente": "ADEGA GLOBAL LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 477.6
         },
@@ -8147,7 +8147,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30685",
           "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6468.0
         },
@@ -8156,7 +8156,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39053",
           "cliente": "MERCADINHO DO COLMEIA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -8219,7 +8219,7 @@ const VENDAS_SP_DATA = {
           "codcli": "41307",
           "cliente": "JJ ADEGA TERRACOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 932.4
         },
@@ -8228,7 +8228,7 @@ const VENDAS_SP_DATA = {
           "codcli": "41307",
           "cliente": "JJ ADEGA TERRACOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -8237,7 +8237,7 @@ const VENDAS_SP_DATA = {
           "codcli": "41307",
           "cliente": "JJ ADEGA TERRACOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 778.8
         },
@@ -8246,7 +8246,7 @@ const VENDAS_SP_DATA = {
           "codcli": "41307",
           "cliente": "JJ ADEGA TERRACOS LTDA",
           "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -8255,7 +8255,7 @@ const VENDAS_SP_DATA = {
           "codcli": "41307",
           "cliente": "JJ ADEGA TERRACOS LTDA",
           "produto": "GIN BEEFEATER 24 ANOS 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 809.4
         },
@@ -8264,7 +8264,7 @@ const VENDAS_SP_DATA = {
           "codcli": "41307",
           "cliente": "JJ ADEGA TERRACOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 377.4
         },
@@ -8318,7 +8318,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49284",
           "cliente": "JEWINE COMERCIAL LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         }
@@ -8567,7 +8567,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23070",
           "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3234.0
         },
@@ -8603,7 +8603,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33545",
           "cliente": "LATICINIOS MARCELO LTDA ME",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         },
@@ -8630,7 +8630,7 @@ const VENDAS_SP_DATA = {
           "codcli": "39897",
           "cliente": "MIAMI SPORTS IMPORTADORA E EXPORTADORA LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 13917.6
         },
@@ -8668,7 +8668,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23070",
           "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1940.4
         },
@@ -8686,7 +8686,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32446",
           "cliente": "COMERCIO DE BEBIDAS MARQUES DOURADO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 3880.8
         },
@@ -8724,7 +8724,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23070",
           "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -8755,7 +8755,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25914",
           "cliente": "VILA MADALENA CONVENIENCIAS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 19.9
         },
@@ -8764,7 +8764,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25914",
           "cliente": "VILA MADALENA CONVENIENCIAS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 53.9
         },
@@ -8773,7 +8773,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25914",
           "cliente": "VILA MADALENA CONVENIENCIAS LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 52.9
         },
@@ -8782,7 +8782,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25914",
           "cliente": "VILA MADALENA CONVENIENCIAS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 52.9
         },
@@ -8791,7 +8791,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25914",
           "cliente": "VILA MADALENA CONVENIENCIAS LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 52.9
         },
@@ -8818,7 +8818,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25914",
           "cliente": "VILA MADALENA CONVENIENCIAS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 20.9
         },
@@ -8827,7 +8827,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25914",
           "cliente": "VILA MADALENA CONVENIENCIAS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 25.9
         },
@@ -8845,7 +8845,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25914",
           "cliente": "VILA MADALENA CONVENIENCIAS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 33.6
         },
@@ -8917,7 +8917,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48340",
           "cliente": "RAI SUPERMERCADO ATACADISTA LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 238.8
         },
@@ -8944,7 +8944,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48414",
           "cliente": "CENTRO DE DISTRIBUICAO BUTANTA LTDA.",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3479.4
         },
@@ -9009,7 +9009,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38470",
           "cliente": "SUPERMERCADO OURINHOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML - DEST",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 538.8
         },
@@ -9018,7 +9018,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38470",
           "cliente": "SUPERMERCADO OURINHOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3234.0
         },
@@ -9027,7 +9027,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38470",
           "cliente": "SUPERMERCADO OURINHOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 2016.0
         },
@@ -9036,7 +9036,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 576,
           "valor": 11232.0
         },
@@ -9054,7 +9054,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3288,
           "valor": 103572.0
         },
@@ -9063,7 +9063,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 744,
           "valor": 23436.0
         },
@@ -9072,7 +9072,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 5808,
           "valor": 110352.0
         },
@@ -9081,7 +9081,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1440,
           "valor": 36432.0
         },
@@ -9090,7 +9090,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47399",
           "cliente": "SUPERMERCADOS BERGAMINI LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1674.0
         },
@@ -9099,7 +9099,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47399",
           "cliente": "SUPERMERCADOS BERGAMINI LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 538.8
         },
@@ -9117,7 +9117,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47399",
           "cliente": "SUPERMERCADOS BERGAMINI LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML - DEST",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 538.8
         },
@@ -9171,7 +9171,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47400",
           "cliente": "SUPERMERCADOS BERGAMINI LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 538.8
         },
@@ -9198,7 +9198,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47400",
           "cliente": "SUPERMERCADOS BERGAMINI LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 808.2
         },
@@ -9234,7 +9234,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47400",
           "cliente": "SUPERMERCADOS BERGAMINI LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1194.0
         },
@@ -9243,7 +9243,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47400",
           "cliente": "SUPERMERCADOS BERGAMINI LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1194.0
         },
@@ -9261,7 +9261,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47400",
           "cliente": "SUPERMERCADOS BERGAMINI LTDA",
           "produto": "WHISKY CHIVAS REGAL XV 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4,
           "valor": 719.6
         },
@@ -9270,7 +9270,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47400",
           "cliente": "SUPERMERCADOS BERGAMINI LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 8370.0
         },
@@ -9279,7 +9279,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47400",
           "cliente": "SUPERMERCADOS BERGAMINI LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 19404.0
         },
@@ -9297,7 +9297,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48007",
           "cliente": "ANDORINHA SUPERMERCADO LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 432,
           "valor": 28036.8
         },
@@ -9306,7 +9306,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48007",
           "cliente": "ANDORINHA SUPERMERCADO LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 408,
           "valor": 25663.2
         },
@@ -9315,7 +9315,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48007",
           "cliente": "ANDORINHA SUPERMERCADO LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 17397.0
         },
@@ -9324,7 +9324,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48007",
           "cliente": "ANDORINHA SUPERMERCADO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 19404.0
         },
@@ -9333,7 +9333,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48007",
           "cliente": "ANDORINHA SUPERMERCADO LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 4662.0
         },
@@ -9351,7 +9351,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48323",
           "cliente": "ADEGA E EMPORIO PIPOS LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 718.8
         },
@@ -9360,7 +9360,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48323",
           "cliente": "ADEGA E EMPORIO PIPOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 1168.2
         },
@@ -9369,7 +9369,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48323",
           "cliente": "ADEGA E EMPORIO PIPOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -9378,7 +9378,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48323",
           "cliente": "ADEGA E EMPORIO PIPOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 317.4
         },
@@ -9387,7 +9387,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48340",
           "cliente": "RAI SUPERMERCADO ATACADISTA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -9396,7 +9396,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48414",
           "cliente": "CENTRO DE DISTRIBUICAO BUTANTA LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -9405,7 +9405,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49264",
           "cliente": "52.593.451 ALEX DE OLIVEIRA PENELLE",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 125.8
         },
@@ -9423,7 +9423,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49264",
           "cliente": "52.593.451 ALEX DE OLIVEIRA PENELLE",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 323.4
         },
@@ -9432,7 +9432,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49264",
           "cliente": "52.593.451 ALEX DE OLIVEIRA PENELLE",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 59.9
         },
@@ -9450,7 +9450,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49264",
           "cliente": "52.593.451 ALEX DE OLIVEIRA PENELLE",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 579.0
         },
@@ -9459,7 +9459,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49264",
           "cliente": "52.593.451 ALEX DE OLIVEIRA PENELLE",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 42.9
         },
@@ -9468,7 +9468,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49264",
           "cliente": "52.593.451 ALEX DE OLIVEIRA PENELLE",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 194.7
         },
@@ -9524,7 +9524,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2688,
           "valor": 51072.0
         },
@@ -9533,7 +9533,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 9792,
           "valor": 308448.0
         },
@@ -9542,7 +9542,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 576,
           "valor": 11232.0
         },
@@ -9551,7 +9551,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 5808,
           "valor": 113256.0
         },
@@ -9560,7 +9560,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48007",
           "cliente": "ANDORINHA SUPERMERCADO LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 18897.0
         },
@@ -9569,7 +9569,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48321",
           "cliente": "57.796.391 MAYARA KEREN SILVA MACHADO",
           "produto": "WHISKY PASSPORT HONEY 670ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 29,
           "valor": 1157.1
         },
@@ -9578,7 +9578,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48323",
           "cliente": "ADEGA E EMPORIO PIPOS LTDA",
           "produto": "GIN BEEFEATER 24 ANOS 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 809.4
         },
@@ -9605,7 +9605,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48323",
           "cliente": "ADEGA E EMPORIO PIPOS LTDA",
           "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 359.4
         },
@@ -9632,7 +9632,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48323",
           "cliente": "ADEGA E EMPORIO PIPOS LTDA",
           "produto": "WHISKY JAMESON CASKMATES IPA EDIT 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 11,
           "valor": 836.44
         },
@@ -9641,7 +9641,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48323",
           "cliente": "ADEGA E EMPORIO PIPOS LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 514.8
         },
@@ -9659,7 +9659,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48340",
           "cliente": "RAI SUPERMERCADO ATACADISTA LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -9677,7 +9677,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48340",
           "cliente": "RAI SUPERMERCADO ATACADISTA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 414.0
         },
@@ -9686,7 +9686,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48414",
           "cliente": "CENTRO DE DISTRIBUICAO BUTANTA LTDA.",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 708.0
         },
@@ -9695,7 +9695,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48414",
           "cliente": "CENTRO DE DISTRIBUICAO BUTANTA LTDA.",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 514.8
         },
@@ -9704,7 +9704,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48414",
           "cliente": "CENTRO DE DISTRIBUICAO BUTANTA LTDA.",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 658.8
         },
@@ -9713,7 +9713,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48414",
           "cliente": "CENTRO DE DISTRIBUICAO BUTANTA LTDA.",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3479.4
         },
@@ -9731,7 +9731,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48414",
           "cliente": "CENTRO DE DISTRIBUICAO BUTANTA LTDA.",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -9767,7 +9767,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49264",
           "cliente": "52.593.451 ALEX DE OLIVEIRA PENELLE",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 164.7
         },
@@ -9776,7 +9776,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49264",
           "cliente": "52.593.451 ALEX DE OLIVEIRA PENELLE",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 100.8
         },
@@ -9798,7 +9798,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 300,
           "valor": 6270.0
         },
@@ -9807,7 +9807,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
           "produto": "LICOR DE WHISKY PASSPORT APPLE",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 15,
           "valor": 538.5
         },
@@ -9816,7 +9816,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         },
@@ -9825,7 +9825,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -9834,7 +9834,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -9843,7 +9843,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
           "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -9861,7 +9861,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -9870,7 +9870,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 778.8
         },
@@ -9879,7 +9879,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -9888,7 +9888,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47295",
           "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 188.7
         },
@@ -9897,7 +9897,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47295",
           "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 188.7
         },
@@ -9924,7 +9924,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50089",
           "cliente": "JOTA ADEGA BAHIA LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 176.7
         },
@@ -9933,7 +9933,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50089",
           "cliente": "JOTA ADEGA BAHIA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 100.8
         },
@@ -9951,7 +9951,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50253",
           "cliente": "54.699.463 JESSICA SANTIAGO JARDIM",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1413.6
         },
@@ -9960,7 +9960,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50253",
           "cliente": "54.699.463 JESSICA SANTIAGO JARDIM",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 778.8
         },
@@ -9969,7 +9969,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50253",
           "cliente": "54.699.463 JESSICA SANTIAGO JARDIM",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -9978,7 +9978,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50253",
           "cliente": "54.699.463 JESSICA SANTIAGO JARDIM",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -10023,7 +10023,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50141",
           "cliente": "SUELI SOUSA DE ARAUJO 25490676817",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -10032,7 +10032,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49728",
           "cliente": "M&E MINIMERCADO LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -10050,7 +10050,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49731",
           "cliente": "ADEGA DO IVO LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0
         },
@@ -10059,7 +10059,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49731",
           "cliente": "ADEGA DO IVO LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 932.4
         },
@@ -10068,7 +10068,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49731",
           "cliente": "ADEGA DO IVO LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -10077,7 +10077,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49731",
           "cliente": "ADEGA DO IVO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -10086,7 +10086,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49731",
           "cliente": "ADEGA DO IVO LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 806.4
         },
@@ -10104,7 +10104,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49962",
           "cliente": "JOAO VITOR CEDRO HERNANDES COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 806.4
         },
@@ -10113,7 +10113,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49962",
           "cliente": "JOAO VITOR CEDRO HERNANDES COMERCIO DE BEBIDAS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 389.4
         },
@@ -10122,7 +10122,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49962",
           "cliente": "JOAO VITOR CEDRO HERNANDES COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 706.8
         },
@@ -10131,7 +10131,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50354",
           "cliente": "MARIANA VIEIRA SANTIAGO 45604784818",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 778.8
         }
@@ -10151,7 +10151,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47295",
           "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 403.2
         },
@@ -10160,7 +10160,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47295",
           "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 90,
           "valor": 5841.0
         },
@@ -10169,7 +10169,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47295",
           "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1940.4
         },
@@ -10178,7 +10178,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47295",
           "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 329.4
         },
@@ -10187,7 +10187,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47295",
           "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 329.4
         },
@@ -10196,7 +10196,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47295",
           "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 329.4
         },
@@ -10205,7 +10205,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49961",
           "cliente": "DISTRIBUIDORA DO TIOZINHO ATACADO E VAREJO LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 3115.2
         },
@@ -10214,7 +10214,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49961",
           "cliente": "DISTRIBUIDORA DO TIOZINHO ATACADO E VAREJO LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1509.6
         },
@@ -10232,7 +10232,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49729",
           "cliente": "GILVANDA ANDRADE SANTOS 26811406844",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -10268,7 +10268,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50042",
           "cliente": "ADEGA E HOJE DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1509.6
         },
@@ -10295,7 +10295,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50046",
           "cliente": "EMPORIO MARECHAL II LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 389.4
         },
@@ -10304,7 +10304,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50046",
           "cliente": "EMPORIO MARECHAL II LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 377.4
         },
@@ -10322,7 +10322,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49962",
           "cliente": "JOAO VITOR CEDRO HERNANDES COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 105.8
         },
@@ -10331,7 +10331,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49962",
           "cliente": "JOAO VITOR CEDRO HERNANDES COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -10340,7 +10340,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49962",
           "cliente": "JOAO VITOR CEDRO HERNANDES COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 105.8
         },
@@ -10349,7 +10349,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49962",
           "cliente": "JOAO VITOR CEDRO HERNANDES COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 105.8
         },
@@ -10358,7 +10358,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49892",
           "cliente": "ANDERSON QUEIROZ BEZERRA 41041355858",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 1168.2
         },
@@ -10367,7 +10367,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49892",
           "cliente": "ANDERSON QUEIROZ BEZERRA 41041355858",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 658.8
         },
@@ -10425,7 +10425,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32421",
           "cliente": "LIMA & SILVA COMERCIO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 353.4
         },
@@ -10452,7 +10452,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32421",
           "cliente": "LIMA & SILVA COMERCIO DE ALIMENTOS LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 266.52
         },
@@ -10461,7 +10461,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32421",
           "cliente": "LIMA & SILVA COMERCIO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 41.8
         },
@@ -10499,7 +10499,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3600,
           "valor": 68400.0
         }
@@ -10548,7 +10548,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32421",
           "cliente": "LIMA & SILVA COMERCIO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4,
           "valor": 83.6
         },
@@ -10638,7 +10638,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46853",
           "cliente": "ALEXANDRE TEIXEIRA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -10658,7 +10658,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46853",
           "cliente": "ALEXANDRE TEIXEIRA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -10694,7 +10694,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46853",
           "cliente": "ALEXANDRE TEIXEIRA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -10732,7 +10732,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46853",
           "cliente": "ALEXANDRE TEIXEIRA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -10750,7 +10750,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46853",
           "cliente": "ALEXANDRE TEIXEIRA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         }
@@ -10763,7 +10763,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32508",
           "cliente": "CENTRAL OSASCO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7548.0
         },
@@ -10799,7 +10799,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27059",
           "cliente": "VENDPERTO LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -10808,7 +10808,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27059",
           "cliente": "VENDPERTO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 323.4
         },
@@ -10835,7 +10835,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27059",
           "cliente": "VENDPERTO LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1509.6
         },
@@ -10844,7 +10844,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27059",
           "cliente": "VENDPERTO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 14,
           "valor": 754.6
         },
@@ -10862,7 +10862,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27059",
           "cliente": "VENDPERTO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 7,
           "valor": 377.3
         },
@@ -10871,7 +10871,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 12540.0
         },
@@ -10889,7 +10889,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0
         },
@@ -10898,7 +10898,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 6948.0
         },
@@ -10907,7 +10907,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3894.0
         },
@@ -10916,7 +10916,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -10925,7 +10925,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 582.0
         },
@@ -10934,7 +10934,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 314.4
         },
@@ -10943,7 +10943,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6348.0
         },
@@ -10952,7 +10952,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 10692.0
         },
@@ -10961,7 +10961,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 582.0
         },
@@ -10970,7 +10970,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -10988,7 +10988,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3174.0
         },
@@ -10997,7 +10997,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1796.4
         },
@@ -11006,7 +11006,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 582.0
         },
@@ -11015,7 +11015,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 582.0
         },
@@ -11024,7 +11024,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 314.4
         },
@@ -11033,7 +11033,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1947.0
         },
@@ -11042,7 +11042,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 844.2
         },
@@ -11051,7 +11051,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -11069,7 +11069,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1947.0
         },
@@ -11078,7 +11078,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -11087,7 +11087,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1164.0
         },
@@ -11096,7 +11096,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1164.0
         },
@@ -11105,7 +11105,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 628.8
         },
@@ -11114,7 +11114,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6348.0
         },
@@ -11123,7 +11123,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 514.8
         },
@@ -11132,7 +11132,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 144,
           "valor": 12830.4
         },
@@ -11141,7 +11141,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -11150,7 +11150,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 9720.0
         },
@@ -11159,7 +11159,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 42,
           "valor": 1969.8
         },
@@ -11168,7 +11168,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1947.0
         },
@@ -11177,7 +11177,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -11186,7 +11186,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 2994.0
         },
@@ -11195,7 +11195,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1746.0
         },
@@ -11204,7 +11204,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1886.4
         },
@@ -11213,7 +11213,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1287.0
         },
@@ -11222,7 +11222,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -11231,7 +11231,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1947.0
         },
@@ -11240,7 +11240,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1407.0
         },
@@ -11249,7 +11249,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 6948.0
         },
@@ -11258,7 +11258,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7668.0
         },
@@ -11267,7 +11267,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -11276,7 +11276,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1164.0
         },
@@ -11285,7 +11285,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 10692.0
         },
@@ -11294,7 +11294,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 4600.8
         },
@@ -11303,7 +11303,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 1048.8
         },
@@ -11312,7 +11312,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 628.8
         },
@@ -11321,7 +11321,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6348.0
         },
@@ -11330,7 +11330,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 114,
           "valor": 7398.6
         },
@@ -11339,7 +11339,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -11348,7 +11348,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3774.0
         },
@@ -11357,7 +11357,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 6230.4
         },
@@ -11366,7 +11366,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 144,
           "valor": 9201.6
         },
@@ -11375,7 +11375,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -11384,7 +11384,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 582.0
         },
@@ -11393,7 +11393,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 628.8
         },
@@ -11402,7 +11402,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 10692.0
         },
@@ -11411,7 +11411,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3834.0
         },
@@ -11420,7 +11420,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -11438,7 +11438,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 844.2
         },
@@ -11447,7 +11447,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 582.0
         },
@@ -11456,7 +11456,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1947.0
         },
@@ -11465,7 +11465,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -11474,7 +11474,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 582.0
         },
@@ -11483,7 +11483,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 314.4
         },
@@ -11492,7 +11492,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 5078.4
         },
@@ -11501,7 +11501,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1287.0
         },
@@ -11510,7 +11510,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3834.0
         },
@@ -11519,7 +11519,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "RUM HAVANA CLUB 3 YEARS OLD 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 790.8
         },
@@ -11528,7 +11528,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1437.6
         },
@@ -11537,7 +11537,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -11564,7 +11564,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 2875.2
         },
@@ -11573,7 +11573,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 6948.0
         },
@@ -11591,7 +11591,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 5016.0
         },
@@ -11600,7 +11600,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3774.0
         },
@@ -11609,7 +11609,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1947.0
         },
@@ -11618,7 +11618,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7668.0
         },
@@ -11627,7 +11627,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8
         },
@@ -11636,7 +11636,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 314.4
         },
@@ -11645,7 +11645,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6348.0
         },
@@ -11681,7 +11681,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49433",
           "cliente": "SUPERMERCADO SUPRIBEM LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 238.8
         },
@@ -11708,7 +11708,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49835",
           "cliente": "CLAYTON PEREIRA MEDINA MERCADINHO, PADARIA E LANCHONETE",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         },
@@ -11726,7 +11726,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48420",
           "cliente": "TAKARA & CIA LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 377.4
         },
@@ -11744,7 +11744,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48420",
           "cliente": "TAKARA & CIA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         },
@@ -11762,7 +11762,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48421",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 125.4
         },
@@ -11771,7 +11771,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48421",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 77.7
         },
@@ -11825,7 +11825,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48423",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 377.4
         },
@@ -11834,7 +11834,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48423",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         },
@@ -11852,7 +11852,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49836",
           "cliente": "CLAYTON PEREIRA MEDINA MERCADINHO, PADARIA E LANCHONETE",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 107.8
         },
@@ -11879,7 +11879,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49837",
           "cliente": "SUPERMERCADO NOVA CENTRAL LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         },
@@ -11906,7 +11906,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49839",
           "cliente": "BRUNNA MURIEL ANTUNES DE ANDRADE MEDINA MERCADINHO, PADARIA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         },
@@ -11933,7 +11933,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49840",
           "cliente": "SUPERMERCADO NOVA CENTRAL TABOAO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         },
@@ -11960,7 +11960,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49842",
           "cliente": "SUPERMERCADO NOVA CENTRAL EMBU LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         },
@@ -11987,7 +11987,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49843",
           "cliente": "SUPERMERCADO NOVA CENTRAL VILA SONIA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         },
@@ -12050,7 +12050,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49253",
           "cliente": "ULTRA MART ATACADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 125.4
         },
@@ -12059,7 +12059,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49253",
           "cliente": "ULTRA MART ATACADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 77.7
         },
@@ -12068,7 +12068,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49253",
           "cliente": "ULTRA MART ATACADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 188.7
         },
@@ -12086,7 +12086,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49254",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -12095,7 +12095,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49254",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 77.7
         },
@@ -12104,7 +12104,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49254",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 201.0
         },
@@ -12122,7 +12122,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49256",
           "cliente": "EMPORIO BRASILANDIA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 77.7
         },
@@ -12131,7 +12131,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49256",
           "cliente": "EMPORIO BRASILANDIA LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 188.7
         },
@@ -12158,7 +12158,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49256",
           "cliente": "EMPORIO BRASILANDIA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 201.0
         },
@@ -12176,7 +12176,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48426",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 77.7
         },
@@ -12194,7 +12194,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48427",
           "cliente": "COMERCIAL DE ALIMENTOS TAKARA-MUTINGA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         },
@@ -12203,7 +12203,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48427",
           "cliente": "COMERCIAL DE ALIMENTOS TAKARA-MUTINGA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 77.7
         },
@@ -12230,7 +12230,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48429",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 77.7
         },
@@ -12248,7 +12248,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48429",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         }
@@ -12259,7 +12259,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32508",
           "cliente": "CENTRAL OSASCO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 480,
           "valor": 25872.0
         },
@@ -12268,7 +12268,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32508",
           "cliente": "CENTRAL OSASCO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -12277,7 +12277,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32508",
           "cliente": "CENTRAL OSASCO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 621.6
         },
@@ -12286,7 +12286,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32508",
           "cliente": "CENTRAL OSASCO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 806.4
         },
@@ -12295,7 +12295,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32508",
           "cliente": "CENTRAL OSASCO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "WHISKY JAMESON CASKMATES IPA EDIT 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 456.24
         },
@@ -12313,7 +12313,7 @@ const VENDAS_SP_DATA = {
           "codcli": "27059",
           "cliente": "VENDPERTO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 323.4
         },
@@ -12322,7 +12322,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 84,
           "valor": 7341.6
         },
@@ -12331,7 +12331,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 4195.2
         },
@@ -12340,7 +12340,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 84,
           "valor": 7341.6
         },
@@ -12349,7 +12349,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48157",
           "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 672.0
         },
@@ -12358,7 +12358,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48157",
           "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 269.64
         },
@@ -12376,7 +12376,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48166",
           "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 269.64
         },
@@ -12394,7 +12394,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48168",
           "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 840.0
         },
@@ -12403,7 +12403,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48168",
           "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 269.64
         },
@@ -12421,7 +12421,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48171",
           "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 269.64
         },
@@ -12493,7 +12493,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49805",
           "cliente": "SUPER MERCADO JOIA LIMITADA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 10,
           "valor": 259.0
         },
@@ -12520,7 +12520,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49806",
           "cliente": "SUPER MERCADO JOIA LIMITADA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 10,
           "valor": 259.0
         },
@@ -12601,7 +12601,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49806",
           "cliente": "SUPER MERCADO JOIA LIMITADA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 323.4
         },
@@ -12610,7 +12610,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49806",
           "cliente": "SUPER MERCADO JOIA LIMITADA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 403.2
         }
@@ -12666,7 +12666,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1332.0
         },
@@ -12675,7 +12675,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 32076.0
         },
@@ -12684,7 +12684,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 3106.8
         },
@@ -12693,7 +12693,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1311.0
         },
@@ -12711,7 +12711,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3918.0
         },
@@ -12720,7 +12720,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 2622.0
         },
@@ -12738,7 +12738,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 524.4
         },
@@ -12756,7 +12756,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1332.0
         },
@@ -12774,7 +12774,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 10692.0
         },
@@ -12783,7 +12783,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3918.0
         },
@@ -12792,7 +12792,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7836.0
         },
@@ -12801,7 +12801,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 2622.0
         },
@@ -12810,7 +12810,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 10692.0
         },
@@ -12837,7 +12837,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 15672.0
         },
@@ -12846,7 +12846,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3918.0
         },
@@ -12855,7 +12855,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 4142.4
         },
@@ -12864,7 +12864,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1311.0
         },
@@ -12873,7 +12873,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 90,
           "valor": 5877.0
         },
@@ -12891,7 +12891,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 21384.0
         },
@@ -12909,7 +12909,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1311.0
         },
@@ -12918,7 +12918,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3918.0
         },
@@ -12927,7 +12927,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 11754.0
         },
@@ -12945,7 +12945,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3330.0
         },
@@ -12954,7 +12954,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 21384.0
         },
@@ -12963,7 +12963,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1311.0
         },
@@ -12972,7 +12972,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 2622.0
         },
@@ -12981,7 +12981,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3918.0
         },
@@ -12990,7 +12990,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3918.0
         },
@@ -12999,7 +12999,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 300,
           "valor": 19590.0
         },
@@ -13008,7 +13008,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 300,
           "valor": 19590.0
         },
@@ -13017,7 +13017,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 2622.0
         },
@@ -13044,7 +13044,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0
         },
@@ -13062,7 +13062,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 21384.0
         },
@@ -13071,7 +13071,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0
         },
@@ -13080,7 +13080,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 32076.0
         },
@@ -13089,7 +13089,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 5016.0
         },
@@ -13107,7 +13107,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 3106.8
         },
@@ -13116,7 +13116,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1311.0
         },
@@ -13143,7 +13143,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 10692.0
         },
@@ -13152,7 +13152,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 524.4
         }
@@ -13190,7 +13190,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 9720.0
         },
@@ -13199,7 +13199,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2400.0
         },
@@ -13217,7 +13217,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3330.0
         },
@@ -13226,7 +13226,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3330.0
         },
@@ -13235,7 +13235,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 19188.0
         },
@@ -13253,7 +13253,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 3060.0
         },
@@ -13262,7 +13262,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 480,
           "valor": 15840.0
         },
@@ -13271,7 +13271,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 1006.2
         },
@@ -13280,7 +13280,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 5016.0
         },
@@ -13298,7 +13298,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3954.0
         },
@@ -13307,7 +13307,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 3163.2
         },
@@ -13316,7 +13316,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 6326.4
         },
@@ -13325,7 +13325,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 3582.0
         },
@@ -13334,7 +13334,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 2301.6
         },
@@ -13343,7 +13343,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 9720.0
         },
@@ -13352,7 +13352,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 480.0
         },
@@ -13361,7 +13361,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1200.0
         },
@@ -13379,7 +13379,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3330.0
         },
@@ -13388,7 +13388,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1332.0
         },
@@ -13397,7 +13397,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 19188.0
         },
@@ -13415,7 +13415,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 3060.0
         },
@@ -13424,7 +13424,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 11880.0
         },
@@ -13433,7 +13433,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 1006.2
         },
@@ -13442,7 +13442,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 5016.0
         },
@@ -13460,7 +13460,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 3582.0
         },
@@ -13478,7 +13478,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1965.6
         },
@@ -13487,7 +13487,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 9720.0
         },
@@ -13496,7 +13496,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2400.0
         },
@@ -13514,7 +13514,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3330.0
         },
@@ -13523,7 +13523,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 12792.0
         },
@@ -13541,7 +13541,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 3060.0
         },
@@ -13550,7 +13550,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 11880.0
         },
@@ -13559,7 +13559,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 670.8
         },
@@ -13568,7 +13568,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -13604,7 +13604,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 2251.2
         },
@@ -13622,7 +13622,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1200.0
         },
@@ -13631,7 +13631,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2400.0
         },
@@ -13640,7 +13640,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 9720.0
         },
@@ -13649,7 +13649,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 3060.0
         },
@@ -13658,7 +13658,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 11880.0
         },
@@ -13667,7 +13667,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 670.8
         },
@@ -13685,7 +13685,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 720,
           "valor": 38376.0
         },
@@ -13703,7 +13703,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -13721,7 +13721,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 540,
           "valor": 10746.0
         },
@@ -13730,7 +13730,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1965.6
         },
@@ -13739,7 +13739,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1200,
           "valor": 32400.0
         },
@@ -13748,7 +13748,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 156,
           "valor": 3120.0
         },
@@ -13775,7 +13775,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 3060.0
         },
@@ -13784,7 +13784,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 11880.0
         },
@@ -13793,7 +13793,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 1006.2
         },
@@ -13802,7 +13802,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 480,
           "valor": 10032.0
         },
@@ -13811,7 +13811,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 2948.4
         },
@@ -13829,7 +13829,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 11880.0
         },
@@ -13838,7 +13838,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 1006.2
         },
@@ -13847,7 +13847,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1200.0
         },
@@ -13865,7 +13865,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3330.0
         },
@@ -13874,7 +13874,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 720,
           "valor": 38376.0
         },
@@ -13892,7 +13892,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 3060.0
         },
@@ -13901,7 +13901,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 16200.0
         },
@@ -13910,7 +13910,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -13919,7 +13919,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 2372.4
         },
@@ -13937,7 +13937,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1965.6
         },
@@ -13946,7 +13946,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 90,
           "valor": 4221.0
         },
@@ -13964,7 +13964,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 9720.0
         },
@@ -13973,7 +13973,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1200.0
         },
@@ -13991,7 +13991,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3330.0
         },
@@ -14000,7 +14000,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6396.0
         },
@@ -14018,7 +14018,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 3060.0
         },
@@ -14027,7 +14027,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3960.0
         },
@@ -14036,7 +14036,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 670.8
         },
@@ -14045,7 +14045,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 5016.0
         },
@@ -14063,7 +14063,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7164.0
         },
@@ -14081,7 +14081,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1980.0
         },
@@ -14099,7 +14099,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN BEEFEATER 24 ANOS 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 809.4
         },
@@ -14189,7 +14189,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY GLENLIVET CARIBEAN RESERVE",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1068.72
         },
@@ -14198,7 +14198,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY GLENLIVET CARIBEAN RESERVE",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1068.72
         },
@@ -14207,7 +14207,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1739.4
         },
@@ -14234,7 +14234,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY CHIVAS REGAL XV 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 2158.8
         },
@@ -14243,7 +14243,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 718.8
         },
@@ -14297,7 +14297,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 670.8
         },
@@ -14306,7 +14306,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1200.0
         },
@@ -14315,7 +14315,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2508.0
         },
@@ -14333,7 +14333,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 3582.0
         },
@@ -14351,7 +14351,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 2251.2
         },
@@ -14360,7 +14360,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 792.0
         },
@@ -14369,7 +14369,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48318",
           "cliente": "SUPERMERCADO KAÇULA LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 752.4
         },
@@ -14387,7 +14387,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48318",
           "cliente": "SUPERMERCADO KAÇULA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1339.2
         },
@@ -14396,7 +14396,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48318",
           "cliente": "SUPERMERCADO KAÇULA LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 3355.2
         },
@@ -14414,7 +14414,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48318",
           "cliente": "SUPERMERCADO KAÇULA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 706.8
         },
@@ -14423,7 +14423,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48318",
           "cliente": "SUPERMERCADO KAÇULA LTDA",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 1150.8
         },
@@ -14432,7 +14432,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48318",
           "cliente": "SUPERMERCADO KAÇULA LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 53400.0
         },
@@ -14477,7 +14477,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48318",
           "cliente": "SUPERMERCADO KAÇULA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1206.0
         },
@@ -14486,7 +14486,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48318",
           "cliente": "SUPERMERCADO KAÇULA LTDA",
           "produto": "LICOR DE WHISKY PASSPORT APPLE",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 75,
           "valor": 2625.0
         },
@@ -14495,7 +14495,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48318",
           "cliente": "SUPERMERCADO KAÇULA LTDA",
           "produto": "WHISKY PASSPORT HONEY 670ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 75,
           "valor": 2625.0
         },
@@ -14513,7 +14513,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48420",
           "cliente": "TAKARA & CIA LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -14531,7 +14531,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48420",
           "cliente": "TAKARA & CIA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 83.7
         },
@@ -14540,7 +14540,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48420",
           "cliente": "TAKARA & CIA LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 119.4
         },
@@ -14567,7 +14567,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48420",
           "cliente": "TAKARA & CIA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 201.0
         },
@@ -14576,7 +14576,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48421",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 83.7
         },
@@ -14585,7 +14585,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48421",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 62.7
         },
@@ -14612,7 +14612,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48422",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -14630,7 +14630,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48422",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 83.7
         },
@@ -14657,7 +14657,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49252",
           "cliente": "SUPERMERCADO PIRITUBA LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -14684,7 +14684,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49252",
           "cliente": "SUPERMERCADO PIRITUBA LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 62.7
         },
@@ -14693,7 +14693,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49252",
           "cliente": "SUPERMERCADO PIRITUBA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 201.0
         },
@@ -14702,7 +14702,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49253",
           "cliente": "ULTRA MART ATACADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 62.7
         },
@@ -14711,7 +14711,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49253",
           "cliente": "ULTRA MART ATACADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 149.7
         },
@@ -14720,7 +14720,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49253",
           "cliente": "ULTRA MART ATACADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 305.7
         },
@@ -14729,7 +14729,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49253",
           "cliente": "ULTRA MART ATACADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 83.7
         },
@@ -14756,7 +14756,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49253",
           "cliente": "ULTRA MART ATACADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 62.7
         },
@@ -14774,7 +14774,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49253",
           "cliente": "ULTRA MART ATACADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 201.0
         },
@@ -14792,7 +14792,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49254",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 149.7
         },
@@ -14819,7 +14819,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48427",
           "cliente": "COMERCIAL DE ALIMENTOS TAKARA-MUTINGA LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -14828,7 +14828,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48427",
           "cliente": "COMERCIAL DE ALIMENTOS TAKARA-MUTINGA LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 62.7
         },
@@ -14837,7 +14837,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48427",
           "cliente": "COMERCIAL DE ALIMENTOS TAKARA-MUTINGA LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 62.7
         },
@@ -14855,7 +14855,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48427",
           "cliente": "COMERCIAL DE ALIMENTOS TAKARA-MUTINGA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 402.0
         },
@@ -14864,7 +14864,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48428",
           "cliente": "COMERCIAL TAKARA PIRITUBA LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -14873,7 +14873,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48428",
           "cliente": "COMERCIAL TAKARA PIRITUBA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 83.7
         },
@@ -14891,7 +14891,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48428",
           "cliente": "COMERCIAL TAKARA PIRITUBA LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 62.7
         },
@@ -14900,7 +14900,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48428",
           "cliente": "COMERCIAL TAKARA PIRITUBA LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 125.4
         },
@@ -14927,7 +14927,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48429",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 125.4
         },
@@ -14954,7 +14954,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48429",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 62.7
         },
@@ -14983,7 +14983,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "APERITIVO LILLET BRANCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 69.9
         },
@@ -15010,7 +15010,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1332.0
         },
@@ -15028,7 +15028,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY ROYAL SALUTE POLO MIAMI700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 5,
           "valor": 3349.5
         },
@@ -15046,7 +15046,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY CHIVAS REGAL XV 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1079.4
         },
@@ -15055,7 +15055,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY JAMESON CASKMATES IPA EDIT 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 912.48
         },
@@ -15064,7 +15064,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3779.4
         },
@@ -15073,7 +15073,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "WHISKY ROYAL SALUTE POLO MIAMI700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 669.9
         },
@@ -15100,7 +15100,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1796.4
         },
@@ -15109,7 +15109,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 666.0
         },
@@ -15118,7 +15118,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47200",
           "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 718.8
         }
@@ -15149,7 +15149,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34109",
           "cliente": "ESCALADA AUTO POSTO LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 111.0
         },
@@ -15158,7 +15158,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34109",
           "cliente": "ESCALADA AUTO POSTO LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 20.9
         },
@@ -15167,7 +15167,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34109",
           "cliente": "ESCALADA AUTO POSTO LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 44.4
         },
@@ -15212,7 +15212,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34109",
           "cliente": "ESCALADA AUTO POSTO LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 5,
           "valor": 277.5
         },
@@ -15387,7 +15387,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49376",
           "cliente": "CASA DE SUCOS E LANCHONETE IRMAOS GOMES LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 317.4
         },
@@ -15409,7 +15409,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34252",
           "cliente": "RAS DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 15540.0
         },
@@ -15456,7 +15456,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34252",
           "cliente": "RAS DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 752.4
         },
@@ -15465,7 +15465,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49952",
           "cliente": "J.C.REAL VITAL COMERCIO E SERVICOS DE TRANSPORTES LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 1159.8
         },
@@ -15474,7 +15474,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49952",
           "cliente": "J.C.REAL VITAL COMERCIO E SERVICOS DE TRANSPORTES LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -15483,7 +15483,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49952",
           "cliente": "J.C.REAL VITAL COMERCIO E SERVICOS DE TRANSPORTES LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -15492,7 +15492,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49952",
           "cliente": "J.C.REAL VITAL COMERCIO E SERVICOS DE TRANSPORTES LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 706.8
         },
@@ -15501,7 +15501,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49543",
           "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 3582.0
         }
@@ -15514,7 +15514,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 11754.0
         },
@@ -15523,7 +15523,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1959.0
         },
@@ -15532,7 +15532,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 391.8
         },
@@ -15541,7 +15541,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 11628.0
         },
@@ -15550,7 +15550,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 480,
           "valor": 25584.0
         },
@@ -15559,7 +15559,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3858.0
         },
@@ -15568,7 +15568,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1959.0
         },
@@ -15577,7 +15577,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 11754.0
         },
@@ -15586,7 +15586,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7752.0
         },
@@ -15595,7 +15595,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 12792.0
         },
@@ -15604,7 +15604,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3858.0
         },
@@ -15613,7 +15613,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1590.0
         },
@@ -15622,7 +15622,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7836.0
         },
@@ -15631,7 +15631,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3918.0
         },
@@ -15640,7 +15640,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 11628.0
         },
@@ -15649,7 +15649,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 19188.0
         },
@@ -15658,7 +15658,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1590.0
         },
@@ -15667,7 +15667,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 391.8
         },
@@ -15676,7 +15676,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 11628.0
         },
@@ -15685,7 +15685,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 480,
           "valor": 25584.0
         },
@@ -15694,7 +15694,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7716.0
         },
@@ -15703,7 +15703,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 300,
           "valor": 19590.0
         },
@@ -15712,7 +15712,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7716.0
         },
@@ -15721,7 +15721,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1959.0
         },
@@ -15730,7 +15730,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 391.8
         },
@@ -15739,7 +15739,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 15504.0
         },
@@ -15748,7 +15748,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 720,
           "valor": 38376.0
         },
@@ -15757,7 +15757,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1959.0
         },
@@ -15766,7 +15766,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 15672.0
         },
@@ -15775,7 +15775,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7752.0
         },
@@ -15784,7 +15784,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 480,
           "valor": 25584.0
         },
@@ -15793,7 +15793,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 11754.0
         },
@@ -15802,7 +15802,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7752.0
         },
@@ -15811,7 +15811,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 19188.0
         },
@@ -15820,7 +15820,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 53400.0
         },
@@ -15829,7 +15829,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 783.6
         },
@@ -15838,7 +15838,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3876.0
         },
@@ -15847,7 +15847,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6396.0
         }
@@ -15858,7 +15858,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -15867,7 +15867,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 6696.0
         },
@@ -15876,7 +15876,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -15885,7 +15885,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7524.0
         },
@@ -15894,7 +15894,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 5016.0
         },
@@ -15903,7 +15903,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 10044.0
         },
@@ -15912,7 +15912,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1440,
           "valor": 41760.0
         },
@@ -15921,7 +15921,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2880,
           "valor": 172800.0
         },
@@ -15930,7 +15930,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 7200,
           "valor": 388800.0
         }
@@ -15952,7 +15952,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38623",
           "cliente": "ADEGA MENEZES ITANHAEM LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 166.5
         },
@@ -15961,7 +15961,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38623",
           "cliente": "ADEGA MENEZES ITANHAEM LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 778.8
         },
@@ -15970,7 +15970,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38800",
           "cliente": "W. LEONARDO FERREIRA DE MENEZES",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1509.6
         },
@@ -15988,7 +15988,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50109",
           "cliente": "COMERCIAL DE ALIMENTOS SR LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -16024,7 +16024,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50311",
           "cliente": "FAMILIA ZERO DOZE DISTRIBUIDORA LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2508.0
         },
@@ -16051,7 +16051,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50312",
           "cliente": "MARIA GORETE DE OLIVEIRA MERCADO",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -16087,7 +16087,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50029",
           "cliente": "R. APARECIDO FERREIRA DE MENEZES",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 403.2
         },
@@ -16116,7 +16116,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49626",
           "cliente": "RODOLFO VIEIRA DA ROCHA CIA LTDA",
           "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 105.8
         },
@@ -16152,7 +16152,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50014",
           "cliente": "BAR DO ANISIO SJCAMPOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4,
           "valor": 83.6
         },
@@ -16170,7 +16170,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49684",
           "cliente": "COMERCIO DE ALIMENTOS SILVA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 51.8
         },
@@ -16188,7 +16188,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49684",
           "cliente": "COMERCIO DE ALIMENTOS SILVA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 67.2
         },
@@ -16255,7 +16255,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 4368.24
         },
@@ -16264,7 +16264,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 1476.0
         },
@@ -16282,7 +16282,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1379.52
         },
@@ -16309,7 +16309,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7280.4
         },
@@ -16318,7 +16318,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 984.0
         },
@@ -16336,7 +16336,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 516.72
         },
@@ -16345,7 +16345,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 775.08
         },
@@ -16363,7 +16363,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -16372,7 +16372,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 689.76
         },
@@ -16399,7 +16399,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 258.36
         },
@@ -16426,7 +16426,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 2558.88
         },
@@ -16435,7 +16435,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -16444,7 +16444,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1034.64
         },
@@ -16480,7 +16480,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 2184.12
         },
@@ -16489,7 +16489,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 492.0
         },
@@ -16498,7 +16498,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 516.72
         },
@@ -16516,7 +16516,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 10920.6
         },
@@ -16525,7 +16525,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 689.76
         },
@@ -16543,7 +16543,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 258.36
         },
@@ -16552,7 +16552,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 984.0
         },
@@ -16570,7 +16570,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 2069.28
         },
@@ -16606,7 +16606,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 775.08
         },
@@ -16642,7 +16642,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40449",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 516.72
         },
@@ -16651,7 +16651,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40449",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 4368.24
         },
@@ -16660,7 +16660,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40449",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 738.0
         },
@@ -16687,7 +16687,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7280.4
         },
@@ -16696,7 +16696,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 984.0
         },
@@ -16723,7 +16723,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 258.36
         },
@@ -16732,7 +16732,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 689.76
         },
@@ -16768,7 +16768,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40452",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 689.76
         },
@@ -16786,7 +16786,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1705.92
         },
@@ -16795,7 +16795,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 689.76
         },
@@ -16822,7 +16822,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 775.08
         },
@@ -16831,7 +16831,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 738.0
         },
@@ -16849,7 +16849,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40454",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 984.0
         },
@@ -16867,7 +16867,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40454",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 3411.84
         },
@@ -16885,7 +16885,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1705.92
         },
@@ -16894,7 +16894,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1379.52
         },
@@ -16930,7 +16930,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 775.08
         },
@@ -16939,7 +16939,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 14560.8
         },
@@ -16948,7 +16948,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 1476.0
         },
@@ -16957,7 +16957,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 689.76
         },
@@ -16993,7 +16993,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 852.96
         },
@@ -17002,7 +17002,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 14560.8
         },
@@ -17011,7 +17011,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 984.0
         }
@@ -17022,7 +17022,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1033.44
         },
@@ -17031,7 +17031,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 689.76
         },
@@ -17049,7 +17049,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 492.0
         },
@@ -17076,7 +17076,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 3875.4
         },
@@ -17085,7 +17085,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 2069.28
         },
@@ -17094,7 +17094,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 689.76
         },
@@ -17121,7 +17121,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 492.0
         },
@@ -17139,7 +17139,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 3875.4
         },
@@ -17148,7 +17148,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 2069.28
         },
@@ -17166,7 +17166,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 492.0
         },
@@ -17193,7 +17193,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 492.0
         },
@@ -17202,7 +17202,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 1550.16
         },
@@ -17211,7 +17211,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3448.8
         },
@@ -17220,7 +17220,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3448.8
         },
@@ -17229,7 +17229,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 984.0
         },
@@ -17238,7 +17238,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 5167.2
         },
@@ -17256,7 +17256,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40449",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 1550.16
         },
@@ -17265,7 +17265,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40449",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1379.52
         },
@@ -17292,7 +17292,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2583.6
         },
@@ -17301,7 +17301,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3448.8
         },
@@ -17319,7 +17319,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 738.0
         },
@@ -17328,7 +17328,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40451",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2583.6
         },
@@ -17337,7 +17337,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40451",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1379.52
         },
@@ -17391,7 +17391,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40452",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2583.6
         },
@@ -17400,7 +17400,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40452",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1379.52
         },
@@ -17409,7 +17409,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40452",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -17418,7 +17418,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 3875.4
         },
@@ -17427,7 +17427,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1379.52
         },
@@ -17463,7 +17463,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40454",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 2066.88
         },
@@ -17472,7 +17472,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40454",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 2069.28
         },
@@ -17481,7 +17481,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 2066.88
         },
@@ -17490,7 +17490,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3448.8
         },
@@ -17544,7 +17544,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2583.6
         },
@@ -17553,7 +17553,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 3448.8
         },
@@ -17573,7 +17573,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 997.56
         },
@@ -17600,7 +17600,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 258.36
         },
@@ -17618,7 +17618,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -17627,7 +17627,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -17645,7 +17645,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 402.0
         },
@@ -17663,7 +17663,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 775.08
         },
@@ -17699,7 +17699,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 492.0
         },
@@ -17717,7 +17717,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -17726,7 +17726,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1365.6
         },
@@ -17735,7 +17735,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -17744,7 +17744,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 665.04
         },
@@ -17753,7 +17753,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 258.36
         },
@@ -17762,7 +17762,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -17780,7 +17780,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 752.4
         },
@@ -17789,7 +17789,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 645.6
         },
@@ -17807,7 +17807,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 532.8
         },
@@ -17816,7 +17816,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1365.6
         },
@@ -17825,7 +17825,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 492.0
         },
@@ -17843,7 +17843,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -17861,7 +17861,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 1936.8
         },
@@ -17879,7 +17879,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -17888,7 +17888,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3414.0
         },
@@ -17897,7 +17897,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 492.0
         },
@@ -17906,7 +17906,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 804.0
         },
@@ -17924,7 +17924,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -17933,7 +17933,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0
         },
@@ -17942,7 +17942,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 804.0
         },
@@ -17951,7 +17951,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40449",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 516.72
         },
@@ -17969,7 +17969,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 1995.12
         },
@@ -17978,7 +17978,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 516.72
         },
@@ -17987,7 +17987,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 775.08
         },
@@ -17996,7 +17996,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 775.08
         },
@@ -18005,7 +18005,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1614.0
         },
@@ -18023,7 +18023,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1365.6
         },
@@ -18032,7 +18032,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1230.0
         },
@@ -18059,7 +18059,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40451",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 258.36
         },
@@ -18068,7 +18068,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40452",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 322.8
         },
@@ -18113,7 +18113,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 752.4
         },
@@ -18122,7 +18122,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -18149,7 +18149,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40454",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1365.6
         },
@@ -18158,7 +18158,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40454",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 804.0
         },
@@ -18185,7 +18185,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 775.08
         },
@@ -18194,7 +18194,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 258.36
         },
@@ -18203,7 +18203,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 516.72
         },
@@ -18212,7 +18212,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -18248,7 +18248,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -18257,7 +18257,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 2048.4
         },
@@ -18266,7 +18266,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1230.0
         },
@@ -18275,7 +18275,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 258.36
         },
@@ -18284,7 +18284,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 258.36
         },
@@ -18293,7 +18293,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 258.36
         },
@@ -18311,7 +18311,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1065.6
         },
@@ -18320,7 +18320,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -18329,7 +18329,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 402.0
         }
@@ -18340,7 +18340,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 984.0
         },
@@ -18358,7 +18358,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -18367,7 +18367,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 738.0
         },
@@ -18385,7 +18385,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 322.8
         },
@@ -18394,7 +18394,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3234.0
         },
@@ -18403,7 +18403,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0
         },
@@ -18412,7 +18412,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 322.8
         },
@@ -18439,7 +18439,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 2582.4
         },
@@ -18466,7 +18466,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 5174.4
         },
@@ -18475,7 +18475,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 96,
           "valor": 2006.4
         },
@@ -18484,7 +18484,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 1936.8
         },
@@ -18493,7 +18493,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -18502,7 +18502,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40449",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -18511,7 +18511,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 3952.8
         },
@@ -18520,7 +18520,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -18529,7 +18529,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 968.4
         },
@@ -18538,7 +18538,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -18547,7 +18547,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         },
@@ -18556,7 +18556,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 492.0
         },
@@ -18565,7 +18565,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40451",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -18583,7 +18583,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40452",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -18592,7 +18592,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40452",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 322.8
         },
@@ -18601,7 +18601,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -18610,7 +18610,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 322.8
         },
@@ -18664,7 +18664,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -18673,7 +18673,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 492.0
         },
@@ -18682,7 +18682,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -18700,7 +18700,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         },
@@ -18709,7 +18709,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         }
@@ -18720,7 +18720,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 738.0
         },
@@ -18729,7 +18729,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -18738,7 +18738,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1509.6
         },
@@ -18747,7 +18747,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         },
@@ -18756,7 +18756,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1003.2
         },
@@ -18765,7 +18765,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 621.6
         },
@@ -18774,7 +18774,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -18783,7 +18783,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -18801,7 +18801,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 492.0
         },
@@ -18810,7 +18810,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -18819,7 +18819,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1509.6
         },
@@ -18837,7 +18837,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7548.0
         },
@@ -18855,7 +18855,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 752.4
         },
@@ -18864,7 +18864,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 621.6
         },
@@ -18873,7 +18873,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 11322.0
         },
@@ -18891,7 +18891,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 72,
           "valor": 1864.8
         },
@@ -18918,7 +18918,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1940.4
         },
@@ -18927,7 +18927,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -18936,7 +18936,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -18945,7 +18945,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 932.4
         },
@@ -18972,7 +18972,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         },
@@ -18981,7 +18981,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 246.0
         },
@@ -18990,7 +18990,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1003.2
         },
@@ -18999,7 +18999,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40449",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1509.6
         },
@@ -19017,7 +19017,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 492.0
         },
@@ -19026,7 +19026,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -19035,7 +19035,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 621.6
         },
@@ -19044,7 +19044,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1509.6
         },
@@ -19062,7 +19062,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40451",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -19071,7 +19071,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40452",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -19080,7 +19080,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
         },
@@ -19089,7 +19089,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0
         },
@@ -19098,7 +19098,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -19107,7 +19107,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 3019.2
         },
@@ -19116,7 +19116,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40454",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         },
@@ -19125,7 +19125,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40454",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -19161,7 +19161,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 752.4
         },
@@ -19179,7 +19179,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 1243.2
         },
@@ -19188,7 +19188,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 2264.4
         },
@@ -19206,7 +19206,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 984.0
         },
@@ -19215,7 +19215,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 752.4
         },
@@ -19224,7 +19224,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 621.6
         },
@@ -19233,7 +19233,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1509.6
         },
@@ -19251,7 +19251,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         }
@@ -19336,7 +19336,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "WHISKY JAMESON 12X50ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 95.71
         },
@@ -19345,7 +19345,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "APERITIVO RAMAZZOTTI AMARO 7O0ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 178.92
         },
@@ -19354,7 +19354,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4,
           "valor": 193.24
         },
@@ -19363,7 +19363,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 364.02
         },
@@ -19372,7 +19372,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 289.86
         },
@@ -19381,7 +19381,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4,
           "valor": 269.98
         },
@@ -19390,7 +19390,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 1297.6
         },
@@ -19399,7 +19399,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "WHISKY ROYAL SALUTE POLO MIAMI700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 1380.0
         },
@@ -19426,7 +19426,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47406",
           "cliente": "EMPORIO GAINO LTDA",
           "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 2221.2
         },
@@ -19453,7 +19453,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47406",
           "cliente": "EMPORIO GAINO LTDA",
           "produto": "RUM HAVANA CLUB 7 YEARS OLD",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 790.44
         },
@@ -19536,7 +19536,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "ABERLOUR 12 ANOS 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 698.04
         },
@@ -19545,7 +19545,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4,
           "valor": 288.0
         },
@@ -19554,7 +19554,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "WHISKY CHIVAS REGAL XV 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 1111.8
         },
@@ -19563,7 +19563,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 648.8
         },
@@ -19736,7 +19736,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "VODKA ABSOLUT - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 149.7
         },
@@ -19745,7 +19745,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 111.0
         },
@@ -19763,7 +19763,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "WHISKY GLENLIVET CARIBEAN RESERVE",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 356.24
         },
@@ -19891,7 +19891,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 323.4
         },
@@ -19900,7 +19900,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "VODKA ABSOLUT 12X50ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 92.9
         },
@@ -19927,7 +19927,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "RUM HAVANA CLUB 3 YEARS OLD 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 197.7
         },
@@ -19963,7 +19963,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 179.7
         },
@@ -19990,7 +19990,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 579.9
         },
@@ -20026,7 +20026,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40068",
           "cliente": "T & T RODRIGUES EMPORIOS LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 1739.7
         },
@@ -20071,7 +20071,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47406",
           "cliente": "EMPORIO GAINO LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7188.0
         },
@@ -20080,7 +20080,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47406",
           "cliente": "EMPORIO GAINO LTDA",
           "produto": "WHISKY CHIVAS REGAL 750ML 18 YO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 869.7
         },
@@ -20098,7 +20098,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47406",
           "cliente": "EMPORIO GAINO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1293.6
         },
@@ -20107,7 +20107,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47406",
           "cliente": "EMPORIO GAINO LTDA",
           "produto": "WHISKY CHIVAS REGAL EXTRA 13 YO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 1317.6
         },
@@ -20152,7 +20152,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47406",
           "cliente": "EMPORIO GAINO LTDA",
           "produto": "WHISKY GLENLIVET FOUNDER'S RESERVE",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 2038.8
         },
@@ -20179,7 +20179,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47406",
           "cliente": "EMPORIO GAINO LTDA",
           "produto": "WHISKY GLENLIVET CARIBEAN RESERVE",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 2137.44
         },
@@ -20230,7 +20230,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40641",
           "cliente": "SHOPPING FRUTAS VISTA ALEGRE - COMERCIO DE HORTIFRUTIGRANJEI",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -20239,7 +20239,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50319",
           "cliente": "SHOPPING FRUTAS GUANABARA LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 1132.2
         },
@@ -20248,7 +20248,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50322",
           "cliente": "SHOPPING FARTURA VINHEDO COMERCIO DE HORTIFRUTIGRANJEIROS LT",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 1132.2
         },
@@ -20257,7 +20257,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50323",
           "cliente": "SHOPPING FARTURA VALINHOS COMERCIO DE HORTIFRUTIGRANJEIROS L",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 1132.2
         },
@@ -20284,7 +20284,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50129",
           "cliente": "QUINTA DO MARQUES ANHANGUERA RESTAURANTE E LANCHES LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 611.4
         },
@@ -20293,7 +20293,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50129",
           "cliente": "QUINTA DO MARQUES ANHANGUERA RESTAURANTE E LANCHES LTDA",
           "produto": "VODKA WYBOROWA 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 287.4
         },
@@ -20302,7 +20302,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50129",
           "cliente": "QUINTA DO MARQUES ANHANGUERA RESTAURANTE E LANCHES LTDA",
           "produto": "WHISKY ROYAL SALUTE 21YO GRAIN 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 1739.7
         },
@@ -20311,7 +20311,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50129",
           "cliente": "QUINTA DO MARQUES ANHANGUERA RESTAURANTE E LANCHES LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 1739.7
         },
@@ -20347,7 +20347,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50205",
           "cliente": "SKINA POLACO LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 403.2
         },
@@ -20356,7 +20356,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50205",
           "cliente": "SKINA POLACO LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -20365,7 +20365,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50205",
           "cliente": "SKINA POLACO LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 85.8
         },
@@ -20374,7 +20374,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50298",
           "cliente": "SHOPPING FARTURA COMERCIO DE HORTIFRUTIGRANJEIROS LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 18,
           "valor": 1132.2
         },
@@ -20383,7 +20383,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50299",
           "cliente": "SHOPPING FARTURA PAINEIRAS COMERCIO DE HORTIFRUTI LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
         },
@@ -20410,7 +20410,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50346",
           "cliente": "MAIA GARCIA COMERCIO LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 125.8
         },
@@ -20419,7 +20419,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50346",
           "cliente": "MAIA GARCIA COMERCIO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 107.8
         },
@@ -20428,7 +20428,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50346",
           "cliente": "MAIA GARCIA COMERCIO LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 77.7
         }
@@ -20490,7 +20490,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "CHAMP PERRIER JOUET GRAN BRUT",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 17940.0
         },
@@ -20519,7 +20519,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "CHAMP PERRIER JOUET GRAN BRUT",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 200,
           "valor": 49800.0
         },
@@ -20528,7 +20528,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 50,
           "valor": 17450.0
         },
@@ -20537,7 +20537,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "CHAMP PERRIER JOUET GRAN BRUT",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 200,
           "valor": 49800.0
         },
@@ -20546,7 +20546,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "CHAMP PERRIER JOUET GRAN BRUT",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 200,
           "valor": 49800.0
         },
@@ -20555,7 +20555,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 20940.0
         },
@@ -20564,7 +20564,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "CHAMP PERRIER JOUET GRAN BRUT",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 200,
           "valor": 49800.0
         },
@@ -20573,7 +20573,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "WHISKY ROYAL SALUTE 21YO GRAIN 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3359.4
         },
@@ -20582,7 +20582,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3359.4
         },
@@ -20591,7 +20591,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "WHISKY ROYAL SALUTE MALT EDITION 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3359.4
         },
@@ -20600,7 +20600,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 6718.8
         },
@@ -20609,7 +20609,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "WHISKY ROYAL SALUTE MALT EDITION 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 6718.8
         },
@@ -20618,7 +20618,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "WHISKY ROYAL SALUTE 21YO GRAIN 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 6718.8
         }
@@ -20640,7 +20640,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "WHISKY GLENLIVET FOUNDER'S RESERVE",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 16,
           "valor": 3040.0
         }
@@ -20653,7 +20653,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42942",
           "cliente": "LS ATACADO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1980,
           "valor": 51282.0
         },
@@ -20662,7 +20662,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42942",
           "cliente": "LS ATACADO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1980,
           "valor": 39204.0
         },
@@ -20680,7 +20680,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43825",
           "cliente": "M.A.F. CARVALHO CASA DO NORTE",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 77.7
         },
@@ -20698,7 +20698,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43825",
           "cliente": "M.A.F. CARVALHO CASA DO NORTE",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         },
@@ -20707,7 +20707,7 @@ const VENDAS_SP_DATA = {
           "codcli": "43825",
           "cliente": "M.A.F. CARVALHO CASA DO NORTE",
           "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 107.8
         },
@@ -20761,7 +20761,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46624",
           "cliente": "ROSIMEIRE CORDEIRO ALVES ARRAIAS",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1320,
           "valor": 27588.0
         },
@@ -20770,7 +20770,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50310",
           "cliente": "ESPACO GRIL RESTAURANTE PIZZARIA LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 62.7
         },
@@ -20788,7 +20788,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50310",
           "cliente": "ESPACO GRIL RESTAURANTE PIZZARIA LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 129.8
         },
@@ -20824,7 +20824,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50138",
           "cliente": "MERCADO DA VILA LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 389.4
         },
@@ -20842,7 +20842,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50175",
           "cliente": "SUPERMERCADO PRECO MELHOR LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4,
           "valor": 103.6
         },
@@ -20851,7 +20851,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50175",
           "cliente": "SUPERMERCADO PRECO MELHOR LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4,
           "valor": 83.6
         },
@@ -20905,7 +20905,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50081",
           "cliente": "M TERUYA & CIA LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -20977,7 +20977,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50200",
           "cliente": "KARINA DE OLIVEIRA IZAC",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 501.6
         },
@@ -20986,7 +20986,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50200",
           "cliente": "KARINA DE OLIVEIRA IZAC",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 24,
           "valor": 621.6
         },
@@ -21026,7 +21026,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47374",
           "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6468.0
         },
@@ -21035,7 +21035,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47374",
           "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 6114.0
         },
@@ -21044,7 +21044,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47374",
           "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 9324.0
         },
@@ -21053,7 +21053,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47374",
           "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 300,
           "valor": 6270.0
         }
@@ -21064,7 +21064,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47374",
           "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1380,
           "valor": 28842.0
         },
@@ -21086,7 +21086,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 720,
           "valor": 46008.0
         },
@@ -21095,7 +21095,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY NATU NOBILIS",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 10022.4
         },
@@ -21104,7 +21104,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1200,
           "valor": 32280.0
         },
@@ -21113,7 +21113,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6000,
           "valor": 203400.0
         },
@@ -21122,7 +21122,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 17982.0
         },
@@ -21131,7 +21131,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1800,
           "valor": 82620.0
         },
@@ -21140,7 +21140,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1200,
           "valor": 65880.0
         },
@@ -21149,7 +21149,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "VODKA ABSOLUT - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 266,
           "valor": 13020.7
         },
@@ -21158,7 +21158,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 15816.0
         }
@@ -21169,7 +21169,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 14880,
           "valor": 474672.0
         },
@@ -21178,7 +21178,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY NATU NOBILIS",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 960,
           "valor": 26784.0
         },
@@ -21187,7 +21187,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 480,
           "valor": 43152.0
         },
@@ -21196,7 +21196,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 56,
           "valor": 1119.44
         },
@@ -21205,7 +21205,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "VODKA ABSOLUT - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 17622.0
         },
@@ -21214,7 +21214,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY  BALLANTINES 10YO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 20376.0
         },
@@ -21223,7 +21223,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 28764.0
         },
@@ -21232,7 +21232,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1152,
           "valor": 23028.48
         },
@@ -21241,7 +21241,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2400,
           "valor": 45360.0
         },
@@ -21250,7 +21250,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 25176.0
         },
@@ -21259,7 +21259,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 38094.0
         },
@@ -21268,7 +21268,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY PASSPORT HONEY 670ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 450,
           "valor": 17973.0
         },
@@ -21277,7 +21277,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY BALLANTINES 7YO BARREL",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 120,
           "valor": 8035.2
         },
@@ -21286,7 +21286,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "VODKA ORLOFF 1,75 L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 360,
           "valor": 6829.2
         },
@@ -21295,7 +21295,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 300,
           "valor": 19770.0
         },
@@ -21304,7 +21304,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "GIN ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 708,
           "valor": 24022.44
         },
@@ -21313,7 +21313,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 600,
           "valor": 29970.0
         },
@@ -21322,7 +21322,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4800,
           "valor": 95952.0
         },
@@ -21331,7 +21331,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3000,
           "valor": 149700.0
         },
@@ -21340,7 +21340,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 13584,
           "valor": 278336.16
         },
@@ -21349,7 +21349,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 300,
           "valor": 20970.0
         },
@@ -21358,7 +21358,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 180,
           "valor": 9882.0
         },
@@ -21367,7 +21367,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 300,
           "valor": 16470.0
         },
@@ -21376,7 +21376,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4200,
           "valor": 111258.0
         },
@@ -21385,7 +21385,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3600,
           "valor": 194040.0
         }
@@ -21398,7 +21398,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1200,
           "valor": 23988.0
         },
@@ -21407,7 +21407,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3288,
           "valor": 65727.12
         },
@@ -21416,7 +21416,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3048,
           "valor": 60929.52
         },
@@ -21425,7 +21425,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "GIN ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1221.48
         },
@@ -21434,7 +21434,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "GIN ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 456,
           "valor": 15472.08
         },
@@ -21443,7 +21443,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY NATU NOBILIS",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 240,
           "valor": 6696.0
         }
@@ -21456,7 +21456,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49912",
           "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -21474,7 +21474,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49912",
           "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
           "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -21483,7 +21483,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49912",
           "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 334.8
         },
@@ -21492,7 +21492,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49912",
           "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
           "produto": "WHISKY BALLANTINES 10YO 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 575.4
         },
@@ -21501,7 +21501,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49912",
           "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 353.4
         },
@@ -21528,7 +21528,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50199",
           "cliente": "MINIMERCADO E ACOUGUE SOUZA LTDA",
           "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 377.4
         },
@@ -21582,7 +21582,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50199",
           "cliente": "MINIMERCADO E ACOUGUE SOUZA LTDA",
           "produto": "VODKA ABSOLUT - 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 323.4
         },
@@ -21591,7 +21591,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50199",
           "cliente": "MINIMERCADO E ACOUGUE SOUZA LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 706.8
         },
@@ -21600,7 +21600,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50199",
           "cliente": "MINIMERCADO E ACOUGUE SOUZA LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 257.4
         },
@@ -21636,7 +21636,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50080",
           "cliente": "DONIZETE J. C. DE ARAUJO",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 403.2
         },
@@ -21663,7 +21663,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49685",
           "cliente": "RECOBASE COMERCIAL LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 778.81
         },
@@ -21681,7 +21681,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49685",
           "cliente": "RECOBASE COMERCIAL LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 514.81
         },
@@ -21717,7 +21717,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49685",
           "cliente": "RECOBASE COMERCIAL LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 48,
           "valor": 2587.25
         },
@@ -21737,7 +21737,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49974",
           "cliente": "AGNALDO ALMEIDA MENDES",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -21764,7 +21764,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49685",
           "cliente": "RECOBASE COMERCIAL LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1194.0
         },
@@ -21795,7 +21795,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50313",
           "cliente": "SUPERMERCADO RND LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 77.7
         },
@@ -21804,7 +21804,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50313",
           "cliente": "SUPERMERCADO RND LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4,
           "valor": 83.6
         },
@@ -21831,7 +21831,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50314",
           "cliente": "AFONSO APARECIDO DE OLIVEIRA 10973051809",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 125.4
         },
@@ -21858,7 +21858,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50265",
           "cliente": "SUPERMERCADO RND LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 77.7
         },
@@ -21867,7 +21867,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50265",
           "cliente": "SUPERMERCADO RND LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         },
@@ -21876,7 +21876,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50265",
           "cliente": "SUPERMERCADO RND LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 100.8
         },
@@ -21885,7 +21885,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50194",
           "cliente": "LEANDRO CESAR LOBATO BAR",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 201.6
         },
@@ -21894,7 +21894,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50194",
           "cliente": "LEANDRO CESAR LOBATO BAR",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
         },
@@ -21903,7 +21903,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50194",
           "cliente": "LEANDRO CESAR LOBATO BAR",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -21921,7 +21921,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49999",
           "cliente": "SUPERMERCADO IMACULADA LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 67.2
         },
@@ -21939,7 +21939,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49999",
           "cliente": "SUPERMERCADO IMACULADA LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 238.8
         }
@@ -21950,7 +21950,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50052",
           "cliente": "J. F. GONCALVES LTDA",
           "produto": "WHISKY PASSPORT HONEY 670ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 15,
           "valor": 598.5
         },
@@ -21959,7 +21959,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50052",
           "cliente": "J. F. GONCALVES LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 334.8
         },
@@ -21968,7 +21968,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50052",
           "cliente": "J. F. GONCALVES LTDA",
           "produto": "VODKA ORLOFF 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 238.8
         },
@@ -21977,7 +21977,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50052",
           "cliente": "J. F. GONCALVES LTDA",
           "produto": "RUM MALIBU 750 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 532.8
         }
@@ -21990,7 +21990,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50267",
           "cliente": "COMERCIO ALIMENTICIOS ARANTES LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 281.4
         },
@@ -21999,7 +21999,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50267",
           "cliente": "COMERCIO ALIMENTICIOS ARANTES LTDA",
           "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 335.4
         },
@@ -22017,7 +22017,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50267",
           "cliente": "COMERCIO ALIMENTICIOS ARANTES LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 353.4
         },
@@ -22026,7 +22026,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50267",
           "cliente": "COMERCIO ALIMENTICIOS ARANTES LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 125.8
         },
@@ -22035,7 +22035,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50267",
           "cliente": "COMERCIO ALIMENTICIOS ARANTES LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 579.8
         },
@@ -22044,7 +22044,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50268",
           "cliente": "COMERCIAL DE ALIMENTOS IRMAOS MAIA LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 12,
           "valor": 310.8
         },
@@ -22062,7 +22062,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50268",
           "cliente": "COMERCIAL DE ALIMENTOS IRMAOS MAIA LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 188.7
         },
@@ -22071,7 +22071,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50268",
           "cliente": "COMERCIAL DE ALIMENTOS IRMAOS MAIA LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 129.8
         },
@@ -22080,7 +22080,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50268",
           "cliente": "COMERCIAL DE ALIMENTOS IRMAOS MAIA LTDA",
           "produto": "BEEFEATER BLACKBERRY  700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 129.8
         },
@@ -22098,7 +22098,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50294",
           "cliente": "MFD MERCADO LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 125.4
         },
@@ -22134,7 +22134,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50294",
           "cliente": "MFD MERCADO LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 155.4
         },
@@ -22156,7 +22156,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50289",
           "cliente": "ROSELIA A.C.TOMAZ SALGADO",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0
         }
@@ -22178,7 +22178,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50171",
           "cliente": "MATEUS HERGERT ROSA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 117.8
         },
@@ -22205,7 +22205,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50171",
           "cliente": "MATEUS HERGERT ROSA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 107.8
         },
@@ -22214,7 +22214,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50171",
           "cliente": "MATEUS HERGERT ROSA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 4,
           "valor": 83.6
         }
@@ -22245,7 +22245,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50233",
           "cliente": "MAX CUPECE ORATORIO ESPETINHOS LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 2,
           "valor": 129.8
         },
@@ -22254,7 +22254,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50233",
           "cliente": "MAX CUPECE ORATORIO ESPETINHOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 101.9
         },
@@ -22281,7 +22281,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50059",
           "cliente": "MERCADINHO ANGELINA NERI LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 161.7
         },
@@ -22290,7 +22290,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50059",
           "cliente": "MERCADINHO ANGELINA NERI LTDA",
           "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 125.4
         },
@@ -22299,7 +22299,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50059",
           "cliente": "MERCADINHO ANGELINA NERI LTDA",
           "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 100.8
         }
@@ -22321,7 +22321,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50016",
           "cliente": "MEAT & MARKET COMERCIO DE CARNES LTDA",
           "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 3,
           "valor": 305.7
         },
@@ -22357,7 +22357,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50016",
           "cliente": "MEAT & MARKET COMERCIO DE CARNES LTDA",
           "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 6,
           "valor": 389.4
         },
@@ -22406,7 +22406,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50033",
           "cliente": "META ATACADO E DISTRIBUICAO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "",
+          "fantasia": "PERNOD",
           "qt": 840,
           "valor": 43596.0
         }
