@@ -705,6 +705,7 @@ window.addEventListener('popstate', function() {
   if (param) renderVendasSP(decodeURIComponent(param));
   else renderMain();
 })();
+setTimeout(() => location.reload(), 5 * 60 * 1000);
 </script>
 </body>
 </html>

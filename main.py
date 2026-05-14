@@ -41,8 +41,23 @@ def main():
             print("[AVISO] exportacao_sp falhou — SP ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("6/6 - Enviando alerta WhatsApp")
+        step("6/7 - Enviando alerta WhatsApp")
         import envio_whatsapp
+
+        step("7/7 - Deploy para VPS")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "deploy_vps.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.")
+            traceback.print_exc()
 
     except Exception:
         print("\n[ERRO] Falha na execução:")
