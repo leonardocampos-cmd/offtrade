@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/05/2026 16:58",
+  "atualizado_em": "14/05/2026 18:06",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -39426,6 +39426,114 @@ const VENDAS_DATA = {
           "valor": 377.4
         },
         {
+          "data": "14/05/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "fantasia": "DIAGEO",
+          "qt": 4,
+          "valor": 90.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "GIN ROCKS POCKET PET 12X200ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 104.4
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L - EV",
+          "fantasia": "SUPERMIX",
+          "qt": 1,
+          "valor": 127.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 127.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 31.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "VODKA ABSOLUT - 750 ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 69.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 41.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 345.2
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "604",
+          "cliente": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 157.8
+        },
+        {
           "data": "04/05/2026",
           "codcli": "2314",
           "cliente": "POSTO DE GASOLINA SOL DA PRAIA LTDA",
@@ -41082,6 +41190,24 @@ const VENDAS_DATA = {
           "valor": 219.0
         },
         {
+          "data": "14/05/2026",
+          "codcli": "82868",
+          "cliente": "POSTO STELLA DE ABASTECIMENTO LTDA",
+          "produto": "MOVING BOOSTER LIMAO 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "82868",
+          "cliente": "POSTO STELLA DE ABASTECIMENTO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 2,
+          "valor": 67.8
+        },
+        {
           "data": "11/05/2026",
           "codcli": "79887",
           "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
@@ -42331,6 +42457,159 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 12,
           "valor": 150.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "GIN ROCKS POCKET PET 12X200ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 104.4
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 3,
+          "valor": 77.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 51.49
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93734",
+          "cliente": "JP3 LANCHONETE LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 15,
+          "valor": 388.5
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93734",
+          "cliente": "JP3 LANCHONETE LTDA",
+          "produto": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 159.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93734",
+          "cliente": "JP3 LANCHONETE LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 2,
+          "valor": 67.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93734",
+          "cliente": "JP3 LANCHONETE LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 2,
+          "valor": 67.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93734",
+          "cliente": "JP3 LANCHONETE LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 149.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "NECTAR MANGA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 34.3
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "NECTAR LARANJA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 34.3
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "SMIRNOFF ICE 24 UNIDADES (LATA) 24X269ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 104.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93203",
+          "cliente": "JP LOJA DE CONVENIENCIA E LANCHONETE LTDA",
+          "produto": "AGUA MINERAL MAMBA WATER S/ GAS- 24X350",
+          "fantasia": "KAISER",
+          "qt": 1,
+          "valor": 69.9
         },
         {
           "data": "14/05/2026",
@@ -112976,6 +113255,15 @@ const VENDAS_DATA = {
           "valor": 425.4
         },
         {
+          "data": "14/05/2026",
+          "codcli": "76947",
+          "cliente": "OLINDA ELLIS CONVENIENCIA EXPRESS LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 129.9
+        },
+        {
           "data": "11/05/2026",
           "codcli": "73247",
           "cliente": "GALAPAGOS CENTRO AUTOMOTIVO LTDA",
@@ -113901,6 +114189,15 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 196.56
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "89941",
+          "cliente": "POSTO VANIA DE ABASTECIMENTO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 129.5
         },
         {
           "data": "06/05/2026",
@@ -161281,69 +161578,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 12,
           "valor": 231.96
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "produto": "RUM MALIBU 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 49.9
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "produto": "VODKA ABSOLUT - 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 62.9
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 221.4
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 221.4
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 221.4
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 231.96
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "produto": "CANTINA DA SERRA 1,5L",
-          "fantasia": "COMARY",
-          "qt": 12,
-          "valor": 113.88
         },
         {
           "data": "15/04/2026",
