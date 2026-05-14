@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "14/05/2026 08:01",
+  "atualizado_em": "14/05/2026 09:02",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -49949,6 +49949,60 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 1402.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "40455",
+          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 2264.4
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "40455",
+          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "",
+          "qt": 35,
+          "valor": 718.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "40455",
+          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 3507.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "40455",
+          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 1389.6
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "40455",
+          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 48,
+          "valor": 984.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "40455",
+          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 48,
+          "valor": 1243.2
         },
         {
           "data": "13/05/2026",
