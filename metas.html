@@ -1585,7 +1585,32 @@ function buildCampanhaDetail(v, mes) {
         posicaoHtml = metaInd === 0
           ? `<span class="campanha-rank-fora">Sem meta definida</span>`
           : `<span class="campanha-rank-val">${fmtFat(val)} / ${fmtFat(metaInd)}</span>
-             <span class="mfunction _buildCards(vendedores, mes) {
+             <span class="metric-pct pct-${cls2}" style="font-size:0.75rem">${pctDisp}%</span>`;
+
+        if (atingiu && gatilhoOk) {
+          const premio = val * m.premio_pct / 100;
+          premioHtml = `<span class="campanha-rank-prize">R$\u00a0${premio.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>`;
+        }
+      }
+
+      return `
+        <div class="campanha-detail-row">
+          <span style="color:var(--muted);font-size:0.78rem">${m.nome}</span>
+          <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
+            ${posicaoHtml}${premioHtml ? premioHtml : ''}${gatilhoTag}
+          </span>
+        </div>`;
+    }).join('');
+
+    return `
+      <div class="campanha-detail-box">
+        <div class="campanha-detail-title">${camp.nome}</div>
+        ${rows}
+      </div>`;
+  }).join('');
+}
+
+function _buildCards(vendedores, mes) {
   return vendedores.map(v => {
     const pm = _pm(v, mes);
     return `
