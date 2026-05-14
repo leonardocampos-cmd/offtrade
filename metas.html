@@ -1365,42 +1365,58 @@ function buildCampanha(mes) {
       let rankHtml = '';
 
       if (m.tipo_premio === 'direto') {
-        const participantes = vendedores
-          .map(v => ({ nome: v.nome, val: _mv(_pm(v, mes), m.campo, 'realizado') }))
-          .filter(p => p.val > 0)
-          .sort((a, b) => b.val - a.val);
+        const isPernod = camp.nome.includes('PERNOD') && typeof VENDAS_DATA !== 'undefined';
 
-        const totalBonus = participantes.reduce((s, p) => s + p.val, 0);
+        if (isPernod) {
+          // Calcula live de VENDAS_DATA por vendedor (igual ao SP)
+          const _vendorStats = vendedores.map(v => {
+            const vendas     = (VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [];
+            const pernodVend = vendas.filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
+            const paresMap   = new Map();
+            for (const sv of pernodVend) {
+              const key = `${sv.codcli}|${sv.produto}`;
+              if (!paresMap.has(key)) paresMap.set(key, sv.produto);
+            }
+            let bonus = 0;
+            for (const [, prod] of paresMap) bonus += prod.toUpperCase().includes('JAMERSON') ? 10 : 5;
+            return { nome: v.nome, bonus, pares: paresMap.size, posPernod: new Set(pernodVend.map(s => s.codcli)).size };
+          });
 
-        // Métricas PERNOD da equipe no mês
-        const _todasVendasMes = typeof VENDAS_DATA !== 'undefined'
-          ? vendedores.flatMap(v => (VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [])
-          : [];
-        const _pernodVendas = _todasVendasMes
-          .filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
-        const _fatPernod  = _pernodVendas.reduce((s, v) => s + v.valor, 0);
-        const _posPernod  = new Set(_pernodVendas.map(s => s.codcli)).size;
-        const _bonusPernod = participantes.reduce((s, p) => s + p.val, 0);
-        const _paresSet   = new Set(_pernodVendas.map(s => `${s.codcli}|${s.produto}`));
-        const _paresCount = _paresSet.size;
-        const fmt2 = v => v.toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
-        const _resumoPernod = `
-          <div style="font-size:0.72rem;color:var(--muted);line-height:1.8;margin-bottom:8px">
-            <div>Faturamento Total: <strong>R$ ${fmt2(_fatPernod)}</strong></div>
-            <div>Positivação Total: <strong>${_posPernod}</strong></div>
-            <div>Bônus Total: <strong>R$ ${fmt2(_bonusPernod)}</strong></div>
-            <div>Qtd Produtos distintos por cliente: <strong>${_paresCount}</strong></div>
-          </div>`;
-        const _dashHtml = camp.nome.includes('PERNOD') ? buildPernodDashboardHTML({posPernod: _posPernod, paresCount: _paresCount}) : '';
-        rankHtml = _dashHtml + (participantes.length === 0
-          ? `<div class="campanha-rank-fora">Nenhum bônus registrado ainda.</div>`
-          : _resumoPernod
-            + participantes.map((p, i) => `
+          const todaPernod  = vendedores.flatMap(v =>
+            ((VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [])
+            .filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'))
+          );
+          const _posPernod  = new Set(todaPernod.map(s => s.codcli)).size;
+          const _paresCount = new Set(todaPernod.map(s => `${s.codcli}|${s.produto}`)).size;
+
+          const participantes = _vendorStats.filter(v => v.bonus > 0).sort((a, b) => b.bonus - a.bonus);
+
+          rankHtml = buildPernodDashboardHTML({posPernod: _posPernod, paresCount: _paresCount})
+            + (participantes.length === 0
+              ? `<div class="campanha-rank-fora">Nenhum bônus PERNOD registrado ainda.</div>`
+              : participantes.map((p, i) => `
+                <div class="campanha-ranking-row">
+                  <span class="campanha-medal">${['🥇','🥈','🥉'][i] || ''}</span>
+                  <span class="campanha-rank-nome">${p.nome}</span>
+                  <span class="campanha-rank-val">${p.pares} SKUs &middot; ${p.posPernod} PDVs</span>
+                  <span class="campanha-rank-prize">R$\u00a0${p.bonus.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
+                </div>`).join(''));
+
+        } else {
+          const participantes = vendedores
+            .map(v => ({ nome: v.nome, val: _mv(_pm(v, mes), m.campo, 'realizado') }))
+            .filter(p => p.val > 0)
+            .sort((a, b) => b.val - a.val);
+
+          rankHtml = participantes.length === 0
+            ? `<div class="campanha-rank-fora">Nenhum bônus registrado ainda.</div>`
+            : participantes.map((p, i) => `
               <div class="campanha-ranking-row">
                 <span class="campanha-medal">${['🥇','🥈','🥉'][i] || ''}</span>
                 <span class="campanha-rank-nome">${p.nome}</span>
                 <span class="campanha-rank-prize">R$\u00a0${p.val.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
-              </div>`).join(''));
+              </div>`).join('');
+        }
 
       } else if (m.tipo_premio === 'ranking') {
         let participantes = vendedores.map(v => ({
