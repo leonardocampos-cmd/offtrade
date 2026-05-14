@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "14/05/2026 07:22",
+  "atualizado_em": "14/05/2026 07:27",
   "data_rota": "14.05",
   "vendedores": [
     {
@@ -13548,21 +13548,21 @@ const ENTREGAS_DATA = {
           "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
           "placa": "",
           "rota": "",
-          "status_ped": "",
+          "status_ped": "CANCELADA",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 306.8,
+          "total": 0.0,
           "itens": [
             {
               "desc": "GUARAVITON GINSENG 12X500ML",
-              "qt": 2,
-              "val": 61.8
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
-              "qt": 10,
-              "val": 245.0
+              "qt": 0,
+              "val": 0.0
             }
           ]
         },
@@ -13598,31 +13598,31 @@ const ENTREGAS_DATA = {
           "cliente": "POSTO DE GASOLINA BRACARENSE LTDA",
           "placa": "",
           "rota": "",
-          "status_ped": "",
+          "status_ped": "CANCELADA",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 301.87,
+          "total": 0.0,
           "itens": [
             {
               "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
-              "qt": 2,
-              "val": 47.88
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "GUARAVITON GINSENG 12X500ML",
-              "qt": 4,
-              "val": 123.6
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "NECTAR LARANJA TIAL 12X250ML",
-              "qt": 1,
-              "val": 35.69
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "qt": 1,
-              "val": 94.7
+              "qt": 0,
+              "val": 0.0
             }
           ]
         },
