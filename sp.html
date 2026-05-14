@@ -497,7 +497,9 @@ function _buildVendorCards(mes) {
     const vendas = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
     const fat    = vendas.reduce((s, v) => s + v.valor, 0);
     const nCli   = new Set(vendas.map(v => v.codcli)).size;
-    const bonus  = (statMap[nome] || {}).bonus || 0;
+    const bonus     = (statMap[nome] || {}).bonus     || 0;
+    const tdp       = (statMap[nome] || {}).pares     || 0;
+    const posPernod = (statMap[nome] || {}).posPernod || 0;
 
     return `
       <div class="vendor-card" data-nome="${nome.toLowerCase()}">
@@ -510,6 +512,10 @@ function _buildVendorCards(mes) {
         <div class="stat-row">
           <span class="stat-label">Clientes</span>
           <span class="stat-val">${fmtPos(nCli)}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">TDP PERNOD</span>
+          <span class="stat-val">${tdp > 0 ? tdp + ' SKUs · ' + posPernod + ' PDVs' : '—'}</span>
         </div>
         <div class="stat-row">
           <span class="stat-label">Bônus PERNOD</span>
