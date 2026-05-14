@@ -1602,21 +1602,12 @@ function buildCampanhaDetail(v, mes) {
 function _buildCards(vendedores, mes) {
   return vendedores.map(v => {
     const pm = _pm(v, mes);
-    const _pv = typeof VENDAS_DATA !== 'undefined'
-      ? ((VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || []).filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'))
-      : [];
-    const _pares     = new Set(_pv.map(s => `${s.codcli}|${s.produto}`)).size;
-    const _posPernod = new Set(_pv.map(s => s.codcli)).size;
     return `
       <div class="vendor-card" data-nome="${v.nome.toLowerCase()}">
         <div class="vendor-name">${v.nome}</div>
         <div class="vendor-rca">RCA ${v.rca}</div>
         ${buildBar('Faturamento Total', _mv(pm,'fat_tt','realizado'), _mv(pm,'fat_tt','meta'), 'fat')}
         ${buildBar('Positivação Total', _mv(pm,'pos_tt','realizado'), _mv(pm,'pos_tt','meta'), 'pos')}
-        <div class="stat-row" style="margin-top:8px">
-          <span class="stat-label">TDP PERNOD</span>
-          <span class="stat-val">${_pares > 0 ? _pares + ' SKUs · ' + _posPernod + ' PDVs' : '—'}</span>
-        </div>
         <div class="card-actions">
           <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>
         </div>
@@ -1647,54 +1638,6 @@ function renderAll(vendedores, mes) {
     </div>
     <div class="cards-grid" id="cards-grid">${_buildCards(METAS_DATA.vendedores, mes)}</div>`;
 }
-function filterCards(q) {
-  const q2 = q.toLowerCase().trim();
-  document.querySelectorAll('.vendor-card').forEach(card => {
-    card.style.display = card.dataset.nome.includes(q2) ? '' : 'none';
-  });
-}
-
-// ── Init ──────────────────────────────────────────────────
-
-(function init() {
-  if (typeof METAS_DATA === 'undefined') {
-    document.getElementById('app').innerHTML = `
-      <div class="no-data">
-        <p>&#9888; Arquivo <strong>metas_data.js</strong> não encontrado.</p>
-        <p style="margin-top:8px;font-size:0.82rem">
-          Execute a célula de exportação no notebook <strong>analisedados.ipynb</strong> para gerar os dados.
-        </p>
-      </div>`;
-    return;
-  }
-
-  const params = new URLSearchParams(window.location.search);
-  const param  = params.get('vendedor') || null;
-  const view   = params.get('view') || 'metas';
-  const mesUrl = params.get('mes') || null;
-
-  _mesSel = mesUrl || (METAS_DATA.meses && METAS_DATA.meses[0]) || '';
-
-  if (param) {
-    const v = METAS_DATA.vendedores.find(x =>
-      x.nome.toLowerCase() === param.toLowerCase());
-    if (v) {
-      if (view === 'vendas') renderVendas(v);
-      else                   renderDetail(v, _mesSel);
-    } else {
-      document.getElementById('app').innerHTML = `
-        <div class="no-data">
-          <p>Vendedor "<strong>${param}</strong>" não encontrado.</p>
-          <a class="btn" href="${location.pathname}" style="margin-top:16px">\u2190 Voltar</a>
-        </div>`;
-    }
-  } else {
-    renderAll(METAS_DATA.vendedores, _mesSel);
-  }
-})();
-</script>
-</body>
-</html>
 function filterCards(q) {
   const q2 = q.toLowerCase().trim();
   document.querySelectorAll('.vendor-card').forEach(card => {
