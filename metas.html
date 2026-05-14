@@ -1602,12 +1602,21 @@ function buildCampanhaDetail(v, mes) {
 function _buildCards(vendedores, mes) {
   return vendedores.map(v => {
     const pm = _pm(v, mes);
+    const _pv = typeof VENDAS_DATA !== 'undefined'
+      ? ((VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || []).filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'))
+      : [];
+    const _pares     = new Set(_pv.map(s => `${s.codcli}|${s.produto}`)).size;
+    const _posPernod = new Set(_pv.map(s => s.codcli)).size;
     return `
       <div class="vendor-card" data-nome="${v.nome.toLowerCase()}">
         <div class="vendor-name">${v.nome}</div>
         <div class="vendor-rca">RCA ${v.rca}</div>
         ${buildBar('Faturamento Total', _mv(pm,'fat_tt','realizado'), _mv(pm,'fat_tt','meta'), 'fat')}
         ${buildBar('Positivação Total', _mv(pm,'pos_tt','realizado'), _mv(pm,'pos_tt','meta'), 'pos')}
+        <div class="stat-row" style="margin-top:8px">
+          <span class="stat-label">TDP PERNOD</span>
+          <span class="stat-val">${_pares > 0 ? _pares + ' SKUs · ' + _posPernod + ' PDVs' : '—'}</span>
+        </div>
         <div class="card-actions">
           <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>
         </div>
