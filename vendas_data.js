@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/05/2026 15:31",
+  "atualizado_em": "14/05/2026 15:57",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -110731,15 +110731,6 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 10,
           "valor": 309.0
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "79969",
-          "cliente": "WMDIAS 24H LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "fantasia": "MINALBA",
-          "qt": 15,
-          "valor": 313.5
         },
         {
           "data": "28/04/2026",
