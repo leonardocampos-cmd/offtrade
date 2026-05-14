@@ -1288,8 +1288,6 @@ const CAMPANHAS = [
 ];
 
 function buildPernodDashboardHTML() {
-  var INV_ABBC  = 21120;
-  var INV_PLUS  = 5280;
   var INV_TOTAL = 26400;
   var META_POS  = 400;
   var custoPDV  = (INV_TOTAL / META_POS).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
@@ -1312,106 +1310,16 @@ function buildPernodDashboardHTML() {
           <div class="pernod-kpi-sub">média por ponto</div>
         </div>
       </div>
-      <div class="pernod-charts">
-        <div class="pernod-chart-box">
-          <div class="pernod-chart-title">Composição do investimento</div>
-          <div class="pernod-donut-wrap"><canvas id="pernod-donut"></canvas></div>
-        </div>
-        <div class="pernod-chart-box">
-          <div class="pernod-chart-title">Incentivo por marca (R$ / SKU)</div>
-          <div class="pernod-inc-wrap"><canvas id="pernod-incentivos"></canvas></div>
-        </div>
-      </div>
       <div class="pernod-efic">
         <div>
           <div class="pernod-efic-title">Custo médio por PDV positivado</div>
-          <div class="pernod-efic-formula">R$ 26.400 ÷ 400 PDVs</div>
+          <div class="pernod-efic-formula">R$ 26.400 ÷ 400 PDVs</div>
         </div>
-        <div class="pernod-efic-val">R$ ${custoPDV}</div>
+        <div class="pernod-efic-val">R$ ${custoPDV}</div>
       </div>
       <hr class="pernod-sep">
       <div class="pernod-rank-title">Bônus por vendedor</div>
     </div>`;
-}
-
-function initPernodCharts() {
-  var donutEl = document.getElementById('pernod-donut');
-  var incEl   = document.getElementById('pernod-incentivos');
-  if (!donutEl && !incEl) return;
-
-  ['pernod-donut', 'pernod-incentivos'].forEach(function(id) {
-    var el = document.getElementById(id);
-    if (!el) return;
-    var c = Chart.getChart(el);
-    if (c) c.destroy();
-  });
-
-  if (donutEl) {
-    new Chart(donutEl, {
-      type: 'doughnut',
-      data: {
-        labels: ['ABBC  R$ 21.120', 'PLUS  R$ 5.280'],
-        datasets: [{
-          data: [21120, 5280],
-          backgroundColor: ['#1e40af', '#d4a90e'],
-          borderColor: ['#0f1117', '#0f1117'],
-          borderWidth: 3,
-          hoverOffset: 8,
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        cutout: '62%',
-        plugins: {
-          legend: { position: 'bottom', labels: { color: '#94a3b8', font: { size: 10 }, boxWidth: 11, padding: 10 } },
-          tooltip: {
-            callbacks: {
-              label: function(ctx) {
-                var pct = ((ctx.raw / 26400) * 100).toFixed(1);
-                return ' R$ ' + ctx.raw.toLocaleString('pt-BR') + ' (' + pct + '%)';
-              }
-            }
-          }
-        }
-      }
-    });
-  }
-
-  if (incEl) {
-    var iLabels = ['Absolut', 'Beefeater', 'Ball. 1L', 'Chivas 12Y', 'Jameson'];
-    var iVals   = [5, 5, 5, 5, 10];
-    var iBg     = iLabels.map(function(l) { return l === 'Jameson' ? '#d4a90e' : '#1e40af'; });
-    var iBorder = iLabels.map(function(l) { return l === 'Jameson' ? '#f5c518' : '#3b82f6'; });
-    new Chart(incEl, {
-      type: 'bar',
-      data: {
-        labels: iLabels,
-        datasets: [{ label: 'R$ por SKU', data: iVals, backgroundColor: iBg, borderColor: iBorder, borderWidth: 1, borderRadius: 4 }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            callbacks: {
-              label: function(ctx) {
-                return ' R$ ' + ctx.raw + ',00' + (ctx.label === 'Jameson' ? '  ★ PLUS' : '');
-              }
-            }
-          }
-        },
-        scales: {
-          x: { ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { color: '#2d3144' } },
-          y: {
-            ticks: { color: '#94a3b8', font: { size: 10 }, callback: function(v) { return 'R$ ' + v; } },
-            grid: { color: '#2d3144' }, beginAtZero: true, max: 12
-          }
-        }
-      }
-    });
-  }
 }
 
 function _campanhaGatilhoBar(totalEquipe, m) {
@@ -1671,7 +1579,7 @@ function renderAll(vendedores, mes) {
     `${mes}  ·  Atualizado ${METAS_DATA.atualizado_em}`;
 
   document.getElementById('header-actions').innerHTML =
-    `<select class="mes-select" onchange="_mesSel=this.value; document.getElementById('campanha-wrap').innerHTML=buildCampanha(this.value); document.getElementById('cards-grid').innerHTML=_buildCards(METAS_DATA.vendedores, this.value); document.getElementById('header-sub').textContent=this.value+' · Atualizado ${METAS_DATA.atualizado_em}'; setTimeout(initPernodCharts,0)">${mesOpts}</select>
+    `<select class="mes-select" onchange="_mesSel=this.value; document.getElementById('campanha-wrap').innerHTML=buildCampanha(this.value); document.getElementById('cards-grid').innerHTML=_buildCards(METAS_DATA.vendedores, this.value); document.getElementById('header-sub').textContent=this.value+' · Atualizado ${METAS_DATA.atualizado_em}'">${mesOpts}</select>
      <a class="btn btn-limite" href="https://offtrade.duckdns.org/" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
 
   document.getElementById('app').innerHTML = `
@@ -1681,7 +1589,6 @@ function renderAll(vendedores, mes) {
         oninput="filterCards(this.value)">
     </div>
     <div class="cards-grid" id="cards-grid">${_buildCards(vendedores, mes)}</div>`;
-  setTimeout(initPernodCharts, 0);
 }
 function filterCards(q) {
   const q2 = q.toLowerCase().trim();
