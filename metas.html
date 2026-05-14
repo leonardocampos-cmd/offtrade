@@ -1493,10 +1493,6 @@ function buildCampanha(mes) {
     const colsClass = camp.metricas.length === 1 ? '' : 'campanha-cols';
     return `
       <div class="campanha-card">
-        <div class="campanha-header">
-          <span class="campanha-badge">Campanha</span>
-          <span class="campanha-nome">${camp.nome}</span>
-        </div>
         <div class="${colsClass}">${cols}</div>
       </div>`;
   }).join('');
