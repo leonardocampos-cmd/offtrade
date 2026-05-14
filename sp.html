@@ -496,13 +496,6 @@ function buildPernodSP(mes) {
 
 // ── Cards de vendedores ───────────────────────────────────
 
-function toggleCardSP(card) {
-  const expand = card.querySelector('.vendor-expand');
-  const icon   = card.querySelector('.card-toggle-icon');
-  expand.classList.toggle('open');
-  icon.classList.toggle('open');
-}
-
 function _buildVendorCards(mes) {
   if (typeof VENDAS_SP_DATA === 'undefined') return '';
   const nomes = Object.keys(VENDAS_SP_DATA.por_vendedor || {});
@@ -512,30 +505,17 @@ function _buildVendorCards(mes) {
   const statMap   = Object.fromEntries(vendors.map(v => [v.nome, v]));
 
   return nomes.map(nome => {
-    const vendas = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
-    const fat    = vendas.reduce((s, v) => s + v.valor, 0);
-    const nCli   = new Set(vendas.map(v => v.codcli)).size;
+    const vendas    = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
+    const fat       = vendas.reduce((s, v) => s + v.valor, 0);
+    const nCli      = new Set(vendas.map(v => v.codcli)).size;
     const bonus     = (statMap[nome] || {}).bonus     || 0;
     const tdp       = (statMap[nome] || {}).pares     || 0;
     const posPernod = (statMap[nome] || {}).posPernod || 0;
-    const pernodVendas = vendas.filter(v => v.fantasia && v.fantasia.toUpperCase().includes('PERNOD'));
-    const pernodRows = pernodVendas.length === 0
-      ? '<div style="color:var(--muted);font-size:0.75rem;padding:6px 0">Sem vendas Pernod neste mês.</div>'
-      : '<table class="expand-table"><thead><tr><th>Cliente</th><th>Produto</th><th class="td-right">Qtd</th><th class="td-right">R$</th></tr></thead><tbody>'
-        + pernodVendas.sort((a,b) => a.cliente.localeCompare(b.cliente)).map(r =>
-            `<tr><td>${r.cliente}</td><td style="color:var(--muted)">${r.produto}</td><td class="td-right">${r.qt}</td><td class="td-right">${fmtFat(r.valor)}</td></tr>`
-          ).join('')
-        + '</tbody></table>';
 
     return `
-      <div class="vendor-card" data-nome="${nome.toLowerCase()}" onclick="toggleCardSP(this)">
-        <div class="card-toggle">
-          <div>
-            <div class="vendor-name">${nome}</div>
-            <div class="vendor-sub">SP</div>
-          </div>
-          <span class="card-toggle-icon">▼</span>
-        </div>
+      <div class="vendor-card" data-nome="${nome.toLowerCase()}">
+        <div class="vendor-name">${nome}</div>
+        <div class="vendor-sub">SP</div>
         <div class="stat-row">
           <span class="stat-label">Faturamento</span>
           <span class="stat-val">${fmtFat(fat)}</span>
@@ -545,18 +525,15 @@ function _buildVendorCards(mes) {
           <span class="stat-val">${fmtPos(nCli)}</span>
         </div>
         <div class="stat-row">
-          <span class="stat-label">TDP PERNOD</span>
-          <span class="stat-val">${tdp > 0 ? tdp + ' SKUs · ' + posPernod + ' PDVs' : '—'}</span>
-        </div>
-        <div class="stat-row">
           <span class="stat-label">Bônus PERNOD</span>
           <span class="stat-val" style="color:var(--accent)">${bonus > 0 ? fmtFat(bonus) : '—'}</span>
         </div>
-        <div class="vendor-expand">${pernodRows}</div>
+        <div class="card-actions">
+          <button class="btn btn-primary" onclick="renderVendasSP('${nome.replace(/'/g,"\'")}')">Ver vendas</button>
+        </div>
       </div>`;
   }).join('');
 }
-
 // ── Tabela de Vendas ──────────────────────────────────────
 
 function buildVendasTable(lista) {
