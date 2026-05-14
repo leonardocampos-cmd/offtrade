@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "14/05/2026 13:14",
+  "atualizado_em": "14/05/2026 14:51",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -3688,7 +3688,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "07/01/2026",
           "codcli": "40779",
-          "cliente": "JMW COMERCIO DE BEBIDAS LTDA",
+          "cliente": "NOVA DISTRIBUIDORA COMERCIO DE BEBIDAS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
           "fantasia": "PERNOD",
           "qt": 240,
@@ -4030,7 +4030,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "08/01/2026",
           "codcli": "40625",
-          "cliente": "JMW COMERCIO DE BEBIDAS LTDA",
+          "cliente": "NOVA DISTRIBUIDORA COMERCIO DE BEBIDAS LTDA",
           "produto": "RED BULL 250ML CAIXA C/ 24",
           "fantasia": "RED BULL",
           "qt": 144,
@@ -27904,6 +27904,15 @@ const VENDAS_SP_DATA = {
           "valor": 5078.4
         },
         {
+          "data": "14/05/2026",
+          "codcli": "25439",
+          "cliente": "DISTRIBUIDORA SANTO EXPEDITO LTDA",
+          "produto": "RUM BACARDI GOLD 980ML",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 3984.0
+        },
+        {
           "data": "05/05/2026",
           "codcli": "20208",
           "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
@@ -28588,6 +28597,15 @@ const VENDAS_SP_DATA = {
           "valor": 492.96
         },
         {
+          "data": "14/05/2026",
+          "codcli": "40098",
+          "cliente": "L  A COMERCIO DE BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 3108.0
+        },
+        {
           "data": "06/05/2026",
           "codcli": "39698",
           "cliente": "BUENO DISTRIBUIDORA LTDA",
@@ -28939,34 +28957,7 @@ const VENDAS_SP_DATA = {
           "valor": 1504.8
         },
         {
-          "data": "13/05/2026",
-          "codcli": "46325",
-          "cliente": "SUPERMERCADO ALABARCE LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 394.8
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "46325",
-          "cliente": "SUPERMERCADO ALABARCE LTDA",
-          "produto": "JIM BEAM BLACK CHERRY 1L",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 12,
-          "valor": 718.8
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "46325",
-          "cliente": "SUPERMERCADO ALABARCE LTDA",
-          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-          "fantasia": "",
-          "qt": 36,
-          "valor": 3524.4
-        },
-        {
-          "data": "13/05/2026",
+          "data": "14/05/2026",
           "codcli": "46325",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
           "produto": "WHISKY JACK DANIELS APPLE 700ML",
@@ -28975,7 +28966,7 @@ const VENDAS_SP_DATA = {
           "valor": 910.8
         },
         {
-          "data": "13/05/2026",
+          "data": "14/05/2026",
           "codcli": "46325",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
           "produto": "WHISKY JACK DANIELS 1L - DEST",
@@ -28984,7 +28975,7 @@ const VENDAS_SP_DATA = {
           "valor": 1186.8
         },
         {
-          "data": "13/05/2026",
+          "data": "14/05/2026",
           "codcli": "46325",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
           "produto": "WHISKY BALLANTINES 7YO BARREL",
@@ -28993,7 +28984,7 @@ const VENDAS_SP_DATA = {
           "valor": 802.8
         },
         {
-          "data": "13/05/2026",
+          "data": "14/05/2026",
           "codcli": "46325",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
           "produto": "TERRAZAS RESERVA MALBEC 750 ML",
@@ -29002,13 +28993,22 @@ const VENDAS_SP_DATA = {
           "valor": 434.7
         },
         {
-          "data": "13/05/2026",
+          "data": "14/05/2026",
           "codcli": "46325",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC 750 ML",
-          "fantasia": "",
-          "qt": 36,
-          "valor": 1032.12
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 394.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "46325",
+          "cliente": "SUPERMERCADO ALABARCE LTDA",
+          "produto": "JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 12,
+          "valor": 718.8
         },
         {
           "data": "08/05/2026",
@@ -29252,6 +29252,33 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 3,
           "valor": 377.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "48169",
+          "cliente": "MATHEUS TAKAO DOS REIS YOSHIZUMI",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 123.24
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "48169",
+          "cliente": "MATHEUS TAKAO DOS REIS YOSHIZUMI",
+          "produto": "GIN ROCKS SUNSET 1LT",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 128.04
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "48169",
+          "cliente": "MATHEUS TAKAO DOS REIS YOSHIZUMI",
+          "produto": "VODKA ABSOLUT 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 706.8
         },
         {
           "data": "08/05/2026",
@@ -51155,6 +51182,24 @@ const VENDAS_SP_DATA = {
           "valor": 1132.2
         },
         {
+          "data": "14/05/2026",
+          "codcli": "50298",
+          "cliente": "SHOPPING FARTURA COMERCIO DE HORTIFRUTIGRANJEIROS LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 18,
+          "valor": 1132.2
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "50299",
+          "cliente": "SHOPPING FARTURA PAINEIRAS COMERCIO DE HORTIFRUTI LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 754.8
+        },
+        {
           "data": "13/05/2026",
           "codcli": "50346",
           "cliente": "MAIA GARCIA COMERCIO LTDA",
@@ -52415,6 +52460,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 934.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "49974",
+          "cliente": "AGNALDO ALMEIDA MENDES",
+          "produto": "WHISKY BALLANTINE'S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 353.4
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "49974",
+          "cliente": "AGNALDO ALMEIDA MENDES",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 310.8
         },
         {
           "data": "06/05/2026",
