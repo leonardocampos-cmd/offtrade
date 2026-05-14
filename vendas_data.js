@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/05/2026 07:22",
+  "atualizado_em": "14/05/2026 07:26",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -39507,42 +39507,6 @@ const VENDAS_DATA = {
           "valor": 284.1
         },
         {
-          "data": "13/05/2026",
-          "codcli": "2310",
-          "cliente": "POSTO DE GASOLINA BRACARENSE LTDA",
-          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
-          "fantasia": "AURORA",
-          "qt": 2,
-          "valor": 47.88
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "2310",
-          "cliente": "POSTO DE GASOLINA BRACARENSE LTDA",
-          "produto": "NECTAR LARANJA TIAL 12X250ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 35.69
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "2310",
-          "cliente": "POSTO DE GASOLINA BRACARENSE LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "2310",
-          "cliente": "POSTO DE GASOLINA BRACARENSE LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 4,
-          "valor": 123.6
-        },
-        {
           "data": "14/05/2026",
           "codcli": "2310",
           "cliente": "POSTO DE GASOLINA BRACARENSE LTDA",
@@ -40072,24 +40036,6 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 1,
           "valor": 30.9
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "3551",
-          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
-          "fantasia": "MINALBA",
-          "qt": 10,
-          "valor": 245.0
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "3551",
-          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 2,
-          "valor": 61.8
         },
         {
           "data": "14/05/2026",
