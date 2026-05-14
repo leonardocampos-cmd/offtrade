@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/05/2026 10:22",
+  "atualizado_em": "14/05/2026 10:26",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -40081,87 +40081,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "4621",
-          "cliente": "AUTO POSTO MAP RECREIO LTDA",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 175.2
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "4621",
-          "cliente": "AUTO POSTO MAP RECREIO LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "4621",
-          "cliente": "AUTO POSTO MAP RECREIO LTDA",
-          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.48
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "4621",
-          "cliente": "AUTO POSTO MAP RECREIO LTDA",
-          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-          "fantasia": "FANTE",
-          "qt": 1,
-          "valor": 78.9
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "4621",
-          "cliente": "AUTO POSTO MAP RECREIO LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "4621",
-          "cliente": "AUTO POSTO MAP RECREIO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "4621",
-          "cliente": "AUTO POSTO MAP RECREIO LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "4621",
-          "cliente": "AUTO POSTO MAP RECREIO LTDA",
-          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.48
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "4621",
-          "cliente": "AUTO POSTO MAP RECREIO LTDA",
-          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.48
         },
         {
           "data": "12/05/2026",
