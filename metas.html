@@ -1517,11 +1517,32 @@ function buildCampanhaDetail(v, mes) {
       let premioHtml  = '';
 
       if (m.tipo_premio === 'direto') {
-        posicaoHtml = val > 0
-          ? `<span style="font-weight:700;color:var(--text)">Bônus acumulado</span>`
-          : `<span class="campanha-rank-fora">Sem vendas Pernod ainda</span>`;
-        if (val > 0) {
-          premioHtml = `<span class="campanha-rank-prize">R$\u00a0${val.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>`;
+        const isPernodDet = camp.nome.includes('PERNOD') && typeof VENDAS_DATA !== 'undefined';
+        if (isPernodDet) {
+          const pv = ((VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [])
+            .filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
+          const paresMap = new Map();
+          for (const sv of pv) {
+            const key = `${sv.codcli}|${sv.produto}`;
+            if (!paresMap.has(key)) paresMap.set(key, sv.produto);
+          }
+          let bonus = 0;
+          for (const [, prod] of paresMap) bonus += prod.toUpperCase().includes('JAMERSON') ? 10 : 5;
+          const pares     = paresMap.size;
+          const posPernod = new Set(pv.map(s => s.codcli)).size;
+          posicaoHtml = pares > 0
+            ? `<span style="font-weight:700;color:var(--text)">${pares} SKUs · ${posPernod} PDVs</span>`
+            : `<span class="campanha-rank-fora">Sem vendas Pernod ainda</span>`;
+          if (bonus > 0) {
+            premioHtml = `<span class="campanha-rank-prize">R$\u00a0${bonus.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>`;
+          }
+        } else {
+          posicaoHtml = val > 0
+            ? `<span style="font-weight:700;color:var(--text)">Bônus acumulado</span>`
+            : `<span class="campanha-rank-fora">Sem bônus ainda</span>`;
+          if (val > 0) {
+            premioHtml = `<span class="campanha-rank-prize">R$\u00a0${val.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>`;
+          }
         }
 
       } else if (m.tipo_premio === 'ranking') {
