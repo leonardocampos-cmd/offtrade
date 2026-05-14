@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/05/2026 16:00",
+  "atualizado_em": "14/05/2026 16:58",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -40830,6 +40830,60 @@ const VENDAS_DATA = {
           "valor": 103.6
         },
         {
+          "data": "14/05/2026",
+          "codcli": "79246",
+          "cliente": "J R CONVENIENCIAS LTDA",
+          "produto": "CHA VERDE MACA DESINCHA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 69.72
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "79246",
+          "cliente": "J R CONVENIENCIAS LTDA",
+          "produto": "CHA VERDE ABACAX HORT DESINCHA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 69.72
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "79246",
+          "cliente": "J R CONVENIENCIAS LTDA",
+          "produto": "NECTAR MACA TIAL 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 29.88
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "79246",
+          "cliente": "J R CONVENIENCIAS LTDA",
+          "produto": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 64.56
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "79246",
+          "cliente": "J R CONVENIENCIAS LTDA",
+          "produto": "CHA VERDE FRUTAS VERM.DESINCHA.12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 64.56
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "79246",
+          "cliente": "J R CONVENIENCIAS LTDA",
+          "produto": "CHA VERDE LARAN GENGI DESINCHA 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 64.56
+        },
+        {
           "data": "06/05/2026",
           "codcli": "79820",
           "cliente": "AUTO POSTO QUEBRAMAR LTDA",
@@ -41631,6 +41685,24 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
+          "data": "14/05/2026",
+          "codcli": "90472",
+          "cliente": "SAVIO FILHO CLINICA INTEGRADA LTDA",
+          "produto": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
+          "fantasia": "MINALBA",
+          "qt": 3,
+          "valor": 152.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "90472",
+          "cliente": "SAVIO FILHO CLINICA INTEGRADA LTDA",
+          "produto": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
+          "fantasia": "MINALBA",
+          "qt": 5,
+          "valor": 284.5
+        },
+        {
           "data": "08/05/2026",
           "codcli": "89964",
           "cliente": "POSTO DE GASOLINA COROA DO MAR LTDA",
@@ -42259,6 +42331,231 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 12,
           "valor": 150.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 135.6
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 99.6
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 99.6
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "VINHO FOODKILLER CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 135.6
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 24.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "ESPUMANTE ALUD ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 49.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 5,
+          "valor": 299.5
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "VINHO CAVAS DE ORO MALBEC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 151.6
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 99.6
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 75.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 75.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "VINHO ARESTI ESTATE S.  ROSE 187ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 75.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 2,
+          "valor": 149.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 2,
+          "valor": 67.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "CHANDON GARDEN SPRITZ 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 1,
+          "valor": 33.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.48
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.48
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 23.94
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "CAMPARI",
+          "qt": 1,
+          "valor": 48.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "93446",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "GIN ROCKS POCKET PET 12X200ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 106.49
         },
         {
           "data": "06/05/2026",
@@ -57665,6 +57962,24 @@ const VENDAS_DATA = {
           "valor": 61.8
         },
         {
+          "data": "14/05/2026",
+          "codcli": "94980",
+          "cliente": "MERCEARIA EMILU'S LTDA M E",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "94980",
+          "cliente": "MERCEARIA EMILU'S LTDA M E",
+          "produto": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 47.9
+        },
+        {
           "data": "04/05/2026",
           "codcli": "91254",
           "cliente": "DROGARIA NOBRE DE REALENGO LTDA",
@@ -72826,6 +73141,33 @@ const VENDAS_DATA = {
           "valor": 142.8
         },
         {
+          "data": "14/05/2026",
+          "codcli": "92040",
+          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "92040",
+          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
+          "produto": "AMARULA VANILE SPICE 750ML",
+          "fantasia": "INTERFOOD",
+          "qt": 2,
+          "valor": 179.8
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "92040",
+          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
+          "produto": "LIQUEUR AMARULA RASBERRY 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 2,
+          "valor": 179.8
+        },
+        {
           "data": "02/05/2026",
           "codcli": "91693",
           "cliente": "55.529.476 AUREA DOS SANTOS TEIXEIRA",
@@ -73647,69 +73989,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 419.4
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 2,
-          "valor": 67.8
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "GIN ROCKS GREEN APPLE 1000ML",
-          "fantasia": "FANTE",
-          "qt": 3,
-          "valor": 67.5
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "GIN ROCKS SUNSET 1000ML",
-          "fantasia": "FANTE",
-          "qt": 3,
-          "valor": 67.5
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 3,
-          "valor": 67.5
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 3,
-          "valor": 67.5
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "GIN ROCKS 1000ML",
-          "fantasia": "FANTE",
-          "qt": 3,
-          "valor": 67.5
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 3,
-          "valor": 67.5
         },
         {
           "data": "29/04/2026",
@@ -98398,6 +98677,33 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 300,
           "valor": 9870.0
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "85866",
+          "cliente": "ALEXANDRE DA SILVA ENGUEL",
+          "produto": "VINHO SERBAL ASSEMBLAGE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 176.7
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "85866",
+          "cliente": "ALEXANDRE DA SILVA ENGUEL",
+          "produto": "VINHO ROSE CAMINHOS CRUZADOS COLHEITA",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 44.5
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "85866",
+          "cliente": "ALEXANDRE DA SILVA ENGUEL",
+          "produto": "VINHO TERRAS DE SANTAR COLHEITA TINTO",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 96.0
         }
       ]
     },
@@ -141240,6 +141546,33 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 6,
           "valor": 215.4
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "91634",
+          "cliente": "RIO SUL BELFORD ROXO COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "91634",
+          "cliente": "RIO SUL BELFORD ROXO COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 12,
+          "valor": 783.36
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "91634",
+          "cliente": "RIO SUL BELFORD ROXO COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
         },
         {
           "data": "06/05/2026",
