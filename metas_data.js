@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "14/05/2026 09:20",
+  "atualizado_em": "14/05/2026 10:22",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -5784,7 +5784,7 @@ const METAS_DATA = {
         "Mai/26": {
           "fat_tt": {
             "meta": 130000.0,
-            "realizado": 19272.48
+            "realizado": 18941.42
           },
           "fat_castas": {
             "meta": 8000.0,
@@ -8327,12 +8327,12 @@ const METAS_DATA = {
         },
         {
           "mes": "May/26",
-          "fat": 19272.48,
+          "fat": 18941.42,
           "pos": 22
         }
       ],
       "previsao": {
-        "fat_proj": 40472.21,
+        "fat_proj": 39776.98,
         "fat_media_hist": 71322.49,
         "pos_proj": 46.2,
         "pos_media_hist": 49.7,
@@ -18527,7 +18527,7 @@ const METAS_DATA = {
         "Mai/26": {
           "fat_tt": {
             "meta": 150000.0,
-            "realizado": 19352.77
+            "realizado": 19076.89
           },
           "fat_castas": {
             "meta": 12000.0,
@@ -19428,12 +19428,12 @@ const METAS_DATA = {
         },
         {
           "mes": "May/26",
-          "fat": 19352.77,
+          "fat": 19076.89,
           "pos": 15
         }
       ],
       "previsao": {
-        "fat_proj": 40640.82,
+        "fat_proj": 40061.47,
         "fat_media_hist": 73590.82,
         "pos_proj": 29.4,
         "pos_media_hist": 27.0,

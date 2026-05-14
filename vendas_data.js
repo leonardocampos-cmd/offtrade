@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/05/2026 09:20",
+  "atualizado_em": "14/05/2026 10:22",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -113300,24 +113300,6 @@ const VENDAS_DATA = {
           "valor": 189.4
         },
         {
-          "data": "12/05/2026",
-          "codcli": "89952",
-          "cliente": "POSTO DE COMBUSTIVEIS BICUIBA BRANCA LTDA",
-          "produto": "RED BULL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 196.56
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "89952",
-          "cliente": "POSTO DE COMBUSTIVEIS BICUIBA BRANCA LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 5,
-          "valor": 134.5
-        },
-        {
           "data": "13/05/2026",
           "codcli": "89952",
           "cliente": "POSTO DE COMBUSTIVEIS BICUIBA BRANCA LTDA",
@@ -161130,24 +161112,6 @@ const VENDAS_DATA = {
           "fantasia": "INVICTUS",
           "qt": 2,
           "valor": 29.8
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "69866",
-          "cliente": "MERCADO REI DOS REIS NISSIN LTDA",
-          "produto": "CANTINA DA SERRA 1,5L",
-          "fantasia": "COMARY",
-          "qt": 12,
-          "valor": 113.88
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "69866",
-          "cliente": "MERCADO REI DOS REIS NISSIN LTDA",
-          "produto": "PIRASSUNUNGA 51 965 ML",
-          "fantasia": "51",
-          "qt": 12,
-          "valor": 162.0
         },
         {
           "data": "13/05/2026",
