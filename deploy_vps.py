@@ -1,11 +1,15 @@
 # deploy_vps.py — Copia arquivos do dashboard para a VPS via SCP
+import os
 import paramiko
 from pathlib import Path
+from dotenv import load_dotenv
 
-VPS_HOST = "SEU_IP_AQUI"
-VPS_PORT = 22
-VPS_USER = "root"
-VPS_KEY  = r"C:\Users\LeonardoCampos\.ssh\id_rsa"   # caminho da chave privada
+load_dotenv(Path(__file__).parent / ".env")
+
+VPS_HOST = os.getenv("VPS_IP",       "147.79.107.137")
+VPS_PORT = int(os.getenv("VPS_PORT", "22"))
+VPS_USER = os.getenv("VPS_USER",     "root")
+VPS_PASS = os.getenv("VPS_PASSWORD", "")
 VPS_DIR  = "/var/www/offtrade"
 
 FILES = [
@@ -23,7 +27,7 @@ def deploy():
 
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    ssh.connect(VPS_HOST, port=VPS_PORT, username=VPS_USER, key_filename=VPS_KEY)
+    ssh.connect(VPS_HOST, port=VPS_PORT, username=VPS_USER, password=VPS_PASS)
 
     sftp = ssh.open_sftp()
     for fname in FILES:
@@ -36,7 +40,7 @@ def deploy():
             print(f"   SKIP {fname} (não encontrado)")
     sftp.close()
     ssh.close()
-    print("OK deploy VPS concluído.")
+    print(f"OK deploy VPS concluido -> http://{VPS_HOST}/")
 
 if __name__ == "__main__":
     deploy()
