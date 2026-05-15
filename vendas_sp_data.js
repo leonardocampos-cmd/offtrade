@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "15/05/2026 10:08",
+  "atualizado_em": "15/05/2026 11:04",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -28309,7 +28309,7 @@ const VENDAS_SP_DATA = {
           "valor": 9702.0
         },
         {
-          "data": "14/05/2026",
+          "data": "15/05/2026",
           "codcli": "33550",
           "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
@@ -28318,7 +28318,7 @@ const VENDAS_SP_DATA = {
           "valor": 1554.0
         },
         {
-          "data": "14/05/2026",
+          "data": "15/05/2026",
           "codcli": "33550",
           "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
@@ -28327,7 +28327,7 @@ const VENDAS_SP_DATA = {
           "valor": 2508.0
         },
         {
-          "data": "14/05/2026",
+          "data": "15/05/2026",
           "codcli": "33550",
           "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
           "produto": "WHISKY JIM BEAM WHITE 1L",
@@ -28336,16 +28336,7 @@ const VENDAS_SP_DATA = {
           "valor": 14376.0
         },
         {
-          "data": "14/05/2026",
-          "codcli": "33550",
-          "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
-          "produto": "WHISKY PASSPORT HONEY 670ML",
-          "fantasia": "PERNOD",
-          "qt": 15,
-          "valor": 517.5
-        },
-        {
-          "data": "14/05/2026",
+          "data": "15/05/2026",
           "codcli": "33550",
           "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
           "produto": "WHISKY PASSPORT 1L",
