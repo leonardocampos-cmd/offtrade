@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "15/05/2026 11:09",
+  "atualizado_em": "15/05/2026 12:02",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -32430,15 +32430,6 @@ const VENDAS_SP_DATA = {
           "valor": 1365.6
         },
         {
-          "data": "06/03/2026",
-          "codcli": "25192",
-          "cliente": "AGUAS BOAS D MINAS E DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 48,
-          "valor": 3109.92
-        },
-        {
           "data": "27/03/2026",
           "codcli": "23103",
           "cliente": "BEBIDA CHIC IMPORTACAO E EXPORTACAO LTDA",
@@ -33121,6 +33112,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 30,
           "valor": 1077.0
+        },
+        {
+          "data": "06/03/2026",
+          "codcli": "25192",
+          "cliente": "AGUAS BOAS D MINAS E DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 48,
+          "valor": 3109.92
         },
         {
           "data": "30/03/2026",
@@ -39071,15 +39071,6 @@ const VENDAS_SP_DATA = {
         },
         {
           "data": "30/04/2026",
-          "codcli": "25192",
-          "cliente": "AGUAS BOAS D MINAS E DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 1254.0
-        },
-        {
-          "data": "30/04/2026",
           "codcli": "23136",
           "cliente": "ADEGA GLOBAL LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
@@ -39266,6 +39257,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "25192",
+          "cliente": "AGUAS BOAS D MINAS E DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1254.0
         },
         {
           "data": "23/04/2026",
