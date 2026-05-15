@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "15/05/2026 12:12",
+  "atualizado_em": "15/05/2026 15:18",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -28939,6 +28939,33 @@ const VENDAS_SP_DATA = {
           "valor": 250.8
         },
         {
+          "data": "15/05/2026",
+          "codcli": "47373",
+          "cliente": "64.040.794 DANILO CARLOTA FARIA DOS SANTOS",
+          "produto": "VODKA ABSOLUT 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 176.7
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "47373",
+          "cliente": "64.040.794 DANILO CARLOTA FARIA DOS SANTOS",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 173.4
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "47373",
+          "cliente": "64.040.794 DANILO CARLOTA FARIA DOS SANTOS",
+          "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
+          "fantasia": "PERNOD",
+          "qt": 4,
+          "valor": 187.6
+        },
+        {
           "data": "04/05/2026",
           "codcli": "46791",
           "cliente": "EMPORIO SALVADOR COMERCIAL E DISTRIBUIDORA LTDA",
@@ -29740,6 +29767,15 @@ const VENDAS_SP_DATA = {
           "valor": 207.8
         },
         {
+          "data": "15/05/2026",
+          "codcli": "49283",
+          "cliente": "DOUGLAS NEVES DA SILVA 39666617803",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 3479.4
+        },
+        {
           "data": "11/05/2026",
           "codcli": "49268",
           "cliente": "GLAUCIA F. V. SILVA LTDA.",
@@ -30329,6 +30365,15 @@ const VENDAS_SP_DATA = {
           "codcli": "50068",
           "cliente": "DISTRIBUIDORA DE BEBIDAS HERINS LTDA",
           "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 11868.0
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "49509",
+          "cliente": "SOL NASCENTE DISTRIBUICAO E REPRESENTACAO LTDA",
+          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
           "fantasia": "",
           "qt": 120,
           "valor": 11868.0
@@ -47309,6 +47354,51 @@ const VENDAS_SP_DATA = {
           "valor": 778.8
         },
         {
+          "data": "15/05/2026",
+          "codcli": "38641",
+          "cliente": "E. OMENA DE MENEZES",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 310.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "38641",
+          "cliente": "E. OMENA DE MENEZES",
+          "produto": "BEEFEATER PINK 700ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 389.4
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "38641",
+          "cliente": "E. OMENA DE MENEZES",
+          "produto": "GIN TANQUERAY BOSSA NOVA  700 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1258.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "38641",
+          "cliente": "E. OMENA DE MENEZES",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 754.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "38641",
+          "cliente": "E. OMENA DE MENEZES",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 188.7
+        },
+        {
           "data": "08/05/2026",
           "codcli": "38800",
           "cliente": "W. LEONARDO FERREIRA DE MENEZES",
@@ -51969,6 +52059,60 @@ const VENDAS_SP_DATA = {
           "valor": 129.8
         },
         {
+          "data": "15/05/2026",
+          "codcli": "50341",
+          "cliente": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 754.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "50341",
+          "cliente": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
+          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 333.0
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "50341",
+          "cliente": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
+          "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 718.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "50341",
+          "cliente": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
+          "produto": "BEEFEATER BLACKBERRY  700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 778.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "50341",
+          "cliente": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 310.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "50341",
+          "cliente": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
+          "produto": "CACHACA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 501.6
+        },
+        {
           "data": "13/05/2026",
           "codcli": "50294",
           "cliente": "MFD MERCADO LTDA",
@@ -52693,6 +52837,33 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 120,
           "valor": 11868.0
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "",
+          "qt": 204,
+          "valor": 4190.16
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "",
+          "qt": 300,
+          "valor": 8685.0
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "CACHACA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 1320,
+          "valor": 27588.0
         }
       ]
     },
@@ -53514,6 +53685,69 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 3,
           "valor": 100.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "50384",
+          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 57.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "50384",
+          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 39.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "50384",
+          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
+          "produto": "VODKA ABSOLUT 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 53.9
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "50384",
+          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
+          "produto": "APERITIVO CAMPARI 998ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "50384",
+          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
+          "produto": "SMIRNOFF ICE 24X275ML LONG",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 125.9
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "50384",
+          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
+          "produto": "CACHACA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 250.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "50384",
+          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 202.8
         },
         {
           "data": "08/05/2026",
