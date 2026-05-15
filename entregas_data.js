@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "15/05/2026 12:12",
+  "atualizado_em": "15/05/2026 13:00",
   "data_rota": "15.05",
   "vendedores": [
     {
@@ -269,6 +269,31 @@ const ENTREGAS_DATA = {
               "desc": "GUARAVITA NATURAL 24X290ML",
               "qt": 15,
               "val": 385.2
+            }
+          ]
+        },
+        {
+          "numped": "431000919",
+          "numnota": "",
+          "data": "15/05/2026",
+          "cliente": "PADARIA E CONFEITARIA NOVA SANTA HELENA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 411.3,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 10,
+              "val": 256.8
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 5,
+              "val": 154.5
             }
           ]
         }
