@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "15/05/2026 12:00",
+  "atualizado_em": "15/05/2026 12:12",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -42063,15 +42063,6 @@ const VENDAS_DATA = {
           "valor": 199.8
         },
         {
-          "data": "11/05/2026",
-          "codcli": "90925",
-          "cliente": "POSTO MAR AZUL LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
           "data": "08/05/2026",
           "codcli": "91093",
           "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
@@ -73715,60 +73706,6 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 57.6
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "94870",
-          "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 199.5
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "94870",
-          "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 199.5
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "94870",
-          "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "94870",
-          "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "94870",
-          "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "94870",
-          "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
         },
         {
           "data": "08/05/2026",
