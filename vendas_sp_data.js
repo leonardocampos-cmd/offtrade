@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "18/05/2026 11:07",
+  "atualizado_em": "18/05/2026 15:55",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -28165,6 +28165,15 @@ const VENDAS_SP_DATA = {
           "valor": 18648.0
         },
         {
+          "data": "18/05/2026",
+          "codcli": "32508",
+          "cliente": "CENTRAL OSASCO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "WHISKY GLENLIVET FOUNDER'S RESERVE",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 4077.6
+        },
+        {
           "data": "04/05/2026",
           "codcli": "32340",
           "cliente": "VENDINHA COMERCIAL LTDA",
@@ -28597,6 +28606,15 @@ const VENDAS_SP_DATA = {
           "valor": 3009.6
         },
         {
+          "data": "18/05/2026",
+          "codcli": "38212",
+          "cliente": "BERTIN BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 720,
+          "valor": 17992.8
+        },
+        {
           "data": "07/05/2026",
           "codcli": "38511",
           "cliente": "GREEN BRASIL ALIMENTOS BEBIDAS E VARIEDADES LTDA",
@@ -28820,6 +28838,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 600,
           "valor": 15540.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "39698",
+          "cliente": "BUENO DISTRIBUIDORA LTDA",
+          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 5874.0
         },
         {
           "data": "16/05/2026",
@@ -29947,6 +29974,33 @@ const VENDAS_SP_DATA = {
           "valor": 1029.6
         },
         {
+          "data": "18/05/2026",
+          "codcli": "49222",
+          "cliente": "MERCADO H.D LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 828.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "49222",
+          "cliente": "MERCADO H.D LTDA",
+          "produto": "RUM MALIBU 750 ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1029.6
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "49222",
+          "cliente": "MERCADO H.D LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1186.8
+        },
+        {
           "data": "06/05/2026",
           "codcli": "49224",
           "cliente": "K. N. S. VAREJAO BEBIDAS LTDA",
@@ -30305,6 +30359,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 112,
           "valor": 11076.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "49414",
+          "cliente": "DISTRIBUIDORA DO ALEMAO MIRIZOLA LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 5934.0
         },
         {
           "data": "11/05/2026",
@@ -43554,15 +43617,6 @@ const VENDAS_SP_DATA = {
           "data": "22/04/2026",
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 120,
-          "valor": 7668.0
-        },
-        {
-          "data": "22/04/2026",
-          "codcli": "44215",
-          "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -45672,15 +45726,6 @@ const VENDAS_SP_DATA = {
           "valor": 10746.0
         },
         {
-          "data": "20/03/2026",
-          "codcli": "36189",
-          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1965.6
-        },
-        {
           "data": "06/03/2026",
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
@@ -45877,15 +45922,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 78,
           "valor": 7128.42
-        },
-        {
-          "data": "20/03/2026",
-          "codcli": "36191",
-          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1965.6
         },
         {
           "data": "20/03/2026",
