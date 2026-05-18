@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "18/05/2026 11:06",
+  "atualizado_em": "18/05/2026 14:19",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -147508,6 +147508,60 @@ const VENDAS_DATA = {
           "valor": 10440.0
         },
         {
+          "data": "18/05/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 3312,
+          "valor": 105321.6
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "CERRO DE PEDRA CHARDONNAY JOVEM BCO",
+          "fantasia": "CASTAS",
+          "qt": 18,
+          "valor": 1150.2
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "CERRO DE PEDRA GRAN RESERVA MERLOT TINTO",
+          "fantasia": "CASTAS",
+          "qt": 120,
+          "valor": 11388.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "CERRO DE PEDRA LARANJA JOVEM 750ML",
+          "fantasia": "CASTAS",
+          "qt": 48,
+          "valor": 4315.2
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "CERRO DE PEDRA PARCELAS CAB FRANC TTO",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 562.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "CERRO DE PEDRA RESERVA TANNAT TTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 180,
+          "valor": 11502.0
+        },
+        {
           "data": "07/05/2026",
           "codcli": "81155",
           "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
@@ -156929,15 +156983,6 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 120,
           "valor": 13125.6
-        },
-        {
-          "data": "16/05/2026",
-          "codcli": "58584",
-          "cliente": "SUPERMERCADO ALVORADA EIRELI",
-          "produto": "CACHACA YPIOCA BRASILIZAR CG OURO 965ML",
-          "fantasia": "DIAGEO",
-          "qt": 59,
-          "valor": 1007.13
         },
         {
           "data": "16/05/2026",
