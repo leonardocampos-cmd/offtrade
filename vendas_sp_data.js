@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "18/05/2026 09:14",
+  "atualizado_em": "18/05/2026 11:07",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -27994,15 +27994,6 @@ const VENDAS_SP_DATA = {
           "valor": 12324.0
         },
         {
-          "data": "14/05/2026",
-          "codcli": "25439",
-          "cliente": "DISTRIBUIDORA SANTO EXPEDITO LTDA",
-          "produto": "RUM BACARDI GOLD 980ML",
-          "fantasia": "",
-          "qt": 120,
-          "valor": 3984.0
-        },
-        {
           "data": "05/05/2026",
           "codcli": "20208",
           "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
@@ -52344,15 +52335,6 @@ const VENDAS_SP_DATA = {
         },
         {
           "data": "12/05/2026",
-          "codcli": "50298",
-          "cliente": "SHOPPING FARTURA COMERCIO DE HORTIFRUTIGRANJEIROS LTDA",
-          "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "PERNOD",
-          "qt": 18,
-          "valor": 1132.2
-        },
-        {
-          "data": "14/05/2026",
           "codcli": "50298",
           "cliente": "SHOPPING FARTURA COMERCIO DE HORTIFRUTIGRANJEIROS LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
