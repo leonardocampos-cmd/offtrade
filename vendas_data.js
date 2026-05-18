@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "18/05/2026 09:12",
+  "atualizado_em": "18/05/2026 11:06",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -80184,33 +80184,6 @@ const VENDAS_DATA = {
           "valor": 43.8
         },
         {
-          "data": "14/05/2026",
-          "codcli": "94758",
-          "cliente": "COMERCIO DE HORTFRUTI IRMA LUCIA DE FATIMA CATETE 2025 LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 34.13
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "94758",
-          "cliente": "COMERCIO DE HORTFRUTI IRMA LUCIA DE FATIMA CATETE 2025 LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 65.28
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "94758",
-          "cliente": "COMERCIO DE HORTFRUTI IRMA LUCIA DE FATIMA CATETE 2025 LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
           "data": "02/05/2026",
           "codcli": "93245",
           "cliente": "WAY SUPLEMENTOS DO VALQUEIRE LTDA",
@@ -122165,6 +122138,24 @@ const VENDAS_DATA = {
           "valor": 60.0
         },
         {
+          "data": "16/05/2026",
+          "codcli": "70944",
+          "cliente": "ITANIA COSTA ANTONIO VIANA 16136309726",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "70944",
+          "cliente": "ITANIA COSTA ANTONIO VIANA 16136309726",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 274.8
+        },
+        {
           "data": "06/05/2026",
           "codcli": "83705",
           "cliente": "MERCADO RIO SUL DE CAMPO GRANDE LTDA",
@@ -146085,6 +146076,24 @@ const VENDAS_DATA = {
           "valor": 1470.0
         },
         {
+          "data": "16/05/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "AZEITE OLIV EV ZETONA FINALIZAR 12X500ML",
+          "fantasia": "",
+          "qt": 15,
+          "valor": 7596.0
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "AZEITE OLIV EV ZETONA COZINHAR 12X500ML",
+          "fantasia": "",
+          "qt": 15,
+          "valor": 6426.0
+        },
+        {
           "data": "02/05/2026",
           "codcli": "60844",
           "cliente": "DOM ATACAREJO S.A.",
@@ -147996,33 +148005,6 @@ const VENDAS_DATA = {
           "fantasia": "BETTER DRINKS",
           "qt": 2,
           "valor": 259.62
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "79657",
-          "cliente": "MERCADO TATAIS JULIETA LTDA",
-          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
-          "fantasia": "HEINEKEN",
-          "qt": 15,
-          "valor": 778.5
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "79657",
-          "cliente": "MERCADO TATAIS JULIETA LTDA",
-          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
-          "fantasia": "HEINEKEN",
-          "qt": 10,
-          "valor": 391.9
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "79657",
-          "cliente": "MERCADO TATAIS JULIETA LTDA",
-          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
-          "fantasia": "HEINEKEN",
-          "qt": 1,
-          "valor": 136.88
         },
         {
           "data": "13/05/2026",
