@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "19/05/2026 10:49",
+  "atualizado_em": "19/05/2026 14:38",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -150005,6 +150005,51 @@ const VENDAS_DATA = {
           "valor": 1043.6
         },
         {
+          "data": "19/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 300.4
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14841.2
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV BADEN CHOC 0,600 DES UN",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 881.4
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 84,
+          "valor": 16992.36
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1043.6
+        },
+        {
           "data": "16/05/2026",
           "codcli": "69414",
           "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
@@ -150102,51 +150147,6 @@ const VENDAS_DATA = {
           "fantasia": "BETTER DRINKS",
           "qt": 2,
           "valor": 259.62
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "69216",
-          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
-          "produto": "CERV BADEN CHOC 0,600 DES UN",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 10582.2
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "69216",
-          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
-          "produto": "CERVEJA HEINEKEN RET 24X600ML",
-          "fantasia": "HEINEKEN",
-          "qt": 84,
-          "valor": 16992.36
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "69216",
-          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
-          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
-          "fantasia": "HEINEKEN",
-          "qt": 10,
-          "valor": 1043.6
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "69216",
-          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
-          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
-          "fantasia": "HEINEKEN",
-          "qt": 10,
-          "valor": 300.4
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "69216",
-          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
-          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-          "fantasia": "HEINEKEN",
-          "qt": 220,
-          "valor": 14841.2
         },
         {
           "data": "13/05/2026",
