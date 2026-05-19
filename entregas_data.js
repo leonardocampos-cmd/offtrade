@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "19/05/2026 17:32",
+  "atualizado_em": "19/05/2026 17:35",
   "data_rota": "19.05",
   "vendedores": [
     {
@@ -2122,6 +2122,36 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "471000209",
+          "numnota": "",
+          "data": "19/05/2026",
+          "cliente": "FRIGORIFICO NAZARE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1675.8,
+          "itens": [
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 12,
+              "val": 150.0
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 30,
+              "val": 1047.0
+            },
+            {
+              "desc": "VANISH PO WHITE POTE 12X450G",
+              "qt": 2,
+              "val": 478.8
+            }
+          ]
+        },
+        {
           "numped": "471000206",
           "numnota": "",
           "data": "19/05/2026",
@@ -2134,6 +2164,16 @@ const ENTREGAS_DATA = {
           "obs": "entrega agendada para o dia 20/5",
           "total": 3151.22,
           "itens": [
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV.",
+              "qt": 2,
+              "val": 57.8
+            },
+            {
+              "desc": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+              "qt": 2,
+              "val": 63.8
+            },
             {
               "desc": "VINHO FOODKILLER CAB. SAUV. 750ML",
               "qt": 2,
@@ -2293,46 +2333,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
               "qt": 2,
               "val": 57.8
-            },
-            {
-              "desc": "VINHO GRAVEDAD CAB. SAUV.",
-              "qt": 2,
-              "val": 57.8
-            },
-            {
-              "desc": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
-              "qt": 2,
-              "val": 63.8
-            }
-          ]
-        },
-        {
-          "numped": "471000209",
-          "numnota": "",
-          "data": "19/05/2026",
-          "cliente": "FRIGORIFICO NAZARE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1675.8,
-          "itens": [
-            {
-              "desc": "CACHACA VELHO BARREIRO 910 ML",
-              "qt": 12,
-              "val": 150.0
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 30,
-              "val": 1047.0
-            },
-            {
-              "desc": "VANISH PO WHITE POTE 12X450G",
-              "qt": 2,
-              "val": 478.8
             }
           ]
         },
@@ -9919,6 +9919,31 @@ const ENTREGAS_DATA = {
               "desc": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
               "qt": 24,
               "val": 429.6
+            }
+          ]
+        },
+        {
+          "numped": "159004636",
+          "numnota": "",
+          "data": "19/05/2026",
+          "cliente": "LFM BAR E EVENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 106.76,
+          "itens": [
+            {
+              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+              "qt": 1,
+              "val": 51.66
+            },
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 1,
+              "val": 55.1
             }
           ]
         },
@@ -29287,7 +29312,73 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "241000467",
+          "numnota": "",
+          "data": "19/05/2026",
+          "cliente": "62.299.341 VICTOR ALVARENGA SOUZA E SOUZA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 611.68,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 10,
+              "val": 218.0
+            },
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 3,
+              "val": 95.88
+            },
+            {
+              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+              "qt": 1,
+              "val": 99.9
+            },
+            {
+              "desc": "WHISKY JACK DANIELS 1L",
+              "qt": 1,
+              "val": 119.0
+            },
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 1,
+              "val": 78.9
+            }
+          ]
+        },
+        {
+          "numped": "241000468",
+          "numnota": "",
+          "data": "19/05/2026",
+          "cliente": "ANSELMO SILVERIO ANDRADE 09448988745",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 859.52,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 383.52
+            },
+            {
+              "desc": "WHISKY JACK DANIELS 1L",
+              "qt": 4,
+              "val": 476.0
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "241000464",
