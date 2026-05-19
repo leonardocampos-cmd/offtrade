@@ -1,40 +1,17 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "19/05/2026 08:05",
+  "atualizado_em": "19/05/2026 09:39",
   "data_rota": "19.05",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVES",
-      "em_rota": [],
-      "nao_emitido": [
-        {
-          "numped": "431000929",
-          "numnota": "",
-          "data": "18/05/2026",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 98.4,
-          "itens": [
-            {
-              "desc": "4 PACK RED BULL TROPICAL 4X250ML",
-              "qt": 3,
-              "val": 98.4
-            }
-          ]
-        }
-      ],
-      "emitido_s_rota": [
+      "em_rota": [
         {
           "numped": "431000928",
           "numnota": "394687.0",
           "data": "18/05/2026",
           "cliente": "MM CONVENIENCIA LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "LMV5I35",
+          "rota": "SANTA CRUZ + CAMPO GRANDE",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -93,8 +70,8 @@ const ENTREGAS_DATA = {
           "numnota": "394951.0",
           "data": "18/05/2026",
           "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
-          "placa": "",
-          "rota": "",
+          "placa": "LTG4A18",
+          "rota": "PENHA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -143,6 +120,125 @@ const ENTREGAS_DATA = {
             }
           ]
         },
+        {
+          "numped": "431000924",
+          "numnota": "394581.0",
+          "data": "18/05/2026",
+          "cliente": "DROGARIA E PERFUMARIA ESTRELAS LTDA",
+          "placa": "TTQ1A33",
+          "rota": "TAQUARA",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 95.88,
+          "itens": [
+            {
+              "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
+              "qt": 1,
+              "val": 47.9
+            },
+            {
+              "desc": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+              "qt": 1,
+              "val": 47.98
+            }
+          ]
+        },
+        {
+          "numped": "431000927",
+          "numnota": "394696.0",
+          "data": "18/05/2026",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "placa": "TUA3G43",
+          "rota": "TIJUCA",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 5683.2,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 6,
+              "val": 203.4
+            },
+            {
+              "desc": "VODKA ABSOLUT - 1 LITRO",
+              "qt": 12,
+              "val": 910.8
+            },
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 12,
+              "val": 1234.8
+            },
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 120,
+              "val": 1668.0
+            },
+            {
+              "desc": "APERITIVO CAMPARI 998ML",
+              "qt": 12,
+              "val": 622.8
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 6,
+              "val": 1043.4
+            }
+          ]
+        },
+        {
+          "numped": "431000914",
+          "numnota": "393891.0",
+          "data": "14/05/2026",
+          "cliente": "MERCEARIA EMILU'S LTDA M E",
+          "placa": "LTG4A18",
+          "rota": "PENHA",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 119.66,
+          "itens": [
+            {
+              "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
+              "qt": 1,
+              "val": 47.9
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+              "qt": 1,
+              "val": 71.76
+            }
+          ]
+        }
+      ],
+      "nao_emitido": [
+        {
+          "numped": "431000929",
+          "numnota": "",
+          "data": "18/05/2026",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 98.4,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL TROPICAL 4X250ML",
+              "qt": 3,
+              "val": 98.4
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [
         {
           "numped": "431000923",
           "numnota": "394560.0",
@@ -200,76 +296,6 @@ const ENTREGAS_DATA = {
               "desc": "VEJA PESADA X14 PROMO 24X500ML",
               "qt": 0,
               "val": 0.0
-            }
-          ]
-        },
-        {
-          "numped": "431000924",
-          "numnota": "394581.0",
-          "data": "18/05/2026",
-          "cliente": "DROGARIA E PERFUMARIA ESTRELAS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 95.88,
-          "itens": [
-            {
-              "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
-              "qt": 1,
-              "val": 47.9
-            },
-            {
-              "desc": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
-              "qt": 1,
-              "val": 47.98
-            }
-          ]
-        },
-        {
-          "numped": "431000927",
-          "numnota": "394696.0",
-          "data": "18/05/2026",
-          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 5683.2,
-          "itens": [
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 6,
-              "val": 203.4
-            },
-            {
-              "desc": "VODKA ABSOLUT - 1 LITRO",
-              "qt": 12,
-              "val": 910.8
-            },
-            {
-              "desc": "GIN TANQUERAY  750 ML",
-              "qt": 12,
-              "val": 1234.8
-            },
-            {
-              "desc": "CACHACA VELHO BARREIRO 910 ML",
-              "qt": 120,
-              "val": 1668.0
-            },
-            {
-              "desc": "APERITIVO CAMPARI 998ML",
-              "qt": 12,
-              "val": 622.8
-            },
-            {
-              "desc": "WHISKY J WALKER BLACK LABEL 1L",
-              "qt": 6,
-              "val": 1043.4
             }
           ]
         },
@@ -590,31 +616,6 @@ const ENTREGAS_DATA = {
               "desc": "NECTAR GOIABA TIAL 12X250ML",
               "qt": 1,
               "val": 34.65
-            }
-          ]
-        },
-        {
-          "numped": "431000914",
-          "numnota": "393891.0",
-          "data": "14/05/2026",
-          "cliente": "MERCEARIA EMILU'S LTDA M E",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 119.66,
-          "itens": [
-            {
-              "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
-              "qt": 1,
-              "val": 47.9
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-              "qt": 1,
-              "val": 71.76
             }
           ]
         },
@@ -1972,16 +1973,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "ANA CLARA PASSOS",
-      "em_rota": [],
-      "nao_emitido": [],
-      "emitido_s_rota": [
+      "em_rota": [
         {
           "numped": "471000197",
           "numnota": "394510.0",
           "data": "18/05/2026",
           "cliente": "MERCADINHO BAMBINA LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "KZH9D68",
+          "rota": "BOTAFOGO",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -2005,8 +2004,8 @@ const ENTREGAS_DATA = {
           "numnota": "394873.0",
           "data": "18/05/2026",
           "cliente": "DELICATESSEN LEBLON EIRELI EPP",
-          "placa": "",
-          "rota": "",
+          "placa": "LMW9C26",
+          "rota": "LEBLON",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -2035,8 +2034,8 @@ const ENTREGAS_DATA = {
           "numnota": "394905.0",
           "data": "18/05/2026",
           "cliente": "DELI BOTAFOGO LTDA EPP",
-          "placa": "",
-          "rota": "",
+          "placa": "KZH9D68",
+          "rota": "BOTAFOGO",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -2059,7 +2058,10 @@ const ENTREGAS_DATA = {
               "val": 29.9
             }
           ]
-        },
+        }
+      ],
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "471000189",
           "numnota": "394200.0",
@@ -2679,7 +2681,133 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "ANGELO SUZART",
-      "em_rota": [],
+      "em_rota": [
+        {
+          "numped": "153001115",
+          "numnota": "394526.0",
+          "data": "18/05/2026",
+          "cliente": "FAMILIA MARIO BROS LTDA",
+          "placa": "SSE7A76",
+          "rota": "CAXIAS",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 19/05/26",
+          "total": 393.12,
+          "itens": [
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 2,
+              "val": 393.12
+            }
+          ]
+        },
+        {
+          "numped": "153001116",
+          "numnota": "394643.0",
+          "data": "18/05/2026",
+          "cliente": "LUNA SUPERMERCADOS LTDA",
+          "placa": "SSE7A76",
+          "rota": "CAXIAS",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 19/05/26",
+          "total": 355.2,
+          "itens": [
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 12,
+              "val": 140.4
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+              "qt": 12,
+              "val": 214.8
+            }
+          ]
+        },
+        {
+          "numped": "153001117",
+          "numnota": "394644.0",
+          "data": "18/05/2026",
+          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+          "placa": "BXD5E49",
+          "rota": "MERC CAXIAS",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 19/05 com pagamento de descarga no valor de R$60,00 por pal",
+          "total": 1337.4,
+          "itens": [
+            {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 3,
+              "val": 598.5
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 3,
+              "val": 598.5
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 12,
+              "val": 140.4
+            }
+          ]
+        },
+        {
+          "numped": "153001118",
+          "numnota": "4989.0",
+          "data": "18/05/2026",
+          "cliente": "CEREAIS IRENE LTDA",
+          "placa": "BXD5E49",
+          "rota": "MERC CAXIAS",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 19/05/26",
+          "total": 1047.0,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 18,
+              "val": 628.2
+            },
+            {
+              "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+              "qt": 12,
+              "val": 418.8
+            }
+          ]
+        },
+        {
+          "numped": "153001119",
+          "numnota": "4990.0",
+          "data": "18/05/2026",
+          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+          "placa": "BXD5E49",
+          "rota": "MERC CAXIAS",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 19/05/26 - 8HRS AS 14HRS",
+          "total": 788.4,
+          "itens": [
+            {
+              "desc": "GIN ROCKS STRAWBERRY 1000ML",
+              "qt": 30,
+              "val": 657.0
+            },
+            {
+              "desc": "GIN ROCKS SCILIAN LEMON 1000ML",
+              "qt": 6,
+              "val": 131.4
+            }
+          ]
+        }
+      ],
       "nao_emitido": [
         {
           "numped": "153001121",
@@ -2740,131 +2868,6 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 10,
               "val": 652.8
-            }
-          ]
-        },
-        {
-          "numped": "153001115",
-          "numnota": "394526.0",
-          "data": "18/05/2026",
-          "cliente": "FAMILIA MARIO BROS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entregar no dia 19/05/26",
-          "total": 393.12,
-          "itens": [
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 2,
-              "val": 393.12
-            }
-          ]
-        },
-        {
-          "numped": "153001116",
-          "numnota": "394643.0",
-          "data": "18/05/2026",
-          "cliente": "LUNA SUPERMERCADOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entregar no dia 19/05/26",
-          "total": 355.2,
-          "itens": [
-            {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 12,
-              "val": 140.4
-            },
-            {
-              "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-              "qt": 12,
-              "val": 214.8
-            }
-          ]
-        },
-        {
-          "numped": "153001117",
-          "numnota": "394644.0",
-          "data": "18/05/2026",
-          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entregar no dia 19/05 com pagamento de descarga no valor de R$60,00 por pal",
-          "total": 1337.4,
-          "itens": [
-            {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 3,
-              "val": 598.5
-            },
-            {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 3,
-              "val": 598.5
-            },
-            {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 12,
-              "val": 140.4
-            }
-          ]
-        },
-        {
-          "numped": "153001118",
-          "numnota": "4989.0",
-          "data": "18/05/2026",
-          "cliente": "CEREAIS IRENE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 19/05/26",
-          "total": 1047.0,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 18,
-              "val": 628.2
-            },
-            {
-              "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
-              "qt": 12,
-              "val": 418.8
-            }
-          ]
-        },
-        {
-          "numped": "153001119",
-          "numnota": "4990.0",
-          "data": "18/05/2026",
-          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 19/05/26 - 8HRS AS 14HRS",
-          "total": 788.4,
-          "itens": [
-            {
-              "desc": "GIN ROCKS STRAWBERRY 1000ML",
-              "qt": 30,
-              "val": 657.0
-            },
-            {
-              "desc": "GIN ROCKS SCILIAN LEMON 1000ML",
-              "qt": 6,
-              "val": 131.4
             }
           ]
         },
@@ -4822,42 +4825,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "BARBARA CABRAL",
-      "em_rota": [],
-      "nao_emitido": [
-        {
-          "numped": "412001242",
-          "numnota": "",
-          "data": "14/05/2026",
-          "cliente": "POSTO ITAIPAVA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 361.08,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 204.48
-            },
-            {
-              "desc": "COQUETEL PINK MOON 12X600ML - PET",
-              "qt": 2,
-              "val": 156.6
-            }
-          ]
-        }
-      ],
-      "emitido_s_rota": [
+      "em_rota": [
         {
           "numped": "412001251",
           "numnota": "394537.0",
           "data": "18/05/2026",
           "cliente": "WMDIAS 24H LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "LMV5I35",
+          "rota": "SANTA CRUZ + CAMPO GRANDE",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -4876,8 +4851,8 @@ const ENTREGAS_DATA = {
           "numnota": "394684.0",
           "data": "18/05/2026",
           "cliente": "EMMENSA VAREJISTA DE SUPRIMENTOS E ALIMENTOS LTDA.",
-          "placa": "",
-          "rota": "",
+          "placa": "SSA9A24",
+          "rota": "BANGU + CAMPO GRANDE",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -4896,8 +4871,8 @@ const ENTREGAS_DATA = {
           "numnota": "4988.0",
           "data": "18/05/2026",
           "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SSA9A24",
+          "rota": "BANGU + CAMPO GRANDE",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -4945,7 +4920,36 @@ const ENTREGAS_DATA = {
               "val": 509.4
             }
           ]
-        },
+        }
+      ],
+      "nao_emitido": [
+        {
+          "numped": "412001242",
+          "numnota": "",
+          "data": "14/05/2026",
+          "cliente": "POSTO ITAIPAVA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 361.08,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 204.48
+            },
+            {
+              "desc": "COQUETEL PINK MOON 12X600ML - PET",
+              "qt": 2,
+              "val": 156.6
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [
         {
           "numped": "412001238",
           "numnota": "393807.0",
@@ -6487,16 +6491,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "DIOGO RAPOSO",
-      "em_rota": [],
-      "nao_emitido": [],
-      "emitido_s_rota": [
+      "em_rota": [
         {
           "numped": "144001419",
           "numnota": "394656.0",
           "data": "18/05/2026",
           "cliente": "MAYRON S BAR LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TTQ1A33",
+          "rota": "TAQUARA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -6540,8 +6542,8 @@ const ENTREGAS_DATA = {
           "numnota": "394809.0",
           "data": "18/05/2026",
           "cliente": "MAYRON S BAR LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TTQ1A33",
+          "rota": "TAQUARA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -6565,8 +6567,8 @@ const ENTREGAS_DATA = {
           "numnota": "394738.0",
           "data": "18/05/2026",
           "cliente": "MINI MERCADO BOA OPCAO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJP3J23",
+          "rota": "JPA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -6585,6 +6587,34 @@ const ENTREGAS_DATA = {
             }
           ]
         },
+        {
+          "numped": "144001423",
+          "numnota": "394954.0",
+          "data": "18/05/2026",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "placa": "TTN5H14",
+          "rota": "SUL 1",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 566.4,
+          "itens": [
+            {
+              "desc": "VODKA ABSOLUT CX C/ 12X50ML",
+              "qt": 5,
+              "val": 449.5
+            },
+            {
+              "desc": "TANQUERAY CX C/ 12X50ML",
+              "qt": 1,
+              "val": 116.9
+            }
+          ]
+        }
+      ],
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "144001422",
           "numnota": "394802.0",
@@ -6612,31 +6642,6 @@ const ENTREGAS_DATA = {
               "desc": "TANQUERAY CX C/ 12X50ML",
               "qt": 0,
               "val": 0.0
-            }
-          ]
-        },
-        {
-          "numped": "144001423",
-          "numnota": "394954.0",
-          "data": "18/05/2026",
-          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 566.4,
-          "itens": [
-            {
-              "desc": "VODKA ABSOLUT CX C/ 12X50ML",
-              "qt": 5,
-              "val": 449.5
-            },
-            {
-              "desc": "TANQUERAY CX C/ 12X50ML",
-              "qt": 1,
-              "val": 116.9
             }
           ]
         },
@@ -7624,42 +7629,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "DIRLEI",
-      "em_rota": [],
-      "nao_emitido": [
-        {
-          "numped": "417000307",
-          "numnota": "",
-          "data": "14/05/2026",
-          "cliente": "FRADE SPOT PARTICIPACOES S/A",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 903.37,
-          "itens": [
-            {
-              "desc": "VODKA VOA 750ML",
-              "qt": 1,
-              "val": 62.77
-            },
-            {
-              "desc": "TEQUILA ALTOS PLATA 750ML",
-              "qt": 6,
-              "val": 840.6
-            }
-          ]
-        }
-      ],
-      "emitido_s_rota": [
+      "em_rota": [
         {
           "numped": "417000322",
           "numnota": "4993.0",
           "data": "18/05/2026",
           "cliente": "MULTI ANGRA MERCADO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SRA3F62",
+          "rota": "MERC ANGRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -7708,8 +7685,8 @@ const ENTREGAS_DATA = {
           "numnota": "4995.0",
           "data": "18/05/2026",
           "cliente": "MULTI PARATY MERCADO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SRA3F62",
+          "rota": "MERC ANGRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -7758,8 +7735,8 @@ const ENTREGAS_DATA = {
           "numnota": "4997.0",
           "data": "18/05/2026",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SRA3F62",
+          "rota": "MERC ANGRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -7798,8 +7775,8 @@ const ENTREGAS_DATA = {
           "numnota": "4999.0",
           "data": "18/05/2026",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SRA3F62",
+          "rota": "MERC ANGRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -7814,37 +7791,12 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "417000311",
-          "numnota": "4987.0",
-          "data": "18/05/2026",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "CANCELADA",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA 19/05",
-          "total": 0.0,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 0,
-              "val": 0.0
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 0,
-              "val": 0.0
-            }
-          ]
-        },
-        {
           "numped": "417000314",
           "numnota": "394946.0",
           "data": "18/05/2026",
           "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SRA3F62",
+          "rota": "MERC ANGRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -7868,8 +7820,8 @@ const ENTREGAS_DATA = {
           "numnota": "394947.0",
           "data": "18/05/2026",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SRA3F62",
+          "rota": "MERC ANGRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -7893,8 +7845,8 @@ const ENTREGAS_DATA = {
           "numnota": "394944.0",
           "data": "18/05/2026",
           "cliente": "MULTI PARATY MERCADO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SRA3F62",
+          "rota": "MERC ANGRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -7913,8 +7865,8 @@ const ENTREGAS_DATA = {
           "numnota": "394945.0",
           "data": "18/05/2026",
           "cliente": "MULTI PARATY MERCADO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SRA3F62",
+          "rota": "MERC ANGRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -7938,8 +7890,8 @@ const ENTREGAS_DATA = {
           "numnota": "4992.0",
           "data": "18/05/2026",
           "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SRA3F62",
+          "rota": "MERC ANGRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -7993,8 +7945,8 @@ const ENTREGAS_DATA = {
           "numnota": "4994.0",
           "data": "18/05/2026",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SRA3F62",
+          "rota": "MERC ANGRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -8020,6 +7972,60 @@ const ENTREGAS_DATA = {
               "desc": "ESPM CASA PERINI BLACK EDITION 750ML",
               "qt": 6,
               "val": 239.4
+            }
+          ]
+        }
+      ],
+      "nao_emitido": [
+        {
+          "numped": "417000307",
+          "numnota": "",
+          "data": "14/05/2026",
+          "cliente": "FRADE SPOT PARTICIPACOES S/A",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 903.37,
+          "itens": [
+            {
+              "desc": "VODKA VOA 750ML",
+              "qt": 1,
+              "val": 62.77
+            },
+            {
+              "desc": "TEQUILA ALTOS PLATA 750ML",
+              "qt": 6,
+              "val": 840.6
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [
+        {
+          "numped": "417000311",
+          "numnota": "4987.0",
+          "data": "18/05/2026",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "CANCELADA",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA 19/05",
+          "total": 0.0,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 0,
+              "val": 0.0
             }
           ]
         },
@@ -8412,16 +8418,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "FABIO VALOTTI",
-      "em_rota": [],
-      "nao_emitido": [],
-      "emitido_s_rota": [
+      "em_rota": [
         {
           "numped": "378000373",
           "numnota": "394805.0",
           "data": "18/05/2026",
           "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SRA3F55",
+          "rota": "SANTO CRISTO",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -8445,8 +8449,8 @@ const ENTREGAS_DATA = {
           "numnota": "394691.0",
           "data": "18/05/2026",
           "cliente": "37.514.649 YURI BRAZ TOME DE SOUZA",
-          "placa": "",
-          "rota": "",
+          "placa": "LMV5I35",
+          "rota": "SANTA CRUZ + CAMPO GRANDE",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -8459,7 +8463,10 @@ const ENTREGAS_DATA = {
               "val": 4056.0
             }
           ]
-        },
+        }
+      ],
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "378000371",
           "numnota": "394050.0",
@@ -8854,37 +8861,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "GISELLE BARFER - OFF TRADE",
-      "em_rota": [],
-      "nao_emitido": [
-        {
-          "numped": "159004626",
-          "numnota": "",
-          "data": "18/05/2026",
-          "cliente": "DELETE FIRE COMERCIO E SERVICOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 165.3,
-          "itens": [
-            {
-              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-              "qt": 3,
-              "val": 165.3
-            }
-          ]
-        }
-      ],
-      "emitido_s_rota": [
+      "em_rota": [
         {
           "numped": "159004617",
           "numnota": "394812.0",
           "data": "18/05/2026",
           "cliente": "COMERCIAL MAFRAN LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TTT0A28",
+          "rota": "NITEROI",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -8913,8 +8897,8 @@ const ENTREGAS_DATA = {
           "numnota": "394845.0",
           "data": "18/05/2026",
           "cliente": "ARMAZEM DEPOSITO E COMERCIO DE BEBIDAS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RKR6E39",
+          "rota": "CABO FRIO",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -8943,8 +8927,8 @@ const ENTREGAS_DATA = {
           "numnota": "394854.0",
           "data": "18/05/2026",
           "cliente": "R R RESTAURANTE CARIOCA LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TTX4A47",
+          "rota": "BARRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -8963,8 +8947,8 @@ const ENTREGAS_DATA = {
           "numnota": "394855.0",
           "data": "18/05/2026",
           "cliente": "R R RESTAURANTE CARIOCA LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJV2J20",
+          "rota": "SHOPP BARRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -8983,8 +8967,8 @@ const ENTREGAS_DATA = {
           "numnota": "394844.0",
           "data": "18/05/2026",
           "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJD5E19",
+          "rota": "BÚZIOS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -9003,8 +8987,8 @@ const ENTREGAS_DATA = {
           "numnota": "394846.0",
           "data": "18/05/2026",
           "cliente": "BL PIZZARIA LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJD5E19",
+          "rota": "BÚZIOS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -9043,8 +9027,8 @@ const ENTREGAS_DATA = {
           "numnota": "394927.0",
           "data": "18/05/2026",
           "cliente": "BOTECO SENSACAO COMERCIO DE BEBIDAS E PETISCOS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJD5E19",
+          "rota": "BÚZIOS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -9078,8 +9062,8 @@ const ENTREGAS_DATA = {
           "numnota": "394939.0",
           "data": "18/05/2026",
           "cliente": "DELETE FIRE COMERCIO E SERVICOS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJD5E19",
+          "rota": "BÚZIOS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -9092,7 +9076,31 @@ const ENTREGAS_DATA = {
               "val": 1438.2
             }
           ]
-        },
+        }
+      ],
+      "nao_emitido": [
+        {
+          "numped": "159004626",
+          "numnota": "",
+          "data": "18/05/2026",
+          "cliente": "DELETE FIRE COMERCIO E SERVICOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 165.3,
+          "itens": [
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 3,
+              "val": 165.3
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [
         {
           "numped": "159004613",
           "numnota": "394313.0",
@@ -12337,16 +12345,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "JORGE MACIEL",
-      "em_rota": [],
-      "nao_emitido": [],
-      "emitido_s_rota": [
+      "em_rota": [
         {
           "numped": "379000957",
           "numnota": "394531.0",
           "data": "18/05/2026",
           "cliente": "DROGARIA MENOS PRECO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TUP1A46",
+          "rota": "NOVA IGUAÇU + MERITI",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -12400,8 +12406,8 @@ const ENTREGAS_DATA = {
           "numnota": "394528.0",
           "data": "18/05/2026",
           "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM OLAVO BI",
-          "placa": "",
-          "rota": "",
+          "placa": "SSE7A76",
+          "rota": "CAXIAS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -12430,8 +12436,8 @@ const ENTREGAS_DATA = {
           "numnota": "394535.0",
           "data": "18/05/2026",
           "cliente": "MERCADINHO TEM TUDO DE NILOPOLIS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TUP1A46",
+          "rota": "NOVA IGUAÇU + MERITI",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -12475,8 +12481,8 @@ const ENTREGAS_DATA = {
           "numnota": "394530.0",
           "data": "18/05/2026",
           "cliente": "ACOUGUE METROPOLE DAS CARNES",
-          "placa": "",
-          "rota": "",
+          "placa": "TUP1A46",
+          "rota": "NOVA IGUAÇU + MERITI",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -12495,8 +12501,8 @@ const ENTREGAS_DATA = {
           "numnota": "394532.0",
           "data": "18/05/2026",
           "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TUP1A46",
+          "rota": "NOVA IGUAÇU + MERITI",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -12535,8 +12541,8 @@ const ENTREGAS_DATA = {
           "numnota": "394645.0",
           "data": "18/05/2026",
           "cliente": "GR ALIMENTOS E LATICINIOS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TUP1A46",
+          "rota": "NOVA IGUAÇU + MERITI",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -12570,8 +12576,8 @@ const ENTREGAS_DATA = {
           "numnota": "394646.0",
           "data": "18/05/2026",
           "cliente": "3D SALGADOS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TUP1A46",
+          "rota": "NOVA IGUAÇU + MERITI",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -12584,7 +12590,10 @@ const ENTREGAS_DATA = {
               "val": 447.0
             }
           ]
-        },
+        }
+      ],
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "379000940",
           "numnota": "394204.0",
@@ -15046,16 +15055,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "KELLY RAMOS (KAROL)",
-      "em_rota": [],
-      "nao_emitido": [],
-      "emitido_s_rota": [
+      "em_rota": [
         {
           "numped": "420000019",
           "numnota": "4962.0",
           "data": "18/05/2026",
           "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TUK2F64",
+          "rota": "MERC GUANABARA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -15069,6 +15076,44 @@ const ENTREGAS_DATA = {
             }
           ]
         },
+        {
+          "numped": "420000022",
+          "numnota": "4996.0",
+          "data": "18/05/2026",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "placa": "TUK2F64",
+          "rota": "MERC GUANABARA",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 17530.2,
+          "itens": [
+            {
+              "desc": "CERRO DE PEDRA CHARDONNAY JOVEM BCO",
+              "qt": 18,
+              "val": 1150.2
+            },
+            {
+              "desc": "CERRO DE PEDRA LARANJA JOVEM 750ML",
+              "qt": 48,
+              "val": 4315.2
+            },
+            {
+              "desc": "CERRO DE PEDRA PARCELAS CAB FRANC TTO",
+              "qt": 12,
+              "val": 562.8
+            },
+            {
+              "desc": "CERRO DE PEDRA RESERVA TANNAT TTO 750ML",
+              "qt": 180,
+              "val": 11502.0
+            }
+          ]
+        }
+      ],
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "420000020",
           "numnota": "4963.0",
@@ -15106,41 +15151,6 @@ const ENTREGAS_DATA = {
               "desc": "CERRO DE PEDRA RESERVA TANNAT TTO 750ML",
               "qt": 0,
               "val": 0.0
-            }
-          ]
-        },
-        {
-          "numped": "420000022",
-          "numnota": "4996.0",
-          "data": "18/05/2026",
-          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 17530.2,
-          "itens": [
-            {
-              "desc": "CERRO DE PEDRA CHARDONNAY JOVEM BCO",
-              "qt": 18,
-              "val": 1150.2
-            },
-            {
-              "desc": "CERRO DE PEDRA LARANJA JOVEM 750ML",
-              "qt": 48,
-              "val": 4315.2
-            },
-            {
-              "desc": "CERRO DE PEDRA PARCELAS CAB FRANC TTO",
-              "qt": 12,
-              "val": 562.8
-            },
-            {
-              "desc": "CERRO DE PEDRA RESERVA TANNAT TTO 750ML",
-              "qt": 180,
-              "val": 11502.0
             }
           ]
         },
@@ -16990,16 +17000,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "MARIA LUIZA",
-      "em_rota": [],
-      "nao_emitido": [],
-      "emitido_s_rota": [
+      "em_rota": [
         {
           "numped": "275000491",
           "numnota": "4998.0",
           "data": "18/05/2026",
           "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJL0C25",
+          "rota": "BARRA DO PIRAI",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -17017,7 +17025,10 @@ const ENTREGAS_DATA = {
               "val": 592.2
             }
           ]
-        },
+        }
+      ],
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "275000490",
           "numnota": "4959.0",
@@ -17897,67 +17908,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "MARILENA TRAGEL",
-      "em_rota": [],
-      "nao_emitido": [
-        {
-          "numped": "156003395",
-          "numnota": "",
-          "data": "18/05/2026",
-          "cliente": "VBBR CONVENIENCIA S. A.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 336.0,
-          "itens": [
-            {
-              "desc": "MOVING BOOSTER LIMAO 24X310ML",
-              "qt": 2,
-              "val": 336.0
-            }
-          ]
-        }
-      ],
-      "emitido_s_rota": [
-        {
-          "numped": "156003385",
-          "numnota": "394724.0",
-          "data": "18/05/2026",
-          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 416.0,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 2,
-              "val": 51.8
-            },
-            {
-              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
-              "qt": 3,
-              "val": 65.7
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
-              "qt": 15,
-              "val": 298.5
-            }
-          ]
-        },
+      "em_rota": [
         {
           "numped": "156003393",
           "numnota": "394702.0",
           "data": "18/05/2026",
           "cliente": "VBBR CONVENIENCIA S. A.",
-          "placa": "",
-          "rota": "",
+          "placa": "SSE9J51",
+          "rota": "CENTRO",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -17991,8 +17949,8 @@ const ENTREGAS_DATA = {
           "numnota": "394703.0",
           "data": "18/05/2026",
           "cliente": "VBBR CONVENIENCIA S. A.",
-          "placa": "",
-          "rota": "",
+          "placa": "SSE9J51",
+          "rota": "CENTRO",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18026,8 +17984,8 @@ const ENTREGAS_DATA = {
           "numnota": "394579.0",
           "data": "18/05/2026",
           "cliente": "AUTO POSTO VALDEVEZ LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJP3J23",
+          "rota": "JPA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18101,8 +18059,8 @@ const ENTREGAS_DATA = {
           "numnota": "394576.0",
           "data": "18/05/2026",
           "cliente": "CARBAT DIST. E ASSE. DO COM. DE DERIVADOS DE PETROLEO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJP3J23",
+          "rota": "JPA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18146,8 +18104,8 @@ const ENTREGAS_DATA = {
           "numnota": "394552.0",
           "data": "18/05/2026",
           "cliente": "AUTO POSTO MAQUINE LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SSE9J51",
+          "rota": "CENTRO",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18171,8 +18129,8 @@ const ENTREGAS_DATA = {
           "numnota": "394554.0",
           "data": "18/05/2026",
           "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SSE8J07",
+          "rota": "RECREIO",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18201,8 +18159,8 @@ const ENTREGAS_DATA = {
           "numnota": "394580.0",
           "data": "18/05/2026",
           "cliente": "ROOFTOP METROPOLITANO BAR E EVENTOS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TTQ1A33",
+          "rota": "TAQUARA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18226,8 +18184,8 @@ const ENTREGAS_DATA = {
           "numnota": "394577.0",
           "data": "18/05/2026",
           "cliente": "P W V CONVENIENCIAS LTDA ME",
-          "placa": "",
-          "rota": "",
+          "placa": "RJP3J23",
+          "rota": "JPA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18261,8 +18219,8 @@ const ENTREGAS_DATA = {
           "numnota": "394562.0",
           "data": "18/05/2026",
           "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TTN5H14",
+          "rota": "SUL 1",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18331,8 +18289,8 @@ const ENTREGAS_DATA = {
           "numnota": "394575.0",
           "data": "18/05/2026",
           "cliente": "POSTO JK NIEMEYER LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TTT0A28",
+          "rota": "NITEROI",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18356,8 +18314,8 @@ const ENTREGAS_DATA = {
           "numnota": "394747.0",
           "data": "18/05/2026",
           "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "LSS7E31",
+          "rota": "NORTE",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18391,8 +18349,8 @@ const ENTREGAS_DATA = {
           "numnota": "394694.0",
           "data": "18/05/2026",
           "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TUA3G43",
+          "rota": "TIJUCA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18426,8 +18384,8 @@ const ENTREGAS_DATA = {
           "numnota": "394641.0",
           "data": "18/05/2026",
           "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SSE7A76",
+          "rota": "CAXIAS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18451,8 +18409,8 @@ const ENTREGAS_DATA = {
           "numnota": "394642.0",
           "data": "18/05/2026",
           "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "SSE7A76",
+          "rota": "CAXIAS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18476,8 +18434,8 @@ const ENTREGAS_DATA = {
           "numnota": "394713.0",
           "data": "18/05/2026",
           "cliente": "AUTO POSTO EXCEDE LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TTN5H14",
+          "rota": "SUL 1",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18526,8 +18484,8 @@ const ENTREGAS_DATA = {
           "numnota": "394735.0",
           "data": "18/05/2026",
           "cliente": "CRUZADA DA BARRA PADARIA LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJV2J20",
+          "rota": "SHOPP BARRA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18581,8 +18539,8 @@ const ENTREGAS_DATA = {
           "numnota": "394564.0",
           "data": "18/05/2026",
           "cliente": "VIP TIJUCA CONVENIENCIAS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "TUA3G43",
+          "rota": "TIJUCA",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -18608,6 +18566,60 @@ const ENTREGAS_DATA = {
               "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
               "qt": 1,
               "val": 78.9
+            }
+          ]
+        }
+      ],
+      "nao_emitido": [
+        {
+          "numped": "156003395",
+          "numnota": "",
+          "data": "18/05/2026",
+          "cliente": "VBBR CONVENIENCIA S. A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 336.0,
+          "itens": [
+            {
+              "desc": "MOVING BOOSTER LIMAO 24X310ML",
+              "qt": 2,
+              "val": 336.0
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [
+        {
+          "numped": "156003385",
+          "numnota": "394724.0",
+          "data": "18/05/2026",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 416.0,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 51.8
+            },
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 3,
+              "val": 65.7
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+              "qt": 15,
+              "val": 298.5
             }
           ]
         },
@@ -23243,16 +23255,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "NATALI OLIVEIRA",
-      "em_rota": [],
-      "nao_emitido": [],
-      "emitido_s_rota": [
+      "em_rota": [
         {
           "numped": "419000583",
           "numnota": "394689.0",
           "data": "18/05/2026",
           "cliente": "H V MINE MERCADO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "LMV5I35",
+          "rota": "SANTA CRUZ + CAMPO GRANDE",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -23307,6 +23317,34 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "419000586",
+          "numnota": "394686.0",
+          "data": "18/05/2026",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "placa": "LMV5I35",
+          "rota": "SANTA CRUZ + CAMPO GRANDE",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 175.8,
+          "itens": [
+            {
+              "desc": "GIN BOMBAY SAPPHIRE 750ML",
+              "qt": 2,
+              "val": 143.8
+            },
+            {
+              "desc": "VINHO TERRAS DE SANTAR COLHEITA TINTO",
+              "qt": 1,
+              "val": 32.0
+            }
+          ]
+        }
+      ],
+      "nao_emitido": [],
+      "emitido_s_rota": [
+        {
           "numped": "419000585",
           "numnota": "394688.0",
           "data": "18/05/2026",
@@ -23328,31 +23366,6 @@ const ENTREGAS_DATA = {
               "desc": "VILLA ROSA TINTO 750ML",
               "qt": 1,
               "val": 30.0
-            }
-          ]
-        },
-        {
-          "numped": "419000586",
-          "numnota": "394686.0",
-          "data": "18/05/2026",
-          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 175.8,
-          "itens": [
-            {
-              "desc": "GIN BOMBAY SAPPHIRE 750ML",
-              "qt": 2,
-              "val": 143.8
-            },
-            {
-              "desc": "VINHO TERRAS DE SANTAR COLHEITA TINTO",
-              "qt": 1,
-              "val": 32.0
             }
           ]
         },
@@ -24600,36 +24613,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "em_rota": [],
-      "nao_emitido": [],
-      "emitido_s_rota": [
-        {
-          "numped": "155003493",
-          "numnota": "394568.0",
-          "data": "18/05/2026",
-          "cliente": "NINA PASTA & BASTA RESTAURANTE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 157.8,
-          "itens": [
-            {
-              "desc": "WHISKY J WALKER RED LABEL 1L",
-              "qt": 2,
-              "val": 157.8
-            }
-          ]
-        },
+      "em_rota": [
         {
           "numped": "155003494",
           "numnota": "394566.0",
           "data": "18/05/2026",
           "cliente": "GIN & YANG DISTRIBUIDORA LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJD5E19",
+          "rota": "BÚZIOS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -24653,8 +24644,8 @@ const ENTREGAS_DATA = {
           "numnota": "394565.0",
           "data": "18/05/2026",
           "cliente": "SANSE CAFE BISTRO LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJD5E19",
+          "rota": "BÚZIOS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -24673,8 +24664,8 @@ const ENTREGAS_DATA = {
           "numnota": "394638.0",
           "data": "18/05/2026",
           "cliente": "M.J.F BORGES BAR E RESTAURANTE",
-          "placa": "",
-          "rota": "",
+          "placa": "TTT0A28",
+          "rota": "NITEROI",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -24713,8 +24704,8 @@ const ENTREGAS_DATA = {
           "numnota": "394768.0",
           "data": "18/05/2026",
           "cliente": "COMUKERIA ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJD5E19",
+          "rota": "BÚZIOS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -24743,8 +24734,8 @@ const ENTREGAS_DATA = {
           "numnota": "394842.0",
           "data": "18/05/2026",
           "cliente": "COMUKERIA ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJD5E19",
+          "rota": "BÚZIOS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -24763,8 +24754,8 @@ const ENTREGAS_DATA = {
           "numnota": "394841.0",
           "data": "18/05/2026",
           "cliente": "COMUKERIA ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJD5E19",
+          "rota": "BÚZIOS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -24783,8 +24774,8 @@ const ENTREGAS_DATA = {
           "numnota": "394843.0",
           "data": "18/05/2026",
           "cliente": "XERE BAR E RESTAURANTE LTDA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJD5E19",
+          "rota": "BÚZIOS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -24810,6 +24801,29 @@ const ENTREGAS_DATA = {
               "desc": "VINHO CAZAS NOVAS COLHEITA 750ML",
               "qt": 2,
               "val": 179.8
+            }
+          ]
+        }
+      ],
+      "nao_emitido": [],
+      "emitido_s_rota": [
+        {
+          "numped": "155003493",
+          "numnota": "394568.0",
+          "data": "18/05/2026",
+          "cliente": "NINA PASTA & BASTA RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 157.8,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 2,
+              "val": 157.8
             }
           ]
         },
@@ -27539,16 +27553,14 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
-      "em_rota": [],
-      "nao_emitido": [],
-      "emitido_s_rota": [
+      "em_rota": [
         {
           "numped": "241000465",
           "numnota": "394569.0",
           "data": "18/05/2026",
           "cliente": "54.049.264 RAYSSA OLIVEIRA DA SILVA",
-          "placa": "",
-          "rota": "",
+          "placa": "RKR6E39",
+          "rota": "CABO FRIO",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -27567,8 +27579,8 @@ const ENTREGAS_DATA = {
           "numnota": "394567.0",
           "data": "18/05/2026",
           "cliente": "53.071.259 DANIELA SANTOS DE OLIVEIRA TAVEIRA",
-          "placa": "",
-          "rota": "",
+          "placa": "RJD5E19",
+          "rota": "BÚZIOS",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -27591,7 +27603,10 @@ const ENTREGAS_DATA = {
               "val": 63.92
             }
           ]
-        },
+        }
+      ],
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "241000464",
           "numnota": "393817.0",
