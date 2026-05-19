@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/05/2026 14:39",
+  "atualizado_em": "19/05/2026 17:32",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -27958,6 +27958,15 @@ const VENDAS_SP_DATA = {
           "valor": 12324.0
         },
         {
+          "data": "19/05/2026",
+          "codcli": "25439",
+          "cliente": "DISTRIBUIDORA SANTO EXPEDITO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 240,
+          "valor": 7896.0
+        },
+        {
           "data": "05/05/2026",
           "codcli": "20208",
           "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
@@ -28831,6 +28840,15 @@ const VENDAS_SP_DATA = {
           "valor": 15540.0
         },
         {
+          "data": "19/05/2026",
+          "codcli": "40361",
+          "cliente": "BRASILEIRAO ATACADO COMERCIO DE PRODUTOS ALIMENTICIOS SOCIED",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 6958.8
+        },
+        {
           "data": "02/05/2026",
           "codcli": "40362",
           "cliente": "FIDALGO GOUVEIA E CIA LTDA",
@@ -29477,6 +29495,42 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1194.0
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "46804",
+          "cliente": "SS TABACARIA E ADEGA LTDA",
+          "produto": "BALLANTINES SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 281.4
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "46804",
+          "cliente": "SS TABACARIA E ADEGA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1734.0
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "46804",
+          "cliente": "SS TABACARIA E ADEGA LTDA",
+          "produto": "WHISKY JAMESON 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 407.94
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "46804",
+          "cliente": "SS TABACARIA E ADEGA LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 5,
+          "valor": 289.95
         },
         {
           "data": "05/05/2026",
@@ -30233,6 +30287,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 72,
           "valor": 1504.8
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "49245",
+          "cliente": "CICERA PEREIRA DO NASCIMENTO SOUSA ADEGA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 48,
+          "valor": 1003.2
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "49245",
+          "cliente": "CICERA PEREIRA DO NASCIMENTO SOUSA ADEGA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 13,
+          "valor": 336.7
         },
         {
           "data": "08/05/2026",
@@ -35060,6 +35132,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 240,
           "valor": 8064.0
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "50468",
+          "cliente": "EDSON JOSE GALLEGO & CIA LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 2013.6
         }
       ],
       "Fev/26": [
@@ -52532,6 +52613,24 @@ const VENDAS_SP_DATA = {
           "valor": 1739.7
         },
         {
+          "data": "19/05/2026",
+          "codcli": "50129",
+          "cliente": "QUINTA DO MARQUES ANHANGUERA RESTAURANTE E LANCHES LTDA",
+          "produto": "AZEITE OLIV EV ZE TONA FINALIZAR12X500ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 478.8
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "50129",
+          "cliente": "QUINTA DO MARQUES ANHANGUERA RESTAURANTE E LANCHES LTDA",
+          "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 406.8
+        },
+        {
           "data": "12/05/2026",
           "codcli": "50205",
           "cliente": "SKINA POLACO LTDA",
@@ -53196,6 +53295,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 30,
           "valor": 11970.0
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "CHAMP PERRIER JOUET GRAN BRUT 750ML",
+          "fantasia": "PERNOD",
+          "qt": 75,
+          "valor": 18675.0
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
+          "fantasia": "PERNOD",
+          "qt": 46,
+          "valor": 18395.4
         }
       ]
     },
