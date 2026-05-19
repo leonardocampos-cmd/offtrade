@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "19/05/2026 09:39",
+  "atualizado_em": "19/05/2026 10:01",
   "data_rota": "19.05",
   "vendedores": [
     {
@@ -7644,6 +7644,11 @@ const ENTREGAS_DATA = {
           "total": 5262.02,
           "itens": [
             {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 12,
+              "val": 1042.8
+            },
+            {
               "desc": "ESPUM CASA PERINI DEMI-SEC 750ML",
               "qt": 12,
               "val": 418.8
@@ -7672,11 +7677,6 @@ const ENTREGAS_DATA = {
               "desc": "ESPM CASA PERINI BLACK EDITION 750ML",
               "qt": 6,
               "val": 239.4
-            },
-            {
-              "desc": "WHISKY JIM BEAM WHITE 1L",
-              "qt": 12,
-              "val": 1042.8
             }
           ]
         },
@@ -8005,31 +8005,6 @@ const ENTREGAS_DATA = {
       ],
       "emitido_s_rota": [
         {
-          "numped": "417000311",
-          "numnota": "4987.0",
-          "data": "18/05/2026",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "CANCELADA",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA 19/05",
-          "total": 0.0,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 0,
-              "val": 0.0
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 0,
-              "val": 0.0
-            }
-          ]
-        },
-        {
           "numped": "417000321",
           "numnota": "4991.0",
           "data": "18/05/2026",
@@ -8042,6 +8017,16 @@ const ENTREGAS_DATA = {
           "obs": "",
           "total": 0.0,
           "itens": [
+            {
+              "desc": "VINHO LATITUD 33 MALBEC  750 ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "ESPM CASA PERINI BLACK EDITION 750ML",
+              "qt": 0,
+              "val": 0.0
+            },
             {
               "desc": "WHISKY JIM BEAM WHITE 1L",
               "qt": 0,
@@ -8076,14 +8061,29 @@ const ENTREGAS_DATA = {
               "desc": "VINHO HORIZONTE TINTO 750ML",
               "qt": 0,
               "val": 0.0
-            },
+            }
+          ]
+        },
+        {
+          "numped": "417000311",
+          "numnota": "4987.0",
+          "data": "18/05/2026",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "CANCELADA",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA 19/05",
+          "total": 0.0,
+          "itens": [
             {
-              "desc": "VINHO LATITUD 33 MALBEC  750 ML",
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
               "qt": 0,
               "val": 0.0
             },
             {
-              "desc": "ESPM CASA PERINI BLACK EDITION 750ML",
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
               "qt": 0,
               "val": 0.0
             }
@@ -17923,11 +17923,6 @@ const ENTREGAS_DATA = {
           "total": 1800.0,
           "itens": [
             {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 5,
-              "val": 450.0
-            },
-            {
               "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
               "qt": 5,
               "val": 450.0
@@ -17939,6 +17934,11 @@ const ENTREGAS_DATA = {
             },
             {
               "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 5,
+              "val": 450.0
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
               "qt": 5,
               "val": 450.0
             }
