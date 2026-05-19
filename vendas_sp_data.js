@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/05/2026 10:50",
+  "atualizado_em": "19/05/2026 14:39",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -34108,51 +34108,6 @@ const VENDAS_SP_DATA = {
           "valor": 17404.8
         },
         {
-          "data": "14/05/2026",
-          "codcli": "27557",
-          "cliente": "BOB PECHINCHA ATACADISTA LTDA",
-          "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "PERNOD",
-          "qt": 48,
-          "valor": 1003.2
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "27557",
-          "cliente": "BOB PECHINCHA ATACADISTA LTDA",
-          "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "PERNOD",
-          "qt": 240,
-          "valor": 5016.0
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "27557",
-          "cliente": "BOB PECHINCHA ATACADISTA LTDA",
-          "produto": "RUM MALIBU 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 600,
-          "valor": 25740.0
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "27557",
-          "cliente": "BOB PECHINCHA ATACADISTA LTDA",
-          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
-          "fantasia": "",
-          "qt": 120,
-          "valor": 11988.0
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "27557",
-          "cliente": "BOB PECHINCHA ATACADISTA LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 672,
-          "valor": 17404.8
-        },
-        {
           "data": "18/05/2026",
           "codcli": "27557",
           "cliente": "BOB PECHINCHA ATACADISTA LTDA",
@@ -34736,15 +34691,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 90,
           "valor": 9351.0
-        },
-        {
-          "data": "15/05/2026",
-          "codcli": "49448",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 120,
-          "valor": 3108.0
         },
         {
           "data": "14/05/2026",
@@ -52959,33 +52905,6 @@ const VENDAS_SP_DATA = {
           "valor": 501.6
         },
         {
-          "data": "15/05/2026",
-          "codcli": "50341",
-          "cliente": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
-          "produto": "WHISKY MACALLAN HARM VIBRANT OAK 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 2,
-          "valor": 2725.34
-        },
-        {
-          "data": "15/05/2026",
-          "codcli": "50341",
-          "cliente": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
-          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 6,
-          "valor": 3594.0
-        },
-        {
-          "data": "15/05/2026",
-          "codcli": "50341",
-          "cliente": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
-          "produto": "WHISKY ESC MACALLAN SHERRY OAK 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 3,
-          "valor": 1797.0
-        },
-        {
           "data": "13/05/2026",
           "codcli": "50294",
           "cliente": "MFD MERCADO LTDA",
@@ -53299,15 +53218,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 1980,
           "valor": 39204.0
-        },
-        {
-          "data": "15/05/2026",
-          "codcli": "42942",
-          "cliente": "LS ATACADO DE BEBIDAS E ALIMENTOS LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 1320,
-          "valor": 32986.8
         },
         {
           "data": "07/05/2026",
@@ -53854,6 +53764,19 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 1320,
           "valor": 27588.0
+        }
+      ]
+    },
+    "MARCELO PEREIRA -": {
+      "Mai/26": [
+        {
+          "data": "19/05/2026",
+          "codcli": "46395",
+          "cliente": "FABIANO MARQUES BATISTA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 300,
+          "valor": 7770.0
         }
       ]
     },
@@ -54837,6 +54760,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 2,
           "valor": 67.2
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "50454",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 480,
+          "valor": 15600.0
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "50454",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 576,
+          "valor": 14394.24
         }
       ],
       "Abr/26": [
