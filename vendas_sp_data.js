@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/05/2026 08:06",
+  "atualizado_em": "19/05/2026 09:40",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -13118,42 +13118,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 192,
           "valor": 4012.8
-        },
-        {
-          "data": "13/02/2026",
-          "codcli": "47890",
-          "cliente": "51.029.581 LUCAS DE SOUZA FARIA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 414.0
-        },
-        {
-          "data": "13/02/2026",
-          "codcli": "47890",
-          "cliente": "51.029.581 LUCAS DE SOUZA FARIA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 202.8
-        },
-        {
-          "data": "13/02/2026",
-          "codcli": "47890",
-          "cliente": "51.029.581 LUCAS DE SOUZA FARIA",
-          "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 706.8
-        },
-        {
-          "data": "13/02/2026",
-          "codcli": "47890",
-          "cliente": "51.029.581 LUCAS DE SOUZA FARIA",
-          "produto": "LICOR BALLENA MORANGO 750ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 2349.36
         },
         {
           "data": "13/02/2026",
