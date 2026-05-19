@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "18/05/2026 15:54",
+  "atualizado_em": "19/05/2026 08:05",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -39336,6 +39336,69 @@ const VENDAS_DATA = {
           "valor": 134.7
         },
         {
+          "data": "18/05/2026",
+          "codcli": "61",
+          "cliente": "AUTO POSTO EXCEDE LTDA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 78.6
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "61",
+          "cliente": "AUTO POSTO EXCEDE LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "61",
+          "cliente": "AUTO POSTO EXCEDE LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "61",
+          "cliente": "AUTO POSTO EXCEDE LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "61",
+          "cliente": "AUTO POSTO EXCEDE LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 2,
+          "valor": 67.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "61",
+          "cliente": "AUTO POSTO EXCEDE LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 2,
+          "valor": 67.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "61",
+          "cliente": "AUTO POSTO EXCEDE LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 20.9
+        },
+        {
           "data": "06/05/2026",
           "codcli": "556",
           "cliente": "POSTO DE GASOLINA PEQUENA CRUZADA LTDA",
@@ -40821,6 +40884,78 @@ const VENDAS_DATA = {
           "valor": 157.8
         },
         {
+          "data": "18/05/2026",
+          "codcli": "76424",
+          "cliente": "CRUZADA DA BARRA PADARIA LTDA",
+          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 101.7
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "76424",
+          "cliente": "CRUZADA DA BARRA PADARIA LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 74.7
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "76424",
+          "cliente": "CRUZADA DA BARRA PADARIA LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 74.7
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "76424",
+          "cliente": "CRUZADA DA BARRA PADARIA LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 74.7
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "76424",
+          "cliente": "CRUZADA DA BARRA PADARIA LTDA",
+          "produto": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "76424",
+          "cliente": "CRUZADA DA BARRA PADARIA LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "76424",
+          "cliente": "CRUZADA DA BARRA PADARIA LTDA",
+          "produto": "MAXIME BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 90.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "76424",
+          "cliente": "CRUZADA DA BARRA PADARIA LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 179.7
+        },
+        {
           "data": "04/05/2026",
           "codcli": "76248",
           "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
@@ -40912,6 +41047,24 @@ const VENDAS_DATA = {
         },
         {
           "data": "18/05/2026",
+          "codcli": "76248",
+          "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 259.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "76248",
+          "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 10,
+          "valor": 219.0
+        },
+        {
+          "data": "18/05/2026",
           "codcli": "74562",
           "cliente": "VIP TIJUCA CONVENIENCIAS LTDA",
           "produto": "GUARAVITA NATURAL 24X290ML",
@@ -40972,6 +41125,24 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 40,
           "valor": 580.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "74671",
+          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 15,
+          "valor": 388.5
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "74671",
+          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 10,
+          "valor": 219.0
         },
         {
           "data": "13/05/2026",
@@ -41089,6 +41260,78 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 3,
           "valor": 341.7
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "82380",
+          "cliente": "VBBR CONVENIENCIA S. A.",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 450.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "82380",
+          "cliente": "VBBR CONVENIENCIA S. A.",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 450.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "82380",
+          "cliente": "VBBR CONVENIENCIA S. A.",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 450.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "82380",
+          "cliente": "VBBR CONVENIENCIA S. A.",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 450.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "82381",
+          "cliente": "VBBR CONVENIENCIA S. A.",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 450.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "82381",
+          "cliente": "VBBR CONVENIENCIA S. A.",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 450.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "82381",
+          "cliente": "VBBR CONVENIENCIA S. A.",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 450.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "82381",
+          "cliente": "VBBR CONVENIENCIA S. A.",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 450.0
         },
         {
           "data": "04/05/2026",
@@ -42270,6 +42513,42 @@ const VENDAS_DATA = {
           "valor": 185.4
         },
         {
+          "data": "18/05/2026",
+          "codcli": "83578",
+          "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "fantasia": "COMARY",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "83578",
+          "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 51.49
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "83578",
+          "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "83578",
+          "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
+          "produto": "SMIRNOFF ICE 24 UNIDADES (LATA) 24X269ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 104.9
+        },
+        {
           "data": "14/05/2026",
           "codcli": "84449",
           "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
@@ -42277,6 +42556,42 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 10,
           "valor": 259.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "84449",
+          "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 52.52
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "84449",
+          "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
+          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 72.62
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "84449",
+          "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 72.62
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "84449",
+          "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "fantasia": "COMARY",
+          "qt": 1,
+          "valor": 74.9
         },
         {
           "data": "08/05/2026",
@@ -58340,6 +58655,87 @@ const VENDAS_DATA = {
           "valor": 496.08
         },
         {
+          "data": "18/05/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 98.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "fantasia": "51",
+          "qt": 1,
+          "valor": 114.9
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "ICE 51 FRUIT LONG NECK 24X275 ML",
+          "fantasia": "51",
+          "qt": 1,
+          "valor": 114.9
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "ICE 51 BALADA LONG NECK 24X275 ML",
+          "fantasia": "51",
+          "qt": 1,
+          "valor": 114.9
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 81.5
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 205.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 12,
+          "valor": 166.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "fantasia": "51",
+          "qt": 12,
+          "valor": 142.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91059",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 98.7
+        },
+        {
           "data": "04/05/2026",
           "codcli": "91089",
           "cliente": "PANIFICACAO E CONFEITARIA VALE DE CAMBRA LTDA",
@@ -59105,6 +59501,60 @@ const VENDAS_DATA = {
           "valor": 256.8
         },
         {
+          "data": "18/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 120,
+          "valor": 1668.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "APERITIVO CAMPARI 998ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 622.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 1043.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 203.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 910.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1234.8
+        },
+        {
           "data": "15/05/2026",
           "codcli": "95008",
           "cliente": "MERCADO DE CARNES GUAIACA LTDA",
@@ -59369,6 +59819,24 @@ const VENDAS_DATA = {
           "data": "18/05/2026",
           "codcli": "94820",
           "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
+          "produto": "VEJA PESADA X14 PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 210.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "94820",
+          "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 249.9
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "94820",
+          "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
           "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
@@ -59400,33 +59868,6 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 1,
           "valor": 25.68
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "94820",
-          "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 1,
-          "valor": 30.9
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "94820",
-          "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
-          "produto": "VEJA PESADA X14 PROMO 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 210.4
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "94820",
-          "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 249.9
         }
       ]
     },
@@ -74491,6 +74932,42 @@ const VENDAS_DATA = {
           "valor": 129.5
         },
         {
+          "data": "18/05/2026",
+          "codcli": "91355",
+          "cliente": "GR ALIMENTOS E LATICINIOS LTDA",
+          "produto": "GIN INVICTUS TRADICIONAL 900ML",
+          "fantasia": "INVICTUS",
+          "qt": 6,
+          "valor": 89.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91355",
+          "cliente": "GR ALIMENTOS E LATICINIOS LTDA",
+          "produto": "GIN INVICTUS TROPICAL 900ML",
+          "fantasia": "INVICTUS",
+          "qt": 6,
+          "valor": 89.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91355",
+          "cliente": "GR ALIMENTOS E LATICINIOS LTDA",
+          "produto": "GIN INVICTUS MELANCIA 900ML",
+          "fantasia": "INVICTUS",
+          "qt": 6,
+          "valor": 89.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91355",
+          "cliente": "GR ALIMENTOS E LATICINIOS LTDA",
+          "produto": "GIN INVICTUS MACA VERDE 900ML",
+          "fantasia": "INVICTUS",
+          "qt": 6,
+          "valor": 89.4
+        },
+        {
           "data": "11/05/2026",
           "codcli": "91507",
           "cliente": "MERCADO DO JOKA LTDA",
@@ -75247,6 +75724,15 @@ const VENDAS_DATA = {
           "valor": 65.28
         },
         {
+          "data": "18/05/2026",
+          "codcli": "94865",
+          "cliente": "3D SALGADOS LTDA",
+          "produto": "GIN INVICTUS MELANCIA 900ML",
+          "fantasia": "INVICTUS",
+          "qt": 30,
+          "valor": 447.0
+        },
+        {
           "data": "11/05/2026",
           "codcli": "94869",
           "cliente": "63.544.348 ALEXANDRE PEREIRA MARTINS",
@@ -75672,24 +76158,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 419.4
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 3,
-          "valor": 104.7
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 3,
-          "valor": 104.7
         },
         {
           "data": "20/04/2026",
@@ -78460,6 +78928,33 @@ const VENDAS_DATA = {
       "Mai/26": [
         {
           "data": "18/05/2026",
+          "codcli": "2218",
+          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "produto": "AGUA NA CAIXA 12X330ML",
+          "fantasia": "AGUA NA CAIXA",
+          "qt": 2,
+          "valor": 61.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "2218",
+          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "produto": "AGUA NA CAIXA 12X500ML",
+          "fantasia": "AGUA NA CAIXA",
+          "qt": 2,
+          "valor": 63.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "2218",
+          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "produto": "AGUA NA LATA C/ GAS 12X310ML",
+          "fantasia": "AGUA NA CAIXA",
+          "qt": 1,
+          "valor": 29.9
+        },
+        {
+          "data": "18/05/2026",
           "codcli": "2710",
           "cliente": "MERCADINHO BAMBINA LTDA",
           "produto": "RC SARDINHA EM OLEO 50X125G",
@@ -78655,6 +79150,33 @@ const VENDAS_DATA = {
           "fantasia": "SALINAS",
           "qt": 6,
           "valor": 216.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "5371",
+          "cliente": "DELICATESSEN LEBLON EIRELI EPP",
+          "produto": "AGUA NA CAIXA 12X500ML",
+          "fantasia": "AGUA NA CAIXA",
+          "qt": 3,
+          "valor": 95.7
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "5371",
+          "cliente": "DELICATESSEN LEBLON EIRELI EPP",
+          "produto": "AGUA NA LATA C/ GAS 12X310ML",
+          "fantasia": "AGUA NA CAIXA",
+          "qt": 2,
+          "valor": 59.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "5371",
+          "cliente": "DELICATESSEN LEBLON EIRELI EPP",
+          "produto": "AGUA NA CAIXA 12X330ML",
+          "fantasia": "AGUA NA CAIXA",
+          "qt": 3,
+          "valor": 92.7
         },
         {
           "data": "14/05/2026",
@@ -80850,6 +81372,24 @@ const VENDAS_DATA = {
           "valor": 95.9
         },
         {
+          "data": "18/05/2026",
+          "codcli": "90835",
+          "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "90835",
+          "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
+          "produto": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 43.9
+        },
+        {
           "data": "04/05/2026",
           "codcli": "94255",
           "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
@@ -80920,6 +81460,15 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 2,
           "valor": 43.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "93890",
+          "cliente": "37.514.649 YURI BRAZ TOME DE SOUZA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 240,
+          "valor": 4056.0
         },
         {
           "data": "02/05/2026",
@@ -97774,6 +98323,24 @@ const VENDAS_DATA = {
           "valor": 786.24
         },
         {
+          "data": "18/05/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "VODKA ABSOLUT CX C/ 12X50ML",
+          "fantasia": "PERNOD",
+          "qt": 5,
+          "valor": 449.5
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "TANQUERAY CX C/ 12X50ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 116.9
+        },
+        {
           "data": "05/05/2026",
           "codcli": "81847",
           "cliente": "MERCADO ESPERANCA DE GUARATIBA LTDA",
@@ -98215,6 +98782,60 @@ const VENDAS_DATA = {
           "valor": 359.7
         },
         {
+          "data": "18/05/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 5,
+          "valor": 599.5
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 588.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 588.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 1259.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 4,
+          "valor": 451.6
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "fantasia": "BACARDI",
+          "qt": 5,
+          "valor": 159.5
+        },
+        {
           "data": "12/05/2026",
           "codcli": "83071",
           "cliente": "PADARIA MERCADINHO MENDES LTDA",
@@ -98366,6 +98987,24 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 15,
           "valor": 733.5
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "86257",
+          "cliente": "MINI MERCADO BOA OPCAO LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 12,
+          "valor": 148.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "86257",
+          "cliente": "MINI MERCADO BOA OPCAO LTDA",
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 270.0
         },
         {
           "data": "06/05/2026",
@@ -115001,6 +115640,78 @@ const VENDAS_DATA = {
           "valor": 136.92
         },
         {
+          "data": "18/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 66,
+          "valor": 2303.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 628.2
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 29,
+          "valor": 1012.1
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 623.52
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 419.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "BEEFEATER BLACKBERRY 700ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 509.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "CHANDON BABY BRUT ROSE 187 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 179.4
+        },
+        {
           "data": "04/05/2026",
           "codcli": "76946",
           "cliente": "AUTO POSTO 500 TINGUI LTDA",
@@ -116133,6 +116844,15 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 196.56
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91422",
+          "cliente": "EMMENSA VAREJISTA DE SUPRIMENTOS E ALIMENTOS LTDA.",
+          "produto": "AGUA MINERAL MINALBA C/GAS LATA 12X310ML",
+          "fantasia": "MINALBA",
+          "qt": 17,
+          "valor": 690.03
         }
       ]
     },
@@ -122903,6 +123623,24 @@ const VENDAS_DATA = {
           "valor": 274.8
         },
         {
+          "data": "18/05/2026",
+          "codcli": "82050",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 143.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "82050",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "produto": "VINHO TERRAS DE SANTAR COLHEITA TINTO",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 32.0
+        },
+        {
           "data": "06/05/2026",
           "codcli": "83705",
           "cliente": "MERCADO RIO SUL DE CAMPO GRANDE LTDA",
@@ -123371,6 +124109,24 @@ const VENDAS_DATA = {
           "valor": 1278.0
         },
         {
+          "data": "18/05/2026",
+          "codcli": "90581",
+          "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 143.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "90581",
+          "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 30.0
+        },
+        {
           "data": "02/05/2026",
           "codcli": "90228",
           "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
@@ -123477,6 +124233,87 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 419.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91003",
+          "cliente": "H V MINE MERCADO LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 3,
+          "valor": 53.7
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91003",
+          "cliente": "H V MINE MERCADO LTDA",
+          "produto": "LICOR BANANINHA CARIOCA 750ML",
+          "fantasia": "BANANINHA CARIOCA",
+          "qt": 1,
+          "valor": 70.9
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91003",
+          "cliente": "H V MINE MERCADO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 92.2
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91003",
+          "cliente": "H V MINE MERCADO LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 102.99
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91003",
+          "cliente": "H V MINE MERCADO LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 3,
+          "valor": 55.47
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91003",
+          "cliente": "H V MINE MERCADO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 98.7
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91003",
+          "cliente": "H V MINE MERCADO LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 41.7
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91003",
+          "cliente": "H V MINE MERCADO LTDA",
+          "produto": "VANISH LIQUIDO WHITE REFIL 12X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 81.6
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "91003",
+          "cliente": "H V MINE MERCADO LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 30.0
         },
         {
           "data": "15/05/2026",
@@ -142466,6 +143303,24 @@ const VENDAS_DATA = {
           "valor": 155.4
         },
         {
+          "data": "18/05/2026",
+          "codcli": "60349",
+          "cliente": "CEREAIS IRENE LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 628.2
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "60349",
+          "cliente": "CEREAIS IRENE LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
           "data": "06/05/2026",
           "codcli": "60459",
           "cliente": "CEREAIS MARREQUINHO DE NOVA CAMPINAS LTDA",
@@ -142572,6 +143427,24 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 8,
           "valor": 522.24
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "83586",
+          "cliente": "LUNA SUPERMERCADOS LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 140.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "83586",
+          "cliente": "LUNA SUPERMERCADOS LTDA",
+          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 214.8
         },
         {
           "data": "05/05/2026",
@@ -143069,6 +143942,33 @@ const VENDAS_DATA = {
           "valor": 997.5
         },
         {
+          "data": "18/05/2026",
+          "codcli": "83653",
+          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 140.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "83653",
+          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 598.5
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "83653",
+          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 598.5
+        },
+        {
           "data": "04/05/2026",
           "codcli": "83653",
           "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
@@ -143076,6 +143976,24 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 30,
           "valor": 657.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "83653",
+          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 30,
+          "valor": 657.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "83653",
+          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 131.4
         },
         {
           "data": "04/05/2026",
@@ -146931,31 +147849,22 @@ const VENDAS_DATA = {
           "valor": 1962.0
         },
         {
-          "data": "14/05/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 592.2
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 394.8
-        },
-        {
-          "data": "14/05/2026",
+          "data": "18/05/2026",
           "codcli": "60708",
           "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
           "produto": "GIN BOMBAY SAPPHIRE 750ML",
           "fantasia": "BACARDI",
           "qt": 6,
           "valor": 431.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 592.2
         },
         {
           "data": "02/05/2026",
@@ -148294,10 +149203,10 @@ const VENDAS_DATA = {
           "data": "18/05/2026",
           "codcli": "6940",
           "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 3312,
-          "valor": 105321.6
+          "produto": "CERRO DE PEDRA RESERVA TANNAT TTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 180,
+          "valor": 11502.0
         },
         {
           "data": "18/05/2026",
@@ -148307,15 +149216,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 18,
           "valor": 1150.2
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "6940",
-          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
-          "produto": "CERRO DE PEDRA GRAN RESERVA MERLOT TINTO",
-          "fantasia": "CASTAS",
-          "qt": 120,
-          "valor": 11388.0
         },
         {
           "data": "18/05/2026",
@@ -148339,10 +149239,10 @@ const VENDAS_DATA = {
           "data": "18/05/2026",
           "codcli": "6940",
           "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
-          "produto": "CERRO DE PEDRA RESERVA TANNAT TTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 180,
-          "valor": 11502.0
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 3312,
+          "valor": 105321.6
         },
         {
           "data": "07/05/2026",
@@ -148412,13 +149312,247 @@ const VENDAS_DATA = {
           "valor": 386.7
         },
         {
-          "data": "06/05/2026",
+          "data": "18/05/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 473.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.36
+        },
+        {
+          "data": "18/05/2026",
           "codcli": "8876",
           "cliente": "MULTI PARATY MERCADO LTDA",
           "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 2,
           "valor": 350.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 30,
+          "valor": 1047.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "VINHO HORIZONTE TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1042.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 284.04
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.36
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 203.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 299.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 150.0
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1042.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI ICE DEMI-SEC 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 449.02
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1042.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "WHISKY YAMAZAKI 12Y 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 2,
+          "valor": 1859.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1042.8
         },
         {
           "data": "13/05/2026",
@@ -148700,6 +149834,114 @@ const VENDAS_DATA = {
           "valor": 689.7
         },
         {
+          "data": "18/05/2026",
+          "codcli": "79319",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "79319",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 132.13
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "79319",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 24,
+          "valor": 813.6
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "79319",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "79319",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 210.14
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 473.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 129.36
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 132.13
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "79321",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
           "data": "06/05/2026",
           "codcli": "70164",
           "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
@@ -148842,6 +150084,51 @@ const VENDAS_DATA = {
           "fantasia": "BETTER DRINKS",
           "qt": 2,
           "valor": 259.62
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV BADEN CHOC 0,600 DES UN",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 10582.2
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 84,
+          "valor": 16992.36
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1043.6
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 300.4
+        },
+        {
+          "data": "18/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14841.2
         },
         {
           "data": "13/05/2026",
@@ -152514,231 +153801,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "29/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 175.2
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "MOVING BOOSTER LIMAO 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 175.2
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 5,
-          "valor": 473.4
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.36
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.36
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 239.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 30,
-          "valor": 1047.0
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 30,
-          "valor": 1047.0
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "VINHO HORIZONTE BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 150.0
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "VINHO HORIZONTE TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 150.0
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 209.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1042.8
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "8877",
-          "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 284.04
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "8877",
-          "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.36
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "8877",
-          "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.36
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8877",
-          "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 299.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8877",
-          "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "produto": "VINHO HORIZONTE BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 150.0
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8877",
-          "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 203.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8877",
-          "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 209.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8877",
-          "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1042.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8877",
-          "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 209.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8877",
-          "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 239.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8877",
-          "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 209.4
-        },
-        {
-          "data": "29/04/2026",
           "codcli": "8878",
           "cliente": "MULTI ANGRA MERCADO LTDA",
           "produto": "MOVING BOOSTER LIMAO 24X310ML",
@@ -152772,87 +153834,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 5,
           "valor": 473.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8878",
-          "cliente": "MULTI ANGRA MERCADO LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1042.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8878",
-          "cliente": "MULTI ANGRA MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8878",
-          "cliente": "MULTI ANGRA MERCADO LTDA",
-          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 239.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8878",
-          "cliente": "MULTI ANGRA MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI ICE DEMI-SEC 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 209.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8878",
-          "cliente": "MULTI ANGRA MERCADO LTDA",
-          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 299.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8878",
-          "cliente": "MULTI ANGRA MERCADO LTDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1042.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8878",
-          "cliente": "MULTI ANGRA MERCADO LTDA",
-          "produto": "WHISKY YAMAZAKI 12Y 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 2,
-          "valor": 1859.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8878",
-          "cliente": "MULTI ANGRA MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 48,
-          "valor": 1675.2
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "8878",
-          "cliente": "MULTI ANGRA MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 418.8
         },
         {
           "data": "08/04/2026",
@@ -153474,150 +154455,6 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 4,
           "valor": 287.04
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79319",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79319",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 239.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79319",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "VINHO HORIZONTE BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 150.0
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79319",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
-          "fantasia": "HENNESSY",
-          "qt": 24,
-          "valor": 813.6
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79319",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 209.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79319",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "VILLA ROSA  ROSE 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 137.4
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 5,
-          "valor": 473.4
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 129.36
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 10,
-          "valor": 946.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "ESPM CASA PERINI BLACK EDITION 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 239.4
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "VINHO HORIZONTE BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 150.0
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "WHISKY JIM BEAM BLACK 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1042.8
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 418.8
         },
         {
           "data": "16/04/2026",
