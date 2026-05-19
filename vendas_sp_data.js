@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/05/2026 17:32",
+  "atualizado_em": "19/05/2026 17:36",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -34639,6 +34639,15 @@ const VENDAS_SP_DATA = {
           "valor": 9494.4
         },
         {
+          "data": "19/05/2026",
+          "codcli": "47670",
+          "cliente": "PRESTIGIO COMERCIO E DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 1860,
+          "valor": 46481.4
+        },
+        {
           "data": "05/05/2026",
           "codcli": "50088",
           "cliente": "PARTY PLAY COMERCIO DE BEBIDAS LTDA",
@@ -41010,6 +41019,42 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 1,
           "valor": 33.6
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "25914",
+          "cliente": "VILA MADALENA CONVENIENCIAS LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 28.9
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "25914",
+          "cliente": "VILA MADALENA CONVENIENCIAS LTDA",
+          "produto": "SMIRNOFF ICE 24X275ML LONG",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 125.9
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "25914",
+          "cliente": "VILA MADALENA CONVENIENCIAS LTDA",
+          "produto": "WHISKY BALLANTINE'S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 58.9
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "25914",
+          "cliente": "VILA MADALENA CONVENIENCIAS LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 23.94
         },
         {
           "data": "12/05/2026",
