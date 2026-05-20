@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "20/05/2026 13:17",
+  "atualizado_em": "20/05/2026 14:11",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -37100,51 +37100,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 3,
           "valor": 284.1
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "82867",
-          "cliente": "POSTO HILARIO DE GOUVEIA LIMITADA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 3,
-          "valor": 101.7
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "82867",
-          "cliente": "POSTO HILARIO DE GOUVEIA LIMITADA",
-          "produto": "LICOR BALLENA MORANGO 750 ML",
-          "fantasia": "BALLENA",
-          "qt": 1,
-          "valor": 99.9
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "82867",
-          "cliente": "POSTO HILARIO DE GOUVEIA LIMITADA",
-          "produto": "LICOR BALLENA COCO 750ML",
-          "fantasia": "BALLENA",
-          "qt": 1,
-          "valor": 99.9
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "82867",
-          "cliente": "POSTO HILARIO DE GOUVEIA LIMITADA",
-          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-          "fantasia": "BALLENA",
-          "qt": 1,
-          "valor": 99.9
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "82867",
-          "cliente": "POSTO HILARIO DE GOUVEIA LIMITADA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 3,
-          "valor": 101.7
         },
         {
           "data": "06/04/2026",
