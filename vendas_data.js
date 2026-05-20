@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "20/05/2026 09:26",
+  "atualizado_em": "20/05/2026 10:59",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -60255,60 +60255,6 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 10,
           "valor": 256.8
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "92144",
-          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
-          "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 120,
-          "valor": 1668.0
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "92144",
-          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
-          "produto": "APERITIVO CAMPARI 998ML",
-          "fantasia": "CAMPARI",
-          "qt": 12,
-          "valor": 622.8
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "92144",
-          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
-          "produto": "WHISKY J WALKER BLACK LABEL 1L",
-          "fantasia": "DIAGEO",
-          "qt": 6,
-          "valor": 1043.4
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "92144",
-          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 6,
-          "valor": 203.4
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "92144",
-          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
-          "produto": "VODKA ABSOLUT - 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 910.8
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "92144",
-          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
-          "produto": "GIN TANQUERAY  750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 12,
-          "valor": 1234.8
         },
         {
           "data": "15/05/2026",
