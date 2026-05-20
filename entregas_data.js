@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "20/05/2026 12:03",
+  "atualizado_em": "20/05/2026 12:21",
   "data_rota": "20.05",
   "vendedores": [
     {
@@ -45,14 +45,14 @@ const ENTREGAS_DATA = {
           "total": 161.3,
           "itens": [
             {
-              "desc": "4 PACK RED BULL ZERO",
-              "qt": 2,
-              "val": 61.8
-            },
-            {
               "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
               "qt": 5,
               "val": 99.5
+            },
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 2,
+              "val": 61.8
             }
           ]
         },
@@ -2038,28 +2038,7 @@ const ENTREGAS_DATA = {
     {
       "nome": "ANA CLARA PASSOS",
       "em_rota": [],
-      "nao_emitido": [
-        {
-          "numped": "471000211",
-          "numnota": "",
-          "data": "19/05/2026",
-          "cliente": "FRIGORIFICO NAZARE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 478.8,
-          "itens": [
-            {
-              "desc": "VANISH PO WHITE POTE 12X450G",
-              "qt": 2,
-              "val": 478.8
-            }
-          ]
-        }
-      ],
+      "nao_emitido": [],
       "emitido_s_rota": [
         {
           "numped": "471000204",
@@ -7109,7 +7088,58 @@ const ENTREGAS_DATA = {
     {
       "nome": "DIOGO RAPOSO",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "144001430",
+          "numnota": "",
+          "data": "20/05/2026",
+          "cliente": "CASA DA PIZZA 1910 LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1915.2,
+          "itens": [
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 24,
+              "val": 717.6
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+              "qt": 12,
+              "val": 598.8
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
+              "qt": 12,
+              "val": 598.8
+            }
+          ]
+        },
+        {
+          "numped": "144001431",
+          "numnota": "",
+          "data": "20/05/2026",
+          "cliente": "CASA DA PIZZA 1910 LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 233.4,
+          "itens": [
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 6,
+              "val": 233.4
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "144001424",
@@ -9706,28 +9736,7 @@ const ENTREGAS_DATA = {
     {
       "nome": "GISELLE BARFER - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [
-        {
-          "numped": "159004635",
-          "numnota": "",
-          "data": "19/05/2026",
-          "cliente": "P PEREIRA DO AMARAL LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 219.0,
-          "itens": [
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
-              "qt": 10,
-              "val": 219.0
-            }
-          ]
-        }
-      ],
+      "nao_emitido": [],
       "emitido_s_rota": [
         {
           "numped": "159004629",
