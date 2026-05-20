@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "20/05/2026 13:17",
+  "atualizado_em": "20/05/2026 14:28",
   "data_rota": "20.05",
   "vendedores": [
     {
@@ -53,6 +53,41 @@ const ENTREGAS_DATA = {
               "desc": "4 PACK RED BULL ZERO",
               "qt": 2,
               "val": 61.8
+            }
+          ]
+        },
+        {
+          "numped": "431000939",
+          "numnota": "",
+          "data": "20/05/2026",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 346.2,
+          "itens": [
+            {
+              "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
+              "qt": 2,
+              "val": 95.8
+            },
+            {
+              "desc": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+              "qt": 2,
+              "val": 95.8
+            },
+            {
+              "desc": "PINATI SLIM WHEY BEIJINHO (4) 16X35G",
+              "qt": 1,
+              "val": 59.9
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
             }
           ]
         },
@@ -9324,7 +9359,38 @@ const ENTREGAS_DATA = {
     {
       "nome": "FABIO VALOTTI",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "378000380",
+          "numnota": "",
+          "data": "20/05/2026",
+          "cliente": "55.718.855 DANIEL TAVARES RANGEL",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 171.36,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 1,
+              "val": 32.76
+            },
+            {
+              "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
+              "qt": 1,
+              "val": 43.9
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "378000377",
@@ -13548,7 +13614,38 @@ const ENTREGAS_DATA = {
     {
       "nome": "JORGE MACIEL",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "379000967",
+          "numnota": "",
+          "data": "20/05/2026",
+          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 218.28,
+          "itens": [
+            {
+              "desc": "GIN BAM TANQUERAY RANGPUR  CX C/ 12X50ML",
+              "qt": 1,
+              "val": 114.44
+            },
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+              "qt": 4,
+              "val": 55.96
+            },
+            {
+              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
+              "qt": 2,
+              "val": 47.88
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "379000966",
@@ -19344,6 +19441,26 @@ const ENTREGAS_DATA = {
       "nome": "MARILENA TRAGEL",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "156003403",
+          "numnota": "",
+          "data": "20/05/2026",
+          "cliente": "POSTO BARRA LINDA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 388.5,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 15,
+              "val": 388.5
+            }
+          ]
+        },
         {
           "numped": "156003395",
           "numnota": "",
