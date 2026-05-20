@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "20/05/2026 12:21",
+  "atualizado_em": "20/05/2026 13:17",
   "data_rota": "20.05",
   "vendedores": [
     {
@@ -7090,6 +7090,56 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "144001432",
+          "numnota": "",
+          "data": "20/05/2026",
+          "cliente": "MINI MARKET BARRA SUL MERCADO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1134.3,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 3,
+              "val": 101.7
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 2,
+              "val": 67.8
+            },
+            {
+              "desc": "ESPUM CASA PERINI DEMI-SEC 750ML",
+              "qt": 2,
+              "val": 67.8
+            },
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 12,
+              "val": 358.8
+            },
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+              "qt": 6,
+              "val": 179.4
+            },
+            {
+              "desc": "VINHO GRAVEDAD CARMENERE 750ML",
+              "qt": 6,
+              "val": 179.4
+            },
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV.",
+              "qt": 6,
+              "val": 179.4
+            }
+          ]
+        },
+        {
           "numped": "144001430",
           "numnota": "",
           "data": "20/05/2026",
@@ -7116,6 +7166,41 @@ const ENTREGAS_DATA = {
               "desc": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
               "qt": 12,
               "val": 598.8
+            }
+          ]
+        },
+        {
+          "numped": "144001433",
+          "numnota": "",
+          "data": "20/05/2026",
+          "cliente": "MINI MARKET BARRA SUL MERCADO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 460.8,
+          "itens": [
+            {
+              "desc": "VILLA ROSA BRANCO 750ML",
+              "qt": 3,
+              "val": 116.7
+            },
+            {
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 3,
+              "val": 116.7
+            },
+            {
+              "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+              "qt": 3,
+              "val": 95.7
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+              "qt": 3,
+              "val": 131.7
             }
           ]
         },
@@ -8441,14 +8526,14 @@ const ENTREGAS_DATA = {
               "val": 419.4
             },
             {
-              "desc": "LICOR BALLENA MORANGO 750 ML",
-              "qt": 6,
-              "val": 629.4
-            },
-            {
               "desc": "PIRASSUNUNGA 51 600 ML",
               "qt": 30,
               "val": 117.0
+            },
+            {
+              "desc": "LICOR BALLENA MORANGO 750 ML",
+              "qt": 6,
+              "val": 629.4
             }
           ]
         },
