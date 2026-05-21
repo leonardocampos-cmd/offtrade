@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "21/05/2026 09:07",
+  "atualizado_em": "21/05/2026 10:17",
   "data_rota": "21.05",
   "vendedores": [
     {
@@ -28,6 +28,96 @@ const ENTREGAS_DATA = {
               "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
               "qt": 12,
               "val": 166.8
+            }
+          ]
+        },
+        {
+          "numped": "431000944",
+          "numnota": "",
+          "data": "21/05/2026",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 286.8,
+          "itens": [
+            {
+              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "qt": 1,
+              "val": 286.8
+            }
+          ]
+        },
+        {
+          "numped": "431000943",
+          "numnota": "",
+          "data": "21/05/2026",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 723.38,
+          "itens": [
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 1,
+              "val": 74.9
+            },
+            {
+              "desc": "NECTAR CAJU 12X1000ML",
+              "qt": 1,
+              "val": 57.6
+            },
+            {
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 1,
+              "val": 57.6
+            },
+            {
+              "desc": "NECTAR LARANJA 12X1000ML",
+              "qt": 1,
+              "val": 57.6
+            },
+            {
+              "desc": "NECTAR MARACUJA 12X1000ML",
+              "qt": 1,
+              "val": 57.6
+            },
+            {
+              "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
+              "qt": 1,
+              "val": 57.6
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "NECTAR MACA TIAL 12X1000ML",
+              "qt": 1,
+              "val": 57.6
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+              "qt": 1,
+              "val": 87.6
             }
           ]
         },
@@ -20609,6 +20699,46 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "156003413",
+          "numnota": "",
+          "data": "21/05/2026",
+          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 333.12,
+          "itens": [
+            {
+              "desc": "CHA VERDE FRUTAS VERM.DESINCHA.12X250ML",
+              "qt": 2,
+              "val": 64.56
+            },
+            {
+              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X1000ML",
+              "qt": 1,
+              "val": 69.72
+            },
+            {
+              "desc": "CHA VERDE MACA DESINCHA 12X1000ML",
+              "qt": 1,
+              "val": 69.72
+            },
+            {
+              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
+              "qt": 2,
+              "val": 64.56
+            },
+            {
+              "desc": "CHA VERDE LARAN GENGI DESINCHA 12X250ML",
+              "qt": 2,
+              "val": 64.56
+            }
+          ]
+        },
+        {
           "numped": "156003415",
           "numnota": "",
           "data": "21/05/2026",
@@ -20645,46 +20775,6 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
               "qt": 1,
               "val": 94.7
-            }
-          ]
-        },
-        {
-          "numped": "156003413",
-          "numnota": "",
-          "data": "21/05/2026",
-          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 333.12,
-          "itens": [
-            {
-              "desc": "CHA VERDE FRUTAS VERM.DESINCHA.12X250ML",
-              "qt": 2,
-              "val": 64.56
-            },
-            {
-              "desc": "CHA VERDE MACA DESINCHA 12X1000ML",
-              "qt": 1,
-              "val": 69.72
-            },
-            {
-              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
-              "qt": 2,
-              "val": 64.56
-            },
-            {
-              "desc": "CHA VERDE LARAN GENGI DESINCHA 12X250ML",
-              "qt": 2,
-              "val": 64.56
-            },
-            {
-              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X1000ML",
-              "qt": 1,
-              "val": 69.72
             }
           ]
         },
@@ -28374,7 +28464,48 @@ const ENTREGAS_DATA = {
     {
       "nome": "RAPHAEL SANTOS - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "155003513",
+          "numnota": "",
+          "data": "21/05/2026",
+          "cliente": "24.009.526 DANIELA DE MELLO CARVALHO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 405.98,
+          "itens": [
+            {
+              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+              "qt": 1,
+              "val": 99.9
+            },
+            {
+              "desc": "WHISKY BALLANTINE'S FINEST 1L",
+              "qt": 1,
+              "val": 66.38
+            },
+            {
+              "desc": "WHISKY PASSPORT 1L",
+              "qt": 1,
+              "val": 44.9
+            },
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 1,
+              "val": 139.9
+            },
+            {
+              "desc": "APERITIVO CAMPARI 998ML",
+              "qt": 1,
+              "val": 54.9
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "155003512",
