@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "21/05/2026 13:09",
+  "atualizado_em": "21/05/2026 14:36",
   "data_rota": "21.05",
   "vendedores": [
     {
@@ -2283,7 +2283,43 @@ const ENTREGAS_DATA = {
     {
       "nome": "ANA CLARA PASSOS",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "471000228",
+          "numnota": "",
+          "data": "21/05/2026",
+          "cliente": "MERCADINHO PERNAMBUCO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 564.06,
+          "itens": [
+            {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "HARPIC POWER PLUS MAR 750ML 36X25G",
+              "qt": 2,
+              "val": 234.0
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "471000224",
@@ -5942,7 +5978,28 @@ const ENTREGAS_DATA = {
     {
       "nome": "BARBARA CABRAL",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "412001264",
+          "numnota": "",
+          "data": "21/05/2026",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 298.5,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+              "qt": 15,
+              "val": 298.5
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "412001259",
@@ -10060,14 +10117,14 @@ const ENTREGAS_DATA = {
           "total": 163.8,
           "itens": [
             {
-              "desc": "4 PACK RED BULL ZERO",
-              "qt": 4,
-              "val": 131.04
-            },
-            {
               "desc": "4 PACK RED BULL",
               "qt": 1,
               "val": 32.76
+            },
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 4,
+              "val": 131.04
             }
           ]
         }
@@ -14686,7 +14743,38 @@ const ENTREGAS_DATA = {
     {
       "nome": "JORGE MACIEL",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "379000970",
+          "numnota": "",
+          "data": "21/05/2026",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE COELHO DA ROCHA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 627.5,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 5,
+              "val": 129.5
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 10,
+              "val": 210.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 10,
+              "val": 288.0
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "379000967",
@@ -20683,6 +20771,46 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "156003413",
+          "numnota": "",
+          "data": "21/05/2026",
+          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 333.12,
+          "itens": [
+            {
+              "desc": "CHA VERDE MACA DESINCHA 12X1000ML",
+              "qt": 1,
+              "val": 69.72
+            },
+            {
+              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
+              "qt": 2,
+              "val": 64.56
+            },
+            {
+              "desc": "CHA VERDE LARAN GENGI DESINCHA 12X250ML",
+              "qt": 2,
+              "val": 64.56
+            },
+            {
+              "desc": "CHA VERDE FRUTAS VERM.DESINCHA.12X250ML",
+              "qt": 2,
+              "val": 64.56
+            },
+            {
+              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X1000ML",
+              "qt": 1,
+              "val": 69.72
+            }
+          ]
+        },
+        {
           "numped": "156003417",
           "numnota": "",
           "data": "21/05/2026",
@@ -20701,6 +20829,11 @@ const ENTREGAS_DATA = {
               "val": 47.84
             },
             {
+              "desc": "PINATI NUTS ORIGINAL 20X30G",
+              "qt": 1,
+              "val": 44.31
+            },
+            {
               "desc": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
               "qt": 1,
               "val": 53.52
@@ -20709,11 +20842,6 @@ const ENTREGAS_DATA = {
               "desc": "PINATI SIMPLE WHEY PISTACHE (4)16X35G",
               "qt": 1,
               "val": 47.84
-            },
-            {
-              "desc": "PINATI NUTS ORIGINAL 20X30G",
-              "qt": 1,
-              "val": 44.31
             }
           ]
         },
@@ -20854,46 +20982,6 @@ const ENTREGAS_DATA = {
               "desc": "COQUETEL COCOBLANC 670 ML",
               "qt": 2,
               "val": 57.2
-            }
-          ]
-        },
-        {
-          "numped": "156003413",
-          "numnota": "",
-          "data": "21/05/2026",
-          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 333.12,
-          "itens": [
-            {
-              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X1000ML",
-              "qt": 1,
-              "val": 69.72
-            },
-            {
-              "desc": "CHA VERDE MACA DESINCHA 12X1000ML",
-              "qt": 1,
-              "val": 69.72
-            },
-            {
-              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
-              "qt": 2,
-              "val": 64.56
-            },
-            {
-              "desc": "CHA VERDE LARAN GENGI DESINCHA 12X250ML",
-              "qt": 2,
-              "val": 64.56
-            },
-            {
-              "desc": "CHA VERDE FRUTAS VERM.DESINCHA.12X250ML",
-              "qt": 2,
-              "val": 64.56
             }
           ]
         },
