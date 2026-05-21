@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "21/05/2026 14:36",
+  "atualizado_em": "21/05/2026 17:12",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -34583,6 +34583,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1194.0
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "31155",
+          "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 6468.0
         },
         {
           "data": "13/05/2026",
