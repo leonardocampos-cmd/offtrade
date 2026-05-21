@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "21/05/2026 10:18",
+  "atualizado_em": "21/05/2026 13:10",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -31187,24 +31187,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 24,
           "valor": 2373.6
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "50485",
-          "cliente": "M ALMEIDA DE SOUZA FILHOS BEBIDAS",
-          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 623.4
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "50485",
-          "cliente": "M ALMEIDA DE SOUZA FILHOS BEBIDAS",
-          "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 623.4
         }
       ],
       "Dez/25": [
@@ -41582,6 +41564,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 1080.0
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "50176",
+          "cliente": "RIO GRANDE COMERCIO DE CARNES LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "",
+          "qt": 240,
+          "valor": 15816.0
         },
         {
           "data": "04/05/2026",
