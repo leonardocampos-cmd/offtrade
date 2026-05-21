@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "21/05/2026 13:10",
+  "atualizado_em": "21/05/2026 14:36",
   "meses": [
     "Mai/26",
     "Abr/26",
