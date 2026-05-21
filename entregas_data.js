@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "21/05/2026 10:18",
+  "atualizado_em": "21/05/2026 11:01",
   "data_rota": "21.05",
   "vendedores": [
     {
@@ -48,6 +48,26 @@ const ENTREGAS_DATA = {
               "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
               "qt": 1,
               "val": 286.8
+            }
+          ]
+        },
+        {
+          "numped": "431000945",
+          "numnota": "",
+          "data": "21/05/2026",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 189.4,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 2,
+              "val": 189.4
             }
           ]
         },
@@ -9998,6 +10018,31 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "378000384",
+          "numnota": "",
+          "data": "21/05/2026",
+          "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 163.8,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 4,
+              "val": 131.04
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 1,
+              "val": 32.76
+            }
+          ]
+        },
+        {
           "numped": "378000382",
           "numnota": "",
           "data": "20/05/2026",
@@ -10586,36 +10631,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "159004657",
-          "numnota": "",
-          "data": "20/05/2026",
-          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "refeito",
-          "total": 260.7,
-          "itens": [
-            {
-              "desc": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
-              "qt": 1,
-              "val": 114.9
-            },
-            {
-              "desc": "PINATI DOUBLE BAR DOCE DE LEITE 32X35G",
-              "qt": 1,
-              "val": 114.9
-            },
-            {
-              "desc": "GUARAVITON GINSENG 12X500ML",
-              "qt": 1,
-              "val": 30.9
-            }
-          ]
-        },
-        {
           "numped": "159004652",
           "numnota": "",
           "data": "20/05/2026",
@@ -10632,26 +10647,6 @@ const ENTREGAS_DATA = {
               "desc": "PIRASSUNUNGA 51 965 ML",
               "qt": 24,
               "val": 324.0
-            }
-          ]
-        },
-        {
-          "numped": "159004655",
-          "numnota": "",
-          "data": "20/05/2026",
-          "cliente": "SALES E SOUZA MINIMERCADO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 383.52,
-          "itens": [
-            {
-              "desc": "RED BULL  MELAO MARACUJA 24X250ML",
-              "qt": 2,
-              "val": 383.52
             }
           ]
         },
@@ -20699,46 +20694,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "156003413",
-          "numnota": "",
-          "data": "21/05/2026",
-          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 333.12,
-          "itens": [
-            {
-              "desc": "CHA VERDE FRUTAS VERM.DESINCHA.12X250ML",
-              "qt": 2,
-              "val": 64.56
-            },
-            {
-              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X1000ML",
-              "qt": 1,
-              "val": 69.72
-            },
-            {
-              "desc": "CHA VERDE MACA DESINCHA 12X1000ML",
-              "qt": 1,
-              "val": 69.72
-            },
-            {
-              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
-              "qt": 2,
-              "val": 64.56
-            },
-            {
-              "desc": "CHA VERDE LARAN GENGI DESINCHA 12X250ML",
-              "qt": 2,
-              "val": 64.56
-            }
-          ]
-        },
-        {
           "numped": "156003415",
           "numnota": "",
           "data": "21/05/2026",
@@ -20775,6 +20730,116 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
               "qt": 1,
               "val": 94.7
+            }
+          ]
+        },
+        {
+          "numped": "156003416",
+          "numnota": "",
+          "data": "21/05/2026",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 404.5,
+          "itens": [
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 1,
+              "val": 32.9
+            },
+            {
+              "desc": "RUM MONTILLA CRISTAL 1000ML",
+              "qt": 1,
+              "val": 24.9
+            },
+            {
+              "desc": "RUM MONTILLA CARTA BRANCA 1000ML",
+              "qt": 1,
+              "val": 24.9
+            },
+            {
+              "desc": "APERITIVO APEROL 750 ML",
+              "qt": 2,
+              "val": 91.8
+            },
+            {
+              "desc": "GIN ROCKS STRAWBERRY 1000ML",
+              "qt": 1,
+              "val": 23.9
+            },
+            {
+              "desc": "GIN ROCKS SCILIAN LEMON 1000ML",
+              "qt": 1,
+              "val": 23.9
+            },
+            {
+              "desc": "VINHO BORDO QUINTA DO MORGADO 750ML",
+              "qt": 2,
+              "val": 35.4
+            },
+            {
+              "desc": "GIN ROCKS SUNSET 1000ML",
+              "qt": 1,
+              "val": 23.9
+            },
+            {
+              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
+              "qt": 2,
+              "val": 41.8
+            },
+            {
+              "desc": "GIN ROCKS GREEN APPLE 1000ML",
+              "qt": 1,
+              "val": 23.9
+            },
+            {
+              "desc": "COQUETEL COCOBLANC 670 ML",
+              "qt": 2,
+              "val": 57.2
+            }
+          ]
+        },
+        {
+          "numped": "156003413",
+          "numnota": "",
+          "data": "21/05/2026",
+          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 333.12,
+          "itens": [
+            {
+              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X1000ML",
+              "qt": 1,
+              "val": 69.72
+            },
+            {
+              "desc": "CHA VERDE MACA DESINCHA 12X1000ML",
+              "qt": 1,
+              "val": 69.72
+            },
+            {
+              "desc": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
+              "qt": 2,
+              "val": 64.56
+            },
+            {
+              "desc": "CHA VERDE LARAN GENGI DESINCHA 12X250ML",
+              "qt": 2,
+              "val": 64.56
+            },
+            {
+              "desc": "CHA VERDE FRUTAS VERM.DESINCHA.12X250ML",
+              "qt": 2,
+              "val": 64.56
             }
           ]
         },
