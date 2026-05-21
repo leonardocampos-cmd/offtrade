@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "21/05/2026 14:34",
+  "atualizado_em": "21/05/2026 17:12",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -40389,6 +40389,33 @@ const VENDAS_DATA = {
           "valor": 65.7
         },
         {
+          "data": "20/05/2026",
+          "codcli": "3551",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 51.8
+        },
+        {
+          "data": "20/05/2026",
+          "codcli": "3551",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 3,
+          "valor": 65.7
+        },
+        {
+          "data": "20/05/2026",
+          "codcli": "3551",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+          "fantasia": "MINALBA",
+          "qt": 15,
+          "valor": 298.5
+        },
+        {
           "data": "08/05/2026",
           "codcli": "4621",
           "cliente": "AUTO POSTO MAP RECREIO LTDA",
@@ -40567,6 +40594,132 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 3,
           "valor": 125.7
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 23.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 23.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 23.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 23.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 41.8
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "CAMPARI",
+          "qt": 2,
+          "valor": 91.8
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "COQUETEL COCOBLANC 670 ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 57.2
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "VINHO BORDO QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 35.4
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 32.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 24.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 24.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 44.31
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE (4)16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 47.84
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 47.84
         },
         {
           "data": "11/05/2026",
@@ -42567,6 +42720,51 @@ const VENDAS_DATA = {
           "valor": 79.9
         },
         {
+          "data": "21/05/2026",
+          "codcli": "79252",
+          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
+          "produto": "CHA VERDE LARAN GENGI DESINCHA 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 64.56
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "79252",
+          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
+          "produto": "CHA VERDE FRUTAS VERM.DESINCHA.12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 64.56
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "79252",
+          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
+          "produto": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 64.56
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "79252",
+          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
+          "produto": "CHA VERDE ABACAX HORT DESINCHA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 69.72
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "79252",
+          "cliente": "VIP GAVIAO CONVENIENCIAS LTDA",
+          "produto": "CHA VERDE MACA DESINCHA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 69.72
+        },
+        {
           "data": "12/05/2026",
           "codcli": "83180",
           "cliente": "POSTO MEGA VERAO LTDA",
@@ -43189,6 +43387,24 @@ const VENDAS_DATA = {
         },
         {
           "data": "18/05/2026",
+          "codcli": "84449",
+          "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "fantasia": "COMARY",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "84449",
+          "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "21/05/2026",
           "codcli": "84449",
           "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
           "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
@@ -59717,6 +59933,15 @@ const VENDAS_DATA = {
           "valor": 59.9
         },
         {
+          "data": "21/05/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 299.88
+        },
+        {
           "data": "06/05/2026",
           "codcli": "91091",
           "cliente": "BAR E MERCEARIA TAUA LTDA",
@@ -59724,6 +59949,15 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 4,
           "valor": 135.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91168",
+          "cliente": "HORTIFRUTI PRIMO RAMOS SULACAP LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 286.8
         },
         {
           "data": "12/05/2026",
@@ -60167,6 +60401,24 @@ const VENDAS_DATA = {
           "valor": 154.08
         },
         {
+          "data": "21/05/2026",
+          "codcli": "92277",
+          "cliente": "WALLAF DA SILVA MENEZES GOMES MERCADO E PADARIA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "92277",
+          "cliente": "WALLAF DA SILVA MENEZES GOMES MERCADO E PADARIA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 166.8
+        },
+        {
           "data": "07/05/2026",
           "codcli": "94266",
           "cliente": "MERCADINHO SCHIO LTDA",
@@ -60266,6 +60518,15 @@ const VENDAS_DATA = {
           "valor": 47.9
         },
         {
+          "data": "21/05/2026",
+          "codcli": "91471",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.4
+        },
+        {
           "data": "11/05/2026",
           "codcli": "91585",
           "cliente": "HELENA TEMPEROS LTDA",
@@ -60287,6 +60548,105 @@ const VENDAS_DATA = {
           "data": "11/05/2026",
           "codcli": "91585",
           "cliente": "HELENA TEMPEROS LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91465",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91465",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91465",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "produto": "NECTAR CAJU 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91465",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91465",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91465",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91465",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "produto": "NECTAR MACA TIAL 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91465",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91465",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91465",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "fantasia": "COMARY",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91465",
+          "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
           "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -60381,6 +60741,33 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 10,
           "valor": 256.8
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "93997",
+          "cliente": "GUTO E JO COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 51.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "93997",
+          "cliente": "GUTO E JO COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 47.59
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "93997",
+          "cliente": "GUTO E JO COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
         },
         {
           "data": "15/05/2026",
@@ -60525,6 +60912,33 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 61.8
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91886",
+          "cliente": "DOCE VIDA COMERCIO DE DOCES E BISCOITOS LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91886",
+          "cliente": "DOCE VIDA COMERCIO DE DOCES E BISCOITOS LTDA",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91886",
+          "cliente": "DOCE VIDA COMERCIO DE DOCES E BISCOITOS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88
         },
         {
           "data": "07/05/2026",
@@ -64185,6 +64599,15 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 6,
           "valor": 660.0
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "81145",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE COELHO DA ROCHA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 129.5
         },
         {
           "data": "19/05/2026",
@@ -82470,6 +82893,24 @@ const VENDAS_DATA = {
           "valor": 197.4
         },
         {
+          "data": "21/05/2026",
+          "codcli": "8263",
+          "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 32.76
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "8263",
+          "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 131.04
+        },
+        {
           "data": "08/05/2026",
           "codcli": "52102",
           "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
@@ -100411,6 +100852,24 @@ const VENDAS_DATA = {
           "valor": 191.9
         },
         {
+          "data": "21/05/2026",
+          "codcli": "84073",
+          "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 383.92
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "84073",
+          "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 191.98
+        },
+        {
           "data": "12/05/2026",
           "codcli": "85451",
           "cliente": "MERCEARIA LEAO FM LTDA",
@@ -118052,6 +118511,15 @@ const VENDAS_DATA = {
           "valor": 393.12
         },
         {
+          "data": "21/05/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+          "fantasia": "MINALBA",
+          "qt": 15,
+          "valor": 298.5
+        },
+        {
           "data": "14/05/2026",
           "codcli": "79253",
           "cliente": "AUTO POSTO TREVO DAS AMERICAS LTDA",
@@ -125207,6 +125675,60 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
+          "data": "21/05/2026",
+          "codcli": "50931",
+          "cliente": "HYGOR PORTO SERQUEIRA 09348357727",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "fantasia": "JURUPINGA",
+          "qt": 4,
+          "valor": 103.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "50931",
+          "cliente": "HYGOR PORTO SERQUEIRA 09348357727",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 6,
+          "valor": 101.4
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "50931",
+          "cliente": "HYGOR PORTO SERQUEIRA 09348357727",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "50931",
+          "cliente": "HYGOR PORTO SERQUEIRA 09348357727",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 5,
+          "valor": 174.5
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "50931",
+          "cliente": "HYGOR PORTO SERQUEIRA 09348357727",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 92.2
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "50931",
+          "cliente": "HYGOR PORTO SERQUEIRA 09348357727",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 103.92
+        },
+        {
           "data": "02/05/2026",
           "codcli": "62177",
           "cliente": "SUPERMERCADOS CELEIRO LTDA",
@@ -125637,6 +126159,33 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 30.0
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "87273",
+          "cliente": "38.405.385 ARIANE DE CARVALHO ALVES",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 65.8
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "87273",
+          "cliente": "38.405.385 ARIANE DE CARVALHO ALVES",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 64.56
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "87273",
+          "cliente": "38.405.385 ARIANE DE CARVALHO ALVES",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "fantasia": "JURUPINGA",
+          "qt": 1,
+          "valor": 25.9
         },
         {
           "data": "07/05/2026",
@@ -164960,15 +165509,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 132,
           "valor": 2699.4
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "58584",
-          "cliente": "SUPERMERCADO ALVORADA EIRELI",
-          "produto": "GIN DUBAR 960ML",
-          "fantasia": "DUBAR",
-          "qt": 72,
-          "valor": 1342.8
         },
         {
           "data": "19/05/2026",
