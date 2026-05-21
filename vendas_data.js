@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "21/05/2026 11:00",
+  "atualizado_em": "21/05/2026 13:08",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -60174,33 +60174,6 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 12,
           "valor": 393.12
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "93452",
-          "cliente": "PADARIA E CONFEITARIA KJM LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "93452",
-          "cliente": "PADARIA E CONFEITARIA KJM LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "93452",
-          "cliente": "PADARIA E CONFEITARIA KJM LTDA",
-          "produto": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 47.9
         },
         {
           "data": "12/05/2026",
