@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "22/05/2026 10:11",
+  "atualizado_em": "22/05/2026 11:43",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -83289,33 +83289,6 @@ const VENDAS_DATA = {
           "valor": 95.9
         },
         {
-          "data": "20/05/2026",
-          "codcli": "90261",
-          "cliente": "55.718.855 DANIEL TAVARES RANGEL",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 32.76
-        },
-        {
-          "data": "20/05/2026",
-          "codcli": "90261",
-          "cliente": "55.718.855 DANIEL TAVARES RANGEL",
-          "produto": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 43.9
-        },
-        {
-          "data": "20/05/2026",
-          "codcli": "90261",
-          "cliente": "55.718.855 DANIEL TAVARES RANGEL",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
           "data": "18/05/2026",
           "codcli": "90835",
           "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
@@ -154654,6 +154627,60 @@ const VENDAS_DATA = {
           "fantasia": "LUCIA",
           "qt": 1104,
           "valor": 84521.1
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 86,
+          "valor": 10403.0
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 46,
+          "valor": 6200.33
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 23,
+          "valor": 3100.16
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 46,
+          "valor": 8210.32
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 84,
+          "valor": 9549.33
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 46,
+          "valor": 8210.32
         },
         {
           "data": "05/05/2026",
