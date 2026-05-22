@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "22/05/2026 14:48",
+  "atualizado_em": "22/05/2026 17:03",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -29254,6 +29254,15 @@ const VENDAS_SP_DATA = {
           "valor": 2156.4
         },
         {
+          "data": "22/05/2026",
+          "codcli": "46646",
+          "cliente": "GORDAO BEER BEBIDAS E MERCEARIA LTDA",
+          "produto": "SMIRNOFF ICE 24X275ML LONG",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 755.4
+        },
+        {
           "data": "08/05/2026",
           "codcli": "47293",
           "cliente": "P. GOMES FILHO",
@@ -29486,15 +29495,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 154.8
-        },
-        {
-          "data": "08/05/2026",
-          "codcli": "47404",
-          "cliente": "SUPERMERCADO TAKAHASHI LTDA",
-          "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 501.6
         },
         {
           "data": "07/05/2026",
@@ -35708,6 +35708,33 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 123.24
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "50598",
+          "cliente": "COMERCIAL CRESCER LTDA",
+          "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
+          "fantasia": "",
+          "qt": 96,
+          "valor": 9974.4
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "50598",
+          "cliente": "COMERCIAL CRESCER LTDA",
+          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
+          "fantasia": "",
+          "qt": 96,
+          "valor": 9974.4
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "50598",
+          "cliente": "COMERCIAL CRESCER LTDA",
+          "produto": "VODKA GREY GOOSE LORANGE 750ML",
+          "fantasia": "",
+          "qt": 96,
+          "valor": 9974.4
         },
         {
           "data": "20/05/2026",
@@ -46995,15 +47022,6 @@ const VENDAS_SP_DATA = {
           "valor": 717.12
         },
         {
-          "data": "20/03/2026",
-          "codcli": "36187",
-          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1965.6
-        },
-        {
           "data": "06/03/2026",
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
@@ -56690,69 +56708,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 3,
           "valor": 100.8
-        },
-        {
-          "data": "15/05/2026",
-          "codcli": "50384",
-          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 57.8
-        },
-        {
-          "data": "15/05/2026",
-          "codcli": "50384",
-          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
-          "produto": "VODKA ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 2,
-          "valor": 39.8
-        },
-        {
-          "data": "15/05/2026",
-          "codcli": "50384",
-          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
-          "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 53.9
-        },
-        {
-          "data": "15/05/2026",
-          "codcli": "50384",
-          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
-          "produto": "APERITIVO CAMPARI 998ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 99.8
-        },
-        {
-          "data": "15/05/2026",
-          "codcli": "50384",
-          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
-          "produto": "SMIRNOFF ICE 24X275ML LONG",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 125.9
-        },
-        {
-          "data": "15/05/2026",
-          "codcli": "50384",
-          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
-          "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 250.8
-        },
-        {
-          "data": "15/05/2026",
-          "codcli": "50384",
-          "cliente": "55.728.140 MAURICIO DOS SANTOS LIMA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 202.8
         },
         {
           "data": "19/05/2026",
