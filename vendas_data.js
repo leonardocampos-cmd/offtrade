@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "22/05/2026 16:25",
+  "atualizado_em": "22/05/2026 17:28",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -79681,6 +79681,15 @@ const VENDAS_DATA = {
           "valor": 392.4
         },
         {
+          "data": "22/05/2026",
+          "codcli": "11683",
+          "cliente": "TENORIO TRAJANO DEPOSITO DE BEBIDAS LTDA",
+          "produto": "CACHACA YPIOCA BRASILIZAR CG OURO 965ML",
+          "fantasia": "DIAGEO",
+          "qt": 60,
+          "valor": 954.0
+        },
+        {
           "data": "07/05/2026",
           "codcli": "53108",
           "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
@@ -100571,6 +100580,42 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 1,
           "valor": 116.9
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 36,
+          "valor": 2696.4
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 30,
+          "valor": 2427.0
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "CHANDON GARDEN SPRITZ 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 30,
+          "valor": 2697.0
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 36,
+          "valor": 2984.4
         },
         {
           "data": "19/05/2026",
