@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "22/05/2026 09:21",
+  "atualizado_em": "22/05/2026 10:12",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -34873,105 +34873,6 @@ const VENDAS_SP_DATA = {
           "valor": 123.24
         },
         {
-          "data": "18/05/2026",
-          "codcli": "46153",
-          "cliente": "MARCELA DE CARVALHO BARBIERI",
-          "produto": "LICOR COINTREAU 700 ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1078.8
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "46153",
-          "cliente": "MARCELA DE CARVALHO BARBIERI",
-          "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 754.8
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "46153",
-          "cliente": "MARCELA DE CARVALHO BARBIERI",
-          "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 646.8
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "46153",
-          "cliente": "MARCELA DE CARVALHO BARBIERI",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 403.2
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "46153",
-          "cliente": "MARCELA DE CARVALHO BARBIERI",
-          "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 850.8
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "46153",
-          "cliente": "MARCELA DE CARVALHO BARBIERI",
-          "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 128.04
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "46153",
-          "cliente": "MARCELA DE CARVALHO BARBIERI",
-          "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 123.24
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "46153",
-          "cliente": "MARCELA DE CARVALHO BARBIERI",
-          "produto": "RUM MALIBU 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 514.8
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "46153",
-          "cliente": "MARCELA DE CARVALHO BARBIERI",
-          "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 123.24
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "46153",
-          "cliente": "MARCELA DE CARVALHO BARBIERI",
-          "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 128.04
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "46153",
-          "cliente": "MARCELA DE CARVALHO BARBIERI",
-          "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 123.24
-        },
-        {
           "data": "08/05/2026",
           "codcli": "45830",
           "cliente": "RED UP REPRESENTACAO E DISTRIBUICAO LTDA",
@@ -37048,15 +36949,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 790.8
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "32426",
-          "cliente": "PIRANA - AUTO SERVICO LTDA",
-          "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 754.8
         },
         {
           "data": "04/05/2026",
