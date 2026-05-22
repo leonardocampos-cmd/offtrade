@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "22/05/2026 10:12",
+  "atualizado_em": "22/05/2026 14:48",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -53036,15 +53036,6 @@ const VENDAS_SP_DATA = {
           "data": "13/05/2026",
           "codcli": "38491",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-          "produto": "VODKA ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 36,
-          "valor": 738.0
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "38491",
-          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CONHAQUE DOMECQ 1L",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -53112,15 +53103,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 347.4
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "38513",
-          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
-          "produto": "VODKA ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 492.0
         },
         {
           "data": "08/05/2026",
@@ -53288,15 +53270,6 @@ const VENDAS_SP_DATA = {
           "data": "12/05/2026",
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-          "produto": "VODKA ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 246.0
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "40448",
-          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "CACHACA SAO FRANCISCO 970ML",
           "fantasia": "PERNOD",
           "qt": 48,
@@ -53319,15 +53292,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 24,
           "valor": 694.8
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "40450",
-          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
-          "produto": "VODKA ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 492.0
         },
         {
           "data": "12/05/2026",
@@ -53481,24 +53445,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 30,
           "valor": 3507.0
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "40455",
-          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
-          "produto": "MARTINI BIANCO 750 ML",
-          "fantasia": "",
-          "qt": 48,
-          "valor": 1389.6
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "40455",
-          "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
-          "produto": "VODKA ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 48,
-          "valor": 984.0
         },
         {
           "data": "14/05/2026",
