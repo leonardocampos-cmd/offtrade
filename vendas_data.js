@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "22/05/2026 11:43",
+  "atualizado_em": "22/05/2026 14:47",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -154717,24 +154717,6 @@ const VENDAS_DATA = {
           "fantasia": "YVY",
           "qt": 30,
           "valor": 1470.0
-        },
-        {
-          "data": "16/05/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "AZEITE OLIV EV ZETONA FINALIZAR 12X500ML",
-          "fantasia": "",
-          "qt": 15,
-          "valor": 7596.0
-        },
-        {
-          "data": "16/05/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "AZEITE OLIV EV ZETONA COZINHAR 12X500ML",
-          "fantasia": "",
-          "qt": 15,
-          "valor": 6426.0
         },
         {
           "data": "20/05/2026",
