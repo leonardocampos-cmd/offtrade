@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "21/05/2026 17:12",
+  "atualizado_em": "22/05/2026 09:20",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -40416,6 +40416,15 @@ const VENDAS_DATA = {
           "valor": 298.5
         },
         {
+          "data": "21/05/2026",
+          "codcli": "3110",
+          "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 7,
+          "valor": 181.3
+        },
+        {
           "data": "08/05/2026",
           "codcli": "4621",
           "cliente": "AUTO POSTO MAP RECREIO LTDA",
@@ -40927,6 +40936,123 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 10,
           "valor": 245.0
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 1,
+          "valor": 99.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 47.88
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 3,
+          "valor": 53.7
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 279.8
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "CAMPARI",
+          "qt": 3,
+          "valor": 136.5
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 78.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 419.4
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "51829",
+          "cliente": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 461.4
         },
         {
           "data": "07/05/2026",
@@ -43618,6 +43744,15 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 5,
           "valor": 284.5
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "86258",
+          "cliente": "ROCAL PRODUTOS DE PETROLEO LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 279.8
         },
         {
           "data": "08/05/2026",
@@ -60770,6 +60905,33 @@ const VENDAS_DATA = {
           "valor": 71.76
         },
         {
+          "data": "21/05/2026",
+          "codcli": "93998",
+          "cliente": "SUPERMERCADO MAZINHO LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "93998",
+          "cliente": "SUPERMERCADO MAZINHO LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "93998",
+          "cliente": "SUPERMERCADO MAZINHO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
           "data": "15/05/2026",
           "codcli": "95008",
           "cliente": "MERCADO DE CARNES GUAIACA LTDA",
@@ -61031,25 +61193,7 @@ const VENDAS_DATA = {
           "valor": 71.76
         },
         {
-          "data": "18/05/2026",
-          "codcli": "94820",
-          "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "94820",
-          "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "18/05/2026",
+          "data": "21/05/2026",
           "codcli": "94820",
           "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
           "produto": "VEJA PESADA X14 PROMO 24X500ML",
@@ -61058,7 +61202,7 @@ const VENDAS_DATA = {
           "valor": 210.4
         },
         {
-          "data": "18/05/2026",
+          "data": "21/05/2026",
           "codcli": "94820",
           "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
           "produto": "RC SARDINHA EM OLEO 50X125G",
@@ -61067,7 +61211,7 @@ const VENDAS_DATA = {
           "valor": 249.9
         },
         {
-          "data": "18/05/2026",
+          "data": "21/05/2026",
           "codcli": "94820",
           "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
           "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
@@ -61076,31 +61220,31 @@ const VENDAS_DATA = {
           "valor": 249.5
         },
         {
-          "data": "18/05/2026",
-          "codcli": "94820",
-          "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
-          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
-          "data": "18/05/2026",
-          "codcli": "94820",
-          "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
-          "produto": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 47.9
-        },
-        {
-          "data": "18/05/2026",
+          "data": "21/05/2026",
           "codcli": "94820",
           "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
           "produto": "GUARAVITA NATURAL 24X290ML",
           "fantasia": "VITON",
           "qt": 1,
           "valor": 25.68
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "94820",
+          "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "94820",
+          "cliente": "52.140.372 ANDRYELLE MARCELLE DE PAIVA RIBEIRO",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
         }
       ]
     },
@@ -64655,16 +64799,7 @@ const VENDAS_DATA = {
           "valor": 1995.0
         },
         {
-          "data": "07/05/2026",
-          "codcli": "84160",
-          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
-          "produto": "GIN ROCKS 1000ML",
-          "fantasia": "FANTE",
-          "qt": 4,
-          "valor": 88.24
-        },
-        {
-          "data": "07/05/2026",
+          "data": "21/05/2026",
           "codcli": "84160",
           "cliente": "PQA ALIMENTOS ENGENHO LTDA",
           "produto": "GIN ROCKS WATERMELON 1000ML",
@@ -64673,7 +64808,7 @@ const VENDAS_DATA = {
           "valor": 132.35
         },
         {
-          "data": "07/05/2026",
+          "data": "21/05/2026",
           "codcli": "84160",
           "cliente": "PQA ALIMENTOS ENGENHO LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1000ML",
@@ -64682,34 +64817,7 @@ const VENDAS_DATA = {
           "valor": 264.71
         },
         {
-          "data": "07/05/2026",
-          "codcli": "84160",
-          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
-          "produto": "MARTINI ROSATO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 419.18
-        },
-        {
-          "data": "07/05/2026",
-          "codcli": "84160",
-          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
-          "produto": "MARTINI EXTRA DRY 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 419.18
-        },
-        {
-          "data": "07/05/2026",
-          "codcli": "84161",
-          "cliente": "PQA ALIMENTOS PRACA SECA LTDA",
-          "produto": "GIN ROCKS 1000ML",
-          "fantasia": "FANTE",
-          "qt": 4,
-          "valor": 88.24
-        },
-        {
-          "data": "07/05/2026",
+          "data": "21/05/2026",
           "codcli": "84161",
           "cliente": "PQA ALIMENTOS PRACA SECA LTDA",
           "produto": "GIN ROCKS WATERMELON 1000ML",
@@ -78637,6 +78745,15 @@ const VENDAS_DATA = {
           "valor": 199.5
         },
         {
+          "data": "21/05/2026",
+          "codcli": "2710",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 419.4
+        },
+        {
           "data": "12/05/2026",
           "codcli": "2610",
           "cliente": "SUPERMERCADO ULTRA SUL LTDA",
@@ -79177,6 +79294,24 @@ const VENDAS_DATA = {
           "valor": 195.84
         },
         {
+          "data": "21/05/2026",
+          "codcli": "6690",
+          "cliente": "SUPERMERCADO ULTRA 12 LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 36,
+          "valor": 450.0
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "6690",
+          "cliente": "SUPERMERCADO ULTRA 12 LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 394.8
+        },
+        {
           "data": "14/05/2026",
           "codcli": "6281",
           "cliente": "SUPERMERCADO ULTRA 05 LTDA EPP",
@@ -79409,6 +79544,42 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 65.28
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "93736",
+          "cliente": "MERCADINHO PERNAMBUCO LTDA",
+          "produto": "HARPIC POWER PLUS MAR 750ML 36X25G",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 234.0
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "93736",
+          "cliente": "MERCADINHO PERNAMBUCO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "93736",
+          "cliente": "MERCADINHO PERNAMBUCO LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "93736",
+          "cliente": "MERCADINHO PERNAMBUCO LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 199.5
         },
         {
           "data": "12/05/2026",
@@ -136426,6 +136597,15 @@ const VENDAS_DATA = {
           "valor": 546.8
         },
         {
+          "data": "21/05/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "AGUARDENTE PITU 965 ML - BRT - CX/12",
+          "fantasia": "PITU LTDA",
+          "qt": 1,
+          "valor": 124.91
+        },
+        {
           "data": "15/05/2026",
           "codcli": "69400",
           "cliente": "BOCARRA'S BAR LTDA",
@@ -147550,60 +147730,6 @@ const VENDAS_DATA = {
           "valor": 245.4
         },
         {
-          "data": "13/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1068.0
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1068.0
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1068.0
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "LICOR BALLENA MORANGO 750 ML",
-          "fantasia": "BALLENA",
-          "qt": 12,
-          "valor": 1188.0
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-          "fantasia": "BALLENA",
-          "qt": 12,
-          "valor": 1188.0
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "LICOR BALLENA COCO 750ML",
-          "fantasia": "BALLENA",
-          "qt": 6,
-          "valor": 594.0
-        },
-        {
           "data": "17/04/2026",
           "codcli": "90171",
           "cliente": "F CAMPANHA COMERCIO DE MATERIAL DE LIMPEZA EM GERAL LTDA",
@@ -150558,6 +150684,15 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 6,
           "valor": 481.32
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "83642",
+          "cliente": "MINIMERCADO JARDIM ROSARIO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 592.2
         },
         {
           "data": "04/05/2026",
@@ -156846,6 +156981,33 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 10,
           "valor": 1043.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 50,
+          "valor": 9108.0
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 20,
+          "valor": 3643.2
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 50,
+          "valor": 9108.0
         },
         {
           "data": "19/05/2026",
@@ -165815,6 +165977,15 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 3,
           "valor": 543.84
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "69759",
+          "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "WHISKY CHIVAS REGAL XV 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 1092.0
         },
         {
           "data": "02/05/2026",
