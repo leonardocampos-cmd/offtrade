@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "22/05/2026 14:47",
+  "atualizado_em": "22/05/2026 16:25",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -40317,6 +40317,15 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
+          "data": "22/05/2026",
+          "codcli": "3713",
+          "cliente": "BARRA GAS COM. E SERVICOS LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+          "fantasia": "MINALBA",
+          "qt": 11,
+          "valor": 269.5
+        },
+        {
           "data": "04/05/2026",
           "codcli": "3551",
           "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
@@ -43474,6 +43483,42 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 1,
           "valor": 104.9
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "84240",
+          "cliente": "JAGUAR EXPRESS CONVENIENCIA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+          "fantasia": "MINALBA",
+          "qt": 3,
+          "valor": 73.5
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "84240",
+          "cliente": "JAGUAR EXPRESS CONVENIENCIA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "84240",
+          "cliente": "JAGUAR EXPRESS CONVENIENCIA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "84240",
+          "cliente": "JAGUAR EXPRESS CONVENIENCIA LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 2,
+          "valor": 43.8
         },
         {
           "data": "14/05/2026",
@@ -60905,6 +60950,24 @@ const VENDAS_DATA = {
           "valor": 71.76
         },
         {
+          "data": "22/05/2026",
+          "codcli": "93997",
+          "cliente": "GUTO E JO COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
+          "fantasia": "PINATI",
+          "qt": 3,
+          "valor": 143.7
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "93997",
+          "cliente": "GUTO E JO COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 6,
+          "valor": 154.08
+        },
+        {
           "data": "21/05/2026",
           "codcli": "93998",
           "cliente": "SUPERMERCADO MAZINHO LTDA",
@@ -64682,6 +64745,141 @@ const VENDAS_DATA = {
           "valor": 573.6
         },
         {
+          "data": "22/05/2026",
+          "codcli": "95070",
+          "cliente": "DBPAIVA COMERCIO VAREJISTA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 130.56
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95070",
+          "cliente": "DBPAIVA COMERCIO VAREJISTA LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95070",
+          "cliente": "DBPAIVA COMERCIO VAREJISTA LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95070",
+          "cliente": "DBPAIVA COMERCIO VAREJISTA LTDA",
+          "produto": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 133.0
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95071",
+          "cliente": "MERCEARIA FERREIRA ZANCO LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 4,
+          "valor": 261.12
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95071",
+          "cliente": "MERCEARIA FERREIRA ZANCO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 4,
+          "valor": 261.12
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95071",
+          "cliente": "MERCEARIA FERREIRA ZANCO LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 4,
+          "valor": 261.12
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95072",
+          "cliente": "MERCEARIA L F NOGUEIRA DO PARQUE SUECIA LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95072",
+          "cliente": "MERCEARIA L F NOGUEIRA DO PARQUE SUECIA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 130.56
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95073",
+          "cliente": "MERCADO F N DO PARQUE FLUMINENSE LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 130.56
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95073",
+          "cliente": "MERCADO F N DO PARQUE FLUMINENSE LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95073",
+          "cliente": "MERCADO F N DO PARQUE FLUMINENSE LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95073",
+          "cliente": "MERCADO F N DO PARQUE FLUMINENSE LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95073",
+          "cliente": "MERCADO F N DO PARQUE FLUMINENSE LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 12,
+          "valor": 144.0
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "95073",
+          "cliente": "MERCADO F N DO PARQUE FLUMINENSE LTDA",
+          "produto": "VANISH LIQUIDO WHITE REFIL 12X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 66.6
+        },
+        {
           "data": "07/05/2026",
           "codcli": "74425",
           "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
@@ -66201,6 +66399,51 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 1,
           "valor": 128.9
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "91443",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM IRIS LTD",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 2,
+          "valor": 199.8
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "91443",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM IRIS LTD",
+          "produto": "WHISKY BALLANTINE'S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 198.96
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "91443",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM IRIS LTD",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 98.7
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "91443",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM IRIS LTD",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 51.8
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "91443",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM IRIS LTD",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 141.6
         },
         {
           "data": "09/05/2026",
@@ -145984,258 +146227,6 @@ const VENDAS_DATA = {
           "valor": 99.0
         },
         {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR ABACAXI 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR CAJU 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR GOIABA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR LARANJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR MACA TIAL 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 3,
-          "valor": 179.64
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 3,
-          "valor": 179.64
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "REFRESCO DE MARACUJA MINECRAFT 24X200ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 47.76
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "REFRESCO DE UVA MINECRAFT 24X200ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 47.76
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.6
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 177.6
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 88.8
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 88.8
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 177.6
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE LATA BLUEBERRY LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE ZERO LAT PINK LEMONADE 6X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 22.9
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE LATA MARGARITA LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 95.9
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 45.9
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 22.9
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 178.8
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 178.8
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 999.5
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 999.5
-        },
-        {
           "data": "30/04/2026",
           "codcli": "58819",
           "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
@@ -147827,33 +147818,6 @@ const VENDAS_DATA = {
           "fantasia": "INTERFOOD",
           "qt": 12,
           "valor": 1068.0
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "91633",
-          "cliente": "RIO SUL VILA OPERARIA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 3,
-          "valor": 197.04
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "91633",
-          "cliente": "RIO SUL VILA OPERARIA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 65.28
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "91633",
-          "cliente": "RIO SUL VILA OPERARIA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 5,
-          "valor": 326.4
         },
         {
           "data": "03/04/2026",
@@ -151613,6 +151577,33 @@ const VENDAS_DATA = {
           "valor": 298.8
         },
         {
+          "data": "22/05/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 10,
+          "valor": 652.8
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 10,
+          "valor": 652.8
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 10,
+          "valor": 652.8
+        },
+        {
           "data": "11/05/2026",
           "codcli": "90484",
           "cliente": "MERCADO RC DE ITAGUAI LTDA",
@@ -151935,6 +151926,60 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 65.28
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "92391",
+          "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 170.4
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "92391",
+          "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 170.56
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "92391",
+          "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 170.4
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "92391",
+          "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 170.4
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "92391",
+          "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 85.2
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "92391",
+          "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 85.2
         },
         {
           "data": "06/05/2026",
@@ -154744,33 +154789,6 @@ const VENDAS_DATA = {
           "fantasia": "YVY",
           "qt": 60,
           "valor": 2940.0
-        },
-        {
-          "data": "20/05/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN AR 710ML LT",
-          "fantasia": "YVY",
-          "qt": 5,
-          "valor": 988.2
-        },
-        {
-          "data": "20/05/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN AR 750ML",
-          "fantasia": "YVY",
-          "qt": 10,
-          "valor": 490.0
-        },
-        {
-          "data": "20/05/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN MAR 750ML",
-          "fantasia": "YVY",
-          "qt": 10,
-          "valor": 490.0
         },
         {
           "data": "02/05/2026",
