@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "25/05/2026 13:19",
+  "atualizado_em": "25/05/2026 14:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -79940,33 +79940,6 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 43.2
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "95074",
-          "cliente": "MINI MERCADO VIDI DOCES 24H LTDA",
-          "produto": "ESPUM CASA PERINI ICE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 442.8
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "95074",
-          "cliente": "MINI MERCADO VIDI DOCES 24H LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 203.4
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "95074",
-          "cliente": "MINI MERCADO VIDI DOCES 24H LTDA",
-          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 203.4
         },
         {
           "data": "15/05/2026",
