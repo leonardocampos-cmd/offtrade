@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "25/05/2026 11:00",
+  "atualizado_em": "25/05/2026 12:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -36176,33 +36176,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/04/2026",
-          "codcli": "74562",
-          "cliente": "VIP TIJUCA CONVENIENCIAS LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "74562",
-          "cliente": "VIP TIJUCA CONVENIENCIAS LTDA",
-          "produto": "VODKA SMIRNOFF 600 ML",
-          "fantasia": "DIAGEO",
-          "qt": 6,
-          "valor": 131.4
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "74562",
-          "cliente": "VIP TIJUCA CONVENIENCIAS LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "29/04/2026",
           "codcli": "74562",
           "cliente": "VIP TIJUCA CONVENIENCIAS LTDA",
           "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
