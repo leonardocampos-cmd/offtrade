@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "25/05/2026 16:00",
+  "atualizado_em": "25/05/2026 17:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -44043,6 +44043,24 @@ const VENDAS_DATA = {
           "valor": 141.8
         },
         {
+          "data": "25/05/2026",
+          "codcli": "90053",
+          "cliente": "AUTO POSTO MANDALA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+          "fantasia": "MINALBA",
+          "qt": 5,
+          "valor": 124.95
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90053",
+          "cliente": "AUTO POSTO MANDALA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 129.5
+        },
+        {
           "data": "20/05/2026",
           "codcli": "85671",
           "cliente": "SNACK STORE LTDA",
@@ -79958,6 +79976,15 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 2,
           "valor": 117.8
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "3816",
+          "cliente": "ORGANIZACOES FARINHA PURA LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 274.8
         },
         {
           "data": "12/05/2026",
@@ -127671,6 +127698,114 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 20,
           "valor": 1278.0
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "fantasia": "COMARY",
+          "qt": 2,
+          "valor": 149.76
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 12,
+          "valor": 214.8
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "fantasia": "JURUPINGA",
+          "qt": 12,
+          "valor": 310.8
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 430.8
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 419.4
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "fantasia": "51",
+          "qt": 1,
+          "valor": 120.9
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 8,
+          "valor": 799.2
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 199.8
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 2,
+          "valor": 153.8
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "CHANDON GARDEN SPRITZ 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 2,
+          "valor": 165.8
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 2,
+          "valor": 151.8
         },
         {
           "data": "18/05/2026",
