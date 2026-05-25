@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "25/05/2026 16:01",
+  "atualizado_em": "25/05/2026 17:01",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -57366,25 +57366,7 @@ const VENDAS_SP_DATA = {
           "valor": 167.4
         },
         {
-          "data": "22/05/2026",
-          "codcli": "50595",
-          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
-          "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 2,
-          "valor": 117.8
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "50595",
-          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 828.0
-        },
-        {
-          "data": "22/05/2026",
+          "data": "25/05/2026",
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
           "produto": "BALLANTINES SUNSHINE 700ML",
@@ -57393,34 +57375,25 @@ const VENDAS_SP_DATA = {
           "valor": 46.9
         },
         {
-          "data": "22/05/2026",
+          "data": "25/05/2026",
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
-          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "produto": "WHISKY BALLANTINE'S FINEST 1L",
           "fantasia": "PERNOD",
           "qt": 2,
-          "valor": 125.8
+          "valor": 117.8
         },
         {
-          "data": "22/05/2026",
+          "data": "25/05/2026",
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
-          "produto": "APERITIVO LUCIA 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 197.7
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 828.0
         },
         {
-          "data": "22/05/2026",
-          "codcli": "50595",
-          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
-          "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 41.08
-        },
-        {
-          "data": "22/05/2026",
+          "data": "25/05/2026",
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
@@ -57429,7 +57402,7 @@ const VENDAS_SP_DATA = {
           "valor": 42.68
         },
         {
-          "data": "22/05/2026",
+          "data": "25/05/2026",
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
@@ -57438,7 +57411,34 @@ const VENDAS_SP_DATA = {
           "valor": 41.08
         },
         {
-          "data": "22/05/2026",
+          "data": "25/05/2026",
+          "codcli": "50595",
+          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 125.8
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "50595",
+          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 197.7
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "50595",
+          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
+          "produto": "GIN ROCKS GREEN APPLE 1LT",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 41.08
+        },
+        {
+          "data": "25/05/2026",
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
@@ -57447,22 +57447,13 @@ const VENDAS_SP_DATA = {
           "valor": 42.68
         },
         {
-          "data": "22/05/2026",
+          "data": "25/05/2026",
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
           "fantasia": "",
           "qt": 2,
           "valor": 41.08
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "50595",
-          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
-          "produto": "CACHACA SALINAS CARVALHO 700ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 106.89
         },
         {
           "data": "22/05/2026",
