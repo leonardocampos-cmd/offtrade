@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "25/05/2026 15:01",
+  "atualizado_em": "25/05/2026 16:01",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -35987,6 +35987,15 @@ const VENDAS_SP_DATA = {
           "valor": 754.8
         },
         {
+          "data": "25/05/2026",
+          "codcli": "49531",
+          "cliente": "VALDOMIRO SGORLON MARTINELLI JUNIOR",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 5611.2
+        },
+        {
           "data": "13/05/2026",
           "codcli": "30260",
           "cliente": "COMERCIAL CRESCER LTDA",
@@ -36408,6 +36417,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 24,
           "valor": 2013.6
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "50469",
+          "cliente": "SUELEN CRISTINA DE FREITAS RIBAS",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 72,
+          "valor": 2419.2
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "50469",
+          "cliente": "SUELEN CRISTINA DE FREITAS RIBAS",
+          "produto": "VODKA ABSOLUT 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 72,
+          "valor": 3880.8
         }
       ],
       "Jan/26": [
@@ -56572,6 +56599,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 1320,
           "valor": 27588.0
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 1560,
+          "valor": 40404.0
         }
       ]
     },
@@ -57658,6 +57694,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 36,
           "valor": 1004.4
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "50420",
+          "cliente": "SUPER OSMARAJA EMPORIO LTDA",
+          "produto": "VODKA ABSOLUT 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 3234.0
         },
         {
           "data": "21/05/2026",
