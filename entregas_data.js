@@ -1,11 +1,56 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "25/05/2026 15:01",
+  "atualizado_em": "25/05/2026 16:00",
   "data_rota": "25.05",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVES",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "431000959",
+          "numnota": "",
+          "data": "25/05/2026",
+          "cliente": "CONFEITARIA MAJESTOSA DO JARDIM GUANABARA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1234.68,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 2,
+              "val": 189.36
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 2,
+              "val": 189.36
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 2,
+              "val": 189.36
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 2,
+              "val": 189.36
+            },
+            {
+              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "qt": 1,
+              "val": 287.88
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 2,
+              "val": 189.36
+            }
+          ]
+        },
         {
           "numped": "431000929",
           "numnota": "",
@@ -2553,6 +2598,91 @@ const ENTREGAS_DATA = {
               "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
               "qt": 1,
               "val": 274.8
+            }
+          ]
+        },
+        {
+          "numped": "471000242",
+          "numnota": "",
+          "data": "25/05/2026",
+          "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 860.18,
+          "itens": [
+            {
+              "desc": "AGUARDENTE OLD CESAR 88 965 ML",
+              "qt": 12,
+              "val": 142.8
+            },
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 6,
+              "val": 209.4
+            },
+            {
+              "desc": "VILLA ROSA BRANCO 750ML",
+              "qt": 3,
+              "val": 89.7
+            },
+            {
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 3,
+              "val": 89.7
+            },
+            {
+              "desc": "CACHACA SELETA 1L",
+              "qt": 2,
+              "val": 79.8
+            },
+            {
+              "desc": "SYN GALAXY LEMON 24X275ML VD",
+              "qt": 1,
+              "val": 47.76
+            },
+            {
+              "desc": "SYN GALAXY ZERO LEMON 24X275ML VD",
+              "qt": 1,
+              "val": 47.76
+            },
+            {
+              "desc": "SYN GALAXY MORANGO PESSEGO 24X275ML VD",
+              "qt": 1,
+              "val": 47.76
+            },
+            {
+              "desc": "VANISH LIQUIDO WHITE REFIL 12X500ML",
+              "qt": 1,
+              "val": 66.6
+            },
+            {
+              "desc": "PINATI SIMPLE WHEY CHOCO BELGA (4)16X35G",
+              "qt": 1,
+              "val": 38.9
+            }
+          ]
+        },
+        {
+          "numped": "471000243",
+          "numnota": "",
+          "data": "25/05/2026",
+          "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 116.7,
+          "itens": [
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 3,
+              "val": 116.7
             }
           ]
         }
@@ -8801,6 +8931,26 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "144001441",
+          "numnota": "",
+          "data": "25/05/2026",
+          "cliente": "63.529.210 KAUE ALVES DA SILVA SARAIVA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3528.0,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 144,
+              "val": 3528.0
+            }
+          ]
+        },
+        {
           "numped": "144001439",
           "numnota": "",
           "data": "25/05/2026",
@@ -11919,6 +12069,61 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "159004678",
+          "numnota": "",
+          "data": "25/05/2026",
+          "cliente": "HOPGARDEN PUB LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 315.5,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 2,
+              "val": 55.8
+            },
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 4,
+              "val": 54.0
+            },
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 1,
+              "val": 65.9
+            },
+            {
+              "desc": "WHISKY JAMESON 750ML",
+              "qt": 2,
+              "val": 139.8
+            }
+          ]
+        },
+        {
+          "numped": "159004679",
+          "numnota": "",
+          "data": "25/05/2026",
+          "cliente": "HOPGARDEN PUB LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 65.9,
+          "itens": [
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 1,
+              "val": 65.9
+            }
+          ]
+        },
+        {
           "numped": "159004674",
           "numnota": "",
           "data": "25/05/2026",
@@ -11975,26 +12180,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO BURDIZZO PRIMITIVO  375ML",
               "qt": 2,
               "val": 55.58
-            }
-          ]
-        },
-        {
-          "numped": "159004677",
-          "numnota": "",
-          "data": "25/05/2026",
-          "cliente": "ANDRADE MARTINS RESTAURANTE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 838.8,
-          "itens": [
-            {
-              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-              "qt": 12,
-              "val": 838.8
             }
           ]
         }
@@ -23228,31 +23413,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "156003431",
-          "numnota": "",
-          "data": "25/05/2026",
-          "cliente": "INOVA CONVENIENCIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 410.4,
-          "itens": [
-            {
-              "desc": "WHISKY J WALKER RED LABEL 1L",
-              "qt": 3,
-              "val": 230.7
-            },
-            {
-              "desc": "WHISKY WHITE HORSE - 1L",
-              "qt": 3,
-              "val": 179.7
-            }
-          ]
-        },
-        {
           "numped": "156003432",
           "numnota": "",
           "data": "25/05/2026",
@@ -23274,6 +23434,31 @@ const ENTREGAS_DATA = {
               "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
               "qt": 5,
               "val": 124.95
+            }
+          ]
+        },
+        {
+          "numped": "156003431",
+          "numnota": "",
+          "data": "25/05/2026",
+          "cliente": "INOVA CONVENIENCIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 410.4,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 3,
+              "val": 230.7
+            },
+            {
+              "desc": "WHISKY WHITE HORSE - 1L",
+              "qt": 3,
+              "val": 179.7
             }
           ]
         },
@@ -29636,6 +29821,41 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "439000163",
+          "numnota": "",
+          "data": "25/05/2026",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 28/05/26",
+          "total": 1109.76,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 3,
+              "val": 195.84
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 6,
+              "val": 391.68
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 6,
+              "val": 391.68
+            }
+          ]
+        },
+        {
           "numped": "439000162",
           "numnota": "",
           "data": "25/05/2026",
@@ -29737,41 +29957,6 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 3,
               "val": 195.84
-            }
-          ]
-        },
-        {
-          "numped": "439000163",
-          "numnota": "",
-          "data": "25/05/2026",
-          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Data entrega: 28/05/26",
-          "total": 1109.76,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-              "qt": 2,
-              "val": 130.56
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 3,
-              "val": 195.84
-            },
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 6,
-              "val": 391.68
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 6,
-              "val": 391.68
             }
           ]
         },
@@ -31997,6 +32182,31 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "155003534",
+          "numnota": "",
+          "data": "25/05/2026",
+          "cliente": "G. M. TAMBURRINO BAR E RESTAURANTE",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 479.1,
+          "itens": [
+            {
+              "desc": "HUMB. CANALE DENARIO MALBEC 750ML",
+              "qt": 3,
+              "val": 209.7
+            },
+            {
+              "desc": "VINHO FOODKILLER CAB. SAUV. 750ML",
+              "qt": 6,
+              "val": 269.4
+            }
+          ]
+        },
+        {
           "numped": "155003530",
           "numnota": "",
           "data": "25/05/2026",
@@ -32010,16 +32220,6 @@ const ENTREGAS_DATA = {
           "total": 1653.6,
           "itens": [
             {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 2,
-              "val": 393.12
-            },
-            {
-              "desc": "RED BULL ZERO  24X250ML",
-              "qt": 2,
-              "val": 393.12
-            },
-            {
               "desc": "RED BULL 24X250ML",
               "qt": 1,
               "val": 196.56
@@ -32028,6 +32228,16 @@ const ENTREGAS_DATA = {
               "desc": "GIN GORDONS 750 ML",
               "qt": 12,
               "val": 670.8
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 393.12
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 2,
+              "val": 393.12
             }
           ]
         },
@@ -32083,6 +32293,26 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY JACK DANIELS APPLE 1L",
               "qt": 2,
               "val": 259.8
+            }
+          ]
+        },
+        {
+          "numped": "155003533",
+          "numnota": "",
+          "data": "25/05/2026",
+          "cliente": "SANSE CAFE BISTRO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 282.0,
+          "itens": [
+            {
+              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "qt": 1,
+              "val": 282.0
             }
           ]
         }
