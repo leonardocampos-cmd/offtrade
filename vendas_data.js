@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "25/05/2026 10:00",
+  "atualizado_em": "25/05/2026 11:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -126818,24 +126818,6 @@ const VENDAS_DATA = {
           "valor": 60.0
         },
         {
-          "data": "16/05/2026",
-          "codcli": "70944",
-          "cliente": "ITANIA COSTA ANTONIO VIANA 16136309726",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 1198.8
-        },
-        {
-          "data": "16/05/2026",
-          "codcli": "70944",
-          "cliente": "ITANIA COSTA ANTONIO VIANA 16136309726",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 274.8
-        },
-        {
           "data": "18/05/2026",
           "codcli": "82050",
           "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
@@ -156386,78 +156368,6 @@ const VENDAS_DATA = {
           "fantasia": "YVY",
           "qt": 60,
           "valor": 2940.0
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 37,
-          "valor": 7095.12
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 37,
-          "valor": 7095.12
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 32,
-          "valor": 4907.52
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 32,
-          "valor": 4907.52
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 32,
-          "valor": 6673.92
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 37,
-          "valor": 7716.72
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 54,
-          "valor": 13473.0
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 51,
-          "valor": 12724.5
         },
         {
           "data": "02/03/2026",
