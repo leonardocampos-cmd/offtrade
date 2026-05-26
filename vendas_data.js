@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/05/2026 09:00",
+  "atualizado_em": "26/05/2026 10:53",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -40659,6 +40659,24 @@ const VENDAS_DATA = {
           "valor": 298.5
         },
         {
+          "data": "25/05/2026",
+          "codcli": "3551",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 3,
+          "valor": 77.7
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "3551",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 185.8
+        },
+        {
           "data": "21/05/2026",
           "codcli": "3110",
           "cliente": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
@@ -56759,6 +56777,87 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 71.76
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 203.4
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "fantasia": "51",
+          "qt": 12,
+          "valor": 166.8
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 910.8
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 617.4
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 30,
+          "valor": 417.0
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 575.76
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 1,
+          "valor": 25.62
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "APERITIVO CAMPARI 998ML",
+          "fantasia": "CAMPARI",
+          "qt": 6,
+          "valor": 311.4
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "92144",
+          "cliente": "DISTRIBUIDORA BARAO ABAIXO DE ZERO LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 1043.4
         },
         {
           "data": "15/05/2026",
