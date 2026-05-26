@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "26/05/2026 17:01",
+  "atualizado_em": "26/05/2026 18:01",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -35357,6 +35357,24 @@ const VENDAS_SP_DATA = {
           "valor": 2373.6
         },
         {
+          "data": "26/05/2026",
+          "codcli": "45830",
+          "cliente": "RED UP REPRESENTACAO E DISTRIBUICAO LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1006.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "45830",
+          "cliente": "RED UP REPRESENTACAO E DISTRIBUICAO LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 158,
+          "valor": 3144.2
+        },
+        {
           "data": "02/05/2026",
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
@@ -58099,6 +58117,28 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 24,
           "valor": 688.08
+        }
+      ]
+    },
+    "LUCIANO TOSCHI -": {
+      "Mai/26": [
+        {
+          "data": "26/05/2026",
+          "codcli": "49922",
+          "cliente": "GIULIANO APARECIDO VITORINO TEIXEIRA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 191.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "49922",
+          "cliente": "GIULIANO APARECIDO VITORINO TEIXEIRA",
+          "produto": "GIN TANQUERAY BOSSA NOVA  700 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 659.4
         }
       ]
     },
