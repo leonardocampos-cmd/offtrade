@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/05/2026 17:01",
+  "atualizado_em": "26/05/2026 18:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -132287,6 +132287,24 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 3,
           "valor": 180.0
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "82050",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 259.8
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "82050",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 430.8
         },
         {
           "data": "06/05/2026",
