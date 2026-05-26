@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "26/05/2026 13:01",
+  "atualizado_em": "26/05/2026 16:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -39393,22 +39393,22 @@ const VENDAS_SP_DATA = {
           "valor": 13488.11
         },
         {
-          "data": "13/05/2026",
+          "data": "26/05/2026",
           "codcli": "21908",
           "cliente": "MINI MERCADO HORTISABOR LTDA",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
           "fantasia": "",
           "qt": 10,
-          "valor": 5460.0
+          "valor": 4620.0
         },
         {
-          "data": "13/05/2026",
+          "data": "26/05/2026",
           "codcli": "21908",
           "cliente": "MINI MERCADO HORTISABOR LTDA",
           "produto": "AZEITE OLIV EV ZE TONA FINALIZAR12X500ML",
           "fantasia": "",
           "qt": 10,
-          "valor": 4620.0
+          "valor": 5460.0
         },
         {
           "data": "05/05/2026",
@@ -47099,7 +47099,25 @@ const VENDAS_SP_DATA = {
           "valor": 3865.92
         },
         {
+          "data": "26/05/2026",
+          "codcli": "36186",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1509.6
+        },
+        {
           "data": "20/05/2026",
+          "codcli": "36187",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1509.6
+        },
+        {
+          "data": "26/05/2026",
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
@@ -47126,6 +47144,15 @@ const VENDAS_SP_DATA = {
           "valor": 1029.6
         },
         {
+          "data": "26/05/2026",
+          "codcli": "36188",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1509.6
+        },
+        {
           "data": "21/05/2026",
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
@@ -47133,6 +47160,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1287.0
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "36189",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1509.6
         },
         {
           "data": "04/05/2026",
@@ -47153,6 +47189,15 @@ const VENDAS_SP_DATA = {
           "valor": 257.4
         },
         {
+          "data": "26/05/2026",
+          "codcli": "36190",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1509.6
+        },
+        {
           "data": "21/05/2026",
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
@@ -47160,6 +47205,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1029.6
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "36191",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1509.6
         },
         {
           "data": "04/05/2026",
@@ -47187,6 +47241,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 30,
           "valor": 1287.0
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "36170",
+          "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1509.6
         },
         {
           "data": "20/05/2026",
@@ -48658,15 +48721,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 480,
           "valor": 10032.0
-        },
-        {
-          "data": "20/03/2026",
-          "codcli": "36190",
-          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 36,
-          "valor": 2948.4
         },
         {
           "data": "25/03/2026",
@@ -56206,6 +56260,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 718.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "50668",
+          "cliente": "ALEX SANDRO COTRIM FROES",
+          "produto": "RUM BACARDI BIG APPLE 700ML",
+          "fantasia": "",
+          "qt": 11,
+          "valor": 330.57
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "50668",
+          "cliente": "ALEX SANDRO COTRIM FROES",
+          "produto": "CACHACA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1254.0
         }
       ]
     },
