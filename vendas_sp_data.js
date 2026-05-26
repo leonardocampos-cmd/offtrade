@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "26/05/2026 16:00",
+  "atualizado_em": "26/05/2026 17:01",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -41803,6 +41803,28 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
+    "ANDRE PINHEIRO -": {
+      "Mai/26": [
+        {
+          "data": "26/05/2026",
+          "codcli": "23144",
+          "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 197.7
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "23791",
+          "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 197.7
+        }
+      ]
+    },
     "MANUELA ZAPPACOSTA -": {
       "Abr/26": [
         {
@@ -42959,6 +42981,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 359.94
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "23070",
+          "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 197.7
         },
         {
           "data": "21/05/2026",
@@ -45516,6 +45547,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 646.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "49832",
+          "cliente": "EMPORIO DO BEM LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "",
+          "qt": 300,
+          "valor": 19770.0
         }
       ]
     },
