@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "27/05/2026 09:48",
+  "atualizado_em": "27/05/2026 09:59",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -36552,15 +36552,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 96,
           "valor": 9974.4
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "50553",
-          "cliente": "LEONARDO H. VIEIRA",
-          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 2805.6
         },
         {
           "data": "22/05/2026",
