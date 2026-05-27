@@ -68672,3 +68672,3518 @@ Nenhum pedido novo abaixo da tabela. Nada enviado.
 [14/05/2026  8:02:48,61] OK 
 ---------------------------------------- 
 [14/05/2026 10:57:27,70] Iniciando... 
+[14/05/2026 15:30:53,79] Iniciando... 
+[master b0701aa] Atualiza metas_data.js + vendas_data.js - 14/05/2026
+ 2 files changed, 6329 insertions(+), 5967 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   287162d..b0701aa  master -> master
+[master 84a2589] Atualiza entregas_data.js - 14/05/2026
+ 1 file changed, 1041 insertions(+), 658 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   b0701aa..84a2589  master -> master
+
+==================================================
+  OFFTRADE - 14/05/2026 15:30
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 4044
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: 14-05 | 385 linhas
+OK - 20 vendedores, rota do dia 14.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master d69aa48] Atualiza vendas_sp_data.js - 14/05/2026
+ 1 file changed, 19 insertions(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 33 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 7 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2304 chave(s) no total).
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 73s
+==================================================
+
+[14/05/2026 15:33:25,18] OK 
+---------------------------------------- 
+[14/05/2026 15:57:27,59] Iniciando... 
+[master 3707dca] Atualiza metas_data.js + vendas_data.js - 14/05/2026
+ 2 files changed, 6082 insertions(+), 6091 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   d69aa48..3707dca  master -> master
+[master 7ddcd7a] Atualiza entregas_data.js - 14/05/2026
+ 1 file changed, 121 insertions(+), 11 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   3707dca..7ddcd7a  master -> master
+
+==================================================
+  OFFTRADE - 14/05/2026 15:57
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 4044
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: 14-05 | 385 linhas
+OK - 20 vendedores, rota do dia 14.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 33062e4] Atualiza vendas_sp_data.js - 14/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 33 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 53s
+==================================================
+
+[14/05/2026 15:58:21,10] OK 
+---------------------------------------- 
+[14/05/2026 16:00:00,61] Iniciando... 
+[master 9fcc812] Atualiza metas_data.js + vendas_data.js - 14/05/2026
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   33062e4..9fcc812  master -> master
+[master ef9435b] Atualiza entregas_data.js - 14/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   9fcc812..ef9435b  master -> master
+
+==================================================
+  OFFTRADE - 14/05/2026 16:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 4044
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 2/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: 14-05 | 385 linhas
+OK - 20 vendedores, rota do dia 14.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 8f8883a] Atualiza vendas_sp_data.js - 14/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 33 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 114s
+==================================================
+
+[14/05/2026 16:03:12,38] OK 
+---------------------------------------- 
+[14/05/2026 16:57:27,57] Iniciando... 
+[master dab4b39] Atualiza metas_data.js + vendas_data.js - 14/05/2026
+ 2 files changed, 6855 insertions(+), 6466 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   8f8883a..dab4b39  master -> master
+[master a90456b] Atualiza entregas_data.js - 14/05/2026
+ 1 file changed, 1165 insertions(+), 648 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   dab4b39..a90456b  master -> master
+
+==================================================
+  OFFTRADE - 14/05/2026 16:57
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 4045
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: 14-05 | 385 linhas
+OK - 20 vendedores, rota do dia 14.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master b393616] Atualiza vendas_sp_data.js - 14/05/2026
+ 1 file changed, 199 insertions(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 33 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 95s
+==================================================
+
+[14/05/2026 17:00:21,08] OK 
+---------------------------------------- 
+[15/05/2026 11:02:10,01] Iniciando... 
+[master 2f9ba61] Atualiza metas_data.js + vendas_data.js - 15/05/2026
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   cc725c7..2f9ba61  master -> master
+[master 3cb288f] Atualiza entregas_data.js - 15/05/2026
+ 1 file changed, 1010 insertions(+), 883 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   2f9ba61..3cb288f  master -> master
+
+==================================================
+  OFFTRADE - 15/05/2026 11:02
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 4050
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 2/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 3/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: 15-05 | 366 linhas
+OK - 20 vendedores, rota do dia 15.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 3603e5f] Atualiza vendas_sp_data.js - 15/05/2026
+ 1 file changed, 5 insertions(+), 14 deletions(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 33 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 171s
+==================================================
+
+[15/05/2026 11:06:21,23] OK 
+---------------------------------------- 
+[15/05/2026 11:07:55,28] Iniciando... 
+[master 4f47a58] Atualiza metas_data.js + vendas_data.js - 15/05/2026
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   3603e5f..4f47a58  master -> master
+[master 9d03f56] Atualiza entregas_data.js - 15/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   4f47a58..9d03f56  master -> master
+
+==================================================
+  OFFTRADE - 15/05/2026 11:07
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 4050
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: 15-05 | 366 linhas
+OK - 20 vendedores, rota do dia 15.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 97abb97] Atualiza vendas_sp_data.js - 15/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 33 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 71s
+==================================================
+
+[15/05/2026 11:09:07,23] OK 
+---------------------------------------- 
+[15/05/2026 12:00:00,68] Iniciando... 
+[master 09ab60d] Atualiza metas_data.js + vendas_data.js - 15/05/2026
+ 2 files changed, 6223 insertions(+), 6223 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   97abb97..09ab60d  master -> master
+[master d861493] Atualiza entregas_data.js - 15/05/2026
+ 1 file changed, 986 insertions(+), 761 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   09ab60d..d861493  master -> master
+
+==================================================
+  OFFTRADE - 15/05/2026 12:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 4049
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 2/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 3/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: 15-05 | 366 linhas
+OK - 20 vendedores, rota do dia 15.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 9c048c4] Atualiza vendas_sp_data.js - 15/05/2026
+ 1 file changed, 19 insertions(+), 19 deletions(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 33 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 145s
+==================================================
+
+[15/05/2026 12:03:44,78] OK 
+---------------------------------------- 
+[15/05/2026 13:00:00,71] Iniciando... 
+[master e40b159] Atualiza metas_data.js + vendas_data.js - 15/05/2026
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   b90e750..e40b159  master -> master
+[master ce47f74] Atualiza entregas_data.js - 15/05/2026
+ 1 file changed, 26 insertions(+), 1 deletion(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e40b159..ce47f74  master -> master
+^C[15/05/2026 15:00:00,77] Iniciando... 
+[18/05/2026  9:00:13,83] Iniciando... 
+[master 4db5ff2] Atualiza metas_data.js + vendas_data.js - 18/05/2026
+ 2 files changed, 11687 insertions(+), 18041 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   7852e11..4db5ff2  master -> master
+[master 9708a98] Atualiza entregas_data.js - 18/05/2026
+ 1 file changed, 2519 insertions(+), 1499 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   4db5ff2..9708a98  master -> master
+
+==================================================
+  OFFTRADE - 18/05/2026 09:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+Erro na nao_pos_CRC: (oracledb.exceptions.DatabaseError) DPY-4011: the database or network closed the connection
+DPI-1080
+-> Lendo nao_pos_CRC (Tentativa 2/5)...
+Erro na nao_pos_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo nao_pos_CRC (Tentativa 3/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2342
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 2/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: DATA | 1 linhas
+OK - 20 vendedores, rota do dia 18.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 83ee630] Atualiza vendas_sp_data.js - 18/05/2026
+ 1 file changed, 721 insertions(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 33 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 903s
+==================================================
+
+[18/05/2026 10:28:19,83] OK 
+---------------------------------------- 
+[18/05/2026 11:05:27,86] Iniciando... 
+[master 238e230] Atualiza metas_data.js + vendas_data.js - 18/05/2026
+ 2 files changed, 2749 insertions(+), 2775 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   83ee630..238e230  master -> master
+[master 9398436] Atualiza entregas_data.js - 18/05/2026
+ 1 file changed, 1246 insertions(+), 790 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   238e230..9398436  master -> master
+
+==================================================
+  OFFTRADE - 18/05/2026 11:05
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2343
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 2/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: DATA | 1 linhas
+OK - 20 vendedores, rota do dia 18.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master cead9c6] Atualiza vendas_sp_data.js - 18/05/2026
+ 1 file changed, 1 insertion(+), 19 deletions(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 33 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 4 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2312 chave(s) no total).
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 156s
+==================================================
+
+[18/05/2026 11:09:24,54] OK 
+---------------------------------------- 
+[18/05/2026 14:18:46,54] Iniciando... 
+[master 55b4aa8] Atualiza metas_data.js + vendas_data.js - 18/05/2026
+ 2 files changed, 2761 insertions(+), 2712 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   cead9c6..55b4aa8  master -> master
+[19/05/2026  8:00:01,99] Iniciando... 
+[master e344fcd] Atualiza metas_data.js + vendas_data.js - 19/05/2026
+ 2 files changed, 5208 insertions(+), 4379 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   c7fb0f7..e344fcd  master -> master
+[master 5b9afd8] Atualiza entregas_data.js - 19/05/2026
+ 1 file changed, 4808 insertions(+), 3757 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e344fcd..5b9afd8  master -> master
+
+==================================================
+  OFFTRADE - 19/05/2026 08:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+Erro na vendas_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_CRC (Tentativa 2/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2349
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: DATA | 0 linhas
+OK - 20 vendedores, rota do dia 19.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 92485eb] Atualiza vendas_sp_data.js - 19/05/2026
+ 1 file changed, 325 insertions(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+Erro na vendas_SP: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.214.181 port 1
+-> Lendo vendas_SP (Tentativa 2/5)...
+Erro na vendas_SP: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.214.181 port 1
+-> Lendo vendas_SP (Tentativa 3/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 33 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 443s
+==================================================
+
+[19/05/2026  8:08:46,28] OK 
+---------------------------------------- 
+[19/05/2026  9:37:49,86] Iniciando... 
+[master 59e5841] Atualiza metas_data.js + vendas_data.js - 19/05/2026
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   92485eb..59e5841  master -> master
+[master 4ffca93] Atualiza entregas_data.js - 19/05/2026
+ 1 file changed, 632 insertions(+), 617 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   59e5841..4ffca93  master -> master
+
+==================================================
+  OFFTRADE - 19/05/2026 09:37
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2349
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 2/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 3/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: 19-05 | 414 linhas
+OK - 20 vendedores, rota do dia 19.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master a2a1d50] Atualiza vendas_sp_data.js - 19/05/2026
+ 1 file changed, 1 insertion(+), 37 deletions(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 33 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 138s
+==================================================
+
+[19/05/2026  9:41:28,02] OK 
+---------------------------------------- 
+[19/05/2026 10:00:00,66] Iniciando... 
+[master 12ede92] Atualiza metas_data.js + vendas_data.js - 19/05/2026
+ 2 files changed, 1262 insertions(+), 1216 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   a2a1d50..12ede92  master -> master
+[master ae72098] Atualiza entregas_data.js - 19/05/2026
+ 1 file changed, 35 insertions(+), 35 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   12ede92..ae72098  master -> master
+
+==================================================
+  OFFTRADE - 19/05/2026 10:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+Erro na vendas_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_CRC (Tentativa 2/5)...
+Erro na vendas_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_CRC (Tentativa 3/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2349
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: 19-05 | 414 linhas
+OK - 20 vendedores, rota do dia 19.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master e79cbf1] Atualiza vendas_sp_data.js - 19/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+Erro na vendas_SP: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.214.181 port 1
+-> Lendo vendas_SP (Tentativa 2/5)...
+Erro na vendas_SP: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.214.181 port 1
+-> Lendo vendas_SP (Tentativa 3/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 33 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 187s
+==================================================
+
+[19/05/2026 10:04:26,79] OK 
+---------------------------------------- 
+[19/05/2026 10:48:06,63] Iniciando... 
+[master 11df246] Atualiza metas_data.js + vendas_data.js - 19/05/2026
+ 2 files changed, 1113 insertions(+), 1113 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e79cbf1..11df246  master -> master
+[master 17b5d4d] Atualiza entregas_data.js - 19/05/2026
+ 1 file changed, 113 insertions(+), 2 deletions(-)
+[19/05/2026 11:57:27,93] Iniciando... 
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\numpy\_core\__init__.py", line 24, in <module>
+    from . import multiarray
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\numpy\_core\multiarray.py", line 11, in <module>
+    from . import _multiarray_umath, overrides
+ImportError: DLL load failed while importing _multiarray_umath: Erro na operação de paginação.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\__init__.py", line 23, in <module>
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\numpy\__init__.py", line 125, in <module>
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\numpy\__config__.py", line 4, in <module>
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\numpy\_core\__init__.py", line 85, in <module>
+    raise ImportError(msg) from exc
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python 3.11 from "g:\Meu Drive\offtrade\.venv\Scripts\python.exe"
+  * The NumPy version is: "2.4.3"
+
+and make sure that they are the versions you expect.
+
+Please carefully study the information and documentation linked above.
+This is unlikely to be a NumPy issue but will be caused by a bad install
+or environment on your machine.
+
+Original error was: DLL load failed while importing _multiarray_umath: Erro na operação de paginação.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 18, in main
+    import meta
+  File "g:\Meu Drive\offtrade\meta.py", line 2, in <module>
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\__init__.py", line 25, in <module>
+ImportError: Unable to import required dependency numpy. Please see the traceback for details.
+
+==================================================
+  OFFTRADE - 19/05/2026 12:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+[ERRO] Falha na execução:
+[19/05/2026 12:00:39,08] ERRO (codigo 1
+---------------------------------------- 
+[19/05/2026 12:47:46,15] Iniciando... 
+[19/05/2026 14:03:55,24] Iniciando... 
+[20/05/2026  9:53:50,15] Iniciando... 
+[master c4458fe] Atualiza metas_data.js + vendas_data.js - 20/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e16b93a..c4458fe  master -> master
+[master 0714a27] Atualiza entregas_data.js - 20/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   9e98bad..0714a27  master -> master
+
+==================================================
+  OFFTRADE - 20/05/2026 09:53
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+Erro na vendas_anterior_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_anterior_CRC (Tentativa 2/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+Erro na vendas_anterior_thekings: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_anterior_thekings (Tentativa 2/5)...
+Erro na vendas_anterior_thekings: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_anterior_thekings (Tentativa 3/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2352
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 2/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx | aba: DATA | 0 linhas
+OK - 20 vendedores, rota do dia 20.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 66017f8] Atualiza vendas_sp_data.js - 20/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 34 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 4104s
+==================================================
+
+[20/05/2026 11:03:35,40] OK 
+---------------------------------------- 
+[20/05/2026 12:01:38,85] Iniciando... 
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 18, in main
+    import meta
+  File "g:\Meu Drive\offtrade\meta.py", line 2, in <module>
+    import pandas as pd
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\__init__.py", line 56, in <module>
+    import pandas.core.config_init  # pyright: ignore[reportUnusedImport] # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\core\config_init.py", line 31, in <module>
+    from pandas.errors import Pandas4Warning
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\errors\__init__.py", line 12, in <module>
+    from pandas._libs.tslibs import (
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\_libs\__init__.py", line 18, in <module>
+    from pandas._libs.interval import Interval
+ImportError: DLL load failed while importing interval: Uma rotina de inicialização da biblioteca de vínculo dinâmico (DLL) falhou.
+
+==================================================
+  OFFTRADE - 20/05/2026 12:01
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+[ERRO] Falha na execução:
+[20/05/2026 12:01:54,87] ERRO (codigo 1
+---------------------------------------- 
+[21/05/2026 10:15:41,93] Iniciando... 
+[master 6260e55] Atualiza metas_data.js + vendas_data.js - 21/05/2026
+ 2 files changed, 2498 insertions(+), 2466 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   3602d1e..6260e55  master -> master
+[master e5166a6] Atualiza entregas_data.js - 21/05/2026
+ 1 file changed, 166 insertions(+), 35 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   6260e55..e5166a6  master -> master
+
+==================================================
+  OFFTRADE - 21/05/2026 10:15
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2362
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+Erro na conferencia_preco: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo conferencia_preco (Tentativa 2/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 20 vendedores, rota do dia 21.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 34 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+
+[AVISO] exportacao_sp falhou — SP ignorado, pipeline continua.
+fatal: Unable to create 'G:/Meu Drive/offtrade/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\exportacao_sp.py", line 154, in <module>
+    subprocess.run(["git", "-C", repo_dir, "add", "vendas_sp_data.js", "sp.html"], check=True)
+  File "C:\Users\LeonardoCampos\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', '-C', 'G:\\Meu Drive\\offtrade', 'add', 'vendas_sp_data.js', 'sp.html']' returned non-zero exit status 128.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 1 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2330 chave(s) no total).
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 144s
+==================================================
+
+[21/05/2026 10:19:25,44] OK 
+---------------------------------------- 
+[21/05/2026 11:00:17,68] Iniciando... 
+[master e6f3d46] Atualiza metas_data.js + vendas_data.js - 21/05/2026
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e417209..e6f3d46  master -> master
+[master 5ba48fe] Atualiza entregas_data.js - 21/05/2026
+ 1 file changed, 149 insertions(+), 84 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e6f3d46..5ba48fe  master -> master
+^C[22/05/2026 10:09:44,78] Iniciando... 
+[master aeda51f] Atualiza metas_data.js + vendas_data.js - 22/05/2026
+ 2 files changed, 1676 insertions(+), 1644 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   4682ef0..aeda51f  master -> master
+[master f176d69] Atualiza entregas_data.js - 22/05/2026
+ 1 file changed, 176 insertions(+), 6 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   aeda51f..f176d69  master -> master
+
+==================================================
+  OFFTRADE - 22/05/2026 10:10
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2364
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 22.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master ca6e42b] Atualiza vendas_sp_data.js - 22/05/2026
+ 1 file changed, 1 insertion(+), 109 deletions(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+Erro na vendas_SP: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.214.181 port 1
+-> Lendo vendas_SP (Tentativa 2/5)...
+Erro na vendas_SP: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.214.181 port 1
+-> Lendo vendas_SP (Tentativa 3/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 171s
+==================================================
+
+[25/05/2026  9:00:00,58] Iniciando... 
+[master dd88959] Atualiza metas_data.js + vendas_data.js - 25/05/2026
+ 2 files changed, 10714 insertions(+), 10075 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   d1928a6..dd88959  master -> master
+[master 4d6f6a4] Atualiza entregas_data.js - 25/05/2026
+ 1 file changed, 1792 insertions(+), 1294 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   dd88959..4d6f6a4  master -> master
+
+==================================================
+  OFFTRADE - 25/05/2026 09:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2336
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 25.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master f6ff34d] Atualiza vendas_sp_data.js - 25/05/2026
+ 1 file changed, 1329 insertions(+), 222 deletions(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 183s
+==================================================
+
+[25/05/2026  9:03:05,20] OK 
+---------------------------------------- 
+[25/05/2026 10:00:00,68] Iniciando... 
+[master 7823b6f] Atualiza metas_data.js + vendas_data.js - 25/05/2026
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   f6ff34d..7823b6f  master -> master
+[master fd6e4a8] Atualiza entregas_data.js - 25/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   7823b6f..fd6e4a8  master -> master
+
+==================================================
+  OFFTRADE - 25/05/2026 10:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2336
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 25.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master e8a7ee5] Atualiza vendas_sp_data.js - 25/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 84s
+==================================================
+
+[25/05/2026 10:01:26,18] OK 
+---------------------------------------- 
+[25/05/2026 11:00:00,78] Iniciando... 
+[master e01d9a2] Atualiza metas_data.js + vendas_data.js - 25/05/2026
+ 2 files changed, 2562 insertions(+), 2584 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e8a7ee5..e01d9a2  master -> master
+[master c58b014] Atualiza entregas_data.js - 25/05/2026
+ 1 file changed, 208 insertions(+), 10 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e01d9a2..c58b014  master -> master
+
+==================================================
+  OFFTRADE - 25/05/2026 11:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2337
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 25.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master c2e2c63] Atualiza vendas_sp_data.js - 25/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 69s
+==================================================
+
+[25/05/2026 11:01:11,40] OK 
+---------------------------------------- 
+[25/05/2026 12:00:00,75] Iniciando... 
+[master 3dc8f45] Atualiza metas_data.js + vendas_data.js - 25/05/2026
+ 2 files changed, 1839 insertions(+), 1866 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   c2e2c63..3dc8f45  master -> master
+[master 1b507cb] Atualiza entregas_data.js - 25/05/2026
+ 1 file changed, 140 insertions(+), 8 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   3dc8f45..1b507cb  master -> master
+
+==================================================
+  OFFTRADE - 25/05/2026 12:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2338
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 25.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 3f03287] Atualiza vendas_sp_data.js - 25/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 75s
+==================================================
+
+[25/05/2026 12:01:17,41] OK 
+---------------------------------------- 
+[25/05/2026 13:19:10,48] Iniciando... 
+[master 172f62c] Atualiza metas_data.js + vendas_data.js - 25/05/2026
+ 2 files changed, 2834 insertions(+), 2834 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   3f03287..172f62c  master -> master
+[master f70a294] Atualiza entregas_data.js - 25/05/2026
+ 1 file changed, 269 insertions(+), 37 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   172f62c..f70a294  master -> master
+
+==================================================
+  OFFTRADE - 25/05/2026 13:19
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2339
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 25.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 0f72b16] Atualiza vendas_sp_data.js - 25/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 2 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2335 chave(s) no total).
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 1803s
+==================================================
+
+[25/05/2026 13:50:37,38] OK 
+---------------------------------------- 
+[25/05/2026 14:00:00,61] Iniciando... 
+[master e34cc93] Atualiza metas_data.js + vendas_data.js - 25/05/2026
+ 2 files changed, 2042 insertions(+), 2089 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   0f72b16..e34cc93  master -> master
+[master c5a0a06] Atualiza entregas_data.js - 25/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e34cc93..c5a0a06  master -> master
+
+==================================================
+  OFFTRADE - 25/05/2026 14:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2339
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 25.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 1627bd6] Atualiza vendas_sp_data.js - 25/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 96s
+==================================================
+
+[25/05/2026 14:01:38,37] OK 
+---------------------------------------- 
+[25/05/2026 15:00:00,77] Iniciando... 
+[master 1bdde34] Atualiza metas_data.js + vendas_data.js - 25/05/2026
+ 2 files changed, 4152 insertions(+), 3439 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   1627bd6..1bdde34  master -> master
+[master 71b78e6] Atualiza entregas_data.js - 25/05/2026
+ 1 file changed, 1400 insertions(+), 871 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   1bdde34..71b78e6  master -> master
+
+==================================================
+  OFFTRADE - 25/05/2026 15:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2344
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 25.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master abf23ff] Atualiza vendas_sp_data.js - 25/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 2 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2337 chave(s) no total).
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 92s
+==================================================
+
+[25/05/2026 15:01:34,57] OK 
+---------------------------------------- 
+[25/05/2026 16:00:00,64] Iniciando... 
+[master 9df2e35] Atualiza metas_data.js + vendas_data.js - 25/05/2026
+ 2 files changed, 2609 insertions(+), 2577 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   abf23ff..9df2e35  master -> master
+[master 941bb8b] Atualiza entregas_data.js - 25/05/2026
+ 1 file changed, 309 insertions(+), 79 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   9df2e35..941bb8b  master -> master
+
+==================================================
+  OFFTRADE - 25/05/2026 16:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2347
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 25.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master d966be0] Atualiza vendas_sp_data.js - 25/05/2026
+ 1 file changed, 46 insertions(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 3 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2340 chave(s) no total).
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 81s
+==================================================
+
+[25/05/2026 16:01:22,99] OK 
+---------------------------------------- 
+[25/05/2026 17:00:00,64] Iniciando... 
+[master f3c6dcd] Atualiza metas_data.js + vendas_data.js - 25/05/2026
+ 2 files changed, 2685 insertions(+), 2574 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   d966be0..f3c6dcd  master -> master
+[master 8e0e507] Atualiza entregas_data.js - 25/05/2026
+ 1 file changed, 1147 insertions(+), 801 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   f3c6dcd..8e0e507  master -> master
+
+==================================================
+  OFFTRADE - 25/05/2026 17:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2347
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 25.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 1edaf6f] Atualiza vendas_sp_data.js - 25/05/2026
+ 1 file changed, 31 insertions(+), 40 deletions(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 69s
+==================================================
+
+[25/05/2026 17:01:10,97] OK 
+---------------------------------------- 
+[26/05/2026  9:00:00,63] Iniciando... 
+[master 28028fa] Atualiza metas_data.js + vendas_data.js - 26/05/2026
+ 2 files changed, 7895 insertions(+), 7094 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   1edaf6f..28028fa  master -> master
+[master b3a250f] Atualiza entregas_data.js - 26/05/2026
+ 1 file changed, 2287 insertions(+), 1450 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   28028fa..b3a250f  master -> master
+
+==================================================
+  OFFTRADE - 26/05/2026 09:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2351
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 26.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master ef0578e] Atualiza vendas_sp_data.js - 26/05/2026
+ 1 file changed, 595 insertions(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 1 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2341 chave(s) no total).
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 82s
+==================================================
+
+[26/05/2026  9:01:24,26] OK 
+---------------------------------------- 
+[26/05/2026 10:52:21,00] Iniciando... 
+[master 15163a7] Atualiza metas_data.js + vendas_data.js - 26/05/2026
+ 2 files changed, 2141 insertions(+), 2050 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   ef0578e..15163a7  master -> master
+[master f11cf67] Atualiza entregas_data.js - 26/05/2026
+ 1 file changed, 734 insertions(+), 431 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   15163a7..f11cf67  master -> master
+
+==================================================
+  OFFTRADE - 26/05/2026 10:52
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2350
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 26.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master f94e58c] Atualiza vendas_sp_data.js - 26/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 7 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2348 chave(s) no total).
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 111s
+==================================================
+
+[26/05/2026 10:54:14,46] OK 
+---------------------------------------- 
+[26/05/2026 11:00:00,64] Iniciando... 
+[master fe20f03] Atualiza metas_data.js + vendas_data.js - 26/05/2026
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   f94e58c..fe20f03  master -> master
+[master a9759fa] Atualiza entregas_data.js - 26/05/2026
+ 1 file changed, 41 insertions(+), 1 deletion(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   fe20f03..a9759fa  master -> master
+
+==================================================
+  OFFTRADE - 26/05/2026 11:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2350
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 26.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 2dc06cf] Atualiza vendas_sp_data.js - 26/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 46s
+==================================================
+
+[26/05/2026 11:00:47,89] OK 
+---------------------------------------- 
+[26/05/2026 12:00:00,70] Iniciando... 
+[master 7b2b118] Atualiza metas_data.js + vendas_data.js - 26/05/2026
+ 2 files changed, 1633 insertions(+), 1621 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   2dc06cf..7b2b118  master -> master
+[master 185c3ce] Atualiza entregas_data.js - 26/05/2026
+ 1 file changed, 460 insertions(+), 68 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   7b2b118..185c3ce  master -> master
+
+==================================================
+  OFFTRADE - 26/05/2026 12:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2351
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 26.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 19a2e55] Atualiza vendas_sp_data.js - 26/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 1 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2349 chave(s) no total).
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 76s
+==================================================
+
+[26/05/2026 12:01:18,86] OK 
+---------------------------------------- 
+[26/05/2026 13:00:00,66] Iniciando... 
+[master d0a4025] Atualiza metas_data.js + vendas_data.js - 26/05/2026
+ 2 files changed, 1988 insertions(+), 1988 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   19a2e55..d0a4025  master -> master
+[master 4ec4468] Atualiza entregas_data.js - 26/05/2026
+ 1 file changed, 102 insertions(+), 42 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   d0a4025..4ec4468  master -> master
+
+==================================================
+  OFFTRADE - 26/05/2026 13:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2351
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 26.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 49fc6aa] Atualiza vendas_sp_data.js - 26/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 65s
+==================================================
+
+[26/05/2026 13:01:06,46] OK 
+---------------------------------------- 
+[26/05/2026 15:59:26,78] Iniciando... 
+[master e8dcd27] Atualiza metas_data.js + vendas_data.js - 26/05/2026
+ 2 files changed, 53934 insertions(+), 53366 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   49fc6aa..e8dcd27  master -> master
+[master d17621a] Atualiza entregas_data.js - 26/05/2026
+ 1 file changed, 1058 insertions(+), 445 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e8dcd27..d17621a  master -> master
+
+==================================================
+  OFFTRADE - 26/05/2026 15:59
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2353
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 26.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 31b386f] Atualiza vendas_sp_data.js - 26/05/2026
+ 1 file changed, 86 insertions(+), 14 deletions(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 36 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 9 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2358 chave(s) no total).
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 88s
+==================================================
+
+[26/05/2026 16:00:57,62] OK 
+---------------------------------------- 
+[26/05/2026 17:00:00,72] Iniciando... 
+[master c09ff9a] Atualiza metas_data.js + vendas_data.js - 26/05/2026
+ 2 files changed, 5479 insertions(+), 4878 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   31b386f..c09ff9a  master -> master
+[master bdca515] Atualiza entregas_data.js - 26/05/2026
+ 1 file changed, 684 insertions(+), 408 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   c09ff9a..bdca515  master -> master
+
+==================================================
+  OFFTRADE - 26/05/2026 17:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2353
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 26.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master e44487b] Atualiza vendas_sp_data.js - 26/05/2026
+ 1 file changed, 41 insertions(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 37 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 1 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2359 chave(s) no total).
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 108s
+==================================================
+
+[26/05/2026 17:01:49,76] OK 
+---------------------------------------- 
+[26/05/2026 18:00:00,76] Iniciando... 
+[master 56835d0] Atualiza metas_data.js + vendas_data.js - 26/05/2026
+ 2 files changed, 2105 insertions(+), 2087 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e44487b..56835d0  master -> master
+[master a5eb6af] Atualiza entregas_data.js - 26/05/2026
+ 1 file changed, 1497 insertions(+), 1302 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   56835d0..a5eb6af  master -> master
+
+==================================================
+  OFFTRADE - 26/05/2026 18:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2353
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 26.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master aa9f98d] Atualiza vendas_sp_data.js - 26/05/2026
+ 1 file changed, 41 insertions(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 38 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 74s
+==================================================
+
+[26/05/2026 18:01:16,69] OK 
+---------------------------------------- 
+[27/05/2026  9:00:00,54] Iniciando... 
+[master 48baa0f] Atualiza metas_data.js + vendas_data.js - 27/05/2026
+ 2 files changed, 4147 insertions(+), 3139 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   aa9f98d..48baa0f  master -> master
+[master 195dbd6] Atualiza entregas_data.js - 27/05/2026
+ 1 file changed, 1831 insertions(+), 1313 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   48baa0f..195dbd6  master -> master
+
+==================================================
+  OFFTRADE - 27/05/2026 09:00
+==================================================
+
+--------------------------------------------------
+  1/5 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/5 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2354
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/4 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  4/5 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Aviso: arquivo de logística não encontrado:
+  G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 CONTROLE DE NOTAS.xlsx
+OK - 21 vendedores, rota do dia 27.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5/6 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master a949744] Atualiza vendas_sp_data.js - 27/05/2026
+ 1 file changed, 577 insertions(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 38 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6/7 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  7/7 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 361s
+==================================================
+
+[27/05/2026  9:06:03,16] OK 
+---------------------------------------- 

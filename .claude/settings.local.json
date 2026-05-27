@@ -46,7 +46,8 @@
       "Bash(pip install *)",
       "Bash(where python *)",
       "PowerShell(& \"C:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\pip.exe\" install paramiko python-dotenv -q; Write-Host \"OK\")",
-      "PowerShell(& \"C:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\pip3.exe\" install paramiko python-dotenv -q; Write-Host \"OK\")"
+      "PowerShell(& \"C:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\pip3.exe\" install paramiko python-dotenv -q; Write-Host \"OK\")",
+      "Bash(dir \"G:\\\\Meu Drive\\\\offtrade\" /b /a-d)"
     ]
   }
 }

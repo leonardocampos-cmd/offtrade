@@ -15,10 +15,12 @@ VPS_DIR  = "/var/www/offtrade"
 FILES = [
     "metas.html",
     "sp.html",
+    "amarula.html",
     "metas_data.js",
     "vendas_data.js",
     "vendas_sp_data.js",
     "entregas_data.js",
+    "amarula_data.js",
 ]
 
 def deploy():

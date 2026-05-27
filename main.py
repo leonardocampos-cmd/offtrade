@@ -14,19 +14,34 @@ def main():
     print(f"{'='*50}")
 
     try:
-        step("1/5 - Carregando metas e vendas (Oracle + Excel)")
+        step("1/8 - Carregando metas e vendas (Oracle + Excel)")
         import meta
 
-        step("2/5 - Exportando dashboard HTML (metas_data.js)")
+        step("2/8 - Exportando dashboard HTML (metas_data.js)")
         import exportacao_meta
 
-        step("3/4 - Conferência de preços")
+        step("3/8 - Campanha Amarula (amarula_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_amarula.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_amarula falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_amarula falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
+        step("4/8 - Conferência de preços")
         import conferencia_preco
 
-        step("4/5 - Gerando página de entregas (entregas_data.js)")
+        step("5/8 - Gerando página de entregas (entregas_data.js)")
         import entregas
 
-        step("5/6 - Exportando dashboard SP (vendas_sp_data.js)")
+        step("6/8 - Exportando dashboard SP (vendas_sp_data.js)")
         try:
             import subprocess, sys as _sys
             result = subprocess.run(
@@ -41,10 +56,10 @@ def main():
             print("[AVISO] exportacao_sp falhou — SP ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("6/7 - Enviando alerta WhatsApp")
+        step("7/8 - Enviando alerta WhatsApp")
         import envio_whatsapp
 
-        step("7/7 - Deploy para VPS")
+        step("8/8 - Deploy para VPS")
         try:
             import subprocess, sys as _sys
             result = subprocess.run(
