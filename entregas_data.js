@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "27/05/2026 11:15",
+  "atualizado_em": "27/05/2026 11:22",
   "data_rota": "27.05",
   "vendedores": [
     {
@@ -238,7 +238,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 477.81,
+          "total": 393.09,
           "itens": [
             {
               "desc": "GUARAVITA NATURAL 24X290ML",
@@ -251,14 +251,29 @@ const ENTREGAS_DATA = {
               "val": 156.33
             },
             {
-              "desc": "RC PATE ATUM COM AZEITONAS 12X80G",
-              "qt": 1,
-              "val": 84.72
-            },
-            {
               "desc": "4 PACK RED BULL",
               "qt": 6,
               "val": 185.4
+            }
+          ]
+        },
+        {
+          "numped": "431000974",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "PANIFICACAO E CONFEITARIA VALE DE CAMBRA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 84.72,
+          "itens": [
+            {
+              "desc": "RC PATE ATUM COM AZEITONAS 12X80G",
+              "qt": 1,
+              "val": 84.72
             }
           ]
         },
