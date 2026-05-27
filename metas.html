@@ -1188,6 +1188,8 @@ function voltarParaTodos() {
 function renderDetail(v, mes) {
   mes = mes || _getMes();
   _mesSel = mes;
+  var cb = document.querySelector('.camp-bar');
+  if (cb) cb.style.display = 'none';
   const pm = _pm(v, mes);
 
   function r(c) { return _mv(pm, c, 'realizado'); }
@@ -1676,6 +1678,8 @@ function _buildCards(vendedores, mes) {
 function renderAll(vendedores, mes) {
   mes = mes || _getMes();
   _mesSel = mes;
+  var cb = document.querySelector('.camp-bar');
+  if (cb) cb.style.display = '';
 
   const mesOpts = (METAS_DATA.meses || []).map(mo =>
     `<option value="${mo}" ${mo === mes ? 'selected' : ''}>${mo}</option>`
