@@ -109,24 +109,37 @@ def _cnpj_chave(cgc):
     d = _re.sub(r'\D', '', str(cgc) if cgc else '')
     return d[:8] if len(d) == 14 else (d if d else None)
 
-_cadastros_por_display: dict = {}
-try:
-    _df_cad = carregar_dados("""
+def _query_cadastros(schema):
+    s = schema.upper()
+    return f"""
         SELECT C.CODCLI, C.CGC, U.NOME AS NOME_RCA
-        FROM spon.PCCLIENT C
-        JOIN spon.PCUSUARI U ON C.CODUSUR1 = U.CODUSUR
+        FROM {s}.PCCLIENT C
+        JOIN {s}.PCUSUARI U ON C.CODUSUR1 = U.CODUSUR
         WHERE U.NOME LIKE '%OFF TRADE%'
           AND TRUNC(C.DTCAD, 'MM') = TRUNC(SYSDATE, 'MM')
-    """, engine_spon, "cadastros_mes")
-    _df_cad.columns = _df_cad.columns.str.upper()
-    _df_cad['_ID'] = _df_cad.apply(
-        lambda r: _cnpj_chave(r['CGC']) or str(r['CODCLI']), axis=1
-    )
-    for _nome_oracle, _grp in _df_cad.groupby('NOME_RCA'):
-        _display = _oracle_to_display.get(str(_nome_oracle))
-        if _display:
-            _cadastros_por_display[_display] = int(_grp['_ID'].nunique())
-    print(f"OK cadastros: {len(_df_cad)} clientes, {len(_cadastros_por_display)} vendedores")
+    """
+
+_cadastros_por_display: dict = {}
+try:
+    _frames_cad = []
+    for _schema, _eng in [("CRC", engine), ("thekings", engine_theking), ("spon", engine_spon)]:
+        try:
+            _df_part = carregar_dados(_query_cadastros(_schema), _eng, f"cadastros_{_schema}")
+            _df_part.columns = _df_part.columns.str.upper()
+            _df_part['_SRC'] = _schema
+            _frames_cad.append(_df_part)
+        except Exception as _pe:
+            print(f"[AVISO] cadastros {_schema} falhou ({str(_pe)[:80]}) — ignorado")
+    if _frames_cad:
+        _df_cad = pd.concat(_frames_cad, ignore_index=True)
+        _df_cad['_ID'] = _df_cad.apply(
+            lambda r: _cnpj_chave(r['CGC']) or f"{r['_SRC']}_{r['CODCLI']}", axis=1
+        )
+        for _nome_oracle, _grp in _df_cad.groupby('NOME_RCA'):
+            _display = _oracle_to_display.get(str(_nome_oracle))
+            if _display:
+                _cadastros_por_display[_display] = int(_grp['_ID'].nunique())
+        print(f"OK cadastros: {len(_df_cad)} clientes, {len(_cadastros_por_display)} vendedores")
 except Exception as _e:
     print(f"[AVISO] cadastros_mes falhou ({str(_e)[:100]}) — ignorado")
 
