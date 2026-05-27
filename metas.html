@@ -1243,7 +1243,7 @@ function renderDetail(v, mes) {
       ${buildBar('Pinatti',         r('pos_pinatti'),    m('pos_pinatti'),    'pos')}
     </div>
 
-    ${buildCampanhaDetail(v, mes)}
+    ${buildAllCampanhas(v)}
     ${buildAmarulaDetail(v)}
 
     ${buildPrevisao(v)}
@@ -1660,6 +1660,11 @@ function buildCampanhaDetail(v, mes) {
         ${rows}
       </div>`;
   }).join('');
+}
+
+function buildAllCampanhas(v) {
+  const meses = [...new Set(CAMPANHAS.map(c => c.mes))];
+  return meses.map(m => buildCampanhaDetail(v, m)).filter(Boolean).join('');
 }
 
 function buildAmarulaDetail(v) {
