@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/05/2026 18:00",
+  "atualizado_em": "27/05/2026 09:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -39768,6 +39768,15 @@ const VENDAS_DATA = {
           "valor": 56.9
         },
         {
+          "data": "26/05/2026",
+          "codcli": "2075",
+          "cliente": "CARBAT DIST. E ASSE. DO COM. DE DERIVADOS DE PETROLEO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 259.0
+        },
+        {
           "data": "05/05/2026",
           "codcli": "2339",
           "cliente": "AUTO POSTO BOAVISTA LTDA",
@@ -42466,6 +42475,51 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 3,
           "valor": 341.7
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78952",
+          "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78952",
+          "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 341.4
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78952",
+          "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 718.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78952",
+          "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
+          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 195.0
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78952",
+          "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
+          "produto": "VINHO CAVAS DE ORO MALBEC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 454.8
         },
         {
           "data": "18/05/2026",
@@ -55600,6 +55654,87 @@ const VENDAS_DATA = {
           "valor": 287.88
         },
         {
+          "data": "26/05/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 718.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "VINHO FOODKILLER CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 203.4
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 406.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "ESPUMANTE ALUD ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 179.4
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "VINHO CAVAS DE ORO MALBEC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 227.4
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 161.4
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 406.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 860.4
+        },
+        {
           "data": "11/05/2026",
           "codcli": "76914",
           "cliente": "JOAO WILSON FONTENELE MACHADO 01404916784",
@@ -56147,6 +56282,15 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 71.76
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "90876",
+          "cliente": "DON RUAN PADARIA E SALGADEIRA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 256.8
         },
         {
           "data": "04/05/2026",
@@ -57506,6 +57650,15 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 61.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 13,
+          "valor": 258.7
         },
         {
           "data": "21/05/2026",
@@ -66509,6 +66662,69 @@ const VENDAS_DATA = {
           "valor": 32.28
         },
         {
+          "data": "26/05/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "VANISH LIQUIDO PINK REFIL 12X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 66.6
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "VANISH LIQUIDO WHITE REFIL 12X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 66.6
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 51.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 141.6
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 83.94
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 83.94
+        },
+        {
           "data": "04/05/2026",
           "codcli": "91485",
           "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
@@ -66633,6 +66849,33 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 3,
           "valor": 188.7
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "91752",
+          "cliente": "MERCEARIA GARRIDO' NETOS LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 130.56
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "91752",
+          "cliente": "MERCEARIA GARRIDO' NETOS LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 130.56
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "91752",
+          "cliente": "MERCEARIA GARRIDO' NETOS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 6,
+          "valor": 391.68
         },
         {
           "data": "06/05/2026",
@@ -81301,6 +81544,15 @@ const VENDAS_DATA = {
           "valor": 659.4
         },
         {
+          "data": "26/05/2026",
+          "codcli": "83501",
+          "cliente": "CRISTINA DE JESUS MORGADO 01436151732",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 348.0
+        },
+        {
           "data": "11/05/2026",
           "codcli": "82760",
           "cliente": "ACOUGUE, MERCEARIA E PADARIA ESCADAO LTDA",
@@ -81425,6 +81677,51 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 199.5
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "93932",
+          "cliente": "RONNIE CESAR P. SILVA MERCEARIA",
+          "produto": "VEJA BANHEIRO TIRA LIMO SQUEEZE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 234.0
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "93932",
+          "cliente": "RONNIE CESAR P. SILVA MERCEARIA",
+          "produto": "HARPIC POWER PLUS MAR 750ML 36X25G",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 117.0
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "93932",
+          "cliente": "RONNIE CESAR P. SILVA MERCEARIA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "93932",
+          "cliente": "RONNIE CESAR P. SILVA MERCEARIA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "93932",
+          "cliente": "RONNIE CESAR P. SILVA MERCEARIA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 38.9
         },
         {
           "data": "12/05/2026",
@@ -85177,6 +85474,33 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 65.52
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "55629",
+          "cliente": "DIOGO R DE ANDRADE - CANTINA",
+          "produto": "RED BULL SF NECTARINA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 169.92
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "55629",
+          "cliente": "DIOGO R DE ANDRADE - CANTINA",
+          "produto": "RED BULL SF POMELO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 169.92
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "55629",
+          "cliente": "DIOGO R DE ANDRADE - CANTINA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 169.92
         },
         {
           "data": "20/05/2026",
@@ -102472,6 +102796,24 @@ const VENDAS_DATA = {
           "valor": 2984.4
         },
         {
+          "data": "26/05/2026",
+          "codcli": "62232",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "produto": "SMIRNOFF RED PET 1750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 9,
+          "valor": 310.5
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "62232",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 2,
+          "valor": 131.8
+        },
+        {
           "data": "19/05/2026",
           "codcli": "78141",
           "cliente": "MARCIO GARCIA SANCHES 01351218760",
@@ -105996,6 +106338,15 @@ const VENDAS_DATA = {
           "valor": 94.68
         },
         {
+          "data": "26/05/2026",
+          "codcli": "18798",
+          "cliente": "EMPORIO DO CADEG LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 300,
+          "valor": 9870.0
+        },
+        {
           "data": "05/05/2026",
           "codcli": "73082",
           "cliente": "PAX SUPERMERCADOS LTDA.",
@@ -106061,6 +106412,33 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 60,
           "valor": 690.0
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "2277",
+          "cliente": "V&J MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 198.12
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "2277",
+          "cliente": "V&J MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO LATITUD 33 SAUVIGNON BLANC 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 198.12
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "2277",
+          "cliente": "V&J MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 198.12
         },
         {
           "data": "07/05/2026",
@@ -107071,6 +107449,96 @@ const VENDAS_DATA = {
           "valor": 298.8
         },
         {
+          "data": "26/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 946.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "TERRAZAS RESERVA MALBEC 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 485.4
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 396.0
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 198.0
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 335.4
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 298.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 396.0
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 310.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 669.9
+        },
+        {
           "data": "02/05/2026",
           "codcli": "80353",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
@@ -107465,6 +107933,213 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 286.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 116.58
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 116.58
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO CAVAS DE ORO BLEND  ROSADO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 116.58
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 89.46
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 89.76
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 164.88
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 89.46
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 24,
+          "valor": 717.6
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+          "fantasia": "CASTAS",
+          "qt": 18,
+          "valor": 538.2
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 358.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 358.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV.",
+          "fantasia": "CASTAS",
+          "qt": 18,
+          "valor": 538.2
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 18,
+          "valor": 538.2
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 358.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 358.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO CAVAS DE ORO BLEND  ROSADO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 358.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 198.12
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO LATITUD 33 SAUVIGNON BLANC 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 198.12
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 198.12
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 6,
+          "valor": 741.66
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "84829",
+          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 378.9
         },
         {
           "data": "05/05/2026",
@@ -125179,6 +125854,24 @@ const VENDAS_DATA = {
           "valor": 34.3
         },
         {
+          "data": "26/05/2026",
+          "codcli": "89949",
+          "cliente": "AUTO POSTO REDE PARCEIRO NILOPOLIS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 129.5
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "89949",
+          "cliente": "AUTO POSTO REDE PARCEIRO NILOPOLIS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56
+        },
+        {
           "data": "13/05/2026",
           "codcli": "89952",
           "cliente": "POSTO DE COMBUSTIVEIS BICUIBA BRANCA LTDA",
@@ -125215,9 +125908,45 @@ const VENDAS_DATA = {
           "valor": 129.5
         },
         {
+          "data": "26/05/2026",
+          "codcli": "89936",
+          "cliente": "POSTO DE GASOLINA SANTA BARBARA DO MEIER LTDA",
+          "produto": "COQUETEL  PINK MOON 12X600ML - VIDRO",
+          "fantasia": "COMARY",
+          "qt": 3,
+          "valor": 311.7
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "89936",
+          "cliente": "POSTO DE GASOLINA SANTA BARBARA DO MEIER LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 129.5
+        },
+        {
           "data": "12/05/2026",
           "codcli": "89938",
           "cliente": "AUTO POSTO GERANIUS CAFUBA LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "89939",
+          "cliente": "TINGAS DO BRASIL POSTO DE GASOLINA LTDA",
+          "produto": "COQUETEL  PINK MOON 12X600ML - VIDRO",
+          "fantasia": "COMARY",
+          "qt": 1,
+          "valor": 103.9
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "89939",
+          "cliente": "TINGAS DO BRASIL POSTO DE GASOLINA LTDA",
           "produto": "RED BULL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -132055,6 +132784,60 @@ const VENDAS_DATA = {
           "valor": 103.92
         },
         {
+          "data": "26/05/2026",
+          "codcli": "67706",
+          "cliente": "DEPOSITO DA TORRE COMERCIO DE BEBIDAS EIRELI",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 60.0
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "67706",
+          "cliente": "DEPOSITO DA TORRE COMERCIO DE BEBIDAS EIRELI",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 60.0
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "67706",
+          "cliente": "DEPOSITO DA TORRE COMERCIO DE BEBIDAS EIRELI",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 786.24
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "67706",
+          "cliente": "DEPOSITO DA TORRE COMERCIO DE BEBIDAS EIRELI",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 786.24
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "67706",
+          "cliente": "DEPOSITO DA TORRE COMERCIO DE BEBIDAS EIRELI",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 64.56
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "67706",
+          "cliente": "DEPOSITO DA TORRE COMERCIO DE BEBIDAS EIRELI",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 199.8
+        },
+        {
           "data": "02/05/2026",
           "codcli": "62177",
           "cliente": "SUPERMERCADOS CELEIRO LTDA",
@@ -132548,6 +133331,33 @@ const VENDAS_DATA = {
           "fantasia": "51",
           "qt": 1,
           "valor": 114.9
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "90158",
+          "cliente": "31.410.843 DANIELLE RESENDE DE OLIVEIRA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 2,
+          "valor": 177.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "90158",
+          "cliente": "31.410.843 DANIELLE RESENDE DE OLIVEIRA",
+          "produto": "LIQUEUR C AMARULA ETHIOPIAN COFFEE",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "90158",
+          "cliente": "31.410.843 DANIELLE RESENDE DE OLIVEIRA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 29.4
         },
         {
           "data": "06/05/2026",
@@ -153948,6 +154758,42 @@ const VENDAS_DATA = {
           "valor": 652.8
         },
         {
+          "data": "26/05/2026",
+          "codcli": "86307",
+          "cliente": "CEREAIS IRENE LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 137.4
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "86307",
+          "cliente": "CEREAIS IRENE LTDA",
+          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 216.66
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "86307",
+          "cliente": "CEREAIS IRENE LTDA",
+          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 216.66
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "86307",
+          "cliente": "CEREAIS IRENE LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 299.4
+        },
+        {
           "data": "25/05/2026",
           "codcli": "86310",
           "cliente": "CEREAIS IRENE LTDA",
@@ -154828,6 +155674,42 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 6,
           "valor": 215.4
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "91633",
+          "cliente": "RIO SUL VILA OPERARIA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "91633",
+          "cliente": "RIO SUL VILA OPERARIA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "91633",
+          "cliente": "RIO SUL VILA OPERARIA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "fantasia": "RECKITT",
+          "qt": 10,
+          "valor": 652.8
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "91633",
+          "cliente": "RIO SUL VILA OPERARIA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
         },
         {
           "data": "14/05/2026",
@@ -163759,6 +164641,15 @@ const VENDAS_DATA = {
           "valor": 9108.0
         },
         {
+          "data": "26/05/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 15,
+          "valor": 980.1
+        },
+        {
           "data": "25/05/2026",
           "codcli": "69313",
           "cliente": "R A G ATACAREJO LTDA",
@@ -164207,6 +165098,15 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 10,
           "valor": 560.6
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 7,
+          "valor": 457.38
         },
         {
           "data": "16/05/2026",
