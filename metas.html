@@ -1669,6 +1669,7 @@ function _buildCards(vendedores, mes) {
         <div class="vendor-rca">RCA ${v.rca}</div>
         ${buildBar('Faturamento Total', _mv(pm,'fat_tt','realizado'), _mv(pm,'fat_tt','meta'), 'fat')}
         ${buildBar('Positivação Total', _mv(pm,'pos_tt','realizado'), _mv(pm,'pos_tt','meta'), 'pos')}
+        ${buildCampanhaDetail(v, mes)}
         <div class="card-actions">
           <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>
         </div>
