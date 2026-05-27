@@ -1,13 +1,13 @@
 const AMARULA_DATA = {
-  "atualizado_em": "27/05/2026 15:33",
+  "atualizado_em": "27/05/2026 17:41",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
-  "total_vendedores": 7,
-  "total_positivacao": 7,
-  "total_faturamento": 4508.0,
+  "total_vendedores": 8,
+  "total_positivacao": 8,
+  "total_faturamento": 4679.8,
   "ranking_positivacao": [
     {
       "vendedor": "CARLOS ARTHUR NETO",
@@ -23,6 +23,10 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "JORGE MACIEL",
+      "valor": 1
+    },
+    {
+      "vendedor": "JOÃO VITOR BRAGA",
       "valor": 1
     },
     {
@@ -58,6 +62,10 @@ const AMARULA_DATA = {
     {
       "vendedor": "INGRID ARAUJO",
       "valor": 177.8
+    },
+    {
+      "vendedor": "JOÃO VITOR BRAGA",
+      "valor": 171.8
     },
     {
       "vendedor": "THIAGO NASCIMENTO",
