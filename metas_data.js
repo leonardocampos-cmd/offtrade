@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "27/05/2026 11:40",
+  "atualizado_em": "27/05/2026 12:01",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -199,6 +199,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "60708",
@@ -928,6 +929,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "3467",
@@ -4068,6 +4070,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "89949",
@@ -5755,6 +5758,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "86307",
@@ -7847,6 +7851,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "18798",
@@ -8327,6 +8332,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "2978",
@@ -8603,6 +8609,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "67706",
@@ -10008,6 +10015,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "84904",
@@ -11360,6 +11368,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "2277",
@@ -12287,6 +12296,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "69414",
@@ -13227,6 +13237,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "93873",
@@ -14168,6 +14179,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "6940",
@@ -14410,6 +14422,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "92207",
@@ -17222,6 +17235,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "95118",
@@ -19477,6 +19491,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "83501",
@@ -20604,6 +20619,7 @@ const METAS_DATA = {
           }
         }
       },
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "92281",
