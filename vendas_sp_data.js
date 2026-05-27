@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "27/05/2026 14:08",
+  "atualizado_em": "27/05/2026 15:33",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -35285,6 +35285,15 @@ const VENDAS_SP_DATA = {
           "valor": 1629.6
         },
         {
+          "data": "27/05/2026",
+          "codcli": "31084",
+          "cliente": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 2400,
+          "valor": 62160.0
+        },
+        {
           "data": "05/05/2026",
           "codcli": "31155",
           "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
@@ -35472,6 +35481,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 36,
           "valor": 2372.4
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "40808",
+          "cliente": "PIRAFESTAS COMERCIO DE BEBIDAS",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 3507.0
         },
         {
           "data": "14/05/2026",
@@ -57642,6 +57660,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 300,
           "valor": 7770.0
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "46395",
+          "cliente": "FABIANO MARQUES BATISTA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 480,
+          "valor": 11995.2
         }
       ]
     },
@@ -58598,6 +58625,60 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 659.4
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50486",
+          "cliente": "SUPERMERCADO DIAS MORAES LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 1780.2
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50491",
+          "cliente": "MARIO GABRIEL FILHO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 1184.4
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50492",
+          "cliente": "FLAVIO HENRIQUE DONISETE PANCHONI 07712248850",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 394.8
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50492",
+          "cliente": "FLAVIO HENRIQUE DONISETE PANCHONI 07712248850",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 155.4
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50525",
+          "cliente": "TATIANE MENDES MARTINS DE MELO",
+          "produto": "RUM MALIBU 750 ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 257.4
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50525",
+          "cliente": "TATIANE MENDES MARTINS DE MELO",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 1184.4
         }
       ]
     },
@@ -59092,6 +59173,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 576,
           "valor": 14394.24
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50454",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CACHACA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 480,
+          "valor": 10032.0
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50454",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1186.8
         },
         {
           "data": "25/05/2026",
@@ -59735,6 +59834,19 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 840,
           "valor": 43596.0
+        }
+      ]
+    },
+    "FRANCIS SILVA -": {
+      "Mai/26": [
+        {
+          "data": "27/05/2026",
+          "codcli": "50442",
+          "cliente": "MARIA APARECIDA DA SILVA ANDREAZA 28097283808",
+          "produto": "JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 1079.4
         }
       ]
     },
