@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "27/05/2026 09:02",
+  "atualizado_em": "27/05/2026 09:46",
   "data_rota": "27.05",
   "vendedores": [
     {
@@ -35307,6 +35307,31 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "155003552",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "DJM ROUX PIZZARIA E RESTAURANTE EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 378.72,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 189.36
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 189.36
+            }
+          ]
+        },
+        {
           "numped": "155003551",
           "numnota": "",
           "data": "27/05/2026",
@@ -35340,14 +35365,14 @@ const ENTREGAS_DATA = {
           "total": 573.96,
           "itens": [
             {
-              "desc": "VODKA ABSOLUT - 1 LITRO",
-              "qt": 6,
-              "val": 377.4
-            },
-            {
               "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 1,
               "val": 196.56
+            },
+            {
+              "desc": "VODKA ABSOLUT - 1 LITRO",
+              "qt": 6,
+              "val": 377.4
             }
           ]
         },
