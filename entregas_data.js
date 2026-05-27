@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "27/05/2026 09:46",
+  "atualizado_em": "27/05/2026 09:59",
   "data_rota": "27.05",
   "vendedores": [
     {
@@ -9971,7 +9971,53 @@ const ENTREGAS_DATA = {
     {
       "nome": "DIOGO RAPOSO",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "144001447",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "MINIMERCADO ALFERES LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 4860.9,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML",
+              "qt": 2,
+              "val": 177.8
+            },
+            {
+              "desc": "GIN BOMBAY SAPPHIRE 750ML",
+              "qt": 6,
+              "val": 419.4
+            },
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 25,
+              "val": 3197.5
+            },
+            {
+              "desc": "WHISKY JACK DANIELS 1L",
+              "qt": 3,
+              "val": 329.7
+            },
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 12,
+              "val": 406.8
+            },
+            {
+              "desc": "WHISKY JACK DANIELS APPLE 1L - EV",
+              "qt": 3,
+              "val": 329.7
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "144001443",
@@ -25729,6 +25775,41 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "156003451",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "RIO MARACANÃ POSTO DE GASOLINA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 270.92,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 51.8
+            },
+            {
+              "desc": "PINATI DB WHEY AVELA E LEITE 12X50G",
+              "qt": 1,
+              "val": 71.2
+            },
+            {
+              "desc": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+              "qt": 1,
+              "val": 60.32
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            }
+          ]
+        },
+        {
           "numped": "156003431",
           "numnota": "",
           "data": "25/05/2026",
@@ -35320,12 +35401,12 @@ const ENTREGAS_DATA = {
           "total": 378.72,
           "itens": [
             {
-              "desc": "RED BULL 24X250ML",
+              "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 1,
               "val": 189.36
             },
             {
-              "desc": "RED BULL TROPICAL 24X250ML",
+              "desc": "RED BULL 24X250ML",
               "qt": 1,
               "val": 189.36
             }
@@ -35365,14 +35446,14 @@ const ENTREGAS_DATA = {
           "total": 573.96,
           "itens": [
             {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 1,
-              "val": 196.56
-            },
-            {
               "desc": "VODKA ABSOLUT - 1 LITRO",
               "qt": 6,
               "val": 377.4
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 196.56
             }
           ]
         },
