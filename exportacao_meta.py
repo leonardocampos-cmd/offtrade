@@ -3,8 +3,15 @@ import json
 import pandas as pd
 from datetime import date, datetime
 from pathlib import Path
+import re as _re
 from meta import engine, engine_theking, arquivo, carregar_dados
 import nao_positivados as _np_mod
+from sqlalchemy import create_engine as _ce
+engine_spon = _ce(
+    'oracle+oracledb://vpn:vpn2320vpn@spon_oci',
+    pool_pre_ping=True, pool_recycle=3600,
+    connect_args={"expire_time": 2}
+)
 
 _df_nao_pos = _np_mod.nao_positivados_full
 
@@ -95,6 +102,33 @@ _vh = _vh[_vh['VENDEDOR'].notna()].copy()
 _vh['MES_STR'] = _vh['MES'].apply(_mes_pt)
 
 _vh_grouped = _vh.groupby(['VENDEDOR', 'MES_STR'])
+
+# ── Clientes cadastrados no mês (spon_oci) ────────────────────────────────────
+
+def _cnpj_chave(cgc):
+    d = _re.sub(r'\D', '', str(cgc) if cgc else '')
+    return d[:8] if len(d) == 14 else (d if d else None)
+
+_cadastros_por_display: dict = {}
+try:
+    _df_cad = carregar_dados("""
+        SELECT C.CODCLI, C.CGC, U.NOME AS NOME_RCA
+        FROM spon.PCCLIENT C
+        JOIN spon.PCUSUARI U ON C.CODUSUR1 = U.CODUSUR
+        WHERE U.NOME LIKE '%OFF TRADE%'
+          AND TRUNC(C.DTCAD, 'MM') = TRUNC(SYSDATE, 'MM')
+    """, engine_spon, "cadastros_mes")
+    _df_cad.columns = _df_cad.columns.str.upper()
+    _df_cad['_ID'] = _df_cad.apply(
+        lambda r: _cnpj_chave(r['CGC']) or str(r['CODCLI']), axis=1
+    )
+    for _nome_oracle, _grp in _df_cad.groupby('NOME_RCA'):
+        _display = _oracle_to_display.get(str(_nome_oracle))
+        if _display:
+            _cadastros_por_display[_display] = int(_grp['_ID'].nunique())
+    print(f"OK cadastros: {len(_df_cad)} clientes, {len(_cadastros_por_display)} vendedores")
+except Exception as _e:
+    print(f"[AVISO] cadastros_mes falhou ({str(_e)[:100]}) — ignorado")
 
 # ── Helpers de cálculo ────────────────────────────────────────────────────────
 
@@ -284,6 +318,7 @@ for _, m in metas_com_nome.iterrows():
             'nome': nome_display,
             'rca':  str(int(m['RCA'])) if pd.notna(m['RCA']) else '',
             'por_mes': {},
+            'clientes_cadastrados': _cadastros_por_display.get(nome_display, 0),
             'nao_positivados': _build_nao_pos(nome_oracle),
             'historico':       monthly_series(nome_oracle),
             'previsao':        previsao(nome_oracle, real_atual['fat_tt'], real_atual['pos_tt']),

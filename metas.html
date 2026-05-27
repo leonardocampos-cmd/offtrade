@@ -1235,6 +1235,7 @@ function renderDetail(v, mes) {
     <div class="detail-card">
       <div class="section-title">Positivação (clientes únicos)</div>
       ${buildBar('Total',           r('pos_tt'),         m('pos_tt'),         'pos')}
+      ${(v.clientes_cadastrados > 0) ? `<div class="stat-row"><span class="stat-label">Cadastros no mês</span><span class="stat-val">${v.clientes_cadastrados}</span></div>` : ''}
       ${buildBar('HOB + Azeite',    r('pos_hob_azeite'), m('pos_hob_azeite'), 'pos')}
       ${buildBar('Reckitt',         r('pos_reckit'),     m('pos_reckit'),     'pos')}
       ${buildBar('Robinson Crusoe', r('pos_crusoe'),     m('pos_crusoe'),     'pos')}
@@ -1724,6 +1725,7 @@ function _buildCards(vendedores, mes) {
         <div class="vendor-rca">RCA ${v.rca}</div>
         ${buildBar('Faturamento Total', _mv(pm,'fat_tt','realizado'), _mv(pm,'fat_tt','meta'), 'fat')}
         ${buildBar('Positivação Total', _mv(pm,'pos_tt','realizado'), _mv(pm,'pos_tt','meta'), 'pos')}
+        ${(v.clientes_cadastrados > 0) ? `<div class="stat-row"><span class="stat-label">Cadastros no mês</span><span class="stat-val">${v.clientes_cadastrados}</span></div>` : ''}
         ${buildCampanhaDetail(v, mes)}
         ${buildAmarulaDetail(v)}
         <div class="card-actions">
