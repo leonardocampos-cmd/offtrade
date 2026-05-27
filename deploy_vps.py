@@ -13,9 +13,14 @@ VPS_PASS = os.getenv("VPS_PASSWORD", "")
 VPS_DIR  = "/var/www/offtrade"
 
 FILES = [
+    "index.html",
     "metas.html",
     "sp.html",
+    "entregas.html",
     "amarula.html",
+    "pinati.html",
+    "pernod.html",
+    "moving.html",
     "metas_data.js",
     "vendas_data.js",
     "vendas_sp_data.js",
