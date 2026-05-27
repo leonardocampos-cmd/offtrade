@@ -1,5 +1,5 @@
 const AMARULA_DATA = {
-  "atualizado_em": "27/05/2026 11:28",
+  "atualizado_em": "27/05/2026 11:30",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
@@ -18,15 +18,15 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "JORGE MACIEL - OFF TRADE",
+      "vendedor": "JORGE MACIEL",
       "valor": 1
     },
     {
-      "vendedor": "MARILENA TRAGEL - OFF TRADE",
+      "vendedor": "MARILENA TRAGEL",
       "valor": 1
     },
     {
-      "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "vendedor": "NATALI OLIVEIRA",
       "valor": 1
     },
     {
@@ -36,15 +36,15 @@ const AMARULA_DATA = {
   ],
   "ranking_faturamento": [
     {
-      "vendedor": "JORGE MACIEL - OFF TRADE",
+      "vendedor": "JORGE MACIEL",
       "valor": 3506.1
     },
     {
-      "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "vendedor": "NATALI OLIVEIRA",
       "valor": 267.7
     },
     {
-      "vendedor": "MARILENA TRAGEL - OFF TRADE",
+      "vendedor": "MARILENA TRAGEL",
       "valor": 197.8
     },
     {
