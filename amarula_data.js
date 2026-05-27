@@ -1,16 +1,20 @@
 const AMARULA_DATA = {
-  "atualizado_em": "27/05/2026 14:07",
+  "atualizado_em": "27/05/2026 15:33",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
-  "total_vendedores": 6,
-  "total_positivacao": 6,
-  "total_faturamento": 4330.2,
+  "total_vendedores": 7,
+  "total_positivacao": 7,
+  "total_faturamento": 4508.0,
   "ranking_positivacao": [
     {
       "vendedor": "CARLOS ARTHUR NETO",
+      "valor": 1
+    },
+    {
+      "vendedor": "DIOGO RAPOSO",
       "valor": 1
     },
     {
@@ -46,6 +50,10 @@ const AMARULA_DATA = {
     {
       "vendedor": "MARILENA TRAGEL",
       "valor": 197.8
+    },
+    {
+      "vendedor": "DIOGO RAPOSO",
+      "valor": 177.8
     },
     {
       "vendedor": "INGRID ARAUJO",
