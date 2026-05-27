@@ -1,11 +1,46 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "27/05/2026 10:01",
+  "atualizado_em": "27/05/2026 11:01",
   "data_rota": "27.05",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVES",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "431000972",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "PANIFICACAO E CONFEITARIA VALE DE CAMBRA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 477.81,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 51.36
+            },
+            {
+              "desc": "RC ATUM RALADO NATURAL 24X140G",
+              "qt": 1,
+              "val": 156.33
+            },
+            {
+              "desc": "RC PATE ATUM COM AZEITONAS 12X80G",
+              "qt": 1,
+              "val": 84.72
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 6,
+              "val": 185.4
+            }
+          ]
+        },
         {
           "numped": "431000929",
           "numnota": "",
@@ -4805,26 +4840,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "153001153",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "MERCADO CAMPEAO DO LAUREANO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "nao precisa pagar descarga entregar no dia 01/06",
-          "total": 280.8,
-          "itens": [
-            {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 24,
-              "val": 280.8
-            }
-          ]
-        },
-        {
           "numped": "153001152",
           "numnota": "",
           "data": "27/05/2026",
@@ -4835,6 +4850,26 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "entregar no dia 28/05 nao precisa pagar descarga",
+          "total": 280.8,
+          "itens": [
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 24,
+              "val": 280.8
+            }
+          ]
+        },
+        {
+          "numped": "153001153",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "MERCADO CAMPEAO DO LAUREANO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "nao precisa pagar descarga entregar no dia 01/06",
           "total": 280.8,
           "itens": [
             {
@@ -10016,6 +10051,26 @@ const ENTREGAS_DATA = {
               "val": 329.7
             }
           ]
+        },
+        {
+          "numped": "144001448",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 379.2,
+          "itens": [
+            {
+              "desc": "CACHACA YPIOCA BRASILIZAR CG OURO 965ML",
+              "qt": 24,
+              "val": 379.2
+            }
+          ]
         }
       ],
       "emitido_s_rota": [
@@ -12643,6 +12698,31 @@ const ENTREGAS_DATA = {
       "nome": "FABIO VALOTTI",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "378000390",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 28/05",
+          "total": 505.2,
+          "itens": [
+            {
+              "desc": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
+              "qt": 1,
+              "val": 178.8
+            },
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 5,
+              "val": 326.4
+            }
+          ]
+        },
         {
           "numped": "378000388",
           "numnota": "",
@@ -21430,7 +21510,33 @@ const ENTREGAS_DATA = {
     {
       "nome": "JOSE MARCELO LORES",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "158000331",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "ALEXANDRE DA SILVA ENGUEL",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 819.0,
+          "itens": [
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 24,
+              "val": 645.6
+            },
+            {
+              "desc": "ESPUMANTE ALUD ROSE 750ML",
+              "qt": 6,
+              "val": 173.4
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "158000330",
@@ -25806,6 +25912,36 @@ const ENTREGAS_DATA = {
               "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
               "qt": 1,
               "val": 87.6
+            }
+          ]
+        },
+        {
+          "numped": "156003452",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "ROCAL PRODUTOS DE PETROLEO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 349.2,
+          "itens": [
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 2,
+              "val": 149.6
+            },
+            {
+              "desc": "SMIRNOFF ICE TROPICAL (LATA) 24X269ML",
+              "qt": 1,
+              "val": 104.9
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
             }
           ]
         },
@@ -35401,12 +35537,12 @@ const ENTREGAS_DATA = {
           "total": 378.72,
           "itens": [
             {
-              "desc": "RED BULL TROPICAL 24X250ML",
+              "desc": "RED BULL 24X250ML",
               "qt": 1,
               "val": 189.36
             },
             {
-              "desc": "RED BULL 24X250ML",
+              "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 1,
               "val": 189.36
             }
