@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "27/05/2026 15:33",
+  "atualizado_em": "27/05/2026 17:42",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -38454,6 +38454,24 @@ const VENDAS_SP_DATA = {
           "valor": 579.9
         },
         {
+          "data": "27/05/2026",
+          "codcli": "50371",
+          "cliente": "DEKAN BAR COQUETELARIA LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 167.8
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50371",
+          "cliente": "DEKAN BAR COQUETELARIA LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 314.7
+        },
+        {
           "data": "11/05/2026",
           "codcli": "50237",
           "cliente": "RESTAURANTE PIPO LTDA",
@@ -58637,6 +58655,33 @@ const VENDAS_SP_DATA = {
         },
         {
           "data": "27/05/2026",
+          "codcli": "50486",
+          "cliente": "SUPERMERCADO DIAS MORAES LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 215.4
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50486",
+          "cliente": "SUPERMERCADO DIAS MORAES LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 215.4
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50486",
+          "cliente": "SUPERMERCADO DIAS MORAES LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 4,
+          "valor": 83.6
+        },
+        {
+          "data": "27/05/2026",
           "codcli": "50491",
           "cliente": "MARIO GABRIEL FILHO LTDA",
           "produto": "WHISKY PASSPORT 1L",
@@ -59847,6 +59892,33 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 1079.4
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50442",
+          "cliente": "MARIA APARECIDA DA SILVA ANDREAZA 28097283808",
+          "produto": "ICE 51 FRUIT LONG NECK 275ML-24 UND",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 184.0
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50442",
+          "cliente": "MARIA APARECIDA DA SILVA ANDREAZA 28097283808",
+          "produto": "ICE 51 LIMÃO LONG NECK 275 ML - 24 UND",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 653.4
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "50442",
+          "cliente": "MARIA APARECIDA DA SILVA ANDREAZA 28097283808",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 274.8
         }
       ]
     },
