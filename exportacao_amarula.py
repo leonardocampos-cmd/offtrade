@@ -2,7 +2,7 @@ import json
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
-from meta import engine, engine_theking, carregar_dados
+from meta import engine, engine_theking, carregar_dados, arquivo as _arquivo_meta
 
 DT_INI = "2026-05-25"
 DT_FIM = "2026-06-25"
@@ -25,6 +25,24 @@ def _query(schema):
           AND M.DTCANCEL IS NULL
           AND UPPER(M.DESCRICAO) LIKE '%AMARULA%'
     """
+
+# Monta mapeamento nome Oracle → nome display (igual metas_data.js)
+_map_rca = pd.concat([
+    carregar_dados("SELECT CODUSUR AS RCA, NOME FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'",      engine,         "map_rca_CRC"),
+    carregar_dados("SELECT CODUSUR AS RCA, NOME FROM thekings.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", engine_theking, "map_rca_TK"),
+], ignore_index=True)
+_map_rca['RCA'] = pd.to_numeric(_map_rca['RCA'], errors='coerce')
+_arq = _arquivo_meta[['RCA', 'VENDEDOR']].dropna(subset=['RCA', 'VENDEDOR']).drop_duplicates('RCA').copy()
+_arq['RCA'] = pd.to_numeric(_arq['RCA'], errors='coerce')
+_merged = _map_rca.merge(_arq, on='RCA', how='left')
+_oracle_to_display = {
+    str(r['NOME']): str(r['VENDEDOR'])
+    for _, r in _merged.iterrows()
+    if pd.notna(r.get('VENDEDOR')) and str(r.get('VENDEDOR')) not in ('nan', '')
+}
+
+def _nome(oracle):
+    return _oracle_to_display.get(str(oracle), str(oracle))
 
 df_crc      = carregar_dados(_query("CRC"),      engine,         "amarula_CRC")
 df_theking  = carregar_dados(_query("thekings"), engine_theking, "amarula_thekings")
@@ -57,11 +75,11 @@ else:
           .rename(columns={'VALOR': 'faturamento'})
     )
     ranking_pos = [
-        {'vendedor': r['VENDEDOR'], 'valor': int(r['positivacao'])}
+        {'vendedor': _nome(r['VENDEDOR']), 'valor': int(r['positivacao'])}
         for _, r in rp.iterrows()
     ]
     ranking_fat = [
-        {'vendedor': r['VENDEDOR'], 'valor': float(r['faturamento'])}
+        {'vendedor': _nome(r['VENDEDOR']), 'valor': float(r['faturamento'])}
         for _, r in rf.iterrows()
     ]
     total_vendedores  = int(df['VENDEDOR'].nunique())

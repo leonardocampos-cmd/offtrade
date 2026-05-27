@@ -6,6 +6,7 @@
   <title>Metas OFF TRADE RJ</title>
   <script src="metas_data.js"></script>
   <script src="vendas_data.js"></script>
+  <script src="amarula_data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -1243,6 +1244,7 @@ function renderDetail(v, mes) {
     </div>
 
     ${buildCampanhaDetail(v, mes)}
+    ${buildAmarulaDetail(v)}
 
     ${buildPrevisao(v)}
 
@@ -1660,6 +1662,54 @@ function buildCampanhaDetail(v, mes) {
   }).join('');
 }
 
+function buildAmarulaDetail(v) {
+  if (typeof AMARULA_DATA === 'undefined') return '';
+  const medals = ['🥇', '🥈', '🥉'];
+
+  const posIdx = AMARULA_DATA.ranking_positivacao.findIndex(r => r.vendedor === v.nome);
+  const fatIdx = AMARULA_DATA.ranking_faturamento.findIndex(r => r.vendedor === v.nome);
+  if (posIdx < 0 && fatIdx < 0) return '';
+
+  function rankSpan(idx) {
+    if (idx < 0) return '';
+    const pos = idx < 3 ? medals[idx] + ' ' + (idx + 1) + 'º' : (idx + 1) + 'º';
+    return `<span style="font-weight:700">${pos} lugar</span>`;
+  }
+  function prizeSpan(idx) {
+    return idx === 0 ? `<span class="campanha-rank-prize">R$ 3.000</span>` : '';
+  }
+
+  const rows = [];
+  if (posIdx >= 0) {
+    const val = AMARULA_DATA.ranking_positivacao[posIdx].valor;
+    rows.push(`
+      <div class="campanha-detail-row">
+        <span style="color:var(--muted);font-size:0.78rem">Positivação</span>
+        <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
+          <span class="campanha-rank-val">${val.toLocaleString('pt-BR')} PDVs</span>
+          ${rankSpan(posIdx)}${prizeSpan(posIdx)}
+        </span>
+      </div>`);
+  }
+  if (fatIdx >= 0) {
+    const val = AMARULA_DATA.ranking_faturamento[fatIdx].valor;
+    rows.push(`
+      <div class="campanha-detail-row">
+        <span style="color:var(--muted);font-size:0.78rem">Faturamento</span>
+        <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
+          <span class="campanha-rank-val">${fmtFat(val)}</span>
+          ${rankSpan(fatIdx)}${prizeSpan(fatIdx)}
+        </span>
+      </div>`);
+  }
+
+  return `
+    <div class="campanha-detail-box" style="border-color:#d4962a55;background:#1c1810">
+      <div class="campanha-detail-title" style="color:#d4962a">Campanha Amarula &middot; 25/05–25/06</div>
+      ${rows.join('')}
+    </div>`;
+}
+
 function _buildCards(vendedores, mes) {
   return vendedores.map(v => {
     const pm = _pm(v, mes);
@@ -1670,6 +1720,7 @@ function _buildCards(vendedores, mes) {
         ${buildBar('Faturamento Total', _mv(pm,'fat_tt','realizado'), _mv(pm,'fat_tt','meta'), 'fat')}
         ${buildBar('Positivação Total', _mv(pm,'pos_tt','realizado'), _mv(pm,'pos_tt','meta'), 'pos')}
         ${buildCampanhaDetail(v, mes)}
+        ${buildAmarulaDetail(v)}
         <div class="card-actions">
           <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>
         </div>
