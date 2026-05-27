@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "27/05/2026 11:34",
+  "atualizado_em": "27/05/2026 11:38",
   "data_rota": "27.05",
   "vendedores": [
     {
@@ -274,6 +274,36 @@ const ENTREGAS_DATA = {
               "desc": "RC PATE ATUM COM AZEITONAS 12X80G",
               "qt": 1,
               "val": 84.72
+            }
+          ]
+        },
+        {
+          "numped": "431000975",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 260.04,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 5,
+              "val": 128.4
+            },
+            {
+              "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 71.76
             }
           ]
         },
