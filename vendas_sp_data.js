@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "27/05/2026 09:04",
+  "atualizado_em": "27/05/2026 09:48",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -36554,87 +36554,6 @@ const VENDAS_SP_DATA = {
           "valor": 9974.4
         },
         {
-          "data": "25/05/2026",
-          "codcli": "50553",
-          "cliente": "LEONARDO H. VIEIRA",
-          "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 706.8
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "50553",
-          "cliente": "LEONARDO H. VIEIRA",
-          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 634.8
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "50553",
-          "cliente": "LEONARDO H. VIEIRA",
-          "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "PERNOD",
-          "qt": 18,
-          "valor": 1132.2
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "50553",
-          "cliente": "LEONARDO H. VIEIRA",
-          "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1293.6
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "50553",
-          "cliente": "LEONARDO H. VIEIRA",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1437.6
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "50553",
-          "cliente": "LEONARDO H. VIEIRA",
-          "produto": "GIN TANQUERAY  750 ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1096.68
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "50553",
-          "cliente": "LEONARDO H. VIEIRA",
-          "produto": "GIN GORDONS PINK 700ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 353.4
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "50553",
-          "cliente": "LEONARDO H. VIEIRA",
-          "produto": "RUM MALIBU 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 514.8
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "50553",
-          "cliente": "LEONARDO H. VIEIRA",
-          "produto": "GIN BOMBAY SAPPHIRE 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 850.8
-        },
-        {
           "data": "22/05/2026",
           "codcli": "50553",
           "cliente": "LEONARDO H. VIEIRA",
@@ -47686,24 +47605,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 84,
           "valor": 7341.6
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "36170",
-          "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
-          "produto": "MARTINI ROSSO 750 ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 1860.6
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "36170",
-          "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
-          "produto": "BALLANTINES SUNSHINE 700ML",
-          "fantasia": "PERNOD",
-          "qt": 30,
-          "valor": 1287.0
         },
         {
           "data": "26/05/2026",
