@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "28/05/2026 13:17",
+  "atualizado_em": "28/05/2026 14:26",
   "data_rota": "28.05",
   "vendedores": [
     {
@@ -3456,6 +3456,31 @@ const ENTREGAS_DATA = {
               "desc": "COQUETEL BANANINHA REGGIANI 950ML",
               "qt": 24,
               "val": 405.6
+            }
+          ]
+        },
+        {
+          "numped": "471000257",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "VALE FORMOSO IMPORTACAO E EXPORTACAO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 278.0,
+          "itens": [
+            {
+              "desc": "GIN TANQUERAY TEN 750ML",
+              "qt": 1,
+              "val": 174.32
+            },
+            {
+              "desc": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
+              "qt": 2,
+              "val": 103.68
             }
           ]
         },
@@ -26884,6 +26909,26 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "275000511",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 1031.76,
+          "itens": [
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 24,
+              "val": 1031.76
+            }
+          ]
+        },
+        {
           "numped": "275000513",
           "numnota": "",
           "data": "28/05/2026",
@@ -26896,6 +26941,11 @@ const ENTREGAS_DATA = {
           "obs": "ENTREGA AGENDADA: 02/06",
           "total": 2281.68,
           "itens": [
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 18,
+              "val": 588.6
+            },
             {
               "desc": "ESPUM CASA PERINI PROSECCO 750ML",
               "qt": 18,
@@ -26910,11 +26960,6 @@ const ENTREGAS_DATA = {
               "desc": "GIN LARIOS ORIGINAL 700ML",
               "qt": 12,
               "val": 515.88
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 18,
-              "val": 588.6
             }
           ]
         },
@@ -27365,26 +27410,6 @@ const ENTREGAS_DATA = {
               "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
               "qt": 132,
               "val": 4316.4
-            }
-          ]
-        },
-        {
-          "numped": "275000511",
-          "numnota": "",
-          "data": "28/05/2026",
-          "cliente": "DOM ATACAREJO S.A.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 02/06",
-          "total": 1031.76,
-          "itens": [
-            {
-              "desc": "GIN LARIOS ORIGINAL 700ML",
-              "qt": 24,
-              "val": 1031.76
             }
           ]
         }
