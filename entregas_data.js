@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "28/05/2026 09:39",
+  "atualizado_em": "28/05/2026 10:04",
   "data_rota": "28.05",
   "vendedores": [
     {
@@ -20075,96 +20075,96 @@ const ENTREGAS_DATA = {
           "cliente": "ALDON ALEIXO SANTOS OLIVEIRA LTDA",
           "placa": "",
           "rota": "",
-          "status_ped": "",
+          "status_ped": "CANCELADA",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 659.92,
+          "total": 0.0,
           "itens": [
             {
               "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
-              "qt": 1,
-              "val": 33.6
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 1,
-              "val": 65.28
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 1,
-              "val": 65.28
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 1,
-              "val": 65.28
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "GIN INVICTUS MELANCIA 900ML",
-              "qt": 1,
-              "val": 14.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "GIN INVICTUS TRADICIONAL 900ML",
-              "qt": 1,
-              "val": 14.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "GIN INVICTUS TROPICAL 900ML",
-              "qt": 1,
-              "val": 14.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "GIN INVICTUS MACA VERDE 900ML",
-              "qt": 2,
-              "val": 29.8
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "CANTINA DA SERRA 1,5L",
-              "qt": 12,
-              "val": 110.28
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "ST PIERRE ZERO LAT PINK LEMONADE 6X310ML",
-              "qt": 1,
-              "val": 22.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
-              "qt": 1,
-              "val": 22.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "AGUA NA CAIXA 12X500ML",
-              "qt": 1,
-              "val": 31.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-              "qt": 1,
-              "val": 33.6
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
-              "qt": 1,
-              "val": 33.6
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
-              "qt": 1,
-              "val": 33.6
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "NECTAR CAJU KIDS CX 24X200ML",
-              "qt": 1,
-              "val": 33.6
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
-              "qt": 1,
-              "val": 33.6
+              "qt": 0,
+              "val": 0.0
             }
           ]
         },
@@ -20300,36 +20300,36 @@ const ENTREGAS_DATA = {
           "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
           "placa": "",
           "rota": "",
-          "status_ped": "",
+          "status_ped": "CANCELADA",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 915.58,
+          "total": 0.0,
           "itens": [
             {
               "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-              "qt": 2,
-              "val": 211.8
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
-              "qt": 2,
-              "val": 211.8
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-              "qt": 1,
-              "val": 105.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 1,
-              "val": 199.5
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "RC ATUM SOLIDO OLEO 24X170G",
-              "qt": 1,
-              "val": 186.58
+              "qt": 0,
+              "val": 0.0
             }
           ]
         },
@@ -38119,7 +38119,28 @@ const ENTREGAS_DATA = {
     {
       "nome": "RAPHAEL SANTOS - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "155003560",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DENISE LINHARES SILVA BARROS 33754551272",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 299.4,
+          "itens": [
+            {
+              "desc": "VINHO SERBAL ASSEMBLAGE 750ML",
+              "qt": 6,
+              "val": 299.4
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "155003556",
