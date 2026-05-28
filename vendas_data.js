@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "28/05/2026 14:26",
+  "atualizado_em": "28/05/2026 15:19",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -85274,6 +85274,15 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 13,
           "valor": 1231.1
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "91913",
+          "cliente": "MERCADO ITAPIRU LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 8,
+          "valor": 262.08
         }
       ],
       "Abr/26": [
@@ -103712,6 +103721,15 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 60,
           "valor": 1974.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "78141",
+          "cliente": "MARCIO GARCIA SANCHES 01351218760",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 60,
+          "valor": 750.0
         },
         {
           "data": "25/05/2026",
@@ -127031,6 +127049,114 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 2,
           "valor": 189.4
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "VINO ROSSO LOGGIA DELLE SASSAIE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 115.2
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "VINHO SERBAL MALBEC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 311.4
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "VINHO BARON DE LA VAUXONNE",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 864.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 353.4
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 654.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 327.6
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 149.4
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "MORA RIPASSO SUPERIORE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 649.8
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "PACHECA TAWNY PORT 750 ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 546.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 161.4
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "VINHO TINTO CASA DE SABICOS",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 396.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "VINHO SERBAL ASSEMBLAGE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 354.0
         },
         {
           "data": "19/05/2026",
