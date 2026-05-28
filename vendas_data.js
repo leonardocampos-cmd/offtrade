@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "28/05/2026 16:28",
+  "atualizado_em": "28/05/2026 17:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -82588,6 +82588,15 @@ const VENDAS_DATA = {
           "valor": 339.8
         },
         {
+          "data": "28/05/2026",
+          "codcli": "93736",
+          "cliente": "MERCADINHO PERNAMBUCO LTDA",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 4194.0
+        },
+        {
           "data": "21/05/2026",
           "codcli": "93736",
           "cliente": "MERCADINHO PERNAMBUCO LTDA",
@@ -109126,69 +109135,6 @@ const VENDAS_DATA = {
           "data": "26/05/2026",
           "codcli": "84829",
           "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 116.58
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 116.58
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND  ROSADO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 116.58
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 89.46
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 89.76
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 164.88
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 89.46
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "84829",
-          "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
           "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
           "fantasia": "CASTAS",
           "qt": 12,
@@ -134620,6 +134566,24 @@ const VENDAS_DATA = {
           "valor": 2589.6
         },
         {
+          "data": "28/05/2026",
+          "codcli": "77937",
+          "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 10,
+          "valor": 999.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "77937",
+          "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 499.5
+        },
+        {
           "data": "22/05/2026",
           "codcli": "82050",
           "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
@@ -136031,6 +135995,78 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 3,
           "valor": 65.7
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "93225",
+          "cliente": "JANSEN SARDINHA DA SILVA 05661663722",
+          "produto": "NECTAR CAJU 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 60.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "93225",
+          "cliente": "JANSEN SARDINHA DA SILVA 05661663722",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 60.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "93225",
+          "cliente": "JANSEN SARDINHA DA SILVA 05661663722",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 60.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "93225",
+          "cliente": "JANSEN SARDINHA DA SILVA 05661663722",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 60.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "93225",
+          "cliente": "JANSEN SARDINHA DA SILVA 05661663722",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 60.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "93225",
+          "cliente": "JANSEN SARDINHA DA SILVA 05661663722",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 120.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "93225",
+          "cliente": "JANSEN SARDINHA DA SILVA 05661663722",
+          "produto": "NECTAR PESSEGO 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 60.0
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "93225",
+          "cliente": "JANSEN SARDINHA DA SILVA 05661663722",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 64.56
         }
       ],
       "Dez/25": [
