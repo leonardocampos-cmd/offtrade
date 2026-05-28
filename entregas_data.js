@@ -1,232 +1,106 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "27/05/2026 17:41",
-  "data_rota": "27.05",
+  "atualizado_em": "28/05/2026 09:39",
+  "data_rota": "28.05",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVES",
-      "em_rota": [
-        {
-          "numped": "431000962",
-          "numnota": "397005.0",
-          "data": "26/05/2026",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "placa": "TUA3G43",
-          "rota": "TIJUCA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 274.44,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 7,
-              "val": 179.76
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "qt": 1,
-              "val": 94.68
-            }
-          ]
-        },
-        {
-          "numped": "431000963",
-          "numnota": "397016.0",
-          "data": "26/05/2026",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "placa": "LMW9C26",
-          "rota": "LEBLON + IPANEMA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 447.0,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 15,
-              "val": 385.2
-            },
-            {
-              "desc": "4 PACK RED BULL",
-              "qt": 2,
-              "val": 61.8
-            }
-          ]
-        },
-        {
-          "numped": "431000965",
-          "numnota": "396989.0",
-          "data": "26/05/2026",
-          "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
-          "placa": "RJL0C25",
-          "rota": "BANGU + CAMPO GRANDE",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 274.8,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 5,
-              "val": 128.4
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "qt": 3,
-              "val": 59.7
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-              "qt": 3,
-              "val": 86.7
-            }
-          ]
-        },
-        {
-          "numped": "431000966",
-          "numnota": "396992.0",
-          "data": "26/05/2026",
-          "cliente": "ATLM BANGU COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-          "placa": "RJL0C25",
-          "rota": "BANGU + CAMPO GRANDE",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 276.96,
-          "itens": [
-            {
-              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-              "qt": 1,
-              "val": 87.6
-            },
-            {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 2,
-              "val": 189.36
-            }
-          ]
-        },
-        {
-          "numped": "431000967",
-          "numnota": "396991.0",
-          "data": "26/05/2026",
-          "cliente": "PEDERCON PADARIA E CONFEITARIA LTDA",
-          "placa": "RJL0C25",
-          "rota": "BANGU + CAMPO GRANDE",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 856.08,
-          "itens": [
-            {
-              "desc": "4 PACK RED BULL",
-              "qt": 3,
-              "val": 92.7
-            },
-            {
-              "desc": "4 PACK RED BULL TROPICAL 4X250ML",
-              "qt": 3,
-              "val": 92.7
-            },
-            {
-              "desc": "4 PACK RED BULL MELANCIA",
-              "qt": 3,
-              "val": 92.7
-            },
-            {
-              "desc": "4 PACK RED BULL MORANGO PESSEGO",
-              "qt": 3,
-              "val": 92.7
-            },
-            {
-              "desc": "4 PACK RED BULL CEREJA",
-              "qt": 3,
-              "val": 92.7
-            },
-            {
-              "desc": "4 PACK RED BULL ZERO",
-              "qt": 3,
-              "val": 92.7
-            },
-            {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-              "qt": 1,
-              "val": 299.88
-            }
-          ]
-        },
-        {
-          "numped": "431000968",
-          "numnota": "397181.0",
-          "data": "26/05/2026",
-          "cliente": "DON RUAN PADARIA E SALGADEIRA LTDA",
-          "placa": "RJL0C25",
-          "rota": "BANGU + CAMPO GRANDE",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 256.8,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 10,
-              "val": 256.8
-            }
-          ]
-        },
-        {
-          "numped": "431000971",
-          "numnota": "397312.0",
-          "data": "26/05/2026",
-          "cliente": "DROGARIA FERNANDO LEITE LTDA",
-          "placa": "SSE8J07",
-          "rota": "RECREIO+RECOLHA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 258.7,
-          "itens": [
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "qt": 13,
-              "val": 258.7
-            }
-          ]
-        },
-        {
-          "numped": "431000957",
-          "numnota": "396205.0",
-          "data": "22/05/2026",
-          "cliente": "GUTO E JO COMERCIO VAREJISTA DE ALIMENTOS LTDA",
-          "placa": "RJL0C25",
-          "rota": "BANGU + CAMPO GRANDE",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 297.78,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 6,
-              "val": 154.08
-            },
-            {
-              "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
-              "qt": 3,
-              "val": 143.7
-            }
-          ]
-        }
-      ],
+      "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "431000982",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "HORTIFRUTIGRANJEIROS BETOFRUTI LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 299.9,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 5,
+              "val": 99.5
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 5,
+              "val": 104.5
+            },
+            {
+              "desc": "PINATI PROTEIN CUPS AMENDOIM 18X21G",
+              "qt": 1,
+              "val": 95.9
+            }
+          ]
+        },
+        {
+          "numped": "431000983",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1000.66,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 3,
+              "val": 77.04
+            },
+            {
+              "desc": "ST PIERRE ZERO LAT PINK LEMONADE 6X310ML",
+              "qt": 2,
+              "val": 46.72
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA TROPICAL LT 6X310ML",
+              "qt": 2,
+              "val": 46.72
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+              "qt": 1,
+              "val": 97.82
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+              "qt": 1,
+              "val": 108.02
+            },
+            {
+              "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
+              "qt": 1,
+              "val": 191.76
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 97.31
+            },
+            {
+              "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+              "qt": 1,
+              "val": 191.76
+            }
+          ]
+        },
         {
           "numped": "431000974",
           "numnota": "",
@@ -244,41 +118,6 @@ const ENTREGAS_DATA = {
               "desc": "RC PATE ATUM COM AZEITONAS 12X80G",
               "qt": 1,
               "val": 84.72
-            }
-          ]
-        },
-        {
-          "numped": "431000979",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "MERCEARIA HORIZONTE VIDIGAL LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 403.18,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 1,
-              "val": 71.76
-            },
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 1,
-              "val": 71.76
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 1,
-              "val": 71.76
-            },
-            {
-              "desc": "VEJA COZINHA TR LIMAO PROMO 12X500ML",
-              "qt": 1,
-              "val": 187.9
             }
           ]
         },
@@ -485,6 +324,136 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "431000979",
+          "numnota": "397728.0",
+          "data": "27/05/2026",
+          "cliente": "MERCEARIA HORIZONTE VIDIGAL LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 403.18,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA COZINHA TR LIMAO PROMO 12X500ML",
+              "qt": 1,
+              "val": 187.9
+            }
+          ]
+        },
+        {
+          "numped": "431000980",
+          "numnota": "397713.0",
+          "data": "27/05/2026",
+          "cliente": "COMIDA CASEIRA DO RUSSO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 256.8,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 10,
+              "val": 256.8
+            }
+          ]
+        },
+        {
+          "numped": "431000981",
+          "numnota": "397703.0",
+          "data": "27/05/2026",
+          "cliente": "RESTAURANTE E BAR RAINHA DE JACAREPAGUA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 313.8,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 5,
+              "val": 128.4
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 6,
+              "val": 185.4
+            }
+          ]
+        },
+        {
+          "numped": "431000962",
+          "numnota": "397005.0",
+          "data": "26/05/2026",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 274.44,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 7,
+              "val": 179.76
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.68
+            }
+          ]
+        },
+        {
+          "numped": "431000963",
+          "numnota": "397016.0",
+          "data": "26/05/2026",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 447.0,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 15,
+              "val": 385.2
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 2,
+              "val": 61.8
+            }
+          ]
+        },
+        {
           "numped": "431000964",
           "numnota": "396990.0",
           "data": "26/05/2026",
@@ -506,6 +475,131 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 0,
               "val": 0.0
+            }
+          ]
+        },
+        {
+          "numped": "431000965",
+          "numnota": "396989.0",
+          "data": "26/05/2026",
+          "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 274.8,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 5,
+              "val": 128.4
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 3,
+              "val": 59.7
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 3,
+              "val": 86.7
+            }
+          ]
+        },
+        {
+          "numped": "431000966",
+          "numnota": "396992.0",
+          "data": "26/05/2026",
+          "cliente": "ATLM BANGU COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 276.96,
+          "itens": [
+            {
+              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 2,
+              "val": 189.36
+            }
+          ]
+        },
+        {
+          "numped": "431000967",
+          "numnota": "396991.0",
+          "data": "26/05/2026",
+          "cliente": "PEDERCON PADARIA E CONFEITARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 856.08,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 3,
+              "val": 92.7
+            },
+            {
+              "desc": "4 PACK RED BULL TROPICAL 4X250ML",
+              "qt": 3,
+              "val": 92.7
+            },
+            {
+              "desc": "4 PACK RED BULL MELANCIA",
+              "qt": 3,
+              "val": 92.7
+            },
+            {
+              "desc": "4 PACK RED BULL MORANGO PESSEGO",
+              "qt": 3,
+              "val": 92.7
+            },
+            {
+              "desc": "4 PACK RED BULL CEREJA",
+              "qt": 3,
+              "val": 92.7
+            },
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 3,
+              "val": 92.7
+            },
+            {
+              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "qt": 1,
+              "val": 299.88
+            }
+          ]
+        },
+        {
+          "numped": "431000968",
+          "numnota": "397181.0",
+          "data": "26/05/2026",
+          "cliente": "DON RUAN PADARIA E SALGADEIRA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 256.8,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 10,
+              "val": 256.8
             }
           ]
         },
@@ -570,6 +664,26 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "431000971",
+          "numnota": "397312.0",
+          "data": "26/05/2026",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 258.7,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 13,
+              "val": 258.7
+            }
+          ]
+        },
+        {
           "numped": "431000959",
           "numnota": "396730.0",
           "data": "25/05/2026",
@@ -583,21 +697,6 @@ const ENTREGAS_DATA = {
           "total": 1234.68,
           "itens": [
             {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 2,
-              "val": 189.36
-            },
-            {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-              "qt": 1,
-              "val": 287.88
-            },
-            {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 2,
-              "val": 189.36
-            },
-            {
               "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
               "qt": 2,
               "val": 189.36
@@ -609,6 +708,21 @@ const ENTREGAS_DATA = {
             },
             {
               "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 2,
+              "val": 189.36
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 2,
+              "val": 189.36
+            },
+            {
+              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "qt": 1,
+              "val": 287.88
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
               "qt": 2,
               "val": 189.36
             }
@@ -671,6 +785,31 @@ const ENTREGAS_DATA = {
               "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
               "qt": 2,
               "val": 575.76
+            }
+          ]
+        },
+        {
+          "numped": "431000957",
+          "numnota": "396205.0",
+          "data": "22/05/2026",
+          "cliente": "GUTO E JO COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 297.78,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 6,
+              "val": 154.08
+            },
+            {
+              "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
+              "qt": 3,
+              "val": 143.7
             }
           ]
         },
@@ -3067,9 +3206,9 @@ const ENTREGAS_DATA = {
       "nao_emitido": [],
       "emitido_s_rota": [
         {
-          "numped": "174000026",
-          "numnota": "397545.0",
-          "data": "27/05/2026",
+          "numped": "174000027",
+          "numnota": "397794.0",
+          "data": "28/05/2026",
           "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
           "placa": "",
           "rota": "",
@@ -3077,7 +3216,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 443.42,
+          "total": 346.96,
           "itens": [
             {
               "desc": "LIQUEUR CHAMBORD 750 ML",
@@ -3085,24 +3224,9 @@ const ENTREGAS_DATA = {
               "val": 139.9
             },
             {
-              "desc": "4 PACK RED BULL TROPICAL 4X250ML",
-              "qt": 1,
-              "val": 32.76
-            },
-            {
-              "desc": "4 PACK RED BULL MELANCIA",
-              "qt": 1,
-              "val": 32.76
-            },
-            {
               "desc": "ESPUMANTE ALUD BRANCO 750ML",
               "qt": 1,
               "val": 28.9
-            },
-            {
-              "desc": "AMSTEL VIBES STRAWMELON 6X269ML",
-              "qt": 2,
-              "val": 39.8
             },
             {
               "desc": "AGUA NA LATA C/ GAS 12X310ML",
@@ -3120,9 +3244,69 @@ const ENTREGAS_DATA = {
               "val": 43.8
             },
             {
-              "desc": "ST PIERRE LATA AGUA TONICA TRAD 6X270ML",
+              "desc": "4 PACK RED BULL MELANCIA",
               "qt": 1,
-              "val": 23.9
+              "val": 32.76
+            }
+          ]
+        },
+        {
+          "numped": "174000026",
+          "numnota": "397545.0",
+          "data": "27/05/2026",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "placa": "",
+          "rota": "",
+          "status_ped": "CANCELADA",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [
+            {
+              "desc": "LIQUEUR CHAMBORD 750 ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "4 PACK RED BULL TROPICAL 4X250ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "4 PACK RED BULL MELANCIA",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "AMSTEL VIBES STRAWMELON 6X269ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "AGUA NA LATA C/ GAS 12X310ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "ST PIERRE LATA AGUA TONICA TRAD 6X270ML",
+              "qt": 0,
+              "val": 0.0
             }
           ]
         },
@@ -3255,14 +3439,77 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "ANA CLARA PASSOS",
-      "em_rota": [
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "471000253",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "DANIEL ALBUQUERQUE RIBEIRO MINIMERCADO LTDA]",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 285.5,
+          "itens": [
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 1,
+              "val": 129.9
+            },
+            {
+              "desc": "PINATI NUTS ORIGINAL 20X30G",
+              "qt": 1,
+              "val": 38.9
+            },
+            {
+              "desc": "PINATI NUTS BANANA 20X30G",
+              "qt": 2,
+              "val": 77.8
+            },
+            {
+              "desc": "PINATI NUTS COCO 20X30G",
+              "qt": 1,
+              "val": 38.9
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [
+        {
+          "numped": "471000252",
+          "numnota": "397409.0",
+          "data": "27/05/2026",
+          "cliente": "SUPERMERCADO ULTRA 07 LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entrega agendada dia 28/5",
+          "total": 1490.4,
+          "itens": [
+            {
+              "desc": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+              "qt": 3,
+              "val": 536.4
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 15,
+              "val": 954.0
+            }
+          ]
+        },
         {
           "numped": "471000246",
           "numnota": "397014.0",
           "data": "26/05/2026",
           "cliente": "MINIMERCADO MONTE SINAI LTDA",
-          "placa": "TTN5H14",
-          "rota": "SUL 1",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -3286,8 +3533,8 @@ const ENTREGAS_DATA = {
           "numnota": "397073.0",
           "data": "26/05/2026",
           "cliente": "LUCIA ELENA SANTANA",
-          "placa": "TTN5H14",
-          "rota": "SUL 1",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -3316,8 +3563,8 @@ const ENTREGAS_DATA = {
           "numnota": "397059.0",
           "data": "26/05/2026",
           "cliente": "MULTI FRUTI PRINCESA DO MAR LTDA",
-          "placa": "RJE5F31",
-          "rota": "COPACABANA",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -3351,8 +3598,8 @@ const ENTREGAS_DATA = {
           "numnota": "397213.0",
           "data": "26/05/2026",
           "cliente": "CRISTINA DE JESUS MORGADO 01436151732",
-          "placa": "TTN5H14",
-          "rota": "SUL 1",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -3371,8 +3618,8 @@ const ENTREGAS_DATA = {
           "numnota": "397250.0",
           "data": "26/05/2026",
           "cliente": "RONNIE CESAR P. SILVA MERCEARIA",
-          "placa": "TTN5H14",
-          "rota": "SUL 1",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -3403,34 +3650,6 @@ const ENTREGAS_DATA = {
               "desc": "HARPIC POWER PLUS MAR 750ML 36X25G",
               "qt": 1,
               "val": 117.0
-            }
-          ]
-        }
-      ],
-      "nao_emitido": [],
-      "emitido_s_rota": [
-        {
-          "numped": "471000252",
-          "numnota": "397409.0",
-          "data": "27/05/2026",
-          "cliente": "SUPERMERCADO ULTRA 07 LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entrega agendada dia 28/5",
-          "total": 1490.4,
-          "itens": [
-            {
-              "desc": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
-              "qt": 3,
-              "val": 536.4
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 15,
-              "val": 954.0
             }
           ]
         },
@@ -5103,170 +5322,249 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "ANGELO SUZART",
-      "em_rota": [
+      "em_rota": [],
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
-          "numped": "153001147",
-          "numnota": "397020.0",
-          "data": "26/05/2026",
-          "cliente": "ALTAS HORAS COMERCIO VAREJISTA LTDA",
-          "placa": "SSE7A76",
-          "rota": "CAXIAS +MERITI",
+          "numped": "153001158",
+          "numnota": "5403.0",
+          "data": "27/05/2026",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
-          "obs": "entregar no dia 28/05 das 10:00 as 18:00hr",
-          "total": 16176.0,
+          "obs": "ENTREGAR DIA 28.05",
+          "total": 7319.86,
           "itens": [
             {
-              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-              "qt": 20,
-              "val": 2558.0
+              "desc": "PIRASSUNUNGA OURO 51 965ML",
+              "qt": 24,
+              "val": 285.36
             },
             {
-              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "qt": 220,
-              "val": 13618.0
+              "desc": "VODKA ABSOLUT - 750 ML",
+              "qt": 12,
+              "val": 652.32
+            },
+            {
+              "desc": "FRISANTE MACAW TROPICAL MOSCATO 750ML",
+              "qt": 6,
+              "val": 147.0
+            },
+            {
+              "desc": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+              "qt": 2,
+              "val": 1274.62
+            },
+            {
+              "desc": "CHANDON RESERVE BRUT ROSE 750ML",
+              "qt": 6,
+              "val": 471.84
+            },
+            {
+              "desc": "CHANDON BABY RESERVE BRUT 187 ML",
+              "qt": 24,
+              "val": 601.2
+            },
+            {
+              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+              "qt": 6,
+              "val": 447.54
+            },
+            {
+              "desc": "CHANDON PASSION ON ICE 750 ML",
+              "qt": 6,
+              "val": 447.54
+            },
+            {
+              "desc": "WHISKY BLACK STONE 1LT",
+              "qt": 12,
+              "val": 150.48
+            },
+            {
+              "desc": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+              "qt": 6,
+              "val": 198.12
+            },
+            {
+              "desc": "LATITUD 33 CABERNET SAUVIGNON",
+              "qt": 6,
+              "val": 198.12
+            },
+            {
+              "desc": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
+              "qt": 6,
+              "val": 198.12
+            },
+            {
+              "desc": "CHANDON BABY RICHE DEMI SEC 187 ML",
+              "qt": 24,
+              "val": 601.2
+            },
+            {
+              "desc": "IMPERADOR 900ML",
+              "qt": 6,
+              "val": 70.26
+            },
+            {
+              "desc": "GIN ROCKS WATERMELON 1000ML",
+              "qt": 6,
+              "val": 132.0
+            },
+            {
+              "desc": "RUM MONTILLA CRISTAL 1000ML",
+              "qt": 12,
+              "val": 231.6
+            },
+            {
+              "desc": "VODKA GREY GOOSE LA POIRE 750 ML",
+              "qt": 2,
+              "val": 240.1
+            },
+            {
+              "desc": "VODKA GREY GOOSE LORANGE 750ML",
+              "qt": 2,
+              "val": 240.1
+            },
+            {
+              "desc": "VODKA ORLOFF 1L",
+              "qt": 12,
+              "val": 231.6
+            },
+            {
+              "desc": "RUM MALIBU 750 ML",
+              "qt": 6,
+              "val": 264.6
+            },
+            {
+              "desc": "VODKA NATASHA 900ML",
+              "qt": 6,
+              "val": 71.64
+            },
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 5,
+              "val": 164.5
             }
           ]
         },
         {
-          "numped": "153001149",
-          "numnota": "397155.0",
-          "data": "26/05/2026",
-          "cliente": "RIO SUL VILA OPERARIA COMERCIO DE ALIMENTOS LTDA",
-          "placa": "SSE7A76",
-          "rota": "CAXIAS +MERITI",
+          "numped": "153001159",
+          "numnota": "5407.0",
+          "data": "27/05/2026",
+          "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
-          "obs": "entregar no dia 27/05/26 com pagamentos de descarga R$50,00 por pallets",
-          "total": 848.64,
+          "obs": "ENTREGA DIA 28.05 08:00 AS 15:00",
+          "total": 2555.1,
           "itens": [
             {
-              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-              "qt": 1,
-              "val": 65.28
+              "desc": "RUM MONTILLA CRISTAL 1000ML",
+              "qt": 12,
+              "val": 231.6
             },
             {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 1,
-              "val": 65.28
+              "desc": "VODKA ORLOFF 1L",
+              "qt": 12,
+              "val": 231.6
             },
             {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 1,
-              "val": 65.28
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 12,
+              "val": 147.72
             },
             {
-              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-              "qt": 10,
-              "val": 652.8
+              "desc": "VODKA NATASHA 900ML",
+              "qt": 12,
+              "val": 143.28
+            },
+            {
+              "desc": "GIN ROCKS SCILIAN LEMON 1000ML",
+              "qt": 6,
+              "val": 132.0
+            },
+            {
+              "desc": "CHANDON BABY RESERVE BRUT 187 ML",
+              "qt": 24,
+              "val": 601.2
+            },
+            {
+              "desc": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+              "qt": 6,
+              "val": 198.12
+            },
+            {
+              "desc": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
+              "qt": 6,
+              "val": 198.12
+            },
+            {
+              "desc": "CHANDON BABY RICHE DEMI SEC 187 ML",
+              "qt": 24,
+              "val": 601.2
+            },
+            {
+              "desc": "IMPERADOR 900ML",
+              "qt": 6,
+              "val": 70.26
             }
           ]
         },
         {
-          "numped": "153001150",
-          "numnota": "5254.0",
-          "data": "26/05/2026",
-          "cliente": "CEREAIS IRENE LTDA",
-          "placa": "SSE7A76",
-          "rota": "CAXIAS +MERITI",
+          "numped": "153001160",
+          "numnota": "5404.0",
+          "data": "27/05/2026",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
-          "obs": "ENTREGA AGENDADA: 26/05",
-          "total": 870.12,
+          "obs": "ENTREGAR 28.05 08:00 AS 15:00",
+          "total": 4973.4,
           "itens": [
             {
               "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-              "qt": 6,
-              "val": 299.4
+              "qt": 36,
+              "val": 2156.4
+            },
+            {
+              "desc": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+              "qt": 18,
+              "val": 610.2
+            },
+            {
+              "desc": "VINHO FOODKILLER CARMENERE 750ML",
+              "qt": 18,
+              "val": 610.2
+            },
+            {
+              "desc": "VINHO VILLA ROSA FRISANTE BRANCO",
+              "qt": 12,
+              "val": 310.8
             },
             {
               "desc": "VINHO VILLA ROSA FRISANTE ROSE",
-              "qt": 6,
-              "val": 137.4
+              "qt": 12,
+              "val": 310.8
             },
             {
               "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-              "qt": 6,
-              "val": 216.66
+              "qt": 18,
+              "val": 585.0
             },
             {
               "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
-              "qt": 6,
-              "val": 216.66
+              "qt": 12,
+              "val": 390.0
             }
           ]
         },
-        {
-          "numped": "153001145",
-          "numnota": "5207.0",
-          "data": "25/05/2026",
-          "cliente": "CEREAIS IRENE LTDA",
-          "placa": "SSE7A76",
-          "rota": "CAXIAS +MERITI",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 26/05",
-          "total": 653.46,
-          "itens": [
-            {
-              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-              "qt": 6,
-              "val": 299.4
-            },
-            {
-              "desc": "VINHO VILLA ROSA FRISANTE ROSE",
-              "qt": 6,
-              "val": 137.4
-            },
-            {
-              "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-              "qt": 6,
-              "val": 216.66
-            }
-          ]
-        },
-        {
-          "numped": "153001122",
-          "numnota": "395018.0",
-          "data": "19/05/2026",
-          "cliente": "SUPERMERCADO RIO SUL DO PANTANAL LTDA",
-          "placa": "SSE7A76",
-          "rota": "CAXIAS +MERITI",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entregar no dia 20/05/26 com pagamento de descarga no valor de R$60,00 por",
-          "total": 2611.2,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-              "qt": 5,
-              "val": 326.4
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 5,
-              "val": 326.4
-            },
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 10,
-              "val": 652.8
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 20,
-              "val": 1305.6
-            }
-          ]
-        }
-      ],
-      "nao_emitido": [],
-      "emitido_s_rota": [
         {
           "numped": "153001151",
           "numnota": "397380.0",
@@ -5423,6 +5721,31 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "153001147",
+          "numnota": "397020.0",
+          "data": "26/05/2026",
+          "cliente": "ALTAS HORAS COMERCIO VAREJISTA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 28/05 das 10:00 as 18:00hr",
+          "total": 16176.0,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 20,
+              "val": 2558.0
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 220,
+              "val": 13618.0
+            }
+          ]
+        },
+        {
           "numped": "153001148",
           "numnota": "397544.0",
           "data": "26/05/2026",
@@ -5449,6 +5772,76 @@ const ENTREGAS_DATA = {
               "desc": "4 PACK RED BULL MELANCIA",
               "qt": 1,
               "val": 32.76
+            }
+          ]
+        },
+        {
+          "numped": "153001149",
+          "numnota": "397155.0",
+          "data": "26/05/2026",
+          "cliente": "RIO SUL VILA OPERARIA COMERCIO DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 27/05/26 com pagamentos de descarga R$50,00 por pallets",
+          "total": 848.64,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+              "qt": 10,
+              "val": 652.8
+            }
+          ]
+        },
+        {
+          "numped": "153001150",
+          "numnota": "5254.0",
+          "data": "26/05/2026",
+          "cliente": "CEREAIS IRENE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 26/05",
+          "total": 870.12,
+          "itens": [
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 6,
+              "val": 299.4
+            },
+            {
+              "desc": "VINHO VILLA ROSA FRISANTE ROSE",
+              "qt": 6,
+              "val": 137.4
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+              "qt": 6,
+              "val": 216.66
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+              "qt": 6,
+              "val": 216.66
             }
           ]
         },
@@ -5499,6 +5892,36 @@ const ENTREGAS_DATA = {
               "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
               "qt": 6,
               "val": 197.4
+            }
+          ]
+        },
+        {
+          "numped": "153001145",
+          "numnota": "5207.0",
+          "data": "25/05/2026",
+          "cliente": "CEREAIS IRENE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 26/05",
+          "total": 653.46,
+          "itens": [
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 6,
+              "val": 299.4
+            },
+            {
+              "desc": "VINHO VILLA ROSA FRISANTE ROSE",
+              "qt": 6,
+              "val": 137.4
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+              "qt": 6,
+              "val": 216.66
             }
           ]
         },
@@ -6069,6 +6492,41 @@ const ENTREGAS_DATA = {
               "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
               "qt": 18,
               "val": 592.2
+            }
+          ]
+        },
+        {
+          "numped": "153001122",
+          "numnota": "395018.0",
+          "data": "19/05/2026",
+          "cliente": "SUPERMERCADO RIO SUL DO PANTANAL LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 20/05/26 com pagamento de descarga no valor de R$60,00 por",
+          "total": 2611.2,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 5,
+              "val": 326.4
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 5,
+              "val": 326.4
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 10,
+              "val": 652.8
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 20,
+              "val": 1305.6
             }
           ]
         },
@@ -8211,84 +8669,89 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "BARBARA CABRAL",
-      "em_rota": [
+      "em_rota": [],
+      "nao_emitido": [
         {
-          "numped": "412001274",
-          "numnota": "397183.0",
-          "data": "26/05/2026",
-          "cliente": "TINGAS DO BRASIL POSTO DE GASOLINA LTDA",
-          "placa": "RJL0C25",
-          "rota": "BANGU + CAMPO GRANDE",
+          "numped": "412001279",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
-          "obs": "",
-          "total": 300.46,
+          "obs": "Entrega 29/05- 08h as 17h-  21999943896",
+          "total": 4996.2,
           "itens": [
             {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 196.56
+              "desc": "PACHECA TAWNY PORT 750 ML",
+              "qt": 6,
+              "val": 546.0
             },
             {
-              "desc": "COQUETEL  PINK MOON 12X600ML - VIDRO",
-              "qt": 1,
-              "val": 103.9
-            }
-          ]
-        },
-        {
-          "numped": "412001275",
-          "numnota": "397207.0",
-          "data": "26/05/2026",
-          "cliente": "POSTO DE GASOLINA SANTA BARBARA DO MEIER LTDA",
-          "placa": "LTG4A18",
-          "rota": "NORTE + PENHA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 441.2,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 5,
-              "val": 129.5
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 6,
+              "val": 149.4
             },
             {
-              "desc": "COQUETEL  PINK MOON 12X600ML - VIDRO",
-              "qt": 3,
-              "val": 311.7
-            }
-          ]
-        },
-        {
-          "numped": "412001276",
-          "numnota": "397164.0",
-          "data": "26/05/2026",
-          "cliente": "AUTO POSTO REDE PARCEIRO NILOPOLIS LTDA",
-          "placa": "TUP1A46",
-          "rota": "NOVA IGUAÇU",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 326.06,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 196.56
+              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+              "qt": 12,
+              "val": 654.0
             },
             {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 5,
-              "val": 129.5
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 6,
+              "val": 353.4
+            },
+            {
+              "desc": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+              "qt": 6,
+              "val": 327.6
+            },
+            {
+              "desc": "VINHO BARON DE LA VAUXONNE",
+              "qt": 12,
+              "val": 864.0
+            },
+            {
+              "desc": "VINHO BRANCO TERRAS DE SANTAR 750ML",
+              "qt": 6,
+              "val": 114.0
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 6,
+              "val": 161.4
+            },
+            {
+              "desc": "MORA RIPASSO SUPERIORE 750ML",
+              "qt": 6,
+              "val": 649.8
+            },
+            {
+              "desc": "VINHO SERBAL MALBEC 750ML",
+              "qt": 6,
+              "val": 311.4
+            },
+            {
+              "desc": "VINHO SERBAL ASSEMBLAGE 750ML",
+              "qt": 6,
+              "val": 354.0
+            },
+            {
+              "desc": "VINHO TINTO CASA DE SABICOS",
+              "qt": 6,
+              "val": 396.0
+            },
+            {
+              "desc": "VINO ROSSO LOGGIA DELLE SASSAIE 750ML",
+              "qt": 6,
+              "val": 115.2
             }
           ]
         }
       ],
-      "nao_emitido": [],
       "emitido_s_rota": [
         {
           "numped": "412001277",
@@ -8304,6 +8767,11 @@ const ENTREGAS_DATA = {
           "total": 454.3,
           "itens": [
             {
+              "desc": "APERITIVO APEROL 750 ML",
+              "qt": 2,
+              "val": 95.8
+            },
+            {
               "desc": "ESPUMANTE BRUT QUINTA DMORGADO 660ML",
               "qt": 3,
               "val": 71.7
@@ -8312,11 +8780,6 @@ const ENTREGAS_DATA = {
               "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
               "qt": 12,
               "val": 286.8
-            },
-            {
-              "desc": "APERITIVO APEROL 750 ML",
-              "qt": 2,
-              "val": 95.8
             }
           ]
         },
@@ -8357,6 +8820,81 @@ const ENTREGAS_DATA = {
               "desc": "ST PIERRE LATA PINK LEMON LT 6X270ML",
               "qt": 1,
               "val": 24.96
+            }
+          ]
+        },
+        {
+          "numped": "412001274",
+          "numnota": "397183.0",
+          "data": "26/05/2026",
+          "cliente": "TINGAS DO BRASIL POSTO DE GASOLINA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 300.46,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 196.56
+            },
+            {
+              "desc": "COQUETEL  PINK MOON 12X600ML - VIDRO",
+              "qt": 1,
+              "val": 103.9
+            }
+          ]
+        },
+        {
+          "numped": "412001275",
+          "numnota": "397207.0",
+          "data": "26/05/2026",
+          "cliente": "POSTO DE GASOLINA SANTA BARBARA DO MEIER LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 441.2,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 5,
+              "val": 129.5
+            },
+            {
+              "desc": "COQUETEL  PINK MOON 12X600ML - VIDRO",
+              "qt": 3,
+              "val": 311.7
+            }
+          ]
+        },
+        {
+          "numped": "412001276",
+          "numnota": "397164.0",
+          "data": "26/05/2026",
+          "cliente": "AUTO POSTO REDE PARCEIRO NILOPOLIS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 326.06,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 196.56
+            },
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 5,
+              "val": 129.5
             }
           ]
         },
@@ -10436,209 +10974,8 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "DIOGO RAPOSO",
-      "em_rota": [
-        {
-          "numped": "144001443",
-          "numnota": "397066.0",
-          "data": "26/05/2026",
-          "cliente": "ERIVALDO DE SOUZA SANTOS",
-          "placa": "TTQ1A33",
-          "rota": "TAQUARA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 3023.3,
-          "itens": [
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 12,
-              "val": 334.8
-            },
-            {
-              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-              "qt": 10,
-              "val": 1279.0
-            },
-            {
-              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-              "qt": 1,
-              "val": 127.9
-            },
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 6,
-              "val": 203.4
-            },
-            {
-              "desc": "VODKA SMIRNOFF 600 ML",
-              "qt": 12,
-              "val": 258.0
-            },
-            {
-              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-              "qt": 24,
-              "val": 381.6
-            },
-            {
-              "desc": "VILLA ROSA TINTO 750ML",
-              "qt": 6,
-              "val": 179.4
-            },
-            {
-              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-              "qt": 1,
-              "val": 64.8
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 1,
-              "val": 64.8
-            },
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 1,
-              "val": 64.8
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 1,
-              "val": 64.8
-            }
-          ]
-        },
-        {
-          "numped": "144001444",
-          "numnota": "397219.0",
-          "data": "26/05/2026",
-          "cliente": "ERIVALDO DE SOUZA SANTOS",
-          "placa": "TTQ1A33",
-          "rota": "TAQUARA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 116.7,
-          "itens": [
-            {
-              "desc": "VILLA ROSA BRANCO 750ML",
-              "qt": 3,
-              "val": 116.7
-            }
-          ]
-        },
-        {
-          "numped": "144001445",
-          "numnota": "397108.0",
-          "data": "26/05/2026",
-          "cliente": "LUIZ VICTOR SOUZA PINTO 14684613704",
-          "placa": "LMV5I35",
-          "rota": "SANTA CRUZ",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 710.1,
-          "itens": [
-            {
-              "desc": "GIN INVICTUS MELANCIA 900ML",
-              "qt": 6,
-              "val": 77.94
-            },
-            {
-              "desc": "GIN INVICTUS TRADICIONAL 900ML",
-              "qt": 12,
-              "val": 155.88
-            },
-            {
-              "desc": "GIN INVICTUS TROPICAL 900ML",
-              "qt": 6,
-              "val": 77.94
-            },
-            {
-              "desc": "GIN INVICTUS MACA VERDE 900ML",
-              "qt": 6,
-              "val": 77.94
-            },
-            {
-              "desc": "SABOR DO SABOR GIN + COMBO MELANCIA",
-              "qt": 18,
-              "val": 160.2
-            },
-            {
-              "desc": "SABOR DO SABOR WHISKY + COMBO TRAD",
-              "qt": 18,
-              "val": 160.2
-            }
-          ]
-        },
-        {
-          "numped": "144001446",
-          "numnota": "397201.0",
-          "data": "26/05/2026",
-          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
-          "placa": "LTG4A18",
-          "rota": "NORTE + PENHA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 442.3,
-          "itens": [
-            {
-              "desc": "SMIRNOFF RED PET 1750 ML",
-              "qt": 9,
-              "val": 310.5
-            },
-            {
-              "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
-              "qt": 2,
-              "val": 131.8
-            }
-          ]
-        }
-      ],
+      "em_rota": [],
       "nao_emitido": [
-        {
-          "numped": "144001454",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "GOMES RESTAURANTE E BAR RJ EIRELI",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 588.0,
-          "itens": [
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 24,
-              "val": 588.0
-            }
-          ]
-        },
-        {
-          "numped": "144001453",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "MINIMERCADO ALFERES LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 329.7,
-          "itens": [
-            {
-              "desc": "WHISKY JACK DANIELS APPLE 1L",
-              "qt": 3,
-              "val": 329.7
-            }
-          ]
-        },
         {
           "numped": "144001448",
           "numnota": "",
@@ -10827,6 +11164,236 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "144001453",
+          "numnota": "397643.0",
+          "data": "27/05/2026",
+          "cliente": "MINIMERCADO ALFERES LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 329.7,
+          "itens": [
+            {
+              "desc": "WHISKY JACK DANIELS APPLE 1L",
+              "qt": 3,
+              "val": 329.7
+            }
+          ]
+        },
+        {
+          "numped": "144001455",
+          "numnota": "397780.0",
+          "data": "27/05/2026",
+          "cliente": "MINIMERCADO ALFERES LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 329.7,
+          "itens": [
+            {
+              "desc": "WHISKY JACK DANIELS APPLE 1L",
+              "qt": 3,
+              "val": 329.7
+            }
+          ]
+        },
+        {
+          "numped": "144001443",
+          "numnota": "397066.0",
+          "data": "26/05/2026",
+          "cliente": "ERIVALDO DE SOUZA SANTOS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3023.3,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 334.8
+            },
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 10,
+              "val": 1279.0
+            },
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 1,
+              "val": 127.9
+            },
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 6,
+              "val": 203.4
+            },
+            {
+              "desc": "VODKA SMIRNOFF 600 ML",
+              "qt": 12,
+              "val": 258.0
+            },
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 24,
+              "val": 381.6
+            },
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 6,
+              "val": 179.4
+            },
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 1,
+              "val": 64.8
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 64.8
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 64.8
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 64.8
+            }
+          ]
+        },
+        {
+          "numped": "144001444",
+          "numnota": "397219.0",
+          "data": "26/05/2026",
+          "cliente": "ERIVALDO DE SOUZA SANTOS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 116.7,
+          "itens": [
+            {
+              "desc": "VILLA ROSA BRANCO 750ML",
+              "qt": 3,
+              "val": 116.7
+            }
+          ]
+        },
+        {
+          "numped": "144001445",
+          "numnota": "397108.0",
+          "data": "26/05/2026",
+          "cliente": "LUIZ VICTOR SOUZA PINTO 14684613704",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 710.1,
+          "itens": [
+            {
+              "desc": "GIN INVICTUS MELANCIA 900ML",
+              "qt": 6,
+              "val": 77.94
+            },
+            {
+              "desc": "GIN INVICTUS TRADICIONAL 900ML",
+              "qt": 12,
+              "val": 155.88
+            },
+            {
+              "desc": "GIN INVICTUS TROPICAL 900ML",
+              "qt": 6,
+              "val": 77.94
+            },
+            {
+              "desc": "GIN INVICTUS MACA VERDE 900ML",
+              "qt": 6,
+              "val": 77.94
+            },
+            {
+              "desc": "SABOR DO SABOR GIN + COMBO MELANCIA",
+              "qt": 18,
+              "val": 160.2
+            },
+            {
+              "desc": "SABOR DO SABOR WHISKY + COMBO TRAD",
+              "qt": 18,
+              "val": 160.2
+            }
+          ]
+        },
+        {
+          "numped": "144001446",
+          "numnota": "397201.0",
+          "data": "26/05/2026",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 442.3,
+          "itens": [
+            {
+              "desc": "SMIRNOFF RED PET 1750 ML",
+              "qt": 9,
+              "val": 310.5
+            },
+            {
+              "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
+              "qt": 2,
+              "val": 131.8
+            }
+          ]
+        },
+        {
+          "numped": "144001438",
+          "numnota": "396535.0",
+          "data": "25/05/2026",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENDERECO: AV ADAUTO BOTELHO, 29 - COLONIA JULIANO MOREIRA",
+          "total": 669.6,
+          "itens": [
+            {
+              "desc": "CONHAQUE DREHER 900ML",
+              "qt": 12,
+              "val": 204.0
+            },
+            {
+              "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+              "qt": 12,
+              "val": 274.8
+            },
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 12,
+              "val": 190.8
+            }
+          ]
+        },
+        {
           "numped": "144001439",
           "numnota": "396691.0",
           "data": "25/05/2026",
@@ -10893,36 +11460,6 @@ const ENTREGAS_DATA = {
               "desc": "VODCA SMIRNOFF RED 998 ML",
               "qt": 144,
               "val": 3528.0
-            }
-          ]
-        },
-        {
-          "numped": "144001438",
-          "numnota": "396535.0",
-          "data": "25/05/2026",
-          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENDERECO: AV ADAUTO BOTELHO, 29 - COLONIA JULIANO MOREIRA",
-          "total": 669.6,
-          "itens": [
-            {
-              "desc": "CONHAQUE DREHER 900ML",
-              "qt": 12,
-              "val": 204.0
-            },
-            {
-              "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
-              "qt": 12,
-              "val": 274.8
-            },
-            {
-              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-              "qt": 12,
-              "val": 190.8
             }
           ]
         },
@@ -10998,6 +11535,66 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
               "qt": 1,
               "val": 191.98
+            }
+          ]
+        },
+        {
+          "numped": "144001433",
+          "numnota": "395647.0",
+          "data": "20/05/2026",
+          "cliente": "MINI MARKET BARRA SUL MERCADO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 460.8,
+          "itens": [
+            {
+              "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+              "qt": 3,
+              "val": 95.7
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+              "qt": 3,
+              "val": 131.7
+            },
+            {
+              "desc": "VILLA ROSA BRANCO 750ML",
+              "qt": 3,
+              "val": 116.7
+            },
+            {
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 3,
+              "val": 116.7
+            }
+          ]
+        },
+        {
+          "numped": "144001434",
+          "numnota": "395625.0",
+          "data": "20/05/2026",
+          "cliente": "MINI MERCADO BOA OPCAO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 500.3,
+          "itens": [
+            {
+              "desc": "WHISKY BALLANTINE'S FINEST 1L",
+              "qt": 6,
+              "val": 401.4
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 1,
+              "val": 98.9
             }
           ]
         },
@@ -11093,66 +11690,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO GRAVEDAD CAB. SAUV.",
               "qt": 6,
               "val": 179.4
-            }
-          ]
-        },
-        {
-          "numped": "144001433",
-          "numnota": "395647.0",
-          "data": "20/05/2026",
-          "cliente": "MINI MARKET BARRA SUL MERCADO",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 460.8,
-          "itens": [
-            {
-              "desc": "VILLA ROSA BRANCO 750ML",
-              "qt": 3,
-              "val": 116.7
-            },
-            {
-              "desc": "VILLA ROSA  ROSE 750ML",
-              "qt": 3,
-              "val": 116.7
-            },
-            {
-              "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
-              "qt": 3,
-              "val": 95.7
-            },
-            {
-              "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
-              "qt": 3,
-              "val": 131.7
-            }
-          ]
-        },
-        {
-          "numped": "144001434",
-          "numnota": "395625.0",
-          "data": "20/05/2026",
-          "cliente": "MINI MERCADO BOA OPCAO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 500.3,
-          "itens": [
-            {
-              "desc": "WHISKY BALLANTINE'S FINEST 1L",
-              "qt": 6,
-              "val": 401.4
-            },
-            {
-              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-              "qt": 1,
-              "val": 98.9
             }
           ]
         },
@@ -11465,6 +12002,36 @@ const ENTREGAS_DATA = {
           "total": 4366.2,
           "itens": [
             {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 294.0
+            },
+            {
+              "desc": "VODKA ABSOLUT - 1 LITRO",
+              "qt": 2,
+              "val": 139.8
+            },
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 6,
+              "val": 539.4
+            },
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 3,
+              "val": 359.7
+            },
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 3,
+              "val": 209.7
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 4,
+              "val": 599.6
+            },
+            {
               "desc": "GIN BEEFEATER 750ML",
               "qt": 4,
               "val": 319.6
@@ -11498,36 +12065,6 @@ const ENTREGAS_DATA = {
               "desc": "LICOR BANANINHA CARIOCA 750ML",
               "qt": 5,
               "val": 299.5
-            },
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 12,
-              "val": 294.0
-            },
-            {
-              "desc": "VODKA ABSOLUT - 1 LITRO",
-              "qt": 2,
-              "val": 139.8
-            },
-            {
-              "desc": "GIN TANQUERAY  750 ML",
-              "qt": 6,
-              "val": 539.4
-            },
-            {
-              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-              "qt": 3,
-              "val": 359.7
-            },
-            {
-              "desc": "WHISKY J WALKER RED LABEL 1L",
-              "qt": 3,
-              "val": 209.7
-            },
-            {
-              "desc": "WHISKY J WALKER BLACK LABEL 1L",
-              "qt": 4,
-              "val": 599.6
             }
           ]
         },
@@ -12439,6 +12976,26 @@ const ENTREGAS_DATA = {
       "nao_emitido": [],
       "emitido_s_rota": [
         {
+          "numped": "417000330",
+          "numnota": "5406.0",
+          "data": "27/05/2026",
+          "cliente": "JM LISAMAR SUPERMERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGAR 28.05 08:00 AS 15:00",
+          "total": 344.7,
+          "itens": [
+            {
+              "desc": "WHISKY JACK DANIELS 1L",
+              "qt": 3,
+              "val": 344.7
+            }
+          ]
+        },
+        {
           "numped": "417000329",
           "numnota": "397399.0",
           "data": "22/05/2026",
@@ -13287,93 +13844,7 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "FABIO VALOTTI",
-      "em_rota": [
-        {
-          "numped": "378000387",
-          "numnota": "397013.0",
-          "data": "26/05/2026",
-          "cliente": "FOOD SERV SC LTDA",
-          "placa": "TTN5H14",
-          "rota": "SUL 1",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 284.1,
-          "itens": [
-            {
-              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "qt": 3,
-              "val": 284.1
-            }
-          ]
-        },
-        {
-          "numped": "378000389",
-          "numnota": "397206.0",
-          "data": "26/05/2026",
-          "cliente": "DIOGO R DE ANDRADE - CANTINA",
-          "placa": "LTG4A18",
-          "rota": "NORTE + PENHA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 509.76,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 169.92
-            },
-            {
-              "desc": "RED BULL SF POMELO 24X250ML",
-              "qt": 1,
-              "val": 169.92
-            },
-            {
-              "desc": "RED BULL SF NECTARINA 24X250ML",
-              "qt": 1,
-              "val": 169.92
-            }
-          ]
-        },
-        {
-          "numped": "378000386",
-          "numnota": "396560.0",
-          "data": "25/05/2026",
-          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
-          "placa": "SRA3F55",
-          "rota": "SANTO CRISTO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Entrega dia 26/05",
-          "total": 290.12,
-          "itens": [
-            {
-              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-              "qt": 1,
-              "val": 128.9
-            },
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 2,
-              "val": 51.8
-            },
-            {
-              "desc": "4 PACK RED BULL",
-              "qt": 2,
-              "val": 65.52
-            },
-            {
-              "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
-              "qt": 1,
-              "val": 43.9
-            }
-          ]
-        }
-      ],
+      "em_rota": [],
       "nao_emitido": [],
       "emitido_s_rota": [
         {
@@ -13402,6 +13873,26 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "378000387",
+          "numnota": "397013.0",
+          "data": "26/05/2026",
+          "cliente": "FOOD SERV SC LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 284.1,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 3,
+              "val": 284.1
+            }
+          ]
+        },
+        {
           "numped": "378000388",
           "numnota": "397389.0",
           "data": "26/05/2026",
@@ -13423,6 +13914,71 @@ const ENTREGAS_DATA = {
               "desc": "4 PACK RED BULL",
               "qt": 2,
               "val": 65.52
+            }
+          ]
+        },
+        {
+          "numped": "378000389",
+          "numnota": "397206.0",
+          "data": "26/05/2026",
+          "cliente": "DIOGO R DE ANDRADE - CANTINA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 509.76,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 169.92
+            },
+            {
+              "desc": "RED BULL SF POMELO 24X250ML",
+              "qt": 1,
+              "val": 169.92
+            },
+            {
+              "desc": "RED BULL SF NECTARINA 24X250ML",
+              "qt": 1,
+              "val": 169.92
+            }
+          ]
+        },
+        {
+          "numped": "378000386",
+          "numnota": "396560.0",
+          "data": "25/05/2026",
+          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Entrega dia 26/05",
+          "total": 290.12,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 1,
+              "val": 128.9
+            },
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 51.8
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 2,
+              "val": 65.52
+            },
+            {
+              "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
+              "qt": 1,
+              "val": 43.9
             }
           ]
         },
@@ -14060,351 +14616,25 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "GISELLE BARFER - OFF TRADE",
-      "em_rota": [
-        {
-          "numped": "159004696",
-          "numnota": "397174.0",
-          "data": "26/05/2026",
-          "cliente": "WALESCA OLIVEIRA E SOUZA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1136.16,
-          "itens": [
-            {
-              "desc": "RED BULL SUGAR FREE 24X250ML",
-              "qt": 1,
-              "val": 189.36
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 1,
-              "val": 189.36
-            },
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 1,
-              "val": 189.36
-            },
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 3,
-              "val": 568.08
-            }
-          ]
-        },
-        {
-          "numped": "159004687",
-          "numnota": "396997.0",
-          "data": "26/05/2026",
-          "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1306.5,
-          "itens": [
-            {
-              "desc": "LICOR STOCK CURACAU BLUE 720 ML",
-              "qt": 30,
-              "val": 1107.0
-            },
-            {
-              "desc": "WHISKY PASSPORT HONEY 670ML",
-              "qt": 5,
-              "val": 199.5
-            }
-          ]
-        },
-        {
-          "numped": "159004688",
-          "numnota": "397003.0",
-          "data": "26/05/2026",
-          "cliente": "ADRIANA BARBOSA DA SILVA CAFETERIA LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 281.4,
-          "itens": [
-            {
-              "desc": "AGUA MINERAL MAMBA WATER C/ GAS 12X350ML",
-              "qt": 6,
-              "val": 281.4
-            }
-          ]
-        },
-        {
-          "numped": "159004690",
-          "numnota": "396999.0",
-          "data": "26/05/2026",
-          "cliente": "LONDON BAR E PETISCARIA LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 366.3,
-          "itens": [
-            {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-              "qt": 1,
-              "val": 126.9
-            },
-            {
-              "desc": "GIN MARINA 750ML",
-              "qt": 6,
-              "val": 239.4
-            }
-          ]
-        },
-        {
-          "numped": "159004691",
-          "numnota": "396985.0",
-          "data": "26/05/2026",
-          "cliente": "R R RESTAURANTE CARIOCA LTDA",
-          "placa": "RJV2J20",
-          "rota": "SHOPP BARRA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1917.6,
-          "itens": [
-            {
-              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-              "qt": 24,
-              "val": 1917.6
-            }
-          ]
-        },
-        {
-          "numped": "159004692",
-          "numnota": "397150.0",
-          "data": "26/05/2026",
-          "cliente": "R R RESTAURANTE CARIOCA LTDA",
-          "placa": "RJV2J20",
-          "rota": "SHOPP BARRA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 440.8,
-          "itens": [
-            {
-              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-              "qt": 8,
-              "val": 440.8
-            }
-          ]
-        },
-        {
-          "numped": "159004694",
-          "numnota": "397124.0",
-          "data": "26/05/2026",
-          "cliente": "MADAME MERLOT ADEGA LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 251.1,
-          "itens": [
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 9,
-              "val": 251.1
-            }
-          ]
-        },
-        {
-          "numped": "159004695",
-          "numnota": "397175.0",
-          "data": "26/05/2026",
-          "cliente": "C J A SOARES RESTAURANTE E BAR -LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 568.08,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 3,
-              "val": 568.08
-            }
-          ]
-        },
-        {
-          "numped": "159004683",
-          "numnota": "396876.0",
-          "data": "25/05/2026",
-          "cliente": "MADAME MERLOT ADEGA LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 283.4,
-          "itens": [
-            {
-              "desc": "RUM BACARDI SUPERIOR 980ML",
-              "qt": 3,
-              "val": 107.7
-            },
-            {
-              "desc": "GIN GORDONS 750 ML",
-              "qt": 2,
-              "val": 111.8
-            },
-            {
-              "desc": "GIN GORDONS PINK 700ML",
-              "qt": 1,
-              "val": 63.9
-            }
-          ]
-        },
-        {
-          "numped": "159004684",
-          "numnota": "396878.0",
-          "data": "25/05/2026",
-          "cliente": "EDEN GASTRONOMIA E CHOPERIA LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 814.8,
-          "itens": [
-            {
-              "desc": "VODKA ABSOLUT RASPBERRY 750 ML",
-              "qt": 12,
-              "val": 814.8
-            }
-          ]
-        },
-        {
-          "numped": "159004685",
-          "numnota": "396877.0",
-          "data": "25/05/2026",
-          "cliente": "TCA COMERCIO CABO FRIO LTDA",
-          "placa": "RKR6E39",
-          "rota": "CABO FRIO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 3833.04,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 10,
-              "val": 1917.6
-            },
-            {
-              "desc": "WHISKY J WALKER RED LABEL 1L",
-              "qt": 12,
-              "val": 922.8
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-              "qt": 2,
-              "val": 73.8
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 2,
-              "val": 383.52
-            },
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 2,
-              "val": 383.52
-            },
-            {
-              "desc": "CHANDON RESERVE BRUT ROSE 750ML",
-              "qt": 2,
-              "val": 151.8
-            }
-          ]
-        },
-        {
-          "numped": "159004686",
-          "numnota": "396998.0",
-          "data": "25/05/2026",
-          "cliente": "ARRAIAL C HOTEL LTDA",
-          "placa": "RKR6E39",
-          "rota": "CABO FRIO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 24.68,
-          "itens": [
-            {
-              "desc": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
-              "qt": 1,
-              "val": 12.34
-            },
-            {
-              "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-              "qt": 1,
-              "val": 12.34
-            }
-          ]
-        }
-      ],
+      "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "159004716",
+          "numped": "159004712",
           "numnota": "",
           "data": "27/05/2026",
-          "cliente": "GOTIVO E FAMILIA RESTAURANTE E POUSADA LTDA",
+          "cliente": "LUA GASTROBAR LTDA",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 51.66,
+          "total": 491.6,
           "itens": [
             {
-              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-              "qt": 1,
-              "val": 51.66
-            }
-          ]
-        },
-        {
-          "numped": "159004715",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "GOTIVO E FAMILIA RESTAURANTE E POUSADA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 449.4,
-          "itens": [
-            {
-              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-              "qt": 6,
-              "val": 449.4
+              "desc": "JACK DANIELS HONEY 1 L",
+              "qt": 4,
+              "val": 491.6
             }
           ]
         },
@@ -14425,56 +14655,6 @@ const ENTREGAS_DATA = {
               "desc": "LICOR STOCK CURACAU 720 ML",
               "qt": 11,
               "val": 405.9
-            }
-          ]
-        },
-        {
-          "numped": "159004714",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "COMERCIAL MAFRAN LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1277.6,
-          "itens": [
-            {
-              "desc": "LICOR COINTREAU 700 ML",
-              "qt": 4,
-              "val": 359.6
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-              "qt": 18,
-              "val": 664.2
-            },
-            {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-              "qt": 2,
-              "val": 253.8
-            }
-          ]
-        },
-        {
-          "numped": "159004710",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "HUNA BISTRO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 598.8,
-          "itens": [
-            {
-              "desc": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
-              "qt": 12,
-              "val": 598.8
             }
           ]
         },
@@ -14502,166 +14682,6 @@ const ENTREGAS_DATA = {
               "val": 52.0
             }
           ]
-        },
-        {
-          "numped": "159004706",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "HUNA BISTRO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 68.82,
-          "itens": [
-            {
-              "desc": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
-              "qt": 2,
-              "val": 68.82
-            }
-          ]
-        },
-        {
-          "numped": "159004713",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "KELLER GONCALVES COMERCIO DE VESTUARIO LTDA.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1398.0,
-          "itens": [
-            {
-              "desc": "VINHO ADELE BRANCO 750ML",
-              "qt": 20,
-              "val": 1398.0
-            }
-          ]
-        },
-        {
-          "numped": "159004711",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "BOTECO SENSACAO COMERCIO DE BEBIDAS E PETISCOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 250.4,
-          "itens": [
-            {
-              "desc": "TEQUILA J CUERVO GOLD 750ML",
-              "qt": 1,
-              "val": 99.9
-            },
-            {
-              "desc": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
-              "qt": 1,
-              "val": 150.5
-            }
-          ]
-        },
-        {
-          "numped": "159004712",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "LUA GASTROBAR LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 491.6,
-          "itens": [
-            {
-              "desc": "JACK DANIELS HONEY 1 L",
-              "qt": 4,
-              "val": 491.6
-            }
-          ]
-        },
-        {
-          "numped": "159004707",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "TERRAL GASTROBAR LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 111.12,
-          "itens": [
-            {
-              "desc": "HUMB. CANALE DENARIO MALBEC 750ML",
-              "qt": 1,
-              "val": 48.21
-            },
-            {
-              "desc": "ESPUMANTE ALUD BRANCO 750ML",
-              "qt": 1,
-              "val": 28.5
-            },
-            {
-              "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
-              "qt": 1,
-              "val": 34.41
-            }
-          ]
-        },
-        {
-          "numped": "159004708",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "BELLA COZINHA TERAPIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 28.5,
-          "itens": [
-            {
-              "desc": "ESPUMANTE ALUD BRANCO 750ML",
-              "qt": 1,
-              "val": 28.5
-            }
-          ]
-        },
-        {
-          "numped": "159004709",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "LUA GASTROBAR LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 983.2,
-          "itens": [
-            {
-              "desc": "WHISKY JACK DANIELS FIRE 1L",
-              "qt": 4,
-              "val": 491.6
-            },
-            {
-              "desc": "WHISKY JACK DANIELS APPLE 1L",
-              "qt": 4,
-              "val": 491.6
-            }
-          ]
         }
       ],
       "emitido_s_rota": [
@@ -14679,11 +14699,6 @@ const ENTREGAS_DATA = {
           "total": 928.2,
           "itens": [
             {
-              "desc": "HUMB. CANALE DENARIO MALBEC 750ML",
-              "qt": 6,
-              "val": 419.4
-            },
-            {
               "desc": "ESPUMANTE ALUD BRANCO 750ML",
               "qt": 6,
               "val": 209.4
@@ -14692,6 +14707,11 @@ const ENTREGAS_DATA = {
               "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
               "qt": 6,
               "val": 299.4
+            },
+            {
+              "desc": "HUMB. CANALE DENARIO MALBEC 750ML",
+              "qt": 6,
+              "val": 419.4
             }
           ]
         },
@@ -14786,6 +14806,236 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "159004706",
+          "numnota": "397627.0",
+          "data": "27/05/2026",
+          "cliente": "HUNA BISTRO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 68.82,
+          "itens": [
+            {
+              "desc": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
+              "qt": 2,
+              "val": 68.82
+            }
+          ]
+        },
+        {
+          "numped": "159004707",
+          "numnota": "397614.0",
+          "data": "27/05/2026",
+          "cliente": "TERRAL GASTROBAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 111.12,
+          "itens": [
+            {
+              "desc": "HUMB. CANALE DENARIO MALBEC 750ML",
+              "qt": 1,
+              "val": 48.21
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 1,
+              "val": 28.5
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+              "qt": 1,
+              "val": 34.41
+            }
+          ]
+        },
+        {
+          "numped": "159004708",
+          "numnota": "397613.0",
+          "data": "27/05/2026",
+          "cliente": "BELLA COZINHA TERAPIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 28.5,
+          "itens": [
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 1,
+              "val": 28.5
+            }
+          ]
+        },
+        {
+          "numped": "159004709",
+          "numnota": "397615.0",
+          "data": "27/05/2026",
+          "cliente": "LUA GASTROBAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 983.2,
+          "itens": [
+            {
+              "desc": "WHISKY JACK DANIELS FIRE 1L",
+              "qt": 4,
+              "val": 491.6
+            },
+            {
+              "desc": "WHISKY JACK DANIELS APPLE 1L",
+              "qt": 4,
+              "val": 491.6
+            }
+          ]
+        },
+        {
+          "numped": "159004710",
+          "numnota": "397628.0",
+          "data": "27/05/2026",
+          "cliente": "HUNA BISTRO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 598.8,
+          "itens": [
+            {
+              "desc": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
+              "qt": 12,
+              "val": 598.8
+            }
+          ]
+        },
+        {
+          "numped": "159004711",
+          "numnota": "397616.0",
+          "data": "27/05/2026",
+          "cliente": "BOTECO SENSACAO COMERCIO DE BEBIDAS E PETISCOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 250.4,
+          "itens": [
+            {
+              "desc": "TEQUILA J CUERVO GOLD 750ML",
+              "qt": 1,
+              "val": 99.9
+            },
+            {
+              "desc": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+              "qt": 1,
+              "val": 150.5
+            }
+          ]
+        },
+        {
+          "numped": "159004713",
+          "numnota": "397617.0",
+          "data": "27/05/2026",
+          "cliente": "KELLER GONCALVES COMERCIO DE VESTUARIO LTDA.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1398.0,
+          "itens": [
+            {
+              "desc": "VINHO ADELE BRANCO 750ML",
+              "qt": 20,
+              "val": 1398.0
+            }
+          ]
+        },
+        {
+          "numped": "159004714",
+          "numnota": "397635.0",
+          "data": "27/05/2026",
+          "cliente": "COMERCIAL MAFRAN LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1277.6,
+          "itens": [
+            {
+              "desc": "LICOR COINTREAU 700 ML",
+              "qt": 4,
+              "val": 359.6
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 18,
+              "val": 664.2
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 2,
+              "val": 253.8
+            }
+          ]
+        },
+        {
+          "numped": "159004715",
+          "numnota": "397618.0",
+          "data": "27/05/2026",
+          "cliente": "GOTIVO E FAMILIA RESTAURANTE E POUSADA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 449.4,
+          "itens": [
+            {
+              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+              "qt": 6,
+              "val": 449.4
+            }
+          ]
+        },
+        {
+          "numped": "159004716",
+          "numnota": "397721.0",
+          "data": "27/05/2026",
+          "cliente": "GOTIVO E FAMILIA RESTAURANTE E POUSADA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 51.66,
+          "itens": [
+            {
+              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+              "qt": 1,
+              "val": 51.66
+            }
+          ]
+        },
+        {
           "numped": "159004698",
           "numnota": "397377.0",
           "data": "26/05/2026",
@@ -14802,6 +15052,41 @@ const ENTREGAS_DATA = {
               "desc": "APERITIVO LUCIA 750ML",
               "qt": 4,
               "val": 299.6
+            }
+          ]
+        },
+        {
+          "numped": "159004696",
+          "numnota": "397174.0",
+          "data": "26/05/2026",
+          "cliente": "WALESCA OLIVEIRA E SOUZA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1136.16,
+          "itens": [
+            {
+              "desc": "RED BULL SUGAR FREE 24X250ML",
+              "qt": 1,
+              "val": 189.36
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 189.36
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 189.36
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 3,
+              "val": 568.08
             }
           ]
         },
@@ -14826,6 +15111,51 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "159004687",
+          "numnota": "396997.0",
+          "data": "26/05/2026",
+          "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1306.5,
+          "itens": [
+            {
+              "desc": "LICOR STOCK CURACAU BLUE 720 ML",
+              "qt": 30,
+              "val": 1107.0
+            },
+            {
+              "desc": "WHISKY PASSPORT HONEY 670ML",
+              "qt": 5,
+              "val": 199.5
+            }
+          ]
+        },
+        {
+          "numped": "159004688",
+          "numnota": "397003.0",
+          "data": "26/05/2026",
+          "cliente": "ADRIANA BARBOSA DA SILVA CAFETERIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 281.4,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MAMBA WATER C/ GAS 12X350ML",
+              "qt": 6,
+              "val": 281.4
+            }
+          ]
+        },
+        {
           "numped": "159004689",
           "numnota": "397376.0",
           "data": "26/05/2026",
@@ -14842,6 +15172,111 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY PASSPORT HONEY 670ML",
               "qt": 37,
               "val": 1476.3
+            }
+          ]
+        },
+        {
+          "numped": "159004690",
+          "numnota": "396999.0",
+          "data": "26/05/2026",
+          "cliente": "LONDON BAR E PETISCARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 366.3,
+          "itens": [
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 1,
+              "val": 126.9
+            },
+            {
+              "desc": "GIN MARINA 750ML",
+              "qt": 6,
+              "val": 239.4
+            }
+          ]
+        },
+        {
+          "numped": "159004691",
+          "numnota": "396985.0",
+          "data": "26/05/2026",
+          "cliente": "R R RESTAURANTE CARIOCA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1917.6,
+          "itens": [
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 24,
+              "val": 1917.6
+            }
+          ]
+        },
+        {
+          "numped": "159004692",
+          "numnota": "397150.0",
+          "data": "26/05/2026",
+          "cliente": "R R RESTAURANTE CARIOCA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 440.8,
+          "itens": [
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 8,
+              "val": 440.8
+            }
+          ]
+        },
+        {
+          "numped": "159004694",
+          "numnota": "397124.0",
+          "data": "26/05/2026",
+          "cliente": "MADAME MERLOT ADEGA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 251.1,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 9,
+              "val": 251.1
+            }
+          ]
+        },
+        {
+          "numped": "159004695",
+          "numnota": "397175.0",
+          "data": "26/05/2026",
+          "cliente": "C J A SOARES RESTAURANTE E BAR -LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 568.08,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 3,
+              "val": 568.08
             }
           ]
         },
@@ -14957,6 +15392,126 @@ const ENTREGAS_DATA = {
               "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
               "qt": 12,
               "val": 838.8
+            }
+          ]
+        },
+        {
+          "numped": "159004683",
+          "numnota": "396876.0",
+          "data": "25/05/2026",
+          "cliente": "MADAME MERLOT ADEGA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 283.4,
+          "itens": [
+            {
+              "desc": "RUM BACARDI SUPERIOR 980ML",
+              "qt": 3,
+              "val": 107.7
+            },
+            {
+              "desc": "GIN GORDONS 750 ML",
+              "qt": 2,
+              "val": 111.8
+            },
+            {
+              "desc": "GIN GORDONS PINK 700ML",
+              "qt": 1,
+              "val": 63.9
+            }
+          ]
+        },
+        {
+          "numped": "159004684",
+          "numnota": "396878.0",
+          "data": "25/05/2026",
+          "cliente": "EDEN GASTRONOMIA E CHOPERIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 814.8,
+          "itens": [
+            {
+              "desc": "VODKA ABSOLUT RASPBERRY 750 ML",
+              "qt": 12,
+              "val": 814.8
+            }
+          ]
+        },
+        {
+          "numped": "159004685",
+          "numnota": "396877.0",
+          "data": "25/05/2026",
+          "cliente": "TCA COMERCIO CABO FRIO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3833.04,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 10,
+              "val": 1917.6
+            },
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 12,
+              "val": 922.8
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 2,
+              "val": 73.8
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 383.52
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 2,
+              "val": 383.52
+            },
+            {
+              "desc": "CHANDON RESERVE BRUT ROSE 750ML",
+              "qt": 2,
+              "val": 151.8
+            }
+          ]
+        },
+        {
+          "numped": "159004686",
+          "numnota": "396998.0",
+          "data": "25/05/2026",
+          "cliente": "ARRAIAL C HOTEL LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 24.68,
+          "itens": [
+            {
+              "desc": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
+              "qt": 1,
+              "val": 12.34
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+              "qt": 1,
+              "val": 12.34
             }
           ]
         },
@@ -15336,6 +15891,161 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "159004654",
+          "numnota": "395708.0",
+          "data": "20/05/2026",
+          "cliente": "SALES E SOUZA MINIMERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "CANCELADA",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [
+            {
+              "desc": "RED BULL SF MAÇA 24X250ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "RED BULL SUGAR FREE 24X250ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "RED BULL MORANGO PESSEGO 24X250ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "RED BULL SF AMORA 24X250ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "RED BULL SF NECTARINA 24X250ML",
+              "qt": 0,
+              "val": 0.0
+            }
+          ]
+        },
+        {
+          "numped": "159004656",
+          "numnota": "395710.0",
+          "data": "20/05/2026",
+          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "refeito",
+          "total": 562.07,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 3,
+              "val": 59.97
+            },
+            {
+              "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+              "qt": 1,
+              "val": 38.9
+            },
+            {
+              "desc": "REFRESCO DE UVA MINECRAFT 24X200ML",
+              "qt": 2,
+              "val": 115.8
+            },
+            {
+              "desc": "REFRESCO DE MORANGO MINECRAFT 24X200ML",
+              "qt": 2,
+              "val": 115.8
+            },
+            {
+              "desc": "REFRESCO DE LARANJA MINECRAFT 24X200ML",
+              "qt": 2,
+              "val": 115.8
+            },
+            {
+              "desc": "REFRESCO DE MARACUJA MINECRAFT 24X200ML",
+              "qt": 2,
+              "val": 115.8
+            }
+          ]
+        },
+        {
+          "numped": "159004658",
+          "numnota": "395715.0",
+          "data": "20/05/2026",
+          "cliente": "SALES E SOUZA MINIMERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2636.64,
+          "itens": [
+            {
+              "desc": "RED BULL SUGAR FREE 24X250ML",
+              "qt": 1,
+              "val": 191.76
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 383.52
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 2,
+              "val": 383.52
+            },
+            {
+              "desc": "RED BULL MORANGO PESSEGO 24X250ML",
+              "qt": 2,
+              "val": 383.52
+            },
+            {
+              "desc": "RED BULL SF AMORA 24X250ML",
+              "qt": 2,
+              "val": 383.52
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 2,
+              "val": 383.52
+            },
+            {
+              "desc": "RED BULL SF NECTARINA 24X250ML",
+              "qt": 1,
+              "val": 143.76
+            },
+            {
+              "desc": "RED BULL SF MAÇA 24X250ML",
+              "qt": 2,
+              "val": 383.52
+            }
+          ]
+        },
+        {
           "numped": "159004647",
           "numnota": "395588.0",
           "data": "20/05/2026",
@@ -15477,161 +16187,6 @@ const ENTREGAS_DATA = {
               "desc": "AGUA MINERAL MAMBA WATER C/ GAS 12X350ML",
               "qt": 1,
               "val": 46.9
-            }
-          ]
-        },
-        {
-          "numped": "159004654",
-          "numnota": "395708.0",
-          "data": "20/05/2026",
-          "cliente": "SALES E SOUZA MINIMERCADO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "CANCELADA",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [
-            {
-              "desc": "RED BULL SUGAR FREE 24X250ML",
-              "qt": 0,
-              "val": 0.0
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 0,
-              "val": 0.0
-            },
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 0,
-              "val": 0.0
-            },
-            {
-              "desc": "RED BULL MORANGO PESSEGO 24X250ML",
-              "qt": 0,
-              "val": 0.0
-            },
-            {
-              "desc": "RED BULL SF AMORA 24X250ML",
-              "qt": 0,
-              "val": 0.0
-            },
-            {
-              "desc": "RED BULL ZERO  24X250ML",
-              "qt": 0,
-              "val": 0.0
-            },
-            {
-              "desc": "RED BULL SF NECTARINA 24X250ML",
-              "qt": 0,
-              "val": 0.0
-            },
-            {
-              "desc": "RED BULL SF MAÇA 24X250ML",
-              "qt": 0,
-              "val": 0.0
-            }
-          ]
-        },
-        {
-          "numped": "159004656",
-          "numnota": "395710.0",
-          "data": "20/05/2026",
-          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "refeito",
-          "total": 562.07,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 3,
-              "val": 59.97
-            },
-            {
-              "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-              "qt": 1,
-              "val": 38.9
-            },
-            {
-              "desc": "REFRESCO DE UVA MINECRAFT 24X200ML",
-              "qt": 2,
-              "val": 115.8
-            },
-            {
-              "desc": "REFRESCO DE MORANGO MINECRAFT 24X200ML",
-              "qt": 2,
-              "val": 115.8
-            },
-            {
-              "desc": "REFRESCO DE LARANJA MINECRAFT 24X200ML",
-              "qt": 2,
-              "val": 115.8
-            },
-            {
-              "desc": "REFRESCO DE MARACUJA MINECRAFT 24X200ML",
-              "qt": 2,
-              "val": 115.8
-            }
-          ]
-        },
-        {
-          "numped": "159004658",
-          "numnota": "395715.0",
-          "data": "20/05/2026",
-          "cliente": "SALES E SOUZA MINIMERCADO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 2636.64,
-          "itens": [
-            {
-              "desc": "RED BULL SUGAR FREE 24X250ML",
-              "qt": 1,
-              "val": 191.76
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 2,
-              "val": 383.52
-            },
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 2,
-              "val": 383.52
-            },
-            {
-              "desc": "RED BULL MORANGO PESSEGO 24X250ML",
-              "qt": 2,
-              "val": 383.52
-            },
-            {
-              "desc": "RED BULL SF AMORA 24X250ML",
-              "qt": 2,
-              "val": 383.52
-            },
-            {
-              "desc": "RED BULL ZERO  24X250ML",
-              "qt": 2,
-              "val": 383.52
-            },
-            {
-              "desc": "RED BULL SF NECTARINA 24X250ML",
-              "qt": 1,
-              "val": 143.76
-            },
-            {
-              "desc": "RED BULL SF MAÇA 24X250ML",
-              "qt": 2,
-              "val": 383.52
             }
           ]
         },
@@ -16116,71 +16671,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "159004615",
-          "numnota": "394392.0",
-          "data": "15/05/2026",
-          "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 971.94,
-          "itens": [
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 1,
-              "val": 196.56
-            },
-            {
-              "desc": "ESPUMANTE ALUD BRANCO 750ML",
-              "qt": 2,
-              "val": 55.8
-            },
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 196.56
-            },
-            {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-              "qt": 1,
-              "val": 129.9
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 2,
-              "val": 393.12
-            }
-          ]
-        },
-        {
-          "numped": "159004616",
-          "numnota": "394397.0",
-          "data": "15/05/2026",
-          "cliente": "58.864.881 ALTAMIRO CORREA MOTA JUNIOR",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 347.1,
-          "itens": [
-            {
-              "desc": "GIN MARINA 750ML",
-              "qt": 6,
-              "val": 239.4
-            },
-            {
-              "desc": "RUM BACARDI SUPERIOR 700ML",
-              "qt": 3,
-              "val": 107.7
-            }
-          ]
-        },
-        {
           "numped": "159004613",
           "numnota": "394313.0",
           "data": "15/05/2026",
@@ -16217,6 +16707,71 @@ const ENTREGAS_DATA = {
               "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
               "qt": 112,
               "val": 2744.0
+            }
+          ]
+        },
+        {
+          "numped": "159004615",
+          "numnota": "394392.0",
+          "data": "15/05/2026",
+          "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 971.94,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 196.56
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 1,
+              "val": 129.9
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 393.12
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 196.56
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 2,
+              "val": 55.8
+            }
+          ]
+        },
+        {
+          "numped": "159004616",
+          "numnota": "394397.0",
+          "data": "15/05/2026",
+          "cliente": "58.864.881 ALTAMIRO CORREA MOTA JUNIOR",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 347.1,
+          "itens": [
+            {
+              "desc": "GIN MARINA 750ML",
+              "qt": 6,
+              "val": 239.4
+            },
+            {
+              "desc": "RUM BACARDI SUPERIOR 700ML",
+              "qt": 3,
+              "val": 107.7
             }
           ]
         },
@@ -19359,243 +19914,34 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "JORGE MACIEL",
-      "em_rota": [
+      "em_rota": [],
+      "nao_emitido": [
         {
-          "numped": "379000993",
-          "numnota": "397022.0",
-          "data": "26/05/2026",
-          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
-          "placa": "SSE7A76",
-          "rota": "CAXIAS +MERITI",
+          "numped": "379001006",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "NASOLI COMERCIO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 1415.76,
-          "itens": [
-            {
-              "desc": "WHISKY JACK DANIELS 1L",
-              "qt": 12,
-              "val": 1320.0
-            },
-            {
-              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
-              "qt": 4,
-              "val": 95.76
-            }
-          ]
-        },
-        {
-          "numped": "379000994",
-          "numnota": "397028.0",
-          "data": "26/05/2026",
-          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
-          "placa": "TUP1A46",
-          "rota": "NOVA IGUAÇU",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 987.0,
+          "total": 789.6,
           "itens": [
             {
               "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 30,
-              "val": 987.0
-            }
-          ]
-        },
-        {
-          "numped": "379000995",
-          "numnota": "397153.0",
-          "data": "26/05/2026",
-          "cliente": "MERCEARIA GARRIDO' NETOS LTDA",
-          "placa": "SSE7A76",
-          "rota": "CAXIAS +MERITI",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 652.8,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 2,
-              "val": 130.56
-            },
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 2,
-              "val": 130.56
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 6,
-              "val": 391.68
-            }
-          ]
-        },
-        {
-          "numped": "379000990",
-          "numnota": "397024.0",
-          "data": "25/05/2026",
-          "cliente": "CRISTINA DA S R NOBRE MERCADO",
-          "placa": "TUP1A46",
-          "rota": "NOVA IGUAÇU",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 540.6,
-          "itens": [
-            {
-              "desc": "RC ATUM RALADO OLEO 24X140G",
-              "qt": 1,
-              "val": 141.6
-            },
-            {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 1,
-              "val": 199.5
-            },
-            {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 1,
-              "val": 199.5
-            }
-          ]
-        },
-        {
-          "numped": "379000991",
-          "numnota": "397026.0",
-          "data": "25/05/2026",
-          "cliente": "MARCELO & ALEXANDRA BEBIDAS LTDA",
-          "placa": "TUP1A46",
-          "rota": "NOVA IGUAÇU",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 5922.0,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 180,
-              "val": 5922.0
-            }
-          ]
-        },
-        {
-          "numped": "379000992",
-          "numnota": "397025.0",
-          "data": "25/05/2026",
-          "cliente": "MARCELO & ALEXANDRA BEBIDAS LTDA",
-          "placa": "TUP1A46",
-          "rota": "NOVA IGUAÇU",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 3506.1,
-          "itens": [
-            {
-              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-              "qt": 39,
-              "val": 3506.1
-            }
-          ]
-        },
-        {
-          "numped": "379000987",
-          "numnota": "396540.0",
-          "data": "25/05/2026",
-          "cliente": "RAINHA DO IRIS MERCADO LTDA",
-          "placa": "SSE7A76",
-          "rota": "CAXIAS +MERITI",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1958.4,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-              "qt": 5,
-              "val": 326.4
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 5,
-              "val": 326.4
-            },
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 5,
-              "val": 326.4
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 15,
-              "val": 979.2
-            }
-          ]
-        },
-        {
-          "numped": "379000989",
-          "numnota": "397017.0",
-          "data": "25/05/2026",
-          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
-          "placa": "TUP1A46",
-          "rota": "NOVA IGUAÇU",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 559.76,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 2,
-              "val": 51.8
-            },
-            {
-              "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
-              "qt": 6,
-              "val": 83.94
-            },
-            {
-              "desc": "RC ATUM SOLIDO OLEO 24X170G",
-              "qt": 1,
-              "val": 141.6
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 1,
-              "val": 65.28
-            },
-            {
-              "desc": "VANISH LIQUIDO PINK REFIL 12X500ML",
-              "qt": 1,
-              "val": 66.6
-            },
-            {
-              "desc": "VANISH LIQUIDO WHITE REFIL 12X500ML",
-              "qt": 1,
-              "val": 66.6
-            },
-            {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 6,
-              "val": 83.94
+              "qt": 24,
+              "val": 789.6
             }
           ]
         }
       ],
-      "nao_emitido": [
+      "emitido_s_rota": [
         {
-          "numped": "379000998",
-          "numnota": "",
-          "data": "27/05/2026",
+          "numped": "379001003",
+          "numnota": "397792.0",
+          "data": "28/05/2026",
           "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
           "placa": "",
           "rota": "",
@@ -19603,142 +19949,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 938.88,
-          "itens": [
-            {
-              "desc": "NECTAR CAJU 12X1000ML",
-              "qt": 2,
-              "val": 117.36
-            },
-            {
-              "desc": "NECTAR GOIABA 12X1000ML",
-              "qt": 2,
-              "val": 117.36
-            },
-            {
-              "desc": "NECTAR LARANJA 12X1000ML",
-              "qt": 2,
-              "val": 117.36
-            },
-            {
-              "desc": "NECTAR MANGA 12X1000ML",
-              "qt": 2,
-              "val": 117.36
-            },
-            {
-              "desc": "NECTAR MARACUJA 12X1000ML",
-              "qt": 2,
-              "val": 117.36
-            },
-            {
-              "desc": "NECTAR PESSEGO 12X1000ML",
-              "qt": 2,
-              "val": 117.36
-            },
-            {
-              "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
-              "qt": 2,
-              "val": 117.36
-            },
-            {
-              "desc": "NECTAR ABACAXI 12X1000ML",
-              "qt": 2,
-              "val": 117.36
-            }
-          ]
-        },
-        {
-          "numped": "379001001",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 490.7,
-          "itens": [
-            {
-              "desc": "ST PIERRE ZERO LATA TROPICAL LT 6X310ML",
-              "qt": 2,
-              "val": 45.8
-            },
-            {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 1,
-              "val": 199.5
-            },
-            {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 1,
-              "val": 199.5
-            },
-            {
-              "desc": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-              "qt": 1,
-              "val": 45.9
-            }
-          ]
-        },
-        {
-          "numped": "379000999",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "RAINHA DO IRIS MERCADO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 928.8,
-          "itens": [
-            {
-              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-              "qt": 5,
-              "val": 154.8
-            },
-            {
-              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
-              "qt": 5,
-              "val": 154.8
-            },
-            {
-              "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
-              "qt": 5,
-              "val": 154.8
-            },
-            {
-              "desc": "NECTAR CAJU KIDS CX 24X200ML",
-              "qt": 5,
-              "val": 154.8
-            },
-            {
-              "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
-              "qt": 5,
-              "val": 154.8
-            },
-            {
-              "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
-              "qt": 5,
-              "val": 154.8
-            }
-          ]
-        },
-        {
-          "numped": "379001000",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1115.08,
+          "total": 703.78,
           "itens": [
             {
               "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
@@ -19746,19 +19957,9 @@ const ENTREGAS_DATA = {
               "val": 211.8
             },
             {
-              "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
-              "qt": 2,
-              "val": 211.8
-            },
-            {
               "desc": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
               "qt": 1,
               "val": 105.9
-            },
-            {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 1,
-              "val": 199.5
             },
             {
               "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
@@ -19771,13 +19972,11 @@ const ENTREGAS_DATA = {
               "val": 186.58
             }
           ]
-        }
-      ],
-      "emitido_s_rota": [
+        },
         {
-          "numped": "379000996",
-          "numnota": "397444.0",
-          "data": "27/05/2026",
+          "numped": "379001004",
+          "numnota": "397791.0",
+          "data": "28/05/2026",
           "cliente": "ALDON ALEIXO SANTOS OLIVEIRA LTDA",
           "placa": "",
           "rota": "",
@@ -19785,7 +19984,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 659.92,
+          "total": 628.02,
           "itens": [
             {
               "desc": "CANTINA DA SERRA 1,5L",
@@ -19801,11 +20000,6 @@ const ENTREGAS_DATA = {
               "desc": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
               "qt": 1,
               "val": 22.9
-            },
-            {
-              "desc": "AGUA NA CAIXA 12X500ML",
-              "qt": 1,
-              "val": 31.9
             },
             {
               "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
@@ -19875,6 +20069,106 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "379000996",
+          "numnota": "397444.0",
+          "data": "27/05/2026",
+          "cliente": "ALDON ALEIXO SANTOS OLIVEIRA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 659.92,
+          "itens": [
+            {
+              "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
+              "qt": 1,
+              "val": 33.6
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "GIN INVICTUS MELANCIA 900ML",
+              "qt": 1,
+              "val": 14.9
+            },
+            {
+              "desc": "GIN INVICTUS TRADICIONAL 900ML",
+              "qt": 1,
+              "val": 14.9
+            },
+            {
+              "desc": "GIN INVICTUS TROPICAL 900ML",
+              "qt": 1,
+              "val": 14.9
+            },
+            {
+              "desc": "GIN INVICTUS MACA VERDE 900ML",
+              "qt": 2,
+              "val": 29.8
+            },
+            {
+              "desc": "CANTINA DA SERRA 1,5L",
+              "qt": 12,
+              "val": 110.28
+            },
+            {
+              "desc": "ST PIERRE ZERO LAT PINK LEMONADE 6X310ML",
+              "qt": 1,
+              "val": 22.9
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
+              "qt": 1,
+              "val": 22.9
+            },
+            {
+              "desc": "AGUA NA CAIXA 12X500ML",
+              "qt": 1,
+              "val": 31.9
+            },
+            {
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 1,
+              "val": 33.6
+            },
+            {
+              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "qt": 1,
+              "val": 33.6
+            },
+            {
+              "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+              "qt": 1,
+              "val": 33.6
+            },
+            {
+              "desc": "NECTAR CAJU KIDS CX 24X200ML",
+              "qt": 1,
+              "val": 33.6
+            },
+            {
+              "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
+              "qt": 1,
+              "val": 33.6
+            }
+          ]
+        },
+        {
           "numped": "379000997",
           "numnota": "397486.0",
           "data": "27/05/2026",
@@ -19896,6 +20190,376 @@ const ENTREGAS_DATA = {
               "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
               "qt": 2,
               "val": 399.0
+            }
+          ]
+        },
+        {
+          "numped": "379000998",
+          "numnota": "397680.0",
+          "data": "27/05/2026",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 938.88,
+          "itens": [
+            {
+              "desc": "NECTAR ABACAXI 12X1000ML",
+              "qt": 2,
+              "val": 117.36
+            },
+            {
+              "desc": "NECTAR CAJU 12X1000ML",
+              "qt": 2,
+              "val": 117.36
+            },
+            {
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 2,
+              "val": 117.36
+            },
+            {
+              "desc": "NECTAR LARANJA 12X1000ML",
+              "qt": 2,
+              "val": 117.36
+            },
+            {
+              "desc": "NECTAR MANGA 12X1000ML",
+              "qt": 2,
+              "val": 117.36
+            },
+            {
+              "desc": "NECTAR MARACUJA 12X1000ML",
+              "qt": 2,
+              "val": 117.36
+            },
+            {
+              "desc": "NECTAR PESSEGO 12X1000ML",
+              "qt": 2,
+              "val": 117.36
+            },
+            {
+              "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
+              "qt": 2,
+              "val": 117.36
+            }
+          ]
+        },
+        {
+          "numped": "379000999",
+          "numnota": "397682.0",
+          "data": "27/05/2026",
+          "cliente": "RAINHA DO IRIS MERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 928.8,
+          "itens": [
+            {
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 5,
+              "val": 154.8
+            },
+            {
+              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "qt": 5,
+              "val": 154.8
+            },
+            {
+              "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+              "qt": 5,
+              "val": 154.8
+            },
+            {
+              "desc": "NECTAR CAJU KIDS CX 24X200ML",
+              "qt": 5,
+              "val": 154.8
+            },
+            {
+              "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
+              "qt": 5,
+              "val": 154.8
+            },
+            {
+              "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
+              "qt": 5,
+              "val": 154.8
+            }
+          ]
+        },
+        {
+          "numped": "379001000",
+          "numnota": "397679.0",
+          "data": "27/05/2026",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 915.58,
+          "itens": [
+            {
+              "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+              "qt": 2,
+              "val": 211.8
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+              "qt": 2,
+              "val": 211.8
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+              "qt": 1,
+              "val": 105.9
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
+              "desc": "RC ATUM SOLIDO OLEO 24X170G",
+              "qt": 1,
+              "val": 186.58
+            }
+          ]
+        },
+        {
+          "numped": "379001001",
+          "numnota": "397681.0",
+          "data": "27/05/2026",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 490.7,
+          "itens": [
+            {
+              "desc": "ST PIERRE ZERO LATA TROPICAL LT 6X310ML",
+              "qt": 2,
+              "val": 45.8
+            },
+            {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
+              "desc": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+              "qt": 1,
+              "val": 45.9
+            }
+          ]
+        },
+        {
+          "numped": "379000993",
+          "numnota": "397022.0",
+          "data": "26/05/2026",
+          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1415.76,
+          "itens": [
+            {
+              "desc": "WHISKY JACK DANIELS 1L",
+              "qt": 12,
+              "val": 1320.0
+            },
+            {
+              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
+              "qt": 4,
+              "val": 95.76
+            }
+          ]
+        },
+        {
+          "numped": "379000994",
+          "numnota": "397028.0",
+          "data": "26/05/2026",
+          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 987.0,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 30,
+              "val": 987.0
+            }
+          ]
+        },
+        {
+          "numped": "379000995",
+          "numnota": "397153.0",
+          "data": "26/05/2026",
+          "cliente": "MERCEARIA GARRIDO' NETOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 652.8,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 6,
+              "val": 391.68
+            }
+          ]
+        },
+        {
+          "numped": "379000989",
+          "numnota": "397017.0",
+          "data": "25/05/2026",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 559.76,
+          "itens": [
+            {
+              "desc": "VANISH LIQUIDO WHITE REFIL 12X500ML",
+              "qt": 1,
+              "val": 66.6
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 6,
+              "val": 83.94
+            },
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 51.8
+            },
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+              "qt": 6,
+              "val": 83.94
+            },
+            {
+              "desc": "RC ATUM SOLIDO OLEO 24X170G",
+              "qt": 1,
+              "val": 141.6
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VANISH LIQUIDO PINK REFIL 12X500ML",
+              "qt": 1,
+              "val": 66.6
+            }
+          ]
+        },
+        {
+          "numped": "379000990",
+          "numnota": "397024.0",
+          "data": "25/05/2026",
+          "cliente": "CRISTINA DA S R NOBRE MERCADO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 540.6,
+          "itens": [
+            {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
+              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "qt": 1,
+              "val": 141.6
+            }
+          ]
+        },
+        {
+          "numped": "379000991",
+          "numnota": "397026.0",
+          "data": "25/05/2026",
+          "cliente": "MARCELO & ALEXANDRA BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 5922.0,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 180,
+              "val": 5922.0
+            }
+          ]
+        },
+        {
+          "numped": "379000992",
+          "numnota": "397025.0",
+          "data": "25/05/2026",
+          "cliente": "MARCELO & ALEXANDRA BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3506.1,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 39,
+              "val": 3506.1
             }
           ]
         },
@@ -19931,6 +20595,41 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 1,
               "val": 65.28
+            }
+          ]
+        },
+        {
+          "numped": "379000987",
+          "numnota": "396540.0",
+          "data": "25/05/2026",
+          "cliente": "RAINHA DO IRIS MERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1958.4,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 5,
+              "val": 326.4
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 5,
+              "val": 326.4
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 5,
+              "val": 326.4
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 15,
+              "val": 979.2
             }
           ]
         },
@@ -19973,16 +20672,6 @@ const ENTREGAS_DATA = {
           "total": 394.12,
           "itens": [
             {
-              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-              "qt": 1,
-              "val": 65.28
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 1,
-              "val": 65.28
-            },
-            {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 2,
               "val": 130.56
@@ -19991,6 +20680,16 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
               "qt": 1,
               "val": 133.0
+            },
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 65.28
             }
           ]
         },
@@ -20720,6 +21419,161 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "379000940",
+          "numnota": "394204.0",
+          "data": "15/05/2026",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "CANCELADA",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [
+            {
+              "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "COQUETEL CONTINI BRANCO 900ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "VANISH LIQUIDO WHITE REFIL 12X500ML",
+              "qt": 0,
+              "val": 0.0
+            }
+          ]
+        },
+        {
+          "numped": "379000941",
+          "numnota": "394205.0",
+          "data": "15/05/2026",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "CANCELADA",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [
+            {
+              "desc": "COQUETEL CONTINI BRANCO 900ML",
+              "qt": 0,
+              "val": 0.0
+            }
+          ]
+        },
+        {
+          "numped": "379000942",
+          "numnota": "394207.0",
+          "data": "15/05/2026",
+          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 259.0,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 10,
+              "val": 259.0
+            }
+          ]
+        },
+        {
+          "numped": "379000943",
+          "numnota": "394209.0",
+          "data": "15/05/2026",
+          "cliente": "PANIFICACAO E CONFEITARIA PRINCIPE DO PAO QUENTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "rua principal ao lado da farmacia Farmashop",
+          "total": 155.4,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 6,
+              "val": 155.4
+            }
+          ]
+        },
+        {
+          "numped": "379000944",
+          "numnota": "394208.0",
+          "data": "15/05/2026",
+          "cliente": "EMANOEL DELICIA DE PAO BOM LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 20.16,
+          "itens": [
+            {
+              "desc": "ESPUM ZERO MOSCATEL ROSE QM 660ML",
+              "qt": 1,
+              "val": 20.16
+            }
+          ]
+        },
+        {
+          "numped": "379000945",
+          "numnota": "394304.0",
+          "data": "15/05/2026",
+          "cliente": "EMANOEL DELICIA DE PAO BOM LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 314.5,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 5,
+              "val": 314.5
+            }
+          ]
+        },
+        {
+          "numped": "379000946",
+          "numnota": "394206.0",
+          "data": "15/05/2026",
+          "cliente": "N B XIMENES MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 89.4,
+          "itens": [
+            {
+              "desc": "CATUABA SELVAGEM 900ML",
+              "qt": 6,
+              "val": 89.4
+            }
+          ]
+        },
+        {
           "numped": "379000947",
           "numnota": "394203.0",
           "data": "15/05/2026",
@@ -20906,161 +21760,6 @@ const ENTREGAS_DATA = {
               "desc": "VANISH LIQUIDO WHITE REFIL 12X500ML",
               "qt": 1,
               "val": 66.6
-            }
-          ]
-        },
-        {
-          "numped": "379000940",
-          "numnota": "394204.0",
-          "data": "15/05/2026",
-          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "CANCELADA",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [
-            {
-              "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
-              "qt": 0,
-              "val": 0.0
-            },
-            {
-              "desc": "COQUETEL CONTINI BRANCO 900ML",
-              "qt": 0,
-              "val": 0.0
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 0,
-              "val": 0.0
-            },
-            {
-              "desc": "VANISH LIQUIDO WHITE REFIL 12X500ML",
-              "qt": 0,
-              "val": 0.0
-            }
-          ]
-        },
-        {
-          "numped": "379000941",
-          "numnota": "394205.0",
-          "data": "15/05/2026",
-          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "CANCELADA",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [
-            {
-              "desc": "COQUETEL CONTINI BRANCO 900ML",
-              "qt": 0,
-              "val": 0.0
-            }
-          ]
-        },
-        {
-          "numped": "379000942",
-          "numnota": "394207.0",
-          "data": "15/05/2026",
-          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 259.0,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 10,
-              "val": 259.0
-            }
-          ]
-        },
-        {
-          "numped": "379000943",
-          "numnota": "394209.0",
-          "data": "15/05/2026",
-          "cliente": "PANIFICACAO E CONFEITARIA PRINCIPE DO PAO QUENTE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "rua principal ao lado da farmacia Farmashop",
-          "total": 155.4,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 6,
-              "val": 155.4
-            }
-          ]
-        },
-        {
-          "numped": "379000944",
-          "numnota": "394208.0",
-          "data": "15/05/2026",
-          "cliente": "EMANOEL DELICIA DE PAO BOM LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 20.16,
-          "itens": [
-            {
-              "desc": "ESPUM ZERO MOSCATEL ROSE QM 660ML",
-              "qt": 1,
-              "val": 20.16
-            }
-          ]
-        },
-        {
-          "numped": "379000945",
-          "numnota": "394304.0",
-          "data": "15/05/2026",
-          "cliente": "EMANOEL DELICIA DE PAO BOM LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 314.5,
-          "itens": [
-            {
-              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "qt": 5,
-              "val": 314.5
-            }
-          ]
-        },
-        {
-          "numped": "379000946",
-          "numnota": "394206.0",
-          "data": "15/05/2026",
-          "cliente": "N B XIMENES MERCEARIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 89.4,
-          "itens": [
-            {
-              "desc": "CATUABA SELVAGEM 900ML",
-              "qt": 6,
-              "val": 89.4
             }
           ]
         },
@@ -22803,28 +23502,7 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "JOSE MARCELO LORES",
-      "em_rota": [
-        {
-          "numped": "158000330",
-          "numnota": "5252.0",
-          "data": "26/05/2026",
-          "cliente": "EMPORIO DO CADEG LTDA",
-          "placa": "TTQ1A32",
-          "rota": "ILHA+S.CRISTOVÃO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 26/05 - 08HRS AS 15HRS",
-          "total": 9870.0,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 300,
-              "val": 9870.0
-            }
-          ]
-        }
-      ],
+      "em_rota": [],
       "nao_emitido": [],
       "emitido_s_rota": [
         {
@@ -22849,6 +23527,26 @@ const ENTREGAS_DATA = {
               "desc": "ESPUMANTE ALUD ROSE 750ML",
               "qt": 6,
               "val": 173.4
+            }
+          ]
+        },
+        {
+          "numped": "158000330",
+          "numnota": "5252.0",
+          "data": "26/05/2026",
+          "cliente": "EMPORIO DO CADEG LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 26/05 - 08HRS AS 15HRS",
+          "total": 9870.0,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 300,
+              "val": 9870.0
             }
           ]
         },
@@ -23638,14 +24336,81 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "LEANDRO SOUZA",
-      "em_rota": [
+      "em_rota": [],
+      "nao_emitido": [],
+      "emitido_s_rota": [
+        {
+          "numped": "450000181",
+          "numnota": "5409.0",
+          "data": "27/05/2026",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGAR DIA 28.05 08:00 AS 14:00",
+          "total": 946.8,
+          "itens": [
+            {
+              "desc": "CHANDON RESERVE BRUT ROSE 750ML",
+              "qt": 12,
+              "val": 946.8
+            }
+          ]
+        },
+        {
+          "numped": "450000182",
+          "numnota": "5405.0",
+          "data": "27/05/2026",
+          "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGAR 28.05 08:00 AS 16:00",
+          "total": 5797.59,
+          "itens": [
+            {
+              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+              "qt": 6,
+              "val": 612.0
+            },
+            {
+              "desc": "VODKA GREY GOOSE LORANGE 750ML",
+              "qt": 3,
+              "val": 360.15
+            },
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 60,
+              "val": 960.0
+            },
+            {
+              "desc": "TEQUILA DON JULIO BLANCO 750ML",
+              "qt": 6,
+              "val": 1115.64
+            },
+            {
+              "desc": "SMIRNOFF RED PET 1750 ML",
+              "qt": 36,
+              "val": 1614.6
+            },
+            {
+              "desc": "BALLANTINES SUNSHINE 700ML",
+              "qt": 24,
+              "val": 1135.2
+            }
+          ]
+        },
         {
           "numped": "450000179",
           "numnota": "5253.0",
           "data": "26/05/2026",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "placa": "RJV2J31",
-          "rota": "MERC PADRÃO",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -23709,8 +24474,8 @@ const ENTREGAS_DATA = {
           "numnota": "396995.0",
           "data": "26/05/2026",
           "cliente": "V&J MINIMERCADO PORTO DA ROCA LTDA",
-          "placa": "RKR6E39",
-          "rota": "CABO FRIO",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -23739,8 +24504,8 @@ const ENTREGAS_DATA = {
           "numnota": "397000.0",
           "data": "26/05/2026",
           "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "placa": "RKR6E39",
-          "rota": "CABO FRIO",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -23849,8 +24614,8 @@ const ENTREGAS_DATA = {
           "numnota": "5250.0",
           "data": "26/05/2026",
           "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "placa": "RKR6E39",
-          "rota": "CABO FRIO",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -23919,8 +24684,8 @@ const ENTREGAS_DATA = {
           "numnota": "5249.0",
           "data": "26/05/2026",
           "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "placa": "RKR6E39",
-          "rota": "CABO FRIO",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -23959,8 +24724,8 @@ const ENTREGAS_DATA = {
           "numnota": "5248.0",
           "data": "26/05/2026",
           "cliente": "V&J MINIMERCADO PORTO DA ROCA LTDA",
-          "placa": "RKR6E39",
-          "rota": "CABO FRIO",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -23989,8 +24754,8 @@ const ENTREGAS_DATA = {
           "numnota": "5251.0",
           "data": "26/05/2026",
           "cliente": "V&R MINIMERCADO PORTO DA ROCA LTDA",
-          "placa": "RKR6E39",
-          "rota": "CABO FRIO",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -24033,10 +24798,7 @@ const ENTREGAS_DATA = {
               "val": 116.58
             }
           ]
-        }
-      ],
-      "nao_emitido": [],
-      "emitido_s_rota": [
+        },
         {
           "numped": "450000171",
           "numnota": "5178.0",
@@ -25887,7 +26649,68 @@ const ENTREGAS_DATA = {
     {
       "nome": "MARIA LUIZA",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "275000512",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 515.88,
+          "itens": [
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 12,
+              "val": 515.88
+            }
+          ]
+        },
+        {
+          "numped": "275000511",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 1031.76,
+          "itens": [
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 24,
+              "val": 1031.76
+            }
+          ]
+        },
+        {
+          "numped": "275000510",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 1031.76,
+          "itens": [
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 24,
+              "val": 1031.76
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "275000507",
@@ -27253,14 +28076,337 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "MARILENA TRAGEL",
-      "em_rota": [
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "156003457",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 99.5,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 5,
+              "val": 99.5
+            }
+          ]
+        },
+        {
+          "numped": "156003459",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "AUTO POSTO BOAVISTA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 357.5,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN MACA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            }
+          ]
+        },
+        {
+          "numped": "156003458",
+          "numnota": "",
+          "data": "27/05/2026",
+          "cliente": "AUTO POSTO BOAVISTA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 667.76,
+          "itens": [
+            {
+              "desc": "PINATI DB WHEY AVELA E LEITE 12X50G",
+              "qt": 1,
+              "val": 81.84
+            },
+            {
+              "desc": "MOVING BOOSTER LIMAO 24X310ML",
+              "qt": 1,
+              "val": 175.2
+            },
+            {
+              "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+              "qt": 1,
+              "val": 175.2
+            },
+            {
+              "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+              "qt": 1,
+              "val": 175.2
+            },
+            {
+              "desc": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+              "qt": 1,
+              "val": 60.32
+            }
+          ]
+        },
+        {
+          "numped": "156003395",
+          "numnota": "",
+          "data": "18/05/2026",
+          "cliente": "VBBR CONVENIENCIA S. A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 336.0,
+          "itens": [
+            {
+              "desc": "MOVING BOOSTER LIMAO 24X310ML",
+              "qt": 2,
+              "val": 336.0
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [
+        {
+          "numped": "156003451",
+          "numnota": "397415.0",
+          "data": "27/05/2026",
+          "cliente": "RIO MARACANÃ POSTO DE GASOLINA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 270.92,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 51.8
+            },
+            {
+              "desc": "PINATI DB WHEY AVELA E LEITE 12X50G",
+              "qt": 1,
+              "val": 71.2
+            },
+            {
+              "desc": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+              "qt": 1,
+              "val": 60.32
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            }
+          ]
+        },
+        {
+          "numped": "156003452",
+          "numnota": "397414.0",
+          "data": "27/05/2026",
+          "cliente": "ROCAL PRODUTOS DE PETROLEO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 349.2,
+          "itens": [
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 2,
+              "val": 149.6
+            },
+            {
+              "desc": "SMIRNOFF ICE TROPICAL (LATA) 24X269ML",
+              "qt": 1,
+              "val": 104.9
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ]
+        },
+        {
+          "numped": "156003453",
+          "numnota": "397732.0",
+          "data": "27/05/2026",
+          "cliente": "POSTO MODELO JMLBG LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 634.82,
+          "itens": [
+            {
+              "desc": "VODKA ABSOLUT - 1 LITRO",
+              "qt": 2,
+              "val": 159.8
+            },
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 1,
+              "val": 74.9
+            },
+            {
+              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
+              "qt": 1,
+              "val": 21.32
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ]
+        },
+        {
+          "numped": "156003454",
+          "numnota": "397572.0",
+          "data": "27/05/2026",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 278.9,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 3,
+              "val": 83.7
+            },
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 5,
+              "val": 129.5
+            },
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 3,
+              "val": 65.7
+            }
+          ]
+        },
+        {
+          "numped": "156003455",
+          "numnota": "397514.0",
+          "data": "27/05/2026",
+          "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 367.8,
+          "itens": [
+            {
+              "desc": "VODKA SMIRNOFF 600 ML",
+              "qt": 3,
+              "val": 83.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ]
+        },
+        {
+          "numped": "156003456",
+          "numnota": "397566.0",
+          "data": "27/05/2026",
+          "cliente": "LOJA DE CONVENIENCIA INSULANO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 633.85,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 10,
+              "val": 259.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+              "qt": 15,
+              "val": 374.85
+            }
+          ]
+        },
         {
           "numped": "156003443",
           "numnota": "397048.0",
           "data": "26/05/2026",
           "cliente": "AUTO POSTO MASP JARDIM LTDA.",
-          "placa": "TTX4A47",
-          "rota": "BARRA",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -27299,8 +28445,8 @@ const ENTREGAS_DATA = {
           "numnota": "397214.0",
           "data": "26/05/2026",
           "cliente": "CARBAT DIST. E ASSE. DO COM. DE DERIVADOS DE PETROLEO LTDA",
-          "placa": "RJP3J23",
-          "rota": "JPA",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -27319,8 +28465,8 @@ const ENTREGAS_DATA = {
           "numnota": "397151.0",
           "data": "26/05/2026",
           "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
-          "placa": "TTX4A47",
-          "rota": "BARRA",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -27359,8 +28505,8 @@ const ENTREGAS_DATA = {
           "numnota": "397187.0",
           "data": "26/05/2026",
           "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
-          "placa": "SSE8J07",
-          "rota": "RECREIO+RECOLHA",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -27375,12 +28521,32 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "156003450",
+          "numnota": "397311.0",
+          "data": "26/05/2026",
+          "cliente": "A P JARDIM OCEANICO DA BARRA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "CANCELADA",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [
+            {
+              "desc": "AGUA SAN PELLEGRINO C/GÁS 505ML",
+              "qt": 0,
+              "val": 0.0
+            }
+          ]
+        },
+        {
           "numped": "156003438",
           "numnota": "396984.0",
           "data": "26/05/2026",
           "cliente": "AUTO POSTO MASP JARDIM LTDA.",
-          "placa": "TTX4A47",
-          "rota": "BARRA",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -27424,8 +28590,8 @@ const ENTREGAS_DATA = {
           "numnota": "397011.0",
           "data": "26/05/2026",
           "cliente": "POSTO DE GASOLINA PEQUENA CRUZADA LTDA",
-          "placa": "TTN5H14",
-          "rota": "SUL 1",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -27464,8 +28630,8 @@ const ENTREGAS_DATA = {
           "numnota": "397047.0",
           "data": "26/05/2026",
           "cliente": "A P JARDIM OCEANICO DA BARRA LTDA",
-          "placa": "TTX4A47",
-          "rota": "BARRA",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -27589,8 +28755,8 @@ const ENTREGAS_DATA = {
           "numnota": "397117.0",
           "data": "26/05/2026",
           "cliente": "GALAPAGOS CENTRO AUTOMOTIVO LTDA",
-          "placa": "SSE7A76",
-          "rota": "CAXIAS +MERITI",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -27608,97 +28774,20 @@ const ENTREGAS_DATA = {
               "val": 236.7
             }
           ]
-        }
-      ],
-      "nao_emitido": [
-        {
-          "numped": "156003454",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "POSTO PALACIO GUANABARA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 278.9,
-          "itens": [
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 3,
-              "val": 83.7
-            },
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 5,
-              "val": 129.5
-            },
-            {
-              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
-              "qt": 3,
-              "val": 65.7
-            }
-          ]
         },
         {
-          "numped": "156003456",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "LOJA DE CONVENIENCIA INSULANO LTDA",
+          "numped": "156003426",
+          "numnota": "396536.0",
+          "data": "25/05/2026",
+          "cliente": "J LOPES GONCALVES POSTO LTDA",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 633.85,
+          "total": 284.1,
           "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 10,
-              "val": 259.0
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
-              "qt": 15,
-              "val": 374.85
-            }
-          ]
-        },
-        {
-          "numped": "156003453",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "POSTO MODELO JMLBG LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 634.82,
-          "itens": [
-            {
-              "desc": "VODKA ABSOLUT - 1 LITRO",
-              "qt": 2,
-              "val": 159.8
-            },
-            {
-              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
-              "qt": 1,
-              "val": 74.9
-            },
-            {
-              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
-              "qt": 1,
-              "val": 21.32
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
             {
               "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
               "qt": 1,
@@ -27710,148 +28799,6 @@ const ENTREGAS_DATA = {
               "val": 94.7
             },
             {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            }
-          ]
-        },
-        {
-          "numped": "156003457",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "POSTO PALACIO GUANABARA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 99.5,
-          "itens": [
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "qt": 5,
-              "val": 99.5
-            }
-          ]
-        },
-        {
-          "numped": "156003395",
-          "numnota": "",
-          "data": "18/05/2026",
-          "cliente": "VBBR CONVENIENCIA S. A.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 336.0,
-          "itens": [
-            {
-              "desc": "MOVING BOOSTER LIMAO 24X310ML",
-              "qt": 2,
-              "val": 336.0
-            }
-          ]
-        }
-      ],
-      "emitido_s_rota": [
-        {
-          "numped": "156003451",
-          "numnota": "397415.0",
-          "data": "27/05/2026",
-          "cliente": "RIO MARACANÃ POSTO DE GASOLINA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 270.92,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 2,
-              "val": 51.8
-            },
-            {
-              "desc": "PINATI DB WHEY AVELA E LEITE 12X50G",
-              "qt": 1,
-              "val": 71.2
-            },
-            {
-              "desc": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
-              "qt": 1,
-              "val": 60.32
-            },
-            {
-              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-              "qt": 1,
-              "val": 87.6
-            }
-          ]
-        },
-        {
-          "numped": "156003452",
-          "numnota": "397414.0",
-          "data": "27/05/2026",
-          "cliente": "ROCAL PRODUTOS DE PETROLEO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 349.2,
-          "itens": [
-            {
-              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
-              "qt": 2,
-              "val": 149.6
-            },
-            {
-              "desc": "SMIRNOFF ICE TROPICAL (LATA) 24X269ML",
-              "qt": 1,
-              "val": 104.9
-            },
-            {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            }
-          ]
-        },
-        {
-          "numped": "156003455",
-          "numnota": "397514.0",
-          "data": "27/05/2026",
-          "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 367.8,
-          "itens": [
-            {
-              "desc": "VODKA SMIRNOFF 600 ML",
-              "qt": 3,
-              "val": 83.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
               "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
               "qt": 1,
               "val": 94.7
@@ -27859,22 +28806,22 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "156003450",
-          "numnota": "397311.0",
-          "data": "26/05/2026",
-          "cliente": "A P JARDIM OCEANICO DA BARRA LTDA",
+          "numped": "156003427",
+          "numnota": "396542.0",
+          "data": "25/05/2026",
+          "cliente": "AUTO POSTO LIDERANCA DE NOVA IGUACU LTDA.",
           "placa": "",
           "rota": "",
-          "status_ped": "CANCELADA",
+          "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 0.0,
+          "total": 419.7,
           "itens": [
             {
-              "desc": "AGUA SAN PELLEGRINO C/GÁS 505ML",
-              "qt": 0,
-              "val": 0.0
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 3,
+              "val": 419.7
             }
           ]
         },
@@ -28314,56 +29261,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "156003426",
-          "numnota": "396536.0",
-          "data": "25/05/2026",
-          "cliente": "J LOPES GONCALVES POSTO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 284.1,
-          "itens": [
-            {
-              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            }
-          ]
-        },
-        {
-          "numped": "156003427",
-          "numnota": "396542.0",
-          "data": "25/05/2026",
-          "cliente": "AUTO POSTO LIDERANCA DE NOVA IGUACU LTDA.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 419.7,
-          "itens": [
-            {
-              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-              "qt": 3,
-              "val": 419.7
-            }
-          ]
-        },
-        {
           "numped": "156003422",
           "numnota": "396210.0",
           "data": "22/05/2026",
@@ -28744,6 +29641,101 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "156003410",
+          "numnota": "395561.0",
+          "data": "20/05/2026",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 180.29,
+          "itens": [
+            {
+              "desc": "AGUA NA CAIXA 12X500ML",
+              "qt": 1,
+              "val": 31.9
+            },
+            {
+              "desc": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
+              "qt": 1,
+              "val": 56.9
+            },
+            {
+              "desc": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
+              "qt": 1,
+              "val": 50.9
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/GAS LATA 12X310ML",
+              "qt": 1,
+              "val": 40.59
+            }
+          ]
+        },
+        {
+          "numped": "156003411",
+          "numnota": "395712.0",
+          "data": "20/05/2026",
+          "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 58.84,
+          "itens": [
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 1,
+              "val": 24.5
+            },
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV.",
+              "qt": 1,
+              "val": 14.91
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+              "qt": 1,
+              "val": 19.43
+            }
+          ]
+        },
+        {
+          "numped": "156003412",
+          "numnota": "395711.0",
+          "data": "20/05/2026",
+          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 55.25,
+          "itens": [
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 1,
+              "val": 24.5
+            },
+            {
+              "desc": "VINHO FOODKILLER CARMENERE 750ML",
+              "qt": 1,
+              "val": 14.69
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 1,
+              "val": 16.06
+            }
+          ]
+        },
+        {
           "numped": "156003403",
           "numnota": "395511.0",
           "data": "20/05/2026",
@@ -28920,101 +29912,6 @@ const ENTREGAS_DATA = {
               "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
               "qt": 12,
               "val": 294.0
-            }
-          ]
-        },
-        {
-          "numped": "156003410",
-          "numnota": "395561.0",
-          "data": "20/05/2026",
-          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 180.29,
-          "itens": [
-            {
-              "desc": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
-              "qt": 1,
-              "val": 56.9
-            },
-            {
-              "desc": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
-              "qt": 1,
-              "val": 50.9
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/GAS LATA 12X310ML",
-              "qt": 1,
-              "val": 40.59
-            },
-            {
-              "desc": "AGUA NA CAIXA 12X500ML",
-              "qt": 1,
-              "val": 31.9
-            }
-          ]
-        },
-        {
-          "numped": "156003411",
-          "numnota": "395712.0",
-          "data": "20/05/2026",
-          "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 58.84,
-          "itens": [
-            {
-              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-              "qt": 1,
-              "val": 24.5
-            },
-            {
-              "desc": "VINHO GRAVEDAD CAB. SAUV.",
-              "qt": 1,
-              "val": 14.91
-            },
-            {
-              "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-              "qt": 1,
-              "val": 19.43
-            }
-          ]
-        },
-        {
-          "numped": "156003412",
-          "numnota": "395711.0",
-          "data": "20/05/2026",
-          "cliente": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 55.25,
-          "itens": [
-            {
-              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-              "qt": 1,
-              "val": 24.5
-            },
-            {
-              "desc": "VINHO FOODKILLER CARMENERE 750ML",
-              "qt": 1,
-              "val": 14.69
-            },
-            {
-              "desc": "ESPUMANTE ALUD BRANCO 750ML",
-              "qt": 1,
-              "val": 16.06
             }
           ]
         },
@@ -34493,10 +35390,31 @@ const ENTREGAS_DATA = {
     {
       "nome": "MATEUS",
       "em_rota": [],
-      "nao_emitido": [
+      "nao_emitido": [],
+      "emitido_s_rota": [
+        {
+          "numped": "439000171",
+          "numnota": "397645.0",
+          "data": "27/05/2026",
+          "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 28/05/26",
+          "total": 251.9,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 11,
+              "val": 251.9
+            }
+          ]
+        },
         {
           "numped": "439000172",
-          "numnota": "",
+          "numnota": "397638.0",
           "data": "27/05/2026",
           "cliente": "55.210.498 RINGO EN SA MARTINS DOS SANTOS",
           "placa": "",
@@ -34536,7 +35454,7 @@ const ENTREGAS_DATA = {
         },
         {
           "numped": "439000173",
-          "numnota": "",
+          "numnota": "397637.0",
           "data": "27/05/2026",
           "cliente": "J. A. M. DA SILVA",
           "placa": "",
@@ -34570,62 +35488,35 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "439000171",
-          "numnota": "",
+          "numped": "439000174",
+          "numnota": "5402.0",
           "data": "27/05/2026",
-          "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
-          "obs": "Data entrega: 28/05/26",
-          "total": 251.9,
+          "obs": "ENTREGAR 28.05 08:00 AS 15:00",
+          "total": 1594.2,
           "itens": [
             {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 11,
-              "val": 251.9
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 6,
+              "val": 1079.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 6,
+              "val": 257.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 6,
+              "val": 257.4
             }
           ]
         },
-        {
-          "numped": "439000162",
-          "numnota": "",
-          "data": "25/05/2026",
-          "cliente": "AVALON MERCEARIA DA TERRA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Data Entrega: 28/05/26",
-          "total": 783.36,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-              "qt": 2,
-              "val": 130.56
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 2,
-              "val": 130.56
-            },
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 4,
-              "val": 261.12
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 4,
-              "val": 261.12
-            }
-          ]
-        }
-      ],
-      "emitido_s_rota": [
         {
           "numped": "439000168",
           "numnota": "397401.0",
@@ -34737,6 +35628,76 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "439000165",
+          "numnota": "396856.0",
+          "data": "25/05/2026",
+          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 28/05/26",
+          "total": 783.36,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 4,
+              "val": 261.12
+            },
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 4,
+              "val": 261.12
+            }
+          ]
+        },
+        {
+          "numped": "439000162",
+          "numnota": "397644.0",
+          "data": "25/05/2026",
+          "cliente": "AVALON MERCEARIA DA TERRA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data Entrega: 28/05/26",
+          "total": 783.36,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 4,
+              "val": 261.12
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 4,
+              "val": 261.12
+            }
+          ]
+        },
+        {
           "numped": "439000163",
           "numnota": "397396.0",
           "data": "25/05/2026",
@@ -34803,41 +35764,6 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 3,
               "val": 195.84
-            }
-          ]
-        },
-        {
-          "numped": "439000165",
-          "numnota": "396856.0",
-          "data": "25/05/2026",
-          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Data entrega: 28/05/26",
-          "total": 783.36,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-              "qt": 2,
-              "val": 130.56
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 2,
-              "val": 130.56
-            },
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 4,
-              "val": 261.12
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 4,
-              "val": 261.12
             }
           ]
         },
@@ -35425,14 +36351,61 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "NATALI OLIVEIRA",
-      "em_rota": [
+      "em_rota": [],
+      "nao_emitido": [],
+      "emitido_s_rota": [
+        {
+          "numped": "419000600",
+          "numnota": "397498.0",
+          "data": "27/05/2026",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 599.04,
+          "itens": [
+            {
+              "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+              "qt": 3,
+              "val": 299.52
+            },
+            {
+              "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
+              "qt": 3,
+              "val": 299.52
+            }
+          ]
+        },
+        {
+          "numped": "419000601",
+          "numnota": "5410.0",
+          "data": "27/05/2026",
+          "cliente": "ITANIA COSTA ANTONIO VIANA 16136309726",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGAR 28.05 08:00 AS 15:00",
+          "total": 2589.6,
+          "itens": [
+            {
+              "desc": "WHISKY JACK DANIELS 1L",
+              "qt": 24,
+              "val": 2589.6
+            }
+          ]
+        },
         {
           "numped": "419000597",
           "numnota": "397197.0",
           "data": "26/05/2026",
           "cliente": "DEPOSITO DA TORRE COMERCIO DE BEBIDAS EIRELI",
-          "placa": "LMV5I35",
-          "rota": "SANTA CRUZ",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -35476,8 +36449,8 @@ const ENTREGAS_DATA = {
           "numnota": "397185.0",
           "data": "26/05/2026",
           "cliente": "31.410.843 DANIELLE RESENDE DE OLIVEIRA",
-          "placa": "LMV5I35",
-          "rota": "SANTA CRUZ",
+          "placa": "",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
@@ -35498,34 +36471,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
               "qt": 2,
               "val": 29.4
-            }
-          ]
-        }
-      ],
-      "nao_emitido": [],
-      "emitido_s_rota": [
-        {
-          "numped": "419000600",
-          "numnota": "397498.0",
-          "data": "27/05/2026",
-          "cliente": "SUPERMERCADOS CELEIRO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 599.04,
-          "itens": [
-            {
-              "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-              "qt": 3,
-              "val": 299.52
-            },
-            {
-              "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
-              "qt": 3,
-              "val": 299.52
             }
           ]
         },
@@ -37173,441 +38118,9 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "em_rota": [
-        {
-          "numped": "155003544",
-          "numnota": "397008.0",
-          "data": "26/05/2026",
-          "cliente": "M.J.F BORGES BAR E RESTAURANTE",
-          "placa": "TTT0A28",
-          "rota": "NITEROI",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 801.38,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 196.56
-            },
-            {
-              "desc": "RUM BACARDI SUPERIOR 980ML",
-              "qt": 2,
-              "val": 71.8
-            },
-            {
-              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-              "qt": 1,
-              "val": 139.9
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 1,
-              "val": 196.56
-            },
-            {
-              "desc": "RED BULL ZERO  24X250ML",
-              "qt": 1,
-              "val": 196.56
-            }
-          ]
-        },
-        {
-          "numped": "155003545",
-          "numnota": "396996.0",
-          "data": "26/05/2026",
-          "cliente": "BZ 01 LA PEDRERA POUSADA LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 628.8,
-          "itens": [
-            {
-              "desc": "ESPUMANTE ALUD BRANCO 750ML",
-              "qt": 6,
-              "val": 209.4
-            },
-            {
-              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-              "qt": 6,
-              "val": 419.4
-            }
-          ]
-        },
-        {
-          "numped": "155003546",
-          "numnota": "397002.0",
-          "data": "26/05/2026",
-          "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
-          "placa": "RKR6E39",
-          "rota": "CABO FRIO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1133.06,
-          "itens": [
-            {
-              "desc": "GIN MARINA 750ML",
-              "qt": 12,
-              "val": 478.8
-            },
-            {
-              "desc": "ESPUMANTE ALUD BRANCO 750ML",
-              "qt": 2,
-              "val": 69.8
-            },
-            {
-              "desc": "AGUA MINERAL MAMBA WATER C/ GAS - 24X350",
-              "qt": 3,
-              "val": 185.4
-            },
-            {
-              "desc": "AGUA MINERAL MAMBA WATER S/ GAS- 24X350",
-              "qt": 3,
-              "val": 209.7
-            },
-            {
-              "desc": "RED BULL ZERO  24X250ML",
-              "qt": 1,
-              "val": 189.36
-            }
-          ]
-        },
-        {
-          "numped": "155003547",
-          "numnota": "397123.0",
-          "data": "26/05/2026",
-          "cliente": "CONVENIENCIA BUZIANA LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1386.7,
-          "itens": [
-            {
-              "desc": "RUM BACARDI GOLD 980ML",
-              "qt": 4,
-              "val": 167.6
-            },
-            {
-              "desc": "VODKA GREY GOOSE ORIGINAL 750 ML",
-              "qt": 1,
-              "val": 122.9
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 6,
-              "val": 221.4
-            },
-            {
-              "desc": "CHANDON RESERVE BRUT ROSE 750ML",
-              "qt": 6,
-              "val": 455.4
-            },
-            {
-              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-              "qt": 6,
-              "val": 419.4
-            }
-          ]
-        },
-        {
-          "numped": "155003548",
-          "numnota": "397122.0",
-          "data": "26/05/2026",
-          "cliente": "J.W.C. COMERCIO DE BEBIDAS LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 378.72,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 2,
-              "val": 378.72
-            }
-          ]
-        },
-        {
-          "numped": "155003538",
-          "numnota": "396874.0",
-          "data": "25/05/2026",
-          "cliente": "VILLA RAPHAEL EMPREENDIMENTOS TURISTICOS LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1326.3,
-          "itens": [
-            {
-              "desc": "GIN BOMBAY SAPPHIRE 750ML",
-              "qt": 1,
-              "val": 69.9
-            },
-            {
-              "desc": "ESPUMANTE ALUD BRANCO 750ML",
-              "qt": 36,
-              "val": 1256.4
-            }
-          ]
-        },
-        {
-          "numped": "155003539",
-          "numnota": "396875.0",
-          "data": "25/05/2026",
-          "cliente": "R GUIMARAES GUEDES - EIRELI - ME",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 272.6,
-          "itens": [
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 2,
-              "val": 55.8
-            },
-            {
-              "desc": "LICOR COINTREAU 700 ML",
-              "qt": 1,
-              "val": 89.9
-            },
-            {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-              "qt": 1,
-              "val": 126.9
-            }
-          ]
-        },
-        {
-          "numped": "155003540",
-          "numnota": "396873.0",
-          "data": "25/05/2026",
-          "cliente": "ANEXO 392 BAR E RESTAURANTE LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 380.7,
-          "itens": [
-            {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-              "qt": 3,
-              "val": 380.7
-            }
-          ]
-        },
-        {
-          "numped": "155003542",
-          "numnota": "396927.0",
-          "data": "25/05/2026",
-          "cliente": "XERE BAR E RESTAURANTE LTDA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1348.0,
-          "itens": [
-            {
-              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-              "qt": 6,
-              "val": 449.4
-            },
-            {
-              "desc": "HUMB. CANALE DENARIO SAUV. BLANC",
-              "qt": 6,
-              "val": 419.4
-            },
-            {
-              "desc": "ESPUMANTE ALUD BRANCO 750ML",
-              "qt": 2,
-              "val": 79.8
-            },
-            {
-              "desc": "VINHO ARESTI ESTATE S. PINOT NOIR",
-              "qt": 2,
-              "val": 99.8
-            },
-            {
-              "desc": "VINHO LOS ALJIBES (VA) BRANCO 750ML",
-              "qt": 4,
-              "val": 299.6
-            }
-          ]
-        }
-      ],
-      "nao_emitido": [
-        {
-          "numped": "155003558",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "R MACHARETE NETTO EVENTOS",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1960.32,
-          "itens": [
-            {
-              "desc": "WHISKY J WALKER RED LABEL 1L",
-              "qt": 24,
-              "val": 1581.6
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 2,
-              "val": 378.72
-            }
-          ]
-        }
-      ],
+      "em_rota": [],
+      "nao_emitido": [],
       "emitido_s_rota": [
-        {
-          "numped": "155003555",
-          "numnota": "397481.0",
-          "data": "27/05/2026",
-          "cliente": "LEONARDO ALVES TARDELLI 17947773777",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 415.5,
-          "itens": [
-            {
-              "desc": "LICOR JAGERMEISTER 700 ML",
-              "qt": 2,
-              "val": 235.8
-            },
-            {
-              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-              "qt": 6,
-              "val": 115.8
-            },
-            {
-              "desc": "GIN MARINA 750ML",
-              "qt": 1,
-              "val": 39.9
-            },
-            {
-              "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
-              "qt": 1,
-              "val": 24.0
-            }
-          ]
-        },
-        {
-          "numped": "155003553",
-          "numnota": "397378.0",
-          "data": "27/05/2026",
-          "cliente": "NA BRASA BROTHERS BBQ LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 649.4,
-          "itens": [
-            {
-              "desc": "ESPUMANTE ALUD BRANCO 750ML",
-              "qt": 6,
-              "val": 173.4
-            },
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 4,
-              "val": 111.6
-            },
-            {
-              "desc": "GIN BOMBAY SAPPHIRE 750ML",
-              "qt": 1,
-              "val": 69.9
-            },
-            {
-              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-              "qt": 6,
-              "val": 115.8
-            },
-            {
-              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-              "qt": 1,
-              "val": 54.9
-            },
-            {
-              "desc": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
-              "qt": 1,
-              "val": 63.9
-            },
-            {
-              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-              "qt": 1,
-              "val": 59.9
-            }
-          ]
-        },
-        {
-          "numped": "155003554",
-          "numnota": "397447.0",
-          "data": "27/05/2026",
-          "cliente": "QUIOSQUE DO BAIANO BAR LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1739.58,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 3,
-              "val": 589.68
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 2,
-              "val": 393.12
-            },
-            {
-              "desc": "LICOR IT VILLA MASSA LIMONCELLO 700 ML",
-              "qt": 1,
-              "val": 167.1
-            },
-            {
-              "desc": "RED BULL SF POMELO 24X250ML",
-              "qt": 2,
-              "val": 393.12
-            },
-            {
-              "desc": "RED BULL ZERO  24X250ML",
-              "qt": 1,
-              "val": 196.56
-            }
-          ]
-        },
         {
           "numped": "155003556",
           "numnota": "397484.0",
@@ -37622,6 +38135,11 @@ const ENTREGAS_DATA = {
           "total": 780.06,
           "itens": [
             {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 5,
+              "val": 164.5
+            },
+            {
               "desc": "RED BULL 24X250ML",
               "qt": 1,
               "val": 196.56
@@ -37635,11 +38153,6 @@ const ENTREGAS_DATA = {
               "desc": "APERITIVO APEROL 750 ML",
               "qt": 5,
               "val": 239.5
-            },
-            {
-              "desc": "GIN LARIOS ORIGINAL 700ML",
-              "qt": 5,
-              "val": 164.5
             }
           ]
         },
@@ -37680,6 +38193,86 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL ZERO  24X250ML",
               "qt": 1,
               "val": 196.56
+            }
+          ]
+        },
+        {
+          "numped": "155003558",
+          "numnota": "397718.0",
+          "data": "27/05/2026",
+          "cliente": "R MACHARETE NETTO EVENTOS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3096.48,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 24,
+              "val": 1581.6
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 8,
+              "val": 1514.88
+            }
+          ]
+        },
+        {
+          "numped": "155003559",
+          "numnota": "397720.0",
+          "data": "27/05/2026",
+          "cliente": "CHIEFS BUZIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 378.72,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 378.72
+            }
+          ]
+        },
+        {
+          "numped": "155003555",
+          "numnota": "397481.0",
+          "data": "27/05/2026",
+          "cliente": "LEONARDO ALVES TARDELLI 17947773777",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 415.5,
+          "itens": [
+            {
+              "desc": "LICOR JAGERMEISTER 700 ML",
+              "qt": 2,
+              "val": 235.8
+            },
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 6,
+              "val": 115.8
+            },
+            {
+              "desc": "GIN MARINA 750ML",
+              "qt": 1,
+              "val": 39.9
+            },
+            {
+              "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
+              "qt": 1,
+              "val": 24.0
             }
           ]
         },
@@ -37770,6 +38363,301 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 1,
               "val": 189.36
+            }
+          ]
+        },
+        {
+          "numped": "155003553",
+          "numnota": "397378.0",
+          "data": "27/05/2026",
+          "cliente": "NA BRASA BROTHERS BBQ LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 649.4,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 4,
+              "val": 111.6
+            },
+            {
+              "desc": "GIN BOMBAY SAPPHIRE 750ML",
+              "qt": 1,
+              "val": 69.9
+            },
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 6,
+              "val": 115.8
+            },
+            {
+              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+              "qt": 1,
+              "val": 54.9
+            },
+            {
+              "desc": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+              "qt": 1,
+              "val": 63.9
+            },
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 1,
+              "val": 59.9
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 6,
+              "val": 173.4
+            }
+          ]
+        },
+        {
+          "numped": "155003554",
+          "numnota": "397447.0",
+          "data": "27/05/2026",
+          "cliente": "QUIOSQUE DO BAIANO BAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1739.58,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 3,
+              "val": 589.68
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 393.12
+            },
+            {
+              "desc": "LICOR IT VILLA MASSA LIMONCELLO 700 ML",
+              "qt": 1,
+              "val": 167.1
+            },
+            {
+              "desc": "RED BULL SF POMELO 24X250ML",
+              "qt": 2,
+              "val": 393.12
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 196.56
+            }
+          ]
+        },
+        {
+          "numped": "155003544",
+          "numnota": "397008.0",
+          "data": "26/05/2026",
+          "cliente": "M.J.F BORGES BAR E RESTAURANTE",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 801.38,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 196.56
+            },
+            {
+              "desc": "RUM BACARDI SUPERIOR 980ML",
+              "qt": 2,
+              "val": 71.8
+            },
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 1,
+              "val": 139.9
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 196.56
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 196.56
+            }
+          ]
+        },
+        {
+          "numped": "155003545",
+          "numnota": "396996.0",
+          "data": "26/05/2026",
+          "cliente": "BZ 01 LA PEDRERA POUSADA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 628.8,
+          "itens": [
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 6,
+              "val": 209.4
+            },
+            {
+              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+              "qt": 6,
+              "val": 419.4
+            }
+          ]
+        },
+        {
+          "numped": "155003546",
+          "numnota": "397002.0",
+          "data": "26/05/2026",
+          "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1133.06,
+          "itens": [
+            {
+              "desc": "GIN MARINA 750ML",
+              "qt": 12,
+              "val": 478.8
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 2,
+              "val": 69.8
+            },
+            {
+              "desc": "AGUA MINERAL MAMBA WATER C/ GAS - 24X350",
+              "qt": 3,
+              "val": 185.4
+            },
+            {
+              "desc": "AGUA MINERAL MAMBA WATER S/ GAS- 24X350",
+              "qt": 3,
+              "val": 209.7
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 189.36
+            }
+          ]
+        },
+        {
+          "numped": "155003547",
+          "numnota": "397123.0",
+          "data": "26/05/2026",
+          "cliente": "CONVENIENCIA BUZIANA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1386.7,
+          "itens": [
+            {
+              "desc": "RUM BACARDI GOLD 980ML",
+              "qt": 4,
+              "val": 167.6
+            },
+            {
+              "desc": "VODKA GREY GOOSE ORIGINAL 750 ML",
+              "qt": 1,
+              "val": 122.9
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 6,
+              "val": 221.4
+            },
+            {
+              "desc": "CHANDON RESERVE BRUT ROSE 750ML",
+              "qt": 6,
+              "val": 455.4
+            },
+            {
+              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+              "qt": 6,
+              "val": 419.4
+            }
+          ]
+        },
+        {
+          "numped": "155003548",
+          "numnota": "397122.0",
+          "data": "26/05/2026",
+          "cliente": "J.W.C. COMERCIO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 378.72,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 378.72
+            }
+          ]
+        },
+        {
+          "numped": "155003542",
+          "numnota": "396927.0",
+          "data": "25/05/2026",
+          "cliente": "XERE BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1348.0,
+          "itens": [
+            {
+              "desc": "VINHO LOS ALJIBES (VA) BRANCO 750ML",
+              "qt": 4,
+              "val": 299.6
+            },
+            {
+              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+              "qt": 6,
+              "val": 449.4
+            },
+            {
+              "desc": "HUMB. CANALE DENARIO SAUV. BLANC",
+              "qt": 6,
+              "val": 419.4
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 2,
+              "val": 79.8
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. PINOT NOIR",
+              "qt": 2,
+              "val": 99.8
             }
           ]
         },
@@ -38050,6 +38938,81 @@ const ENTREGAS_DATA = {
               "desc": "VINHO LOS ALJIBES (VA) BRANCO 750ML",
               "qt": 0,
               "val": 0.0
+            }
+          ]
+        },
+        {
+          "numped": "155003538",
+          "numnota": "396874.0",
+          "data": "25/05/2026",
+          "cliente": "VILLA RAPHAEL EMPREENDIMENTOS TURISTICOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1326.3,
+          "itens": [
+            {
+              "desc": "GIN BOMBAY SAPPHIRE 750ML",
+              "qt": 1,
+              "val": 69.9
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 36,
+              "val": 1256.4
+            }
+          ]
+        },
+        {
+          "numped": "155003539",
+          "numnota": "396875.0",
+          "data": "25/05/2026",
+          "cliente": "R GUIMARAES GUEDES - EIRELI - ME",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 272.6,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 2,
+              "val": 55.8
+            },
+            {
+              "desc": "LICOR COINTREAU 700 ML",
+              "qt": 1,
+              "val": 89.9
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 1,
+              "val": 126.9
+            }
+          ]
+        },
+        {
+          "numped": "155003540",
+          "numnota": "396873.0",
+          "data": "25/05/2026",
+          "cliente": "ANEXO 392 BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 380.7,
+          "itens": [
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 3,
+              "val": 380.7
             }
           ]
         },
@@ -41589,28 +42552,7 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
-      "em_rota": [
-        {
-          "numped": "241000474",
-          "numnota": "397001.0",
-          "data": "26/05/2026",
-          "cliente": "38.200.029 CLAUDIO LUIZ PEREIRA FARIA",
-          "placa": "RJD5F19",
-          "rota": "BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 946.8,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 5,
-              "val": 946.8
-            }
-          ]
-        }
-      ],
+      "em_rota": [],
       "nao_emitido": [],
       "emitido_s_rota": [
         {
@@ -41635,6 +42577,26 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY BALLANTINES SWEET BLEND 700ML",
               "qt": 3,
               "val": 185.7
+            }
+          ]
+        },
+        {
+          "numped": "241000474",
+          "numnota": "397001.0",
+          "data": "26/05/2026",
+          "cliente": "38.200.029 CLAUDIO LUIZ PEREIRA FARIA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 946.8,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 5,
+              "val": 946.8
             }
           ]
         },
