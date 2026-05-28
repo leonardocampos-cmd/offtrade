@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "28/05/2026 12:01",
+  "atualizado_em": "28/05/2026 13:17",
   "data_rota": "28.05",
   "vendedores": [
     {
@@ -267,71 +267,6 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
-        {
-          "numped": "431000983",
-          "numnota": "",
-          "data": "28/05/2026",
-          "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1000.66,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 3,
-              "val": 77.04
-            },
-            {
-              "desc": "ST PIERRE ZERO LAT PINK LEMONADE 6X310ML",
-              "qt": 2,
-              "val": 46.72
-            },
-            {
-              "desc": "ST PIERRE ZERO LATA TROPICAL LT 6X310ML",
-              "qt": 2,
-              "val": 46.72
-            },
-            {
-              "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-              "qt": 1,
-              "val": 97.82
-            },
-            {
-              "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
-              "qt": 1,
-              "val": 108.02
-            },
-            {
-              "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
-              "qt": 1,
-              "val": 191.76
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 1,
-              "val": 71.76
-            },
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 1,
-              "val": 71.76
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 1,
-              "val": 97.31
-            },
-            {
-              "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-              "qt": 1,
-              "val": 191.76
-            }
-          ]
-        },
         {
           "numped": "431000982",
           "numnota": "",
@@ -3293,6 +3228,36 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "174000030",
+          "numnota": "397806.0",
+          "data": "28/05/2026",
+          "cliente": "GAMA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 27889.92,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 36,
+              "val": 2324.16
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 36,
+              "val": 2324.16
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 360,
+              "val": 23241.6
+            }
+          ]
+        },
+        {
           "numped": "174000024",
           "numnota": "397125.0",
           "data": "26/05/2026",
@@ -3469,6 +3434,51 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "471000256",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "CAFE E BAR REDENTOR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 700.8,
+          "itens": [
+            {
+              "desc": "PIRASSUNUNGA 51 965 ML",
+              "qt": 24,
+              "val": 295.2
+            },
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 24,
+              "val": 405.6
+            }
+          ]
+        },
+        {
+          "numped": "471000255",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "PASSARELA BAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entrega agendada para sexta dia 29/5",
+          "total": 1259.0,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 10,
+              "val": 1259.0
+            }
+          ]
+        },
         {
           "numped": "471000253",
           "numnota": "",
@@ -11279,6 +11289,26 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "144001457",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "MARCIO GARCIA SANCHES 01351218760",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 750.0,
+          "itens": [
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 60,
+              "val": 750.0
+            }
+          ]
+        },
+        {
           "numped": "144001456",
           "numnota": "",
           "data": "28/05/2026",
@@ -11325,26 +11355,6 @@ const ENTREGAS_DATA = {
               "desc": "LICOR ESP DIEGO ZAMORA 43 + 1 COPO",
               "qt": 3,
               "val": 389.7
-            }
-          ]
-        },
-        {
-          "numped": "144001457",
-          "numnota": "",
-          "data": "28/05/2026",
-          "cliente": "MARCIO GARCIA SANCHES 01351218760",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 750.0,
-          "itens": [
-            {
-              "desc": "CACHACA VELHO BARREIRO 910 ML",
-              "qt": 60,
-              "val": 750.0
             }
           ]
         }
@@ -15144,6 +15154,36 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "159004717",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "R R RESTAURANTE CARIOCA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 329.41,
+          "itens": [
+            {
+              "desc": "VILLA ROSA COLHEITA TINTO 750ML",
+              "qt": 1,
+              "val": 48.21
+            },
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 2,
+              "val": 110.2
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 6,
+              "val": 171.0
+            }
+          ]
+        },
         {
           "numped": "159004712",
           "numnota": "",
@@ -20352,28 +20392,7 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [
-        {
-          "numped": "379001006",
-          "numnota": "",
-          "data": "28/05/2026",
-          "cliente": "NASOLI COMERCIO DE BEBIDAS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 789.6,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 24,
-              "val": 789.6
-            }
-          ]
-        }
-      ],
+      "nao_emitido": [],
       "emitido_s_rota": [
         {
           "numped": "379000996",
@@ -26865,6 +26884,41 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "275000513",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 2281.68,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI PROSECCO 750ML",
+              "qt": 18,
+              "val": 588.6
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 18,
+              "val": 588.6
+            },
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 12,
+              "val": 515.88
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 18,
+              "val": 588.6
+            }
+          ]
+        },
+        {
           "numped": "275000526",
           "numnota": "",
           "data": "28/05/2026",
@@ -26877,6 +26931,26 @@ const ENTREGAS_DATA = {
           "obs": "ENTREGA AGENDADA: 02/06",
           "total": 18177.54,
           "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 80,
+              "val": 2616.0
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 48,
+              "val": 1569.6
+            },
+            {
+              "desc": "ESPUM CASA PERINI PROSECCO 750ML",
+              "qt": 36,
+              "val": 1177.2
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 96,
+              "val": 3139.2
+            },
             {
               "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
               "qt": 48,
@@ -26906,26 +26980,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M",
               "qt": 18,
               "val": 1006.2
-            },
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 80,
-              "val": 2616.0
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 48,
-              "val": 1569.6
-            },
-            {
-              "desc": "ESPUM CASA PERINI PROSECCO 750ML",
-              "qt": 36,
-              "val": 1177.2
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-              "qt": 96,
-              "val": 3139.2
             }
           ]
         },
@@ -27331,41 +27385,6 @@ const ENTREGAS_DATA = {
               "desc": "GIN LARIOS ORIGINAL 700ML",
               "qt": 24,
               "val": 1031.76
-            }
-          ]
-        },
-        {
-          "numped": "275000513",
-          "numnota": "",
-          "data": "28/05/2026",
-          "cliente": "DOM ATACAREJO S.A.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 02/06",
-          "total": 2281.68,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 18,
-              "val": 588.6
-            },
-            {
-              "desc": "ESPUM CASA PERINI PROSECCO 750ML",
-              "qt": 18,
-              "val": 588.6
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-              "qt": 18,
-              "val": 588.6
-            },
-            {
-              "desc": "GIN LARIOS ORIGINAL 700ML",
-              "qt": 12,
-              "val": 515.88
             }
           ]
         }
@@ -39040,6 +39059,46 @@ const ENTREGAS_DATA = {
               "desc": "VINHO SERBAL ASSEMBLAGE 750ML",
               "qt": 6,
               "val": 299.4
+            }
+          ]
+        },
+        {
+          "numped": "155003562",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "J.W.C. COMERCIO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 589.68,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 3,
+              "val": 589.68
+            }
+          ]
+        },
+        {
+          "numped": "155003561",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "J. W. DEPOSITO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 378.72,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 378.72
             }
           ]
         }
