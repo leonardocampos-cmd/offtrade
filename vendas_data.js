@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "28/05/2026 10:04",
+  "atualizado_em": "28/05/2026 10:29",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -144568,6 +144568,15 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 28.9
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "95038",
+          "cliente": "GABRIEL BARROS MELO",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 229.0
         },
         {
           "data": "13/05/2026",
