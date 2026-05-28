@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "28/05/2026 11:01",
+  "atualizado_em": "28/05/2026 12:01",
   "data_rota": "28.05",
   "vendedores": [
     {
@@ -359,26 +359,6 @@ const ENTREGAS_DATA = {
               "desc": "PINATI PROTEIN CUPS AMENDOIM 18X21G",
               "qt": 1,
               "val": 95.9
-            }
-          ]
-        },
-        {
-          "numped": "431000974",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "PANIFICACAO E CONFEITARIA VALE DE CAMBRA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 84.72,
-          "itens": [
-            {
-              "desc": "RC PATE ATUM COM AZEITONAS 12X80G",
-              "qt": 1,
-              "val": 84.72
             }
           ]
         },
@@ -3518,26 +3498,6 @@ const ENTREGAS_DATA = {
               "val": 38.9
             }
           ]
-        },
-        {
-          "numped": "471000254",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "DANIEL ALBUQUERQUE RIBEIRO MINIMERCADO LTDA]",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 77.8,
-          "itens": [
-            {
-              "desc": "PINATI NUTS BANANA 20X30G",
-              "qt": 2,
-              "val": 77.8
-            }
-          ]
         }
       ],
       "emitido_s_rota": [
@@ -5662,7 +5622,88 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "153001162",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "SUPERMERCADO JAPERI LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 29/05 com pagamento de descarga no valor de R$60,00 por pal",
+          "total": 1307.54,
+          "itens": [
+            {
+              "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+              "qt": 2,
+              "val": 183.8
+            },
+            {
+              "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
+              "qt": 1,
+              "val": 91.9
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+              "qt": 1,
+              "val": 95.9
+            },
+            {
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR MANGA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR PESSEGO 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 24,
+              "val": 280.8
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+              "qt": 24,
+              "val": 429.6
+            },
+            {
+              "desc": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+              "qt": 1,
+              "val": 45.9
+            }
+          ]
+        },
+        {
+          "numped": "153001161",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "SUPERMERCADO JAPERI LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 286.8,
+          "itens": [
+            {
+              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "qt": 1,
+              "val": 286.8
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "153001158",
@@ -11306,26 +11347,6 @@ const ENTREGAS_DATA = {
               "val": 750.0
             }
           ]
-        },
-        {
-          "numped": "144001448",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 379.2,
-          "itens": [
-            {
-              "desc": "CACHACA YPIOCA BRASILIZAR CG OURO 965ML",
-              "qt": 24,
-              "val": 379.2
-            }
-          ]
         }
       ],
       "emitido_s_rota": [
@@ -15160,31 +15181,6 @@ const ENTREGAS_DATA = {
               "desc": "LICOR STOCK CURACAU 720 ML",
               "qt": 11,
               "val": 405.9
-            }
-          ]
-        },
-        {
-          "numped": "159004704",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "BELLA COZINHA TERAPIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 86.9,
-          "itens": [
-            {
-              "desc": "CACHACA SALINAS CRISTALINA 1L",
-              "qt": 1,
-              "val": 34.9
-            },
-            {
-              "desc": "GIN ROCKS 1000ML",
-              "qt": 2,
-              "val": 52.0
             }
           ]
         }
@@ -26869,7 +26865,7 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "275000519",
+          "numped": "275000526",
           "numnota": "",
           "data": "28/05/2026",
           "cliente": "DOM ATACAREJO S.A.",
@@ -26879,27 +26875,22 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "ENTREGA AGENDADA: 02/06",
-          "total": 10059.42,
+          "total": 18177.54,
           "itens": [
             {
-              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-              "qt": 12,
-              "val": 392.4
-            },
-            {
-              "desc": "GIN LARIOS ORIGINAL 700ML",
-              "qt": 12,
-              "val": 515.88
-            },
-            {
               "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
-              "qt": 18,
-              "val": 588.6
+              "qt": 48,
+              "val": 1569.6
             },
             {
               "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
               "qt": 6,
               "val": 335.94
+            },
+            {
+              "desc": "ROSE MINUTY 281 750ML",
+              "qt": 6,
+              "val": 2094.0
             },
             {
               "desc": "VINHO ADELE ROSE 750ML",
@@ -26918,173 +26909,23 @@ const ENTREGAS_DATA = {
             },
             {
               "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 18,
-              "val": 588.6
+              "qt": 80,
+              "val": 2616.0
             },
             {
               "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 42,
-              "val": 1373.4
-            },
-            {
-              "desc": "ESPUM CASA PERINI PROSECCO 750ML",
-              "qt": 18,
-              "val": 588.6
-            }
-          ]
-        },
-        {
-          "numped": "275000521",
-          "numnota": "",
-          "data": "28/05/2026",
-          "cliente": "DOM ATACAREJO S.A.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 02/06",
-          "total": 1569.6,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
               "qt": 48,
               "val": 1569.6
-            }
-          ]
-        },
-        {
-          "numped": "275000512",
-          "numnota": "",
-          "data": "28/05/2026",
-          "cliente": "DOM ATACAREJO S.A.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 02/06",
-          "total": 515.88,
-          "itens": [
-            {
-              "desc": "GIN LARIOS ORIGINAL 700ML",
-              "qt": 12,
-              "val": 515.88
-            }
-          ]
-        },
-        {
-          "numped": "275000515",
-          "numnota": "",
-          "data": "28/05/2026",
-          "cliente": "DOM ATACAREJO S.A.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 02/06",
-          "total": 1031.76,
-          "itens": [
-            {
-              "desc": "GIN LARIOS ORIGINAL 700ML",
-              "qt": 24,
-              "val": 1031.76
-            }
-          ]
-        },
-        {
-          "numped": "275000516",
-          "numnota": "",
-          "data": "28/05/2026",
-          "cliente": "DOM ATACAREJO S.A.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 02/06",
-          "total": 515.88,
-          "itens": [
-            {
-              "desc": "GIN LARIOS ORIGINAL 700ML",
-              "qt": 12,
-              "val": 515.88
-            }
-          ]
-        },
-        {
-          "numped": "275000517",
-          "numnota": "",
-          "data": "28/05/2026",
-          "cliente": "DOM ATACAREJO S.A.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 02/06",
-          "total": 1177.2,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-              "qt": 36,
-              "val": 1177.2
-            }
-          ]
-        },
-        {
-          "numped": "275000511",
-          "numnota": "",
-          "data": "28/05/2026",
-          "cliente": "DOM ATACAREJO S.A.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 02/06",
-          "total": 1031.76,
-          "itens": [
-            {
-              "desc": "GIN LARIOS ORIGINAL 700ML",
-              "qt": 24,
-              "val": 1031.76
-            }
-          ]
-        },
-        {
-          "numped": "275000513",
-          "numnota": "",
-          "data": "28/05/2026",
-          "cliente": "DOM ATACAREJO S.A.",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA: 02/06",
-          "total": 2281.68,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 18,
-              "val": 588.6
             },
             {
               "desc": "ESPUM CASA PERINI PROSECCO 750ML",
-              "qt": 18,
-              "val": 588.6
+              "qt": 36,
+              "val": 1177.2
             },
             {
               "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-              "qt": 18,
-              "val": 588.6
-            },
-            {
-              "desc": "GIN LARIOS ORIGINAL 700ML",
-              "qt": 12,
-              "val": 515.88
+              "qt": 96,
+              "val": 3139.2
             }
           ]
         },
@@ -27180,6 +27021,351 @@ const ENTREGAS_DATA = {
               "desc": "GIN LARIOS ORIGINAL 700ML",
               "qt": 24,
               "val": 1031.76
+            }
+          ]
+        },
+        {
+          "numped": "275000519",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 10059.42,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 18,
+              "val": 588.6
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 42,
+              "val": 1373.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI PROSECCO 750ML",
+              "qt": 18,
+              "val": 588.6
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 12,
+              "val": 392.4
+            },
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 12,
+              "val": 515.88
+            },
+            {
+              "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+              "qt": 18,
+              "val": 588.6
+            },
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 6,
+              "val": 335.94
+            },
+            {
+              "desc": "VINHO ADELE ROSE 750ML",
+              "qt": 18,
+              "val": 1009.8
+            },
+            {
+              "desc": "VINHO CHATEAU DAGASSAC TINTO 750ML",
+              "qt": 12,
+              "val": 3660.0
+            },
+            {
+              "desc": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M",
+              "qt": 18,
+              "val": 1006.2
+            }
+          ]
+        },
+        {
+          "numped": "275000521",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 1569.6,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 48,
+              "val": 1569.6
+            }
+          ]
+        },
+        {
+          "numped": "275000512",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 515.88,
+          "itens": [
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 12,
+              "val": 515.88
+            }
+          ]
+        },
+        {
+          "numped": "275000515",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 1031.76,
+          "itens": [
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 24,
+              "val": 1031.76
+            }
+          ]
+        },
+        {
+          "numped": "275000522",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 6011.94,
+          "itens": [
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 6,
+              "val": 335.94
+            },
+            {
+              "desc": "VINHO ADELE ROSE 750ML",
+              "qt": 18,
+              "val": 1009.8
+            },
+            {
+              "desc": "VINHO CHATEAU DAGASSAC TINTO 750ML",
+              "qt": 12,
+              "val": 3660.0
+            },
+            {
+              "desc": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M",
+              "qt": 18,
+              "val": 1006.2
+            }
+          ]
+        },
+        {
+          "numped": "275000524",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 392.4,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 12,
+              "val": 392.4
+            }
+          ]
+        },
+        {
+          "numped": "275000516",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 515.88,
+          "itens": [
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 12,
+              "val": 515.88
+            }
+          ]
+        },
+        {
+          "numped": "275000517",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 1177.2,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 36,
+              "val": 1177.2
+            }
+          ]
+        },
+        {
+          "numped": "275000523",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 5641.02,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 60,
+              "val": 1962.0
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 6,
+              "val": 196.2
+            },
+            {
+              "desc": "ESPUM CASA PERINI PROSECCO 750ML",
+              "qt": 12,
+              "val": 392.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 6,
+              "val": 196.2
+            },
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 30,
+              "val": 1289.7
+            },
+            {
+              "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+              "qt": 18,
+              "val": 588.6
+            },
+            {
+              "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
+              "qt": 12,
+              "val": 1015.92
+            }
+          ]
+        },
+        {
+          "numped": "275000525",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 4316.4,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 132,
+              "val": 4316.4
+            }
+          ]
+        },
+        {
+          "numped": "275000511",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 1031.76,
+          "itens": [
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 24,
+              "val": 1031.76
+            }
+          ]
+        },
+        {
+          "numped": "275000513",
+          "numnota": "",
+          "data": "28/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA: 02/06",
+          "total": 2281.68,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 18,
+              "val": 588.6
+            },
+            {
+              "desc": "ESPUM CASA PERINI PROSECCO 750ML",
+              "qt": 18,
+              "val": 588.6
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 18,
+              "val": 588.6
+            },
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 12,
+              "val": 515.88
             }
           ]
         }
@@ -28767,26 +28953,6 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
-        {
-          "numped": "156003457",
-          "numnota": "",
-          "data": "27/05/2026",
-          "cliente": "POSTO PALACIO GUANABARA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 99.5,
-          "itens": [
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "qt": 5,
-              "val": 99.5
-            }
-          ]
-        },
         {
           "numped": "156003459",
           "numnota": "",
