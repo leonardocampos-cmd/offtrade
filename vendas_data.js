@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/05/2026 11:02",
+  "atualizado_em": "29/05/2026 12:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -57931,24 +57931,6 @@ const VENDAS_DATA = {
           "valor": 98.28
         },
         {
-          "data": "27/05/2026",
-          "codcli": "91410",
-          "cliente": "RESTAURANTE E BAR RAINHA DE JACAREPAGUA LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 6,
-          "valor": 185.4
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "91410",
-          "cliente": "RESTAURANTE E BAR RAINHA DE JACAREPAGUA LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 5,
-          "valor": 128.4
-        },
-        {
           "data": "04/05/2026",
           "codcli": "91617",
           "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
@@ -78361,42 +78343,6 @@ const VENDAS_DATA = {
           "valor": 8269.5
         },
         {
-          "data": "28/04/2026",
-          "codcli": "83387",
-          "cliente": "CGX COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 60,
-          "valor": 2094.0
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "83387",
-          "cliente": "CGX COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 628.2
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "83387",
-          "cliente": "CGX COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 628.2
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "83387",
-          "cliente": "CGX COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 628.2
-        },
-        {
           "data": "08/04/2026",
           "codcli": "84161",
           "cliente": "PQA ALIMENTOS PRACA SECA LTDA",
@@ -83558,6 +83504,42 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 4,
           "valor": 136.51
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "95112",
+          "cliente": "RIO DELLI COMERCIO DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "95112",
+          "cliente": "RIO DELLI COMERCIO DE ALIMENTOS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 3,
+          "valor": 77.7
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "95112",
+          "cliente": "RIO DELLI COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "KAISER",
+          "qt": 1,
+          "valor": 128.9
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "95112",
+          "cliente": "RIO DELLI COMERCIO DE ALIMENTOS LTDA",
+          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 99.84
         },
         {
           "data": "22/05/2026",
@@ -105980,15 +105962,6 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 64.8
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "86115",
-          "cliente": "MINIMERCADO ALFERES LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L",
-          "fantasia": "BROWN",
-          "qt": 3,
-          "valor": 329.7
         },
         {
           "data": "27/05/2026",
@@ -158088,42 +158061,6 @@ const VENDAS_DATA = {
           "valor": 137.4
         },
         {
-          "data": "27/05/2026",
-          "codcli": "90489",
-          "cliente": "MERCADO ILHA DO GOVERNADOR LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "90489",
-          "cliente": "MERCADO ILHA DO GOVERNADOR LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "90489",
-          "cliente": "MERCADO ILHA DO GOVERNADOR LTDA",
-          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "90489",
-          "cliente": "MERCADO ILHA DO GOVERNADOR LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 5,
-          "valor": 326.4
-        },
-        {
           "data": "18/05/2026",
           "codcli": "89954",
           "cliente": "MERCADO RIO SUL PARQUE ELDORADO LTDA",
@@ -174185,6 +174122,15 @@ const VENDAS_DATA = {
           "fantasia": "BETTER DRINKS",
           "qt": 2,
           "valor": 259.62
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL SUGAR FREE 24X250ML - ENERG",
+          "fantasia": "RED BULL",
+          "qt": 100,
+          "valor": 18216.0
         },
         {
           "data": "13/05/2026",
