@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/05/2026 16:13",
+  "atualizado_em": "29/05/2026 17:01",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -68435,6 +68435,15 @@ const VENDAS_DATA = {
           "valor": 105.9
         },
         {
+          "data": "29/05/2026",
+          "codcli": "91484",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 199.5
+        },
+        {
           "data": "27/05/2026",
           "codcli": "91484",
           "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
@@ -68903,6 +68912,69 @@ const VENDAS_DATA = {
           "valor": 117.6
         },
         {
+          "data": "29/05/2026",
+          "codcli": "91353",
+          "cliente": "GR 2 ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+          "fantasia": "TIAL",
+          "qt": 10,
+          "valor": 389.6
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "91353",
+          "cliente": "GR 2 ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+          "fantasia": "TIAL",
+          "qt": 10,
+          "valor": 389.6
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "91353",
+          "cliente": "GR 2 ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO MANGA 24X200ML KIDS",
+          "fantasia": "TIAL",
+          "qt": 10,
+          "valor": 389.6
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "91353",
+          "cliente": "GR 2 ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO GOIABA 24X200ML KIDS",
+          "fantasia": "TIAL",
+          "qt": 10,
+          "valor": 389.6
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "91353",
+          "cliente": "GR 2 ALIMENTOS LTDA",
+          "produto": "NECTAR DE MARACUJA 24X200ML KIDS",
+          "fantasia": "TIAL",
+          "qt": 10,
+          "valor": 389.6
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "91353",
+          "cliente": "GR 2 ALIMENTOS LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "91353",
+          "cliente": "GR 2 ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+          "fantasia": "TIAL",
+          "qt": 10,
+          "valor": 389.6
+        },
+        {
           "data": "13/05/2026",
           "codcli": "91353",
           "cliente": "GR 2 ALIMENTOS LTDA",
@@ -69342,6 +69414,78 @@ const VENDAS_DATA = {
           "fantasia": "INVICTUS",
           "qt": 3,
           "valor": 44.7
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "NECTAR DE MARACUJA 24X200ML KIDS",
+          "fantasia": "TIAL",
+          "qt": 10,
+          "valor": 309.6
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+          "fantasia": "TIAL",
+          "qt": 6,
+          "valor": 185.76
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "NECTAR MISTO MANGA 24X200ML KIDS",
+          "fantasia": "TIAL",
+          "qt": 6,
+          "valor": 185.76
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+          "fantasia": "TIAL",
+          "qt": 6,
+          "valor": 185.76
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+          "fantasia": "TIAL",
+          "qt": 10,
+          "valor": 309.6
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "NECTAR MISTO GOIABA 24X200ML KIDS",
+          "fantasia": "TIAL",
+          "qt": 6,
+          "valor": 185.76
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 141.6
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 5,
+          "valor": 326.4
         },
         {
           "data": "25/05/2026",
@@ -83407,6 +83551,33 @@ const VENDAS_DATA = {
           "valor": 954.0
         },
         {
+          "data": "29/05/2026",
+          "codcli": "20697",
+          "cliente": "BARBUDO DISTRIBUIDORA LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
+          "qt": 3,
+          "valor": 224.7
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "20697",
+          "cliente": "BARBUDO DISTRIBUIDORA LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 2,
+          "valor": 131.8
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "20697",
+          "cliente": "BARBUDO DISTRIBUIDORA LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 75.9
+        },
+        {
           "data": "07/05/2026",
           "codcli": "53108",
           "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
@@ -86111,6 +86282,15 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 169.92
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "82130",
+          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
+          "produto": "KIT AQUARELA 7 GARRAFAS + BALDE",
+          "fantasia": "CASA PERINI",
+          "qt": 1,
+          "valor": 299.0
         },
         {
           "data": "20/05/2026",
@@ -105586,6 +105766,24 @@ const VENDAS_DATA = {
           "valor": 1259.4
         },
         {
+          "data": "29/05/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 588.0
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "AURORA",
+          "qt": 3,
+          "valor": 299.7
+        },
+        {
           "data": "18/05/2026",
           "codcli": "81490",
           "cliente": "MAYRON S BAR LTDA",
@@ -108964,6 +109162,15 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 24,
           "valor": 645.6
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "86100",
+          "cliente": "OLIVIER ARMAZEM DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 150,
+          "valor": 4935.0
         }
       ]
     },
@@ -136735,6 +136942,24 @@ const VENDAS_DATA = {
           "valor": 137.4
         },
         {
+          "data": "29/05/2026",
+          "codcli": "90228",
+          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 12,
+          "valor": 766.8
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "90228",
+          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 64.56
+        },
+        {
           "data": "07/05/2026",
           "codcli": "90211",
           "cliente": "FRANCISCO DAS CHAGAS SOUSA BATISTA",
@@ -156792,6 +157017,42 @@ const VENDAS_DATA = {
           "valor": 592.2
         },
         {
+          "data": "29/05/2026",
+          "codcli": "75125",
+          "cliente": "MERCADO RIO SUL DE PIABETA LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "75125",
+          "cliente": "MERCADO RIO SUL DE PIABETA LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "75125",
+          "cliente": "MERCADO RIO SUL DE PIABETA LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "75125",
+          "cliente": "MERCADO RIO SUL DE PIABETA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 85.1
+        },
+        {
           "data": "23/05/2026",
           "codcli": "78072",
           "cliente": "MERCADO RIO SUL DE SANTA CRUZ DA SERRA LTDA",
@@ -166983,6 +167244,33 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 12,
           "valor": 418.8
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "84025",
+          "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1150.8
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "84025",
+          "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 164.06
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "84025",
+          "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
+          "produto": "MOVING BOOSTER LIMAO 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 759.0
         },
         {
           "data": "12/05/2026",
