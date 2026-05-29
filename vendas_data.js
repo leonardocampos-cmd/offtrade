@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/05/2026 15:02",
+  "atualizado_em": "29/05/2026 15:26",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -166409,6 +166409,24 @@ const VENDAS_DATA = {
           "valor": 1177.2
         },
         {
+          "data": "29/05/2026",
+          "codcli": "83962",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 90,
+          "valor": 2961.0
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "83962",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "WHISKY WHITE HORSE - 1L",
+          "fantasia": "DIAGEO",
+          "qt": 60,
+          "valor": 3594.0
+        },
+        {
           "data": "11/05/2026",
           "codcli": "83970",
           "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
@@ -166875,6 +166893,15 @@ const VENDAS_DATA = {
           "fantasia": "HOB",
           "qt": 6,
           "valor": 179.4
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "79681",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "GIN LARIOS ORIGINAL 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 515.88
         },
         {
           "data": "11/05/2026",
