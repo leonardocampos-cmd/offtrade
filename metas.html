@@ -1602,8 +1602,7 @@ function buildCampanhaDetail(v, mes) {
 }
 
 function buildAllCampanhas(v) {
-  const meses = [...new Set(CAMPANHAS.map(c => c.mes))];
-  return meses.map(m => buildCampanhaDetail(v, m)).filter(Boolean).join('');
+  return buildCampanhaDetail(v, _getMes());
 }
 
 function buildAmarulaDetail(v) {
