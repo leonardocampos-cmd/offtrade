@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "29/05/2026 15:03",
+  "atualizado_em": "29/05/2026 15:26",
   "data_rota": "29.05",
   "vendedores": [
     {
@@ -5880,11 +5880,6 @@ const ENTREGAS_DATA = {
           "total": 455.51,
           "itens": [
             {
-              "desc": "PINATI SIMPLE WHEY CHOCO BELGA (4)16X35G",
-              "qt": 1,
-              "val": 43.9
-            },
-            {
               "desc": "WHISKY JACK DANIELS 1L",
               "qt": 1,
               "val": 109.9
@@ -5903,6 +5898,11 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 2,
               "val": 130.5
+            },
+            {
+              "desc": "PINATI SIMPLE WHEY CHOCO BELGA (4)16X35G",
+              "qt": 1,
+              "val": 43.9
             }
           ]
         },
@@ -9266,6 +9266,36 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "412001284",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Nome Fantasia - Parada Legal, se pesquisar por esse nome o Google encontra",
+          "total": 552.6,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 2,
+              "val": 307.8
+            },
+            {
+              "desc": "VODKA SMIRNOFF 600 ML",
+              "qt": 2,
+              "val": 45.0
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 500ML",
+              "qt": 2,
+              "val": 199.8
+            }
+          ]
+        },
+        {
           "numped": "412001286",
           "numnota": "",
           "data": "29/05/2026",
@@ -9437,36 +9467,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO ROSE CALA DE POETI ROSATO 750ML",
               "qt": 6,
               "val": 179.4
-            }
-          ]
-        },
-        {
-          "numped": "412001284",
-          "numnota": "",
-          "data": "29/05/2026",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Nome Fantasia - Parada Legal, se pesquisar por esse nome o Google encontra",
-          "total": 552.6,
-          "itens": [
-            {
-              "desc": "WHISKY J WALKER BLACK LABEL 1L",
-              "qt": 2,
-              "val": 307.8
-            },
-            {
-              "desc": "VODKA SMIRNOFF 600 ML",
-              "qt": 2,
-              "val": 45.0
-            },
-            {
-              "desc": "WHISKY J WALKER BLACK LABEL 500ML",
-              "qt": 2,
-              "val": 199.8
             }
           ]
         },
@@ -12083,6 +12083,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "144001468",
+          "numnota": "5570.0",
+          "data": "29/05/2026",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGAR 01/06",
+          "total": 18160.8,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 552,
+              "val": 18160.8
+            }
+          ]
+        },
         {
           "numped": "144001462",
           "numnota": "5491.0",
@@ -21321,6 +21341,81 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "379001012",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 314.5,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 5,
+              "val": 314.5
+            }
+          ]
+        },
+        {
+          "numped": "379001021",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "54.723.0( LUCIANA DOS SANTOS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "urgencia entrega para o dia 30/05 evento",
+          "total": 6983.2,
+          "itens": [
+            {
+              "desc": "GIN INVICTUS TRADICIONAL 900ML",
+              "qt": 60,
+              "val": 720.0
+            },
+            {
+              "desc": "GIN INVICTUS TROPICAL 900ML",
+              "qt": 120,
+              "val": 1440.0
+            },
+            {
+              "desc": "GIN INVICTUS MACA VERDE 900ML",
+              "qt": 120,
+              "val": 1440.0
+            },
+            {
+              "desc": "SABOR DO SABOR GIN + COMBO MELANCIA",
+              "qt": 30,
+              "val": 269.7
+            },
+            {
+              "desc": "SABOR DO SABOR WHISKY + COMBO TRAD",
+              "qt": 30,
+              "val": 269.7
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 1,
+              "val": 89.9
+            },
+            {
+              "desc": "LIQUEUR AMARULA RASBERRY 750 ML",
+              "qt": 1,
+              "val": 89.9
+            },
+            {
+              "desc": "GIN INVICTUS MELANCIA 900ML",
+              "qt": 222,
+              "val": 2664.0
+            }
+          ]
+        },
+        {
           "numped": "379001015",
           "numnota": "",
           "data": "29/05/2026",
@@ -21391,22 +21486,97 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "379001012",
+          "numped": "379001023",
           "numnota": "",
           "data": "29/05/2026",
-          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
+          "cliente": "GR 2 ALIMENTOS LTDA",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 314.5,
+          "total": 2427.5,
           "itens": [
             {
-              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "qt": 5,
-              "val": 314.5
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 10,
+              "val": 389.6
+            },
+            {
+              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "qt": 10,
+              "val": 389.6
+            },
+            {
+              "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+              "qt": 10,
+              "val": 389.6
+            },
+            {
+              "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
+              "qt": 10,
+              "val": 389.6
+            },
+            {
+              "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
+              "qt": 10,
+              "val": 389.6
+            },
+            {
+              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
+              "qt": 10,
+              "val": 389.6
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 1,
+              "val": 89.9
+            }
+          ]
+        },
+        {
+          "numped": "379001022",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "NOVO LATICINIO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1362.24,
+          "itens": [
+            {
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 10,
+              "val": 309.6
+            },
+            {
+              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "qt": 6,
+              "val": 185.76
+            },
+            {
+              "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+              "qt": 6,
+              "val": 185.76
+            },
+            {
+              "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
+              "qt": 10,
+              "val": 309.6
+            },
+            {
+              "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
+              "qt": 6,
+              "val": 185.76
+            },
+            {
+              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
+              "qt": 6,
+              "val": 185.76
             }
           ]
         },
@@ -21427,61 +21597,6 @@ const ENTREGAS_DATA = {
               "desc": "VEJA PERF CON LAVANDA 12X100ML",
               "qt": 1,
               "val": 72.12
-            }
-          ]
-        },
-        {
-          "numped": "379001021",
-          "numnota": "",
-          "data": "29/05/2026",
-          "cliente": "54.723.0( LUCIANA DOS SANTOS",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "urgencia entrega para o dia 30/05 evento",
-          "total": 6983.2,
-          "itens": [
-            {
-              "desc": "LIQUEUR AMARULA RASBERRY 750 ML",
-              "qt": 1,
-              "val": 89.9
-            },
-            {
-              "desc": "GIN INVICTUS MELANCIA 900ML",
-              "qt": 222,
-              "val": 2664.0
-            },
-            {
-              "desc": "GIN INVICTUS TRADICIONAL 900ML",
-              "qt": 60,
-              "val": 720.0
-            },
-            {
-              "desc": "GIN INVICTUS TROPICAL 900ML",
-              "qt": 120,
-              "val": 1440.0
-            },
-            {
-              "desc": "GIN INVICTUS MACA VERDE 900ML",
-              "qt": 120,
-              "val": 1440.0
-            },
-            {
-              "desc": "SABOR DO SABOR GIN + COMBO MELANCIA",
-              "qt": 30,
-              "val": 269.7
-            },
-            {
-              "desc": "SABOR DO SABOR WHISKY + COMBO TRAD",
-              "qt": 30,
-              "val": 269.7
-            },
-            {
-              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-              "qt": 1,
-              "val": 89.9
             }
           ]
         }
@@ -28453,6 +28568,51 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [],
       "emitido_s_rota": [
+        {
+          "numped": "275000528",
+          "numnota": "5568.0",
+          "data": "29/05/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA AGENDADA - AGUARDANDO",
+          "total": 515.88,
+          "itens": [
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 12,
+              "val": 515.88
+            }
+          ]
+        },
+        {
+          "numped": "275000529",
+          "numnota": "5569.0",
+          "data": "29/05/2026",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA 01/06",
+          "total": 6555.0,
+          "itens": [
+            {
+              "desc": "WHISKY WHITE HORSE - 1L",
+              "qt": 60,
+              "val": 3594.0
+            },
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 90,
+              "val": 2961.0
+            }
+          ]
+        },
         {
           "numped": "275000510",
           "numnota": "5481.0",
