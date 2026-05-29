@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/05/2026 14:02",
+  "atualizado_em": "29/05/2026 15:02",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -67526,6 +67526,15 @@ const VENDAS_DATA = {
           "valor": 573.6
         },
         {
+          "data": "29/05/2026",
+          "codcli": "70802",
+          "cliente": "NASOLI COMERCIO DE BEBIDAS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 24,
+          "valor": 789.6
+        },
+        {
           "data": "22/05/2026",
           "codcli": "95070",
           "cliente": "DBPAIVA COMERCIO VAREJISTA LTDA",
@@ -70332,6 +70341,42 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 69.0
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "95137",
+          "cliente": "ORGANIZACOES VICTORIA & PENEDO LTDA",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "FANTE",
+          "qt": 3,
+          "valor": 71.97
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "95137",
+          "cliente": "ORGANIZACOES VICTORIA & PENEDO LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 3,
+          "valor": 71.97
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "95137",
+          "cliente": "ORGANIZACOES VICTORIA & PENEDO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 213.18
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "95137",
+          "cliente": "ORGANIZACOES VICTORIA & PENEDO LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 6,
+          "valor": 107.4
         },
         {
           "data": "26/05/2026",
@@ -109004,6 +109049,114 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 149.4
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 298.8
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 18,
+          "valor": 594.0
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 198.0
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 335.4
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 310.8
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 396.0
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 18,
+          "valor": 594.0
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "TERRAZAS RESERVA MALBEC 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 485.4
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VINHO TROU DE LAPIN BORDEAUX TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 335.4
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 310.8
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+          "produto": "VODKA BELVEDERE 700 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 695.4
         },
         {
           "data": "02/05/2026",
@@ -167578,6 +167731,33 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 12,
           "valor": 562.8
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 360,
+          "valor": 42120.0
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 240,
+          "valor": 24936.0
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "AURORA",
+          "qt": 240,
+          "valor": 24936.0
         },
         {
           "data": "25/05/2026",
