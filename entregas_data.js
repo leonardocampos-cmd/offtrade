@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "29/05/2026 15:26",
+  "atualizado_em": "29/05/2026 16:01",
   "data_rota": "29.05",
   "vendedores": [
     {
@@ -3792,7 +3792,38 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "471000264",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "BARBUDO DISTRIBUIDORA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 432.4,
+          "itens": [
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 2,
+              "val": 131.8
+            },
+            {
+              "desc": "CHANDON RESERVE BRUT ROSE 750ML",
+              "qt": 1,
+              "val": 75.9
+            },
+            {
+              "desc": "APERITIVO LUCIA 750ML",
+              "qt": 3,
+              "val": 224.7
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "471000259",
@@ -9266,32 +9297,22 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "412001284",
+          "numped": "412001283",
           "numnota": "",
           "data": "29/05/2026",
-          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
-          "obs": "Nome Fantasia - Parada Legal, se pesquisar por esse nome o Google encontra",
-          "total": 552.6,
+          "obs": "",
+          "total": 88.7,
           "itens": [
             {
-              "desc": "WHISKY J WALKER BLACK LABEL 1L",
-              "qt": 2,
-              "val": 307.8
-            },
-            {
-              "desc": "VODKA SMIRNOFF 600 ML",
-              "qt": 2,
-              "val": 45.0
-            },
-            {
-              "desc": "WHISKY J WALKER BLACK LABEL 500ML",
-              "qt": 2,
-              "val": 199.8
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 1,
+              "val": 88.7
             }
           ]
         },
@@ -9402,46 +9423,6 @@ const ENTREGAS_DATA = {
               "desc": "VINO ROSSO LOGGIA DELLE SASSAIE 750ML",
               "qt": 18,
               "val": 538.2
-            }
-          ]
-        },
-        {
-          "numped": "412001282",
-          "numnota": "",
-          "data": "29/05/2026",
-          "cliente": "BRASIL WEST ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 501.88,
-          "itens": [
-            {
-              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-              "qt": 2,
-              "val": 81.12
-            },
-            {
-              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
-              "qt": 2,
-              "val": 81.12
-            },
-            {
-              "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
-              "qt": 2,
-              "val": 81.12
-            },
-            {
-              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
-              "qt": 2,
-              "val": 81.12
-            },
-            {
-              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-              "qt": 2,
-              "val": 177.4
             }
           ]
         },
@@ -9564,10 +9545,12 @@ const ENTREGAS_DATA = {
               "val": 87.6
             }
           ]
-        },
+        }
+      ],
+      "emitido_s_rota": [
         {
           "numped": "412001281",
-          "numnota": "",
+          "numnota": "398214.0",
           "data": "29/05/2026",
           "cliente": "A PARADA DA DUTRA LTDA",
           "placa": "",
@@ -9591,8 +9574,8 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "412001283",
-          "numnota": "",
+          "numped": "412001282",
+          "numnota": "398212.0",
           "data": "29/05/2026",
           "cliente": "BRASIL WEST ALIMENTOS LTDA",
           "placa": "",
@@ -9601,17 +9584,65 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 88.7,
+          "total": 501.88,
           "itens": [
             {
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 2,
+              "val": 81.12
+            },
+            {
+              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "qt": 2,
+              "val": 81.12
+            },
+            {
+              "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+              "qt": 2,
+              "val": 81.12
+            },
+            {
+              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
+              "qt": 2,
+              "val": 81.12
+            },
+            {
               "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-              "qt": 1,
-              "val": 88.7
+              "qt": 2,
+              "val": 177.4
             }
           ]
-        }
-      ],
-      "emitido_s_rota": [
+        },
+        {
+          "numped": "412001284",
+          "numnota": "398215.0",
+          "data": "29/05/2026",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Nome Fantasia - Parada Legal, se pesquisar por esse nome o Google encontra",
+          "total": 552.6,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 2,
+              "val": 307.8
+            },
+            {
+              "desc": "VODKA SMIRNOFF 600 ML",
+              "qt": 2,
+              "val": 45.0
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 500ML",
+              "qt": 2,
+              "val": 199.8
+            }
+          ]
+        },
         {
           "numped": "412001278",
           "numnota": "397499.0",
@@ -11982,46 +12013,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "144001465",
-          "numnota": "",
-          "data": "29/05/2026",
-          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 177.4,
-          "itens": [
-            {
-              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-              "qt": 2,
-              "val": 177.4
-            }
-          ]
-        },
-        {
-          "numped": "144001464",
-          "numnota": "",
-          "data": "29/05/2026",
-          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 354.8,
-          "itens": [
-            {
-              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-              "qt": 4,
-              "val": 354.8
-            }
-          ]
-        },
-        {
           "numped": "144001467",
           "numnota": "",
           "data": "29/05/2026",
@@ -12045,10 +12036,12 @@ const ENTREGAS_DATA = {
               "val": 588.0
             }
           ]
-        },
+        }
+      ],
+      "emitido_s_rota": [
         {
           "numped": "144001463",
-          "numnota": "",
+          "numnota": "398216.0",
           "data": "29/05/2026",
           "cliente": "RENATO CRUZ DA SILVA 15335044748",
           "placa": "",
@@ -12080,9 +12073,47 @@ const ENTREGAS_DATA = {
               "val": 129.6
             }
           ]
-        }
-      ],
-      "emitido_s_rota": [
+        },
+        {
+          "numped": "144001464",
+          "numnota": "398209.0",
+          "data": "29/05/2026",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 354.8,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 4,
+              "val": 354.8
+            }
+          ]
+        },
+        {
+          "numped": "144001465",
+          "numnota": "398208.0",
+          "data": "29/05/2026",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 177.4,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 2,
+              "val": 177.4
+            }
+          ]
+        },
         {
           "numped": "144001468",
           "numnota": "5570.0",
@@ -21341,6 +21372,56 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "379001023",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "GR 2 ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2427.5,
+          "itens": [
+            {
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 10,
+              "val": 389.6
+            },
+            {
+              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "qt": 10,
+              "val": 389.6
+            },
+            {
+              "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+              "qt": 10,
+              "val": 389.6
+            },
+            {
+              "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
+              "qt": 10,
+              "val": 389.6
+            },
+            {
+              "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
+              "qt": 10,
+              "val": 389.6
+            },
+            {
+              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
+              "qt": 10,
+              "val": 389.6
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 1,
+              "val": 89.9
+            }
+          ]
+        },
+        {
           "numped": "379001012",
           "numnota": "",
           "data": "29/05/2026",
@@ -21361,6 +21442,71 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "379001022",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "NOVO LATICINIO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1362.24,
+          "itens": [
+            {
+              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "qt": 6,
+              "val": 185.76
+            },
+            {
+              "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+              "qt": 6,
+              "val": 185.76
+            },
+            {
+              "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
+              "qt": 10,
+              "val": 309.6
+            },
+            {
+              "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
+              "qt": 6,
+              "val": 185.76
+            },
+            {
+              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
+              "qt": 6,
+              "val": 185.76
+            },
+            {
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 10,
+              "val": 309.6
+            }
+          ]
+        },
+        {
+          "numped": "379001020",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 72.12,
+          "itens": [
+            {
+              "desc": "VEJA PERF CON LAVANDA 12X100ML",
+              "qt": 1,
+              "val": 72.12
+            }
+          ]
+        },
+        {
           "numped": "379001021",
           "numnota": "",
           "data": "29/05/2026",
@@ -21373,6 +21519,16 @@ const ENTREGAS_DATA = {
           "obs": "urgencia entrega para o dia 30/05 evento",
           "total": 6983.2,
           "itens": [
+            {
+              "desc": "LIQUEUR AMARULA RASBERRY 750 ML",
+              "qt": 1,
+              "val": 89.9
+            },
+            {
+              "desc": "GIN INVICTUS MELANCIA 900ML",
+              "qt": 222,
+              "val": 2664.0
+            },
             {
               "desc": "GIN INVICTUS TRADICIONAL 900ML",
               "qt": 60,
@@ -21402,16 +21558,6 @@ const ENTREGAS_DATA = {
               "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
               "qt": 1,
               "val": 89.9
-            },
-            {
-              "desc": "LIQUEUR AMARULA RASBERRY 750 ML",
-              "qt": 1,
-              "val": 89.9
-            },
-            {
-              "desc": "GIN INVICTUS MELANCIA 900ML",
-              "qt": 222,
-              "val": 2664.0
             }
           ]
         },
@@ -21482,121 +21628,6 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 5,
               "val": 326.4
-            }
-          ]
-        },
-        {
-          "numped": "379001023",
-          "numnota": "",
-          "data": "29/05/2026",
-          "cliente": "GR 2 ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 2427.5,
-          "itens": [
-            {
-              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-              "qt": 10,
-              "val": 389.6
-            },
-            {
-              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
-              "qt": 10,
-              "val": 389.6
-            },
-            {
-              "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
-              "qt": 10,
-              "val": 389.6
-            },
-            {
-              "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
-              "qt": 10,
-              "val": 389.6
-            },
-            {
-              "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
-              "qt": 10,
-              "val": 389.6
-            },
-            {
-              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
-              "qt": 10,
-              "val": 389.6
-            },
-            {
-              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-              "qt": 1,
-              "val": 89.9
-            }
-          ]
-        },
-        {
-          "numped": "379001022",
-          "numnota": "",
-          "data": "29/05/2026",
-          "cliente": "NOVO LATICINIO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1362.24,
-          "itens": [
-            {
-              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-              "qt": 10,
-              "val": 309.6
-            },
-            {
-              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
-              "qt": 6,
-              "val": 185.76
-            },
-            {
-              "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
-              "qt": 6,
-              "val": 185.76
-            },
-            {
-              "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
-              "qt": 10,
-              "val": 309.6
-            },
-            {
-              "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
-              "qt": 6,
-              "val": 185.76
-            },
-            {
-              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
-              "qt": 6,
-              "val": 185.76
-            }
-          ]
-        },
-        {
-          "numped": "379001020",
-          "numnota": "",
-          "data": "29/05/2026",
-          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 72.12,
-          "itens": [
-            {
-              "desc": "VEJA PERF CON LAVANDA 12X100ML",
-              "qt": 1,
-              "val": 72.12
             }
           ]
         }
@@ -31141,6 +31172,36 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "156003479",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "POSTO MAR AZUL LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 284.1,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ]
+        },
+        {
           "numped": "156003474",
           "numnota": "",
           "data": "28/05/2026",
@@ -38664,26 +38725,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "439000176",
-          "numnota": "",
-          "data": "29/05/2026",
-          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Data entrega: 05/06/26",
-          "total": 392.4,
-          "itens": [
-            {
-              "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
-              "qt": 36,
-              "val": 392.4
-            }
-          ]
-        },
-        {
           "numped": "439000177",
           "numnota": "",
           "data": "29/05/2026",
@@ -38710,6 +38751,26 @@ const ENTREGAS_DATA = {
               "desc": "VODKA ABSOLUT TABASCO 750ML",
               "qt": 2,
               "val": 139.8
+            }
+          ]
+        },
+        {
+          "numped": "439000176",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 05/06/26",
+          "total": 392.4,
+          "itens": [
+            {
+              "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
+              "qt": 36,
+              "val": 392.4
             }
           ]
         }
@@ -39754,6 +39815,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "419000607",
+          "numnota": "5571.0",
+          "data": "29/05/2026",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGAR 30/05",
+          "total": 1760.4,
+          "itens": [
+            {
+              "desc": "BALLANTINES SUNSHINE 700ML",
+              "qt": 36,
+              "val": 1760.4
+            }
+          ]
+        },
         {
           "numped": "419000602",
           "numnota": "397927.0",
@@ -41662,8 +41743,40 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "155003564",
+          "numped": "155003563",
           "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "NEW LOUNGE CAMBOINHAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 978.88,
+          "itens": [
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 3,
+              "val": 589.68
+            },
+            {
+              "desc": "LICOR BALLENA MORANGO 750 ML",
+              "qt": 2,
+              "val": 209.8
+            },
+            {
+              "desc": "GIN ROCKS 1000ML",
+              "qt": 6,
+              "val": 179.4
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [
+        {
+          "numped": "155003564",
+          "numnota": "398217.0",
           "data": "29/05/2026",
           "cliente": "THE DUCK BAR E RESTAURANTE LTDA",
           "placa": "",
@@ -41696,38 +41809,6 @@ const ENTREGAS_DATA = {
             }
           ]
         },
-        {
-          "numped": "155003563",
-          "numnota": "",
-          "data": "29/05/2026",
-          "cliente": "NEW LOUNGE CAMBOINHAS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 978.88,
-          "itens": [
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 3,
-              "val": 589.68
-            },
-            {
-              "desc": "LICOR BALLENA MORANGO 750 ML",
-              "qt": 2,
-              "val": 209.8
-            },
-            {
-              "desc": "GIN ROCKS 1000ML",
-              "qt": 6,
-              "val": 179.4
-            }
-          ]
-        }
-      ],
-      "emitido_s_rota": [
         {
           "numped": "155003553",
           "numnota": "397378.0",
