@@ -1,29 +1,29 @@
 const AMARULA_DATA = {
-  "atualizado_em": "29/05/2026 16:13",
+  "atualizado_em": "29/05/2026 17:01",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
-  "total_vendedores": 11,
-  "total_positivacao": 14,
-  "total_faturamento": 24192.0,
+  "total_vendedores": 13,
+  "total_positivacao": 18,
+  "total_faturamento": 26113.9,
   "ranking_positivacao": [
+    {
+      "vendedor": "MICHELE ALCANTARA",
+      "valor": 3
+    },
+    {
+      "vendedor": "JORGE MACIEL",
+      "valor": 2
+    },
     {
       "vendedor": "CARLOS ARTHUR NETO",
       "valor": 2
     },
     {
-      "vendedor": "MICHELE ALCANTARA",
-      "valor": 2
-    },
-    {
       "vendedor": "THIAGO NASCIMENTO",
       "valor": 2
-    },
-    {
-      "vendedor": "DIOGO RAPOSO",
-      "valor": 1
     },
     {
       "vendedor": "BEES",
@@ -34,11 +34,11 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "JORGE MACIEL",
+      "vendedor": "DIOGO RAPOSO",
       "valor": 1
     },
     {
-      "vendedor": "MARILENA TRAGEL",
+      "vendedor": "LAIS POPPE VILLANOVA",
       "valor": 1
     },
     {
@@ -46,7 +46,15 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
+      "vendedor": "MARILENA TRAGEL",
+      "valor": 1
+    },
+    {
       "vendedor": "NATALI OLIVEIRA",
+      "valor": 1
+    },
+    {
+      "vendedor": "VANESSA SOUSA",
       "valor": 1
     },
     {
@@ -61,11 +69,19 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "JORGE MACIEL",
-      "valor": 3506.1
+      "valor": 3596.0
+    },
+    {
+      "vendedor": "VANESSA SOUSA",
+      "valor": 1066.8
     },
     {
       "vendedor": "MICHELE ALCANTARA",
-      "valor": 652.2
+      "valor": 830.0
+    },
+    {
+      "vendedor": "LAIS POPPE VILLANOVA",
+      "valor": 587.4
     },
     {
       "vendedor": "THIAGO NASCIMENTO",
@@ -80,15 +96,15 @@ const AMARULA_DATA = {
       "valor": 197.8
     },
     {
+      "vendedor": "DIOGO RAPOSO",
+      "valor": 177.8
+    },
+    {
       "vendedor": "CARLOS ARTHUR NETO",
       "valor": 177.8
     },
     {
       "vendedor": "INGRID ARAUJO",
-      "valor": 177.8
-    },
-    {
-      "vendedor": "DIOGO RAPOSO",
       "valor": 177.8
     },
     {
