@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "29/05/2026 11:03",
+  "atualizado_em": "29/05/2026 12:01",
   "data_rota": "29.05",
   "vendedores": [
     {
@@ -9312,6 +9312,36 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "412001284",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Nome Fantasia - Parada Legal, se pesquisar por esse nome o Google encontra",
+          "total": 552.6,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 500ML",
+              "qt": 2,
+              "val": 199.8
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 2,
+              "val": 307.8
+            },
+            {
+              "desc": "VODKA SMIRNOFF 600 ML",
+              "qt": 2,
+              "val": 45.0
+            }
+          ]
+        },
+        {
           "numped": "412001281",
           "numnota": "",
           "data": "29/05/2026",
@@ -9333,6 +9363,66 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL ZERO  24X250ML",
               "qt": 1,
               "val": 196.56
+            }
+          ]
+        },
+        {
+          "numped": "412001283",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 88.7,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 1,
+              "val": 88.7
+            }
+          ]
+        },
+        {
+          "numped": "412001282",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 501.88,
+          "itens": [
+            {
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 2,
+              "val": 81.12
+            },
+            {
+              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "qt": 2,
+              "val": 81.12
+            },
+            {
+              "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+              "qt": 2,
+              "val": 81.12
+            },
+            {
+              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
+              "qt": 2,
+              "val": 81.12
+            },
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 2,
+              "val": 177.4
             }
           ]
         }
@@ -11531,6 +11621,51 @@ const ENTREGAS_DATA = {
       "nome": "DIOGO RAPOSO",
       "em_rota": [
         {
+          "numped": "144001460",
+          "numnota": "398014.0",
+          "data": "28/05/2026",
+          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "BANGU",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2489.9,
+          "itens": [
+            {
+              "desc": "GIN MARINA ROSE 750ML",
+              "qt": 1,
+              "val": 39.9
+            },
+            {
+              "desc": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
+              "qt": 50,
+              "val": 2450.0
+            }
+          ]
+        },
+        {
+          "numped": "144001461",
+          "numnota": "398053.0",
+          "data": "28/05/2026",
+          "cliente": "MERCADO E DISTRIBUIDORA DA PRACA 2021 LTDA",
+          "placa": "",
+          "rota": "JPA",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 259.2,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 4,
+              "val": 259.2
+            }
+          ]
+        },
+        {
           "numped": "144001456",
           "numnota": "397849.0",
           "data": "28/05/2026",
@@ -11659,54 +11794,29 @@ const ENTREGAS_DATA = {
               "val": 648.0
             }
           ]
-        },
-        {
-          "numped": "144001460",
-          "numnota": "398014.0",
-          "data": "28/05/2026",
-          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
-          "placa": "",
-          "rota": "BANGU",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 2489.9,
-          "itens": [
-            {
-              "desc": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
-              "qt": 50,
-              "val": 2450.0
-            },
-            {
-              "desc": "GIN MARINA ROSE 750ML",
-              "qt": 1,
-              "val": 39.9
-            }
-          ]
-        },
-        {
-          "numped": "144001461",
-          "numnota": "398053.0",
-          "data": "28/05/2026",
-          "cliente": "MERCADO E DISTRIBUIDORA DA PRACA 2021 LTDA",
-          "placa": "",
-          "rota": "JPA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 259.2,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 4,
-              "val": 259.2
-            }
-          ]
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "144001464",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 354.8,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 4,
+              "val": 354.8
+            }
+          ]
+        },
         {
           "numped": "144001463",
           "numnota": "",
@@ -11741,6 +11851,26 @@ const ENTREGAS_DATA = {
               "val": 129.6
             }
           ]
+        },
+        {
+          "numped": "144001465",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 177.4,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 2,
+              "val": 177.4
+            }
+          ]
         }
       ],
       "emitido_s_rota": [
@@ -11758,11 +11888,6 @@ const ENTREGAS_DATA = {
           "total": 6609.0,
           "itens": [
             {
-              "desc": "VILLA ROSA TINTO 750ML",
-              "qt": 24,
-              "val": 549.6
-            },
-            {
               "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
               "qt": 180,
               "val": 5922.0
@@ -11771,6 +11896,11 @@ const ENTREGAS_DATA = {
               "desc": "VILLA ROSA BRANCO 750ML",
               "qt": 6,
               "val": 137.4
+            },
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 24,
+              "val": 549.6
             }
           ]
         },
@@ -20986,26 +21116,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "379001012",
-          "numnota": "",
-          "data": "29/05/2026",
-          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 314.5,
-          "itens": [
-            {
-              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "qt": 5,
-              "val": 314.5
-            }
-          ]
-        },
-        {
           "numped": "379001010",
           "numnota": "",
           "data": "29/05/2026",
@@ -21027,6 +21137,26 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 1,
               "val": 65.28
+            }
+          ]
+        },
+        {
+          "numped": "379001012",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 314.5,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 5,
+              "val": 314.5
             }
           ]
         }
