@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/05/2026 09:08",
+  "atualizado_em": "29/05/2026 09:46",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -33547,96 +33547,6 @@ const VENDAS_DATA = {
           "valor": 87.48
         },
         {
-          "data": "28/05/2026",
-          "codcli": "2139",
-          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
-          "produto": "GIN TANQUERAY  750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 92.9
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "2139",
-          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
-          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 126.6
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "2139",
-          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
-          "produto": "BLACK LABEL 50 ML CX/12",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 239.9
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "2139",
-          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
-          "produto": "GIN BAM TANQUERAY RANGPUR  CX C/ 12X50ML",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 147.9
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "2139",
-          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "fantasia": "DIAGEO",
-          "qt": 2,
-          "valor": 279.8
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "2139",
-          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
-          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
-          "fantasia": "AURORA",
-          "qt": 2,
-          "valor": 42.64
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "2139",
-          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
-          "produto": "LICOR ESP DIEGO ZAMORA 43 CHOCOLATE",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 182.9
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "2139",
-          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "2139",
-          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
-          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.48
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "2139",
-          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
-          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.48
-        },
-        {
           "data": "15/05/2026",
           "codcli": "2454",
           "cliente": "POSTO DE GASOLINA GUADIANA LTDA",
@@ -39548,33 +39458,6 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 3,
           "valor": 419.7
-        },
-        {
-          "data": "08/05/2026",
-          "codcli": "90925",
-          "cliente": "POSTO MAR AZUL LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "08/05/2026",
-          "codcli": "90925",
-          "cliente": "POSTO MAR AZUL LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 5,
-          "valor": 129.5
-        },
-        {
-          "data": "08/05/2026",
-          "codcli": "90925",
-          "cliente": "POSTO MAR AZUL LTDA",
-          "produto": "WHISKY JACK DANIELS  700ML",
-          "fantasia": "BROWN",
-          "qt": 2,
-          "valor": 199.8
         },
         {
           "data": "08/05/2026",
