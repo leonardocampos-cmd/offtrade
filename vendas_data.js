@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/05/2026 16:02",
+  "atualizado_em": "29/05/2026 16:06",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -69740,6 +69740,15 @@ const VENDAS_DATA = {
           "valor": 598.5
         },
         {
+          "data": "29/05/2026",
+          "codcli": "91515",
+          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 5,
+          "valor": 314.5
+        },
+        {
           "data": "18/05/2026",
           "codcli": "91379",
           "cliente": "DROGARIA MENOS PRECO LTDA",
@@ -70422,6 +70431,24 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 141.6
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "95132",
+          "cliente": "61.105.898 ALEXANDRE NASCIMENTO LEITE DE ARAUJO",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 199.5
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "95132",
+          "cliente": "61.105.898 ALEXANDRE NASCIMENTO LEITE DE ARAUJO",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28
         }
       ],
       "Dez/25": [
@@ -156970,6 +156997,24 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 12,
           "valor": 214.8
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "83588",
+          "cliente": "MERCADAO DE ALIMENTOS UNIDOS BRASIL LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 170.4
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "83588",
+          "cliente": "MERCADAO DE ALIMENTOS UNIDOS BRASIL LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 170.4
         },
         {
           "data": "05/05/2026",
