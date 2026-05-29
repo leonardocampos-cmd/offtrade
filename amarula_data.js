@@ -1,28 +1,32 @@
 const AMARULA_DATA = {
-  "atualizado_em": "28/05/2026 17:01",
+  "atualizado_em": "29/05/2026 09:08",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
-  "total_vendedores": 9,
-  "total_positivacao": 10,
-  "total_faturamento": 5332.0,
+  "total_vendedores": 10,
+  "total_positivacao": 13,
+  "total_faturamento": 5690.6,
   "ranking_positivacao": [
+    {
+      "vendedor": "CARLOS ARTHUR NETO",
+      "valor": 2
+    },
+    {
+      "vendedor": "THIAGO NASCIMENTO",
+      "valor": 2
+    },
     {
       "vendedor": "MICHELE ALCANTARA",
       "valor": 2
     },
     {
-      "vendedor": "CARLOS ARTHUR NETO",
+      "vendedor": "BEES",
       "valor": 1
     },
     {
       "vendedor": "DIOGO RAPOSO",
-      "valor": 1
-    },
-    {
-      "vendedor": "JORGE MACIEL",
       "valor": 1
     },
     {
@@ -34,15 +38,15 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
+      "vendedor": "JORGE MACIEL",
+      "valor": 1
+    },
+    {
       "vendedor": "MARILENA TRAGEL",
       "valor": 1
     },
     {
       "vendedor": "NATALI OLIVEIRA",
-      "valor": 1
-    },
-    {
-      "vendedor": "THIAGO NASCIMENTO",
       "valor": 1
     }
   ],
@@ -56,6 +60,10 @@ const AMARULA_DATA = {
       "valor": 652.2
     },
     {
+      "vendedor": "THIAGO NASCIMENTO",
+      "valor": 269.7
+    },
+    {
       "vendedor": "NATALI OLIVEIRA",
       "valor": 267.7
     },
@@ -64,7 +72,7 @@ const AMARULA_DATA = {
       "valor": 197.8
     },
     {
-      "vendedor": "DIOGO RAPOSO",
+      "vendedor": "CARLOS ARTHUR NETO",
       "valor": 177.8
     },
     {
@@ -72,16 +80,16 @@ const AMARULA_DATA = {
       "valor": 177.8
     },
     {
+      "vendedor": "DIOGO RAPOSO",
+      "valor": 177.8
+    },
+    {
       "vendedor": "JOÃO VITOR BRAGA",
       "valor": 171.8
     },
     {
-      "vendedor": "THIAGO NASCIMENTO",
+      "vendedor": "BEES",
       "valor": 91.9
-    },
-    {
-      "vendedor": "CARLOS ARTHUR NETO",
-      "valor": 88.9
     }
   ]
 };
