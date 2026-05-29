@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/05/2026 15:26",
+  "atualizado_em": "29/05/2026 16:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -104668,6 +104668,15 @@ const VENDAS_DATA = {
           "valor": 64.8
         },
         {
+          "data": "29/05/2026",
+          "codcli": "3863",
+          "cliente": "MERCADO MINI PREÇO DA BOIUNA LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 552,
+          "valor": 18160.8
+        },
+        {
           "data": "20/05/2026",
           "codcli": "6401",
           "cliente": "MINI MARKET BARRA SUL MERCADO",
@@ -105829,6 +105838,42 @@ const VENDAS_DATA = {
           "valor": 191.9
         },
         {
+          "data": "29/05/2026",
+          "codcli": "83863",
+          "cliente": "RENATO CRUZ DA SILVA 15335044748",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 129.6
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "83863",
+          "cliente": "RENATO CRUZ DA SILVA 15335044748",
+          "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
+          "fantasia": "KAISER",
+          "qt": 20,
+          "valor": 978.0
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "83863",
+          "cliente": "RENATO CRUZ DA SILVA 15335044748",
+          "produto": "GIN MARINA 750ML",
+          "fantasia": "HOB",
+          "qt": 1,
+          "valor": 39.9
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "83863",
+          "cliente": "RENATO CRUZ DA SILVA 15335044748",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 25,
+          "valor": 1595.0
+        },
+        {
           "data": "26/05/2026",
           "codcli": "84904",
           "cliente": "ERIVALDO DE SOUZA SANTOS",
@@ -106052,6 +106097,15 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 6,
           "valor": 177.0
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "85383",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 354.8
         },
         {
           "data": "27/05/2026",
@@ -128077,6 +128131,24 @@ const VENDAS_DATA = {
           "valor": 196.56
         },
         {
+          "data": "29/05/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 393.12
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56
+        },
+        {
           "data": "22/05/2026",
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
@@ -128257,6 +128329,33 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
+          "data": "29/05/2026",
+          "codcli": "82704",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 307.8
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "82704",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 45.0
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "82704",
+          "cliente": "ICARO DIMOCOSTAS LANCHONETE E CONVENIENCIAS",
+          "produto": "WHISKY J WALKER BLACK LABEL 500ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 199.8
+        },
+        {
           "data": "05/05/2026",
           "codcli": "82911",
           "cliente": "AUTO POSTO AVENIDA CENTRAL DE IRAJA LTDA",
@@ -128291,6 +128390,51 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 2,
           "valor": 359.8
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO GOIABA 24X200ML KIDS",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 81.12
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 81.12
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 81.12
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 81.12
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "86262",
+          "cliente": "BRASIL WEST ALIMENTOS LTDA",
+          "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 177.4
         },
         {
           "data": "13/05/2026",
@@ -135473,6 +135617,15 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "50481",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
+          "produto": "BALLANTINES SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 1760.4
         },
         {
           "data": "21/05/2026",
@@ -173537,15 +173690,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 12,
           "valor": 418.8
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "69309",
-          "cliente": "MERCADO AVENIDA ANGRA LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 249.5
         },
         {
           "data": "20/05/2026",
