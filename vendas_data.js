@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/05/2026 12:00",
+  "atualizado_em": "29/05/2026 13:04",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -134859,60 +134859,6 @@ const VENDAS_DATA = {
           "valor": 1104.0
         },
         {
-          "data": "20/04/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "SMIRNOFF ICE GREEN APPLE (LATA) 24X269ML",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 98.4
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "fantasia": "CATUABA",
-          "qt": 12,
-          "valor": 189.6
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 264.0
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1678.8
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "WHISKY CHANCELER 1L",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 172.2
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
-          "fantasia": "51",
-          "qt": 1,
-          "valor": 103.92
-        },
-        {
           "data": "27/04/2026",
           "codcli": "84958",
           "cliente": "MARIA BONITA CLINICA DE ESTETICA LTDA",
@@ -135064,51 +135010,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 2,
           "valor": 46.4
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "91981",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 18,
-          "valor": 404.82
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "91981",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS SUNSET 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 134.94
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "91981",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 24,
-          "valor": 539.76
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "91981",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "WHISKY BLACK STONE 1LT",
-          "fantasia": "FANTE",
-          "qt": 36,
-          "valor": 449.64
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "91981",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "GIN ROCKS 1000ML",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 269.88
         },
         {
           "data": "11/04/2026",
@@ -156097,15 +155998,6 @@ const VENDAS_DATA = {
           "valor": 264.0
         },
         {
-          "data": "26/03/2026",
-          "codcli": "85945",
-          "cliente": "SUPERMERCADO RIO SUL DO CENTENARIO LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 36,
-          "valor": 421.2
-        },
-        {
           "data": "11/03/2026",
           "codcli": "90513",
           "cliente": "DISTRIBUIDORA PARADA DE NOVA IGUACU LTDA",
@@ -157330,15 +157222,6 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 5,
           "valor": 997.5
-        },
-        {
-          "data": "04/05/2026",
-          "codcli": "83653",
-          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 30,
-          "valor": 657.0
         },
         {
           "data": "18/05/2026",
@@ -160482,24 +160365,6 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 30,
           "valor": 1977.0
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "83946",
-          "cliente": "MERCADO RIO SUL PARADA ANGELICA LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 399.0
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "83946",
-          "cliente": "MERCADO RIO SUL PARADA ANGELICA LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 399.0
         },
         {
           "data": "28/04/2026",
