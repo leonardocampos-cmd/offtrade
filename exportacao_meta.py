@@ -109,22 +109,22 @@ def _cnpj_chave(cgc):
     d = _re.sub(r'\D', '', str(cgc) if cgc else '')
     return d[:8] if len(d) == 14 else (d if d else None)
 
-def _query_cadastros(schema):
+def _query_cadastros(schema, col_usur="CODUSUR1"):
     s = schema.upper()
     return f"""
-        SELECT C.CODCLI, C.CGC, U.NOME AS NOME_RCA
+        SELECT C.CODCLI, C.CGCENT AS CGC, U.NOME AS NOME_RCA
         FROM {s}.PCCLIENT C
-        JOIN {s}.PCUSUARI U ON C.CODUSUR1 = U.CODUSUR
+        JOIN {s}.PCUSUARI U ON C.{col_usur} = U.CODUSUR
         WHERE U.NOME LIKE '%OFF TRADE%'
-          AND TRUNC(C.DTCAD, 'MM') = TRUNC(SYSDATE, 'MM')
+          AND TRUNC(C.DTCADASTRO, 'MM') = TRUNC(SYSDATE, 'MM')
     """
 
 _cadastros_por_display: dict = {}
 try:
     _frames_cad = []
-    for _schema, _eng in [("CRC", engine), ("thekings", engine_theking), ("spon", engine_spon)]:
+    for _schema, _eng, _col in [("CRC", engine, "CODUSUR1"), ("thekings", engine_theking, "CODUSUR1"), ("spon", engine_spon, "CODUSUR1")]:
         try:
-            _df_part = carregar_dados(_query_cadastros(_schema), _eng, f"cadastros_{_schema}")
+            _df_part = carregar_dados(_query_cadastros(_schema, _col), _eng, f"cadastros_{_schema}")
             _df_part.columns = _df_part.columns.str.upper()
             _df_part['_SRC'] = _schema
             _frames_cad.append(_df_part)

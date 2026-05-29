@@ -72878,3 +72878,1986 @@ ModuleNotFoundError: No module named 'paramiko'
 
 [27/05/2026 14:02:02,86] OK 
 ---------------------------------------- 
+[27/05/2026 17:40:24,15] Iniciando... 
+[master 7e10b3e] Atualiza metas_data.js + vendas_data.js - 27/05/2026
+ 2 files changed, 5705 insertions(+), 5069 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   3cb6ca5..7e10b3e  master -> master
+[master 77bb7da] Atualiza entregas_data.js - 27/05/2026
+ 1 file changed, 2425 insertions(+), 1606 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   5bce546..77bb7da  master -> master
+
+==================================================
+  OFFTRADE - 27/05/2026 17:40
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2361
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 413 clientes, 11 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 5bce546] Atualiza amarula_data.js - 27/05/2026
+ 1 file changed, 12 insertions(+), 4 deletions(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 8 vendedores, 9 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 27-05 | 280 linhas
+OK - 21 vendedores, rota do dia 27.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 7036630] Atualiza vendas_sp_data.js - 27/05/2026
+ 1 file changed, 73 insertions(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 104s
+==================================================
+
+[27/05/2026 17:42:09,45] OK 
+---------------------------------------- 
+[28/05/2026 10:00:00,33] Iniciando... 
+[master c846f29] Atualiza metas_data.js + vendas_data.js - 28/05/2026
+ 2 files changed, 5 insertions(+), 203 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   9a34af3..c846f29  master -> master
+[master 4c1052a] Atualiza entregas_data.js - 28/05/2026
+ 1 file changed, 71 insertions(+), 50 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e9bdf01..4c1052a  master -> master
+
+==================================================
+  OFFTRADE - 28/05/2026 10:00
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2363
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 415 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master e9bdf01] Atualiza amarula_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 9 vendedores, 13 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: DATA | 0 linhas
+OK - 21 vendedores, rota do dia 28.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 107c48f] Atualiza vendas_sp_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 302s
+==================================================
+
+[28/05/2026 10:05:04,16] OK 
+---------------------------------------- 
+[28/05/2026 11:00:00,39] Iniciando... 
+[master aef21e7] Atualiza metas_data.js + vendas_data.js - 28/05/2026
+ 2 files changed, 4538 insertions(+), 4494 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   1d301ed..aef21e7  master -> master
+[master 8de4da2] Atualiza entregas_data.js - 28/05/2026
+ 1 file changed, 209 insertions(+), 38 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   5fee359..8de4da2  master -> master
+
+==================================================
+  OFFTRADE - 28/05/2026 11:00
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2365
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 416 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 5fee359] Atualiza amarula_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 9 vendedores, 13 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 28-05 | 442 linhas
+OK - 21 vendedores, rota do dia 28.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master b48683c] Atualiza vendas_sp_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 85s
+==================================================
+
+[28/05/2026 11:01:26,72] OK 
+---------------------------------------- 
+[28/05/2026 12:00:00,67] Iniciando... 
+[master 1087d39] Atualiza metas_data.js + vendas_data.js - 28/05/2026
+ 2 files changed, 1998 insertions(+), 1998 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   b48683c..1087d39  master -> master
+[master 158e438] Atualiza entregas_data.js - 28/05/2026
+ 1 file changed, 342 insertions(+), 176 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   1ae57ce..158e438  master -> master
+
+==================================================
+  OFFTRADE - 28/05/2026 12:00
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2368
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 418 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 1ae57ce] Atualiza amarula_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 9 vendedores, 13 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 28-05 | 442 linhas
+OK - 21 vendedores, rota do dia 28.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 698c1ba] Atualiza vendas_sp_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 1 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2367 chave(s) no total).
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 114s
+==================================================
+
+[28/05/2026 12:01:56,34] OK 
+---------------------------------------- 
+[28/05/2026 13:16:13,46] Iniciando... 
+[master c371d81] Atualiza metas_data.js + vendas_data.js - 28/05/2026
+ 2 files changed, 4893 insertions(+), 4893 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   698c1ba..c371d81  master -> master
+[master 81892d2] Atualiza entregas_data.js - 28/05/2026
+ 1 file changed, 222 insertions(+), 163 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   79ddd86..81892d2  master -> master
+
+==================================================
+  OFFTRADE - 28/05/2026 13:16
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2368
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 419 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 79ddd86] Atualiza amarula_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 9 vendedores, 13 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 28-05 | 442 linhas
+OK - 21 vendedores, rota do dia 28.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 42c9618] Atualiza vendas_sp_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 102s
+==================================================
+
+[28/05/2026 13:17:58,54] OK 
+---------------------------------------- 
+[28/05/2026 15:18:24,25] Iniciando... 
+[master f8228d0] Atualiza metas_data.js + vendas_data.js - 28/05/2026
+ 2 files changed, 2913 insertions(+), 2763 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   3fd95ca..f8228d0  master -> master
+[master 86f980a] Atualiza entregas_data.js - 28/05/2026
+ 1 file changed, 761 insertions(+), 583 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   0b5212a..86f980a  master -> master
+
+==================================================
+  OFFTRADE - 28/05/2026 15:18
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2370
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 421 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 0b5212a] Atualiza amarula_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 9 vendedores, 13 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 28-05 | 442 linhas
+OK - 21 vendedores, rota do dia 28.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 4d5f517] Atualiza vendas_sp_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 92s
+==================================================
+
+[28/05/2026 15:19:57,99] OK 
+---------------------------------------- 
+[28/05/2026 16:27:46,50] Iniciando... 
+[master d8cb4ee] Atualiza metas_data.js + vendas_data.js - 28/05/2026
+ 2 files changed, 3051 insertions(+), 2764 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   4d5f517..d8cb4ee  master -> master
+[master 28de7ef] Atualiza entregas_data.js - 28/05/2026
+ 1 file changed, 1327 insertions(+), 958 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   4dbcc3b..28de7ef  master -> master
+
+==================================================
+  OFFTRADE - 28/05/2026 16:27
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2371
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 422 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 4dbcc3b] Atualiza amarula_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 9 vendedores, 13 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 28-05 | 442 linhas
+OK - 21 vendedores, rota do dia 28.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 3d6f146] Atualiza vendas_sp_data.js - 28/05/2026
+ 1 file changed, 289 insertions(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 118s
+==================================================
+
+[28/05/2026 16:29:47,34] OK 
+---------------------------------------- 
+[28/05/2026 17:00:00,73] Iniciando... 
+[master af68f5f] Atualiza metas_data.js + vendas_data.js - 28/05/2026
+ 2 files changed, 2126 insertions(+), 2118 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   3d6f146..af68f5f  master -> master
+[master 593b9f9] Atualiza entregas_data.js - 28/05/2026
+ 1 file changed, 1604 insertions(+), 918 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   8da63d0..593b9f9  master -> master
+
+==================================================
+  OFFTRADE - 28/05/2026 17:00
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2371
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 430 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 8da63d0] Atualiza amarula_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 9 vendedores, 13 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 28-05 | 442 linhas
+OK - 21 vendedores, rota do dia 28.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 4abf862] Atualiza vendas_sp_data.js - 28/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 2 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2369 chave(s) no total).
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 101s
+==================================================
+
+[28/05/2026 17:01:43,82] OK 
+---------------------------------------- 
+[29/05/2026 10:00:00,67] Iniciando... 
+[master 7bec877] Atualiza metas_data.js + vendas_data.js - 29/05/2026
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   90ff921..7bec877  master -> master
+[master 7e7bd70] Atualiza entregas_data.js - 29/05/2026
+ 1 file changed, 38 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   23de1fd..7e7bd70  master -> master
+
+==================================================
+  OFFTRADE - 29/05/2026 10:00
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2372
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 430 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 23de1fd] Atualiza amarula_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 10 vendedores, 16 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 29-05 | 372 linhas
+OK - 21 vendedores, rota do dia 29.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master c6063ed] Atualiza vendas_sp_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 191s
+==================================================
+
+[29/05/2026 10:03:12,98] OK 
+---------------------------------------- 
+[29/05/2026 11:00:00,69] Iniciando... 
+[master 9cceb0d] Atualiza metas_data.js + vendas_data.js - 29/05/2026
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   c6063ed..9cceb0d  master -> master
+[master a0f9170] Atualiza entregas_data.js - 29/05/2026
+ 1 file changed, 212 insertions(+), 5 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   80e53ab..a0f9170  master -> master
+
+==================================================
+  OFFTRADE - 29/05/2026 11:00
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2374
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 431 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 80e53ab] Atualiza amarula_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 10 vendedores, 16 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 29-05 | 372 linhas
+OK - 21 vendedores, rota do dia 29.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 8f34f84] Atualiza vendas_sp_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 199s
+==================================================
+
+[29/05/2026 11:03:21,27] OK 
+---------------------------------------- 
+[29/05/2026 12:00:00,80] Iniciando... 
+[master 3551e9a] Atualiza metas_data.js + vendas_data.js - 29/05/2026
+ 2 files changed, 5230 insertions(+), 5328 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   8f34f84..3551e9a  master -> master
+[master 0040192] Atualiza entregas_data.js - 29/05/2026
+ 1 file changed, 190 insertions(+), 60 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   e2a93d2..0040192  master -> master
+
+==================================================
+  OFFTRADE - 29/05/2026 12:00
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2375
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 436 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master e2a93d2] Atualiza amarula_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 10 vendedores, 16 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 29-05 | 372 linhas
+OK - 21 vendedores, rota do dia 29.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master cbecd87] Atualiza vendas_sp_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 132s
+==================================================
+
+[29/05/2026 12:02:14,74] OK 
+---------------------------------------- 
+[29/05/2026 13:03:23,90] Iniciando... 
+[master 06445d3] Atualiza metas_data.js + vendas_data.js - 29/05/2026
+ 2 files changed, 1368 insertions(+), 1503 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   cbecd87..06445d3  master -> master
+[master 33a4ed5] Atualiza entregas_data.js - 29/05/2026
+ 1 file changed, 103 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   d30c16b..33a4ed5  master -> master
+
+==================================================
+  OFFTRADE - 29/05/2026 13:03
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2375
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 437 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master d30c16b] Atualiza amarula_data.js - 29/05/2026
+ 1 file changed, 19 insertions(+), 11 deletions(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 11 vendedores, 17 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 29-05 | 372 linhas
+OK - 21 vendedores, rota do dia 29.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 5eef367] Atualiza vendas_sp_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 94s
+==================================================
+
+[29/05/2026 13:05:01,85] OK 
+---------------------------------------- 
+[29/05/2026 14:00:00,69] Iniciando... 
+[master c7c1fe8] Atualiza metas_data.js + vendas_data.js - 29/05/2026
+ 2 files changed, 1549 insertions(+), 1584 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   5eef367..c7c1fe8  master -> master
+[master 32f6d24] Atualiza entregas_data.js - 29/05/2026
+ 1 file changed, 754 insertions(+), 583 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   50de4cd..32f6d24  master -> master
+
+==================================================
+  OFFTRADE - 29/05/2026 14:00
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2375
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 439 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 50de4cd] Atualiza amarula_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 11 vendedores, 17 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 29-05 | 372 linhas
+OK - 21 vendedores, rota do dia 29.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 5ffc2c0] Atualiza vendas_sp_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 102s
+==================================================
+
+[29/05/2026 14:01:44,38] OK 
+---------------------------------------- 
+[29/05/2026 14:01:51,12] Iniciando... 
+[master 15a8b58] Atualiza metas_data.js + vendas_data.js - 29/05/2026
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   5ffc2c0..15a8b58  master -> master
+[master d480772] Atualiza entregas_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   6c588ff..d480772  master -> master
+
+==================================================
+  OFFTRADE - 29/05/2026 14:01
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2375
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 439 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 6c588ff] Atualiza amarula_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 11 vendedores, 17 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 29-05 | 372 linhas
+OK - 21 vendedores, rota do dia 29.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 33518e6] Atualiza vendas_sp_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 76s
+==================================================
+
+[29/05/2026 14:03:07,79] OK 
+---------------------------------------- 
+[29/05/2026 15:00:00,76] Iniciando... 
+[master bf81b7a] Atualiza metas_data.js + vendas_data.js - 29/05/2026
+ 2 files changed, 2223 insertions(+), 1971 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   33518e6..bf81b7a  master -> master
+[master 001861d] Atualiza entregas_data.js - 29/05/2026
+ 1 file changed, 564 insertions(+), 249 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   3c8e421..001861d  master -> master
+
+==================================================
+  OFFTRADE - 29/05/2026 15:00
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+Clientes nao positivados em 05/2026: 2376
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_05-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+OK cadastros: 440 clientes, 12 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+OK metas_data.js gerado — 16 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 3c8e421] Atualiza amarula_data.js - 29/05/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+OK amarula_data.js — 11 vendedores, 17 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | aba: 29-05 | 372 linhas
+OK - 21 vendedores, rota do dia 29.05 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 3d55e04] Atualiza vendas_sp_data.js - 29/05/2026
+ 1 file changed, 10 insertions(+), 46 deletions(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 39 vendedores, meses: ['Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26', 'Dez/25']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/8 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 7 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2376 chave(s) no total).
+
+--------------------------------------------------
+  8/8 - Deploy para VPS
+--------------------------------------------------
+
+[AVISO] deploy_vps falhou — VPS ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+
+==================================================
+  Concluído em 204s
+==================================================
+
+[29/05/2026 15:03:25,91] OK 
+---------------------------------------- 
