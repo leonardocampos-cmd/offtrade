@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "29/05/2026 14:03",
+  "atualizado_em": "29/05/2026 15:03",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -27940,15 +27940,6 @@ const VENDAS_SP_DATA = {
           "valor": 4028.4
         },
         {
-          "data": "28/05/2026",
-          "codcli": "24527",
-          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
-          "produto": "CHAMP. VEUVE CLICQUOT DEMI-SEC 750 ML",
-          "fantasia": "",
-          "qt": 30,
-          "valor": 10497.0
-        },
-        {
           "data": "23/05/2026",
           "codcli": "24527",
           "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
@@ -28624,24 +28615,6 @@ const VENDAS_SP_DATA = {
           "valor": 2508.0
         },
         {
-          "data": "28/05/2026",
-          "codcli": "31084",
-          "cliente": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
-          "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "PERNOD",
-          "qt": 120,
-          "valor": 6960.0
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "31084",
-          "cliente": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "",
-          "qt": 600,
-          "valor": 57900.0
-        },
-        {
           "data": "06/05/2026",
           "codcli": "28991",
           "cliente": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS LTDA",
@@ -28892,24 +28865,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1194.0
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "36581",
-          "cliente": "COMERCIO DE BEBIDAS CHAPADA D OESTE LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L",
-          "fantasia": "",
-          "qt": 360,
-          "valor": 34740.0
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "36581",
-          "cliente": "COMERCIO DE BEBIDAS CHAPADA D OESTE LTDA",
-          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
-          "fantasia": "",
-          "qt": 240,
-          "valor": 23160.0
         },
         {
           "data": "12/05/2026",
@@ -42524,6 +42479,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 3,
           "valor": 197.7
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "50727",
+          "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 395.4
         }
       ]
     },
