@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "29/05/2026 12:01",
+  "atualizado_em": "29/05/2026 13:04",
   "data_rota": "29.05",
   "vendedores": [
     {
@@ -21116,6 +21116,31 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "379001015",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 271.62,
+          "itens": [
+            {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
+              "desc": "VEJA PERF CON LAVANDA 12X100ML",
+              "qt": 1,
+              "val": 72.12
+            }
+          ]
+        },
+        {
           "numped": "379001010",
           "numnota": "",
           "data": "29/05/2026",
@@ -21137,6 +21162,31 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 1,
               "val": 65.28
+            }
+          ]
+        },
+        {
+          "numped": "379001014",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "NOVO LATICINIO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 468.0,
+          "itens": [
+            {
+              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "qt": 1,
+              "val": 141.6
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 5,
+              "val": 326.4
             }
           ]
         },
@@ -39030,7 +39080,33 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "419000605",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "contato: Isaac ( 21980040962)",
+          "total": 831.36,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 12,
+              "val": 766.8
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+              "qt": 1,
+              "val": 64.56
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "419000602",
@@ -40914,6 +40990,31 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "155003565",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "ANEXO PRAIA BUZIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 786.24,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 393.12
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 2,
+              "val": 393.12
+            }
+          ]
+        },
         {
           "numped": "155003564",
           "numnota": "",
