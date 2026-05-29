@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/05/2026 13:04",
+  "atualizado_em": "29/05/2026 14:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -39305,33 +39305,6 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 10,
           "valor": 259.0
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "86258",
-          "cliente": "ROCAL PRODUTOS DE PETROLEO LTDA",
-          "produto": "SMIRNOFF ICE TROPICAL (LATA) 24X269ML",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 104.9
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "86258",
-          "cliente": "ROCAL PRODUTOS DE PETROLEO LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "86258",
-          "cliente": "ROCAL PRODUTOS DE PETROLEO LTDA",
-          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
-          "fantasia": "COMARY",
-          "qt": 2,
-          "valor": 149.6
         },
         {
           "data": "08/05/2026",
@@ -137468,7 +137441,7 @@ const VENDAS_DATA = {
         {
           "data": "10/12/2025",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 5,
@@ -137477,7 +137450,7 @@ const VENDAS_DATA = {
         {
           "data": "10/12/2025",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "RED BULL ZERO  24X250ML",
           "fantasia": "RED BULL",
           "qt": 2,
@@ -137486,7 +137459,7 @@ const VENDAS_DATA = {
         {
           "data": "10/12/2025",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "RED BULL MELANCIA 250ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 3,
@@ -137495,7 +137468,7 @@ const VENDAS_DATA = {
         {
           "data": "10/12/2025",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 18,
@@ -137504,7 +137477,7 @@ const VENDAS_DATA = {
         {
           "data": "10/12/2025",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
           "fantasia": "CASA PERINI",
           "qt": 12,
@@ -137513,7 +137486,7 @@ const VENDAS_DATA = {
         {
           "data": "10/12/2025",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 42,
@@ -140422,7 +140395,7 @@ const VENDAS_DATA = {
         {
           "data": "12/03/2026",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 12,
@@ -140431,7 +140404,7 @@ const VENDAS_DATA = {
         {
           "data": "12/03/2026",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 30,
@@ -140440,7 +140413,7 @@ const VENDAS_DATA = {
         {
           "data": "12/03/2026",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "ESPUM CASA PERINI BRUT 750ML",
           "fantasia": "CASA PERINI",
           "qt": 6,
@@ -143801,7 +143774,7 @@ const VENDAS_DATA = {
         {
           "data": "14/04/2026",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "RED BULL MELANCIA 250ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 5,
@@ -143810,7 +143783,7 @@ const VENDAS_DATA = {
         {
           "data": "14/04/2026",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "RED BULL MORANGO PESSEGO 24X250ML",
           "fantasia": "RED BULL",
           "qt": 2,
@@ -143819,7 +143792,7 @@ const VENDAS_DATA = {
         {
           "data": "14/04/2026",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "RED BULL  MELAO MARACUJA 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -143828,7 +143801,7 @@ const VENDAS_DATA = {
         {
           "data": "14/04/2026",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 6,
@@ -145117,7 +145090,7 @@ const VENDAS_DATA = {
         {
           "data": "04/02/2026",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "ST PIERRE LATA 270ML RED MINT CX C/ 24",
           "fantasia": "TATUZINHO",
           "qt": 5,
@@ -145126,7 +145099,7 @@ const VENDAS_DATA = {
         {
           "data": "04/02/2026",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "ST PIERRE LATA 270 ML PINK LEMON CX C/24",
           "fantasia": "TATUZINHO",
           "qt": 5,
@@ -145135,7 +145108,7 @@ const VENDAS_DATA = {
         {
           "data": "04/02/2026",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "ST PIERRE GINGER LT 270ML X24",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -145144,7 +145117,7 @@ const VENDAS_DATA = {
         {
           "data": "04/02/2026",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "SMIRNOFF ICE RASPBERRY (LATA) 24X269ML",
           "fantasia": "DIAGEO",
           "qt": 1,
@@ -145153,7 +145126,7 @@ const VENDAS_DATA = {
         {
           "data": "04/02/2026",
           "codcli": "50481",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA LTDA",
           "produto": "SMIRNOFF ICE RASPBERRY (LONG) 24X275ML",
           "fantasia": "DIAGEO",
           "qt": 2,
