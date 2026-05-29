@@ -1269,18 +1269,6 @@ function renderDetail(v, mes) {
 const CAMPANHAS = [
   {
     nome: 'Campanha PERNOD',
-    mes: 'Abr/26',
-    metricas: [
-      {
-        nome: 'SKUs distintos vendidos',
-        campo: 'bonus_pernod',
-        tipo: 'pos',
-        tipo_premio: 'direto',
-      },
-    ],
-  },
-  {
-    nome: 'Campanha PERNOD',
     mes: 'Mai/26',
     metricas: [
       {
@@ -1653,6 +1641,27 @@ function buildAmarulaDetail(v) {
     </div>`;
 }
 
+function _buildResumoEquipe(vendedores, mes) {
+  const totalFat = vendedores.reduce((s, v) => s + _mv(_pm(v, mes), 'fat_tt', 'realizado'), 0);
+  const totalPos = vendedores.reduce((s, v) => s + _mv(_pm(v, mes), 'pos_tt', 'realizado'), 0);
+  const totalCad = vendedores.reduce((s, v) => s + (v.clientes_cadastrados || 0), 0);
+  return `
+    <div class="vendas-resumo" style="margin-bottom:18px">
+      <div class="vendas-resumo-box">
+        <div class="vendas-resumo-label">Faturamento Total</div>
+        <div class="vendas-resumo-val">${fmtFat(totalFat)}</div>
+      </div>
+      <div class="vendas-resumo-box">
+        <div class="vendas-resumo-label">Positivação</div>
+        <div class="vendas-resumo-val">${fmtPos(totalPos)} clientes</div>
+      </div>
+      ${totalCad > 0 ? `<div class="vendas-resumo-box">
+        <div class="vendas-resumo-label">Cadastros</div>
+        <div class="vendas-resumo-val">${totalCad}</div>
+      </div>` : ''}
+    </div>`;
+}
+
 function _buildCards(vendedores, mes) {
   return vendedores.map(v => {
     const pm = _pm(v, mes);
@@ -1685,10 +1694,11 @@ function renderAll(vendedores, mes) {
     `${mes}  ·  Atualizado ${METAS_DATA.atualizado_em}`;
 
   document.getElementById('header-actions').innerHTML =
-    `<select class="mes-select" onchange="_mesSel=this.value; document.getElementById('cards-grid').innerHTML=_buildCards(METAS_DATA.vendedores, this.value); document.getElementById('header-sub').textContent=this.value+' · Atualizado ${METAS_DATA.atualizado_em}'">${mesOpts}</select>
+    `<select class="mes-select" onchange="_mesSel=this.value; document.getElementById('cards-grid').innerHTML=_buildCards(METAS_DATA.vendedores, this.value); document.getElementById('equipe-resumo-wrap').innerHTML=_buildResumoEquipe(METAS_DATA.vendedores, this.value); document.getElementById('header-sub').textContent=this.value+' · Atualizado ${METAS_DATA.atualizado_em}'">${mesOpts}</select>
      <a class="btn btn-limite" href="https://offtrade.duckdns.org/" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
 
   document.getElementById('app').innerHTML = `
+    <div id="equipe-resumo-wrap">${_buildResumoEquipe(METAS_DATA.vendedores, mes)}</div>
     <div class="search-wrap">
       <input class="search-input" type="text" placeholder="Buscar vendedor..."
         oninput="filterCards(this.value)">
