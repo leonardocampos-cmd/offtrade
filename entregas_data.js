@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "29/05/2026 16:07",
+  "atualizado_em": "29/05/2026 16:13",
   "data_rota": "29.05",
   "vendedores": [
     {
@@ -15962,6 +15962,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "159004728",
+          "numnota": "",
+          "data": "29/05/2026",
+          "cliente": "SELMA REGINA DE ANDRADE 84740493772",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 263.2,
+          "itens": [
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 8,
+              "val": 263.2
+            }
+          ]
+        },
         {
           "numped": "159004722",
           "numnota": "",
