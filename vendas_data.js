@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "01/06/2026 16:01",
+  "atualizado_em": "01/06/2026 17:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -35993,6 +35993,62 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 6,
           "valor": 185.4
+        }
+      ],
+      "Jun/26": [
+        {
+          "data": "01/06/2026",
+          "codcli": "82739",
+          "cliente": "A PARANAGUA LOJA DE CONVENIENCIA LTDA",
+          "produto": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
+          "fantasia": "MINALBA",
+          "qt": 2,
+          "valor": 113.8
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "82739",
+          "cliente": "A PARANAGUA LOJA DE CONVENIENCIA LTDA",
+          "produto": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
+          "fantasia": "MINALBA",
+          "qt": 2,
+          "valor": 101.8
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "82739",
+          "cliente": "A PARANAGUA LOJA DE CONVENIENCIA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "82739",
+          "cliente": "A PARANAGUA LOJA DE CONVENIENCIA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "82739",
+          "cliente": "A PARANAGUA LOJA DE CONVENIENCIA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "90472",
+          "cliente": "SAVIO FILHO CLINICA INTEGRADA LTDA",
+          "produto": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
+          "fantasia": "MINALBA",
+          "qt": 5,
+          "valor": 259.59
         }
       ]
     },
@@ -103111,6 +103167,26 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 59.9
         }
+      ],
+      "Jun/26": [
+        {
+          "data": "01/06/2026",
+          "codcli": "92342",
+          "cliente": "AUTO POSTO 3F LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "92342",
+          "cliente": "AUTO POSTO 3F LTDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56
+        }
       ]
     },
     "DANIELLE MOURA": {
@@ -117482,6 +117558,96 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 137.4
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "VODCA BAM CIROC RED BERRY 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 2128.54
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1797.6
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 97.5
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 898.8
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 30,
+          "valor": 5392.8
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 539.28
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "VINHO CAVAS DE ORO BLEND  ROSADO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 97.5
         }
       ]
     },
