@@ -56,10 +56,25 @@ def main():
             print("[AVISO] exportacao_sp falhou — SP ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("7/8 - Enviando alerta WhatsApp")
+        step("7/9 - Clientes migrados RCA 588 (clientes_588_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_588.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_588 falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_588 falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
+        step("8/9 - Enviando alerta WhatsApp")
         import envio_whatsapp
 
-        step("8/8 - Deploy para VPS")
+        step("9/9 - Deploy para VPS")
         try:
             import subprocess, sys as _sys
             result = subprocess.run(
