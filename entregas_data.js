@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "01/06/2026 14:44",
+  "atualizado_em": "01/06/2026 15:01",
   "data_rota": "01.06",
   "vendedores": [
     {
@@ -28,6 +28,38 @@ const ENTREGAS_DATA = {
               "desc": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
               "qt": 1,
               "val": 178.8
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": []
+    },
+    {
+      "nome": "BARBARA CABRAL",
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "412001292",
+          "numnota": "",
+          "data": "01/06/2026",
+          "cliente": "AUTO POSTO 3F LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 393.12,
+          "itens": [
+            {
+              "desc": "RED BULL SUGAR FREE 24X250ML",
+              "qt": 1,
+              "val": 196.56
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 196.56
             }
           ]
         }
@@ -70,6 +102,88 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
               "qt": 1,
               "val": 94.7
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": []
+    },
+    {
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "159004738",
+          "numnota": "",
+          "data": "01/06/2026",
+          "cliente": "TCA COMERCIO CABO FRIO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3235.6,
+          "itens": [
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 4,
+              "val": 507.6
+            },
+            {
+              "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+              "qt": 2,
+              "val": 469.8
+            },
+            {
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 2,
+              "val": 125.8
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 10,
+              "val": 1797.6
+            },
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 334.8
+            }
+          ]
+        },
+        {
+          "numped": "159004739",
+          "numnota": "",
+          "data": "01/06/2026",
+          "cliente": "61.810.187 ARTHUR DE SOUZA ALVARENGA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 671.92,
+          "itens": [
+            {
+              "desc": "WHISKY BALLANTINE S FINEST 1L",
+              "qt": 2,
+              "val": 132.64
+            },
+            {
+              "desc": "RED BULL SUGAR FREE 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 179.76
             }
           ]
         }
@@ -167,6 +281,178 @@ const ENTREGAS_DATA = {
               "desc": "GIN ROCKS WATERMELON 1000ML",
               "qt": 18,
               "val": 405.0
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": []
+    },
+    {
+      "nome": "MARILENA TRAGEL",
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "156003483",
+          "numnota": "",
+          "data": "01/06/2026",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 360.0,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 8,
+              "val": 167.2
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 7,
+              "val": 139.3
+            },
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 53.5
+            }
+          ]
+        },
+        {
+          "numped": "156003485",
+          "numnota": "",
+          "data": "01/06/2026",
+          "cliente": "LOJA DE CONVENIENCIA MARAMAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1051.39,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 3,
+              "val": 80.25
+            },
+            {
+              "desc": "AGUA MINERAL MAMBA WATER S/ GAS 12X350ML",
+              "qt": 1,
+              "val": 46.9
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+              "qt": 1,
+              "val": 87.48
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 10,
+              "val": 286.0
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+              "qt": 1,
+              "val": 87.48
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN MACA 12X300ML",
+              "qt": 1,
+              "val": 84.48
+            }
+          ]
+        },
+        {
+          "numped": "156003482",
+          "numnota": "",
+          "data": "01/06/2026",
+          "cliente": "A PARANAGUA LOJA DE CONVENIENCIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 499.7,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
+              "qt": 2,
+              "val": 101.8
+            },
+            {
+              "desc": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
+              "qt": 2,
+              "val": 113.8
+            }
+          ]
+        },
+        {
+          "numped": "156003484",
+          "numnota": "",
+          "data": "01/06/2026",
+          "cliente": "POSTO BARRA LINDA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 968.51,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+              "qt": 10,
+              "val": 129.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 20,
+              "val": 572.0
+            },
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 10,
+              "val": 267.51
             }
           ]
         }
