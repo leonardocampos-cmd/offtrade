@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "01/06/2026 10:49",
+  "atualizado_em": "01/06/2026 10:53",
   "data_rota": "01.06",
   "vendedores": [
     {
@@ -135,6 +135,33 @@ const ENTREGAS_DATA = {
               "desc": "GIN ROCKS WATERMELON 1000ML",
               "qt": 18,
               "val": 405.0
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": []
+    },
+    {
+      "nome": "MATEUS",
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "439000180",
+          "numnota": "",
+          "data": "01/06/2026",
+          "cliente": "PERACIO MORAES BASTOS 91701988704",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 37.0,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
+              "qt": 1,
+              "val": 37.0
             }
           ]
         }
