@@ -1,10 +1,10 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "01/06/2026 15:03",
+  "atualizado_em": "01/06/2026 16:01",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
   "total_clientes": 53,
-  "valor_total_outros": 3619726.95,
+  "valor_total_outros": 3613258.95,
   "clientes": [
     {
       "codcli": "32232",
@@ -2946,49 +2946,6 @@ const CLIENTES_588_DATA = {
       ]
     },
     {
-      "codcli": "30685",
-      "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
-      "ultima_compra_rca": "29/04/2026",
-      "valor_jan_abr": 1799.4,
-      "meses_ativos": 1,
-      "tambem_comprou_588": false,
-      "total_mai_outros": 9936.97,
-      "por_vendedor": [
-        {
-          "vendedor": "MANUELA ZAPPACOSTA - OFF TRADE",
-          "codusur": "433",
-          "total": 6468.0,
-          "itens": [
-            {
-              "DATA": "11/05/2026",
-              "PRODUTO": "VODKA ABSOLUT 1 LITRO",
-              "FANTASIA": "PERNOD",
-              "VALOR": 6468.0
-            }
-          ]
-        },
-        {
-          "vendedor": "RQ",
-          "codusur": "1",
-          "total": 3468.97,
-          "itens": [
-            {
-              "DATA": "07/05/2026",
-              "PRODUTO": "TEQUILA J CUERVO SILVER 750ML",
-              "FANTASIA": NaN,
-              "VALOR": 1455.37
-            },
-            {
-              "DATA": "28/05/2026",
-              "PRODUTO": "TEQUILA J CUERVO SILVER 750ML",
-              "FANTASIA": NaN,
-              "VALOR": 2013.6
-            }
-          ]
-        }
-      ]
-    },
-    {
       "codcli": "30260",
       "cliente": "COMERCIAL CRESCER LTDA",
       "ultima_compra_rca": "22/01/2026",
@@ -3349,6 +3306,36 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "LICOR 43 DIEGO ZAMORA 700ML",
               "FANTASIA": NaN,
               "VALOR": 3507.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codcli": "30685",
+      "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
+      "ultima_compra_rca": "29/04/2026",
+      "valor_jan_abr": 1799.4,
+      "meses_ativos": 1,
+      "tambem_comprou_588": false,
+      "total_mai_outros": 3468.97,
+      "por_vendedor": [
+        {
+          "vendedor": "RQ",
+          "codusur": "1",
+          "total": 3468.97,
+          "itens": [
+            {
+              "DATA": "07/05/2026",
+              "PRODUTO": "TEQUILA J CUERVO SILVER 750ML",
+              "FANTASIA": NaN,
+              "VALOR": 1455.37
+            },
+            {
+              "DATA": "28/05/2026",
+              "PRODUTO": "TEQUILA J CUERVO SILVER 750ML",
+              "FANTASIA": NaN,
+              "VALOR": 2013.6
             }
           ]
         }
