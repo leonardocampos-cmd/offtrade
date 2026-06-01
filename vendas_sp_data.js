@@ -1,8 +1,9 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "01/06/2026 15:03",
+  "atualizado_em": "01/06/2026 16:01",
   "meses": [
+    "Jun/26",
     "Mai/26",
     "Abr/26",
     "Mar/26",
@@ -33104,6 +33105,71 @@ const VENDAS_SP_DATA = {
           "qt": 200,
           "valor": 6300.0
         }
+      ],
+      "Jun/26": [
+        {
+          "data": "01/06/2026",
+          "codcli": "38212",
+          "cliente": "BERTIN BEBIDAS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "",
+          "qt": 240,
+          "valor": 4929.6
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "38212",
+          "cliente": "BERTIN BEBIDAS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "",
+          "qt": 90,
+          "valor": 1848.6
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "38212",
+          "cliente": "BERTIN BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 528,
+          "valor": 13675.2
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "38212",
+          "cliente": "BERTIN BEBIDAS LTDA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 1435.2
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "38212",
+          "cliente": "BERTIN BEBIDAS LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 180,
+          "valor": 5922.0
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "38212",
+          "cliente": "BERTIN BEBIDAS LTDA",
+          "produto": "WHISKY ROYAL SALUTE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 18,
+          "valor": 10258.2
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "38212",
+          "cliente": "BERTIN BEBIDAS LTDA",
+          "produto": "WHISKY GENTLEMAN JACK 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1678.8
+        }
       ]
     },
     "ADER ALONSO -": {
@@ -43166,15 +43232,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1974.0
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "30685",
-          "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
-          "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 120,
-          "valor": 6468.0
         },
         {
           "data": "06/05/2026",
@@ -59804,6 +59861,17 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 1560,
           "valor": 40404.0
+        }
+      ],
+      "Jun/26": [
+        {
+          "data": "01/06/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 2040,
+          "valor": 41820.0
         }
       ]
     },
