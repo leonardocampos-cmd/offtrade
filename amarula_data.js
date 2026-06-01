@@ -1,21 +1,29 @@
 const AMARULA_DATA = {
-  "atualizado_em": "01/06/2026 15:02",
+  "atualizado_em": "01/06/2026 16:01",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
-  "total_vendedores": 20,
-  "total_positivacao": 27,
-  "total_faturamento": 47735.9,
+  "total_vendedores": 21,
+  "total_positivacao": 31,
+  "total_faturamento": 49443.0,
   "ranking_positivacao": [
     {
-      "vendedor": "RC",
+      "vendedor": "JORGE MACIEL",
       "valor": 3
     },
     {
       "vendedor": "MICHELE ALCANTARA",
       "valor": 3
+    },
+    {
+      "vendedor": "RC",
+      "valor": 3
+    },
+    {
+      "vendedor": "FERNANDO CESAR",
+      "valor": 2
     },
     {
       "vendedor": "CARLOS ARTHUR NETO",
@@ -26,12 +34,8 @@ const AMARULA_DATA = {
       "valor": 2
     },
     {
-      "vendedor": "JORGE MACIEL",
+      "vendedor": "NATALI OLIVEIRA",
       "valor": 2
-    },
-    {
-      "vendedor": "DIOGO RAPOSO",
-      "valor": 1
     },
     {
       "vendedor": "BEES",
@@ -42,7 +46,7 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "JOÃO VITOR BRAGA",
+      "vendedor": "DIOGO RAPOSO",
       "valor": 1
     },
     {
@@ -50,11 +54,11 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "INGRID ARAUJO",
+      "vendedor": "JOÃO VITOR BRAGA",
       "valor": 1
     },
     {
-      "vendedor": "FERNANDO CESAR",
+      "vendedor": "INGRID ARAUJO",
       "valor": 1
     },
     {
@@ -66,7 +70,7 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "NATALI OLIVEIRA",
+      "vendedor": "LUCAS MATIAS",
       "valor": 1
     },
     {
@@ -96,16 +100,16 @@ const AMARULA_DATA = {
       "valor": 18501.4
     },
     {
+      "vendedor": "FERNANDO CESAR",
+      "valor": 11386.8
+    },
+    {
       "vendedor": "RC",
       "valor": 10546.8
     },
     {
-      "vendedor": "FERNANDO CESAR",
-      "valor": 10308.0
-    },
-    {
       "vendedor": "JORGE MACIEL",
-      "valor": 3596.0
+      "valor": 3685.9
     },
     {
       "vendedor": "VANESSA SOUSA",
@@ -114,6 +118,10 @@ const AMARULA_DATA = {
     {
       "vendedor": "MICHELE ALCANTARA",
       "valor": 830.0
+    },
+    {
+      "vendedor": "NATALI OLIVEIRA",
+      "valor": 717.2
     },
     {
       "vendedor": "LAIS POPPE VILLANOVA",
@@ -128,10 +136,6 @@ const AMARULA_DATA = {
       "valor": 269.7
     },
     {
-      "vendedor": "NATALI OLIVEIRA",
-      "valor": 267.7
-    },
-    {
       "vendedor": "MARILENA TRAGEL",
       "valor": 197.8
     },
@@ -144,11 +148,11 @@ const AMARULA_DATA = {
       "valor": 177.8
     },
     {
-      "vendedor": "DIOGO RAPOSO",
+      "vendedor": "INGRID ARAUJO",
       "valor": 177.8
     },
     {
-      "vendedor": "INGRID ARAUJO",
+      "vendedor": "DIOGO RAPOSO",
       "valor": 177.8
     },
     {
@@ -160,16 +164,20 @@ const AMARULA_DATA = {
       "valor": 95.9
     },
     {
-      "vendedor": "RAPHAELA RIBAS",
+      "vendedor": "RAFAEL DE OLIVEIRA",
       "valor": 95.9
     },
     {
-      "vendedor": "RAFAEL DE OLIVEIRA",
+      "vendedor": "RAPHAELA RIBAS",
       "valor": 95.9
     },
     {
       "vendedor": "BEES",
       "valor": 91.9
+    },
+    {
+      "vendedor": "LUCAS MATIAS",
+      "valor": 88.9
     }
   ]
 };
