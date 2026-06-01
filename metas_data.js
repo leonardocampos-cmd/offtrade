@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "01/06/2026 09:02",
+  "atualizado_em": "01/06/2026 09:03",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -20766,6 +20766,196 @@ const METAS_DATA = {
         "fat_media_hist": 52122.46,
         "pos_proj": 0.0,
         "pos_media_hist": 26.3,
+        "du_passados": 1,
+        "du_total": 22
+      }
+    },
+    {
+      "nome": "VIVIANE ALVES",
+      "rca": "91",
+      "por_mes": {
+        "Mai/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 146537.7
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 20718.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 2
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 10
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 2
+          }
+        }
+      },
+      "clientes_cadastrados": 0,
+      "nao_positivados": [
+        {
+          "CODCLI": "90396",
+          "CLIENTE": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "BAIRROENT": "VILA NOVA CONCEICAO",
+          "DTULTCOMP": "19/05/2026",
+          "produtos": [
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "CHAMPANHE P JOUET BLANC DE BLANCS 750ML"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "CHAMPANHE PERRIER JOUET GRAN BRUT 750ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "55908",
+          "CLIENTE": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "BAIRROENT": "RIO COMPRIDO",
+          "DTULTCOMP": "12/05/2026",
+          "produtos": [
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY YAMAZAKI 12Y 700ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "91616",
+          "CLIENTE": "CHK COMERCIO DE BEBIDAS LTDA",
+          "BAIRROENT": "BATEL",
+          "DTULTCOMP": "18/03/2026",
+          "produtos": [
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "CHABLIS PREMIER CRU VAU DE VEY 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO MORA VALPOLICELLA RIPASSO CLASSICO"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "FRANCO LANGHE CHARDONNAY DOC 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "FRANCO DOLCETTO D'ALBA 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "POZZETTO  VALPOLICELLA CLASSICO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO LA TOGATA BARENGO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO LOS ALJIBES GODELHO 750ML"
+            }
+          ]
+        }
+      ],
+      "historico": [
+        {
+          "mes": "Aug/25",
+          "fat": 140751.0,
+          "pos": 2
+        },
+        {
+          "mes": "Sep/25",
+          "fat": 56616.4,
+          "pos": 1
+        },
+        {
+          "mes": "Oct/25",
+          "fat": 220008.14,
+          "pos": 4
+        },
+        {
+          "mes": "Nov/25",
+          "fat": 180570.48,
+          "pos": 14
+        },
+        {
+          "mes": "Dec/25",
+          "fat": 157979.72,
+          "pos": 14
+        },
+        {
+          "mes": "Jan/26",
+          "fat": 10754.88,
+          "pos": 3
+        },
+        {
+          "mes": "Mar/26",
+          "fat": 200272.6,
+          "pos": 4
+        },
+        {
+          "mes": "Apr/26",
+          "fat": 49437.6,
+          "pos": 2
+        },
+        {
+          "mes": "May/26",
+          "fat": 146537.7,
+          "pos": 2
+        }
+      ],
+      "previsao": {
+        "fat_proj": 0.0,
+        "fat_media_hist": 132082.63,
+        "pos_proj": 0.0,
+        "pos_media_hist": 2.7,
         "du_passados": 1,
         "du_total": 22
       }

@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "01/06/2026 09:02",
+  "atualizado_em": "01/06/2026 09:03",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -144905,6 +144905,439 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 198,
           "valor": 12711.6
+        }
+      ]
+    },
+    "VIVIANE ALVES": {
+      "Jan/26": [
+        {
+          "data": "26/01/2026",
+          "codcli": "50465",
+          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
+          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
+          "fantasia": "CASTAS",
+          "qt": 48,
+          "valor": 480.0
+        },
+        {
+          "data": "02/01/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 350.4
+        },
+        {
+          "data": "02/01/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "02/01/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "13/01/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VINHO BRANCO CHARDONNAY CATALPA 750ML",
+          "fantasia": "CASTAS",
+          "qt": 90,
+          "valor": 6741.0
+        },
+        {
+          "data": "28/01/2026",
+          "codcli": "79129",
+          "cliente": "RESTAURANTE DI PAOLO CURITIBA LTDA",
+          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+          "fantasia": "CASTAS",
+          "qt": 24,
+          "valor": 1557.6
+        },
+        {
+          "data": "28/01/2026",
+          "codcli": "79129",
+          "cliente": "RESTAURANTE DI PAOLO CURITIBA LTDA",
+          "produto": "VINHO CORSARINI MONTEPULCIANO 750ML ",
+          "fantasia": "CASTAS",
+          "qt": 24,
+          "valor": 1356.0
+        }
+      ],
+      "Mar/26": [
+        {
+          "data": "24/03/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VINHO BRANCO CHARDONNAY CATALPA 750ML",
+          "fantasia": "CASTAS",
+          "qt": 90,
+          "valor": 6741.0
+        },
+        {
+          "data": "24/03/2026",
+          "codcli": "70878",
+          "cliente": "RITA PINTO CHAVES 66729440791",
+          "produto": "WHISKY BUCHANAN'S 18 YEARS - 750ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 7030.8
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "CHAMP PERRIER JOUET GRAND BRUT",
+          "fantasia": "PERNOD",
+          "qt": 100,
+          "valor": 24990.0
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 12596.4
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "CHAMP PERRIER JOUET GRAND BRUT",
+          "fantasia": "PERNOD",
+          "qt": 100,
+          "valor": 24990.0
+        },
+        {
+          "data": "20/03/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "CHAMP PERRIER JOUET GRAND BRUT",
+          "fantasia": "PERNOD",
+          "qt": 100,
+          "valor": 24990.0
+        },
+        {
+          "data": "23/03/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "CHAMP PERRIER JOUET GRAND BRUT",
+          "fantasia": "PERNOD",
+          "qt": 54,
+          "valor": 13494.6
+        },
+        {
+          "data": "25/03/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "CHAMP PERRIER JOUET GRAND BRUT",
+          "fantasia": "PERNOD",
+          "qt": 66,
+          "valor": 16493.4
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 6718.8
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "91616",
+          "cliente": "CHK COMERCIO DE BEBIDAS LTDA",
+          "produto": "FRANCO DOLCETTO D'ALBA 750ML",
+          "fantasia": "CASTAS",
+          "qt": 90,
+          "valor": 8091.0
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "91616",
+          "cliente": "CHK COMERCIO DE BEBIDAS LTDA",
+          "produto": "VINHO LA TOGATA BARENGO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 90,
+          "valor": 8091.0
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "91616",
+          "cliente": "CHK COMERCIO DE BEBIDAS LTDA",
+          "produto": "CHABLIS PREMIER CRU VAU DE VEY 750ML",
+          "fantasia": "CASTAS",
+          "qt": 60,
+          "valor": 12000.0
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "91616",
+          "cliente": "CHK COMERCIO DE BEBIDAS LTDA",
+          "produto": "POZZETTO  VALPOLICELLA CLASSICO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 74,
+          "valor": 8872.6
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "91616",
+          "cliente": "CHK COMERCIO DE BEBIDAS LTDA",
+          "produto": "VINHO LOS ALJIBES GODELHO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 90,
+          "valor": 7191.0
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "91616",
+          "cliente": "CHK COMERCIO DE BEBIDAS LTDA",
+          "produto": "VINHO MORA VALPOLICELLA RIPASSO CLASSICO",
+          "fantasia": "CASTAS",
+          "qt": 90,
+          "valor": 9891.0
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "91616",
+          "cliente": "CHK COMERCIO DE BEBIDAS LTDA",
+          "produto": "FRANCO LANGHE CHARDONNAY DOC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 90,
+          "valor": 8091.0
+        }
+      ],
+      "Abr/26": [
+        {
+          "data": "28/04/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "MINUTY PRESTIGE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 150,
+          "valor": 18000.0
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "MINUTY PRESTIGE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 150,
+          "valor": 18000.0
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "WHISKY ROYAL SALUTE GRAIN 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 6718.8
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "WHISKY ROYAL SALUTE MALT EDITION 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 6718.8
+        }
+      ],
+      "Mai/26": [
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "WHISKY YAMAZAKI 12Y 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 3,
+          "valor": 2519.7
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VILLA ROSA COLHEITA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 838.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VILLA ROSA COLHEITA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 838.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VILLA ROSA COLHEITA ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 838.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VILLA ROSA GRANDE RESERVA BCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 2578.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VILLA ROSA GRANDE RESERVA TINTO",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 2998.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VILLA ROSA RESERVA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 1078.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VINHO VILLA ROSA RESERVA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 1078.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "ESPUMANTE VILLA ROSA BLANC DE BLANCS",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 1018.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VINHO TINTO AZUL VENTOZELO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 1018.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VINHO BRANCO AZUL VENTOZELO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 1018.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VINHO TINTO VENTOZELO RESERVA 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 1438.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VINHO BRANCO VENTOZELO VIOSINHO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 1678.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VINHO FREIXO TERROIR TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 1078.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VINHO FREIXO TERROIR BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 1078.8
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VINHO FREIXO RESERVA BRANCO",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 2134.8
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "CHAMP PERRIER JOUET GRAND BRUT",
+          "fantasia": "PERNOD",
+          "qt": 300,
+          "valor": 74700.0
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
+          "fantasia": "PERNOD",
+          "qt": 30,
+          "valor": 11970.0
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
+          "fantasia": "PERNOD",
+          "qt": 45,
+          "valor": 17955.0
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "90396",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "CHAMP PERRIER JOUET GRAND BRUT",
+          "fantasia": "PERNOD",
+          "qt": 75,
+          "valor": 18675.0
         }
       ]
     }
