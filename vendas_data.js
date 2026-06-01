@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "01/06/2026 09:03",
+  "atualizado_em": "01/06/2026 10:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -71357,15 +71357,6 @@ const VENDAS_DATA = {
           "valor": 1231.1
         },
         {
-          "data": "28/05/2026",
-          "codcli": "91913",
-          "cliente": "MERCADO ITAPIRU LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 8,
-          "valor": 262.08
-        },
-        {
           "data": "30/05/2026",
           "codcli": "93263",
           "cliente": "L2R CENTRO DE TREINAMENTO LTDA",
@@ -105199,6 +105190,33 @@ const VENDAS_DATA = {
           "fantasia": "HENNESSY",
           "qt": 12,
           "valor": 958.8
+        },
+        {
+          "data": "21/01/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 180,
+          "valor": 17010.0
+        },
+        {
+          "data": "21/01/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "GIN LARIOS ORIGINAL 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 168,
+          "valor": 7892.64
+        },
+        {
+          "data": "21/01/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 60,
+          "valor": 5670.0
         }
       ],
       "Fev/26": [
@@ -107325,6 +107343,969 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 6,
           "valor": 281.88
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45978",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 599.52
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45972",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 599.52
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45967",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 449.64
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45965",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 449.64
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45968",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 449.64
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45975",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 449.64
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45977",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 449.64
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45985",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 449.64
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45970",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 599.52
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45980",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 449.64
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45974",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 599.52
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45966",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 449.64
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45983",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "WHISKY BLACK STONE 1LT",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 299.76
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "46084",
+          "cliente": "CENCOSUD BRASIL COMERCIAL S.A.",
+          "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 4626.72
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45982",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML10",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "41249",
+          "cliente": "GMAP SUPERMERCADOS SA",
+          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML10",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45974",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML10",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45970",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML10",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45982",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45975",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45977",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "41249",
+          "cliente": "GMAP SUPERMERCADOS SA",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45985",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45974",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45970",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45983",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45982",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 292.56
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45973",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 292.56
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45968",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 73.14
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45975",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 292.56
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45977",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 292.56
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45985",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 146.28
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45970",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 292.56
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45974",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 292.56
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45966",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 146.28
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45983",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 292.56
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45978",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45972",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 404.82
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45982",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 90,
+          "valor": 2024.1
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45967",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 404.82
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45965",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45973",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 809.64
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45971",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 674.7
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45968",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45975",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 42,
+          "valor": 944.58
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45977",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 42,
+          "valor": 944.58
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "41249",
+          "cliente": "GMAP SUPERMERCADOS SA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45985",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45980",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45974",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1349.4
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45970",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45984",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 674.7
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45966",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 269.88
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45983",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45978",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 404.82
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45972",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 269.88
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45982",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 1079.52
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45967",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45965",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 404.82
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45973",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 269.88
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45971",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 269.88
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45968",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 404.82
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45977",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 674.7
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "41249",
+          "cliente": "GMAP SUPERMERCADOS SA",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 674.7
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45985",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 269.88
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45970",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45974",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45980",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 404.82
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45984",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 674.7
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45966",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 269.88
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45983",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45982",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPUM. QUINTA MORGADO BRUT 660ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45975",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPUM. QUINTA MORGADO BRUT 660ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45977",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPUM. QUINTA MORGADO BRUT 660ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "41249",
+          "cliente": "GMAP SUPERMERCADOS SA",
+          "produto": "ESPUM. QUINTA MORGADO BRUT 660ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45985",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPUM. QUINTA MORGADO BRUT 660ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45970",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPUM. QUINTA MORGADO BRUT 660ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45974",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPUM. QUINTA MORGADO BRUT 660ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45983",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "ESPUM. QUINTA MORGADO BRUT 660ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 131.4
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45978",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 269.88
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45972",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45982",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 1079.52
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45967",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 269.88
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45965",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 809.64
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45973",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 674.7
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45971",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45968",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 404.82
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45975",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 674.7
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45977",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 674.7
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "41249",
+          "cliente": "GMAP SUPERMERCADOS SA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45985",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 269.88
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45970",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45974",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 674.7
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45980",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 809.64
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45984",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 674.7
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45966",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 539.76
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45983",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 404.82
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45972",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45982",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 269.88
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45965",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "45973",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45980",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 67.47
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45975",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45974",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45980",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 67.47
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45970",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 134.94
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "45984",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 134.94
         }
       ],
       "Abr/26": [
@@ -133224,6 +134205,60 @@ const VENDAS_DATA = {
           "fantasia": "HENNESSY",
           "qt": 6,
           "valor": 405.0
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "44431",
+          "cliente": "CEREAIS BRAMIL LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 36,
+          "valor": 3452.4
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "44431",
+          "cliente": "CEREAIS BRAMIL LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 36,
+          "valor": 3452.4
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "44431",
+          "cliente": "CEREAIS BRAMIL LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 24,
+          "valor": 2301.6
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "44431",
+          "cliente": "CEREAIS BRAMIL LTDA",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 12,
+          "valor": 1150.8
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "44431",
+          "cliente": "CEREAIS BRAMIL LTDA",
+          "produto": "YVY DESTILADO GIN MAR 750ML",
+          "fantasia": "YVY",
+          "qt": 12,
+          "valor": 712.8
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "44431",
+          "cliente": "CEREAIS BRAMIL LTDA",
+          "produto": "YVY DESTILADO GIN AR 750ML",
+          "fantasia": "YVY",
+          "qt": 18,
+          "valor": 1069.2
         }
       ],
       "Abr/26": [
@@ -136568,6 +137603,44 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 25,
           "valor": 2379.0
+        }
+      ],
+      "Jan/26": [
+        {
+          "data": "21/01/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "ESPUM CASA PERINI ICE 750ML",
+          "fantasia": "",
+          "qt": 546,
+          "valor": 17362.8
+        },
+        {
+          "data": "21/01/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "",
+          "qt": 1104,
+          "valor": 35107.2
+        },
+        {
+          "data": "21/01/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "",
+          "qt": 3312,
+          "valor": 105321.6
+        },
+        {
+          "data": "21/01/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "",
+          "qt": 1104,
+          "valor": 35107.2
         }
       ]
     },
@@ -145118,6 +146191,15 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 90,
           "valor": 8091.0
+        },
+        {
+          "data": "09/03/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VINHO BRANCO CHARDONNAY CATALPA 750ML",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 8988.0
         }
       ],
       "Abr/26": [
@@ -145338,6 +146420,15 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 75,
           "valor": 18675.0
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "55908",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "VINHO FREIXO RESERVA TINTO 750ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 1960.0
         }
       ]
     }
