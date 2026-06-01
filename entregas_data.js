@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "01/06/2026 10:53",
+  "atualizado_em": "01/06/2026 11:01",
   "data_rota": "01.06",
   "vendedores": [
     {
@@ -145,6 +145,46 @@ const ENTREGAS_DATA = {
       "nome": "MATEUS",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "439000181",
+          "numnota": "",
+          "data": "01/06/2026",
+          "cliente": "PERACIO MORAES BASTOS 91701988704",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 05/06/26",
+          "total": 1277.36,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
+              "qt": 2,
+              "val": 74.0
+            },
+            {
+              "desc": "APERITIVO CAMPARI 998ML",
+              "qt": 6,
+              "val": 329.4
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "WHISKY WHITE HORSE - 1L",
+              "qt": 6,
+              "val": 359.4
+            },
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 334.8
+            }
+          ]
+        },
         {
           "numped": "439000180",
           "numnota": "",
