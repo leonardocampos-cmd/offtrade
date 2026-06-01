@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "01/06/2026 11:10",
+  "atualizado_em": "01/06/2026 11:16",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -137210,6 +137210,203 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 2,
           "valor": 335.38
+        }
+      ]
+    },
+    "ALLAN PAES": {
+      "Abr/26": [
+        {
+          "data": "08/04/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 120,
+          "valor": 11508.0
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 120,
+          "valor": 11508.0
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "93878",
+          "cliente": "FORT MIX DISTRIBUIDOR ATACADISTA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 576,
+          "valor": 35804.16
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "93878",
+          "cliente": "FORT MIX DISTRIBUIDOR ATACADISTA LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 144,
+          "valor": 9296.64
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "93878",
+          "cliente": "FORT MIX DISTRIBUIDOR ATACADISTA LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 144,
+          "valor": 9296.64
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "93878",
+          "cliente": "FORT MIX DISTRIBUIDOR ATACADISTA LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 144,
+          "valor": 9296.64
+        }
+      ],
+      "Mai/26": [
+        {
+          "data": "28/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 43.8
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 28.9
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "AGUA NA LATA C/ GAS 12X310ML",
+          "fantasia": "AGUA NA CAIXA",
+          "qt": 2,
+          "valor": 57.8
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 32.76
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "LIQUEUR CHAMBORD 750 ML",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 43.8
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "87116",
+          "cliente": "GAMA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 36,
+          "valor": 2324.16
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "87116",
+          "cliente": "GAMA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 36,
+          "valor": 2324.16
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "87116",
+          "cliente": "GAMA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 288,
+          "valor": 18593.28
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "93878",
+          "cliente": "FORT MIX DISTRIBUIDOR ATACADISTA LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 144,
+          "valor": 9296.64
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "93878",
+          "cliente": "FORT MIX DISTRIBUIDOR ATACADISTA LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 72,
+          "valor": 4648.32
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "93878",
+          "cliente": "FORT MIX DISTRIBUIDOR ATACADISTA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1008,
+          "valor": 59270.4
+        }
+      ],
+      "Mar/26": [
+        {
+          "data": "10/03/2026",
+          "codcli": "93878",
+          "cliente": "FORT MIX DISTRIBUIDOR ATACADISTA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 756,
+          "valor": 46992.96
+        },
+        {
+          "data": "10/03/2026",
+          "codcli": "93878",
+          "cliente": "FORT MIX DISTRIBUIDOR ATACADISTA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 12X750ML",
+          "fantasia": "RECKITT",
+          "qt": 40,
+          "valor": 1680.0
+        },
+        {
+          "data": "10/03/2026",
+          "codcli": "93878",
+          "cliente": "FORT MIX DISTRIBUIDOR ATACADISTA LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 108,
+          "valor": 6972.48
         }
       ]
     },
