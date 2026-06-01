@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "01/06/2026 11:10",
+  "atualizado_em": "01/06/2026 11:16",
   "data_rota": "01.06",
   "vendedores": [
     {
@@ -202,6 +202,38 @@ const ENTREGAS_DATA = {
               "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
               "qt": 1,
               "val": 37.0
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": []
+    },
+    {
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "155003566",
+          "numnota": "",
+          "data": "01/06/2026",
+          "cliente": "GIN & YANG DISTRIBUIDORA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 461.1,
+          "itens": [
+            {
+              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+              "qt": 3,
+              "val": 239.7
+            },
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 6,
+              "val": 221.4
             }
           ]
         }
