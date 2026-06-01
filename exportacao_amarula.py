@@ -2,35 +2,43 @@ import json
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
-from meta import engine, engine_theking, carregar_dados, arquivo as _arquivo_meta
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, carregar_dados, arquivo as _arquivo_meta
 
 DT_INI = "2026-05-25"
 DT_FIM = "2026-06-25"
 PREMIO = 3000
 
-def _query(schema):
+def _query(schema, filtro_filial="(1, 2, 4)", filtro_estent=None):
     s = schema.upper()
+    extra_filial = f"\n          AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
+    join_cli     = f"\n        JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI" if filtro_estent else ""
+    extra_estent = f"\n          AND C.ESTENT = '{filtro_estent}'" if filtro_estent else ""
     return f"""
         SELECT
             U.NOME           AS VENDEDOR,
             M.CODCLI,
             (M.PUNIT * M.QT) AS VALOR
         FROM {s}.PCMOV M
-        JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
+        JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR{join_cli}
         WHERE TRUNC(M.DTMOV) >= TO_DATE('{DT_INI}', 'YYYY-MM-DD')
           AND TRUNC(M.DTMOV) <= TO_DATE('{DT_FIM}', 'YYYY-MM-DD')
           AND M.CODOPER = 'S'
-          AND M.CODFILIAL IN (1, 2, 4)
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL
-          AND UPPER(M.DESCRICAO) LIKE '%AMARULA%'
+          AND UPPER(M.DESCRICAO) LIKE '%AMARULA%'{extra_filial}{extra_estent}
     """
 
 # Monta mapeamento nome Oracle → nome display (igual metas_data.js)
-_map_rca = pd.concat([
+_parts_map_rca_am = [
     carregar_dados("SELECT CODUSUR AS RCA, NOME FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'",      engine,         "map_rca_CRC"),
     carregar_dados("SELECT CODUSUR AS RCA, NOME FROM thekings.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", engine_theking, "map_rca_TK"),
-], ignore_index=True)
+]
+for _s, _e, _n in [("CASTAS", engine_castas, "map_rca_CASTAS"), ("GARRIDO", engine_garrido, "map_rca_GARRIDO"), ("SPON", engine_spon, "map_rca_SPON")]:
+    try:
+        _parts_map_rca_am.append(carregar_dados(f"SELECT CODUSUR AS RCA, NOME FROM {_s}.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", _e, _n))
+    except Exception as _ex:
+        print(f"[AVISO] {_n} falhou — ignorado")
+_map_rca = pd.concat(_parts_map_rca_am, ignore_index=True)
 _map_rca['RCA'] = pd.to_numeric(_map_rca['RCA'], errors='coerce')
 _arq = _arquivo_meta[['RCA', 'VENDEDOR']].dropna(subset=['RCA', 'VENDEDOR']).drop_duplicates('RCA').copy()
 _arq['RCA'] = pd.to_numeric(_arq['RCA'], errors='coerce')
@@ -47,11 +55,23 @@ def _nome(oracle):
 df_crc      = carregar_dados(_query("CRC"),      engine,         "amarula_CRC")
 df_theking  = carregar_dados(_query("thekings"), engine_theking, "amarula_thekings")
 
-# Distingue CODCLI por origem para evitar colisão de IDs entre sistemas
-df_crc['_CLI']     = "CRC_"     + df_crc['CODCLI'].astype(str)
-df_theking['_CLI'] = "TK_"      + df_theking['CODCLI'].astype(str)
+df_crc['_CLI']     = "CRC_" + df_crc['CODCLI'].astype(str)
+df_theking['_CLI'] = "TK_"  + df_theking['CODCLI'].astype(str)
 
-df = pd.concat([df_crc, df_theking], ignore_index=True)
+_parts_am = [df_crc, df_theking]
+for _s, _e, _pfx, _fe, _ff in [
+    ("CASTAS", engine_castas,  "CASTAS_", None, None),
+    ("GARRIDO", engine_garrido, "GARRIDO_", None, None),
+    ("SPON",    engine_spon,    "SPON_",    None, None),
+]:
+    try:
+        _df_tmp = carregar_dados(_query(_s, filtro_filial=_ff, filtro_estent=_fe), _e, f"amarula_{_s}")
+        _df_tmp['_CLI'] = _pfx + _df_tmp['CODCLI'].astype(str)
+        _parts_am.append(_df_tmp)
+    except Exception as _ex:
+        print(f"[AVISO] amarula_{_s} falhou ({str(_ex)[:80]}) — ignorado")
+
+df = pd.concat(_parts_am, ignore_index=True)
 df['VALOR'] = pd.to_numeric(df['VALOR'], errors='coerce').fillna(0)
 
 if df.empty:

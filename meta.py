@@ -25,6 +25,24 @@ engine_theking = create_engine(
     pool_recycle=3600,
     connect_args={"expire_time": 2}
 )
+engine_castas = create_engine(
+    f'oracle+oracledb://{user}:{password}@10.131.62.40:1576/?service_name=CASTASPRD',
+    pool_pre_ping=True,
+    pool_recycle=3600,
+    connect_args={"expire_time": 2}
+)
+engine_garrido = create_engine(
+    f'oracle+oracledb://{user}:{password}@10.107.213.84:1521/?service_name=orcl_pdb1.subnetwintcompa.vcnrootautoskyo.oraclevcn.com',
+    pool_pre_ping=True,
+    pool_recycle=3600,
+    connect_args={"expire_time": 2}
+)
+engine_spon = create_engine(
+    f'oracle+oracledb://{user}:{password}@spon_oci',
+    pool_pre_ping=True,
+    pool_recycle=3600,
+    connect_args={"expire_time": 2}
+)
 
 def carregar_dados(query, engine, nome_tabela="tabela", max_tentativas=5):
     for tentativa in range(1, max_tentativas + 1):
@@ -46,9 +64,11 @@ def carregar_dados(query, engine, nome_tabela="tabela", max_tentativas=5):
             else:
                 raise e
 
-def _query_vendas(schema=None, mes_anterior=False):
+def _query_vendas(schema=None, mes_anterior=False, filtro_filial="(1,2,4)", filtro_estent=None):
     p = f"{schema}." if schema else ""
     filtro_mes = "ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -1)" if mes_anterior else "TRUNC(SYSDATE, 'MM')"
+    extra_filial = f"\n    AND PCMOV.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
+    extra_estent = f"\n    AND PCCLIENT.ESTENT = '{filtro_estent}'" if filtro_estent else ""
     return f"""
     SELECT PCMOV.DTMOV      AS DTMOV,
            PCMOV.CODPROD    AS CODPROD,
@@ -76,16 +96,25 @@ def _query_vendas(schema=None, mes_anterior=False):
     LEFT JOIN {p}PCCLIENT ON PCMOV.CODCLI = PCCLIENT.CODCLI
     WHERE TRUNC(PCMOV.DTMOV, 'MM') = {filtro_mes}
     AND PCMOV.CODOPER IN ('S','SB')
-    AND PCMOV.CODFILIAL IN (1,2,4)
     AND PCMOV.NUMNOTADEV IS NULL
     AND PCMOV.DTCANCEL IS NULL
-    AND PCUSUARI.NOME LIKE '%OFF TRADE%'
+    AND PCUSUARI.NOME LIKE '%OFF TRADE%'{extra_filial}{extra_estent}
 """
 
-tabela_vendas = pd.concat([
+_parts_vendas = [
     carregar_dados(_query_vendas("CRC"),      engine,         "vendas_CRC"),
-    carregar_dados(_query_vendas('thekings'), engine_theking, "vendas_thekings"),
-], ignore_index=True)
+    carregar_dados(_query_vendas("thekings"), engine_theking, "vendas_thekings"),
+]
+for _s, _e, _n, _fe in [
+    ("CASTAS", engine_castas,  "vendas_CASTAS",  None),
+    ("GARRIDO", engine_garrido, "vendas_GARRIDO", None),
+    ("SPON",    engine_spon,    "vendas_SPON",    None),
+]:
+    try:
+        _parts_vendas.append(carregar_dados(_query_vendas(_s, filtro_filial=None, filtro_estent=_fe), _e, _n))
+    except Exception as _ex:
+        print(f"[AVISO] {_n} falhou ({str(_ex)[:80]}) — ignorado")
+tabela_vendas = pd.concat(_parts_vendas, ignore_index=True)
 arquivo = pd.concat([
     pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - MARÇO 2026.xlsx"),
     pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - Abril 2026.xlsx"),
@@ -99,10 +128,20 @@ tabela_vendas['DTMOV'] = pd.to_datetime(tabela_vendas['DTMOV']).dt.strftime('%d/
 tabela_vendas['FATURAMENTO'] = tabela_vendas['FATURAMENTO'].round(2)
 
 # Vendas do mês anterior (para exibição no detalhe do vendedor)
-tabela_vendas_anterior = pd.concat([
+_parts_vendas_ant = [
     carregar_dados(_query_vendas("CRC",      mes_anterior=True), engine,         "vendas_anterior_CRC"),
-    carregar_dados(_query_vendas('thekings', mes_anterior=True), engine_theking, "vendas_anterior_thekings"),
-], ignore_index=True)
+    carregar_dados(_query_vendas("thekings", mes_anterior=True), engine_theking, "vendas_anterior_thekings"),
+]
+for _s, _e, _n, _fe in [
+    ("CASTAS", engine_castas,  "vendas_anterior_CASTAS",  None),
+    ("GARRIDO", engine_garrido, "vendas_anterior_GARRIDO", None),
+    ("SPON",    engine_spon,    "vendas_anterior_SPON",    None),
+]:
+    try:
+        _parts_vendas_ant.append(carregar_dados(_query_vendas(_s, mes_anterior=True, filtro_filial=None, filtro_estent=_fe), _e, _n))
+    except Exception as _ex:
+        print(f"[AVISO] {_n} falhou ({str(_ex)[:80]}) — ignorado")
+tabela_vendas_anterior = pd.concat(_parts_vendas_ant, ignore_index=True)
 tabela_vendas_anterior['FATURAMENTO'] = pd.to_numeric(tabela_vendas_anterior['FATURAMENTO'], errors='coerce')
 tabela_vendas_anterior.drop(columns=['CODPROD', 'CODFORNEC', 'NUMNOTA', 'CODOPER', 'PUNIT',
        'CODFILIAL', 'CODUSUR', 'NUMNOTADEV', 'DTCANCEL', 'FORNECEDOR'],inplace=True)

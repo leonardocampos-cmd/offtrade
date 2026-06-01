@@ -3,7 +3,7 @@ import time
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
-from meta import engine, engine_theking, tabela_vendas
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, tabela_vendas
 
 def _read_sql_retry(query, con, engine_obj, nome, dtype=str, max_tentativas=5):
     for tentativa in range(1, max_tentativas + 1):
@@ -20,8 +20,9 @@ def _read_sql_retry(query, con, engine_obj, nome, dtype=str, max_tentativas=5):
             else:
                 raise e
 
-def _query_clientes(schema):
+def _query_clientes(schema, filtro_estent=None):
     s = schema.upper()
+    extra_estent = f"\n          AND C.ESTENT = '{filtro_estent}'" if filtro_estent else ""
     return f"""
         SELECT
             C.CODCLI,
@@ -58,14 +59,20 @@ def _query_clientes(schema):
         LEFT JOIN {s}.PCFORNEC F ON P.CODFORNEC = F.CODFORNEC
         LEFT JOIN {s}.PCUSUARI U1 ON C.RCA = U1.CODUSUR
         LEFT JOIN {s}.PCUSUARI U2 ON C.RCA2 = U2.CODUSUR
-        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%')
+        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%'){extra_estent}
         ORDER BY LV.DTULTCOMP DESC
 """
 
-clientes = pd.concat([
+_parts_cli = [
     _read_sql_retry(_query_clientes("CRC"),      engine,         engine,         "nao_pos_CRC"),
     _read_sql_retry(_query_clientes("thekings"), engine_theking, engine_theking, "nao_pos_thekings"),
-], ignore_index=True)
+]
+for _s, _e, _fe in [("CASTAS", engine_castas, None), ("GARRIDO", engine_garrido, None), ("SPON", engine_spon, None)]:
+    try:
+        _parts_cli.append(_read_sql_retry(_query_clientes(_s, filtro_estent=_fe), _e, _e, f"nao_pos_{_s}"))
+    except Exception as _ex:
+        print(f"[AVISO] nao_pos_{_s} falhou ({str(_ex)[:80]}) — ignorado")
+clientes = pd.concat(_parts_cli, ignore_index=True)
 
 clientes.columns = clientes.columns.str.upper()
 

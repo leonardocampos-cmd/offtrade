@@ -4,14 +4,8 @@ import pandas as pd
 from datetime import date, datetime
 from pathlib import Path
 import re as _re
-from meta import engine, engine_theking, arquivo, carregar_dados
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, arquivo, carregar_dados
 import nao_positivados as _np_mod
-from sqlalchemy import create_engine as _ce
-engine_spon = _ce(
-    'oracle+oracledb://vpn:vpn2320vpn@spon_oci',
-    pool_pre_ping=True, pool_recycle=3600,
-    connect_args={"expire_time": 2}
-)
 
 _df_nao_pos = _np_mod.nao_positivados_full
 
@@ -36,10 +30,16 @@ def _mes_sort_key(mes_str):
 
 # ── Mapeamento RCA → Nome Oracle ─────────────────────────────────────────────
 
-map_rca = pd.concat([
+_parts_map_rca = [
     carregar_dados("SELECT CODUSUR AS RCA, NOME FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", engine, "map_rca_CRC"),
     carregar_dados("SELECT CODUSUR AS RCA, NOME FROM thekings.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", engine_theking, "map_rca_thekings"),
-], ignore_index=True)
+]
+for _s, _e, _n in [("CASTAS", engine_castas, "map_rca_CASTAS"), ("GARRIDO", engine_garrido, "map_rca_GARRIDO"), ("SPON", engine_spon, "map_rca_SPON")]:
+    try:
+        _parts_map_rca.append(carregar_dados(f"SELECT CODUSUR AS RCA, NOME FROM {_s}.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", _e, _n))
+    except Exception as _ex:
+        print(f"[AVISO] {_n} falhou — ignorado")
+map_rca = pd.concat(_parts_map_rca, ignore_index=True)
 map_rca = map_rca.drop_duplicates(subset=['RCA'])
 map_rca['RCA'] = pd.to_numeric(map_rca['RCA'], errors='coerce')
 arquivo['RCA'] = pd.to_numeric(arquivo['RCA'],  errors='coerce')
@@ -54,8 +54,10 @@ metas_com_nome = arquivo.merge(map_rca, on='RCA', how='left')
 
 # ── Vendas históricas (6 meses) com FANTASIA ─────────────────────────────────
 
-def _query_vendas_historico(schema):
+def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None):
     s = schema.upper()
+    extra_filial = f"\n          AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
+    extra_estent = f"\n          AND C.ESTENT = '{filtro_estent}'" if filtro_estent else ""
     return f"""
         SELECT
             TRUNC(M.DTMOV, 'MM')            AS MES,
@@ -74,16 +76,25 @@ def _query_vendas_historico(schema):
         JOIN {s}.PCFORNEC F ON P.CODFORNEC = F.CODFORNEC
         WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
           AND M.CODOPER = 'S'
-          AND M.CODFILIAL IN (1, 2, 4)
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL
-          AND U.NOME LIKE '%OFF TRADE%'
+          AND U.NOME LIKE '%OFF TRADE%'{extra_filial}{extra_estent}
     """
 
-_vh = pd.concat([
+_vh_parts = [
     carregar_dados(_query_vendas_historico("CRC"),      engine,         "vendas_hist_CRC"),
     carregar_dados(_query_vendas_historico("thekings"), engine_theking, "vendas_hist_thekings"),
-], ignore_index=True)
+]
+for _s, _e, _n, _fe in [
+    ("CASTAS", engine_castas,  "vendas_hist_CASTAS",  None),
+    ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None),
+    ("SPON",    engine_spon,    "vendas_hist_SPON",    None),
+]:
+    try:
+        _vh_parts.append(carregar_dados(_query_vendas_historico(_s, filtro_filial=None, filtro_estent=_fe), _e, _n))
+    except Exception as _ex:
+        print(f"[AVISO] {_n} falhou — ignorado")
+_vh = pd.concat(_vh_parts, ignore_index=True)
 _vh['MES']    = pd.to_datetime(_vh['MES'],   errors='coerce')
 _vh['QT']     = pd.to_numeric(_vh['QT'],     errors='coerce').fillna(0).astype(int)
 _vh['VALOR']  = pd.to_numeric(_vh['VALOR'],  errors='coerce').fillna(0).round(2)
@@ -122,7 +133,7 @@ def _query_cadastros(schema, col_usur="CODUSUR1"):
 _cadastros_por_display: dict = {}
 try:
     _frames_cad = []
-    for _schema, _eng, _col in [("CRC", engine, "CODUSUR1"), ("thekings", engine_theking, "CODUSUR1"), ("spon", engine_spon, "CODUSUR1")]:
+    for _schema, _eng, _col in [("CRC", engine, "CODUSUR1"), ("thekings", engine_theking, "CODUSUR1"), ("spon", engine_spon, "CODUSUR1"), ("CASTAS", engine_castas, "CODUSUR1"), ("GARRIDO", engine_garrido, "CODUSUR1")]:
         try:
             _df_part = carregar_dados(_query_cadastros(_schema, _col), _eng, f"cadastros_{_schema}")
             _df_part.columns = _df_part.columns.str.upper()
@@ -206,8 +217,11 @@ def _realizado_mes(df):
 
 # ── Histórico mensal agregado (para gráficos) ─────────────────────────────────
 
-def _query_historico(schema):
+def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None):
     s = schema.upper()
+    extra_filial = f"\n          AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
+    join_cli     = f"\n        JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI" if filtro_estent else ""
+    extra_estent = f"\n          AND C.ESTENT = '{filtro_estent}'" if filtro_estent else ""
     return f"""
         SELECT
             TRUNC(M.DTMOV, 'MM')         AS MES,
@@ -215,20 +229,29 @@ def _query_historico(schema):
             SUM(M.PUNIT * M.QT)          AS FATURAMENTO,
             COUNT(DISTINCT M.CODCLI)     AS POSITIVACAO
         FROM {s}.PCMOV M
-        JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
+        JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR{join_cli}
         WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -11)
           AND M.CODOPER = 'S'
-          AND M.CODFILIAL IN (1, 2, 4)
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL
-          AND U.NOME LIKE '%OFF TRADE%'
+          AND U.NOME LIKE '%OFF TRADE%'{extra_filial}{extra_estent}
         GROUP BY TRUNC(M.DTMOV, 'MM'), M.CODUSUR
     """
 
-_hist_raw = pd.concat([
+_hist_parts = [
     carregar_dados(_query_historico("CRC"),      engine,         "historico_CRC"),
     carregar_dados(_query_historico("thekings"), engine_theking, "historico_thekings"),
-], ignore_index=True)
+]
+for _s, _e, _n, _fe in [
+    ("CASTAS", engine_castas,  "historico_CASTAS",  None),
+    ("GARRIDO", engine_garrido, "historico_GARRIDO", None),
+    ("SPON",    engine_spon,    "historico_SPON",    None),
+]:
+    try:
+        _hist_parts.append(carregar_dados(_query_historico(_s, filtro_filial=None, filtro_estent=_fe), _e, _n))
+    except Exception as _ex:
+        print(f"[AVISO] {_n} falhou — ignorado")
+_hist_raw = pd.concat(_hist_parts, ignore_index=True)
 _hist_raw['MES']         = pd.to_datetime(_hist_raw['MES'], errors='coerce')
 _hist_raw['FATURAMENTO'] = pd.to_numeric(_hist_raw['FATURAMENTO'], errors='coerce').fillna(0)
 _hist_raw['POSITIVACAO'] = pd.to_numeric(_hist_raw['POSITIVACAO'], errors='coerce').fillna(0).astype(int)
