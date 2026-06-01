@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "01/06/2026 14:02",
+  "atualizado_em": "01/06/2026 14:44",
   "data_rota": "01.06",
   "vendedores": [
     {
@@ -377,6 +377,26 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "155003567",
+          "numnota": "",
+          "data": "01/06/2026",
+          "cliente": "DISTRIBUIDORA G MARKET EIRELI ME",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1848.0,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 112,
+              "val": 1848.0
+            }
+          ]
+        },
+        {
           "numped": "155003566",
           "numnota": "",
           "data": "01/06/2026",
@@ -398,6 +418,33 @@ const ENTREGAS_DATA = {
               "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
               "qt": 6,
               "val": 221.4
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": []
+    },
+    {
+      "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "241000478",
+          "numnota": "",
+          "data": "01/06/2026",
+          "cliente": "LUCIANA DA SILVA PROCOPIO DAS NEVES 08399692794",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1797.6,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 10,
+              "val": 1797.6
             }
           ]
         }
