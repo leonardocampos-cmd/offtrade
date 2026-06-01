@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "01/06/2026 11:40",
+  "atualizado_em": "01/06/2026 12:00",
   "meses": [
     "Mai/26",
     "Abr/26",
@@ -131022,15 +131022,6 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 59.88
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "91576",
-          "cliente": "SUPERMERCADO JAPERI LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 286.8
         },
         {
           "data": "20/05/2026",
