@@ -114,7 +114,20 @@ _vh['MES_STR'] = _vh['MES'].apply(_mes_pt)
 
 _vh_grouped = _vh.groupby(['VENDEDOR', 'MES_STR'])
 
-# ── Clientes cadastrados no mês (spon_oci) ────────────────────────────────────
+# ── Clientes cadastrados no mês ──────────────────────────────────────────────
+# Usa o mês mais recente do arquivo de metas para evitar zero no início do mês
+
+_MESES_NUM = {'Jan': 1, 'Fev': 2, 'Mar': 3, 'Abr': 4, 'Mai': 5, 'Jun': 6,
+              'Jul': 7, 'Ago': 8, 'Set': 9, 'Out': 10, 'Nov': 11, 'Dez': 12}
+
+_meses_arq_sorted = sorted(
+    arquivo['MES_STR'].dropna().unique().tolist(),
+    key=_mes_sort_key, reverse=True,
+)
+_ref_date_cad = None
+if _meses_arq_sorted:
+    _m_nome, _m_ano = _meses_arq_sorted[0].split('/')
+    _ref_date_cad = f'20{_m_ano}-{_MESES_NUM.get(_m_nome, 1):02d}-01'
 
 def _cnpj_chave(cgc):
     d = _re.sub(r'\D', '', str(cgc) if cgc else '')
@@ -122,12 +135,17 @@ def _cnpj_chave(cgc):
 
 def _query_cadastros(schema, col_usur="CODUSUR1"):
     s = schema.upper()
+    filtro = (
+        f"TRUNC(C.DTCADASTRO, 'MM') = DATE '{_ref_date_cad}'"
+        if _ref_date_cad
+        else "TRUNC(C.DTCADASTRO, 'MM') = TRUNC(SYSDATE, 'MM')"
+    )
     return f"""
         SELECT C.CODCLI, C.CGCENT AS CGC, U.NOME AS NOME_RCA
         FROM {s}.PCCLIENT C
         JOIN {s}.PCUSUARI U ON C.{col_usur} = U.CODUSUR
         WHERE U.NOME LIKE '%OFF TRADE%'
-          AND TRUNC(C.DTCADASTRO, 'MM') = TRUNC(SYSDATE, 'MM')
+          AND {filtro}
     """
 
 _cadastros_por_display: dict = {}

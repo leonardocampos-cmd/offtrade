@@ -771,6 +771,7 @@ function buildVendasTable(lista) {
         <div class="vendas-cli">${v.cliente || '—'}</div>
         <div class="vendas-prod">${v.produto || ''}</div>
       </td>
+      <td class="vendas-date" style="white-space:nowrap">${v.fantasia || '—'}</td>
       <td class="vendas-qt">${Number(v.qt).toLocaleString('pt-BR')}</td>
       <td class="vendas-val">${fmtFat(v.valor)}</td>
     </tr>`).join('');
@@ -780,6 +781,7 @@ function buildVendasTable(lista) {
         <tr>
           <th>Data</th>
           <th>Cliente / Produto</th>
+          <th>Fornecedor</th>
           <th style="text-align:right">Qtde</th>
           <th style="text-align:right">Valor</th>
         </tr>
@@ -1096,9 +1098,9 @@ function exportarVendasCSV(nomeVendedor) {
 
   const rows = [
     `VENDAS — ${nomeVendedor} — ${mes}`,
-    `Data${sep}Cliente${sep}Produto${sep}Quantidade${sep}Valor (R$)`,
+    `Data${sep}Cliente${sep}Produto${sep}Fornecedor${sep}Quantidade${sep}Valor (R$)`,
     ...lista.map(s =>
-      `${s.data}${sep}${s.cliente}${sep}${s.produto}${sep}${s.qt}${sep}${Number(s.valor).toFixed(2).replace('.', ',')}`
+      `${s.data}${sep}${s.cliente}${sep}${s.produto}${sep}${s.fantasia || ''}${sep}${s.qt}${sep}${Number(s.valor).toFixed(2).replace('.', ',')}`
     ),
   ];
 
