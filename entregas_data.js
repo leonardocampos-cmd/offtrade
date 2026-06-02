@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "02/06/2026 12:06",
+  "atualizado_em": "02/06/2026 13:05",
   "data_rota": "02.06",
   "vendedores": [
     {
@@ -312,6 +312,26 @@ const ENTREGAS_DATA = {
       "nome": "DIOGO RAPOSO",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "144001480",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "NERIS MINIMERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1597.5,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 25,
+              "val": 1597.5
+            }
+          ]
+        },
         {
           "numped": "144001479",
           "numnota": "",
@@ -2251,6 +2271,31 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "155003583",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "SALVE ICARAI BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 359.52,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 179.76
+            }
+          ]
+        },
+        {
           "numped": "155003579",
           "numnota": "",
           "data": "02/06/2026",
@@ -2297,6 +2342,26 @@ const ENTREGAS_DATA = {
               "desc": "VODCA BAM CIROC RED BERRY 750 ML",
               "qt": 6,
               "val": 935.4
+            }
+          ]
+        },
+        {
+          "numped": "155003582",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "J M FERNANDES DISTRIBUIDORA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1870.8,
+          "itens": [
+            {
+              "desc": "VODCA BAM CIROC RED BERRY 750 ML",
+              "qt": 12,
+              "val": 1870.8
             }
           ]
         },
