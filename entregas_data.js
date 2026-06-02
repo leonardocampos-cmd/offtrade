@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "02/06/2026 12:01",
+  "atualizado_em": "02/06/2026 12:04",
   "data_rota": "02.06",
   "vendedores": [
     {
@@ -2277,6 +2277,26 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL ZERO  24X250ML",
               "qt": 2,
               "val": 359.52
+            }
+          ]
+        },
+        {
+          "numped": "155003581",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "TAIS TERRA MONTEIRO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 935.4,
+          "itens": [
+            {
+              "desc": "VODCA BAM CIROC RED BERRY 750 ML",
+              "qt": 6,
+              "val": 935.4
             }
           ]
         },
