@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "02/06/2026 16:04",
+  "atualizado_em": "02/06/2026 16:54",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -33109,24 +33109,6 @@ const VENDAS_SP_DATA = {
       "Jun/26": [
         {
           "data": "01/06/2026",
-          "codcli": "23968",
-          "cliente": "DISTRIB DE BEBIDAS MARLENE LT",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 240,
-          "valor": 8064.0
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "23968",
-          "cliente": "DISTRIB DE BEBIDAS MARLENE LT",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 600,
-          "valor": 15540.0
-        },
-        {
-          "data": "01/06/2026",
           "codcli": "24103",
           "cliente": "COMERCIAL RS EIRELI",
           "produto": "CONHAQUE DOMECQ 1L",
@@ -33160,6 +33142,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 84,
           "valor": 5031.6
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "32864",
+          "cliente": "SALUTTE COMERCIO DE BEBIDAS TRANSPORTE E LOGISTICA LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 240,
+          "valor": 12696.0
         },
         {
           "data": "01/06/2026",
@@ -33243,6 +33234,51 @@ const VENDAS_SP_DATA = {
           "valor": 1678.8
         },
         {
+          "data": "02/06/2026",
+          "codcli": "39325",
+          "cliente": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
+          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1162.8
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "39325",
+          "cliente": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
+          "produto": "WHISKY GENTLEMAN JACK 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1656.0
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "39325",
+          "cliente": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 4795.2
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "39325",
+          "cliente": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 718.8
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "39325",
+          "cliente": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 700ML",
+          "fantasia": "",
+          "qt": 108,
+          "valor": 7882.92
+        },
+        {
           "data": "01/06/2026",
           "codcli": "40591",
           "cliente": "MARESIAS DISTRIBUIDORA DE BEBIDAS E SERVICOS LTDA",
@@ -33259,6 +33295,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 60,
           "valor": 685.8
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "50633",
+          "cliente": "IMPERIO - DISTRIBUIDORA DE BEBIDAS SUMARE LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 600,
+          "valor": 14994.0
         }
       ]
     },
@@ -36903,42 +36948,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 96,
           "valor": 3225.6
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "50239",
-          "cliente": "ALTAS HORAS MERCEARIA E CONVENIENCIA LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1186.8
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "50239",
-          "cliente": "ALTAS HORAS MERCEARIA E CONVENIENCIA LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1186.8
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "50239",
-          "cliente": "ALTAS HORAS MERCEARIA E CONVENIENCIA LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 2016.0
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "50239",
-          "cliente": "ALTAS HORAS MERCEARIA E CONVENIENCIA LTDA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 346.8
         },
         {
           "data": "07/05/2026",
@@ -63117,6 +63126,26 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 4,
           "valor": 419.6
+        }
+      ],
+      "Jun/26": [
+        {
+          "data": "02/06/2026",
+          "codcli": "50440",
+          "cliente": "MAICON DEIVIS MACARI 34322487840",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 346.8
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "50440",
+          "cliente": "MAICON DEIVIS MACARI 34322487840",
+          "produto": "SMIRNOFF ICE 24X275ML LONG",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 377.7
         }
       ]
     },
