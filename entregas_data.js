@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "02/06/2026 15:01",
+  "atualizado_em": "02/06/2026 15:04",
   "data_rota": "02.06",
   "vendedores": [
     {
@@ -725,6 +725,26 @@ const ENTREGAS_DATA = {
               "desc": "VODCA BAM CIROC RED BERRY 750 ML",
               "qt": 9,
               "val": 1394.1
+            }
+          ]
+        },
+        {
+          "numped": "159004759",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "P PEREIRA DO AMARAL LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 4182.3,
+          "itens": [
+            {
+              "desc": "VODCA BAM CIROC RED BERRY 750 ML",
+              "qt": 27,
+              "val": 4182.3
             }
           ]
         },
@@ -2418,6 +2438,41 @@ const ENTREGAS_DATA = {
               "desc": "GIN GORDONS PINK 700ML",
               "qt": 6,
               "val": 389.4
+            }
+          ]
+        },
+        {
+          "numped": "155003592",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "THE DUCK BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1043.04,
+          "itens": [
+            {
+              "desc": "PIRASSUNUNGA 51 965 ML",
+              "qt": 24,
+              "val": 324.0
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 359.52
+            },
+            {
+              "desc": "RED BULL CEREJA 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 179.76
             }
           ]
         },
