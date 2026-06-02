@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acesso — Rigarr</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144; --red: #ef4444;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      padding: 16px;
+    }
+    .box {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 40px 36px; width: 100%; max-width: 360px;
+      display: flex; flex-direction: column; align-items: center; gap: 24px;
+    }
+    .logo { font-size: 1.4rem; font-weight: 800; color: var(--accent); letter-spacing: -.02em; }
+    .logo span { color: var(--muted); font-weight: 400; font-size: 1rem; display: block; margin-top: 4px; text-align: center; }
+    form { width: 100%; display: flex; flex-direction: column; gap: 14px; }
+    input[type=password] {
+      width: 100%; padding: 11px 14px; border-radius: 8px;
+      border: 1px solid var(--border); background: #0f1117;
+      color: var(--text); font-size: 1rem; outline: none;
+      transition: border-color .15s; text-align: center; letter-spacing: .2em;
+      font-family: inherit;
+    }
+    input[type=password]:focus { border-color: var(--accent); }
+    input[type=password]::placeholder { letter-spacing: normal; color: var(--muted); }
+    button {
+      width: 100%; padding: 11px; border-radius: 8px;
+      background: var(--accent); color: #111; font-size: .95rem;
+      font-weight: 700; border: none; cursor: pointer;
+      transition: background .15s; font-family: inherit;
+    }
+    button:hover { background: #d4a90e; }
+    .erro {
+      font-size: .8rem; color: var(--red); text-align: center;
+      min-height: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="logo">Rigarr<span>Dashboard Comercial</span></div>
+    <form id="form">
+      <input type="password" id="pwd" placeholder="Senha" autofocus autocomplete="current-password">
+      <button type="submit">Entrar</button>
+      <div class="erro" id="erro"></div>
+    </form>
+  </div>
+
+  <script>
+    const HASH = 'f263766e88cba0bf9dfeb6d8f7228a554058f71ac1cb1ca9b0bbfb322b2b7552';
+
+    async function sha256(str) {
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    // Já autenticado → redireciona direto
+    if (sessionStorage.getItem('rg_auth') === HASH) {
+      location.replace(sessionStorage.getItem('rg_redirect') || 'index.html');
+    }
+
+    document.getElementById('form').addEventListener('submit', async e => {
+      e.preventDefault();
+      const pwd   = document.getElementById('pwd').value;
+      const hash  = await sha256(pwd);
+      if (hash === HASH) {
+        sessionStorage.setItem('rg_auth', hash);
+        const dest = sessionStorage.getItem('rg_redirect') || 'index.html';
+        sessionStorage.removeItem('rg_redirect');
+        location.replace(dest);
+      } else {
+        document.getElementById('erro').textContent = 'Senha incorreta.';
+        document.getElementById('pwd').value = '';
+        document.getElementById('pwd').focus();
+      }
+    });
+  </script>
+</body>
+</html>
