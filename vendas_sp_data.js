@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "02/06/2026 16:01",
+  "atualizado_em": "02/06/2026 16:04",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -51973,15 +51973,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 3,
           "valor": 83.7
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "48421",
-          "cliente": "REDE PLUS SUPERMERCADOS LTDA",
-          "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 62.7
         },
         {
           "data": "31/03/2026",
