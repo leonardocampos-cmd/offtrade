@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "02/06/2026 09:06",
+  "atualizado_em": "02/06/2026 10:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -37920,48 +37920,12 @@ const VENDAS_SP_DATA = {
       "Jun/26": [
         {
           "data": "01/06/2026",
-          "codcli": "27228",
-          "cliente": "BOB PECHINCA ATACADISTA LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "",
-          "qt": 420,
-          "valor": 40530.0
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "27228",
-          "cliente": "BOB PECHINCA ATACADISTA LTDA",
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 480,
-          "valor": 24240.0
-        },
-        {
-          "data": "01/06/2026",
           "codcli": "27557",
           "cliente": "BOB PECHINCHA ATACADISTA LTDA",
           "produto": "WHISKY JAMESON 750ML",
           "fantasia": "PERNOD",
           "qt": 120,
           "valor": 6948.0
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "27557",
-          "cliente": "BOB PECHINCHA ATACADISTA LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "",
-          "qt": 420,
-          "valor": 40530.0
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "27557",
-          "cliente": "BOB PECHINCHA ATACADISTA LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L",
-          "fantasia": "",
-          "qt": 120,
-          "valor": 11580.0
         }
       ]
     },
