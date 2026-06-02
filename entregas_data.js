@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "02/06/2026 11:04",
+  "atualizado_em": "02/06/2026 12:01",
   "data_rota": "02.06",
   "vendedores": [
     {
@@ -312,6 +312,26 @@ const ENTREGAS_DATA = {
       "nome": "DIOGO RAPOSO",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "144001479",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "63.529.210 KAUE ALVES DA SILVA SARAIVA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2940.0,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 120,
+              "val": 2940.0
+            }
+          ]
+        },
         {
           "numped": "144001474",
           "numnota": "",
@@ -1357,11 +1377,6 @@ const ENTREGAS_DATA = {
           "total": 1491.45,
           "itens": [
             {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
               "desc": "GUARAVITA NATURAL 24X290ML",
               "qt": 10,
               "val": 267.51
@@ -1410,6 +1425,11 @@ const ENTREGAS_DATA = {
               "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
               "qt": 1,
               "val": 87.48
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
             }
           ]
         }
@@ -2181,6 +2201,56 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "155003580",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "66.507.808 WANDERSON DOS SANTOS DIAS DOS ANJOS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2329.8,
+          "itens": [
+            {
+              "desc": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+              "qt": 10,
+              "val": 459.0
+            },
+            {
+              "desc": "VODCA BAM CIROC RED BERRY 750 ML",
+              "qt": 12,
+              "val": 1870.8
+            }
+          ]
+        },
+        {
+          "numped": "155003578",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "NATALIA DA SILVA DUARTE 10656196777",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 329.6,
+          "itens": [
+            {
+              "desc": "LICOR COINTREAU 700 ML",
+              "qt": 1,
+              "val": 89.9
+            },
+            {
+              "desc": "WHISKY JAMESON 750ML",
+              "qt": 3,
+              "val": 239.7
+            }
+          ]
+        },
+        {
           "numped": "155003579",
           "numnota": "",
           "data": "02/06/2026",
@@ -2207,31 +2277,6 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL ZERO  24X250ML",
               "qt": 2,
               "val": 359.52
-            }
-          ]
-        },
-        {
-          "numped": "155003578",
-          "numnota": "",
-          "data": "02/06/2026",
-          "cliente": "NATALIA DA SILVA DUARTE 10656196777",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 329.6,
-          "itens": [
-            {
-              "desc": "WHISKY JAMESON 750ML",
-              "qt": 3,
-              "val": 239.7
-            },
-            {
-              "desc": "LICOR COINTREAU 700 ML",
-              "qt": 1,
-              "val": 89.9
             }
           ]
         },
@@ -2617,7 +2662,28 @@ const ENTREGAS_DATA = {
     {
       "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "241000482",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "58.174.501 MESSIAS MORAES SANTOS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 359.52,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 359.52
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "241000479",
