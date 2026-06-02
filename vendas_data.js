@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/06/2026 15:04",
+  "atualizado_em": "02/06/2026 15:27",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -69763,6 +69763,33 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 1,
           "valor": 178.8
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "95109",
+          "cliente": "ERS DEPOSITO DE BEBIDAS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 24,
+          "valor": 540.0
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "95109",
+          "cliente": "ERS DEPOSITO DE BEBIDAS LTDA",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 270.0
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "95109",
+          "cliente": "ERS DEPOSITO DE BEBIDAS LTDA",
+          "produto": "CACHACA YPIOCA BRASILIZAR CG OURO 965ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 94.8
         }
       ]
     },
