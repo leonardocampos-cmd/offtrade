@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "02/06/2026 12:06",
+  "atualizado_em": "02/06/2026 13:05",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -44082,6 +44082,17 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 120,
           "valor": 6588.0
+        }
+      ],
+      "Jun/26": [
+        {
+          "data": "02/06/2026",
+          "codcli": "23070",
+          "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
+          "produto": "VINHO ARCAIA PINOT GRIGIO BRANCO 750ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 3294.0
         }
       ]
     },
