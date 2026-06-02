@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "02/06/2026 15:28",
+  "atualizado_em": "02/06/2026 16:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -40287,15 +40287,6 @@ const VENDAS_SP_DATA = {
           "data": "31/03/2026",
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "MARTINI BIANCO 750 ML",
-          "fantasia": "",
-          "qt": 180,
-          "valor": 4465.8
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "MARTINI EXTRA DRY 750 ML",
           "fantasia": "",
           "qt": 84,
@@ -60160,15 +60151,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 360,
           "valor": 17622.0
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "WHISKY  BALLANTINES 10YO 750ML",
-          "fantasia": "PERNOD",
-          "qt": 240,
-          "valor": 20376.0
         },
         {
           "data": "31/03/2026",
