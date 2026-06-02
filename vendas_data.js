@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/06/2026 12:05",
+  "atualizado_em": "02/06/2026 13:04",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -107835,15 +107835,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 24,
           "valor": 1320.0
-        },
-        {
-          "data": "26/02/2026",
-          "codcli": "91839",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 658.8
         },
         {
           "data": "26/02/2026",
