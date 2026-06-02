@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "02/06/2026 09:05",
+  "atualizado_em": "02/06/2026 10:02",
   "data_rota": "02.06",
   "vendedores": [
     {
@@ -104,11 +104,6 @@ const ENTREGAS_DATA = {
           "total": 2810.56,
           "itens": [
             {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 2,
-              "val": 170.4
-            },
-            {
               "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
               "qt": 2,
               "val": 170.4
@@ -147,6 +142,11 @@ const ENTREGAS_DATA = {
               "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
               "qt": 1,
               "val": 85.2
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 2,
+              "val": 170.4
             }
           ]
         },
@@ -1074,6 +1074,36 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "379001033",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "PAMELA REGOLO BATISTA 12434923763",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 253.67,
+          "itens": [
+            {
+              "desc": "VINHO BORDO QUINTA DO MORGADO 750ML",
+              "qt": 1,
+              "val": 13.99
+            },
+            {
+              "desc": "NECTAR MANGA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 2,
+              "val": 179.8
+            }
+          ]
+        },
+        {
           "numped": "379001030",
           "numnota": "",
           "data": "01/06/2026",
@@ -1200,7 +1230,78 @@ const ENTREGAS_DATA = {
     {
       "nome": "MARILENA TRAGEL",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "156003495",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1491.45,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 10,
+              "val": 267.51
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 10,
+              "val": 199.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 10,
+              "val": 289.0
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+              "qt": 1,
+              "val": 87.48
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN MACA 12X300ML",
+              "qt": 1,
+              "val": 87.48
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+              "qt": 1,
+              "val": 87.48
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "156003494",
@@ -1254,46 +1355,46 @@ const ENTREGAS_DATA = {
           "cliente": "AUTO POSTO REZENDE RECREIO II LTDA",
           "placa": "",
           "rota": "",
-          "status_ped": "",
+          "status_ped": "CANCELADA",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 828.7,
+          "total": 0.0,
           "itens": [
             {
               "desc": "GIN TANQUERAY  750 ML",
-              "qt": 1,
-              "val": 92.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-              "qt": 1,
-              "val": 139.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "VODKA SMIRNOFF 600 ML",
-              "qt": 5,
-              "val": 116.3
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "BLACK LABEL 50 ML CX/12",
-              "qt": 1,
-              "val": 239.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
-              "qt": 1,
-              "val": 20.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
-              "qt": 1,
-              "val": 139.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-              "qt": 1,
-              "val": 78.9
+              "qt": 0,
+              "val": 0.0
             }
           ]
         },
@@ -1908,56 +2009,56 @@ const ENTREGAS_DATA = {
           "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
           "placa": "",
           "rota": "",
-          "status_ped": "",
+          "status_ped": "CANCELADA",
           "status_log": "",
           "motivo": "",
           "obs": "contato: Matheus (21)981190098",
-          "total": 2144.68,
+          "total": 0.0,
           "itens": [
             {
               "desc": "TEQUILA J CUERVO GOLD 750ML",
-              "qt": 3,
-              "val": 299.7
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "TEQUILA J CUERVO SILVER 750ML",
-              "qt": 1,
-              "val": 99.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 6,
-              "val": 215.4
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "LICOR ESP DIEGO ZAMORA 43 CHOCOLATE",
-              "qt": 2,
-              "val": 349.98
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "LIQUEUR AMARULA RASBERRY 750 ML",
-              "qt": 2,
-              "val": 179.8
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "GIN ROCKS STRAWBERRY 1000ML",
-              "qt": 6,
-              "val": 137.4
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "GIN ROCKS 1000ML",
-              "qt": 6,
-              "val": 137.4
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "CHANDON RESERVE BRUT ROSE 750ML",
-              "qt": 6,
-              "val": 455.4
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-              "qt": 3,
-              "val": 269.7
+              "qt": 0,
+              "val": 0.0
             }
           ]
         }
