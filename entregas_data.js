@@ -1,7 +1,39 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "02/06/2026 10:04",
+  "atualizado_em": "02/06/2026 11:01",
   "data_rota": "02.06",
   "vendedores": [
+    {
+      "nome": "ADEILSON GONÇALVES",
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "431000988",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 318.02,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 5,
+              "val": 132.62
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 6,
+              "val": 185.4
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": []
+    },
     {
       "nome": "ANA CLARA PASSOS",
       "em_rota": [],
@@ -1104,6 +1136,86 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "379001037",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "R R DEPOSITO E EMPORIO DE BEBIDAS 137 S S LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 269.7,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 3,
+              "val": 269.7
+            }
+          ]
+        },
+        {
+          "numped": "379001034",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "EYMARD'S MERCADINHO E DEPOSITO DE BEBIDAS E LATICINIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1078.8,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 12,
+              "val": 1078.8
+            }
+          ]
+        },
+        {
+          "numped": "379001035",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 269.7,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 3,
+              "val": 269.7
+            }
+          ]
+        },
+        {
+          "numped": "379001036",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "LUCAS RIBEIRO DAVID 14908282730",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2697.0,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 30,
+              "val": 2697.0
+            }
+          ]
+        },
+        {
           "numped": "379001030",
           "numnota": "",
           "data": "01/06/2026",
@@ -1322,6 +1434,11 @@ const ENTREGAS_DATA = {
               "val": 92.9
             },
             {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 1,
+              "val": 139.9
+            },
+            {
               "desc": "VODKA SMIRNOFF 600 ML",
               "qt": 5,
               "val": 116.3
@@ -1340,11 +1457,6 @@ const ENTREGAS_DATA = {
               "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
               "qt": 1,
               "val": 78.9
-            },
-            {
-              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-              "qt": 1,
-              "val": 139.9
             }
           ]
         },
@@ -2068,6 +2180,61 @@ const ENTREGAS_DATA = {
       "nome": "RAPHAEL SANTOS - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "155003579",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "R MACHARETE NETTO EVENTOS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3055.92,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 10,
+              "val": 1797.6
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 5,
+              "val": 898.8
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 2,
+              "val": 359.52
+            }
+          ]
+        },
+        {
+          "numped": "155003578",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "NATALIA DA SILVA DUARTE 10656196777",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 329.6,
+          "itens": [
+            {
+              "desc": "WHISKY JAMESON 750ML",
+              "qt": 3,
+              "val": 239.7
+            },
+            {
+              "desc": "LICOR COINTREAU 700 ML",
+              "qt": 1,
+              "val": 89.9
+            }
+          ]
+        },
         {
           "numped": "155003575",
           "numnota": "",
