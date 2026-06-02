@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/06/2026 09:04",
+  "atualizado_em": "02/06/2026 10:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -36040,69 +36040,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 24.6
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "3656",
-          "cliente": "AUTO POSTO REZENDE RECREIO II LTDA",
-          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-          "fantasia": "FANTE",
-          "qt": 1,
-          "valor": 78.9
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "3656",
-          "cliente": "AUTO POSTO REZENDE RECREIO II LTDA",
-          "produto": "GIN TANQUERAY  750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 92.9
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "3656",
-          "cliente": "AUTO POSTO REZENDE RECREIO II LTDA",
-          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 20.9
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "3656",
-          "cliente": "AUTO POSTO REZENDE RECREIO II LTDA",
-          "produto": "VODKA SMIRNOFF 600 ML",
-          "fantasia": "DIAGEO",
-          "qt": 5,
-          "valor": 116.3
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "3656",
-          "cliente": "AUTO POSTO REZENDE RECREIO II LTDA",
-          "produto": "BLACK LABEL 50 ML CX/12",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 239.9
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "3656",
-          "cliente": "AUTO POSTO REZENDE RECREIO II LTDA",
-          "produto": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 139.9
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "3656",
-          "cliente": "AUTO POSTO REZENDE RECREIO II LTDA",
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 139.9
         },
         {
           "data": "02/06/2026",
@@ -118161,87 +118098,6 @@ const VENDAS_DATA = {
           "data": "01/06/2026",
           "codcli": "90148",
           "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
-          "produto": "LIQUEUR AMARULA RASBERRY 750 ML",
-          "fantasia": "INTERFOOD",
-          "qt": 2,
-          "valor": 179.8
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "90148",
-          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
-          "produto": "LICOR ESP DIEGO ZAMORA 43 CHOCOLATE",
-          "fantasia": "AURORA",
-          "qt": 2,
-          "valor": 349.98
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "90148",
-          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
-          "produto": "TEQUILA J CUERVO GOLD 750ML",
-          "fantasia": "AURORA",
-          "qt": 3,
-          "valor": 299.7
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "90148",
-          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
-          "produto": "TEQUILA J CUERVO SILVER 750ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 99.9
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "90148",
-          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
-          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 455.4
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "90148",
-          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 215.4
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "90148",
-          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
-          "produto": "GIN ROCKS 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 137.4
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "90148",
-          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
-          "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-          "fantasia": "INTERFOOD",
-          "qt": 3,
-          "valor": 269.7
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "90148",
-          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 137.4
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "90148",
-          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
           "produto": "VODCA BAM CIROC RED BERRY 750 ML",
           "fantasia": "DIAGEO",
           "qt": 12,
@@ -131273,15 +131129,6 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 12,
           "valor": 1317.6
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "GIN BEEFEATER CX C/ 12X50ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 600.66
         },
         {
           "data": "11/05/2026",
