@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/06/2026 14:04",
+  "atualizado_em": "02/06/2026 15:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -87800,24 +87800,6 @@ const VENDAS_DATA = {
           "valor": 528.0
         },
         {
-          "data": "02/05/2026",
-          "codcli": "61992",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "WHISKY BLACK STONE 1LT",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 75.24
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "61992",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 132.06
-        },
-        {
           "data": "06/05/2026",
           "codcli": "69759",
           "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
@@ -90997,24 +90979,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 137.28
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "80353",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.9
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "80353",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 24,
-          "valor": 276.0
         },
         {
           "data": "01/04/2026",
@@ -104005,15 +103969,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/03/2026",
-          "codcli": "74378",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "GIN LARIOS ORIGINAL 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 24,
-          "valor": 1031.52
-        },
-        {
-          "data": "30/03/2026",
           "codcli": "74407",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "GIN LARIOS ORIGINAL 700ML",
@@ -104038,15 +103993,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 90,
           "valor": 2943.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "74411",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "GIN LARIOS ORIGINAL 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 24,
-          "valor": 1031.52
         },
         {
           "data": "12/03/2026",
@@ -104248,33 +104194,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/03/2026",
-          "codcli": "79589",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "GIN LARIOS ORIGINAL 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 24,
-          "valor": 1031.52
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "79595",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "GIN LARIOS ORIGINAL 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 24,
-          "valor": 1031.52
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "79598",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "GIN LARIOS ORIGINAL 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 24,
-          "valor": 1031.52
-        },
-        {
-          "data": "30/03/2026",
           "codcli": "81307",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "GIN LARIOS ORIGINAL 700ML",
@@ -104317,24 +104236,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 60,
           "valor": 1962.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "79681",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "GIN LARIOS ORIGINAL 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 24,
-          "valor": 1031.52
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "79681",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 30,
-          "valor": 981.0
         },
         {
           "data": "02/03/2026",
@@ -135504,123 +135405,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 60,
           "valor": 2094.0
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 30,
-          "valor": 1047.0
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 60,
-          "valor": 2094.0
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING BOOSTER LIMAO 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 5,
-          "valor": 758.4
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 24,
-          "valor": 2277.6
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "CACHACA JOIA DA SERRA OURO 1L",
-          "fantasia": "HOB",
-          "qt": 12,
-          "valor": 239.4
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
-          "fantasia": "HOB",
-          "qt": 12,
-          "valor": 239.4
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 5,
-          "valor": 410.4
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 5,
-          "valor": 410.4
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 4,
-          "valor": 328.32
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84011",
-          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 137.4
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84011",
-          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 418.8
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84011",
-          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 628.2
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84012",
-          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 418.8
         },
         {
           "data": "15/04/2026",
