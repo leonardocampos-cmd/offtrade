@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "03/06/2026 16:01",
+  "atualizado_em": "03/06/2026 17:01",
   "data_rota": "03.06",
   "vendedores": [
     {
@@ -302,6 +302,26 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "471000285",
+          "numnota": "",
+          "data": "03/06/2026",
+          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 210.98,
+          "itens": [
+            {
+              "desc": "VEJA PERF CON LAVANDA 12X100ML",
+              "qt": 1,
+              "val": 210.98
+            }
+          ]
+        },
+        {
           "numped": "471000282",
           "numnota": "",
           "data": "03/06/2026",
@@ -328,6 +348,36 @@ const ENTREGAS_DATA = {
               "desc": "LICOR BALLENA MORANGO 750 ML",
               "qt": 2,
               "val": 211.8
+            }
+          ]
+        },
+        {
+          "numped": "471000284",
+          "numnota": "",
+          "data": "03/06/2026",
+          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 155.5,
+          "itens": [
+            {
+              "desc": "AGUA NA CAIXA 12X330ML",
+              "qt": 2,
+              "val": 61.8
+            },
+            {
+              "desc": "AGUA NA CAIXA 12X500ML",
+              "qt": 2,
+              "val": 63.8
+            },
+            {
+              "desc": "AGUA NA LATA C/ GAS 12X310ML",
+              "qt": 1,
+              "val": 29.9
             }
           ]
         },
@@ -536,76 +586,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "153001180",
-          "numnota": "",
-          "data": "03/06/2026",
-          "cliente": "MERCADO CAMPEAO DO LAUREANO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entregar no dia 05/06 com pagamento de descarga no valor R$60,00 por pallet",
-          "total": 913.92,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 2,
-              "val": 130.56
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-              "qt": 10,
-              "val": 652.8
-            },
-            {
-              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-              "qt": 1,
-              "val": 65.28
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 1,
-              "val": 65.28
-            }
-          ]
-        },
-        {
-          "numped": "153001181",
-          "numnota": "",
-          "data": "03/06/2026",
-          "cliente": "SUPERMERCADO RIO SUL DO LAUREANO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entregar no dia 05/06 com pagamento de descarga no valor R$60,00 por pallet",
-          "total": 913.92,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 2,
-              "val": 130.56
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-              "qt": 10,
-              "val": 652.8
-            },
-            {
-              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-              "qt": 1,
-              "val": 65.28
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 1,
-              "val": 65.28
-            }
-          ]
-        },
-        {
           "numped": "153001182",
           "numnota": "",
           "data": "03/06/2026",
@@ -618,6 +598,16 @@ const ENTREGAS_DATA = {
           "obs": "entregar no dia 05/06 com pagamento de descarga no valor de R$60,00 por pal",
           "total": 1895.28,
           "itens": [
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
             {
               "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
               "qt": 2,
@@ -637,16 +627,76 @@ const ENTREGAS_DATA = {
               "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
               "qt": 24,
               "val": 429.6
+            }
+          ]
+        },
+        {
+          "numped": "153001180",
+          "numnota": "",
+          "data": "03/06/2026",
+          "cliente": "MERCADO CAMPEAO DO LAUREANO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 05/06 com pagamento de descarga no valor R$60,00 por pallet",
+          "total": 913.92,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+              "qt": 10,
+              "val": 652.8
             },
             {
               "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            }
+          ]
+        },
+        {
+          "numped": "153001181",
+          "numnota": "",
+          "data": "03/06/2026",
+          "cliente": "SUPERMERCADO RIO SUL DO LAUREANO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 05/06 com pagamento de descarga no valor R$60,00 por pallet",
+          "total": 913.92,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
               "qt": 2,
               "val": 130.56
             },
             {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 2,
-              "val": 130.56
+              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+              "qt": 10,
+              "val": 652.8
+            },
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 1,
+              "val": 65.28
             }
           ]
         },
@@ -1012,6 +1062,11 @@ const ENTREGAS_DATA = {
               "val": 59.9
             },
             {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 359.52
+            },
+            {
               "desc": "RED BULL 24X250ML",
               "qt": 3,
               "val": 539.28
@@ -1035,11 +1090,6 @@ const ENTREGAS_DATA = {
               "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
               "qt": 2,
               "val": 259.8
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 2,
-              "val": 359.52
             }
           ]
         },
@@ -2151,26 +2201,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "159004791",
-          "numnota": "",
-          "data": "03/06/2026",
-          "cliente": "SALES E SOUZA MINIMERCADO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 277.5,
-          "itens": [
-            {
-              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-              "qt": 5,
-              "val": 277.5
-            }
-          ]
-        },
-        {
           "numped": "159004793",
           "numnota": "",
           "data": "03/06/2026",
@@ -2211,26 +2241,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "159004782",
-          "numnota": "",
-          "data": "02/06/2026",
-          "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1881.9,
-          "itens": [
-            {
-              "desc": "LICOR STOCK CURACAU BLUE 720 ML",
-              "qt": 51,
-              "val": 1881.9
-            }
-          ]
-        },
-        {
           "numped": "159004784",
           "numnota": "",
           "data": "02/06/2026",
@@ -2267,46 +2277,6 @@ const ENTREGAS_DATA = {
               "desc": "LICOR STOCK MARULA 720 ML",
               "qt": 2,
               "val": 73.8
-            }
-          ]
-        },
-        {
-          "numped": "159004771",
-          "numnota": "",
-          "data": "02/06/2026",
-          "cliente": "MILVIO R GOMES",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 55.5,
-          "itens": [
-            {
-              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
-              "qt": 1,
-              "val": 55.5
-            }
-          ]
-        },
-        {
-          "numped": "159004773",
-          "numnota": "",
-          "data": "02/06/2026",
-          "cliente": "JD SOUSA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 55.5,
-          "itens": [
-            {
-              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
-              "qt": 1,
-              "val": 55.5
             }
           ]
         }
@@ -2613,6 +2583,26 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "159004782",
+          "numnota": "399884.0",
+          "data": "02/06/2026",
+          "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1881.9,
+          "itens": [
+            {
+              "desc": "LICOR STOCK CURACAU BLUE 720 ML",
+              "qt": 51,
+              "val": 1881.9
+            }
+          ]
+        },
+        {
           "numped": "159004763",
           "numnota": "399661.0",
           "data": "02/06/2026",
@@ -2629,6 +2619,46 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 4,
               "val": 719.04
+            }
+          ]
+        },
+        {
+          "numped": "159004771",
+          "numnota": "399883.0",
+          "data": "02/06/2026",
+          "cliente": "MILVIO R GOMES",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 55.5,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
+              "qt": 1,
+              "val": 55.5
+            }
+          ]
+        },
+        {
+          "numped": "159004773",
+          "numnota": "399886.0",
+          "data": "02/06/2026",
+          "cliente": "JD SOUSA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 55.5,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
+              "qt": 1,
+              "val": 55.5
             }
           ]
         },
@@ -3445,7 +3475,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 297.87,
+          "total": 198.48,
           "itens": [
             {
               "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
@@ -3456,16 +3486,6 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
               "qt": 1,
               "val": 133.2
-            },
-            {
-              "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
-              "qt": 1,
-              "val": 47.9
-            },
-            {
-              "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
-              "qt": 1,
-              "val": 51.49
             }
           ]
         },
@@ -3480,17 +3500,12 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 317.04,
+          "total": 244.92,
           "itens": [
             {
               "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
               "qt": 1,
               "val": 65.28
-            },
-            {
-              "desc": "VEJA PERF CON ALECRIM 12X100ML",
-              "qt": 1,
-              "val": 72.12
             },
             {
               "desc": "NECTAR CAJU 12X1000ML",
@@ -3506,6 +3521,26 @@ const ENTREGAS_DATA = {
               "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
               "qt": 1,
               "val": 59.88
+            }
+          ]
+        },
+        {
+          "numped": "379001053",
+          "numnota": "",
+          "data": "03/06/2026",
+          "cliente": "M&M DEPOSITO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 72.12,
+          "itens": [
+            {
+              "desc": "VEJA PERF CON ALECRIM 12X100ML",
+              "qt": 1,
+              "val": 72.12
             }
           ]
         },
@@ -3531,6 +3566,31 @@ const ENTREGAS_DATA = {
               "desc": "CONHAQUE DOMECQ 1L",
               "qt": 1,
               "val": 32.9
+            }
+          ]
+        },
+        {
+          "numped": "379001054",
+          "numnota": "",
+          "data": "03/06/2026",
+          "cliente": "GR ALIMENTOS E LATICINIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 99.39,
+          "itens": [
+            {
+              "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
+              "qt": 1,
+              "val": 47.9
+            },
+            {
+              "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
+              "qt": 1,
+              "val": 51.49
             }
           ]
         },
@@ -6946,6 +7006,11 @@ const ENTREGAS_DATA = {
           "total": 269.64,
           "itens": [
             {
+              "desc": "4 PACK RED BULL SF AMORA",
+              "qt": 2,
+              "val": 59.92
+            },
+            {
               "desc": "4 PACK RED BULL ZERO",
               "qt": 3,
               "val": 89.88
@@ -6964,121 +7029,6 @@ const ENTREGAS_DATA = {
               "desc": "4 PACK RED BULL MORANGO PESSEGO",
               "qt": 1,
               "val": 29.96
-            },
-            {
-              "desc": "4 PACK RED BULL SF AMORA",
-              "qt": 2,
-              "val": 59.92
-            }
-          ]
-        },
-        {
-          "numped": "155003606",
-          "numnota": "",
-          "data": "03/06/2026",
-          "cliente": "RESTAURANTE E CHOPERIA BRISA DO HORIZONTE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1078.56,
-          "itens": [
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 3,
-              "val": 539.28
-            },
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 2,
-              "val": 359.52
-            },
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 179.76
-            }
-          ]
-        },
-        {
-          "numped": "155003605",
-          "numnota": "",
-          "data": "03/06/2026",
-          "cliente": "MERCADO E DEPOSITO DE BEBIDAS DA ALDEIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 826.44,
-          "itens": [
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 2,
-              "val": 359.52
-            },
-            {
-              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-              "qt": 6,
-              "val": 107.4
-            },
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 2,
-              "val": 359.52
-            }
-          ]
-        },
-        {
-          "numped": "155003603",
-          "numnota": "",
-          "data": "03/06/2026",
-          "cliente": "PIZZARIA E RESTAURANTE PINO LTDA ME",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 539.28,
-          "itens": [
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 3,
-              "val": 539.28
-            }
-          ]
-        },
-        {
-          "numped": "155003604",
-          "numnota": "",
-          "data": "03/06/2026",
-          "cliente": "L R V RESTAURANTE E CHOPERIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 566.92,
-          "itens": [
-            {
-              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-              "qt": 3,
-              "val": 57.9
-            },
-            {
-              "desc": "GIN ROCKS 1000ML",
-              "qt": 5,
-              "val": 149.5
-            },
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 2,
-              "val": 359.52
             }
           ]
         },
@@ -7118,6 +7068,26 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "155003609",
+          "numnota": "",
+          "data": "03/06/2026",
+          "cliente": "PIZZARIA E RESTAURANTE PINO LTDA ME",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 368.7,
+          "itens": [
+            {
+              "desc": "WHISKY JACK DANIELS 1L",
+              "qt": 3,
+              "val": 368.7
+            }
+          ]
+        },
+        {
           "numped": "155003601",
           "numnota": "",
           "data": "02/06/2026",
@@ -7139,6 +7109,116 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "155003606",
+          "numnota": "399907.0",
+          "data": "03/06/2026",
+          "cliente": "RESTAURANTE E CHOPERIA BRISA DO HORIZONTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1078.56,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 3,
+              "val": 539.28
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 2,
+              "val": 359.52
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            }
+          ]
+        },
+        {
+          "numped": "155003605",
+          "numnota": "399881.0",
+          "data": "03/06/2026",
+          "cliente": "MERCADO E DEPOSITO DE BEBIDAS DA ALDEIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 826.44,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 359.52
+            },
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 6,
+              "val": 107.4
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 359.52
+            }
+          ]
+        },
+        {
+          "numped": "155003603",
+          "numnota": "399880.0",
+          "data": "03/06/2026",
+          "cliente": "PIZZARIA E RESTAURANTE PINO LTDA ME",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 539.28,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 3,
+              "val": 539.28
+            }
+          ]
+        },
+        {
+          "numped": "155003604",
+          "numnota": "399889.0",
+          "data": "03/06/2026",
+          "cliente": "L R V RESTAURANTE E CHOPERIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 566.92,
+          "itens": [
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 3,
+              "val": 57.9
+            },
+            {
+              "desc": "GIN ROCKS 1000ML",
+              "qt": 5,
+              "val": 149.5
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 359.52
+            }
+          ]
+        },
         {
           "numped": "155003593",
           "numnota": "399592.0",
@@ -7550,10 +7630,11 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "241000486",
-          "numnota": "",
+          "numnota": "399887.0",
           "data": "03/06/2026",
           "cliente": "60.809.322 ARIONI DE JESUS DE SOUZA BARCELOS",
           "placa": "",
@@ -7588,7 +7669,7 @@ const ENTREGAS_DATA = {
         },
         {
           "numped": "241000487",
-          "numnota": "",
+          "numnota": "399888.0",
           "data": "03/06/2026",
           "cliente": "LUCIANA DA SILVA PROCOPIO DAS NEVES 08399692794",
           "placa": "",
@@ -7605,9 +7686,7 @@ const ENTREGAS_DATA = {
               "val": 719.4
             }
           ]
-        }
-      ],
-      "emitido_s_rota": [
+        },
         {
           "numped": "241000480",
           "numnota": "399052.0",
