@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "03/06/2026 09:59",
+  "atualizado_em": "03/06/2026 10:01",
   "data_rota": "03.06",
   "vendedores": [
     {
@@ -17,13 +17,28 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 265.5,
+          "total": 185.4,
           "itens": [
             {
               "desc": "4 PACK RED BULL",
               "qt": 6,
               "val": 185.4
-            },
+            }
+          ]
+        },
+        {
+          "numped": "431000992",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "KVSO I COM PROD FAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 80.1,
+          "itens": [
             {
               "desc": "GUARAVITA NATURAL 24X290ML",
               "qt": 3,
