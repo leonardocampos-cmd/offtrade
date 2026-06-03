@@ -4,3 +4,9 @@ oracledb
 sqlalchemy
 openpyxl
 requests
+urllib3
+paramiko
+python-dotenv
+streamlit
+streamlit-oauth
+streamlit-cookies-controller

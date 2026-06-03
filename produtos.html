@@ -154,6 +154,12 @@
     }
     .table-count { font-size: .78rem; color: var(--muted); }
     .table-sum   { font-size: .78rem; color: var(--accent); font-weight: 600; font-variant-numeric: tabular-nums; }
+    .btn-csv {
+      font-size: .75rem; color: var(--muted); cursor: pointer;
+      padding: 5px 12px; border: 1px solid var(--border); border-radius: 7px;
+      background: var(--card2); transition: all .15s; font-family: inherit;
+    }
+    .btn-csv:hover { color: var(--accent); border-color: var(--accent); }
 
     table { width: 100%; border-collapse: collapse; }
     thead th {
@@ -247,6 +253,7 @@
   <div class="table-meta">
     <span class="table-count" id="tbl-count">— itens</span>
     <span class="table-sum"   id="tbl-sum"></span>
+    <button class="btn-csv" onclick="exportCSV()" type="button">⬇ Exportar CSV</button>
   </div>
   <table>
     <thead>
@@ -531,6 +538,30 @@ document.getElementById('search').addEventListener('input', e => {
   stSearch = e.target.value;
   refresh();
 });
+
+// ── Export CSV ────────────────────────────────────────────────────────────────
+function exportCSV() {
+  let rows = filteredRows();
+  rows = [...rows].sort((a, b) => {
+    const va = a[stSortK], vb = b[stSortK];
+    const cmp = typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb), 'pt-BR');
+    return stSortA ? cmp : -cmp;
+  });
+
+  const esc = v => '"' + String(v).replace(/"/g, '""') + '"';
+  const lines = [
+    ['Data', 'Produto', 'Cliente', 'Fornecedor', 'Qtd', 'Valor'].map(esc).join(';'),
+    ...rows.map(r => [r.data, r.produto, r.cliente, r.fornecedor, r.qt, r.valor].map(esc).join(';'))
+  ];
+
+  const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = `produtos_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
 
 // ── Init ───────────────────────────────────────────────────────────────────────
 document.getElementById('h-sub').textContent =
