@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "03/06/2026 12:12",
+  "atualizado_em": "03/06/2026 13:42",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -139305,33 +139305,6 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 12,
           "valor": 1138.8
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 164.16
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 151.68
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING BOOSTER LIMAO 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 151.68
         },
         {
           "data": "13/03/2026",
