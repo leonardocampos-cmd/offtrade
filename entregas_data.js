@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "03/06/2026 10:01",
+  "atualizado_em": "03/06/2026 10:04",
   "data_rota": "03.06",
   "vendedores": [
     {
@@ -523,6 +523,11 @@ const ENTREGAS_DATA = {
           "total": 2810.56,
           "itens": [
             {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 10,
+              "val": 652.8
+            },
+            {
               "desc": "MOVING JUICE PROTEIN MACA 12X300ML",
               "qt": 1,
               "val": 85.2
@@ -559,11 +564,6 @@ const ENTREGAS_DATA = {
             },
             {
               "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 10,
-              "val": 652.8
-            },
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
               "qt": 10,
               "val": 652.8
             }
@@ -1145,12 +1145,32 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 2214.0,
+          "total": 1881.9,
           "itens": [
             {
               "desc": "LICOR STOCK CURACAU BLUE 720 ML",
-              "qt": 60,
-              "val": 2214.0
+              "qt": 51,
+              "val": 1881.9
+            }
+          ]
+        },
+        {
+          "numped": "159004784",
+          "numnota": "",
+          "data": "02/06/2026",
+          "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 332.1,
+          "itens": [
+            {
+              "desc": "LICOR STOCK CURACAU BLUE 720 ML",
+              "qt": 9,
+              "val": 332.1
             }
           ]
         },
@@ -3201,6 +3221,11 @@ const ENTREGAS_DATA = {
               "val": 151.6
             },
             {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 4,
+              "val": 107.6
+            },
+            {
               "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
               "qt": 3,
               "val": 170.7
@@ -3209,11 +3234,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
               "qt": 4,
               "val": 239.6
-            },
-            {
-              "desc": "VILLA ROSA TINTO 750ML",
-              "qt": 4,
-              "val": 107.6
             }
           ]
         },
@@ -3279,6 +3299,61 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "156003498",
+          "numnota": "399612.0",
+          "data": "02/06/2026",
+          "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 735.94,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+              "qt": 1,
+              "val": 87.48
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN MACA 12X300ML",
+              "qt": 1,
+              "val": 87.48
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+              "qt": 1,
+              "val": 87.48
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ]
+        },
         {
           "numped": "156003495",
           "numnota": "399241.0",
@@ -3491,61 +3566,6 @@ const ENTREGAS_DATA = {
               "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
               "qt": 1,
               "val": 139.9
-            }
-          ]
-        },
-        {
-          "numped": "156003498",
-          "numnota": "399612.0",
-          "data": "02/06/2026",
-          "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 735.94,
-          "itens": [
-            {
-              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-              "qt": 1,
-              "val": 87.48
-            },
-            {
-              "desc": "MOVING JUICE PROTEIN MACA 12X300ML",
-              "qt": 1,
-              "val": 87.48
-            },
-            {
-              "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
-              "qt": 1,
-              "val": 87.48
-            },
-            {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 1,
-              "val": 94.7
             }
           ]
         },
@@ -5172,6 +5192,11 @@ const ENTREGAS_DATA = {
               "val": 104.7
             },
             {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 4,
+              "val": 691.6
+            },
+            {
               "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 4,
               "val": 719.04
@@ -5195,11 +5220,36 @@ const ENTREGAS_DATA = {
               "desc": "VODKA ABSOLUT 1L",
               "qt": 2,
               "val": 125.8
+            }
+          ]
+        },
+        {
+          "numped": "155003584",
+          "numnota": "399451.0",
+          "data": "02/06/2026",
+          "cliente": "QUIOSQUE DO BAIANO BAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 540.2,
+          "itens": [
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 CHOCOLATE",
+              "qt": 1,
+              "val": 167.9
             },
             {
-              "desc": "WHISKY J WALKER BLACK LABEL 1L",
-              "qt": 4,
-              "val": 691.6
+              "desc": "LICOR ESP DIEGO ZAMORA 43 CREME BRULEE",
+              "qt": 1,
+              "val": 156.9
+            },
+            {
+              "desc": "RUM BACARDI SUPERIOR 980ML",
+              "qt": 6,
+              "val": 215.4
             }
           ]
         },
@@ -5255,36 +5305,6 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY JACK DANIELS 1L",
               "qt": 0,
               "val": 0.0
-            }
-          ]
-        },
-        {
-          "numped": "155003584",
-          "numnota": "399451.0",
-          "data": "02/06/2026",
-          "cliente": "QUIOSQUE DO BAIANO BAR LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 540.2,
-          "itens": [
-            {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 CREME BRULEE",
-              "qt": 1,
-              "val": 156.9
-            },
-            {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 CHOCOLATE",
-              "qt": 1,
-              "val": 167.9
-            },
-            {
-              "desc": "RUM BACARDI SUPERIOR 980ML",
-              "qt": 6,
-              "val": 215.4
             }
           ]
         },
