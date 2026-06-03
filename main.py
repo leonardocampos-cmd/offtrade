@@ -71,10 +71,25 @@ def main():
             print("[AVISO] exportacao_588 falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("8/9 - Enviando alerta WhatsApp")
+        step("8/9 - Exportando auth de vendedores (vendedores_auth_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_vendedores_auth.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_vendedores_auth falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_vendedores_auth falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
+        step("9/10 - Enviando alerta WhatsApp")
         import envio_whatsapp
 
-        step("9/9 - Deploy para VPS")
+        step("10/10 - Deploy para VPS")
         try:
             import subprocess, sys as _sys
             result = subprocess.run(
