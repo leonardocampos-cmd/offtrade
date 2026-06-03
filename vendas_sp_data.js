@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "03/06/2026 14:04",
+  "atualizado_em": "03/06/2026 15:03",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -32321,42 +32321,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 24,
           "valor": 2373.6
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "49683",
-          "cliente": "MENANDRO ANGELI SANTIAGO",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1509.6
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "49683",
-          "cliente": "MENANDRO ANGELI SANTIAGO",
-          "produto": "WHISKY JACK DANIELS 375 ML - DEST",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 1078.08
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "49683",
-          "cliente": "MENANDRO ANGELI SANTIAGO",
-          "produto": "WHISKY JACK DANIELS APPLE 700ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 898.8
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "49683",
-          "cliente": "MENANDRO ANGELI SANTIAGO",
-          "produto": "RUM MALIBU 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 514.8
         },
         {
           "data": "21/05/2026",
