@@ -53,7 +53,8 @@
       "Bash(Get-Content *)",
       "Bash(Select-Object -Property Name, FullName, PSIsContainer)",
       "Bash(Format-Table -AutoSize)",
-      "PowerShell(cd \"G:\\\\Meu Drive\\\\offtrade\"; Get-ChildItem -Force | Select-Object -Property Name, @{Name=\"Type\"; Expression={if \\($_.PSIsContainer\\) { \"Folder\" } else { \"File\" }}} | Format-Table -AutoSize)"
+      "PowerShell(cd \"G:\\\\Meu Drive\\\\offtrade\"; Get-ChildItem -Force | Select-Object -Property Name, @{Name=\"Type\"; Expression={if \\($_.PSIsContainer\\) { \"Folder\" } else { \"File\" }}} | Format-Table -AutoSize)",
+      "Bash(gh api *)"
     ]
   }
 }
