@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "05/06/2026 10:01",
+  "atualizado_em": "05/06/2026 11:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -33115,6 +33115,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 720,
           "valor": 17992.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "32448",
+          "cliente": "CISCO DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "fantasia": "",
+          "qt": 240,
+          "valor": 2373.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "32448",
+          "cliente": "CISCO DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "",
+          "qt": 600,
+          "valor": 7740.0
         },
         {
           "data": "01/06/2026",
