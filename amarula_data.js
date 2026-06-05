@@ -1,13 +1,13 @@
 const AMARULA_DATA = {
-  "atualizado_em": "05/06/2026 09:01",
+  "atualizado_em": "05/06/2026 10:01",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 27,
-  "total_positivacao": 65,
-  "total_faturamento": 58444.72,
+  "total_positivacao": 64,
+  "total_faturamento": 58272.92,
   "ranking_positivacao": [
     {
       "vendedor": "JORGE MACIEL",
@@ -34,11 +34,11 @@ const AMARULA_DATA = {
       "valor": 3
     },
     {
-      "vendedor": "JOÃO VITOR BRAGA",
-      "valor": 3
+      "vendedor": "FERNANDO CESAR",
+      "valor": 2
     },
     {
-      "vendedor": "FERNANDO CESAR",
+      "vendedor": "JOÃO VITOR BRAGA",
       "valor": 2
     },
     {
@@ -46,11 +46,11 @@ const AMARULA_DATA = {
       "valor": 2
     },
     {
-      "vendedor": "BEES",
+      "vendedor": "CARLOS ARTHUR NETO",
       "valor": 2
     },
     {
-      "vendedor": "CARLOS ARTHUR NETO",
+      "vendedor": "BEES",
       "valor": 2
     },
     {
@@ -168,10 +168,6 @@ const AMARULA_DATA = {
       "valor": 444.5
     },
     {
-      "vendedor": "JOÃO VITOR BRAGA",
-      "valor": 359.6
-    },
-    {
       "vendedor": "THIAGO NASCIMENTO",
       "valor": 358.6
     },
@@ -198,6 +194,10 @@ const AMARULA_DATA = {
     {
       "vendedor": "ROBERTO DOS SANTOS - OFF TRADE",
       "valor": 188.1
+    },
+    {
+      "vendedor": "JOÃO VITOR BRAGA",
+      "valor": 187.8
     },
     {
       "vendedor": "DIOGO RAPOSO",
