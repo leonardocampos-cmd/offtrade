@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "05/06/2026 11:01",
+  "atualizado_em": "05/06/2026 12:02",
   "data_rota": "05.06",
   "vendedores": [
     {
@@ -266,6 +266,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "471000287",
+          "numnota": "",
+          "data": "05/06/2026",
+          "cliente": "VALE FORMOSO IMPORTACAO E EXPORTACAO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 999.8,
+          "itens": [
+            {
+              "desc": "VEUVE CLICQUOT PUFFY 750 ML",
+              "qt": 2,
+              "val": 999.8
+            }
+          ]
+        },
         {
           "numped": "471000277",
           "numnota": "",
@@ -1916,7 +1936,53 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "378000403",
+          "numnota": "",
+          "data": "05/06/2026",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 439.1,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL SF AMORA",
+              "qt": 2,
+              "val": 65.52
+            },
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 2,
+              "val": 65.52
+            },
+            {
+              "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
+              "qt": 1,
+              "val": 23.96
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "378000398",
@@ -3789,6 +3855,46 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "379001057",
+          "numnota": "",
+          "data": "05/06/2026",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE COELHO DA ROCHA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 976.5,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 5,
+              "val": 99.3
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 10,
+              "val": 210.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 10,
+              "val": 288.0
+            },
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 5,
+              "val": 109.5
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 3,
+              "val": 269.7
+            }
+          ]
+        },
         {
           "numped": "379001030",
           "numnota": "",
