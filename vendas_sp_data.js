@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "05/06/2026 12:02",
+  "atualizado_em": "05/06/2026 14:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -45823,7 +45823,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32881",
           "cliente": "ALEXANDRION EXPERIENCE BRASIL LTDA.",
           "produto": "WHISKY YAMAZAKI DESTILERS RESERVE 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
+          "fantasia": "",
           "qt": 1,
           "valor": 699.0
         },
