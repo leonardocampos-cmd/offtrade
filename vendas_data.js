@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "05/06/2026 09:01",
+  "atualizado_em": "05/06/2026 10:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -52254,15 +52254,6 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 1,
           "valor": 134.9
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "91424",
-          "cliente": "KVSO I COM PROD FAR LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 6,
-          "valor": 185.4
         }
       ]
     },
@@ -71583,33 +71574,6 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 6,
           "valor": 94.8
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "95109",
-          "cliente": "ERS DEPOSITO DE BEBIDAS LTDA",
-          "produto": "LICOR BALLENA COCO 750ML",
-          "fantasia": "BALLENA",
-          "qt": 12,
-          "valor": 1210.8
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "95109",
-          "cliente": "ERS DEPOSITO DE BEBIDAS LTDA",
-          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-          "fantasia": "BALLENA",
-          "qt": 12,
-          "valor": 1270.8
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "95109",
-          "cliente": "ERS DEPOSITO DE BEBIDAS LTDA",
-          "produto": "LICOR BALLENA MORANGO 750 ML",
-          "fantasia": "BALLENA",
-          "qt": 12,
-          "valor": 1270.8
         },
         {
           "data": "02/06/2026",
