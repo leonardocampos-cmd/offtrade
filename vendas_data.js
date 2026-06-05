@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "05/06/2026 11:00",
+  "atualizado_em": "05/06/2026 12:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -121566,42 +121566,6 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 4,
           "valor": 261.12
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "93873",
-          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 4,
-          "valor": 261.12
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "93873",
-          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 4,
-          "valor": 261.12
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "93873",
-          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "93873",
-          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
         },
         {
           "data": "05/05/2026",
