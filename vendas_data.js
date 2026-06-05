@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "05/06/2026 12:01",
+  "atualizado_em": "05/06/2026 14:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -121739,35 +121739,6 @@ const VENDAS_DATA = {
           "valor": 2805.5
         }
       ],
-      "Jun/26": [
-        {
-          "data": "02/06/2026",
-          "codcli": "95068",
-          "cliente": "V CABRAL COMERCIO VAREJISTA LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 155.4
-        },
-        {
-          "data": "02/06/2026",
-          "codcli": "95068",
-          "cliente": "V CABRAL COMERCIO VAREJISTA LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 3,
-          "valor": 110.7
-        },
-        {
-          "data": "02/06/2026",
-          "codcli": "81289",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "produto": "AGUA MINERAL S/G GRF PET 1X10L MINALBA",
-          "fantasia": "",
-          "qt": 40,
-          "valor": 560.0
-        }
-      ],
       "Jan/26": [
         {
           "data": "21/01/2026",
@@ -125329,6 +125300,17 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 10,
           "valor": 1314.7
+        }
+      ],
+      "Jun/26": [
+        {
+          "data": "02/06/2026",
+          "codcli": "81289",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+          "produto": "AGUA MINERAL S/G GRF PET 1X10L MINALBA",
+          "fantasia": "",
+          "qt": 40,
+          "valor": 560.0
         }
       ]
     },
