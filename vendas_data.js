@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "05/06/2026 16:01",
+  "atualizado_em": "05/06/2026 17:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -36672,6 +36672,15 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
+          "data": "05/06/2026",
+          "codcli": "76424",
+          "cliente": "CRUZADA DA BARRA PADARIA LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "fantasia": "INTERFOOD",
+          "qt": 4,
+          "valor": 359.6
+        },
+        {
           "data": "02/06/2026",
           "codcli": "76248",
           "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
@@ -37165,6 +37174,42 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 70.08
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "76228",
+          "cliente": "LOJA DE CONVENIENCIA GLOBAL LTDA",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "76228",
+          "cliente": "LOJA DE CONVENIENCIA GLOBAL LTDA",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "76228",
+          "cliente": "LOJA DE CONVENIENCIA GLOBAL LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "76228",
+          "cliente": "LOJA DE CONVENIENCIA GLOBAL LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.48
         },
         {
           "data": "01/06/2026",
@@ -52022,6 +52067,15 @@ const VENDAS_DATA = {
       ],
       "Jun/26": [
         {
+          "data": "05/06/2026",
+          "codcli": "83952",
+          "cliente": "DELICIA DE COSTELA BAR E LANCHONETE LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
           "data": "03/06/2026",
           "codcli": "81818",
           "cliente": "BOTECO COPO FURADO LTDA",
@@ -52254,6 +52308,51 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 1,
           "valor": 134.9
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "92917",
+          "cliente": "RINAPEN MERCADO LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 5,
+          "valor": 358.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "92917",
+          "cliente": "RINAPEN MERCADO LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "92917",
+          "cliente": "RINAPEN MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "92917",
+          "cliente": "RINAPEN MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "92917",
+          "cliente": "RINAPEN MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68
         }
       ]
     },
@@ -87012,6 +87111,69 @@ const VENDAS_DATA = {
           "valor": 511.6
         },
         {
+          "data": "05/06/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 36,
+          "valor": 2768.4
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 54,
+          "valor": 4098.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 42,
+          "valor": 2935.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "MOET ROSE IMPERIAL 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 2846.46
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "62232",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 73.5
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "62232",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 69.9
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "62232",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 109.9
+        },
+        {
           "data": "01/06/2026",
           "codcli": "78141",
           "cliente": "MARCIO GARCIA SANCHES 01351218760",
@@ -106497,6 +106659,258 @@ const VENDAS_DATA = {
           "valor": 196.56
         },
         {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "NECTAR LARANJA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 68.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "NECTAR PESSEGO TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 68.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 68.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 207.84
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 157.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 4,
+          "valor": 111.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 143.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "BROWN",
+          "qt": 2,
+          "valor": 259.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "NECTAR GOIABA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 34.3
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "NECTAR LARANJA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 68.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "NECTAR MANGA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 34.3
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "NECTAR MARACUJA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 34.3
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "NECTAR PESSEGO TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 68.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 68.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 286.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 112.9
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 207.84
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 157.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 4,
+          "valor": 111.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 143.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "BROWN",
+          "qt": 2,
+          "valor": 259.8
+        },
+        {
           "data": "01/06/2026",
           "codcli": "92342",
           "cliente": "AUTO POSTO 3F LTDA",
@@ -120923,6 +121337,222 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 92.9
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94883",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING BOOSTER LIMAO 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94883",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94883",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94883",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94883",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94883",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94883",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94883",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94884",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94884",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING BOOSTER LIMAO 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94884",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94884",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94884",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94884",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94884",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94884",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94888",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94888",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94888",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING BOOSTER LIMAO 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94888",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94888",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94888",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94888",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94888",
+          "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
         }
       ]
     },
