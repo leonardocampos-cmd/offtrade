@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "05/06/2026 16:02",
+  "atualizado_em": "05/06/2026 17:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -33099,6 +33099,24 @@ const VENDAS_SP_DATA = {
           "valor": 2006.4
         },
         {
+          "data": "05/06/2026",
+          "codcli": "29294",
+          "cliente": "ADEGA SANTO ANTONIO DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1737.0
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "29294",
+          "cliente": "ADEGA SANTO ANTONIO DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1554.0
+        },
+        {
           "data": "02/06/2026",
           "codcli": "24030",
           "cliente": "A&S - COMERCIO DE BEBIDAS LTDA",
@@ -33115,6 +33133,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 720,
           "valor": 17992.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "30922",
+          "cliente": "PAMA COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 360,
+          "valor": 9324.0
         },
         {
           "data": "05/06/2026",
@@ -33205,6 +33232,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 4,
           "valor": 419.6
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "38625",
+          "cliente": "ADEGA VERSONI LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 5994.0
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "38625",
+          "cliente": "ADEGA VERSONI LTDA",
+          "produto": "WHISKY JACK DANIELS 375 ML - DEST",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 1078.08
         },
         {
           "data": "04/06/2026",
@@ -33952,6 +33997,42 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 36,
           "valor": 3596.4
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "49282",
+          "cliente": "SANTA VITTA GASTROBAR LTDA",
+          "produto": "XAROPE MONIN CURACAO BLUE 700 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "49282",
+          "cliente": "SANTA VITTA GASTROBAR LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 149.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "49282",
+          "cliente": "SANTA VITTA GASTROBAR LTDA",
+          "produto": "XAROPE MONIN ROM (POMEGRANATE) 700 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 299.4
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "49282",
+          "cliente": "SANTA VITTA GASTROBAR LTDA",
+          "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 299.4
         },
         {
           "data": "03/06/2026",
@@ -47289,6 +47370,24 @@ const VENDAS_SP_DATA = {
           "valor": 1006.8
         },
         {
+          "data": "05/06/2026",
+          "codcli": "47400",
+          "cliente": "SUPERMERCADOS BERGAMINI LTDA",
+          "produto": "WHISKY CHIVAS REGAL 18 ANOS 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 1739.4
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "47400",
+          "cliente": "SUPERMERCADOS BERGAMINI LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1006.8
+        },
+        {
           "data": "02/06/2026",
           "codcli": "47400",
           "cliente": "SUPERMERCADOS BERGAMINI LTDA",
@@ -47332,6 +47431,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 156,
           "valor": 8564.4
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "48007",
+          "cliente": "ANDORINHA SUPERMERCADO LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 324,
+          "valor": 17787.6
         },
         {
           "data": "03/06/2026",
@@ -47905,6 +48013,33 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 125.4
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "50719",
+          "cliente": "BROTHERS BEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "",
+          "qt": 90,
+          "valor": 1849.5
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "50719",
+          "cliente": "BROTHERS BEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "",
+          "qt": 150,
+          "valor": 3081.0
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "50719",
+          "cliente": "BROTHERS BEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "",
+          "qt": 90,
+          "valor": 1848.6
         }
       ],
       "Mai/26": [
@@ -63265,6 +63400,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 599.4
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "50055",
+          "cliente": "24.467.572 JOSE VIEIRA DA SILVA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 310.8
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "50055",
+          "cliente": "24.467.572 JOSE VIEIRA DA SILVA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 256.08
         }
       ],
       "Mai/26": [
