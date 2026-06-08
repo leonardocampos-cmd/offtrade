@@ -98,6 +98,7 @@
         <th>CNPJ</th>
         <th>Razão Social</th>
         <th>Fantasia</th>
+        <th>Ramo</th>
         <th>Bairro</th>
         <th>Cidade</th>
         <th>UF</th>
@@ -144,7 +145,7 @@ function _filtrados() {
   return DATA.clientes.filter(c => {
     const matchEstado = !estado || c.estado === estado;
     const matchRca    = !rca || c.codusur1 === rca || c.codusur2 === rca;
-    const matchBusca  = !busca || [c.razao, c.fantasia, c.cnpj, c.codcli]
+    const matchBusca  = !busca || [c.razao, c.fantasia, c.cnpj, c.codcli, c.ramo]
       .some(v => v && v.toLowerCase().includes(busca));
     return matchEstado && matchRca && matchBusca;
   });
@@ -166,6 +167,7 @@ function aplicarFiltro() {
       <td class="cnpj">${_fmtCnpj(c.cnpj)}</td>
       <td>${_esc(c.razao)}</td>
       <td style="color:var(--muted)">${_esc(c.fantasia)}</td>
+      <td style="color:var(--muted);font-size:.78rem">${_esc(c.ramo)}</td>
       <td style="color:var(--muted)">${_esc(c.bairro)}</td>
       <td style="color:var(--muted)">${_esc(c.cidade)}</td>
       <td style="color:var(--muted);font-size:.78rem;font-weight:700">${c.estado || ''}</td>
@@ -186,12 +188,13 @@ function _fmtCnpj(v) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Codigo','CNPJ','Razao Social','Fantasia','Bairro','Cidade','UF','Cod RCA1','RCA1','Cod RCA2','RCA2'];
+  const header = ['Codigo','CNPJ','Razao Social','Fantasia','Ramo','Bairro','Cidade','UF','Cod RCA1','RCA1','Cod RCA2','RCA2'];
   const linhas = lista.map(c => [
     c.codcli,
     c.cnpj,
     c.razao,
     c.fantasia,
+    c.ramo,
     c.bairro,
     c.cidade,
     c.estado,
