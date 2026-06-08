@@ -1,10 +1,10 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "05/06/2026 17:02",
+  "atualizado_em": "08/06/2026 09:09",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
-  "total_clientes": 53,
-  "valor_total_outros": 3613258.95,
+  "total_clientes": 49,
+  "valor_total_outros": 2912234.27,
   "clientes": [
     {
       "codcli": "32232",
@@ -566,288 +566,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "WHISKY JAMESON 750ML",
               "FANTASIA": "PERNOD",
               "VALOR": 27139.32
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "codcli": "23019",
-      "cliente": "MUNDO MIX MERCADO ATACADISTA DE BEBIDAS LTDA",
-      "ultima_compra_rca": "30/04/2026",
-      "valor_jan_abr": 45871.08,
-      "meses_ativos": 3,
-      "tambem_comprou_588": true,
-      "total_mai_outros": 347260.38,
-      "por_vendedor": [
-        {
-          "vendedor": "RC",
-          "codusur": "37",
-          "total": 347260.38,
-          "itens": [
-            {
-              "DATA": "07/05/2026",
-              "PRODUTO": "GIN TANQUERAY BOSSA NOVA  700 ML",
-              "FANTASIA": NaN,
-              "VALOR": 58740.0
-            },
-            {
-              "DATA": "11/05/2026",
-              "PRODUTO": "RED BULL AMORA SF 24X250ML",
-              "FANTASIA": "RED BULL",
-              "VALOR": 1821.6
-            },
-            {
-              "DATA": "11/05/2026",
-              "PRODUTO": "RED BULL MELANCIA 250ML CX C/24",
-              "FANTASIA": "RED BULL",
-              "VALOR": 18216.0
-            },
-            {
-              "DATA": "11/05/2026",
-              "PRODUTO": "RED BULL MORANGO PESSEGO 24X250ML",
-              "FANTASIA": "RED BULL",
-              "VALOR": 26231.04
-            },
-            {
-              "DATA": "11/05/2026",
-              "PRODUTO": "RED BULL CEREJA 24X250ML",
-              "FANTASIA": "RED BULL",
-              "VALOR": 26231.04
-            },
-            {
-              "DATA": "16/05/2026",
-              "PRODUTO": "VODKA GREY GOOSE LA POIRE 750 ML",
-              "FANTASIA": NaN,
-              "VALOR": 17262.0
-            },
-            {
-              "DATA": "16/05/2026",
-              "PRODUTO": "VODKA GREY GOOSE LE CITRON 750ML",
-              "FANTASIA": NaN,
-              "VALOR": 11508.0
-            },
-            {
-              "DATA": "16/05/2026",
-              "PRODUTO": "VODKA GREY GOOSE ORIGINAL 750 ML",
-              "FANTASIA": NaN,
-              "VALOR": 5754.0
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "VODKA ABSOLUT TABASCO 750ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3114.0
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "VODKA ABSOLUT VANILLA - 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3114.0
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "VODKA ABSOLUT RASPBERRY - 750ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 12456.0
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "WHISKY JACK DANIELS 375 ML",
-              "FANTASIA": NaN,
-              "VALOR": 3181.26
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "WHISKY JACK DANIELS 375 ML - DEST",
-              "FANTASIA": NaN,
-              "VALOR": 8598.0
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "JACK DANIELS BLACKBERRY 1L",
-              "FANTASIA": NaN,
-              "VALOR": 38376.0
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "JACK DANIELS BONDED TRIPLE MASH 700ML",
-              "FANTASIA": NaN,
-              "VALOR": 1918.8
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "WHISKY JACK DANIELS FIRE 1000 ML",
-              "FANTASIA": NaN,
-              "VALOR": 5700.0
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "WHISKY JACK DANIELS BONDED RYE 700ML",
-              "FANTASIA": NaN,
-              "VALOR": 1918.8
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "WHISKY JACK DANIELS SINGLE BARREL 750ML",
-              "FANTASIA": NaN,
-              "VALOR": 2398.8
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "VODKA ABSOLUT CITRON - 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3114.0
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "WHISKY JACK DANIELS 1L",
-              "FANTASIA": NaN,
-              "VALOR": 45120.0
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "WHISKY GENTLEMAN JACK 1L",
-              "FANTASIA": NaN,
-              "VALOR": 1666.8
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "RED BULL 250ML CAIXA C/ 24",
-              "FANTASIA": "RED BULL",
-              "VALOR": 25885.44
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "WHISKY JACK DANIELS BONDED 700ML",
-              "FANTASIA": NaN,
-              "VALOR": 1918.8
-            },
-            {
-              "DATA": "28/05/2026",
-              "PRODUTO": "WHISKEY JACK DANIELS HONEY 1 L",
-              "FANTASIA": NaN,
-              "VALOR": 23016.0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "codcli": "39361",
-      "cliente": "BRASILEIRAO ATACADO COMERCIO DE PRODUTOS ALIMENTICIOS SOCIED",
-      "ultima_compra_rca": "09/04/2026",
-      "valor_jan_abr": 36161.02,
-      "meses_ativos": 3,
-      "tambem_comprou_588": false,
-      "total_mai_outros": 286202.76,
-      "por_vendedor": [
-        {
-          "vendedor": "RC",
-          "codusur": "37",
-          "total": 286202.76,
-          "itens": [
-            {
-              "DATA": "21/05/2026",
-              "PRODUTO": "VODKA ABSOLUT RASPBERRY - 750ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 2491.2
-            },
-            {
-              "DATA": "21/05/2026",
-              "PRODUTO": "GIN TANQUERAY BOSSA NOVA  700 ML",
-              "FANTASIA": NaN,
-              "VALOR": 11868.0
-            },
-            {
-              "DATA": "21/05/2026",
-              "PRODUTO": "RUM MALIBU 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 1022.4
-            },
-            {
-              "DATA": "21/05/2026",
-              "PRODUTO": "WHISKY ROYAL SALUTE 700 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3354.0
-            },
-            {
-              "DATA": "21/05/2026",
-              "PRODUTO": "VODKA ABSOLUT VANILLA - 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 1868.4
-            },
-            {
-              "DATA": "21/05/2026",
-              "PRODUTO": "VODKA ABSOLUT CITRON - 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 1245.6
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "LIQUEUR JAGERMEISTER 700 ML",
-              "FANTASIA": NaN,
-              "VALOR": 551.4
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "AMARULA CREAM 12X750ML +6 COPOS DUBAI",
-              "FANTASIA": NaN,
-              "VALOR": 2039.76
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "CONHAQUE DOMECQ 1L",
-              "FANTASIA": "PERNOD",
-              "VALOR": 12432.0
-            },
-            {
-              "DATA": "28/05/2026",
-              "PRODUTO": "VODKA ABSOLUT RASPBERRY - 750ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 34320.0
-            },
-            {
-              "DATA": "28/05/2026",
-              "PRODUTO": "VODKA ABSOLUT 1 LITRO",
-              "FANTASIA": "PERNOD",
-              "VALOR": 42000.0
-            },
-            {
-              "DATA": "28/05/2026",
-              "PRODUTO": "GIN BEEFEATER 750ML - DEST",
-              "FANTASIA": "PERNOD",
-              "VALOR": 47880.0
-            },
-            {
-              "DATA": "28/05/2026",
-              "PRODUTO": "BEEFEATER PINK 700ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 41040.0
-            },
-            {
-              "DATA": "28/05/2026",
-              "PRODUTO": "WHISKY ROYAL SALUTE 700 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 17370.0
-            },
-            {
-              "DATA": "28/05/2026",
-              "PRODUTO": "VODKA ABSOLUT CITRON - 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3120.0
-            },
-            {
-              "DATA": "28/05/2026",
-              "PRODUTO": "CONHAQUE DOMECQ 1L",
-              "FANTASIA": "PERNOD",
-              "VALOR": 60480.0
-            },
-            {
-              "DATA": "28/05/2026",
-              "PRODUTO": "VODKA ABSOLUT VANILLA - 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3120.0
             }
           ]
         }
@@ -1724,72 +1442,6 @@ const CLIENTES_588_DATA = {
       ]
     },
     {
-      "codcli": "23852",
-      "cliente": "IRMAOS FELIX COMERCIAL DE ALIMENTOS E BEBIDAS LTDA",
-      "ultima_compra_rca": "18/03/2026",
-      "valor_jan_abr": 15048.0,
-      "meses_ativos": 2,
-      "tambem_comprou_588": false,
-      "total_mai_outros": 66607.24,
-      "por_vendedor": [
-        {
-          "vendedor": "RC",
-          "codusur": "37",
-          "total": 66607.24,
-          "itens": [
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "WHISKY JIM BEAM WHITE 1L",
-              "FANTASIA": "BEAM SUNTORY BRASIL",
-              "VALOR": 3594.0
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "CONHAQUE DOMECQ 1L",
-              "FANTASIA": "PERNOD",
-              "VALOR": 43512.0
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "LIQUEUR JAGERMEISTER 700 ML",
-              "FANTASIA": NaN,
-              "VALOR": 551.4
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "RUM BACARDI GOLD 980ML",
-              "FANTASIA": NaN,
-              "VALOR": 1256.4
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "RUM BACARDI CARTA BLANCA 980ML",
-              "FANTASIA": NaN,
-              "VALOR": 1259.64
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "WHISKY JIM BEAM APPLE 1L",
-              "FANTASIA": "BEAM SUNTORY BRASIL",
-              "VALOR": 119.8
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "WHISKY BALLANTINE'S FINEST 1L",
-              "FANTASIA": "PERNOD",
-              "VALOR": 12720.0
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "WHISKY JIM BEAM HONEY 1L",
-              "FANTASIA": "BEAM SUNTORY BRASIL",
-              "VALOR": 3594.0
-            }
-          ]
-        }
-      ]
-    },
-    {
       "codcli": "39396",
       "cliente": "BOLSAO DISTRIBUIDORA DE BEBIDAS LTDA",
       "ultima_compra_rca": "14/04/2026",
@@ -2603,13 +2255,43 @@ const CLIENTES_588_DATA = {
       ]
     },
     {
+      "codcli": "46395",
+      "cliente": "FABIANO MARQUES BATISTA LTDA",
+      "ultima_compra_rca": "07/03/2026",
+      "valor_jan_abr": 18588.0,
+      "meses_ativos": 2,
+      "tambem_comprou_588": false,
+      "total_mai_outros": 19765.2,
+      "por_vendedor": [
+        {
+          "vendedor": "MARCELO PEREIRA - OFF TRADE",
+          "codusur": "473",
+          "total": 19765.2,
+          "itens": [
+            {
+              "DATA": "19/05/2026",
+              "PRODUTO": "CONHAQUE DOMECQ 1L",
+              "FANTASIA": "PERNOD",
+              "VALOR": 7770.0
+            },
+            {
+              "DATA": "27/05/2026",
+              "PRODUTO": "CONHAQUE DOMECQ 1L",
+              "FANTASIA": "PERNOD",
+              "VALOR": 11995.2
+            }
+          ]
+        }
+      ]
+    },
+    {
       "codcli": "25880",
       "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
       "ultima_compra_rca": "26/03/2026",
       "valor_jan_abr": 15048.0,
       "meses_ativos": 2,
       "tambem_comprou_588": false,
-      "total_mai_outros": 19950.0,
+      "total_mai_outros": 19689.3,
       "por_vendedor": [
         {
           "vendedor": "SUELY SANTOS - OFF TRADE",
@@ -2693,49 +2375,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "WHISKY PASSPORT 1L",
               "FANTASIA": "PERNOD",
               "VALOR": 1220.4
-            }
-          ]
-        },
-        {
-          "vendedor": "BEES",
-          "codusur": "437",
-          "total": 260.7,
-          "itens": [
-            {
-              "DATA": "25/05/2026",
-              "PRODUTO": "CHANDON PASSION ROSE 750ML",
-              "FANTASIA": NaN,
-              "VALOR": 260.7
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "codcli": "46395",
-      "cliente": "FABIANO MARQUES BATISTA LTDA",
-      "ultima_compra_rca": "07/03/2026",
-      "valor_jan_abr": 18588.0,
-      "meses_ativos": 2,
-      "tambem_comprou_588": false,
-      "total_mai_outros": 19765.2,
-      "por_vendedor": [
-        {
-          "vendedor": "MARCELO PEREIRA - OFF TRADE",
-          "codusur": "473",
-          "total": 19765.2,
-          "itens": [
-            {
-              "DATA": "19/05/2026",
-              "PRODUTO": "CONHAQUE DOMECQ 1L",
-              "FANTASIA": "PERNOD",
-              "VALOR": 7770.0
-            },
-            {
-              "DATA": "27/05/2026",
-              "PRODUTO": "CONHAQUE DOMECQ 1L",
-              "FANTASIA": "PERNOD",
-              "VALOR": 11995.2
             }
           ]
         }
@@ -3564,30 +3203,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "LICOR 43 DIEGO ZAMORA 700ML",
               "FANTASIA": NaN,
               "VALOR": 701.4
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "codcli": "49135",
-      "cliente": "DISTRIBUIDORA DE BEBIDAS CARREIRO E GORETE LTDA",
-      "ultima_compra_rca": "19/03/2026",
-      "valor_jan_abr": 7524.0,
-      "meses_ativos": 1,
-      "tambem_comprou_588": false,
-      "total_mai_outros": 693.6,
-      "por_vendedor": [
-        {
-          "vendedor": "BEES",
-          "codusur": "437",
-          "total": 693.6,
-          "itens": [
-            {
-              "DATA": "18/05/2026",
-              "PRODUTO": "CONHAQUE DOMECQ 1L",
-              "FANTASIA": "PERNOD",
-              "VALOR": 693.6
             }
           ]
         }
