@@ -18,6 +18,7 @@ def _query(schema):
             NVL(C.FANTASIA, '')   AS FANTASIA,
             NVL(C.BAIRROENT, '')  AS BAIRRO,
             NVL(C.MUNICENT, '')   AS CIDADE,
+            NVL(C.ESTENT, '')     AS ESTADO,
             NVL(C.CGCENT, '')     AS CNPJ,
             C.CODUSUR1,
             C.CODUSUR2,
@@ -30,13 +31,6 @@ def _query(schema):
                OR U1.NOME = 'W.S' OR U2.NOME = 'W.S')
     """
 
-def _estado(nome_usur1, nome_usur2):
-    """Deriva estado pelo nome do vendedor (padrão: sufixo SP = São Paulo)."""
-    import re
-    for nome in (nome_usur1, nome_usur2):
-        if re.search(r'\bSP\b', nome, re.IGNORECASE):
-            return 'SP'
-    return 'RJ'
 
 _sources = [
     ("CRC",     engine,         None),
@@ -68,6 +62,7 @@ df['CLIENTE']    = df['CLIENTE'].fillna('').str.strip()
 df['FANTASIA']   = df['FANTASIA'].fillna('').str.strip()
 df['BAIRRO']     = df['BAIRRO'].fillna('').str.strip()
 df['CIDADE']     = df['CIDADE'].fillna('').str.strip()
+df['ESTADO']     = df['ESTADO'].fillna('').str.strip().str.upper()
 df['CNPJ']       = df['CNPJ'].fillna('').str.strip()
 df['NOME_USUR1'] = df['NOME_USUR1'].fillna('').str.strip()
 df['NOME_USUR2'] = df['NOME_USUR2'].fillna('').str.strip()
@@ -91,7 +86,7 @@ for _, r in df.iterrows():
         'bairro':     r['BAIRRO'],
         'cidade':     r['CIDADE'],
         'cnpj':       r['CNPJ'],
-        'estado':     _estado(n1, n2),
+        'estado':     r['ESTADO'] or 'RJ',
         'codusur1':   str(int(r['CODUSUR1'])) if pd.notna(r['CODUSUR1']) else '',
         'nome_usur1': n1,
         'codusur2':   str(int(r['CODUSUR2'])) if pd.notna(r['CODUSUR2']) else '',
