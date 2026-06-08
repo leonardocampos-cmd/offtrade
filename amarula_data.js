@@ -1,5 +1,5 @@
 const AMARULA_DATA = {
-  "atualizado_em": "08/06/2026 17:50",
+  "atualizado_em": "08/06/2026 18:01",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
@@ -7,7 +7,7 @@ const AMARULA_DATA = {
   "premio": 3000,
   "total_vendedores": 25,
   "total_positivacao": 68,
-  "total_faturamento": 34632.76,
+  "total_faturamento": 34721.66,
   "ranking_positivacao": [
     {
       "vendedor": "JORGE MACIEL",
@@ -141,7 +141,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "INGRID ARAUJO",
-      "valor": 622.3
+      "valor": 711.2
     },
     {
       "vendedor": "NATALI OLIVEIRA",
