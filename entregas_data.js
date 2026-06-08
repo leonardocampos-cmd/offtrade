@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "08/06/2026 13:59",
+  "atualizado_em": "08/06/2026 14:01",
   "data_rota": "08.06",
   "vendedores": [
     {
@@ -1325,6 +1325,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "153001187",
+          "numnota": "",
+          "data": "08/06/2026",
+          "cliente": "SOLAMARIS DO RIO FORNECEDORA DE FRUTAS E LEGUMES LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "pagamento de descarga no valor de R$22,00 por pallets",
+          "total": 1684.8,
+          "itens": [
+            {
+              "desc": "SUCO MACA 100% DO BEM 24X200ML",
+              "qt": 30,
+              "val": 1684.8
+            }
+          ]
+        },
         {
           "numped": "153001182",
           "numnota": "",
@@ -3346,6 +3366,31 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "159004799",
+          "numnota": "",
+          "data": "08/06/2026",
+          "cliente": "ANDRADE MARTINS RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 687.2,
+          "itens": [
+            {
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 6,
+              "val": 377.4
+            },
+            {
+              "desc": "VODCA BAM CIROC RED BERRY 750 ML",
+              "qt": 2,
+              "val": 309.8
+            }
+          ]
+        },
+        {
           "numped": "159004801",
           "numnota": "",
           "data": "08/06/2026",
@@ -3396,6 +3441,26 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "159004803",
+          "numnota": "",
+          "data": "08/06/2026",
+          "cliente": "R NICOLI EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1099.0,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLUE LABEL 750 ML",
+              "qt": 1,
+              "val": 1099.0
+            }
+          ]
+        },
+        {
           "numped": "159004800",
           "numnota": "",
           "data": "08/06/2026",
@@ -3417,31 +3482,6 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY CHIVAS XV GOLD 700ML",
               "qt": 1,
               "val": 179.9
-            }
-          ]
-        },
-        {
-          "numped": "159004799",
-          "numnota": "",
-          "data": "08/06/2026",
-          "cliente": "ANDRADE MARTINS RESTAURANTE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 687.2,
-          "itens": [
-            {
-              "desc": "VODKA ABSOLUT 1L",
-              "qt": 6,
-              "val": 377.4
-            },
-            {
-              "desc": "VODCA BAM CIROC RED BERRY 750 ML",
-              "qt": 2,
-              "val": 309.8
             }
           ]
         },
