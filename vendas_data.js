@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/06/2026 14:01",
+  "atualizado_em": "08/06/2026 14:59",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -52202,6 +52202,69 @@ const VENDAS_DATA = {
       ],
       "Jun/26": [
         {
+          "data": "08/06/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 15,
+          "valor": 400.17
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 3,
+          "valor": 95.67
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 92.7
+        },
+        {
           "data": "05/06/2026",
           "codcli": "83952",
           "cliente": "DELICIA DE COSTELA BAR E LANCHONETE LTDA",
@@ -87462,6 +87525,87 @@ const VENDAS_DATA = {
           "valor": 464.5
         },
         {
+          "data": "08/06/2026",
+          "codcli": "78947",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 10,
+          "valor": 630.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "78947",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 100.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "78947",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 2,
+          "valor": 219.8
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "78947",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "78947",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "78947",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "78947",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 132.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "78947",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 132.6
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "78947",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 153.8
+        },
+        {
           "data": "01/06/2026",
           "codcli": "81163",
           "cliente": "POP CONVENIENCIA E MERCADO LTDA",
@@ -87750,6 +87894,42 @@ const VENDAS_DATA = {
           "valor": 1184.4
         },
         {
+          "data": "08/06/2026",
+          "codcli": "83071",
+          "cliente": "PADARIA MERCADINHO MENDES LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 10,
+          "valor": 639.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "83071",
+          "cliente": "PADARIA MERCADINHO MENDES LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "KAISER",
+          "qt": 3,
+          "valor": 383.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "83071",
+          "cliente": "PADARIA MERCADINHO MENDES LTDA",
+          "produto": "IMPERADOR 900ML",
+          "fantasia": "COMARY",
+          "qt": 6,
+          "valor": 59.94
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "83071",
+          "cliente": "PADARIA MERCADINHO MENDES LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 127.0
+        },
+        {
           "data": "04/06/2026",
           "codcli": "86239",
           "cliente": "MERCADO BELOT LTDA",
@@ -87793,6 +87973,15 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 233.76
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "86257",
+          "cliente": "MINI MERCADO BOA OPCAO LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 419.4
         },
         {
           "data": "02/06/2026",
@@ -109484,25 +109673,7 @@ const VENDAS_DATA = {
       ],
       "Jun/26": [
         {
-          "data": "01/06/2026",
-          "codcli": "2978",
-          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
-          "produto": "WHISKY YAMAZAKI 12Y 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 6,
-          "valor": 6299.4
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "2978",
-          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "fantasia": "HENNESSY",
-          "qt": 108,
-          "valor": 7549.2
-        },
-        {
-          "data": "01/06/2026",
+          "data": "08/06/2026",
           "codcli": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "produto": "CHANDON RESERVE BRUT ROSE 750ML",
@@ -109511,34 +109682,25 @@ const VENDAS_DATA = {
           "valor": 7191.0
         },
         {
-          "data": "01/06/2026",
+          "data": "08/06/2026",
           "codcli": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "produto": "GIN ROKU 700ML",
           "fantasia": "BEAM SUNTORY",
           "qt": 12,
-          "valor": 1849.11
+          "valor": 1411.2
         },
         {
-          "data": "01/06/2026",
+          "data": "08/06/2026",
           "codcli": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
           "fantasia": "BEAM SUNTORY",
           "qt": 180,
-          "valor": 20514.54
+          "valor": 16920.0
         },
         {
-          "data": "01/06/2026",
-          "codcli": "2978",
-          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
-          "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 8026.8
-        },
-        {
-          "data": "01/06/2026",
+          "data": "08/06/2026",
           "codcli": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "produto": "TERRAZAS RESERVA CAB SAUVIGNON 750 ML",
@@ -109547,7 +109709,7 @@ const VENDAS_DATA = {
           "valor": 1473.3
         },
         {
-          "data": "01/06/2026",
+          "data": "08/06/2026",
           "codcli": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "produto": "TERRAZAS RESERVA SYRAH 750 ML",
@@ -109556,13 +109718,40 @@ const VENDAS_DATA = {
           "valor": 1473.3
         },
         {
-          "data": "01/06/2026",
+          "data": "08/06/2026",
           "codcli": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "produto": "WHISKY JIM BEAM WHITE 1L",
           "fantasia": "BEAM SUNTORY",
           "qt": 120,
-          "valor": 13676.36
+          "valor": 11280.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "2978",
+          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
+          "produto": "WHISKY YAMAZAKI 12Y 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 6,
+          "valor": 6299.4
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "2978",
+          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 108,
+          "valor": 7549.2
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "2978",
+          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
+          "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 8026.8
         }
       ],
       "Jan/26": [
