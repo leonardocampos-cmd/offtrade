@@ -186,7 +186,7 @@ function _fmtCnpj(v) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Codigo','CNPJ','Razao Social','Fantasia','Bairro','Cidade','Cod RCA1','RCA1','Cod RCA2','RCA2'];
+  const header = ['Codigo','CNPJ','Razao Social','Fantasia','Bairro','Cidade','UF','Cod RCA1','RCA1','Cod RCA2','RCA2'];
   const linhas = lista.map(c => [
     c.codcli,
     c.cnpj,
@@ -194,6 +194,7 @@ function exportarCSV() {
     c.fantasia,
     c.bairro,
     c.cidade,
+    c.estado,
     c.codusur1,
     c.nome_usur1.replace(' - OFF TRADE',''),
     c.codusur2,
