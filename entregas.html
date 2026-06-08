@@ -251,7 +251,21 @@
     <div class="vendedor-nome" id="header-vendedor" style="display:none"></div>
   </div>
   <select id="vendedor-select" onchange="renderVendedor()" style="display:none"></select>
+  <a id="btn-voltar-metas" href="#"
+     style="display:none;background:#3b82f6;color:#fff;padding:8px 14px;border-radius:8px;font-size:.85rem;font-weight:600;text-decoration:none">
+    ← Minhas Metas
+  </a>
 </header>
+<script>
+(function () {
+  const v = new URLSearchParams(location.search).get('v');
+  if (v) {
+    const btn = document.getElementById('btn-voltar-metas');
+    btn.href = 'metas.html?vendedor=' + encodeURIComponent(v);
+    btn.style.display = 'inline-block';
+  }
+})();
+</script>
 
 <div class="summary">
   <div class="badge badge-rota">
