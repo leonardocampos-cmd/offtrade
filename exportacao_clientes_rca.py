@@ -16,9 +16,9 @@ def _query(schema):
             C.CODCLI,
             C.CLIENTE,
             NVL(C.FANTASIA, '')   AS FANTASIA,
-            NVL(C.BAIRROENT, '') AS BAIRRO,
-            NVL(C.MUNENT, '')    AS CIDADE,
-            NVL(C.CGCENT, '')    AS CNPJ,
+            NVL(C.BAIRROENT, '')  AS BAIRRO,
+            NVL(C.MUNICENT, '')   AS CIDADE,
+            NVL(C.CGCENT, '')     AS CNPJ,
             C.CODUSUR1,
             C.CODUSUR2,
             NVL(U1.NOME, '')     AS NOME_USUR1,
@@ -26,8 +26,17 @@ def _query(schema):
         FROM {s}.PCCLIENT C
         LEFT JOIN {s}.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
         LEFT JOIN {s}.PCUSUARI U2 ON C.CODUSUR2 = U2.CODUSUR
-        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%')
+        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%'
+               OR U1.NOME = 'W.S' OR U2.NOME = 'W.S')
     """
+
+def _estado(nome_usur1, nome_usur2):
+    """Deriva estado pelo nome do vendedor (padrão: sufixo SP = São Paulo)."""
+    import re
+    for nome in (nome_usur1, nome_usur2):
+        if re.search(r'\bSP\b', nome, re.IGNORECASE):
+            return 'SP'
+    return 'RJ'
 
 _sources = [
     ("CRC",     engine,         None),
@@ -73,6 +82,8 @@ df = df.drop_duplicates(subset=['_KEY'])
 # Monta lista de clientes
 clientes = []
 for _, r in df.iterrows():
+    n1 = r['NOME_USUR1']
+    n2 = r['NOME_USUR2']
     clientes.append({
         'codcli':     str(int(r['CODCLI'])) if pd.notna(r['CODCLI']) else '',
         'razao':      r['CLIENTE'],
@@ -80,10 +91,11 @@ for _, r in df.iterrows():
         'bairro':     r['BAIRRO'],
         'cidade':     r['CIDADE'],
         'cnpj':       r['CNPJ'],
+        'estado':     _estado(n1, n2),
         'codusur1':   str(int(r['CODUSUR1'])) if pd.notna(r['CODUSUR1']) else '',
-        'nome_usur1': r['NOME_USUR1'],
+        'nome_usur1': n1,
         'codusur2':   str(int(r['CODUSUR2'])) if pd.notna(r['CODUSUR2']) else '',
-        'nome_usur2': r['NOME_USUR2'],
+        'nome_usur2': n2,
     })
 
 clientes.sort(key=lambda x: x['razao'])

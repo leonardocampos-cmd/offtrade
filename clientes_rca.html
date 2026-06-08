@@ -77,6 +77,11 @@
 </header>
 
 <div class="controls">
+  <select id="sel-estado" onchange="aplicarFiltro()">
+    <option value="">Todos os Estados</option>
+    <option value="RJ">RJ</option>
+    <option value="SP">SP</option>
+  </select>
   <select id="sel-rca" onchange="aplicarFiltro()">
     <option value="">Todos os RCAs</option>
   </select>
@@ -95,6 +100,7 @@
         <th>Fantasia</th>
         <th>Bairro</th>
         <th>Cidade</th>
+        <th>UF</th>
         <th>RCA 1</th>
         <th>RCA 2</th>
       </tr>
@@ -132,13 +138,15 @@ if (!DATA) {
 
 function _filtrados() {
   if (!DATA) return [];
-  const rca   = document.getElementById('sel-rca').value.trim();
-  const busca = document.getElementById('busca').value.trim().toLowerCase();
+  const estado = document.getElementById('sel-estado').value.trim();
+  const rca    = document.getElementById('sel-rca').value.trim();
+  const busca  = document.getElementById('busca').value.trim().toLowerCase();
   return DATA.clientes.filter(c => {
-    const matchRca = !rca || c.codusur1 === rca || c.codusur2 === rca;
-    const matchBusca = !busca || [c.razao, c.fantasia, c.cnpj, c.codcli]
+    const matchEstado = !estado || c.estado === estado;
+    const matchRca    = !rca || c.codusur1 === rca || c.codusur2 === rca;
+    const matchBusca  = !busca || [c.razao, c.fantasia, c.cnpj, c.codcli]
       .some(v => v && v.toLowerCase().includes(busca));
-    return matchRca && matchBusca;
+    return matchEstado && matchRca && matchBusca;
   });
 }
 
@@ -160,6 +168,7 @@ function aplicarFiltro() {
       <td style="color:var(--muted)">${_esc(c.fantasia)}</td>
       <td style="color:var(--muted)">${_esc(c.bairro)}</td>
       <td style="color:var(--muted)">${_esc(c.cidade)}</td>
+      <td style="color:var(--muted);font-size:.78rem;font-weight:700">${c.estado || ''}</td>
       <td>${c.codusur1 ? `<span class="rca-badge">${c.codusur1} · ${_esc(c.nome_usur1.replace(' - OFF TRADE',''))}</span>` : ''}</td>
       <td>${c.codusur2 ? `<span class="rca-badge">${c.codusur2} · ${_esc(c.nome_usur2.replace(' - OFF TRADE',''))}</span>` : ''}</td>
     </tr>`).join('');
