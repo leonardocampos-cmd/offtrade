@@ -71,8 +71,11 @@ for _s, _e, _pfx, _fe, _ff in [
     except Exception as _ex:
         print(f"[AVISO] amarula_{_s} falhou ({str(_ex)[:80]}) — ignorado")
 
+EXCLUIR_VENDEDORES = {"RC", "VENDEDOR 09", "BEES"}
+
 df = pd.concat(_parts_am, ignore_index=True)
 df['VALOR'] = pd.to_numeric(df['VALOR'], errors='coerce').fillna(0)
+df = df[df['VENDEDOR'].map(_nome).apply(lambda v: v not in EXCLUIR_VENDEDORES)].copy()
 
 if df.empty:
     ranking_pos       = []

@@ -103,7 +103,12 @@ df_maio_588   = carregar(Q_MAIO_588,     "vendas_maio_588")
 codclis_fid  = set(df_fid['CODCLI'].dropna().unique())
 codclis_588_mai = set(df_maio_588['CODCLI'].dropna().unique())
 
-df_migrados = df_maio_out[df_maio_out['CODCLI'].isin(codclis_fid)].copy()
+EXCLUIR_VENDEDORES = {"RC", "VENDEDOR 09", "BEES"}
+
+df_migrados = df_maio_out[
+    df_maio_out['CODCLI'].isin(codclis_fid) &
+    ~df_maio_out['VENDEDOR'].isin(EXCLUIR_VENDEDORES)
+].copy()
 df_migrados['VALOR'] = pd.to_numeric(df_migrados['VALOR'], errors='coerce').fillna(0).round(2)
 
 df_fid['VALOR_JAN_ABR']     = pd.to_numeric(df_fid['VALOR_JAN_ABR'],     errors='coerce').fillna(0).round(2)
