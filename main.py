@@ -56,7 +56,22 @@ def main():
             print("[AVISO] exportacao_sp falhou — SP ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("7/9 - Clientes migrados RCA 588 (clientes_588_data.js)")
+        step("7/9 - Base de clientes por RCA (clientes_rca_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_clientes_rca.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_clientes_rca falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_clientes_rca falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
+        step("8/9 - Clientes migrados RCA 588 (clientes_588_data.js)")
         try:
             import subprocess, sys as _sys
             result = subprocess.run(
