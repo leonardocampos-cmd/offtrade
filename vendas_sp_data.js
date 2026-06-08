@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "08/06/2026 16:01",
+  "atualizado_em": "08/06/2026 17:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -24734,15 +24734,6 @@ const VENDAS_SP_DATA = {
           "valor": 658.8
         },
         {
-          "data": "28/04/2026",
-          "codcli": "40824",
-          "cliente": "PARCEIRAO DAS BEBIDAS LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 2373.36
-        },
-        {
           "data": "10/04/2026",
           "codcli": "40862",
           "cliente": "GP MAXX COMERCIO E SERVICOS LTDA",
@@ -34071,6 +34062,15 @@ const VENDAS_SP_DATA = {
           "valor": 629.4
         },
         {
+          "data": "08/06/2026",
+          "codcli": "46025",
+          "cliente": "CAMILA DE HOLANDA PLACIDO COMERCIO DE BEBIDAS",
+          "produto": "WHISKY JACK DANIELS 375 ML - DEST",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 449.2
+        },
+        {
           "data": "05/06/2026",
           "codcli": "47059",
           "cliente": "VISAO OBRIGATORIA LTDA",
@@ -39442,6 +39442,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 120,
           "valor": 2388.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "24120",
+          "cliente": "EMPORIO M & L COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "VODKA SUNTORY HAKU 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 12,
+          "valor": 1798.8
         },
         {
           "data": "01/06/2026",
@@ -44819,6 +44828,15 @@ const VENDAS_SP_DATA = {
         }
       ],
       "Jun/26": [
+        {
+          "data": "08/06/2026",
+          "codcli": "27534",
+          "cliente": "SUPER VIP COMERCIAL ALIMENTICIOS LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1389.6
+        },
         {
           "data": "02/06/2026",
           "codcli": "46809",
