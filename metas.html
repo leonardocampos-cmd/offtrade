@@ -1120,7 +1120,21 @@ function copyLink(nome, btn) {
 }
 
 function voltarParaTodos() {
-  window.location.href = location.pathname;
+  const HASH = 'f263766e88cba0bf9dfeb6d8f7228a554058f71ac1cb1ca9b0bbfb322b2b7552';
+  if (sessionStorage.getItem('rg_auth') === HASH) {
+    window.location.href = location.pathname;
+    return;
+  }
+  const senha = prompt('Digite a senha para acessar todos os vendedores:');
+  if (senha === null) return;
+  _sha256(senha).then(hash => {
+    if (hash === HASH) {
+      sessionStorage.setItem('rg_auth', HASH);
+      window.location.href = location.pathname;
+    } else {
+      alert('Senha incorreta.');
+    }
+  });
 }
 
 // ── Views ─────────────────────────────────────────────────
