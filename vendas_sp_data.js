@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "08/06/2026 15:49",
+  "atualizado_em": "08/06/2026 16:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -33394,15 +33394,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 90,
           "valor": 1848.6
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "38212",
-          "cliente": "BERTIN BEBIDAS LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 528,
-          "valor": 13675.2
         },
         {
           "data": "01/06/2026",
