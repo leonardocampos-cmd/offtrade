@@ -1,11 +1,36 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "08/06/2026 10:02",
+  "atualizado_em": "08/06/2026 11:01",
   "data_rota": "08.06",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVES",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "431001006",
+          "numnota": "",
+          "data": "08/06/2026",
+          "cliente": "RESTAURANTE E LANCHONETE MIX DAS TORCIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 403.14,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 12,
+              "val": 370.8
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 1,
+              "val": 32.34
+            }
+          ]
+        },
         {
           "numped": "431001004",
           "numnota": "",
@@ -25,14 +50,14 @@ const ENTREGAS_DATA = {
               "val": 80.03
             },
             {
-              "desc": "GUARAVITON GINSENG 12X500ML",
-              "qt": 3,
-              "val": 97.03
-            },
-            {
               "desc": "4 PACK RED BULL",
               "qt": 3,
               "val": 92.7
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 3,
+              "val": 97.03
             }
           ]
         },
@@ -2016,6 +2041,61 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
               "qt": 2,
               "val": 100.0
+            }
+          ]
+        },
+        {
+          "numped": "144001504",
+          "numnota": "",
+          "data": "08/06/2026",
+          "cliente": "MINI MERCADO BOA OPCAO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 419.4,
+          "itens": [
+            {
+              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+              "qt": 6,
+              "val": 419.4
+            }
+          ]
+        },
+        {
+          "numped": "144001503",
+          "numnota": "",
+          "data": "08/06/2026",
+          "cliente": "PADARIA MERCADINHO MENDES LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1209.64,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 3,
+              "val": 383.7
+            },
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 1,
+              "val": 127.0
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 10,
+              "val": 639.0
+            },
+            {
+              "desc": "IMPERADOR 900ML",
+              "qt": 6,
+              "val": 59.94
             }
           ]
         },
@@ -4769,6 +4849,26 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "379001067",
+          "numnota": "",
+          "data": "08/06/2026",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM OLAVO BI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 629.0,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 10,
+              "val": 629.0
+            }
+          ]
+        },
+        {
           "numped": "379001030",
           "numnota": "",
           "data": "01/06/2026",
@@ -5547,6 +5647,63 @@ const ENTREGAS_DATA = {
               "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
               "qt": 1,
               "val": 89.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "KELLY RAMOS (KAROL)",
+      "em_rota": [],
+      "nao_emitido": [],
+      "emitido_s_rota": [
+        {
+          "numped": "420000026",
+          "numnota": "5814.0",
+          "data": "08/06/2026",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "PEDIDO 10058829",
+          "total": 66417.6,
+          "itens": [
+            {
+              "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+              "qt": 65,
+              "val": 9250.8
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 125,
+              "val": 9900.0
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 125,
+              "val": 9900.0
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 125,
+              "val": 9900.0
+            },
+            {
+              "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+              "qt": 65,
+              "val": 9250.8
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+              "qt": 105,
+              "val": 8316.0
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 125,
+              "val": 9900.0
             }
           ]
         }
@@ -9152,12 +9309,12 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "09/06 terca a partir das 10h",
-          "total": 8336.77,
+          "total": 7804.63,
           "itens": [
             {
               "desc": "VODCA BAM CIROC RED BERRY 750 ML",
-              "qt": 47,
-              "val": 8336.77
+              "qt": 44,
+              "val": 7804.63
             }
           ]
         },
