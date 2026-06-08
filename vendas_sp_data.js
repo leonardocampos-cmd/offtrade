@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "08/06/2026 12:01",
+  "atualizado_em": "08/06/2026 13:44",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -46057,6 +46057,26 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 621.6
+        }
+      ],
+      "Jun/26": [
+        {
+          "data": "08/06/2026",
+          "codcli": "48398",
+          "cliente": "MERCEARIA A PRACINHA LTDA.",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 202.8
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "48398",
+          "cliente": "MERCEARIA A PRACINHA LTDA.",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 310.8
         }
       ]
     },
