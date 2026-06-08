@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "08/06/2026 17:41",
+  "atualizado_em": "08/06/2026 17:46",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -64348,6 +64348,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 1258.8
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "50086",
+          "cliente": "33.632.553 MONISE CRISTINA RAIZE DE ALMEIDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 399.6
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "50086",
+          "cliente": "33.632.553 MONISE CRISTINA RAIZE DE ALMEIDA",
+          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 99.9
         },
         {
           "data": "02/06/2026",
