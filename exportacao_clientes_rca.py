@@ -20,13 +20,13 @@ def _query(schema):
             NVL(C.MUNICENT, '')   AS CIDADE,
             NVL(C.ESTENT, '')     AS ESTADO,
             NVL(C.CGCENT, '')     AS CNPJ,
-            NVL(R.DESCRICAO, '')  AS RAMO,
+            NVL(A.DESCRICAO, '')  AS RAMO,
             C.CODUSUR1,
             C.CODUSUR2,
             NVL(U1.NOME, '')      AS NOME_USUR1,
             NVL(U2.NOME, '')      AS NOME_USUR2
         FROM {s}.PCCLIENT C
-        LEFT JOIN {s}.PCRAMO   R  ON C.CODRAMO  = R.CODRAMO
+        LEFT JOIN {s}.PCATIVI  A  ON C.CODATV1  = A.CODATV
         LEFT JOIN {s}.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
         LEFT JOIN {s}.PCUSUARI U2 ON C.CODUSUR2 = U2.CODUSUR
         WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%'
