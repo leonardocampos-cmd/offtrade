@@ -67,9 +67,13 @@ df['CNPJ']       = df['CNPJ'].fillna('').str.strip()
 df['NOME_USUR1'] = df['NOME_USUR1'].fillna('').str.strip()
 df['NOME_USUR2'] = df['NOME_USUR2'].fillna('').str.strip()
 
-# Deduplica por CNPJ (se tiver) ou CODCLI+SRC
+# Deduplica por (CNPJ + CODUSUR1 + CODUSUR2) para preservar vínculos distintos
+# O mesmo cliente pode aparecer com RCAs diferentes em bases diferentes
+df['CODUSUR1_S'] = df['CODUSUR1'].fillna('').astype(str)
+df['CODUSUR2_S'] = df['CODUSUR2'].fillna('').astype(str)
+df['_CNPJ14'] = df['CNPJ'].apply(lambda v: v[:14] if len(str(v).strip()) >= 14 else '')
 df['_KEY'] = df.apply(
-    lambda r: r['CNPJ'][:14] if len(str(r['CNPJ']).strip()) >= 14 else f"{r['_SRC']}_{r['CODCLI']}",
+    lambda r: f"{r['_CNPJ14'] or (r['_SRC'] + '_' + str(r['CODCLI']))}|{r['CODUSUR1_S']}|{r['CODUSUR2_S']}",
     axis=1
 )
 df = df.drop_duplicates(subset=['_KEY'])
