@@ -77,7 +77,7 @@
 </header>
 
 <div class="controls">
-  <select id="sel-estado" onchange="aplicarFiltro()">
+  <select id="sel-estado" onchange="onEstadoChange()">
     <option value="">Todos os Estados</option>
     <option value="RJ">RJ</option>
     <option value="SP">SP</option>
@@ -114,26 +114,44 @@
 const DATA = typeof CLIENTES_RCA_DATA !== 'undefined' ? CLIENTES_RCA_DATA : null;
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="8" class="empty">Dados não encontrados. Execute o pipeline para gerar clientes_rca_data.js.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="9" class="empty">Dados não encontrados. Execute o pipeline para gerar clientes_rca_data.js.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent = 'Atualizado ' + DATA.atualizado_em;
+  reconstruirRcas();
+  aplicarFiltro();
+}
 
-  // Monta opções de RCA
+function reconstruirRcas() {
+  const estado = document.getElementById('sel-estado').value.trim();
+  const rcaAtual = document.getElementById('sel-rca').value;
+
+  // Filtra clientes pelo estado selecionado para montar apenas RCAs relevantes
+  const base = !estado ? DATA.clientes : DATA.clientes.filter(c => c.estado === estado);
+
   const rcaMap = {};
-  DATA.clientes.forEach(c => {
+  base.forEach(c => {
     if (c.codusur1) rcaMap[c.codusur1] = c.nome_usur1 || c.codusur1;
     if (c.codusur2) rcaMap[c.codusur2] = c.nome_usur2 || c.codusur2;
   });
+
   const sel = document.getElementById('sel-rca');
+  sel.innerHTML = '<option value="">Todos os RCAs</option>';
   Object.entries(rcaMap)
     .sort((a, b) => (a[1] || '').localeCompare(b[1] || ''))
     .forEach(([cod, nome]) => {
       const o = document.createElement('option');
       o.value = cod;
-      o.textContent = `${nome.replace(' - OFF TRADE', '')} (${cod})`;
+      o.textContent = `${nome.replace(/ - OFF TRADE.*/i, '')} (${cod})`;
+      if (cod === rcaAtual) o.selected = true;
       sel.appendChild(o);
     });
 
+  // Se o RCA anterior não existe mais no estado selecionado, limpa a seleção
+  if (rcaAtual && !rcaMap[rcaAtual]) sel.value = '';
+}
+
+function onEstadoChange() {
+  reconstruirRcas();
   aplicarFiltro();
 }
 
