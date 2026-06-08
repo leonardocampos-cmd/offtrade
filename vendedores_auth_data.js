@@ -35,5 +35,9 @@ const VENDEDORES_AUTH = {
   "356": {
     "nome": "ANA PAULA - OFF TRADE",
     "email": "ana.gilha@rigarr.com.br"
+  },
+  "437": {
+    "nome": "LEONARDO CAMPOS",
+    "email": "leonardo.campos@rigarr.com.br"
   }
 };
