@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "08/06/2026 14:02",
+  "atualizado_em": "08/06/2026 15:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -44885,6 +44885,17 @@ const VENDAS_SP_DATA = {
       ]
     },
     "ANDRE PINHEIRO -": {
+      "Jun/26": [
+        {
+          "data": "08/06/2026",
+          "codcli": "21908",
+          "cliente": "MINI MERCADO HORTISABOR LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 1581.6
+        }
+      ],
       "Mai/26": [
         {
           "data": "26/05/2026",
