@@ -1127,14 +1127,16 @@ function voltarParaTodos() {
   }
   const senha = prompt('Digite a senha para acessar todos os vendedores:');
   if (senha === null) return;
-  _sha256(senha).then(hash => {
-    if (hash === HASH) {
-      sessionStorage.setItem('rg_auth', HASH);
-      window.location.href = location.pathname;
-    } else {
-      alert('Senha incorreta.');
-    }
-  });
+  crypto.subtle.digest('SHA-256', new TextEncoder().encode(senha))
+    .then(buf => Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join(''))
+    .then(hash => {
+      if (hash === HASH) {
+        sessionStorage.setItem('rg_auth', HASH);
+        window.location.href = location.pathname;
+      } else {
+        alert('Senha incorreta.');
+      }
+    });
 }
 
 // ── Views ─────────────────────────────────────────────────
