@@ -1,17 +1,17 @@
 const AMARULA_DATA = {
-  "atualizado_em": "08/06/2026 16:01",
+  "atualizado_em": "08/06/2026 17:01",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 25,
-  "total_positivacao": 65,
-  "total_faturamento": 34005.46,
+  "total_positivacao": 67,
+  "total_faturamento": 34273.16,
   "ranking_positivacao": [
     {
       "vendedor": "JORGE MACIEL",
-      "valor": 22
+      "valor": 23
     },
     {
       "vendedor": "MARILENA TRAGEL",
@@ -23,7 +23,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "INGRID ARAUJO",
-      "valor": 3
+      "valor": 4
     },
     {
       "vendedor": "THIAGO NASCIMENTO",
@@ -113,7 +113,7 @@ const AMARULA_DATA = {
   "ranking_faturamento": [
     {
       "vendedor": "JORGE MACIEL",
-      "valor": 11597.1
+      "valor": 11687.0
     },
     {
       "vendedor": "FERNANDO CESAR",
@@ -140,24 +140,24 @@ const AMARULA_DATA = {
       "valor": 763.2
     },
     {
-      "vendedor": "NATALI OLIVEIRA",
-      "valor": 537.4
+      "vendedor": "INGRID ARAUJO",
+      "valor": 622.3
     },
     {
-      "vendedor": "INGRID ARAUJO",
-      "valor": 533.4
+      "vendedor": "NATALI OLIVEIRA",
+      "valor": 537.4
     },
     {
       "vendedor": "RAPHAEL SANTOS - OFF TRADE",
       "valor": 533.4
     },
     {
-      "vendedor": "CARLOS ARTHUR NETO",
-      "valor": 444.5
+      "vendedor": "THIAGO NASCIMENTO",
+      "valor": 447.5
     },
     {
-      "vendedor": "THIAGO NASCIMENTO",
-      "valor": 358.6
+      "vendedor": "CARLOS ARTHUR NETO",
+      "valor": 444.5
     },
     {
       "vendedor": "BIANCA RODRIGUES",
