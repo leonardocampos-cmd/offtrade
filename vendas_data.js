@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/06/2026 15:09",
+  "atualizado_em": "08/06/2026 15:20",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -52596,6 +52596,15 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "92917",
+          "cliente": "RINAPEN MERCADO LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 4,
+          "valor": 287.04
         },
         {
           "data": "08/06/2026",
