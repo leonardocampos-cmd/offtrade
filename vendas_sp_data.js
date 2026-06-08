@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "08/06/2026 17:29",
+  "atualizado_em": "08/06/2026 17:41",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -39514,6 +39514,69 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 1006.8
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "49448",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 31,
+          "valor": 1732.9
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "49448",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 240,
+          "valor": 4776.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "49448",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 72,
+          "valor": 4024.8
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "49448",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 7788.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "49448",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
+          "produto": "GIN BEEFEATER PINK 750ML",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 3894.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "49448",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
+          "produto": "GIN BEEFEATER BOTANICS 750ML",
+          "fantasia": "PERNOD",
+          "qt": 18,
+          "valor": 1276.2
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "49448",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
+          "produto": "WHISKY PASSPORT APPLE 670ML",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 4140.0
         },
         {
           "data": "02/06/2026",
