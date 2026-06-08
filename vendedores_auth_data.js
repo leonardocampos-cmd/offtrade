@@ -1,4 +1,4 @@
-// Gerado em 08/06/2026 15:33
+// Gerado em 08/06/2026 15:50
 const VENDEDORES_AUTH = {
   "391": {
     "nome": "ANDRE SILVA - OFF TRADE",
@@ -35,9 +35,5 @@ const VENDEDORES_AUTH = {
   "356": {
     "nome": "ANA PAULA - OFF TRADE",
     "email": "ana.gilha@rigarr.com.br"
-  },
-  "437": {
-    "nome": "LEONARDO CAMPOS",
-    "email": "leonardo.campos@rigarr.com.br"
   }
 };
