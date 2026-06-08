@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/06/2026 17:19",
+  "atualizado_em": "08/06/2026 17:28",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -110473,6 +110473,15 @@ const VENDAS_DATA = {
         }
       ],
       "Jun/26": [
+        {
+          "data": "08/06/2026",
+          "codcli": "2978",
+          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
+          "produto": "WHISKY BOURBON MAKERS MARK 750 ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1866.0
+        },
         {
           "data": "08/06/2026",
           "codcli": "2978",
