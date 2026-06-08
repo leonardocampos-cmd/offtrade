@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "08/06/2026 15:32",
+  "atualizado_em": "08/06/2026 15:49",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -63753,15 +63753,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 480,
           "valor": 16286.4
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "APERITIVO LUCIA 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 197.7
         }
       ]
     },
