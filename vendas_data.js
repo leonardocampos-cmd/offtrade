@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/06/2026 10:01",
+  "atualizado_em": "08/06/2026 11:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -143191,6 +143191,71 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 25,
           "valor": 2379.0
+        }
+      ],
+      "Jun/26": [
+        {
+          "data": "08/06/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 65,
+          "valor": 9250.8
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 65,
+          "valor": 9250.8
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 125,
+          "valor": 9900.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 125,
+          "valor": 9900.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 125,
+          "valor": 9900.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 125,
+          "valor": 9900.0
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 105,
+          "valor": 8316.0
         }
       ],
       "Jan/26": [
