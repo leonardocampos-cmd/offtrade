@@ -603,8 +603,20 @@
   </style>
 </head>
 <body>
+<script>
+(function () {
+  if (!new URLSearchParams(location.search).get('vendedor')) {
+    const HASH = 'f263766e88cba0bf9dfeb6d8f7228a554058f71ac1cb1ca9b0bbfb322b2b7552';
+    if (sessionStorage.getItem('rg_auth') !== HASH) {
+      sessionStorage.setItem('rg_redirect', location.pathname + location.search);
+      location.replace('login.html');
+    }
+  }
+})();
+</script>
 <header>
   <div class="header-title">
+    <h1 style="color:#3b82f6;font-size:1.1rem;font-weight:700;letter-spacing:.04em">METAS OFF TRADE RIO DE JANEIRO</h1>
     <p id="header-sub">Acompanhamento de Metas</p>
   </div>
   <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">

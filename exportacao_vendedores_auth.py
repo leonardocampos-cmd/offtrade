@@ -22,7 +22,8 @@ for _, row in df.iterrows():
         codusur = str(int(row["CODUSUR"]))
     except (ValueError, TypeError):
         continue
-    email = (row.get("EMAIL") or "").strip().lower()
+    email_raw = row.get("EMAIL")
+    email = "" if pd.isna(email_raw) else str(email_raw).strip().lower()
     nome  = (row.get("NOME")  or "").strip()
     if codusur and email:
         auth[codusur] = {"nome": nome, "email": email}

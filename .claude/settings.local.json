@@ -57,7 +57,8 @@
       "Bash(gh api *)",
       "Bash(Select-String -Pattern \"\\\\.\\(py|ipynb|js\\)\")",
       "Bash(Select-Object -First 30)",
-      "PowerShell(Get-ChildItem \"G:\\\\Meu Drive\\\\offtrade\" -File | Where-Object { $_.Extension -in '.py','.ipynb','.ps1','.bat' } | Select-Object Name)"
+      "PowerShell(Get-ChildItem \"G:\\\\Meu Drive\\\\offtrade\" -File | Where-Object { $_.Extension -in '.py','.ipynb','.ps1','.bat' } | Select-Object Name)",
+      "Bash(dir G:\\\\Meu Drive\\\\offtrade *)"
     ]
   }
 }
