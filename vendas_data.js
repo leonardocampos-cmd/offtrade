@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "08/06/2026 15:01",
+  "atualizado_em": "08/06/2026 15:09",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -37131,6 +37131,15 @@ const VENDAS_DATA = {
           "valor": 70.08
         },
         {
+          "data": "08/06/2026",
+          "codcli": "74671",
+          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 20,
+          "valor": 534.59
+        },
+        {
           "data": "05/06/2026",
           "codcli": "76228",
           "cliente": "LOJA DE CONVENIENCIA GLOBAL LTDA",
@@ -37831,6 +37840,15 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 81.84
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91093",
+          "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 20,
+          "valor": 528.4
         },
         {
           "data": "05/06/2026",
@@ -52203,6 +52221,60 @@ const VENDAS_DATA = {
       "Jun/26": [
         {
           "data": "08/06/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 15,
+          "valor": 388.25
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 96.59
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 3,
+          "valor": 95.67
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 92.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 96.59
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 96.59
+        },
+        {
+          "data": "08/06/2026",
           "codcli": "80577",
           "cliente": "CANTINA QUINTAL CARIOCA LTDA",
           "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
@@ -52373,6 +52445,78 @@ const VENDAS_DATA = {
           "valor": 132.62
         },
         {
+          "data": "08/06/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "PINATI SLIM WHEY BEIJINHO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 48.9
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "PINATI SLIM WHEY BRIGADEIRO (4) 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 59.9
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "90863",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "produto": "PINATI SLIM WHEY BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 48.9
+        },
+        {
           "data": "02/06/2026",
           "codcli": "93767",
           "cliente": "CZB COSTA ALIMENTOS",
@@ -52452,6 +52596,69 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91424",
+          "cliente": "KVSO I COM PROD FAR LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 3,
+          "valor": 80.03
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91424",
+          "cliente": "KVSO I COM PROD FAR LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 3,
+          "valor": 97.03
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91424",
+          "cliente": "KVSO I COM PROD FAR LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 92.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 12,
+          "valor": 370.8
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 12,
+          "valor": 370.8
         }
       ]
     },
@@ -63518,6 +63725,60 @@ const VENDAS_DATA = {
           "valor": 269.7
         },
         {
+          "data": "08/06/2026",
+          "codcli": "91333",
+          "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
+          "produto": "NECTAR PESSEGO 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 58.68
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91333",
+          "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 27.98
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91333",
+          "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 17.9
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91333",
+          "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91333",
+          "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
+          "produto": "GIN MARINA ROSE 750ML",
+          "fantasia": "HOB",
+          "qt": 1,
+          "valor": 33.9
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91333",
+          "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 58.68
+        },
+        {
           "data": "01/06/2026",
           "codcli": "91337",
           "cliente": "MONTES DOCES MARECHAL HERMES LTDA",
@@ -63534,6 +63795,15 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 95.9
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91337",
+          "cliente": "MONTES DOCES MARECHAL HERMES LTDA",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 3,
+          "valor": 317.7
         },
         {
           "data": "06/06/2026",
@@ -63696,6 +63966,15 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 5,
           "valor": 314.5
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "91445",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM OLAVO BI",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 10,
+          "valor": 629.0
         },
         {
           "data": "06/06/2026",
@@ -121902,6 +122181,15 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 137.4
+        },
+        {
+          "data": "08/06/2026",
+          "codcli": "90148",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "produto": "VODCA BAM CIROC RED BERRY 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 44,
+          "valor": 7804.63
         },
         {
           "data": "02/06/2026",
