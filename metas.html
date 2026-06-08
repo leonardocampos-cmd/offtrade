@@ -521,38 +521,6 @@
     }
     .campanha-detail-row:last-child { border-bottom: none; }
 
-    #senha-gate {
-      position: fixed; inset: 0; z-index: 9999;
-      background: var(--bg);
-      display: flex; align-items: center; justify-content: center;
-    }
-    #senha-box {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 40px 32px;
-      text-align: center;
-      width: min(360px, 90vw);
-    }
-    #senha-box h2 { color: var(--accent); margin-bottom: 8px; font-size: 1.2rem; font-weight: 700; }
-    #senha-box p  { color: var(--muted);  margin-bottom: 24px; font-size: 0.85rem; }
-    #senha-input {
-      width: 100%; padding: 10px 14px;
-      background: var(--card2); border: 1px solid var(--border);
-      border-radius: 8px; color: var(--text);
-      font-size: 1.2rem; letter-spacing: 6px; text-align: center;
-      margin-bottom: 16px; outline: none;
-    }
-    #senha-input:focus { border-color: var(--accent); }
-    #senha-btn {
-      width: 100%; padding: 10px;
-      background: var(--accent); color: #0f1117;
-      border: none; border-radius: 8px;
-      font-weight: 700; font-size: 0.95rem; cursor: pointer;
-    }
-    #senha-btn:hover { opacity: .9; }
-    #senha-erro { color: var(--red); font-size: 0.8rem; margin-top: 12px; min-height: 18px; }
-
     /* ── Pernod Dashboard ─────────────────────────────────────── */
     .pernod-dash { margin-bottom: 16px; }
     .pernod-kpis {
@@ -635,38 +603,6 @@
   </style>
 </head>
 <body>
-<div id="senha-gate">
-  <div id="senha-box">
-    <h2>OFF TRADE RJ</h2>
-    <p>Digite a senha para acessar</p>
-    <input id="senha-input" type="password" placeholder="······" maxlength="10" autofocus>
-    <button id="senha-btn">Entrar</button>
-    <div id="senha-erro"></div>
-  </div>
-</div>
-<script>
-(function () {
-  var SENHA = '918273';
-  var gate  = document.getElementById('senha-gate');
-  if (new URLSearchParams(window.location.search).get('vendedor')) { gate.remove(); return; }
-  if (sessionStorage.getItem('offtrade_auth') === '1') { gate.remove(); return; }
-  function tentar() {
-    if (document.getElementById('senha-input').value.trim() === SENHA) {
-      sessionStorage.setItem('offtrade_auth', '1');
-      gate.remove();
-    } else {
-      document.getElementById('senha-erro').textContent = 'Senha incorreta.';
-      document.getElementById('senha-input').value = '';
-      document.getElementById('senha-input').focus();
-    }
-  }
-  document.getElementById('senha-btn').addEventListener('click', tentar);
-  document.getElementById('senha-input').addEventListener('keydown', function (e) {
-    if (e.key === 'Enter') tentar();
-  });
-})();
-</script>
-
 <header>
   <div class="header-title">
     <h1>&#9679; METAS OFF TRADE RJ</h1>
@@ -1173,12 +1109,7 @@ function copyLink(nome, btn) {
 }
 
 function voltarParaTodos() {
-  const senha = prompt('Digite a senha para acessar todos os vendedores:');
-  if (senha === '918273') {
-    window.location.href = location.pathname;
-  } else if (senha !== null) {
-    alert('Senha incorreta.');
-  }
+  window.location.href = location.pathname;
 }
 
 // ── Views ─────────────────────────────────────────────────
