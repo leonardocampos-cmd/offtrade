@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "09/06/2026 12:45",
+  "atualizado_em": "09/06/2026 12:54",
   "data_rota": "09.06",
   "vendedores": [
     {
@@ -7047,6 +7047,46 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "379001090",
+          "numnota": "",
+          "data": "09/06/2026",
+          "cliente": "MERCADO DO JOKA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 340.39,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 1,
+              "val": 13.99
+            }
+          ]
+        },
+        {
           "numped": "379001081",
           "numnota": "",
           "data": "08/06/2026",
@@ -13777,6 +13817,11 @@ const ENTREGAS_DATA = {
           "total": 719.04,
           "itens": [
             {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 359.52
+            },
+            {
               "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 1,
               "val": 179.76
@@ -13785,11 +13830,31 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL MELANCIA 250ML CX C/24",
               "qt": 1,
               "val": 179.76
+            }
+          ]
+        },
+        {
+          "numped": "155003635",
+          "numnota": "",
+          "data": "09/06/2026",
+          "cliente": "ADRIANA CONVENIENCIA TABACARIA E BEBIDAS 24HS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3715.2,
+          "itens": [
+            {
+              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+              "qt": 12,
+              "val": 1198.8
             },
             {
-              "desc": "RED BULL 24X250ML",
-              "qt": 2,
-              "val": 359.52
+              "desc": "GIN BOMBAY SAPPHIRE 750ML",
+              "qt": 36,
+              "val": 2516.4
             }
           ]
         },
