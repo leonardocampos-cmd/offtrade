@@ -91584,3 +91584,912 @@ OK GitHub Pages atualizado — https://leonardocampos-cmd.github.io/offtrade/
 
 [09/06/2026 12:06:10,35] OK 
 ---------------------------------------- 
+[09/06/2026 13:00:00,62] Iniciando... 
+[master 6bdfecf] Atualiza metas_data.js + vendas_data.js - 09/06/2026
+ 2 files changed, 2173 insertions(+), 2173 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   364edeb..6bdfecf  master -> master
+[master 8670a69] Atualiza entregas_data.js - 09/06/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   ab580af..8670a69  master -> master
+
+==================================================
+  OFFTRADE - 09/06/2026 13:00
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/5)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/5)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/5)...
+OK vendas_SPON carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/5)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/5)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/5)...
+OK vendas_anterior_SPON carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+-> Lendo nao_pos_CASTAS (Tentativa 1/5)...
+OK nao_pos_CASTAS carregada!
+-> Lendo nao_pos_GARRIDO (Tentativa 1/5)...
+OK nao_pos_GARRIDO carregada!
+-> Lendo nao_pos_SPON (Tentativa 1/5)...
+OK nao_pos_SPON carregada!
+Clientes nao positivados em 06/2026: 3250
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_06-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo map_rca_CASTAS (Tentativa 1/5)...
+OK map_rca_CASTAS carregada!
+-> Lendo map_rca_GARRIDO (Tentativa 1/5)...
+OK map_rca_GARRIDO carregada!
+-> Lendo map_rca_SPON (Tentativa 1/5)...
+OK map_rca_SPON carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo vendas_hist_CASTAS (Tentativa 1/5)...
+OK vendas_hist_CASTAS carregada!
+-> Lendo vendas_hist_GARRIDO (Tentativa 1/5)...
+OK vendas_hist_GARRIDO carregada!
+-> Lendo vendas_hist_SPON (Tentativa 1/5)...
+OK vendas_hist_SPON carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+-> Lendo cadastros_CASTAS (Tentativa 1/5)...
+OK cadastros_CASTAS carregada!
+-> Lendo cadastros_GARRIDO (Tentativa 1/5)...
+OK cadastros_GARRIDO carregada!
+OK cadastros: 57 clientes, 5 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+-> Lendo historico_CASTAS (Tentativa 1/5)...
+OK historico_CASTAS carregada!
+-> Lendo historico_GARRIDO (Tentativa 1/5)...
+OK historico_GARRIDO carregada!
+-> Lendo historico_SPON (Tentativa 1/5)...
+OK historico_SPON carregada!
+OK metas_data.js gerado — 19 vendedores, meses: ['Jun/26', 'Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master ab580af] Atualiza amarula_data.js - 09/06/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/5)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/5)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/5)...
+OK vendas_SPON carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/5)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/5)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/5)...
+OK vendas_anterior_SPON carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo map_rca_CASTAS (Tentativa 1/5)...
+OK map_rca_CASTAS carregada!
+-> Lendo map_rca_GARRIDO (Tentativa 1/5)...
+OK map_rca_GARRIDO carregada!
+-> Lendo map_rca_SPON (Tentativa 1/5)...
+OK map_rca_SPON carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+-> Lendo amarula_CASTAS (Tentativa 1/5)...
+OK amarula_CASTAS carregada!
+-> Lendo amarula_GARRIDO (Tentativa 1/5)...
+OK amarula_GARRIDO carregada!
+-> Lendo amarula_SPON (Tentativa 1/5)...
+OK amarula_SPON carregada!
+OK amarula_data.js — 25 vendedores, 78 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\06 JUNHO\06 JUNHO - Controle de Notas 2026.xlsx | aba: 09-06 | 480 linhas
+OK - 18 vendedores, rota do dia 09.06 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master c53f7e1] Atualiza vendas_sp_data.js - 09/06/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO FLOREZI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 40 vendedores, meses: ['Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/9 - Base de clientes por RCA (clientes_rca_data.js)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/5)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/5)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/5)...
+OK vendas_SPON carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/5)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/5)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/5)...
+OK vendas_anterior_SPON carregada!
+-> Lendo clientes_CRC (Tentativa 1/5)...
+Erro na clientes_CRC: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CRC (Tentativa 2/5)...
+Erro na clientes_CRC: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CRC (Tentativa 3/5)...
+Erro na clientes_CRC: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CRC (Tentativa 4/5)...
+Erro na clientes_CRC: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CRC (Tentativa 5/5)...
+Erro na clientes_CRC: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+[AVISO] clientes_CRC falhou (Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLI) — ignorado
+-> Lendo clientes_thekings (Tentativa 1/5)...
+Erro na clientes_thekings: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_thekings (Tentativa 2/5)...
+Erro na clientes_thekings: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_thekings (Tentativa 3/5)...
+Erro na clientes_thekings: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_thekings (Tentativa 4/5)...
+Erro na clientes_thekings: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_thekings (Tentativa 5/5)...
+Erro na clientes_thekings: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+[AVISO] clientes_thekings falhou (Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLI) — ignorado
+-> Lendo clientes_CASTAS (Tentativa 1/5)...
+Erro na clientes_CASTAS: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CASTAS (Tentativa 2/5)...
+Erro na clientes_CASTAS: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CASTAS (Tentativa 3/5)...
+Erro na clientes_CASTAS: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CASTAS (Tentativa 4/5)...
+Erro na clientes_CASTAS: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CASTAS (Tentativa 5/5)...
+Erro na clientes_CASTAS: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+[AVISO] clientes_CASTAS falhou (Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLI) — ignorado
+-> Lendo clientes_GARRIDO (Tentativa 1/5)...
+Erro na clientes_GARRIDO: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_GARRIDO (Tentativa 2/5)...
+Erro na clientes_GARRIDO: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_GARRIDO (Tentativa 3/5)...
+Erro na clientes_GARRIDO: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_GARRIDO (Tentativa 4/5)...
+Erro na clientes_GARRIDO: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_GARRIDO (Tentativa 5/5)...
+Erro na clientes_GARRIDO: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+[AVISO] clientes_GARRIDO falhou (Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLI) — ignorado
+-> Lendo clientes_SPON (Tentativa 1/5)...
+Erro na clientes_SPON: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_SPON (Tentativa 2/5)...
+Erro na clientes_SPON: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_SPON (Tentativa 3/5)...
+Erro na clientes_SPON: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_SPON (Tentativa 4/5)...
+Erro na clientes_SPON: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_SPON (Tentativa 5/5)...
+Erro na clientes_SPON: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+[AVISO] clientes_SPON falhou (Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLI) — ignorado
+
+[AVISO] exportacao_clientes_rca falhou — ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\exportacao_clientes_rca.py", line 55, in <module>
+    raise RuntimeError("Nenhuma base carregada.")
+RuntimeError: Nenhuma base carregada.
+
+
+--------------------------------------------------
+  8/9 - Clientes migrados RCA 588 (clientes_588_data.js)
+--------------------------------------------------
+[master 17e6bfb] Atualiza clientes_588_data.js - 09/06/2026
+ 1 file changed, 161 insertions(+), 161 deletions(-)
+-> Lendo clientes_588_jan_abr (Tentativa 1/5)...
+OK clientes_588_jan_abr carregada!
+-> Lendo vendas_maio_outros (Tentativa 1/5)...
+OK vendas_maio_outros carregada!
+-> Lendo vendas_maio_588 (Tentativa 1/5)...
+OK vendas_maio_588 carregada!
+OK clientes_588_data.js — 49 clientes migraram
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Exportando auth de vendedores (vendedores_auth_data.js)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/5)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/5)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/5)...
+OK vendas_SPON carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/5)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/5)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/5)...
+OK vendas_anterior_SPON carregada!
+-> Lendo vendedores_auth (Tentativa 1/5)...
+OK vendedores_auth carregada!
+[OK] vendedores_auth_data.js — 9 vendedores exportados
+
+
+--------------------------------------------------
+  9/10 - Enviando alerta WhatsApp
+--------------------------------------------------
+Nenhum pedido novo abaixo da tabela. Nada enviado.
+
+--------------------------------------------------
+  10/10 - Deploy para VPS + GitHub Pages
+--------------------------------------------------
+
+[AVISO] deploy_vps.py falhou — ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+-> git add metas_data.js vendas_data.js vendas_sp_data.js entregas_data.js amarula_data.js clientes_588_data.js clientes_rca_data.js vendedores_auth_data.js login_vendedor.html vendedor.html auth_vendedor.js login.html auth.js index.html metas.html sp.html entregas.html amarula.html pernod.html clientes_rca.html moving.html
+-> git commit --allow-empty -m Auto-update 09/06/2026 13:05
+[ERRO] fatal: Unable to create 'G:/Meu Drive/offtrade/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+[AVISO] deploy_github.py falhou — ignorado, pipeline continua.
+
+
+==================================================
+  Concluído em 343s
+==================================================
+
+[09/06/2026 13:05:45,02] OK 
+---------------------------------------- 
+[09/06/2026 14:03:53,82] Iniciando... 
+[master ca7cd2f] Atualiza metas_data.js + vendas_data.js - 09/06/2026
+ 2 files changed, 2390 insertions(+), 2390 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   2838798..ca7cd2f  master -> master
+[master e856ec3] Atualiza entregas_data.js - 09/06/2026
+ 1 file changed, 1388 insertions(+), 1147 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   0b95b14..e856ec3  master -> master
+
+==================================================
+  OFFTRADE - 09/06/2026 14:03
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/5)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/5)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/5)...
+OK vendas_SPON carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/5)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/5)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/5)...
+OK vendas_anterior_SPON carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/5)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/5)...
+OK nao_pos_thekings carregada!
+-> Lendo nao_pos_CASTAS (Tentativa 1/5)...
+OK nao_pos_CASTAS carregada!
+-> Lendo nao_pos_GARRIDO (Tentativa 1/5)...
+OK nao_pos_GARRIDO carregada!
+-> Lendo nao_pos_SPON (Tentativa 1/5)...
+OK nao_pos_SPON carregada!
+Clientes nao positivados em 06/2026: 3250
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_06-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/5)...
+OK map_rca_thekings carregada!
+-> Lendo map_rca_CASTAS (Tentativa 1/5)...
+OK map_rca_CASTAS carregada!
+-> Lendo map_rca_GARRIDO (Tentativa 1/5)...
+OK map_rca_GARRIDO carregada!
+-> Lendo map_rca_SPON (Tentativa 1/5)...
+OK map_rca_SPON carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/5)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/5)...
+OK vendas_hist_thekings carregada!
+-> Lendo vendas_hist_CASTAS (Tentativa 1/5)...
+OK vendas_hist_CASTAS carregada!
+-> Lendo vendas_hist_GARRIDO (Tentativa 1/5)...
+OK vendas_hist_GARRIDO carregada!
+-> Lendo vendas_hist_SPON (Tentativa 1/5)...
+OK vendas_hist_SPON carregada!
+-> Lendo cadastros_CRC (Tentativa 1/5)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/5)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/5)...
+OK cadastros_spon carregada!
+-> Lendo cadastros_CASTAS (Tentativa 1/5)...
+OK cadastros_CASTAS carregada!
+-> Lendo cadastros_GARRIDO (Tentativa 1/5)...
+OK cadastros_GARRIDO carregada!
+OK cadastros: 58 clientes, 5 vendedores
+-> Lendo historico_CRC (Tentativa 1/5)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/5)...
+OK historico_thekings carregada!
+-> Lendo historico_CASTAS (Tentativa 1/5)...
+OK historico_CASTAS carregada!
+-> Lendo historico_GARRIDO (Tentativa 1/5)...
+OK historico_GARRIDO carregada!
+-> Lendo historico_SPON (Tentativa 1/5)...
+OK historico_SPON carregada!
+OK metas_data.js gerado — 19 vendedores, meses: ['Jun/26', 'Mai/26', 'Abr/26', 'Mar/26']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+[master 0b95b14] Atualiza amarula_data.js - 09/06/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/5)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/5)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/5)...
+OK vendas_SPON carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/5)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/5)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/5)...
+OK vendas_anterior_SPON carregada!
+-> Lendo map_rca_CRC (Tentativa 1/5)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_TK (Tentativa 1/5)...
+OK map_rca_TK carregada!
+-> Lendo map_rca_CASTAS (Tentativa 1/5)...
+OK map_rca_CASTAS carregada!
+-> Lendo map_rca_GARRIDO (Tentativa 1/5)...
+OK map_rca_GARRIDO carregada!
+-> Lendo map_rca_SPON (Tentativa 1/5)...
+OK map_rca_SPON carregada!
+-> Lendo amarula_CRC (Tentativa 1/5)...
+OK amarula_CRC carregada!
+-> Lendo amarula_thekings (Tentativa 1/5)...
+OK amarula_thekings carregada!
+-> Lendo amarula_CASTAS (Tentativa 1/5)...
+OK amarula_CASTAS carregada!
+-> Lendo amarula_GARRIDO (Tentativa 1/5)...
+OK amarula_GARRIDO carregada!
+-> Lendo amarula_SPON (Tentativa 1/5)...
+OK amarula_SPON carregada!
+OK amarula_data.js — 25 vendedores, 78 linhas Amarula
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+-> Lendo conferencia_preco (Tentativa 1/5)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/5)...
+OK pedidos carregada!
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -\2026\06 JUNHO\06 JUNHO - Controle de Notas 2026.xlsx | aba: 09-06 | 480 linhas
+OK - 18 vendedores, rota do dia 09.06 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 088652f] Atualiza vendas_sp_data.js - 09/06/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/5)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO -', 'ANA PAULA -', 'ANDRE PINHEIRO -', 'ANDRE SILVA -', 'BRUNO BARBOSA -', 'BRYAN PALOPOLI -', 'CARLOS DE ALMEIDA -', 'CARLOS TERRA -', 'CIARA PADULA -', 'CRISTIANE MORAIS -', 'DANIELLE DOS SANTOS -', 'ELIZANGELA RODRIGUES -', 'FABIANO RIBEIRO -', 'FLAVIO RIBEIRO -', 'FRANCIS SILVA -', 'JESSICA FREITAS -', 'JOAO LUPORINI -', 'LEONARDO FLOREZI -', 'LEONARDO MILAN -', 'LUCAS BUENO -', 'LUCIANO TOSCHI -', 'MANUELA ZAPPACOSTA -', 'MARCELO DE CAMPOS -', 'MARCELO PEREIRA -', 'MARCIA RITA -', 'MARCUS TANAMACHI -', 'MARIO RAFAEL FERRARI -', 'MARLENE RODRIGUES -', 'PATRICIA RAMOS -', 'PATRICIO MASSAGARDI -', 'PAULO JUNIOR -', 'PRISCILLA BONACHE -', 'RENATO JUNIOR -', 'ROBERTO DOS SANTOS -', 'ROBSON DA SILVA -', 'RODRIGO LIMA -', 'SUELY SANTOS -', 'VIVIANI ALVES -', 'W.S', 'WANDO MACHADO -']
+OK vendas_sp_data.js gerado — 40 vendedores, meses: ['Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26', 'Jan/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/9 - Base de clientes por RCA (clientes_rca_data.js)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/5)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/5)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/5)...
+OK vendas_SPON carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/5)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/5)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/5)...
+OK vendas_anterior_SPON carregada!
+-> Lendo clientes_CRC (Tentativa 1/5)...
+Erro na clientes_CRC: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CRC (Tentativa 2/5)...
+Erro na clientes_CRC: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CRC (Tentativa 3/5)...
+Erro na clientes_CRC: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CRC (Tentativa 4/5)...
+Erro na clientes_CRC: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CRC (Tentativa 5/5)...
+Erro na clientes_CRC: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+[AVISO] clientes_CRC falhou (Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLI) — ignorado
+-> Lendo clientes_thekings (Tentativa 1/5)...
+Erro na clientes_thekings: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_thekings (Tentativa 2/5)...
+Erro na clientes_thekings: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_thekings (Tentativa 3/5)...
+Erro na clientes_thekings: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_thekings (Tentativa 4/5)...
+Erro na clientes_thekings: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_thekings (Tentativa 5/5)...
+Erro na clientes_thekings: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+[AVISO] clientes_thekings falhou (Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLI) — ignorado
+-> Lendo clientes_CASTAS (Tentativa 1/5)...
+Erro na clientes_CASTAS: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CASTAS (Tentativa 2/5)...
+Erro na clientes_CASTAS: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CASTAS (Tentativa 3/5)...
+Erro na clientes_CASTAS: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CASTAS (Tentativa 4/5)...
+Erro na clientes_CASTAS: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_CASTAS (Tentativa 5/5)...
+Erro na clientes_CASTAS: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+[AVISO] clientes_CASTAS falhou (Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLI) — ignorado
+-> Lendo clientes_GARRIDO (Tentativa 1/5)...
+Erro na clientes_GARRIDO: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_GARRIDO (Tentativa 2/5)...
+Erro na clientes_GARRIDO: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_GARRIDO (Tentativa 3/5)...
+Erro na clientes_GARRIDO: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_GARRIDO (Tentativa 4/5)...
+Erro na clientes_GARRIDO: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_GARRIDO (Tentativa 5/5)...
+Erro na clientes_GARRIDO: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+[AVISO] clientes_GARRIDO falhou (Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLI) — ignorado
+-> Lendo clientes_SPON (Tentativa 1/5)...
+Erro na clientes_SPON: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_SPON (Tentativa 2/5)...
+Erro na clientes_SPON: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_SPON (Tentativa 3/5)...
+Erro na clientes_SPON: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_SPON (Tentativa 4/5)...
+Erro na clientes_SPON: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+-> Lendo clientes_SPON (Tentativa 5/5)...
+Erro na clientes_SPON: Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLIENTE,
+            NV
+[AVISO] clientes_SPON falhou (Execution failed on sql '
+        SELECT
+            C.CODCLI,
+            C.CLI) — ignorado
+
+[AVISO] exportacao_clientes_rca falhou — ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\exportacao_clientes_rca.py", line 55, in <module>
+    raise RuntimeError("Nenhuma base carregada.")
+RuntimeError: Nenhuma base carregada.
+
+
+--------------------------------------------------
+  8/9 - Clientes migrados RCA 588 (clientes_588_data.js)
+--------------------------------------------------
+[master f88b3e5] Atualiza clientes_588_data.js - 09/06/2026
+ 1 file changed, 161 insertions(+), 161 deletions(-)
+-> Lendo clientes_588_jan_abr (Tentativa 1/5)...
+OK clientes_588_jan_abr carregada!
+-> Lendo vendas_maio_outros (Tentativa 1/5)...
+OK vendas_maio_outros carregada!
+-> Lendo vendas_maio_588 (Tentativa 1/5)...
+OK vendas_maio_588 carregada!
+OK clientes_588_data.js — 49 clientes migraram
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Exportando auth de vendedores (vendedores_auth_data.js)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/5)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/5)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/5)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/5)...
+OK vendas_SPON carregada!
+-> Lendo vendas_anterior_CRC (Tentativa 1/5)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/5)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/5)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/5)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/5)...
+OK vendas_anterior_SPON carregada!
+-> Lendo vendedores_auth (Tentativa 1/5)...
+OK vendedores_auth carregada!
+[OK] vendedores_auth_data.js — 9 vendedores exportados
+
+
+--------------------------------------------------
+  9/10 - Enviando alerta WhatsApp
+--------------------------------------------------
+Mensagem enviada para 5521974972433 com 3 pedido(s) abaixo da tabela.
+Registro salvo em 'pedidos_enviados.json' (2480 chave(s) no total).
+
+--------------------------------------------------
+  10/10 - Deploy para VPS + GitHub Pages
+--------------------------------------------------
+
+[AVISO] deploy_vps.py falhou — ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\deploy_vps.py", line 3, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+
+-> git add metas_data.js vendas_data.js vendas_sp_data.js entregas_data.js amarula_data.js clientes_588_data.js clientes_rca_data.js vendedores_auth_data.js login_vendedor.html vendedor.html auth_vendedor.js login.html auth.js index.html metas.html sp.html entregas.html amarula.html pernod.html clientes_rca.html moving.html
+-> git commit --allow-empty -m Auto-update 09/06/2026 14:10
+[master 371f489] Auto-update 09/06/2026 14:10
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> git push origin master
+OK GitHub Pages atualizado — https://leonardocampos-cmd.github.io/offtrade/
+
+
+==================================================
+  Concluído em 388s
+==================================================
+
+[09/06/2026 14:10:25,41] OK 
+---------------------------------------- 
+[09/06/2026 15:00:00,73] Iniciando... 
+[master e23070f] Atualiza metas_data.js + vendas_data.js - 09/06/2026
+ 2 files changed, 1512 insertions(+), 1815 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   8b64c51..e23070f  master -> master
+[master ed8c6b5] Atualiza entregas_data.js - 09/06/2026
+ 1 file changed, 5623 insertions(+), 5503 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   83e7f09..ed8c6b5  master -> master
