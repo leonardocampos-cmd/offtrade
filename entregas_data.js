@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "09/06/2026 13:01",
+  "atualizado_em": "09/06/2026 13:06",
   "data_rota": "09.06",
   "vendedores": [
     {
@@ -978,6 +978,46 @@ const ENTREGAS_DATA = {
               "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
               "qt": 6,
               "val": 179.4
+            }
+          ]
+        },
+        {
+          "numped": "471000298",
+          "numnota": "",
+          "data": "09/06/2026",
+          "cliente": "MERCEARIA NOVA CINTRA - EIRELI - EPP",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 263.4,
+          "itens": [
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND  ROSADO 750ML",
+              "qt": 6,
+              "val": 263.4
+            }
+          ]
+        },
+        {
+          "numped": "471000299",
+          "numnota": "",
+          "data": "09/06/2026",
+          "cliente": "FONTES DE PRODUTOS NATURAIS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 286.8,
+          "itens": [
+            {
+              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "qt": 1,
+              "val": 286.8
             }
           ]
         },
@@ -6872,22 +6912,32 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "379001085",
+          "numped": "379001087",
           "numnota": "",
           "data": "09/06/2026",
-          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
+          "cliente": "ADEGA DO ROMEU LTDA",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 88.7,
+          "total": 258.86,
           "itens": [
             {
-              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
               "qt": 1,
-              "val": 88.7
+              "val": 89.9
+            },
+            {
+              "desc": "CANTINA DA SERRA 1,5L",
+              "qt": 12,
+              "val": 110.28
+            },
+            {
+              "desc": "NECTAR LARANJA 12X1000ML",
+              "qt": 1,
+              "val": 58.68
             }
           ]
         },
@@ -6905,6 +6955,11 @@ const ENTREGAS_DATA = {
           "total": 945.8,
           "itens": [
             {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 2,
+              "val": 177.0
+            },
+            {
               "desc": "CERVEJA HEINEKEN LONG 24X330ML",
               "qt": 1,
               "val": 127.9
@@ -6918,11 +6973,26 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 5,
               "val": 326.4
-            },
+            }
+          ]
+        },
+        {
+          "numped": "379001085",
+          "numnota": "",
+          "data": "09/06/2026",
+          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 88.7,
+          "itens": [
             {
               "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-              "qt": 2,
-              "val": 177.0
+              "qt": 1,
+              "val": 88.7
             }
           ]
         },
@@ -6983,36 +7053,6 @@ const ENTREGAS_DATA = {
               "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
               "qt": 2,
               "val": 125.8
-            }
-          ]
-        },
-        {
-          "numped": "379001087",
-          "numnota": "",
-          "data": "09/06/2026",
-          "cliente": "ADEGA DO ROMEU LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 258.86,
-          "itens": [
-            {
-              "desc": "CANTINA DA SERRA 1,5L",
-              "qt": 12,
-              "val": 110.28
-            },
-            {
-              "desc": "NECTAR LARANJA 12X1000ML",
-              "qt": 1,
-              "val": 58.68
-            },
-            {
-              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-              "qt": 1,
-              "val": 89.9
             }
           ]
         },
