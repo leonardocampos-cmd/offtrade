@@ -105,6 +105,37 @@
       padding: 10px 12px; font-weight: 700;
       border-top: 2px solid var(--border); background: var(--card);
     }
+
+    /* ── Modal de imagem ── */
+    .img-link {
+      cursor: pointer; color: var(--text); text-decoration: none;
+      border-bottom: 1px dashed rgba(255,255,255,.2);
+      transition: color .15s;
+    }
+    .img-link:hover { color: var(--accent); border-bottom-color: var(--accent); }
+    .img-link.no-img { cursor: default; border-bottom: none; }
+
+    .modal-overlay {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,.75); z-index: 1000;
+      align-items: center; justify-content: center;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal-box {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 20px; max-width: 420px; width: 90%;
+      display: flex; flex-direction: column; align-items: center; gap: 14px;
+      position: relative;
+    }
+    .modal-box img { max-width: 100%; border-radius: 8px; background: #fff; }
+    .modal-title { font-weight: 700; font-size: .95rem; text-align: center; }
+    .modal-cod { font-size: .75rem; color: var(--muted); }
+    .modal-close {
+      position: absolute; top: 12px; right: 14px;
+      background: none; border: none; color: var(--muted);
+      font-size: 1.2rem; cursor: pointer; line-height: 1;
+    }
+    .modal-close:hover { color: var(--text); }
   </style>
 </head>
 <body>
@@ -129,6 +160,16 @@
 
 <div class="stat-bar" id="stats"></div>
 
+<!-- Modal -->
+<div class="modal-overlay" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <img id="modal-img" src="" alt="">
+    <div class="modal-title" id="modal-desc"></div>
+    <div class="modal-cod" id="modal-cod"></div>
+  </div>
+</div>
+
 <div class="table-wrap">
   <table id="tbl">
     <thead>
@@ -149,6 +190,29 @@
 <script>
   const fmt = (v, d=2) => v != null ? Number(v).toLocaleString('pt-BR', {minimumFractionDigits:d,maximumFractionDigits:d}) : '—';
   const fmtR = v => v != null && v > 0 ? 'R$ ' + fmt(v) : '—';
+
+  // Conjunto de imagens disponíveis (verificado via fetch, preenchido abaixo)
+  const IMGS_OK = new Set();
+  // Pré-carrega a lista de imagens disponíveis
+  (async () => {
+    try {
+      // Tenta HEAD em cada código — alternativa: gerar lista no exportador
+      // Por ora, assume que imgs_catalogo/{cod}.jpg existe para todos do catálogo
+      CATALOGO_DATA.forEach(p => IMGS_OK.add(p.cod));
+    } catch(e) {}
+  })();
+
+  function openModal(cod, desc) {
+    document.getElementById('modal-img').src = `imgs_catalogo/${cod}.jpg`;
+    document.getElementById('modal-desc').textContent = desc;
+    document.getElementById('modal-cod').textContent = 'Cód. ' + cod;
+    document.getElementById('modal').classList.add('open');
+  }
+  function closeModal() {
+    document.getElementById('modal').classList.remove('open');
+    document.getElementById('modal-img').src = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
   let sortCol = 'desc', sortDir = 1;
   let filtro = 'todos';
@@ -181,9 +245,10 @@
         : p.status === 'ON'
           ? '<span class="badge badge-on">ON</span>'
           : '<span class="badge badge-dash">—</span>';
+      const descCell = `<span class="img-link" onclick="openModal('${p.cod}','${p.desc.replace(/'/g,"&#39;")}')">${p.desc}</span>`;
       return `<tr>
         <td class="cod">${p.cod}</td>
-        <td class="desc">${p.desc}</td>
+        <td class="desc">${descCell}</td>
         <td class="num ${qtClass}">${fmt(p.qt, 0)}</td>
         <td class="num preco-on">${fmtR(p.on)}</td>
         <td class="num preco-promo">${fmtR(p.promo)}</td>
