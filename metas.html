@@ -606,7 +606,7 @@
 <script>
 (function () {
   if (!new URLSearchParams(location.search).get('vendedor')) {
-    const HASH = 'f263766e88cba0bf9dfeb6d8f7228a554058f71ac1cb1ca9b0bbfb322b2b7552';
+    const HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
     if (sessionStorage.getItem('rg_auth') !== HASH) {
       sessionStorage.setItem('rg_redirect', location.pathname + location.search);
       location.replace('login.html');
@@ -1120,7 +1120,7 @@ function copyLink(nome, btn) {
 }
 
 function voltarParaTodos() {
-  const HASH = 'f263766e88cba0bf9dfeb6d8f7228a554058f71ac1cb1ca9b0bbfb322b2b7552';
+  const HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
   const senha = prompt('Digite a senha para acessar todos os vendedores:');
   if (senha === null) return;
   crypto.subtle.digest('SHA-256', new TextEncoder().encode(senha))
