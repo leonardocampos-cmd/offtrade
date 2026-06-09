@@ -63,7 +63,9 @@
       "WebFetch(domain:trela.com.br)",
       "WebFetch(domain:www.imigrantesbebidas.com.br)",
       "WebFetch(domain:hotbody.com.br)",
-      "WebFetch(domain:www.caetedistribuidora.com.br)"
+      "WebFetch(domain:www.caetedistribuidora.com.br)",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\pip.exe\" install pdfplumber --quiet 2>&1 | Select-Object -Last 3)",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\pip3.exe\" install pdfplumber --quiet 2>&1 | Select-Object -Last 3)"
     ]
   }
 }
