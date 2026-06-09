@@ -58,23 +58,12 @@ tabela_promo['PRECO_PROMO'] = pd.to_numeric(
 ).round(2)
 preco_promo = tabela_promo.set_index('COD PROMO')['PRECO_PROMO'].to_dict()
 
-# ── 5. Custo (Profit RJ) ──────────────────────────────────────────────────────
-print("Carregando custo...")
-profit = pd.read_excel(
-    r"G:\Drives compartilhados\Profit RJ\Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb",
-    sheet_name='Precificação', skiprows=8
-)
-profit['CODIGO'] = profit['CODIGO'].astype(str).str.strip()
-profit['CUSTO'] = pd.to_numeric(profit['CUSTO COM DESCONTO'], errors='coerce').round(2)
-custo = profit.set_index('CODIGO')['CUSTO'].to_dict()
-
-# ── 6. Monta lista de produtos ────────────────────────────────────────────────
+# ── 5. Monta lista de produtos ────────────────────────────────────────────────
 print("Montando catálogo...")
 produtos = []
 for cod, desc in catalogo.items():
     on = preco_on.get(cod)
     promo = preco_promo.get(cod)
-    custo_val = custo.get(cod)
     qt = estoque.get(cod, 0)
 
     # Status do preço ON vs PROMO
@@ -85,26 +74,13 @@ for cod, desc in catalogo.items():
     else:
         status = '-'
 
-    # Valor em estoque = qtd * preço de referência (ON ou PROMO, menor)
-    preco_ref = None
-    if on and promo:
-        preco_ref = min(on, promo)
-    elif on:
-        preco_ref = on
-    elif promo:
-        preco_ref = promo
-
-    valor_estoque = round(qt * preco_ref, 2) if preco_ref and qt > 0 else 0.0
-
     produtos.append({
         'cod': cod,
         'desc': desc,
         'qt': float(qt),
         'on': on if pd.notna(on) and on else None,
         'promo': promo if pd.notna(promo) and promo else None,
-        'custo': custo_val if pd.notna(custo_val) and custo_val else None,
         'status': status,
-        'valor': valor_estoque,
     })
 
 # Ordena por descrição
@@ -118,6 +94,5 @@ js = f"// Gerado automaticamente em {ts}\nconst CATALOGO_DATA = {json.dumps(prod
 out = HERE / 'catalogo_data.js'
 out.write_text(js, encoding='utf-8')
 
-total_valor = sum(p['valor'] for p in produtos)
 total_qt = sum(p['qt'] for p in produtos if p['qt'] > 0)
-print(f"OK — {len(produtos)} produtos | Estoque total: {total_qt:.0f} un | Valor: R$ {total_valor:,.2f}")
+print(f"OK — {len(produtos)} produtos | Estoque total: {total_qt:.0f} un")

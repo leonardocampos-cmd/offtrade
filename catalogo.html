@@ -138,9 +138,7 @@
         <th data-col="qt" class="num">Estoque</th>
         <th data-col="on" class="num">Preço ON</th>
         <th data-col="promo" class="num">Preço Promo</th>
-        <th data-col="custo" class="num">Custo</th>
         <th data-col="status">Status</th>
-        <th data-col="valor" class="num">Valor Estoque</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
@@ -183,40 +181,32 @@
         : p.status === 'ON'
           ? '<span class="badge badge-on">ON</span>'
           : '<span class="badge badge-dash">—</span>';
-      const valClass = p.valor > 0 ? 'valor-est' : 'zero';
       return `<tr>
         <td class="cod">${p.cod}</td>
         <td class="desc">${p.desc}</td>
         <td class="num ${qtClass}">${fmt(p.qt, 0)}</td>
         <td class="num preco-on">${fmtR(p.on)}</td>
         <td class="num preco-promo">${fmtR(p.promo)}</td>
-        <td class="num preco-custo">${fmtR(p.custo)}</td>
         <td>${badge}</td>
-        <td class="num ${valClass}">${p.valor > 0 ? 'R$ ' + fmt(p.valor) : '—'}</td>
       </tr>`;
     }).join('');
 
     // Rodapé
     const totalQt = dados.reduce((s, p) => s + (p.qt > 0 ? p.qt : 0), 0);
-    const totalVal = dados.reduce((s, p) => s + p.valor, 0);
     document.getElementById('tfoot').innerHTML = `
       <tr>
         <td colspan="2" style="color:var(--muted);font-size:.8rem">${dados.length} produto(s)</td>
         <td class="num">${fmt(totalQt, 0)}</td>
         <td colspan="3"></td>
-        <td></td>
-        <td class="num" style="color:var(--accent)">R$ ${fmt(totalVal)}</td>
       </tr>`;
 
     // Stats
     const comEst = CATALOGO_DATA.filter(p => p.qt > 0).length;
     const emPromo = CATALOGO_DATA.filter(p => p.status === 'PROMO').length;
-    const valTotal = CATALOGO_DATA.reduce((s, p) => s + p.valor, 0);
     document.getElementById('stats').innerHTML = `
       <div class="stat"><div class="stat-val">${CATALOGO_DATA.length}</div><div class="stat-lbl">Produtos</div></div>
       <div class="stat"><div class="stat-val">${comEst}</div><div class="stat-lbl">Com Estoque</div></div>
-      <div class="stat"><div class="stat-val">${emPromo}</div><div class="stat-lbl">Em Promoção</div></div>
-      <div class="stat"><div class="stat-val">R$ ${fmt(valTotal)}</div><div class="stat-lbl">Valor Total</div></div>`;
+      <div class="stat"><div class="stat-val">${emPromo}</div><div class="stat-lbl">Em Promoção</div></div>`;
   }
 
   // Cabeçalho — ordenação

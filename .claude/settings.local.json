@@ -70,7 +70,8 @@
       "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_extract_pdf2.py\")",
       "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_extract_pdf3.py\")",
       "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\exportacao_catalogo.py\")",
-      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_test_imagens.py\")"
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_test_imagens.py\")",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_test_imagens2.py\")"
     ]
   }
 }
