@@ -1,13 +1,13 @@
 const AMARULA_DATA = {
-  "atualizado_em": "09/06/2026 16:01",
+  "atualizado_em": "09/06/2026 16:44",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
-  "total_vendedores": 25,
-  "total_positivacao": 70,
-  "total_faturamento": 34809.56,
+  "total_vendedores": 26,
+  "total_positivacao": 71,
+  "total_faturamento": 34898.46,
   "ranking_positivacao": [
     {
       "vendedor": "JORGE MACIEL",
@@ -34,11 +34,11 @@ const AMARULA_DATA = {
       "valor": 3
     },
     {
-      "vendedor": "JOÃO VITOR BRAGA",
+      "vendedor": "NATALI OLIVEIRA",
       "valor": 2
     },
     {
-      "vendedor": "CARLOS ARTHUR NETO",
+      "vendedor": "JOÃO VITOR BRAGA",
       "valor": 2
     },
     {
@@ -46,11 +46,11 @@ const AMARULA_DATA = {
       "valor": 2
     },
     {
-      "vendedor": "NATALI OLIVEIRA",
+      "vendedor": "CARLOS ARTHUR NETO",
       "valor": 2
     },
     {
-      "vendedor": "BIANCA RODRIGUES",
+      "vendedor": "DIOGO RAPOSO",
       "valor": 1
     },
     {
@@ -62,15 +62,11 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "DIOGO RAPOSO",
+      "vendedor": "BIANCA RODRIGUES",
       "valor": 1
     },
     {
       "vendedor": "LUCIANO TOSCHI - OFF TRADE",
-      "valor": 1
-    },
-    {
-      "vendedor": "LEANDRO SOUZA",
       "valor": 1
     },
     {
@@ -82,11 +78,11 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "PEDRO RANGEL",
+      "vendedor": "LEANDRO SOUZA",
       "valor": 1
     },
     {
-      "vendedor": "RAPHAEL SANTOS - OFF TRADE",
+      "vendedor": "PEDRO RANGEL",
       "valor": 1
     },
     {
@@ -95,6 +91,14 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "RAPHAELA RIBAS",
+      "valor": 1
+    },
+    {
+      "vendedor": "RAPHAEL SANTOS - OFF TRADE",
+      "valor": 1
+    },
+    {
+      "vendedor": "RAQUEL SANTOS",
       "valor": 1
     },
     {
@@ -205,6 +209,10 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "LUCAS MATIAS",
+      "valor": 88.9
+    },
+    {
+      "vendedor": "RAQUEL SANTOS",
       "valor": 88.9
     },
     {
