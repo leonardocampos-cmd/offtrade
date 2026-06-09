@@ -1,6 +1,12 @@
-const _VEND_KEY = 'rg_vendedor';
+const _VEND_KEY  = 'rg_vendedor';
+const _GEST_HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
+
+function isGestor() {
+  return sessionStorage.getItem('rg_auth') === _GEST_HASH;
+}
 
 (function checkVendAuth() {
+  if (isGestor()) return; // gestor tem acesso a todas as páginas
   const raw = sessionStorage.getItem(_VEND_KEY);
   if (!raw) { location.replace('login.html'); return; }
   try {

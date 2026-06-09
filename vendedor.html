@@ -219,7 +219,7 @@
     </div>
     <div class="header-actions">
       <a href="index.html" class="btn-home">Painel</a>
-      <button class="btn-logout" onclick="logoutVendedor()">Sair</button>
+      <button class="btn-logout" onclick="isGestor() ? location.replace('metas.html') : logoutVendedor()">Sair</button>
     </div>
   </header>
 
@@ -228,9 +228,19 @@
   </div>
 
   <script>
-    const sess = getVendedorSession();
-    const RCA  = sess.rca;
-    const NOME = sess.nome;
+    // Gestor pode ver qualquer vendedor via ?rca=XXX; se não tiver rca, vai para metas
+    let RCA, NOME;
+    if (isGestor()) {
+      const paramRca = new URLSearchParams(location.search).get('rca');
+      if (!paramRca) { location.replace('metas.html'); }
+      const vdParam = (METAS_DATA.vendedores || []).find(v => String(v.rca) === String(paramRca));
+      RCA  = paramRca;
+      NOME = vdParam ? vdParam.nome : 'RCA ' + paramRca;
+    } else {
+      const sess = getVendedorSession();
+      RCA  = sess.rca;
+      NOME = sess.nome;
+    }
 
     // Header
     document.getElementById('header-nome').textContent = NOME;
