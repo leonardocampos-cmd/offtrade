@@ -65,8 +65,15 @@
     }
 
     // Já autenticado → redireciona direto
-    if (sessionStorage.getItem('rg_auth') === HASH) {
-      location.replace(sessionStorage.getItem('rg_redirect') || 'index.html');
+    const _stored = sessionStorage.getItem('rg_auth');
+    if (_stored === HASH) {
+      const dest = sessionStorage.getItem('rg_redirect') || 'index.html';
+      sessionStorage.removeItem('rg_redirect');
+      location.replace(dest);
+    } else if (_stored) {
+      // Sessão com hash antigo — limpa para evitar loop de redirect
+      sessionStorage.removeItem('rg_auth');
+      sessionStorage.removeItem('rg_redirect');
     }
 
     document.getElementById('form').addEventListener('submit', async e => {

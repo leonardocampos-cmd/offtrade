@@ -15,6 +15,7 @@ def deploy():
          "entregas_data.js", "amarula_data.js", "clientes_588_data.js",
          "clientes_rca_data.js", "vendedores_auth_data.js",
          "login_vendedor.html", "vendedor.html", "auth_vendedor.js",
+         "login.html", "auth.js",
          "index.html", "metas.html", "sp.html", "entregas.html",
          "amarula.html", "pernod.html", "clientes_rca.html", "moving.html",
         ],
