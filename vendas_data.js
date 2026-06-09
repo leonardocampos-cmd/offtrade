@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/06/2026 14:05",
+  "atualizado_em": "09/06/2026 15:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -125681,33 +125681,6 @@ const VENDAS_DATA = {
           "valor": 135.0
         },
         {
-          "data": "27/05/2026",
-          "codcli": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 257.4
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 257.4
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "produto": "WHISKY J WALKER BLACK LABEL 1L",
-          "fantasia": "DIAGEO",
-          "qt": 6,
-          "valor": 1079.4
-        },
-        {
           "data": "13/05/2026",
           "codcli": "79194",
           "cliente": "JOSELUCIA DOS SANTOS MARTINS LTDA",
@@ -125868,33 +125841,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 6,
           "valor": 209.4
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "93868",
-          "cliente": "AVALON MERCEARIA DA TERRA LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "93868",
-          "cliente": "AVALON MERCEARIA DA TERRA LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 4,
-          "valor": 261.12
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "93868",
-          "cliente": "AVALON MERCEARIA DA TERRA LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 4,
-          "valor": 261.12
         },
         {
           "data": "05/05/2026",
@@ -136067,195 +136013,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 24,
           "valor": 597.6
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "AGUA DE COCO TIAL 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 261.6
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "NECTAR GOIABA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 3,
-          "valor": 179.64
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "NECTAR MACA TIAL 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "NECTAR MARACUJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 4,
-          "valor": 239.52
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "NECTAR PESSEGO 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 3,
-          "valor": 179.64
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "NECTAR CAJU 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "NECTAR ABACAXI 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 105.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE ZERO LATA LARANJA  LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 105.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE ZERO LATA GUARANA  LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 105.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE ZERO LATA COLA  LT24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 105.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 45.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 45.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 45.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 105.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 45.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 91.9
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 91.9
         },
         {
           "data": "05/05/2026",
