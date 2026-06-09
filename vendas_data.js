@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/06/2026 16:01",
+  "atualizado_em": "09/06/2026 16:44",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -110052,6 +110052,51 @@ const VENDAS_DATA = {
           "valor": 160.3
         },
         {
+          "data": "09/06/2026",
+          "codcli": "74838",
+          "cliente": "PRIME MARKETS MINIMERCADO LTDA",
+          "produto": "SUCO MANGA 100% TIAL 12X1000 ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 125.28
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "74838",
+          "cliente": "PRIME MARKETS MINIMERCADO LTDA",
+          "produto": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 129.12
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "74838",
+          "cliente": "PRIME MARKETS MINIMERCADO LTDA",
+          "produto": "CHA MATE COM LIMAO DO BEM 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 105.36
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "74838",
+          "cliente": "PRIME MARKETS MINIMERCADO LTDA",
+          "produto": "REFRESCO DE UVA MINECRAFT 24X200ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 35.76
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "74838",
+          "cliente": "PRIME MARKETS MINIMERCADO LTDA",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 286.8
+        },
+        {
           "data": "08/06/2026",
           "codcli": "79504",
           "cliente": "GELO OESTE COMERCIO LTDA.",
@@ -117765,42 +117810,6 @@ const VENDAS_DATA = {
           "valor": 430.8
         },
         {
-          "data": "06/05/2026",
-          "codcli": "83705",
-          "cliente": "MERCADO RIO SUL DE CAMPO GRANDE LTDA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 99.9
-        },
-        {
-          "data": "06/05/2026",
-          "codcli": "83705",
-          "cliente": "MERCADO RIO SUL DE CAMPO GRANDE LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 99.9
-        },
-        {
-          "data": "06/05/2026",
-          "codcli": "83705",
-          "cliente": "MERCADO RIO SUL DE CAMPO GRANDE LTDA",
-          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 51.9
-        },
-        {
-          "data": "06/05/2026",
-          "codcli": "83705",
-          "cliente": "MERCADO RIO SUL DE CAMPO GRANDE LTDA",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 51.9
-        },
-        {
           "data": "07/05/2026",
           "codcli": "83705",
           "cliente": "MERCADO RIO SUL DE CAMPO GRANDE LTDA",
@@ -118035,42 +118044,6 @@ const VENDAS_DATA = {
           "valor": 29.4
         },
         {
-          "data": "06/05/2026",
-          "codcli": "90387",
-          "cliente": "MERCADO RIO SUL DE PEDRA DE GUARATIBA LTDA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 99.9
-        },
-        {
-          "data": "06/05/2026",
-          "codcli": "90387",
-          "cliente": "MERCADO RIO SUL DE PEDRA DE GUARATIBA LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 99.9
-        },
-        {
-          "data": "06/05/2026",
-          "codcli": "90387",
-          "cliente": "MERCADO RIO SUL DE PEDRA DE GUARATIBA LTDA",
-          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 51.9
-        },
-        {
-          "data": "06/05/2026",
-          "codcli": "90387",
-          "cliente": "MERCADO RIO SUL DE PEDRA DE GUARATIBA LTDA",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 51.9
-        },
-        {
           "data": "07/05/2026",
           "codcli": "90387",
           "cliente": "MERCADO RIO SUL DE PEDRA DE GUARATIBA LTDA",
@@ -118141,114 +118114,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 3,
           "valor": 104.7
-        },
-        {
-          "data": "06/05/2026",
-          "codcli": "90388",
-          "cliente": "SUPERMERCADO JPA LTDA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 99.9
-        },
-        {
-          "data": "06/05/2026",
-          "codcli": "90388",
-          "cliente": "SUPERMERCADO JPA LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 99.9
-        },
-        {
-          "data": "06/05/2026",
-          "codcli": "90388",
-          "cliente": "SUPERMERCADO JPA LTDA",
-          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 51.9
-        },
-        {
-          "data": "06/05/2026",
-          "codcli": "90388",
-          "cliente": "SUPERMERCADO JPA LTDA",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 51.9
-        },
-        {
-          "data": "07/05/2026",
-          "codcli": "90388",
-          "cliente": "SUPERMERCADO JPA LTDA",
-          "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "PERNOD",
-          "qt": 18,
-          "valor": 1348.2
-        },
-        {
-          "data": "07/05/2026",
-          "codcli": "90388",
-          "cliente": "SUPERMERCADO JPA LTDA",
-          "produto": "GIN ROCKS GREEN APPLE 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 135.0
-        },
-        {
-          "data": "07/05/2026",
-          "codcli": "90388",
-          "cliente": "SUPERMERCADO JPA LTDA",
-          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 135.0
-        },
-        {
-          "data": "07/05/2026",
-          "codcli": "90388",
-          "cliente": "SUPERMERCADO JPA LTDA",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 135.0
-        },
-        {
-          "data": "07/05/2026",
-          "codcli": "90388",
-          "cliente": "SUPERMERCADO JPA LTDA",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "fantasia": "CATUABA",
-          "qt": 12,
-          "valor": 202.8
-        },
-        {
-          "data": "07/05/2026",
-          "codcli": "90388",
-          "cliente": "SUPERMERCADO JPA LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 209.4
-        },
-        {
-          "data": "07/05/2026",
-          "codcli": "90388",
-          "cliente": "SUPERMERCADO JPA LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 3,
-          "valor": 104.7
-        },
-        {
-          "data": "07/05/2026",
-          "codcli": "90388",
-          "cliente": "SUPERMERCADO JPA LTDA",
-          "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-          "fantasia": "INTERFOOD",
-          "qt": 3,
-          "valor": 269.7
         },
         {
           "data": "14/05/2026",
