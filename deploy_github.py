@@ -16,7 +16,7 @@ def deploy():
          "clientes_rca_data.js", "vendedores_auth_data.js",
          "login_vendedor.html", "vendedor.html", "auth_vendedor.js",
          "index.html", "metas.html", "sp.html", "entregas.html",
-         "amarula.html", "pernod.html", "clientes_rca.html",
+         "amarula.html", "pernod.html", "clientes_rca.html", "moving.html",
         ],
         ["git", "commit", "--allow-empty", "-m", f"Auto-update {data}"],
         ["git", "push", "origin", "master"],

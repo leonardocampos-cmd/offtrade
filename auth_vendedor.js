@@ -5,7 +5,7 @@ const _VEND_KEY = 'rg_vendedor';
   if (!raw) { location.replace('login_vendedor.html'); return; }
   try {
     const s = JSON.parse(raw);
-    if (!s.rca || !s.email) throw 0;
+    if (!s.rca || !s.nome) throw 0;
   } catch {
     sessionStorage.removeItem(_VEND_KEY);
     location.replace('login_vendedor.html');

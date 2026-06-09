@@ -24,12 +24,10 @@
     }
     .logo { font-size: 1.4rem; font-weight: 800; color: var(--accent); letter-spacing: -.02em; text-align: center; }
     .logo span { color: var(--muted); font-weight: 400; font-size: .88rem; display: block; margin-top: 4px; }
-    .field { width: 100%; display: flex; flex-direction: column; gap: 7px; }
-    label {
-      font-size: .75rem; color: var(--muted);
-      text-transform: uppercase; letter-spacing: .06em;
-    }
-    input[type=number] {
+    form { width: 100%; display: flex; flex-direction: column; gap: 14px; }
+    .field { display: flex; flex-direction: column; gap: 7px; }
+    label { font-size: .75rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+    input[type=number], input[type=password] {
       width: 100%; padding: 12px 14px; border-radius: 8px;
       border: 1px solid var(--border); background: var(--bg);
       color: var(--text); font-size: 1.3rem; outline: none;
@@ -39,26 +37,17 @@
     }
     input[type=number]::-webkit-outer-spin-button,
     input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; }
-    input[type=number]:focus { border-color: var(--accent); }
-    input[type=number]::placeholder {
-      font-weight: 400; font-size: .95rem; letter-spacing: normal; color: var(--muted);
+    input[type=number]:focus, input[type=password]:focus { border-color: var(--accent); }
+    input::placeholder { font-weight: 400; font-size: .95rem; letter-spacing: normal; color: var(--muted); }
+    button {
+      width: 100%; padding: 11px; border-radius: 8px;
+      background: var(--accent); color: #111; font-size: .95rem;
+      font-weight: 700; border: none; cursor: pointer;
+      transition: background .15s; font-family: inherit;
     }
-    .divider {
-      width: 100%; display: flex; align-items: center; gap: 10px;
-      color: var(--muted); font-size: .75rem;
-    }
-    .divider::before, .divider::after {
-      content: ''; flex: 1; height: 1px; background: var(--border);
-    }
-    #google-btn-wrap { width: 100%; display: flex; justify-content: center; min-height: 44px; }
-    .erro {
-      font-size: .82rem; color: var(--red); text-align: center;
-      min-height: 20px; line-height: 1.4;
-    }
-    .back {
-      color: var(--muted); font-size: .78rem; text-decoration: none;
-      transition: color .15s;
-    }
+    button:hover { background: #d4a90e; }
+    .erro { font-size: .82rem; color: var(--red); text-align: center; min-height: 20px; line-height: 1.4; }
+    .back { color: var(--muted); font-size: .78rem; text-decoration: none; transition: color .15s; }
     .back:hover { color: var(--text); }
   </style>
 </head>
@@ -66,93 +55,59 @@
   <div class="box">
     <div class="logo">Rigarr <span>Área do Vendedor</span></div>
 
-    <div class="field">
-      <label for="rca">CODUSUR / RCA</label>
-      <input type="number" id="rca" placeholder="Ex: 275" autocomplete="off" autofocus>
-    </div>
-
-    <div class="divider">entrar com</div>
-
-    <div id="google-btn-wrap"></div>
-
-    <div class="erro" id="erro"></div>
+    <form id="form">
+      <div class="field">
+        <label for="rca">CODUSUR / RCA</label>
+        <input type="number" id="rca" placeholder="Ex: 275" autocomplete="off" autofocus>
+      </div>
+      <div class="field">
+        <label for="pin">Senha</label>
+        <input type="password" id="pin" placeholder="······" autocomplete="off">
+      </div>
+      <button type="submit">Entrar</button>
+      <div class="erro" id="erro"></div>
+    </form>
 
     <a href="index.html" class="back">← Voltar ao painel</a>
   </div>
 
-  <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script>
-    const CLIENT_ID = '966004363576-ucdlgkjtsfffspp03fiqib2dchp012fs.apps.googleusercontent.com';
+    const PIN_HASH = 'f263766e88cba0bf9dfeb6d8f7228a554058f71ac1cb1ca9b0bbfb322b2b7552';
 
     // Já autenticado → vai direto
     try {
       const s = JSON.parse(sessionStorage.getItem('rg_vendedor') || '{}');
-      if (s.rca && s.email) location.replace('vendedor.html');
+      if (s.rca && s.nome) location.replace('vendedor.html');
     } catch {}
 
-    function showErro(msg) {
-      document.getElementById('erro').textContent = msg;
+    async function sha256(str) {
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
     }
 
-    function handleCredential(response) {
-      showErro('');
+    document.getElementById('form').addEventListener('submit', async e => {
+      e.preventDefault();
       const rca = document.getElementById('rca').value.trim();
+      const pin = document.getElementById('pin').value;
+      const erro = document.getElementById('erro');
+      erro.textContent = '';
 
-      if (!rca) {
-        showErro('Digite seu CODUSUR antes de entrar com Google.');
-        return;
-      }
+      if (!rca) { erro.textContent = 'Digite seu CODUSUR.'; return; }
+      if (!pin)  { erro.textContent = 'Digite a senha.'; return; }
 
       const vendedor = VENDEDORES_AUTH[rca];
-      if (!vendedor) {
-        showErro('CODUSUR não encontrado. Verifique o número.');
-        return;
-      }
+      if (!vendedor) { erro.textContent = 'CODUSUR não encontrado.'; return; }
 
-      let payload;
-      try {
-        const b64 = response.credential.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
-        payload = JSON.parse(atob(b64 + '==='.slice((b64.length % 4) || 4)));
-      } catch {
-        showErro('Erro ao processar credencial Google. Tente novamente.');
-        return;
-      }
-
-      const googleEmail = (payload.email || '').toLowerCase();
-
-      if (!vendedor.email) {
-        showErro('E-mail não configurado para este RCA. Contate o administrador.');
-        return;
-      }
-
-      if (googleEmail !== vendedor.email.toLowerCase()) {
-        showErro('Conta Google não corresponde ao CODUSUR informado.');
-        if (googleEmail) google.accounts.id.revoke(googleEmail, () => {});
-        return;
-      }
+      const hash = await sha256(pin);
+      if (hash !== PIN_HASH) { erro.textContent = 'Senha incorreta.'; return; }
 
       sessionStorage.setItem('rg_vendedor', JSON.stringify({
         rca,
         nome: vendedor.nome,
-        email: googleEmail,
-        nome_google: payload.name || vendedor.nome,
+        email: vendedor.email || '',
       }));
 
       location.replace('vendedor.html');
-    }
-
-    window.addEventListener('load', () => {
-      if (typeof google === 'undefined') return;
-      google.accounts.id.initialize({
-        client_id: CLIENT_ID,
-        callback: handleCredential,
-        auto_select: false,
-        cancel_on_tap_outside: true,
-      });
-      google.accounts.id.renderButton(
-        document.getElementById('google-btn-wrap'),
-        { theme: 'filled_black', size: 'large', shape: 'rectangular', width: 288, locale: 'pt-BR' }
-      );
     });
   </script>
 </body>

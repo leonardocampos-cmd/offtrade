@@ -1,4 +1,4 @@
-const _AUTH_HASH = 'f263766e88cba0bf9dfeb6d8f7228a554058f71ac1cb1ca9b0bbfb322b2b7552';
+const _AUTH_HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
 const _AUTH_KEY  = 'rg_auth';
 
 async function _sha256(str) {
