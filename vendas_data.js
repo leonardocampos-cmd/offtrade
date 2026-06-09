@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/06/2026 10:29",
+  "atualizado_em": "09/06/2026 11:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -94768,15 +94768,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 12,
           "valor": 394.8
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "80355",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 117.96
         },
         {
           "data": "06/06/2026",
