@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/06/2026 09:49",
+  "atualizado_em": "09/06/2026 10:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -94390,15 +94390,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 60,
           "valor": 1974.0
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUMANTE BRUT QUINTA DMORGADO 660ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 123.54
         },
         {
           "data": "06/06/2026",
