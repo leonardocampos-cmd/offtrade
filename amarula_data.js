@@ -1,13 +1,13 @@
 const AMARULA_DATA = {
-  "atualizado_em": "08/06/2026 18:01",
+  "atualizado_em": "09/06/2026 09:48",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 25,
-  "total_positivacao": 68,
-  "total_faturamento": 34721.66,
+  "total_positivacao": 69,
+  "total_faturamento": 34719.66,
   "ranking_positivacao": [
     {
       "vendedor": "JORGE MACIEL",
@@ -26,12 +26,12 @@ const AMARULA_DATA = {
       "valor": 4
     },
     {
-      "vendedor": "THIAGO NASCIMENTO",
+      "vendedor": "LAIS POPPE VILLANOVA",
       "valor": 3
     },
     {
-      "vendedor": "LAIS POPPE VILLANOVA",
-      "valor": 2
+      "vendedor": "THIAGO NASCIMENTO",
+      "valor": 3
     },
     {
       "vendedor": "JOÃO VITOR BRAGA",
@@ -137,11 +137,11 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "LAIS POPPE VILLANOVA",
-      "valor": 763.2
+      "valor": 939.0
     },
     {
       "vendedor": "INGRID ARAUJO",
-      "valor": 711.2
+      "valor": 622.3
     },
     {
       "vendedor": "NATALI OLIVEIRA",
@@ -152,12 +152,12 @@ const AMARULA_DATA = {
       "valor": 533.4
     },
     {
-      "vendedor": "THIAGO NASCIMENTO",
-      "valor": 447.5
-    },
-    {
       "vendedor": "CARLOS ARTHUR NETO",
       "valor": 444.5
+    },
+    {
+      "vendedor": "THIAGO NASCIMENTO",
+      "valor": 358.6
     },
     {
       "vendedor": "BIANCA RODRIGUES",
