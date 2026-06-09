@@ -4,7 +4,7 @@
   <script src="auth.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Campanha MOVING - Abril 2026</title>
+  <title>Campanha MOVING - Junho 2026</title>
   <script src="metas_data.js"></script>
   <style>
     * { box-sizing:border-box; margin:0; padding:0; }
@@ -34,6 +34,17 @@
     .camp-premio-label { font-size:.62rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin-bottom:4px; }
     .camp-premio-val { font-size:1.1rem; font-weight:800; color:var(--accent); }
 
+    /* Produtos Moving */
+    .produtos-section { margin-bottom:20px; }
+    .produtos-title-bar { display:flex; align-items:center; gap:8px; margin-bottom:12px; }
+    .produtos-title { font-size:.75rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); font-weight:700; }
+    .produtos-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:10px; }
+    .produto-card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:14px; transition:border-color .2s; }
+    .produto-card:hover { border-color:var(--accent); }
+    .produto-nome { font-size:.82rem; font-weight:700; color:var(--accent-light); margin-bottom:4px; }
+    .produto-desc { font-size:.72rem; color:var(--muted); line-height:1.5; }
+    .produto-desc mark { background:transparent; color:var(--accent); font-weight:700; }
+
     .gatilho-box { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; margin-bottom:20px; }
     .gatilho-title { font-size:.7rem; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); margin-bottom:10px; }
     .gatilho-label { display:flex; justify-content:space-between; align-items:center; font-size:.8rem; margin-bottom:8px; }
@@ -60,6 +71,7 @@
     .rank-fat { font-size:.82rem; color:var(--accent-light); white-space:nowrap; }
     .rank-pct-box { text-align:right; flex-shrink:0; }
     .rank-pct { font-size:.7rem; font-weight:700; padding:2px 7px; border-radius:4px; }
+    .rank-meta { font-size:.68rem; color:var(--muted); margin-top:2px; display:block; text-align:right; }
     .rank-prize { font-size:.88rem; font-weight:800; color:var(--accent); white-space:nowrap; }
     .rank-prize-tag { display:block; background:var(--accent); color:#000; font-size:.6rem; font-weight:800; padding:1px 7px; border-radius:4px; margin-top:3px; text-align:center; }
     .rank-gatilho-off { font-size:.6rem; color:var(--muted); margin-top:2px; display:block; text-align:right; }
@@ -68,7 +80,7 @@
     footer { text-align:center; margin-top:20px; padding-top:16px; border-top:1px solid var(--border); color:var(--muted); font-size:.72rem; }
     footer strong { color:var(--text); }
 
-    @media(max-width:560px) { header h1 { font-size:1.4rem; } }
+    @media(max-width:560px) { header h1 { font-size:1.4rem; } .produtos-grid { grid-template-columns:1fr 1fr; } }
   </style>
 </head>
 <body>
@@ -76,14 +88,47 @@
   <a class="nav-back" href="index.html">&#8592; Home</a>
 
   <header>
-    <div class="camp-badge">Encerrada &mdash; Abril 2026</div>
+    <div class="camp-badge">Em Andamento &mdash; Junho 2026</div>
     <h1>Campanha MOVING</h1>
-    <p class="camp-sub">Off Trade RJ &middot; Abril 2026 &middot; Premio = 5% do faturamento individual</p>
+    <p class="camp-sub">Off Trade RJ &middot; Junho 2026 &middot; Prêmio = 5% do faturamento Moving individual</p>
     <div class="camp-premio-box">
-      <div class="camp-premio-label">Premio (se gatilho atingido)</div>
+      <div class="camp-premio-label">Prêmio (se gatilho atingido)</div>
       <div class="camp-premio-val">5% do Faturamento Moving individual</div>
     </div>
   </header>
+
+  <!-- Produtos Moving -->
+  <div class="produtos-section">
+    <div class="produtos-title-bar">
+      <span class="produtos-title">Portfólio Moving</span>
+    </div>
+    <div class="produtos-grid">
+      <div class="produto-card">
+        <div class="produto-nome">Moving Vodka</div>
+        <div class="produto-desc">Vodka premium da linha <mark>Moving</mark>, destilada quatro vezes para pureza e suavidade excepcionais.</div>
+      </div>
+      <div class="produto-card">
+        <div class="produto-nome">Moving Gin</div>
+        <div class="produto-desc">Gin artesanal <mark>Moving</mark> com botânicos selecionados, notas cítricas e toque floral refrescante.</div>
+      </div>
+      <div class="produto-card">
+        <div class="produto-nome">Moving Rum</div>
+        <div class="produto-desc">Rum envelhecido <mark>Moving</mark> com perfil equilibrado, notas de baunilha e caramelo leve.</div>
+      </div>
+      <div class="produto-card">
+        <div class="produto-nome">Moving Whisky</div>
+        <div class="produto-desc">Blend cuidadosamente selecionado da marca <mark>Moving</mark>, suave e versátil para o dia a dia.</div>
+      </div>
+      <div class="produto-card">
+        <div class="produto-nome">Moving Tequila</div>
+        <div class="produto-desc">Tequila <mark>Moving</mark> 100% agave azul, com sabor marcante e finalização limpa.</div>
+      </div>
+      <div class="produto-card">
+        <div class="produto-nome">Moving Cachaça</div>
+        <div class="produto-desc">Cachaça artesanal <mark>Moving</mark> de alambique, com complexidade aromática e origem garantida.</div>
+      </div>
+    </div>
+  </div>
 
   <div class="gatilho-box">
     <div class="gatilho-title">Gatilho de Equipe</div>
@@ -92,21 +137,37 @@
 
   <div class="rank-card">
     <div class="rank-header">
-      <span class="rank-title">Faturamento MOVING por Vendedor</span>
-      <span class="rank-note" id="rank-note">Abril 2026</span>
+      <span class="rank-title">Apuração Moving por Vendedor — RJ</span>
+      <span class="rank-note" id="rank-note">Junho 2026</span>
     </div>
     <div class="rank-list" id="rank-list"></div>
   </div>
 
   <footer>
-    Atualizado em <strong id="atualizado"></strong> &middot; Campanha MOVING &middot; Abril 2026
+    Atualizado em <strong id="atualizado"></strong> &middot; Campanha MOVING &middot; Junho 2026
   </footer>
 
   <script>
-    const MES = 'Abr/26';
-    const GATILHO = 127000;
+    const MES = 'Jun/26';
+    const GATILHO = 120000;
     const PCT = 0.05;
-    const METAS_IND = {'156':35000,'275':7000,'431':18000,'144':2000,'378':10000,'412':5000,'153':9000,'238':6000,'419':7000,'439':5000,'417':7000,'379':5000,'450':5000,'471':3000,'158':3000};
+    const METAS_IND = {
+      '156': 33000,  // MARILENA TRAGEL
+      '275': 11000,  // MARIA LUIZA
+      '431': 11000,  // ADEILSON GONÇALVES
+      '144':  4000,  // DIOGO RAPOSO
+      '378': 11000,  // FABIO VALOTTI
+      '412':  6000,  // BARBARA CABRAL
+      '153':  8000,  // ANGELO MOURA
+      '238':  5000,  // DANIELLE MOURA
+      '419':  7000,  // NÁTALI DE OLIVEIRA
+      '439':  3000,  // MATEUS CARDOSO
+      '417':  5000,  // DIRLEI ARAÚJO
+      '379':  4000,  // JORGE MACIEL
+      '450':  6000,  // LEANDRO PEREIRA
+      '471':  3000,  // ANA CLARA
+      '158':  3000   // JOSE MARCELO
+    };
     const MEDALS = ['🥇','🥈','🥉'];
 
     document.getElementById('atualizado').textContent = METAS_DATA.atualizado_em;
@@ -114,20 +175,22 @@
     function _pm(v) { return (v.por_mes && v.por_mes[MES]) || {}; }
     const fmtFat = v => 'R$ ' + v.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
 
-    const rows = METAS_DATA.vendedores.map(v => {
-      const fat    = ((_pm(v).fat_moving) || {}).realizado || 0;
-      const metaInd = METAS_IND[v.rca] || 0;
-      return { nome:v.nome, rca:v.rca, fat, metaInd };
-    }).filter(r => r.fat > 0 || r.metaInd > 0);
+    const rows = METAS_DATA.vendedores
+      .filter(v => METAS_IND[v.rca] !== undefined)
+      .map(v => {
+        const fat     = (_pm(v).fat_moving || {}).realizado || 0;
+        const metaInd = METAS_IND[v.rca];
+        return { nome: v.nome, rca: v.rca, fat, metaInd };
+      });
 
-    const totalFat = rows.reduce((s,r) => s + r.fat, 0);
+    const totalFat  = rows.reduce((s, r) => s + r.fat, 0);
     const gatilhoOk = totalFat >= GATILHO;
 
     // Gatilho bar
-    const p = Math.min((totalFat / GATILHO) * 100, 100);
+    const p   = Math.min((totalFat / GATILHO) * 100, 100);
     const cls = p >= 100 ? 'g' : p >= 70 ? 'y' : 'r';
     const badgeHtml = gatilhoOk
-      ? '<span class="gatilho-ok">Gatilho ativado — premios liberados</span>'
+      ? '<span class="gatilho-ok">✓ Gatilho ativado — prêmios liberados</span>'
       : `<span class="gatilho-pct-${cls}">${p.toFixed(1)}%</span>`;
     document.getElementById('gatilho-bar').innerHTML = `
       <div class="gatilho-label">
@@ -136,36 +199,44 @@
       </div>
       <div class="bar-bg"><div class="bar-fill bar-${cls}" style="width:${p}%"></div></div>`;
 
-    // Ranking
-    const sorted = [...rows].sort((a,b) => b.fat - a.fat);
+    // Ranking — ordenado por % da meta para empates resolverem por valor absoluto
+    const sorted = [...rows].sort((a, b) => {
+      const pA = a.metaInd > 0 ? a.fat / a.metaInd : 0;
+      const pB = b.metaInd > 0 ? b.fat / b.metaInd : 0;
+      return pB - pA || b.fat - a.fat;
+    });
+
     const el = document.getElementById('rank-list');
-    if (!sorted.length) {
-      el.innerHTML = '<div class="rank-empty">Sem vendas Moving registradas.</div>';
-    } else {
-      el.innerHTML = sorted.map((r, i) => {
-        const pctMeta = r.metaInd > 0 ? Math.min((r.fat/r.metaInd)*100, 999) : null;
-        const pctCls  = pctMeta !== null ? (pctMeta>=100?'g':pctMeta>=70?'y':'r') : null;
-        const pctDisp = pctMeta !== null ? (pctMeta>999?'>999':pctMeta.toFixed(0)+'%') : '—';
-        const atingiu = r.metaInd > 0 && r.fat >= r.metaInd;
-        const premio  = gatilhoOk ? r.fat * PCT : null;
-        const pos = i < 3 ? MEDALS[i] : i+1;
+    el.innerHTML = sorted.map((r, i) => {
+      const pctMeta = r.metaInd > 0 ? Math.min((r.fat / r.metaInd) * 100, 999) : null;
+      const pctCls  = pctMeta !== null ? (pctMeta >= 100 ? 'g' : pctMeta >= 70 ? 'y' : 'r') : null;
+      const pctDisp = pctMeta !== null ? (pctMeta > 999 ? '>999' : pctMeta.toFixed(0) + '%') : '—';
+      const premio  = gatilhoOk ? r.fat * PCT : null;
+      const pos     = i < 3 ? MEDALS[i] : i + 1;
 
-        const rightHtml = gatilhoOk
+      const pctColor = pctCls === 'g'
+        ? '74,222,128' : pctCls === 'y'
+        ? '234,179,8'  : '239,68,68';
+      const pctVar   = pctCls === 'g' ? '--green' : pctCls === 'y' ? '--yellow' : '--red';
+
+      const rightHtml = r.fat === 0
+        ? `<span class="rank-gatilho-off">Sem vendas</span>`
+        : gatilhoOk
           ? `<span class="rank-prize-tag">${fmtFat(premio)}</span>`
-          : `<span class="rank-gatilho-off">Gatilho nao atingido</span>`;
+          : `<span class="rank-gatilho-off">Gatilho não atingido</span>`;
 
-        return `
-          <div class="rank-row${i===0?' primeiro':''}">
-            <span class="rank-pos">${pos}</span>
-            <span class="rank-nome" title="${r.nome}">${r.nome}</span>
-            <span class="rank-fat">${fmtFat(r.fat)}</span>
-            <div class="rank-pct-box">
-              ${pctCls ? `<span class="rank-pct rank-pct-${pctCls}" style="background:rgba(${pctCls==='g'?'74,222,128':pctCls==='y'?'234,179,8':'239,68,68'},.15);color:var(--${pctCls==='g'?'green':pctCls==='y'?'yellow':'red'})">${pctDisp} da meta</span>` : ''}
-              ${rightHtml}
-            </div>
-          </div>`;
-      }).join('');
-    }
+      return `
+        <div class="rank-row${i === 0 && r.fat > 0 ? ' primeiro' : ''}">
+          <span class="rank-pos">${pos}</span>
+          <span class="rank-nome" title="${r.nome}">${r.nome}</span>
+          <span class="rank-fat">${fmtFat(r.fat)}</span>
+          <div class="rank-pct-box">
+            ${pctCls ? `<span class="rank-pct" style="background:rgba(${pctColor},.15);color:var(${pctVar})">${pctDisp} da meta</span>` : ''}
+            <span class="rank-meta">Meta: ${fmtFat(r.metaInd)}</span>
+            ${rightHtml}
+          </div>
+        </div>`;
+    }).join('');
   </script>
 </body>
 </html>
