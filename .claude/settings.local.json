@@ -65,7 +65,12 @@
       "WebFetch(domain:hotbody.com.br)",
       "WebFetch(domain:www.caetedistribuidora.com.br)",
       "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\pip.exe\" install pdfplumber --quiet 2>&1 | Select-Object -Last 3)",
-      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\pip3.exe\" install pdfplumber --quiet 2>&1 | Select-Object -Last 3)"
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\pip3.exe\" install pdfplumber --quiet 2>&1 | Select-Object -Last 3)",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_extract_pdf.py\")",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_extract_pdf2.py\")",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_extract_pdf3.py\")",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\exportacao_catalogo.py\")",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_test_imagens.py\")"
     ]
   }
 }

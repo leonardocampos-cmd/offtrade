@@ -101,10 +101,25 @@ def main():
             print("[AVISO] exportacao_vendedores_auth falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("9/10 - Enviando alerta WhatsApp")
+        step("9/11 - Catálogo com estoque (catalogo_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_catalogo.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_catalogo falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_catalogo falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
+        step("10/11 - Enviando alerta WhatsApp")
         import envio_whatsapp
 
-        step("10/10 - Deploy para VPS + GitHub Pages")
+        step("11/11 - Deploy para VPS + GitHub Pages")
         for script in ["deploy_vps.py", "deploy_github.py"]:
             try:
                 import subprocess, sys as _sys
