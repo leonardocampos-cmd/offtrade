@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/06/2026 15:01",
+  "atualizado_em": "09/06/2026 15:22",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -38834,6 +38834,60 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 3,
           "valor": 575.28
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "85383",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 204.0
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "85383",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 6,
+          "valor": 95.4
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "85383",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "fantasia": "JURUPINGA",
+          "qt": 6,
+          "valor": 138.0
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "85383",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 155.4
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "85383",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "85383",
+          "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 130.8
         },
         {
           "data": "04/06/2026",
@@ -136013,24 +136067,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 24,
           "valor": 597.6
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
-          "qt": 12,
-          "valor": 226.68
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "84059",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 131.4
         },
         {
           "data": "14/05/2026",
