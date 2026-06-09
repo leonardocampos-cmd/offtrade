@@ -275,6 +275,9 @@
         </div>`;
     }
 
+    // RCAs participantes da Campanha Moving Junho 2026
+    const MOVING_RCAS = ['156','275','431','144','378','412','153','238','419','439','417','379','450','471','158'];
+
     // ── Busca dados do vendedor ──────────────────────────────────
     const vd = (METAS_DATA.vendedores || []).find(v => String(v.rca) === String(RCA));
     const container = document.getElementById('container');
@@ -286,6 +289,23 @@
           <a href="index.html" style="color:var(--accent)">← Voltar ao painel</a>
         </div>`;
     } else {
+      // Banner Moving (só para participantes RJ)
+      if (MOVING_RCAS.includes(String(RCA))) {
+        const movBanner = document.createElement('a');
+        movBanner.href = 'moving.html';
+        movBanner.className = 'moving-banner';
+        movBanner.innerHTML = `
+          <div class="moving-banner-left">
+            <span class="moving-banner-icon">💪</span>
+            <div>
+              <div class="moving-banner-title">Campanha MOVING — Junho 2026</div>
+              <div class="moving-banner-sub">Prêmio: 5% do seu faturamento Moving · Gatilho de equipe R$ 120.000</div>
+            </div>
+          </div>
+          <span class="moving-banner-btn">Ver Apuração →</span>`;
+        document.getElementById('container').before(movBanner);
+      }
+
       const meses = METAS_DATA.meses || [];
       const mesAtual = meses[0];
       const dadosMes = vd.por_mes?.[mesAtual] || {};
