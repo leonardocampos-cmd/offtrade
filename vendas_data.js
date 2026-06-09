@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/06/2026 10:02",
+  "atualizado_em": "09/06/2026 10:29",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -93999,15 +93999,6 @@ const VENDAS_DATA = {
           "data": "06/06/2026",
           "codcli": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
-          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 117.96
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "28385",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "produto": "GIN ROCKS 1000ML",
           "fantasia": "FANTE",
           "qt": 6,
@@ -94903,15 +94894,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 12,
           "valor": 152.76
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 117.96
         },
         {
           "data": "06/06/2026",
