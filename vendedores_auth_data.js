@@ -1,4 +1,4 @@
-// Gerado em 09/06/2026 12:49
+// Gerado em 09/06/2026 12:58
 const VENDEDORES_AUTH = {
   "391": {
     "nome": "ANDRE SILVA - OFF TRADE",
