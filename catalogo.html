@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo — Rigarr Off Trade</title>
+  <script src="auth.js"></script>
+  <script src="catalogo_data.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --border: #2d3144;
+      --text: #e2e8f0; --muted: #94a3b8; --accent: #f5c518;
+      --green: #10b981; --blue: #3b82f6; --orange: #f59e0b; --red: #ef4444;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 14px; padding-bottom: 40px;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 14px 20px; display: flex; align-items: center;
+      gap: 12px; position: sticky; top: 0; z-index: 100;
+    }
+    .header a { color: var(--muted); text-decoration: none; font-size: .85rem; }
+    .header a:hover { color: var(--text); }
+    .header h1 { font-size: 1.1rem; font-weight: 700; color: var(--text); flex: 1; }
+
+    /* ── Toolbar ── */
+    .toolbar {
+      padding: 16px 20px; display: flex; flex-wrap: wrap;
+      gap: 12px; align-items: center;
+    }
+    .search-box {
+      flex: 1; min-width: 220px; max-width: 400px;
+      padding: 9px 14px; background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; color: var(--text); font-size: .9rem; outline: none;
+    }
+    .search-box:focus { border-color: var(--accent); }
+    .search-box::placeholder { color: var(--muted); }
+
+    .filter-group { display: flex; gap: 8px; flex-wrap: wrap; }
+    .filter-btn {
+      padding: 7px 14px; border-radius: 20px; border: 1px solid var(--border);
+      background: transparent; color: var(--muted); font-size: .8rem;
+      cursor: pointer; transition: all .15s;
+    }
+    .filter-btn.active, .filter-btn:hover {
+      background: var(--accent); border-color: var(--accent); color: #000;
+    }
+
+    .stat-bar {
+      padding: 0 20px 14px; display: flex; gap: 20px; flex-wrap: wrap;
+    }
+    .stat { display: flex; flex-direction: column; gap: 2px; }
+    .stat-val { font-size: 1.2rem; font-weight: 700; color: var(--accent); }
+    .stat-lbl { font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+
+    /* ── Tabela ── */
+    .table-wrap { overflow-x: auto; padding: 0 20px; }
+    table {
+      width: 100%; border-collapse: collapse;
+      min-width: 700px;
+    }
+    thead th {
+      background: var(--card); color: var(--muted);
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .06em;
+      padding: 10px 12px; text-align: left; border-bottom: 2px solid var(--border);
+      position: sticky; top: 57px; z-index: 10; white-space: nowrap;
+      cursor: pointer; user-select: none;
+    }
+    thead th:hover { color: var(--text); }
+    thead th.sort-asc::after { content: ' ↑'; color: var(--accent); }
+    thead th.sort-desc::after { content: ' ↓'; color: var(--accent); }
+
+    tbody tr { border-bottom: 1px solid var(--border); transition: background .1s; }
+    tbody tr:hover { background: rgba(255,255,255,.03); }
+    tbody td { padding: 10px 12px; vertical-align: middle; }
+
+    .cod { font-size: .78rem; color: var(--muted); font-family: monospace; }
+    .desc { font-weight: 500; color: var(--text); }
+    .num { text-align: right; }
+    .zero { color: var(--muted); }
+
+    .badge {
+      display: inline-block; padding: 2px 8px; border-radius: 12px;
+      font-size: .7rem; font-weight: 700; letter-spacing: .04em;
+    }
+    .badge-promo { background: rgba(16,185,129,.15); color: var(--green); border: 1px solid rgba(16,185,129,.3); }
+    .badge-on    { background: rgba(59,130,246,.15); color: var(--blue);  border: 1px solid rgba(59,130,246,.3); }
+    .badge-dash  { background: rgba(148,163,184,.1); color: var(--muted); border: 1px solid var(--border); }
+
+    .preco-on    { color: var(--blue); }
+    .preco-promo { color: var(--green); font-weight: 600; }
+    .preco-custo { color: var(--muted); }
+    .valor-est   { color: var(--accent); font-weight: 600; }
+
+    .hidden { display: none !important; }
+
+    /* ── Rodapé da tabela ── */
+    tfoot td {
+      padding: 10px 12px; font-weight: 700;
+      border-top: 2px solid var(--border); background: var(--card);
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <a href="index.html">← Início</a>
+  <h1>Catálogo de Produtos</h1>
+  <span id="ts" style="font-size:.75rem;color:var(--muted)"></span>
+</div>
+
+<div class="toolbar">
+  <input class="search-box" id="busca" type="text"
+         placeholder="Buscar por código ou descrição…" autocomplete="off">
+
+  <div class="filter-group" id="filtros">
+    <button class="filter-btn active" data-f="todos">Todos</button>
+    <button class="filter-btn" data-f="estoque">Com Estoque</button>
+    <button class="filter-btn" data-f="promo">Em Promo</button>
+    <button class="filter-btn" data-f="sem_preco">Sem Preço</button>
+  </div>
+</div>
+
+<div class="stat-bar" id="stats"></div>
+
+<div class="table-wrap">
+  <table id="tbl">
+    <thead>
+      <tr>
+        <th data-col="cod">Cód.</th>
+        <th data-col="desc">Descrição</th>
+        <th data-col="qt" class="num">Estoque</th>
+        <th data-col="on" class="num">Preço ON</th>
+        <th data-col="promo" class="num">Preço Promo</th>
+        <th data-col="custo" class="num">Custo</th>
+        <th data-col="status">Status</th>
+        <th data-col="valor" class="num">Valor Estoque</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+    <tfoot id="tfoot"></tfoot>
+  </table>
+</div>
+
+<script>
+  const fmt = (v, d=2) => v != null ? Number(v).toLocaleString('pt-BR', {minimumFractionDigits:d,maximumFractionDigits:d}) : '—';
+  const fmtR = v => v != null && v > 0 ? 'R$ ' + fmt(v) : '—';
+
+  let sortCol = 'desc', sortDir = 1;
+  let filtro = 'todos';
+
+  function render() {
+    const busca = document.getElementById('busca').value.trim().toLowerCase();
+    let dados = CATALOGO_DATA.filter(p => {
+      if (busca && !p.cod.includes(busca) && !p.desc.toLowerCase().includes(busca)) return false;
+      if (filtro === 'estoque' && p.qt <= 0) return false;
+      if (filtro === 'promo'   && p.status !== 'PROMO') return false;
+      if (filtro === 'sem_preco' && (p.on || p.promo)) return false;
+      return true;
+    });
+
+    // Ordenação
+    dados.sort((a, b) => {
+      let va = a[sortCol], vb = b[sortCol];
+      if (va == null) va = sortDir > 0 ? Infinity : -Infinity;
+      if (vb == null) vb = sortDir > 0 ? Infinity : -Infinity;
+      if (typeof va === 'string') return va.localeCompare(vb) * sortDir;
+      return (va - vb) * sortDir;
+    });
+
+    // Corpo
+    const tb = document.getElementById('tbody');
+    tb.innerHTML = dados.map(p => {
+      const qtClass = p.qt <= 0 ? 'zero' : '';
+      const badge = p.status === 'PROMO'
+        ? '<span class="badge badge-promo">PROMO</span>'
+        : p.status === 'ON'
+          ? '<span class="badge badge-on">ON</span>'
+          : '<span class="badge badge-dash">—</span>';
+      const valClass = p.valor > 0 ? 'valor-est' : 'zero';
+      return `<tr>
+        <td class="cod">${p.cod}</td>
+        <td class="desc">${p.desc}</td>
+        <td class="num ${qtClass}">${fmt(p.qt, 0)}</td>
+        <td class="num preco-on">${fmtR(p.on)}</td>
+        <td class="num preco-promo">${fmtR(p.promo)}</td>
+        <td class="num preco-custo">${fmtR(p.custo)}</td>
+        <td>${badge}</td>
+        <td class="num ${valClass}">${p.valor > 0 ? 'R$ ' + fmt(p.valor) : '—'}</td>
+      </tr>`;
+    }).join('');
+
+    // Rodapé
+    const totalQt = dados.reduce((s, p) => s + (p.qt > 0 ? p.qt : 0), 0);
+    const totalVal = dados.reduce((s, p) => s + p.valor, 0);
+    document.getElementById('tfoot').innerHTML = `
+      <tr>
+        <td colspan="2" style="color:var(--muted);font-size:.8rem">${dados.length} produto(s)</td>
+        <td class="num">${fmt(totalQt, 0)}</td>
+        <td colspan="3"></td>
+        <td></td>
+        <td class="num" style="color:var(--accent)">R$ ${fmt(totalVal)}</td>
+      </tr>`;
+
+    // Stats
+    const comEst = CATALOGO_DATA.filter(p => p.qt > 0).length;
+    const emPromo = CATALOGO_DATA.filter(p => p.status === 'PROMO').length;
+    const valTotal = CATALOGO_DATA.reduce((s, p) => s + p.valor, 0);
+    document.getElementById('stats').innerHTML = `
+      <div class="stat"><div class="stat-val">${CATALOGO_DATA.length}</div><div class="stat-lbl">Produtos</div></div>
+      <div class="stat"><div class="stat-val">${comEst}</div><div class="stat-lbl">Com Estoque</div></div>
+      <div class="stat"><div class="stat-val">${emPromo}</div><div class="stat-lbl">Em Promoção</div></div>
+      <div class="stat"><div class="stat-val">R$ ${fmt(valTotal)}</div><div class="stat-lbl">Valor Total</div></div>`;
+  }
+
+  // Cabeçalho — ordenação
+  document.querySelectorAll('thead th[data-col]').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (sortCol === col) sortDir *= -1; else { sortCol = col; sortDir = 1; }
+      document.querySelectorAll('thead th').forEach(t => t.classList.remove('sort-asc','sort-desc'));
+      th.classList.add(sortDir > 0 ? 'sort-asc' : 'sort-desc');
+      render();
+    });
+  });
+
+  // Filtros
+  document.getElementById('filtros').addEventListener('click', e => {
+    const btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    filtro = btn.dataset.f;
+    render();
+  });
+
+  // Busca
+  document.getElementById('busca').addEventListener('input', render);
+
+  // Timestamp
+  if (typeof CATALOGO_DATA !== 'undefined' && CATALOGO_DATA.length) {
+    const script = document.querySelector('script[src="catalogo_data.js"]');
+  }
+  // Pega timestamp do comentário do arquivo via fetch
+  fetch('catalogo_data.js').then(r => r.text()).then(t => {
+    const m = t.match(/Gerado automaticamente em (.+)/);
+    if (m) document.getElementById('ts').textContent = 'Atualizado: ' + m[1];
+  }).catch(() => {});
+
+  render();
+</script>
+
+</body>
+</html>
