@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "09/06/2026 16:02",
+  "atualizado_em": "09/06/2026 16:45",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -34604,6 +34604,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 61.83
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "50908",
+          "cliente": "43.972.122 ITHALO RODRIGUES BORGO",
+          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 99.9
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "50908",
+          "cliente": "43.972.122 ITHALO RODRIGUES BORGO",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 99.9
         }
       ],
       "Mai/26": [
@@ -57330,6 +57348,51 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 3,
           "valor": 377.7
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "50732",
+          "cliente": "CHICOTE BEBIDAS LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 347.38
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "50732",
+          "cliente": "CHICOTE BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 621.6
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "50732",
+          "cliente": "CHICOTE BEBIDAS LTDA",
+          "produto": "RUM MALIBU 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 514.8
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "50732",
+          "cliente": "CHICOTE BEBIDAS LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 173.7
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "50732",
+          "cliente": "CHICOTE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 16,
+          "valor": 958.4
         }
       ],
       "Mai/26": [
