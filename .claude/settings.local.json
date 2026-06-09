@@ -71,7 +71,12 @@
       "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_extract_pdf3.py\")",
       "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\exportacao_catalogo.py\")",
       "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_test_imagens.py\")",
-      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_test_imagens2.py\")"
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_test_imagens2.py\")",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" -c \"import fitz; print\\('PyMuPDF OK:', fitz.__version__\\)\")",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\pip.exe\" install pymupdf --quiet)",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" -m pip install pymupdf --quiet)",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_extrair_imagens.py\" 2>&1 | Select-Object -First 30)",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_extrair_imagens.py\")"
     ]
   }
 }
