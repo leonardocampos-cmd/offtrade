@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/06/2026 11:12",
+  "atualizado_em": "09/06/2026 12:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -136924,42 +136924,6 @@ const VENDAS_DATA = {
           "valor": 126.9
         },
         {
-          "data": "26/05/2026",
-          "codcli": "86307",
-          "cliente": "CEREAIS IRENE LTDA",
-          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 137.4
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "86307",
-          "cliente": "CEREAIS IRENE LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 216.66
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "86307",
-          "cliente": "CEREAIS IRENE LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 216.66
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "86307",
-          "cliente": "CEREAIS IRENE LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 299.4
-        },
-        {
           "data": "25/05/2026",
           "codcli": "86310",
           "cliente": "CEREAIS IRENE LTDA",
@@ -143209,24 +143173,6 @@ const VENDAS_DATA = {
           "valor": 6426.0
         },
         {
-          "data": "02/05/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 30,
-          "valor": 981.0
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 196.2
-        },
-        {
           "data": "28/05/2026",
           "codcli": "60844",
           "cliente": "DOM ATACAREJO S.A.",
@@ -143533,15 +143479,6 @@ const VENDAS_DATA = {
           "valor": 1289.7
         },
         {
-          "data": "02/05/2026",
-          "codcli": "74404",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 392.4
-        },
-        {
           "data": "28/05/2026",
           "codcli": "74404",
           "cliente": "DOM ATACAREJO S.A.",
@@ -143567,24 +143504,6 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 24,
           "valor": 1031.76
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "74407",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 60,
-          "valor": 1962.0
-        },
-        {
-          "data": "02/05/2026",
-          "codcli": "74407",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1015.92
         },
         {
           "data": "28/05/2026",
