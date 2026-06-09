@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/06/2026 12:05",
+  "atualizado_em": "09/06/2026 12:20",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -108572,33 +108572,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 95.9
-        },
-        {
-          "data": "08/05/2026",
-          "codcli": "79969",
-          "cliente": "WMDIAS 24H LTDA",
-          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
-          "fantasia": "MINALBA",
-          "qt": 4,
-          "valor": 87.6
-        },
-        {
-          "data": "08/05/2026",
-          "codcli": "79969",
-          "cliente": "WMDIAS 24H LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
-          "fantasia": "MINALBA",
-          "qt": 3,
-          "valor": 59.7
-        },
-        {
-          "data": "08/05/2026",
-          "codcli": "79969",
-          "cliente": "WMDIAS 24H LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 5,
-          "valor": 129.5
         },
         {
           "data": "08/05/2026",
