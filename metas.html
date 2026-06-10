@@ -777,7 +777,7 @@ function buildNaoPosTable(lista) {
 
 // ── Previsão ──────────────────────────────────────────────
 
-function buildPrevisao(v) {
+function buildPrevisao(v, pm) {
   const p = v.previsao;
   if (!p) return '';
 
@@ -788,6 +788,18 @@ function buildPrevisao(v) {
     const color = d >= 0 ? 'var(--green)' : 'var(--red)';
     return `<span style="font-size:0.7rem;color:${color};margin-left:6px">${sign}${d.toFixed(1)}%</span>`;
   }
+
+  const duRestantes = p.du_total - p.du_passados;
+
+  const fatReal  = pm ? _mv(pm, 'fat_tt', 'realizado') : 0;
+  const fatMeta  = pm ? _mv(pm, 'fat_tt', 'meta')      : 0;
+  const fatNecDia = duRestantes > 0 ? (fatMeta - fatReal) / duRestantes : 0;
+  const fatNecColor = fatNecDia <= 0 ? 'var(--green)' : 'var(--text)';
+
+  const posReal  = pm ? _mv(pm, 'pos_tt', 'realizado') : 0;
+  const posMeta  = pm ? _mv(pm, 'pos_tt', 'meta')      : 0;
+  const posNecDia = duRestantes > 0 ? (posMeta - posReal) / duRestantes : 0;
+  const posNecColor = posNecDia <= 0 ? 'var(--green)' : 'var(--text)';
 
   return `
     <div class="detail-card">
@@ -803,6 +815,11 @@ function buildPrevisao(v) {
             <span class="prev-row-label">Média 3 meses anteriores</span>
             <span class="prev-row-val" style="color:var(--muted)">${fmtFat(p.fat_media_hist)}</span>
           </div>
+          ${duRestantes > 0 ? `
+          <div class="prev-row">
+            <span class="prev-row-label">Necessário por dia (${duRestantes} dias)</span>
+            <span class="prev-row-val" style="color:${fatNecColor}">${fatNecDia <= 0 ? '✓ Meta atingida' : fmtFat(fatNecDia)}</span>
+          </div>` : ''}
         </div>
         <div class="prev-box">
           <div class="prev-box-label">Positivação</div>
@@ -814,6 +831,11 @@ function buildPrevisao(v) {
             <span class="prev-row-label">Média 3 meses anteriores</span>
             <span class="prev-row-val" style="color:var(--muted)">${Number(p.pos_media_hist).toFixed(0)} clientes</span>
           </div>
+          ${duRestantes > 0 ? `
+          <div class="prev-row">
+            <span class="prev-row-label">Necessário por dia (${duRestantes} dias)</span>
+            <span class="prev-row-val" style="color:${posNecColor}">${posNecDia <= 0 ? '✓ Meta atingida' : Number(posNecDia).toFixed(1) + ' clientes'}</span>
+          </div>` : ''}
         </div>
       </div>
     </div>`;
@@ -1201,7 +1223,7 @@ function renderDetail(v, mes) {
     ${buildAllCampanhas(v)}
     ${buildAmarulaDetail(v)}
 
-    ${buildPrevisao(v)}
+    ${buildPrevisao(v, pm)}
 
     <div class="detail-card">
       <div class="section-title">Faturamento mensal</div>
