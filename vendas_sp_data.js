@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "10/06/2026 09:51",
+  "atualizado_em": "10/06/2026 11:04",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -41628,24 +41628,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 1,
           "valor": 579.9
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "50371",
-          "cliente": "DEKAN BAR COQUETELARIA LTDA",
-          "produto": "TEQUILA J CUERVO SILVER 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 167.8
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "50371",
-          "cliente": "DEKAN BAR COQUETELARIA LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 314.7
         },
         {
           "data": "11/05/2026",
