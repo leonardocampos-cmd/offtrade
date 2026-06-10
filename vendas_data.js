@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/06/2026 09:51",
+  "atualizado_em": "10/06/2026 11:04",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -125137,6 +125137,114 @@ const VENDAS_DATA = {
           "valor": 38.9
         },
         {
+          "data": "09/06/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 135.0
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
+          "fantasia": "INVICTUS",
+          "qt": 10,
+          "valor": 98.0
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "SABOR DO SABOR WHISKY + COMBO TRAD",
+          "fantasia": "INVICTUS",
+          "qt": 10,
+          "valor": 98.0
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 111.0
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 60.0
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 60.0
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "NECTAR CAJU 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 60.0
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 1,
+          "valor": 105.9
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 51.5
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 5,
+          "valor": 319.5
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 359.52
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 32.5
+        },
+        {
           "data": "01/06/2026",
           "codcli": "90148",
           "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
@@ -142177,42 +142285,6 @@ const VENDAS_DATA = {
           "valor": 355.2
         },
         {
-          "data": "09/06/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 5,
-          "valor": 326.25
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 10,
-          "valor": 652.8
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 5,
-          "valor": 326.4
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 3,
-          "valor": 195.84
-        },
-        {
           "data": "10/06/2026",
           "codcli": "90484",
           "cliente": "MERCADO RC DE ITAGUAI LTDA",
@@ -144795,24 +144867,6 @@ const VENDAS_DATA = {
           "valor": 1006.2
         },
         {
-          "data": "28/05/2026",
-          "codcli": "60846",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 335.94
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "60846",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1015.92
-        },
-        {
           "data": "02/05/2026",
           "codcli": "60847",
           "cliente": "DOM ATACAREJO S.A.",
@@ -145855,15 +145909,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 80,
           "valor": 2616.0
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "91839",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 48,
-          "valor": 1569.6
         },
         {
           "data": "28/05/2026",
