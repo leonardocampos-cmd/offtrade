@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/06/2026 13:56",
-  "total": 4459,
+  "atualizado_em": "10/06/2026 14:54",
+  "total": 4462,
   "clientes": [
     {
       "codcli": "31683",
@@ -5824,8 +5824,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "119",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "226",
-      "nome_usur2": "MARCO PENIDO"
+      "codusur2": "119",
+      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "82781",
@@ -7912,6 +7912,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "45941",
+      "razao": "ATACADAO DO DESCONTO MERCADO LTDA",
+      "fantasia": "ATACADAO DO DESCONTO MERCADO LTDA",
+      "bairro": "VILA HOMERO THON",
+      "cidade": "SAO PAULO",
+      "cnpj": "62.670.506/0001-65",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "481",
+      "nome_usur1": "RENAN SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "94890",
@@ -16356,6 +16370,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "62048",
+      "razao": "CONVENIENCIA DO FORTE LTDA",
+      "fantasia": "CONVENIENCIA DO FORTE LTDA",
+      "bairro": "CENTRO",
+      "cidade": "CABO FRIO",
+      "cnpj": "44.681.926/0001-65",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
+    },
+    {
       "codcli": "79500",
       "razao": "CONVENIENCIA E TABACARIA DA DRICA LTDA",
       "fantasia": "CONVENIENCIA E TABACARIA DA DRICA",
@@ -17058,7 +17086,7 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "91208",
       "razao": "CWM TABACARIA LTDA",
-      "fantasia": "CWM TABACARIA EIRELI",
+      "fantasia": "CWM TABACARIA",
       "bairro": "BIGORRILHO",
       "cidade": "CURITIBA",
       "cnpj": "51.059.171/0001-27",
@@ -17066,8 +17094,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "TABACARIA",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "91",
+      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "2144",
@@ -40266,6 +40294,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
+    },
+    {
+      "codcli": "95340",
+      "razao": "MERCEARIA PARAISO DE SANTA TERESA LTDA",
+      "fantasia": "MERCEARIA PARAISO DE SANTA TERESA",
+      "bairro": "SANTA TERESA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "44.196.393/0001-26",
+      "estado": "RJ",
+      "ramo": "MERCEARIA",
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "18602",
