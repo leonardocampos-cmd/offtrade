@@ -99,7 +99,7 @@
       let payload;
       try {
         const b64 = response.credential.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
-        payload = JSON.parse(atob(b64 + '==='.slice((b64.length % 4) || 4)));
+        payload = JSON.parse(atob(b64 + '='.repeat((4 - b64.length % 4) % 4)));
       } catch {
         showErro('Erro ao processar credencial. Tente novamente.');
         return;
