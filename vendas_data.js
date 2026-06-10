@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/06/2026 08:56",
+  "atualizado_em": "10/06/2026 09:09",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -63851,24 +63851,6 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 249.5
-        },
-        {
-          "data": "08/06/2026",
-          "codcli": "89433",
-          "cliente": "RESTAURANTE E LANCHONETE MIX DAS TORCIDAS LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 12,
-          "valor": 370.8
-        },
-        {
-          "data": "08/06/2026",
-          "codcli": "89433",
-          "cliente": "RESTAURANTE E LANCHONETE MIX DAS TORCIDAS LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 1,
-          "valor": 32.34
         },
         {
           "data": "05/06/2026",
@@ -137923,42 +137905,6 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 5,
           "valor": 326.4
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "84046",
-          "cliente": "58.682.104 FABIO WESLEY INACIO PEREGRINO",
-          "produto": "PINATI NUTS COCO 20X30G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 44.31
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "84046",
-          "cliente": "58.682.104 FABIO WESLEY INACIO PEREGRINO",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA (4)16X35G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 43.9
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "84046",
-          "cliente": "58.682.104 FABIO WESLEY INACIO PEREGRINO",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "BROWN",
-          "qt": 1,
-          "valor": 109.9
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "84046",
-          "cliente": "58.682.104 FABIO WESLEY INACIO PEREGRINO",
-          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 126.9
         },
         {
           "data": "25/05/2026",
