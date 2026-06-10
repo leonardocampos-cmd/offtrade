@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "10/06/2026 15:01",
+  "atualizado_em": "10/06/2026 16:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -47970,24 +47970,6 @@ const VENDAS_SP_DATA = {
           "valor": 311.22
         },
         {
-          "data": "05/06/2026",
-          "codcli": "47400",
-          "cliente": "SUPERMERCADOS BERGAMINI LTDA",
-          "produto": "WHISKY CHIVAS REGAL 18 ANOS 750ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 1739.4
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "47400",
-          "cliente": "SUPERMERCADOS BERGAMINI LTDA",
-          "produto": "TEQUILA J CUERVO SILVER 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1006.8
-        },
-        {
           "data": "02/06/2026",
           "codcli": "47400",
           "cliente": "SUPERMERCADOS BERGAMINI LTDA",
@@ -51163,33 +51145,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 599.4
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "50042",
-          "cliente": "ADEGA E HOJE DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "VODKA ABSOLUT 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 658.8
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "50042",
-          "cliente": "ADEGA E HOJE DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "VODKA ABSOLUT CITRON 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 658.8
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "50042",
-          "cliente": "ADEGA E HOJE DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 658.8
         },
         {
           "data": "09/06/2026",
