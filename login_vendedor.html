@@ -77,7 +77,7 @@
     // Já autenticado → vai direto
     try {
       const s = JSON.parse(sessionStorage.getItem('rg_vendedor') || '{}');
-      if (s.rca && s.nome) location.replace('vendedor.html');
+      if (s.rca && s.nome) location.replace('metas.html?vendedor=' + encodeURIComponent(s.nome));
     } catch {}
 
     async function sha256(str) {
@@ -107,7 +107,7 @@
         email: vendedor.email || '',
       }));
 
-      location.replace('vendedor.html');
+      location.replace('metas.html?vendedor=' + encodeURIComponent(vendedor.nome));
     });
   </script>
 </body>

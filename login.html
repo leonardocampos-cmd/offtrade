@@ -87,7 +87,7 @@
     // Já autenticado como vendedor
     try {
       const sv = JSON.parse(sessionStorage.getItem('rg_vendedor') || '{}');
-      if (sv.rca && sv.nome) location.replace('vendedor.html');
+      if (sv.rca && sv.nome) location.replace('metas.html?vendedor=' + encodeURIComponent(sv.nome));
     } catch {}
 
     function showErro(msg) { document.getElementById('erro').textContent = msg; }
@@ -123,7 +123,7 @@
         sessionStorage.setItem('rg_vendedor', JSON.stringify({
           rca, nome: vendedor.nome, email
         }));
-        location.replace('vendedor.html');
+        location.replace('metas.html?vendedor=' + encodeURIComponent(vendedor.nome));
         return;
       }
 

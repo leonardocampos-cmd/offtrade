@@ -203,7 +203,7 @@
       <div class="header-rca">RCA <span class="rca-badge" id="header-rca">—</span></div>
     </div>
     <div class="header-actions">
-      <a href="index.html" class="btn-home">Painel</a>
+      <a href="index.html" class="btn-home" id="btn-painel">Painel</a>
       <button class="btn-logout" onclick="isGestor() ? location.replace('metas.html') : logoutVendedor()">Sair</button>
     </div>
   </header>
@@ -223,8 +223,7 @@
       NOME = vdParam ? vdParam.nome : 'RCA ' + paramRca;
     } else {
       const sess = getVendedorSession();
-      RCA  = sess.rca;
-      NOME = sess.nome;
+      location.replace('metas.html?vendedor=' + encodeURIComponent(sess.nome));
     }
 
     // Header
@@ -232,6 +231,7 @@
     document.getElementById('header-rca').textContent  = RCA;
     document.getElementById('avatar').textContent      = NOME.charAt(0);
     document.title = NOME.split(' ')[0] + ' — Rigarr';
+    if (!isGestor()) document.getElementById('btn-painel').style.display = 'none';
 
     // ── Helpers ─────────────────────────────────────────────────
     const brl = v => new Intl.NumberFormat('pt-BR', {
