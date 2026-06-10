@@ -8,11 +8,11 @@ import json
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
-from meta import engine_spon, carregar_dados
+from meta import engine, carregar_dados
 
 df = carregar_dados(
-    "SELECT CODUSUR, NOME, EMAIL FROM SPON.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'",
-    engine_spon,
+    "SELECT CODUSUR, NOME, EMAIL FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'",
+    engine,
     "vendedores_auth",
 )
 

@@ -22,7 +22,8 @@ HERE = Path(__file__).parent
 # ── 1. Produtos do catálogo (gerado pelo _extract_pdf3.py) ───────────────────
 catalogo_json = HERE / '_catalogo_produtos.json'
 with open(catalogo_json, encoding='utf-8') as f:
-    catalogo = json.load(f)  # {codprod: descricao}
+    _raw = json.load(f)
+catalogo = {k: v.split(' Todas as imagens')[0].strip() for k, v in _raw.items()}
 
 # ── 2. Estoque ────────────────────────────────────────────────────────────────
 print("Carregando estoque...")

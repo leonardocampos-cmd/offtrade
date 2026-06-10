@@ -20,13 +20,13 @@ def _query(schema):
             COALESCE(C.MUNICENT, '')   AS CIDADE,
             COALESCE(C.ESTENT, '')     AS ESTADO,
             COALESCE(C.CGCENT, '')     AS CNPJ,
-            COALESCE(A.DESCRICAO, '')  AS RAMO,
+            COALESCE(A.RAMO, '')       AS RAMO,
             C.CODUSUR1,
             C.CODUSUR2,
             COALESCE(U1.NOME, '')      AS NOME_USUR1,
             COALESCE(U2.NOME, '')      AS NOME_USUR2
         FROM {s}.PCCLIENT C
-        LEFT JOIN {s}.PCATIVI  A  ON C.CODATV1  = A.CODATV
+        LEFT JOIN {s}.PCATIVI  A  ON C.CODATV1  = A.CODATIV
         LEFT JOIN {s}.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
         LEFT JOIN {s}.PCUSUARI U2 ON C.CODUSUR2 = U2.CODUSUR
         WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%'
