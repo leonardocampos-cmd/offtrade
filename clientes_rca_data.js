@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/06/2026 16:02",
-  "total": 4463,
+  "atualizado_em": "10/06/2026 17:02",
+  "total": 4460,
   "clientes": [
     {
       "codcli": "31683",
@@ -30,6 +30,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DIRLEI ARAUJO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "78847",
+      "razao": "15.208.913 MARCIA DORA VIEIRA",
+      "fantasia": "MARCIA DORA VIEIRA",
+      "bairro": "ITAUNA",
+      "cidade": "SAQUAREMA",
+      "cnpj": "15.208.913/0001-75",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "84960",
@@ -114,6 +128,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "73773",
+      "razao": "1835 CARNE E BRASA RESTAURANTE LTDA",
+      "fantasia": "1835 CARNE E BRASA RESTAURANTE LTDA",
+      "bairro": "LAJE DA PEDRA",
+      "cidade": "CANELA",
+      "cnpj": "43.820.468/0001-35",
+      "estado": "RS",
+      "ramo": "RESTAURANTE",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "31061",
@@ -870,6 +898,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "81399",
+      "razao": "38.167.704 DEBORA ROSA FARIAS",
+      "fantasia": "38.167.704 DEBORA ROSA FARIAS",
+      "bairro": "NOVA PONTA DA FRUTA",
+      "cidade": "VILA VELHA",
+      "cnpj": "38.167.704/0001-26",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "85148",
@@ -2664,20 +2706,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "90398",
-      "razao": "55.710.642 ANDRE CORAZZA",
-      "fantasia": "ANDRE CORAZZA",
-      "bairro": "ZONA 01",
-      "cidade": "MARINGA",
-      "cnpj": "55.710.642/0001-76",
-      "estado": "PR",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "46380",
       "razao": "55.710.642 ANDRE CORAZZA",
       "fantasia": "ANDRE CORAZZA",
@@ -3910,6 +3938,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95344",
+      "razao": "64.490.426 MARLON FERREIRA DA SILVA",
+      "fantasia": "MARLON FERREIRA DA SILVA",
+      "bairro": "PRAIA DO PECADO",
+      "cidade": "MACAE",
+      "cnpj": "64.490.426/0001-53",
+      "estado": "RJ",
+      "ramo": "CAFETERIA",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "93474",
       "razao": "64.810.208 RAMON SOUZA ROSA",
       "fantasia": "64.810.208 RAMON SOUZA ROSA",
@@ -4216,6 +4258,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "90253",
+      "razao": "A B RAMOS FAMILIA RAMOS DISTRIBUIDORA",
+      "fantasia": "DISTRIBUIDORA RAMOS",
+      "bairro": "BACACHERI",
+      "cidade": "CURITIBA",
+      "cnpj": "24.560.897/0001-76",
+      "estado": "PR",
+      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "85610",
@@ -4638,20 +4694,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "90724",
-      "razao": "A.P.A. PEREIRA LTDA",
-      "fantasia": "A.P.A. PEREIRA",
-      "bairro": "JUVEVÊ",
-      "cidade": "CURITIBA",
-      "cnpj": "03.635.326/0001-83",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "41921",
       "razao": "A.R DOS SANTOS CARREIRA ADEGA",
       "fantasia": "ADEGA PIT STOP",
@@ -4958,6 +5000,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "80964",
+      "razao": "ACQUA BAR E RESTAURANTE LTDA",
+      "fantasia": "ACQUA BAR E RESTAURANTE",
+      "bairro": "JURERE INTERNACIONAL",
+      "cidade": "FLORIANOPOLIS",
+      "cnpj": "26.483.528/0001-52",
+      "estado": "SC",
+      "ramo": "BAR",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "226",
+      "nome_usur2": "MARCO PENIDO"
     },
     {
       "codcli": "36739",
@@ -5380,6 +5436,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "91213",
+      "razao": "ADEGA FARRET LTDA",
+      "fantasia": "ADEGA FARRET",
+      "bairro": "LAGOA NOVA",
+      "cidade": "NATAL",
+      "cnpj": "02.121.989/0001-17",
+      "estado": "RN",
+      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "38619",
       "razao": "ADEGA FERNANDES JARAGUA LTDA",
       "fantasia": "ADEGA FERNANDES JARAGUA",
@@ -5744,20 +5814,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "45714",
-      "razao": "ADL BARIGUI LTDA",
-      "fantasia": "ADL BARIGUI",
-      "bairro": "MOSSUNGUE",
-      "cidade": "CURITIBA",
-      "cnpj": "55.707.847/0001-00",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "90901",
       "razao": "ADL RESTAURANTE LTDA",
       "fantasia": "ADL",
@@ -5768,20 +5824,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "45715",
-      "razao": "ADL RESTAURANTE LTDA",
-      "fantasia": "ADL",
-      "bairro": "JUVEVE",
-      "cidade": "CURITIBA",
-      "cnpj": "11.806.183/0001-53",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -5812,6 +5854,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "80220",
+      "razao": "ADM WINE COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "ADM WINE COMERCIO DE BEBIDAS",
+      "bairro": "VILA ANDRADE",
+      "cidade": "SAO PAULO",
+      "cnpj": "53.278.376/0001-29",
+      "estado": "SP",
+      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "226",
+      "nome_usur2": "MARCO PENIDO"
     },
     {
       "codcli": "35917",
@@ -6608,20 +6664,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "45666",
-      "razao": "ALPHA GASTRONOMIA LTDA",
-      "fantasia": "ALPHA GASTRONOMIA",
-      "bairro": "ALPHAVILLE GRACIOSA",
-      "cidade": "PINHAIS",
-      "cnpj": "49.804.986/0001-41",
-      "estado": "PR",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -7516,10 +7558,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "14.513.768/0001-73",
       "estado": "PR",
       "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "17305",
@@ -7798,6 +7840,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "HOTELARIA",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "90715",
+      "razao": "ARRATA & ARRATA LTDA",
+      "fantasia": "EMPORIO GRAN RESERVA",
+      "bairro": "CENTRO CÍVICO",
+      "cidade": "CURITIBA",
+      "cnpj": "82.016.981/0003-91",
+      "estado": "PR",
+      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -9426,20 +9482,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "90723",
-      "razao": "BAGGIO AGUA VERDE LTDA",
-      "fantasia": "BAGGIO AGUA VERDE LTDA",
-      "bairro": "ÁGUA VERDE",
-      "cidade": "CURITIBA",
-      "cnpj": "10.986.630/0001-30",
-      "estado": "PR",
-      "ramo": "OUTROS",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "79853",
       "razao": "BAIXO ARAGUAIA BUZIOS LTDA",
       "fantasia": "BAIXO ARAGUAIA BUZIOS",
@@ -10518,20 +10560,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "90720",
-      "razao": "BATEL 1550 RESTAURANTE LTDA",
-      "fantasia": "BATEL 1550 RESTAURANTE LTDA",
-      "bairro": "BATEL",
-      "cidade": "CURITIBA",
-      "cnpj": "47.635.804/0001-20",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "94382",
       "razao": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS LTDA",
       "fantasia": "BAZAR RODRIGUES COMERCIO DE ALIMENTOS",
@@ -11340,20 +11368,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "45671",
-      "razao": "BONATO & BONATO LTDA",
-      "fantasia": "BONATO & BONATO",
-      "bairro": "REBOUCAS",
-      "cidade": "CURITIBA",
-      "cnpj": "03.117.840/0001-27",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -12644,6 +12658,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "91433",
+      "razao": "CAMAP RESTAURANTES LTDA",
+      "fantasia": "CAMAP RESTAURANTES",
+      "bairro": "CENTRO CÍVICO",
+      "cidade": "CURITIBA",
+      "cnpj": "55.344.654/0001-24",
+      "estado": "PR",
+      "ramo": "RESTAURANTE",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "29498",
@@ -17112,6 +17140,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "91208",
+      "razao": "CWM TABACARIA LTDA",
+      "fantasia": "CWM TABACARIA EIRELI",
+      "bairro": "BIGORRILHO",
+      "cidade": "CURITIBA",
+      "cnpj": "51.059.171/0001-27",
+      "estado": "PR",
+      "ramo": "TABACARIA",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "2144",
       "razao": "CYRRA`S PADARIA E CONFEITARIA LTDA",
       "fantasia": "",
@@ -18330,20 +18372,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "46052",
-      "razao": "DIEGO BERNARDINO SILVA",
-      "fantasia": "IMAGINUMSUSHI",
-      "bairro": "VILA IZABEL",
-      "cidade": "CURITIBA",
-      "cnpj": "08.191.575/0001-40",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "93508",
       "razao": "DIEGO CARLOS PEIXOTO FERREIRA",
       "fantasia": "DIEGO CARLOS PEIXOTO FERREIRA",
@@ -19436,20 +19464,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "45677",
-      "razao": "DON MAX COMERCIO DE MASSAS ALIMENTICIAS LTDA",
-      "fantasia": "DON MAX COMERCIO DE MASSAS ALIMENTICIAS",
-      "bairro": "ÁGUA VERDE",
-      "cidade": "CURITIBA",
-      "cnpj": "81.471.682/0001-12",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "90876",
       "razao": "DON RUAN PADARIA E SALGADEIRA LTDA",
       "fantasia": "DON RUAN - REALENGO",
@@ -19532,6 +19546,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "80785",
+      "razao": "DONNA BAR E RESTAURANTE LTDA",
+      "fantasia": "OKKO BAR E RESTAURANTE",
+      "bairro": "JURERE INTERNACIONAL",
+      "cidade": "FLORIANOPOLIS",
+      "cnpj": "26.942.174/0001-67",
+      "estado": "SC",
+      "ramo": "BAR",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "226",
+      "nome_usur2": "MARCO PENIDO"
     },
     {
       "codcli": "36620",
@@ -24140,6 +24168,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "90349",
+      "razao": "FYD BAR E RESTAURANTE LTDA",
+      "fantasia": "BRAVA MUSIC BAR",
+      "bairro": "BALNEARIO SANTA CLARA",
+      "cidade": "ITAJAI",
+      "cnpj": "28.948.724/0001-80",
+      "estado": "SC",
+      "ramo": "BAR",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "94205",
       "razao": "FÁBIO DA SILVA RIBEIRO",
       "fantasia": "CAFE BRASIL",
@@ -25008,20 +25050,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "90712",
-      "razao": "GFR REFEICOES LTDA",
-      "fantasia": "GFR REFEICOES LTDA",
-      "bairro": "REBOUÇAS",
-      "cidade": "CURITIBA",
-      "cnpj": "08.029.245/0001-53",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "75569",
       "razao": "GG WINE COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
       "fantasia": "ARTE DOS VINHOS",
@@ -25050,20 +25078,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "91138",
-      "razao": "GHIGNONE E SILVA CIA LTDA",
-      "fantasia": "PARIS MON AMOUR - TESOUROS DE CUBA - CAF",
-      "bairro": "CENTRO",
-      "cidade": "CURITIBA",
-      "cnpj": "02.728.214/0001-04",
-      "estado": "PR",
-      "ramo": "TABACARIA",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "91214",
       "razao": "GIARDINO ROSSO LTDA",
       "fantasia": "GIARDINO ROSSO",
@@ -25074,20 +25088,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "91214",
-      "razao": "GIARDINO ROSSO LTDA",
-      "fantasia": "GIARDINO ROSSO",
-      "bairro": "ABRANCHES",
-      "cidade": "CURITIBA",
-      "cnpj": "61.137.131/0001-00",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -25890,7 +25890,7 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "45939",
+      "codcli": "91899",
       "razao": "GYOZABAR LTDA",
       "fantasia": "GYOZABAR LTDA",
       "bairro": "HUGO LANGE",
@@ -25898,10 +25898,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "48.653.900/0001-64",
       "estado": "PR",
       "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "55490",
@@ -27948,20 +27948,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "90719",
-      "razao": "J. L. A. BARAN - RESTAURANTE",
-      "fantasia": "J. L. A. BARAN - RESTAURANTE",
-      "bairro": "MERCES",
-      "cidade": "CURITIBA",
-      "cnpj": "24.841.594/0001-21",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "76772",
       "razao": "J. MEROTO SUPERMERCADO",
       "fantasia": "J. MEROTO SUPERMERCADO",
@@ -28256,18 +28242,18 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "45940",
+      "codcli": "91902",
       "razao": "JARDIM DO BOSQUE GASTRONOMIA LTDA",
       "fantasia": "JARDIM DO BOSQUE GASTRONOMIA",
       "bairro": "CENTRO CÍVICO",
       "cidade": "CURITIBA",
       "cnpj": "37.875.494/0001-68",
       "estado": "PR",
-      "ramo": "CAFÉ/LANCHONETE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+      "ramo": "CAFE/LANCHONETE",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "49220",
@@ -28704,6 +28690,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "69811",
+      "razao": "JIGGER STORE LTDA",
+      "fantasia": "JIGGER STORE",
+      "bairro": "MERCES",
+      "cidade": "CURITIBA",
+      "cnpj": "40.523.665/0001-02",
+      "estado": "PR",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "226",
+      "nome_usur2": "MARCO PENIDO"
+    },
+    {
+      "codcli": "83975",
+      "razao": "JIGGER STORE LTDA",
+      "fantasia": "JIGGER STORE",
+      "bairro": "VISTA ALEGRE",
+      "cidade": "CURITIBA",
+      "cnpj": "54.388.843/0001-36",
+      "estado": "PR",
+      "ramo": "DEPOSITO DE BEBIDAS",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "226",
+      "nome_usur2": "MARCO PENIDO"
+    },
+    {
       "codcli": "41307",
       "razao": "JJ ADEGA TERRACOS LTDA",
       "fantasia": "JJ ADEGA TERRACOS",
@@ -28854,20 +28868,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "HOTELARIA",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "90726",
-      "razao": "JNH HOTEIS LTDA",
-      "fantasia": "NOMAA HOTEL",
-      "bairro": "BATEL",
-      "cidade": "CURITIBA",
-      "cnpj": "09.055.007/0001-85",
-      "estado": "PR",
-      "ramo": "HOTEL",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -29796,6 +29796,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "78283",
+      "razao": "JREIS CONSULTORIA LTDA",
+      "fantasia": "JREIS CONSULTORIA",
+      "bairro": "CENTRO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "40.990.410/0001-41",
+      "estado": "RJ",
+      "ramo": "OUTROS",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "226",
+      "nome_usur2": "MARCO PENIDO"
+    },
+    {
       "codcli": "32629",
       "razao": "JRSUPER DISTRIBUIDORA LTDA",
       "fantasia": "JRSUPER DISTRIBUIDORA BRASIL",
@@ -30170,20 +30184,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "OUTROS",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "91426",
-      "razao": "KARINA ROCHA FOTOGRAFIA",
-      "fantasia": "KARINA ROCHA FOTOGRAFIA",
-      "bairro": "HUGO LANGE",
-      "cidade": "CURITIBA",
-      "cnpj": "46.502.735/0001-14",
-      "estado": "PR",
-      "ramo": "OUTROS",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -31308,6 +31308,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "90713",
+      "razao": "LARA ZULIANO",
+      "fantasia": "CHURRASCARIA BOTAFOGO",
+      "bairro": "MERCES",
+      "cidade": "CURITIBA",
+      "cnpj": "03.252.260/0001-42",
+      "estado": "PR",
+      "ramo": "RESTAURANTE",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "45668",
       "razao": "LARA ZULIANO",
       "fantasia": "CHURRASCARIA BOTAFOGO",
@@ -31518,7 +31532,7 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "39714",
+      "codcli": "69814",
       "razao": "LE BIBITE LTDA",
       "fantasia": "JIGGER",
       "bairro": "SAO JOAO",
@@ -31526,10 +31540,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "40.523.665/0002-85",
       "estado": "SC",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "29923",
@@ -33842,6 +33856,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "74694",
+      "razao": "M2T GASTRONOMIA E SERVICOS LTDA",
+      "fantasia": "M2T GASTRONOMIA",
+      "bairro": "MOINHOS DE VENTO",
+      "cidade": "PORTO ALEGRE",
+      "cnpj": "17.453.142/0001-07",
+      "estado": "RS",
+      "ramo": "RESTAURANTE",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "226",
+      "nome_usur2": "MARCO PENIDO"
+    },
+    {
       "codcli": "8681",
       "razao": "M3X CANTINA LTDA ME",
       "fantasia": "BT RIO SUL",
@@ -34066,6 +34094,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "91425",
+      "razao": "MALU COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "CAFE DO TEATRO",
+      "bairro": "CENTRO",
+      "cidade": "CURITIBA",
+      "cnpj": "46.971.437/0001-73",
+      "estado": "PR",
+      "ramo": "RESTAURANTE",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "93720",
       "razao": "MALU MELO CLINIC LTDA",
       "fantasia": "MALU MELO CLINIC",
@@ -34136,18 +34178,18 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "41790",
+      "codcli": "74247",
       "razao": "MANDABRASA RESTAURANTE LTDA",
-      "fantasia": "MANDABRASA RESTAURANTE",
-      "bairro": "PRAIA DE BELAS",
+      "fantasia": "MANDABRASA RESTAURANTE LTDA",
+      "bairro": "MOINHOS DE VENTO",
       "cidade": "PORTO ALEGRE",
-      "cnpj": "29.807.171/0010-08",
+      "cnpj": "29.807.171/0011-80",
       "estado": "RS",
       "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "226",
+      "nome_usur2": "MARCO PENIDO"
     },
     {
       "codcli": "30661",
@@ -34398,20 +34440,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "91139",
-      "razao": "MARCENARIA COSTELA BAR LTDA",
-      "fantasia": "MARCENARIA COSTELA BAR",
-      "bairro": "REBOUCAS",
-      "cidade": "CURITIBA",
-      "cnpj": "53.437.598/0001-47",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -39190,20 +39218,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "91427",
-      "razao": "MERCEARIA ADEGA PARANAENSE LTDA",
-      "fantasia": "ANARCO CONFECCOES",
-      "bairro": "JARDIM BOTANICO",
-      "cidade": "CURITIBA",
-      "cnpj": "82.431.172/0001-84",
-      "estado": "PR",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "2115",
       "razao": "MERCEARIA ADRIANO 105 LTDA ME",
       "fantasia": "",
@@ -39988,6 +40002,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "91869",
+      "razao": "MERCEARIA KEFINA LTDA",
+      "fantasia": "MERCEARIA KEFINA",
+      "bairro": "JARDIM BOTÂNICO",
+      "cidade": "CURITIBA",
+      "cnpj": "76.688.522/0004-32",
+      "estado": "PR",
+      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91063",
       "razao": "MERCEARIA KRUGER LTDA",
       "fantasia": "MERCEARIA KRUGER",
@@ -40590,7 +40618,7 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "39393",
+      "codcli": "50204",
       "razao": "MERIDIAN FOOD SERVICE EIRELI",
       "fantasia": "ORIGGI AL MARE II",
       "bairro": "ZONA 07",
@@ -40598,10 +40626,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "26.283.710/0001-60",
       "estado": "PR",
       "ramo": "BAR",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "24586",
@@ -40698,20 +40726,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "91140",
-      "razao": "MGB REFEICOES LTDA",
-      "fantasia": "SCARPETTA CUCINA",
-      "bairro": "BATEL",
-      "cidade": "CURITIBA",
-      "cnpj": "60.006.215/0001-41",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -42018,6 +42032,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "74693",
+      "razao": "MT2SC GASTRONOMIA INTERNACIONAL E SERVICOS LTDA",
+      "fantasia": "300 COSMO BEACH CLUB",
+      "bairro": "JURERÊ INTERNACIONAL",
+      "cidade": "FLORIANOPOLIS",
+      "cnpj": "21.302.926/0001-01",
+      "estado": "SC",
+      "ramo": "RESTAURANTE",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "226",
+      "nome_usur2": "MARCO PENIDO"
+    },
+    {
       "codcli": "62736",
       "razao": "MTV BAR E RESTAURANTE LTDA",
       "fantasia": "DIVINO BOTEQUIM",
@@ -42704,20 +42732,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "45670",
-      "razao": "NAYME CULINARIA ARABE LTDA",
-      "fantasia": "NAYME CULINARIA ARABE",
-      "bairro": "BATEL",
-      "cidade": "CURITIBA",
-      "cnpj": "37.083.234/0001-50",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "50451",
       "razao": "NEIDE ROSARIA DE SOUZA",
       "fantasia": "MERCEARIA DO SOUZA",
@@ -43320,6 +43334,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "80965",
+      "razao": "NOVO BRASIL ENTRETENIMENTO LTDA",
+      "fantasia": "PARADOR 12",
+      "bairro": "JURERE INTERNACIONAL",
+      "cidade": "FLORIANOPOLIS",
+      "cnpj": "02.006.611/0006-87",
+      "estado": "SC",
+      "ramo": "BAR",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "226",
+      "nome_usur2": "MARCO PENIDO"
+    },
+    {
       "codcli": "36737",
       "razao": "NOVO BRASIL ENTRETENIMENTO LTDA",
       "fantasia": "PARADOR 12",
@@ -43582,20 +43610,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "91141",
-      "razao": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-      "fantasia": "OLARIA BARIGUI COMERCIO DE ALIMENTOS",
-      "bairro": "ABRANCHES",
-      "cidade": "CURITIBA",
-      "cnpj": "51.446.997/0002-20",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -47310,20 +47324,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "45716",
-      "razao": "POMAR COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "POMAR COMERCIO DE BEBIDAS",
-      "bairro": "BATEL",
-      "cidade": "CURITIBA",
-      "cnpj": "46.804.329/0001-06",
-      "estado": "PR",
-      "ramo": "BAR",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "86073",
       "razao": "POMMER RESTAURANTE LTDA",
       "fantasia": "POMMER RESTAURANTE LTDA",
@@ -49676,6 +49676,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "73155",
+      "razao": "QUALITTA FOOD SERVICE LTDA",
+      "fantasia": "QUALITTA FOOD SERVICE",
+      "bairro": "ZONA 07",
+      "cidade": "MARINGA",
+      "cnpj": "22.378.147/0001-52",
+      "estado": "PR",
+      "ramo": "RESTAURANTE",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "226",
+      "nome_usur2": "MARCO PENIDO"
+    },
+    {
       "codcli": "29928",
       "razao": "QUALITTA FOOD SERVICE LTDA.",
       "fantasia": "QUALITTA FOOD SERVICE LTDA.",
@@ -51258,20 +51272,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "45675",
-      "razao": "REGRESSO PIZZA BAR LTDA",
-      "fantasia": "MADA PIZZA E VINHO - CENTRO/SBAGLIATO",
-      "bairro": "CENTRO",
-      "cidade": "CURITIBA",
-      "cnpj": "34.689.402/0001-67",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "94059",
       "razao": "REI DAS CARNES MERCEARIA LTDA",
       "fantasia": "REI DAS CARNES MERCEARIA",
@@ -51520,20 +51520,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "79129",
-      "razao": "RESTAURANTE DI PAOLO CURITIBA LTDA",
-      "fantasia": "DI PAOLO CURITIBA",
-      "bairro": "JARDIM BOTÂNICO",
-      "cidade": "CURITIBA",
-      "cnpj": "42.286.331/0001-80",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -51870,20 +51856,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "90727",
-      "razao": "RESTAURANTE MAR E TERRA LTDA",
-      "fantasia": "RESTAURANTE MAR E TERRA",
-      "bairro": "TINGUI",
-      "cidade": "CURITIBA",
-      "cnpj": "34.436.692/0001-37",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -58720,20 +58692,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "91225",
-      "razao": "SV ADEGA E COMERCIO DE ALIMENTOS LTDA",
-      "fantasia": "SV ADEGA E COMERCIO DE ALIMENTOS",
-      "bairro": "BATEL",
-      "cidade": "CURITIBA",
-      "cnpj": "47.561.200/0001-87",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "21171",
       "razao": "SWEET GULLA - RESTAURANTE, SERVICOS E EVENTOS LTDA",
       "fantasia": "PASSARIN CASA RESTAURANTE",
@@ -61198,20 +61156,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "90728",
-      "razao": "VINYES COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
-      "fantasia": "VINDOURO",
-      "bairro": "JUVEVE",
-      "cidade": "CURITIBA",
-      "cnpj": "10.287.149/0001-57",
-      "estado": "PR",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "86143",
       "razao": "VINÍCIUS BORGES VIEIRA",
       "fantasia": "BAR DO VINI",
@@ -61714,6 +61658,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "78180",
+      "razao": "W4 COMERCIO E SERVICOS DE VINHOS LTDA",
+      "fantasia": "W4 COMERCIO DE VINHOS",
+      "bairro": "AUXILIADORA",
+      "cidade": "PORTO ALEGRE",
+      "cnpj": "44.372.814/0001-22",
+      "estado": "RS",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "226",
+      "nome_usur2": "MARCO PENIDO"
     },
     {
       "codcli": "32980",
