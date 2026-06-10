@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/06/2026 11:04",
+  "atualizado_em": "10/06/2026 12:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -110167,24 +110167,6 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 4,
           "valor": 103.6
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "82480",
-          "cliente": "CEREALISTA 90 DE SANTISSIMO LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 561.0
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "82480",
-          "cliente": "CEREALISTA 90 DE SANTISSIMO LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 561.0
         },
         {
           "data": "07/05/2026",
