@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "10/06/2026 14:54",
+  "atualizado_em": "10/06/2026 15:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -69751,6 +69751,53 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 840,
           "valor": 43596.0
+        }
+      ],
+      "Jun/26": [
+        {
+          "data": "10/06/2026",
+          "codcli": "50728",
+          "cliente": "TROPICAL ATACADISTA LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 816,
+          "valor": 48878.4
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50728",
+          "cliente": "TROPICAL ATACADISTA LTDA",
+          "produto": "GIN BEEFEATER PINK 750ML",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 7428.0
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50728",
+          "cliente": "TROPICAL ATACADISTA LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 960,
+          "valor": 51744.0
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50728",
+          "cliente": "TROPICAL ATACADISTA LTDA",
+          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "fantasia": "PERNOD",
+          "qt": 48,
+          "valor": 2491.2
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50728",
+          "cliente": "TROPICAL ATACADISTA LTDA",
+          "produto": "VODKA ABSOLUT VANILLA 750ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1245.6
         }
       ]
     },
