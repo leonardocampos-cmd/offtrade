@@ -1222,6 +1222,7 @@ function renderDetail(v, mes) {
 
     ${buildAllCampanhas(v)}
     ${buildAmarulaDetail(v)}
+    ${buildMovingDetail(v)}
 
     ${buildPrevisao(v, pm)}
 
@@ -1623,6 +1624,54 @@ function buildAmarulaDetail(v) {
     </div>`;
 }
 
+const _MOVING_METAS_IND = {
+  '156':33000,'275':11000,'431':11000,'144':4000,'378':11000,
+  '412':6000,'153':8000,'238':5000,'419':7000,'439':3000,
+  '417':5000,'379':4000,'450':6000,'471':3000,'158':3000
+};
+const _MOVING_GATILHO = 120000;
+const _MOVING_MES     = 'Jun/26';
+
+function buildMovingDetail(v) {
+  if (!_MOVING_METAS_IND[v.rca]) return '';
+  const pm      = _pm(v, _MOVING_MES);
+  const fatReal = _mv(pm, 'fat_moving', 'realizado');
+  const metaInd = _MOVING_METAS_IND[v.rca];
+  const pctVal  = metaInd > 0 ? (fatReal / metaInd) * 100 : 0;
+  const pctDisp = pctVal > 999 ? '>999' : pctVal.toFixed(0);
+  const cls     = pctVal >= 100 ? 'green' : pctVal >= 70 ? 'yellow' : 'red';
+
+  const totalEquipe = (METAS_DATA.vendedores || [])
+    .filter(vv => _MOVING_METAS_IND[vv.rca])
+    .reduce((s, vv) => s + (_mv(_pm(vv, _MOVING_MES), 'fat_moving', 'realizado') || 0), 0);
+  const gatilhoOk  = totalEquipe >= _MOVING_GATILHO;
+  const gatilhoPct = Math.min((totalEquipe / _MOVING_GATILHO) * 100, 100);
+  const gCls       = gatilhoPct >= 100 ? 'green' : gatilhoPct >= 70 ? 'yellow' : 'red';
+  const premio     = gatilhoOk ? fatReal * 0.05 : null;
+
+  return `
+    <div class="campanha-detail-box" style="border-color:#10b98155;background:#0c1f18">
+      <div class="campanha-detail-title" style="color:#10b981">Campanha Moving &middot; Junho 2026</div>
+      <div class="campanha-detail-row">
+        <span style="color:var(--muted);font-size:0.78rem">Fat. Moving · Meta ${fmtFat(metaInd)}</span>
+        <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
+          <span class="campanha-rank-val">${fmtFat(fatReal)}</span>
+          <span class="metric-pct pct-${cls}" style="font-size:0.7rem">${pctDisp}%</span>
+          ${premio !== null ? `<span class="campanha-rank-prize" style="color:#10b981">R$ ${premio.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>` : ''}
+        </span>
+      </div>
+      <div class="campanha-detail-row">
+        <span style="color:var(--muted);font-size:0.72rem">Gatilho equipe ${fmtFat(totalEquipe)} / ${fmtFat(_MOVING_GATILHO)}</span>
+        ${gatilhoOk
+          ? `<span style="font-size:0.65rem;font-weight:700;background:#10b981;color:#000;border-radius:4px;padding:1px 6px">GATILHO: ATIVADO</span>`
+          : `<span style="font-size:0.65rem;font-weight:700;background:var(--red);color:#fff;border-radius:4px;padding:1px 6px">GATILHO: ${gatilhoPct.toFixed(0)}%</span>`}
+      </div>
+      <div class="bar-bg" style="margin-top:5px">
+        <div class="bar-fill bar-${gCls}" style="width:${gatilhoPct}%"></div>
+      </div>
+    </div>`;
+}
+
 function _buildResumoEquipe(vendedores, mes) {
   const totalFat = vendedores.reduce((s, v) => s + _mv(_pm(v, mes), 'fat_tt', 'realizado'), 0);
   const totalPos = vendedores.reduce((s, v) => s + _mv(_pm(v, mes), 'pos_tt', 'realizado'), 0);
@@ -1656,6 +1705,7 @@ function _buildCards(vendedores, mes) {
         <div class="stat-row"><span class="stat-label">Cadastros no mês</span><span class="stat-val">${v.clientes_cadastrados || 0}</span></div>
         ${buildCampanhaDetail(v, mes)}
         ${buildAmarulaDetail(v)}
+        ${buildMovingDetail(v)}
         <div class="card-actions">
           <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>
         </div>
