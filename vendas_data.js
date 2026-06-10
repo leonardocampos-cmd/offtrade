@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/06/2026 16:00",
+  "atualizado_em": "10/06/2026 17:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -36033,6 +36033,159 @@ const VENDAS_DATA = {
           "valor": 102.0
         },
         {
+          "data": "10/06/2026",
+          "codcli": "556",
+          "cliente": "POSTO DE GASOLINA PEQUENA CRUZADA LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "556",
+          "cliente": "POSTO DE GASOLINA PEQUENA CRUZADA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "556",
+          "cliente": "POSTO DE GASOLINA PEQUENA CRUZADA LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "556",
+          "cliente": "POSTO DE GASOLINA PEQUENA CRUZADA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "556",
+          "cliente": "POSTO DE GASOLINA PEQUENA CRUZADA LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "556",
+          "cliente": "POSTO DE GASOLINA PEQUENA CRUZADA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "556",
+          "cliente": "POSTO DE GASOLINA PEQUENA CRUZADA LTDA",
+          "produto": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
+          "fantasia": "MINALBA",
+          "qt": 1,
+          "valor": 58.04
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "2139",
+          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 22,
+          "valor": 723.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "2139",
+          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "2139",
+          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "2139",
+          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "produto": "RC ATUM SOLIDO YF EM OLIVA 12X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 129.9
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "2139",
+          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 135.9
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "2139",
+          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 750ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 65.9
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "2139",
+          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 157.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "2139",
+          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "produto": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 139.9
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "2139",
+          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 267.3
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "2139",
+          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 95.9
+        },
+        {
           "data": "01/06/2026",
           "codcli": "2454",
           "cliente": "POSTO DE GASOLINA GUADIANA LTDA",
@@ -36652,6 +36805,42 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 10,
           "valor": 267.3
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "61129",
+          "cliente": "AUTO POSTO MASP JARDIM LTDA.",
+          "produto": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
+          "fantasia": "MINALBA",
+          "qt": 1,
+          "valor": 58.04
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "61129",
+          "cliente": "AUTO POSTO MASP JARDIM LTDA.",
+          "produto": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
+          "fantasia": "MINALBA",
+          "qt": 1,
+          "valor": 51.92
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "61129",
+          "cliente": "AUTO POSTO MASP JARDIM LTDA.",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 20,
+          "valor": 426.36
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "61129",
+          "cliente": "AUTO POSTO MASP JARDIM LTDA.",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 89.9
         },
         {
           "data": "03/06/2026",
@@ -38668,6 +38857,60 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 4,
           "valor": 111.6
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "94208",
+          "cliente": "OPEN MINI MERCADO LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 98.28
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "94208",
+          "cliente": "OPEN MINI MERCADO LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "94208",
+          "cliente": "OPEN MINI MERCADO LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 98.28
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "94208",
+          "cliente": "OPEN MINI MERCADO LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 65.52
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "94208",
+          "cliente": "OPEN MINI MERCADO LTDA",
+          "produto": "NOSSO CHOP RED DRAFT PET 6X1,5L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 302.7
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "94208",
+          "cliente": "OPEN MINI MERCADO LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 334.8
         }
       ]
     },
@@ -38726,6 +38969,24 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 64.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "6401",
+          "cliente": "MINI MARKET BARRA SUL MERCADO",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 41.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "6401",
+          "cliente": "MINI MARKET BARRA SUL MERCADO",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "KAISER",
+          "qt": 10,
+          "valor": 1279.0
         },
         {
           "data": "09/06/2026",
@@ -87132,6 +87393,42 @@ const VENDAS_DATA = {
           "valor": 196.56
         },
         {
+          "data": "10/06/2026",
+          "codcli": "50648",
+          "cliente": "RASIBIA CANTINA LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 119.84
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50648",
+          "cliente": "RASIBIA CANTINA LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 59.92
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50648",
+          "cliente": "RASIBIA CANTINA LTDA",
+          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 59.92
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50648",
+          "cliente": "RASIBIA CANTINA LTDA",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 59.92
+        },
+        {
           "data": "04/06/2026",
           "codcli": "52102",
           "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
@@ -111548,6 +111845,15 @@ const VENDAS_DATA = {
           "valor": 160.3
         },
         {
+          "data": "10/06/2026",
+          "codcli": "74688",
+          "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "fantasia": "MINALBA",
+          "qt": 20,
+          "valor": 418.0
+        },
+        {
           "data": "09/06/2026",
           "codcli": "74838",
           "cliente": "PRIME MARKETS MINIMERCADO LTDA",
@@ -113723,6 +114029,33 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 12,
           "valor": 8026.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "85494",
+          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 279.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "85494",
+          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 70.9
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "85494",
+          "cliente": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 46.4
         }
       ],
       "Jan/26": [
@@ -127810,6 +128143,87 @@ const VENDAS_DATA = {
         },
         {
           "data": "10/06/2026",
+          "codcli": "75240",
+          "cliente": "PERACIO MORAES BASTOS 91701988704",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "75240",
+          "cliente": "PERACIO MORAES BASTOS 91701988704",
+          "produto": "APERITIVO CAMPARI 998ML",
+          "fantasia": "CAMPARI",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "75240",
+          "cliente": "PERACIO MORAES BASTOS 91701988704",
+          "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 111.0
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "75240",
+          "cliente": "PERACIO MORAES BASTOS 91701988704",
+          "produto": "WHISKY WHITE HORSE - 1L",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 359.4
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "75240",
+          "cliente": "PERACIO MORAES BASTOS 91701988704",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 179.76
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "79194",
+          "cliente": "JOSELUCIA DOS SANTOS MARTINS LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 119.6
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "79194",
+          "cliente": "JOSELUCIA DOS SANTOS MARTINS LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "79194",
+          "cliente": "JOSELUCIA DOS SANTOS MARTINS LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "79194",
+          "cliente": "JOSELUCIA DOS SANTOS MARTINS LTDA",
+          "produto": "COMARY MELFORT COQUETEL DE MEL 1L",
+          "fantasia": "COMARY",
+          "qt": 6,
+          "valor": 65.4
+        },
+        {
+          "data": "10/06/2026",
           "codcli": "93110",
           "cliente": "PORTO MIX DISTRIBUIDORA DE BEBIDAS E CONVENIÊNCIA LTDA",
           "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
@@ -127825,6 +128239,33 @@ const VENDAS_DATA = {
           "fantasia": "COMARY",
           "qt": 12,
           "valor": 130.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "93873",
+          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 4,
+          "valor": 261.12
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "93873",
+          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 4,
+          "valor": 261.12
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "93873",
+          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 130.56
         },
         {
           "data": "02/06/2026",
