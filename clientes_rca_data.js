@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/06/2026 15:01",
-  "total": 4462,
+  "atualizado_em": "10/06/2026 16:02",
+  "total": 4463,
   "clientes": [
     {
       "codcli": "31683",
@@ -14154,6 +14154,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50983",
+      "razao": "CH CREATIVE HUB SERVICES LTDA",
+      "fantasia": "CH CREATIVE HUB SERVICES",
+      "bairro": "CIDADE JARDIM",
+      "cidade": "PIRACICABA",
+      "cnpj": "59.810.492/0001-23",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
