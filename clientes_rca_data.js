@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/06/2026 12:01",
-  "total": 4448,
+  "atualizado_em": "10/06/2026 13:53",
+  "total": 4459,
   "clientes": [
     {
       "codcli": "31683",
@@ -3712,6 +3712,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "95311",
+      "razao": "62.519.057 JESSICA FONSECA ANSELMO",
+      "fantasia": "JESSICA FONSECA ANSELMO",
+      "bairro": "VARJAO",
+      "cidade": "PINHEIRAL",
+      "cnpj": "62.519.057/0001-59",
+      "estado": "RJ",
+      "ramo": "EVENTOS",
+      "codusur1": "154",
+      "nome_usur1": "GIOVANNA PORTELA",
+      "codusur2": "417",
+      "nome_usur2": "DIRLEI ARAUJO - OFF TRADE"
     },
     {
       "codcli": "90422",
@@ -10026,6 +10040,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "95331",
+      "razao": "BAR E RESTAURANTE DALLAS DO RIO LTDA",
+      "fantasia": "BRAHMURA BAR & GRILL",
+      "bairro": "ITANHANGA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "47.463.589/0001-28",
+      "estado": "RJ",
+      "ramo": "CAFETERIA",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "21061",
@@ -18342,6 +18370,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
+    },
+    {
+      "codcli": "90479",
+      "razao": "DIEGO SOUZA BARBOZA VARIEDADES LTDA",
+      "fantasia": "MARIMAR PRESENTES",
+      "bairro": "ITARARE",
+      "cidade": "VITORIA",
+      "cnpj": "13.634.299/0001-88",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "90830",
@@ -28214,6 +28256,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
+      "codcli": "92120",
+      "razao": "JARDINEIRA GRILL LTDA",
+      "fantasia": "JARDINEIRA GRILL",
+      "bairro": "VILA OLIMPIA",
+      "cidade": "SAO PAULO",
+      "cnpj": "00.471.860/0001-03",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "299",
+      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50012",
+      "razao": "JARDINEIRA GRILL LTDA",
+      "fantasia": "JARDINEIRA GRILL",
+      "bairro": "VILA OLÍMPIA",
+      "cidade": "SAO PAULO",
+      "cnpj": "00.471.860/0001-03",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "399",
+      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "38743",
       "razao": "JASMIM LIRA AVELINO 17145513773",
       "fantasia": "BAILARINAS DO MAR",
@@ -30732,6 +30802,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARA DEPOLLI - OFF TRADE",
       "codusur2": "335",
       "nome_usur2": "MARA DEPOLLI - OFF TRADE"
+    },
+    {
+      "codcli": "95332",
+      "razao": "L. DA COSTA OLIVEIRA RESTAURANTE E PIZZARIA",
+      "fantasia": "CHICO PEDRA RESTAURANTE E PIZZARIA",
+      "bairro": "LAGOMAR",
+      "cidade": "MACAE",
+      "cnpj": "17.459.873/0001-60",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "81951",
@@ -37032,6 +37116,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "76970",
+      "razao": "MERCADO E MERCEARIA PADRAO LTDA",
+      "fantasia": "MERCADO PADRAO LOJAS MP",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "11.220.664/0001-82",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "419",
+      "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "95334",
+      "razao": "MERCADO E MERCEARIA PADRAO LTDA",
+      "fantasia": "MERCADO E MERCEARIA PADRAO",
+      "bairro": "SANTA CRUZ",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "11.220.664/0002-63",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "419",
+      "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "371",
@@ -45196,6 +45308,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
+      "codcli": "95335",
+      "razao": "PADRAO SEPETIBA LTDA",
+      "fantasia": "MERCADO PADRAO",
+      "bairro": "SEPETIBA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "66.354.140/0001-76",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "419",
+      "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "82202",
       "razao": "PAELO COMERCIO DE ALIMENTOS LTDA",
       "fantasia": "PAELO HAMBURGUERIA",
@@ -45992,6 +46118,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADER ALONSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "95330",
+      "razao": "PARTIU PRA BOA LTDA",
+      "fantasia": "PARTIU PRA BOA",
+      "bairro": "PRACA SECA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "58.923.799/0001-78",
+      "estado": "RJ",
+      "ramo": "SERVIÇOS",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "50088",
@@ -53534,6 +53674,20 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "10.644.155/0001-14",
       "estado": "ES",
       "ramo": "RESTAURANTE",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "92448",
+      "razao": "SANTOS IMPORTACAO E INTERMEDIACAO DE NEGOCIOS LTDA",
+      "fantasia": "SANTOS IMPORTACAO E INTERMEDIACAO DE NEG",
+      "bairro": "ARLINDO VILLASCHI",
+      "cidade": "VIANA",
+      "cnpj": "56.084.001/0001-16",
+      "estado": "ES",
+      "ramo": "MERCADO",
       "codusur1": "257",
       "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
