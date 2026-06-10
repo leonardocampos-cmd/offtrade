@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/06/2026 11:43",
-  "total": 4446,
+  "atualizado_em": "10/06/2026 12:01",
+  "total": 4448,
   "clientes": [
     {
       "codcli": "31683",
@@ -2074,6 +2074,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "50978",
+      "razao": "52.712.792 TALITA VITORIA MATOS NASCIMENTO FERREIRA",
+      "fantasia": "52.712.792 TALITA VITORIA MATOS NASCIMENTO FERREIRA",
+      "bairro": "JARDIM MARIA CASAGRANDE LOPES (DONA AMÁL",
+      "cidade": "RIBEIRAO PRETO",
+      "cnpj": "52.712.792/0001-20",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "80665",
@@ -15846,8 +15860,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "59.095.562/0001-09",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "478",
-      "nome_usur1": "MARIA PEREIRA - OFF TRADE",
+      "codusur1": "481",
+      "nome_usur1": "RENAN SOUZA - OFF TRADE",
       "codusur2": "588",
       "nome_usur2": "W.S"
     },
@@ -34578,8 +34592,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "46.885.633/0001-25",
       "estado": "RJ",
       "ramo": "SERVIÇOS",
-      "codusur1": "412",
-      "nome_usur1": "BARBARA CABRAL - OFF TRADE",
+      "codusur1": "238",
+      "nome_usur1": "DANIELLE MOURA - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
     },
@@ -53370,6 +53384,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "46271",
+      "razao": "SAMUEL DE OLIVEIRA SILVA 34256900861",
+      "fantasia": "SAMUEL DE OLIVEIRA SILVA",
+      "bairro": "VILA BARÃO",
+      "cidade": "SOROCABA",
+      "cnpj": "31.202.893/0001-81",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "42429",
