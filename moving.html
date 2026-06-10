@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <script src="auth.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Campanha MOVING - Junho 2026</title>
@@ -86,7 +87,7 @@
 </head>
 <body>
 
-  <a class="nav-back" id="nav-back" href="index.html">&#8592; Home</a>
+  <a class="nav-back" href="index.html">&#8592; Home</a>
 
   <header>
     <div class="camp-badge">Em Andamento &mdash; Junho 2026</div>
@@ -155,47 +156,26 @@
   </footer>
 
   <script>
-    const _AUTH_HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
-    const _isGestor  = sessionStorage.getItem('rg_auth') === _AUTH_HASH;
-    let   _vendSess  = null;
-    try { _vendSess = JSON.parse(sessionStorage.getItem('rg_vendedor') || 'null'); } catch {}
-
     const MES = 'Jun/26';
     const GATILHO = 120000;
     const PCT = 0.05;
     const METAS_IND = {
-      '156': 33000,
-      '275': 11000,
-      '431': 11000,
-      '144':  4000,
-      '378': 11000,
-      '412':  6000,
-      '153':  8000,
-      '238':  5000,
-      '419':  7000,
-      '439':  3000,
-      '417':  5000,
-      '379':  4000,
-      '450':  6000,
-      '471':  3000,
-      '158':  3000
+      '156': 33000,  // MARILENA TRAGEL
+      '275': 11000,  // MARIA LUIZA
+      '431': 11000,  // ADEILSON GONÇALVES
+      '144':  4000,  // DIOGO RAPOSO
+      '378': 11000,  // FABIO VALOTTI
+      '412':  6000,  // BARBARA CABRAL
+      '153':  8000,  // ANGELO MOURA
+      '238':  5000,  // DANIELLE MOURA
+      '419':  7000,  // NÁTALI DE OLIVEIRA
+      '439':  3000,  // MATEUS CARDOSO
+      '417':  5000,  // DIRLEI ARAÚJO
+      '379':  4000,  // JORGE MACIEL
+      '450':  6000,  // LEANDRO PEREIRA
+      '471':  3000,  // ANA CLARA
+      '158':  3000   // JOSE MARCELO
     };
-
-    // Auth: gestor vê tudo; vendedor participante vê só o próprio; outros → login
-    if (!_isGestor) {
-      if (!_vendSess || !_vendSess.rca || METAS_IND[String(_vendSess.rca)] === undefined) {
-        sessionStorage.setItem('rg_redirect', location.pathname + location.search);
-        location.replace('login.html');
-      }
-    }
-
-    const IS_VENDOR = !_isGestor && !!_vendSess;
-    const MY_RCA    = IS_VENDOR ? String(_vendSess.rca) : null;
-
-    // Ajusta link de volta
-    document.getElementById('nav-back').href = IS_VENDOR ? 'vendedor.html' : 'index.html';
-    document.getElementById('nav-back').textContent = IS_VENDOR ? '← Meu Painel' : '← Home';
-
     const MEDALS = ['🥇','🥈','🥉'];
 
     document.getElementById('atualizado').textContent = METAS_DATA.atualizado_em;
@@ -234,22 +214,13 @@
       return pB - pA || b.fat - a.fat;
     });
 
-    // Vendedor vê só a própria linha; posição real no ranking é mantida
-    const visibleRows = IS_VENDOR ? sorted.filter(r => String(r.rca) === MY_RCA) : sorted;
-
-    if (IS_VENDOR) {
-      document.querySelector('.rank-title').textContent = 'Minha Apuração Moving — Junho 2026';
-      document.querySelector('.rank-note').textContent  = 'Apenas os seus dados';
-    }
-
     const el = document.getElementById('rank-list');
-    el.innerHTML = visibleRows.map((r, i) => {
-      const rankPos = IS_VENDOR ? sorted.findIndex(s => s.rca === r.rca) : i;
+    el.innerHTML = sorted.map((r, i) => {
       const pctMeta = r.metaInd > 0 ? Math.min((r.fat / r.metaInd) * 100, 999) : null;
       const pctCls  = pctMeta !== null ? (pctMeta >= 100 ? 'g' : pctMeta >= 70 ? 'y' : 'r') : null;
       const pctDisp = pctMeta !== null ? (pctMeta > 999 ? '>999' : pctMeta.toFixed(0) + '%') : '—';
       const premio  = gatilhoOk ? r.fat * PCT : null;
-      const pos     = rankPos < 3 ? MEDALS[rankPos] : rankPos + 1;
+      const pos     = i < 3 ? MEDALS[i] : i + 1;
 
       const pctColor = pctCls === 'g'
         ? '74,222,128' : pctCls === 'y'
@@ -263,7 +234,7 @@
           : `<span class="rank-gatilho-off">Gatilho não atingido</span>`;
 
       return `
-        <div class="rank-row${rankPos === 0 && r.fat > 0 ? ' primeiro' : ''}">
+        <div class="rank-row${i === 0 && r.fat > 0 ? ' primeiro' : ''}">
           <span class="rank-pos">${pos}</span>
           <span class="rank-nome" title="${r.nome}">${r.nome}</span>
           <span class="rank-fat">${fmtFat(r.fat)}</span>

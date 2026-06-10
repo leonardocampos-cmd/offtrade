@@ -93381,3 +93381,11 @@ OK GitHub Pages atualizado — https://leonardocampos-cmd.github.io/offtrade/
 ---------------------------------------- 
 [09/06/2026 17:00:01,47] Iniciando... 
 [10/06/2026  9:00:00,20] Iniciando... 
+[master 5ed94ac] Atualiza metas_data.js + vendas_data.js - 10/06/2026
+ 2 files changed, 21 insertions(+), 21 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   3676205..5ed94ac  master -> master
+[master 0180d7b] Atualiza entregas_data.js - 10/06/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   afe6b60..0180d7b  master -> master
