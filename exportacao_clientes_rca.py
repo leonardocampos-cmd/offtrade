@@ -15,16 +15,16 @@ def _query(schema):
         SELECT
             C.CODCLI,
             C.CLIENTE,
-            NVL(C.FANTASIA, '')   AS FANTASIA,
-            NVL(C.BAIRROENT, '')  AS BAIRRO,
-            NVL(C.MUNICENT, '')   AS CIDADE,
-            NVL(C.ESTENT, '')     AS ESTADO,
-            NVL(C.CGCENT, '')     AS CNPJ,
-            NVL(A.DESCRICAO, '')  AS RAMO,
+            COALESCE(C.FANTASIA, '')   AS FANTASIA,
+            COALESCE(C.BAIRROENT, '')  AS BAIRRO,
+            COALESCE(C.MUNICENT, '')   AS CIDADE,
+            COALESCE(C.ESTENT, '')     AS ESTADO,
+            COALESCE(C.CGCENT, '')     AS CNPJ,
+            COALESCE(A.DESCRICAO, '')  AS RAMO,
             C.CODUSUR1,
             C.CODUSUR2,
-            NVL(U1.NOME, '')      AS NOME_USUR1,
-            NVL(U2.NOME, '')      AS NOME_USUR2
+            COALESCE(U1.NOME, '')      AS NOME_USUR1,
+            COALESCE(U2.NOME, '')      AS NOME_USUR2
         FROM {s}.PCCLIENT C
         LEFT JOIN {s}.PCATIVI  A  ON C.CODATV1  = A.CODATV
         LEFT JOIN {s}.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
