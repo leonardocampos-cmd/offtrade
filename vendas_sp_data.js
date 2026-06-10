@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "10/06/2026 16:01",
+  "atualizado_em": "10/06/2026 17:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -33045,6 +33045,141 @@ const VENDAS_SP_DATA = {
       ],
       "Jun/26": [
         {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "BOURBON WHISKY WOODFORD RESERVE - DEST",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 8280.0
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "WHISKY ROYAL SALUTE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 13656.0
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "WHISKY JACK DANIELS 375 ML - DEST",
+          "fantasia": "",
+          "qt": 240,
+          "valor": 10776.0
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "WHISKY CHIVAS REGAL XV 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 2158.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "RUM HAVANA CLUB 7 ANOS 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 1534.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "WHISKY CHIVAS REGAL 18 ANOS 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 3478.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "GIN ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 813.6
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "GIN LARIOS ORIGINAL 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 12,
+          "valor": 489.0
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "CHAMP. VEUVE CLICQUOT DEMI-SEC 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 4198.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "CHAMPAGNE DOM PERIGNON BRUT 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 7500.0
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 3643.2
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "CHANDON BABY BRUT ROSE 187 ML",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 3108.0
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 676.56
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 744.24
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1794.0
+        },
+        {
           "data": "05/06/2026",
           "codcli": "23019",
           "cliente": "MUNDO MIX MERCADO ATACADISTA DE BEBIDAS LTDA",
@@ -35018,6 +35153,33 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 10,
           "valor": 618.26
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50955",
+          "cliente": "65.496.188 SERGIO TADEU MICHELINI",
+          "produto": "JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 6,
+          "valor": 377.4
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50955",
+          "cliente": "65.496.188 SERGIO TADEU MICHELINI",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 12,
+          "valor": 754.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50955",
+          "cliente": "65.496.188 SERGIO TADEU MICHELINI",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 6,
+          "valor": 377.4
         }
       ],
       "Mai/26": [
@@ -39701,207 +39863,16 @@ const VENDAS_SP_DATA = {
           "valor": 3880.8
         }
       ],
-      "Jan/26": [
-        {
-          "data": "29/01/2026",
-          "codcli": "25926",
-          "cliente": "E CORRADINI IRMAO LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 344.88
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "25926",
-          "cliente": "E CORRADINI IRMAO LTDA",
-          "produto": "AMARULA C LIQUEUR 750 ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1162.44
-        },
-        {
-          "data": "21/01/2026",
-          "codcli": "32788",
-          "cliente": "FOOD CENTER ALIMENTOS E BEBIDAS LTDA",
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "fantasia": "",
-          "qt": 36,
-          "valor": 2443.68
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "32788",
-          "cliente": "FOOD CENTER ALIMENTOS E BEBIDAS LTDA",
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 4072.8
-        },
-        {
-          "data": "26/01/2026",
-          "codcli": "30334",
-          "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 852.96
-        },
-        {
-          "data": "26/01/2026",
-          "codcli": "30334",
-          "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
-          "produto": "MARTINI BIANCO 750 ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 357.84
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "30334",
-          "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
-          "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 258.36
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "32263",
-          "cliente": "DISTRIBUIDORA MC LTDA",
-          "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 294.36
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "32263",
-          "cliente": "DISTRIBUIDORA MC LTDA",
-          "produto": "APERITIVO APEROL 750 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 234.24
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "32263",
-          "cliente": "DISTRIBUIDORA MC LTDA",
-          "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 258.36
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "32263",
-          "cliente": "DISTRIBUIDORA MC LTDA",
-          "produto": "LICOR AMARETTO DEL'ORSO 700 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 360.78
-        },
-        {
-          "data": "26/01/2026",
-          "codcli": "31084",
-          "cliente": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 108,
-          "valor": 6997.32
-        },
-        {
-          "data": "26/01/2026",
-          "codcli": "31084",
-          "cliente": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 36,
-          "valor": 2332.44
-        },
-        {
-          "data": "30/01/2026",
-          "codcli": "33545",
-          "cliente": "LATICINIOS MARCELO LTDA ME",
-          "produto": "GIN BOMBAY SAPPHIRE 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 840.36
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "42699",
-          "cliente": "STORM COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 60,
-          "valor": 3887.4
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "42699",
-          "cliente": "STORM COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-          "produto": "APERITIVO RAMAZZOTTI AMARO 7O0ML",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1311.36
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "42699",
-          "cliente": "STORM COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-          "produto": "VODKA GREY GOOSE LORANGE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 642.12
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "46677",
-          "cliente": "TROPICAL & MAGIC DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
-          "produto": "CHANDON GARDEN SPRITZ 750 ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 4071.0
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "47384",
-          "cliente": "JOSE PARROTI E CIA LTDA",
-          "produto": "WHISKY JACK DANIELS 700ML - DEST",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1103.88
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "47384",
-          "cliente": "JOSE PARROTI E CIA LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 700ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1103.88
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "47384",
-          "cliente": "JOSE PARROTI E CIA LTDA",
-          "produto": "JACK DANIELS HONEY 700ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1103.88
-        },
-        {
-          "data": "16/01/2026",
-          "codcli": "47181",
-          "cliente": "LATICINIOS TANI LTDA",
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "fantasia": "",
-          "qt": 30,
-          "valor": 2036.4
-        }
-      ],
       "Jun/26": [
+        {
+          "data": "10/06/2026",
+          "codcli": "21851",
+          "cliente": "MHM SUPERMERCADOS LTDA.",
+          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1198.8
+        },
         {
           "data": "04/06/2026",
           "codcli": "24120",
@@ -40225,6 +40196,206 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 19,
           "valor": 1043.1
+        }
+      ],
+      "Jan/26": [
+        {
+          "data": "29/01/2026",
+          "codcli": "25926",
+          "cliente": "E CORRADINI IRMAO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 344.88
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "25926",
+          "cliente": "E CORRADINI IRMAO LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1162.44
+        },
+        {
+          "data": "21/01/2026",
+          "codcli": "32788",
+          "cliente": "FOOD CENTER ALIMENTOS E BEBIDAS LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 2443.68
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "32788",
+          "cliente": "FOOD CENTER ALIMENTOS E BEBIDAS LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 4072.8
+        },
+        {
+          "data": "26/01/2026",
+          "codcli": "30334",
+          "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 852.96
+        },
+        {
+          "data": "26/01/2026",
+          "codcli": "30334",
+          "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 357.84
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "30334",
+          "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 258.36
+        },
+        {
+          "data": "23/01/2026",
+          "codcli": "32263",
+          "cliente": "DISTRIBUIDORA MC LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 294.36
+        },
+        {
+          "data": "23/01/2026",
+          "codcli": "32263",
+          "cliente": "DISTRIBUIDORA MC LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 234.24
+        },
+        {
+          "data": "23/01/2026",
+          "codcli": "32263",
+          "cliente": "DISTRIBUIDORA MC LTDA",
+          "produto": "CACHACA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 258.36
+        },
+        {
+          "data": "23/01/2026",
+          "codcli": "32263",
+          "cliente": "DISTRIBUIDORA MC LTDA",
+          "produto": "LICOR AMARETTO DEL'ORSO 700 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 360.78
+        },
+        {
+          "data": "26/01/2026",
+          "codcli": "31084",
+          "cliente": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 108,
+          "valor": 6997.32
+        },
+        {
+          "data": "26/01/2026",
+          "codcli": "31084",
+          "cliente": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 36,
+          "valor": 2332.44
+        },
+        {
+          "data": "30/01/2026",
+          "codcli": "33545",
+          "cliente": "LATICINIOS MARCELO LTDA ME",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 840.36
+        },
+        {
+          "data": "23/01/2026",
+          "codcli": "42699",
+          "cliente": "STORM COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 60,
+          "valor": 3887.4
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "42699",
+          "cliente": "STORM COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "APERITIVO RAMAZZOTTI AMARO 7O0ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1311.36
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "42699",
+          "cliente": "STORM COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "VODKA GREY GOOSE LORANGE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 642.12
+        },
+        {
+          "data": "23/01/2026",
+          "codcli": "46677",
+          "cliente": "TROPICAL & MAGIC DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "CHANDON GARDEN SPRITZ 750 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 4071.0
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "47384",
+          "cliente": "JOSE PARROTI E CIA LTDA",
+          "produto": "WHISKY JACK DANIELS 700ML - DEST",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1103.88
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "47384",
+          "cliente": "JOSE PARROTI E CIA LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 700ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1103.88
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "47384",
+          "cliente": "JOSE PARROTI E CIA LTDA",
+          "produto": "JACK DANIELS HONEY 700ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1103.88
+        },
+        {
+          "data": "16/01/2026",
+          "codcli": "47181",
+          "cliente": "LATICINIOS TANI LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 2036.4
         }
       ],
       "Fev/26": [
@@ -48177,6 +48348,42 @@ const VENDAS_SP_DATA = {
           "valor": 251.6
         },
         {
+          "data": "10/06/2026",
+          "codcli": "49376",
+          "cliente": "CASA DE SUCOS E LANCHONETE IRMAOS GOMES LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 483.26
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "49376",
+          "cliente": "CASA DE SUCOS E LANCHONETE IRMAOS GOMES LTDA",
+          "produto": "WHISKY ESC MACALLAN SHERRY OAK 12Y 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 1,
+          "valor": 716.17
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "49376",
+          "cliente": "CASA DE SUCOS E LANCHONETE IRMAOS GOMES LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 279.6
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "49376",
+          "cliente": "CASA DE SUCOS E LANCHONETE IRMAOS GOMES LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 91.39
+        },
+        {
           "data": "02/06/2026",
           "codcli": "50722",
           "cliente": "DISTRIBUIDORA DE ALIMENTOS SUPER COTIA LTDA",
@@ -51145,6 +51352,42 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 599.4
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50042",
+          "cliente": "ADEGA E HOJE DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50042",
+          "cliente": "ADEGA E HOJE DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "49892",
+          "cliente": "ANDERSON QUEIROZ BEZERRA 41041355858",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 587.34
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "49892",
+          "cliente": "ANDERSON QUEIROZ BEZERRA 41041355858",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 693.6
         },
         {
           "data": "09/06/2026",
@@ -56465,6 +56708,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 10,
           "valor": 549.0
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "36187",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 3507.0
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "36188",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1402.8
         },
         {
           "data": "01/06/2026",
@@ -68386,6 +68647,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 24,
           "valor": 2043.47
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50484",
+          "cliente": "JOSE MAURICIO ROVAI SIMON",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 119.88
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "50484",
+          "cliente": "JOSE MAURICIO ROVAI SIMON",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 347.38
         },
         {
           "data": "03/06/2026",
