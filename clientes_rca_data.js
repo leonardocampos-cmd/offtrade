@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "11/06/2026 14:02",
-  "total": 4483,
+  "atualizado_em": "11/06/2026 15:05",
+  "total": 4490,
   "clientes": [
     {
       "codcli": "31683",
@@ -6370,6 +6370,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PESSOA FISICA",
       "codusur1": "336",
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49244",
+      "razao": "ALEX MENDES CUSTODIO DA SILVEIRA 46558153882",
+      "fantasia": "BINHO DRINKS",
+      "bairro": "VILA REGINA",
+      "cidade": "SAO PAULO",
+      "cnpj": "33.160.124/0001-93",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -13332,6 +13346,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "95355",
+      "razao": "CASA DE CARNES IMPERIO DO LOTE XV, ACOUGUE E MERCEARIA LTDA",
+      "fantasia": "CASA DE CARNES IMPERIO DO LOTE XV, ACOUG",
+      "bairro": "WONA",
+      "cidade": "BELFORD ROXO",
+      "cnpj": "51.625.241/0001-67",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "379",
+      "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "90370",
       "razao": "CASA DE DOCES CESCONETTO LTDA",
       "fantasia": "CASA DE DOCES CESCONETTO",
@@ -18718,6 +18746,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ADEGA",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51010",
+      "razao": "DISTRIBUIDOR DE ALIMENTOS E BEBIDAS FERREIRA LTDA",
+      "fantasia": "DISTRIBUIDOR DE ALIMENTOS E BEBIDAS FERR",
+      "bairro": "PAULICEIA",
+      "cidade": "PIRACICABA",
+      "cnpj": "49.517.284/0001-87",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -24250,6 +24292,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
+    },
+    {
+      "codcli": "77924",
+      "razao": "FUEGO LOUNGE LTDA",
+      "fantasia": "FUEGO LOUNGE",
+      "bairro": "CENTRO",
+      "cidade": "CABO FRIO",
+      "cnpj": "44.478.038/0001-40",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "26634",
@@ -34766,6 +34822,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51009",
+      "razao": "MARCOS R M ALMEIDA BEBIDAS",
+      "fantasia": "MARCOS R M ALMEIDA BEBIDAS",
+      "bairro": "MONTE CASTELO",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "02.798.830/0001-31",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "41232",
       "razao": "MARCOS VINICIUS CABRALDA SILVA",
       "fantasia": "EMPORIO CABRAL",
@@ -35028,6 +35098,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PESSOA FISICA",
       "codusur1": "370",
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51006",
+      "razao": "MARIA VILMA ALVES FELIZARDO",
+      "fantasia": "MARIA VILMA ALVES FELIZARDO",
+      "bairro": "PARQUE UNIVERSITARIO",
+      "cidade": "FERNANDOPOLIS",
+      "cnpj": "14.552.133/0001-85",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -35630,6 +35714,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "463",
       "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "85046",
+      "razao": "MEDEIROS GENEROS ALIMENTICIOS E BEBIDAS LTDA",
+      "fantasia": "DISTRIBUIDORA MEDEIROS",
+      "bairro": "VISTA ALEGRE (TAMOIOS)",
+      "cidade": "CABO FRIO",
+      "cnpj": "43.891.909/0001-90",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "241",
+      "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
