@@ -1,4 +1,4 @@
-// Gerado em 11/06/2026 12:02
+// Gerado em 11/06/2026 12:07
 const VENDEDORES_AUTH = {
   "156": {
     "nome": "MARILENA TRAGEL - OFF TRADE",
@@ -22,7 +22,7 @@ const VENDEDORES_AUTH = {
   },
   "431": {
     "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
-    "email": "adeilson.rigarr@gmail.com"
+    "email": "adeilson.goncalves@rigarr.com.br"
   },
   "439": {
     "nome": "MATEUS CARDOSO - OFF TRADE",
