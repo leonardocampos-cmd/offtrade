@@ -606,14 +606,33 @@
 <body>
 <script>
 (function () {
-  const _p = new URLSearchParams(location.search);
-  if (!_p.get('vendedor') && !_p.get('rca')) {
-    const HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
-    if (sessionStorage.getItem('rg_auth') !== HASH) {
-      sessionStorage.setItem('rg_redirect', location.pathname + location.search);
-      location.replace('login.html');
-    }
-  }
+  const HASH    = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
+  const _p      = new URLSearchParams(location.search);
+  const _vend   = _p.get('vendedor');
+  const _rca    = _p.get('rca');
+
+  if (sessionStorage.getItem('rg_auth') === HASH) return; // gestor: acesso total
+
+  const _goLogin = () => {
+    sessionStorage.setItem('rg_redirect', location.pathname + location.search);
+    location.replace('login.html');
+  };
+
+  if (!_vend && !_rca) { _goLogin(); return; } // view geral: só gestor
+
+  // view de vendedor: exige sessão com RCA correspondente
+  try {
+    const s = JSON.parse(sessionStorage.getItem('rg_vendedor') || '{}');
+    if (!s.rca) throw 0;
+    const rcaUrl = _rca
+      ? String(_rca)
+      : (() => {
+          const vv = (typeof METAS_DATA !== 'undefined' ? METAS_DATA.vendedores : [])
+            .find(x => x.nome.toLowerCase() === _vend.toLowerCase());
+          return vv ? String(vv.rca) : null;
+        })();
+    if (!rcaUrl || String(s.rca) !== rcaUrl) throw 0;
+  } catch { _goLogin(); }
 })();
 </script>
 <header>
