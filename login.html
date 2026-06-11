@@ -24,29 +24,34 @@
     }
     .logo { font-size: 1.4rem; font-weight: 800; color: var(--accent); letter-spacing: -.02em; text-align: center; }
     .logo span { color: var(--muted); font-weight: 400; font-size: .88rem; display: block; margin-top: 4px; }
-
-    .hint {
-      font-size: .76rem; color: var(--muted); text-align: center; line-height: 1.5;
-    }
+    .hint { font-size: .76rem; color: var(--muted); text-align: center; line-height: 1.5; }
     .hint strong { color: var(--text); }
-
     .field { width: 100%; display: flex; flex-direction: column; gap: 7px; }
     label { font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
-    input[type=number] {
+    input {
       width: 100%; padding: 12px 14px; border-radius: 8px;
       border: 1px solid var(--border); background: var(--bg);
-      color: var(--text); font-size: 1.3rem; outline: none;
-      transition: border-color .15s; text-align: center;
-      font-family: inherit; font-weight: 700; letter-spacing: .12em;
+      color: var(--text); font-size: 1rem; outline: none;
+      transition: border-color .15s; font-family: inherit;
       -moz-appearance: textfield;
     }
+    input[type=number] { text-align: center; font-size: 1.3rem; font-weight: 700; letter-spacing: .12em; }
     input[type=number]::-webkit-outer-spin-button,
     input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; }
-    input[type=number]:focus { border-color: var(--accent); }
-    input::placeholder { font-weight: 400; font-size: .95rem; letter-spacing: normal; color: var(--muted); }
-
+    input[type=password] { text-align: center; font-size: 1.3rem; font-weight: 700; letter-spacing: .12em; }
+    input:focus { border-color: var(--accent); }
+    input::placeholder { font-weight: 400; font-size: .9rem; letter-spacing: normal; color: var(--muted); }
+    #vend-fields { width: 100%; display: none; flex-direction: column; gap: 14px; }
+    button.btn-submit {
+      width: 100%; padding: 11px; border-radius: 8px;
+      background: var(--accent); color: #111; font-size: .95rem;
+      font-weight: 700; border: none; cursor: pointer;
+      transition: background .15s; font-family: inherit;
+    }
+    button.btn-submit:hover { background: #d4a90e; }
+    .divider { width: 100%; display: flex; align-items: center; gap: 10px; font-size: .72rem; color: var(--muted); }
+    .divider::before, .divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
     #google-btn-wrap { width: 100%; display: flex; justify-content: center; min-height: 44px; }
-
     .erro { font-size: .82rem; color: var(--red); text-align: center; min-height: 20px; line-height: 1.4; }
   </style>
 </head>
@@ -55,15 +60,30 @@
     <div class="logo">Rigarr <span>Painel Comercial</span></div>
 
     <p class="hint">
-      <strong>Vendedor:</strong> informe seu RCA abaixo e entre com Google.<br>
+      <strong>Vendedor:</strong> informe seu RCA, e-mail e senha.<br>
       <strong>Gestor:</strong> deixe o RCA em branco e entre com Google.
     </p>
 
-    <div class="field">
-      <label for="rca">RCA / CODUSUR <span style="font-size:.65rem;font-weight:400">(apenas vendedores)</span></label>
-      <input type="number" id="rca" placeholder="Deixe em branco se for gestor" autocomplete="off">
-    </div>
+    <form id="form" style="width:100%;display:flex;flex-direction:column;gap:14px">
+      <div class="field">
+        <label for="rca">RCA / CODUSUR <span style="font-size:.65rem;font-weight:400">(apenas vendedores)</span></label>
+        <input type="number" id="rca" placeholder="Deixe em branco se for gestor" autocomplete="off">
+      </div>
 
+      <div id="vend-fields">
+        <div class="field">
+          <label for="email">E-mail cadastrado</label>
+          <input type="email" id="email" placeholder="seu@email.com" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="pin">Senha</label>
+          <input type="password" id="pin" placeholder="······" autocomplete="off">
+        </div>
+        <button type="submit" class="btn-submit">Entrar</button>
+      </div>
+    </form>
+
+    <div class="divider" id="divider-google">ou</div>
     <div id="google-btn-wrap"></div>
 
     <div class="erro" id="erro"></div>
@@ -71,9 +91,9 @@
 
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script>
-    const CLIENT_ID  = '966004363576-ucdlgkjtsfffspp03fiqib2dchp012fs.apps.googleusercontent.com';
-    const AUTH_HASH  = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
-    const EMAILS_OK  = ['danielle.soares@rigarr.com.br','allan.correa@rigarr.com.br','leonardo.campos@rigarr.com.br','alexsandro.nunes@rigarr.com.br','giovani.cabral@rigarr.com.br'];
+    const AUTH_HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
+    const PIN_HASH  = 'f263766e88cba0bf9dfeb6d8f7228a554058f71ac1cb1ca9b0bbfb322b2b7552';
+    const EMAILS_OK = ['danielle.soares@rigarr.com.br','allan.correa@rigarr.com.br','leonardo.campos@rigarr.com.br','alexsandro.nunes@rigarr.com.br','giovani.cabral@rigarr.com.br'];
 
     // Já autenticado como gestor
     const _stored = sessionStorage.getItem('rg_auth');
@@ -92,6 +112,65 @@
 
     function showErro(msg) { document.getElementById('erro').textContent = msg; }
 
+    function _doRedirect(rca) {
+      const redir = sessionStorage.getItem('rg_redirect') || '';
+      sessionStorage.removeItem('rg_redirect');
+      location.replace(redir.includes('metas.html') ? redir : 'metas.html?rca=' + encodeURIComponent(rca));
+    }
+
+    // Mostrar campos conforme o domínio do email do RCA
+    document.getElementById('rca').addEventListener('input', function () {
+      showErro('');
+      const rca = this.value.trim();
+      if (!rca) {
+        document.getElementById('vend-fields').style.display    = 'none';
+        document.getElementById('divider-google').style.display = 'flex';
+        document.getElementById('google-btn-wrap').style.display = 'flex';
+        return;
+      }
+      const vendedor = VENDEDORES_AUTH[rca];
+      const emailRigarr = vendedor && (vendedor.email || '').toLowerCase().endsWith('@rigarr.com.br');
+      // email @rigarr → Google; outro domínio → email + senha
+      document.getElementById('vend-fields').style.display    = (!emailRigarr) ? 'flex' : 'none';
+      document.getElementById('divider-google').style.display = emailRigarr ? 'flex' : 'none';
+      document.getElementById('google-btn-wrap').style.display = emailRigarr ? 'flex' : 'none';
+    });
+
+    // ── Fluxo vendedor: RCA + email + senha ───────────────────────
+    async function sha256(str) {
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    document.getElementById('form').addEventListener('submit', async e => {
+      e.preventDefault();
+      showErro('');
+      const rca   = document.getElementById('rca').value.trim();
+      const email = document.getElementById('email').value.trim().toLowerCase();
+      const pin   = document.getElementById('pin').value;
+
+      if (!rca) return;
+      if (!email) { showErro('Digite seu e-mail.'); return; }
+      if (!pin)   { showErro('Digite a senha.'); return; }
+
+      const vendedor = VENDEDORES_AUTH[rca];
+      if (!vendedor) { showErro('RCA não encontrado.'); return; }
+
+      if (!vendedor.email || email !== vendedor.email.toLowerCase()) {
+        showErro('E-mail não corresponde ao RCA informado.');
+        return;
+      }
+
+      const hash = await sha256(pin);
+      if (hash !== PIN_HASH) { showErro('Senha incorreta.'); return; }
+
+      sessionStorage.setItem('rg_vendedor', JSON.stringify({
+        rca, nome: vendedor.nome, email: vendedor.email
+      }));
+      _doRedirect(rca);
+    });
+
+    // ── Fluxo Google: vendedor @rigarr ou gestor (sem RCA) ───────
     function handleCredential(response) {
       showErro('');
       const rca = document.getElementById('rca').value.trim();
@@ -107,44 +186,36 @@
 
       const email = (payload.email || '').toLowerCase();
 
-      // ── Fluxo vendedor (RCA preenchido) ──────────────────────────
+      // Vendedor com email @rigarr
       if (rca) {
         const vendedor = VENDEDORES_AUTH[rca];
-        if (!vendedor) {
-          showErro('RCA não encontrado. Verifique o número.');
+        if (!vendedor) { showErro('RCA não encontrado.'); google.accounts.id.revoke(email, () => {}); return; }
+        if (email !== vendedor.email.toLowerCase()) {
+          showErro('E-mail não corresponde ao RCA informado.');
           google.accounts.id.revoke(email, () => {});
           return;
         }
-        if (!vendedor.email || email !== vendedor.email.toLowerCase()) {
-          showErro('Conta Google não corresponde ao RCA informado.');
-          google.accounts.id.revoke(email, () => {});
-          return;
-        }
-        sessionStorage.setItem('rg_vendedor', JSON.stringify({
-          rca, nome: vendedor.nome, email
-        }));
-        const redirV = sessionStorage.getItem('rg_redirect') || '';
-        sessionStorage.removeItem('rg_redirect');
-        location.replace(redirV.includes('metas.html') ? redirV : 'metas.html?rca=' + encodeURIComponent(rca));
+        sessionStorage.setItem('rg_vendedor', JSON.stringify({ rca, nome: vendedor.nome, email: vendedor.email }));
+        _doRedirect(rca);
         return;
       }
 
-      // ── Fluxo gestor (sem RCA) ────────────────────────────────────
+      // Gestor (sem RCA)
       if (!EMAILS_OK.includes(email)) {
-        showErro('E-mail não autorizado. Informe seu RCA se for vendedor.');
+        showErro('E-mail não autorizado.');
         google.accounts.id.revoke(email, () => {});
         return;
       }
       sessionStorage.setItem('rg_auth', AUTH_HASH);
-      const redirG = sessionStorage.getItem('rg_redirect') || '';
+      const redir = sessionStorage.getItem('rg_redirect') || '';
       sessionStorage.removeItem('rg_redirect');
-      location.replace(redirG || 'index.html');
+      location.replace(redir || 'index.html');
     }
 
     window.addEventListener('load', () => {
       if (typeof google === 'undefined') return;
       google.accounts.id.initialize({
-        client_id: CLIENT_ID,
+        client_id: '966004363576-ucdlgkjtsfffspp03fiqib2dchp012fs.apps.googleusercontent.com',
         callback: handleCredential,
         auto_select: false,
         cancel_on_tap_outside: true,
