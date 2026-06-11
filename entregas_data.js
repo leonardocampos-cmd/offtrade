@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "11/06/2026 10:22",
+  "atualizado_em": "11/06/2026 11:02",
   "data_rota": "11.06",
   "vendedores": [
     {
@@ -5158,14 +5158,14 @@ const ENTREGAS_DATA = {
           "total": 1299.9,
           "itens": [
             {
-              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
-              "qt": 1,
-              "val": 20.9
-            },
-            {
               "desc": "CERVEJA HEINEKEN LONG 24X330ML",
               "qt": 10,
               "val": 1279.0
+            },
+            {
+              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
+              "qt": 1,
+              "val": 20.9
             }
           ]
         },
@@ -10022,6 +10022,76 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "379001098",
+          "numnota": "",
+          "data": "11/06/2026",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 493.16,
+          "itens": [
+            {
+              "desc": "RUM MONTILLA OURO 1L",
+              "qt": 2,
+              "val": 51.8
+            },
+            {
+              "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+              "qt": 12,
+              "val": 310.8
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            }
+          ]
+        },
+        {
+          "numped": "379001097",
+          "numnota": "",
+          "data": "11/06/2026",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1226.04,
+          "itens": [
+            {
+              "desc": "WHISKY BALLANTINE S FINEST 750ML",
+              "qt": 12,
+              "val": 682.8
+            },
+            {
+              "desc": "GIN ROCKS STRAWBERRY 1000ML",
+              "qt": 6,
+              "val": 135.0
+            },
+            {
+              "desc": "WHISKY BLACK STONE 1LT",
+              "qt": 24,
+              "val": 342.96
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            }
+          ]
+        },
+        {
           "numped": "379001081",
           "numnota": "",
           "data": "08/06/2026",
@@ -14765,6 +14835,46 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "156003562",
+          "numnota": "",
+          "data": "11/06/2026",
+          "cliente": "AUTO POSTO QUEBRAMAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 461.04,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 53.46
+            },
+            {
+              "desc": "GIN BEEFEATER 750ML",
+              "qt": 2,
+              "val": 139.8
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 5,
+              "val": 99.5
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 5,
+              "val": 104.5
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 2,
+              "val": 63.78
+            }
+          ]
+        },
+        {
           "numped": "156003560",
           "numnota": "",
           "data": "11/06/2026",
@@ -14777,11 +14887,6 @@ const ENTREGAS_DATA = {
           "obs": "",
           "total": 506.34,
           "itens": [
-            {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
             {
               "desc": "NECTAR GOIABA 12X1000ML",
               "qt": 1,
@@ -14831,46 +14936,11 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
               "qt": 1,
               "val": 94.7
-            }
-          ]
-        },
-        {
-          "numped": "156003562",
-          "numnota": "",
-          "data": "11/06/2026",
-          "cliente": "AUTO POSTO QUEBRAMAR LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 461.04,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 2,
-              "val": 53.46
             },
             {
-              "desc": "GIN BEEFEATER 750ML",
-              "qt": 2,
-              "val": 139.8
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "qt": 5,
-              "val": 99.5
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-              "qt": 5,
-              "val": 104.5
-            },
-            {
-              "desc": "GUARAVITON GINSENG 12X500ML",
-              "qt": 2,
-              "val": 63.78
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
             }
           ]
         },
@@ -19379,7 +19449,48 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "155003656",
+          "numnota": "",
+          "data": "11/06/2026",
+          "cliente": "PERFECT BEER BUZIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1801.3,
+          "itens": [
+            {
+              "desc": "WHISKY BUCHANANS 12 YEARS 750 ML",
+              "qt": 4,
+              "val": 535.6
+            },
+            {
+              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+              "qt": 3,
+              "val": 299.7
+            },
+            {
+              "desc": "ICE 51 BALADA LONG NECK 24X275 ML",
+              "qt": 2,
+              "val": 241.8
+            },
+            {
+              "desc": "GIN BEEFEATER 750ML",
+              "qt": 6,
+              "val": 389.4
+            },
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 334.8
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "155003654",
