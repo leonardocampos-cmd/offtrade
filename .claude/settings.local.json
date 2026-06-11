@@ -76,7 +76,9 @@
       "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\pip.exe\" install pymupdf --quiet)",
       "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" -m pip install pymupdf --quiet)",
       "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_extrair_imagens.py\" 2>&1 | Select-Object -First 30)",
-      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_extrair_imagens.py\")"
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\python.exe\" \"G:\\\\Meu Drive\\\\offtrade\\\\_extrair_imagens.py\")",
+      "Bash(findstr /E \".py .ipynb .js\")",
+      "Bash(findstr /V \".venv\")"
     ]
   }
 }
