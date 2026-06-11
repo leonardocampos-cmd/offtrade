@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "11/06/2026 11:28",
+  "atualizado_em": "11/06/2026 12:01",
   "data_rota": "11.06",
   "vendedores": [
     {
@@ -10046,6 +10046,31 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "379001099",
+          "numnota": "",
+          "data": "11/06/2026",
+          "cliente": "ADEMILSON RODRIGUES RAMOS 10696710706",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 465.86,
+          "itens": [
+            {
+              "desc": "VODKA GREY GOOSE ORIGINAL 750 ML",
+              "qt": 1,
+              "val": 122.9
+            },
+            {
+              "desc": "RED BULL TROPICAL 12X473ML",
+              "qt": 2,
+              "val": 342.96
+            }
+          ]
+        },
         {
           "numped": "379001098",
           "numnota": "",
