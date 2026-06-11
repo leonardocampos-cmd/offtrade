@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "11/06/2026 11:03",
-  "total": 4467,
+  "atualizado_em": "11/06/2026 11:29",
+  "total": 4470,
   "clientes": [
     {
       "codcli": "31683",
@@ -8204,6 +8204,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "468",
       "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "46273",
+      "razao": "AURINO PEREIRA DOS SANTOS",
+      "fantasia": "BAR E MERCEARIA NOVA ESPERANCA",
+      "bairro": "ESMERALDA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "03.233.199/0001-96",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -23326,6 +23340,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "50108",
+      "razao": "FERNANDA MONTANHA COCKTAIL BAR LTDA",
+      "fantasia": "FERNANDA MONTANHA COCKTAIL BAR",
+      "bairro": "JARDIM BOM PASTOR",
+      "cidade": "BOTUCATU",
+      "cnpj": "14.830.648/0001-08",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "38088",
@@ -52220,6 +52248,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50994",
+      "razao": "RICHARD BRITO MINI MERCADO LTDA",
+      "fantasia": "IDEAL MAX",
+      "bairro": "VILA FORMOSA (RUBIÃO JUNIOR)",
+      "cidade": "BOTUCATU",
+      "cnpj": "59.719.718/0001-85",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
