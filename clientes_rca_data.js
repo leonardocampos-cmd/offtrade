@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "11/06/2026 10:23",
-  "total": 4468,
+  "atualizado_em": "11/06/2026 11:03",
+  "total": 4467,
   "clientes": [
     {
       "codcli": "31683",
@@ -13552,20 +13552,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "20542",
-      "razao": "CASTELO DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
-      "fantasia": "CASTELO BEBIDAS",
-      "bairro": "ASSUNCAO",
-      "cidade": "SAO BERNARDO DO",
-      "cnpj": "30.759.940/0001-20",
-      "estado": "SP",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "codusur1": "433",
-      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -49544,8 +49530,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "10.402.555/0001-13",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "codusur1": "547",
+      "nome_usur1": "TLR",
       "codusur2": "426",
       "nome_usur2": "ADER ALONSO - OFF TRADE"
     },
