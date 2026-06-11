@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "11/06/2026 11:29",
-  "total": 4470,
+  "atualizado_em": "11/06/2026 12:01",
+  "total": 4477,
   "clientes": [
     {
       "codcli": "31683",
@@ -1302,6 +1302,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFETERIA",
       "codusur1": "257",
       "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50995",
+      "razao": "45.508.508 ANA JULIA MARTINS FAGUNDES",
+      "fantasia": "45.508.508 ANA JULIA MARTINS FAGUNDES",
+      "bairro": "VILA SUELENY (RUBIÃO JUNIOR)",
+      "cidade": "BOTUCATU",
+      "cnpj": "45.508.508/0001-33",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -3572,6 +3586,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "159",
       "nome_usur2": "GISELLE BARFER - OFF TRADE"
+    },
+    {
+      "codcli": "50996",
+      "razao": "61.049.182 FABIANA CRISTINA MASSARENTE",
+      "fantasia": "61.049.182 FABIANA CRISTINA MASSARENTE",
+      "bairro": "JARDIM MONTE MOR",
+      "cidade": "BOTUCATU",
+      "cnpj": "61.049.182/0001-80",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50988",
@@ -13850,6 +13878,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDA DE OLIVEIRA - OFF TRADE"
     },
     {
+      "codcli": "49226",
+      "razao": "CENTRAL BEBIDAS E TABACARIA LTDA",
+      "fantasia": "CENTRAL BEBIDAS E TABACARIA",
+      "bairro": "PARQUE RESIDENCIAL SANTA EULALIA",
+      "cidade": "LIMEIRA",
+      "cnpj": "52.403.135/0002-82",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "49227",
       "razao": "CENTRAL BEBIDAS E TABACARIA LTDA",
       "fantasia": "CENTRAL BEBIDAS",
@@ -23032,6 +23074,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "50999",
+      "razao": "FARINO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "FARINO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
+      "bairro": "JARDIM ARAGUAIA",
+      "cidade": "FERNANDOPOLIS",
+      "cnpj": "59.786.446/0001-36",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "84422",
@@ -34944,6 +35000,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PESSOA FISICA",
       "codusur1": "370",
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50998",
+      "razao": "MARIANA EUGENIO DE CAMPOS GONCALVES BEBIDAS",
+      "fantasia": "MARIANA EUGENIO DE CAMPOS GONCALVES BEBIDAS",
+      "bairro": "KARINA",
+      "cidade": "PINDAMONHANGABA",
+      "cnpj": "60.794.303/0001-55",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "472",
+      "nome_usur1": "FLAVIO RIBEIRO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -52854,6 +52924,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50997",
+      "razao": "RODRIGO FARIA MACHADO",
+      "fantasia": "EMPORIO E MERCEARIA MARINGA",
+      "bairro": "CENTRO",
+      "cidade": "FERNANDOPOLIS",
+      "cnpj": "16.949.130/0001-05",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "21733",
       "razao": "RODRIGO MARQUES BEZERRA",
       "fantasia": "RODRIGO MARQUES BEZERRA",
@@ -62526,6 +62610,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "95352",
+      "razao": "ZERO FRUTI REALENGO HORTIFRUTI LTDA",
+      "fantasia": "ZEROFRUTI",
+      "bairro": "REALENGO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "37.964.468/0001-06",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "93106",
