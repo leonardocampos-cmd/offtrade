@@ -107,7 +107,9 @@
         email: vendedor.email || '',
       }));
 
-      location.replace('metas.html?rca=' + encodeURIComponent(rca));
+      const redir = sessionStorage.getItem('rg_redirect') || '';
+      sessionStorage.removeItem('rg_redirect');
+      location.replace(redir.includes('metas.html') ? redir : 'metas.html?rca=' + encodeURIComponent(rca));
     });
   </script>
 </body>
