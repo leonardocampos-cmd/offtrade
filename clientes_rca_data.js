@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "11/06/2026 09:02",
-  "total": 4461,
+  "atualizado_em": "11/06/2026 09:45",
+  "total": 4466,
   "clientes": [
     {
       "codcli": "31683",
@@ -3574,6 +3574,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "GISELLE BARFER - OFF TRADE"
     },
     {
+      "codcli": "50988",
+      "razao": "61.083.324 ANDERSON THIAGO FERREIRA DOS SANTOS",
+      "fantasia": "61.083.324 ANDERSON THIAGO FERREIRA DOS SANTOS",
+      "bairro": "IPIRANGA",
+      "cidade": "RIBEIRAO PRETO",
+      "cnpj": "61.083.324/0001-25",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "95132",
       "razao": "61.105.898 ALEXANDRE NASCIMENTO LEITE DE ARAUJO",
       "fantasia": "ALEXANDRE NASCIMENTO LEITE DE",
@@ -5644,6 +5658,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "412",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "50989",
+      "razao": "ADEGA SOARES DEPOSITO DE BEBIDAS LTDA",
+      "fantasia": "ADEGA SOARES",
+      "bairro": "JARDIM PEABIRU",
+      "cidade": "BOTUCATU",
+      "cnpj": "47.748.478/0001-68",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "30270",
@@ -13960,6 +13988,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "78649",
+      "razao": "CENTRO GASTRONOMICO RECANTO DOS PESCADORES SUSHI LTDA",
+      "fantasia": "CENTRO GASTRONOMICO",
+      "bairro": "VARZEA",
+      "cidade": "TERESOPOLIS",
+      "cnpj": "45.284.141/0001-11",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "50221",
@@ -49480,6 +49522,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ADER ALONSO - OFF TRADE"
     },
     {
+      "codcli": "48300",
+      "razao": "PREVI DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
+      "fantasia": "PREVI DISTRIBUIDORA DE BEBIDAS E ALIMENTOS",
+      "bairro": "COPLAN - LOT.",
+      "cidade": "SAO JOSE DO RIO PRETO",
+      "cnpj": "13.575.603/0001-63",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "74838",
       "razao": "PRIME MARKETS MINIMERCADO LTDA",
       "fantasia": "PRIME MARKETS",
@@ -51914,6 +51970,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "67322",
+      "razao": "RESTAURANTE RECANTO DOS PESCADORES DE TERESOPOLIS LTDA",
+      "fantasia": "RESTAURANTE RECANTO DOS PESCADORES",
+      "bairro": "VARZEA",
+      "cidade": "TERESOPOLIS",
+      "cnpj": "03.415.979/0001-57",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "86109",
