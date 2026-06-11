@@ -1766,13 +1766,22 @@ function filterCards(q) {
 
   _mesSel = mesUrl || (METAS_DATA.meses && METAS_DATA.meses[0]) || '';
 
+  if (rcaParam && !param) {
+    const vr = METAS_DATA.vendedores.find(x => String(x.rca) === String(rcaParam));
+    if (vr) {
+      const dest = location.pathname + '?vendedor=' + encodeURIComponent(vr.nome)
+        + (view !== 'metas' ? '&view=' + view : '')
+        + (mesUrl ? '&mes=' + mesUrl : '');
+      location.replace(dest);
+      return;
+    }
+  }
+
   const v = param
     ? METAS_DATA.vendedores.find(x => x.nome.toLowerCase() === param.toLowerCase())
-    : rcaParam
-    ? METAS_DATA.vendedores.find(x => String(x.rca) === String(rcaParam))
     : null;
 
-  if (param || rcaParam) {
+  if (param) {
     if (v) {
       if (view === 'vendas') renderVendas(v);
       else                   renderDetail(v, _mesSel);
