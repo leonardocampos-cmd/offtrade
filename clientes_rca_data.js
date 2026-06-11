@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "11/06/2026 09:45",
-  "total": 4466,
+  "atualizado_em": "11/06/2026 10:02",
+  "total": 4467,
   "clientes": [
     {
       "codcli": "31683",
@@ -25552,6 +25552,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "50990",
+      "razao": "GR2 COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "ADEGA CENTRAL",
+      "bairro": "JARDIM SATELITE",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "63.243.038/0001-05",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50161",
