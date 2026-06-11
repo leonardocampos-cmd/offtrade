@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "11/06/2026 12:10",
-  "total": 4477,
+  "atualizado_em": "11/06/2026 13:29",
+  "total": 4481,
   "clientes": [
     {
       "codcli": "31683",
@@ -20582,6 +20582,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "92278",
+      "razao": "DROGARIA ZULIA LTDA",
+      "fantasia": "ZULIA",
+      "bairro": "TAQUARA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "01.254.266/0001-23",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "41865",
@@ -41920,6 +41934,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "38192",
+      "razao": "MORADA DO DRINK COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "MORADA DO DRINK",
+      "bairro": "IMIRIM",
+      "cidade": "SAO PAULO",
+      "cnpj": "57.080.268/0001-06",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "14682",
       "razao": "MORAES DISTRIBUICAO LTDA",
       "fantasia": "",
@@ -51216,6 +51244,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "94798",
+      "razao": "RECREIO PRIME HOUSE BAR E RESTAURANTE LTDA",
+      "fantasia": "RECREIO PRIME HOUSE",
+      "bairro": "RECREIO DOS BANDEIRANTES",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "66.492.479/0001-39",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "45830",
       "razao": "RED UP REPRESENTACAO E DISTRIBUICAO LTDA",
       "fantasia": "RED UP DISTRIBUIDORA",
@@ -59362,6 +59404,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "50710",
+      "razao": "TEMPERO GASTRONOMIA & GOURMET LTDA",
+      "fantasia": "TEMPERO GOURMET",
+      "bairro": "TANQUE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "22.197.955/0001-13",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "296",
+      "nome_usur1": "LUDMILLA DA SILVA",
+      "codusur2": "144",
+      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "50710",
