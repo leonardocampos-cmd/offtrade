@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "11/06/2026 14:01",
+  "atualizado_em": "11/06/2026 17:29",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -1449,7 +1449,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32864",
           "cliente": "SALUTTE COMERCIO DE BEBIDAS TRANSPORTE E LOGISTICA LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -3159,7 +3159,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38929",
           "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -3168,7 +3168,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38929",
           "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -3177,7 +3177,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38929",
           "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -4725,7 +4725,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46649",
           "cliente": "AMERICA DISTRIBUICAO E LOGISTICA LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -5328,7 +5328,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46522",
           "cliente": "ADEGA & DISTRIBUIDORA CAIUBY LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 120,
           "valor": 2868.0
         },
@@ -5454,7 +5454,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47117",
           "cliente": "63.160.240 LUCAS DE SOUZA LINO",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -5508,7 +5508,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47117",
           "cliente": "63.160.240 LUCAS DE SOUZA LINO",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -7461,7 +7461,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47417",
           "cliente": "55.243.656 ALYSSOM LEONARDO TORRES DA SILVA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 47.8
         },
@@ -7931,7 +7931,7 @@ const VENDAS_SP_DATA = {
           "codcli": "24527",
           "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -8813,7 +8813,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36288",
           "cliente": "BEATRIZ CAETANO AMORIM DA SILVA 32018648",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -8858,7 +8858,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36288",
           "cliente": "BEATRIZ CAETANO AMORIM DA SILVA 32018648",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -9857,7 +9857,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38929",
           "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -10271,7 +10271,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40457",
           "cliente": "F C N DAMASCENO",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -10280,7 +10280,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40457",
           "cliente": "F C N DAMASCENO",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -10289,7 +10289,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40457",
           "cliente": "F C N DAMASCENO",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -10298,7 +10298,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40457",
           "cliente": "F C N DAMASCENO",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -11153,7 +11153,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47123",
           "cliente": "63.497.635 NATHACHY ANDRADE DA SILVA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 4,
           "valor": 95.6
         },
@@ -11162,7 +11162,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47123",
           "cliente": "63.497.635 NATHACHY ANDRADE DA SILVA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 4,
           "valor": 95.6
         },
@@ -11171,7 +11171,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47123",
           "cliente": "63.497.635 NATHACHY ANDRADE DA SILVA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 4,
           "valor": 95.6
         },
@@ -11180,7 +11180,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47123",
           "cliente": "63.497.635 NATHACHY ANDRADE DA SILVA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 4,
           "valor": 95.6
         },
@@ -11189,7 +11189,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47123",
           "cliente": "63.497.635 NATHACHY ANDRADE DA SILVA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 4,
           "valor": 95.6
         },
@@ -11720,7 +11720,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47551",
           "cliente": "T  B  SILVA ADEGA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -12224,7 +12224,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46477",
           "cliente": "HENRIQUE MEDEIROS DE AZEVEDO DISTRIBUIDORA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 36,
           "valor": 860.4
         },
@@ -12233,7 +12233,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47450",
           "cliente": "CARPI LANCHONETE & ADEGA LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -12242,7 +12242,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47450",
           "cliente": "CARPI LANCHONETE & ADEGA LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -12251,7 +12251,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47450",
           "cliente": "CARPI LANCHONETE & ADEGA LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -12260,7 +12260,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47450",
           "cliente": "CARPI LANCHONETE & ADEGA LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -12656,7 +12656,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46025",
           "cliente": "CAMILA DE HOLANDA PLACIDO COMERCIO DE BEBIDAS",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -12836,7 +12836,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47268",
           "cliente": "MATEUS COSTA DE OLIVEIRA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -12845,7 +12845,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47268",
           "cliente": "MATEUS COSTA DE OLIVEIRA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -13646,7 +13646,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47952",
           "cliente": "51.314.733 CAMILA MACIEL DRAPPE SALARO",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -13655,7 +13655,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47952",
           "cliente": "51.314.733 CAMILA MACIEL DRAPPE SALARO",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -13664,7 +13664,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47952",
           "cliente": "51.314.733 CAMILA MACIEL DRAPPE SALARO",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -15565,7 +15565,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32032",
           "cliente": "ANANIAS ALBANO DA SILVA 21979521883",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -15916,7 +15916,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34345",
           "cliente": "BOTECO E LOUNGE SANTA FE LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -16357,7 +16357,7 @@ const VENDAS_SP_DATA = {
           "codcli": "37291",
           "cliente": "LEANDRO V. DA SILVA COMERCIO DE BEBIDAS",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -16366,7 +16366,7 @@ const VENDAS_SP_DATA = {
           "codcli": "37291",
           "cliente": "LEANDRO V. DA SILVA COMERCIO DE BEBIDAS",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -16573,7 +16573,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38212",
           "cliente": "BERTIN BEBIDAS LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 60,
           "valor": 1254.0
         },
@@ -16996,7 +16996,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38929",
           "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -18463,7 +18463,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47373",
           "cliente": "64.040.794 DANILO CARLOTA FARIA DOS SANTOS",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 47.8
         },
@@ -18535,7 +18535,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46271",
           "cliente": "SAMUEL DE OLIVEIRA SILVA 34256900861",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -19831,7 +19831,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47159",
           "cliente": "KTR MERCANTIL DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -19840,7 +19840,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47159",
           "cliente": "KTR MERCANTIL DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 48,
           "valor": 1147.2
         },
@@ -19849,7 +19849,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47159",
           "cliente": "KTR MERCANTIL DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 48,
           "valor": 1147.2
         },
@@ -20083,7 +20083,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47268",
           "cliente": "MATEUS COSTA DE OLIVEIRA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 717.0
         },
@@ -20092,7 +20092,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47268",
           "cliente": "MATEUS COSTA DE OLIVEIRA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -22227,7 +22227,7 @@ const VENDAS_SP_DATA = {
           "codcli": "29653",
           "cliente": "LIGEIRINHO DISTRIBUIDORA DE ALIMENTOS & BEBIDAS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 442,
           "valor": 9083.1
         },
@@ -22452,7 +22452,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32508",
           "cliente": "CENTRAL OSASCO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 256.08
         },
@@ -22461,7 +22461,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32508",
           "cliente": "CENTRAL OSASCO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 120,
           "valor": 2466.0
         },
@@ -23172,7 +23172,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34345",
           "cliente": "BOTECO E LOUNGE SANTA FE LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -23181,7 +23181,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34345",
           "cliente": "BOTECO E LOUNGE SANTA FE LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 18,
           "valor": 430.2
         },
@@ -23568,7 +23568,7 @@ const VENDAS_SP_DATA = {
           "codcli": "37291",
           "cliente": "LEANDRO V. DA SILVA COMERCIO DE BEBIDAS",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -24891,7 +24891,7 @@ const VENDAS_SP_DATA = {
           "codcli": "41921",
           "cliente": "A.R DOS SANTOS CARREIRA ADEGA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -24990,7 +24990,7 @@ const VENDAS_SP_DATA = {
           "codcli": "41921",
           "cliente": "A.R DOS SANTOS CARREIRA ADEGA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 18,
           "valor": 430.2
         },
@@ -25071,7 +25071,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42457",
           "cliente": "K.T. DE ALMEIDA SILVA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 60,
           "valor": 1232.4
         },
@@ -25080,7 +25080,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42457",
           "cliente": "K.T. DE ALMEIDA SILVA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 60,
           "valor": 1233.0
         },
@@ -25566,7 +25566,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46155",
           "cliente": "IMPERIO TABACARIA E DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -25575,7 +25575,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46155",
           "cliente": "IMPERIO TABACARIA E DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -25755,7 +25755,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46790",
           "cliente": "FORTUNATO BEBIDAS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 60,
           "valor": 1434.0
         },
@@ -28079,7 +28079,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23019",
           "cliente": "MUNDO MIX MERCADO ATACADISTA DE BEBIDAS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 600,
           "valor": 12324.0
         },
@@ -29069,7 +29069,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36825",
           "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 10,
           "valor": 205.5
         },
@@ -29078,7 +29078,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36825",
           "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 616.5
         },
@@ -29087,7 +29087,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36825",
           "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 60,
           "valor": 1233.0
         },
@@ -29096,7 +29096,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36826",
           "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 60,
           "valor": 1233.0
         },
@@ -29501,7 +29501,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40098",
           "cliente": "L  A COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 24,
           "valor": 492.96
         },
@@ -29825,7 +29825,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42549",
           "cliente": "GRAXA CONVENIENCIAS LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -29834,7 +29834,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42549",
           "cliente": "GRAXA CONVENIENCIAS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -29843,7 +29843,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42549",
           "cliente": "GRAXA CONVENIENCIAS LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -30887,7 +30887,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48169",
           "cliente": "MATHEUS TAKAO DOS REIS YOSHIZUMI",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -30896,7 +30896,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48169",
           "cliente": "MATHEUS TAKAO DOS REIS YOSHIZUMI",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -31562,7 +31562,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49269",
           "cliente": "PATRAO ADEGA E TABACARIA COMERCIO E SERVICOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -32957,7 +32957,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50600",
           "cliente": "COMERCIAL CAPUAVA LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 42.68
         },
@@ -33729,6 +33729,15 @@ const VENDAS_SP_DATA = {
           "valor": 1254.0
         },
         {
+          "data": "11/06/2026",
+          "codcli": "38678",
+          "cliente": "J.G.N. COMERCIO",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 720,
+          "valor": 17928.0
+        },
+        {
           "data": "02/06/2026",
           "codcli": "38482",
           "cliente": "ROLIM DE FREITAS & CIA. LTDA.",
@@ -33738,11 +33747,38 @@ const VENDAS_SP_DATA = {
           "valor": 4208.4
         },
         {
+          "data": "11/06/2026",
+          "codcli": "38192",
+          "cliente": "MORADA DO DRINK COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "WHISKY JAMESON 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 814.8
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "38192",
+          "cliente": "MORADA DO DRINK COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 718.8
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "38192",
+          "cliente": "MORADA DO DRINK COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 144,
+          "valor": 3729.6
+        },
+        {
           "data": "01/06/2026",
           "codcli": "38212",
           "cliente": "BERTIN BEBIDAS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 240,
           "valor": 4929.6
         },
@@ -33751,7 +33787,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38212",
           "cliente": "BERTIN BEBIDAS LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 90,
           "valor": 1848.6
         },
@@ -33976,7 +34012,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38929",
           "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -33985,7 +34021,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38929",
           "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 18,
           "valor": 369.9
         },
@@ -33997,6 +34033,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 36,
           "valor": 2156.4
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "39698",
+          "cliente": "BUENO DISTRIBUIDORA LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 840,
+          "valor": 26208.0
         },
         {
           "data": "03/06/2026",
@@ -34300,7 +34345,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46522",
           "cliente": "ADEGA & DISTRIBUIDORA CAIUBY LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 616.8
         },
@@ -34309,7 +34354,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46522",
           "cliente": "ADEGA & DISTRIBUIDORA CAIUBY LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 640.2
         },
@@ -34318,7 +34363,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46522",
           "cliente": "ADEGA & DISTRIBUIDORA CAIUBY LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 616.5
         },
@@ -34327,7 +34372,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46522",
           "cliente": "ADEGA & DISTRIBUIDORA CAIUBY LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 616.2
         },
@@ -34498,7 +34543,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46388",
           "cliente": "DISTRIBUIDORA DO CARIOCA COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 616.2
         },
@@ -34507,7 +34552,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46388",
           "cliente": "DISTRIBUIDORA DO CARIOCA COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 616.2
         },
@@ -34516,7 +34561,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46388",
           "cliente": "DISTRIBUIDORA DO CARIOCA COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 60,
           "valor": 1233.0
         },
@@ -34647,6 +34692,15 @@ const VENDAS_SP_DATA = {
           "valor": 932.4
         },
         {
+          "data": "11/06/2026",
+          "codcli": "47062",
+          "cliente": "IMPERIO DE BEBIDAS VITORIA SOCIEDADE UNIPESSOAL LIMITADA",
+          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1197.6
+        },
+        {
           "data": "09/06/2026",
           "codcli": "47062",
           "cliente": "IMPERIO DE BEBIDAS VITORIA SOCIEDADE UNIPESSOAL LIMITADA",
@@ -34737,6 +34791,15 @@ const VENDAS_SP_DATA = {
           "valor": 319.8
         },
         {
+          "data": "11/06/2026",
+          "codcli": "48107",
+          "cliente": "MERCADO E ACOUGUE LINS LTDA",
+          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 3596.4
+        },
+        {
           "data": "09/06/2026",
           "codcli": "48107",
           "cliente": "MERCADO E ACOUGUE LINS LTDA",
@@ -34771,6 +34834,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 36,
           "valor": 932.4
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "49309",
+          "cliente": "MERCADO E ACOUGUE DA VILA LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 3596.4
         },
         {
           "data": "10/06/2026",
@@ -34894,7 +34966,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49510",
           "cliente": "MERCEARIA E EMPORIO PRECO BOM LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 24,
           "valor": 527.76
         },
@@ -34903,7 +34975,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49510",
           "cliente": "MERCEARIA E EMPORIO PRECO BOM LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 36,
           "valor": 791.64
         },
@@ -36011,7 +36083,7 @@ const VENDAS_SP_DATA = {
           "codcli": "30772",
           "cliente": "ADEGA TOMMY BEBIDAS LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 256.08
         },
@@ -36164,7 +36236,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34024",
           "cliente": "D.J.D. COMERCIO LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -36173,7 +36245,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34024",
           "cliente": "D.J.D. COMERCIO LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -36182,7 +36254,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34024",
           "cliente": "D.J.D. COMERCIO LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 616.5
         },
@@ -36191,7 +36263,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34024",
           "cliente": "D.J.D. COMERCIO LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 24,
           "valor": 492.96
         },
@@ -36200,7 +36272,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34024",
           "cliente": "D.J.D. COMERCIO LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -36209,7 +36281,7 @@ const VENDAS_SP_DATA = {
           "codcli": "34024",
           "cliente": "D.J.D. COMERCIO LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -36389,7 +36461,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -36398,7 +36470,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 256.08
         },
@@ -36407,7 +36479,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -36416,7 +36488,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46153",
           "cliente": "MARCELA DE CARVALHO BARBIERI",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -36578,7 +36650,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 48,
           "valor": 985.92
         },
@@ -36929,7 +37001,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49851",
           "cliente": "GUILHERME HONORIO DE CARVALHO",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 120,
           "valor": 2466.0
         },
@@ -36956,7 +37028,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49852",
           "cliente": "CAMILA DE ANGELO MARQUES 39437126801",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -38103,7 +38175,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23823",
           "cliente": "FORT BEBIDAS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 180,
           "valor": 3697.2
         },
@@ -38112,7 +38184,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23823",
           "cliente": "FORT BEBIDAS LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 90,
           "valor": 1848.6
         },
@@ -38121,7 +38193,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23823",
           "cliente": "FORT BEBIDAS LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 90,
           "valor": 1920.6
         },
@@ -38130,7 +38202,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23823",
           "cliente": "FORT BEBIDAS LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 90,
           "valor": 1920.6
         },
@@ -38139,7 +38211,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23823",
           "cliente": "FORT BEBIDAS LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 18,
           "valor": 369.72
         },
@@ -38832,7 +38904,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42429",
           "cliente": "SAMUEL HENRIQUE BASTOS DOS SANTOS",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -38841,7 +38913,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42429",
           "cliente": "SAMUEL HENRIQUE BASTOS DOS SANTOS",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -38859,7 +38931,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42429",
           "cliente": "SAMUEL HENRIQUE BASTOS DOS SANTOS",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -38868,7 +38940,7 @@ const VENDAS_SP_DATA = {
           "codcli": "42429",
           "cliente": "SAMUEL HENRIQUE BASTOS DOS SANTOS",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -38931,7 +39003,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46133",
           "cliente": "MAX ATACAREJO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 48,
           "valor": 986.4
         },
@@ -39147,7 +39219,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50325",
           "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -39156,7 +39228,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50325",
           "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -39165,7 +39237,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50325",
           "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -39174,7 +39246,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50325",
           "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -39183,7 +39255,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50325",
           "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -39480,7 +39552,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49555",
           "cliente": "JEREMIAS DOS SANTOS SILVA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 60,
           "valor": 1232.4
         },
@@ -39777,7 +39849,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50352",
           "cliente": "N O MOREIRA ADEGA LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -40319,7 +40391,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50325",
           "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.3
         },
@@ -40328,7 +40400,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50325",
           "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -40337,7 +40409,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50325",
           "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -40346,7 +40418,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50325",
           "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -40355,7 +40427,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50325",
           "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -40364,7 +40436,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50325",
           "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -40454,7 +40526,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50196",
           "cliente": "ADEGA RODRIGUES LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 36,
           "valor": 739.8
         },
@@ -44442,7 +44514,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 24,
           "valor": 573.6
         },
@@ -44451,7 +44523,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -44460,7 +44532,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33272",
           "cliente": "SACOLAO CORIOLANO LTDA.",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -44748,7 +44820,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -44757,7 +44829,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -44766,7 +44838,7 @@ const VENDAS_SP_DATA = {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -45189,7 +45261,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48277",
           "cliente": "SACOLAO PIO XI LTDA.",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -45198,7 +45270,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48277",
           "cliente": "SACOLAO PIO XI LTDA.",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -45207,7 +45279,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48277",
           "cliente": "SACOLAO PIO XI LTDA.",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -47111,6 +47183,24 @@ const VENDAS_SP_DATA = {
           "valor": 6048.0
         },
         {
+          "data": "11/06/2026",
+          "codcli": "36582",
+          "cliente": "CDB DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 3108.0
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "36582",
+          "cliente": "CDB DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "RUM BACARDI CARTA BLANCA 980ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 784.8
+        },
+        {
           "data": "04/06/2026",
           "codcli": "39337",
           "cliente": "M.S.S. MERCADO E CONVENIENCIA LTDA",
@@ -47654,7 +47744,7 @@ const VENDAS_SP_DATA = {
           "codcli": "32881",
           "cliente": "ALEXANDRION EXPERIENCE BRASIL LTDA.",
           "produto": "WHISKY YAMAZAKI DESTILERS RESERVE 700ML",
-          "fantasia": "",
+          "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 1,
           "valor": 699.0
         },
@@ -49728,7 +49818,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50119",
           "cliente": "MERCADINHO JOSE CARLOS & MANOEL LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.3
         },
@@ -49737,7 +49827,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50119",
           "cliente": "MERCADINHO JOSE CARLOS & MANOEL LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -49872,7 +49962,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50311",
           "cliente": "FAMILIA ZERO DOZE DISTRIBUIDORA LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 150,
           "valor": 3201.0
         },
@@ -49881,7 +49971,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50311",
           "cliente": "FAMILIA ZERO DOZE DISTRIBUIDORA LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 120,
           "valor": 2560.8
         },
@@ -49926,7 +50016,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50312",
           "cliente": "MARIA GORETE DE OLIVEIRA MERCADO",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.3
         },
@@ -49935,7 +50025,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50312",
           "cliente": "MARIA GORETE DE OLIVEIRA MERCADO",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -49944,7 +50034,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50312",
           "cliente": "MARIA GORETE DE OLIVEIRA MERCADO",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -49998,7 +50088,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50128",
           "cliente": "ALEMAO DISTRIBUIDORA DE BEBIDAS E COMERCIO EM GERAL LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 90,
           "valor": 1848.6
         },
@@ -50007,7 +50097,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50128",
           "cliente": "ALEMAO DISTRIBUIDORA DE BEBIDAS E COMERCIO EM GERAL LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 90,
           "valor": 1849.5
         },
@@ -50016,7 +50106,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50128",
           "cliente": "ALEMAO DISTRIBUIDORA DE BEBIDAS E COMERCIO EM GERAL LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 90,
           "valor": 1848.6
         },
@@ -50097,7 +50187,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50218",
           "cliente": "L F DA SILVA MERCEARIA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.3
         },
@@ -50106,7 +50196,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50218",
           "cliente": "L F DA SILVA MERCEARIA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 18,
           "valor": 369.72
         },
@@ -50142,7 +50232,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50719",
           "cliente": "BROTHERS BEER COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 90,
           "valor": 1849.5
         },
@@ -50151,7 +50241,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50719",
           "cliente": "BROTHERS BEER COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 150,
           "valor": 3081.0
         },
@@ -50160,7 +50250,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50719",
           "cliente": "BROTHERS BEER COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 90,
           "valor": 1848.6
         }
@@ -50360,7 +50450,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50119",
           "cliente": "MERCADINHO JOSE CARLOS & MANOEL LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 5,
           "valor": 102.75
         },
@@ -50369,7 +50459,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50119",
           "cliente": "MERCADINHO JOSE CARLOS & MANOEL LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 3,
           "valor": 61.65
         },
@@ -50441,7 +50531,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50312",
           "cliente": "MARIA GORETE DE OLIVEIRA MERCADO",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -50450,7 +50540,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50312",
           "cliente": "MARIA GORETE DE OLIVEIRA MERCADO",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -50468,7 +50558,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50094",
           "cliente": "DANILO MARTINS FERREIRA 36511845877",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 256.08
         },
@@ -50477,7 +50567,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50094",
           "cliente": "DANILO MARTINS FERREIRA 36511845877",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -50567,7 +50657,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50128",
           "cliente": "ALEMAO DISTRIBUIDORA DE BEBIDAS E COMERCIO EM GERAL LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 300,
           "valor": 6162.0
         },
@@ -50612,7 +50702,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50218",
           "cliente": "L F DA SILVA MERCEARIA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.08
         },
@@ -50812,7 +50902,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49684",
           "cliente": "COMERCIO DE ALIMENTOS SILVA LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.1
         }
@@ -51041,7 +51131,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46612",
           "cliente": "50.320.510 LETICIA FERREIRA CALDEIRA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -51185,7 +51275,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50253",
           "cliente": "54.699.463 JESSICA SANTIAGO JARDIM",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 125.4
         },
@@ -51610,7 +51700,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 18,
           "valor": 376.2
         },
@@ -51619,7 +51709,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 125.4
         },
@@ -51628,7 +51718,7 @@ const VENDAS_SP_DATA = {
           "codcli": "25880",
           "cliente": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 125.4
         },
@@ -51664,7 +51754,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40514",
           "cliente": "41.041.135 PEDRO HENRIQUE DA MOTA OLIVEIRA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 48,
           "valor": 986.4
         },
@@ -51691,7 +51781,7 @@ const VENDAS_SP_DATA = {
           "codcli": "46612",
           "cliente": "50.320.510 LETICIA FERREIRA CALDEIRA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 24,
           "valor": 501.6
         },
@@ -51754,7 +51844,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49728",
           "cliente": "M&E MINIMERCADO LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 42,
           "valor": 862.68
         },
@@ -51763,7 +51853,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49728",
           "cliente": "M&E MINIMERCADO LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 18,
           "valor": 369.9
         },
@@ -51835,7 +51925,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50913",
           "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 36,
           "valor": 739.8
         },
@@ -54692,7 +54782,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49805",
           "cliente": "SUPER MERCADO JOIA LIMITADA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.94
         },
@@ -54782,7 +54872,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49806",
           "cliente": "SUPER MERCADO JOIA LIMITADA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.94
         },
@@ -54856,7 +54946,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 717.0
         },
@@ -54865,7 +54955,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 717.0
         },
@@ -54874,7 +54964,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 1,
           "valor": 23.9
         },
@@ -54919,7 +55009,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36186",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 717.0
         },
@@ -54946,7 +55036,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 717.0
         },
@@ -54964,7 +55054,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 1,
           "valor": 23.9
         },
@@ -55036,7 +55126,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 717.0
         },
@@ -55045,7 +55135,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 717.0
         },
@@ -55099,7 +55189,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 286.8
         },
@@ -55117,7 +55207,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 1,
           "valor": 23.9
         },
@@ -55153,7 +55243,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36190",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 717.0
         },
@@ -55243,7 +55333,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 717.0
         },
@@ -55252,7 +55342,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36191",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 717.0
         },
@@ -55315,7 +55405,7 @@ const VENDAS_SP_DATA = {
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 717.0
         },
@@ -55351,7 +55441,7 @@ const VENDAS_SP_DATA = {
           "codcli": "44215",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 18,
           "valor": 430.2
         },
@@ -56838,7 +56928,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49252",
           "cliente": "SUPERMERCADO PIRITUBA LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -56910,7 +57000,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49253",
           "cliente": "ULTRA MART ATACADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -56955,7 +57045,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49254",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -57054,7 +57144,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48428",
           "cliente": "COMERCIAL TAKARA PIRITUBA LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -57117,7 +57207,7 @@ const VENDAS_SP_DATA = {
           "codcli": "48429",
           "cliente": "REDE PLUS SUPERMERCADOS LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 143.4
         },
@@ -57374,6 +57464,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 60,
           "valor": 5910.0
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "49844",
+          "cliente": "NOVA CENTRAL COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 2397.6
         }
       ],
       "Jan/26": [
@@ -57935,7 +58034,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50081",
           "cliente": "M TERUYA & CIA LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.54
         },
@@ -57944,7 +58043,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50081",
           "cliente": "M TERUYA & CIA LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.54
         },
@@ -57953,7 +58052,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50081",
           "cliente": "M TERUYA & CIA LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.54
         },
@@ -57971,7 +58070,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50081",
           "cliente": "M TERUYA & CIA LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.54
         },
@@ -57980,7 +58079,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50083",
           "cliente": "MERCADO TERUYA JK LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.54
         },
@@ -57989,7 +58088,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50083",
           "cliente": "MERCADO TERUYA JK LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.54
         },
@@ -57998,7 +58097,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50083",
           "cliente": "MERCADO TERUYA JK LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.54
         },
@@ -58007,7 +58106,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50083",
           "cliente": "MERCADO TERUYA JK LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.54
         },
@@ -59130,6 +59229,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 5,
           "valor": 169.5
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "34252",
+          "cliente": "RAS DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 84,
+          "valor": 4611.6
         },
         {
           "data": "06/06/2026",
@@ -62463,7 +62571,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 18,
           "valor": 369.72
         },
@@ -62508,7 +62616,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -62562,7 +62670,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -62643,7 +62751,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -62724,7 +62832,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40454",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 616.2
         },
@@ -62751,7 +62859,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 35,
           "valor": 718.9
         },
@@ -62805,7 +62913,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 616.2
         },
@@ -62861,7 +62969,7 @@ const VENDAS_SP_DATA = {
           "codcli": "38513",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 24,
           "valor": 493.2
         },
@@ -62879,7 +62987,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40445",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 18,
           "valor": 369.72
         },
@@ -62897,7 +63005,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40446",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -62942,7 +63050,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40447",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -62978,7 +63086,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 24,
           "valor": 493.2
         },
@@ -62987,7 +63095,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40448",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -63041,7 +63149,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40449",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.3
         },
@@ -63059,7 +63167,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40450",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.3
         },
@@ -63086,7 +63194,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40452",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.3
         },
@@ -63113,7 +63221,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40453",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.6
         },
@@ -63140,7 +63248,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40454",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.3
         },
@@ -63167,7 +63275,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40455",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -63203,7 +63311,7 @@ const VENDAS_SP_DATA = {
           "codcli": "40456",
           "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.3
         },
@@ -64508,7 +64616,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50424",
           "cliente": "46.547.388 WELLINGTON HENRIQUE ALVES",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.08
         },
@@ -64517,7 +64625,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50424",
           "cliente": "46.547.388 WELLINGTON HENRIQUE ALVES",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.08
         }
@@ -65034,7 +65142,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50294",
           "cliente": "MFD MERCADO LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.8
         },
@@ -65043,7 +65151,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50294",
           "cliente": "MFD MERCADO LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.8
         },
@@ -65052,7 +65160,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50294",
           "cliente": "MFD MERCADO LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.8
         },
@@ -65070,7 +65178,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50294",
           "cliente": "MFD MERCADO LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.8
         }
@@ -66098,7 +66206,7 @@ const VENDAS_SP_DATA = {
           "codcli": "47374",
           "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 204,
           "valor": 4190.16
         },
@@ -66239,7 +66347,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49996",
           "cliente": "NIHEI ALIMENTOS LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.3
         },
@@ -66302,7 +66410,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49909",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -66311,7 +66419,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49909",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -66320,7 +66428,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49909",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -66329,7 +66437,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49910",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
           "produto": "GIN ROCKS 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.3
         },
@@ -66338,7 +66446,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49910",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -66401,7 +66509,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49911",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 18,
           "valor": 369.72
         },
@@ -66419,7 +66527,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49911",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 256.08
         },
@@ -66428,9 +66536,63 @@ const VENDAS_SP_DATA = {
           "codcli": "49911",
           "cliente": "SUPERMERCADO ALABARCE LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 30,
           "valor": 616.2
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50245",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "produto": "GIN ROCKS SICILIAN LEMON 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 256.08
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50245",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 256.08
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50245",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "produto": "GIN ROCKS SUNSET 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 256.08
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50245",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "FANTE",
+          "qt": 30,
+          "valor": 640.2
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50245",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1194.0
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50245",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 412.2
         },
         {
           "data": "01/06/2026",
@@ -66467,6 +66629,60 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 346.8
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50248",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "produto": "GIN ROCKS SICILIAN LEMON 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 256.08
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50248",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.48
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50248",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "produto": "GIN ROCKS SUNSET 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 256.08
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50248",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 256.08
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50248",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1194.0
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50248",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 412.2
         },
         {
           "data": "02/06/2026",
@@ -66518,7 +66734,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50055",
           "cliente": "24.467.572 JOSE VIEIRA DA SILVA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 256.08
         },
@@ -66572,7 +66788,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50648",
           "cliente": "RIBEIRO & GARCEZ DE CARVALHO LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 1,
           "valor": 21.34
         },
@@ -66581,7 +66797,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50648",
           "cliente": "RIBEIRO & GARCEZ DE CARVALHO LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 42.68
         },
@@ -66680,7 +66896,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50657",
           "cliente": "G.A.RIBEIRO LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 42.68
         },
@@ -66689,7 +66905,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50657",
           "cliente": "G.A.RIBEIRO LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 42.68
         },
@@ -66698,7 +66914,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50657",
           "cliente": "G.A.RIBEIRO LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 42.68
         },
@@ -66707,7 +66923,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50657",
           "cliente": "G.A.RIBEIRO LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 42.68
         },
@@ -66815,7 +67031,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50646",
           "cliente": "AAGC COMERCIO VAREJISTA DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 4,
           "valor": 85.36
         },
@@ -66824,7 +67040,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50646",
           "cliente": "AAGC COMERCIO VAREJISTA DE ALIMENTOS LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 4,
           "valor": 85.36
         },
@@ -66887,7 +67103,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50658",
           "cliente": "GABRIEL DE CARVALHO RIBEIRO",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 42.68
         },
@@ -66896,7 +67112,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50658",
           "cliente": "GABRIEL DE CARVALHO RIBEIRO",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 42.68
         },
@@ -66905,7 +67121,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50658",
           "cliente": "GABRIEL DE CARVALHO RIBEIRO",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 3,
           "valor": 64.02
         },
@@ -66914,7 +67130,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50658",
           "cliente": "GABRIEL DE CARVALHO RIBEIRO",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 42.68
         },
@@ -67042,7 +67258,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49726",
           "cliente": "WILLIAM CRISPIM RODRIGUES RIBEIRO MERCADO",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -67105,7 +67321,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49995",
           "cliente": "NIHEI ALIMENTOS LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 4,
           "valor": 85.36
         },
@@ -67114,7 +67330,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49995",
           "cliente": "NIHEI ALIMENTOS LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 4,
           "valor": 85.36
         },
@@ -67872,7 +68088,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50099",
           "cliente": "JULIO C. DA SILVA JUNIOR LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 125.4
         },
@@ -67890,7 +68106,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50099",
           "cliente": "JULIO C. DA SILVA JUNIOR LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 125.4
         },
@@ -67899,7 +68115,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50099",
           "cliente": "JULIO C. DA SILVA JUNIOR LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 125.4
         },
@@ -68648,7 +68864,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50415",
           "cliente": "GABRIEL SODRE NUNES 39583734888",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -68657,7 +68873,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50415",
           "cliente": "GABRIEL SODRE NUNES 39583734888",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 20,
           "valor": 426.8
         },
@@ -68810,7 +69026,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50421",
           "cliente": "MARTINS ARAUJO E DA SILVA SUPERMERCADO LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -68828,7 +69044,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50421",
           "cliente": "MARTINS ARAUJO E DA SILVA SUPERMERCADO LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -68837,7 +69053,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50421",
           "cliente": "MARTINS ARAUJO E DA SILVA SUPERMERCADO LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24
         },
@@ -68846,7 +69062,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50421",
           "cliente": "MARTINS ARAUJO E DA SILVA SUPERMERCADO LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 6,
           "valor": 128.04
         },
@@ -69030,7 +69246,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50199",
           "cliente": "MINIMERCADO E ACOUGUE SOUZA LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 256.08
         },
@@ -69039,7 +69255,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50199",
           "cliente": "MINIMERCADO E ACOUGUE SOUZA LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 256.08
         },
@@ -69300,7 +69516,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 42.68
         },
@@ -69309,7 +69525,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.08
         },
@@ -69336,7 +69552,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.08
         },
@@ -69345,7 +69561,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 42.68
         },
@@ -69354,7 +69570,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.08
         },
@@ -69392,7 +69608,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49974",
           "cliente": "AGNALDO ALMEIDA MENDES",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
         },
@@ -69401,7 +69617,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49974",
           "cliente": "AGNALDO ALMEIDA MENDES",
           "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 12,
           "valor": 256.08
         },
@@ -69435,6 +69651,24 @@ const VENDAS_SP_DATA = {
       ],
       "Jun/26": [
         {
+          "data": "11/06/2026",
+          "codcli": "49685",
+          "cliente": "RECOBASE COMERCIAL LTDA",
+          "produto": "RUM BACARDI CARTA BLANCA 980ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 826.2
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "49685",
+          "cliente": "RECOBASE COMERCIAL LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1402.8
+        },
+        {
           "data": "02/06/2026",
           "codcli": "49885",
           "cliente": "O.E.S GUEDES MERCADO LTDA",
@@ -69460,6 +69694,42 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 138.0
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50595",
+          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50595",
+          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
+          "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 75.9
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50595",
+          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
+          "produto": "CHANDON PASSION ROSE 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 75.9
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50595",
+          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
+          "produto": "CHANDON RICHE DEMI-SEC 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 69.9
         }
       ]
     },
@@ -69836,7 +70106,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50395",
           "cliente": "STEFANE MILENA DOS SANTOS SOARES LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 18,
           "valor": 384.12
         },
@@ -69845,7 +70115,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50395",
           "cliente": "STEFANE MILENA DOS SANTOS SOARES LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 14,
           "valor": 298.76
         },
@@ -70198,7 +70468,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50313",
           "cliente": "SUPERMERCADO RND LTDA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 1,
           "valor": 20.54
         },
@@ -70207,7 +70477,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50313",
           "cliente": "SUPERMERCADO RND LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 1,
           "valor": 20.54
         },
@@ -70537,7 +70807,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50451",
           "cliente": "NEIDE ROSARIA DE SOUZA",
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "fantasia": "",
+          "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.08
         },
@@ -70731,6 +71001,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 599.4
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50895",
+          "cliente": "ROSALINA AKINI OIKAVA MORITA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 202.8
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50895",
+          "cliente": "ROSALINA AKINI OIKAVA MORITA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 131.88
         }
       ]
     },
@@ -70919,6 +71207,15 @@ const VENDAS_SP_DATA = {
       ],
       "Jun/26": [
         {
+          "data": "11/06/2026",
+          "codcli": "50233",
+          "cliente": "MAX CUPECE ORATORIO ESPETINHOS LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
           "data": "09/06/2026",
           "codcli": "50233",
           "cliente": "MAX CUPECE ORATORIO ESPETINHOS LTDA",
@@ -71035,6 +71332,71 @@ const VENDAS_SP_DATA = {
       ]
     },
     "LUCAS BUENO -": {
+      "Jun/26": [
+        {
+          "data": "11/06/2026",
+          "codcli": "50636",
+          "cliente": "SUPERMERCADO RAMA LTDA",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 119.88
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50636",
+          "cliente": "SUPERMERCADO RAMA LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 202.8
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "50578",
+          "cliente": "COMERCIAL DE ALIMENTOS ZANUTTO BORCEDA LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 250.8
+        },
+        {
+          "data": "03/06/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 202.8
+        },
+        {
+          "data": "03/06/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "LIQUEUR JAGERMEISTER 700 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 314.7
+        },
+        {
+          "data": "03/06/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "CATUABA SELVAGEM 900ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 163.48
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "VODKA ABSOLUT VANILLA 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
+        }
+      ],
       "Mai/26": [
         {
           "data": "28/05/2026",
@@ -71107,53 +71469,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 1,
           "valor": 629.9
-        }
-      ],
-      "Jun/26": [
-        {
-          "data": "01/06/2026",
-          "codcli": "50578",
-          "cliente": "COMERCIAL DE ALIMENTOS ZANUTTO BORCEDA LTDA",
-          "produto": "RUM MONTILLA CARTA BRANCA 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 250.8
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 202.8
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "LIQUEUR JAGERMEISTER 700 ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 314.7
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "CATUABA SELVAGEM 900ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 163.48
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "VODKA ABSOLUT VANILLA 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 658.8
         }
       ]
     }
