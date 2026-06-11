@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "11/06/2026 10:02",
-  "total": 4467,
+  "atualizado_em": "11/06/2026 10:23",
+  "total": 4468,
   "clientes": [
     {
       "codcli": "31683",
@@ -27832,6 +27832,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "156",
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50991",
+      "razao": "J M DA SILVA S J CAMPOS LTDA",
+      "fantasia": "MERCADINHO E ADEGA MONTE CASTELO",
+      "bairro": "MONTE CASTELO",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "64.607.935/0001-13",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
