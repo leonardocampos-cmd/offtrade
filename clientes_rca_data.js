@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "11/06/2026 13:29",
-  "total": 4481,
+  "atualizado_em": "11/06/2026 13:58",
+  "total": 4483,
   "clientes": [
     {
       "codcli": "31683",
@@ -16998,6 +16998,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "46400",
+      "razao": "CRISPIM GONCALVES NETO",
+      "fantasia": "BAR E MERCEARIA DO CRISPIM",
+      "bairro": "LOTEAMENTO PAULINO DE JESUS",
+      "cidade": "PINDAMONHANGABA",
+      "cnpj": "45.142.577/0001-76",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "472",
+      "nome_usur1": "FLAVIO RIBEIRO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "84950",
@@ -54994,6 +55008,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "PATRICIA RAMOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "3085",
+      "razao": "SKORPIOS MERCADO LTDA",
+      "fantasia": "SKORPIOS",
+      "bairro": "COPACABANA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "28.870.798/0001-41",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "152",
+      "nome_usur1": "PEDRO RANGEL",
+      "codusur2": "471",
+      "nome_usur2": "ANA CLARA FASSANO - OFF TRADE"
     },
     {
       "codcli": "18433",
