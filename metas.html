@@ -607,7 +607,8 @@
 <body>
 <script>
 (function () {
-  if (!new URLSearchParams(location.search).get('vendedor')) {
+  const _p = new URLSearchParams(location.search);
+  if (!_p.get('vendedor') && !_p.get('rca')) {
     const HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
     if (sessionStorage.getItem('rg_auth') !== HASH) {
       sessionStorage.setItem('rg_redirect', location.pathname + location.search);
@@ -1759,15 +1760,20 @@ function filterCards(q) {
   }
 
   const params = new URLSearchParams(window.location.search);
-  const param  = params.get('vendedor') || null;
+  const param    = params.get('vendedor') || null;
+  const rcaParam = params.get('rca') || null;
   const view   = params.get('view') || 'metas';
   const mesUrl = params.get('mes') || null;
 
   _mesSel = mesUrl || (METAS_DATA.meses && METAS_DATA.meses[0]) || '';
 
-  if (param) {
-    const v = METAS_DATA.vendedores.find(x =>
-      x.nome.toLowerCase() === param.toLowerCase());
+  const v = param
+    ? METAS_DATA.vendedores.find(x => x.nome.toLowerCase() === param.toLowerCase())
+    : rcaParam
+    ? METAS_DATA.vendedores.find(x => String(x.rca) === String(rcaParam))
+    : null;
+
+  if (param || rcaParam) {
     if (v) {
       if (view === 'vendas') renderVendas(v);
       else                   renderDetail(v, _mesSel);
