@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/06/2026 17:57",
-  "total": 4460,
+  "atualizado_em": "11/06/2026 09:02",
+  "total": 4461,
   "clientes": [
     {
       "codcli": "31683",
@@ -32494,6 +32494,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "92168",
+      "razao": "LOPO MALTA COMERCIO LTDA",
+      "fantasia": "LOPO MALTA",
+      "bairro": "ENCANTADO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "46.609.529/0001-08",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "335",
+      "nome_usur1": "MARA DEPOLLI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
