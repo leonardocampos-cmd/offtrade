@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "11/06/2026 15:05",
-  "total": 4490,
+  "atualizado_em": "11/06/2026 17:29",
+  "total": 4493,
   "clientes": [
     {
       "codcli": "31683",
@@ -1554,6 +1554,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "241",
       "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "92617",
+      "razao": "49.740.689 MARLON FELICIANO RODRIGUES",
+      "fantasia": "MARLON FELICIANO RODRIGUES",
+      "bairro": "PORTO NOVO",
+      "cidade": "SAQUAREMA",
+      "cnpj": "49.740.689/0001-80",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -8484,6 +8498,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "335",
       "nome_usur1": "MARA DEPOLLI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95366",
+      "razao": "AUTO POSTO CREMONEZE LTDA",
+      "fantasia": "AUTO POSTO CREMONEZE",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "01.988.505/0001-79",
+      "estado": "RJ",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "156",
+      "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -25372,6 +25400,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANDRE MATTOS"
     },
     {
+      "codcli": "51014",
+      "razao": "GIOVANA DA SILVA FREITAS",
+      "fantasia": "MAX MINI MERCADO",
+      "bairro": "JARDIM RINALDI",
+      "cidade": "PIRAJUI",
+      "cnpj": "37.802.711/0001-90",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "38594",
       "razao": "GIOVANNA RANGEL DE AZEVEDO 17704638793",
       "fantasia": "NATURAL GELO DE COCO",
@@ -35968,6 +36010,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
+    },
+    {
+      "codcli": "51015",
+      "razao": "MELANI BARBOSA CAMPOS",
+      "fantasia": "MELANI BARBOSA CAMPOS",
+      "bairro": "JARDIM EUROPA",
+      "cidade": "MORRO AGUDO",
+      "cnpj": "21.101.537/0001-18",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "89997",
@@ -51352,20 +51408,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "466",
       "nome_usur1": "DANIELLE DOS SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "94798",
-      "razao": "RECREIO PRIME HOUSE BAR E RESTAURANTE LTDA",
-      "fantasia": "RECREIO PRIME HOUSE",
-      "bairro": "RECREIO DOS BANDEIRANTES",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "66.492.479/0001-39",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "codusur1": "144",
-      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
