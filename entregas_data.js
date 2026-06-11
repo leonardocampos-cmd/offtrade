@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "11/06/2026 15:04",
+  "atualizado_em": "11/06/2026 15:05",
   "data_rota": "11.06",
   "vendedores": [
     {
@@ -1464,26 +1464,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "471000314",
-          "numnota": "",
-          "data": "11/06/2026",
-          "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 88.7,
-          "itens": [
-            {
-              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-              "qt": 1,
-              "val": 88.7
-            }
-          ]
-        },
-        {
           "numped": "471000313",
           "numnota": "",
           "data": "11/06/2026",
@@ -1530,26 +1510,6 @@ const ENTREGAS_DATA = {
               "desc": "PINATI NUTS COCO 20X30G",
               "qt": 2,
               "val": 78.4
-            }
-          ]
-        },
-        {
-          "numped": "471000312",
-          "numnota": "",
-          "data": "11/06/2026",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 88.7,
-          "itens": [
-            {
-              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-              "qt": 1,
-              "val": 88.7
             }
           ]
         },
@@ -1635,6 +1595,46 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "471000312",
+          "numnota": "402545.0",
+          "data": "11/06/2026",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 88.7,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 1,
+              "val": 88.7
+            }
+          ]
+        },
+        {
+          "numped": "471000314",
+          "numnota": "402548.0",
+          "data": "11/06/2026",
+          "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 88.7,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 1,
+              "val": 88.7
+            }
+          ]
+        },
         {
           "numped": "471000297",
           "numnota": "401531.0",
@@ -10390,6 +10390,11 @@ const ENTREGAS_DATA = {
           "total": 777.02,
           "itens": [
             {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 1,
+              "val": 95.9
+            },
+            {
               "desc": "MARTINI ROSSO 750 ML",
               "qt": 3,
               "val": 91.62
@@ -10418,11 +10423,6 @@ const ENTREGAS_DATA = {
               "desc": "MARTINI ROSATO 750 ML",
               "qt": 3,
               "val": 91.5
-            },
-            {
-              "desc": "GIN TANQUERAY  750 ML",
-              "qt": 1,
-              "val": 95.9
             }
           ]
         },
@@ -20289,6 +20289,11 @@ const ENTREGAS_DATA = {
           "total": 1801.3,
           "itens": [
             {
+              "desc": "GIN BEEFEATER 750ML",
+              "qt": 6,
+              "val": 389.4
+            },
+            {
               "desc": "WHISKY BUCHANANS 12 YEARS 750 ML",
               "qt": 4,
               "val": 535.6
@@ -20307,11 +20312,6 @@ const ENTREGAS_DATA = {
               "desc": "ICE 51 BALADA LONG NECK 24X275 ML",
               "qt": 2,
               "val": 241.8
-            },
-            {
-              "desc": "GIN BEEFEATER 750ML",
-              "qt": 6,
-              "val": 389.4
             }
           ]
         },
