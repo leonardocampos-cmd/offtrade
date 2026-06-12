@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "12/06/2026 09:37",
+  "atualizado_em": "12/06/2026 11:09",
   "data_rota": "12.06",
   "vendedores": [
     {
@@ -111,11 +111,6 @@ const ENTREGAS_DATA = {
           "total": 382.42,
           "itens": [
             {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 1,
-              "val": 71.76
-            },
-            {
               "desc": "GUARAVITA NATURAL 24X290ML",
               "qt": 3,
               "val": 95.98
@@ -134,6 +129,11 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
               "qt": 1,
               "val": 71.16
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 71.76
             }
           ]
         },
@@ -3800,6 +3800,31 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "412001318",
+          "numnota": "",
+          "data": "12/06/2026",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1798.8,
+          "itens": [
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 12,
+              "val": 706.8
+            },
+            {
+              "desc": "PACHECA TAWNY PORT 750 ML",
+              "qt": 12,
+              "val": 1092.0
+            }
+          ]
+        },
         {
           "numped": "412001316",
           "numnota": "",
@@ -16351,6 +16376,126 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "156003574",
+          "numnota": "",
+          "data": "12/06/2026",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1495.15,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 3,
+              "val": 83.7
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML",
+              "qt": 1,
+              "val": 89.9
+            },
+            {
+              "desc": "ICE 51 LIMAO LONG NECK 24X275ML",
+              "qt": 1,
+              "val": 114.0
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 1,
+              "val": 172.9
+            },
+            {
+              "desc": "GIN GORDONS 750 ML",
+              "qt": 1,
+              "val": 55.9
+            },
+            {
+              "desc": "VODKA SMIRNOFF 600 ML",
+              "qt": 3,
+              "val": 67.5
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 750ML",
+              "qt": 1,
+              "val": 141.13
+            },
+            {
+              "desc": "GIN BAM TANQUERAY RANGPUR  CX C/ 12X50ML",
+              "qt": 1,
+              "val": 135.9
+            },
+            {
+              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
+              "qt": 2,
+              "val": 47.88
+            },
+            {
+              "desc": "NECTAR ABACAXI 12X1000ML",
+              "qt": 1,
+              "val": 57.42
+            },
+            {
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 1,
+              "val": 57.48
+            },
+            {
+              "desc": "NECTAR LARANJA 12X1000ML",
+              "qt": 1,
+              "val": 57.48
+            },
+            {
+              "desc": "NECTAR MANGA 12X1000ML",
+              "qt": 1,
+              "val": 57.48
+            },
+            {
+              "desc": "NECTAR MARACUJA 12X1000ML",
+              "qt": 1,
+              "val": 57.48
+            },
+            {
+              "desc": "NECTAR MANGA TIAL 12X250ML",
+              "qt": 1,
+              "val": 17.88
+            },
+            {
+              "desc": "NECTAR UVA TIAL 12X250ML",
+              "qt": 1,
+              "val": 17.88
+            },
+            {
+              "desc": "NECTAR PESSEGO TIAL 12X250ML",
+              "qt": 1,
+              "val": 17.88
+            },
+            {
+              "desc": "NECTAR MARACUJA TIAL 12X250ML",
+              "qt": 1,
+              "val": 17.88
+            },
+            {
+              "desc": "NECTAR GOIABA TIAL 12X250ML",
+              "qt": 1,
+              "val": 17.88
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "ICE 51 FRUIT LONG NECK 24X275 ML",
+              "qt": 1,
+              "val": 114.9
+            }
+          ]
+        },
+        {
           "numped": "156003500",
           "numnota": "",
           "data": "02/06/2026",
@@ -21564,6 +21709,41 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "155003668",
+          "numnota": "",
+          "data": "12/06/2026",
+          "cliente": "SALVE ICARAI BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1034.0,
+          "itens": [
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 12,
+              "val": 406.8
+            },
+            {
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 6,
+              "val": 377.4
+            },
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 1,
+              "val": 76.9
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 1,
+              "val": 172.9
+            }
+          ]
+        },
         {
           "numped": "155003660",
           "numnota": "",
