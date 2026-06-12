@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "12/06/2026 13:22",
-  "total": 4506,
+  "atualizado_em": "12/06/2026 14:02",
+  "total": 4509,
   "clientes": [
     {
       "codcli": "31683",
@@ -18582,6 +18582,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "51033",
+      "razao": "DIB BUZINARIO CONSULTORIA EMPRESARIAL LTDA",
+      "fantasia": "DIB BUZINARIO ADVISORY",
+      "bairro": "VILA MOINHO VELHO",
+      "cidade": "SAO PAULO",
+      "cnpj": "62.096.054/0001-50",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "codusur1": "488",
+      "nome_usur1": "ADRIANO VEZZANI \n- OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "46946",
       "razao": "DIEGO ALVES DE ALMEIDA 36550638810",
       "fantasia": "ADEGA E TABACARIA ACAPULCO HOOKAH",
@@ -23158,6 +23172,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51034",
+      "razao": "FAMILIA ADEGA E MERCEARIA LTDA",
+      "fantasia": "FAMILIA ADEGA E MERCEARIA",
+      "bairro": "JARDIM SANTA EUDOXIA",
+      "cidade": "CAMPINAS",
+      "cnpj": "39.154.784/0001-48",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "469",
+      "nome_usur1": "PATRICIA RAMOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "19109",
@@ -60610,6 +60638,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "RAFAEL SARNAGLIA"
     },
     {
+      "codcli": "51030",
+      "razao": "UNISUPER UNIAO SUPERMERCADO LTDA",
+      "fantasia": "UNISUPER UNIAO SUPERMERCADO",
+      "bairro": "CENTRO",
+      "cidade": "PINHALZINHO",
+      "cnpj": "72.995.475/0001-76",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "488",
+      "nome_usur1": "ADRIANO VEZZANI \n- OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "76618",
       "razao": "UNIVERSIDADE DO ACAI VILA VELHA LTDA",
       "fantasia": "UNIVERSIDADE DO ACAI",
@@ -61164,8 +61206,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "62.498.365/0001-45",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "483",
-      "nome_usur1": "ALEXANDRE TONON - OFF TRADE",
+      "codusur1": "485",
+      "nome_usur1": "ANDRE PINHEIRO - OFF TRADE",
       "codusur2": "429",
       "nome_usur2": "WANDO MACHADO - OFF TRADE"
     },
