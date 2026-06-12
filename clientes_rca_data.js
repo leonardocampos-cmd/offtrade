@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "11/06/2026 17:29",
-  "total": 4493,
+  "atualizado_em": "12/06/2026 09:09",
+  "total": 4497,
   "clientes": [
     {
       "codcli": "31683",
@@ -16,6 +16,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51019",
+      "razao": "1000 GRAU COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "1000 GRAU ADEGA",
+      "bairro": "VILA SABRINA",
+      "cidade": "SAO PAULO",
+      "cnpj": "57.129.977/0001-20",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "59488",
@@ -11874,6 +11888,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "78320",
+      "razao": "BRG EVENTOS LTDA",
+      "fantasia": "BRG EVENTOS",
+      "bairro": "PORTO NOVO",
+      "cidade": "SAQUAREMA",
+      "cnpj": "50.906.889/0001-49",
+      "estado": "RJ",
+      "ramo": "EVENTOS",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "79324",
@@ -56242,6 +56270,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51021",
+      "razao": "SUPERMERCADO BLENTAN LTDA",
+      "fantasia": "SAO JOSE SUPERMERCADO",
+      "bairro": "DISTRITO INDUSTRIAL III",
+      "cidade": "ITAPOLIS",
+      "cnpj": "53.332.185/0003-60",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50603",
       "razao": "SUPERMERCADO BOA ESPERANCA HORT FRUIT LTDA",
       "fantasia": "SUPERMERCADO BOA ESPERANCA HORT FRUIT",
@@ -57794,6 +57836,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOAO VICTOR DA ROCHA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "51020",
+      "razao": "SUPERMERCADO SACCHI LTDA",
+      "fantasia": "SUPERMERCADO SACCHI E GUEDES",
+      "bairro": "JARDIM BELA VISTA",
+      "cidade": "LUIS ANTONIO",
+      "cnpj": "02.775.652/0001-23",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50850",
