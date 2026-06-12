@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "12/06/2026 12:01",
+  "atualizado_em": "12/06/2026 13:21",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -113737,7 +113737,7 @@ const VENDAS_DATA = {
           "codcli": "82911",
           "cliente": "AUTO POSTO AVENIDA CENTRAL DE IRAJA LTDA",
           "produto": "WHISKY CHIVAS GOLD C/COPO 700ML",
-          "fantasia": "CHIVAS",
+          "fantasia": "PERNOD",
           "qt": 1,
           "valor": 115.99
         },
@@ -115479,15 +115479,6 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 2,
           "valor": 319.8
-        },
-        {
-          "data": "08/06/2026",
-          "codcli": "82911",
-          "cliente": "AUTO POSTO AVENIDA CENTRAL DE IRAJA LTDA",
-          "produto": "WHISKY BOURBON WOODFORD RESERVE 750ML",
-          "fantasia": "BROWN",
-          "qt": 3,
-          "valor": 539.7
         },
         {
           "data": "05/06/2026",
