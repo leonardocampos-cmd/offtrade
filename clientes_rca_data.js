@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "12/06/2026 15:02",
-  "total": 4517,
+  "atualizado_em": "12/06/2026 16:02",
+  "total": 4518,
   "clientes": [
     {
       "codcli": "31683",
@@ -59026,6 +59026,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "51056",
+      "razao": "SUPERMERCADOS JAU SERVE LTDA",
+      "fantasia": "JAU SERVE",
+      "bairro": "DISTRITO INDUSTRIAL",
+      "cidade": "JAU",
+      "cnpj": "03.640.467/0001-94",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "491",
+      "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "81656",
