@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "12/06/2026 09:37",
-  "total": 4498,
+  "atualizado_em": "12/06/2026 11:10",
+  "total": 4504,
   "clientes": [
     {
       "codcli": "31683",
@@ -16,6 +16,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "90405",
+      "razao": "07.175.533 BIANCA RODRIGUES DE JESUS VASQUEZ",
+      "fantasia": "BIANCA RODRIGUES DE JESUS VASQUEZ",
+      "bairro": "CENTRO",
+      "cidade": "VITORIA",
+      "cnpj": "07.175.533/0001-53",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51019",
@@ -1078,6 +1092,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51026",
+      "razao": "40.647.192 MARCIA MAMPRIM",
+      "fantasia": "MARCIA MAMPRIM",
+      "bairro": "JARDIM SAO JOAO",
+      "cidade": "COLINA",
+      "cnpj": "40.647.192/0001-47",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -22964,6 +22992,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51023",
+      "razao": "F.R.A. COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "F.R.A. COMERCIO DE ALIMENTOS",
+      "bairro": "PARQUE DO MIRANTE",
+      "cidade": "LUIS ANTONIO",
+      "cnpj": "34.267.650/0001-10",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "63106",
       "razao": "FAB'LU DOCES LTDA",
       "fantasia": "FAB'LU DOCES LTDA",
@@ -34722,6 +34764,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "51024",
+      "razao": "MARCELO FERREIRA FILHO",
+      "fantasia": "ADEGA CONVENIENCIA",
+      "bairro": "CENTRO",
+      "cidade": "VIRADOURO",
+      "cnpj": "41.867.225/0001-27",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "6344",
@@ -53526,6 +53582,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "95371",
+      "razao": "ROYAL PRIME COMERCIAL LTDA",
+      "fantasia": "ROYAL PRIME",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "66.580.321/0001-10",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "46503",
       "razao": "RR POSTO PILAR LTDA",
       "fantasia": "RR POSTO PILAR",
@@ -62148,6 +62218,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51025",
+      "razao": "W. A. DE CAMPOS - MERCEARIA",
+      "fantasia": "SUPERMERCADO PAGUE MENOS II",
+      "bairro": "VARZEA DO GOUVEIA",
+      "cidade": "CUNHA",
+      "cnpj": "07.125.706/0001-29",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "466",
+      "nome_usur1": "DANIELLE DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "38800",
