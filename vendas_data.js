@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "12/06/2026 11:09",
+  "atualizado_em": "12/06/2026 12:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -29402,7 +29402,7 @@ const VENDAS_DATA = {
           "codcli": "3549",
           "cliente": "AUTO POSTO SENNA LTDA",
           "produto": "GIN MARINA BLACKBERRY 750ML",
-          "fantasia": "CAPIM BRANCO",
+          "fantasia": "HOB",
           "qt": 2,
           "valor": 119.8
         },
@@ -37788,33 +37788,6 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
-          "data": "11/06/2026",
-          "codcli": "73248",
-          "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
-          "produto": "BLACK LABEL 50 ML CX/12",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 239.9
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "73248",
-          "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 2,
-          "valor": 55.8
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "73248",
-          "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
-        },
-        {
           "data": "05/06/2026",
           "codcli": "76424",
           "cliente": "CRUZADA DA BARRA PADARIA LTDA",
@@ -45351,7 +45324,7 @@ const VENDAS_DATA = {
           "codcli": "84459",
           "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN MARINA BLACKBERRY 750ML",
-          "fantasia": "CAPIM BRANCO",
+          "fantasia": "HOB",
           "qt": 1,
           "valor": 39.9
         },
@@ -140943,7 +140916,7 @@ const VENDAS_DATA = {
           "codcli": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA LTDA",
           "produto": "GIN MARINA BLACKBERRY 750ML",
-          "fantasia": "CAPIM BRANCO",
+          "fantasia": "HOB",
           "qt": 6,
           "valor": 203.4
         },
@@ -145627,7 +145600,7 @@ const VENDAS_DATA = {
           "codcli": "90484",
           "cliente": "MERCADO RC DE ITAGUAI LTDA",
           "produto": "GIN MARINA BLACKBERRY 750ML",
-          "fantasia": "CAPIM BRANCO",
+          "fantasia": "HOB",
           "qt": 6,
           "valor": 203.4
         },
@@ -162029,9 +162002,45 @@ const VENDAS_DATA = {
         },
         {
           "data": "12/06/2026",
+          "codcli": "90903",
+          "cliente": "ADL BARIGUI LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 288.0
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "90903",
+          "cliente": "ADL BARIGUI LTDA",
+          "produto": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 624.0
+        },
+        {
+          "data": "12/06/2026",
           "codcli": "90717",
           "cliente": "BONATO & BONATO LTDA",
           "produto": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 624.0
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "90903",
+          "cliente": "ADL BARIGUI LTDA",
+          "produto": "VINHO FOODKILLER CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 624.0
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "90903",
+          "cliente": "ADL BARIGUI LTDA",
+          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
           "fantasia": "",
           "qt": 12,
           "valor": 624.0
