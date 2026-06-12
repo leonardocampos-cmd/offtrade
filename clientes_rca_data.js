@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "12/06/2026 14:02",
-  "total": 4509,
+  "atualizado_em": "12/06/2026 15:02",
+  "total": 4517,
   "clientes": [
     {
       "codcli": "31683",
@@ -14438,6 +14438,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "93634",
+      "razao": "CHALHUB SMOOTHIES LTDA",
+      "fantasia": "CHALHUB SMOOTHIES",
+      "bairro": "HUMAITÁ",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "65.203.524/0001-25",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "219",
+      "nome_usur1": "JULIA PACIELLO",
+      "codusur2": "378",
+      "nome_usur2": "FABIO VALOTTI - OFF TRADE"
+    },
+    {
       "codcli": "39448",
       "razao": "CHAPA'S RESTAURANTES LTDA",
       "fantasia": "CHAPA'S RESTAURANTES",
@@ -18932,6 +18946,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
     {
+      "codcli": "51043",
+      "razao": "DISTRIBUIDORA BERLIM COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "DISTRIBUIDORA BERLIM",
+      "bairro": "JARDIM VENEZA",
+      "cidade": "FRANCA",
+      "cnpj": "47.844.953/0001-08",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "94183",
       "razao": "DISTRIBUIDORA BISSARO",
       "fantasia": "DISTRIBUIDORA BISSARO",
@@ -19194,6 +19222,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ADEGA",
       "codusur1": "417",
       "nome_usur1": "DIRLEI ARAUJO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51045",
+      "razao": "DISTRIBUIDORA DE DOCES SAGRADO CORACAO JANDIRA LTDA",
+      "fantasia": "DISTRIBUIDORA DE DOCES SAGRADO CORACAO JANDIRA",
+      "bairro": "JARDIM SAGRADO CORACAO",
+      "cidade": "JANDIRA",
+      "cnpj": "24.592.761/0001-48",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -28786,6 +28828,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
+    },
+    {
+      "codcli": "86264",
+      "razao": "JC LOJA DE CONVENIENCIA LTDA",
+      "fantasia": "JC ATACADOS",
+      "bairro": "TAQUARA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "42.912.682/0001-59",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "92019",
@@ -51034,6 +51090,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "84908",
+      "razao": "RABUGENTOS PUB WONDERFULL RESTAURANTE LTDA",
+      "fantasia": "RABUGENTOS PUB WONDERFULL RESTAURANTE",
+      "bairro": "ALTO",
+      "cidade": "TERESOPOLIS",
+      "cnpj": "51.495.723/0001-40",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "43812",
       "razao": "RAEP COMERCIO DE PRODUTOS LTDA",
       "fantasia": "RAEP COMERCIO",
@@ -55176,6 +55246,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51046",
+      "razao": "SIM EMPREENDIMENTOS COMERCIAIS - SUPERMERCADOS LTDA",
+      "fantasia": "SIM EMPREENDIMENTOS COMERCIAIS - SUPERMERCADOS",
+      "bairro": "VILA ESPERANCA",
+      "cidade": "SANTO ANTONIO DE POSSE",
+      "cnpj": "36.275.052/0006-22",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "488",
+      "nome_usur1": "ADRIANO VEZZANI \n- OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "85054",
@@ -60610,6 +60694,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51042",
+      "razao": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
+      "fantasia": "UNIAO COMERCIO ATACADISTA E VAREJISTA",
+      "bairro": "MATADOURO",
+      "cidade": "BRAGANCA PAULISTA",
+      "cnpj": "24.563.620/0001-05",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "488",
+      "nome_usur1": "ADRIANO VEZZANI \n- OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "94449",
       "razao": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGENS E LATICINIOS LTDA",
       "fantasia": "UNIAO DA CAIRO DISTRIBUIDORA DE EMBALAGE",
@@ -60644,6 +60742,20 @@ const CLIENTES_RCA_DATA = {
       "bairro": "CENTRO",
       "cidade": "PINHALZINHO",
       "cnpj": "72.995.475/0001-76",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "488",
+      "nome_usur1": "ADRIANO VEZZANI \n- OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51041",
+      "razao": "UNISUPER UNIAO SUPERMERCADO LTDA",
+      "fantasia": "UNISUPER UNIAO SUPERMERCADO",
+      "bairro": "ALVINÓPOLIS",
+      "cidade": "ATIBAIA",
+      "cnpj": "72.995.475/0010-67",
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "488",
