@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "12/06/2026 15:01",
+  "atualizado_em": "12/06/2026 16:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -36510,6 +36510,42 @@ const VENDAS_DATA = {
           "valor": 13.99
         },
         {
+          "data": "12/06/2026",
+          "codcli": "2075",
+          "cliente": "CARBAT DIST. E ASSE. DO COM. DE DERIVADOS DE PETROLEO LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 4,
+          "valor": 95.76
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "2075",
+          "cliente": "CARBAT DIST. E ASSE. DO COM. DE DERIVADOS DE PETROLEO LTDA",
+          "produto": "GIN ROCKS POCKET PET 12X200ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 104.4
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "2075",
+          "cliente": "CARBAT DIST. E ASSE. DO COM. DE DERIVADOS DE PETROLEO LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.48
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "2075",
+          "cliente": "CARBAT DIST. E ASSE. DO COM. DE DERIVADOS DE PETROLEO LTDA",
+          "produto": "NECTAR PESSEGO 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.48
+        },
+        {
           "data": "10/06/2026",
           "codcli": "2310",
           "cliente": "POSTO DE GASOLINA BRACARENSE LTDA",
@@ -39028,6 +39064,195 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 2,
           "valor": 63.78
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 172.9
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "WHISKY J WALKER BLACK LABEL 750ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 141.13
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 55.9
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "GIN BAM TANQUERAY RANGPUR  CX C/ 12X50ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 135.9
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 47.88
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 67.5
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "ICE 51 FRUIT LONG NECK 24X275 ML",
+          "fantasia": "51",
+          "qt": 1,
+          "valor": 114.9
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "fantasia": "51",
+          "qt": 1,
+          "valor": 114.0
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "NECTAR GOIABA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 17.88
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "NECTAR MANGA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 17.88
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "NECTAR MARACUJA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 17.88
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "NECTAR PESSEGO TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 17.88
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 83.7
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 17.88
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.42
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.48
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.48
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.48
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "82919",
+          "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 57.48
         },
         {
           "data": "01/06/2026",
@@ -66274,6 +66499,33 @@ const VENDAS_DATA = {
           "valor": 64.69
         },
         {
+          "data": "12/06/2026",
+          "codcli": "92277",
+          "cliente": "WALLAF DA SILVA MENEZES GOMES MERCADO E PADARIA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "92277",
+          "cliente": "WALLAF DA SILVA MENEZES GOMES MERCADO E PADARIA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 167.88
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "92277",
+          "cliente": "WALLAF DA SILVA MENEZES GOMES MERCADO E PADARIA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 149.9
+        },
+        {
           "data": "08/06/2026",
           "codcli": "94266",
           "cliente": "MERCADINHO SCHIO LTDA",
@@ -66326,6 +66578,69 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 1,
           "valor": 134.9
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "91491",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.16
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "91491",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "91491",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "91491",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 3,
+          "valor": 95.98
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "93414",
+          "cliente": "34.726.322 GILMAR TEONIS FERREIRA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "93414",
+          "cliente": "34.726.322 GILMAR TEONIS FERREIRA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "93414",
+          "cliente": "34.726.322 GILMAR TEONIS FERREIRA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
         },
         {
           "data": "08/06/2026",
@@ -115103,6 +115418,33 @@ const VENDAS_DATA = {
           "valor": 329.0
         },
         {
+          "data": "12/06/2026",
+          "codcli": "79969",
+          "cliente": "WMDIAS 24H LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "fantasia": "MINALBA",
+          "qt": 15,
+          "valor": 433.5
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "79969",
+          "cliente": "WMDIAS 24H LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "fantasia": "MINALBA",
+          "qt": 35,
+          "valor": 731.5
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "79969",
+          "cliente": "WMDIAS 24H LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 20,
+          "valor": 398.0
+        },
+        {
           "data": "03/06/2026",
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
@@ -115506,6 +115848,24 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 2,
           "valor": 65.8
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 706.8
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "PACHECA TAWNY PORT 750 ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 1092.0
         },
         {
           "data": "10/06/2026",
@@ -130704,15 +131064,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 28.9
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "95038",
-          "cliente": "GABRIEL BARROS MELO",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 10,
-          "valor": 229.0
         },
         {
           "data": "13/05/2026",
