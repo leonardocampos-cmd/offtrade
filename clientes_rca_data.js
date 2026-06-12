@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "12/06/2026 11:10",
-  "total": 4504,
+  "atualizado_em": "12/06/2026 12:02",
+  "total": 4505,
   "clientes": [
     {
       "codcli": "31683",
@@ -16244,6 +16244,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "90149",
+      "razao": "COMERCIO DE CARNES REIZAO DO RIO LTDA",
+      "fantasia": "REI DAS CARNES - SANTA CRUZ",
+      "bairro": "SANTA CRUZ",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "38.057.179/0001-96",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "419",
+      "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
+    },
+    {
       "codcli": "94954",
       "razao": "COMERCIO DE CEREAIS IZANITA LIMITADA",
       "fantasia": "MERCADO ATAKAREJO FILIAL",
@@ -25636,20 +25650,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "62739",
-      "razao": "GOLACO BAR, RESTAURANTE E EVENTOS LTDA",
-      "fantasia": "GOLACO BAR, RESTAURANTE E EVENTOS LTDA",
-      "bairro": "JARDIM LIMOEIRO",
-      "cidade": "SERRA",
-      "cnpj": "05.007.346/0001-35",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "336",
-      "nome_usur1": "JEAN MENEZES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "91583",
@@ -57936,6 +57936,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51028",
+      "razao": "SUPERMERCADO SANI LTDA",
+      "fantasia": "SUPERMERCADO SANI",
+      "bairro": "CENTRO",
+      "cidade": "HOLAMBRA",
+      "cnpj": "59.902.738/0001-97",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50850",
       "razao": "SUPERMERCADO SANTO ANTONIO DE SOUZA LTDA",
       "fantasia": "SUPERMERCADO SANTO ANTONIO DE SOUZA",
@@ -60578,8 +60592,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "376",
       "nome_usur1": "CARLOS TERRA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "233",
+      "nome_usur2": "RAFAEL SARNAGLIA"
     },
     {
       "codcli": "76618",
