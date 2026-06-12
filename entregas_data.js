@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "12/06/2026 12:01",
+  "atualizado_em": "12/06/2026 13:21",
   "data_rota": "12.06",
   "vendedores": [
     {
@@ -3861,6 +3861,36 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "412001319",
+          "numnota": "",
+          "data": "12/06/2026",
+          "cliente": "WMDIAS 24H LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1563.0,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 20,
+              "val": 398.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 35,
+              "val": 731.5
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 15,
+              "val": 433.5
+            }
+          ]
+        },
+        {
           "numped": "412001316",
           "numnota": "",
           "data": "11/06/2026",
@@ -4369,26 +4399,6 @@ const ENTREGAS_DATA = {
               "desc": "VODKA SMIRNOFF 600 ML",
               "qt": 7,
               "val": 160.3
-            }
-          ]
-        },
-        {
-          "numped": "412001303",
-          "numnota": "401210.0",
-          "data": "08/06/2026",
-          "cliente": "AUTO POSTO AVENIDA CENTRAL DE IRAJA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Favor manter embalagens integras",
-          "total": 539.7,
-          "itens": [
-            {
-              "desc": "WHISKY BOURBON WOODFORD RESERVE 750ML",
-              "qt": 3,
-              "val": 539.7
             }
           ]
         },
@@ -5234,6 +5244,111 @@ const ENTREGAS_DATA = {
               "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
               "qt": 3,
               "val": 266.1
+            }
+          ]
+        },
+        {
+          "numped": "144001543",
+          "numnota": "",
+          "data": "12/06/2026",
+          "cliente": "MINI MERCADO CORREIO DO POVO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 293.9,
+          "itens": [
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+              "qt": 3,
+              "val": 104.7
+            },
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 3,
+              "val": 116.7
+            },
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV. DEDST",
+              "qt": 3,
+              "val": 72.5
+            }
+          ]
+        },
+        {
+          "numped": "144001542",
+          "numnota": "",
+          "data": "12/06/2026",
+          "cliente": "MINI MERCADO CORREIO DO POVO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 987.08,
+          "itens": [
+            {
+              "desc": "STEINHAGER LOEWE 960ML",
+              "qt": 12,
+              "val": 106.8
+            },
+            {
+              "desc": "RUM BACARDI SUPERIOR 980ML",
+              "qt": 4,
+              "val": 127.6
+            },
+            {
+              "desc": "VODKA SMIRNOFF 600 ML",
+              "qt": 6,
+              "val": 129.0
+            },
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 6,
+              "val": 179.4
+            },
+            {
+              "desc": "IMPERADOR 900ML",
+              "qt": 12,
+              "val": 119.88
+            },
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV. DEDST",
+              "qt": 6,
+              "val": 145.0
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+              "qt": 6,
+              "val": 179.4
+            }
+          ]
+        },
+        {
+          "numped": "144001541",
+          "numnota": "",
+          "data": "12/06/2026",
+          "cliente": "MARCIO GARCIA SANCHES 01351218760",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1837.9,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 10,
+              "val": 1749.0
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML",
+              "qt": 1,
+              "val": 88.9
             }
           ]
         },
@@ -11286,6 +11401,31 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "379001104",
+          "numnota": "",
+          "data": "12/06/2026",
+          "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "cliente on",
+          "total": 341.1,
+          "itens": [
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
+              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "qt": 1,
+              "val": 141.6
+            }
+          ]
+        },
         {
           "numped": "379001081",
           "numnota": "",
@@ -21793,11 +21933,6 @@ const ENTREGAS_DATA = {
           "total": 1034.0,
           "itens": [
             {
-              "desc": "GIN LARIOS ORIGINAL 700ML",
-              "qt": 12,
-              "val": 406.8
-            },
-            {
               "desc": "VODKA ABSOLUT 1L",
               "qt": 6,
               "val": 377.4
@@ -21811,6 +21946,11 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY J WALKER BLACK LABEL 1L",
               "qt": 1,
               "val": 172.9
+            },
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 12,
+              "val": 406.8
             }
           ]
         },
