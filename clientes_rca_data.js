@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "12/06/2026 09:09",
-  "total": 4497,
+  "atualizado_em": "12/06/2026 09:37",
+  "total": 4498,
   "clientes": [
     {
       "codcli": "31683",
@@ -728,6 +728,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCEARIA",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "93414",
+      "razao": "34.726.322 GILMAR TEONIS FERREIRA",
+      "fantasia": "34.726.322 GILMAR TEONIS FERREIRA",
+      "bairro": "REALENGO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "34.726.322/0001-34",
+      "estado": "RJ",
+      "ramo": "SERVIÇOS",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
