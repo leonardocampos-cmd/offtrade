@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "12/06/2026 12:02",
-  "total": 4505,
+  "atualizado_em": "12/06/2026 13:22",
+  "total": 4506,
   "clientes": [
     {
       "codcli": "31683",
@@ -238,6 +238,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "SERVIÇOS",
       "codusur1": "265",
       "nome_usur1": "LUCAS LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95375",
+      "razao": "2001 DEPOSITO DO COUTINHO LTDA",
+      "fantasia": "DEPOSITO DO COUTINHO LTDA",
+      "bairro": "INHOAIBA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "67.036.300/0001-00",
+      "estado": "RJ",
+      "ramo": "ADEGA",
+      "codusur1": "156",
+      "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
