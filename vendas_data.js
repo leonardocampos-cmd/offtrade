@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "12/06/2026 14:01",
+  "atualizado_em": "12/06/2026 15:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -86809,7 +86809,7 @@ const VENDAS_DATA = {
           "valor": 987.0
         },
         {
-          "data": "11/06/2026",
+          "data": "12/06/2026",
           "codcli": "3717",
           "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
@@ -86818,34 +86818,7 @@ const VENDAS_DATA = {
           "valor": 177.4
         },
         {
-          "data": "11/06/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "KIT VANISH LIQ PINK1,5L+WHITE 1,5L 50%",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 85.5
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "VEJA BAN ANTIBAC GAT 30% DESC 12X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 180.0
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 134.32
-        },
-        {
-          "data": "11/06/2026",
+          "data": "12/06/2026",
           "codcli": "3717",
           "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
@@ -86854,7 +86827,7 @@ const VENDAS_DATA = {
           "valor": 65.28
         },
         {
-          "data": "11/06/2026",
+          "data": "12/06/2026",
           "codcli": "3717",
           "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
           "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
@@ -86863,13 +86836,31 @@ const VENDAS_DATA = {
           "valor": 65.28
         },
         {
-          "data": "11/06/2026",
+          "data": "12/06/2026",
           "codcli": "3717",
           "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
           "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 65.28
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "3717",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "produto": "KIT VANISH LIQ PINK1,5L+WHITE 1,5L 50%",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 85.5
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "3717",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "produto": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 134.32
         },
         {
           "data": "05/06/2026",
