@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "12/06/2026 11:09",
+  "atualizado_em": "12/06/2026 12:01",
   "data_rota": "12.06",
   "vendedores": [
     {
@@ -94,6 +94,41 @@ const ENTREGAS_DATA = {
               "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
               "qt": 12,
               "val": 167.88
+            }
+          ]
+        },
+        {
+          "numped": "431001024",
+          "numnota": "",
+          "data": "12/06/2026",
+          "cliente": "34.726.322 GILMAR TEONIS FERREIRA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 287.04,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 71.76
             }
           ]
         },
@@ -3814,14 +3849,14 @@ const ENTREGAS_DATA = {
           "total": 1798.8,
           "itens": [
             {
-              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-              "qt": 12,
-              "val": 706.8
-            },
-            {
               "desc": "PACHECA TAWNY PORT 750 ML",
               "qt": 12,
               "val": 1092.0
+            },
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 12,
+              "val": 706.8
             }
           ]
         },
@@ -16496,6 +16531,41 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "156003575",
+          "numnota": "",
+          "data": "12/06/2026",
+          "cliente": "CARBAT DIST. E ASSE. DO COM. DE DERIVADOS DE PETROLEO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 315.12,
+          "itens": [
+            {
+              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
+              "qt": 4,
+              "val": 95.76
+            },
+            {
+              "desc": "NECTAR PESSEGO 12X1000ML",
+              "qt": 1,
+              "val": 57.48
+            },
+            {
+              "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
+              "qt": 1,
+              "val": 57.48
+            },
+            {
+              "desc": "GIN ROCKS POCKET PET 12X200ML",
+              "qt": 1,
+              "val": 104.4
+            }
+          ]
+        },
+        {
           "numped": "156003500",
           "numnota": "",
           "data": "02/06/2026",
@@ -16524,26 +16594,26 @@ const ENTREGAS_DATA = {
           "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
           "placa": "",
           "rota": "",
-          "status_ped": "",
+          "status_ped": "CANCELADA",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 390.4,
+          "total": 0.0,
           "itens": [
             {
               "desc": "BLACK LABEL 50 ML CX/12",
-              "qt": 1,
-              "val": 239.9
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "qt": 1,
-              "val": 94.7
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 2,
-              "val": 55.8
+              "qt": 0,
+              "val": 0.0
             }
           ]
         },
@@ -21741,6 +21811,26 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY J WALKER BLACK LABEL 1L",
               "qt": 1,
               "val": 172.9
+            }
+          ]
+        },
+        {
+          "numped": "155003669",
+          "numnota": "",
+          "data": "12/06/2026",
+          "cliente": "GALPAO DAS BEBIDAS CF LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1308.0,
+          "itens": [
+            {
+              "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
+              "qt": 120,
+              "val": 1308.0
             }
           ]
         },
