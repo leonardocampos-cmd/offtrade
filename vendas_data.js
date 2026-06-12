@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "12/06/2026 13:21",
+  "atualizado_em": "12/06/2026 14:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -87142,7 +87142,16 @@ const VENDAS_DATA = {
           "valor": 635.4
         },
         {
-          "data": "09/06/2026",
+          "data": "12/06/2026",
+          "codcli": "91081",
+          "cliente": "O ECONOMICO DA GAVEA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "12/06/2026",
           "codcli": "91081",
           "cliente": "O ECONOMICO DA GAVEA LTDA",
           "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
@@ -87151,7 +87160,7 @@ const VENDAS_DATA = {
           "valor": 124.92
         },
         {
-          "data": "09/06/2026",
+          "data": "12/06/2026",
           "codcli": "91081",
           "cliente": "O ECONOMICO DA GAVEA LTDA",
           "produto": "KIT VANISH LIQ PINK1,5L+WHITE 1,5L 50%",
@@ -87160,7 +87169,7 @@ const VENDAS_DATA = {
           "valor": 171.0
         },
         {
-          "data": "09/06/2026",
+          "data": "12/06/2026",
           "codcli": "91081",
           "cliente": "O ECONOMICO DA GAVEA LTDA",
           "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
@@ -87169,7 +87178,7 @@ const VENDAS_DATA = {
           "valor": 179.4
         },
         {
-          "data": "09/06/2026",
+          "data": "12/06/2026",
           "codcli": "91081",
           "cliente": "O ECONOMICO DA GAVEA LTDA",
           "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
@@ -87178,7 +87187,7 @@ const VENDAS_DATA = {
           "valor": 179.4
         },
         {
-          "data": "09/06/2026",
+          "data": "12/06/2026",
           "codcli": "91081",
           "cliente": "O ECONOMICO DA GAVEA LTDA",
           "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
@@ -87187,22 +87196,13 @@ const VENDAS_DATA = {
           "valor": 179.4
         },
         {
-          "data": "09/06/2026",
+          "data": "12/06/2026",
           "codcli": "91081",
           "cliente": "O ECONOMICO DA GAVEA LTDA",
-          "produto": "VILLA ROSA COLHEITA TINTO 375ML",
+          "produto": "VILLA ROSA TINTO 750ML",
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 179.4
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91081",
-          "cliente": "O ECONOMICO DA GAVEA LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7
         },
         {
           "data": "09/06/2026",
