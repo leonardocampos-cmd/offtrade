@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "12/06/2026 14:02",
+  "atualizado_em": "12/06/2026 15:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -71795,33 +71795,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 60,
           "valor": 817.2
-        },
-        {
-          "data": "04/06/2026",
-          "codcli": "50356",
-          "cliente": "FABIO J DOS SANTOS TIRIBA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "",
-          "qt": 36,
-          "valor": 3560.4
-        },
-        {
-          "data": "04/06/2026",
-          "codcli": "50356",
-          "cliente": "FABIO J DOS SANTOS TIRIBA",
-          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
-          "fantasia": "",
-          "qt": 22,
-          "valor": 2175.8
-        },
-        {
-          "data": "04/06/2026",
-          "codcli": "50356",
-          "cliente": "FABIO J DOS SANTOS TIRIBA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L",
-          "fantasia": "",
-          "qt": 23,
-          "valor": 2274.7
         },
         {
           "data": "04/06/2026",
