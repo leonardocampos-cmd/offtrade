@@ -1,13 +1,13 @@
 const AMARULA_DATA = {
-  "atualizado_em": "12/06/2026 15:01",
+  "atualizado_em": "12/06/2026 16:01",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 33,
-  "total_positivacao": 112,
-  "total_faturamento": 52342.3,
+  "total_positivacao": 113,
+  "total_faturamento": 52787.8,
   "ranking_positivacao": [
     {
       "vendedor": "JORGE MACIEL",
@@ -15,7 +15,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "MARILENA TRAGEL",
-      "valor": 24
+      "valor": 25
     },
     {
       "vendedor": "LAIS POPPE VILLANOVA",
@@ -157,19 +157,19 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "MARILENA TRAGEL",
-      "valor": 3973.3
+      "valor": 4063.2
     },
     {
       "vendedor": "LEANDRO SOUZA",
       "valor": 2184.64
     },
     {
-      "vendedor": "LAIS POPPE VILLANOVA",
-      "valor": 1554.3
+      "vendedor": "MICHELE ALCANTARA",
+      "valor": 1807.9
     },
     {
-      "vendedor": "MICHELE ALCANTARA",
-      "valor": 1452.3
+      "vendedor": "LAIS POPPE VILLANOVA",
+      "valor": 1554.3
     },
     {
       "vendedor": "VINICIUS AMARAL",
