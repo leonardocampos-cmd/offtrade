@@ -1,17 +1,17 @@
 const AMARULA_DATA = {
-  "atualizado_em": "16/06/2026 14:09",
+  "atualizado_em": "16/06/2026 15:01",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 34,
-  "total_positivacao": 133,
-  "total_faturamento": 63379.3,
+  "total_positivacao": 134,
+  "total_faturamento": 63469.2,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL",
-      "valor": 34
+      "valor": 35
     },
     {
       "vendedor": "JORGE MACIEL",
@@ -161,7 +161,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "MARILENA TRAGEL",
-      "valor": 8018.8
+      "valor": 8108.7
     },
     {
       "vendedor": "LEANDRO SOUZA",
