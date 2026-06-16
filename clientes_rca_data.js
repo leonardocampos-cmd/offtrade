@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "16/06/2026 15:01",
-  "total": 4355,
+  "atualizado_em": "16/06/2026 16:43",
+  "total": 4358,
   "clientes": [
     {
       "codcli": "31683",
@@ -1552,8 +1552,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "49.740.689/0001-80",
       "estado": "RJ",
       "ramo": "BAR",
-      "codusur1": "159",
-      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -8964,6 +8964,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51099",
+      "razao": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "AYMORE I COMERCIO DE ALIMENTOS",
+      "bairro": "RESIDENCIAL AIMORÉ",
+      "cidade": "VARZEA PAULISTA",
+      "cnpj": "11.690.733/0001-11",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "71701",
       "razao": "AZIMUT BAR E RESTAURANTE LTDA",
       "fantasia": "AZ LOUNGE RIO",
@@ -14054,20 +14068,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "25.144.798/0001-76",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "32448",
-      "razao": "CISCO DISTRIBUIDORA DE ALIMENTOS LTDA",
-      "fantasia": "CISCO DISTRIBUIDORA",
-      "bairro": "VILA MANGALOT",
-      "cidade": "SAO PAULO",
-      "cnpj": "24.163.223/0001-38",
-      "estado": "SP",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "588",
       "nome_usur1": "W.S",
       "codusur2": "",
@@ -22570,6 +22570,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51096",
+      "razao": "FELIPE FREITAS GIGLIOTTI",
+      "fantasia": "DISK DO FE",
+      "bairro": "VILA ASSIS",
+      "cidade": "JAU",
+      "cnpj": "18.184.850/0001-52",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "41450",
@@ -31124,6 +31138,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "2006",
+      "razao": "LM M DE SAQUAREMA DISTRIBUIDORA DE LATICINIOS LTDA",
+      "fantasia": "LM M DE SAQUAREMA DISTRIBUIDORA",
+      "bairro": "SAQUAREMA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "74.038.613/0001-54",
+      "estado": "RJ",
+      "ramo": "MERCEARIA",
+      "codusur1": "153",
+      "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
+      "codusur2": "156",
+      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "2006",
@@ -54644,6 +54672,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51100",
+      "razao": "SUPERMERCADO GELAIN DE ITAPIRA LTDA",
+      "fantasia": "SUPERMERCADO GELAIN",
+      "bairro": "VILA PENHA DO RIO DO PEIXE",
+      "cidade": "ITAPIRA",
+      "cnpj": "05.727.945/0001-23",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "77477",
