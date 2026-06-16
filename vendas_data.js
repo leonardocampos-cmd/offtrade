@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/06/2026 14:08",
+  "atualizado_em": "16/06/2026 15:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -40549,6 +40549,24 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 1,
           "valor": 139.9
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "93447",
+          "cliente": "JP7 LANCHONETE LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 10,
+          "valor": 239.4
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "93447",
+          "cliente": "JP7 LANCHONETE LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 89.9
         },
         {
           "data": "09/06/2026",
@@ -88121,6 +88139,51 @@ const VENDAS_DATA = {
           "fantasia": "AGUA NA CAIXA",
           "qt": 1,
           "valor": 29.9
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "2710",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "produto": "VEJA PESADA ORIGINAL OFESPC 12X1L",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 311.76
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "2710",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "produto": "VEJA PESADA X14 PROMO 12X1L",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 311.76
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "2710",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "produto": "VEJA PESADA X14 PROMO 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 4,
+          "valor": 767.04
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "2710",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "produto": "VEJA PESADA ORIGINAL OFESPC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 4,
+          "valor": 671.04
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "2710",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 6,
+          "valor": 391.68
         },
         {
           "data": "05/06/2026",
@@ -145484,42 +145547,6 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 59.88
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "83909",
-          "cliente": "SUPERMERCADO TRADICAO RJ LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "83909",
-          "cliente": "SUPERMERCADO TRADICAO RJ LTDA",
-          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "83909",
-          "cliente": "SUPERMERCADO TRADICAO RJ LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 11,
-          "valor": 718.08
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "83909",
-          "cliente": "SUPERMERCADO TRADICAO RJ LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 5,
-          "valor": 326.4
         },
         {
           "data": "25/05/2026",
