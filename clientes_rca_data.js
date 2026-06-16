@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "16/06/2026 13:02",
-  "total": 4350,
+  "atualizado_em": "16/06/2026 14:10",
+  "total": 4351,
   "clientes": [
     {
       "codcli": "31683",
@@ -30357,15 +30357,15 @@ const CLIENTES_RCA_DATA = {
     },
     {
       "codcli": "33545",
-      "razao": "LATICINIOS MARCELO LTDA ME",
-      "fantasia": ".",
-      "bairro": "BOQUEIRÃO",
+      "razao": "LATICINIOS MARCELO LTDA",
+      "fantasia": "LATICINIOS MARCELO",
+      "bairro": "BOQUEIRAO",
       "cidade": "SANTOS",
       "cnpj": "56.501.695/0001-40",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "225",
-      "nome_usur1": "ERIC PESTANA",
+      "codusur1": "1",
+      "nome_usur1": "RQ",
       "codusur2": "426",
       "nome_usur2": "ADER ALONSO - OFF TRADE"
     },
@@ -51662,6 +51662,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51093",
+      "razao": "RV DISTRIBUIDORA DE BEBIDAS LTDA",
+      "fantasia": "RV DISTRIBUIDORA DE BEBIDAS",
+      "bairro": "JARDIM MIMAS",
+      "cidade": "EMBU",
+      "cnpj": "60.804.034/0001-60",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "84604",
