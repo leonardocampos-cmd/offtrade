@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/06/2026 16:41",
+  "atualizado_em": "16/06/2026 17:11",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -165437,6 +165437,33 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 288.0
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "50465",
+          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 2994.0
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "50465",
+          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
+          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 2994.0
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "50465",
+          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 2994.0
         },
         {
           "data": "15/06/2026",
