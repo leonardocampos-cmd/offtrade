@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "16/06/2026 12:01",
+  "atualizado_em": "16/06/2026 12:46",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -8693,7 +8693,7 @@ const METAS_DATA = {
         "Mai/26": {
           "fat_tt": {
             "meta": 100000.0,
-            "realizado": 54300.58
+            "realizado": 17978.98
           },
           "fat_castas": {
             "meta": 4000.0,
@@ -8755,7 +8755,7 @@ const METAS_DATA = {
         "Jun/26": {
           "fat_tt": {
             "meta": 150000.0,
-            "realizado": 152997.1
+            "realizado": 189318.7
           },
           "fat_castas": {
             "meta": 4000.0,
@@ -8821,7 +8821,7 @@ const METAS_DATA = {
           "CODCLI": "2978",
           "CLIENTE": "TORRE E CIA SUPERMERCADOS S/A",
           "BAIRROENT": "BARROS FILHO",
-          "DTULTCOMP": "15/06/2026",
+          "DTULTCOMP": "16/06/2026",
           "produtos": [
             {
               "FANTASIA": "CASA PERINI",
@@ -8895,18 +8895,18 @@ const METAS_DATA = {
         },
         {
           "mes": "May/26",
-          "fat": 54300.58,
+          "fat": 17978.98,
           "pos": 5
         },
         {
           "mes": "Jun/26",
-          "fat": 152997.1,
+          "fat": 189318.7,
           "pos": 2
         }
       ],
       "previsao": {
-        "fat_proj": 280494.68,
-        "fat_media_hist": 192789.69,
+        "fat_proj": 347084.28,
+        "fat_media_hist": 180682.49,
         "pos_proj": 3.7,
         "pos_media_hist": 23.0,
         "du_passados": 12,
@@ -22270,7 +22270,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
             },
             {
               "FANTASIA": "",
@@ -22278,7 +22278,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
             }
           ]
         },
@@ -22338,6 +22338,30 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VILLA ROSA COLHEITA TINTO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV. 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
+            },
+            {
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CHADY 750ML"
             },
             {
@@ -22346,23 +22370,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV. 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA COLHEITA TINTO 750ML"
+              "DESCRICAO": "VINHO CORSARINI MONTEPULCIANO 750ML"
             },
             {
               "FANTASIA": "",
@@ -22371,26 +22379,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO CORSARINI MONTEPULCIANO 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "91141",
-          "CLIENTE": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-          "BAIRROENT": "ABRANCHES",
-          "DTULTCOMP": "22/05/2026",
-          "produtos": [
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO VENTOZELO RESERVA 750ML"
             }
           ]
         },
@@ -22419,6 +22407,18 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91141",
+          "CLIENTE": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "BAIRROENT": "ABRANCHES",
+          "DTULTCOMP": "22/05/2026",
+          "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO TINTO VENTOZELO RESERVA 750ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "90901",
           "CLIENTE": "ADL RESTAURANTE LTDA",
           "BAIRROENT": "JUVEVE",
@@ -22426,11 +22426,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV. 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV. 750ML"
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
             }
           ]
         },
@@ -22462,11 +22462,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
             }
           ]
         },
@@ -22490,7 +22490,7 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             },
             {
               "FANTASIA": "",
@@ -22498,11 +22498,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "HUMB. CANALE O.V MALBEC 750ML"
+              "DESCRICAO": "HUMB. CANALE O.V PINOT NOIR 750ML"
             },
             {
               "FANTASIA": "",
@@ -22510,7 +22510,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "HUMB. CANALE O.V PINOT NOIR 750ML"
+              "DESCRICAO": "HUMB. CANALE O.V MALBEC 750ML"
             }
           ]
         },

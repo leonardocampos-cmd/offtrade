@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/06/2026 12:01",
+  "atualizado_em": "16/06/2026 12:46",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -119879,15 +119879,6 @@ const VENDAS_DATA = {
           "valor": 4374.0
         },
         {
-          "data": "15/05/2026",
-          "codcli": "2978",
-          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 1104,
-          "valor": 36321.6
-        },
-        {
           "data": "08/05/2026",
           "codcli": "60847",
           "cliente": "DOM ATACAREJO S.A.",
@@ -120059,6 +120050,15 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 2700,
           "valor": 88830.0
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "2978",
+          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 1104,
+          "valor": 36321.6
         },
         {
           "data": "10/06/2026",
