@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "16/06/2026 15:01",
+  "atualizado_em": "16/06/2026 16:42",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -35160,6 +35160,51 @@ const VENDAS_SP_DATA = {
           "valor": 6216.0
         },
         {
+          "data": "16/06/2026",
+          "codcli": "46804",
+          "cliente": "SS TABACARIA E ADEGA LTDA",
+          "produto": "JACK DANIELS BONDED TRIPLE MASH 700ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 959.4
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "46804",
+          "cliente": "SS TABACARIA E ADEGA LTDA",
+          "produto": "RUM MALIBU 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 514.8
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "46804",
+          "cliente": "SS TABACARIA E ADEGA LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "46804",
+          "cliente": "SS TABACARIA E ADEGA LTDA",
+          "produto": "WHISKY JACK DANIELS BONDED 700ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 959.4
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "46804",
+          "cliente": "SS TABACARIA E ADEGA LTDA",
+          "produto": "WHISKY JACK DANIELS BONDED RYE 700ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 959.4
+        },
+        {
           "data": "03/06/2026",
           "codcli": "47268",
           "cliente": "MATEUS COSTA DE OLIVEIRA",
@@ -35464,6 +35509,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 1199.94
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "31179",
+          "cliente": "COMERCIO DE BEBIDAS FORTALEZA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 300,
+          "valor": 8370.0
         },
         {
           "data": "02/06/2026",
@@ -43531,24 +43585,6 @@ const VENDAS_SP_DATA = {
           "valor": 319.8
         },
         {
-          "data": "10/06/2026",
-          "codcli": "50983",
-          "cliente": "CH CREATIVE HUB SERVICES LTDA",
-          "produto": "APERITIVO CAMPARI 998ML",
-          "fantasia": "",
-          "qt": 4,
-          "valor": 199.6
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "50983",
-          "cliente": "CH CREATIVE HUB SERVICES LTDA",
-          "produto": "APERITIVO APEROL 750 ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 128.7
-        },
-        {
           "data": "11/06/2026",
           "codcli": "50975",
           "cliente": "58.063.332 GABRIELA BONALDO MACIEL",
@@ -48585,6 +48621,78 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 718.8
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "51082",
+          "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "51082",
+          "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
+          "produto": "RUM MALIBU 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 514.8
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "51082",
+          "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.3
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "51082",
+          "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 24,
+          "valor": 492.96
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "51082",
+          "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "FANTE",
+          "qt": 24,
+          "valor": 492.96
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "51082",
+          "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "51082",
+          "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 670.8
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "51082",
+          "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 4032.0
         },
         {
           "data": "09/06/2026",
@@ -67561,33 +67669,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 4,
           "valor": 259.6
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "50388",
-          "cliente": "COMERCIAL SANTA ISABEL MAIS LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 423.36
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "50388",
-          "cliente": "COMERCIAL SANTA ISABEL MAIS LTDA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "",
-          "qt": 36,
-          "valor": 608.4
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "50388",
-          "cliente": "COMERCIAL SANTA ISABEL MAIS LTDA",
-          "produto": "CATUABA SELVAGEM 900ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 163.44
         },
         {
           "data": "02/06/2026",
