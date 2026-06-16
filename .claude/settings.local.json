@@ -5,7 +5,20 @@
       "PowerShell(git *)",
       "PowerShell(Get-Process *)",
       "PowerShell(Get-WmiObject *)",
-      "PowerShell(Stop-Process *)"
+      "PowerShell(Stop-Process *)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:8083\" -TimeoutSec 5 -UseBasicParsing; \"STATUS: $\\($r.StatusCode\\)\" } catch { \"ERRO: $_\" })",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:8083/instance/fetchInstances\" -Headers @{\"apikey\"=\"429683C4C977415CAAFCCE10F7D57E11\"} -UseBasicParsing -TimeoutSec 5; $r.Content | ConvertFrom-Json | ConvertTo-Json -Depth 3 } catch { \"ERRO: $_\" })",
+      "PowerShell($j = Get-Content \"G:\\\\Meu Drive\\\\offtrade\\\\pedidos_enviados.json\" | ConvertFrom-Json; \"Total de chaves registradas: $\\($j.Count\\)\"; $j | Select-Object -Last 10)",
+      "Bash(ssh *)",
+      "Bash(sshpass *)",
+      "Bash(python3 *)",
+      "Bash(python -c \"import paramiko; print\\('paramiko', paramiko.__version__\\)\")",
+      "Bash(python *)",
+      "Bash(ping -c 3 147.79.107.137)",
+      "Bash(curl -s --connect-timeout 8 http://147.79.107.137/)",
+      "Bash(curl -sv --connect-timeout 5 telnet://147.79.107.137:22)",
+      "Bash(c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\activate.bat *)",
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\Activate.ps1\")"
     ]
   }
 }

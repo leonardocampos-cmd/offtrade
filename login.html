@@ -156,7 +156,9 @@
       const vendedor = VENDEDORES_AUTH[rca];
       if (!vendedor) { showErro('RCA não encontrado.'); return; }
 
-      if (!vendedor.email || email !== vendedor.email.toLowerCase()) {
+      const emailsVendedor = [vendedor.email, vendedor.email2]
+        .filter(Boolean).map(e => e.toLowerCase());
+      if (!emailsVendedor.includes(email)) {
         showErro('E-mail não corresponde ao RCA informado.');
         return;
       }
@@ -190,7 +192,9 @@
       if (rca) {
         const vendedor = VENDEDORES_AUTH[rca];
         if (!vendedor) { showErro('RCA não encontrado.'); google.accounts.id.revoke(email, () => {}); return; }
-        if (email !== vendedor.email.toLowerCase()) {
+        const emailsVendedor = [vendedor.email, vendedor.email2]
+          .filter(Boolean).map(e => e.toLowerCase());
+        if (!emailsVendedor.includes(email)) {
           showErro('E-mail não corresponde ao RCA informado.');
           google.accounts.id.revoke(email, () => {});
           return;

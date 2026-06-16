@@ -11,7 +11,7 @@ from pathlib import Path
 from meta import engine, carregar_dados
 
 df = carregar_dados(
-    "SELECT CODUSUR, NOME, EMAIL FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'",
+    "SELECT CODUSUR, NOME, EMAIL, EMAIL2 FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'",
     engine,
     "vendedores_auth",
 )
@@ -22,11 +22,13 @@ for _, row in df.iterrows():
         codusur = str(int(row["CODUSUR"]))
     except (ValueError, TypeError):
         continue
-    email_raw = row.get("EMAIL")
-    email = "" if pd.isna(email_raw) else str(email_raw).strip().lower()
-    nome  = (row.get("NOME")  or "").strip()
+    email_raw  = row.get("EMAIL")
+    email2_raw = row.get("EMAIL2")
+    email  = "" if pd.isna(email_raw)  else str(email_raw).strip().lower()
+    email2 = "" if pd.isna(email2_raw) else str(email2_raw).strip().lower()
+    nome   = (row.get("NOME") or "").strip()
     if codusur and email:
-        auth[codusur] = {"nome": nome, "email": email}
+        auth[codusur] = {"nome": nome, "email": email, "email2": email2}
 
 now = datetime.now().strftime("%d/%m/%Y %H:%M")
 js  = f"// Gerado em {now}\nconst VENDEDORES_AUTH = {json.dumps(auth, ensure_ascii=False, indent=2)};\n"

@@ -14,11 +14,10 @@ NUMERO        = "5521974972433"                 # <- número destino (DDI+DDD, s
 REGISTRO_JSON = "pedidos_enviados.json"
 
 # Carrega pedidos já enviados
-if os.path.exists(REGISTRO_JSON):
+pedidos_enviados = set()
+if os.path.exists(REGISTRO_JSON) and os.path.getsize(REGISTRO_JSON) > 0:
     with open(REGISTRO_JSON, "r", encoding="utf-8") as f:
         pedidos_enviados = set(json.load(f))
-else:
-    pedidos_enviados = set()
 
 # Filtra apenas pedidos abaixo da tabela ainda não enviados
 df_abaixo = df[df['STATUS_CONFERENCIA'] == 'ABAIXO DA TABELA'].copy()
