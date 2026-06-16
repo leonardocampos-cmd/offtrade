@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/06/2026 15:00",
+  "atualizado_em": "16/06/2026 16:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -39183,6 +39183,42 @@ const VENDAS_DATA = {
           "valor": 63.78
         },
         {
+          "data": "16/06/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 5,
+          "valor": 99.5
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 65.84
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 76.16
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "fantasia": "MINALBA",
+          "qt": 5,
+          "valor": 104.5
+        },
+        {
           "data": "12/06/2026",
           "codcli": "82919",
           "cliente": "AUTO POSTO ML AYRTON SENNA LTDA.",
@@ -39703,6 +39739,33 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 20,
           "valor": 418.0
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "85686",
+          "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 378.8
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "85686",
+          "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 378.8
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "85686",
+          "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.4
         },
         {
           "data": "15/06/2026",
@@ -67228,6 +67291,33 @@ const VENDAS_DATA = {
           "valor": 85.92
         },
         {
+          "data": "16/06/2026",
+          "codcli": "91332",
+          "cliente": "BAR E RESTAURANTE FAMILIA MESQUITA LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "91332",
+          "cliente": "BAR E RESTAURANTE FAMILIA MESQUITA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 319.93
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "91332",
+          "cliente": "BAR E RESTAURANTE FAMILIA MESQUITA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 394.8
+        },
+        {
           "data": "08/06/2026",
           "codcli": "91617",
           "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
@@ -67840,6 +67930,15 @@ const VENDAS_DATA = {
           "valor": 178.7
         },
         {
+          "data": "16/06/2026",
+          "codcli": "91378",
+          "cliente": "PL MESQUITA BAR E RESTAURANTE LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 329.22
+        },
+        {
           "data": "09/06/2026",
           "codcli": "94431",
           "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
@@ -67937,6 +68036,42 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 12,
           "valor": 370.8
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "94985",
+          "cliente": "MERCADINHO RIO LISBOA LTDA",
+          "produto": "PINATI PROTEIN CUPS AMENDOIM 18X21G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 95.9
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "94985",
+          "cliente": "MERCADINHO RIO LISBOA LTDA",
+          "produto": "PINATI PROTEIN CUPS AVELA 18X21G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 95.9
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "94985",
+          "cliente": "MERCADINHO RIO LISBOA LTDA",
+          "produto": "PINATI PROTEIN CUPS COOKIES 18X21G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 95.9
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "94985",
+          "cliente": "MERCADINHO RIO LISBOA LTDA",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 71.2
         },
         {
           "data": "15/06/2026",
@@ -118181,6 +118316,33 @@ const VENDAS_DATA = {
           "valor": 196.56
         },
         {
+          "data": "16/06/2026",
+          "codcli": "89936",
+          "cliente": "POSTO DE GASOLINA SANTA BARBARA DO MEIER LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 4,
+          "valor": 127.97
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "89936",
+          "cliente": "POSTO DE GASOLINA SANTA BARBARA DO MEIER LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 4,
+          "valor": 148.03
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "89936",
+          "cliente": "POSTO DE GASOLINA SANTA BARBARA DO MEIER LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56
+        },
+        {
           "data": "10/06/2026",
           "codcli": "89940",
           "cliente": "AUTO POSTO TORONTO LTDA.",
@@ -147574,6 +147736,69 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 24,
           "valor": 280.8
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "84319",
+          "cliente": "MERCADO JAP SAO JOAO LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "84319",
+          "cliente": "MERCADO JAP SAO JOAO LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 119.76
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "84319",
+          "cliente": "MERCADO JAP SAO JOAO LTDA",
+          "produto": "NECTAR PESSEGO 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "84319",
+          "cliente": "MERCADO JAP SAO JOAO LTDA",
+          "produto": "NECTAR PESSEGO TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 34.3
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "84319",
+          "cliente": "MERCADO JAP SAO JOAO LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 34.3
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "84319",
+          "cliente": "MERCADO JAP SAO JOAO LTDA",
+          "produto": "REFRESCO DE UVA MINECRAFT 24X200ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 48.48
+        },
+        {
+          "data": "16/06/2026",
+          "codcli": "84319",
+          "cliente": "MERCADO JAP SAO JOAO LTDA",
+          "produto": "REFRESCO DE MORANGO MINECRAFT 24X200ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 48.48
         },
         {
           "data": "02/06/2026",
