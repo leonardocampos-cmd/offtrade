@@ -1,25 +1,25 @@
 const AMARULA_DATA = {
-  "atualizado_em": "15/06/2026 12:18",
+  "atualizado_em": "16/06/2026 09:03",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 34,
-  "total_positivacao": 121,
-  "total_faturamento": 61775.1,
+  "total_positivacao": 133,
+  "total_faturamento": 63379.3,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL",
-      "valor": 27
+      "valor": 34
     },
     {
       "vendedor": "JORGE MACIEL",
-      "valor": 27
+      "valor": 28
     },
     {
       "vendedor": "LAIS POPPE VILLANOVA",
-      "valor": 7
+      "valor": 9
     },
     {
       "vendedor": "DIOGO RAPOSO",
@@ -34,11 +34,11 @@ const AMARULA_DATA = {
       "valor": 5
     },
     {
-      "vendedor": "THIAGO NASCIMENTO",
+      "vendedor": "VINICIUS AMARAL",
       "valor": 3
     },
     {
-      "vendedor": "JOÃO VITOR BRAGA",
+      "vendedor": "THIAGO NASCIMENTO",
       "valor": 3
     },
     {
@@ -46,7 +46,19 @@ const AMARULA_DATA = {
       "valor": 3
     },
     {
+      "vendedor": "JOÃO VITOR BRAGA",
+      "valor": 3
+    },
+    {
+      "vendedor": "NATALI OLIVEIRA",
+      "valor": 2
+    },
+    {
       "vendedor": "AUGUSTO SILVA",
+      "valor": 2
+    },
+    {
+      "vendedor": "JOHNATTAN MATHEUS",
       "valor": 2
     },
     {
@@ -55,18 +67,6 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "JULIANA SALGADO",
-      "valor": 2
-    },
-    {
-      "vendedor": "JOHNATTAN MATHEUS",
-      "valor": 2
-    },
-    {
-      "vendedor": "VINICIUS AMARAL",
-      "valor": 2
-    },
-    {
-      "vendedor": "NATALI OLIVEIRA",
       "valor": 2
     },
     {
@@ -82,15 +82,15 @@ const AMARULA_DATA = {
       "valor": 2
     },
     {
+      "vendedor": "PEDRO RANGEL",
+      "valor": 2
+    },
+    {
       "vendedor": "ARLEN SOARES",
       "valor": 1
     },
     {
       "vendedor": "LUCAS MATIAS",
-      "valor": 1
-    },
-    {
-      "vendedor": "FELIPE OLIVEIRA",
       "valor": 1
     },
     {
@@ -106,11 +106,11 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "LUCIANO TOSCHI - OFF TRADE",
+      "vendedor": "FELIPE OLIVEIRA",
       "valor": 1
     },
     {
-      "vendedor": "PEDRO HENRIQUE DUARTE",
+      "vendedor": "LUCIANO TOSCHI - OFF TRADE",
       "valor": 1
     },
     {
@@ -118,7 +118,7 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "PEDRO RANGEL",
+      "vendedor": "PEDRO HENRIQUE DUARTE",
       "valor": 1
     },
     {
@@ -149,7 +149,7 @@ const AMARULA_DATA = {
   "ranking_faturamento": [
     {
       "vendedor": "JORGE MACIEL",
-      "valor": 12226.4
+      "valor": 12316.3
     },
     {
       "vendedor": "FERNANDO CESAR",
@@ -161,7 +161,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "MARILENA TRAGEL",
-      "valor": 7389.5
+      "valor": 8018.8
     },
     {
       "vendedor": "LEANDRO SOUZA",
@@ -173,7 +173,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "LAIS POPPE VILLANOVA",
-      "valor": 2634.2
+      "valor": 3161.6
     },
     {
       "vendedor": "MICHELE ALCANTARA",
@@ -181,7 +181,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "VINICIUS AMARAL",
-      "valor": 1227.8
+      "valor": 1407.6
     },
     {
       "vendedor": "VANESSA SOUSA",
@@ -232,6 +232,10 @@ const AMARULA_DATA = {
       "valor": 266.7
     },
     {
+      "vendedor": "PEDRO RANGEL",
+      "valor": 264.7
+    },
+    {
       "vendedor": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "valor": 193.52
     },
@@ -278,10 +282,6 @@ const AMARULA_DATA = {
     {
       "vendedor": "RAQUEL SANTOS",
       "valor": 88.9
-    },
-    {
-      "vendedor": "PEDRO RANGEL",
-      "valor": 86.9
     }
   ]
 };
