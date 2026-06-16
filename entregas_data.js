@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "16/06/2026 12:02",
+  "atualizado_em": "16/06/2026 12:47",
   "data_rota": "16.06",
   "vendedores": [
     {
@@ -1713,6 +1713,66 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "471000329",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entrega agendada para o dia 17/6",
+          "total": 2453.28,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 6,
+              "val": 391.68
+            },
+            {
+              "desc": "VEJA PESADA X14 PROMO 24X500ML",
+              "qt": 4,
+              "val": 767.04
+            },
+            {
+              "desc": "VEJA PESADA X14 PROMO 12X1L",
+              "qt": 2,
+              "val": 311.76
+            },
+            {
+              "desc": "VEJA PESADA ORIGINAL OFESPC 24X500ML",
+              "qt": 4,
+              "val": 671.04
+            },
+            {
+              "desc": "VEJA PESADA ORIGINAL OFESPC 12X1L",
+              "qt": 2,
+              "val": 311.76
+            }
+          ]
+        },
+        {
+          "numped": "471000330",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "LUIZ ALOISE 74035169749",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 386.7,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 3,
+              "val": 386.7
+            }
+          ]
+        },
         {
           "numped": "471000318",
           "numnota": "",
@@ -5070,11 +5130,6 @@ const ENTREGAS_DATA = {
           "total": 543.94,
           "itens": [
             {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
               "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
               "qt": 1,
               "val": 94.7
@@ -5088,6 +5143,11 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
               "qt": 2,
               "val": 259.84
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
             }
           ]
         },
@@ -6736,6 +6796,46 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [],
       "emitido_s_rota": [
+        {
+          "numped": "238000756",
+          "numnota": "6031.0",
+          "data": "16/06/2026",
+          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
+          "placa": "",
+          "rota": "",
+          "status_ped": "CANCELADA",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 0,
+              "val": 0.0
+            }
+          ]
+        },
+        {
+          "numped": "238000757",
+          "numnota": "6032.0",
+          "data": "16/06/2026",
+          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 36321.6,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 1104,
+              "val": 36321.6
+            }
+          ]
+        },
         {
           "numped": "238000751",
           "numnota": "401997.0",
@@ -9827,14 +9927,14 @@ const ENTREGAS_DATA = {
               "val": 179.76
             },
             {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 1,
-              "val": 64.8
-            },
-            {
               "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
               "qt": 1,
               "val": 99.9
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 64.8
             }
           ]
         },
@@ -20803,6 +20903,36 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "156003589",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 947.0,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 4,
+              "val": 378.8
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 4,
+              "val": 378.8
+            }
+          ]
+        },
+        {
           "numped": "156003587",
           "numnota": "",
           "data": "15/06/2026",
@@ -27044,26 +27174,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "155003684",
-          "numnota": "",
-          "data": "16/06/2026",
-          "cliente": "NATALIA DA SILVA DUARTE 10656196777",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 313.8,
-          "itens": [
-            {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 CREME BRULEE",
-              "qt": 2,
-              "val": 313.8
-            }
-          ]
-        },
-        {
           "numped": "155003682",
           "numnota": "",
           "data": "16/06/2026",
@@ -27076,21 +27186,6 @@ const ENTREGAS_DATA = {
           "obs": "",
           "total": 1199.0,
           "itens": [
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 12,
-              "val": 294.0
-            },
-            {
-              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-              "qt": 1,
-              "val": 99.9
-            },
-            {
-              "desc": "PIRASSUNUNGA 51 965 ML",
-              "qt": 12,
-              "val": 150.0
-            },
             {
               "desc": "GIN TANQUERAY  750 ML",
               "qt": 2,
@@ -27125,6 +27220,41 @@ const ENTREGAS_DATA = {
               "desc": "VODKA ABSOLUT TABASCO 750ML",
               "qt": 1,
               "val": 69.9
+            },
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 294.0
+            },
+            {
+              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+              "qt": 1,
+              "val": 99.9
+            },
+            {
+              "desc": "PIRASSUNUNGA 51 965 ML",
+              "qt": 12,
+              "val": 150.0
+            }
+          ]
+        },
+        {
+          "numped": "155003684",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "NATALIA DA SILVA DUARTE 10656196777",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 313.8,
+          "itens": [
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 CREME BRULEE",
+              "qt": 2,
+              "val": 313.8
             }
           ]
         },
