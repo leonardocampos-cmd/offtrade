@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "16/06/2026 09:10",
-  "total": 4339,
+  "atualizado_em": "16/06/2026 10:55",
+  "total": 4350,
   "clientes": [
     {
       "codcli": "31683",
@@ -1430,6 +1430,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "51087",
+      "razao": "48.174.147 EDMILSON CORREA NUNES JUNIOR",
+      "fantasia": "48.174.147 EDMILSON CORREA NUNES JUNIOR",
+      "bairro": "CENTRO",
+      "cidade": "JOSE BONIFACIO",
+      "cnpj": "48.174.147/0001-24",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "40927",
@@ -5870,6 +5884,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "49946",
+      "razao": "AIR GRU 3T LTDA",
+      "fantasia": "A SAIDEIRA GRU",
+      "bairro": "AEROPORTO",
+      "cidade": "GUARULHOS",
+      "cnpj": "64.250.760/0001-30",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "340",
+      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur2": "399",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
       "codcli": "71101",
       "razao": "AIR PARTS EQUIPAMENTOS PNEUMATICOS LTDA",
       "fantasia": "AIR PARTS EQUIPAMENTOS PNEUMATICOS LTDA",
@@ -10182,6 +10210,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "71742",
+      "razao": "BEACH PUB BEER LTDA",
+      "fantasia": "BEACH PUB BEER",
+      "bairro": "ITAUNA",
+      "cidade": "SAQUAREMA",
+      "cnpj": "48.883.586/0001-06",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
+    },
+    {
       "codcli": "23252",
       "razao": "BEALE BEBIDAS E ALIMENTOS LTDA",
       "fantasia": "BEALE",
@@ -13120,6 +13162,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "28910",
+      "razao": "CB MORUMBI 1 CAFETERIA LTDA",
+      "fantasia": "CB MORUMBI 1 CAFETERI",
+      "bairro": "JABAQUARA",
+      "cidade": "SAO PAULO",
+      "cnpj": "38.163.236/0002-00",
+      "estado": "SP",
+      "ramo": "CAFETERIA",
+      "codusur1": "340",
+      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur2": "399",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "95208",
@@ -22922,6 +22978,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "32194",
+      "razao": "FOME FOOD LANCHONETE LTDA",
+      "fantasia": "FOME FOOD LANCHONETE",
+      "bairro": "AEROPORTO",
+      "cidade": "GUARULHOS",
+      "cnpj": "29.048.059/0011-03",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "340",
+      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur2": "399",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
       "codcli": "50497",
       "razao": "FONSECA & FARIA DA FONSECA LTDA",
       "fantasia": "FONSECA & FARIA DA FONSECA",
@@ -26378,6 +26448,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "26175",
+      "razao": "INFINITY COMERCIO DE LANCHES LTDA",
+      "fantasia": "INFINITY COMERCIO DE LANCHES LTDA",
+      "bairro": "CASA VERDE",
+      "cidade": "SAO PAULO",
+      "cnpj": "17.985.563/0002-60",
+      "estado": "SP",
+      "ramo": "CAFETERIA",
+      "codusur1": "340",
+      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur2": "399",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "34466",
@@ -35480,6 +35564,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "51089",
+      "razao": "MERCADO CABRAL ACG LTDA",
+      "fantasia": "MERCADO CABRAL ACG",
+      "bairro": "VILA MARIA",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "11.207.292/0001-54",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "2261",
       "razao": "MERCADO CAIXA DAGUA EIRELI EPP",
       "fantasia": "",
@@ -35940,6 +36038,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "76970",
+      "razao": "MERCADO E MERCEARIA PADRAO LTDA",
+      "fantasia": "MERCADO PADRAO LOJAS MP",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "11.220.664/0001-82",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "419",
+      "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "95334",
@@ -50334,6 +50446,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "42711",
+      "razao": "RETAIL MAKERS SP LTDA",
+      "fantasia": "RETAIL MAKERS SP",
+      "bairro": "SANTO AMARO",
+      "cidade": "SAO PAULO",
+      "cnpj": "62.211.399/0001-07",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "340",
+      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur2": "399",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "23874",
+      "razao": "RETAIL SERVICES BRASIL ALIMENTACAO E BEBIDAS LTDA",
+      "fantasia": "GRU TO GO TERMINAL 2 LESTE",
+      "bairro": "AEROPORTO",
+      "cidade": "GUARULHOS",
+      "cnpj": "17.677.676/0014-31",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "340",
+      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur2": "399",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
       "codcli": "56716",
       "razao": "REUNIDOS COMERCIO DE ALIMENTOS LTDA",
       "fantasia": "REDE ECONOMIA - VENDA DAS PEDRAS",
@@ -54684,6 +54824,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "371",
       "nome_usur1": "CARLOS DE ALMEIDA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51088",
+      "razao": "SUPERMERCADO JARDIM PARAISO LTDA",
+      "fantasia": "SUPERMERCADO JARDIM PARAISO",
+      "bairro": "PARQUE DA FELICIDADE",
+      "cidade": "ITAPIRA",
+      "cnpj": "43.248.513/0001-29",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
