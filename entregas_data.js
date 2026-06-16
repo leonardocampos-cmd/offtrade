@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "16/06/2026 14:09",
+  "atualizado_em": "16/06/2026 15:01",
   "data_rota": "16.06",
   "vendedores": [
     {
@@ -1834,46 +1834,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "471000329",
-          "numnota": "",
-          "data": "16/06/2026",
-          "cliente": "MERCADINHO BAMBINA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entrega agendada para o dia 17/6",
-          "total": 2453.28,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 6,
-              "val": 391.68
-            },
-            {
-              "desc": "VEJA PESADA X14 PROMO 24X500ML",
-              "qt": 4,
-              "val": 767.04
-            },
-            {
-              "desc": "VEJA PESADA X14 PROMO 12X1L",
-              "qt": 2,
-              "val": 311.76
-            },
-            {
-              "desc": "VEJA PESADA ORIGINAL OFESPC 24X500ML",
-              "qt": 4,
-              "val": 671.04
-            },
-            {
-              "desc": "VEJA PESADA ORIGINAL OFESPC 12X1L",
-              "qt": 2,
-              "val": 311.76
-            }
-          ]
-        },
-        {
           "numped": "471000318",
           "numnota": "",
           "data": "11/06/2026",
@@ -1935,6 +1895,46 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "471000329",
+          "numnota": "403856.0",
+          "data": "16/06/2026",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entrega agendada para o dia 17/6",
+          "total": 2453.28,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 6,
+              "val": 391.68
+            },
+            {
+              "desc": "VEJA PESADA X14 PROMO 24X500ML",
+              "qt": 4,
+              "val": 767.04
+            },
+            {
+              "desc": "VEJA PESADA X14 PROMO 12X1L",
+              "qt": 2,
+              "val": 311.76
+            },
+            {
+              "desc": "VEJA PESADA ORIGINAL OFESPC 24X500ML",
+              "qt": 4,
+              "val": 671.04
+            },
+            {
+              "desc": "VEJA PESADA ORIGINAL OFESPC 12X1L",
+              "qt": 2,
+              "val": 311.76
+            }
+          ]
+        },
         {
           "numped": "471000320",
           "numnota": "402983.0",
@@ -7364,6 +7364,36 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "144001553",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 257.8,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 2,
+              "val": 131.8
+            },
+            {
+              "desc": "SMIRNOFF RED PET 1750 ML",
+              "qt": 3,
+              "val": 103.5
+            },
+            {
+              "desc": "GIN ROCKS 1000ML",
+              "qt": 1,
+              "val": 22.5
+            }
+          ]
+        },
+        {
           "numped": "144001547",
           "numnota": "",
           "data": "15/06/2026",
@@ -9587,26 +9617,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "417000344",
-          "numnota": "",
-          "data": "16/06/2026",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 547.2,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-              "qt": 8,
-              "val": 547.2
-            }
-          ]
-        },
-        {
           "numped": "417000342",
           "numnota": "",
           "data": "16/06/2026",
@@ -9619,6 +9629,16 @@ const ENTREGAS_DATA = {
           "obs": "",
           "total": 809.7,
           "itens": [
+            {
+              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            },
             {
               "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
               "qt": 1,
@@ -9643,16 +9663,6 @@ const ENTREGAS_DATA = {
               "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
               "qt": 1,
               "val": 175.2
-            },
-            {
-              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-              "qt": 1,
-              "val": 87.6
-            },
-            {
-              "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
-              "qt": 1,
-              "val": 87.6
             }
           ]
         },
@@ -9678,6 +9688,81 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
               "qt": 2,
               "val": 136.8
+            }
+          ]
+        },
+        {
+          "numped": "417000344",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 547.2,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+              "qt": 8,
+              "val": 547.2
+            }
+          ]
+        },
+        {
+          "numped": "417000336",
+          "numnota": "",
+          "data": "15/06/2026",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3228.84,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 5,
+              "val": 473.4
+            },
+            {
+              "desc": "MOVING BOOSTER LIMAO 24X310ML",
+              "qt": 2,
+              "val": 350.4
+            },
+            {
+              "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+              "qt": 2,
+              "val": 350.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 5,
+              "val": 473.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 2,
+              "val": 189.36
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 5,
+              "val": 473.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 6,
+              "val": 568.08
+            },
+            {
+              "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+              "qt": 2,
+              "val": 350.4
             }
           ]
         },
@@ -9848,61 +9933,6 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
               "qt": 1,
               "val": 94.68
-            }
-          ]
-        },
-        {
-          "numped": "417000336",
-          "numnota": "",
-          "data": "15/06/2026",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 3228.84,
-          "itens": [
-            {
-              "desc": "MOVING BOOSTER LIMAO 24X310ML",
-              "qt": 2,
-              "val": 350.4
-            },
-            {
-              "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-              "qt": 2,
-              "val": 350.4
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-              "qt": 5,
-              "val": 473.4
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "qt": 2,
-              "val": 189.36
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "qt": 5,
-              "val": 473.4
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 6,
-              "val": 568.08
-            },
-            {
-              "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-              "qt": 2,
-              "val": 350.4
-            },
-            {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 5,
-              "val": 473.4
             }
           ]
         }
@@ -10151,41 +10181,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "378000426",
-          "numnota": "",
-          "data": "16/06/2026",
-          "cliente": "GOLLAN'S LANCHES LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 410.32,
-          "itens": [
-            {
-              "desc": "4 PACK RED BULL SUGAR FREE",
-              "qt": 1,
-              "val": 29.96
-            },
-            {
-              "desc": "4 PACK RED BULL ZERO",
-              "qt": 1,
-              "val": 29.96
-            },
-            {
-              "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-              "qt": 1,
-              "val": 175.2
-            },
-            {
-              "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-              "qt": 1,
-              "val": 175.2
-            }
-          ]
-        },
-        {
           "numped": "378000427",
           "numnota": "",
           "data": "16/06/2026",
@@ -10227,6 +10222,41 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 1,
               "val": 65.28
+            }
+          ]
+        },
+        {
+          "numped": "378000426",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "GOLLAN'S LANCHES LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 410.32,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL SUGAR FREE",
+              "qt": 1,
+              "val": 29.96
+            },
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 1,
+              "val": 29.96
+            },
+            {
+              "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+              "qt": 1,
+              "val": 175.2
+            },
+            {
+              "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+              "qt": 1,
+              "val": 175.2
             }
           ]
         },
@@ -21138,31 +21168,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "156003587",
-          "numnota": "",
-          "data": "15/06/2026",
-          "cliente": "JP7 LANCHONETE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 329.3,
-          "itens": [
-            {
-              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
-              "qt": 10,
-              "val": 239.4
-            },
-            {
-              "desc": "AMARULA C LIQUEUR 750 ML",
-              "qt": 1,
-              "val": 89.9
-            }
-          ]
-        },
-        {
           "numped": "156003500",
           "numnota": "",
           "data": "02/06/2026",
@@ -21184,6 +21189,31 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "156003587",
+          "numnota": "403853.0",
+          "data": "15/06/2026",
+          "cliente": "JP7 LANCHONETE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 329.3,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML",
+              "qt": 1,
+              "val": 89.9
+            },
+            {
+              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
+              "qt": 10,
+              "val": 239.4
+            }
+          ]
+        },
         {
           "numped": "156003574",
           "numnota": "403037.0",
@@ -25444,6 +25474,16 @@ const ENTREGAS_DATA = {
           "total": 463.14,
           "itens": [
             {
+              "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
+              "qt": 12,
+              "val": 130.8
+            },
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 2,
+              "val": 59.8
+            },
+            {
               "desc": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
               "qt": 2,
               "val": 59.8
@@ -25455,16 +25495,6 @@ const ENTREGAS_DATA = {
             },
             {
               "desc": "VINHO CAVAS DE ORO MALBEC 750ML",
-              "qt": 2,
-              "val": 59.8
-            },
-            {
-              "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
-              "qt": 12,
-              "val": 130.8
-            },
-            {
-              "desc": "VILLA ROSA TINTO 750ML",
               "qt": 2,
               "val": 59.8
             }
@@ -25481,7 +25511,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "Data entrega: 18/06/26",
-          "total": 253.4,
+          "total": 290.4,
           "itens": [
             {
               "desc": "VINHO CAVAS DE ORO CABERNET FRANC 750ML",
@@ -25496,7 +25526,7 @@ const ENTREGAS_DATA = {
             {
               "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
               "qt": 2,
-              "val": 74.0
+              "val": 111.0
             }
           ]
         },
@@ -25541,7 +25571,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 126.7,
+          "total": 145.2,
           "itens": [
             {
               "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
@@ -25551,7 +25581,32 @@ const ENTREGAS_DATA = {
             {
               "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
               "qt": 1,
-              "val": 37.0
+              "val": 55.5
+            }
+          ]
+        },
+        {
+          "numped": "439000202",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 18/06/26",
+          "total": 306.22,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 10,
+              "val": 232.21
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 2,
+              "val": 74.02
             }
           ]
         },
@@ -27434,8 +27489,50 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "155003682",
+          "numped": "155003684",
           "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "NATALIA DA SILVA DUARTE 10656196777",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 313.8,
+          "itens": [
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 CREME BRULEE",
+              "qt": 2,
+              "val": 313.8
+            }
+          ]
+        },
+        {
+          "numped": "155003660",
+          "numnota": "",
+          "data": "11/06/2026",
+          "cliente": "24.009.526 DANIELA DE MELLO CARVALHO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 47.9,
+          "itens": [
+            {
+              "desc": "APERITIVO APEROL 750 ML",
+              "qt": 1,
+              "val": 47.9
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [
+        {
+          "numped": "155003682",
+          "numnota": "403852.0",
           "data": "16/06/2026",
           "cliente": "ESPACO HARMONIA SERVICOS DE BAR E RESTAURANTE LTDA",
           "placa": "",
@@ -27498,48 +27595,6 @@ const ENTREGAS_DATA = {
             }
           ]
         },
-        {
-          "numped": "155003684",
-          "numnota": "",
-          "data": "16/06/2026",
-          "cliente": "NATALIA DA SILVA DUARTE 10656196777",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 313.8,
-          "itens": [
-            {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 CREME BRULEE",
-              "qt": 2,
-              "val": 313.8
-            }
-          ]
-        },
-        {
-          "numped": "155003660",
-          "numnota": "",
-          "data": "11/06/2026",
-          "cliente": "24.009.526 DANIELA DE MELLO CARVALHO",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 47.9,
-          "itens": [
-            {
-              "desc": "APERITIVO APEROL 750 ML",
-              "qt": 1,
-              "val": 47.9
-            }
-          ]
-        }
-      ],
-      "emitido_s_rota": [
         {
           "numped": "155003681",
           "numnota": "403778.0",
