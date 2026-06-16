@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "16/06/2026 14:09",
+  "atualizado_em": "16/06/2026 15:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -33799,33 +33799,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "",
           "qt": 18,
           "valor": 1744.2
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "36581",
-          "cliente": "COMERCIO DE BEBIDAS CHAPADA D OESTE LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "",
-          "qt": 360,
-          "valor": 34740.0
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "36581",
-          "cliente": "COMERCIO DE BEBIDAS CHAPADA D OESTE LTDA",
-          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-          "fantasia": "",
-          "qt": 240,
-          "valor": 23160.0
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "36581",
-          "cliente": "COMERCIO DE BEBIDAS CHAPADA D OESTE LTDA",
-          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
-          "fantasia": "",
-          "qt": 120,
-          "valor": 11580.0
         },
         {
           "data": "03/06/2026",
