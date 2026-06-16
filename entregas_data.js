@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "16/06/2026 13:01",
+  "atualizado_em": "16/06/2026 14:09",
   "data_rota": "16.06",
   "vendedores": [
     {
@@ -224,6 +224,66 @@ const ENTREGAS_DATA = {
               "desc": "GUARAVITA NATURAL 24X290ML",
               "qt": 10,
               "val": 329.22
+            }
+          ]
+        },
+        {
+          "numped": "431001038",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "LC MESQUITA BAR E LANCHONETE",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2472.34,
+          "itens": [
+            {
+              "desc": "LICOR COINTREAU 700 ML",
+              "qt": 1,
+              "val": 97.9
+            },
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 10,
+              "val": 330.15
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 3,
+              "val": 419.97
+            },
+            {
+              "desc": "GIN BEEFEATER PINK 700ML",
+              "qt": 3,
+              "val": 254.7
+            },
+            {
+              "desc": "LIQUEUR C AMARULA ETHIOPIAN COFFEE",
+              "qt": 3,
+              "val": 332.7
+            },
+            {
+              "desc": "AMARULA VANILE SPICE 750ML",
+              "qt": 3,
+              "val": 282.0
+            },
+            {
+              "desc": "LIQUEUR AMARULA RASBERRY 750 ML",
+              "qt": 3,
+              "val": 332.7
+            },
+            {
+              "desc": "LICOR AMARULA VEGAN 750 ML",
+              "qt": 3,
+              "val": 278.7
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 2,
+              "val": 143.52
             }
           ]
         },
@@ -1714,6 +1774,66 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "471000330",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "LUIZ ALOISE 74035169749",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 386.7,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 3,
+              "val": 386.7
+            }
+          ]
+        },
+        {
+          "numped": "471000331",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "ACOUGUE SAO PAULO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 594.22,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
+              "qt": 1,
+              "val": 134.32
+            },
+            {
+              "desc": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+              "qt": 1,
+              "val": 178.8
+            },
+            {
+              "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+              "qt": 1,
+              "val": 38.9
+            },
+            {
+              "desc": "KIT VANISH LIQ PINK1,5L+WHITE 1,5L 50%",
+              "qt": 2,
+              "val": 171.0
+            },
+            {
+              "desc": "PINATI DB WHEY COOKIES AND CREAM 12X50G",
+              "qt": 1,
+              "val": 71.2
+            }
+          ]
+        },
+        {
           "numped": "471000329",
           "numnota": "",
           "data": "16/06/2026",
@@ -1750,26 +1870,6 @@ const ENTREGAS_DATA = {
               "desc": "VEJA PESADA ORIGINAL OFESPC 12X1L",
               "qt": 2,
               "val": 311.76
-            }
-          ]
-        },
-        {
-          "numped": "471000330",
-          "numnota": "",
-          "data": "16/06/2026",
-          "cliente": "LUIZ ALOISE 74035169749",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 386.7,
-          "itens": [
-            {
-              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-              "qt": 3,
-              "val": 386.7
             }
           ]
         },
@@ -5117,6 +5217,26 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "412001344",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "MERCADO MIX CERTO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 129.92,
+          "itens": [
+            {
+              "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+              "qt": 1,
+              "val": 129.92
+            }
+          ]
+        },
+        {
           "numped": "412001343",
           "numnota": "",
           "data": "16/06/2026",
@@ -5182,22 +5302,27 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "412001344",
+          "numped": "412001345",
           "numnota": "",
           "data": "16/06/2026",
-          "cliente": "MERCADO MIX CERTO LTDA",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 129.92,
+          "total": 145.97,
           "itens": [
             {
-              "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+              "desc": "NECTAR LARANJA 12X1000ML",
               "qt": 1,
-              "val": 129.92
+              "val": 72.98
+            },
+            {
+              "desc": "NECTAR PESSEGO 12X1000ML",
+              "qt": 1,
+              "val": 72.98
             }
           ]
         },
@@ -10025,6 +10150,86 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "378000426",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "GOLLAN'S LANCHES LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 410.32,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL SUGAR FREE",
+              "qt": 1,
+              "val": 29.96
+            },
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 1,
+              "val": 29.96
+            },
+            {
+              "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+              "qt": 1,
+              "val": 175.2
+            },
+            {
+              "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+              "qt": 1,
+              "val": 175.2
+            }
+          ]
+        },
+        {
+          "numped": "378000427",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "MERCEARIA PARAISO DE SANTA TERESA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 997.68,
+          "itens": [
+            {
+              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+              "qt": 1,
+              "val": 99.9
+            },
+            {
+              "desc": "PIRASSUNUNGA 51 965 ML",
+              "qt": 12,
+              "val": 154.8
+            },
+            {
+              "desc": "CACHACA SELETA 600ML",
+              "qt": 12,
+              "val": 354.0
+            },
+            {
+              "desc": "JURUBEBA DUNORTE VINHO COMPOSTO 900ML",
+              "qt": 12,
+              "val": 274.8
+            },
+            {
+              "desc": "PINATI SLIM WHEY BRIGADEIRO 16X35G",
+              "qt": 1,
+              "val": 48.9
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            }
+          ]
+        },
         {
           "numped": "378000416",
           "numnota": "",
@@ -20868,6 +21073,36 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "156003589",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 947.0,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 4,
+              "val": 378.8
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 4,
+              "val": 378.8
+            }
+          ]
+        },
+        {
           "numped": "156003588",
           "numnota": "",
           "data": "16/06/2026",
@@ -20899,36 +21134,6 @@ const ENTREGAS_DATA = {
               "desc": "GUARAVITON GINSENG 12X500ML",
               "qt": 2,
               "val": 76.16
-            }
-          ]
-        },
-        {
-          "numped": "156003589",
-          "numnota": "",
-          "data": "16/06/2026",
-          "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 947.0,
-          "itens": [
-            {
-              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "qt": 2,
-              "val": 189.4
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 4,
-              "val": 378.8
-            },
-            {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 4,
-              "val": 378.8
             }
           ]
         },
@@ -25239,16 +25444,6 @@ const ENTREGAS_DATA = {
           "total": 463.14,
           "itens": [
             {
-              "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
-              "qt": 12,
-              "val": 130.8
-            },
-            {
-              "desc": "VILLA ROSA TINTO 750ML",
-              "qt": 2,
-              "val": 59.8
-            },
-            {
               "desc": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
               "qt": 2,
               "val": 59.8
@@ -25262,6 +25457,46 @@ const ENTREGAS_DATA = {
               "desc": "VINHO CAVAS DE ORO MALBEC 750ML",
               "qt": 2,
               "val": 59.8
+            },
+            {
+              "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
+              "qt": 12,
+              "val": 130.8
+            },
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 2,
+              "val": 59.8
+            }
+          ]
+        },
+        {
+          "numped": "439000200",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 18/06/26",
+          "total": 253.4,
+          "itens": [
+            {
+              "desc": "VINHO CAVAS DE ORO CABERNET FRANC 750ML",
+              "qt": 3,
+              "val": 89.7
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+              "qt": 3,
+              "val": 89.7
+            },
+            {
+              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
+              "qt": 2,
+              "val": 74.0
             }
           ]
         },
@@ -25292,6 +25527,31 @@ const ENTREGAS_DATA = {
               "desc": "VINHO CAVAS DE ORO MALBEC 750ML",
               "qt": 1,
               "val": 29.9
+            }
+          ]
+        },
+        {
+          "numped": "439000201",
+          "numnota": "",
+          "data": "16/06/2026",
+          "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 126.7,
+          "itens": [
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+              "qt": 3,
+              "val": 89.7
+            },
+            {
+              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
+              "qt": 1,
+              "val": 37.0
             }
           ]
         },
@@ -27187,6 +27447,21 @@ const ENTREGAS_DATA = {
           "total": 1199.0,
           "itens": [
             {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 294.0
+            },
+            {
+              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+              "qt": 1,
+              "val": 99.9
+            },
+            {
+              "desc": "PIRASSUNUNGA 51 965 ML",
+              "qt": 12,
+              "val": 150.0
+            },
+            {
               "desc": "GIN TANQUERAY  750 ML",
               "qt": 2,
               "val": 185.8
@@ -27220,21 +27495,6 @@ const ENTREGAS_DATA = {
               "desc": "VODKA ABSOLUT TABASCO 750ML",
               "qt": 1,
               "val": 69.9
-            },
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 12,
-              "val": 294.0
-            },
-            {
-              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-              "qt": 1,
-              "val": 99.9
-            },
-            {
-              "desc": "PIRASSUNUNGA 51 965 ML",
-              "qt": 12,
-              "val": 150.0
             }
           ]
         },
