@@ -18,7 +18,25 @@
       "Bash(curl -s --connect-timeout 8 http://147.79.107.137/)",
       "Bash(curl -sv --connect-timeout 5 telnet://147.79.107.137:22)",
       "Bash(c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\activate.bat *)",
-      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\Activate.ps1\")"
+      "PowerShell(& \"c:\\\\PythonEnvs\\\\RoboWinthor\\\\.venv\\\\Scripts\\\\Activate.ps1\")",
+      "Bash(curl -s -m 10 -o /dev/null -w \"duckdns HTTP: %{http_code}\\\\n\" http://offtrade.duckdns.org)",
+      "Bash(curl -s -m 10 -o /dev/null -w \"ip:8501 HTTP: %{http_code}\\\\n\" http://147.79.107.137:8501)",
+      "Bash(curl -s -m 10 -o /dev/null -w \"ip:80 HTTP: %{http_code}\\\\n\" http://147.79.107.137)",
+      "Bash(curl -s -m 8 -o /dev/null -w \"google: %{http_code}\\\\n\" https://www.google.com)",
+      "Bash(curl -s -m 8 -o /dev/null -w \"anthropic: %{http_code}\\\\n\" https://www.anthropic.com)",
+      "Bash(command -v nslookup)",
+      "Bash(nslookup offtrade.duckdns.org)",
+      "Bash(curl -s \"https://dns.google/resolve?name=offtrade.duckdns.org&type=A\")",
+      "Bash(ping *)",
+      "Bash(git fetch *)",
+      "Bash(git push *)",
+      "Bash(git config *)",
+      "Bash(cmdkey /list)",
+      "PowerShell(cmdkey *)",
+      "Bash(env)",
+      "Read(//c/Users/LeonardoCampos/**)",
+      "Bash(gh auth *)",
+      "Bash(gh api *)"
     ]
   }
 }
