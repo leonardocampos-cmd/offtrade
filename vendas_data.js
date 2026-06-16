@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/06/2026 09:09",
+  "atualizado_em": "16/06/2026 10:54",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -67507,33 +67507,6 @@ const VENDAS_DATA = {
           "valor": 95.98
         },
         {
-          "data": "15/06/2026",
-          "codcli": "91491",
-          "cliente": "MERCADO ELLISCH E KELLER LTDA",
-          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 3,
-          "valor": 215.28
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91491",
-          "cliente": "MERCADO ELLISCH E KELLER LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 1,
-          "valor": 33.95
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91491",
-          "cliente": "MERCADO ELLISCH E KELLER LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 1,
-          "valor": 26.68
-        },
-        {
           "data": "12/06/2026",
           "codcli": "93414",
           "cliente": "34.726.322 GILMAR TEONIS FERREIRA",
@@ -79505,51 +79478,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 3,
           "valor": 36.0
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91623",
-          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 1,
-          "valor": 23.9
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91623",
-          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
-          "produto": "GIN ROCKS GREEN APPLE 1000ML",
-          "fantasia": "FANTE",
-          "qt": 1,
-          "valor": 23.9
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91623",
-          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
-          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 142.8
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91623",
-          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
-          "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 36.0
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91623",
-          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
-          "produto": "DETERGENTE LIQUIDO BARRA CLEAR 500 ML",
-          "fantasia": "SUPERDELLI",
-          "qt": 24,
-          "valor": 35.76
         },
         {
           "data": "10/06/2026",
@@ -118136,24 +118064,6 @@ const VENDAS_DATA = {
           "valor": 92.2
         },
         {
-          "data": "15/06/2026",
-          "codcli": "87069",
-          "cliente": "PALMARES DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
-          "produto": "COQ. PINK MOON FRISANTE ROSE VD 12X750ML",
-          "fantasia": "COMARY",
-          "qt": 1,
-          "valor": 179.9
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "87069",
-          "cliente": "PALMARES DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
-          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
-          "fantasia": "51",
-          "qt": 1,
-          "valor": 120.9
-        },
-        {
           "data": "12/06/2026",
           "codcli": "86454",
           "cliente": "COSTA VERDE GASTRONOMIA LTDA",
@@ -148564,114 +148474,6 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 2,
           "valor": 119.76
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "VANISH PO PINK REFIL 24X400G",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 399.5
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "VEJA CRISTAL SACHET 12X400ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 93.4
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "VEJA COZINHA SACHET LIMAO 12X400ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 105.2
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "VEJA COZINHA SACHET LARANJA 12X400ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 105.2
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "VEJA AG MARANHENSES COCO MELAO 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 92.2
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "VEJA PESADA ORIGINAL OFESPC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 186.8
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "VEJA VPS SERRAS BRASILEIRAS 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 91.3
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "VEJA VPS SERRAS BRASILEIRAS 12X1L",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 81.6
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "fantasia": "RECKITT",
-          "qt": 10,
-          "valor": 652.8
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 3,
-          "valor": 195.84
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 3,
-          "valor": 195.84
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 4,
-          "valor": 261.12
         },
         {
           "data": "10/06/2026",
