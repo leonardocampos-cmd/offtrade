@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "16/06/2026 13:01",
+  "atualizado_em": "16/06/2026 14:09",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -41001,7 +41001,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "02/06/2026",
           "codcli": "33545",
-          "cliente": "LATICINIOS MARCELO LTDA ME",
+          "cliente": "LATICINIOS MARCELO LTDA",
           "produto": "WHISKY JAMESON 1L",
           "fantasia": "PERNOD",
           "qt": 24,
@@ -41678,7 +41678,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "30/01/2026",
           "codcli": "33545",
-          "cliente": "LATICINIOS MARCELO LTDA ME",
+          "cliente": "LATICINIOS MARCELO LTDA",
           "produto": "GIN BOMBAY SAPPHIRE 750ML",
           "fantasia": "",
           "qt": 12,
@@ -48984,7 +48984,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "26/03/2026",
           "codcli": "33545",
-          "cliente": "LATICINIOS MARCELO LTDA ME",
+          "cliente": "LATICINIOS MARCELO LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
           "fantasia": "PERNOD",
           "qt": 24,
