@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "16/06/2026 14:10",
-  "total": 4351,
+  "atualizado_em": "16/06/2026 15:01",
+  "total": 4355,
   "clientes": [
     {
       "codcli": "31683",
@@ -15300,8 +15300,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "06.268.253/0001-27",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "codusur1": "490",
+      "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -15612,6 +15612,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "50082",
+      "razao": "COMERCIO VAREJISTA DE ALIMENTOS TERUYA LTDA",
+      "fantasia": "MERCADO TERUYA",
+      "bairro": "JARDIM SAO PAULO",
+      "cidade": "SAO PAULO",
+      "cnpj": "13.597.041/0001-59",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "94063",
@@ -18130,6 +18144,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "OUTROS",
       "codusur1": "342",
       "nome_usur1": "RICARDO CLAUDIO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49378",
+      "razao": "DISTRIBUIDORA DE ALIMENTOS RAMOS DE PAULA LTDA",
+      "fantasia": "DISTRIBUIDORA ATACADISTA E VAREJISTA BEER HOUSE",
+      "bairro": "CENTRO",
+      "cidade": "PEDREIRA",
+      "cnpj": "29.737.345/0001-04",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "490",
+      "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -21208,8 +21236,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "17.980.460/0001-26",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "codusur1": "490",
+      "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -32202,6 +32230,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "51094",
+      "razao": "M A COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "MOB SUPERMERCADO",
+      "bairro": "CENTRO",
+      "cidade": "SALESOPOLIS",
+      "cnpj": "41.100.097/0001-91",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50485",
@@ -50542,6 +50584,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "43095",
+      "razao": "RHN COMERCIAL LTDA",
+      "fantasia": "RHN COMERCIOS DE BEBIDAS",
+      "bairro": "VILA ARICANDUVA",
+      "cidade": "SAO PAULO",
+      "cnpj": "49.369.797/0001-98",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "225",
+      "nome_usur1": "ERIC PESTANA",
+      "codusur2": "478",
+      "nome_usur2": "MARIA PEREIRA - OFF TRADE"
     },
     {
       "codcli": "5436",
