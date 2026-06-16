@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "16/06/2026 09:09",
+  "atualizado_em": "16/06/2026 10:55",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -68450,15 +68450,6 @@ const VENDAS_SP_DATA = {
     },
     "ROBERTO DOS SANTOS -": {
       "Jun/26": [
-        {
-          "data": "09/06/2026",
-          "codcli": "46325",
-          "cliente": "SUPERMERCADO ALABARCE LTDA",
-          "produto": "DOM PERIGNON VINTAGE LUMINOUS  750 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 7500.0
-        },
         {
           "data": "09/06/2026",
           "codcli": "46325",
