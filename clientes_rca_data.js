@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "16/06/2026 16:43",
-  "total": 4358,
+  "atualizado_em": "16/06/2026 17:12",
+  "total": 4359,
   "clientes": [
     {
       "codcli": "31683",
@@ -28658,6 +28658,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "477",
       "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "85367",
+      "razao": "JOSE ROBERTO MELO PINHEIRO 09440339705",
+      "fantasia": "JOSE ROBERTO MELO PINHEIRO",
+      "bairro": "PRACA SECA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "37.002.929/0001-60",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
