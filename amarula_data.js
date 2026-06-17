@@ -1,13 +1,13 @@
 const AMARULA_DATA = {
-  "atualizado_em": "17/06/2026 17:01",
+  "atualizado_em": "17/06/2026 18:01",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 37,
-  "total_positivacao": 139,
-  "total_faturamento": 66385.12,
+  "total_positivacao": 140,
+  "total_faturamento": 66474.02,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
@@ -35,6 +35,10 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "VINICIUS AMARAL",
+      "valor": 4
+    },
+    {
+      "vendedor": "THIAGO NASCIMENTO",
       "valor": 3
     },
     {
@@ -42,15 +46,11 @@ const AMARULA_DATA = {
       "valor": 3
     },
     {
-      "vendedor": "FERNANDO CESAR",
-      "valor": 3
-    },
-    {
       "vendedor": "BARBARA CABRAL - OFF TRADE",
       "valor": 3
     },
     {
-      "vendedor": "THIAGO NASCIMENTO",
+      "vendedor": "FERNANDO CESAR",
       "valor": 3
     },
     {
@@ -193,7 +193,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "VINICIUS AMARAL",
-      "valor": 1407.6
+      "valor": 1496.5
     },
     {
       "vendedor": "ADEILSON GONÇALVEZ - OFF TRADE",
