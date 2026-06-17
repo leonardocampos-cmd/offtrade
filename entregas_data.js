@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "17/06/2026 11:11",
+  "atualizado_em": "17/06/2026 12:01",
   "data_rota": "17.06",
   "vendedores": [
     {
@@ -3228,26 +3228,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "153001224",
-          "numnota": "",
-          "data": "17/06/2026",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entregar no dia 18/06 com urgencia",
-          "total": 1958.4,
-          "itens": [
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 30,
-              "val": 1958.4
-            }
-          ]
-        },
-        {
           "numped": "153001225",
           "numnota": "",
           "data": "17/06/2026",
@@ -3264,6 +3244,26 @@ const ENTREGAS_DATA = {
               "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
               "qt": 60,
               "val": 702.0
+            }
+          ]
+        },
+        {
+          "numped": "153001224",
+          "numnota": "",
+          "data": "17/06/2026",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 18/06 com urgencia",
+          "total": 1958.4,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 30,
+              "val": 1958.4
             }
           ]
         },
@@ -7328,7 +7328,43 @@ const ENTREGAS_DATA = {
     {
       "nome": "DANIELLE MOURA",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "238000758",
+          "numnota": "",
+          "data": "17/06/2026",
+          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "bonificacao autorizada pela industria para degustacao",
+          "total": 7191.0,
+          "itens": [
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 24,
+              "val": 1917.6
+            },
+            {
+              "desc": "WHISKY JIM BEAM HONEY 1L",
+              "qt": 24,
+              "val": 1917.6
+            },
+            {
+              "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
+              "qt": 18,
+              "val": 1438.2
+            },
+            {
+              "desc": "WHISKY JIM BEAM APPLE 1L",
+              "qt": 24,
+              "val": 1917.6
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "238000756",
@@ -10087,6 +10123,36 @@ const ENTREGAS_DATA = {
               "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
               "qt": 60,
               "val": 654.0
+            }
+          ]
+        },
+        {
+          "numped": "417000358",
+          "numnota": "",
+          "data": "17/06/2026",
+          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 837.6,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 12,
+              "val": 394.8
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 6,
+              "val": 233.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI ICE DEMI-SEC 750ML",
+              "qt": 6,
+              "val": 209.4
             }
           ]
         },
@@ -15759,6 +15825,26 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM SOLIDO OLEO 24X170G",
               "qt": 1,
               "val": 187.11
+            }
+          ]
+        },
+        {
+          "numped": "379001116",
+          "numnota": "",
+          "data": "17/06/2026",
+          "cliente": "MN GAZZOLI MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 261.12,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 24X500ML",
+              "qt": 4,
+              "val": 261.12
             }
           ]
         },
@@ -27188,6 +27274,76 @@ const ENTREGAS_DATA = {
       "nome": "MATEUS",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "439000203",
+          "numnota": "",
+          "data": "17/06/2026",
+          "cliente": "53.530.578 RICIELLE DE OLIVEIRA SOUZA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 18/06/26",
+          "total": 307.8,
+          "itens": [
+            {
+              "desc": "VILLA ROSA BRANCO 750ML",
+              "qt": 2,
+              "val": 59.8
+            },
+            {
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 2,
+              "val": 59.8
+            },
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV.",
+              "qt": 1,
+              "val": 29.6
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+              "qt": 1,
+              "val": 29.9
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 3,
+              "val": 128.7
+            }
+          ]
+        },
+        {
+          "numped": "439000204",
+          "numnota": "",
+          "data": "17/06/2026",
+          "cliente": "53.530.578 RICIELLE DE OLIVEIRA SOUZA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 89.7,
+          "itens": [
+            {
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 1,
+              "val": 29.9
+            },
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV.",
+              "qt": 1,
+              "val": 29.9
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+              "qt": 1,
+              "val": 29.9
+            }
+          ]
+        },
         {
           "numped": "439000201",
           "numnota": "",
