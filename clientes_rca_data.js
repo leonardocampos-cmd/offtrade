@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/06/2026 09:25",
-  "total": 4360,
+  "atualizado_em": "17/06/2026 10:09",
+  "total": 4364,
   "clientes": [
     {
       "codcli": "31683",
@@ -4897,7 +4897,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "POA",
       "cnpj": "41.318.044/0001-41",
       "estado": "SP",
-      "ramo": "MERCADO",
+      "ramo": "ADEGA",
       "codusur1": "588",
       "nome_usur1": "W.S",
       "codusur2": "461",
@@ -27472,6 +27472,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51105",
+      "razao": "JAIME LARA CAMARGO FILHO MERCADO",
+      "fantasia": "MERCADO DO JAIMAO",
+      "bairro": "CENTRO",
+      "cidade": "ARANDU",
+      "cnpj": "10.488.000/0001-36",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "477",
+      "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "89991",
       "razao": "JAMILI DOS SANTOS MENEZES",
       "fantasia": "JAMILI DOS SANTOS MENEZES",
@@ -29626,6 +29640,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51103",
+      "razao": "KRISKAN DISTRIBUIDORA E TRANSPORTES LTDA",
+      "fantasia": "KRISKAN DISTRIBUIDORA E TRANSPORTES",
+      "bairro": "JARDIM ALVORADA",
+      "cidade": "JAU",
+      "cnpj": "31.750.491/0001-11",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "491",
+      "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "47159",
@@ -49704,6 +49732,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "51102",
+      "razao": "REDE FASS - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
+      "fantasia": "REDE FASS",
+      "bairro": "2ª ZONA INDUSTRIAL",
+      "cidade": "JAU",
+      "cnpj": "33.089.361/0001-05",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "491",
+      "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "593",
       "razao": "REDE HORA COMBUSTIVEIS LTDA",
       "fantasia": "",
@@ -54270,8 +54312,8 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "50380",
       "razao": "SUPERMERCADO ALEGRIA LTDA",
-      "fantasia": "SUPERMERCADO ALEGRIA LTDA",
-      "bairro": "CONJUNTO RESIDENCIAL NOVA BERTIOGA",
+      "fantasia": "SUPERMERCADO ALEGRIA",
+      "bairro": "TAIACUPEBA",
       "cidade": "MOGI DAS CRUZES",
       "cnpj": "04.762.070/0001-38",
       "estado": "SP",
@@ -54432,6 +54474,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "465",
       "nome_usur1": "CIARA PADULA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51104",
+      "razao": "SUPERMERCADO BRUMATTI LTDA",
+      "fantasia": "00SUPERMERCADO BRUMATTI",
+      "bairro": "CENTRO",
+      "cidade": "PONGAI",
+      "cnpj": "09.574.808/0001-57",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
