@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "16/06/2026 17:12",
-  "total": 4359,
+  "atualizado_em": "17/06/2026 09:25",
+  "total": 4360,
   "clientes": [
     {
       "codcli": "31683",
@@ -35506,6 +35506,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "17484",
+      "razao": "MERCADO ADONAI DE INHOAIBA LTDA",
+      "fantasia": "MERCADO ADONAI DE INHOAIBA LTDA",
+      "bairro": "INHOAIBA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "29.080.946/0001-97",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "412",
+      "nome_usur1": "BARBARA CABRAL - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "17484",
