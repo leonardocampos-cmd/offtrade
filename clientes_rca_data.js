@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/06/2026 11:12",
-  "total": 4367,
+  "atualizado_em": "17/06/2026 12:01",
+  "total": 4371,
   "clientes": [
     {
       "codcli": "31683",
@@ -27682,6 +27682,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
+      "codcli": "86264",
+      "razao": "JC LOJA DE CONVENIENCIA LTDA",
+      "fantasia": "JC ATACADOS",
+      "bairro": "TAQUARA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "42.912.682/0001-59",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "92019",
       "razao": "JCP NATURAIS COMERCIO LTDA",
       "fantasia": "JCP NATURAIS COMERCIO - CAMPO GRANDE",
@@ -32960,6 +32974,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51114",
+      "razao": "MAGUI SUPERMERCADOS LTDA",
+      "fantasia": "MAGUI SUPERMERCADOS",
+      "bairro": "SANTA CRUZ",
+      "cidade": "MOGI MIRIM",
+      "cnpj": "68.296.706/0001-86",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50346",
       "razao": "MAIA GARCIA COMERCIO LTDA",
       "fantasia": "SUPERMERCADO GALO",
@@ -35324,6 +35352,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "51113",
+      "razao": "MERCADINHO MOTTA LTDA",
+      "fantasia": "MERCADINHO MOTTA LTDA",
+      "bairro": "JARDIM NOVA DETROIT",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "03.673.899/0001-00",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50837",
@@ -57584,6 +57626,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "1",
       "nome_usur2": "RQ"
+    },
+    {
+      "codcli": "51115",
+      "razao": "TAJ SUPERMERCADO LTDA.",
+      "fantasia": "STOCK SUPERMERCADO",
+      "bairro": "JARDIM EUROPA",
+      "cidade": "MOGI MIRIM",
+      "cnpj": "08.883.587/0001-36",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "48420",
