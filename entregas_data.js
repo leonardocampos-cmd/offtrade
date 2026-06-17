@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "17/06/2026 10:08",
+  "atualizado_em": "17/06/2026 11:01",
   "data_rota": "17.06",
   "vendedores": [
     {
@@ -3244,6 +3244,26 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 30,
               "val": 1958.4
+            }
+          ]
+        },
+        {
+          "numped": "153001225",
+          "numnota": "",
+          "data": "17/06/2026",
+          "cliente": "MINIMERCADO JARDIM ROSARIO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 18/06 nao temos pagamento de descarga",
+          "total": 702.0,
+          "itens": [
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 60,
+              "val": 702.0
             }
           ]
         },
@@ -10908,6 +10928,11 @@ const ENTREGAS_DATA = {
               "val": 108.0
             },
             {
+              "desc": "PIRASSUNUNGA 51 965 ML",
+              "qt": 8,
+              "val": 108.0
+            },
+            {
               "desc": "4 PACK RED BULL",
               "qt": 1,
               "val": 29.96
@@ -10916,11 +10941,6 @@ const ENTREGAS_DATA = {
               "desc": "CANTINA DA SERRA 750ML",
               "qt": 6,
               "val": 37.2
-            },
-            {
-              "desc": "PIRASSUNUNGA 51 965 ML",
-              "qt": 8,
-              "val": 108.0
             }
           ]
         },
@@ -18266,6 +18286,26 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [],
       "emitido_s_rota": [
+        {
+          "numped": "450000333",
+          "numnota": "6075.0",
+          "data": "17/06/2026",
+          "cliente": "SUPERMERCADO ALVORADA EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "NUMERO DO PEDIDO:2599644",
+          "total": 720.6,
+          "itens": [
+            {
+              "desc": "PIRASSUNUNGA OURO 51 965ML",
+              "qt": 60,
+              "val": 720.6
+            }
+          ]
+        },
         {
           "numped": "450000329",
           "numnota": "6047.0",
