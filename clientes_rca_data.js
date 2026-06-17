@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/06/2026 10:09",
-  "total": 4364,
+  "atualizado_em": "17/06/2026 11:02",
+  "total": 4367,
   "clientes": [
     {
       "codcli": "31683",
@@ -4898,10 +4898,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "41.318.044/0001-41",
       "estado": "SP",
       "ramo": "ADEGA",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "461",
-      "nome_usur2": "SUELY SANTOS - OFF TRADE"
+      "codusur1": "329",
+      "nome_usur1": "RAPHAELA RIBAS",
+      "codusur2": "588",
+      "nome_usur2": "W.S"
     },
     {
       "codcli": "50804",
@@ -5509,11 +5509,11 @@ const CLIENTES_RCA_DATA = {
       "codcli": "50417",
       "razao": "ADILSON BASSETTO",
       "fantasia": "ADILSON BASSETTO",
-      "bairro": "CENTRO",
+      "bairro": "VL LAVRADORES",
       "cidade": "BOTUCATU",
       "cnpj": "56.108.335/0001-82",
       "estado": "SP",
-      "ramo": "MERCADO",
+      "ramo": "MINI-MERCADO",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
@@ -7952,6 +7952,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "POSTO DE GASOLINA",
       "codusur1": "156",
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51109",
+      "razao": "AUTO POSTO ALVORADA DE PONGAI LTDA",
+      "fantasia": "AUTO POSTO ALVORADA",
+      "bairro": "CENTRO",
+      "cidade": "PONGAI",
+      "cnpj": "74.314.923/0001-54",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -18228,6 +18242,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51110",
+      "razao": "DISTRIBUIDORA DE BEBIDAS CIDADE JARDIM LTDA",
+      "fantasia": "DISTRIBUIDORA CIDADE JARDIM",
+      "bairro": "BARRA FUNDA",
+      "cidade": "TIETE",
+      "cnpj": "15.189.166/0001-75",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "489",
+      "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -48190,6 +48218,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "155",
       "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
+    },
+    {
+      "codcli": "51111",
+      "razao": "PROSYSTEM INFORMATICA LTDA",
+      "fantasia": "PROSYSTEM INFORMATICA",
+      "bairro": "CENTRO",
+      "cidade": "POA",
+      "cnpj": "29.321.104/0001-80",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "30077",
