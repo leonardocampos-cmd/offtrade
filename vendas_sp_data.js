@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "17/06/2026 11:11",
+  "atualizado_em": "17/06/2026 12:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -74799,15 +74799,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 250.8
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "50578",
-          "cliente": "COMERCIAL DE ALIMENTOS ZANUTTO BORCEDA LTDA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 405.6
         },
         {
           "data": "03/06/2026",
