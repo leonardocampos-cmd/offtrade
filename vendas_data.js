@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "17/06/2026 10:08",
+  "atualizado_em": "17/06/2026 11:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -100991,13 +100991,13 @@ const VENDAS_DATA = {
           "valor": 1325.28
         },
         {
-          "data": "16/06/2026",
+          "data": "17/06/2026",
           "codcli": "58584",
           "cliente": "SUPERMERCADO ALVORADA EIRELI",
           "produto": "PIRASSUNUNGA OURO 51 965ML",
           "fantasia": "51",
-          "qt": 62,
-          "valor": 744.62
+          "qt": 60,
+          "valor": 720.6
         },
         {
           "data": "08/06/2026",
