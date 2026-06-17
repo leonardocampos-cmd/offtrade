@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "17/06/2026 17:00",
+  "atualizado_em": "17/06/2026 18:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -41230,6 +41230,15 @@ const VENDAS_DATA = {
           "valor": 35.76
         },
         {
+          "data": "17/06/2026",
+          "codcli": "73317",
+          "cliente": "MERCADINHO E HORTIFRUTI DO BIBI LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 60,
+          "valor": 1620.0
+        },
+        {
           "data": "01/06/2026",
           "codcli": "50853",
           "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
@@ -42344,6 +42353,87 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 12,
           "valor": 1798.8
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 269.7
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 449.7
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 294.0
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "LICOR BANANINHA CARIOCA 750ML",
+          "fantasia": "BANANINHA CARIOCA",
+          "qt": 3,
+          "valor": 179.7
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 524.7
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 349.8
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 239.8
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "GIN MARINA ROSE 750ML",
+          "fantasia": "HOB",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 874.5
         },
         {
           "data": "08/06/2026",
