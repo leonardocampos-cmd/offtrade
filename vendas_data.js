@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "18/06/2026 13:40",
+  "atualizado_em": "18/06/2026 14:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -167125,15 +167125,6 @@ const VENDAS_DATA = {
           "valor": 912.0
         },
         {
-          "data": "12/03/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 456.0
-        },
-        {
           "data": "10/03/2026",
           "codcli": "50465",
           "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
@@ -167141,6 +167132,15 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 48,
           "valor": 614.4
+        },
+        {
+          "data": "12/03/2026",
+          "codcli": "90710",
+          "cliente": "ALPHA GASTRONOMIA LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 456.0
         },
         {
           "data": "27/03/2026",
