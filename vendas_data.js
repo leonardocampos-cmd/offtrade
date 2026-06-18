@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "18/06/2026 16:01",
+  "atualizado_em": "18/06/2026 16:14",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -135144,24 +135144,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 32.5
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "90147",
-          "cliente": "59.454.147 KAUA LUCAS FERREIRA NEPOMUCENO",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 30,
-          "valor": 2877.0
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "90147",
-          "cliente": "59.454.147 KAUA LUCAS FERREIRA NEPOMUCENO",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 30,
-          "valor": 2877.0
         },
         {
           "data": "01/06/2026",
