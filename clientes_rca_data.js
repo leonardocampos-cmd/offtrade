@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "18/06/2026 14:15",
-  "total": 4291,
+  "atualizado_em": "18/06/2026 15:02",
+  "total": 4298,
   "clientes": [
     {
       "codcli": "31683",
@@ -1176,6 +1176,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PADARIA",
       "codusur1": "342",
       "nome_usur1": "RICARDO CLAUDIO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "91171",
+      "razao": "43.970.924 ANDRE MEIRELES DA COSTA SILVA",
+      "fantasia": "ANDRE MEIRELES DA COSTA SILVA",
+      "bairro": "CAMPO DOS AFONSOS",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "43.970.924/0001-23",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -4730,10 +4744,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "41.318.044/0001-41",
       "estado": "SP",
       "ramo": "ADEGA",
-      "codusur1": "329",
-      "nome_usur1": "RAPHAELA RIBAS",
-      "codusur2": "588",
-      "nome_usur2": "W.S"
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50804",
@@ -9574,6 +9588,20 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "04.075.979/0001-18",
       "estado": "RJ",
       "ramo": "BAR",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "78873",
+      "razao": "BAR E RESTAURANTE SOUSA SOUTO LTDA",
+      "fantasia": "BAR E RESTAURANTE SOUSA SOUTO",
+      "bairro": "GAVEA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "02.307.689/0001-27",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
       "codusur1": "471",
       "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
       "codusur2": "",
@@ -27064,6 +27092,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
+    },
+    {
+      "codcli": "86264",
+      "razao": "JC LOJA DE CONVENIENCIA LTDA",
+      "fantasia": "JC ATACADOS",
+      "bairro": "TAQUARA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "42.912.682/0001-59",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "51130",
@@ -48178,6 +48220,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
+      "codcli": "51153",
+      "razao": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+      "fantasia": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS",
+      "bairro": "VILA ZAT",
+      "cidade": "SAO PAULO",
+      "cnpj": "05.035.937/0005-40",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "48075",
       "razao": "R. RODRIGUES COMERCIO DE BEBIDAS",
       "fantasia": "COMERCIAL RODRIGUES",
@@ -51972,6 +52028,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "90048",
+      "razao": "SHEILA CRUZ DA SILVA 97153192034",
+      "fantasia": "SHEILA CRUZ DA SILVA",
+      "bairro": "CIDADE BEIRA MAR",
+      "cidade": "RIO DAS OSTRAS",
+      "cnpj": "24.007.240/0001-86",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "241",
+      "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
+    },
+    {
       "codcli": "82693",
       "razao": "SHEILA LUZIA DA SILVA 00450831779",
       "fantasia": "BAR DA SHEILA",
@@ -52348,6 +52418,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RICARDO CLAUDIO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "74220",
+      "razao": "SJ1 DISTRIBUIDORA DE BEBIDAS LTDA",
+      "fantasia": "SJ1 DISTRIBUIDORA DE BEBIDAS",
+      "bairro": "PACIENCIA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "49.230.919/0001-60",
+      "estado": "RJ",
+      "ramo": "TRANSPORTADOR",
+      "codusur1": "419",
+      "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "51131",
@@ -56994,6 +57078,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFETERIA",
       "codusur1": "144",
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95429",
+      "razao": "TF COMERCIO E DISTRIBUIDORA LTDA",
+      "fantasia": "ARP SELLER",
+      "bairro": "JARDIM TROPICAL",
+      "cidade": "NOVA IGUACU",
+      "cnpj": "60.857.933/0001-21",
+      "estado": "RJ",
+      "ramo": "LOJA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
