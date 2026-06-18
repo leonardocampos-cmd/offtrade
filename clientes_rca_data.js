@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "18/06/2026 12:17",
-  "total": 4288,
+  "atualizado_em": "18/06/2026 13:34",
+  "total": 4289,
   "clientes": [
     {
       "codcli": "31683",
@@ -43122,6 +43122,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "95427",
+      "razao": "PADARIA E MERCADINHO RENASCER DA SERRA ALTA LTDA",
+      "fantasia": "PADARIA E MERCADINHO RENASCER",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "44.136.354/0001-33",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "1049",
