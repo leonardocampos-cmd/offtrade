@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "18/06/2026 11:15",
-  "total": 4283,
+  "atualizado_em": "18/06/2026 12:01",
+  "total": 4288,
   "clientes": [
     {
       "codcli": "31683",
@@ -7116,6 +7116,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "38506",
+      "razao": "ARBORETO SUPERMERCADO LTDA",
+      "fantasia": "ARBORETO SUPERMERCADO",
+      "bairro": "MORADA DAS FLORES (ALDEIA DA SERRA)",
+      "cidade": "SANTANA DE PARNAIBA",
+      "cnpj": "15.497.665/0001-20",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "78327",
       "razao": "ARCANJO EXPRESS CONVENIENCIA LTDA",
       "fantasia": "ARCANJO EXPRESS - SENADOR VASCONCELOS",
@@ -11860,6 +11874,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
+    },
+    {
+      "codcli": "95426",
+      "razao": "CAFFE LORENZON LTDA",
+      "fantasia": "CAFFE LORENZON",
+      "bairro": "PRAIA DA COSTA",
+      "cidade": "VILA VELHA",
+      "cnpj": "21.149.569/0001-93",
+      "estado": "ES",
+      "ramo": "PADARIA",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "48339",
@@ -19754,8 +19782,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "SERVIÇOS",
       "codusur1": "486",
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "317",
+      "nome_usur2": "ROBSON DA SILVA - OFF TRADE"
     },
     {
       "codcli": "76068",
@@ -21144,6 +21172,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "38918",
+      "razao": "ESTR COMERCIO E PARTICIPACOES LTDA.",
+      "fantasia": "EMPORIO SANTA THEREZINHA - RIBEIRAO",
+      "bairro": "VILA DO GOLF",
+      "cidade": "RIBEIRAO PRETO",
+      "cnpj": "20.160.565/0001-43",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "469",
+      "nome_usur1": "PATRICIA RAMOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "40844",
       "razao": "ESTRADA DA CACHAMORRA OLEOS LUBRIFICANTES LTDA",
       "fantasia": "ESTRADA DA CACHAMORRA OLEOS LUBRIFICANTE",
@@ -21212,6 +21254,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "38919",
+      "razao": "ESTS COMERCIO E PARTICIPACOES LTDA",
+      "fantasia": "EMPORIO SANTA THEREZINHA SOROCABA",
+      "bairro": "PARQUE BELA VISTA",
+      "cidade": "VOTORANTIM",
+      "cnpj": "51.990.842/0001-79",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "469",
+      "nome_usur1": "PATRICIA RAMOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "9107",
@@ -30996,6 +31052,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "336",
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51147",
+      "razao": "LUCAS HENRIQUE PIRES",
+      "fantasia": "LUCAS HENRIQUE PIRES",
+      "bairro": "VILA SANTA LIBÂNIA",
+      "cidade": "BRAGANCA PAULISTA",
+      "cnpj": "35.348.650/0001-07",
+      "estado": "SP",
+      "ramo": "TABACARIA",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
