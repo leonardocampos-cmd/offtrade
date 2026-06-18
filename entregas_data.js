@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "18/06/2026 10:15",
+  "atualizado_em": "18/06/2026 11:01",
   "data_rota": "18.06",
   "vendedores": [
     {
@@ -122,6 +122,76 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "431001044",
+          "numnota": "",
+          "data": "18/06/2026",
+          "cliente": "55.064.852 MABEL FERNANDA DE OLIVEIRA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 514.26,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 70.76
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "qt": 1,
+              "val": 299.98
+            }
+          ]
+        },
+        {
+          "numped": "431001045",
+          "numnota": "",
+          "data": "18/06/2026",
+          "cliente": "MERCADINHO SALIM LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 275.16,
+          "itens": [
+            {
+              "desc": "NECTAR MANGA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            }
+          ]
+        },
         {
           "numped": "431001043",
           "numnota": "",
@@ -1918,6 +1988,51 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "471000339",
+          "numnota": "",
+          "data": "18/06/2026",
+          "cliente": "MERCADINHO PERNAMBUCO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1325.1,
+          "itens": [
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 24,
+              "val": 300.0
+            },
+            {
+              "desc": "GIN ROCKS 1000ML",
+              "qt": 6,
+              "val": 135.0
+            },
+            {
+              "desc": "KIT VANISH LIQ PINK1,5L+WHITE 1,5L 50%",
+              "qt": 1,
+              "val": 85.5
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 2,
+              "val": 399.0
+            },
+            {
+              "desc": "GIN ROCKS GREEN APPLE 1000ML",
+              "qt": 6,
+              "val": 130.8
+            },
+            {
+              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "qt": 1,
+              "val": 274.8
+            }
+          ]
+        },
         {
           "numped": "471000336",
           "numnota": "",
@@ -11488,6 +11603,56 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "378000432",
+          "numnota": "",
+          "data": "18/06/2026",
+          "cliente": "E.F.DO VALE MERCEARIA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 270.0,
+          "itens": [
+            {
+              "desc": "PIRASSUNUNGA 51 965 ML",
+              "qt": 12,
+              "val": 162.0
+            },
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 8,
+              "val": 108.0
+            }
+          ]
+        },
+        {
+          "numped": "378000431",
+          "numnota": "",
+          "data": "18/06/2026",
+          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 326.66,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+              "qt": 1,
+              "val": 146.9
+            }
+          ]
+        },
+        {
           "numped": "378000429",
           "numnota": "",
           "data": "17/06/2026",
@@ -12421,6 +12586,51 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "159004888",
+          "numnota": "",
+          "data": "18/06/2026",
+          "cliente": "JDP COMERCIO E SERVICOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1725.6,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 3,
+              "val": 539.28
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 359.52
+            },
+            {
+              "desc": "RED BULL SF POMELO 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "RED BULL SF NECTARINA 24X250ML",
+              "qt": 2,
+              "val": 287.52
+            },
+            {
+              "desc": "RED BULL SF MAÇA 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            }
+          ]
+        },
         {
           "numped": "159004884",
           "numnota": "",
@@ -23666,6 +23876,56 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "156003592",
+          "numnota": "",
+          "data": "18/06/2026",
+          "cliente": "SNACK STORE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1226.9,
+          "itens": [
+            {
+              "desc": "PINATI SLIM WHEY BRIGADEIRO (4) 16X35G",
+              "qt": 1,
+              "val": 60.32
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML",
+              "qt": 1,
+              "val": 89.9
+            },
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 12,
+              "val": 718.8
+            },
+            {
+              "desc": "GIN ROCKS POCKET PET 12X200ML",
+              "qt": 1,
+              "val": 104.4
+            },
+            {
+              "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+              "qt": 2,
+              "val": 157.8
+            },
+            {
+              "desc": "PINATI SIMPLE WHEY CARAM SALG (4)16X35G",
+              "qt": 1,
+              "val": 47.84
+            },
+            {
+              "desc": "PINATI SIMPLE WHEY PISTACHE (4)16X35G",
+              "qt": 1,
+              "val": 47.84
+            }
+          ]
+        },
+        {
           "numped": "156003500",
           "numnota": "",
           "data": "02/06/2026",
@@ -30844,14 +31104,14 @@ const ENTREGAS_DATA = {
           "total": 529.5,
           "itens": [
             {
-              "desc": "LICOR BALLENA MORANGO 750 ML",
-              "qt": 3,
-              "val": 269.7
-            },
-            {
               "desc": "WHISKY JACK DANIELS APPLE 1L",
               "qt": 2,
               "val": 259.8
+            },
+            {
+              "desc": "LICOR BALLENA MORANGO 750 ML",
+              "qt": 3,
+              "val": 269.7
             }
           ]
         },
