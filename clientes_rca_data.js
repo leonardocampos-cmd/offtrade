@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "18/06/2026 15:16",
-  "total": 4299,
+  "atualizado_em": "18/06/2026 16:02",
+  "total": 4305,
   "clientes": [
     {
       "codcli": "31683",
@@ -13080,6 +13080,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDA DE OLIVEIRA - OFF TRADE"
     },
     {
+      "codcli": "49226",
+      "razao": "CENTRAL BEBIDAS E TABACARIA LTDA",
+      "fantasia": "CENTRAL BEBIDAS E TABACARIA",
+      "bairro": "PARQUE RESIDENCIAL SANTA EULALIA",
+      "cidade": "LIMEIRA",
+      "cnpj": "52.403.135/0002-82",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "49227",
       "razao": "CENTRAL BEBIDAS E TABACARIA LTDA",
       "fantasia": "CENTRAL BEBIDAS",
@@ -17064,8 +17078,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "54.723.099/0001-89",
       "estado": "RJ",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "codusur1": "171",
-      "nome_usur1": "FELIPE OLIVEIRA",
+      "codusur1": "95",
+      "nome_usur1": "VINICIUS AMARAL",
       "codusur2": "379",
       "nome_usur2": "JORGE MACIEL - OFF TRADE"
     },
@@ -43656,6 +43670,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
     },
     {
+      "codcli": "76347",
+      "razao": "PAKTOBI COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "PAKTOBI COMERCIO DE BEBIDAS",
+      "bairro": "VILA KENNEDY - BANGU",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "10.555.087/0001-17",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "412",
+      "nome_usur1": "BARBARA CABRAL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "92061",
+      "razao": "PALERMO PINHEIROS BAR E RESTAURANTE LTDA",
+      "fantasia": "PALERMO PINHEIROS BAR E RESTAURANTE",
+      "bairro": "PINHEIROS",
+      "cidade": "SAO PAULO",
+      "cnpj": "52.215.047/0001-76",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "299",
+      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
+      "codusur2": "375",
+      "nome_usur2": "BRIAN HODGE"
+    },
+    {
       "codcli": "94808",
       "razao": "PALESE LATICINIOS LTDA",
       "fantasia": "PALESE LATICINIOS",
@@ -48248,6 +48290,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51161",
+      "razao": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+      "fantasia": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS",
+      "bairro": "PARQUE SANTA RITA DE CÁSSIA",
+      "cidade": "COTIA",
+      "cnpj": "05.035.937/0010-07",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "48075",
       "razao": "R. RODRIGUES COMERCIO DE BEBIDAS",
       "fantasia": "COMERCIAL RODRIGUES",
@@ -51244,6 +51300,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "48277",
+      "razao": "SACOLAO PIO XI LTDA.",
+      "fantasia": "SACOLAO PIO XI",
+      "bairro": "ALTO DE PINHEIROS",
+      "cidade": "SAO PAULO",
+      "cnpj": "17.948.918/0001-60",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "391",
+      "nome_usur1": "ANDRE SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "81992",
       "razao": "SAIBEL & MONTIBELER - RESTAURANTE E SELF SERVICE LTDA",
       "fantasia": "VARANDA GRILL CHURRASCARIA SELF SERVICE",
@@ -51298,6 +51368,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "77585",
+      "razao": "SALES DE SOUZA E FRANCA BAR LTDA",
+      "fantasia": "SALES DE SOUZA E FRANCA BAR",
+      "bairro": "PRAIA CAMPISTA",
+      "cidade": "MACAE",
+      "cnpj": "55.152.238/0001-24",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "70261",
