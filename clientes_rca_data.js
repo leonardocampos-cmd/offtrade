@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "18/06/2026 16:15",
-  "total": 4305,
+  "atualizado_em": "18/06/2026 17:02",
+  "total": 4306,
   "clientes": [
     {
       "codcli": "31683",
@@ -22264,6 +22264,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ZEINALDO DE OLIVEIRA - OFF TRADE"
     },
     {
+      "codcli": "90880",
+      "razao": "FERNANDO DOS SANTOS LOCACOES DE ARTIGOS PARA FESTA",
+      "fantasia": "ARTIGOS PARA FESTA - QUISSAMA",
+      "bairro": "QUISSAMA",
+      "cidade": "PETROPOLIS",
+      "cnpj": "27.671.339/0001-76",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "153",
+      "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "38088",
       "razao": "FERNANDO HERMONT BLOWER PASSOS",
       "fantasia": "FERNANDO HERMONT BLOWER PASSOS",
@@ -29160,10 +29174,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "52.531.752/0001-82",
       "estado": "RJ",
       "ramo": "MERCADO",
-      "codusur1": "107",
-      "nome_usur1": "MARCUS VINICIUS",
-      "codusur2": "419",
-      "nome_usur2": "NÁTALI DE OLIVEIRA - OFF TRADE"
+      "codusur1": "419",
+      "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur2": "107",
+      "nome_usur2": "MARCUS VINICIUS"
     },
     {
       "codcli": "44022",
