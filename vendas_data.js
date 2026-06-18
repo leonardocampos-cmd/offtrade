@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "18/06/2026 09:20",
+  "atualizado_em": "18/06/2026 10:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -86218,15 +86218,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 2,
           "valor": 117.8
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "3816",
-          "cliente": "ORGANIZACOES FARINHA PURA LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 274.8
         },
         {
           "data": "12/05/2026",
