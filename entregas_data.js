@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "18/06/2026 16:01",
+  "atualizado_em": "18/06/2026 16:15",
   "data_rota": "18.06",
   "vendedores": [
     {
@@ -30486,21 +30486,21 @@ const ENTREGAS_DATA = {
           "cliente": "59.454.147 KAUA LUCAS FERREIRA NEPOMUCENO",
           "placa": "",
           "rota": "",
-          "status_ped": "",
+          "status_ped": "CANCELADA",
           "status_log": "",
           "motivo": "",
           "obs": "a partir das 9h",
-          "total": 5754.0,
+          "total": 0.0,
           "itens": [
             {
               "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-              "qt": 30,
-              "val": 2877.0
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
-              "qt": 30,
-              "val": 2877.0
+              "qt": 0,
+              "val": 0.0
             }
           ]
         },
