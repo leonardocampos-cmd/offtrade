@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "18/06/2026 14:03",
+  "atualizado_em": "18/06/2026 14:15",
   "total": 4291,
   "clientes": [
     {
@@ -17016,7 +17016,7 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "90444",
       "razao": "DEPOSITO DA LULU COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "DEPOSITO DA LULU COMERCIO DE BEBIDAS",
+      "fantasia": "DEPOSITO DA LULU",
       "bairro": "RIACHAO",
       "cidade": "NOVA IGUACU",
       "cnpj": "54.723.099/0001-89",
