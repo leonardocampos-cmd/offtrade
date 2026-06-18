@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "18/06/2026 16:14",
+  "atualizado_em": "18/06/2026 17:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -155912,15 +155912,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "28/05/2026",
-          "codcli": "74411",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "GIN LARIOS ORIGINAL 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 515.88
-        },
-        {
-          "data": "28/05/2026",
           "codcli": "79593",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "GIN LARIOS ORIGINAL 700ML",
@@ -157099,6 +157090,15 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 335.94
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "74411",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "GIN LARIOS ORIGINAL 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 515.88
         },
         {
           "data": "17/06/2026",
