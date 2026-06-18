@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "18/06/2026 13:41",
-  "total": 4289,
+  "atualizado_em": "18/06/2026 14:03",
+  "total": 4291,
   "clientes": [
     {
       "codcli": "31683",
@@ -182,6 +182,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CANTINA",
       "codusur1": "257",
       "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51151",
+      "razao": "20.944.796 RONALDO ANSELMO DE SOUZA JUNIOR",
+      "fantasia": "RONALDO ANSELMO DE SOUZA JUNIOR",
+      "bairro": "VILA FALCAO",
+      "cidade": "BAURU",
+      "cnpj": "20.944.796/0001-48",
+      "estado": "SP",
+      "ramo": "TABACARIA",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -2382,20 +2396,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SUELY SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "90444",
-      "razao": "54.723.0( LUCIANA DOS SANTOS",
-      "fantasia": "54.723.099 LUCIANA DOS SANTOS",
-      "bairro": "RIACHAO",
-      "cidade": "NOVA IGUACU",
-      "cnpj": "54.723.099/0001-89",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "codusur1": "171",
-      "nome_usur1": "FELIPE OLIVEIRA",
-      "codusur2": "379",
-      "nome_usur2": "JORGE MACIEL - OFF TRADE"
     },
     {
       "codcli": "43814",
@@ -17012,6 +17012,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "90444",
+      "razao": "DEPOSITO DA LULU COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "DEPOSITO DA LULU COMERCIO DE BEBIDAS",
+      "bairro": "RIACHAO",
+      "cidade": "NOVA IGUACU",
+      "cnpj": "54.723.099/0001-89",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "171",
+      "nome_usur1": "FELIPE OLIVEIRA",
+      "codusur2": "379",
+      "nome_usur2": "JORGE MACIEL - OFF TRADE"
     },
     {
       "codcli": "67706",
@@ -34794,6 +34808,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "JORGE MACIEL - OFF TRADE"
     },
     {
+      "codcli": "51150",
+      "razao": "MERCADINHO WJE LTDA",
+      "fantasia": "MERCADINHO VITAL LTDA",
+      "bairro": "JARDIM AEROPORTO III",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "56.933.795/0001-45",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "49830",
       "razao": "MERCADO ADAPT JARDIM ESPERANCA LTDA",
       "fantasia": "MERCADO ADAPT JARDIM ESPERANCA LTDA",
@@ -44308,22 +44336,22 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "29.615.313/0006-40",
       "estado": "ES",
       "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur1": "260",
+      "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "71238",
+      "codcli": "72445",
       "razao": "PATI GI SUPERMERCADOS LTDA",
-      "fantasia": "PATI GI SUPERMERCADOS",
-      "bairro": "PRAIA DO CANTO",
-      "cidade": "VITORIA",
-      "cnpj": "29.615.313/0005-60",
+      "fantasia": "MARKET EXPRESS",
+      "bairro": "PRAIA DA COSTA",
+      "cidade": "VILA VELHA",
+      "cnpj": "29.615.313/0001-36",
       "estado": "ES",
       "ramo": "MERCADO",
-      "codusur1": "260",
-      "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
