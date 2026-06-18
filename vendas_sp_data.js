@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "18/06/2026 12:16",
+  "atualizado_em": "18/06/2026 13:34",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -60578,15 +60578,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 60,
           "valor": 5910.0
-        },
-        {
-          "data": "16/06/2026",
-          "codcli": "49844",
-          "cliente": "NOVA CENTRAL COMERCIO DE ALIMENTOS LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 1198.8
         },
         {
           "data": "12/06/2026",
