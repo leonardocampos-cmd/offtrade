@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "18/06/2026 16:15",
+  "atualizado_em": "18/06/2026 17:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -33720,6 +33720,15 @@ const VENDAS_SP_DATA = {
           "valor": 1098.9
         },
         {
+          "data": "18/06/2026",
+          "codcli": "30336",
+          "cliente": "KALLANE ATACAREJO DE BEBIDAS LTDA",
+          "produto": "VODKA GREY GOOSE ORIGINAL 1,5 L",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 1601.4
+        },
+        {
           "data": "05/06/2026",
           "codcli": "32649",
           "cliente": "VILLARRICA EMPORIO COMERCIAL LTDA EPP",
@@ -33889,6 +33898,51 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 480,
           "valor": 11995.2
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "33550",
+          "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
+          "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 32,
+          "valor": 3196.8
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "33550",
+          "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
+          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
+          "fantasia": "BACARDI",
+          "qt": 90,
+          "valor": 8991.0
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "33550",
+          "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
+          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "fantasia": "PERNOD",
+          "qt": 240,
+          "valor": 12696.0
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "33550",
+          "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
+          "produto": "WHISKY JACK DANIELS 375 ML - DEST",
+          "fantasia": "BROWN",
+          "qt": 48,
+          "valor": 2155.2
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "33550",
+          "cliente": "ADEGA E DISTRIBUIDORA DO MARLEY LTDA",
+          "produto": "WHISKY GENTLEMAN JACK 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1656.0
         },
         {
           "data": "12/06/2026",
@@ -34195,6 +34249,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 72,
           "valor": 3234.24
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "39457",
+          "cliente": "COMERCIAL DE BEBIDAS GRANDE MIX LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 660,
+          "valor": 16170.0
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "39457",
+          "cliente": "COMERCIAL DE BEBIDAS GRANDE MIX LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 1680,
+          "valor": 43512.0
         },
         {
           "data": "02/06/2026",
@@ -35602,6 +35674,15 @@ const VENDAS_SP_DATA = {
         },
         {
           "data": "09/06/2026",
+          "codcli": "48075",
+          "cliente": "R. RODRIGUES COMERCIO DE BEBIDAS",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 932.4
+        },
+        {
+          "data": "18/06/2026",
           "codcli": "48075",
           "cliente": "R. RODRIGUES COMERCIO DE BEBIDAS",
           "produto": "CONHAQUE DOMECQ 1L",
@@ -49134,6 +49215,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 12,
           "valor": 754.8
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "46352",
+          "cliente": "JSP COMERCIO DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
         },
         {
           "data": "02/06/2026",
@@ -62871,6 +62961,51 @@ const VENDAS_SP_DATA = {
           "valor": 299.8
         },
         {
+          "data": "18/06/2026",
+          "codcli": "34970",
+          "cliente": "ANDERSON SILVA NASCIMENTO",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "34970",
+          "cliente": "ANDERSON SILVA NASCIMENTO",
+          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "fantasia": "PERNOD",
+          "qt": 4,
+          "valor": 219.6
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "34970",
+          "cliente": "ANDERSON SILVA NASCIMENTO",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 5,
+          "valor": 354.5
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "34970",
+          "cliente": "ANDERSON SILVA NASCIMENTO",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 9,
+          "valor": 584.1
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "34970",
+          "cliente": "ANDERSON SILVA NASCIMENTO",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 660.48
+        },
+        {
           "data": "02/06/2026",
           "codcli": "50440",
           "cliente": "MAICON DEIVIS MACARI 34322487840",
@@ -71908,6 +72043,15 @@ const VENDAS_SP_DATA = {
           "valor": 310.8
         },
         {
+          "data": "18/06/2026",
+          "codcli": "50216",
+          "cliente": "JOAO GUILHERME SPERNEGA MARTINELLI MERCEARIA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
           "data": "02/06/2026",
           "codcli": "49990",
           "cliente": "ADEGA EBURNEO VIVAN PARDINHO LTDA",
@@ -72185,6 +72329,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1554.0
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "50459",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS CENTRO OESTE PAULISTA LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 60,
+          "valor": 1014.0
         },
         {
           "data": "11/06/2026",
@@ -76010,6 +76163,33 @@ const VENDAS_SP_DATA = {
           "fantasia": "DIAGEO",
           "qt": 12,
           "valor": 346.8
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "50233",
+          "cliente": "MAX CUPECE ORATORIO ESPETINHOS LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 24,
+          "valor": 693.6
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "50233",
+          "cliente": "MAX CUPECE ORATORIO ESPETINHOS LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1L",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 322.18
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "50233",
+          "cliente": "MAX CUPECE ORATORIO ESPETINHOS LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 670.8
         },
         {
           "data": "09/06/2026",
