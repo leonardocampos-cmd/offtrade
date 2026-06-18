@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "18/06/2026 14:02",
+  "atualizado_em": "18/06/2026 14:14",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -72879,7 +72879,7 @@ const VENDAS_DATA = {
         {
           "data": "15/05/2026",
           "codcli": "90444",
-          "cliente": "54.723.0( LUCIANA DOS SANTOS",
+          "cliente": "DEPOSITO DA LULU COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN INVICTUS MACA VERDE 900ML",
           "fantasia": "INVICTUS",
           "qt": 60,
@@ -72888,7 +72888,7 @@ const VENDAS_DATA = {
         {
           "data": "15/05/2026",
           "codcli": "90444",
-          "cliente": "54.723.0( LUCIANA DOS SANTOS",
+          "cliente": "DEPOSITO DA LULU COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN INVICTUS TRADICIONAL 900ML",
           "fantasia": "INVICTUS",
           "qt": 60,
@@ -72897,7 +72897,7 @@ const VENDAS_DATA = {
         {
           "data": "15/05/2026",
           "codcli": "90444",
-          "cliente": "54.723.0( LUCIANA DOS SANTOS",
+          "cliente": "DEPOSITO DA LULU COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN INVICTUS MELANCIA 900ML",
           "fantasia": "INVICTUS",
           "qt": 180,
@@ -72906,7 +72906,7 @@ const VENDAS_DATA = {
         {
           "data": "29/05/2026",
           "codcli": "90444",
-          "cliente": "54.723.0( LUCIANA DOS SANTOS",
+          "cliente": "DEPOSITO DA LULU COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN INVICTUS MELANCIA 900ML",
           "fantasia": "INVICTUS",
           "qt": 222,
@@ -72915,7 +72915,7 @@ const VENDAS_DATA = {
         {
           "data": "29/05/2026",
           "codcli": "90444",
-          "cliente": "54.723.0( LUCIANA DOS SANTOS",
+          "cliente": "DEPOSITO DA LULU COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN INVICTUS MACA VERDE 900ML",
           "fantasia": "INVICTUS",
           "qt": 120,
@@ -72924,7 +72924,7 @@ const VENDAS_DATA = {
         {
           "data": "29/05/2026",
           "codcli": "90444",
-          "cliente": "54.723.0( LUCIANA DOS SANTOS",
+          "cliente": "DEPOSITO DA LULU COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN INVICTUS TRADICIONAL 900ML",
           "fantasia": "INVICTUS",
           "qt": 60,
@@ -72933,7 +72933,7 @@ const VENDAS_DATA = {
         {
           "data": "29/05/2026",
           "codcli": "90444",
-          "cliente": "54.723.0( LUCIANA DOS SANTOS",
+          "cliente": "DEPOSITO DA LULU COMERCIO DE BEBIDAS LTDA",
           "produto": "GIN INVICTUS TROPICAL 900ML",
           "fantasia": "INVICTUS",
           "qt": 120,
@@ -72942,7 +72942,7 @@ const VENDAS_DATA = {
         {
           "data": "29/05/2026",
           "codcli": "90444",
-          "cliente": "54.723.0( LUCIANA DOS SANTOS",
+          "cliente": "DEPOSITO DA LULU COMERCIO DE BEBIDAS LTDA",
           "produto": "SABOR DO SABOR WHISKY + COMBO TRAD",
           "fantasia": "INVICTUS",
           "qt": 30,
@@ -72951,7 +72951,7 @@ const VENDAS_DATA = {
         {
           "data": "29/05/2026",
           "codcli": "90444",
-          "cliente": "54.723.0( LUCIANA DOS SANTOS",
+          "cliente": "DEPOSITO DA LULU COMERCIO DE BEBIDAS LTDA",
           "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
           "fantasia": "INVICTUS",
           "qt": 30,
@@ -72960,7 +72960,7 @@ const VENDAS_DATA = {
         {
           "data": "29/05/2026",
           "codcli": "90444",
-          "cliente": "54.723.0( LUCIANA DOS SANTOS",
+          "cliente": "DEPOSITO DA LULU COMERCIO DE BEBIDAS LTDA",
           "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
           "fantasia": "INTERFOOD",
           "qt": 1,
@@ -167125,15 +167125,6 @@ const VENDAS_DATA = {
           "valor": 912.0
         },
         {
-          "data": "10/03/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 48,
-          "valor": 614.4
-        },
-        {
           "data": "12/03/2026",
           "codcli": "90710",
           "cliente": "ALPHA GASTRONOMIA LTDA",
@@ -167141,6 +167132,15 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 24,
           "valor": 456.0
+        },
+        {
+          "data": "10/03/2026",
+          "codcli": "50465",
+          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 614.4
         },
         {
           "data": "27/03/2026",
