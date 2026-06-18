@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "18/06/2026 16:02",
+  "atualizado_em": "18/06/2026 16:15",
   "total": 4305,
   "clientes": [
     {
