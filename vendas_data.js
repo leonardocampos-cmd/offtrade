@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "18/06/2026 11:14",
+  "atualizado_em": "18/06/2026 12:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -156120,16 +156120,16 @@ const VENDAS_DATA = {
           "valor": 294.0
         },
         {
-          "data": "17/06/2026",
+          "data": "18/06/2026",
           "codcli": "60844",
           "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
+          "produto": "VINHO CHATEAU DAGASSAC TINTO 750ML",
+          "fantasia": "CASTAS",
           "qt": 12,
-          "valor": 392.4
+          "valor": 3660.0
         },
         {
-          "data": "17/06/2026",
+          "data": "18/06/2026",
           "codcli": "60844",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "GIN LARIOS ORIGINAL 700ML",
@@ -156138,43 +156138,7 @@ const VENDAS_DATA = {
           "valor": 515.88
         },
         {
-          "data": "17/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 588.6
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI PROSECCO 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 588.6
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "VINHO ADELE ROSE 750ML",
-          "fantasia": "CASTAS",
-          "qt": 18,
-          "valor": 848.11
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "VINHO CHATEAU DAGASSAC TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 3786.57
-        },
-        {
-          "data": "17/06/2026",
+          "data": "18/06/2026",
           "codcli": "60844",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
@@ -156183,7 +156147,7 @@ const VENDAS_DATA = {
           "valor": 588.6
         },
         {
-          "data": "17/06/2026",
+          "data": "18/06/2026",
           "codcli": "60844",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "ESPUM CASA PERINI BRUT 750ML",
@@ -156192,16 +156156,52 @@ const VENDAS_DATA = {
           "valor": 1373.4
         },
         {
-          "data": "17/06/2026",
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 392.4
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 588.6
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "ESPUM CASA PERINI PROSECCO 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 588.6
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 18,
+          "valor": 848.11
+        },
+        {
+          "data": "18/06/2026",
           "codcli": "60844",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M",
           "fantasia": "CASTAS",
           "qt": 18,
-          "valor": 1039.78
+          "valor": 1006.2
         },
         {
-          "data": "17/06/2026",
+          "data": "18/06/2026",
           "codcli": "60844",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
@@ -156318,34 +156318,34 @@ const VENDAS_DATA = {
           "valor": 1231.75
         },
         {
-          "data": "17/06/2026",
+          "data": "18/06/2026",
           "codcli": "74407",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "VINHO ADELE ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 18,
-          "valor": 848.11
+          "valor": 1009.8
         },
         {
-          "data": "17/06/2026",
+          "data": "18/06/2026",
           "codcli": "74407",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "VINHO CHATEAU DAGASSAC TINTO 750ML",
           "fantasia": "CASTAS",
           "qt": 12,
-          "valor": 3786.57
+          "valor": 3660.0
         },
         {
-          "data": "17/06/2026",
+          "data": "18/06/2026",
           "codcli": "74407",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M",
           "fantasia": "CASTAS",
           "qt": 18,
-          "valor": 1039.78
+          "valor": 1006.2
         },
         {
-          "data": "17/06/2026",
+          "data": "18/06/2026",
           "codcli": "74407",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
