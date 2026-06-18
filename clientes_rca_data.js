@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "18/06/2026 15:02",
-  "total": 4298,
+  "atualizado_em": "18/06/2026 15:16",
+  "total": 4299,
   "clientes": [
     {
       "codcli": "31683",
@@ -5082,6 +5082,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCEARIA",
       "codusur1": "477",
       "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51156",
+      "razao": "ADEGA LITORAGUA LTDA",
+      "fantasia": "ADEGA LITORAGUA",
+      "bairro": "JARDIM DOS PRADOS",
+      "cidade": "PERUIBE",
+      "cnpj": "03.489.989/0001-37",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
