@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "18/06/2026 12:01",
+  "atualizado_em": "18/06/2026 12:16",
   "data_rota": "18.06",
   "vendedores": [
     {
@@ -11674,6 +11674,36 @@ const ENTREGAS_DATA = {
               "desc": "CACHACA VELHO BARREIRO 910 ML",
               "qt": 8,
               "val": 108.0
+            }
+          ]
+        },
+        {
+          "numped": "378000433",
+          "numnota": "",
+          "data": "18/06/2026",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 284.1,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
             }
           ]
         },
@@ -24014,6 +24044,21 @@ const ENTREGAS_DATA = {
           "total": 577.44,
           "itens": [
             {
+              "desc": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
+              "qt": 2,
+              "val": 101.8
+            },
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV. DEDST",
+              "qt": 4,
+              "val": 122.4
+            },
+            {
+              "desc": "AGUA NA CAIXA 12X500ML",
+              "qt": 1,
+              "val": 31.9
+            },
+            {
               "desc": "VINHO FRISANTE BCO QUINTA MORGADO 750ML",
               "qt": 2,
               "val": 27.98
@@ -24037,21 +24082,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
               "qt": 2,
               "val": 27.98
-            },
-            {
-              "desc": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
-              "qt": 2,
-              "val": 101.8
-            },
-            {
-              "desc": "VINHO GRAVEDAD CAB. SAUV. DEDST",
-              "qt": 4,
-              "val": 122.4
-            },
-            {
-              "desc": "AGUA NA CAIXA 12X500ML",
-              "qt": 1,
-              "val": 31.9
             }
           ]
         },
