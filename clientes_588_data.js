@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "17/06/2026 12:02",
+  "atualizado_em": "18/06/2026 10:01",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -23,13 +23,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "05/05/2026",
               "PRODUTO": "JACK SINGLE BARREL C/ COPO 750ML - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 1379.4
             },
             {
               "DATA": "06/05/2026",
               "PRODUTO": "HENNESSY VERY SPECIAL 700 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1920.0
             },
             {
@@ -59,7 +59,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "07/05/2026",
               "PRODUTO": "CONHAQUE HENNESSY X.O. 700 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 5140.0
             },
             {
@@ -71,37 +71,37 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "12/05/2026",
               "PRODUTO": "VODKA NATASHA 900ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 1438.8
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "VODKA BELVEDERE B10 700 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 12741.6
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "CHAMP. VEUVE CLICQUOT BRUT 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 9327.0
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "MOET IMPERIAL RESERVE BRUT 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 8847.0
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "HENNESSY VERY SPECIAL 700 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 3840.0
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "HENNESSY VERY SPECIAL NBA LIMITED ED",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 3816.0
             },
             {
@@ -155,7 +155,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "14/05/2026",
               "PRODUTO": "RUM BACARDI CARTA BLANCA 980ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 5202.0
             },
             {
@@ -167,43 +167,43 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "15/05/2026",
               "PRODUTO": "JACK DANIELS BLACKBERRY 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 21588.0
             },
             {
               "DATA": "18/05/2026",
               "PRODUTO": "RUM BACARDI CARTA BLANCA 980ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 41616.0
             },
             {
               "DATA": "19/05/2026",
               "PRODUTO": "VODCA SMIRNOFF RED 998 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 91093.8
             },
             {
               "DATA": "20/05/2026",
               "PRODUTO": "RUM BACARDI CARTA BLANCA 980ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 22542.0
             },
             {
               "DATA": "20/05/2026",
               "PRODUTO": "VODCA SMIRNOFF RED 998 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 100174.2
             },
             {
               "DATA": "26/05/2026",
               "PRODUTO": "VODKA BELVEDERE SUMMER 700 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1656.0
             },
             {
               "DATA": "26/05/2026",
               "PRODUTO": "GIN BAM TANQUERAY RANGPUR  CX C/ 12X50ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 561.0
             },
             {
@@ -215,13 +215,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "27/05/2026",
               "PRODUTO": "GIN BAM TANQUERAY RANGPUR  CX C/ 12X50ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 2244.0
             },
             {
               "DATA": "30/05/2026",
               "PRODUTO": "APERITIVO LUCIA 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "LUCIA",
               "VALOR": 7656.0
             }
           ]
@@ -257,13 +257,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "07/05/2026",
               "PRODUTO": "WHISKY DEWARS 15 YO 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 1822.8
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "VODKA GREY GOOSE LA POIRE 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 1210.8
             },
             {
@@ -287,31 +287,31 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "07/05/2026",
               "PRODUTO": "MARTINI ROSATO 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 2030.4
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "MARTINI EXTRA DRY 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 717.6
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "TEQUILA PATRON SILVER",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 1188.0
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "TEQUILA DON JULIO BLANCO 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 3238.2
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "PERINI",
               "VALOR": 861.6
             },
             {
@@ -323,7 +323,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "12/05/2026",
               "PRODUTO": "RUM BACARDI GOLD 980ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 5976.0
             },
             {
@@ -425,13 +425,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "20/05/2026",
               "PRODUTO": "VERMUTE NOILLY PRAT FRENCH DRY 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 6588.0
             },
             {
               "DATA": "22/05/2026",
               "PRODUTO": "BOURBON WHISKY WOODFORD RESERVE - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 1714.8
             },
             {
@@ -455,7 +455,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "22/05/2026",
               "PRODUTO": "VODCA SMIRNOFF RED 998 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 58320.0
             },
             {
@@ -467,7 +467,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "22/05/2026",
               "PRODUTO": "VODKA GREY GOOSE LA POIRE 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 611.4
             },
             {
@@ -485,7 +485,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "22/05/2026",
               "PRODUTO": "VERMUTE NOILLY PRAT FRENCH DRY 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 1976.4
             },
             {
@@ -497,7 +497,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "22/05/2026",
               "PRODUTO": "WHISKY DEWARS 15 YO 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 900.0
             },
             {
@@ -509,19 +509,19 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "30/05/2026",
               "PRODUTO": "VERMUTE NOILLY PRAT FRENCH DRY 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 219.6
             },
             {
               "DATA": "30/05/2026",
               "PRODUTO": "APERITIVO LUCIA 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "LUCIA",
               "VALOR": 395.4
             },
             {
               "DATA": "30/05/2026",
               "PRODUTO": "RUM BACARDI 4 ANOS 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 634.8
             },
             {
@@ -546,7 +546,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "13/05/2026",
               "PRODUTO": "LICOR SAINT GERMAIN 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 839.3
             },
             {
@@ -696,13 +696,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "06/05/2026",
               "PRODUTO": "MARTINI BIANCO 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 3538.8
             },
             {
               "DATA": "06/05/2026",
               "PRODUTO": "RUM BACARDI GOLD 980ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 4065.6
             },
             {
@@ -720,7 +720,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "21/05/2026",
               "PRODUTO": "TEQUILA J CUERVO GOLD 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "AURORA",
               "VALOR": 10273.2
             },
             {
@@ -732,7 +732,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "28/05/2026",
               "PRODUTO": "TEQUILA J CUERVO SILVER 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "AURORA",
               "VALOR": 5034.0
             }
           ]
@@ -792,7 +792,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "27/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 47952.0
             }
           ]
@@ -805,43 +805,43 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "05/05/2026",
               "PRODUTO": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 3973.2
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "CHANDON BABY BRUT ROSE 187 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1829.52
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "MOET IMPERIAL RESERVE BRUT 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1652.46
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS 1L - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 35964.0
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS APPLE 1L - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 11988.0
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS FIRE 1000 ML DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 1198.8
             },
             {
               "DATA": "18/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 1198.8
             }
           ]
@@ -961,37 +961,37 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "14/05/2026",
               "PRODUTO": "GLENMORANGIE THE ORIGINAL 10 ANOS 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1098.0
             },
             {
               "DATA": "14/05/2026",
               "PRODUTO": "GLENMORANGIE QUINTA RUBAN 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1782.0
             },
             {
               "DATA": "23/05/2026",
               "PRODUTO": "GLENMORANGIE THE ORIGINAL 12 ANOS 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 3660.0
             },
             {
               "DATA": "23/05/2026",
               "PRODUTO": "GLENMORANGIE THE ORIGINAL 12 ANOS 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 7320.0
             },
             {
               "DATA": "23/05/2026",
               "PRODUTO": "TEQUILA DON JULIO REPOSADO 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 1396.92
             },
             {
               "DATA": "23/05/2026",
               "PRODUTO": "WHISKY BUCHANANS MASTER 12Y 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 1052.88
             },
             {
@@ -1003,7 +1003,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "23/05/2026",
               "PRODUTO": "TEQUILA DON JULIO ANEJO 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 1503.24
             }
           ]
@@ -1027,7 +1027,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "04/05/2026",
               "PRODUTO": "APERITIVO LUCIA 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "LUCIA",
               "VALOR": 73320.0
             }
           ]
@@ -1040,7 +1040,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "28/05/2026",
               "PRODUTO": "VERMUTE NOILLY PRAT FRENCH DRY 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 3991.73
             },
             {
@@ -1052,31 +1052,31 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "28/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS APPLE 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 2397.6
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS FIRE 1000 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 2397.6
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "WHISKEY JACK DANIELS HONEY 1 L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 5994.0
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "TEQUILA PATRON REPOSADO",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 5013.72
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS 1L - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 11988.0
             }
           ]
@@ -1203,13 +1203,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "14/05/2026",
               "PRODUTO": "RUM BACARDI CARTA BLANCA 980ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 36347.52
             },
             {
               "DATA": "14/05/2026",
               "PRODUTO": "RUM BACARDI GOLD 980ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 17529.6
             },
             {
@@ -1221,7 +1221,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "14/05/2026",
               "PRODUTO": "GIN BOMBAY SAPPHIRE 1,750L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 2026.8
             },
             {
@@ -1233,31 +1233,31 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "14/05/2026",
               "PRODUTO": "RUM BACARDI CARTA BLANCA 980ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 0.0
             },
             {
               "DATA": "14/05/2026",
               "PRODUTO": "RUM BACARDI GOLD 980ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 0.0
             },
             {
               "DATA": "14/05/2026",
               "PRODUTO": "GIN BOMBAY SAPPHIRE 1,750L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 0.0
             },
             {
               "DATA": "22/05/2026",
               "PRODUTO": "APERITIVO LUCIA 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "LUCIA",
               "VALOR": 7908.0
             },
             {
               "DATA": "29/05/2026",
               "PRODUTO": "MARTINI RISERVA RUBINO 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 1788.0
             },
             {
@@ -1276,7 +1276,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "05/05/2026",
               "PRODUTO": "CHAMP. VEUVE CLICQUOT BRUT 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 5511.96
             }
           ]
@@ -1289,7 +1289,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "06/05/2026",
               "PRODUTO": "VERMUT ARG CARPANO ROSSO 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "AURORA",
               "VALOR": 1276.36
             }
           ]
@@ -1349,31 +1349,31 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "06/05/2026",
               "PRODUTO": "VERMUTE NOILLY PRAT FRENCH DRY 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 3184.2
             },
             {
               "DATA": "06/05/2026",
               "PRODUTO": "MOET IMPERIAL EXTRA BRUT 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 33588.0
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "MARTINI EXTRA DRY 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 1794.0
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "MARTINI ROSATO 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 1691.4
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "MARTINI ROSSO 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 11163.6
             },
             {
@@ -1385,19 +1385,19 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "12/05/2026",
               "PRODUTO": "VODKA BELVEDERE 700 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 4028.4
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "VODKA GREY GOOSE LA POIRE 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 1246.8
             },
             {
               "DATA": "12/05/2026",
               "PRODUTO": "WHISKY BLACK & WHITE 700ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 239.6
             }
           ]
@@ -1410,7 +1410,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "28/05/2026",
               "PRODUTO": "CHAMP. VEUVE CLICQUOT DEMI-SEC 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 10497.0
             }
           ]
@@ -1434,7 +1434,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "29/05/2026",
               "PRODUTO": "JACK DANIELS BLACKBERRY 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 67200.0
             }
           ]
@@ -1495,13 +1495,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "28/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS APPLE 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 34740.0
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "WHISKEY JACK DANIELS HONEY 1 L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 23160.0
             }
           ]
@@ -1525,121 +1525,121 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "05/05/2026",
               "PRODUTO": "CHANDON EXCELLENCE ROSE 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 299.8
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "MAGNUM MOET IMPERIAL BRUT 1,5L",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 749.9
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "VINHO LATITUD 33 MALBEC 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 172.02
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 172.02
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "MOET IMPERIAL EXTRA BRUT 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 559.8
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "ESPUMANTE CHANDON BRUT ROSE 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 6291.0
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "CHANDON RICHE DEMI-SEC 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 2336.4
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "CHANDON BABY RICHE DEMMI SEC 187 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 507.36
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 3894.0
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "CHANDON BABY BRUT ROSE 187 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1243.2
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "CHAMP. VEUVE CLICQUOT DEMI-SEC 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 2099.4
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "CHAMP MOET ICE ROSE IMPERIAL 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1612.12
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "CHAMP MOET ICE  IMPERIAL 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1118.7
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "CHANDON PASSION ROSE 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 4194.0
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "CHANDON MAGNUM BRUT 1,5L",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 555.84
             },
             {
               "DATA": "05/05/2026",
               "PRODUTO": "CHANDON BABY PASSION ROSE 187 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 647.5
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "CHAMP. VEUVE CLICQUOT BRUT 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1555.9
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "CHAMP VEUVE CLICQUOT ROSE 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 399.9
             },
             {
               "DATA": "11/05/2026",
               "PRODUTO": "DOM PERIGNON VINTAGE LUMINOUS  750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 15000.0
             },
             {
               "DATA": "11/05/2026",
               "PRODUTO": "CHAMP. VEUVE CLICQUOT BRUT 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 7468.32
             }
           ]
@@ -1677,7 +1677,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "21/05/2026",
               "PRODUTO": "APERITIVO LUCIA 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "LUCIA",
               "VALOR": 790.8
             }
           ]
@@ -1707,19 +1707,19 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "07/05/2026",
               "PRODUTO": "JACK DANIELS BONDED TRIPLE MASH 700ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 959.4
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS BONDED 700ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 959.4
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS BONDED RYE 700ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 959.4
             },
             {
@@ -1743,7 +1743,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "07/05/2026",
               "PRODUTO": "MARTINI EXTRA DRY 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 717.6
             },
             {
@@ -1755,13 +1755,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "15/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS SINATRA 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 3599.4
             },
             {
               "DATA": "15/05/2026",
               "PRODUTO": "WHISKY GENTLEMAN JACK 1L - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 899.4
             },
             {
@@ -1773,55 +1773,55 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "15/05/2026",
               "PRODUTO": "CHANDON RESERVE BRUT 3L",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1286.7
             },
             {
               "DATA": "15/05/2026",
               "PRODUTO": "RUM BACARDI GOLD 980ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 398.4
             },
             {
               "DATA": "15/05/2026",
               "PRODUTO": "GIN TANQUERAY ROYALE 700 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 1020.0
             },
             {
               "DATA": "15/05/2026",
               "PRODUTO": "TEQUILA DON JULIO BLANCO 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 1080.0
             },
             {
               "DATA": "22/05/2026",
               "PRODUTO": "APERITIVO LUCIA 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "LUCIA",
               "VALOR": 1581.6
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 3776.4
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "WHISKY GENTLEMAN JACK 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 839.4
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "VODKA BELVEDERE B10 700 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 3185.4
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "BOURBON WHISKY WOODFORD RESERVE 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 4497.0
             }
           ]
@@ -1845,7 +1845,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "06/05/2026",
               "PRODUTO": "RUM BACARDI CARTA BLANCA 980ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 0.0
             },
             {
@@ -2025,13 +2025,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "14/05/2026",
               "PRODUTO": "GLENMORANGIE NECTAR 16 ANOS 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 2321.28
             },
             {
               "DATA": "14/05/2026",
               "PRODUTO": "GLENMORANGIE QUINTA RUBAN 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1782.0
             },
             {
@@ -2043,25 +2043,25 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "23/05/2026",
               "PRODUTO": "TEQUILA DON JULIO ANEJO 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 1503.24
             },
             {
               "DATA": "23/05/2026",
               "PRODUTO": "TEQUILA DON JULIO REPOSADO 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 1396.92
             },
             {
               "DATA": "23/05/2026",
               "PRODUTO": "WHISKY BUCHANANS MASTER 12Y 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 701.92
             },
             {
               "DATA": "23/05/2026",
               "PRODUTO": "GLENMORANGIE THE ORIGINAL 12 ANOS 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 10980.0
             }
           ]
@@ -2163,13 +2163,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "14/05/2026",
               "PRODUTO": "GLENMORANGIE NECTAR 16 ANOS 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 2321.28
             },
             {
               "DATA": "23/05/2026",
               "PRODUTO": "GLENMORANGIE THE ORIGINAL 12 ANOS 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 6588.0
             },
             {
@@ -2181,19 +2181,19 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "23/05/2026",
               "PRODUTO": "TEQUILA DON JULIO ANEJO 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 1503.24
             },
             {
               "DATA": "23/05/2026",
               "PRODUTO": "TEQUILA DON JULIO REPOSADO 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 1396.92
             },
             {
               "DATA": "23/05/2026",
               "PRODUTO": "WHISKY BUCHANANS MASTER 12Y 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "DIAGEO",
               "VALOR": 2105.76
             }
           ]
@@ -2217,31 +2217,31 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "08/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS APPLE 1L - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 5934.0
             },
             {
               "DATA": "08/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS 1L - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 5934.0
             },
             {
               "DATA": "18/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS 1L - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 2373.6
             },
             {
               "DATA": "18/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS APPLE 1L - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 2373.6
             },
             {
               "DATA": "26/05/2026",
               "PRODUTO": "TEQUILA J CUERVO GOLD 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "AURORA",
               "VALOR": 1006.8
             },
             {
@@ -2337,7 +2337,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "12/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS 1L - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 2373.6
             },
             {
@@ -2361,13 +2361,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "27/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 2373.6
             },
             {
               "DATA": "27/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS APPLE 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 1186.8
             },
             {
@@ -2397,25 +2397,25 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "07/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS BONDED 700ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 959.4
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "JACK DANIELS BONDED TRIPLE MASH 700ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 959.4
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS BONDED RYE 700ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 959.4
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS 1L - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 5934.0
             },
             {
@@ -2457,19 +2457,19 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "02/05/2026",
               "PRODUTO": "CACHACA LEBLON 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 660.0
             },
             {
               "DATA": "02/05/2026",
               "PRODUTO": "CHANDON BABY RICHE DEMMI SEC 187 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 517.68
             },
             {
               "DATA": "07/05/2026",
               "PRODUTO": "APERITIVO LUCIA 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "LUCIA",
               "VALOR": 1613.76
             },
             {
@@ -2487,25 +2487,25 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "28/05/2026",
               "PRODUTO": "ESPUM CASA PERINI PROSECCO 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "PERINI",
               "VALOR": 2034.0
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "LICOR MOZART CHOCOLATE CREAM 700ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "AURORA",
               "VALOR": 870.0
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "ESPUM CASA PERINI BRUT 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "PERINI",
               "VALOR": 2034.0
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "MARTINI RISERVA RUBINO 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 447.0
             }
           ]
@@ -2529,13 +2529,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "22/05/2026",
               "PRODUTO": "APERITIVO LUCIA 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "LUCIA",
               "VALOR": 7117.2
             },
             {
               "DATA": "25/05/2026",
               "PRODUTO": "APERITIVO LUCIA 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "LUCIA",
               "VALOR": 7908.0
             }
           ]
@@ -2559,7 +2559,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "27/05/2026",
               "PRODUTO": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "JURUPINGA",
               "VALOR": 2665.77
             },
             {
@@ -2631,7 +2631,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "14/05/2026",
               "PRODUTO": "GIN BOMBAY SAPPHIRE 1,750L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BACARDI",
               "VALOR": 1750.8
             },
             {
@@ -2673,7 +2673,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "25/05/2026",
               "PRODUTO": "LICOR 43 DIEGO ZAMORA 700ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "AURORA",
               "VALOR": 2104.2
             },
             {
@@ -2745,7 +2745,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "19/05/2026",
               "PRODUTO": "JACK DANIELS BLACKBERRY 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 679.6
             },
             {
@@ -2835,13 +2835,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "06/05/2026",
               "PRODUTO": "CHANDON RICHE DEMI-SEC 750 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 3178.56
             },
             {
               "DATA": "06/05/2026",
               "PRODUTO": "CHANDON PASSION ROSE 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "MOET HENNESY",
               "VALOR": 1711.92
             }
           ]
@@ -2865,13 +2865,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "14/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS APPLE 1L - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 2373.6
             },
             {
               "DATA": "14/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS FIRE 1000 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 2349.6
             }
           ]
@@ -2907,7 +2907,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "13/05/2026",
               "PRODUTO": "WHISKY GENTLEMAN JACK 1L - DEST",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 149.99
             },
             {
@@ -2919,7 +2919,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "26/05/2026",
               "PRODUTO": "TEQUILA J CUERVO GOLD 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "AURORA",
               "VALOR": 503.4
             }
           ]
@@ -2943,7 +2943,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "27/05/2026",
               "PRODUTO": "LICOR 43 DIEGO ZAMORA 700ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "AURORA",
               "VALOR": 3507.0
             }
           ]
@@ -2967,13 +2967,13 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "07/05/2026",
               "PRODUTO": "TEQUILA J CUERVO SILVER 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "AURORA",
               "VALOR": 1455.37
             },
             {
               "DATA": "28/05/2026",
               "PRODUTO": "TEQUILA J CUERVO SILVER 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "AURORA",
               "VALOR": 2013.6
             }
           ]
@@ -3063,7 +3063,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "27/05/2026",
               "PRODUTO": "APERITIVO LUCIA 750ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "LUCIA",
               "VALOR": 2372.4
             }
           ]
@@ -3093,7 +3093,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "15/05/2026",
               "PRODUTO": "JACK DANIELS BLACKBERRY 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 200.0
             },
             {
@@ -3159,7 +3159,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "12/05/2026",
               "PRODUTO": "CACHACA VELHO BARREIRO 910 ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "TATUZINHO",
               "VALOR": 142.8
             },
             {
@@ -3201,7 +3201,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "26/05/2026",
               "PRODUTO": "LICOR 43 DIEGO ZAMORA 700ML",
-              "FANTASIA": NaN,
+              "FANTASIA": "AURORA",
               "VALOR": 701.4
             }
           ]
@@ -3225,7 +3225,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "20/05/2026",
               "PRODUTO": "JACK DANIELS BLACKBERRY 1L",
-              "FANTASIA": NaN,
+              "FANTASIA": "BROWN",
               "VALOR": 600.0
             },
             {
