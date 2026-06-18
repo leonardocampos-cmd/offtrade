@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "18/06/2026 14:14",
+  "atualizado_em": "18/06/2026 15:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -168335,6 +168335,15 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 624.0
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "36591",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 6,
+          "valor": 4139.4
         },
         {
           "data": "17/06/2026",
