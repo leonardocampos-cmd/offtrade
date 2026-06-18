@@ -31,7 +31,7 @@ tabela_preco_on = pd.read_excel(
 col_on_excluir = ['Unnamed: 0', 'COD BRASIL', 'PRODUTOS', 'CATEGORIA', 'FORNECEDOR', 'CX C/', 'PLT C/', 
                   'CONDIÇÃO PROMO', 'BASE RECOMP.', 'EM FALTA?']
 tabela_preco_on.drop(columns=[c for c in col_on_excluir if c in tabela_preco_on.columns], inplace=True)
-tabela_preco_on['PREÇO'] = pd.to_numeric(tabela_preco_on['PREÇO'].str.replace(',', '.'), errors='coerce').round(2)
+tabela_preco_on['PREÇO TABELA'] = pd.to_numeric(tabela_preco_on['PREÇO TABELA'].str.replace(',', '.'), errors='coerce').round(2)
 
 # --- TABELA PROMO ---
 tabela_promo = pd.read_excel(
@@ -61,12 +61,12 @@ profit.drop(columns=['Unnamed: 0', 'PRODUTO', 'FORNECEDORA', 'TIPO',
 df.columns = df.columns.str.upper()
 df['CODPROD'] = df['CODPROD'].astype(str).str.strip()
 
-df = df.merge(tabela_preco_on[['COD CRC', 'PREÇO']], left_on='CODPROD', right_on='COD CRC', how='left')
+df = df.merge(tabela_preco_on[['COD CRC', 'PREÇO TABELA']], left_on='CODPROD', right_on='COD CRC', how='left')
 df = df.merge(tabela_promo[['COD PROMO', 'PREÇO PROMO']], left_on='CODPROD', right_on='COD PROMO', how='left')
 profit['CODIGO'] = profit['CODIGO'].astype(str).str.strip()
 df = df.merge(profit[['CODIGO', 'CUSTO COM DESCONTO']], left_on='CODPROD', right_on='CODIGO', how='left')
 
-df = df.rename(columns={'PREÇO': 'PREÇO ON'})
+df = df.rename(columns={'PREÇO TABELA': 'PREÇO ON'})
 
 def aplicar_conferencia(df_local):
 

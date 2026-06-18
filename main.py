@@ -119,8 +119,8 @@ def main():
         step("10/11 - Enviando alerta WhatsApp")
         import envio_whatsapp
 
-        step("11/11 - Deploy para VPS + GitHub Pages")
-        for script in ["deploy_vps.py", "deploy_github.py"]:
+        step("11/11 - Deploy para VPS")
+        for script in ["deploy_vps.py"]:
             try:
                 import subprocess, sys as _sys
                 result = subprocess.run(

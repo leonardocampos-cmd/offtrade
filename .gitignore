@@ -4,3 +4,4 @@ __pycache__/
 *.pyo
 conferencia_precos_final.xlsx
 .env
+token.json

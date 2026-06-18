@@ -115,12 +115,22 @@ for _s, _e, _n, _fe in [
     except Exception as _ex:
         print(f"[AVISO] {_n} falhou ({str(_ex)[:80]}) — ignorado")
 tabela_vendas = pd.concat(_parts_vendas, ignore_index=True)
-arquivo = pd.concat([
-    pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - MARÇO 2026.xlsx"),
-    pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - Abril 2026.xlsx"),
-    pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - MAIO 2026.xlsx"),
-    pd.read_excel(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS_rj - JUNHO 2026.xlsx"),
-], ignore_index=True)
+arquivo = pd.read_excel(
+    r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx"
+)
+arquivo.columns = arquivo.columns.str.strip()
+arquivo = arquivo.rename(columns={
+    'META FATURAMENTO':              'FATURAMENTO TT',
+    'META FATURAMENTO CASTAS':       'FAT CASTAS',
+    'META FATURAMENTO AZEITE':       'FATURAMENTO HOB + AZEITE',
+    'META POSITIVAÇÃO':              'POSITIVAÇÃO TT',
+    'META POSITIVAÇÃO HOB + AZEITE': 'POSITIVAÇÃO HOB + AZEITE',
+    'META POSITIVAÇÃO RECKIT':       'POSITIVAÇÃO RECKIT',
+    'META POSITIVAÇÃO TIAL':         'POSITIVAÇÃO TIAL',
+    'META POSITIVAÇÃO TATUZINHO':    'POSITIVAÇÃO TATUZINHO',
+    'META POSITIVAÇÃO RED BULL':     'POSITIVAÇÃO RED BULL',
+    'META POSITIVAÇÃO PINATTI':      'POSITIVAÇÃO PINATTI',
+})
 tabela_vendas['FATURAMENTO'] = pd.to_numeric(tabela_vendas['FATURAMENTO'], errors='coerce')
 tabela_vendas.drop(columns=['CODPROD', 'CODFORNEC', 'NUMNOTA', 'CODOPER', 'PUNIT',
        'CODFILIAL', 'CODUSUR', 'NUMNOTADEV', 'DTCANCEL', 'FORNECEDOR'],inplace=True)

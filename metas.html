@@ -1201,7 +1201,7 @@ function renderDetail(v, mes) {
   document.getElementById('header-actions').innerHTML = `
     <select class="mes-select" onchange="renderDetail(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'), this.value)">${mesOpts}</select>
     <button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>
-    <a class="btn btn-limite" href="https://offtrade.duckdns.org/" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
+    <a class="btn btn-limite" href="https://offtrade.duckdns.org/Credito_e_Cadastro" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
 
   const p = pct(r('fat_tt'), m('fat_tt'));
 
@@ -1746,7 +1746,7 @@ function renderAll(vendedores, mes) {
 
   document.getElementById('header-actions').innerHTML =
     `<select class="mes-select" onchange="_mesSel=this.value; document.getElementById('cards-grid').innerHTML=_buildCards(METAS_DATA.vendedores, this.value); document.getElementById('equipe-resumo-wrap').innerHTML=_buildResumoEquipe(METAS_DATA.vendedores, this.value); document.getElementById('header-sub').textContent=this.value+' · Atualizado ${METAS_DATA.atualizado_em}'">${mesOpts}</select>
-     <a class="btn btn-limite" href="https://offtrade.duckdns.org/" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
+     <a class="btn btn-limite" href="https://offtrade.duckdns.org/Credito_e_Cadastro" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
 
   document.getElementById('app').innerHTML = `
     <div id="equipe-resumo-wrap">${_buildResumoEquipe(METAS_DATA.vendedores, mes)}</div>
