@@ -1,13 +1,13 @@
 const AMARULA_DATA = {
-  "atualizado_em": "19/06/2026 11:15",
+  "atualizado_em": "19/06/2026 11:47",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 39,
-  "total_positivacao": 156,
-  "total_faturamento": 74457.68,
+  "total_positivacao": 155,
+  "total_faturamento": 74368.68,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
@@ -27,7 +27,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "DIOGO RAPOSO - OFF TRADE",
-      "valor": 8
+      "valor": 7
     },
     {
       "vendedor": "MICHELE ALCANTARA",
@@ -213,7 +213,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "DIOGO RAPOSO - OFF TRADE",
-      "valor": 1344.4
+      "valor": 1255.4
     },
     {
       "vendedor": "INGRID ARAUJO",
