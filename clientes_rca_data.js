@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 14:02",
-  "total": 4334,
+  "atualizado_em": "19/06/2026 14:16",
+  "total": 4337,
   "clientes": [
     {
       "codcli": "31683",
@@ -9062,6 +9062,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "39315",
+      "razao": "BAR ANAPOLES LTDA",
+      "fantasia": "BAR E LANCHONETE PAULISTA",
+      "bairro": "DOS FRANCOS",
+      "cidade": "SERRA NEGRA",
+      "cnpj": "00.293.064/0001-28",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "490",
+      "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "93695",
       "razao": "BAR BARBEARIA PIRRO LTDA",
       "fantasia": "BAR BARBEARIA PIRRO",
@@ -15164,6 +15178,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "588",
       "nome_usur2": "W.S"
+    },
+    {
+      "codcli": "51185",
+      "razao": "COMERCIO DE BEBIDAS DO ALEMAO LTDA",
+      "fantasia": "ADEGA DO ALEMAO",
+      "bairro": "PIMENTEIS",
+      "cidade": "AGUAS DE LINDOIA",
+      "cnpj": "03.468.575/0001-21",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "490",
+      "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "83643",
@@ -32272,6 +32300,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51186",
+      "razao": "M S KURODA & CIA LTDA",
+      "fantasia": "M S KURODA & CIA LTDA",
+      "bairro": "JARDIM GOLLO",
+      "cidade": "SOCORRO",
+      "cnpj": "61.168.464/0003-68",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "490",
+      "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "90170",
