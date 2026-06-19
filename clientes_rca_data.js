@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 09:17",
-  "total": 4307,
+  "atualizado_em": "19/06/2026 09:51",
+  "total": 4312,
   "clientes": [
     {
       "codcli": "31683",
@@ -3490,6 +3490,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
+      "codcli": "51170",
+      "razao": "62.384.846 PAULO ROBERTO FLORIANO",
+      "fantasia": "62.384.846 PAULO ROBERTO FLORIANO",
+      "bairro": "JARDIM ALTO DOS LARANJAIS II",
+      "cidade": "LARANJAL PAULISTA",
+      "cnpj": "62.384.846/0001-20",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "489",
+      "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91221",
       "razao": "62.448.638 LUCIENE MIRANDA TASSINARI",
       "fantasia": "ADEGA CACHOEIRO",
@@ -4900,6 +4914,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "461",
       "nome_usur1": "SUELY SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51171",
+      "razao": "ADEGA E CONVENIENCIA BETIL LTDA",
+      "fantasia": "ADEGA E CONVENIENCIA BETIL",
+      "bairro": "CENTRO",
+      "cidade": "CERQUILHO",
+      "cnpj": "57.815.614/0001-49",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "489",
+      "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -14212,6 +14240,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
+    },
+    {
+      "codcli": "51168",
+      "razao": "COMERCIAL ANDREOZI LTDA",
+      "fantasia": "EMPORIO IMPERIAL",
+      "bairro": "VILA DARCY",
+      "cidade": "LARANJAL PAULISTA",
+      "cnpj": "67.130.918/0001-26",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "489",
+      "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "47016",
@@ -50740,6 +50782,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "51169",
+      "razao": "ROGERIO DAS NEVES BOITUVA",
+      "fantasia": "ROGERIO DAS NEVES BOITUVA",
+      "bairro": "CENTRO",
+      "cidade": "BOITUVA",
+      "cnpj": "04.287.276/0001-53",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "489",
+      "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50885",
       "razao": "ROGERIO FABIANO TEODORO BOTUCATU",
       "fantasia": "ROGERIO FABIANO TEODORO BOTUCATU",
@@ -51350,8 +51406,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "21.333.207/0001-58",
       "estado": "ES",
       "ramo": "RESTAURANTE",
-      "codusur1": "336",
-      "nome_usur1": "JEAN MENEZES - OFF TRADE",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -54910,6 +54966,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "51172",
+      "razao": "SUPERMERCADO PEGORIN LTDA",
+      "fantasia": "SUPERMERCADO PEGORIN",
+      "bairro": "VILA AMERICANA",
+      "cidade": "BARIRI",
+      "cnpj": "01.906.360/0001-10",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "491",
+      "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "49252",
