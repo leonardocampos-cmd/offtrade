@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 14:31",
-  "total": 4337,
+  "atualizado_em": "19/06/2026 14:43",
+  "total": 4338,
   "clientes": [
     {
       "codcli": "31683",
@@ -10754,6 +10754,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "FABIO VALOTTI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "76873",
+      "razao": "BOLD BURGER LANCHES LTDA",
+      "fantasia": "BOLD BURGER",
+      "bairro": "ITAUNA",
+      "cidade": "SAQUAREMA",
+      "cnpj": "24.089.548/0001-18",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "39396",
