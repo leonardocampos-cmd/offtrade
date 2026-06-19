@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 10:35",
-  "total": 4314,
+  "atualizado_em": "19/06/2026 10:40",
+  "total": 4315,
   "clientes": [
     {
       "codcli": "31683",
@@ -16394,6 +16394,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "477",
       "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "48287",
+      "razao": "D. T. TENORIO",
+      "fantasia": "ADEGA JULINHA",
+      "bairro": "PARQUE IMPERIAL",
+      "cidade": "BARUERI",
+      "cnpj": "18.519.262/0001-22",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
