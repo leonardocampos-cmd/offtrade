@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "19/06/2026 15:01",
+  "atualizado_em": "19/06/2026 15:14",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -38056,6 +38056,69 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 3,
           "valor": 63.9
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 69.9
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "GIN BEEFEATER PINK 700ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
+          "fantasia": "NOSSO CHOPE",
+          "qt": 1,
+          "valor": 88.7
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "ST PIERRE LATA RED MINT LT 6X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 51.9
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 126.9
         },
         {
           "data": "08/06/2026",
