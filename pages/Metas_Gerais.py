@@ -21,10 +21,18 @@ div.block-container {padding-top: 0.001rem;}
 </style>
 """, unsafe_allow_html=True)
 
-oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
+# Oracle: usa env var, igual ao utils.py
+_ORACLE_LIB   = os.getenv("ORACLE_LIB", r"C:\instantclient")
+_oracle_ready = False
 
-user     = os.getenv("DB_USER")
-password = os.getenv("DB_PASSWORD")
+def _init_oracle():
+    global _oracle_ready
+    if not _oracle_ready:
+        oracledb.init_oracle_client(lib_dir=_ORACLE_LIB)
+        _oracle_ready = True
+
+user     = os.getenv("DB_USER",      os.getenv("VPN_USER",     "vpn"))
+password = os.getenv("DB_PASSWORD",  os.getenv("VPN_PASSWORD", ""))
 
 BASES = {
     "SP": {"dsn": os.getenv("DSN_SP"), "schema": "SPON", "filiais": None},
@@ -33,7 +41,9 @@ BASES = {
     "ES": {"dsn": os.getenv("DSN_ES"), "schema": "CRC",  "filiais": ["1"]},
 }
 
-METAS_DIR = Path(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS")
+# METAS_DIR: configurável via env var para funcionar tanto no Windows quanto na VPS
+_METAS_DIR_DEFAULT = r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS"
+METAS_DIR = Path(os.getenv("METAS_DIR", _METAS_DIR_DEFAULT))
 
 METAS_FAT_ESTADO = {
     "RJ": 3_900_000.0,
@@ -150,6 +160,7 @@ def _query_vendas(mes_offset: int = 0, limit_day: bool = False) -> pd.DataFrame:
             continue
         if dsn not in seen:
             try:
+                _init_oracle()
                 engine = create_engine(f"oracle+oracledb://{user}:{password}@{dsn}")
                 df_raw = pd.read_sql(build_query(schema, mes_offset, limit_day), con=engine, dtype=str)
                 df_raw.columns = df_raw.columns.str.upper()
