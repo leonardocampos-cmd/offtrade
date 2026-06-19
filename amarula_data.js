@@ -1,5 +1,5 @@
 const AMARULA_DATA = {
-  "atualizado_em": "19/06/2026 14:42",
+  "atualizado_em": "19/06/2026 15:01",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
@@ -7,7 +7,7 @@ const AMARULA_DATA = {
   "premio": 3000,
   "total_vendedores": 39,
   "total_positivacao": 155,
-  "total_faturamento": 74368.68,
+  "total_faturamento": 76075.78,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
@@ -168,12 +168,12 @@ const AMARULA_DATA = {
   ],
   "ranking_faturamento": [
     {
-      "vendedor": "FERNANDO CESAR",
-      "valor": 12465.6
+      "vendedor": "JORGE MACIEL - OFF TRADE",
+      "valor": 14024.4
     },
     {
-      "vendedor": "JORGE MACIEL - OFF TRADE",
-      "valor": 12406.2
+      "vendedor": "FERNANDO CESAR",
+      "valor": 12465.6
     },
     {
       "vendedor": "AUGUSTO SILVA",
@@ -248,24 +248,24 @@ const AMARULA_DATA = {
       "valor": 444.5
     },
     {
-      "vendedor": "THIAGO NASCIMENTO",
-      "valor": 358.6
+      "vendedor": "JOÃO VITOR BRAGA",
+      "valor": 375.6
     },
     {
-      "vendedor": "FELIPE OLIVEIRA",
-      "valor": 355.6
+      "vendedor": "THIAGO NASCIMENTO",
+      "valor": 358.6
     },
     {
       "vendedor": "LUIZA FREIRE",
       "valor": 355.6
     },
     {
-      "vendedor": "BIANCA RODRIGUES",
-      "valor": 287.7
+      "vendedor": "FELIPE OLIVEIRA",
+      "valor": 355.6
     },
     {
-      "vendedor": "JOÃO VITOR BRAGA",
-      "valor": 286.7
+      "vendedor": "BIANCA RODRIGUES",
+      "valor": 287.7
     },
     {
       "vendedor": "JULIANA SALGADO",
