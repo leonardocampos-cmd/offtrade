@@ -159,6 +159,26 @@
 
     .no-data { text-align: center; padding: 60px 20px; color: var(--muted); font-size: .9rem; line-height: 1.8; }
 
+    /* Barra de meta */
+    .meta-bar-wrap { margin-top: 8px; }
+    .meta-bar-label { display: flex; justify-content: space-between; font-size: .7rem; color: var(--muted); margin-bottom: 4px; }
+    .meta-bar-label .meta-pct { font-weight: 700; }
+    .meta-bar-label .meta-pct.green { color: var(--green); }
+    .meta-bar-label .meta-pct.yellow { color: var(--yellow); }
+    .meta-bar-label .meta-pct.red { color: var(--red); }
+    .meta-bar-track { height: 5px; background: var(--card2); border-radius: 3px; overflow: hidden; }
+    .meta-bar-fill  { height: 100%; border-radius: 3px; transition: width .3s; }
+    .meta-bar-fill.green  { background: var(--green); }
+    .meta-bar-fill.yellow { background: var(--yellow); }
+    .meta-bar-fill.red    { background: var(--red); }
+
+    /* Metas grid no detalhe */
+    .metas-grid { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px; }
+    .meta-kpi { flex: 1; min-width: 130px; background: var(--card2); border-radius: 8px; padding: 10px 12px; }
+    .meta-kpi-label { font-size: .65rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 6px; }
+    .meta-kpi-vals  { font-size: .82rem; font-weight: 600; }
+    .meta-kpi-sub   { font-size: .68rem; color: var(--muted); margin-top: 2px; }
+
   </style>
 </head>
 <body>

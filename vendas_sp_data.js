@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/06/2026 14:01",
+  "atualizado_em": "19/06/2026 14:15",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -77370,6 +77370,341 @@ const VENDAS_SP_DATA = {
           "valor": 1300.62
         }
       ]
+    }
+  },
+  "metas": {
+    "ADELINO SANTOS": {
+      "Jun/26": {
+        "fat": 20000.0,
+        "pos": 10.0,
+        "fat_pernod": 10000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "ADER ALONSO": {
+      "Jun/26": {
+        "fat": 800000.0,
+        "pos": 40.0,
+        "fat_pernod": 600000.0,
+        "fat_crs": 10000.0,
+        "fat_essenza": null
+      }
+    },
+    "ANDERSON CANAVEIS": {
+      "Jun/26": {
+        "fat": 800000.0,
+        "pos": 1.0,
+        "fat_pernod": 800000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "ANDRE PINHEIRO": {
+      "Jun/26": {
+        "fat": 10000.0,
+        "pos": 5.0,
+        "fat_pernod": 5000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "ANDRE SILVA": {
+      "Jun/26": {
+        "fat": 350000.0,
+        "pos": 20.0,
+        "fat_pernod": 150000.0,
+        "fat_crs": 12000.0,
+        "fat_essenza": 3000.0
+      }
+    },
+    "BRUNO BARBOSA": {
+      "Jun/26": {
+        "fat": 50000.0,
+        "pos": 15.0,
+        "fat_pernod": 20000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "CARLOS DE ALMEIDA": {
+      "Jun/26": {
+        "fat": 400000.0,
+        "pos": 35.0,
+        "fat_pernod": 320000.0,
+        "fat_crs": 12000.0,
+        "fat_essenza": 3000.0
+      }
+    },
+    "CARLOS TERRA": {
+      "Jun/26": {
+        "fat": 50000.0,
+        "pos": 1.0,
+        "fat_pernod": 50000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "CIARA PADULA": {
+      "Jun/26": {
+        "fat": 50000.0,
+        "pos": 20.0,
+        "fat_pernod": 50000.0,
+        "fat_crs": 3000.0,
+        "fat_essenza": 2000.0
+      }
+    },
+    "CRISTIANE MORAIS": {
+      "Jun/26": {
+        "fat": 80000.0,
+        "pos": 30.0,
+        "fat_pernod": 50000.0,
+        "fat_crs": 5000.0,
+        "fat_essenza": 2000.0
+      }
+    },
+    "DANIELLE DOS SANTOS": {
+      "Jun/26": {
+        "fat": 50000.0,
+        "pos": 15.0,
+        "fat_pernod": 15000.0,
+        "fat_crs": 2000.0,
+        "fat_essenza": 2000.0
+      }
+    },
+    "ELIZANGELA RODRIGUES": {
+      "Jun/26": {
+        "fat": 150000.0,
+        "pos": 2.0,
+        "fat_pernod": 120000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "FLAVIO RIBEIRO": {
+      "Jun/26": {
+        "fat": 30000.0,
+        "pos": 10.0,
+        "fat_pernod": 20000.0,
+        "fat_crs": 2000.0,
+        "fat_essenza": null
+      }
+    },
+    "FRANCIS SILVA": {
+      "Jun/26": {
+        "fat": 30000.0,
+        "pos": 15.0,
+        "fat_pernod": 10000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "JOAO LUPORINI": {
+      "Jun/26": {
+        "fat": 5000.0,
+        "pos": 1.0,
+        "fat_pernod": 2000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "LEONARDO FLOREZI": {
+      "Jun/26": {
+        "fat": 100000.0,
+        "pos": 20.0,
+        "fat_pernod": 40000.0,
+        "fat_crs": 12000.0,
+        "fat_essenza": 3000.0
+      }
+    },
+    "LUCAS BUENO": {
+      "Jun/26": {
+        "fat": 20000.0,
+        "pos": 10.0,
+        "fat_pernod": 10000.0,
+        "fat_crs": 2000.0,
+        "fat_essenza": 1000.0
+      }
+    },
+    "LUCIANO TOSCHI": {
+      "Jun/26": {
+        "fat": 30000.0,
+        "pos": 15.0,
+        "fat_pernod": 15000.0,
+        "fat_crs": 2000.0,
+        "fat_essenza": 1000.0
+      }
+    },
+    "MANUELA ZAPPACOSTA": {
+      "Jun/26": {
+        "fat": 300000.0,
+        "pos": 15.0,
+        "fat_pernod": 300000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "MARCELO PEREIRA": {
+      "Jun/26": {
+        "fat": 30000.0,
+        "pos": 15.0,
+        "fat_pernod": 20000.0,
+        "fat_crs": 2000.0,
+        "fat_essenza": 1000.0
+      }
+    },
+    "MARCIA RITA": {
+      "Jun/26": {
+        "fat": 80000.0,
+        "pos": 7.0,
+        "fat_pernod": 40000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "MARCUS TANAMACHI": {
+      "Jun/26": {
+        "fat": null,
+        "pos": null,
+        "fat_pernod": null,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "MARIA PEREIRA": {
+      "Jun/26": {
+        "fat": 20000.0,
+        "pos": 5.0,
+        "fat_pernod": 15000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "MARIO RAFAEL FERRARI": {
+      "Jun/26": {
+        "fat": 50000.0,
+        "pos": 5.0,
+        "fat_pernod": 30000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "MARLENE RODRIGUES": {
+      "Jun/26": {
+        "fat": 100000.0,
+        "pos": 15.0,
+        "fat_pernod": 30000.0,
+        "fat_crs": 2000.0,
+        "fat_essenza": 2000.0
+      }
+    },
+    "PATRICIA RAMOS": {
+      "Jun/26": {
+        "fat": 100000.0,
+        "pos": 20.0,
+        "fat_pernod": 40000.0,
+        "fat_crs": 12000.0,
+        "fat_essenza": 3000.0
+      }
+    },
+    "PATRICIO MASSAGARDI": {
+      "Jun/26": {
+        "fat": 30000.0,
+        "pos": 15.0,
+        "fat_pernod": 20000.0,
+        "fat_crs": 2000.0,
+        "fat_essenza": null
+      }
+    },
+    "PAULO JUNIOR": {
+      "Jun/26": {
+        "fat": 50000.0,
+        "pos": 15.0,
+        "fat_pernod": 30000.0,
+        "fat_crs": 2000.0,
+        "fat_essenza": null
+      }
+    },
+    "PRISCILLA BONACHE": {
+      "Jun/26": {
+        "fat": 550000.0,
+        "pos": 5.0,
+        "fat_pernod": 500000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "RENAN SOUZA": {
+      "Jun/26": {
+        "fat": 20000.0,
+        "pos": 10.0,
+        "fat_pernod": 10000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "RENATO JUNIOR": {
+      "Jun/26": {
+        "fat": 250000.0,
+        "pos": 20.0,
+        "fat_pernod": 200000.0,
+        "fat_crs": 12000.0,
+        "fat_essenza": 3000.0
+      }
+    },
+    "ROBERTO DOS SANTOS": {
+      "Jun/26": {
+        "fat": 20000.0,
+        "pos": 10.0,
+        "fat_pernod": 10000.0,
+        "fat_crs": 2000.0,
+        "fat_essenza": null
+      }
+    },
+    "ROBSON DA SILVA": {
+      "Jun/26": {
+        "fat": 70000.0,
+        "pos": 14.0,
+        "fat_pernod": 50000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "RODRIGO LIMA": {
+      "Jun/26": {
+        "fat": 60000.0,
+        "pos": 15.0,
+        "fat_pernod": 30000.0,
+        "fat_crs": 2000.0,
+        "fat_essenza": 1000.0
+      }
+    },
+    "SUELY SANTOS": {
+      "Jun/26": {
+        "fat": 80000.0,
+        "pos": 20.0,
+        "fat_pernod": 50000.0,
+        "fat_crs": 2000.0,
+        "fat_essenza": 1000.0
+      }
+    },
+    "VITORIA VIEIRA": {
+      "Jun/26": {
+        "fat": 20000.0,
+        "pos": 5.0,
+        "fat_pernod": 15000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "WANDO MACHADO": {
+      "Jun/26": {
+        "fat": 100000.0,
+        "pos": 5.0,
+        "fat_pernod": 10000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
     }
   }
 };
