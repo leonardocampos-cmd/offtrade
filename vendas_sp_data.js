@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/06/2026 11:18",
+  "atualizado_em": "19/06/2026 11:47",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -54,7 +54,7 @@ const VENDAS_SP_DATA = {
     "CARLOS TERRA -": "310",
     "LUCAS BUENO -": "475",
     "LUIZ RIGLER -": "487",
-    "NATALI DE OLIVEIRA -": "482",
+    "NÁTALI DE OLIVEIRA -": "482",
     "FERNANDO BERTIN -": "489"
   },
   "por_vendedor": {
@@ -14602,7 +14602,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "30/03/2026",
           "codcli": "21428",
-          "cliente": "DISTRIBUIDORA DASUL EIRELI",
+          "cliente": "DISTRIBUIDORA DASUL LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
           "fantasia": "PERNOD",
           "qt": 60,
@@ -14611,7 +14611,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "30/03/2026",
           "codcli": "21428",
-          "cliente": "DISTRIBUIDORA DASUL EIRELI",
+          "cliente": "DISTRIBUIDORA DASUL LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
           "fantasia": "PERNOD",
           "qt": 180,
@@ -14620,7 +14620,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "31/03/2026",
           "codcli": "21428",
-          "cliente": "DISTRIBUIDORA DASUL EIRELI",
+          "cliente": "DISTRIBUIDORA DASUL LTDA",
           "produto": "RUM MONTILLA CRISTAL 1000 ML",
           "fantasia": "PERNOD",
           "qt": 60,
@@ -14629,7 +14629,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "31/03/2026",
           "codcli": "21428",
-          "cliente": "DISTRIBUIDORA DASUL EIRELI",
+          "cliente": "DISTRIBUIDORA DASUL LTDA",
           "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
           "fantasia": "PERNOD",
           "qt": 120,
@@ -22002,7 +22002,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "06/04/2026",
           "codcli": "21428",
-          "cliente": "DISTRIBUIDORA DASUL EIRELI",
+          "cliente": "DISTRIBUIDORA DASUL LTDA",
           "produto": "WHISKY PASSPORT 1L",
           "fantasia": "PERNOD",
           "qt": 120,
@@ -22011,7 +22011,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "06/04/2026",
           "codcli": "21428",
-          "cliente": "DISTRIBUIDORA DASUL EIRELI",
+          "cliente": "DISTRIBUIDORA DASUL LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
           "fantasia": "PERNOD",
           "qt": 300,
@@ -22020,7 +22020,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "24/04/2026",
           "codcli": "21428",
-          "cliente": "DISTRIBUIDORA DASUL EIRELI",
+          "cliente": "DISTRIBUIDORA DASUL LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
           "fantasia": "PERNOD",
           "qt": 600,
@@ -68932,24 +68932,6 @@ const VENDAS_SP_DATA = {
       ],
       "Jun/26": [
         {
-          "data": "18/06/2026",
-          "codcli": "40664",
-          "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
-          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-          "fantasia": "BROWN",
-          "qt": 480,
-          "valor": 47520.0
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "40664",
-          "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 600,
-          "valor": 59400.0
-        },
-        {
           "data": "11/06/2026",
           "codcli": "50370",
           "cliente": "VITTORIA MAIS SUPERMERCADOS LTDA",
@@ -77336,7 +77318,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "NATALI DE OLIVEIRA -": {
+    "NÁTALI DE OLIVEIRA -": {
       "Jun/26": [
         {
           "data": "18/06/2026",
