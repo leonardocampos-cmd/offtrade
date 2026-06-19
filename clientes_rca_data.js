@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 15:44",
-  "total": 4339,
+  "atualizado_em": "19/06/2026 16:02",
+  "total": 4342,
   "clientes": [
     {
       "codcli": "31683",
@@ -42,6 +42,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ADEGA",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "59488",
+      "razao": "14.112.468 ALEX MENDES MELLO",
+      "fantasia": "ALEX MENDES MELLO",
+      "bairro": "CONCEICAO DE JACAREI",
+      "cidade": "MANGARATIBA",
+      "cnpj": "14.112.468/0001-82",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "codusur1": "417",
+      "nome_usur1": "DIRLEI ARAUJO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -15068,6 +15082,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "51193",
+      "razao": "COMERCIAL VILLA SIMPATIA LTDA",
+      "fantasia": "SIMPATIA SUPERMERCADOS",
+      "bairro": "VILA ANTÔNIO AUGUSTO LUIZ",
+      "cidade": "CACAPAVA",
+      "cnpj": "07.722.158/0001-14",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "21026",
       "razao": "COMERCIAL ZAMPIROLLI LTDA",
       "fantasia": "COMIL ZAMPIROLLI",
@@ -16394,6 +16422,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFETERIA",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51192",
+      "razao": "CVS SUPERMERCADOS LTDA",
+      "fantasia": "CVS SUPERMERCADOS",
+      "bairro": "JARDIM ALLAH",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "59.930.053/0001-54",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
