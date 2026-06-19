@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 14:16",
+  "atualizado_em": "19/06/2026 14:18",
   "total": 4337,
   "clientes": [
     {
@@ -32302,12 +32302,12 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "51186",
+      "codcli": "51188",
       "razao": "M S KURODA & CIA LTDA",
-      "fantasia": "M S KURODA & CIA LTDA",
-      "bairro": "JARDIM GOLLO",
-      "cidade": "SOCORRO",
-      "cnpj": "61.168.464/0003-68",
+      "fantasia": "KURODA ATACAREJO",
+      "bairro": "CENTRO",
+      "cidade": "PINHALZINHO",
+      "cnpj": "61.168.464/0002-87",
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "490",
