@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "19/06/2026 10:50",
+  "atualizado_em": "19/06/2026 11:16",
   "data_rota": "19.06",
   "vendedores": [
     {
@@ -2171,6 +2171,41 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [],
       "emitido_s_rota": [
+        {
+          "numped": "174000039",
+          "numnota": "405008.0",
+          "data": "19/06/2026",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 201132.0,
+          "itens": [
+            {
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 960,
+              "val": 49824.0
+            },
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 720,
+              "val": 53928.0
+            },
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 1440,
+              "val": 92016.0
+            },
+            {
+              "desc": "WHISKY WHITE HORSE - 500ML",
+              "qt": 180,
+              "val": 5364.0
+            }
+          ]
+        },
         {
           "numped": "174000037",
           "numnota": "402243.0",
@@ -33166,11 +33201,6 @@ const ENTREGAS_DATA = {
           "total": 383.2,
           "itens": [
             {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 4,
-              "val": 111.6
-            },
-            {
               "desc": "GIN GORDONS 750 ML",
               "qt": 2,
               "val": 111.8
@@ -33179,6 +33209,11 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY JAMESON 750ML",
               "qt": 2,
               "val": 159.8
+            },
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 4,
+              "val": 111.6
             }
           ]
         },
