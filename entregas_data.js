@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "19/06/2026 15:44",
+  "atualizado_em": "19/06/2026 16:01",
   "data_rota": "19.06",
   "vendedores": [
     {
@@ -25932,6 +25932,66 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "156003610",
+          "numnota": "",
+          "data": "19/06/2026",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 563.79,
+          "itens": [
+            {
+              "desc": "VINHO CASA PERINI CAB SAUV 750ML",
+              "qt": 1,
+              "val": 40.9
+            },
+            {
+              "desc": "VINHO HORIZONTE ROSE 750ML",
+              "qt": 1,
+              "val": 25.9
+            },
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 1,
+              "val": 59.9
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/GAS LATA 12X310ML",
+              "qt": 1,
+              "val": 40.59
+            },
+            {
+              "desc": "AGUA NA CAIXA 12X500ML",
+              "qt": 1,
+              "val": 31.9
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN MACA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ]
+        },
+        {
           "numped": "156003609",
           "numnota": "",
           "data": "19/06/2026",
@@ -31200,6 +31260,66 @@ const ENTREGAS_DATA = {
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "439000208",
+          "numnota": "",
+          "data": "19/06/2026",
+          "cliente": "AVALON MERCEARIA DA TERRA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 25/06/26",
+          "total": 652.8,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 4,
+              "val": 261.12
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 4,
+              "val": 261.12
+            }
+          ]
+        },
+        {
+          "numped": "439000209",
+          "numnota": "",
+          "data": "19/06/2026",
+          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 25/06/26",
+          "total": 652.8,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 2,
+              "val": 130.56
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 4,
+              "val": 261.12
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 4,
+              "val": 261.12
+            }
+          ]
+        },
         {
           "numped": "439000206",
           "numnota": "",
