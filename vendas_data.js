@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "19/06/2026 14:31",
+  "atualizado_em": "19/06/2026 14:42",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -141269,6 +141269,15 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 89,
           "valor": 5745.84
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "50036",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 288,
+          "valor": 18403.2
         },
         {
           "data": "19/06/2026",
