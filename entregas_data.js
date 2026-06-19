@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "19/06/2026 09:17",
+  "atualizado_em": "19/06/2026 09:51",
   "data_rota": "19.06",
   "vendedores": [
     {
@@ -11281,6 +11281,36 @@ const ENTREGAS_DATA = {
       "nome": "DIRLEI ARAUJO - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "417000360",
+          "numnota": "",
+          "data": "19/06/2026",
+          "cliente": "LV FERREIRA COMERCIO E SERVICO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 568.2,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            }
+          ]
+        },
         {
           "numped": "417000344",
           "numnota": "",
@@ -33122,6 +33152,36 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "155003726",
+          "numnota": "",
+          "data": "19/06/2026",
+          "cliente": "NATALIA DA SILVA DUARTE 10656196777",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 383.2,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 4,
+              "val": 111.6
+            },
+            {
+              "desc": "GIN GORDONS 750 ML",
+              "qt": 2,
+              "val": 111.8
+            },
+            {
+              "desc": "WHISKY JAMESON 750ML",
+              "qt": 2,
+              "val": 159.8
+            }
+          ]
+        },
         {
           "numped": "155003660",
           "numnota": "",
