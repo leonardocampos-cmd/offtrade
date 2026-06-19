@@ -206,6 +206,11 @@
     .sec-ic.open { transform: rotate(180deg); }
     .sec-body  { display: none; padding-top: 8px; }
     .sec-body.open { display: block; }
+    .sec-meta  { font-size: .75rem; color: var(--muted); margin-top: 2px; }
+
+    .vendas-kpis { display:flex; gap:24px; flex-wrap:wrap; margin-bottom:14px; padding-bottom:14px; border-bottom:1px solid var(--border); }
+    .kpi-label { font-size:.68rem; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; }
+    .kpi-val   { font-size:1.1rem; font-weight:700; margin-top:2px; }
 
     /* Progress bar */
     .metric { margin-bottom: 12px; }
@@ -1217,7 +1222,105 @@ function renderDetail(v, mes) {
     <button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>
     <a class="btn btn-limite" href="https://offtrade.duckdns.org/Credito_e_Cadastro" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
 
-  const p = pct(r('fat_tt'), m('fat_tt'));
+  // ── Seção: Metas ──────────────────────────────────────────
+  const metasHtml = `
+    <div class="detail-card">
+      <div class="sec-header" onclick="toggleSec('sec-metas')">
+        <div class="sec-title" style="color:var(--accent)">Metas</div>
+        <span id="sec-metas-ic" class="sec-ic open">&#9660;</span>
+      </div>
+      <div id="sec-metas" class="sec-body open">
+        <div class="vendas-kpis" style="margin-top:12px">
+          <div><div class="kpi-label">Faturamento</div><div class="kpi-val">${fmtFat(r('fat_tt'))}</div>
+            ${m('fat_tt') ? `<div style="font-size:.68rem;color:var(--muted)">Meta: ${fmtFat(m('fat_tt'))}</div>` : ''}</div>
+          <div><div class="kpi-label">Positivação</div><div class="kpi-val">${r('pos_tt')}</div>
+            ${m('pos_tt') ? `<div style="font-size:.68rem;color:var(--muted)">Meta: ${m('pos_tt')}</div>` : ''}</div>
+          <div><div class="kpi-label">Cadastros</div><div class="kpi-val">${v.clientes_cadastrados || 0}</div></div>
+        </div>
+        ${buildBar('Fat. Total',         r('fat_tt'),              m('fat_tt'),              'fat')}
+        ${buildBar('Pos. Total',         r('pos_tt'),              m('pos_tt'),              'pos')}
+        ${m('fat_castas')          > 0 ? buildBar('Castas',          r('fat_castas'),          m('fat_castas'),          'fat') : ''}
+        ${m('fat_hob_azeite')      > 0 ? buildBar('HOB + Azeite',    r('fat_hob_azeite'),      m('fat_hob_azeite'),      'fat') : ''}
+        ${m('fat_domecq_passport') > 0 ? buildBar('Domecq+Passport', r('fat_domecq_passport'), m('fat_domecq_passport'), 'fat') : ''}
+        ${m('pos_hob_azeite')      > 0 ? buildBar('Pos. HOB+Azeite', r('pos_hob_azeite'),      m('pos_hob_azeite'),      'pos') : ''}
+        ${m('pos_reckit')          > 0 ? buildBar('Pos. Reckitt',    r('pos_reckit'),          m('pos_reckit'),          'pos') : ''}
+        ${m('pos_crusoe')          > 0 ? buildBar('Pos. Crusoe',     r('pos_crusoe'),          m('pos_crusoe'),          'pos') : ''}
+        ${m('pos_tatuzinho')       > 0 ? buildBar('Pos. Tatuzinho',  r('pos_tatuzinho'),       m('pos_tatuzinho'),       'pos') : ''}
+        ${m('pos_redbull')         > 0 ? buildBar('Pos. Red Bull',   r('pos_redbull'),         m('pos_redbull'),         'pos') : ''}
+        ${m('pos_pinatti')         > 0 ? buildBar('Pos. Pinatti',    r('pos_pinatti'),         m('pos_pinatti'),         'pos') : ''}
+      </div>
+    </div>`;
+
+  // ── Seção: Faturamento do mês ─────────────────────────────
+  const _vendas  = _vendasDoMes(v.nome, mes);
+  const _fatVend = _vendas.reduce((s, x) => s + x.valor, 0);
+  const _nCli    = new Set(_vendas.map(x => x.codcli || x.cliente)).size;
+  const _nItens  = _vendas.reduce((s, x) => s + x.qt, 0);
+
+  const vendasHtml = `
+    <div class="detail-card">
+      <div class="sec-header" onclick="toggleSec('sec-fat')">
+        <div>
+          <div class="sec-title" style="color:var(--green)">Faturamento do mês</div>
+          <div class="sec-meta">${fmtFat(_fatVend)} &middot; ${_nCli} clientes</div>
+        </div>
+        <span id="sec-fat-ic" class="sec-ic open">&#9660;</span>
+      </div>
+      <div id="sec-fat" class="sec-body open">
+        <div class="vendas-kpis" style="margin-top:12px">
+          <div><div class="kpi-label">Faturamento</div><div class="kpi-val">${fmtFat(_fatVend)}</div></div>
+          <div><div class="kpi-label">Clientes</div><div class="kpi-val">${_nCli}</div></div>
+          <div><div class="kpi-label">Itens</div><div class="kpi-val">${_nItens.toLocaleString('pt-BR')}</div></div>
+        </div>
+        ${buildVendasTable(_vendas)}
+        ${_vendas.length > 0 ? `<div style="text-align:right;margin-top:10px"><a class="btn" href="?vendedor=${encodeURIComponent(v.nome)}&view=vendas">&#128200; Ver hist&oacute;rico</a></div>` : ''}
+      </div>
+    </div>`;
+
+  // ── Seção: Campanhas ──────────────────────────────────────
+  const _campConteudo = buildAllCampanhas(v) + buildAmarulaDetail(v) + buildMovingDetail(v);
+  const campanhasHtml = _campConteudo.trim().length > 80 ? `
+    <div class="detail-card">
+      <div class="sec-header" onclick="toggleSec('sec-camp')">
+        <div class="sec-title" style="color:var(--yellow)">Campanhas</div>
+        <span id="sec-camp-ic" class="sec-ic open">&#9660;</span>
+      </div>
+      <div id="sec-camp" class="sec-body open">${_campConteudo}</div>
+    </div>` : '';
+
+  // ── Seção: Não positivados ────────────────────────────────
+  const _npList = (v.nao_positivados || []).filter(c => {
+    const _comprou = new Set(_vendasDoMes(v.nome, mes).map(s => s.cliente.trim().toUpperCase()));
+    return !_comprou.has((c.CLIENTE || '').trim().toUpperCase());
+  });
+  const _nNP = _npList.length;
+  const npHtml = `
+    <div class="detail-card">
+      <div class="sec-header" onclick="toggleSec('sec-np')">
+        <div>
+          <div class="sec-title" style="color:var(--red)">N&atilde;o positivados</div>
+          <div class="sec-meta" style="color:${_nNP > 0 ? 'var(--red)' : 'var(--green)'}">
+            ${_nNP > 0 ? _nNP + ' cliente' + (_nNP !== 1 ? 's' : '') : 'Todos positivados &#10003;'}
+          </div>
+        </div>
+        <span id="sec-np-ic" class="sec-ic open">&#9660;</span>
+      </div>
+      <div id="sec-np" class="sec-body open">${buildNaoPosTable(_npList)}</div>
+    </div>`;
+
+  // ── Seção: Histórico ─────────────────────────────────────
+  const historicoHtml = `
+    <div class="detail-card">
+      <div class="sec-header" onclick="toggleSec('sec-hist')">
+        <div class="sec-title">Hist&oacute;rico</div>
+        <span id="sec-hist-ic" class="sec-ic">&#9660;</span>
+      </div>
+      <div id="sec-hist" class="sec-body">
+        ${buildPrevisao(v, pm)}
+        <div class="chart-wrap" style="margin-top:14px"><canvas id="chart-fat"></canvas></div>
+        <div class="chart-wrap" style="margin-top:12px"><canvas id="chart-pos"></canvas></div>
+      </div>
+    </div>`;
 
   document.getElementById('app').innerHTML = `
     <div class="detail-header">
@@ -1227,55 +1330,14 @@ function renderDetail(v, mes) {
       </div>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
         <a class="btn" href="?vendedor=${encodeURIComponent(v.nome)}&view=vendas">&#128200; Vendas do m&#234;s</a>
-        <button class="btn" onclick="voltarParaTodos()">\u2190 Todos os vendedores</button>
+        <button class="btn" onclick="voltarParaTodos()">&#8592; Todos</button>
       </div>
     </div>
-
-    ${buildRing(p, fmtFat(r('fat_tt')), fmtFat(m('fat_tt')))}
-
-    <div class="detail-card">
-      <div class="section-title">Faturamento</div>
-      ${buildBar('Total',            r('fat_tt'),              m('fat_tt'),              'fat')}
-      ${buildBar('Castas',           r('fat_castas'),          m('fat_castas'),          'fat')}
-      ${m('fat_domecq_passport') > 0 ? buildBar('Domecq + Passport', r('fat_domecq_passport'), m('fat_domecq_passport'), 'fat') : ''}
-      ${buildBar(m('fat_domecq_passport') > 0 ? 'HOB + Azeite' : 'Azeite + Zé Tona', r('fat_hob_azeite'), m('fat_hob_azeite'), 'fat')}
-    </div>
-
-    <div class="detail-card">
-      <div class="section-title">Positivação (clientes únicos)</div>
-      ${buildBar('Total',           r('pos_tt'),         m('pos_tt'),         'pos')}
-      <div class="stat-row"><span class="stat-label">Cadastros no mês</span><span class="stat-val">${v.clientes_cadastrados || 0}</span></div>
-      ${buildBar('HOB + Azeite',    r('pos_hob_azeite'), m('pos_hob_azeite'), 'pos')}
-      ${buildBar('Reckitt',         r('pos_reckit'),     m('pos_reckit'),     'pos')}
-      ${buildBar('Robinson Crusoe', r('pos_crusoe'),     m('pos_crusoe'),     'pos')}
-      ${buildBar('Tatuzinho',       r('pos_tatuzinho'),  m('pos_tatuzinho'),  'pos')}
-      ${buildBar('Red Bull',        r('pos_redbull'),    m('pos_redbull'),    'pos')}
-      ${buildBar('Pinatti',         r('pos_pinatti'),    m('pos_pinatti'),    'pos')}
-    </div>
-
-    ${buildAllCampanhas(v)}
-    ${buildAmarulaDetail(v)}
-    ${buildMovingDetail(v)}
-
-    ${buildPrevisao(v, pm)}
-
-    <div class="detail-card">
-      <div class="section-title">Faturamento mensal</div>
-      <div class="chart-wrap"><canvas id="chart-fat"></canvas></div>
-    </div>
-
-    <div class="detail-card">
-      <div class="section-title">Positivação mensal (clientes únicos)</div>
-      <div class="chart-wrap"><canvas id="chart-pos"></canvas></div>
-    </div>
-
-    <div class="detail-card">
-      <div class="section-title">Clientes não positivados (ÚLTIMAS VENDAS)</div>
-      ${buildNaoPosTable((v.nao_positivados || []).filter(c => {
-        const comprouNoMes = new Set(_vendasDoMes(v.nome, mes).map(s => s.cliente.trim().toUpperCase()));
-        return !comprouNoMes.has((c.CLIENTE || '').trim().toUpperCase());
-      }))}
-    </div>`;
+    ${metasHtml}
+    ${vendasHtml}
+    ${campanhasHtml}
+    ${npHtml}
+    ${historicoHtml}`;
 
   buildCharts(v);
 }
@@ -1732,6 +1794,8 @@ function toggleCardSec(id) {
   const open = el.classList.toggle('open');
   if (ic) ic.classList.toggle('open', open);
 }
+
+function toggleSec(id) { toggleCardSec(id); }
 
 function _buildCardBar(label, real, meta) {
   if (!meta || meta <= 0) return '';
