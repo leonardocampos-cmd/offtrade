@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vendas por Produto — OFF TRADE RJ</title>
+  <script src="vendas_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:     #0f1117;
+      --card:   #1a1d27;
+      --card2:  #22263a;
+      --accent: #f5c518;
+      --green:  #22c55e;
+      --text:   #e2e8f0;
+      --muted:  #94a3b8;
+      --border: #2d3144;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+      padding: 16px;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    /* ── Header ──────────────────────────────────────────────────── */
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 24px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap; gap: 12px;
+    }
+    .h-title { font-size: 1.25rem; font-weight: 700; color: var(--accent); letter-spacing: -.02em; }
+    .h-sub   { font-size: .75rem; color: var(--muted); margin-top: 3px; }
+    .back-link {
+      font-size: .78rem; color: var(--muted); text-decoration: none;
+      padding: 6px 12px; border: 1px solid var(--border); border-radius: 8px;
+      transition: border-color .15s, color .15s;
+    }
+    .back-link:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ── Cartão único ────────────────────────────────────────────── */
+    .summary-card {
+      display: flex; align-items: center; gap: 0;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 20px 28px;
+      margin-bottom: 20px; max-width: 480px;
+    }
+    .sc-block { flex: 1; }
+    .sc-sep { width: 1px; background: var(--border); height: 40px; margin: 0 28px; flex-shrink: 0; }
+    .sc-label { font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 6px; }
+    .sc-valor { font-size: 1.45rem; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
+    .sc-sub   { font-size: .72rem; color: var(--muted); margin-top: 3px; }
+
+    /* ── Filtros ─────────────────────────────────────────────────── */
+    .filters-row {
+      display: flex; gap: 10px; flex-wrap: wrap;
+      align-items: center; margin-bottom: 12px;
+    }
+
+    /* Month pills multi-select */
+    .pill {
+      padding: 6px 15px; border-radius: 20px; font-size: .78rem;
+      cursor: pointer; border: 1px solid var(--border);
+      background: var(--card); color: var(--muted);
+      transition: all .15s; user-select: none; white-space: nowrap;
+    }
+    .pill:hover  { border-color: var(--accent); color: var(--text); }
+    .pill.active { background: var(--accent); color: #111; border-color: var(--accent); font-weight: 700; }
+
+    /* Fornecedor dropdown multi-select */
+    .forn-wrap { position: relative; }
+    .forn-btn {
+      display: flex; align-items: center; gap: 7px;
+      padding: 7px 14px; border-radius: 8px; cursor: pointer;
+      border: 1px solid var(--border); background: var(--card);
+      color: var(--text); font-size: .82rem; font-family: inherit;
+      transition: border-color .15s; white-space: nowrap;
+    }
+    .forn-btn:hover        { border-color: var(--accent); }
+    .forn-btn.has-filter   { border-color: var(--accent); color: var(--accent); }
+    .forn-btn .badge {
+      background: var(--accent); color: #111; border-radius: 10px;
+      font-size: .65rem; font-weight: 800; padding: 1px 6px; min-width: 18px; text-align: center;
+    }
+    .forn-chevron { font-size: .65rem; color: var(--muted); margin-left: 2px; transition: transform .15s; }
+    .forn-btn.open .forn-chevron { transform: rotate(180deg); }
+
+    .forn-dropdown {
+      display: none; position: absolute; top: calc(100% + 6px); left: 0; z-index: 100;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; min-width: 220px; max-height: 280px;
+      overflow-y: auto; box-shadow: 0 8px 24px rgba(0,0,0,.4);
+    }
+    .forn-dropdown.open { display: block; }
+    .forn-dd-search {
+      padding: 8px 10px; border-bottom: 1px solid var(--border);
+    }
+    .forn-dd-search input {
+      width: 100%; background: var(--card2); border: 1px solid var(--border);
+      border-radius: 6px; padding: 5px 9px; color: var(--text);
+      font-size: .78rem; outline: none; font-family: inherit;
+    }
+    .forn-dd-search input::placeholder { color: var(--muted); }
+    .forn-dd-item {
+      display: flex; align-items: center; gap: 9px;
+      padding: 8px 14px; cursor: pointer; font-size: .81rem;
+      transition: background .1s; user-select: none;
+    }
+    .forn-dd-item:hover { background: var(--card2); }
+    .forn-dd-item input[type=checkbox] { accent-color: var(--accent); width: 14px; height: 14px; flex-shrink: 0; cursor: pointer; }
+    .forn-dd-item.all-item { border-bottom: 1px solid var(--border); font-weight: 600; color: var(--muted); font-size: .76rem; }
+
+    /* Search + clear */
+    .ctrl-input {
+      flex: 1; min-width: 200px;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; padding: 7px 13px; color: var(--text);
+      font-size: .82rem; outline: none; transition: border-color .15s; font-family: inherit;
+    }
+    .ctrl-input:focus  { border-color: var(--accent); }
+    .ctrl-input::placeholder { color: var(--muted); }
+    .ctrl-clear {
+      font-size: .78rem; color: var(--muted); cursor: pointer;
+      padding: 7px 13px; border: 1px solid var(--border); border-radius: 8px;
+      background: var(--card); transition: all .15s; white-space: nowrap; font-family: inherit;
+    }
+    .ctrl-clear:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* Active filter tags */
+    .tags-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; min-height: 0; }
+    .tag {
+      display: flex; align-items: center; gap: 5px;
+      padding: 3px 10px; border-radius: 20px;
+      background: rgba(245,197,24,.12); border: 1px solid rgba(245,197,24,.3);
+      color: var(--accent); font-size: .72rem; font-weight: 600;
+    }
+    .tag-x { cursor: pointer; opacity: .6; font-size: .9rem; line-height: 1; }
+    .tag-x:hover { opacity: 1; }
+
+    /* ── Table ───────────────────────────────────────────────────── */
+    .table-wrap { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .table-meta {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 10px 16px; background: var(--card); border-bottom: 1px solid var(--border);
+      flex-wrap: wrap; gap: 8px;
+    }
+    .table-count { font-size: .78rem; color: var(--muted); }
+    .table-sum   { font-size: .78rem; color: var(--accent); font-weight: 600; font-variant-numeric: tabular-nums; }
+    .btn-csv {
+      font-size: .75rem; color: var(--muted); cursor: pointer;
+      padding: 5px 12px; border: 1px solid var(--border); border-radius: 7px;
+      background: var(--card2); transition: all .15s; font-family: inherit;
+    }
+    .btn-csv:hover { color: var(--accent); border-color: var(--accent); }
+
+    table { width: 100%; border-collapse: collapse; }
+    thead th {
+      background: var(--card2); padding: 10px 14px; text-align: left;
+      font-size: .7rem; color: var(--muted); text-transform: uppercase;
+      letter-spacing: .06em; cursor: pointer; user-select: none;
+      white-space: nowrap; transition: color .1s;
+    }
+    thead th:hover  { color: var(--text); }
+    thead th.sorted { color: var(--accent); }
+    thead th.r      { text-align: right; }
+
+    tbody tr { border-bottom: 1px solid var(--border); transition: background .08s; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: rgba(255,255,255,.03); }
+
+    td { padding: 9px 14px; font-size: .82rem; vertical-align: middle; }
+    .td-data    { color: var(--muted); font-size: .75rem; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .td-produto { font-weight: 500; line-height: 1.35; }
+    .td-cli     { display: block; font-size: .7rem; color: var(--muted); margin-top: 2px; }
+    .td-forn    { font-size: .78rem; color: var(--accent); font-weight: 600; }
+    .td-r       { text-align: right; font-variant-numeric: tabular-nums; }
+    .td-valor   { text-align: right; font-weight: 600; color: var(--text); font-variant-numeric: tabular-nums; }
+    .empty      { padding: 48px; text-align: center; color: var(--muted); font-size: .9rem; }
+
+    @media (max-width: 640px) {
+      body { padding: 10px; }
+      .summary-card { max-width: 100%; }
+      .ctrl-input { min-width: unset; }
+      td { padding: 8px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="h-title">Vendas por Produto</div>
+    <div class="h-sub" id="h-sub">Carregando…</div>
+  </div>
+  <a class="back-link" href="index.html">← Início</a>
+</header>
+
+<!-- Cartão único -->
+<div class="summary-card">
+  <div class="sc-block">
+    <div class="sc-label">Faturamento</div>
+    <div class="sc-valor" id="sc-fat">—</div>
+    <div class="sc-sub"  id="sc-fat-sub"></div>
+  </div>
+  <div class="sc-sep"></div>
+  <div class="sc-block">
+    <div class="sc-label">Unidades vendidas</div>
+    <div class="sc-valor" id="sc-un">—</div>
+    <div class="sc-sub"  id="sc-un-sub"></div>
+  </div>
+</div>
+
+<!-- Filtros -->
+<div class="filters-row">
+  <!-- Meses (multi-pill) -->
+  <div id="pills-row" style="display:flex;gap:7px;flex-wrap:wrap;"></div>
+
+  <!-- Fornecedor multi-select dropdown -->
+  <div class="forn-wrap" id="forn-wrap">
+    <button class="forn-btn" id="forn-btn" type="button">
+      <span id="forn-btn-label">Fornecedor</span>
+      <span class="badge" id="forn-badge" style="display:none"></span>
+      <span class="forn-chevron">▼</span>
+    </button>
+    <div class="forn-dropdown" id="forn-dropdown">
+      <div class="forn-dd-search">
+        <input type="text" id="forn-dd-search" placeholder="Filtrar fornecedores…">
+      </div>
+      <div id="forn-dd-list"></div>
+    </div>
+  </div>
+
+  <!-- Busca produto -->
+  <input class="ctrl-input" id="search" type="text" placeholder="🔍  Buscar produto…">
+
+  <!-- Limpar -->
+  <button class="ctrl-clear" id="btn-clear" type="button">Limpar filtros</button>
+</div>
+
+<!-- Tags de filtros ativos -->
+<div class="tags-row" id="tags-row"></div>
+
+<!-- Tabela -->
+<div class="table-wrap">
+  <div class="table-meta">
+    <span class="table-count" id="tbl-count">— itens</span>
+    <span class="table-sum"   id="tbl-sum"></span>
+    <button class="btn-csv" onclick="exportCSV()" type="button">⬇ Exportar CSV</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th data-k="data_s"     onclick="sortBy('data_s')">Data</th>
+        <th data-k="produto"    onclick="sortBy('produto')">Produto</th>
+        <th data-k="fornecedor" onclick="sortBy('fornecedor')">Fornecedor</th>
+        <th data-k="qt"         onclick="sortBy('qt')"    class="r">Qtd</th>
+        <th data-k="valor"      onclick="sortBy('valor')" class="r">Valor</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+// ── Flatten ────────────────────────────────────────────────────────────────────
+const _d     = VENDAS_DATA;
+const MESES3 = _d.meses.slice(0, 3);
+
+const ALL = [];
+for (const [, porMes] of Object.entries(_d.por_vendedor)) {
+  for (const [mes, itens] of Object.entries(porMes)) {
+    if (!MESES3.includes(mes)) continue;
+    for (const it of itens) {
+      ALL.push({
+        mes,
+        data:       it.data,
+        data_s:     it.data.split('/').reverse().join(''),
+        produto:    it.produto  || '',
+        cliente:    it.cliente  || '',
+        fornecedor: (it.fantasia || '').trim() || '—',
+        qt:         it.qt    || 0,
+        valor:      it.valor || 0,
+      });
+    }
+  }
+}
+
+const ALL_FORNS = [...new Set(ALL.map(r => r.fornecedor))].sort();
+
+// ── Estado ─────────────────────────────────────────────────────────────────────
+let stForns  = new Set(); // vazio = todos
+let stMeses  = new Set(); // vazio = todos
+let stSearch = '';
+let stSortK  = 'data_s';
+let stSortA  = false;
+
+// ── Helpers ────────────────────────────────────────────────────────────────────
+const brl = v => 'R$ ' + v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const num = v => Number(v).toLocaleString('pt-BR');
+
+function filteredRows() {
+  let rows = ALL;
+  if (stMeses.size)  rows = rows.filter(r => stMeses.has(r.mes));
+  if (stForns.size)  rows = rows.filter(r => stForns.has(r.fornecedor));
+  if (stSearch) {
+    const q = stSearch.toLowerCase();
+    rows = rows.filter(r => r.produto.toLowerCase().includes(q));
+  }
+  return rows;
+}
+
+// ── Cartão ─────────────────────────────────────────────────────────────────────
+function renderCard() {
+  const rows     = filteredRows();
+  const fat      = rows.reduce((s, r) => s + r.valor, 0);
+  const un       = rows.reduce((s, r) => s + r.qt,    0);
+  const nItens   = rows.length;
+
+  document.getElementById('sc-fat').textContent    = brl(fat);
+  document.getElementById('sc-fat-sub').textContent = `${num(nItens)} registros`;
+  document.getElementById('sc-un').textContent     = num(un);
+
+  // sub: intervalo de meses
+  const meses = stMeses.size ? [...stMeses].join(', ') : MESES3.join(', ');
+  document.getElementById('sc-un-sub').textContent = meses;
+}
+
+// ── Pills de mês (multi) ───────────────────────────────────────────────────────
+function renderPills() {
+  const container = document.getElementById('pills-row');
+  container.innerHTML = '';
+
+  // "Todos" — limpa seleção de meses
+  const pTodos = document.createElement('span');
+  pTodos.className = 'pill' + (stMeses.size === 0 ? ' active' : '');
+  pTodos.textContent = 'Todos';
+  pTodos.onclick = () => { stMeses.clear(); refresh(); };
+  container.appendChild(pTodos);
+
+  for (const m of MESES3) {
+    const p = document.createElement('span');
+    p.className = 'pill' + (stMeses.has(m) ? ' active' : '');
+    p.textContent = m;
+    p.onclick = () => {
+      if (stMeses.has(m)) stMeses.delete(m); else stMeses.add(m);
+      refresh();
+    };
+    container.appendChild(p);
+  }
+}
+
+// ── Fornecedor dropdown ────────────────────────────────────────────────────────
+let ddSearch = '';
+
+function buildFornDropdown() {
+  const list = document.getElementById('forn-dd-list');
+  list.innerHTML = '';
+
+  // "Todos"
+  const allItem = document.createElement('div');
+  allItem.className = 'forn-dd-item all-item';
+  const cbAll = document.createElement('input');
+  cbAll.type = 'checkbox';
+  cbAll.checked = stForns.size === 0;
+  cbAll.onchange = () => { stForns.clear(); refresh(); buildFornDropdown(); };
+  allItem.appendChild(cbAll);
+  allItem.appendChild(document.createTextNode('Todos'));
+  allItem.onclick = e => { if (e.target !== cbAll) { cbAll.checked = true; cbAll.onchange(); } };
+  list.appendChild(allItem);
+
+  const q = ddSearch.toLowerCase();
+  const visible = q ? ALL_FORNS.filter(f => f.toLowerCase().includes(q)) : ALL_FORNS;
+
+  for (const f of visible) {
+    const item = document.createElement('div');
+    item.className = 'forn-dd-item';
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.checked = stForns.has(f);
+    cb.onchange = () => {
+      if (cb.checked) stForns.add(f); else stForns.delete(f);
+      refresh();
+      updateFornBtn();
+    };
+    item.appendChild(cb);
+    item.appendChild(document.createTextNode(f));
+    item.onclick = e => { if (e.target !== cb) { cb.checked = !cb.checked; cb.onchange(); } };
+    list.appendChild(item);
+  }
+}
+
+function updateFornBtn() {
+  const btn   = document.getElementById('forn-btn');
+  const label = document.getElementById('forn-btn-label');
+  const badge = document.getElementById('forn-badge');
+  if (stForns.size === 0) {
+    label.textContent = 'Fornecedor';
+    badge.style.display = 'none';
+    btn.classList.remove('has-filter');
+  } else {
+    label.textContent = stForns.size === 1 ? [...stForns][0] : 'Fornecedor';
+    badge.textContent = stForns.size;
+    badge.style.display = stForns.size > 1 ? '' : 'none';
+    btn.classList.add('has-filter');
+  }
+}
+
+// ── Tags de filtros ativos ─────────────────────────────────────────────────────
+function renderTags() {
+  const row = document.getElementById('tags-row');
+  row.innerHTML = '';
+
+  for (const m of stMeses) {
+    const t = document.createElement('div');
+    t.className = 'tag';
+    t.innerHTML = `${m} <span class="tag-x" title="Remover">×</span>`;
+    t.querySelector('.tag-x').onclick = () => { stMeses.delete(m); refresh(); };
+    row.appendChild(t);
+  }
+
+  for (const f of stForns) {
+    const t = document.createElement('div');
+    t.className = 'tag';
+    t.innerHTML = `${f} <span class="tag-x" title="Remover">×</span>`;
+    t.querySelector('.tag-x').onclick = () => { stForns.delete(f); refresh(); };
+    row.appendChild(t);
+  }
+
+  if (stSearch) {
+    const t = document.createElement('div');
+    t.className = 'tag';
+    t.innerHTML = `"${stSearch}" <span class="tag-x" title="Remover">×</span>`;
+    t.querySelector('.tag-x').onclick = () => {
+      stSearch = '';
+      document.getElementById('search').value = '';
+      refresh();
+    };
+    row.appendChild(t);
+  }
+}
+
+// ── Tabela ─────────────────────────────────────────────────────────────────────
+function renderTable() {
+  let rows = filteredRows();
+
+  rows = [...rows].sort((a, b) => {
+    const va = a[stSortK], vb = b[stSortK];
+    const cmp = typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb), 'pt-BR');
+    return stSortA ? cmp : -cmp;
+  });
+
+  const sumFat = rows.reduce((s, r) => s + r.valor, 0);
+  const sumQt  = rows.reduce((s, r) => s + r.qt,    0);
+
+  document.getElementById('tbl-count').textContent = `${num(rows.length)} itens`;
+  document.getElementById('tbl-sum').textContent   = rows.length
+    ? `${num(sumQt)} un · ${brl(sumFat)}`
+    : '';
+
+  const tbody = document.getElementById('tbody');
+  if (!rows.length) {
+    tbody.innerHTML = `<tr><td colspan="5" class="empty">Nenhum resultado encontrado</td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = rows.map(r => `
+    <tr>
+      <td class="td-data">${r.data}</td>
+      <td class="td-produto">${r.produto}<span class="td-cli">${r.cliente}</span></td>
+      <td><span class="td-forn">${r.fornecedor}</span></td>
+      <td class="td-r">${num(r.qt)}</td>
+      <td class="td-valor">${brl(r.valor)}</td>
+    </tr>
+  `).join('');
+}
+
+// ── Sort ───────────────────────────────────────────────────────────────────────
+function sortBy(k) {
+  if (stSortK === k) { stSortA = !stSortA; }
+  else { stSortK = k; stSortA = (k === 'produto' || k === 'fornecedor'); }
+  document.querySelectorAll('thead th').forEach(th => th.classList.remove('sorted'));
+  document.querySelector(`th[data-k="${k}"]`).classList.add('sorted');
+  renderTable();
+}
+
+// ── Refresh global ─────────────────────────────────────────────────────────────
+function refresh() {
+  renderCard();
+  renderPills();
+  buildFornDropdown();
+  updateFornBtn();
+  renderTags();
+  renderTable();
+}
+
+// ── Dropdown open/close ────────────────────────────────────────────────────────
+const fornBtn  = document.getElementById('forn-btn');
+const fornDd   = document.getElementById('forn-dropdown');
+
+fornBtn.addEventListener('click', e => {
+  e.stopPropagation();
+  const open = fornDd.classList.toggle('open');
+  fornBtn.classList.toggle('open', open);
+  if (open) { document.getElementById('forn-dd-search').focus(); }
+});
+
+document.addEventListener('click', e => {
+  if (!document.getElementById('forn-wrap').contains(e.target)) {
+    fornDd.classList.remove('open');
+    fornBtn.classList.remove('open');
+  }
+});
+
+document.getElementById('forn-dd-search').addEventListener('input', e => {
+  ddSearch = e.target.value;
+  buildFornDropdown();
+});
+
+// ── Limpar ─────────────────────────────────────────────────────────────────────
+document.getElementById('btn-clear').addEventListener('click', () => {
+  stForns.clear(); stMeses.clear(); stSearch = '';
+  document.getElementById('search').value = '';
+  ddSearch = '';
+  document.getElementById('forn-dd-search').value = '';
+  refresh();
+});
+
+// ── Search ─────────────────────────────────────────────────────────────────────
+document.getElementById('search').addEventListener('input', e => {
+  stSearch = e.target.value;
+  refresh();
+});
+
+// ── Export CSV ────────────────────────────────────────────────────────────────
+function exportCSV() {
+  let rows = filteredRows();
+  rows = [...rows].sort((a, b) => {
+    const va = a[stSortK], vb = b[stSortK];
+    const cmp = typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb), 'pt-BR');
+    return stSortA ? cmp : -cmp;
+  });
+
+  const esc = v => '"' + String(v).replace(/"/g, '""') + '"';
+  const lines = [
+    ['Data', 'Produto', 'Cliente', 'Fornecedor', 'Qtd', 'Valor'].map(esc).join(';'),
+    ...rows.map(r => [r.data, r.produto, r.cliente, r.fornecedor, r.qt, r.valor].map(esc).join(';'))
+  ];
+
+  const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = `produtos_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// ── Init ───────────────────────────────────────────────────────────────────────
+document.getElementById('h-sub').textContent =
+  `Últimos 3 meses: ${MESES3.join(', ')} · Atualizado em ${_d.atualizado_em}`;
+
+refresh();
+</script>
+</body>
+</html>

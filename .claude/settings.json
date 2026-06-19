@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(schtasks /query *)",
+      "Bash(powershell -Command \"Get-Content *offtrade.log*)",
+      "Bash(powershell -Command \"Get-ScheduledTask*)",
+      "Bash(powershell -Command \"Get-ScheduledTask *TaskName*Get-ScheduledTaskInfo*)",
+      "Bash(tasklist *)",
+      "Bash(wmic process *)"
+    ]
+  }
+}

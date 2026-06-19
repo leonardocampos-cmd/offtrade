@@ -1,0 +1,441 @@
+{
+  "vendedores": [
+    {
+      "nome": "MARIA LUIZA - OFF TRADE",
+      "rca": "275",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 250000.0,
+          "fat_castas": 18000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 1000.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 30,
+          "pos_hob_azeite": 3,
+          "pos_reckit": 0,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "MARILENA TRAGEL - OFF TRADE",
+      "rca": "156",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 130000.0,
+          "fat_castas": 10000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 500.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 100,
+          "pos_hob_azeite": 3,
+          "pos_reckit": 0,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "BARBARA CABRAL - OFF TRADE",
+      "rca": "412",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 130000.0,
+          "fat_castas": 9000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 500.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 65,
+          "pos_hob_azeite": 3,
+          "pos_reckit": 3,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "ANGELO NEVES SUZART - OFF TRADE",
+      "rca": "153",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 200000.0,
+          "fat_castas": 12000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 1500.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 35,
+          "pos_hob_azeite": 3,
+          "pos_reckit": 7,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
+      "rca": "158",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 500000.0,
+          "fat_castas": 14000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 1000.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 10,
+          "pos_hob_azeite": 3,
+          "pos_reckit": 0,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "DANIELLE MOURA - OFF TRADE",
+      "rca": "238",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 150000.0,
+          "fat_castas": 4000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 1500.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 1,
+          "pos_hob_azeite": 0,
+          "pos_reckit": 0,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "rca": "419",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 150000.0,
+          "fat_castas": 10000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 1500.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 50,
+          "pos_hob_azeite": 4,
+          "pos_reckit": 7,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "DIOGO RAPOSO - OFF TRADE",
+      "rca": "144",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 200000.0,
+          "fat_castas": 12000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 1500.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 50,
+          "pos_hob_azeite": 4,
+          "pos_reckit": 7,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "LEANDRO SOUZA - OFF TRADE",
+      "rca": "450",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 300000.0,
+          "fat_castas": 12000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 1000.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 45,
+          "pos_hob_azeite": 3,
+          "pos_reckit": 0,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "DIRLEI ARAUJO - OFF TRADE",
+      "rca": "417",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 650000.0,
+          "fat_castas": 12000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 1500.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 40,
+          "pos_hob_azeite": 4,
+          "pos_reckit": 7,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "MATEUS CARDOSO - OFF TRADE",
+      "rca": "439",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 150000.0,
+          "fat_castas": 10000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 1500.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 33,
+          "pos_hob_azeite": 3,
+          "pos_reckit": 7,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "KELLY RAMOS - OFF TRADE",
+      "rca": "420",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 230000.0,
+          "fat_castas": 60000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 0.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 1,
+          "pos_hob_azeite": 3,
+          "pos_reckit": 0,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "rca": "431",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 60000.0,
+          "fat_castas": 4000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 500.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 70,
+          "pos_hob_azeite": 4,
+          "pos_reckit": 22,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 15,
+          "pos_redbull": 0,
+          "pos_pinatti": 12,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "rca": "379",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 80000.0,
+          "fat_castas": 4000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 500.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 70,
+          "pos_hob_azeite": 3,
+          "pos_reckit": 22,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 18,
+          "pos_redbull": 0,
+          "pos_pinatti": 12,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "ANA CLARA FASSANO - OFF TRADE",
+      "rca": "471",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 60000.0,
+          "fat_castas": 4000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 500.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 50,
+          "pos_hob_azeite": 4,
+          "pos_reckit": 14,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 12,
+          "pos_redbull": 0,
+          "pos_pinatti": 12,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "FABIO VALOTTI - OFF TRADE",
+      "rca": "378",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 60000.0,
+          "fat_castas": 4000.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 500.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 50,
+          "pos_hob_azeite": 3,
+          "pos_reckit": 10,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 18,
+          "pos_redbull": 20,
+          "pos_pinatti": 12,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "VIVIANI ALVES - OFF TRADE",
+      "rca": "91",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 0.0,
+          "fat_castas": 0.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 0.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 0,
+          "pos_hob_azeite": 0,
+          "pos_reckit": 0,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "FRANCISCO MACIEL",
+      "rca": "446",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 0.0,
+          "fat_castas": 0.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 0.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 0,
+          "pos_hob_azeite": 0,
+          "pos_reckit": 0,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    },
+    {
+      "nome": "ALLAN PAES - OFF TRADE",
+      "rca": "174",
+      "metas_por_mes": {
+        "Jun/26": {
+          "fat_tt": 0.0,
+          "fat_castas": 0.0,
+          "fat_domecq_passport": 0.0,
+          "fat_hob_azeite": 0.0,
+          "fat_pinatti": 0,
+          "fat_moving": 0,
+          "pos_tt": 0,
+          "pos_hob_azeite": 0,
+          "pos_reckit": 0,
+          "pos_crusoe": 0,
+          "pos_tatuzinho": 0,
+          "pos_redbull": 0,
+          "pos_pinatti": 0,
+          "bonus_pernod": 0,
+          "pos_pernod": 0
+        }
+      }
+    }
+  ]
+}

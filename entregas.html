@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entregas OFF TRADE</title>
+  <script src="entregas_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:     #0f1117;
+      --card:   #1a1d27;
+      --card2:  #22263a;
+      --accent: #f5c518;
+      --green:  #22c55e;
+      --yellow: #eab308;
+      --orange: #f97316;
+      --red:    #ef4444;
+      --blue:   #60a5fa;
+      --text:   #e2e8f0;
+      --muted:  #94a3b8;
+      --border: #2d3144;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+      padding: 16px;
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .header-title h1 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: -0.02em;
+    }
+
+    .header-title p {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .header-title .vendedor-nome {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-top: 5px;
+    }
+
+    select {
+      background: var(--card2);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      min-width: 200px;
+      max-width: 300px;
+    }
+    select:focus { outline: none; border-color: var(--accent); }
+
+    /* ── Summary ── */
+    .summary {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .badge {
+      flex: 1;
+      padding: 12px 14px;
+      border-radius: 10px;
+      background: var(--card);
+      border: 1px solid var(--border);
+    }
+
+    .badge .cnt  { font-size: 1.7rem; font-weight: 800; display: block; line-height: 1; }
+    .badge .lbl  { font-size: 0.68rem; color: var(--muted); margin-top: 4px; display: block; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge .val  { font-size: 0.78rem; font-weight: 600; margin-top: 3px; display: block; }
+    .badge .sub  { font-size: 0.68rem; color: var(--muted); margin-top: 1px; display: block; }
+
+    .badge-rota    { border-color: #14532d; }
+    .badge-rota    .cnt, .badge-rota    .val { color: var(--green); }
+    .badge-noemit  { border-color: #713f12; }
+    .badge-noemit  .cnt, .badge-noemit  .val { color: var(--yellow); }
+    .badge-semrota { border-color: #1e3a5f; }
+    .badge-semrota .cnt, .badge-semrota .val { color: var(--blue); }
+
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .tab-btn {
+      padding: 8px 20px;
+      border: none;
+      background: none;
+      color: var(--muted);
+      font-size: 0.85rem;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      font-weight: 600;
+      transition: all 0.15s;
+    }
+    .tab-btn.active             { color: var(--accent); border-bottom-color: var(--accent); }
+    .tab-btn:hover:not(.active) { color: var(--text); }
+
+    .section         { display: none; }
+    .section.visible { display: block; }
+
+    /* ── Cards ── */
+    .empty-msg {
+      text-align: center;
+      color: var(--muted);
+      padding: 48px 0;
+      font-size: 0.88rem;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+    }
+    .card.cancelado { border-color: #7f1d1d; opacity: .75; }
+    .card:last-child { margin-bottom: 0; }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .card-cliente { font-weight: 700; font-size: 0.95rem; line-height: 1.3; }
+    .card-total   { font-size: 0.92rem; font-weight: 700; color: var(--accent); white-space: nowrap; }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.67rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .tag-rota     { background: #052e16; color: #4ade80;  border: 1px solid #166534; }
+    .tag-nf       { background: #172554; color: var(--blue); border: 1px solid #1e40af; }
+    .tag-ped      { background: var(--card2); color: var(--muted); border: 1px solid var(--border); }
+    .tag-data     { background: var(--card2); color: var(--muted); border: 1px solid var(--border); }
+    .tag-cancel   { background: #450a0a; color: #fca5a5; border: 1px solid #7f1d1d; }
+    .tag-bloq     { background: #422006; color: #fdba74; border: 1px solid #7c2d12; }
+    .tag-entregue { background: #052e16; color: #86efac; border: 1px solid #166534; }
+    .tag-devol    { background: #431407; color: #fb923c; border: 1px solid #9a3412; }
+    .tag-status   { background: var(--card2); color: var(--muted); border: 1px solid var(--border); }
+
+    .motivo {
+      margin-top: 7px;
+      font-size: 0.74rem;
+      background: #1c1a00;
+      border: 1px solid #713f12;
+      border-radius: 6px;
+      padding: 6px 10px;
+      color: var(--orange);
+    }
+    .motivo strong { color: var(--yellow); }
+
+    .obs {
+      margin-top: 7px;
+      font-size: 0.74rem;
+      color: var(--yellow);
+      background: #1c1500;
+      border: 1px solid #713f12;
+      border-radius: 6px;
+      padding: 5px 10px;
+    }
+
+    .itens-toggle {
+      margin-top: 8px;
+      font-size: 0.72rem;
+      color: var(--accent);
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      display: block;
+      font-family: inherit;
+    }
+    .itens-toggle:hover { text-decoration: underline; }
+
+    .itens-list {
+      margin-top: 8px;
+      border-top: 1px solid var(--border);
+      padding-top: 8px;
+    }
+
+    .item-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.76rem;
+      color: var(--muted);
+      padding: 4px 0;
+      gap: 8px;
+    }
+    .item-row + .item-row { border-top: 1px solid #1e2233; }
+    .item-desc { flex: 1; }
+    .item-qt   { white-space: nowrap; color: var(--text); font-weight: 600; }
+    .item-val  { white-space: nowrap; color: var(--text); font-weight: 600; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-title">
+    <h1>&#x1F69A; Entregas OFF TRADE</h1>
+    <p id="header-sub">—</p>
+    <div class="vendedor-nome" id="header-vendedor" style="display:none"></div>
+  </div>
+  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+    <select id="vendedor-select" onchange="renderVendedor()" style="display:none"></select>
+    <a id="btn-voltar-metas" href="#"
+       style="display:none;background:#3b82f6;color:#fff;padding:8px 14px;border-radius:8px;font-size:.85rem;font-weight:600;text-decoration:none">
+      ← Minhas Metas
+    </a>
+    <a href="index.html" style="background:var(--card2,#22263a);border:1px solid var(--border,#2d3144);color:var(--text,#e2e8f0);padding:7px 14px;border-radius:8px;font-size:.8rem;text-decoration:none">&#8962; Home</a>
+  </div>
+</header>
+<script>
+(function () {
+  const v = new URLSearchParams(location.search).get('v');
+  if (v) {
+    const btn = document.getElementById('btn-voltar-metas');
+    btn.href = 'metas.html?vendedor=' + encodeURIComponent(v);
+    btn.style.display = 'inline-block';
+  }
+})();
+</script>
+
+<div class="summary">
+  <div class="badge badge-rota">
+    <span class="cnt" id="cnt-rota">—</span>
+    <span class="lbl">Em Rota hoje</span>
+    <span class="val" id="val-rota">—</span>
+    <span class="sub" id="sub-rota"></span>
+  </div>
+  <div class="badge badge-semrota">
+    <span class="cnt" id="cnt-semrota">—</span>
+    <span class="lbl">Emitido / Sem Rota</span>
+    <span class="val" id="val-semrota">—</span>
+  </div>
+  <div class="badge badge-noemit">
+    <span class="cnt" id="cnt-noemit">—</span>
+    <span class="lbl">Não Emitido</span>
+    <span class="val" id="val-noemit">—</span>
+  </div>
+</div>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="switchTab('rota',    this)">Em Rota</button>
+  <button class="tab-btn"        onclick="switchTab('semrota', this)">Emitido / Sem Rota</button>
+  <button class="tab-btn"        onclick="switchTab('noemit',  this)">Não Emitido</button>
+</div>
+
+<div id="sec-rota"    class="section visible"></div>
+<div id="sec-semrota" class="section"></div>
+<div id="sec-noemit"  class="section"></div>
+
+<script>
+const D = (typeof ENTREGAS_DATA !== 'undefined') ? ENTREGAS_DATA : null;
+
+// ── URL param ?v=NOME ──────────────────────────────────────────────────────────
+const _urlV = new URLSearchParams(location.search).get('v');
+
+function fmt(v) {
+  return 'R$ ' + v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function escHtml(s) {
+  return String(s||'')
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Tags de status ─────────────────────────────────────────────────────────────
+
+function tagStatusPed(s) {
+  if (!s) return '';
+  const u = s.toUpperCase();
+  if (u === 'C' || u.includes('CANCEL')) return `<span class="tag tag-cancel">Cancelado</span>`;
+  if (u === 'B' || u.includes('BLOQ'))   return `<span class="tag tag-bloq">Bloqueado</span>`;
+  return '';
+}
+
+function tagStatusLog(s) {
+  if (!s) return '';
+  const u = s.toUpperCase();
+  if (u.includes('ENTREGUE'))            return `<span class="tag tag-entregue">Entregue</span>`;
+  if (u.includes('DEVOL'))               return `<span class="tag tag-devol">Devolvido</span>`;
+  if (u.includes('CANCEL'))              return `<span class="tag tag-cancel">Cancelado</span>`;
+  return `<span class="tag tag-status">${escHtml(s)}</span>`;
+}
+
+// ── Render ─────────────────────────────────────────────────────────────────────
+
+function renderVendedor() {
+  if (!D) return;
+  const nome = _urlV || document.getElementById('vendedor-select').value;
+  const v = D.vendedores.find(x => x.nome === nome);
+  if (!v) return;
+
+  const totRota   = v.em_rota.reduce((s,p)=>s+p.total, 0);
+  const totNoemit = v.nao_emitido.reduce((s,p)=>s+p.total, 0);
+
+  // Contagem de cancelados em rota
+  const cancelados = v.em_rota.filter(p => {
+    const u = p.status_ped.toUpperCase();
+    return u === 'C' || u.includes('CANCEL');
+  }).length;
+
+  const semRota    = v.emitido_s_rota || [];
+  const totSemRota = semRota.reduce((s,p)=>s+p.total, 0);
+
+  document.getElementById('cnt-rota').textContent    = v.em_rota.length;
+  document.getElementById('val-rota').textContent    = fmt(totRota);
+  document.getElementById('sub-rota').textContent    = cancelados > 0 ? `${cancelados} cancelado(s)` : '';
+  document.getElementById('cnt-semrota').textContent = semRota.length;
+  document.getElementById('val-semrota').textContent = fmt(totSemRota);
+  document.getElementById('cnt-noemit').textContent  = v.nao_emitido.length;
+  document.getElementById('val-noemit').textContent  = fmt(totNoemit);
+
+  document.getElementById('sec-rota').innerHTML    = renderCards(v.em_rota,    'rota');
+  document.getElementById('sec-semrota').innerHTML = renderCards(semRota,      'semrota');
+  document.getElementById('sec-noemit').innerHTML  = renderCards(v.nao_emitido,'noemit');
+}
+
+const _emptyMsg = {
+  rota:    'Nenhum pedido em rota hoje.',
+  semrota: 'Nenhuma NF emitida aguardando rota.',
+  noemit:  'Nenhum pedido pendente de emissão.',
+};
+
+function renderCards(pedidos, prefixo) {
+  if (!pedidos.length) {
+    return `<div class="empty-msg">${_emptyMsg[prefixo] || '—'}</div>`;
+  }
+
+  return pedidos.map((p, i) => {
+    const isCancelado = p.status_ped.toUpperCase() === 'C' || p.status_ped.toUpperCase().includes('CANCEL');
+    const toggleId = `itens-${prefixo}-${i}`;
+
+    const tagPed   = `<span class="tag tag-ped">Ped.&nbsp;${escHtml(p.numped)}</span>`;
+    const tagNf    = p.numnota ? `<span class="tag tag-nf">NF&nbsp;${escHtml(p.numnota)}</span>` : '';
+    const tagRota  = p.rota    ? `<span class="tag tag-rota">${escHtml(p.rota)}</span>` : '';
+    const tagData  = p.data    ? `<span class="tag tag-data">${escHtml(p.data)}</span>` : '';
+    const tagSPed  = tagStatusPed(p.status_ped);
+    const tagSLog  = tagStatusLog(p.status_log);
+
+    const motivoHtml = p.motivo
+      ? `<div class="motivo"><strong>Motivo:</strong> ${escHtml(p.motivo)}</div>`
+      : '';
+
+    const obsHtml = p.obs
+      ? `<div class="obs">Obs: ${escHtml(p.obs)}</div>`
+      : '';
+
+    const itensHtml = p.itens.map(it =>
+      `<div class="item-row">
+        <span class="item-desc">${escHtml(it.desc)}</span>
+        <span class="item-qt">${it.qt}&nbsp;un</span>
+        <span class="item-val">${fmt(it.val)}</span>
+      </div>`
+    ).join('');
+
+    const n = p.itens.length;
+
+    return `<div class="card${isCancelado ? ' cancelado' : ''}">
+      <div class="card-header">
+        <span class="card-cliente">${escHtml(p.cliente) || '—'}</span>
+        <span class="card-total">${fmt(p.total)}</span>
+      </div>
+      <div class="card-tags">${tagPed}${tagNf}${tagRota}${tagData}${tagSPed}${tagSLog}</div>
+      ${motivoHtml}${obsHtml}
+      <button class="itens-toggle" onclick="toggleItens('${toggleId}',this)">
+        Ver ${n} item${n !== 1 ? 'ns' : ''}
+      </button>
+      <div class="itens-list" id="${toggleId}" style="display:none">${itensHtml}</div>
+    </div>`;
+  }).join('');
+}
+
+function toggleItens(id, btn) {
+  const el   = document.getElementById(id);
+  const open = el.style.display === 'none';
+  el.style.display = open ? 'block' : 'none';
+  if (!open) {
+    const n = el.querySelectorAll('.item-row').length;
+    btn.textContent = `Ver ${n} item${n !== 1 ? 'ns' : ''}`;
+  } else {
+    btn.textContent = 'Ocultar itens';
+  }
+}
+
+function switchTab(tab, btn) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  ['rota','semrota','noemit'].forEach(t =>
+    document.getElementById('sec-' + t).classList.toggle('visible', t === tab)
+  );
+}
+
+// ── Init ───────────────────────────────────────────────────────────────────────
+
+if (!D) {
+  document.body.innerHTML =
+    '<p style="color:var(--red);padding:24px">Erro: entregas_data.js não encontrado. Execute entregas.py primeiro.</p>';
+} else {
+  const dataRota = D.data_rota || '';
+  document.getElementById('header-sub').textContent =
+    `Atualizado: ${D.atualizado_em}${dataRota ? '  ·  Rota: ' + dataRota : ''}`;
+
+  if (_urlV) {
+    // Modo vendedor: trava no nome da URL, não mostra seletor
+    const v = D.vendedores.find(x => x.nome === _urlV);
+    if (v) {
+      const el = document.getElementById('header-vendedor');
+      el.textContent = v.nome;
+      el.style.display = 'block';
+      renderVendedor();
+    } else {
+      document.body.innerHTML = `<p style="color:var(--red);padding:24px">Vendedor não encontrado: ${escHtml(_urlV)}</p>`;
+    }
+  } else {
+    // Modo admin: mostra seletor
+    const sel = document.getElementById('vendedor-select');
+    sel.style.display = '';
+    D.vendedores.forEach(v => {
+      const opt = document.createElement('option');
+      opt.value = opt.textContent = v.nome;
+      sel.appendChild(opt);
+    });
+    renderVendedor();
+  }
+}
+</script>
+
+</body>
+</html>

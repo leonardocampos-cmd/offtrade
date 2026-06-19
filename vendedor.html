@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Painel — Rigarr</title>
+  <script src="auth_vendedor.js"></script>
+  <script src="metas_data.js"></script>
+  <script src="vendas_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+      --green: #22c55e; --yellow: #f59e0b; --red: #ef4444; --blue: #3b82f6;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 0 0 48px;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+    }
+    .avatar {
+      width: 44px; height: 44px; border-radius: 50%;
+      background: var(--accent); color: #111;
+      font-size: 1.2rem; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .header-info { flex: 1; min-width: 0; }
+    .header-nome {
+      font-size: 1.05rem; font-weight: 700; color: var(--text);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .header-rca {
+      font-size: .78rem; color: var(--muted); margin-top: 2px;
+    }
+    .rca-badge {
+      display: inline-block; background: #2d3144;
+      border-radius: 5px; padding: 2px 7px;
+      font-size: .75rem; font-weight: 600; color: var(--accent);
+    }
+    .header-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+    .btn-logout {
+      background: transparent; border: 1px solid var(--border);
+      color: var(--muted); font-size: .8rem; padding: 6px 12px;
+      border-radius: 7px; cursor: pointer; font-family: inherit;
+      transition: all .15s;
+    }
+    .btn-logout:hover { border-color: var(--red); color: var(--red); }
+    .btn-home {
+      background: transparent; border: 1px solid var(--border);
+      color: var(--muted); font-size: .8rem; padding: 6px 12px;
+      border-radius: 7px; text-decoration: none;
+      transition: all .15s;
+    }
+    .btn-home:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ── Layout ── */
+    .container { max-width: 900px; margin: 0 auto; padding: 24px 20px; }
+
+    .section-title {
+      font-size: .72rem; font-weight: 700; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .08em;
+      margin-bottom: 12px; margin-top: 28px;
+    }
+    .section-title:first-child { margin-top: 0; }
+
+    /* ── Atualização ── */
+    .atualizacao {
+      font-size: .75rem; color: var(--muted); margin-bottom: 20px;
+    }
+
+    /* ── KPI principal ── */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 14px;
+    }
+    .kpi-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 20px;
+    }
+    .kpi-label {
+      font-size: .72rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .06em; margin-bottom: 8px;
+    }
+    .kpi-value {
+      font-size: 1.6rem; font-weight: 800; color: var(--text);
+      line-height: 1;
+    }
+    .kpi-meta {
+      font-size: .82rem; color: var(--muted); margin-top: 4px;
+    }
+    .kpi-pct {
+      font-size: .85rem; font-weight: 700; margin-top: 10px;
+    }
+    .bar-bg {
+      height: 6px; background: #2d3144; border-radius: 3px; margin-top: 8px; overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%; border-radius: 3px; transition: width .4s ease;
+    }
+    .c-green { color: var(--green); }
+    .c-yellow { color: var(--yellow); }
+    .c-red { color: var(--red); }
+    .bg-green { background: var(--green); }
+    .bg-yellow { background: var(--yellow); }
+    .bg-red { background: var(--red); }
+
+    /* ── Métricas secundárias ── */
+    .mini-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 10px;
+    }
+    .mini-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; padding: 14px;
+    }
+    .mini-label {
+      font-size: .68rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .05em; margin-bottom: 6px;
+    }
+    .mini-val { font-size: 1.1rem; font-weight: 700; color: var(--text); }
+    .mini-meta { font-size: .75rem; color: var(--muted); margin-top: 2px; }
+    .mini-bar-bg { height: 4px; background: #2d3144; border-radius: 2px; margin-top: 8px; overflow: hidden; }
+    .mini-bar-fill { height: 100%; border-radius: 2px; }
+    .mini-pct { font-size: .72rem; font-weight: 600; margin-top: 4px; }
+
+    /* ── Tabela histórico ── */
+    .hist-table {
+      width: 100%; border-collapse: collapse;
+      background: var(--card); border-radius: 10px; overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .hist-table th {
+      background: #1f2233; padding: 10px 14px;
+      font-size: .72rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .06em;
+      text-align: right; font-weight: 600;
+    }
+    .hist-table th:first-child { text-align: left; }
+    .hist-table td {
+      padding: 10px 14px; font-size: .85rem; color: var(--text);
+      border-top: 1px solid var(--border); text-align: right;
+    }
+    .hist-table td:first-child { text-align: left; color: var(--muted); font-weight: 500; }
+    .hist-table tr:hover td { background: #1f2233; }
+    .pct-chip {
+      display: inline-block; padding: 2px 7px; border-radius: 5px;
+      font-size: .72rem; font-weight: 700;
+    }
+    .pct-chip.green { background: rgba(34,197,94,.15); color: var(--green); }
+    .pct-chip.yellow { background: rgba(245,158,11,.15); color: var(--yellow); }
+    .pct-chip.red { background: rgba(239,68,68,.15); color: var(--red); }
+
+    /* ── Vendas recentes ── */
+    .vendas-list { display: flex; flex-direction: column; gap: 8px; }
+    .venda-item {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 9px; padding: 12px 16px;
+      display: flex; align-items: center; gap: 14px;
+    }
+    .venda-data {
+      font-size: .72rem; color: var(--muted); white-space: nowrap; min-width: 58px;
+    }
+    .venda-info { flex: 1; min-width: 0; }
+    .venda-cliente {
+      font-size: .85rem; font-weight: 600; color: var(--text);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .venda-produto {
+      font-size: .75rem; color: var(--muted); margin-top: 2px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .venda-valor {
+      font-size: .9rem; font-weight: 700; color: var(--accent); white-space: nowrap;
+    }
+    .sem-dados {
+      color: var(--muted); font-size: .85rem; text-align: center; padding: 24px;
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    }
+
+    @media (max-width: 480px) {
+      header { padding: 12px 16px; }
+      .container { padding: 16px 14px; }
+      .kpi-value { font-size: 1.35rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="avatar" id="avatar">?</div>
+    <div class="header-info">
+      <div class="header-nome" id="header-nome">Carregando…</div>
+      <div class="header-rca">RCA <span class="rca-badge" id="header-rca">—</span></div>
+    </div>
+    <div class="header-actions">
+      <a href="index.html" class="btn-home" id="btn-painel">Painel</a>
+      <button class="btn-logout" onclick="isGestor() ? location.replace('metas.html') : logoutVendedor()">Sair</button>
+    </div>
+  </header>
+
+  <div class="container" id="container">
+    <div class="sem-dados">Carregando dados…</div>
+  </div>
+
+  <script>
+    // Gestor pode ver qualquer vendedor via ?rca=XXX; se não tiver rca, vai para metas
+    let RCA, NOME;
+    if (isGestor()) {
+      const paramRca = new URLSearchParams(location.search).get('rca');
+      if (!paramRca) { location.replace('metas.html'); }
+      const vdParam = (METAS_DATA.vendedores || []).find(v => String(v.rca) === String(paramRca));
+      RCA  = paramRca;
+      NOME = vdParam ? vdParam.nome : 'RCA ' + paramRca;
+    } else {
+      const sess = getVendedorSession();
+      location.replace('metas.html?vendedor=' + encodeURIComponent(sess.nome));
+    }
+
+    // Header
+    document.getElementById('header-nome').textContent = NOME;
+    document.getElementById('header-rca').textContent  = RCA;
+    document.getElementById('avatar').textContent      = NOME.charAt(0);
+    document.title = NOME.split(' ')[0] + ' — Rigarr';
+    if (!isGestor()) document.getElementById('btn-painel').style.display = 'none';
+
+    // ── Helpers ─────────────────────────────────────────────────
+    const brl = v => new Intl.NumberFormat('pt-BR', {
+      style: 'currency', currency: 'BRL', maximumFractionDigits: 0
+    }).format(v);
+
+    function pctNum(r, m) { return m > 0 ? Math.round(r / m * 100) : 0; }
+    function pctClass(p) { return p >= 90 ? 'green' : p >= 70 ? 'yellow' : 'red'; }
+    function barClass(p)  { return p >= 90 ? 'bg-green' : p >= 70 ? 'bg-yellow' : 'bg-red'; }
+    function cClass(p)    { return p >= 90 ? 'c-green'  : p >= 70 ? 'c-yellow'  : 'c-red'; }
+
+    function kpiCard(label, real, meta, fmt, unit) {
+      const p  = pctNum(real, meta);
+      const w  = Math.min(p, 100);
+      return `
+        <div class="kpi-card">
+          <div class="kpi-label">${label}</div>
+          <div class="kpi-value">${fmt(real)}${unit ? ' <span style="font-size:.9rem;font-weight:400;color:var(--muted)">' + unit + '</span>' : ''}</div>
+          <div class="kpi-meta">Meta: ${fmt(meta)}</div>
+          <div class="kpi-pct ${cClass(p)}">${p}%</div>
+          <div class="bar-bg"><div class="bar-fill ${barClass(p)}" style="width:${w}%"></div></div>
+        </div>`;
+    }
+
+    function miniCard(label, real, meta, fmt, unit) {
+      if (meta <= 0 && real <= 0) return '';
+      const p = pctNum(real, meta);
+      const w = Math.min(p, 100);
+      return `
+        <div class="mini-card">
+          <div class="mini-label">${label}</div>
+          <div class="mini-val">${fmt(real)}${unit ? ' <span style="font-size:.7rem;color:var(--muted)">' + unit + '</span>' : ''}</div>
+          ${meta > 0 ? `<div class="mini-meta">Meta: ${fmt(meta)}</div>
+          <div class="mini-bar-bg"><div class="mini-bar-fill ${barClass(p)}" style="width:${w}%"></div></div>
+          <div class="mini-pct ${cClass(p)}">${p}%</div>` : ''}
+        </div>`;
+    }
+
+    // Campanha Moving Junho 2026
+    const MOVING_RCAS  = ['156','275','431','144','378','412','153','238','419','439','417','379','450','471','158'];
+    const MOVING_METAS = {'156':33000,'275':11000,'431':11000,'144':4000,'378':11000,'412':6000,'153':8000,'238':5000,'419':7000,'439':3000,'417':5000,'379':4000,'450':6000,'471':3000,'158':3000};
+    const MOVING_GATILHO = 120000;
+
+    // ── Busca dados do vendedor ──────────────────────────────────
+    const vd = (METAS_DATA.vendedores || []).find(v => String(v.rca) === String(RCA));
+    const container = document.getElementById('container');
+
+    if (!vd) {
+      container.innerHTML = `
+        <div class="sem-dados">
+          Nenhum dado encontrado para o RCA ${RCA}.<br>
+          <a href="index.html" style="color:var(--accent)">← Voltar ao painel</a>
+        </div>`;
+    } else {
+      const meses = METAS_DATA.meses || [];
+      const mesAtual = meses[0];
+      const dadosMes = vd.por_mes?.[mesAtual] || {};
+
+      const int0 = v => Math.round(v?.realizado || 0);
+      const flt0 = v => v?.realizado || 0;
+      const meta0 = v => v?.meta || 0;
+
+      // ── Seção: mês atual ────────────────────────────────────────
+      let html = `
+        <div class="atualizacao">Atualizado em ${METAS_DATA.atualizado_em} · ${mesAtual}</div>
+        <div class="section-title">Desempenho — ${mesAtual}</div>
+        <div class="kpi-grid">
+          ${kpiCard('Faturamento Total', flt0(dadosMes.fat_tt), meta0(dadosMes.fat_tt), brl, '')}
+          ${kpiCard('Positivação', int0(dadosMes.pos_tt), meta0(dadosMes.pos_tt), v => String(Math.round(v)), 'clientes')}
+        </div>`;
+
+      // ── Campanha Moving (só para participantes) ──────────────────
+      if (MOVING_RCAS.includes(String(RCA))) {
+        const metaMov  = MOVING_METAS[RCA] || 0;
+        const realMov  = flt0(dadosMes.fat_moving);
+        const pctMov   = metaMov > 0 ? Math.min(Math.round(realMov / metaMov * 100), 999) : 0;
+        const wMov     = Math.min(pctMov, 100);
+        const clsMov   = pctMov >= 100 ? 'green' : pctMov >= 70 ? 'yellow' : 'red';
+        const premio   = (realMov * 0.05).toLocaleString('pt-BR', {style:'currency',currency:'BRL',maximumFractionDigits:0});
+
+        // gatilho de equipe
+        const totalEquipe = (METAS_DATA.vendedores || [])
+          .filter(v => MOVING_RCAS.includes(String(v.rca)))
+          .reduce((s, v) => s + ((v.por_mes?.[mesAtual]?.fat_moving?.realizado) || 0), 0);
+        const pctGat  = Math.min(Math.round(totalEquipe / MOVING_GATILHO * 100), 100);
+        const clsGat  = pctGat >= 100 ? '#4ade80' : pctGat >= 70 ? '#eab308' : '#ef4444';
+        const gatBadge = totalEquipe >= MOVING_GATILHO
+          ? `<span style="background:rgba(74,222,128,.15);color:#4ade80;font-size:.65rem;font-weight:800;padding:2px 8px;border-radius:4px">✓ Gatilho ativado</span>`
+          : `<span style="color:#6b9e8a;font-size:.72rem">${pctGat}% do gatilho de equipe</span>`;
+
+        html += `
+          <div class="section-title" style="margin-top:20px;color:#10b981">Campanha Moving — Junho 2026</div>
+          <div style="background:#0c2b1e;border:1px solid #10b98155;border-radius:12px;padding:16px 18px;margin-bottom:4px">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;margin-bottom:12px">
+              <div>
+                <div style="font-size:.68rem;color:#6b9e8a;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px">Faturamento Moving</div>
+                <div style="font-size:1.5rem;font-weight:800;color:#e4f5ee">${brl(realMov)}</div>
+                <div style="font-size:.78rem;color:#6b9e8a;margin-top:2px">Meta: ${brl(metaMov)}</div>
+              </div>
+              <div style="text-align:right">
+                <div style="font-size:.68rem;color:#6b9e8a;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px">Prêmio estimado</div>
+                <div style="font-size:1.1rem;font-weight:800;color:#10b981">${premio}</div>
+                <div style="font-size:.65rem;color:#6b9e8a;margin-top:2px">5% do fat. Moving</div>
+              </div>
+            </div>
+            <div style="display:flex;justify-content:space-between;font-size:.75rem;margin-bottom:5px">
+              <span style="color:#6b9e8a">${pctMov}% da meta individual</span>
+            </div>
+            <div style="background:#162b22;border-radius:99px;height:7px;overflow:hidden;margin-bottom:14px">
+              <div style="height:100%;border-radius:99px;width:${wMov}%;background:${clsMov==='green'?'#4ade80':clsMov==='yellow'?'#eab308':'#ef4444'};transition:width .8s ease"></div>
+            </div>
+            <div style="border-top:1px solid #1c3d2e;padding-top:12px">
+              <div style="font-size:.65rem;color:#6b9e8a;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px">Gatilho de Equipe</div>
+              <div style="display:flex;justify-content:space-between;align-items:center;font-size:.75rem;margin-bottom:5px">
+                <span style="color:#6b9e8a">${brl(totalEquipe)} / ${brl(MOVING_GATILHO)}</span>
+                ${gatBadge}
+              </div>
+              <div style="background:#162b22;border-radius:99px;height:5px;overflow:hidden">
+                <div style="height:100%;border-radius:99px;width:${pctGat}%;background:${clsGat};transition:width .8s ease"></div>
+              </div>
+            </div>
+          </div>`;
+      }
+
+      // Métricas secundárias (só mostra se meta > 0 OU realizado > 0)
+      const num = v => Math.round(v?.realizado || 0);
+      const secundarias = [
+        { label: 'Fat. Castas',        d: dadosMes.fat_castas,          fmt: brl,         unit: '' },
+        { label: 'Fat. Azeite HOB',    d: dadosMes.fat_hob_azeite,      fmt: brl,         unit: '' },
+        { label: 'Fat. Domecq/Pass.',  d: dadosMes.fat_domecq_passport, fmt: brl,         unit: '' },
+        { label: 'Fat. Moving',        d: dadosMes.fat_moving,          fmt: brl,         unit: '' },
+        { label: 'Fat. Pinatti',       d: dadosMes.fat_pinatti,         fmt: brl,         unit: '' },
+        { label: 'Pos. Azeite HOB',    d: dadosMes.pos_hob_azeite,      fmt: v => String(Math.round(v)), unit: 'pts' },
+        { label: 'Pos. Red Bull',      d: dadosMes.pos_redbull,         fmt: v => String(Math.round(v)), unit: 'pts' },
+        { label: 'Pos. Reckitt',       d: dadosMes.pos_reckit,          fmt: v => String(Math.round(v)), unit: 'pts' },
+        { label: 'Bônus Pernod',       d: dadosMes.bonus_pernod,        fmt: brl,         unit: '' },
+      ];
+
+      const miniCards = secundarias
+        .filter(s => s.d && (meta0(s.d) > 0 || (s.d.realizado || 0) > 0))
+        .map(s => miniCard(s.label, s.d.realizado || 0, meta0(s.d), s.fmt, s.unit))
+        .join('');
+
+      if (miniCards) {
+        html += `<div class="section-title" style="margin-top:20px">Indicadores Adicionais</div>
+                 <div class="mini-grid">${miniCards}</div>`;
+      }
+
+      // ── Seção: histórico ──────────────────────────────────────
+      if (meses.length > 1) {
+        html += `<div class="section-title">Histórico</div>
+          <table class="hist-table">
+            <thead>
+              <tr>
+                <th>Mês</th>
+                <th>Fat. Total</th>
+                <th>Meta Fat.</th>
+                <th>%</th>
+                <th>Posit.</th>
+                <th>Meta Pos.</th>
+                <th>%</th>
+              </tr>
+            </thead>
+            <tbody>`;
+
+        meses.forEach(mes => {
+          const dm = vd.por_mes?.[mes] || {};
+          const ft = dm.fat_tt || {};
+          const pt = dm.pos_tt || {};
+          const pf = pctNum(ft.realizado || 0, ft.meta || 0);
+          const pp = pctNum(pt.realizado || 0, pt.meta || 0);
+          html += `<tr>
+            <td>${mes}</td>
+            <td>${brl(ft.realizado || 0)}</td>
+            <td style="color:var(--muted)">${brl(ft.meta || 0)}</td>
+            <td><span class="pct-chip ${pctClass(pf)}">${pf}%</span></td>
+            <td>${Math.round(pt.realizado || 0)}</td>
+            <td style="color:var(--muted)">${Math.round(pt.meta || 0)}</td>
+            <td><span class="pct-chip ${pctClass(pp)}">${pp}%</span></td>
+          </tr>`;
+        });
+
+        html += `</tbody></table>`;
+      }
+
+      // ── Seção: vendas recentes ────────────────────────────────
+      const nomeVend = NOME;
+      const vendasMes = VENDAS_DATA?.por_vendedor?.[nomeVend]?.[mesAtual] || [];
+
+      html += `<div class="section-title">Vendas — ${mesAtual} (${vendasMes.length} lançamentos)</div>`;
+
+      if (vendasMes.length === 0) {
+        html += `<div class="sem-dados">Nenhuma venda registrada em ${mesAtual}.</div>`;
+      } else {
+        // Agrupa por cliente e soma valores
+        const porCliente = {};
+        vendasMes.forEach(v => {
+          if (!porCliente[v.codcli]) porCliente[v.codcli] = { cliente: v.cliente, data: v.data, total: 0, itens: 0 };
+          porCliente[v.codcli].total += v.valor;
+          porCliente[v.codcli].itens++;
+        });
+
+        const clientes = Object.values(porCliente)
+          .sort((a, b) => b.total - a.total)
+          .slice(0, 20);
+
+        html += `<div class="vendas-list">`;
+        clientes.forEach(c => {
+          html += `
+            <div class="venda-item">
+              <div class="venda-data">${c.data}</div>
+              <div class="venda-info">
+                <div class="venda-cliente">${c.cliente}</div>
+                <div class="venda-produto">${c.itens} iten${c.itens !== 1 ? 's' : ''}</div>
+              </div>
+              <div class="venda-valor">${brl(c.total)}</div>
+            </div>`;
+        });
+        html += `</div>`;
+
+        if (Object.keys(porCliente).length > 20) {
+          html += `<div style="text-align:center;color:var(--muted);font-size:.78rem;margin-top:10px">
+            Exibindo top 20 de ${Object.keys(porCliente).length} clientes</div>`;
+        }
+      }
+
+      container.innerHTML = html;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+conferencia_precos_final.xlsx
+.env
+token.json
