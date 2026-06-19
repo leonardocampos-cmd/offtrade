@@ -79,24 +79,42 @@ def _carregar_vendas() -> pd.DataFrame:
 
 # ── Não positivados ────────────────────────────────────────────────────────────
 
-@st.cache_data(ttl=300)
-def _carregar_nao_pos(nomes_sp: frozenset) -> pd.DataFrame:
-    mes_str   = _hoje.strftime("%m-%Y")
-    xlsx_path = Path(__file__).parent.parent / f"nao_positivados_{mes_str}.xlsx"
-    if not xlsx_path.exists():
-        return pd.DataFrame()
+_SQL_NAO_POS = """
+    SELECT C.CODCLI,
+           C.CLIENTE,
+           C.BAIRROENT,
+           TO_CHAR(LV.DTULTCOMP, 'DD/MM/YYYY') AS DTULTCOMP,
+           U.NOME AS NOME_RCA
+    FROM SPON.PBI_PCCLIENT C
+    LEFT JOIN (
+        SELECT CODCLI, MAX(DTMOV) AS DTULTCOMP
+        FROM SPON.PCMOV
+        WHERE CODOPER = 'S' AND NUMNOTADEV IS NULL AND DTCANCEL IS NULL
+        GROUP BY CODCLI
+    ) LV ON C.CODCLI = LV.CODCLI
+    LEFT JOIN SPON.PCUSUARI U ON C.RCA = U.CODUSUR
+    WHERE (U.NOME LIKE '%OFF TRADE%' OR U.NOME = 'W.S')
+      AND C.CODCLI NOT IN (
+          SELECT DISTINCT CODCLI FROM SPON.PCMOV
+          WHERE TRUNC(DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
+            AND CODOPER = 'S' AND NUMNOTADEV IS NULL AND DTCANCEL IS NULL
+      )
+    ORDER BY U.NOME, LV.DTULTCOMP ASC, C.CLIENTE
+"""
+
+@st.cache_data(ttl=300, show_spinner="Carregando não positivados SP…")
+def _carregar_nao_pos() -> pd.DataFrame:
     try:
-        df = pd.read_excel(xlsx_path)
-        df.columns = df.columns.str.upper()
-        for col in ("NOME_RCA", "NOME_RCA2"):
-            if col not in df.columns:
-                df[col] = ""
-        df["NOME_RCA"]  = df["NOME_RCA"].fillna("")
-        df["NOME_RCA2"] = df["NOME_RCA2"].fillna("")
-        mask = df["NOME_RCA"].isin(nomes_sp) | df["NOME_RCA2"].isin(nomes_sp)
-        return df[mask].copy()
+        with get_conn("sp") as conn:
+            df = pd.read_sql(_SQL_NAO_POS, conn)
+            df.columns = df.columns.str.upper()
+            df["CLIENTE"]   = df["CLIENTE"].fillna("").astype(str)
+            df["BAIRROENT"] = df["BAIRROENT"].fillna("").astype(str)
+            df["DTULTCOMP"] = df["DTULTCOMP"].fillna("").astype(str)
+            df["NOME_RCA"]  = df["NOME_RCA"].fillna("").astype(str)
+            return df
     except Exception as e:
-        st.toast(f"[aviso] Não positivados: {e}", icon="⚠️")
+        st.toast(f"[aviso] Não positivados SP: {e}", icon="⚠️")
         return pd.DataFrame()
 
 
@@ -168,7 +186,6 @@ def _nao_pos_html(df: pd.DataFrame) -> str:
 
 df_all       = _carregar_vendas()
 nomes_oracle = sorted(df_all["NOME_ORACLE"].dropna().unique()) if not df_all.empty else []
-nomes_sp_set = frozenset(nomes_oracle)
 
 metas_eq = {
     "fat_tt": sum(metas_map.get(n, {}).get("fat_tt", 0) for n in nomes_oracle),
@@ -199,7 +216,7 @@ st.markdown(f"""
 
 # ── Não positivados (carregado uma vez, filtrado por vendedor) ─────────────────
 
-df_nao_pos = _carregar_nao_pos(nomes_sp_set)
+df_nao_pos = _carregar_nao_pos()
 
 # ── Cards por vendedor ────────────────────────────────────────────────────────
 
@@ -244,11 +261,7 @@ for nome_oracle in nomes_oracle:
 
         with col_dir:
             if not df_nao_pos.empty:
-                mask_v = (
-                    df_nao_pos["NOME_RCA"].eq(nome_oracle)
-                    | df_nao_pos["NOME_RCA2"].eq(nome_oracle)
-                )
-                df_np_v = df_nao_pos[mask_v]
+                df_np_v = df_nao_pos[df_nao_pos["NOME_RCA"].eq(nome_oracle)]
             else:
                 df_np_v = pd.DataFrame()
 
