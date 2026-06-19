@@ -1,17 +1,17 @@
 const AMARULA_DATA = {
-  "atualizado_em": "19/06/2026 15:01",
+  "atualizado_em": "19/06/2026 15:14",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 39,
-  "total_positivacao": 155,
-  "total_faturamento": 76075.78,
+  "total_positivacao": 156,
+  "total_faturamento": 76165.68,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
-      "valor": 41
+      "valor": 42
     },
     {
       "vendedor": "JORGE MACIEL - OFF TRADE",
@@ -181,7 +181,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
-      "valor": 8917.8
+      "valor": 9007.7
     },
     {
       "vendedor": "MARCUS VINICIUS",
