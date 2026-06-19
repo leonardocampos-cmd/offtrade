@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "19/06/2026 15:21",
+  "atualizado_em": "19/06/2026 15:36",
   "data_rota": "19.06",
   "vendedores": [
     {
@@ -4026,6 +4026,26 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "153001233",
+          "numnota": "",
+          "data": "19/06/2026",
+          "cliente": "CEREAIS MARREQUINHO DE NOVA CAMPINAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGAR DIA 22/06",
+          "total": 2542.68,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 36,
+              "val": 2542.68
+            }
+          ]
+        },
+        {
           "numped": "153001232",
           "numnota": "",
           "data": "19/06/2026",
@@ -4047,6 +4067,26 @@ const ENTREGAS_DATA = {
               "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
               "qt": 12,
               "val": 214.8
+            }
+          ]
+        },
+        {
+          "numped": "153001234",
+          "numnota": "",
+          "data": "19/06/2026",
+          "cliente": "FERNANDO DOS SANTOS LOCACOES DE ARTIGOS PARA FESTA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA 22/06",
+          "total": 119.6,
+          "itens": [
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 4,
+              "val": 119.6
             }
           ]
         },
@@ -33574,6 +33614,11 @@ const ENTREGAS_DATA = {
           "total": 751.08,
           "itens": [
             {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 1,
+              "val": 78.9
+            },
+            {
               "desc": "TEQUILA J CUERVO SILVER 750ML",
               "qt": 1,
               "val": 99.9
@@ -33612,11 +33657,6 @@ const ENTREGAS_DATA = {
               "desc": "AMARULA C LIQUEUR 750 ML",
               "qt": 1,
               "val": 88.9
-            },
-            {
-              "desc": "WHISKY J WALKER RED LABEL 1L",
-              "qt": 1,
-              "val": 78.9
             }
           ]
         },
