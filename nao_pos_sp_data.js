@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "19/06/2026 10:51",
+  "atualizado_em": "19/06/2026 11:18",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -2694,32 +2694,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "49835",
-        "cliente": "CLAYTON PEREIRA MEDINA MERCADINHO, PADARIA E LANCHONETE",
-        "bairro": "PARAISÓPOLIS",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "CATUABA SELVAGEM 900ML",
-            "fantasia": "COMARY",
-            "qt": 12,
-            "valor": 154.8
-          },
-          {
-            "produto": "VODKA ABSOLUT 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 161.7
-          },
-          {
-            "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 6,
-            "valor": 534.36
-          }
-        ]
-      },
-      {
         "codcli": "49836",
         "cliente": "CLAYTON PEREIRA MEDINA MERCADINHO, PADARIA E LANCHONETE",
         "bairro": "PARAISÓPOLIS",
@@ -2736,6 +2710,32 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 2,
             "valor": 107.8
+          },
+          {
+            "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 6,
+            "valor": 534.36
+          }
+        ]
+      },
+      {
+        "codcli": "49835",
+        "cliente": "CLAYTON PEREIRA MEDINA MERCADINHO, PADARIA E LANCHONETE",
+        "bairro": "PARAISÓPOLIS",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "CATUABA SELVAGEM 900ML",
+            "fantasia": "COMARY",
+            "qt": 12,
+            "valor": 154.8
+          },
+          {
+            "produto": "VODKA ABSOLUT 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 161.7
           },
           {
             "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
@@ -3911,6 +3911,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51168",
         "cliente": "COMERCIAL ANDREOZI LTDA",
         "bairro": "VILA DARCY",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51174",
+        "cliente": "LANCHONETE BELA VISTA LARANJAL PAULISTA LTDA.",
+        "bairro": "VILA BELA VISTA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5106,44 +5113,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51155",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "JARDIM RECORD",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51157",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "JARDIM IRACEMA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51153",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "VILA ZAT",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51161",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "PARQUE SANTA RITA DE CÁSSIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51158",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51154",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "CONJUNTO HABITACIONAL SAO JOSE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5155,7 +5127,42 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51153",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "VILA ZAT",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51154",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "CONJUNTO HABITACIONAL SAO JOSE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51155",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "JARDIM RECORD",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51161",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "PARQUE SANTA RITA DE CÁSSIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51160",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51158",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -5437,13 +5444,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50715",
-        "cliente": "TRIMAIS SUPERMERCADOS S/A",
-        "bairro": "TUCURUVI",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "50713",
         "cliente": "TRIMAIS SUPERMERCADOS S/A",
         "bairro": "LAUZANE PAULISTA",
@@ -5454,6 +5454,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "50714",
         "cliente": "TRIMAIS SUPERMERCADOS S/A",
         "bairro": "RESIDENCIAL PARQUE CUMBICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50715",
+        "cliente": "TRIMAIS SUPERMERCADOS S/A",
+        "bairro": "TUCURUVI",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -5719,13 +5726,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50569",
-        "cliente": "MERCADINHO FONTE NOVA SANTA EMILIA LTDA",
-        "bairro": "JARDIM BELA VISTA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "50571",
         "cliente": "MERCADINHO FONTE NOVA SANTA EMILIA LTDA",
         "bairro": "JARDIM TRANQÜILIDADE",
@@ -5733,9 +5733,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50549",
-        "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
-        "bairro": "MACEDO",
+        "codcli": "50569",
+        "cliente": "MERCADINHO FONTE NOVA SANTA EMILIA LTDA",
+        "bairro": "JARDIM BELA VISTA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5743,6 +5743,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "50567",
         "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
         "bairro": "JARDIM BELA VISTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50549",
+        "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
+        "bairro": "MACEDO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8462,6 +8469,20 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "32032",
+        "cliente": "ANANIAS ALBANO DA SILVA 21979521883",
+        "bairro": "VILA GABRIEL",
+        "dtultcomp": "10/04/2026",
+        "produtos": [
+          {
+            "produto": "VODKA ABSOLUT TABASCO 750ML",
+            "fantasia": "PERNOD",
+            "qt": 4,
+            "valor": 279.6
+          }
+        ]
+      },
+      {
         "codcli": "47454",
         "cliente": "DISTRIBUIDORA DE BEBIDAS SAM CAMILO LTDA",
         "bairro": "PARQUE SANTA BÁRBARA",
@@ -8584,6 +8605,20 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 420,
             "valor": 22218.0
+          }
+        ]
+      },
+      {
+        "codcli": "46501",
+        "cliente": "LABUTTAR COMERCIO LTDA",
+        "bairro": "JARDIM ITAPURA",
+        "dtultcomp": "16/04/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY ROYAL SALUTE 700ML",
+            "fantasia": "PERNOD",
+            "qt": 120,
+            "valor": 66000.0
           }
         ]
       },
