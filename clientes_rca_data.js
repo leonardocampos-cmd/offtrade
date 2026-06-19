@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 13:55",
-  "total": 4333,
+  "atualizado_em": "19/06/2026 14:02",
+  "total": 4334,
   "clientes": [
     {
       "codcli": "31683",
@@ -27162,6 +27162,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "51184",
+      "razao": "JA GIMENES PEREIRA LTDA",
+      "fantasia": "EMPORIO DA CERVEJA",
+      "bairro": "JARDIM BRASÍLIA",
+      "cidade": "JAU",
+      "cnpj": "50.232.920/0001-03",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "491",
+      "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "38861",
