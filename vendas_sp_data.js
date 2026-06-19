@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/06/2026 14:25",
+  "atualizado_em": "19/06/2026 14:29",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -77704,6 +77704,778 @@ const VENDAS_SP_DATA = {
         "fat_pernod": 10000.0,
         "fat_crs": null,
         "fat_essenza": null
+      }
+    }
+  },
+  "realizado": {
+    "VIVIANI ALVES": {
+      "Jun/26": {
+        "fat": 59741.6,
+        "pos": 2.0
+      },
+      "Mai/26": {
+        "fat": 126780.4,
+        "pos": 1.0,
+        "fat_pernod": 126780.4
+      },
+      "Abr/26": {
+        "fat": 5219.4,
+        "pos": 1.0
+      },
+      "Mar/26": {
+        "fat": 267824.6,
+        "pos": 1.0,
+        "fat_pernod": 267824.6
+      },
+      "Fev/26": {
+        "fat": 53280.0,
+        "pos": 1.0,
+        "fat_pernod": 17940.0
+      },
+      "Jan/26": {
+        "fat": 59070.0,
+        "pos": 1.0
+      }
+    },
+    "CARLOS TERRA": {
+      "Jun/26": {
+        "fat": 111372.0,
+        "pos": 1.0,
+        "fat_pernod": 111372.0
+      },
+      "Abr/26": {
+        "fat": 43596.0,
+        "pos": 1.0,
+        "fat_pernod": 43596.0
+      }
+    },
+    "JOAO LUPORINI": {
+      "Jun/26": {
+        "fat": 1756.8,
+        "pos": 2.0,
+        "fat_essenza": 1756.8
+      },
+      "Mai/26": {
+        "fat": 2259.6,
+        "pos": 2.0,
+        "fat_essenza": 1756.8
+      },
+      "Abr/26": {
+        "fat": 2892.0,
+        "pos": 2.0,
+        "fat_essenza": 2892.0
+      },
+      "Mar/26": {
+        "fat": 12118.8,
+        "pos": 2.0,
+        "fat_essenza": 12118.8
+      },
+      "Fev/26": {
+        "fat": 919.2,
+        "pos": 2.0,
+        "fat_essenza": 919.2
+      },
+      "Jan/26": {
+        "fat": 499.8,
+        "pos": 1.0,
+        "fat_essenza": 499.8
+      }
+    },
+    "ROBSON DA SILVA": {
+      "Jun/26": {
+        "fat": 29010.72,
+        "pos": 13.0,
+        "fat_pernod": 23032.2,
+        "fat_crs": 359.64
+      },
+      "Mai/26": {
+        "fat": 63873.61,
+        "pos": 14.0,
+        "fat_pernod": 53176.35
+      },
+      "Abr/26": {
+        "fat": 49244.94,
+        "pos": 14.0,
+        "fat_pernod": 31190.4
+      },
+      "Mar/26": {
+        "fat": 76459.2,
+        "pos": 14.0,
+        "fat_pernod": 40552.32
+      },
+      "Fev/26": {
+        "fat": 104036.76,
+        "pos": 14.0,
+        "fat_pernod": 69680.76
+      },
+      "Jan/26": {
+        "fat": 164476.08,
+        "pos": 14.0,
+        "fat_pernod": 101518.2
+      }
+    },
+    "CARLOS DE ALMEIDA": {
+      "Jun/26": {
+        "fat": 70232.1,
+        "pos": 15.0,
+        "fat_pernod": 19251.0,
+        "fat_essenza": 1176.0
+      },
+      "Mai/26": {
+        "fat": 428989.75,
+        "pos": 23.0,
+        "fat_pernod": 357152.8
+      },
+      "Abr/26": {
+        "fat": 319986.31,
+        "pos": 31.0,
+        "fat_pernod": 293288.8
+      },
+      "Mar/26": {
+        "fat": 762868.6,
+        "pos": 20.0,
+        "fat_pernod": 564451.74,
+        "fat_crs": 1434.24,
+        "fat_essenza": 298.8
+      },
+      "Fev/26": {
+        "fat": 327130.38,
+        "pos": 10.0,
+        "fat_pernod": 306172.8
+      },
+      "Jan/26": {
+        "fat": 22548.47,
+        "pos": 1.0,
+        "fat_pernod": 14373.78
+      }
+    },
+    "ANDRE SILVA": {
+      "Jun/26": {
+        "fat": 78698.86,
+        "pos": 12.0,
+        "fat_pernod": 45093.6,
+        "fat_crs": 2696.76
+      },
+      "Mai/26": {
+        "fat": 248776.43,
+        "pos": 15.0,
+        "fat_pernod": 28516.07
+      },
+      "Abr/26": {
+        "fat": 331089.89,
+        "pos": 15.0,
+        "fat_pernod": 97344.1,
+        "fat_essenza": 588.0
+      },
+      "Mar/26": {
+        "fat": 166766.57,
+        "pos": 15.0,
+        "fat_pernod": 5718.9,
+        "fat_essenza": 2940.0
+      },
+      "Fev/26": {
+        "fat": 541093.05,
+        "pos": 12.0,
+        "fat_pernod": 479483.42
+      },
+      "Jan/26": {
+        "fat": 109964.08,
+        "pos": 6.0,
+        "fat_pernod": 21582.0
+      }
+    },
+    "BRYAN PALOPOLI": {
+      "Jun/26": {
+        "fat": 3294.0,
+        "pos": 1.0
+      },
+      "Mar/26": {
+        "fat": 6588.0,
+        "pos": 1.0
+      },
+      "Fev/26": {
+        "fat": 933.0,
+        "pos": 1.0,
+        "fat_essenza": 513.6
+      }
+    },
+    "BRUNO BARBOSA": {
+      "Jun/26": {
+        "fat": 16585.99,
+        "pos": 4.0,
+        "fat_pernod": 4754.9
+      },
+      "Mai/26": {
+        "fat": 43682.64,
+        "pos": 15.0,
+        "fat_pernod": 20410.8
+      },
+      "Abr/26": {
+        "fat": 72324.12,
+        "pos": 16.0,
+        "fat_pernod": 18501.68
+      },
+      "Mar/26": {
+        "fat": 23236.24,
+        "pos": 4.0,
+        "fat_pernod": 3934.32
+      },
+      "Fev/26": {
+        "fat": 34234.29,
+        "pos": 5.0,
+        "fat_pernod": 15159.0
+      },
+      "Jan/26": {
+        "fat": 14097.52,
+        "pos": 1.0,
+        "fat_pernod": 5983.44
+      }
+    },
+    "ADER ALONSO": {
+      "Jun/26": {
+        "fat": 343112.5,
+        "pos": 26.0,
+        "fat_pernod": 165211.2
+      },
+      "Mai/26": {
+        "fat": 917060.17,
+        "pos": 56.0,
+        "fat_pernod": 589209.24
+      },
+      "Abr/26": {
+        "fat": 772099.48,
+        "pos": 38.0,
+        "fat_pernod": 585299.5
+      },
+      "Mar/26": {
+        "fat": 218666.62,
+        "pos": 29.0,
+        "fat_pernod": 131206.2
+      },
+      "Fev/26": {
+        "fat": 76064.58,
+        "pos": 9.0,
+        "fat_pernod": 41232.54
+      },
+      "Jan/26": {
+        "fat": 36070.74,
+        "pos": 10.0,
+        "fat_pernod": 3320.28
+      }
+    },
+    "MARIO RAFAEL FERRARI": {
+      "Jun/26": {
+        "fat": 9258.47,
+        "pos": 2.0,
+        "fat_pernod": 2459.9
+      },
+      "Mai/26": {
+        "fat": 10959.84,
+        "pos": 2.0
+      },
+      "Abr/26": {
+        "fat": 50230.32,
+        "pos": 2.0,
+        "fat_pernod": 17958.44
+      },
+      "Mar/26": {
+        "fat": 7565.68,
+        "pos": 1.0,
+        "fat_pernod": 616.94
+      },
+      "Fev/26": {
+        "fat": 11077.6,
+        "pos": 2.0,
+        "fat_pernod": 2746.64
+      },
+      "Jan/26": {
+        "fat": 22005.51,
+        "pos": 2.0,
+        "fat_pernod": 7080.97
+      }
+    },
+    "MANUELA ZAPPACOSTA": {
+      "Jun/26": {
+        "fat": 105471.16,
+        "pos": 26.0,
+        "fat_pernod": 63799.8,
+        "fat_crs": 179.28
+      },
+      "Mai/26": {
+        "fat": 449220.07,
+        "pos": 17.0,
+        "fat_pernod": 376857.0
+      },
+      "Abr/26": {
+        "fat": 262330.44,
+        "pos": 11.0,
+        "fat_pernod": 241940.4
+      }
+    },
+    "MARCIA RITA": {
+      "Jun/26": {
+        "fat": 210707.86,
+        "pos": 8.0,
+        "fat_pernod": 191176.1
+      },
+      "Mai/26": {
+        "fat": 317650.91,
+        "pos": 14.0,
+        "fat_pernod": 37984.5,
+        "fat_essenza": 294.0
+      },
+      "Abr/26": {
+        "fat": 544946.32,
+        "pos": 10.0,
+        "fat_pernod": 425694.5
+      },
+      "Mar/26": {
+        "fat": 518686.19,
+        "pos": 7.0,
+        "fat_pernod": 513628.24
+      }
+    },
+    "CRISTIANE MORAIS": {
+      "Jun/26": {
+        "fat": 67892.3,
+        "pos": 22.0,
+        "fat_pernod": 24620.8,
+        "fat_crs": 461.58
+      },
+      "Mai/26": {
+        "fat": 59264.83,
+        "pos": 17.0,
+        "fat_pernod": 41792.51
+      },
+      "Abr/26": {
+        "fat": 1113.12,
+        "pos": 4.0,
+        "fat_pernod": 308.4
+      }
+    },
+    "SUELY SANTOS": {
+      "Jun/26": {
+        "fat": 54587.88,
+        "pos": 22.0,
+        "fat_pernod": 21773.18,
+        "fat_crs": 537.84
+      },
+      "Mai/26": {
+        "fat": 73132.92,
+        "pos": 19.0,
+        "fat_pernod": 44970.67
+      },
+      "Abr/26": {
+        "fat": 34481.46,
+        "pos": 9.0,
+        "fat_pernod": 19176.0
+      }
+    },
+    "ELIZANGELA RODRIGUES": {
+      "Jun/26": {
+        "fat": 84309.0,
+        "pos": 1.0,
+        "fat_pernod": 58974.0
+      },
+      "Mai/26": {
+        "fat": 121577.16,
+        "pos": 1.0,
+        "fat_pernod": 96834.0
+      },
+      "Abr/26": {
+        "fat": 28176.0,
+        "pos": 1.0,
+        "fat_pernod": 28176.0
+      }
+    },
+    "ROBERTO DOS SANTOS": {
+      "Jun/26": {
+        "fat": 50975.91,
+        "pos": 25.0,
+        "fat_pernod": 21110.66,
+        "fat_crs": 1726.2
+      },
+      "Mai/26": {
+        "fat": 7656.4,
+        "pos": 6.0,
+        "fat_pernod": 1662.3,
+        "fat_crs": 1055.04
+      }
+    },
+    "PATRICIO MASSAGARDI": {
+      "Jun/26": {
+        "fat": 8281.38,
+        "pos": 2.0,
+        "fat_pernod": 670.8
+      },
+      "Mai/26": {
+        "fat": 10845.62,
+        "pos": 9.0,
+        "fat_pernod": 619.6,
+        "fat_crs": 44.82
+      }
+    },
+    "CIARA PADULA": {
+      "Jun/26": {
+        "fat": 6897.56,
+        "pos": 4.0,
+        "fat_pernod": 1801.0,
+        "fat_crs": 1117.91
+      },
+      "Mai/26": {
+        "fat": 53499.24,
+        "pos": 16.0,
+        "fat_pernod": 49068.44
+      },
+      "Abr/26": {
+        "fat": 1704.9,
+        "pos": 1.0,
+        "fat_pernod": 1704.9
+      }
+    },
+    "DANIELLE DOS SANTOS": {
+      "Jun/26": {
+        "fat": 18874.34,
+        "pos": 7.0,
+        "fat_pernod": 9725.47
+      },
+      "Mai/26": {
+        "fat": 23626.11,
+        "pos": 9.0,
+        "fat_pernod": 11070.27
+      },
+      "Abr/26": {
+        "fat": 3810.24,
+        "pos": 2.0,
+        "fat_pernod": 1444.8
+      }
+    },
+    "MARLENE RODRIGUES": {
+      "Jun/26": {
+        "fat": 32523.94,
+        "pos": 5.0,
+        "fat_pernod": 26096.5,
+        "fat_crs": 2397.6
+      },
+      "Mai/26": {
+        "fat": 107487.4,
+        "pos": 9.0,
+        "fat_pernod": 21096.0
+      },
+      "Abr/26": {
+        "fat": 7266.6,
+        "pos": 3.0,
+        "fat_pernod": 7266.6
+      }
+    },
+    "RENATO JUNIOR": {
+      "Jun/26": {
+        "fat": 10839.12,
+        "pos": 11.0,
+        "fat_pernod": 1140.78,
+        "fat_crs": 1290.96,
+        "fat_essenza": 2206.08
+      },
+      "Mai/26": {
+        "fat": 286653.34,
+        "pos": 21.0,
+        "fat_pernod": 258233.49
+      }
+    },
+    "PATRICIA RAMOS": {
+      "Jun/26": {
+        "fat": 7295.63,
+        "pos": 7.0,
+        "fat_pernod": 2160.0
+      },
+      "Mai/26": {
+        "fat": 39288.21,
+        "pos": 18.0,
+        "fat_pernod": 30932.1
+      }
+    },
+    "PRISCILLA BONACHE": {
+      "Jun/26": {
+        "fat": 4795.2,
+        "pos": 1.0
+      },
+      "Mai/26": {
+        "fat": 557508.08,
+        "pos": 5.0,
+        "fat_pernod": 557091.34
+      }
+    },
+    "PAULO JUNIOR": {
+      "Jun/26": {
+        "fat": 22165.86,
+        "pos": 15.0,
+        "fat_pernod": 8287.28,
+        "fat_crs": 119.88
+      },
+      "Mai/26": {
+        "fat": 17486.74,
+        "pos": 9.0,
+        "fat_pernod": 11954.3
+      }
+    },
+    "FLAVIO RIBEIRO": {
+      "Jun/26": {
+        "fat": 15895.12,
+        "pos": 9.0,
+        "fat_pernod": 1456.8,
+        "fat_crs": 131.88
+      },
+      "Mai/26": {
+        "fat": 22904.64,
+        "pos": 8.0,
+        "fat_pernod": 20234.0
+      }
+    },
+    "FRANCIS SILVA": {
+      "Jun/26": {
+        "fat": 11324.66,
+        "pos": 3.0,
+        "fat_pernod": 6236.8
+      },
+      "Mai/26": {
+        "fat": 4509.8,
+        "pos": 4.0,
+        "fat_pernod": 507.6
+      }
+    },
+    "LUCAS BUENO": {
+      "Jun/26": {
+        "fat": 4712.12,
+        "pos": 5.0,
+        "fat_pernod": 2092.8,
+        "fat_crs": 635.4
+      },
+      "Mai/26": {
+        "fat": 4040.1,
+        "pos": 3.0,
+        "fat_pernod": 3837.3
+      }
+    },
+    "RODRIGO LIMA": {
+      "Jun/26": {
+        "fat": 75691.23,
+        "pos": 28.0,
+        "fat_pernod": 38177.9
+      },
+      "Mai/26": {
+        "fat": 43722.53,
+        "pos": 13.0,
+        "fat_pernod": 24220.9
+      }
+    },
+    "LUCIANO TOSCHI": {
+      "Jun/26": {
+        "fat": 16065.64,
+        "pos": 12.0,
+        "fat_pernod": 8742.9,
+        "fat_crs": 119.88
+      },
+      "Mai/26": {
+        "fat": 14757.0,
+        "pos": 8.0,
+        "fat_pernod": 11694.8
+      }
+    },
+    "NÁTALI DE OLIVEIRA": {
+      "Jun/26": {
+        "fat": 42728.4,
+        "pos": 2.0,
+        "fat_pernod": 42728.4
+      }
+    },
+    "ALEXANDRE TONON": {
+      "Jun/26": {
+        "fat": 4579.64,
+        "pos": 1.0,
+        "fat_pernod": 1943.64
+      }
+    },
+    "ANDRE PINHEIRO": {
+      "Jun/26": {
+        "fat": 1581.6,
+        "pos": 1.0
+      },
+      "Mai/26": {
+        "fat": 790.8,
+        "pos": 3.0
+      }
+    },
+    "LEONARDO FLOREZI": {
+      "Jun/26": {
+        "fat": 8230.48,
+        "pos": 8.0,
+        "fat_pernod": 1354.0,
+        "fat_essenza": 789.36
+      }
+    },
+    "LUIZ RIGLER": {
+      "Jun/26": {
+        "fat": 17660.9,
+        "pos": 7.0,
+        "fat_pernod": 4072.1
+      }
+    },
+    "FERNANDO BERTIN": {
+      "Jun/26": {
+        "fat": 4703.36,
+        "pos": 1.0,
+        "fat_pernod": 1339.2
+      }
+    },
+    "DOUGLAS TEIXEIRA": {
+      "Jun/26": {
+        "fat": 6624.76,
+        "pos": 4.0,
+        "fat_pernod": 3677.4
+      }
+    },
+    "W.S": {
+      "Jun/26": {
+        "fat": 1760225.01,
+        "pos": 110.0,
+        "fat_pernod": 809718.78,
+        "fat_crs": 12567.72
+      },
+      "Mai/26": {
+        "fat": 2028315.23,
+        "pos": 140.0,
+        "fat_pernod": 1262638.99,
+        "fat_essenza": 525.6
+      },
+      "Abr/26": {
+        "fat": 3057844.94,
+        "pos": 170.0,
+        "fat_pernod": 2246140.88
+      },
+      "Mar/26": {
+        "fat": 4116331.75,
+        "pos": 182.0,
+        "fat_pernod": 3124192.42,
+        "fat_crs": 564.3
+      },
+      "Fev/26": {
+        "fat": 3400065.17,
+        "pos": 143.0,
+        "fat_pernod": 2559679.63,
+        "fat_crs": 179.28
+      },
+      "Jan/26": {
+        "fat": 4452900.54,
+        "pos": 145.0,
+        "fat_pernod": 2726772.83,
+        "fat_crs": 1242.27
+      }
+    },
+    "MARCUS TANAMACHI": {
+      "Mai/26": {
+        "fat": 900095.4,
+        "pos": 1.0,
+        "fat_pernod": 900095.4
+      },
+      "Abr/26": {
+        "fat": 174034.2,
+        "pos": 1.0,
+        "fat_pernod": 174034.2
+      }
+    },
+    "ANA PAULA": {
+      "Mai/26": {
+        "fat": 21147.0,
+        "pos": 2.0,
+        "fat_pernod": 957.6
+      },
+      "Abr/26": {
+        "fat": 24102.65,
+        "pos": 3.0,
+        "fat_pernod": 394.4
+      },
+      "Mar/26": {
+        "fat": 3997.08,
+        "pos": 4.0,
+        "fat_pernod": 957.6,
+        "fat_essenza": 1864.8
+      }
+    },
+    "WANDO MACHADO": {
+      "Mai/26": {
+        "fat": 93364.08,
+        "pos": 3.0,
+        "fat_pernod": 2950.38
+      },
+      "Abr/26": {
+        "fat": 112503.2,
+        "pos": 4.0,
+        "fat_pernod": 5821.2
+      },
+      "Mar/26": {
+        "fat": 47211.2,
+        "pos": 8.0,
+        "fat_pernod": 18445.2
+      }
+    },
+    "MARCELO PEREIRA": {
+      "Mai/26": {
+        "fat": 19765.2,
+        "pos": 1.0,
+        "fat_pernod": 19765.2
+      }
+    },
+    "JESSICA FREITAS": {
+      "Abr/26": {
+        "fat": 6173.86,
+        "pos": 7.0,
+        "fat_pernod": 317.4
+      },
+      "Mar/26": {
+        "fat": 4237.17,
+        "pos": 4.0,
+        "fat_pernod": 453.8
+      },
+      "Fev/26": {
+        "fat": 733.8,
+        "pos": 1.0
+      }
+    },
+    "LEONARDO MILAN": {
+      "Mar/26": {
+        "fat": 1706979.92,
+        "pos": 1.0,
+        "fat_pernod": 1706979.92
+      },
+      "Fev/26": {
+        "fat": 487029.1,
+        "pos": 1.0,
+        "fat_pernod": 487029.1
+      }
+    },
+    "FABIANO RIBEIRO": {
+      "Mar/26": {
+        "fat": 2061.58,
+        "pos": 1.0,
+        "fat_pernod": 661.72,
+        "fat_crs": 68.58
+      },
+      "Fev/26": {
+        "fat": 68400.0,
+        "pos": 1.0,
+        "fat_pernod": 68400.0
+      }
+    },
+    "MARCELO DE CAMPOS": {
+      "Fev/26": {
+        "fat": 422013.0,
+        "pos": 9.0,
+        "fat_pernod": 422013.0
+      },
+      "Jan/26": {
+        "fat": 647688.0,
+        "pos": 5.0,
+        "fat_pernod": 647688.0
       }
     }
   }
