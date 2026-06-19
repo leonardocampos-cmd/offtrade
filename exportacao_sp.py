@@ -102,7 +102,8 @@ _vh['MES_STR']  = _vh['MES'].apply(_mes_pt)
 import re
 _vh['VENDEDOR'] = (
     _vh['NOME_ORACLE']
-    .str.replace(r'\s*OFF\s*TRADE\s*(SP)?\s*', ' ', regex=True, case=False)
+    .str.replace(r'\s*OFF\s*TRADE\s*(SP)?\s*', '', regex=True, case=False)
+    .str.replace(r'\s*-\s*$', '', regex=True)
     .str.strip()
     .str.upper()
 )
