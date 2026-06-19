@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/06/2026 09:01",
+  "atualizado_em": "19/06/2026 09:17",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -34726,15 +34726,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 407,
           "valor": 39845.3
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "40362",
-          "cliente": "FIDALGO GOUVEIA E CIA LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 600,
-          "valor": 14994.0
         },
         {
           "data": "15/06/2026",
