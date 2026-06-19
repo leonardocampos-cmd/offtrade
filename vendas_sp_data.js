@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/06/2026 12:19",
+  "atualizado_em": "19/06/2026 13:54",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -34316,24 +34316,6 @@ const VENDAS_SP_DATA = {
           "valor": 3234.24
         },
         {
-          "data": "18/06/2026",
-          "codcli": "39457",
-          "cliente": "COMERCIAL DE BEBIDAS GRANDE MIX LTDA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 660,
-          "valor": 16170.0
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "39457",
-          "cliente": "COMERCIAL DE BEBIDAS GRANDE MIX LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 1680,
-          "valor": 43512.0
-        },
-        {
           "data": "02/06/2026",
           "codcli": "39325",
           "cliente": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
@@ -41755,15 +41737,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "AURORA",
           "qt": 60,
           "valor": 7014.0
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "27228",
-          "cliente": "BOB PECHINCA ATACADISTA LTDA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 840,
-          "valor": 20580.0
         },
         {
           "data": "01/06/2026",
