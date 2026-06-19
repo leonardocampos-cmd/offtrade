@@ -39,27 +39,21 @@ RCA_RE = re.compile(
 # ── Autenticação ───────────────────────────────────────────────────────────────
 
 def _get_service():
-    creds = None
-    if TOKEN_GMAIL.exists():
-        creds = Credentials.from_authorized_user_file(str(TOKEN_GMAIL), SCOPES)
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
+    if not TOKEN_GMAIL.exists():
+        raise FileNotFoundError(
+            f"token_gmail.json não encontrado. "
+            f"Execute gmail_setup.py uma vez para autorizar o acesso ao Gmail."
+        )
+    creds = Credentials.from_authorized_user_file(str(TOKEN_GMAIL), SCOPES)
+    if not creds.valid:
+        if creds.expired and creds.refresh_token:
             creds.refresh(Request())
+            TOKEN_GMAIL.write_text(creds.to_json(), encoding="utf-8")
         else:
-            from dotenv import load_dotenv
-            load_dotenv(BASE / ".env")
-            cfg = {
-                "installed": {
-                    "client_id":     os.getenv("GOOGLE_CLIENT_ID"),
-                    "client_secret": os.getenv("GOOGLE_CLIENT_SECRET"),
-                    "auth_uri":      "https://accounts.google.com/o/oauth2/auth",
-                    "token_uri":     "https://oauth2.googleapis.com/token",
-                    "redirect_uris": ["http://localhost"],
-                }
-            }
-            flow = InstalledAppFlow.from_client_config(cfg, SCOPES)
-            creds = flow.run_local_server(port=0)
-        TOKEN_GMAIL.write_text(creds.to_json(), encoding="utf-8")
+            raise RuntimeError(
+                "Token Gmail inválido ou sem refresh_token. "
+                "Rode gmail_setup.py novamente para reautorizar."
+            )
     return build("gmail", "v1", credentials=creds)
 
 

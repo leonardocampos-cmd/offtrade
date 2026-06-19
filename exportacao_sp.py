@@ -116,6 +116,65 @@ _rcas: dict[str, str] = {}
 for _, row in _vh[['VENDEDOR', 'CODUSUR']].drop_duplicates().iterrows():
     _rcas[row['VENDEDOR']] = str(int(row['CODUSUR']))
 
+# ── Metas SP ──────────────────────────────────────────────────────────────────
+
+import unicodedata
+
+def _norm_col(s):
+    return unicodedata.normalize('NFKD', str(s)).encode('ascii', 'ignore').decode().upper().strip()
+
+def _limpar_nome_sp(nome):
+    return (
+        re.sub(r'\s*-?\s*OFF\s*TRADE\s*(SP)?\s*', ' ', str(nome), flags=re.IGNORECASE)
+        .strip()
+        .upper()
+    )
+
+_metas_sp: dict = {}
+try:
+    _df_m = pd.read_excel(
+        r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS SP.xlsx"
+    )
+    _df_m.columns = _df_m.columns.str.strip()
+    _cn = {_norm_col(c): c for c in _df_m.columns}  # mapa normalizado → nome real
+
+    def _meta_col(key):
+        return _cn.get(_norm_col(key))
+
+    _df_m['_VEND'] = _df_m[_meta_col('VENDEDOR')].apply(_limpar_nome_sp)
+
+    _col_mes = _meta_col('MES') or _meta_col('MÊS')
+    _df_m['_MES'] = pd.to_datetime(_df_m[_col_mes], errors='coerce').apply(
+        lambda d: _mes_pt(d) if pd.notna(d) else None
+    )
+
+    for _, row in _df_m.iterrows():
+        nome = row['_VEND']
+        mes  = row['_MES']
+        if not nome or not mes:
+            continue
+
+        def _v(col_key):
+            c = _meta_col(col_key)
+            if c is None:
+                return None
+            val = row.get(c)
+            return float(val) if pd.notna(val) and val != 0 else None
+
+        _metas_sp.setdefault(nome, {})[mes] = {
+            'fat':         _v('META FATURAMENTO'),
+            'pos':         _v('META POSITIVACAO'),
+            'fat_pernod':  _v('META FATURAMENTO PERNOD'),
+            'fat_crs':     _v('META FATURAMENTO CRS'),
+            'fat_essenza': _v('META FATURAMENTO ESSENZA'),
+        }
+
+    print(f"Metas SP: {len(_metas_sp)} vendedores")
+except FileNotFoundError:
+    print("AVISO: METAS SP.xlsx não encontrado — metas ignoradas")
+except Exception as _ex:
+    print(f"AVISO: Erro ao carregar metas SP: {_ex}")
+
 # ── Monta estrutura por_vendedor ──────────────────────────────────────────────
 
 _meses_vh  = sorted(_vh['MES'].dropna().unique(), reverse=True)
@@ -142,6 +201,7 @@ payload = {
     'meses':         _meses_str,
     'rcas':          _rcas,
     'por_vendedor':  _por_vendedor,
+    'metas':         _metas_sp,
 }
 
 js_out = (

@@ -328,6 +328,44 @@ function buildNaoPos(npList, prefix) {
   }).join('');
 }
 
+// ── Helpers de meta ──────────────────────────────────────────────────────────
+
+function _getMeta(nome, mes) {
+  if (typeof VENDAS_SP_DATA === 'undefined') return null;
+  var m = (VENDAS_SP_DATA.metas || {})[nome];
+  return m ? (m[mes] || null) : null;
+}
+
+function _pctCls(p) {
+  return p >= 100 ? 'green' : p >= 70 ? 'yellow' : 'red';
+}
+
+function _metaBar(real, meta, label) {
+  if (!meta || meta <= 0) return '';
+  var p    = Math.min(Math.round(real / meta * 100), 150);
+  var cls  = _pctCls(p);
+  var fill = Math.min(p, 100);
+  return '<div class="meta-bar-wrap">' +
+    '<div class="meta-bar-label">' +
+      '<span>' + label + '</span>' +
+      '<span class="meta-pct ' + cls + '">' + p + '%</span>' +
+    '</div>' +
+    '<div class="meta-bar-track"><div class="meta-bar-fill ' + cls + '" style="width:' + fill + '%"></div></div>' +
+  '</div>';
+}
+
+function _metaKpi(label, real, meta) {
+  if (!meta || meta <= 0) return '';
+  var p   = Math.min(Math.round(real / meta * 100), 999);
+  var cls = _pctCls(p);
+  return '<div class="meta-kpi">' +
+    '<div class="meta-kpi-label">' + label + '</div>' +
+    '<div class="meta-kpi-vals ' + cls + '">' + fmtFat(real) + '</div>' +
+    '<div class="meta-kpi-sub">Meta: ' + fmtFat(meta) + ' &middot; <span class="' + cls + '">' + p + '%</span></div>' +
+    _metaBar(real, meta, '') +
+  '</div>';
+}
+
 // ── Faturamento agrupado por cliente + data ───────────────────────────────────
 
 function buildVendasGrouped(lista, prefix) {
@@ -392,17 +430,23 @@ function _buildVendorCards(mes) {
     var secId  = 'card-np-' + idx;
     var rca    = (VENDAS_SP_DATA.rcas && VENDAS_SP_DATA.rcas[nome]) ? 'RCA ' + VENDAS_SP_DATA.rcas[nome] : 'SP';
 
+    var meta    = _getMeta(nome, mes);
+    var metaFat = meta ? meta.fat : null;
+    var metaPos = meta ? meta.pos : null;
+
     return '<div class="vendor-card" data-nome="' + nome.toLowerCase() + '">' +
       '<div class="vendor-name">' + nome + '</div>' +
       '<div class="vendor-sub">' + rca + '</div>' +
       '<div class="stat-row">' +
         '<span class="stat-label">Faturamento</span>' +
-        '<span class="stat-val">' + fmtFat(fat) + '</span>' +
+        '<span class="stat-val">' + fmtFat(fat) + (metaFat ? ' <span style="font-size:.7rem;color:var(--muted)">/ ' + fmtFat(metaFat) + '</span>' : '') + '</span>' +
       '</div>' +
-      '<div class="stat-row">' +
+      (metaFat ? _metaBar(fat, metaFat, 'Fat. vs Meta') : '') +
+      '<div class="stat-row" style="margin-top:' + (metaFat ? '8px' : '0') + '">' +
         '<span class="stat-label">Positivados</span>' +
-        '<span class="stat-val">' + nCli + '</span>' +
+        '<span class="stat-val">' + nCli + (metaPos ? ' <span style="font-size:.7rem;color:var(--muted)">/ ' + metaPos + '</span>' : '') + '</span>' +
       '</div>' +
+      (metaPos ? _metaBar(nCli, metaPos, 'Pos. vs Meta') : '') +
       '<div class="sec-header" onclick="toggleSec(\'' + secId + '\')" style="padding:6px 0;margin-top:4px">' +
         '<div>' +
           '<span class="sec-title">Não positivados</span>' +
@@ -439,10 +483,38 @@ function _atualizarTabelaSP(nome) {
   var qt   = lista.reduce(function(s, r) { return s + r.qt; }, 0);
   var nCli = new Set(lista.map(function(r) { return r.codcli || r.cliente; })).size;
 
+  var meta = _getMeta(nome, mes);
+
   document.getElementById('vendas-kpis').innerHTML =
-    '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmtFat(fat) + '</div></div>' +
+    '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmtFat(fat) + '</div>' +
+      (meta && meta.fat ? '<div style="font-size:.7rem;color:var(--muted)">Meta: ' + fmtFat(meta.fat) + '</div>' : '') + '</div>' +
     '<div><div class="kpi-label">Itens</div><div class="kpi-val">' + qt.toLocaleString('pt-BR') + '</div></div>' +
-    '<div><div class="kpi-label">Clientes</div><div class="kpi-val">' + nCli + '</div></div>';
+    '<div><div class="kpi-label">Positivados</div><div class="kpi-val">' + nCli + '</div>' +
+      (meta && meta.pos ? '<div style="font-size:.7rem;color:var(--muted)">Meta: ' + meta.pos + '</div>' : '') + '</div>';
+
+  // Seção de metas por fornecedor
+  var metasHtml = '';
+  if (meta) {
+    var kpis = [
+      ['Faturamento Total', fat,  meta.fat],
+      ['Positivação',       nCli, meta.pos],
+    ];
+    var fatPernod = lista.filter(function(r) { return r.fantasia && r.fantasia.toUpperCase().includes('PERNOD'); })
+                         .reduce(function(s, r) { return s + r.valor; }, 0);
+    var fatCrs    = lista.filter(function(r) { return r.fantasia && r.fantasia.toUpperCase().includes('CRS'); })
+                         .reduce(function(s, r) { return s + r.valor; }, 0);
+    var fatEss    = lista.filter(function(r) { return r.fantasia && r.fantasia.toUpperCase().includes('ESSENZA'); })
+                         .reduce(function(s, r) { return s + r.valor; }, 0);
+    if (meta.fat_pernod)  kpis.push(['Fat. Pernod',  fatPernod, meta.fat_pernod]);
+    if (meta.fat_crs)     kpis.push(['Fat. CRS',     fatCrs,    meta.fat_crs]);
+    if (meta.fat_essenza) kpis.push(['Fat. Essenza',  fatEss,   meta.fat_essenza]);
+
+    metasHtml = '<div class="metas-grid">' +
+      kpis.map(function(k) { return _metaKpi(k[0], k[1], k[2]); }).join('') +
+    '</div>';
+  }
+
+  document.getElementById('vendas-metas').innerHTML = metasHtml;
   document.getElementById('vendas-tabela').innerHTML = buildVendasGrouped(lista, 'fat-' + nome.replace(/\W/g,''));
 }
 
@@ -498,6 +570,7 @@ function renderVendasSP(nome) {
       '</div>' +
       '<div id="sec-fat" class="sec-body open">' +
         '<div id="vendas-kpis" class="vendas-kpis" style="margin-top:14px"></div>' +
+        '<div id="vendas-metas" style="margin-bottom:14px"></div>' +
         '<div id="vendas-tabela"></div>' +
       '</div>' +
     '</div>' +
