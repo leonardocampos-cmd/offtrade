@@ -172,7 +172,7 @@ nomes_sp_set = frozenset(nomes_oracle)
 
 metas_eq = {
     "fat_tt": sum(metas_map.get(n, {}).get("fat_tt", 0) for n in nomes_oracle),
-    "pos_tt": sum(metas_map.get(n, {}).get("pos_tt", 0) for n in nomes_oracle),
+    "pos_tt": int(sum(metas_map.get(n, {}).get("pos_tt", 0) for n in nomes_oracle)),
 }
 
 met_total = _metricas(df_all)
@@ -185,8 +185,8 @@ section_title(f"Equipe SP — resumo do mês · {hoje_str}")
 c1, c2, c3, c4 = st.columns(4)
 c1.markdown(f'<div class="metric-card"><div class="metric-label">Faturamento</div><div class="metric-value">{fmt_brl(met_total["fat_tt"])}</div></div>', unsafe_allow_html=True)
 c2.markdown(f'<div class="metric-card"><div class="metric-label">Meta Faturamento</div><div class="metric-value">{fmt_brl(metas_eq["fat_tt"])}</div></div>', unsafe_allow_html=True)
-c3.markdown(f'<div class="metric-card"><div class="metric-label">Positivação</div><div class="metric-value">{met_total["pos_tt"]}</div></div>', unsafe_allow_html=True)
-c4.markdown(f'<div class="metric-card"><div class="metric-label">Meta Positivação</div><div class="metric-value">{metas_eq["pos_tt"]}</div></div>', unsafe_allow_html=True)
+c3.markdown(f'<div class="metric-card"><div class="metric-label">Positivação</div><div class="metric-value">{int(met_total["pos_tt"])}</div></div>', unsafe_allow_html=True)
+c4.markdown(f'<div class="metric-card"><div class="metric-label">Meta Positivação</div><div class="metric-value">{int(metas_eq["pos_tt"])}</div></div>', unsafe_allow_html=True)
 
 st.markdown(f"""
 <div style="margin:12px 0 24px">

@@ -1,5 +1,5 @@
 """Metas Off Trade RJ — consulta Oracle direto, metas de metas_config.json."""
-import json, re
+import json
 from datetime import date
 from pathlib import Path
 
@@ -18,72 +18,59 @@ page_header("Metas Off Trade RJ", "Faturamento e Positivação · Mês Atual")
 
 METAS_FILE = Path(__file__).parent.parent / "metas_config.json"
 
-def _carregar_metas() -> dict:
-    if METAS_FILE.exists():
-        return json.loads(METAS_FILE.read_text(encoding="utf-8"))
-    return {"vendedores": []}
-
 _MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
-_hoje_admin = date.today()
-_mes_atual_key = f"{_MESES[_hoje_admin.month - 1]}/{str(_hoje_admin.year)[2:]}"
+_hoje  = date.today()
+_mes_atual_key = f"{_MESES[_hoje.month - 1]}/{str(_hoje.year)[2:]}"
 
-metas_cfg = _carregar_metas()
+metas_cfg: dict = json.loads(METAS_FILE.read_text(encoding="utf-8")) if METAS_FILE.exists() else {"vendedores": []}
 metas_map: dict[str, dict] = {}
-for v in metas_cfg.get("vendedores", []):
-    meses = v.get("metas_por_mes", {})
-    if _mes_atual_key in meses:
-        metas_map[v["nome"]] = meses[_mes_atual_key]
+for _v in metas_cfg.get("vendedores", []):
+    _m = _v.get("metas_por_mes", {}).get(_mes_atual_key)
+    if _m:
+        metas_map[_v["nome"]] = _m
 
 # ── Queries Oracle ─────────────────────────────────────────────────────────────
 
 _FILTRO_FILIAL = "(1, 2, 4)"
 
-def _q_vendas(schema: str, filtro_filial: str | None = _FILTRO_FILIAL, filtro_estent: str | None = None) -> str:
-    p = f"{schema.upper()}."
-    extra_fil = f"\n      AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
-    extra_est = f"\n      AND C.ESTENT = '{filtro_estent}'" if filtro_estent else ""
-    join_cli  = f"\n    JOIN {p}PCCLIENT C ON M.CODCLI = C.CODCLI" if filtro_estent else f"\n    LEFT JOIN {p}PCCLIENT C ON M.CODCLI = C.CODCLI"
+def _q_vendas(schema: str, filtro_filial: str | None = _FILTRO_FILIAL) -> str:
+    p   = f"{schema.upper()}."
+    fil = f"\n      AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
     return f"""
-    SELECT
-        M.CODCLI, C.CLIENTE,
-        U.NOME    AS NOME_ORACLE,
-        F.FANTASIA,
-        M.DESCRICAO AS PRODUTO,
-        (M.PUNIT * M.QT) AS VALOR
+    SELECT M.CODCLI, C.CLIENTE,
+           U.NOME      AS NOME_ORACLE,
+           F.FANTASIA,
+           M.DESCRICAO AS PRODUTO,
+           (M.PUNIT * M.QT) AS VALOR
     FROM {p}PCMOV M
-    JOIN {p}PCUSUARI U ON M.CODUSUR = U.CODUSUR{join_cli}
-    JOIN {p}PCFORNEC F ON M.CODFORNEC = F.CODFORNEC
+    JOIN {p}PCUSUARI U  ON M.CODUSUR   = U.CODUSUR
+    LEFT JOIN {p}PCCLIENT C ON M.CODCLI = C.CODCLI
+    JOIN {p}PCFORNEC F  ON M.CODFORNEC = F.CODFORNEC
     WHERE TRUNC(M.DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
       AND M.CODOPER IN ('S','SB')
       AND M.NUMNOTADEV IS NULL
-      AND M.DTCANCEL IS NULL
-      AND U.NOME LIKE '%OFF TRADE%'{extra_fil}{extra_est}
+      AND M.DTCANCEL   IS NULL
+      AND U.NOME LIKE '%OFF TRADE%'{fil}
     """
-
-def _q_mapa_rca(schema: str) -> str:
-    return f"SELECT CODUSUR AS RCA, NOME FROM {schema.upper()}.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'"
 
 
 @st.cache_data(ttl=300, show_spinner="Carregando dados Oracle…")
 def _carregar_vendas() -> pd.DataFrame:
     dbs = [
-        ("CRC",      "crc",     _FILTRO_FILIAL, None),
-        ("thekings", "theking", _FILTRO_FILIAL, None),
-        ("SPON",     "sp",      None,           None),
+        ("CRC",      "crc",     _FILTRO_FILIAL),
+        ("thekings", "theking", _FILTRO_FILIAL),
     ]
     partes = []
-    for schema, db_key, fil, est in dbs:
+    for schema, db_key, fil in dbs:
         try:
             with get_conn(db_key) as conn:
-                df = pd.read_sql(_q_vendas(schema, fil, est), conn)
+                df = pd.read_sql(_q_vendas(schema, fil), conn)
                 df.columns = df.columns.str.upper()
                 partes.append(df)
         except Exception as e:
             st.toast(f"[aviso] {schema}: {e}", icon="⚠️")
-
     if not partes:
         return pd.DataFrame()
-
     df = pd.concat(partes, ignore_index=True)
     df["VALOR"]    = pd.to_numeric(df["VALOR"],    errors="coerce").fillna(0)
     df["FANTASIA"] = df["FANTASIA"].fillna("").str.upper()
@@ -92,25 +79,28 @@ def _carregar_vendas() -> pd.DataFrame:
     return df
 
 
-@st.cache_data(ttl=3600)
-def _mapa_rca() -> dict[str, str]:
-    dbs = [("CRC", "crc"), ("thekings", "theking"), ("SPON", "sp")]
-    partes = []
-    for schema, db_key in dbs:
-        try:
-            with get_conn(db_key) as conn:
-                df = pd.read_sql(_q_mapa_rca(schema), conn)
-                df.columns = df.columns.str.upper()
-                partes.append(df)
-        except Exception:
-            pass
-    if not partes:
-        return {}
-    df = pd.concat(partes, ignore_index=True).drop_duplicates(subset=["RCA"])
-    return dict(zip(df["NOME"].astype(str), df["NOME"].astype(str)))
+@st.cache_data(ttl=300)
+def _carregar_nao_pos(nomes_rj: frozenset) -> pd.DataFrame:
+    mes_str   = _hoje.strftime("%m-%Y")
+    xlsx_path = Path(__file__).parent.parent / f"nao_positivados_{mes_str}.xlsx"
+    if not xlsx_path.exists():
+        return pd.DataFrame()
+    try:
+        df = pd.read_excel(xlsx_path)
+        df.columns = df.columns.str.upper()
+        for col in ("NOME_RCA", "NOME_RCA2"):
+            if col not in df.columns:
+                df[col] = ""
+        df["NOME_RCA"]  = df["NOME_RCA"].fillna("")
+        df["NOME_RCA2"] = df["NOME_RCA2"].fillna("")
+        mask = df["NOME_RCA"].isin(nomes_rj) | df["NOME_RCA2"].isin(nomes_rj)
+        return df[mask].copy()
+    except Exception as e:
+        st.toast(f"[aviso] Não positivados: {e}", icon="⚠️")
+        return pd.DataFrame()
 
 
-# ── Cálculo de métricas ────────────────────────────────────────────────────────
+# ── Métricas ───────────────────────────────────────────────────────────────────
 
 def _metricas(df: pd.DataFrame) -> dict:
     if df.empty:
@@ -145,8 +135,10 @@ def _pct(realizado, meta) -> float:
     return round(realizado / meta * 100, 1) if meta and meta > 0 else 0.0
 
 
-def _linha_metrica(label: str, realizado, meta, is_brl: bool = True):
-    pct  = _pct(realizado, meta)
+def _linha_metrica(label: str, realizado, meta, is_brl: bool = True) -> str:
+    if not meta:
+        return ""
+    pct   = _pct(realizado, meta)
     r_fmt = fmt_brl(realizado) if is_brl else str(int(realizado))
     m_fmt = fmt_brl(meta)      if is_brl else str(int(meta))
     return (
@@ -162,22 +154,37 @@ def _linha_metrica(label: str, realizado, meta, is_brl: bool = True):
     )
 
 
+def _nao_pos_html(df: pd.DataFrame) -> str:
+    cols = {"CLIENTE": "Cliente", "BAIRROENT": "Bairro", "DTULTCOMP": "Últ. Compra"}
+    headers = "".join(f'<th>{v}</th>' for k, v in cols.items() if k in df.columns)
+    rows = "".join(
+        "<tr>" + "".join(f'<td>{r[k] if k in df.columns else ""}</td>' for k in cols if k in df.columns) + "</tr>"
+        for _, r in df.iterrows()
+    )
+    return (
+        f'<div style="overflow-y:auto;max-height:260px;margin-top:6px">'
+        f'<table class="custom-table"><thead><tr>{headers}</tr></thead>'
+        f'<tbody>{rows}</tbody></table></div>'
+    )
+
+
 # ── Render ─────────────────────────────────────────────────────────────────────
 
-df_all = _carregar_vendas()
+df_all       = _carregar_vendas()
+nomes_oracle = sorted(df_all["NOME_ORACLE"].dropna().unique()) if not df_all.empty else []
+df_nao_pos   = _carregar_nao_pos(frozenset(nomes_oracle))
 
-# Totais globais
 met_total = _metricas(df_all)
 metas_eq  = {
     "fat_tt": sum(v.get("fat_tt", 0) for v in metas_map.values()),
-    "pos_tt": sum(v.get("pos_tt", 0) for v in metas_map.values()),
+    "pos_tt": int(sum(v.get("pos_tt", 0) for v in metas_map.values())),
 }
 
-hoje_str = date.today().strftime("%d/%m/%Y")
+hoje_str = _hoje.strftime("%d/%m/%Y")
 pct_fat  = _pct(met_total["fat_tt"], metas_eq["fat_tt"])
 pct_pos  = _pct(met_total["pos_tt"], metas_eq["pos_tt"])
 
-section_title(f"Equipe — resumo do mês · {hoje_str}")
+section_title(f"Equipe RJ — resumo do mês · {hoje_str}")
 
 c1, c2, c3, c4 = st.columns(4)
 c1.markdown(f'<div class="metric-card"><div class="metric-label">Faturamento</div><div class="metric-value">{fmt_brl(met_total["fat_tt"])}</div></div>', unsafe_allow_html=True)
@@ -194,45 +201,72 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# ── Cards por vendedor ────────────────────────────────────────────────────────
+# ── Cards por vendedor ─────────────────────────────────────────────────────────
 
 section_title("Vendedores")
-
-nomes_oracle = sorted(df_all["NOME_ORACLE"].dropna().unique()) if not df_all.empty else []
 
 if not nomes_oracle and not metas_map:
     st.info("Nenhum dado encontrado. Verifique a conexão Oracle e o arquivo metas_config.json.")
 
 for nome_oracle in nomes_oracle:
-    df_v   = df_all[df_all["NOME_ORACLE"] == nome_oracle]
-    met    = _metricas(df_v)
-    metas  = metas_map.get(nome_oracle, {})
+    df_v  = df_all[df_all["NOME_ORACLE"] == nome_oracle]
+    met   = _metricas(df_v)
+    metas = metas_map.get(nome_oracle, {})
     nome_display = nome_oracle.replace(" OFF TRADE", "").replace(" - OFF TRADE", "").strip().title()
 
     fat_meta = metas.get("fat_tt", 0)
     pos_meta = metas.get("pos_tt", 0)
     pct_f    = _pct(met["fat_tt"], fat_meta)
-    pct_p    = _pct(met["pos_tt"], pos_meta)
 
     _icon = "🟢" if pct_f >= 80 else ("🟡" if pct_f >= 50 else "🔴")
-    with st.expander(f"**{nome_display}** · {fmt_brl(met['fat_tt'])} · {met['pos_tt']} clientes · {_icon} {pct_f:.0f}%", expanded=False):
-        st.markdown(f"""
+    with st.expander(
+        f"**{nome_display}** · {fmt_brl(met['fat_tt'])} · {met['pos_tt']} clientes · {_icon} {pct_f:.0f}%",
+        expanded=False,
+    ):
+        col_esq, col_dir = st.columns([3, 2])
+
+        with col_esq:
+            st.markdown(f"""
 <div class="vendor-card">
 <div class="vendor-name">{nome_display}</div>
-{_linha_metrica("Faturamento TT",          met["fat_tt"],              fat_meta)}
-{_linha_metrica("Positivação TT",          met["pos_tt"],              pos_meta,             is_brl=False)}
-{_linha_metrica("Fat. Castas",             met["fat_castas"],          metas.get("fat_castas", 0))}
-{_linha_metrica("Fat. HOB + Azeite",       met["fat_hob_azeite"],      metas.get("fat_hob_azeite", 0))}
-{_linha_metrica("Fat. Domeq + Passport",   met["fat_domecq_passport"], metas.get("fat_domecq_passport", 0))}
-{_linha_metrica("Pos. HOB + Azeite",       met["pos_hob_azeite"],      metas.get("pos_hob_azeite", 0),    is_brl=False)}
-{_linha_metrica("Pos. Reckit",             met["pos_reckit"],          metas.get("pos_reckit", 0),        is_brl=False)}
-{_linha_metrica("Pos. Crusoe",             met["pos_crusoe"],          metas.get("pos_crusoe", 0),        is_brl=False)}
-{_linha_metrica("Pos. Tatuzinho",          met["pos_tatuzinho"],       metas.get("pos_tatuzinho", 0),     is_brl=False)}
-{_linha_metrica("Pos. Red Bull",           met["pos_redbull"],         metas.get("pos_redbull", 0),       is_brl=False)}
+{_linha_metrica("Faturamento TT",        met["fat_tt"],              fat_meta)}
+{_linha_metrica("Positivação TT",        met["pos_tt"],              pos_meta,                          is_brl=False)}
+{_linha_metrica("Fat. Castas",           met["fat_castas"],          metas.get("fat_castas", 0))}
+{_linha_metrica("Fat. HOB + Azeite",     met["fat_hob_azeite"],      metas.get("fat_hob_azeite", 0))}
+{_linha_metrica("Fat. Domecq+Passport",  met["fat_domecq_passport"], metas.get("fat_domecq_passport", 0))}
+{_linha_metrica("Pos. HOB + Azeite",     met["pos_hob_azeite"],      metas.get("pos_hob_azeite", 0),    is_brl=False)}
+{_linha_metrica("Pos. Reckit",           met["pos_reckit"],          metas.get("pos_reckit", 0),        is_brl=False)}
+{_linha_metrica("Pos. Crusoe",           met["pos_crusoe"],          metas.get("pos_crusoe", 0),        is_brl=False)}
+{_linha_metrica("Pos. Tatuzinho",        met["pos_tatuzinho"],       metas.get("pos_tatuzinho", 0),     is_brl=False)}
+{_linha_metrica("Pos. Red Bull",         met["pos_redbull"],         metas.get("pos_redbull", 0),       is_brl=False)}
+{_linha_metrica("Pos. Pinatti",          met["pos_pinatti"],         metas.get("pos_pinatti", 0),       is_brl=False)}
 </div>
 """.strip(), unsafe_allow_html=True)
 
-# ── Sem metas configuradas ────────────────────────────────────────────────────
+        with col_dir:
+            if not df_nao_pos.empty:
+                mask_v = (
+                    df_nao_pos["NOME_RCA"].eq(nome_oracle)
+                    | df_nao_pos["NOME_RCA2"].eq(nome_oracle)
+                )
+                df_np_v = df_nao_pos[mask_v]
+            else:
+                df_np_v = pd.DataFrame()
+
+            n_np   = len(df_np_v)
+            cor_np = "#ef4444" if n_np > 0 else "#22c55e"
+            corpo_np = (
+                _nao_pos_html(df_np_v) if n_np > 0
+                else '<div style="font-size:.8rem;color:#22c55e;margin-top:6px">Todos positivados ✓</div>'
+            )
+            st.markdown(f"""
+<div class="card">
+<div style="font-size:.7rem;color:#94a3b8;text-transform:uppercase;margin-bottom:6px">
+    Não Positivados &nbsp;<span style="color:{cor_np};font-weight:700">{n_np}</span>
+</div>
+{corpo_np}
+</div>
+""".strip(), unsafe_allow_html=True)
 
 if not metas_map:
-    st.info("ℹ️ Metas não configuradas. Acesse **⚙️ Admin Metas** no menu lateral para cadastrar as metas do mês.")
+    st.info("ℹ️ Metas não configuradas. Acesse **⚙️ Admin Metas** no menu lateral.")
