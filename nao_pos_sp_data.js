@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "19/06/2026 14:31",
+  "atualizado_em": "19/06/2026 14:43",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
