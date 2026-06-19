@@ -197,12 +197,43 @@ for _, row in _vh.iterrows():
 
 # ── Escreve vendas_sp_data.js ─────────────────────────────────────────────────
 
+# ── Realizado SP (pré-calculado com mesma lógica do CALCULOS_META) ────────────
+
+_CALCULOS_SP = {
+    'fat':         lambda df: df.groupby('CODUSUR')['VALOR'].sum(),
+    'pos':         lambda df: df.groupby('CODUSUR')['CODCLI'].nunique(),
+    'fat_pernod':  lambda df: df[df['FANTASIA'].str.contains('PERNOD',     na=False, case=False)].groupby('CODUSUR')['VALOR'].sum(),
+    'fat_crs':     lambda df: df[df['FANTASIA'].str.contains('CRS BRANDS', na=False, case=False)].groupby('CODUSUR')['VALOR'].sum(),
+    'fat_essenza': lambda df: df[df['PRODUTO'].str.contains('ESSENZA',     na=False, case=False)].groupby('CODUSUR')['VALOR'].sum(),
+}
+
+_codusur_nome = {
+    str(int(row['CODUSUR'])): row['VENDEDOR']
+    for _, row in _vh[['CODUSUR', 'VENDEDOR']].drop_duplicates().iterrows()
+    if pd.notna(row['CODUSUR'])
+}
+
+_realizado_sp: dict = {}
+for _mes_ts in _meses_vh:
+    _mes_str = _mes_pt(_mes_ts)
+    _df_mes  = _vh[_vh['MES'] == _mes_ts]
+    for _key, _fn in _CALCULOS_SP.items():
+        try:
+            for _codusur, _val in _fn(_df_mes).items():
+                _nome = _codusur_nome.get(str(int(_codusur)), str(_codusur))
+                _realizado_sp.setdefault(_nome, {}).setdefault(_mes_str, {})[_key] = round(float(_val), 2)
+        except Exception:
+            pass
+
+print(f"Realizado SP: {len(_realizado_sp)} vendedores")
+
 payload = {
     'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
     'meses':         _meses_str,
     'rcas':          _rcas,
     'por_vendedor':  _por_vendedor,
     'metas':         _metas_sp,
+    'realizado':     _realizado_sp,
 }
 
 js_out = (
