@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "19/06/2026 14:15",
+  "atualizado_em": "19/06/2026 14:17",
   "data_rota": "19.06",
   "vendedores": [
     {
@@ -3951,26 +3951,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "153001231",
-          "numnota": "",
-          "data": "19/06/2026",
-          "cliente": "LM M DE SAQUAREMA DISTRIBUIDORA DE LATICINIOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGAR DIA 22/06",
-          "total": 19980.0,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 600,
-              "val": 19980.0
-            }
-          ]
-        },
-        {
           "numped": "153001217",
           "numnota": "",
           "data": "15/06/2026",
@@ -3992,6 +3972,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "153001231",
+          "numnota": "6115.0",
+          "data": "19/06/2026",
+          "cliente": "LM M DE SAQUAREMA DISTRIBUIDORA DE LATICINIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGAR DIA 22/06",
+          "total": 19980.0,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 600,
+              "val": 19980.0
+            }
+          ]
+        },
         {
           "numped": "153001224",
           "numnota": "404200.0",
