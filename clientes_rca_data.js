@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 14:43",
+  "atualizado_em": "19/06/2026 15:02",
   "total": 4338,
   "clientes": [
     {
@@ -40947,9 +40947,9 @@ const CLIENTES_RCA_DATA = {
       "cidade": "SAO PAULO",
       "cnpj": "37.924.815/0001-77",
       "estado": "SP",
-      "ramo": "MERCADO",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "37",
+      "nome_usur1": "RC",
       "codusur2": "588",
       "nome_usur2": "W.S"
     },
