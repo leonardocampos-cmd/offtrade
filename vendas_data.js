@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "19/06/2026 15:21",
+  "atualizado_em": "19/06/2026 15:35",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -112494,15 +112494,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 2,
           "valor": 359.8
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 149.4
         },
         {
           "data": "30/05/2026",
