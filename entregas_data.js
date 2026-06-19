@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "19/06/2026 15:14",
+  "atualizado_em": "19/06/2026 15:21",
   "data_rota": "19.06",
   "vendedores": [
     {
@@ -33574,6 +33574,11 @@ const ENTREGAS_DATA = {
           "total": 751.08,
           "itens": [
             {
+              "desc": "TEQUILA J CUERVO SILVER 750ML",
+              "qt": 1,
+              "val": 99.9
+            },
+            {
               "desc": "GIN BEEFEATER 750ML",
               "qt": 1,
               "val": 64.9
@@ -33612,11 +33617,6 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY J WALKER RED LABEL 1L",
               "qt": 1,
               "val": 78.9
-            },
-            {
-              "desc": "TEQUILA J CUERVO SILVER 750ML",
-              "qt": 1,
-              "val": 99.9
             }
           ]
         },
@@ -33642,6 +33642,26 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY J WALKER BLACK LABEL 1L",
               "qt": 12,
               "val": 1798.8
+            }
+          ]
+        },
+        {
+          "numped": "155003731",
+          "numnota": "",
+          "data": "19/06/2026",
+          "cliente": "CONVENIENCIA BUZIANA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 669.6,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 24,
+              "val": 669.6
             }
           ]
         },
