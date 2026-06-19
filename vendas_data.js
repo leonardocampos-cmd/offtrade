@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "19/06/2026 10:50",
+  "atualizado_em": "19/06/2026 11:14",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -129321,6 +129321,42 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 89,
           "valor": 5745.84
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "50036",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 1440,
+          "valor": 92016.0
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "50036",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "produto": "WHISKY WHITE HORSE - 500ML",
+          "fantasia": "DIAGEO",
+          "qt": 180,
+          "valor": 5364.0
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "50036",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 720,
+          "valor": 53928.0
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "50036",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 960,
+          "valor": 49824.0
         }
       ],
       "Abr/26": [
