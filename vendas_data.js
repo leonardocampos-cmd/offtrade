@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "19/06/2026 15:14",
+  "atualizado_em": "19/06/2026 15:21",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -151375,60 +151375,6 @@ const VENDAS_DATA = {
           "fantasia": "COMARY",
           "qt": 12,
           "valor": 130.8
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "93868",
-          "cliente": "AVALON MERCEARIA DA TERRA LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 4,
-          "valor": 261.12
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "93868",
-          "cliente": "AVALON MERCEARIA DA TERRA LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 4,
-          "valor": 261.12
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "93868",
-          "cliente": "AVALON MERCEARIA DA TERRA LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "93873",
-          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 4,
-          "valor": 261.12
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "93873",
-          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 4,
-          "valor": 261.12
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "93873",
-          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56
         },
         {
           "data": "02/06/2026",
