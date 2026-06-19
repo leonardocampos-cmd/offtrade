@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "19/06/2026 14:42",
+  "atualizado_em": "19/06/2026 15:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -37797,6 +37797,69 @@ const VENDAS_DATA = {
           "valor": 94.7
         },
         {
+          "data": "19/06/2026",
+          "codcli": "8390",
+          "cliente": "GOLDEN GREEN MANIA DELICATSSE LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "8390",
+          "cliente": "GOLDEN GREEN MANIA DELICATSSE LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "8390",
+          "cliente": "GOLDEN GREEN MANIA DELICATSSE LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "8390",
+          "cliente": "GOLDEN GREEN MANIA DELICATSSE LTDA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 175.2
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "8390",
+          "cliente": "GOLDEN GREEN MANIA DELICATSSE LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "8390",
+          "cliente": "GOLDEN GREEN MANIA DELICATSSE LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "8390",
+          "cliente": "GOLDEN GREEN MANIA DELICATSSE LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
           "data": "11/06/2026",
           "codcli": "14047",
           "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
@@ -69064,6 +69127,51 @@ const VENDAS_DATA = {
           "valor": 159.45
         },
         {
+          "data": "19/06/2026",
+          "codcli": "90999",
+          "cliente": "DROGARIA E PERFUMARIA EL SHADAI LTDA",
+          "produto": "ST PIERRE LATA PALOMA LT 270MLX6",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 49.36
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "90999",
+          "cliente": "DROGARIA E PERFUMARIA EL SHADAI LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 6X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 59.36
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "90999",
+          "cliente": "DROGARIA E PERFUMARIA EL SHADAI LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 2,
+          "valor": 43.8
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "90999",
+          "cliente": "DROGARIA E PERFUMARIA EL SHADAI LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 102.38
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "90999",
+          "cliente": "DROGARIA E PERFUMARIA EL SHADAI LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 1,
+          "valor": 31.99
+        },
+        {
           "data": "08/06/2026",
           "codcli": "90863",
           "cliente": "PANIFICACAO LUANDA LTDA",
@@ -82610,6 +82718,15 @@ const VENDAS_DATA = {
           "fantasia": "INTERFOOD",
           "qt": 1,
           "valor": 89.9
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "92023",
+          "cliente": "50.828.095 MATHEUS DA SILVA LIMA",
+          "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "fantasia": "INTERFOOD",
+          "qt": 18,
+          "valor": 1618.2
         },
         {
           "data": "03/06/2026",
