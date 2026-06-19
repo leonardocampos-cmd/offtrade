@@ -1717,7 +1717,7 @@ function _buildCards(vendedores, mes) {
   return vendedores.map(v => {
     const pm = _pm(v, mes);
     return `
-      <div class="vendor-card" data-nome="${v.nome.toLowerCase()}">
+      <div class="vendor-card" data-nome="${v.nome.toLowerCase()}" data-rca="${v.rca}">
         <div class="vendor-name">${v.nome}</div>
         <div class="vendor-rca">RCA ${v.rca}</div>
         ${buildBar('Faturamento Total', _mv(pm,'fat_tt','realizado'), _mv(pm,'fat_tt','meta'), 'fat')}
@@ -1752,7 +1752,7 @@ function renderAll(vendedores, mes) {
   document.getElementById('app').innerHTML = `
     <div id="equipe-resumo-wrap">${_buildResumoEquipe(METAS_DATA.vendedores, mes)}</div>
     <div class="search-wrap">
-      <input class="search-input" type="text" placeholder="Buscar vendedor..."
+      <input class="search-input" type="text" placeholder="Buscar por nome ou RCA..."
         oninput="filterCards(this.value)">
     </div>
     <div class="cards-grid" id="cards-grid">${_buildCards(METAS_DATA.vendedores, mes)}</div>`;
@@ -1760,7 +1760,8 @@ function renderAll(vendedores, mes) {
 function filterCards(q) {
   const q2 = q.toLowerCase().trim();
   document.querySelectorAll('.vendor-card').forEach(card => {
-    card.style.display = card.dataset.nome.includes(q2) ? '' : 'none';
+    const match = card.dataset.nome.includes(q2) || card.dataset.rca.includes(q2);
+    card.style.display = match ? '' : 'none';
   });
 }
 
