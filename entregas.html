@@ -250,11 +250,14 @@
     <p id="header-sub">—</p>
     <div class="vendedor-nome" id="header-vendedor" style="display:none"></div>
   </div>
-  <select id="vendedor-select" onchange="renderVendedor()" style="display:none"></select>
-  <a id="btn-voltar-metas" href="#"
-     style="display:none;background:#3b82f6;color:#fff;padding:8px 14px;border-radius:8px;font-size:.85rem;font-weight:600;text-decoration:none">
-    ← Minhas Metas
-  </a>
+  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+    <select id="vendedor-select" onchange="renderVendedor()" style="display:none"></select>
+    <a id="btn-voltar-metas" href="#"
+       style="display:none;background:#3b82f6;color:#fff;padding:8px 14px;border-radius:8px;font-size:.85rem;font-weight:600;text-decoration:none">
+      ← Minhas Metas
+    </a>
+    <a href="index.html" style="background:var(--card2,#22263a);border:1px solid var(--border,#2d3144);color:var(--text,#e2e8f0);padding:7px 14px;border-radius:8px;font-size:.8rem;text-decoration:none">&#8962; Home</a>
+  </div>
 </header>
 <script>
 (function () {
