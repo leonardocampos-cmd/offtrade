@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "19/06/2026 11:47",
+  "atualizado_em": "19/06/2026 12:02",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -5091,6 +5091,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "23323",
+        "cliente": "FLAVIO LUCIANO ALVES 27972619840",
+        "bairro": "JARDIM MARCHESI",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51071",
         "cliente": "LUIZ ERNESTO SERVIDONI",
         "bairro": "CENTRO",
@@ -5101,20 +5108,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "51155",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "JARDIM RECORD",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51153",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "VILA ZAT",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51160",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5147,9 +5140,23 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51160",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51154",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "CONJUNTO HABITACIONAL SAO JOSE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51153",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "VILA ZAT",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7298,6 +7305,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "50628",
         "cliente": "59.172.991 ADELAIDE DE OLIVEIRA SOARES MENDES",
         "bairro": "VILA MARIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51182",
+        "cliente": "A. MARIA LUCIO CARNIETTO LTDA",
+        "bairro": "VILA PAULISTA",
         "dtultcomp": "nan",
         "produtos": []
       },
