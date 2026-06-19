@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 15:02",
-  "total": 4338,
+  "atualizado_em": "19/06/2026 15:15",
+  "total": 4339,
   "clientes": [
     {
       "codcli": "31683",
@@ -4522,6 +4522,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ACADEMIA",
       "codusur1": "336",
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "83319",
+      "razao": "ACADEMIA VIDA ATIVA BOX LTDA",
+      "fantasia": "ULTIMATE VIDA ATIVA",
+      "bairro": "DE CARLI",
+      "cidade": "ARACRUZ",
+      "cnpj": "34.894.905/0001-74",
+      "estado": "ES",
+      "ramo": "ACADEMIA",
+      "codusur1": "442",
+      "nome_usur1": "RAQUEL ARAUJO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
