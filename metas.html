@@ -1819,10 +1819,6 @@ function _buildCards(vendedores, mes) {
     const fatM = _mv(pm, 'fat_tt', 'meta');
     const pos  = _mv(pm, 'pos_tt', 'realizado');
     const posM = _mv(pm, 'pos_tt', 'meta');
-    const npList = v.nao_positivados || [];
-    const nNP    = npList.length;
-    const secId  = `np-card-${idx}`;
-
     return `
       <div class="vendor-card" data-nome="${v.nome.toLowerCase()}" data-rca="${v.rca}">
         <div class="vendor-name">${v.nome}</div>
@@ -1840,16 +1836,6 @@ function _buildCards(vendedores, mes) {
         <div class="stat-row">
           <span class="stat-label">Cadastros no mês</span>
           <span class="stat-val">${v.clientes_cadastrados || 0}</span>
-        </div>
-        <div class="sec-header" onclick="toggleCardSec('${secId}')">
-          <span class="sec-title">Não positivados</span>
-          <div style="display:flex;align-items:center;gap:6px">
-            <span style="font-weight:700;font-size:.8rem;color:${nNP > 0 ? 'var(--red)' : 'var(--green)'}">${nNP}</span>
-            <span id="${secId}-ic" class="sec-ic">▼</span>
-          </div>
-        </div>
-        <div id="${secId}" class="sec-body">
-          ${buildNaoPosTable(npList)}
         </div>
         ${buildCampanhaDetail(v, mes)}
         ${buildAmarulaDetail(v)}
