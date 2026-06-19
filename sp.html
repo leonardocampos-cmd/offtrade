@@ -159,61 +159,10 @@
 
     .no-data { text-align: center; padding: 60px 20px; color: var(--muted); font-size: .9rem; line-height: 1.8; }
 
-    /* Password gate */
-    #senha-gate {
-      position: fixed; inset: 0; z-index: 9999; background: var(--bg);
-      display: flex; align-items: center; justify-content: center;
-    }
-    #senha-box {
-      background: var(--card); border: 1px solid var(--border);
-      border-radius: 16px; padding: 40px 32px; text-align: center; width: min(360px, 90vw);
-    }
-    #senha-box h2 { color: var(--accent); margin-bottom: 8px; font-size: 1.2rem; font-weight: 700; }
-    #senha-box p  { color: var(--muted); margin-bottom: 24px; font-size: .85rem; }
-    #senha-input {
-      width: 100%; padding: 10px 14px; background: var(--card2);
-      border: 1px solid var(--border); border-radius: 8px; color: var(--text);
-      font-size: 1.2rem; letter-spacing: 6px; text-align: center;
-      margin-bottom: 16px; outline: none;
-    }
-    #senha-input:focus { border-color: var(--accent); }
-    #senha-btn {
-      width: 100%; padding: 10px; background: var(--accent); color: #0f1117;
-      border: none; border-radius: 8px; font-weight: 700; font-size: .95rem; cursor: pointer;
-    }
-    #senha-erro { color: var(--red); font-size: .8rem; margin-top: 12px; min-height: 18px; }
   </style>
 </head>
 <body>
 
-<div id="senha-gate">
-  <div id="senha-box">
-    <h2>OFF TRADE SP</h2>
-    <p>Digite a senha para acessar</p>
-    <input id="senha-input" type="password" placeholder="······" maxlength="10" autofocus>
-    <button id="senha-btn">Entrar</button>
-    <div id="senha-erro"></div>
-  </div>
-</div>
-<script>
-(function () {
-  var SENHA = '918273';
-  var gate  = document.getElementById('senha-gate');
-  if (new URLSearchParams(window.location.search).get('vendedor')) { gate.remove(); return; }
-  if (sessionStorage.getItem('offtrade_auth') === '1') { gate.remove(); return; }
-  function tentar() {
-    if (document.getElementById('senha-input').value.trim() === SENHA) {
-      sessionStorage.setItem('offtrade_auth', '1'); gate.remove();
-    } else {
-      document.getElementById('senha-erro').textContent = 'Senha incorreta.';
-      document.getElementById('senha-input').value = '';
-      document.getElementById('senha-input').focus();
-    }
-  }
-  document.getElementById('senha-btn').addEventListener('click', tentar);
-  document.getElementById('senha-input').addEventListener('keydown', function(e) { if (e.key === 'Enter') tentar(); });
-})();
-</script>
 
 <header>
   <div class="header-title">
@@ -236,6 +185,36 @@ function fmtFat(v) {
 }
 
 // ── Copiar link do vendedor ───────────────────────────────────────────────────
+
+function exportarNaoPosCSV(nome) {
+  var npData = (typeof NAO_POS_SP_DATA !== 'undefined' && NAO_POS_SP_DATA.por_vendedor) || {};
+  var npList = npData[nome] || [];
+  if (!npList.length) return;
+
+  var sep  = ';';
+  var rows = ['Código' + sep + 'Cliente' + sep + 'Bairro' + sep + 'Última Compra' + sep +
+              'Produto' + sep + 'Fornecedor' + sep + 'Qtde' + sep + 'Valor (R$)'];
+
+  npList.forEach(function(cli) {
+    var base = cli.codcli + sep + cli.cliente + sep + (cli.bairro || '') + sep + (cli.dtultcomp || '');
+    if (cli.produtos && cli.produtos.length) {
+      cli.produtos.forEach(function(p) {
+        rows.push(base + sep + (p.produto || '') + sep + (p.fantasia || '') + sep +
+                  p.qt + sep + Number(p.valor).toFixed(2).replace('.', ','));
+      });
+    } else {
+      rows.push(base + sep + '' + sep + '' + sep + '' + sep + '');
+    }
+  });
+
+  var blob = new Blob(['﻿' + rows.join('\r\n')], {type: 'text/csv;charset=utf-8;'});
+  var url  = URL.createObjectURL(blob);
+  var a    = document.createElement('a');
+  a.href     = url;
+  a.download = 'nao_positivados_SP_' + nome.replace(/\s+/g, '_') + '.csv';
+  document.body.appendChild(a); a.click();
+  setTimeout(function() { document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
+}
 
 function copiarLink(nome, btn) {
   var url = location.origin + location.pathname + '?vendedor=' + encodeURIComponent(nome);
@@ -285,7 +264,6 @@ function buildNaoPos(npList, prefix) {
     if (nProds > 0) {
       var rows = cli.produtos.map(function(p) {
         return '<tr>' +
-          '<td>' + (cli.dtultcomp || '—') + '</td>' +
           '<td><div>' + (p.produto || '—') + '</div>' +
               '<div class="td-muted" style="font-size:.7rem">' + (p.fantasia || '') + '</div></td>' +
           '<td class="td-right td-muted">' + p.qt + '</td>' +
@@ -296,7 +274,7 @@ function buildNaoPos(npList, prefix) {
         '<div id="' + cliId + '" class="np-prods">' +
           '<table class="tbl">' +
             '<thead><tr>' +
-              '<th>Data</th><th>Produto / Fornecedor</th>' +
+              '<th>Produto / Fornecedor</th>' +
               '<th class="td-right">Qtde</th><th class="td-right">Valor</th>' +
             '</tr></thead>' +
             '<tbody>' + rows + '</tbody>' +
@@ -320,25 +298,50 @@ function buildNaoPos(npList, prefix) {
   }).join('');
 }
 
-// ── Tabela de vendas ──────────────────────────────────────────────────────────
+// ── Faturamento agrupado por cliente + data ───────────────────────────────────
 
-function buildVendasTable(lista) {
+function buildVendasGrouped(lista, prefix) {
   if (!lista || !lista.length)
     return '<div class="vendas-empty">Nenhuma venda registrada neste mês.</div>';
-  return '<table class="vendas-table"><thead><tr>' +
-    '<th>Data</th><th>Cliente / Produto</th>' +
-    '<th style="text-align:right">Qtde</th><th style="text-align:right">Valor</th>' +
-    '</tr></thead><tbody>' +
-    lista.map(function(v) {
+
+  // Agrupa por codcli + data
+  var groups = [], keyMap = {};
+  lista.forEach(function(v) {
+    var key = (v.codcli || v.cliente) + '|' + v.data;
+    if (!(key in keyMap)) {
+      keyMap[key] = groups.length;
+      groups.push({ codcli: v.codcli, cliente: v.cliente, data: v.data, fat: 0, produtos: [] });
+    }
+    var g = groups[keyMap[key]];
+    g.fat += v.valor;
+    g.produtos.push({ produto: v.produto, fantasia: v.fantasia, qt: v.qt, valor: v.valor });
+  });
+
+  return groups.map(function(g, i) {
+    var gId  = prefix + '-vg-' + i;
+    var rows = g.produtos.map(function(p) {
       return '<tr>' +
-        '<td class="vendas-date">' + (v.data || '—') + '</td>' +
-        '<td><div class="vendas-cli">' + (v.cliente || '—') + '</div>' +
-        '<div class="vendas-prod">' + (v.produto || '') + '</div></td>' +
-        '<td class="vendas-qt">' + Number(v.qt).toLocaleString('pt-BR') + '</td>' +
-        '<td class="vendas-val">' + fmtFat(v.valor) + '</td>' +
+        '<td><div>' + (p.produto || '—') + '</div>' +
+            '<div class="td-muted" style="font-size:.7rem">' + (p.fantasia || '') + '</div></td>' +
+        '<td class="td-right td-muted">' + p.qt + '</td>' +
+        '<td class="td-right">' + fmtFat(p.valor) + '</td>' +
       '</tr>';
-    }).join('') +
-    '</tbody></table>';
+    }).join('');
+
+    return '<div class="np-cli-row" onclick="toggleCli(\'' + gId + '\')">' +
+        '<div><span class="np-cli-name">' + (g.cliente || '—') + '</span></div>' +
+        '<div style="display:flex;align-items:center">' +
+          '<span class="np-cli-date">' + (g.data || '') + '</span>' +
+          '<span id="' + gId + '-ic" class="np-cli-ic">▼</span>' +
+        '</div>' +
+      '</div>' +
+      '<div id="' + gId + '" class="np-prods">' +
+        '<table class="tbl"><thead><tr>' +
+          '<th>Produto / Fornecedor</th>' +
+          '<th class="td-right">Qtde</th><th class="td-right">Valor</th>' +
+        '</tr></thead><tbody>' + rows + '</tbody></table>' +
+      '</div>';
+  }).join('');
 }
 
 // ── Cards principais ──────────────────────────────────────────────────────────
@@ -379,6 +382,10 @@ function _buildVendorCards(mes) {
         '</div>' +
       '</div>' +
       '<div id="' + secId + '" class="sec-body" style="padding-top:6px">' +
+        (nNP > 0 ? '<div style="text-align:right;margin-bottom:6px">' +
+          '<button class="btn btn-dl" style="font-size:.72rem;padding:4px 10px" ' +
+          'onclick="exportarNaoPosCSV(\'' + nome.replace(/'/g,"\\'") + '\')">&#8595; CSV</button>' +
+        '</div>' : '') +
         buildNaoPos(npList, secId) +
       '</div>' +
       '<div class="card-actions" style="gap:8px">' +
@@ -405,7 +412,7 @@ function _atualizarTabelaSP(nome) {
     '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmtFat(fat) + '</div></div>' +
     '<div><div class="kpi-label">Itens</div><div class="kpi-val">' + qt.toLocaleString('pt-BR') + '</div></div>' +
     '<div><div class="kpi-label">Clientes</div><div class="kpi-val">' + nCli + '</div></div>';
-  document.getElementById('vendas-tabela').innerHTML = buildVendasTable(lista);
+  document.getElementById('vendas-tabela').innerHTML = buildVendasGrouped(lista, 'fat-' + nome.replace(/\W/g,''));
 }
 
 function exportarCSV(nome) {
@@ -476,6 +483,10 @@ function renderVendasSP(nome) {
         '<span id="sec-np-ic" class="sec-ic open">▼</span>' +
       '</div>' +
       '<div id="sec-np" class="sec-body open">' +
+        (nNP > 0 ? '<div style="text-align:right;margin-bottom:8px">' +
+          '<button class="btn btn-dl" style="font-size:.75rem;padding:5px 12px" ' +
+          'onclick="exportarNaoPosCSV(\'' + nome.replace(/'/g,"\\'") + '\')">&#8595; CSV Não Positivados</button>' +
+        '</div>' : '') +
         buildNaoPos(npList, 'det') +
       '</div>' +
     '</div>';

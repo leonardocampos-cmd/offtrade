@@ -24,6 +24,8 @@ EMAILS_ADMIN = {
     "giovani.cabral@rigarr.com.br",
     "kaliel.caro@rigarr.com.br",
     "artur.furlan@rigarr.com.br",
+    "daniel.diniz@rigarr.com.br",
+    "allan.correa@rigarr.com.br",
 }
 
 ORACLE_LIB = os.getenv("ORACLE_LIB", "/opt/oracle/instantclient_21_1")
