@@ -23,13 +23,16 @@ def _carregar_metas() -> dict:
         return json.loads(METAS_FILE.read_text(encoding="utf-8"))
     return {"vendedores": []}
 
+_MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
+_hoje_admin = date.today()
+_mes_atual_key = f"{_MESES[_hoje_admin.month - 1]}/{str(_hoje_admin.year)[2:]}"
+
 metas_cfg = _carregar_metas()
 metas_map: dict[str, dict] = {}
 for v in metas_cfg.get("vendedores", []):
     meses = v.get("metas_por_mes", {})
-    if meses:
-        mes_atual_key = sorted(meses.keys())[-1]
-        metas_map[v["nome"]] = meses.get(mes_atual_key, {})
+    if _mes_atual_key in meses:
+        metas_map[v["nome"]] = meses[_mes_atual_key]
 
 # ── Queries Oracle ─────────────────────────────────────────────────────────────
 

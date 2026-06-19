@@ -11,7 +11,8 @@
       "Bash(python deploy_vps.py)",
       "Bash(python _fix_service_temp.py)",
       "Bash(python -c ' *)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Bash(python *)"
     ]
   }
 }
