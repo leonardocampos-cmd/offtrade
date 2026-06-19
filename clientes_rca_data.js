@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "18/06/2026 17:16",
-  "total": 4306,
+  "atualizado_em": "19/06/2026 09:01",
+  "total": 4307,
   "clientes": [
     {
       "codcli": "31683",
@@ -308,6 +308,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PADARIA",
       "codusur1": "260",
       "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "93523",
+      "razao": "23.999.927 LUZIA GOMES DE ALMEIDA",
+      "fantasia": "LUZIA GOMES DE ALMEIDA",
+      "bairro": "JEQUITIBA",
+      "cidade": "ARACRUZ",
+      "cnpj": "23.999.927/0001-82",
+      "estado": "ES",
+      "ramo": "CAFETERIA",
+      "codusur1": "442",
+      "nome_usur1": "RAQUEL ARAUJO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -29174,10 +29188,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "52.531.752/0001-82",
       "estado": "RJ",
       "ramo": "MERCADO",
-      "codusur1": "419",
-      "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
-      "codusur2": "107",
-      "nome_usur2": "MARCUS VINICIUS"
+      "codusur1": "107",
+      "nome_usur1": "MARCUS VINICIUS",
+      "codusur2": "419",
+      "nome_usur2": "NÁTALI DE OLIVEIRA - OFF TRADE"
     },
     {
       "codcli": "44022",
