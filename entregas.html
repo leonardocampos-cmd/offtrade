@@ -98,12 +98,16 @@
     .badge .val  { font-size: 0.78rem; font-weight: 600; margin-top: 3px; display: block; }
     .badge .sub  { font-size: 0.68rem; color: var(--muted); margin-top: 1px; display: block; }
 
-    .badge-rota    { border-color: #14532d; }
-    .badge-rota    .cnt, .badge-rota    .val { color: var(--green); }
-    .badge-noemit  { border-color: #713f12; }
-    .badge-noemit  .cnt, .badge-noemit  .val { color: var(--yellow); }
-    .badge-semrota { border-color: #1e3a5f; }
-    .badge-semrota .cnt, .badge-semrota .val { color: var(--blue); }
+    .badge-rota      { border-color: #14532d; }
+    .badge-rota      .cnt, .badge-rota      .val { color: var(--green); }
+    .badge-noemit    { border-color: #713f12; }
+    .badge-noemit    .cnt, .badge-noemit    .val { color: var(--yellow); }
+    .badge-semrota   { border-color: #1e3a5f; }
+    .badge-semrota   .cnt, .badge-semrota   .val { color: var(--blue); }
+    .badge-naoentreg { border-color: #7f1d1d; }
+    .badge-naoentreg .cnt, .badge-naoentreg .val { color: var(--red); }
+
+    .tag-naoentreg { background: #450a0a; color: #fca5a5; border: 1px solid #7f1d1d; }
 
     /* ── Tabs ── */
     .tabs {
@@ -287,17 +291,25 @@
     <span class="lbl">Não Emitido</span>
     <span class="val" id="val-noemit">—</span>
   </div>
+  <div class="badge badge-naoentreg" id="badge-naoentreg" style="display:none">
+    <span class="cnt" id="cnt-naoentreg">—</span>
+    <span class="lbl">Não Entregue</span>
+    <span class="val" id="val-naoentreg">—</span>
+  </div>
 </div>
 
 <div class="tabs">
-  <button class="tab-btn active" onclick="switchTab('rota',    this)">Em Rota</button>
-  <button class="tab-btn"        onclick="switchTab('semrota', this)">Emitido / Sem Rota</button>
-  <button class="tab-btn"        onclick="switchTab('noemit',  this)">Não Emitido</button>
+  <button class="tab-btn active" onclick="switchTab('rota',      this)">Em Rota</button>
+  <button class="tab-btn"        onclick="switchTab('semrota',   this)">Emitido / Sem Rota</button>
+  <button class="tab-btn"        onclick="switchTab('noemit',    this)">Não Emitido</button>
+  <button class="tab-btn" id="tab-naoentreg" style="display:none;color:var(--red)"
+          onclick="switchTab('naoentreg', this)">⚠ Não Entregue</button>
 </div>
 
-<div id="sec-rota"    class="section visible"></div>
-<div id="sec-semrota" class="section"></div>
-<div id="sec-noemit"  class="section"></div>
+<div id="sec-rota"      class="section visible"></div>
+<div id="sec-semrota"   class="section"></div>
+<div id="sec-noemit"    class="section"></div>
+<div id="sec-naoentreg" class="section"></div>
 
 <script>
 const D = (typeof ENTREGAS_DATA !== 'undefined') ? ENTREGAS_DATA : null;
@@ -344,14 +356,15 @@ function renderVendedor() {
   const totRota   = v.em_rota.reduce((s,p)=>s+p.total, 0);
   const totNoemit = v.nao_emitido.reduce((s,p)=>s+p.total, 0);
 
-  // Contagem de cancelados em rota
   const cancelados = v.em_rota.filter(p => {
     const u = p.status_ped.toUpperCase();
     return u === 'C' || u.includes('CANCEL');
   }).length;
 
-  const semRota    = v.emitido_s_rota || [];
-  const totSemRota = semRota.reduce((s,p)=>s+p.total, 0);
+  const semRota      = v.emitido_s_rota || [];
+  const naoEntregue  = v.nao_entregue   || [];
+  const totSemRota   = semRota.reduce((s,p)=>s+p.total, 0);
+  const totNaoEntreg = naoEntregue.reduce((s,p)=>s+p.total, 0);
 
   document.getElementById('cnt-rota').textContent    = v.em_rota.length;
   document.getElementById('val-rota').textContent    = fmt(totRota);
@@ -361,15 +374,24 @@ function renderVendedor() {
   document.getElementById('cnt-noemit').textContent  = v.nao_emitido.length;
   document.getElementById('val-noemit').textContent  = fmt(totNoemit);
 
-  document.getElementById('sec-rota').innerHTML    = renderCards(v.em_rota,    'rota');
-  document.getElementById('sec-semrota').innerHTML = renderCards(semRota,      'semrota');
-  document.getElementById('sec-noemit').innerHTML  = renderCards(v.nao_emitido,'noemit');
+  // Badge e aba Não Entregue — só mostra se houver ocorrências
+  const hasNaoEntreg = naoEntregue.length > 0;
+  document.getElementById('badge-naoentreg').style.display = hasNaoEntreg ? '' : 'none';
+  document.getElementById('tab-naoentreg').style.display   = hasNaoEntreg ? '' : 'none';
+  document.getElementById('cnt-naoentreg').textContent = naoEntregue.length;
+  document.getElementById('val-naoentreg').textContent = fmt(totNaoEntreg);
+
+  document.getElementById('sec-rota').innerHTML      = renderCards(v.em_rota,    'rota');
+  document.getElementById('sec-semrota').innerHTML   = renderCards(semRota,      'semrota');
+  document.getElementById('sec-noemit').innerHTML    = renderCards(v.nao_emitido,'noemit');
+  document.getElementById('sec-naoentreg').innerHTML = renderCards(naoEntregue,  'naoentreg');
 }
 
 const _emptyMsg = {
-  rota:    'Nenhum pedido em rota hoje.',
-  semrota: 'Nenhuma NF emitida aguardando rota.',
-  noemit:  'Nenhum pedido pendente de emissão.',
+  rota:      'Nenhum pedido em rota hoje.',
+  semrota:   'Nenhuma NF emitida aguardando rota.',
+  noemit:    'Nenhum pedido pendente de emissão.',
+  naoentreg: 'Nenhuma entrega não realizada registrada.',
 };
 
 function renderCards(pedidos, prefixo) {
@@ -387,6 +409,14 @@ function renderCards(pedidos, prefixo) {
     const tagData  = p.data    ? `<span class="tag tag-data">${escHtml(p.data)}</span>` : '';
     const tagSPed  = tagStatusPed(p.status_ped);
     const tagSLog  = tagStatusLog(p.status_log);
+
+    const motivoAlertaHtml = p.motivo_alerta
+      ? `<div class="motivo"><strong>⚠ Motivo (alerta):</strong> ${escHtml(p.motivo_alerta)}</div>`
+      : '';
+
+    const tagNaoEntreg = p.motivo_alerta !== undefined
+      ? `<span class="tag tag-naoentreg">Não Entregue</span>`
+      : '';
 
     const motivoHtml = p.motivo
       ? `<div class="motivo"><strong>Motivo:</strong> ${escHtml(p.motivo)}</div>`
@@ -411,8 +441,8 @@ function renderCards(pedidos, prefixo) {
         <span class="card-cliente">${escHtml(p.cliente) || '—'}</span>
         <span class="card-total">${fmt(p.total)}</span>
       </div>
-      <div class="card-tags">${tagPed}${tagNf}${tagRota}${tagData}${tagSPed}${tagSLog}</div>
-      ${motivoHtml}${obsHtml}
+      <div class="card-tags">${tagPed}${tagNf}${tagRota}${tagData}${tagSPed}${tagSLog}${tagNaoEntreg}</div>
+      ${motivoAlertaHtml}${motivoHtml}${obsHtml}
       <button class="itens-toggle" onclick="toggleItens('${toggleId}',this)">
         Ver ${n} item${n !== 1 ? 'ns' : ''}
       </button>
@@ -436,7 +466,7 @@ function toggleItens(id, btn) {
 function switchTab(tab, btn) {
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  ['rota','semrota','noemit'].forEach(t =>
+  ['rota','semrota','noemit','naoentreg'].forEach(t =>
     document.getElementById('sec-' + t).classList.toggle('visible', t === tab)
   );
 }

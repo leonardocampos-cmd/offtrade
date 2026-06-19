@@ -172,7 +172,43 @@ for nome, grp in tabela_final.groupby('NOME'):
         'em_rota':        _agrupar(em_rota),
         'nao_emitido':    _agrupar(nao_emitido),
         'emitido_s_rota': _agrupar(emitido_s_rota),
+        'nao_entregue':   [],
     })
+
+# ── Alertas de não entrega (bot Gmail) ────────────────────────────────────────
+
+def _nf_clean(numnota):
+    try:
+        return str(int(float(numnota))) if numnota else ''
+    except Exception:
+        return str(numnota).strip()
+
+alertas_path = Path(__file__).parent / 'alertas_rj.json'
+if alertas_path.exists():
+    try:
+        _alertas_all = json.loads(alertas_path.read_text(encoding='utf-8'))
+        hoje_iso = _hoje_d.isoformat()
+        _nfs_alerta = {item['nf']: item for item in _alertas_all.get(hoje_iso, [])}
+        if _nfs_alerta:
+            print(f"Alertas de não entrega: {len(_nfs_alerta)} NF(s) para hoje")
+            for v in vendedores_out:
+                nfs_ja = set()
+                for lista_key in ('em_rota', 'emitido_s_rota'):
+                    restantes = []
+                    for ped in v[lista_key]:
+                        nf = _nf_clean(ped.get('numnota', ''))
+                        if nf in _nfs_alerta and nf not in nfs_ja:
+                            info = _nfs_alerta[nf]
+                            ped = dict(ped)
+                            ped['motivo_alerta']      = info.get('motivo', '')
+                            ped['responsavel_alerta'] = info.get('responsavel', '')
+                            v['nao_entregue'].append(ped)
+                            nfs_ja.add(nf)
+                        else:
+                            restantes.append(ped)
+                    v[lista_key] = restantes
+    except Exception as e:
+        print(f"Aviso: falha ao carregar alertas_rj.json: {e}")
 
 payload = {
     'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
