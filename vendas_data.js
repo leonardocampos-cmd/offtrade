@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "19/06/2026 12:01",
+  "atualizado_em": "19/06/2026 12:05",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -43151,7 +43151,7 @@ const VENDAS_DATA = {
           "codcli": "78947",
           "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
           "produto": "VEJA MULTIUSO 500ML",
-          "fantasia": "SUPERDELLI",
+          "fantasia": "RECKITT",
           "qt": 2,
           "valor": 5.4
         },
@@ -44681,7 +44681,7 @@ const VENDAS_DATA = {
           "codcli": "91995",
           "cliente": "DOIS AMIGOS CHOPERIA LTDA",
           "produto": "VEJA MULTIUSO 500ML",
-          "fantasia": "SUPERDELLI",
+          "fantasia": "RECKITT",
           "qt": 2,
           "valor": 5.6
         },
@@ -77311,7 +77311,7 @@ const VENDAS_DATA = {
           "codcli": "83387",
           "cliente": "CGX COMERCIO DE ALIMENTOS LTDA",
           "produto": "DETERGENTE LIMPOL NEUTRO - 500ML",
-          "fantasia": "SUPERDELLI",
+          "fantasia": "RECKITT",
           "qt": 345,
           "valor": 652.05
         },
@@ -77320,7 +77320,7 @@ const VENDAS_DATA = {
           "codcli": "83387",
           "cliente": "CGX COMERCIO DE ALIMENTOS LTDA",
           "produto": "DETERGENTE LIMPOL NEUTRO - 500ML",
-          "fantasia": "SUPERDELLI",
+          "fantasia": "RECKITT",
           "qt": 109,
           "valor": 206.01
         },
@@ -77833,7 +77833,7 @@ const VENDAS_DATA = {
           "codcli": "91536",
           "cliente": "MERCEARIA E BAZAR DA FAMILIA LTDA",
           "produto": "DETERGENTE LIMPOL CRISTAL - 500ML",
-          "fantasia": "SUPERDELLI",
+          "fantasia": "RECKITT",
           "qt": 24,
           "valor": 47.76
         },
@@ -78499,7 +78499,7 @@ const VENDAS_DATA = {
           "codcli": "91507",
           "cliente": "MERCADO DO JOKA LTDA",
           "produto": "DETERGENTE LIMPOL NEUTRO - 500ML",
-          "fantasia": "SUPERDELLI",
+          "fantasia": "RECKITT",
           "qt": 144,
           "valor": 272.16
         },
@@ -78706,7 +78706,7 @@ const VENDAS_DATA = {
           "codcli": "91606",
           "cliente": "HORTIFRUTI GUAJUVIRA LTDA",
           "produto": "DETERGENTE LIMPOL NEUTRO - 500ML",
-          "fantasia": "SUPERDELLI",
+          "fantasia": "RECKITT",
           "qt": 72,
           "valor": 136.08
         },
@@ -79246,7 +79246,7 @@ const VENDAS_DATA = {
           "codcli": "91515",
           "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
           "produto": "DETERGENTE LIMPOL NEUTRO - 500ML",
-          "fantasia": "SUPERDELLI",
+          "fantasia": "RECKITT",
           "qt": 24,
           "valor": 45.36
         },
@@ -88879,7 +88879,7 @@ const VENDAS_DATA = {
           "codcli": "94288",
           "cliente": "LUCIA ELENA SANTANA",
           "produto": "VEJA MULTIUSO 500ML",
-          "fantasia": "SUPERDELLI",
+          "fantasia": "RECKITT",
           "qt": 3,
           "valor": 14.87
         },
