@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 11:48",
-  "total": 4330,
+  "atualizado_em": "19/06/2026 12:02",
+  "total": 4332,
   "clientes": [
     {
       "codcli": "31683",
@@ -4314,6 +4314,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARA DEPOLLI - OFF TRADE",
       "codusur2": "335",
       "nome_usur2": "MARA DEPOLLI - OFF TRADE"
+    },
+    {
+      "codcli": "51182",
+      "razao": "A. MARIA LUCIO CARNIETTO LTDA",
+      "fantasia": "A. MARIA LUCIO CARNIETTO",
+      "bairro": "VILA PAULISTA",
+      "cidade": "BOTUCATU",
+      "cnpj": "66.021.170/0001-60",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "93500",
@@ -22694,6 +22708,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "codusur1": "477",
       "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "23323",
+      "razao": "FLAVIO LUCIANO ALVES 27972619840",
+      "fantasia": "DEPOSITO DE BEBIDAS ALVES",
+      "bairro": "JARDIM MARCHESI",
+      "cidade": "RIBEIRAO PRETO",
+      "cnpj": "23.341.032/0001-56",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
