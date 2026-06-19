@@ -19,7 +19,12 @@ REDIRECT_URI  = "https://offtrade.duckdns.org/"
 AUTHORIZE_URL = "https://accounts.google.com/o/oauth2/v2/auth"
 TOKEN_URL     = "https://oauth2.googleapis.com/token"
 
-EMAILS_ADMIN = {"alexsandro.nunes@rigarr.com.br", "giovani.cabral@rigarr.com.br"}
+EMAILS_ADMIN = {
+    "alexsandro.nunes@rigarr.com.br",
+    "giovani.cabral@rigarr.com.br",
+    "kaliel.caro@rigarr.com.br",
+    "artur.furlan@rigarr.com.br",
+}
 
 ORACLE_LIB = os.getenv("ORACLE_LIB", "/opt/oracle/instantclient_21_1")
 

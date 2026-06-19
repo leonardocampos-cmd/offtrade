@@ -11,118 +11,118 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg: #0f1117;
-      --card: #1a1d27;
-      --card2: #22263a;
-      --accent: #f5c518;
-      --green: #22c55e;
-      --yellow: #eab308;
-      --red: #ef4444;
-      --text: #e2e8f0;
-      --muted: #94a3b8;
-      --border: #2d3144;
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --green: #22c55e; --yellow: #eab308;
+      --red: #ef4444; --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
     }
 
     body {
-      background: var(--bg);
-      color: var(--text);
+      background: var(--bg); color: var(--text);
       font-family: 'Segoe UI', system-ui, sans-serif;
-      min-height: 100vh;
-      padding: 16px;
-      max-width: 960px;
-      margin: 0 auto;
+      min-height: 100vh; padding: 16px;
+      max-width: 960px; margin: 0 auto;
     }
 
     header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 24px;
-      padding-bottom: 16px;
-      border-bottom: 1px solid var(--border);
-      flex-wrap: wrap;
-      gap: 12px;
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 24px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); flex-wrap: wrap; gap: 12px;
     }
-    .header-title h1 { font-size: 1.3rem; font-weight: 700; color: var(--accent); letter-spacing: -0.02em; }
-    .header-title p  { font-size: 0.78rem; color: var(--muted); margin-top: 3px; }
+    .header-title h1 { font-size: 1.3rem; font-weight: 700; color: var(--accent); letter-spacing: -.02em; }
+    .header-title p  { font-size: .78rem; color: var(--muted); margin-top: 3px; }
 
     .btn {
       display: inline-flex; align-items: center; gap: 6px;
-      padding: 7px 14px; border-radius: 8px; font-size: 0.8rem;
+      padding: 7px 14px; border-radius: 8px; font-size: .8rem;
       cursor: pointer; border: 1px solid var(--border);
       background: var(--card2); color: var(--text);
-      text-decoration: none; transition: all 0.15s;
+      text-decoration: none; transition: all .15s;
     }
     .btn:hover { border-color: var(--accent); color: var(--accent); }
     .btn-primary { background: var(--accent); color: #111; border-color: var(--accent); font-weight: 700; }
     .btn-primary:hover { background: #d4a90e; color: #111; }
     .btn-dl { border-color: #2d6a4f; color: #52b788; }
-    .btn-dl:hover { border-color: #52b788; color: #52b788; background: rgba(82,183,136,0.1); }
+    .btn-dl:hover { border-color: #52b788; background: rgba(82,183,136,.1); }
 
     .mes-select {
       background: var(--card2); border: 1px solid var(--border);
-      color: var(--text); border-radius: 8px;
-      padding: 6px 10px; font-size: 0.82rem;
-      cursor: pointer; outline: none;
+      color: var(--text); border-radius: 8px; padding: 6px 10px;
+      font-size: .82rem; cursor: pointer; outline: none;
     }
     .mes-select:focus { border-color: var(--accent); }
 
-    .section-title {
-      font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
-      letter-spacing: 0.07em; color: var(--muted); margin-bottom: 12px;
-    }
-
-    /* Cards */
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-      gap: 14px;
-    }
+    /* Cards principais */
+    .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }
     .vendor-card {
       background: var(--card); border: 1px solid var(--border);
       border-radius: 12px; padding: 18px;
-      transition: border-color 0.2s, transform 0.15s;
+      transition: border-color .2s, transform .15s;
     }
     .vendor-card:hover { border-color: var(--accent); transform: translateY(-2px); }
-    .vendor-name { font-size: 0.95rem; font-weight: 600; margin-bottom: 2px; }
-    .vendor-sub  { font-size: 0.72rem; color: var(--muted); margin-bottom: 14px; }
+    .vendor-name { font-size: .95rem; font-weight: 600; margin-bottom: 2px; }
+    .vendor-sub  { font-size: .72rem; color: var(--muted); margin-bottom: 14px; }
     .stat-row {
       display: flex; justify-content: space-between; align-items: center;
-      padding: 5px 0; border-bottom: 1px solid var(--border); font-size: 0.8rem;
+      padding: 5px 0; border-bottom: 1px solid var(--border); font-size: .8rem;
     }
-    .stat-row:last-of-type { border-bottom: none; }
     .stat-label { color: var(--muted); }
     .stat-val   { font-weight: 600; }
     .card-actions { display: flex; justify-content: flex-end; margin-top: 14px; }
 
-    /* Não positivados expand */
+    /* Seção retrátil genérica */
+    .sec-header {
+      display: flex; justify-content: space-between; align-items: center;
+      cursor: pointer; padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+      user-select: none;
+    }
+    .sec-header:hover .sec-title { color: var(--text); }
+    .sec-title { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); }
+    .sec-meta  { font-size: .75rem; color: var(--muted); margin-top: 2px; }
+    .sec-ic    { font-size: .65rem; color: var(--muted); transition: transform .2s; }
+    .sec-ic.open { transform: rotate(180deg); }
+    .sec-body  { display: none; padding-top: 12px; }
+    .sec-body.open { display: block; }
+
+    /* Não positivados: linha de cliente retrátil */
     .np-toggle { cursor: pointer; user-select: none; }
     .np-toggle:hover .stat-label { color: var(--text); }
-    .np-list {
-      display: none;
-      margin-top: 8px;
-      border-top: 1px solid var(--border);
-      padding-top: 8px;
+    .np-cli-row {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 6px 0; border-bottom: 1px solid var(--border);
+      cursor: pointer; font-size: .8rem; user-select: none;
     }
-    .np-list.open { display: block; }
+    .np-cli-row:last-of-type { border-bottom: none; }
+    .np-cli-row:hover { color: var(--text); }
+    .np-cli-name  { font-weight: 500; }
+    .np-cli-bairro { font-size: .72rem; color: var(--muted); }
+    .np-cli-date  { font-size: .72rem; color: var(--muted); white-space: nowrap; margin-left: 8px; }
+    .np-cli-ic    { font-size: .6rem; color: var(--muted); margin-left: 6px; }
+    .np-prods     { display: none; background: var(--card2); border-radius: 8px; padding: 8px 10px; margin: 4px 0 8px; }
+    .np-prods.open { display: block; }
 
     /* Tabelas */
-    .expand-table { width: 100%; border-collapse: collapse; font-size: 0.75rem; }
-    .expand-table th { color: var(--muted); font-weight: 600; text-align: left; padding: 4px 0; border-bottom: 1px solid var(--border); }
-    .expand-table td { padding: 4px 0; border-bottom: 1px solid var(--border); vertical-align: top; }
-    .expand-table tr:last-child td { border-bottom: none; }
-    .expand-table .td-right { text-align: right; white-space: nowrap; }
+    .tbl { width: 100%; border-collapse: collapse; font-size: .78rem; }
+    .tbl th {
+      color: var(--muted); font-weight: 600; text-align: left;
+      padding: 4px 6px; border-bottom: 1px solid var(--border);
+      font-size: .68rem; text-transform: uppercase; letter-spacing: .05em;
+    }
+    .tbl td { padding: 5px 6px; border-bottom: 1px solid #1e2235; vertical-align: top; }
+    .tbl tr:last-child td { border-bottom: none; }
+    .tbl .td-right { text-align: right; white-space: nowrap; }
+    .tbl .td-muted { color: var(--muted); }
 
     /* Search */
     .search-wrap { margin-bottom: 16px; }
     .search-input {
       width: 100%; background: var(--card); border: 1px solid var(--border);
       color: var(--text); border-radius: 10px; padding: 10px 14px;
-      font-size: 0.88rem; outline: none;
+      font-size: .88rem; outline: none;
     }
     .search-input:focus { border-color: var(--accent); }
 
-    /* Vendas detail */
+    /* View de detalhe */
     .detail-header {
       background: var(--card); border: 1px solid var(--border);
       border-radius: 12px; padding: 20px; margin-bottom: 16px;
@@ -130,66 +130,58 @@
       flex-wrap: wrap; gap: 12px;
     }
     .detail-name { font-size: 1.1rem; font-weight: 700; }
-    .detail-sub  { font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
-    .detail-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px; margin-bottom: 16px; }
-    .vendas-resumo { display: flex; gap: 24px; flex-wrap: wrap; margin-bottom: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
-    .vendas-resumo-label { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
-    .vendas-resumo-val   { font-size: 1.2rem; font-weight: 700; margin-top: 2px; }
-    .vendas-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+    .detail-sub  { font-size: .75rem; color: var(--muted); margin-top: 2px; }
+    .detail-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 18px; margin-bottom: 16px;
+    }
+    .vendas-kpis {
+      display: flex; gap: 24px; flex-wrap: wrap;
+      margin-bottom: 14px; padding-bottom: 14px; border-bottom: 1px solid var(--border);
+    }
+    .kpi-label { font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+    .kpi-val   { font-size: 1.15rem; font-weight: 700; margin-top: 2px; }
+
+    .vendas-table { width: 100%; border-collapse: collapse; font-size: .8rem; }
     .vendas-table th {
-      text-align: left; font-size: 0.68rem; text-transform: uppercase;
-      letter-spacing: 0.06em; color: var(--muted);
+      text-align: left; font-size: .68rem; text-transform: uppercase;
+      letter-spacing: .06em; color: var(--muted);
       border-bottom: 1px solid var(--border); padding: 0 0 8px;
     }
     .vendas-table td { padding: 8px 0; border-bottom: 1px solid #1e2235; vertical-align: top; }
     .vendas-table tr:last-child td { border-bottom: none; }
     .vendas-date { color: var(--muted); white-space: nowrap; padding-right: 12px; }
     .vendas-cli  { font-weight: 500; }
-    .vendas-prod { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
+    .vendas-prod { font-size: .72rem; color: var(--muted); margin-top: 2px; }
     .vendas-qt   { text-align: right; padding-right: 16px; color: var(--muted); }
     .vendas-val  { text-align: right; font-weight: 600; white-space: nowrap; }
-    .vendas-empty { text-align: center; color: var(--muted); padding: 24px; font-size: 0.85rem; }
+    .vendas-empty { text-align: center; color: var(--muted); padding: 24px; font-size: .85rem; }
 
-    /* Não positivados — view de detalhe */
-    .np-detail-card {
-      background: var(--card); border: 1px solid var(--border);
-      border-radius: 12px; padding: 18px; margin-bottom: 16px;
-    }
-    .np-detail-title {
-      font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
-      letter-spacing: 0.07em; color: var(--muted); margin-bottom: 12px;
-    }
-
-    .no-data { text-align: center; padding: 60px 20px; color: var(--muted); font-size: 0.9rem; line-height: 1.8; }
+    .no-data { text-align: center; padding: 60px 20px; color: var(--muted); font-size: .9rem; line-height: 1.8; }
 
     /* Password gate */
     #senha-gate {
-      position: fixed; inset: 0; z-index: 9999;
-      background: var(--bg);
+      position: fixed; inset: 0; z-index: 9999; background: var(--bg);
       display: flex; align-items: center; justify-content: center;
     }
     #senha-box {
       background: var(--card); border: 1px solid var(--border);
-      border-radius: 16px; padding: 40px 32px;
-      text-align: center; width: min(360px, 90vw);
+      border-radius: 16px; padding: 40px 32px; text-align: center; width: min(360px, 90vw);
     }
     #senha-box h2 { color: var(--accent); margin-bottom: 8px; font-size: 1.2rem; font-weight: 700; }
-    #senha-box p  { color: var(--muted); margin-bottom: 24px; font-size: 0.85rem; }
+    #senha-box p  { color: var(--muted); margin-bottom: 24px; font-size: .85rem; }
     #senha-input {
-      width: 100%; padding: 10px 14px;
-      background: var(--card2); border: 1px solid var(--border);
-      border-radius: 8px; color: var(--text);
+      width: 100%; padding: 10px 14px; background: var(--card2);
+      border: 1px solid var(--border); border-radius: 8px; color: var(--text);
       font-size: 1.2rem; letter-spacing: 6px; text-align: center;
       margin-bottom: 16px; outline: none;
     }
     #senha-input:focus { border-color: var(--accent); }
     #senha-btn {
-      width: 100%; padding: 10px;
-      background: var(--accent); color: #0f1117;
-      border: none; border-radius: 8px;
-      font-weight: 700; font-size: 0.95rem; cursor: pointer;
+      width: 100%; padding: 10px; background: var(--accent); color: #0f1117;
+      border: none; border-radius: 8px; font-weight: 700; font-size: .95rem; cursor: pointer;
     }
-    #senha-erro { color: var(--red); font-size: 0.8rem; margin-top: 12px; min-height: 18px; }
+    #senha-erro { color: var(--red); font-size: .8rem; margin-top: 12px; min-height: 18px; }
   </style>
 </head>
 <body>
@@ -211,8 +203,7 @@
   if (sessionStorage.getItem('offtrade_auth') === '1') { gate.remove(); return; }
   function tentar() {
     if (document.getElementById('senha-input').value.trim() === SENHA) {
-      sessionStorage.setItem('offtrade_auth', '1');
-      gate.remove();
+      sessionStorage.setItem('offtrade_auth', '1'); gate.remove();
     } else {
       document.getElementById('senha-erro').textContent = 'Senha incorreta.';
       document.getElementById('senha-input').value = '';
@@ -220,9 +211,7 @@
     }
   }
   document.getElementById('senha-btn').addEventListener('click', tentar);
-  document.getElementById('senha-input').addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') tentar();
-  });
+  document.getElementById('senha-input').addEventListener('keydown', function(e) { if (e.key === 'Enter') tentar(); });
 })();
 </script>
 
@@ -242,14 +231,21 @@
 <script>
 // ── Utilitários ────────────────────────────────────────────────────────────────
 
-function fmtFat(val) {
-  return 'R$ ' + Number(val).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
+function fmtFat(v) {
+  return 'R$ ' + Number(v).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
 }
-function fmtPos(val) { return Number(val).toLocaleString('pt-BR'); }
 
-// ── Não positivados: toggle expand ────────────────────────────────────────────
+// ── Toggles ────────────────────────────────────────────────────────────────────
 
-function toggleNP(id) {
+function toggleSec(id) {
+  var body = document.getElementById(id);
+  var ic   = document.getElementById(id + '-ic');
+  if (!body) return;
+  var open = body.classList.toggle('open');
+  if (ic) ic.classList.toggle('open', open);
+}
+
+function toggleCli(id) {
   var el = document.getElementById(id);
   var ic = document.getElementById(id + '-ic');
   if (!el) return;
@@ -257,69 +253,61 @@ function toggleNP(id) {
   if (ic) ic.textContent = open ? '▲' : '▼';
 }
 
-// ── Cards de vendedores ───────────────────────────────────────────────────────
+// ── HTML: não positivados (clientes + produtos da última compra) ───────────────
 
-function _buildVendorCards(mes) {
-  if (typeof VENDAS_SP_DATA === 'undefined') return '';
-  var nomes = Object.keys(VENDAS_SP_DATA.por_vendedor || {});
-  if (!nomes.length) return '<div class="no-data">Nenhum vendedor encontrado.</div>';
+function buildNaoPos(npList, prefix) {
+  if (!npList || !npList.length) {
+    return '<div style="color:var(--green);font-size:.85rem;padding:8px 0">Todos os clientes positivados ✓</div>';
+  }
 
-  var npData = (typeof NAO_POS_SP_DATA !== 'undefined' && NAO_POS_SP_DATA.por_vendedor) || {};
+  return npList.map(function(cli, i) {
+    var cliId = prefix + '-cli-' + i;
+    var nProds = cli.produtos ? cli.produtos.length : 0;
 
-  return nomes.map(function(nome, idx) {
-    var vendas = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
-    var fat    = vendas.reduce(function(s, v) { return s + v.valor; }, 0);
-    var nCli   = new Set(vendas.map(function(v) { return v.codcli; })).size;
-
-    var npList  = npData[nome] || [];
-    var nNP     = npList.length;
-    var npColor = nNP > 0 ? 'var(--red)' : 'var(--green)';
-    var npId    = 'np-' + idx;
-
-    var npCorpo;
-    if (nNP === 0) {
-      npCorpo = '<div style="color:var(--green);font-size:.8rem;padding:4px 0">Todos positivados ✓</div>';
-    } else {
-      var rows = npList.map(function(c) {
-        return '<tr><td>' + (c.cliente || '—') + '</td><td style="color:var(--muted)">' +
-               (c.bairro || '—') + '</td><td class="td-right" style="color:var(--muted)">' +
-               (c.dtultcomp || '—') + '</td></tr>';
+    var prodsHtml = '';
+    if (nProds > 0) {
+      var rows = cli.produtos.map(function(p) {
+        return '<tr>' +
+          '<td>' + (cli.dtultcomp || '—') + '</td>' +
+          '<td><div>' + (p.produto || '—') + '</div>' +
+              '<div class="td-muted" style="font-size:.7rem">' + (p.fantasia || '') + '</div></td>' +
+          '<td class="td-right td-muted">' + p.qt + '</td>' +
+          '<td class="td-right">' + fmtFat(p.valor) + '</td>' +
+        '</tr>';
       }).join('');
-      npCorpo = '<table class="expand-table"><thead><tr>' +
-                '<th>Cliente</th><th>Bairro</th><th class="td-right">Últ. Compra</th>' +
-                '</tr></thead><tbody>' + rows + '</tbody></table>';
+      prodsHtml =
+        '<div id="' + cliId + '" class="np-prods">' +
+          '<table class="tbl">' +
+            '<thead><tr>' +
+              '<th>Data</th><th>Produto / Fornecedor</th>' +
+              '<th class="td-right">Qtde</th><th class="td-right">Valor</th>' +
+            '</tr></thead>' +
+            '<tbody>' + rows + '</tbody>' +
+          '</table>' +
+        '</div>';
+    } else {
+      prodsHtml = '<div id="' + cliId + '" class="np-prods" style="color:var(--muted);font-size:.78rem">Sem produtos registrados na última nota.</div>';
     }
 
-    return '<div class="vendor-card" data-nome="' + nome.toLowerCase() + '">' +
-      '<div class="vendor-name">' + nome + '</div>' +
-      '<div class="vendor-sub">SP</div>' +
-      '<div class="stat-row">' +
-        '<span class="stat-label">Faturamento</span>' +
-        '<span class="stat-val">' + fmtFat(fat) + '</span>' +
+    return '<div class="np-cli-row" onclick="toggleCli(\'' + cliId + '\')">' +
+        '<div>' +
+          '<span class="np-cli-name">' + (cli.cliente || '—') + '</span>' +
+          '<div class="np-cli-bairro">' + (cli.codcli ? '#' + cli.codcli + (cli.bairro ? ' · ' + cli.bairro : '') : (cli.bairro || '')) + '</div>' +
+        '</div>' +
+        '<div style="display:flex;align-items:center">' +
+          '<span class="np-cli-date">' + (cli.dtultcomp || '') + '</span>' +
+          (nProds > 0 ? '<span id="' + cliId + '-ic" class="np-cli-ic">▼</span>' : '') +
+        '</div>' +
       '</div>' +
-      '<div class="stat-row">' +
-        '<span class="stat-label">Positivados</span>' +
-        '<span class="stat-val">' + fmtPos(nCli) + '</span>' +
-      '</div>' +
-      '<div class="stat-row np-toggle" onclick="toggleNP(\'' + npId + '\')">' +
-        '<span class="stat-label">Não positivados</span>' +
-        '<span class="stat-val" style="color:' + npColor + '">' +
-          nNP + ' <span id="' + npId + '-ic" style="font-size:.65rem;color:var(--muted)">▼</span>' +
-        '</span>' +
-      '</div>' +
-      '<div id="' + npId + '" class="np-list">' + npCorpo + '</div>' +
-      '<div class="card-actions">' +
-        '<button class="btn btn-primary" onclick="renderVendasSP(\'' + nome.replace(/'/g, "\\'") + '\')">Ver vendas</button>' +
-      '</div>' +
-    '</div>';
+      prodsHtml;
   }).join('');
 }
 
-// ── Tabela de Vendas ──────────────────────────────────────────────────────────
+// ── Tabela de vendas ──────────────────────────────────────────────────────────
 
 function buildVendasTable(lista) {
   if (!lista || !lista.length)
-    return '<div class="vendas-empty">Nenhuma venda registrada este mês.</div>';
+    return '<div class="vendas-empty">Nenhuma venda registrada neste mês.</div>';
   return '<table class="vendas-table"><thead><tr>' +
     '<th>Data</th><th>Cliente / Produto</th>' +
     '<th style="text-align:right">Qtde</th><th style="text-align:right">Valor</th>' +
@@ -336,7 +324,54 @@ function buildVendasTable(lista) {
     '</tbody></table>';
 }
 
-// ── View de vendas individual ─────────────────────────────────────────────────
+// ── Cards principais ──────────────────────────────────────────────────────────
+
+function _buildVendorCards(mes) {
+  if (typeof VENDAS_SP_DATA === 'undefined') return '';
+  var nomes = Object.keys(VENDAS_SP_DATA.por_vendedor || {});
+  if (!nomes.length) return '<div class="no-data">Nenhum vendedor encontrado.</div>';
+
+  var npData = (typeof NAO_POS_SP_DATA !== 'undefined' && NAO_POS_SP_DATA.por_vendedor) || {};
+
+  return nomes.map(function(nome, idx) {
+    var vendas = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
+    var fat    = vendas.reduce(function(s, v) { return s + v.valor; }, 0);
+    var nCli   = new Set(vendas.map(function(v) { return v.codcli; })).size;
+    var npList = npData[nome] || [];
+    var nNP    = npList.length;
+    var secId  = 'card-np-' + idx;
+
+    return '<div class="vendor-card" data-nome="' + nome.toLowerCase() + '">' +
+      '<div class="vendor-name">' + nome + '</div>' +
+      '<div class="vendor-sub">SP</div>' +
+      '<div class="stat-row">' +
+        '<span class="stat-label">Faturamento</span>' +
+        '<span class="stat-val">' + fmtFat(fat) + '</span>' +
+      '</div>' +
+      '<div class="stat-row">' +
+        '<span class="stat-label">Positivados</span>' +
+        '<span class="stat-val">' + nCli + '</span>' +
+      '</div>' +
+      '<div class="sec-header" onclick="toggleSec(\'' + secId + '\')" style="padding:6px 0;margin-top:4px">' +
+        '<div>' +
+          '<span class="sec-title">Não positivados</span>' +
+        '</div>' +
+        '<div style="display:flex;align-items:center;gap:6px">' +
+          '<span style="font-weight:600;font-size:.8rem;color:' + (nNP > 0 ? 'var(--red)' : 'var(--green)') + '">' + nNP + '</span>' +
+          '<span id="' + secId + '-ic" class="sec-ic">▼</span>' +
+        '</div>' +
+      '</div>' +
+      '<div id="' + secId + '" class="sec-body" style="padding-top:6px">' +
+        buildNaoPos(npList, secId) +
+      '</div>' +
+      '<div class="card-actions">' +
+        '<button class="btn btn-primary" onclick="renderVendasSP(\'' + nome.replace(/'/g, "\\'") + '\')">Ver vendas</button>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+}
+
+// ── View de detalhe do vendedor ───────────────────────────────────────────────
 
 function _atualizarTabelaSP(nome) {
   var mes   = document.getElementById('sel-mes-sp').value;
@@ -344,85 +379,87 @@ function _atualizarTabelaSP(nome) {
     var pa = a.data.split('/'), pb = b.data.split('/');
     return new Date(pb[2], pb[1]-1, pb[0]) - new Date(pa[2], pa[1]-1, pa[0]);
   });
-
   var fat  = lista.reduce(function(s, r) { return s + r.valor; }, 0);
-  var qt   = lista.reduce(function(s, r) { return s + r.qt;    }, 0);
+  var qt   = lista.reduce(function(s, r) { return s + r.qt; }, 0);
   var nCli = new Set(lista.map(function(r) { return r.codcli || r.cliente; })).size;
 
-  document.getElementById('vendas-resumo').innerHTML =
-    '<div><div class="vendas-resumo-label">Faturamento</div>' +
-    '<div class="vendas-resumo-val">' + fmtFat(fat) + '</div></div>' +
-    '<div><div class="vendas-resumo-label">Itens</div>' +
-    '<div class="vendas-resumo-val">' + qt.toLocaleString('pt-BR') + '</div></div>' +
-    '<div><div class="vendas-resumo-label">Clientes</div>' +
-    '<div class="vendas-resumo-val">' + nCli + '</div></div>';
-
+  document.getElementById('vendas-kpis').innerHTML =
+    '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmtFat(fat) + '</div></div>' +
+    '<div><div class="kpi-label">Itens</div><div class="kpi-val">' + qt.toLocaleString('pt-BR') + '</div></div>' +
+    '<div><div class="kpi-label">Clientes</div><div class="kpi-val">' + nCli + '</div></div>';
   document.getElementById('vendas-tabela').innerHTML = buildVendasTable(lista);
 }
 
-function exportarVendasCSVSP(nome) {
-  var mes   = document.getElementById('sel-mes-sp').value;
+function exportarCSV(nome) {
+  var mes  = document.getElementById('sel-mes-sp').value;
   var lista = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
-  var sep   = ';';
-  var rows  = [
-    'VENDAS — ' + nome + ' — ' + mes,
-    'Data' + sep + 'Cliente' + sep + 'Produto' + sep + 'Quantidade' + sep + 'Valor (R$)',
-  ].concat(lista.map(function(s) {
-    return s.data + sep + s.cliente + sep + s.produto + sep + s.qt + sep +
-           Number(s.valor).toFixed(2).replace('.', ',');
-  }));
+  var sep  = ';';
+  var rows = ['VENDAS — ' + nome + ' — ' + mes,
+              'Data;Cliente;Produto;Quantidade;Valor (R$)'].concat(
+    lista.map(function(s) {
+      return s.data + sep + s.cliente + sep + s.produto + sep + s.qt + sep +
+             Number(s.valor).toFixed(2).replace('.', ',');
+    })
+  );
   var blob = new Blob(['﻿' + rows.join('\r\n')], {type:'text/csv;charset=utf-8;'});
   var url  = URL.createObjectURL(blob);
-  var a    = document.createElement('a');
+  var a = document.createElement('a');
   a.href = url;
-  a.download = 'vendas_SP_' + nome.replace(/\s+/g, '_') + '_' + mes.replace('/', '_') + '.csv';
+  a.download = 'vendas_SP_' + nome.replace(/\s+/g,'_') + '_' + mes.replace('/','_') + '.csv';
   document.body.appendChild(a); a.click();
   setTimeout(function() { document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
 }
 
 function renderVendasSP(nome) {
-  var meses = typeof VENDAS_SP_DATA !== 'undefined' ? VENDAS_SP_DATA.meses : [];
-  var opts  = meses.map(function(m) { return '<option value="' + m + '">' + m + '</option>'; }).join('');
+  var meses  = typeof VENDAS_SP_DATA !== 'undefined' ? VENDAS_SP_DATA.meses : [];
+  var opts   = meses.map(function(m) { return '<option value="' + m + '">' + m + '</option>'; }).join('');
+  var npData = (typeof NAO_POS_SP_DATA !== 'undefined' && NAO_POS_SP_DATA.por_vendedor) || {};
+  var npList = npData[nome] || [];
+  var nNP    = npList.length;
 
   history.pushState({}, '', '?vendedor=' + encodeURIComponent(nome));
 
   document.getElementById('header-actions').innerHTML =
-    '<button class="btn btn-dl" onclick="exportarVendasCSVSP(\'' + nome.replace(/'/g, "\\'") + '\')">&#8595; CSV</button>' +
+    '<button class="btn btn-dl" onclick="exportarCSV(\'' + nome.replace(/'/g,"\\'") + '\')">&#8595; CSV</button>' +
     '<button class="btn" onclick="renderMain()">&#8592; Todos</button>';
 
-  // Não positivados deste vendedor
-  var npData = (typeof NAO_POS_SP_DATA !== 'undefined' && NAO_POS_SP_DATA.por_vendedor) || {};
-  var npList = npData[nome] || [];
-  var npHtml;
-  if (npList.length === 0) {
-    npHtml = '<div style="color:var(--green);font-size:.9rem">Todos os clientes positivados ✓</div>';
-  } else {
-    var rows = npList.map(function(c) {
-      return '<tr><td>' + (c.cliente || '—') + '</td>' +
-             '<td style="color:var(--muted)">' + (c.bairro || '—') + '</td>' +
-             '<td class="td-right" style="color:var(--muted)">' + (c.dtultcomp || '—') + '</td></tr>';
-    }).join('');
-    npHtml = '<table class="expand-table"><thead><tr>' +
-             '<th>Cliente</th><th>Bairro</th><th class="td-right">Últ. Compra</th>' +
-             '</tr></thead><tbody>' + rows + '</tbody></table>';
-  }
-
   document.getElementById('app').innerHTML =
+    // Cabeçalho do vendedor
     '<div class="detail-header">' +
       '<div><div class="detail-name">' + nome + '</div>' +
-      '<div class="detail-sub">SP · vendas</div></div>' +
-      '<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">' +
-        '<select id="sel-mes-sp" class="mes-select" onchange="_atualizarTabelaSP(\'' + nome.replace(/'/g, "\\'") + '\')">' +
-          opts + '</select></div>' +
+      '<div class="detail-sub">SP</div></div>' +
+      '<select id="sel-mes-sp" class="mes-select" onchange="_atualizarTabelaSP(\'' + nome.replace(/'/g,"\\'") + '\')">' +
+        opts + '</select>' +
     '</div>' +
+
+    // Seção: Faturamento do mês
     '<div class="detail-card">' +
-      '<div id="vendas-resumo" class="vendas-resumo"></div>' +
-      '<div id="vendas-tabela"></div>' +
+      '<div class="sec-header" onclick="toggleSec(\'sec-fat\')">' +
+        '<div>' +
+          '<div class="sec-title">Faturamento do mês</div>' +
+        '</div>' +
+        '<span id="sec-fat-ic" class="sec-ic open">▼</span>' +
+      '</div>' +
+      '<div id="sec-fat" class="sec-body open">' +
+        '<div id="vendas-kpis" class="vendas-kpis" style="margin-top:14px"></div>' +
+        '<div id="vendas-tabela"></div>' +
+      '</div>' +
     '</div>' +
-    '<div class="np-detail-card">' +
-      '<div class="np-detail-title">Não positivados &nbsp;<span style="color:' +
-        (npList.length > 0 ? 'var(--red)' : 'var(--green)') + '">' + npList.length + '</span></div>' +
-      npHtml +
+
+    // Seção: Não positivados
+    '<div class="detail-card">' +
+      '<div class="sec-header" onclick="toggleSec(\'sec-np\')">' +
+        '<div>' +
+          '<div class="sec-title">Não positivados</div>' +
+          '<div class="sec-meta" style="color:' + (nNP > 0 ? 'var(--red)' : 'var(--green)') + '">' +
+            (nNP > 0 ? nNP + ' cliente' + (nNP > 1 ? 's' : '') : 'Todos positivados ✓') +
+          '</div>' +
+        '</div>' +
+        '<span id="sec-np-ic" class="sec-ic open">▼</span>' +
+      '</div>' +
+      '<div id="sec-np" class="sec-body open">' +
+        buildNaoPos(npList, 'det') +
+      '</div>' +
     '</div>';
 
   _atualizarTabelaSP(nome);
@@ -444,7 +481,6 @@ function renderMain(mes) {
       '<div class="no-data"><p>&#9888; Arquivo <strong>vendas_sp_data.js</strong> não encontrado.</p></div>';
     return;
   }
-
   var meses = VENDAS_SP_DATA.meses || [];
   mes = mes || meses[0] || '';
 
@@ -459,7 +495,7 @@ function renderMain(mes) {
     '<select class="mes-select" onchange="renderMain(this.value)">' + mesOpts + '</select>';
 
   document.getElementById('app').innerHTML =
-    '<div class="section-title" style="margin-bottom:12px">Vendedores</div>' +
+    '<div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:12px">Vendedores</div>' +
     '<div class="search-wrap">' +
       '<input class="search-input" type="text" placeholder="Buscar vendedor..." oninput="filterCards(this.value)">' +
     '</div>' +
