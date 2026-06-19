@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 09:51",
-  "total": 4312,
+  "atualizado_em": "19/06/2026 10:01",
+  "total": 4313,
   "clientes": [
     {
       "codcli": "31683",
@@ -59948,6 +59948,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51173",
+      "razao": "WILDNER DA SILVA PEREIRA & CIA LTDA",
+      "fantasia": "VAREJAO CASTRO",
+      "bairro": "PARQUE DAS NACOES",
+      "cidade": "TUPA",
+      "cnpj": "10.646.851/0001-60",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
