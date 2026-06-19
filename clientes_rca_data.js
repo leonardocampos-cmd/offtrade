@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 10:15",
+  "atualizado_em": "19/06/2026 10:35",
   "total": 4314,
   "clientes": [
     {
@@ -44420,8 +44420,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "03.451.716/0002-84",
       "estado": "ES",
       "ramo": "MERCADO",
-      "codusur1": "343",
-      "nome_usur1": "JOSIETH LIMA - OFF TRADE",
+      "codusur1": "260",
+      "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
