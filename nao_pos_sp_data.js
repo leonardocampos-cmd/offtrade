@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "19/06/2026 14:23",
+  "atualizado_em": "19/06/2026 14:31",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -3858,6 +3858,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51186",
+        "cliente": "M S KURODA & CIA LTDA",
+        "bairro": "JARDIM GOLLO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51188",
         "cliente": "M S KURODA & CIA LTDA",
         "bairro": "CENTRO",
@@ -3865,9 +3872,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51186",
+        "codcli": "51189",
         "cliente": "M S KURODA & CIA LTDA",
-        "bairro": "JARDIM GOLLO",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       }
