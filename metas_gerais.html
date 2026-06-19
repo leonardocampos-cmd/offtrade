@@ -184,8 +184,34 @@ function estadoCard(e, isTotal) {
     </div>`;
 }
 
+function kpiHtml(label, val, ant, fmt) {
+  const diff = val - ant;
+  const pct  = ant > 0 ? (diff / ant * 100).toFixed(1) : null;
+  const cls  = diff >= 0 ? 'var-pos' : 'var-neg';
+  const sign = diff >= 0 ? '+' : '';
+  const varTag = pct !== null
+    ? `<span class="${cls}" style="font-size:.75rem;font-weight:700;margin-left:6px">${sign}${pct}%</span>`
+    : '';
+  return `
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 18px;flex:1;min-width:160px">
+      <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:6px">${label}</div>
+      <div style="font-size:1.25rem;font-weight:800;display:flex;align-items:baseline;gap:4px">
+        ${fmt(val)}${varTag}
+      </div>
+      <div style="font-size:.7rem;color:var(--muted);margin-top:3px">Anterior: ${fmt(ant)}</div>
+    </div>`;
+}
+
 function render() {
   const t = D.total;
+  const r = D.resumo || {};
+
+  // Resumo geral no topo
+  const resumoHtml = `
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
+      ${kpiHtml('Faturamento Total', r.fat || t.fat, r.fat_ant || t.fat_ant, brl)}
+      ${kpiHtml('Positivação Total', r.pos || 0, r.pos_ant || 0, v => Math.round(v).toLocaleString('pt-BR'))}
+    </div>`;
 
   // Cards de estado + total
   const estadosHtml = `
@@ -233,7 +259,7 @@ function render() {
       </table>
     </div>`;
 
-  document.getElementById('app').innerHTML = estadosHtml + industriasHtml;
+  document.getElementById('app').innerHTML = resumoHtml + estadosHtml + industriasHtml;
 }
 
 function filterIndustrias(q) {

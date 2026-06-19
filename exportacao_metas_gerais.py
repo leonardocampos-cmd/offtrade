@@ -51,28 +51,46 @@ BASE = Path(__file__).parent
 
 # ── Query agregada por indústria ───────────────────────────────────────────────
 
-def _query(schema: str, filiais: list | None, mes_offset: int = 0, limit_day: bool = False) -> str:
+def _where(schema: str, filiais: list | None, mes_offset: int, limit_day: bool) -> tuple[str, str, str]:
+    p          = f"{schema}."
     ref        = "SYSDATE" if mes_offset == 0 else f"ADD_MONTHS(SYSDATE, {mes_offset})"
     fil_clause = f"AND PCMOV.CODFILIAL IN ({','.join(filiais)})" if filiais else ""
     day_clause = "AND EXTRACT(DAY FROM PCMOV.DTMOV) <= EXTRACT(DAY FROM SYSDATE)" if limit_day else ""
-    p = f"{schema}."
+    return p, ref, fil_clause, day_clause
+
+
+def _query_industria(schema: str, filiais: list | None, mes_offset: int = 0, limit_day: bool = False) -> str:
+    p, ref, fil_clause, day_clause = _where(schema, filiais, mes_offset, limit_day)
     return f"""
         SELECT PCFORNEC.FANTASIA                     AS FANTASIA,
                SUM(PCMOV.PUNIT * PCMOV.QT)          AS FATURAMENTO,
                COUNT(DISTINCT PCCLIENT.CODCLI)       AS POSITIVADOS
         FROM {p}PCMOV
-        JOIN {p}PCUSUARI  ON PCMOV.CODUSUR   = PCUSUARI.CODUSUR
-        JOIN {p}PCPRODUT  ON PCMOV.CODPROD   = PCPRODUT.CODPROD
+        JOIN {p}PCUSUARI  ON PCMOV.CODUSUR      = PCUSUARI.CODUSUR
+        JOIN {p}PCPRODUT  ON PCMOV.CODPROD      = PCPRODUT.CODPROD
         JOIN {p}PCFORNEC  ON PCPRODUT.CODFORNEC = PCFORNEC.CODFORNEC
-        JOIN {p}PCCLIENT  ON PCMOV.CODCLI    = PCCLIENT.CODCLI
+        JOIN {p}PCCLIENT  ON PCMOV.CODCLI       = PCCLIENT.CODCLI
         WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC({ref}, 'MM')
-          {day_clause}
-          {fil_clause}
-          AND PCMOV.CODOPER    = 'S'
-          AND PCMOV.NUMNOTADEV IS NULL
-          AND PCMOV.DTCANCEL   IS NULL
+          {day_clause} {fil_clause}
+          AND PCMOV.CODOPER = 'S' AND PCMOV.NUMNOTADEV IS NULL AND PCMOV.DTCANCEL IS NULL
           AND (PCUSUARI.NOME LIKE '%OFF TRADE%' OR PCUSUARI.NOME LIKE '%W.S%')
         GROUP BY PCFORNEC.FANTASIA
+    """
+
+
+def _query_totais(schema: str, filiais: list | None, mes_offset: int = 0, limit_day: bool = False) -> str:
+    """Totais reais (positivação sem dupla contagem entre indústrias)."""
+    p, ref, fil_clause, day_clause = _where(schema, filiais, mes_offset, limit_day)
+    return f"""
+        SELECT SUM(PCMOV.PUNIT * PCMOV.QT)    AS FATURAMENTO,
+               COUNT(DISTINCT PCCLIENT.CODCLI) AS POSITIVADOS
+        FROM {p}PCMOV
+        JOIN {p}PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
+        JOIN {p}PCCLIENT ON PCMOV.CODCLI  = PCCLIENT.CODCLI
+        WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC({ref}, 'MM')
+          {day_clause} {fil_clause}
+          AND PCMOV.CODOPER = 'S' AND PCMOV.NUMNOTADEV IS NULL AND PCMOV.DTCANCEL IS NULL
+          AND (PCUSUARI.NOME LIKE '%OFF TRADE%' OR PCUSUARI.NOME LIKE '%W.S%')
     """
 
 
@@ -101,7 +119,7 @@ def _carregar(mes_offset: int = 0, limit_day: bool = False) -> pd.DataFrame:
         try:
             print(f"  Consultando {estado} ({schema} filiais={filiais})…")
             with engines[dsn].connect() as conn:
-                df = pd.read_sql(_query(schema, filiais, mes_offset, limit_day), conn)
+                df = pd.read_sql(_query_industria(schema, filiais, mes_offset, limit_day), conn)
             df.columns   = df.columns.str.upper()
             df["ESTADO"] = estado
             df["FATURAMENTO"] = pd.to_numeric(df["FATURAMENTO"], errors="coerce").fillna(0)
@@ -117,13 +135,46 @@ def _carregar(mes_offset: int = 0, limit_day: bool = False) -> pd.DataFrame:
     return pd.concat(frames, ignore_index=True)
 
 
+def _carregar_totais(mes_offset: int = 0, limit_day: bool = False) -> dict:
+    """Retorna {estado: {fat, pos}} com positivação sem dupla contagem."""
+    result  = {}
+    engines = {}
+    for cfg in BASES:
+        dsn, schema, estado, filiais = cfg["dsn"], cfg["schema"], cfg["estado"], cfg["filiais"]
+        if not dsn:
+            continue
+        if dsn not in engines:
+            try:
+                engines[dsn] = create_engine(
+                    f"oracle+oracledb://{USER}:{PASSWORD}@{dsn}",
+                    pool_pre_ping=True, pool_recycle=3600,
+                    connect_args={"expire_time": 2},
+                )
+            except Exception:
+                continue
+        try:
+            with engines[dsn].connect() as conn:
+                row = pd.read_sql(_query_totais(schema, filiais, mes_offset, limit_day), conn)
+            row.columns = row.columns.str.upper()
+            fat = float(pd.to_numeric(row["FATURAMENTO"].iloc[0], errors="coerce") or 0)
+            pos = int(pd.to_numeric(row["POSITIVADOS"].iloc[0], errors="coerce") or 0)
+            result[estado] = {"fat": round(fat, 2), "pos": pos}
+        except Exception as e:
+            print(f"  [aviso totais] {estado}: {e}")
+    return result
+
+
 # ── Carrega mês atual e anterior ───────────────────────────────────────────────
 
 hoje = date.today()
-print("\n=== Carregando mês atual ===")
+print("\n=== Carregando industrias (mes atual) ===")
 df_atual  = _carregar(0, False)
-print("\n=== Carregando mês anterior (mesmo período) ===")
+print("\n=== Carregando industrias (mes anterior) ===")
 df_ant    = _carregar(-1, True)
+print("\n=== Carregando totais reais (mes atual) ===")
+totais_atual = _carregar_totais(0, False)
+print("\n=== Carregando totais reais (mes anterior) ===")
+totais_ant   = _carregar_totais(-1, True)
 
 
 # ── Agrega por estado ──────────────────────────────────────────────────────────
@@ -135,7 +186,8 @@ def _fat_estado(df: pd.DataFrame) -> dict:
 
 fat_atual = _fat_estado(df_atual)
 fat_ant   = _fat_estado(df_ant)
-pos_atual = df_atual.groupby("ESTADO")["POSITIVADOS"].sum().to_dict() if not df_atual.empty else {}
+# Positivação correta vem de _carregar_totais (sem dupla contagem)
+pos_atual = {e: totais_atual.get(e, {}).get("pos", 0) for e in ESTADO_LABEL}
 
 dias_no_mes    = calendar.monthrange(hoje.year, hoje.month)[1]
 dias_corridos  = hoje.day
@@ -199,12 +251,27 @@ industrias_out = _industrias(df_atual, df_ant)
 
 # ── Total geral ────────────────────────────────────────────────────────────────
 
-fat_total     = sum(e["fat"]     for e in estados_out)
-fat_ant_total = sum(e["fat_ant"] for e in estados_out)
+fat_total     = sum(v.get("fat", 0) for v in totais_atual.values())
+fat_ant_total = sum(v.get("fat", 0) for v in totais_ant.values())
+pos_total     = sum(v.get("pos", 0) for v in totais_atual.values())
+pos_ant_total = sum(v.get("pos", 0) for v in totais_ant.values())
 meta_total    = sum(METAS_FAT_ESTADO.values())
 pct_total     = round(fat_total / meta_total * 100, 1) if meta_total else 0.0
 
 mes_str = f"{['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'][hoje.month - 1]}/{str(hoje.year)[2:]}"
+
+# Atualiza fat nos estados_out com valores reais de totais_atual
+for e in estados_out:
+    est  = e["estado"]
+    real = totais_atual.get(est, {})
+    ant  = totais_ant.get(est, {})
+    e["fat"]     = real.get("fat", e["fat"])
+    e["fat_ant"] = ant.get("fat",  e["fat_ant"])
+    e["pos"]     = real.get("pos", e["pos"])
+    e["pos_ant"] = ant.get("pos",  0)
+    meta = e["meta"]
+    e["pct"]     = round(e["fat"] / meta * 100, 1) if meta else 0.0
+    e["nec_dia"] = round(max(meta - e["fat"], 0) / dias_restantes, 2)
 
 payload = {
     "atualizado_em":  datetime.now().strftime("%d/%m/%Y %H:%M"),
@@ -212,6 +279,12 @@ payload = {
     "dias_corridos":  dias_corridos,
     "dias_no_mes":    dias_no_mes,
     "dias_restantes": dias_restantes,
+    "resumo": {
+        "fat":     round(fat_total, 2),
+        "fat_ant": round(fat_ant_total, 2),
+        "pos":     pos_total,
+        "pos_ant": pos_ant_total,
+    },
     "total": {
         "meta":    meta_total,
         "fat":     round(fat_total, 2),
