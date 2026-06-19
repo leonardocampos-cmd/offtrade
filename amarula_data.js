@@ -1,13 +1,13 @@
 const AMARULA_DATA = {
-  "atualizado_em": "19/06/2026 16:15",
+  "atualizado_em": "19/06/2026 17:01",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 39,
-  "total_positivacao": 156,
-  "total_faturamento": 76165.68,
+  "total_positivacao": 157,
+  "total_faturamento": 76254.58,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
@@ -38,7 +38,7 @@ const AMARULA_DATA = {
       "valor": 4
     },
     {
-      "vendedor": "THIAGO NASCIMENTO",
+      "vendedor": "RAPHAEL SANTOS - OFF TRADE",
       "valor": 3
     },
     {
@@ -46,11 +46,15 @@ const AMARULA_DATA = {
       "valor": 3
     },
     {
-      "vendedor": "MARCUS VINICIUS",
+      "vendedor": "THIAGO NASCIMENTO",
       "valor": 3
     },
     {
       "vendedor": "JOÃO VITOR BRAGA",
+      "valor": 3
+    },
+    {
+      "vendedor": "MARCUS VINICIUS",
       "valor": 3
     },
     {
@@ -62,19 +66,7 @@ const AMARULA_DATA = {
       "valor": 2
     },
     {
-      "vendedor": "AUGUSTO SILVA",
-      "valor": 2
-    },
-    {
       "vendedor": "CARLOS ARTHUR NETO",
-      "valor": 2
-    },
-    {
-      "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
-      "valor": 2
-    },
-    {
-      "vendedor": "JULIANA SALGADO",
       "valor": 2
     },
     {
@@ -82,7 +74,15 @@ const AMARULA_DATA = {
       "valor": 2
     },
     {
-      "vendedor": "RAPHAEL SANTOS - OFF TRADE",
+      "vendedor": "JULIANA SALGADO",
+      "valor": 2
+    },
+    {
+      "vendedor": "AUGUSTO SILVA",
+      "valor": 2
+    },
+    {
+      "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "valor": 2
     },
     {
@@ -229,7 +229,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "RAPHAEL SANTOS - OFF TRADE",
-      "valor": 711.2
+      "valor": 800.1
     },
     {
       "vendedor": "LOJA",
