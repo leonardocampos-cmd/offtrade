@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 10:08",
-  "total": 4313,
+  "atualizado_em": "19/06/2026 10:12",
+  "total": 4314,
   "clientes": [
     {
       "codcli": "31683",
@@ -30653,6 +30653,20 @@ const CLIENTES_RCA_DATA = {
       "codcli": "2006",
       "razao": "LM M DE SAQUAREMA DISTRIBUIDORA DE LATICINIOS LTDA",
       "fantasia": "LM M DE SAQUAREMA DISTRIBUIDORA",
+      "bairro": "SAQUAREMA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "74.038.613/0001-54",
+      "estado": "RJ",
+      "ramo": "MERCEARIA",
+      "codusur1": "153",
+      "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
+      "codusur2": "156",
+      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "2006",
+      "razao": "LM M DE SAQUAREMA DISTRIBUIDORA DE LATICINIOS LTDA",
+      "fantasia": "",
       "bairro": "SAQUAREMA",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "74.038.613/0001-54",
