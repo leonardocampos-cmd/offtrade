@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/06/2026 16:15",
+  "atualizado_em": "19/06/2026 17:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -33387,6 +33387,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "MOET HENNESY",
           "qt": 23,
           "valor": 8047.7
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 120,
+          "valor": 7438.8
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "24527",
+          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+          "produto": "WHISKY GLENLIVET FOUNDER S RESERVE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 2038.8
         },
         {
           "data": "05/06/2026",
@@ -78336,9 +78354,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 1760225.01,
+        "fat": 1769702.61,
         "pos": 110.0,
-        "fat_pernod": 809718.78,
+        "fat_pernod": 811757.58,
         "fat_crs": 12567.72
       },
       "Mai/26": {
