@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 10:51",
-  "total": 4315,
+  "atualizado_em": "19/06/2026 11:18",
+  "total": 4318,
   "clientes": [
     {
       "codcli": "31683",
@@ -6666,6 +6666,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "32032",
+      "razao": "ANANIAS ALBANO DA SILVA 21979521883",
+      "fantasia": "ANANIAS ALBANO DA SILVA",
+      "bairro": "VILA GABRIEL",
+      "cidade": "SAO PAULO",
+      "cnpj": "31.742.233/0001-93",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "49213",
@@ -29642,6 +29656,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ARLLEY FIGUEIREDO - OFF TRADE"
     },
     {
+      "codcli": "46501",
+      "razao": "LABUTTAR COMERCIO LTDA",
+      "fantasia": "LABUTTAR",
+      "bairro": "JARDIM ITAPURA",
+      "cidade": "SAO PAULO",
+      "cnpj": "09.141.770/0001-29",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "20777",
       "razao": "LAGOA SANTA LOJA DE CONVENIENCIA LTDA",
       "fantasia": "TRES TERRAS - ANIL",
@@ -29752,6 +29780,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51174",
+      "razao": "LANCHONETE BELA VISTA LARANJAL PAULISTA LTDA.",
+      "fantasia": "LANCHONETE BELA VISTA",
+      "bairro": "VILA BELA VISTA",
+      "cidade": "LARANJAL PAULISTA",
+      "cnpj": "08.300.434/0001-19",
+      "estado": "SP",
+      "ramo": "CAFETERIA",
+      "codusur1": "489",
+      "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "81068",
