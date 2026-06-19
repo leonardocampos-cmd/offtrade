@@ -18,7 +18,6 @@ def deploy():
          "login.html", "auth.js",
          "index.html", "metas.html", "sp.html", "entregas.html",
          "amarula.html", "pernod.html", "clientes_rca.html", "moving.html",
-         "catalogo.html", "catalogo_data.js",
         ],
         ["git", "commit", "--allow-empty", "-m", f"Auto-update {data}"],
         ["git", "push", "origin", "master"],
