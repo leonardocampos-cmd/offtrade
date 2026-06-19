@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 12:22",
-  "total": 4332,
+  "atualizado_em": "19/06/2026 13:55",
+  "total": 4333,
   "clientes": [
     {
       "codcli": "31683",
@@ -23114,6 +23114,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFETERIA",
       "codusur1": "370",
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95443",
+      "razao": "FRANCISCO LUIZ ALVES 75441640715",
+      "fantasia": "FRANCISCO LUIZ ALVES 75441640715",
+      "bairro": "NOVA ANGRA (CUNHAMBEBE)",
+      "cidade": "ANGRA DOS REIS",
+      "cnpj": "37.806.780/0001-71",
+      "estado": "RJ",
+      "ramo": "ADEGA",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
