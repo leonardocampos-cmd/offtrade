@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/06/2026 14:24",
+  "atualizado_em": "19/06/2026 14:25",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -12,50 +12,50 @@ const VENDAS_SP_DATA = {
   ],
   "rcas": {
     "W.S": "588",
-    "PATRICIA RAMOS -": "469",
-    "ADER ALONSO -": "426",
-    "BRUNO BARBOSA -": "425",
-    "ANDRE SILVA -": "391",
-    "ANDRE PINHEIRO -": "485",
-    "MANUELA ZAPPACOSTA -": "433",
-    "JOAO LUPORINI -": "312",
-    "BRYAN PALOPOLI -": "399",
-    "WANDO MACHADO -": "429",
-    "ALEXANDRE TONON -": "483",
-    "MARCIA RITA -": "438",
-    "CRISTIANE MORAIS -": "460",
-    "SUELY SANTOS -": "461",
-    "FABIANO RIBEIRO -": "367",
-    "ANA PAULA -": "356",
-    "CARLOS DE ALMEIDA -": "371",
-    "RENATO JUNIOR -": "468",
-    "LEONARDO FLOREZI -": "486",
-    "JESSICA FREITAS -": "405",
-    "MARLENE RODRIGUES -": "467",
-    "FRANCIS SILVA -": "474",
-    "MARCELO DE CAMPOS -": "392",
-    "VIVIANI ALVES -": "119",
-    "ROBSON DA SILVA -": "317",
-    "MARIO RAFAEL FERRARI -": "428",
-    "PRISCILLA BONACHE -": "470",
-    "PAULO JUNIOR -": "471",
-    "ELIZANGELA RODRIGUES -": "462",
-    "ROBERTO DOS SANTOS -": "463",
-    "MARCELO PEREIRA -": "473",
-    "DOUGLAS TEIXEIRA -": "490",
-    "LEONARDO MILAN -": "315",
-    "MARCUS TANAMACHI -": "318",
-    "RODRIGO LIMA -": "476",
-    "DANIELLE DOS SANTOS -": "466",
-    "LUCIANO TOSCHI -": "477",
-    "CIARA PADULA -": "465",
-    "FLAVIO RIBEIRO -": "472",
-    "PATRICIO MASSAGARDI -": "464",
-    "CARLOS TERRA -": "310",
-    "LUCAS BUENO -": "475",
-    "LUIZ RIGLER -": "487",
-    "NÁTALI DE OLIVEIRA -": "482",
-    "FERNANDO BERTIN -": "489"
+    "PATRICIA RAMOS": "469",
+    "ADER ALONSO": "426",
+    "BRUNO BARBOSA": "425",
+    "ANDRE SILVA": "391",
+    "ANDRE PINHEIRO": "485",
+    "MANUELA ZAPPACOSTA": "433",
+    "JOAO LUPORINI": "312",
+    "BRYAN PALOPOLI": "399",
+    "WANDO MACHADO": "429",
+    "ALEXANDRE TONON": "483",
+    "MARCIA RITA": "438",
+    "CRISTIANE MORAIS": "460",
+    "SUELY SANTOS": "461",
+    "FABIANO RIBEIRO": "367",
+    "ANA PAULA": "356",
+    "CARLOS DE ALMEIDA": "371",
+    "RENATO JUNIOR": "468",
+    "LEONARDO FLOREZI": "486",
+    "JESSICA FREITAS": "405",
+    "MARLENE RODRIGUES": "467",
+    "FRANCIS SILVA": "474",
+    "MARCELO DE CAMPOS": "392",
+    "VIVIANI ALVES": "119",
+    "ROBSON DA SILVA": "317",
+    "MARIO RAFAEL FERRARI": "428",
+    "PRISCILLA BONACHE": "470",
+    "PAULO JUNIOR": "471",
+    "ELIZANGELA RODRIGUES": "462",
+    "ROBERTO DOS SANTOS": "463",
+    "MARCELO PEREIRA": "473",
+    "DOUGLAS TEIXEIRA": "490",
+    "LEONARDO MILAN": "315",
+    "MARCUS TANAMACHI": "318",
+    "RODRIGO LIMA": "476",
+    "DANIELLE DOS SANTOS": "466",
+    "LUCIANO TOSCHI": "477",
+    "CIARA PADULA": "465",
+    "FLAVIO RIBEIRO": "472",
+    "PATRICIO MASSAGARDI": "464",
+    "CARLOS TERRA": "310",
+    "LUCAS BUENO": "475",
+    "LUIZ RIGLER": "487",
+    "NÁTALI DE OLIVEIRA": "482",
+    "FERNANDO BERTIN": "489"
   },
   "por_vendedor": {
     "W.S": {
@@ -36657,7 +36657,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "PATRICIA RAMOS -": {
+    "PATRICIA RAMOS": {
       "Jun/26": [
         {
           "data": "02/06/2026",
@@ -37428,7 +37428,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "ADER ALONSO -": {
+    "ADER ALONSO": {
       "Abr/26": [
         {
           "data": "23/04/2026",
@@ -42878,7 +42878,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "BRUNO BARBOSA -": {
+    "BRUNO BARBOSA": {
       "Abr/26": [
         {
           "data": "22/04/2026",
@@ -45070,7 +45070,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "ANDRE SILVA -": {
+    "ANDRE SILVA": {
       "Mar/26": [
         {
           "data": "27/03/2026",
@@ -48270,7 +48270,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "ANDRE PINHEIRO -": {
+    "ANDRE PINHEIRO": {
       "Jun/26": [
         {
           "data": "08/06/2026",
@@ -48312,7 +48312,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "MANUELA ZAPPACOSTA -": {
+    "MANUELA ZAPPACOSTA": {
       "Abr/26": [
         {
           "data": "29/04/2026",
@@ -49913,7 +49913,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "JOAO LUPORINI -": {
+    "JOAO LUPORINI": {
       "Fev/26": [
         {
           "data": "06/02/2026",
@@ -50143,7 +50143,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "BRYAN PALOPOLI -": {
+    "BRYAN PALOPOLI": {
       "Fev/26": [
         {
           "data": "03/02/2026",
@@ -50196,7 +50196,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "WANDO MACHADO -": {
+    "WANDO MACHADO": {
       "Mar/26": [
         {
           "data": "23/03/2026",
@@ -50438,7 +50438,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "ALEXANDRE TONON -": {
+    "ALEXANDRE TONON": {
       "Jun/26": [
         {
           "data": "12/06/2026",
@@ -50460,7 +50460,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "MARCIA RITA -": {
+    "MARCIA RITA": {
       "Mai/26": [
         {
           "data": "13/05/2026",
@@ -52324,7 +52324,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "CRISTIANE MORAIS -": {
+    "CRISTIANE MORAIS": {
       "Jun/26": [
         {
           "data": "03/06/2026",
@@ -54015,7 +54015,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "SUELY SANTOS -": {
+    "SUELY SANTOS": {
       "Mai/26": [
         {
           "data": "12/05/2026",
@@ -55670,7 +55670,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "FABIANO RIBEIRO -": {
+    "FABIANO RIBEIRO": {
       "Mar/26": [
         {
           "data": "06/03/2026",
@@ -55793,7 +55793,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "ANA PAULA -": {
+    "ANA PAULA": {
       "Abr/26": [
         {
           "data": "09/04/2026",
@@ -56053,7 +56053,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "CARLOS DE ALMEIDA -": {
+    "CARLOS DE ALMEIDA": {
       "Abr/26": [
         {
           "data": "30/04/2026",
@@ -61134,7 +61134,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "RENATO JUNIOR -": {
+    "RENATO JUNIOR": {
       "Mai/26": [
         {
           "data": "21/05/2026",
@@ -62184,7 +62184,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "LEONARDO FLOREZI -": {
+    "LEONARDO FLOREZI": {
       "Jun/26": [
         {
           "data": "08/06/2026",
@@ -62512,7 +62512,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "JESSICA FREITAS -": {
+    "JESSICA FREITAS": {
       "Mar/26": [
         {
           "data": "13/03/2026",
@@ -62790,7 +62790,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "MARLENE RODRIGUES -": {
+    "MARLENE RODRIGUES": {
       "Mai/26": [
         {
           "data": "06/05/2026",
@@ -63167,7 +63167,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "FRANCIS SILVA -": {
+    "FRANCIS SILVA": {
       "Jun/26": [
         {
           "data": "02/06/2026",
@@ -63497,7 +63497,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "MARCELO DE CAMPOS -": {
+    "MARCELO DE CAMPOS": {
       "Fev/26": [
         {
           "data": "03/02/2026",
@@ -63926,7 +63926,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "VIVIANI ALVES -": {
+    "VIVIANI ALVES": {
       "Jun/26": [
         {
           "data": "18/06/2026",
@@ -64192,7 +64192,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "ROBSON DA SILVA -": {
+    "ROBSON DA SILVA": {
       "Jan/26": [
         {
           "data": "28/01/2026",
@@ -67554,7 +67554,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "MARIO RAFAEL FERRARI -": {
+    "MARIO RAFAEL FERRARI": {
       "Jan/26": [
         {
           "data": "26/01/2026",
@@ -68675,7 +68675,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "PRISCILLA BONACHE -": {
+    "PRISCILLA BONACHE": {
       "Mai/26": [
         {
           "data": "30/05/2026",
@@ -68951,7 +68951,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "PAULO JUNIOR -": {
+    "PAULO JUNIOR": {
       "Mai/26": [
         {
           "data": "14/05/2026",
@@ -70262,7 +70262,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "ELIZANGELA RODRIGUES -": {
+    "ELIZANGELA RODRIGUES": {
       "Abr/26": [
         {
           "data": "30/04/2026",
@@ -70450,7 +70450,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "ROBERTO DOS SANTOS -": {
+    "ROBERTO DOS SANTOS": {
       "Jun/26": [
         {
           "data": "09/06/2026",
@@ -71824,7 +71824,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "MARCELO PEREIRA -": {
+    "MARCELO PEREIRA": {
       "Mai/26": [
         {
           "data": "19/05/2026",
@@ -71846,7 +71846,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "DOUGLAS TEIXEIRA -": {
+    "DOUGLAS TEIXEIRA": {
       "Jun/26": [
         {
           "data": "17/06/2026",
@@ -71904,7 +71904,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "LEONARDO MILAN -": {
+    "LEONARDO MILAN": {
       "Fev/26": [
         {
           "data": "02/02/2026",
@@ -72207,7 +72207,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "MARCUS TANAMACHI -": {
+    "MARCUS TANAMACHI": {
       "Abr/26": [
         {
           "data": "15/04/2026",
@@ -72402,7 +72402,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "RODRIGO LIMA -": {
+    "RODRIGO LIMA": {
       "Jun/26": [
         {
           "data": "02/06/2026",
@@ -74055,7 +74055,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "DANIELLE DOS SANTOS -": {
+    "DANIELLE DOS SANTOS": {
       "Mai/26": [
         {
           "data": "13/05/2026",
@@ -74981,7 +74981,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "LUCIANO TOSCHI -": {
+    "LUCIANO TOSCHI": {
       "Mai/26": [
         {
           "data": "26/05/2026",
@@ -75374,7 +75374,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "CIARA PADULA -": {
+    "CIARA PADULA": {
       "Mai/26": [
         {
           "data": "13/05/2026",
@@ -76030,7 +76030,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "FLAVIO RIBEIRO -": {
+    "FLAVIO RIBEIRO": {
       "Mai/26": [
         {
           "data": "12/05/2026",
@@ -76549,7 +76549,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "PATRICIO MASSAGARDI -": {
+    "PATRICIO MASSAGARDI": {
       "Mai/26": [
         {
           "data": "11/05/2026",
@@ -76825,7 +76825,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "CARLOS TERRA -": {
+    "CARLOS TERRA": {
       "Abr/26": [
         {
           "data": "30/04/2026",
@@ -76885,7 +76885,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "LUCAS BUENO -": {
+    "LUCAS BUENO": {
       "Jun/26": [
         {
           "data": "11/06/2026",
@@ -77125,7 +77125,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "LUIZ RIGLER -": {
+    "LUIZ RIGLER": {
       "Jun/26": [
         {
           "data": "11/06/2026",
@@ -77300,7 +77300,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "NÁTALI DE OLIVEIRA -": {
+    "NÁTALI DE OLIVEIRA": {
       "Jun/26": [
         {
           "data": "18/06/2026",
@@ -77322,7 +77322,7 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "FERNANDO BERTIN -": {
+    "FERNANDO BERTIN": {
       "Jun/26": [
         {
           "data": "18/06/2026",
