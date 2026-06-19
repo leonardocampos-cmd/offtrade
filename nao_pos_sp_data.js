@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "19/06/2026 14:15",
+  "atualizado_em": "19/06/2026 14:17",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -3854,6 +3854,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51185",
         "cliente": "COMERCIO DE BEBIDAS DO ALEMAO LTDA",
         "bairro": "PIMENTEIS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51188",
+        "cliente": "M S KURODA & CIA LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
