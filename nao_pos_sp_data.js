@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "19/06/2026 13:55",
+  "atualizado_em": "19/06/2026 14:01",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -4158,6 +4158,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51067",
         "cliente": "AQUILANTE & CIA LTDA",
         "bairro": "VILA SÃO JOSÉ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51184",
+        "cliente": "JA GIMENES PEREIRA LTDA",
+        "bairro": "JARDIM BRASÍLIA",
         "dtultcomp": "nan",
         "produtos": []
       },
