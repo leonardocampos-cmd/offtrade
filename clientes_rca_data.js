@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 16:16",
+  "atualizado_em": "19/06/2026 17:02",
   "total": 4343,
   "clientes": [
     {
@@ -28074,6 +28074,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "46245",
+      "razao": "JOAO BATISTA RODRIGUES SARMENTO COMERCIO DE BEBIDAS",
+      "fantasia": "JOAO BATISTA RODRIGUES SARMENTO COMERCIO DE BEBIDAS",
+      "bairro": "JARDIM DONA BENTA",
+      "cidade": "SUZANO",
+      "cnpj": "42.791.014/0001-10",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "16270",
       "razao": "JOAO CARLOS DA SILVA GOMES 09902533760",
       "fantasia": "BAR E MERCEARIA GOMES",
@@ -53482,20 +53496,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "46804",
-      "razao": "SS TABACARIA E ADEGA LTDA",
-      "fantasia": "SS TABACARIA E ADEGA",
-      "bairro": "CENTRO",
-      "cidade": "ARACARIGUAMA",
-      "cnpj": "30.355.387/0001-60",
-      "estado": "SP",
-      "ramo": "TABACARIA",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "71252",
