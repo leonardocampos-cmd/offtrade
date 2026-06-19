@@ -116,8 +116,7 @@ def _metricas(df: pd.DataFrame) -> dict:
     if df.empty:
         return dict(fat_tt=0, pos_tt=0, fat_castas=0, fat_hob_azeite=0,
                     fat_domecq_passport=0, pos_hob_azeite=0, pos_reckit=0,
-                    pos_crusoe=0, pos_tatuzinho=0, pos_redbull=0, pos_pinatti=0,
-                    bonus_pernod=0, pos_pernod=0)
+                    pos_crusoe=0, pos_tatuzinho=0, pos_redbull=0, pos_pinatti=0)
 
     def fat(mask=None):
         s = df[mask] if mask is not None else df
@@ -126,11 +125,6 @@ def _metricas(df: pd.DataFrame) -> dict:
     def pos(mask=None):
         s = df[mask] if mask is not None else df
         return int(s["CODCLI"].nunique())
-
-    mask_pernod  = df["FANTASIA"].str.contains("PERNOD", na=False)
-    pernod_pairs = df[mask_pernod].drop_duplicates(["CODCLI", "PRODUTO"])
-    mask_jam     = pernod_pairs["PRODUTO"].str.contains("JAMESON", na=False)
-    bonus_pernod = int(mask_jam.sum()) * 10 + int((~mask_jam).sum()) * 5
 
     return {
         "fat_tt":              fat(),
@@ -144,8 +138,6 @@ def _metricas(df: pd.DataFrame) -> dict:
         "pos_tatuzinho":       pos(df["FANTASIA"].str.contains("TATUZINHO", na=False)),
         "pos_redbull":         pos(df["FANTASIA"].str.contains("RED BULL", na=False)),
         "pos_pinatti":         pos(df["FANTASIA"].str.contains("PINATI", na=False)),
-        "bonus_pernod":        bonus_pernod,
-        "pos_pernod":          int(mask_jam.sum()) + int((~mask_jam).sum()),
     }
 
 
@@ -224,10 +216,7 @@ for nome_oracle in nomes_oracle:
 
     _icon = "🟢" if pct_f >= 80 else ("🟡" if pct_f >= 50 else "🔴")
     with st.expander(f"**{nome_display}** · {fmt_brl(met['fat_tt'])} · {met['pos_tt']} clientes · {_icon} {pct_f:.0f}%", expanded=False):
-        col_esq, col_dir = st.columns([3, 2])
-
-        with col_esq:
-            st.markdown(f"""
+        st.markdown(f"""
 <div class="vendor-card">
 <div class="vendor-name">{nome_display}</div>
 {_linha_metrica("Faturamento TT",          met["fat_tt"],              fat_meta)}
@@ -240,15 +229,6 @@ for nome_oracle in nomes_oracle:
 {_linha_metrica("Pos. Crusoe",             met["pos_crusoe"],          metas.get("pos_crusoe", 0),        is_brl=False)}
 {_linha_metrica("Pos. Tatuzinho",          met["pos_tatuzinho"],       metas.get("pos_tatuzinho", 0),     is_brl=False)}
 {_linha_metrica("Pos. Red Bull",           met["pos_redbull"],         metas.get("pos_redbull", 0),       is_brl=False)}
-</div>
-""".strip(), unsafe_allow_html=True)
-
-        with col_dir:
-            st.markdown(f"""
-<div class="card">
-<div style="font-size:.7rem;color:#94a3b8;text-transform:uppercase;margin-bottom:10px">Campanha Pernod</div>
-<div class="stat-row"><span class="stat-label">Bônus acumulado</span><span class="stat-val">{fmt_brl(met["bonus_pernod"])}</span></div>
-<div class="stat-row"><span class="stat-label">Pares SKU/PDV</span><span class="stat-val">{met["pos_pernod"]}</span></div>
 </div>
 """.strip(), unsafe_allow_html=True)
 
