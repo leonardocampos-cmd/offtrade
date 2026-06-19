@@ -228,7 +228,7 @@ out.write_text(
     f"const METAS_GERAIS_DATA = {json.dumps(payload, ensure_ascii=False, indent=2)};\n",
     encoding="utf-8",
 )
-print(f"\nOK metas_gerais_data.js — {len(industrias_out)} indústrias → {out}")
+print(f"\nOK metas_gerais_data.js - {len(industrias_out)} industrias -> {out}")
 
 repo_dir = str(BASE)
 subprocess.run(["git", "-C", repo_dir, "add", "metas_gerais_data.js"], check=True)
