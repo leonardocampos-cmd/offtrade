@@ -104,11 +104,7 @@ def _carregar_nao_pos(nomes_sp: frozenset) -> pd.DataFrame:
 
 def _metricas(df: pd.DataFrame) -> dict:
     if df.empty:
-        return {k: 0 for k in (
-            "fat_tt fat_castas fat_hob_azeite fat_domecq_passport "
-            "pos_tt pos_hob_azeite pos_reckit pos_crusoe "
-            "pos_tatuzinho pos_redbull pos_pinatti"
-        ).split()}
+        return {"fat_tt": 0, "pos_tt": 0}
 
     def fat(mask=None):
         s = df[mask] if mask is not None else df
@@ -119,19 +115,8 @@ def _metricas(df: pd.DataFrame) -> dict:
         return int(s["CODCLI"].nunique())
 
     return {
-        "fat_tt":              fat(),
-        "fat_castas":          fat(df["FANTASIA"].str.contains("CASTAS",          na=False)),
-        "fat_hob_azeite":      fat(df["PRODUTO"].str.contains("AZEITE",           na=False)
-                                 | df["FANTASIA"].str.contains("HOB",              na=False)),
-        "fat_domecq_passport": fat(df["PRODUTO"].str.contains("DOMECQ|PASSPORT",  na=False)),
-        "pos_tt":              pos(),
-        "pos_hob_azeite":      pos(df["PRODUTO"].str.contains("AZEITE",           na=False)
-                                 | df["FANTASIA"].str.contains("HOB",              na=False)),
-        "pos_reckit":          pos(df["FANTASIA"].str.contains("RECKIT",           na=False)),
-        "pos_crusoe":          pos(df["FANTASIA"].str.contains("ROBINSON CRUSOE",  na=False)),
-        "pos_tatuzinho":       pos(df["FANTASIA"].str.contains("TATUZINHO",        na=False)),
-        "pos_redbull":         pos(df["FANTASIA"].str.contains("RED BULL",         na=False)),
-        "pos_pinatti":         pos(df["FANTASIA"].str.contains("PINATI",           na=False)),
+        "fat_tt": fat(),
+        "pos_tt": pos(),
     }
 
 
@@ -252,16 +237,8 @@ for nome_oracle in nomes_oracle:
             st.markdown(f"""
 <div class="vendor-card">
 <div class="vendor-name">{nome_display}</div>
-{_linha_metrica("Faturamento TT",         met["fat_tt"],              fat_meta)}
-{_linha_metrica("Positivação TT",         met["pos_tt"],              pos_meta,                           is_brl=False)}
-{_linha_metrica("Fat. Castas",            met["fat_castas"],          metas.get("fat_castas", 0))}
-{_linha_metrica("Fat. HOB + Azeite",      met["fat_hob_azeite"],      metas.get("fat_hob_azeite", 0))}
-{_linha_metrica("Fat. Domecq + Passport", met["fat_domecq_passport"], metas.get("fat_domecq_passport", 0))}
-{_linha_metrica("Pos. HOB + Azeite",      met["pos_hob_azeite"],      metas.get("pos_hob_azeite", 0),     is_brl=False)}
-{_linha_metrica("Pos. Reckit",            met["pos_reckit"],          metas.get("pos_reckit", 0),         is_brl=False)}
-{_linha_metrica("Pos. Crusoe",            met["pos_crusoe"],          metas.get("pos_crusoe", 0),         is_brl=False)}
-{_linha_metrica("Pos. Tatuzinho",         met["pos_tatuzinho"],       metas.get("pos_tatuzinho", 0),      is_brl=False)}
-{_linha_metrica("Pos. Red Bull",          met["pos_redbull"],         metas.get("pos_redbull", 0),        is_brl=False)}
+{_linha_metrica("Faturamento TT", met["fat_tt"], fat_meta)}
+{_linha_metrica("Positivação TT", met["pos_tt"], pos_meta, is_brl=False)}
 </div>
 """.strip(), unsafe_allow_html=True)
 
