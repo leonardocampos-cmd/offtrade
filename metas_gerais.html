@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metas Gerais — OFF TRADE</title>
+  <script src="metas_gerais_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --green: #22c55e; --yellow: #eab308;
+      --red: #ef4444; --blue: #60a5fa;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+      max-width: 1100px; margin: 0 auto;
+    }
+    header {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      margin-bottom: 24px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); flex-wrap: wrap; gap: 12px;
+    }
+    .header-title h1 { font-size: 1.25rem; font-weight: 700; color: var(--accent); letter-spacing: -.02em; }
+    .header-title p  { font-size: .75rem; color: var(--muted); margin-top: 3px; }
+    .btn {
+      display: inline-flex; align-items: center; padding: 7px 14px;
+      border-radius: 8px; font-size: .8rem; cursor: pointer;
+      border: 1px solid var(--border); background: var(--card2);
+      color: var(--text); text-decoration: none; transition: all .15s;
+    }
+    .btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ── Estado cards ── */
+    .estados-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 12px; margin-bottom: 20px;
+    }
+    .estado-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 16px;
+    }
+    .estado-card.total { border-color: var(--accent); }
+    .estado-nome  { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 4px; }
+    .estado-fat   { font-size: 1.35rem; font-weight: 800; line-height: 1; }
+    .estado-meta  { font-size: .72rem; color: var(--muted); margin-top: 3px; }
+    .estado-ant   { font-size: .72rem; margin-top: 2px; }
+    .estado-nec   { font-size: .68rem; color: var(--muted); margin-top: 6px; text-align: right; }
+
+    .bar-track { background: var(--card2); border-radius: 99px; height: 5px; margin: 8px 0 4px; overflow: hidden; }
+    .bar-fill  { height: 100%; border-radius: 99px; }
+    .bar-green  { background: var(--green); }
+    .bar-yellow { background: var(--yellow); }
+    .bar-red    { background: var(--red); }
+
+    .pct-badge {
+      display: inline-block; font-size: .72rem; font-weight: 700;
+      padding: 1px 7px; border-radius: 5px; margin-left: 6px;
+    }
+    .pct-green  { background: rgba(34,197,94,.15);  color: var(--green); }
+    .pct-yellow { background: rgba(234,179,8,.15);  color: var(--yellow); }
+    .pct-red    { background: rgba(239,68,68,.15);  color: var(--red); }
+
+    /* ── Seção título ── */
+    .sec-title {
+      font-size: .68rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .08em; color: var(--muted);
+      margin: 24px 0 12px; padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ── Tabela de indústrias ── */
+    .ind-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    .ind-table th {
+      text-align: left; padding: 6px 10px;
+      font-size: .65rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .07em; color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .ind-table th.right { text-align: right; }
+    .ind-table td { padding: 8px 10px; border-bottom: 1px solid #1e2235; vertical-align: middle; }
+    .ind-table tr:last-child td { border-bottom: none; }
+    .ind-table tr:hover td { background: var(--card2); }
+    .ind-table .right { text-align: right; white-space: nowrap; }
+    .ind-table .fat   { font-weight: 700; }
+    .ind-table .muted { color: var(--muted); font-size: .75rem; }
+
+    .estado-pill {
+      display: inline-block; font-size: .65rem; font-weight: 700;
+      padding: 1px 6px; border-radius: 4px; margin: 1px;
+      background: var(--card2); border: 1px solid var(--border);
+    }
+    .estado-pill.rj { background: rgba(96,165,250,.12); border-color: #1e40af; color: var(--blue); }
+    .estado-pill.sp { background: rgba(34,197,94,.12);  border-color: #166534; color: var(--green); }
+    .estado-pill.es { background: rgba(245,197,24,.12); border-color: #854d0e; color: var(--yellow); }
+    .estado-pill.mg { background: rgba(239,68,68,.12);  border-color: #7f1d1d; color: var(--red); }
+
+    .var-pos { color: var(--green); }
+    .var-neg { color: var(--red); }
+
+    /* ── Search ── */
+    .search-wrap { margin-bottom: 14px; }
+    .search-input {
+      width: 100%; background: var(--card); border: 1px solid var(--border);
+      color: var(--text); border-radius: 10px; padding: 9px 14px;
+      font-size: .88rem; outline: none;
+    }
+    .search-input:focus { border-color: var(--accent); }
+
+    .table-wrap { background: var(--card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+
+    @media (max-width: 600px) {
+      .estados-grid { grid-template-columns: 1fr 1fr; }
+      .hide-mob { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-title">
+    <h1>&#127758; Metas Gerais — OFF TRADE</h1>
+    <p id="header-sub">—</p>
+  </div>
+  <a class="btn" href="index.html">&#8962; Home</a>
+</header>
+
+<div id="app"></div>
+
+<script>
+const D = (typeof METAS_GERAIS_DATA !== 'undefined') ? METAS_GERAIS_DATA : null;
+
+if (!D) {
+  document.getElementById('app').innerHTML =
+    '<p style="color:var(--red);padding:32px">Erro: metas_gerais_data.js não encontrado.<br>Execute exportacao_metas_gerais.py primeiro.</p>';
+} else {
+  document.getElementById('header-sub').textContent =
+    `Atualizado: ${D.atualizado_em}  ·  ${D.mes}  ·  Dia ${D.dias_corridos}/${D.dias_no_mes}`;
+  render();
+}
+
+function brl(v) {
+  return 'R$ ' + Number(v).toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+}
+function brlk(v) {
+  if (v >= 1e6) return 'R$ ' + (v / 1e6).toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' M';
+  if (v >= 1e3) return 'R$ ' + (v / 1e3).toLocaleString('pt-BR', {minimumFractionDigits: 1, maximumFractionDigits: 1}) + ' K';
+  return brl(v);
+}
+function pctCls(p) { return p >= 100 ? 'green' : p >= 70 ? 'yellow' : 'red'; }
+function varHtml(cur, ant) {
+  if (!ant) return '';
+  const diff = cur - ant;
+  const pct  = ant > 0 ? (diff / ant * 100).toFixed(1) : 0;
+  const cls  = diff >= 0 ? 'var-pos' : 'var-neg';
+  const sign = diff >= 0 ? '+' : '';
+  return `<span class="${cls}">${sign}${pct}%</span>`;
+}
+
+function estadoCard(e, isTotal) {
+  const cls = pctCls(e.pct);
+  const fill = Math.min(e.pct, 100).toFixed(1);
+  const nec  = e.nec_dia > 0
+    ? `<div class="estado-nec">Nec./dia: ${brl(e.nec_dia)}</div>`
+    : '';
+  return `
+    <div class="estado-card${isTotal ? ' total' : ''}">
+      <div class="estado-nome">${e.label || e.estado}</div>
+      <div style="display:flex;align-items:baseline;gap:8px;margin-top:6px">
+        <div class="estado-fat pct-${cls}">${brlk(e.fat)}</div>
+        <span class="pct-badge pct-${cls}">${e.pct.toFixed(1)}%</span>
+      </div>
+      <div class="estado-meta">Meta: ${brlk(e.meta)}</div>
+      <div class="estado-ant muted" style="font-size:.7rem;margin-top:2px">
+        Ant. ${brlk(e.fat_ant)} ${varHtml(e.fat, e.fat_ant)}
+      </div>
+      <div class="bar-track"><div class="bar-fill bar-${cls}" style="width:${fill}%"></div></div>
+      ${nec}
+    </div>`;
+}
+
+function render() {
+  const t = D.total;
+
+  // Cards de estado + total
+  const estadosHtml = `
+    <div class="sec-title">Faturamento por Estado</div>
+    <div class="estados-grid">
+      ${estadoCard({label: 'TOTAL GERAL', estado: 'TOTAL', meta: t.meta, fat: t.fat, fat_ant: t.fat_ant, pct: t.pct, nec_dia: t.nec_dia}, true)}
+      ${D.estados.map(e => estadoCard(e, false)).join('')}
+    </div>`;
+
+  // Tabela de indústrias
+  const estadosCols = D.estados.map(e => e.estado);
+
+  const rowsHtml = D.industrias.map((ind, i) => {
+    const varH   = varHtml(ind.fat, ind.fat_ant);
+    const pills  = estadosCols
+      .filter(e => (ind.por_estado[e] || 0) > 0)
+      .map(e => `<span class="estado-pill ${e.toLowerCase()}">${e} ${brlk(ind.por_estado[e])}</span>`)
+      .join('');
+    return `<tr>
+      <td style="font-weight:600;min-width:180px">${ind.fantasia}</td>
+      <td class="right fat">${brl(ind.fat)}</td>
+      <td class="right muted">${brl(ind.fat_ant)}</td>
+      <td class="right" style="white-space:nowrap">${varH}</td>
+      <td class="hide-mob">${pills}</td>
+    </tr>`;
+  }).join('');
+
+  const industriasHtml = `
+    <div class="sec-title">Faturamento por Indústria (Top ${D.industrias.length})</div>
+    <div class="search-wrap">
+      <input class="search-input" type="text" placeholder="Filtrar por indústria…" oninput="filterIndustrias(this.value)">
+    </div>
+    <div class="table-wrap">
+      <table class="ind-table" id="ind-table">
+        <thead>
+          <tr>
+            <th>Fornecedor / Marca</th>
+            <th class="right">Faturamento</th>
+            <th class="right">Mês Anterior</th>
+            <th class="right">Var.</th>
+            <th class="hide-mob">Por Estado</th>
+          </tr>
+        </thead>
+        <tbody id="ind-body">${rowsHtml}</tbody>
+      </table>
+    </div>`;
+
+  document.getElementById('app').innerHTML = estadosHtml + industriasHtml;
+}
+
+function filterIndustrias(q) {
+  const q2 = q.toLowerCase().trim();
+  document.querySelectorAll('#ind-body tr').forEach(tr => {
+    const nome = tr.cells[0] ? tr.cells[0].textContent.toLowerCase() : '';
+    tr.style.display = nome.includes(q2) ? '' : 'none';
+  });
+}
+</script>
+</body>
+</html>

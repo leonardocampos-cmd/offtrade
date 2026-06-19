@@ -20,7 +20,22 @@ def main():
         step("2/8 - Exportando dashboard HTML (metas_data.js)")
         import exportacao_meta
 
-        step("3/8 - Campanha Amarula (amarula_data.js)")
+        step("3/8 - Metas Gerais por estado/indústria (metas_gerais_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_metas_gerais.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_metas_gerais falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_metas_gerais falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
+        step("4/8 - Campanha Amarula (amarula_data.js)")
         try:
             import subprocess, sys as _sys
             result = subprocess.run(
