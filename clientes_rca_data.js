@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/06/2026 16:02",
-  "total": 4342,
+  "atualizado_em": "19/06/2026 16:16",
+  "total": 4343,
   "clientes": [
     {
       "codcli": "31683",
@@ -15082,12 +15082,26 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "51193",
+      "codcli": "51195",
       "razao": "COMERCIAL VILLA SIMPATIA LTDA",
-      "fantasia": "SIMPATIA SUPERMERCADOS",
-      "bairro": "VILA ANTÔNIO AUGUSTO LUIZ",
-      "cidade": "CACAPAVA",
-      "cnpj": "07.722.158/0001-14",
+      "fantasia": "VILLARREAL",
+      "bairro": "URBANOVA",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "07.722.158/0014-39",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51205",
+      "razao": "COMERCIAL VILLA SIMPATIA LTDA",
+      "fantasia": "COMERCIAL VILLA SIMPATIA",
+      "bairro": "CENTRO",
+      "cidade": "PINDAMONHANGABA",
+      "cnpj": "07.722.158/0009-71",
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "460",
