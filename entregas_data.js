@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "19/06/2026 14:31",
+  "atualizado_em": "19/06/2026 14:43",
   "data_rota": "19.06",
   "vendedores": [
     {
@@ -333,7 +333,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 331.2,
+          "total": 286.89,
           "itens": [
             {
               "desc": "GUARAVITA NATURAL 24X290ML",
@@ -349,11 +349,6 @@ const ENTREGAS_DATA = {
               "desc": "ST PIERRE LATA PALOMA LT 270MLX6",
               "qt": 2,
               "val": 49.36
-            },
-            {
-              "desc": "PINATI NUTS ORIGINAL 20X30G",
-              "qt": 1,
-              "val": 44.31
             },
             {
               "desc": "AGUA MINALBA C/ GAS 6X1,5L",
@@ -2296,6 +2291,11 @@ const ENTREGAS_DATA = {
               "val": 49824.0
             },
             {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 720,
+              "val": 53928.0
+            },
+            {
               "desc": "WHISKY J WALKER RED LABEL 1L",
               "qt": 1440,
               "val": 92016.0
@@ -2304,11 +2304,26 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY WHITE HORSE - 500ML",
               "qt": 180,
               "val": 5364.0
-            },
+            }
+          ]
+        },
+        {
+          "numped": "174000041",
+          "numnota": "405082.0",
+          "data": "19/06/2026",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 18403.2,
+          "itens": [
             {
-              "desc": "GIN TANQUERAY  750 ML",
-              "qt": 720,
-              "val": 53928.0
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 288,
+              "val": 18403.2
             }
           ]
         },
@@ -11474,26 +11489,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "417000362",
-          "numnota": "",
-          "data": "19/06/2026",
-          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 89.7,
-          "itens": [
-            {
-              "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
-              "qt": 3,
-              "val": 89.7
-            }
-          ]
-        },
-        {
           "numped": "417000361",
           "numnota": "",
           "data": "19/06/2026",
@@ -11550,6 +11545,26 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
               "qt": 2,
               "val": 189.4
+            }
+          ]
+        },
+        {
+          "numped": "417000362",
+          "numnota": "",
+          "data": "19/06/2026",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 89.7,
+          "itens": [
+            {
+              "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+              "qt": 3,
+              "val": 89.7
             }
           ]
         },
@@ -13613,6 +13628,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "159004890",
+          "numnota": "",
+          "data": "19/06/2026",
+          "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 6708.0,
+          "itens": [
+            {
+              "desc": "WHISKY JAMESON 750ML",
+              "qt": 120,
+              "val": 6708.0
+            }
+          ]
+        },
         {
           "numped": "159004885",
           "numnota": "",
@@ -33547,6 +33582,81 @@ const ENTREGAS_DATA = {
               "desc": "4 PACK RED BULL",
               "qt": 1,
               "val": 29.96
+            }
+          ]
+        },
+        {
+          "numped": "155003729",
+          "numnota": "",
+          "data": "19/06/2026",
+          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 18041.2,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 15,
+              "val": 2696.4
+            },
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 60,
+              "val": 1674.0
+            },
+            {
+              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+              "qt": 12,
+              "val": 1198.8
+            },
+            {
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 24,
+              "val": 1509.6
+            },
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 4,
+              "val": 559.6
+            },
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 36,
+              "val": 2840.4
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 12,
+              "val": 2074.8
+            },
+            {
+              "desc": "GIN BEEFEATER 750ML",
+              "qt": 12,
+              "val": 778.8
+            },
+            {
+              "desc": "GIN GORDONS 750 ML",
+              "qt": 36,
+              "val": 2012.4
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 6,
+              "val": 1078.56
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 6,
+              "val": 1078.56
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 3,
+              "val": 539.28
             }
           ]
         },
