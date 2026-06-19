@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "19/06/2026 11:47",
+  "atualizado_em": "19/06/2026 12:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -69062,33 +69062,6 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 5,
           "valor": 159.45
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "91243",
-          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "91243",
-          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 71.76
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "91243",
-          "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 299.98
         },
         {
           "data": "08/06/2026",
