@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/06/2026 11:47",
+  "atualizado_em": "19/06/2026 12:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -41755,6 +41755,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "AURORA",
           "qt": 60,
           "valor": 7014.0
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "27228",
+          "cliente": "BOB PECHINCA ATACADISTA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 840,
+          "valor": 20580.0
         },
         {
           "data": "01/06/2026",
