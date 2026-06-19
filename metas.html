@@ -194,6 +194,19 @@
       gap: 8px;
     }
 
+    /* Seção retrátil nos cards (não positivados) */
+    .sec-header {
+      display: flex; justify-content: space-between; align-items: center;
+      cursor: pointer; padding: 8px 0; border-bottom: 1px solid var(--border);
+      user-select: none;
+    }
+    .sec-header:hover .sec-title { color: var(--text); }
+    .sec-title { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); }
+    .sec-ic    { font-size: .65rem; color: var(--muted); transition: transform .2s; }
+    .sec-ic.open { transform: rotate(180deg); }
+    .sec-body  { display: none; padding-top: 8px; }
+    .sec-body.open { display: block; }
+
     /* Progress bar */
     .metric { margin-bottom: 12px; }
     .metric-header {
@@ -1713,20 +1726,72 @@ function _buildResumoEquipe(vendedores, mes) {
     </div>`;
 }
 
+function toggleCardSec(id) {
+  const el = document.getElementById(id);
+  const ic = document.getElementById(id + '-ic');
+  const open = el.classList.toggle('open');
+  if (ic) ic.classList.toggle('open', open);
+}
+
+function _buildCardBar(label, real, meta) {
+  if (!meta || meta <= 0) return '';
+  const p   = pct(real, meta);
+  const cls = pctClass(p);
+  const pD  = p > 999 ? '>999' : Math.round(p);
+  const colorMap = { green: 'var(--green)', yellow: 'var(--yellow)', red: 'var(--red)' };
+  return `<div style="margin:3px 0 10px">
+    <div style="display:flex;justify-content:space-between;font-size:.68rem;color:var(--muted);margin-bottom:3px">
+      <span>${label}</span>
+      <span style="font-weight:700;color:${colorMap[cls]||'var(--muted)'}">${pD}%</span>
+    </div>
+    <div class="bar-bg"><div class="bar-fill bar-${cls}" style="width:${Math.min(p,100)}%"></div></div>
+  </div>`;
+}
+
 function _buildCards(vendedores, mes) {
-  return vendedores.map(v => {
-    const pm = _pm(v, mes);
+  return vendedores.map((v, idx) => {
+    const pm   = _pm(v, mes);
+    const fat  = _mv(pm, 'fat_tt', 'realizado');
+    const fatM = _mv(pm, 'fat_tt', 'meta');
+    const pos  = _mv(pm, 'pos_tt', 'realizado');
+    const posM = _mv(pm, 'pos_tt', 'meta');
+    const npList = v.nao_positivados || [];
+    const nNP    = npList.length;
+    const secId  = `np-card-${idx}`;
+
     return `
       <div class="vendor-card" data-nome="${v.nome.toLowerCase()}" data-rca="${v.rca}">
         <div class="vendor-name">${v.nome}</div>
         <div class="vendor-rca">RCA ${v.rca}</div>
-        ${buildBar('Faturamento Total', _mv(pm,'fat_tt','realizado'), _mv(pm,'fat_tt','meta'), 'fat')}
-        ${buildBar('Positivação Total', _mv(pm,'pos_tt','realizado'), _mv(pm,'pos_tt','meta'), 'pos')}
-        <div class="stat-row"><span class="stat-label">Cadastros no mês</span><span class="stat-val">${v.clientes_cadastrados || 0}</span></div>
+        <div class="stat-row">
+          <span class="stat-label">Faturamento</span>
+          <span class="stat-val">${fmtFat(fat)} <span style="font-size:.7rem;color:var(--muted)">/ ${fmtFat(fatM)}</span></span>
+        </div>
+        ${_buildCardBar('Fat. vs Meta', fat, fatM)}
+        <div class="stat-row">
+          <span class="stat-label">Positivação</span>
+          <span class="stat-val">${pos} <span style="font-size:.7rem;color:var(--muted)">/ ${posM}</span></span>
+        </div>
+        ${_buildCardBar('Pos. vs Meta', pos, posM)}
+        <div class="stat-row">
+          <span class="stat-label">Cadastros no mês</span>
+          <span class="stat-val">${v.clientes_cadastrados || 0}</span>
+        </div>
+        <div class="sec-header" onclick="toggleCardSec('${secId}')">
+          <span class="sec-title">Não positivados</span>
+          <div style="display:flex;align-items:center;gap:6px">
+            <span style="font-weight:700;font-size:.8rem;color:${nNP > 0 ? 'var(--red)' : 'var(--green)'}">${nNP}</span>
+            <span id="${secId}-ic" class="sec-ic">▼</span>
+          </div>
+        </div>
+        <div id="${secId}" class="sec-body">
+          ${buildNaoPosTable(npList)}
+        </div>
         ${buildCampanhaDetail(v, mes)}
         ${buildAmarulaDetail(v)}
         ${buildMovingDetail(v)}
-        <div class="card-actions">
+        <div class="card-actions" style="gap:8px">
+          <button class="btn" onclick="copyLink('${v.nome.replace(/'/g,"\\'")}', this)">&#128279; Link</button>
           <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>
         </div>
       </div>`;
