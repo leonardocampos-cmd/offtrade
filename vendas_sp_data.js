@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "19/06/2026 10:35",
+  "atualizado_em": "19/06/2026 10:40",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -10,6 +10,53 @@ const VENDAS_SP_DATA = {
     "Fev/26",
     "Jan/26"
   ],
+  "rcas": {
+    "W.S": "588",
+    "PATRICIA RAMOS -": "469",
+    "ADER ALONSO -": "426",
+    "BRUNO BARBOSA -": "425",
+    "ANDRE SILVA -": "391",
+    "ANDRE PINHEIRO -": "485",
+    "MANUELA ZAPPACOSTA -": "433",
+    "JOAO LUPORINI -": "312",
+    "BRYAN PALOPOLI -": "399",
+    "WANDO MACHADO -": "429",
+    "ALEXANDRE TONON -": "483",
+    "MARCIA RITA -": "438",
+    "CRISTIANE MORAIS -": "460",
+    "SUELY SANTOS -": "461",
+    "FABIANO RIBEIRO -": "367",
+    "ANA PAULA -": "356",
+    "CARLOS DE ALMEIDA -": "371",
+    "RENATO JUNIOR -": "468",
+    "LEONARDO FLOREZI -": "486",
+    "JESSICA FREITAS -": "405",
+    "MARLENE RODRIGUES -": "467",
+    "FRANCIS SILVA -": "474",
+    "MARCELO DE CAMPOS -": "392",
+    "VIVIANI ALVES -": "119",
+    "ROBSON DA SILVA -": "317",
+    "MARIO RAFAEL FERRARI -": "428",
+    "PRISCILLA BONACHE -": "470",
+    "PAULO JUNIOR -": "471",
+    "ELIZANGELA RODRIGUES -": "462",
+    "ROBERTO DOS SANTOS -": "463",
+    "MARCELO PEREIRA -": "473",
+    "DOUGLAS TEIXEIRA -": "490",
+    "LEONARDO MILAN -": "315",
+    "MARCUS TANAMACHI -": "318",
+    "RODRIGO LIMA -": "476",
+    "DANIELLE DOS SANTOS -": "466",
+    "LUCIANO TOSCHI -": "477",
+    "CIARA PADULA -": "465",
+    "FLAVIO RIBEIRO -": "472",
+    "PATRICIO MASSAGARDI -": "464",
+    "CARLOS TERRA -": "310",
+    "LUCAS BUENO -": "475",
+    "LUIZ RIGLER -": "487",
+    "NATALI DE OLIVEIRA -": "482",
+    "FERNANDO BERTIN -": "489"
+  },
   "por_vendedor": {
     "W.S": {
       "Jan/26": [
