@@ -72,7 +72,8 @@ QUERY_VENDAS_SP = """
         F.FANTASIA,
         M.QT,
         (M.PUNIT * M.QT)               AS VALOR,
-        U.NOME                          AS NOME_ORACLE
+        U.NOME                          AS NOME_ORACLE,
+        U.CODUSUR                       AS CODUSUR
     FROM SPON.PCMOV M
     JOIN SPON.PCUSUARI U  ON M.CODUSUR  = U.CODUSUR
     LEFT JOIN SPON.PCCLIENT C ON M.CODCLI = C.CODCLI
@@ -109,6 +110,12 @@ _vh = _vh[_vh['VENDEDOR'].notna() & (_vh['VENDEDOR'] != '')].copy()
 
 print(f"Vendedores SP encontrados: {sorted(_vh['VENDEDOR'].unique())}")
 
+# ── Monta mapa nome → RCA ─────────────────────────────────────────────────────
+
+_rcas: dict[str, str] = {}
+for _, row in _vh[['VENDEDOR', 'CODUSUR']].drop_duplicates().iterrows():
+    _rcas[row['VENDEDOR']] = str(int(row['CODUSUR']))
+
 # ── Monta estrutura por_vendedor ──────────────────────────────────────────────
 
 _meses_vh  = sorted(_vh['MES'].dropna().unique(), reverse=True)
@@ -133,6 +140,7 @@ for _, row in _vh.iterrows():
 payload = {
     'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
     'meses':         _meses_str,
+    'rcas':          _rcas,
     'por_vendedor':  _por_vendedor,
 }
 

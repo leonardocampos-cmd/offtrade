@@ -251,10 +251,19 @@ function toggleCli(id) {
 
 // ── HTML: não positivados (clientes + produtos da última compra) ───────────────
 
+function _parseData(s) {
+  var p = (s || '').split('/');
+  return p.length === 3 ? new Date(p[2], p[1] - 1, p[0]) : new Date(0);
+}
+
 function buildNaoPos(npList, prefix) {
   if (!npList || !npList.length) {
     return '<div style="color:var(--green);font-size:.85rem;padding:8px 0">Todos os clientes positivados ✓</div>';
   }
+
+  npList = npList.slice().sort(function(a, b) {
+    return _parseData(a.dtultcomp) - _parseData(b.dtultcomp);
+  });
 
   return npList.map(function(cli, i) {
     var cliId = prefix + '-cli-' + i;
@@ -360,10 +369,11 @@ function _buildVendorCards(mes) {
     var npList = npData[nome] || [];
     var nNP    = npList.length;
     var secId  = 'card-np-' + idx;
+    var rca    = (VENDAS_SP_DATA.rcas && VENDAS_SP_DATA.rcas[nome]) ? 'RCA ' + VENDAS_SP_DATA.rcas[nome] : 'SP';
 
     return '<div class="vendor-card" data-nome="' + nome.toLowerCase() + '">' +
       '<div class="vendor-name">' + nome + '</div>' +
-      '<div class="vendor-sub">SP</div>' +
+      '<div class="vendor-sub">' + rca + '</div>' +
       '<div class="stat-row">' +
         '<span class="stat-label">Faturamento</span>' +
         '<span class="stat-val">' + fmtFat(fat) + '</span>' +
@@ -452,7 +462,7 @@ function renderVendasSP(nome) {
     // Cabeçalho do vendedor
     '<div class="detail-header">' +
       '<div><div class="detail-name">' + nome + '</div>' +
-      '<div class="detail-sub">SP</div></div>' +
+      '<div class="detail-sub">' + (VENDAS_SP_DATA.rcas && VENDAS_SP_DATA.rcas[nome] ? 'RCA ' + VENDAS_SP_DATA.rcas[nome] + ' · SP' : 'SP') + '</div></div>' +
       '<select id="sel-mes-sp" class="mes-select" onchange="_atualizarTabelaSP(\'' + nome.replace(/'/g,"\\'") + '\')">' +
         opts + '</select>' +
     '</div>' +
