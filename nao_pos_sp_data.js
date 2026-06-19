@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "19/06/2026 10:40",
+  "atualizado_em": "19/06/2026 10:47",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -998,13 +998,6 @@ const NAO_POS_SP_DATA = {
     ],
     "ADRIANO VEZZANI \n-": [
       {
-        "codcli": "51050",
-        "cliente": "SIM EMPREENDIMENTOS COMERCIAIS - SUPERMERCADOS LTDA",
-        "bairro": "JARDIM DO LIMAO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51048",
         "cliente": "SIM EMPREENDIMENTOS COMERCIAIS - SUPERMERCADOS LTDA",
         "bairro": "JARDIM DAS CEREJEIRAS",
@@ -1019,16 +1012,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51052",
+        "codcli": "51050",
         "cliente": "SIM EMPREENDIMENTOS COMERCIAIS - SUPERMERCADOS LTDA",
-        "bairro": "PARQUE BRASIL",
+        "bairro": "JARDIM DO LIMAO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51053",
-        "cliente": "SIM EMPREENDIMENTOS COMERCIAIS SUPERMERCADOS LTDA",
-        "bairro": "JARDIM RECREIO",
+        "codcli": "51052",
+        "cliente": "SIM EMPREENDIMENTOS COMERCIAIS - SUPERMERCADOS LTDA",
+        "bairro": "PARQUE BRASIL",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -1040,9 +1033,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51044",
+        "codcli": "51053",
+        "cliente": "SIM EMPREENDIMENTOS COMERCIAIS SUPERMERCADOS LTDA",
+        "bairro": "JARDIM RECREIO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51047",
         "cliente": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VILA PRIMAVERA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -1061,16 +1061,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51047",
+        "codcli": "51044",
         "cliente": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
-        "bairro": "VILA PRIMAVERA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51040",
+        "codcli": "51035",
         "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
-        "bairro": "BAIRRO DOS PINTOS",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -1082,6 +1082,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51041",
+        "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
+        "bairro": "ALVINÓPOLIS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51036",
         "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
         "bairro": "CENTRO",
@@ -1089,14 +1096,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51037",
-        "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
-        "bairro": "LAGOS DE SANTA HELENA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51030",
+        "codcli": "51039",
         "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -1110,23 +1110,23 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51041",
+        "codcli": "51040",
         "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
-        "bairro": "ALVINÓPOLIS",
+        "bairro": "BAIRRO DOS PINTOS",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51035",
+        "codcli": "51030",
         "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51039",
+        "codcli": "51037",
         "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
-        "bairro": "CENTRO",
+        "bairro": "LAGOS DE SANTA HELENA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -1669,6 +1669,76 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "49458",
+        "cliente": "EXAMINE SUPERMERCADOS LTDA",
+        "bairro": "JARDIM ANHANGÜERA",
+        "dtultcomp": "16/04/2026",
+        "produtos": [
+          {
+            "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
+            "fantasia": "BROWN",
+            "qt": 4,
+            "valor": 599.6
+          },
+          {
+            "produto": "VODKA ABSOLUT ELYX 750ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 292.96
+          }
+        ]
+      },
+      {
+        "codcli": "49455",
+        "cliente": "EXAMINE SUPERMERCADOS LTDA",
+        "bairro": "BAIRRO DO CASCALHO",
+        "dtultcomp": "16/04/2026",
+        "produtos": [
+          {
+            "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
+            "fantasia": "BROWN",
+            "qt": 2,
+            "valor": 299.8
+          },
+          {
+            "produto": "CONHAQUE DOMECQ 1L",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 51.8
+          },
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 12,
+            "valor": 1054.68
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 12,
+            "valor": 1174.68
+          },
+          {
+            "produto": "RUM BACARDI BIG APPLE 700ML",
+            "fantasia": "BACARDI",
+            "qt": 4,
+            "valor": 120.2
+          },
+          {
+            "produto": "RUM BACARDI CARTA BLANCA 980ML",
+            "fantasia": "BACARDI",
+            "qt": 4,
+            "valor": 137.68
+          },
+          {
+            "produto": "VODKA ABSOLUT ELYX 750ML",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 146.48
+          }
+        ]
+      },
+      {
         "codcli": "49463",
         "cliente": "EXAMINE SUPERMERCADOS LTDA",
         "bairro": "VILA ALEMÃ",
@@ -1753,76 +1823,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "BALLENA",
             "qt": 12,
             "valor": 1174.68
-          },
-          {
-            "produto": "RUM BACARDI CARTA BLANCA 980ML",
-            "fantasia": "BACARDI",
-            "qt": 4,
-            "valor": 137.68
-          },
-          {
-            "produto": "VODKA ABSOLUT ELYX 750ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 146.48
-          }
-        ]
-      },
-      {
-        "codcli": "49458",
-        "cliente": "EXAMINE SUPERMERCADOS LTDA",
-        "bairro": "JARDIM ANHANGÜERA",
-        "dtultcomp": "16/04/2026",
-        "produtos": [
-          {
-            "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
-            "fantasia": "BROWN",
-            "qt": 4,
-            "valor": 599.6
-          },
-          {
-            "produto": "VODKA ABSOLUT ELYX 750ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 292.96
-          }
-        ]
-      },
-      {
-        "codcli": "49455",
-        "cliente": "EXAMINE SUPERMERCADOS LTDA",
-        "bairro": "BAIRRO DO CASCALHO",
-        "dtultcomp": "16/04/2026",
-        "produtos": [
-          {
-            "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
-            "fantasia": "BROWN",
-            "qt": 2,
-            "valor": 299.8
-          },
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 51.8
-          },
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 12,
-            "valor": 1054.68
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 12,
-            "valor": 1174.68
-          },
-          {
-            "produto": "RUM BACARDI BIG APPLE 700ML",
-            "fantasia": "BACARDI",
-            "qt": 4,
-            "valor": 120.2
           },
           {
             "produto": "RUM BACARDI CARTA BLANCA 980ML",
@@ -2500,6 +2500,26 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "48426",
+        "cliente": "REDE PLUS SUPERMERCADOS LTDA",
+        "bairro": "VILA PERUS",
+        "dtultcomp": "16/04/2026",
+        "produtos": [
+          {
+            "produto": "CONHAQUE DOMECQ 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 77.7
+          },
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY BRASIL",
+            "qt": 6,
+            "valor": 359.4
+          }
+        ]
+      },
+      {
         "codcli": "48429",
         "cliente": "REDE PLUS SUPERMERCADOS LTDA",
         "bairro": "LIMÃO",
@@ -2516,26 +2536,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 161.7
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 6,
-            "valor": 359.4
-          }
-        ]
-      },
-      {
-        "codcli": "48426",
-        "cliente": "REDE PLUS SUPERMERCADOS LTDA",
-        "bairro": "VILA PERUS",
-        "dtultcomp": "16/04/2026",
-        "produtos": [
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 77.7
           },
           {
             "produto": "WHISKY JIM BEAM WHITE 1L",
@@ -2694,32 +2694,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "49836",
-        "cliente": "CLAYTON PEREIRA MEDINA MERCADINHO, PADARIA E LANCHONETE",
-        "bairro": "PARAISÓPOLIS",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "CATUABA SELVAGEM 900ML",
-            "fantasia": "COMARY",
-            "qt": 12,
-            "valor": 154.8
-          },
-          {
-            "produto": "VODKA ABSOLUT 1L",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 107.8
-          },
-          {
-            "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 6,
-            "valor": 534.36
-          }
-        ]
-      },
-      {
         "codcli": "49835",
         "cliente": "CLAYTON PEREIRA MEDINA MERCADINHO, PADARIA E LANCHONETE",
         "bairro": "PARAISÓPOLIS",
@@ -2736,6 +2710,32 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 161.7
+          },
+          {
+            "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 6,
+            "valor": 534.36
+          }
+        ]
+      },
+      {
+        "codcli": "49836",
+        "cliente": "CLAYTON PEREIRA MEDINA MERCADINHO, PADARIA E LANCHONETE",
+        "bairro": "PARAISÓPOLIS",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "CATUABA SELVAGEM 900ML",
+            "fantasia": "COMARY",
+            "qt": 12,
+            "valor": 154.8
+          },
+          {
+            "produto": "VODKA ABSOLUT 1L",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 107.8
           },
           {
             "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
@@ -3483,14 +3483,14 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50852",
+        "codcli": "50851",
         "cliente": "SUPERMERCADO LEAL DO VALE LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50851",
+        "codcli": "50852",
         "cliente": "SUPERMERCADO LEAL DO VALE LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -4177,16 +4177,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51120",
+        "codcli": "51119",
         "cliente": "MICHELASSI & CIA LTDA",
-        "bairro": "JARDIM SANTA CLARA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51119",
+        "codcli": "51120",
         "cliente": "MICHELASSI & CIA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "JARDIM SANTA CLARA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4286,16 +4286,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50929",
+        "codcli": "50930",
         "cliente": "OFELIA SARRI MORETE",
-        "bairro": "CHACARAS FAZENDA COELHO",
+        "bairro": "JARDIM DAS COLINAS",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50930",
+        "codcli": "50929",
         "cliente": "OFELIA SARRI MORETE",
-        "bairro": "JARDIM DAS COLINAS",
+        "bairro": "CHACARAS FAZENDA COELHO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4379,16 +4379,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50627",
+        "codcli": "50629",
         "cliente": "MERCADO SAO JOSE DOMINGOS LTDA",
-        "bairro": "JARDIM SANTA LÚCIA",
+        "bairro": "CONJUNTO HABITACIONAL SÃO JOSÉ",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50629",
+        "codcli": "50627",
         "cliente": "MERCADO SAO JOSE DOMINGOS LTDA",
-        "bairro": "CONJUNTO HABITACIONAL SÃO JOSÉ",
+        "bairro": "JARDIM SANTA LÚCIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4555,6 +4555,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "50473",
+        "cliente": "P.P.R PEROZI SUPERMERCADO LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "50474",
         "cliente": "P.P.R PEROZI SUPERMERCADO LTDA",
         "bairro": "VILA NOVA",
@@ -4562,8 +4569,15 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50473",
-        "cliente": "P.P.R PEROZI SUPERMERCADO LTDA",
+        "codcli": "50528",
+        "cliente": "PANEMA SUPERMERCADOS LTDA",
+        "bairro": "AREA RURAL DE TAGUAI",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50529",
+        "cliente": "PANEMA SUPERMERCADOS LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
@@ -4572,6 +4586,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "50532",
         "cliente": "PANEMA SUPERMERCADOS LTDA",
         "bairro": "CONJUNTO HABITACIONAL AUGUSTO MORINI",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50541",
+        "cliente": "PANEMA SUPERMERCADOS LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4590,37 +4611,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50541",
-        "cliente": "PANEMA SUPERMERCADOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "50529",
-        "cliente": "PANEMA SUPERMERCADOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "50528",
-        "cliente": "PANEMA SUPERMERCADOS LTDA",
-        "bairro": "AREA RURAL DE TAGUAI",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "50522",
         "cliente": "RAUL RODRIGUES DA SILVA & FILHOS LTDA",
         "bairro": "VILA CANTIZANI",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "50544",
-        "cliente": "SILVA, CARVALHO & CIA. SUPERMERCADOS LTDA",
-        "bairro": "JARDIM SAO PAULO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4635,6 +4628,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "50550",
         "cliente": "SILVA, CARVALHO & CIA. SUPERMERCADOS LTDA",
         "bairro": "JARDIM EUROPA I",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50544",
+        "cliente": "SILVA, CARVALHO & CIA. SUPERMERCADOS LTDA",
+        "bairro": "JARDIM SAO PAULO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4660,21 +4660,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50489",
-        "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "50501",
-        "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "50478",
         "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -4689,6 +4675,20 @@ const NAO_POS_SP_DATA = {
       },
       {
         "codcli": "50475",
+        "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50489",
+        "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50478",
         "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -5113,23 +5113,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51157",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "JARDIM IRACEMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51153",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "VILA ZAT",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51160",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51158",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5141,9 +5134,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51157",
+        "codcli": "51158",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "JARDIM IRACEMA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51154",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "CONJUNTO HABITACIONAL SAO JOSE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5155,9 +5155,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51154",
+        "codcli": "51160",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "CONJUNTO HABITACIONAL SAO JOSE",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5437,13 +5437,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50714",
-        "cliente": "TRIMAIS SUPERMERCADOS S/A",
-        "bairro": "RESIDENCIAL PARQUE CUMBICA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "50715",
         "cliente": "TRIMAIS SUPERMERCADOS S/A",
         "bairro": "TUCURUVI",
@@ -5454,6 +5447,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "50713",
         "cliente": "TRIMAIS SUPERMERCADOS S/A",
         "bairro": "LAUZANE PAULISTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50714",
+        "cliente": "TRIMAIS SUPERMERCADOS S/A",
+        "bairro": "RESIDENCIAL PARQUE CUMBICA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -5719,13 +5719,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50571",
-        "cliente": "MERCADINHO FONTE NOVA SANTA EMILIA LTDA",
-        "bairro": "JARDIM TRANQÜILIDADE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "50569",
         "cliente": "MERCADINHO FONTE NOVA SANTA EMILIA LTDA",
         "bairro": "JARDIM BELA VISTA",
@@ -5733,9 +5726,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50567",
-        "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
-        "bairro": "JARDIM BELA VISTA",
+        "codcli": "50571",
+        "cliente": "MERCADINHO FONTE NOVA SANTA EMILIA LTDA",
+        "bairro": "JARDIM TRANQÜILIDADE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5743,6 +5736,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "50549",
         "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
         "bairro": "MACEDO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50567",
+        "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
+        "bairro": "JARDIM BELA VISTA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6996,16 +6996,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50944",
+        "codcli": "50945",
         "cliente": "CASA NEGREIROS LTDA",
-        "bairro": "CONJUNTO RESIDENCIAL JOSÉ BONIFÁCIO",
+        "bairro": "JARDIM MARILU",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50945",
+        "codcli": "50944",
         "cliente": "CASA NEGREIROS LTDA",
-        "bairro": "JARDIM MARILU",
+        "bairro": "CONJUNTO RESIDENCIAL JOSÉ BONIFÁCIO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7052,16 +7052,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50950",
+        "codcli": "50948",
         "cliente": "SUPERMERCADO TRIALBA LTDA",
-        "bairro": "CHÁCARA BELENZINHO",
+        "bairro": "BURGO PAULISTA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50953",
+        "codcli": "50950",
         "cliente": "SUPERMERCADO TRIALBA LTDA",
-        "bairro": "CONJUNTO HABITACIONAL TEOTONIO VILELA",
+        "bairro": "CHÁCARA BELENZINHO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7073,9 +7073,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50948",
+        "codcli": "50953",
         "cliente": "SUPERMERCADO TRIALBA LTDA",
-        "bairro": "BURGO PAULISTA",
+        "bairro": "CONJUNTO HABITACIONAL TEOTONIO VILELA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7192,16 +7192,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50246",
+        "codcli": "50249",
         "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
-        "bairro": "JARDIM CAMILA",
+        "bairro": "VILA MOGILAR",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50249",
+        "codcli": "50246",
         "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
-        "bairro": "VILA MOGILAR",
+        "bairro": "JARDIM CAMILA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -7347,13 +7347,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50871",
-        "cliente": "MANZINI SUPERMERCADOS LTDA",
-        "bairro": "RESIDENCIAL CEDRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "50872",
         "cliente": "MANZINI SUPERMERCADOS LTDA",
         "bairro": "JARDIM BRASIL",
@@ -7368,9 +7361,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50867",
-        "cliente": "MIRA & MIRA ALTAS HORAS LTDA",
-        "bairro": "JARDIM CENTENARIO",
+        "codcli": "50871",
+        "cliente": "MANZINI SUPERMERCADOS LTDA",
+        "bairro": "RESIDENCIAL CEDRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7378,6 +7371,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "50771",
         "cliente": "MIRA & MIRA ALTAS HORAS LTDA",
         "bairro": "VILA PAULISTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50867",
+        "cliente": "MIRA & MIRA ALTAS HORAS LTDA",
+        "bairro": "JARDIM CENTENARIO",
         "dtultcomp": "nan",
         "produtos": []
       },
