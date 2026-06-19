@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "19/06/2026 12:06",
+  "atualizado_em": "19/06/2026 12:18",
   "data_rota": "19.06",
   "vendedores": [
     {
@@ -17438,6 +17438,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "379001118",
+          "numnota": "",
+          "data": "19/06/2026",
+          "cliente": "50.828.095 MATHEUS DA SILVA LIMA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1618.2,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 18,
+              "val": 1618.2
+            }
+          ]
+        },
         {
           "numped": "379001081",
           "numnota": "",
