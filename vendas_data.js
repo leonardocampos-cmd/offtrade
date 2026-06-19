@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "19/06/2026 11:14",
+  "atualizado_em": "19/06/2026 11:47",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -37063,7 +37063,7 @@ const VENDAS_DATA = {
           "codcli": "2971",
           "cliente": "VEREDASGAS AUTO POSTO LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 1,
           "valor": 88.7
         },
@@ -37927,7 +37927,7 @@ const VENDAS_DATA = {
           "codcli": "14047",
           "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
           "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 111.0
         },
@@ -38332,7 +38332,7 @@ const VENDAS_DATA = {
           "codcli": "76248",
           "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 1,
           "valor": 88.7
         },
@@ -38602,7 +38602,7 @@ const VENDAS_DATA = {
           "codcli": "74671",
           "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 1,
           "valor": 88.7
         },
@@ -39124,7 +39124,7 @@ const VENDAS_DATA = {
           "codcli": "79246",
           "cliente": "J R CONVENIENCIAS LTDA",
           "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 111.0
         },
@@ -39862,7 +39862,7 @@ const VENDAS_DATA = {
           "codcli": "81665",
           "cliente": "HORA DO RECREIO COMERCIO DE ALIMENTOS E LANCHES LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 1,
           "valor": 88.7
         },
@@ -39934,7 +39934,7 @@ const VENDAS_DATA = {
           "codcli": "81665",
           "cliente": "HORA DO RECREIO COMERCIO DE ALIMENTOS E LANCHES LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 177.4
         },
@@ -40141,7 +40141,7 @@ const VENDAS_DATA = {
           "codcli": "80616",
           "cliente": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
           "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 111.0
         },
@@ -40222,7 +40222,7 @@ const VENDAS_DATA = {
           "codcli": "79887",
           "cliente": "AUTO POSTO CRUZADA PENINSULA LTDA.",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 1,
           "valor": 88.7
         },
@@ -40573,7 +40573,7 @@ const VENDAS_DATA = {
           "codcli": "82920",
           "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 1,
           "valor": 88.7
         },
@@ -40834,7 +40834,7 @@ const VENDAS_DATA = {
           "codcli": "84107",
           "cliente": "POSTO DE GASOLINA RECREIOMAR LTDA.",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 177.4
         },
@@ -41509,7 +41509,7 @@ const VENDAS_DATA = {
           "codcli": "91093",
           "cliente": "BELO CAPIVARI CONVENIENCIA LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 1,
           "valor": 88.7
         },
@@ -41959,7 +41959,7 @@ const VENDAS_DATA = {
           "codcli": "94208",
           "cliente": "OPEN MINI MERCADO LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 177.4
         },
@@ -42076,7 +42076,7 @@ const VENDAS_DATA = {
           "codcli": "94208",
           "cliente": "OPEN MINI MERCADO LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 6X1,5L",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 3,
           "valor": 302.7
         },
@@ -42148,7 +42148,7 @@ const VENDAS_DATA = {
           "codcli": "95366",
           "cliente": "AUTO POSTO CREMONEZE LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 177.4
         },
@@ -43277,7 +43277,7 @@ const VENDAS_DATA = {
           "codcli": "81847",
           "cliente": "MERCADO ESPERANCA DE GUARATIBA LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 177.4
         },
@@ -43340,7 +43340,7 @@ const VENDAS_DATA = {
           "codcli": "81253",
           "cliente": "38.357.335 MARIANA JORGE DE ALMEIDA GAMA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 4,
           "valor": 354.8
         },
@@ -44056,42 +44056,6 @@ const VENDAS_DATA = {
           "valor": 88.9
         },
         {
-          "data": "17/06/2026",
-          "codcli": "85451",
-          "cliente": "MERCEARIA LEAO FM LTDA",
-          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 120,
-          "valor": 1332.0
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "85451",
-          "cliente": "MERCEARIA LEAO FM LTDA",
-          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
-          "fantasia": "JURUPINGA",
-          "qt": 24,
-          "valor": 552.0
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "85451",
-          "cliente": "MERCEARIA LEAO FM LTDA",
-          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 148.8
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "85451",
-          "cliente": "MERCEARIA LEAO FM LTDA",
-          "produto": "AMARULA C LIQUEUR 750 ML",
-          "fantasia": "INTERFOOD",
-          "qt": 1,
-          "valor": 89.0
-        },
-        {
           "data": "18/06/2026",
           "codcli": "85451",
           "cliente": "MERCEARIA LEAO FM LTDA",
@@ -44249,7 +44213,7 @@ const VENDAS_DATA = {
           "codcli": "86503",
           "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
           "produto": "NOSSO CHOP RED DRAFT PET 6X1,5L",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 5,
           "valor": 504.5
         },
@@ -44258,7 +44222,7 @@ const VENDAS_DATA = {
           "codcli": "86503",
           "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 6,
           "valor": 532.2
         },
@@ -53844,7 +53808,7 @@ const VENDAS_DATA = {
           "codcli": "85383",
           "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 4,
           "valor": 354.8
         },
@@ -53880,7 +53844,7 @@ const VENDAS_DATA = {
           "codcli": "86503",
           "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
           "produto": "NOSSO CHOP RED DRAFT PET 6X1,5L",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 10,
           "valor": 1009.0
         },
@@ -53889,7 +53853,7 @@ const VENDAS_DATA = {
           "codcli": "86503",
           "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 6,
           "valor": 532.2
         },
@@ -70310,7 +70274,7 @@ const VENDAS_DATA = {
           "codcli": "94813",
           "cliente": "50.689.886 THAIS VIRGINIA NOGUEIRA",
           "produto": "NOSSO CHOP RED DRAFT PET 6X1,5L",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 201.8
         },
@@ -70319,7 +70283,7 @@ const VENDAS_DATA = {
           "codcli": "94813",
           "cliente": "50.689.886 THAIS VIRGINIA NOGUEIRA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 177.4
         },
@@ -82049,7 +82013,7 @@ const VENDAS_DATA = {
           "codcli": "91751",
           "cliente": "BBC DISTRIBUIDORA ATACADISTA E VAREJISTA DE DOCES LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 177.4
         },
@@ -82175,7 +82139,7 @@ const VENDAS_DATA = {
           "codcli": "91492",
           "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 177.0
         },
@@ -89214,7 +89178,7 @@ const VENDAS_DATA = {
           "codcli": "3717",
           "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 177.4
         },
@@ -89520,7 +89484,7 @@ const VENDAS_DATA = {
           "codcli": "78872",
           "cliente": "BAR E RESTAURANTE SOCIAL TRAPIA LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 177.4
         },
@@ -89799,7 +89763,7 @@ const VENDAS_DATA = {
           "codcli": "94417",
           "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 177.4
         },
@@ -94006,15 +93970,6 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 3,
           "valor": 119.7
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "67267",
-          "cliente": "CATETE GRILL LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 286.8
         },
         {
           "data": "11/06/2026",
@@ -119740,7 +119695,7 @@ const VENDAS_DATA = {
           "codcli": "86262",
           "cliente": "BRASIL WEST ALIMENTOS LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 177.4
         },
@@ -136437,7 +136392,7 @@ const VENDAS_DATA = {
           "codcli": "90146",
           "cliente": "37.598.352 LUCAS DA SILVA GOMES",
           "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 111.0
         },
@@ -137025,6 +136980,24 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 87.6
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "51131",
+          "cliente": "SJ1 DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 960,
+          "valor": 23904.0
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "51132",
+          "cliente": "38.405.385 ARIANE DE CARVALHO ALVES",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 756,
+          "valor": 18824.4
         }
       ],
       "Fev/26": [
@@ -138965,7 +138938,7 @@ const VENDAS_DATA = {
           "codcli": "75240",
           "cliente": "PERACIO MORAES BASTOS 91701988704",
           "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 111.0
         },
@@ -139019,7 +138992,7 @@ const VENDAS_DATA = {
           "codcli": "75240",
           "cliente": "PERACIO MORAES BASTOS 91701988704",
           "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 111.0
         },
@@ -139046,7 +139019,7 @@ const VENDAS_DATA = {
           "codcli": "78995",
           "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
           "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
-          "fantasia": "",
+          "fantasia": "NOSSO CHOPE",
           "qt": 2,
           "valor": 111.0
         },
@@ -157121,7 +157094,7 @@ const VENDAS_DATA = {
           "codcli": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "produto": "AZEITE OLIV EV ZETONA FINALIZAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "MACROEX",
           "qt": 15,
           "valor": 7596.0
         },
@@ -157130,7 +157103,7 @@ const VENDAS_DATA = {
           "codcli": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "produto": "AZEITE OLIV EV ZETONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "MACROEX",
           "qt": 15,
           "valor": 6426.0
         },
@@ -158257,7 +158230,7 @@ const VENDAS_DATA = {
           "codcli": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "produto": "AZEITE OLIV EV ZETONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "MACROEX",
           "qt": 10,
           "valor": 4284.0
         },
@@ -158266,7 +158239,7 @@ const VENDAS_DATA = {
           "codcli": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "produto": "AZEITE OLIV EV ZETONA FINALIZAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "MACROEX",
           "qt": 10,
           "valor": 5064.0
         },
