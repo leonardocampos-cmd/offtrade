@@ -235,6 +235,23 @@ function fmtFat(v) {
   return 'R$ ' + Number(v).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
 }
 
+// ── Copiar link do vendedor ───────────────────────────────────────────────────
+
+function copiarLink(nome, btn) {
+  var url = location.origin + location.pathname + '?vendedor=' + encodeURIComponent(nome);
+  navigator.clipboard.writeText(url).then(function() {
+    var orig = btn.innerHTML;
+    btn.innerHTML = '&#10003; Copiado!';
+    btn.style.color = 'var(--green)';
+    btn.style.borderColor = 'var(--green)';
+    setTimeout(function() {
+      btn.innerHTML = orig;
+      btn.style.color = '';
+      btn.style.borderColor = '';
+    }, 2000);
+  });
+}
+
 // ── Toggles ────────────────────────────────────────────────────────────────────
 
 function toggleSec(id) {
@@ -364,7 +381,8 @@ function _buildVendorCards(mes) {
       '<div id="' + secId + '" class="sec-body" style="padding-top:6px">' +
         buildNaoPos(npList, secId) +
       '</div>' +
-      '<div class="card-actions">' +
+      '<div class="card-actions" style="gap:8px">' +
+        '<button class="btn" onclick="copiarLink(\'' + nome.replace(/'/g, "\\'") + '\', this)" title="Copiar link para este vendedor">&#128279; Link</button>' +
         '<button class="btn btn-primary" onclick="renderVendasSP(\'' + nome.replace(/'/g, "\\'") + '\')">Ver vendas</button>' +
       '</div>' +
     '</div>';
