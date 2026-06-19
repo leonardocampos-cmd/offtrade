@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "19/06/2026 11:18",
+  "atualizado_em": "19/06/2026 11:48",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -1158,7 +1158,7 @@ const CLIENTES_588_DATA = {
     },
     {
       "codcli": "21428",
-      "cliente": "DISTRIBUIDORA DASUL EIRELI",
+      "cliente": "DISTRIBUIDORA DASUL LTDA",
       "ultima_compra_rca": "24/04/2026",
       "valor_jan_abr": 34536.0,
       "meses_ativos": 2,
