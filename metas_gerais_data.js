@@ -1,32 +1,32 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "22/06/2026 10:38",
+  "atualizado_em": "22/06/2026 11:42",
   "mes": "Jun/26",
   "dias_corridos": 22,
   "dias_no_mes": 30,
   "dias_restantes": 8,
   "resumo": {
-    "fat": 7273837.18,
+    "fat": 7396972.78,
     "fat_ant": 6445771.94,
-    "pos": 1342,
+    "pos": 1343,
     "pos_ant": 1375
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 7273837.18,
+    "fat": 7396972.78,
     "fat_ant": 6445771.94,
-    "pct": 50.5,
-    "nec_dia": 890770.35
+    "pct": 51.4,
+    "nec_dia": 875378.4
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 2018179.49,
+      "fat": 2141315.09,
       "fat_ant": 1707227.01,
-      "pos": 558,
-      "pct": 51.7,
-      "nec_dia": 235227.56,
+      "pos": 559,
+      "pct": 54.9,
+      "nec_dia": 219835.61,
       "pos_ant": 556
     },
     {
@@ -131,6 +131,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "BEAM SUNTORY",
+      "fat": 241596.56,
+      "fat_ant": 89071.93,
+      "por_estado": {
+        "RJ": 233263.25,
+        "SP": 0.0,
+        "ES": 8333.31,
+        "MG": 0.0
+      }
+    },
+    {
       "fantasia": "AURORA",
       "fat": 207633.31,
       "fat_ant": 35962.28,
@@ -183,17 +194,6 @@ const METAS_GERAIS_DATA = {
         "SP": 87575.96,
         "ES": 0.0,
         "MG": 40125.04
-      }
-    },
-    {
-      "fantasia": "BEAM SUNTORY",
-      "fat": 118460.96,
-      "fat_ant": 89071.93,
-      "por_estado": {
-        "RJ": 110127.65,
-        "SP": 0.0,
-        "ES": 8333.31,
-        "MG": 0.0
       }
     },
     {
