@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "22/06/2026 16:30",
-  "total": 4286,
+  "atualizado_em": "22/06/2026 17:02",
+  "total": 4288,
   "clientes": [
     {
       "codcli": "31683",
@@ -7984,6 +7984,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "95475",
+      "razao": "AUTO POSTO DE COMBUSTIVEL CATONHO LTDA",
+      "fantasia": "AUTO POSTO DE COMBUSTIVEL CATONHO",
+      "bairro": "JARDIM SULACAP",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "61.678.485/0001-61",
+      "estado": "RJ",
+      "ramo": "SERVIÇOS",
+      "codusur1": "156",
+      "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "11534",
       "razao": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
       "fantasia": "LZ CONVENIENCIA - VARGEM GRANDE",
@@ -12362,6 +12376,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51232",
+      "razao": "CARLOS HENRIQUE FABRI",
+      "fantasia": "CARLOS HENRIQUE FABRI",
+      "bairro": "CENTRO",
+      "cidade": "SERRA NEGRA",
+      "cnpj": "11.245.771/0001-65",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "codusur1": "490",
+      "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -55858,8 +55886,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "27.473.669/0006-61",
       "estado": "ES",
       "ramo": "MERCADO",
-      "codusur1": "442",
-      "nome_usur1": "RAQUEL ARAUJO - OFF TRADE",
+      "codusur1": "388",
+      "nome_usur1": "EUDES MORGAN - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
