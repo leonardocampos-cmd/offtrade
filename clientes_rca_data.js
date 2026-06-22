@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "22/06/2026 11:15",
-  "total": 4254,
+  "atualizado_em": "22/06/2026 11:43",
+  "total": 4255,
   "clientes": [
     {
       "codcli": "31683",
@@ -4660,10 +4660,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "41.318.044/0001-41",
       "estado": "SP",
       "ramo": "ADEGA",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur1": "329",
+      "nome_usur1": "RAPHAELA RIBAS",
+      "codusur2": "588",
+      "nome_usur2": "W.S"
     },
     {
       "codcli": "50804",
@@ -10372,10 +10372,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "55.766.716/0001-96",
       "estado": "SP",
       "ramo": "BAR",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur1": "329",
+      "nome_usur1": "RAPHAELA RIBAS",
+      "codusur2": "588",
+      "nome_usur2": "W.S"
     },
     {
       "codcli": "85348",
@@ -53020,6 +53020,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "51216",
+      "razao": "SUPERMERCADO BAGARELLI LTDA",
+      "fantasia": "SUPERMERCADO BAGARELLI",
+      "bairro": "VILA NOVA PAULISTA",
+      "cidade": "PEDERNEIRAS",
+      "cnpj": "60.946.985/0001-74",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "491",
+      "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "3755",
