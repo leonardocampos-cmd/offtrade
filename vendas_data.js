@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "22/06/2026 10:36",
+  "atualizado_em": "22/06/2026 11:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -158434,33 +158434,6 @@ const VENDAS_DATA = {
           "data": "30/05/2026",
           "codcli": "91668",
           "cliente": "SENDAS DISTRIBUIDORA S/A",
-          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 792,
-          "valor": 75952.8
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "91668",
-          "cliente": "SENDAS DISTRIBUIDORA S/A",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 360,
-          "valor": 34524.0
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "91668",
-          "cliente": "SENDAS DISTRIBUIDORA S/A",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 132,
-          "valor": 12658.8
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "91668",
-          "cliente": "SENDAS DISTRIBUIDORA S/A",
           "produto": "WHISKY JIM BEAM APPLE 1L",
           "fantasia": "BEAM SUNTORY",
           "qt": 660,
@@ -158926,6 +158899,33 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 12,
           "valor": 515.88
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91668",
+          "cliente": "SENDAS DISTRIBUIDORA S/A",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 132,
+          "valor": 12658.8
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91668",
+          "cliente": "SENDAS DISTRIBUIDORA S/A",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 792,
+          "valor": 75952.8
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91668",
+          "cliente": "SENDAS DISTRIBUIDORA S/A",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 360,
+          "valor": 34524.0
         },
         {
           "data": "05/06/2026",
