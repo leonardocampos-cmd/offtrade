@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "22/06/2026 09:15",
-  "total": 4239,
+  "atualizado_em": "22/06/2026 10:03",
+  "total": 4238,
   "clientes": [
     {
       "codcli": "31683",
@@ -52780,20 +52780,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "463",
       "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "49910",
-      "razao": "SUPERMERCADO ALABARCE LTDA",
-      "fantasia": "SUPERMERCADO ALABARCE",
-      "bairro": "VILA MOGILAR",
-      "cidade": "MOGI DAS CRUZES",
-      "cnpj": "00.203.057/0005-11",
-      "estado": "SP",
-      "ramo": "MERCADO",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
