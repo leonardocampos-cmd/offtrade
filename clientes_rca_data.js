@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "22/06/2026 16:20",
-  "total": 4284,
+  "atualizado_em": "22/06/2026 16:30",
+  "total": 4286,
   "clientes": [
     {
       "codcli": "31683",
@@ -618,6 +618,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "85018",
+      "razao": "32.432.920 MANOELA ZORAH DA COSTA DIAS",
+      "fantasia": "MANOELA ZORAH DA COSTA DIAS",
+      "bairro": "ITAÚNA",
+      "cidade": "SAQUAREMA",
+      "cnpj": "32.432.920/0001-75",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "93770",
@@ -21534,6 +21548,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "51231",
+      "razao": "F 3 M SERVICOS E COMERCIO LTDA",
+      "fantasia": "F 3 M SERVICOS E COMERCIO",
+      "bairro": "VILA EDE",
+      "cidade": "SAO PAULO",
+      "cnpj": "19.005.233/0001-05",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "42583",
