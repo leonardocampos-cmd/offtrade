@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "22/06/2026 10:17",
-  "total": 4250,
+  "atualizado_em": "22/06/2026 10:37",
+  "total": 4253,
   "clientes": [
     {
       "codcli": "31683",
@@ -6374,6 +6374,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50131",
+      "razao": "AMBAR CACHACARIA BAR E RESTAURANTE LTDA",
+      "fantasia": "AMBAR",
+      "bairro": "JARDIM TROPICAL",
+      "cidade": "BOTUCATU",
+      "cnpj": "58.186.496/0001-10",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "46649",
       "razao": "AMERICA DISTRIBUICAO E LOGISTICA LTDA",
       "fantasia": "AMERICA DISTRIBUICAO & LOGISTICA",
@@ -12474,6 +12488,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFETERIA",
       "codusur1": "438",
       "nome_usur1": "MARCIA RITA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50145",
+      "razao": "CASA DO LIBANO CULINARIA LIBANESA LTDA",
+      "fantasia": "CASA DO LIBANO - CULINARIA LIBANESA",
+      "bairro": "JARDIM TROPICAL",
+      "cidade": "BOTUCATU",
+      "cnpj": "32.493.390/0001-75",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -50722,6 +50750,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "426",
       "nome_usur1": "ADER ALONSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "48277",
+      "razao": "SACOLAO PIO XI LTDA.",
+      "fantasia": "SACOLAO PIO XI",
+      "bairro": "ALTO DE PINHEIROS",
+      "cidade": "SAO PAULO",
+      "cnpj": "17.948.918/0001-60",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "391",
+      "nome_usur1": "ANDRE SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
