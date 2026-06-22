@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "22/06/2026 15:15",
+  "atualizado_em": "22/06/2026 16:20",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -54,8 +54,8 @@ const VENDAS_SP_DATA = {
     "CARLOS TERRA": "310",
     "LUCAS BUENO": "475",
     "LUIZ RIGLER": "487",
-    "NÁTALI DE OLIVEIRA": "482",
-    "FERNANDO BERTIN": "489"
+    "FERNANDO BERTIN": "489",
+    "NÁTALI DE OLIVEIRA": "482"
   },
   "por_vendedor": {
     "W.S": {
@@ -63402,6 +63402,42 @@ const VENDAS_SP_DATA = {
           "valor": 299.7
         },
         {
+          "data": "22/06/2026",
+          "codcli": "51147",
+          "cliente": "LUCAS HENRIQUE PIRES",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 5,
+          "valor": 139.5
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "51147",
+          "cliente": "LUCAS HENRIQUE PIRES",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 125.4
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "51147",
+          "cliente": "LUCAS HENRIQUE PIRES",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 6,
+          "valor": 101.4
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "51147",
+          "cliente": "LUCAS HENRIQUE PIRES",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 207.0
+        },
+        {
           "data": "10/06/2026",
           "codcli": "50933",
           "cliente": "GESIO FUJII CARDOSO COMERCIO DE BEBIDAS",
@@ -69835,15 +69871,6 @@ const VENDAS_SP_DATA = {
           "data": "22/06/2026",
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
-          "produto": "TEQUILA J CUERVO GOLD 750ML",
-          "fantasia": "AURORA",
-          "qt": 240,
-          "valor": 20400.0
-        },
-        {
-          "data": "22/06/2026",
-          "codcli": "40664",
-          "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "WHISKY JACK DANIELS 1L - DEST",
           "fantasia": "BROWN",
           "qt": 600,
@@ -69857,6 +69884,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 600,
           "valor": 59400.0
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "40664",
+          "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 240,
+          "valor": 20400.0
         },
         {
           "data": "11/06/2026",
@@ -73559,6 +73595,33 @@ const VENDAS_SP_DATA = {
           "valor": 319.8
         },
         {
+          "data": "22/06/2026",
+          "codcli": "49993",
+          "cliente": "DEPOSITO DE BEBIDAS GOMES LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 3,
+          "valor": 74.7
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "49993",
+          "cliente": "DEPOSITO DE BEBIDAS GOMES LTDA",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 45,
+          "valor": 1615.5
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "49993",
+          "cliente": "DEPOSITO DE BEBIDAS GOMES LTDA",
+          "produto": "TANQUERAY CX C/ 12X50ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 149.9
+        },
+        {
           "data": "11/06/2026",
           "codcli": "50099",
           "cliente": "JULIO C. DA SILVA JUNIOR LTDA",
@@ -74151,6 +74214,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "BALLENA",
           "qt": 2,
           "valor": 195.78
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "50769",
+          "cliente": "53.019.084 DANILO APARECIDO FELIX",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 262.8
         },
         {
           "data": "15/06/2026",
@@ -76329,6 +76401,15 @@ const VENDAS_SP_DATA = {
           "valor": 377.7
         },
         {
+          "data": "22/06/2026",
+          "codcli": "50761",
+          "cliente": "WALLACE MORAES ANTUNES 44143439840",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 15,
+          "valor": 517.5
+        },
+        {
           "data": "17/06/2026",
           "codcli": "51105",
           "cliente": "JAIME LARA CAMARGO FILHO MERCADO",
@@ -78337,30 +78418,17 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "NÁTALI DE OLIVEIRA": {
-      "Jun/26": [
-        {
-          "data": "18/06/2026",
-          "codcli": "51131",
-          "cliente": "SJ1 DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 960,
-          "valor": 23904.0
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "51132",
-          "cliente": "38.405.385 ARIANE DE CARVALHO ALVES",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 756,
-          "valor": 18824.4
-        }
-      ]
-    },
     "FERNANDO BERTIN": {
       "Jun/26": [
+        {
+          "data": "22/06/2026",
+          "codcli": "51170",
+          "cliente": "62.384.846 PAULO ROBERTO FLORIANO",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 45,
+          "valor": 1552.5
+        },
         {
           "data": "18/06/2026",
           "codcli": "51110",
@@ -78432,6 +78500,28 @@ const VENDAS_SP_DATA = {
           "fantasia": "MOET HENNESY",
           "qt": 48,
           "valor": 1243.2
+        }
+      ]
+    },
+    "NÁTALI DE OLIVEIRA": {
+      "Jun/26": [
+        {
+          "data": "18/06/2026",
+          "codcli": "51131",
+          "cliente": "SJ1 DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 960,
+          "valor": 23904.0
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "51132",
+          "cliente": "38.405.385 ARIANE DE CARVALHO ALVES",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 756,
+          "valor": 18824.4
         }
       ]
     }
@@ -79335,9 +79425,9 @@ const VENDAS_SP_DATA = {
     },
     "RODRIGO LIMA": {
       "Jun/26": {
-        "fat": 79483.41,
+        "fat": 81586.31,
         "pos": 28.0,
-        "fat_pernod": 38177.9
+        "fat_pernod": 40056.2
       },
       "Mai/26": {
         "fat": 43722.53,
@@ -79347,9 +79437,9 @@ const VENDAS_SP_DATA = {
     },
     "LUCIANO TOSCHI": {
       "Jun/26": {
-        "fat": 16065.64,
+        "fat": 16583.14,
         "pos": 12.0,
-        "fat_pernod": 8742.9,
+        "fat_pernod": 9260.4,
         "fat_crs": 119.88
       },
       "Mai/26": {
@@ -79384,9 +79474,9 @@ const VENDAS_SP_DATA = {
     },
     "LEONARDO FLOREZI": {
       "Jun/26": {
-        "fat": 8859.98,
-        "pos": 9.0,
-        "fat_pernod": 1354.0,
+        "fat": 9433.28,
+        "pos": 10.0,
+        "fat_pernod": 1825.9,
         "fat_essenza": 789.36
       }
     },
@@ -79399,9 +79489,9 @@ const VENDAS_SP_DATA = {
     },
     "FERNANDO BERTIN": {
       "Jun/26": {
-        "fat": 8433.56,
-        "pos": 1.0,
-        "fat_pernod": 1339.2
+        "fat": 9986.06,
+        "pos": 2.0,
+        "fat_pernod": 2891.7
       }
     },
     "DOUGLAS TEIXEIRA": {
