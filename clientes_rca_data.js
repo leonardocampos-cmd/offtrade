@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "22/06/2026 11:02",
-  "total": 4253,
+  "atualizado_em": "22/06/2026 11:15",
+  "total": 4254,
   "clientes": [
     {
       "codcli": "31683",
@@ -43290,6 +43290,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BARBARA CABRAL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "51214",
+      "razao": "PALOMO & CROCHIQUIA LTDA",
+      "fantasia": "SUPERMERCADO KAMEL II",
+      "bairro": "JARDIM SOARES",
+      "cidade": "MOGI GUACU",
+      "cnpj": "69.228.963/0001-43",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "30922",
