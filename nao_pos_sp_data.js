@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "22/06/2026 16:20",
+  "atualizado_em": "22/06/2026 16:30",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -1025,22 +1025,6 @@ const NAO_POS_SP_DATA = {
             "valor": 19770.0
           }
         ]
-      }
-    ],
-    "ANDERSON CANAVEIS -": [
-      {
-        "codcli": "51139",
-        "cliente": "BIG BOM SANTO ANDRE MINIMERCADO LTDA",
-        "bairro": "JARDIM LALLO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51123",
-        "cliente": "BONZAO COMERCIO DE DOCES LTDA",
-        "bairro": "VILA BABILÔNIA",
-        "dtultcomp": "nan",
-        "produtos": []
       }
     ],
     "ANDRE PINHEIRO -": [
@@ -2756,16 +2740,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50514",
+        "codcli": "50518",
         "cliente": "MERCADO JUQUICENTER LTDA",
-        "bairro": "SP",
+        "bairro": "JD HENRIQUE BOCCOLIN",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50518",
+        "codcli": "50514",
         "cliente": "MERCADO JUQUICENTER LTDA",
-        "bairro": "JD HENRIQUE BOCCOLIN",
+        "bairro": "SP",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -2812,6 +2796,15 @@ const NAO_POS_SP_DATA = {
             "valor": 43596.0
           }
         ]
+      }
+    ],
+    "CAROLINA SOUZA -": [
+      {
+        "codcli": "51231",
+        "cliente": "F 3 M SERVICOS E COMERCIO LTDA",
+        "bairro": "VILA EDE",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "CIARA PADULA -": [
@@ -8424,68 +8417,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "49476",
-        "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
-        "bairro": "TIJUCO PRETO",
-        "dtultcomp": "20/04/2026",
-        "produtos": [
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 48,
-            "valor": 1243.2
-          },
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 48,
-            "valor": 3019.2
-          },
-          {
-            "produto": "GIN BEEFEATER PINK 750ML",
-            "fantasia": "PERNOD",
-            "qt": 36,
-            "valor": 2336.4
-          },
-          {
-            "produto": "VODKA ABSOLUT 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 646.8
-          },
-          {
-            "produto": "VODKA ABSOLUT CITRON 750ML",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 634.8
-          },
-          {
-            "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 634.8
-          },
-          {
-            "produto": "VODKA ABSOLUT VANILLA 750ML",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 634.8
-          },
-          {
-            "produto": "WHISKY PASSPORT 1L",
-            "fantasia": "PERNOD",
-            "qt": 48,
-            "valor": 1579.2
-          },
-          {
-            "produto": "WHISKY ROYAL SALUTE 700ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 3479.4
-          }
-        ]
-      },
-      {
         "codcli": "48486",
         "cliente": "COMERCIAL MG DISTRIBUICAO LTDA",
         "bairro": "MORRO BRANCO",
@@ -10652,32 +10583,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "BROWN",
             "qt": 4,
             "valor": 559.6
-          }
-        ]
-      },
-      {
-        "codcli": "28613",
-        "cliente": "VIEL VIEL E CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "20/05/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS 375 ML - DEST",
-            "fantasia": "BROWN",
-            "qt": 24,
-            "valor": 1078.08
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 700ML - DEST",
-            "fantasia": "BROWN",
-            "qt": 60,
-            "valor": 4194.0
-          },
-          {
-            "produto": "WHISKY PASSPORT 1L",
-            "fantasia": "PERNOD",
-            "qt": 48,
-            "valor": 1579.2
           }
         ]
       },
