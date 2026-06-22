@@ -1779,7 +1779,11 @@ function buildMovingDetail(v) {
 }
 
 function _buildResumoEquipe(vendedores, mes) {
-  const totalFat = vendedores.reduce((s, v) => s + _mv(_pm(v, mes), 'fat_tt', 'realizado'), 0);
+  const totalFat = vendedores.reduce((s, v) => {
+    const pm   = _pm(v, mes);
+    const fatM = _mv(pm, 'fat_tt', 'meta');
+    return s + (fatM > 0 ? _mv(pm, 'fat_tt', 'realizado') : _fatVendasMes(v.nome, mes));
+  }, 0);
   const totalPos = vendedores.reduce((s, v) => s + _mv(_pm(v, mes), 'pos_tt', 'realizado'), 0);
   const totalCad = vendedores.reduce((s, v) => s + (v.clientes_cadastrados || 0), 0);
   return `
@@ -1823,11 +1827,16 @@ function _buildCardBar(label, real, meta) {
   </div>`;
 }
 
+function _fatVendasMes(nomeVendedor, mes) {
+  if (typeof VENDAS_DATA === 'undefined') return 0;
+  return ((VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || []).reduce((s, x) => s + x.valor, 0);
+}
+
 function _buildCards(vendedores, mes) {
   return vendedores.map((v, idx) => {
     const pm   = _pm(v, mes);
-    const fat  = _mv(pm, 'fat_tt', 'realizado');
     const fatM = _mv(pm, 'fat_tt', 'meta');
+    const fat  = fatM > 0 ? _mv(pm, 'fat_tt', 'realizado') : _fatVendasMes(v.nome, mes);
     const pos  = _mv(pm, 'pos_tt', 'realizado');
     const posM = _mv(pm, 'pos_tt', 'meta');
     return `
