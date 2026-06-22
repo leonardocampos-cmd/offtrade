@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "22/06/2026 09:15",
+  "atualizado_em": "22/06/2026 10:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -34116,78 +34116,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 4,
           "valor": 419.6
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "36825",
-          "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 180,
-          "valor": 5022.0
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "36825",
-          "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
-          "produto": "RUM MONTILLA CARTA BRANCA 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 250.8
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "36825",
-          "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
-          "produto": "VODKA ABSOLUT VANILLA 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 666.0
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "36825",
-          "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
-          "produto": "WHISKY GENTLEMAN JACK 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 6,
-          "valor": 899.4
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "36825",
-          "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
-          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1332.0
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "36825",
-          "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
-          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
-          "fantasia": "BACARDI",
-          "qt": 6,
-          "valor": 599.4
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "36825",
-          "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
-          "produto": "VODKA ABSOLUT CITRON 750ML",
-          "fantasia": "PERNOD",
-          "qt": 8,
-          "valor": 455.2
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "36825",
-          "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
-          "produto": "WHISKY JACK DANIELS 700ML - DEST",
-          "fantasia": "BROWN",
-          "qt": 60,
-          "valor": 5094.0
         },
         {
           "data": "22/06/2026",
@@ -79512,9 +79440,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2057794.09,
+        "fat": 2043475.29,
         "pos": 123.0,
-        "fat_pernod": 1042293.43,
+        "fat_pernod": 1034567.43,
         "fat_crs": 12567.72
       },
       "Mai/26": {
