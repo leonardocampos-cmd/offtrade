@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "22/06/2026 12:00",
+  "atualizado_em": "22/06/2026 12:14",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -88504,24 +88504,6 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 3,
           "valor": 195.84
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "6690",
-          "cliente": "SUPERMERCADO ULTRA 12 LTDA",
-          "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 36,
-          "valor": 450.0
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "6690",
-          "cliente": "SUPERMERCADO ULTRA 12 LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 394.8
         },
         {
           "data": "14/05/2026",
