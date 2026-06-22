@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "22/06/2026 16:30",
+  "atualizado_em": "22/06/2026 17:02",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -3605,6 +3605,13 @@ const NAO_POS_SP_DATA = {
       }
     ],
     "DOUGLAS TEIXEIRA -": [
+      {
+        "codcli": "51232",
+        "cliente": "CARLOS HENRIQUE FABRI",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
       {
         "codcli": "51185",
         "cliente": "COMERCIO DE BEBIDAS DO ALEMAO LTDA",
