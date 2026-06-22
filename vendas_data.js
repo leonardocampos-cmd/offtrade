@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "19/06/2026 17:50",
+  "atualizado_em": "22/06/2026 09:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -42009,6 +42009,87 @@ const VENDAS_DATA = {
           "valor": 31.9
         },
         {
+          "data": "19/06/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 59.9
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "VINHO CASA PERINI CAB SAUV 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 1,
+          "valor": 40.9
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "VINHO HORIZONTE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 25.9
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "AGUA NA CAIXA 12X500ML",
+          "fantasia": "AGUA NA CAIXA",
+          "qt": 1,
+          "valor": 31.9
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "93218",
+          "cliente": "POSTO LAGOA COMBUSTIVEIS LTDA",
+          "produto": "AGUA MINERAL MINALBA C/GAS LATA 12X310ML",
+          "fantasia": "MINALBA",
+          "qt": 1,
+          "valor": 40.59
+        },
+        {
           "data": "15/06/2026",
           "codcli": "93734",
           "cliente": "JP3 LANCHONETE LTDA",
@@ -42938,6 +43019,24 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 12,
           "valor": 403.8
+        },
+        {
+          "data": "20/06/2026",
+          "codcli": "77422",
+          "cliente": "LUCRE BEM MERCEARIA LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "fantasia": "INTERFOOD",
+          "qt": 12,
+          "valor": 1186.8
+        },
+        {
+          "data": "20/06/2026",
+          "codcli": "77422",
+          "cliente": "LUCRE BEM MERCEARIA LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 874.5
         },
         {
           "data": "15/06/2026",
@@ -69010,6 +69109,33 @@ const VENDAS_DATA = {
           "valor": 92.7
         },
         {
+          "data": "20/06/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 3,
+          "valor": 114.25
+        },
+        {
+          "data": "20/06/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 102.38
+        },
+        {
+          "data": "20/06/2026",
+          "codcli": "80577",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 15,
+          "valor": 479.89
+        },
+        {
           "data": "05/06/2026",
           "codcli": "83952",
           "cliente": "DELICIA DE COSTELA BAR E LANCHONETE LTDA",
@@ -69973,7 +70099,7 @@ const VENDAS_DATA = {
           "valor": 401.7
         },
         {
-          "data": "19/06/2026",
+          "data": "20/06/2026",
           "codcli": "91585",
           "cliente": "HELENA TEMPEROS LTDA",
           "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
@@ -69982,7 +70108,7 @@ const VENDAS_DATA = {
           "valor": 59.9
         },
         {
-          "data": "19/06/2026",
+          "data": "20/06/2026",
           "codcli": "91585",
           "cliente": "HELENA TEMPEROS LTDA",
           "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
@@ -69991,7 +70117,7 @@ const VENDAS_DATA = {
           "valor": 59.9
         },
         {
-          "data": "19/06/2026",
+          "data": "20/06/2026",
           "codcli": "91585",
           "cliente": "HELENA TEMPEROS LTDA",
           "produto": "PINATI DOUBLE BAR DOCE DE LEITE 16X35G",
@@ -70000,25 +70126,7 @@ const VENDAS_DATA = {
           "valor": 59.9
         },
         {
-          "data": "19/06/2026",
-          "codcli": "91585",
-          "cliente": "HELENA TEMPEROS LTDA",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA (4)16X35G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 47.84
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "91585",
-          "cliente": "HELENA TEMPEROS LTDA",
-          "produto": "NECTAR PESSEGO TIAL 12X250ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 34.3
-        },
-        {
-          "data": "19/06/2026",
+          "data": "20/06/2026",
           "codcli": "91585",
           "cliente": "HELENA TEMPEROS LTDA",
           "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
@@ -70027,7 +70135,7 @@ const VENDAS_DATA = {
           "valor": 38.9
         },
         {
-          "data": "19/06/2026",
+          "data": "20/06/2026",
           "codcli": "91585",
           "cliente": "HELENA TEMPEROS LTDA",
           "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
@@ -70036,7 +70144,16 @@ const VENDAS_DATA = {
           "valor": 38.9
         },
         {
-          "data": "19/06/2026",
+          "data": "20/06/2026",
+          "codcli": "91585",
+          "cliente": "HELENA TEMPEROS LTDA",
+          "produto": "NECTAR PESSEGO TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 34.3
+        },
+        {
+          "data": "20/06/2026",
           "codcli": "91585",
           "cliente": "HELENA TEMPEROS LTDA",
           "produto": "NECTAR PESSEGO 12X1000ML",
@@ -70045,7 +70162,7 @@ const VENDAS_DATA = {
           "valor": 59.88
         },
         {
-          "data": "19/06/2026",
+          "data": "20/06/2026",
           "codcli": "91585",
           "cliente": "HELENA TEMPEROS LTDA",
           "produto": "GUARAVITA NATURAL 24X290ML",
@@ -89777,15 +89894,6 @@ const VENDAS_DATA = {
           "valor": 326.4
         },
         {
-          "data": "17/06/2026",
-          "codcli": "6690",
-          "cliente": "SUPERMERCADO ULTRA 12 LTDA",
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "fantasia": "HENNESSY",
-          "qt": 12,
-          "valor": 898.8
-        },
-        {
           "data": "11/06/2026",
           "codcli": "6281",
           "cliente": "SUPERMERCADO ULTRA 05 LTDA EPP",
@@ -94276,24 +94384,6 @@ const VENDAS_DATA = {
           "fantasia": "51",
           "qt": 12,
           "valor": 162.0
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "8264",
-          "cliente": "SO SAUDE LANCHONETE LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 3,
-          "valor": 89.88
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "8264",
-          "cliente": "SO SAUDE LANCHONETE LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "fantasia": "RED BULL",
-          "qt": 6,
-          "valor": 179.76
         },
         {
           "data": "02/06/2026",
@@ -100746,6 +100836,15 @@ const VENDAS_DATA = {
           "valor": 1974.0
         },
         {
+          "data": "20/06/2026",
+          "codcli": "58811",
+          "cliente": "CEREAIS MARREQUINHO DE NOVA CAMPINAS LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 36,
+          "valor": 2542.68
+        },
+        {
           "data": "04/06/2026",
           "codcli": "77808",
           "cliente": "SUPERMERCADO RIO SUL DO LAUREANO LTDA",
@@ -100924,6 +101023,51 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 12,
           "valor": 214.8
+        },
+        {
+          "data": "20/06/2026",
+          "codcli": "84202",
+          "cliente": "SUPERMERCADO RIO SUL DO PANTANAL LTDA",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 248.4
+        },
+        {
+          "data": "20/06/2026",
+          "codcli": "84202",
+          "cliente": "SUPERMERCADO RIO SUL DO PANTANAL LTDA",
+          "produto": "VINHO BORDO QUINTA DO MORGADO 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 250.8
+        },
+        {
+          "data": "20/06/2026",
+          "codcli": "84202",
+          "cliente": "SUPERMERCADO RIO SUL DO PANTANAL LTDA",
+          "produto": "VINHO BORDO QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 24,
+          "valor": 424.8
+        },
+        {
+          "data": "20/06/2026",
+          "codcli": "84202",
+          "cliente": "SUPERMERCADO RIO SUL DO PANTANAL LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
+          "fantasia": "FANTE",
+          "qt": 24,
+          "valor": 477.6
+        },
+        {
+          "data": "20/06/2026",
+          "codcli": "84202",
+          "cliente": "SUPERMERCADO RIO SUL DO PANTANAL LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 60,
+          "valor": 882.0
         },
         {
           "data": "15/06/2026",
@@ -102013,6 +102157,15 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 203.4
+        },
+        {
+          "data": "20/06/2026",
+          "codcli": "90880",
+          "cliente": "FERNANDO DOS SANTOS LOCACOES DE ARTIGOS PARA FESTA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 358.8
         },
         {
           "data": "01/06/2026",
