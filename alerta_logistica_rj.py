@@ -3,7 +3,7 @@ Bot: lê emails 'ALERTA LOGÍSTICA RJ' do Gmail e marca NFs como Não Entregue.
 
 Fluxo:
   1. Autentica Gmail (token_gmail.json gerado por gmail_setup.py)
-  2. Busca emails não lidos com o assunto
+  2. Busca emails com o assunto (lidos e não lidos)
   3. Parseia RCA + tabela de NFs do corpo do email
   4. Salva em alertas_rj.json (por data)
   5. Patcha entregas_data.js (move NFs para nao_entregue)
@@ -15,7 +15,7 @@ import json
 import base64
 import subprocess
 from pathlib import Path
-from datetime import date
+from datetime import date, timedelta
 
 from bs4 import BeautifulSoup
 from google.oauth2.credentials import Credentials
@@ -353,21 +353,34 @@ def main():
 
     service = _get_service()
 
+    hoje = date.today()
+    # Segunda-feira: pega sábado + domingo; demais dias: emails de hoje
+    if hoje.weekday() == 0:
+        data_inicio = hoje - timedelta(days=2)
+        after_str  = data_inicio.strftime("%Y/%m/%d")
+        before_str = hoje.strftime("%Y/%m/%d")
+        q = f'subject:"{SUBJECT}" after:{after_str} before:{before_str}'
+        print(f"Buscando emails de {data_inicio.strftime('%d/%m')} a {(hoje - timedelta(days=1)).strftime('%d/%m')}...")
+    else:
+        after_str = hoje.strftime("%Y/%m/%d")
+        q = f'subject:"{SUBJECT}" after:{after_str}'
+        print(f"Buscando emails de hoje ({hoje.strftime('%d/%m')})...")
+
     results = service.users().messages().list(
         userId="me",
-        q=f'subject:"{SUBJECT}" is:unread',
+        q=q,
         maxResults=20,
     ).execute()
 
     messages = results.get("messages", [])
-    print(f"Emails não lidos encontrados: {len(messages)}")
+    print(f"Emails encontrados: {len(messages)}")
 
     if not messages:
         print("Nenhum alerta novo.")
         return
 
     todos_alertas = []
-    hoje = date.today().isoformat()
+    hoje = hoje.isoformat()
 
     for msg_meta in messages:
         msg = service.users().messages().get(

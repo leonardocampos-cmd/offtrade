@@ -212,6 +212,20 @@
       padding: 5px 10px;
     }
 
+    .justificativa-wrap { margin-top: 9px; }
+    .justificativa-wrap label {
+      font-size: 0.65rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.06em; color: var(--muted); display: block; margin-bottom: 4px;
+    }
+    .justificativa-input {
+      width: 100%; background: var(--card2); border: 1px solid var(--border);
+      border-radius: 6px; color: var(--text); font-size: 0.78rem;
+      padding: 6px 10px; resize: vertical; min-height: 52px;
+      font-family: inherit; outline: none;
+    }
+    .justificativa-input:focus { border-color: var(--accent); }
+    .justificativa-input.saved { border-color: #166534; }
+
     .itens-toggle {
       margin-top: 8px;
       font-size: 0.72rem;
@@ -426,6 +440,19 @@ function renderCards(pedidos, prefixo) {
       ? `<div class="obs">Obs: ${escHtml(p.obs)}</div>`
       : '';
 
+    let justHtml = '';
+    if (prefixo === 'naoentreg') {
+      const jKey = _justKey(p);
+      const jVal = escHtml(localStorage.getItem(jKey) || '');
+      const saved = !!localStorage.getItem(jKey);
+      justHtml = `<div class="justificativa-wrap">
+        <label>Justificativa</label>
+        <textarea class="justificativa-input${saved ? ' saved' : ''}"
+          placeholder="Digite a justificativa para a não entrega…"
+          oninput="saveJust('${jKey}', this)">${jVal}</textarea>
+      </div>`;
+    }
+
     const itensHtml = p.itens.map(it =>
       `<div class="item-row">
         <span class="item-desc">${escHtml(it.desc)}</span>
@@ -442,13 +469,29 @@ function renderCards(pedidos, prefixo) {
         <span class="card-total">${fmt(p.total)}</span>
       </div>
       <div class="card-tags">${tagPed}${tagNf}${tagRota}${tagData}${tagSPed}${tagSLog}${tagNaoEntreg}</div>
-      ${motivoAlertaHtml}${motivoHtml}${obsHtml}
+      ${motivoAlertaHtml}${motivoHtml}${obsHtml}${justHtml}
       <button class="itens-toggle" onclick="toggleItens('${toggleId}',this)">
         Ver ${n} item${n !== 1 ? 'ns' : ''}
       </button>
       <div class="itens-list" id="${toggleId}" style="display:none">${itensHtml}</div>
     </div>`;
   }).join('');
+}
+
+function _justKey(p) {
+  const nf = String(p.numnota || '').replace(/\D/g, '') || p.numped;
+  return 'just_' + nf;
+}
+
+function saveJust(key, el) {
+  const val = el.value;
+  if (val.trim()) {
+    localStorage.setItem(key, val);
+    el.classList.add('saved');
+  } else {
+    localStorage.removeItem(key);
+    el.classList.remove('saved');
+  }
 }
 
 function toggleItens(id, btn) {
