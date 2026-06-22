@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "22/06/2026 10:16",
+  "atualizado_em": "22/06/2026 10:36",
   "data_rota": "22.06",
   "vendedores": [
     {
@@ -9109,6 +9109,31 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO 500ML",
               "qt": 1,
               "val": 2.7
+            }
+          ]
+        },
+        {
+          "numped": "144001570",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "LUCRE BEM MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 879.9,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 5,
+              "val": 874.5
+            },
+            {
+              "desc": "VEJA MULTIUSO 500ML",
+              "qt": 2,
+              "val": 5.4
             }
           ]
         },
