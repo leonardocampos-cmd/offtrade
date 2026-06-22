@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "22/06/2026 10:03",
-  "total": 4238,
+  "atualizado_em": "22/06/2026 10:17",
+  "total": 4250,
   "clientes": [
     {
       "codcli": "31683",
@@ -1176,6 +1176,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PADARIA",
       "codusur1": "342",
       "nome_usur1": "RICARDO CLAUDIO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "91171",
+      "razao": "43.970.924 ANDRE MEIRELES DA COSTA SILVA",
+      "fantasia": "ANDRE MEIRELES DA COSTA SILVA",
+      "bairro": "CAMPO DOS AFONSOS",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "43.970.924/0001-23",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -6010,6 +6024,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "50018",
+      "razao": "ALINE PIZZI RODRIGUES LTDA",
+      "fantasia": "RIMAR SUPERMERCADO",
+      "bairro": "VILA IPIRANGA",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "09.542.021/0001-03",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "33031",
       "razao": "ALINE SILVEIRA COPPA 33727771828",
       "fantasia": "ALINE SILVEIRA COPPA",
@@ -7030,6 +7058,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "50053",
+      "razao": "ARAUJO EMPREENDIMENTOS COMERCIAIS LTDA",
+      "fantasia": "MERCADO ARAUJO",
+      "bairro": "JARDIM AEROPORTO III",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "50.824.049/0001-37",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "38506",
@@ -16888,6 +16930,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
+      "codcli": "95464",
+      "razao": "DELTA SERVICE COMERCIO E DISTRIBUICAO LTDA",
+      "fantasia": "DELTA SERVICE DISTRIBUIDORA",
+      "bairro": "JANDIRA",
+      "cidade": "INHUMAS",
+      "cnpj": "58.578.697/0001-62",
+      "estado": "GO",
+      "ramo": "SERVIÇOS",
+      "codusur1": "230",
+      "nome_usur1": "ENEIVA RODRIGUES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "6274",
       "razao": "DENILSON MARINHO DE SOUZA COMERCIO E MERCEARIA - M",
       "fantasia": "MERCEARIA SENADO 174",
@@ -22390,6 +22446,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50385",
+      "razao": "FOFOSUL COMERCIAL E DISTRIBUIDORA LTDA",
+      "fantasia": "SUPERMERCADO SUPER VITAL",
+      "bairro": "BOTUJURU",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "26.318.449/0001-96",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "32194",
       "razao": "FOME FOOD LANCHONETE LTDA",
       "fantasia": "FOME FOOD LANCHONETE",
@@ -26530,8 +26600,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "225",
       "nome_usur1": "ERIC PESTANA",
-      "codusur2": "399",
-      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+      "codusur2": "119",
+      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "50500",
@@ -31126,6 +31196,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "49986",
+      "razao": "LUIZ CARLOS DE SOUZA ROCHA",
+      "fantasia": "ADEGA ALTAS HORAS",
+      "bairro": "CENTRO",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "25.035.475/0001-44",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "43989",
       "razao": "LUIZ CARLOS RIBEIRO CAMPOS COMERCIO DE ALIMENTOS",
       "fantasia": "MERCADO MUITO MENOS DO LULA",
@@ -34506,6 +34590,34 @@ const CLIENTES_RCA_DATA = {
       "bairro": "JARDIM AEROPORTO III",
       "cidade": "MOGI DAS CRUZES",
       "cnpj": "56.933.795/0001-45",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49830",
+      "razao": "MERCADO ADAPT JARDIM ESPERANCA LTDA",
+      "fantasia": "MERCADO ADAPT JARDIM ESPERANCA LTDA",
+      "bairro": "ALTO IPIRANGA",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "60.734.641/0001-00",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49828",
+      "razao": "MERCADO ADAPT VILA OLIVEIRA LTDA",
+      "fantasia": "MERCADO ADAPT VILA OLIVEIRA LTDA",
+      "bairro": "VILA OLIVEIRA",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "60.734.780/0001-25",
       "estado": "SP",
       "ramo": "MINI-MERCADO",
       "codusur1": "463",
@@ -51006,6 +51118,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95467",
+      "razao": "SAO VICENTE COMERCIO DE CEREAIS LTDA",
+      "fantasia": "SAO VICENTE COMERCIO DE CEREAIS",
+      "bairro": "RIO COMPRIDO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "18.762.320/0001-44",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "79902",
       "razao": "SAUCE & CO RESTAURANTE LTDA",
       "fantasia": "SAUCE & CO",
@@ -54026,6 +54152,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "450",
       "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50017",
+      "razao": "SUPERMERCADO PADUA LTDA",
+      "fantasia": "SUPERMERCADO PADUA LTDA",
+      "bairro": "JARDIM SANTA TERESA",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "52.551.439/0001-06",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -59084,6 +59224,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "25808",
+      "razao": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+      "fantasia": "WOODS WINE COMERCIO E INTERMEDIACAO DE B",
+      "bairro": "RIO COMPRIDO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "41.140.556/0001-60",
+      "estado": "RJ",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO",
+      "codusur2": "91",
+      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "43203",
+      "razao": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+      "fantasia": "WOODS WINE COMERCIO E INTERMEDIACAO DE B",
+      "bairro": "RIO COMPRIDO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "41.140.556/0001-60",
+      "estado": "RJ",
+      "ramo": "EVENTOS",
+      "codusur1": "119",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "399",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
       "codcli": "90396",
       "razao": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
       "fantasia": "WOODSWINE DISTRIBUICAO E COMERCIO DE VIN",
@@ -59108,8 +59276,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "EVENTOS",
       "codusur1": "119",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "399",
-      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+      "codusur2": "119",
+      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "90436",
