@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "22/06/2026 09:15",
+  "atualizado_em": "22/06/2026 10:02",
   "data_rota": "22.06",
   "vendedores": [
     {
@@ -78,6 +78,26 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "431001059",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "MM CONVENIENCIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 429.6,
+          "itens": [
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 24,
+              "val": 429.6
+            }
+          ]
+        },
+        {
           "numped": "431001060",
           "numnota": "",
           "data": "22/06/2026",
@@ -94,6 +114,11 @@ const ENTREGAS_DATA = {
               "desc": "GIN ROCKS 1000ML",
               "qt": 3,
               "val": 71.7
+            },
+            {
+              "desc": "NECTAR ABACAXI 12X1000ML",
+              "qt": 1,
+              "val": 59.88
             },
             {
               "desc": "NECTAR CAJU 12X1000ML",
@@ -137,11 +162,6 @@ const ENTREGAS_DATA = {
             },
             {
               "desc": "NECTAR MACA TIAL 12X1000ML",
-              "qt": 1,
-              "val": 59.88
-            },
-            {
-              "desc": "NECTAR ABACAXI 12X1000ML",
               "qt": 1,
               "val": 59.88
             }
@@ -194,26 +214,6 @@ const ENTREGAS_DATA = {
               "desc": "AGUA MINALBA C/ GAS 6X1,5L",
               "qt": 3,
               "val": 65.7
-            }
-          ]
-        },
-        {
-          "numped": "431001059",
-          "numnota": "",
-          "data": "22/06/2026",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 429.6,
-          "itens": [
-            {
-              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-              "qt": 24,
-              "val": 429.6
             }
           ]
         },
@@ -12898,6 +12898,26 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "378000435",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2157.12,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 12,
+              "val": 2157.12
+            }
+          ]
+        },
+        {
           "numped": "378000429",
           "numnota": "",
           "data": "17/06/2026",
@@ -18146,6 +18166,61 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "379001120",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 281.35,
+          "itens": [
+            {
+              "desc": "VILLA ROSA BRANCO 750ML",
+              "qt": 3,
+              "val": 89.7
+            },
+            {
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 3,
+              "val": 89.7
+            },
+            {
+              "desc": "CERVEJA HEINEKEN ZERO LT SLEEK 12X350ML",
+              "qt": 1,
+              "val": 63.05
+            },
+            {
+              "desc": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+              "qt": 1,
+              "val": 38.9
+            }
+          ]
+        },
+        {
+          "numped": "379001121",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 89.7,
+          "itens": [
+            {
+              "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+              "qt": 3,
+              "val": 89.7
+            }
+          ]
+        },
         {
           "numped": "379001081",
           "numnota": "",
@@ -25548,6 +25623,61 @@ const ENTREGAS_DATA = {
       "nome": "MARILENA TRAGEL - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "156003612",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "AUTO POSTO BOAVISTA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1472.6,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+              "qt": 2,
+              "val": 175.2
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN MACA 12X300ML",
+              "qt": 2,
+              "val": 175.2
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+              "qt": 2,
+              "val": 175.2
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            }
+          ]
+        },
         {
           "numped": "156003500",
           "numnota": "",
@@ -34053,8 +34183,30 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "155003736",
+          "numped": "155003660",
           "numnota": "",
+          "data": "11/06/2026",
+          "cliente": "24.009.526 DANIELA DE MELLO CARVALHO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 47.9,
+          "itens": [
+            {
+              "desc": "APERITIVO APEROL 750 ML",
+              "qt": 1,
+              "val": 47.9
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [
+        {
+          "numped": "155003737",
+          "numnota": "405325.0",
           "data": "22/06/2026",
           "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
           "placa": "",
@@ -34063,22 +34215,12 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "EVENTO - SAQUAREMA SURF & SOUND",
-          "total": 394755.0,
+          "total": 407699.4,
           "itens": [
-            {
-              "desc": "RED BULL SF MAÇA 24X250ML",
-              "qt": 80,
-              "val": 16300.8
-            },
             {
               "desc": "RED BULL 24X250ML",
               "qt": 200,
               "val": 40752.0
-            },
-            {
-              "desc": "VODKA KETEL ONE 1000 ML",
-              "qt": 108,
-              "val": 11869.2
             },
             {
               "desc": "VODCA SMIRNOFF RED 998 ML",
@@ -34137,18 +34279,13 @@ const ENTREGAS_DATA = {
             },
             {
               "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 100,
-              "val": 20376.0
+              "qt": 120,
+              "val": 24451.2
             },
             {
               "desc": "COPO PP 440ML ALTACOPPO SUPER PREMIUM",
               "qt": 8,
               "val": 1439.2
-            },
-            {
-              "desc": "RED BULL SF POMELO 24X250ML",
-              "qt": 10,
-              "val": 2037.6
             },
             {
               "desc": "RED BULL ZERO  24X250ML",
@@ -34167,38 +34304,26 @@ const ENTREGAS_DATA = {
             },
             {
               "desc": "RED BULL SF NECTARINA 24X250ML",
-              "qt": 100,
-              "val": 20376.0
+              "qt": 140,
+              "val": 28526.4
             },
             {
               "desc": "SMIRNOFF ICE RASPBERRY (LATA) 24X269ML",
               "qt": 10,
               "val": 1399.0
+            },
+            {
+              "desc": "RED BULL SF MAÇA 24X250ML",
+              "qt": 100,
+              "val": 20376.0
+            },
+            {
+              "desc": "VODKA KETEL ONE 1000 ML",
+              "qt": 96,
+              "val": 10550.4
             }
           ]
         },
-        {
-          "numped": "155003660",
-          "numnota": "",
-          "data": "11/06/2026",
-          "cliente": "24.009.526 DANIELA DE MELLO CARVALHO",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 47.9,
-          "itens": [
-            {
-              "desc": "APERITIVO APEROL 750 ML",
-              "qt": 1,
-              "val": 47.9
-            }
-          ]
-        }
-      ],
-      "emitido_s_rota": [
         {
           "numped": "155003729",
           "numnota": "405152.0",
