@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "22/06/2026 14:16",
-  "total": 4272,
+  "atualizado_em": "22/06/2026 15:02",
+  "total": 4277,
   "clientes": [
     {
       "codcli": "31683",
@@ -3952,6 +3952,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "50270",
+      "razao": "A M DA SILVA PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "SUPERMERCADO IRMAOS SILVA",
+      "bairro": "PUTIM",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "12.449.833/0001-13",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "472",
+      "nome_usur1": "FLAVIO RIBEIRO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "86389",
       "razao": "A M HERZOG",
       "fantasia": "PANIFICADORA E CONFEITARIA FUTURA",
@@ -6974,6 +6988,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51224",
+      "razao": "ANTONIO MACEDO DOS SANTOS BRITO",
+      "fantasia": "MERCADO IDEAL",
+      "bairro": "CAMPOS DE SÃO JOSÉ",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "35.055.478/0001-01",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "91674",
@@ -15656,6 +15684,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
+      "codcli": "71496",
+      "razao": "CONVENIENCIA NORTE SUL LTDA",
+      "fantasia": "CONVENIENCIA NORTE SUL",
+      "bairro": "SANTA LUÍZA",
+      "cidade": "VITORIA",
+      "cnpj": "26.627.777/0001-74",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
       "codcli": "2239",
       "razao": "CONVENIENCIA PONTOCOM COMERCIO LTDA",
       "fantasia": "",
@@ -18156,8 +18198,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "64.487.042/0001-81",
       "estado": "SP",
       "ramo": "ADEGA",
-      "codusur1": "391",
-      "nome_usur1": "ANDRE SILVA - OFF TRADE",
+      "codusur1": "329",
+      "nome_usur1": "RAPHAELA RIBAS",
       "codusur2": "391",
       "nome_usur2": "ANDRE SILVA - OFF TRADE"
     },
@@ -24626,6 +24668,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "475",
       "nome_usur1": "LUCAS BUENO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "40709",
+      "razao": "GS DISTRIBUIDORA DE BEBIDAS LTDA",
+      "fantasia": "GS DISTRIBUIDORA DE BEBIDAS",
+      "bairro": "VILA ALZIRA",
+      "cidade": "GUARUJA",
+      "cnpj": "24.456.925/0001-00",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "478",
+      "nome_usur1": "MARIA PEREIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -40042,6 +40098,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51223",
+      "razao": "MRM SUPERMERCADO LTDA",
+      "fantasia": "MRM SUPERMERCADO",
+      "bairro": "PARQUE SÃO BENEDITO",
+      "cidade": "PINDAMONHANGABA",
+      "cnpj": "48.049.757/0001-04",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "472",
+      "nome_usur1": "FLAVIO RIBEIRO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "76620",
