@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "22/06/2026 11:52",
+  "atualizado_em": "22/06/2026 14:02",
   "data_rota": "22.06",
   "vendedores": [
     {
@@ -88,6 +88,61 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "431001064",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1380.84,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 3,
+              "val": 98.77
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 4,
+              "val": 136.51
+            },
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 6X2L",
+              "qt": 1,
+              "val": 118.9
+            },
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 1,
+              "val": 74.9
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 2,
+              "val": 76.16
+            },
+            {
+              "desc": "VANISH PO WHITE REF 24X400G",
+              "qt": 1,
+              "val": 399.5
+            },
+            {
+              "desc": "VANISH BARRA PINK PACK 12X75G",
+              "qt": 1,
+              "val": 326.3
+            },
+            {
+              "desc": "COQUETEL PINK MOON 12X600ML - PET",
+              "qt": 2,
+              "val": 149.8
+            }
+          ]
+        },
+        {
           "numped": "431001059",
           "numnota": "",
           "data": "22/06/2026",
@@ -104,6 +159,36 @@ const ENTREGAS_DATA = {
               "desc": "COQUETEL BANANINHA REGGIANI 950ML",
               "qt": 24,
               "val": 429.6
+            }
+          ]
+        },
+        {
+          "numped": "431001063",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "ZERO FRUTI REALENGO HORTIFRUTI LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 378.76,
+          "itens": [
+            {
+              "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+              "qt": 1,
+              "val": 189.36
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
             }
           ]
         },
@@ -2708,6 +2793,31 @@ const ENTREGAS_DATA = {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "471000347",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "DANIEL ALBUQUERQUE RIBEIRO MINIMERCADO LTDA]",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 267.2,
+          "itens": [
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 6X2L",
+              "qt": 2,
+              "val": 228.0
+            },
+            {
+              "desc": "PINATI NUTS ORIGINAL 20X30G",
+              "qt": 1,
+              "val": 39.2
+            }
+          ]
+        },
         {
           "numped": "471000318",
           "numnota": "",
@@ -9200,6 +9310,31 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "144001571",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "LUIZ VICTOR SOUZA PINTO 14684613704",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 801.0,
+          "itens": [
+            {
+              "desc": "SABOR DO SABOR GIN + COMBO MELANCIA",
+              "qt": 60,
+              "val": 534.0
+            },
+            {
+              "desc": "SABOR DO SABOR WHISKY + COMBO TRAD",
+              "qt": 30,
+              "val": 267.0
+            }
+          ]
+        },
+        {
           "numped": "144001570",
           "numnota": "",
           "data": "22/06/2026",
@@ -14111,6 +14246,26 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "159004895",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 23940.0,
+          "itens": [
+            {
+              "desc": "WHISKY PASSPORT HONEY 670ML",
+              "qt": 600,
+              "val": 23940.0
+            }
+          ]
+        },
+        {
           "numped": "159004885",
           "numnota": "",
           "data": "17/06/2026",
@@ -18543,6 +18698,86 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "379001126",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "GR 3 ALIMENTOS E LATICINIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 89.7,
+          "itens": [
+            {
+              "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+              "qt": 3,
+              "val": 89.7
+            }
+          ]
+        },
+        {
+          "numped": "379001127",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "GR ALIMENTOS E LATICINIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 458.18,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 5,
+              "val": 314.5
+            },
+            {
+              "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+              "qt": 1,
+              "val": 38.9
+            },
+            {
+              "desc": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+              "qt": 1,
+              "val": 38.9
+            },
+            {
+              "desc": "CANTINA DA SERRA 750ML",
+              "qt": 12,
+              "val": 65.88
+            }
+          ]
+        },
+        {
+          "numped": "379001128",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "3D SALGADOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2656.5,
+          "itens": [
+            {
+              "desc": "WHISKY ROYAL SALUTE GRAIN 700ML",
+              "qt": 3,
+              "val": 1949.7
+            },
+            {
+              "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
+              "qt": 12,
+              "val": 706.8
+            }
+          ]
+        },
+        {
           "numped": "379001122",
           "numnota": "",
           "data": "22/06/2026",
@@ -18559,6 +18794,56 @@ const ENTREGAS_DATA = {
               "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
               "qt": 12,
               "val": 167.88
+            }
+          ]
+        },
+        {
+          "numped": "379001125",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "GR 3 ALIMENTOS E LATICINIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 605.0,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 4,
+              "val": 251.6
+            },
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+              "qt": 1,
+              "val": 29.9
+            },
+            {
+              "desc": "VINHO GRAVEDAD CARMENERE 750ML",
+              "qt": 2,
+              "val": 59.8
+            },
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV.",
+              "qt": 1,
+              "val": 29.9
+            },
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+              "qt": 6,
+              "val": 69.0
+            },
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 1LT",
+              "qt": 6,
+              "val": 105.0
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+              "qt": 2,
+              "val": 59.8
             }
           ]
         },
@@ -26204,21 +26489,6 @@ const ENTREGAS_DATA = {
           "total": 1472.6,
           "itens": [
             {
-              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-              "qt": 2,
-              "val": 189.4
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "qt": 2,
-              "val": 189.4
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "qt": 2,
-              "val": 189.4
-            },
-            {
               "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
               "qt": 2,
               "val": 189.4
@@ -26240,6 +26510,21 @@ const ENTREGAS_DATA = {
             },
             {
               "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 2,
+              "val": 189.4
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
               "qt": 2,
               "val": 189.4
             }
@@ -32608,6 +32893,81 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "439000210",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "J. W. DISTRIBUIDORA DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 25/06/26",
+          "total": 358.8,
+          "itens": [
+            {
+              "desc": "VILLA ROSA BRANCO 750ML",
+              "qt": 2,
+              "val": 59.8
+            },
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 2,
+              "val": 59.8
+            },
+            {
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 2,
+              "val": 59.8
+            },
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+              "qt": 2,
+              "val": 59.8
+            },
+            {
+              "desc": "VINHO GRAVEDAD CAB. SAUV.",
+              "qt": 2,
+              "val": 59.8
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+              "qt": 2,
+              "val": 59.8
+            }
+          ]
+        },
+        {
+          "numped": "439000211",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "J. W. DISTRIBUIDORA DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 179.4,
+          "itens": [
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 2,
+              "val": 59.8
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO MALBEC 750ML",
+              "qt": 2,
+              "val": 59.8
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO CABERNET FRANC 750ML",
+              "qt": 2,
+              "val": 59.8
+            }
+          ]
+        },
         {
           "numped": "439000208",
           "numnota": "",
