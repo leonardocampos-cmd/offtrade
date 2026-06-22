@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "22/06/2026 15:15",
+  "atualizado_em": "22/06/2026 16:20",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -3797,13 +3797,6 @@ const NAO_POS_SP_DATA = {
     ],
     "FERNANDO BERTIN -": [
       {
-        "codcli": "51170",
-        "cliente": "62.384.846 PAULO ROBERTO FLORIANO",
-        "bairro": "JARDIM ALTO DOS LARANJAIS II",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51171",
         "cliente": "ADEGA E CONVENIENCIA BETIL LTDA",
         "bairro": "CENTRO",
@@ -4078,6 +4071,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51229",
+        "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
+        "bairro": "VILA TEIXEIRA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "50707",
         "cliente": "JOANA FRANCISCO DE OLIVEIRA TOMAZ 19043092835",
         "bairro": "PARQUE PLANALTO",
@@ -4231,13 +4231,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51147",
-        "cliente": "LUCAS HENRIQUE PIRES",
-        "bairro": "VILA SANTA LIBÂNIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51114",
         "cliente": "MAGUI SUPERMERCADOS LTDA",
         "bairro": "SANTA CRUZ",
@@ -4327,6 +4320,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "50667",
         "cliente": "GRUPO VAREJISTA ZL DO BRASIL LTDA",
         "bairro": "JARDIM TARUMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51230",
+        "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
+        "bairro": "JARDIM MIRANTE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4566,6 +4566,20 @@ const NAO_POS_SP_DATA = {
       }
     ],
     "MANUELA ZAPPACOSTA -": [
+      {
+        "codcli": "26103",
+        "cliente": "EMPORIO E ADEGA SAO CAETANO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "10/06/2024",
+        "produtos": [
+          {
+            "produto": "WHISKY MAKERS MARK 750ML",
+            "fantasia": "BEAM SUNTORY BRASIL",
+            "qt": 12,
+            "valor": 1798.8
+          }
+        ]
+      },
       {
         "codcli": "30334",
         "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
@@ -4848,16 +4862,30 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51153",
+        "codcli": "51154",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "VILA ZAT",
+        "bairro": "CONJUNTO HABITACIONAL SAO JOSE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51161",
+        "codcli": "51159",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "PARQUE SANTA RITA DE CÁSSIA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51157",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "JARDIM IRACEMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51155",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "JARDIM RECORD",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4876,30 +4904,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51154",
+        "codcli": "51161",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "CONJUNTO HABITACIONAL SAO JOSE",
+        "bairro": "PARQUE SANTA RITA DE CÁSSIA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51155",
+        "codcli": "51153",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "JARDIM RECORD",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51157",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "JARDIM IRACEMA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51159",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VILA ZAT",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -11507,6 +11521,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "48677",
         "cliente": "BAR E LANCHES ESTADAO LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51228",
+        "cliente": "SUPERMERCADO ARRUDA E CAMPOS LTDA",
+        "bairro": "VILA MARTINS",
         "dtultcomp": "nan",
         "produtos": []
       }
