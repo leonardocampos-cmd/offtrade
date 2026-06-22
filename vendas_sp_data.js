@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "22/06/2026 10:16",
+  "atualizado_em": "22/06/2026 10:36",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -36195,24 +36195,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 36,
           "valor": 3599.64
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "49476",
-          "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 120,
-          "valor": 11988.0
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "49476",
-          "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-          "fantasia": "BROWN",
-          "qt": 60,
-          "valor": 5994.0
         },
         {
           "data": "05/06/2026",
@@ -79413,8 +79395,8 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2043233.4,
-        "pos": 122.0,
+        "fat": 2025251.4,
+        "pos": 121.0,
         "fat_pernod": 1034325.54,
         "fat_crs": 12567.72
       },
