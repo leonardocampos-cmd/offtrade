@@ -5,3 +5,6 @@ __pycache__/
 conferencia_precos_final.xlsx
 .env
 token.json
+token_gmail.json
+credentials_gmail.json
+*.log
