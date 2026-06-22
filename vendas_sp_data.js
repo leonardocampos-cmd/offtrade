@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "22/06/2026 16:20",
+  "atualizado_em": "22/06/2026 16:30",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -54,6 +54,7 @@ const VENDAS_SP_DATA = {
     "CARLOS TERRA": "310",
     "LUCAS BUENO": "475",
     "LUIZ RIGLER": "487",
+    "ANDERSON CANAVEIS": "232",
     "FERNANDO BERTIN": "489",
     "NÁTALI DE OLIVEIRA": "482"
   },
@@ -33902,6 +33903,15 @@ const VENDAS_SP_DATA = {
           "valor": 82.2
         },
         {
+          "data": "22/06/2026",
+          "codcli": "28613",
+          "cliente": "VIEL VIEL E CIA LTDA",
+          "produto": "WHISKY JACK DANIELS 375 ML - DEST",
+          "fantasia": "BROWN",
+          "qt": 48,
+          "valor": 2156.16
+        },
+        {
           "data": "05/06/2026",
           "codcli": "32448",
           "cliente": "CISCO DISTRIBUIDORA DE ALIMENTOS LTDA",
@@ -36197,6 +36207,24 @@ const VENDAS_SP_DATA = {
           "valor": 3599.64
         },
         {
+          "data": "22/06/2026",
+          "codcli": "49476",
+          "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 120,
+          "valor": 11988.0
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "49476",
+          "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 60,
+          "valor": 5994.0
+        },
+        {
           "data": "05/06/2026",
           "codcli": "49282",
           "cliente": "SANTA VITTA GASTROBAR LTDA",
@@ -36861,6 +36889,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 12,
           "valor": 1198.8
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "50485",
+          "cliente": "M ALMEIDA DE SOUZA FILHOS BEBIDAS",
+          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 60,
+          "valor": 5814.0
         },
         {
           "data": "15/06/2026",
@@ -55811,6 +55848,15 @@ const VENDAS_SP_DATA = {
           "valor": 369.9
         },
         {
+          "data": "22/06/2026",
+          "codcli": "49728",
+          "cliente": "M&E MINIMERCADO LTDA",
+          "produto": "GIN TANQUERAY FLOR DE SEVILLA  700 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1146.81
+        },
+        {
           "data": "09/06/2026",
           "codcli": "49729",
           "cliente": "GILVANDA ANDRADE SANTOS 26811406844",
@@ -62868,6 +62914,15 @@ const VENDAS_SP_DATA = {
         },
         {
           "data": "16/06/2026",
+          "codcli": "50082",
+          "cliente": "COMERCIO VAREJISTA DE ALIMENTOS TERUYA LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 275.76
+        },
+        {
+          "data": "22/06/2026",
           "codcli": "50082",
           "cliente": "COMERCIO VAREJISTA DE ALIMENTOS TERUYA LTDA",
           "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
@@ -78418,6 +78473,37 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
+    "ANDERSON CANAVEIS": {
+      "Jun/26": [
+        {
+          "data": "22/06/2026",
+          "codcli": "51123",
+          "cliente": "BONZAO COMERCIO DE DOCES LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 275.76
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "51123",
+          "cliente": "BONZAO COMERCIO DE DOCES LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 179.28
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "51139",
+          "cliente": "BIG BOM SANTO ANDRE MINIMERCADO LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 551.52
+        }
+      ]
+    },
     "FERNANDO BERTIN": {
       "Jun/26": [
         {
@@ -78891,6 +78977,14 @@ const VENDAS_SP_DATA = {
         "pos": 1.0
       }
     },
+    "ANDERSON CANAVEIS": {
+      "Jun/26": {
+        "fat": 1006.56,
+        "pos": 2.0,
+        "fat_crs": 179.28,
+        "fat_essenza": 827.28
+      }
+    },
     "CARLOS TERRA": {
       "Jun/26": {
         "fat": 111372.0,
@@ -79211,7 +79305,7 @@ const VENDAS_SP_DATA = {
     },
     "SUELY SANTOS": {
       "Jun/26": {
-        "fat": 54587.88,
+        "fat": 55734.69,
         "pos": 22.0,
         "fat_pernod": 21773.18,
         "fat_crs": 537.84
@@ -79326,11 +79420,11 @@ const VENDAS_SP_DATA = {
     },
     "RENATO JUNIOR": {
       "Jun/26": {
-        "fat": 15660.96,
+        "fat": 15936.72,
         "pos": 12.0,
         "fat_pernod": 5962.62,
         "fat_crs": 1290.96,
-        "fat_essenza": 2206.08
+        "fat_essenza": 2481.84
       },
       "Mai/26": {
         "fat": 286653.34,
@@ -79503,8 +79597,8 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2025251.4,
-        "pos": 121.0,
+        "fat": 2051203.56,
+        "pos": 123.0,
         "fat_pernod": 1034325.54,
         "fat_crs": 12567.72
       },
