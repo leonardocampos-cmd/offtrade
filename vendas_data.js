@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "22/06/2026 15:14",
+  "atualizado_em": "22/06/2026 15:48",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -30035,33 +30035,6 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 3,
           "valor": 65.7
-        },
-        {
-          "data": "20/05/2026",
-          "codcli": "3551",
-          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 2,
-          "valor": 51.8
-        },
-        {
-          "data": "20/05/2026",
-          "codcli": "3551",
-          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
-          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
-          "fantasia": "MINALBA",
-          "qt": 3,
-          "valor": 65.7
-        },
-        {
-          "data": "20/05/2026",
-          "codcli": "3551",
-          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
-          "fantasia": "MINALBA",
-          "qt": 15,
-          "valor": 298.5
         },
         {
           "data": "25/05/2026",
@@ -69388,6 +69361,33 @@ const VENDAS_DATA = {
           "valor": 249.5
         },
         {
+          "data": "22/06/2026",
+          "codcli": "90003",
+          "cliente": "TALM COMERCIO DE BEBIDAS LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 1,
+          "valor": 38.08
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "90003",
+          "cliente": "TALM COMERCIO DE BEBIDAS LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 167.4
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "90003",
+          "cliente": "TALM COMERCIO DE BEBIDAS LTDA",
+          "produto": "LICOR STOCK ANISETTE 720 ML",
+          "fantasia": "STOCK",
+          "qt": 2,
+          "valor": 79.8
+        },
+        {
           "data": "18/06/2026",
           "codcli": "86899",
           "cliente": "MERCADINHO E PADARIA RENASCER LTDA",
@@ -82630,6 +82630,15 @@ const VENDAS_DATA = {
           "valor": 199.5
         },
         {
+          "data": "22/06/2026",
+          "codcli": "91536",
+          "cliente": "MERCEARIA E BAZAR DA FAMILIA LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 167.88
+        },
+        {
           "data": "08/06/2026",
           "codcli": "91333",
           "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
@@ -83134,6 +83143,42 @@ const VENDAS_DATA = {
           "valor": 13.99
         },
         {
+          "data": "22/06/2026",
+          "codcli": "91468",
+          "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
+          "produto": "CERVEJA HEINEKEN ZERO LT SLEEK 12X350ML",
+          "fantasia": "KAISER",
+          "qt": 1,
+          "valor": 63.05
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91468",
+          "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 38.9
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91468",
+          "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 89.7
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91468",
+          "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 89.7
+        },
+        {
           "data": "08/06/2026",
           "codcli": "91606",
           "cliente": "HORTIFRUTI GUAJUVIRA LTDA",
@@ -83357,6 +83402,177 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 65.52
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 58.68
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "4 PACK RED BULL CEREJA",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.96
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 1,
+          "valor": 26.73
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 40.56
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "NECTAR MISTO MANGA 24X200ML KIDS",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 40.56
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 89.88
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.96
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "GIN INVICTUS MACA VERDE 900ML",
+          "fantasia": "INVICTUS",
+          "qt": 2,
+          "valor": 25.98
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "GIN INVICTUS MELANCIA 900ML",
+          "fantasia": "INVICTUS",
+          "qt": 4,
+          "valor": 51.96
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "GIN INVICTUS TRADICIONAL 900ML",
+          "fantasia": "INVICTUS",
+          "qt": 2,
+          "valor": 25.98
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "GIN INVICTUS TROPICAL 900ML",
+          "fantasia": "INVICTUS",
+          "qt": 2,
+          "valor": 25.98
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "CATUABA SELVAGEM 900ML",
+          "fantasia": "COMARY",
+          "qt": 2,
+          "valor": 29.8
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 3,
+          "valor": 188.7
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "KAISER",
+          "qt": 1,
+          "valor": 127.9
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 66.32
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 117.8
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 139.8
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "91379",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 2,
+          "valor": 35.8
         },
         {
           "data": "02/06/2026",
@@ -90551,6 +90767,15 @@ const VENDAS_DATA = {
           "valor": 85.5
         },
         {
+          "data": "22/06/2026",
+          "codcli": "94043",
+          "cliente": "DANIEL ALBUQUERQUE RIBEIRO MINIMERCADO LTDA]",
+          "produto": "COQUETEL COMPOSTO PINK MOON 6X2L",
+          "fantasia": "COMARY",
+          "qt": 2,
+          "valor": 228.0
+        },
+        {
           "data": "09/06/2026",
           "codcli": "93757",
           "cliente": "LEVI LUCAS ARAUJO DOMINGOS 15617095730",
@@ -94825,6 +95050,15 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 38.9
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "82130",
+          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 12,
+          "valor": 2157.12
         },
         {
           "data": "05/06/2026",
@@ -102103,15 +102337,6 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 2,
           "valor": 257.76
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "CHA MATE COM LIMAO DO BEM 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 109.73
         },
         {
           "data": "15/06/2026",
@@ -149882,24 +150107,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 87.6
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "51131",
-          "cliente": "SJ1 DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 960,
-          "valor": 23904.0
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "51132",
-          "cliente": "38.405.385 ARIANE DE CARVALHO ALVES",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 756,
-          "valor": 18824.4
         }
       ],
       "Fev/26": [
@@ -169686,42 +169893,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 624.0
-        },
-        {
-          "data": "13/01/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 30,
-          "valor": 16200.0
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY SUNTORY CHITA 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 30,
-          "valor": 10470.0
-        },
-        {
-          "data": "26/01/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 30,
-          "valor": 16200.0
-        },
-        {
-          "data": "27/01/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 30,
-          "valor": 16200.0
         }
       ],
       "Mar/26": [
@@ -170210,114 +170381,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 270.0
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET GRAN BRUT",
-          "fantasia": "PERNOD",
-          "qt": 200,
-          "valor": 49800.0
-        },
-        {
-          "data": "16/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
-          "fantasia": "PERNOD",
-          "qt": 50,
-          "valor": 17450.0
-        },
-        {
-          "data": "16/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET GRAN BRUT",
-          "fantasia": "PERNOD",
-          "qt": 200,
-          "valor": 49800.0
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET GRAN BRUT",
-          "fantasia": "PERNOD",
-          "qt": 200,
-          "valor": 49800.0
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 20940.0
-        },
-        {
-          "data": "20/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET GRAN BRUT",
-          "fantasia": "PERNOD",
-          "qt": 200,
-          "valor": 49800.0
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY ROYAL SALUTE 21YO GRAIN 700ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 3359.4
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 3359.4
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY ROYAL SALUTE MALT EDITION 700 ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 3359.4
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 6718.8
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY ROYAL SALUTE MALT EDITION 700 ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 6718.8
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY ROYAL SALUTE 21YO GRAIN 700ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 6718.8
         }
       ],
       "Abr/26": [
@@ -170527,15 +170590,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 18,
           "valor": 1062.0
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY YAMAZAKI 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 6,
-          "valor": 5219.4
         }
       ],
       "Mai/26": [
@@ -170988,51 +171042,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 312.0
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY GLENLIVET FOUNDER'S RESERVE",
-          "fantasia": "PERNOD",
-          "qt": 16,
-          "valor": 3040.0
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET GRAN BRUT 750ML",
-          "fantasia": "PERNOD",
-          "qt": 300,
-          "valor": 74700.0
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
-          "fantasia": "PERNOD",
-          "qt": 30,
-          "valor": 11970.0
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET GRAN BRUT 750ML",
-          "fantasia": "PERNOD",
-          "qt": 75,
-          "valor": 18675.0
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
-          "fantasia": "PERNOD",
-          "qt": 46,
-          "valor": 18395.4
         }
       ],
       "Jun/26": [
@@ -171179,33 +171188,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 18,
           "valor": 1620.0
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "36591",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 6,
-          "valor": 4139.4
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "MOET IMPERIAL RESERVE BRUT 750 ML",
-          "fantasia": "MOET HENNESY",
-          "qt": 160,
-          "valor": 43184.0
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 18,
-          "valor": 12418.2
         }
       ],
       "Fev/26": [
@@ -171379,33 +171361,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 3,
           "valor": 144.0
-        },
-        {
-          "data": "10/02/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET GRAN BRUT",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 17940.0
-        },
-        {
-          "data": "20/02/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 30,
-          "valor": 17670.0
-        },
-        {
-          "data": "19/02/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 30,
-          "valor": 17670.0
         }
       ]
     }
