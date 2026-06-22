@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "22/06/2026 10:02",
+  "atualizado_em": "22/06/2026 10:16",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -34955,15 +34955,6 @@ const VENDAS_SP_DATA = {
           "valor": 1918.8
         },
         {
-          "data": "19/06/2026",
-          "codcli": "40098",
-          "cliente": "L  A COMERCIO DE BEBIDAS LTDA",
-          "produto": "CACHAÇA SAO FRANCISCO 970ML",
-          "fantasia": "PERNOD",
-          "qt": 11,
-          "valor": 241.89
-        },
-        {
           "data": "11/06/2026",
           "codcli": "39698",
           "cliente": "BUENO DISTRIBUIDORA LTDA",
@@ -49856,24 +49847,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 6,
           "valor": 1199.4
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "38506",
-          "cliente": "ARBORETO SUPERMERCADO LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 1198.8
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "38506",
-          "cliente": "ARBORETO SUPERMERCADO LTDA",
-          "produto": "WHISKY JACK DANIELS SINGLE BARREL DEST",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 2398.8
         },
         {
           "data": "04/06/2026",
@@ -79089,7 +79062,7 @@ const VENDAS_SP_DATA = {
     },
     "MANUELA ZAPPACOSTA": {
       "Jun/26": {
-        "fat": 128777.8,
+        "fat": 125180.2,
         "pos": 29.0,
         "fat_pernod": 71274.6,
         "fat_crs": 179.28
@@ -79440,9 +79413,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2043475.29,
-        "pos": 123.0,
-        "fat_pernod": 1034567.43,
+        "fat": 2043233.4,
+        "pos": 122.0,
+        "fat_pernod": 1034325.54,
         "fat_crs": 12567.72
       },
       "Mai/26": {
