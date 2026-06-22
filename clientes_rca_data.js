@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "22/06/2026 15:02",
-  "total": 4277,
+  "atualizado_em": "22/06/2026 15:16",
+  "total": 4278,
   "clientes": [
     {
       "codcli": "31683",
@@ -3960,8 +3960,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "12.449.833/0001-13",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "472",
-      "nome_usur1": "FLAVIO RIBEIRO - OFF TRADE",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -57820,6 +57820,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "268",
       "nome_usur1": "ROSENIR RIBEIRO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51226",
+      "razao": "V. LOPES JUNIOR MINIMERCADO LTDA",
+      "fantasia": "V. LOPES JUNIOR MINIMERCADO",
+      "bairro": "VILA SÃO CARLOS",
+      "cidade": "MOGI GUACU",
+      "cnpj": "24.095.215/0001-00",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
