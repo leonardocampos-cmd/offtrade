@@ -990,6 +990,17 @@ function _getMes() { return _mesSel || (METAS_DATA.meses && METAS_DATA.meses[0])
 function _pm(v, mes) { return (v.por_mes || {})[mes] || {}; }
 function _mv(pm, campo, sub) { return ((pm[campo] || {})[sub]) || 0; }
 
+// Combina meses de METAS_DATA e VENDAS_DATA, ordenados do mais recente ao mais antigo
+function _todosMeses() {
+  const _ord = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+  const _key = m => { const [n, a] = m.split('/'); return (2000 + +a) * 12 + _ord.indexOf(n); };
+  const set = new Set([
+    ...(METAS_DATA.meses || []),
+    ...(typeof VENDAS_DATA !== 'undefined' ? VENDAS_DATA.meses : []),
+  ]);
+  return [...set].sort((a, b) => _key(b) - _key(a));
+}
+
 // ── Download CSV ──────────────────────────────────────────
 
 function downloadCSV(v, mes) {
@@ -1212,7 +1223,7 @@ function renderDetail(v, mes) {
 
   document.getElementById('header-sub').textContent = `Atualizado ${METAS_DATA.atualizado_em}`;
 
-  const mesOpts = (METAS_DATA.meses || []).map(mo =>
+  const mesOpts = _todosMeses().map(mo =>
     `<option value="${mo}" ${mo === mes ? 'selected' : ''}>${mo}</option>`
   ).join('');
 
@@ -1853,7 +1864,7 @@ function renderAll(vendedores, mes) {
   var cb = document.querySelector('.camp-bar');
   if (cb) cb.style.display = '';
 
-  const mesOpts = (METAS_DATA.meses || []).map(mo =>
+  const mesOpts = _todosMeses().map(mo =>
     `<option value="${mo}" ${mo === mes ? 'selected' : ''}>${mo}</option>`
   ).join('');
 
