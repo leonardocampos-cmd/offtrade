@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "22/06/2026 11:42",
+  "atualizado_em": "22/06/2026 11:52",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -77952,6 +77952,15 @@ const VENDAS_SP_DATA = {
           "valor": 250.8
         },
         {
+          "data": "22/06/2026",
+          "codcli": "50578",
+          "cliente": "COMERCIAL DE ALIMENTOS ZANUTTO BORCEDA LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 24,
+          "valor": 405.6
+        },
+        {
           "data": "03/06/2026",
           "codcli": "50572",
           "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
@@ -79304,7 +79313,7 @@ const VENDAS_SP_DATA = {
     },
     "LUCAS BUENO": {
       "Jun/26": {
-        "fat": 4712.12,
+        "fat": 5117.72,
         "pos": 5.0,
         "fat_pernod": 2092.8,
         "fat_crs": 635.4
