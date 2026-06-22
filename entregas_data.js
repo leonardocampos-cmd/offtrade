@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "22/06/2026 10:36",
+  "atualizado_em": "22/06/2026 11:01",
   "data_rota": "22.06",
   "vendedores": [
     {
@@ -25112,6 +25112,36 @@ const ENTREGAS_DATA = {
       "nao_emitido": [],
       "emitido_s_rota": [
         {
+          "numped": "275000557",
+          "numnota": "405333.0",
+          "data": "22/06/2026",
+          "cliente": "SENDAS DISTRIBUIDORA S/A",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 123135.6,
+          "itens": [
+            {
+              "desc": "WHISKY JIM BEAM HONEY 1L",
+              "qt": 360,
+              "val": 34524.0
+            },
+            {
+              "desc": "WHISKY JIM BEAM APPLE 1L",
+              "qt": 132,
+              "val": 12658.8
+            },
+            {
+              "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
+              "qt": 792,
+              "val": 75952.8
+            }
+          ]
+        },
+        {
           "numped": "275000553",
           "numnota": "6097.0",
           "data": "18/06/2026",
@@ -34268,6 +34298,11 @@ const ENTREGAS_DATA = {
               "val": 40752.0
             },
             {
+              "desc": "VODKA KETEL ONE 1000 ML",
+              "qt": 96,
+              "val": 10550.4
+            },
+            {
               "desc": "VODCA SMIRNOFF RED 998 ML",
               "qt": 336,
               "val": 11726.4
@@ -34361,11 +34396,6 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL SF MAÇA 24X250ML",
               "qt": 100,
               "val": 20376.0
-            },
-            {
-              "desc": "VODKA KETEL ONE 1000 ML",
-              "qt": 96,
-              "val": 10550.4
             }
           ]
         },
