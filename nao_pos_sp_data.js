@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "22/06/2026 11:02",
+  "atualizado_em": "22/06/2026 11:15",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -3993,6 +3993,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "50930",
+        "cliente": "OFELIA SARRI MORETE",
+        "bairro": "JARDIM DAS COLINAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "50929",
         "cliente": "OFELIA SARRI MORETE",
         "bairro": "CHACARAS FAZENDA COELHO",
@@ -4000,9 +4007,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50930",
-        "cliente": "OFELIA SARRI MORETE",
-        "bairro": "JARDIM DAS COLINAS",
+        "codcli": "51214",
+        "cliente": "PALOMO & CROCHIQUIA LTDA",
+        "bairro": "JARDIM SOARES",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4079,16 +4086,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50629",
+        "codcli": "50627",
         "cliente": "MERCADO SAO JOSE DOMINGOS LTDA",
-        "bairro": "CONJUNTO HABITACIONAL SÃO JOSÉ",
+        "bairro": "JARDIM SANTA LÚCIA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50627",
+        "codcli": "50629",
         "cliente": "MERCADO SAO JOSE DOMINGOS LTDA",
-        "bairro": "JARDIM SANTA LÚCIA",
+        "bairro": "CONJUNTO HABITACIONAL SÃO JOSÉ",
         "dtultcomp": "nan",
         "produtos": []
       },
