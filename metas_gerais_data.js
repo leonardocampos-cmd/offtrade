@@ -1,21 +1,21 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "22/06/2026 11:42",
+  "atualizado_em": "22/06/2026 11:51",
   "mes": "Jun/26",
   "dias_corridos": 22,
   "dias_no_mes": 30,
   "dias_restantes": 8,
   "resumo": {
-    "fat": 7396972.78,
+    "fat": 7397378.38,
     "fat_ant": 6445771.94,
     "pos": 1343,
     "pos_ant": 1375
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 7396972.78,
+    "fat": 7397378.38,
     "fat_ant": 6445771.94,
     "pct": 51.4,
-    "nec_dia": 875378.4
+    "nec_dia": 875327.7
   },
   "estados": [
     {
@@ -33,11 +33,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 6600000.0,
-      "fat": 3793869.62,
+      "fat": 3794275.22,
       "fat_ant": 3304081.69,
       "pos": 450,
       "pct": 57.5,
-      "nec_dia": 350766.3,
+      "nec_dia": 350715.6,
       "pos_ant": 365
     },
     {
@@ -330,11 +330,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CAMPARI",
-      "fat": 27150.14,
+      "fat": 27555.74,
       "fat_ant": 10843.49,
       "por_estado": {
         "RJ": 5138.48,
-        "SP": 21626.8,
+        "SP": 22032.4,
         "ES": 384.86,
         "MG": 0.0
       }
