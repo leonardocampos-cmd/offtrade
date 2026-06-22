@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "22/06/2026 11:14",
+  "atualizado_em": "22/06/2026 11:42",
   "data_rota": "22.06",
   "vendedores": [
     {
@@ -54,6 +54,36 @@ const ENTREGAS_DATA = {
               "desc": "COQUETEL BANANINHA REGGIANI 950ML",
               "qt": 24,
               "val": 429.6
+            }
+          ]
+        },
+        {
+          "numped": "431001062",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "TALM COMERCIO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 285.28,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 6,
+              "val": 167.4
+            },
+            {
+              "desc": "LICOR STOCK ANISETTE 720 ML",
+              "qt": 2,
+              "val": 79.8
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 1,
+              "val": 38.08
             }
           ]
         },
@@ -2116,8 +2146,8 @@ const ENTREGAS_DATA = {
               "val": 299.98
             }
           ],
-          "motivo_alerta": "Erro Fiscal / Documental / Momento que emitiram a nota grampeou o boleto errado, vendedor Adeilson Gonçalves ciente.",
-          "responsavel_alerta": "Faturamento"
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
         },
         {
           "numped": "431001040",
@@ -2529,8 +2559,8 @@ const ENTREGAS_DATA = {
               "val": 94.68
             }
           ],
-          "motivo_alerta": "Erro Fiscal / Documental / Todas essas NFs retornaram, pois a escolta demorou a chegar na base, fazendo com que a equipe saísse às 12:14 ocasionando a não entrega de algumas notas.",
-          "responsavel_alerta": "Faturamento"
+          "motivo_alerta": "Cancelado / Retorno Solicitado / Pedido errado, cliente não pediu ST PIERRE zero e nem Atum de tomate. Vendedor Adeilson Gonçalves está ciente",
+          "responsavel_alerta": "Vendas"
         },
         {
           "numped": "431000990",
@@ -6080,7 +6110,7 @@ const ENTREGAS_DATA = {
               "val": 48.48
             }
           ],
-          "motivo_alerta": "Fora do Horário / Agendamento / Horário de recebimento só até às 16hrs, essa informação a equipe não passou ao apoio logístico enquanto estava em rota.",
+          "motivo_alerta": "Fora do Horário / Agendamento / Horário de recebimento só até às 15hrs, essa informação não foi passada ao apoio logístico enquanto a equipe estava em rota.",
           "responsavel_alerta": "Vendas"
         },
         {
@@ -6265,7 +6295,7 @@ const ENTREGAS_DATA = {
               "val": 652.8
             }
           ],
-          "motivo_alerta": "Fora do Horário / Agendamento / HORÁRIO DE RECEBIMENTO SÓ ATÉ AS 15 HORAS, ESSA INFORMAÇÃO A EQUIPE NÃO PASSOU AO APOIO LOGISTICO",
+          "motivo_alerta": "Fora do Horário / Agendamento / Horário de recebimento só até às 16hrs.",
           "responsavel_alerta": "Vendas"
         },
         {
@@ -8612,8 +8642,8 @@ const ENTREGAS_DATA = {
               "val": 257.4
             }
           ],
-          "motivo_alerta": "Erro Fiscal / Documental / Nota agendada para amanhã, pois retornou porque  o agendamento estava errado, vendedora Bárbara Cabral ciente.",
-          "responsavel_alerta": "Faturamento"
+          "motivo_alerta": "Fora do Horário / Agendamento / Essa NF retornou mais uma vez, pois o cliente do local informou que essa nota não estava agendada para o dia de hoje, vendedora Barbara Cabral está ciente e o gerente do Off Allan Paes Leme, também está.",
+          "responsavel_alerta": "Vendas"
         },
         {
           "numped": "412001329",
@@ -9072,8 +9102,8 @@ const ENTREGAS_DATA = {
               "val": 159.8
             }
           ],
-          "motivo_alerta": "Erro Fiscal / Documental / Essas NFs retornaram em decorrência de um problema mecânico apresentado no veículo da rota, dificultando a continuidade das entregas",
-          "responsavel_alerta": "Faturamento"
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
         },
         {
           "numped": "238000748",
@@ -9170,6 +9200,31 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "144001570",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "LUCRE BEM MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 879.9,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO 500ML",
+              "qt": 2,
+              "val": 5.4
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 5,
+              "val": 874.5
+            }
+          ]
+        },
+        {
           "numped": "144001569",
           "numnota": "",
           "data": "22/06/2026",
@@ -9196,31 +9251,6 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO 500ML",
               "qt": 1,
               "val": 2.7
-            }
-          ]
-        },
-        {
-          "numped": "144001570",
-          "numnota": "",
-          "data": "22/06/2026",
-          "cliente": "LUCRE BEM MERCEARIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 879.9,
-          "itens": [
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 5,
-              "val": 874.5
-            },
-            {
-              "desc": "VEJA MULTIUSO 500ML",
-              "qt": 2,
-              "val": 5.4
             }
           ]
         },
@@ -11959,8 +11989,8 @@ const ENTREGAS_DATA = {
               "val": 71.52
             }
           ],
-          "motivo_alerta": "Cancelado / Retorno Solicitado / Horário de recebimento só até às 15hrs, vendedor Diogo Raposo está ciente",
-          "responsavel_alerta": "Vendas"
+          "motivo_alerta": "Produto Vencido / Validade / Cliente recusou o pedido, devido a validade das mercadorias estarem curtas. Vendedor Diogo Raposo está ciente.",
+          "responsavel_alerta": "Logística"
         },
         {
           "numped": "144001479",
@@ -12018,8 +12048,8 @@ const ENTREGAS_DATA = {
               "val": 45.0
             }
           ],
-          "motivo_alerta": "Erro Fiscal / Documental / Todas essas NFs retornaram, pois a escolta demorou a chegar na base, fazendo com que a equipe saísse às 12:14 ocasionando a não entrega de algumas notas.",
-          "responsavel_alerta": "Faturamento"
+          "motivo_alerta": "Erro de Cadastro / Endereço / Endereço errado, vendedor Diogo Raposo passou localização, mas mesmo assim a equipe não localizou.",
+          "responsavel_alerta": "Vendas"
         },
         {
           "numped": "144001476",
@@ -13968,7 +13998,7 @@ const ENTREGAS_DATA = {
               "val": 108.0
             }
           ],
-          "motivo_alerta": "Problema Financeiro / . Cliente sem o pagamento combinado, vendedor Fabio Valotti está ciente",
+          "motivo_alerta": "REPONSÁVEL PELO PAGAMENTO AUSENTE OU CLIENTE SEM MÉTODO",
           "responsavel_alerta": "Contas a Receber"
         },
         {
@@ -17254,8 +17284,8 @@ const ENTREGAS_DATA = {
               "val": 239.4
             }
           ],
-          "motivo_alerta": "Erro Fiscal / Documental / Endereço errado,( foi posta a obs errada)  essa NF faz parte da rota de Búzios.",
-          "responsavel_alerta": "Faturamento"
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
         },
         {
           "numped": "159004848",
@@ -17276,8 +17306,8 @@ const ENTREGAS_DATA = {
               "val": 2394.0
             }
           ],
-          "motivo_alerta": "Erro Fiscal / Documental / Endereço errado,( foi posta a obs errada)  essa NF faz parte da rota de Búzios.",
-          "responsavel_alerta": "Faturamento"
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
         },
         {
           "numped": "159004819",
@@ -20420,8 +20450,8 @@ const ENTREGAS_DATA = {
               "val": 335.76
             }
           ],
-          "motivo_alerta": "Fora do Horário / Agendamento / Horário de recebimento só até às 16hrs, essa informação a equipe não passou ao apoio logístico enquanto estava em rota.",
-          "responsavel_alerta": "Vendas"
+          "motivo_alerta": "ERRO DE ROTA",
+          "responsavel_alerta": "Logística"
         },
         {
           "numped": "379001116",
@@ -20469,8 +20499,8 @@ const ENTREGAS_DATA = {
               "val": 199.5
             }
           ],
-          "motivo_alerta": "Fora do Horário / Agendamento / Horário de recebimento só até às 16hrs, essa informação a equipe não passou ao apoio logístico enquanto estava em rota.",
-          "responsavel_alerta": "Vendas"
+          "motivo_alerta": "Erro Fiscal / Documental / Equipe informou que essa nota pertence a rota de Anchieta, e que esse endereço fica muito distante da rota que eles fazem.",
+          "responsavel_alerta": "Faturamento"
         },
         {
           "numped": "379001107",
@@ -25029,7 +25059,7 @@ const ENTREGAS_DATA = {
               "val": 400.32
             }
           ],
-          "motivo_alerta": "Cancelado / Retorno Solicitado / Horário de recebimento  é só até às 14hrs, equipe não conseguiu efetuar a entrega dessa NF, vendedor Leandro Souza está ciente",
+          "motivo_alerta": "Cliente Fechado / Ausente / Horário de recebimento só até às 15hrs, essa informação não foi passada ao apoio logístico enquanto a equipe não estava em rota.",
           "responsavel_alerta": "Vendas"
         },
         {
@@ -25071,7 +25101,7 @@ const ENTREGAS_DATA = {
               "val": 155.28
             }
           ],
-          "motivo_alerta": "Cancelado / Retorno Solicitado / Horário de recebimento só até às 15hrs, vendedor Leandro Souza está ciente",
+          "motivo_alerta": "Cancelado / Retorno Solicitado / Cliente não funciona no dia de sábado, vendedor Leandro Souza está ciente.",
           "responsavel_alerta": "Vendas"
         },
         {
@@ -25113,7 +25143,7 @@ const ENTREGAS_DATA = {
               "val": 155.28
             }
           ],
-          "motivo_alerta": "Cancelado / Retorno Solicitado / Cliente só recebe até às 14hrs, vendedor Leandro Souza está ciente",
+          "motivo_alerta": "Cancelado / Retorno Solicitado / Cliente não funciona no dia de sábado, vendedor Leandro Souza está ciente",
           "responsavel_alerta": "Vendas"
         },
         {
@@ -25459,14 +25489,14 @@ const ENTREGAS_DATA = {
               "val": 34524.0
             },
             {
-              "desc": "WHISKY JIM BEAM APPLE 1L",
-              "qt": 132,
-              "val": 12658.8
-            },
-            {
               "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
               "qt": 792,
               "val": 75952.8
+            },
+            {
+              "desc": "WHISKY JIM BEAM APPLE 1L",
+              "qt": 132,
+              "val": 12658.8
             }
           ]
         },
@@ -32046,8 +32076,8 @@ const ENTREGAS_DATA = {
               "val": 75.8
             }
           ],
-          "motivo_alerta": "Problema Veículo / Equipe / Primeiro horário, essa informação não foi passada ao apoio logístico enquanto a equipe estava em rota",
-          "responsavel_alerta": "Logística"
+          "motivo_alerta": "Cancelado / Retorno Solicitado / VENDEDORA MARILENA TRANGEL SOLICITOU O CANCELAMENTO, POIS ERA PRA SER UMA BONIFICAÇÃO.",
+          "responsavel_alerta": "Vendas"
         },
         {
           "numped": "156003496",
@@ -32403,7 +32433,7 @@ const ENTREGAS_DATA = {
               "val": 88.7
             }
           ],
-          "motivo_alerta": "Pendente de Baixa",
+          "motivo_alerta": "Problema Veículo / Equipe / Primeiro horário, essa informação não foi passada ao apoio logístico enquanto a equipe estava em rota",
           "responsavel_alerta": "Logística"
         }
       ]
@@ -33263,7 +33293,7 @@ const ENTREGAS_DATA = {
               "val": 155.4
             }
           ],
-          "motivo_alerta": "Cancelado / Retorno Solicitado / Produto não carregado (Espumante Casa Perini Aquarela Rose) vendedor Mateus Cardoso está ciente",
+          "motivo_alerta": "Desistência / Concorrência / Cliente desistiu do pedido, vendedor Mateus Cardoso está ciente e o mesmo confirmou",
           "responsavel_alerta": "Vendas"
         }
       ]
@@ -34601,7 +34631,7 @@ const ENTREGAS_DATA = {
               "val": 399.5
             }
           ],
-          "motivo_alerta": "Desistência / Concorrência / Cliente não quis aceitar, pois não mandaram a bonificação. Vendedora Natali de Oliveira ciente, e  confirmou.",
+          "motivo_alerta": "Cliente Fechado / Ausente / cliente fechado",
           "responsavel_alerta": "Vendas"
         },
         {
