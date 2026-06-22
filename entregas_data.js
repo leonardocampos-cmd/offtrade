@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "22/06/2026 15:01",
+  "atualizado_em": "22/06/2026 15:15",
   "data_rota": "22.06",
   "vendedores": [
     {
@@ -35187,6 +35187,71 @@ const ENTREGAS_DATA = {
       "nome": "RAPHAEL SANTOS - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "155003739",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "M.J.F BORGES BAR E RESTAURANTE",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1074.26,
+          "itens": [
+            {
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 6,
+              "val": 377.4
+            },
+            {
+              "desc": "APERITIVO CAMPARI 998ML",
+              "qt": 1,
+              "val": 54.9
+            },
+            {
+              "desc": "APERITIVO APEROL 750 ML",
+              "qt": 7,
+              "val": 335.3
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 1,
+              "val": 126.9
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            }
+          ]
+        },
+        {
+          "numped": "155003738",
+          "numnota": "",
+          "data": "22/06/2026",
+          "cliente": "SILMAS DE BUZIOS DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1317.84,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 4,
+              "val": 719.04
+            },
+            {
+              "desc": "SMIRNOFF RED PET 1750 ML",
+              "qt": 12,
+              "val": 598.8
+            }
+          ]
+        },
         {
           "numped": "155003660",
           "numnota": "",
