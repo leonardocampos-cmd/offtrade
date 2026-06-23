@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 10:05",
-  "total": 4297,
+  "atualizado_em": "23/06/2026 10:27",
+  "total": 4299,
   "clientes": [
     {
       "codcli": "31683",
@@ -996,6 +996,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "80790",
+      "razao": "39.514.158 ANDRE LUCIANO COELHO DOS SANTOS",
+      "fantasia": "ANDRE LUCIANO COELHO DOS SANTOS",
+      "bairro": "UNAMAR (TAMOIOS)",
+      "cidade": "CABO FRIO",
+      "cnpj": "39.514.158/0001-15",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "codusur1": "241",
+      "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "50630",
@@ -35548,6 +35562,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51240",
+      "razao": "MERCADO DUVALLE LTDA",
+      "fantasia": "MERCADO DUVALLE",
+      "bairro": "CAMPOS DE SAO JOSE",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "12.002.797/0001-45",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "49309",
