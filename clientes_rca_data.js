@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 16:00",
-  "total": 4329,
+  "atualizado_em": "23/06/2026 16:02",
+  "total": 4330,
   "clientes": [
     {
       "codcli": "31683",
@@ -3446,6 +3446,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "51265",
+      "razao": "62.354.916 RAUL ZANELLA",
+      "fantasia": "RAUL ZANELLA",
+      "bairro": "PARQUE RESIDENCIAL PEDRA BRANCA",
+      "cidade": "SANTO ANTONIO DE POSSE",
+      "cnpj": "62.354.916/0001-05",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "473",
+      "nome_usur1": "MARCELO PEREIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51170",
