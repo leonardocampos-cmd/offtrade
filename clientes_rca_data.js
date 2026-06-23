@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 13:08",
-  "total": 4303,
+  "atualizado_em": "23/06/2026 13:48",
+  "total": 4305,
   "clientes": [
     {
       "codcli": "31683",
@@ -6720,6 +6720,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "426",
       "nome_usur1": "ADER ALONSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51247",
+      "razao": "ANDERSON DE SOUSA CAMPOS 45703514843",
+      "fantasia": "ANDERSON DE SOUSA CAMPOS",
+      "bairro": "MONTE ALEGRE",
+      "cidade": "RIO GRANDE DA SERRA",
+      "cnpj": "42.813.855/0001-81",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -20398,6 +20412,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51248",
+      "razao": "EMILE SUPERMERCADOS LTDA",
+      "fantasia": "EMILE SUPERMERCADOS",
+      "bairro": "VILA SUZUKI",
+      "cidade": "RIO GRANDE DA SERRA",
+      "cnpj": "18.001.127/0001-90",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
