@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "23/06/2026 17:45",
+  "atualizado_em": "23/06/2026 17:48",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -263141,6 +263141,16 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 360,
           "valor": 42120.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "LIQUEUR C AMARULA ETHIOPIAN COFFEE",
+          "fantasia": "INTERFOOD",
+          "qt": 240,
+          "valor": 21576.0,
           "tipo": "Venda"
         }
       ],
