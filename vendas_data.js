@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "23/06/2026 17:08",
+  "atualizado_em": "23/06/2026 17:33",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -96234,6 +96234,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "23/06/2026",
+          "codcli": "95483",
+          "cliente": "MERCADO SOS 3 IRMAOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 24,
+          "valor": 789.6,
+          "tipo": "Venda"
+        },
+        {
           "data": "11/06/2026",
           "codcli": "95355",
           "cliente": "CASA DE CARNES IMPERIO DO LOTE XV, ACOUGUE E MERCEARIA LTDA",
@@ -160612,6 +160622,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "23/06/2026",
+          "codcli": "85931",
+          "cliente": "FAMILIA MARIO BROS LTDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 383.52,
+          "tipo": "Venda"
+        },
+        {
           "data": "09/06/2026",
           "codcli": "90484",
           "cliente": "MERCADO RC DE ITAGUAI LTDA",
@@ -176687,6 +176707,16 @@ const VENDAS_DATA = {
         }
       ],
       "Jun/26": [
+        {
+          "data": "23/06/2026",
+          "codcli": "7755",
+          "cliente": "IMBATIVEL SUPERMERCADOS LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 480,
+          "valor": 34992.0,
+          "tipo": "Venda"
+        },
         {
           "data": "11/06/2026",
           "codcli": "9603",
