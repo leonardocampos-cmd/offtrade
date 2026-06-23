@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "23/06/2026 15:04",
+  "atualizado_em": "23/06/2026 15:12",
   "data_rota": "23.06",
   "vendedores": [
     {
@@ -4748,13 +4748,28 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "entregar no dia 24/06 nao temos pagamento de descarga",
-          "total": 767.04,
+          "total": 383.52,
           "itens": [
             {
               "desc": "RED BULL SUGAR FREE 24X250ML",
               "qt": 2,
               "val": 383.52
-            },
+            }
+          ]
+        },
+        {
+          "numped": "153001238",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "FAMILIA MARIO BROS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 24/06 nao temos pagamento de descarga",
+          "total": 383.52,
+          "itens": [
             {
               "desc": "RED BULL SF POMELO 24X250ML",
               "qt": 2,
