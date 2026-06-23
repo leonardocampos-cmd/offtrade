@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 09:58",
-  "total": 4296,
+  "atualizado_em": "23/06/2026 10:05",
+  "total": 4297,
   "clientes": [
     {
       "codcli": "31683",
@@ -8430,6 +8430,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "72013",
+      "razao": "AUTO POSTO PRESIDENTE LTDA",
+      "fantasia": "AUTO POSTO PRESIDENTE",
+      "bairro": "JARDIM DA PENHA",
+      "cidade": "VITORIA",
+      "cnpj": "39.400.494/0001-37",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "79820",
