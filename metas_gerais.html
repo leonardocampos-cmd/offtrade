@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Metas Gerais — OFF TRADE</title>
   <script src="metas_gerais_data.js"></script>
+  <script src="gerentes_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -114,9 +115,48 @@
 
     .table-wrap { background: var(--card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
 
+    /* ── Hierarquia gerentes ── */
+    .ger-row {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; overflow: hidden; margin-bottom: 8px;
+    }
+    .ger-header, .sup-header {
+      display: flex; align-items: center; gap: 10px;
+      padding: 12px 16px; cursor: pointer; transition: background .1s;
+    }
+    .ger-header:hover { background: var(--card2); }
+    .sup-header { padding-left: 34px; background: var(--card2); }
+    .sup-header:hover { background: rgba(255,255,255,.04); }
+    .ger-toggle { font-size: .75rem; color: var(--muted); width: 14px; flex-shrink:0; transition: transform .2s; }
+    .ger-toggle.open { transform: rotate(90deg); }
+    .lv-ger  { font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;
+               color:var(--accent);background:rgba(245,197,24,.1);border:1px solid rgba(245,197,24,.25);
+               border-radius:4px;padding:1px 5px;flex-shrink:0; }
+    .lv-sup  { font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;
+               color:var(--blue);background:rgba(96,165,250,.1);border:1px solid rgba(96,165,250,.25);
+               border-radius:4px;padding:1px 5px;flex-shrink:0; }
+    .lv-vend { font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;
+               color:#a78bfa;background:rgba(167,139,250,.1);border:1px solid rgba(167,139,250,.25);
+               border-radius:4px;padding:1px 5px;flex-shrink:0; }
+    .ger-nome { flex:1; font-size:.87rem; font-weight:600; }
+    .ger-fat  { font-size:.88rem;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;white-space:nowrap;margin-left:auto; }
+    .ger-qt   { font-size:.7rem;color:var(--muted);margin-left:14px;white-space:nowrap; }
+    .sups-body, .vends-body { display: none; border-top: 1px solid var(--border); }
+    .sups-body.open, .vends-body.open { display: block; }
+    .sup-row { border-bottom: 1px solid var(--border); }
+    .sup-row:last-child { border-bottom: none; }
+    .vend-row {
+      display:flex;align-items:center;gap:10px;
+      padding:8px 16px 8px 58px;background:var(--bg);
+      border-top:1px solid var(--border);
+    }
+    .vend-rca { font-size:.65rem;color:var(--muted);background:var(--card2);
+                border:1px solid var(--border);border-radius:4px;padding:1px 5px;flex-shrink:0; }
+
     @media (max-width: 600px) {
       .estados-grid { grid-template-columns: 1fr 1fr; }
       .hide-mob { display: none; }
+      .ger-qt { display: none; }
     }
   </style>
 </head>
@@ -259,7 +299,80 @@ function render() {
       </table>
     </div>`;
 
-  document.getElementById('app').innerHTML = resumoHtml + estadosHtml + industriasHtml;
+  const gerentesHtml = buildGerentesSection();
+  document.getElementById('app').innerHTML = resumoHtml + estadosHtml + industriasHtml + gerentesHtml;
+  mountGerentesTree();
+}
+
+function buildGerentesSection() {
+  if (typeof GERENTES_DATA === 'undefined' || !GERENTES_DATA.gerentes.length) return '';
+  const mes = GERENTES_DATA.meses[0] || '';
+  const fatMes = (pm) => (pm[mes] || {}).fat || 0;
+  const qtMes  = (pm) => (pm[mes] || {}).qt  || 0;
+  const numFmt = v => Number(v).toLocaleString('pt-BR');
+
+  const gerSorted = [...GERENTES_DATA.gerentes].sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes));
+
+  const rows = gerSorted.map((ger, gi) => {
+    const fat = fatMes(ger.por_mes);
+    const qt  = qtMes(ger.por_mes);
+
+    const supRows = [...ger.supervisores]
+      .sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes))
+      .map((sup, si) => {
+        const sfat = fatMes(sup.por_mes);
+        const sqt  = qtMes(sup.por_mes);
+
+        const vendRows = [...sup.vendedores]
+          .sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes))
+          .map(vend => {
+            const vfat = fatMes(vend.por_mes);
+            const vqt  = qtMes(vend.por_mes);
+            return `<div class="vend-row">
+              <span class="lv-vend">Vendedor</span>
+              ${vend.rca ? `<span class="vend-rca">${vend.rca}</span>` : ''}
+              <span class="ger-nome" style="font-weight:400">${vend.nome}</span>
+              <span class="ger-fat" style="font-size:.8rem">${brl(vfat)}</span>
+              <span class="ger-qt">${numFmt(vqt)} un</span>
+            </div>`;
+          }).join('');
+
+        return `<div class="sup-row">
+          <div class="sup-header" data-target="vends-${gi}-${si}">
+            <span class="ger-toggle">▶</span>
+            <span class="lv-sup">Supervisor</span>
+            <span class="ger-nome">${sup.nome}</span>
+            <span class="ger-fat">${brl(sfat)}</span>
+            <span class="ger-qt">${numFmt(sqt)} un</span>
+          </div>
+          <div class="vends-body" id="vends-${gi}-${si}">${vendRows}</div>
+        </div>`;
+      }).join('');
+
+    return `<div class="ger-row">
+      <div class="ger-header" data-target="sups-${gi}">
+        <span class="ger-toggle">▶</span>
+        <span class="lv-ger">Gerente</span>
+        <span class="ger-nome">${ger.nome}</span>
+        <span class="ger-fat">${brl(fat)}</span>
+        <span class="ger-qt">${numFmt(qt)} un</span>
+      </div>
+      <div class="sups-body" id="sups-${gi}">${supRows}</div>
+    </div>`;
+  }).join('');
+
+  return `<div class="sec-title">Faturamento por Gerente — ${mes}</div>${rows}`;
+}
+
+function mountGerentesTree() {
+  document.querySelectorAll('.ger-header, .sup-header').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = document.getElementById(btn.dataset.target);
+      if (!target) return;
+      const open = target.classList.toggle('open');
+      btn.querySelector('.ger-toggle').classList.toggle('open', open);
+    });
+  });
 }
 
 function filterIndustrias(q) {
