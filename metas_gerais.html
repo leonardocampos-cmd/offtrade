@@ -312,7 +312,10 @@ function buildGerentesSection() {
   const numFmt = v => Number(v).toLocaleString('pt-BR');
 
   let idx = 0;
-  const empSorted = [...GERENTES_DATA.empresas].sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes));
+  const _EMP_VISIVEIS = new Set(['CRC', 'SPON']);
+  const empSorted = [...GERENTES_DATA.empresas]
+    .filter(e => _EMP_VISIVEIS.has(e.nome))
+    .sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes));
 
   const rows = empSorted.map(emp => {
     const efat = fatMes(emp.por_mes);
