@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 10:27",
+  "atualizado_em": "23/06/2026 11:06",
   "total": 4299,
   "clientes": [
     {
@@ -26464,26 +26464,12 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "20944",
-      "razao": "ITAPOA SUPERMERCADO LTDA",
-      "fantasia": "SUPERMERCADOS PERIM",
-      "bairro": "RIVIERA DA BARRA",
-      "cidade": "VILA VELHA",
-      "cnpj": "06.955.576/0005-12",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "260",
-      "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "20943",
+      "codcli": "20940",
       "razao": "ITAPOA SUPERMERCADO LTDA",
       "fantasia": "SUPERMERCADOS  PERIM",
-      "bairro": "SAO FRANCISCO",
-      "cidade": "CARIACICA",
-      "cnpj": "06.955.576/0011-60",
+      "bairro": "JABURUNA",
+      "cidade": "VILA VELHA",
+      "cnpj": "06.955.576/0006-01",
       "estado": "ES",
       "ramo": "MERCADO",
       "codusur1": "260",
@@ -35364,6 +35350,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51241",
+      "razao": "MERCADO DA FAMILIA LTDA",
+      "fantasia": "MERCADO DUVALLE",
+      "bairro": "CAMPOS DE SAO JOSE",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "50.623.202/0001-68",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -48864,20 +48864,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "20932",
-      "razao": "REALMAR DISTRIBUIDORA LTDA",
-      "fantasia": "EXTRA BOM",
-      "bairro": "CIVIT I",
-      "cidade": "SERRA",
-      "cnpj": "03.845.717/0001-22",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "388",
-      "nome_usur1": "EUDES MORGAN - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "91806",
       "razao": "RECANTO DO PONTAL DO ATALAIA EMPREENDIMENTOS LTDA",
       "fantasia": "RECANTO DO PONTAL DO ATALAIA EMPREENDIME",
@@ -58646,6 +58632,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "OUTROS",
       "codusur1": "336",
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50195",
+      "razao": "VICENTE OTAROLA GALLEGO MERCEARIA LTDA",
+      "fantasia": "MERCEARIA GALLEGO",
+      "bairro": "VL PE ANCHIETA",
+      "cidade": "CAMPINAS",
+      "cnpj": "49.346.695/0001-57",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "470",
+      "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
