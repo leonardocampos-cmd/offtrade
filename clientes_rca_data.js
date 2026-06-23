@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 09:14",
-  "total": 4291,
+  "atualizado_em": "23/06/2026 09:31",
+  "total": 4294,
   "clientes": [
     {
       "codcli": "31683",
@@ -25036,6 +25036,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "50513",
+      "razao": "H. A. MACHADO FILHO LTDA",
+      "fantasia": "MERCADO PIT STOP",
+      "bairro": "CENTRO",
+      "cidade": "TAGUAI",
+      "cnpj": "40.444.772/0001-37",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "477",
+      "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50526",
       "razao": "H. DE SOUZA MINIMERCADO LTDA",
       "fantasia": "H. DE SOUZA MINIMERCADO",
@@ -28740,6 +28754,20 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "38.505.263/0001-25",
       "estado": "SP",
       "ramo": "MINI-MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49991",
+      "razao": "JULIO CESAR DA SILVA JUNIOR & CIA LTDA",
+      "fantasia": "JULIO CESAR DA SILVA JUNIOR & CIA",
+      "bairro": "RUBIAO JUNIOR",
+      "cidade": "BOTUCATU",
+      "cnpj": "56.342.825/0001-49",
+      "estado": "SP",
+      "ramo": "MERCADO",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
@@ -39356,6 +39384,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51236",
+      "razao": "MINI MERCADO NOVA UNIAO LTDA",
+      "fantasia": "MINI MERCADO NOVA UNIAO",
+      "bairro": "PARQUE RESIDENCIAL VILA UNIAO",
+      "cidade": "CAMPINAS",
+      "cnpj": "63.477.006/0001-74",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "470",
+      "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50748",
@@ -53232,6 +53274,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51237",
+      "razao": "SUPER FAUNA VAREJISTA LTDA",
+      "fantasia": "CORUJA SUPERMERCADOS",
+      "bairro": "VILA ROCHA",
+      "cidade": "LIMEIRA",
+      "cnpj": "67.416.776/0001-68",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "82201",
       "razao": "SUPER FOOD LAGOS LTDA",
       "fantasia": "MESONA",
@@ -55286,20 +55342,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "153",
       "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "50954",
-      "razao": "SUPERMERCADO TRIALBA",
-      "fantasia": "SUPERMERCADO TRIALBA",
-      "bairro": "CIDADE JARDIM",
-      "cidade": "LIMEIRA",
-      "cnpj": "67.416.776/0003-20",
-      "estado": "SP",
-      "ramo": "MERCADO",
-      "codusur1": "433",
-      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
