@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faturamento por Gerente — OFF TRADE</title>
+  <script src="gerentes_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:     #0f1117;
+      --card:   #1a1d27;
+      --card2:  #22263a;
+      --accent: #f5c518;
+      --green:  #22c55e;
+      --blue:   #60a5fa;
+      --purple: #a78bfa;
+      --text:   #e2e8f0;
+      --muted:  #94a3b8;
+      --border: #2d3144;
+    }
+
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+      max-width: 1100px; margin: 0 auto;
+    }
+
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 24px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap; gap: 12px;
+    }
+    .h-title { font-size: 1.25rem; font-weight: 700; color: var(--accent); letter-spacing: -.02em; }
+    .h-sub   { font-size: .75rem; color: var(--muted); margin-top: 3px; }
+    .back-link {
+      font-size: .78rem; color: var(--muted); text-decoration: none;
+      padding: 6px 12px; border: 1px solid var(--border); border-radius: 8px;
+      transition: border-color .15s, color .15s;
+    }
+    .back-link:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* Pills */
+    .pills-row { display: flex; gap: 7px; flex-wrap: wrap; margin-bottom: 20px; }
+    .pill {
+      padding: 6px 15px; border-radius: 20px; font-size: .78rem;
+      cursor: pointer; border: 1px solid var(--border);
+      background: var(--card); color: var(--muted);
+      transition: all .15s; user-select: none;
+    }
+    .pill:hover  { border-color: var(--accent); color: var(--text); }
+    .pill.active { background: var(--accent); color: #111; border-color: var(--accent); font-weight: 700; }
+
+    /* Totalizador */
+    .totais-row {
+      display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .totais-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; padding: 14px 20px; flex: 1; min-width: 160px;
+    }
+    .totais-label { font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 6px; }
+    .totais-val   { font-size: 1.3rem; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
+
+    /* Árvore */
+    .tree { display: flex; flex-direction: column; gap: 10px; }
+
+    /* Linha gerente */
+    .row-ger {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; overflow: hidden;
+    }
+    .row-ger-header {
+      display: flex; align-items: center; gap: 10px;
+      padding: 14px 18px; cursor: pointer;
+      transition: background .1s;
+    }
+    .row-ger-header:hover { background: var(--card2); }
+    .toggle { font-size: .8rem; color: var(--muted); width: 16px; flex-shrink: 0; transition: transform .2s; }
+    .toggle.open { transform: rotate(90deg); }
+
+    .level-ger  { font-size: .6rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
+                  color: var(--accent); background: rgba(245,197,24,.1); border: 1px solid rgba(245,197,24,.25);
+                  border-radius: 4px; padding: 2px 6px; flex-shrink: 0; }
+    .level-sup  { font-size: .6rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
+                  color: var(--blue); background: rgba(96,165,250,.1); border: 1px solid rgba(96,165,250,.25);
+                  border-radius: 4px; padding: 2px 6px; flex-shrink: 0; }
+    .level-vend { font-size: .6rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
+                  color: var(--purple); background: rgba(167,139,250,.1); border: 1px solid rgba(167,139,250,.25);
+                  border-radius: 4px; padding: 2px 6px; flex-shrink: 0; }
+
+    .row-nome { flex: 1; font-size: .9rem; font-weight: 600; }
+    .row-fat  { font-size: .92rem; font-weight: 700; color: var(--accent);
+                font-variant-numeric: tabular-nums; margin-left: auto; white-space: nowrap; }
+    .row-qt   { font-size: .72rem; color: var(--muted); margin-left: 16px; white-space: nowrap; }
+
+    /* Supervisor rows */
+    .sups-body { display: none; border-top: 1px solid var(--border); }
+    .sups-body.open { display: block; }
+
+    .row-sup {
+      border-bottom: 1px solid var(--border);
+    }
+    .row-sup:last-child { border-bottom: none; }
+    .row-sup-header {
+      display: flex; align-items: center; gap: 10px;
+      padding: 11px 18px 11px 36px; cursor: pointer;
+      background: var(--card2); transition: background .1s;
+    }
+    .row-sup-header:hover { background: rgba(255,255,255,.04); }
+
+    /* Vendedor rows */
+    .vends-body { display: none; }
+    .vends-body.open { display: block; }
+
+    .row-vend {
+      display: flex; align-items: center; gap: 10px;
+      padding: 9px 18px 9px 60px;
+      border-top: 1px solid var(--border);
+      background: var(--bg);
+    }
+    .vend-rca { font-size: .68rem; color: var(--muted); background: var(--card2);
+                border: 1px solid var(--border); border-radius: 4px;
+                padding: 1px 6px; flex-shrink: 0; font-variant-numeric: tabular-nums; }
+
+    @media (max-width: 600px) {
+      body { padding: 10px; }
+      .row-qt { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="h-title">Faturamento por Gerente</div>
+    <div class="h-sub" id="h-sub">Carregando…</div>
+  </div>
+  <a class="back-link" href="index.html">← Início</a>
+</header>
+
+<div class="pills-row" id="pills-row"></div>
+
+<div class="totais-row" id="totais-row"></div>
+
+<div class="tree" id="tree"></div>
+
+<script>
+const _d   = GERENTES_DATA;
+const brl  = v => 'R$ ' + Number(v).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const num  = v => Number(v).toLocaleString('pt-BR');
+
+let mesSel = _d.meses[0] || '';
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+function fatMes(por_mes, mes) {
+  return (por_mes[mes] || {}).fat || 0;
+}
+function qtMes(por_mes, mes) {
+  return (por_mes[mes] || {}).qt || 0;
+}
+
+// ── Pills ──────────────────────────────────────────────────────────────────
+function renderPills() {
+  const c = document.getElementById('pills-row');
+  c.innerHTML = '';
+  for (const m of _d.meses) {
+    const p = document.createElement('span');
+    p.className = 'pill' + (m === mesSel ? ' active' : '');
+    p.textContent = m;
+    p.onclick = () => { mesSel = m; render(); };
+    c.appendChild(p);
+  }
+}
+
+// ── Totalizador ────────────────────────────────────────────────────────────
+function renderTotais() {
+  const fatTotal = _d.gerentes.reduce((s, g) => s + fatMes(g.por_mes, mesSel), 0);
+  const qtTotal  = _d.gerentes.reduce((s, g) => s + qtMes(g.por_mes, mesSel), 0);
+  const nVends   = _d.gerentes.reduce((s, g) =>
+    s + g.supervisores.reduce((ss, sup) => ss + sup.vendedores.length, 0), 0);
+
+  document.getElementById('totais-row').innerHTML = `
+    <div class="totais-card">
+      <div class="totais-label">Faturamento total</div>
+      <div class="totais-val">${brl(fatTotal)}</div>
+    </div>
+    <div class="totais-card">
+      <div class="totais-label">Unidades</div>
+      <div class="totais-val">${num(qtTotal)}</div>
+    </div>
+    <div class="totais-card">
+      <div class="totais-label">Vendedores ativos</div>
+      <div class="totais-val">${nVends}</div>
+    </div>`;
+}
+
+// ── Árvore ─────────────────────────────────────────────────────────────────
+function renderTree() {
+  const tree = document.getElementById('tree');
+  tree.innerHTML = '';
+
+  const gerSorted = [..._d.gerentes].sort((a, b) => fatMes(b.por_mes, mesSel) - fatMes(a.por_mes, mesSel));
+
+  for (const ger of gerSorted) {
+    const fat = fatMes(ger.por_mes, mesSel);
+    const qt  = qtMes(ger.por_mes, mesSel);
+
+    const gerEl = document.createElement('div');
+    gerEl.className = 'row-ger';
+
+    const header = document.createElement('div');
+    header.className = 'row-ger-header';
+    header.innerHTML = `
+      <span class="toggle">▶</span>
+      <span class="level-ger">Gerente</span>
+      <span class="row-nome">${ger.nome}</span>
+      <span class="row-fat">${brl(fat)}</span>
+      <span class="row-qt">${num(qt)} un</span>`;
+
+    const body = document.createElement('div');
+    body.className = 'sups-body';
+
+    // Supervisores
+    const supSorted = [...ger.supervisores].sort((a, b) => fatMes(b.por_mes, mesSel) - fatMes(a.por_mes, mesSel));
+    for (const sup of supSorted) {
+      const sfat = fatMes(sup.por_mes, mesSel);
+      const sqt  = qtMes(sup.por_mes, mesSel);
+
+      const supEl = document.createElement('div');
+      supEl.className = 'row-sup';
+
+      const supHeader = document.createElement('div');
+      supHeader.className = 'row-sup-header';
+      supHeader.innerHTML = `
+        <span class="toggle">▶</span>
+        <span class="level-sup">Supervisor</span>
+        <span class="row-nome">${sup.nome}</span>
+        <span class="row-fat">${brl(sfat)}</span>
+        <span class="row-qt">${num(sqt)} un</span>`;
+
+      const vendsBody = document.createElement('div');
+      vendsBody.className = 'vends-body';
+
+      // Vendedores
+      const vendSorted = [...sup.vendedores].sort((a, b) => fatMes(b.por_mes, mesSel) - fatMes(a.por_mes, mesSel));
+      for (const vend of vendSorted) {
+        const vfat = fatMes(vend.por_mes, mesSel);
+        const vqt  = qtMes(vend.por_mes, mesSel);
+        const row = document.createElement('div');
+        row.className = 'row-vend';
+        row.innerHTML = `
+          <span class="level-vend">Vendedor</span>
+          ${vend.rca ? `<span class="vend-rca">${vend.rca}</span>` : ''}
+          <span class="row-nome" style="font-weight:400">${vend.nome}</span>
+          <span class="row-fat" style="font-size:.82rem">${brl(vfat)}</span>
+          <span class="row-qt">${num(vqt)} un</span>`;
+        vendsBody.appendChild(row);
+      }
+
+      // Toggle supervisor
+      supHeader.addEventListener('click', () => {
+        const open = vendsBody.classList.toggle('open');
+        supHeader.querySelector('.toggle').classList.toggle('open', open);
+      });
+
+      supEl.appendChild(supHeader);
+      supEl.appendChild(vendsBody);
+      body.appendChild(supEl);
+    }
+
+    // Toggle gerente
+    header.addEventListener('click', () => {
+      const open = body.classList.toggle('open');
+      header.querySelector('.toggle').classList.toggle('open', open);
+    });
+
+    gerEl.appendChild(header);
+    gerEl.appendChild(body);
+    tree.appendChild(gerEl);
+  }
+}
+
+// ── Render global ──────────────────────────────────────────────────────────
+function render() {
+  renderPills();
+  renderTotais();
+  renderTree();
+}
+
+document.getElementById('h-sub').textContent =
+  `Hierarquia Gerente → Supervisor → Vendedor · Atualizado em ${_d.atualizado_em}`;
+
+render();
+</script>
+</body>
+</html>

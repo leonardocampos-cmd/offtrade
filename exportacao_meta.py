@@ -458,11 +458,103 @@ with open(vendas_path, 'w', encoding='utf-8') as f:
 
 print(f"OK vendas_data.js gerado -> {vendas_path}")
 
+# ── Gera gerentes_data.js ─────────────────────────────────────────────────────
+
+def _query_hierarquia(schema):
+    s = schema.upper()
+    return f"""
+        SELECT
+            U.CODUSUR,
+            U.NOME           AS NOME_VENDEDOR,
+            S.CODSUPERVISOR,
+            S.NOME           AS NOME_SUPERVISOR,
+            G.CODGERENTE,
+            G.NOMEGERENTE
+        FROM {s}.PCUSUARI U
+        LEFT JOIN {s}.PCSUPERV  S ON U.CODSUPERVISOR = S.CODSUPERVISOR
+        LEFT JOIN {s}.PCGERENTE G ON S.CODGERENTE     = G.CODGERENTE
+        WHERE U.NOME LIKE '%OFF TRADE%'
+    """
+
+_hier_parts = []
+for _s, _e, _n in [
+    ("CRC",     engine,         "hier_CRC"),
+    ("thekings", engine_theking, "hier_thekings"),
+    ("CASTAS",  engine_castas,  "hier_CASTAS"),
+    ("GARRIDO", engine_garrido, "hier_GARRIDO"),
+    ("SPON",    engine_spon,    "hier_SPON"),
+]:
+    try:
+        _hier_parts.append(carregar_dados(_query_hierarquia(_s), _e, _n))
+    except Exception as _ex:
+        print(f"[AVISO] {_n} falhou ({str(_ex)[:80]}) — ignorado")
+
+if _hier_parts:
+    _hier = pd.concat(_hier_parts, ignore_index=True)
+    _hier['NOME_DISPLAY'] = _hier['NOME_VENDEDOR'].map(_oracle_to_display)
+    _hier = _hier[_hier['NOME_DISPLAY'].notna()].drop_duplicates(subset=['NOME_DISPLAY'])
+
+    _vh_hier = _vh.merge(
+        _hier[['NOME_DISPLAY', 'NOME_SUPERVISOR', 'NOMEGERENTE']],
+        left_on='VENDEDOR', right_on='NOME_DISPLAY', how='left',
+    )
+    _vh_hier['NOME_SUPERVISOR'] = _vh_hier['NOME_SUPERVISOR'].fillna('Sem Supervisor')
+    _vh_hier['NOMEGERENTE']     = _vh_hier['NOMEGERENTE'].fillna('Sem Gerente')
+
+    _ger_dict: dict = {}
+    for _, row in _vh_hier.iterrows():
+        ger  = str(row['NOMEGERENTE'])
+        sup  = str(row['NOME_SUPERVISOR'])
+        vend = str(row['VENDEDOR'])
+        mes  = str(row['MES_STR'])
+        fat  = float(row['VALOR'])
+        qt   = int(row['QT'])
+
+        g = _ger_dict.setdefault(ger, {'nome': ger, 'por_mes': {}, 'supervisores': {}})
+        gm = g['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
+        gm['fat'] = round(gm['fat'] + fat, 2); gm['qt'] += qt
+
+        s_ = g['supervisores'].setdefault(sup, {'nome': sup, 'por_mes': {}, 'vendedores': {}})
+        sm = s_['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
+        sm['fat'] = round(sm['fat'] + fat, 2); sm['qt'] += qt
+
+        v_ = s_['vendedores'].setdefault(vend, {'nome': vend, 'rca': _rcas_map.get(vend, ''), 'por_mes': {}})
+        vm = v_['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
+        vm['fat'] = round(vm['fat'] + fat, 2); vm['qt'] += qt
+
+    gerentes_out = []
+    for ger_data in sorted(_ger_dict.values(), key=lambda x: x['nome']):
+        sups_out = []
+        for sup_data in sorted(ger_data['supervisores'].values(), key=lambda x: x['nome']):
+            vends_out = sorted(
+                [{'nome': v['nome'], 'rca': v['rca'], 'por_mes': v['por_mes']}
+                 for v in sup_data['vendedores'].values()],
+                key=lambda x: x['nome']
+            )
+            sups_out.append({'nome': sup_data['nome'], 'por_mes': sup_data['por_mes'], 'vendedores': vends_out})
+        gerentes_out.append({'nome': ger_data['nome'], 'por_mes': ger_data['por_mes'], 'supervisores': sups_out})
+
+    gerentes_payload = {
+        'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
+        'meses':         _meses_str,
+        'gerentes':      gerentes_out,
+    }
+    js_ger = (
+        "// Gerado automaticamente\n\n"
+        f"const GERENTES_DATA = {json.dumps(gerentes_payload, ensure_ascii=False, indent=2)};\n"
+    )
+    ger_path = str(Path(__file__).parent / "gerentes_data.js")
+    with open(ger_path, 'w', encoding='utf-8') as f:
+        f.write(js_ger)
+    print(f"OK gerentes_data.js gerado — {len(gerentes_out)} gerentes")
+else:
+    print("[AVISO] hierarquia não disponível — gerentes_data.js não gerado")
+
 # ── Push para GitHub Pages ────────────────────────────────────────────────────
 
 import subprocess
 repo_dir = str(Path(__file__).parent)
-subprocess.run(["git", "-C", repo_dir, "add", "metas_data.js", "vendas_data.js"], check=True)
+subprocess.run(["git", "-C", repo_dir, "add", "metas_data.js", "vendas_data.js", "gerentes_data.js"], check=True)
 subprocess.run(["git", "-C", repo_dir, "commit", "-m",
                 f"Atualiza metas_data.js + vendas_data.js - {date.today().strftime('%d/%m/%Y')}"])
 subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
