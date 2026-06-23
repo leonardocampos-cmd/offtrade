@@ -1,13 +1,13 @@
 const AMARULA_DATA = {
-  "atualizado_em": "23/06/2026 17:46",
+  "atualizado_em": "23/06/2026 17:49",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
-  "total_vendedores": 41,
-  "total_positivacao": 169,
-  "total_faturamento": 83026.68,
+  "total_vendedores": 42,
+  "total_positivacao": 170,
+  "total_faturamento": 104602.68,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
@@ -42,15 +42,15 @@ const AMARULA_DATA = {
       "valor": 5
     },
     {
+      "vendedor": "FERNANDO CESAR",
+      "valor": 3
+    },
+    {
       "vendedor": "BARBARA CABRAL - OFF TRADE",
       "valor": 3
     },
     {
       "vendedor": "RAPHAEL SANTOS - OFF TRADE",
-      "valor": 3
-    },
-    {
-      "vendedor": "FERNANDO CESAR",
       "valor": 3
     },
     {
@@ -60,6 +60,10 @@ const AMARULA_DATA = {
     {
       "vendedor": "JOÃO VITOR BRAGA",
       "valor": 3
+    },
+    {
+      "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "valor": 2
     },
     {
       "vendedor": "AUGUSTO SILVA",
@@ -78,7 +82,15 @@ const AMARULA_DATA = {
       "valor": 2
     },
     {
+      "vendedor": "JULIANA SALGADO",
+      "valor": 2
+    },
+    {
       "vendedor": "LEANDRO SOUZA - OFF TRADE",
+      "valor": 2
+    },
+    {
+      "vendedor": "JOHNATTAN MATHEUS",
       "valor": 2
     },
     {
@@ -86,16 +98,8 @@ const AMARULA_DATA = {
       "valor": 2
     },
     {
-      "vendedor": "JULIANA SALGADO",
-      "valor": 2
-    },
-    {
-      "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
-      "valor": 2
-    },
-    {
-      "vendedor": "JOHNATTAN MATHEUS",
-      "valor": 2
+      "vendedor": "BEBIDA IN BOX",
+      "valor": 1
     },
     {
       "vendedor": "BIANCA RODRIGUES",
@@ -106,7 +110,7 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "BEBIDA IN BOX",
+      "vendedor": "KELLY RAMOS - OFF TRADE",
       "valor": 1
     },
     {
@@ -130,11 +134,11 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "JULIA PACIELLO",
+      "vendedor": "IASMIM NUNES ",
       "valor": 1
     },
     {
-      "vendedor": "IASMIM NUNES ",
+      "vendedor": "JULIA PACIELLO",
       "valor": 1
     },
     {
@@ -175,6 +179,10 @@ const AMARULA_DATA = {
     }
   ],
   "ranking_faturamento": [
+    {
+      "vendedor": "KELLY RAMOS - OFF TRADE",
+      "valor": 21576.0
+    },
     {
       "vendedor": "JORGE MACIEL - OFF TRADE",
       "valor": 14114.3
