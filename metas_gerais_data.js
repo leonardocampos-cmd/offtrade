@@ -1,21 +1,21 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "23/06/2026 15:04",
+  "atualizado_em": "23/06/2026 15:11",
   "mes": "Jun/26",
   "dias_corridos": 23,
   "dias_no_mes": 30,
   "dias_restantes": 7,
   "resumo": {
-    "fat": 7997117.82,
+    "fat": 8009370.42,
     "fat_ant": 6647616.3,
-    "pos": 1409,
+    "pos": 1414,
     "pos_ant": 1385
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 7997117.82,
+    "fat": 8009370.42,
     "fat_ant": 6647616.3,
-    "pct": 55.5,
-    "nec_dia": 914697.45
+    "pct": 55.6,
+    "nec_dia": 912947.08
   },
   "estados": [
     {
@@ -44,11 +44,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 706235.04,
+      "fat": 718487.64,
       "fat_ant": 377286.46,
-      "pos": 95,
-      "pct": 39.2,
-      "nec_dia": 156252.14,
+      "pos": 100,
+      "pct": 39.9,
+      "nec_dia": 154501.77,
       "pos_ant": 213
     },
     {
@@ -88,12 +88,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 860181.89,
+      "fat": 872434.49,
       "fat_ant": 1007519.49,
       "por_estado": {
         "RJ": 0.0,
         "SP": 1292.01,
-        "ES": 12993.61,
+        "ES": 25246.21,
         "MG": 845896.27
       }
     },
