@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "23/06/2026 11:06",
+  "atualizado_em": "23/06/2026 13:07",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -79793,6 +79793,96 @@ const VENDAS_SP_DATA = {
         "fat": 100000.0,
         "pos": 5.0,
         "fat_pernod": 10000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "ADRIANO VEZZANI": {
+      "Jun/26": {
+        "fat": null,
+        "pos": null,
+        "fat_pernod": null,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "ALEXANDRE TONON": {
+      "Jun/26": {
+        "fat": null,
+        "pos": null,
+        "fat_pernod": null,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "ANDERSON MOTTA": {
+      "Jun/26": {
+        "fat": null,
+        "pos": null,
+        "fat_pernod": null,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "BRYAN PALOPOLI": {
+      "Jun/26": {
+        "fat": null,
+        "pos": null,
+        "fat_pernod": null,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "CAROLINA SOUZA": {
+      "Jun/26": {
+        "fat": null,
+        "pos": null,
+        "fat_pernod": null,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "DOUGLAS TEIXEIRA": {
+      "Jun/26": {
+        "fat": null,
+        "pos": null,
+        "fat_pernod": null,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "EDUARDO COUTO": {
+      "Jun/26": {
+        "fat": null,
+        "pos": null,
+        "fat_pernod": null,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "FERNANDO BERTIN": {
+      "Jun/26": {
+        "fat": null,
+        "pos": null,
+        "fat_pernod": null,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "GILSON DE OLIVEIRA": {
+      "Jun/26": {
+        "fat": null,
+        "pos": null,
+        "fat_pernod": null,
+        "fat_crs": null,
+        "fat_essenza": null
+      }
+    },
+    "LUIZ RIGLER": {
+      "Jun/26": {
+        "fat": null,
+        "pos": null,
+        "fat_pernod": null,
         "fat_crs": null,
         "fat_essenza": null
       }
