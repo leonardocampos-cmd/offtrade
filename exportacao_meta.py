@@ -82,17 +82,19 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
           AND U.NOME LIKE '%OFF TRADE%'{extra_filial}{extra_estent}
     """
 
-_vh_parts = [
-    carregar_dados(_query_vendas_historico("CRC"),      engine,         "vendas_hist_CRC"),
-    carregar_dados(_query_vendas_historico("thekings"), engine_theking, "vendas_hist_thekings"),
+_VH_CONFIGS = [
+    ("CRC",     engine,         "vendas_hist_CRC",     "(1, 2, 4)", None,  "CRC"),
+    ("thekings",engine_theking, "vendas_hist_thekings","(1, 2, 4)", None,  "The Kings"),
+    ("CASTAS",  engine_castas,  "vendas_hist_CASTAS",  None,        None,  "Castas"),
+    ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None,        None,  "Garrido"),
+    ("SPON",    engine_spon,    "vendas_hist_SPON",    None,        None,  "SPON"),
 ]
-for _s, _e, _n, _fe in [
-    ("CASTAS", engine_castas,  "vendas_hist_CASTAS",  None),
-    ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None),
-    ("SPON",    engine_spon,    "vendas_hist_SPON",    None),
-]:
+_vh_parts = []
+for _s, _e, _n, _ff, _fe, _emp in _VH_CONFIGS:
     try:
-        _vh_parts.append(carregar_dados(_query_vendas_historico(_s, filtro_filial=None, filtro_estent=_fe), _e, _n))
+        _df = carregar_dados(_query_vendas_historico(_s, filtro_filial=_ff, filtro_estent=_fe), _e, _n)
+        _df['EMPRESA'] = _emp
+        _vh_parts.append(_df)
     except Exception as _ex:
         print(f"[AVISO] {_n} falhou — ignorado")
 _vh = pd.concat(_vh_parts, ignore_index=True)
@@ -476,18 +478,39 @@ def _query_hierarquia(schema):
         WHERE U.NOME LIKE '%OFF TRADE%'
     """
 
+def _query_hierarquia_basic(schema):
+    s = schema.upper()
+    return f"""
+        SELECT CODUSUR, NOME AS NOME_VENDEDOR,
+               NULL AS CODSUPERVISOR,
+               NULL AS NOME_SUPERVISOR,
+               NULL AS CODGERENTE,
+               NULL AS NOMEGERENTE
+        FROM {s}.PCUSUARI
+        WHERE NOME LIKE '%OFF TRADE%'
+    """
+
+_HIER_CONFIGS = [
+    ("CRC",     engine,         "hier_CRC",     "CRC"),
+    ("thekings",engine_theking, "hier_thekings","The Kings"),
+    ("CASTAS",  engine_castas,  "hier_CASTAS",  "Castas"),
+    ("GARRIDO", engine_garrido, "hier_GARRIDO", "Garrido"),
+    ("SPON",    engine_spon,    "hier_SPON",    "SPON"),
+]
+
 _hier_parts = []
-for _s, _e, _n in [
-    ("CRC",     engine,         "hier_CRC"),
-    ("thekings", engine_theking, "hier_thekings"),
-    ("CASTAS",  engine_castas,  "hier_CASTAS"),
-    ("GARRIDO", engine_garrido, "hier_GARRIDO"),
-    ("SPON",    engine_spon,    "hier_SPON"),
-]:
+for _s, _e, _n, _emp in _HIER_CONFIGS:
     try:
-        _hier_parts.append(carregar_dados(_query_hierarquia(_s), _e, _n))
-    except Exception as _ex:
-        print(f"[AVISO] {_n} falhou ({str(_ex)[:80]}) — ignorado")
+        _df = carregar_dados(_query_hierarquia(_s), _e, _n)
+        _df['EMPRESA'] = _emp
+        _hier_parts.append(_df)
+    except Exception:
+        try:
+            _df = carregar_dados(_query_hierarquia_basic(_s), _e, f"{_n}_basic")
+            _df['EMPRESA'] = _emp
+            _hier_parts.append(_df)
+        except Exception as _ex2:
+            print(f"[AVISO] {_n} falhou ({str(_ex2)[:80]}) — ignorado")
 
 if _hier_parts:
     _hier = pd.concat(_hier_parts, ignore_index=True)
@@ -495,14 +518,21 @@ if _hier_parts:
     _hier = _hier[_hier['NOME_DISPLAY'].notna()].drop_duplicates(subset=['NOME_DISPLAY'])
 
     _vh_hier = _vh.merge(
-        _hier[['NOME_DISPLAY', 'NOME_SUPERVISOR', 'NOMEGERENTE']],
+        _hier[['NOME_DISPLAY', 'NOME_SUPERVISOR', 'NOMEGERENTE', 'EMPRESA']],
         left_on='VENDEDOR', right_on='NOME_DISPLAY', how='left',
     )
     _vh_hier['NOME_SUPERVISOR'] = _vh_hier['NOME_SUPERVISOR'].fillna('Sem Supervisor')
     _vh_hier['NOMEGERENTE']     = _vh_hier['NOMEGERENTE'].fillna('Sem Gerente')
+    _vh_hier['EMPRESA']         = _vh_hier['EMPRESA'].fillna(_vh_hier['EMPRESA_x'] if 'EMPRESA_x' in _vh_hier.columns else _vh_hier.get('EMPRESA', 'Desconhecido'))
 
-    _ger_dict: dict = {}
+    # Empresa vem da coluna de vendas quando não há match na hierarquia
+    if 'EMPRESA_x' in _vh_hier.columns:
+        _vh_hier['EMPRESA'] = _vh_hier['EMPRESA_y'].fillna(_vh_hier['EMPRESA_x'])
+        _vh_hier.drop(columns=['EMPRESA_x', 'EMPRESA_y'], inplace=True)
+
+    _emp_dict: dict = {}
     for _, row in _vh_hier.iterrows():
+        emp  = str(row.get('EMPRESA', 'Desconhecido'))
         ger  = str(row['NOMEGERENTE'])
         sup  = str(row['NOME_SUPERVISOR'])
         vend = str(row['VENDEDOR'])
@@ -510,7 +540,11 @@ if _hier_parts:
         fat  = float(row['VALOR'])
         qt   = int(row['QT'])
 
-        g = _ger_dict.setdefault(ger, {'nome': ger, 'por_mes': {}, 'supervisores': {}})
+        e = _emp_dict.setdefault(emp, {'nome': emp, 'por_mes': {}, 'gerentes': {}})
+        em = e['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
+        em['fat'] = round(em['fat'] + fat, 2); em['qt'] += qt
+
+        g = e['gerentes'].setdefault(ger, {'nome': ger, 'por_mes': {}, 'supervisores': {}})
         gm = g['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
         gm['fat'] = round(gm['fat'] + fat, 2); gm['qt'] += qt
 
@@ -522,22 +556,25 @@ if _hier_parts:
         vm = v_['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
         vm['fat'] = round(vm['fat'] + fat, 2); vm['qt'] += qt
 
-    gerentes_out = []
-    for ger_data in sorted(_ger_dict.values(), key=lambda x: x['nome']):
-        sups_out = []
-        for sup_data in sorted(ger_data['supervisores'].values(), key=lambda x: x['nome']):
-            vends_out = sorted(
-                [{'nome': v['nome'], 'rca': v['rca'], 'por_mes': v['por_mes']}
-                 for v in sup_data['vendedores'].values()],
-                key=lambda x: x['nome']
-            )
-            sups_out.append({'nome': sup_data['nome'], 'por_mes': sup_data['por_mes'], 'vendedores': vends_out})
-        gerentes_out.append({'nome': ger_data['nome'], 'por_mes': ger_data['por_mes'], 'supervisores': sups_out})
+    empresas_out = []
+    for emp_data in sorted(_emp_dict.values(), key=lambda x: x['nome']):
+        gerentes_list = []
+        for ger_data in sorted(emp_data['gerentes'].values(), key=lambda x: x['nome']):
+            sups_out = []
+            for sup_data in sorted(ger_data['supervisores'].values(), key=lambda x: x['nome']):
+                vends_out = sorted(
+                    [{'nome': v['nome'], 'rca': v['rca'], 'por_mes': v['por_mes']}
+                     for v in sup_data['vendedores'].values()],
+                    key=lambda x: x['nome']
+                )
+                sups_out.append({'nome': sup_data['nome'], 'por_mes': sup_data['por_mes'], 'vendedores': vends_out})
+            gerentes_list.append({'nome': ger_data['nome'], 'por_mes': ger_data['por_mes'], 'supervisores': sups_out})
+        empresas_out.append({'nome': emp_data['nome'], 'por_mes': emp_data['por_mes'], 'gerentes': gerentes_list})
 
     gerentes_payload = {
         'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
         'meses':         _meses_str,
-        'gerentes':      gerentes_out,
+        'empresas':      empresas_out,
     }
     js_ger = (
         "// Gerado automaticamente\n\n"

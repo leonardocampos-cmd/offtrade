@@ -300,7 +300,7 @@ function render() {
     </div>`;
 
   const gerentesHtml = buildGerentesSection();
-  document.getElementById('app').innerHTML = resumoHtml + estadosHtml + industriasHtml + gerentesHtml;
+  document.getElementById('app').innerHTML = resumoHtml + estadosHtml + gerentesHtml + industriasHtml;
   mountGerentesTree();
 }
 
