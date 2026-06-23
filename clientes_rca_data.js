@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 17:34",
-  "total": 4334,
+  "atualizado_em": "23/06/2026 17:40",
+  "total": 4335,
   "clientes": [
     {
       "codcli": "31683",
@@ -39452,6 +39452,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "491",
       "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "40688",
+      "razao": "MICHELLE CARLA GONCALVES",
+      "fantasia": "ADEGA MADRI ME",
+      "bairro": "PARQUE MACEDO",
+      "cidade": "ITAQUAQUECETUBA",
+      "cnpj": "14.659.119/0001-85",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "461",
+      "nome_usur1": "SUELY SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
