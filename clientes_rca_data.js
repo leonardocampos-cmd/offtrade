@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 17:03",
-  "total": 4335,
+  "atualizado_em": "23/06/2026 17:09",
+  "total": 4334,
   "clientes": [
     {
       "codcli": "31683",
@@ -1206,20 +1206,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "93152",
-      "razao": "43.844.591 MIGUEL MARIO MARTINS DA SILVA",
-      "fantasia": "MIGUEL MARIO MARTINS DA SILVA",
-      "bairro": "GUADALUPE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "43.844.591/0001-96",
-      "estado": "RJ",
-      "ramo": "OUTROS",
-      "codusur1": "431",
-      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "93543",
