@@ -523,12 +523,13 @@ if _hier_parts:
     )
     _vh_hier['NOME_SUPERVISOR'] = _vh_hier['NOME_SUPERVISOR'].fillna('Sem Supervisor')
     _vh_hier['NOMEGERENTE']     = _vh_hier['NOMEGERENTE'].fillna('Sem Gerente')
-    _vh_hier['EMPRESA']         = _vh_hier['EMPRESA'].fillna(_vh_hier['EMPRESA_x'] if 'EMPRESA_x' in _vh_hier.columns else _vh_hier.get('EMPRESA', 'Desconhecido'))
 
-    # Empresa vem da coluna de vendas quando não há match na hierarquia
+    # Resolve EMPRESA: merge cria EMPRESA_x (vendas) e EMPRESA_y (hierarquia)
     if 'EMPRESA_x' in _vh_hier.columns:
         _vh_hier['EMPRESA'] = _vh_hier['EMPRESA_y'].fillna(_vh_hier['EMPRESA_x'])
         _vh_hier.drop(columns=['EMPRESA_x', 'EMPRESA_y'], inplace=True)
+    elif 'EMPRESA' not in _vh_hier.columns:
+        _vh_hier['EMPRESA'] = 'Desconhecido'
 
     _emp_dict: dict = {}
     for _, row in _vh_hier.iterrows():
