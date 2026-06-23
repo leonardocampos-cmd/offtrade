@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 15:12",
-  "total": 4327,
+  "atualizado_em": "23/06/2026 15:53",
+  "total": 4328,
   "clientes": [
     {
       "codcli": "31683",
@@ -7128,6 +7128,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
+    },
+    {
+      "codcli": "51261",
+      "razao": "ANTUNES DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "DISTRIBUIDORA ANTUNES",
+      "bairro": "JARDIM MUNHOZ",
+      "cidade": "GUARULHOS",
+      "cnpj": "44.534.012/0001-71",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "25287",
@@ -24456,20 +24470,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "37.739.403/0001-67",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "39316",
-      "razao": "GLEIZE SILVA DE ARAUJO 35456142805",
-      "fantasia": "GLEIZE SILVA DE ARAUJO",
-      "bairro": "JARDIM RUBI",
-      "cidade": "SOROCABA",
-      "cnpj": "24.169.622/0001-06",
-      "estado": "SP",
-      "ramo": "BAR",
       "codusur1": "588",
       "nome_usur1": "W.S",
       "codusur2": "",
@@ -59948,6 +59948,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "codusur1": "370",
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51263",
+      "razao": "WANDERLEY RICHE GARCIA 27647046829",
+      "fantasia": "WANDERLEY RICHE GARCIA",
+      "bairro": "CONJUNTO HABITACIONAL VIDA NOVA",
+      "cidade": "CAMPINAS",
+      "cnpj": "23.396.206/0001-88",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "470",
+      "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
