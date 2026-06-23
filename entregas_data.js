@@ -1,11 +1,36 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "23/06/2026 17:34",
+  "atualizado_em": "23/06/2026 17:39",
   "data_rota": "23.06",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "431001078",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 268.53,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 7,
+              "val": 230.45
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 1,
+              "val": 38.08
+            }
+          ]
+        },
         {
           "numped": "431001077",
           "numnota": "",
@@ -15298,6 +15323,26 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "159004919",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "ARMAZEM DEPOSITO E COMERCIO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 568.8,
+          "itens": [
+            {
+              "desc": "CACHACA YPIOCA BRASILIZAR CG OURO 965ML",
+              "qt": 36,
+              "val": 568.8
+            }
+          ]
+        },
+        {
           "numped": "159004916",
           "numnota": "",
           "data": "23/06/2026",
@@ -15399,26 +15444,6 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL MELANCIA 250ML CX C/24",
               "qt": 1,
               "val": 179.76
-            }
-          ]
-        },
-        {
-          "numped": "159004919",
-          "numnota": "",
-          "data": "23/06/2026",
-          "cliente": "ARMAZEM DEPOSITO E COMERCIO DE BEBIDAS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 568.8,
-          "itens": [
-            {
-              "desc": "CACHACA YPIOCA BRASILIZAR CG OURO 965ML",
-              "qt": 36,
-              "val": 568.8
             }
           ]
         },
@@ -38264,6 +38289,11 @@ const ENTREGAS_DATA = {
           "total": 5077.2,
           "itens": [
             {
+              "desc": "RUM BACARDI SUPERIOR 980ML",
+              "qt": 60,
+              "val": 2034.0
+            },
+            {
               "desc": "AMARULA C LIQUEUR 750 ML",
               "qt": 12,
               "val": 1066.8
@@ -38277,11 +38307,6 @@ const ENTREGAS_DATA = {
               "desc": "MARTINI ROSSO 750 ML",
               "qt": 24,
               "val": 933.6
-            },
-            {
-              "desc": "RUM BACARDI SUPERIOR 980ML",
-              "qt": 60,
-              "val": 2034.0
             }
           ]
         },
