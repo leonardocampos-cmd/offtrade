@@ -1,17 +1,17 @@
 const AMARULA_DATA = {
-  "atualizado_em": "22/06/2026 17:01",
+  "atualizado_em": "23/06/2026 09:01",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 41,
-  "total_positivacao": 163,
-  "total_faturamento": 78052.38,
+  "total_positivacao": 167,
+  "total_faturamento": 80585.48,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
-      "valor": 43
+      "valor": 45
     },
     {
       "vendedor": "JORGE MACIEL - OFF TRADE",
@@ -30,6 +30,10 @@ const AMARULA_DATA = {
       "valor": 8
     },
     {
+      "vendedor": "MARCUS VINICIUS",
+      "valor": 5
+    },
+    {
       "vendedor": "MICHELE ALCANTARA",
       "valor": 5
     },
@@ -39,10 +43,6 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "BARBARA CABRAL - OFF TRADE",
-      "valor": 3
-    },
-    {
-      "vendedor": "MARCUS VINICIUS",
       "valor": 3
     },
     {
@@ -189,11 +189,11 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
-      "valor": 9097.6
+      "valor": 9367.3
     },
     {
       "vendedor": "MARCUS VINICIUS",
-      "valor": 4171.2
+      "valor": 6256.8
     },
     {
       "vendedor": "LAIS POPPE VILLANOVA",
@@ -225,7 +225,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "INGRID ARAUJO",
-      "valor": 1244.6
+      "valor": 1422.4
     },
     {
       "vendedor": "RQ",
