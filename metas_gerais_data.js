@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "23/06/2026 10:03",
+  "atualizado_em": "23/06/2026 11:05",
   "mes": "Jun/26",
   "dias_corridos": 23,
   "dias_no_mes": 30,
