@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "23/06/2026 13:48",
+  "atualizado_em": "23/06/2026 14:02",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -6929,6 +6929,13 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "51249",
+        "cliente": "60.855.029 CAIO FELIPHE SANTOS SOUZA",
+        "bairro": "CONJUNTO RESIDENCIAL SANTO ÂNGELO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "50865",
         "cliente": "SUELLEN MARCONDES DA SILVA",
         "bairro": "PARQUE DOURADO",
@@ -11303,6 +11310,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "48677",
         "cliente": "BAR E LANCHES ESTADAO LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51250",
+        "cliente": "MERCADO E PADARIA BRESSIANI LTDA",
+        "bairro": "SERPA",
         "dtultcomp": "nan",
         "produtos": []
       }
