@@ -10640,5 +10640,307 @@
       "motivo": "Pendente de Baixa",
       "valor": "R$ 350,40"
     }
+  ],
+  "2026-06-23": [
+    {
+      "nf": "133",
+      "rca": 153,
+      "rca_nome": "ANGELO NEVES SUZART",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": "Taxa Outros 100.0% 2/2 NFs"
+    },
+    {
+      "nf": "143",
+      "rca": 153,
+      "rca_nome": "ANGELO NEVES SUZART",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": ""
+    },
+    {
+      "nf": "401985",
+      "rca": 153,
+      "rca_nome": "ANGELO NEVES SUZART",
+      "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+      "rota": "SSE7A76 / BAIXADA FLUMINENSE",
+      "responsavel": "Outros",
+      "motivo": "OUTROS",
+      "valor": "R$ 3.756,39"
+    },
+    {
+      "nf": "405325",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
+      "rota": "TTS7J46 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 407.699,40"
+    },
+    {
+      "nf": "404705",
+      "rca": 378,
+      "rca_nome": "FABIO VALOTTI",
+      "cliente": "E.F.DO VALE MERCEARIA",
+      "rota": "TUA4G43 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO",
+      "valor": "R$ 270,00"
+    },
+    {
+      "nf": "405289",
+      "rca": 431,
+      "rca_nome": "ADEILSON GONÇALVEZ",
+      "cliente": "HELENA TEMPEROS LTDA",
+      "rota": "SSA9A24 / ZONA OESTE",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 383,69"
+    },
+    {
+      "nf": "404987",
+      "rca": 431,
+      "rca_nome": "ADEILSON GONÇALVEZ",
+      "cliente": "55.064.852 MABEL PESTANA FERNANDA DE OLIVEIRA",
+      "rota": "SSA9A24 / ZONA OESTE",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 442,49"
+    },
+    {
+      "nf": "405270",
+      "rca": 110,
+      "rca_nome": "YAGO DOS ANJOS",
+      "cliente": "ZE SOLUCOES TECNOLOGICAS DE COMERCIO LTDA",
+      "rota": "TTX4A47 / ZONA NORTE",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 67.513,51"
+    },
+    {
+      "nf": "405258",
+      "rca": 110,
+      "rca_nome": "YAGO DOS ANJOS",
+      "cliente": "ZE SOLUCOES TECNOLOGICAS DE COMERCIO DE BEBIDAS LTDA",
+      "rota": "TUM2E95 / BAIXADA FLUMINENSE",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 32.615,51"
+    },
+    {
+      "nf": "405257",
+      "rca": 110,
+      "rca_nome": "YAGO DOS ANJOS",
+      "cliente": "ZE SOLUCOES TECNOLOGICAS DE COMERCIO DE BEBIDAS LTDA",
+      "rota": "TUM2E95 / BAIXADA FLUMINENSE",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 27.134,51"
+    },
+    {
+      "nf": "405259",
+      "rca": 110,
+      "rca_nome": "YAGO DOS ANJOS",
+      "cliente": "ZE SOLUCOES TECNOLOGICAS DE COMERCIO LTDA",
+      "rota": "TUM2E95 / BAIXADA FLUMINENSE",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 17.405,40"
+    },
+    {
+      "nf": "405260",
+      "rca": 110,
+      "rca_nome": "YAGO DOS ANJOS",
+      "cliente": "ZE SOLUCOES TECNOLOGICAS DE COMERCIO LTDA",
+      "rota": "TUM2E95 / BAIXADA FLUMINENSE",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 5.772,00"
+    },
+    {
+      "nf": "405011",
+      "rca": 110,
+      "rca_nome": "YAGO DOS ANJOS",
+      "cliente": "ZE SOLUCOES TECNOLOGICAS DE COMERCIO DE BEBIDAS LTDA",
+      "rota": "TUM2E95 / BAIXADA FLUMINENSE",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.797,60"
+    },
+    {
+      "nf": "403953",
+      "rca": 135,
+      "rca_nome": "INGRID ARAUJO",
+      "cliente": "FRANCISCO J P MARINS COMERCIO, IMPORTACAO E EXPORTACAO DE ME",
+      "rota": "LTG4A18 / ZONA NORTE",
+      "responsavel": "Outros",
+      "motivo": "OUTROS",
+      "valor": "R$ 16.629,60"
+    },
+    {
+      "nf": "405107",
+      "rca": 135,
+      "rca_nome": "INGRID ARAUJO",
+      "cliente": "52.046.115 MARIA EDNA BEZERRA DE SOUZA",
+      "rota": "LTG4A18 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA",
+      "valor": "R$ 275,60"
+    },
+    {
+      "nf": "405209",
+      "rca": 147,
+      "rca_nome": "THIAGO MENDES",
+      "cliente": "ROMULO MACHADO RIBEIRO 16161320789",
+      "rota": "TTI6D70 / ZONA OESTE",
+      "responsavel": "Cliente",
+      "motivo": "LOCAL FECHADO - NÃO ABRE HOJE",
+      "valor": "R$ 123,80"
+    },
+    {
+      "nf": "404648",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "DELL GASTRONOMIA DE BAR LTDA",
+      "rota": "LTG4A18 / ZONA NORTE",
+      "responsavel": "Cliente",
+      "motivo": "LOCAL FECHADO - NÃO ABRE HOJE",
+      "valor": "R$ 780,80"
+    },
+    {
+      "nf": "405253",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "ALESOM BAR DRUNKS PUB LTDA",
+      "rota": "TTI6D70 / ZONA OESTE",
+      "responsavel": "Cliente",
+      "motivo": "LOCAL FECHADO - NÃO ABRE HOJE",
+      "valor": "R$ 1.223,74"
+    },
+    {
+      "nf": "405345",
+      "rca": 176,
+      "rca_nome": "MICHELE ALCANTARA",
+      "cliente": "NICK\"S BAR E RESTAURANTE  LTDA",
+      "rota": "LTM4961 / ZONA SUL",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.631,70"
+    },
+    {
+      "nf": "404962",
+      "rca": 295,
+      "rca_nome": "JOÃO VITOR BRAGA",
+      "cliente": "SPA DO TENIS SERVICOS E COMERCIO LTDA",
+      "rota": "RJV2J20 / ZONA OESTE",
+      "responsavel": "Não Identificado",
+      "motivo": "Não Informado",
+      "valor": "R$ 301,60"
+    },
+    {
+      "nf": "405344",
+      "rca": 295,
+      "rca_nome": "JOÃO VITOR BRAGA",
+      "cliente": "BAR BEL PUB E ENTRETENIMENTO DE IPANEMA LTDA",
+      "rota": "LTM4961 / ZONA SUL",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 279,20"
+    },
+    {
+      "nf": "405342",
+      "rca": 295,
+      "rca_nome": "JOÃO VITOR BRAGA",
+      "cliente": "MORE SO GESTAO DE HOTEIS E HOSTEL LTDA",
+      "rota": "LTM4961 / ZONA SUL",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 569,70"
+    },
+    {
+      "nf": "405343",
+      "rca": 295,
+      "rca_nome": "JOÃO VITOR BRAGA",
+      "cliente": "BAR BEL PUB E ENTRETENIMENTO DE IPANEMA LTDA",
+      "rota": "LTM4961 / ZONA SUL",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 2.348,40"
+    },
+    {
+      "nf": "403586",
+      "rca": 297,
+      "rca_nome": "LUIZA FREIRE",
+      "cliente": "CALI GASTRO LOUNGE LTDA.",
+      "rota": "RJE5F31 / ZONA SUL",
+      "responsavel": "Outros",
+      "motivo": "OUTROS",
+      "valor": "R$ 2.406,70"
+    },
+    {
+      "nf": "405171",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "IMBYAMBYALA COMERCIO DE DESCARTAVEIS & BAZAR LTDA",
+      "rota": "TUA4G43 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA",
+      "valor": "R$ 807,20"
+    },
+    {
+      "nf": "403991",
+      "rca": 438,
+      "rca_nome": "TAMIRES GOMES",
+      "cliente": "INSTITUTO ANE FISCH LTDA",
+      "rota": "RJV2J20 / ZONA OESTE",
+      "responsavel": "Não Identificado",
+      "motivo": "Não Informado",
+      "valor": "R$ 326,40"
+    },
+    {
+      "nf": "405077",
+      "rca": 46,
+      "rca_nome": "THIAGO CANTISANI",
+      "cliente": "FERNANDO SOUZA COSTA FERREIRA 14391380790",
+      "rota": "SSE9J51 / CENTRO",
+      "responsavel": "Não Identificado",
+      "motivo": "Não Informado",
+      "valor": "R$ 1.277,41"
+    },
+    {
+      "nf": "405341",
+      "rca": 98,
+      "rca_nome": "CARLOS ARTHUR NETO",
+      "cliente": "SEDONA MICROCERVEJARIA E COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+      "rota": "LTM4961 / ZONA SUL",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 3.830,40"
+    },
+    {
+      "nf": "405346",
+      "rca": 219,
+      "rca_nome": "JULIA PACIELLO",
+      "cliente": "SPARK EXPERIENCES LTDA",
+      "rota": "SSA9A24 / ZONA OESTE",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 6.407,80"
+    },
+    {
+      "nf": "404645",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "MARTHA MACHADO BARROS 55188150778",
+      "rota": "LTG4A18 / ZONA NORTE",
+      "responsavel": "Não Identificado",
+      "motivo": "Não Informado",
+      "valor": "R$ 736,20"
+    }
   ]
 }
