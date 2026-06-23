@@ -1,32 +1,32 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "23/06/2026 17:45",
+  "atualizado_em": "23/06/2026 17:49",
   "mes": "Jun/26",
   "dias_corridos": 23,
   "dias_no_mes": 30,
   "dias_restantes": 7,
   "resumo": {
-    "fat": 8095367.51,
+    "fat": 8128625.51,
     "fat_ant": 6647616.3,
     "pos": 1443,
     "pos_ant": 1385
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 8095367.51,
+    "fat": 8128625.51,
     "fat_ant": 6647616.3,
-    "pct": 56.2,
-    "nec_dia": 900661.78
+    "pct": 56.4,
+    "nec_dia": 895910.64
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 2230533.05,
+      "fat": 2252109.05,
       "fat_ant": 1741433.55,
       "pos": 597,
-      "pct": 57.2,
-      "nec_dia": 238495.28,
+      "pct": 57.7,
+      "nec_dia": 235412.99,
       "pos_ant": 563
     },
     {
@@ -55,11 +55,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 944443.63,
+      "fat": 956125.63,
       "fat_ant": 1057176.78,
       "pos": 254,
-      "pct": 45.0,
-      "nec_dia": 165079.48,
+      "pct": 45.5,
+      "nec_dia": 163410.62,
       "pos_ant": 241
     }
   ],
@@ -252,6 +252,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "INTERFOOD",
+      "fat": 60664.34,
+      "fat_ant": 8659.42,
+      "por_estado": {
+        "RJ": 57593.8,
+        "SP": 3070.54,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
       "fantasia": "CRS BRANDS",
       "fat": 57433.55,
       "fat_ant": 0.0,
@@ -282,17 +293,6 @@ const METAS_GERAIS_DATA = {
         "SP": 568.0,
         "ES": 0.0,
         "MG": 38872.0
-      }
-    },
-    {
-      "fantasia": "INTERFOOD",
-      "fat": 39088.34,
-      "fat_ant": 8659.42,
-      "por_estado": {
-        "RJ": 36017.8,
-        "SP": 3070.54,
-        "ES": 0.0,
-        "MG": 0.0
       }
     },
     {
@@ -370,6 +370,17 @@ const METAS_GERAIS_DATA = {
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "MSLR",
+      "fat": 14622.7,
+      "fat_ant": 32925.74,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 0.0,
+        "ES": 0.0,
+        "MG": 14622.7
       }
     },
     {
@@ -502,17 +513,6 @@ const METAS_GERAIS_DATA = {
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "MSLR",
-      "fat": 2940.7,
-      "fat_ant": 32925.74,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 2940.7
       }
     },
     {
