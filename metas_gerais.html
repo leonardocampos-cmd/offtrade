@@ -305,59 +305,77 @@ function render() {
 }
 
 function buildGerentesSection() {
-  if (typeof GERENTES_DATA === 'undefined' || !GERENTES_DATA.gerentes.length) return '';
-  const mes = GERENTES_DATA.meses[0] || '';
-  const fatMes = (pm) => (pm[mes] || {}).fat || 0;
-  const qtMes  = (pm) => (pm[mes] || {}).qt  || 0;
+  if (typeof GERENTES_DATA === 'undefined' || !GERENTES_DATA.empresas || !GERENTES_DATA.empresas.length) return '';
+  const mes    = GERENTES_DATA.meses[0] || '';
+  const fatMes = pm => (pm[mes] || {}).fat || 0;
+  const qtMes  = pm => (pm[mes] || {}).qt  || 0;
   const numFmt = v => Number(v).toLocaleString('pt-BR');
 
-  const gerSorted = [...GERENTES_DATA.gerentes].sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes));
+  let idx = 0;
+  const empSorted = [...GERENTES_DATA.empresas].sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes));
 
-  const rows = gerSorted.map((ger, gi) => {
-    const fat = fatMes(ger.por_mes);
-    const qt  = qtMes(ger.por_mes);
+  const rows = empSorted.map(emp => {
+    const efat = fatMes(emp.por_mes);
+    const eqt  = qtMes(emp.por_mes);
+    const ei   = idx++;
 
-    const supRows = [...ger.supervisores]
-      .sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes))
-      .map((sup, si) => {
+    const gerRows = [...emp.gerentes].sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes)).map(ger => {
+      const gfat = fatMes(ger.por_mes);
+      const gqt  = qtMes(ger.por_mes);
+      const gi   = idx++;
+
+      const supRows = [...ger.supervisores].sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes)).map(sup => {
         const sfat = fatMes(sup.por_mes);
         const sqt  = qtMes(sup.por_mes);
+        const si   = idx++;
 
-        const vendRows = [...sup.vendedores]
-          .sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes))
-          .map(vend => {
-            const vfat = fatMes(vend.por_mes);
-            const vqt  = qtMes(vend.por_mes);
-            return `<div class="vend-row">
-              <span class="lv-vend">Vendedor</span>
-              ${vend.rca ? `<span class="vend-rca">${vend.rca}</span>` : ''}
-              <span class="ger-nome" style="font-weight:400">${vend.nome}</span>
-              <span class="ger-fat" style="font-size:.8rem">${brl(vfat)}</span>
-              <span class="ger-qt">${numFmt(vqt)} un</span>
-            </div>`;
-          }).join('');
+        const vendRows = [...sup.vendedores].sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes)).map(vend => {
+          const vfat = fatMes(vend.por_mes);
+          const vqt  = qtMes(vend.por_mes);
+          return `<div class="vend-row">
+            <span class="lv-vend">Vendedor</span>
+            ${vend.rca ? `<span class="vend-rca">${vend.rca}</span>` : ''}
+            <span class="ger-nome" style="font-weight:400">${vend.nome}</span>
+            <span class="ger-fat" style="font-size:.8rem">${brl(vfat)}</span>
+            <span class="ger-qt">${numFmt(vqt)} un</span>
+          </div>`;
+        }).join('');
 
         return `<div class="sup-row">
-          <div class="sup-header" data-target="vends-${gi}-${si}">
+          <div class="sup-header" data-target="t${si}">
             <span class="ger-toggle">▶</span>
             <span class="lv-sup">Supervisor</span>
             <span class="ger-nome">${sup.nome}</span>
             <span class="ger-fat">${brl(sfat)}</span>
             <span class="ger-qt">${numFmt(sqt)} un</span>
           </div>
-          <div class="vends-body" id="vends-${gi}-${si}">${vendRows}</div>
+          <div class="vends-body" id="t${si}">${vendRows}</div>
         </div>`;
       }).join('');
 
+      return `<div class="sup-row">
+        <div class="sup-header" data-target="t${gi}">
+          <span class="ger-toggle">▶</span>
+          <span class="lv-ger">Gerente</span>
+          <span class="ger-nome">${ger.nome}</span>
+          <span class="ger-fat">${brl(gfat)}</span>
+          <span class="ger-qt">${numFmt(gqt)} un</span>
+        </div>
+        <div class="sups-body" id="t${gi}">${supRows}</div>
+      </div>`;
+    }).join('');
+
     return `<div class="ger-row">
-      <div class="ger-header" data-target="sups-${gi}">
+      <div class="ger-header" data-target="t${ei}">
         <span class="ger-toggle">▶</span>
-        <span class="lv-ger">Gerente</span>
-        <span class="ger-nome">${ger.nome}</span>
-        <span class="ger-fat">${brl(fat)}</span>
-        <span class="ger-qt">${numFmt(qt)} un</span>
+        <span style="font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;
+                     color:#22c55e;background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.25);
+                     border-radius:4px;padding:1px 5px;flex-shrink:0">Empresa</span>
+        <span class="ger-nome">${emp.nome}</span>
+        <span class="ger-fat">${brl(efat)}</span>
+        <span class="ger-qt">${numFmt(eqt)} un</span>
       </div>
-      <div class="sups-body" id="sups-${gi}">${supRows}</div>
+      <div class="sups-body" id="t${ei}">${gerRows}</div>
     </div>`;
   }).join('');
 

@@ -83,6 +83,9 @@
     .toggle { font-size: .8rem; color: var(--muted); width: 16px; flex-shrink: 0; transition: transform .2s; }
     .toggle.open { transform: rotate(90deg); }
 
+    .level-emp  { font-size: .6rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
+                  color: var(--green); background: rgba(34,197,94,.1); border: 1px solid rgba(34,197,94,.25);
+                  border-radius: 4px; padding: 2px 6px; flex-shrink: 0; }
     .level-ger  { font-size: .6rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
                   color: var(--accent); background: rgba(245,197,24,.1); border: 1px solid rgba(245,197,24,.25);
                   border-radius: 4px; padding: 2px 6px; flex-shrink: 0; }
@@ -179,10 +182,12 @@ function renderPills() {
 
 // ── Totalizador ────────────────────────────────────────────────────────────
 function renderTotais() {
-  const fatTotal = _d.gerentes.reduce((s, g) => s + fatMes(g.por_mes, mesSel), 0);
-  const qtTotal  = _d.gerentes.reduce((s, g) => s + qtMes(g.por_mes, mesSel), 0);
-  const nVends   = _d.gerentes.reduce((s, g) =>
-    s + g.supervisores.reduce((ss, sup) => ss + sup.vendedores.length, 0), 0);
+  const empresas = _d.empresas || [];
+  const fatTotal = empresas.reduce((s, e) => s + fatMes(e.por_mes, mesSel), 0);
+  const qtTotal  = empresas.reduce((s, e) => s + qtMes(e.por_mes, mesSel), 0);
+  const nVends   = empresas.reduce((s, e) =>
+    s + e.gerentes.reduce((sg, g) =>
+      sg + g.supervisores.reduce((ss, sup) => ss + sup.vendedores.length, 0), 0), 0);
 
   document.getElementById('totais-row').innerHTML = `
     <div class="totais-card">
@@ -200,88 +205,109 @@ function renderTotais() {
 }
 
 // ── Árvore ─────────────────────────────────────────────────────────────────
+function makeToggle(btn, target) {
+  btn.addEventListener('click', () => {
+    const open = target.classList.toggle('open');
+    btn.querySelector('.toggle').classList.toggle('open', open);
+  });
+}
+
 function renderTree() {
   const tree = document.getElementById('tree');
   tree.innerHTML = '';
 
-  const gerSorted = [..._d.gerentes].sort((a, b) => fatMes(b.por_mes, mesSel) - fatMes(a.por_mes, mesSel));
+  const empresas = [...(_d.empresas || [])].sort((a, b) => fatMes(b.por_mes, mesSel) - fatMes(a.por_mes, mesSel));
 
-  for (const ger of gerSorted) {
-    const fat = fatMes(ger.por_mes, mesSel);
-    const qt  = qtMes(ger.por_mes, mesSel);
+  for (const emp of empresas) {
+    const efat = fatMes(emp.por_mes, mesSel);
+    const eqt  = qtMes(emp.por_mes, mesSel);
 
-    const gerEl = document.createElement('div');
-    gerEl.className = 'row-ger';
+    const empEl = document.createElement('div');
+    empEl.className = 'row-ger';
 
-    const header = document.createElement('div');
-    header.className = 'row-ger-header';
-    header.innerHTML = `
+    const empHeader = document.createElement('div');
+    empHeader.className = 'row-ger-header';
+    empHeader.innerHTML = `
       <span class="toggle">▶</span>
-      <span class="level-ger">Gerente</span>
-      <span class="row-nome">${ger.nome}</span>
-      <span class="row-fat">${brl(fat)}</span>
-      <span class="row-qt">${num(qt)} un</span>`;
+      <span class="level-emp">Empresa</span>
+      <span class="row-nome">${emp.nome}</span>
+      <span class="row-fat">${brl(efat)}</span>
+      <span class="row-qt">${num(eqt)} un</span>`;
 
-    const body = document.createElement('div');
-    body.className = 'sups-body';
+    const empBody = document.createElement('div');
+    empBody.className = 'sups-body';
 
-    // Supervisores
-    const supSorted = [...ger.supervisores].sort((a, b) => fatMes(b.por_mes, mesSel) - fatMes(a.por_mes, mesSel));
-    for (const sup of supSorted) {
-      const sfat = fatMes(sup.por_mes, mesSel);
-      const sqt  = qtMes(sup.por_mes, mesSel);
+    const gerSorted = [...emp.gerentes].sort((a, b) => fatMes(b.por_mes, mesSel) - fatMes(a.por_mes, mesSel));
+    for (const ger of gerSorted) {
+      const fat = fatMes(ger.por_mes, mesSel);
+      const qt  = qtMes(ger.por_mes, mesSel);
 
-      const supEl = document.createElement('div');
-      supEl.className = 'row-sup';
+      const gerEl = document.createElement('div');
+      gerEl.className = 'row-sup';
 
-      const supHeader = document.createElement('div');
-      supHeader.className = 'row-sup-header';
-      supHeader.innerHTML = `
+      const gerHeader = document.createElement('div');
+      gerHeader.className = 'row-sup-header';
+      gerHeader.innerHTML = `
         <span class="toggle">▶</span>
-        <span class="level-sup">Supervisor</span>
-        <span class="row-nome">${sup.nome}</span>
-        <span class="row-fat">${brl(sfat)}</span>
-        <span class="row-qt">${num(sqt)} un</span>`;
+        <span class="level-ger">Gerente</span>
+        <span class="row-nome">${ger.nome}</span>
+        <span class="row-fat">${brl(fat)}</span>
+        <span class="row-qt">${num(qt)} un</span>`;
 
-      const vendsBody = document.createElement('div');
-      vendsBody.className = 'vends-body';
+      const gerBody = document.createElement('div');
+      gerBody.className = 'sups-body';
 
-      // Vendedores
-      const vendSorted = [...sup.vendedores].sort((a, b) => fatMes(b.por_mes, mesSel) - fatMes(a.por_mes, mesSel));
-      for (const vend of vendSorted) {
-        const vfat = fatMes(vend.por_mes, mesSel);
-        const vqt  = qtMes(vend.por_mes, mesSel);
-        const row = document.createElement('div');
-        row.className = 'row-vend';
-        row.innerHTML = `
-          <span class="level-vend">Vendedor</span>
-          ${vend.rca ? `<span class="vend-rca">${vend.rca}</span>` : ''}
-          <span class="row-nome" style="font-weight:400">${vend.nome}</span>
-          <span class="row-fat" style="font-size:.82rem">${brl(vfat)}</span>
-          <span class="row-qt">${num(vqt)} un</span>`;
-        vendsBody.appendChild(row);
+      const supSorted = [...ger.supervisores].sort((a, b) => fatMes(b.por_mes, mesSel) - fatMes(a.por_mes, mesSel));
+      for (const sup of supSorted) {
+        const sfat = fatMes(sup.por_mes, mesSel);
+        const sqt  = qtMes(sup.por_mes, mesSel);
+
+        const supEl = document.createElement('div');
+        supEl.className = 'row-sup';
+
+        const supHeader = document.createElement('div');
+        supHeader.className = 'row-sup-header';
+        supHeader.innerHTML = `
+          <span class="toggle">▶</span>
+          <span class="level-sup">Supervisor</span>
+          <span class="row-nome">${sup.nome}</span>
+          <span class="row-fat">${brl(sfat)}</span>
+          <span class="row-qt">${num(sqt)} un</span>`;
+
+        const vendsBody = document.createElement('div');
+        vendsBody.className = 'vends-body';
+
+        const vendSorted = [...sup.vendedores].sort((a, b) => fatMes(b.por_mes, mesSel) - fatMes(a.por_mes, mesSel));
+        for (const vend of vendSorted) {
+          const vfat = fatMes(vend.por_mes, mesSel);
+          const vqt  = qtMes(vend.por_mes, mesSel);
+          const row = document.createElement('div');
+          row.className = 'row-vend';
+          row.innerHTML = `
+            <span class="level-vend">Vendedor</span>
+            ${vend.rca ? `<span class="vend-rca">${vend.rca}</span>` : ''}
+            <span class="row-nome" style="font-weight:400">${vend.nome}</span>
+            <span class="row-fat" style="font-size:.82rem">${brl(vfat)}</span>
+            <span class="row-qt">${num(vqt)} un</span>`;
+          vendsBody.appendChild(row);
+        }
+
+        makeToggle(supHeader, vendsBody);
+        supEl.appendChild(supHeader);
+        supEl.appendChild(vendsBody);
+        gerBody.appendChild(supEl);
       }
 
-      // Toggle supervisor
-      supHeader.addEventListener('click', () => {
-        const open = vendsBody.classList.toggle('open');
-        supHeader.querySelector('.toggle').classList.toggle('open', open);
-      });
-
-      supEl.appendChild(supHeader);
-      supEl.appendChild(vendsBody);
-      body.appendChild(supEl);
+      makeToggle(gerHeader, gerBody);
+      gerEl.appendChild(gerHeader);
+      gerEl.appendChild(gerBody);
+      empBody.appendChild(gerEl);
     }
 
-    // Toggle gerente
-    header.addEventListener('click', () => {
-      const open = body.classList.toggle('open');
-      header.querySelector('.toggle').classList.toggle('open', open);
-    });
-
-    gerEl.appendChild(header);
-    gerEl.appendChild(body);
-    tree.appendChild(gerEl);
+    makeToggle(empHeader, empBody);
+    empEl.appendChild(empHeader);
+    empEl.appendChild(empBody);
+    tree.appendChild(empEl);
   }
 }
 
