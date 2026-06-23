@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "23/06/2026 10:04",
+  "atualizado_em": "23/06/2026 10:26",
   "data_rota": "23.06",
   "vendedores": [
     {
@@ -19399,6 +19399,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "379001132",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "MERCADO E PADARIA BOLIVAS DE MESQUITA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 276.0,
+          "itens": [
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+              "qt": 24,
+              "val": 276.0
+            }
+          ]
+        },
         {
           "numped": "379001131",
           "numnota": "",
