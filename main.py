@@ -136,12 +136,12 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "alerta_logistica_rj.py"],
-                capture_output=True, text=True
+                capture_output=True
             )
-            print(result.stdout)
+            print(result.stdout.decode("utf-8", errors="replace"))
             if result.returncode != 0:
                 print("[AVISO] alerta_logistica_rj falhou — ignorado, pipeline continua.")
-                print(result.stderr)
+                print(result.stderr.decode("utf-8", errors="replace"))
         except Exception:
             print("[AVISO] alerta_logistica_rj falhou — ignorado, pipeline continua.")
             traceback.print_exc()

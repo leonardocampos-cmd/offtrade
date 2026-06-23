@@ -11,11 +11,14 @@ Fluxo:
 """
 import os
 import re
+import sys
 import json
 import base64
 import subprocess
 from pathlib import Path
 from datetime import date, timedelta
+
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 from bs4 import BeautifulSoup
 from google.oauth2.credentials import Credentials
@@ -391,7 +394,7 @@ def main():
             (h["value"] for h in msg["payload"]["headers"] if h["name"].lower() == "subject"),
             "",
         )
-        print(f"\n→ {subject}")
+        print(f"\n-> {subject}")
 
         body, mime = _extract_body(msg["payload"])
 
