@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 15:53",
-  "total": 4328,
+  "atualizado_em": "23/06/2026 16:00",
+  "total": 4329,
   "clientes": [
     {
       "codcli": "31683",
@@ -60216,6 +60216,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51264",
+      "razao": "WJ SUPERMERCADO BARRETOS LTDA",
+      "fantasia": "CASA DE CARNES BARRETOS",
+      "bairro": "JOÃO ARANHA",
+      "cidade": "PAULINIA",
+      "cnpj": "13.602.122/0001-08",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "470",
+      "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "49752",
