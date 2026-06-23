@@ -181,6 +181,7 @@
     .td-produto { font-weight: 500; line-height: 1.35; }
     .td-cli     { display: block; font-size: .7rem; color: var(--muted); margin-top: 2px; }
     .td-forn    { font-size: .78rem; color: var(--accent); font-weight: 600; }
+    .td-vend    { font-size: .76rem; color: var(--muted); }
     .td-r       { text-align: right; font-variant-numeric: tabular-nums; }
     .td-valor   { text-align: right; font-weight: 600; color: var(--text); font-variant-numeric: tabular-nums; }
     .empty      { padding: 48px; text-align: center; color: var(--muted); font-size: .9rem; }
@@ -238,6 +239,21 @@
     </div>
   </div>
 
+  <!-- Vendedor multi-select dropdown -->
+  <div class="forn-wrap" id="vend-wrap">
+    <button class="forn-btn" id="vend-btn" type="button">
+      <span id="vend-btn-label">Vendedor</span>
+      <span class="badge" id="vend-badge" style="display:none"></span>
+      <span class="forn-chevron">▼</span>
+    </button>
+    <div class="forn-dropdown" id="vend-dropdown">
+      <div class="forn-dd-search">
+        <input type="text" id="vend-dd-search" placeholder="Filtrar vendedores…">
+      </div>
+      <div id="vend-dd-list"></div>
+    </div>
+  </div>
+
   <!-- Busca produto -->
   <input class="ctrl-input" id="search" type="text" placeholder="🔍  Buscar produto…">
 
@@ -261,6 +277,7 @@
         <th data-k="data_s"     onclick="sortBy('data_s')">Data</th>
         <th data-k="produto"    onclick="sortBy('produto')">Produto</th>
         <th data-k="fornecedor" onclick="sortBy('fornecedor')">Fornecedor</th>
+        <th data-k="vendedor"   onclick="sortBy('vendedor')">Vendedor</th>
         <th data-k="qt"         onclick="sortBy('qt')"    class="r">Qtd</th>
         <th data-k="valor"      onclick="sortBy('valor')" class="r">Valor</th>
       </tr>
@@ -273,16 +290,21 @@
 // ── Flatten ────────────────────────────────────────────────────────────────────
 const _d     = VENDAS_DATA;
 const MESES3 = _d.meses.slice(0, 3);
+const rcasMap = _d.rcas || {};
 
 const ALL = [];
-for (const [, porMes] of Object.entries(_d.por_vendedor)) {
+for (const [vendedor, porMes] of Object.entries(_d.por_vendedor)) {
+  const rca = rcasMap[vendedor] || '';
   for (const [mes, itens] of Object.entries(porMes)) {
     if (!MESES3.includes(mes)) continue;
     for (const it of itens) {
       ALL.push({
         mes,
+        vendedor,
+        rca,
         data:       it.data,
         data_s:     it.data.split('/').reverse().join(''),
+        codcli:     it.codcli  || '',
         produto:    it.produto  || '',
         cliente:    it.cliente  || '',
         fornecedor: (it.fantasia || '').trim() || '—',
@@ -294,13 +316,15 @@ for (const [, porMes] of Object.entries(_d.por_vendedor)) {
 }
 
 const ALL_FORNS = [...new Set(ALL.map(r => r.fornecedor))].sort();
+const ALL_VENDS = [...new Set(ALL.map(r => r.vendedor))].sort();
 
 // ── Estado ─────────────────────────────────────────────────────────────────────
-let stForns  = new Set(); // vazio = todos
-let stMeses  = new Set(); // vazio = todos
-let stSearch = '';
-let stSortK  = 'data_s';
-let stSortA  = false;
+let stForns     = new Set();
+let stVendedores = new Set();
+let stMeses     = new Set();
+let stSearch    = '';
+let stSortK     = 'data_s';
+let stSortA     = false;
 
 // ── Helpers ────────────────────────────────────────────────────────────────────
 const brl = v => 'R$ ' + v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -308,11 +332,12 @@ const num = v => Number(v).toLocaleString('pt-BR');
 
 function filteredRows() {
   let rows = ALL;
-  if (stMeses.size)  rows = rows.filter(r => stMeses.has(r.mes));
-  if (stForns.size)  rows = rows.filter(r => stForns.has(r.fornecedor));
+  if (stMeses.size)      rows = rows.filter(r => stMeses.has(r.mes));
+  if (stVendedores.size) rows = rows.filter(r => stVendedores.has(r.vendedor));
+  if (stForns.size)      rows = rows.filter(r => stForns.has(r.fornecedor));
   if (stSearch) {
     const q = stSearch.toLowerCase();
-    rows = rows.filter(r => r.produto.toLowerCase().includes(q));
+    rows = rows.filter(r => r.produto.toLowerCase().includes(q) || r.codcli.includes(q) || r.cliente.toLowerCase().includes(q));
   }
   return rows;
 }
@@ -354,6 +379,62 @@ function renderPills() {
       refresh();
     };
     container.appendChild(p);
+  }
+}
+
+// ── Vendedor dropdown ─────────────────────────────────────────────────────────
+const vendLabel = v => rcasMap[v] ? `${v} (${rcasMap[v]})` : v;
+let ddVendSearch = '';
+
+function buildVendDropdown() {
+  const list = document.getElementById('vend-dd-list');
+  list.innerHTML = '';
+
+  const allItem = document.createElement('div');
+  allItem.className = 'forn-dd-item all-item';
+  const cbAll = document.createElement('input');
+  cbAll.type = 'checkbox';
+  cbAll.checked = stVendedores.size === 0;
+  cbAll.onchange = () => { stVendedores.clear(); refresh(); buildVendDropdown(); };
+  allItem.appendChild(cbAll);
+  allItem.appendChild(document.createTextNode('Todos'));
+  allItem.onclick = e => { if (e.target !== cbAll) { cbAll.checked = true; cbAll.onchange(); } };
+  list.appendChild(allItem);
+
+  const q = ddVendSearch.toLowerCase();
+  const visible = q ? ALL_VENDS.filter(v => vendLabel(v).toLowerCase().includes(q)) : ALL_VENDS;
+
+  for (const v of visible) {
+    const item = document.createElement('div');
+    item.className = 'forn-dd-item';
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.checked = stVendedores.has(v);
+    cb.onchange = () => {
+      if (cb.checked) stVendedores.add(v); else stVendedores.delete(v);
+      refresh();
+      updateVendBtn();
+    };
+    item.appendChild(cb);
+    item.appendChild(document.createTextNode(vendLabel(v)));
+    item.onclick = e => { if (e.target !== cb) { cb.checked = !cb.checked; cb.onchange(); } };
+    list.appendChild(item);
+  }
+}
+
+function updateVendBtn() {
+  const btn   = document.getElementById('vend-btn');
+  const label = document.getElementById('vend-btn-label');
+  const badge = document.getElementById('vend-badge');
+  if (stVendedores.size === 0) {
+    label.textContent = 'Vendedor';
+    badge.style.display = 'none';
+    btn.classList.remove('has-filter');
+  } else {
+    label.textContent = stVendedores.size === 1 ? vendLabel([...stVendedores][0]) : 'Vendedor';
+    badge.textContent = stVendedores.size;
+    badge.style.display = stVendedores.size > 1 ? '' : 'none';
+    btn.classList.add('has-filter');
   }
 }
 
@@ -426,6 +507,14 @@ function renderTags() {
     row.appendChild(t);
   }
 
+  for (const v of stVendedores) {
+    const t = document.createElement('div');
+    t.className = 'tag';
+    t.innerHTML = `${vendLabel(v)} <span class="tag-x" title="Remover">×</span>`;
+    t.querySelector('.tag-x').onclick = () => { stVendedores.delete(v); refresh(); };
+    row.appendChild(t);
+  }
+
   for (const f of stForns) {
     const t = document.createElement('div');
     t.className = 'tag';
@@ -467,15 +556,16 @@ function renderTable() {
 
   const tbody = document.getElementById('tbody');
   if (!rows.length) {
-    tbody.innerHTML = `<tr><td colspan="5" class="empty">Nenhum resultado encontrado</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="6" class="empty">Nenhum resultado encontrado</td></tr>`;
     return;
   }
 
   tbody.innerHTML = rows.map(r => `
     <tr>
       <td class="td-data">${r.data}</td>
-      <td class="td-produto">${r.produto}<span class="td-cli">${r.cliente}</span></td>
+      <td class="td-produto">${r.produto}<span class="td-cli">${r.codcli ? r.codcli + ' · ' : ''}${r.cliente}</span></td>
       <td><span class="td-forn">${r.fornecedor}</span></td>
+      <td class="td-vend">${vendLabel(r.vendedor)}</td>
       <td class="td-r">${num(r.qt)}</td>
       <td class="td-valor">${brl(r.valor)}</td>
     </tr>
@@ -495,6 +585,8 @@ function sortBy(k) {
 function refresh() {
   renderCard();
   renderPills();
+  buildVendDropdown();
+  updateVendBtn();
   buildFornDropdown();
   updateFornBtn();
   renderTags();
@@ -526,11 +618,35 @@ document.getElementById('forn-dd-search').addEventListener('input', e => {
 
 // ── Limpar ─────────────────────────────────────────────────────────────────────
 document.getElementById('btn-clear').addEventListener('click', () => {
-  stForns.clear(); stMeses.clear(); stSearch = '';
+  stForns.clear(); stVendedores.clear(); stMeses.clear(); stSearch = '';
   document.getElementById('search').value = '';
-  ddSearch = '';
+  ddSearch = ''; ddVendSearch = '';
   document.getElementById('forn-dd-search').value = '';
+  document.getElementById('vend-dd-search').value = '';
   refresh();
+});
+
+// ── Vendedor dropdown open/close ──────────────────────────────────────────────
+const vendBtn = document.getElementById('vend-btn');
+const vendDd  = document.getElementById('vend-dropdown');
+
+vendBtn.addEventListener('click', e => {
+  e.stopPropagation();
+  const open = vendDd.classList.toggle('open');
+  vendBtn.classList.toggle('open', open);
+  if (open) { document.getElementById('vend-dd-search').focus(); }
+});
+
+document.addEventListener('click', e => {
+  if (!document.getElementById('vend-wrap').contains(e.target)) {
+    vendDd.classList.remove('open');
+    vendBtn.classList.remove('open');
+  }
+});
+
+document.getElementById('vend-dd-search').addEventListener('input', e => {
+  ddVendSearch = e.target.value;
+  buildVendDropdown();
 });
 
 // ── Search ─────────────────────────────────────────────────────────────────────
@@ -550,8 +666,8 @@ function exportCSV() {
 
   const esc = v => '"' + String(v).replace(/"/g, '""') + '"';
   const lines = [
-    ['Data', 'Produto', 'Cliente', 'Fornecedor', 'Qtd', 'Valor'].map(esc).join(';'),
-    ...rows.map(r => [r.data, r.produto, r.cliente, r.fornecedor, r.qt, r.valor].map(esc).join(';'))
+    ['Data', 'CodCli', 'Cliente', 'Produto', 'Fornecedor', 'Vendedor', 'RCA', 'Qtd', 'Valor'].map(esc).join(';'),
+    ...rows.map(r => [r.data, r.codcli, r.cliente, r.produto, r.fornecedor, r.vendedor, r.rca, r.qt, r.valor].map(esc).join(';'))
   ];
 
   const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8;' });

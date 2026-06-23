@@ -436,10 +436,13 @@ for _, row in _vh.iterrows():
         'valor':   float(row['VALOR']),
     })
 
+_rcas_map = {v['nome']: v['rca'] for v in vendedores_out}
+
 vendas_payload = {
     'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
     'meses':         _meses_str,
     'por_vendedor':  _por_vendedor_hist,
+    'rcas':          _rcas_map,
 }
 
 js_vendas = (
