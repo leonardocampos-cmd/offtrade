@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "23/06/2026 17:01",
+  "atualizado_em": "23/06/2026 17:08",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -777,16 +777,6 @@ const VENDAS_DATA = {
           "data": "22/01/2026",
           "codcli": "2139",
           "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 58.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "2139",
-          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
           "produto": "WHISKY JACK DANIELS APPLE 1L - EV",
           "fantasia": "SUPERMIX",
           "qt": 1,
@@ -811,6 +801,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 1,
           "valor": 142.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "2139",
+          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 58.8,
           "tipo": "Venda"
         },
         {
@@ -1017,16 +1017,6 @@ const VENDAS_DATA = {
           "data": "07/01/2026",
           "codcli": "2339",
           "cliente": "AUTO POSTO BOAVISTA LTDA",
-          "produto": "LICOR BALLENA MORANGO 750 ML",
-          "fantasia": "BALLENA",
-          "qt": 1,
-          "valor": 105.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/01/2026",
-          "codcli": "2339",
-          "cliente": "AUTO POSTO BOAVISTA LTDA",
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -1051,6 +1041,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/01/2026",
+          "codcli": "2339",
+          "cliente": "AUTO POSTO BOAVISTA LTDA",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 1,
+          "valor": 105.9,
           "tipo": "Venda"
         },
         {
@@ -2727,16 +2727,6 @@ const VENDAS_DATA = {
           "data": "22/01/2026",
           "codcli": "15951",
           "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
-          "produto": "COQUETEL PINK MOON 12X600ML - PET",
-          "fantasia": "COMARY",
-          "qt": 1,
-          "valor": 70.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/01/2026",
-          "codcli": "15951",
-          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
           "produto": "ST PIERRE LATA 270 ML PINK LEMON CX C/24",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -2761,6 +2751,16 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 1,
           "valor": 26.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/01/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "COQUETEL PINK MOON 12X600ML - PET",
+          "fantasia": "COMARY",
+          "qt": 1,
+          "valor": 70.9,
           "tipo": "Venda"
         },
         {
@@ -3617,16 +3617,6 @@ const VENDAS_DATA = {
           "data": "15/01/2026",
           "codcli": "76248",
           "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
-          "produto": "ST PIERRE LATA 270ML RED MINT CX C/ 24",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 89.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/01/2026",
-          "codcli": "76248",
-          "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
           "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 2,
@@ -3648,6 +3638,16 @@ const VENDAS_DATA = {
           "codcli": "76248",
           "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
           "produto": "ST PIERRE LATA 270 ML PINK LEMON CX C/24",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/01/2026",
+          "codcli": "76248",
+          "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
+          "produto": "ST PIERRE LATA 270ML RED MINT CX C/ 24",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 89.9,
@@ -3867,16 +3867,6 @@ const VENDAS_DATA = {
           "data": "16/01/2026",
           "codcli": "74671",
           "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
-          "produto": "VODKA ABSOLUT - 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 45.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/01/2026",
-          "codcli": "74671",
-          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
           "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 2,
@@ -3901,6 +3891,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 87.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/01/2026",
+          "codcli": "74671",
+          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
+          "produto": "VODKA ABSOLUT - 750 ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 45.5,
           "tipo": "Venda"
         },
         {
@@ -3997,16 +3997,6 @@ const VENDAS_DATA = {
           "data": "30/01/2026",
           "codcli": "74671",
           "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 20,
-          "valor": 458.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/01/2026",
-          "codcli": "74671",
-          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
           "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "fantasia": "MINALBA",
           "qt": 60,
@@ -4031,6 +4021,16 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 6,
           "valor": 161.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/01/2026",
+          "codcli": "74671",
+          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 20,
+          "valor": 458.0,
           "tipo": "Venda"
         },
         {
@@ -4087,16 +4087,6 @@ const VENDAS_DATA = {
           "data": "05/01/2026",
           "codcli": "78952",
           "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
-          "produto": "ST PIERRE VIDRO 275ML RED MINT CX C/12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 43.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/01/2026",
-          "codcli": "78952",
-          "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
           "produto": "SUCO LARANJA INTEGRAL DO BEM 24X200ML",
           "fantasia": "TIAL",
           "qt": 1,
@@ -4118,6 +4108,16 @@ const VENDAS_DATA = {
           "codcli": "78952",
           "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
           "produto": "ST PIERRE VIDRO 275ML PINK LEMON CX C/12",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 43.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/01/2026",
+          "codcli": "78952",
+          "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
+          "produto": "ST PIERRE VIDRO 275ML RED MINT CX C/12",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 43.9,
@@ -5917,16 +5917,6 @@ const VENDAS_DATA = {
           "data": "29/01/2026",
           "codcli": "82920",
           "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "82920",
-          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 2,
@@ -5938,6 +5928,16 @@ const VENDAS_DATA = {
           "codcli": "82920",
           "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
           "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "82920",
+          "cliente": "AUTO POSTO ML RECREIO DOS BANDEIRANTES",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 2,
           "valor": 189.36,
@@ -6187,20 +6187,20 @@ const VENDAS_DATA = {
           "data": "12/01/2026",
           "codcli": "84449",
           "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
+          "fantasia": "PINATI",
           "qt": 1,
-          "valor": 94.68,
+          "valor": 79.84,
           "tipo": "Venda"
         },
         {
           "data": "12/01/2026",
           "codcli": "84449",
           "cliente": "POSTO DE GASOLINA NOTA 10 DO GRAJAU LTDA",
-          "produto": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
-          "fantasia": "PINATI",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
           "qt": 1,
-          "valor": 79.84,
+          "valor": 94.68,
           "tipo": "Venda"
         },
         {
@@ -6727,16 +6727,6 @@ const VENDAS_DATA = {
           "data": "06/01/2026",
           "codcli": "85677",
           "cliente": "SNACK STORE LTDA",
-          "produto": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
-          "fantasia": "DIAGEO",
-          "qt": 2,
-          "valor": 291.52,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/01/2026",
-          "codcli": "85677",
-          "cliente": "SNACK STORE LTDA",
           "produto": "GUARAVITON GINSENG 12X500ML",
           "fantasia": "VITON",
           "qt": 10,
@@ -6761,6 +6751,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 2,
           "valor": 258.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/01/2026",
+          "codcli": "85677",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 291.52,
           "tipo": "Venda"
         },
         {
@@ -7117,16 +7117,6 @@ const VENDAS_DATA = {
           "data": "30/01/2026",
           "codcli": "85669",
           "cliente": "SNACK STORE LTDA",
-          "produto": "VINHO CHAO DO CONDE FINO BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 179.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/01/2026",
-          "codcli": "85669",
-          "cliente": "SNACK STORE LTDA",
           "produto": "ESPUMANTE ALUD ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 12,
@@ -7151,6 +7141,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 143.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/01/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "VINHO CHAO DO CONDE FINO BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 179.4,
           "tipo": "Venda"
         },
         {
@@ -7257,16 +7257,6 @@ const VENDAS_DATA = {
           "data": "06/01/2026",
           "codcli": "85670",
           "cliente": "SNACK STORE LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 5,
-          "valor": 134.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/01/2026",
-          "codcli": "85670",
-          "cliente": "SNACK STORE LTDA",
           "produto": "SMIRNOFF ICE RASPBERRY (LONG) 24X275ML",
           "fantasia": "DIAGEO",
           "qt": 1,
@@ -7291,6 +7281,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 100,
           "valor": 1429.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/01/2026",
+          "codcli": "85670",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 134.5,
           "tipo": "Venda"
         },
         {
@@ -7637,16 +7637,6 @@ const VENDAS_DATA = {
           "data": "30/01/2026",
           "codcli": "85672",
           "cliente": "SNACK STORE LTDA",
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "fantasia": "DIAGEO",
-          "qt": 5,
-          "valor": 709.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/01/2026",
-          "codcli": "85672",
-          "cliente": "SNACK STORE LTDA",
           "produto": "ESPUMANTE ALUD BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 18,
@@ -7671,6 +7661,16 @@ const VENDAS_DATA = {
           "fantasia": "BALLENA",
           "qt": 3,
           "valor": 317.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/01/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 5,
+          "valor": 709.5,
           "tipo": "Venda"
         },
         {
@@ -8387,16 +8387,6 @@ const VENDAS_DATA = {
           "data": "29/01/2026",
           "codcli": "93282",
           "cliente": "POSTO DE ABASTECIMENTO CAFUBA TDA",
-          "produto": "PINATI NUTS BANANA 20X30G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 28.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "93282",
-          "cliente": "POSTO DE ABASTECIMENTO CAFUBA TDA",
           "produto": "PINATI SLIM WHEY BRIGADEIRO 16X35G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -8411,6 +8401,16 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 31.12,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "93282",
+          "cliente": "POSTO DE ABASTECIMENTO CAFUBA TDA",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 28.9,
           "tipo": "Venda"
         },
         {
@@ -10549,16 +10549,6 @@ const VENDAS_DATA = {
           "data": "03/02/2026",
           "codcli": "14047",
           "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
-          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 31.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/02/2026",
-          "codcli": "14047",
-          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
           "produto": "WHISKY BUCHANANS 12 YEARS 750 ML",
           "fantasia": "DIAGEO",
           "qt": 2,
@@ -10593,6 +10583,16 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 34.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/02/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 31.12,
           "tipo": "Venda"
         },
         {
@@ -11379,16 +11379,6 @@ const VENDAS_DATA = {
           "data": "24/02/2026",
           "codcli": "73248",
           "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
-          "produto": "ST PIERRE ZERO PINK LEMONADE 6X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 45.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/02/2026",
-          "codcli": "73248",
-          "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
           "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
           "fantasia": "FANTE",
           "qt": 1,
@@ -11403,6 +11393,16 @@ const VENDAS_DATA = {
           "fantasia": "BALLENA",
           "qt": 1,
           "valor": 99.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/02/2026",
+          "codcli": "73248",
+          "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
+          "produto": "ST PIERRE ZERO PINK LEMONADE 6X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 45.8,
           "tipo": "Venda"
         },
         {
@@ -11959,16 +11959,6 @@ const VENDAS_DATA = {
           "data": "24/02/2026",
           "codcli": "80886",
           "cliente": "POSTO SUPERSONICO LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 59.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/02/2026",
-          "codcli": "80886",
-          "cliente": "POSTO SUPERSONICO LTDA",
           "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
           "fantasia": "DIAGEO",
           "qt": 1,
@@ -11980,6 +11970,16 @@ const VENDAS_DATA = {
           "codcli": "80886",
           "cliente": "POSTO SUPERSONICO LTDA",
           "produto": "NECTAR LARANJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/02/2026",
+          "codcli": "80886",
+          "cliente": "POSTO SUPERSONICO LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 59.88,
@@ -12149,16 +12149,6 @@ const VENDAS_DATA = {
           "data": "23/02/2026",
           "codcli": "81665",
           "cliente": "HORA DO RECREIO COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 2,
-          "valor": 53.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/02/2026",
-          "codcli": "81665",
-          "cliente": "HORA DO RECREIO COMERCIO DE ALIMENTOS E LANCHES LTDA",
           "produto": "GIN TANQUERAY  750 ML",
           "fantasia": "DIAGEO",
           "qt": 1,
@@ -12183,6 +12173,16 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 2,
           "valor": 43.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/02/2026",
+          "codcli": "81665",
+          "cliente": "HORA DO RECREIO COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 53.8,
           "tipo": "Venda"
         },
         {
@@ -12389,16 +12389,6 @@ const VENDAS_DATA = {
           "data": "20/02/2026",
           "codcli": "84465",
           "cliente": "EL DAHER CONVENIENCIA E ALIMENTOS LTDA",
-          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
-          "fantasia": "MINALBA",
-          "qt": 2,
-          "valor": 43.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "20/02/2026",
-          "codcli": "84465",
-          "cliente": "EL DAHER CONVENIENCIA E ALIMENTOS LTDA",
           "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
           "fantasia": "MINALBA",
           "qt": 10,
@@ -12423,6 +12413,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 10,
           "valor": 199.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "20/02/2026",
+          "codcli": "84465",
+          "cliente": "EL DAHER CONVENIENCIA E ALIMENTOS LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 2,
+          "valor": 43.8,
           "tipo": "Venda"
         },
         {
@@ -12819,16 +12819,6 @@ const VENDAS_DATA = {
           "data": "18/02/2026",
           "codcli": "82917",
           "cliente": "AUTO POSTO MAQUINE LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 2,
-          "valor": 43.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/02/2026",
-          "codcli": "82917",
-          "cliente": "AUTO POSTO MAQUINE LTDA",
           "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "fantasia": "MINALBA",
           "qt": 10,
@@ -12853,6 +12843,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 5,
           "valor": 144.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/02/2026",
+          "codcli": "82917",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 43.0,
           "tipo": "Venda"
         },
         {
@@ -13229,16 +13229,6 @@ const VENDAS_DATA = {
           "data": "05/02/2026",
           "codcli": "83578",
           "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
-          "produto": "COQUETEL PINK MOON 12X600ML - PET",
-          "fantasia": "COMARY",
-          "qt": 2,
-          "valor": 141.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/02/2026",
-          "codcli": "83578",
-          "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
           "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -13263,6 +13253,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 1,
           "valor": 126.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/02/2026",
+          "codcli": "83578",
+          "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
+          "produto": "COQUETEL PINK MOON 12X600ML - PET",
+          "fantasia": "COMARY",
+          "qt": 2,
+          "valor": 141.8,
           "tipo": "Venda"
         },
         {
@@ -13859,16 +13859,6 @@ const VENDAS_DATA = {
           "data": "25/02/2026",
           "codcli": "84566",
           "cliente": "SNACK STORE BARRA LTDA",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 79.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/02/2026",
-          "codcli": "84566",
-          "cliente": "SNACK STORE BARRA LTDA",
           "produto": "LICOR CAN FIREBALL 750ML",
           "fantasia": "AURORA",
           "qt": 2,
@@ -13893,6 +13883,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 2,
           "valor": 109.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/02/2026",
+          "codcli": "84566",
+          "cliente": "SNACK STORE BARRA LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 79.9,
           "tipo": "Venda"
         },
         {
@@ -13989,16 +13989,6 @@ const VENDAS_DATA = {
           "data": "09/02/2026",
           "codcli": "85677",
           "cliente": "SNACK STORE LTDA",
-          "produto": "ST PIERRE LATA 270ML RED MINT CX C/ 24",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 89.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/02/2026",
-          "codcli": "85677",
-          "cliente": "SNACK STORE LTDA",
           "produto": "ST PIERRE VIDRO 275ML RED MINT CX C/12",
           "fantasia": "TATUZINHO",
           "qt": 2,
@@ -14010,6 +14000,16 @@ const VENDAS_DATA = {
           "codcli": "85677",
           "cliente": "SNACK STORE LTDA",
           "produto": "ST PIERRE LATA 270 ML PINK LEMON CX C/24",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "85677",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "ST PIERRE LATA 270ML RED MINT CX C/ 24",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 89.9,
@@ -14299,16 +14299,6 @@ const VENDAS_DATA = {
           "data": "03/02/2026",
           "codcli": "90053",
           "cliente": "AUTO POSTO MANDALA LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 5,
-          "valor": 134.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/02/2026",
-          "codcli": "90053",
-          "cliente": "AUTO POSTO MANDALA LTDA",
           "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "fantasia": "MINALBA",
           "qt": 10,
@@ -14333,6 +14323,16 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 10,
           "valor": 215.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/02/2026",
+          "codcli": "90053",
+          "cliente": "AUTO POSTO MANDALA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 134.5,
           "tipo": "Venda"
         },
         {
@@ -14729,7 +14729,7 @@ const VENDAS_DATA = {
           "data": "09/02/2026",
           "codcli": "85671",
           "cliente": "SNACK STORE LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
+          "produto": "VILLA ROSA  ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 137.4,
@@ -14739,7 +14739,7 @@ const VENDAS_DATA = {
           "data": "09/02/2026",
           "codcli": "85671",
           "cliente": "SNACK STORE LTDA",
-          "produto": "VILLA ROSA  ROSE 750ML",
+          "produto": "VILLA ROSA BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 137.4,
@@ -14919,16 +14919,6 @@ const VENDAS_DATA = {
           "data": "09/02/2026",
           "codcli": "85672",
           "cliente": "SNACK STORE LTDA",
-          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 137.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/02/2026",
-          "codcli": "85672",
-          "cliente": "SNACK STORE LTDA",
           "produto": "ESPUMANTE ALUD BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 24,
@@ -14943,6 +14933,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 12,
           "valor": 274.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "85672",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 137.4,
           "tipo": "Venda"
         },
         {
@@ -15159,16 +15159,6 @@ const VENDAS_DATA = {
           "data": "12/02/2026",
           "codcli": "91122",
           "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
-          "produto": "LICOR CAN FIREBALL 750ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 79.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/02/2026",
-          "codcli": "91122",
-          "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -15193,6 +15183,16 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 1,
           "valor": 76.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/02/2026",
+          "codcli": "91122",
+          "cliente": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
+          "produto": "LICOR CAN FIREBALL 750ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 79.9,
           "tipo": "Venda"
         },
         {
@@ -15699,7 +15699,7 @@ const VENDAS_DATA = {
           "data": "09/02/2026",
           "codcli": "92886",
           "cliente": "SNACK STORE LTDA",
-          "produto": "ESPUMANTE ALUD ROSE 750ML",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 24,
           "valor": 597.6,
@@ -15709,7 +15709,7 @@ const VENDAS_DATA = {
           "data": "09/02/2026",
           "codcli": "92886",
           "cliente": "SNACK STORE LTDA",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "produto": "ESPUMANTE ALUD ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 24,
           "valor": 597.6,
@@ -17821,16 +17821,6 @@ const VENDAS_DATA = {
           "data": "05/03/2026",
           "codcli": "3654",
           "cliente": "DISTRIBUIDORA WAY DE COMBUSTIVEIS LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 75.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "3654",
-          "cliente": "DISTRIBUIDORA WAY DE COMBUSTIVEIS LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -17852,6 +17842,16 @@ const VENDAS_DATA = {
           "codcli": "3654",
           "cliente": "DISTRIBUIDORA WAY DE COMBUSTIVEIS LTDA",
           "produto": "VINHO ARESTI ESTATE S.  ROSE 187ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 75.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "3654",
+          "cliente": "DISTRIBUIDORA WAY DE COMBUSTIVEIS LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 75.0,
@@ -18121,16 +18121,6 @@ const VENDAS_DATA = {
           "data": "26/03/2026",
           "codcli": "3551",
           "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 3,
-          "valor": 95.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "3551",
-          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
           "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
           "fantasia": "MINALBA",
           "qt": 4,
@@ -18155,6 +18145,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 20,
           "valor": 418.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "3551",
+          "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 95.7,
           "tipo": "Venda"
         },
         {
@@ -18741,16 +18741,6 @@ const VENDAS_DATA = {
           "data": "05/03/2026",
           "codcli": "14047",
           "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "14047",
-          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -18762,6 +18752,16 @@ const VENDAS_DATA = {
           "codcli": "14047",
           "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
           "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
@@ -18811,16 +18811,6 @@ const VENDAS_DATA = {
           "data": "05/03/2026",
           "codcli": "14047",
           "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "BROWN",
-          "qt": 1,
-          "valor": 122.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "14047",
-          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
           "produto": "GIN BEEFEATER 750ML",
           "fantasia": "PERNOD",
           "qt": 1,
@@ -18845,6 +18835,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 1,
           "valor": 220.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 122.9,
           "tipo": "Venda"
         },
         {
@@ -19261,20 +19261,20 @@ const VENDAS_DATA = {
           "data": "16/03/2026",
           "codcli": "63587",
           "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "fantasia": "MINALBA",
-          "qt": 5,
-          "valor": 104.5,
+          "qt": 20,
+          "valor": 398.0,
           "tipo": "Venda"
         },
         {
           "data": "16/03/2026",
           "codcli": "63587",
           "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "fantasia": "MINALBA",
-          "qt": 20,
-          "valor": 398.0,
+          "qt": 5,
+          "valor": 104.5,
           "tipo": "Venda"
         },
         {
@@ -19321,16 +19321,6 @@ const VENDAS_DATA = {
           "data": "27/03/2026",
           "codcli": "63587",
           "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
-          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "63587",
-          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
           "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -19358,10 +19348,10 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "02/03/2026",
-          "codcli": "74192",
-          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
-          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "data": "27/03/2026",
+          "codcli": "63587",
+          "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
+          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 87.6,
@@ -19385,6 +19375,16 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 1,
           "valor": 91.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "74192",
+          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
+          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6,
           "tipo": "Venda"
         },
         {
@@ -19481,16 +19481,6 @@ const VENDAS_DATA = {
           "data": "16/03/2026",
           "codcli": "74192",
           "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
-          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
-          "fantasia": "MINALBA",
-          "qt": 5,
-          "valor": 109.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/03/2026",
-          "codcli": "74192",
-          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "fantasia": "MINALBA",
           "qt": 20,
@@ -19505,6 +19495,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 20,
           "valor": 418.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "74192",
+          "cliente": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 5,
+          "valor": 109.5,
           "tipo": "Venda"
         },
         {
@@ -20071,16 +20071,6 @@ const VENDAS_DATA = {
           "data": "05/03/2026",
           "codcli": "76228",
           "cliente": "LOJA DE CONVENIENCIA GLOBAL LTDA",
-          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.48,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "76228",
-          "cliente": "LOJA DE CONVENIENCIA GLOBAL LTDA",
           "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -20095,6 +20085,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 87.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "76228",
+          "cliente": "LOJA DE CONVENIENCIA GLOBAL LTDA",
+          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.48,
           "tipo": "Venda"
         },
         {
@@ -20141,16 +20141,6 @@ const VENDAS_DATA = {
           "data": "05/03/2026",
           "codcli": "78952",
           "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "78952",
-          "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
           "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
           "fantasia": "FANTE",
           "qt": 1,
@@ -20162,6 +20152,16 @@ const VENDAS_DATA = {
           "codcli": "78952",
           "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "78952",
+          "cliente": "AUTO POSTO TREVO DA BARRA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
@@ -20291,16 +20291,6 @@ const VENDAS_DATA = {
           "data": "04/03/2026",
           "codcli": "82381",
           "cliente": "VBBR CONVENIENCIA S. A.",
-          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/03/2026",
-          "codcli": "82381",
-          "cliente": "VBBR CONVENIENCIA S. A.",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 2,
@@ -20325,6 +20315,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 2,
           "valor": 189.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/03/2026",
+          "codcli": "82381",
+          "cliente": "VBBR CONVENIENCIA S. A.",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6,
           "tipo": "Venda"
         },
         {
@@ -20411,16 +20411,6 @@ const VENDAS_DATA = {
           "data": "03/03/2026",
           "codcli": "79614",
           "cliente": "LOJA DE CONVENIENCIA MIDAS DO FONSECA LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 1,
-          "valor": 34.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/03/2026",
-          "codcli": "79614",
-          "cliente": "LOJA DE CONVENIENCIA MIDAS DO FONSECA LTDA",
           "produto": "GUARAVITA NATURAL 24X290ML",
           "fantasia": "VITON",
           "qt": 15,
@@ -20432,6 +20422,16 @@ const VENDAS_DATA = {
           "codcli": "79614",
           "cliente": "LOJA DE CONVENIENCIA MIDAS DO FONSECA LTDA",
           "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 1,
+          "valor": 34.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/03/2026",
+          "codcli": "79614",
+          "cliente": "LOJA DE CONVENIENCIA MIDAS DO FONSECA LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 1,
           "valor": 34.9,
@@ -20791,16 +20791,6 @@ const VENDAS_DATA = {
           "data": "25/03/2026",
           "codcli": "79820",
           "cliente": "AUTO POSTO QUEBRAMAR LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 2,
-          "valor": 53.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "79820",
-          "cliente": "AUTO POSTO QUEBRAMAR LTDA",
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "fantasia": "MINALBA",
           "qt": 10,
@@ -20815,6 +20805,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 10,
           "valor": 209.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/03/2026",
+          "codcli": "79820",
+          "cliente": "AUTO POSTO QUEBRAMAR LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 53.8,
           "tipo": "Venda"
         },
         {
@@ -21251,16 +21251,6 @@ const VENDAS_DATA = {
           "data": "17/03/2026",
           "codcli": "84465",
           "cliente": "EL DAHER CONVENIENCIA E ALIMENTOS LTDA",
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 139.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/03/2026",
-          "codcli": "84465",
-          "cliente": "EL DAHER CONVENIENCIA E ALIMENTOS LTDA",
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "fantasia": "MINALBA",
           "qt": 10,
@@ -21291,20 +21281,20 @@ const VENDAS_DATA = {
           "data": "17/03/2026",
           "codcli": "84465",
           "cliente": "EL DAHER CONVENIENCIA E ALIMENTOS LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 139.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/03/2026",
+          "codcli": "84465",
+          "cliente": "EL DAHER CONVENIENCIA E ALIMENTOS LTDA",
           "produto": "GUARAVITA NATURAL 24X290ML",
           "fantasia": "VITON",
           "qt": 5,
           "valor": 107.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "84465",
-          "cliente": "EL DAHER CONVENIENCIA E ALIMENTOS LTDA",
-          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.48,
           "tipo": "Venda"
         },
         {
@@ -21325,6 +21315,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "84465",
+          "cliente": "EL DAHER CONVENIENCIA E ALIMENTOS LTDA",
+          "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.48,
           "tipo": "Venda"
         },
         {
@@ -21591,16 +21591,6 @@ const VENDAS_DATA = {
           "data": "02/03/2026",
           "codcli": "82868",
           "cliente": "POSTO STELLA DE ABASTECIMENTO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/03/2026",
-          "codcli": "82868",
-          "cliente": "POSTO STELLA DE ABASTECIMENTO LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -21612,6 +21602,16 @@ const VENDAS_DATA = {
           "codcli": "82868",
           "cliente": "POSTO STELLA DE ABASTECIMENTO LTDA",
           "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "82868",
+          "cliente": "POSTO STELLA DE ABASTECIMENTO LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
@@ -21981,16 +21981,6 @@ const VENDAS_DATA = {
           "data": "27/03/2026",
           "codcli": "79924",
           "cliente": "P L MOURA SERVICOS E COMERCIO DE ALIMENTOS LTDA",
-          "produto": "CHANDON BABY RICHE DEMI SEC 187 ML",
-          "fantasia": "HENNESSY",
-          "qt": 3,
-          "valor": 85.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "79924",
-          "cliente": "P L MOURA SERVICOS E COMERCIO DE ALIMENTOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
           "fantasia": "PERNOD",
           "qt": 2,
@@ -22015,6 +22005,16 @@ const VENDAS_DATA = {
           "fantasia": "HENNESSY",
           "qt": 6,
           "valor": 156.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "79924",
+          "cliente": "P L MOURA SERVICOS E COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CHANDON BABY RICHE DEMI SEC 187 ML",
+          "fantasia": "HENNESSY",
+          "qt": 3,
+          "valor": 85.5,
           "tipo": "Venda"
         },
         {
@@ -22581,16 +22581,6 @@ const VENDAS_DATA = {
           "data": "23/03/2026",
           "codcli": "82921",
           "cliente": "AUTO POSTO NOVO AMERICAS LTDA",
-          "produto": "COQUETEL PINK MOON 12X600ML - PET",
-          "fantasia": "COMARY",
-          "qt": 4,
-          "valor": 299.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/03/2026",
-          "codcli": "82921",
-          "cliente": "AUTO POSTO NOVO AMERICAS LTDA",
           "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -22615,6 +22605,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 2,
           "valor": 279.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/03/2026",
+          "codcli": "82921",
+          "cliente": "AUTO POSTO NOVO AMERICAS LTDA",
+          "produto": "COQUETEL PINK MOON 12X600ML - PET",
+          "fantasia": "COMARY",
+          "qt": 4,
+          "valor": 299.6,
           "tipo": "Venda"
         },
         {
@@ -23051,7 +23051,7 @@ const VENDAS_DATA = {
           "data": "30/03/2026",
           "codcli": "83578",
           "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 47.84,
@@ -23061,7 +23061,7 @@ const VENDAS_DATA = {
           "data": "30/03/2026",
           "codcli": "83578",
           "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
-          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 47.84,
@@ -23101,16 +23101,6 @@ const VENDAS_DATA = {
           "data": "30/03/2026",
           "codcli": "83578",
           "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
-          "produto": "NECTAR ABACAXI 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 59.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "83578",
-          "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
           "produto": "NECTAR GOIABA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
@@ -23135,6 +23125,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "83578",
+          "cliente": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88,
           "tipo": "Venda"
         },
         {
@@ -23201,20 +23201,20 @@ const VENDAS_DATA = {
           "data": "02/03/2026",
           "codcli": "83813",
           "cliente": "MATTAR E MATTAR AUTO POSTO LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
+          "produto": "GUARAVITA NATURAL 24X290ML",
           "fantasia": "VITON",
-          "qt": 5,
-          "valor": 134.5,
+          "qt": 6,
+          "valor": 129.0,
           "tipo": "Venda"
         },
         {
           "data": "02/03/2026",
           "codcli": "83813",
           "cliente": "MATTAR E MATTAR AUTO POSTO LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
+          "produto": "GUARAVITON GINSENG 12X500ML",
           "fantasia": "VITON",
-          "qt": 6,
-          "valor": 129.0,
+          "qt": 5,
+          "valor": 134.5,
           "tipo": "Venda"
         },
         {
@@ -25143,16 +25143,6 @@ const VENDAS_DATA = {
           "data": "06/04/2026",
           "codcli": "61",
           "cliente": "AUTO POSTO EXCEDE LTDA",
-          "produto": "VODKA SMIRNOFF 600 ML",
-          "fantasia": "DIAGEO",
-          "qt": 3,
-          "valor": 67.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "61",
-          "cliente": "AUTO POSTO EXCEDE LTDA",
           "produto": "WHISKY J WALKER BLACK LABEL 750ML",
           "fantasia": "DIAGEO",
           "qt": 1,
@@ -25177,6 +25167,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 3,
           "valor": 98.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "61",
+          "cliente": "AUTO POSTO EXCEDE LTDA",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 67.5,
           "tipo": "Venda"
         },
         {
@@ -25403,16 +25403,6 @@ const VENDAS_DATA = {
           "data": "06/04/2026",
           "codcli": "625",
           "cliente": "RIO MARACANÃ POSTO DE GASOLINA LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-          "fantasia": "MINALBA",
-          "qt": 4,
-          "valor": 79.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "625",
-          "cliente": "RIO MARACANÃ POSTO DE GASOLINA LTDA",
           "produto": "AGUA MINALBA C/ GAS 6X1,5L",
           "fantasia": "MINALBA",
           "qt": 1,
@@ -25427,6 +25417,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 2,
           "valor": 57.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "625",
+          "cliente": "RIO MARACANÃ POSTO DE GASOLINA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 4,
+          "valor": 79.6,
           "tipo": "Venda"
         },
         {
@@ -25913,20 +25913,20 @@ const VENDAS_DATA = {
           "data": "28/04/2026",
           "codcli": "2075",
           "cliente": "CARBAT DIST. E ASSE. DO COM. DE DERIVADOS DE PETROLEO LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 10,
-          "valor": 219.0,
+          "produto": "NECTAR MARACUJA TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 29.88,
           "tipo": "Venda"
         },
         {
           "data": "28/04/2026",
           "codcli": "2075",
           "cliente": "CARBAT DIST. E ASSE. DO COM. DE DERIVADOS DE PETROLEO LTDA",
-          "produto": "NECTAR MARACUJA TIAL 12X250ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 29.88,
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 219.0,
           "tipo": "Venda"
         },
         {
@@ -26293,16 +26293,6 @@ const VENDAS_DATA = {
           "data": "09/04/2026",
           "codcli": "3549",
           "cliente": "AUTO POSTO SENNA LTDA",
-          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
-          "fantasia": "AURORA",
-          "qt": 3,
-          "valor": 71.82,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "3549",
-          "cliente": "AUTO POSTO SENNA LTDA",
           "produto": "VODCA SMIRNOFF RED 998 ML",
           "fantasia": "DIAGEO",
           "qt": 2,
@@ -26327,6 +26317,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 1,
           "valor": 104.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "3549",
+          "cliente": "AUTO POSTO SENNA LTDA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 3,
+          "valor": 71.82,
           "tipo": "Venda"
         },
         {
@@ -26593,7 +26593,7 @@ const VENDAS_DATA = {
           "data": "08/04/2026",
           "codcli": "3713",
           "cliente": "BARRA GAS COM. E SERVICOS LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7,
@@ -26603,7 +26603,7 @@ const VENDAS_DATA = {
           "data": "08/04/2026",
           "codcli": "3713",
           "cliente": "BARRA GAS COM. E SERVICOS LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7,
@@ -27533,16 +27533,6 @@ const VENDAS_DATA = {
           "data": "14/04/2026",
           "codcli": "14047",
           "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
-          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 56.94,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "14047",
-          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
           "produto": "AMARULA C LIQUEUR 750 ML",
           "fantasia": "INTERFOOD",
           "qt": 1,
@@ -27567,6 +27557,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 6,
           "valor": 137.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "14047",
+          "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 56.94,
           "tipo": "Venda"
         },
         {
@@ -27943,20 +27943,20 @@ const VENDAS_DATA = {
           "data": "13/04/2026",
           "codcli": "63587",
           "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "fantasia": "MINALBA",
-          "qt": 20,
-          "valor": 398.0,
+          "qt": 5,
+          "valor": 104.5,
           "tipo": "Venda"
         },
         {
           "data": "13/04/2026",
           "codcli": "63587",
           "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "fantasia": "MINALBA",
-          "qt": 5,
-          "valor": 104.5,
+          "qt": 20,
+          "valor": 398.0,
           "tipo": "Venda"
         },
         {
@@ -28053,7 +28053,7 @@ const VENDAS_DATA = {
           "data": "24/04/2026",
           "codcli": "63587",
           "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7,
@@ -28063,7 +28063,7 @@ const VENDAS_DATA = {
           "data": "24/04/2026",
           "codcli": "63587",
           "cliente": "LOJA DE CONVENIENCIA 17.000 LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7,
@@ -28553,16 +28553,6 @@ const VENDAS_DATA = {
           "data": "20/04/2026",
           "codcli": "76248",
           "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "fantasia": "MINALBA",
-          "qt": 10,
-          "valor": 289.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "76248",
-          "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
           "produto": "AGUA MINALBA C/ GAS 6X1,5L",
           "fantasia": "MINALBA",
           "qt": 5,
@@ -28577,6 +28567,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 20,
           "valor": 398.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "76248",
+          "cliente": "POSTO DE ABASTECIMENTO TORCEDOR LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "fantasia": "MINALBA",
+          "qt": 10,
+          "valor": 289.0,
           "tipo": "Venda"
         },
         {
@@ -28673,20 +28673,20 @@ const VENDAS_DATA = {
           "data": "15/04/2026",
           "codcli": "74562",
           "cliente": "VIP TIJUCA CONVENIENCIAS LTDA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 7,
-          "valor": 230.3,
+          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 91.8,
           "tipo": "Venda"
         },
         {
           "data": "15/04/2026",
           "codcli": "74562",
           "cliente": "VIP TIJUCA CONVENIENCIAS LTDA",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 91.8,
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 7,
+          "valor": 230.3,
           "tipo": "Venda"
         },
         {
@@ -28743,20 +28743,20 @@ const VENDAS_DATA = {
           "data": "09/04/2026",
           "codcli": "74671",
           "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
           "fantasia": "MINALBA",
-          "qt": 70,
-          "valor": 1463.0,
+          "qt": 20,
+          "valor": 578.0,
           "tipo": "Venda"
         },
         {
           "data": "09/04/2026",
           "codcli": "74671",
           "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "fantasia": "MINALBA",
-          "qt": 20,
-          "valor": 578.0,
+          "qt": 70,
+          "valor": 1463.0,
           "tipo": "Venda"
         },
         {
@@ -28993,16 +28993,6 @@ const VENDAS_DATA = {
           "data": "07/04/2026",
           "codcli": "82380",
           "cliente": "VBBR CONVENIENCIA S. A.",
-          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 175.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "82380",
-          "cliente": "VBBR CONVENIENCIA S. A.",
           "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 4,
@@ -29017,6 +29007,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 4,
           "valor": 378.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82380",
+          "cliente": "VBBR CONVENIENCIA S. A.",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 175.2,
           "tipo": "Venda"
         },
         {
@@ -29333,16 +29333,6 @@ const VENDAS_DATA = {
           "data": "22/04/2026",
           "codcli": "81665",
           "cliente": "HORA DO RECREIO COMERCIO DE ALIMENTOS E LANCHES LTDA",
-          "produto": "WHISKY J WALKER RED LABEL 750ML",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 68.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/04/2026",
-          "codcli": "81665",
-          "cliente": "HORA DO RECREIO COMERCIO DE ALIMENTOS E LANCHES LTDA",
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "fantasia": "MINALBA",
           "qt": 12,
@@ -29367,6 +29357,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 2,
           "valor": 43.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "81665",
+          "cliente": "HORA DO RECREIO COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 750ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 68.9,
           "tipo": "Venda"
         },
         {
@@ -31263,16 +31263,6 @@ const VENDAS_DATA = {
           "data": "14/04/2026",
           "codcli": "85669",
           "cliente": "SNACK STORE LTDA",
-          "produto": "VODKA BELVEDERE 700 ML",
-          "fantasia": "HENNESSY",
-          "qt": 3,
-          "valor": 419.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "85669",
-          "cliente": "SNACK STORE LTDA",
           "produto": "AGUA MINERAL MAMBA WATER C/ GAS - 24X350",
           "fantasia": "KAISER",
           "qt": 1,
@@ -31297,6 +31287,16 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 3,
           "valor": 94.47,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "produto": "VODKA BELVEDERE 700 ML",
+          "fantasia": "HENNESSY",
+          "qt": 3,
+          "valor": 419.7,
           "tipo": "Venda"
         },
         {
@@ -53863,16 +53863,6 @@ const VENDAS_DATA = {
           "data": "16/01/2026",
           "codcli": "81490",
           "cliente": "MAYRON S BAR LTDA",
-          "produto": "RED BULL 250ML CAIXA C/24 UNID",
-          "fantasia": "RED BULL",
-          "qt": 5,
-          "valor": 800.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/01/2026",
-          "codcli": "81490",
-          "cliente": "MAYRON S BAR LTDA",
           "produto": "VODCA SMIRNOFF RED 998 ML",
           "fantasia": "DIAGEO",
           "qt": 12,
@@ -53887,6 +53877,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 1,
           "valor": 89.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/01/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 800.0,
           "tipo": "Venda"
         },
         {
@@ -54123,16 +54123,6 @@ const VENDAS_DATA = {
           "data": "13/01/2026",
           "codcli": "83863",
           "cliente": "RENATO CRUZ DA SILVA 15335044748",
-          "produto": "RED BULL 250ML CAIXA C/24 UNID",
-          "fantasia": "RED BULL",
-          "qt": 5,
-          "valor": 824.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/01/2026",
-          "codcli": "83863",
-          "cliente": "RENATO CRUZ DA SILVA 15335044748",
           "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
           "fantasia": "KAISER",
           "qt": 40,
@@ -54147,6 +54137,16 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 40,
           "valor": 1956.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/01/2026",
+          "codcli": "83863",
+          "cliente": "RENATO CRUZ DA SILVA 15335044748",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 824.5,
           "tipo": "Venda"
         },
         {
@@ -54293,16 +54293,6 @@ const VENDAS_DATA = {
           "data": "23/01/2026",
           "codcli": "83863",
           "cliente": "RENATO CRUZ DA SILVA 15335044748",
-          "produto": "NECTAR CAJU 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 59.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "83863",
-          "cliente": "RENATO CRUZ DA SILVA 15335044748",
           "produto": "ICE 51 MARACUJA LONG NECK 24X275ML",
           "fantasia": "51",
           "qt": 1,
@@ -54324,6 +54314,16 @@ const VENDAS_DATA = {
           "codcli": "83863",
           "cliente": "RENATO CRUZ DA SILVA 15335044748",
           "produto": "NECTAR GOIABA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/01/2026",
+          "codcli": "83863",
+          "cliente": "RENATO CRUZ DA SILVA 15335044748",
+          "produto": "NECTAR CAJU 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 59.88,
@@ -54793,20 +54793,20 @@ const VENDAS_DATA = {
           "data": "19/01/2026",
           "codcli": "86257",
           "cliente": "MINI MERCADO BOA OPCAO LTDA",
-          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
           "fantasia": "KAISER",
-          "qt": 10,
-          "valor": 489.0,
+          "qt": 20,
+          "valor": 1278.0,
           "tipo": "Venda"
         },
         {
           "data": "19/01/2026",
           "codcli": "86257",
           "cliente": "MINI MERCADO BOA OPCAO LTDA",
-          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
           "fantasia": "KAISER",
-          "qt": 20,
-          "valor": 1278.0,
+          "qt": 10,
+          "valor": 489.0,
           "tipo": "Venda"
         },
         {
@@ -55855,16 +55855,6 @@ const VENDAS_DATA = {
           "data": "07/04/2026",
           "codcli": "50853",
           "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 33.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "50853",
-          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
           "produto": "4 PACK RED BULL",
           "fantasia": "RED BULL",
           "qt": 30,
@@ -55889,6 +55879,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 1,
           "valor": 162.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "50853",
+          "cliente": "VIP'S MOTEL SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 33.0,
           "tipo": "Venda"
         },
         {
@@ -56345,16 +56345,6 @@ const VENDAS_DATA = {
           "data": "07/04/2026",
           "codcli": "84459",
           "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
-          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-          "fantasia": "RED BULL",
-          "qt": 12,
-          "valor": 330.72,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "84459",
-          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
           "produto": "COQUETEL PINK MOON 12X600ML - PET",
           "fantasia": "COMARY",
           "qt": 5,
@@ -56376,6 +56366,16 @@ const VENDAS_DATA = {
           "codcli": "84459",
           "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
           "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "RED BULL",
+          "qt": 12,
+          "valor": 330.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "84459",
+          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
           "fantasia": "RED BULL",
           "qt": 12,
           "valor": 330.72,
@@ -56415,20 +56415,20 @@ const VENDAS_DATA = {
           "data": "28/04/2026",
           "codcli": "84459",
           "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 278.64,
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 5,
+          "valor": 349.5,
           "tipo": "Venda"
         },
         {
           "data": "28/04/2026",
           "codcli": "84459",
           "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
-          "produto": "VODKA ABSOLUT - 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 5,
-          "valor": 349.5,
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 278.64,
           "tipo": "Venda"
         },
         {
@@ -56615,16 +56615,6 @@ const VENDAS_DATA = {
           "data": "08/04/2026",
           "codcli": "81490",
           "cliente": "MAYRON S BAR LTDA",
-          "produto": "GIN MARINA 750ML",
-          "fantasia": "HOB",
-          "qt": 24,
-          "valor": 957.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "81490",
-          "cliente": "MAYRON S BAR LTDA",
           "produto": "WHISKY J WALKER RED LABEL 1L",
           "fantasia": "DIAGEO",
           "qt": 6,
@@ -56649,6 +56639,16 @@ const VENDAS_DATA = {
           "fantasia": "BANANINHA CARIOCA",
           "qt": 3,
           "valor": 179.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "GIN MARINA 750ML",
+          "fantasia": "HOB",
+          "qt": 24,
+          "valor": 957.6,
           "tipo": "Venda"
         },
         {
@@ -56825,16 +56825,6 @@ const VENDAS_DATA = {
           "data": "15/04/2026",
           "codcli": "81490",
           "cliente": "MAYRON S BAR LTDA",
-          "produto": "PIRASSUNUNGA 51 965 ML",
-          "fantasia": "51",
-          "qt": 12,
-          "valor": 146.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "81490",
-          "cliente": "MAYRON S BAR LTDA",
           "produto": "VODCA SMIRNOFF RED 998 ML",
           "fantasia": "DIAGEO",
           "qt": 12,
@@ -56859,6 +56849,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 4,
           "valor": 651.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "fantasia": "51",
+          "qt": 12,
+          "valor": 146.4,
           "tipo": "Venda"
         },
         {
@@ -56955,16 +56955,6 @@ const VENDAS_DATA = {
           "data": "30/04/2026",
           "codcli": "81490",
           "cliente": "MAYRON S BAR LTDA",
-          "produto": "VODKA ABSOLUT - 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 2,
-          "valor": 139.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "81490",
-          "cliente": "MAYRON S BAR LTDA",
           "produto": "GIN BOMBAY SAPPHIRE 750ML",
           "fantasia": "BACARDI",
           "qt": 4,
@@ -56989,6 +56979,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 12,
           "valor": 294.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 139.8,
           "tipo": "Venda"
         },
         {
@@ -57335,16 +57335,6 @@ const VENDAS_DATA = {
           "data": "15/04/2026",
           "codcli": "86503",
           "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
-          "produto": "RUM BACARDI BIG APPLE 980ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 346.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "86503",
-          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
           "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
@@ -57369,6 +57359,16 @@ const VENDAS_DATA = {
           "fantasia": "JURUPINGA",
           "qt": 24,
           "valor": 573.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "RUM BACARDI BIG APPLE 980ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 346.2,
           "tipo": "Venda"
         },
         {
@@ -58657,16 +58657,6 @@ const VENDAS_DATA = {
           "data": "03/02/2026",
           "codcli": "86238",
           "cliente": "MERCADO BELOT LTDA",
-          "produto": "ST PIERRE LATA 270 ML PINK LEMON CX C/24",
-          "fantasia": "TATUZINHO",
-          "qt": 15,
-          "valor": 954.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/02/2026",
-          "codcli": "86238",
-          "cliente": "MERCADO BELOT LTDA",
           "produto": "NECTAR MARACUJA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 10,
@@ -58691,6 +58681,16 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 10,
           "valor": 540.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/02/2026",
+          "codcli": "86238",
+          "cliente": "MERCADO BELOT LTDA",
+          "produto": "ST PIERRE LATA 270 ML PINK LEMON CX C/24",
+          "fantasia": "TATUZINHO",
+          "qt": 15,
+          "valor": 954.0,
           "tipo": "Venda"
         },
         {
@@ -58757,16 +58757,6 @@ const VENDAS_DATA = {
           "data": "03/02/2026",
           "codcli": "86239",
           "cliente": "MERCADO BELOT LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 284.04,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/02/2026",
-          "codcli": "86239",
-          "cliente": "MERCADO BELOT LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 3,
@@ -58788,6 +58778,16 @@ const VENDAS_DATA = {
           "codcli": "86239",
           "cliente": "MERCADO BELOT LTDA",
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 284.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/02/2026",
+          "codcli": "86239",
+          "cliente": "MERCADO BELOT LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 3,
           "valor": 284.04,
@@ -59739,16 +59739,6 @@ const VENDAS_DATA = {
           "data": "04/03/2026",
           "codcli": "81490",
           "cliente": "MAYRON S BAR LTDA",
-          "produto": "VODKA ABSOLUT - 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 5,
-          "valor": 379.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/03/2026",
-          "codcli": "81490",
-          "cliente": "MAYRON S BAR LTDA",
           "produto": "GIN MARINA 750ML",
           "fantasia": "HOB",
           "qt": 24,
@@ -59773,6 +59763,16 @@ const VENDAS_DATA = {
           "fantasia": "51",
           "qt": 24,
           "valor": 292.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/03/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 5,
+          "valor": 379.5,
           "tipo": "Venda"
         },
         {
@@ -59829,16 +59829,6 @@ const VENDAS_DATA = {
           "data": "12/03/2026",
           "codcli": "81490",
           "cliente": "MAYRON S BAR LTDA",
-          "produto": "PIRASSUNUNGA 51 965 ML",
-          "fantasia": "51",
-          "qt": 12,
-          "valor": 146.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "81490",
-          "cliente": "MAYRON S BAR LTDA",
           "produto": "WHISKY J WALKER BLACK LABEL 1L",
           "fantasia": "DIAGEO",
           "qt": 12,
@@ -59863,6 +59853,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 12,
           "valor": 330.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/03/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "fantasia": "51",
+          "qt": 12,
+          "valor": 146.4,
           "tipo": "Venda"
         },
         {
@@ -60249,16 +60249,6 @@ const VENDAS_DATA = {
           "data": "16/03/2026",
           "codcli": "83863",
           "cliente": "RENATO CRUZ DA SILVA 15335044748",
-          "produto": "COQUETEL COMPOSTO PINK MOON 6X2L",
-          "fantasia": "COMARY",
-          "qt": 2,
-          "valor": 229.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/03/2026",
-          "codcli": "83863",
-          "cliente": "RENATO CRUZ DA SILVA 15335044748",
           "produto": "NECTAR MANGA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
@@ -60283,6 +60273,16 @@ const VENDAS_DATA = {
           "fantasia": "COMARY",
           "qt": 3,
           "valor": 224.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "83863",
+          "cliente": "RENATO CRUZ DA SILVA 15335044748",
+          "produto": "COQUETEL COMPOSTO PINK MOON 6X2L",
+          "fantasia": "COMARY",
+          "qt": 2,
+          "valor": 229.8,
           "tipo": "Venda"
         },
         {
@@ -60459,20 +60459,20 @@ const VENDAS_DATA = {
           "data": "30/03/2026",
           "codcli": "85383",
           "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VILLA ROSA  ROSE 750ML",
-          "fantasia": "CASTAS",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
           "qt": 12,
-          "valor": 270.0,
+          "valor": 214.8,
           "tipo": "Venda"
         },
         {
           "data": "30/03/2026",
           "codcli": "85383",
           "cliente": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
           "qt": 12,
-          "valor": 214.8,
+          "valor": 270.0,
           "tipo": "Venda"
         },
         {
@@ -63415,16 +63415,6 @@ const VENDAS_DATA = {
           "data": "27/03/2026",
           "codcli": "76984",
           "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 3,
-          "valor": 82.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "76984",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
           "produto": "PINATI NUTS ORIGINAL 20X30G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -63449,6 +63439,16 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 2,
           "valor": 55.05,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 82.68,
           "tipo": "Venda"
         },
         {
@@ -65525,16 +65525,6 @@ const VENDAS_DATA = {
           "data": "27/03/2026",
           "codcli": "91357",
           "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "fantasia": "MINALBA",
-          "qt": 6,
-          "valor": 125.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "91357",
-          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
           "produto": "GUARAVITA NATURAL 24X290ML",
           "fantasia": "VITON",
           "qt": 2,
@@ -65559,6 +65549,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 6,
           "valor": 173.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "fantasia": "MINALBA",
+          "qt": 6,
+          "valor": 125.4,
           "tipo": "Venda"
         },
         {
@@ -65845,20 +65845,20 @@ const VENDAS_DATA = {
           "data": "27/03/2026",
           "codcli": "91585",
           "cliente": "HELENA TEMPEROS LTDA",
-          "produto": "PINATI NUTS COCO 20X30G",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
           "fantasia": "PINATI",
           "qt": 1,
-          "valor": 39.2,
+          "valor": 47.9,
           "tipo": "Venda"
         },
         {
           "data": "27/03/2026",
           "codcli": "91585",
           "cliente": "HELENA TEMPEROS LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "produto": "PINATI NUTS COCO 20X30G",
           "fantasia": "PINATI",
           "qt": 1,
-          "valor": 47.9,
+          "valor": 39.2,
           "tipo": "Venda"
         },
         {
@@ -67477,16 +67477,6 @@ const VENDAS_DATA = {
           "data": "15/04/2026",
           "codcli": "84064",
           "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 12,
-          "valor": 330.72,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "84064",
-          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
           "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -67511,6 +67501,16 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 71.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 12,
+          "valor": 330.72,
           "tipo": "Venda"
         },
         {
@@ -67647,7 +67647,7 @@ const VENDAS_DATA = {
           "data": "22/04/2026",
           "codcli": "84572",
           "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
@@ -67657,7 +67657,7 @@ const VENDAS_DATA = {
           "data": "22/04/2026",
           "codcli": "84572",
           "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
@@ -68667,16 +68667,6 @@ const VENDAS_DATA = {
           "data": "24/04/2026",
           "codcli": "92388",
           "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "NECTAR ABACAXI 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 59.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "92388",
-          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "NECTAR MANGA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
@@ -68698,6 +68688,16 @@ const VENDAS_DATA = {
           "codcli": "92388",
           "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "NECTAR GOIABA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "92388",
+          "cliente": "PHJC PEREIRA MERCADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "NECTAR ABACAXI 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 59.88,
@@ -68857,16 +68857,6 @@ const VENDAS_DATA = {
           "data": "16/04/2026",
           "codcli": "91619",
           "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
           "produto": "NECTAR MANGA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
@@ -68888,6 +68878,16 @@ const VENDAS_DATA = {
           "codcli": "91619",
           "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
           "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 2,
           "valor": 189.36,
@@ -69367,16 +69367,6 @@ const VENDAS_DATA = {
           "data": "17/04/2026",
           "codcli": "91357",
           "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 5,
-          "valor": 109.25,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "91357",
-          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "fantasia": "MINALBA",
           "qt": 6,
@@ -69391,6 +69381,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 6,
           "valor": 131.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "91357",
+          "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 109.25,
           "tipo": "Venda"
         },
         {
@@ -69587,20 +69587,20 @@ const VENDAS_DATA = {
           "data": "14/04/2026",
           "codcli": "91365",
           "cliente": "PANIFICACAO BARIRI LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 71.76,
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 6,
+          "valor": 165.36,
           "tipo": "Venda"
         },
         {
           "data": "14/04/2026",
           "codcli": "91365",
           "cliente": "PANIFICACAO BARIRI LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 6,
-          "valor": 165.36,
+          "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 71.76,
           "tipo": "Venda"
         },
         {
@@ -69611,16 +69611,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/04/2026",
-          "codcli": "91585",
-          "cliente": "HELENA TEMPEROS LTDA",
-          "produto": "NECTAR UVA TIAL 12X250ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 34.68,
           "tipo": "Venda"
         },
         {
@@ -69648,6 +69638,16 @@ const VENDAS_DATA = {
           "codcli": "91585",
           "cliente": "HELENA TEMPEROS LTDA",
           "produto": "NECTAR PESSEGO TIAL 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 34.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "91585",
+          "cliente": "HELENA TEMPEROS LTDA",
+          "produto": "NECTAR UVA TIAL 12X250ML",
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 34.68,
@@ -70717,16 +70717,6 @@ const VENDAS_DATA = {
           "data": "06/04/2026",
           "codcli": "91431",
           "cliente": "MSP COM ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL CEREJA",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 27.67,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "91431",
-          "cliente": "MSP COM ALIMENTOS LTDA",
           "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -70748,6 +70738,16 @@ const VENDAS_DATA = {
           "codcli": "91431",
           "cliente": "MSP COM ALIMENTOS LTDA",
           "produto": "4 PACK RED BULL MORANGO PESSEGO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.67,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "91431",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL CEREJA",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 27.67,
@@ -74961,16 +74961,6 @@ const VENDAS_DATA = {
           "data": "12/01/2026",
           "codcli": "91617",
           "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
-          "produto": "NECTAR MACA TIAL 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 70.3,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/01/2026",
-          "codcli": "91617",
-          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
           "produto": "GUARAVITA NATURAL 24X290ML",
           "fantasia": "VITON",
           "qt": 20,
@@ -74995,6 +74985,16 @@ const VENDAS_DATA = {
           "fantasia": "COMARY",
           "qt": 1,
           "valor": 94.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/01/2026",
+          "codcli": "91617",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "produto": "NECTAR MACA TIAL 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 70.3,
           "tipo": "Venda"
         },
         {
@@ -75861,7 +75861,7 @@ const VENDAS_DATA = {
           "data": "21/01/2026",
           "codcli": "91801",
           "cliente": "PADARIA CASA DO PAO COMERCIAL DE ALIMENTOS LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
@@ -75871,7 +75871,7 @@ const VENDAS_DATA = {
           "data": "21/01/2026",
           "codcli": "91801",
           "cliente": "PADARIA CASA DO PAO COMERCIAL DE ALIMENTOS LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
@@ -76021,16 +76021,6 @@ const VENDAS_DATA = {
           "data": "06/01/2026",
           "codcli": "91423",
           "cliente": "PACAEMBU PADARIA E CONFEITARIA LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 70.08,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/01/2026",
-          "codcli": "91423",
-          "cliente": "PACAEMBU PADARIA E CONFEITARIA LTDA",
           "produto": "NECTAR LARANJA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
@@ -76042,6 +76032,16 @@ const VENDAS_DATA = {
           "codcli": "91423",
           "cliente": "PACAEMBU PADARIA E CONFEITARIA LTDA",
           "produto": "NECTAR MANGA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 70.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/01/2026",
+          "codcli": "91423",
+          "cliente": "PACAEMBU PADARIA E CONFEITARIA LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 70.08,
@@ -76091,16 +76091,6 @@ const VENDAS_DATA = {
           "data": "21/01/2026",
           "codcli": "91423",
           "cliente": "PACAEMBU PADARIA E CONFEITARIA LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 2,
-          "valor": 55.74,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/01/2026",
-          "codcli": "91423",
-          "cliente": "PACAEMBU PADARIA E CONFEITARIA LTDA",
           "produto": "NECTAR PESSEGO TIAL 12X250ML",
           "fantasia": "TIAL",
           "qt": 1,
@@ -76125,6 +76115,16 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 2,
           "valor": 39.37,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/01/2026",
+          "codcli": "91423",
+          "cliente": "PACAEMBU PADARIA E CONFEITARIA LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 55.74,
           "tipo": "Venda"
         },
         {
@@ -77743,16 +77743,6 @@ const VENDAS_DATA = {
           "data": "03/02/2026",
           "codcli": "91619",
           "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 67.64,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/02/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
           "produto": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
           "fantasia": "TIAL",
           "qt": 1,
@@ -77774,6 +77764,16 @@ const VENDAS_DATA = {
           "codcli": "91619",
           "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
           "produto": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 67.64,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/02/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 67.64,
@@ -77813,16 +77813,6 @@ const VENDAS_DATA = {
           "data": "03/02/2026",
           "codcli": "91619",
           "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/02/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
           "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -77847,6 +77837,16 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 1,
           "valor": 24.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/02/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68,
           "tipo": "Venda"
         },
         {
@@ -78043,16 +78043,6 @@ const VENDAS_DATA = {
           "data": "25/02/2026",
           "codcli": "91619",
           "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/02/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -78074,6 +78064,16 @@ const VENDAS_DATA = {
           "codcli": "91619",
           "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/02/2026",
+          "codcli": "91619",
+          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
@@ -78223,16 +78223,6 @@ const VENDAS_DATA = {
           "data": "20/02/2026",
           "codcli": "91491",
           "cliente": "MERCADO ELLISCH E KELLER LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "20/02/2026",
-          "codcli": "91491",
-          "cliente": "MERCADO ELLISCH E KELLER LTDA",
           "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -78257,6 +78247,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 2,
           "valor": 42.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "20/02/2026",
+          "codcli": "91491",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68,
           "tipo": "Venda"
         },
         {
@@ -78613,16 +78613,6 @@ const VENDAS_DATA = {
           "data": "24/02/2026",
           "codcli": "93630",
           "cliente": "ATLM BANGU COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 59.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/02/2026",
-          "codcli": "93630",
-          "cliente": "ATLM BANGU COMERCIO DE GENEROS ALIMENTICIOS LTDA",
           "produto": "NECTAR CAJU 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
@@ -78644,6 +78634,16 @@ const VENDAS_DATA = {
           "codcli": "93630",
           "cliente": "ATLM BANGU COMERCIO DE GENEROS ALIMENTICIOS LTDA",
           "produto": "NECTAR LARANJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/02/2026",
+          "codcli": "93630",
+          "cliente": "ATLM BANGU COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 59.88,
@@ -82189,16 +82189,6 @@ const VENDAS_DATA = {
           "data": "26/03/2026",
           "codcli": "82639",
           "cliente": "ADEMILSON RODRIGUES RAMOS 10696710706",
-          "produto": "RED BULL MELANCIA 250ML CX C/24",
-          "fantasia": "RED BULL",
-          "qt": 5,
-          "valor": 826.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "82639",
-          "cliente": "ADEMILSON RODRIGUES RAMOS 10696710706",
           "produto": "RED BULL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 30,
@@ -82210,6 +82200,16 @@ const VENDAS_DATA = {
           "codcli": "82639",
           "cliente": "ADEMILSON RODRIGUES RAMOS 10696710706",
           "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 826.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "82639",
+          "cliente": "ADEMILSON RODRIGUES RAMOS 10696710706",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 5,
           "valor": 826.8,
@@ -82599,16 +82599,6 @@ const VENDAS_DATA = {
           "data": "24/03/2026",
           "codcli": "83678",
           "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
-          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-          "fantasia": "FANTE",
-          "qt": 1,
-          "valor": 78.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/03/2026",
-          "codcli": "83678",
-          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
           "produto": "LICOR JAGERMEISTER 700 ML",
           "fantasia": "INTERFOOD",
           "qt": 1,
@@ -82633,6 +82623,16 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 2,
           "valor": 41.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/03/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 78.9,
           "tipo": "Venda"
         },
         {
@@ -89363,16 +89363,6 @@ const VENDAS_DATA = {
           "data": "26/02/2026",
           "codcli": "80664",
           "cliente": "50.571.060 THIAGO FERREIRA DE OLIVEIRA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 135.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/02/2026",
-          "codcli": "80664",
-          "cliente": "50.571.060 THIAGO FERREIRA DE OLIVEIRA",
           "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -89397,6 +89387,16 @@ const VENDAS_DATA = {
           "fantasia": "CATUABA",
           "qt": 6,
           "valor": 101.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/02/2026",
+          "codcli": "80664",
+          "cliente": "50.571.060 THIAGO FERREIRA DE OLIVEIRA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 135.0,
           "tipo": "Venda"
         },
         {
@@ -89543,16 +89543,6 @@ const VENDAS_DATA = {
           "data": "12/02/2026",
           "codcli": "83678",
           "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
-          "produto": "CHAMP VEUVE CLICQUOT BRUT COOLER",
-          "fantasia": "HENNESSY",
-          "qt": 1,
-          "valor": 394.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/02/2026",
-          "codcli": "83678",
-          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
           "produto": "LICOR BALLENA COCO 750ML",
           "fantasia": "BALLENA",
           "qt": 1,
@@ -89577,6 +89567,16 @@ const VENDAS_DATA = {
           "fantasia": "AGUA NA CAIXA",
           "qt": 2,
           "valor": 67.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/02/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "CHAMP VEUVE CLICQUOT BRUT COOLER",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 394.9,
           "tipo": "Venda"
         },
         {
@@ -89893,7 +89893,7 @@ const VENDAS_DATA = {
           "data": "10/02/2026",
           "codcli": "91848",
           "cliente": "SEVERINO MAMEDES DE LIMA BAR E MERCEARIA",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
           "fantasia": "FANTE",
           "qt": 3,
           "valor": 71.7,
@@ -89903,7 +89903,7 @@ const VENDAS_DATA = {
           "data": "10/02/2026",
           "codcli": "91848",
           "cliente": "SEVERINO MAMEDES DE LIMA BAR E MERCEARIA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
           "fantasia": "FANTE",
           "qt": 3,
           "valor": 71.7,
@@ -89943,16 +89943,6 @@ const VENDAS_DATA = {
           "data": "10/02/2026",
           "codcli": "91848",
           "cliente": "SEVERINO MAMEDES DE LIMA BAR E MERCEARIA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 2,
-          "valor": 53.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/02/2026",
-          "codcli": "91848",
-          "cliente": "SEVERINO MAMEDES DE LIMA BAR E MERCEARIA",
           "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -89977,6 +89967,16 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 39.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "91848",
+          "cliente": "SEVERINO MAMEDES DE LIMA BAR E MERCEARIA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 53.8,
           "tipo": "Venda"
         },
         {
@@ -90533,16 +90533,6 @@ const VENDAS_DATA = {
           "data": "05/02/2026",
           "codcli": "91354",
           "cliente": "GR 3 ALIMENTOS E LATICINIOS LTDA",
-          "produto": "LICOR BANANINHA CARIOCA 750ML",
-          "fantasia": "BANANINHA CARIOCA",
-          "qt": 1,
-          "valor": 71.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/02/2026",
-          "codcli": "91354",
-          "cliente": "GR 3 ALIMENTOS E LATICINIOS LTDA",
           "produto": "GIN TANQUERAY  750 ML",
           "fantasia": "DIAGEO",
           "qt": 2,
@@ -90567,6 +90557,16 @@ const VENDAS_DATA = {
           "fantasia": "CATUABA",
           "qt": 2,
           "valor": 31.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/02/2026",
+          "codcli": "91354",
+          "cliente": "GR 3 ALIMENTOS E LATICINIOS LTDA",
+          "produto": "LICOR BANANINHA CARIOCA 750ML",
+          "fantasia": "BANANINHA CARIOCA",
+          "qt": 1,
+          "valor": 71.0,
           "tipo": "Venda"
         },
         {
@@ -92995,20 +92995,20 @@ const VENDAS_DATA = {
           "data": "15/01/2026",
           "codcli": "91468",
           "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 27.56,
+          "produto": "PATE ATUM TRADICIONAL 2X80G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 28.33,
           "tipo": "Venda"
         },
         {
           "data": "15/01/2026",
           "codcli": "91468",
           "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
-          "produto": "PATE ATUM TRADICIONAL 2X80G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 28.33,
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.56,
           "tipo": "Venda"
         },
         {
@@ -96349,7 +96349,7 @@ const VENDAS_DATA = {
           "data": "18/04/2026",
           "codcli": "72641",
           "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
-          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 135.0,
@@ -96359,7 +96359,7 @@ const VENDAS_DATA = {
           "data": "18/04/2026",
           "codcli": "72641",
           "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
-          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 135.0,
@@ -96589,16 +96589,6 @@ const VENDAS_DATA = {
           "data": "20/04/2026",
           "codcli": "81145",
           "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE COELHO DA ROCHA",
-          "produto": "GIN ROCKS SUNSET 1000ML",
-          "fantasia": "FANTE",
-          "qt": 3,
-          "valor": 67.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "81145",
-          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE COELHO DA ROCHA",
           "produto": "GIN ROCKS GREEN APPLE 1000ML",
           "fantasia": "FANTE",
           "qt": 3,
@@ -96620,6 +96610,16 @@ const VENDAS_DATA = {
           "codcli": "81145",
           "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE COELHO DA ROCHA",
           "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 3,
+          "valor": 67.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "81145",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE COELHO DA ROCHA",
+          "produto": "GIN ROCKS SUNSET 1000ML",
           "fantasia": "FANTE",
           "qt": 3,
           "valor": 67.5,
@@ -96739,7 +96739,7 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "82422",
           "cliente": "MERCADINHO TEM TUDO DE NILOPOLIS LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 65.28,
@@ -96749,7 +96749,7 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "82422",
           "cliente": "MERCADINHO TEM TUDO DE NILOPOLIS LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 65.28,
@@ -96849,16 +96849,6 @@ const VENDAS_DATA = {
           "data": "01/04/2026",
           "codcli": "80664",
           "cliente": "50.571.060 THIAGO FERREIRA DE OLIVEIRA",
-          "produto": "NECTAR MARACUJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 59.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "80664",
-          "cliente": "50.571.060 THIAGO FERREIRA DE OLIVEIRA",
           "produto": "RED BULL MELANCIA 250ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -96880,6 +96870,16 @@ const VENDAS_DATA = {
           "codcli": "80664",
           "cliente": "50.571.060 THIAGO FERREIRA DE OLIVEIRA",
           "produto": "NECTAR MANGA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "80664",
+          "cliente": "50.571.060 THIAGO FERREIRA DE OLIVEIRA",
+          "produto": "NECTAR MARACUJA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 59.88,
@@ -98009,20 +98009,20 @@ const VENDAS_DATA = {
           "data": "28/04/2026",
           "codcli": "91354",
           "cliente": "GR 3 ALIMENTOS E LATICINIOS LTDA",
-          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 23.94,
+          "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
+          "fantasia": "KAISER",
+          "qt": 10,
+          "valor": 529.0,
           "tipo": "Venda"
         },
         {
           "data": "28/04/2026",
           "codcli": "91354",
           "cliente": "GR 3 ALIMENTOS E LATICINIOS LTDA",
-          "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
-          "fantasia": "KAISER",
-          "qt": 10,
-          "valor": 529.0,
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 23.94,
           "tipo": "Venda"
         },
         {
@@ -98769,16 +98769,6 @@ const VENDAS_DATA = {
           "data": "20/04/2026",
           "codcli": "92040",
           "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
-          "produto": "WHISKY AME BUFFALO TRACE +1 COPO",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 144.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "92040",
-          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
           "produto": "WHISKY JIM BEAM HONEY 1L",
           "fantasia": "BEAM SUNTORY",
           "qt": 2,
@@ -98803,6 +98793,16 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 2,
           "valor": 159.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "92040",
+          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
+          "produto": "WHISKY AME BUFFALO TRACE +1 COPO",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 144.9,
           "tipo": "Venda"
         },
         {
@@ -99279,16 +99279,6 @@ const VENDAS_DATA = {
           "data": "15/04/2026",
           "codcli": "91443",
           "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM IRIS LTD",
-          "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "PERNOD",
-          "qt": 2,
-          "valor": 51.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "91443",
-          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM IRIS LTD",
           "produto": "CONHAQUE DOMECQ 1L",
           "fantasia": "PERNOD",
           "qt": 4,
@@ -99300,6 +99290,16 @@ const VENDAS_DATA = {
           "codcli": "91443",
           "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM IRIS LTD",
           "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 51.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "91443",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM IRIS LTD",
+          "produto": "RUM MONTILLA OURO 1000ML",
           "fantasia": "PERNOD",
           "qt": 2,
           "valor": 51.8,
@@ -99329,7 +99329,7 @@ const VENDAS_DATA = {
           "data": "28/04/2026",
           "codcli": "91508",
           "cliente": "MN GAZZOLI MERCEARIA LTDA",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 139.2,
@@ -99339,7 +99339,7 @@ const VENDAS_DATA = {
           "data": "28/04/2026",
           "codcli": "91508",
           "cliente": "MN GAZZOLI MERCEARIA LTDA",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 139.2,
@@ -99419,16 +99419,6 @@ const VENDAS_DATA = {
           "data": "27/04/2026",
           "codcli": "94337",
           "cliente": "COSTA MELO LOJA DE CONVENIENCIA LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 2,
-          "valor": 45.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "94337",
-          "cliente": "COSTA MELO LOJA DE CONVENIENCIA LTDA",
           "produto": "GIN BEEFEATER 750ML",
           "fantasia": "PERNOD",
           "qt": 6,
@@ -99450,6 +99440,16 @@ const VENDAS_DATA = {
           "codcli": "94337",
           "cliente": "COSTA MELO LOJA DE CONVENIENCIA LTDA",
           "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 45.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "94337",
+          "cliente": "COSTA MELO LOJA DE CONVENIENCIA LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
           "fantasia": "FANTE",
           "qt": 2,
           "valor": 45.0,
@@ -99993,16 +99993,6 @@ const VENDAS_DATA = {
           "data": "09/04/2026",
           "codcli": "3717",
           "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
-          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 43.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
           "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "fantasia": "HENNESSY",
           "qt": 4,
@@ -100027,6 +100017,16 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 114.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "3717",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 43.2,
           "tipo": "Venda"
         },
         {
@@ -101163,16 +101163,6 @@ const VENDAS_DATA = {
           "data": "09/04/2026",
           "codcli": "94417",
           "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
-          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 39.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "94417",
-          "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
           "produto": "AMARULA C LIQUEUR 750 ML",
           "fantasia": "INTERFOOD",
           "qt": 1,
@@ -101194,6 +101184,16 @@ const VENDAS_DATA = {
           "codcli": "94417",
           "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
           "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 39.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "94417",
+          "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 39.68,
@@ -105099,16 +105099,6 @@ const VENDAS_DATA = {
           "data": "25/03/2026",
           "codcli": "5371",
           "cliente": "DELICATESSEN LEBLON EIRELI EPP",
-          "produto": "LIQUEUR AMARULA RASBERRY 750 ML",
-          "fantasia": "INTERFOOD",
-          "qt": 1,
-          "valor": 89.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "5371",
-          "cliente": "DELICATESSEN LEBLON EIRELI EPP",
           "produto": "WHISKY BUCHANANS 12 YEARS 750 ML",
           "fantasia": "DIAGEO",
           "qt": 3,
@@ -105139,6 +105129,16 @@ const VENDAS_DATA = {
           "data": "25/03/2026",
           "codcli": "5371",
           "cliente": "DELICATESSEN LEBLON EIRELI EPP",
+          "produto": "LIQUEUR AMARULA RASBERRY 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/03/2026",
+          "codcli": "5371",
+          "cliente": "DELICATESSEN LEBLON EIRELI EPP",
           "produto": "KIT AMARULA COFFEE 750ML +1 COPO DUBAI",
           "fantasia": "INTERFOOD",
           "qt": 1,
@@ -105159,16 +105159,6 @@ const VENDAS_DATA = {
           "data": "27/03/2026",
           "codcli": "8984",
           "cliente": "SUPERMERCADO ULTRA 07 LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 3,
-          "valor": 195.84,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "8984",
-          "cliente": "SUPERMERCADO ULTRA 07 LTDA",
           "produto": "VANISH PO WHITE POTE 12X450G",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -105183,6 +105173,16 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 5,
           "valor": 326.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "8984",
+          "cliente": "SUPERMERCADO ULTRA 07 LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 3,
+          "valor": 195.84,
           "tipo": "Venda"
         },
         {
@@ -105379,16 +105379,6 @@ const VENDAS_DATA = {
           "data": "09/03/2026",
           "codcli": "53108",
           "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
-          "produto": "PINATI NUTS ORIGINAL 20X30G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 39.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/03/2026",
-          "codcli": "53108",
-          "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
           "produto": "PINATI NUTS BANANA 20X30G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -105400,6 +105390,16 @@ const VENDAS_DATA = {
           "codcli": "53108",
           "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
           "produto": "PINATI NUTS COCO 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 39.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/03/2026",
+          "codcli": "53108",
+          "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 39.2,
@@ -106763,16 +106763,6 @@ const VENDAS_DATA = {
           "data": "27/04/2026",
           "codcli": "52102",
           "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
-          "produto": "4 PACK RED BULL SUGAR FREE",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 32.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "52102",
-          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
           "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -106794,6 +106784,16 @@ const VENDAS_DATA = {
           "codcli": "52102",
           "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
           "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 32.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "4 PACK RED BULL SUGAR FREE",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 32.76,
@@ -106943,16 +106943,6 @@ const VENDAS_DATA = {
           "data": "06/04/2026",
           "codcli": "82130",
           "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 96.59,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "82130",
-          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
           "produto": "RED BULL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 65,
@@ -106964,6 +106954,16 @@ const VENDAS_DATA = {
           "codcli": "82130",
           "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 96.59,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "82130",
+          "cliente": "JOSE FRANCISCO COMERCIO DE BEBIDAS LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 96.59,
@@ -107043,6 +107043,16 @@ const VENDAS_DATA = {
           "data": "13/04/2026",
           "codcli": "79902",
           "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
           "produto": "4 PACK RED BULL SF AMORA",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -107053,16 +107063,6 @@ const VENDAS_DATA = {
           "data": "13/04/2026",
           "codcli": "79902",
           "cliente": "SAUCE & CO RESTAURANTE LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 27.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "79902",
-          "cliente": "SAUCE & CO RESTAURANTE LTDA",
           "produto": "4 PACK RED BULL ZERO",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -107071,16 +107071,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "13/04/2026",
-          "codcli": "79902",
-          "cliente": "SAUCE & CO RESTAURANTE LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/04/2026",
           "codcli": "79902",
           "cliente": "SAUCE & CO RESTAURANTE LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
@@ -107107,6 +107097,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 32.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
           "tipo": "Venda"
         },
         {
@@ -107183,16 +107183,6 @@ const VENDAS_DATA = {
           "data": "06/04/2026",
           "codcli": "90389",
           "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
-          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "90389",
-          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
           "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -107214,6 +107204,16 @@ const VENDAS_DATA = {
           "codcli": "90389",
           "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
           "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "90389",
+          "cliente": "TO NA SERRA BAR E RESTAURANTE LTDA",
+          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 87.6,
@@ -107413,16 +107413,6 @@ const VENDAS_DATA = {
           "data": "14/04/2026",
           "codcli": "86404",
           "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 27.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
           "produto": "4 PACK RED BULL SF AMORA",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -107447,6 +107437,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 10,
           "valor": 289.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.56,
           "tipo": "Venda"
         },
         {
@@ -107563,16 +107563,6 @@ const VENDAS_DATA = {
           "data": "27/04/2026",
           "codcli": "90835",
           "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
-          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 32.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "90835",
-          "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
           "produto": "4 PACK RED BULL MORANGO PESSEGO",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -107594,6 +107584,16 @@ const VENDAS_DATA = {
           "codcli": "90835",
           "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
           "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 32.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "90835",
+          "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 32.76,
@@ -107763,16 +107763,6 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "94518",
           "cliente": "PADARIA VERA CRUZ LTDA",
-          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 113.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "94518",
-          "cliente": "PADARIA VERA CRUZ LTDA",
           "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -107784,6 +107774,16 @@ const VENDAS_DATA = {
           "codcli": "94518",
           "cliente": "PADARIA VERA CRUZ LTDA",
           "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 113.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "94518",
+          "cliente": "PADARIA VERA CRUZ LTDA",
+          "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 113.28,
@@ -107853,20 +107853,20 @@ const VENDAS_DATA = {
           "data": "22/04/2026",
           "codcli": "94256",
           "cliente": "E.F.DO VALE MERCEARIA",
-          "produto": "4 PACK RED BULL ZERO",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 32.76,
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 12,
+          "valor": 209.4,
           "tipo": "Venda"
         },
         {
           "data": "22/04/2026",
           "codcli": "94256",
           "cliente": "E.F.DO VALE MERCEARIA",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "fantasia": "CATUABA",
-          "qt": 12,
-          "valor": 209.4,
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 32.76,
           "tipo": "Venda"
         },
         {
@@ -108053,20 +108053,20 @@ const VENDAS_DATA = {
           "data": "27/04/2026",
           "codcli": "93890",
           "cliente": "37.514.649 YURI BRAZ TOME DE SOUZA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 418.8,
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
           "tipo": "Venda"
         },
         {
           "data": "27/04/2026",
           "codcli": "93890",
           "cliente": "37.514.649 YURI BRAZ TOME DE SOUZA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7,
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 418.8,
           "tipo": "Venda"
         },
         {
@@ -110449,16 +110449,6 @@ const VENDAS_DATA = {
           "data": "30/03/2026",
           "codcli": "79902",
           "cliente": "SAUCE & CO RESTAURANTE LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "79902",
-          "cliente": "SAUCE & CO RESTAURANTE LTDA",
           "produto": "4 PACK RED BULL ZERO",
           "fantasia": "RED BULL",
           "qt": 2,
@@ -110483,6 +110473,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 27.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "79902",
+          "cliente": "SAUCE & CO RESTAURANTE LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
           "tipo": "Venda"
         },
         {
@@ -110689,16 +110689,6 @@ const VENDAS_DATA = {
           "data": "06/03/2026",
           "codcli": "86404",
           "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "fantasia": "MINALBA",
-          "qt": 5,
-          "valor": 144.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/03/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -110723,6 +110713,16 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 1,
           "valor": 21.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/03/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "fantasia": "MINALBA",
+          "qt": 5,
+          "valor": 144.5,
           "tipo": "Venda"
         },
         {
@@ -112161,7 +112161,7 @@ const VENDAS_DATA = {
           "data": "06/01/2026",
           "codcli": "86404",
           "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "produto": "4 PACK RED BULL SF AMORA",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 24.76,
@@ -112171,7 +112171,7 @@ const VENDAS_DATA = {
           "data": "06/01/2026",
           "codcli": "86404",
           "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL SF AMORA",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 24.76,
@@ -112803,16 +112803,6 @@ const VENDAS_DATA = {
           "data": "18/02/2026",
           "codcli": "52102",
           "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 43.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/02/2026",
-          "codcli": "52102",
-          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
           "produto": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -112837,6 +112827,16 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 71.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/02/2026",
+          "codcli": "52102",
+          "cliente": "PONTO SALUTE GASTRONOMIA LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 43.2,
           "tipo": "Venda"
         },
         {
@@ -113103,20 +113103,20 @@ const VENDAS_DATA = {
           "data": "11/02/2026",
           "codcli": "81490",
           "cliente": "MAYRON S BAR LTDA",
-          "produto": "4 PACK RED BULL TROPICAL 250ML",
+          "produto": "4 PACK RED BULL MELANCIA",
           "fantasia": "RED BULL",
-          "qt": 24,
-          "valor": 651.84,
+          "qt": 12,
+          "valor": 325.92,
           "tipo": "Venda"
         },
         {
           "data": "11/02/2026",
           "codcli": "81490",
           "cliente": "MAYRON S BAR LTDA",
-          "produto": "4 PACK RED BULL MELANCIA",
+          "produto": "4 PACK RED BULL TROPICAL 250ML",
           "fantasia": "RED BULL",
-          "qt": 12,
-          "valor": 325.92,
+          "qt": 24,
+          "valor": 651.84,
           "tipo": "Venda"
         },
         {
@@ -113353,16 +113353,6 @@ const VENDAS_DATA = {
           "data": "23/02/2026",
           "codcli": "86404",
           "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "fantasia": "MINALBA",
-          "qt": 5,
-          "valor": 144.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/02/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
           "produto": "4 PACK RED BULL SF POMELO 4X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -113387,6 +113377,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 27.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/02/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "fantasia": "MINALBA",
+          "qt": 5,
+          "valor": 144.5,
           "tipo": "Venda"
         },
         {
@@ -113423,16 +113423,6 @@ const VENDAS_DATA = {
           "data": "26/02/2026",
           "codcli": "86404",
           "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
-          "produto": "4 PACK RED BULL ZERO",
-          "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 55.96,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/02/2026",
-          "codcli": "86404",
-          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
           "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
           "fantasia": "RED BULL",
           "qt": 2,
@@ -113444,6 +113434,16 @@ const VENDAS_DATA = {
           "codcli": "86404",
           "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
           "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 55.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/02/2026",
+          "codcli": "86404",
+          "cliente": "57.479.104 ROSANGELA SARAIVA DE AZEVEDO",
+          "produto": "4 PACK RED BULL ZERO",
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 55.96,
@@ -114147,16 +114147,6 @@ const VENDAS_DATA = {
           "data": "03/01/2026",
           "codcli": "5761",
           "cliente": "ANEXO PRAIA BUZIOS LTDA",
-          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 443.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/01/2026",
-          "codcli": "5761",
-          "cliente": "ANEXO PRAIA BUZIOS LTDA",
           "produto": "4 PACK RED BULL TROPICAL 250ML",
           "fantasia": "RED BULL",
           "qt": 6,
@@ -114171,6 +114161,16 @@ const VENDAS_DATA = {
           "fantasia": "HENNESSY",
           "qt": 6,
           "valor": 395.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/01/2026",
+          "codcli": "5761",
+          "cliente": "ANEXO PRAIA BUZIOS LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 443.4,
           "tipo": "Venda"
         },
         {
@@ -115127,20 +115127,20 @@ const VENDAS_DATA = {
           "data": "12/01/2026",
           "codcli": "20796",
           "cliente": "BAR E RESTAURANTE ANCORAS LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 6,
-          "valor": 101.4,
+          "valor": 179.4,
           "tipo": "Venda"
         },
         {
           "data": "12/01/2026",
           "codcli": "20796",
           "cliente": "BAR E RESTAURANTE ANCORAS LTDA",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
           "fantasia": "CASTAS",
           "qt": 6,
-          "valor": 179.4,
+          "valor": 101.4,
           "tipo": "Venda"
         },
         {
@@ -116337,16 +116337,6 @@ const VENDAS_DATA = {
           "data": "26/01/2026",
           "codcli": "71195",
           "cliente": "COMERCIO E DEPOSITO DE BEBIDAS SUBZERO LTDA",
-          "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 709.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/01/2026",
-          "codcli": "71195",
-          "cliente": "COMERCIO E DEPOSITO DE BEBIDAS SUBZERO LTDA",
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 12,
@@ -116371,6 +116361,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 623.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/01/2026",
+          "codcli": "71195",
+          "cliente": "COMERCIO E DEPOSITO DE BEBIDAS SUBZERO LTDA",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 709.9,
           "tipo": "Venda"
         },
         {
@@ -117797,16 +117797,6 @@ const VENDAS_DATA = {
           "data": "21/01/2026",
           "codcli": "60324",
           "cliente": "E D MENESES MERCADO",
-          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
-          "fantasia": "AURORA",
-          "qt": 2,
-          "valor": 113.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/01/2026",
-          "codcli": "60324",
-          "cliente": "E D MENESES MERCADO",
           "produto": "VODKA ABSOLUT CX C/ 12X50ML",
           "fantasia": "PERNOD",
           "qt": 1,
@@ -117831,6 +117821,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 1,
           "valor": 129.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/01/2026",
+          "codcli": "60324",
+          "cliente": "E D MENESES MERCADO",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 113.8,
           "tipo": "Venda"
         },
         {
@@ -118637,16 +118637,6 @@ const VENDAS_DATA = {
           "data": "29/01/2026",
           "codcli": "74297",
           "cliente": "CONVENIENCIA BUZIANA LTDA",
-          "produto": "GIN GORDONS 750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 6,
-          "valor": 341.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "74297",
-          "cliente": "CONVENIENCIA BUZIANA LTDA",
           "produto": "COQUETEL BANANINHA REGGIANI 950ML",
           "fantasia": "CATUABA",
           "qt": 6,
@@ -118661,6 +118651,16 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 4,
           "valor": 139.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "74297",
+          "cliente": "CONVENIENCIA BUZIANA LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 341.4,
           "tipo": "Venda"
         },
         {
@@ -119377,16 +119377,6 @@ const VENDAS_DATA = {
           "data": "19/01/2026",
           "codcli": "76242",
           "cliente": "M.J.F BORGES BAR E RESTAURANTE",
-          "produto": "RED BULL 250ML CAIXA C/24 UNID",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 167.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "19/01/2026",
-          "codcli": "76242",
-          "cliente": "M.J.F BORGES BAR E RESTAURANTE",
           "produto": "WHISKY JACK DANIELS 1L",
           "fantasia": "BROWN",
           "qt": 1,
@@ -119408,6 +119398,16 @@ const VENDAS_DATA = {
           "codcli": "76242",
           "cliente": "M.J.F BORGES BAR E RESTAURANTE",
           "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/01/2026",
+          "codcli": "76242",
+          "cliente": "M.J.F BORGES BAR E RESTAURANTE",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 167.76,
@@ -120987,16 +120987,6 @@ const VENDAS_DATA = {
           "data": "15/01/2026",
           "codcli": "82523",
           "cliente": "PAULO HENRIQUE FRIGATO DA SILVA 11188302701",
-          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 167.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/01/2026",
-          "codcli": "82523",
-          "cliente": "PAULO HENRIQUE FRIGATO DA SILVA 11188302701",
           "produto": "RED BULL SUGAR FREE 250 ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 2,
@@ -121018,6 +121008,16 @@ const VENDAS_DATA = {
           "codcli": "82523",
           "cliente": "PAULO HENRIQUE FRIGATO DA SILVA 11188302701",
           "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/01/2026",
+          "codcli": "82523",
+          "cliente": "PAULO HENRIQUE FRIGATO DA SILVA 11188302701",
+          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 167.76,
@@ -121057,16 +121057,6 @@ const VENDAS_DATA = {
           "data": "15/01/2026",
           "codcli": "82523",
           "cliente": "PAULO HENRIQUE FRIGATO DA SILVA 11188302701",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 442.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/01/2026",
-          "codcli": "82523",
-          "cliente": "PAULO HENRIQUE FRIGATO DA SILVA 11188302701",
           "produto": "GIN BEEFEATER 750ML",
           "fantasia": "PERNOD",
           "qt": 6,
@@ -121091,6 +121081,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 718.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/01/2026",
+          "codcli": "82523",
+          "cliente": "PAULO HENRIQUE FRIGATO DA SILVA 11188302701",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 442.8,
           "tipo": "Venda"
         },
         {
@@ -122357,20 +122357,20 @@ const VENDAS_DATA = {
           "data": "22/01/2026",
           "codcli": "82557",
           "cliente": "DELIVERY ALFA COMERCIO DE BEBIDAS LTDA",
-          "produto": "4 PACK RED BULL TROPICAL 250ML",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
           "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 27.96,
+          "qt": 2,
+          "valor": 335.52,
           "tipo": "Venda"
         },
         {
           "data": "22/01/2026",
           "codcli": "82557",
           "cliente": "DELIVERY ALFA COMERCIO DE BEBIDAS LTDA",
-          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "produto": "4 PACK RED BULL TROPICAL 250ML",
           "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 335.52,
+          "qt": 1,
+          "valor": 27.96,
           "tipo": "Venda"
         },
         {
@@ -122527,16 +122527,6 @@ const VENDAS_DATA = {
           "data": "29/01/2026",
           "codcli": "84361",
           "cliente": "JHONATHAN AXEL GONCALVES FONTINELI FONSECA 17729792796",
-          "produto": "GIN GORDONS 750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 12,
-          "valor": 682.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "84361",
-          "cliente": "JHONATHAN AXEL GONCALVES FONTINELI FONSECA 17729792796",
           "produto": "ZIN TONICA 12X310ML",
           "fantasia": "HOB",
           "qt": 1,
@@ -122561,6 +122551,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 838.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "84361",
+          "cliente": "JHONATHAN AXEL GONCALVES FONTINELI FONSECA 17729792796",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 682.8,
           "tipo": "Venda"
         },
         {
@@ -124047,16 +124047,6 @@ const VENDAS_DATA = {
           "data": "30/01/2026",
           "codcli": "85735",
           "cliente": "DU MARKET COMERCIO DE A&B, PRESENTES LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/01/2026",
-          "codcli": "85735",
-          "cliente": "DU MARKET COMERCIO DE A&B, PRESENTES LTDA",
           "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -124071,6 +124061,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 175.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/01/2026",
+          "codcli": "85735",
+          "cliente": "DU MARKET COMERCIO DE A&B, PRESENTES LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 189.36,
           "tipo": "Venda"
         },
         {
@@ -124307,16 +124307,6 @@ const VENDAS_DATA = {
           "data": "06/01/2026",
           "codcli": "86028",
           "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
-          "produto": "RED BULL MELANCIA 250ML CX C/24",
-          "fantasia": "RED BULL",
-          "qt": 3,
-          "valor": 496.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/01/2026",
-          "codcli": "86028",
-          "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
           "produto": "WHISKY ROYAL SALUTE 700 ML",
           "fantasia": "PERNOD",
           "qt": 1,
@@ -124338,6 +124328,16 @@ const VENDAS_DATA = {
           "codcli": "86028",
           "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
           "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 496.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/01/2026",
+          "codcli": "86028",
+          "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 496.8,
@@ -124807,16 +124807,6 @@ const VENDAS_DATA = {
           "data": "27/01/2026",
           "codcli": "86028",
           "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
-          "produto": "PIRASSUNUNGA 51 965 ML",
-          "fantasia": "51",
-          "qt": 12,
-          "valor": 141.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/01/2026",
-          "codcli": "86028",
-          "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
           "produto": "4 PACK RED BULL SF AMORA",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -124841,6 +124831,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 3,
           "valor": 239.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/01/2026",
+          "codcli": "86028",
+          "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "fantasia": "51",
+          "qt": 12,
+          "valor": 141.6,
           "tipo": "Venda"
         },
         {
@@ -124877,16 +124877,6 @@ const VENDAS_DATA = {
           "data": "27/01/2026",
           "codcli": "86028",
           "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
-          "produto": "APERITIVO CAMPARI 998ML",
-          "fantasia": "CAMPARI",
-          "qt": 2,
-          "valor": 119.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/01/2026",
-          "codcli": "86028",
-          "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
           "produto": "VODCA BAM CIROC RED BERRY 750 ML",
           "fantasia": "DIAGEO",
           "qt": 2,
@@ -124911,6 +124901,16 @@ const VENDAS_DATA = {
           "fantasia": "CAMPARI",
           "qt": 2,
           "valor": 99.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/01/2026",
+          "codcli": "86028",
+          "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
+          "produto": "APERITIVO CAMPARI 998ML",
+          "fantasia": "CAMPARI",
+          "qt": 2,
+          "valor": 119.8,
           "tipo": "Venda"
         },
         {
@@ -125499,16 +125499,6 @@ const VENDAS_DATA = {
           "data": "09/02/2026",
           "codcli": "2954",
           "cliente": "SALVE ICARAI BAR E RESTAURANTE LTDA",
-          "produto": "RUM BACARDI SUPERIOR 980ML",
-          "fantasia": "BACARDI",
-          "qt": 1,
-          "valor": 34.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/02/2026",
-          "codcli": "2954",
-          "cliente": "SALVE ICARAI BAR E RESTAURANTE LTDA",
           "produto": "VODKA ABSOLUT - 1 LITRO",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -125523,6 +125513,16 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 3,
           "valor": 374.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "2954",
+          "cliente": "SALVE ICARAI BAR E RESTAURANTE LTDA",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 34.9,
           "tipo": "Venda"
         },
         {
@@ -127489,16 +127489,6 @@ const VENDAS_DATA = {
           "data": "03/02/2026",
           "codcli": "71846",
           "cliente": "LG RESTAURANTE LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 449.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/02/2026",
-          "codcli": "71846",
-          "cliente": "LG RESTAURANTE LTDA",
           "produto": "ESPUMANTE ALUD BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 12,
@@ -127529,6 +127519,16 @@ const VENDAS_DATA = {
           "data": "03/02/2026",
           "codcli": "71846",
           "cliente": "LG RESTAURANTE LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 449.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/02/2026",
+          "codcli": "71846",
+          "cliente": "LG RESTAURANTE LTDA",
           "produto": "ESPUMANTE ALUD ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 1,
@@ -127559,16 +127559,6 @@ const VENDAS_DATA = {
           "data": "04/02/2026",
           "codcli": "71846",
           "cliente": "LG RESTAURANTE LTDA",
-          "produto": "VINHO ROSE AZUL VENTOZELO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 479.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/02/2026",
-          "codcli": "71846",
-          "cliente": "LG RESTAURANTE LTDA",
           "produto": "VINHO ARESTI TRIS. SERIES CAB SAUV 750ML",
           "fantasia": "CASTAS",
           "qt": 3,
@@ -127593,6 +127583,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "71846",
+          "cliente": "LG RESTAURANTE LTDA",
+          "produto": "VINHO ROSE AZUL VENTOZELO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 479.4,
           "tipo": "Venda"
         },
         {
@@ -128129,16 +128129,6 @@ const VENDAS_DATA = {
           "data": "09/02/2026",
           "codcli": "74297",
           "cliente": "CONVENIENCIA BUZIANA LTDA",
-          "produto": "GIN TANQUERAY  750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 3,
-          "valor": 287.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/02/2026",
-          "codcli": "74297",
-          "cliente": "CONVENIENCIA BUZIANA LTDA",
           "produto": "SMIRNOFF ICE RASPBERRY (LATA) 24X269ML",
           "fantasia": "DIAGEO",
           "qt": 2,
@@ -128163,6 +128153,16 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 2,
           "valor": 149.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "74297",
+          "cliente": "CONVENIENCIA BUZIANA LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 287.7,
           "tipo": "Venda"
         },
         {
@@ -128199,16 +128199,6 @@ const VENDAS_DATA = {
           "data": "09/02/2026",
           "codcli": "74297",
           "cliente": "CONVENIENCIA BUZIANA LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 700ML",
-          "fantasia": "BROWN",
-          "qt": 1,
-          "valor": 99.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/02/2026",
-          "codcli": "74297",
-          "cliente": "CONVENIENCIA BUZIANA LTDA",
           "produto": "WHISKY JACK DANIELS 1L",
           "fantasia": "BROWN",
           "qt": 3,
@@ -128233,6 +128223,16 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 2,
           "valor": 199.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "74297",
+          "cliente": "CONVENIENCIA BUZIANA LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 700ML",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 99.9,
           "tipo": "Venda"
         },
         {
@@ -128349,16 +128349,6 @@ const VENDAS_DATA = {
           "data": "02/02/2026",
           "codcli": "71050",
           "cliente": "GIN & YANG DISTRIBUIDORA LTDA",
-          "produto": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 139.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/02/2026",
-          "codcli": "71050",
-          "cliente": "GIN & YANG DISTRIBUIDORA LTDA",
           "produto": "RUM BACARDI SUPERIOR 980ML",
           "fantasia": "BACARDI",
           "qt": 1,
@@ -128383,6 +128373,16 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 1,
           "valor": 124.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/02/2026",
+          "codcli": "71050",
+          "cliente": "GIN & YANG DISTRIBUIDORA LTDA",
+          "produto": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 139.9,
           "tipo": "Venda"
         },
         {
@@ -128599,16 +128599,6 @@ const VENDAS_DATA = {
           "data": "24/02/2026",
           "codcli": "76242",
           "cliente": "M.J.F BORGES BAR E RESTAURANTE",
-          "produto": "APERITIVO APEROL 750 ML",
-          "fantasia": "CAMPARI",
-          "qt": 6,
-          "valor": 299.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/02/2026",
-          "codcli": "76242",
-          "cliente": "M.J.F BORGES BAR E RESTAURANTE",
           "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
           "fantasia": "AURORA",
           "qt": 1,
@@ -128623,6 +128613,16 @@ const VENDAS_DATA = {
           "fantasia": "INTERFOOD",
           "qt": 1,
           "valor": 124.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/02/2026",
+          "codcli": "76242",
+          "cliente": "M.J.F BORGES BAR E RESTAURANTE",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "CAMPARI",
+          "qt": 6,
+          "valor": 299.4,
           "tipo": "Venda"
         },
         {
@@ -128729,16 +128729,6 @@ const VENDAS_DATA = {
           "data": "06/02/2026",
           "codcli": "78148",
           "cliente": "DISTRIBUIDORA DE BEBIDAS TUBARAO DE BUZIOS LTDA",
-          "produto": "GIN ROCKS GREEN APPLE 1000ML",
-          "fantasia": "FANTE",
-          "qt": 3,
-          "valor": 83.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/02/2026",
-          "codcli": "78148",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS TUBARAO DE BUZIOS LTDA",
           "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 3,
@@ -128763,6 +128753,16 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 3,
           "valor": 72.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "78148",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS TUBARAO DE BUZIOS LTDA",
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "fantasia": "FANTE",
+          "qt": 3,
+          "valor": 83.7,
           "tipo": "Venda"
         },
         {
@@ -128879,16 +128879,6 @@ const VENDAS_DATA = {
           "data": "13/02/2026",
           "codcli": "81242",
           "cliente": "QUALITYFOOD LOGISTICA GASTRONOMICA LTDA",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "fantasia": "CATUABA",
-          "qt": 42,
-          "valor": 793.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/02/2026",
-          "codcli": "81242",
-          "cliente": "QUALITYFOOD LOGISTICA GASTRONOMICA LTDA",
           "produto": "VINHO LATITUD 33 SAUVIGNON BLANC 750 ML",
           "fantasia": "HENNESSY",
           "qt": 12,
@@ -128913,6 +128903,16 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 18,
           "valor": 718.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/02/2026",
+          "codcli": "81242",
+          "cliente": "QUALITYFOOD LOGISTICA GASTRONOMICA LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 42,
+          "valor": 793.8,
           "tipo": "Venda"
         },
         {
@@ -129679,20 +129679,20 @@ const VENDAS_DATA = {
           "data": "11/02/2026",
           "codcli": "82523",
           "cliente": "PAULO HENRIQUE FRIGATO DA SILVA 11188302701",
-          "produto": "RED BULL SUGAR FREE 250 ML CX C/24",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
           "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 335.52,
+          "qt": 4,
+          "valor": 671.04,
           "tipo": "Venda"
         },
         {
           "data": "11/02/2026",
           "codcli": "82523",
           "cliente": "PAULO HENRIQUE FRIGATO DA SILVA 11188302701",
-          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "produto": "RED BULL SUGAR FREE 250 ML CX C/24",
           "fantasia": "RED BULL",
-          "qt": 4,
-          "valor": 671.04,
+          "qt": 2,
+          "valor": 335.52,
           "tipo": "Venda"
         },
         {
@@ -129829,16 +129829,6 @@ const VENDAS_DATA = {
           "data": "09/02/2026",
           "codcli": "82290",
           "cliente": "NA BRASA BROTHERS BBQ LTDA",
-          "produto": "RED BULL ZERO  24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 321.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/02/2026",
-          "codcli": "82290",
-          "cliente": "NA BRASA BROTHERS BBQ LTDA",
           "produto": "RED BULL 250ML CAIXA C/24 UNID",
           "fantasia": "RED BULL",
           "qt": 15,
@@ -129853,6 +129843,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 5,
           "valor": 802.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "82290",
+          "cliente": "NA BRASA BROTHERS BBQ LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 321.12,
           "tipo": "Venda"
         },
         {
@@ -130319,16 +130319,6 @@ const VENDAS_DATA = {
           "data": "16/02/2026",
           "codcli": "84592",
           "cliente": "MINI MERCADO G MARKET LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
-          "fantasia": "MINALBA",
-          "qt": 15,
-          "valor": 343.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/02/2026",
-          "codcli": "84592",
-          "cliente": "MINI MERCADO G MARKET LTDA",
           "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "fantasia": "MINALBA",
           "qt": 10,
@@ -130353,6 +130343,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 15,
           "valor": 328.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/02/2026",
+          "codcli": "84592",
+          "cliente": "MINI MERCADO G MARKET LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "fantasia": "MINALBA",
+          "qt": 15,
+          "valor": 343.5,
           "tipo": "Venda"
         },
         {
@@ -130429,16 +130429,6 @@ const VENDAS_DATA = {
           "data": "05/02/2026",
           "codcli": "86260",
           "cliente": "NEW LOUNGE CAMBOINHAS LTDA",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 311.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/02/2026",
-          "codcli": "86260",
-          "cliente": "NEW LOUNGE CAMBOINHAS LTDA",
           "produto": "BITTER ANGOSTURA AROMATIC 100 ML",
           "fantasia": "INTERFOOD",
           "qt": 1,
@@ -130463,6 +130453,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 330.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/02/2026",
+          "codcli": "86260",
+          "cliente": "NEW LOUNGE CAMBOINHAS LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 311.7,
           "tipo": "Venda"
         },
         {
@@ -131129,16 +131129,6 @@ const VENDAS_DATA = {
           "data": "05/02/2026",
           "codcli": "86028",
           "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 65.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/02/2026",
-          "codcli": "86028",
-          "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
           "produto": "RED BULL ZERO  24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -131163,6 +131153,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 3,
           "valor": 239.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/02/2026",
+          "codcli": "86028",
+          "cliente": "PATO NA JANELA LOUNGE BAR E LAZER LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 65.8,
           "tipo": "Venda"
         },
         {
@@ -133111,16 +133111,6 @@ const VENDAS_DATA = {
           "data": "31/03/2026",
           "codcli": "20765",
           "cliente": "J.W.C. COMERCIO DE BEBIDAS LTDA",
-          "produto": "COQUETEL PINK MOON 12X600ML - PET",
-          "fantasia": "COMARY",
-          "qt": 1,
-          "valor": 74.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "20765",
-          "cliente": "J.W.C. COMERCIO DE BEBIDAS LTDA",
           "produto": "RED BULL MELANCIA 250ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 2,
@@ -133145,6 +133135,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 3,
           "valor": 449.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "20765",
+          "cliente": "J.W.C. COMERCIO DE BEBIDAS LTDA",
+          "produto": "COQUETEL PINK MOON 12X600ML - PET",
+          "fantasia": "COMARY",
+          "qt": 1,
+          "valor": 74.9,
           "tipo": "Venda"
         },
         {
@@ -133651,7 +133651,7 @@ const VENDAS_DATA = {
           "data": "25/03/2026",
           "codcli": "50577",
           "cliente": "TROIA LOUNGE BAR E RESTAURANTE EIRELI",
-          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 24.0,
@@ -133661,7 +133661,7 @@ const VENDAS_DATA = {
           "data": "25/03/2026",
           "codcli": "50577",
           "cliente": "TROIA LOUNGE BAR E RESTAURANTE EIRELI",
-          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 24.0,
@@ -134041,16 +134041,6 @@ const VENDAS_DATA = {
           "data": "31/03/2026",
           "codcli": "71195",
           "cliente": "COMERCIO E DEPOSITO DE BEBIDAS SUBZERO LTDA",
-          "produto": "RED BULL TROPICAL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 3,
-          "valor": 496.08,
-          "tipo": "Venda"
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "71195",
-          "cliente": "COMERCIO E DEPOSITO DE BEBIDAS SUBZERO LTDA",
           "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "fantasia": "HENNESSY",
           "qt": 6,
@@ -134075,6 +134065,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 330.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "71195",
+          "cliente": "COMERCIO E DEPOSITO DE BEBIDAS SUBZERO LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 496.08,
           "tipo": "Venda"
         },
         {
@@ -134361,20 +134361,20 @@ const VENDAS_DATA = {
           "data": "02/03/2026",
           "codcli": "55490",
           "cliente": "GYPSY BAR E RESTAURANTE EIRELI",
-          "produto": "RED BULL TROPICAL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 167.76,
+          "produto": "VINHO CASA PERINI TANNAT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 2,
+          "valor": 75.0,
           "tipo": "Venda"
         },
         {
           "data": "02/03/2026",
           "codcli": "55490",
           "cliente": "GYPSY BAR E RESTAURANTE EIRELI",
-          "produto": "VINHO CASA PERINI TANNAT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 2,
-          "valor": 75.0,
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
           "tipo": "Venda"
         },
         {
@@ -134391,7 +134391,7 @@ const VENDAS_DATA = {
           "data": "23/03/2026",
           "codcli": "55490",
           "cliente": "GYPSY BAR E RESTAURANTE EIRELI",
-          "produto": "RED BULL TROPICAL 24X250ML",
+          "produto": "RED BULL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 167.76,
@@ -134401,7 +134401,7 @@ const VENDAS_DATA = {
           "data": "23/03/2026",
           "codcli": "55490",
           "cliente": "GYPSY BAR E RESTAURANTE EIRELI",
-          "produto": "RED BULL 24X250ML",
+          "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 167.76,
@@ -134571,20 +134571,20 @@ const VENDAS_DATA = {
           "data": "31/03/2026",
           "codcli": "72637",
           "cliente": "S G MONTEIRO LTDA",
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
           "fantasia": "HENNESSY",
           "qt": 2,
-          "valor": 139.8,
+          "valor": 151.8,
           "tipo": "Venda"
         },
         {
           "data": "31/03/2026",
           "codcli": "72637",
           "cliente": "S G MONTEIRO LTDA",
-          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "fantasia": "HENNESSY",
           "qt": 2,
-          "valor": 151.8,
+          "valor": 139.8,
           "tipo": "Venda"
         },
         {
@@ -135041,16 +135041,6 @@ const VENDAS_DATA = {
           "data": "12/03/2026",
           "codcli": "71846",
           "cliente": "LG RESTAURANTE LTDA",
-          "produto": "CERRO DE PEDRA PARCELAS MERLOT TINTO",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "71846",
-          "cliente": "LG RESTAURANTE LTDA",
           "produto": "ESPUMANTE ALUD BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -135072,6 +135062,16 @@ const VENDAS_DATA = {
           "codcli": "71846",
           "cliente": "LG RESTAURANTE LTDA",
           "produto": "VINHO ARESTI CABINA 56 SAUV BLANC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "12/03/2026",
+          "codcli": "71846",
+          "cliente": "LG RESTAURANTE LTDA",
+          "produto": "CERRO DE PEDRA PARCELAS MERLOT TINTO",
           "fantasia": "CASTAS",
           "qt": 2,
           "valor": 0.0,
@@ -135611,16 +135611,6 @@ const VENDAS_DATA = {
           "data": "23/03/2026",
           "codcli": "74297",
           "cliente": "CONVENIENCIA BUZIANA LTDA",
-          "produto": "RED BULL SF AMORA 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 163.35,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/03/2026",
-          "codcli": "74297",
-          "cliente": "CONVENIENCIA BUZIANA LTDA",
           "produto": "RED BULL SUGAR FREE 24X250ML",
           "fantasia": "RED BULL",
           "qt": 5,
@@ -135642,6 +135632,16 @@ const VENDAS_DATA = {
           "codcli": "74297",
           "cliente": "CONVENIENCIA BUZIANA LTDA",
           "produto": "RED BULL SF MAÇA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 163.35,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/03/2026",
+          "codcli": "74297",
+          "cliente": "CONVENIENCIA BUZIANA LTDA",
+          "produto": "RED BULL SF AMORA 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 163.35,
@@ -135781,16 +135781,6 @@ const VENDAS_DATA = {
           "data": "25/03/2026",
           "codcli": "74297",
           "cliente": "CONVENIENCIA BUZIANA LTDA",
-          "produto": "LICOR JAGERMEISTER 700 ML",
-          "fantasia": "INTERFOOD",
-          "qt": 2,
-          "valor": 219.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "74297",
-          "cliente": "CONVENIENCIA BUZIANA LTDA",
           "produto": "RED BULL SUGAR FREE 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -135815,6 +135805,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 286.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/03/2026",
+          "codcli": "74297",
+          "cliente": "CONVENIENCIA BUZIANA LTDA",
+          "produto": "LICOR JAGERMEISTER 700 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 2,
+          "valor": 219.8,
           "tipo": "Venda"
         },
         {
@@ -136161,16 +136161,6 @@ const VENDAS_DATA = {
           "data": "06/03/2026",
           "codcli": "82182",
           "cliente": "CAMILA LAROCCA DA COSTA 05624011725",
-          "produto": "PIRASSUNUNGA 51 965 ML",
-          "fantasia": "51",
-          "qt": 12,
-          "valor": 162.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/03/2026",
-          "codcli": "82182",
-          "cliente": "CAMILA LAROCCA DA COSTA 05624011725",
           "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
           "fantasia": "DIAGEO",
           "qt": 2,
@@ -136195,6 +136185,16 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 1,
           "valor": 149.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/03/2026",
+          "codcli": "82182",
+          "cliente": "CAMILA LAROCCA DA COSTA 05624011725",
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "fantasia": "51",
+          "qt": 12,
+          "valor": 162.0,
           "tipo": "Venda"
         },
         {
@@ -137321,16 +137321,6 @@ const VENDAS_DATA = {
           "data": "05/03/2026",
           "codcli": "84456",
           "cliente": "J.A ICARAI COMERCIO VAREJISTA DE ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL MELANCIA",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 27.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "84456",
-          "cliente": "J.A ICARAI COMERCIO VAREJISTA DE ALIMENTOS LTDA",
           "produto": "4 PACK RED BULL SF POMELO 4X250ML",
           "fantasia": "RED BULL",
           "qt": 2,
@@ -137352,6 +137342,16 @@ const VENDAS_DATA = {
           "codcli": "84456",
           "cliente": "J.A ICARAI COMERCIO VAREJISTA DE ALIMENTOS LTDA",
           "produto": "4 PACK RED BULL CEREJA",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "84456",
+          "cliente": "J.A ICARAI COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 27.56,
@@ -139973,16 +139973,6 @@ const VENDAS_DATA = {
           "data": "14/04/2026",
           "codcli": "2954",
           "cliente": "SALVE ICARAI BAR E RESTAURANTE LTDA",
-          "produto": "JACK DANIELS HONEY 1 L",
-          "fantasia": "BROWN",
-          "qt": 1,
-          "valor": 122.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "2954",
-          "cliente": "SALVE ICARAI BAR E RESTAURANTE LTDA",
           "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -140007,6 +139997,16 @@ const VENDAS_DATA = {
           "fantasia": "INTERFOOD",
           "qt": 1,
           "valor": 99.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "2954",
+          "cliente": "SALVE ICARAI BAR E RESTAURANTE LTDA",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 122.9,
           "tipo": "Venda"
         },
         {
@@ -140603,16 +140603,6 @@ const VENDAS_DATA = {
           "data": "08/04/2026",
           "codcli": "77836",
           "cliente": "DEPOSITO DA BOA DE BUZIOS LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 144.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "77836",
-          "cliente": "DEPOSITO DA BOA DE BUZIOS LTDA",
           "produto": "ESPUM CASA PERINI BRUT 750ML",
           "fantasia": "CASA PERINI",
           "qt": 6,
@@ -140634,6 +140624,16 @@ const VENDAS_DATA = {
           "codcli": "77836",
           "cliente": "DEPOSITO DA BOA DE BUZIOS LTDA",
           "produto": "GIN ROCKS 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 144.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "77836",
+          "cliente": "DEPOSITO DA BOA DE BUZIOS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 144.0,
@@ -140973,16 +140973,6 @@ const VENDAS_DATA = {
           "data": "13/04/2026",
           "codcli": "73559",
           "cliente": "COMUKERIA ALIMENTOS LTDA",
-          "produto": "RED BULL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 196.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/04/2026",
-          "codcli": "73559",
-          "cliente": "COMUKERIA ALIMENTOS LTDA",
           "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -140994,6 +140984,16 @@ const VENDAS_DATA = {
           "codcli": "73559",
           "cliente": "COMUKERIA ALIMENTOS LTDA",
           "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "73559",
+          "cliente": "COMUKERIA ALIMENTOS LTDA",
+          "produto": "RED BULL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 196.56,
@@ -141033,7 +141033,7 @@ const VENDAS_DATA = {
           "data": "17/04/2026",
           "codcli": "73559",
           "cliente": "COMUKERIA ALIMENTOS LTDA",
-          "produto": "RED BULL TROPICAL 24X250ML",
+          "produto": "RED BULL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 196.56,
@@ -141043,7 +141043,7 @@ const VENDAS_DATA = {
           "data": "17/04/2026",
           "codcli": "73559",
           "cliente": "COMUKERIA ALIMENTOS LTDA",
-          "produto": "RED BULL 24X250ML",
+          "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 196.56,
@@ -141073,16 +141073,6 @@ const VENDAS_DATA = {
           "data": "17/04/2026",
           "codcli": "73559",
           "cliente": "COMUKERIA ALIMENTOS LTDA",
-          "produto": "APERITIVO APEROL 750 ML",
-          "fantasia": "CAMPARI",
-          "qt": 6,
-          "valor": 293.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "73559",
-          "cliente": "COMUKERIA ALIMENTOS LTDA",
           "produto": "4 PACK RED BULL SF POMELO 4X250ML",
           "fantasia": "RED BULL",
           "qt": 3,
@@ -141097,6 +141087,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 18,
           "valor": 592.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "73559",
+          "cliente": "COMUKERIA ALIMENTOS LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "CAMPARI",
+          "qt": 6,
+          "valor": 293.4,
           "tipo": "Venda"
         },
         {
@@ -141183,16 +141183,6 @@ const VENDAS_DATA = {
           "data": "28/04/2026",
           "codcli": "73559",
           "cliente": "COMUKERIA ALIMENTOS LTDA",
-          "produto": "RED BULL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 393.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "73559",
-          "cliente": "COMUKERIA ALIMENTOS LTDA",
           "produto": "WHISKY JW BLONDE 750ML",
           "fantasia": "DIAGEO",
           "qt": 1,
@@ -141217,6 +141207,16 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 1,
           "valor": 65.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "73559",
+          "cliente": "COMUKERIA ALIMENTOS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 393.12,
           "tipo": "Venda"
         },
         {
@@ -141543,16 +141543,6 @@ const VENDAS_DATA = {
           "data": "02/04/2026",
           "codcli": "50401",
           "cliente": "MERCADO E DEPOSITO DE BEBIDAS DA ALDEIA LTDA",
-          "produto": "RUM BACARDI SUPERIOR 980ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 382.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "50401",
-          "cliente": "MERCADO E DEPOSITO DE BEBIDAS DA ALDEIA LTDA",
           "produto": "GIN ROCKS 1000ML",
           "fantasia": "FANTE",
           "qt": 6,
@@ -141567,6 +141557,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 389.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "50401",
+          "cliente": "MERCADO E DEPOSITO DE BEBIDAS DA ALDEIA LTDA",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 382.8,
           "tipo": "Venda"
         },
         {
@@ -141923,20 +141923,20 @@ const VENDAS_DATA = {
           "data": "28/04/2026",
           "codcli": "55381",
           "cliente": "THE DUCK BAR E RESTAURANTE LTDA",
-          "produto": "RED BULL TROPICAL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 196.56,
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "fantasia": "51",
+          "qt": 2,
+          "valor": 27.0,
           "tipo": "Venda"
         },
         {
           "data": "28/04/2026",
           "codcli": "55381",
           "cliente": "THE DUCK BAR E RESTAURANTE LTDA",
-          "produto": "PIRASSUNUNGA 51 965 ML",
-          "fantasia": "51",
-          "qt": 2,
-          "valor": 27.0,
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56,
           "tipo": "Venda"
         },
         {
@@ -142093,20 +142093,20 @@ const VENDAS_DATA = {
           "data": "20/04/2026",
           "codcli": "68670",
           "cliente": "G. M. TAMBURRINO BAR E RESTAURANTE",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
           "fantasia": "CASTAS",
           "qt": 12,
-          "valor": 394.8,
+          "valor": 538.8,
           "tipo": "Venda"
         },
         {
           "data": "20/04/2026",
           "codcli": "68670",
           "cliente": "G. M. TAMBURRINO BAR E RESTAURANTE",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 12,
-          "valor": 538.8,
+          "valor": 394.8,
           "tipo": "Venda"
         },
         {
@@ -142463,16 +142463,6 @@ const VENDAS_DATA = {
           "data": "20/04/2026",
           "codcli": "71846",
           "cliente": "LG RESTAURANTE LTDA",
-          "produto": "CERRO DE PEDRA PARCELAS MERLOT TINTO",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 407.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "71846",
-          "cliente": "LG RESTAURANTE LTDA",
           "produto": "ESPUMANTE ALUD BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 6,
@@ -142497,6 +142487,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 539.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "71846",
+          "cliente": "LG RESTAURANTE LTDA",
+          "produto": "CERRO DE PEDRA PARCELAS MERLOT TINTO",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 407.4,
           "tipo": "Venda"
         },
         {
@@ -142603,16 +142603,6 @@ const VENDAS_DATA = {
           "data": "27/04/2026",
           "codcli": "71846",
           "cliente": "LG RESTAURANTE LTDA",
-          "produto": "CERRO DE PEDRA CHARDONNAY JOVEM BCO",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 539.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "71846",
-          "cliente": "LG RESTAURANTE LTDA",
           "produto": "VINHO FINCA FELIZ TESORO LA CIELITO",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -142637,6 +142627,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 329.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "71846",
+          "cliente": "LG RESTAURANTE LTDA",
+          "produto": "CERRO DE PEDRA CHARDONNAY JOVEM BCO",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 539.4,
           "tipo": "Venda"
         },
         {
@@ -143093,16 +143093,6 @@ const VENDAS_DATA = {
           "data": "20/04/2026",
           "codcli": "76242",
           "cliente": "M.J.F BORGES BAR E RESTAURANTE",
-          "produto": "APERITIVO CAMPARI 998ML",
-          "fantasia": "CAMPARI",
-          "qt": 1,
-          "valor": 52.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "76242",
-          "cliente": "M.J.F BORGES BAR E RESTAURANTE",
           "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -143127,6 +143117,16 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 1,
           "valor": 129.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "76242",
+          "cliente": "M.J.F BORGES BAR E RESTAURANTE",
+          "produto": "APERITIVO CAMPARI 998ML",
+          "fantasia": "CAMPARI",
+          "qt": 1,
+          "valor": 52.9,
           "tipo": "Venda"
         },
         {
@@ -143313,7 +143313,7 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "81046",
           "cliente": "RESTAURANTE AF ARCANJOS BLUE SUNSET LTDA",
-          "produto": "RED BULL ZERO  24X250ML",
+          "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 196.56,
@@ -143323,7 +143323,7 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "81046",
           "cliente": "RESTAURANTE AF ARCANJOS BLUE SUNSET LTDA",
-          "produto": "RED BULL TROPICAL 24X250ML",
+          "produto": "RED BULL ZERO  24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 196.56,
@@ -143413,16 +143413,6 @@ const VENDAS_DATA = {
           "data": "10/04/2026",
           "codcli": "82182",
           "cliente": "CAMILA LAROCCA DA COSTA 05624011725",
-          "produto": "RED BULL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 196.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/04/2026",
-          "codcli": "82182",
-          "cliente": "CAMILA LAROCCA DA COSTA 05624011725",
           "produto": "COMARY MELFORT COQUETEL DE MEL 1L",
           "fantasia": "COMARY",
           "qt": 1,
@@ -143447,6 +143437,16 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 1,
           "valor": 207.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/04/2026",
+          "codcli": "82182",
+          "cliente": "CAMILA LAROCCA DA COSTA 05624011725",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56,
           "tipo": "Venda"
         },
         {
@@ -144443,16 +144443,6 @@ const VENDAS_DATA = {
           "data": "07/04/2026",
           "codcli": "82700",
           "cliente": "PERFECT BEER BUZIOS LTDA",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 197.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "82700",
-          "cliente": "PERFECT BEER BUZIOS LTDA",
           "produto": "GIN BEEFEATER 750ML",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -144477,6 +144467,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 6,
           "valor": 575.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "82700",
+          "cliente": "PERFECT BEER BUZIOS LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 197.4,
           "tipo": "Venda"
         },
         {
@@ -145073,20 +145073,20 @@ const VENDAS_DATA = {
           "data": "03/04/2026",
           "codcli": "86260",
           "cliente": "NEW LOUNGE CAMBOINHAS LTDA",
-          "produto": "RUM BACARDI SUPERIOR 980ML",
-          "fantasia": "BACARDI",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
           "qt": 1,
-          "valor": 31.9,
+          "valor": 95.9,
           "tipo": "Venda"
         },
         {
           "data": "03/04/2026",
           "codcli": "86260",
           "cliente": "NEW LOUNGE CAMBOINHAS LTDA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "fantasia": "BACARDI",
           "qt": 1,
-          "valor": 95.9,
+          "valor": 31.9,
           "tipo": "Venda"
         },
         {
@@ -146093,16 +146093,6 @@ const VENDAS_DATA = {
           "data": "16/04/2026",
           "codcli": "90632",
           "cliente": "QUIOSQUE DO BAIANO BAR LTDA",
-          "produto": "LICOR BANANINHA CARIOCA 750ML",
-          "fantasia": "BANANINHA CARIOCA",
-          "qt": 3,
-          "valor": 209.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "90632",
-          "cliente": "QUIOSQUE DO BAIANO BAR LTDA",
           "produto": "LICOR ESP DIEGO ZAMORA 43 CHOCOLATE",
           "fantasia": "AURORA",
           "qt": 1,
@@ -146127,6 +146117,16 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 6,
           "valor": 251.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "90632",
+          "cliente": "QUIOSQUE DO BAIANO BAR LTDA",
+          "produto": "LICOR BANANINHA CARIOCA 750ML",
+          "fantasia": "BANANINHA CARIOCA",
+          "qt": 3,
+          "valor": 209.7,
           "tipo": "Venda"
         },
         {
@@ -146433,16 +146433,6 @@ const VENDAS_DATA = {
           "data": "16/04/2026",
           "codcli": "90632",
           "cliente": "QUIOSQUE DO BAIANO BAR LTDA",
-          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
-          "fantasia": "HOB",
-          "qt": 3,
-          "valor": 119.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "90632",
-          "cliente": "QUIOSQUE DO BAIANO BAR LTDA",
           "produto": "LICOR COINTREAU 700 ML",
           "fantasia": "INTERFOOD",
           "qt": 3,
@@ -146467,6 +146457,16 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 2,
           "valor": 113.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "90632",
+          "cliente": "QUIOSQUE DO BAIANO BAR LTDA",
+          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+          "fantasia": "HOB",
+          "qt": 3,
+          "valor": 119.7,
           "tipo": "Venda"
         },
         {
@@ -147123,16 +147123,6 @@ const VENDAS_DATA = {
           "data": "16/04/2026",
           "codcli": "93497",
           "cliente": "24.009.526 DANIELA DE MELLO CARVALHO",
-          "produto": "GIN BOMBAY SAPPHIRE 750ML",
-          "fantasia": "BACARDI",
-          "qt": 1,
-          "valor": 71.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/04/2026",
-          "codcli": "93497",
-          "cliente": "24.009.526 DANIELA DE MELLO CARVALHO",
           "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "fantasia": "HENNESSY",
           "qt": 1,
@@ -147157,6 +147147,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 2,
           "valor": 111.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "93497",
+          "cliente": "24.009.526 DANIELA DE MELLO CARVALHO",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 71.9,
           "tipo": "Venda"
         },
         {
@@ -147363,16 +147363,6 @@ const VENDAS_DATA = {
           "data": "09/04/2026",
           "codcli": "91806",
           "cliente": "RECANTO DO PONTAL DO ATALAIA EMPREENDIMENTOS LTDA",
-          "produto": "VILLA ROSA COLHEITA ROSE 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "91806",
-          "cliente": "RECANTO DO PONTAL DO ATALAIA EMPREENDIMENTOS LTDA",
           "produto": "VILLA ROSA COLHEITA TINTO 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -147394,6 +147384,16 @@ const VENDAS_DATA = {
           "codcli": "91806",
           "cliente": "RECANTO DO PONTAL DO ATALAIA EMPREENDIMENTOS LTDA",
           "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "91806",
+          "cliente": "RECANTO DO PONTAL DO ATALAIA EMPREENDIMENTOS LTDA",
+          "produto": "VILLA ROSA COLHEITA ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
           "valor": 0.0,
@@ -161717,16 +161717,6 @@ const VENDAS_DATA = {
           "data": "07/01/2026",
           "codcli": "58819",
           "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "AGUA DE COCO TIAL 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 130.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/01/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
           "produto": "NECTAR MANGA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
@@ -161751,6 +161741,16 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 51.24,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/01/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "AGUA DE COCO TIAL 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 130.68,
           "tipo": "Venda"
         },
         {
@@ -162627,16 +162627,6 @@ const VENDAS_DATA = {
           "data": "28/01/2026",
           "codcli": "90484",
           "cliente": "MERCADO RC DE ITAGUAI LTDA",
-          "produto": "NECTAR MARACUJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/01/2026",
-          "codcli": "90484",
-          "cliente": "MERCADO RC DE ITAGUAI LTDA",
           "produto": "NECTAR MANGA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 2,
@@ -162661,6 +162651,16 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/01/2026",
+          "codcli": "90484",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 119.76,
           "tipo": "Venda"
         },
         {
@@ -163359,20 +163359,20 @@ const VENDAS_DATA = {
           "data": "12/02/2026",
           "codcli": "6671",
           "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
-          "produto": "CHA VERDE FRUTAS VERM.DESINCHA.12X250ML",
+          "produto": "CHA VERDE ABACAX HORT DESINCHA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
-          "valor": 119.88,
+          "valor": 119.8,
           "tipo": "Venda"
         },
         {
           "data": "12/02/2026",
           "codcli": "6671",
           "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
-          "produto": "CHA VERDE ABACAX HORT DESINCHA 12X1000ML",
+          "produto": "CHA VERDE FRUTAS VERM.DESINCHA.12X250ML",
           "fantasia": "TIAL",
           "qt": 1,
-          "valor": 119.8,
+          "valor": 119.88,
           "tipo": "Venda"
         },
         {
@@ -163769,20 +163769,20 @@ const VENDAS_DATA = {
           "data": "20/02/2026",
           "codcli": "83643",
           "cliente": "COMERCIO DE BEBIDAS DOS OLIVEIRAS LTDA",
-          "produto": "GIN ROCKS 1000ML",
-          "fantasia": "FANTE",
+          "produto": "GIN GORDONS PINK 700ML",
+          "fantasia": "DIAGEO",
           "qt": 6,
-          "valor": 135.0,
+          "valor": 365.4,
           "tipo": "Venda"
         },
         {
           "data": "20/02/2026",
           "codcli": "83643",
           "cliente": "COMERCIO DE BEBIDAS DOS OLIVEIRAS LTDA",
-          "produto": "GIN GORDONS PINK 700ML",
-          "fantasia": "DIAGEO",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "FANTE",
           "qt": 6,
-          "valor": 365.4,
+          "valor": 135.0,
           "tipo": "Venda"
         },
         {
@@ -164509,16 +164509,6 @@ const VENDAS_DATA = {
           "data": "25/02/2026",
           "codcli": "90880",
           "cliente": "FERNANDO DOS SANTOS LOCACOES DE ARTIGOS PARA FESTA",
-          "produto": "RC SARDINHA OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 199.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/02/2026",
-          "codcli": "90880",
-          "cliente": "FERNANDO DOS SANTOS LOCACOES DE ARTIGOS PARA FESTA",
           "produto": "4 PACK RED BULL",
           "fantasia": "RED BULL",
           "qt": 2,
@@ -164543,6 +164533,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 136.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/02/2026",
+          "codcli": "90880",
+          "cliente": "FERNANDO DOS SANTOS LOCACOES DE ARTIGOS PARA FESTA",
+          "produto": "RC SARDINHA OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 199.5,
           "tipo": "Venda"
         },
         {
@@ -165171,16 +165171,6 @@ const VENDAS_DATA = {
           "data": "16/03/2026",
           "codcli": "58819",
           "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 59.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/03/2026",
-          "codcli": "58819",
-          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
           "produto": "ST PIERRE VIDRO 275ML RED MINT CX C/12",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -165202,6 +165192,16 @@ const VENDAS_DATA = {
           "codcli": "58819",
           "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
           "produto": "NECTAR ABACAXI 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "58819",
+          "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 59.88,
@@ -165351,16 +165351,6 @@ const VENDAS_DATA = {
           "data": "17/03/2026",
           "codcli": "77809",
           "cliente": "MERCADO RIO SUL DE XEREM LTDA",
-          "produto": "NECTAR LARANJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 117.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/03/2026",
-          "codcli": "77809",
-          "cliente": "MERCADO RIO SUL DE XEREM LTDA",
           "produto": "NECTAR MANGA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 3,
@@ -165385,6 +165375,16 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 3,
           "valor": 176.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/03/2026",
+          "codcli": "77809",
+          "cliente": "MERCADO RIO SUL DE XEREM LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 117.36,
           "tipo": "Venda"
         },
         {
@@ -165811,16 +165811,6 @@ const VENDAS_DATA = {
           "data": "25/03/2026",
           "codcli": "83627",
           "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 399.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/03/2026",
-          "codcli": "83627",
-          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
           "produto": "GUARAVITON GINSENG 12X500ML",
           "fantasia": "VITON",
           "qt": 10,
@@ -165835,6 +165825,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 45.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/03/2026",
+          "codcli": "83627",
+          "cliente": "MERCADO SANTO ALEIXO RJ LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 399.0,
           "tipo": "Venda"
         },
         {
@@ -166731,16 +166731,6 @@ const VENDAS_DATA = {
           "data": "02/03/2026",
           "codcli": "85931",
           "cliente": "FAMILIA MARIO BROS LTDA",
-          "produto": "GIN BEEFEATER BOTANICS 750ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 497.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/03/2026",
-          "codcli": "85931",
-          "cliente": "FAMILIA MARIO BROS LTDA",
           "produto": "GIN ROCKS GREEN APPLE 1000ML",
           "fantasia": "FANTE",
           "qt": 6,
@@ -166771,6 +166761,16 @@ const VENDAS_DATA = {
           "data": "02/03/2026",
           "codcli": "85931",
           "cliente": "FAMILIA MARIO BROS LTDA",
+          "produto": "GIN BEEFEATER BOTANICS 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 497.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "85931",
+          "cliente": "FAMILIA MARIO BROS LTDA",
           "produto": "VODKA ABSOLUT - 1 LITRO",
           "fantasia": "PERNOD",
           "qt": 4,
@@ -166781,20 +166781,20 @@ const VENDAS_DATA = {
           "data": "18/03/2026",
           "codcli": "85931",
           "cliente": "FAMILIA MARIO BROS LTDA",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS  750 ML",
-          "fantasia": "PERNOD",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
           "qt": 6,
-          "valor": 509.4,
+          "valor": 135.0,
           "tipo": "Venda"
         },
         {
           "data": "18/03/2026",
           "codcli": "85931",
           "cliente": "FAMILIA MARIO BROS LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS  750 ML",
+          "fantasia": "PERNOD",
           "qt": 6,
-          "valor": 135.0,
+          "valor": 509.4,
           "tipo": "Venda"
         },
         {
@@ -181933,7 +181933,7 @@ const VENDAS_DATA = {
           "data": "31/03/2026",
           "codcli": "84612",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 3,
           "valor": 266.4,
@@ -181943,7 +181943,7 @@ const VENDAS_DATA = {
           "data": "31/03/2026",
           "codcli": "84612",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
+          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 3,
           "valor": 266.4,
@@ -183359,16 +183359,6 @@ const VENDAS_DATA = {
           "data": "21/01/2026",
           "codcli": "77585",
           "cliente": "SALES DE SOUZA E FRANCA BAR LTDA",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 419.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/01/2026",
-          "codcli": "77585",
-          "cliente": "SALES DE SOUZA E FRANCA BAR LTDA",
           "produto": "VINHO ADELE ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 6,
@@ -183393,6 +183383,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 3,
           "valor": 149.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/01/2026",
+          "codcli": "77585",
+          "cliente": "SALES DE SOUZA E FRANCA BAR LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 419.4,
           "tipo": "Venda"
         },
         {
@@ -184469,16 +184469,6 @@ const VENDAS_DATA = {
           "data": "27/01/2026",
           "codcli": "72102",
           "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
-          "produto": "APERITIVO APEROL 750 ML",
-          "fantasia": "CAMPARI",
-          "qt": 2,
-          "valor": 75.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/01/2026",
-          "codcli": "72102",
-          "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
           "produto": "RED BULL SUGAR FREE 250 ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -184503,6 +184493,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 2,
           "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/01/2026",
+          "codcli": "72102",
+          "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "CAMPARI",
+          "qt": 2,
+          "valor": 75.8,
           "tipo": "Venda"
         },
         {
@@ -184929,16 +184929,6 @@ const VENDAS_DATA = {
           "data": "29/01/2026",
           "codcli": "74744",
           "cliente": "SEGREDO DA MODA LTDA",
-          "produto": "4 PACK RED BULL SF AMORA",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 27.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "74744",
-          "cliente": "SEGREDO DA MODA LTDA",
           "produto": "4 PACK RED BULL",
           "fantasia": "RED BULL",
           "qt": 3,
@@ -184950,6 +184940,16 @@ const VENDAS_DATA = {
           "codcli": "74744",
           "cliente": "SEGREDO DA MODA LTDA",
           "produto": "4 PACK RED BULL SUMMER SF MAÇA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "74744",
+          "cliente": "SEGREDO DA MODA LTDA",
+          "produto": "4 PACK RED BULL SF AMORA",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 27.56,
@@ -186119,16 +186119,6 @@ const VENDAS_DATA = {
           "data": "16/01/2026",
           "codcli": "81237",
           "cliente": "ARMOND CONVENIENCIA LTDA",
-          "produto": "RED BULL SF POMELO 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 160.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/01/2026",
-          "codcli": "81237",
-          "cliente": "ARMOND CONVENIENCIA LTDA",
           "produto": "RED BULL SUGAR FREE 250 ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -186153,6 +186143,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 119.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/01/2026",
+          "codcli": "81237",
+          "cliente": "ARMOND CONVENIENCIA LTDA",
+          "produto": "RED BULL SF POMELO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 160.56,
           "tipo": "Venda"
         },
         {
@@ -187579,16 +187579,6 @@ const VENDAS_DATA = {
           "data": "14/01/2026",
           "codcli": "81698",
           "cliente": "I C OTTE MONTEIRO SUPERMERCADO LTDA",
-          "produto": "RED BULL 250ML CAIXA C/24 UNID",
-          "fantasia": "RED BULL",
-          "qt": 40,
-          "valor": 6134.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "81698",
-          "cliente": "I C OTTE MONTEIRO SUPERMERCADO LTDA",
           "produto": "RED BULL SF POMELO 24X250ML",
           "fantasia": "RED BULL",
           "qt": 9,
@@ -187613,6 +187603,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 4,
           "valor": 613.44,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/01/2026",
+          "codcli": "81698",
+          "cliente": "I C OTTE MONTEIRO SUPERMERCADO LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 40,
+          "valor": 6134.4,
           "tipo": "Venda"
         },
         {
@@ -188209,16 +188209,6 @@ const VENDAS_DATA = {
           "data": "28/01/2026",
           "codcli": "81867",
           "cliente": "F & MAIGRE LTDA",
-          "produto": "RED BULL 250ML CAIXA C/24 UNID",
-          "fantasia": "RED BULL",
-          "qt": 4,
-          "valor": 661.44,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/01/2026",
-          "codcli": "81867",
-          "cliente": "F & MAIGRE LTDA",
           "produto": "RED BULL SUGAR FREE 250 ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -188243,6 +188233,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 330.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/01/2026",
+          "codcli": "81867",
+          "cliente": "F & MAIGRE LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 661.44,
           "tipo": "Venda"
         },
         {
@@ -188859,16 +188859,6 @@ const VENDAS_DATA = {
           "data": "09/01/2026",
           "codcli": "80151",
           "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
-          "produto": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 64.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/01/2026",
-          "codcli": "80151",
-          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
           "produto": "CHA VERDE LARAN GENGI DESINCHA 12X250ML",
           "fantasia": "TIAL",
           "qt": 1,
@@ -188893,6 +188883,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/01/2026",
+          "codcli": "80151",
+          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
+          "produto": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 64.56,
           "tipo": "Venda"
         },
         {
@@ -189009,16 +189009,6 @@ const VENDAS_DATA = {
           "data": "29/01/2026",
           "codcli": "80151",
           "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
-          "produto": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 65.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/01/2026",
-          "codcli": "80151",
-          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
           "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
           "fantasia": "MINALBA",
           "qt": 8,
@@ -189043,6 +189033,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 202.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/01/2026",
+          "codcli": "80151",
+          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
+          "produto": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 65.56,
           "tipo": "Venda"
         },
         {
@@ -189259,16 +189259,6 @@ const VENDAS_DATA = {
           "data": "13/01/2026",
           "codcli": "84845",
           "cliente": "55.159.862 PEDRO HENRIQUE PAIVA CARNEIRO NETO",
-          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-          "fantasia": "RED BULL",
-          "qt": 20,
-          "valor": 3067.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/01/2026",
-          "codcli": "84845",
-          "cliente": "55.159.862 PEDRO HENRIQUE PAIVA CARNEIRO NETO",
           "produto": "ZIN TONICA 12X310ML",
           "fantasia": "HOB",
           "qt": 1,
@@ -189293,6 +189283,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 70,
           "valor": 10735.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/01/2026",
+          "codcli": "84845",
+          "cliente": "55.159.862 PEDRO HENRIQUE PAIVA CARNEIRO NETO",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 20,
+          "valor": 3067.2,
           "tipo": "Venda"
         },
         {
@@ -189409,16 +189409,6 @@ const VENDAS_DATA = {
           "data": "28/01/2026",
           "codcli": "84845",
           "cliente": "55.159.862 PEDRO HENRIQUE PAIVA CARNEIRO NETO",
-          "produto": "RED BULL SUMMER SF MAÇA 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 3,
-          "valor": 467.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/01/2026",
-          "codcli": "84845",
-          "cliente": "55.159.862 PEDRO HENRIQUE PAIVA CARNEIRO NETO",
           "produto": "GIN ROCKS SUNSET 1000ML",
           "fantasia": "FANTE",
           "qt": 6,
@@ -189443,6 +189433,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 10,
           "valor": 1557.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/01/2026",
+          "codcli": "84845",
+          "cliente": "55.159.862 PEDRO HENRIQUE PAIVA CARNEIRO NETO",
+          "produto": "RED BULL SUMMER SF MAÇA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 467.28,
           "tipo": "Venda"
         },
         {
@@ -190731,16 +190731,6 @@ const VENDAS_DATA = {
           "data": "10/03/2026",
           "codcli": "3143",
           "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
-          "produto": "GIN MARINA 750ML",
-          "fantasia": "HOB",
-          "qt": 3,
-          "valor": 119.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "3143",
-          "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
           "produto": "ESPUM CASA PERINI ICE ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 3,
@@ -190765,6 +190755,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 2,
           "valor": 191.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/03/2026",
+          "codcli": "3143",
+          "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
+          "produto": "GIN MARINA 750ML",
+          "fantasia": "HOB",
+          "qt": 3,
+          "valor": 119.7,
           "tipo": "Venda"
         },
         {
@@ -191001,16 +191001,6 @@ const VENDAS_DATA = {
           "data": "12/03/2026",
           "codcli": "13219",
           "cliente": "TOZATO EVENTOS LTDA",
-          "produto": "CERVEJA HEINEKEN LONG 330ML",
-          "fantasia": "KAISER",
-          "qt": 20,
-          "valor": 2518.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "13219",
-          "cliente": "TOZATO EVENTOS LTDA",
           "produto": "RED BULL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 20,
@@ -191025,6 +191015,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 754.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/03/2026",
+          "codcli": "13219",
+          "cliente": "TOZATO EVENTOS LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 330ML",
+          "fantasia": "KAISER",
+          "qt": 20,
+          "valor": 2518.0,
           "tipo": "Venda"
         },
         {
@@ -191301,16 +191301,6 @@ const VENDAS_DATA = {
           "data": "12/03/2026",
           "codcli": "70261",
           "cliente": "SALES E SOUZA MINIMERCADO LTDA",
-          "produto": "RED BULL SF AMORA 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 165.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "70261",
-          "cliente": "SALES E SOUZA MINIMERCADO LTDA",
           "produto": "RED BULL ZERO  24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -191332,6 +191322,16 @@ const VENDAS_DATA = {
           "codcli": "70261",
           "cliente": "SALES E SOUZA MINIMERCADO LTDA",
           "produto": "RED BULL SF MAÇA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 165.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/03/2026",
+          "codcli": "70261",
+          "cliente": "SALES E SOUZA MINIMERCADO LTDA",
+          "produto": "RED BULL SF AMORA 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 165.36,
@@ -191981,20 +191981,20 @@ const VENDAS_DATA = {
           "data": "27/03/2026",
           "codcli": "72102",
           "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
-          "produto": "RED BULL SF POMELO 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 167.76,
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "fantasia": "51",
+          "qt": 2,
+          "valor": 24.6,
           "tipo": "Venda"
         },
         {
           "data": "27/03/2026",
           "codcli": "72102",
           "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
-          "produto": "PIRASSUNUNGA 51 965 ML",
-          "fantasia": "51",
-          "qt": 2,
-          "valor": 24.6,
+          "produto": "RED BULL SF POMELO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
           "tipo": "Venda"
         },
         {
@@ -192931,6 +192931,26 @@ const VENDAS_DATA = {
           "data": "18/03/2026",
           "codcli": "81414",
           "cliente": "TERRAL GASTROBAR LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 299.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "81414",
+          "cliente": "TERRAL GASTROBAR LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 299.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "81414",
+          "cliente": "TERRAL GASTROBAR LTDA",
           "produto": "VINHO ARESTI ESTATE S. PINOT NOIR",
           "fantasia": "CASTAS",
           "qt": 6,
@@ -192943,26 +192963,6 @@ const VENDAS_DATA = {
           "cliente": "TERRAL GASTROBAR LTDA",
           "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
           "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 299.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "81414",
-          "cliente": "TERRAL GASTROBAR LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 299.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "81414",
-          "cliente": "TERRAL GASTROBAR LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
-          "fantasia": "CASTAS",
           "qt": 1,
           "valor": 0.0,
           "tipo": "Bonificado"
@@ -192971,7 +192971,7 @@ const VENDAS_DATA = {
           "data": "18/03/2026",
           "codcli": "81414",
           "cliente": "TERRAL GASTROBAR LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 0.0,
@@ -193031,16 +193031,6 @@ const VENDAS_DATA = {
           "data": "18/03/2026",
           "codcli": "82202",
           "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO ARESTI ESTATE S. SAUV BLANC 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 299.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "82202",
-          "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
           "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
           "fantasia": "CASTAS",
           "qt": 12,
@@ -193062,6 +193052,16 @@ const VENDAS_DATA = {
           "codcli": "82202",
           "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
           "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 299.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "82202",
+          "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO ARESTI ESTATE S. SAUV BLANC 750ML",
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 299.4,
@@ -193701,16 +193701,6 @@ const VENDAS_DATA = {
           "data": "10/03/2026",
           "codcli": "79197",
           "cliente": "TCA COMERCIO CABO FRIO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 2,
-          "valor": 73.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "79197",
-          "cliente": "TCA COMERCIO CABO FRIO LTDA",
           "produto": "GIN BEEFEATER 750ML",
           "fantasia": "PERNOD",
           "qt": 4,
@@ -193732,6 +193722,16 @@ const VENDAS_DATA = {
           "codcli": "79197",
           "cliente": "TCA COMERCIO CABO FRIO LTDA",
           "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 2,
+          "valor": 73.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/03/2026",
+          "codcli": "79197",
+          "cliente": "TCA COMERCIO CABO FRIO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 2,
           "valor": 73.8,
@@ -194381,16 +194381,6 @@ const VENDAS_DATA = {
           "data": "24/03/2026",
           "codcli": "81236",
           "cliente": "57.255.316 DANIELE RODRIGUES FERREIRA",
-          "produto": "LICOR STOCK MANDARINO 720ML",
-          "fantasia": "STOCK",
-          "qt": 2,
-          "valor": 73.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/03/2026",
-          "codcli": "81236",
-          "cliente": "57.255.316 DANIELE RODRIGUES FERREIRA",
           "produto": "LICOR STOCK CURACAU RED 720 ML",
           "fantasia": "STOCK",
           "qt": 2,
@@ -194402,6 +194392,16 @@ const VENDAS_DATA = {
           "codcli": "81236",
           "cliente": "57.255.316 DANIELE RODRIGUES FERREIRA",
           "produto": "LICOR STOCK KIWI 720 ML",
+          "fantasia": "STOCK",
+          "qt": 2,
+          "valor": 73.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/03/2026",
+          "codcli": "81236",
+          "cliente": "57.255.316 DANIELE RODRIGUES FERREIRA",
+          "produto": "LICOR STOCK MANDARINO 720ML",
           "fantasia": "STOCK",
           "qt": 2,
           "valor": 73.8,
@@ -194701,16 +194701,6 @@ const VENDAS_DATA = {
           "data": "30/03/2026",
           "codcli": "84245",
           "cliente": "59.660.010 LUCIANA MEIRELES DE LIMA PIRES",
-          "produto": "4 PACK RED BULL MORANGO PESSEGO",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 26.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "84245",
-          "cliente": "59.660.010 LUCIANA MEIRELES DE LIMA PIRES",
           "produto": "4 PACK RED BULL ZERO",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -194722,6 +194712,16 @@ const VENDAS_DATA = {
           "codcli": "84245",
           "cliente": "59.660.010 LUCIANA MEIRELES DE LIMA PIRES",
           "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 26.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "84245",
+          "cliente": "59.660.010 LUCIANA MEIRELES DE LIMA PIRES",
+          "produto": "4 PACK RED BULL MORANGO PESSEGO",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 26.76,
@@ -195071,20 +195071,20 @@ const VENDAS_DATA = {
           "data": "13/03/2026",
           "codcli": "80158",
           "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO ARESTI ESTATE S. SAUV BLANC 750ML",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
           "fantasia": "CASTAS",
           "qt": 1,
-          "valor": 48.9,
+          "valor": 64.9,
           "tipo": "Venda"
         },
         {
           "data": "13/03/2026",
           "codcli": "80158",
           "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "produto": "VINHO ARESTI ESTATE S. SAUV BLANC 750ML",
           "fantasia": "CASTAS",
           "qt": 1,
-          "valor": 64.9,
+          "valor": 48.9,
           "tipo": "Venda"
         },
         {
@@ -195641,16 +195641,6 @@ const VENDAS_DATA = {
           "data": "18/03/2026",
           "codcli": "80151",
           "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
-          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 27.96,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "80151",
-          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
           "produto": "GUARAVITA NATURAL 24X290ML",
           "fantasia": "VITON",
           "qt": 2,
@@ -195681,20 +195671,20 @@ const VENDAS_DATA = {
           "data": "18/03/2026",
           "codcli": "80151",
           "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
-          "produto": "4 PACK RED BULL MELANCIA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 27.96,
           "tipo": "Venda"
         },
         {
-          "data": "25/03/2026",
+          "data": "18/03/2026",
           "codcli": "80151",
           "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
-          "produto": "PINATI POWER CHIPS CEBOLA E SALSA 20X40G",
-          "fantasia": "PINATI",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "RED BULL",
           "qt": 1,
-          "valor": 159.9,
+          "valor": 27.96,
           "tipo": "Venda"
         },
         {
@@ -195715,6 +195705,16 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 114.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/03/2026",
+          "codcli": "80151",
+          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
+          "produto": "PINATI POWER CHIPS CEBOLA E SALSA 20X40G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 159.9,
           "tipo": "Venda"
         },
         {
@@ -195771,16 +195771,6 @@ const VENDAS_DATA = {
           "data": "26/03/2026",
           "codcli": "80151",
           "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 53.52,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/03/2026",
-          "codcli": "80151",
-          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
           "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
           "fantasia": "MINALBA",
           "qt": 2,
@@ -195795,6 +195785,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 26.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "80151",
+          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 53.52,
           "tipo": "Venda"
         },
         {
@@ -196841,6 +196841,16 @@ const VENDAS_DATA = {
           "data": "31/03/2026",
           "codcli": "91759",
           "cliente": "G S DE SOUZA MINIMERCADO LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 35,
+          "valor": 5703.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "91759",
+          "cliente": "G S DE SOUZA MINIMERCADO LTDA",
           "produto": "RED BULL MELANCIA 250ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 2,
@@ -196895,16 +196905,6 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 321.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "91759",
-          "cliente": "G S DE SOUZA MINIMERCADO LTDA",
-          "produto": "RED BULL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 35,
-          "valor": 5703.6,
           "tipo": "Venda"
         },
         {
@@ -206787,20 +206787,20 @@ const VENDAS_DATA = {
           "data": "18/02/2026",
           "codcli": "66026",
           "cliente": "CHOPERIA FORTE BEER LTDA",
-          "produto": "RED BULL TROPICAL 24X250ML",
+          "produto": "RED BULL 24X250ML ",
           "fantasia": "RED BULL",
-          "qt": 44,
-          "valor": 7170.24,
+          "qt": 100,
+          "valor": 16296.0,
           "tipo": "Venda"
         },
         {
           "data": "18/02/2026",
           "codcli": "66026",
           "cliente": "CHOPERIA FORTE BEER LTDA",
-          "produto": "RED BULL 24X250ML ",
+          "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
-          "qt": 100,
-          "valor": 16296.0,
+          "qt": 44,
+          "valor": 7170.24,
           "tipo": "Venda"
         },
         {
@@ -207677,16 +207677,6 @@ const VENDAS_DATA = {
           "data": "25/02/2026",
           "codcli": "76189",
           "cliente": "4P RESTAURANTE E BAR 003 LTDA",
-          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-          "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 58.32,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/02/2026",
-          "codcli": "76189",
-          "cliente": "4P RESTAURANTE E BAR 003 LTDA",
           "produto": "4 PACK RED BULL",
           "fantasia": "RED BULL",
           "qt": 3,
@@ -207698,6 +207688,16 @@ const VENDAS_DATA = {
           "codcli": "76189",
           "cliente": "4P RESTAURANTE E BAR 003 LTDA",
           "produto": "4 PACK RED BULL SUGAR FREE",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 58.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/02/2026",
+          "codcli": "76189",
+          "cliente": "4P RESTAURANTE E BAR 003 LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 58.32,
@@ -207867,16 +207867,6 @@ const VENDAS_DATA = {
           "data": "02/02/2026",
           "codcli": "74744",
           "cliente": "SEGREDO DA MODA LTDA",
-          "produto": "WHISKY JACK DANIELS FIRE 1L - EV",
-          "fantasia": "SUPERMIX",
-          "qt": 1,
-          "valor": 123.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/02/2026",
-          "codcli": "74744",
-          "cliente": "SEGREDO DA MODA LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L EV",
           "fantasia": "",
           "qt": 1,
@@ -207899,6 +207889,16 @@ const VENDAS_DATA = {
           "cliente": "SEGREDO DA MODA LTDA",
           "produto": "WHISKY JACK DANIELS APPLE 1L",
           "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 123.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/02/2026",
+          "codcli": "74744",
+          "cliente": "SEGREDO DA MODA LTDA",
+          "produto": "WHISKY JACK DANIELS FIRE 1L - EV",
+          "fantasia": "SUPERMIX",
           "qt": 1,
           "valor": 123.0,
           "tipo": "Venda"
@@ -208727,16 +208727,6 @@ const VENDAS_DATA = {
           "data": "13/02/2026",
           "codcli": "82202",
           "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
-          "produto": "MAXIME ROSE 750ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/02/2026",
-          "codcli": "82202",
-          "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
           "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
           "fantasia": "CASTAS",
           "qt": 1,
@@ -208758,6 +208748,16 @@ const VENDAS_DATA = {
           "codcli": "82202",
           "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
           "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "13/02/2026",
+          "codcli": "82202",
+          "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
+          "produto": "MAXIME ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 0.0,
@@ -208907,16 +208907,6 @@ const VENDAS_DATA = {
           "data": "04/02/2026",
           "codcli": "81572",
           "cliente": "MAISHA SUSHI LTDA",
-          "produto": "GIN GORDONS 750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 56.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/02/2026",
-          "codcli": "81572",
-          "cliente": "MAISHA SUSHI LTDA",
           "produto": "WHISKY JIM BEAM WHITE 1L",
           "fantasia": "BEAM SUNTORY",
           "qt": 1,
@@ -208941,6 +208931,16 @@ const VENDAS_DATA = {
           "fantasia": "HENNESSY",
           "qt": 2,
           "valor": 151.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "81572",
+          "cliente": "MAISHA SUSHI LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 56.7,
           "tipo": "Venda"
         },
         {
@@ -209657,16 +209657,6 @@ const VENDAS_DATA = {
           "data": "02/02/2026",
           "codcli": "80274",
           "cliente": "DEPOSITO LEAO DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-          "fantasia": "RED BULL",
-          "qt": 3,
-          "valor": 510.48,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/02/2026",
-          "codcli": "80274",
-          "cliente": "DEPOSITO LEAO DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "VODKA ABSOLUT - 1 LITRO",
           "fantasia": "PERNOD",
           "qt": 6,
@@ -209688,6 +209678,16 @@ const VENDAS_DATA = {
           "codcli": "80274",
           "cliente": "DEPOSITO LEAO DISTRIBUIDORA DE BEBIDAS LTDA",
           "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 510.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/02/2026",
+          "codcli": "80274",
+          "cliente": "DEPOSITO LEAO DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 510.48,
@@ -210057,16 +210057,6 @@ const VENDAS_DATA = {
           "data": "18/02/2026",
           "codcli": "79845",
           "cliente": "DIEGO MARCELO BRUSCHI",
-          "produto": "RED BULL 24X250ML ",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 174.96,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/02/2026",
-          "codcli": "79845",
-          "cliente": "DIEGO MARCELO BRUSCHI",
           "produto": "PIRASSUNUNGA 51 965 ML",
           "fantasia": "51",
           "qt": 6,
@@ -210081,6 +210071,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 58.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/02/2026",
+          "codcli": "79845",
+          "cliente": "DIEGO MARCELO BRUSCHI",
+          "produto": "RED BULL 24X250ML ",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 174.96,
           "tipo": "Venda"
         },
         {
@@ -210227,16 +210227,6 @@ const VENDAS_DATA = {
           "data": "05/02/2026",
           "codcli": "79973",
           "cliente": "N T F MERCADO E DISTRIBUIDORA LTDA.",
-          "produto": "RED BULL SF BLUEBERRY BAUNILHA  24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 4,
-          "valor": 479.04,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/02/2026",
-          "codcli": "79973",
-          "cliente": "N T F MERCADO E DISTRIBUIDORA LTDA.",
           "produto": "RED BULL MELANCIA 250ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 5,
@@ -210261,6 +210251,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 9,
           "valor": 1401.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/02/2026",
+          "codcli": "79973",
+          "cliente": "N T F MERCADO E DISTRIBUIDORA LTDA.",
+          "produto": "RED BULL SF BLUEBERRY BAUNILHA  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 479.04,
           "tipo": "Venda"
         },
         {
@@ -210597,16 +210597,6 @@ const VENDAS_DATA = {
           "data": "10/02/2026",
           "codcli": "80151",
           "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 2,
-          "valor": 53.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/02/2026",
-          "codcli": "80151",
-          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
           "produto": "4 PACK RED BULL",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -210631,6 +210621,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 6,
           "valor": 137.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "80151",
+          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 53.8,
           "tipo": "Venda"
         },
         {
@@ -210867,16 +210867,6 @@ const VENDAS_DATA = {
           "data": "04/02/2026",
           "codcli": "84845",
           "cliente": "55.159.862 PEDRO HENRIQUE PAIVA CARNEIRO NETO",
-          "produto": "RED BULL SF NECTARINA 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 5,
-          "valor": 778.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/02/2026",
-          "codcli": "84845",
-          "cliente": "55.159.862 PEDRO HENRIQUE PAIVA CARNEIRO NETO",
           "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 22,
@@ -210898,6 +210888,16 @@ const VENDAS_DATA = {
           "codcli": "84845",
           "cliente": "55.159.862 PEDRO HENRIQUE PAIVA CARNEIRO NETO",
           "produto": "RED BULL SUMMER SF MAÇA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 778.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "84845",
+          "cliente": "55.159.862 PEDRO HENRIQUE PAIVA CARNEIRO NETO",
+          "produto": "RED BULL SF NECTARINA 24X250ML",
           "fantasia": "RED BULL",
           "qt": 5,
           "valor": 778.8,
@@ -211037,16 +211037,6 @@ const VENDAS_DATA = {
           "data": "04/02/2026",
           "codcli": "91045",
           "cliente": "ITADOCES LANCHES LTDA",
-          "produto": "VODKA ABSOLUT - 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 2,
-          "valor": 109.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/02/2026",
-          "codcli": "91045",
-          "cliente": "ITADOCES LANCHES LTDA",
           "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -211071,6 +211061,16 @@ const VENDAS_DATA = {
           "fantasia": "CAMPARI",
           "qt": 4,
           "valor": 151.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "91045",
+          "cliente": "ITADOCES LANCHES LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 109.8,
           "tipo": "Venda"
         },
         {
@@ -211477,20 +211477,20 @@ const VENDAS_DATA = {
           "data": "25/02/2026",
           "codcli": "91101",
           "cliente": "CARNEIROS RESTAURANTE LTDA",
-          "produto": "APERITIVO APEROL 750 ML",
-          "fantasia": "CAMPARI",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "fantasia": "BACARDI",
           "qt": 1,
-          "valor": 54.9,
+          "valor": 34.9,
           "tipo": "Venda"
         },
         {
           "data": "25/02/2026",
           "codcli": "91101",
           "cliente": "CARNEIROS RESTAURANTE LTDA",
-          "produto": "RUM BACARDI SUPERIOR 980ML",
-          "fantasia": "BACARDI",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "CAMPARI",
           "qt": 1,
-          "valor": 34.9,
+          "valor": 54.9,
           "tipo": "Venda"
         },
         {
@@ -211537,16 +211537,6 @@ const VENDAS_DATA = {
           "data": "24/02/2026",
           "codcli": "92712",
           "cliente": "LUA GASTROBAR LTDA",
-          "produto": "RED BULL SUGAR FREE 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 167.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/02/2026",
-          "codcli": "92712",
-          "cliente": "LUA GASTROBAR LTDA",
           "produto": "RED BULL 24X250ML ",
           "fantasia": "RED BULL",
           "qt": 5,
@@ -211561,6 +211551,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 503.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/02/2026",
+          "codcli": "92712",
+          "cliente": "LUA GASTROBAR LTDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
           "tipo": "Venda"
         },
         {
@@ -211947,16 +211947,6 @@ const VENDAS_DATA = {
           "data": "06/02/2026",
           "codcli": "93317",
           "cliente": "KR CONVENIENCIA LTDA",
-          "produto": "GIN MARINA BLACKBERRY 750ML",
-          "fantasia": "HOB",
-          "qt": 2,
-          "valor": 79.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/02/2026",
-          "codcli": "93317",
-          "cliente": "KR CONVENIENCIA LTDA",
           "produto": "APERITIVO APEROL 750 ML",
           "fantasia": "CAMPARI",
           "qt": 3,
@@ -211981,6 +211971,16 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 3,
           "valor": 62.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "93317",
+          "cliente": "KR CONVENIENCIA LTDA",
+          "produto": "GIN MARINA BLACKBERRY 750ML",
+          "fantasia": "HOB",
+          "qt": 2,
+          "valor": 79.8,
           "tipo": "Venda"
         },
         {
@@ -212087,16 +212087,6 @@ const VENDAS_DATA = {
           "data": "06/02/2026",
           "codcli": "93317",
           "cliente": "KR CONVENIENCIA LTDA",
-          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 77.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/02/2026",
-          "codcli": "93317",
-          "cliente": "KR CONVENIENCIA LTDA",
           "produto": "ZIN TONICA 12X310ML",
           "fantasia": "HOB",
           "qt": 1,
@@ -212121,6 +212111,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 349.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "93317",
+          "cliente": "KR CONVENIENCIA LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 77.7,
           "tipo": "Venda"
         },
         {
@@ -212227,16 +212227,6 @@ const VENDAS_DATA = {
           "data": "06/02/2026",
           "codcli": "93317",
           "cliente": "KR CONVENIENCIA LTDA",
-          "produto": "WHISKY JACK DANIELS FIRE 1L - EV",
-          "fantasia": "SUPERMIX",
-          "qt": 1,
-          "valor": 123.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/02/2026",
-          "codcli": "93317",
-          "cliente": "KR CONVENIENCIA LTDA",
           "produto": "WHISKY WHITE HORSE - 1L",
           "fantasia": "DIAGEO",
           "qt": 3,
@@ -212259,6 +212249,16 @@ const VENDAS_DATA = {
           "cliente": "KR CONVENIENCIA LTDA",
           "produto": "WHISKY JACK DANIELS APPLE 1L",
           "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 123.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "93317",
+          "cliente": "KR CONVENIENCIA LTDA",
+          "produto": "WHISKY JACK DANIELS FIRE 1L - EV",
+          "fantasia": "SUPERMIX",
           "qt": 1,
           "valor": 123.0,
           "tipo": "Venda"
@@ -212629,16 +212629,6 @@ const VENDAS_DATA = {
           "data": "09/04/2026",
           "codcli": "3143",
           "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 311.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "3143",
-          "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
           "produto": "PIRASSUNUNGA 51 965 ML",
           "fantasia": "51",
           "qt": 12,
@@ -212663,6 +212653,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 50,
           "valor": 995.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "3143",
+          "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 311.76,
           "tipo": "Venda"
         },
         {
@@ -212879,16 +212879,6 @@ const VENDAS_DATA = {
           "data": "17/04/2026",
           "codcli": "3143",
           "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
-          "produto": "RED BULL SF POMELO 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 196.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "3143",
-          "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
           "produto": "RED BULL MORANGO PESSEGO 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -212910,6 +212900,16 @@ const VENDAS_DATA = {
           "codcli": "3143",
           "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
           "produto": "RED BULL SF NECTARINA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "3143",
+          "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
+          "produto": "RED BULL SF POMELO 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 196.56,
@@ -212999,20 +212999,20 @@ const VENDAS_DATA = {
           "data": "27/04/2026",
           "codcli": "3143",
           "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "fantasia": "MINALBA",
-          "qt": 48,
-          "valor": 1003.2,
+          "qt": 92,
+          "valor": 1830.8,
           "tipo": "Venda"
         },
         {
           "data": "27/04/2026",
           "codcli": "3143",
           "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "fantasia": "MINALBA",
-          "qt": 92,
-          "valor": 1830.8,
+          "qt": 48,
+          "valor": 1003.2,
           "tipo": "Venda"
         },
         {
@@ -213049,16 +213049,6 @@ const VENDAS_DATA = {
           "data": "28/04/2026",
           "codcli": "3143",
           "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
-          "produto": "4 PACK RED BULL SF AMORA",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 32.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "3143",
-          "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
           "produto": "4 PACK RED BULL CEREJA",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -213080,6 +213070,16 @@ const VENDAS_DATA = {
           "codcli": "3143",
           "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
           "produto": "4 PACK RED BULL MORANGO PESSEGO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 32.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "3143",
+          "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL SF AMORA",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 32.76,
@@ -213389,20 +213389,20 @@ const VENDAS_DATA = {
           "data": "06/04/2026",
           "codcli": "67668",
           "cliente": "R R RESTAURANTE CARIOCA LTDA",
-          "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 669.9,
+          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 4,
+          "valor": 491.6,
           "tipo": "Venda"
         },
         {
           "data": "06/04/2026",
           "codcli": "67668",
           "cliente": "R R RESTAURANTE CARIOCA LTDA",
-          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 4,
-          "valor": 491.6,
+          "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 669.9,
           "tipo": "Venda"
         },
         {
@@ -213519,16 +213519,6 @@ const VENDAS_DATA = {
           "data": "01/04/2026",
           "codcli": "72102",
           "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
-          "produto": "RED BULL TROPICAL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 407.52,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/04/2026",
-          "codcli": "72102",
-          "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
           "produto": "GIN GORDONS 750 ML",
           "fantasia": "DIAGEO",
           "qt": 6,
@@ -213553,6 +213543,16 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 1,
           "valor": 32.45,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/04/2026",
+          "codcli": "72102",
+          "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 407.52,
           "tipo": "Venda"
         },
         {
@@ -213699,16 +213699,6 @@ const VENDAS_DATA = {
           "data": "20/04/2026",
           "codcli": "72102",
           "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
-          "produto": "LICOR ESP DIEGO ZAMORA 43 BARCELONA",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 134.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "72102",
-          "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
           "produto": "WHISKY J WALKER BLACK LABEL 1L",
           "fantasia": "DIAGEO",
           "qt": 1,
@@ -213733,6 +213723,16 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 1,
           "valor": 65.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "72102",
+          "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 BARCELONA",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 134.9,
           "tipo": "Venda"
         },
         {
@@ -213769,16 +213769,6 @@ const VENDAS_DATA = {
           "data": "20/04/2026",
           "codcli": "72102",
           "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 97.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "20/04/2026",
-          "codcli": "72102",
-          "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
           "produto": "GIN ROCKS 1000ML",
           "fantasia": "FANTE",
           "qt": 6,
@@ -213803,6 +213793,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 196.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "72102",
+          "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 97.8,
           "tipo": "Venda"
         },
         {
@@ -213999,16 +213999,6 @@ const VENDAS_DATA = {
           "data": "08/04/2026",
           "codcli": "77983",
           "cliente": "BELLA COZINHA TERAPIA LTDA",
-          "produto": "AGUA MINERAL MAMBA WATER S/ GAS- 24X350",
-          "fantasia": "KAISER",
-          "qt": 2,
-          "valor": 139.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "77983",
-          "cliente": "BELLA COZINHA TERAPIA LTDA",
           "produto": "AGUA MINERAL MAMBA WATER C/ GAS - 24X350",
           "fantasia": "KAISER",
           "qt": 4,
@@ -214033,6 +214023,16 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 1,
           "valor": 132.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "77983",
+          "cliente": "BELLA COZINHA TERAPIA LTDA",
+          "produto": "AGUA MINERAL MAMBA WATER S/ GAS- 24X350",
+          "fantasia": "KAISER",
+          "qt": 2,
+          "valor": 139.8,
           "tipo": "Venda"
         },
         {
@@ -214219,16 +214219,6 @@ const VENDAS_DATA = {
           "data": "21/04/2026",
           "codcli": "78271",
           "cliente": "P PEREIRA DO AMARAL LTDA",
-          "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "PERNOD",
-          "qt": 2,
-          "valor": 159.84,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/04/2026",
-          "codcli": "78271",
-          "cliente": "P PEREIRA DO AMARAL LTDA",
           "produto": "RED BULL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 10,
@@ -214243,6 +214233,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 10,
           "valor": 145.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "78271",
+          "cliente": "P PEREIRA DO AMARAL LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 159.84,
           "tipo": "Venda"
         },
         {
@@ -214629,16 +214629,6 @@ const VENDAS_DATA = {
           "data": "14/04/2026",
           "codcli": "82202",
           "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO ADELE ROSE 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 419.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/04/2026",
-          "codcli": "82202",
-          "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
           "produto": "VINHO ARESTI ESTATE S. MERLOT 750ML",
           "fantasia": "CASTAS",
           "qt": 12,
@@ -214663,6 +214653,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 479.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "82202",
+          "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 419.4,
           "tipo": "Venda"
         },
         {
@@ -215369,16 +215369,6 @@ const VENDAS_DATA = {
           "data": "06/04/2026",
           "codcli": "81236",
           "cliente": "57.255.316 DANIELE RODRIGUES FERREIRA",
-          "produto": "VODKA ABSOLUT - 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 62.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "81236",
-          "cliente": "57.255.316 DANIELE RODRIGUES FERREIRA",
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 6,
@@ -215393,6 +215383,16 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 6,
           "valor": 221.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "81236",
+          "cliente": "57.255.316 DANIELE RODRIGUES FERREIRA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 62.9,
           "tipo": "Venda"
         },
         {
@@ -215429,20 +215429,20 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "81236",
           "cliente": "57.255.316 DANIELE RODRIGUES FERREIRA",
-          "produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 214.8,
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 221.4,
           "tipo": "Venda"
         },
         {
           "data": "29/04/2026",
           "codcli": "81236",
           "cliente": "57.255.316 DANIELE RODRIGUES FERREIRA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 221.4,
+          "produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 214.8,
           "tipo": "Venda"
         },
         {
@@ -215599,20 +215599,20 @@ const VENDAS_DATA = {
           "data": "01/04/2026",
           "codcli": "80158",
           "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RED BULL TROPICAL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 203.76,
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "FANTE",
+          "qt": 3,
+          "valor": 74.7,
           "tipo": "Venda"
         },
         {
           "data": "01/04/2026",
           "codcli": "80158",
           "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
-          "produto": "GIN ROCKS 1000ML",
-          "fantasia": "FANTE",
-          "qt": 3,
-          "valor": 74.7,
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 203.76,
           "tipo": "Venda"
         },
         {
@@ -215649,16 +215649,6 @@ const VENDAS_DATA = {
           "data": "17/04/2026",
           "codcli": "80158",
           "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
-          "produto": "RED BULL TROPICAL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 196.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "80158",
-          "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
           "produto": "VODCA SMIRNOFF RED 998 ML",
           "fantasia": "DIAGEO",
           "qt": 2,
@@ -215683,6 +215673,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 1,
           "valor": 95.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "80158",
+          "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56,
           "tipo": "Venda"
         },
         {
@@ -215899,20 +215899,20 @@ const VENDAS_DATA = {
           "data": "20/04/2026",
           "codcli": "84171",
           "cliente": "LRTT ENGENHARIA E SOLUCOOES LTDA",
-          "produto": " CATUABA PAJE - 1L",
-          "fantasia": "CASA DI CONTI",
-          "qt": 3,
-          "valor": 37.77,
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 45.8,
           "tipo": "Venda"
         },
         {
           "data": "20/04/2026",
           "codcli": "84171",
           "cliente": "LRTT ENGENHARIA E SOLUCOOES LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 2,
-          "valor": 45.8,
+          "produto": " CATUABA PAJE - 1L",
+          "fantasia": "CASA DI CONTI",
+          "qt": 3,
+          "valor": 37.77,
           "tipo": "Venda"
         },
         {
@@ -216169,20 +216169,20 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "84934",
           "cliente": "50.452.339 GISELLE BARROS FERREIRA",
-          "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
-          "fantasia": "HENNESSY",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
           "qt": 1,
-          "valor": 39.9,
+          "valor": 74.9,
           "tipo": "Venda"
         },
         {
           "data": "29/04/2026",
           "codcli": "84934",
           "cliente": "50.452.339 GISELLE BARROS FERREIRA",
-          "produto": "APERITIVO LUCIA 750ML",
-          "fantasia": "LUCIA",
+          "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
           "qt": 1,
-          "valor": 74.9,
+          "valor": 39.9,
           "tipo": "Venda"
         },
         {
@@ -216943,16 +216943,6 @@ const VENDAS_DATA = {
           "data": "18/03/2026",
           "codcli": "2932",
           "cliente": "LOJA DE CONVENIENCIA CAMPUSCAO LTDA- EPP",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "2932",
-          "cliente": "LOJA DE CONVENIENCIA CAMPUSCAO LTDA- EPP",
           "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -216977,6 +216967,16 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 38.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "2932",
+          "cliente": "LOJA DE CONVENIENCIA CAMPUSCAO LTDA- EPP",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.68,
           "tipo": "Venda"
         },
         {
@@ -217873,16 +217873,6 @@ const VENDAS_DATA = {
           "data": "13/03/2026",
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
           "produto": "GUARAVITA NATURAL 24X290ML",
           "fantasia": "VITON",
           "qt": 10,
@@ -217904,6 +217894,16 @@ const VENDAS_DATA = {
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7,
@@ -218053,16 +218053,6 @@ const VENDAS_DATA = {
           "data": "30/03/2026",
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "RED BULL SF MAÇA 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 175.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
           "produto": "RED BULL MELANCIA 250ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -218084,6 +218074,16 @@ const VENDAS_DATA = {
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
           "produto": "RED BULL SF AMORA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 175.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "RED BULL SF MAÇA 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 175.0,
@@ -218123,16 +218123,6 @@ const VENDAS_DATA = {
           "data": "31/03/2026",
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
-          "fantasia": "MINALBA",
-          "qt": 10,
-          "valor": 219.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
           "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "fantasia": "MINALBA",
           "qt": 40,
@@ -218147,6 +218137,16 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 40,
           "valor": 796.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 10,
+          "valor": 219.0,
           "tipo": "Venda"
         },
         {
@@ -218743,20 +218743,20 @@ const VENDAS_DATA = {
           "data": "12/03/2026",
           "codcli": "85692",
           "cliente": "CONVENIENCIA AGUA BRANCA LTDA",
-          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
-          "fantasia": "DIAGEO",
-          "qt": 2,
-          "valor": 355.8,
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 38.9,
           "tipo": "Venda"
         },
         {
           "data": "12/03/2026",
           "codcli": "85692",
           "cliente": "CONVENIENCIA AGUA BRANCA LTDA",
-          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 38.9,
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 355.8,
           "tipo": "Venda"
         },
         {
@@ -220485,16 +220485,6 @@ const VENDAS_DATA = {
           "data": "19/01/2026",
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 30,
-          "valor": 645.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "19/01/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
           "produto": "RED BULL MELANCIA 250ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -220519,6 +220509,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 167.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/01/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 30,
+          "valor": 645.0,
           "tipo": "Venda"
         },
         {
@@ -220985,20 +220985,20 @@ const VENDAS_DATA = {
           "data": "08/01/2026",
           "codcli": "85692",
           "cliente": "CONVENIENCIA AGUA BRANCA LTDA",
-          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
-          "fantasia": "DIAGEO",
-          "qt": 3,
-          "valor": 539.7,
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 38.9,
           "tipo": "Venda"
         },
         {
           "data": "08/01/2026",
           "codcli": "85692",
           "cliente": "CONVENIENCIA AGUA BRANCA LTDA",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 38.9,
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 539.7,
           "tipo": "Venda"
         },
         {
@@ -221235,16 +221235,6 @@ const VENDAS_DATA = {
           "data": "15/01/2026",
           "codcli": "89949",
           "cliente": "AUTO POSTO REDE PARCEIRO NILOPOLIS LTDA",
-          "produto": "4 PACK RED BULL TROPICAL 250ML",
-          "fantasia": "RED BULL",
-          "qt": 6,
-          "valor": 179.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/01/2026",
-          "codcli": "89949",
-          "cliente": "AUTO POSTO REDE PARCEIRO NILOPOLIS LTDA",
           "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
           "fantasia": "KAISER",
           "qt": 3,
@@ -221269,6 +221259,16 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 1,
           "valor": 137.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/01/2026",
+          "codcli": "89949",
+          "cliente": "AUTO POSTO REDE PARCEIRO NILOPOLIS LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 250ML",
+          "fantasia": "RED BULL",
+          "qt": 6,
+          "valor": 179.76,
           "tipo": "Venda"
         },
         {
@@ -221785,16 +221785,6 @@ const VENDAS_DATA = {
           "data": "19/01/2026",
           "codcli": "90884",
           "cliente": "FGA CONVENIENCIA LTDA",
-          "produto": "ST PIERRE LATA 270 ML RED MINT CX C/ 6",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 22.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "19/01/2026",
-          "codcli": "90884",
-          "cliente": "FGA CONVENIENCIA LTDA",
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -221819,6 +221809,16 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 5,
           "valor": 134.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/01/2026",
+          "codcli": "90884",
+          "cliente": "FGA CONVENIENCIA LTDA",
+          "produto": "ST PIERRE LATA 270 ML RED MINT CX C/ 6",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 22.9,
           "tipo": "Venda"
         },
         {
@@ -222015,20 +222015,20 @@ const VENDAS_DATA = {
           "data": "19/01/2026",
           "codcli": "92977",
           "cliente": "POSTO MANEIRINHO LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 6,
-          "valor": 161.4,
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 165.36,
           "tipo": "Venda"
         },
         {
           "data": "19/01/2026",
           "codcli": "92977",
           "cliente": "POSTO MANEIRINHO LTDA",
-          "produto": "RED BULL 250ML CAIXA C/24 UNID",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 165.36,
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 6,
+          "valor": 161.4,
           "tipo": "Venda"
         },
         {
@@ -222085,16 +222085,6 @@ const VENDAS_DATA = {
           "data": "09/01/2026",
           "codcli": "92733",
           "cliente": "BEBE FACIL COMERCIO DE BEBIDAS E MERCEARIA LTDA",
-          "produto": "PINATI POWER CHIPS CEBOLA E SALSA 20X40G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 188.03,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/01/2026",
-          "codcli": "92733",
-          "cliente": "BEBE FACIL COMERCIO DE BEBIDAS E MERCEARIA LTDA",
           "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -222109,6 +222099,16 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 71.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/01/2026",
+          "codcli": "92733",
+          "cliente": "BEBE FACIL COMERCIO DE BEBIDAS E MERCEARIA LTDA",
+          "produto": "PINATI POWER CHIPS CEBOLA E SALSA 20X40G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 188.03,
           "tipo": "Venda"
         },
         {
@@ -222737,20 +222737,20 @@ const VENDAS_DATA = {
           "data": "13/02/2026",
           "codcli": "74688",
           "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "fantasia": "MINALBA",
           "qt": 50,
-          "valor": 995.0,
+          "valor": 1045.0,
           "tipo": "Venda"
         },
         {
           "data": "13/02/2026",
           "codcli": "74688",
           "cliente": "POSTO DE GASOLINA AVENIDA LIMITADA",
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "fantasia": "MINALBA",
           "qt": 50,
-          "valor": 1045.0,
+          "valor": 995.0,
           "tipo": "Venda"
         },
         {
@@ -223257,16 +223257,6 @@ const VENDAS_DATA = {
           "data": "03/02/2026",
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-          "fantasia": "RED BULL",
-          "qt": 3,
-          "valor": 510.48,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/02/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
           "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
           "fantasia": "MINALBA",
           "qt": 80,
@@ -223301,6 +223291,16 @@ const VENDAS_DATA = {
           "fantasia": "TOP BIRRA",
           "qt": 2,
           "valor": 340.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/02/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 510.48,
           "tipo": "Venda"
         },
         {
@@ -223547,16 +223547,6 @@ const VENDAS_DATA = {
           "data": "23/02/2026",
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
-          "produto": "RED BULL TROPICAL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 167.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/02/2026",
-          "codcli": "80157",
-          "cliente": "A PARADA DA DUTRA LTDA",
           "produto": "RED BULL CEREJA 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -223578,6 +223568,16 @@ const VENDAS_DATA = {
           "codcli": "80157",
           "cliente": "A PARADA DA DUTRA LTDA",
           "produto": "RED BULL SUGAR FREE 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/02/2026",
+          "codcli": "80157",
+          "cliente": "A PARADA DA DUTRA LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 167.76,
@@ -224177,16 +224177,6 @@ const VENDAS_DATA = {
           "data": "27/02/2026",
           "codcli": "90885",
           "cliente": "DROGARIA KERO DO PRE LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 1,
-          "valor": 21.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "90885",
-          "cliente": "DROGARIA KERO DO PRE LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -224211,6 +224201,16 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 44.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/02/2026",
+          "codcli": "90885",
+          "cliente": "DROGARIA KERO DO PRE LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 1,
+          "valor": 21.9,
           "tipo": "Venda"
         },
         {
@@ -225279,20 +225279,20 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "3813",
           "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
+          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "fantasia": "AURORA",
           "qt": 1,
-          "valor": 186.0,
+          "valor": 178.8,
           "tipo": "Venda"
         },
         {
           "data": "29/04/2026",
           "codcli": "3813",
           "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
-          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
-          "fantasia": "AURORA",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
-          "valor": 178.8,
+          "valor": 186.0,
           "tipo": "Venda"
         },
         {
@@ -225329,16 +225329,6 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "3813",
           "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 148.75,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "3813",
-          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
           "produto": "RC ATUM RALADO NATURAL 24X140G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
@@ -225363,6 +225353,16 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 202.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 148.75,
           "tipo": "Venda"
         },
         {
@@ -226049,16 +226049,6 @@ const VENDAS_DATA = {
           "data": "27/04/2026",
           "codcli": "79504",
           "cliente": "GELO OESTE COMERCIO LTDA.",
-          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 87.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "79504",
-          "cliente": "GELO OESTE COMERCIO LTDA.",
           "produto": "PINATI SLIM WHEY BEIJINHO 16X35G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -226083,6 +226073,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "79504",
+          "cliente": "GELO OESTE COMERCIO LTDA.",
+          "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 87.6,
           "tipo": "Venda"
         },
         {
@@ -226119,16 +226119,6 @@ const VENDAS_DATA = {
           "data": "27/04/2026",
           "codcli": "79504",
           "cliente": "GELO OESTE COMERCIO LTDA.",
-          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "fantasia": "AURORA",
-          "qt": 2,
-          "valor": 279.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "79504",
-          "cliente": "GELO OESTE COMERCIO LTDA.",
           "produto": "GIN ROCKS STRAWBERRY 1000ML",
           "fantasia": "FANTE",
           "qt": 6,
@@ -226153,6 +226143,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 2,
           "valor": 131.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "79504",
+          "cliente": "GELO OESTE COMERCIO LTDA.",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 279.8,
           "tipo": "Venda"
         },
         {
@@ -227189,16 +227189,6 @@ const VENDAS_DATA = {
           "data": "06/04/2026",
           "codcli": "86454",
           "cliente": "COSTA VERDE GASTRONOMIA LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 4,
-          "valor": 378.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "86454",
-          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 4,
@@ -227210,6 +227200,16 @@ const VENDAS_DATA = {
           "codcli": "86454",
           "cliente": "COSTA VERDE GASTRONOMIA LTDA",
           "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 378.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "86454",
+          "cliente": "COSTA VERDE GASTRONOMIA LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 4,
           "valor": 378.8,
@@ -235343,16 +235343,6 @@ const VENDAS_DATA = {
           "data": "12/01/2026",
           "codcli": "3813",
           "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
-          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 71.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/01/2026",
-          "codcli": "3813",
-          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
           "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -235364,6 +235354,16 @@ const VENDAS_DATA = {
           "codcli": "3813",
           "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
           "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 71.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/01/2026",
+          "codcli": "3813",
+          "cliente": "JULIA'S HORTIFRUTI MERCADO LTDA",
+          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 71.2,
@@ -235573,16 +235573,6 @@ const VENDAS_DATA = {
           "data": "12/01/2026",
           "codcli": "74838",
           "cliente": "PRIME MARKETS MINIMERCADO LTDA",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 175.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/01/2026",
-          "codcli": "74838",
-          "cliente": "PRIME MARKETS MINIMERCADO LTDA",
           "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 2,
@@ -235604,6 +235594,16 @@ const VENDAS_DATA = {
           "codcli": "74838",
           "cliente": "PRIME MARKETS MINIMERCADO LTDA",
           "produto": "MOVING BOOSTER LIMAO 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/01/2026",
+          "codcli": "74838",
+          "cliente": "PRIME MARKETS MINIMERCADO LTDA",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 175.2,
@@ -235753,16 +235753,6 @@ const VENDAS_DATA = {
           "data": "09/01/2026",
           "codcli": "84064",
           "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
-          "produto": "ICE 51 BALADA LONG NECK 24X275 ML",
-          "fantasia": "51",
-          "qt": 1,
-          "valor": 109.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/01/2026",
-          "codcli": "84064",
-          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
           "produto": "ICE 51 FRUIT LONG NECK 24X275 ML",
           "fantasia": "51",
           "qt": 1,
@@ -235787,6 +235777,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 12,
           "valor": 144.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/01/2026",
+          "codcli": "84064",
+          "cliente": "MINIMERCADO CAMARA TRADICAO LTDA",
+          "produto": "ICE 51 BALADA LONG NECK 24X275 ML",
+          "fantasia": "51",
+          "qt": 1,
+          "valor": 109.9,
           "tipo": "Venda"
         },
         {
@@ -236105,16 +236105,6 @@ const VENDAS_DATA = {
           "data": "12/02/2026",
           "codcli": "7886",
           "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 184,
-          "valor": 34188.86,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/02/2026",
-          "codcli": "7886",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
           "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 184,
@@ -236139,6 +236129,16 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 253,
           "valor": 47009.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/02/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 184,
+          "valor": 34188.86,
           "tipo": "Venda"
         },
         {
@@ -237285,16 +237285,6 @@ const VENDAS_DATA = {
           "data": "27/02/2026",
           "codcli": "83678",
           "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
-          "produto": "SUCO GOIABA 100% TIAL 12X250ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "83678",
-          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
           "produto": "SUCO PESSEGO 100% TIAL 12X250ML",
           "fantasia": "TIAL",
           "qt": 2,
@@ -237316,6 +237306,16 @@ const VENDAS_DATA = {
           "codcli": "83678",
           "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
           "produto": "SUCO MANGA 100% TIAL 12X1000 ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "27/02/2026",
+          "codcli": "83678",
+          "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+          "produto": "SUCO GOIABA 100% TIAL 12X250ML",
           "fantasia": "TIAL",
           "qt": 2,
           "valor": 0.0,
@@ -243773,16 +243773,6 @@ const VENDAS_DATA = {
           "data": "04/03/2026",
           "codcli": "67706",
           "cliente": "DEPOSITO DA TORRE COMERCIO DE BEBIDAS EIRELI",
-          "produto": "ICE 51 BALADA LONG NECK 24X275 ML",
-          "fantasia": "51",
-          "qt": 3,
-          "valor": 344.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/03/2026",
-          "codcli": "67706",
-          "cliente": "DEPOSITO DA TORRE COMERCIO DE BEBIDAS EIRELI",
           "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
           "fantasia": "51",
           "qt": 3,
@@ -243807,6 +243797,16 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 144.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/03/2026",
+          "codcli": "67706",
+          "cliente": "DEPOSITO DA TORRE COMERCIO DE BEBIDAS EIRELI",
+          "produto": "ICE 51 BALADA LONG NECK 24X275 ML",
+          "fantasia": "51",
+          "qt": 3,
+          "valor": 344.7,
           "tipo": "Venda"
         },
         {
@@ -244393,20 +244393,20 @@ const VENDAS_DATA = {
           "data": "20/03/2026",
           "codcli": "87273",
           "cliente": "38.405.385 ARIANE DE CARVALHO ALVES",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
           "qt": 1,
-          "valor": 94.7,
+          "valor": 286.8,
           "tipo": "Venda"
         },
         {
           "data": "20/03/2026",
           "codcli": "87273",
           "cliente": "38.405.385 ARIANE DE CARVALHO ALVES",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "CASTAS",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
           "qt": 1,
-          "valor": 286.8,
+          "valor": 94.7,
           "tipo": "Venda"
         },
         {
@@ -244893,16 +244893,6 @@ const VENDAS_DATA = {
           "data": "30/03/2026",
           "codcli": "90761",
           "cliente": "62.011.629 ROBSON WEBER DE CARVALHO",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 3,
-          "valor": 197.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "90761",
-          "cliente": "62.011.629 ROBSON WEBER DE CARVALHO",
           "produto": "CONHAQUE DOMECQ 1L",
           "fantasia": "PERNOD",
           "qt": 600,
@@ -244924,6 +244914,16 @@ const VENDAS_DATA = {
           "codcli": "90761",
           "cliente": "62.011.629 ROBSON WEBER DE CARVALHO",
           "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 3,
+          "valor": 197.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "90761",
+          "cliente": "62.011.629 ROBSON WEBER DE CARVALHO",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
           "fantasia": "BEAM SUNTORY",
           "qt": 3,
           "valor": 197.7,
@@ -246685,16 +246685,6 @@ const VENDAS_DATA = {
           "data": "08/01/2026",
           "codcli": "90146",
           "cliente": "37.598.352 LUCAS DA SILVA GOMES",
-          "produto": "NECTAR LARANJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 120.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/01/2026",
-          "codcli": "90146",
-          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
           "produto": "NECTAR MARACUJA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 2,
@@ -246716,6 +246706,16 @@ const VENDAS_DATA = {
           "codcli": "90146",
           "cliente": "37.598.352 LUCAS DA SILVA GOMES",
           "produto": "NECTAR MANGA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 120.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "08/01/2026",
+          "codcli": "90146",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "produto": "NECTAR LARANJA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 2,
           "valor": 120.0,
@@ -247487,7 +247487,7 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "50931",
           "cliente": "HYGOR PORTO SERQUEIRA 09348357727",
-          "produto": "SABOR DO SABOR WHISKY + COMBO TRAD",
+          "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
           "fantasia": "INVICTUS",
           "qt": 12,
           "valor": 117.6,
@@ -247497,7 +247497,7 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "50931",
           "cliente": "HYGOR PORTO SERQUEIRA 09348357727",
-          "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
+          "produto": "SABOR DO SABOR WHISKY + COMBO TRAD",
           "fantasia": "INVICTUS",
           "qt": 12,
           "valor": 117.6,
@@ -247557,20 +247557,20 @@ const VENDAS_DATA = {
           "data": "24/04/2026",
           "codcli": "73653",
           "cliente": "CHARLES SILVA DE AQUINO 15692489740",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 103.92,
+          "produto": "LICOR STOCK MARULA 720 ML",
+          "fantasia": "STOCK",
+          "qt": 2,
+          "valor": 119.8,
           "tipo": "Venda"
         },
         {
           "data": "24/04/2026",
           "codcli": "73653",
           "cliente": "CHARLES SILVA DE AQUINO 15692489740",
-          "produto": "LICOR STOCK MARULA 720 ML",
-          "fantasia": "STOCK",
-          "qt": 2,
-          "valor": 119.8,
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 103.92,
           "tipo": "Venda"
         },
         {
@@ -247647,16 +247647,6 @@ const VENDAS_DATA = {
           "data": "24/04/2026",
           "codcli": "77937",
           "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
-          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 65.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "77937",
-          "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
           "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -247681,6 +247671,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 2,
           "valor": 129.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "77937",
+          "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
+          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 65.0,
           "tipo": "Venda"
         },
         {
@@ -247717,16 +247717,6 @@ const VENDAS_DATA = {
           "data": "24/04/2026",
           "codcli": "77937",
           "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
-          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 57.34,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "77937",
-          "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
           "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -247751,6 +247741,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 2,
           "valor": 101.54,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "77937",
+          "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
+          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 57.34,
           "tipo": "Venda"
         },
         {
@@ -247787,16 +247787,6 @@ const VENDAS_DATA = {
           "data": "24/04/2026",
           "codcli": "77937",
           "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
-          "produto": "VINHO ARESTI ESTATE S. SAUV BLANC 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 79.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "77937",
-          "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
           "produto": "VINHO ARESTI ESTATE S. MERLOT 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -247818,6 +247808,16 @@ const VENDAS_DATA = {
           "codcli": "77937",
           "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
           "produto": "VINHO ARESTI ESTATE S. PINOT NOIR",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 79.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "77937",
+          "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
+          "produto": "VINHO ARESTI ESTATE S. SAUV BLANC 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
           "valor": 79.8,
@@ -248527,16 +248527,6 @@ const VENDAS_DATA = {
           "data": "27/04/2026",
           "codcli": "90151",
           "cliente": "ELECILDO SIMAO DA SILVA 90866959491",
-          "produto": "NECTAR MARACUJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 60.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "90151",
-          "cliente": "ELECILDO SIMAO DA SILVA 90866959491",
           "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
@@ -248561,6 +248551,16 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 1,
           "valor": 11.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "90151",
+          "cliente": "ELECILDO SIMAO DA SILVA 90866959491",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 60.0,
           "tipo": "Venda"
         },
         {
@@ -248637,16 +248637,6 @@ const VENDAS_DATA = {
           "data": "09/04/2026",
           "codcli": "90581",
           "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 274.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "90581",
-          "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
           "produto": "RED BULL SF POMELO 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -248671,6 +248661,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 354.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "90581",
+          "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 274.8,
           "tipo": "Venda"
         },
         {
@@ -248777,20 +248777,20 @@ const VENDAS_DATA = {
           "data": "24/04/2026",
           "codcli": "90874",
           "cliente": "56.003.128 GABRIELLY DE OLIVEIRA VIEIRA",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 103.92,
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 18,
+          "valor": 286.2,
           "tipo": "Venda"
         },
         {
           "data": "24/04/2026",
           "codcli": "90874",
           "cliente": "56.003.128 GABRIELLY DE OLIVEIRA VIEIRA",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "fantasia": "CATUABA",
-          "qt": 18,
-          "valor": 286.2,
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 103.92,
           "tipo": "Venda"
         },
         {
@@ -250891,16 +250891,6 @@ const VENDAS_DATA = {
           "data": "03/02/2026",
           "codcli": "90211",
           "cliente": "FRANCISCO DAS CHAGAS SOUSA BATISTA",
-          "produto": "RC PATE ATUM COM AZEITONAS 2X80G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 28.33,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/02/2026",
-          "codcli": "90211",
-          "cliente": "FRANCISCO DAS CHAGAS SOUSA BATISTA",
           "produto": "CACHACA YPIOCA CG PRATA 965 ML",
           "fantasia": "DIAGEO",
           "qt": 12,
@@ -250925,6 +250915,16 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 4,
           "valor": 51.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/02/2026",
+          "codcli": "90211",
+          "cliente": "FRANCISCO DAS CHAGAS SOUSA BATISTA",
+          "produto": "RC PATE ATUM COM AZEITONAS 2X80G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 28.33,
           "tipo": "Venda"
         },
         {
@@ -253421,16 +253421,6 @@ const VENDAS_DATA = {
           "data": "25/02/2026",
           "codcli": "69463",
           "cliente": "J. A. M. DA SILVA",
-          "produto": "COQUETEL COMPOSTO PINK MOON 6X2L",
-          "fantasia": "COMARY",
-          "qt": 3,
-          "valor": 284.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/02/2026",
-          "codcli": "69463",
-          "cliente": "J. A. M. DA SILVA",
           "produto": "CACHACA VELHO BARREIRO 910 ML",
           "fantasia": "TATUZINHO",
           "qt": 12,
@@ -253445,6 +253435,16 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 30,
           "valor": 543.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/02/2026",
+          "codcli": "69463",
+          "cliente": "J. A. M. DA SILVA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 6X2L",
+          "fantasia": "COMARY",
+          "qt": 3,
+          "valor": 284.7,
           "tipo": "Venda"
         },
         {
@@ -253691,16 +253691,6 @@ const VENDAS_DATA = {
           "data": "03/02/2026",
           "codcli": "75340",
           "cliente": "ZERO 1 CONVENIENCIA LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 209.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/02/2026",
-          "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
           "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
           "fantasia": "BALLENA",
           "qt": 1,
@@ -253725,6 +253715,16 @@ const VENDAS_DATA = {
           "fantasia": "BALLENA",
           "qt": 1,
           "valor": 99.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4,
           "tipo": "Venda"
         },
         {
@@ -253801,20 +253801,20 @@ const VENDAS_DATA = {
           "data": "18/02/2026",
           "codcli": "74975",
           "cliente": "JOSE FRANCISCO DA SILVA FILHO - MERCEARIA",
-          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
           "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 310.8,
+          "qt": 6,
+          "valor": 419.4,
           "tipo": "Venda"
         },
         {
           "data": "18/02/2026",
           "codcli": "74975",
           "cliente": "JOSE FRANCISCO DA SILVA FILHO - MERCEARIA",
-          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000ML",
           "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 419.4,
+          "qt": 12,
+          "valor": 310.8,
           "tipo": "Venda"
         },
         {
@@ -255595,7 +255595,7 @@ const VENDAS_DATA = {
           "data": "01/04/2026",
           "codcli": "69649",
           "cliente": "MERCADO ENSEADA DO SOL LTDA",
-          "produto": "NECTAR GOIABA 12X1000ML",
+          "produto": "NECTAR LARANJA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 2,
           "valor": 119.76,
@@ -255605,7 +255605,7 @@ const VENDAS_DATA = {
           "data": "01/04/2026",
           "codcli": "69649",
           "cliente": "MERCADO ENSEADA DO SOL LTDA",
-          "produto": "NECTAR LARANJA 12X1000ML",
+          "produto": "NECTAR GOIABA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 2,
           "valor": 119.76,
@@ -255665,16 +255665,6 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "69045",
           "cliente": "MERCADO S.A GARATUCAIA LTDA",
-          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "fantasia": "AURORA",
-          "qt": 3,
-          "valor": 389.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "69045",
-          "cliente": "MERCADO S.A GARATUCAIA LTDA",
           "produto": "RUM MONTILLA OURO 1000ML",
           "fantasia": "PERNOD",
           "qt": 2,
@@ -255699,6 +255689,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 2,
           "valor": 159.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "69045",
+          "cliente": "MERCADO S.A GARATUCAIA LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 3,
+          "valor": 389.7,
           "tipo": "Venda"
         },
         {
@@ -255785,16 +255785,6 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "69045",
           "cliente": "MERCADO S.A GARATUCAIA LTDA",
-          "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 198.96,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "69045",
-          "cliente": "MERCADO S.A GARATUCAIA LTDA",
           "produto": "WHISKY J WALKER BLACK LABEL 1L",
           "fantasia": "DIAGEO",
           "qt": 1,
@@ -255819,6 +255809,16 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 1,
           "valor": 129.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "69045",
+          "cliente": "MERCADO S.A GARATUCAIA LTDA",
+          "produto": "WHISKY BALLANTINE'S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 198.96,
           "tipo": "Venda"
         },
         {
@@ -255985,16 +255985,6 @@ const VENDAS_DATA = {
           "data": "15/04/2026",
           "codcli": "74975",
           "cliente": "JOSE FRANCISCO DA SILVA FILHO - MERCEARIA",
-          "produto": "SUCO DE UVA BCO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 102.08,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "74975",
-          "cliente": "JOSE FRANCISCO DA SILVA FILHO - MERCEARIA",
           "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
@@ -256016,6 +256006,16 @@ const VENDAS_DATA = {
           "codcli": "74975",
           "cliente": "JOSE FRANCISCO DA SILVA FILHO - MERCEARIA",
           "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 102.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "74975",
+          "cliente": "JOSE FRANCISCO DA SILVA FILHO - MERCEARIA",
+          "produto": "SUCO DE UVA BCO INT QUINTA DO MORGADO 1L",
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 102.08,
@@ -256265,16 +256265,6 @@ const VENDAS_DATA = {
           "data": "15/04/2026",
           "codcli": "78995",
           "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 2,
-          "valor": 33.82,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "78995",
-          "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
           "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 2,
@@ -256299,6 +256289,16 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 3,
           "valor": 50.73,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "78995",
+          "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 33.82,
           "tipo": "Venda"
         },
         {
@@ -261689,76 +261689,6 @@ const VENDAS_DATA = {
           "data": "19/01/2026",
           "codcli": "81922",
           "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
-          "produto": "WHISKY JIM BEAM BLACK 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/01/2026",
-          "codcli": "81922",
-          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/01/2026",
-          "codcli": "81922",
-          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/01/2026",
-          "codcli": "81922",
-          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
-          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/01/2026",
-          "codcli": "81922",
-          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
-          "produto": "WHISKY JIM BEAM RYE 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/01/2026",
-          "codcli": "81922",
-          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
-          "produto": "WHISKY BOURBON MAKERS MARK 750 ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/01/2026",
-          "codcli": "81922",
-          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/01/2026",
-          "codcli": "81922",
-          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
           "produto": "WHISKY JIM BEAM HONEY 1L",
           "fantasia": "BEAM SUNTORY",
           "qt": 1,
@@ -261829,6 +261759,76 @@ const VENDAS_DATA = {
           "data": "19/01/2026",
           "codcli": "81922",
           "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "19/01/2026",
+          "codcli": "81922",
+          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "19/01/2026",
+          "codcli": "81922",
+          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "19/01/2026",
+          "codcli": "81922",
+          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
+          "produto": "WHISKY JIM BEAM BLACK 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "19/01/2026",
+          "codcli": "81922",
+          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
+          "produto": "WHISKY JIM BEAM RYE 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "19/01/2026",
+          "codcli": "81922",
+          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
+          "produto": "WHISKY BOURBON MAKERS MARK 750 ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "19/01/2026",
+          "codcli": "81922",
+          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "19/01/2026",
+          "codcli": "81922",
+          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
           "produto": "WHISKY JIM BEAM RYE 700ML",
           "fantasia": "BEAM SUNTORY",
           "qt": 1,
@@ -261882,16 +261882,6 @@ const VENDAS_DATA = {
           "produto": "WHISKY JIM BEAM BLACK 1L",
           "fantasia": "BEAM SUNTORY",
           "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 4,
           "valor": 0.0,
           "tipo": "Bonificado"
         },
@@ -261922,6 +261912,16 @@ const VENDAS_DATA = {
           "produto": "VILLA ROSA TINTO 750ML",
           "fantasia": "CASTAS",
           "qt": 12,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "23/01/2026",
+          "codcli": "84030",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 4,
           "valor": 0.0,
           "tipo": "Bonificado"
         },
@@ -265667,16 +265667,6 @@ const VENDAS_DATA = {
           "data": "04/03/2026",
           "codcli": "13729",
           "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 10,
-          "valor": 269.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/03/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
           "produto": "MOVING BOOSTER LIMAO 24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -265701,6 +265691,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/03/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 269.0,
           "tipo": "Venda"
         },
         {
@@ -268189,16 +268189,6 @@ const VENDAS_DATA = {
           "data": "08/04/2026",
           "codcli": "13729",
           "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "HARPIC LIQUIDO CLORO 12X200ML ",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 116.08,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/04/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
           "produto": "VANISH LIQUIDO PINK REFIL 12X500ML",
           "fantasia": "RECKITT",
           "qt": 10,
@@ -268223,6 +268213,16 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 295.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "08/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "HARPIC LIQUIDO CLORO 12X200ML ",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 116.08,
           "tipo": "Venda"
         },
         {
@@ -268269,16 +268269,6 @@ const VENDAS_DATA = {
           "data": "15/04/2026",
           "codcli": "13729",
           "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
-          "produto": "NECTAR GOIABA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 4,
-          "valor": 237.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
           "produto": "NECTAR ABACAXI 12X1000ML",
           "fantasia": "TIAL",
           "qt": 2,
@@ -268293,6 +268283,16 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 3,
           "valor": 178.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 4,
+          "valor": 237.6,
           "tipo": "Venda"
         },
         {
@@ -268639,20 +268639,20 @@ const VENDAS_DATA = {
           "data": "29/04/2026",
           "codcli": "75764",
           "cliente": "51.573.520 GRAZIELI GOMES DE SOUZA",
-          "produto": "BEEFEATER PINK 700ML",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
           "fantasia": "PERNOD",
           "qt": 6,
-          "valor": 479.4,
+          "valor": 377.4,
           "tipo": "Venda"
         },
         {
           "data": "29/04/2026",
           "codcli": "75764",
           "cliente": "51.573.520 GRAZIELI GOMES DE SOUZA",
-          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "produto": "BEEFEATER PINK 700ML",
           "fantasia": "PERNOD",
           "qt": 6,
-          "valor": 377.4,
+          "valor": 479.4,
           "tipo": "Venda"
         },
         {
@@ -274089,20 +274089,20 @@ const VENDAS_DATA = {
           "data": "11/02/2026",
           "codcli": "90319",
           "cliente": "62.299.341 VICTOR ALVARENGA SOUZA E SOUZA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 5,
-          "valor": 149.5,
+          "produto": "4 PACK RED BULL TROPICAL 250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 28.0,
           "tipo": "Venda"
         },
         {
           "data": "11/02/2026",
           "codcli": "90319",
           "cliente": "62.299.341 VICTOR ALVARENGA SOUZA E SOUZA",
-          "produto": "4 PACK RED BULL TROPICAL 250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 28.0,
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 5,
+          "valor": 149.5,
           "tipo": "Venda"
         },
         {
