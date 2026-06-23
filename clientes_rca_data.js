@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 11:06",
-  "total": 4299,
+  "atualizado_em": "23/06/2026 13:08",
+  "total": 4303,
   "clientes": [
     {
       "codcli": "31683",
@@ -1136,6 +1136,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "51246",
+      "razao": "42.324.778 DENYS WILLIAN BRAGA MAIA",
+      "fantasia": "42.324.778 DENYS WILLIAN BRAGA MAIA",
+      "bairro": "VILA MARIA",
+      "cidade": "BOTUCATU",
+      "cnpj": "42.324.778/0001-04",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50826",
@@ -18254,10 +18268,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "60.981.508/0001-40",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "461",
-      "nome_usur1": "SUELY SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur1": "329",
+      "nome_usur1": "RAPHAELA RIBAS",
+      "codusur2": "461",
+      "nome_usur2": "SUELY SANTOS - OFF TRADE"
     },
     {
       "codcli": "85127",
@@ -42144,6 +42158,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "81888",
+      "razao": "ORLA BELLA BUZIOS RESTAURANTE LTDA",
+      "fantasia": "ORLA BELLA BUZIOS",
+      "bairro": "HUMAITA",
+      "cidade": "ARMACAO DOS BUZ",
+      "cnpj": "59.309.325/0001-01",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
+    },
+    {
       "codcli": "3626",
       "razao": "OS IMORTAIS RESTAURANTE LTDA - EPP",
       "fantasia": "IMORTAIS",
@@ -45138,6 +45166,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51242",
+      "razao": "PIZZA FRITA SEMIAO LTDA",
+      "fantasia": "PIZZA FRITA SEMIAO",
+      "bairro": "CENTRO",
+      "cidade": "BOTUCATU",
+      "cnpj": "03.198.135/0001-00",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "4563",
@@ -56604,6 +56646,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "NATHALIA XAVIER",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51244",
+      "razao": "T.BELEM ATACADISTA E SUPERMERCADO",
+      "fantasia": "T.BELEM ATACADISTA E SUPERMERCADO",
+      "bairro": "CENTRO",
+      "cidade": "BOTUCATU",
+      "cnpj": "44.703.364/0001-03",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "84584",
