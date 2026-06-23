@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 17:40",
-  "total": 4335,
+  "atualizado_em": "23/06/2026 17:46",
+  "total": 4336,
   "clientes": [
     {
       "codcli": "31683",
@@ -29610,6 +29610,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "460",
       "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95491",
+      "razao": "L H REIS MERCADO LTDA",
+      "fantasia": "L H REIS MERCADO",
+      "bairro": "CHATUBA",
+      "cidade": "MESQUITA",
+      "cnpj": "42.221.368/0001-20",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "379",
+      "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
