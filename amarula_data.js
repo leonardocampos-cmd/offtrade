@@ -1,5 +1,5 @@
 const AMARULA_DATA = {
-  "atualizado_em": "23/06/2026 11:05",
+  "atualizado_em": "23/06/2026 13:07",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
