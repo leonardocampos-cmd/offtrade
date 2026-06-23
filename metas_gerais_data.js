@@ -1,43 +1,43 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "23/06/2026 15:59",
+  "atualizado_em": "23/06/2026 16:19",
   "mes": "Jun/26",
   "dias_corridos": 23,
   "dias_no_mes": 30,
   "dias_restantes": 7,
   "resumo": {
-    "fat": 7912527.53,
+    "fat": 7999792.13,
     "fat_ant": 6647616.3,
-    "pos": 1428,
+    "pos": 1430,
     "pos_ant": 1385
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 7912527.53,
+    "fat": 7999792.13,
     "fat_ant": 6647616.3,
-    "pct": 54.9,
-    "nec_dia": 926781.78
+    "pct": 55.6,
+    "nec_dia": 914315.41
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 2093864.43,
+      "fat": 2170968.03,
       "fat_ant": 1741433.55,
-      "pos": 592,
-      "pct": 53.7,
-      "nec_dia": 258019.37,
+      "pos": 593,
+      "pct": 55.7,
+      "nec_dia": 247004.57,
       "pos_ant": 563
     },
     {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 6600000.0,
-      "fat": 4147328.65,
+      "fat": 4157130.13,
       "fat_ant": 3471719.51,
       "pos": 481,
-      "pct": 62.8,
-      "nec_dia": 350381.62,
+      "pct": 63.0,
+      "nec_dia": 348981.41,
       "pos_ant": 368
     },
     {
@@ -55,11 +55,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 951544.81,
+      "fat": 951904.33,
       "fat_ant": 1057176.78,
-      "pos": 254,
+      "pos": 255,
       "pct": 45.3,
-      "nec_dia": 164065.03,
+      "nec_dia": 164013.67,
       "pos_ant": 241
     }
   ],
@@ -88,13 +88,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 873736.49,
+      "fat": 874096.01,
       "fat_ant": 1007519.49,
       "por_estado": {
         "RJ": 0.0,
         "SP": 1292.01,
         "ES": 26548.21,
-        "MG": 845896.27
+        "MG": 846255.79
       }
     },
     {
@@ -138,6 +138,17 @@ const METAS_GERAIS_DATA = {
         "RJ": 63438.43,
         "SP": 156161.48,
         "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "BEAM SUNTORY",
+      "fat": 197343.96,
+      "fat_ant": 93679.93,
+      "por_estado": {
+        "RJ": 189010.65,
+        "SP": 0.0,
+        "ES": 8333.31,
         "MG": 0.0
       }
     },
@@ -204,17 +215,6 @@ const METAS_GERAIS_DATA = {
         "RJ": 112541.18,
         "SP": 10325.28,
         "ES": 1539.21,
-        "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "BEAM SUNTORY",
-      "fat": 120240.36,
-      "fat_ant": 93679.93,
-      "por_estado": {
-        "RJ": 111907.05,
-        "SP": 0.0,
-        "ES": 8333.31,
         "MG": 0.0
       }
     },
