@@ -524,9 +524,11 @@ if _hier_parts:
     _vh_hier['NOME_SUPERVISOR'] = _vh_hier['NOME_SUPERVISOR'].fillna('Sem Supervisor')
     _vh_hier['NOMEGERENTE']     = _vh_hier['NOMEGERENTE'].fillna('Sem Gerente')
 
-    # Resolve EMPRESA: merge cria EMPRESA_x (vendas) e EMPRESA_y (hierarquia)
+    # EMPRESA vem sempre dos dados de vendas (EMPRESA_x), que reflete o schema
+    # de origem correto. EMPRESA_y (hierarquia) pode estar errado por causa do
+    # drop_duplicates que prioriza CRC quando o mesmo vendedor aparece em múltiplos schemas.
     if 'EMPRESA_x' in _vh_hier.columns:
-        _vh_hier['EMPRESA'] = _vh_hier['EMPRESA_y'].fillna(_vh_hier['EMPRESA_x'])
+        _vh_hier['EMPRESA'] = _vh_hier['EMPRESA_x']
         _vh_hier.drop(columns=['EMPRESA_x', 'EMPRESA_y'], inplace=True)
     elif 'EMPRESA' not in _vh_hier.columns:
         _vh_hier['EMPRESA'] = 'Desconhecido'

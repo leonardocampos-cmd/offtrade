@@ -35,9 +35,9 @@ user     = os.getenv("DB_USER",      os.getenv("VPN_USER",     "vpn"))
 password = os.getenv("DB_PASSWORD",  os.getenv("VPN_PASSWORD", ""))
 
 BASES = {
-    "SP": {"dsn": os.getenv("DSN_SP"), "schema": "SPON", "filiais": None},
+    "SP": {"dsn": os.getenv("DSN_SP"), "schema": "SPON", "filiais": ["1", "2"]},
     "RJ": {"dsn": os.getenv("DSN_RJ"), "schema": "CRC",  "filiais": ["2", "4"]},
-    "MG": {"dsn": os.getenv("DSN_MG"), "schema": "MGON", "filiais": None},
+    "MG": {"dsn": os.getenv("DSN_MG"), "schema": "MGON", "filiais": ["1", "2"]},
     "ES": {"dsn": os.getenv("DSN_ES"), "schema": "CRC",  "filiais": ["1"]},
 }
 
@@ -131,6 +131,7 @@ def build_query(schema: str, mes_offset: int = 0, limit_day: bool = False) -> st
         SELECT PCMOV.CODUSUR            AS CODUSUR,
                PCMOV.CODFILIAL          AS CODFILIAL,
                PCUSUARI.NOME            AS NOME,
+               PCUSUARI.ESTADO          AS ESTADO,
                PCCLIENT.CODCLI          AS CODCLI,
                PCCLIENT.CLIENTE         AS CLIENTE,
                PCCLIENT.ESTENT          AS UF_CLIENTE,
@@ -172,7 +173,6 @@ def _query_vendas(mes_offset: int = 0, limit_day: bool = False) -> pd.DataFrame:
         if filiais:
             codfilial_norm = df["CODFILIAL"].str.split(".").str[0].str.strip()
             df = df[codfilial_norm.isin(filiais)]
-        df["ESTADO"] = estado
         frames.append(df)
     if not frames:
         return pd.DataFrame()
