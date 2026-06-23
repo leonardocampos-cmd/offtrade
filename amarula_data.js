@@ -1,5 +1,5 @@
 const AMARULA_DATA = {
-  "atualizado_em": "23/06/2026 15:52",
+  "atualizado_em": "23/06/2026 15:59",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
@@ -7,7 +7,7 @@ const AMARULA_DATA = {
   "premio": 3000,
   "total_vendedores": 41,
   "total_positivacao": 169,
-  "total_faturamento": 82848.88,
+  "total_faturamento": 82937.78,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
@@ -256,6 +256,10 @@ const AMARULA_DATA = {
       "valor": 444.5
     },
     {
+      "vendedor": "FELIPE OLIVEIRA",
+      "valor": 444.5
+    },
+    {
       "vendedor": "JOÃO VITOR BRAGA",
       "valor": 375.6
     },
@@ -265,10 +269,6 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "LUIZA FREIRE",
-      "valor": 355.6
-    },
-    {
-      "vendedor": "FELIPE OLIVEIRA",
       "valor": 355.6
     },
     {
