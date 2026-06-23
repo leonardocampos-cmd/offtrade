@@ -584,7 +584,7 @@ if _hier_parts:
     ger_path = str(Path(__file__).parent / "gerentes_data.js")
     with open(ger_path, 'w', encoding='utf-8') as f:
         f.write(js_ger)
-    print(f"OK gerentes_data.js gerado — {len(gerentes_out)} gerentes")
+    print(f"OK gerentes_data.js gerado — {len(empresas_out)} empresas")
 else:
     print("[AVISO] hierarquia não disponível — gerentes_data.js não gerado")
 
