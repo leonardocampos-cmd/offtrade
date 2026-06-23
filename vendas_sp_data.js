@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "23/06/2026 16:31",
+  "atualizado_em": "23/06/2026 17:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -36343,6 +36343,33 @@ const VENDAS_SP_DATA = {
           "valor": 11988.0
         },
         {
+          "data": "23/06/2026",
+          "codcli": "49476",
+          "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 120,
+          "valor": 11988.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "49476",
+          "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "BROWN",
+          "qt": 60,
+          "valor": 5994.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "49476",
+          "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
+          "fantasia": "BROWN",
+          "qt": 444,
+          "valor": 3696.3
+        },
+        {
           "data": "22/06/2026",
           "codcli": "49476",
           "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
@@ -36557,6 +36584,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 300,
           "valor": 8370.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "49390",
+          "cliente": "IMPERIO SAO JOSE LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 420,
+          "valor": 5455.8
         },
         {
           "data": "02/06/2026",
@@ -50139,6 +50175,24 @@ const VENDAS_SP_DATA = {
           "valor": 1199.4
         },
         {
+          "data": "23/06/2026",
+          "codcli": "39053",
+          "cliente": "MERCADINHO DO COLMEIA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "39053",
+          "cliente": "MERCADINHO DO COLMEIA LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 250.8
+        },
+        {
           "data": "04/06/2026",
           "codcli": "39337",
           "cliente": "M.S.S. MERCADO E CONVENIENCIA LTDA",
@@ -54073,6 +54127,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "BACARDI",
           "qt": 2,
           "valor": 68.85
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "50587",
+          "cliente": "SUPERMERCADO MAISMIX LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 173.4
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "50587",
+          "cliente": "SUPERMERCADO MAISMIX LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 750ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 116.86
         },
         {
           "data": "03/06/2026",
@@ -78550,6 +78622,15 @@ const VENDAS_SP_DATA = {
           "valor": 1194.0
         },
         {
+          "data": "23/06/2026",
+          "codcli": "50289",
+          "cliente": "ROSELIA A.C.TOMAZ SALGADO",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1314.0
+        },
+        {
           "data": "12/06/2026",
           "codcli": "50308",
           "cliente": "ARMINDA DE OLIVEIRA LIMA SALES",
@@ -80466,9 +80547,9 @@ const VENDAS_SP_DATA = {
     },
     "MANUELA ZAPPACOSTA": {
       "Jun/26": {
-        "fat": 125180.2,
-        "pos": 29.0,
-        "fat_pernod": 71274.6,
+        "fat": 125765.8,
+        "pos": 30.0,
+        "fat_pernod": 71860.2,
         "fat_crs": 179.28
       },
       "Mai/26": {
@@ -80507,8 +80588,8 @@ const VENDAS_SP_DATA = {
     },
     "CRISTIANE MORAIS": {
       "Jun/26": {
-        "fat": 69011.3,
-        "pos": 24.0,
+        "fat": 69301.56,
+        "pos": 25.0,
         "fat_pernod": 24620.8,
         "fat_crs": 1030.98
       },
@@ -80692,9 +80773,9 @@ const VENDAS_SP_DATA = {
     },
     "FLAVIO RIBEIRO": {
       "Jun/26": {
-        "fat": 19922.32,
+        "fat": 21236.32,
         "pos": 9.0,
-        "fat_pernod": 1456.8,
+        "fat_pernod": 2770.8,
         "fat_crs": 131.88
       },
       "Mai/26": {
@@ -80826,10 +80907,10 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2085190.44,
-        "pos": 127.0,
+        "fat": 2112324.54,
+        "pos": 128.0,
         "fat_pernod": 1039486.14,
-        "fat_crs": 33484.92
+        "fat_crs": 38940.72
       },
       "Mai/26": {
         "fat": 2028315.23,
