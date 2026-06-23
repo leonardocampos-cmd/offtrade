@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 13:48",
-  "total": 4305,
+  "atualizado_em": "23/06/2026 14:02",
+  "total": 4310,
   "clientes": [
     {
       "codcli": "31683",
@@ -3292,6 +3292,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "51249",
+      "razao": "60.855.029 CAIO FELIPHE SANTOS SOUZA",
+      "fantasia": "CAIO FELIPHE SANTOS SOUZA",
+      "bairro": "CONJUNTO RESIDENCIAL SANTO ÂNGELO",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "60.855.029/0001-87",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "461",
+      "nome_usur1": "SUELY SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50878",
@@ -19212,6 +19226,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "91281",
+      "razao": "DROGARIA BKA LTDA",
+      "fantasia": "DROGARIA BKA - OLARIA",
+      "bairro": "OLARIA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "19.104.481/0001-03",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "43764",
       "razao": "DROGARIA CASA DO REMEDIO LTDA",
       "fantasia": "DRAGARIA CASA DO REMEDIO LTDA-ME",
@@ -27330,6 +27358,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
+    },
+    {
+      "codcli": "86264",
+      "razao": "JC LOJA DE CONVENIENCIA LTDA",
+      "fantasia": "JC ATACADOS",
+      "bairro": "TAQUARA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "42.912.682/0001-59",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "51130",
@@ -35798,6 +35840,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PADARIA",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51250",
+      "razao": "MERCADO E PADARIA BRESSIANI LTDA",
+      "fantasia": "MERCADO E PADARIA BRESSIANI",
+      "bairro": "SERPA",
+      "cidade": "CAIEIRAS",
+      "cnpj": "64.370.913/0001-82",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -44830,6 +44886,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "71736",
+      "razao": "PEDRO GAUDENSI DOS SANTOS SAMPAIO",
+      "fantasia": "CONVENIENCIA MARLIM",
+      "bairro": "CASTELANDIA",
+      "cidade": "SERRA",
+      "cnpj": "26.460.421/0001-99",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "38528",
