@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 15:05",
-  "total": 4328,
+  "atualizado_em": "23/06/2026 15:12",
+  "total": 4327,
   "clientes": [
     {
       "codcli": "31683",
@@ -19210,20 +19210,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "72470",
-      "razao": "DRL BEBIDAS LTDA",
-      "fantasia": "DISTRIBUIDORA REVOADA NA LAMA",
-      "bairro": "JARDIM DA PENHA",
-      "cidade": "VITORIA",
-      "cnpj": "50.231.479/0001-45",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "1092",
