@@ -1,21 +1,21 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "23/06/2026 13:47",
+  "atualizado_em": "23/06/2026 15:04",
   "mes": "Jun/26",
   "dias_corridos": 23,
   "dias_no_mes": 30,
   "dias_restantes": 7,
   "resumo": {
-    "fat": 7991663.12,
+    "fat": 7997117.82,
     "fat_ant": 6647616.3,
-    "pos": 1407,
+    "pos": 1409,
     "pos_ant": 1385
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 7991663.12,
+    "fat": 7997117.82,
     "fat_ant": 6647616.3,
     "pct": 55.5,
-    "nec_dia": 915476.7
+    "nec_dia": 914697.45
   },
   "estados": [
     {
@@ -44,22 +44,22 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 705439.1,
+      "fat": 706235.04,
       "fat_ant": 377286.46,
-      "pos": 94,
+      "pos": 95,
       "pct": 39.2,
-      "nec_dia": 156365.84,
+      "nec_dia": 156252.14,
       "pos_ant": 213
     },
     {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 946886.05,
+      "fat": 951544.81,
       "fat_ant": 1057176.78,
-      "pos": 253,
-      "pct": 45.1,
-      "nec_dia": 164730.56,
+      "pos": 254,
+      "pct": 45.3,
+      "nec_dia": 164065.03,
       "pos_ant": 241
     }
   ],
@@ -88,13 +88,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 858471.53,
+      "fat": 860181.89,
       "fat_ant": 1007519.49,
       "por_estado": {
         "RJ": 0.0,
         "SP": 1292.01,
         "ES": 12993.61,
-        "MG": 844185.91
+        "MG": 845896.27
       }
     },
     {
@@ -176,12 +176,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "BACARDI",
-      "fat": 166689.79,
+      "fat": 167485.74,
       "fat_ant": 339846.85,
       "por_estado": {
         "RJ": 15649.95,
         "SP": 128768.92,
-        "ES": 22270.92,
+        "ES": 23066.87,
         "MG": 0.0
       }
     },
@@ -274,6 +274,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "HEINEKEN BRASIL",
+      "fat": 39440.0,
+      "fat_ant": 51146.32,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 568.0,
+        "ES": 0.0,
+        "MG": 38872.0
+      }
+    },
+    {
       "fantasia": "INTERFOOD",
       "fat": 38998.44,
       "fat_ant": 8659.42,
@@ -282,17 +293,6 @@ const METAS_GERAIS_DATA = {
         "SP": 3070.54,
         "ES": 0.0,
         "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "HEINEKEN BRASIL",
-      "fat": 36491.6,
-      "fat_ant": 51146.32,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 568.0,
-        "ES": 0.0,
-        "MG": 35923.6
       }
     },
     {
