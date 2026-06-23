@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "23/06/2026 16:20",
+  "atualizado_em": "23/06/2026 16:31",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -36127,6 +36127,24 @@ const VENDAS_SP_DATA = {
           "valor": 319.8
         },
         {
+          "data": "23/06/2026",
+          "codcli": "48242",
+          "cliente": "MAX DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 646.8
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "48242",
+          "cliente": "MAX DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 599.4
+        },
+        {
           "data": "11/06/2026",
           "codcli": "48107",
           "cliente": "MERCADO E ACOUGUE LINS LTDA",
@@ -63908,6 +63926,24 @@ const VENDAS_SP_DATA = {
           "valor": 190.8
         },
         {
+          "data": "23/06/2026",
+          "codcli": "50893",
+          "cliente": "EDUARDO GONCALVES ESTACIONAMENTO LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 116.9
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "50893",
+          "cliente": "EDUARDO GONCALVES ESTACIONAMENTO LTDA",
+          "produto": "AGUA MINALBA C/GAS GRF 12X310ML",
+          "fantasia": "MINALBA",
+          "qt": 2,
+          "valor": 38.59
+        },
+        {
           "data": "15/06/2026",
           "codcli": "51028",
           "cliente": "SUPERMERCADO SANI LTDA",
@@ -64077,6 +64113,33 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 1,
           "valor": 166.9
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "50933",
+          "cliente": "GESIO FUJII CARDOSO COMERCIO DE BEBIDAS",
+          "produto": "WHISKY ROYAL SALUTE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 579.9
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "50933",
+          "cliente": "GESIO FUJII CARDOSO COMERCIO DE BEBIDAS",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 99.9
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "50933",
+          "cliente": "GESIO FUJII CARDOSO COMERCIO DE BEBIDAS",
+          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 99.9
         },
         {
           "data": "22/06/2026",
@@ -64815,6 +64878,15 @@ const VENDAS_SP_DATA = {
           "valor": 455.4
         },
         {
+          "data": "23/06/2026",
+          "codcli": "49542",
+          "cliente": "ADAO NOE BISPO DE SOUZA",
+          "produto": "WHISKY ROYAL SALUTE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 1709.7
+        },
+        {
           "data": "13/06/2026",
           "codcli": "50972",
           "cliente": "HOSMILTON SOARES DA SILVA ADEGA",
@@ -64831,6 +64903,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1557.6
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "50523",
+          "cliente": "MARIA APARECIDA RODRIGUES DA SILVA 27253307852",
+          "produto": "WHISKY OLD PARR 12Y 1L",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1750.8
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "50523",
+          "cliente": "MARIA APARECIDA RODRIGUES DA SILVA 27253307852",
+          "produto": "APERITIVO CAMPARI 998ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 598.8
         }
       ]
     },
@@ -64997,6 +65087,33 @@ const VENDAS_SP_DATA = {
           "fantasia": "DIAGEO",
           "qt": 3,
           "valor": 377.7
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51229",
+          "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 116.9
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51229",
+          "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
+          "produto": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 267.32
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51229",
+          "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
+          "produto": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 133.66
         },
         {
           "data": "22/06/2026",
@@ -70741,6 +70858,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 12,
           "valor": 1198.8
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "50195",
+          "cliente": "VICENTE OTAROLA GALLEGO MERCEARIA LTDA",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.6
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "50195",
+          "cliente": "VICENTE OTAROLA GALLEGO MERCEARIA LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 250.8
         },
         {
           "data": "22/06/2026",
@@ -78989,6 +79124,42 @@ const VENDAS_SP_DATA = {
           "valor": 202.8
         },
         {
+          "data": "23/06/2026",
+          "codcli": "51230",
+          "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51230",
+          "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 119.88
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51230",
+          "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 202.8
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51230",
+          "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
           "data": "01/06/2026",
           "codcli": "50578",
           "cliente": "COMERCIAL DE ALIMENTOS ZANUTTO BORCEDA LTDA",
@@ -79417,6 +79588,15 @@ const VENDAS_SP_DATA = {
           "valor": 1552.5
         },
         {
+          "data": "23/06/2026",
+          "codcli": "51170",
+          "cliente": "62.384.846 PAULO ROBERTO FLORIANO",
+          "produto": "JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "BROWN",
+          "qt": 3,
+          "valor": 539.7
+        },
+        {
           "data": "18/06/2026",
           "codcli": "51110",
           "cliente": "DISTRIBUIDORA DE BEBIDAS CIDADE JARDIM LTDA",
@@ -79487,6 +79667,42 @@ const VENDAS_SP_DATA = {
           "fantasia": "MOET HENNESY",
           "qt": 48,
           "valor": 1243.2
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51110",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS CIDADE JARDIM LTDA",
+          "produto": "DOM PERIGNON VINTAGE LUMINOUS  750 ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 1,
+          "valor": 1250.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51110",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS CIDADE JARDIM LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 6,
+          "valor": 701.4
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51110",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS CIDADE JARDIM LTDA",
+          "produto": "VODKA BELVEDERE B10 700 ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 2,
+          "valor": 1453.8
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51110",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS CIDADE JARDIM LTDA",
+          "produto": "CONHAQUE HENNESSY V.S.O.P 700 ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 3,
+          "valor": 995.7
         }
       ]
     },
@@ -80406,9 +80622,9 @@ const VENDAS_SP_DATA = {
     },
     "MARLENE RODRIGUES": {
       "Jun/26": {
-        "fat": 32523.94,
+        "fat": 36583.24,
         "pos": 5.0,
-        "fat_pernod": 26096.5,
+        "fat_pernod": 27806.2,
         "fat_crs": 2397.6
       },
       "Mai/26": {
@@ -80450,9 +80666,9 @@ const VENDAS_SP_DATA = {
     },
     "PRISCILLA BONACHE": {
       "Jun/26": {
-        "fat": 296754.94,
-        "pos": 3.0,
-        "fat_pernod": 152451.0,
+        "fat": 297252.34,
+        "pos": 4.0,
+        "fat_pernod": 152701.8,
         "fat_crs": 56.94
       },
       "Mai/26": {
@@ -80500,8 +80716,8 @@ const VENDAS_SP_DATA = {
     },
     "FRANCIS SILVA": {
       "Jun/26": {
-        "fat": 11555.76,
-        "pos": 4.0,
+        "fat": 12073.64,
+        "pos": 5.0,
         "fat_pernod": 6308.5
       },
       "Mai/26": {
@@ -80512,10 +80728,10 @@ const VENDAS_SP_DATA = {
     },
     "LUCAS BUENO": {
       "Jun/26": {
-        "fat": 5117.72,
-        "pos": 5.0,
-        "fat_pernod": 2092.8,
-        "fat_crs": 635.4
+        "fat": 6038.0,
+        "pos": 6.0,
+        "fat_pernod": 2690.4,
+        "fat_crs": 755.28
       },
       "Mai/26": {
         "fat": 4040.1,
@@ -80574,9 +80790,9 @@ const VENDAS_SP_DATA = {
     },
     "LEONARDO FLOREZI": {
       "Jun/26": {
-        "fat": 11260.13,
+        "fat": 12195.32,
         "pos": 13.0,
-        "fat_pernod": 2212.0,
+        "fat_pernod": 2791.9,
         "fat_crs": 117.48,
         "fat_essenza": 789.36
       }
@@ -80590,7 +80806,7 @@ const VENDAS_SP_DATA = {
     },
     "FERNANDO BERTIN": {
       "Jun/26": {
-        "fat": 9986.06,
+        "fat": 14926.66,
         "pos": 2.0,
         "fat_pernod": 2891.7
       }
@@ -80610,9 +80826,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2083944.24,
-        "pos": 126.0,
-        "fat_pernod": 1038839.34,
+        "fat": 2085190.44,
+        "pos": 127.0,
+        "fat_pernod": 1039486.14,
         "fat_crs": 33484.92
       },
       "Mai/26": {
