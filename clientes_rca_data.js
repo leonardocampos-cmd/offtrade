@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 16:32",
-  "total": 4333,
+  "atualizado_em": "23/06/2026 17:03",
+  "total": 4335,
   "clientes": [
     {
       "codcli": "31683",
@@ -9242,6 +9242,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "39315",
+      "razao": "BAR ANAPOLES LTDA",
+      "fantasia": "BAR E LANCHONETE PAULISTA",
+      "bairro": "DOS FRANCOS",
+      "cidade": "SERRA NEGRA",
+      "cnpj": "00.293.064/0001-28",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "490",
+      "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "93695",
@@ -55636,6 +55650,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "486",
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51266",
+      "razao": "SUPERMERCADO SANTA GERTRUDES LTDA",
+      "fantasia": "SUPERMERCADO SANTA GERTRUDES",
+      "bairro": "JARDIM SANTA GERTRUDES",
+      "cidade": "JUNDIAI",
+      "cnpj": "73.090.433/0001-59",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "470",
+      "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
