@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "23/06/2026 16:20",
+  "atualizado_em": "23/06/2026 16:31",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -3999,13 +3999,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51229",
-        "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
-        "bairro": "VILA TEIXEIRA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "50708",
         "cliente": "SAO MATEUS COMERCIO E DISTRIBUIDORA LTDA",
         "bairro": "PARQUE RESIDENCIAL MONTE REY",
@@ -4092,16 +4085,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51070",
+        "codcli": "51068",
         "cliente": "SUPERMERCADOS FURLANETTI LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VILA SANTA MARIA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51068",
+        "codcli": "51070",
         "cliente": "SUPERMERCADOS FURLANETTI LTDA",
-        "bairro": "VILA SANTA MARIA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4220,13 +4213,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "50667",
         "cliente": "GRUPO VAREJISTA ZL DO BRASIL LTDA",
         "bairro": "JARDIM TARUMA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51230",
-        "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
-        "bairro": "JARDIM MIRANTE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6112,13 +6098,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "51236",
         "cliente": "MINI MERCADO NOVA UNIAO LTDA",
         "bairro": "PARQUE RESIDENCIAL VILA UNIAO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "50195",
-        "cliente": "VICENTE OTAROLA GALLEGO MERCEARIA LTDA",
-        "bairro": "VL PE ANCHIETA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11573,20 +11552,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "HOUSE OF BRANDS",
             "qt": 1,
             "valor": 45.95
-          }
-        ]
-      },
-      {
-        "codcli": "48242",
-        "cliente": "MAX DISTRIBUIDORA DE BEBIDAS LTDA",
-        "bairro": "PARQUE SÃO BENTO",
-        "dtultcomp": "29/05/2026",
-        "produtos": [
-          {
-            "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-            "fantasia": "PERNOD",
-            "qt": 60,
-            "valor": 3330.0
           }
         ]
       },
