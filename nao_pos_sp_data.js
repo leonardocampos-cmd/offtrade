@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "23/06/2026 15:12",
+  "atualizado_em": "23/06/2026 15:53",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -4734,6 +4734,13 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "51261",
+        "cliente": "ANTUNES DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
+        "bairro": "JARDIM MUNHOZ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51073",
         "cliente": "CRISTO REI ALIMENTOS",
         "bairro": "CHACARA RANCHO DOS IPES",
@@ -4769,30 +4776,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51159",
+        "codcli": "51160",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51157",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "JARDIM IRACEMA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51161",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "PARQUE SANTA RITA DE CÁSSIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51153",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "VILA ZAT",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4811,7 +4797,28 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51160",
+        "codcli": "51157",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "JARDIM IRACEMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51153",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "VILA ZAT",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51161",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "PARQUE SANTA RITA DE CÁSSIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51159",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -6105,6 +6112,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "50195",
         "cliente": "VICENTE OTAROLA GALLEGO MERCEARIA LTDA",
         "bairro": "VL PE ANCHIETA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51263",
+        "cliente": "WANDERLEY RICHE GARCIA 27647046829",
+        "bairro": "CONJUNTO HABITACIONAL VIDA NOVA",
         "dtultcomp": "nan",
         "produtos": []
       }
