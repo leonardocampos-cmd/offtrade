@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 16:20",
-  "total": 4330,
+  "atualizado_em": "23/06/2026 16:32",
+  "total": 4333,
   "clientes": [
     {
       "codcli": "31683",
@@ -280,6 +280,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "OUTROS",
       "codusur1": "260",
       "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "86027",
+      "razao": "23.354.256 ANDRE LUIZ PINTO DE ALMEIDA",
+      "fantasia": "ANDRE LUIZ PINTO DE ALMEIDA",
+      "bairro": "VILA VALQUEIRE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "23.354.256/0001-00",
+      "estado": "RJ",
+      "ramo": "OUTROS",
+      "codusur1": "412",
+      "nome_usur1": "BARBARA CABRAL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -6762,6 +6776,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "71185",
+      "razao": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
+      "bairro": "BENFICA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "49.306.432/0001-14",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "158",
+      "nome_usur1": "JOSE MARCELO CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -24292,6 +24320,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "75569",
+      "razao": "GG WINE COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "ARTE DOS VINHOS",
+      "bairro": "CENTRO",
+      "cidade": "NITEROI",
+      "cnpj": "50.884.357/0001-58",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "158",
+      "nome_usur1": "JOSE MARCELO CARDOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "91138",
