@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 09:36",
-  "total": 4294,
+  "atualizado_em": "23/06/2026 09:58",
+  "total": 4296,
   "clientes": [
     {
       "codcli": "31683",
@@ -37286,6 +37286,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95483",
+      "razao": "MERCADO SOS 3 IRMAOS LTDA",
+      "fantasia": "MERCADO SOS 3 IRMAOS",
+      "bairro": "VILA NOVA",
+      "cidade": "NOVA IGUACU",
+      "cnpj": "56.019.337/0001-03",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "379",
+      "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "19250",
       "razao": "MERCADO SUPER COMPRAS DE NOVA SEPETIBA LTDA",
       "fantasia": "MERCADO SUPER COMPRAS DE NOVA SEPETIBA L",
@@ -54922,6 +54936,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "475",
       "nome_usur1": "LUCAS BUENO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51239",
+      "razao": "SUPERMERCADO RAVAGIO LTDA",
+      "fantasia": "SUPERMERCADO RAVAGIO",
+      "bairro": "JARDIM DAS ACACIAS",
+      "cidade": "IGARACU DO TIETE",
+      "cnpj": "03.431.093/0001-05",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "491",
+      "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
