@@ -1,11 +1,41 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "23/06/2026 14:01",
+  "atualizado_em": "23/06/2026 15:01",
   "data_rota": "23.06",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "431001074",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "PANIFICACAO BARIRI LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 601.46,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 15,
+              "val": 298.5
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 8,
+              "val": 231.2
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            }
+          ]
+        },
         {
           "numped": "431001075",
           "numnota": "",
@@ -58,36 +88,6 @@ const ENTREGAS_DATA = {
               "desc": "GUARAVITON GINSENG 12X500ML",
               "qt": 2,
               "val": 74.02
-            }
-          ]
-        },
-        {
-          "numped": "431001074",
-          "numnota": "",
-          "data": "23/06/2026",
-          "cliente": "PANIFICACAO BARIRI LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 601.46,
-          "itens": [
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "qt": 15,
-              "val": 298.5
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-              "qt": 8,
-              "val": 231.2
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 1,
-              "val": 71.76
             }
           ]
         },
@@ -6880,6 +6880,26 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "412001360",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "AUTO POSTO 500 TINGUI LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 175.8,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 2,
+              "val": 175.8
+            }
+          ]
+        },
+        {
           "numped": "412001359",
           "numnota": "",
           "data": "23/06/2026",
@@ -6971,26 +6991,6 @@ const ENTREGAS_DATA = {
               "desc": "GIN ROCKS GREEN APPLE 1000ML",
               "qt": 2,
               "val": 51.0
-            }
-          ]
-        },
-        {
-          "numped": "412001360",
-          "numnota": "",
-          "data": "23/06/2026",
-          "cliente": "AUTO POSTO 500 TINGUI LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 175.8,
-          "itens": [
-            {
-              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-              "qt": 2,
-              "val": 175.8
             }
           ]
         },
@@ -13741,31 +13741,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "378000438",
-          "numnota": "",
-          "data": "23/06/2026",
-          "cliente": "BAR BARBEARIA PIRRO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 275.6,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 179.76
-            },
-            {
-              "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
-              "qt": 4,
-              "val": 95.84
-            }
-          ]
-        },
-        {
           "numped": "378000439",
           "numnota": "",
           "data": "23/06/2026",
@@ -13792,6 +13767,31 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
               "qt": 1,
               "val": 94.7
+            }
+          ]
+        },
+        {
+          "numped": "378000438",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "BAR BARBEARIA PIRRO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 275.6,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
+              "qt": 4,
+              "val": 95.84
             }
           ]
         },
@@ -14892,6 +14892,76 @@ const ENTREGAS_DATA = {
       "nome": "GISELLE BARFER - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "159004911",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "ORLA BELLA BUZIOS RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 425.4,
+          "itens": [
+            {
+              "desc": "LICOR BANANINHA CARIOCA 750ML",
+              "qt": 6,
+              "val": 425.4
+            }
+          ]
+        },
+        {
+          "numped": "159004912",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "MANE NOVA AMERICA BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 409.42,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "XAROPE MONIN PESSEGO (PEACH) 700 ML",
+              "qt": 1,
+              "val": 49.9
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 179.76
+            }
+          ]
+        },
+        {
+          "numped": "159004910",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "RADIO BOIRE BAR E CAFE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 287.52,
+          "itens": [
+            {
+              "desc": "BAER MATE LN  6X350ML",
+              "qt": 8,
+              "val": 287.52
+            }
+          ]
+        },
         {
           "numped": "159004907",
           "numnota": "",
@@ -19537,6 +19607,26 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "379001133",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "3D SALGADOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 7798.8,
+          "itens": [
+            {
+              "desc": "WHISKY ROYAL SALUTE GRAIN 700ML",
+              "qt": 12,
+              "val": 7798.8
+            }
+          ]
+        },
+        {
           "numped": "379001132",
           "numnota": "",
           "data": "23/06/2026",
@@ -19553,6 +19643,26 @@ const ENTREGAS_DATA = {
               "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
               "qt": 24,
               "val": 276.0
+            }
+          ]
+        },
+        {
+          "numped": "379001135",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "MERCADO SOS 3 IRMAOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 789.6,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 24,
+              "val": 789.6
             }
           ]
         },
@@ -19623,26 +19733,6 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
               "qt": 1,
               "val": 141.6
-            }
-          ]
-        },
-        {
-          "numped": "379001133",
-          "numnota": "",
-          "data": "23/06/2026",
-          "cliente": "3D SALGADOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 7798.8,
-          "itens": [
-            {
-              "desc": "WHISKY ROYAL SALUTE GRAIN 700ML",
-              "qt": 12,
-              "val": 7798.8
             }
           ]
         },
@@ -22332,6 +22422,51 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "450000345",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "JNH SUPERMERCADOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar ate as 15:00hs",
+          "total": 47.76,
+          "itens": [
+            {
+              "desc": "NECTAR CAJU KIDS CX 24X200ML",
+              "qt": 1,
+              "val": 47.76
+            }
+          ]
+        },
+        {
+          "numped": "450000344",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar ate as 15:00hs",
+          "total": 95.52,
+          "itens": [
+            {
+              "desc": "NECTAR CAJU KIDS CX 24X200ML",
+              "qt": 1,
+              "val": 47.76
+            },
+            {
+              "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
+              "qt": 1,
+              "val": 47.76
+            }
+          ]
+        },
+        {
           "numped": "450000340",
           "numnota": "",
           "data": "23/06/2026",
@@ -22344,16 +22479,6 @@ const ENTREGAS_DATA = {
           "obs": "entregar ate as 15:00hs",
           "total": 436.68,
           "itens": [
-            {
-              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
-              "qt": 1,
-              "val": 47.76
-            },
-            {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 12,
-              "val": 138.0
-            },
             {
               "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
               "qt": 1,
@@ -22378,6 +22503,56 @@ const ENTREGAS_DATA = {
               "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
               "qt": 1,
               "val": 47.76
+            },
+            {
+              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
+              "qt": 1,
+              "val": 47.76
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 12,
+              "val": 138.0
+            }
+          ]
+        },
+        {
+          "numped": "450000342",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "JNH SUPERMERCADOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar ate as 15:00hs",
+          "total": 760.44,
+          "itens": [
+            {
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 2,
+              "val": 95.52
+            },
+            {
+              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "qt": 2,
+              "val": 95.52
+            },
+            {
+              "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
+              "qt": 2,
+              "val": 95.52
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 36,
+              "val": 414.0
             }
           ]
         },
@@ -22392,7 +22567,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "entregar ate as 15:00hs",
-          "total": 898.44,
+          "total": 802.92,
           "itens": [
             {
               "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
@@ -22410,14 +22585,39 @@ const ENTREGAS_DATA = {
               "val": 59.88
             },
             {
-              "desc": "NECTAR CAJU KIDS CX 24X200ML",
-              "qt": 1,
-              "val": 47.76
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 48,
+              "val": 552.0
+            }
+          ]
+        },
+        {
+          "numped": "450000343",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "JNH SUPERMERCADOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar ate as 15:00hs",
+          "total": 838.56,
+          "itens": [
+            {
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 2,
+              "val": 95.52
             },
             {
-              "desc": "NECTAR MISTO MANGA 24X200ML KIDS",
-              "qt": 1,
-              "val": 47.76
+              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "qt": 2,
+              "val": 95.52
+            },
+            {
+              "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
+              "qt": 2,
+              "val": 95.52
             },
             {
               "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
@@ -35487,6 +35687,51 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "419000659",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "WESLEY DA SILVA NASCIMENTO 16108100745",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "data entrega: 25/06",
+          "total": 1279.34,
+          "itens": [
+            {
+              "desc": "GIN BOMBAY SAPPHIRE 750ML",
+              "qt": 6,
+              "val": 431.4
+            },
+            {
+              "desc": "GIN GORDONS 750 ML",
+              "qt": 6,
+              "val": 335.4
+            },
+            {
+              "desc": "GIN GORDONS PINK 700ML",
+              "qt": 3,
+              "val": 194.7
+            },
+            {
+              "desc": "GIN ROCKS 1000ML",
+              "qt": 6,
+              "val": 135.0
+            },
+            {
+              "desc": "GIN ROCKS WATERMELON 1000ML",
+              "qt": 6,
+              "val": 135.0
+            },
+            {
+              "desc": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+              "qt": 1,
+              "val": 47.84
+            }
+          ]
+        },
+        {
           "numped": "419000623",
           "numnota": "",
           "data": "02/06/2026",
@@ -36840,6 +37085,61 @@ const ENTREGAS_DATA = {
       "nome": "RAPHAEL SANTOS - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "155003756",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "R MACHARETE NETTO EVENTOS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2588.4,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 12,
+              "val": 790.8
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 5,
+              "val": 898.8
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 5,
+              "val": 898.8
+            }
+          ]
+        },
+        {
+          "numped": "155003755",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "RAFAELLY BOREL DE SIQUEIRA LOPES 1338280",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 323.52,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "RED BULL SF NECTARINA 24X250ML",
+              "qt": 1,
+              "val": 143.76
+            }
+          ]
+        },
         {
           "numped": "155003754",
           "numnota": "",
