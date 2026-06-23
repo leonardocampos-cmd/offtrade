@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "23/06/2026 09:00",
+  "atualizado_em": "23/06/2026 09:09",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -70007,15 +70007,6 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 2,
           "valor": 267.8
-        },
-        {
-          "data": "22/06/2026",
-          "codcli": "91059",
-          "cliente": "MM CONVENIENCIA LTDA",
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "fantasia": "CATUABA",
-          "qt": 24,
-          "valor": 429.6
         },
         {
           "data": "02/06/2026",
@@ -171547,6 +171538,15 @@ const VENDAS_DATA = {
         },
         {
           "data": "24/04/2026",
+          "codcli": "92086",
+          "cliente": "46.912.337 GIVANILDO DA SILVA MARTINS",
+          "produto": "ROSE MINUTY 281  3000ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 2908.47
+        },
+        {
+          "data": "24/04/2026",
           "codcli": "90725",
           "cliente": "LUZ DEL FUEGO COMERCIO DE ALIMENTOS LTDA",
           "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
@@ -171571,15 +171571,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 576.0
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "92086",
-          "cliente": "46.912.337 GIVANILDO DA SILVA MARTINS",
-          "produto": "ROSE MINUTY 281  3000ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 2908.47
         },
         {
           "data": "22/04/2026",
