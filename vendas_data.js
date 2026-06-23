@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "23/06/2026 13:06",
+  "atualizado_em": "23/06/2026 13:45",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -180616,15 +180616,6 @@ const VENDAS_DATA = {
           "data": "13/02/2026",
           "codcli": "82202",
           "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO ARESTI ESTATE S. MERLOT 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 299.4
-        },
-        {
-          "data": "13/02/2026",
-          "codcli": "82202",
-          "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
           "produto": "VINHO ADELE ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 6,
@@ -180647,6 +180638,15 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 12,
           "valor": 778.8
+        },
+        {
+          "data": "13/02/2026",
+          "codcli": "82202",
+          "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO ARESTI ESTATE S. MERLOT 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 299.4
         },
         {
           "data": "13/02/2026",
@@ -241048,5 +241048,29 @@ const VENDAS_DATA = {
         }
       ]
     }
+  },
+  "rcas": {
+    "MARIA LUIZA - OFF TRADE": "275",
+    "MARILENA TRAGEL - OFF TRADE": "156",
+    "BARBARA CABRAL - OFF TRADE": "412",
+    "ANGELO NEVES SUZART - OFF TRADE": "153",
+    "JOSE MARCELO CARDOSO - OFF TRADE": "158",
+    "DANIELLE MOURA - OFF TRADE": "238",
+    "NÁTALI DE OLIVEIRA - OFF TRADE": "419",
+    "DIOGO RAPOSO - OFF TRADE": "144",
+    "LEANDRO SOUZA - OFF TRADE": "450",
+    "DIRLEI ARAUJO - OFF TRADE": "417",
+    "MATEUS CARDOSO - OFF TRADE": "439",
+    "KELLY RAMOS - OFF TRADE": "420",
+    "ADEILSON GONÇALVEZ - OFF TRADE": "431",
+    "JORGE MACIEL - OFF TRADE": "379",
+    "ANA CLARA FASSANO - OFF TRADE": "471",
+    "FABIO VALOTTI - OFF TRADE": "378",
+    "VIVIANI ALVES - OFF TRADE": "91",
+    "FRANCISCO MACIEL - OFF TRADE": "446",
+    "ALLAN PAES - OFF TRADE": "174",
+    "GISELLE BARFER - OFF TRADE": "159",
+    "RAPHAEL SANTOS - OFF TRADE": "155",
+    "ZEINALDO DE OLIVEIRA - OFF TRADE": "241"
   }
 };
