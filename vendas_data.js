@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "23/06/2026 15:46",
+  "atualizado_em": "23/06/2026 15:49",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -52138,6 +52138,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "23/06/2026",
+          "codcli": "85345",
+          "cliente": "MARIA JOSE SILVA SOUZA 11197169776",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 2,
+          "valor": 127.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "85345",
+          "cliente": "MARIA JOSE SILVA SOUZA 11197169776",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 140.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "85345",
+          "cliente": "MARIA JOSE SILVA SOUZA 11197169776",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 107.4,
+          "tipo": "Venda"
+        },
+        {
           "data": "17/06/2026",
           "codcli": "85367",
           "cliente": "JOSE ROBERTO MELO PINHEIRO 09440339705",
@@ -95601,6 +95631,46 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 2,
           "valor": 283.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "94225",
+          "cliente": "MERCADO UNIAO DE MESQUITA LTDA",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 141.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "94225",
+          "cliente": "MERCADO UNIAO DE MESQUITA LTDA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 141.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "94225",
+          "cliente": "MERCADO UNIAO DE MESQUITA LTDA",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 141.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "94225",
+          "cliente": "MERCADO UNIAO DE MESQUITA LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 199.5,
           "tipo": "Venda"
         },
         {
