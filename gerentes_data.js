@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "23/06/2026 16:19",
+  "atualizado_em": "23/06/2026 16:30",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -41,60 +41,60 @@ const GERENTES_DATA = {
       },
       "gerentes": [
         {
-          "nome": "ALLAN PAES",
+          "nome": "Sem Gerente",
           "por_mes": {
             "Jan/26": {
-              "fat": 2041211.96,
-              "qt": 35592
+              "fat": 3168049.35,
+              "qt": 50656
             },
             "Fev/26": {
-              "fat": 1445557.37,
-              "qt": 25861
+              "fat": 2349647.92,
+              "qt": 38036
             },
             "Mar/26": {
-              "fat": 1668256.83,
-              "qt": 43343
+              "fat": 2506856.3,
+              "qt": 54202
             },
             "Abr/26": {
-              "fat": 2360496.54,
-              "qt": 46604
+              "fat": 2820416.64,
+              "qt": 55553
             },
             "Mai/26": {
-              "fat": 2494678.33,
-              "qt": 44527
+              "fat": 2961786.43,
+              "qt": 51410
             },
             "Jun/26": {
-              "fat": 1761878.59,
-              "qt": 35655
+              "fat": 2170968.07,
+              "qt": 42020
             }
           },
           "supervisores": [
             {
-              "nome": "Danielle Moura Marques Soares",
+              "nome": "Sem Supervisor",
               "por_mes": {
                 "Jan/26": {
-                  "fat": 2041211.96,
-                  "qt": 35592
+                  "fat": 3168049.35,
+                  "qt": 50656
                 },
                 "Fev/26": {
-                  "fat": 1445557.37,
-                  "qt": 25861
+                  "fat": 2349647.92,
+                  "qt": 38036
                 },
                 "Mar/26": {
-                  "fat": 1668256.83,
-                  "qt": 43343
+                  "fat": 2506856.3,
+                  "qt": 54202
                 },
                 "Abr/26": {
-                  "fat": 2360496.54,
-                  "qt": 46604
+                  "fat": 2820416.64,
+                  "qt": 55553
                 },
                 "Mai/26": {
-                  "fat": 2494678.33,
-                  "qt": 44527
+                  "fat": 2961786.43,
+                  "qt": 51410
                 },
                 "Jun/26": {
-                  "fat": 1761878.59,
-                  "qt": 35655
+                  "fat": 2170968.07,
+                  "qt": 42020
                 }
               },
               "vendedores": [
@@ -353,6 +353,36 @@ const GERENTES_DATA = {
                   }
                 },
                 {
+                  "nome": "GISELLE BARFER - OFF TRADE",
+                  "rca": "159",
+                  "por_mes": {
+                    "Jan/26": {
+                      "fat": 491921.21,
+                      "qt": 6064
+                    },
+                    "Mar/26": {
+                      "fat": 334823.74,
+                      "qt": 4719
+                    },
+                    "Mai/26": {
+                      "fat": 184921.52,
+                      "qt": 3981
+                    },
+                    "Jun/26": {
+                      "fat": 167055.54,
+                      "qt": 2618
+                    },
+                    "Fev/26": {
+                      "fat": 347158.73,
+                      "qt": 5152
+                    },
+                    "Abr/26": {
+                      "fat": 169258.69,
+                      "qt": 3884
+                    }
+                  }
+                },
+                {
                   "nome": "JORGE MACIEL - OFF TRADE",
                   "rca": "379",
                   "por_mes": {
@@ -571,98 +601,6 @@ const GERENTES_DATA = {
                       "qt": 641
                     }
                   }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "CRC",
-          "por_mes": {
-            "Jan/26": {
-              "fat": 1126837.39,
-              "qt": 15064
-            },
-            "Fev/26": {
-              "fat": 904090.55,
-              "qt": 12175
-            },
-            "Mar/26": {
-              "fat": 838599.47,
-              "qt": 10859
-            },
-            "Abr/26": {
-              "fat": 459920.1,
-              "qt": 8949
-            },
-            "Mai/26": {
-              "fat": 467108.1,
-              "qt": 6883
-            },
-            "Jun/26": {
-              "fat": 409089.48,
-              "qt": 6365
-            }
-          },
-          "supervisores": [
-            {
-              "nome": "DANIEL DINIZ",
-              "por_mes": {
-                "Jan/26": {
-                  "fat": 1126837.39,
-                  "qt": 15064
-                },
-                "Fev/26": {
-                  "fat": 904090.55,
-                  "qt": 12175
-                },
-                "Mar/26": {
-                  "fat": 838599.47,
-                  "qt": 10859
-                },
-                "Abr/26": {
-                  "fat": 459920.1,
-                  "qt": 8949
-                },
-                "Mai/26": {
-                  "fat": 467108.1,
-                  "qt": 6883
-                },
-                "Jun/26": {
-                  "fat": 409089.48,
-                  "qt": 6365
-                }
-              },
-              "vendedores": [
-                {
-                  "nome": "GISELLE BARFER - OFF TRADE",
-                  "rca": "159",
-                  "por_mes": {
-                    "Jan/26": {
-                      "fat": 491921.21,
-                      "qt": 6064
-                    },
-                    "Mar/26": {
-                      "fat": 334823.74,
-                      "qt": 4719
-                    },
-                    "Mai/26": {
-                      "fat": 184921.52,
-                      "qt": 3981
-                    },
-                    "Jun/26": {
-                      "fat": 167055.54,
-                      "qt": 2618
-                    },
-                    "Fev/26": {
-                      "fat": 347158.73,
-                      "qt": 5152
-                    },
-                    "Abr/26": {
-                      "fat": 169258.69,
-                      "qt": 3884
-                    }
-                  }
                 },
                 {
                   "nome": "RAPHAEL SANTOS - OFF TRADE",
@@ -786,7 +724,7 @@ const GERENTES_DATA = {
       },
       "gerentes": [
         {
-          "nome": "CRC",
+          "nome": "Sem Gerente",
           "por_mes": {
             "Mai/26": {
               "fat": 30610.8,
@@ -815,7 +753,7 @@ const GERENTES_DATA = {
           },
           "supervisores": [
             {
-              "nome": "DANIEL DINIZ",
+              "nome": "Sem Supervisor",
               "por_mes": {
                 "Mai/26": {
                   "fat": 30610.8,
@@ -893,7 +831,7 @@ const GERENTES_DATA = {
       },
       "gerentes": [
         {
-          "nome": "ALLAN PAES",
+          "nome": "Sem Gerente",
           "por_mes": {
             "Fev/26": {
               "fat": 60587.64,
@@ -906,7 +844,7 @@ const GERENTES_DATA = {
           },
           "supervisores": [
             {
-              "nome": "Danielle Moura Marques Soares",
+              "nome": "Sem Supervisor",
               "por_mes": {
                 "Fev/26": {
                   "fat": 60587.64,
@@ -988,43 +926,11 @@ const GERENTES_DATA = {
       },
       "gerentes": [
         {
-          "nome": "ALLAN PAES",
+          "nome": "Sem Gerente",
           "por_mes": {
             "Jun/26": {
-              "fat": 42728.4,
-              "qt": 1716
-            }
-          },
-          "supervisores": [
-            {
-              "nome": "Danielle Moura Marques Soares",
-              "por_mes": {
-                "Jun/26": {
-                  "fat": 42728.4,
-                  "qt": 1716
-                }
-              },
-              "vendedores": [
-                {
-                  "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
-                  "rca": "419",
-                  "por_mes": {
-                    "Jun/26": {
-                      "fat": 42728.4,
-                      "qt": 1716
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "CRC",
-          "por_mes": {
-            "Jun/26": {
-              "fat": 102925.6,
-              "qt": 344
+              "fat": 145654.0,
+              "qt": 2060
             },
             "Jan/26": {
               "fat": 59070.0,
@@ -1049,11 +955,11 @@ const GERENTES_DATA = {
           },
           "supervisores": [
             {
-              "nome": "DANIEL DINIZ",
+              "nome": "Sem Supervisor",
               "por_mes": {
                 "Jun/26": {
-                  "fat": 102925.6,
-                  "qt": 344
+                  "fat": 145654.0,
+                  "qt": 2060
                 },
                 "Jan/26": {
                   "fat": 59070.0,
@@ -1077,6 +983,16 @@ const GERENTES_DATA = {
                 }
               },
               "vendedores": [
+                {
+                  "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
+                  "rca": "419",
+                  "por_mes": {
+                    "Jun/26": {
+                      "fat": 42728.4,
+                      "qt": 1716
+                    }
+                  }
+                },
                 {
                   "nome": "VIVIANI ALVES - OFF TRADE",
                   "rca": "91",
@@ -1143,7 +1059,7 @@ const GERENTES_DATA = {
       },
       "gerentes": [
         {
-          "nome": "ALLAN PAES",
+          "nome": "Sem Gerente",
           "por_mes": {
             "Jan/26": {
               "fat": 381472.79,
@@ -1172,7 +1088,7 @@ const GERENTES_DATA = {
           },
           "supervisores": [
             {
-              "nome": "Danielle Moura Marques Soares",
+              "nome": "Sem Supervisor",
               "por_mes": {
                 "Jan/26": {
                   "fat": 381472.79,
