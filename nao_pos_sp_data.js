@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "23/06/2026 15:59",
+  "atualizado_em": "23/06/2026 16:02",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -4769,6 +4769,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51153",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "VILA ZAT",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51157",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "JARDIM IRACEMA",
@@ -4818,13 +4825,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51153",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "VILA ZAT",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51237",
         "cliente": "SUPER FAUNA VAREJISTA LTDA",
         "bairro": "VILA ROCHA",
@@ -4846,6 +4846,13 @@ const NAO_POS_SP_DATA = {
             "valor": 11995.2
           }
         ]
+      },
+      {
+        "codcli": "51265",
+        "cliente": "62.354.916 RAUL ZANELLA",
+        "bairro": "PARQUE RESIDENCIAL PEDRA BRANCA",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "MARCIA RITA -": [
