@@ -1,11 +1,36 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "23/06/2026 17:46",
+  "atualizado_em": "23/06/2026 17:49",
   "data_rota": "23.06",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "431001077",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "DROGARIA BKA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 251.09,
+          "itens": [
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 4,
+              "val": 152.33
+            },
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 3,
+              "val": 98.77
+            }
+          ]
+        },
         {
           "numped": "431001078",
           "numnota": "",
@@ -28,31 +53,6 @@ const ENTREGAS_DATA = {
               "desc": "GUARAVITON GINSENG 12X500ML",
               "qt": 1,
               "val": 38.08
-            }
-          ]
-        },
-        {
-          "numped": "431001077",
-          "numnota": "",
-          "data": "23/06/2026",
-          "cliente": "DROGARIA BKA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 251.09,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 3,
-              "val": 98.77
-            },
-            {
-              "desc": "GUARAVITON GINSENG 12X500ML",
-              "qt": 4,
-              "val": 152.33
             }
           ]
         },
@@ -14236,6 +14236,11 @@ const ENTREGAS_DATA = {
           "total": 257.0,
           "itens": [
             {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 2,
+              "val": 57.8
+            },
+            {
               "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
               "qt": 1,
               "val": 94.7
@@ -14244,11 +14249,6 @@ const ENTREGAS_DATA = {
               "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
               "qt": 5,
               "val": 104.5
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-              "qt": 2,
-              "val": 57.8
             }
           ]
         },
@@ -23055,6 +23055,26 @@ const ENTREGAS_DATA = {
       "nao_emitido": [],
       "emitido_s_rota": [
         {
+          "numped": "420000028",
+          "numnota": "6169.0",
+          "data": "23/06/2026",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGAR AMANHÃ (24/06)",
+          "total": 21576.0,
+          "itens": [
+            {
+              "desc": "LIQUEUR C AMARULA ETHIOPIAN COFFEE",
+              "qt": 240,
+              "val": 21576.0
+            }
+          ]
+        },
+        {
           "numped": "420000026",
           "numnota": "5814.0",
           "data": "08/06/2026",
@@ -28649,6 +28669,36 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "156003624",
+          "numnota": "",
+          "data": "23/06/2026",
+          "cliente": "POSTO MODELO JMLBG LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 310.8,
+          "itens": [
+            {
+              "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+              "qt": 1,
+              "val": 78.0
+            },
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 1,
+              "val": 92.9
+            },
+            {
+              "desc": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
+              "qt": 1,
+              "val": 139.9
+            }
+          ]
+        },
+        {
           "numped": "156003627",
           "numnota": "",
           "data": "23/06/2026",
@@ -28735,36 +28785,6 @@ const ENTREGAS_DATA = {
               "desc": "VODKA SMIRNOFF 600 ML",
               "qt": 2,
               "val": 45.8
-            }
-          ]
-        },
-        {
-          "numped": "156003624",
-          "numnota": "",
-          "data": "23/06/2026",
-          "cliente": "POSTO MODELO JMLBG LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 310.8,
-          "itens": [
-            {
-              "desc": "GIN TANQUERAY  750 ML",
-              "qt": 1,
-              "val": 92.9
-            },
-            {
-              "desc": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
-              "qt": 1,
-              "val": 139.9
-            },
-            {
-              "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-              "qt": 1,
-              "val": 78.0
             }
           ]
         },
@@ -38441,6 +38461,11 @@ const ENTREGAS_DATA = {
           "total": 2588.4,
           "itens": [
             {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 12,
+              "val": 790.8
+            },
+            {
               "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 5,
               "val": 898.8
@@ -38449,11 +38474,6 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL MELANCIA 250ML CX C/24",
               "qt": 5,
               "val": 898.8
-            },
-            {
-              "desc": "WHISKY J WALKER RED LABEL 1L",
-              "qt": 12,
-              "val": 790.8
             }
           ]
         },
