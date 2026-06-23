@@ -302,6 +302,7 @@ for (const [vendedor, porMes] of Object.entries(_d.por_vendedor)) {
         mes,
         vendedor,
         rca,
+        tipo:       it.tipo || 'Venda',
         data:       it.data,
         data_s:     it.data.split('/').reverse().join(''),
         codcli:     it.codcli  || '',
@@ -322,6 +323,7 @@ const ALL_VENDS = [...new Set(ALL.map(r => r.vendedor))].sort();
 let stForns     = new Set();
 let stVendedores = new Set();
 let stMeses     = new Set();
+let stTipo      = '';    // '' = todos, 'Venda', 'Bonificado'
 let stSearch    = '';
 let stSortK     = 'data_s';
 let stSortA     = false;
@@ -335,6 +337,7 @@ function filteredRows() {
   if (stMeses.size)      rows = rows.filter(r => stMeses.has(r.mes));
   if (stVendedores.size) rows = rows.filter(r => stVendedores.has(r.vendedor));
   if (stForns.size)      rows = rows.filter(r => stForns.has(r.fornecedor));
+  if (stTipo)            rows = rows.filter(r => r.tipo === stTipo);
   if (stSearch) {
     const q = stSearch.toLowerCase();
     rows = rows.filter(r => r.produto.toLowerCase().includes(q) || r.codcli.includes(q) || r.cliente.toLowerCase().includes(q));
@@ -378,6 +381,20 @@ function renderPills() {
       if (stMeses.has(m)) stMeses.delete(m); else stMeses.add(m);
       refresh();
     };
+    container.appendChild(p);
+  }
+
+  // Separador + pills de tipo
+  const sep = document.createElement('span');
+  sep.style.cssText = 'color:var(--border);align-self:center;margin:0 2px;';
+  sep.textContent = '|';
+  container.appendChild(sep);
+
+  for (const [label, val] of [['Todos os tipos', ''], ['Venda', 'Venda'], ['Bonificado', 'Bonificado']]) {
+    const p = document.createElement('span');
+    p.className = 'pill' + (stTipo === val ? ' active' : '');
+    p.textContent = label;
+    p.onclick = () => { stTipo = val; refresh(); };
     container.appendChild(p);
   }
 }
@@ -563,7 +580,7 @@ function renderTable() {
   tbody.innerHTML = rows.map(r => `
     <tr>
       <td class="td-data">${r.data}</td>
-      <td class="td-produto">${r.produto}<span class="td-cli">${r.codcli ? r.codcli + ' · ' : ''}${r.cliente}</span></td>
+      <td class="td-produto">${r.produto}${r.tipo === 'Bonificado' ? ' <span style="font-size:.65rem;background:rgba(34,197,94,.15);color:#22c55e;border:1px solid rgba(34,197,94,.3);border-radius:4px;padding:1px 5px;font-weight:700;vertical-align:middle">BON</span>' : ''}<span class="td-cli">${r.codcli ? r.codcli + ' · ' : ''}${r.cliente}</span></td>
       <td><span class="td-forn">${r.fornecedor}</span></td>
       <td class="td-vend">${vendLabel(r.vendedor)}</td>
       <td class="td-r">${num(r.qt)}</td>
@@ -618,7 +635,7 @@ document.getElementById('forn-dd-search').addEventListener('input', e => {
 
 // ── Limpar ─────────────────────────────────────────────────────────────────────
 document.getElementById('btn-clear').addEventListener('click', () => {
-  stForns.clear(); stVendedores.clear(); stMeses.clear(); stSearch = '';
+  stForns.clear(); stVendedores.clear(); stMeses.clear(); stTipo = ''; stSearch = '';
   document.getElementById('search').value = '';
   ddSearch = ''; ddVendSearch = '';
   document.getElementById('forn-dd-search').value = '';
@@ -666,8 +683,8 @@ function exportCSV() {
 
   const esc = v => '"' + String(v).replace(/"/g, '""') + '"';
   const lines = [
-    ['Data', 'CodCli', 'Cliente', 'Produto', 'Fornecedor', 'Vendedor', 'RCA', 'Qtd', 'Valor'].map(esc).join(';'),
-    ...rows.map(r => [r.data, r.codcli, r.cliente, r.produto, r.fornecedor, r.vendedor, r.rca, r.qt, r.valor].map(esc).join(';'))
+    ['Data', 'CodCli', 'Cliente', 'Produto', 'Fornecedor', 'Vendedor', 'RCA', 'Tipo', 'Qtd', 'Valor'].map(esc).join(';'),
+    ...rows.map(r => [r.data, r.codcli, r.cliente, r.produto, r.fornecedor, r.vendedor, r.rca, r.tipo, r.qt, r.valor].map(esc).join(';'))
   ];
 
   const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8;' });

@@ -68,6 +68,7 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
             F.FANTASIA,
             M.QT,
             (M.PUNIT * M.QT)               AS VALOR,
+            M.CODOPER,
             U.NOME                          AS NOME_ORACLE
         FROM {s}.PCMOV M
         JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
@@ -75,7 +76,7 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
         JOIN {s}.PCPRODUT P ON M.CODPROD = P.CODPROD
         JOIN {s}.PCFORNEC F ON P.CODFORNEC = F.CODFORNEC
         WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
-          AND M.CODOPER = 'S'
+          AND M.CODOPER IN ('S', 'SB')
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL
           AND U.NOME LIKE '%OFF TRADE%'{extra_filial}{extra_estent}
@@ -434,6 +435,7 @@ for _, row in _vh.iterrows():
         'fantasia': str(row['FANTASIA']),
         'qt':      int(row['QT']),
         'valor':   float(row['VALOR']),
+        'tipo':    'Bonificado' if str(row.get('CODOPER', 'S')).upper() == 'SB' else 'Venda',
     })
 
 _rcas_map = {v['nome']: v['rca'] for v in vendedores_out}

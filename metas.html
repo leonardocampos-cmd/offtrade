@@ -757,8 +757,8 @@ function buildVendasTable(lista) {
     <tr>
       <td class="vendas-date">${v.data || '—'}</td>
       <td>
-        <div class="vendas-cli">${v.cliente || '—'}</div>
-        <div class="vendas-prod">${v.produto || ''}</div>
+        <div class="vendas-cli">${v.codcli ? v.codcli + ' · ' : ''}${v.cliente || '—'}</div>
+        <div class="vendas-prod">${v.produto || ''}${v.tipo === 'Bonificado' ? ' <span style="font-size:.62rem;background:rgba(34,197,94,.15);color:#22c55e;border:1px solid rgba(34,197,94,.3);border-radius:4px;padding:1px 5px;font-weight:700">BON</span>' : ''}</div>
       </td>
       <td class="vendas-date" style="white-space:nowrap">${v.fantasia || '—'}</td>
       <td class="vendas-qt">${Number(v.qt).toLocaleString('pt-BR')}</td>
@@ -1120,9 +1120,9 @@ function exportarVendasCSV(nomeVendedor) {
 
   const rows = [
     `VENDAS — ${nomeVendedor} — ${mes}`,
-    `Data${sep}Cliente${sep}Produto${sep}Fornecedor${sep}Quantidade${sep}Valor (R$)`,
+    `Data${sep}CodCli${sep}Cliente${sep}Produto${sep}Fornecedor${sep}Tipo${sep}Quantidade${sep}Valor (R$)`,
     ...lista.map(s =>
-      `${s.data}${sep}${s.cliente}${sep}${s.produto}${sep}${s.fantasia || ''}${sep}${s.qt}${sep}${Number(s.valor).toFixed(2).replace('.', ',')}`
+      `${s.data}${sep}${s.codcli || ''}${sep}${s.cliente}${sep}${s.produto}${sep}${s.fantasia || ''}${sep}${s.tipo || 'Venda'}${sep}${s.qt}${sep}${Number(s.valor).toFixed(2).replace('.', ',')}`
     ),
   ];
 
