@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "23/06/2026 09:01",
+  "atualizado_em": "23/06/2026 09:10",
   "data_rota": "23.06",
   "vendedores": [
     {
@@ -181,16 +181,16 @@ const ENTREGAS_DATA = {
           "cliente": "MM CONVENIENCIA LTDA",
           "placa": "",
           "rota": "",
-          "status_ped": "",
+          "status_ped": "CANCELADA",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 429.6,
+          "total": 0.0,
           "itens": [
             {
               "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-              "qt": 24,
-              "val": 429.6
+              "qt": 0,
+              "val": 0.0
             }
           ]
         },
