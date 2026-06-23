@@ -6,6 +6,7 @@ conferencia_precos_final.xlsx
 .env
 token.json
 token_gmail.json
+token_gmail.json.json
 credentials_gmail.json
 *.log
 .git-rewrite/
