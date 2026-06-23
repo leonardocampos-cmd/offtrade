@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "22/06/2026 17:02",
-  "total": 4288,
+  "atualizado_em": "23/06/2026 09:02",
+  "total": 4291,
   "clientes": [
     {
       "codcli": "31683",
@@ -7312,6 +7312,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
+      "codcli": "86391",
+      "razao": "ARMAZEM SAO SEBASTIAO LTDA",
+      "fantasia": "ARMAZEM SAO SEBASTIAO",
+      "bairro": "VILA ESPERANCA",
+      "cidade": "VARGEM ALTA",
+      "cnpj": "27.444.330/0006-37",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "388",
+      "nome_usur1": "EUDES MORGAN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "7768",
       "razao": "ARMAZEM URBANO ARAGUAIA COMERCIO DE PRODUTOS ALIMENTICIOS LT",
       "fantasia": "ARMAZEM URBANO FREGUESIA",
@@ -14572,8 +14586,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "39.937.458/0001-07",
       "estado": "ES",
       "ramo": "MERCADO",
-      "codusur1": "370",
-      "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
+      "codusur1": "388",
+      "nome_usur1": "EUDES MORGAN - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
@@ -21340,6 +21354,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95477",
+      "razao": "ESSENCIAL DISTRIBUICAO LTDA",
+      "fantasia": "ATACADO DO VAREJISTA",
+      "bairro": "SETOR HABITACIONAL VICENTE PIRES",
+      "cidade": "BRASILIA",
+      "cnpj": "54.878.150/0001-21",
+      "estado": "DF",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "376",
+      "nome_usur1": "CARLOS TERRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "2206",
       "razao": "ESTACAO DAS CARNES ACOUGUE E MERCEARIA LTDA",
       "fantasia": "",
@@ -22285,7 +22313,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "MOGI DAS CRUZES",
       "cnpj": "30.480.546/0001-58",
       "estado": "SP",
-      "ramo": "MERCADO",
+      "ramo": "ADEGA",
       "codusur1": "461",
       "nome_usur1": "SUELY SANTOS - OFF TRADE",
       "codusur2": "",
@@ -40548,6 +40576,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANDREIA PRAYA"
     },
     {
+      "codcli": "85617",
+      "razao": "MULTIMERCADO COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "MULTISHOW SUPERMERCADO",
+      "bairro": "PONTA DA FRUTA",
+      "cidade": "VILA VELHA",
+      "cnpj": "44.946.828/0001-02",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "388",
+      "nome_usur1": "EUDES MORGAN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "35792",
       "razao": "MUNDO DAS BEBIDAS E ALIMENTOS LTDA",
       "fantasia": "MUNDO DAS BEBIDAS",
@@ -42068,8 +42110,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "27.735.448/0012-62",
       "estado": "ES",
       "ramo": "MERCADO",
-      "codusur1": "335",
-      "nome_usur1": "MARA DEPOLLI - OFF TRADE",
+      "codusur1": "388",
+      "nome_usur1": "EUDES MORGAN - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
