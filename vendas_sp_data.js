@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "23/06/2026 16:01",
+  "atualizado_em": "23/06/2026 16:20",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -34885,6 +34885,42 @@ const VENDAS_SP_DATA = {
           "valor": 1317.6
         },
         {
+          "data": "23/06/2026",
+          "codcli": "38929",
+          "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
+          "produto": "GIN TANQUERAY ROYALE 700 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1021.68
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "38929",
+          "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
+          "produto": "WHISKY ROYAL SALUTE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 1159.8
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "38929",
+          "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
+          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 18,
+          "valor": 1744.2
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "38929",
+          "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 6,
+          "valor": 359.4
+        },
+        {
           "data": "12/06/2026",
           "codcli": "39190",
           "cliente": "COMERCIO DE BEBIDAS CL LTDA",
@@ -36440,6 +36476,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 514.8
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "50154",
+          "cliente": "COMERCIAL MATIAS DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 2158.8
         },
         {
           "data": "12/06/2026",
@@ -56135,6 +56180,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "BACARDI",
           "qt": 6,
           "valor": 599.4
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "49729",
+          "cliente": "GILVANDA ANDRADE SANTOS 26811406844",
+          "produto": "JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 2158.8
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "49729",
+          "cliente": "GILVANDA ANDRADE SANTOS 26811406844",
+          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 1198.8
         },
         {
           "data": "15/06/2026",
@@ -80246,7 +80309,7 @@ const VENDAS_SP_DATA = {
     },
     "SUELY SANTOS": {
       "Jun/26": {
-        "fat": 56737.89,
+        "fat": 60095.49,
         "pos": 22.0,
         "fat_pernod": 22776.38,
         "fat_crs": 537.84
@@ -80547,9 +80610,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2077500.36,
+        "fat": 2083944.24,
         "pos": 126.0,
-        "fat_pernod": 1037679.54,
+        "fat_pernod": 1038839.34,
         "fat_crs": 33484.92
       },
       "Mai/26": {
