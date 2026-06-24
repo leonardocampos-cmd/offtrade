@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "24/06/2026 11:45",
-  "total": 4344,
+  "atualizado_em": "24/06/2026 12:17",
+  "total": 4347,
   "clientes": [
     {
       "codcli": "31683",
@@ -11956,6 +11956,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PADARIA",
       "codusur1": "342",
       "nome_usur1": "RICARDO CLAUDIO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51286",
+      "razao": "C. G. DE GODOI COMERCIO DE BEBIDAS LTDA.",
+      "fantasia": "S.O.S. CHOPP BEER",
+      "bairro": "RIBEIRÃO",
+      "cidade": "AMPARO",
+      "cnpj": "17.775.466/0001-61",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -56632,6 +56646,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RICARDO CLAUDIO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "50412",
+      "razao": "SUPERMERCADOS EBURNIO CORREA LTDA",
+      "fantasia": "SUPERMERCADO PARDINHENSE",
+      "bairro": "CENTRO",
+      "cidade": "PARANAPANEMA",
+      "cnpj": "55.644.850/0006-29",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "477",
+      "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50477",
+      "razao": "SUPERMERCADOS EBURNIO CORREA LTDA",
+      "fantasia": "SUPERMERCADO PARDINHENSE",
+      "bairro": "JARDIM PARENTI",
+      "cidade": "ITATINGA",
+      "cnpj": "55.644.850/0010-05",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "477",
+      "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "2909",
