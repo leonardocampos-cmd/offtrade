@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "24/06/2026 16:12",
+  "atualizado_em": "24/06/2026 16:40",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -43744,6 +43744,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "24/06/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 167.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "11534",
+          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 139.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "11/06/2026",
           "codcli": "14047",
           "cliente": "LOJA DE CONVENIENCIA CANARIO LTDA",
@@ -45481,6 +45511,36 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 2,
           "valor": 63.78,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "82692",
+          "cliente": "JBM ZONA SUL CONVENIENCIAS LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "82692",
+          "cliente": "JBM ZONA SUL CONVENIENCIAS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "82692",
+          "cliente": "JBM ZONA SUL CONVENIENCIAS LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 63.74,
           "tipo": "Venda"
         },
         {
