@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "24/06/2026 15:10",
-  "total": 4350,
+  "atualizado_em": "24/06/2026 16:04",
+  "total": 4359,
   "clientes": [
     {
       "codcli": "31683",
@@ -1080,6 +1080,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51296",
+      "razao": "40.322.839 JESSICA BRITO DIAS",
+      "fantasia": "JESSICA BRITO DIAS",
+      "bairro": "LAJEADO",
+      "cidade": "SAO PAULO",
+      "cnpj": "40.322.839/0001-60",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50773",
@@ -2872,6 +2886,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "419",
       "nome_usur2": "NÁTALI DE OLIVEIRA - OFF TRADE"
+    },
+    {
+      "codcli": "51292",
+      "razao": "57.624.385 JOHNNY HENRIQUE ESCOBAR",
+      "fantasia": "JOHNNY HENRIQUE ESCOBAR",
+      "bairro": "JARDIM PÉROLA",
+      "cidade": "SANTA BARBARA D OESTE",
+      "cnpj": "57.624.385/0001-85",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "474",
+      "nome_usur1": "FRANCIS SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "84887",
@@ -4786,10 +4814,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "41.318.044/0001-41",
       "estado": "SP",
       "ramo": "ADEGA",
-      "codusur1": "329",
-      "nome_usur1": "RAPHAELA RIBAS",
-      "codusur2": "588",
-      "nome_usur2": "W.S"
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "461",
+      "nome_usur2": "SUELY SANTOS - OFF TRADE"
     },
     {
       "codcli": "50804",
@@ -30244,6 +30272,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "51298",
+      "razao": "LANCHONETE CORONEL CEVADA LTDA",
+      "fantasia": "FEST BEER",
+      "bairro": "CENTRO",
+      "cidade": "AMPARO",
+      "cnpj": "23.768.044/0003-23",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "55271",
       "razao": "LANCHONETE E CONVENIENCIA PREDILETA DA POSSE EIRELI",
       "fantasia": "PREDILETA CONVENIENCIA E LANCHONETE",
@@ -39554,6 +39596,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "50425",
+      "razao": "MG MERCADOS LTDA",
+      "fantasia": "MG MERCADOS",
+      "bairro": "VILA BOA VISTA",
+      "cidade": "CAMPINAS",
+      "cnpj": "30.515.016/0001-06",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "470",
+      "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91140",
       "razao": "MGB REFEICOES LTDA",
       "fantasia": "SCARPETTA CUCINA",
@@ -40264,6 +40320,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "468",
       "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51293",
+      "razao": "MINIMERCADO SAO PEDRO LTDA",
+      "fantasia": "MINIMERCADO SAO PEDRO",
+      "bairro": "CENTRO",
+      "cidade": "AMPARO",
+      "cnpj": "64.491.160/0001-63",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -49788,6 +49858,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "47202",
+      "razao": "REINAN BRITO DE SANTANA",
+      "fantasia": "DEPOSITO DE BEBIDAS BRITO",
+      "bairro": "JOÃO ARANHA",
+      "cidade": "PAULINIA",
+      "cnpj": "23.855.146/0001-14",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "25427",
       "razao": "REJANE MIYUKI DANTAS TIBA",
       "fantasia": "KS DISTRIBUIDORA DE BEBIDAS",
@@ -57572,6 +57656,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "51294",
+      "razao": "TCM UTENSILIOS E PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "TCM UTENSILIOS E PRODUTOS ALIMENTICIOS",
+      "bairro": "CENTRO DE OURO FINO PAULISTA",
+      "cidade": "RIBEIRAO PIRES",
+      "cnpj": "51.971.156/0001-50",
+      "estado": "SP",
+      "ramo": "LOJA",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "38867",
       "razao": "TEGGIANO COMERCIO E DISTRIBUICAO DE ALIMENTOS LTDA",
       "fantasia": "TEGGIANO COMERCIO E DISTRIBUICAO DE ALIM",
@@ -57640,6 +57738,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARCUS VINICIUS",
       "codusur2": "471",
       "nome_usur2": "ANA CLARA FASSANO - OFF TRADE"
+    },
+    {
+      "codcli": "51301",
+      "razao": "TERRA MEL FRUTAS COMERCIO DE HORTIFRUTICOLA LTDA",
+      "fantasia": "TERRANA LOJA",
+      "bairro": "JARDIM SANTA MÔNICA",
+      "cidade": "CAMPINAS",
+      "cnpj": "24.423.484/0001-40",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "470",
+      "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "81414",
@@ -58914,6 +59026,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "51297",
+      "razao": "VALLIS ALIMENTOS E DISTRIBUICAO LTDA",
+      "fantasia": "VALLIS ALIMENTOS E DISTRIBUICAO",
+      "bairro": "VILA SANTOS",
+      "cidade": "CACAPAVA",
+      "cnpj": "35.229.330/0001-38",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "465",
+      "nome_usur1": "CIARA PADULA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "73962",
