@@ -69,6 +69,7 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
             M.QT,
             (M.PUNIT * M.QT)               AS VALOR,
             M.CODOPER,
+            U.CODUSUR                       AS RCA,
             U.NOME                          AS NOME_ORACLE
         FROM {s}.PCMOV M
         JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
@@ -101,19 +102,27 @@ _vh = pd.concat(_vh_parts, ignore_index=True)
 _vh['MES']    = pd.to_datetime(_vh['MES'],   errors='coerce')
 _vh['QT']     = pd.to_numeric(_vh['QT'],     errors='coerce').fillna(0).astype(int)
 _vh['VALOR']  = pd.to_numeric(_vh['VALOR'],  errors='coerce').fillna(0).round(2)
+_vh['RCA']    = pd.to_numeric(_vh['RCA'],    errors='coerce')
 _vh['CLIENTE']  = _vh['CLIENTE'].fillna(_vh['CODCLI'])
 _vh['FANTASIA'] = _vh['FANTASIA'].fillna('')
 _vh['PRODUTO']  = _vh['PRODUTO'].fillna('')
 
-# Oracle name → display name
+# RCA → display name (relação pelo código, não pelo nome)
+_rca_to_display = {
+    int(r['RCA']): str(r['VENDEDOR'])
+    for _, r in metas_com_nome.drop_duplicates(subset=['RCA']).iterrows()
+    if pd.notna(r.get('RCA')) and pd.notna(r.get('VENDEDOR'))
+}
+_vh['VENDEDOR'] = _vh['RCA'].map(_rca_to_display)
+_vh = _vh[_vh['VENDEDOR'].notna()].copy()
+_vh['MES_STR'] = _vh['MES'].apply(_mes_pt)
+
+# Oracle name → display name (mantido apenas para cadastros)
 _oracle_to_display = {
     str(r['NOME']): str(r['VENDEDOR'])
     for _, r in metas_com_nome.drop_duplicates(subset=['NOME']).iterrows()
     if pd.notna(r.get('NOME'))
 }
-_vh['VENDEDOR'] = _vh['NOME_ORACLE'].map(_oracle_to_display)
-_vh = _vh[_vh['VENDEDOR'].notna()].copy()
-_vh['MES_STR'] = _vh['MES'].apply(_mes_pt)
 
 _vh_grouped = _vh.groupby(['VENDEDOR', 'MES_STR'])
 
@@ -516,16 +525,18 @@ for _s, _e, _n, _emp in _HIER_CONFIGS:
 
 if _hier_parts:
     _hier = pd.concat(_hier_parts, ignore_index=True)
-    _hier['NOME_DISPLAY'] = _hier['NOME_VENDEDOR'].map(_oracle_to_display)
-    _hier = _hier[_hier['NOME_DISPLAY'].notna()].drop_duplicates(subset=['NOME_DISPLAY', 'EMPRESA'])
+    _hier['CODUSUR'] = pd.to_numeric(_hier['CODUSUR'], errors='coerce')
+    _hier = _hier.dropna(subset=['CODUSUR'])
     if 'ESTADO_VENDEDOR' not in _hier.columns:
         _hier['ESTADO_VENDEDOR'] = ''
     _hier['ESTADO_VENDEDOR'] = _hier['ESTADO_VENDEDOR'].fillna('').astype(str).str.strip()
+    # Um RCA por empresa (sem ambiguidade de nome)
+    _hier = _hier.drop_duplicates(subset=['CODUSUR', 'EMPRESA'])
 
-    # Merge por VENDEDOR + EMPRESA para cada schema usar sua própria hierarquia
+    # Merge por RCA + EMPRESA — cada schema usa sua própria hierarquia
     _vh_hier = _vh.merge(
-        _hier[['NOME_DISPLAY', 'NOME_SUPERVISOR', 'NOMEGERENTE', 'EMPRESA', 'ESTADO_VENDEDOR']],
-        left_on=['VENDEDOR', 'EMPRESA'], right_on=['NOME_DISPLAY', 'EMPRESA'], how='left',
+        _hier[['CODUSUR', 'NOME_SUPERVISOR', 'NOMEGERENTE', 'EMPRESA', 'ESTADO_VENDEDOR']],
+        left_on=['RCA', 'EMPRESA'], right_on=['CODUSUR', 'EMPRESA'], how='left',
     )
     _vh_hier['NOME_SUPERVISOR'] = _vh_hier['NOME_SUPERVISOR'].fillna('Sem Supervisor')
     _vh_hier['NOMEGERENTE']     = _vh_hier['NOMEGERENTE'].fillna('Sem Gerente')
