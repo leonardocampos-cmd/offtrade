@@ -517,25 +517,19 @@ for _s, _e, _n, _emp in _HIER_CONFIGS:
 if _hier_parts:
     _hier = pd.concat(_hier_parts, ignore_index=True)
     _hier['NOME_DISPLAY'] = _hier['NOME_VENDEDOR'].map(_oracle_to_display)
-    _hier = _hier[_hier['NOME_DISPLAY'].notna()].drop_duplicates(subset=['NOME_DISPLAY'])
+    _hier = _hier[_hier['NOME_DISPLAY'].notna()].drop_duplicates(subset=['NOME_DISPLAY', 'EMPRESA'])
     if 'ESTADO_VENDEDOR' not in _hier.columns:
         _hier['ESTADO_VENDEDOR'] = ''
     _hier['ESTADO_VENDEDOR'] = _hier['ESTADO_VENDEDOR'].fillna('').astype(str).str.strip()
 
+    # Merge por VENDEDOR + EMPRESA para cada schema usar sua própria hierarquia
     _vh_hier = _vh.merge(
         _hier[['NOME_DISPLAY', 'NOME_SUPERVISOR', 'NOMEGERENTE', 'EMPRESA', 'ESTADO_VENDEDOR']],
-        left_on='VENDEDOR', right_on='NOME_DISPLAY', how='left',
+        left_on=['VENDEDOR', 'EMPRESA'], right_on=['NOME_DISPLAY', 'EMPRESA'], how='left',
     )
     _vh_hier['NOME_SUPERVISOR'] = _vh_hier['NOME_SUPERVISOR'].fillna('Sem Supervisor')
     _vh_hier['NOMEGERENTE']     = _vh_hier['NOMEGERENTE'].fillna('Sem Gerente')
-
-    # EMPRESA vem sempre dos dados de vendas (EMPRESA_x), que reflete o schema
-    # de origem correto. EMPRESA_y (hierarquia) pode estar errado por causa do
-    # drop_duplicates que prioriza CRC quando o mesmo vendedor aparece em múltiplos schemas.
-    if 'EMPRESA_x' in _vh_hier.columns:
-        _vh_hier['EMPRESA'] = _vh_hier['EMPRESA_x']
-        _vh_hier.drop(columns=['EMPRESA_x', 'EMPRESA_y'], inplace=True)
-    elif 'EMPRESA' not in _vh_hier.columns:
+    if 'EMPRESA' not in _vh_hier.columns:
         _vh_hier['EMPRESA'] = 'Desconhecido'
 
     _emp_dict: dict = {}
