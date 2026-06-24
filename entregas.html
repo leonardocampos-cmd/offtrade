@@ -109,6 +109,21 @@
 
     .tag-naoentreg { background: #450a0a; color: #fca5a5; border: 1px solid #7f1d1d; }
 
+    .banner-naoentreg {
+      background: #450a0a;
+      border: 1px solid #7f1d1d;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 16px;
+      font-size: 0.82rem;
+      color: #fca5a5;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .banner-naoentreg strong { color: #ef4444; }
+
     /* ── Tabs ── */
     .tabs {
       display: flex;
@@ -287,6 +302,8 @@
   }
 })();
 </script>
+
+<div id="banner-naoentreg" class="banner-naoentreg" style="display:none"></div>
 
 <div class="summary">
   <div class="badge badge-rota">
@@ -545,6 +562,16 @@ if (!D) {
       sel.appendChild(opt);
     });
     renderVendedor();
+
+    // Banner global de não entregues (visível independente do vendedor selecionado)
+    const comNaoEntreg = D.vendedores.filter(v => (v.nao_entregue||[]).length > 0);
+    if (comNaoEntreg.length > 0) {
+      const totalNfs = comNaoEntreg.reduce((s,v) => s + v.nao_entregue.length, 0);
+      const nomes = comNaoEntreg.map(v => v.nome.replace(/ - OFF TRADE$/, '')).join(', ');
+      const banner = document.getElementById('banner-naoentreg');
+      banner.innerHTML = `<strong>⚠ ${totalNfs} NF(s) não entregue(s) hoje</strong><span>— ${escHtml(nomes)}</span>`;
+      banner.style.display = '';
+    }
   }
 }
 </script>
