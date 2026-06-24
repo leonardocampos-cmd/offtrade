@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "24/06/2026 10:01",
+  "atualizado_em": "24/06/2026 11:19",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -262432,6 +262432,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "24/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
+          "qt": 180,
+          "valor": 13230.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "11/06/2026",
           "codcli": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
@@ -280306,6 +280316,16 @@ const VENDAS_DATA = {
           "tipo": "Bonificado"
         },
         {
+          "data": "24/06/2026",
+          "codcli": "91212",
+          "cliente": "FV GASTRONOMIA LTDA",
+          "produto": "BARBERA D'ALBA SUPERIORE 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 526.5,
+          "tipo": "Venda"
+        },
+        {
           "data": "16/06/2026",
           "codcli": "50465",
           "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
@@ -280373,6 +280393,16 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 624.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "91425",
+          "cliente": "MALU COMERCIO DE ALIMENTOS LTDA",
+          "produto": "LANGHE CHARDONNAY DOC 750ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 5616.0,
           "tipo": "Venda"
         },
         {
@@ -280466,11 +280496,41 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "24/06/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "MOET IMPERIAL RESERVE BRUT 750 ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 160,
+          "valor": 43184.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "23/06/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "WHISKY ROYAL SALUTE 700ML",
           "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 7102.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "WHISKY ROYAL SALUTE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 6718.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 12,
           "valor": 7102.8,
           "tipo": "Venda"

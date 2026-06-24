@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "24/06/2026 10:01",
+  "atualizado_em": "24/06/2026 11:19",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -35,13 +35,16 @@ const GERENTES_DATA = {
           "qt": 51410
         },
         "Jun/26": {
-          "fat": 2465495.22,
-          "qt": 46042
+          "fat": 2478725.22,
+          "qt": 46222
         }
       },
       "gerentes": [
         {
           "nome": "ALLAN PAES",
+          "estados": [
+            "RJ"
+          ],
           "por_mes": {
             "Jan/26": {
               "fat": 2041211.96,
@@ -64,13 +67,16 @@ const GERENTES_DATA = {
               "qt": 44527
             },
             "Jun/26": {
-              "fat": 2043154.6,
-              "qt": 39441
+              "fat": 2056384.6,
+              "qt": 39621
             }
           },
           "supervisores": [
             {
               "nome": "Danielle Moura Marques Soares",
+              "estados": [
+                "RJ"
+              ],
               "por_mes": {
                 "Jan/26": {
                   "fat": 2041211.96,
@@ -93,14 +99,15 @@ const GERENTES_DATA = {
                   "qt": 44527
                 },
                 "Jun/26": {
-                  "fat": 2043154.6,
-                  "qt": 39441
+                  "fat": 2056384.6,
+                  "qt": 39621
                 }
               },
               "vendedores": [
                 {
                   "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
                   "rca": "431",
+                  "estado": "RJ",
                   "por_mes": {
                     "Mar/26": {
                       "fat": 45698.27,
@@ -131,6 +138,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "ALLAN PAES - OFF TRADE",
                   "rca": "174",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jun/26": {
                       "fat": 284611.68,
@@ -153,6 +161,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "ANA CLARA FASSANO - OFF TRADE",
                   "rca": "471",
+                  "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
                       "fat": 39504.85,
@@ -175,6 +184,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "ANGELO NEVES SUZART - OFF TRADE",
                   "rca": "153",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jun/26": {
                       "fat": 133861.85,
@@ -205,6 +215,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "BARBARA CABRAL - OFF TRADE",
                   "rca": "412",
+                  "estado": "RJ",
                   "por_mes": {
                     "Mar/26": {
                       "fat": 41583.86,
@@ -235,6 +246,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "DANIELLE MOURA - OFF TRADE",
                   "rca": "238",
+                  "estado": "RJ",
                   "por_mes": {
                     "Mar/26": {
                       "fat": 284063.08,
@@ -265,6 +277,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "DIOGO RAPOSO - OFF TRADE",
                   "rca": "144",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jun/26": {
                       "fat": 180483.43,
@@ -295,6 +308,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
                   "rca": "417",
+                  "estado": "RJ",
                   "por_mes": {
                     "Mai/26": {
                       "fat": 22716.91,
@@ -325,6 +339,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "FABIO VALOTTI - OFF TRADE",
                   "rca": "378",
+                  "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
                       "fat": 59211.54,
@@ -355,6 +370,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "JORGE MACIEL - OFF TRADE",
                   "rca": "379",
+                  "estado": "RJ",
                   "por_mes": {
                     "Mar/26": {
                       "fat": 83205.41,
@@ -385,6 +401,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
                   "rca": "158",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jan/26": {
                       "fat": 471676.84,
@@ -415,6 +432,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "KELLY RAMOS - OFF TRADE",
                   "rca": "420",
+                  "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
                       "fat": 311300.4,
@@ -433,6 +451,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "LEANDRO SOUZA - OFF TRADE",
                   "rca": "450",
+                  "estado": "",
                   "por_mes": {
                     "Mai/26": {
                       "fat": 186552.85,
@@ -455,6 +474,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "MARIA LUIZA - OFF TRADE",
                   "rca": "275",
+                  "estado": "RJ",
                   "por_mes": {
                     "Fev/26": {
                       "fat": 100451.04,
@@ -469,8 +489,8 @@ const GERENTES_DATA = {
                       "qt": 7705
                     },
                     "Jun/26": {
-                      "fat": 154354.93,
-                      "qt": 1718
+                      "fat": 167584.93,
+                      "qt": 1898
                     },
                     "Mar/26": {
                       "fat": 32693.54,
@@ -485,6 +505,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "MARILENA TRAGEL - OFF TRADE",
                   "rca": "156",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jan/26": {
                       "fat": 180606.17,
@@ -515,6 +536,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "MATEUS CARDOSO - OFF TRADE",
                   "rca": "439",
+                  "estado": "RJ",
                   "por_mes": {
                     "Mai/26": {
                       "fat": 10494.51,
@@ -545,6 +567,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
                   "rca": "419",
+                  "estado": "RJ",
                   "por_mes": {
                     "Mai/26": {
                       "fat": 38615.83,
@@ -578,6 +601,9 @@ const GERENTES_DATA = {
         },
         {
           "nome": "CRC",
+          "estados": [
+            "RJ"
+          ],
           "por_mes": {
             "Jan/26": {
               "fat": 1126837.39,
@@ -607,6 +633,9 @@ const GERENTES_DATA = {
           "supervisores": [
             {
               "nome": "DANIEL DINIZ",
+              "estados": [
+                "RJ"
+              ],
               "por_mes": {
                 "Jan/26": {
                   "fat": 1126837.39,
@@ -637,6 +666,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "GISELLE BARFER - OFF TRADE",
                   "rca": "159",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jan/26": {
                       "fat": 491921.21,
@@ -667,6 +697,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "RAPHAEL SANTOS - OFF TRADE",
                   "rca": "155",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jan/26": {
                       "fat": 572545.36,
@@ -697,6 +728,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "VIVIANI ALVES - OFF TRADE",
                   "rca": "91",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jan/26": {
                       "fat": 10754.88,
@@ -723,6 +755,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
                   "rca": "241",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jan/26": {
                       "fat": 51615.94,
@@ -771,6 +804,10 @@ const GERENTES_DATA = {
           "fat": 34797.9,
           "qt": 734
         },
+        "Jun/26": {
+          "fat": 20605.5,
+          "qt": 300
+        },
         "Abr/26": {
           "fat": 17976.87,
           "qt": 387
@@ -778,15 +815,14 @@ const GERENTES_DATA = {
         "Jan/26": {
           "fat": 21567.4,
           "qt": 316
-        },
-        "Jun/26": {
-          "fat": 14463.0,
-          "qt": 273
         }
       },
       "gerentes": [
         {
           "nome": "CRC",
+          "estados": [
+            "RJ"
+          ],
           "por_mes": {
             "Mai/26": {
               "fat": 30610.8,
@@ -800,6 +836,10 @@ const GERENTES_DATA = {
               "fat": 34797.9,
               "qt": 734
             },
+            "Jun/26": {
+              "fat": 20605.5,
+              "qt": 300
+            },
             "Abr/26": {
               "fat": 17976.87,
               "qt": 387
@@ -807,15 +847,14 @@ const GERENTES_DATA = {
             "Jan/26": {
               "fat": 21567.4,
               "qt": 316
-            },
-            "Jun/26": {
-              "fat": 14463.0,
-              "qt": 273
             }
           },
           "supervisores": [
             {
               "nome": "DANIEL DINIZ",
+              "estados": [
+                "RJ"
+              ],
               "por_mes": {
                 "Mai/26": {
                   "fat": 30610.8,
@@ -829,6 +868,10 @@ const GERENTES_DATA = {
                   "fat": 34797.9,
                   "qt": 734
                 },
+                "Jun/26": {
+                  "fat": 20605.5,
+                  "qt": 300
+                },
                 "Abr/26": {
                   "fat": 17976.87,
                   "qt": 387
@@ -836,16 +879,13 @@ const GERENTES_DATA = {
                 "Jan/26": {
                   "fat": 21567.4,
                   "qt": 316
-                },
-                "Jun/26": {
-                  "fat": 14463.0,
-                  "qt": 273
                 }
               },
               "vendedores": [
                 {
                   "nome": "VIVIANI ALVES - OFF TRADE",
                   "rca": "91",
+                  "estado": "RJ",
                   "por_mes": {
                     "Mai/26": {
                       "fat": 30610.8,
@@ -859,6 +899,10 @@ const GERENTES_DATA = {
                       "fat": 34797.9,
                       "qt": 734
                     },
+                    "Jun/26": {
+                      "fat": 20605.5,
+                      "qt": 300
+                    },
                     "Abr/26": {
                       "fat": 17976.87,
                       "qt": 387
@@ -866,10 +910,6 @@ const GERENTES_DATA = {
                     "Jan/26": {
                       "fat": 21567.4,
                       "qt": 316
-                    },
-                    "Jun/26": {
-                      "fat": 14463.0,
-                      "qt": 273
                     }
                   }
                 }
@@ -894,6 +934,9 @@ const GERENTES_DATA = {
       "gerentes": [
         {
           "nome": "ALLAN PAES",
+          "estados": [
+            "RJ"
+          ],
           "por_mes": {
             "Fev/26": {
               "fat": 60587.64,
@@ -907,6 +950,9 @@ const GERENTES_DATA = {
           "supervisores": [
             {
               "nome": "Danielle Moura Marques Soares",
+              "estados": [
+                "RJ"
+              ],
               "por_mes": {
                 "Fev/26": {
                   "fat": 60587.64,
@@ -921,6 +967,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "DANIELLE MOURA - OFF TRADE",
                   "rca": "238",
+                  "estado": "RJ",
                   "por_mes": {
                     "Fev/26": {
                       "fat": 48448.44,
@@ -935,6 +982,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "KELLY RAMOS - OFF TRADE",
                   "rca": "420",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jan/26": {
                       "fat": 192898.8,
@@ -945,6 +993,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "MARIA LUIZA - OFF TRADE",
                   "rca": "275",
+                  "estado": "RJ",
                   "por_mes": {
                     "Fev/26": {
                       "fat": 12139.2,
@@ -962,8 +1011,8 @@ const GERENTES_DATA = {
       "nome": "SPON",
       "por_mes": {
         "Jun/26": {
-          "fat": 152756.8,
-          "qt": 2072
+          "fat": 209762.4,
+          "qt": 2256
         },
         "Jan/26": {
           "fat": 59070.0,
@@ -989,6 +1038,9 @@ const GERENTES_DATA = {
       "gerentes": [
         {
           "nome": "ALLAN PAES",
+          "estados": [
+            "RJ"
+          ],
           "por_mes": {
             "Jun/26": {
               "fat": 42728.4,
@@ -998,6 +1050,9 @@ const GERENTES_DATA = {
           "supervisores": [
             {
               "nome": "Danielle Moura Marques Soares",
+              "estados": [
+                "RJ"
+              ],
               "por_mes": {
                 "Jun/26": {
                   "fat": 42728.4,
@@ -1008,6 +1063,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
                   "rca": "419",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jun/26": {
                       "fat": 42728.4,
@@ -1021,10 +1077,13 @@ const GERENTES_DATA = {
         },
         {
           "nome": "CRC",
+          "estados": [
+            "RJ"
+          ],
           "por_mes": {
             "Jun/26": {
-              "fat": 110028.4,
-              "qt": 356
+              "fat": 167034.0,
+              "qt": 540
             },
             "Jan/26": {
               "fat": 59070.0,
@@ -1050,10 +1109,13 @@ const GERENTES_DATA = {
           "supervisores": [
             {
               "nome": "DANIEL DINIZ",
+              "estados": [
+                "RJ"
+              ],
               "por_mes": {
                 "Jun/26": {
-                  "fat": 110028.4,
-                  "qt": 356
+                  "fat": 167034.0,
+                  "qt": 540
                 },
                 "Jan/26": {
                   "fat": 59070.0,
@@ -1080,10 +1142,11 @@ const GERENTES_DATA = {
                 {
                   "nome": "VIVIANI ALVES - OFF TRADE",
                   "rca": "91",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jun/26": {
-                      "fat": 110028.4,
-                      "qt": 356
+                      "fat": 167034.0,
+                      "qt": 540
                     },
                     "Jan/26": {
                       "fat": 59070.0,
@@ -1144,6 +1207,9 @@ const GERENTES_DATA = {
       "gerentes": [
         {
           "nome": "ALLAN PAES",
+          "estados": [
+            "RJ"
+          ],
           "por_mes": {
             "Jan/26": {
               "fat": 381472.79,
@@ -1173,6 +1239,9 @@ const GERENTES_DATA = {
           "supervisores": [
             {
               "nome": "Danielle Moura Marques Soares",
+              "estados": [
+                "RJ"
+              ],
               "por_mes": {
                 "Jan/26": {
                   "fat": 381472.79,
@@ -1203,6 +1272,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
                   "rca": "417",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jan/26": {
                       "fat": 380992.84,
@@ -1233,6 +1303,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "MATEUS CARDOSO - OFF TRADE",
                   "rca": "439",
+                  "estado": "RJ",
                   "por_mes": {
                     "Jan/26": {
                       "fat": 479.95,
