@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "24/06/2026 09:32",
-  "total": 4341,
+  "atualizado_em": "24/06/2026 10:00",
+  "total": 4343,
   "clientes": [
     {
       "codcli": "31683",
@@ -11608,6 +11608,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "241",
       "nome_usur2": "ZEINALDO DE OLIVEIRA - OFF TRADE"
+    },
+    {
+      "codcli": "51278",
+      "razao": "BRUNO STEVANATTO 43315533881",
+      "fantasia": "STEVANATTO",
+      "bairro": "JARDIM BELA VISTA CONTINUACAO",
+      "cidade": "COSMOPOLIS",
+      "cnpj": "34.302.806/0001-56",
+      "estado": "SP",
+      "ramo": "LOJA",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "42967",
@@ -28926,6 +28940,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
+    },
+    {
+      "codcli": "95493",
+      "razao": "JULIA ROSA PRODUCOES E ASSESSORIA LTDA",
+      "fantasia": "JULIA ROSA PRODUCOES E ASSESSORIA",
+      "bairro": "SANTA ROSA",
+      "cidade": "NITEROI",
+      "cnpj": "07.489.015/0001-04",
+      "estado": "RJ",
+      "ramo": "SERVIÇOS",
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "3813",
