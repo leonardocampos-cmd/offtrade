@@ -109,21 +109,6 @@
 
     .tag-naoentreg { background: #450a0a; color: #fca5a5; border: 1px solid #7f1d1d; }
 
-    .banner-naoentreg {
-      background: #450a0a;
-      border: 1px solid #7f1d1d;
-      border-radius: 8px;
-      padding: 10px 14px;
-      margin-bottom: 16px;
-      font-size: 0.82rem;
-      color: #fca5a5;
-      display: flex;
-      align-items: flex-start;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    .banner-naoentreg strong { color: #ef4444; }
-
     /* ── Tabs ── */
     .tabs {
       display: flex;
@@ -303,8 +288,6 @@
 })();
 </script>
 
-<div id="banner-naoentreg" class="banner-naoentreg" style="display:none"></div>
-
 <div class="summary">
   <div class="badge badge-rota">
     <span class="cnt" id="cnt-rota">—</span>
@@ -322,7 +305,7 @@
     <span class="lbl">Não Emitido</span>
     <span class="val" id="val-noemit">—</span>
   </div>
-  <div class="badge badge-naoentreg" id="badge-naoentreg" style="display:none">
+  <div class="badge badge-naoentreg">
     <span class="cnt" id="cnt-naoentreg">—</span>
     <span class="lbl">Não Entregue</span>
     <span class="val" id="val-naoentreg">—</span>
@@ -333,7 +316,7 @@
   <button class="tab-btn active" onclick="switchTab('rota',      this)">Em Rota</button>
   <button class="tab-btn"        onclick="switchTab('semrota',   this)">Emitido / Sem Rota</button>
   <button class="tab-btn"        onclick="switchTab('noemit',    this)">Não Emitido</button>
-  <button class="tab-btn" id="tab-naoentreg" style="display:none;color:var(--red)"
+  <button class="tab-btn" style="color:var(--red)"
           onclick="switchTab('naoentreg', this)">⚠ Não Entregue</button>
 </div>
 
@@ -405,10 +388,6 @@ function renderVendedor() {
   document.getElementById('cnt-noemit').textContent  = v.nao_emitido.length;
   document.getElementById('val-noemit').textContent  = fmt(totNoemit);
 
-  // Badge e aba Não Entregue — só mostra se houver ocorrências
-  const hasNaoEntreg = naoEntregue.length > 0;
-  document.getElementById('badge-naoentreg').style.display = hasNaoEntreg ? '' : 'none';
-  document.getElementById('tab-naoentreg').style.display   = hasNaoEntreg ? '' : 'none';
   document.getElementById('cnt-naoentreg').textContent = naoEntregue.length;
   document.getElementById('val-naoentreg').textContent = fmt(totNaoEntreg);
 
@@ -563,15 +542,6 @@ if (!D) {
     });
     renderVendedor();
 
-    // Banner global de não entregues (visível independente do vendedor selecionado)
-    const comNaoEntreg = D.vendedores.filter(v => (v.nao_entregue||[]).length > 0);
-    if (comNaoEntreg.length > 0) {
-      const totalNfs = comNaoEntreg.reduce((s,v) => s + v.nao_entregue.length, 0);
-      const nomes = comNaoEntreg.map(v => v.nome.replace(/ - OFF TRADE$/, '')).join(', ');
-      const banner = document.getElementById('banner-naoentreg');
-      banner.innerHTML = `<strong>⚠ ${totalNfs} NF(s) não entregue(s) hoje</strong><span>— ${escHtml(nomes)}</span>`;
-      banner.style.display = '';
-    }
   }
 }
 </script>
