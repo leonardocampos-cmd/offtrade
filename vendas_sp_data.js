@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "24/06/2026 11:45",
+  "atualizado_em": "24/06/2026 12:16",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -43380,33 +43380,6 @@ const VENDAS_SP_DATA = {
           "valor": 113.88
         },
         {
-          "data": "19/06/2026",
-          "codcli": "50400",
-          "cliente": "MINATEL & CIA. SUPERMERCADOS LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 48,
-          "valor": 1339.2
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "50400",
-          "cliente": "MINATEL & CIA. SUPERMERCADOS LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 36,
-          "valor": 1209.6
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "50400",
-          "cliente": "MINATEL & CIA. SUPERMERCADOS LTDA",
-          "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 718.8
-        },
-        {
           "data": "15/06/2026",
           "codcli": "49531",
           "cliente": "VALDOMIRO SGORLON MARTINELLI JUNIOR",
@@ -63438,42 +63411,6 @@ const VENDAS_SP_DATA = {
           "valor": 259.6
         },
         {
-          "data": "20/06/2026",
-          "codcli": "50503",
-          "cliente": "MERCADINHO ROQUE & CARMO LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 83.7
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "50503",
-          "cliente": "MERCADINHO ROQUE & CARMO LTDA",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 4,
-          "valor": 259.6
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "50503",
-          "cliente": "MERCADINHO ROQUE & CARMO LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 1,
-          "valor": 62.9
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "50503",
-          "cliente": "MERCADINHO ROQUE & CARMO LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 100.8
-        },
-        {
           "data": "22/06/2026",
           "codcli": "50518",
           "cliente": "MERCADO JUQUICENTER LTDA",
@@ -66123,51 +66060,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 2,
           "valor": 299.8
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "34970",
-          "cliente": "ANDERSON SILVA NASCIMENTO",
-          "produto": "VODKA ABSOLUT 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 658.8
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "34970",
-          "cliente": "ANDERSON SILVA NASCIMENTO",
-          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "PERNOD",
-          "qt": 4,
-          "valor": 219.6
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "34970",
-          "cliente": "ANDERSON SILVA NASCIMENTO",
-          "produto": "GIN BOMBAY SAPPHIRE 750ML",
-          "fantasia": "BACARDI",
-          "qt": 5,
-          "valor": 354.5
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "34970",
-          "cliente": "ANDERSON SILVA NASCIMENTO",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 9,
-          "valor": 584.1
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "34970",
-          "cliente": "ANDERSON SILVA NASCIMENTO",
-          "produto": "GIN GORDONS 750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 12,
-          "valor": 660.48
         },
         {
           "data": "23/06/2026",
@@ -74461,24 +74353,6 @@ const VENDAS_SP_DATA = {
           "valor": 377.7
         },
         {
-          "data": "19/06/2026",
-          "codcli": "50380",
-          "cliente": "SUPERMERCADO ALEGRIA LTDA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 12,
-          "valor": 346.8
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "50380",
-          "cliente": "SUPERMERCADO ALEGRIA LTDA",
-          "produto": "SMIRNOFF ICE 24X275ML LONG",
-          "fantasia": "DIAGEO",
-          "qt": 3,
-          "valor": 377.7
-        },
-        {
           "data": "17/06/2026",
           "codcli": "51094",
           "cliente": "M A COMERCIO DE ALIMENTOS LTDA",
@@ -82081,9 +81955,9 @@ const VENDAS_SP_DATA = {
     },
     "CARLOS DE ALMEIDA": {
       "Jun/26": {
-        "fat": 76386.06,
+        "fat": 75879.06,
         "pos": 24.0,
-        "fat_pernod": 22801.9,
+        "fat_pernod": 22357.8,
         "fat_crs": 419.58,
         "fat_essenza": 1176.0
       },
@@ -82199,9 +82073,9 @@ const VENDAS_SP_DATA = {
     },
     "ADER ALONSO": {
       "Jun/26": {
-        "fat": 370117.76,
-        "pos": 33.0,
-        "fat_pernod": 174258.4,
+        "fat": 366850.16,
+        "pos": 32.0,
+        "fat_pernod": 170990.8,
         "fat_crs": 377.64
       },
       "Mai/26": {
@@ -82357,7 +82231,7 @@ const VENDAS_SP_DATA = {
     },
     "ROBERTO DOS SANTOS": {
       "Jun/26": {
-        "fat": 51700.41,
+        "fat": 50975.91,
         "pos": 25.0,
         "fat_pernod": 21110.66,
         "fat_crs": 1726.2
@@ -82514,9 +82388,9 @@ const VENDAS_SP_DATA = {
     },
     "FRANCIS SILVA": {
       "Jun/26": {
-        "fat": 17963.14,
+        "fat": 15485.66,
         "pos": 7.0,
-        "fat_pernod": 8705.0
+        "fat_pernod": 7242.5
       },
       "Mai/26": {
         "fat": 4509.8,
