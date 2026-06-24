@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/06/2026 17:50",
-  "total": 4336,
+  "atualizado_em": "24/06/2026 09:32",
+  "total": 4341,
   "clientes": [
     {
       "codcli": "31683",
@@ -9004,6 +9004,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51272",
+      "razao": "AZMAX COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "AZULAO SUPERMERCADOS",
+      "bairro": "VILA ANTONIETA I",
+      "cidade": "LENCOIS PAULISTA",
+      "cnpj": "08.475.797/0001-95",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "81496",
@@ -24378,6 +24392,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "JOAO PEDRO - OFF TRADE"
     },
     {
+      "codcli": "51271",
+      "razao": "GIGANTAO SUPERMERCADOS LTDA",
+      "fantasia": "GIGANTAO SUPERMERCADOS LTDA",
+      "bairro": "DESMEMBRAMENTO HELIO CRUZEIRO",
+      "cidade": "MACATUBA",
+      "cnpj": "29.725.828/0006-01",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50111",
       "razao": "GILBERTO DA HORA LISBOA",
       "fantasia": "SOCIAL FLUXO",
@@ -26110,6 +26138,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "85152",
+      "razao": "I G MARTINS MERCADO E PADARIA LTDA",
+      "fantasia": "MERCADO DO MINEIRO",
+      "bairro": "CIDADE BEIRA MAR",
+      "cidade": "RIO DAS OSTRAS",
+      "cnpj": "22.434.644/0001-20",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "241",
+      "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
     },
@@ -52994,6 +53036,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANA CLARA FASSANO - OFF TRADE"
     },
     {
+      "codcli": "51276",
+      "razao": "SM SUPERMERCADOS MENDONCA LTDA",
+      "fantasia": "SM SUPERMERCADOS MENDONCA",
+      "bairro": "CENTRO",
+      "cidade": "BRAGANCA PAULISTA",
+      "cnpj": "00.371.046/0003-89",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "488",
+      "nome_usur1": "ADRIANO VEZZANI \n- OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "18433",
       "razao": "SMILE FOOD SERVICOS DE ALIMENTACAO LTDA",
       "fantasia": "LEMAX BURGER & BEER",
@@ -58660,6 +58716,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "343",
       "nome_usur1": "JOSIETH LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51275",
+      "razao": "VALDECI APARECIDO MARTINS FERREIRA MINIMERCADO",
+      "fantasia": "VAL SUPERMERCADO",
+      "bairro": "VILA FORMOSA (RUBIAO JUNIOR)",
+      "cidade": "BOTUCATU",
+      "cnpj": "32.279.355/0001-58",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
