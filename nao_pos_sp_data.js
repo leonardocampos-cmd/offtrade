@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "24/06/2026 16:13",
+  "atualizado_em": "24/06/2026 16:42",
   "por_vendedor": {
     "ADER ALONSO -": [
       {
@@ -5631,6 +5631,13 @@ const NAO_POS_SP_DATA = {
         "bairro": "PARQUE HIPPOLYTO",
         "dtultcomp": "nan",
         "produtos": []
+      },
+      {
+        "codcli": "51301",
+        "cliente": "TERRA MEL FRUTAS COMERCIO DE HORTIFRUTICOLA LTDA",
+        "bairro": "JARDIM SANTA MÔNICA",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "PATRICIO MASSAGARDI -": [
@@ -5925,13 +5932,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "50425",
         "cliente": "MG MERCADOS LTDA",
         "bairro": "VILA BOA VISTA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51301",
-        "cliente": "TERRA MEL FRUTAS COMERCIO DE HORTIFRUTICOLA LTDA",
-        "bairro": "JARDIM SANTA MÔNICA",
         "dtultcomp": "nan",
         "produtos": []
       },
