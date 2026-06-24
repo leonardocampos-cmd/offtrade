@@ -28,8 +28,8 @@ PASSWORD = os.getenv("VPN_PASSWORD", "vpn2320vpn")
 BASES = [
     {"dsn": os.getenv("DSN_RJ", "crc_oci"),   "schema": "CRC",  "estado": "RJ", "filiais": ["2", "4"]},
     {"dsn": os.getenv("DSN_ES", "crc_oci"),   "schema": "CRC",  "estado": "ES", "filiais": ["1"]},
-    {"dsn": os.getenv("DSN_SP", "spon_oci"),  "schema": "SPON", "estado": "SP", "filiais": None},
-    {"dsn": os.getenv("DSN_MG", "mgon_oci"),  "schema": "MGON", "estado": "MG", "filiais": None},
+    {"dsn": os.getenv("DSN_SP", "spon_oci"),  "schema": "SPON", "estado": "SP", "filiais": ["1", "2"]},
+    {"dsn": os.getenv("DSN_MG", "mgon_oci"),  "schema": "MGON", "estado": "MG", "filiais": ["1","2"]},
 ]
 
 METAS_FAT_ESTADO = {
