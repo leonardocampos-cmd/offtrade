@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "24/06/2026 16:13",
+  "atualizado_em": "24/06/2026 16:41",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -104,7 +104,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 200526.96
       },
       "Jun/26": {
-        "fat": 48325.76,
+        "fat": 57054.36,
         "pos": 5,
         "fat_ant": 35798.3
       }
@@ -197,8 +197,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 58591.42
       },
       "Jun/26": {
-        "fat": 157020.12,
-        "pos": 54,
+        "fat": 157745.38,
+        "pos": 58,
         "fat_ant": 175829.04
       }
     },
@@ -224,7 +224,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 1106013.96
       },
       "Jun/26": {
-        "fat": 520566.12,
+        "fat": 532309.32,
         "pos": 8,
         "fat_ant": 896376.5
       }
@@ -268,7 +268,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 19963.64
       },
       "Jun/26": {
-        "fat": 40363.56,
+        "fat": 41368.96,
         "pos": 22,
         "fat_ant": 53560.12
       }
@@ -63913,6 +63913,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 12,
           "valor": 1078.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "30530",
+          "cliente": "DISTRIBUIDORA CAMPOS - BARBACENA LTDA",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 7590.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "30530",
+          "cliente": "DISTRIBUIDORA CAMPOS - BARBACENA LTDA",
+          "produto": "WHISKY JACK DANIELS HONEY 375ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 598.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "30530",
+          "cliente": "DISTRIBUIDORA CAMPOS - BARBACENA LTDA",
+          "produto": "WHISKY JACK DANIELS SINGLE BARREL 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 539.8
         }
       ]
     },
@@ -79411,6 +79438,33 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "24/06/2026",
+          "codcli": "29385",
+          "cliente": "ARMAZEM E MERCEARIA PARANAIBA LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 123.04
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "29385",
+          "cliente": "ARMAZEM E MERCEARIA PARANAIBA LTDA",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 123.04
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "38527",
+          "cliente": "ARTHUR FELIPE FERNANDES REIS",
+          "produto": "WHISKY WHITE HORSE - 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 72.9
+        },
+        {
+          "data": "24/06/2026",
           "codcli": "30538",
           "cliente": "DAKI BELO HORIZONTE LTDA",
           "produto": "CHANDON PASSION ON ICE 750ML",
@@ -79501,6 +79555,33 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "24/06/2026",
+          "codcli": "39254",
+          "cliente": "VAREJAO LONDRINA LTDA",
+          "produto": "4 PACK  RED BULL  MAÇA SF",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 92.28
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "39254",
+          "cliente": "VAREJAO LONDRINA LTDA",
+          "produto": "4 PACK RED BULL NECTARINA  SF",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 61.52
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "39254",
+          "cliente": "VAREJAO LONDRINA LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 92.28
+        },
+        {
+          "data": "24/06/2026",
           "codcli": "30538",
           "cliente": "DAKI BELO HORIZONTE LTDA",
           "produto": "WHISKY OLD PARR GOLD 1 L",
@@ -79543,6 +79624,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 1726.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "39254",
+          "cliente": "VAREJAO LONDRINA LTDA",
+          "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 61.52
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "39254",
+          "cliente": "VAREJAO LONDRINA LTDA",
+          "produto": "4 PACK RED BULL POMELO SF",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 30.76
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "38525",
+          "cliente": "KAUAN GUSTAVO FERNANDES FREITAS",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 67.92
         },
         {
           "data": "24/06/2026",
@@ -84388,6 +84496,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "MSLR",
           "qt": 180,
           "valor": 11682.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33139",
+          "cliente": "COMERCIAL GALA LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 168,
+          "valor": 11743.2
         },
         {
           "data": "24/06/2026",
@@ -96486,6 +96603,42 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 754.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 2,
+          "valor": 129.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 699.9
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 125.8
         }
       ]
     }
