@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "24/06/2026 11:19",
+  "atualizado_em": "24/06/2026 11:43",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -262489,6 +262489,56 @@ const VENDAS_DATA = {
           "fantasia": "YVY",
           "qt": 6,
           "valor": 294.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN AR 6X710ML LT",
+          "fantasia": "YVY",
+          "qt": 5,
+          "valor": 987.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN TERRA 6X710ML LT",
+          "fantasia": "YVY",
+          "qt": 2,
+          "valor": 395.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN TERRA 750ML",
+          "fantasia": "YVY",
+          "qt": 12,
+          "valor": 588.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN AR 750ML",
+          "fantasia": "YVY",
+          "qt": 30,
+          "valor": 1470.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN MAR 750ML",
+          "fantasia": "YVY",
+          "qt": 48,
+          "valor": 2352.0,
           "tipo": "Venda"
         },
         {
