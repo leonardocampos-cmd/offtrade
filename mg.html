@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OFF TRADE MG</title>
+  <script src="vendas_mg_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f97316; --green: #22c55e; --yellow: #eab308;
+      --red: #ef4444; --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; padding: 16px; max-width: 960px; margin: 0 auto; }
+    header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border); flex-wrap: wrap; gap: 12px; }
+    .header-title h1 { font-size: 1.3rem; font-weight: 700; color: var(--accent); letter-spacing: -.02em; }
+    .header-title p  { font-size: .78rem; color: var(--muted); margin-top: 3px; }
+    .btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px; border-radius: 8px; font-size: .8rem; cursor: pointer; border: 1px solid var(--border); background: var(--card2); color: var(--text); text-decoration: none; transition: all .15s; }
+    .btn:hover { border-color: var(--accent); color: var(--accent); }
+    .btn-primary { background: var(--accent); color: #111; border-color: var(--accent); font-weight: 700; }
+    .btn-primary:hover { opacity: .9; }
+    .btn-dl { border-color: #2d6a4f; color: #52b788; }
+    .btn-dl:hover { border-color: #52b788; background: rgba(82,183,136,.1); }
+    .mes-select { background: var(--card2); border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 6px 10px; font-size: .82rem; cursor: pointer; outline: none; }
+    .mes-select:focus { border-color: var(--accent); }
+
+    .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+    .vendor-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px; transition: border-color .2s, transform .15s; }
+    .vendor-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .vendor-name { font-size: .95rem; font-weight: 600; margin-bottom: 2px; }
+    .vendor-sub  { font-size: .72rem; color: var(--muted); margin-bottom: 14px; }
+    .stat-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border); font-size: .82rem; }
+    .stat-row:last-of-type { border-bottom: none; }
+    .stat-label { color: var(--muted); }
+    .stat-val   { font-weight: 600; }
+    .var-pos { color: var(--green); font-size: .72rem; margin-left: 4px; }
+    .var-neg { color: var(--red);   font-size: .72rem; margin-left: 4px; }
+    .card-actions { display: flex; justify-content: flex-end; margin-top: 12px; }
+
+    .sec-header { display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding: 10px 0; border-bottom: 1px solid var(--border); user-select: none; }
+    .sec-title { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); }
+    .sec-ic    { font-size: .65rem; color: var(--muted); transition: transform .2s; }
+    .sec-ic.open { transform: rotate(180deg); }
+    .sec-body  { display: none; padding-top: 12px; }
+    .sec-body.open { display: block; }
+
+    .tbl { width: 100%; border-collapse: collapse; font-size: .78rem; }
+    .tbl th { color: var(--muted); font-weight: 600; text-align: left; padding: 4px 6px; border-bottom: 1px solid var(--border); font-size: .68rem; text-transform: uppercase; letter-spacing: .05em; }
+    .tbl td { padding: 5px 6px; border-bottom: 1px solid #1e2235; vertical-align: top; }
+    .tbl tr:last-child td { border-bottom: none; }
+    .tbl .td-right { text-align: right; white-space: nowrap; }
+    .tbl .td-muted { color: var(--muted); }
+
+    .np-cli-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border); cursor: pointer; font-size: .8rem; user-select: none; }
+    .np-cli-row:last-of-type { border-bottom: none; }
+    .np-cli-name  { font-weight: 500; }
+    .np-cli-date  { font-size: .72rem; color: var(--muted); white-space: nowrap; margin-left: 8px; }
+    .np-cli-ic    { font-size: .6rem; color: var(--muted); margin-left: 6px; }
+    .np-prods     { display: none; background: var(--card2); border-radius: 8px; padding: 8px 10px; margin: 4px 0 8px; }
+    .np-prods.open { display: block; }
+
+    .search-wrap { margin-bottom: 16px; }
+    .search-input { width: 100%; background: var(--card); border: 1px solid var(--border); color: var(--text); border-radius: 10px; padding: 10px 14px; font-size: .88rem; outline: none; }
+    .search-input:focus { border-color: var(--accent); }
+
+    .detail-header { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .detail-name { font-size: 1.1rem; font-weight: 700; }
+    .detail-sub  { font-size: .75rem; color: var(--muted); margin-top: 2px; }
+    .detail-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px; margin-bottom: 16px; }
+    .vendas-kpis { display: flex; gap: 24px; flex-wrap: wrap; margin-bottom: 14px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
+    .kpi-label { font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+    .kpi-val   { font-size: 1.15rem; font-weight: 700; margin-top: 2px; }
+    .vendas-table { width: 100%; border-collapse: collapse; font-size: .8rem; }
+    .vendas-table th { text-align: left; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); padding: 0 0 8px; }
+    .vendas-table td { padding: 8px 0; border-bottom: 1px solid #1e2235; vertical-align: top; }
+    .vendas-table tr:last-child td { border-bottom: none; }
+    .vendas-date { color: var(--muted); white-space: nowrap; padding-right: 12px; }
+    .vendas-cli  { font-weight: 500; }
+    .vendas-prod { font-size: .72rem; color: var(--muted); margin-top: 2px; }
+    .vendas-qt   { text-align: right; padding-right: 16px; color: var(--muted); }
+    .vendas-val  { text-align: right; font-weight: 600; white-space: nowrap; }
+    .vendas-empty { text-align: center; color: var(--muted); padding: 24px; font-size: .85rem; }
+    .no-data { text-align: center; padding: 60px 20px; color: var(--muted); font-size: .9rem; line-height: 1.8; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-title">
+    <h1>&#127963; OFF TRADE MG</h1>
+    <p id="header-sub">Carregando...</p>
+  </div>
+  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+    <a class="btn" href="index.html">&#8962; Home</a>
+    <div id="header-actions"></div>
+  </div>
+</header>
+
+<div id="app"></div>
+
+<script>
+var D = (typeof VENDAS_MG_DATA !== 'undefined') ? VENDAS_MG_DATA : null;
+
+function fmt(v) {
+  return 'R$ ' + Number(v).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
+}
+function varHtml(cur, ant) {
+  if (!ant) return '';
+  var diff = cur - ant, pct = ant > 0 ? (diff / ant * 100).toFixed(1) : 0;
+  var cls  = diff >= 0 ? 'var-pos' : 'var-neg';
+  return '<span class="' + cls + '">' + (diff >= 0 ? '+' : '') + pct + '%</span>';
+}
+
+function toggleSec(id) {
+  var b = document.getElementById(id), ic = document.getElementById(id + '-ic');
+  if (!b) return;
+  var o = b.classList.toggle('open');
+  if (ic) ic.classList.toggle('open', o);
+}
+function toggleCli(id) {
+  var el = document.getElementById(id), ic = document.getElementById(id + '-ic');
+  if (!el) return;
+  var o = el.classList.toggle('open');
+  if (ic) ic.textContent = o ? '▲' : '▼';
+}
+
+function buildVendasGrouped(lista, prefix) {
+  if (!lista || !lista.length)
+    return '<div class="vendas-empty">Nenhuma venda registrada neste mes.</div>';
+  var groups = [], keyMap = {};
+  lista.forEach(function(v) {
+    var key = (v.codcli || v.cliente) + '|' + v.data;
+    if (!(key in keyMap)) { keyMap[key] = groups.length; groups.push({codcli:v.codcli,cliente:v.cliente,data:v.data,fat:0,produtos:[]}); }
+    var g = groups[keyMap[key]]; g.fat += v.valor;
+    g.produtos.push({produto:v.produto,fantasia:v.fantasia,qt:v.qt,valor:v.valor});
+  });
+  return groups.map(function(g, i) {
+    var gId = prefix + '-vg-' + i;
+    var rows = g.produtos.map(function(p) {
+      return '<tr><td><div>' + (p.produto||'—') + '</div><div class="td-muted" style="font-size:.7rem">' + (p.fantasia||'') + '</div></td>' +
+        '<td class="td-right td-muted">' + p.qt + '</td><td class="td-right">' + fmt(p.valor) + '</td></tr>';
+    }).join('');
+    return '<div class="np-cli-row" onclick="toggleCli(\'' + gId + '\')">' +
+      '<div><span class="np-cli-name">' + (g.cliente||'—') + '</span></div>' +
+      '<div style="display:flex;align-items:center"><span class="np-cli-date">' + (g.data||'') + '</span>' +
+      '<span id="' + gId + '-ic" class="np-cli-ic">▼</span></div></div>' +
+      '<div id="' + gId + '" class="np-prods"><table class="tbl"><thead><tr>' +
+      '<th>Produto / Fornecedor</th><th class="td-right">Qtde</th><th class="td-right">Valor</th>' +
+      '</tr></thead><tbody>' + rows + '</tbody></table></div>';
+  }).join('');
+}
+
+function copiarLink(nome, btn) {
+  var url = location.origin + location.pathname + '?vendedor=' + encodeURIComponent(nome);
+  navigator.clipboard.writeText(url).then(function() {
+    var orig = btn.innerHTML; btn.innerHTML = '&#10003; Copiado!';
+    btn.style.color = 'var(--green)'; btn.style.borderColor = 'var(--green)';
+    setTimeout(function() { btn.innerHTML = orig; btn.style.color = ''; btn.style.borderColor = ''; }, 2000);
+  });
+}
+
+function exportarCSV(nome) {
+  var mes  = document.getElementById('sel-mes-det').value;
+  var lista = (D.por_vendedor[nome] || {})[mes] || [];
+  var sep  = ';';
+  var rows = ['VENDAS — ' + nome + ' — ' + mes, 'Data;Cliente;Produto;Quantidade;Valor (R$)'].concat(
+    lista.map(function(s) { return s.data+sep+s.cliente+sep+s.produto+sep+s.qt+sep+Number(s.valor).toFixed(2).replace('.',','); })
+  );
+  var blob = new Blob(['﻿' + rows.join('\r\n')], {type:'text/csv;charset=utf-8;'});
+  var a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = 'vendas_MG_' + nome.replace(/\s+/g,'_') + '_' + mes.replace('/','_') + '.csv';
+  document.body.appendChild(a); a.click();
+  setTimeout(function() { document.body.removeChild(a); }, 500);
+}
+
+function _buildVendorCards(mes) {
+  if (!D) return '';
+  var nomes = Object.keys(D.por_vendedor || {});
+  if (!nomes.length) return '<div class="no-data">Nenhum vendedor encontrado.</div>';
+  return nomes.sort().map(function(nome) {
+    var res  = (D.resumo && D.resumo[nome] && D.resumo[nome][mes]) || {};
+    var fat  = res.fat     || 0;
+    var ant  = res.fat_ant || 0;
+    var pos  = res.pos     || 0;
+    var rca  = D.rcas && D.rcas[nome] ? 'RCA ' + D.rcas[nome] : 'MG';
+    return '<div class="vendor-card" data-nome="' + nome.toLowerCase() + '">' +
+      '<div class="vendor-name">' + nome + '</div>' +
+      '<div class="vendor-sub">' + rca + '</div>' +
+      '<div class="stat-row"><span class="stat-label">Faturamento</span>' +
+        '<span class="stat-val">' + fmt(fat) + varHtml(fat, ant) + '</span></div>' +
+      '<div class="stat-row"><span class="stat-label">Mes anterior</span>' +
+        '<span class="stat-val" style="color:var(--muted)">' + fmt(ant) + '</span></div>' +
+      '<div class="stat-row" style="border-bottom:none"><span class="stat-label">Positivados</span>' +
+        '<span class="stat-val">' + pos + '</span></div>' +
+      '<div class="card-actions" style="gap:8px">' +
+        '<button class="btn" onclick="copiarLink(\'' + nome.replace(/'/g,"\\'") + '\',this)">&#128279; Link</button>' +
+        '<button class="btn btn-primary" onclick="renderDetalhe(\'' + nome.replace(/'/g,"\\'") + '\')">Ver vendas</button>' +
+      '</div></div>';
+  }).join('');
+}
+
+function _atualizarTabela(nome) {
+  var mes   = document.getElementById('sel-mes-det').value;
+  var lista = ((D.por_vendedor[nome] || {})[mes] || []).slice().sort(function(a, b) {
+    var pa = a.data.split('/'), pb = b.data.split('/');
+    return new Date(pb[2],pb[1]-1,pb[0]) - new Date(pa[2],pa[1]-1,pa[0]);
+  });
+  var res = (D.resumo && D.resumo[nome] && D.resumo[nome][mes]) || {};
+  var fat = res.fat || lista.reduce(function(s,r){return s+r.valor;},0);
+  var qt  = lista.reduce(function(s,r){return s+r.qt;},0);
+  var pos = res.pos || new Set(lista.map(function(r){return r.codcli||r.cliente;})).size;
+  var ant = res.fat_ant || 0;
+  document.getElementById('det-kpis').innerHTML =
+    '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmt(fat) + '</div>' +
+      (ant ? '<div style="font-size:.7rem;color:var(--muted)">Ant: ' + fmt(ant) + ' ' + varHtml(fat,ant) + '</div>' : '') + '</div>' +
+    '<div><div class="kpi-label">Itens</div><div class="kpi-val">' + qt.toLocaleString('pt-BR') + '</div></div>' +
+    '<div><div class="kpi-label">Positivados</div><div class="kpi-val">' + pos + '</div></div>';
+  document.getElementById('det-tabela').innerHTML = buildVendasGrouped(lista, 'fat-' + nome.replace(/\W/g,''));
+}
+
+function renderDetalhe(nome) {
+  var meses = D ? D.meses : [];
+  var opts  = meses.map(function(m) { return '<option value="' + m + '">' + m + '</option>'; }).join('');
+  history.pushState({}, '', '?vendedor=' + encodeURIComponent(nome));
+  document.getElementById('header-actions').innerHTML =
+    '<button class="btn btn-dl" onclick="exportarCSV(\'' + nome.replace(/'/g,"\\'") + '\')">&#8595; CSV</button>' +
+    '<button class="btn" onclick="renderMain()">&#8592; Todos</button>';
+  document.getElementById('app').innerHTML =
+    '<div class="detail-header"><div>' +
+      '<div class="detail-name">' + nome + '</div>' +
+      '<div class="detail-sub">' + (D.rcas && D.rcas[nome] ? 'RCA ' + D.rcas[nome] + ' · MG' : 'MG') + '</div>' +
+    '</div>' +
+    '<select id="sel-mes-det" class="mes-select" onchange="_atualizarTabela(\'' + nome.replace(/'/g,"\\'") + '\')">' + opts + '</select></div>' +
+    '<div class="detail-card">' +
+      '<div class="sec-header" onclick="toggleSec(\'sec-fat\')">' +
+        '<div class="sec-title" style="color:var(--green)">Faturamento do mes</div>' +
+        '<span id="sec-fat-ic" class="sec-ic open">▼</span>' +
+      '</div>' +
+      '<div id="sec-fat" class="sec-body open">' +
+        '<div id="det-kpis" class="vendas-kpis" style="margin-top:14px"></div>' +
+        '<div id="det-tabela"></div>' +
+      '</div>' +
+    '</div>';
+  _atualizarTabela(nome);
+}
+
+function filterCards(q) {
+  var q2 = q.toLowerCase().trim();
+  document.querySelectorAll('.vendor-card').forEach(function(c) {
+    c.style.display = c.dataset.nome.includes(q2) ? '' : 'none';
+  });
+}
+
+function renderMain(mes) {
+  if (!D) {
+    document.getElementById('header-sub').textContent = 'Dados MG nao disponiveis';
+    document.getElementById('app').innerHTML = '<div class="no-data"><p>&#9888; Arquivo <strong>vendas_mg_data.js</strong> nao encontrado.</p></div>';
+    return;
+  }
+  var meses = D.meses || [];
+  mes = mes || meses[0] || '';
+  document.getElementById('header-sub').textContent = mes + '  ·  Atualizado ' + (D.atualizado_em || '—');
+  var mesOpts = meses.map(function(m) { return '<option value="'+m+'"'+(m===mes?' selected':'')+'>'+m+'</option>'; }).join('');
+  document.getElementById('header-actions').innerHTML =
+    '<select class="mes-select" onchange="renderMain(this.value)">' + mesOpts + '</select>';
+  document.getElementById('app').innerHTML =
+    '<div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:12px">Vendedores</div>' +
+    '<div class="search-wrap"><input class="search-input" type="text" placeholder="Buscar vendedor..." oninput="filterCards(this.value)"></div>' +
+    '<div class="cards-grid">' + _buildVendorCards(mes) + '</div>';
+  history.replaceState({}, '', location.pathname);
+}
+
+window.addEventListener('popstate', function() {
+  if (!new URLSearchParams(location.search).get('vendedor')) renderMain();
+});
+
+(function init() {
+  var p = new URLSearchParams(location.search).get('vendedor');
+  if (p) renderDetalhe(decodeURIComponent(p));
+  else renderMain();
+})();
+
+setTimeout(function() { location.reload(); }, 5 * 60 * 1000);
+</script>
+</body>
+</html>

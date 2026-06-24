@@ -71,6 +71,36 @@ def main():
             print("[AVISO] exportacao_sp falhou — SP ignorado, pipeline continua.")
             traceback.print_exc()
 
+        step("6b - Exportando dashboard ES (vendas_es_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_es.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_es falhou — ES ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_es falhou — ES ignorado, pipeline continua.")
+            traceback.print_exc()
+
+        step("6c - Exportando dashboard MG (vendas_mg_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_mg.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_mg falhou — MG ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_mg falhou — MG ignorado, pipeline continua.")
+            traceback.print_exc()
+
         step("7/9 - Não positivados SP (nao_pos_sp_data.js)")
         try:
             import subprocess, sys as _sys
