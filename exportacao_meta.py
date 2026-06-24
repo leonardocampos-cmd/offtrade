@@ -468,6 +468,7 @@ def _query_hierarquia(schema):
         SELECT
             U.CODUSUR,
             U.NOME           AS NOME_VENDEDOR,
+            U.ESTADO         AS ESTADO_VENDEDOR,
             S.CODSUPERVISOR,
             S.NOME           AS NOME_SUPERVISOR,
             G.CODGERENTE,
@@ -482,6 +483,7 @@ def _query_hierarquia_basic(schema):
     s = schema.upper()
     return f"""
         SELECT CODUSUR, NOME AS NOME_VENDEDOR,
+               NULL AS ESTADO_VENDEDOR,
                NULL AS CODSUPERVISOR,
                NULL AS NOME_SUPERVISOR,
                NULL AS CODGERENTE,
@@ -516,9 +518,12 @@ if _hier_parts:
     _hier = pd.concat(_hier_parts, ignore_index=True)
     _hier['NOME_DISPLAY'] = _hier['NOME_VENDEDOR'].map(_oracle_to_display)
     _hier = _hier[_hier['NOME_DISPLAY'].notna()].drop_duplicates(subset=['NOME_DISPLAY'])
+    if 'ESTADO_VENDEDOR' not in _hier.columns:
+        _hier['ESTADO_VENDEDOR'] = ''
+    _hier['ESTADO_VENDEDOR'] = _hier['ESTADO_VENDEDOR'].fillna('').astype(str).str.strip()
 
     _vh_hier = _vh.merge(
-        _hier[['NOME_DISPLAY', 'NOME_SUPERVISOR', 'NOMEGERENTE', 'EMPRESA']],
+        _hier[['NOME_DISPLAY', 'NOME_SUPERVISOR', 'NOMEGERENTE', 'EMPRESA', 'ESTADO_VENDEDOR']],
         left_on='VENDEDOR', right_on='NOME_DISPLAY', how='left',
     )
     _vh_hier['NOME_SUPERVISOR'] = _vh_hier['NOME_SUPERVISOR'].fillna('Sem Supervisor')
@@ -535,13 +540,14 @@ if _hier_parts:
 
     _emp_dict: dict = {}
     for _, row in _vh_hier.iterrows():
-        emp  = str(row.get('EMPRESA', 'Desconhecido'))
-        ger  = str(row['NOMEGERENTE'])
-        sup  = str(row['NOME_SUPERVISOR'])
-        vend = str(row['VENDEDOR'])
-        mes  = str(row['MES_STR'])
-        fat  = float(row['VALOR'])
-        qt   = int(row['QT'])
+        emp    = str(row.get('EMPRESA', 'Desconhecido'))
+        ger    = str(row['NOMEGERENTE'])
+        sup    = str(row['NOME_SUPERVISOR'])
+        vend   = str(row['VENDEDOR'])
+        mes    = str(row['MES_STR'])
+        fat    = float(row['VALOR'])
+        qt     = int(row['QT'])
+        estado = str(row.get('ESTADO_VENDEDOR', '') or '').strip()
 
         e = _emp_dict.setdefault(emp, {'nome': emp, 'por_mes': {}, 'gerentes': {}})
         em = e['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
@@ -555,7 +561,7 @@ if _hier_parts:
         sm = s_['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
         sm['fat'] = round(sm['fat'] + fat, 2); sm['qt'] += qt
 
-        v_ = s_['vendedores'].setdefault(vend, {'nome': vend, 'rca': _rcas_map.get(vend, ''), 'por_mes': {}})
+        v_ = s_['vendedores'].setdefault(vend, {'nome': vend, 'rca': _rcas_map.get(vend, ''), 'estado': estado, 'por_mes': {}})
         vm = v_['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
         vm['fat'] = round(vm['fat'] + fat, 2); vm['qt'] += qt
 
@@ -566,12 +572,14 @@ if _hier_parts:
             sups_out = []
             for sup_data in sorted(ger_data['supervisores'].values(), key=lambda x: x['nome']):
                 vends_out = sorted(
-                    [{'nome': v['nome'], 'rca': v['rca'], 'por_mes': v['por_mes']}
+                    [{'nome': v['nome'], 'rca': v['rca'], 'estado': v.get('estado', ''), 'por_mes': v['por_mes']}
                      for v in sup_data['vendedores'].values()],
                     key=lambda x: x['nome']
                 )
-                sups_out.append({'nome': sup_data['nome'], 'por_mes': sup_data['por_mes'], 'vendedores': vends_out})
-            gerentes_list.append({'nome': ger_data['nome'], 'por_mes': ger_data['por_mes'], 'supervisores': sups_out})
+                estados_sup = sorted(set(v['estado'] for v in vends_out if v.get('estado')))
+                sups_out.append({'nome': sup_data['nome'], 'estados': estados_sup, 'por_mes': sup_data['por_mes'], 'vendedores': vends_out})
+            estados_ger = sorted(set(e for s in sups_out for e in s.get('estados', [])))
+            gerentes_list.append({'nome': ger_data['nome'], 'estados': estados_ger, 'por_mes': ger_data['por_mes'], 'supervisores': sups_out})
         empresas_out.append({'nome': emp_data['nome'], 'por_mes': emp_data['por_mes'], 'gerentes': gerentes_list})
 
     gerentes_payload = {
