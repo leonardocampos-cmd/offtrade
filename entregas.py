@@ -28,7 +28,7 @@ def _caminho_logistica(d: date) -> str:
     arquivo = f"06 JUNHO - Controle de Notas 2026.xlsx"
     return (
         r"G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO"
-        r"\CONTROLE DE SAÍDAS LOGÍSTICA\Controle de Saídas 2.0 - -"
+        r"\CONTROLE DE NOTAS"
         f"\\{ano}\\{pasta}\\{arquivo}"
     )
 
