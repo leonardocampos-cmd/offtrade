@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "24/06/2026 10:03",
-  "total": 4343,
+  "atualizado_em": "24/06/2026 11:20",
+  "total": 4344,
   "clientes": [
     {
       "codcli": "31683",
@@ -1262,6 +1262,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "95495",
+      "razao": "44.493.539 JONATHAN LOPES DE AGUIAR",
+      "fantasia": "44.493.539 JONATHAN LOPES DE AGUIAR",
+      "bairro": "CATUMBI",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "44.493.539/0001-03",
+      "estado": "RJ",
+      "ramo": "ADEGA",
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50774",
@@ -6430,20 +6444,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "79408",
-      "razao": "ALTAS HORAS DISTRIBUIDORA LTDA",
-      "fantasia": "ALTAS HORAS DISTRIBUIDORA",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "32.211.939/0001-91",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "50239",
       "razao": "ALTAS HORAS MERCEARIA E CONVENIENCIA LTDA",
       "fantasia": "ALTAS HORAS CONVENIENCIA",
@@ -6694,6 +6694,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51282",
+      "razao": "ANA MARIA LUCIO CARNIETTO",
+      "fantasia": "ANA MARIA LUCIO CARNIETTO",
+      "bairro": "VILA PAULISTA",
+      "cidade": "BOTUCATU",
+      "cnpj": "07.864.329/0001-40",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "70947",
