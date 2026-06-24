@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "24/06/2026 10:01",
+  "atualizado_em": "24/06/2026 11:20",
   "data_rota": "24.06",
   "vendedores": [
     {
@@ -55,17 +55,17 @@ const ENTREGAS_DATA = {
               "val": 32.76
             },
             {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 2,
+              "val": 65.52
+            },
+            {
               "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
               "qt": 1,
               "val": 95.9
             },
             {
               "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
-              "qt": 2,
-              "val": 65.52
-            },
-            {
-              "desc": "4 PACK RED BULL ZERO",
               "qt": 2,
               "val": 65.52
             }
@@ -9999,6 +9999,41 @@ const ENTREGAS_DATA = {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "144001584",
+          "numnota": "",
+          "data": "24/06/2026",
+          "cliente": "MERCADO DONA ANA EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 976.8,
+          "itens": [
+            {
+              "desc": "AGUARDENTE OLD CESAR 88 965 ML",
+              "qt": 36,
+              "val": 399.6
+            },
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 36,
+              "val": 450.0
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 1,
+              "val": 63.6
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 63.6
+            }
+          ]
+        },
         {
           "numped": "144001547",
           "numnota": "",
@@ -20398,6 +20433,26 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "379001140",
+          "numnota": "",
+          "data": "24/06/2026",
+          "cliente": "M T FERREIRA DA SILVA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 269.7,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 3,
+              "val": 269.7
+            }
+          ]
+        },
+        {
           "numped": "379001081",
           "numnota": "",
           "data": "08/06/2026",
@@ -28433,6 +28488,26 @@ const ENTREGAS_DATA = {
       "nao_emitido": [],
       "emitido_s_rota": [
         {
+          "numped": "275000559",
+          "numnota": "406316.0",
+          "data": "24/06/2026",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGAR AMANHÃ (25/06)",
+          "total": 13230.0,
+          "itens": [
+            {
+              "desc": "APERITIVO LUCIA 750ML",
+              "qt": 180,
+              "val": 13230.0
+            }
+          ]
+        },
+        {
           "numped": "275000558",
           "numnota": "406051.0",
           "data": "23/06/2026",
@@ -29049,6 +29124,36 @@ const ENTREGAS_DATA = {
       "nome": "MARILENA TRAGEL - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "156003631",
+          "numnota": "",
+          "data": "24/06/2026",
+          "cliente": "POSTO DE BASTECIMENTO GALLENA LAGOA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1124.5,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 20,
+              "val": 418.0
+            },
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 5,
+              "val": 109.5
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 30,
+              "val": 597.0
+            }
+          ]
+        },
         {
           "numped": "156003630",
           "numnota": "",
