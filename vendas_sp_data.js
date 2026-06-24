@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "24/06/2026 11:20",
+  "atualizado_em": "24/06/2026 11:45",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -63348,15 +63348,6 @@ const VENDAS_SP_DATA = {
           "valor": 199.8
         },
         {
-          "data": "20/06/2026",
-          "codcli": "50511",
-          "cliente": "EMPÓRIO MENOS POR CENTO LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 201.6
-        },
-        {
           "data": "22/06/2026",
           "codcli": "50516",
           "cliente": "SUPERMERCADO CLIMAX LTDA",
@@ -82090,9 +82081,9 @@ const VENDAS_SP_DATA = {
     },
     "CARLOS DE ALMEIDA": {
       "Jun/26": {
-        "fat": 76587.66,
+        "fat": 76386.06,
         "pos": 24.0,
-        "fat_pernod": 23003.5,
+        "fat_pernod": 22801.9,
         "fat_crs": 419.58,
         "fat_essenza": 1176.0
       },
