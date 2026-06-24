@@ -34,9 +34,13 @@ _parts_map_rca = [
     carregar_dados("SELECT CODUSUR AS RCA, NOME FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", engine, "map_rca_CRC"),
     carregar_dados("SELECT CODUSUR AS RCA, NOME FROM thekings.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", engine_theking, "map_rca_thekings"),
 ]
-for _s, _e, _n in [("CASTAS", engine_castas, "map_rca_CASTAS"), ("GARRIDO", engine_garrido, "map_rca_GARRIDO"), ("SPON", engine_spon, "map_rca_SPON")]:
+for _s, _e, _n, _extra_f in [
+    ("CASTAS",  engine_castas,  "map_rca_CASTAS",  "NOME LIKE '%OFF TRADE%'"),
+    ("GARRIDO", engine_garrido, "map_rca_GARRIDO", "NOME LIKE '%OFF TRADE%'"),
+    ("SPON",    engine_spon,    "map_rca_SPON",    "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
+]:
     try:
-        _parts_map_rca.append(carregar_dados(f"SELECT CODUSUR AS RCA, NOME FROM {_s}.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", _e, _n))
+        _parts_map_rca.append(carregar_dados(f"SELECT CODUSUR AS RCA, NOME FROM {_s}.PCUSUARI WHERE {_extra_f}", _e, _n))
     except Exception as _ex:
         print(f"[AVISO] {_n} falhou — ignorado")
 map_rca = pd.concat(_parts_map_rca, ignore_index=True)
@@ -54,10 +58,19 @@ metas_com_nome = arquivo.merge(map_rca, on='RCA', how='left')
 
 # ── Vendas históricas (6 meses) com FANTASIA ─────────────────────────────────
 
-def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None):
+def _nome_filter(extra_nomes=None):
+    """Retorna cláusula SQL de filtro por nome, incluindo padrões extras."""
+    base = "U.NOME LIKE '%OFF TRADE%'"
+    if extra_nomes:
+        extras = " OR ".join(f"U.NOME LIKE '{p}'" for p in extra_nomes)
+        return f"({base} OR {extras})"
+    return base
+
+def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extra_nomes=None):
     s = schema.upper()
     extra_filial = f"\n          AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
     extra_estent = f"\n          AND C.ESTENT = '{filtro_estent}'" if filtro_estent else ""
+    nome_f = _nome_filter(extra_nomes)
     return f"""
         SELECT
             TRUNC(M.DTMOV, 'MM')            AS MES,
@@ -80,20 +93,22 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
           AND M.CODOPER IN ('S', 'SB')
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL
-          AND U.NOME LIKE '%OFF TRADE%'{extra_filial}{extra_estent}
+          AND {nome_f}{extra_filial}{extra_estent}
     """
 
+_SPON_EXTRA = ['%W.S%']
+
 _VH_CONFIGS = [
-    ("CRC",     engine,         "vendas_hist_CRC",     "(1, 2, 4)", None,  "CRC"),
-    ("thekings",engine_theking, "vendas_hist_thekings","(1, 2, 4)", None,  "The Kings"),
-    ("CASTAS",  engine_castas,  "vendas_hist_CASTAS",  None,        None,  "Castas"),
-    ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None,        None,  "Garrido"),
-    ("SPON",    engine_spon,    "vendas_hist_SPON",    None,        None,  "SPON"),
+    ("CRC",     engine,         "vendas_hist_CRC",     "(1, 2, 4)", None,  "CRC",       None),
+    ("thekings",engine_theking, "vendas_hist_thekings","(1, 2, 4)", None,  "The Kings", None),
+    ("CASTAS",  engine_castas,  "vendas_hist_CASTAS",  None,        None,  "Castas",    None),
+    ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None,        None,  "Garrido",   None),
+    ("SPON",    engine_spon,    "vendas_hist_SPON",    None,        None,  "SPON",      _SPON_EXTRA),
 ]
 _vh_parts = []
-for _s, _e, _n, _ff, _fe, _emp in _VH_CONFIGS:
+for _s, _e, _n, _ff, _fe, _emp, _en in _VH_CONFIGS:
     try:
-        _df = carregar_dados(_query_vendas_historico(_s, filtro_filial=_ff, filtro_estent=_fe), _e, _n)
+        _df = carregar_dados(_query_vendas_historico(_s, filtro_filial=_ff, filtro_estent=_fe, extra_nomes=_en), _e, _n)
         _df['EMPRESA'] = _emp
         _vh_parts.append(_df)
     except Exception as _ex:
@@ -113,7 +128,13 @@ _rca_to_display = {
     for _, r in metas_com_nome.drop_duplicates(subset=['RCA']).iterrows()
     if pd.notna(r.get('RCA')) and pd.notna(r.get('VENDEDOR'))
 }
-_vh['VENDEDOR'] = _vh['RCA'].map(_rca_to_display)
+# Fallback: usa nome Oracle para RCAs que não estão no arquivo de metas
+_rca_to_nome_oracle = {
+    int(r['RCA']): str(r['NOME'])
+    for _, r in map_rca.dropna(subset=['RCA', 'NOME']).iterrows()
+    if pd.notna(r.get('RCA'))
+}
+_vh['VENDEDOR'] = _vh['RCA'].map(_rca_to_display).fillna(_vh['RCA'].map(_rca_to_nome_oracle))
 _vh = _vh[_vh['VENDEDOR'].notna()].copy()
 _vh['MES_STR'] = _vh['MES'].apply(_mes_pt)
 
@@ -247,11 +268,12 @@ def _realizado_mes(df):
 
 # ── Histórico mensal agregado (para gráficos) ─────────────────────────────────
 
-def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None):
+def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extra_nomes=None):
     s = schema.upper()
     extra_filial = f"\n          AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
     join_cli     = f"\n        JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI" if filtro_estent else ""
     extra_estent = f"\n          AND C.ESTENT = '{filtro_estent}'" if filtro_estent else ""
+    nome_f = _nome_filter(extra_nomes)
     return f"""
         SELECT
             TRUNC(M.DTMOV, 'MM')         AS MES,
@@ -264,7 +286,7 @@ def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None):
           AND M.CODOPER = 'S'
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL
-          AND U.NOME LIKE '%OFF TRADE%'{extra_filial}{extra_estent}
+          AND {nome_f}{extra_filial}{extra_estent}
         GROUP BY TRUNC(M.DTMOV, 'MM'), M.CODUSUR
     """
 
@@ -272,13 +294,13 @@ _hist_parts = [
     carregar_dados(_query_historico("CRC"),      engine,         "historico_CRC"),
     carregar_dados(_query_historico("thekings"), engine_theking, "historico_thekings"),
 ]
-for _s, _e, _n, _fe in [
-    ("CASTAS", engine_castas,  "historico_CASTAS",  None),
-    ("GARRIDO", engine_garrido, "historico_GARRIDO", None),
-    ("SPON",    engine_spon,    "historico_SPON",    None),
+for _s, _e, _n, _fe, _en in [
+    ("CASTAS",  engine_castas,  "historico_CASTAS",  None, None),
+    ("GARRIDO", engine_garrido, "historico_GARRIDO", None, None),
+    ("SPON",    engine_spon,    "historico_SPON",    None, _SPON_EXTRA),
 ]:
     try:
-        _hist_parts.append(carregar_dados(_query_historico(_s, filtro_filial=None, filtro_estent=_fe), _e, _n))
+        _hist_parts.append(carregar_dados(_query_historico(_s, filtro_filial=None, filtro_estent=_fe, extra_nomes=_en), _e, _n))
     except Exception as _ex:
         print(f"[AVISO] {_n} falhou — ignorado")
 _hist_raw = pd.concat(_hist_parts, ignore_index=True)
@@ -471,8 +493,9 @@ print(f"OK vendas_data.js gerado -> {vendas_path}")
 
 # ── Gera gerentes_data.js ─────────────────────────────────────────────────────
 
-def _query_hierarquia(schema):
+def _query_hierarquia(schema, extra_nomes=None):
     s = schema.upper()
+    nome_f = _nome_filter(extra_nomes)
     return f"""
         SELECT
             U.CODUSUR,
@@ -485,11 +508,12 @@ def _query_hierarquia(schema):
         FROM {s}.PCUSUARI U
         LEFT JOIN {s}.PCSUPERV  S ON U.CODSUPERVISOR = S.CODSUPERVISOR
         LEFT JOIN {s}.PCGERENTE G ON S.CODGERENTE     = G.CODGERENTE
-        WHERE U.NOME LIKE '%OFF TRADE%'
+        WHERE {nome_f}
     """
 
-def _query_hierarquia_basic(schema):
+def _query_hierarquia_basic(schema, extra_nomes=None):
     s = schema.upper()
+    nome_f = _nome_filter(extra_nomes).replace('U.NOME', 'NOME')
     return f"""
         SELECT CODUSUR, NOME AS NOME_VENDEDOR,
                NULL AS ESTADO_VENDEDOR,
@@ -498,26 +522,26 @@ def _query_hierarquia_basic(schema):
                NULL AS CODGERENTE,
                NULL AS NOMEGERENTE
         FROM {s}.PCUSUARI
-        WHERE NOME LIKE '%OFF TRADE%'
+        WHERE {nome_f}
     """
 
 _HIER_CONFIGS = [
-    ("CRC",     engine,         "hier_CRC",     "CRC"),
-    ("thekings",engine_theking, "hier_thekings","The Kings"),
-    ("CASTAS",  engine_castas,  "hier_CASTAS",  "Castas"),
-    ("GARRIDO", engine_garrido, "hier_GARRIDO", "Garrido"),
-    ("SPON",    engine_spon,    "hier_SPON",    "SPON"),
+    ("CRC",     engine,         "hier_CRC",     "CRC",       None),
+    ("thekings",engine_theking, "hier_thekings","The Kings", None),
+    ("CASTAS",  engine_castas,  "hier_CASTAS",  "Castas",    None),
+    ("GARRIDO", engine_garrido, "hier_GARRIDO", "Garrido",   None),
+    ("SPON",    engine_spon,    "hier_SPON",    "SPON",      _SPON_EXTRA),
 ]
 
 _hier_parts = []
-for _s, _e, _n, _emp in _HIER_CONFIGS:
+for _s, _e, _n, _emp, _en in _HIER_CONFIGS:
     try:
-        _df = carregar_dados(_query_hierarquia(_s), _e, _n)
+        _df = carregar_dados(_query_hierarquia(_s, extra_nomes=_en), _e, _n)
         _df['EMPRESA'] = _emp
         _hier_parts.append(_df)
     except Exception:
         try:
-            _df = carregar_dados(_query_hierarquia_basic(_s), _e, f"{_n}_basic")
+            _df = carregar_dados(_query_hierarquia_basic(_s, extra_nomes=_en), _e, f"{_n}_basic")
             _df['EMPRESA'] = _emp
             _hier_parts.append(_df)
         except Exception as _ex2:
@@ -533,42 +557,48 @@ if _hier_parts:
     # Um RCA por empresa (sem ambiguidade de nome)
     _hier = _hier.drop_duplicates(subset=['CODUSUR', 'EMPRESA'])
 
-    # Merge por RCA + EMPRESA — cada schema usa sua própria hierarquia
-    _vh_hier = _vh.merge(
-        _hier[['CODUSUR', 'NOME_SUPERVISOR', 'NOMEGERENTE', 'EMPRESA', 'ESTADO_VENDEDOR']],
-        left_on=['RCA', 'EMPRESA'], right_on=['CODUSUR', 'EMPRESA'], how='left',
-    )
-    _vh_hier['NOME_SUPERVISOR'] = _vh_hier['NOME_SUPERVISOR'].fillna('Sem Supervisor')
-    _vh_hier['NOMEGERENTE']     = _vh_hier['NOMEGERENTE'].fillna('Sem Gerente')
-    if 'EMPRESA' not in _vh_hier.columns:
-        _vh_hier['EMPRESA'] = 'Desconhecido'
-
+    # Itera pelos vendedores OFF TRADE e busca as vendas de cada um
     _emp_dict: dict = {}
-    for _, row in _vh_hier.iterrows():
-        emp    = str(row.get('EMPRESA', 'Desconhecido'))
-        ger    = str(row['NOMEGERENTE'])
-        sup    = str(row['NOME_SUPERVISOR'])
-        vend   = str(row['VENDEDOR'])
-        mes    = str(row['MES_STR'])
-        fat    = float(row['VALOR'])
-        qt     = int(row['QT'])
-        estado = str(row.get('ESTADO_VENDEDOR', '') or '').strip()
 
-        e = _emp_dict.setdefault(emp, {'nome': emp, 'por_mes': {}, 'gerentes': {}})
-        em = e['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
-        em['fat'] = round(em['fat'] + fat, 2); em['qt'] += qt
+    for _, hier_row in _hier.iterrows():
+        rca_num = hier_row['CODUSUR']
+        if pd.isna(rca_num):
+            continue
+        rca_int      = int(rca_num)
+        nome_display = _rca_to_display.get(rca_int) or _rca_to_nome_oracle.get(rca_int)
+        if not nome_display:
+            continue
 
-        g = e['gerentes'].setdefault(ger, {'nome': ger, 'por_mes': {}, 'supervisores': {}})
-        gm = g['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
-        gm['fat'] = round(gm['fat'] + fat, 2); gm['qt'] += qt
+        empresa = str(hier_row.get('EMPRESA', 'Desconhecido') or 'Desconhecido')
+        ger     = str(hier_row.get('NOMEGERENTE',    '') or '') or 'Sem Gerente'
+        sup     = str(hier_row.get('NOME_SUPERVISOR','') or '') or 'Sem Supervisor'
+        estado  = str(hier_row.get('ESTADO_VENDEDOR','') or '').strip()
 
+        # Vendas deste RCA nesta empresa
+        mask        = (_vh['RCA'] == rca_num) & (_vh['EMPRESA'] == empresa)
+        vend_sales  = _vh[mask]
+        por_mes_vend = {}
+        for mes_str, grp in vend_sales.groupby('MES_STR'):
+            por_mes_vend[str(mes_str)] = {
+                'fat': round(float(grp['VALOR'].sum()), 2),
+                'qt':  int(grp['QT'].sum()),
+            }
+
+        e  = _emp_dict.setdefault(empresa, {'nome': empresa, 'por_mes': {}, 'gerentes': {}})
+        g  = e['gerentes'].setdefault(ger, {'nome': ger, 'por_mes': {}, 'supervisores': {}})
         s_ = g['supervisores'].setdefault(sup, {'nome': sup, 'por_mes': {}, 'vendedores': {}})
-        sm = s_['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
-        sm['fat'] = round(sm['fat'] + fat, 2); sm['qt'] += qt
+        s_['vendedores'][nome_display] = {
+            'nome':    nome_display,
+            'rca':     str(rca_int),
+            'estado':  estado,
+            'por_mes': por_mes_vend,
+        }
 
-        v_ = s_['vendedores'].setdefault(vend, {'nome': vend, 'rca': _rcas_map.get(vend, ''), 'estado': estado, 'por_mes': {}})
-        vm = v_['por_mes'].setdefault(mes, {'fat': 0.0, 'qt': 0})
-        vm['fat'] = round(vm['fat'] + fat, 2); vm['qt'] += qt
+        for mes_str, val in por_mes_vend.items():
+            for d in (e['por_mes'], g['por_mes'], s_['por_mes']):
+                m = d.setdefault(mes_str, {'fat': 0.0, 'qt': 0})
+                m['fat'] = round(m['fat'] + val['fat'], 2)
+                m['qt'] += val['qt']
 
     empresas_out = []
     for emp_data in sorted(_emp_dict.values(), key=lambda x: x['nome']):
@@ -576,13 +606,9 @@ if _hier_parts:
         for ger_data in sorted(emp_data['gerentes'].values(), key=lambda x: x['nome']):
             sups_out = []
             for sup_data in sorted(ger_data['supervisores'].values(), key=lambda x: x['nome']):
-                vends_out = sorted(
-                    [{'nome': v['nome'], 'rca': v['rca'], 'estado': v.get('estado', ''), 'por_mes': v['por_mes']}
-                     for v in sup_data['vendedores'].values()],
-                    key=lambda x: x['nome']
-                )
+                vends_out = sorted(sup_data['vendedores'].values(), key=lambda x: x['nome'])
                 estados_sup = sorted(set(v['estado'] for v in vends_out if v.get('estado')))
-                sups_out.append({'nome': sup_data['nome'], 'estados': estados_sup, 'por_mes': sup_data['por_mes'], 'vendedores': vends_out})
+                sups_out.append({'nome': sup_data['nome'], 'estados': estados_sup, 'por_mes': sup_data['por_mes'], 'vendedores': list(vends_out)})
             estados_ger = sorted(set(e for s in sups_out for e in s.get('estados', [])))
             gerentes_list.append({'nome': ger_data['nome'], 'estados': estados_ger, 'por_mes': ger_data['por_mes'], 'supervisores': sups_out})
         empresas_out.append({'nome': emp_data['nome'], 'por_mes': emp_data['por_mes'], 'gerentes': gerentes_list})
