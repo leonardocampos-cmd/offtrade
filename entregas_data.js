@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "24/06/2026 09:58",
+  "atualizado_em": "24/06/2026 10:01",
   "data_rota": "24.06",
   "vendedores": [
     {
