@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "24/06/2026 12:16",
+  "atualizado_em": "24/06/2026 13:43",
   "data_rota": "24.06",
   "vendedores": [
     {
@@ -20593,17 +20593,12 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 274.8,
+          "total": 141.6,
           "itens": [
             {
               "desc": "RC ATUM RALADO OLEO 24X140G",
               "qt": 1,
               "val": 141.6
-            },
-            {
-              "desc": "VANISH LIQUIDO PINK REFIL 12X500ML",
-              "qt": 1,
-              "val": 133.2
             }
           ]
         },
@@ -20634,6 +20629,26 @@ const ENTREGAS_DATA = {
               "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
               "qt": 5,
               "val": 326.4
+            }
+          ]
+        },
+        {
+          "numped": "379001144",
+          "numnota": "",
+          "data": "24/06/2026",
+          "cliente": "63.544.348 ALEXANDRE PEREIRA MARTINS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 133.2,
+          "itens": [
+            {
+              "desc": "VANISH LIQUIDO PINK REFIL 12X500ML",
+              "qt": 1,
+              "val": 133.2
             }
           ]
         },
