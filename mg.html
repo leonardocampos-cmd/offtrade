@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OFF TRADE MG</title>
   <script src="vendas_mg_data.js"></script>
+  <script src="nao_pos_mg_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -101,7 +102,8 @@
 <div id="app"></div>
 
 <script>
-var D = (typeof VENDAS_MG_DATA !== 'undefined') ? VENDAS_MG_DATA : null;
+var D   = (typeof VENDAS_MG_DATA   !== 'undefined') ? VENDAS_MG_DATA   : null;
+var NP  = (typeof NAO_POS_MG_DATA !== 'undefined') ? NAO_POS_MG_DATA  : null;
 
 function fmt(v) {
   return 'R$ ' + Number(v).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
@@ -161,6 +163,40 @@ function copiarLink(nome, btn) {
   });
 }
 
+function exportarNaoPosCSV(nome) {
+  var npList = (NP && NP.por_vendedor && NP.por_vendedor[nome]) || [];
+  if (!npList.length) return;
+  var sep = ';', rows = ['Codigo;Cliente;Bairro;Ultima Compra;Produto;Fornecedor;Qtde;Valor (R$)'];
+  npList.forEach(function(cli) {
+    var base = cli.codcli+sep+cli.cliente+sep+(cli.bairro||'')+sep+(cli.dtultcomp||'');
+    if (cli.produtos && cli.produtos.length) {
+      cli.produtos.forEach(function(p){rows.push(base+sep+(p.produto||'')+sep+(p.fantasia||'')+sep+p.qt+sep+Number(p.valor).toFixed(2).replace('.',','));});
+    } else { rows.push(base+sep+''+sep+''+sep+''+sep+''); }
+  });
+  var a = document.createElement('a'); a.href = URL.createObjectURL(new Blob(['﻿'+rows.join('\r\n')],{type:'text/csv;charset=utf-8;'}));
+  a.download = 'nao_pos_MG_'+nome.replace(/\s+/g,'_')+'.csv';
+  document.body.appendChild(a); a.click(); setTimeout(function(){document.body.removeChild(a);},500);
+}
+
+function buildNaoPos(npList, prefix) {
+  if (!npList || !npList.length)
+    return '<div style="color:var(--green);font-size:.85rem;padding:8px 0">Todos os clientes positivados ✓</div>';
+  npList = npList.slice().sort(function(a,b){ var pa=(a.dtultcomp||'').split('/'),pb=(b.dtultcomp||'').split('/'); return new Date(pa[2],pa[1]-1,pa[0])-new Date(pb[2],pb[1]-1,pb[0]); });
+  return npList.map(function(cli,i){
+    var cliId = prefix+'-cli-'+i, nP = cli.produtos?cli.produtos.length:0;
+    var prodsHtml = nP>0
+      ? '<div id="'+cliId+'" class="np-prods"><table class="tbl"><thead><tr><th>Produto / Fornecedor</th><th class="td-right">Qtde</th><th class="td-right">Valor</th></tr></thead><tbody>'+
+        cli.produtos.map(function(p){return '<tr><td><div>'+(p.produto||'—')+'</div><div class="td-muted" style="font-size:.7rem">'+(p.fantasia||'')+'</div></td><td class="td-right td-muted">'+p.qt+'</td><td class="td-right">'+fmt(p.valor)+'</td></tr>';}).join('')+
+        '</tbody></table></div>'
+      : '<div id="'+cliId+'" class="np-prods" style="color:var(--muted);font-size:.78rem">Sem produtos registrados.</div>';
+    return '<div class="np-cli-row" onclick="toggleCli(\''+cliId+'\')">'+
+      '<div><span class="np-cli-name">'+(cli.cliente||'—')+'</span><div style="font-size:.7rem;color:var(--muted)">'+(cli.codcli?'#'+cli.codcli+(cli.bairro?' · '+cli.bairro:''):(cli.bairro||''))+'</div></div>'+
+      '<div style="display:flex;align-items:center"><span class="np-cli-date">'+(cli.dtultcomp||'')+'</span>'+
+      (nP>0?'<span id="'+cliId+'-ic" class="np-cli-ic">▼</span>':'')+
+      '</div></div>'+prodsHtml;
+  }).join('');
+}
+
 function exportarCSV(nome) {
   var mes  = document.getElementById('sel-mes-det').value;
   var lista = (D.por_vendedor[nome] || {})[mes] || [];
@@ -179,12 +215,15 @@ function _buildVendorCards(mes) {
   if (!D) return '';
   var nomes = Object.keys(D.por_vendedor || {});
   if (!nomes.length) return '<div class="no-data">Nenhum vendedor encontrado.</div>';
-  return nomes.sort().map(function(nome) {
-    var res  = (D.resumo && D.resumo[nome] && D.resumo[nome][mes]) || {};
-    var fat  = res.fat     || 0;
-    var ant  = res.fat_ant || 0;
-    var pos  = res.pos     || 0;
-    var rca  = D.rcas && D.rcas[nome] ? 'RCA ' + D.rcas[nome] : 'MG';
+  return nomes.sort().map(function(nome, idx) {
+    var res    = (D.resumo && D.resumo[nome] && D.resumo[nome][mes]) || {};
+    var fat    = res.fat     || 0;
+    var ant    = res.fat_ant || 0;
+    var pos    = res.pos     || 0;
+    var rca    = D.rcas && D.rcas[nome] ? 'RCA ' + D.rcas[nome] : 'MG';
+    var npList = (NP && NP.por_vendedor && NP.por_vendedor[nome]) || [];
+    var nNP    = npList.length;
+    var secId  = 'card-np-' + idx;
     return '<div class="vendor-card" data-nome="' + nome.toLowerCase() + '">' +
       '<div class="vendor-name">' + nome + '</div>' +
       '<div class="vendor-sub">' + rca + '</div>' +
@@ -192,8 +231,18 @@ function _buildVendorCards(mes) {
         '<span class="stat-val">' + fmt(fat) + varHtml(fat, ant) + '</span></div>' +
       '<div class="stat-row"><span class="stat-label">Mes anterior</span>' +
         '<span class="stat-val" style="color:var(--muted)">' + fmt(ant) + '</span></div>' +
-      '<div class="stat-row" style="border-bottom:none"><span class="stat-label">Positivados</span>' +
+      '<div class="stat-row"><span class="stat-label">Positivados</span>' +
         '<span class="stat-val">' + pos + '</span></div>' +
+      '<div class="sec-header" onclick="toggleSec(\''+secId+'\')" style="padding:6px 0;margin-top:4px">' +
+        '<span class="sec-title">Nao positivados</span>' +
+        '<div style="display:flex;align-items:center;gap:6px">' +
+          '<span style="font-weight:600;font-size:.8rem;color:'+(nNP>0?'var(--red)':'var(--green)')+'">'+nNP+'</span>' +
+          '<span id="'+secId+'-ic" class="sec-ic">▼</span>' +
+        '</div></div>' +
+      '<div id="'+secId+'" class="sec-body" style="padding-top:6px">' +
+        (nNP>0?'<div style="text-align:right;margin-bottom:6px"><button class="btn btn-dl" style="font-size:.72rem;padding:4px 10px" onclick="exportarNaoPosCSV(\''+nome.replace(/'/g,"\\'")+'\')">&#8595; CSV</button></div>':'') +
+        buildNaoPos(npList, secId) +
+      '</div>' +
       '<div class="card-actions" style="gap:8px">' +
         '<button class="btn" onclick="copiarLink(\'' + nome.replace(/'/g,"\\'") + '\',this)">&#128279; Link</button>' +
         '<button class="btn btn-primary" onclick="renderDetalhe(\'' + nome.replace(/'/g,"\\'") + '\')">Ver vendas</button>' +

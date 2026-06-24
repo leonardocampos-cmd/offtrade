@@ -101,7 +101,7 @@ def main():
             print("[AVISO] exportacao_mg falhou — MG ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("7/9 - Não positivados SP (nao_pos_sp_data.js)")
+        step("7/9 - Nao positivados SP (nao_pos_sp_data.js)")
         try:
             import subprocess, sys as _sys
             result = subprocess.run(
@@ -114,6 +114,36 @@ def main():
                 print(result.stderr)
         except Exception:
             print("[AVISO] exportacao_nao_pos_sp falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
+        step("7b - Nao positivados ES (nao_pos_es_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_nao_pos_es.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_nao_pos_es falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_nao_pos_es falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
+        step("7c - Nao positivados MG (nao_pos_mg_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_nao_pos_mg.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_nao_pos_mg falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_nao_pos_mg falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
         step("8/9 - Base de clientes por RCA (clientes_rca_data.js)")
