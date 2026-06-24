@@ -131,7 +131,7 @@ def main():
             print("[AVISO] exportacao_vendedores_auth falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("9/9 - Alertas Logística RJ (Gmail → não entregues)")
+        step("9/9 - Alertas Logistica RJ (Gmail -> nao entregues)")
         try:
             import subprocess, sys as _sys
             result = subprocess.run(
