@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "24/06/2026 16:14",
-  "total": 4359,
+  "atualizado_em": "24/06/2026 16:42",
+  "total": 4360,
   "clientes": [
     {
       "codcli": "31683",
@@ -26570,6 +26570,20 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "52.603.645/0001-12",
       "estado": "RJ",
       "ramo": "MERCADO",
+      "codusur1": "156",
+      "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "93635",
+      "razao": "INSTITUTO DEMOLINARI DE SERVICOS MEDICOS LTDA",
+      "fantasia": "INSTITUTO DEMOLINARI - CAMPO GRANDE",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "22.693.780/0001-35",
+      "estado": "RJ",
+      "ramo": "OUTROS",
       "codusur1": "156",
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "",
@@ -57748,8 +57762,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "24.423.484/0001-40",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "470",
-      "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
+      "codusur1": "469",
+      "nome_usur1": "PATRICIA RAMOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
