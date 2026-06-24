@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "24/06/2026 09:31",
+  "atualizado_em": "24/06/2026 09:58",
   "data_rota": "24.06",
   "vendedores": [
     {
@@ -28,6 +28,46 @@ const ENTREGAS_DATA = {
               "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
               "qt": 1,
               "val": 299.88
+            }
+          ]
+        },
+        {
+          "numped": "431001080",
+          "numnota": "",
+          "data": "24/06/2026",
+          "cliente": "MSP COM ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 292.46,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL SUGAR FREE",
+              "qt": 1,
+              "val": 32.76
+            },
+            {
+              "desc": "4 PACK RED BULL MORANGO PESSEGO",
+              "qt": 1,
+              "val": 32.76
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+              "qt": 1,
+              "val": 95.9
+            },
+            {
+              "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
+              "qt": 2,
+              "val": 65.52
+            },
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 2,
+              "val": 65.52
             }
           ]
         },
@@ -4876,6 +4916,11 @@ const ENTREGAS_DATA = {
           "total": 273.62,
           "itens": [
             {
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 3,
+              "val": 114.54
+            },
+            {
               "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
               "qt": 1,
               "val": 38.18
@@ -4884,11 +4929,6 @@ const ENTREGAS_DATA = {
               "desc": "AGUA DE COCO TIAL 12X1000ML",
               "qt": 1,
               "val": 120.9
-            },
-            {
-              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-              "qt": 3,
-              "val": 114.54
             }
           ]
         },
