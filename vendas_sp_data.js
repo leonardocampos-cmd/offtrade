@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "24/06/2026 16:04",
+  "atualizado_em": "24/06/2026 16:13",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -36540,33 +36540,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 120,
           "valor": 11988.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "49476",
-          "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 120,
-          "valor": 11988.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "49476",
-          "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L",
-          "fantasia": "BROWN",
-          "qt": 60,
-          "valor": 5994.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "49476",
-          "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
-          "fantasia": "BROWN",
-          "qt": 444,
-          "valor": 3696.3
         },
         {
           "data": "22/06/2026",
@@ -82597,7 +82570,7 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2206591.04,
+        "fat": 2184912.74,
         "pos": 136.0,
         "fat_pernod": 1127931.44,
         "fat_crs": 38940.72
