@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "24/06/2026 14:03",
-  "total": 4351,
+  "atualizado_em": "24/06/2026 14:11",
+  "total": 4350,
   "clientes": [
     {
       "codcli": "31683",
@@ -20988,20 +20988,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "24120",
-      "razao": "EMPORIO M & L COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-      "fantasia": "CIA DO WHISKY",
-      "bairro": "PARQUE ALEXANDRE",
-      "cidade": "COTIA",
-      "cnpj": "09.640.611/0002-50",
-      "estado": "SP",
-      "ramo": "EMPORIO/BAZAR",
-      "codusur1": "426",
-      "nome_usur1": "ADER ALONSO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "26149",
