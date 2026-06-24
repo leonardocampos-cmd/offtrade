@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "24/06/2026 10:03",
+  "atualizado_em": "24/06/2026 11:20",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -43014,15 +43014,6 @@ const VENDAS_SP_DATA = {
           "data": "17/06/2026",
           "codcli": "49448",
           "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "BROWN",
-          "qt": 167,
-          "valor": 16683.3
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "49448",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
           "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
           "fantasia": "PERNOD",
           "qt": 60,
@@ -47393,6 +47384,204 @@ const VENDAS_SP_DATA = {
           "valor": 1548.0
         },
         {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 669.6
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "GIN BEEFEATER PINK 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 778.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "GIN TANQUERAY ROYALE 700 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 510.87
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "LICOR COINTREAU 700 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 12,
+          "valor": 1078.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "RUM BACARDI CARTA BLANCA 980ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 826.08
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "RUM BACARDI LIMON 700ML",
+          "fantasia": "BACARDI",
+          "qt": 9,
+          "valor": 297.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "RUM MALIBU 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 257.4
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 239.76
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 250.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 501.6
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "AURORA",
+          "qt": 12,
+          "valor": 1006.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 358.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 338.28
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 60,
+          "valor": 1860.6
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 1976.4
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 3534.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "GLENMORANGIE QUINTA RUBAN 750ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 6,
+          "valor": 1987.15
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "WHISKY JAMESON CASKMATES IPA 750ML",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 2737.28
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 12,
+          "valor": 754.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 12,
+          "valor": 754.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 1242.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33272",
+          "cliente": "SACOLAO CORIOLANO LTDA.",
+          "produto": "WHISKY ROYAL SALUTE MALT 700ML",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 1739.7
+        },
+        {
           "data": "10/06/2026",
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
@@ -47634,6 +47823,123 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 18,
           "valor": 10258.2
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 706.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 694.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 12,
+          "valor": 1006.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "VODKA ABSOLUT 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 598.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "LICOR COINTREAU 700 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 12,
+          "valor": 1078.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "RUM BACARDI CARTA BLANCA 980ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 413.04
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "RUM MALIBU 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 257.4
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 250.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 250.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "48277",
+          "cliente": "SACOLAO PIO XI LTDA.",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 501.6
         },
         {
           "data": "09/06/2026",
@@ -66713,11 +67019,38 @@ const VENDAS_SP_DATA = {
           "valor": 12418.2
         },
         {
+          "data": "24/06/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "MOET IMPERIAL RESERVE BRUT 750 ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 160,
+          "valor": 43184.0
+        },
+        {
           "data": "23/06/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "WHISKY ROYAL SALUTE 700ML",
           "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 7102.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "WHISKY ROYAL SALUTE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 6718.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 12,
           "valor": 7102.8
         },
@@ -81642,9 +81975,9 @@ const VENDAS_SP_DATA = {
   "realizado": {
     "VIVIANI ALVES": {
       "Jun/26": {
-        "fat": 110028.4,
+        "fat": 167034.0,
         "pos": 2.0,
-        "fat_pernod": 7102.8
+        "fat_pernod": 13821.6
       },
       "Mai/26": {
         "fat": 126780.4,
@@ -81793,10 +82126,10 @@ const VENDAS_SP_DATA = {
     },
     "ANDRE SILVA": {
       "Jun/26": {
-        "fat": 106960.44,
-        "pos": 14.0,
-        "fat_pernod": 68466.26,
-        "fat_crs": 2936.52
+        "fat": 137677.8,
+        "pos": 15.0,
+        "fat_pernod": 86671.24,
+        "fat_crs": 3176.28
       },
       "Mai/26": {
         "fat": 248776.43,
@@ -81875,7 +82208,7 @@ const VENDAS_SP_DATA = {
     },
     "ADER ALONSO": {
       "Jun/26": {
-        "fat": 386801.06,
+        "fat": 370117.76,
         "pos": 33.0,
         "fat_pernod": 174258.4,
         "fat_crs": 377.64
