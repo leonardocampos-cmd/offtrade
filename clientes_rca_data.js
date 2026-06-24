@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "24/06/2026 12:17",
-  "total": 4347,
+  "atualizado_em": "24/06/2026 13:44",
+  "total": 4352,
   "clientes": [
     {
       "codcli": "31683",
@@ -13270,8 +13270,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "05.820.332/0003-06",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "425",
-      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -18134,6 +18134,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51288",
+      "razao": "DISTRIBUIDORA DE ALIMENTOS BARCELONA LTDA",
+      "fantasia": "DISTRIBUIDORA DE ALIMENTOS BARCELONA",
+      "bairro": "CAMPANARIO",
+      "cidade": "DIADEMA",
+      "cnpj": "44.679.830/0001-62",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "49378",
       "razao": "DISTRIBUIDORA DE ALIMENTOS RAMOS DE PAULA LTDA",
       "fantasia": "DISTRIBUIDORA ATACADISTA E VAREJISTA BEER HOUSE",
@@ -22670,6 +22684,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ZEINALDO DE OLIVEIRA - OFF TRADE"
     },
     {
+      "codcli": "20498",
+      "razao": "FERA COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "FERA BEBIDAS",
+      "bairro": "PARQUE BOLOGNE",
+      "cidade": "SAO PAULO",
+      "cnpj": "36.272.905/0001-68",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "90880",
       "razao": "FERNANDO DOS SANTOS LOCACOES DE ARTIGOS PARA FESTA",
       "fantasia": "ARTIGOS PARA FESTA - QUISSAMA",
@@ -22822,6 +22850,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "170",
       "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
+    },
+    {
+      "codcli": "40362",
+      "razao": "FIDALGO GOUVEIA E CIA LTDA",
+      "fantasia": "FIDALGO GOUVEIA E CIA",
+      "bairro": "VILA MOGILAR",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "44.300.978/0001-44",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "47840",
@@ -23744,6 +23786,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "463",
       "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "48232",
+      "razao": "G.K.L. MERCEARIA LTDA",
+      "fantasia": "G.K.L. MERCEARIA",
+      "bairro": "CENTRO",
+      "cidade": "SAO PAULO",
+      "cnpj": "36.245.844/0001-40",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -27890,6 +27946,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ICARO DA SILVA",
       "codusur2": "433",
       "nome_usur2": "MANUELA ZAPPACOSTA - OFF TRADE"
+    },
+    {
+      "codcli": "27382",
+      "razao": "JJ MERCADO LTDA",
+      "fantasia": "ADEGA ALTAS HORAS",
+      "bairro": "JARDIM SAO PAULO",
+      "cidade": "SAO PAULO",
+      "cnpj": "45.154.423/0001-02",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "17067",
@@ -44958,20 +45028,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "72443",
-      "razao": "PATI GI SUPERMERCADOS LTDA",
-      "fantasia": "PATI GI SUPERMERCADOS",
-      "bairro": "ENSEADA DO SUA",
-      "cidade": "VITORIA",
-      "cnpj": "29.615.313/0006-40",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "260",
-      "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "72445",
       "razao": "PATI GI SUPERMERCADOS LTDA",
       "fantasia": "MARKET EXPRESS",
@@ -44982,6 +45038,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "257",
       "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "71238",
+      "razao": "PATI GI SUPERMERCADOS LTDA",
+      "fantasia": "PATI GI SUPERMERCADOS",
+      "bairro": "PRAIA DO CANTO",
+      "cidade": "VITORIA",
+      "cnpj": "29.615.313/0005-60",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "260",
+      "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
@@ -58280,8 +58350,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "58.138.299/0001-25",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "468",
-      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
