@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "25/06/2026 11:00",
+  "atualizado_em": "25/06/2026 11:05",
   "meses": [
     "Jun/26"
   ],
@@ -20114,15 +20114,23 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "90903",
-          "CLIENTE": "ADL BARIGUI LTDA",
-          "BAIRROENT": "MOSSUNGUE",
+          "CODCLI": "90717",
+          "CLIENTE": "BONATO & BONATO LTDA",
+          "BAIRROENT": "REBOUCAS",
           "DTULTCOMP": "12/06/2026",
           "produtos": [
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
-            },
+            }
+          ]
+        },
+        {
+          "CODCLI": "90903",
+          "CLIENTE": "ADL BARIGUI LTDA",
+          "BAIRROENT": "MOSSUNGUE",
+          "DTULTCOMP": "12/06/2026",
+          "produtos": [
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
@@ -20134,15 +20142,7 @@ const METAS_DATA = {
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "90717",
-          "CLIENTE": "BONATO & BONATO LTDA",
-          "BAIRROENT": "REBOUCAS",
-          "DTULTCOMP": "12/06/2026",
-          "produtos": [
+            },
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
