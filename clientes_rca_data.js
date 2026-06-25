@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "25/06/2026 14:45",
-  "total": 4375,
+  "atualizado_em": "25/06/2026 15:10",
+  "total": 4379,
   "clientes": [
     {
       "codcli": "31683",
@@ -4858,6 +4858,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ADEGA",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51317",
+      "razao": "ADEGA DISTRIBUIDORA DE BEBIDAS SEM LIMITES LTDA",
+      "fantasia": "ADEGA DISTRIBUIDORA SEM LIMITES",
+      "bairro": "JARDIM SAO PEDRO",
+      "cidade": "SAO PAULO",
+      "cnpj": "57.660.050/0001-12",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -25134,6 +25148,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51318",
+      "razao": "GREEN CERVEJA E CIA LTDA",
+      "fantasia": "GREEN CERVEJA E CIA",
+      "bairro": "JARDIM ELDORADO",
+      "cidade": "IBITINGA",
+      "cnpj": "32.887.451/0001-89",
+      "estado": "SP",
+      "ramo": "CONVENIENCIA",
+      "codusur1": "498",
+      "nome_usur1": "CELSO OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "31047",
       "razao": "GRELHADOS DO MAR RESTAURANTE LTDA",
       "fantasia": "TRAGGA DEL MAR",
@@ -42032,6 +42060,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51316",
+      "razao": "NILSON PEREZ DE SOUZA SUPERMERCADO",
+      "fantasia": "EMILE SUPERMERCADO",
+      "bairro": "PARQUE AMERICA",
+      "cidade": "RIO GRANDE DA SERRA",
+      "cnpj": "29.792.554/0001-50",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "86020",
       "razao": "NINA PASTA & BASTA RESTAURANTE LTDA",
       "fantasia": "NINA PASTA & BASTA RESTAURANTE",
@@ -45278,6 +45320,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAQUEL ARAUJO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "85351",
+      "razao": "PATRICK CARDOSO CASSIMIRO 10535734727",
+      "fantasia": "PATRICK CARDOSO CASSIMIRO",
+      "bairro": "RESERVA DO PERO",
+      "cidade": "CABO FRIO",
+      "cnpj": "45.453.480/0001-84",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "2192",
