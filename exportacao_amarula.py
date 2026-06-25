@@ -71,7 +71,7 @@ for _s, _e, _pfx, _fe, _ff in [
     except Exception as _ex:
         print(f"[AVISO] amarula_{_s} falhou ({str(_ex)[:80]}) — ignorado")
 
-EXCLUIR_VENDEDORES = {"RC", "VENDEDOR 09", "BEES"}
+EXCLUIR_VENDEDORES = {"RC", "VENDEDOR 09", "BEES", "VENDEDOR 02", "KELLY RAMOS - OFF TRADE", "RQ", "LOJA", "BEBIDA IN BOX"}
 
 df = pd.concat(_parts_am, ignore_index=True)
 df['VALOR'] = pd.to_numeric(df['VALOR'], errors='coerce').fillna(0)
