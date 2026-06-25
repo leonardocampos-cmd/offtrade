@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "25/06/2026 10:03",
-  "total": 4365,
+  "atualizado_em": "25/06/2026 10:59",
+  "total": 4366,
   "clientes": [
     {
       "codcli": "31683",
@@ -53115,7 +53115,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "488",
-      "nome_usur1": "ADRIANO VEZZANI \n- OFF TRADE",
+      "nome_usur1": "ADRIANO VEZZANI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -53269,7 +53269,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "488",
-      "nome_usur1": "ADRIANO VEZZANI \n- OFF TRADE",
+      "nome_usur1": "ADRIANO VEZZANI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -55962,6 +55962,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51306",
+      "razao": "SUPERMERCADO SANTANA DE AMPARO LTDA",
+      "fantasia": "SUPERMERCADO SANTANA DE AMPARO",
+      "bairro": "CENTRO",
+      "cidade": "AMPARO",
+      "cnpj": "05.556.791/0001-54",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50850",
       "razao": "SUPERMERCADO SANTO ANTONIO DE SOUZA LTDA",
       "fantasia": "SUPERMERCADO SANTO ANTONIO DE SOUZA",
@@ -58633,7 +58647,7 @@ const CLIENTES_RCA_DATA = {
       "codusur1": "588",
       "nome_usur1": "W.S",
       "codusur2": "488",
-      "nome_usur2": "ADRIANO VEZZANI \n- OFF TRADE"
+      "nome_usur2": "ADRIANO VEZZANI - OFF TRADE"
     },
     {
       "codcli": "51042",
@@ -58645,7 +58659,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "488",
-      "nome_usur1": "ADRIANO VEZZANI \n- OFF TRADE",
+      "nome_usur1": "ADRIANO VEZZANI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -58687,7 +58701,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "488",
-      "nome_usur1": "ADRIANO VEZZANI \n- OFF TRADE",
+      "nome_usur1": "ADRIANO VEZZANI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -58701,7 +58715,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "488",
-      "nome_usur1": "ADRIANO VEZZANI \n- OFF TRADE",
+      "nome_usur1": "ADRIANO VEZZANI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
