@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "25/06/2026 17:02",
+  "atualizado_em": "25/06/2026 18:31",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -5059,16 +5059,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "17484",
-        "cliente": "MERCADO ADONAI DE INHOAIBA LTDA",
-        "bairro": "INHOAIBA",
+        "codcli": "95515",
+        "cliente": "DROGARIA ROMEIROS LTDA",
+        "bairro": "RAMOS",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "93381",
-        "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "CAMPO GRANDE",
+        "codcli": "17484",
+        "cliente": "MERCADO ADONAI DE INHOAIBA LTDA",
+        "bairro": "INHOAIBA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5104,6 +5104,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "93380",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "KM 32",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "93381",
+        "cliente": "SUPERMERCADOS ADONAI LTDA",
+        "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8514,32 +8521,6 @@ const NAO_POS_ES_DATA = {
     ],
     "GISELLE BARFER": [
       {
-        "codcli": "81888",
-        "cliente": "ORLA BELLA BUZIOS RESTAURANTE LTDA",
-        "bairro": "HUMAITA",
-        "dtultcomp": "06/02/2025",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 162.96
-          },
-          {
-            "produto": "RED BULL MORANGO PESSEGO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 162.96
-          },
-          {
-            "produto": "RED BULL TROPICAL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 162.96
-          }
-        ]
-      },
-      {
         "codcli": "80477",
         "cliente": "EMPORIUM SAN PIETRO COMERCIO DE ALIMENTOS LTDA",
         "bairro": "JACAREPAGUA",
@@ -9841,16 +9822,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "84218",
+        "codcli": "94198",
         "cliente": "CANGURU ALIMENTOS LTDA",
-        "bairro": "PRAIA DA BALEIA",
+        "bairro": "MORADA DE LARANJEIRAS",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "94198",
+        "codcli": "84218",
         "cliente": "CANGURU ALIMENTOS LTDA",
-        "bairro": "MORADA DE LARANJEIRAS",
+        "bairro": "PRAIA DA BALEIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11788,110 +11769,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94402",
-        "cliente": "ALDON ALEIXO SANTOS OLIVEIRA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "28/05/2026",
-        "produtos": [
-          {
-            "produto": "CANTINA DA SERRA 1,5L",
-            "fantasia": "COMARY",
-            "qt": 12,
-            "valor": 110.28
-          },
-          {
-            "produto": "GIN INVICTUS MACA VERDE 900ML",
-            "fantasia": "INVICTUS",
-            "qt": 2,
-            "valor": 29.8
-          },
-          {
-            "produto": "GIN INVICTUS MELANCIA 900ML",
-            "fantasia": "INVICTUS",
-            "qt": 1,
-            "valor": 14.9
-          },
-          {
-            "produto": "GIN INVICTUS TRADICIONAL 900ML",
-            "fantasia": "INVICTUS",
-            "qt": 1,
-            "valor": 14.9
-          },
-          {
-            "produto": "GIN INVICTUS TROPICAL 900ML",
-            "fantasia": "INVICTUS",
-            "qt": 1,
-            "valor": 14.9
-          },
-          {
-            "produto": "NECTAR CAJU KIDS CX 24X200ML",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 33.6
-          },
-          {
-            "produto": "NECTAR DE MARACUJA 24X200ML KIDS",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 33.6
-          },
-          {
-            "produto": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 33.6
-          },
-          {
-            "produto": "NECTAR MISTO MANGA 24X200ML KIDS",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 33.6
-          },
-          {
-            "produto": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 33.6
-          },
-          {
-            "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 33.6
-          },
-          {
-            "produto": "ST PIERRE ZERO LAT PINK LEMONADE 6X310ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 22.9
-          },
-          {
-            "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 22.9
-          },
-          {
-            "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-            "fantasia": "RECKITT",
-            "qt": 1,
-            "valor": 65.28
-          },
-          {
-            "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-            "fantasia": "RECKITT",
-            "qt": 1,
-            "valor": 65.28
-          },
-          {
-            "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-            "fantasia": "RECKITT",
-            "qt": 1,
-            "valor": 65.28
-          }
-        ]
-      },
-      {
         "codcli": "83678",
         "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
         "bairro": "OLARIA",
@@ -12001,13 +11878,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "95275",
         "cliente": "MERCEARIA CENTRAL DO K11 LIMITADA",
         "bairro": "K11",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "60352",
-        "cliente": "MERCEARIA PEROLA DO SAO JOSE LTDA",
-        "bairro": "PARQUE SAO JOSE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -12492,16 +12362,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "84121",
+        "codcli": "20950",
         "cliente": "SUPERMERCADOS CALVI LTDA",
-        "bairro": "CARIACICA SEDE",
+        "bairro": "COBILANDIA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "20950",
+        "codcli": "84121",
         "cliente": "SUPERMERCADOS CALVI LTDA",
-        "bairro": "COBILANDIA",
+        "bairro": "CARIACICA SEDE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -17390,26 +17260,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "85351",
-        "cliente": "PATRICK CARDOSO CASSIMIRO 10535734727",
-        "bairro": "RESERVA DO PERO",
-        "dtultcomp": "10/02/2026",
-        "produtos": [
-          {
-            "produto": "CANTINA DA SERRA 750ML",
-            "fantasia": "COMARY",
-            "qt": 60,
-            "valor": 239.4
-          },
-          {
-            "produto": "RED BULL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 503.28
-          }
-        ]
-      },
-      {
         "codcli": "69300",
         "cliente": "MARCELO DE AZEREDO GALVAO MOURA 15194790775",
         "bairro": "ICARAI",
@@ -18970,16 +18820,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "79816",
+        "codcli": "93855",
         "cliente": "RONDELLI COMERCIO E TRANSPORTE LTDA",
-        "bairro": "SANTA LUZIA",
+        "bairro": "SERNAMBY",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "93855",
+        "codcli": "79816",
         "cliente": "RONDELLI COMERCIO E TRANSPORTE LTDA",
-        "bairro": "SERNAMBY",
+        "bairro": "SANTA LUZIA",
         "dtultcomp": "nan",
         "produtos": []
       },
