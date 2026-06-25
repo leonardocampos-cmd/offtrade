@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "25/06/2026 12:01",
+  "atualizado_em": "25/06/2026 13:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -451,7 +451,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "LEANDRO SOUZA - OFF TRADE",
                   "rca": "450",
-                  "estado": "",
+                  "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
                       "fat": 29614.41,
@@ -716,13 +716,13 @@ const GERENTES_DATA = {
                 {
                   "nome": "ALEXSANDRO DOS SANTOS - OFF TRADE",
                   "rca": "255",
-                  "estado": "",
+                  "estado": "RJ",
                   "por_mes": {}
                 },
                 {
                   "nome": "ANDRESSA BARROS FERREIRA - OFF TRADE",
                   "rca": "146",
-                  "estado": "",
+                  "estado": "RJ",
                   "por_mes": {}
                 },
                 {
@@ -799,7 +799,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "FÁBIO OLIVEIRA - OFF TRADE",
                   "rca": "415",
-                  "estado": "",
+                  "estado": "RJ",
                   "por_mes": {}
                 },
                 {
@@ -895,7 +895,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "LORRAYNE SANTOS - OFF TRADE",
                   "rca": "416",
-                  "estado": "",
+                  "estado": "RJ",
                   "por_mes": {}
                 },
                 {
@@ -932,7 +932,7 @@ const GERENTES_DATA = {
                 {
                   "nome": "MAYCON COELHO FERRAZ - OFF TRADE",
                   "rca": "405",
-                  "estado": "",
+                  "estado": "RJ",
                   "por_mes": {}
                 },
                 {
