@@ -1,17 +1,17 @@
 const AMARULA_DATA = {
-  "atualizado_em": "25/06/2026 16:01",
+  "atualizado_em": "25/06/2026 17:01",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 39,
-  "total_positivacao": 175,
-  "total_faturamento": 94321.6,
+  "total_positivacao": 179,
+  "total_faturamento": 94680.4,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
-      "valor": 49
+      "valor": 50
     },
     {
       "vendedor": "JORGE MACIEL - OFF TRADE",
@@ -27,7 +27,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "DIOGO RAPOSO - OFF TRADE",
-      "valor": 8
+      "valor": 9
     },
     {
       "vendedor": "VINICIUS AMARAL",
@@ -42,19 +42,19 @@ const AMARULA_DATA = {
       "valor": 5
     },
     {
-      "vendedor": "THIAGO NASCIMENTO",
-      "valor": 3
+      "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "valor": 5
     },
     {
       "vendedor": "JOÃO VITOR BRAGA",
       "valor": 3
     },
     {
-      "vendedor": "RAPHAEL SANTOS - OFF TRADE",
+      "vendedor": "THIAGO NASCIMENTO",
       "valor": 3
     },
     {
-      "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "vendedor": "RAPHAEL SANTOS - OFF TRADE",
       "valor": 3
     },
     {
@@ -181,7 +181,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
-      "valor": 9637.0
+      "valor": 9726.9
     },
     {
       "vendedor": "MARCUS VINICIUS",
@@ -201,7 +201,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "DIOGO RAPOSO - OFF TRADE",
-      "valor": 2442.2
+      "valor": 2531.1
     },
     {
       "vendedor": "RAPHAEL SANTOS - OFF TRADE",
@@ -229,7 +229,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
-      "valor": 726.3
+      "valor": 906.3
     },
     {
       "vendedor": "IASMIM NUNES ",
