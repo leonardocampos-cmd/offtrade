@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "25/06/2026 11:05",
+  "atualizado_em": "25/06/2026 12:02",
   "data_rota": "25.06",
   "vendedores": [
     {
@@ -357,6 +357,31 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "431001087",
+          "numnota": "",
+          "data": "25/06/2026",
+          "cliente": "DELICIA DE COSTELA BAR E LANCHONETE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 592.68,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 334.8
+            },
+            {
+              "desc": "GIN DUBAR 960ML",
+              "qt": 12,
+              "val": 257.88
+            }
+          ]
+        },
         {
           "numped": "431001057",
           "numnota": "",
@@ -21529,6 +21554,86 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "379001147",
+          "numnota": "",
+          "data": "25/06/2026",
+          "cliente": "RALEF COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 684.2,
+          "itens": [
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+              "qt": 1,
+              "val": 14.7
+            },
+            {
+              "desc": "RC ATUM SOLIDO NATURAL 24X170G",
+              "qt": 1,
+              "val": 199.9
+            },
+            {
+              "desc": "RC ATUM SOLIDO OLEO 24X170G",
+              "qt": 1,
+              "val": 199.9
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 3,
+              "val": 269.7
+            }
+          ]
+        },
+        {
+          "numped": "379001148",
+          "numnota": "",
+          "data": "25/06/2026",
+          "cliente": "SAL COM ERVAS GASTRONOMIA E EVENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2799.6,
+          "itens": [
+            {
+              "desc": "WHISKY ESC MACALLAN SHERRY OAK 12Y 700ML",
+              "qt": 4,
+              "val": 2799.6
+            }
+          ]
+        },
+        {
+          "numped": "379001146",
+          "numnota": "",
+          "data": "25/06/2026",
+          "cliente": "50.184.439 RENATA CRISTIANE BERTO DOS SANTOS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 184.8,
+          "itens": [
+            {
+              "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+              "qt": 6,
+              "val": 77.4
+            },
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 6,
+              "val": 107.4
+            }
+          ]
+        },
+        {
           "numped": "379001144",
           "numnota": "",
           "data": "24/06/2026",
@@ -38953,14 +39058,14 @@ const ENTREGAS_DATA = {
           "total": 720.0,
           "itens": [
             {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 1,
-              "val": 240.0
-            },
-            {
               "desc": "RC SARDINHA EM OLEO 50X125G",
               "qt": 2,
               "val": 480.0
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 1,
+              "val": 240.0
             }
           ]
         },
