@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "24/06/2026 16:42",
+  "atualizado_em": "25/06/2026 08:52",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -365,46 +365,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35726",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MILIONÁRIOS (BARREIRO)",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
-        "codcli": "35725",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MINEIRÃO",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
         "codcli": "35724",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MORADA DA SERRA",
@@ -434,6 +394,46 @@ const NAO_POS_MG_DATA = {
         "codcli": "35727",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "ITAIPU (BARREIRO)",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
+        "codcli": "35726",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "MILIONÁRIOS (BARREIRO)",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
+        "codcli": "35725",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "MINEIRÃO",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -1805,62 +1805,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 47.12
-          }
-        ]
-      },
-      {
-        "codcli": "34150",
-        "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
-        "bairro": "INDUSTRIAL",
-        "dtultcomp": "14/05/2026",
-        "produtos": [
-          {
-            "produto": "CAPSULAS DE GAS N2O COM 10 UNIDADES FPRO",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 155.6
-          },
-          {
-            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 189.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 378.72
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 189.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 189.36
-          },
-          {
-            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 136.56
           }
         ]
       },
@@ -3371,20 +3315,6 @@ const NAO_POS_MG_DATA = {
     ],
     "LUIZ FERNANDO SALGADO": [
       {
-        "codcli": "39126",
-        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "ESTRELA DO ORIENTE",
-        "dtultcomp": "09/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 24,
-            "valor": 2208.0
-          }
-        ]
-      },
-      {
         "codcli": "39125",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
         "bairro": "RENASCENÇA",
@@ -3402,6 +3332,20 @@ const NAO_POS_MG_DATA = {
         "codcli": "39121",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
         "bairro": "SÃO BENEDITO",
+        "dtultcomp": "09/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 24,
+            "valor": 2208.0
+          }
+        ]
+      },
+      {
+        "codcli": "39126",
+        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
+        "bairro": "ESTRELA DO ORIENTE",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -3765,20 +3709,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN BRASIL",
             "qt": 20,
             "valor": 1427.4
-          }
-        ]
-      },
-      {
-        "codcli": "39006",
-        "cliente": "SUPERMERCADO NASCIMENTO LTDA",
-        "bairro": "NAÇÕES UNIDAS",
-        "dtultcomp": "24/03/2026",
-        "produtos": [
-          {
-            "produto": "VODKA SMIRNOFF 600 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 74.7
           }
         ]
       },
@@ -4781,40 +4711,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 17,
             "valor": 1460.3
-          }
-        ]
-      },
-      {
-        "codcli": "36510",
-        "cliente": "SUPERMERCADO ALIPAO LTDA",
-        "bairro": "ALÍPIO DE MELO",
-        "dtultcomp": "27/05/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 374.7
-          }
-        ]
-      },
-      {
-        "codcli": "36272",
-        "cliente": "WALISON VITOR NUNES CUNHA",
-        "bairro": "LOURDES",
-        "dtultcomp": "27/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
           }
         ]
       },
