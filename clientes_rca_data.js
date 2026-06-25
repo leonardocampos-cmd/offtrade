@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "25/06/2026 17:02",
+  "atualizado_em": "25/06/2026 18:31",
   "total": 4392,
   "clientes": [
     {
@@ -30938,8 +30938,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "39.513.507/0002-65",
       "estado": "SP",
       "ramo": "BAR",
-      "codusur1": "470",
-      "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
+      "codusur1": "466",
+      "nome_usur1": "DANIELLE DOS SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
