@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "25/06/2026 09:03",
-  "total": 4359,
+  "atualizado_em": "25/06/2026 10:03",
+  "total": 4365,
   "clientes": [
     {
       "codcli": "31683",
@@ -3010,6 +3010,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "370",
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51305",
+      "razao": "58.314.612 MARIA DE FATIMA DE SOUSA BERTO",
+      "fantasia": "58.314.612 MARIA DE FATIMA DE SOUSA BERTO",
+      "bairro": "VILA NOVA TRIESTE",
+      "cidade": "JARINU",
+      "cnpj": "58.314.612/0001-39",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -30706,6 +30720,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50543",
+      "razao": "LEDUINO E LEDUINO LTDA",
+      "fantasia": "LEDUINO E LEDUINO",
+      "bairro": "JARDIM DO VALE",
+      "cidade": "GUARATINGUETA",
+      "cnpj": "39.513.507/0002-65",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "466",
+      "nome_usur1": "DANIELLE DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "41731",
       "razao": "LEGADO ROMANI BEER E GRILL LTDA",
       "fantasia": "LEGADO ROMANI BEER E GRILL",
@@ -38600,6 +38628,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "95506",
+      "razao": "MERCEARIA ECONOMIA JFA LTDA",
+      "fantasia": "MERCADO JFA",
+      "bairro": "GUARATIBA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "38.928.282/0001-64",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "419",
+      "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "43817",
@@ -56774,6 +56816,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "40668",
+      "razao": "SUPERMERCADOS DALBEN LTDA",
+      "fantasia": "SUPERMERCADOS DALBEN",
+      "bairro": "PARQUE NOVA SUÍÇA",
+      "cidade": "VALINHOS",
+      "cnpj": "46.241.741/0006-70",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50412",
       "razao": "SUPERMERCADOS EBURNIO CORREA LTDA",
       "fantasia": "SUPERMERCADO PARDINHENSE",
@@ -57418,6 +57474,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51304",
+      "razao": "TAIS CRISTINA MORES 31824898878",
+      "fantasia": "TAIS CRISTINA MORES 31824898878",
+      "bairro": "VILA OPERARIA",
+      "cidade": "BOTUCATU",
+      "cnpj": "47.510.914/0001-66",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "87086",
       "razao": "TAIS TERRA MONTEIRO",
       "fantasia": "TAIS TERRA MONTEIRO",
@@ -57750,6 +57820,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "469",
       "nome_usur1": "PATRICIA RAMOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49889",
+      "razao": "TERRACO & TERRACO ALIMENTOS LTDA",
+      "fantasia": "MINIMERCADO TERRACO",
+      "bairro": "VILA COMENDADOR RODRIGUES ALVES",
+      "cidade": "GUARATINGUETA",
+      "cnpj": "09.038.769/0001-73",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "466",
+      "nome_usur1": "DANIELLE DOS SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -58548,8 +58632,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "488",
+      "nome_usur2": "ADRIANO VEZZANI \n- OFF TRADE"
     },
     {
       "codcli": "51042",
