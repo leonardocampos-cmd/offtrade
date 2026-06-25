@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "25/06/2026 11:06",
-  "total": 4366,
+  "atualizado_em": "25/06/2026 12:03",
+  "total": 4368,
   "clientes": [
     {
       "codcli": "31683",
@@ -12283,13 +12283,13 @@ const CLIENTES_RCA_DATA = {
     },
     {
       "codcli": "25927",
-      "razao": "CAIO PEDREIRA VIEIRA 43243179840",
+      "razao": "CAIO PEDREIRA VIEIRA COMERCIO DE BEBIDAS",
       "fantasia": "ADEGA VIEIRA",
       "bairro": "JARDIM ANA MARIA",
       "cidade": "SAO PAULO",
       "cnpj": "34.709.507/0001-30",
       "estado": "SP",
-      "ramo": "MERCADO",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "588",
       "nome_usur1": "W.S",
       "codusur2": "",
@@ -22878,6 +22878,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "170",
       "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
+    },
+    {
+      "codcli": "32989",
+      "razao": "FIABCI/BRASIL-CAPITULO NACIONAL BRAS.DA FEDER.INTERN.DAS PR",
+      "fantasia": "FIABCI BRASIL",
+      "bairro": "R DOUTOR BACELAR",
+      "cidade": "SAO PAULO",
+      "cnpj": "49.910.953/0001-86",
+      "estado": "SP",
+      "ramo": "ESCRITÓRIO",
+      "codusur1": "426",
+      "nome_usur1": "ADER ALONSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "40362",
@@ -56072,6 +56086,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "51308",
+      "razao": "SUPERMERCADO SUPER VITAL DE BIRITIBA MIRIM LTDA",
+      "fantasia": "SUPER VITAL DE BIRITIBA MIRIM",
+      "bairro": "JD. TAKEBE",
+      "cidade": "BIRITIBA MIRIM",
+      "cnpj": "54.867.173/0001-30",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "91575",
