@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "24/06/2026 16:42",
+  "atualizado_em": "25/06/2026 08:53",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -1334,7 +1334,7 @@ const CLIENTES_588_DATA = {
     },
     {
       "codcli": "24527",
-      "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
+      "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO LTDA",
       "ultima_compra_rca": "09/04/2026",
       "valor_jan_abr": 252544.51,
       "meses_ativos": 4,
