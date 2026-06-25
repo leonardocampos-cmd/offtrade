@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "25/06/2026 17:02",
+  "atualizado_em": "25/06/2026 18:31",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 286974.61,
-        "pos": 114,
+        "fat": 287274.91,
+        "pos": 115,
         "fat_ant": 312476.97
       }
     },
@@ -197,8 +197,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 58591.42
       },
       "Jun/26": {
-        "fat": 158047.06,
-        "pos": 59,
+        "fat": 158546.46,
+        "pos": 60,
         "fat_ant": 175829.04
       }
     },
@@ -224,7 +224,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 1106013.96
       },
       "Jun/26": {
-        "fat": 567988.38,
+        "fat": 580943.7,
         "pos": 8,
         "fat_ant": 896376.5
       }
@@ -268,8 +268,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 19963.64
       },
       "Jun/26": {
-        "fat": 41368.96,
-        "pos": 22,
+        "fat": 44260.76,
+        "pos": 25,
         "fat_ant": 53560.12
       }
     }
@@ -49312,6 +49312,15 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "25/06/2026",
+          "codcli": "30114",
+          "cliente": "EMPREENDIMENTOS VIP LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "",
+          "qt": 7,
+          "valor": 300.3
+        },
+        {
+          "data": "25/06/2026",
           "codcli": "33553",
           "cliente": "CHALE DA MATA RESTAURANTE LTDA",
           "produto": "VALE VERDE EXTRA PREMIUM 1L",
@@ -80113,6 +80122,33 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "25/06/2026",
+          "codcli": "31553",
+          "cliente": "SUPERMERCADO PARANAIBA SANTA LUZIA LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 6,
+          "valor": 449.4
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "39533",
+          "cliente": "LEILA APARECIDA PEREIRA DIAS",
+          "produto": "XAROPE MONIN MORANGO 330 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 25.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "39533",
+          "cliente": "LEILA APARECIDA PEREIRA DIAS",
+          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 25.0
+        },
+        {
+          "data": "25/06/2026",
           "codcli": "38049",
           "cliente": "VAREJAO ASTEKA LTDA",
           "produto": "SMIRNOFF ICE RASPBERRY -269ML LT CX 24",
@@ -85036,6 +85072,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 180,
           "valor": 4482.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 18,
+          "valor": 12955.32
         },
         {
           "data": "25/06/2026",
@@ -97260,6 +97305,78 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 125.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "37532",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 239.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "37532",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 155.7
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "39027",
+          "cliente": "SUPERMERCADO PEJOAL LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 346.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "39027",
+          "cliente": "SUPERMERCADO PEJOAL LTDA",
+          "produto": "GIN GORDONS PINK 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 103.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30409",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 479.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30409",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "GIN BEEFEATER 24  750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 199.9
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30409",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 311.4
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30409",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1054.8
         }
       ]
     }
