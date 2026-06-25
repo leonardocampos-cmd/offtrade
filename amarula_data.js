@@ -1,13 +1,13 @@
 const AMARULA_DATA = {
-  "atualizado_em": "25/06/2026 17:01",
+  "atualizado_em": "25/06/2026 18:29",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
   "total_vendedores": 39,
-  "total_positivacao": 179,
-  "total_faturamento": 94680.4,
+  "total_positivacao": 181,
+  "total_faturamento": 95157.9,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
@@ -15,7 +15,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "JORGE MACIEL - OFF TRADE",
-      "valor": 32
+      "valor": 33
     },
     {
       "vendedor": "LAIS POPPE VILLANOVA",
@@ -46,7 +46,7 @@ const AMARULA_DATA = {
       "valor": 5
     },
     {
-      "vendedor": "JOÃO VITOR BRAGA",
+      "vendedor": "RAPHAEL SANTOS - OFF TRADE",
       "valor": 3
     },
     {
@@ -54,7 +54,7 @@ const AMARULA_DATA = {
       "valor": 3
     },
     {
-      "vendedor": "RAPHAEL SANTOS - OFF TRADE",
+      "vendedor": "JOÃO VITOR BRAGA",
       "valor": 3
     },
     {
@@ -62,15 +62,15 @@ const AMARULA_DATA = {
       "valor": 3
     },
     {
+      "vendedor": "PEDRO RANGEL",
+      "valor": 3
+    },
+    {
       "vendedor": "FERNANDO CESAR",
       "valor": 3
     },
     {
-      "vendedor": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "valor": 2
-    },
-    {
-      "vendedor": "PEDRO RANGEL",
+      "vendedor": "LEANDRO SOUZA - OFF TRADE",
       "valor": 2
     },
     {
@@ -86,7 +86,7 @@ const AMARULA_DATA = {
       "valor": 2
     },
     {
-      "vendedor": "LEANDRO SOUZA - OFF TRADE",
+      "vendedor": "ADEILSON GONÇALVEZ - OFF TRADE",
       "valor": 2
     },
     {
@@ -173,7 +173,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "JORGE MACIEL - OFF TRADE",
-      "valor": 14653.7
+      "valor": 14743.6
     },
     {
       "vendedor": "FERNANDO CESAR",
@@ -232,6 +232,10 @@ const AMARULA_DATA = {
       "valor": 906.3
     },
     {
+      "vendedor": "PEDRO RANGEL",
+      "valor": 652.3
+    },
+    {
       "vendedor": "IASMIM NUNES ",
       "valor": 533.4
     },
@@ -266,10 +270,6 @@ const AMARULA_DATA = {
     {
       "vendedor": "JULIANA SALGADO",
       "valor": 266.7
-    },
-    {
-      "vendedor": "PEDRO RANGEL",
-      "valor": 264.7
     },
     {
       "vendedor": "ZEINALDO DE OLIVEIRA - OFF TRADE",
