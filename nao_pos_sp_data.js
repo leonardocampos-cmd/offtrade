@@ -1,9 +1,23 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "25/06/2026 11:06",
+  "atualizado_em": "25/06/2026 12:03",
   "por_vendedor": {
     "ADER ALONSO -": [
+      {
+        "codcli": "32989",
+        "cliente": "FIABCI/BRASIL-CAPITULO NACIONAL BRAS.DA FEDER.INTERN.DAS PR",
+        "bairro": "R DOUTOR BACELAR",
+        "dtultcomp": "31/07/2024",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE CHANDON RESERVE BRUT - DEST",
+            "fantasia": "",
+            "qt": 120,
+            "valor": 8612.4
+          }
+        ]
+      },
       {
         "codcli": "49213",
         "cliente": "ANDERSON CLODOALDO MAXIMO",
@@ -6326,6 +6340,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51308",
+        "cliente": "SUPERMERCADO SUPER VITAL DE BIRITIBA MIRIM LTDA",
+        "bairro": "JD. TAKEBE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "50249",
         "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
         "bairro": "VILA MOGILAR",
@@ -10064,7 +10085,7 @@ const NAO_POS_SP_DATA = {
       },
       {
         "codcli": "25927",
-        "cliente": "CAIO PEDREIRA VIEIRA 43243179840",
+        "cliente": "CAIO PEDREIRA VIEIRA COMERCIO DE BEBIDAS",
         "bairro": "JARDIM ANA MARIA",
         "dtultcomp": "21/05/2026",
         "produtos": [
