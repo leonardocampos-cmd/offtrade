@@ -31,7 +31,7 @@ tabela_preco_on = pd.read_excel(
 col_on_excluir = ['Unnamed: 0', 'COD BRASIL', 'PRODUTOS', 'CATEGORIA', 'FORNECEDOR', 'CX C/', 'PLT C/', 
                   'CONDIÇÃO PROMO', 'BASE RECOMP.', 'EM FALTA?']
 tabela_preco_on.drop(columns=[c for c in col_on_excluir if c in tabela_preco_on.columns], inplace=True)
-tabela_preco_on['PREÇO TABELA'] = pd.to_numeric(tabela_preco_on['PREÇO TABELA'].str.replace(',', '.'), errors='coerce').round(2)
+tabela_preco_on['PREÇO'] = pd.to_numeric(tabela_preco_on['PREÇO'].str.replace(',', '.'), errors='coerce').round(2)
 
 # --- TABELA PROMO ---
 tabela_promo = pd.read_excel(
