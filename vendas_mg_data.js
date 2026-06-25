@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "25/06/2026 12:02",
+  "atualizado_em": "25/06/2026 14:45",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 268658.71,
-        "pos": 113,
+        "fat": 286974.61,
+        "pos": 114,
         "fat_ant": 312476.97
       }
     },
@@ -197,8 +197,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 58591.42
       },
       "Jun/26": {
-        "fat": 157745.38,
-        "pos": 58,
+        "fat": 158047.06,
+        "pos": 59,
         "fat_ant": 175829.04
       }
     },
@@ -224,7 +224,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 1106013.96
       },
       "Jun/26": {
-        "fat": 532309.32,
+        "fat": 567988.38,
         "pos": 8,
         "fat_ant": 896376.5
       }
@@ -246,7 +246,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 65306.52
       },
       "Jun/26": {
-        "fat": 73531.9,
+        "fat": 74097.34,
         "pos": 58,
         "fat_ant": 111009.88
       }
@@ -49228,6 +49228,213 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 383.52
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 239.7
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 163.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 284.5
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "TEQUILA EL JIMADOR REPOSADO 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 199.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 107.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 107.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE BLUEBERRY LT 270MLX24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 107.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "33553",
+          "cliente": "CHALE DA MATA RESTAURANTE LTDA",
+          "produto": "VALE VERDE EXTRA PREMIUM 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 153.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "33553",
+          "cliente": "CHALE DA MATA RESTAURANTE LTDA",
+          "produto": "RUM BACARDI GOLD 980ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "33553",
+          "cliente": "CHALE DA MATA RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 63.92
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "33176",
+          "cliente": "BELLINI PRODUCOES DE EVENTOS LTDA",
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 2394.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "33176",
+          "cliente": "BELLINI PRODUCOES DE EVENTOS LTDA",
+          "produto": "YVY DESTILADO GIN MAR GF 750ML",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 4788.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30040",
+          "cliente": "EDDIE LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 56.9
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30040",
+          "cliente": "EDDIE LTDA",
+          "produto": "BAER MATE LN  6X350ML",
+          "fantasia": "BETTER DRINKS",
+          "qt": 2,
+          "valor": 85.08
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 478.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30040",
+          "cliente": "EDDIE LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 81.9
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30040",
+          "cliente": "EDDIE LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 81.9
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "33024",
+          "cliente": "CASA OUTONO 571 MUSICA E CULTURA LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 8,
+          "valor": 1726.08
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "31722",
+          "cliente": "THAYANE MICELE SILVA MATOS VIANA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 15,
+          "valor": 2876.4
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "31722",
+          "cliente": "THAYANE MICELE SILVA MATOS VIANA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 1917.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "31722",
+          "cliente": "THAYANE MICELE SILVA MATOS VIANA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1917.6
         }
       ]
     },
@@ -79903,6 +80110,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 400.32
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "38049",
+          "cliente": "VAREJAO ASTEKA LTDA",
+          "produto": "SMIRNOFF ICE RASPBERRY -269ML LT CX 24",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 301.68
         }
       ]
     },
@@ -84748,6 +84964,87 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 174,
           "valor": 3636.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "",
+          "qt": 360,
+          "valor": 7524.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 12,
+          "valor": 890.28
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 24,
+          "valor": 1780.56
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 36,
+          "valor": 2670.84
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 18,
+          "valor": 8575.38
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "CHANDON BABY BRUT 187 ML",
+          "fantasia": "",
+          "qt": 96,
+          "valor": 2870.4
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1000 ML",
+          "fantasia": "",
+          "qt": 84,
+          "valor": 2091.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "",
+          "qt": 180,
+          "valor": 4482.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 60,
+          "valor": 4794.0
         }
       ]
     },
@@ -93920,6 +94217,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 5,
           "valor": 344.5
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "35581",
+          "cliente": "GERALDINHO O CONCEITO DA CARNE LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 4,
+          "valor": 565.44
         }
       ]
     },
