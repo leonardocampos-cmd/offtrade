@@ -1,13 +1,13 @@
 const AMARULA_DATA = {
-  "atualizado_em": "24/06/2026 16:41",
+  "atualizado_em": "25/06/2026 08:51",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
   "premio": 3000,
-  "total_vendedores": 43,
-  "total_positivacao": 178,
-  "total_faturamento": 401817.04,
+  "total_vendedores": 44,
+  "total_positivacao": 179,
+  "total_faturamento": 402084.84,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
@@ -58,23 +58,27 @@ const AMARULA_DATA = {
       "valor": 3
     },
     {
+      "vendedor": "THIAGO NASCIMENTO",
+      "valor": 3
+    },
+    {
       "vendedor": "RAPHAEL SANTOS - OFF TRADE",
       "valor": 3
     },
     {
-      "vendedor": "THIAGO NASCIMENTO",
-      "valor": 3
+      "vendedor": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "valor": 2
     },
     {
       "vendedor": "PEDRO RANGEL",
       "valor": 2
     },
     {
-      "vendedor": "CARLOS ARTHUR NETO",
+      "vendedor": "LEANDRO SOUZA - OFF TRADE",
       "valor": 2
     },
     {
-      "vendedor": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "vendedor": "CARLOS ARTHUR NETO",
       "valor": 2
     },
     {
@@ -86,7 +90,7 @@ const AMARULA_DATA = {
       "valor": 2
     },
     {
-      "vendedor": "LEANDRO SOUZA - OFF TRADE",
+      "vendedor": "JOHNATTAN MATHEUS",
       "valor": 2
     },
     {
@@ -94,23 +98,23 @@ const AMARULA_DATA = {
       "valor": 2
     },
     {
-      "vendedor": "JOHNATTAN MATHEUS",
-      "valor": 2
+      "vendedor": "IASMIM NUNES ",
+      "valor": 1
+    },
+    {
+      "vendedor": "BEBIDA IN BOX",
+      "valor": 1
     },
     {
       "vendedor": "ARLEN SOARES",
       "valor": 1
     },
     {
-      "vendedor": "IASMIM NUNES ",
+      "vendedor": "GISELLE BARFER - OFF TRADE",
       "valor": 1
     },
     {
       "vendedor": "BIANCA RODRIGUES",
-      "valor": 1
-    },
-    {
-      "vendedor": "BEBIDA IN BOX",
       "valor": 1
     },
     {
@@ -256,23 +260,23 @@ const AMARULA_DATA = {
       "valor": 1066.8
     },
     {
-      "vendedor": "LOJA",
-      "valor": 666.08
+      "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "valor": 726.3
     },
     {
-      "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
-      "valor": 636.3
+      "vendedor": "LOJA",
+      "valor": 666.08
     },
     {
       "vendedor": "IASMIM NUNES ",
       "valor": 533.4
     },
     {
-      "vendedor": "CARLOS ARTHUR NETO",
+      "vendedor": "FELIPE OLIVEIRA",
       "valor": 444.5
     },
     {
-      "vendedor": "FELIPE OLIVEIRA",
+      "vendedor": "CARLOS ARTHUR NETO",
       "valor": 444.5
     },
     {
@@ -314,6 +318,10 @@ const AMARULA_DATA = {
     {
       "vendedor": "ROBERTO DOS SANTOS - OFF TRADE",
       "valor": 188.1
+    },
+    {
+      "vendedor": "GISELLE BARFER - OFF TRADE",
+      "valor": 177.8
     },
     {
       "vendedor": "JOHNATTAN MATHEUS",
