@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "25/06/2026 11:06",
+  "atualizado_em": "25/06/2026 12:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -204,7 +204,7 @@ const VENDAS_ES_DATA = {
         "fat_ant": 84254.44
       },
       "Jun/26": {
-        "fat": 45478.95,
+        "fat": 45867.75,
         "pos": 45,
         "fat_ant": 75315.05
       },
@@ -54131,6 +54131,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 431.28
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "83156",
+          "cliente": "PADARIA E CONFEITARIA BENTO LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 388.8
         },
         {
           "data": "05/06/2026",
