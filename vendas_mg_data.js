@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "24/06/2026 16:41",
+  "atualizado_em": "25/06/2026 08:52",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 264610.07,
-        "pos": 112,
+        "fat": 268658.71,
+        "pos": 113,
         "fat_ant": 312476.97
       }
     },
@@ -246,8 +246,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 65306.52
       },
       "Jun/26": {
-        "fat": 72604.68,
-        "pos": 55,
+        "fat": 73531.9,
+        "pos": 58,
         "fat_ant": 111009.88
       }
     },
@@ -48871,6 +48871,87 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "24/06/2026",
+          "codcli": "38626",
+          "cliente": "ST ONOFRE ALIMENTOS E EVENTOS LTDA",
+          "produto": "LICOR STOCK PESSEGO 720 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 56.9
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "38626",
+          "cliente": "ST ONOFRE ALIMENTOS E EVENTOS LTDA",
+          "produto": "RUM BACARDI GOLD 980ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "38626",
+          "cliente": "ST ONOFRE ALIMENTOS E EVENTOS LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "38626",
+          "cliente": "ST ONOFRE ALIMENTOS E EVENTOS LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 154.9
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VILLA ROSA COLHEITA TINTO 375ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 167.6
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 375ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 89.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VILLA ROSA COLHEITA TINTO  750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 149.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 307.6
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 639.2
+        },
+        {
+          "data": "24/06/2026",
           "codcli": "33223",
           "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
           "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
@@ -49042,12 +49123,39 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "24/06/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 174.96
+        },
+        {
+          "data": "24/06/2026",
           "codcli": "34663",
           "cliente": "ZE DO CHURRASCO BAR E COMERCIO LTDA",
           "produto": "VINHO VILLA ROSA FRISANTE BRANCO 750ML",
           "fantasia": "",
           "qt": 12,
           "valor": 466.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "31792",
+          "cliente": "CUAREIM ALIMENTOS LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 89.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "31792",
+          "cliente": "CUAREIM ALIMENTOS LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 319.6
         },
         {
           "data": "24/06/2026",
@@ -49066,6 +49174,60 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 658.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 670.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "LE FRUIT JABUTICABA MONIN 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 179.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "PURÊ DE FRUTA MORANGO 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 179.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "PURÊ DE FRUTAS VERMELHAS 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 179.8
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 174.96
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 383.52
         }
       ]
     },
@@ -93659,6 +93821,105 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 79.9
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "36272",
+          "cliente": "WALISON VITOR NUNES CUNHA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 141.36
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "36272",
+          "cliente": "WALISON VITOR NUNES CUNHA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 141.36
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "39006",
+          "cliente": "SUPERMERCADO NASCIMENTO LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 60.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "39006",
+          "cliente": "SUPERMERCADO NASCIMENTO LTDA",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 60.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "39006",
+          "cliente": "SUPERMERCADO NASCIMENTO LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 30.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "39006",
+          "cliente": "SUPERMERCADO NASCIMENTO LTDA",
+          "produto": "4 PACK RED BULL WINTER JUNEBERRY/CEREJA",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 30.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "39006",
+          "cliente": "SUPERMERCADO NASCIMENTO LTDA",
+          "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 30.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "39006",
+          "cliente": "SUPERMERCADO NASCIMENTO LTDA",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 30.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "39006",
+          "cliente": "SUPERMERCADO NASCIMENTO LTDA",
+          "produto": "4 PACK  RED BULL  MAÇA SF",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 30.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "39006",
+          "cliente": "SUPERMERCADO NASCIMENTO LTDA",
+          "produto": "4 PACK RED BULL NECTARINA  SF",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 30.0
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "36510",
+          "cliente": "SUPERMERCADO ALIPAO LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 344.5
         }
       ]
     },
