@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "24/06/2026 16:42",
-  "total": 4360,
+  "atualizado_em": "25/06/2026 08:53",
+  "total": 4359,
   "clientes": [
     {
       "codcli": "31683",
@@ -14474,8 +14474,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "33.743.618/0001-09",
       "estado": "RJ",
       "ramo": "CAFETERIA",
-      "codusur1": "295",
-      "nome_usur1": "JOÃO VITOR BRAGA",
+      "codusur1": "92",
+      "nome_usur1": "AUGUSTO SILVA",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -41414,20 +41414,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "24527",
-      "razao": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO EIRELI",
-      "fantasia": "VAREJAO BEBIDAS",
-      "bairro": "VILA PLANA",
-      "cidade": "SAO PAULO",
-      "cnpj": "23.090.270/0001-36",
-      "estado": "SP",
-      "ramo": "MERCADO",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "82290",
