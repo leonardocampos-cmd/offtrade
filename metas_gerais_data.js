@@ -1,21 +1,21 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "25/06/2026 14:17",
+  "atualizado_em": "25/06/2026 14:42",
   "mes": "Jun/26",
   "dias_corridos": 25,
   "dias_no_mes": 30,
   "dias_restantes": 5,
   "resumo": {
-    "fat": 9053445.95,
+    "fat": 9068135.87,
     "fat_ant": 7495660.11,
-    "pos": 1568,
+    "pos": 1569,
     "pos_ant": 1438
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 9053445.95,
+    "fat": 9068135.87,
     "fat_ant": 7495660.11,
-    "pct": 62.9,
-    "nec_dia": 1069310.81
+    "pct": 63.0,
+    "nec_dia": 1066372.83
   },
   "estados": [
     {
@@ -55,11 +55,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 1179650.59,
+      "fat": 1194340.51,
       "fat_ant": 1186576.08,
-      "pos": 266,
-      "pct": 56.2,
-      "nec_dia": 184069.88,
+      "pos": 267,
+      "pct": 56.9,
+      "nec_dia": 181131.9,
       "pos_ant": 247
     }
   ],
@@ -88,13 +88,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 1076827.89,
+      "fat": 1091517.81,
       "fat_ant": 1128625.32,
       "por_estado": {
         "RJ": 233.1,
         "SP": 1292.01,
         "ES": 28773.61,
-        "MG": 1046529.17
+        "MG": 1061219.09
       }
     },
     {
