@@ -67,7 +67,7 @@ df['PRODUTO']  = df['PRODUTO'].fillna('')
 
 print(f"OK {df['CODCLI'].nunique()} clientes não positivados SP")
 
-_RE_LIMPAR = re.compile(r'\s*OFF\s*TRADE\s*(SP)?\s*', re.IGNORECASE)
+_RE_LIMPAR = re.compile(r'\s*-?\s*OFF\s*TRADE\s*(SP)?\s*', re.IGNORECASE)
 
 def _limpar_nome(nome: str) -> str:
     return _RE_LIMPAR.sub(' ', nome or '').strip().upper()
