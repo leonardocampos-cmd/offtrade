@@ -11514,5 +11514,607 @@
       "motivo": "CANCELAMENTO",
       "valor": "R$ 323,60"
     }
+  ],
+  "2026-06-25": [
+    {
+      "nf": "84",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": "Taxa Outros 11.8% 2/17 NFs"
+    },
+    {
+      "nf": "78",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": ""
+    },
+    {
+      "nf": "406129",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "YARA COSTA GOMES AMORIM 08790432703",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 898,83"
+    },
+    {
+      "nf": "406035",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "R MACHARETE NETTO EVENTOS",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 2.588,40"
+    },
+    {
+      "nf": "406038",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "RAFAELLY BOREL DE SIQUEIRA LOPES 1338280",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 323,53"
+    },
+    {
+      "nf": "405954",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "AGROCOMPEC MARTHI LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 289,70"
+    },
+    {
+      "nf": "406130",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "M. CORREA MARTINS COMERCIO",
+      "rota": "RJD5F19 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.649,80"
+    },
+    {
+      "nf": "406259",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "TAIS TERRA MONTEIRO",
+      "rota": "RJD5F19 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 5.077,20"
+    },
+    {
+      "nf": "406037",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "G MARKET JARDIM LTDA",
+      "rota": "RJD5F19 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 343,90"
+    },
+    {
+      "nf": "406133",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "ARMAZEM DEPOSITO E COMERCIO DE BEBIDAS LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 461,70"
+    },
+    {
+      "nf": "406132",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "CASA DA CARNE STEAK BAR LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.335,14"
+    },
+    {
+      "nf": "406074",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "P PEREIRA DO AMARAL LTDA",
+      "rota": "RJD5F19 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 2.535,00"
+    },
+    {
+      "nf": "406036",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "RADIO BOIRE BAR E CAFE LTDA",
+      "rota": "RJD5F19 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 287,52"
+    },
+    {
+      "nf": "406134",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "LONDON BAR E PETISCARIA LTDA",
+      "rota": "RJD5F19 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 368,30"
+    },
+    {
+      "nf": "406131",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "BELLA COZINHA TERAPIA LTDA",
+      "rota": "RJD5F19 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 258,10"
+    },
+    {
+      "nf": "406075",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "BAMBA BEACH LTDA",
+      "rota": "RJD5F19 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 257,70"
+    },
+    {
+      "nf": "405953",
+      "rca": 241,
+      "rca_nome": "ZEINALDO DE OLIVEIRA",
+      "cliente": "39.514.158 ANDRE LUCIANO COELHO DOS SANTOS",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 359,52"
+    },
+    {
+      "nf": "406190",
+      "rca": 379,
+      "rca_nome": "JORGE MACIEL",
+      "cliente": "M&M DEPOSITO DE BEBIDAS LTDA",
+      "rota": "TUP1A46 / BAIXADA FLUINENSE",
+      "responsavel": "Vendas",
+      "motivo": "ENDEREÇO DIVERGENTE",
+      "valor": "R$ 405,64"
+    },
+    {
+      "nf": "405998",
+      "rca": 379,
+      "rca_nome": "JORGE MACIEL",
+      "cliente": "MERCADO UNIAO DE MESQUITA LTDA",
+      "rota": "TUP1A46 / BAIXADA FLUINENSE",
+      "responsavel": "Vendas",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA",
+      "valor": "R$ 624,30"
+    },
+    {
+      "nf": "406138",
+      "rca": 412,
+      "rca_nome": "BARBARA CABRAL",
+      "cliente": "POSTO DE GASOLINA SANTA BARBARA DO MEIER LTDA",
+      "rota": "TTX4A47 / ZONA NORTE",
+      "responsavel": "Contas a Receber",
+      "motivo": "REPONSÁVEL PELO PAGAMENTO AUSENTE OU CLIENTE SEM MÉTODO",
+      "valor": "R$ 308,00"
+    },
+    {
+      "nf": "405965",
+      "rca": 431,
+      "rca_nome": "ADEILSON GONÇALVEZ",
+      "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
+      "rota": "TTQ1A32 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO",
+      "valor": "R$ 759,63"
+    },
+    {
+      "nf": "405918",
+      "rca": 106,
+      "rca_nome": "FERNANDO CESAR",
+      "cliente": "ADSUMUS DISTRIBUIDORA LTDA",
+      "rota": "LMW9C26 / BAIXADA FLUINENSE",
+      "responsavel": "Outros",
+      "motivo": "OUTROS",
+      "valor": "R$ 25.885,44"
+    },
+    {
+      "nf": "406006",
+      "rca": 106,
+      "rca_nome": "FERNANDO CESAR",
+      "cliente": "CRF EMPREENDIMENTOS E PARTICIPACOES SOCIETARIAS LTDA",
+      "rota": "TTY6J70 / ZONA OESTE",
+      "responsavel": "Cliente",
+      "motivo": "LOCAL FECHADO - NÃO ABRE HOJE",
+      "valor": "R$ 719,84"
+    },
+    {
+      "nf": "406092",
+      "rca": 110,
+      "rca_nome": "YAGO DOS ANJOS",
+      "cliente": "ZE SOLUCOES TECNOLOGICAS DE COMERCIO DE BEBIDAS LTDA",
+      "rota": "SSA9A24 / ZONA OESTE",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA)",
+      "valor": "R$ 322,84"
+    },
+    {
+      "nf": "405277",
+      "rca": 110,
+      "rca_nome": "YAGO DOS ANJOS",
+      "cliente": "ZE SOLUCOES TECNOLOGICAS DE COMERCIO LTDA",
+      "rota": "TUP1A46 / BAIXADA FLUINENSE",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM A EQUIPE",
+      "valor": "R$ 38.480,49"
+    },
+    {
+      "nf": "406258",
+      "rca": 112,
+      "rca_nome": "LUCAS MATIAS",
+      "cliente": "M P 3 DE BUZIOS COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+      "rota": "RJD5F19 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 269,64"
+    },
+    {
+      "nf": "406211",
+      "rca": 112,
+      "rca_nome": "LUCAS MATIAS",
+      "cliente": "PETISQUEIRA CHIC BAR E LANCHONETE LTDA",
+      "rota": "SSA9A24 / ZONA OESTE",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA)",
+      "valor": "R$ 1.078,56"
+    },
+    {
+      "nf": "406213",
+      "rca": 135,
+      "rca_nome": "INGRID ARAUJO",
+      "cliente": "TRES AMIGOS BAR E COMERCIO LTDA",
+      "rota": "SSA9A24 / ZONA OESTE",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA)",
+      "valor": "R$ 632,60"
+    },
+    {
+      "nf": "406212",
+      "rca": 147,
+      "rca_nome": "THIAGO MENDES",
+      "cliente": "LILIAN CRISTINA FERNANDES DOS SANTOS 05450471700",
+      "rota": "SSA9A24 / ZONA OESTE",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA)",
+      "valor": "R$ 790,80"
+    },
+    {
+      "nf": "404648",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "DELL GASTRONOMIA DE BAR LTDA",
+      "rota": "LTG4A18 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "CANCELAMENTO",
+      "valor": "R$ 780,80"
+    },
+    {
+      "nf": "406063",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "55.038.642 ADRIANA DE SOUZA",
+      "rota": "LMV5I35 / ZONA OESTE",
+      "responsavel": "Vendas",
+      "motivo": "ENDEREÇO DIVERGENTE",
+      "valor": "R$ 537,00"
+    },
+    {
+      "nf": "406188",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "51.373.687 LEONARDO SANTOS DE SOUZA DE CARVALHO",
+      "rota": "TUP1A46 / BAIXADA FLUINENSE",
+      "responsavel": "Logística",
+      "motivo": "FORA DE ROTA",
+      "valor": "R$ 334,80"
+    },
+    {
+      "nf": "406320",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "LOLLA GASTRONOMIA LTDA",
+      "rota": "TTZ8B96 / ZONA SUL",
+      "responsavel": "Não Identificado",
+      "motivo": "Não Informado",
+      "valor": "R$ 515,70"
+    },
+    {
+      "nf": "405968",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "RDO CONSULTORIA LTDA",
+      "rota": "TTQ1A33 / ZONA OESTE",
+      "responsavel": "Outros",
+      "motivo": "OUTROS",
+      "valor": "R$ 479,40"
+    },
+    {
+      "nf": "406274",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "BELLINI RESTAURANTE BAR E CAFE LTDA",
+      "rota": "TTY6J70 / ZONA OESTE",
+      "responsavel": "Cliente",
+      "motivo": "LOCAL FECHADO - NÃO ABRE HOJE",
+      "valor": "R$ 269,70"
+    },
+    {
+      "nf": "405948",
+      "rca": 237,
+      "rca_nome": "JOHNATTAN MATHEUS",
+      "cliente": "DOUGLAS CAMILO PIRES 13961439710",
+      "rota": "LMW9C26 / ZONA OESTE",
+      "responsavel": "Cliente",
+      "motivo": "LOCAL FECHADO - NÃO ABRE HOJE",
+      "valor": "R$ 263,88"
+    },
+    {
+      "nf": "406319",
+      "rca": 295,
+      "rca_nome": "JOÃO VITOR BRAGA",
+      "cliente": "COORDENADAS BAR LTDA",
+      "rota": "TTZ8B96 / ZONA SUL",
+      "responsavel": "Não Identificado",
+      "motivo": "Não Informado",
+      "valor": "R$ 647,10"
+    },
+    {
+      "nf": "406109",
+      "rca": 296,
+      "rca_nome": "LUDMILLA DA SILVA",
+      "cliente": "TOP RESTAURANTE RODIZIO FOOD FUSION LTDA",
+      "rota": "TUP1A46 / BAIXADA FLUINENSE",
+      "responsavel": "Vendas",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA",
+      "valor": "R$ 298,94"
+    },
+    {
+      "nf": "406327",
+      "rca": 297,
+      "rca_nome": "LUIZA FREIRE",
+      "cliente": "JG MARKET INDOOR LTDA",
+      "rota": "LMW9C26 / ZONA SUDOESTE",
+      "responsavel": "Vendas",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA",
+      "valor": "R$ 1.335,01"
+    },
+    {
+      "nf": "406060",
+      "rca": 297,
+      "rca_nome": "LUIZA FREIRE",
+      "cliente": "RENAN CARVALHO DE OLIVEIRA SOARES",
+      "rota": "SSA9A24 / ZONA OESTE",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA)",
+      "valor": "R$ 522,32"
+    },
+    {
+      "nf": "405955",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "COCKTAIL E DREAMS LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 2.336,40"
+    },
+    {
+      "nf": "406040",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "57.049.032 WALLACE RODRIGUES DO NASCIMENTO",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 6.957,60"
+    },
+    {
+      "nf": "406046",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "LIZ COCKTAIL BAR & CO LTDA",
+      "rota": "LMW9C26 / ZONA SUL",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - ABERTURA EM HORÁRIO ESPECÍFICO",
+      "valor": "R$ 1.140,80"
+    },
+    {
+      "nf": "406026",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "CASA BLACK RIO BAR E RESTAURANTE LTDA",
+      "rota": "TTQ1A33 / ZONA OESTE",
+      "responsavel": "Outros",
+      "motivo": "OUTROS",
+      "valor": "R$ 5.186,99"
+    },
+    {
+      "nf": "405741",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "HORIZON 04 LTDA",
+      "rota": "TTZ8B96 / ZONA SUL",
+      "responsavel": "Não Identificado",
+      "motivo": "Não Informado",
+      "valor": "R$ 43.506,50"
+    },
+    {
+      "nf": "405515",
+      "rca": 37,
+      "rca_nome": "RC",
+      "cliente": "PVV AGUA SANTA DISTRIBUIDORA DE BEBIDAS LTDA",
+      "rota": "SSE7A76 / BAIXADA FLUINENSE",
+      "responsavel": "Vendas",
+      "motivo": "CANCELAMENTO",
+      "valor": "R$ 1.388,70"
+    },
+    {
+      "nf": "402040",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "BOTTINO E MIRIAN BUFFET E RESTAURANTE LTDA",
+      "rota": "LTG4A18 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "CANCELAMENTO",
+      "valor": "R$ 2.791,92"
+    },
+    {
+      "nf": "405952",
+      "rca": 438,
+      "rca_nome": "TAMIRES GOMES",
+      "cliente": "OMBAK BAGUS LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.150,33"
+    },
+    {
+      "nf": "406110",
+      "rca": 445,
+      "rca_nome": "MARIANA RESTUM",
+      "cliente": "66.015.343 THIAGO MORENO DE OLIVEIRA MARINS",
+      "rota": "TUP1A46 / BAIXADA FLUINENSE",
+      "responsavel": "Vendas",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA",
+      "valor": "R$ 898,56"
+    },
+    {
+      "nf": "406043",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "JNH SUPERMERCADOS LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 760,44"
+    },
+    {
+      "nf": "406044",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "JNH SUPERMERCADOS LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 838,55"
+    },
+    {
+      "nf": "406041",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 436,63"
+    },
+    {
+      "nf": "406042",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 802,91"
+    },
+    {
+      "nf": "6177",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "JNH SUPERMERCADOS LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 559,08"
+    },
+    {
+      "nf": "6176",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "JNH SUPERMERCADOS LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 493,38"
+    },
+    {
+      "nf": "6174",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 427,08"
+    },
+    {
+      "nf": "6175",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 458,88"
+    },
+    {
+      "nf": "405983",
+      "rca": 219,
+      "rca_nome": "JULIA PACIELLO",
+      "cliente": "THE FIRM LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 2.037,60"
+    },
+    {
+      "nf": "406286",
+      "rca": 219,
+      "rca_nome": "JULIA PACIELLO",
+      "cliente": "43.814.622 ANA LUIZA CARVALHO DANGELO MENDONCA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.873,50"
+    },
+    {
+      "nf": "405912",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "DEPOSITO DE BEBIDAS E LANCHONETE DUPLA HONRA LTDA",
+      "rota": "TUP1A46 / BAIXADA FLUINENSE",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM A EQUIPE",
+      "valor": "R$ 307,60"
+    }
   ]
 }
