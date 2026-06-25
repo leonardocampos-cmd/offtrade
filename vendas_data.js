@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "25/06/2026 15:08",
+  "atualizado_em": "25/06/2026 16:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -44261,6 +44261,16 @@ const VENDAS_DATA = {
           "fantasia": "HENNESSY",
           "qt": 6,
           "valor": 455.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "61129",
+          "cliente": "AUTO POSTO MASP JARDIM LTDA.",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 30,
+          "valor": 597.0,
           "tipo": "Venda"
         },
         {
@@ -117015,6 +117025,16 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 4,
           "valor": 619.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "66299",
+          "cliente": "SAL COM ERVAS GASTRONOMIA E EVENTOS LTDA",
+          "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 2,
+          "valor": 309.8,
           "tipo": "Venda"
         },
         {
@@ -227906,6 +227926,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "25/06/2026",
+          "codcli": "70261",
+          "cliente": "SALES E SOUZA MINIMERCADO LTDA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 706.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "19/06/2026",
           "codcli": "76873",
           "cliente": "BOLD BURGER LANCHES LTDA",
@@ -275057,6 +275087,46 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 71.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "62243",
+          "cliente": "RODRIGO DA SILVA NAZARETH",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 286.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "62243",
+          "cliente": "RODRIGO DA SILVA NAZARETH",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 539.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "62243",
+          "cliente": "RODRIGO DA SILVA NAZARETH",
+          "produto": "RED BULL SUGAR FREE 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 539.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "62243",
+          "cliente": "RODRIGO DA SILVA NAZARETH",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 539.28,
           "tipo": "Venda"
         },
         {
