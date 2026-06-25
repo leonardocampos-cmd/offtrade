@@ -5,9 +5,9 @@ const AMARULA_DATA = {
     "fim": "25/06/2026"
   },
   "premio": 3000,
-  "total_vendedores": 44,
-  "total_positivacao": 179,
-  "total_faturamento": 402084.84,
+  "total_vendedores": 39,
+  "total_positivacao": 174,
+  "total_faturamento": 83671.90,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
@@ -102,10 +102,6 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "BEBIDA IN BOX",
-      "valor": 1
-    },
-    {
       "vendedor": "ARLEN SOARES",
       "valor": 1
     },
@@ -138,14 +134,6 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "LOJA",
-      "valor": 1
-    },
-    {
-      "vendedor": "KELLY RAMOS - OFF TRADE",
-      "valor": 1
-    },
-    {
       "vendedor": "PEDRO HENRIQUE DUARTE",
       "valor": 1
     },
@@ -162,10 +150,6 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "RQ",
-      "valor": 1
-    },
-    {
       "vendedor": "ROBERTO DOS SANTOS - OFF TRADE",
       "valor": 1
     },
@@ -178,23 +162,11 @@ const AMARULA_DATA = {
       "valor": 1
     },
     {
-      "vendedor": "VENDEDOR 02",
-      "valor": 1
-    },
-    {
       "vendedor": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "valor": 1
     }
   ],
   "ranking_faturamento": [
-    {
-      "vendedor": "VENDEDOR 02",
-      "valor": 294875.76
-    },
-    {
-      "vendedor": "KELLY RAMOS - OFF TRADE",
-      "valor": 21576.0
-    },
     {
       "vendedor": "JORGE MACIEL - OFF TRADE",
       "valor": 14384.0
@@ -252,20 +224,12 @@ const AMARULA_DATA = {
       "valor": 1600.2
     },
     {
-      "vendedor": "RQ",
-      "valor": 1128.6
-    },
-    {
       "vendedor": "VANESSA SOUSA",
       "valor": 1066.8
     },
     {
       "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "valor": 726.3
-    },
-    {
-      "vendedor": "LOJA",
-      "valor": 666.08
     },
     {
       "vendedor": "IASMIM NUNES ",
@@ -326,10 +290,6 @@ const AMARULA_DATA = {
     {
       "vendedor": "JOHNATTAN MATHEUS",
       "valor": 176.8
-    },
-    {
-      "vendedor": "BEBIDA IN BOX",
-      "valor": 166.5
     },
     {
       "vendedor": "PEDRO HENRIQUE DUARTE",
