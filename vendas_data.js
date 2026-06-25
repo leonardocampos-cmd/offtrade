@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "25/06/2026 14:44",
+  "atualizado_em": "25/06/2026 15:08",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -49401,6 +49401,36 @@ const VENDAS_DATA = {
           "fantasia": "INTERFOOD",
           "qt": 1,
           "valor": 89.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "93635",
+          "cliente": "INSTITUTO DEMOLINARI DE SERVICOS MEDICOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "93635",
+          "cliente": "INSTITUTO DEMOLINARI DE SERVICOS MEDICOS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "93635",
+          "cliente": "INSTITUTO DEMOLINARI DE SERVICOS MEDICOS LTDA",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2,
           "tipo": "Venda"
         },
         {
@@ -101666,6 +101696,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "25/06/2026",
+          "codcli": "83952",
+          "cliente": "DELICIA DE COSTELA BAR E LANCHONETE LTDA",
+          "produto": "GIN DUBAR 960ML",
+          "fantasia": "DUBAR",
+          "qt": 12,
+          "valor": 257.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "83952",
+          "cliente": "DELICIA DE COSTELA BAR E LANCHONETE LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 334.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "15/06/2026",
           "codcli": "83815",
           "cliente": "POSTO DE GASOLINA E SERVICOS NOVA VALQUEIRE LTDA",
@@ -116968,6 +117018,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "25/06/2026",
+          "codcli": "66299",
+          "cliente": "SAL COM ERVAS GASTRONOMIA E EVENTOS LTDA",
+          "produto": "WHISKY ESC MACALLAN SHERRY OAK 12Y 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 4,
+          "valor": 2799.6,
+          "tipo": "Venda"
+        },
+        {
           "data": "01/06/2026",
           "codcli": "70802",
           "cliente": "NASOLI COMERCIO DE BEBIDAS LTDA",
@@ -118328,6 +118388,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "25/06/2026",
+          "codcli": "94591",
+          "cliente": "50.184.439 RENATA CRISTIANE BERTO DOS SANTOS",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 6,
+          "valor": 107.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "94591",
+          "cliente": "50.184.439 RENATA CRISTIANE BERTO DOS SANTOS",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 6,
+          "valor": 77.4,
+          "tipo": "Venda"
+        },
+        {
           "data": "08/06/2026",
           "codcli": "91445",
           "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM OLAVO BI",
@@ -118985,6 +119065,46 @@ const VENDAS_DATA = {
           "fantasia": "INTERFOOD",
           "qt": 12,
           "valor": 1078.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "94809",
+          "cliente": "RALEF COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 199.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "94809",
+          "cliente": "RALEF COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 199.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "94809",
+          "cliente": "RALEF COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 1,
+          "valor": 14.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "94809",
+          "cliente": "RALEF COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "fantasia": "INTERFOOD",
+          "qt": 3,
+          "valor": 269.7,
           "tipo": "Venda"
         },
         {
@@ -256824,6 +256944,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "25/06/2026",
+          "codcli": "76946",
+          "cliente": "AUTO POSTO 500 TINGUI LTDA",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "fantasia": "COMARY",
+          "qt": 5,
+          "valor": 389.5,
+          "tipo": "Venda"
+        },
+        {
           "data": "23/06/2026",
           "codcli": "76947",
           "cliente": "OLINDA ELLIS CONVENIENCIA EXPRESS LTDA",
@@ -276187,6 +276317,46 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 87.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "95334",
+          "cliente": "MERCADO E MERCEARIA PADRAO LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 64.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "95334",
+          "cliente": "MERCADO E MERCEARIA PADRAO LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 129.12,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "95506",
+          "cliente": "MERCEARIA ECONOMIA JFA LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 480.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "95506",
+          "cliente": "MERCEARIA ECONOMIA JFA LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 240.0,
           "tipo": "Venda"
         },
         {
