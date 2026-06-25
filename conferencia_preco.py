@@ -61,12 +61,12 @@ profit.drop(columns=['Unnamed: 0', 'PRODUTO', 'FORNECEDORA', 'TIPO',
 df.columns = df.columns.str.upper()
 df['CODPROD'] = df['CODPROD'].astype(str).str.strip()
 
-df = df.merge(tabela_preco_on[['COD CRC', 'PREÇO TABELA']], left_on='CODPROD', right_on='COD CRC', how='left')
+df = df.merge(tabela_preco_on[['COD CRC', 'PREÇO']], left_on='CODPROD', right_on='COD CRC', how='left')
 df = df.merge(tabela_promo[['COD PROMO', 'PREÇO PROMO']], left_on='CODPROD', right_on='COD PROMO', how='left')
 profit['CODIGO'] = profit['CODIGO'].astype(str).str.strip()
 df = df.merge(profit[['CODIGO', 'CUSTO COM DESCONTO']], left_on='CODPROD', right_on='CODIGO', how='left')
 
-df = df.rename(columns={'PREÇO TABELA': 'PREÇO ON'})
+df = df.rename(columns={'PREÇO': 'PREÇO ON'})
 
 def aplicar_conferencia(df_local):
 
