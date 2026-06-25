@@ -1,9 +1,9 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "25/06/2026 15:10",
+  "atualizado_em": "25/06/2026 16:02",
   "por_vendedor": {
-    "ADER ALONSO -": [
+    "ADER ALONSO": [
       {
         "codcli": "32989",
         "cliente": "FIABCI/BRASIL-CAPITULO NACIONAL BRAS.DA FEDER.INTERN.DAS PR",
@@ -931,7 +931,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "ADRIANO VEZZANI -": [
+    "ADRIANO VEZZANI": [
       {
         "codcli": "51048",
         "cliente": "SIM EMPREENDIMENTOS COMERCIAIS - SUPERMERCADOS LTDA",
@@ -1066,7 +1066,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "ANA PAULA -": [
+    "ANA PAULA": [
       {
         "codcli": "46853",
         "cliente": "ALEXANDRE TEIXEIRA LTDA",
@@ -1108,7 +1108,7 @@ const NAO_POS_SP_DATA = {
         ]
       }
     ],
-    "ANDRE PINHEIRO -": [
+    "ANDRE PINHEIRO": [
       {
         "codcli": "23144",
         "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
@@ -1159,7 +1159,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "ANDRE SILVA -": [
+    "ANDRE SILVA": [
       {
         "codcli": "49168",
         "cliente": "RIO TAMA DISTRIBUIDORA LTDA",
@@ -1326,7 +1326,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "BRUNO BARBOSA -": [
+    "BRUNO BARBOSA": [
       {
         "codcli": "49242",
         "cliente": "SEU VINHO COMERCIAL LTDA",
@@ -1932,7 +1932,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "BRYAN PALOPOLI -": [
+    "BRYAN PALOPOLI": [
       {
         "codcli": "50221",
         "cliente": "CERBAIA PROMOCAO DE EVENTOS LTDA",
@@ -1967,7 +1967,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "CARLOS DE ALMEIDA -": [
+    "CARLOS DE ALMEIDA": [
       {
         "codcli": "48427",
         "cliente": "COMERCIAL DE ALIMENTOS TAKARA-MUTINGA LTDA",
@@ -2059,32 +2059,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "48421",
-        "cliente": "REDE PLUS SUPERMERCADOS LTDA",
-        "bairro": "VILA FANTON",
-        "dtultcomp": "16/04/2026",
-        "produtos": [
-          {
-            "produto": "CACHAÇA SAO FRANCISCO 970ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 125.4
-          },
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 77.7
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 3,
-            "valor": 293.67
-          }
-        ]
-      },
-      {
         "codcli": "49254",
         "cliente": "REDE PLUS SUPERMERCADOS LTDA",
         "bairro": "VILA SOUZA",
@@ -2117,6 +2091,52 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "48421",
+        "cliente": "REDE PLUS SUPERMERCADOS LTDA",
+        "bairro": "VILA FANTON",
+        "dtultcomp": "16/04/2026",
+        "produtos": [
+          {
+            "produto": "CACHAÇA SAO FRANCISCO 970ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 125.4
+          },
+          {
+            "produto": "CONHAQUE DOMECQ 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 77.7
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 3,
+            "valor": 293.67
+          }
+        ]
+      },
+      {
+        "codcli": "48426",
+        "cliente": "REDE PLUS SUPERMERCADOS LTDA",
+        "bairro": "VILA PERUS",
+        "dtultcomp": "16/04/2026",
+        "produtos": [
+          {
+            "produto": "CONHAQUE DOMECQ 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 77.7
+          },
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY BRASIL",
+            "qt": 6,
+            "valor": 359.4
+          }
+        ]
+      },
+      {
         "codcli": "48429",
         "cliente": "REDE PLUS SUPERMERCADOS LTDA",
         "bairro": "LIMÃO",
@@ -2133,26 +2153,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 161.7
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 6,
-            "valor": 359.4
-          }
-        ]
-      },
-      {
-        "codcli": "48426",
-        "cliente": "REDE PLUS SUPERMERCADOS LTDA",
-        "bairro": "VILA PERUS",
-        "dtultcomp": "16/04/2026",
-        "produtos": [
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 77.7
           },
           {
             "produto": "WHISKY JIM BEAM WHITE 1L",
@@ -2648,7 +2648,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "CARLOS TERRA -": [
+    "CARLOS TERRA": [
       {
         "codcli": "50033",
         "cliente": "META ATACADO E DISTRIBUICAO LTDA",
@@ -2664,7 +2664,7 @@ const NAO_POS_SP_DATA = {
         ]
       }
     ],
-    "CAROLINA SOUZA -": [
+    "CAROLINA SOUZA": [
       {
         "codcli": "46740",
         "cliente": "GOIS & GOIS COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
@@ -2729,11 +2729,32 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "CELSO OLIVEIRA -": [
+    "CELSO OLIVEIRA": [
       {
         "codcli": "51318",
         "cliente": "GREEN CERVEJA E CIA LTDA",
         "bairro": "JARDIM ELDORADO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51324",
+        "cliente": "PAULO JOSE SALINA & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51325",
+        "cliente": "PAULO JOSE SALINA & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51323",
+        "cliente": "PAULO JOSE SALINA & CIA LTDA",
+        "bairro": "TERRAS DE SÃO JOAQUIM II",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -2745,7 +2766,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "CIARA PADULA -": [
+    "CIARA PADULA": [
       {
         "codcli": "49999",
         "cliente": "SUPERMERCADO IMACULADA LTDA",
@@ -3091,7 +3112,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "CRISTIANE MORAIS -": [
+    "CRISTIANE MORAIS": [
       {
         "codcli": "38205",
         "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
@@ -3381,7 +3402,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "DANIELLE DOS SANTOS -": [
+    "DANIELLE DOS SANTOS": [
       {
         "codcli": "49912",
         "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
@@ -3487,7 +3508,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "DIOGO RAPOSO -": [
+    "DIOGO RAPOSO": [
       {
         "codcli": "51130",
         "cliente": "JC LOJA DE CONVENIENCIA LTDA",
@@ -3496,7 +3517,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "DOUGLAS TEIXEIRA -": [
+    "DOUGLAS TEIXEIRA": [
       {
         "codcli": "51188",
         "cliente": "M S KURODA & CIA LTDA",
@@ -3519,7 +3540,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "EDUARDO COUTO -": [
+    "EDUARDO COUTO": [
       {
         "codcli": "25544",
         "cliente": "MARCOS, CREONE E WILLIAN DISTRIBUIDORA DE DOCES E BEBIDAS LT",
@@ -3673,7 +3694,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "FERNANDO BERTIN -": [
+    "FERNANDO BERTIN": [
       {
         "codcli": "51171",
         "cliente": "ADEGA E CONVENIENCIA BETIL LTDA",
@@ -3738,7 +3759,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "FLAVIO RIBEIRO -": [
+    "FLAVIO RIBEIRO": [
       {
         "codcli": "50526",
         "cliente": "H. DE SOUZA MINIMERCADO LTDA",
@@ -3864,7 +3885,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "FRANCIS SILVA -": [
+    "FRANCIS SILVA": [
       {
         "codcli": "50442",
         "cliente": "MARIA APARECIDA DA SILVA ANDREAZA 28097283808",
@@ -3922,7 +3943,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "GILSON DE OLIVEIRA -": [
+    "GILSON DE OLIVEIRA": [
       {
         "codcli": "51067",
         "cliente": "AQUILANTE & CIA LTDA",
@@ -4015,7 +4036,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "JOAO LUPORINI -": [
+    "JOAO LUPORINI": [
       {
         "codcli": "46214",
         "cliente": "ALLIZ ADMINISTRACAO DE BENS E CONDOMINIOS LTDA",
@@ -4031,7 +4052,7 @@ const NAO_POS_SP_DATA = {
         ]
       }
     ],
-    "LEONARDO FLOREZI -": [
+    "LEONARDO FLOREZI": [
       {
         "codcli": "50826",
         "cliente": "43.292.619 JONATHAS DE ALMEIDA MACEDO",
@@ -4082,16 +4103,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50930",
+        "codcli": "50929",
         "cliente": "OFELIA SARRI MORETE",
-        "bairro": "JARDIM DAS COLINAS",
+        "bairro": "CHACARAS FAZENDA COELHO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50929",
+        "codcli": "50930",
         "cliente": "OFELIA SARRI MORETE",
-        "bairro": "CHACARAS FAZENDA COELHO",
+        "bairro": "JARDIM DAS COLINAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4117,7 +4138,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "LUCAS BUENO -": [
+    "LUCAS BUENO": [
       {
         "codcli": "51305",
         "cliente": "58.314.612 MARIA DE FATIMA DE SOUSA BERTO",
@@ -4196,7 +4217,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "LUCIANO TOSCHI -": [
+    "LUCIANO TOSCHI": [
       {
         "codcli": "50492",
         "cliente": "FLAVIO HENRIQUE DONISETE PANCHONI 07712248850",
@@ -4274,14 +4295,21 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50478",
+        "codcli": "50477",
+        "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
+        "bairro": "JARDIM PARENTI",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50412",
         "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50475",
+        "codcli": "50478",
         "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -4295,21 +4323,14 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50477",
-        "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
-        "bairro": "JARDIM PARENTI",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "50412",
+        "codcli": "50475",
         "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       }
     ],
-    "LUIZ RIGLER -": [
+    "LUIZ RIGLER": [
       {
         "codcli": "51026",
         "cliente": "40.647.192 MARCIA MAMPRIM",
@@ -4416,7 +4437,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "MANUELA ZAPPACOSTA -": [
+    "MANUELA ZAPPACOSTA": [
       {
         "codcli": "26103",
         "cliente": "EMPORIO E ADEGA SAO CAETANO LTDA",
@@ -4743,7 +4764,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "MARCELO PEREIRA -": [
+    "MARCELO PEREIRA": [
       {
         "codcli": "51265",
         "cliente": "62.354.916 RAUL ZANELLA",
@@ -4752,7 +4773,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "MARCIA RITA -": [
+    "MARCIA RITA": [
       {
         "codcli": "39499",
         "cliente": "CONVENIENCIA ESTADIO DO GUEDALA LTDA",
@@ -5004,7 +5025,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "MARCUS TANAMACHI -": [
+    "MARCUS TANAMACHI": [
       {
         "codcli": "47425",
         "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
@@ -5086,7 +5107,7 @@ const NAO_POS_SP_DATA = {
         ]
       }
     ],
-    "MARIA PEREIRA -": [
+    "MARIA PEREIRA": [
       {
         "codcli": "40709",
         "cliente": "GS DISTRIBUIDORA DE BEBIDAS LTDA",
@@ -5114,7 +5135,7 @@ const NAO_POS_SP_DATA = {
         ]
       }
     ],
-    "MARLENE RODRIGUES -": [
+    "MARLENE RODRIGUES": [
       {
         "codcli": "49952",
         "cliente": "J.C.REAL VITAL COMERCIO E SERVICOS DE TRANSPORTES LTDA",
@@ -5256,7 +5277,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "PATRICIA RAMOS -": [
+    "PATRICIA RAMOS": [
       {
         "codcli": "50298",
         "cliente": "SHOPPING FARTURA COMERCIO DE HORTIFRUTIGRANJEIROS LTDA",
@@ -5628,7 +5649,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "PATRICIO MASSAGARDI -": [
+    "PATRICIO MASSAGARDI": [
       {
         "codcli": "50353",
         "cliente": "COMERCIO DE PRODUTOS ALIMENTICIOS FREGNI LTDA",
@@ -5760,7 +5781,7 @@ const NAO_POS_SP_DATA = {
         ]
       }
     ],
-    "PAULO JUNIOR -": [
+    "PAULO JUNIOR": [
       {
         "codcli": "50294",
         "cliente": "MFD MERCADO LTDA",
@@ -5845,7 +5866,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "PRISCILLA BONACHE -": [
+    "PRISCILLA BONACHE": [
       {
         "codcli": "50424",
         "cliente": "46.547.388 WELLINGTON HENRIQUE ALVES",
@@ -5931,7 +5952,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "RENATO JUNIOR -": [
+    "RENATO JUNIOR": [
       {
         "codcli": "42942",
         "cliente": "LS ATACADO DE BEBIDAS E ALIMENTOS LTDA",
@@ -6321,7 +6342,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "ROBERTO DOS SANTOS -": [
+    "ROBERTO DOS SANTOS": [
       {
         "codcli": "49995",
         "cliente": "NIHEI ALIMENTOS LTDA",
@@ -6433,7 +6454,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "ROBSON DA SILVA -": [
+    "ROBSON DA SILVA": [
       {
         "codcli": "40451",
         "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
@@ -6449,7 +6470,7 @@ const NAO_POS_SP_DATA = {
         ]
       }
     ],
-    "RODRIGO LIMA -": [
+    "RODRIGO LIMA": [
       {
         "codcli": "50415",
         "cliente": "GABRIEL SODRE NUNES 39583734888",
@@ -6700,7 +6721,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "SUELY SANTOS -": [
+    "SUELY SANTOS": [
       {
         "codcli": "49962",
         "cliente": "JOAO VITOR CEDRO HERNANDES COMERCIO DE BEBIDAS LTDA",
@@ -6719,6 +6740,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51249",
         "cliente": "60.855.029 CAIO FELIPHE SANTOS SOUZA",
         "bairro": "CONJUNTO RESIDENCIAL SANTO ÂNGELO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51321",
+        "cliente": "ARMANDO PINHEIRO RIBEIRO COMERCIO DE BEBIDAS E TRANSPORTES",
+        "bairro": "JARDIM MEDINA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11032,7 +11060,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       }
     ],
-    "WANDO MACHADO -": [
+    "WANDO MACHADO": [
       {
         "codcli": "50176",
         "cliente": "RIO GRANDE COMERCIO DE CARNES LTDA",
