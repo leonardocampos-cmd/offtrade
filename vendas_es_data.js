@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "25/06/2026 17:02",
+  "atualizado_em": "25/06/2026 18:30",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -308,6 +308,11 @@ const VENDAS_ES_DATA = {
         "pos": 11,
         "fat_ant": 0.0
       },
+      "Jun/26": {
+        "fat": 60164.26,
+        "pos": 14,
+        "fat_ant": 284639.24
+      },
       "Abr/26": {
         "fat": 118062.39,
         "pos": 28,
@@ -317,11 +322,6 @@ const VENDAS_ES_DATA = {
         "fat": 284639.24,
         "pos": 45,
         "fat_ant": 118062.39
-      },
-      "Jun/26": {
-        "fat": 40308.08,
-        "pos": 12,
-        "fat_ant": 284639.24
       }
     },
     "MARA DEPOLLI": {
@@ -86264,6 +86264,611 @@ const VENDAS_ES_DATA = {
           "valor": 232.8
         }
       ],
+      "Jun/26": [
+        {
+          "data": "25/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 1055.88
+        },
+        {
+          "data": "15/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 392.64
+        },
+        {
+          "data": "15/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 196.32
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI BIG APPLE 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI MOJITO 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "15/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI MOJITO 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI SUPERIOR 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI GOLD 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 470.52
+        },
+        {
+          "data": "15/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI GOLD 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 470.52
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI LIMON 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 36,
+          "valor": 2876.4
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 24,
+          "valor": 1917.6
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 36,
+          "valor": 2876.4
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 12,
+          "valor": 1572.0
+        },
+        {
+          "data": "15/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 6,
+          "valor": 786.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "fantasia": "",
+          "qt": 42,
+          "valor": 1624.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "XAROPE FABBRI AMARENA 560ML",
+          "fantasia": "",
+          "qt": 42,
+          "valor": 1624.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "XAROPE FABBRI MENTA ZERO 560ML",
+          "fantasia": "",
+          "qt": 11,
+          "valor": 425.33
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "XAROPE FABBRI MACA VERDE 560ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 2320.0
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 197.7
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 343.44
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 1302.0
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 1302.0
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 1302.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "",
+          "qt": 20,
+          "valor": 2604.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "76073",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 1302.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 781.2
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "76072",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 1302.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82537",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 1302.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 1302.0
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 741.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 1482.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 741.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 1482.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 296.4
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "76071",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 480.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 192.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 288.0
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 480.0
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "76071",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 20,
+          "valor": 892.8
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 178.56
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 89.28
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 178.56
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "76071",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 178.56
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 10,
+          "valor": 446.4
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "76071",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 10,
+          "valor": 446.4
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 6,
+          "valor": 267.84
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 6,
+          "valor": 267.84
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 139.62
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 3,
+          "valor": 116.4
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 120,
+          "valor": 1831.2
+        },
+        {
+          "data": "15/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 24,
+          "valor": 366.24
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 8,
+          "valor": 810.32
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 19,
+          "valor": 1924.51
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 11,
+          "valor": 1114.19
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
+          "fantasia": "TATUZINHO",
+          "qt": 16,
+          "valor": 906.4
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO TONICA LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 14,
+          "valor": 793.1
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 14,
+          "valor": 793.1
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 17,
+          "valor": 963.05
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 25,
+          "valor": 1416.25
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA PALOMA LT 270MLX6",
+          "fantasia": "TATUZINHO",
+          "qt": 36,
+          "valor": 974.25
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA LARANJA  LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 20,
+          "valor": 1870.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA GUARANA  LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 20,
+          "valor": 1870.0
+        }
+      ],
       "Abr/26": [
         {
           "data": "22/04/2026",
@@ -91972,467 +92577,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 5,
           "valor": 659.5
-        }
-      ],
-      "Jun/26": [
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "GIN BOMBAY SAPPHIRE 750ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 1055.88
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "MARTINI ROSATO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 427.68
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "VODKA NATASHA 900ML",
-          "fantasia": "BACARDI",
-          "qt": 24,
-          "valor": 392.64
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "VODKA NATASHA 900ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 196.32
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "MARTINI ROSSO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 427.68
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "RUM BACARDI BIG APPLE 700ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 427.68
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "RUM BACARDI MOJITO 700ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 427.68
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "RUM BACARDI MOJITO 700ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 427.68
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "RUM BACARDI SUPERIOR 700ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 427.68
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "RUM BACARDI GOLD 700ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 470.52
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "RUM BACARDI GOLD 700ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 470.52
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "RUM BACARDI LIMON 700ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 427.68
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 36,
-          "valor": 2876.4
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 24,
-          "valor": 1917.6
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 36,
-          "valor": 2876.4
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "LICOR BALLENA MORANGO 750 ML",
-          "fantasia": "BALLENA",
-          "qt": 12,
-          "valor": 1572.0
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "LICOR BALLENA MORANGO 750 ML",
-          "fantasia": "BALLENA",
-          "qt": 6,
-          "valor": 786.0
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
-          "qt": 30,
-          "valor": 197.7
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 343.44
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
-          "qt": 10,
-          "valor": 1302.0
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
-          "qt": 10,
-          "valor": 1302.0
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
-          "qt": 10,
-          "valor": 1302.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
-          "qt": 20,
-          "valor": 2604.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "76073",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
-          "qt": 10,
-          "valor": 1302.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82542",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 781.2
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "76072",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
-          "qt": 10,
-          "valor": 1302.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82537",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
-          "qt": 10,
-          "valor": 1302.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
-          "qt": 10,
-          "valor": 1302.0
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 741.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
-          "qt": 10,
-          "valor": 1482.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82542",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 741.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
-          "qt": 10,
-          "valor": 1482.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 296.4
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "76071",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 480.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 192.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82542",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 288.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 480.0
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI NUTS ORIGINAL 20X30G",
-          "fantasia": "PINATI",
-          "qt": 2,
-          "valor": 77.6
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "76071",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "fantasia": "PINATI",
-          "qt": 20,
-          "valor": 892.8
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "fantasia": "PINATI",
-          "qt": 4,
-          "valor": 178.56
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "fantasia": "PINATI",
-          "qt": 2,
-          "valor": 89.28
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "fantasia": "PINATI",
-          "qt": 4,
-          "valor": 178.56
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "76071",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "fantasia": "PINATI",
-          "qt": 4,
-          "valor": 178.56
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "fantasia": "PINATI",
-          "qt": 10,
-          "valor": 446.4
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "76071",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 10,
-          "valor": 446.4
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 6,
-          "valor": 267.84
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 6,
-          "valor": 267.84
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
-          "fantasia": "PINATI",
-          "qt": 2,
-          "valor": 139.62
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI NUTS BANANA 20X30G",
-          "fantasia": "PINATI",
-          "qt": 3,
-          "valor": 116.4
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 120,
-          "valor": 1831.2
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 24,
-          "valor": 366.24
         }
       ]
     },
