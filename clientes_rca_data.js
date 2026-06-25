@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "25/06/2026 15:10",
-  "total": 4379,
+  "atualizado_em": "25/06/2026 16:02",
+  "total": 4381,
   "clientes": [
     {
       "codcli": "31683",
@@ -7478,6 +7478,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "51321",
+      "razao": "ARMANDO PINHEIRO RIBEIRO COMERCIO DE BEBIDAS E TRANSPORTES",
+      "fantasia": "ARMANI",
+      "bairro": "JARDIM MEDINA",
+      "cidade": "POA",
+      "cnpj": "15.200.024/0001-61",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "codusur1": "461",
+      "nome_usur1": "SUELY SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "79838",
@@ -20984,8 +20998,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "05.623.979/0001-78",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "codusur1": "225",
+      "nome_usur1": "ERIC PESTANA",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45430,6 +45444,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCEARIA",
       "codusur1": "465",
       "nome_usur1": "CIARA PADULA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51323",
+      "razao": "PAULO JOSE SALINA & CIA LTDA",
+      "fantasia": "PAULO JOSE SALINA & CIA",
+      "bairro": "TERRAS DE SÃO JOAQUIM II",
+      "cidade": "IBITINGA",
+      "cnpj": "05.322.299/0004-67",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "498",
+      "nome_usur1": "CELSO OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
