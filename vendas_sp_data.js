@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "25/06/2026 16:01",
+  "atualizado_em": "25/06/2026 17:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -36462,6 +36462,15 @@ const VENDAS_SP_DATA = {
           "valor": 8748.0
         },
         {
+          "data": "25/06/2026",
+          "codcli": "47269",
+          "cliente": "TEMPO DIVINO COMERCIO DE BEBIDAS E ALIMENTOS LIMITADA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 1440,
+          "valor": 37296.0
+        },
+        {
           "data": "09/06/2026",
           "codcli": "47295",
           "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
@@ -51149,6 +51158,24 @@ const VENDAS_SP_DATA = {
           "valor": 784.8
         },
         {
+          "data": "25/06/2026",
+          "codcli": "36582",
+          "cliente": "CDB DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "AURORA",
+          "qt": 24,
+          "valor": 2013.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36582",
+          "cliente": "CDB DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 24,
+          "valor": 2013.6
+        },
+        {
           "data": "19/06/2026",
           "codcli": "38506",
           "cliente": "ARBORETO SUPERMERCADO LTDA",
@@ -51318,6 +51345,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "AURORA",
           "qt": 24,
           "valor": 2013.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "45521",
+          "cliente": "ADEGA DO PREA LTDA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 358.8
         },
         {
           "data": "11/06/2026",
@@ -63331,6 +63367,51 @@ const VENDAS_SP_DATA = {
           "valor": 538.8
         },
         {
+          "data": "25/06/2026",
+          "codcli": "36186",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
+          "qt": 6,
+          "valor": 395.4
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36186",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 120,
+          "valor": 1558.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36186",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 30,
+          "valor": 3417.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36186",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 120,
+          "valor": 7548.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36186",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 240,
+          "valor": 12456.0
+        },
+        {
           "data": "10/06/2026",
           "codcli": "36187",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
@@ -63349,6 +63430,33 @@ const VENDAS_SP_DATA = {
           "valor": 2508.0
         },
         {
+          "data": "25/06/2026",
+          "codcli": "36187",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
+          "qt": 6,
+          "valor": 395.4
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36187",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 120,
+          "valor": 1558.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36187",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 90,
+          "valor": 10251.0
+        },
+        {
           "data": "10/06/2026",
           "codcli": "36188",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
@@ -63358,6 +63466,42 @@ const VENDAS_SP_DATA = {
           "valor": 1402.8
         },
         {
+          "data": "25/06/2026",
+          "codcli": "36188",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 60,
+          "valor": 3774.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36188",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
+          "qt": 6,
+          "valor": 395.4
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36188",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 120,
+          "valor": 1558.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36188",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 30,
+          "valor": 3417.0
+        },
+        {
           "data": "10/06/2026",
           "codcli": "36189",
           "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
@@ -63365,6 +63509,69 @@ const VENDAS_SP_DATA = {
           "fantasia": "DIAGEO",
           "qt": 12,
           "valor": 1932.96
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36189",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
+          "qt": 6,
+          "valor": 395.4
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36189",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 120,
+          "valor": 1558.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36189",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 60,
+          "valor": 6834.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36189",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 24,
+          "valor": 1509.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36190",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 30,
+          "valor": 3417.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36190",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
+          "qt": 6,
+          "valor": 395.4
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36190",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 120,
+          "valor": 1558.8
         },
         {
           "data": "10/06/2026",
@@ -63385,6 +63592,33 @@ const VENDAS_SP_DATA = {
           "valor": 1932.96
         },
         {
+          "data": "25/06/2026",
+          "codcli": "36191",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
+          "qt": 6,
+          "valor": 395.4
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36191",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 120,
+          "valor": 1558.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36191",
+          "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 30,
+          "valor": 3417.0
+        },
+        {
           "data": "10/06/2026",
           "codcli": "36170",
           "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
@@ -63392,6 +63626,42 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 120,
           "valor": 4032.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36170",
+          "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 30,
+          "valor": 3417.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36170",
+          "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
+          "produto": "JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 60,
+          "valor": 3774.0
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36170",
+          "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
+          "qt": 6,
+          "valor": 395.4
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36170",
+          "cliente": "707 AUTO-SERVICO DE ALIMENTOS LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 60,
+          "valor": 779.4
         },
         {
           "data": "22/06/2026",
@@ -66426,6 +66696,33 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 12,
           "valor": 1199.88
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "46946",
+          "cliente": "DIEGO ALVES DE ALMEIDA 36550638810",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "46946",
+          "cliente": "DIEGO ALVES DE ALMEIDA 36550638810",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 358.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "46946",
+          "cliente": "DIEGO ALVES DE ALMEIDA 36550638810",
+          "produto": "WHISKY ROYAL SALUTE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 1139.8
         },
         {
           "data": "02/06/2026",
@@ -83031,10 +83328,10 @@ const VENDAS_SP_DATA = {
     },
     "CARLOS DE ALMEIDA": {
       "Jun/26": {
-        "fat": 99898.56,
-        "pos": 24.0,
-        "fat_pernod": 45955.5,
-        "fat_crs": 419.58,
+        "fat": 176030.16,
+        "pos": 25.0,
+        "fat_pernod": 58411.5,
+        "fat_crs": 10551.78,
         "fat_essenza": 1176.0
       },
       "Mai/26": {
@@ -83213,7 +83510,7 @@ const VENDAS_SP_DATA = {
     },
     "MANUELA ZAPPACOSTA": {
       "Jun/26": {
-        "fat": 160510.27,
+        "fat": 164896.27,
         "pos": 34.0,
         "fat_pernod": 86989.8,
         "fat_crs": 179.28
@@ -83369,9 +83666,9 @@ const VENDAS_SP_DATA = {
     },
     "MARLENE RODRIGUES": {
       "Jun/26": {
-        "fat": 47553.04,
+        "fat": 49710.44,
         "pos": 6.0,
-        "fat_pernod": 38776.0,
+        "fat_pernod": 40574.6,
         "fat_crs": 2397.6
       },
       "Mai/26": {
@@ -83590,9 +83887,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2174467.57,
+        "fat": 2211763.57,
         "pos": 149.0,
-        "fat_pernod": 1093447.03,
+        "fat_pernod": 1130743.03,
         "fat_crs": 38940.72
       },
       "Mai/26": {
