@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "25/06/2026 10:01",
+  "atualizado_em": "25/06/2026 10:57",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -400350,6 +400350,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "25/06/2026",
+          "codcli": "90710",
+          "cliente": "ALPHA GASTRONOMIA LTDA",
+          "produto": "VINHO FOODKILLER CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 624.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "90710",
+          "cliente": "ALPHA GASTRONOMIA LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 456.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "90710",
+          "cliente": "ALPHA GASTRONOMIA LTDA",
+          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 624.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "12/06/2026",
           "codcli": "90717",
           "cliente": "BONATO & BONATO LTDA",
@@ -504727,7 +504757,7 @@ const VENDAS_DATA = {
         }
       ]
     },
-    "ADRIANO VEZZANI \n- OFF TRADE": {
+    "ADRIANO VEZZANI - OFF TRADE": {
       "Jun/26": [
         {
           "data": "24/06/2026",
