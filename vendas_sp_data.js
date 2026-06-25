@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "25/06/2026 09:01",
+  "atualizado_em": "25/06/2026 10:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -37630,15 +37630,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7188.0
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "51019",
-          "cliente": "1000 GRAU COMERCIO DE BEBIDAS LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 4440,
-          "valor": 110600.4
         },
         {
           "data": "16/06/2026",
@@ -83599,9 +83590,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2285067.97,
-        "pos": 150.0,
-        "fat_pernod": 1204047.43,
+        "fat": 2174467.57,
+        "pos": 149.0,
+        "fat_pernod": 1093447.03,
         "fat_crs": 38940.72
       },
       "Mai/26": {
