@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "25/06/2026 11:05",
+  "atualizado_em": "25/06/2026 12:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -51725,6 +51725,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 196.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "83156",
+          "cliente": "PADARIA E CONFEITARIA BENTO LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 388.8,
           "tipo": "Venda"
         },
         {
@@ -446316,7 +446326,7 @@ const VENDAS_DATA = {
         {
           "data": "04/05/2026",
           "codcli": "25927",
-          "cliente": "CAIO PEDREIRA VIEIRA 43243179840",
+          "cliente": "CAIO PEDREIRA VIEIRA COMERCIO DE BEBIDAS",
           "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
           "fantasia": "BROWN",
           "qt": 36,
@@ -446326,7 +446336,7 @@ const VENDAS_DATA = {
         {
           "data": "07/05/2026",
           "codcli": "25927",
-          "cliente": "CAIO PEDREIRA VIEIRA 43243179840",
+          "cliente": "CAIO PEDREIRA VIEIRA COMERCIO DE BEBIDAS",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -446336,7 +446346,7 @@ const VENDAS_DATA = {
         {
           "data": "07/05/2026",
           "codcli": "25927",
-          "cliente": "CAIO PEDREIRA VIEIRA 43243179840",
+          "cliente": "CAIO PEDREIRA VIEIRA COMERCIO DE BEBIDAS",
           "produto": "VODKA ABSOLUT CITRON - 750 ML",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -446346,7 +446356,7 @@ const VENDAS_DATA = {
         {
           "data": "07/05/2026",
           "codcli": "25927",
-          "cliente": "CAIO PEDREIRA VIEIRA 43243179840",
+          "cliente": "CAIO PEDREIRA VIEIRA COMERCIO DE BEBIDAS",
           "produto": "WHISKY JIM BEAM WHITE 1L",
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 36,
@@ -446356,7 +446366,7 @@ const VENDAS_DATA = {
         {
           "data": "07/05/2026",
           "codcli": "25927",
-          "cliente": "CAIO PEDREIRA VIEIRA 43243179840",
+          "cliente": "CAIO PEDREIRA VIEIRA COMERCIO DE BEBIDAS",
           "produto": "VODKA GREY GOOSE LE CITRON 750ML",
           "fantasia": "BACARDI",
           "qt": 12,
@@ -446366,7 +446376,7 @@ const VENDAS_DATA = {
         {
           "data": "07/05/2026",
           "codcli": "25927",
-          "cliente": "CAIO PEDREIRA VIEIRA 43243179840",
+          "cliente": "CAIO PEDREIRA VIEIRA COMERCIO DE BEBIDAS",
           "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
           "fantasia": "BROWN",
           "qt": 12,
@@ -446376,7 +446386,7 @@ const VENDAS_DATA = {
         {
           "data": "07/05/2026",
           "codcli": "25927",
-          "cliente": "CAIO PEDREIRA VIEIRA 43243179840",
+          "cliente": "CAIO PEDREIRA VIEIRA COMERCIO DE BEBIDAS",
           "produto": "WHISKY JACK DANIELS 1L - DEST",
           "fantasia": "BROWN",
           "qt": 48,
@@ -446386,7 +446396,7 @@ const VENDAS_DATA = {
         {
           "data": "07/05/2026",
           "codcli": "25927",
-          "cliente": "CAIO PEDREIRA VIEIRA 43243179840",
+          "cliente": "CAIO PEDREIRA VIEIRA COMERCIO DE BEBIDAS",
           "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
           "fantasia": "BACARDI",
           "qt": 12,
