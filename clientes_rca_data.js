@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "25/06/2026 16:02",
-  "total": 4381,
+  "atualizado_em": "25/06/2026 17:02",
+  "total": 4392,
   "clientes": [
     {
       "codcli": "31683",
@@ -620,6 +620,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANDRE MATTOS"
     },
     {
+      "codcli": "85442",
+      "razao": "32.035.352 JOAO CARLOS FLORES DE SOUZA",
+      "fantasia": "JOAO CARLOS FLORES DE SOUZA",
+      "bairro": "RECANTO",
+      "cidade": "RIO DAS OSTRAS",
+      "cnpj": "32.035.352/0001-79",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "codusur1": "241",
+      "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
+    },
+    {
       "codcli": "81467",
       "razao": "32.049.972 MARCUS VINICIUS DA COSTA REIS",
       "fantasia": "MARCUS VINICIUS DA COSTA REIS",
@@ -812,6 +826,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "370",
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51333",
+      "razao": "37.311.177 EDSON GOMES DAS NEVES",
+      "fantasia": "EDSON GOMES DAS NEVES",
+      "bairro": "PINHEIRINHO",
+      "cidade": "ITAQUAQUECETUBA",
+      "cnpj": "37.311.177/0001-19",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -1134,6 +1162,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "TABACARIA",
       "codusur1": "461",
       "nome_usur1": "SUELY SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95512",
+      "razao": "42.091.059 THIAGO JEFFERSON PETIT",
+      "fantasia": "THIAGO JEFFERSON PETIT",
+      "bairro": "IMBETIBA",
+      "cidade": "MACAE",
+      "cnpj": "42.091.059/0001-82",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -1750,6 +1792,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50209",
+      "razao": "50.543.855 SIMONE SILVA DOS REIS",
+      "fantasia": "50.543.855 SIMONE SILVA DOS REIS",
+      "bairro": "JARDIM MARISA",
+      "cidade": "CAMPINAS",
+      "cnpj": "50.543.855/0001-37",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "470",
+      "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -3920,6 +3976,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "SERVIÇOS",
       "codusur1": "153",
       "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51331",
+      "razao": "67.078.441 JESSICA DE CARVALHO ESPINOSA CONCEICAO",
+      "fantasia": "JESSICA DE CARVALHO ESPINOSA CONCEICAO",
+      "bairro": "LOTEAMENTO SÃO FRANCISCO",
+      "cidade": "PIRACICABA",
+      "cnpj": "67.078.441/0001-87",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "470",
+      "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -13430,6 +13500,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51330",
+      "razao": "CELESTRIM & JULIANI MINIMERCADO LTDA",
+      "fantasia": "MINIMERCADO KI JOIA",
+      "bairro": "RECANTO DO SOL",
+      "cidade": "CERQUILHO",
+      "cnpj": "24.155.951/0001-06",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "489",
+      "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "24772",
       "razao": "CELSIUS CHOPPERIA E GASTRONOMIA LTDA",
       "fantasia": "BRASA 21",
@@ -16212,6 +16296,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "435",
       "nome_usur1": "JOAO VICTOR DA ROCHA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51332",
+      "razao": "COOPERATIVA DE CONSUMO POPULAR DE CERQUILHO",
+      "fantasia": "COOPERATIVA DE CONSUMO POPULAR DE CERQUILHO",
+      "bairro": "TERRAS DE SAO ROQUE",
+      "cidade": "TIETE",
+      "cnpj": "47.253.745/0002-07",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "489",
+      "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -21674,6 +21772,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RC",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51327",
+      "razao": "ESQUINA DO CHOPP FERRAZ LTDA",
+      "fantasia": "ESQUINA DO CHOPP FERRAZ LTDA",
+      "bairro": "JARDIM VISTA ALEGRE",
+      "cidade": "FERRAZ DE VASCONCELOS",
+      "cnpj": "61.956.920/0001-72",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "461",
+      "nome_usur1": "SUELY SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50455",
@@ -34108,6 +34220,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51336",
+      "razao": "MARINGA BAR LTDA",
+      "fantasia": "MARINGA BAR",
+      "bairro": "JARDIM SAO DIMAS",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "53.714.353/0001-10",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50491",
       "razao": "MARIO GABRIEL FILHO LTDA",
       "fantasia": "COMERCIAL MARINHO",
@@ -40390,6 +40516,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "153",
       "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51329",
+      "razao": "MINIMERCADO KI JOIA LTDA",
+      "fantasia": "MINIMERCADO KI JOIA",
+      "bairro": "RESIDENCIAL DI NAPOLI",
+      "cidade": "CERQUILHO",
+      "cnpj": "15.519.462/0001-97",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "489",
+      "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -54558,6 +54698,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "487",
       "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51335",
+      "razao": "SUPERMERCADO BLENTAN LTDA",
+      "fantasia": "SAO JOSE SUPERMERCADO",
+      "bairro": "CENTRO",
+      "cidade": "ITAPOLIS",
+      "cnpj": "53.332.185/0001-06",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "498",
+      "nome_usur1": "CELSO OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
