@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "25/06/2026 15:10",
+  "atualizado_em": "25/06/2026 16:02",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -801,6 +801,13 @@ const NAO_POS_MG_DATA = {
             "valor": 189.36
           }
         ]
+      },
+      {
+        "codcli": "39539",
+        "cliente": "MINIMERCADO E DISTRIBUIDORA JK LTDA",
+        "bairro": "LAGOA (JUSTINÓPOLIS)",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "39402",
