@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "25/06/2026 16:02",
+  "atualizado_em": "25/06/2026 17:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -246,7 +246,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 65306.52
       },
       "Jun/26": {
-        "fat": 74097.34,
+        "fat": 75099.94,
         "pos": 58,
         "fat_ant": 111009.88
       }
@@ -94217,6 +94217,60 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 5,
           "valor": 344.5
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36583",
+          "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 151.2
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36583",
+          "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
+          "produto": "VILLA ROSA ROSE 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 128.7
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36583",
+          "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 219.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36583",
+          "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
+          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 164.7
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36583",
+          "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
+          "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 164.7
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "36583",
+          "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
+          "produto": "VINHO MARQUÉS DE TEJARES 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 173.7
         },
         {
           "data": "25/06/2026",
