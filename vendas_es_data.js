@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "25/06/2026 12:02",
+  "atualizado_em": "25/06/2026 14:45",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -167,8 +167,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 90000.17
       },
       "Jun/26": {
-        "fat": 38572.92,
-        "pos": 14,
+        "fat": 38885.22,
+        "pos": 15,
         "fat_ant": 123102.29
       },
       "Abr/26": {
@@ -38997,6 +38997,15 @@ const VENDAS_ES_DATA = {
           "valor": 81.48
         },
         {
+          "data": "25/06/2026",
+          "codcli": "84091",
+          "cliente": "LAW BURGER SMJ LTDA",
+          "produto": "TEQUILA EL JIMADOR BLANCO 750 ML",
+          "fantasia": "BROWN",
+          "qt": 2,
+          "valor": 245.1
+        },
+        {
           "data": "24/06/2026",
           "codcli": "82137",
           "cliente": "MERCADO COLORADO LTDA",
@@ -39553,6 +39562,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 2,
           "valor": 113.28
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "84091",
+          "cliente": "LAW BURGER SMJ LTDA",
+          "produto": "ST PIERRE LATA BLUEBERRY LT 6X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 67.2
         },
         {
           "data": "24/06/2026",
