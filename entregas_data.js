@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "26/06/2026 12:17",
+  "atualizado_em": "26/06/2026 12:30",
   "data_rota": "26.06",
   "vendedores": [
     {
@@ -16944,6 +16944,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "159004941",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 23940.0,
+          "itens": [
+            {
+              "desc": "WHISKY PASSPORT HONEY 670ML",
+              "qt": 600,
+              "val": 23940.0
+            }
+          ]
+        },
         {
           "numped": "159004940",
           "numnota": "",
@@ -42202,6 +42222,56 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "155003769",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "AGROCOMPEC MARTHI LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 260.36,
+          "itens": [
+            {
+              "desc": "LICOR BANANAZINHA 750ML",
+              "qt": 1,
+              "val": 18.9
+            },
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 3,
+              "val": 212.7
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 1,
+              "val": 28.76
+            }
+          ]
+        },
+        {
+          "numped": "155003770",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "GALPAO DAS BEBIDAS CF LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 517.68,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 3,
+              "val": 517.68
+            }
+          ]
+        },
         {
           "numped": "155003753",
           "numnota": "",
