@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/06/2026 16:22",
+  "atualizado_em": "26/06/2026 17:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -456136,6 +456136,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "40916",
+          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1L",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1933.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "40916",
+          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 24,
+          "valor": 693.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "40916",
+          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
+          "produto": "VODKA CIROC 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 5,
+          "valor": 725.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "24/06/2026",
           "codcli": "40916",
           "cliente": "MERCADINHO DA VILA SUZANO LTDA",
@@ -465609,6 +465639,36 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 414.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50047",
+          "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 3348.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50047",
+          "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 634.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50047",
+          "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
+          "produto": "JACK DANIELS APPLE 700ML - DEST",
+          "fantasia": "BROWN",
+          "qt": 6,
+          "valor": 437.4,
           "tipo": "Venda"
         },
         {
@@ -482038,6 +482098,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "51327",
+          "cliente": "ESQUINA DO CHOPP FERRAZ LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51327",
+          "cliente": "ESQUINA DO CHOPP FERRAZ LTDA",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 5,
+          "valor": 399.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51327",
+          "cliente": "ESQUINA DO CHOPP FERRAZ LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "25/06/2026",
           "codcli": "51253",
           "cliente": "MEDRADO BURGUER LTDA",
@@ -491954,6 +492044,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "34252",
+          "cliente": "RAS DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1167.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "34252",
+          "cliente": "RAS DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1167.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "06/06/2026",
           "codcli": "46946",
           "cliente": "DIEGO ALVES DE ALMEIDA 36550638810",
@@ -492041,6 +492151,16 @@ const VENDAS_DATA = {
           "fantasia": "MOET HENNESY",
           "qt": 6,
           "valor": 455.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "49542",
+          "cliente": "ADAO NOE BISPO DE SOUZA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 6,
+          "valor": 419.4,
           "tipo": "Venda"
         },
         {
@@ -503625,6 +503745,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 742.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50420",
+          "cliente": "SUPER OSMARAJA EMPORIO LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 48,
+          "valor": 985.92,
           "tipo": "Venda"
         },
         {
