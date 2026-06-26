@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/06/2026 16:02",
+  "atualizado_em": "26/06/2026 16:08",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -52375,6 +52375,26 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 47.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "89950",
+          "cliente": "AMERICAN COOKIES VITORIA ES LTDA",
+          "produto": "XAROPE FABBRI MACA VERDE 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 86.91,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "89950",
+          "cliente": "AMERICAN COOKIES VITORIA ES LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.16,
           "tipo": "Venda"
         },
         {
@@ -409396,6 +409416,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "83319",
+          "cliente": "ACADEMIA VIDA ATIVA BOX LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 81.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "83319",
+          "cliente": "ACADEMIA VIDA ATIVA BOX LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 135.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "19/06/2026",
           "codcli": "83776",
           "cliente": "DUTRAS BEER LTDA",
@@ -409763,6 +409803,46 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 2,
           "valor": 360.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "93523",
+          "cliente": "23.999.927 LUZIA GOMES DE ALMEIDA",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 40.02,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "93523",
+          "cliente": "23.999.927 LUZIA GOMES DE ALMEIDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "93523",
+          "cliente": "23.999.927 LUZIA GOMES DE ALMEIDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 108.64,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "93523",
+          "cliente": "23.999.927 LUZIA GOMES DE ALMEIDA",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 40.02,
           "tipo": "Venda"
         },
         {
