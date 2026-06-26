@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/06/2026 12:16",
+  "atualizado_em": "26/06/2026 12:29",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -457053,16 +457053,6 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 36,
           "valor": 3596.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "47269",
-          "cliente": "TEMPO DIVINO COMERCIO DE BEBIDAS E ALIMENTOS LIMITADA",
-          "produto": "CHANDON RICHE DEMI-SEC 750ML",
-          "fantasia": "TOP BIRRA",
-          "qt": 30,
-          "valor": 2099.7,
           "tipo": "Venda"
         },
         {
