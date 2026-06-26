@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/06/2026 15:24",
+  "atualizado_em": "26/06/2026 15:50",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -48221,6 +48221,36 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "84103",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 185.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "84103",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 5,
+          "valor": 139.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "84103",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 2,
+          "valor": 179.8,
           "tipo": "Venda"
         },
         {
@@ -127578,6 +127608,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "2218",
+          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "produto": "SUCO MACA 100% DO BEM 24X200ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 88.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "2218",
+          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 286.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "16/06/2026",
           "codcli": "2710",
           "cliente": "MERCADINHO BAMBINA LTDA",
@@ -128075,6 +128125,26 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 4,
           "valor": 58.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "63723",
+          "cliente": "FONTES DE PRODUTOS NATURAIS LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "fantasia": "MINALBA",
+          "qt": 10,
+          "valor": 145.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "63723",
+          "cliente": "FONTES DE PRODUTOS NATURAIS LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
+          "fantasia": "MINALBA",
+          "qt": 8,
+          "valor": 175.2,
           "tipo": "Venda"
         },
         {
@@ -341525,6 +341595,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 4,
           "valor": 719.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "85149",
+          "cliente": "VILMA APARECIDA VIEIRA CARVALHO 94668167649",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 862.8,
           "tipo": "Venda"
         },
         {
