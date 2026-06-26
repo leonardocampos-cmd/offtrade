@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "26/06/2026 12:17",
+  "atualizado_em": "26/06/2026 12:30",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -36469,15 +36469,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 36,
           "valor": 3596.4
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "47269",
-          "cliente": "TEMPO DIVINO COMERCIO DE BEBIDAS E ALIMENTOS LIMITADA",
-          "produto": "CHANDON RICHE DEMI-SEC 750ML",
-          "fantasia": "TOP BIRRA",
-          "qt": 30,
-          "valor": 2099.7
         },
         {
           "data": "25/06/2026",
@@ -84781,7 +84772,7 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2229959.47,
+        "fat": 2227859.77,
         "pos": 148.0,
         "fat_pernod": 1150196.23,
         "fat_crs": 38940.72
