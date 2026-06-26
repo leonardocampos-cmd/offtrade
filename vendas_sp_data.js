@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "26/06/2026 11:42",
+  "atualizado_em": "26/06/2026 12:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -73829,15 +73829,6 @@ const VENDAS_SP_DATA = {
           "data": "22/06/2026",
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
-          "produto": "TEQUILA J CUERVO GOLD 750ML",
-          "fantasia": "AURORA",
-          "qt": 240,
-          "valor": 20400.0
-        },
-        {
-          "data": "22/06/2026",
-          "codcli": "40664",
-          "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "GIN BEEFEATER 750ML",
           "fantasia": "PERNOD",
           "qt": 480,
@@ -84612,7 +84603,7 @@ const VENDAS_SP_DATA = {
     },
     "PRISCILLA BONACHE": {
       "Jun/26": {
-        "fat": 304211.7,
+        "fat": 283811.7,
         "pos": 10.0,
         "fat_pernod": 153679.2,
         "fat_crs": 56.94,
