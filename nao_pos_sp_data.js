@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "26/06/2026 15:09",
+  "atualizado_em": "26/06/2026 15:21",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -4734,6 +4734,13 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "51374",
+        "cliente": "CONTATTO EMPORIO E MERCEARIA LTDA",
+        "bairro": "VILA FAUSTINA II",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "23323",
         "cliente": "FLAVIO LUCIANO ALVES 27972619840",
         "bairro": "JARDIM MARCHESI",
@@ -4748,9 +4755,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51160",
+        "codcli": "51157",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "CENTRO",
+        "bairro": "JARDIM IRACEMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51161",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "PARQUE SANTA RITA DE CÁSSIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4758,13 +4772,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "51159",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51157",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "JARDIM IRACEMA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4783,16 +4790,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51158",
+        "codcli": "51160",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51161",
+        "codcli": "51158",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "PARQUE SANTA RITA DE CÁSSIA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
