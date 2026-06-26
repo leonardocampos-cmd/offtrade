@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/06/2026 11:13",
+  "atualizado_em": "26/06/2026 11:25",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -187276,106 +187276,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "10/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 36,
-          "valor": 421.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-          "fantasia": "FANTE",
-          "qt": 18,
-          "valor": 322.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 5,
-          "valor": 299.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 3,
-          "valor": 179.64,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "NECTAR GOIABA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 3,
-          "valor": 179.64,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "NECTAR ABACAXI 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "NECTAR MARACUJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "NECTAR LARANJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 119.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 997.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 997.5,
-          "tipo": "Venda"
-        },
-        {
           "data": "15/06/2026",
           "codcli": "91575",
           "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
@@ -204149,46 +204049,6 @@ const VENDAS_DATA = {
           "fantasia": "INTERFOOD",
           "qt": 1,
           "valor": 1078.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/06/2026",
-          "codcli": "78665",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 149.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/06/2026",
-          "codcli": "78665",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 298.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/06/2026",
-          "codcli": "78665",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 18,
-          "valor": 594.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/06/2026",
-          "codcli": "78665",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 310.8,
           "tipo": "Venda"
         },
         {
@@ -470565,16 +470425,6 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 12,
           "valor": 413.04,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "33273",
-          "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
-          "produto": "RUM BACARDI LIMON 700ML",
-          "fantasia": "BACARDI",
-          "qt": 24,
-          "valor": 792.0,
           "tipo": "Venda"
         },
         {
