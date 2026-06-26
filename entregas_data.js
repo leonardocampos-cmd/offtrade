@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "26/06/2026 16:23",
+  "atualizado_em": "26/06/2026 17:01",
   "data_rota": "26.06",
   "vendedores": [
     {
@@ -10834,6 +10834,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "144001594",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "L DO ROSARIO COELHO DEPOSITO DE BEBIDAS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 302.7,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 6X1,5L",
+              "qt": 3,
+              "val": 302.7
+            }
+          ]
+        },
         {
           "numped": "144001593",
           "numnota": "",
