@@ -1,21 +1,21 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "26/06/2026 14:08",
+  "atualizado_em": "26/06/2026 14:39",
   "mes": "Jun/26",
   "dias_corridos": 26,
   "dias_no_mes": 30,
   "dias_restantes": 4,
   "resumo": {
-    "fat": 9348140.49,
+    "fat": 9350334.29,
     "fat_ant": 8887151.11,
-    "pos": 1620,
+    "pos": 1621,
     "pos_ant": 1525
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 9348140.49,
+    "fat": 9350334.29,
     "fat_ant": 8887151.11,
     "pct": 64.9,
-    "nec_dia": 1262964.88
+    "nec_dia": 1262416.43
   },
   "estados": [
     {
@@ -55,11 +55,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 1232242.07,
+      "fat": 1234435.87,
       "fat_ant": 1280271.2,
-      "pos": 275,
-      "pct": 58.7,
-      "nec_dia": 216939.48,
+      "pos": 276,
+      "pct": 58.8,
+      "nec_dia": 216391.03,
       "pos_ant": 270
     }
   ],
@@ -88,13 +88,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 1122586.62,
+      "fat": 1123925.86,
       "fat_ant": 1221845.94,
       "por_estado": {
         "RJ": 233.1,
         "SP": 3732.81,
         "ES": 34766.94,
-        "MG": 1083853.77
+        "MG": 1085193.01
       }
     },
     {
@@ -297,13 +297,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "HEINEKEN BRASIL",
-      "fat": 44511.2,
+      "fat": 45365.76,
       "fat_ant": 55348.06,
       "por_estado": {
         "RJ": 0.0,
         "SP": 1198.0,
         "ES": 0.0,
-        "MG": 43313.2
+        "MG": 44167.76
       }
     },
     {
