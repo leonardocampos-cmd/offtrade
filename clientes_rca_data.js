@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 10:06",
-  "total": 4400,
+  "atualizado_em": "26/06/2026 11:02",
+  "total": 4407,
   "clientes": [
     {
       "codcli": "31683",
@@ -19604,6 +19604,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
+      "codcli": "83536",
+      "razao": "DROGARIA AICHI LTDA",
+      "fantasia": "DROGARIA RIC",
+      "bairro": "JARDIM BOTANICO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "02.418.313/0001-90",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "92326",
       "razao": "DROGARIA AMOY LTDA",
       "fantasia": "DROGARIA AMOY - PECHINCHA",
@@ -19994,6 +20008,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "172",
       "nome_usur2": "JOAO PEDRO - OFF TRADE"
+    },
+    {
+      "codcli": "95523",
+      "razao": "DROGARIA MALIBU LTDA",
+      "fantasia": "DROGARIA MALIBU",
+      "bairro": "COPACABANA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "41.646.561/0001-40",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "91379",
@@ -22684,6 +22712,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95521",
+      "razao": "FARMACIA BELACAP LIMITADA",
+      "fantasia": "DROGARIAS CRISTAL",
+      "bairro": "GAVEA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "33.546.094/0001-58",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "84765",
       "razao": "FARMACIA BOM PRECO DE LARANJEIRAS LTDA",
       "fantasia": "FARMACIA BOM PRECO",
@@ -22712,6 +22754,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "95522",
+      "razao": "FARMACIA ITAPUA LTDA",
+      "fantasia": "DROGARIA CRISTAL",
+      "bairro": "LARANJEIRAS",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "42.469.510/0001-52",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "83937",
       "razao": "FARMACIA JDL LTDA",
       "fantasia": "FARMACIA SANTA TEREZINHA",
@@ -22722,6 +22778,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "FARMACIA",
       "codusur1": "370",
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95520",
+      "razao": "FARMACIA MIL DROGAS LTDA",
+      "fantasia": "DROGARIA CRISTAL",
+      "bairro": "BOTAFOGO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "28.780.989/0001-12",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -24832,6 +24902,20 @@ const CLIENTES_RCA_DATA = {
       "bairro": "VILA NOVA",
       "cidade": "JUQUIA",
       "cnpj": "05.389.121/0001-90",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51347",
+      "razao": "GILCELIO MAGNO LOPES DA SILVA LTDA",
+      "fantasia": "GILCELIO MAGNO LOPES DA SILVA",
+      "bairro": "AGROCHA",
+      "cidade": "REGISTRO",
+      "cnpj": "26.312.429/0001-08",
       "estado": "SP",
       "ramo": "MINI-MERCADO",
       "codusur1": "497",
@@ -38444,6 +38528,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCEARIA",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51350",
+      "razao": "MERCADO ZE GRANDE",
+      "fantasia": "MERCADO ZE GRANDE",
+      "bairro": "VILA NOVA REGISTRO",
+      "cidade": "REGISTRO",
+      "cnpj": "34.070.715/0001-32",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
