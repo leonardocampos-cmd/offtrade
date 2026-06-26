@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "26/06/2026 14:06",
+  "atualizado_em": "26/06/2026 14:08",
   "data_rota": "26.06",
   "vendedores": [
     {
@@ -22699,6 +22699,26 @@ const ENTREGAS_DATA = {
               "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
               "qt": 2,
               "val": 59.8
+            }
+          ]
+        },
+        {
+          "numped": "379001159",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 79.8,
+          "itens": [
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+              "qt": 2,
+              "val": 79.8
             }
           ]
         },
