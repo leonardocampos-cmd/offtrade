@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 09:31",
-  "total": 4393,
+  "atualizado_em": "26/06/2026 10:06",
+  "total": 4400,
   "clientes": [
     {
       "codcli": "31683",
@@ -17210,6 +17210,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51339",
+      "razao": "DANIELA XAVIER DE ALMEIDA SPINA",
+      "fantasia": "SUPERMERCADOS DA ILHA",
+      "bairro": "CENTRO",
+      "cidade": "MIRACATU",
+      "cnpj": "11.616.784/0001-01",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50094",
       "razao": "DANILO MARTINS FERREIRA 36511845877",
       "fantasia": "BROTHERS BEER",
@@ -18022,6 +18036,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51340",
+      "razao": "DIEGO ALVES FELIPE",
+      "fantasia": "PANIFICADORA MERCEARIA E LANCHONETE LIRIO DO VALE",
+      "bairro": "COLONIZACAO",
+      "cidade": "JUQUIA",
+      "cnpj": "13.881.276/0001-78",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "92337",
       "razao": "DIEGO BERNARDINO SILVA",
       "fantasia": "IMAGINUMSUSHI",
@@ -18634,6 +18662,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51341",
+      "razao": "DISTRIBUIDORA DE DOCES SAO MARCOS LTDA",
+      "fantasia": "DISTRIBUIDORA DE DOCES SAO MARCOS",
+      "bairro": "CENTRO",
+      "cidade": "MIRACATU",
+      "cnpj": "05.159.616/0001-23",
+      "estado": "SP",
+      "ramo": "EMPORIO/BAZAR",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -20584,6 +20626,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51342",
+      "razao": "ELDORADO PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "SUPERMERCADO EPA",
+      "bairro": "CENTRO",
+      "cidade": "ELDORADO",
+      "cnpj": "67.473.702/0001-63",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "90151",
       "razao": "ELECILDO SIMAO DA SILVA 90866959491",
       "fantasia": "ELECILDO SIMAO DA SILVA",
@@ -21604,6 +21660,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ERIC PESTANA",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51343",
+      "razao": "ERIC LEON JACQUES HUYSMANS & CIA LTDA",
+      "fantasia": "ERIC LEON JACQUES HUYSMANS & CIA",
+      "bairro": "CENTRO",
+      "cidade": "JUQUIA",
+      "cnpj": "03.089.020/0001-79",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "84840",
@@ -24560,6 +24630,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "51344",
+      "razao": "GERCINO BATISTA PEDRO DE TOLEDO",
+      "fantasia": "MERCEARIA BATISTA",
+      "bairro": "VILA BATISTA",
+      "cidade": "PEDRO DE TOLEDO",
+      "cnpj": "62.729.371/0001-66",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "3015",
       "razao": "GERMANS DISTRIBUIDORA DE COMESTIVEIS LTDA",
       "fantasia": "FILIAL 28 - CORDOVIL",
@@ -24738,6 +24822,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "codusur1": "461",
       "nome_usur1": "SUELY SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51345",
+      "razao": "GILBERTO TADASHI MATSUSUE",
+      "fantasia": "MERCADINHO MATSUSUE",
+      "bairro": "VILA NOVA",
+      "cidade": "JUQUIA",
+      "cnpj": "05.389.121/0001-90",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
