@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "26/06/2026 15:51",
+  "atualizado_em": "26/06/2026 16:04",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -167,8 +167,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 90000.17
       },
       "Jun/26": {
-        "fat": 39744.93,
-        "pos": 16,
+        "fat": 40205.21,
+        "pos": 18,
         "fat_ant": 123102.29
       },
       "Abr/26": {
@@ -204,8 +204,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 84254.44
       },
       "Jun/26": {
-        "fat": 46299.03,
-        "pos": 46,
+        "fat": 46413.1,
+        "pos": 47,
         "fat_ant": 75315.05
       },
       "Mai/26": {
@@ -38970,6 +38970,24 @@ const VENDAS_ES_DATA = {
           "valor": 325.92
         },
         {
+          "data": "26/06/2026",
+          "codcli": "83319",
+          "cliente": "ACADEMIA VIDA ATIVA BOX LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 81.48
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "93523",
+          "cliente": "23.999.927 LUZIA GOMES DE ALMEIDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 108.64
+        },
+        {
           "data": "19/06/2026",
           "codcli": "83805",
           "cliente": "SPACE GASTROBAR LTDA",
@@ -38995,6 +39013,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 81.48
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "83319",
+          "cliente": "ACADEMIA VIDA ATIVA BOX LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 135.8
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "93523",
+          "cliente": "23.999.927 LUZIA GOMES DE ALMEIDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32
         },
         {
           "data": "25/06/2026",
@@ -39430,6 +39466,15 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "26/06/2026",
+          "codcli": "93523",
+          "cliente": "23.999.927 LUZIA GOMES DE ALMEIDA",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 40.02
+        },
+        {
+          "data": "26/06/2026",
           "codcli": "85344",
           "cliente": "FORCA MOTRIZ LTDA",
           "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
@@ -39481,6 +39526,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 2,
           "valor": 102.8
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "93523",
+          "cliente": "23.999.927 LUZIA GOMES DE ALMEIDA",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 40.02
         },
         {
           "data": "26/06/2026",
@@ -55348,6 +55402,15 @@ const VENDAS_ES_DATA = {
           "valor": 47.92
         },
         {
+          "data": "26/06/2026",
+          "codcli": "89950",
+          "cliente": "AMERICAN COOKIES VITORIA ES LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.16
+        },
+        {
           "data": "10/06/2026",
           "codcli": "71679",
           "cliente": "RESTAURANTE E CAFE METROPOLES LTDA",
@@ -55562,6 +55625,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "",
           "qt": 10,
           "valor": 220.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "89950",
+          "cliente": "AMERICAN COOKIES VITORIA ES LTDA",
+          "produto": "XAROPE FABBRI MACA VERDE 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 86.91
         },
         {
           "data": "09/06/2026",
