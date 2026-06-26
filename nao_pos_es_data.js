@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "26/06/2026 14:40",
+  "atualizado_em": "26/06/2026 14:47",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -9913,16 +9913,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "94198",
+        "codcli": "84218",
         "cliente": "CANGURU ALIMENTOS LTDA",
-        "bairro": "MORADA DE LARANJEIRAS",
+        "bairro": "PRAIA DA BALEIA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "84218",
+        "codcli": "94198",
         "cliente": "CANGURU ALIMENTOS LTDA",
-        "bairro": "PRAIA DA BALEIA",
+        "bairro": "MORADA DE LARANJEIRAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -12485,16 +12485,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "84121",
+        "codcli": "20950",
         "cliente": "SUPERMERCADOS CALVI LTDA",
-        "bairro": "CARIACICA SEDE",
+        "bairro": "COBILANDIA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "20950",
+        "codcli": "84121",
         "cliente": "SUPERMERCADOS CALVI LTDA",
-        "bairro": "COBILANDIA",
+        "bairro": "CARIACICA SEDE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -18332,6 +18332,13 @@ const NAO_POS_ES_DATA = {
     ],
     "RAQUEL ARAUJO": [
       {
+        "codcli": "93523",
+        "cliente": "23.999.927 LUZIA GOMES DE ALMEIDA",
+        "bairro": "JEQUITIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "90325",
         "cliente": "3 BARRAS CONVENIENCIA LTDA",
         "bairro": "TRES BARRAS",
@@ -18356,6 +18363,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "93982",
         "cliente": "64.955.029 JESSICA AMORIM LOUREIRO PRATI",
         "bairro": "VILA NOVA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "83319",
+        "cliente": "ACADEMIA VIDA ATIVA BOX LTDA",
+        "bairro": "DE CARLI",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -18535,16 +18549,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "94126",
+        "codcli": "85951",
         "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VILA NOVA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "85951",
+        "codcli": "94126",
         "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-        "bairro": "VILA NOVA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
