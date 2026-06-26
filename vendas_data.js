@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/06/2026 11:01",
+  "atualizado_em": "26/06/2026 11:09",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -118635,16 +118635,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 1,
           "valor": 13.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94794",
-          "cliente": "M T FERREIRA DA SILVA",
-          "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-          "fantasia": "INTERFOOD",
-          "qt": 3,
-          "valor": 269.7,
           "tipo": "Venda"
         },
         {
