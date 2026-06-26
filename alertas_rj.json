@@ -12116,5 +12116,477 @@
       "motivo": "PROBLEMAS COM A EQUIPE",
       "valor": "R$ 307,60"
     }
+  ],
+  "2026-06-26": [
+    {
+      "nf": "146",
+      "rca": 144,
+      "rca_nome": "DIOGO RAPOSO",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": "Taxa Outros 21.1% 4/19 NFs"
+    },
+    {
+      "nf": "07",
+      "rca": 144,
+      "rca_nome": "DIOGO RAPOSO",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": ""
+    },
+    {
+      "nf": "406487",
+      "rca": 144,
+      "rca_nome": "DIOGO RAPOSO",
+      "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+      "rota": "RJE5F31 / ZONA SUL",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE FECHADO",
+      "valor": "R$ 575,29"
+    },
+    {
+      "nf": "6202",
+      "rca": 153,
+      "rca_nome": "ANGELO NEVES SUZART",
+      "cliente": "MERCADO RIO SUL DE XEREM LTDA",
+      "rota": "TUM2E95 / BAIXADA",
+      "responsavel": "Vendas",
+      "motivo": "SEM AGENDAMENTO",
+      "valor": "R$ 5.798,70"
+    },
+    {
+      "nf": "401985",
+      "rca": 153,
+      "rca_nome": "ANGELO NEVES SUZART",
+      "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+      "rota": "TUM2E95 / BAIXADA",
+      "responsavel": "Vendas",
+      "motivo": "SEM AGENDAMENTO",
+      "valor": "R$ 3.756,39"
+    },
+    {
+      "nf": "6201",
+      "rca": 153,
+      "rca_nome": "ANGELO NEVES SUZART",
+      "cliente": "MERCADO RIO SUL DE SANTA CRUZ DA SERRA LTDA",
+      "rota": "TUM2E95 / BAIXADA",
+      "responsavel": "Vendas",
+      "motivo": "SEM AGENDAMENTO",
+      "valor": "R$ 658,80"
+    },
+    {
+      "nf": "406525",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "A R DE SOUZA RODRIGUES BEBIDAS",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 5.212,81"
+    },
+    {
+      "nf": "406432",
+      "rca": 156,
+      "rca_nome": "MARILENA TRAGEL",
+      "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
+      "rota": "RJP3J23 / ZONA OESTE",
+      "responsavel": "Logística",
+      "motivo": "AREA DE RISCO",
+      "valor": "R$ 397,10"
+    },
+    {
+      "nf": "406587",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 483,65"
+    },
+    {
+      "nf": "5572",
+      "rca": 275,
+      "rca_nome": "MARIA LUIZA",
+      "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
+      "rota": "TTN5H17 / SUL FLUMINENSE",
+      "responsavel": "Vendas",
+      "motivo": "PEDIDO RECUSADO",
+      "valor": "R$ 2.073,86"
+    },
+    {
+      "nf": "406376",
+      "rca": 379,
+      "rca_nome": "JORGE MACIEL",
+      "cliente": "L H REIS MERCADO LTDA",
+      "rota": "TUP1A46 / BAIXADA",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM A EQUIPE",
+      "valor": "R$ 456,96"
+    },
+    {
+      "nf": "406375",
+      "rca": 379,
+      "rca_nome": "JORGE MACIEL",
+      "cliente": "M T FERREIRA DA SILVA",
+      "rota": "TUP1A46 / BAIXADA",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO",
+      "valor": "R$ 269,70"
+    },
+    {
+      "nf": "404210",
+      "rca": 417,
+      "rca_nome": "DIRLEI VIEIRA",
+      "cliente": "MULTI ANGRA MERCADO LTDA",
+      "rota": "TTW4B24 / COSTA VERDE",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM A EQUIPE",
+      "valor": "R$ 553,92"
+    },
+    {
+      "nf": "404218",
+      "rca": 417,
+      "rca_nome": "DIRLEI VIEIRA",
+      "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+      "rota": "TTW4B24 / COSTA VERDE",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM A EQUIPE",
+      "valor": "R$ 459,24"
+    },
+    {
+      "nf": "6002",
+      "rca": 417,
+      "rca_nome": "DIRLEI VIEIRA",
+      "cliente": "MULTI ANGRA MERCADO LTDA",
+      "rota": "TTW4B24 / COSTA VERDE",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM A EQUIPE",
+      "valor": "R$ 553,92"
+    },
+    {
+      "nf": "6045",
+      "rca": 417,
+      "rca_nome": "DIRLEI VIEIRA",
+      "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+      "rota": "TTW4B24 / COSTA VERDE",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM A EQUIPE",
+      "valor": "R$ 1.071,00"
+    },
+    {
+      "nf": "6085",
+      "rca": 417,
+      "rca_nome": "DIRLEI VIEIRA",
+      "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+      "rota": "TTW4B24 / COSTA VERDE",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM A EQUIPE",
+      "valor": "R$ 837,60"
+    },
+    {
+      "nf": "6001",
+      "rca": 417,
+      "rca_nome": "DIRLEI VIEIRA",
+      "cliente": "MULTI ANGRA MERCADO LTDA",
+      "rota": "TTW4B24 / COSTA VERDE",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM A EQUIPE",
+      "valor": "R$ 2.207,40"
+    },
+    {
+      "nf": "406489",
+      "rca": 431,
+      "rca_nome": "ADEILSON GONÇALVEZ",
+      "cliente": "MERCADO RG LTDA",
+      "rota": "RJP3J23 / ZONA OESTE",
+      "responsavel": "Vendas",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA",
+      "valor": "R$ 1.704,02"
+    },
+    {
+      "nf": "406343",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
+      "rota": "TTN5H17 / SUL FLUMINENSE",
+      "responsavel": "Vendas",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA",
+      "valor": "R$ 391,68"
+    },
+    {
+      "nf": "402076",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
+      "rota": "TTN5H17 / SUL FLUMINENSE",
+      "responsavel": "Vendas",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA",
+      "valor": "R$ 652,80"
+    },
+    {
+      "nf": "398556",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "AVALON MERCEARIA DA TERRA LTDA",
+      "rota": "TTN5H17 / SUL FLUMINENSE",
+      "responsavel": "Vendas",
+      "motivo": "CANCELAMENTO",
+      "valor": "R$ 652,80"
+    },
+    {
+      "nf": "406488",
+      "rca": 107,
+      "rca_nome": "MARCUS VINICIUS",
+      "cliente": "ALEX SANDRO SILVA 13574702744",
+      "rota": "RJP3J23 / ZONA OESTE",
+      "responsavel": "Logística",
+      "motivo": "AREA DE RISCO",
+      "valor": "R$ 778,80"
+    },
+    {
+      "nf": "406211",
+      "rca": 112,
+      "rca_nome": "LUCAS MATIAS",
+      "cliente": "PETISQUEIRA CHIC BAR E LANCHONETE LTDA",
+      "rota": "KQK2F47 / ZONA OESTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE FECHADO",
+      "valor": "R$ 1.078,56"
+    },
+    {
+      "nf": "406381",
+      "rca": 112,
+      "rca_nome": "LUCAS MATIAS",
+      "cliente": "PETISQUEIRA CHIC BAR E LANCHONETE LTDA",
+      "rota": "KQK2F47 / ZONA OESTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE FECHADO",
+      "valor": "R$ 371,88"
+    },
+    {
+      "nf": "406320",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "LOLLA GASTRONOMIA LTDA",
+      "rota": "KZH9D68 / ZONA SUL",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE FECHADO",
+      "valor": "R$ 515,70"
+    },
+    {
+      "nf": "406372",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "22 MALUCO DEPOSITO LTDA",
+      "rota": "TUP1A46 / BAIXADA",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM A EQUIPE",
+      "valor": "R$ 599,20"
+    },
+    {
+      "nf": "406274",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "BELLINI RESTAURANTE BAR E CAFE LTDA",
+      "rota": "TTY6J70 / ZONA OESTE",
+      "responsavel": "Contas a Receber",
+      "motivo": "REPONSÁVEL PELO PAGAMENTO AUSENTE OU CLIENTE SEM MÉTODO",
+      "valor": "R$ 269,70"
+    },
+    {
+      "nf": "406227",
+      "rca": 176,
+      "rca_nome": "MICHELE ALCANTARA",
+      "cliente": "MEGA PUB RESTAURANTE LTDA",
+      "rota": "SSE9J51 / CENTRO",
+      "responsavel": "Vendas",
+      "motivo": "ENDEREÇO DIVERGENTE",
+      "valor": "R$ 4.036,40"
+    },
+    {
+      "nf": "406467",
+      "rca": 176,
+      "rca_nome": "MICHELE ALCANTARA",
+      "cliente": "ZUFAS BURGER LTDA",
+      "rota": "TTY6J70 / ZONA OESTE",
+      "responsavel": "Logística",
+      "motivo": "AVARIA",
+      "valor": "R$ 259,74"
+    },
+    {
+      "nf": "406366",
+      "rca": 237,
+      "rca_nome": "JOHNATTAN MATHEUS",
+      "cliente": "2L PREMIUM BAZAR LTDA",
+      "rota": "LTG4A18 / ZONA NORTE",
+      "responsavel": "Contas a Receber",
+      "motivo": "CLIENTE SEM O PAGAMENTO COMBINADO",
+      "valor": "R$ 2.556,00"
+    },
+    {
+      "nf": "406515",
+      "rca": 295,
+      "rca_nome": "JOÃO VITOR BRAGA",
+      "cliente": "DA LUA MERCADO LTDA",
+      "rota": "LTG4A18 / ZONA NORTE",
+      "responsavel": "Logística",
+      "motivo": "AREA DE RISCO",
+      "valor": "R$ 1.617,84"
+    },
+    {
+      "nf": "406396",
+      "rca": 296,
+      "rca_nome": "LUDMILLA DA SILVA",
+      "cliente": "OPENBEER DELIVERY DISTRIBUIDORA DE BEBIDAS LTDA",
+      "rota": "TTB5B73 / SERRA",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE FECHADO",
+      "valor": "R$ 563,30"
+    },
+    {
+      "nf": "406571",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "HHR JW RIO DE JANEIRO INVESTIMENTOS HOTELEIROS LTDA",
+      "rota": "RJE5F31 / ZONA SUL",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA",
+      "valor": "R$ 1.062,40"
+    },
+    {
+      "nf": "405741",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "HORIZON 04 LTDA",
+      "rota": "RJE5F31 / ZONA SUL",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE FECHADO",
+      "valor": "R$ 43.506,50"
+    },
+    {
+      "nf": "406516",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "XVP BAR E RESTAURANTE LTDA",
+      "rota": "LTG4A18 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE FECHADO",
+      "valor": "R$ 76,90"
+    },
+    {
+      "nf": "405618",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "A4RJ RESTAURANTE LTDA",
+      "rota": "RJV2J20 / ZONA OESTE",
+      "responsavel": "Logística",
+      "motivo": "PRODUTO INVERTIDO",
+      "valor": "R$ 1.247,50"
+    },
+    {
+      "nf": "406433",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "MMRJ RESTAURANTE E BAR LTDA",
+      "rota": "RJP3J23 / ZONA OESTE",
+      "responsavel": "Contas a Receber",
+      "motivo": "CLIENTE SEM O PAGAMENTO COMBINADO",
+      "valor": "R$ 295,20"
+    },
+    {
+      "nf": "406377",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "MARTHA MACHADO BARROS 55188150778",
+      "rota": "LTG4A18 / ZONA NORTE",
+      "responsavel": "Contas a Receber",
+      "motivo": "CLIENTE SEM O PAGAMENTO COMBINADO",
+      "valor": "R$ 700,20"
+    },
+    {
+      "nf": "406459",
+      "rca": 438,
+      "rca_nome": "TAMIRES GOMES",
+      "cliente": "48.092.161 ERIVALDO MOTA DA SILVA",
+      "rota": "KQK2F47 / ZONA OESTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO",
+      "valor": "R$ 517,20"
+    },
+    {
+      "nf": "406110",
+      "rca": 445,
+      "rca_nome": "MARIANA RESTUM",
+      "cliente": "66.015.343 THIAGO MORENO DE OLIVEIRA MARINS",
+      "rota": "TUP1A46 / BAIXADA",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM A EQUIPE",
+      "valor": "R$ 898,56"
+    },
+    {
+      "nf": "5988",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+      "rota": "KQK2F47 / ZONA OESTE",
+      "responsavel": "Vendas",
+      "motivo": "PEDIDO DUPLICADO",
+      "valor": "R$ 1.128,00"
+    },
+    {
+      "nf": "6158",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "rota": "LTM4961 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "PEDIDO DUPLICADO",
+      "valor": "R$ 1.353,00"
+    },
+    {
+      "nf": "403374",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "ARMAZEM DO VISCONDE COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+      "rota": "TTN5H17 / SUL FLUMINENSE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA",
+      "valor": "R$ 262,80"
+    },
+    {
+      "nf": "406349",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "14.110.499 PAULO ROBERTO DE SOUZA",
+      "rota": "TTB5B73 / SERRA",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE FECHADO",
+      "valor": "R$ 254,70"
+    },
+    {
+      "nf": "406364",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "CAFE E BAR CINENSES LTDA",
+      "rota": "LTG4A18 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "ENDEREÇO NÃO LOCALIZADO",
+      "valor": "R$ 250,20"
+    },
+    {
+      "nf": "405912",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "DEPOSITO DE BEBIDAS E LANCHONETE DUPLA HONRA LTDA",
+      "rota": "TUP1A46 / BAIXADA",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM A EQUIPE",
+      "valor": "R$ 307,60"
+    }
   ]
 }
