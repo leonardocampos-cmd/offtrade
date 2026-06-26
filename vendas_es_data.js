@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "26/06/2026 10:05",
+  "atualizado_em": "26/06/2026 11:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -167,7 +167,7 @@ const VENDAS_ES_DATA = {
         "fat_ant": 90000.17
       },
       "Jun/26": {
-        "fat": 38885.22,
+        "fat": 38468.13,
         "pos": 15,
         "fat_ant": 123102.29
       },
@@ -39384,16 +39384,7 @@ const VENDAS_ES_DATA = {
           "valor": 102.8
         },
         {
-          "data": "19/06/2026",
-          "codcli": "85344",
-          "cliente": "FORCA MOTRIZ LTDA",
-          "produto": "PINATI CRUNCH WHEY COOKIES BLAC 12X40G",
-          "fantasia": "PINATI",
-          "qt": 3,
-          "valor": 175.44
-        },
-        {
-          "data": "19/06/2026",
+          "data": "26/06/2026",
           "codcli": "85344",
           "cliente": "FORCA MOTRIZ LTDA",
           "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
@@ -39402,7 +39393,7 @@ const VENDAS_ES_DATA = {
           "valor": 132.06
         },
         {
-          "data": "19/06/2026",
+          "data": "26/06/2026",
           "codcli": "85344",
           "cliente": "FORCA MOTRIZ LTDA",
           "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
@@ -39411,7 +39402,7 @@ const VENDAS_ES_DATA = {
           "valor": 44.02
         },
         {
-          "data": "19/06/2026",
+          "data": "26/06/2026",
           "codcli": "85344",
           "cliente": "FORCA MOTRIZ LTDA",
           "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
@@ -39420,7 +39411,7 @@ const VENDAS_ES_DATA = {
           "valor": 88.04
         },
         {
-          "data": "19/06/2026",
+          "data": "26/06/2026",
           "codcli": "85344",
           "cliente": "FORCA MOTRIZ LTDA",
           "produto": "PINATI DOUBLE BAR DOCE DE LEITE 32X35G",
@@ -39429,31 +39420,13 @@ const VENDAS_ES_DATA = {
           "valor": 448.48
         },
         {
-          "data": "19/06/2026",
-          "codcli": "85344",
-          "cliente": "FORCA MOTRIZ LTDA",
-          "produto": "PINATI DB WHEY COOKIES AND CREAM 12X50G",
-          "fantasia": "PINATI",
-          "qt": 3,
-          "valor": 241.65
-        },
-        {
-          "data": "19/06/2026",
+          "data": "26/06/2026",
           "codcli": "85344",
           "cliente": "FORCA MOTRIZ LTDA",
           "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
           "fantasia": "PINATI",
           "qt": 2,
           "valor": 161.1
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "85344",
-          "cliente": "FORCA MOTRIZ LTDA",
-          "produto": "PINATI NUTS BANANA 20X30G",
-          "fantasia": "PINATI",
-          "qt": 5,
-          "valor": 200.1
         },
         {
           "data": "19/06/2026",
@@ -39465,6 +39438,15 @@ const VENDAS_ES_DATA = {
           "valor": 102.8
         },
         {
+          "data": "26/06/2026",
+          "codcli": "85344",
+          "cliente": "FORCA MOTRIZ LTDA",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 5,
+          "valor": 200.1
+        },
+        {
           "data": "19/06/2026",
           "codcli": "71515",
           "cliente": "ORIUNDI SUPERMERCADOS LTDA",
@@ -39474,7 +39456,7 @@ const VENDAS_ES_DATA = {
           "valor": 205.6
         },
         {
-          "data": "19/06/2026",
+          "data": "26/06/2026",
           "codcli": "85344",
           "cliente": "FORCA MOTRIZ LTDA",
           "produto": "PINATI DOUBLE BAR DOCE DE LEITE 16X35G",
@@ -39483,7 +39465,7 @@ const VENDAS_ES_DATA = {
           "valor": 448.4
         },
         {
-          "data": "19/06/2026",
+          "data": "26/06/2026",
           "codcli": "85344",
           "cliente": "FORCA MOTRIZ LTDA",
           "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
@@ -39492,7 +39474,7 @@ const VENDAS_ES_DATA = {
           "valor": 448.48
         },
         {
-          "data": "19/06/2026",
+          "data": "26/06/2026",
           "codcli": "85344",
           "cliente": "FORCA MOTRIZ LTDA",
           "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
