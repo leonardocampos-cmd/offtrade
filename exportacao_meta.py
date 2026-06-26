@@ -508,7 +508,7 @@ def _query_hierarquia(schema, extra_nomes=None):
         FROM {s}.PCUSUARI U
         LEFT JOIN {s}.PCSUPERV  S ON U.CODSUPERVISOR = S.CODSUPERVISOR
         LEFT JOIN {s}.PCGERENTE G ON S.CODGERENTE     = G.CODGERENTE
-        WHERE {nome_f}
+        WHERE {nome_f} and U.BLOQUEIO == 'N'
     """
 
 def _query_hierarquia_basic(schema, extra_nomes=None):
@@ -584,7 +584,12 @@ if _hier_parts:
                 'qt':  int(grp['QT'].sum()),
             }
 
-        e  = _emp_dict.setdefault(empresa, {'nome': empresa, 'por_mes': {}, 'gerentes': {}})
+        if not por_mes_vend or all(v.get('fat', 0) == 0 for v in por_mes_vend.values()):
+            continue
+
+        estado_top = estado or 'Sem Estado'
+
+        e  = _emp_dict.setdefault(estado_top, {'nome': estado_top, 'por_mes': {}, 'gerentes': {}})
         g  = e['gerentes'].setdefault(ger, {'nome': ger, 'por_mes': {}, 'supervisores': {}})
         s_ = g['supervisores'].setdefault(sup, {'nome': sup, 'por_mes': {}, 'vendedores': {}})
         s_['vendedores'][nome_display] = {
@@ -600,23 +605,21 @@ if _hier_parts:
                 m['fat'] = round(m['fat'] + val['fat'], 2)
                 m['qt'] += val['qt']
 
-    empresas_out = []
-    for emp_data in sorted(_emp_dict.values(), key=lambda x: x['nome']):
+    estados_out = []
+    for est_data in sorted(_emp_dict.values(), key=lambda x: x['nome']):
         gerentes_list = []
-        for ger_data in sorted(emp_data['gerentes'].values(), key=lambda x: x['nome']):
+        for ger_data in sorted(est_data['gerentes'].values(), key=lambda x: x['nome']):
             sups_out = []
             for sup_data in sorted(ger_data['supervisores'].values(), key=lambda x: x['nome']):
                 vends_out = sorted(sup_data['vendedores'].values(), key=lambda x: x['nome'])
-                estados_sup = sorted(set(v['estado'] for v in vends_out if v.get('estado')))
-                sups_out.append({'nome': sup_data['nome'], 'estados': estados_sup, 'por_mes': sup_data['por_mes'], 'vendedores': list(vends_out)})
-            estados_ger = sorted(set(e for s in sups_out for e in s.get('estados', [])))
-            gerentes_list.append({'nome': ger_data['nome'], 'estados': estados_ger, 'por_mes': ger_data['por_mes'], 'supervisores': sups_out})
-        empresas_out.append({'nome': emp_data['nome'], 'por_mes': emp_data['por_mes'], 'gerentes': gerentes_list})
+                sups_out.append({'nome': sup_data['nome'], 'por_mes': sup_data['por_mes'], 'vendedores': list(vends_out)})
+            gerentes_list.append({'nome': ger_data['nome'], 'por_mes': ger_data['por_mes'], 'supervisores': sups_out})
+        estados_out.append({'nome': est_data['nome'], 'por_mes': est_data['por_mes'], 'gerentes': gerentes_list})
 
     gerentes_payload = {
         'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
         'meses':         _meses_str,
-        'empresas':      empresas_out,
+        'estados':       estados_out,
     }
     js_ger = (
         "// Gerado automaticamente\n\n"

@@ -53,24 +53,10 @@ _oracle_to_display = {
 def _nome(oracle):
     return _oracle_to_display.get(str(oracle), str(oracle))
 
-df_crc      = carregar_dados(_query("CRC"),      engine,         "amarula_CRC")
-df_theking  = carregar_dados(_query("thekings"), engine_theking, "amarula_thekings")
+df_crc = carregar_dados(_query("CRC"), engine, "amarula_CRC")
+df_crc['_CLI'] = "CRC_" + df_crc['CODCLI'].astype(str)
 
-df_crc['_CLI']     = "CRC_" + df_crc['CODCLI'].astype(str)
-df_theking['_CLI'] = "TK_"  + df_theking['CODCLI'].astype(str)
-
-_parts_am = [df_crc, df_theking]
-for _s, _e, _pfx, _fe, _ff in [
-    ("CASTAS", engine_castas,  "CASTAS_", None, None),
-    ("GARRIDO", engine_garrido, "GARRIDO_", None, None),
-    ("SPON",    engine_spon,    "SPON_",    None, None),
-]:
-    try:
-        _df_tmp = carregar_dados(_query(_s, filtro_filial=_ff, filtro_estent=_fe), _e, f"amarula_{_s}")
-        _df_tmp['_CLI'] = _pfx + _df_tmp['CODCLI'].astype(str)
-        _parts_am.append(_df_tmp)
-    except Exception as _ex:
-        print(f"[AVISO] amarula_{_s} falhou ({str(_ex)[:80]}) — ignorado")
+_parts_am = [df_crc]
 
 EXCLUIR_VENDEDORES = {"RC", "VENDEDOR 09", "BEES", "VENDEDOR 02", "KELLY RAMOS - OFF TRADE", "RQ", "LOJA", "BEBIDA IN BOX"}
 

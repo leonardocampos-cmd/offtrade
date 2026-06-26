@@ -310,16 +310,14 @@ function estadoPillsHtml(estados) {
 }
 
 function buildGerentesSection() {
-  if (typeof GERENTES_DATA === 'undefined' || !GERENTES_DATA.empresas || !GERENTES_DATA.empresas.length) return '';
+  if (typeof GERENTES_DATA === 'undefined' || !GERENTES_DATA.estados || !GERENTES_DATA.estados.length) return '';
   const mes    = GERENTES_DATA.meses[0] || '';
   const fatMes = pm => (pm[mes] || {}).fat || 0;
   const qtMes  = pm => (pm[mes] || {}).qt  || 0;
   const numFmt = v => Number(v).toLocaleString('pt-BR');
 
   let idx = 0;
-  const _EMP_VISIVEIS = new Set(['CRC', 'SPON']);
-  const empSorted = [...GERENTES_DATA.empresas]
-    .filter(e => _EMP_VISIVEIS.has(e.nome))
+  const empSorted = [...GERENTES_DATA.estados]
     .sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes));
 
   const rows = empSorted.map(emp => {
@@ -382,7 +380,7 @@ function buildGerentesSection() {
         <span class="ger-toggle">▶</span>
         <span style="font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;
                      color:#22c55e;background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.25);
-                     border-radius:4px;padding:1px 5px;flex-shrink:0">Empresa</span>
+                     border-radius:4px;padding:1px 5px;flex-shrink:0">Estado</span>
         <span class="ger-nome">${emp.nome}</span>
         <span class="ger-fat">${brl(efat)}</span>
         <span class="ger-qt">${numFmt(eqt)} un</span>
