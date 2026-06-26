@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "26/06/2026 14:39",
+  "atualizado_em": "26/06/2026 14:46",
   "data_rota": "26.06",
   "vendedores": [
     {
@@ -15303,6 +15303,11 @@ const ENTREGAS_DATA = {
               "val": 29.8
             },
             {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 1,
+              "val": 78.9
+            },
+            {
               "desc": "RC SARDINHA EM OLEO 50X125G",
               "qt": 1,
               "val": 199.5
@@ -15311,11 +15316,6 @@ const ENTREGAS_DATA = {
               "desc": "NECTAR MANGA 12X1000ML",
               "qt": 1,
               "val": 59.88
-            },
-            {
-              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
-              "qt": 1,
-              "val": 78.9
             }
           ]
         },
@@ -31901,6 +31901,36 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "156003645",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "POSTO DE GASOLINA JOINHA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 505.1,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 5,
+              "val": 139.5
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML",
+              "qt": 2,
+              "val": 179.8
+            },
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 2,
+              "val": 185.8
+            }
+          ]
+        },
+        {
           "numped": "156003644",
           "numnota": "",
           "data": "25/06/2026",
@@ -42377,36 +42407,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "155003769",
-          "numnota": "",
-          "data": "26/06/2026",
-          "cliente": "AGROCOMPEC MARTHI LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 260.36,
-          "itens": [
-            {
-              "desc": "LICOR BANANAZINHA 750ML",
-              "qt": 1,
-              "val": 18.9
-            },
-            {
-              "desc": "WHISKY JIM BEAM WHITE 1L",
-              "qt": 3,
-              "val": 212.7
-            },
-            {
-              "desc": "4 PACK RED BULL",
-              "qt": 1,
-              "val": 28.76
-            }
-          ]
-        },
-        {
           "numped": "155003771",
           "numnota": "",
           "data": "26/06/2026",
@@ -42423,26 +42423,6 @@ const ENTREGAS_DATA = {
               "desc": "CONHAQUE DOMECQ 1L",
               "qt": 36,
               "val": 990.0
-            }
-          ]
-        },
-        {
-          "numped": "155003770",
-          "numnota": "",
-          "data": "26/06/2026",
-          "cliente": "GALPAO DAS BEBIDAS CF LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 517.68,
-          "itens": [
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 3,
-              "val": 517.68
             }
           ]
         },
@@ -42488,6 +42468,56 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "155003769",
+          "numnota": "406986.0",
+          "data": "26/06/2026",
+          "cliente": "AGROCOMPEC MARTHI LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 260.36,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 1,
+              "val": 28.76
+            },
+            {
+              "desc": "LICOR BANANAZINHA 750ML",
+              "qt": 1,
+              "val": 18.9
+            },
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 3,
+              "val": 212.7
+            }
+          ]
+        },
+        {
+          "numped": "155003770",
+          "numnota": "406988.0",
+          "data": "26/06/2026",
+          "cliente": "GALPAO DAS BEBIDAS CF LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 517.68,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 3,
+              "val": 517.68
+            }
+          ]
+        },
         {
           "numped": "155003757",
           "numnota": "406129.0",
@@ -48516,10 +48546,12 @@ const ENTREGAS_DATA = {
               "val": 862.8
             }
           ]
-        },
+        }
+      ],
+      "emitido_s_rota": [
         {
           "numped": "241000511",
-          "numnota": "",
+          "numnota": "406987.0",
           "data": "26/06/2026",
           "cliente": "SANDRA GONCALVES MUNIZ 00711753776",
           "placa": "",
@@ -48536,9 +48568,7 @@ const ENTREGAS_DATA = {
               "val": 517.68
             }
           ]
-        }
-      ],
-      "emitido_s_rota": [
+        },
         {
           "numped": "241000507",
           "numnota": "406387.0",
