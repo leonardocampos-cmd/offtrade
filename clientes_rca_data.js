@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 11:02",
-  "total": 4407,
+  "atualizado_em": "26/06/2026 11:43",
+  "total": 4414,
   "clientes": [
     {
       "codcli": "31683",
@@ -11526,6 +11526,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51353",
+      "razao": "BRENA CELI RIBEIRO DA SILVA",
+      "fantasia": "ADEGA R1",
+      "bairro": "JARDIM SAO JOAO (GUAIANAZES)",
+      "cidade": "SAO PAULO",
+      "cnpj": "30.892.729/0001-80",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "77388",
       "razao": "BREPAN PADARIA LTDA.",
       "fantasia": "BREPAN MAIS",
@@ -19660,6 +19674,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95524",
+      "razao": "DROGARIA AVANTI LTDA",
+      "fantasia": "DROGARIA AVANTI",
+      "bairro": "BOTAFOGO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "46.258.712/0001-06",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91281",
       "razao": "DROGARIA BKA LTDA",
       "fantasia": "DROGARIA BKA - OLARIA",
@@ -19700,6 +19728,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "172",
       "nome_usur2": "JOAO PEDRO - OFF TRADE"
+    },
+    {
+      "codcli": "95527",
+      "razao": "DROGARIA COPA LEMOS LTDA",
+      "fantasia": "DROGARIA COPA LEMOS",
+      "bairro": "COPACABANA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "55.838.408/0001-29",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "84892",
@@ -22796,6 +22838,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95528",
+      "razao": "FARMACIA PROVIDENCIA LTDA",
+      "fantasia": "DROGARIA CRISTAL",
+      "bairro": "GAVEA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "33.081.159/0001-37",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "85234",
       "razao": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
       "fantasia": "FARMACIA SANTA TEREZINHA",
@@ -24220,6 +24276,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "450",
       "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95525",
+      "razao": "G5 DROGARIAS LTDA",
+      "fantasia": "G5 DROGARIAS",
+      "bairro": "COPACABANA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "50.281.917/0001-80",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -31208,6 +31278,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
+    },
+    {
+      "codcli": "51352",
+      "razao": "LENA AMARAL MERCADO LTDA",
+      "fantasia": "LENA AMARAL MERCADO",
+      "bairro": "VILA NIWA",
+      "cidade": "RIO GRANDE DA SERRA",
+      "cnpj": "17.860.507/0001-18",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50446",
@@ -58100,6 +58184,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ACOUGUE",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51351",
+      "razao": "TALITA APARECIDA TISO 36267755851",
+      "fantasia": "TALITA APARECIDA TISO",
+      "bairro": "VILA CORREA",
+      "cidade": "FERRAZ DE VASCONCELOS",
+      "cnpj": "36.776.083/0001-52",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "461",
+      "nome_usur1": "SUELY SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
