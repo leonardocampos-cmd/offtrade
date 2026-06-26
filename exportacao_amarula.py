@@ -6,7 +6,8 @@ from meta import engine, engine_theking, engine_castas, engine_garrido, engine_s
 
 DT_INI = "2026-05-25"
 DT_FIM = "2026-06-25"
-PREMIO = 3000
+PREMIO_1 = 2000
+PREMIO_2 = 1000
 
 def _query(schema, filtro_filial="(1, 2, 4)", filtro_estent=None):
     s = schema.upper()
@@ -112,7 +113,8 @@ else:
 payload = {
     'atualizado_em':      datetime.now().strftime('%d/%m/%Y %H:%M'),
     'periodo':            {'ini': '25/05/2026', 'fim': '25/06/2026'},
-    'premio':             PREMIO,
+    'premio_1':           PREMIO_1,
+    'premio_2':           PREMIO_2,
     'total_vendedores':   total_vendedores,
     'total_positivacao':  total_positivacao,
     'total_faturamento':  total_faturamento,

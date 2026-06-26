@@ -100,6 +100,10 @@
       font-weight: 800;
       color: var(--accent);
     }
+    .camp-premio-val.camp-premio-2 {
+      font-size: 1rem;
+      color: #9aa3ad;
+    }
 
     /* ── KPIs ─────────────────────────────────────────────────── */
     .kpis {
@@ -179,6 +183,10 @@
       background: linear-gradient(90deg, #2a1e0a, #1c1812);
       border-left: 3px solid var(--accent);
     }
+    .rank-row.segundo {
+      background: linear-gradient(90deg, #1a1e22, #161a1d);
+      border-left: 3px solid #9aa3ad;
+    }
     .rank-pos {
       font-size: 1.05rem;
       width: 26px;
@@ -211,6 +219,9 @@
       border-radius: 4px;
       margin-top: 3px;
       text-align: center;
+    }
+    .rank-prize-tag.segundo {
+      background: linear-gradient(135deg, #9aa3ad, #c8cdd2);
     }
     .rank-empty {
       padding: 40px 16px;
@@ -256,12 +267,14 @@
     <div class="camp-periodo">25/05/2026 a 25/06/2026</div>
     <div class="camp-premios">
       <div class="camp-premio-box">
-        <div class="camp-premio-label">Melhor Positivacao</div>
-        <div class="camp-premio-val">R$ 3.000</div>
+        <div class="camp-premio-label">Positivacao</div>
+        <div class="camp-premio-val">🥇 R$ 2.000</div>
+        <div class="camp-premio-val camp-premio-2">🥈 R$ 1.000</div>
       </div>
       <div class="camp-premio-box">
-        <div class="camp-premio-label">Melhor Faturamento</div>
-        <div class="camp-premio-val">R$ 3.000</div>
+        <div class="camp-premio-label">Faturamento</div>
+        <div class="camp-premio-val">🥇 R$ 2.000</div>
+        <div class="camp-premio-val camp-premio-2">🥈 R$ 1.000</div>
       </div>
     </div>
   </header>
@@ -272,14 +285,14 @@
     <div class="rank-card">
       <div class="rank-header">
         <span class="rank-title">Positivacao</span>
-        <span class="rank-prize-label">Premio R$ 3.000</span>
+        <span class="rank-prize-label">🥇 R$ 2.000 &nbsp;|&nbsp; 🥈 R$ 1.000</span>
       </div>
       <div class="rank-list" id="rank-pos"></div>
     </div>
     <div class="rank-card">
       <div class="rank-header">
         <span class="rank-title">Faturamento</span>
-        <span class="rank-prize-label">Premio R$ 3.000</span>
+        <span class="rank-prize-label">🥇 R$ 2.000 &nbsp;|&nbsp; 🥈 R$ 1.000</span>
       </div>
       <div class="rank-list" id="rank-fat"></div>
     </div>
@@ -329,9 +342,11 @@
           ? fmtFat(r.valor)
           : fmtPos(r.valor) + ' clientes';
         const prizeTag = i === 0
-          ? '<span class="rank-prize-tag">R$ 3.000</span>'
-          : '';
-        const rowCls = i === 0 ? ' primeiro' : '';
+          ? '<span class="rank-prize-tag">R$ 2.000</span>'
+          : i === 1
+            ? '<span class="rank-prize-tag segundo">R$ 1.000</span>'
+            : '';
+        const rowCls = i === 0 ? ' primeiro' : i === 1 ? ' segundo' : '';
         return `
           <div class="rank-row${rowCls}">
             <span class="rank-pos">${pos}</span>

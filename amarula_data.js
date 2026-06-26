@@ -4,7 +4,8 @@ const AMARULA_DATA = {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
   },
-  "premio": 3000,
+  "premio_1": 2000,
+  "premio_2": 1000,
   "total_vendedores": 39,
   "total_positivacao": 185,
   "total_faturamento": 96095.0,
