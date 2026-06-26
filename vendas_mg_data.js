@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "26/06/2026 12:02",
+  "atualizado_em": "26/06/2026 12:07",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 290138.81,
-        "pos": 116,
+        "fat": 291763.61,
+        "pos": 117,
         "fat_ant": 312476.97
       }
     },
@@ -224,7 +224,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 1106013.96
       },
       "Jun/26": {
-        "fat": 580943.7,
+        "fat": 594815.7,
         "pos": 8,
         "fat_ant": 896376.5
       }
@@ -246,8 +246,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 65306.52
       },
       "Jun/26": {
-        "fat": 75099.94,
-        "pos": 58,
+        "fat": 76991.38,
+        "pos": 59,
         "fat_ant": 111009.88
       }
     },
@@ -49579,6 +49579,69 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 95.8
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "37618",
+          "cliente": "SAKAI FOOD SERVICE LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 4,
+          "valor": 575.04
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "38763",
+          "cliente": "BAR DO RODRIGO VEBRI LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 174.96
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "38763",
+          "cliente": "BAR DO RODRIGO VEBRI LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 174.96
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "38763",
+          "cliente": "BAR DO RODRIGO VEBRI LTDA",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 174.96
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "38763",
+          "cliente": "BAR DO RODRIGO VEBRI LTDA",
+          "produto": "RED BULL SF POMELO 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 174.96
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "38763",
+          "cliente": "BAR DO RODRIGO VEBRI LTDA",
+          "produto": "RED BULL NECTARINA SF 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 174.96
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "38763",
+          "cliente": "BAR DO RODRIGO VEBRI LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 174.96
         }
       ]
     },
@@ -85225,6 +85288,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 60,
           "valor": 4794.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "",
+          "qt": 204,
+          "valor": 13872.0
         }
       ]
     },
@@ -94460,6 +94532,51 @@ const VENDAS_MG_DATA = {
           "fantasia": "HEINEKEN BRASIL",
           "qt": 4,
           "valor": 565.44
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "35511",
+          "cliente": "PRENSADAO FOOD TRUCK LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 141.36
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "35511",
+          "cliente": "PRENSADAO FOOD TRUCK LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 141.36
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "34631",
+          "cliente": "WORLD RESTAURANTE E LANCHONETE LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 282.72
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "34631",
+          "cliente": "WORLD RESTAURANTE E LANCHONETE LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 141.36
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "34916",
+          "cliente": "SODEXO DO BRASIL COMERCIAL S A",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 1184.64
         }
       ]
     },
