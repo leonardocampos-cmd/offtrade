@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "26/06/2026 15:09",
+  "atualizado_em": "26/06/2026 15:21",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -919,7 +919,7 @@ const NAO_POS_ES_DATA = {
         "dtultcomp": "27/04/2026",
         "produtos": [
           {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+            "produto": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
             "fantasia": "CASTAS",
             "qt": 1,
             "valor": 327.35
@@ -971,7 +971,7 @@ const NAO_POS_ES_DATA = {
         "dtultcomp": "28/04/2026",
         "produtos": [
           {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+            "produto": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
             "fantasia": "CASTAS",
             "qt": 1,
             "valor": 298.8
@@ -1665,7 +1665,7 @@ const NAO_POS_ES_DATA = {
         "dtultcomp": "25/05/2026",
         "produtos": [
           {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+            "produto": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
             "fantasia": "CASTAS",
             "qt": 1,
             "valor": 287.88
@@ -12154,7 +12154,7 @@ const NAO_POS_ES_DATA = {
         "dtultcomp": "20/05/2026",
         "produtos": [
           {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+            "produto": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
             "fantasia": "CASTAS",
             "qt": 30,
             "valor": 8604.0
@@ -12989,7 +12989,7 @@ const NAO_POS_ES_DATA = {
         "dtultcomp": "26/05/2026",
         "produtos": [
           {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+            "produto": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
             "fantasia": "CASTAS",
             "qt": 1,
             "valor": 286.8
@@ -16174,7 +16174,7 @@ const NAO_POS_ES_DATA = {
         "dtultcomp": "13/05/2026",
         "produtos": [
           {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+            "produto": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
             "fantasia": "CASTAS",
             "qt": 1,
             "valor": 286.8
@@ -16489,7 +16489,7 @@ const NAO_POS_ES_DATA = {
         "dtultcomp": "31/03/2026",
         "produtos": [
           {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+            "produto": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
             "fantasia": "CASTAS",
             "qt": 1,
             "valor": 274.8
@@ -16851,7 +16851,7 @@ const NAO_POS_ES_DATA = {
             "valor": 156.0
           },
           {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+            "produto": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
             "fantasia": "CASTAS",
             "qt": 1,
             "valor": 274.8
