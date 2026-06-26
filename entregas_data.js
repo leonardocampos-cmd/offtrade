@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "26/06/2026 15:08",
+  "atualizado_em": "26/06/2026 15:20",
   "data_rota": "26.06",
   "vendedores": [
     {
@@ -208,7 +208,7 @@ const ENTREGAS_DATA = {
               "val": 94.7
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 299.88
             }
@@ -1118,7 +1118,7 @@ const ENTREGAS_DATA = {
               "val": 0.0
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 0,
               "val": 0.0
             }
@@ -1358,7 +1358,7 @@ const ENTREGAS_DATA = {
               "val": 70.76
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 299.98
             }
@@ -1483,7 +1483,7 @@ const ENTREGAS_DATA = {
               "val": 71.76
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 299.98
             }
@@ -1688,7 +1688,7 @@ const ENTREGAS_DATA = {
           "total": 299.88,
           "itens": [
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 299.88
             }
@@ -3467,7 +3467,7 @@ const ENTREGAS_DATA = {
               "val": 88.56
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 286.8
             }
@@ -3889,7 +3889,7 @@ const ENTREGAS_DATA = {
               "val": 130.8
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 274.8
             }
@@ -4464,7 +4464,7 @@ const ENTREGAS_DATA = {
           "total": 464.2,
           "itens": [
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 286.8
             },
@@ -4709,7 +4709,7 @@ const ENTREGAS_DATA = {
           "total": 286.8,
           "itens": [
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 286.8
             }
@@ -5289,7 +5289,7 @@ const ENTREGAS_DATA = {
               "val": 178.8
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 274.8
             }
@@ -6159,7 +6159,7 @@ const ENTREGAS_DATA = {
               "val": 119.76
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 2,
               "val": 573.6
             },
@@ -6709,7 +6709,7 @@ const ENTREGAS_DATA = {
               "val": 119.76
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 286.8
             },
@@ -7264,7 +7264,7 @@ const ENTREGAS_DATA = {
               "val": 310.8
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 2,
               "val": 549.6
             }
@@ -7399,7 +7399,7 @@ const ENTREGAS_DATA = {
           "total": 274.8,
           "itens": [
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 274.8
             }
@@ -9386,7 +9386,7 @@ const ENTREGAS_DATA = {
               "val": 87.6
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 286.8
             },
@@ -9596,7 +9596,7 @@ const ENTREGAS_DATA = {
               "val": 87.6
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 286.8
             },
@@ -10011,7 +10011,7 @@ const ENTREGAS_DATA = {
               "val": 34.3
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 286.8
             },
@@ -13005,7 +13005,7 @@ const ENTREGAS_DATA = {
               "val": 190.8
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 270.0
             }
@@ -13220,7 +13220,7 @@ const ENTREGAS_DATA = {
               "val": 64.8
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 274.8
             },
@@ -13435,7 +13435,7 @@ const ENTREGAS_DATA = {
               "val": 0.0
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 0,
               "val": 0.0
             },
@@ -15890,7 +15890,7 @@ const ENTREGAS_DATA = {
           "total": 286.8,
           "itens": [
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 286.8
             }
@@ -17391,26 +17391,6 @@ const ENTREGAS_DATA = {
               "desc": "LICOR STOCK CURACAU BLUE 720 ML",
               "qt": 9,
               "val": 332.1
-            }
-          ]
-        },
-        {
-          "numped": "159004762",
-          "numnota": "",
-          "data": "02/06/2026",
-          "cliente": "SEGREDO DA MODA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 73.8,
-          "itens": [
-            {
-              "desc": "LICOR STOCK MARULA 720 ML",
-              "qt": 2,
-              "val": 73.8
             }
           ]
         }
@@ -19095,7 +19075,7 @@ const ENTREGAS_DATA = {
               "val": 178.8
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 286.8
             }
@@ -21815,7 +21795,7 @@ const ENTREGAS_DATA = {
               "val": 35.8
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 282.0
             }
@@ -22739,26 +22719,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
               "qt": 2,
               "val": 79.8
-            }
-          ]
-        },
-        {
-          "numped": "379001157",
-          "numnota": "",
-          "data": "26/06/2026",
-          "cliente": "MANDARIM CEREAIS E MERCEARIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 639.5,
-          "itens": [
-            {
-              "desc": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
-              "qt": 5,
-              "val": 639.5
             }
           ]
         },
@@ -24858,7 +24818,7 @@ const ENTREGAS_DATA = {
           "total": 1419.6,
           "itens": [
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 5L",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIUM 5L",
               "qt": 3,
               "val": 749.7
             },
@@ -24883,7 +24843,7 @@ const ENTREGAS_DATA = {
           "total": 521.6,
           "itens": [
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 5L",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIUM 5L",
               "qt": 1,
               "val": 249.9
             },
@@ -24973,7 +24933,7 @@ const ENTREGAS_DATA = {
           "total": 425.1,
           "itens": [
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 5L",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIUM 5L",
               "qt": 1,
               "val": 249.9
             },
@@ -26608,7 +26568,7 @@ const ENTREGAS_DATA = {
               "val": 621.12
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 286.8
             },
@@ -37601,7 +37561,7 @@ const ENTREGAS_DATA = {
               "val": 187.2
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 2,
               "val": 573.6
             },
@@ -40962,7 +40922,7 @@ const ENTREGAS_DATA = {
           "total": 286.8,
           "itens": [
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 286.8
             }
@@ -41567,7 +41527,7 @@ const ENTREGAS_DATA = {
               "val": 153.36
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 286.8
             },
@@ -42997,7 +42957,7 @@ const ENTREGAS_DATA = {
           "total": 282.0,
           "itens": [
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 282.0
             }
@@ -44142,7 +44102,7 @@ const ENTREGAS_DATA = {
               "val": 185.8
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 282.0
             }
@@ -44447,7 +44407,7 @@ const ENTREGAS_DATA = {
               "val": 0.0
             },
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 0,
               "val": 0.0
             }
@@ -46537,7 +46497,7 @@ const ENTREGAS_DATA = {
           "total": 282.0,
           "itens": [
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 282.0
             }
@@ -48172,7 +48132,7 @@ const ENTREGAS_DATA = {
           "total": 282.0,
           "itens": [
             {
-              "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIU 12X500ML",
               "qt": 1,
               "val": 282.0
             }
