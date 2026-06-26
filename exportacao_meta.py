@@ -584,10 +584,7 @@ if _hier_parts:
                 'qt':  int(grp['QT'].sum()),
             }
 
-        _mes_ref = mes_atual_str if mes_atual_str in por_mes_vend else (
-            max(por_mes_vend, key=_mes_sort_key) if por_mes_vend else None
-        )
-        if not _mes_ref or por_mes_vend.get(_mes_ref, {}).get('fat', 0) <= 0:
+        if por_mes_vend.get(mes_atual_str, {}).get('fat', 0) <= 0:
             continue
 
         estado_top = estado or 'Sem Estado'
