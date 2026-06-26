@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "26/06/2026 11:42",
+  "atualizado_em": "26/06/2026 12:02",
   "data_rota": "26.06",
   "vendedores": [
     {
@@ -52,6 +52,36 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "431001089",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "56.898.418 ADENILDE JESUS DO CARMO DA SILVA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 279.61,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 4,
+              "val": 131.69
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 2,
+              "val": 76.16
+            }
+          ]
+        },
         {
           "numped": "431001057",
           "numnota": "",
@@ -48167,7 +48197,28 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "241000511",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "SANDRA GONCALVES MUNIZ 00711753776",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 517.68,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 3,
+              "val": 517.68
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "241000507",
