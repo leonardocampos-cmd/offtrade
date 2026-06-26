@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "26/06/2026 14:38",
+  "atualizado_em": "26/06/2026 14:46",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -592,8 +592,8 @@ const GERENTES_DATA = {
           "qt": 58984
         },
         "Jun/26": {
-          "fat": 2988501.75,
-          "qt": 53438
+          "fat": 2989797.47,
+          "qt": 53449
         },
         "Mai/26": {
           "fat": 3447478.4,
@@ -1225,8 +1225,8 @@ const GERENTES_DATA = {
               "qt": 14874
             },
             "Jun/26": {
-              "fat": 416992.48,
-              "qt": 6695
+              "fat": 418288.2,
+              "qt": 6706
             },
             "Mai/26": {
               "fat": 320570.4,
@@ -1257,8 +1257,8 @@ const GERENTES_DATA = {
                   "qt": 14874
                 },
                 "Jun/26": {
-                  "fat": 416992.48,
-                  "qt": 6695
+                  "fat": 418288.2,
+                  "qt": 6706
                 },
                 "Mai/26": {
                   "fat": 320570.4,
@@ -1319,8 +1319,8 @@ const GERENTES_DATA = {
                       "qt": 8190
                     },
                     "Jun/26": {
-                      "fat": 199794.0,
-                      "qt": 3480
+                      "fat": 200572.04,
+                      "qt": 3488
                     },
                     "Mai/26": {
                       "fat": 122820.02,
@@ -1350,8 +1350,8 @@ const GERENTES_DATA = {
                       "qt": 620
                     },
                     "Jun/26": {
-                      "fat": 26858.46,
-                      "qt": 176
+                      "fat": 27376.14,
+                      "qt": 179
                     },
                     "Mai/26": {
                       "fat": 12828.86,
@@ -1398,93 +1398,6 @@ const GERENTES_DATA = {
         }
       },
       "gerentes": [
-        {
-          "nome": "CRC",
-          "estados": [
-            "SP"
-          ],
-          "por_mes": {
-            "Abr/26": {
-              "fat": 40780.92,
-              "qt": 527
-            },
-            "Fev/26": {
-              "fat": 13440.58,
-              "qt": 121
-            },
-            "Jun/26": {
-              "fat": 1052.91,
-              "qt": 57
-            },
-            "Mai/26": {
-              "fat": 341.64,
-              "qt": 151
-            },
-            "Mar/26": {
-              "fat": 15091.38,
-              "qt": 170
-            }
-          },
-          "supervisores": [
-            {
-              "nome": "DANIEL DINIZ",
-              "estados": [
-                "SP"
-              ],
-              "por_mes": {
-                "Abr/26": {
-                  "fat": 40780.92,
-                  "qt": 527
-                },
-                "Fev/26": {
-                  "fat": 13440.58,
-                  "qt": 121
-                },
-                "Jun/26": {
-                  "fat": 1052.91,
-                  "qt": 57
-                },
-                "Mai/26": {
-                  "fat": 341.64,
-                  "qt": 151
-                },
-                "Mar/26": {
-                  "fat": 15091.38,
-                  "qt": 170
-                }
-              },
-              "vendedores": [
-                {
-                  "nome": "BRYAN PALOPOLI - OFF TRADE",
-                  "rca": "299",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 40780.92,
-                      "qt": 527
-                    },
-                    "Fev/26": {
-                      "fat": 13440.58,
-                      "qt": 121
-                    },
-                    "Jun/26": {
-                      "fat": 1052.91,
-                      "qt": 57
-                    },
-                    "Mai/26": {
-                      "fat": 341.64,
-                      "qt": 151
-                    },
-                    "Mar/26": {
-                      "fat": 15091.38,
-                      "qt": 170
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        },
         {
           "nome": "DANIEL DINIZ",
           "estados": [
@@ -2436,6 +2349,93 @@ const GERENTES_DATA = {
                     "Mai/26": {
                       "fat": 43722.53,
                       "qt": 935
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "nan",
+          "estados": [
+            "SP"
+          ],
+          "por_mes": {
+            "Abr/26": {
+              "fat": 40780.92,
+              "qt": 527
+            },
+            "Fev/26": {
+              "fat": 13440.58,
+              "qt": 121
+            },
+            "Jun/26": {
+              "fat": 1052.91,
+              "qt": 57
+            },
+            "Mai/26": {
+              "fat": 341.64,
+              "qt": 151
+            },
+            "Mar/26": {
+              "fat": 15091.38,
+              "qt": 170
+            }
+          },
+          "supervisores": [
+            {
+              "nome": "MARCUS TANAMACHI",
+              "estados": [
+                "SP"
+              ],
+              "por_mes": {
+                "Abr/26": {
+                  "fat": 40780.92,
+                  "qt": 527
+                },
+                "Fev/26": {
+                  "fat": 13440.58,
+                  "qt": 121
+                },
+                "Jun/26": {
+                  "fat": 1052.91,
+                  "qt": 57
+                },
+                "Mai/26": {
+                  "fat": 341.64,
+                  "qt": 151
+                },
+                "Mar/26": {
+                  "fat": 15091.38,
+                  "qt": 170
+                }
+              },
+              "vendedores": [
+                {
+                  "nome": "BRYAN PALOPOLI - OFF TRADE",
+                  "rca": "299",
+                  "estado": "SP",
+                  "por_mes": {
+                    "Abr/26": {
+                      "fat": 40780.92,
+                      "qt": 527
+                    },
+                    "Fev/26": {
+                      "fat": 13440.58,
+                      "qt": 121
+                    },
+                    "Jun/26": {
+                      "fat": 1052.91,
+                      "qt": 57
+                    },
+                    "Mai/26": {
+                      "fat": 341.64,
+                      "qt": 151
+                    },
+                    "Mar/26": {
+                      "fat": 15091.38,
+                      "qt": 170
                     }
                   }
                 }

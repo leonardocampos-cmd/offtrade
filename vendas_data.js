@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/06/2026 14:38",
+  "atualizado_em": "26/06/2026 14:46",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -180828,6 +180828,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "83380",
+          "cliente": "AGROCOMPEC MARTHI LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 3,
+          "valor": 212.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "83380",
+          "cliente": "AGROCOMPEC MARTHI LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 28.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "83380",
+          "cliente": "AGROCOMPEC MARTHI LTDA",
+          "produto": "LICOR BANANAZINHA 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 18.9,
+          "tipo": "Venda"
+        },
+        {
           "data": "19/06/2026",
           "codcli": "82524",
           "cliente": "54.529.266 LEANDRO SANTOS DIAS",
@@ -182735,6 +182765,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 359.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "95292",
+          "cliente": "GALPAO DAS BEBIDAS CF LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 517.68,
           "tipo": "Venda"
         },
         {
@@ -341395,6 +341435,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 539.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90269",
+          "cliente": "SANDRA GONCALVES MUNIZ 00711753776",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 517.68,
           "tipo": "Venda"
         },
         {
