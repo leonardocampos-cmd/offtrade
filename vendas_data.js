@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/06/2026 16:08",
+  "atualizado_em": "26/06/2026 16:22",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -455986,6 +455986,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "40362",
+          "cliente": "FIDALGO GOUVEIA E CIA LTDA",
+          "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "MOET HENNESY",
+          "qt": 30,
+          "valor": 1033.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "40362",
+          "cliente": "FIDALGO GOUVEIA E CIA LTDA",
+          "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+          "fantasia": "MOET HENNESY",
+          "qt": 30,
+          "valor": 1033.2,
+          "tipo": "Venda"
+        },
+        {
           "data": "15/06/2026",
           "codcli": "40458",
           "cliente": "EDILMAN PRAZERES BARROS MERCADINHO",
@@ -492328,6 +492348,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "51229",
+          "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 116.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51229",
+          "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
+          "produto": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 267.32,
+          "tipo": "Venda"
+        },
+        {
           "data": "23/06/2026",
           "codcli": "51229",
           "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
@@ -505173,6 +505213,26 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 6,
           "valor": 395.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50595",
+          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 4,
+          "valor": 319.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50595",
+          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 1,
+          "valor": 79.9,
           "tipo": "Venda"
         },
         {
