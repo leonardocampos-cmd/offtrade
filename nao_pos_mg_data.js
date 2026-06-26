@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "26/06/2026 14:09",
+  "atualizado_em": "26/06/2026 14:40",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -2106,32 +2106,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 4,
             "valor": 299.6
-          }
-        ]
-      },
-      {
-        "codcli": "38835",
-        "cliente": "RESTAURANTE CLM PARRILLA LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "28/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 191.76
           }
         ]
       },
