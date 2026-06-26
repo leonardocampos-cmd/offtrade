@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "26/06/2026 12:03",
+  "atualizado_em": "26/06/2026 12:07",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -639,20 +639,6 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "JOÃO SANTOS": [
-      {
-        "codcli": "38763",
-        "cliente": "BAR DO RODRIGO VEBRI LTDA",
-        "bairro": "JARDIM ATLÂNTICO",
-        "dtultcomp": "11/03/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 30,
-            "valor": 4168.8
-          }
-        ]
-      },
       {
         "codcli": "32107",
         "cliente": "ASSACABRASA LTDA",
@@ -2375,6 +2361,20 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37255",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SION",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 6,
+            "valor": 419.4
+          }
+        ]
+      },
+      {
         "codcli": "33294",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "ROCHEDO",
@@ -2391,20 +2391,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 372.6
-          }
-        ]
-      },
-      {
-        "codcli": "37255",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SION",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 6,
-            "valor": 419.4
           }
         ]
       },
@@ -2523,6 +2509,56 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "33076",
+        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
+        "bairro": "FERNÃO DIAS",
+        "dtultcomp": "12/05/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON BRUT ROSE 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 1026.0
+          },
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+            "fantasia": "BALLENA",
+            "qt": 18,
+            "valor": 1978.2
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 30,
+            "valor": 3297.0
+          },
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 12,
+            "valor": 718.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "",
+            "qt": 11,
+            "valor": 1318.9
+          },
+          {
+            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
+          }
+        ]
+      },
+      {
         "codcli": "33077",
         "cliente": "CEVAROLI SUPERMERCADOS LTDA",
         "bairro": "VILA CLORIS",
@@ -2581,56 +2617,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 6,
             "valor": 329.4
-          }
-        ]
-      },
-      {
-        "codcli": "33076",
-        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
-        "bairro": "FERNÃO DIAS",
-        "dtultcomp": "12/05/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON BRUT ROSE 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1026.0
-          },
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
-            "fantasia": "BALLENA",
-            "qt": 18,
-            "valor": 1978.2
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 30,
-            "valor": 3297.0
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 12,
-            "valor": 718.8
-          },
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "",
-            "qt": 11,
-            "valor": 1318.9
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
           }
         ]
       },
@@ -3048,9 +3034,9 @@ const NAO_POS_MG_DATA = {
     ],
     "LUIZ FERNANDO SALGADO": [
       {
-        "codcli": "39125",
+        "codcli": "39126",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "RENASCENÇA",
+        "bairro": "ESTRELA DO ORIENTE",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -3062,9 +3048,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39126",
+        "codcli": "39125",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "ESTRELA DO ORIENTE",
+        "bairro": "RENASCENÇA",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -3987,26 +3973,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 478.8
-          }
-        ]
-      },
-      {
-        "codcli": "34631",
-        "cliente": "WORLD RESTAURANTE E LANCHONETE LTDA",
-        "bairro": "FUNCIONÁRIOS",
-        "dtultcomp": "14/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
           }
         ]
       },
