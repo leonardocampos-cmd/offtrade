@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "26/06/2026 14:09",
+  "atualizado_em": "26/06/2026 14:40",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 291763.61,
-        "pos": 117,
+        "fat": 293674.69,
+        "pos": 118,
         "fat_ant": 312476.97
       }
     },
@@ -246,7 +246,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 65306.52
       },
       "Jun/26": {
-        "fat": 76991.38,
+        "fat": 77274.1,
         "pos": 59,
         "fat_ant": 111009.88
       }
@@ -49582,6 +49582,51 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "26/06/2026",
+          "codcli": "38835",
+          "cliente": "RESTAURANTE CLM PARRILLA LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "38835",
+          "cliente": "RESTAURANTE CLM PARRILLA LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "38835",
+          "cliente": "RESTAURANTE CLM PARRILLA LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "38419",
+          "cliente": "LUKA CHOPP MUSIC LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 2,
+          "valor": 287.52
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "38419",
+          "cliente": "LUKA CHOPP MUSIC LTDA",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 127.84
+        },
+        {
+          "data": "26/06/2026",
           "codcli": "37618",
           "cliente": "SAKAI FOOD SERVICE LTDA",
           "produto": "CERVEJA HEINEKEN LONG 24X330ML",
@@ -49642,6 +49687,42 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 174.96
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "39425",
+          "cliente": "57.332.019 SANDRA ROSARIA CARDOSO",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 141.36
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "39425",
+          "cliente": "57.332.019 SANDRA ROSARIA CARDOSO",
+          "produto": "RED BULL SF POMELO 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 141.36
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "39425",
+          "cliente": "57.332.019 SANDRA ROSARIA CARDOSO",
+          "produto": "4 PACK RED BULL NECTARINA  SF",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 70.68
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "33224",
+          "cliente": "CULINARIA JAPAN GDA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 4,
+          "valor": 567.04
         }
       ]
     },
@@ -94532,6 +94613,24 @@ const VENDAS_MG_DATA = {
           "fantasia": "HEINEKEN BRASIL",
           "qt": 4,
           "valor": 565.44
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "35444",
+          "cliente": "ZAMBON & TOMAZ LTDA",
+          "produto": "RED BULL NECTARINA SF 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 141.36
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "35444",
+          "cliente": "ZAMBON & TOMAZ LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 141.36
         },
         {
           "data": "26/06/2026",
