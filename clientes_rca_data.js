@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 12:03",
-  "total": 4418,
+  "atualizado_em": "26/06/2026 12:07",
+  "total": 4419,
   "clientes": [
     {
       "codcli": "31683",
@@ -22808,6 +22808,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "95532",
+      "razao": "FARMACIA DROGAKAR LTDA",
+      "fantasia": "DROGARIA CRISTAL",
+      "bairro": "IPANEMA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "33.568.379/0001-90",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "95531",
