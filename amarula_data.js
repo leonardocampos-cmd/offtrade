@@ -1,5 +1,5 @@
 const AMARULA_DATA = {
-  "atualizado_em": "26/06/2026 11:00",
+  "atualizado_em": "26/06/2026 11:42",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
@@ -7,8 +7,8 @@ const AMARULA_DATA = {
   "premio_1": 2000,
   "premio_2": 1000,
   "total_vendedores": 29,
-  "total_positivacao": 168,
-  "total_faturamento": 53383.66,
+  "total_positivacao": 167,
+  "total_faturamento": 53113.96,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
@@ -16,7 +16,7 @@ const AMARULA_DATA = {
     },
     {
       "vendedor": "JORGE MACIEL - OFF TRADE",
-      "valor": 33
+      "valor": 32
     },
     {
       "vendedor": "LAIS POPPE VILLANOVA",
@@ -130,7 +130,7 @@ const AMARULA_DATA = {
   "ranking_faturamento": [
     {
       "vendedor": "JORGE MACIEL - OFF TRADE",
-      "valor": 14743.6
+      "valor": 14473.9
     },
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
