@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/06/2026 11:41",
+  "atualizado_em": "26/06/2026 12:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -119725,36 +119725,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 24,
           "valor": 789.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "95491",
-          "cliente": "L H REIS MERCADO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 5,
-          "valor": 326.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "95491",
-          "cliente": "L H REIS MERCADO LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 65.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "95491",
-          "cliente": "L H REIS MERCADO LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 65.28,
           "tipo": "Venda"
         },
         {
@@ -498869,16 +498839,6 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 600,
           "valor": 59400.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/06/2026",
-          "codcli": "40664",
-          "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
-          "produto": "TEQUILA J CUERVO GOLD 750ML",
-          "fantasia": "AURORA",
-          "qt": 240,
-          "valor": 20400.0,
           "tipo": "Venda"
         },
         {

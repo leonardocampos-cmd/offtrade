@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "26/06/2026 11:41",
+  "atualizado_em": "26/06/2026 12:01",
   "meses": [
     "Jun/26"
   ],
@@ -15780,7 +15780,7 @@ const METAS_DATA = {
         "Jun/26": {
           "fat_tt": {
             "meta": 80000.0,
-            "realizado": 65692.5
+            "realizado": 65235.54
           },
           "fat_castas": {
             "meta": 4000.0,
@@ -15804,7 +15804,7 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 70,
-            "realizado": 61
+            "realizado": 60
           },
           "pos_hob_azeite": {
             "meta": 3,
@@ -15812,7 +15812,7 @@ const METAS_DATA = {
           },
           "pos_reckit": {
             "meta": 22,
-            "realizado": 12
+            "realizado": 11
           },
           "pos_crusoe": {
             "meta": 0,
@@ -18029,14 +18029,14 @@ const METAS_DATA = {
         },
         {
           "mes": "Jun/26",
-          "fat": 65692.49,
-          "pos": 61
+          "fat": 65235.53,
+          "pos": 60
         }
       ],
       "previsao": {
-        "fat_proj": 72261.75,
+        "fat_proj": 71759.09,
         "fat_media_hist": 84564.18,
-        "pos_proj": 67.1,
+        "pos_proj": 66.0,
         "pos_media_hist": 65.7,
         "du_passados": 20,
         "du_total": 22
@@ -18109,7 +18109,7 @@ const METAS_DATA = {
           }
         }
       },
-      "clientes_cadastrados": 9,
+      "clientes_cadastrados": 13,
       "nao_positivados": [
         {
           "CODCLI": "91081",
