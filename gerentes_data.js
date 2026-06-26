@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "26/06/2026 11:09",
+  "atualizado_em": "26/06/2026 11:13",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -15,8 +15,8 @@ const GERENTES_DATA = {
       "nome": "ES",
       "por_mes": {
         "Abr/26": {
-          "fat": 69110.4,
-          "qt": 960
+          "fat": 69582.86,
+          "qt": 972
         },
         "Jun/26": {
           "fat": 381300.48,
@@ -27,8 +27,16 @@ const GERENTES_DATA = {
           "qt": 4032
         },
         "Mar/26": {
-          "fat": 514950.0,
-          "qt": 7608
+          "fat": 532279.01,
+          "qt": 8002
+        },
+        "Fev/26": {
+          "fat": 13453.16,
+          "qt": 600
+        },
+        "Jan/26": {
+          "fat": 8014.29,
+          "qt": 592
         }
       },
       "gerentes": [
@@ -94,6 +102,75 @@ const GERENTES_DATA = {
                     "Mar/26": {
                       "fat": 514950.0,
                       "qt": 7608
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "DANIEL DINIZ",
+          "por_mes": {
+            "Abr/26": {
+              "fat": 472.46,
+              "qt": 12
+            },
+            "Fev/26": {
+              "fat": 13453.16,
+              "qt": 600
+            },
+            "Jan/26": {
+              "fat": 8014.29,
+              "qt": 592
+            },
+            "Mar/26": {
+              "fat": 17329.01,
+              "qt": 394
+            }
+          },
+          "supervisores": [
+            {
+              "nome": "DANIEL DINIZ",
+              "por_mes": {
+                "Abr/26": {
+                  "fat": 472.46,
+                  "qt": 12
+                },
+                "Fev/26": {
+                  "fat": 13453.16,
+                  "qt": 600
+                },
+                "Jan/26": {
+                  "fat": 8014.29,
+                  "qt": 592
+                },
+                "Mar/26": {
+                  "fat": 17329.01,
+                  "qt": 394
+                }
+              },
+              "vendedores": [
+                {
+                  "nome": "ALDICEIA PEIXOTO - OFF TRADE",
+                  "rca": "440",
+                  "estado": "ES",
+                  "por_mes": {
+                    "Abr/26": {
+                      "fat": 472.46,
+                      "qt": 12
+                    },
+                    "Fev/26": {
+                      "fat": 13453.16,
+                      "qt": 600
+                    },
+                    "Jan/26": {
+                      "fat": 8014.29,
+                      "qt": 592
+                    },
+                    "Mar/26": {
+                      "fat": 17329.01,
+                      "qt": 394
                     }
                   }
                 }
@@ -1786,20 +1863,20 @@ const GERENTES_DATA = {
       "nome": "Sem Estado",
       "por_mes": {
         "Fev/26": {
-          "fat": 4474807.52,
-          "qt": 103949
+          "fat": 4461354.36,
+          "qt": 103349
         },
         "Jan/26": {
-          "fat": 6543357.68,
-          "qt": 127922
+          "fat": 6535343.39,
+          "qt": 127330
         },
         "Mar/26": {
-          "fat": 6438628.83,
-          "qt": 151120
+          "fat": 6421299.82,
+          "qt": 150726
         },
         "Abr/26": {
-          "fat": 4273903.43,
-          "qt": 103360
+          "fat": 4273430.97,
+          "qt": 103348
         },
         "Jun/26": {
           "fat": 2878856.33,
@@ -1935,20 +2012,20 @@ const GERENTES_DATA = {
           "nome": "DANIEL DINIZ",
           "por_mes": {
             "Fev/26": {
-              "fat": 91517.4,
-              "qt": 3069
+              "fat": 78064.24,
+              "qt": 2469
             },
             "Jan/26": {
-              "fat": 104185.48,
-              "qt": 5863
+              "fat": 96171.19,
+              "qt": 5271
             },
             "Mar/26": {
-              "fat": 505359.14,
-              "qt": 8090
+              "fat": 488030.13,
+              "qt": 7696
             },
             "Abr/26": {
-              "fat": 61873.11,
-              "qt": 660
+              "fat": 61400.65,
+              "qt": 648
             }
           },
           "supervisores": [
@@ -1956,46 +2033,23 @@ const GERENTES_DATA = {
               "nome": "DANIEL DINIZ",
               "por_mes": {
                 "Fev/26": {
-                  "fat": 91517.4,
-                  "qt": 3069
+                  "fat": 78064.24,
+                  "qt": 2469
                 },
                 "Jan/26": {
-                  "fat": 104185.48,
-                  "qt": 5863
+                  "fat": 96171.19,
+                  "qt": 5271
                 },
                 "Mar/26": {
-                  "fat": 505359.14,
-                  "qt": 8090
+                  "fat": 488030.13,
+                  "qt": 7696
                 },
                 "Abr/26": {
-                  "fat": 61873.11,
-                  "qt": 660
+                  "fat": 61400.65,
+                  "qt": 648
                 }
               },
               "vendedores": [
-                {
-                  "nome": "ALDICEIA PEIXOTO - OFF TRADE",
-                  "rca": "440",
-                  "estado": "",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 472.46,
-                      "qt": 12
-                    },
-                    "Fev/26": {
-                      "fat": 13453.16,
-                      "qt": 600
-                    },
-                    "Jan/26": {
-                      "fat": 8014.29,
-                      "qt": 592
-                    },
-                    "Mar/26": {
-                      "fat": 17329.01,
-                      "qt": 394
-                    }
-                  }
-                },
                 {
                   "nome": "BRYAN PALOPOLI - OFF TRADE",
                   "rca": "299",
