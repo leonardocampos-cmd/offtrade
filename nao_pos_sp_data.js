@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "26/06/2026 15:25",
+  "atualizado_em": "26/06/2026 15:51",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -3795,6 +3795,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51292",
         "cliente": "57.624.385 JOHNNY HENRIQUE ESCOBAR",
         "bairro": "JARDIM PÉROLA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51375",
+        "cliente": "MERCEARIA E QUITANDA FRANGAO LTDA",
+        "bairro": "JARDIM EUROPA I",
         "dtultcomp": "nan",
         "produtos": []
       },
