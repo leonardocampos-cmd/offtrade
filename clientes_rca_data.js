@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 14:09",
-  "total": 4434,
+  "atualizado_em": "26/06/2026 14:40",
+  "total": 4438,
   "clientes": [
     {
       "codcli": "31683",
@@ -48928,8 +48928,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "10.402.555/0001-13",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "547",
-      "nome_usur1": "TLR",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "426",
       "nome_usur2": "ADER ALONSO - OFF TRADE"
     },
@@ -50668,6 +50668,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51369",
+      "razao": "REGINALDO PONTES PINTO",
+      "fantasia": "MERCEARIA TONINHO",
+      "bairro": "BARRA DO AZEITE",
+      "cidade": "CAJATI",
+      "cnpj": "09.366.727/0001-61",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82298",
@@ -53582,6 +53596,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51370",
+      "razao": "SEVERINO JOSE CARDOSO",
+      "fantasia": "SEVERINO JOSE CARDOSO",
+      "bairro": "VILA SAO JOSE",
+      "cidade": "MIRACATU",
+      "cnpj": "48.744.357/0001-00",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91848",
       "razao": "SEVERINO MAMEDES DE LIMA BAR E MERCEARIA",
       "fantasia": "SEVERINO MAMEDES DE LIMA BAR E MERCEARIA",
@@ -53860,6 +53888,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "51371",
+      "razao": "SILVA PINTO COMERCIAL DE ALIMENTOS LTDA",
+      "fantasia": "SUPERMERCADO JC",
+      "bairro": "CENTRO",
+      "cidade": "PARIQUERA ACU",
+      "cnpj": "62.108.949/0001-67",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "29587",
@@ -54728,6 +54770,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51372",
+      "razao": "SU GENOVEZ CONFEITARIA E PADARIA LTDA",
+      "fantasia": "SU GENOVEZ CONFEITARIA E PADARIA",
+      "bairro": "BAIRRO SERROTE",
+      "cidade": "REGISTRO",
+      "cnpj": "47.969.978/0001-20",
+      "estado": "SP",
+      "ramo": "PADARIA",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "934",
