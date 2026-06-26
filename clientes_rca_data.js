@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 11:43",
-  "total": 4414,
+  "atualizado_em": "26/06/2026 12:03",
+  "total": 4418,
   "clientes": [
     {
       "codcli": "31683",
@@ -19716,6 +19716,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ARLLEY FIGUEIREDO - OFF TRADE"
     },
     {
+      "codcli": "95529",
+      "razao": "DROGARIA CENTRAL DA GAVEA LTDA",
+      "fantasia": "DROGARIA CRISTAL",
+      "bairro": "GAVEA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "33.516.451/0001-35",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "43763",
       "razao": "DROGARIA CONSELHEIRO MACEDO SOARES LTDA",
       "fantasia": "DROGARIA CONSELHEIRO MACEDO SOARES",
@@ -20050,6 +20064,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "172",
       "nome_usur2": "JOAO PEDRO - OFF TRADE"
+    },
+    {
+      "codcli": "95530",
+      "razao": "DROGARIA LLIPE FARMA LTDA",
+      "fantasia": "DROGARIA NORTE SUL",
+      "bairro": "IPANEMA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "02.161.684/0001-39",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "95523",
@@ -22780,6 +22808,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "95531",
+      "razao": "FARMACIA FARMALANDIA LTDA",
+      "fantasia": "DROGARIA CRISTAL",
+      "bairro": "COPACABANA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "32.161.465/0001-10",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "83926",
@@ -57108,6 +57150,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RICARDO CLAUDIO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "51354",
+      "razao": "SUPERMERCADO YAMATO LTDA",
+      "fantasia": "SUPERMERCADO YAMATO",
+      "bairro": "VILA DO ENCONTRO",
+      "cidade": "SAO PAULO",
+      "cnpj": "61.943.189/0001-40",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "232",
+      "nome_usur1": "ANDERSON CANAVEIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50805",
