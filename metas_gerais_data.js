@@ -1,21 +1,21 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "26/06/2026 12:17",
+  "atualizado_em": "26/06/2026 12:29",
   "mes": "Jun/26",
   "dias_corridos": 26,
   "dias_no_mes": 30,
   "dias_restantes": 4,
   "resumo": {
-    "fat": 9387536.19,
+    "fat": 9385436.49,
     "fat_ant": 8887151.11,
     "pos": 1621,
     "pos_ant": 1525
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 9387536.19,
+    "fat": 9385436.49,
     "fat_ant": 8887151.11,
     "pct": 65.2,
-    "nec_dia": 1253115.95
+    "nec_dia": 1253640.88
   },
   "estados": [
     {
@@ -33,11 +33,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 6600000.0,
-      "fat": 4764478.04,
+      "fat": 4762378.34,
       "fat_ant": 4824188.74,
       "pos": 570,
       "pct": 72.2,
-      "nec_dia": 458880.49,
+      "nec_dia": 459405.42,
       "pos_ant": 406
     },
     {
@@ -516,23 +516,23 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "TOP BIRRA",
-      "fat": 3847.25,
-      "fat_ant": 597.95,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 3847.25,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
       "fantasia": "PERINI",
       "fat": 2486.25,
       "fat_ant": 39532.8,
       "por_estado": {
         "RJ": 0.0,
         "SP": 2486.25,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "TOP BIRRA",
+      "fat": 1747.55,
+      "fat_ant": 597.95,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 1747.55,
         "ES": 0.0,
         "MG": 0.0
       }
