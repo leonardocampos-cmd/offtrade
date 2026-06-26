@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/06/2026 15:50",
+  "atualizado_em": "26/06/2026 16:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -230513,6 +230513,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 90,
           "valor": 3591.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "80460",
+          "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 600,
+          "valor": 23940.0,
           "tipo": "Venda"
         },
         {
