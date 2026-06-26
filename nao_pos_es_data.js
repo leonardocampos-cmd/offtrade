@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "25/06/2026 18:31",
+  "atualizado_em": "26/06/2026 09:03",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -4611,20 +4611,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "PINATI",
             "qt": 1,
             "valor": 38.9
-          }
-        ]
-      },
-      {
-        "codcli": "80679",
-        "cliente": "DROGARIA ROMEIROS LTDA",
-        "bairro": "ANIL",
-        "dtultcomp": "07/05/2026",
-        "produtos": [
-          {
-            "produto": "GUARAVITA NATURAL 24X290ML",
-            "fantasia": "VITON",
-            "qt": 5,
-            "valor": 129.5
           }
         ]
       },
@@ -9643,13 +9629,6 @@ const NAO_POS_ES_DATA = {
             "valor": 946.8
           }
         ]
-      },
-      {
-        "codcli": "95512",
-        "cliente": "42.091.059 THIAGO JEFFERSON PETIT",
-        "bairro": "IMBETIBA",
-        "dtultcomp": "nan",
-        "produtos": []
       },
       {
         "codcli": "95344",
@@ -20011,32 +19990,6 @@ const NAO_POS_ES_DATA = {
       }
     ],
     "ZEINALDO DE OLIVEIRA": [
-      {
-        "codcli": "85442",
-        "cliente": "32.035.352 JOAO CARLOS FLORES DE SOUZA",
-        "bairro": "RECANTO",
-        "dtultcomp": "05/01/2026",
-        "produtos": [
-          {
-            "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
-            "fantasia": "51",
-            "qt": 1,
-            "valor": 108.0
-          },
-          {
-            "produto": "MARTINI BIANCO 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 3,
-            "valor": 89.7
-          },
-          {
-            "produto": "VODCA SMIRNOFF RED 998 ML",
-            "fantasia": "DIAGEO",
-            "qt": 3,
-            "valor": 91.5
-          }
-        ]
-      },
       {
         "codcli": "92333",
         "cliente": "M. J. DE PAIVA GOMES COMERCIO LTDA",
