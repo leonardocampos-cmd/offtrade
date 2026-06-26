@@ -612,8 +612,10 @@ if _hier_parts:
             sups_out = []
             for sup_data in sorted(ger_data['supervisores'].values(), key=lambda x: x['nome']):
                 vends_out = sorted(sup_data['vendedores'].values(), key=lambda x: x['nome'])
-                sups_out.append({'nome': sup_data['nome'], 'por_mes': sup_data['por_mes'], 'vendedores': list(vends_out)})
-            gerentes_list.append({'nome': ger_data['nome'], 'por_mes': ger_data['por_mes'], 'supervisores': sups_out})
+                estados_sup = sorted(set(v['estado'] for v in vends_out if v.get('estado')))
+                sups_out.append({'nome': sup_data['nome'], 'estados': estados_sup, 'por_mes': sup_data['por_mes'], 'vendedores': list(vends_out)})
+            estados_ger = sorted(set(e for s in sups_out for e in s.get('estados', [])))
+            gerentes_list.append({'nome': ger_data['nome'], 'estados': estados_ger, 'por_mes': ger_data['por_mes'], 'supervisores': sups_out})
         estados_out.append({'nome': est_data['nome'], 'por_mes': est_data['por_mes'], 'gerentes': gerentes_list})
 
     gerentes_payload = {
