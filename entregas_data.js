@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "26/06/2026 14:08",
+  "atualizado_em": "26/06/2026 14:39",
   "data_rota": "26.06",
   "vendedores": [
     {
@@ -42407,6 +42407,26 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "155003771",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "GALPAO DAS BEBIDAS CF LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 990.0,
+          "itens": [
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 36,
+              "val": 990.0
+            }
+          ]
+        },
+        {
           "numped": "155003770",
           "numnota": "",
           "data": "26/06/2026",
@@ -48442,6 +48462,61 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "241000513",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "A. C. BARBOSA DISTRIBUIDORA DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 690.24,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 172.56
+            }
+          ]
+        },
+        {
+          "numped": "241000512",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "VILMA APARECIDA VIEIRA CARVALHO 94668167649",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 862.8,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 5,
+              "val": 862.8
+            }
+          ]
+        },
         {
           "numped": "241000511",
           "numnota": "",
