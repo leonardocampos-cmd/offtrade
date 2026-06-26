@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "26/06/2026 12:06",
+  "atualizado_em": "26/06/2026 12:17",
   "data_rota": "26.06",
   "vendedores": [
     {
@@ -71,14 +71,14 @@ const ENTREGAS_DATA = {
               "val": 131.69
             },
             {
-              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-              "qt": 1,
-              "val": 71.76
-            },
-            {
               "desc": "GUARAVITON GINSENG 12X500ML",
               "qt": 2,
               "val": 76.16
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 1,
+              "val": 71.76
             }
           ]
         },
@@ -22547,6 +22547,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "379001157",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "MANDARIM CEREAIS E MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 639.5,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+              "qt": 5,
+              "val": 639.5
+            }
+          ]
+        },
         {
           "numped": "379001156",
           "numnota": "",
