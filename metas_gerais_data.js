@@ -1,21 +1,21 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "26/06/2026 09:30",
+  "atualizado_em": "26/06/2026 11:00",
   "mes": "Jun/26",
   "dias_corridos": 26,
   "dias_no_mes": 30,
   "dias_restantes": 4,
   "resumo": {
-    "fat": 9392322.58,
+    "fat": 9391905.49,
     "fat_ant": 8887151.11,
     "pos": 1619,
     "pos_ant": 1525
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 9392322.58,
+    "fat": 9391905.49,
     "fat_ant": 8887151.11,
     "pct": 65.2,
-    "nec_dia": 1251919.35
+    "nec_dia": 1252023.63
   },
   "estados": [
     {
@@ -44,11 +44,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 753230.21,
+      "fat": 752813.12,
       "fat_ant": 446505.64,
       "pos": 110,
       "pct": 41.8,
-      "nec_dia": 261692.45,
+      "nec_dia": 261796.72,
       "pos_ant": 234
     },
     {
@@ -363,12 +363,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "PINATI",
-      "fat": 16665.22,
+      "fat": 16248.13,
       "fat_ant": 29796.34,
       "por_estado": {
         "RJ": 4245.98,
         "SP": 0.0,
-        "ES": 12419.24,
+        "ES": 12002.15,
         "MG": 0.0
       }
     },
