@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 14:40",
-  "total": 4438,
+  "atualizado_em": "26/06/2026 14:47",
+  "total": 4440,
   "clientes": [
     {
       "codcli": "31683",
@@ -322,6 +322,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PADARIA",
       "codusur1": "260",
       "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "93523",
+      "razao": "23.999.927 LUZIA GOMES DE ALMEIDA",
+      "fantasia": "LUZIA GOMES DE ALMEIDA",
+      "bairro": "JEQUITIBA",
+      "cidade": "ARACRUZ",
+      "cnpj": "23.999.927/0001-82",
+      "estado": "ES",
+      "ramo": "CAFETERIA",
+      "codusur1": "442",
+      "nome_usur1": "RAQUEL ARAUJO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -4648,6 +4662,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ACADEMIA",
       "codusur1": "336",
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "83319",
+      "razao": "ACADEMIA VIDA ATIVA BOX LTDA",
+      "fantasia": "ULTIMATE VIDA ATIVA",
+      "bairro": "DE CARLI",
+      "cidade": "ARACRUZ",
+      "cnpj": "34.894.905/0001-74",
+      "estado": "ES",
+      "ramo": "ACADEMIA",
+      "codusur1": "442",
+      "nome_usur1": "RAQUEL ARAUJO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
