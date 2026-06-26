@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "26/06/2026 15:08",
+  "atualizado_em": "26/06/2026 15:20",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -1611,81 +1611,24 @@ const GERENTES_DATA = {
               ],
               "por_mes": {
                 "Abr/26": {
-                  "fat": 40780.92,
-                  "qt": 527
+                  "fat": 128943.0,
+                  "qt": 2266
                 },
                 "Fev/26": {
-                  "fat": 13440.58,
-                  "qt": 121
+                  "fat": 14373.58,
+                  "qt": 129
                 },
                 "Jun/26": {
-                  "fat": 1052.91,
-                  "qt": 57
+                  "fat": 447710.52,
+                  "qt": 11770
                 },
                 "Mai/26": {
-                  "fat": 341.64,
-                  "qt": 151
+                  "fat": 629217.95,
+                  "qt": 19382
                 },
                 "Mar/26": {
-                  "fat": 15091.38,
-                  "qt": 170
-                }
-              },
-              "vendedores": [
-                {
-                  "nome": "BRYAN PALOPOLI - OFF TRADE",
-                  "rca": "299",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 40780.92,
-                      "qt": 527
-                    },
-                    "Fev/26": {
-                      "fat": 13440.58,
-                      "qt": 121
-                    },
-                    "Jun/26": {
-                      "fat": 1052.91,
-                      "qt": 57
-                    },
-                    "Mai/26": {
-                      "fat": 341.64,
-                      "qt": 151
-                    },
-                    "Mar/26": {
-                      "fat": 15091.38,
-                      "qt": 170
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "nome": "MARCUS TANAMACHI ",
-              "estados": [
-                "SP"
-              ],
-              "por_mes": {
-                "Abr/26": {
-                  "fat": 88162.08,
-                  "qt": 1739
-                },
-                "Jun/26": {
-                  "fat": 446657.61,
-                  "qt": 11713
-                },
-                "Fev/26": {
-                  "fat": 933.0,
-                  "qt": 8
-                },
-                "Mar/26": {
-                  "fat": 6588.0,
-                  "qt": 120
-                },
-                "Mai/26": {
-                  "fat": 628876.31,
-                  "qt": 19231
+                  "fat": 21679.38,
+                  "qt": 290
                 }
               },
               "vendedores": [
