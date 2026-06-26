@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "26/06/2026 12:18",
+  "atualizado_em": "26/06/2026 12:30",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -2036,20 +2036,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94091",
-        "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
-        "bairro": "LEBLON",
-        "dtultcomp": "13/04/2026",
-        "produtos": [
-          {
-            "produto": "AGUA NA CAIXA 12X330ML",
-            "fantasia": "AGUA NA CAIXA",
-            "qt": 15,
-            "valor": 590.4
-          }
-        ]
-      },
-      {
         "codcli": "10734",
         "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
         "bairro": "LEBLON",
@@ -2074,6 +2060,20 @@ const NAO_POS_ES_DATA = {
             "fantasia": "AGUA NA CAIXA",
             "qt": 5,
             "valor": 196.8
+          }
+        ]
+      },
+      {
+        "codcli": "94091",
+        "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
+        "bairro": "LEBLON",
+        "dtultcomp": "13/04/2026",
+        "produtos": [
+          {
+            "produto": "AGUA NA CAIXA 12X330ML",
+            "fantasia": "AGUA NA CAIXA",
+            "qt": 15,
+            "valor": 590.4
           }
         ]
       },
@@ -2476,9 +2476,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95534",
+        "codcli": "95536",
         "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "IPANEMA",
+        "bairro": "COPACABANA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -2493,6 +2493,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "95535",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95534",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "IPANEMA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -3032,26 +3039,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "85375",
-        "cliente": "MERCEARIAS SUPERMIX LTDA",
-        "bairro": "ANDORINHAS (SANTO ALEIXO)",
-        "dtultcomp": "25/03/2026",
-        "produtos": [
-          {
-            "produto": "RC SARDINHA EM OLEO 50X125G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 399.8
-          },
-          {
-            "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 399.0
-          }
-        ]
-      },
-      {
         "codcli": "85376",
         "cliente": "MERCEARIAS SUPERMIX LTDA",
         "bairro": "VILA VELHA (SANTO ALEIXO)",
@@ -3062,6 +3049,26 @@ const NAO_POS_ES_DATA = {
             "fantasia": "ROBINSON CRUSOE",
             "qt": 2,
             "valor": 399.0
+          },
+          {
+            "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 2,
+            "valor": 399.0
+          }
+        ]
+      },
+      {
+        "codcli": "85375",
+        "cliente": "MERCEARIAS SUPERMIX LTDA",
+        "bairro": "ANDORINHAS (SANTO ALEIXO)",
+        "dtultcomp": "25/03/2026",
+        "produtos": [
+          {
+            "produto": "RC SARDINHA EM OLEO 50X125G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 2,
+            "valor": 399.8
           },
           {
             "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
