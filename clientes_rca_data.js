@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 13:02",
-  "total": 4421,
+  "atualizado_em": "26/06/2026 14:08",
+  "total": 4433,
   "clientes": [
     {
       "codcli": "31683",
@@ -20472,6 +20472,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "21014",
+      "razao": "ECOREAL SUPERMERCADOS LTDA",
+      "fantasia": "ECOREAL SUPERMERCADOS",
+      "bairro": "TERRA VERMELHA",
+      "cidade": "VILA VELHA",
+      "cnpj": "08.929.445/0001-62",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
       "codcli": "81924",
       "razao": "EDEN GASTRONOMIA E CHOPERIA LTDA",
       "fantasia": "EDEN GASTRONOMIA E CHOPERIA",
@@ -27542,6 +27556,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51357",
+      "razao": "J G DE AMORIM CIA ALIMENTOS LTDA",
+      "fantasia": "J G DE AMORIM CIA ALIMENTOS",
+      "bairro": "CENTRO",
+      "cidade": "CAJATI",
+      "cnpj": "10.860.312/0001-29",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "25307",
       "razao": "J G DE ANDRADE SILVA MERCEARIA",
       "fantasia": "MERCADINHO ZE DO NORTE",
@@ -33478,6 +33506,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
+      "codcli": "51359",
+      "razao": "MAGMAXX COMERCIAL LTDA",
+      "fantasia": "MAGMAXX SUPERMERCADOS",
+      "bairro": "DISTRITO INDUSTRIAL",
+      "cidade": "PARIQUERA ACU",
+      "cnpj": "14.816.164/0001-04",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "84690",
       "razao": "MAGNO DA ROCHA ZANETTE 13732003752",
       "fantasia": "MAGNO DA ROCHA ZANETTE",
@@ -33950,6 +33992,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "472",
       "nome_usur1": "FLAVIO RIBEIRO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51360",
+      "razao": "MARCELO URZEDO DE OLIVEIRA ELDORADO",
+      "fantasia": "MINI CUSTO",
+      "bairro": "CENTRO",
+      "cidade": "ELDORADO",
+      "cnpj": "04.153.386/0001-22",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -36726,6 +36782,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51361",
+      "razao": "MERCADO E ADEGA TATU LTDA",
+      "fantasia": "MERCADO TATU",
+      "bairro": "JD SAO PAULO",
+      "cidade": "REGISTRO",
+      "cnpj": "58.403.446/0001-47",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50401",
       "razao": "MERCADO E DEPOSITO DE BEBIDAS DA ALDEIA LTDA",
       "fantasia": "MERCADO E DEPOSITO DE BEBIDAS DA ALDEIA",
@@ -38280,6 +38350,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "51367",
+      "razao": "MERCADO RK LTDA",
+      "fantasia": "MERCADO RK",
+      "bairro": "CENTRO",
+      "cidade": "PARIQUERA ACU",
+      "cnpj": "62.495.016/0001-70",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50502",
       "razao": "MERCADO RODRAF LTDA",
       "fantasia": "SUPERMERCADO ROD E RAF",
@@ -38882,6 +38966,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "51362",
+      "razao": "MERCEARIA BARATEIRO DO VALE LTDA",
+      "fantasia": "MERCEARIA BARATEIRO DO VALE",
+      "bairro": "FLORESTA",
+      "cidade": "JUQUIA",
+      "cnpj": "06.266.420/0002-81",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "76776",
       "razao": "MERCEARIA BASSANI LTDA",
       "fantasia": "AUTO SERVICO BASSANI",
@@ -38908,6 +39006,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "87103",
+      "razao": "MERCEARIA BIA LTDA",
+      "fantasia": "MERCEARIA BIA",
+      "bairro": "SAO PEDRO",
+      "cidade": "VITORIA",
+      "cnpj": "39.815.386/0001-25",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "95275",
@@ -40156,6 +40268,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
+      "codcli": "51358",
+      "razao": "MERCEARIA YASSUO LTDA",
+      "fantasia": "REGIS BAR E MERCEARIA YASSUO",
+      "bairro": "VILA RIBEIROPOLIS",
+      "cidade": "REGISTRO",
+      "cnpj": "66.563.263/0001-17",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "85376",
       "razao": "MERCEARIAS SUPERMIX LTDA",
       "fantasia": "MERCEARIAS SUPERMIX LTDA",
@@ -40796,6 +40922,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "471",
       "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51364",
+      "razao": "MINI-MERCADO CANOSSA LTDA",
+      "fantasia": "MINI-MERCADO CANOSSA",
+      "bairro": "CENTRO",
+      "cidade": "ITARIRI",
+      "cnpj": "03.369.216/0001-17",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -43262,6 +43402,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAQUEL ARAUJO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "51366",
+      "razao": "OLIVEIRA E MIQUITA MINIMERCADO LTDA",
+      "fantasia": "MIQUITA MINIMERCADO",
+      "bairro": "JARDIM YOLANDA",
+      "cidade": "MIRACATU",
+      "cnpj": "09.369.769/0001-56",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "90401",
@@ -55916,6 +56070,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "391",
       "nome_usur1": "ANDRE SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51365",
+      "razao": "SUPERMERCADO NANA SUL LTDA",
+      "fantasia": "SUPERMERCADO NANA SUL",
+      "bairro": "CENTRO",
+      "cidade": "SETE BARRAS",
+      "cnpj": "07.149.309/0001-97",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
