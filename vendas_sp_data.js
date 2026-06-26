@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "26/06/2026 11:01",
+  "atualizado_em": "26/06/2026 11:42",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -36489,24 +36489,6 @@ const VENDAS_SP_DATA = {
           "valor": 37296.0
         },
         {
-          "data": "09/06/2026",
-          "codcli": "47295",
-          "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 1198.8
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "47295",
-          "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 1198.8
-        },
-        {
           "data": "24/06/2026",
           "codcli": "47377",
           "cliente": "ADEGA ISA VITORIA LTDA",
@@ -48076,15 +48058,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BACARDI",
           "qt": 12,
           "valor": 413.04
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "33273",
-          "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
-          "produto": "RUM BACARDI LIMON 700ML",
-          "fantasia": "BACARDI",
-          "qt": 24,
-          "valor": 792.0
         },
         {
           "data": "23/06/2026",
@@ -84291,7 +84264,7 @@ const VENDAS_SP_DATA = {
     },
     "ANDRE SILVA": {
       "Jun/26": {
-        "fat": 137677.8,
+        "fat": 136885.8,
         "pos": 15.0,
         "fat_pernod": 86671.24,
         "fat_crs": 3176.28
@@ -84817,8 +84790,8 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2232357.07,
-        "pos": 149.0,
+        "fat": 2229959.47,
+        "pos": 148.0,
         "fat_pernod": 1150196.23,
         "fat_crs": 38940.72
       },
