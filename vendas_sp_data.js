@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "26/06/2026 16:23",
+  "atualizado_em": "26/06/2026 17:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -35373,6 +35373,33 @@ const VENDAS_SP_DATA = {
           "valor": 2994.0
         },
         {
+          "data": "26/06/2026",
+          "codcli": "40916",
+          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1L",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1933.08
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "40916",
+          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 24,
+          "valor": 693.6
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "40916",
+          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
+          "produto": "VODKA CIROC 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 5,
+          "valor": 725.0
+        },
+        {
           "data": "24/06/2026",
           "codcli": "40916",
           "cliente": "MERCADINHO DA VILA SUZANO LTDA",
@@ -58227,6 +58254,33 @@ const VENDAS_SP_DATA = {
           "valor": 539.4
         },
         {
+          "data": "26/06/2026",
+          "codcli": "51327",
+          "cliente": "ESQUINA DO CHOPP FERRAZ LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51327",
+          "cliente": "ESQUINA DO CHOPP FERRAZ LTDA",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 5,
+          "valor": 399.5
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51327",
+          "cliente": "ESQUINA DO CHOPP FERRAZ LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
           "data": "25/06/2026",
           "codcli": "51253",
           "cliente": "MEDRADO BURGUER LTDA",
@@ -67139,6 +67193,24 @@ const VENDAS_SP_DATA = {
           "valor": 2012.4
         },
         {
+          "data": "26/06/2026",
+          "codcli": "34252",
+          "cliente": "RAS DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1167.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "34252",
+          "cliente": "RAS DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1167.0
+        },
+        {
           "data": "06/06/2026",
           "codcli": "46946",
           "cliente": "DIEGO ALVES DE ALMEIDA 36550638810",
@@ -67218,6 +67290,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "MOET HENNESY",
           "qt": 6,
           "valor": 455.4
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "49542",
+          "cliente": "ADAO NOE BISPO DE SOUZA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 6,
+          "valor": 419.4
         },
         {
           "data": "23/06/2026",
@@ -84533,10 +84614,10 @@ const VENDAS_SP_DATA = {
     },
     "SUELY SANTOS": {
       "Jun/26": {
-        "fat": 69987.6,
-        "pos": 25.0,
+        "fat": 71693.78,
+        "pos": 26.0,
         "fat_pernod": 27606.86,
-        "fat_crs": 1616.64
+        "fat_crs": 1724.52
       },
       "Mai/26": {
         "fat": 73132.92,
@@ -84630,9 +84711,9 @@ const VENDAS_SP_DATA = {
     },
     "MARLENE RODRIGUES": {
       "Jun/26": {
-        "fat": 49710.44,
+        "fat": 52463.84,
         "pos": 6.0,
-        "fat_pernod": 40574.6,
+        "fat_pernod": 42908.6,
         "fat_crs": 2397.6
       },
       "Mai/26": {
@@ -84853,7 +84934,7 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2192630.17,
+        "fat": 2195981.85,
         "pos": 147.0,
         "fat_pernod": 1112900.23,
         "fat_crs": 38940.72
