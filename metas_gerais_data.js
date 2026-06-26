@@ -1,32 +1,32 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "26/06/2026 14:39",
+  "atualizado_em": "26/06/2026 14:46",
   "mes": "Jun/26",
   "dias_corridos": 26,
   "dias_no_mes": 30,
   "dias_restantes": 4,
   "resumo": {
-    "fat": 9350334.29,
+    "fat": 9351630.01,
     "fat_ant": 8887151.11,
     "pos": 1621,
     "pos_ant": 1525
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 9350334.29,
+    "fat": 9351630.01,
     "fat_ant": 8887151.11,
     "pct": 64.9,
-    "nec_dia": 1262416.43
+    "nec_dia": 1262092.5
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 2629305.6,
+      "fat": 2630601.32,
       "fat_ant": 2336185.53,
       "pos": 664,
-      "pct": 67.4,
-      "nec_dia": 317673.6,
+      "pct": 67.5,
+      "nec_dia": 317349.67,
       "pos_ant": 615
     },
     {
@@ -88,10 +88,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 1123925.86,
+      "fat": 1123944.76,
       "fat_ant": 1221845.94,
       "por_estado": {
-        "RJ": 233.1,
+        "RJ": 252.0,
         "SP": 3732.81,
         "ES": 34766.94,
         "MG": 1085193.01
@@ -99,10 +99,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 755389.16,
+      "fat": 756453.28,
       "fat_ant": 166193.06,
       "por_estado": {
-        "RJ": 208871.17,
+        "RJ": 209935.29,
         "SP": 0.0,
         "ES": 546517.99,
         "MG": 0.0
@@ -176,10 +176,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "BEAM SUNTORY",
-      "fat": 201375.06,
+      "fat": 201587.76,
       "fat_ant": 93811.73,
       "por_estado": {
-        "RJ": 193041.75,
+        "RJ": 193254.45,
         "SP": 0.0,
         "ES": 8333.31,
         "MG": 0.0
