@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "26/06/2026 16:09",
+  "atualizado_em": "26/06/2026 16:23",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -35238,6 +35238,24 @@ const VENDAS_SP_DATA = {
           "valor": 19740.0
         },
         {
+          "data": "26/06/2026",
+          "codcli": "40362",
+          "cliente": "FIDALGO GOUVEIA E CIA LTDA",
+          "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "MOET HENNESY",
+          "qt": 30,
+          "valor": 1033.2
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "40362",
+          "cliente": "FIDALGO GOUVEIA E CIA LTDA",
+          "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+          "fantasia": "MOET HENNESY",
+          "qt": 30,
+          "valor": 1033.2
+        },
+        {
           "data": "15/06/2026",
           "codcli": "40458",
           "cliente": "EDILMAN PRAZERES BARROS MERCADINHO",
@@ -43514,6 +43532,33 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 414.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50047",
+          "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 3348.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50047",
+          "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 634.8
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50047",
+          "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
+          "produto": "JACK DANIELS APPLE 700ML - DEST",
+          "fantasia": "BROWN",
+          "qt": 6,
+          "valor": 437.4
         },
         {
           "data": "11/06/2026",
@@ -67449,6 +67494,24 @@ const VENDAS_SP_DATA = {
           "valor": 209.8
         },
         {
+          "data": "26/06/2026",
+          "codcli": "51229",
+          "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 116.9
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51229",
+          "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
+          "produto": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 267.32
+        },
+        {
           "data": "23/06/2026",
           "codcli": "51229",
           "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
@@ -79160,6 +79223,15 @@ const VENDAS_SP_DATA = {
           "valor": 742.8
         },
         {
+          "data": "26/06/2026",
+          "codcli": "50420",
+          "cliente": "SUPER OSMARAJA EMPORIO LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 48,
+          "valor": 985.92
+        },
+        {
           "data": "17/06/2026",
           "codcli": "50421",
           "cliente": "MARTINS ARAUJO E DA SILVA SUPERMERCADO LTDA",
@@ -80579,6 +80651,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "AURORA",
           "qt": 6,
           "valor": 395.4
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50595",
+          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 4,
+          "valor": 319.6
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50595",
+          "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 1,
+          "valor": 79.9
         },
         {
           "data": "25/06/2026",
@@ -84320,9 +84410,9 @@ const VENDAS_SP_DATA = {
     },
     "ADER ALONSO": {
       "Jun/26": {
-        "fat": 372139.76,
+        "fat": 376559.96,
         "pos": 33.0,
-        "fat_pernod": 170990.8,
+        "fat_pernod": 174973.6,
         "fat_crs": 377.64
       },
       "Mai/26": {
@@ -84523,7 +84613,7 @@ const VENDAS_SP_DATA = {
     },
     "DANIELLE DOS SANTOS": {
       "Jun/26": {
-        "fat": 20923.63,
+        "fat": 21323.13,
         "pos": 8.0,
         "fat_pernod": 10760.47
       },
@@ -84636,7 +84726,7 @@ const VENDAS_SP_DATA = {
     },
     "FRANCIS SILVA": {
       "Jun/26": {
-        "fat": 17443.23,
+        "fat": 17827.45,
         "pos": 7.0,
         "fat_pernod": 7310.3
       },
@@ -84661,7 +84751,7 @@ const VENDAS_SP_DATA = {
     },
     "RODRIGO LIMA": {
       "Jun/26": {
-        "fat": 113065.52,
+        "fat": 114051.44,
         "pos": 33.0,
         "fat_pernod": 59518.8,
         "fat_crs": 167.82
@@ -84763,7 +84853,7 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2190563.77,
+        "fat": 2192630.17,
         "pos": 147.0,
         "fat_pernod": 1112900.23,
         "fat_crs": 38940.72
