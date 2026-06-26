@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "26/06/2026 16:09",
+  "atualizado_em": "26/06/2026 16:23",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 293674.69,
-        "pos": 118,
+        "fat": 295006.57,
+        "pos": 119,
         "fat_ant": 312476.97
       }
     },
@@ -246,7 +246,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 65306.52
       },
       "Jun/26": {
-        "fat": 77274.1,
+        "fat": 78130.9,
         "pos": 59,
         "fat_ant": 111009.88
       }
@@ -49582,6 +49582,15 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "26/06/2026",
+          "codcli": "39425",
+          "cliente": "57.332.019 SANDRA ROSARIA CARDOSO",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 70.68
+        },
+        {
+          "data": "26/06/2026",
           "codcli": "38835",
           "cliente": "RESTAURANTE CLM PARRILLA LTDA",
           "produto": "RED BULL 250ML CAIXA C/24 UNID",
@@ -49687,6 +49696,42 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 174.96
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "30313",
+          "cliente": "RL DISTRIBUIDORA LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 264.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "30313",
+          "cliente": "RL DISTRIBUIDORA LTDA",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 174.96
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "30313",
+          "cliente": "RL DISTRIBUIDORA LTDA",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 174.96
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "30002",
+          "cliente": "SOCIEDADE COMERCIAL PIRES LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 3,
+          "valor": 647.28
         },
         {
           "data": "26/06/2026",
@@ -94676,6 +94721,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 8,
           "valor": 1184.64
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "34139",
+          "cliente": "CHEF PALMEIRA & CIA LTDA",
+          "produto": "VINHO ARESTI EST SEL ROSE 187ML",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 189.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "34139",
+          "cliente": "CHEF PALMEIRA & CIA LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 478.8
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "34139",
+          "cliente": "CHEF PALMEIRA & CIA LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 189.0
         }
       ]
     },
