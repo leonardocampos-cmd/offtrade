@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "26/06/2026 15:51",
+  "atualizado_em": "26/06/2026 16:03",
   "data_rota": "26.06",
   "vendedores": [
     {
@@ -17366,6 +17366,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "159004942",
+          "numnota": "407059.0",
+          "data": "26/06/2026",
+          "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 23940.0,
+          "itens": [
+            {
+              "desc": "WHISKY PASSPORT HONEY 670ML",
+              "qt": 600,
+              "val": 23940.0
+            }
+          ]
+        },
         {
           "numped": "159004922",
           "numnota": "406473.0",
