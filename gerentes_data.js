@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "26/06/2026 15:00",
+  "atualizado_em": "26/06/2026 15:08",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -1372,28 +1372,28 @@ const GERENTES_DATA = {
           ],
           "por_mes": {
             "Abr/26": {
-              "fat": 2521481.9,
-              "qt": 52005
+              "fat": 2562262.82,
+              "qt": 52532
             },
             "Fev/26": {
-              "fat": 1095488.86,
-              "qt": 26231
+              "fat": 1108929.44,
+              "qt": 26352
+            },
+            "Jun/26": {
+              "fat": 2304885.49,
+              "qt": 46173
+            },
+            "Mai/26": {
+              "fat": 3927704.67,
+              "qt": 99351
+            },
+            "Mar/26": {
+              "fat": 1808047.28,
+              "qt": 50185
             },
             "Jan/26": {
               "fat": 369662.2,
               "qt": 6025
-            },
-            "Jun/26": {
-              "fat": 2303832.58,
-              "qt": 46116
-            },
-            "Mai/26": {
-              "fat": 3927363.03,
-              "qt": 99200
-            },
-            "Mar/26": {
-              "fat": 1792955.9,
-              "qt": 50015
             }
           },
           "supervisores": [
@@ -1599,6 +1599,63 @@ const GERENTES_DATA = {
                     "Mar/26": {
                       "fat": 76459.2,
                       "qt": 1866
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "nome": "MARCUS TANAMACHI",
+              "estados": [
+                "SP"
+              ],
+              "por_mes": {
+                "Abr/26": {
+                  "fat": 40780.92,
+                  "qt": 527
+                },
+                "Fev/26": {
+                  "fat": 13440.58,
+                  "qt": 121
+                },
+                "Jun/26": {
+                  "fat": 1052.91,
+                  "qt": 57
+                },
+                "Mai/26": {
+                  "fat": 341.64,
+                  "qt": 151
+                },
+                "Mar/26": {
+                  "fat": 15091.38,
+                  "qt": 170
+                }
+              },
+              "vendedores": [
+                {
+                  "nome": "BRYAN PALOPOLI - OFF TRADE",
+                  "rca": "299",
+                  "estado": "SP",
+                  "por_mes": {
+                    "Abr/26": {
+                      "fat": 40780.92,
+                      "qt": 527
+                    },
+                    "Fev/26": {
+                      "fat": 13440.58,
+                      "qt": 121
+                    },
+                    "Jun/26": {
+                      "fat": 1052.91,
+                      "qt": 57
+                    },
+                    "Mai/26": {
+                      "fat": 341.64,
+                      "qt": 151
+                    },
+                    "Mar/26": {
+                      "fat": 15091.38,
+                      "qt": 170
                     }
                   }
                 }
@@ -2172,93 +2229,6 @@ const GERENTES_DATA = {
                     "Mai/26": {
                       "fat": 43722.53,
                       "qt": 935
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "nan",
-          "estados": [
-            "SP"
-          ],
-          "por_mes": {
-            "Abr/26": {
-              "fat": 40780.92,
-              "qt": 527
-            },
-            "Fev/26": {
-              "fat": 13440.58,
-              "qt": 121
-            },
-            "Jun/26": {
-              "fat": 1052.91,
-              "qt": 57
-            },
-            "Mai/26": {
-              "fat": 341.64,
-              "qt": 151
-            },
-            "Mar/26": {
-              "fat": 15091.38,
-              "qt": 170
-            }
-          },
-          "supervisores": [
-            {
-              "nome": "MARCUS TANAMACHI",
-              "estados": [
-                "SP"
-              ],
-              "por_mes": {
-                "Abr/26": {
-                  "fat": 40780.92,
-                  "qt": 527
-                },
-                "Fev/26": {
-                  "fat": 13440.58,
-                  "qt": 121
-                },
-                "Jun/26": {
-                  "fat": 1052.91,
-                  "qt": 57
-                },
-                "Mai/26": {
-                  "fat": 341.64,
-                  "qt": 151
-                },
-                "Mar/26": {
-                  "fat": 15091.38,
-                  "qt": 170
-                }
-              },
-              "vendedores": [
-                {
-                  "nome": "BRYAN PALOPOLI - OFF TRADE",
-                  "rca": "299",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 40780.92,
-                      "qt": 527
-                    },
-                    "Fev/26": {
-                      "fat": 13440.58,
-                      "qt": 121
-                    },
-                    "Jun/26": {
-                      "fat": 1052.91,
-                      "qt": 57
-                    },
-                    "Mai/26": {
-                      "fat": 341.64,
-                      "qt": 151
-                    },
-                    "Mar/26": {
-                      "fat": 15091.38,
-                      "qt": 170
                     }
                   }
                 }
