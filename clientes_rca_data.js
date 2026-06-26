@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 14:08",
-  "total": 4433,
+  "atualizado_em": "26/06/2026 14:09",
+  "total": 4434,
   "clientes": [
     {
       "codcli": "31683",
@@ -50066,6 +50066,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "51368",
+      "razao": "RAIMUNDO HIPOLITO",
+      "fantasia": "RAIMUNDO HIPOLITO",
+      "bairro": "VILA FATIMA",
+      "cidade": "REGISTRO",
+      "cnpj": "27.306.680/0001-22",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "93891",
