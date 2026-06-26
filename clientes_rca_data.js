@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 15:09",
-  "total": 4440,
+  "atualizado_em": "26/06/2026 15:21",
+  "total": 4441,
   "clientes": [
     {
       "codcli": "31683",
@@ -16004,6 +16004,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "51374",
+      "razao": "CONTATTO EMPORIO E MERCEARIA LTDA",
+      "fantasia": "CONTATTO EMPORIO E MERCEARIA LTDA",
+      "bairro": "VILA FAUSTINA II",
+      "cidade": "VALINHOS",
+      "cnpj": "60.057.316/0001-41",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "40862",
