@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "26/06/2026 16:09",
+  "atualizado_em": "26/06/2026 16:23",
   "data_rota": "26.06",
   "vendedores": [
     {
@@ -42523,6 +42523,36 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY J WALKER BLACK LABEL 1L",
               "qt": 2,
               "val": 299.8
+            }
+          ]
+        },
+        {
+          "numped": "155003774",
+          "numnota": "",
+          "data": "26/06/2026",
+          "cliente": "MATTHEUS DE ALMEIDA BELAN 11274447780",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 585.4,
+          "itens": [
+            {
+              "desc": "RUM BACARDI SUPERIOR 980ML",
+              "qt": 4,
+              "val": 143.6
+            },
+            {
+              "desc": "PIRASSUNUNGA 51 965 ML",
+              "qt": 12,
+              "val": 162.0
+            },
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 2,
+              "val": 279.8
             }
           ]
         },
