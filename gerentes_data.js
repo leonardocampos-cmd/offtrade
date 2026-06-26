@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "26/06/2026 12:01",
+  "atualizado_em": "26/06/2026 12:05",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -1407,8 +1407,8 @@ const GERENTES_DATA = {
           "qt": 88865
         },
         "Jun/26": {
-          "fat": 4708343.12,
-          "qt": 99918
+          "fat": 4721749.68,
+          "qt": 100317
         },
         "Mai/26": {
           "fat": 7099544.25,
@@ -1538,8 +1538,8 @@ const GERENTES_DATA = {
               "qt": 6025
             },
             "Jun/26": {
-              "fat": 2287132.02,
-              "qt": 45657
+              "fat": 2300538.58,
+              "qt": 46056
             },
             "Mai/26": {
               "fat": 4920822.51,
@@ -1788,8 +1788,8 @@ const GERENTES_DATA = {
                   "qt": 10007
                 },
                 "Jun/26": {
-                  "fat": 434761.94,
-                  "qt": 11336
+                  "fat": 443363.61,
+                  "qt": 11653
                 },
                 "Mai/26": {
                   "fat": 1528971.71,
@@ -1839,6 +1839,17 @@ const GERENTES_DATA = {
                     "Jun/26": {
                       "fat": 111372.0,
                       "qt": 1960
+                    }
+                  }
+                },
+                {
+                  "nome": "CAROLINA SOUZA - OFF TRADE",
+                  "rca": "493",
+                  "estado": "SP",
+                  "por_mes": {
+                    "Jun/26": {
+                      "fat": 8601.67,
+                      "qt": 317
                     }
                   }
                 },
@@ -1999,8 +2010,8 @@ const GERENTES_DATA = {
                   "qt": 1216
                 },
                 "Jun/26": {
-                  "fat": 1288069.2,
-                  "qt": 25847
+                  "fat": 1292874.09,
+                  "qt": 25929
                 },
                 "Mai/26": {
                   "fat": 2226090.8,
@@ -2051,6 +2062,17 @@ const GERENTES_DATA = {
                     "Jun/26": {
                       "fat": 10916.4,
                       "qt": 456
+                    }
+                  }
+                },
+                {
+                  "nome": "ALEXANDRE TONON - OFF TRADE",
+                  "rca": "483",
+                  "estado": "SP",
+                  "por_mes": {
+                    "Jun/26": {
+                      "fat": 4579.64,
+                      "qt": 76
                     }
                   }
                 },
@@ -2138,6 +2160,17 @@ const GERENTES_DATA = {
                     "Mai/26": {
                       "fat": 4509.8,
                       "qt": 54
+                    }
+                  }
+                },
+                {
+                  "nome": "GILSON DE OLIVEIRA - OFF TRADE",
+                  "rca": "491",
+                  "estado": "SP",
+                  "por_mes": {
+                    "Jun/26": {
+                      "fat": 225.25,
+                      "qt": 6
                     }
                   }
                 },
@@ -2466,8 +2499,8 @@ const GERENTES_DATA = {
           "qt": 1562
         },
         "Jun/26": {
-          "fat": 36768.97,
-          "qt": 804
+          "fat": 23362.41,
+          "qt": 405
         },
         "Mai/26": {
           "fat": 30952.44,
@@ -2744,75 +2777,6 @@ const GERENTES_DATA = {
                     "Mar/26": {
                       "fat": 273755.41,
                       "qt": 1922
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "MARCUS TANAMACHI",
-          "estados": [],
-          "por_mes": {
-            "Jun/26": {
-              "fat": 13406.56,
-              "qt": 399
-            }
-          },
-          "supervisores": [
-            {
-              "nome": "MARCUS TANAMACHI ",
-              "estados": [],
-              "por_mes": {
-                "Jun/26": {
-                  "fat": 8601.67,
-                  "qt": 317
-                }
-              },
-              "vendedores": [
-                {
-                  "nome": "CAROLINA SOUZA - OFF TRADE",
-                  "rca": "493",
-                  "estado": "",
-                  "por_mes": {
-                    "Jun/26": {
-                      "fat": 8601.67,
-                      "qt": 317
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "nome": "PRISCILLA BONACHE",
-              "estados": [],
-              "por_mes": {
-                "Jun/26": {
-                  "fat": 4804.89,
-                  "qt": 82
-                }
-              },
-              "vendedores": [
-                {
-                  "nome": "ALEXANDRE TONON - OFF TRADE",
-                  "rca": "483",
-                  "estado": "",
-                  "por_mes": {
-                    "Jun/26": {
-                      "fat": 4579.64,
-                      "qt": 76
-                    }
-                  }
-                },
-                {
-                  "nome": "GILSON DE OLIVEIRA - OFF TRADE",
-                  "rca": "491",
-                  "estado": "",
-                  "por_mes": {
-                    "Jun/26": {
-                      "fat": 225.25,
-                      "qt": 6
                     }
                   }
                 }
