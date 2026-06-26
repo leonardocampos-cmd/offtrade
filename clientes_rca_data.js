@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 16:10",
+  "atualizado_em": "26/06/2026 16:23",
   "total": 4442,
   "clientes": [
     {
@@ -60716,10 +60716,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "43.546.960/0001-64",
       "estado": "SP",
       "ramo": "CONVENIENCIA",
-      "codusur1": "438",
-      "nome_usur1": "MARCIA RITA - OFF TRADE",
-      "codusur2": "435",
-      "nome_usur2": "LUCAS MACIEL"
+      "codusur1": "187",
+      "nome_usur1": "NATHALIA XAVIER",
+      "codusur2": "438",
+      "nome_usur2": "MARCIA RITA - OFF TRADE"
     },
     {
       "codcli": "93957",
