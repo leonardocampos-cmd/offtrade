@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 09:19",
-  "total": 4392,
+  "atualizado_em": "26/06/2026 09:31",
+  "total": 4393,
   "clientes": [
     {
       "codcli": "31683",
@@ -12614,6 +12614,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "336",
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51338",
+      "razao": "CANOSSA SUPERMERCADOS LTDA",
+      "fantasia": "CANOSSA SUPERMERCADOS",
+      "bairro": "CENTRO",
+      "cidade": "PEDRO DE TOLEDO",
+      "cnpj": "02.767.771/0001-34",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
