@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "26/06/2026 12:30",
+  "atualizado_em": "26/06/2026 13:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -36469,15 +36469,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 36,
           "valor": 3596.4
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "47269",
-          "cliente": "TEMPO DIVINO COMERCIO DE BEBIDAS E ALIMENTOS LIMITADA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 1440,
-          "valor": 37296.0
         },
         {
           "data": "24/06/2026",
@@ -84772,9 +84763,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2227859.77,
-        "pos": 148.0,
-        "fat_pernod": 1150196.23,
+        "fat": 2190563.77,
+        "pos": 147.0,
+        "fat_pernod": 1112900.23,
         "fat_crs": 38940.72
       },
       "Mai/26": {
