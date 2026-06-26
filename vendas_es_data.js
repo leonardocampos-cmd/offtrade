@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "26/06/2026 11:01",
+  "atualizado_em": "26/06/2026 11:42",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -167,8 +167,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 90000.17
       },
       "Jun/26": {
-        "fat": 38468.13,
-        "pos": 15,
+        "fat": 39744.93,
+        "pos": 16,
         "fat_ant": 123102.29
       },
       "Abr/26": {
@@ -204,8 +204,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 84254.44
       },
       "Jun/26": {
-        "fat": 45867.75,
-        "pos": 45,
+        "fat": 46299.03,
+        "pos": 46,
         "fat_ant": 75315.05
       },
       "Mai/26": {
@@ -309,7 +309,7 @@ const VENDAS_ES_DATA = {
         "fat_ant": 0.0
       },
       "Jun/26": {
-        "fat": 60164.26,
+        "fat": 67153.54,
         "pos": 14,
         "fat_ant": 284639.24
       },
@@ -39276,6 +39276,15 @@ const VENDAS_ES_DATA = {
           "valor": 293.76
         },
         {
+          "data": "26/06/2026",
+          "codcli": "79755",
+          "cliente": "OLIVEIRA E BASTOS LTDA",
+          "produto": "NG BARRA NEUGE 80G P&B (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36
+        },
+        {
           "data": "16/06/2026",
           "codcli": "85951",
           "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
@@ -39285,6 +39294,15 @@ const VENDAS_ES_DATA = {
           "valor": 146.88
         },
         {
+          "data": "26/06/2026",
+          "codcli": "79755",
+          "cliente": "OLIVEIRA E BASTOS LTDA",
+          "produto": "NG BARRA NEUGE 80G BRANCO (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36
+        },
+        {
           "data": "16/06/2026",
           "codcli": "85951",
           "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
@@ -39292,6 +39310,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "NOIG",
           "qt": 4,
           "valor": 293.76
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "79755",
+          "cliente": "OLIVEIRA E BASTOS LTDA",
+          "produto": "NG BARRA 80G 40% MEIO AMARGO (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36
         },
         {
           "data": "16/06/2026",
@@ -39312,6 +39339,15 @@ const VENDAS_ES_DATA = {
           "valor": 293.76
         },
         {
+          "data": "26/06/2026",
+          "codcli": "79755",
+          "cliente": "OLIVEIRA E BASTOS LTDA",
+          "produto": "NG BARRA NEUGE 80G AMENDOIM (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36
+        },
+        {
           "data": "16/06/2026",
           "codcli": "85951",
           "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
@@ -39319,6 +39355,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "NOIG",
           "qt": 4,
           "valor": 293.76
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "79755",
+          "cliente": "OLIVEIRA E BASTOS LTDA",
+          "produto": "NG BARRA NEUGE 80G COOKIES BRANCO (DP 16",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36
         },
         {
           "data": "09/06/2026",
@@ -54142,6 +54187,15 @@ const VENDAS_ES_DATA = {
           "valor": 388.8
         },
         {
+          "data": "26/06/2026",
+          "codcli": "92293",
+          "cliente": "CANTINA DO HONOFRE LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 143.76
+        },
+        {
           "data": "05/06/2026",
           "codcli": "83156",
           "cliente": "PADARIA E CONFEITARIA BENTO LTDA",
@@ -54275,6 +54329,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 143.76
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "92293",
+          "cliente": "CANTINA DO HONOFRE LTDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 287.52
         },
         {
           "data": "05/06/2026",
@@ -86444,6 +86507,69 @@ const VENDAS_ES_DATA = {
           "fantasia": "",
           "qt": 60,
           "valor": 2320.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 18,
+          "valor": 2006.28
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "CHANDON BABY BRUT ROSE 187 ML",
+          "fantasia": "HENNESSY",
+          "qt": 24,
+          "valor": 739.92
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "CHANDON BABY RESERVE BRUT 187 ML",
+          "fantasia": "HENNESSY",
+          "qt": 24,
+          "valor": 739.92
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 24,
+          "valor": 1797.6
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "CHANDON RICHE DEMI-SEC 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 484.5
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 549.24
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "CHANDON GARDEN SPRITZ 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 671.82
         },
         {
           "data": "05/06/2026",
