@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 15:26",
-  "total": 4441,
+  "atualizado_em": "26/06/2026 15:52",
+  "total": 4442,
   "clientes": [
     {
       "codcli": "31683",
@@ -39342,6 +39342,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51375",
+      "razao": "MERCEARIA E QUITANDA FRANGAO LTDA",
+      "fantasia": "CASA DO NORTE",
+      "bairro": "JARDIM EUROPA I",
+      "cidade": "SANTA BARBARA D OESTE",
+      "cnpj": "57.887.788/0001-17",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "474",
+      "nome_usur1": "FRANCIS SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "2160",
