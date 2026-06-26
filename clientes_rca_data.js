@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/06/2026 12:07",
-  "total": 4419,
+  "atualizado_em": "26/06/2026 12:18",
+  "total": 4421,
   "clientes": [
     {
       "codcli": "31683",
@@ -30524,6 +30524,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "51356",
+      "razao": "L. H. TOSCHI",
+      "fantasia": "TOSCHI REPRESENTACOES COMERCIAIS",
+      "bairro": "SAO BENEDITO",
+      "cidade": "IARAS",
+      "cnpj": "34.051.048/0001-40",
+      "estado": "SP",
+      "ramo": "ESCRITORIO",
+      "codusur1": "477",
+      "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "94793",
       "razao": "L.A.FERNANDES SOUZA MERCEARIA",
       "fantasia": "L.A.FERNANDES SOUZA MERCEARIA",
@@ -38068,6 +38082,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "93935",
+      "razao": "MERCADO RIO SAO PAULO LTDA",
+      "fantasia": "MERCADO LAGOINHA",
+      "bairro": "JARDIM GUANDU",
+      "cidade": "NOVA IGUACU",
+      "cnpj": "20.551.005/0001-10",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "379",
+      "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "83653",
