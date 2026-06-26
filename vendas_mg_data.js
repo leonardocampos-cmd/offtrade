@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "25/06/2026 18:31",
+  "atualizado_em": "26/06/2026 09:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 287274.91,
-        "pos": 115,
+        "fat": 290138.81,
+        "pos": 116,
         "fat_ant": 312476.97
       }
     },
@@ -49321,6 +49321,60 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "25/06/2026",
+          "codcli": "32771",
+          "cliente": "DEVOTOS LOURDES BAR E RESTAURANTES LTD",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 63.92
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "32771",
+          "cliente": "DEVOTOS LOURDES BAR E RESTAURANTES LTD",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 63.92
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "32771",
+          "cliente": "DEVOTOS LOURDES BAR E RESTAURANTES LTD",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 63.92
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "32771",
+          "cliente": "DEVOTOS LOURDES BAR E RESTAURANTES LTD",
+          "produto": "WHISKY WHITE HORSE - 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 125.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "32771",
+          "cliente": "DEVOTOS LOURDES BAR E RESTAURANTES LTD",
+          "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 1,
+          "valor": 141.36
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "32771",
+          "cliente": "DEVOTOS LOURDES BAR E RESTAURANTES LTD",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 2,
+          "valor": 282.72
+        },
+        {
+          "data": "25/06/2026",
           "codcli": "33553",
           "cliente": "CHALE DA MATA RESTAURANTE LTDA",
           "produto": "VALE VERDE EXTRA PREMIUM 1L",
@@ -49384,6 +49438,33 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "25/06/2026",
+          "codcli": "32756",
+          "cliente": "BAR E RESTAURANTE DUARTE COMEDORIA LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 307.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "32756",
+          "cliente": "BAR E RESTAURANTE DUARTE COMEDORIA LTDA",
+          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 97.8
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "32756",
+          "cliente": "BAR E RESTAURANTE DUARTE COMEDORIA LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 164.7
+        },
+        {
+          "data": "25/06/2026",
           "codcli": "33951",
           "cliente": "RESTAURANTE LA TRAVIATA",
           "produto": "YVY DESTILADO GIN AR LT 710ML",
@@ -49444,6 +49525,60 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 60,
           "valor": 1917.6
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "39391",
+          "cliente": "MAGNIFICO LGP LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 4,
+          "valor": 863.04
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "31673",
+          "cliente": "ESQUINA DO CHOPP JARA LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "31673",
+          "cliente": "ESQUINA DO CHOPP JARA LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "38626",
+          "cliente": "ST ONOFRE ALIMENTOS E EVENTOS LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "38626",
+          "cliente": "ST ONOFRE ALIMENTOS E EVENTOS LTDA",
+          "produto": "VERMUT ARG CARPANO ROSSO 950 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 129.9
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "38626",
+          "cliente": "ST ONOFRE ALIMENTOS E EVENTOS LTDA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 95.8
         }
       ]
     },
