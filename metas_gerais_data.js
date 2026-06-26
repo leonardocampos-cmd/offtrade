@@ -1,32 +1,32 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "26/06/2026 14:46",
+  "atualizado_em": "26/06/2026 15:08",
   "mes": "Jun/26",
   "dias_corridos": 26,
   "dias_no_mes": 30,
   "dias_restantes": 4,
   "resumo": {
-    "fat": 9351630.01,
+    "fat": 9352572.32,
     "fat_ant": 8887151.11,
-    "pos": 1621,
+    "pos": 1623,
     "pos_ant": 1525
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 9351630.01,
+    "fat": 9352572.32,
     "fat_ant": 8887151.11,
     "pct": 64.9,
-    "nec_dia": 1262092.5
+    "nec_dia": 1261856.92
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 2630601.32,
+      "fat": 2631543.63,
       "fat_ant": 2336185.53,
-      "pos": 664,
+      "pos": 666,
       "pct": 67.5,
-      "nec_dia": 317349.67,
+      "nec_dia": 317114.09,
       "pos_ant": 615
     },
     {
@@ -110,10 +110,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 446795.33,
+      "fat": 446981.13,
       "fat_ant": 150430.98,
       "por_estado": {
-        "RJ": 365601.1,
+        "RJ": 365786.9,
         "SP": 81194.23,
         "ES": 0.0,
         "MG": 0.0
@@ -154,10 +154,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "FANTE",
-      "fat": 239811.03,
+      "fat": 239889.93,
       "fat_ant": 93415.85,
       "por_estado": {
-        "RJ": 155071.91,
+        "RJ": 155150.81,
         "SP": 84739.12,
         "ES": 0.0,
         "MG": 0.0
@@ -220,10 +220,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RECKITT",
-      "fat": 121521.46,
+      "fat": 121593.22,
       "fat_ant": 126510.55,
       "por_estado": {
-        "RJ": 96095.95,
+        "RJ": 96167.71,
         "SP": 0.0,
         "ES": 25425.51,
         "MG": 0.0
@@ -308,10 +308,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "MINALBA",
-      "fat": 37304.49,
+      "fat": 37702.49,
       "fat_ant": 29819.25,
       "por_estado": {
-        "RJ": 37265.9,
+        "RJ": 37663.9,
         "SP": 38.59,
         "ES": 0.0,
         "MG": 0.0
@@ -352,10 +352,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "VITON",
-      "fat": 17088.93,
+      "fat": 17296.78,
       "fat_ant": 17616.61,
       "por_estado": {
-        "RJ": 17088.93,
+        "RJ": 17296.78,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
