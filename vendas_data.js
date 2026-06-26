@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/06/2026 11:25",
+  "atualizado_em": "26/06/2026 11:41",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -52508,6 +52508,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "92293",
+          "cliente": "CANTINA DO HONOFRE LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 143.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "92293",
+          "cliente": "CANTINA DO HONOFRE LTDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 287.52,
+          "tipo": "Venda"
+        },
+        {
           "data": "08/06/2026",
           "codcli": "94511",
           "cliente": "DD BEER CERVEJARIA ARTESANAL LTDA",
@@ -102986,36 +103006,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "23/06/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 15,
-          "valor": 479.89,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 5,
-          "valor": 185.04,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "91619",
-          "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7,
-          "tipo": "Venda"
-        },
-        {
           "data": "24/06/2026",
           "codcli": "91619",
           "cliente": "FLOR DO MONERO MINE MERCADO LTDA",
@@ -134395,26 +134385,6 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 29.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "86115",
-          "cliente": "MINIMERCADO ALFERES LTDA",
-          "produto": "RED BULL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 179.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "86115",
-          "cliente": "MINIMERCADO ALFERES LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 3,
-          "valor": 89.88,
           "tipo": "Venda"
         },
         {
@@ -207160,26 +207130,6 @@ const VENDAS_DATA = {
           "qt": 12,
           "valor": 1128.0,
           "tipo": "Venda"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91985",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91985",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
         },
         {
           "data": "08/06/2026",
@@ -374486,6 +374436,76 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "CHANDON RICHE DEMI-SEC 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 484.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "CHANDON GARDEN SPRITZ 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 671.82,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 549.24,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "CHANDON BABY RESERVE BRUT 187 ML",
+          "fantasia": "HENNESSY",
+          "qt": 24,
+          "valor": 739.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "CHANDON BABY BRUT ROSE 187 ML",
+          "fantasia": "HENNESSY",
+          "qt": 24,
+          "valor": 739.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 18,
+          "valor": 2006.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "90989",
+          "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 24,
+          "valor": 1797.6,
+          "tipo": "Venda"
+        },
+        {
           "data": "05/06/2026",
           "codcli": "91292",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -409113,6 +409133,56 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 325.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "79755",
+          "cliente": "OLIVEIRA E BASTOS LTDA",
+          "produto": "NG BARRA 80G 40% MEIO AMARGO (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "79755",
+          "cliente": "OLIVEIRA E BASTOS LTDA",
+          "produto": "NG BARRA NEUGE 80G AMENDOIM (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "79755",
+          "cliente": "OLIVEIRA E BASTOS LTDA",
+          "produto": "NG BARRA NEUGE 80G BRANCO (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "79755",
+          "cliente": "OLIVEIRA E BASTOS LTDA",
+          "produto": "NG BARRA NEUGE 80G COOKIES BRANCO (DP 16",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "79755",
+          "cliente": "OLIVEIRA E BASTOS LTDA",
+          "produto": "NG BARRA NEUGE 80G P&B (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36,
           "tipo": "Venda"
         },
         {
@@ -457033,26 +457103,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 1440,
           "valor": 37296.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "47295",
-          "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 1198.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "47295",
-          "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 1198.8,
           "tipo": "Venda"
         },
         {
