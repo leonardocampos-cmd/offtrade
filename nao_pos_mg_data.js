@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "26/06/2026 14:40",
+  "atualizado_em": "26/06/2026 14:47",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -617,6 +617,13 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "39542",
+        "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+        "bairro": "LAGOA (JUSTINÓPOLIS)",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "39539",
         "cliente": "MINIMERCADO E DISTRIBUIDORA JK LTDA",
         "bairro": "LAGOA (JUSTINÓPOLIS)",
@@ -639,6 +646,32 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "JOÃO SANTOS": [
+      {
+        "codcli": "30313",
+        "cliente": "RL DISTRIBUIDORA LTDA",
+        "bairro": "MANTIQUEIRA",
+        "dtultcomp": "17/11/2022",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 460.08
+          },
+          {
+            "produto": "RED BULL AMORA 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 460.08
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 460.08
+          }
+        ]
+      },
       {
         "codcli": "32107",
         "cliente": "ASSACABRASA LTDA",
@@ -2823,38 +2856,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "29/05/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 804.0
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 642.36
-          }
-        ]
-      },
-      {
         "codcli": "33290",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "ANGÉLICA",
@@ -2895,6 +2896,38 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 605.28
+          }
+        ]
+      },
+      {
+        "codcli": "33288",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SÃO SEBASTIAO",
+        "dtultcomp": "29/05/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 478.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 478.8
+          },
+          {
+            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 804.0
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 642.36
           }
         ]
       },
@@ -3008,9 +3041,9 @@ const NAO_POS_MG_DATA = {
     ],
     "LUIZ FERNANDO SALGADO": [
       {
-        "codcli": "39126",
+        "codcli": "39121",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "ESTRELA DO ORIENTE",
+        "bairro": "SÃO BENEDITO",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -3036,9 +3069,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39121",
+        "codcli": "39126",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "SÃO BENEDITO",
+        "bairro": "ESTRELA DO ORIENTE",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
