@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "26/06/2026 10:04",
+  "atualizado_em": "26/06/2026 11:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -23,8 +23,8 @@ const GERENTES_DATA = {
           "qt": 81182
         },
         "Jun/26": {
-          "fat": 3389401.16,
-          "qt": 59730
+          "fat": 3388984.07,
+          "qt": 59724
         },
         "Mai/26": {
           "fat": 4339825.48,
@@ -53,8 +53,8 @@ const GERENTES_DATA = {
               "qt": 81182
             },
             "Jun/26": {
-              "fat": 3389401.16,
-              "qt": 59730
+              "fat": 3388984.07,
+              "qt": 59724
             },
             "Mai/26": {
               "fat": 4339825.48,
@@ -83,8 +83,8 @@ const GERENTES_DATA = {
                   "qt": 81182
                 },
                 "Jun/26": {
-                  "fat": 3389401.16,
-                  "qt": 59730
+                  "fat": 3388984.07,
+                  "qt": 59724
                 },
                 "Mai/26": {
                   "fat": 4339825.48,
@@ -1123,8 +1123,8 @@ const GERENTES_DATA = {
                       "qt": 795
                     },
                     "Jun/26": {
-                      "fat": 38885.22,
-                      "qt": 488
+                      "fat": 38468.13,
+                      "qt": 482
                     },
                     "Mai/26": {
                       "fat": 123102.29,
@@ -2413,6 +2413,12 @@ const GERENTES_DATA = {
                   "por_mes": {}
                 },
                 {
+                  "nome": "JESSICA LIMA -  OFF TRADE",
+                  "rca": "501",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
                   "nome": "JOAO LUPORINI - OFF TRADE",
                   "rca": "312",
                   "estado": "",
@@ -2748,6 +2754,12 @@ const GERENTES_DATA = {
                       "qt": 136
                     }
                   }
+                },
+                {
+                  "nome": "PAULO MOREIRA - OFF TRADE",
+                  "rca": "500",
+                  "estado": "",
+                  "por_mes": {}
                 },
                 {
                   "nome": "PRISCILLA BONACHE - OFF TRADE",
