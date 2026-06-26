@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "26/06/2026 09:18",
+  "atualizado_em": "26/06/2026 09:31",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -3943,16 +3943,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50930",
+        "codcli": "50929",
         "cliente": "OFELIA SARRI MORETE",
-        "bairro": "JARDIM DAS COLINAS",
+        "bairro": "CHACARAS FAZENDA COELHO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50929",
+        "codcli": "50930",
         "cliente": "OFELIA SARRI MORETE",
-        "bairro": "CHACARAS FAZENDA COELHO",
+        "bairro": "JARDIM DAS COLINAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4114,20 +4114,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50489",
-        "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "50478",
-        "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "50490",
         "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
         "bairro": "JARDIM CORDEIRO",
@@ -4135,7 +4121,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50475",
+        "codcli": "50479",
         "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -4156,8 +4142,31 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50479",
+        "codcli": "50478",
         "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50489",
+        "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50475",
+        "cliente": "SUPERMERCADOS EBURNIO CORREA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      }
+    ],
+    "LUIS MACHADO": [
+      {
+        "codcli": "51338",
+        "cliente": "CANOSSA SUPERMERCADOS LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
