@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "26/06/2026 16:23",
+  "atualizado_em": "27/06/2026 15:12",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 295006.57,
-        "pos": 119,
+        "fat": 296380.97,
+        "pos": 120,
         "fat_ant": 312476.97
       }
     },
@@ -197,7 +197,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 58591.42
       },
       "Jun/26": {
-        "fat": 158546.46,
+        "fat": 167553.66,
         "pos": 60,
         "fat_ant": 175829.04
       }
@@ -224,7 +224,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 1106013.96
       },
       "Jun/26": {
-        "fat": 594815.7,
+        "fat": 659993.7,
         "pos": 8,
         "fat_ant": 896376.5
       }
@@ -268,8 +268,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 19963.64
       },
       "Jun/26": {
-        "fat": 44260.76,
-        "pos": 25,
+        "fat": 47233.26,
+        "pos": 26,
         "fat_ant": 53560.12
       }
     }
@@ -49699,6 +49699,15 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "26/06/2026",
+          "codcli": "37431",
+          "cliente": "LUCIENE COSTA DA SILVA LOPES",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1054.8
+        },
+        {
+          "data": "26/06/2026",
           "codcli": "30313",
           "cliente": "RL DISTRIBUIDORA LTDA",
           "produto": "VODKA ORLOFF 1L",
@@ -49768,6 +49777,42 @@ const VENDAS_MG_DATA = {
           "fantasia": "HEINEKEN BRASIL",
           "qt": 4,
           "valor": 567.04
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "37220",
+          "cliente": "JANUZZI PADARIA E CONFEITARIA LTDA",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 95.88
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "37220",
+          "cliente": "JANUZZI PADARIA E CONFEITARIA LTDA",
+          "produto": "4 PACK  RED BULL  MAÇA SF",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 95.88
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "37220",
+          "cliente": "JANUZZI PADARIA E CONFEITARIA LTDA",
+          "produto": "4 PACK RED BULL POMELO SF",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 95.88
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "37220",
+          "cliente": "JANUZZI PADARIA E CONFEITARIA LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 31.96
         }
       ]
     },
@@ -80479,6 +80524,69 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 3,
           "valor": 301.68
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL NECTARINA SF 24X250ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 600.48
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 1000.8
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "",
+          "qt": 14,
+          "valor": 2802.24
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 7,
+          "valor": 1401.12
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 800.64
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL SF POMELO 24X250ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 1000.8
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 7,
+          "valor": 1401.12
         }
       ]
     },
@@ -85414,6 +85522,51 @@ const VENDAS_MG_DATA = {
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 60,
           "valor": 4794.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 6228.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 2988.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "VODKA SMIRNOFF RED PET 1750ML",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 5148.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 8874.0
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 600,
+          "valor": 41940.0
         },
         {
           "data": "26/06/2026",
@@ -97800,6 +97953,51 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 1054.8
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "39542",
+          "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 207.6
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "39542",
+          "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+          "produto": "GIN GORDONS PINK 700ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 415.2
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "39542",
+          "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 359.7
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "39542",
+          "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1438.8
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "39542",
+          "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 551.2
         }
       ]
     }
