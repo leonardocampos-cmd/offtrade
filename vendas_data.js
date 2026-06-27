@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "26/06/2026 17:01",
+  "atualizado_em": "27/06/2026 14:45",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -41414,6 +41414,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "558",
+          "cliente": "POSTO DE BASTECIMENTO GALLENA LAGOA LTDA",
+          "produto": "GIN BAM TANQUERAY RANGPUR  CX C/ 12X50ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 294.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "24/06/2026",
           "codcli": "559",
           "cliente": "POSTO BARRA LINDA LTDA",
@@ -44181,6 +44191,16 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 1,
           "valor": 126.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "15951",
+          "cliente": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "fantasia": "MINALBA",
+          "qt": 10,
+          "valor": 199.0,
           "tipo": "Venda"
         },
         {
@@ -72832,6 +72852,46 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "81685",
+          "cliente": "L DO ROSARIO COELHO DEPOSITO DE BEBIDAS",
+          "produto": "NOSSO CHOP RED DRAFT PET 6X1,5L",
+          "fantasia": "NOSSO CHOPE",
+          "qt": 3,
+          "valor": 302.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "81685",
+          "cliente": "L DO ROSARIO COELHO DEPOSITO DE BEBIDAS",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 3,
+          "valor": 50.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "81685",
+          "cliente": "L DO ROSARIO COELHO DEPOSITO DE BEBIDAS",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 422.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "81685",
+          "cliente": "L DO ROSARIO COELHO DEPOSITO DE BEBIDAS",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 4,
+          "valor": 111.6,
+          "tipo": "Venda"
+        },
+        {
           "data": "02/06/2026",
           "codcli": "84459",
           "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
@@ -74869,6 +74929,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 360,
           "valor": 8820.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "92136",
+          "cliente": "63.529.210 KAUE ALVES DA SILVA SARAIVA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 120,
+          "valor": 2940.0,
           "tipo": "Venda"
         },
         {
@@ -117508,6 +117578,66 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "74425",
+          "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
+          "produto": "COQUETEL COMPOSTO PINK MOON 6X2L",
+          "fantasia": "COMARY",
+          "qt": 1,
+          "valor": 129.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "74425",
+          "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 15,
+          "valor": 958.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "74425",
+          "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "74425",
+          "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "74425",
+          "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
+          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "74425",
+          "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
+          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
           "data": "02/06/2026",
           "codcli": "77896",
           "cliente": "EYMARD'S MERCADINHO E DEPOSITO DE BEBIDAS E LATICINIOS LTDA",
@@ -117555,6 +117685,16 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 50,
           "valor": 3145.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "81057",
+          "cliente": "MANDARIM CEREAIS E MERCEARIA LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "KAISER",
+          "qt": 5,
+          "valor": 639.5,
           "tipo": "Venda"
         },
         {
@@ -117686,6 +117826,106 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 89.9,
           "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 176.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 238.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "VINHO CAVAS DE ORO CABERNET FRANC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 119.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 62.95,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 77.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 53.46,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "88933",
+          "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 0.0,
+          "tipo": "Bonificado"
         },
         {
           "data": "04/06/2026",
@@ -134618,6 +134858,86 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "89901",
+          "cliente": "DANY STAR BEBIDAS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 898.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "89901",
+          "cliente": "DANY STAR BEBIDAS LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 359.52,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "89901",
+          "cliente": "DANY STAR BEBIDAS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 442.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "89901",
+          "cliente": "DANY STAR BEBIDAS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 514.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "89901",
+          "cliente": "DANY STAR BEBIDAS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 514.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "89901",
+          "cliente": "DANY STAR BEBIDAS LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 862.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "89901",
+          "cliente": "DANY STAR BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 838.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "89901",
+          "cliente": "DANY STAR BEBIDAS LTDA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 994.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "15/06/2026",
           "codcli": "90835",
           "cliente": "CAFE E BAR SANTA VIA LAPA LTDA",
@@ -134825,6 +135145,46 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 29.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 199.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "fantasia": "COMARY",
+          "qt": 1,
+          "valor": 78.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "CATUABA SELVAGEM 900ML",
+          "fantasia": "COMARY",
+          "qt": 2,
+          "valor": 29.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88,
           "tipo": "Venda"
         },
         {
@@ -178478,6 +178838,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "51601",
+          "cliente": "MATTHEUS DE ALMEIDA BELAN 11274447780",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 279.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51601",
+          "cliente": "MATTHEUS DE ALMEIDA BELAN 11274447780",
+          "produto": "PIRASSUNUNGA 51 965 ML",
+          "fantasia": "51",
+          "qt": 12,
+          "valor": 162.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51601",
+          "cliente": "MATTHEUS DE ALMEIDA BELAN 11274447780",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "fantasia": "BACARDI",
+          "qt": 4,
+          "valor": 143.6,
+          "tipo": "Venda"
+        },
+        {
           "data": "15/06/2026",
           "codcli": "55432",
           "cliente": "DESIGUAL BAR E PETISCOS LTDA",
@@ -180268,6 +180658,56 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "79823",
+          "cliente": "BIG STAR CONVENIENCIA LTDA",
+          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 175.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "79823",
+          "cliente": "BIG STAR CONVENIENCIA LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "79823",
+          "cliente": "BIG STAR CONVENIENCIA LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "79823",
+          "cliente": "BIG STAR CONVENIENCIA LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 3,
+          "valor": 91.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "79823",
+          "cliente": "BIG STAR CONVENIENCIA LTDA",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 39.9,
+          "tipo": "Venda"
+        },
+        {
           "data": "11/06/2026",
           "codcli": "82700",
           "cliente": "PERFECT BEER BUZIOS LTDA",
@@ -181238,6 +181678,56 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "84070",
+          "cliente": "50.907.363 ANA CAROLINA DA CONCEICAO PEREIRA",
+          "produto": "JURUBEBA DUNORTE VINHO COMPOSTO 900ML",
+          "fantasia": "CASA DI CONTI",
+          "qt": 2,
+          "valor": 41.18,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "84070",
+          "cliente": "50.907.363 ANA CAROLINA DA CONCEICAO PEREIRA",
+          "produto": "APERITIVO CAMPARI 998ML",
+          "fantasia": "CAMPARI",
+          "qt": 2,
+          "valor": 109.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "84070",
+          "cliente": "50.907.363 ANA CAROLINA DA CONCEICAO PEREIRA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 119.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "84070",
+          "cliente": "50.907.363 ANA CAROLINA DA CONCEICAO PEREIRA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 28.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "84070",
+          "cliente": "50.907.363 ANA CAROLINA DA CONCEICAO PEREIRA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 28.76,
+          "tipo": "Venda"
+        },
+        {
           "data": "10/06/2026",
           "codcli": "82215",
           "cliente": "CHIEFS BUZIOS LTDA",
@@ -181955,6 +182445,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 1,
           "valor": 62.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "86500",
+          "cliente": "ESPACO HARMONIA SERVICOS DE BAR E RESTAURANTE LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 345.12,
           "tipo": "Venda"
         },
         {
@@ -182788,6 +183288,76 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "92617",
+          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 294.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "92617",
+          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 4,
+          "valor": 359.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "92617",
+          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 10,
+          "valor": 659.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "92617",
+          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
+          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 419.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "92617",
+          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 599.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "92617",
+          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 389.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "92617",
+          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 299.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "02/06/2026",
           "codcli": "94795",
           "cliente": "66.507.808 WANDERSON DOS SANTOS DIAS DOS ANJOS",
@@ -182915,6 +183485,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 359.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "95292",
+          "cliente": "GALPAO DAS BEBIDAS CF LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 990.0,
           "tipo": "Venda"
         },
         {
@@ -194504,16 +195084,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "19/05/2026",
-          "codcli": "75124",
-          "cliente": "MERCADO RIO SUL DE FRAGOSO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 592.2,
-          "tipo": "Venda"
-        },
-        {
           "data": "29/05/2026",
           "codcli": "75125",
           "cliente": "MERCADO RIO SUL DE PIABETA LTDA",
@@ -195114,36 +195684,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "25/05/2026",
-          "codcli": "84250",
-          "cliente": "SUPERMERCADO RIO SUL DE NILOPOLIS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 197.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "84250",
-          "cliente": "SUPERMERCADO RIO SUL DE NILOPOLIS LTDA",
-          "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 197.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "84250",
-          "cliente": "SUPERMERCADO RIO SUL DE NILOPOLIS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 197.4,
-          "tipo": "Venda"
-        },
-        {
           "data": "26/05/2026",
           "codcli": "83574",
           "cliente": "ALTAS HORAS COMERCIO VAREJISTA LTDA",
@@ -195514,36 +196054,6 @@ const VENDAS_DATA = {
           "tipo": "Bonificado"
         },
         {
-          "data": "25/05/2026",
-          "codcli": "86310",
-          "cliente": "CEREAIS IRENE LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 216.66,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "86310",
-          "cliente": "CEREAIS IRENE LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 299.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "86310",
-          "cliente": "CEREAIS IRENE LTDA",
-          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 137.4,
-          "tipo": "Venda"
-        },
-        {
           "data": "14/05/2026",
           "codcli": "85897",
           "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
@@ -195621,226 +196131,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 30,
           "valor": 537.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 447.54,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "CHANDON PASSION ON ICE 750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 447.54,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 5,
-          "valor": 164.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 471.84,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "PIRASSUNUNGA OURO 51 965ML",
-          "fantasia": "51",
-          "qt": 24,
-          "valor": 285.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "WHISKY BLACK STONE 1LT",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 150.48,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "RUM MALIBU 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 264.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 132.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "IMPERADOR 900ML",
-          "fantasia": "COMARY",
-          "qt": 6,
-          "valor": 70.26,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "RUM MONTILLA CRISTAL 1000ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 231.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VODKA ABSOLUT - 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 652.32,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "CHANDON BABY RICHE DEMI SEC 187 ML",
-          "fantasia": "HENNESSY",
-          "qt": 24,
-          "valor": 601.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "CHANDON BABY RESERVE BRUT 187 ML",
-          "fantasia": "HENNESSY",
-          "qt": 24,
-          "valor": 601.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 2,
-          "valor": 240.1,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VODKA GREY GOOSE LORANGE 750ML",
-          "fantasia": "BACARDI",
-          "qt": 2,
-          "valor": 240.1,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "FRISANTE MACAW TROPICAL MOSCATO 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 147.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "LATITUD 33 CABERNET SAUVIGNON",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 198.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 198.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 198.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VODKA NATASHA 900ML",
-          "fantasia": "BACARDI",
-          "qt": 6,
-          "valor": 71.64,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VODKA ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 231.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 2,
-          "valor": 1274.62,
           "tipo": "Venda"
         },
         {
@@ -202692,56 +202982,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "11/06/2026",
-          "codcli": "9603",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 155.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "9603",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 155.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "9603",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 172.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "9603",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 172.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "9603",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 172.56,
-          "tipo": "Venda"
-        },
-        {
           "data": "10/06/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
@@ -202879,56 +203119,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 12,
           "valor": 310.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "28411",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 155.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "28411",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 155.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "28411",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 172.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "28411",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 172.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "28411",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 172.56,
           "tipo": "Venda"
         },
         {
@@ -204742,56 +204932,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "11/06/2026",
-          "codcli": "90411",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 155.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "90411",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 155.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "90411",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 172.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "90411",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 172.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "90411",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 172.56,
-          "tipo": "Venda"
-        },
-        {
           "data": "13/06/2026",
           "codcli": "90411",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
@@ -204959,56 +205099,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 4,
           "valor": 345.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 155.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 155.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 172.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 172.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "90820",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 172.56,
           "tipo": "Venda"
         },
         {
@@ -229763,6 +229853,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 12,
           "valor": 358.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "78075",
+          "cliente": "HUNA BISTRO LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 24,
+          "valor": 1197.6,
           "tipo": "Venda"
         },
         {
@@ -267658,46 +267758,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "25/04/2026",
-          "codcli": "79593",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "GIN LARIOS ORIGINAL 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 24,
-          "valor": 1031.52,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79593",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 60,
-          "valor": 1962.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79593",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 48,
-          "valor": 1569.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/04/2026",
-          "codcli": "79593",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 392.4,
-          "tipo": "Venda"
-        },
-        {
           "data": "24/04/2026",
           "codcli": "79597",
           "cliente": "DOM ATACAREJO S.A.",
@@ -280655,6 +280715,126 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 4,
           "valor": 861.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "AGUA MAMBA PROTEIN LIMAO 350LTSLK6U",
+          "fantasia": "BETTER DRINKS",
+          "qt": 1,
+          "valor": 50.33,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 636.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 31,
+          "valor": 1285.26,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 285.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA BADEN CRISTAL 12X350ML SLEEK",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 54.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 13,
+          "valor": 702.26,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA BADEN WITBIER 12X350ML SLEEK",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 54.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA BADEN GOLDEN 12X350ML SLEEK",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 54.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA BADEN CRISTAL  0,60LGFA DES 1UN",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 10.91,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 23,
+          "valor": 953.58,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 228.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA BADEN WITBIER 12X350ML SLEEK",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 54.04,
           "tipo": "Venda"
         }
       ],
@@ -341698,6 +341878,46 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "86634",
+          "cliente": "A. C. BARBOSA DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 172.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "86634",
+          "cliente": "A. C. BARBOSA DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 172.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "86634",
+          "cliente": "A. C. BARBOSA DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 172.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "86634",
+          "cliente": "A. C. BARBOSA DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 172.56,
+          "tipo": "Venda"
+        },
+        {
           "data": "24/06/2026",
           "codcli": "90237",
           "cliente": "34.524.464 FRANCIANE MONTEIRO DA SILVA LEMOS",
@@ -399782,336 +400002,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "23/01/2026",
-          "codcli": "91425",
-          "cliente": "MALU COMERCIO DE ALIMENTOS LTDA",
-          "produto": "LANGHE CHARDONNAY DOC 750ML",
-          "fantasia": "",
-          "qt": 42,
-          "valor": 8778.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "92020",
-          "cliente": "DIEGO BERNARDINO SILVA",
-          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 456.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "90717",
-          "cliente": "BONATO & BONATO LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 600.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "92019",
-          "cliente": "MALAUI RESTAURANTE E CAFE LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "91225",
-          "cliente": "SV ADEGA E COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO ADELE BRANCO 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 252.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "91225",
-          "cliente": "SV ADEGA E COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO ADELE ROSE 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 252.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "91225",
-          "cliente": "SV ADEGA E COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ESPUMANTE ALUD ROSE 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 144.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "91225",
-          "cliente": "SV ADEGA E COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 174.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "91225",
-          "cliente": "SV ADEGA E COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 174.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "90722",
-          "cliente": "REGRESSO PIZZA BAR LTDA",
-          "produto": "VINHO CAZAS NOVAS COLHEITA 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1164.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "90722",
-          "cliente": "REGRESSO PIZZA BAR LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 540.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/01/2026",
-          "codcli": "92020",
-          "cliente": "DIEGO BERNARDINO SILVA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 456.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/01/2026",
-          "codcli": "92020",
-          "cliente": "DIEGO BERNARDINO SILVA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 708.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/01/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 330.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90717",
-          "cliente": "BONATO & BONATO LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90717",
-          "cliente": "BONATO & BONATO LTDA",
-          "produto": "VINHO CORSARINI MONTEPULCIANO 750ML ",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 456.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90717",
-          "cliente": "BONATO & BONATO LTDA",
-          "produto": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 642.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/01/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 240.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/01/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 260.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/01/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 4,
-          "valor": 208.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/01/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 4,
-          "valor": 208.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 456.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 354.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90714",
-          "cliente": "NAYME CULINARIA ARABE LTDA",
-          "produto": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 214.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90714",
-          "cliente": "NAYME CULINARIA ARABE LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
-          "fantasia": "",
-          "qt": 4,
-          "valor": 236.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90714",
-          "cliente": "NAYME CULINARIA ARABE LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 177.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/01/2026",
-          "codcli": "90713",
-          "cliente": "LARA ZULIANO",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 36,
-          "valor": 1328.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/01/2026",
-          "codcli": "90718",
-          "cliente": "DON MAX COMERCIO DE MASSAS ALIMENTICIAS LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 624.0,
-          "tipo": "Venda"
-        },
-        {
           "data": "13/01/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
@@ -400201,196 +400091,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 6718.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/04/2026",
-          "codcli": "90725",
-          "cliente": "LUZ DEL FUEGO COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1020.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/04/2026",
-          "codcli": "90722",
-          "cliente": "REGRESSO PIZZA BAR LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 540.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "92086",
-          "cliente": "46.912.337 GIVANILDO DA SILVA MARTINS",
-          "produto": "ROSE MINUTY 281  3000ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 2908.47,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "90725",
-          "cliente": "LUZ DEL FUEGO COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1020.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/04/2026",
-          "codcli": "90902",
-          "cliente": "POMAR COMERCIO DE BEBIDAS LTDA",
-          "produto": "ESPUMANTE ALUD ROSE 750ML",
-          "fantasia": "",
-          "qt": 18,
-          "valor": 864.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/04/2026",
-          "codcli": "90902",
-          "cliente": "POMAR COMERCIO DE BEBIDAS LTDA",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 576.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/04/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 48,
-          "valor": 912.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/04/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
-          "fantasia": "",
-          "qt": 48,
-          "valor": 912.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "HUMB. CANALE O.V MALBEC 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1258.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 30,
-          "valor": 1497.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "HUMB. CANALE O.V PINOT NOIR 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1258.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
-          "fantasia": "",
-          "qt": 48,
-          "valor": 614.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 48,
-          "valor": 614.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 30,
-          "valor": 1677.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/04/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 330.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/04/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/04/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/04/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/04/2026",
-          "codcli": "92020",
-          "cliente": "DIEGO BERNARDINO SILVA",
-          "produto": "VINHO ARESTI ESTATE S. CHADY 750ML",
-          "fantasia": "",
-          "qt": 18,
-          "valor": 1062.0,
           "tipo": "Venda"
         },
         {
@@ -400563,396 +400263,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 90,
           "valor": 8091.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/03/2026",
-          "codcli": "55908",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "VINHO BRANCO CHARDONNAY CATALPA 750ML",
-          "fantasia": "",
-          "qt": 120,
-          "valor": 8988.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 456.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "ESPUMANTE ALUD ROSE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO ADELE ROSE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 504.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CHADY 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 354.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 156.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/03/2026",
-          "codcli": "92020",
-          "cliente": "DIEGO BERNARDINO SILVA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 48,
-          "valor": 912.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 156.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 4,
-          "valor": 192.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 143.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/03/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
-          "fantasia": "",
-          "qt": 102,
-          "valor": 5599.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 156.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "90717",
-          "cliente": "BONATO & BONATO LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "90717",
-          "cliente": "BONATO & BONATO LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "90717",
-          "cliente": "BONATO & BONATO LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 270.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "90717",
-          "cliente": "BONATO & BONATO LTDA",
-          "produto": "VILLA ROSA COLHEITA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 216.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "90717",
-          "cliente": "BONATO & BONATO LTDA",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 492.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "90717",
-          "cliente": "BONATO & BONATO LTDA",
-          "produto": "VINHO LA TOGATA BARENGO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 189.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/03/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO BRANCO CHARDONNAY CATALPA 750ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 4494.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 456.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "90902",
-          "cliente": "POMAR COMERCIO DE BEBIDAS LTDA",
-          "produto": "ESPUMANTE ALUD ROSE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "90902",
-          "cliente": "POMAR COMERCIO DE BEBIDAS LTDA",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/03/2026",
-          "codcli": "90717",
-          "cliente": "BONATO & BONATO LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
-          "fantasia": "",
-          "qt": 72,
-          "valor": 921.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 48,
-          "valor": 614.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/03/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 3354.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "90722",
-          "cliente": "REGRESSO PIZZA BAR LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 18,
-          "valor": 810.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 287.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "90718",
-          "cliente": "DON MAX COMERCIO DE MASSAS ALIMENTICIAS LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 624.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "91154",
-          "cliente": "ESTRO-COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92019",
-          "cliente": "MALAUI RESTAURANTE E CAFE LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 270.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92019",
-          "cliente": "MALAUI RESTAURANTE E CAFE LTDA",
-          "produto": "VILLA ROSA  ROSE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 270.0,
           "tipo": "Venda"
         },
         {
@@ -401398,516 +400708,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "22/05/2026",
-          "codcli": "92106",
-          "cliente": "ALLURE COMERCIAL IMPORTADORA E EXPORTADORA LTDA",
-          "produto": "VINHO ARESTI TRISQUEL GRAN RESERVA 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "92106",
-          "cliente": "ALLURE COMERCIAL IMPORTADORA E EXPORTADORA LTDA",
-          "produto": "VINHO ARESTI TRISQUEL CAB SAUV 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "92106",
-          "cliente": "ALLURE COMERCIAL IMPORTADORA E EXPORTADORA LTDA",
-          "produto": "VINHO ARESTI TRISQUEL CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "92106",
-          "cliente": "ALLURE COMERCIAL IMPORTADORA E EXPORTADORA LTDA",
-          "produto": "VINHO ARESTI TRISQUEL MERLOT 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VILLA ROSA COLHEITA ROSE 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VILLA ROSA COLHEITA TINTO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VILLA ROSA GRANDE RESERVA BCO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VILLA ROSA GRANDE RESERVA TINTO",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VILLA ROSA RESERVA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "ESPUMANTE VILLA ROSA BLANC DE BLANCS",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO VILLA ROSA RESERVA TINTO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO TINTO AZUL VENTOZELO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO BRANCO AZUL VENTOZELO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO TINTO VENTOZELO RESERVA 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO BRANCO VENTOZELO VIOSINHO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO FREIXO TERROIR TINTO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO FREIXO TERROIR BRANCO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO FREIXO RESERVA BRANCO",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VILLA ROSA COLHEITA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 156.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 144.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 55.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO BRANCO AZUL VENTOZELO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1078.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO TINTO VENTOZELO RESERVA 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1498.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO BRANCO VENTOZELO VIOSINHO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1918.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO FREIXO TERROIR TINTO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1318.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO FREIXO TERROIR BRANCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 659.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO FREIXO RESERVA BRANCO",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 2398.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VILLA ROSA COLHEITA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 898.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO TINTO AZUL VENTOZELO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1078.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VILLA ROSA GRANDE RESERVA TINTO",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 3238.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO VILLA ROSA RESERVA TINTO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1198.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "ESPUMANTE VILLA ROSA BLANC DE BLANCS",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1078.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VILLA ROSA RESERVA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1198.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VILLA ROSA COLHEITA ROSE 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 898.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VILLA ROSA COLHEITA TINTO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 898.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VILLA ROSA GRANDE RESERVA BCO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 2758.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "90902",
-          "cliente": "POMAR COMERCIO DE BEBIDAS LTDA",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 576.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO FREIXO RESERVA TINTO 750ML",
-          "fantasia": "",
-          "qt": 8,
-          "valor": 1999.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "90396",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "VINHO FREIXO RESERVA TINTO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "55908",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "VINHO FREIXO RESERVA TINTO 750ML",
-          "fantasia": "",
-          "qt": 8,
-          "valor": 1960.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "55908",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "VINHO FREIXO RESERVA TINTO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "91154",
-          "cliente": "ESTRO-COMERCIO DE ALIMENTOS LTDA",
-          "produto": "HUMB. CANALE DENARIO CAB. SAUV. 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 474.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "91154",
-          "cliente": "ESTRO-COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1080.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO CAVAS DE ORO CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 4,
-          "valor": 220.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
           "data": "13/05/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
@@ -402110,186 +400910,6 @@ const VENDAS_DATA = {
           "tipo": "Bonificado"
         },
         {
-          "data": "24/06/2026",
-          "codcli": "91212",
-          "cliente": "FV GASTRONOMIA LTDA",
-          "produto": "BARBERA D'ALBA SUPERIORE 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 526.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/06/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 2994.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/06/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 2994.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/06/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 2994.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/06/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 624.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/06/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 624.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/06/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/06/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 624.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "91425",
-          "cliente": "MALU COMERCIO DE ALIMENTOS LTDA",
-          "produto": "LANGHE CHARDONNAY DOC 750ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 5616.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 624.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 456.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 624.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/06/2026",
-          "codcli": "90717",
-          "cliente": "BONATO & BONATO LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 624.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 165.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "91154",
-          "cliente": "ESTRO-COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 18,
-          "valor": 1620.0,
-          "tipo": "Venda"
-        },
-        {
           "data": "18/06/2026",
           "codcli": "36591",
           "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
@@ -402371,196 +400991,6 @@ const VENDAS_DATA = {
         }
       ],
       "Fev/26": [
-        {
-          "data": "27/02/2026",
-          "codcli": "90712",
-          "cliente": "GFR REFEICOES LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 624.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/02/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/02/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/02/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 312.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/02/2026",
-          "codcli": "90901",
-          "cliente": "ADL RESTAURANTE LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 288.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/02/2026",
-          "codcli": "90720",
-          "cliente": "BATEL 1550 RESTAURANTE LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 510.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/02/2026",
-          "codcli": "91154",
-          "cliente": "ESTRO-COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 18,
-          "valor": 1530.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/02/2026",
-          "codcli": "90718",
-          "cliente": "DON MAX COMERCIO DE MASSAS ALIMENTICIAS LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 624.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/02/2026",
-          "codcli": "91860",
-          "cliente": "GIRO ATACADO DISTRIBUIDOR LTDA",
-          "produto": "VINHO VENTOZELO RESERVA TINTO 1,5L",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 1049.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/02/2026",
-          "codcli": "91860",
-          "cliente": "GIRO ATACADO DISTRIBUIDOR LTDA",
-          "produto": "VINHO PAGO DE CARRAOVEJAS 2022 3L",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 1799.99,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/02/2026",
-          "codcli": "91860",
-          "cliente": "GIRO ATACADO DISTRIBUIDOR LTDA",
-          "produto": "VILLA ROSA RESERVA TINTO 3L",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 919.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "92017",
-          "cliente": "MENDONCA FOODS RESTAURANTES LTDA",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "92017",
-          "cliente": "MENDONCA FOODS RESTAURANTES LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 419.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "92017",
-          "cliente": "MENDONCA FOODS RESTAURANTES LTDA",
-          "produto": "VINHO CAVAS DE ORO CABERNET FRANC 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 239.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "90722",
-          "cliente": "REGRESSO PIZZA BAR LTDA",
-          "produto": "VINHO CAZAS NOVAS COLHEITA 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1236.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 156.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 156.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 156.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "90903",
-          "cliente": "ADL BARIGUI LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 144.0,
-          "tipo": "Venda"
-        },
         {
           "data": "10/02/2026",
           "codcli": "43203",
@@ -415258,1555 +413688,9 @@ const VENDAS_DATA = {
           "qt": 12,
           "valor": 1439.16,
           "tipo": "Venda"
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 120,
-          "valor": 5280.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 240,
-          "valor": 11520.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "92047",
-          "cliente": "HORTIFRUTI TURMALINA LTDA.",
-          "produto": "VINHO LA TOGATA ROSSO 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "92047",
-          "cliente": "HORTIFRUTI TURMALINA LTDA.",
-          "produto": "VINHO LA TOGATA BRUNELLO ETQ AZUL 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92052",
-          "cliente": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA.",
-          "produto": "VINHO LA TOGATA ROSSO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 1019.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92052",
-          "cliente": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA.",
-          "produto": "VINHO LA TOGATA BRUNELLO ETQ AZUL 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 2399.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO MARQUES DE TEJARES FINCA DE LA FAM",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO ADELE ROSE 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO MOV BRANCO",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO MOV TINTO",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92051",
-          "cliente": "SUPERMERCADO VILA DAS FRUTAS KLABIN LTDA",
-          "produto": "VINHO LA TOGATA ROSSO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 1019.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92051",
-          "cliente": "SUPERMERCADO VILA DAS FRUTAS KLABIN LTDA",
-          "produto": "VINHO LA TOGATA BRUNELLO ETQ AZUL 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 2399.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO PEYRASSOL LA CROIX ROSE 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "23/04/2026",
-          "codcli": "92087",
-          "cliente": "PG WINE COMERCIO DE BEBIDAS LTDA",
-          "produto": "VINHO BAROLO BUSSIA RISERVA 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 3000.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TINTO VENTOZELO RESERVA 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92050",
-          "cliente": "HORTIFRUTI VILA DAS FRUTAS BOSQUE DA SAUDE LTDA.",
-          "produto": "VINHO LA TOGATA ROSSO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 1019.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92050",
-          "cliente": "HORTIFRUTI VILA DAS FRUTAS BOSQUE DA SAUDE LTDA.",
-          "produto": "VINHO LA TOGATA BRUNELLO ETQ AZUL 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 2399.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92053",
-          "cliente": "SUPERMERCADO HORTIFRUTI VILA DAS FRUTAS LTDA",
-          "produto": "VINHO LA TOGATA BRUNELLO ETQ AZUL 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 4798.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92053",
-          "cliente": "SUPERMERCADO HORTIFRUTI VILA DAS FRUTAS LTDA",
-          "produto": "VINHO LA TOGATA ROSSO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 2038.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO QUINTALUNA 2021 BRANCO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "ESPUMANTE LOS ALJIBES CAVA 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO VILLA ROSA RESERVA TINTO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "BARBERA D'ALBA SUPERIORE 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO PEYRASSOL LA CROIX ROSE 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO OSSIAN 2021 BRANCO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "92047",
-          "cliente": "HORTIFRUTI TURMALINA LTDA.",
-          "produto": "VINHO LA TOGATA ROSSO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 2699.46,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "92047",
-          "cliente": "HORTIFRUTI TURMALINA LTDA.",
-          "produto": "VINHO LA TOGATA BRUNELLO ETQ AZUL 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 1187.46,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "VINHO LA TOGATA BRUNELLO ETQ AZUL 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "VINHO TINTO AZUL VENTOZELO 750ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "PACHECA TAWNY PORT 750 ML",
-          "fantasia": "",
-          "qt": 4,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "02/04/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "VINHO BURDIZZO PRIMITIVO  375ML",
-          "fantasia": "",
-          "qt": 19,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO LA TOGATA ROSSO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        }
-      ],
-      "Mar/26": [
-        {
-          "data": "18/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VILLA ROSA GRANDE RESERVA BCO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO CORSARINI MONTEPULCIANO 750ML ",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "BARBERA D'ALBA SUPERIORE 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "VINHO TINTO VENTOZELO RESERVA 750ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 5643.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "VINHO VILLA ROSA RESERVA TINTO 750ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 4914.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "HUMB. CANALE DENARIO RESERVA MALBEC",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO TERROIR BRANCO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO MOV TINTO",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO MARQUES DE TEJARES FINCA DE LA FAM",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "BARBERA D'ALBA SUPERIORE 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO CAZAS NOVAS COLHEITA 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VILLA ROSA  ROSE 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "13/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO DO PORTO DALVA 10 ANOS OLD 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "CERRO DE PEDRA RESERVA TANNAT TTO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO ALVARINHO BRANCO",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO QUINTALUNA 2021 BRANCO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "92039",
-          "cliente": "SUPERMERCADO VILA DAS FRUTAS CERRO CORA LTDA",
-          "produto": "VINHO LA TOGATA BRUNELLO ETQ AZUL 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 2699.46,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X250ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VILLA ROSA GRANDE RESERVA TINTO",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FINCA FELIZ TESORO TTO BONARDA",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "92039",
-          "cliente": "SUPERMERCADO VILA DAS FRUTAS CERRO CORA LTDA",
-          "produto": "VINHO LA TOGATA BRUNELLO ETQ AZUL 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "92039",
-          "cliente": "SUPERMERCADO VILA DAS FRUTAS CERRO CORA LTDA",
-          "produto": "VINHO LA TOGATA ROSSO 750ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "92039",
-          "cliente": "SUPERMERCADO VILA DAS FRUTAS CERRO CORA LTDA",
-          "produto": "FINCA FELIZ TESORO LARANJA PEDRO GIMENEZ",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "92039",
-          "cliente": "SUPERMERCADO VILA DAS FRUTAS CERRO CORA LTDA",
-          "produto": "VINHO LA TOGATA ROSSO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 1187.46,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "92039",
-          "cliente": "SUPERMERCADO VILA DAS FRUTAS CERRO CORA LTDA",
-          "produto": "FINCA FELIZ TESORO LARANJA PEDRO GIMENEZ",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 647.46,
-          "tipo": "Venda"
-        },
-        {
-          "data": "19/03/2026",
-          "codcli": "23070",
-          "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
-          "produto": "VINHO ARCAIA PINOT GRIGIO BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 120,
-          "valor": 6588.0,
-          "tipo": "Venda"
-        }
-      ],
-      "Mai/26": [
-        {
-          "data": "05/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO TERROIR TINTO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO TERROIR BRANCO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO MARQUES DE TEJARES FINCA DE LA FAM",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO LA TOGATA ROSSO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO VILLA ROSA RESERVA TINTO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "ESPUMANTE ARESTI CHARDONNAY 187,5ML",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TINTO AZUL VENTOZELO 750ML",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "VINHO TINTO AZUL VENTOZELO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "VINHO BRANCO AZUL VENTOZELO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "05/05/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "VILLA ROSA GRANDE RESERVA BCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO ARESTI TRISQUEL GRAN RESERVA 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO DO PORTO DALVA 10 ANOS OLD 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TINTO QUINTA DE VENTOZELO ESSENCIA",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO ARESTI TRIS. SERIES CAB SAUV 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FINCA FELIZ TESORO TTO BONARDA",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO TERROIR TINTO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "SPINOGLIO TIERRA ALTA VARIETALES TANNAT",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO BRANCO AZUL VENTOZELO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TINTO VENTOZELO RESERVA 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO QUINTA DE VENTOZELO TINTA AMARELA",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO TERROIR TINTO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO SAUVIGNON BLANC",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO ALVARINHO BRANCO",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO TERROIR TINTO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO TERROIR BRANCO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "FREIXO FAMILY COLLECTION TINTO",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO RESERVA BRANCO",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "FREIXO SPECIAL ED ROSADO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO SPECIAL ED RIESLING",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO CHARDONNAY BRANCO",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO FREIXO SAUVIGNON BLANC",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TINTO VENTOZELO RESERVA 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TINTO AZUL VENTOZELO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO ARESTI TRIS. SERIES CAB SAUV 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO ARESTI ESTATE S. PINOT NOIR",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "19/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO PEYRASSOL LA CROIX ROSE 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "92104",
-          "cliente": "VILA CONCEICAO DIBACO - RESTAURANTE LTDA",
-          "produto": "SPINOGLIO TIERRA ALTA VARIETALES TANNAT",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 80.91,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "92104",
-          "cliente": "VILA CONCEICAO DIBACO - RESTAURANTE LTDA",
-          "produto": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 179.82,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "92104",
-          "cliente": "VILA CONCEICAO DIBACO - RESTAURANTE LTDA",
-          "produto": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 80.91,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO ARESTI ESTATE S.  ROSE 187ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "ESPUMANTE ARESTI CHARDONNAY 187,5ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "25/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "ESPUMANTE ARESTI ROSE 187,5ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VILLA ROSA COLHEITA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO DO PORTO DALVA RUBY 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO DO PORTO DALVA 10 ANOS OLD 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO CAVAS DE ORO MALBEC 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VILLA ROSA COLHEITA TINTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VILLA ROSA GRANDE RESERVA TINTO",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "ESPUMANTE VILLA ROSA BLANC DE NOIRS",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        }
-      ],
-      "Jun/26": [
-        {
-          "data": "03/06/2026",
-          "codcli": "92114",
-          "cliente": "52.498.810 JARDEL FRANK BARBOSA DOS SANTOS",
-          "produto": "VINHO QUINTA DE VENTOZELO TINTA AMARELA",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 157.17,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "92114",
-          "cliente": "52.498.810 JARDEL FRANK BARBOSA DOS SANTOS",
-          "produto": "VINHO QUINTA DE VENTOZELO TINTO CÃ0",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 157.17,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "92114",
-          "cliente": "52.498.810 JARDEL FRANK BARBOSA DOS SANTOS",
-          "produto": "VINHO TINTO QUINTA DE VENTOZELO SOUSAO",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 157.17,
-          "tipo": "Venda"
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "VINHO BRANCO BURDIZZO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "82288",
-          "cliente": "MINI MERCADO HORTISABOR LTDA",
-          "produto": "ESPUMANTE ALUD ROSE 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "92052",
-          "cliente": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA.",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "92052",
-          "cliente": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA.",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "92120",
-          "cliente": "JARDINEIRA GRILL LTDA",
-          "produto": "VINHO FREIXO TERROIR BRANCO 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 193.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "92120",
-          "cliente": "JARDINEIRA GRILL LTDA",
-          "produto": "VINHO FREIXO TERROIR TINTO 750ML",
-          "fantasia": "",
-          "qt": 4,
-          "valor": 387.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/06/2026",
-          "codcli": "23070",
-          "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
-          "produto": "VINHO ARCAIA PINOT GRIGIO BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 60,
-          "valor": 3294.0,
-          "tipo": "Venda"
         }
       ],
       "Fev/26": [
-        {
-          "data": "11/02/2026",
-          "codcli": "92029",
-          "cliente": "SDM VINHOS VILA CLEMENTINO LTDA",
-          "produto": "VINHO CASA DE SABICOS MONTOITO TINTO",
-          "fantasia": "",
-          "qt": 40,
-          "valor": 824.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/02/2026",
-          "codcli": "92029",
-          "cliente": "SDM VINHOS VILA CLEMENTINO LTDA",
-          "produto": "VINHO BRANCO SABICOS",
-          "fantasia": "",
-          "qt": 8,
-          "valor": 300.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/02/2026",
-          "codcli": "92029",
-          "cliente": "SDM VINHOS VILA CLEMENTINO LTDA",
-          "produto": "VINHO TINTO CASA DE SABICOS",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 1583.04,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/02/2026",
-          "codcli": "92029",
-          "cliente": "SDM VINHOS VILA CLEMENTINO LTDA",
-          "produto": "VINHO SABICOS ARAGONEZ & TRINCADEIRA",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1051.08,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/02/2026",
-          "codcli": "92029",
-          "cliente": "SDM VINHOS VILA CLEMENTINO LTDA",
-          "produto": "VINHO SABICOS CAB.SAUVIG ALFROCHEIRO",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1051.08,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/02/2026",
-          "codcli": "92029",
-          "cliente": "SDM VINHOS VILA CLEMENTINO LTDA",
-          "produto": "VINHO SABICOS ALFRO E ALICANTE BOUSCHET",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1051.08,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/02/2026",
-          "codcli": "92028",
-          "cliente": "J.K. COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-          "produto": "VINHO TINTO AVO SABICA",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 7200.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/02/2026",
-          "codcli": "92025",
-          "cliente": "SAMPA BAR 87 LTDA",
-          "produto": "CHABLIS PREMIER CRU VAILLONS 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 379.9,
-          "tipo": "Venda"
-        },
         {
           "data": "03/02/2026",
           "codcli": "23070",
@@ -416835,6 +413719,30 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 419.4,
+          "tipo": "Venda"
+        }
+      ],
+      "Mar/26": [
+        {
+          "data": "19/03/2026",
+          "codcli": "23070",
+          "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
+          "produto": "VINHO ARCAIA PINOT GRIGIO BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 120,
+          "valor": 6588.0,
+          "tipo": "Venda"
+        }
+      ],
+      "Jun/26": [
+        {
+          "data": "02/06/2026",
+          "codcli": "23070",
+          "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
+          "produto": "VINHO ARCAIA PINOT GRIGIO BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 60,
+          "valor": 3294.0,
           "tipo": "Venda"
         }
       ]
@@ -454636,6 +451544,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "28991",
+          "cliente": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS LTDA",
+          "produto": "VODKA ABSOLUT VANILLA 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "28991",
+          "cliente": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS LTDA",
+          "produto": "WHISKY GENTLEMAN JACK 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1656.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "28991",
+          "cliente": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS LTDA",
+          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1317.6,
+          "tipo": "Venda"
+        },
+        {
           "data": "01/06/2026",
           "codcli": "32864",
           "cliente": "SALUTTE COMERCIO DE BEBIDAS TRANSPORTE E LOGISTICA LTDA",
@@ -454746,6 +451684,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "35375",
+          "cliente": "IVO VANDERLEY SILVA ADEGA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 48,
+          "valor": 2587.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "35375",
+          "cliente": "IVO VANDERLEY SILVA ADEGA",
+          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 581.4,
+          "tipo": "Venda"
+        },
+        {
           "data": "12/06/2026",
           "codcli": "36288",
           "cliente": "BEATRIZ CAETANO AMORIM DA SILVA 32018648",
@@ -454813,6 +451771,16 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 18,
           "valor": 3598.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "36581",
+          "cliente": "COMERCIO DE BEBIDAS CHAPADA D OESTE LTDA",
+          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 60,
+          "valor": 5814.0,
           "tipo": "Venda"
         },
         {
@@ -455756,6 +452724,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "39190",
+          "cliente": "COMERCIO DE BEBIDAS CL LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1341.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "39190",
+          "cliente": "COMERCIO DE BEBIDAS CL LTDA",
+          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1197.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "39190",
+          "cliente": "COMERCIO DE BEBIDAS CL LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 36,
+          "valor": 3599.64,
+          "tipo": "Venda"
+        },
+        {
           "data": "17/06/2026",
           "codcli": "39600",
           "cliente": "MAZARO ROZETTI DOCES - COMERCIAL DE ALIMENTOS LTDA",
@@ -456086,6 +453084,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "40573",
+          "cliente": "EMPORIO MULTIMIX LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 72,
+          "valor": 7192.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "12/06/2026",
           "codcli": "40759",
           "cliente": "DISTRIBUIDORA DE BEBIDAS BRASINHA LTDA",
@@ -456176,6 +453184,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "40698",
+          "cliente": "GF COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 660,
+          "valor": 34914.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "41531",
+          "cliente": "HELENA ALVES DA SILVA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 480,
+          "valor": 12912.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "22/06/2026",
           "codcli": "41745",
           "cliente": "BARRETO CENTRAL DE ALIMENTOS E BEBIDAS LTDA",
@@ -456263,6 +453291,36 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 6,
           "valor": 599.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "42967",
+          "cliente": "BRUNO UCHOA PINHEIRO 45307557892",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 466.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "42967",
+          "cliente": "BRUNO UCHOA PINHEIRO 45307557892",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 466.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "42967",
+          "cliente": "BRUNO UCHOA PINHEIRO 45307557892",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 24,
+          "valor": 2397.6,
           "tipo": "Venda"
         },
         {
@@ -456476,6 +453534,46 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "27/06/2026",
+          "codcli": "46646",
+          "cliente": "GORDAO BEER BEBIDAS E MERCEARIA LTDA",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "46646",
+          "cliente": "GORDAO BEER BEBIDAS E MERCEARIA LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "46646",
+          "cliente": "GORDAO BEER BEBIDAS E MERCEARIA LTDA",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "46646",
+          "cliente": "GORDAO BEER BEBIDAS E MERCEARIA LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "09/06/2026",
           "codcli": "47449",
           "cliente": "FAMILIA LIMA RODRIGUES LTDA",
@@ -456493,6 +453591,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 600,
           "valor": 16140.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "47449",
+          "cliente": "FAMILIA LIMA RODRIGUES LTDA",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 660,
+          "valor": 13794.0,
           "tipo": "Venda"
         },
         {
@@ -457796,6 +454904,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "49249",
+          "cliente": "MERCEARIA E ADEGA FIM DE SEMANA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 480,
+          "valor": 12912.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "23/06/2026",
           "codcli": "49249",
           "cliente": "MERCEARIA E ADEGA FIM DE SEMANA LTDA",
@@ -458356,6 +455474,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "50633",
+          "cliente": "IMPERIO - DISTRIBUIDORA DE BEBIDAS SUMARE LTDA",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 18,
+          "valor": 1438.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50633",
+          "cliente": "IMPERIO - DISTRIBUIDORA DE BEBIDAS SUMARE LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 18,
+          "valor": 1438.2,
+          "tipo": "Venda"
+        },
+        {
           "data": "03/06/2026",
           "codcli": "50634",
           "cliente": "GBS MERCADO LTDA",
@@ -458493,6 +455631,16 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 18,
           "valor": 369.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51156",
+          "cliente": "ADEGA LITORAGUA LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 3948.0,
           "tipo": "Venda"
         },
         {
@@ -465122,6 +462270,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "31155",
+          "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 6348.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "22/06/2026",
           "codcli": "31155",
           "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
@@ -465179,6 +462337,46 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 12,
           "valor": 1006.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "35792",
+          "cliente": "MUNDO DAS BEBIDAS E ALIMENTOS LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 24,
+          "valor": 2397.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "35792",
+          "cliente": "MUNDO DAS BEBIDAS E ALIMENTOS LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 60,
+          "valor": 5994.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "35792",
+          "cliente": "MUNDO DAS BEBIDAS E ALIMENTOS LTDA",
+          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "35792",
+          "cliente": "MUNDO DAS BEBIDAS E ALIMENTOS LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 36,
+          "valor": 485.64,
           "tipo": "Venda"
         },
         {
@@ -466069,6 +463267,26 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 12,
           "valor": 1198.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50496",
+          "cliente": "JB MERCADO DE BEBIDAS LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 1080,
+          "valor": 9385.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50496",
+          "cliente": "JB MERCADO DE BEBIDAS LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 120,
+          "valor": 1042.8,
           "tipo": "Venda"
         }
       ],
@@ -475128,6 +472346,46 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "51237",
+          "cliente": "SUPER FAUNA VAREJISTA LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51237",
+          "cliente": "SUPER FAUNA VAREJISTA LTDA",
+          "produto": "VODKA ABSOLUT VANILLA 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51237",
+          "cliente": "SUPER FAUNA VAREJISTA LTDA",
+          "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 718.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51237",
+          "cliente": "SUPER FAUNA VAREJISTA LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 718.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "23/06/2026",
           "codcli": "51071",
           "cliente": "LUIZ ERNESTO SERVIDONI",
@@ -477150,6 +474408,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "48007",
+          "cliente": "ANDORINHA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 2334.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "03/06/2026",
           "codcli": "49264",
           "cliente": "52.593.451 ALEX DE OLIVEIRA PENELLE",
@@ -478278,6 +475546,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "27/06/2026",
+          "codcli": "38623",
+          "cliente": "ADEGA MENEZES ITANHAEM LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "05/06/2026",
           "codcli": "38641",
           "cliente": "E. OMENA DE MENEZES",
@@ -478345,6 +475623,16 @@ const VENDAS_DATA = {
           "fantasia": "MOET HENNESY",
           "qt": 3,
           "valor": 227.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "38641",
+          "cliente": "E. OMENA DE MENEZES",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 403.2,
           "tipo": "Venda"
         },
         {
@@ -478968,6 +476256,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "27/06/2026",
+          "codcli": "50029",
+          "cliente": "R. APARECIDO FERREIRA DE MENEZES",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 6,
+          "valor": 503.4,
+          "tipo": "Venda"
+        },
+        {
           "data": "03/06/2026",
           "codcli": "50128",
           "cliente": "ALEMAO DISTRIBUIDORA DE BEBIDAS E COMERCIO EM GERAL LTDA",
@@ -479575,6 +476873,26 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 3,
           "valor": 68.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51309",
+          "cliente": "NEW FUXING SUPERMERCADO LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 36,
+          "valor": 323.64,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51309",
+          "cliente": "NEW FUXING SUPERMERCADO LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88,
           "tipo": "Venda"
         },
         {
@@ -481488,6 +478806,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "47295",
+          "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 7188.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "47295",
+          "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 1904.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "47295",
+          "cliente": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 394.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "09/06/2026",
           "codcli": "50089",
           "cliente": "JOTA ADEGA BAHIA LTDA",
@@ -481838,6 +479186,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "49731",
+          "cliente": "ADEGA DO IVO LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 48,
+          "valor": 2879.52,
+          "tipo": "Venda"
+        },
+        {
           "data": "16/06/2026",
           "codcli": "49732",
           "cliente": "ADEGA DO TIOZINHO LTDA",
@@ -481845,6 +479203,16 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 36,
           "valor": 3596.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "49732",
+          "cliente": "ADEGA DO TIOZINHO LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 2159.64,
           "tipo": "Venda"
         },
         {
@@ -482185,6 +479553,16 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 3,
           "valor": 255.43,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51351",
+          "cliente": "TALITA APARECIDA TISO 36267755851",
+          "produto": "GIN BEEFEATER PINK 750ML",
+          "fantasia": "PERNOD",
+          "qt": 16,
+          "valor": 990.4,
           "tipo": "Venda"
         },
         {
@@ -492688,6 +490066,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "27/06/2026",
+          "codcli": "51375",
+          "cliente": "MERCEARIA E QUITANDA FRANGAO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 55.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51375",
+          "cliente": "MERCEARIA E QUITANDA FRANGAO LTDA",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 5,
+          "valor": 109.5,
+          "tipo": "Venda"
+        },
+        {
           "data": "09/06/2026",
           "codcli": "50732",
           "cliente": "CHICOTE BEBIDAS LTDA",
@@ -497304,6 +494702,56 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "27/06/2026",
+          "codcli": "51178",
+          "cliente": "J.F. DOS SANTOS LTDA",
+          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "fantasia": "DIAGEO",
+          "qt": 4,
+          "valor": 879.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51178",
+          "cliente": "J.F. DOS SANTOS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 334.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51178",
+          "cliente": "J.F. DOS SANTOS LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 36,
+          "valor": 323.64,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51329",
+          "cliente": "MINIMERCADO KI JOIA LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 120,
+          "valor": 1078.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51330",
+          "cliente": "CELESTRIM & JULIANI MINIMERCADO LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 120,
+          "valor": 1078.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "22/06/2026",
           "codcli": "51170",
           "cliente": "62.384.846 PAULO ROBERTO FLORIANO",
@@ -497505,6 +494953,26 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1674.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "46274",
+          "cliente": "COMERCIO 5 ESTRELAS BEBIDAS E ALIMENTOS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1317.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "46274",
+          "cliente": "COMERCIO 5 ESTRELAS BEBIDAS E ALIMENTOS LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 240,
+          "valor": 2157.6,
           "tipo": "Venda"
         },
         {
@@ -499878,6 +497346,66 @@ const VENDAS_DATA = {
           "qt": 1920,
           "valor": 40128.0,
           "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 27.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 101.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 58.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 20.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 69.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 1956,
+          "valor": 40880.4,
+          "tipo": "Venda"
         }
       ]
     },
@@ -501499,6 +499027,26 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 24,
           "valor": 1509.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51265",
+          "cliente": "62.354.916 RAUL ZANELLA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 24,
+          "valor": 693.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51265",
+          "cliente": "62.354.916 RAUL ZANELLA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 233.8,
           "tipo": "Venda"
         }
       ]
@@ -503328,6 +500876,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "50731",
+          "cliente": "PEDRERO VICENTINI LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 4,
+          "valor": 467.6,
+          "tipo": "Venda"
+        },
+        {
           "data": "03/06/2026",
           "codcli": "50413",
           "cliente": "ALEXANDRE APARECIDO STEFANI",
@@ -503755,6 +501313,26 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 48,
           "valor": 985.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "50420",
+          "cliente": "SUPER OSMARAJA EMPORIO LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 12,
+          "valor": 1402.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "50420",
+          "cliente": "SUPER OSMARAJA EMPORIO LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
+          "fantasia": "AURORA",
+          "qt": 12,
+          "valor": 1258.8,
           "tipo": "Venda"
         },
         {
@@ -505694,6 +503272,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "50861",
+          "cliente": "ADEGA HR DE FARTURA LTDA",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 23,
+          "valor": 1837.7,
+          "tipo": "Venda"
+        },
+        {
           "data": "12/06/2026",
           "codcli": "50481",
           "cliente": "NATALE TANI FLEX SUPERMERCADOS LTDA",
@@ -505731,6 +503319,76 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 2,
           "valor": 115.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50481",
+          "cliente": "NATALE TANI FLEX SUPERMERCADOS LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 57.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50481",
+          "cliente": "NATALE TANI FLEX SUPERMERCADOS LTDA",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 56.39,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50481",
+          "cliente": "NATALE TANI FLEX SUPERMERCADOS LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 4,
+          "valor": 77.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50481",
+          "cliente": "NATALE TANI FLEX SUPERMERCADOS LTDA",
+          "produto": "RUM MALIBU 750ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 85.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50481",
+          "cliente": "NATALE TANI FLEX SUPERMERCADOS LTDA",
+          "produto": "GIN BEEFEATER PINK 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 61.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50481",
+          "cliente": "NATALE TANI FLEX SUPERMERCADOS LTDA",
+          "produto": "CACHACA SELETA PRATA 1L",
+          "fantasia": "TOP BIRRA",
+          "qt": 3,
+          "valor": 104.86,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50481",
+          "cliente": "NATALE TANI FLEX SUPERMERCADOS LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 72,
+          "valor": 647.28,
           "tipo": "Venda"
         },
         {
@@ -505844,6 +503502,76 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "50494",
+          "cliente": "M. MESSIAS PEDRO - COMERCIO DE BEBIDAS",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 83.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50494",
+          "cliente": "M. MESSIAS PEDRO - COMERCIO DE BEBIDAS",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 789.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50494",
+          "cliente": "M. MESSIAS PEDRO - COMERCIO DE BEBIDAS",
+          "produto": "WHISKY ROYAL SALUTE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 569.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50494",
+          "cliente": "M. MESSIAS PEDRO - COMERCIO DE BEBIDAS",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 233.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50494",
+          "cliente": "M. MESSIAS PEDRO - COMERCIO DE BEBIDAS",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 2,
+          "valor": 159.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50494",
+          "cliente": "M. MESSIAS PEDRO - COMERCIO DE BEBIDAS",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 2,
+          "valor": 159.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50494",
+          "cliente": "M. MESSIAS PEDRO - COMERCIO DE BEBIDAS",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88,
+          "tipo": "Venda"
+        },
+        {
           "data": "03/06/2026",
           "codcli": "50525",
           "cliente": "TATIANE MENDES MARTINS DE MELO",
@@ -505951,6 +503679,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1254.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "50504",
+          "cliente": "PANIFICADORA E CONFEITARIA SANTANA LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 60,
+          "valor": 539.4,
           "tipo": "Venda"
         },
         {
@@ -508558,6 +506296,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "26/06/2026",
+          "codcli": "51352",
+          "cliente": "LENA AMARAL MERCADO LTDA",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 1,
+          "valor": 79.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51352",
+          "cliente": "LENA AMARAL MERCADO LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 36,
+          "valor": 323.64,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51352",
+          "cliente": "LENA AMARAL MERCADO LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 3,
+          "valor": 26.97,
+          "tipo": "Venda"
+        },
+        {
           "data": "25/06/2026",
           "codcli": "51316",
           "cliente": "NILSON PEREZ DE SOUZA SUPERMERCADO",
@@ -508636,6 +506404,116 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 79.9,
           "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51353",
+          "cliente": "BRENA CELI RIBEIRO DA SILVA",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "FANTE",
+          "qt": 18,
+          "valor": 369.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51353",
+          "cliente": "BRENA CELI RIBEIRO DA SILVA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 359.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51353",
+          "cliente": "BRENA CELI RIBEIRO DA SILVA",
+          "produto": "GIN BEEFEATER PINK 750ML",
+          "fantasia": "PERNOD",
+          "qt": 18,
+          "valor": 1114.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51317",
+          "cliente": "ADEGA DISTRIBUIDORA DE BEBIDAS SEM LIMITES LTDA",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 262.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51317",
+          "cliente": "ADEGA DISTRIBUIDORA DE BEBIDAS SEM LIMITES LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 359.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51317",
+          "cliente": "ADEGA DISTRIBUIDORA DE BEBIDAS SEM LIMITES LTDA",
+          "produto": "GIN BEEFEATER PINK 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 371.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51317",
+          "cliente": "ADEGA DISTRIBUIDORA DE BEBIDAS SEM LIMITES LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51317",
+          "cliente": "ADEGA DISTRIBUIDORA DE BEBIDAS SEM LIMITES LTDA",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51317",
+          "cliente": "ADEGA DISTRIBUIDORA DE BEBIDAS SEM LIMITES LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.24,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51317",
+          "cliente": "ADEGA DISTRIBUIDORA DE BEBIDAS SEM LIMITES LTDA",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.24,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "51333",
+          "cliente": "37.311.177 EDSON GOMES DAS NEVES",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 215.76,
+          "tipo": "Venda"
         }
       ]
     },
@@ -508659,6 +506537,86 @@ const VENDAS_DATA = {
           "fantasia": "CRS BRANDS",
           "qt": 12,
           "valor": 179.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51354",
+          "cliente": "SUPERMERCADO YAMATO LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 137.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51354",
+          "cliente": "SUPERMERCADO YAMATO LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 173.69,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51354",
+          "cliente": "SUPERMERCADO YAMATO LTDA",
+          "produto": "RUM BACARDI CARTA BLANCA 980ML",
+          "fantasia": "BACARDI",
+          "qt": 4,
+          "valor": 137.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51354",
+          "cliente": "SUPERMERCADO YAMATO LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51354",
+          "cliente": "SUPERMERCADO YAMATO LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 215.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51354",
+          "cliente": "SUPERMERCADO YAMATO LTDA",
+          "produto": "XAROPE DE GROSELHA CERESER G&G PET 1LT",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 142.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51354",
+          "cliente": "SUPERMERCADO YAMATO LTDA",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 262.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/06/2026",
+          "codcli": "51354",
+          "cliente": "SUPERMERCADO YAMATO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 334.8,
           "tipo": "Venda"
         },
         {
