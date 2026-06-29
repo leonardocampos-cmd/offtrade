@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "29/06/2026 12:02",
+  "atualizado_em": "29/06/2026 13:02",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -5961,6 +5961,13 @@ const NAO_POS_ES_DATA = {
     ],
     "EUDES MORGAN": [
       {
+        "codcli": "82242",
+        "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+        "bairro": "PORTO CANOA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "79791",
         "cliente": "COMERCIAL FIORESE LTDA",
         "bairro": "PROVIDENCIA",
@@ -5982,6 +5989,13 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "21216",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+        "bairro": "INDEPENDÊNCIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "21215",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
         "bairro": "PRAIA DO MORRO",
@@ -5996,20 +6010,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "21217",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-        "bairro": "SHELL",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "21216",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-        "bairro": "INDEPENDÊNCIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "94660",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
         "bairro": "CENTRO DE VILA VELHA",
@@ -6017,16 +6017,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "82538",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "JARDIM LIMOEIRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "82540",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "PRAIA DE ITAPARICA",
+        "codcli": "21217",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+        "bairro": "SHELL",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6038,35 +6031,21 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91463",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "BARRA DO JUCU",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "82542",
+        "codcli": "82537",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
         "bairro": "JARDIM CAMBURI",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "76072",
+        "codcli": "82538",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "ITAPUÃ",
+        "bairro": "JARDIM LIMOEIRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "82541",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "PRAIA DA BALEIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "82537",
+        "codcli": "82542",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
         "bairro": "JARDIM CAMBURI",
         "dtultcomp": "nan",
@@ -6080,9 +6059,37 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "82541",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "bairro": "PRAIA DA BALEIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "76072",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "bairro": "ITAPUÃ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "82540",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "bairro": "PRAIA DE ITAPARICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "82539",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
         "bairro": "CAMPO GRANDE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91463",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "bairro": "BARRA DO JUCU",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6122,9 +6129,128 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "85836",
+        "codcli": "85401",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "PRAIA DE ITAPARICA",
+        "bairro": "CARLOS GERMANO NAUMANN",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85432",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "MOVELAR",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85402",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "DAS LARANJEIRAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85424",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "BARRO VERMELHO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85428",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "MARACANA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "82283",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "ALTO MARATAIZES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85438",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "PRAIA DA COSTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85418",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "SANTA LÚCIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85403",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "COLINA DE LARANJEIRAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85425",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "CONSOLAÇÃO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85400",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "PEDRA D'ÁGUA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85420",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "JARDIM DA PENHA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85410",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "ITAPUA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85434",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "MARBRASA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85435",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85440",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "SÃO PATRÍCIO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85426",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "JARDIM AMERICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91292",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "PONTA DOS CASTELHANOS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6143,13 +6269,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "85437",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "PRAIA DA COSTA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "85427",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "CAMPO GRANDE",
@@ -6157,30 +6276,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "94324",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "SÃO DIOGO II",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "85416",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "ILHA DE SANTA MARIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85425",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "CONSOLAÇÃO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85403",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "COLINA DE LARANJEIRAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6199,23 +6297,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "85418",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "SANTA LÚCIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "85405",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "CIVIT II",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85432",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "MOVELAR",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6234,37 +6318,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "85438",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "PRAIA DA COSTA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85401",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "CARLOS GERMANO NAUMANN",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "82283",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "ALTO MARATAIZES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "85439",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "JARDIM LIMOEIRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85428",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "MARACANA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6290,16 +6346,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "85424",
+        "codcli": "85436",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "BARRO VERMELHO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85435",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "CENTRO",
+        "bairro": "CIVIT II",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6311,65 +6360,23 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "85434",
+        "codcli": "85836",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "MARBRASA",
+        "bairro": "PRAIA DE ITAPARICA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "91292",
+        "codcli": "85437",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "PONTA DOS CASTELHANOS",
+        "bairro": "PRAIA DA COSTA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "85402",
+        "codcli": "94324",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "DAS LARANJEIRAS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85400",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "PEDRA D'ÁGUA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85440",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "SÃO PATRÍCIO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85426",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "JARDIM AMERICA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85436",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "CIVIT II",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85410",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "ITAPUA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85420",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "JARDIM DA PENHA",
+        "bairro": "SÃO DIOGO II",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6906,13 +6913,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "82242",
-        "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
-        "bairro": "PORTO CANOA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "21180",
         "cliente": "CHALE DOS LAGOS SERVICOS E LAZER LTDA",
         "bairro": "DISTRITO DE ARACE",
@@ -7319,14 +7319,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95195",
+        "codcli": "95194",
         "cliente": "SUPERMERCADO E PADARIA TRARBACH LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "95194",
+        "codcli": "95195",
         "cliente": "SUPERMERCADO E PADARIA TRARBACH LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -7361,16 +7361,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "81442",
+        "codcli": "81441",
         "cliente": "SUPERMERCADO SUPER TOP LTDA",
-        "bairro": "PONTO ALTO",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "81441",
+        "codcli": "81442",
         "cliente": "SUPERMERCADO SUPER TOP LTDA",
-        "bairro": "CENTRO",
+        "bairro": "PONTO ALTO",
         "dtultcomp": "nan",
         "produtos": []
       },
