@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "26/06/2026 16:23",
+  "atualizado_em": "29/06/2026 09:15",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -21,20 +21,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 10,
             "valor": 399.0
-          }
-        ]
-      },
-      {
-        "codcli": "37300",
-        "cliente": "PABLO FELIPE DOS SANTOS XAVIER 13984275609",
-        "bairro": "FLÁVIO MARQUES LISBOA (BARREIRO)",
-        "dtultcomp": "26/03/2026",
-        "produtos": [
-          {
-            "produto": "MINIATURA CHIVAS 12YO 12 X 50ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 164.9
           }
         ]
       },
@@ -365,9 +351,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35724",
+        "codcli": "35726",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MORADA DA SERRA",
+        "bairro": "MILIONÁRIOS (BARREIRO)",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -378,12 +364,6 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
             "fantasia": "",
             "qt": 1,
             "valor": 184.56
@@ -411,9 +391,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35725",
+        "codcli": "35724",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MINEIRÃO",
+        "bairro": "MORADA DA SERRA",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -427,13 +407,19 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 184.56
+          },
+          {
+            "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
           }
         ]
       },
       {
-        "codcli": "35726",
+        "codcli": "35725",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MILIONÁRIOS (BARREIRO)",
+        "bairro": "MINEIRÃO",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -617,23 +603,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39542",
-        "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
-        "bairro": "LAGOA (JUSTINÓPOLIS)",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39539",
         "cliente": "MINIMERCADO E DISTRIBUIDORA JK LTDA",
         "bairro": "LAGOA (JUSTINÓPOLIS)",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39402",
-        "cliente": "OPEN BEER DISTRIBUIDORA DE BEBIDAS LTDA",
-        "bairro": "INDUSTRIAL SÃO LUIZ",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -646,150 +618,6 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "JOÃO SANTOS": [
-      {
-        "codcli": "32107",
-        "cliente": "ASSACABRASA LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "24/03/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 309.8
-          }
-        ]
-      },
-      {
-        "codcli": "32948",
-        "cliente": "CASA MATA GASTROPUB LTDA",
-        "bairro": "SAGRADA FAMÍLIA",
-        "dtultcomp": "24/03/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 61.52
-          },
-          {
-            "produto": "4 PACK RED BULL SUGAR FREE",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 61.52
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 30.76
-          },
-          {
-            "produto": "APERITIVO APEROL 750 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 56.9
-          },
-          {
-            "produto": "APERITIVO CAMPARI 998ML DEST",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 58.9
-          },
-          {
-            "produto": "XAROPE 1883 DE AMORA 1LT",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 68.9
-          },
-          {
-            "produto": "XAROPE 1883 DE COCO 1LT",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 68.9
-          },
-          {
-            "produto": "XAROPE 1883 DE TANGERINA 1L",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 68.9
-          }
-        ]
-      },
-      {
-        "codcli": "39060",
-        "cliente": "62.321.083 GUSTAVO CARVALHO FORNAZIER SANTANA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "25/03/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 259.68
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 129.84
-          }
-        ]
-      },
-      {
-        "codcli": "39070",
-        "cliente": "EMPREENDIMENTOS SUNRITZ LTDA",
-        "bairro": "ESTORIL",
-        "dtultcomp": "26/03/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-            "fantasia": "",
-            "qt": 18,
-            "valor": 1546.2
-          },
-          {
-            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
-            "qt": 9,
-            "valor": 1185.84
-          }
-        ]
-      },
-      {
-        "codcli": "36737",
-        "cliente": "RECANTO INDUSTRIA E COMERCIO LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "26/03/2026",
-        "produtos": [
-          {
-            "produto": "XAROPE 1883 DE LIMÃO SICILIANO 1LT",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 68.9
-          }
-        ]
-      },
-      {
-        "codcli": "33108",
-        "cliente": "CASA DELAS COMERCIO E TURISMO LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/03/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON BABY BRUT 187 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 197.4
-          },
-          {
-            "produto": "CHANDON BABY BRUT ROSE 187 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 227.4
-          }
-        ]
-      },
       {
         "codcli": "37886",
         "cliente": "KL COFFE CAFETERIA LTDA",
@@ -2239,23 +2067,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39389",
-        "cliente": "60.201.320 PAULA VIEIRA HORTA DE MELO",
-        "bairro": "SANTA EFIGÊNIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39419",
         "cliente": "DECARD - SERVICOS MEDICOS EM DERMATOLOGIA E CARDIOLOGIA LTDA",
         "bairro": "FUNCIONÁRIOS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "38975",
-        "cliente": "GUERRA ALIMENTACAO LTDA",
-        "bairro": "BRAÚNAS",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -2342,20 +2156,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37255",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SION",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 6,
-            "valor": 419.4
-          }
-        ]
-      },
-      {
         "codcli": "33294",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "ROCHEDO",
@@ -2372,6 +2172,20 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 372.6
+          }
+        ]
+      },
+      {
+        "codcli": "37255",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SION",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 6,
+            "valor": 419.4
           }
         ]
       },
@@ -3015,6 +2829,20 @@ const NAO_POS_MG_DATA = {
     ],
     "LUIZ FERNANDO SALGADO": [
       {
+        "codcli": "39121",
+        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
+        "bairro": "SÃO BENEDITO",
+        "dtultcomp": "09/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 24,
+            "valor": 2208.0
+          }
+        ]
+      },
+      {
         "codcli": "39126",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
         "bairro": "ESTRELA DO ORIENTE",
@@ -3032,20 +2860,6 @@ const NAO_POS_MG_DATA = {
         "codcli": "39125",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
         "bairro": "RENASCENÇA",
-        "dtultcomp": "09/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 24,
-            "valor": 2208.0
-          }
-        ]
-      },
-      {
-        "codcli": "39121",
-        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "SÃO BENEDITO",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -3251,13 +3065,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38475",
-        "cliente": "MMC CARNES NOBRES LTDA",
-        "bairro": "GLÓRIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39434",
         "cliente": "NOME EMPRESARIAL",
         "bairro": "CENTRO",
@@ -3273,82 +3080,6 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "SAVIO NETO": [
-      {
-        "codcli": "38966",
-        "cliente": "MINASMAIS SUPERMERCADOS JF LTDA",
-        "bairro": "GRANBERY",
-        "dtultcomp": "25/03/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 172.56
-          },
-          {
-            "produto": "SMIR ICE GRAPP 269ML LT CX 24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 100.56
-          },
-          {
-            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 131.76
-          },
-          {
-            "produto": "SMIRNOFF ICE TROPICAL 269ML LT CX 24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 100.56
-          }
-        ]
-      },
-      {
-        "codcli": "37026",
-        "cliente": "DISTRIBUIDORA DE BEBIDAS GELA GUELA LTDA",
-        "bairro": "SANTA HELENA",
-        "dtultcomp": "26/03/2026",
-        "produtos": [
-          {
-            "produto": "JACK DANIELS HONEY 1 L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 249.8
-          },
-          {
-            "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 378.0
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 499.6
-          },
-          {
-            "produto": "WHISKY JACK DANIELS APPLE 1L",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 499.6
-          },
-          {
-            "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 249.8
-          },
-          {
-            "produto": "WHISKY JAMESON 750ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 351.12
-          }
-        ]
-      },
       {
         "codcli": "36560",
         "cliente": "ADEGA BEBIDAS LTDA",
@@ -3371,156 +3102,6 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "TIAGO ANDRADE": [
-      {
-        "codcli": "38910",
-        "cliente": "SUPER HORIZONTE MANTIQUEIRA ALIMENTOS LTDA",
-        "bairro": "MANTIQUEIRA",
-        "dtultcomp": "24/03/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 10,
-            "valor": 490.8
-          },
-          {
-            "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 20,
-            "valor": 1427.4
-          }
-        ]
-      },
-      {
-        "codcli": "38122",
-        "cliente": "ESPETINHO DO BOLOTA - REI DA PICANHA LTDA",
-        "bairro": "CÉU AZUL",
-        "dtultcomp": "25/03/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 167.76
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 503.19
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "",
-            "qt": 10,
-            "valor": 1679.6
-          }
-        ]
-      },
-      {
-        "codcli": "39073",
-        "cliente": "CURRAL DA SERRA RESTAURANTE LTDA COUNTRY CLUB",
-        "bairro": "BALEIA",
-        "dtultcomp": "26/03/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO CAMPARI 998 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 119.8
-          },
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 125.8
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 165.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 165.36
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 165.36
-          },
-          {
-            "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 319.8
-          }
-        ]
-      },
-      {
-        "codcli": "31850",
-        "cliente": "LA MACELLERIA VILA DA SERRA ACOUGUE GOURMET E RESTAURANTE LT",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "26/03/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 92.28
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 319.6
-          }
-        ]
-      },
-      {
-        "codcli": "34115",
-        "cliente": "POUSADA ESTALAGEM DO MIRANTE LTDA",
-        "bairro": "RETIRO DO CHALE",
-        "dtultcomp": "27/03/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-            "fantasia": "",
-            "qt": 30,
-            "valor": 2577.0
-          }
-        ]
-      },
-      {
-        "codcli": "37249",
-        "cliente": "FERNANDA LANCHES LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "30/03/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "",
-            "qt": 42,
-            "valor": 1307.04
-          },
-          {
-            "produto": "4 PACK RED BULL AMORA SUGAR FREE 250ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 186.72
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 746.88
-          }
-        ]
-      },
       {
         "codcli": "35981",
         "cliente": "RESTAURANTE GRAN SABOR LTDA",
