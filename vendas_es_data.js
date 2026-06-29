@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "29/06/2026 10:02",
+  "atualizado_em": "29/06/2026 11:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -204,8 +204,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 84254.44
       },
       "Jun/26": {
-        "fat": 46413.1,
-        "pos": 47,
+        "fat": 49847.43,
+        "pos": 56,
         "fat_ant": 75315.05
       },
       "Mai/26": {
@@ -54250,6 +54250,78 @@ const VENDAS_ES_DATA = {
           "valor": 143.76
         },
         {
+          "data": "29/06/2026",
+          "codcli": "92615",
+          "cliente": "47.209.311 RAFAEL OLIVEIRA SILVA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 325.92
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82178",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82218",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 325.92
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "87103",
+          "cliente": "MERCEARIA BIA LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "92166",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "92076",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82506",
+          "cliente": "RENATO AUGUSTO CARERI LEVONI",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82177",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96
+        },
+        {
           "data": "05/06/2026",
           "codcli": "83156",
           "cliente": "PADARIA E CONFEITARIA BENTO LTDA",
@@ -54538,6 +54610,15 @@ const VENDAS_ES_DATA = {
           "valor": 81.48
         },
         {
+          "data": "29/06/2026",
+          "codcli": "81998",
+          "cliente": "PANIFICADORA NEVES LTDA",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.16
+        },
+        {
           "data": "01/06/2026",
           "codcli": "84443",
           "cliente": "46.569.092 VILMAR BERSOT DE MELO",
@@ -54655,6 +54736,15 @@ const VENDAS_ES_DATA = {
           "valor": 54.32
         },
         {
+          "data": "29/06/2026",
+          "codcli": "81998",
+          "cliente": "PANIFICADORA NEVES LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32
+        },
+        {
           "data": "11/06/2026",
           "codcli": "71949",
           "cliente": "NATURALIS HORTIFRUTIGRANJEIROS LTDA",
@@ -54680,6 +54770,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 191.76
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82506",
+          "cliente": "RENATO AUGUSTO CARERI LEVONI",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82177",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96
         },
         {
           "data": "08/06/2026",
@@ -55411,6 +55519,15 @@ const VENDAS_ES_DATA = {
           "valor": 27.16
         },
         {
+          "data": "29/06/2026",
+          "codcli": "81998",
+          "cliente": "PANIFICADORA NEVES LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.16
+        },
+        {
           "data": "10/06/2026",
           "codcli": "71679",
           "cliente": "RESTAURANTE E CAFE METROPOLES LTDA",
@@ -55454,6 +55571,42 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 5,
           "valor": 718.8
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82178",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "87103",
+          "cliente": "MERCEARIA BIA LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "92166",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "92076",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96
         },
         {
           "data": "08/06/2026",
@@ -55645,6 +55798,24 @@ const VENDAS_ES_DATA = {
           "valor": 340.27
         },
         {
+          "data": "29/06/2026",
+          "codcli": "92076",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 2,
+          "valor": 197.92
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "92076",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 4,
+          "valor": 395.84
+        },
+        {
           "data": "19/06/2026",
           "codcli": "71004",
           "cliente": "C R SIMOES CANTINA LA RUSTICA BAR E RESTAURANTE",
@@ -55798,6 +55969,15 @@ const VENDAS_ES_DATA = {
           "valor": 80.55
         },
         {
+          "data": "29/06/2026",
+          "codcli": "82178",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "PINATI DB WHEY BANANOFFE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 80.55
+        },
+        {
           "data": "23/06/2026",
           "codcli": "71736",
           "cliente": "PEDRO GAUDENSI DOS SANTOS SAMPAIO",
@@ -55832,6 +56012,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 2,
           "valor": 88.04
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82178",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 44.02
         },
         {
           "data": "12/06/2026",
