@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/06/2026 10:01",
+  "atualizado_em": "29/06/2026 11:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -51838,6 +51838,56 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "29/06/2026",
+          "codcli": "81998",
+          "cliente": "PANIFICADORA NEVES LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "81998",
+          "cliente": "PANIFICADORA NEVES LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "81998",
+          "cliente": "PANIFICADORA NEVES LTDA",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82177",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82177",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
+          "tipo": "Venda"
+        },
+        {
           "data": "23/06/2026",
           "codcli": "79745",
           "cliente": "VILUCCA PADARIA E CONFEITARIA LTDA",
@@ -51925,6 +51975,46 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 4,
           "valor": 108.24,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82178",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82178",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82178",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 44.02,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82178",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "PINATI DB WHEY BANANOFFE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 80.55,
           "tipo": "Venda"
         },
         {
@@ -52108,6 +52198,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "29/06/2026",
+          "codcli": "82218",
+          "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 325.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82506",
+          "cliente": "RENATO AUGUSTO CARERI LEVONI",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "82506",
+          "cliente": "RENATO AUGUSTO CARERI LEVONI",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
+          "tipo": "Venda"
+        },
+        {
           "data": "12/06/2026",
           "codcli": "90405",
           "cliente": "07.175.533 BIANCA RODRIGUES DE JESUS VASQUEZ",
@@ -52155,6 +52275,26 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 44.02,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "87103",
+          "cliente": "MERCEARIA BIA LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "87103",
+          "cliente": "MERCEARIA BIA LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
           "tipo": "Venda"
         },
         {
@@ -52548,6 +52688,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "29/06/2026",
+          "codcli": "92166",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "92166",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
+          "tipo": "Venda"
+        },
+        {
           "data": "11/06/2026",
           "codcli": "92307",
           "cliente": "55.301.885 MARCOS ROBERTO PUZIOL SANTANA",
@@ -52568,6 +52728,56 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "29/06/2026",
+          "codcli": "92076",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "92076",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "92076",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "92076",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 4,
+          "valor": 395.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "92076",
+          "cliente": "SUPERMERCADO BIA LTDA",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 2,
+          "valor": 197.92,
+          "tipo": "Venda"
+        },
+        {
           "data": "08/06/2026",
           "codcli": "94233",
           "cliente": "TANUKI IZAKAYA LTDA",
@@ -52575,6 +52785,16 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 3,
           "valor": 422.91,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "92615",
+          "cliente": "47.209.311 RAFAEL OLIVEIRA SILVA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 325.92,
           "tipo": "Venda"
         },
         {
@@ -268874,7 +269094,7 @@ const VENDAS_DATA = {
         {
           "data": "10/06/2026",
           "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
           "fantasia": "RECKITT",
           "qt": 250,
@@ -268884,7 +269104,7 @@ const VENDAS_DATA = {
         {
           "data": "10/06/2026",
           "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
           "fantasia": "RECKITT",
           "qt": 72,
@@ -268894,7 +269114,7 @@ const VENDAS_DATA = {
         {
           "data": "10/06/2026",
           "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
           "fantasia": "RECKITT",
           "qt": 94,
@@ -268904,7 +269124,7 @@ const VENDAS_DATA = {
         {
           "data": "10/06/2026",
           "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
           "fantasia": "RECKITT",
           "qt": 489,
@@ -268914,7 +269134,7 @@ const VENDAS_DATA = {
         {
           "data": "10/06/2026",
           "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "produto": "VEJA PERF FLORES MEDITERRANEO 24X500ML",
           "fantasia": "RECKITT",
           "qt": 14,
@@ -268924,7 +269144,7 @@ const VENDAS_DATA = {
         {
           "data": "10/06/2026",
           "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
           "fantasia": "RECKITT",
           "qt": 89,
@@ -268934,7 +269154,7 @@ const VENDAS_DATA = {
         {
           "data": "19/06/2026",
           "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "produto": "WHISKY J WALKER RED LABEL 1L",
           "fantasia": "DIAGEO",
           "qt": 288,
@@ -268944,7 +269164,7 @@ const VENDAS_DATA = {
         {
           "data": "19/06/2026",
           "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "produto": "WHISKY J WALKER RED LABEL 1L",
           "fantasia": "DIAGEO",
           "qt": 1440,
@@ -268954,7 +269174,7 @@ const VENDAS_DATA = {
         {
           "data": "19/06/2026",
           "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "produto": "WHISKY WHITE HORSE - 500ML",
           "fantasia": "DIAGEO",
           "qt": 180,
@@ -268964,7 +269184,7 @@ const VENDAS_DATA = {
         {
           "data": "19/06/2026",
           "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "produto": "GIN TANQUERAY  750 ML",
           "fantasia": "DIAGEO",
           "qt": 720,
@@ -268974,61 +269194,11 @@ const VENDAS_DATA = {
         {
           "data": "19/06/2026",
           "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "produto": "VODKA ABSOLUT 1L",
           "fantasia": "PERNOD",
           "qt": 960,
           "valor": 49824.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
-          "produto": "WHISKY ROYAL SALUTE 700ML",
-          "fantasia": "PERNOD",
-          "qt": 30,
-          "valor": 16470.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
-          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 1344,
-          "valor": 11961.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
-          "produto": "WHISKY CHANCELER 1L",
-          "fantasia": "CRS BRANDS",
-          "qt": 600,
-          "valor": 7470.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "fantasia": "HENNESSY",
-          "qt": 240,
-          "valor": 16296.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
-          "produto": "CHANDON PASSION ON ICE 750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 120,
-          "valor": 14400.0,
           "tipo": "Venda"
         }
       ],
