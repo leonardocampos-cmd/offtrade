@@ -1,11 +1,31 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "29/06/2026 09:14",
+  "atualizado_em": "29/06/2026 10:01",
   "data_rota": "29.06",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "431001090",
+          "numnota": "",
+          "data": "29/06/2026",
+          "cliente": "RESTAURANTE FRIOMENSAO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 324.0,
+          "itens": [
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 24,
+              "val": 324.0
+            }
+          ]
+        },
         {
           "numped": "431001057",
           "numnota": "",
@@ -3279,6 +3299,61 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [],
       "emitido_s_rota": [
+        {
+          "numped": "174000043",
+          "numnota": "6255.0",
+          "data": "29/06/2026",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 50127.6,
+          "itens": [
+            {
+              "desc": "AGUARDENTE OLD CESAR 88 965 ML",
+              "qt": 1344,
+              "val": 11961.6
+            },
+            {
+              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+              "qt": 240,
+              "val": 16296.0
+            },
+            {
+              "desc": "CHANDON PASSION ON ICE 750 ML",
+              "qt": 120,
+              "val": 14400.0
+            },
+            {
+              "desc": "WHISKY CHANCELER 1L",
+              "qt": 600,
+              "val": 7470.0
+            }
+          ]
+        },
+        {
+          "numped": "174000044",
+          "numnota": "407274.0",
+          "data": "29/06/2026",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 16470.0,
+          "itens": [
+            {
+              "desc": "WHISKY ROYAL SALUTE 700ML",
+              "qt": 30,
+              "val": 16470.0
+            }
+          ]
+        },
         {
           "numped": "174000039",
           "numnota": "405008.0",
@@ -15358,6 +15433,31 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "378000451",
+          "numnota": "",
+          "data": "29/06/2026",
+          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 272.7,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 3,
+              "val": 83.7
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 3,
+              "val": 189.0
+            }
+          ]
+        },
+        {
           "numped": "378000450",
           "numnota": "",
           "data": "29/06/2026",
@@ -15371,14 +15471,14 @@ const ENTREGAS_DATA = {
           "total": 258.66,
           "itens": [
             {
-              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
-              "qt": 1,
-              "val": 78.9
-            },
-            {
               "desc": "RED BULL 24X250ML",
               "qt": 1,
               "val": 179.76
+            },
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 1,
+              "val": 78.9
             }
           ]
         },
@@ -22803,6 +22903,26 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "379001168",
+          "numnota": "",
+          "data": "29/06/2026",
+          "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 31.9,
+          "itens": [
+            {
+              "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+              "qt": 1,
+              "val": 31.9
+            }
+          ]
+        },
+        {
           "numped": "379001164",
           "numnota": "",
           "data": "29/06/2026",
@@ -22821,14 +22941,14 @@ const ENTREGAS_DATA = {
               "val": 199.5
             },
             {
-              "desc": "RC ATUM RALADO NATURAL 24X140G",
-              "qt": 1,
-              "val": 141.6
-            },
-            {
               "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
               "qt": 1,
               "val": 199.5
+            },
+            {
+              "desc": "RC ATUM RALADO NATURAL 24X140G",
+              "qt": 1,
+              "val": 141.6
             }
           ]
         },
@@ -22849,6 +22969,51 @@ const ENTREGAS_DATA = {
               "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
               "qt": 6,
               "val": 539.4
+            }
+          ]
+        },
+        {
+          "numped": "379001167",
+          "numnota": "",
+          "data": "29/06/2026",
+          "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 88.7,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 1,
+              "val": 88.7
+            }
+          ]
+        },
+        {
+          "numped": "379001166",
+          "numnota": "",
+          "data": "29/06/2026",
+          "cliente": "49.561.278 MARIA LUCIENE AUGUSTO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 267.3,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 1,
+              "val": 89.9
+            },
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 2,
+              "val": 177.4
             }
           ]
         },
