@@ -1,11 +1,56 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "29/06/2026 10:01",
+  "atualizado_em": "29/06/2026 11:01",
   "data_rota": "29.06",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "431001091",
+          "numnota": "",
+          "data": "29/06/2026",
+          "cliente": "WALLAF DA SILVA MENEZES GOMES MERCADO E PADARIA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 304.04,
+          "itens": [
+            {
+              "desc": "GIN ROCKS 1000ML",
+              "qt": 1,
+              "val": 25.9
+            },
+            {
+              "desc": "GIN ROCKS SUNSET 1000ML",
+              "qt": 1,
+              "val": 25.9
+            },
+            {
+              "desc": "NECTAR PESSEGO 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "GIN ROCKS GREEN APPLE 1000ML",
+              "qt": 1,
+              "val": 25.9
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            }
+          ]
+        },
         {
           "numped": "431001090",
           "numnota": "",
@@ -3300,65 +3345,10 @@ const ENTREGAS_DATA = {
       "nao_emitido": [],
       "emitido_s_rota": [
         {
-          "numped": "174000043",
-          "numnota": "6255.0",
-          "data": "29/06/2026",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 50127.6,
-          "itens": [
-            {
-              "desc": "AGUARDENTE OLD CESAR 88 965 ML",
-              "qt": 1344,
-              "val": 11961.6
-            },
-            {
-              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-              "qt": 240,
-              "val": 16296.0
-            },
-            {
-              "desc": "CHANDON PASSION ON ICE 750 ML",
-              "qt": 120,
-              "val": 14400.0
-            },
-            {
-              "desc": "WHISKY CHANCELER 1L",
-              "qt": 600,
-              "val": 7470.0
-            }
-          ]
-        },
-        {
-          "numped": "174000044",
-          "numnota": "407274.0",
-          "data": "29/06/2026",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 16470.0,
-          "itens": [
-            {
-              "desc": "WHISKY ROYAL SALUTE 700ML",
-              "qt": 30,
-              "val": 16470.0
-            }
-          ]
-        },
-        {
           "numped": "174000039",
           "numnota": "405008.0",
           "data": "19/06/2026",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "placa": "",
           "rota": "",
           "status_ped": "",
@@ -3393,7 +3383,7 @@ const ENTREGAS_DATA = {
           "numped": "174000041",
           "numnota": "405082.0",
           "data": "19/06/2026",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "placa": "",
           "rota": "",
           "status_ped": "",
@@ -3413,7 +3403,7 @@ const ENTREGAS_DATA = {
           "numped": "174000037",
           "numnota": "402243.0",
           "data": "10/06/2026",
-          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "cliente": "HSS FOODS DISTRIBUIDORA",
           "placa": "",
           "rota": "",
           "status_ped": "",
@@ -15432,6 +15422,71 @@ const ENTREGAS_DATA = {
       "nome": "FABIO VALOTTI - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "378000452",
+          "numnota": "",
+          "data": "29/06/2026",
+          "cliente": "SAO VICENTE COMERCIO DE CEREAIS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 298.02,
+          "itens": [
+            {
+              "desc": "VEJA PERF CON LAVANDA 12X100ML",
+              "qt": 1,
+              "val": 72.12
+            },
+            {
+              "desc": "NECTAR LARANJA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "MOVING PROTEIN AGUA DE COCO 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+              "qt": 1,
+              "val": 78.41
+            }
+          ]
+        },
+        {
+          "numped": "378000453",
+          "numnota": "",
+          "data": "29/06/2026",
+          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 979.2,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 5,
+              "val": 326.4
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+              "qt": 5,
+              "val": 326.4
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 5,
+              "val": 326.4
+            }
+          ]
+        },
         {
           "numped": "378000451",
           "numnota": "",
