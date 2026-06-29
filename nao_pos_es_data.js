@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "29/06/2026 16:13",
+  "atualizado_em": "29/06/2026 16:23",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -2203,6 +2203,13 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "95534",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "IPANEMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "95525",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
@@ -2213,13 +2220,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "95536",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95534",
-        "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "IPANEMA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4770,30 +4770,23 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "93384",
-        "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "SANTISSIMO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "93385",
+        "codcli": "93381",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "93382",
+        "codcli": "93389",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "CURICICA",
+        "bairro": "IRAJA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "93380",
+        "codcli": "93388",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "KM 32",
+        "bairro": "VARGEM PEQUENA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4812,9 +4805,23 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "93388",
+        "codcli": "93380",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "VARGEM PEQUENA",
+        "bairro": "KM 32",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "93383",
+        "cliente": "SUPERMERCADOS ADONAI LTDA",
+        "bairro": "CAMPO GRANDE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "93379",
+        "cliente": "SUPERMERCADOS ADONAI LTDA",
+        "bairro": "COSMOS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4833,30 +4840,23 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "93379",
-        "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "COSMOS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "93383",
+        "codcli": "93385",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "93381",
+        "codcli": "93382",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "CAMPO GRANDE",
+        "bairro": "CURICICA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "93389",
+        "codcli": "93384",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "IRAJA",
+        "bairro": "SANTISSIMO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5708,16 +5708,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "81700",
+        "codcli": "74864",
         "cliente": "AUTO SERVICO FAE LTDA",
-        "bairro": "ITAPUA",
+        "bairro": "SOTECO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "74864",
+        "codcli": "81700",
         "cliente": "AUTO SERVICO FAE LTDA",
-        "bairro": "SOTECO",
+        "bairro": "ITAPUA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5855,9 +5855,23 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "81690",
+        "cliente": "PARMA COMERCIAL LTDA",
+        "bairro": "PORTO DE SANTANA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "81677",
         "cliente": "PARMA COMERCIAL LTDA",
         "bairro": "SANTA INES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "81696",
+        "cliente": "PARMA COMERCIAL LTDA",
+        "bairro": "PORTO NOVO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5869,13 +5883,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "81679",
-        "cliente": "PARMA COMERCIAL LTDA",
-        "bairro": "FLEXAL I",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "81678",
         "cliente": "PARMA COMERCIAL LTDA",
         "bairro": "CAMPO GRANDE",
@@ -5883,16 +5890,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "81690",
+        "codcli": "81679",
         "cliente": "PARMA COMERCIAL LTDA",
-        "bairro": "PORTO DE SANTANA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "81696",
-        "cliente": "PARMA COMERCIAL LTDA",
-        "bairro": "PORTO NOVO",
+        "bairro": "FLEXAL I",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6026,13 +6026,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "76074",
-        "cliente": "DRIFT COM. DE ALIMENTOS SA",
-        "bairro": "COLINA DE LARANJEIRAS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "76076",
         "cliente": "DRIFT COM. DE ALIMENTOS SA",
         "bairro": "SANTA LUCIA",
@@ -6040,9 +6033,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "76075",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-        "bairro": "JARDIM DA PENHA",
+        "codcli": "76074",
+        "cliente": "DRIFT COM. DE ALIMENTOS SA",
+        "bairro": "COLINA DE LARANJEIRAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6061,9 +6054,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "21217",
+        "codcli": "76075",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-        "bairro": "SHELL",
+        "bairro": "JARDIM DA PENHA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6075,16 +6068,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "74418",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "CARIACICA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "82537",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "JARDIM CAMBURI",
+        "codcli": "21217",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+        "bairro": "SHELL",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6096,16 +6082,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "76072",
+        "codcli": "82537",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "ITAPUÃ",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "82540",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "PRAIA DE ITAPARICA",
+        "bairro": "JARDIM CAMBURI",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6124,13 +6103,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91463",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "BARRA DO JUCU",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "76073",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
         "bairro": "PRAIA DA COSTA",
@@ -6145,9 +6117,37 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "76072",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "bairro": "ITAPUÃ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "82540",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "bairro": "PRAIA DE ITAPARICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "82539",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
         "bairro": "CAMPO GRANDE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91463",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "bairro": "BARRA DO JUCU",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "74418",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "bairro": "CARIACICA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6180,6 +6180,118 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "85401",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "CARLOS GERMANO NAUMANN",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85432",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "MOVELAR",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85402",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "DAS LARANJEIRAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85424",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "BARRO VERMELHO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85428",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "MARACANA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "82283",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "ALTO MARATAIZES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85438",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "PRAIA DA COSTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85418",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "SANTA LÚCIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85403",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "COLINA DE LARANJEIRAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85425",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "CONSOLAÇÃO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85400",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "PEDRA D'ÁGUA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85420",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "JARDIM DA PENHA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85410",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "ITAPUA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85434",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "MARBRASA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85435",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85440",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "SÃO PATRÍCIO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "85426",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "JARDIM AMERICA",
@@ -6208,13 +6320,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "94326",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "VILA CAPIXABA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "85427",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "CAMPO GRANDE",
@@ -6225,6 +6330,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "85416",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "ILHA DE SANTA MARIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "94326",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "VILA CAPIXABA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6264,13 +6376,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91293",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "MARCÍLIO DE NORONHA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "85433",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "SHELL",
@@ -6281,6 +6386,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "85429",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "SAO FRANCISCO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91293",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "MARCÍLIO DE NORONHA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6316,118 +6428,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "94324",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "SÃO DIOGO II",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85435",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85440",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "SÃO PATRÍCIO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85434",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "MARBRASA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85400",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "PEDRA D'ÁGUA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85410",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "ITAPUA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85420",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "JARDIM DA PENHA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85425",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "CONSOLAÇÃO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85428",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "MARACANA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85432",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "MOVELAR",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85403",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "COLINA DE LARANJEIRAS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85418",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "SANTA LÚCIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85438",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "PRAIA DA COSTA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "82283",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "ALTO MARATAIZES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85401",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "CARLOS GERMANO NAUMANN",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85402",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "DAS LARANJEIRAS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85424",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "BARRO VERMELHO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6992,14 +6992,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "93650",
+        "codcli": "77557",
         "cliente": "COBATA COMERCIO E DISTRIBUICAO LTDA",
         "bairro": "TERMINAL INTERMODAL DA SERRA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "77557",
+        "codcli": "93650",
         "cliente": "COBATA COMERCIO E DISTRIBUICAO LTDA",
         "bairro": "TERMINAL INTERMODAL DA SERRA",
         "dtultcomp": "nan",
@@ -7370,14 +7370,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95195",
+        "codcli": "95194",
         "cliente": "SUPERMERCADO E PADARIA TRARBACH LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "95194",
+        "codcli": "95195",
         "cliente": "SUPERMERCADO E PADARIA TRARBACH LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -7412,16 +7412,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "81442",
+        "codcli": "81441",
         "cliente": "SUPERMERCADO SUPER TOP LTDA",
-        "bairro": "PONTO ALTO",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "81441",
+        "codcli": "81442",
         "cliente": "SUPERMERCADO SUPER TOP LTDA",
-        "bairro": "CENTRO",
+        "bairro": "PONTO ALTO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8558,16 +8558,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "94198",
+        "codcli": "84218",
         "cliente": "CANGURU ALIMENTOS LTDA",
-        "bairro": "MORADA DE LARANJEIRAS",
+        "bairro": "PRAIA DA BALEIA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "84218",
+        "codcli": "94198",
         "cliente": "CANGURU ALIMENTOS LTDA",
-        "bairro": "PRAIA DA BALEIA",
+        "bairro": "MORADA DE LARANJEIRAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10713,16 +10713,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "20947",
+        "codcli": "20950",
         "cliente": "SUPERMERCADOS CALVI LTDA",
-        "bairro": "VILA PALESTINA",
+        "bairro": "COBILANDIA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "20950",
+        "codcli": "20947",
         "cliente": "SUPERMERCADOS CALVI LTDA",
-        "bairro": "COBILANDIA",
+        "bairro": "VILA PALESTINA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11357,6 +11357,41 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "92003",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "PAVUNA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91982",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "SANTO CRISTO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91991",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "AMENDOEIRA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91986",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "VILAR DOS TELES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91985",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "BANGU",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "91987",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "CENTRO",
@@ -11406,13 +11441,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91998",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "91994",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "REALENGO",
@@ -11420,7 +11448,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91992",
+        "codcli": "92004",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91990",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -11434,51 +11469,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91990",
+        "codcli": "91998",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "92004",
+        "codcli": "91992",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91982",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "SANTO CRISTO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "92003",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "PAVUNA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91991",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "AMENDOEIRA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91985",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "BANGU",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91986",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "VILAR DOS TELES",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11490,16 +11490,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "90414",
+        "codcli": "90410",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "INHAUMA",
+        "bairro": "ENGENHO DO MATO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "90410",
+        "codcli": "90414",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "ENGENHO DO MATO",
+        "bairro": "INHAUMA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11518,9 +11518,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91197",
+        "codcli": "91842",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-        "bairro": "LOTE XV",
+        "bairro": "BARRETO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11532,23 +11532,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "94295",
+        "codcli": "91197",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-        "bairro": "SANTA CRUZ DA SERRA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91842",
-        "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-        "bairro": "BARRETO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91840",
-        "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-        "bairro": "CAMPO GRANDE",
+        "bairro": "LOTE XV",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11556,6 +11542,20 @@ const NAO_POS_ES_DATA = {
         "codcli": "93451",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
         "bairro": "PORTO NOVO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "94295",
+        "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+        "bairro": "SANTA CRUZ DA SERRA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91840",
+        "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+        "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -11634,6 +11634,13 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "76414",
+        "cliente": "BR SUPERMERCADOS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "81682",
         "cliente": "BR SUPERMERCADOS LTDA",
         "bairro": "CENTRO",
@@ -11642,13 +11649,6 @@ const NAO_POS_ES_DATA = {
       },
       {
         "codcli": "81693",
-        "cliente": "BR SUPERMERCADOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "76414",
         "cliente": "BR SUPERMERCADOS LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -11886,9 +11886,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "83759",
+        "codcli": "83764",
         "cliente": "SUPERMERCADO IMPERIAL LTDA",
-        "bairro": "ALTO UNIÃO",
+        "bairro": "MONTE BELO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11900,9 +11900,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "83764",
+        "codcli": "83759",
         "cliente": "SUPERMERCADO IMPERIAL LTDA",
-        "bairro": "MONTE BELO",
+        "bairro": "ALTO UNIÃO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11914,16 +11914,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "94779",
+        "codcli": "82281",
         "cliente": "SUPERMERCADO JUCY LTDA",
-        "bairro": "PARQUE DAS LARANJEIRAS",
+        "bairro": "ALVORADA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "82281",
+        "codcli": "94779",
         "cliente": "SUPERMERCADO JUCY LTDA",
-        "bairro": "ALVORADA",
+        "bairro": "PARQUE DAS LARANJEIRAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11983,6 +11983,32 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "74405",
+        "cliente": "DOM ATACAREJO S.A.",
+        "bairro": "SENADOR VASCONCELOS",
+        "dtultcomp": "05/07/2025",
+        "produtos": [
+          {
+            "produto": "WHISKY JIM BEAM APPLE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 36,
+            "valor": 2880.0
+          },
+          {
+            "produto": "WHISKY JIM BEAM HONEY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 24,
+            "valor": 1920.0
+          },
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 24,
+            "valor": 1920.0
+          }
+        ]
+      },
+      {
         "codcli": "79593",
         "cliente": "DOM ATACAREJO S.A.",
         "bairro": "JARDIM ALIANCA",
@@ -12009,9 +12035,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "74405",
+        "codcli": "79595",
         "cliente": "DOM ATACAREJO S.A.",
-        "bairro": "SENADOR VASCONCELOS",
+        "bairro": "PARQUE PECUARIA",
         "dtultcomp": "05/07/2025",
         "produtos": [
           {
@@ -12061,35 +12087,23 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "79595",
+        "codcli": "74402",
         "cliente": "DOM ATACAREJO S.A.",
-        "bairro": "PARQUE PECUARIA",
-        "dtultcomp": "05/07/2025",
+        "bairro": "CIDADE NOVA",
+        "dtultcomp": "22/07/2025",
         "produtos": [
           {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 36,
-            "valor": 2880.0
-          },
-          {
-            "produto": "WHISKY JIM BEAM HONEY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 24,
-            "valor": 1920.0
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 24,
-            "valor": 1920.0
+            "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "fantasia": "CASA PERINI",
+            "qt": 90,
+            "valor": 3141.0
           }
         ]
       },
       {
-        "codcli": "74402",
+        "codcli": "74411",
         "cliente": "DOM ATACAREJO S.A.",
-        "bairro": "CIDADE NOVA",
+        "bairro": "VENDA VELHA",
         "dtultcomp": "22/07/2025",
         "produtos": [
           {
@@ -12121,20 +12135,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "74411",
-        "cliente": "DOM ATACAREJO S.A.",
-        "bairro": "VENDA VELHA",
-        "dtultcomp": "22/07/2025",
-        "produtos": [
-          {
-            "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-            "fantasia": "CASA PERINI",
-            "qt": 90,
-            "valor": 3141.0
-          }
-        ]
-      },
-      {
         "codcli": "79591",
         "cliente": "DOM ATACAREJO S.A.",
         "bairro": "PARQUE CALABOUCO",
@@ -12161,9 +12161,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "74406",
+        "codcli": "74400",
         "cliente": "DOM ATACAREJO S.A.",
-        "bairro": "CAMPO REDONDO",
+        "bairro": "VILA SAO LUIS",
         "dtultcomp": "31/07/2025",
         "produtos": [
           {
@@ -12173,16 +12173,16 @@ const NAO_POS_ES_DATA = {
             "valor": 1047.0
           },
           {
-            "produto": "ESPUM CASA PERINI BRUT 750ML",
-            "fantasia": "CASA PERINI",
-            "qt": 6,
-            "valor": 209.4
-          },
-          {
             "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
             "fantasia": "CASA PERINI",
-            "qt": 12,
-            "valor": 418.8
+            "qt": 30,
+            "valor": 1047.0
+          },
+          {
+            "produto": "GIN LARIOS ORIGINAL 700ML",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 24,
+            "valor": 1044.0
           }
         ]
       },
@@ -12219,32 +12219,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "74400",
-        "cliente": "DOM ATACAREJO S.A.",
-        "bairro": "VILA SAO LUIS",
-        "dtultcomp": "31/07/2025",
-        "produtos": [
-          {
-            "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-            "fantasia": "CASA PERINI",
-            "qt": 30,
-            "valor": 1047.0
-          },
-          {
-            "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-            "fantasia": "CASA PERINI",
-            "qt": 30,
-            "valor": 1047.0
-          },
-          {
-            "produto": "GIN LARIOS ORIGINAL 700ML",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 24,
-            "valor": 1044.0
-          }
-        ]
-      },
-      {
         "codcli": "74378",
         "cliente": "DOM ATACAREJO S.A.",
         "bairro": "REALENGO",
@@ -12269,6 +12243,32 @@ const NAO_POS_ES_DATA = {
             "fantasia": "CASA PERINI",
             "qt": 18,
             "valor": 628.2
+          }
+        ]
+      },
+      {
+        "codcli": "74406",
+        "cliente": "DOM ATACAREJO S.A.",
+        "bairro": "CAMPO REDONDO",
+        "dtultcomp": "31/07/2025",
+        "produtos": [
+          {
+            "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "fantasia": "CASA PERINI",
+            "qt": 30,
+            "valor": 1047.0
+          },
+          {
+            "produto": "ESPUM CASA PERINI BRUT 750ML",
+            "fantasia": "CASA PERINI",
+            "qt": 6,
+            "valor": 209.4
+          },
+          {
+            "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+            "fantasia": "CASA PERINI",
+            "qt": 12,
+            "valor": 418.8
           }
         ]
       },
@@ -12499,9 +12499,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "84030",
+        "codcli": "84032",
         "cliente": "KETEK COMERCIAL LTDA",
-        "bairro": "JARDIM AMÁLIA",
+        "bairro": "VILA ISABEL",
         "dtultcomp": "11/11/2025",
         "produtos": [
           {
@@ -12567,9 +12567,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "84032",
+        "codcli": "84030",
         "cliente": "KETEK COMERCIAL LTDA",
-        "bairro": "VILA ISABEL",
+        "bairro": "JARDIM AMÁLIA",
         "dtultcomp": "11/11/2025",
         "produtos": [
           {
@@ -12821,7 +12821,28 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "83974",
+        "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+        "bairro": "PALHADA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "94819",
+        "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "83976",
+        "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+        "bairro": "ROSA DOS VENTOS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95519",
         "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -12842,30 +12863,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "83995",
+        "codcli": "83986",
         "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-        "bairro": "VALVERDE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "83976",
-        "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-        "bairro": "ROSA DOS VENTOS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "83974",
-        "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-        "bairro": "PALHADA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "83970",
-        "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-        "bairro": "CENTRO",
+        "bairro": "AUSTIN",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -12877,16 +12877,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "83986",
+        "codcli": "83970",
         "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-        "bairro": "AUSTIN",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "95519",
+        "codcli": "83995",
         "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VALVERDE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -12947,13 +12947,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "84011",
-        "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "COMERCIAL",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "84014",
         "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
         "bairro": "SESSENTA",
@@ -12961,9 +12954,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "84017",
-        "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
-        "bairro": "SAO LUCAS",
+        "codcli": "84011",
+        "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "COMERCIAL",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -12971,6 +12964,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "81298",
         "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "84017",
+        "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
+        "bairro": "SAO LUCAS",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -13859,9 +13859,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "82381",
+        "codcli": "82380",
         "cliente": "VBBR CONVENIENCIA S. A.",
-        "bairro": "CIDADE NOVA",
+        "bairro": "CENTRO",
         "dtultcomp": "25/05/2026",
         "produtos": [
           {
@@ -13885,9 +13885,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "82380",
+        "codcli": "82381",
         "cliente": "VBBR CONVENIENCIA S. A.",
-        "bairro": "CENTRO",
+        "bairro": "CIDADE NOVA",
         "dtultcomp": "25/05/2026",
         "produtos": [
           {
@@ -14187,38 +14187,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "74981",
-        "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
-        "bairro": "L PRAIA ITINGA",
-        "dtultcomp": "27/05/2026",
-        "produtos": [
-          {
-            "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-            "fantasia": "RECKITT",
-            "qt": 3,
-            "valor": 195.84
-          },
-          {
-            "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-            "fantasia": "RECKITT",
-            "qt": 1,
-            "valor": 65.28
-          },
-          {
-            "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-            "fantasia": "RECKITT",
-            "qt": 2,
-            "valor": 130.56
-          },
-          {
-            "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-            "fantasia": "RECKITT",
-            "qt": 3,
-            "valor": 195.84
-          }
-        ]
-      },
-      {
         "codcli": "61399",
         "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
         "bairro": "SANTA RITA DO BRACUI (CUNHAMBEBE)",
@@ -14247,6 +14215,38 @@ const NAO_POS_ES_DATA = {
             "fantasia": "RECKITT",
             "qt": 6,
             "valor": 391.68
+          }
+        ]
+      },
+      {
+        "codcli": "74981",
+        "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+        "bairro": "L PRAIA ITINGA",
+        "dtultcomp": "27/05/2026",
+        "produtos": [
+          {
+            "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+            "fantasia": "RECKITT",
+            "qt": 3,
+            "valor": 195.84
+          },
+          {
+            "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+            "fantasia": "RECKITT",
+            "qt": 1,
+            "valor": 65.28
+          },
+          {
+            "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+            "fantasia": "RECKITT",
+            "qt": 2,
+            "valor": 130.56
+          },
+          {
+            "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+            "fantasia": "RECKITT",
+            "qt": 3,
+            "valor": 195.84
           }
         ]
       },
@@ -14819,56 +14819,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94886",
-        "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "VISTA ALEGRE",
-        "dtultcomp": "15/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MORANGO PESSEGO",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "4 PACK RED BULL SF AMORA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "4 PACK RED BULL SF POMELO 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "RED BULL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 196.56
-          },
-          {
-            "produto": "RED BULL ZERO  24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 196.56
-          }
-        ]
-      },
-      {
         "codcli": "94882",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
         "bairro": "MADUREIRA",
@@ -14912,6 +14862,56 @@ const NAO_POS_ES_DATA = {
           },
           {
             "produto": "RED BULL SUGAR FREE 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 196.56
+          }
+        ]
+      },
+      {
+        "codcli": "94886",
+        "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+        "bairro": "VISTA ALEGRE",
+        "dtultcomp": "15/05/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MORANGO PESSEGO",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "4 PACK RED BULL SF AMORA",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "RED BULL 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 196.56
+          },
+          {
+            "produto": "RED BULL ZERO  24X250ML",
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 196.56
@@ -16316,16 +16316,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "94126",
+        "codcli": "85951",
         "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VILA NOVA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "85951",
+        "codcli": "94126",
         "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-        "bairro": "VILA NOVA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16379,16 +16379,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "71515",
+        "codcli": "71539",
         "cliente": "ORIUNDI SUPERMERCADOS LTDA",
-        "bairro": "SEGATO",
+        "bairro": "TRES BARRAS",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "71539",
+        "codcli": "71515",
         "cliente": "ORIUNDI SUPERMERCADOS LTDA",
-        "bairro": "TRES BARRAS",
+        "bairro": "SEGATO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16591,16 +16591,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "79816",
+        "codcli": "93855",
         "cliente": "RONDELLI COMERCIO E TRANSPORTE LTDA",
-        "bairro": "SANTA LUZIA",
+        "bairro": "SERNAMBY",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "93855",
+        "codcli": "79816",
         "cliente": "RONDELLI COMERCIO E TRANSPORTE LTDA",
-        "bairro": "SERNAMBY",
+        "bairro": "SANTA LUZIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16959,16 +16959,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "92292",
+        "codcli": "92290",
         "cliente": "DALLE LANCHES LTDA",
-        "bairro": "SANTA CECILIA",
+        "bairro": "BONFIM",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "92290",
+        "codcli": "92292",
         "cliente": "DALLE LANCHES LTDA",
-        "bairro": "BONFIM",
+        "bairro": "SANTA CECILIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -17274,14 +17274,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "80454",
+        "codcli": "80453",
         "cliente": "PADARIA PAO DIVINO LTDA",
         "bairro": "JARDIM CAMBURI",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "80453",
+        "codcli": "80454",
         "cliente": "PADARIA PAO DIVINO LTDA",
         "bairro": "JARDIM CAMBURI",
         "dtultcomp": "nan",
