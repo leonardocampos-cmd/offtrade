@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/06/2026 12:01",
+  "atualizado_em": "29/06/2026 13:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -317616,6 +317616,26 @@ const VENDAS_DATA = {
           "qt": 130,
           "valor": 12448.8,
           "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 144,
+          "valor": 14961.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "6940",
+          "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "AURORA",
+          "qt": 240,
+          "valor": 24936.0,
+          "tipo": "Venda"
         }
       ],
       "Jan/26": [
@@ -457036,46 +457056,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "24/06/2026",
-          "codcli": "39694",
-          "cliente": "SUPERMERCADO FLAMENGO LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 1198.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "39694",
-          "cliente": "SUPERMERCADO FLAMENGO LTDA",
-          "produto": "VODKA ABSOLUT 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1293.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "39694",
-          "cliente": "SUPERMERCADO FLAMENGO LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 77.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "39694",
-          "cliente": "SUPERMERCADO FLAMENGO LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 2,
-          "valor": 199.8,
-          "tipo": "Venda"
-        },
-        {
           "data": "11/06/2026",
           "codcli": "39698",
           "cliente": "BUENO DISTRIBUIDORA LTDA",
@@ -510322,36 +510302,6 @@ const VENDAS_DATA = {
           "codcli": "51248",
           "cliente": "EMILE SUPERMERCADOS LTDA",
           "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 107.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "51254",
-          "cliente": "MARCOS JUNIOR PEREIRA ALVES LEITE COMERCIO LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 2,
-          "valor": 199.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "51254",
-          "cliente": "MARCOS JUNIOR PEREIRA ALVES LEITE COMERCIO LTDA",
-          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
-          "fantasia": "BROWN",
-          "qt": 2,
-          "valor": 199.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "51254",
-          "cliente": "MARCOS JUNIOR PEREIRA ALVES LEITE COMERCIO LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
           "fantasia": "CRS BRANDS",
           "qt": 12,
           "valor": 107.88,
