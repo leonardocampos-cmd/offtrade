@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "29/06/2026 10:02",
+  "atualizado_em": "29/06/2026 11:02",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -1256,26 +1256,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "49458",
-        "cliente": "EXAMINE SUPERMERCADOS LTDA",
-        "bairro": "JARDIM ANHANGÜERA",
-        "dtultcomp": "16/04/2026",
-        "produtos": [
-          {
-            "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
-            "fantasia": "BROWN",
-            "qt": 4,
-            "valor": 599.6
-          },
-          {
-            "produto": "VODKA ABSOLUT ELYX 750ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 292.96
-          }
-        ]
-      },
-      {
         "codcli": "49455",
         "cliente": "EXAMINE SUPERMERCADOS LTDA",
         "bairro": "BAIRRO DO CASCALHO",
@@ -1366,6 +1346,26 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 1,
             "valor": 146.48
+          }
+        ]
+      },
+      {
+        "codcli": "49458",
+        "cliente": "EXAMINE SUPERMERCADOS LTDA",
+        "bairro": "JARDIM ANHANGÜERA",
+        "dtultcomp": "16/04/2026",
+        "produtos": [
+          {
+            "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
+            "fantasia": "BROWN",
+            "qt": 4,
+            "valor": 599.6
+          },
+          {
+            "produto": "VODKA ABSOLUT ELYX 750ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 292.96
           }
         ]
       },
@@ -1767,6 +1767,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "50813",
         "cliente": "52.498.810 JARDEL FRANK BARBOSA DOS SANTOS",
         "bairro": "VILA MASCOTE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50012",
+        "cliente": "JARDINEIRA GRILL LTDA",
+        "bairro": "VILA OLÍMPIA",
         "dtultcomp": "nan",
         "produtos": []
       }
