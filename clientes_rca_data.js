@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "29/06/2026 13:03",
-  "total": 4175,
+  "atualizado_em": "29/06/2026 16:14",
+  "total": 4176,
   "clientes": [
     {
       "codcli": "31683",
@@ -55162,6 +55162,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
+    },
+    {
+      "codcli": "82860",
+      "razao": "TARGET FOODS MERCADO E PADARIA LTDA",
+      "fantasia": "TARGET FOODS MERCADO E PADARIA",
+      "bairro": "PECHINCHA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "34.170.248/0001-12",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "49449",
