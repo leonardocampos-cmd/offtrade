@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "29/06/2026 09:15",
-  "total": 4151,
+  "atualizado_em": "29/06/2026 10:03",
+  "total": 4152,
   "clientes": [
     {
       "codcli": "31683",
@@ -58,6 +58,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "91201",
+      "razao": "18.650.905 CARMINDA LUCIA MARTINS DA SILVA",
+      "fantasia": "CARMINDA LUCIA MARTINS DA SILVA",
+      "bairro": "QUITANDINHA",
+      "cidade": "PETROPOLIS",
+      "cnpj": "18.650.905/0001-72",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "84962",
