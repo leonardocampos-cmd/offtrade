@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "29/06/2026 10:03",
-  "total": 4152,
+  "atualizado_em": "29/06/2026 11:03",
+  "total": 4155,
   "clientes": [
     {
       "codcli": "31683",
@@ -2044,6 +2044,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "OUTROS",
       "codusur1": "257",
       "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "86607",
+      "razao": "53.687.173 DIEGO FERREIRA PEREIRA DA SILVA",
+      "fantasia": "53.687.173 DIEGO FERREIRA PEREIRA DA SIL",
+      "bairro": "GAMBOA DO BELEM (CUNHAMBEBE)",
+      "cidade": "ANGRA DOS REIS",
+      "cnpj": "53.687.173/0001-96",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -6850,6 +6864,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANDRE MATTOS"
     },
     {
+      "codcli": "81946",
+      "razao": "ARM COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "ARM COMERCIO DE BEBIDAS",
+      "bairro": "UNAMAR (TAMOIOS)",
+      "cidade": "CABO FRIO",
+      "cnpj": "59.026.803/0001-68",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
+    },
+    {
       "codcli": "51321",
       "razao": "ARMANDO PINHEIRO RIBEIRO COMERCIO DE BEBIDAS E TRANSPORTES",
       "fantasia": "ARMANI",
@@ -7220,6 +7248,20 @@ const CLIENTES_RCA_DATA = {
       "bairro": "CENTRO",
       "cidade": "PARACAMBI",
       "cnpj": "29.310.554/0014-91",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "275",
+      "nome_usur1": "MARIA LUIZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "83972",
+      "razao": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+      "fantasia": "ATLAS DE IGUACU DISTRIBUIDORA",
+      "bairro": "JARDIM NOVA ERA",
+      "cidade": "NOVA IGUACU",
+      "cnpj": "29.310.554/0024-63",
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "275",
@@ -24714,20 +24756,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "50036",
-      "razao": "HSS FOODS DISTRIBUIDORA EIRELI",
-      "fantasia": "HSS FOODS DISTRIBUIDORA EIRELI",
-      "bairro": "RESIDENCIAL JARDIM CANEDO",
-      "cidade": "SENADOR CANEDO",
-      "cnpj": "38.090.430/0001-14",
-      "estado": "GO",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "codusur1": "174",
-      "nome_usur1": "ALLAN PAES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "78075",
       "razao": "HUNA BISTRO LTDA",
       "fantasia": "HUNA BISTRO",
@@ -26014,6 +26042,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "50012",
+      "razao": "JARDINEIRA GRILL LTDA",
+      "fantasia": "JARDINEIRA GRILL",
+      "bairro": "VILA OLÍMPIA",
+      "cidade": "SAO PAULO",
+      "cnpj": "00.471.860/0001-03",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "399",
+      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
+      "codusur2": "399",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "38743",
@@ -27904,6 +27946,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "170",
       "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
+    },
+    {
+      "codcli": "95542",
+      "razao": "KM 32 ALIMENTOS LTDA",
+      "fantasia": "KM 32 ALIMENTOS",
+      "bairro": "KM 32",
+      "cidade": "NOVA IGUACU",
+      "cnpj": "63.392.085/0001-10",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "379",
+      "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "22657",
@@ -56366,20 +56422,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ANDRE PINHEIRO - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "23070",
-      "razao": "VARANDA FRUTAS E MERCEARIA LTDA",
-      "fantasia": "VARANDA JARDIM",
-      "bairro": "CIDADE JARDIM",
-      "cidade": "SAO PAULO",
-      "cnpj": "62.498.365/0001-45",
-      "estado": "SP",
-      "ramo": "MERCADO",
-      "codusur1": "485",
-      "nome_usur1": "ANDRE PINHEIRO - OFF TRADE",
-      "codusur2": "429",
-      "nome_usur2": "WANDO MACHADO - OFF TRADE"
     },
     {
       "codcli": "50727",
