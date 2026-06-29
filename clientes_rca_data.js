@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "29/06/2026 12:03",
-  "total": 4171,
+  "atualizado_em": "29/06/2026 13:03",
+  "total": 4175,
   "clientes": [
     {
       "codcli": "31683",
@@ -6640,6 +6640,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "51383",
+      "razao": "ANTONIO EDUARDO RODRIGUES 07226797852",
+      "fantasia": "ANTONIO EDUARDO RODRIGUES",
+      "bairro": "JARDIM PLANALTO",
+      "cidade": "BOTUCATU",
+      "cnpj": "38.215.163/0001-64",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51224",
       "razao": "ANTONIO MACEDO DOS SANTOS BRITO",
       "fantasia": "MERCADO IDEAL",
@@ -6706,6 +6720,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "469",
       "nome_usur1": "PATRICIA RAMOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50766",
+      "razao": "APARECIDA FATIMA MARQUES MIRA 23712868855",
+      "fantasia": "APARECIDA FATIMA MARQUES MIRA",
+      "bairro": "VILA PAULISTA",
+      "cidade": "BOTUCATU",
+      "cnpj": "36.503.293/0001-77",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -10476,20 +10504,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
-      "codcli": "81818",
-      "razao": "BOTECO COPO FURADO LTDA",
-      "fantasia": "COPO FURADO - OLARIA",
-      "bairro": "OLARIA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "58.371.040/0001-20",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "codusur1": "431",
-      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "30439",
       "razao": "BOTECO DO RAO EIRELI",
       "fantasia": "BOTECO DO RAO EIRELI",
@@ -12500,8 +12514,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "27.751.320/0003-00",
       "estado": "ES",
       "ramo": "MERCADO",
-      "codusur1": "370",
-      "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
+      "codusur1": "388",
+      "nome_usur1": "EUDES MORGAN - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
@@ -21826,6 +21840,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "439",
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51384",
+      "razao": "FLOR DA PORCELANA BEBIDAS LTDA",
+      "fantasia": "FLOR DA PORCELANA BEBIDAS",
+      "bairro": "PARQUE BELA VISTA",
+      "cidade": "PEDREIRA",
+      "cnpj": "51.070.517/0001-98",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -40240,6 +40268,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "47510",
+      "razao": "NOVA ODESSA EVENTOS E DISTRIBUICAO LTDA",
+      "fantasia": "NOVA ODESSA EVENTOS E DISTRIBUICAO",
+      "bairro": "PARQUE INDUSTRIAL PROGRESSO",
+      "cidade": "NOVA ODESSA",
+      "cnpj": "58.557.814/0001-01",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "78158",
       "razao": "NOVA VIX DISTRIBUIDORA LTDA",
       "fantasia": "NOVA VIX DISTRIBUIDORA",
@@ -55636,6 +55678,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50770",
+      "razao": "TOP COMPRAS SUPERMERCADOS LTDA",
+      "fantasia": "TOP COMPRAS SUPERMERCADOS",
+      "bairro": "JARDIM YPÊ",
+      "cidade": "BOTUCATU",
+      "cnpj": "11.149.307/0001-75",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
