@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "29/06/2026 16:23",
+  "atualizado_em": "29/06/2026 17:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -197,8 +197,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 58591.42
       },
       "Jun/26": {
-        "fat": 167553.66,
-        "pos": 60,
+        "fat": 169118.34,
+        "pos": 61,
         "fat_ant": 175829.04
       }
     },
@@ -80803,6 +80803,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 7,
           "valor": 1401.12
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "37368",
+          "cliente": "C & R PADARIA E SUPERMERCADOS LTDA",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 418.8
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "37368",
+          "cliente": "C & R PADARIA E SUPERMERCADOS LTDA",
+          "produto": "YVY DESTILADO GIN MAR GF 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 367.08
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "37368",
+          "cliente": "C & R PADARIA E SUPERMERCADOS LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 12,
+          "valor": 778.8
         }
       ]
     },
