@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "29/06/2026 12:02",
+  "atualizado_em": "29/06/2026 13:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 296380.97,
-        "pos": 120,
+        "fat": 303816.51,
+        "pos": 122,
         "fat_ant": 312476.97
       }
     },
@@ -246,7 +246,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 65306.52
       },
       "Jun/26": {
-        "fat": 78130.9,
+        "fat": 80659.9,
         "pos": 59,
         "fat_ant": 111009.88
       }
@@ -49813,6 +49813,222 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 31.96
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "32769",
+          "cliente": "MOREIRAS BAR CLUBE LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 4,
+          "valor": 863.04
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "32769",
+          "cliente": "MOREIRAS BAR CLUBE LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "32769",
+          "cliente": "MOREIRAS BAR CLUBE LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 73.9
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "32769",
+          "cliente": "MOREIRAS BAR CLUBE LTDA",
+          "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 5,
+          "valor": 353.4
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "32769",
+          "cliente": "MOREIRAS BAR CLUBE LTDA",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 58.32
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "32769",
+          "cliente": "MOREIRAS BAR CLUBE LTDA",
+          "produto": "YVY DESTILADO GIN MAR GF 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 39.9
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "37430",
+          "cliente": "ALUGUEL DE KART MG LTDA",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 174.96
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "37430",
+          "cliente": "ALUGUEL DE KART MG LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 174.96
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "37430",
+          "cliente": "ALUGUEL DE KART MG LTDA",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 141.36
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 269.4
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV.",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 538.8
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 269.4
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 274.5
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 439.2
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARESTI EST SEL SAUV BLANC 750ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 439.2
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO FINCA FELIZ TESORO TTO MALBEC",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 299.8
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "HUMB. CANALE DENARIO SAUV. BLANC 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 399.0
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARCAIA ROSE 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 230.7
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO MARQUÉS DE TEJARES 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 231.6
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO CAVAS DE ORO CHARDONNAY 750ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 479.2
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 384.5
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 399.5
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO BRANCO AZUL VENTOZELO 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 359.6
         }
       ]
     },
@@ -94901,6 +95117,51 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 10,
           "valor": 189.0
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO ARCAIA ROSE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 479.4
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 419.4
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "HUMB. CANALE DENARIO RESERVA PINOT NOIR",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 569.4
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 599.4
         }
       ]
     },
