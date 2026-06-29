@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "29/06/2026 12:02",
+  "atualizado_em": "29/06/2026 13:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -35218,42 +35218,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 670.8
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "39694",
-          "cliente": "SUPERMERCADO FLAMENGO LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 1198.8
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "39694",
-          "cliente": "SUPERMERCADO FLAMENGO LTDA",
-          "produto": "VODKA ABSOLUT 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1293.6
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "39694",
-          "cliente": "SUPERMERCADO FLAMENGO LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 77.7
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "39694",
-          "cliente": "SUPERMERCADO FLAMENGO LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 2,
-          "valor": 199.8
         },
         {
           "data": "11/06/2026",
@@ -84319,33 +84283,6 @@ const VENDAS_SP_DATA = {
           "valor": 107.88
         },
         {
-          "data": "25/06/2026",
-          "codcli": "51254",
-          "cliente": "MARCOS JUNIOR PEREIRA ALVES LEITE COMERCIO LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 2,
-          "valor": 199.8
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "51254",
-          "cliente": "MARCOS JUNIOR PEREIRA ALVES LEITE COMERCIO LTDA",
-          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
-          "fantasia": "BROWN",
-          "qt": 2,
-          "valor": 199.8
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "51254",
-          "cliente": "MARCOS JUNIOR PEREIRA ALVES LEITE COMERCIO LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 107.88
-        },
-        {
           "data": "23/06/2026",
           "codcli": "51258",
           "cliente": "MARIA DO SOCORRO FIGUEIRA DA SILVA DE LIMA",
@@ -85873,17 +85810,17 @@ const VENDAS_SP_DATA = {
     },
     "CAROLINA SOUZA": {
       "Jun/26": {
-        "fat": 12688.04,
-        "pos": 12.0,
+        "fat": 12180.56,
+        "pos": 11.0,
         "fat_pernod": 8565.7,
-        "fat_crs": 2292.45
+        "fat_crs": 2184.57
       }
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2308431.15,
-        "pos": 152.0,
-        "fat_pernod": 1198219.03,
+        "fat": 2305661.25,
+        "pos": 151.0,
+        "fat_pernod": 1196847.73,
         "fat_crs": 38940.72
       },
       "Mai/26": {
