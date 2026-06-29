@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/06/2026 16:21",
+  "atualizado_em": "29/06/2026 17:00",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -134568,6 +134568,36 @@ const VENDAS_DATA = {
       ],
       "Jun/26": [
         {
+          "data": "29/06/2026",
+          "codcli": "1360",
+          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 5,
+          "valor": 326.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "1360",
+          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 5,
+          "valor": 326.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "1360",
+          "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 5,
+          "valor": 326.4,
+          "tipo": "Venda"
+        },
+        {
           "data": "09/06/2026",
           "codcli": "1189",
           "cliente": "DISTRIBUIDORA DE BEBIDAS E ALIMENTOS HUMAITA LTDA",
@@ -135415,6 +135445,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 175.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "94758",
+          "cliente": "COMERCIO DE HORTFRUTI IRMA LUCIA DE FATIMA CATETE 2025 LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 179.76,
           "tipo": "Venda"
         },
         {
@@ -269079,56 +269119,6 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 89,
           "valor": 5745.84,
-          "tipo": "Venda"
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA",
-          "produto": "WHISKY J WALKER RED LABEL 1L",
-          "fantasia": "DIAGEO",
-          "qt": 288,
-          "valor": 18403.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA",
-          "produto": "WHISKY J WALKER RED LABEL 1L",
-          "fantasia": "DIAGEO",
-          "qt": 1440,
-          "valor": 92016.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA",
-          "produto": "WHISKY WHITE HORSE - 500ML",
-          "fantasia": "DIAGEO",
-          "qt": 180,
-          "valor": 5364.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA",
-          "produto": "GIN TANQUERAY  750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 720,
-          "valor": 53928.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "50036",
-          "cliente": "HSS FOODS DISTRIBUIDORA",
-          "produto": "VODKA ABSOLUT 1L",
-          "fantasia": "PERNOD",
-          "qt": 960,
-          "valor": 49824.0,
           "tipo": "Venda"
         }
       ],
