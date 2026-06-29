@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "29/06/2026 16:23",
+  "atualizado_em": "29/06/2026 17:02",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -2777,9 +2777,9 @@ const NAO_POS_MG_DATA = {
     ],
     "LUIZ FERNANDO SALGADO": [
       {
-        "codcli": "39121",
+        "codcli": "39125",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "SÃO BENEDITO",
+        "bairro": "RENASCENÇA",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -2805,9 +2805,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39125",
+        "codcli": "39121",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "RENASCENÇA",
+        "bairro": "SÃO BENEDITO",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -2929,32 +2929,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 48,
             "valor": 1195.2
-          }
-        ]
-      },
-      {
-        "codcli": "37368",
-        "cliente": "C & R PADARIA E SUPERMERCADOS LTDA",
-        "bairro": "FUNCIONÁRIOS",
-        "dtultcomp": "05/05/2026",
-        "produtos": [
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 479.4
-          },
-          {
-            "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 356.7
-          },
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 213.6
           }
         ]
       },
@@ -4065,9 +4039,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -4085,9 +4059,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
