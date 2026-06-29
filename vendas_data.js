@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "29/06/2026 09:13",
+  "atualizado_em": "29/06/2026 10:01",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -268979,6 +268979,56 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 960,
           "valor": 49824.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "50036",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "produto": "WHISKY ROYAL SALUTE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 30,
+          "valor": 16470.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "50036",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 1344,
+          "valor": 11961.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "50036",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 600,
+          "valor": 7470.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "50036",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 240,
+          "valor": 16296.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "50036",
+          "cliente": "HSS FOODS DISTRIBUIDORA EIRELI",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 120,
+          "valor": 14400.0,
           "tipo": "Venda"
         }
       ],
