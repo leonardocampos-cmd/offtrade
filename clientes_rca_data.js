@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "29/06/2026 16:23",
-  "total": 4176,
+  "atualizado_em": "29/06/2026 17:02",
+  "total": 4179,
   "clientes": [
     {
       "codcli": "31683",
@@ -616,6 +616,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51389",
+      "razao": "34.140.120 FERNANDO CESAR BEZUTI JUNIOR",
+      "fantasia": "FERNANDO CESAR BEZUTI JUNIOR",
+      "bairro": "VILA PRUDENCIANA",
+      "cidade": "ASSIS",
+      "cnpj": "34.140.120/0001-06",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -18020,6 +18034,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "51388",
+      "razao": "DONNA MARIA SUPERMERCADOS LTDA",
+      "fantasia": "DONNA MARIA SUPERMERCADOS",
+      "bairro": "CENTRO",
+      "cidade": "AVARE",
+      "cnpj": "02.065.957/0003-03",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "477",
+      "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "33964",
@@ -47756,6 +47784,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "229",
       "nome_usur2": "LUIZA HASSEN"
+    },
+    {
+      "codcli": "51390",
+      "razao": "RENATO MENDES RICARDO 38780082874",
+      "fantasia": "RENATO MENDES RICARDO",
+      "bairro": "CAMPOS DE SÃO JOSÉ",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "12.943.552/0001-12",
+      "estado": "SP",
+      "ramo": "CAFETERIA",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "57640",
