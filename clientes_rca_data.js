@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "29/06/2026 17:02",
-  "total": 4179,
+  "atualizado_em": "30/06/2026 09:02",
+  "total": 4181,
   "clientes": [
     {
       "codcli": "31683",
@@ -23916,6 +23916,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51391",
+      "razao": "GUILHERME DE SOUZA MARTINS 34435854856",
+      "fantasia": "GUILHERME DE SOUZA MARTINS",
+      "bairro": "VILA SIMÕES",
+      "cidade": "IBITINGA",
+      "cnpj": "41.637.453/0001-00",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "498",
+      "nome_usur1": "CELSO OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "49851",
       "razao": "GUILHERME HONORIO DE CARVALHO",
       "fantasia": "EMPORIO 13",
@@ -25398,6 +25412,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51392",
+      "razao": "ITACIR MARQUES BAR",
+      "fantasia": "ITACIR MARQUES BAR",
+      "bairro": "JARDIM DAS PALMEIRAS",
+      "cidade": "VARZEA PAULISTA",
+      "cnpj": "62.093.901/0001-22",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "91045",
