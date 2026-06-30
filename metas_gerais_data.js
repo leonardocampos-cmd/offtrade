@@ -1,21 +1,21 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "30/06/2026 15:40",
+  "atualizado_em": "30/06/2026 16:52",
   "mes": "Jun/26",
   "dias_corridos": 30,
   "dias_no_mes": 30,
   "dias_restantes": 1,
   "resumo": {
-    "fat": 11256059.42,
+    "fat": 11280716.18,
     "fat_ant": 13065129.23,
-    "pos": 1732,
+    "pos": 1734,
     "pos_ant": 1796
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 11256059.42,
+    "fat": 11280716.18,
     "fat_ant": 13065129.23,
-    "pct": 78.2,
-    "nec_dia": 3143940.58
+    "pct": 78.3,
+    "nec_dia": 3119283.82
   },
   "estados": [
     {
@@ -33,11 +33,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 6600000.0,
-      "fat": 6426606.59,
+      "fat": 6430008.23,
       "fat_ant": 7120691.23,
-      "pos": 609,
+      "pos": 611,
       "pct": 97.4,
-      "nec_dia": 173393.41,
+      "nec_dia": 169991.77,
       "pos_ant": 475
     },
     {
@@ -55,22 +55,22 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 1337024.47,
+      "fat": 1358279.59,
       "fat_ant": 1663719.03,
       "pos": 284,
-      "pct": 63.7,
-      "nec_dia": 762975.53,
+      "pct": 64.7,
+      "nec_dia": 741720.41,
       "pos_ant": 325
     }
   ],
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 4204100.53,
+      "fat": 4204194.93,
       "fat_ant": 5291734.2,
       "por_estado": {
         "RJ": 128761.85,
-        "SP": 3933290.04,
+        "SP": 3933384.44,
         "ES": 142048.64,
         "MG": 0.0
       }
@@ -88,13 +88,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 1224737.02,
+      "fat": 1246054.0,
       "fat_ant": 1509191.19,
       "por_estado": {
         "RJ": 252.0,
-        "SP": 3732.81,
+        "SP": 3794.67,
         "ES": 37123.2,
-        "MG": 1183629.01
+        "MG": 1204884.13
       }
     },
     {
@@ -121,11 +121,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "AURORA",
-      "fat": 352946.89,
+      "fat": 353099.67,
       "fat_ant": 64630.92,
       "por_estado": {
         "RJ": 106051.03,
-        "SP": 246895.86,
+        "SP": 247048.64,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -143,11 +143,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 291871.34,
+      "fat": 292500.84,
       "fat_ant": 204266.66,
       "por_estado": {
         "RJ": 207615.96,
-        "SP": 84255.38,
+        "SP": 84884.88,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -165,11 +165,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "MOET HENNESY",
-      "fat": 213807.78,
+      "fat": 214893.63,
       "fat_ant": 80485.94,
       "por_estado": {
         "RJ": 0.0,
-        "SP": 213807.78,
+        "SP": 214893.63,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -242,11 +242,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CRS BRANDS",
-      "fat": 119482.69,
+      "fat": 120237.85,
       "fat_ant": 1261.86,
       "por_estado": {
         "RJ": 5839.62,
-        "SP": 113643.07,
+        "SP": 114398.23,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -286,11 +286,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "LUCIA",
-      "fat": 48029.77,
+      "fat": 48095.67,
       "fat_ant": 375052.96,
       "por_estado": {
         "RJ": 14516.77,
-        "SP": 33513.0,
+        "SP": 33578.9,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -451,11 +451,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "JURUPINGA",
-      "fat": 8150.38,
+      "fat": 8473.18,
       "fat_ant": 10519.49,
       "por_estado": {
         "RJ": 7541.06,
-        "SP": 609.32,
+        "SP": 932.12,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -517,11 +517,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "PERINI",
-      "fat": 2486.25,
+      "fat": 2719.65,
       "fat_ant": 53668.8,
       "por_estado": {
         "RJ": 0.0,
-        "SP": 2486.25,
+        "SP": 2719.65,
         "ES": 0.0,
         "MG": 0.0
       }
