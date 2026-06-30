@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "30/06/2026 09:02",
+  "atualizado_em": "30/06/2026 14:38",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 306660.43,
+        "fat": 311115.71,
         "pos": 123,
         "fat_ant": 312476.97
       }
@@ -197,7 +197,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 58591.42
       },
       "Jun/26": {
-        "fat": 169118.34,
+        "fat": 171744.34,
         "pos": 61,
         "fat_ant": 175829.04
       }
@@ -246,8 +246,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 65306.52
       },
       "Jun/26": {
-        "fat": 80659.9,
-        "pos": 59,
+        "fat": 81073.3,
+        "pos": 60,
         "fat_ant": 111009.88
       }
     },
@@ -50128,6 +50128,177 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 8,
           "valor": 199.2
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33223",
+          "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 3,
+          "valor": 269.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33223",
+          "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 3,
+          "valor": 269.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33223",
+          "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM CHERRY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 3,
+          "valor": 269.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33223",
+          "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 3,
+          "valor": 269.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 538.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "31812",
+          "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 54.9
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "31812",
+          "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+          "produto": "VINHO ARESTI EST SEL MERLOT 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "31812",
+          "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "31812",
+          "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 81.9
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33257",
+          "cliente": "F2 COMERCIO LTDA.",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 226.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33257",
+          "cliente": "F2 COMERCIO LTDA.",
+          "produto": "VINHO ARESTI EST SEL ROSE 187ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 113.4
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 179.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 209.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 230.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 230.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 239.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 599.4
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "36375",
+          "cliente": "ICARO FONSECA DOS SANTOS",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 3,
+          "valor": 431.28
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "36375",
+          "cliente": "ICARO FONSECA DOS SANTOS",
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9
         }
       ]
     },
@@ -80929,6 +81100,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "MSLR",
           "qt": 12,
           "valor": 778.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33955",
+          "cliente": "TAUA RESORT CAETE LTDA",
+          "produto": "WHISKY BALLANTINE'S FINEST 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 149.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33955",
+          "cliente": "TAUA RESORT CAETE LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1558.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33955",
+          "cliente": "TAUA RESORT CAETE LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 917.4
         }
       ]
     },
@@ -95288,6 +95486,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 599.4
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "34388",
+          "cliente": "MERCEARIA E BEBIDAS CAMPOS LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 413.4
         }
       ]
     },
