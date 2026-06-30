@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "30/06/2026 15:41",
+  "atualizado_em": "30/06/2026 16:53",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -73429,6 +73429,96 @@ const VENDAS_SP_DATA = {
           "valor": 1078.8
         },
         {
+          "data": "30/06/2026",
+          "codcli": "51169",
+          "cliente": "ROGERIO DAS NEVES BOITUVA",
+          "produto": "CASA PERINI DEMI-SEC ICE ROSE 750ML",
+          "fantasia": "PERINI",
+          "qt": 6,
+          "valor": 233.4
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51169",
+          "cliente": "ROGERIO DAS NEVES BOITUVA",
+          "produto": "VODKA BELVEDERE B10 700 ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 1,
+          "valor": 726.9
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51169",
+          "cliente": "ROGERIO DAS NEVES BOITUVA",
+          "produto": "VODKA BELVEDERE SMOGORY 700 ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 1,
+          "valor": 169.9
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51169",
+          "cliente": "ROGERIO DAS NEVES BOITUVA",
+          "produto": "VODKA BELVEDERE BARTEZEK 700 ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 1,
+          "valor": 189.05
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51169",
+          "cliente": "ROGERIO DAS NEVES BOITUVA",
+          "produto": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 104.9
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51169",
+          "cliente": "ROGERIO DAS NEVES BOITUVA",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 34.5
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51169",
+          "cliente": "ROGERIO DAS NEVES BOITUVA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
+          "qt": 1,
+          "valor": 65.9
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51169",
+          "cliente": "ROGERIO DAS NEVES BOITUVA",
+          "produto": "LICOR BANANINHA CARIOCA 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 61.86
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51169",
+          "cliente": "ROGERIO DAS NEVES BOITUVA",
+          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 47.88
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51169",
+          "cliente": "ROGERIO DAS NEVES BOITUVA",
+          "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 59.9
+        },
+        {
           "data": "27/06/2026",
           "codcli": "51330",
           "cliente": "CELESTRIM & JULIANI MINIMERCADO LTDA",
@@ -80518,6 +80608,15 @@ const VENDAS_SP_DATA = {
           "valor": 349.5
         },
         {
+          "data": "30/06/2026",
+          "codcli": "50804",
+          "cliente": "ADEGA DA TIA COMERCIO DE BEBIDAS LTDA",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "fantasia": "JURUPINGA",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
           "data": "11/06/2026",
           "codcli": "50989",
           "cliente": "ADEGA SOARES DEPOSITO DE BEBIDAS LTDA",
@@ -81056,6 +81155,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 12,
           "valor": 1198.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "50413",
+          "cliente": "ALEXANDRE APARECIDO STEFANI",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 60,
+          "valor": 539.4
         },
         {
           "data": "08/06/2026",
@@ -85352,6 +85460,33 @@ const VENDAS_SP_DATA = {
           "valor": 262.8
         },
         {
+          "data": "30/06/2026",
+          "codcli": "51381",
+          "cliente": "PINHEIRO & MAIA COMERCIO DE UTILIDADES LTDA",
+          "produto": "SMIRNOFF ICE 24X275ML LONG",
+          "fantasia": "DIAGEO",
+          "qt": 5,
+          "valor": 629.5
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51381",
+          "cliente": "PINHEIRO & MAIA COMERCIO DE UTILIDADES LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51381",
+          "cliente": "PINHEIRO & MAIA COMERCIO DE UTILIDADES LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88
+        },
+        {
           "data": "01/06/2026",
           "codcli": "50578",
           "cliente": "COMERCIAL DE ALIMENTOS ZANUTTO BORCEDA LTDA",
@@ -86927,10 +87062,10 @@ const VENDAS_SP_DATA = {
     },
     "LUCAS BUENO": {
       "Jun/26": {
-        "fat": 6038.0,
-        "pos": 6.0,
+        "fat": 6883.26,
+        "pos": 7.0,
         "fat_pernod": 2690.4,
-        "fat_crs": 755.28
+        "fat_crs": 971.04
       },
       "Mai/26": {
         "fat": 4040.1,
@@ -86940,10 +87075,10 @@ const VENDAS_SP_DATA = {
     },
     "RODRIGO LIMA": {
       "Jun/26": {
-        "fat": 118984.34,
+        "fat": 119846.54,
         "pos": 33.0,
         "fat_pernod": 59932.8,
-        "fat_crs": 167.82
+        "fat_crs": 707.22
       },
       "Mai/26": {
         "fat": 43722.53,
@@ -87013,9 +87148,9 @@ const VENDAS_SP_DATA = {
     },
     "FERNANDO BERTIN": {
       "Jun/26": {
-        "fat": 28703.02,
-        "pos": 6.0,
-        "fat_pernod": 4121.4,
+        "fat": 30397.21,
+        "pos": 7.0,
+        "fat_pernod": 4215.8,
         "fat_crs": 3128.76
       }
     },
