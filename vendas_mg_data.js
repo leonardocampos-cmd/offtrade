@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "30/06/2026 15:41",
+  "atualizado_em": "30/06/2026 16:53",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 311115.71,
+        "fat": 329332.91,
         "pos": 123,
         "fat_ant": 312476.97
       }
@@ -246,7 +246,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 65306.52
       },
       "Jun/26": {
-        "fat": 81073.3,
+        "fat": 84111.22,
         "pos": 60,
         "fat_ant": 111009.88
       }
@@ -50167,6 +50167,51 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "30/06/2026",
+          "codcli": "31722",
+          "cliente": "THAYANE MICELE SILVA MATOS VIANA",
+          "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+          "fantasia": "",
+          "qt": 16,
+          "valor": 3068.16
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "31722",
+          "cliente": "THAYANE MICELE SILVA MATOS VIANA",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "",
+          "qt": 21,
+          "valor": 4026.96
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "31722",
+          "cliente": "THAYANE MICELE SILVA MATOS VIANA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 16,
+          "valor": 3068.16
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "31722",
+          "cliente": "THAYANE MICELE SILVA MATOS VIANA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 1917.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "31722",
+          "cliente": "THAYANE MICELE SILVA MATOS VIANA",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "",
+          "qt": 32,
+          "valor": 6136.32
+        },
+        {
+          "data": "30/06/2026",
           "codcli": "30374",
           "cliente": "EL MAI LTDA",
           "produto": "ESPUMANTE ALUD BRANCO 750ML",
@@ -95486,6 +95531,150 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 599.4
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 37.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 76.9
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 374.5
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 159.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL ROSE 187ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 37.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 274.5
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL SAUV BLANC 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 164.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 154.5
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 111.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "RED BULL 24X250ML ENERG",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 359.52
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 154.5
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 147.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "30341",
+          "cliente": "R. X. CLEMENTE",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 221.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "30341",
+          "cliente": "R. X. CLEMENTE",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 152.9
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "30341",
+          "cliente": "R. X. CLEMENTE",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 279.8
         },
         {
           "data": "30/06/2026",
