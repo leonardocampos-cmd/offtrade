@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/06/2026 15:15",
-  "total": 4206,
+  "atualizado_em": "30/06/2026 15:24",
+  "total": 4207,
   "clientes": [
     {
       "codcli": "31683",
@@ -14110,8 +14110,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "49.092.398/0003-94",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "318",
-      "nome_usur1": "MARCUS TANAMACHI - OFF TRADE",
+      "codusur1": "232",
+      "nome_usur1": "ANDERSON CANAVEIS - OFF TRADE",
       "codusur2": "391",
       "nome_usur2": "ANDRE SILVA - OFF TRADE"
     },
@@ -34248,6 +34248,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "51421",
+      "razao": "MERCADO CABRAL & COUTINHO LTDA",
+      "fantasia": "MERCADO CABRAL & COUTINHO",
+      "bairro": "BROOKLIN PAULISTA",
+      "cidade": "SAO PAULO",
+      "cnpj": "50.699.599/0001-71",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "232",
+      "nome_usur1": "ANDERSON CANAVEIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51089",
       "razao": "MERCADO CABRAL ACG LTDA",
       "fantasia": "MERCADO CABRAL ACG",
@@ -44420,8 +44434,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "40.527.387/0001-53",
       "estado": "SP",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "170",
+      "nome_usur1": "JULIO CESAR",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -54026,8 +54040,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "468",
+      "nome_usur2": "RENATO JUNIOR - OFF TRADE"
     },
     {
       "codcli": "50772",
