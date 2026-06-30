@@ -6,10 +6,18 @@ from sqlalchemy import create_engine
 from datetime import datetime
 from pathlib import Path
 
+import os
+from urllib.parse import quote_plus
+from dotenv import load_dotenv
+load_dotenv(Path(__file__).parent / ".env")
+
 oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
 
+_crc_user = os.getenv("CRC_USER", os.getenv("VPN_USER", "vpn"))
+_crc_pass = os.getenv("CRC_PASSWORD", os.getenv("VPN_PASSWORD", "vpn2320vpn"))
+
 engine_es = create_engine(
-    'oracle+oracledb://vpn:vpn2320vpn@crc_oci',
+    f'oracle+oracledb://{_crc_user}:{quote_plus(_crc_pass)}@crc_oci',
     pool_pre_ping=True, pool_recycle=3600,
     connect_args={"expire_time": 2}
 )

@@ -18,10 +18,15 @@ import os
 
 load_dotenv(Path(__file__).parent / ".env")
 
+from urllib.parse import quote_plus
+
 oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
 
 USER     = os.getenv("VPN_USER",     "vpn")
 PASSWORD = os.getenv("VPN_PASSWORD", "vpn2320vpn")
+CRC_USER = os.getenv("CRC_USER",     USER)
+CRC_PASS = os.getenv("CRC_PASSWORD", PASSWORD)
+_CRC_DSN = os.getenv("DSN_CRC", "crc_oci")
 
 # Bases: dsn → lista de (estado, filiais_or_None)
 # RJ e ES compartilham o mesmo Oracle (crc_oci), diferem pela filial
@@ -106,8 +111,10 @@ def _carregar(mes_offset: int = 0, limit_day: bool = False) -> pd.DataFrame:
 
         if dsn not in engines:
             try:
+                _u = CRC_USER if dsn == _CRC_DSN else USER
+                _p = CRC_PASS if dsn == _CRC_DSN else PASSWORD
                 engines[dsn] = create_engine(
-                    f"oracle+oracledb://{USER}:{PASSWORD}@{dsn}",
+                    f"oracle+oracledb://{_u}:{quote_plus(_p)}@{dsn}",
                     pool_pre_ping=True,
                     pool_recycle=3600,
                     connect_args={"expire_time": 2},
@@ -145,8 +152,10 @@ def _carregar_totais(mes_offset: int = 0, limit_day: bool = False) -> dict:
             continue
         if dsn not in engines:
             try:
+                _u = CRC_USER if dsn == _CRC_DSN else USER
+                _p = CRC_PASS if dsn == _CRC_DSN else PASSWORD
                 engines[dsn] = create_engine(
-                    f"oracle+oracledb://{USER}:{PASSWORD}@{dsn}",
+                    f"oracle+oracledb://{_u}:{quote_plus(_p)}@{dsn}",
                     pool_pre_ping=True, pool_recycle=3600,
                     connect_args={"expire_time": 2},
                 )
