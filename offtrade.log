@@ -131104,3 +131104,391 @@ Erro na vendas_CRC: Execution failed on sql '
 [ERRO] Falha na execução:
 [30/06/2026 12:01:03,56] ERRO (codigo 1
 ---------------------------------------- 
+[30/06/2026 13:29:04,78] Iniciando... 
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\cursor.py", line 844, in execute
+    impl.execute(self)
+  File "src/oracledb/impl/thick/cursor.pyx", line 320, in oracledb.thick_impl.ThickCursorImpl.execute
+  File "src/oracledb/impl/thick/utils.pyx", line 484, in oracledb.thick_impl._raise_from_odpi
+  File "src/oracledb/impl/thick/utils.pyx", line 474, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 1679, in execute
+    return execute_function(sql, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1779, in exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\cursor.py", line 844, in execute
+    impl.execute(self)
+  File "src/oracledb/impl/thick/cursor.pyx", line 320, in oracledb.thick_impl.ThickCursorImpl.execute
+  File "src/oracledb/impl/thick/utils.pyx", line 484, in oracledb.thick_impl._raise_from_odpi
+  File "src/oracledb/impl/thick/utils.pyx", line 474, in oracledb.thick_impl._raise_from_info
+sqlalchemy.exc.DatabaseError: (oracledb.exceptions.DatabaseError) ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+[SQL: 
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPROD,
+           PCMOV.CODFORNEC    AS CODFORNEC,
+           PCMOV.NUMNOTA    AS NUMNOTA,
+           PCMOV.CODOPER    AS CODOPER,
+           PCMOV.QT         AS QT,
+           PCMOV.PUNIT      AS PUNIT,
+           PCMOV.CODFILIAL  AS CODFILIAL,
+           PCMOV.CODCLI     AS CODCLI,
+           PCCLIENT.CLIENTE AS CLIENTE,
+           PCMOV.CODUSUR    AS CODUSUR,
+           PCMOV.NUMNOTADEV AS NUMNOTADEV,
+           PCMOV.DTCANCEL   AS DTCANCEL,
+           PCMOV.DESCRICAO  AS DESCRICAO,
+           PCUSUARI.NOME    AS VENDEDOR,
+           PCFORNEC.FORNECEDOR AS FORNECEDOR,
+           PCFORNEC.FANTASIA AS FANTASIA,
+           (PCMOV.PUNIT * PCMOV.QT) AS FATURAMENTO
+
+    FROM CRC.PCMOV
+    JOIN CRC.PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
+    JOIN CRC.PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD
+    JOIN CRC.PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC
+    LEFT JOIN CRC.PCCLIENT ON PCMOV.CODCLI = PCCLIENT.CODCLI
+    WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
+    AND PCMOV.CODOPER IN ('S','SB')
+    AND PCMOV.NUMNOTADEV IS NULL
+    AND PCMOV.DTCANCEL IS NULL
+    AND PCUSUARI.NOME LIKE '%OFF TRADE%'
+    AND PCMOV.CODFILIAL IN (1,2,4)
+]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 18, in main
+    import meta
+  File "g:\Meu Drive\offtrade\meta.py", line 105, in <module>
+    carregar_dados(_query_vendas("CRC"),      engine,         "vendas_CRC"),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\meta.py", line 65, in carregar_dados
+    raise e
+  File "g:\Meu Drive\offtrade\meta.py", line 53, in carregar_dados
+    for chunk in pd.read_sql(query, con=conn, chunksize=5000):
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 730, in read_sql
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 1856, in read_query
+    result = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 1681, in execute
+    raise DatabaseError(f"Execution failed on sql '{sql}': {exc}") from exc
+pandas.errors.DatabaseError: Execution failed on sql '
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPROD,
+           PCMOV.CODFORNEC    AS CODFORNEC,
+           PCMOV.NUMNOTA    AS NUMNOTA,
+           PCMOV.CODOPER    AS CODOPER,
+           PCMOV.QT         AS QT,
+           PCMOV.PUNIT      AS PUNIT,
+           PCMOV.CODFILIAL  AS CODFILIAL,
+           PCMOV.CODCLI     AS CODCLI,
+           PCCLIENT.CLIENTE AS CLIENTE,
+           PCMOV.CODUSUR    AS CODUSUR,
+           PCMOV.NUMNOTADEV AS NUMNOTADEV,
+           PCMOV.DTCANCEL   AS DTCANCEL,
+           PCMOV.DESCRICAO  AS DESCRICAO,
+           PCUSUARI.NOME    AS VENDEDOR,
+           PCFORNEC.FORNECEDOR AS FORNECEDOR,
+           PCFORNEC.FANTASIA AS FANTASIA,
+           (PCMOV.PUNIT * PCMOV.QT) AS FATURAMENTO
+
+    FROM CRC.PCMOV
+    JOIN CRC.PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
+    JOIN CRC.PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD
+    JOIN CRC.PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC
+    LEFT JOIN CRC.PCCLIENT ON PCMOV.CODCLI = PCCLIENT.CODCLI
+    WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
+    AND PCMOV.CODOPER IN ('S','SB')
+    AND PCMOV.NUMNOTADEV IS NULL
+    AND PCMOV.DTCANCEL IS NULL
+    AND PCUSUARI.NOME LIKE '%OFF TRADE%'
+    AND PCMOV.CODFILIAL IN (1,2,4)
+': (oracledb.exceptions.DatabaseError) ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+[SQL: 
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPROD,
+           PCMOV.CODFORNEC    AS CODFORNEC,
+           PCMOV.NUMNOTA    AS NUMNOTA,
+           PCMOV.CODOPER    AS CODOPER,
+           PCMOV.QT         AS QT,
+           PCMOV.PUNIT      AS PUNIT,
+           PCMOV.CODFILIAL  AS CODFILIAL,
+           PCMOV.CODCLI     AS CODCLI,
+           PCCLIENT.CLIENTE AS CLIENTE,
+           PCMOV.CODUSUR    AS CODUSUR,
+           PCMOV.NUMNOTADEV AS NUMNOTADEV,
+           PCMOV.DTCANCEL   AS DTCANCEL,
+           PCMOV.DESCRICAO  AS DESCRICAO,
+           PCUSUARI.NOME    AS VENDEDOR,
+           PCFORNEC.FORNECEDOR AS FORNECEDOR,
+           PCFORNEC.FANTASIA AS FANTASIA,
+           (PCMOV.PUNIT * PCMOV.QT) AS FATURAMENTO
+
+    FROM CRC.PCMOV
+    JOIN CRC.PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
+    JOIN CRC.PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD
+    JOIN CRC.PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC
+    LEFT JOIN CRC.PCCLIENT ON PCMOV.CODCLI = PCCLIENT.CODCLI
+    WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
+    AND PCMOV.CODOPER IN ('S','SB')
+    AND PCMOV.NUMNOTADEV IS NULL
+    AND PCMOV.DTCANCEL IS NULL
+    AND PCUSUARI.NOME LIKE '%OFF TRADE%'
+    AND PCMOV.CODFILIAL IN (1,2,4)
+]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+
+==================================================
+  OFFTRADE - 30/06/2026 13:29
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+Erro na vendas_CRC: Execution failed on sql '
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPR
+-> Lendo vendas_CRC (Tentativa 2/5)...
+Erro na vendas_CRC: Execution failed on sql '
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPR
+-> Lendo vendas_CRC (Tentativa 3/5)...
+Erro na vendas_CRC: Execution failed on sql '
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPR
+-> Lendo vendas_CRC (Tentativa 4/5)...
+Erro na vendas_CRC: Execution failed on sql '
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPR
+-> Lendo vendas_CRC (Tentativa 5/5)...
+Erro na vendas_CRC: Execution failed on sql '
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPR
+
+[ERRO] Falha na execução:
+[30/06/2026 13:30:16,81] ERRO (codigo 1
+---------------------------------------- 
+[30/06/2026 14:22:12,61] Iniciando... 
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\cursor.py", line 844, in execute
+    impl.execute(self)
+  File "src/oracledb/impl/thick/cursor.pyx", line 320, in oracledb.thick_impl.ThickCursorImpl.execute
+  File "src/oracledb/impl/thick/utils.pyx", line 484, in oracledb.thick_impl._raise_from_odpi
+  File "src/oracledb/impl/thick/utils.pyx", line 474, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 1679, in execute
+    return execute_function(sql, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1779, in exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\cursor.py", line 844, in execute
+    impl.execute(self)
+  File "src/oracledb/impl/thick/cursor.pyx", line 320, in oracledb.thick_impl.ThickCursorImpl.execute
+  File "src/oracledb/impl/thick/utils.pyx", line 484, in oracledb.thick_impl._raise_from_odpi
+  File "src/oracledb/impl/thick/utils.pyx", line 474, in oracledb.thick_impl._raise_from_info
+sqlalchemy.exc.DatabaseError: (oracledb.exceptions.DatabaseError) ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+[SQL: 
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPROD,
+           PCMOV.CODFORNEC    AS CODFORNEC,
+           PCMOV.NUMNOTA    AS NUMNOTA,
+           PCMOV.CODOPER    AS CODOPER,
+           PCMOV.QT         AS QT,
+           PCMOV.PUNIT      AS PUNIT,
+           PCMOV.CODFILIAL  AS CODFILIAL,
+           PCMOV.CODCLI     AS CODCLI,
+           PCCLIENT.CLIENTE AS CLIENTE,
+           PCMOV.CODUSUR    AS CODUSUR,
+           PCMOV.NUMNOTADEV AS NUMNOTADEV,
+           PCMOV.DTCANCEL   AS DTCANCEL,
+           PCMOV.DESCRICAO  AS DESCRICAO,
+           PCUSUARI.NOME    AS VENDEDOR,
+           PCFORNEC.FORNECEDOR AS FORNECEDOR,
+           PCFORNEC.FANTASIA AS FANTASIA,
+           (PCMOV.PUNIT * PCMOV.QT) AS FATURAMENTO
+
+    FROM CRC.PCMOV
+    JOIN CRC.PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
+    JOIN CRC.PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD
+    JOIN CRC.PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC
+    LEFT JOIN CRC.PCCLIENT ON PCMOV.CODCLI = PCCLIENT.CODCLI
+    WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
+    AND PCMOV.CODOPER IN ('S','SB')
+    AND PCMOV.NUMNOTADEV IS NULL
+    AND PCMOV.DTCANCEL IS NULL
+    AND PCUSUARI.NOME LIKE '%OFF TRADE%'
+    AND PCMOV.CODFILIAL IN (1,2,4)
+]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 18, in main
+    import meta
+  File "g:\Meu Drive\offtrade\meta.py", line 105, in <module>
+    carregar_dados(_query_vendas("CRC"),      engine,         "vendas_CRC"),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\meta.py", line 65, in carregar_dados
+    raise e
+  File "g:\Meu Drive\offtrade\meta.py", line 53, in carregar_dados
+    for chunk in pd.read_sql(query, con=conn, chunksize=5000):
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 730, in read_sql
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 1856, in read_query
+    result = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\pandas\io\sql.py", line 1681, in execute
+    raise DatabaseError(f"Execution failed on sql '{sql}': {exc}") from exc
+pandas.errors.DatabaseError: Execution failed on sql '
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPROD,
+           PCMOV.CODFORNEC    AS CODFORNEC,
+           PCMOV.NUMNOTA    AS NUMNOTA,
+           PCMOV.CODOPER    AS CODOPER,
+           PCMOV.QT         AS QT,
+           PCMOV.PUNIT      AS PUNIT,
+           PCMOV.CODFILIAL  AS CODFILIAL,
+           PCMOV.CODCLI     AS CODCLI,
+           PCCLIENT.CLIENTE AS CLIENTE,
+           PCMOV.CODUSUR    AS CODUSUR,
+           PCMOV.NUMNOTADEV AS NUMNOTADEV,
+           PCMOV.DTCANCEL   AS DTCANCEL,
+           PCMOV.DESCRICAO  AS DESCRICAO,
+           PCUSUARI.NOME    AS VENDEDOR,
+           PCFORNEC.FORNECEDOR AS FORNECEDOR,
+           PCFORNEC.FANTASIA AS FANTASIA,
+           (PCMOV.PUNIT * PCMOV.QT) AS FATURAMENTO
+
+    FROM CRC.PCMOV
+    JOIN CRC.PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
+    JOIN CRC.PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD
+    JOIN CRC.PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC
+    LEFT JOIN CRC.PCCLIENT ON PCMOV.CODCLI = PCCLIENT.CODCLI
+    WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
+    AND PCMOV.CODOPER IN ('S','SB')
+    AND PCMOV.NUMNOTADEV IS NULL
+    AND PCMOV.DTCANCEL IS NULL
+    AND PCUSUARI.NOME LIKE '%OFF TRADE%'
+    AND PCMOV.CODFILIAL IN (1,2,4)
+': (oracledb.exceptions.DatabaseError) ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+[SQL: 
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPROD,
+           PCMOV.CODFORNEC    AS CODFORNEC,
+           PCMOV.NUMNOTA    AS NUMNOTA,
+           PCMOV.CODOPER    AS CODOPER,
+           PCMOV.QT         AS QT,
+           PCMOV.PUNIT      AS PUNIT,
+           PCMOV.CODFILIAL  AS CODFILIAL,
+           PCMOV.CODCLI     AS CODCLI,
+           PCCLIENT.CLIENTE AS CLIENTE,
+           PCMOV.CODUSUR    AS CODUSUR,
+           PCMOV.NUMNOTADEV AS NUMNOTADEV,
+           PCMOV.DTCANCEL   AS DTCANCEL,
+           PCMOV.DESCRICAO  AS DESCRICAO,
+           PCUSUARI.NOME    AS VENDEDOR,
+           PCFORNEC.FORNECEDOR AS FORNECEDOR,
+           PCFORNEC.FANTASIA AS FANTASIA,
+           (PCMOV.PUNIT * PCMOV.QT) AS FATURAMENTO
+
+    FROM CRC.PCMOV
+    JOIN CRC.PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
+    JOIN CRC.PCPRODUT ON PCMOV.CODPROD = PCPRODUT.CODPROD
+    JOIN CRC.PCFORNEC ON PCMOV.CODFORNEC = PCFORNEC.CODFORNEC
+    LEFT JOIN CRC.PCCLIENT ON PCMOV.CODCLI = PCCLIENT.CODCLI
+    WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
+    AND PCMOV.CODOPER IN ('S','SB')
+    AND PCMOV.NUMNOTADEV IS NULL
+    AND PCMOV.DTCANCEL IS NULL
+    AND PCUSUARI.NOME LIKE '%OFF TRADE%'
+    AND PCMOV.CODFILIAL IN (1,2,4)
+]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+
+==================================================
+  OFFTRADE - 30/06/2026 14:22
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/5)...
+Erro na vendas_CRC: Execution failed on sql '
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPR
+-> Lendo vendas_CRC (Tentativa 2/5)...
+Erro na vendas_CRC: Execution failed on sql '
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPR
+-> Lendo vendas_CRC (Tentativa 3/5)...
+Erro na vendas_CRC: Execution failed on sql '
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPR
+-> Lendo vendas_CRC (Tentativa 4/5)...
+Erro na vendas_CRC: Execution failed on sql '
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPR
+-> Lendo vendas_CRC (Tentativa 5/5)...
+Erro na vendas_CRC: Execution failed on sql '
+    SELECT PCMOV.DTMOV      AS DTMOV,
+           PCMOV.CODPROD    AS CODPR
+
+[ERRO] Falha na execução:
+[30/06/2026 14:23:17,96] ERRO (codigo 1
+---------------------------------------- 
