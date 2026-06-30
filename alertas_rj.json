@@ -13550,5 +13550,177 @@
       "motivo": "CANCELAMENTO",
       "valor": "R$ 899,80"
     }
+  ],
+  "2026-06-30": [
+    {
+      "nf": "197",
+      "rca": 379,
+      "rca_nome": "JORGE MACIEL",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": "Taxa Outros 50.0% 1/2 NFs"
+    },
+    {
+      "nf": "14",
+      "rca": 379,
+      "rca_nome": "JORGE MACIEL",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": ""
+    },
+    {
+      "nf": "402597",
+      "rca": 379,
+      "rca_nome": "JORGE MACIEL",
+      "cliente": "MERCADO F N DO PARQUE FLUMINENSE LTDA",
+      "rota": "BXD5E49 / BAIXADA",
+      "responsavel": "Vendas",
+      "motivo": "PEDIDO EMITIDO ERRADO",
+      "valor": "R$ 685,52"
+    },
+    {
+      "nf": "407151",
+      "rca": 147,
+      "rca_nome": "THIAGO MENDES",
+      "cliente": "RESTAURANTE E LANCHONETE AVENIDA LTDA",
+      "rota": "LMV5I35 / ZONA OESTE",
+      "responsavel": "Contas a Receber",
+      "motivo": "REPONSÁVEL PELO PAGAMENTO AUSENTE OU CLIENTE SEM MÉTODO",
+      "valor": "R$ 345,12"
+    },
+    {
+      "nf": "407269",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "SBMP8 COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+      "rota": "KZH9D68 / ZONA SUL",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - ABERTURA EM HORÁRIO ESPECÍFICO",
+      "valor": "R$ 907,04"
+    },
+    {
+      "nf": "407253",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "BOM SABOR CONSERVA BAR E LANCHONETE LTDA",
+      "rota": "SSE8J07 / ZONA SUDOESTE",
+      "responsavel": "Vendas",
+      "motivo": "PEDIDO RECUSADO",
+      "valor": "R$ 231,34"
+    },
+    {
+      "nf": "407257",
+      "rca": 278,
+      "rca_nome": "RAQUEL SANTOS",
+      "cliente": "DI PAOLO BARRA DA TIJUCA LTDA",
+      "rota": "RJV2J20 / ZONA SUDOESTE",
+      "responsavel": "Vendas",
+      "motivo": "CANCELAMENTO",
+      "valor": "R$ 271,80"
+    },
+    {
+      "nf": "407004",
+      "rca": 295,
+      "rca_nome": "JOÃO VITOR BRAGA",
+      "cliente": "NOVO BAR RESTAURANTE E SIMILARES LTDA",
+      "rota": "LSS7E31 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - ABERTURA EM HORÁRIO ESPECÍFICO",
+      "valor": "R$ 467,46"
+    },
+    {
+      "nf": "405618",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "A4RJ RESTAURANTE LTDA",
+      "rota": "RJV2J20 / ZONA SUDOESTE",
+      "responsavel": "Vendas",
+      "motivo": "CANCELAMENTO",
+      "valor": "R$ 1.247,50"
+    },
+    {
+      "nf": "406992",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "TRADICAO JAPONESA RESTAURANTE LTDA",
+      "rota": "TTN5H14 / ZONA SUL",
+      "responsavel": "Cliente",
+      "motivo": "LOCAL FECHADO - NÃO ABRE HOJE",
+      "valor": "R$ 259,80"
+    },
+    {
+      "nf": "406516",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "XVP BAR E RESTAURANTE LTDA",
+      "rota": "LSS7E31 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - ABERTURA EM HORÁRIO ESPECÍFICO",
+      "valor": "R$ 76,90"
+    },
+    {
+      "nf": "407251",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "RIO JV PARTNERS PARTICIPACOES LTDA",
+      "rota": "SSE8J07 / ZONA SUDOESTE",
+      "responsavel": "Cliente",
+      "motivo": "ESTABELECIMENTO INDISPONÍVEL PARA RECEBIMENTO",
+      "valor": "R$ 649,50"
+    },
+    {
+      "nf": "407009",
+      "rca": 92,
+      "rca_nome": "AUGUSTO SILVA",
+      "cliente": "FLASH PRODUCOES E EVENTOS LTDA",
+      "rota": "LSS7E31 / ZONA NORTE",
+      "responsavel": "Logística",
+      "motivo": "FORA DE ROTA",
+      "valor": "R$ 690,26"
+    },
+    {
+      "nf": "407005",
+      "rca": 95,
+      "rca_nome": "VINICIUS AMARAL",
+      "cliente": "R21 VALQUEIRE RESTAURANTE E BAR LTDA",
+      "rota": "LSS7E31 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA",
+      "valor": "R$ 888,60"
+    },
+    {
+      "nf": "406891",
+      "rca": 95,
+      "rca_nome": "VINICIUS AMARAL",
+      "cliente": "COVEN HOUSE GASTRONOMIA TATTOO & FOLHAGENS LTDA",
+      "rota": "KZH9D68 / ZONA SUL",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA TROCA",
+      "valor": "R$ 966,25"
+    },
+    {
+      "nf": "407290",
+      "rca": 197,
+      "rca_nome": "EVENTOS",
+      "cliente": "MARINA CAFE BAR E RESTAURANTE LTDA",
+      "rota": "BXD5E39 / ZONA SUDOESTE",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 19.400,40"
+    },
+    {
+      "nf": "406981",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "66.422.565 DANILO CESAR SILVA DE OLIVEIRA",
+      "rota": "TTN5H14 / ZONA SUL",
+      "responsavel": "Cliente",
+      "motivo": "LOCAL FECHADO - NÃO ABRE HOJE",
+      "valor": "R$ 728,30"
+    }
   ]
 }

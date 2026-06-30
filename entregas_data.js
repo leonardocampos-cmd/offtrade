@@ -26900,51 +26900,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "379001102",
-          "numnota": "402597.0",
-          "data": "11/06/2026",
-          "cliente": "MERCADO F N DO PARQUE FLUMINENSE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 685.52,
-          "itens": [
-            {
-              "desc": "MARTINI BIANCO 750 ML",
-              "qt": 3,
-              "val": 91.5
-            },
-            {
-              "desc": "GIN TANQUERAY  750 ML",
-              "qt": 1,
-              "val": 95.9
-            },
-            {
-              "desc": "MARTINI ROSSO 750 ML",
-              "qt": 3,
-              "val": 91.62
-            },
-            {
-              "desc": "VINHO TINTO QUINTA DO MORGADO 1LT",
-              "qt": 12,
-              "val": 190.8
-            },
-            {
-              "desc": "RUM BACARDI BIG APPLE 700ML",
-              "qt": 1,
-              "val": 35.9
-            },
-            {
-              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-              "qt": 2,
-              "val": 179.8
-            }
-          ]
-        },
-        {
           "numped": "379001103",
           "numnota": "402917.0",
           "data": "11/06/2026",
@@ -28340,7 +28295,55 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_entregue": []
+      "nao_entregue": [
+        {
+          "numped": "379001102",
+          "numnota": "402597.0",
+          "data": "11/06/2026",
+          "cliente": "MERCADO F N DO PARQUE FLUMINENSE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 685.52,
+          "itens": [
+            {
+              "desc": "MARTINI BIANCO 750 ML",
+              "qt": 3,
+              "val": 91.5
+            },
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 1,
+              "val": 95.9
+            },
+            {
+              "desc": "MARTINI ROSSO 750 ML",
+              "qt": 3,
+              "val": 91.62
+            },
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 1LT",
+              "qt": 12,
+              "val": 190.8
+            },
+            {
+              "desc": "RUM BACARDI BIG APPLE 700ML",
+              "qt": 1,
+              "val": 35.9
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 2,
+              "val": 179.8
+            }
+          ],
+          "motivo_alerta": "PEDIDO EMITIDO ERRADO",
+          "responsavel_alerta": "Vendas"
+        }
+      ]
     },
     {
       "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
