@@ -7,6 +7,7 @@
   <script src="metas_data.js"></script>
   <script src="vendas_data.js"></script>
   <script src="amarula_data.js"></script>
+  <script src="gerentes_data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -401,6 +402,14 @@
       outline: none;
     }
     .mes-select:focus { border-color: var(--accent); }
+
+    .filter-wrap {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+    .filter-wrap select { flex: 1; min-width: 180px; }
 
     .vendas-resumo {
       display: flex;
@@ -1778,6 +1787,65 @@ function buildMovingDetail(v) {
     </div>`;
 }
 
+// ── Filtro Gerente / Supervisor ───────────────────────────────────────────────
+
+let _filtroGerente    = '';
+let _filtroSupervisor = '';
+
+function _getGerentes() {
+  if (typeof GERENTES_DATA === 'undefined') return [];
+  const set = new Set();
+  for (const est of GERENTES_DATA.estados)
+    for (const g of est.gerentes)
+      if (g.nome && g.nome !== 'Sem Gerente') set.add(g.nome);
+  return [...set].sort();
+}
+
+function _getSupervisores(gerente) {
+  if (typeof GERENTES_DATA === 'undefined') return [];
+  const set = new Set();
+  for (const est of GERENTES_DATA.estados)
+    for (const g of est.gerentes) {
+      if (gerente && g.nome !== gerente) continue;
+      for (const s of g.supervisores)
+        if (s.nome && s.nome !== 'Sem Supervisor') set.add(s.nome);
+    }
+  return [...set].sort();
+}
+
+function _vendedoresFiltrados() {
+  if ((!_filtroGerente && !_filtroSupervisor) || typeof GERENTES_DATA === 'undefined')
+    return METAS_DATA.vendedores;
+  const nomes = new Set();
+  for (const est of GERENTES_DATA.estados)
+    for (const g of est.gerentes) {
+      if (_filtroGerente && g.nome !== _filtroGerente) continue;
+      for (const s of g.supervisores) {
+        if (_filtroSupervisor && s.nome !== _filtroSupervisor) continue;
+        for (const v of s.vendedores) nomes.add(v.nome);
+      }
+    }
+  return METAS_DATA.vendedores.filter(v => nomes.has(v.nome));
+}
+
+function _updateSupervisorOpts() {
+  const sel = document.getElementById('fil-sup');
+  if (!sel) return;
+  const sups = _getSupervisores(_filtroGerente);
+  sel.innerHTML = '<option value="">Todos os supervisores</option>'
+    + sups.map(s => `<option value="${s}" ${s === _filtroSupervisor ? 'selected' : ''}>${s}</option>`).join('');
+  if (!sups.includes(_filtroSupervisor)) _filtroSupervisor = '';
+}
+
+function _aplicarFiltro(mes) {
+  mes = mes || _getMes();
+  _mesSel = mes;
+  const filtrados = _vendedoresFiltrados();
+  document.getElementById('equipe-resumo-wrap').innerHTML = _buildResumoEquipe(filtrados, mes);
+  document.getElementById('cards-grid').innerHTML = _buildCards(filtrados, mes);
+  _updateSupervisorOpts();
+}
+
 function _buildResumoEquipe(vendedores, mes) {
   const totalFat = vendedores.reduce((s, v) => {
     const pm   = _pm(v, mes);
@@ -1870,6 +1938,8 @@ function _buildCards(vendedores, mes) {
 function renderAll(vendedores, mes) {
   mes = mes || _getMes();
   _mesSel = mes;
+  _filtroGerente    = '';
+  _filtroSupervisor = '';
   var cb = document.querySelector('.camp-bar');
   if (cb) cb.style.display = '';
 
@@ -1881,11 +1951,26 @@ function renderAll(vendedores, mes) {
     `${mes}  ·  Atualizado ${METAS_DATA.atualizado_em}`;
 
   document.getElementById('header-actions').innerHTML =
-    `<select class="mes-select" onchange="_mesSel=this.value; document.getElementById('cards-grid').innerHTML=_buildCards(METAS_DATA.vendedores, this.value); document.getElementById('equipe-resumo-wrap').innerHTML=_buildResumoEquipe(METAS_DATA.vendedores, this.value); document.getElementById('header-sub').textContent=this.value+' · Atualizado ${METAS_DATA.atualizado_em}'">${mesOpts}</select>
+    `<select class="mes-select" onchange="document.getElementById('header-sub').textContent=this.value+' · Atualizado ${METAS_DATA.atualizado_em}';_aplicarFiltro(this.value)">${mesOpts}</select>
      <a class="btn btn-limite" href="https://offtrade.duckdns.org/Credito_e_Cadastro" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
+
+  const _gers = _getGerentes();
+  const _sups = _getSupervisores('');
+  const filHtml = _gers.length ? `
+    <div class="filter-wrap">
+      <select id="fil-ger" class="mes-select" onchange="_filtroGerente=this.value;_filtroSupervisor='';_aplicarFiltro(_getMes())">
+        <option value="">Todos os gerentes</option>
+        ${_gers.map(g => `<option value="${g}">${g}</option>`).join('')}
+      </select>
+      <select id="fil-sup" class="mes-select" onchange="_filtroSupervisor=this.value;_aplicarFiltro(_getMes())">
+        <option value="">Todos os supervisores</option>
+        ${_sups.map(s => `<option value="${s}">${s}</option>`).join('')}
+      </select>
+    </div>` : '';
 
   document.getElementById('app').innerHTML = `
     <div id="equipe-resumo-wrap">${_buildResumoEquipe(METAS_DATA.vendedores, mes)}</div>
+    ${filHtml}
     <div class="search-wrap">
       <input class="search-input" type="text" placeholder="Buscar por nome ou RCA..."
         oninput="filterCards(this.value)">

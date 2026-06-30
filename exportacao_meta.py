@@ -592,12 +592,21 @@ if _hier_parts:
         e  = _emp_dict.setdefault(estado_top, {'nome': estado_top, 'por_mes': {}, 'gerentes': {}})
         g  = e['gerentes'].setdefault(ger, {'nome': ger, 'por_mes': {}, 'supervisores': {}})
         s_ = g['supervisores'].setdefault(sup, {'nome': sup, 'por_mes': {}, 'vendedores': {}})
-        s_['vendedores'][nome_display] = {
-            'nome':    nome_display,
-            'rca':     str(rca_int),
-            'estado':  estado,
-            'por_mes': por_mes_vend,
-        }
+        if nome_display in s_['vendedores']:
+            for mes, val in por_mes_vend.items():
+                ex = s_['vendedores'][nome_display]['por_mes']
+                if mes in ex:
+                    ex[mes]['fat'] = round(ex[mes]['fat'] + val['fat'], 2)
+                    ex[mes]['qt'] += val['qt']
+                else:
+                    ex[mes] = val
+        else:
+            s_['vendedores'][nome_display] = {
+                'nome':    nome_display,
+                'rca':     str(rca_int),
+                'estado':  estado,
+                'por_mes': por_mes_vend,
+            }
 
         for mes_str, val in por_mes_vend.items():
             for d in (e['por_mes'], g['por_mes'], s_['por_mes']):
