@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/06/2026 15:22",
+  "atualizado_em": "30/06/2026 15:40",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -45241,6 +45241,36 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 3,
           "valor": 95.67,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "73248",
+          "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 92.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "73248",
+          "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "73248",
+          "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
           "tipo": "Venda"
         },
         {
@@ -99034,6 +99064,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "30/06/2026",
+          "codcli": "91386",
+          "cliente": "PRISCILA BESSA DE PAULA 08926465780",
+          "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "fantasia": "INTERFOOD",
+          "qt": 3,
+          "valor": 269.7,
+          "tipo": "Venda"
+        },
+        {
           "data": "01/06/2026",
           "codcli": "93889",
           "cliente": "NOVO LATICINIO LTDA",
@@ -99261,6 +99301,36 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 60,
           "valor": 750.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "91515",
+          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 166.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "91515",
+          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
+          "produto": "CANTINA DA SERRA 750ML",
+          "fantasia": "COMARY",
+          "qt": 6,
+          "valor": 32.94,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "91515",
+          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 5,
+          "valor": 314.5,
           "tipo": "Venda"
         },
         {
@@ -99741,6 +99811,56 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 58.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "94870",
+          "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CANTINA DA SERRA 1,5L",
+          "fantasia": "COMARY",
+          "qt": 12,
+          "valor": 110.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "94870",
+          "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 199.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "94870",
+          "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 199.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "94870",
+          "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "94870",
+          "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 65.28,
           "tipo": "Venda"
         },
         {
@@ -283376,16 +283496,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "13/01/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 30,
-          "valor": 16200.0,
-          "tipo": "Venda"
-        },
-        {
           "data": "23/01/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
@@ -283393,6 +283503,16 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 30,
           "valor": 10470.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/01/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 30,
+          "valor": 16200.0,
           "tipo": "Venda"
         },
         {
@@ -284220,13 +284340,43 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "18/03/2026",
+          "data": "30/03/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET GRAN BRUT",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
           "fantasia": "PERNOD",
-          "qt": 200,
-          "valor": 49800.0,
+          "qt": 6,
+          "valor": 3359.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 6718.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "WHISKY ROYAL SALUTE MALT EDITION 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 3359.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "WHISKY ROYAL SALUTE MALT EDITION 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 6718.8,
           "tipo": "Venda"
         },
         {
@@ -284240,6 +284390,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "12/03/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 20940.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "CHAMP PERRIER JOUET GRAN BRUT",
+          "fantasia": "PERNOD",
+          "qt": 200,
+          "valor": 49800.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "16/03/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
@@ -284257,16 +284427,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 200,
           "valor": 49800.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 20940.0,
           "tipo": "Venda"
         },
         {
@@ -284287,46 +284447,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 3359.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 3359.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY ROYAL SALUTE MALT EDITION 700 ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 3359.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 6718.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "WHISKY ROYAL SALUTE MALT EDITION 700 ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 6718.8,
           "tipo": "Venda"
         },
         {
@@ -285185,16 +285305,6 @@ const VENDAS_DATA = {
           "data": "14/05/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET GRAN BRUT 750ML",
-          "fantasia": "PERNOD",
-          "qt": 300,
-          "valor": 74700.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
           "fantasia": "PERNOD",
           "qt": 30,
@@ -285205,20 +285315,30 @@ const VENDAS_DATA = {
           "data": "19/05/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
+          "fantasia": "PERNOD",
+          "qt": 46,
+          "valor": 18395.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "CHAMP PERRIER JOUET GRAN BRUT 750ML",
           "fantasia": "PERNOD",
-          "qt": 75,
-          "valor": 18675.0,
+          "qt": 300,
+          "valor": 74700.0,
           "tipo": "Venda"
         },
         {
           "data": "19/05/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET BLANC DE BLANCS 750M",
+          "produto": "CHAMP PERRIER JOUET GRAN BRUT 750ML",
           "fantasia": "PERNOD",
-          "qt": 46,
-          "valor": 18395.4,
+          "qt": 75,
+          "valor": 18675.0,
           "tipo": "Venda"
         }
       ],
@@ -285564,27 +285684,17 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "18/06/2026",
-          "codcli": "36591",
-          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
-          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 6,
-          "valor": 4139.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/06/2026",
+          "data": "24/06/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "qt": 18,
-          "valor": 12418.2,
+          "produto": "MOET IMPERIAL RESERVE BRUT 750 ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 160,
+          "valor": 43184.0,
           "tipo": "Venda"
         },
         {
-          "data": "24/06/2026",
+          "data": "22/06/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "MOET IMPERIAL RESERVE BRUT 750 ML",
@@ -285624,13 +285734,23 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "22/06/2026",
+          "data": "18/06/2026",
+          "codcli": "36591",
+          "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 6,
+          "valor": 4139.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/06/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "MOET IMPERIAL RESERVE BRUT 750 ML",
-          "fantasia": "MOET HENNESY",
-          "qt": 160,
-          "valor": 43184.0,
+          "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 18,
+          "valor": 12418.2,
           "tipo": "Venda"
         }
       ],
@@ -285826,16 +285946,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "10/02/2026",
-          "codcli": "43203",
-          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-          "produto": "CHAMP PERRIER JOUET GRAN BRUT",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 17940.0,
-          "tipo": "Venda"
-        },
-        {
           "data": "20/02/2026",
           "codcli": "43203",
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
@@ -285853,6 +285963,16 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 30,
           "valor": 17670.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/02/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "CHAMP PERRIER JOUET GRAN BRUT",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 17940.0,
           "tipo": "Venda"
         }
       ]
