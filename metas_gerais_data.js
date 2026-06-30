@@ -1,32 +1,32 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "30/06/2026 18:10",
+  "atualizado_em": "30/06/2026 18:41",
   "mes": "Jun/26",
   "dias_corridos": 30,
   "dias_no_mes": 30,
   "dias_restantes": 1,
   "resumo": {
-    "fat": 12241590.0,
+    "fat": 12253157.42,
     "fat_ant": 13065129.23,
     "pos": 1777,
     "pos_ant": 1796
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 12241590.0,
+    "fat": 12253157.42,
     "fat_ant": 13065129.23,
-    "pct": 85.0,
-    "nec_dia": 2158410.0
+    "pct": 85.1,
+    "nec_dia": 2146842.58
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 2723441.42,
+      "fat": 2723171.72,
       "fat_ant": 2902679.84,
-      "pos": 742,
+      "pos": 741,
       "pct": 69.8,
-      "nec_dia": 1176558.58,
+      "nec_dia": 1176828.28,
       "pos_ant": 717
     },
     {
@@ -44,22 +44,22 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 983267.46,
+      "fat": 992245.64,
       "fat_ant": 1378039.13,
       "pos": 139,
-      "pct": 54.6,
-      "nec_dia": 816732.54,
+      "pct": 55.1,
+      "nec_dia": 807754.36,
       "pos_ant": 279
     },
     {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 1358342.59,
+      "fat": 1361201.53,
       "fat_ant": 1663719.03,
-      "pos": 285,
-      "pct": 64.7,
-      "nec_dia": 741657.41,
+      "pos": 286,
+      "pct": 64.8,
+      "nec_dia": 738798.47,
       "pos_ant": 325
     }
   ],
@@ -88,13 +88,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 1257874.34,
+      "fat": 1260930.78,
       "fat_ant": 1509191.19,
       "por_estado": {
         "RJ": 252.0,
         "SP": 3794.67,
-        "ES": 48880.54,
-        "MG": 1204947.13
+        "ES": 50444.0,
+        "MG": 1206440.11
       }
     },
     {
@@ -110,12 +110,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "TATUZINHO",
-      "fat": 407683.09,
+      "fat": 408125.51,
       "fat_ant": 250330.14,
       "por_estado": {
         "RJ": 373032.19,
         "SP": 7146.6,
-        "ES": 27504.3,
+        "ES": 27946.72,
         "MG": 0.0
       }
     },
@@ -176,23 +176,23 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "BACARDI",
-      "fat": 208115.29,
+      "fat": 209970.13,
       "fat_ant": 584047.5,
       "por_estado": {
         "RJ": 24462.11,
         "SP": 152619.88,
-        "ES": 31033.31,
+        "ES": 32888.15,
         "MG": 0.0
       }
     },
     {
       "fantasia": "BEAM SUNTORY",
-      "fat": 203113.76,
+      "fat": 205990.16,
       "fat_ant": 422474.73,
       "por_estado": {
         "RJ": 193821.65,
         "SP": 0.0,
-        "ES": 9292.11,
+        "ES": 12168.51,
         "MG": 0.0
       }
     },
@@ -264,10 +264,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "INTERFOOD",
-      "fat": 73414.44,
+      "fat": 73144.74,
       "fat_ant": 13899.62,
       "por_estado": {
-        "RJ": 67122.4,
+        "RJ": 66852.7,
         "SP": 6292.04,
         "ES": 0.0,
         "MG": 0.0
@@ -285,6 +285,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "HEINEKEN BRASIL",
+      "fat": 48396.72,
+      "fat_ant": 74283.78,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 568.0,
+        "ES": 0.0,
+        "MG": 47828.72
+      }
+    },
+    {
       "fantasia": "LUCIA",
       "fat": 48095.67,
       "fat_ant": 375052.96,
@@ -293,17 +304,6 @@ const METAS_GERAIS_DATA = {
         "SP": 33578.9,
         "ES": 0.0,
         "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "HEINEKEN BRASIL",
-      "fat": 47030.76,
-      "fat_ant": 74283.78,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 568.0,
-        "ES": 0.0,
-        "MG": 46462.76
       }
     },
     {
@@ -319,12 +319,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "BALLENA",
-      "fat": 41595.09,
+      "fat": 43167.09,
       "fat_ant": 133243.7,
       "por_estado": {
         "RJ": 6056.0,
         "SP": 19270.69,
-        "ES": 2358.0,
+        "ES": 3930.0,
         "MG": 13910.4
       }
     },
@@ -352,12 +352,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "PINATI",
-      "fat": 28646.63,
+      "fat": 29315.69,
       "fat_ant": 38548.6,
       "por_estado": {
         "RJ": 4694.92,
         "SP": 0.0,
-        "ES": 23951.71,
+        "ES": 24620.77,
         "MG": 0.0
       }
     },
