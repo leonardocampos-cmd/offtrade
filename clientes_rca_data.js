@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/06/2026 14:39",
-  "total": 4204,
+  "atualizado_em": "30/06/2026 15:15",
+  "total": 4206,
   "clientes": [
     {
       "codcli": "31683",
@@ -3824,6 +3824,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
+    },
+    {
+      "codcli": "51420",
+      "razao": "A L PEREIRA SUPERMERCADO LTDA",
+      "fantasia": "BOM DIA SUPERMERCADO",
+      "bairro": "JARDIM ROSICLER",
+      "cidade": "BIRITIBA MIRIM",
+      "cnpj": "36.660.127/0001-84",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "6503",
@@ -37312,6 +37326,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "80819",
+      "razao": "MERCEARIA GENOVEVA LTDA",
+      "fantasia": "MERCEARIA GENOVEVA",
+      "bairro": "SOTECO",
+      "cidade": "VILA VELHA",
+      "cnpj": "27.348.556/0001-20",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "19666",
