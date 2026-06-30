@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "30/06/2026 17:53",
+  "atualizado_em": "30/06/2026 18:11",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -37684,6 +37684,78 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1557.6
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "51043",
+          "cliente": "DISTRIBUIDORA BERLIM COMERCIO DE BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS SINATRA 1L",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 589.9
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "51043",
+          "cliente": "DISTRIBUIDORA BERLIM COMERCIO DE BEBIDAS LTDA",
+          "produto": "GIN BEEFEATER PINK 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 778.8
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "51043",
+          "cliente": "DISTRIBUIDORA BERLIM COMERCIO DE BEBIDAS LTDA",
+          "produto": "BOURBON WHISKY WOODFORD RESERVE - DEST",
+          "fantasia": "BROWN",
+          "qt": 3,
+          "valor": 414.0
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "51043",
+          "cliente": "DISTRIBUIDORA BERLIM COMERCIO DE BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS BONDED 700ML",
+          "fantasia": "BROWN",
+          "qt": 3,
+          "valor": 479.7
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "51043",
+          "cliente": "DISTRIBUIDORA BERLIM COMERCIO DE BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS BOND RYE 700ML DEST",
+          "fantasia": "BROWN",
+          "qt": 3,
+          "valor": 479.7
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "51043",
+          "cliente": "DISTRIBUIDORA BERLIM COMERCIO DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 3294.0
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "51043",
+          "cliente": "DISTRIBUIDORA BERLIM COMERCIO DE BEBIDAS LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 670.8
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "51043",
+          "cliente": "DISTRIBUIDORA BERLIM COMERCIO DE BEBIDAS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 3894.0
         },
         {
           "data": "12/06/2026",
@@ -87242,9 +87314,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2387076.13,
+        "fat": 2397677.03,
         "pos": 155.0,
-        "fat_pernod": 1211841.73,
+        "fat_pernod": 1220479.33,
         "fat_crs": 49852.32
       },
       "Mai/26": {
