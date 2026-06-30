@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "30/06/2026 17:53",
+  "atualizado_em": "30/06/2026 18:11",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -246,8 +246,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 65306.52
       },
       "Jun/26": {
-        "fat": 84111.22,
-        "pos": 60,
+        "fat": 85308.22,
+        "pos": 61,
         "fat_ant": 111009.88
       }
     },
@@ -95639,6 +95639,24 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 147.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "34010",
+          "cliente": "NOVA UAINER VINHOS E ENTRETENIMENTO LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 478.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "34010",
+          "cliente": "NOVA UAINER VINHOS E ENTRETENIMENTO LTDA",
+          "produto": "VINHO HORIZONTE TINTO 750ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 718.2
         },
         {
           "data": "30/06/2026",
