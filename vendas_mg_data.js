@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "30/06/2026 18:11",
+  "atualizado_em": "30/06/2026 18:42",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 329332.91,
-        "pos": 123,
+        "fat": 332191.85,
+        "pos": 124,
         "fat_ant": 312476.97
       }
     },
@@ -50131,6 +50131,69 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "30/06/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 215.2
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "EASY BOOZE SPRITZ LT 12X269ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 389.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 215.2
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 215.2
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "32808",
+          "cliente": "RESTAURANTE E PETISQUEIRA SCHONS LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 184.56
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "32808",
+          "cliente": "RESTAURANTE E PETISQUEIRA SCHONS LTDA",
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 273.12
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "32808",
+          "cliente": "RESTAURANTE E PETISQUEIRA SCHONS LTDA",
+          "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 5,
+          "valor": 718.8
+        },
+        {
+          "data": "30/06/2026",
           "codcli": "33223",
           "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
           "produto": "WHISKY JIM BEAM WHITE 1L",
@@ -50344,6 +50407,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 49.9
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "32813",
+          "cliente": "ROMA MERCEARIAS LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 1,
+          "valor": 143.76
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "32813",
+          "cliente": "ROMA MERCEARIAS LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 2,
+          "valor": 431.52
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "32813",
+          "cliente": "ROMA MERCEARIAS LTDA",
+          "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 1,
+          "valor": 71.88
         }
       ]
     },
