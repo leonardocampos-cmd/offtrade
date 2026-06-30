@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/06/2026 09:00",
+  "atualizado_em": "30/06/2026 14:36",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -51708,6 +51708,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "30/06/2026",
+          "codcli": "71949",
+          "cliente": "NATURALIS HORTIFRUTIGRANJEIROS LTDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 575.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71949",
+          "cliente": "NATURALIS HORTIFRUTIGRANJEIROS LTDA",
+          "produto": "RED BULL SF AMORA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 191.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71949",
+          "cliente": "NATURALIS HORTIFRUTIGRANJEIROS LTDA",
+          "produto": "RED BULL SF NECTARINA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 191.76,
+          "tipo": "Venda"
+        },
+        {
           "data": "09/06/2026",
           "codcli": "72233",
           "cliente": "45.258.125 RUTH KARLA DIAS HILARIO",
@@ -52015,6 +52045,96 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 96.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 81.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 81.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL SF AMORA",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 81.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL MORANGO PESSEGO",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32,
           "tipo": "Venda"
         },
         {
@@ -129958,6 +130078,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "30/06/2026",
+          "codcli": "90969",
+          "cliente": "BARAO DA OFELIA DELIVERY LTDA",
+          "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 2,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "90969",
+          "cliente": "BARAO DA OFELIA DELIVERY LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 6,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
           "data": "09/06/2026",
           "codcli": "91081",
           "cliente": "O ECONOMICO DA GAVEA LTDA",
@@ -197671,76 +197811,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 30,
           "valor": 537.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 390.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 18,
-          "valor": 585.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 36,
-          "valor": 2156.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 310.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
-          "fantasia": "CASTAS",
-          "qt": 18,
-          "valor": 610.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "CASTAS",
-          "qt": 18,
-          "valor": 610.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "85897",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 310.8,
           "tipo": "Venda"
         },
         {
@@ -314992,1358 +315062,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         }
       ],
-      "Jun/26": [
-        {
-          "data": "29/06/2026",
-          "codcli": "7191",
-          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 274.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "7191",
-          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VILLA ROSA  ROSE 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 137.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "7191",
-          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 24,
-          "valor": 789.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/06/2026",
-          "codcli": "7886",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 46,
-          "valor": 6200.33,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/06/2026",
-          "codcli": "7886",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 46,
-          "valor": 8210.32,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/06/2026",
-          "codcli": "7886",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 46,
-          "valor": 8210.32,
-          "tipo": "Venda"
-        },
-        {
-          "data": "04/06/2026",
-          "codcli": "7886",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 84,
-          "valor": 10161.07,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "APERITIVO LUCIA 750ML",
-          "fantasia": "LUCIA",
-          "qt": 180,
-          "valor": 13230.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "AZEITE OLIV EV ZETONA COZINHAR 12X500ML",
-          "fantasia": "MACROEX",
-          "qt": 10,
-          "valor": 4284.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "AZEITE OLIV EV ZETONA FINALIZAR 12X500ML",
-          "fantasia": "MACROEX",
-          "qt": 10,
-          "valor": 5064.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN AR 6X710ML LT",
-          "fantasia": "YVY",
-          "qt": 5,
-          "valor": 988.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN TERRA 6X710ML LT",
-          "fantasia": "YVY",
-          "qt": 3,
-          "valor": 592.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN TERRA 750ML",
-          "fantasia": "YVY",
-          "qt": 6,
-          "valor": 294.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN AR 6X710ML LT",
-          "fantasia": "YVY",
-          "qt": 5,
-          "valor": 987.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN TERRA 6X710ML LT",
-          "fantasia": "YVY",
-          "qt": 2,
-          "valor": 395.08,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN TERRA 750ML",
-          "fantasia": "YVY",
-          "qt": 12,
-          "valor": 588.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN AR 750ML",
-          "fantasia": "YVY",
-          "qt": 30,
-          "valor": 1470.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "produto": "YVY DESTILADO GIN MAR 750ML",
-          "fantasia": "YVY",
-          "qt": 48,
-          "valor": 2352.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "VINHO CHATEAU DAGASSAC TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 3660.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "GIN LARIOS ORIGINAL 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 515.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 588.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 42,
-          "valor": 1373.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 392.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 588.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "ESPUM CASA PERINI PROSECCO 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 588.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "VINHO ADELE ROSE 750ML",
-          "fantasia": "CASTAS",
-          "qt": 18,
-          "valor": 848.11,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M",
-          "fantasia": "CASTAS",
-          "qt": 18,
-          "valor": 1006.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "60844",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 335.94,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
-          "fantasia": "JURUPINGA",
-          "qt": 36,
-          "valor": 788.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "CACHACA SELETA 600ML",
-          "fantasia": "BOAZINHA",
-          "qt": 6,
-          "valor": 165.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 419.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 171.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 12,
-          "valor": 406.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 1,
-          "valor": 122.89,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "GIN BOMBAY SAPPHIRE 750ML",
-          "fantasia": "BACARDI",
-          "qt": 6,
-          "valor": 431.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "LATITUD 33 CABERNET SAUVIGNON",
-          "fantasia": "HENNESSY",
-          "qt": 2,
-          "valor": 67.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "GIN HENDRICK'S 750ML",
-          "fantasia": "NATIQUE",
-          "qt": 1,
-          "valor": 110.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "VINHO ALTOS DEL PLATA MALBEC 750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 257.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 209.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "LATITUD 33 CABERNET SAUVIGNON",
-          "fantasia": "HENNESSY",
-          "qt": 12,
-          "valor": 404.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "LICOR COINTREAU 700 ML",
-          "fantasia": "INTERFOOD",
-          "qt": 6,
-          "valor": 503.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 18,
-          "valor": 610.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 464.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 203.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "produto": "CHANDON RICHE DEMI-SEC 750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 12,
-          "valor": 946.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "74401",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1231.75,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "74407",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "VINHO ADELE ROSE 750ML",
-          "fantasia": "CASTAS",
-          "qt": 18,
-          "valor": 1009.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "74407",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "VINHO CHATEAU DAGASSAC TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 3660.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "74407",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M",
-          "fantasia": "CASTAS",
-          "qt": 18,
-          "valor": 1006.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "74407",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 335.94,
-          "tipo": "Venda"
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "74411",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "GIN LARIOS ORIGINAL 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 515.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "79595",
-          "cliente": "DOM ATACAREJO S.A.",
-          "produto": "GIN LARIOS ORIGINAL 700ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 515.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83970",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83970",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83970",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "AMARULA C LIQUEUR 750 ML",
-          "fantasia": "INTERFOOD",
-          "qt": 6,
-          "valor": 539.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83972",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "AMARULA C LIQUEUR 750 ML",
-          "fantasia": "INTERFOOD",
-          "qt": 6,
-          "valor": 539.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83972",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83972",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 209.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83972",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 18,
-          "valor": 412.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1150.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 24,
-          "valor": 2301.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1150.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 82.03,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "AGUA NA CAIXA 12X330ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 2,
-          "valor": 67.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 60,
-          "valor": 1974.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 274.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "AGUA NA CAIXA 12X500ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 2,
-          "valor": 71.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "CHANDON PASSION ON ICE 750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 18,
-          "valor": 1422.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 30,
-          "valor": 687.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 82.03,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 246.09,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "AGUA NA CAIXA 12X330ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 2,
-          "valor": 67.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "AGUA NA CAIXA 12X500ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 2,
-          "valor": 71.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84030",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 90,
-          "valor": 2961.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "CHANDON PASSION ON ICE 750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 12,
-          "valor": 948.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 18,
-          "valor": 412.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 246.09,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 246.09,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 246.09,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 246.09,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING BOOSTER LIMAO 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 455.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 120,
-          "valor": 3948.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 24,
-          "valor": 2301.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 60,
-          "valor": 1974.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 82.03,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 164.06,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 164.06,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 164.06,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "AGUA NA CAIXA 12X500ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 2,
-          "valor": 71.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 60,
-          "valor": 1974.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1150.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 164.06,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "AGUA NA CAIXA 12X330ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 2,
-          "valor": 67.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83986",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83986",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 209.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83986",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83990",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "AMARULA C LIQUEUR 750 ML",
-          "fantasia": "INTERFOOD",
-          "qt": 6,
-          "valor": 539.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83990",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83990",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 209.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83990",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83995",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "AMARULA C LIQUEUR 750 ML",
-          "fantasia": "INTERFOOD",
-          "qt": 6,
-          "valor": 539.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84011",
-          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "CHANDON PASSION ON ICE 750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 474.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84011",
-          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 137.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84011",
-          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 24,
-          "valor": 789.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83974",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83974",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83974",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 209.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83974",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83976",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83976",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "83976",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84025",
-          "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 164.06,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84025",
-          "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
-          "produto": "AGUA NA CAIXA 12X330ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 2,
-          "valor": 67.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84025",
-          "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
-          "produto": "AGUA NA CAIXA 12X500ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 2,
-          "valor": 71.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84025",
-          "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 274.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84025",
-          "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1150.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84025",
-          "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 164.06,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "AGUA NA CAIXA 12X500ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 2,
-          "valor": 71.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 90,
-          "valor": 2961.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "CHANDON PASSION ON ICE 750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 12,
-          "valor": 948.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "AGUA NA CAIXA 12X330ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 2,
-          "valor": 67.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "91668",
-          "cliente": "SENDAS DISTRIBUIDORA S/A",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 132,
-          "valor": 12658.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "91668",
-          "cliente": "SENDAS DISTRIBUIDORA S/A",
-          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 624,
-          "valor": 59841.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "91668",
-          "cliente": "SENDAS DISTRIBUIDORA S/A",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 48,
-          "valor": 4603.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "94914",
-          "cliente": "CASAFRUTI DAS AMERICAS S/A",
-          "produto": "GIN MARINA 750ML",
-          "fantasia": "HOB",
-          "qt": 48,
-          "valor": 1627.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "94914",
-          "cliente": "CASAFRUTI DAS AMERICAS S/A",
-          "produto": "GIN MARINA ROSE 750ML",
-          "fantasia": "HOB",
-          "qt": 42,
-          "valor": 1423.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "94914",
-          "cliente": "CASAFRUTI DAS AMERICAS S/A",
-          "produto": "DRYCAT LONDON DRY GIN",
-          "fantasia": "DRYCAT DESTLARIA LTDA",
-          "qt": 42,
-          "valor": 2305.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "94914",
-          "cliente": "CASAFRUTI DAS AMERICAS S/A",
-          "produto": "DRYCAT SECO 750ML",
-          "fantasia": "DRYCAT DESTLARIA LTDA",
-          "qt": 42,
-          "valor": 2305.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "94914",
-          "cliente": "CASAFRUTI DAS AMERICAS S/A",
-          "produto": "DRYCAT PREMIUM 750ML",
-          "fantasia": "DRYCAT DESTLARIA LTDA",
-          "qt": 36,
-          "valor": 2156.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "94914",
-          "cliente": "CASAFRUTI DAS AMERICAS S/A",
-          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
-          "fantasia": "HOB",
-          "qt": 48,
-          "valor": 1051.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "94914",
-          "cliente": "CASAFRUTI DAS AMERICAS S/A",
-          "produto": "CACHACA JOIA DA SERRA OURO 1L",
-          "fantasia": "HOB",
-          "qt": 48,
-          "valor": 1051.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "95519",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "95519",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 209.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "95519",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 233.4,
-          "tipo": "Venda"
-        }
-      ],
       "Mai/26": [
         {
           "data": "19/05/2026",
@@ -316353,66 +315071,6 @@ const VENDAS_DATA = {
           "fantasia": "LUCIA",
           "qt": 1104,
           "valor": 84521.1,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "7886",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 86,
-          "valor": 10403.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "7886",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 46,
-          "valor": 6200.33,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "7886",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 23,
-          "valor": 3100.16,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "7886",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 46,
-          "valor": 8210.32,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "7886",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 84,
-          "valor": 9549.33,
-          "tipo": "Venda"
-        },
-        {
-          "data": "22/05/2026",
-          "codcli": "7886",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 46,
-          "valor": 8210.32,
           "tipo": "Venda"
         },
         {
@@ -317703,6 +316361,868 @@ const VENDAS_DATA = {
           "fantasia": "HENNESSY",
           "qt": 30,
           "valor": 2097.0,
+          "tipo": "Venda"
+        }
+      ],
+      "Jun/26": [
+        {
+          "data": "04/06/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 46,
+          "valor": 6200.33,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/06/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 46,
+          "valor": 8210.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/06/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 46,
+          "valor": 8210.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/06/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 84,
+          "valor": 10161.07,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
+          "qt": 180,
+          "valor": 13230.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "AZEITE OLIV EV ZETONA COZINHAR 12X500ML",
+          "fantasia": "MACROEX",
+          "qt": 10,
+          "valor": 4284.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "AZEITE OLIV EV ZETONA FINALIZAR 12X500ML",
+          "fantasia": "MACROEX",
+          "qt": 10,
+          "valor": 5064.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN AR 6X710ML LT",
+          "fantasia": "YVY",
+          "qt": 5,
+          "valor": 988.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN TERRA 6X710ML LT",
+          "fantasia": "YVY",
+          "qt": 3,
+          "valor": 592.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN TERRA 750ML",
+          "fantasia": "YVY",
+          "qt": 6,
+          "valor": 294.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN AR 6X710ML LT",
+          "fantasia": "YVY",
+          "qt": 5,
+          "valor": 987.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN TERRA 6X710ML LT",
+          "fantasia": "YVY",
+          "qt": 2,
+          "valor": 395.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN TERRA 750ML",
+          "fantasia": "YVY",
+          "qt": 12,
+          "valor": 588.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN AR 750ML",
+          "fantasia": "YVY",
+          "qt": 30,
+          "valor": 1470.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "produto": "YVY DESTILADO GIN MAR 750ML",
+          "fantasia": "YVY",
+          "qt": 48,
+          "valor": 2352.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VINHO CHATEAU DAGASSAC TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 3660.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "GIN LARIOS ORIGINAL 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 515.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 588.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 42,
+          "valor": 1373.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 392.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 588.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "ESPUM CASA PERINI PROSECCO 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 18,
+          "valor": 588.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 18,
+          "valor": 848.11,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M",
+          "fantasia": "CASTAS",
+          "qt": 18,
+          "valor": 1006.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "60844",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 335.94,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "fantasia": "JURUPINGA",
+          "qt": 36,
+          "valor": 788.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "CACHACA SELETA 600ML",
+          "fantasia": "BOAZINHA",
+          "qt": 6,
+          "valor": 165.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 419.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 171.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 406.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 122.89,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 431.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 2,
+          "valor": 67.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "GIN HENDRICK'S 750ML",
+          "fantasia": "NATIQUE",
+          "qt": 1,
+          "valor": 110.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "VINHO ALTOS DEL PLATA MALBEC 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 257.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 404.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "LICOR COINTREAU 700 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 6,
+          "valor": 503.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 18,
+          "valor": 610.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 464.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 203.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "produto": "CHANDON RICHE DEMI-SEC 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 946.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "74401",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1231.75,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "74407",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 18,
+          "valor": 1009.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "74407",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VINHO CHATEAU DAGASSAC TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 3660.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "74407",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M",
+          "fantasia": "CASTAS",
+          "qt": 18,
+          "valor": 1006.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "74407",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 335.94,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "74411",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "GIN LARIOS ORIGINAL 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 515.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "79595",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "GIN LARIOS ORIGINAL 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 515.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83970",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83970",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83970",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 6,
+          "valor": 539.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83972",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 6,
+          "valor": 539.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83972",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83972",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83972",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83986",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83986",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83986",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83990",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 6,
+          "valor": 539.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83990",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83990",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83990",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83995",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 6,
+          "valor": 539.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83974",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83974",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83974",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83974",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83976",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83976",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "83976",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "84033",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 90,
+          "valor": 2961.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "84033",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 948.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "91668",
+          "cliente": "SENDAS DISTRIBUIDORA S/A",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 132,
+          "valor": 12658.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "91668",
+          "cliente": "SENDAS DISTRIBUIDORA S/A",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 624,
+          "valor": 59841.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "91668",
+          "cliente": "SENDAS DISTRIBUIDORA S/A",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 48,
+          "valor": 4603.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94914",
+          "cliente": "CASAFRUTI DAS AMERICAS S/A",
+          "produto": "GIN MARINA 750ML",
+          "fantasia": "HOB",
+          "qt": 48,
+          "valor": 1627.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94914",
+          "cliente": "CASAFRUTI DAS AMERICAS S/A",
+          "produto": "GIN MARINA ROSE 750ML",
+          "fantasia": "HOB",
+          "qt": 42,
+          "valor": 1423.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94914",
+          "cliente": "CASAFRUTI DAS AMERICAS S/A",
+          "produto": "DRYCAT LONDON DRY GIN",
+          "fantasia": "DRYCAT DESTLARIA LTDA",
+          "qt": 42,
+          "valor": 2305.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94914",
+          "cliente": "CASAFRUTI DAS AMERICAS S/A",
+          "produto": "DRYCAT SECO 750ML",
+          "fantasia": "DRYCAT DESTLARIA LTDA",
+          "qt": 42,
+          "valor": 2305.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94914",
+          "cliente": "CASAFRUTI DAS AMERICAS S/A",
+          "produto": "DRYCAT PREMIUM 750ML",
+          "fantasia": "DRYCAT DESTLARIA LTDA",
+          "qt": 36,
+          "valor": 2156.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94914",
+          "cliente": "CASAFRUTI DAS AMERICAS S/A",
+          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+          "fantasia": "HOB",
+          "qt": 48,
+          "valor": 1051.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "94914",
+          "cliente": "CASAFRUTI DAS AMERICAS S/A",
+          "produto": "CACHACA JOIA DA SERRA OURO 1L",
+          "fantasia": "HOB",
+          "qt": 48,
+          "valor": 1051.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "95519",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "95519",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 209.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "95519",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
           "tipo": "Venda"
         }
       ],
@@ -377356,6 +376876,106 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 267.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 9,
+          "valor": 1205.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 372.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 175.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 351.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 175.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 267.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 13,
+          "valor": 2925.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 930.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 7,
+          "valor": 1575.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "23/06/2026",
           "codcli": "82537",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
@@ -412593,6 +412213,66 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 4,
           "valor": 858.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85951",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
+          "produto": "NG BARRA NEUGE 80G BRANCO (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85951",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
+          "produto": "NG BARRA NEUGE 80G AMENDOLATE (DP 16X80G",
+          "fantasia": "NOIG",
+          "qt": 2,
+          "valor": 127.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85951",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
+          "produto": "NG BARRA NEUGE 80G P&B (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85951",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
+          "produto": "NG BARRA NEUGE 80G FLOCOS (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 8,
+          "valor": 510.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85951",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
+          "produto": "NG BARRA NEUGE 80G COOKIES BRANCO (DP 16",
+          "fantasia": "NOIG",
+          "qt": 8,
+          "valor": 510.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85951",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
+          "produto": "NG BARRA 80G 40% MEIO AMARGO (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 8,
+          "valor": 510.72,
           "tipo": "Venda"
         },
         {
@@ -458786,36 +458466,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "26/06/2026",
-          "codcli": "39190",
-          "cliente": "COMERCIO DE BEBIDAS CL LTDA",
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1341.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/06/2026",
-          "codcli": "39190",
-          "cliente": "COMERCIO DE BEBIDAS CL LTDA",
-          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 1197.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/06/2026",
-          "codcli": "39190",
-          "cliente": "COMERCIO DE BEBIDAS CL LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 36,
-          "valor": 3599.64,
-          "tipo": "Venda"
-        },
-        {
           "data": "17/06/2026",
           "codcli": "39600",
           "cliente": "MAZARO ROZETTI DOCES - COMERCIAL DE ALIMENTOS LTDA",
@@ -459213,36 +458863,6 @@ const VENDAS_DATA = {
           "fantasia": "CAMPARI",
           "qt": 60,
           "valor": 2994.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/06/2026",
-          "codcli": "40916",
-          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
-          "produto": "WHISKY BUCHANANS 12 YEARS 1L",
-          "fantasia": "DIAGEO",
-          "qt": 12,
-          "valor": 1933.08,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/06/2026",
-          "codcli": "40916",
-          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 24,
-          "valor": 693.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/06/2026",
-          "codcli": "40916",
-          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
-          "produto": "VODKA CIROC 750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 5,
-          "valor": 725.0,
           "tipo": "Venda"
         },
         {
@@ -460073,26 +459693,6 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 4,
           "valor": 399.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "46387",
-          "cliente": "MERCADO SAMURAI KEMEL LTDA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
-          "qt": 12,
-          "valor": 202.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "46387",
-          "cliente": "MERCADO SAMURAI KEMEL LTDA",
-          "produto": "CERVEJA HEINEKEN LATA 8X269ML",
-          "fantasia": "HEINEKEN BRASIL",
-          "qt": 20,
-          "valor": 630.0,
           "tipo": "Venda"
         },
         {
@@ -469573,56 +469173,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "50599",
-          "cliente": "SUPERMERCADO FERNANDES DE IGARACU LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 48,
-          "valor": 431.52,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "50599",
-          "cliente": "SUPERMERCADO FERNANDES DE IGARACU LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 669.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "50599",
-          "cliente": "SUPERMERCADO FERNANDES DE IGARACU LTDA",
-          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 1198.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "50599",
-          "cliente": "SUPERMERCADO FERNANDES DE IGARACU LTDA",
-          "produto": "LICOR BALLENA MORANGO 750ML",
-          "fantasia": "BALLENA",
-          "qt": 6,
-          "valor": 479.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "50599",
-          "cliente": "SUPERMERCADO FERNANDES DE IGARACU LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 1198.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
           "codcli": "50599",
           "cliente": "SUPERMERCADO FERNANDES DE IGARACU LTDA",
           "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
@@ -492696,156 +492246,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "CATUABA SELVAGEM ACAI 900ML",
-          "fantasia": "COMARY",
-          "qt": 36,
-          "valor": 490.32,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 36,
-          "valor": 1004.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "RUM BACARDI CARTA BLANCA 980ML",
-          "fantasia": "BACARDI",
-          "qt": 36,
-          "valor": 1239.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 120,
-          "valor": 1198.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "TEQUILA J CUERVO GOLD 750ML",
-          "fantasia": "AURORA",
-          "qt": 24,
-          "valor": 2013.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "CACHAÇA SAO FRANCISCO 970ML",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 1314.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "CATUABA SELVAGEM 900ML",
-          "fantasia": "COMARY",
-          "qt": 48,
-          "valor": 653.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 240,
-          "valor": 2157.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "MARTINI BIANCO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 60,
-          "valor": 1737.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "MARTINI ROSATO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 60,
-          "valor": 1691.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "MARTINI ROSSO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 36,
-          "valor": 1116.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "VODKA ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 1194.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "CHANCELER SABOR CANELA 1000ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 120,
-          "valor": 1558.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "CHANCELER SABOR MEL 1000ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 120,
-          "valor": 1558.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "48318",
-          "cliente": "SUPERMERCADO KAÇULA LTDA",
-          "produto": "WHISKY CHANCELER 1L",
-          "fantasia": "CRS BRANDS",
-          "qt": 360,
-          "valor": 4676.4,
-          "tipo": "Venda"
-        },
-        {
           "data": "30/06/2026",
           "codcli": "48318",
           "cliente": "SUPERMERCADO KAÇULA LTDA",
@@ -494854,36 +494254,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "20/06/2026",
-          "codcli": "50967",
-          "cliente": "CALVO COMERCIO E IMPORTACAO LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 120,
-          "valor": 3447.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "50967",
-          "cliente": "CALVO COMERCIO E IMPORTACAO LTDA",
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1374.24,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "50967",
-          "cliente": "CALVO COMERCIO E IMPORTACAO LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 1258.8,
-          "tipo": "Venda"
-        },
-        {
           "data": "17/06/2026",
           "codcli": "50644",
           "cliente": "MERCADO NOVO SILVESTRE LTDA",
@@ -496698,16 +496068,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "24/06/2026",
-          "codcli": "34970",
-          "cliente": "ANDERSON SILVA NASCIMENTO",
-          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-          "fantasia": "DIAGEO",
-          "qt": 4,
-          "valor": 979.6,
-          "tipo": "Venda"
-        },
-        {
           "data": "29/06/2026",
           "codcli": "34970",
           "cliente": "ANDERSON SILVA NASCIMENTO",
@@ -496865,36 +496225,6 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 2,
           "valor": 267.32,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "51229",
-          "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
-          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 116.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "51229",
-          "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
-          "produto": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
-          "fantasia": "AURORA",
-          "qt": 2,
-          "valor": 267.32,
-          "tipo": "Venda"
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "51229",
-          "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
-          "produto": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 133.66,
           "tipo": "Venda"
         },
         {
@@ -503832,17 +503162,7 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "29/06/2026",
-          "codcli": "40664",
-          "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 2880,
-          "valor": 73411.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/06/2026",
+          "data": "30/06/2026",
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "WHISKY PASSPORT 1L",
@@ -503852,13 +503172,23 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "29/06/2026",
+          "data": "30/06/2026",
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "CACHAÇA SAO FRANCISCO 970ML",
           "fantasia": "PERNOD",
-          "qt": 3696,
-          "valor": 75731.04,
+          "qt": 5280,
+          "valor": 108187.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "40664",
+          "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 2880,
+          "valor": 73411.2,
           "tipo": "Venda"
         },
         {
