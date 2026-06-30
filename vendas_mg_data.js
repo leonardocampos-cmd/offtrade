@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "29/06/2026 17:02",
+  "atualizado_em": "30/06/2026 09:02",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 303816.51,
-        "pos": 122,
+        "fat": 306660.43,
+        "pos": 123,
         "fat_ant": 312476.97
       }
     },
@@ -49816,6 +49816,60 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "29/06/2026",
+          "codcli": "33257",
+          "cliente": "F2 COMERCIO LTDA.",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 95.88
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "33257",
+          "cliente": "F2 COMERCIO LTDA.",
+          "produto": "LICOR COINTREAU 700 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 165.9
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "33257",
+          "cliente": "F2 COMERCIO LTDA.",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 154.9
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "33257",
+          "cliente": "F2 COMERCIO LTDA.",
+          "produto": "CHANDON BABY BRUT 187 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 119.6
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "33257",
+          "cliente": "F2 COMERCIO LTDA.",
+          "produto": "CHANDON BABY BRUT ROSE 187 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 203.4
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "33257",
+          "cliente": "F2 COMERCIO LTDA.",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 179.8
+        },
+        {
+          "data": "29/06/2026",
           "codcli": "32769",
           "cliente": "MOREIRAS BAR CLUBE LTDA",
           "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
@@ -50029,6 +50083,51 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 4,
           "valor": 359.6
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "33618",
+          "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 383.52
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "33618",
+          "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 383.52
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "33618",
+          "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 478.8
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "33618",
+          "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 479.4
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "33618",
+          "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 199.2
         }
       ]
     },
