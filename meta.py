@@ -113,9 +113,9 @@ _parts_vendas = [
     carregar_dados(_query_vendas("thekings", filtro_estent="RJ"), engine_theking, "vendas_thekings"),
 ]
 for _s, _e, _n, _fe in [
-    ("CASTAS", engine_castas,  "vendas_CASTAS",  None),
-    ("GARRIDO", engine_garrido, "vendas_GARRIDO", None),
-    ("SPON",    engine_spon,    "vendas_SPON",    None),
+    ("CASTAS",  engine_castas,  "vendas_CASTAS",  "RJ"),
+    ("GARRIDO", engine_garrido, "vendas_GARRIDO", "RJ"),
+    ("SPON",    engine_spon,    "vendas_SPON",    "RJ"),
 ]:
     try:
         _parts_vendas.append(carregar_dados(_query_vendas(_s, filtro_filial=None, filtro_estent=_fe), _e, _n))
@@ -151,9 +151,9 @@ _parts_vendas_ant = [
     carregar_dados(_query_vendas("thekings", mes_anterior=True, filtro_estent="RJ"), engine_theking, "vendas_anterior_thekings"),
 ]
 for _s, _e, _n, _fe in [
-    ("CASTAS", engine_castas,  "vendas_anterior_CASTAS",  None),
-    ("GARRIDO", engine_garrido, "vendas_anterior_GARRIDO", None),
-    ("SPON",    engine_spon,    "vendas_anterior_SPON",    None),
+    ("CASTAS",  engine_castas,  "vendas_anterior_CASTAS",  "RJ"),
+    ("GARRIDO", engine_garrido, "vendas_anterior_GARRIDO", "RJ"),
+    ("SPON",    engine_spon,    "vendas_anterior_SPON",    "RJ"),
 ]:
     try:
         _parts_vendas_ant.append(carregar_dados(_query_vendas(_s, mes_anterior=True, filtro_filial=None, filtro_estent=_fe), _e, _n))

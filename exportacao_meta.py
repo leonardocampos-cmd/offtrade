@@ -69,7 +69,7 @@ def _nome_filter(extra_nomes=None):
 def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extra_nomes=None):
     s = schema.upper()
     extra_filial = f"\n          AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
-    extra_estent = f"\n          AND C.ESTENT = '{filtro_estent}'" if filtro_estent else ""
+    extra_estent = f"\n          AND U.ESTADO = '{filtro_estent}'" if filtro_estent else ""
     nome_f = _nome_filter(extra_nomes)
     return f"""
         SELECT
@@ -101,9 +101,9 @@ _SPON_EXTRA = ['%W.S%']
 _VH_CONFIGS = [
     ("CRC",     engine,         "vendas_hist_CRC",     "(1, 2, 4)", "RJ",  "CRC",       None),
     ("thekings",engine_theking, "vendas_hist_thekings","(1, 2, 4)", "RJ",  "The Kings", None),
-    ("CASTAS",  engine_castas,  "vendas_hist_CASTAS",  None,        None,  "Castas",    None),
-    ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None,        None,  "Garrido",   None),
-    ("SPON",    engine_spon,    "vendas_hist_SPON",    None,        None,  "SPON",      _SPON_EXTRA),
+    ("CASTAS",  engine_castas,  "vendas_hist_CASTAS",  None,        "RJ",  "Castas",    None),
+    ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None,        "RJ",  "Garrido",   None),
+    ("SPON",    engine_spon,    "vendas_hist_SPON",    None,        "RJ",  "SPON",      _SPON_EXTRA),
 ]
 _vh_parts = []
 for _s, _e, _n, _ff, _fe, _emp, _en in _VH_CONFIGS:
@@ -272,7 +272,7 @@ def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extr
     s = schema.upper()
     extra_filial = f"\n          AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
     join_cli     = f"\n        JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI" if filtro_estent else ""
-    extra_estent = f"\n          AND C.ESTENT = '{filtro_estent}'" if filtro_estent else ""
+    extra_estent = f"\n          AND U.ESTADO = '{filtro_estent}'" if filtro_estent else ""
     nome_f = _nome_filter(extra_nomes)
     return f"""
         SELECT
