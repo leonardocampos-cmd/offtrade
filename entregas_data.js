@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/06/2026 18:11",
+  "atualizado_em": "30/06/2026 18:41",
   "data_rota": "30.06",
   "vendedores": [
     {
@@ -3675,6 +3675,36 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "471000382",
+          "numnota": "",
+          "data": "30/06/2026",
+          "cliente": "MERCADINHO PERNAMBUCO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 636.0,
+          "itens": [
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 12,
+              "val": 336.0
+            },
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 12,
+              "val": 150.0
+            },
+            {
+              "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+              "qt": 12,
+              "val": 150.0
+            }
+          ]
+        },
+        {
           "numped": "471000380",
           "numnota": "",
           "data": "30/06/2026",
@@ -3691,6 +3721,36 @@ const ENTREGAS_DATA = {
               "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
               "qt": 10,
               "val": 2748.0
+            }
+          ]
+        },
+        {
+          "numped": "471000383",
+          "numnota": "",
+          "data": "30/06/2026",
+          "cliente": "LUCIA ELENA SANTANA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 268.79,
+          "itens": [
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 1,
+              "val": 139.9
+            },
+            {
+              "desc": "GIN MARINA 750ML",
+              "qt": 1,
+              "val": 29.05
+            },
+            {
+              "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+              "qt": 1,
+              "val": 99.84
             }
           ]
         },
@@ -3801,6 +3861,41 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "471000374",
+          "numnota": "407798.0",
+          "data": "30/06/2026",
+          "cliente": "FARMACIA FARMALANDIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entrega agendada para o dia 01/07",
+          "total": 315.93,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.68
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 1,
+              "val": 31.89
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.68
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.68
+            }
+          ]
+        },
         {
           "numped": "471000375",
           "numnota": "407807.0",
@@ -4346,41 +4441,6 @@ const ENTREGAS_DATA = {
             },
             {
               "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 1,
-              "val": 94.68
-            }
-          ]
-        },
-        {
-          "numped": "471000374",
-          "numnota": "407798.0",
-          "data": "30/06/2026",
-          "cliente": "FARMACIA FARMALANDIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entrega agendada para o dia 01/07",
-          "total": 315.93,
-          "itens": [
-            {
-              "desc": "GUARAVITON GINSENG 12X500ML",
-              "qt": 1,
-              "val": 31.89
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "qt": 1,
-              "val": 94.68
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 1,
-              "val": 94.68
-            },
-            {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
               "qt": 1,
               "val": 94.68
             }
@@ -8777,36 +8837,6 @@ const ENTREGAS_DATA = {
           "total": 5665.68,
           "itens": [
             {
-              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-              "qt": 1,
-              "val": 153.36
-            },
-            {
-              "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-              "qt": 2,
-              "val": 251.8
-            },
-            {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 3,
-              "val": 748.5
-            },
-            {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 3,
-              "val": 748.5
-            },
-            {
-              "desc": "RC ATUM RALADO NATURAL 24X140G",
-              "qt": 1,
-              "val": 153.36
-            },
-            {
-              "desc": "RC ATUM RALADO OLEO 24X140G",
-              "qt": 1,
-              "val": 153.36
-            },
-            {
               "desc": "RC ATUM SOLIDO NATURAL 24X170G",
               "qt": 3,
               "val": 625.68
@@ -8835,6 +8865,36 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
               "qt": 3,
               "val": 575.28
+            },
+            {
+              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+              "qt": 1,
+              "val": 153.36
+            },
+            {
+              "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+              "qt": 2,
+              "val": 251.8
+            },
+            {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 3,
+              "val": 748.5
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 3,
+              "val": 748.5
+            },
+            {
+              "desc": "RC ATUM RALADO NATURAL 24X140G",
+              "qt": 1,
+              "val": 153.36
+            },
+            {
+              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "qt": 1,
+              "val": 153.36
             }
           ]
         },
@@ -9009,6 +9069,26 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "412001383",
+          "numnota": "",
+          "data": "30/06/2026",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
+          "total": 499.0,
+          "itens": [
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 2,
+              "val": 499.0
+            }
+          ]
+        },
+        {
           "numped": "412001377",
           "numnota": "",
           "data": "30/06/2026",
@@ -9021,6 +9101,21 @@ const ENTREGAS_DATA = {
           "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
           "total": 3303.58,
           "itens": [
+            {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 2,
+              "val": 499.0
+            },
+            {
+              "desc": "RC ATUM RALADO NATURAL 24X140G",
+              "qt": 1,
+              "val": 151.36
+            },
+            {
+              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "qt": 1,
+              "val": 151.36
+            },
             {
               "desc": "RC ATUM SOLIDO NATURAL 24X170G",
               "qt": 2,
@@ -9060,21 +9155,6 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
               "qt": 1,
               "val": 125.9
-            },
-            {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 2,
-              "val": 499.0
-            },
-            {
-              "desc": "RC ATUM RALADO NATURAL 24X140G",
-              "qt": 1,
-              "val": 151.36
-            },
-            {
-              "desc": "RC ATUM RALADO OLEO 24X140G",
-              "qt": 1,
-              "val": 151.36
             }
           ]
         },
@@ -9187,6 +9267,21 @@ const ENTREGAS_DATA = {
           "total": 5665.68,
           "itens": [
             {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 3,
+              "val": 748.5
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 3,
+              "val": 748.5
+            },
+            {
+              "desc": "RC ATUM RALADO NATURAL 24X140G",
+              "qt": 1,
+              "val": 153.36
+            },
+            {
               "desc": "RC ATUM RALADO OLEO 24X140G",
               "qt": 1,
               "val": 153.36
@@ -9230,21 +9325,6 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
               "qt": 2,
               "val": 251.8
-            },
-            {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 3,
-              "val": 748.5
-            },
-            {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 3,
-              "val": 748.5
-            },
-            {
-              "desc": "RC ATUM RALADO NATURAL 24X140G",
-              "qt": 1,
-              "val": 153.36
             }
           ]
         },
@@ -9320,26 +9400,6 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
               "qt": 1,
               "val": 125.9
-            }
-          ]
-        },
-        {
-          "numped": "412001383",
-          "numnota": "",
-          "data": "30/06/2026",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
-          "total": 499.0,
-          "itens": [
-            {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 2,
-              "val": 499.0
             }
           ]
         },
@@ -18318,6 +18378,11 @@ const ENTREGAS_DATA = {
           "total": 1420.2,
           "itens": [
             {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 3,
+              "val": 236.7
+            },
+            {
               "desc": "COQUETEL PINK MOON 12X600ML - PET",
               "qt": 5,
               "val": 409.5
@@ -18326,11 +18391,6 @@ const ENTREGAS_DATA = {
               "desc": "COQUETEL COMPOSTO PINK MOON 6X2L",
               "qt": 6,
               "val": 774.0
-            },
-            {
-              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
-              "qt": 3,
-              "val": 236.7
             }
           ]
         },
@@ -19948,6 +20008,36 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "159004954",
+          "numnota": "",
+          "data": "30/06/2026",
+          "cliente": "ARM COMERCIO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 284.1,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ]
+        },
+        {
           "numped": "159004956",
           "numnota": "",
           "data": "30/06/2026",
@@ -20104,36 +20194,6 @@ const ENTREGAS_DATA = {
               "desc": "BAER MATE LN  6X350ML",
               "qt": 6,
               "val": 215.64
-            }
-          ]
-        },
-        {
-          "numped": "159004954",
-          "numnota": "",
-          "data": "30/06/2026",
-          "cliente": "ARM COMERCIO DE BEBIDAS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 284.1,
-          "itens": [
-            {
-              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
             }
           ]
         },
@@ -26440,26 +26500,6 @@ const ENTREGAS_DATA = {
       ],
       "emitido_s_rota": [
         {
-          "numped": "379001180",
-          "numnota": "407842.0",
-          "data": "30/06/2026",
-          "cliente": "36.256.387 VALERIA NASCIMENTO DE AVELLAR",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 269.7,
-          "itens": [
-            {
-              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-              "qt": 3,
-              "val": 269.7
-            }
-          ]
-        },
-        {
           "numped": "379001175",
           "numnota": "407670.0",
           "data": "30/06/2026",
@@ -26575,22 +26615,42 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "379001180",
+          "numnota": "407842.0",
+          "data": "30/06/2026",
+          "cliente": "36.256.387 VALERIA NASCIMENTO DE AVELLAR",
+          "placa": "",
+          "rota": "",
+          "status_ped": "CANCELADA",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 0,
+              "val": 0.0
+            }
+          ]
+        },
+        {
           "numped": "379001181",
           "numnota": "407835.0",
           "data": "30/06/2026",
           "cliente": "SEVERINO MAMEDES DE LIMA BAR E MERCEARIA",
           "placa": "",
           "rota": "",
-          "status_ped": "",
+          "status_ped": "CANCELADA",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 269.7,
+          "total": 0.0,
           "itens": [
             {
               "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-              "qt": 3,
-              "val": 269.7
+              "qt": 0,
+              "val": 0.0
             }
           ]
         },
@@ -47704,21 +47764,21 @@ const ENTREGAS_DATA = {
           "cliente": "61.739.029 RAFAELA DE CASTRO ABREU SARMENTO DA SILVA",
           "placa": "",
           "rota": "",
-          "status_ped": "",
+          "status_ped": "CANCELADA",
           "status_log": "",
           "motivo": "",
           "obs": "data entrega 26/06",
-          "total": 1167.6,
+          "total": 0.0,
           "itens": [
             {
               "desc": "AMARULA CREAM 12X750ML +6 COPOS DUBAI",
-              "qt": 1,
-              "val": 1080.0
+              "qt": 0,
+              "val": 0.0
             },
             {
               "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-              "qt": 1,
-              "val": 87.6
+              "qt": 0,
+              "val": 0.0
             }
           ]
         },
