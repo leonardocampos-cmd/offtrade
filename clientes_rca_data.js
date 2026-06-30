@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/06/2026 17:54",
-  "total": 4219,
+  "atualizado_em": "30/06/2026 18:12",
+  "total": 4221,
   "clientes": [
     {
       "codcli": "31683",
@@ -23832,6 +23832,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51433",
+      "razao": "GONCALVES E LOPES MERCEARIA LTDA",
+      "fantasia": "MERCADO FELIPAO",
+      "bairro": "JARDIM CAMPINEIRO",
+      "cidade": "CAMPINAS",
+      "cnpj": "65.264.993/0001-54",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "46646",
       "razao": "GORDAO BEER BEBIDAS E MERCEARIA LTDA",
       "fantasia": "GORDAO BEER BEBIDAS E MERCEARIA",
@@ -36400,6 +36414,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "419",
       "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51434",
+      "razao": "MERCADO SILVA JUNDIAI LTDA",
+      "fantasia": "MERCADO SILVA JUNDIAI",
+      "bairro": "JARDIM DO LAGO",
+      "cidade": "JUNDIAI",
+      "cnpj": "12.832.951/0001-06",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
