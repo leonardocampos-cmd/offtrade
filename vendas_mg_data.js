@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "30/06/2026 16:53",
+  "atualizado_em": "30/06/2026 17:53",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -224,7 +224,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 1106013.96
       },
       "Jun/26": {
-        "fat": 659993.7,
+        "fat": 658859.7,
         "pos": 8,
         "fat_ant": 896376.5
       }
@@ -85938,87 +85938,6 @@ const VENDAS_MG_DATA = {
           "valor": 11743.2
         },
         {
-          "data": "24/06/2026",
-          "codcli": "33139",
-          "cliente": "COMERCIAL GALA LTDA",
-          "produto": "WHISKY JACK DANIELS FIRE 700 ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1134.0
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "33139",
-          "cliente": "COMERCIAL GALA LTDA",
-          "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
-          "qt": 240,
-          "valor": 15816.0
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "33139",
-          "cliente": "COMERCIAL GALA LTDA",
-          "produto": "WHISKY JACK DANIELS 700 ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 5670.0
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "33139",
-          "cliente": "COMERCIAL GALA LTDA",
-          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-          "fantasia": "",
-          "qt": 180,
-          "valor": 3762.0
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "33139",
-          "cliente": "COMERCIAL GALA LTDA",
-          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
-          "fantasia": "",
-          "qt": 240,
-          "valor": 5016.0
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "33139",
-          "cliente": "COMERCIAL GALA LTDA",
-          "produto": "XAROPE MONIN MORANGO 330 ML",
-          "fantasia": "",
-          "qt": 180,
-          "valor": 3762.0
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "33139",
-          "cliente": "COMERCIAL GALA LTDA",
-          "produto": "XAROPE  MONIN TANGERINA 330 ML",
-          "fantasia": "",
-          "qt": 180,
-          "valor": 3762.0
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "33139",
-          "cliente": "COMERCIAL GALA LTDA",
-          "produto": "XAROPE MONIN GENGIBRE 330 ML",
-          "fantasia": "",
-          "qt": 72,
-          "valor": 1504.8
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "33139",
-          "cliente": "COMERCIAL GALA LTDA",
-          "produto": "XAROPE MONIN LIMÃO GLASCO 330 ML",
-          "fantasia": "",
-          "qt": 174,
-          "valor": 3636.6
-        },
-        {
           "data": "25/06/2026",
           "codcli": "30231",
           "cliente": "ORGANIZACAO VERDEMAR LTDA",
@@ -86161,6 +86080,78 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 204,
           "valor": 13872.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33139",
+          "cliente": "COMERCIAL GALA LTDA",
+          "produto": "XAROPE  MONIN TANGERINA 330 ML",
+          "fantasia": "",
+          "qt": 180,
+          "valor": 3762.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33139",
+          "cliente": "COMERCIAL GALA LTDA",
+          "produto": "WHISKY BALLANTINE'S FINEST 1L",
+          "fantasia": "",
+          "qt": 240,
+          "valor": 15816.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33139",
+          "cliente": "COMERCIAL GALA LTDA",
+          "produto": "WHISKY JACK DANIELS 700 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 5670.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33139",
+          "cliente": "COMERCIAL GALA LTDA",
+          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
+          "fantasia": "",
+          "qt": 240,
+          "valor": 5016.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33139",
+          "cliente": "COMERCIAL GALA LTDA",
+          "produto": "XAROPE MONIN GENGIBRE 330 ML",
+          "fantasia": "",
+          "qt": 72,
+          "valor": 1504.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33139",
+          "cliente": "COMERCIAL GALA LTDA",
+          "produto": "XAROPE MONIN LIMÃO GLASCO 330 ML",
+          "fantasia": "",
+          "qt": 174,
+          "valor": 3636.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33139",
+          "cliente": "COMERCIAL GALA LTDA",
+          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "fantasia": "",
+          "qt": 180,
+          "valor": 3762.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "33139",
+          "cliente": "COMERCIAL GALA LTDA",
+          "produto": "XAROPE MONIN MORANGO 330 ML",
+          "fantasia": "",
+          "qt": 180,
+          "valor": 3762.0
         }
       ]
     },
