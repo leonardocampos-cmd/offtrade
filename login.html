@@ -127,7 +127,7 @@
       location.replace(redir.includes('metas.html') ? redir : 'metas.html?rca=' + encodeURIComponent(rca));
     }
 
-    // Mostrar campos conforme o domínio do email do RCA
+    // Mostrar campos conforme RCA digitado
     document.getElementById('rca').addEventListener('input', function () {
       showErro('');
       const rca = this.value.trim();
@@ -137,12 +137,10 @@
         document.getElementById('google-btn-wrap').style.display = 'flex';
         return;
       }
-      const vendedor = VENDEDORES_AUTH[rca];
-      const emailRigarr = vendedor && (vendedor.email || '').toLowerCase().endsWith('@rigarr.com.br');
-      // email @rigarr → Google; outro domínio → email + senha
-      document.getElementById('vend-fields').style.display    = (!emailRigarr) ? 'flex' : 'none';
-      document.getElementById('divider-google').style.display = emailRigarr ? 'flex' : 'none';
-      document.getElementById('google-btn-wrap').style.display = emailRigarr ? 'flex' : 'none';
+      // Sempre mostra email+senha E Google para qualquer vendedor
+      document.getElementById('vend-fields').style.display    = 'flex';
+      document.getElementById('divider-google').style.display = 'flex';
+      document.getElementById('google-btn-wrap').style.display = 'flex';
     });
 
     // ── Fluxo vendedor: RCA + email + senha ───────────────────────
