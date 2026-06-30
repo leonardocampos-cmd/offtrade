@@ -75,7 +75,7 @@ def _query_vendas(schema=None, mes_anterior=False, filtro_filial="(1,2,4)", filt
     p = f"{schema}." if schema else ""
     filtro_mes = "ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -1)" if mes_anterior else "TRUNC(SYSDATE, 'MM')"
     extra_filial = f"\n    AND PCMOV.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
-    extra_estent = f"\n    AND PCCLIENT.ESTENT = '{filtro_estent}'" if filtro_estent else ""
+    extra_estent = f"\n    AND PCUSUARI.ESTADO = '{filtro_estent}'" if filtro_estent else ""
     return f"""
     SELECT PCMOV.DTMOV      AS DTMOV,
            PCMOV.CODPROD    AS CODPROD,
@@ -109,8 +109,8 @@ def _query_vendas(schema=None, mes_anterior=False, filtro_filial="(1,2,4)", filt
 """
 
 _parts_vendas = [
-    carregar_dados(_query_vendas("CRC"),      engine,         "vendas_CRC"),
-    carregar_dados(_query_vendas("thekings"), engine_theking, "vendas_thekings"),
+    carregar_dados(_query_vendas("CRC",      filtro_estent="RJ"), engine,         "vendas_CRC"),
+    carregar_dados(_query_vendas("thekings", filtro_estent="RJ"), engine_theking, "vendas_thekings"),
 ]
 for _s, _e, _n, _fe in [
     ("CASTAS", engine_castas,  "vendas_CASTAS",  None),
@@ -147,8 +147,8 @@ tabela_vendas['FATURAMENTO'] = tabela_vendas['FATURAMENTO'].round(2)
 
 # Vendas do mês anterior (para exibição no detalhe do vendedor)
 _parts_vendas_ant = [
-    carregar_dados(_query_vendas("CRC",      mes_anterior=True), engine,         "vendas_anterior_CRC"),
-    carregar_dados(_query_vendas("thekings", mes_anterior=True), engine_theking, "vendas_anterior_thekings"),
+    carregar_dados(_query_vendas("CRC",      mes_anterior=True, filtro_estent="RJ"), engine,         "vendas_anterior_CRC"),
+    carregar_dados(_query_vendas("thekings", mes_anterior=True, filtro_estent="RJ"), engine_theking, "vendas_anterior_thekings"),
 ]
 for _s, _e, _n, _fe in [
     ("CASTAS", engine_castas,  "vendas_anterior_CASTAS",  None),
