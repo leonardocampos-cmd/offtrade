@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "30/06/2026 15:41",
+  "atualizado_em": "30/06/2026 16:53",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -3059,13 +3059,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51169",
-        "cliente": "ROGERIO DAS NEVES BOITUVA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51179",
         "cliente": "V FORAMIGLIO FILHO DISTRIBUIDORA",
         "bairro": "JARDIM SÃO FRANCISCO II",
@@ -3431,13 +3424,6 @@ const NAO_POS_SP_DATA = {
         "bairro": "JARDIM DAS PALMEIRAS",
         "dtultcomp": "nan",
         "produtos": []
-      },
-      {
-        "codcli": "51381",
-        "cliente": "PINHEIRO & MAIA COMERCIO DE UTILIDADES LTDA",
-        "bairro": "JARDIM PAULISTA",
-        "dtultcomp": "nan",
-        "produtos": []
       }
     ],
     "LUCIANO TOSCHI": [
@@ -3625,16 +3611,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51363",
+        "codcli": "51362",
         "cliente": "MERCEARIA BARATEIRO DO VALE LTDA",
-        "bairro": "VILA SANCHES",
+        "bairro": "FLORESTA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51362",
+        "codcli": "51363",
         "cliente": "MERCEARIA BARATEIRO DO VALE LTDA",
-        "bairro": "FLORESTA",
+        "bairro": "VILA SANCHES",
         "dtultcomp": "nan",
         "produtos": []
       },
