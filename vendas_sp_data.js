@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "30/06/2026 16:53",
+  "atualizado_em": "30/06/2026 17:53",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -79707,6 +79707,69 @@ const VENDAS_SP_DATA = {
           "data": "30/06/2026",
           "codcli": "47425",
           "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 12960,
+          "valor": 265550.4
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 5040,
+          "valor": 251496.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 750ML",
+          "fantasia": "PERNOD",
+          "qt": 720,
+          "valor": 33048.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "BALLANTINES SWEET BLEND 700ML",
+          "fantasia": "PERNOD",
+          "qt": 90,
+          "valor": 4941.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 360,
+          "valor": 19404.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 4200,
+          "valor": 107058.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 2880,
+          "valor": 54432.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
           "produto": "WHISKY PASSPORT 1L",
           "fantasia": "PERNOD",
           "qt": 15120,
@@ -86528,9 +86591,9 @@ const VENDAS_SP_DATA = {
     },
     "ANDERSON CANAVEIS": {
       "Jun/26": {
-        "fat": 469727.79,
+        "fat": 1205657.19,
         "pos": 4.0,
-        "fat_pernod": 467805.6,
+        "fat_pernod": 1203735.0,
         "fat_crs": 645.72,
         "fat_essenza": 827.28
       }
