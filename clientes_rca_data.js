@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/06/2026 15:24",
-  "total": 4207,
+  "atualizado_em": "30/06/2026 15:41",
+  "total": 4209,
   "clientes": [
     {
       "codcli": "31683",
@@ -11846,6 +11846,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51424",
+      "razao": "CAMP MOTOS COMERCIO DE MOTOCICLETAS LTDA",
+      "fantasia": "CAMP MOTOS COMERCIO DE MOTOCICLETAS",
+      "bairro": "VILA NOVA",
+      "cidade": "CAMPINAS",
+      "cnpj": "63.048.526/0001-61",
+      "estado": "SP",
+      "ramo": "LOJA",
+      "codusur1": "469",
+      "nome_usur1": "PATRICIA RAMOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "84218",
@@ -34258,6 +34272,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "232",
       "nome_usur1": "ANDERSON CANAVEIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51423",
+      "razao": "MERCADO CABRAL & COUTINHO LTDA",
+      "fantasia": "MERCADO CABRAL & COUTINHO",
+      "bairro": "BROOKLIN PAULISTA",
+      "cidade": "SAO PAULO",
+      "cnpj": "24.783.931/0001-71",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
