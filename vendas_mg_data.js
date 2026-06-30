@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "30/06/2026 14:38",
+  "atualizado_em": "30/06/2026 15:15",
   "meses": [
     "Jun/26",
     "Mai/26",
