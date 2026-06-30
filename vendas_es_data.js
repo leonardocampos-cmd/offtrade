@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "30/06/2026 09:01",
+  "atualizado_em": "30/06/2026 15:41",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -167,7 +167,7 @@ const VENDAS_ES_DATA = {
         "fat_ant": 90000.17
       },
       "Jun/26": {
-        "fat": 40965.69,
+        "fat": 43136.25,
         "pos": 19,
         "fat_ant": 123102.29
       },
@@ -204,8 +204,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 84254.44
       },
       "Jun/26": {
-        "fat": 49847.43,
-        "pos": 56,
+        "fat": 55492.76,
+        "pos": 60,
         "fat_ant": 75315.05
       },
       "Mai/26": {
@@ -309,8 +309,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 0.0
       },
       "Jun/26": {
-        "fat": 67153.54,
-        "pos": 14,
+        "fat": 75400.18,
+        "pos": 15,
         "fat_ant": 284639.24
       },
       "Abr/26": {
@@ -424,8 +424,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 69110.4
       },
       "Jun/26": {
-        "fat": 381300.48,
-        "pos": 1,
+        "fat": 539460.48,
+        "pos": 2,
         "fat_ant": 628024.32
       },
       "Mar/26": {
@@ -39312,6 +39312,15 @@ const VENDAS_ES_DATA = {
           "valor": 215.04
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85951",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
+          "produto": "NG BARRA NEUGE 80G AMENDOLATE (DP 16X80G",
+          "fantasia": "NOIG",
+          "qt": 2,
+          "valor": 127.68
+        },
+        {
           "data": "16/06/2026",
           "codcli": "85951",
           "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
@@ -39339,6 +39348,15 @@ const VENDAS_ES_DATA = {
           "valor": 255.36
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85951",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
+          "produto": "NG BARRA NEUGE 80G P&B (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36
+        },
+        {
           "data": "16/06/2026",
           "codcli": "85951",
           "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
@@ -39351,6 +39369,15 @@ const VENDAS_ES_DATA = {
           "data": "26/06/2026",
           "codcli": "79755",
           "cliente": "OLIVEIRA E BASTOS LTDA",
+          "produto": "NG BARRA NEUGE 80G BRANCO (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 4,
+          "valor": 255.36
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85951",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
           "produto": "NG BARRA NEUGE 80G BRANCO (DP 16X80G)",
           "fantasia": "NOIG",
           "qt": 4,
@@ -39373,6 +39400,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "NOIG",
           "qt": 4,
           "valor": 255.36
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85951",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
+          "produto": "NG BARRA 80G 40% MEIO AMARGO (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 8,
+          "valor": 510.72
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85951",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
+          "produto": "NG BARRA NEUGE 80G FLOCOS (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 8,
+          "valor": 510.72
         },
         {
           "data": "16/06/2026",
@@ -39418,6 +39463,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "NOIG",
           "qt": 4,
           "valor": 255.36
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85951",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
+          "produto": "NG BARRA NEUGE 80G COOKIES BRANCO (DP 16",
+          "fantasia": "NOIG",
+          "qt": 8,
+          "valor": 510.72
         },
         {
           "data": "09/06/2026",
@@ -54340,6 +54394,24 @@ const VENDAS_ES_DATA = {
           "valor": 162.96
         },
         {
+          "data": "30/06/2026",
+          "codcli": "21154",
+          "cliente": "CARANGOLEJO ENTRETENIMENTO LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 325.92
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "21132",
+          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 325.86
+        },
+        {
           "data": "05/06/2026",
           "codcli": "83156",
           "cliente": "PADARIA E CONFEITARIA BENTO LTDA",
@@ -54484,6 +54556,15 @@ const VENDAS_ES_DATA = {
           "valor": 287.52
         },
         {
+          "data": "30/06/2026",
+          "codcli": "71949",
+          "cliente": "NATURALIS HORTIFRUTIGRANJEIROS LTDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 575.28
+        },
+        {
           "data": "05/06/2026",
           "codcli": "83156",
           "cliente": "PADARIA E CONFEITARIA BENTO LTDA",
@@ -54536,6 +54617,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 5,
           "valor": 718.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "21154",
+          "cliente": "CARANGOLEJO ENTRETENIMENTO LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 488.88
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "21132",
+          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 488.88
         },
         {
           "data": "01/06/2026",
@@ -54635,6 +54734,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 27.16
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 81.48
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "76472",
+          "cliente": "PADARIA E CONFEITARIA MS LTDA",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32
         },
         {
           "data": "01/06/2026",
@@ -54763,6 +54880,24 @@ const VENDAS_ES_DATA = {
           "valor": 54.32
         },
         {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 81.48
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "76472",
+          "cliente": "PADARIA E CONFEITARIA MS LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32
+        },
+        {
           "data": "11/06/2026",
           "codcli": "71949",
           "cliente": "NATURALIS HORTIFRUTIGRANJEIROS LTDA",
@@ -54880,6 +55015,15 @@ const VENDAS_ES_DATA = {
           "valor": 47.92
         },
         {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 81.48
+        },
+        {
           "data": "08/06/2026",
           "codcli": "85188",
           "cliente": "METROPOLES EMPREENDIMENTO LTDA",
@@ -54941,6 +55085,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 47.92
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32
         },
         {
           "data": "11/06/2026",
@@ -55013,6 +55166,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 47.92
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL MORANGO PESSEGO",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32
         },
         {
           "data": "11/06/2026",
@@ -55123,6 +55285,15 @@ const VENDAS_ES_DATA = {
           "valor": 47.92
         },
         {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32
+        },
+        {
           "data": "01/06/2026",
           "codcli": "72325",
           "cliente": "ATLANTICA HOTELS INTERNATIONAL BRASIL LTDA",
@@ -55202,6 +55373,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 47.92
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL SF AMORA",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32
         },
         {
           "data": "11/06/2026",
@@ -55348,6 +55528,15 @@ const VENDAS_ES_DATA = {
           "valor": 191.76
         },
         {
+          "data": "30/06/2026",
+          "codcli": "71949",
+          "cliente": "NATURALIS HORTIFRUTIGRANJEIROS LTDA",
+          "produto": "RED BULL SF AMORA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
           "data": "03/06/2026",
           "codcli": "50621",
           "cliente": "DIRETORIO ACADEMICO DE MEDICINA DA UNIVERSIDADE FEDERAL DO E",
@@ -55373,6 +55562,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 287.52
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71949",
+          "cliente": "NATURALIS HORTIFRUTIGRANJEIROS LTDA",
+          "produto": "RED BULL SF NECTARINA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 191.76
         },
         {
           "data": "08/06/2026",
@@ -55436,6 +55634,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 47.92
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32
         },
         {
           "data": "08/06/2026",
@@ -55544,6 +55751,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 27.16
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "76472",
+          "cliente": "PADARIA E CONFEITARIA MS LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32
         },
         {
           "data": "10/06/2026",
@@ -55708,6 +55924,24 @@ const VENDAS_ES_DATA = {
           "valor": 47.92
         },
         {
+          "data": "30/06/2026",
+          "codcli": "71691",
+          "cliente": "DI MEDEIROS COMERCIO LTDA",
+          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "76472",
+          "cliente": "PADARIA E CONFEITARIA MS LTDA",
+          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 54.32
+        },
+        {
           "data": "11/06/2026",
           "codcli": "76368",
           "cliente": "PADARIA E CONFEITARIA AMENDOEIRAS LTDA",
@@ -55805,6 +56039,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 86.91
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "21132",
+          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
+          "produto": "XAROPE FABBRI MORANGO CA 1L",
+          "fantasia": "",
+          "qt": 13,
+          "valor": 1129.83
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "21132",
+          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
+          "produto": "XAROPE FABBRI COCO PLUS 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1139.52
         },
         {
           "data": "09/06/2026",
@@ -87031,6 +87283,96 @@ const VENDAS_ES_DATA = {
           "valor": 480.0
         },
         {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 13,
+          "valor": 2925.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 7,
+          "valor": 1575.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 267.84
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 9,
+          "valor": 1205.28
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 372.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 930.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 175.92
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 351.84
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 175.92
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "82242",
+          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 267.84
+        },
+        {
           "data": "05/06/2026",
           "codcli": "91292",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -107457,6 +107799,33 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 132,
           "valor": 3426.72
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "95477",
+          "cliente": "ESSENCIAL DISTRIBUICAO LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 600,
+          "valor": 54000.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "95477",
+          "cliente": "ESSENCIAL DISTRIBUICAO LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 960,
+          "valor": 76800.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "95477",
+          "cliente": "ESSENCIAL DISTRIBUICAO LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 480,
+          "valor": 27360.0
         }
       ],
       "Mar/26": [
