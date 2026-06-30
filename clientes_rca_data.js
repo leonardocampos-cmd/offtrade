@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/06/2026 18:12",
-  "total": 4221,
+  "atualizado_em": "30/06/2026 18:42",
+  "total": 4222,
   "clientes": [
     {
       "codcli": "31683",
@@ -18524,6 +18524,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "83536",
+      "razao": "DROGARIA AICHI LTDA",
+      "fantasia": "DROGARIA RIC",
+      "bairro": "JARDIM BOTANICO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "02.418.313/0001-90",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "92326",
