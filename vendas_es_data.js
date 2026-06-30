@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "30/06/2026 16:53",
+  "atualizado_em": "30/06/2026 17:53",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -186,11 +186,11 @@ const VENDAS_ES_DATA = {
       "Mar/26": {
         "fat": 84254.44,
         "pos": 95,
-        "fat_ant": 52028.37
+        "fat_ant": 49730.74
       },
       "Fev/26": {
-        "fat": 52028.37,
-        "pos": 69,
+        "fat": 49730.74,
+        "pos": 68,
         "fat_ant": 44645.26
       },
       "Jan/26": {
@@ -309,8 +309,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 0.0
       },
       "Jun/26": {
-        "fat": 75400.18,
-        "pos": 15,
+        "fat": 103672.51,
+        "pos": 21,
         "fat_ant": 284639.24
       },
       "Abr/26": {
@@ -45820,15 +45820,6 @@ const VENDAS_ES_DATA = {
           "valor": 93.66
         },
         {
-          "data": "27/02/2026",
-          "codcli": "20928",
-          "cliente": "COMERCIAL IATE LTDA",
-          "produto": "RUM BACARDI GOLD 980ML",
-          "fantasia": "BACARDI",
-          "qt": 10,
-          "valor": 479.1
-        },
-        {
           "data": "12/02/2026",
           "codcli": "83152",
           "cliente": "58.152.685 FABIANO GOMES DE PAULA JUNIOR",
@@ -45845,15 +45836,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "BACARDI",
           "qt": 2,
           "valor": 86.44
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "20928",
-          "cliente": "COMERCIAL IATE LTDA",
-          "produto": "RUM BACARDI LIMON 980ML",
-          "fantasia": "BACARDI",
-          "qt": 5,
-          "valor": 232.2
         },
         {
           "data": "03/02/2026",
@@ -47558,15 +47540,6 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "27/02/2026",
-          "codcli": "20928",
-          "cliente": "COMERCIAL IATE LTDA",
-          "produto": "VODKA ABSOLUT - 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 100.27
-        },
-        {
-          "data": "27/02/2026",
           "codcli": "74338",
           "cliente": "DI MEDEIROS & DE LUCA LTDA",
           "produto": "VODKA ABSOLUT - 1 LITRO",
@@ -47600,15 +47573,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "PERNOD",
           "qt": 2,
           "valor": 206.84
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "20928",
-          "cliente": "COMERCIAL IATE LTDA",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 103.42
         },
         {
           "data": "27/02/2026",
@@ -47780,15 +47744,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "CASTAS",
           "qt": 4,
           "valor": 265.6
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "20928",
-          "cliente": "COMERCIAL IATE LTDA",
-          "produto": "ESPUMANTE ARESTI CHARDONNAY 187,5ML",
-          "fantasia": "CASTAS",
-          "qt": 12,
-          "valor": 202.8
         },
         {
           "data": "10/02/2026",
@@ -47969,15 +47924,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "HENNESSY",
           "qt": 6,
           "valor": 226.62
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "20928",
-          "cliente": "COMERCIAL IATE LTDA",
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 609.0
         },
         {
           "data": "18/02/2026",
@@ -48338,15 +48284,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 2,
           "valor": 88.04
-        },
-        {
-          "data": "27/02/2026",
-          "codcli": "20928",
-          "cliente": "COMERCIAL IATE LTDA",
-          "produto": "LICOR BANANINHA CARIOCA 750ML",
-          "fantasia": "BANANINHA CARIOCA",
-          "qt": 6,
-          "valor": 570.84
         },
         {
           "data": "26/02/2026",
@@ -86851,6 +86788,15 @@ const VENDAS_ES_DATA = {
           "valor": 427.68
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 35.64
+        },
+        {
           "data": "11/06/2026",
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -86860,6 +86806,33 @@ const VENDAS_ES_DATA = {
           "valor": 1055.88
         },
         {
+          "data": "30/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 1055.88
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 1055.88
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 87.79
+        },
+        {
           "data": "15/06/2026",
           "codcli": "91292",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -86867,6 +86840,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "BACARDI",
           "qt": 12,
           "valor": 427.68
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 35.64
         },
         {
           "data": "11/06/2026",
@@ -86887,6 +86878,33 @@ const VENDAS_ES_DATA = {
           "valor": 196.32
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 196.32
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 196.32
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 16.36
+        },
+        {
           "data": "11/06/2026",
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -86894,6 +86912,33 @@ const VENDAS_ES_DATA = {
           "fantasia": "BACARDI",
           "qt": 12,
           "valor": 427.68
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 35.64
         },
         {
           "data": "11/06/2026",
@@ -86905,6 +86950,24 @@ const VENDAS_ES_DATA = {
           "valor": 427.68
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI BIG APPLE 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI BIG APPLE 700ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 35.64
+        },
+        {
           "data": "11/06/2026",
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -86921,6 +86984,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "BACARDI",
           "qt": 12,
           "valor": 427.68
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI MOJITO 700ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 35.64
         },
         {
           "data": "11/06/2026",
@@ -86932,6 +87004,33 @@ const VENDAS_ES_DATA = {
           "valor": 427.68
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI SUPERIOR 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI SUPERIOR 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI SUPERIOR 700ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 35.64
+        },
+        {
           "data": "11/06/2026",
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -86950,6 +87049,24 @@ const VENDAS_ES_DATA = {
           "valor": 470.52
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI GOLD 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 470.52
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI GOLD 700ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 35.64
+        },
+        {
           "data": "11/06/2026",
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -86957,6 +87074,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "BACARDI",
           "qt": 12,
           "valor": 427.68
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI LIMON 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI LIMON 700ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 35.64
         },
         {
           "data": "11/06/2026",
@@ -86968,6 +87103,24 @@ const VENDAS_ES_DATA = {
           "valor": 2876.4
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 958.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
           "data": "11/06/2026",
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -86977,6 +87130,15 @@ const VENDAS_ES_DATA = {
           "valor": 1917.6
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
           "data": "11/06/2026",
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -86984,6 +87146,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 36,
           "valor": 2876.4
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 79.9
         },
         {
           "data": "11/06/2026",
@@ -87002,6 +87173,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "BALLENA",
           "qt": 6,
           "valor": 786.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 1,
+          "valor": 146.49
         },
         {
           "data": "25/06/2026",
@@ -87040,6 +87220,15 @@ const VENDAS_ES_DATA = {
           "valor": 2320.0
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MOET ROSE IMPERIAL 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 655.89
+        },
+        {
           "data": "26/06/2026",
           "codcli": "90989",
           "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
@@ -87047,6 +87236,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "HENNESSY",
           "qt": 18,
           "valor": 2006.28
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 110.89
         },
         {
           "data": "26/06/2026",
@@ -87076,6 +87274,15 @@ const VENDAS_ES_DATA = {
           "valor": 1797.6
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 101.99
+        },
+        {
           "data": "26/06/2026",
           "codcli": "90989",
           "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
@@ -87083,6 +87290,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "HENNESSY",
           "qt": 6,
           "valor": 484.5
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CHANDON RICHE DEMI-SEC 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 111.79
         },
         {
           "data": "26/06/2026",
@@ -87094,6 +87310,78 @@ const VENDAS_ES_DATA = {
           "valor": 549.24
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 104.29
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MOET CHANDON BRUT IMPERIAL 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 449.36
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "VEUVE CLICQUOT BRUT 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 475.48
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "VODKA BELVEDERE 700 ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 183.09
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MOET ICE BRUT IMPERIAL 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 598.34
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 35.29
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 53.29
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 53.29
+        },
+        {
           "data": "26/06/2026",
           "codcli": "90989",
           "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
@@ -87103,8 +87391,197 @@ const VENDAS_ES_DATA = {
           "valor": 671.82
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CHANDON GARDEN SPRITZ 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 1,
+          "valor": 109.39
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "",
+          "qt": 40,
+          "valor": 244.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "",
+          "qt": 40,
+          "valor": 244.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "",
+          "qt": 40,
+          "valor": 244.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 732.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "",
+          "qt": 40,
+          "valor": 244.0
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "",
+          "qt": 40,
+          "valor": 358.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "",
+          "qt": 40,
+          "valor": 358.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "",
+          "qt": 40,
+          "valor": 358.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 1076.4
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "",
+          "qt": 40,
+          "valor": 358.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 304.92
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 304.92
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 609.84
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "",
+          "qt": 54,
+          "valor": 914.76
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 813.12
+        },
+        {
           "data": "05/06/2026",
           "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 197.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 197.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 197.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 197.7
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "",
+          "qt": 90,
+          "valor": 593.1
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
           "fantasia": "",
@@ -87119,6 +87596,87 @@ const VENDAS_ES_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 343.44
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 343.44
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 343.44
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 343.44
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 1030.32
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 343.44
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 114.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 114.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "",
+          "qt": 90,
+          "valor": 343.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "",
+          "qt": 30,
+          "valor": 114.6
         },
         {
           "data": "19/06/2026",
@@ -87382,6 +87940,51 @@ const VENDAS_ES_DATA = {
           "valor": 77.6
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 155.2
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6
+        },
+        {
           "data": "19/06/2026",
           "codcli": "76071",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
@@ -87463,6 +88066,132 @@ const VENDAS_ES_DATA = {
           "valor": 267.84
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SLIM WHEY BEIJINHO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 100.48
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 177.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 16X4X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 16X4X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 16X4X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 177.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 177.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 177.6
+        },
+        {
           "data": "05/06/2026",
           "codcli": "91292",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -87472,6 +88201,33 @@ const VENDAS_ES_DATA = {
           "valor": 139.62
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 69.81
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 69.81
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 69.81
+        },
+        {
           "data": "05/06/2026",
           "codcli": "91292",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -87479,6 +88235,204 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 3,
           "valor": 116.4
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 98.61
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 98.61
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 98.61
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 197.22
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 98.61
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 197.22
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 50.24
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 50.24
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 100.48
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 50.24
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 100.48
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 98.61
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 98.61
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 98.61
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 197.22
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 98.61
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 197.22
         },
         {
           "data": "11/06/2026",
@@ -87497,6 +88451,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 24,
           "valor": 366.24
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 24,
+          "valor": 366.12
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 60,
+          "valor": 915.6
         },
         {
           "data": "25/06/2026",
