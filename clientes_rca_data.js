@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/06/2026 16:54",
-  "total": 4214,
+  "atualizado_em": "30/06/2026 17:54",
+  "total": 4219,
   "clientes": [
     {
       "codcli": "31683",
@@ -3378,6 +3378,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50423",
+      "razao": "62.770.041 ACUCENA BEATRIZ CORTEZ RAMOS",
+      "fantasia": "ACUCENA BEATRIZ CORTEZ RAMOS",
+      "bairro": "JARDIM SANTO INACIO (RUBIAO JUNIOR)",
+      "cidade": "BOTUCATU",
+      "cnpj": "62.770.041/0001-14",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "94005",
       "razao": "63.141.197 RONILSON PINTO",
       "fantasia": "RONILSON PINTO",
@@ -3598,6 +3612,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51430",
+      "razao": "66.211.091 LUANA MARQUES DA SILVA",
+      "fantasia": "LUANA MARQUES DA SILVA",
+      "bairro": "JARDIM VILA MARIA",
+      "cidade": "JAU",
+      "cnpj": "66.211.091/0001-12",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "491",
+      "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -6216,6 +6244,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50131",
+      "razao": "AMBAR CACHACARIA BAR E RESTAURANTE LTDA",
+      "fantasia": "AMBAR",
+      "bairro": "JARDIM TROPICAL",
+      "cidade": "BOTUCATU",
+      "cnpj": "58.186.496/0001-10",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -44118,6 +44160,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "92036",
+      "razao": "PIU VILLA LOBOS BAR E RESTAURANTE LTDA",
+      "fantasia": "PIU VILLA LOBOS BAR E RESTAURANTE",
+      "bairro": "ALTO DE PINHEIROS",
+      "cidade": "SAO PAULO",
+      "cnpj": "63.097.475/0001-68",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "329",
+      "nome_usur1": "RAPHAELA RIBAS",
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
       "codcli": "31810",
       "razao": "PIZZA AM RIO LTDA",
       "fantasia": "PIZZA AM RIO LTDA",
@@ -47364,6 +47420,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOSIETH LIMA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "71439",
+      "razao": "RADIO BOIRE BAR E CAFE LTDA",
+      "fantasia": "RADIO BOIRE",
+      "bairro": "PRAIA DO PECADO",
+      "cidade": "MACAE",
+      "cnpj": "49.867.026/0001-20",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "43812",
