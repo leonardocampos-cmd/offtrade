@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "30/06/2026 15:13",
+  "atualizado_em": "30/06/2026 15:22",
   "meses": [
     "Jun/26",
     "Mai/26",
