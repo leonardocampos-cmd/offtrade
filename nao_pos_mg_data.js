@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "29/06/2026 17:02",
+  "atualizado_em": "30/06/2026 09:02",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -875,44 +875,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "33618",
-        "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
-        "bairro": "VILA NOVA ESPERANÇA - 1ª SEÇÃO",
-        "dtultcomp": "27/04/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 378.72
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 378.72
-          },
-          {
-            "produto": "RUM MONTILLA OURO 1L - DEST",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 24.0
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 239.7
-          },
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 478.8
           }
         ]
       },
@@ -2592,38 +2554,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "29/05/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 804.0
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 642.36
-          }
-        ]
-      },
-      {
         "codcli": "33290",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "ANGÉLICA",
@@ -2664,6 +2594,38 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 605.28
+          }
+        ]
+      },
+      {
+        "codcli": "33288",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SÃO SEBASTIAO",
+        "dtultcomp": "29/05/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 478.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 478.8
+          },
+          {
+            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 804.0
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 642.36
           }
         ]
       },
@@ -2777,9 +2739,9 @@ const NAO_POS_MG_DATA = {
     ],
     "LUIZ FERNANDO SALGADO": [
       {
-        "codcli": "39125",
+        "codcli": "39126",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "RENASCENÇA",
+        "bairro": "ESTRELA DO ORIENTE",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -2791,9 +2753,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39126",
+        "codcli": "39125",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "ESTRELA DO ORIENTE",
+        "bairro": "RENASCENÇA",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
