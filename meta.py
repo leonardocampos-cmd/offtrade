@@ -1,20 +1,27 @@
 #META
+import os
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
 from datetime import datetime
 import numpy as np
 import time
+from dotenv import load_dotenv
+from urllib.parse import quote_plus
+
+load_dotenv()
 
 oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
 
-user = "vpn"
-password = "vpn2320vpn"
+user     = os.getenv("VPN_USER", "vpn")
+password = os.getenv("VPN_PASSWORD", "vpn2320vpn")
+crc_user = os.getenv("CRC_USER", user)
+crc_pass = os.getenv("CRC_PASSWORD", password)
 dsn = "crc_oci"
 dsn_theking = "theking_oci"
 
 engine = create_engine(
-    f'oracle+oracledb://{user}:{password}@{dsn}',
+    f'oracle+oracledb://{crc_user}:{quote_plus(crc_pass)}@{dsn}',
     pool_pre_ping=True,
     pool_recycle=3600,
     connect_args={"expire_time": 2}

@@ -52,11 +52,13 @@ def _init_oracle():
 
 def get_conn(db: str = "crc"):
     _init_oracle()
-    return oracledb.connect(
-        user=os.getenv("VPN_USER", "vpn"),
-        password=os.getenv("VPN_PASSWORD", ""),
-        dsn=DSN[db],
-    )
+    if db == "crc":
+        user = os.getenv("CRC_USER", os.getenv("VPN_USER", "vpn"))
+        password = os.getenv("CRC_PASSWORD", os.getenv("VPN_PASSWORD", ""))
+    else:
+        user = os.getenv("VPN_USER", "vpn")
+        password = os.getenv("VPN_PASSWORD", "")
+    return oracledb.connect(user=user, password=password, dsn=DSN[db])
 
 
 @st.cache_data(ttl=300)
