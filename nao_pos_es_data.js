@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "30/06/2026 15:41",
+  "atualizado_em": "30/06/2026 16:54",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -1778,20 +1778,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "10734",
-        "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
-        "bairro": "LEBLON",
-        "dtultcomp": "13/04/2026",
-        "produtos": [
-          {
-            "produto": "AGUA NA CAIXA 12X330ML",
-            "fantasia": "AGUA NA CAIXA",
-            "qt": 10,
-            "valor": 393.6
-          }
-        ]
-      },
-      {
         "codcli": "67339",
         "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
         "bairro": "COPACABANA",
@@ -1816,6 +1802,20 @@ const NAO_POS_ES_DATA = {
             "fantasia": "AGUA NA CAIXA",
             "qt": 15,
             "valor": 590.4
+          }
+        ]
+      },
+      {
+        "codcli": "10734",
+        "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
+        "bairro": "LEBLON",
+        "dtultcomp": "13/04/2026",
+        "produtos": [
+          {
+            "produto": "AGUA NA CAIXA 12X330ML",
+            "fantasia": "AGUA NA CAIXA",
+            "qt": 10,
+            "valor": 393.6
           }
         ]
       },
@@ -2113,13 +2113,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95529",
-        "cliente": "DROGARIA CENTRAL DA GAVEA LTDA",
-        "bairro": "GAVEA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "95527",
         "cliente": "DROGARIA COPA LEMOS LTDA",
         "bairro": "COPACABANA",
@@ -2190,9 +2183,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95528",
-        "cliente": "FARMACIA PROVIDENCIA LTDA",
-        "bairro": "GAVEA",
+        "codcli": "95534",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "IPANEMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95525",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "COPACABANA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -2204,21 +2204,7 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95534",
-        "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "IPANEMA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "95536",
-        "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "COPACABANA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95525",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
         "dtultcomp": "nan",
@@ -5992,6 +5978,20 @@ const NAO_POS_ES_DATA = {
     ],
     "EUDES MORGAN": [
       {
+        "codcli": "86391",
+        "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
+        "bairro": "VILA ESPERANCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "77449",
+        "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
+        "bairro": "SANTO AGOSTINHO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "82242",
         "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
         "bairro": "PORTO CANOA",
@@ -6027,23 +6027,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "21215",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-        "bairro": "PRAIA DO MORRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "76075",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
         "bairro": "JARDIM DA PENHA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "94660",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-        "bairro": "CENTRO DE VILA VELHA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6055,28 +6041,49 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "76071",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "PRAIA DE ITAPARICA",
+        "codcli": "94660",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+        "bairro": "CENTRO DE VILA VELHA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "82537",
+        "codcli": "21215",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+        "bairro": "PRAIA DO MORRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91463",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "bairro": "BARRA DO JUCU",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "82542",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
         "bairro": "JARDIM CAMBURI",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "82538",
+        "codcli": "76072",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "JARDIM LIMOEIRO",
+        "bairro": "ITAPUÃ",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "82542",
+        "codcli": "82541",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "bairro": "PRAIA DA BALEIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "82537",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
         "bairro": "JARDIM CAMBURI",
         "dtultcomp": "nan",
@@ -6090,16 +6097,23 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "82541",
+        "codcli": "82539",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "PRAIA DA BALEIA",
+        "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "76072",
+        "codcli": "74418",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "ITAPUÃ",
+        "bairro": "CARIACICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "82538",
+        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "bairro": "JARDIM LIMOEIRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6111,23 +6125,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "82539",
+        "codcli": "76071",
         "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "CAMPO GRANDE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91463",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "BARRA DO JUCU",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "74418",
-        "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-        "bairro": "CARIACICA",
+        "bairro": "PRAIA DE ITAPARICA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6146,6 +6146,13 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "85617",
+        "cliente": "MULTIMERCADO COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "PONTA DA FRUTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "90989",
         "cliente": "OSVALDO PERIM SUPERMERCADOS LTDA",
         "bairro": "CONDURU",
@@ -6156,6 +6163,27 @@ const NAO_POS_ES_DATA = {
         "codcli": "85422",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85437",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "PRAIA DA COSTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "94324",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "SÃO DIOGO II",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85431",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "IPIRANGA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6349,6 +6377,13 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "85430",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "MUQUIÇABA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "85439",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "JARDIM LIMOEIRO",
@@ -6394,20 +6429,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "85836",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "PRAIA DE ITAPARICA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "85437",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "PRAIA DA COSTA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "94324",
-        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-        "bairro": "SÃO DIOGO II",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16265,16 +16286,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "82218",
+        "codcli": "82178",
         "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
-        "bairro": "GRANDE VITORIA",
+        "bairro": "SANTA TEREZA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "82178",
+        "codcli": "82218",
         "cliente": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
-        "bairro": "SANTA TEREZA",
+        "bairro": "GRANDE VITORIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16300,16 +16321,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "92292",
+        "codcli": "92290",
         "cliente": "DALLE LANCHES LTDA",
-        "bairro": "SANTA CECILIA",
+        "bairro": "BONFIM",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "92290",
+        "codcli": "92292",
         "cliente": "DALLE LANCHES LTDA",
-        "bairro": "BONFIM",
+        "bairro": "SANTA CECILIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16559,13 +16580,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "71828",
-        "cliente": "NOLASCO & VIEIRA LTDA",
-        "bairro": "PRAIA DO CANTO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "73569",
         "cliente": "NOLASCO & VIEIRA LTDA",
         "bairro": "ENSEADA DO SUA",
@@ -16573,9 +16587,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "80235",
-        "cliente": "NOVA VIX DISTRIBUIDORA LTDA",
-        "bairro": "SANTO ANDRE",
+        "codcli": "71828",
+        "cliente": "NOLASCO & VIEIRA LTDA",
+        "bairro": "PRAIA DO CANTO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16583,6 +16597,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "78158",
         "cliente": "NOVA VIX DISTRIBUIDORA LTDA",
         "bairro": "MARIA ORTIZ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "80235",
+        "cliente": "NOVA VIX DISTRIBUIDORA LTDA",
+        "bairro": "SANTO ANDRE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16622,13 +16643,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "76472",
-        "cliente": "PADARIA E CONFEITARIA MS LTDA",
-        "bairro": "JARDIM CAMBURI",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "85027",
         "cliente": "PADARIA E CONFEITARIA MS LTDA",
         "bairro": "JARDIM CAMBURI",
@@ -16636,14 +16650,21 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "80453",
-        "cliente": "PADARIA PAO DIVINO LTDA",
+        "codcli": "76472",
+        "cliente": "PADARIA E CONFEITARIA MS LTDA",
         "bairro": "JARDIM CAMBURI",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
         "codcli": "80454",
+        "cliente": "PADARIA PAO DIVINO LTDA",
+        "bairro": "JARDIM CAMBURI",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "80453",
         "cliente": "PADARIA PAO DIVINO LTDA",
         "bairro": "JARDIM CAMBURI",
         "dtultcomp": "nan",
@@ -16790,6 +16811,13 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "80164",
+        "cliente": "SHAKA SURF PARK LTDA",
+        "bairro": "SETIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "84523",
         "cliente": "SOUTO E VIANA LTDA",
         "bairro": "SAO PEDRO",
@@ -16804,16 +16832,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "92076",
+        "codcli": "92166",
         "cliente": "SUPERMERCADO BIA LTDA",
-        "bairro": "MARUIPE",
+        "bairro": "GRANDE VITORIA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "92166",
+        "codcli": "92076",
         "cliente": "SUPERMERCADO BIA LTDA",
-        "bairro": "GRANDE VITORIA",
+        "bairro": "MARUIPE",
         "dtultcomp": "nan",
         "produtos": []
       },
