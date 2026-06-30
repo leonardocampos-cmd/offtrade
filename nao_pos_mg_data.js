@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "30/06/2026 09:02",
+  "atualizado_em": "30/06/2026 14:38",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -618,6 +618,26 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "JOÃO SANTOS": [
+      {
+        "codcli": "33687",
+        "cliente": "STAR BELVEDERE LOJA DE CONVENIENCIA LTDA",
+        "bairro": "BELVEDERE",
+        "dtultcomp": "30/09/2025",
+        "produtos": [
+          {
+            "produto": "WHISKY JIM BEAM APPLE 1L",
+            "fantasia": "BEAM SUNTORY BRASIL",
+            "qt": 1,
+            "valor": 79.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM HONEY 1L",
+            "fantasia": "BEAM SUNTORY BRASIL",
+            "qt": 1,
+            "valor": 79.9
+          }
+        ]
+      },
       {
         "codcli": "37886",
         "cliente": "KL COFFE CAFETERIA LTDA",
@@ -2554,6 +2574,38 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "33288",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SÃO SEBASTIAO",
+        "dtultcomp": "29/05/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 478.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 478.8
+          },
+          {
+            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 804.0
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 642.36
+          }
+        ]
+      },
+      {
         "codcli": "33290",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "ANGÉLICA",
@@ -2594,38 +2646,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 605.28
-          }
-        ]
-      },
-      {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "29/05/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 804.0
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 642.36
           }
         ]
       },
@@ -2739,9 +2759,9 @@ const NAO_POS_MG_DATA = {
     ],
     "LUIZ FERNANDO SALGADO": [
       {
-        "codcli": "39126",
+        "codcli": "39125",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "ESTRELA DO ORIENTE",
+        "bairro": "RENASCENÇA",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -2753,9 +2773,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39125",
+        "codcli": "39126",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "RENASCENÇA",
+        "bairro": "ESTRELA DO ORIENTE",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -3597,20 +3617,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 127.9
-          }
-        ]
-      },
-      {
-        "codcli": "34388",
-        "cliente": "MERCEARIA E BEBIDAS CAMPOS LTDA",
-        "bairro": "NOVA CINTRA",
-        "dtultcomp": "20/05/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JAMESON 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 419.4
           }
         ]
       },
