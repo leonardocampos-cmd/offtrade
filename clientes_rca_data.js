@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/06/2026 15:41",
-  "total": 4209,
+  "atualizado_em": "30/06/2026 16:54",
+  "total": 4214,
   "clientes": [
     {
       "codcli": "31683",
@@ -7072,6 +7072,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "77449",
+      "razao": "ARMAZEM SAO SEBASTIAO LTDA",
+      "fantasia": "SUPERMERCADO MULTI SHOW",
+      "bairro": "SANTO AGOSTINHO",
+      "cidade": "CASTELO",
+      "cnpj": "27.444.330/0004-75",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "388",
+      "nome_usur1": "EUDES MORGAN - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "86391",
+      "razao": "ARMAZEM SAO SEBASTIAO LTDA",
+      "fantasia": "ARMAZEM SAO SEBASTIAO",
+      "bairro": "VILA ESPERANCA",
+      "cidade": "VARGEM ALTA",
+      "cnpj": "27.444.330/0006-37",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "388",
+      "nome_usur1": "EUDES MORGAN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "7768",
@@ -39792,6 +39820,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANDREIA PRAYA"
     },
     {
+      "codcli": "85617",
+      "razao": "MULTIMERCADO COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "MULTISHOW SUPERMERCADO",
+      "bairro": "PONTA DA FRUTA",
+      "cidade": "VILA VELHA",
+      "cnpj": "44.946.828/0001-02",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "388",
+      "nome_usur1": "EUDES MORGAN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "35792",
       "razao": "MUNDO DAS BEBIDAS E ALIMENTOS LTDA",
       "fantasia": "MUNDO DAS BEBIDAS",
@@ -41176,6 +41218,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "92181",
+      "razao": "ORIGENS MERCATO LTDA",
+      "fantasia": "ORIGENS MERCATO",
+      "bairro": "SANTA CECILIA",
+      "cidade": "SAO LOURENCO",
+      "cnpj": "65.759.701/0001-54",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "71515",
@@ -50794,6 +50850,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "80164",
+      "razao": "SHAKA SURF PARK LTDA",
+      "fantasia": "SHAKA SURF PARK",
+      "bairro": "SETIBA",
+      "cidade": "GUARAPARI",
+      "cnpj": "55.037.811/0001-59",
+      "estado": "ES",
+      "ramo": "RESTAURANTE",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "3190",
