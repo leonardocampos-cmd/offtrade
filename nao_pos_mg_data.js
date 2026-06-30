@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "30/06/2026 15:41",
+  "atualizado_em": "30/06/2026 16:54",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3007,6 +3007,38 @@ const NAO_POS_MG_DATA = {
     ],
     "TIAGO ANDRADE": [
       {
+        "codcli": "34010",
+        "cliente": "NOVA UAINER VINHOS E ENTRETENIMENTO LTDA",
+        "bairro": "OLHOS D'ÁGUA",
+        "dtultcomp": "28/11/2024",
+        "produtos": [
+          {
+            "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 179.6
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 44.9
+          },
+          {
+            "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "VINHO CAVAS DE ORO CABERNET FRANC 750ML",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 119.7
+          }
+        ]
+      },
+      {
         "codcli": "35981",
         "cliente": "RESTAURANTE GRAN SABOR LTDA",
         "bairro": "SERRA",
@@ -4007,9 +4039,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -4027,9 +4059,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
