@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clientes Inativos — Rigarr</title>
+  <script src="clientes_inativos_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --text: #e2e8f0; --muted: #94a3b8;
+      --border: #2d3144; --red: #ef4444; --green: #4ade80;
+      --yellow: #eab308; --blue: #60a5fa; --orange: #fb923c;
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; padding: 16px; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap; }
+    .header-title h1 { font-size: 1.25rem; font-weight: 800; color: var(--accent); }
+    .header-title p  { font-size: .72rem; color: var(--muted); margin-top: 3px; }
+    .btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px; border-radius: 8px; background: var(--card); border: 1px solid var(--border); color: var(--text); font-size: .8rem; font-weight: 600; text-decoration: none; cursor: pointer; transition: border-color .15s; }
+    .btn:hover { border-color: var(--accent); }
+
+    /* Filtros */
+    .filtros { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; align-items: center; }
+    select, input[type=text] {
+      background: var(--card); border: 1px solid var(--border); color: var(--text);
+      padding: 8px 12px; border-radius: 8px; font-size: .82rem; font-family: inherit;
+      outline: none; transition: border-color .15s; min-width: 200px;
+    }
+    select:focus, input[type=text]:focus { border-color: var(--accent); }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 99px; font-size: .68rem; font-weight: 700; }
+    .badge-red    { background: rgba(239,68,68,.15);  color: var(--red);    border: 1px solid rgba(239,68,68,.3); }
+    .badge-orange { background: rgba(251,146,60,.15); color: var(--orange); border: 1px solid rgba(251,146,60,.3); }
+    .badge-yellow { background: rgba(234,179,8,.15);  color: var(--yellow); border: 1px solid rgba(234,179,8,.3); }
+    .badge-green  { background: rgba(74,222,128,.15); color: var(--green);  border: 1px solid rgba(74,222,128,.3); }
+    .badge-blue   { background: rgba(96,165,250,.15); color: var(--blue);   border: 1px solid rgba(96,165,250,.3); }
+
+    /* Tabs */
+    .tabs { display: flex; gap: 4px; margin-bottom: 20px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 4px; width: fit-content; flex-wrap: wrap; }
+    .tab { padding: 7px 16px; border-radius: 7px; font-size: .8rem; font-weight: 700; cursor: pointer; border: none; background: transparent; color: var(--muted); transition: all .15s; }
+    .tab.active { background: var(--accent); color: #111; }
+    .tab-count { font-size: .68rem; font-weight: 800; margin-left: 4px; }
+
+    /* Subtabs sem compra */
+    .subtabs { display: flex; gap: 6px; margin-bottom: 14px; }
+    .subtab { padding: 5px 14px; border-radius: 6px; font-size: .75rem; font-weight: 700; cursor: pointer; border: 1px solid var(--border); background: var(--card); color: var(--muted); transition: all .15s; }
+    .subtab.active { border-color: var(--orange); color: var(--orange); background: rgba(251,146,60,.1); }
+
+    /* Vendedor accordion */
+    .vend-block { background: var(--card); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 10px; overflow: hidden; }
+    .vend-header { display: flex; align-items: center; gap: 10px; padding: 12px 16px; cursor: pointer; user-select: none; transition: background .1s; }
+    .vend-header:hover { background: var(--card2); }
+    .vend-nome { font-size: .9rem; font-weight: 700; flex: 1; }
+    .vend-stats { display: flex; gap: 6px; flex-wrap: wrap; }
+    .vend-ic { color: var(--muted); font-size: .8rem; transition: transform .2s; }
+    .vend-ic.open { transform: rotate(180deg); }
+    .vend-body { display: none; border-top: 1px solid var(--border); }
+    .vend-body.open { display: block; }
+
+    /* Tabela */
+    .cli-table { width: 100%; border-collapse: collapse; font-size: .78rem; }
+    .cli-table th { background: var(--card2); color: var(--muted); font-size: .65rem; text-transform: uppercase; letter-spacing: .06em; padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+    .cli-table td { padding: 8px 12px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    .cli-table tr:last-child td { border-bottom: none; }
+    .cli-table tr:hover td { background: var(--card2); }
+    .dias-pill { display: inline-block; padding: 2px 8px; border-radius: 99px; font-size: .7rem; font-weight: 700; }
+    .empty-msg { padding: 24px; text-align: center; color: var(--muted); font-size: .82rem; }
+
+    /* Resumo geral */
+    .resumo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; margin-bottom: 20px; }
+    .resumo-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+    .resumo-label { font-size: .62rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 6px; }
+    .resumo-val { font-size: 1.5rem; font-weight: 800; }
+
+    @media (max-width: 600px) {
+      .cli-table .hide-mob { display: none; }
+      select, input[type=text] { min-width: 140px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-title">
+    <h1>&#128683; Clientes Inativos</h1>
+    <p id="sub">—</p>
+  </div>
+  <a class="btn" href="index.html">&#8962; Home</a>
+</header>
+
+<div class="filtros">
+  <select id="fil-estado" onchange="render()">
+    <option value="">Todos os estados</option>
+  </select>
+  <select id="fil-vend" onchange="render()">
+    <option value="">Todos os vendedores</option>
+  </select>
+  <input type="text" id="fil-busca" placeholder="&#128269; Buscar cliente..." oninput="render()" style="min-width:220px">
+</div>
+
+<div class="resumo-grid" id="resumo"></div>
+
+<div class="tabs" id="tabs">
+  <button class="tab active" onclick="setTab('inativos',this)">&#128683; Inativos <span class="tab-count" id="cnt-inativos"></span></button>
+  <button class="tab" onclick="setTab('sem_compra',this)">&#128336; Sem Compra <span class="tab-count" id="cnt-sem_compra"></span></button>
+  <button class="tab" onclick="setTab('novos',this)">&#127381; Novos s/ Compra <span class="tab-count" id="cnt-novos"></span></button>
+</div>
+
+<div id="subtabs-sc" style="display:none">
+  <div class="subtabs">
+    <button class="subtab active" onclick="setDias(30,this)">+30 dias</button>
+    <button class="subtab" onclick="setDias(45,this)">+45 dias</button>
+    <button class="subtab" onclick="setDias(60,this)">+60 dias</button>
+  </div>
+</div>
+
+<div id="lista"></div>
+
+<script>
+const D = (typeof INATIVOS_DATA !== 'undefined') ? INATIVOS_DATA : null;
+let _tab  = 'inativos';
+let _dias = 30;
+
+if (!D) {
+  document.getElementById('lista').innerHTML = '<p style="color:var(--red);padding:32px">Erro: clientes_inativos_data.js não encontrado.</p>';
+} else {
+  document.getElementById('sub').textContent = `Atualizado: ${D.atualizado_em}`;
+  _initFiltros();
+  render();
+}
+
+function setTab(t, btn) {
+  _tab = t;
+  document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('subtabs-sc').style.display = (t === 'sem_compra') ? 'block' : 'none';
+  render();
+}
+
+function setDias(d, btn) {
+  _dias = d;
+  document.querySelectorAll('.subtab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  render();
+}
+
+function _initFiltros() {
+  const estados = [...new Set(Object.values(D.por_vendedor).map(v => v.estado).filter(Boolean))].sort();
+  const selE = document.getElementById('fil-estado');
+  estados.forEach(e => selE.insertAdjacentHTML('beforeend', `<option value="${e}">${e}</option>`));
+
+  const selV = document.getElementById('fil-vend');
+  Object.keys(D.por_vendedor).sort().forEach(n => {
+    selV.insertAdjacentHTML('beforeend', `<option value="${n}">${n}</option>`);
+  });
+}
+
+function _getVendedores() {
+  const estado = document.getElementById('fil-estado').value;
+  const vend   = document.getElementById('fil-vend').value;
+  return Object.entries(D.por_vendedor).filter(([nome, v]) => {
+    if (estado && v.estado !== estado) return false;
+    if (vend && nome !== vend) return false;
+    return true;
+  });
+}
+
+function _filtrarClientes(lista) {
+  const busca = document.getElementById('fil-busca').value.trim().toLowerCase();
+  if (!busca) return lista;
+  return lista.filter(c => (c.cliente || '').toLowerCase().includes(busca) || (c.codcli || '').includes(busca));
+}
+
+function _diasCls(dias) {
+  if (dias >= 60) return 'badge-red';
+  if (dias >= 45) return 'badge-orange';
+  return 'badge-yellow';
+}
+
+function render() {
+  const vends = _getVendedores();
+
+  // Contagens para badges de tabs
+  let totInat = 0, totSC = 0, totNov = 0;
+  vends.forEach(([, v]) => {
+    totInat += v.inativos.length;
+    totSC   += v.sem_compra.filter(c => c.dias >= _dias).length;
+    totNov  += v.novos.length;
+  });
+  document.getElementById('cnt-inativos').textContent  = totInat  ? `(${totInat})`  : '';
+  document.getElementById('cnt-sem_compra').textContent = totSC   ? `(${totSC})`   : '';
+  document.getElementById('cnt-novos').textContent      = totNov  ? `(${totNov})`  : '';
+
+  // Resumo geral
+  document.getElementById('resumo').innerHTML = `
+    <div class="resumo-card"><div class="resumo-label">Inativos</div><div class="resumo-val" style="color:var(--red)">${totInat}</div></div>
+    <div class="resumo-card"><div class="resumo-label">Sem Compra +${_tab==='sem_compra'?_dias:30}d</div><div class="resumo-val" style="color:var(--orange)">${totSC}</div></div>
+    <div class="resumo-card"><div class="resumo-label">Novos s/ Compra</div><div class="resumo-val" style="color:var(--blue)">${totNov}</div></div>
+  `;
+
+  // Lista por vendedor
+  const html = vends.map(([nome, v]) => {
+    let lista = [];
+    if (_tab === 'inativos')   lista = _filtrarClientes(v.inativos);
+    if (_tab === 'sem_compra') lista = _filtrarClientes(v.sem_compra.filter(c => c.dias >= _dias));
+    if (_tab === 'novos')      lista = _filtrarClientes(v.novos);
+
+    if (!lista.length) return '';
+
+    const badgeCor = _tab === 'inativos' ? 'badge-red' : _tab === 'sem_compra' ? 'badge-orange' : 'badge-blue';
+    const header = `
+      <div class="vend-header" onclick="toggleVend(this)">
+        <span class="vend-nome">${nome}</span>
+        <div class="vend-stats">
+          <span class="badge ${badgeCor}">${lista.length} cliente${lista.length > 1 ? 's' : ''}</span>
+          <span class="badge badge-blue">${v.estado || ''}</span>
+        </div>
+        <span class="vend-ic">&#9660;</span>
+      </div>`;
+
+    let tbody = '';
+    if (_tab === 'inativos') {
+      tbody = `<table class="cli-table">
+        <thead><tr>
+          <th>Cód</th><th>Cliente</th>
+          <th class="hide-mob">Bairro</th><th class="hide-mob">Cidade</th>
+          <th>Últ. Compra</th><th class="hide-mob">Cadastro</th>
+        </tr></thead><tbody>` +
+        lista.map(c => `<tr>
+          <td style="color:var(--muted)">${c.codcli}</td>
+          <td style="font-weight:600">${c.cliente || '—'}</td>
+          <td class="hide-mob" style="color:var(--muted)">${c.bairro || '—'}</td>
+          <td class="hide-mob" style="color:var(--muted)">${c.cidade || '—'}</td>
+          <td>${c.dtultcomp || '<span style="color:var(--muted)">—</span>'}</td>
+          <td class="hide-mob" style="color:var(--muted)">${c.dtcadastro || '—'}</td>
+        </tr>`).join('') + '</tbody></table>';
+    } else if (_tab === 'sem_compra') {
+      tbody = `<table class="cli-table">
+        <thead><tr>
+          <th>Cód</th><th>Cliente</th>
+          <th class="hide-mob">Bairro</th><th class="hide-mob">Cidade</th>
+          <th>Últ. Compra</th><th>Dias</th>
+        </tr></thead><tbody>` +
+        lista.map(c => `<tr>
+          <td style="color:var(--muted)">${c.codcli}</td>
+          <td style="font-weight:600">${c.cliente || '—'}</td>
+          <td class="hide-mob" style="color:var(--muted)">${c.bairro || '—'}</td>
+          <td class="hide-mob" style="color:var(--muted)">${c.cidade || '—'}</td>
+          <td>${c.dtultcomp || '—'}</td>
+          <td><span class="dias-pill ${_diasCls(c.dias)}">${c.dias}d</span></td>
+        </tr>`).join('') + '</tbody></table>';
+    } else {
+      tbody = `<table class="cli-table">
+        <thead><tr>
+          <th>Cód</th><th>Cliente</th>
+          <th class="hide-mob">Bairro</th><th class="hide-mob">Cidade</th>
+          <th>Cadastro</th><th>Últ. Compra</th>
+        </tr></thead><tbody>` +
+        lista.map(c => `<tr>
+          <td style="color:var(--muted)">${c.codcli}</td>
+          <td style="font-weight:600">${c.cliente || '—'}</td>
+          <td class="hide-mob" style="color:var(--muted)">${c.bairro || '—'}</td>
+          <td class="hide-mob" style="color:var(--muted)">${c.cidade || '—'}</td>
+          <td style="color:var(--green)">${c.dtcadastro || '—'}</td>
+          <td style="color:var(--muted)">${c.dtultcomp || '<span style="color:var(--red)">Nenhuma</span>'}</td>
+        </tr>`).join('') + '</tbody></table>';
+    }
+
+    return `<div class="vend-block">${header}<div class="vend-body">${tbody}</div></div>`;
+  }).join('');
+
+  document.getElementById('lista').innerHTML = html ||
+    `<div class="empty-msg">Nenhum cliente encontrado para os filtros selecionados.</div>`;
+}
+
+function toggleVend(el) {
+  const body = el.nextElementSibling;
+  const ic   = el.querySelector('.vend-ic');
+  body.classList.toggle('open');
+  ic.classList.toggle('open');
+}
+</script>
+</body>
+</html>
