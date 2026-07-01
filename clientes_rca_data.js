@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "01/07/2026 14:38",
-  "total": 4230,
+  "atualizado_em": "01/07/2026 15:53",
+  "total": 4231,
   "clientes": [
     {
       "codcli": "31683",
@@ -26194,8 +26194,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "439",
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "39601",
@@ -50880,6 +50880,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANDRE MATTOS"
     },
     {
+      "codcli": "32784",
+      "razao": "SEMOG'S MERCEARIA E BEBIDAS LTDA",
+      "fantasia": "CASA DAS BEBIDAS",
+      "bairro": "JARDIM CAMPOS ELISEOS",
+      "cidade": "CAMPINAS",
+      "cnpj": "68.979.905/0001-99",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91668",
       "razao": "SENDAS DISTRIBUIDORA S/A",
       "fantasia": "SENDAS DISTRIBUIDORA S/A",
@@ -56504,8 +56518,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "144",
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "229",
+      "nome_usur2": "LUIZA HASSEN"
     },
     {
       "codcli": "94997",
