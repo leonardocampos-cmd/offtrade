@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "01/07/2026 10:33",
+  "atualizado_em": "01/07/2026 10:58",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -3265,7 +3265,7 @@ const NAO_POS_SP_DATA = {
           },
           {
             "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-            "fantasia": "",
+            "fantasia": "CASTAS",
             "qt": 1,
             "valor": 478.8
           },
@@ -7805,7 +7805,7 @@ const NAO_POS_SP_DATA = {
           },
           {
             "produto": "LICOR BANANINHA CARIOCA 750ML",
-            "fantasia": "",
+            "fantasia": "BANANINHA CARIOCA",
             "qt": 1,
             "valor": 61.86
           },
@@ -12536,7 +12536,7 @@ const NAO_POS_SP_DATA = {
         "produtos": [
           {
             "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-            "fantasia": "",
+            "fantasia": "CASTAS",
             "qt": 1,
             "valor": 406.8
           },
@@ -12906,7 +12906,7 @@ const NAO_POS_SP_DATA = {
         "produtos": [
           {
             "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-            "fantasia": "",
+            "fantasia": "CASTAS",
             "qt": 6,
             "valor": 2440.8
           },
@@ -21135,7 +21135,7 @@ const NAO_POS_SP_DATA = {
           },
           {
             "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-            "fantasia": "",
+            "fantasia": "CASTAS",
             "qt": 1,
             "valor": 549.0
           },
@@ -22768,6 +22768,20 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "50878",
+        "cliente": "60.897.775 MARCIA MONIQUE SANTOS GOMES",
+        "bairro": "PARQUE NAÇÕES UNIDAS",
+        "dtultcomp": "12/06/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY J WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 934.8
+          }
+        ]
+      },
+      {
         "codcli": "46273",
         "cliente": "AURINO PEREIRA DOS SANTOS",
         "bairro": "ESMERALDA",
@@ -24212,20 +24226,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 2,
             "valor": 1159.8
-          }
-        ]
-      },
-      {
-        "codcli": "50878",
-        "cliente": "60.897.775 MARCIA MONIQUE SANTOS GOMES",
-        "bairro": "PARQUE NAÇÕES UNIDAS",
-        "dtultcomp": "24/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS 1L - DEST",
-            "fantasia": "BROWN",
-            "qt": 12,
-            "valor": 1198.8
           }
         ]
       },
