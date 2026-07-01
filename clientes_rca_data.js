@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "01/07/2026 16:12",
-  "total": 4231,
+  "atualizado_em": "01/07/2026 16:42",
+  "total": 4234,
   "clientes": [
     {
       "codcli": "31683",
@@ -4798,6 +4798,20 @@ const CLIENTES_RCA_DATA = {
       "bairro": "JARDIM ZAIRA",
       "cidade": "MAUA",
       "cnpj": "47.975.186/0001-68",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "36327",
+      "razao": "ADEGA E DISTRIBUIDORA L.A.- LTDA",
+      "fantasia": "ADEGA E DISTRIBUIDORA L.A.",
+      "bairro": "ITAQUERA",
+      "cidade": "SAO PAULO",
+      "cnpj": "28.391.708/0001-30",
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "588",
@@ -13622,6 +13636,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "370",
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51448",
+      "razao": "CLAUDINEI TRAVESSOLO MINIMERCADO",
+      "fantasia": "SUPERMERCADO ATLANTICO",
+      "bairro": "JARDIM SÃO BENEDITO",
+      "cidade": "ITAPOLIS",
+      "cnpj": "08.231.940/0001-01",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "498",
+      "nome_usur1": "CELSO OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -35924,6 +35952,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "468",
       "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49757",
+      "razao": "MERCADO PADOQUINHA SOROCABA LTDA",
+      "fantasia": "MERCADO PADOQUINHA",
+      "bairro": "JARDIM JATOBÁ",
+      "cidade": "SOROCABA",
+      "cnpj": "26.127.767/0001-70",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
