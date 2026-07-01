@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "01/07/2026 16:40",
+  "atualizado_em": "01/07/2026 16:46",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -171,8 +171,56 @@ const GERENTES_DATA = {
               "por_mes": {},
               "vendedores": [
                 {
+                  "nome": "BRUNA CASTRO MELLO - OFF TRADE",
+                  "rca": "362",
+                  "estado": "MG",
+                  "por_mes": {}
+                },
+                {
                   "nome": "JOSIETH LIMA - OFF TRADE",
                   "rca": "343",
+                  "estado": "MG",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "JOÃO SANTOS - OFF TRADE",
+                  "rca": "327",
+                  "estado": "MG",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+                  "rca": "360",
+                  "estado": "MG",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "LUIZ FERNANDO SALGADO - OFF TRADE",
+                  "rca": "542",
+                  "estado": "MG",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "MATHEUS DE SOUZA - OFF TRADE",
+                  "rca": "354",
+                  "estado": "MG",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "SAVIO NETO - OFF TRADE",
+                  "rca": "331",
+                  "estado": "MG",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "TIAGO ANDRADE - OFF TRADE",
+                  "rca": "344",
+                  "estado": "MG",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "WILLIAM ALVES DA SILVA - OFF TRADE",
+                  "rca": "349",
                   "estado": "MG",
                   "por_mes": {}
                 }
