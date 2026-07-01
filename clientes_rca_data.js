@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/06/2026 18:42",
+  "atualizado_em": "01/07/2026 09:32",
   "total": 4222,
   "clientes": [
     {
@@ -54248,10 +54248,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "47.726.617/0001-52",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "468",
-      "nome_usur2": "RENATO JUNIOR - OFF TRADE"
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "588",
+      "nome_usur2": "W.S"
     },
     {
       "codcli": "50772",
@@ -56516,10 +56516,10 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "43.125.415/0002-85",
       "estado": "SP",
       "ramo": "ADEGA",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "371",
-      "nome_usur2": "CARLOS DE ALMEIDA - OFF TRADE"
+      "codusur1": "371",
+      "nome_usur1": "CARLOS DE ALMEIDA - OFF TRADE",
+      "codusur2": "588",
+      "nome_usur2": "W.S"
     },
     {
       "codcli": "91623",
