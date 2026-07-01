@@ -41,6 +41,22 @@ SCHEMAS = [
 ]
 
 
+def _q_media(s, nf):
+    return f"""
+    SELECT M.CODCLI,
+           ROUND(SUM(M.PUNIT * M.QT) / 3, 2) AS MEDIA_MENSAL
+    FROM {s}.PCMOV M
+    JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
+    WHERE TRUNC(M.DTMOV, 'MM') >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -3)
+      AND TRUNC(M.DTMOV, 'MM') <  TRUNC(SYSDATE, 'MM')
+      AND M.CODOPER IN ('S', 'SB')
+      AND M.NUMNOTADEV IS NULL
+      AND M.DTCANCEL  IS NULL
+      AND {nf}
+    GROUP BY M.CODCLI
+    """
+
+
 def _q_inativos(s, nf):
     return f"""
     SELECT C.CODCLI, C.CLIENTE, C.BAIRROENT AS BAIRRO, C.MUNICENT AS CIDADE,
@@ -110,9 +126,21 @@ def _row(r, cols):
 
 
 por_vendedor = {}
+_media_map   = {}  # {schema: {codcli_str: media_mensal}}
 
 for schema, dsn, nome_filter, estado, usr, pwd in SCHEMAS:
     eng = _eng(dsn, usr, pwd)
+
+    # Média 3 meses por cliente
+    df_med = _load(_q_media(schema, nome_filter), eng, f"media_{schema}")
+    if not df_med.empty:
+        _media_map[schema] = {
+            str(r["CODCLI"]): round(float(r["MEDIA_MENSAL"]), 2)
+            for _, r in df_med.iterrows()
+            if pd.notna(r.get("MEDIA_MENSAL"))
+        }
+    else:
+        _media_map[schema] = {}
 
     for label, query, cat, cols in [
         (f"inativos_{schema}",   _q_inativos(schema, nome_filter),   "inativos",
@@ -134,7 +162,10 @@ for schema, dsn, nome_filter, estado, usr, pwd in SCHEMAS:
                 "rca": rca, "estado": estado,
                 "inativos": [], "sem_compra": [], "novos": []
             })
-            v[cat].append(_row(r, cols))
+            entry = _row(r, cols)
+            codcli = str(r.get("CODCLI") or "").strip()
+            entry["media"] = _media_map.get(schema, {}).get(codcli, 0.0)
+            v[cat].append(entry)
 
 # ── Hierarquia (estado → gerente → supervisor → vendedor) ────────────────────
 def _q_hier(s, nf):

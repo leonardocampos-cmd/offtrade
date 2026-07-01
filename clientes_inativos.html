@@ -72,6 +72,7 @@
     .resumo-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
     .resumo-label { font-size: .62rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 6px; }
     .resumo-val { font-size: 1.5rem; font-weight: 800; }
+    .resumo-val-sm { font-size: 1.1rem; font-weight: 800; }
 
     @media (max-width: 600px) {
       .cli-table .hide-mob { display: none; }
@@ -286,11 +287,39 @@ function render() {
   document.getElementById('cnt-sem_compra').textContent = totSC   ? `(${totSC})`   : '';
   document.getElementById('cnt-novos').textContent      = totNov  ? `(${totNov})`  : '';
 
+  // Estimativa de perda
+  function _perda(lista) { return lista.reduce((s, c) => s + (parseFloat(c.media) || 0), 0); }
+  const fmtR = v => 'R$ ' + v.toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
+
+  let perdaInat = 0, perdaSC = 0, perdaNov = 0;
+  vends.forEach(([, v]) => {
+    perdaInat += _perda(v.inativos);
+    perdaSC   += _perda(v.sem_compra.filter(c => c.dias >= _dias));
+    perdaNov  += _perda(v.novos);
+  });
+
   // Resumo geral
   document.getElementById('resumo').innerHTML = `
-    <div class="resumo-card"><div class="resumo-label">Inativos</div><div class="resumo-val" style="color:var(--red)">${totInat}</div></div>
-    <div class="resumo-card"><div class="resumo-label">Sem Compra +${_tab==='sem_compra'?_dias:30}d</div><div class="resumo-val" style="color:var(--orange)">${totSC}</div></div>
-    <div class="resumo-card"><div class="resumo-label">Novos s/ Compra</div><div class="resumo-val" style="color:var(--blue)">${totNov}</div></div>
+    <div class="resumo-card">
+      <div class="resumo-label">Inativos</div>
+      <div class="resumo-val" style="color:var(--red)">${totInat}</div>
+      <div style="font-size:.7rem;color:var(--muted);margin-top:4px">Perda est. <span style="color:var(--red);font-weight:700">${fmtR(perdaInat)}</span>/mês</div>
+    </div>
+    <div class="resumo-card">
+      <div class="resumo-label">Sem Compra +${_tab==='sem_compra'?_dias:30}d</div>
+      <div class="resumo-val" style="color:var(--orange)">${totSC}</div>
+      <div style="font-size:.7rem;color:var(--muted);margin-top:4px">Perda est. <span style="color:var(--orange);font-weight:700">${fmtR(perdaSC)}</span>/mês</div>
+    </div>
+    <div class="resumo-card">
+      <div class="resumo-label">Novos s/ Compra</div>
+      <div class="resumo-val" style="color:var(--blue)">${totNov}</div>
+      <div style="font-size:.7rem;color:var(--muted);margin-top:4px">Perda est. <span style="color:var(--blue);font-weight:700">${fmtR(perdaNov)}</span>/mês</div>
+    </div>
+    <div class="resumo-card" style="border-color:#a855f7">
+      <div class="resumo-label" style="color:#a855f7">Perda Total Estimada</div>
+      <div class="resumo-val-sm" style="color:#a855f7">${fmtR(_tab==='inativos'?perdaInat:_tab==='sem_compra'?perdaSC:perdaNov)}</div>
+      <div style="font-size:.65rem;color:var(--muted);margin-top:4px">Média 3 meses · aba atual</div>
+    </div>
   `;
 
   // Lista por vendedor
@@ -319,7 +348,7 @@ function render() {
         <thead><tr>
           <th>Cód</th><th>Cliente</th>
           <th class="hide-mob">Bairro</th><th class="hide-mob">Cidade</th>
-          <th>Últ. Compra</th><th class="hide-mob">Cadastro</th>
+          <th>Últ. Compra</th><th class="hide-mob">Cadastro</th><th>Média/mês</th>
         </tr></thead><tbody>` +
         lista.map(c => `<tr>
           <td style="color:var(--muted)">${c.codcli}</td>
@@ -328,13 +357,14 @@ function render() {
           <td class="hide-mob" style="color:var(--muted)">${c.cidade || '—'}</td>
           <td>${c.dtultcomp || '<span style="color:var(--muted)">—</span>'}</td>
           <td class="hide-mob" style="color:var(--muted)">${c.dtcadastro || '—'}</td>
+          <td style="color:var(--red);font-weight:700">${parseFloat(c.media||0)>0 ? fmtR(parseFloat(c.media)) : '<span style="color:var(--muted)">—</span>'}</td>
         </tr>`).join('') + '</tbody></table>';
     } else if (_tab === 'sem_compra') {
       tbody = `<table class="cli-table">
         <thead><tr>
           <th>Cód</th><th>Cliente</th>
           <th class="hide-mob">Bairro</th><th class="hide-mob">Cidade</th>
-          <th>Últ. Compra</th><th>Dias</th>
+          <th>Últ. Compra</th><th>Dias</th><th>Média/mês</th>
         </tr></thead><tbody>` +
         lista.map(c => `<tr>
           <td style="color:var(--muted)">${c.codcli}</td>
@@ -343,13 +373,14 @@ function render() {
           <td class="hide-mob" style="color:var(--muted)">${c.cidade || '—'}</td>
           <td>${c.dtultcomp || '—'}</td>
           <td><span class="dias-pill ${_diasCls(c.dias)}">${c.dias}d</span></td>
+          <td style="color:var(--orange);font-weight:700">${parseFloat(c.media||0)>0 ? fmtR(parseFloat(c.media)) : '<span style="color:var(--muted)">—</span>'}</td>
         </tr>`).join('') + '</tbody></table>';
     } else {
       tbody = `<table class="cli-table">
         <thead><tr>
           <th>Cód</th><th>Cliente</th>
           <th class="hide-mob">Bairro</th><th class="hide-mob">Cidade</th>
-          <th>Cadastro</th><th>Últ. Compra</th>
+          <th>Cadastro</th><th>Últ. Compra</th><th>Média/mês</th>
         </tr></thead><tbody>` +
         lista.map(c => `<tr>
           <td style="color:var(--muted)">${c.codcli}</td>
@@ -358,6 +389,7 @@ function render() {
           <td class="hide-mob" style="color:var(--muted)">${c.cidade || '—'}</td>
           <td style="color:var(--green)">${c.dtcadastro || '—'}</td>
           <td style="color:var(--muted)">${c.dtultcomp || '<span style="color:var(--red)">Nenhuma</span>'}</td>
+          <td style="color:var(--blue);font-weight:700">${parseFloat(c.media||0)>0 ? fmtR(parseFloat(c.media)) : '<span style="color:var(--muted)">—</span>'}</td>
         </tr>`).join('') + '</tbody></table>';
     }
 
