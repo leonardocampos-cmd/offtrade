@@ -228,15 +228,11 @@ function setDias(d, btn) {
 }
 
 function _initFiltros() {
-  // Estados: preferir hierarquia GD, senão derivar dos dados
+  // Estados: sempre derivar dos dados (INATIVOS_DATA cobre todos os estados)
   const selE = document.getElementById('fil-estado');
-  if (GD && GD.estados && GD.estados.length) {
-    [...new Set(GD.estados.map(e => e.nome))].sort()
-      .forEach(e => selE.insertAdjacentHTML('beforeend', `<option value="${e}">${e}</option>`));
-  } else {
-    [...new Set(Object.values(D.por_vendedor).map(v => v.estado).filter(Boolean))].sort()
-      .forEach(e => selE.insertAdjacentHTML('beforeend', `<option value="${e}">${e}</option>`));
-  }
+  [...new Set(Object.values(D.por_vendedor).map(v => v.estado).filter(Boolean))].sort()
+    .forEach(e => selE.insertAdjacentHTML('beforeend', `<option value="${e}">${e}</option>`));
+
   // Vendedores iniciais (sem filtro de hierarquia)
   const selV = document.getElementById('fil-vend');
   Object.keys(D.por_vendedor).sort()
@@ -312,7 +308,7 @@ function render() {
           <span class="badge ${badgeCor}">${lista.length} cliente${lista.length > 1 ? 's' : ''}</span>
           <span class="badge badge-blue">${v.estado || ''}</span>
         </div>
-        <span class="vend-ic">&#9660;</span>
+        <span class="vend-ic open">&#9660;</span>
       </div>`;
 
     let tbody = '';
@@ -363,7 +359,7 @@ function render() {
         </tr>`).join('') + '</tbody></table>';
     }
 
-    return `<div class="vend-block">${header}<div class="vend-body">${tbody}</div></div>`;
+    return `<div class="vend-block">${header}<div class="vend-body open">${tbody}</div></div>`;
   }).join('');
 
   document.getElementById('lista').innerHTML = html ||
