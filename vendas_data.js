@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "01/07/2026 09:30",
+  "atualizado_em": "01/07/2026 10:32",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -225605,36 +225605,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 24,
           "valor": 784.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "91668",
-          "cliente": "SENDAS DISTRIBUIDORA S/A",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 660,
-          "valor": 63294.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "91668",
-          "cliente": "SENDAS DISTRIBUIDORA S/A",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1320,
-          "valor": 126588.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "91668",
-          "cliente": "SENDAS DISTRIBUIDORA S/A",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 660,
-          "valor": 63294.0,
           "tipo": "Venda"
         },
         {
