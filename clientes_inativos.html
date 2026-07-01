@@ -317,8 +317,8 @@ function render() {
     </div>
     <div class="resumo-card" style="border-color:#a855f7">
       <div class="resumo-label" style="color:#a855f7">Perda Total Estimada</div>
-      <div class="resumo-val-sm" style="color:#a855f7">${fmtR(_tab==='inativos'?perdaInat:_tab==='sem_compra'?perdaSC:perdaNov)}</div>
-      <div style="font-size:.65rem;color:var(--muted);margin-top:4px">Média 3 meses · aba atual</div>
+      <div class="resumo-val-sm" style="color:#a855f7">${fmtR(perdaInat + perdaSC + perdaNov)}</div>
+      <div style="font-size:.65rem;color:var(--muted);margin-top:4px">Inativos + Sem Compra + Novos · média 3 meses</div>
     </div>
   `;
 
