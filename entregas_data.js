@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "01/07/2026 09:31",
+  "atualizado_em": "01/07/2026 10:32",
   "data_rota": "01.07",
   "vendedores": [
     {
@@ -36,9 +36,72 @@ const ENTREGAS_DATA = {
       "nao_entregue": []
     },
     {
+      "nome": "DIOGO RAPOSO - OFF TRADE",
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "144001611",
+          "numnota": "",
+          "data": "01/07/2026",
+          "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 575.28,
+          "itens": [
+            {
+              "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
+              "qt": 3,
+              "val": 575.28
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [],
+      "nao_entregue": []
+    },
+    {
       "nome": "JORGE MACIEL - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "379001186",
+          "numnota": "",
+          "data": "01/07/2026",
+          "cliente": "M&M DEPOSITO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 704.4,
+          "itens": [
+            {
+              "desc": "GIN ROCKS STRAWBERRY 1000ML",
+              "qt": 6,
+              "val": 143.4
+            },
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 1LT",
+              "qt": 12,
+              "val": 226.8
+            },
+            {
+              "desc": "VINHO CASA RODRIGUES TINTO SUAVE",
+              "qt": 12,
+              "val": 190.8
+            },
+            {
+              "desc": "GIN ROCKS WATERMELON 1000ML",
+              "qt": 6,
+              "val": 143.4
+            }
+          ]
+        },
         {
           "numped": "379001183",
           "numnota": "",
@@ -68,6 +131,11 @@ const ENTREGAS_DATA = {
               "val": 141.6
             },
             {
+              "desc": "RC ATUM SOLIDO OLEO 24X170G",
+              "qt": 1,
+              "val": 141.6
+            },
+            {
               "desc": "REFRESCO DE UVA MINECRAFT 24X200ML",
               "qt": 1,
               "val": 42.96
@@ -86,31 +154,6 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
               "qt": 1,
               "val": 141.6
-            },
-            {
-              "desc": "RC ATUM SOLIDO OLEO 24X170G",
-              "qt": 1,
-              "val": 141.6
-            }
-          ]
-        },
-        {
-          "numped": "379001184",
-          "numnota": "",
-          "data": "01/07/2026",
-          "cliente": "50.828.095 MATHEUS DA SILVA LIMA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 418.8,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 12,
-              "val": 418.8
             }
           ]
         },
@@ -131,6 +174,26 @@ const ENTREGAS_DATA = {
               "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
               "qt": 12,
               "val": 154.8
+            }
+          ]
+        },
+        {
+          "numped": "379001184",
+          "numnota": "",
+          "data": "01/07/2026",
+          "cliente": "50.828.095 MATHEUS DA SILVA LIMA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 418.8,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 12,
+              "val": 418.8
             }
           ]
         }
