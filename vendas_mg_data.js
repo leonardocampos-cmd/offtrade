@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "01/07/2026 10:33",
+  "atualizado_em": "01/07/2026 10:58",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -71,8 +71,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 58591.42
       },
       "Jun/26": {
-        "fat": 177731.14,
-        "pos": 61,
+        "fat": 173932.38,
+        "pos": 54,
         "fat_ant": 175829.04
       }
     },
@@ -49123,51 +49123,6 @@ const VENDAS_MG_DATA = {
           "valor": 184.8
         },
         {
-          "data": "09/06/2026",
-          "codcli": "37423",
-          "cliente": "PARANAIBA RIBEIRO DE ABREU SUPERMERCADOS LTDA",
-          "produto": "XAROPE MONIN MORANGO 330 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 45.8
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "37423",
-          "cliente": "PARANAIBA RIBEIRO DE ABREU SUPERMERCADOS LTDA",
-          "produto": "XAROPE  MONIN TANGERINA 330 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 45.8
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "37423",
-          "cliente": "PARANAIBA RIBEIRO DE ABREU SUPERMERCADOS LTDA",
-          "produto": "GIN GORDONS 750 ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 167.7
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "37423",
-          "cliente": "PARANAIBA RIBEIRO DE ABREU SUPERMERCADOS LTDA",
-          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 45.8
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "37423",
-          "cliente": "PARANAIBA RIBEIRO DE ABREU SUPERMERCADOS LTDA",
-          "produto": "XAROPE MONIN MARACUJA 330 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 45.8
-        },
-        {
           "data": "10/06/2026",
           "codcli": "35497",
           "cliente": "SUPERMERCADO NOVO HORIZONTE PLUS LTDA",
@@ -49556,15 +49511,6 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "12/06/2026",
-          "codcli": "38189",
-          "cliente": "DISTRIBUIDORA NOVOS HORIZONTES LTDA.",
-          "produto": "SMIRNOFF ICE RASPBERRY -24 UNIDADES (LN)",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 600.0
-        },
-        {
-          "data": "12/06/2026",
           "codcli": "38188",
           "cliente": "SUPERMERCADO NOVO HORIZONTE CHACARAS BOM JESUS LTDA",
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
@@ -49838,114 +49784,6 @@ const VENDAS_MG_DATA = {
           "codcli": "29514",
           "cliente": "PARANAIBA GUANABARA ALIMENTOS LTDA",
           "produto": "XAROPE  MONIN TANGERINA 330 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 45.8
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "29892",
-          "cliente": "PARANAIBA TUPI SUPERMERCADOS LTDA",
-          "produto": "XAROPE MONIN MARACUJA 330 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 45.8
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "29892",
-          "cliente": "PARANAIBA TUPI SUPERMERCADOS LTDA",
-          "produto": "LICOR BALLENA MORANGO 750ML",
-          "fantasia": "BALLENA",
-          "qt": 3,
-          "valor": 347.7
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "29892",
-          "cliente": "PARANAIBA TUPI SUPERMERCADOS LTDA",
-          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-          "fantasia": "MSLR",
-          "qt": 2,
-          "valor": 149.8
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "29892",
-          "cliente": "PARANAIBA TUPI SUPERMERCADOS LTDA",
-          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 45.8
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "29878",
-          "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
-          "produto": "VODKA ORLOFF 1,75L",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 115.5
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "29878",
-          "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
-          "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 419.4
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "29878",
-          "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
-          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 45.8
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "29878",
-          "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
-          "produto": "GIN GORDONS 750 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 335.4
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "29878",
-          "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
-          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-          "fantasia": "MSLR",
-          "qt": 2,
-          "valor": 149.8
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "29878",
-          "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
-          "produto": "VODKA ABSOLUT - 1 LITRO",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 148.0
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "29878",
-          "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
-          "produto": "XAROPE MONIN MARACUJA 330 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 45.8
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "29878",
-          "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
-          "produto": "XAROPE MONIN MORANGO 330 ML",
           "fantasia": "",
           "qt": 2,
           "valor": 45.8
@@ -50294,33 +50132,6 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "17/06/2026",
-          "codcli": "30614",
-          "cliente": "PARANAIBA SAO BENEDITO ALIMENTOS LTDA",
-          "produto": "GIN ORLOFF 1L",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 75.0
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "30614",
-          "cliente": "PARANAIBA SAO BENEDITO ALIMENTOS LTDA",
-          "produto": "WHISKY PASSPORT  SELECTION 1L",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 105.8
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "30614",
-          "cliente": "PARANAIBA SAO BENEDITO ALIMENTOS LTDA",
-          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-          "fantasia": "MSLR",
-          "qt": 3,
-          "valor": 224.7
-        },
-        {
-          "data": "17/06/2026",
           "codcli": "36399",
           "cliente": "COLIBRI LOJA DE CONVENIENCIA",
           "produto": "GIN GORDONS 750 ML",
@@ -50507,24 +50318,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 3,
           "valor": 149.7
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "29385",
-          "cliente": "ARMAZEM E MERCEARIA PARANAIBA LTDA",
-          "produto": "4 PACK RED BULL MELANCIA",
-          "fantasia": "",
-          "qt": 4,
-          "valor": 123.04
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "29385",
-          "cliente": "ARMAZEM E MERCEARIA PARANAIBA LTDA",
-          "produto": "4 PACK RED BULL TROPICAL",
-          "fantasia": "",
-          "qt": 4,
-          "valor": 123.04
         },
         {
           "data": "24/06/2026",
@@ -50840,15 +50633,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 25.0
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "38049",
-          "cliente": "VAREJAO ASTEKA LTDA",
-          "produto": "SMIRNOFF ICE RASPBERRY -269ML LT CX 24",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 301.68
         },
         {
           "data": "26/06/2026",
