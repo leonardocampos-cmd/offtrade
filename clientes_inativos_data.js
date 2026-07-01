@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "01/07/2026 16:42",
+  "atualizado_em": "01/07/2026 16:49",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -19643,5 +19643,667 @@ const INATIVOS_DATA = {
       ],
       "novos": []
     }
-  }
+  },
+  "hierarquia": [
+    {
+      "nome": "ES",
+      "gerentes": [
+        {
+          "nome": "DANIEL DINIZ",
+          "supervisores": [
+            {
+              "nome": "DANIEL DINIZ",
+              "vendedores": [
+                {
+                  "nome": "ALDICEIA PEIXOTO - OFF TRADE",
+                  "rca": "440"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "MAYCON MENEGARDO",
+          "supervisores": [
+            {
+              "nome": "SUPERVISOR BALCAO - ES",
+              "vendedores": [
+                {
+                  "nome": "ENEIVA RODRIGUES - OFF TRADE",
+                  "rca": "230"
+                }
+              ]
+            },
+            {
+              "nome": "SUPERVISOR DIRETORIA - ES",
+              "vendedores": [
+                {
+                  "nome": "CARLOS TERRA - OFF TRADE",
+                  "rca": "376"
+                }
+              ]
+            },
+            {
+              "nome": "SUPERVISOR HIBRIDO ES",
+              "vendedores": [
+                {
+                  "nome": "FRANZ BENEVIDES - OFF TRADE",
+                  "rca": "370"
+                },
+                {
+                  "nome": "JEAN MENEZES - OFF TRADE",
+                  "rca": "336"
+                },
+                {
+                  "nome": "JOSIETH LIMA - OFF TRADE",
+                  "rca": "343"
+                },
+                {
+                  "nome": "MARA DEPOLLI - OFF TRADE",
+                  "rca": "335"
+                },
+                {
+                  "nome": "RAQUEL ARAUJO - OFF TRADE",
+                  "rca": "442"
+                },
+                {
+                  "nome": "RICARDO CLAUDIO - OFF TRADE",
+                  "rca": "342"
+                },
+                {
+                  "nome": "TIAGO SILVA - OFF TRADE",
+                  "rca": "257"
+                }
+              ]
+            },
+            {
+              "nome": "SUPERVISOR OFF - ES",
+              "vendedores": [
+                {
+                  "nome": "DOUGLAS SCHADE - OFF TRADE",
+                  "rca": "260"
+                },
+                {
+                  "nome": "EUDES MORGAN - OFF TRADE",
+                  "rca": "388"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "MG",
+      "gerentes": [
+        {
+          "nome": "ANDRE LUIZ MASSENSINI",
+          "supervisores": [
+            {
+              "nome": "FERNANDO RISSON",
+              "vendedores": [
+                {
+                  "nome": "BRUNA CASTRO MELLO - OFF TRADE",
+                  "rca": "362"
+                },
+                {
+                  "nome": "FERNANDO RISSON - OFF TRADE",
+                  "rca": "343"
+                },
+                {
+                  "nome": "JOÃO SANTOS - OFF TRADE",
+                  "rca": "327"
+                },
+                {
+                  "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+                  "rca": "360"
+                },
+                {
+                  "nome": "LUIZ FERNANDO SALGADO - OFF TRADE",
+                  "rca": "542"
+                },
+                {
+                  "nome": "MATHEUS DE SOUZA - OFF TRADE",
+                  "rca": "354"
+                },
+                {
+                  "nome": "SAVIO NETO - OFF TRADE",
+                  "rca": "331"
+                },
+                {
+                  "nome": "TIAGO ANDRADE - OFF TRADE",
+                  "rca": "344"
+                },
+                {
+                  "nome": "WILLIAM ALVES DA SILVA - OFF TRADE",
+                  "rca": "349"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "RJ",
+      "gerentes": [
+        {
+          "nome": "ALLAN PAES",
+          "supervisores": [
+            {
+              "nome": "DANIELLE MOURA",
+              "vendedores": [
+                {
+                  "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
+                  "rca": "431"
+                },
+                {
+                  "nome": "ALLAN PAES - OFF TRADE",
+                  "rca": "174"
+                },
+                {
+                  "nome": "ANA CLARA FASSANO - OFF TRADE",
+                  "rca": "471"
+                },
+                {
+                  "nome": "ANGELO NEVES SUZART - OFF TRADE",
+                  "rca": "153"
+                },
+                {
+                  "nome": "BARBARA CABRAL - OFF TRADE",
+                  "rca": "412"
+                },
+                {
+                  "nome": "DANIELLE MOURA - OFF TRADE",
+                  "rca": "238"
+                },
+                {
+                  "nome": "DIOGO RAPOSO - OFF TRADE",
+                  "rca": "144"
+                },
+                {
+                  "nome": "DIRLEI ARAUJO - OFF TRADE",
+                  "rca": "554"
+                },
+                {
+                  "nome": "FABIO VALOTTI - OFF TRADE",
+                  "rca": "378"
+                },
+                {
+                  "nome": "JORGE MACIEL - OFF TRADE",
+                  "rca": "379"
+                },
+                {
+                  "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
+                  "rca": "158"
+                },
+                {
+                  "nome": "KELLY RAMOS - OFF TRADE",
+                  "rca": "420"
+                },
+                {
+                  "nome": "LEANDRO SOUZA - OFF TRADE",
+                  "rca": "450"
+                },
+                {
+                  "nome": "LUCIANO DUARTE MIRANDA - OFF TRADE",
+                  "rca": "905"
+                },
+                {
+                  "nome": "MARIA LUIZA - OFF TRADE",
+                  "rca": "275"
+                },
+                {
+                  "nome": "MARILENA TRAGEL - OFF TRADE",
+                  "rca": "156"
+                },
+                {
+                  "nome": "MATEUS CARDOSO - OFF TRADE",
+                  "rca": "439"
+                },
+                {
+                  "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
+                  "rca": "482"
+                },
+                {
+                  "nome": "VIVIANI ALVES - OFF TRADE",
+                  "rca": "119"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "DANIEL DINIZ",
+          "supervisores": [
+            {
+              "nome": "DANIEL DINIZ",
+              "vendedores": [
+                {
+                  "nome": "GISELLE BARFER - OFF TRADE",
+                  "rca": "159"
+                },
+                {
+                  "nome": "RAPHAEL SANTOS - OFF TRADE",
+                  "rca": "155"
+                },
+                {
+                  "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+                  "rca": "241"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "SP",
+      "gerentes": [
+        {
+          "nome": "DANIEL DINIZ",
+          "supervisores": [
+            {
+              "nome": "DANIEL DINIZ",
+              "vendedores": [
+                {
+                  "nome": "W.S",
+                  "rca": "588"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "MARCUS TANAMACHI",
+          "supervisores": [
+            {
+              "nome": "ANDERSON CANAVEIS",
+              "vendedores": [
+                {
+                  "nome": "ANDERSON CANAVEIS - OFF TRADE",
+                  "rca": "232"
+                },
+                {
+                  "nome": "ANDRE SILVA - OFF TRADE",
+                  "rca": "391"
+                },
+                {
+                  "nome": "CARLOS DE ALMEIDA - OFF TRADE",
+                  "rca": "371"
+                },
+                {
+                  "nome": "DEMETRIUS PELEGRINI - OFF TRADE",
+                  "rca": "496"
+                },
+                {
+                  "nome": "GUSTAVO MARTINS - OFF TRADE",
+                  "rca": "502"
+                },
+                {
+                  "nome": "JOAO LUPORINI - OFF TRADE",
+                  "rca": "312"
+                },
+                {
+                  "nome": "JOSE SILVA - OFF TRADE",
+                  "rca": "499"
+                },
+                {
+                  "nome": "LUIS MACHADO - OFF TRADE",
+                  "rca": "497"
+                },
+                {
+                  "nome": "MARCIA RITA - OFF TRADE",
+                  "rca": "438"
+                },
+                {
+                  "nome": "MARIA PEREIRA - OFF TRADE",
+                  "rca": "478"
+                },
+                {
+                  "nome": "PATRICIO MASSAGARDI - OFF TRADE",
+                  "rca": "464"
+                },
+                {
+                  "nome": "PAULO MOREIRA - OFF TRADE",
+                  "rca": "500"
+                },
+                {
+                  "nome": "ROBSON DA SILVA - OFF TRADE",
+                  "rca": "317"
+                },
+                {
+                  "nome": "VITORIA VIEIRA - OFF TRADE",
+                  "rca": "480"
+                },
+                {
+                  "nome": "WANDO MACHADO - OFF TRADE",
+                  "rca": "429"
+                }
+              ]
+            },
+            {
+              "nome": "MARCUS TANAMACHI",
+              "vendedores": [
+                {
+                  "nome": "ANDERSON MOTTA - OFF TRADE",
+                  "rca": "492"
+                },
+                {
+                  "nome": "ANDRE PINHEIRO - OFF TRADE",
+                  "rca": "485"
+                },
+                {
+                  "nome": "BRYAN PALOPOLI - OFF TRADE",
+                  "rca": "399"
+                },
+                {
+                  "nome": "CARLOS TERRA - OFF TRADE",
+                  "rca": "310"
+                },
+                {
+                  "nome": "CAROLINA SOUZA - OFF TRADE",
+                  "rca": "493"
+                },
+                {
+                  "nome": "CIARA PADULA - OFF TRADE",
+                  "rca": "465"
+                },
+                {
+                  "nome": "CRISTIANE MORAIS - OFF TRADE",
+                  "rca": "460"
+                },
+                {
+                  "nome": "DANIELLE DOS SANTOS - OFF TRADE",
+                  "rca": "466"
+                },
+                {
+                  "nome": "EDUARDO COUTO - OFF TRADE",
+                  "rca": "495"
+                },
+                {
+                  "nome": "FLAVIO RIBEIRO - OFF TRADE",
+                  "rca": "472"
+                },
+                {
+                  "nome": "MARCUS TANAMACHI - OFF TRADE",
+                  "rca": "318"
+                },
+                {
+                  "nome": "MARLENE RODRIGUES - OFF TRADE",
+                  "rca": "467"
+                },
+                {
+                  "nome": "PAULO JUNIOR - OFF TRADE",
+                  "rca": "471"
+                },
+                {
+                  "nome": "RENATO JUNIOR - OFF TRADE",
+                  "rca": "468"
+                },
+                {
+                  "nome": "ROBERTO DOS SANTOS - OFF TRADE",
+                  "rca": "463"
+                },
+                {
+                  "nome": "SUELY SANTOS - OFF TRADE",
+                  "rca": "461"
+                }
+              ]
+            },
+            {
+              "nome": "PRISCILLA BONACHE",
+              "vendedores": [
+                {
+                  "nome": "ADELINO SANTOS - OFF TRADE",
+                  "rca": "479"
+                },
+                {
+                  "nome": "ADER ALONSO - OFF TRADE",
+                  "rca": "426"
+                },
+                {
+                  "nome": "ADRIANO VEZZANI - OFF TRADE",
+                  "rca": "488"
+                },
+                {
+                  "nome": "ALEXANDRE TONON - OFF TRADE",
+                  "rca": "483"
+                },
+                {
+                  "nome": "BRUNO BARBOSA - OFF TRADE",
+                  "rca": "425"
+                },
+                {
+                  "nome": "CELSO OLIVEIRA - OFF TRADE",
+                  "rca": "498"
+                },
+                {
+                  "nome": "DOUGLAS TEIXEIRA - OFF TRADE",
+                  "rca": "490"
+                },
+                {
+                  "nome": "ELIZANGELA RODRIGUES - OFF TRADE",
+                  "rca": "462"
+                },
+                {
+                  "nome": "FERNANDO BERTIN - OFF TRADE",
+                  "rca": "489"
+                },
+                {
+                  "nome": "FRANCIS SILVA - OFF TRADE",
+                  "rca": "474"
+                },
+                {
+                  "nome": "GILSON DE OLIVEIRA - OFF TRADE",
+                  "rca": "491"
+                },
+                {
+                  "nome": "GILVAN AMORIM - OFF TRADE",
+                  "rca": "504"
+                },
+                {
+                  "nome": "JESSICA LIMA -  OFF TRADE",
+                  "rca": "501"
+                },
+                {
+                  "nome": "LEONARDO FLOREZI - OFF TRADE",
+                  "rca": "486"
+                },
+                {
+                  "nome": "LUCAS BUENO - OFF TRADE",
+                  "rca": "475"
+                },
+                {
+                  "nome": "LUCIANO TOSCHI - OFF TRADE",
+                  "rca": "477"
+                },
+                {
+                  "nome": "LUIZ RIGLER - OFF TRADE",
+                  "rca": "487"
+                },
+                {
+                  "nome": "MANUELA ZAPPACOSTA - OFF TRADE",
+                  "rca": "433"
+                },
+                {
+                  "nome": "MARCELO PEREIRA - OFF TRADE",
+                  "rca": "473"
+                },
+                {
+                  "nome": "MARIO RAFAEL FERRARI - OFF TRADE",
+                  "rca": "428"
+                },
+                {
+                  "nome": "PATRICIA RAMOS - OFF TRADE",
+                  "rca": "469"
+                },
+                {
+                  "nome": "PRISCILLA BONACHE - OFF TRADE",
+                  "rca": "470"
+                },
+                {
+                  "nome": "RENAN SOUZA - OFF TRADE",
+                  "rca": "481"
+                },
+                {
+                  "nome": "RODRIGO LIMA - OFF TRADE",
+                  "rca": "476"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "nan",
+      "gerentes": [
+        {
+          "nome": "ALLAN PAES",
+          "supervisores": [
+            {
+              "nome": "DANIELLE MOURA",
+              "vendedores": [
+                {
+                  "nome": "FRANCISCO CARLOS MACIEL - OFF TRADE",
+                  "rca": "446"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "CRC",
+          "supervisores": [
+            {
+              "nome": "SUPERVISOR - ES",
+              "vendedores": [
+                {
+                  "nome": "DIEGO PAULINO - OFF TRADE",
+                  "rca": "444"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "DANIEL DINIZ",
+          "supervisores": [
+            {
+              "nome": "DANIEL DINIZ",
+              "vendedores": [
+                {
+                  "nome": "ARETHA AGUIAR - OFF TRADE",
+                  "rca": "408"
+                },
+                {
+                  "nome": "BRYAN PALOPOLI - OFF TRADE",
+                  "rca": "299"
+                },
+                {
+                  "nome": "DANIEL COSTA - OFF TRADE",
+                  "rca": "239"
+                },
+                {
+                  "nome": "DIMAS GIRARD - OFF TRADE",
+                  "rca": "409"
+                },
+                {
+                  "nome": "ELIEL MAIA - OFF TRADE",
+                  "rca": "246"
+                },
+                {
+                  "nome": "FLÁVIO ALVES - OFF TRADE",
+                  "rca": "248"
+                },
+                {
+                  "nome": "GILDO ADRIANO - OFF TRADE",
+                  "rca": "402"
+                },
+                {
+                  "nome": "JOAO VICTOR DA ROCHA - OFF TRADE",
+                  "rca": "435"
+                },
+                {
+                  "nome": "JORGE LUIZ - OFF TRADE",
+                  "rca": "406"
+                },
+                {
+                  "nome": "LUCAS LIMA - OFF TRADE",
+                  "rca": "265"
+                },
+                {
+                  "nome": "MARCELO SANCHES - OFF TRADE",
+                  "rca": "410"
+                },
+                {
+                  "nome": "MOACIR FILHO - OFF TRADE",
+                  "rca": "247"
+                },
+                {
+                  "nome": "ROSENIR RIBEIRO - OFF TRADE",
+                  "rca": "268"
+                },
+                {
+                  "nome": "SAMARION DE SOUZA FONSECA - OFF TRADE",
+                  "rca": "404"
+                },
+                {
+                  "nome": "WANDERSON FERREIRA - OFF TRADE",
+                  "rca": "341"
+                },
+                {
+                  "nome": "WEBERT FIGUEIREDO - OFF TRADE",
+                  "rca": "245"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "GERENTE PARAMETRIZACAO",
+          "supervisores": [
+            {
+              "nome": "PATRICK MORAES",
+              "vendedores": [
+                {
+                  "nome": "MARIA LUIZA - OFF TRADE",
+                  "rca": "904"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "MARCUS TANAMACHI",
+          "supervisores": [
+            {
+              "nome": "MARCUS TANAMACHI",
+              "vendedores": [
+                {
+                  "nome": "RAPHAEL CAMPOS - OFF TRADE",
+                  "rca": "506"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "MAYCON MENEGARDO",
+          "supervisores": [
+            {
+              "nome": "SUPERVISOR HIBRIDO ES",
+              "vendedores": [
+                {
+                  "nome": "MARCELO DE CAMPOS - OFF TRADE",
+                  "rca": "502"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 };
