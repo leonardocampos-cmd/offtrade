@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "01/07/2026 16:10",
+  "atualizado_em": "01/07/2026 16:22",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -54379,6 +54379,46 @@ const VENDAS_DATA = {
         },
         {
           "data": "01/07/2026",
+          "codcli": "62232",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "produto": "SMIRNOFF RED PET 1750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 5,
+          "valor": 172.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "62232",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "FANTE",
+          "qt": 2,
+          "valor": 45.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "62232",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 25.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "62232",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 25.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
           "codcli": "78141",
           "cliente": "MARCIO GARCIA SANCHES 01351218760",
           "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
@@ -54415,6 +54455,46 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 50,
           "valor": 2445.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
+          "fantasia": "KAISER",
+          "qt": 150,
+          "valor": 7335.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 275.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 275.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "86503",
+          "cliente": "56.995.013 DENILSON GOMES DOS SANTOS",
+          "produto": "AZEITE  ESSENZA D'ITALIA PREMIUM 500ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 23.9,
           "tipo": "Venda"
         },
         {
