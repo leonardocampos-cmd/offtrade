@@ -154,7 +154,10 @@ print(f"\nOK clientes_inativos_data.js — {len(por_vendedor)} vendedores | "
 
 repo_dir = str(Path(__file__).parent)
 subprocess.run(["git", "-C", repo_dir, "add", "clientes_inativos_data.js"], check=True)
-subprocess.run(["git", "-C", repo_dir, "commit", "-m",
-                f"Atualiza clientes_inativos_data.js - {datetime.now().strftime('%d/%m/%Y')}"], check=True)
-subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
-print("OK GitHub Pages atualizado.")
+result = subprocess.run(["git", "-C", repo_dir, "commit", "-m",
+                         f"Atualiza clientes_inativos_data.js - {datetime.now().strftime('%d/%m/%Y')}"])
+if result.returncode == 0:
+    subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
+    print("OK GitHub Pages atualizado.")
+else:
+    print("OK clientes_inativos_data.js sem alterações — push ignorado.")
