@@ -135,9 +135,9 @@ for schema, dsn, nome_filter, estado, usr, pwd in SCHEMAS:
     df_med = _load(_q_media(schema, nome_filter), eng, f"media_{schema}")
     if not df_med.empty:
         _media_map[schema] = {
-            str(r["CODCLI"]): round(float(r["MEDIA_MENSAL"]), 2)
+            str(int(float(r["CODCLI"]))): round(float(r["MEDIA_MENSAL"]), 2)
             for _, r in df_med.iterrows()
-            if pd.notna(r.get("MEDIA_MENSAL"))
+            if pd.notna(r.get("MEDIA_MENSAL")) and pd.notna(r.get("CODCLI"))
         }
     else:
         _media_map[schema] = {}
@@ -163,8 +163,9 @@ for schema, dsn, nome_filter, estado, usr, pwd in SCHEMAS:
                 "inativos": [], "sem_compra": [], "novos": []
             })
             entry = _row(r, cols)
-            codcli = str(r.get("CODCLI") or "").strip()
-            entry["media"] = _media_map.get(schema, {}).get(codcli, 0.0)
+            codcli_raw = r.get("CODCLI")
+            codcli_key = str(int(float(codcli_raw))) if pd.notna(codcli_raw) else ""
+            entry["media"] = _media_map.get(schema, {}).get(codcli_key, 0.0)
             v[cat].append(entry)
 
 # ── Hierarquia (estado → gerente → supervisor → vendedor) ────────────────────
