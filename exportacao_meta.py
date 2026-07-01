@@ -47,6 +47,7 @@ for _s, _e, _n, _extra_f in [
     ("CASTAS",  engine_castas,  "map_rca_CASTAS",  "NOME LIKE '%OFF TRADE%'"),
     ("GARRIDO", engine_garrido, "map_rca_GARRIDO", "NOME LIKE '%OFF TRADE%'"),
     ("SPON",    engine_spon,    "map_rca_SPON",    "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
+    ("MGON",    engine_mg,      "map_rca_MGON",    "NOME LIKE '%OFF TRADE%'"),
 ]:
     try:
         _parts_map_rca.append(carregar_dados(f"SELECT CODUSUR AS RCA, NOME FROM {_s}.PCUSUARI WHERE {_extra_f}", _e, _n))
