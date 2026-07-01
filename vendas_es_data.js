@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "01/07/2026 10:58",
+  "atualizado_em": "01/07/2026 14:38",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -1975,7 +1975,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84610",
           "cliente": "F T E FERNANDES",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -1984,7 +1984,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -1993,7 +1993,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84983",
           "cliente": "EDMILSON AREAS PESSANHA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 183.35
         },
@@ -2002,7 +2002,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2011,7 +2011,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -2020,7 +2020,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81311",
           "cliente": "J D ROCHA PANIFICADORA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2029,7 +2029,7 @@ const VENDAS_ES_DATA = {
           "codcli": "73065",
           "cliente": "SPAZZIO ACADEMIA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -2038,7 +2038,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85485",
           "cliente": "EGAH PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2047,7 +2047,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74699",
           "cliente": "COMERCIO DE DOCES MERO LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 70.98
         },
@@ -2056,7 +2056,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84610",
           "cliente": "F T E FERNANDES",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2065,7 +2065,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90019",
           "cliente": "KAROLINNE DOS SANTOS VIEIRA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2074,7 +2074,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2083,7 +2083,7 @@ const VENDAS_ES_DATA = {
           "codcli": "89953",
           "cliente": "TRINEXUS FARMA LIMITADA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -2092,7 +2092,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84983",
           "cliente": "EDMILSON AREAS PESSANHA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 4,
           "valor": 146.68
         },
@@ -2101,7 +2101,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -2110,7 +2110,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84597",
           "cliente": "MAIS PAES PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2119,7 +2119,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93505",
           "cliente": "56.703.137 BEIERSDOF JOHNSON DE MELO OLIVEIRA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2128,7 +2128,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91028",
           "cliente": "HORTIFRUTI ARM LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -2137,7 +2137,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84506",
           "cliente": "HELDA RODRIGUES VILA REAL DOS SANTOS",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2146,7 +2146,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -2155,7 +2155,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81311",
           "cliente": "J D ROCHA PANIFICADORA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2164,7 +2164,7 @@ const VENDAS_ES_DATA = {
           "codcli": "73065",
           "cliente": "SPAZZIO ACADEMIA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2173,7 +2173,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85485",
           "cliente": "EGAH PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2182,7 +2182,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74699",
           "cliente": "COMERCIO DE DOCES MERO LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 70.98
         },
@@ -2191,7 +2191,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2200,7 +2200,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2209,7 +2209,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93505",
           "cliente": "56.703.137 BEIERSDOF JOHNSON DE MELO OLIVEIRA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2218,7 +2218,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2227,7 +2227,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81311",
           "cliente": "J D ROCHA PANIFICADORA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2236,7 +2236,7 @@ const VENDAS_ES_DATA = {
           "codcli": "73065",
           "cliente": "SPAZZIO ACADEMIA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2245,7 +2245,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85485",
           "cliente": "EGAH PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2254,7 +2254,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74699",
           "cliente": "COMERCIO DE DOCES MERO LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.49
         },
@@ -2263,7 +2263,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2272,7 +2272,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84983",
           "cliente": "EDMILSON AREAS PESSANHA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 4,
           "valor": 146.68
         },
@@ -2281,7 +2281,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2290,7 +2290,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84506",
           "cliente": "HELDA RODRIGUES VILA REAL DOS SANTOS",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2299,7 +2299,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81311",
           "cliente": "J D ROCHA PANIFICADORA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -2308,7 +2308,7 @@ const VENDAS_ES_DATA = {
           "codcli": "73065",
           "cliente": "SPAZZIO ACADEMIA LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -2317,7 +2317,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74699",
           "cliente": "COMERCIO DE DOCES MERO LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.49
         },
@@ -2326,7 +2326,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81311",
           "cliente": "J D ROCHA PANIFICADORA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.73
         },
@@ -2335,7 +2335,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81311",
           "cliente": "J D ROCHA PANIFICADORA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.73
         },
@@ -2344,7 +2344,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81311",
           "cliente": "J D ROCHA PANIFICADORA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.73
         },
@@ -2353,7 +2353,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81311",
           "cliente": "J D ROCHA PANIFICADORA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.73
         },
@@ -2362,7 +2362,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81311",
           "cliente": "J D ROCHA PANIFICADORA",
           "produto": "CHICLETE TRIDENT SENSE BLUEB C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6126,7 +6126,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93209",
           "cliente": "RESTAURANTE FOGAO DE CASA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -6135,7 +6135,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6144,7 +6144,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6153,7 +6153,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76252",
           "cliente": "54.210.635 JOSEMAR DOS SANTOS CAITANO JUNIOR",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6162,7 +6162,7 @@ const VENDAS_ES_DATA = {
           "codcli": "50621",
           "cliente": "DIRETORIO ACADEMICO DE MEDICINA DA UNIVERSIDADE FEDERAL DO E",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6171,7 +6171,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84799",
           "cliente": "51.296.566 ANAIDE PEREIRA PIRES",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6180,7 +6180,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84597",
           "cliente": "MAIS PAES PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6189,7 +6189,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84587",
           "cliente": "DROGARIA GRAMEL LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 38.0
         },
@@ -6198,7 +6198,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76489",
           "cliente": "LUZINETE SCHADE SOARES",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -6207,7 +6207,7 @@ const VENDAS_ES_DATA = {
           "codcli": "73065",
           "cliente": "SPAZZIO ACADEMIA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -6216,7 +6216,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6225,7 +6225,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6234,7 +6234,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84587",
           "cliente": "DROGARIA GRAMEL LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 38.0
         },
@@ -6243,7 +6243,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6252,7 +6252,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6261,7 +6261,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76489",
           "cliente": "LUZINETE SCHADE SOARES",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -6270,7 +6270,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86246",
           "cliente": "PADARIA BICHO PAPAO LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -6279,7 +6279,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86235",
           "cliente": "AUTO SERVICO LEONARDO LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6288,7 +6288,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6297,7 +6297,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91028",
           "cliente": "HORTIFRUTI ARM LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 111.18
         },
@@ -6306,7 +6306,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84597",
           "cliente": "MAIS PAES PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6315,7 +6315,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84587",
           "cliente": "DROGARIA GRAMEL LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 38.0
         },
@@ -6324,7 +6324,7 @@ const VENDAS_ES_DATA = {
           "codcli": "73065",
           "cliente": "SPAZZIO ACADEMIA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 80.12
         },
@@ -6333,7 +6333,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6342,7 +6342,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6351,7 +6351,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84799",
           "cliente": "51.296.566 ANAIDE PEREIRA PIRES",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6360,7 +6360,7 @@ const VENDAS_ES_DATA = {
           "codcli": "50621",
           "cliente": "DIRETORIO ACADEMICO DE MEDICINA DA UNIVERSIDADE FEDERAL DO E",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.73
         },
@@ -6369,7 +6369,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84587",
           "cliente": "DROGARIA GRAMEL LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 26.0
         },
@@ -6378,7 +6378,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93209",
           "cliente": "RESTAURANTE FOGAO DE CASA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6387,7 +6387,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84610",
           "cliente": "F T E FERNANDES",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6396,7 +6396,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6405,7 +6405,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76489",
           "cliente": "LUZINETE SCHADE SOARES",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -6414,7 +6414,7 @@ const VENDAS_ES_DATA = {
           "codcli": "73065",
           "cliente": "SPAZZIO ACADEMIA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -6423,7 +6423,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6432,7 +6432,7 @@ const VENDAS_ES_DATA = {
           "codcli": "73065",
           "cliente": "SPAZZIO ACADEMIA LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -6441,7 +6441,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84587",
           "cliente": "DROGARIA GRAMEL LTDA",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 26.0
         },
@@ -6450,7 +6450,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6459,7 +6459,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -6468,7 +6468,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT GRF MENTA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 46.57
         },
@@ -6477,7 +6477,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT GRF HORTELA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 46.67
         },
@@ -6486,7 +6486,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84959",
           "cliente": "L A C FRANCA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 46.67
         },
@@ -6495,7 +6495,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84959",
           "cliente": "L A C FRANCA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 46.67
         },
@@ -6504,7 +6504,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84916",
           "cliente": "JOSE MANOEL FONSECA JORDAIM",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 4,
           "valor": 39.2
         },
@@ -6513,7 +6513,7 @@ const VENDAS_ES_DATA = {
           "codcli": "89979",
           "cliente": "RAYSSA DA SILVA ALVES",
           "produto": "PF MENTOS GF P.FRESH MINT DP/6",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 60.54
         },
@@ -10430,7 +10430,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91028",
           "cliente": "HORTIFRUTI ARM LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10439,7 +10439,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10448,7 +10448,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10457,7 +10457,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84381",
           "cliente": "COMERCIAL MIXX LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -10466,7 +10466,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84962",
           "cliente": "18.666.397 ALMERINDO RODRIGUES DA COSTA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10475,7 +10475,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10484,7 +10484,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10493,7 +10493,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10502,7 +10502,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84799",
           "cliente": "51.296.566 ANAIDE PEREIRA PIRES",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10511,7 +10511,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91028",
           "cliente": "HORTIFRUTI ARM LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 80.12
         },
@@ -10520,7 +10520,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84597",
           "cliente": "MAIS PAES PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10529,7 +10529,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10538,7 +10538,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 80.12
         },
@@ -10547,7 +10547,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84381",
           "cliente": "COMERCIAL MIXX LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -10556,7 +10556,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84962",
           "cliente": "18.666.397 ALMERINDO RODRIGUES DA COSTA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10565,7 +10565,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -10574,7 +10574,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10583,7 +10583,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84799",
           "cliente": "51.296.566 ANAIDE PEREIRA PIRES",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10592,7 +10592,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10601,7 +10601,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84381",
           "cliente": "COMERCIAL MIXX LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 79.38
         },
@@ -10610,7 +10610,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84962",
           "cliente": "18.666.397 ALMERINDO RODRIGUES DA COSTA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10619,7 +10619,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10628,7 +10628,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10637,7 +10637,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -10646,7 +10646,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84381",
           "cliente": "COMERCIAL MIXX LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 47.46
         },
@@ -10655,7 +10655,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84584",
           "cliente": "T.M. RODRIGUES JUNIOR FARMACIA FARMA LIDER",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -10664,7 +10664,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84381",
           "cliente": "COMERCIAL MIXX LTDA",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 47.46
         },
@@ -10673,7 +10673,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10682,7 +10682,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84799",
           "cliente": "51.296.566 ANAIDE PEREIRA PIRES",
           "produto": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10691,7 +10691,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84597",
           "cliente": "MAIS PAES PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10700,7 +10700,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -10709,7 +10709,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84887",
           "cliente": "57.737.528 MARIA DA CONCEICAO BATISTA NASCIMENTO",
           "produto": "CHICLETE TRIDENT GRF MENTA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.35
         },
@@ -10718,7 +10718,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84381",
           "cliente": "COMERCIAL MIXX LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 60.62
         },
@@ -12529,7 +12529,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85948",
           "cliente": "REDE PETMAIS LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12538,7 +12538,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84610",
           "cliente": "F T E FERNANDES",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12547,7 +12547,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76489",
           "cliente": "LUZINETE SCHADE SOARES",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12556,7 +12556,7 @@ const VENDAS_ES_DATA = {
           "codcli": "73065",
           "cliente": "SPAZZIO ACADEMIA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12565,7 +12565,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84597",
           "cliente": "MAIS PAES PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12574,7 +12574,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76489",
           "cliente": "LUZINETE SCHADE SOARES",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12583,7 +12583,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84597",
           "cliente": "MAIS PAES PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12592,7 +12592,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85948",
           "cliente": "REDE PETMAIS LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12601,7 +12601,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84610",
           "cliente": "F T E FERNANDES",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12610,7 +12610,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76489",
           "cliente": "LUZINETE SCHADE SOARES",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12619,7 +12619,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84597",
           "cliente": "MAIS PAES PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12628,7 +12628,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84551",
           "cliente": "PADARIA E CONFEITARIA PAO DA VIDA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.02
         },
@@ -12637,7 +12637,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74699",
           "cliente": "COMERCIO DE DOCES MERO LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 165.0
         },
@@ -12646,7 +12646,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85948",
           "cliente": "REDE PETMAIS LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.99
         },
@@ -12655,7 +12655,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76489",
           "cliente": "LUZINETE SCHADE SOARES",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.99
         },
@@ -12664,7 +12664,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85948",
           "cliente": "REDE PETMAIS LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12673,7 +12673,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84610",
           "cliente": "F T E FERNANDES",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12682,7 +12682,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76489",
           "cliente": "LUZINETE SCHADE SOARES",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12691,7 +12691,7 @@ const VENDAS_ES_DATA = {
           "codcli": "73065",
           "cliente": "SPAZZIO ACADEMIA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 79.38
         },
@@ -12700,7 +12700,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84597",
           "cliente": "MAIS PAES PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12709,7 +12709,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84551",
           "cliente": "PADARIA E CONFEITARIA PAO DA VIDA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.02
         },
@@ -12718,7 +12718,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74699",
           "cliente": "COMERCIO DE DOCES MERO LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 99.0
         },
@@ -12727,7 +12727,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76489",
           "cliente": "LUZINETE SCHADE SOARES",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12736,7 +12736,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84597",
           "cliente": "MAIS PAES PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12745,7 +12745,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84551",
           "cliente": "PADARIA E CONFEITARIA PAO DA VIDA LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.02
         },
@@ -12754,7 +12754,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74699",
           "cliente": "COMERCIO DE DOCES MERO LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 66.0
         },
@@ -12763,7 +12763,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84597",
           "cliente": "MAIS PAES PANIFICADORA LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 39.69
         },
@@ -12772,7 +12772,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "CHICLETE TRIDENT GRF CITRUS 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -12781,7 +12781,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76102",
           "cliente": "ERICA SASSEMBURG",
           "produto": "PF MENTOS STICK 14 B. FR.VER DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.64
         },
@@ -12790,7 +12790,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93334",
           "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
           "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.64
         },
@@ -12799,7 +12799,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76102",
           "cliente": "ERICA SASSEMBURG",
           "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.64
         },
@@ -12808,7 +12808,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84597",
           "cliente": "MAIS PAES PANIFICADORA LTDA",
           "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.64
         },
@@ -12817,7 +12817,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84551",
           "cliente": "PADARIA E CONFEITARIA PAO DA VIDA LTDA",
           "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.64
         },
@@ -12826,7 +12826,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84551",
           "cliente": "PADARIA E CONFEITARIA PAO DA VIDA LTDA",
           "produto": "PF MENTOS STICK 14 B. MINT DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.64
         },
@@ -14254,7 +14254,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93857",
           "cliente": "ARLON DA SILVA FURTADO",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 9.81
         },
@@ -15295,7 +15295,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21189",
           "cliente": "COMERCIAL TRESMANN LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.5
         },
@@ -15304,7 +15304,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21188",
           "cliente": "COMERCIAL TRESMANN LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.5
         },
@@ -15313,7 +15313,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21189",
           "cliente": "COMERCIAL TRESMANN LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.5
         },
@@ -15322,7 +15322,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21188",
           "cliente": "COMERCIAL TRESMANN LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 110.25
         },
@@ -15331,7 +15331,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21189",
           "cliente": "COMERCIAL TRESMANN LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 110.25
         },
@@ -15340,7 +15340,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21188",
           "cliente": "COMERCIAL TRESMANN LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.75
         },
@@ -15349,7 +15349,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21189",
           "cliente": "COMERCIAL TRESMANN LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.76
         },
@@ -15358,7 +15358,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83644",
           "cliente": "COMERCIAL GUILHERME S LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 110.25
         },
@@ -15367,7 +15367,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91047",
           "cliente": "DELEPRANE GL COMERCIO VAREJISTA DE ARTIGOS DE FESTAS LTDA",
           "produto": "XAROPE FABBRI MORANGO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 3,
           "valor": 119.43
         },
@@ -15376,7 +15376,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90619",
           "cliente": "CAPPI RESTAURANTE LTDA",
           "produto": "XAROPE FABBRI MENTA ZERO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 39.81
         },
@@ -15385,7 +15385,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91047",
           "cliente": "DELEPRANE GL COMERCIO VAREJISTA DE ARTIGOS DE FESTAS LTDA",
           "produto": "XAROPE FABBRI FRAMBOESA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 3,
           "valor": 119.43
         },
@@ -17043,7 +17043,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85845",
           "cliente": "SUPERMERCADO ALTO RIO POSSMOSER LTDA",
           "produto": "XAROPE FABBRI TROPICAL BLUE 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 79.56
         },
@@ -19548,7 +19548,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 102.0
         },
@@ -19557,7 +19557,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81304",
           "cliente": "MARIA DOMINGAS SANTANA MEIRELES 01982550716",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19566,7 +19566,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -19575,7 +19575,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86005",
           "cliente": "EMERSON SAMPAIO SANTOS",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19584,7 +19584,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85349",
           "cliente": "26.320.365 ELISANGELA BATISTA DA ROCHA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19593,7 +19593,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81322",
           "cliente": "22.532.974 SAMARA XAVIER FERNANDES COSTA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19602,7 +19602,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 102.0
         },
@@ -19611,7 +19611,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -19620,7 +19620,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86005",
           "cliente": "EMERSON SAMPAIO SANTOS",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19629,7 +19629,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85349",
           "cliente": "26.320.365 ELISANGELA BATISTA DA ROCHA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19638,7 +19638,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81322",
           "cliente": "22.532.974 SAMARA XAVIER FERNANDES COSTA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19647,7 +19647,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 102.0
         },
@@ -19656,7 +19656,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91073",
           "cliente": "48.438.890 WESLEY PEREIRA HERLER",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19665,7 +19665,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81304",
           "cliente": "MARIA DOMINGAS SANTANA MEIRELES 01982550716",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19674,7 +19674,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -19683,7 +19683,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86005",
           "cliente": "EMERSON SAMPAIO SANTOS",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19692,7 +19692,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81322",
           "cliente": "22.532.974 SAMARA XAVIER FERNANDES COSTA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19701,7 +19701,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19710,7 +19710,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -19719,7 +19719,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81322",
           "cliente": "22.532.974 SAMARA XAVIER FERNANDES COSTA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -19728,7 +19728,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -19737,7 +19737,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91073",
           "cliente": "48.438.890 WESLEY PEREIRA HERLER",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -19746,7 +19746,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -19755,7 +19755,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84354",
           "cliente": "MARIA DA PENHA FERREIRA DO NASCIMENTO 11500770779",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -19764,7 +19764,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83945",
           "cliente": "FERNANDO RODRIGUES LEITE 71043063749",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -19773,7 +19773,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -19782,7 +19782,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -19791,7 +19791,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84354",
           "cliente": "MARIA DA PENHA FERREIRA DO NASCIMENTO 11500770779",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -19800,7 +19800,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -19809,7 +19809,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91073",
           "cliente": "48.438.890 WESLEY PEREIRA HERLER",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -19818,7 +19818,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -19827,7 +19827,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84354",
           "cliente": "MARIA DA PENHA FERREIRA DO NASCIMENTO 11500770779",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -19836,7 +19836,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85349",
           "cliente": "26.320.365 ELISANGELA BATISTA DA ROCHA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -19845,7 +19845,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -19854,7 +19854,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84354",
           "cliente": "MARIA DA PENHA FERREIRA DO NASCIMENTO 11500770779",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -19863,7 +19863,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85349",
           "cliente": "26.320.365 ELISANGELA BATISTA DA ROCHA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -22396,7 +22396,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90227",
           "cliente": "VERDURAO DO CAMPO LTDA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -22405,7 +22405,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90227",
           "cliente": "VERDURAO DO CAMPO LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -22414,7 +22414,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90227",
           "cliente": "VERDURAO DO CAMPO LTDA",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -22423,7 +22423,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84354",
           "cliente": "MARIA DA PENHA FERREIRA DO NASCIMENTO 11500770779",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 75.15
         },
@@ -22432,7 +22432,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90227",
           "cliente": "VERDURAO DO CAMPO LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -22441,7 +22441,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90227",
           "cliente": "VERDURAO DO CAMPO LTDA",
           "produto": "CHICLETE TRIDENT SENSE BLUEB C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -22459,7 +22459,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86540",
           "cliente": "59.867.585 JOELMA PEREIRA SANTOS DE OLIVEIRA",
           "produto": "DP GAMADINHO TRAD 60G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 22,
           "valor": 79.64
         },
@@ -22468,7 +22468,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85346",
           "cliente": "ALDEMAR TEIXEIRA RIBEIRO FILHO",
           "produto": "DP GAMADINHO TRAD 60G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 15,
           "valor": 54.3
         },
@@ -22477,7 +22477,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82386",
           "cliente": "RIVA SERVICOS LTDA",
           "produto": "DP GAMADINHO TRAD 60G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 3.62
         },
@@ -22486,7 +22486,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84840",
           "cliente": "ERICA RAMOS OLIVEIRA 18736185736",
           "produto": "DP GAMADINHO TRAD 60G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 6,
           "valor": 21.72
         },
@@ -22495,7 +22495,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81322",
           "cliente": "22.532.974 SAMARA XAVIER FERNANDES COSTA",
           "produto": "DP GAMADINHO TRAD 60G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 3,
           "valor": 9.43
         },
@@ -23991,7 +23991,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91341",
           "cliente": "23.296.212 CHRYSTIAN BATISTA DA SILVA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 80.12
         },
@@ -24000,7 +24000,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91341",
           "cliente": "23.296.212 CHRYSTIAN BATISTA DA SILVA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -24009,7 +24009,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91341",
           "cliente": "23.296.212 CHRYSTIAN BATISTA DA SILVA",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -24018,7 +24018,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91341",
           "cliente": "23.296.212 CHRYSTIAN BATISTA DA SILVA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.05
         },
@@ -24027,7 +24027,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91341",
           "cliente": "23.296.212 CHRYSTIAN BATISTA DA SILVA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -24036,7 +24036,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91341",
           "cliente": "23.296.212 CHRYSTIAN BATISTA DA SILVA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -24045,7 +24045,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91341",
           "cliente": "23.296.212 CHRYSTIAN BATISTA DA SILVA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.05
         },
@@ -24054,7 +24054,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91341",
           "cliente": "23.296.212 CHRYSTIAN BATISTA DA SILVA",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.05
         },
@@ -24063,7 +24063,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20942",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI MORANGO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24072,7 +24072,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20941",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI MORANGO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24081,7 +24081,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20938",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI AMARENA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24090,7 +24090,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20941",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI AMARENA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24099,7 +24099,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20942",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI CRANBERRY 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24108,7 +24108,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20938",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI CRANBERRY 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24117,7 +24117,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20941",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI CRANBERRY 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24126,7 +24126,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20938",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI MACA VERDE 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 12,
           "valor": 443.4
         },
@@ -24135,7 +24135,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20944",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI MACA VERDE 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24144,7 +24144,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20943",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI MACA VERDE 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24153,7 +24153,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20942",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI FRAMBOESA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24162,7 +24162,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20938",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI FRAMBOESA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24171,7 +24171,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20941",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI FRAMBOESA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24180,7 +24180,7 @@ const VENDAS_ES_DATA = {
           "codcli": "78311",
           "cliente": "ITAPOA SUPERMERCADO LTDA.",
           "produto": "XAROPE FABBRI FRAMBOESA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24189,7 +24189,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20944",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI FRAMBOESA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -24198,7 +24198,7 @@ const VENDAS_ES_DATA = {
           "codcli": "20941",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI AMARENA ZERO ACUCAR 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 221.7
         },
@@ -25640,7 +25640,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94824",
           "cliente": "RESTAURANTE E CHURRASCARIA SUNSHINE LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -25649,7 +25649,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -25658,7 +25658,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -25667,7 +25667,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94824",
           "cliente": "RESTAURANTE E CHURRASCARIA SUNSHINE LTDA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -25676,7 +25676,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -25685,7 +25685,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -25694,7 +25694,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 81.58
         },
@@ -25703,7 +25703,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83803",
           "cliente": "JOADIR TEODORO ALVES & CIA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 77.5
         },
@@ -25712,7 +25712,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94824",
           "cliente": "RESTAURANTE E CHURRASCARIA SUNSHINE LTDA",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -25721,7 +25721,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94824",
           "cliente": "RESTAURANTE E CHURRASCARIA SUNSHINE LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.81
         },
@@ -25730,7 +25730,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94824",
           "cliente": "RESTAURANTE E CHURRASCARIA SUNSHINE LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -25739,7 +25739,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -25748,7 +25748,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 81.58
         },
@@ -25757,7 +25757,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94824",
           "cliente": "RESTAURANTE E CHURRASCARIA SUNSHINE LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -25766,7 +25766,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -25775,7 +25775,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 81.58
         },
@@ -25784,7 +25784,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94824",
           "cliente": "RESTAURANTE E CHURRASCARIA SUNSHINE LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.81
         },
@@ -25793,7 +25793,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 51.0
         },
@@ -25802,7 +25802,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94824",
           "cliente": "RESTAURANTE E CHURRASCARIA SUNSHINE LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.81
         },
@@ -25811,7 +25811,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 51.0
         },
@@ -25820,7 +25820,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94824",
           "cliente": "RESTAURANTE E CHURRASCARIA SUNSHINE LTDA",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.81
         },
@@ -25829,7 +25829,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 51.0
         },
@@ -25838,7 +25838,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -25847,7 +25847,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90610",
           "cliente": "23.787.487 PAULO JOSE ALVES",
           "produto": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 81.58
         },
@@ -25856,7 +25856,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94824",
           "cliente": "RESTAURANTE E CHURRASCARIA SUNSHINE LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -25865,7 +25865,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -25874,7 +25874,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84721",
           "cliente": "PANIFICADORA E AUTO SERVICO JHONNY PAN LTDA",
           "produto": "CHICLETE TRIDENT SENSE BLUEB C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -27957,7 +27957,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94250",
           "cliente": "PATRICIA REGINA DE ARAÚJO",
           "produto": "DP PACOCA DADINHO ZERO 8X18G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 2,
           "valor": 19.12
         },
@@ -29534,7 +29534,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94249",
           "cliente": "CREUZA DA SILVA FIRMINO",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -29543,7 +29543,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94249",
           "cliente": "CREUZA DA SILVA FIRMINO",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -29588,7 +29588,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85056",
           "cliente": "ACOUGUE E MERCEARIA RAMPINELLI LTDA",
           "produto": "DP GAMADINHO TRAD 420G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 17.94
         },
@@ -29597,7 +29597,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85056",
           "cliente": "ACOUGUE E MERCEARIA RAMPINELLI LTDA",
           "produto": "DP BOMBOM GAMADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 4,
           "valor": 45.89
         },
@@ -30553,7 +30553,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85951",
           "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 21.0
         },
@@ -30562,7 +30562,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85951",
           "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 63.0
         },
@@ -30589,7 +30589,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71515",
           "cliente": "ORIUNDI SUPERMERCADOS LTDA",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 678.6
         },
@@ -30598,7 +30598,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71539",
           "cliente": "ORIUNDI SUPERMERCADOS LTDA",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 678.6
         },
@@ -30607,7 +30607,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71515",
           "cliente": "ORIUNDI SUPERMERCADOS LTDA",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 773.4
         },
@@ -30616,7 +30616,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71539",
           "cliente": "ORIUNDI SUPERMERCADOS LTDA",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 773.4
         },
@@ -30625,7 +30625,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71515",
           "cliente": "ORIUNDI SUPERMERCADOS LTDA",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 773.4
         },
@@ -30634,7 +30634,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71539",
           "cliente": "ORIUNDI SUPERMERCADOS LTDA",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 773.4
         },
@@ -30643,7 +30643,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71515",
           "cliente": "ORIUNDI SUPERMERCADOS LTDA",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 215.04
         },
@@ -31239,7 +31239,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93147",
           "cliente": "NEUZA FURTADO",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -31248,7 +31248,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94301",
           "cliente": "LUCIANO BATISTA DE OLIVEIRA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -31257,7 +31257,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93147",
           "cliente": "NEUZA FURTADO",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.06
         },
@@ -31266,7 +31266,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85093",
           "cliente": "ARTE DOS SABORES LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 52.6
         },
@@ -31275,7 +31275,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85093",
           "cliente": "ARTE DOS SABORES LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 26.3
         },
@@ -36141,7 +36141,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -36150,7 +36150,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -36159,7 +36159,7 @@ const VENDAS_ES_DATA = {
           "codcli": "50621",
           "cliente": "DIRETORIO ACADEMICO DE MEDICINA DA UNIVERSIDADE FEDERAL DO E",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -36168,7 +36168,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76482",
           "cliente": "BAR E BAZAR CONVENTO LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 177.45
         },
@@ -36177,7 +36177,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -36186,7 +36186,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -36195,7 +36195,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -36204,7 +36204,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76482",
           "cliente": "BAR E BAZAR CONVENTO LTDA",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 4,
           "valor": 141.96
         },
@@ -36213,7 +36213,7 @@ const VENDAS_ES_DATA = {
           "codcli": "50621",
           "cliente": "DIRETORIO ACADEMICO DE MEDICINA DA UNIVERSIDADE FEDERAL DO E",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.81
         },
@@ -36222,7 +36222,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -36231,7 +36231,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76482",
           "cliente": "BAR E BAZAR CONVENTO LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 4,
           "valor": 141.96
         },
@@ -36240,7 +36240,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -36249,7 +36249,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76482",
           "cliente": "BAR E BAZAR CONVENTO LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 177.45
         },
@@ -36258,7 +36258,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT GRF MENTA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 47.0
         },
@@ -36267,7 +36267,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT GRF HORTELA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 47.0
         },
@@ -36276,7 +36276,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT GRF BLUE 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 47.0
         },
@@ -36285,7 +36285,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76482",
           "cliente": "BAR E BAZAR CONVENTO LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUTI C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 70.98
         },
@@ -36294,7 +36294,7 @@ const VENDAS_ES_DATA = {
           "codcli": "77050",
           "cliente": "T&C DO PRADO CASA DE CHA LTDA",
           "produto": "XAROPE FABBRI AMARENA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 7,
           "valor": 278.67
         },
@@ -36303,7 +36303,7 @@ const VENDAS_ES_DATA = {
           "codcli": "89950",
           "cliente": "AMERICAN COOKIES VITORIA ES LTDA",
           "produto": "XAROPE FABBRI CRANBERRY 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 79.9
         },
@@ -36312,7 +36312,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83943",
           "cliente": "DI FAMIGLIA PIZZA BAR LTDA",
           "produto": "XAROPE FABBRI AMARENA 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 79.77
         },
@@ -36321,7 +36321,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76303",
           "cliente": "COMERCIO DE ALIMENTOS MR BEEF LTDA",
           "produto": "XAROPE FABBRI MORANGO CA 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 83.75
         },
@@ -36330,7 +36330,7 @@ const VENDAS_ES_DATA = {
           "codcli": "89950",
           "cliente": "AMERICAN COOKIES VITORIA ES LTDA",
           "produto": "XAROPE FABBRI FRAMBOESA 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 79.9
         },
@@ -36339,7 +36339,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76303",
           "cliente": "COMERCIO DE ALIMENTOS MR BEEF LTDA",
           "produto": "XAROPE FABBRI MELANCIA 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 79.9
         },
@@ -36447,7 +36447,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94282",
           "cliente": "PETIT DOCERIA LTDA",
           "produto": "MIX PRATICO 6X1KG",
-          "fantasia": "",
+          "fantasia": "PRATICO",
           "qt": 4,
           "valor": 560.16
         },
@@ -36456,7 +36456,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81831",
           "cliente": "PAO FRANCES PADARIA E CATERING LTDA",
           "produto": "PF MENTOS STICK 14 B. RAINBOW DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.64
         },
@@ -39131,7 +39131,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91466",
           "cliente": "RICARDO FRANCISCO FERREIRA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.0
         },
@@ -39140,7 +39140,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -39149,7 +39149,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82194",
           "cliente": "VILA DO TRIGO CONFEITARIA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.0
         },
@@ -39158,7 +39158,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91466",
           "cliente": "RICARDO FRANCISCO FERREIRA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.0
         },
@@ -39167,7 +39167,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90536",
           "cliente": "62.437.689 CARINI SANTOS MARTINS",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.81
         },
@@ -39176,7 +39176,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21295",
           "cliente": "PAPAGUTH COMERCIAL LTDA",
           "produto": "XAROPE FABBRI MACA VERDE 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 159.8
         },
@@ -39185,7 +39185,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21155",
           "cliente": "CORONEL PICANHA RESTAURANTE LTDA",
           "produto": "XAROPE FABBRI MORANGO PLUS 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 479.4
         },
@@ -39194,7 +39194,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83943",
           "cliente": "DI FAMIGLIA PIZZA BAR LTDA",
           "produto": "XAROPE FABBRI GRENADINE 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 3,
           "valor": 239.31
         },
@@ -39203,7 +39203,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21295",
           "cliente": "PAPAGUTH COMERCIAL LTDA",
           "produto": "XAROPE FABBRI CRANBERRY 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 159.8
         },
@@ -39212,7 +39212,7 @@ const VENDAS_ES_DATA = {
           "codcli": "77050",
           "cliente": "T&C DO PRADO CASA DE CHA LTDA",
           "produto": "XAROPE FABBRI CRANBERRY 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 159.54
         },
@@ -41833,7 +41833,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91466",
           "cliente": "RICARDO FRANCISCO FERREIRA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -41842,7 +41842,7 @@ const VENDAS_ES_DATA = {
           "codcli": "50621",
           "cliente": "DIRETORIO ACADEMICO DE MEDICINA DA UNIVERSIDADE FEDERAL DO E",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 108.0
         },
@@ -41851,7 +41851,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91466",
           "cliente": "RICARDO FRANCISCO FERREIRA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -41860,7 +41860,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82771",
           "cliente": "HORTIFRUTI TAMANHON LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -41869,7 +41869,7 @@ const VENDAS_ES_DATA = {
           "codcli": "50621",
           "cliente": "DIRETORIO ACADEMICO DE MEDICINA DA UNIVERSIDADE FEDERAL DO E",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.3
         },
@@ -41878,7 +41878,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91466",
           "cliente": "RICARDO FRANCISCO FERREIRA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -41887,7 +41887,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91466",
           "cliente": "RICARDO FRANCISCO FERREIRA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -41896,7 +41896,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MAX  HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -41905,7 +41905,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MAX MENTABERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -41914,7 +41914,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -41923,7 +41923,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT GRF CITRUS 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 46.7
         },
@@ -41932,7 +41932,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91466",
           "cliente": "RICARDO FRANCISCO FERREIRA",
           "produto": "CHICLETE TRIDENT INTENSE C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -41950,7 +41950,7 @@ const VENDAS_ES_DATA = {
           "codcli": "89950",
           "cliente": "AMERICAN COOKIES VITORIA ES LTDA",
           "produto": "XAROPE FABBRI MACA VERDE 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 159.54
         },
@@ -41959,7 +41959,7 @@ const VENDAS_ES_DATA = {
           "codcli": "89950",
           "cliente": "AMERICAN COOKIES VITORIA ES LTDA",
           "produto": "XAROPE FABBRI GRENADINE 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 159.54
         },
@@ -41968,7 +41968,7 @@ const VENDAS_ES_DATA = {
           "codcli": "77050",
           "cliente": "T&C DO PRADO CASA DE CHA LTDA",
           "produto": "XAROPE FABBRI CRANBERRY 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 479.4
         },
@@ -41977,7 +41977,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76303",
           "cliente": "COMERCIO DE ALIMENTOS MR BEEF LTDA",
           "produto": "XAROPE FABBRI MORANGO CA 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 80.0
         },
@@ -41986,7 +41986,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21154",
           "cliente": "CARANGOLEJO ENTRETENIMENTO LTDA",
           "produto": "XAROPE FABBRI MORANGO CA 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 6,
           "valor": 478.62
         },
@@ -41995,7 +41995,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76303",
           "cliente": "COMERCIO DE ALIMENTOS MR BEEF LTDA",
           "produto": "XAROPE FABBRI MELANCIA 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 159.8
         },
@@ -42049,7 +42049,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21015",
           "cliente": "LA DOLINA RESTAURANTE LTDA",
           "produto": "DP PACOCA GAMADINHO POTE 50X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 2,
           "valor": 60.1
         },
@@ -42058,7 +42058,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71359",
           "cliente": "J.S. PETROLEO E COMERCIO LTDA",
           "produto": "PF FRUTTELLA MAST.MOR.NAT DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 2,
           "valor": 65.76
         },
@@ -42067,7 +42067,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71359",
           "cliente": "J.S. PETROLEO E COMERCIO LTDA",
           "produto": "PF FRUTTELLA SWIRL CARAMELO DP/15",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.88
         },
@@ -42076,7 +42076,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82771",
           "cliente": "HORTIFRUTI TAMANHON LTDA",
           "produto": "PF FRUTTELLA SWIRL CARAMELO DP/15",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.88
         },
@@ -42085,7 +42085,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71359",
           "cliente": "J.S. PETROLEO E COMERCIO LTDA",
           "produto": "PF FRUTTELLA SWIRL MORANG DP/15",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.88
         },
@@ -42094,7 +42094,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "PF MENTOS GF MELANCIA DP/6",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 60.54
         },
@@ -42103,7 +42103,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "PF MENTOS GF MELANCIA DP/6",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 60.54
         },
@@ -42112,7 +42112,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "PF MENTOS GF P.FRESH WINT DP/6",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 60.54
         },
@@ -42121,7 +42121,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71359",
           "cliente": "J.S. PETROLEO E COMERCIO LTDA",
           "produto": "PF MENTOS GF P.FRESH WINT DP/6",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 2,
           "valor": 121.08
         },
@@ -42130,7 +42130,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71359",
           "cliente": "J.S. PETROLEO E COMERCIO LTDA",
           "produto": "PF MENTOS STICK 14 B. RAINBOW DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 2,
           "valor": 72.99
         },
@@ -42139,7 +42139,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71359",
           "cliente": "J.S. PETROLEO E COMERCIO LTDA",
           "produto": "PF MENTOS STICK 14 B. FR.VER DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 2,
           "valor": 72.99
         },
@@ -42148,7 +42148,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71359",
           "cliente": "J.S. PETROLEO E COMERCIO LTDA",
           "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 2,
           "valor": 72.99
         },
@@ -42157,7 +42157,7 @@ const VENDAS_ES_DATA = {
           "codcli": "71359",
           "cliente": "J.S. PETROLEO E COMERCIO LTDA",
           "produto": "PF MENTOS STICK 14 B. MINT DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 2,
           "valor": 72.99
         },
@@ -44445,7 +44445,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82259",
           "cliente": "48.023.839 MARCELO CESAR DA SILVA REIS",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 18,
           "valor": 594.0
         },
@@ -44454,7 +44454,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82259",
           "cliente": "48.023.839 MARCELO CESAR DA SILVA REIS",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 10,
           "valor": 330.0
         },
@@ -44463,7 +44463,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82259",
           "cliente": "48.023.839 MARCELO CESAR DA SILVA REIS",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 10,
           "valor": 220.0
         },
@@ -44472,7 +44472,7 @@ const VENDAS_ES_DATA = {
           "codcli": "89950",
           "cliente": "AMERICAN COOKIES VITORIA ES LTDA",
           "produto": "XAROPE FABBRI MACA VERDE 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 86.91
         },
@@ -44481,7 +44481,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21132",
           "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
           "produto": "XAROPE FABBRI MORANGO CA 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 13,
           "valor": 1129.83
         },
@@ -44490,7 +44490,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21132",
           "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
           "produto": "XAROPE FABBRI COCO PLUS 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 12,
           "valor": 1139.52
         },
@@ -44535,7 +44535,7 @@ const VENDAS_ES_DATA = {
           "codcli": "95091",
           "cliente": "KG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 1,
           "valor": 142.97
         },
@@ -44544,7 +44544,7 @@ const VENDAS_ES_DATA = {
           "codcli": "95426",
           "cliente": "CAFFE LORENZON LTDA",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 309.42
         },
@@ -44553,7 +44553,7 @@ const VENDAS_ES_DATA = {
           "codcli": "95091",
           "cliente": "KG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 1,
           "valor": 162.86
         },
@@ -44562,7 +44562,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94282",
           "cliente": "PETIT DOCERIA LTDA",
           "produto": "MIX PRATICO 6X1KG",
-          "fantasia": "",
+          "fantasia": "PRATICO",
           "qt": 2,
           "valor": 280.08
         },
@@ -47489,7 +47489,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -47498,7 +47498,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -47507,7 +47507,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -47516,7 +47516,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84120",
           "cliente": "AUTO SERVICO OURO NEGRO LTDA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 32.9
         },
@@ -47525,7 +47525,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -47534,7 +47534,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84120",
           "cliente": "AUTO SERVICO OURO NEGRO LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 32.9
         },
@@ -47543,7 +47543,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -47552,7 +47552,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -47561,7 +47561,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84120",
           "cliente": "AUTO SERVICO OURO NEGRO LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 98.7
         },
@@ -47570,7 +47570,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84120",
           "cliente": "AUTO SERVICO OURO NEGRO LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 66.0
         },
@@ -47579,7 +47579,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84120",
           "cliente": "AUTO SERVICO OURO NEGRO LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 66.0
         },
@@ -47588,7 +47588,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84120",
           "cliente": "AUTO SERVICO OURO NEGRO LTDA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 66.0
         },
@@ -47597,7 +47597,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84120",
           "cliente": "AUTO SERVICO OURO NEGRO LTDA",
           "produto": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 65.8
         },
@@ -47606,7 +47606,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT MAX  HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -47615,7 +47615,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84120",
           "cliente": "AUTO SERVICO OURO NEGRO LTDA",
           "produto": "CHICLETE TRIDENT MAX  HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 32.9
         },
@@ -47624,7 +47624,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84120",
           "cliente": "AUTO SERVICO OURO NEGRO LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 32.9
         },
@@ -47633,7 +47633,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT SENSE BLUEB C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -47642,7 +47642,7 @@ const VENDAS_ES_DATA = {
           "codcli": "79752",
           "cliente": "CABANA SURF VITORIA LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -47651,7 +47651,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "CHICLETE TRIDENT GRF CITRUS 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 46.67
         },
@@ -47660,7 +47660,7 @@ const VENDAS_ES_DATA = {
           "codcli": "79752",
           "cliente": "CABANA SURF VITORIA LTDA",
           "produto": "CHICLETE TRIDENT GRF CITRUS 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 49.66
         },
@@ -47669,7 +47669,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84120",
           "cliente": "AUTO SERVICO OURO NEGRO LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUTI C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 65.8
         },
@@ -47678,7 +47678,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83943",
           "cliente": "DI FAMIGLIA PIZZA BAR LTDA",
           "produto": "XAROPE FABBRI MACA VERDE 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 3,
           "valor": 239.31
         },
@@ -47741,7 +47741,7 @@ const VENDAS_ES_DATA = {
           "codcli": "81953",
           "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
           "produto": "PF MENTOS GF P.FRESH WINT DP/6",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 60.54
         },
@@ -49279,7 +49279,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94183",
           "cliente": "DISTRIBUIDORA BISSARO",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.0
         },
@@ -49288,7 +49288,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94134",
           "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
           "produto": "DR SCHAR BISNAGUINHA 6X150G",
-          "fantasia": "",
+          "fantasia": "PRATICO",
           "qt": 1,
           "valor": 77.05
         },
@@ -49297,7 +49297,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94134",
           "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
           "produto": "CRACKERS 5X210G",
-          "fantasia": "",
+          "fantasia": "PRATICO",
           "qt": 2,
           "valor": 307.65
         },
@@ -49306,7 +49306,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94134",
           "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
           "produto": "PANE CASERECCIO 5X240G",
-          "fantasia": "",
+          "fantasia": "PRATICO",
           "qt": 1,
           "valor": 138.51
         },
@@ -49315,7 +49315,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94134",
           "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
           "produto": "PAO DE FORMA MULTIGRAOS 8X200G",
-          "fantasia": "",
+          "fantasia": "PRATICO",
           "qt": 2,
           "valor": 219.84
         },
@@ -49324,7 +49324,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94134",
           "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
           "produto": "PAO DE FORMA TRADICIONAL 8X200G",
-          "fantasia": "",
+          "fantasia": "PRATICO",
           "qt": 2,
           "valor": 197.0
         },
@@ -50100,7 +50100,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94134",
           "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 24,
           "valor": 204.57
         },
@@ -51726,7 +51726,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90704",
           "cliente": "JOSIMARIO HOLLUNDER 07715092789",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -51735,7 +51735,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91568",
           "cliente": "M. C. B. MOREIRA - MANIPHARMA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -51744,7 +51744,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84673",
           "cliente": "DROGARIA PONTO ALTO LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -51753,7 +51753,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90687",
           "cliente": "MARIANA MAJEVSKI PEREIRA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -51762,7 +51762,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90780",
           "cliente": "R L M GOMES",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -51771,7 +51771,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -51780,7 +51780,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92726",
           "cliente": "S. J. FARMACIA SERRANA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -51789,7 +51789,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 6,
           "valor": 240.0
         },
@@ -51798,7 +51798,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -51807,7 +51807,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 200.0
         },
@@ -51816,7 +51816,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90773",
           "cliente": "DUMAS CAFE LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -51825,7 +51825,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90824",
           "cliente": "M N DE VARGAS",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -51834,7 +51834,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90451",
           "cliente": "VOVO OLIMPIO GELATO E CAFE LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 80.0
         },
@@ -51843,7 +51843,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91567",
           "cliente": "LEANDRO BRISKE",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 80.0
         },
@@ -51852,7 +51852,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93653",
           "cliente": "DISK PIZZA DO TONY LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -51861,7 +51861,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91572",
           "cliente": "FRANCISCO JERONIMO LINO PINTO 57529612700",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 80.0
         },
@@ -51870,7 +51870,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85944",
           "cliente": "MERCEARIA NEGA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -51879,7 +51879,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90778",
           "cliente": "BAR E RESTAURANTE GALETO DE PRATA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 111.0
         },
@@ -51888,7 +51888,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90780",
           "cliente": "R L M GOMES",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -51897,7 +51897,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -51906,7 +51906,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -51915,7 +51915,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -51924,7 +51924,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -51933,7 +51933,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90451",
           "cliente": "VOVO OLIMPIO GELATO E CAFE LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -51942,7 +51942,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94267",
           "cliente": "22.321.273 JOSEANE PAGIO",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -51951,7 +51951,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -51960,7 +51960,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -51969,7 +51969,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 80.0
         },
@@ -51978,7 +51978,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90451",
           "cliente": "VOVO OLIMPIO GELATO E CAFE LTDA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -51987,7 +51987,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90704",
           "cliente": "JOSIMARIO HOLLUNDER 07715092789",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -51996,7 +51996,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91568",
           "cliente": "M. C. B. MOREIRA - MANIPHARMA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -52005,7 +52005,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90663",
           "cliente": "DROGARIA ALPHAMED LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -52014,7 +52014,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90661",
           "cliente": "J.B. ENTRINGER",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -52023,7 +52023,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84673",
           "cliente": "DROGARIA PONTO ALTO LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -52032,7 +52032,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52041,7 +52041,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 6,
           "valor": 240.0
         },
@@ -52050,7 +52050,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52059,7 +52059,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -52068,7 +52068,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91464",
           "cliente": "DROGARIA PADUA KOEHLER LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52077,7 +52077,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90773",
           "cliente": "DUMAS CAFE LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52086,7 +52086,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90824",
           "cliente": "M N DE VARGAS",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52095,7 +52095,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90451",
           "cliente": "VOVO OLIMPIO GELATO E CAFE LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 80.0
         },
@@ -52104,7 +52104,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91572",
           "cliente": "FRANCISCO JERONIMO LINO PINTO 57529612700",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 80.0
         },
@@ -52113,7 +52113,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85944",
           "cliente": "MERCEARIA NEGA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -52122,7 +52122,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94267",
           "cliente": "22.321.273 JOSEANE PAGIO",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -52131,7 +52131,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52140,7 +52140,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92726",
           "cliente": "S. J. FARMACIA SERRANA LTDA",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52149,7 +52149,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -52158,7 +52158,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -52167,7 +52167,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94267",
           "cliente": "22.321.273 JOSEANE PAGIO",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -52176,7 +52176,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90750",
           "cliente": "SUPERMERCADO G G M LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 50.0
         },
@@ -52185,7 +52185,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 75.0
         },
@@ -52194,7 +52194,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94267",
           "cliente": "22.321.273 JOSEANE PAGIO",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.0
         },
@@ -52203,7 +52203,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90704",
           "cliente": "JOSIMARIO HOLLUNDER 07715092789",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -52212,7 +52212,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91568",
           "cliente": "M. C. B. MOREIRA - MANIPHARMA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.0
         },
@@ -52221,7 +52221,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90780",
           "cliente": "R L M GOMES",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52230,7 +52230,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -52239,7 +52239,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 6,
           "valor": 240.0
         },
@@ -52248,7 +52248,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52257,7 +52257,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 4,
           "valor": 160.0
         },
@@ -52266,7 +52266,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86051",
           "cliente": "RESTAURANTE J L S LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52275,7 +52275,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90773",
           "cliente": "DUMAS CAFE LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52284,7 +52284,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91572",
           "cliente": "FRANCISCO JERONIMO LINO PINTO 57529612700",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 80.0
         },
@@ -52293,7 +52293,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90704",
           "cliente": "JOSIMARIO HOLLUNDER 07715092789",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -52302,7 +52302,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90663",
           "cliente": "DROGARIA ALPHAMED LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 102.0
         },
@@ -52311,7 +52311,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84673",
           "cliente": "DROGARIA PONTO ALTO LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -52320,7 +52320,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90780",
           "cliente": "R L M GOMES",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52329,7 +52329,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52338,7 +52338,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -52347,7 +52347,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52356,7 +52356,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -52365,7 +52365,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90773",
           "cliente": "DUMAS CAFE LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52374,7 +52374,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90824",
           "cliente": "M N DE VARGAS",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52383,7 +52383,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90451",
           "cliente": "VOVO OLIMPIO GELATO E CAFE LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52392,7 +52392,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91572",
           "cliente": "FRANCISCO JERONIMO LINO PINTO 57529612700",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52401,7 +52401,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85944",
           "cliente": "MERCEARIA NEGA LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -52410,7 +52410,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90704",
           "cliente": "JOSIMARIO HOLLUNDER 07715092789",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -52419,7 +52419,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90750",
           "cliente": "SUPERMERCADO G G M LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -52428,7 +52428,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 75.0
         },
@@ -52437,7 +52437,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90778",
           "cliente": "BAR E RESTAURANTE GALETO DE PRATA LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -52446,7 +52446,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90750",
           "cliente": "SUPERMERCADO G G M LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -52455,7 +52455,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90780",
           "cliente": "R L M GOMES",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -52464,7 +52464,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 50.0
         },
@@ -52473,7 +52473,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86051",
           "cliente": "RESTAURANTE J L S LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -52482,7 +52482,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91572",
           "cliente": "FRANCISCO JERONIMO LINO PINTO 57529612700",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -52491,7 +52491,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 50.0
         },
@@ -52500,7 +52500,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90778",
           "cliente": "BAR E RESTAURANTE GALETO DE PRATA LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -52509,7 +52509,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90750",
           "cliente": "SUPERMERCADO G G M LTDA",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -52518,7 +52518,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90780",
           "cliente": "R L M GOMES",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -52527,7 +52527,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 75.0
         },
@@ -52536,7 +52536,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90778",
           "cliente": "BAR E RESTAURANTE GALETO DE PRATA LTDA",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -52545,7 +52545,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90704",
           "cliente": "JOSIMARIO HOLLUNDER 07715092789",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -52554,7 +52554,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 75.0
         },
@@ -52563,7 +52563,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90778",
           "cliente": "BAR E RESTAURANTE GALETO DE PRATA LTDA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 25.0
         },
@@ -52572,7 +52572,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52581,7 +52581,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -52590,7 +52590,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -52599,7 +52599,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT MAX  HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 58.0
         },
@@ -52608,7 +52608,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT MAX  HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 58.0
         },
@@ -52617,7 +52617,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52626,7 +52626,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -52635,7 +52635,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52644,7 +52644,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -52653,7 +52653,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94267",
           "cliente": "22.321.273 JOSEANE PAGIO",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -52662,7 +52662,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT SENSE BLUEB C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52671,7 +52671,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT SENSE BLUEB C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -52680,7 +52680,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT SENSE BLUEB C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52689,7 +52689,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT SENSE BLUEB C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 120.0
         },
@@ -52698,7 +52698,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93653",
           "cliente": "DISK PIZZA DO TONY LTDA",
           "produto": "CHICLETE TRIDENT SENSE BLUEB C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 40.0
         },
@@ -52707,7 +52707,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT GRF MENTA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 5.0
         },
@@ -52716,7 +52716,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92726",
           "cliente": "S. J. FARMACIA SERRANA LTDA",
           "produto": "CHICLETE TRIDENT GRF MENTA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52725,7 +52725,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT GRF MENTA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52734,7 +52734,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT GRF MENTA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 102.0
         },
@@ -52743,7 +52743,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT GRF MENTA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52752,7 +52752,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90824",
           "cliente": "M N DE VARGAS",
           "produto": "CHICLETE TRIDENT GRF MENTA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52761,7 +52761,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90750",
           "cliente": "SUPERMERCADO G G M LTDA",
           "produto": "CHICLETE TRIDENT GRF HORTELA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52770,7 +52770,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT GRF HORTELA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52779,7 +52779,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92726",
           "cliente": "S. J. FARMACIA SERRANA LTDA",
           "produto": "CHICLETE TRIDENT GRF HORTELA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52788,7 +52788,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT GRF HORTELA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 102.0
         },
@@ -52797,7 +52797,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT GRF HORTELA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52806,7 +52806,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90824",
           "cliente": "M N DE VARGAS",
           "produto": "CHICLETE TRIDENT GRF HORTELA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52815,7 +52815,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT MAX MENTABERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 117.6
         },
@@ -52824,7 +52824,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT MAX MENTABERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 58.0
         },
@@ -52833,7 +52833,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT MAX MENTABERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 58.0
         },
@@ -52842,7 +52842,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 117.6
         },
@@ -52851,7 +52851,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 58.0
         },
@@ -52860,7 +52860,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 58.0
         },
@@ -52869,7 +52869,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91464",
           "cliente": "DROGARIA PADUA KOEHLER LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 58.0
         },
@@ -52878,7 +52878,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT GRF CITRUS 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 5.0
         },
@@ -52887,7 +52887,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92726",
           "cliente": "S. J. FARMACIA SERRANA LTDA",
           "produto": "CHICLETE TRIDENT GRF CITRUS 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 5.0
         },
@@ -52896,7 +52896,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT GRF CITRUS 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52905,7 +52905,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT GRF CITRUS 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52914,7 +52914,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT GRF BLUE 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52923,7 +52923,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92726",
           "cliente": "S. J. FARMACIA SERRANA LTDA",
           "produto": "CHICLETE TRIDENT GRF BLUE 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52932,7 +52932,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT GRF BLUE 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52941,7 +52941,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT GRF BLUE 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52950,7 +52950,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94267",
           "cliente": "22.321.273 JOSEANE PAGIO",
           "produto": "CHICLETE TRIDENT GRF BLUE 6X48G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.0
         },
@@ -52959,7 +52959,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 124.0
         },
@@ -52968,7 +52968,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -52977,7 +52977,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -52986,7 +52986,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -52995,7 +52995,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86051",
           "cliente": "RESTAURANTE J L S LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53004,7 +53004,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90824",
           "cliente": "M N DE VARGAS",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53013,7 +53013,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 124.0
         },
@@ -53022,7 +53022,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92726",
           "cliente": "S. J. FARMACIA SERRANA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53031,7 +53031,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53040,7 +53040,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53049,7 +53049,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53058,7 +53058,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90824",
           "cliente": "M N DE VARGAS",
           "produto": "CHICLETE TRIDENT MELANCIA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53067,7 +53067,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT INTENSE C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 124.0
         },
@@ -53076,7 +53076,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE TRIDENT INTENSE C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53085,7 +53085,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT INTENSE C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53094,7 +53094,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT INTENSE C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53103,7 +53103,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT BLUEBERRY C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 124.0
         },
@@ -53112,7 +53112,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT BLUEBERRY C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53121,7 +53121,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86051",
           "cliente": "RESTAURANTE J L S LTDA",
           "produto": "CHICLETE TRIDENT BLUEBERRY C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53130,7 +53130,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUTI C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 124.0
         },
@@ -53139,7 +53139,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90821",
           "cliente": "MARECHAL FARMA LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUTI C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53148,7 +53148,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91464",
           "cliente": "DROGARIA PADUA KOEHLER LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUTI C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 62.0
         },
@@ -53157,7 +53157,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90586",
           "cliente": "EMPORIO PEDRA BONITA TTM LTDA",
           "produto": "CHICLETE BUBBALOO TUTTI FRUTI C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53166,7 +53166,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90780",
           "cliente": "R L M GOMES",
           "produto": "CHICLETE BUBBALOO TUTTI FRUTI C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53175,7 +53175,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE BUBBALOO TUTTI FRUTI C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53184,7 +53184,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91469",
           "cliente": "RONALDO VIANA JUNIOR",
           "produto": "CHICLETE BUBBALOO TUTTI FRUTI C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53193,7 +53193,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91041",
           "cliente": "INDUSTRIA PANIFICADORA RICHIOTTO LTDA",
           "produto": "CHICLETE BUBBALOO TUTTI FRUTI C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53202,7 +53202,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE BUBBALOO TUTTI FRUTI C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 45.0
         },
@@ -53211,7 +53211,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90586",
           "cliente": "EMPORIO PEDRA BONITA TTM LTDA",
           "produto": "CHICLETE BUBBALOO UVA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53220,7 +53220,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90780",
           "cliente": "R L M GOMES",
           "produto": "CHICLETE BUBBALOO UVA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53229,7 +53229,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE BUBBALOO UVA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 30.0
         },
@@ -53238,7 +53238,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91469",
           "cliente": "RONALDO VIANA JUNIOR",
           "produto": "CHICLETE BUBBALOO UVA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 30.0
         },
@@ -53247,7 +53247,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91041",
           "cliente": "INDUSTRIA PANIFICADORA RICHIOTTO LTDA",
           "produto": "CHICLETE BUBBALOO UVA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53256,7 +53256,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE BUBBALOO UVA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 45.0
         },
@@ -53265,7 +53265,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90586",
           "cliente": "EMPORIO PEDRA BONITA TTM LTDA",
           "produto": "CHICLETE BUBBALOO HORTELA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53274,7 +53274,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90780",
           "cliente": "R L M GOMES",
           "produto": "CHICLETE BUBBALOO HORTELA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53283,7 +53283,7 @@ const VENDAS_ES_DATA = {
           "codcli": "86073",
           "cliente": "POMMER RESTAURANTE LTDA",
           "produto": "CHICLETE BUBBALOO HORTELA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53292,7 +53292,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91469",
           "cliente": "RONALDO VIANA JUNIOR",
           "produto": "CHICLETE BUBBALOO HORTELA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53301,7 +53301,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91041",
           "cliente": "INDUSTRIA PANIFICADORA RICHIOTTO LTDA",
           "produto": "CHICLETE BUBBALOO HORTELA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.0
         },
@@ -53310,7 +53310,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90896",
           "cliente": "SUPERMERCADO HUWER LTDA",
           "produto": "CHICLETE BUBBALOO HORTELA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 45.0
         },
@@ -53319,7 +53319,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94140",
           "cliente": "RESTAURANTE E PESQUE-PAGUE DA LU LTDA",
           "produto": "XAROPE FABBRI MORANGO PLUS 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 4,
           "valor": 320.0
         },
@@ -53328,7 +53328,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94140",
           "cliente": "RESTAURANTE E PESQUE-PAGUE DA LU LTDA",
           "produto": "XAROPE FABBRI TANGERINA 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 160.0
         },
@@ -53337,7 +53337,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91153",
           "cliente": "PEDE BIS HAMBURGUERIA LTDA",
           "produto": "XAROPE FABBRI MORANGO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 8,
           "valor": 308.0
         },
@@ -53346,7 +53346,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91153",
           "cliente": "PEDE BIS HAMBURGUERIA LTDA",
           "produto": "XAROPE FABBRI GRENADINE 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 159.8
         },
@@ -53355,7 +53355,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91153",
           "cliente": "PEDE BIS HAMBURGUERIA LTDA",
           "produto": "XAROPE FABBRI CRANBERRY 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 159.8
         },
@@ -53364,7 +53364,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94140",
           "cliente": "RESTAURANTE E PESQUE-PAGUE DA LU LTDA",
           "produto": "XAROPE FABBRI MARACUJA 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 160.0
         },
@@ -53373,7 +53373,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91153",
           "cliente": "PEDE BIS HAMBURGUERIA LTDA",
           "produto": "XAROPE FABBRI LIMAO E KIWI 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 38.5
         },
@@ -53445,7 +53445,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90611",
           "cliente": "WANDERSON ANGELO LOPES GONÇALVES",
           "produto": "DP PACOCA GAMADINHO POTE 50X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 27.3
         },
@@ -53454,7 +53454,7 @@ const VENDAS_ES_DATA = {
           "codcli": "77450",
           "cliente": "25.169.980 FERNANDA ROCHA DE PAULA JAHRING",
           "produto": "DP PACOCA GAMADINHO POTE 50X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 27.3
         },
@@ -53463,7 +53463,7 @@ const VENDAS_ES_DATA = {
           "codcli": "9107",
           "cliente": "EUDES MARIO TRARBACH",
           "produto": "DP PACOCA GAMADINHO POTE 50X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 27.3
         },
@@ -53472,7 +53472,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90609",
           "cliente": "SÔNIA LOPES COELHO",
           "produto": "DP PACOCA GAMADINHO POTE 50X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 27.3
         },
@@ -53481,7 +53481,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91041",
           "cliente": "INDUSTRIA PANIFICADORA RICHIOTTO LTDA",
           "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 25.0
         },
@@ -53490,7 +53490,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90611",
           "cliente": "WANDERSON ANGELO LOPES GONÇALVES",
           "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 38.68
         },
@@ -53499,7 +53499,7 @@ const VENDAS_ES_DATA = {
           "codcli": "77529",
           "cliente": "DALIZETE NASCIMENTO CABRAL HERBST 09746657704",
           "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 2,
           "valor": 77.36
         },
@@ -53508,7 +53508,7 @@ const VENDAS_ES_DATA = {
           "codcli": "77450",
           "cliente": "25.169.980 FERNANDA ROCHA DE PAULA JAHRING",
           "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 38.68
         },
@@ -53517,7 +53517,7 @@ const VENDAS_ES_DATA = {
           "codcli": "9107",
           "cliente": "EUDES MARIO TRARBACH",
           "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 38.68
         },
@@ -53526,7 +53526,7 @@ const VENDAS_ES_DATA = {
           "codcli": "63784",
           "cliente": "ADEMAR DE ANGELI",
           "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 2,
           "valor": 77.36
         },
@@ -53535,7 +53535,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90609",
           "cliente": "SÔNIA LOPES COELHO",
           "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 38.68
         },
@@ -53544,7 +53544,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91582",
           "cliente": "I. DOS SANTOS BIKE E ACESSORIOS",
           "produto": "PF FRUTTELLA MAST.MOR.NAT DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 35.0
         },
@@ -53553,7 +53553,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94267",
           "cliente": "22.321.273 JOSEANE PAGIO",
           "produto": "PF FRUTTELLA MAST.MOR.NAT DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 35.0
         },
@@ -53562,7 +53562,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85944",
           "cliente": "MERCEARIA NEGA LTDA",
           "produto": "PF MENTOS GF P.FRESH MOR DP/6",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 59.0
         },
@@ -53571,7 +53571,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85944",
           "cliente": "MERCEARIA NEGA LTDA",
           "produto": "PF MENTOS GF MELANCIA DP/6",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 59.0
         },
@@ -53580,7 +53580,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91582",
           "cliente": "I. DOS SANTOS BIKE E ACESSORIOS",
           "produto": "PF MENTOS STICK 14 B. RAINBOW DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.0
         },
@@ -53589,7 +53589,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94267",
           "cliente": "22.321.273 JOSEANE PAGIO",
           "produto": "PF MENTOS STICK 14 B. FR.VER DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.0
         },
@@ -53598,7 +53598,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90778",
           "cliente": "BAR E RESTAURANTE GALETO DE PRATA LTDA",
           "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.0
         },
@@ -53607,7 +53607,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93653",
           "cliente": "DISK PIZZA DO TONY LTDA",
           "produto": "PF MENTOS STICK 14 B. MINT DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.0
         },
@@ -53616,7 +53616,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90778",
           "cliente": "BAR E RESTAURANTE GALETO DE PRATA LTDA",
           "produto": "PF MENTOS STICK 14 B. MINT DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.0
         },
@@ -55814,7 +55814,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93337",
           "cliente": "58.838.586 DAVI PIZETTA PIASSI",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.7
         },
@@ -55823,7 +55823,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91572",
           "cliente": "FRANCISCO JERONIMO LINO PINTO 57529612700",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 74.0
         },
@@ -55832,7 +55832,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92648",
           "cliente": "MARIA MADALENA LEMKE",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 102.0
         },
@@ -55841,7 +55841,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93653",
           "cliente": "DISK PIZZA DO TONY LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -55850,7 +55850,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93337",
           "cliente": "58.838.586 DAVI PIZETTA PIASSI",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.7
         },
@@ -55859,7 +55859,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91572",
           "cliente": "FRANCISCO JERONIMO LINO PINTO 57529612700",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 74.0
         },
@@ -55868,7 +55868,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92648",
           "cliente": "MARIA MADALENA LEMKE",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 102.0
         },
@@ -55877,7 +55877,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93653",
           "cliente": "DISK PIZZA DO TONY LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -55886,7 +55886,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91572",
           "cliente": "FRANCISCO JERONIMO LINO PINTO 57529612700",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 74.0
         },
@@ -55895,7 +55895,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93653",
           "cliente": "DISK PIZZA DO TONY LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -55904,7 +55904,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91572",
           "cliente": "FRANCISCO JERONIMO LINO PINTO 57529612700",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 74.0
         },
@@ -55913,7 +55913,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93653",
           "cliente": "DISK PIZZA DO TONY LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -55922,7 +55922,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93337",
           "cliente": "58.838.586 DAVI PIZETTA PIASSI",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.0
         },
@@ -55931,7 +55931,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91572",
           "cliente": "FRANCISCO JERONIMO LINO PINTO 57529612700",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.0
         },
@@ -55940,7 +55940,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93653",
           "cliente": "DISK PIZZA DO TONY LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -55949,7 +55949,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93653",
           "cliente": "DISK PIZZA DO TONY LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -55958,7 +55958,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93653",
           "cliente": "DISK PIZZA DO TONY LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -55967,7 +55967,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93653",
           "cliente": "DISK PIZZA DO TONY LTDA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -55976,7 +55976,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT MAX MENTABERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 59.0
         },
@@ -55985,7 +55985,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92958",
           "cliente": "DROGARIA BIOFARMA R & G LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 59.0
         },
@@ -56707,7 +56707,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94088",
           "cliente": "65.465.413 ERIC FAZOLO DE PAULA",
           "produto": "XAROPE FABBRI MORANGO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 80.0
         },
@@ -56716,7 +56716,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94088",
           "cliente": "65.465.413 ERIC FAZOLO DE PAULA",
           "produto": "XAROPE FABBRI MACA VERDE 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 80.0
         },
@@ -56725,7 +56725,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94088",
           "cliente": "65.465.413 ERIC FAZOLO DE PAULA",
           "produto": "XAROPE FABBRI GRENADINE 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 2,
           "valor": 80.0
         },
@@ -57323,7 +57323,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84278",
           "cliente": "PADARIA PAO DO GENARO LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.4
         },
@@ -57332,7 +57332,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83939",
           "cliente": "VNI DOCES E EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.7
         },
@@ -57341,7 +57341,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83934",
           "cliente": "COMERCIAL GIUBBINI LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.4
         },
@@ -57350,7 +57350,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 15,
           "valor": 510.0
         },
@@ -57359,7 +57359,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57368,7 +57368,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90077",
           "cliente": "WAGNER LINS",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -57377,7 +57377,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57386,7 +57386,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -57395,7 +57395,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83928",
           "cliente": "43.816.978 HEDER FIORESI ANDREAO",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 69.8
         },
@@ -57404,7 +57404,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93184",
           "cliente": "CIDINHA LANCHONETE LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -57413,7 +57413,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84586",
           "cliente": "CATARINA MACHADO MENEGUCE 06896732725",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57422,7 +57422,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57431,7 +57431,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83930",
           "cliente": "CHURRASCARIA E RESTAURANTE NOVA GAUCHAO LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 4,
           "valor": 136.0
         },
@@ -57440,7 +57440,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91573",
           "cliente": "18.741.117 SAULO ANACLETO",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57449,7 +57449,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91810",
           "cliente": "58.254.201 CLEIDIANA EBANI",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57458,7 +57458,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84603",
           "cliente": "CASA DE CARNES DO IVAN LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57467,7 +57467,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84192",
           "cliente": "50.739.230 TAYLLON BATISTA DAVOLI",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57476,7 +57476,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84542",
           "cliente": "VANDERLEI CARLOS PEREIRA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57485,7 +57485,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84690",
           "cliente": "MAGNO DA ROCHA ZANETTE 13732003752",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -57494,7 +57494,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83939",
           "cliente": "VNI DOCES E EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.7
         },
@@ -57503,7 +57503,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 10,
           "valor": 340.0
         },
@@ -57512,7 +57512,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57521,7 +57521,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57530,7 +57530,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57539,7 +57539,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83928",
           "cliente": "43.816.978 HEDER FIORESI ANDREAO",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -57548,7 +57548,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93184",
           "cliente": "CIDINHA LANCHONETE LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -57557,7 +57557,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57566,7 +57566,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83930",
           "cliente": "CHURRASCARIA E RESTAURANTE NOVA GAUCHAO LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -57575,7 +57575,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91573",
           "cliente": "18.741.117 SAULO ANACLETO",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57584,7 +57584,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91810",
           "cliente": "58.254.201 CLEIDIANA EBANI",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57593,7 +57593,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84542",
           "cliente": "VANDERLEI CARLOS PEREIRA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57602,7 +57602,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84690",
           "cliente": "MAGNO DA ROCHA ZANETTE 13732003752",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57611,7 +57611,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83939",
           "cliente": "VNI DOCES E EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.7
         },
@@ -57620,7 +57620,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83934",
           "cliente": "COMERCIAL GIUBBINI LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.7
         },
@@ -57629,7 +57629,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 15,
           "valor": 510.0
         },
@@ -57638,7 +57638,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90077",
           "cliente": "WAGNER LINS",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57647,7 +57647,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57656,7 +57656,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -57665,7 +57665,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83928",
           "cliente": "43.816.978 HEDER FIORESI ANDREAO",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.9
         },
@@ -57674,7 +57674,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93184",
           "cliente": "CIDINHA LANCHONETE LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -57683,7 +57683,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84586",
           "cliente": "CATARINA MACHADO MENEGUCE 06896732725",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57692,7 +57692,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57701,7 +57701,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83930",
           "cliente": "CHURRASCARIA E RESTAURANTE NOVA GAUCHAO LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 4,
           "valor": 136.0
         },
@@ -57710,7 +57710,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84542",
           "cliente": "VANDERLEI CARLOS PEREIRA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57719,7 +57719,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84690",
           "cliente": "MAGNO DA ROCHA ZANETTE 13732003752",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -57728,7 +57728,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83934",
           "cliente": "COMERCIAL GIUBBINI LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.7
         },
@@ -57737,7 +57737,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 170.0
         },
@@ -57746,7 +57746,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57755,7 +57755,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83928",
           "cliente": "43.816.978 HEDER FIORESI ANDREAO",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57764,7 +57764,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84586",
           "cliente": "CATARINA MACHADO MENEGUCE 06896732725",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57773,7 +57773,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 34.0
         },
@@ -57782,7 +57782,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83930",
           "cliente": "CHURRASCARIA E RESTAURANTE NOVA GAUCHAO LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -57791,7 +57791,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83934",
           "cliente": "COMERCIAL GIUBBINI LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.99
         },
@@ -57800,7 +57800,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57809,7 +57809,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57818,7 +57818,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83928",
           "cliente": "43.816.978 HEDER FIORESI ANDREAO",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -57827,7 +57827,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83930",
           "cliente": "CHURRASCARIA E RESTAURANTE NOVA GAUCHAO LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57836,7 +57836,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84542",
           "cliente": "VANDERLEI CARLOS PEREIRA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57845,7 +57845,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84690",
           "cliente": "MAGNO DA ROCHA ZANETTE 13732003752",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57854,7 +57854,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57863,7 +57863,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83928",
           "cliente": "43.816.978 HEDER FIORESI ANDREAO",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 44.0
         },
@@ -57872,7 +57872,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84542",
           "cliente": "VANDERLEI CARLOS PEREIRA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57881,7 +57881,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84690",
           "cliente": "MAGNO DA ROCHA ZANETTE 13732003752",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57890,7 +57890,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83934",
           "cliente": "COMERCIAL GIUBBINI LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.99
         },
@@ -57899,7 +57899,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57908,7 +57908,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57917,7 +57917,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83934",
           "cliente": "COMERCIAL GIUBBINI LTDA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.99
         },
@@ -57926,7 +57926,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57935,7 +57935,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83928",
           "cliente": "43.816.978 HEDER FIORESI ANDREAO",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57944,7 +57944,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57953,7 +57953,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84542",
           "cliente": "VANDERLEI CARLOS PEREIRA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 22.0
         },
@@ -57962,7 +57962,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83934",
           "cliente": "COMERCIAL GIUBBINI LTDA",
           "produto": "CHICLETE TRIDENT SENSE BLUEB C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.7
         },
@@ -59881,7 +59881,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84278",
           "cliente": "PADARIA PAO DO GENARO LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.7
         },
@@ -59890,7 +59890,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92340",
           "cliente": "50.813.281 ROSANGELA COUTINHO LOPES",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.9
         },
@@ -59899,7 +59899,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90478",
           "cliente": "BICUIBAS LANCHONETE LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.9
         },
@@ -59908,7 +59908,7 @@ const VENDAS_ES_DATA = {
           "codcli": "72623",
           "cliente": "PRIMOS COMERCIO DE BEBIDAS LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 32,
           "valor": 1142.4
         },
@@ -59917,7 +59917,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94026",
           "cliente": "MARLY MARIA MODOLO",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -59926,7 +59926,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84823",
           "cliente": "PANIFICADORA TRIGO DA TERRA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 4,
           "valor": 151.6
         },
@@ -59935,7 +59935,7 @@ const VENDAS_ES_DATA = {
           "codcli": "87071",
           "cliente": "ROGERIO VICENTE DIAS",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -59944,7 +59944,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93184",
           "cliente": "CIDINHA LANCHONETE LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 75.8
         },
@@ -59953,7 +59953,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -59962,7 +59962,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84510",
           "cliente": "DEVANI CHRIST MALEGONI 08486248744",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.8
         },
@@ -59971,7 +59971,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84640",
           "cliente": "M. A. RODRIGUES",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -59980,7 +59980,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84586",
           "cliente": "CATARINA MACHADO MENEGUCE 06896732725",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -59989,7 +59989,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84651",
           "cliente": "50.484.621 HEMILY MOGNOL DA SILVEIRA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -59998,7 +59998,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84114",
           "cliente": "JF ALIMENTOS LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60007,7 +60007,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83931",
           "cliente": "VILA SUPERMERCADOS LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 75.8
         },
@@ -60016,7 +60016,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90531",
           "cliente": "35.223.555 MARLENE MENDONCA VIEIRA BATISTA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60025,7 +60025,7 @@ const VENDAS_ES_DATA = {
           "codcli": "87096",
           "cliente": "MARCIO HENRIQUE DE SOUZA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60034,7 +60034,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60043,7 +60043,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60052,7 +60052,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84278",
           "cliente": "PADARIA PAO DO GENARO LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.7
         },
@@ -60061,7 +60061,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92340",
           "cliente": "50.813.281 ROSANGELA COUTINHO LOPES",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.9
         },
@@ -60070,7 +60070,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90478",
           "cliente": "BICUIBAS LANCHONETE LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.9
         },
@@ -60079,7 +60079,7 @@ const VENDAS_ES_DATA = {
           "codcli": "72623",
           "cliente": "PRIMOS COMERCIO DE BEBIDAS LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 32,
           "valor": 1142.4
         },
@@ -60088,7 +60088,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94026",
           "cliente": "MARLY MARIA MODOLO",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60097,7 +60097,7 @@ const VENDAS_ES_DATA = {
           "codcli": "87071",
           "cliente": "ROGERIO VICENTE DIAS",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60106,7 +60106,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93184",
           "cliente": "CIDINHA LANCHONETE LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 75.8
         },
@@ -60115,7 +60115,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60124,7 +60124,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84639",
           "cliente": "PANIFICADORA LNS LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60133,7 +60133,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84586",
           "cliente": "CATARINA MACHADO MENEGUCE 06896732725",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60142,7 +60142,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60151,7 +60151,7 @@ const VENDAS_ES_DATA = {
           "codcli": "72623",
           "cliente": "PRIMOS COMERCIO DE BEBIDAS LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 30,
           "valor": 717.0
         },
@@ -60160,7 +60160,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90358",
           "cliente": "BAR E LANCHONETE PERNAMBUCO LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60169,7 +60169,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60178,7 +60178,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84643",
           "cliente": "DROGARIA GARONCI PEDRA AZUL LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 3,
           "valor": 71.7
         },
@@ -60187,7 +60187,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91810",
           "cliente": "58.254.201 CLEIDIANA EBANI",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60196,7 +60196,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84639",
           "cliente": "PANIFICADORA LNS LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60205,7 +60205,7 @@ const VENDAS_ES_DATA = {
           "codcli": "87096",
           "cliente": "MARCIO HENRIQUE DE SOUZA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60214,7 +60214,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84278",
           "cliente": "PADARIA PAO DO GENARO LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.7
         },
@@ -60223,7 +60223,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92340",
           "cliente": "50.813.281 ROSANGELA COUTINHO LOPES",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.9
         },
@@ -60232,7 +60232,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90478",
           "cliente": "BICUIBAS LANCHONETE LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.9
         },
@@ -60241,7 +60241,7 @@ const VENDAS_ES_DATA = {
           "codcli": "72623",
           "cliente": "PRIMOS COMERCIO DE BEBIDAS LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 32,
           "valor": 1142.4
         },
@@ -60250,7 +60250,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94026",
           "cliente": "MARLY MARIA MODOLO",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60259,7 +60259,7 @@ const VENDAS_ES_DATA = {
           "codcli": "87071",
           "cliente": "ROGERIO VICENTE DIAS",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60268,7 +60268,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93184",
           "cliente": "CIDINHA LANCHONETE LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 75.8
         },
@@ -60277,7 +60277,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60286,7 +60286,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60295,7 +60295,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84640",
           "cliente": "M. A. RODRIGUES",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60304,7 +60304,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84278",
           "cliente": "PADARIA PAO DO GENARO LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60313,7 +60313,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93184",
           "cliente": "CIDINHA LANCHONETE LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60322,7 +60322,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84114",
           "cliente": "JF ALIMENTOS LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60331,7 +60331,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92340",
           "cliente": "50.813.281 ROSANGELA COUTINHO LOPES",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.98
         },
@@ -60340,7 +60340,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94026",
           "cliente": "MARLY MARIA MODOLO",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60349,7 +60349,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60358,7 +60358,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84278",
           "cliente": "PADARIA PAO DO GENARO LTDA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60367,7 +60367,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94026",
           "cliente": "MARLY MARIA MODOLO",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60376,7 +60376,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93184",
           "cliente": "CIDINHA LANCHONETE LTDA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60385,7 +60385,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84510",
           "cliente": "DEVANI CHRIST MALEGONI 08486248744",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -60394,7 +60394,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60403,7 +60403,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT MAX  HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60412,7 +60412,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60421,7 +60421,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT GRF MENTA 6X54G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.35
         },
@@ -60430,7 +60430,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT MAX MENTABERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60439,7 +60439,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT MAX MENTABERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60448,7 +60448,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60457,7 +60457,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60466,7 +60466,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90358",
           "cliente": "BAR E LANCHONETE PERNAMBUCO LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60475,7 +60475,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 57.9
         },
@@ -60484,7 +60484,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 54.9
         },
@@ -60493,7 +60493,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60502,7 +60502,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 57.9
         },
@@ -60511,7 +60511,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 54.9
         },
@@ -60520,7 +60520,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT INTENSE C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 54.9
         },
@@ -60529,7 +60529,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT INTENSE C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 57.9
         },
@@ -60538,7 +60538,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT INTENSE C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 51.35
         },
@@ -60547,7 +60547,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT BLUEBERRY C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 57.9
         },
@@ -60556,7 +60556,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT BLUEBERRY C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 54.9
         },
@@ -60565,7 +60565,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUTI C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 54.9
         },
@@ -60574,7 +60574,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84586",
           "cliente": "CATARINA MACHADO MENEGUCE 06896732725",
           "produto": "CHICLETE TRIDENT TUTTI FRUTI C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -60583,7 +60583,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91810",
           "cliente": "58.254.201 CLEIDIANA EBANI",
           "produto": "CHICLETE BUBBALOO HORTELA C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 15.12
         },
@@ -60592,7 +60592,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92928",
           "cliente": "MODOLETTO BOTECO E LOUNGE LTDA",
           "produto": "XAROPE FABBRI MORANGO PLUS 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 23,
           "valor": 1829.94
         },
@@ -60601,7 +60601,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92928",
           "cliente": "MODOLETTO BOTECO E LOUNGE LTDA",
           "produto": "XAROPE FABBRI TANGERINA 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 12,
           "valor": 934.8
         },
@@ -60610,7 +60610,7 @@ const VENDAS_ES_DATA = {
           "codcli": "92928",
           "cliente": "MODOLETTO BOTECO E LOUNGE LTDA",
           "produto": "XAROPE FABBRI GENGIBRE 1L",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 12,
           "valor": 934.8
         },
@@ -60727,7 +60727,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83939",
           "cliente": "VNI DOCES E EMBALAGENS LTDA",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 2,
           "valor": 11.8
         },
@@ -60736,7 +60736,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84651",
           "cliente": "50.484.621 HEMILY MOGNOL DA SILVEIRA",
           "produto": "DP PACOCA DADINHO ZERO 24X18G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 27.24
         },
@@ -60745,7 +60745,7 @@ const VENDAS_ES_DATA = {
           "codcli": "77388",
           "cliente": "BREPAN PADARIA LTDA.",
           "produto": "DP PACOCA DADINHO ZERO 24X18G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 27.29
         },
@@ -60754,7 +60754,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94261",
           "cliente": "CLAUDINEI DE OLIVEIRA SILVA",
           "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 38.2
         },
@@ -60763,7 +60763,7 @@ const VENDAS_ES_DATA = {
           "codcli": "77388",
           "cliente": "BREPAN PADARIA LTDA.",
           "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 32.88
         },
@@ -62727,7 +62727,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62736,7 +62736,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62745,7 +62745,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84669",
           "cliente": "JB COMERCIAL DE AFONSO CLAUDIO LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 4,
           "valor": 151.6
         },
@@ -62754,7 +62754,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84278",
           "cliente": "PADARIA PAO DO GENARO LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62763,7 +62763,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62772,7 +62772,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62781,7 +62781,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 15,
           "valor": 494.85
         },
@@ -62790,7 +62790,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 32.99
         },
@@ -62799,7 +62799,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84669",
           "cliente": "JB COMERCIAL DE AFONSO CLAUDIO LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 67.8
         },
@@ -62808,7 +62808,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62817,7 +62817,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62826,7 +62826,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -62835,7 +62835,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -62844,7 +62844,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -62853,7 +62853,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62862,7 +62862,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62871,7 +62871,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62880,7 +62880,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84669",
           "cliente": "JB COMERCIAL DE AFONSO CLAUDIO LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 75.8
         },
@@ -62889,7 +62889,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84278",
           "cliente": "PADARIA PAO DO GENARO LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62898,7 +62898,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 20,
           "valor": 659.8
         },
@@ -62907,7 +62907,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 32.99
         },
@@ -62916,7 +62916,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62925,7 +62925,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -62934,7 +62934,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 15,
           "valor": 494.85
         },
@@ -62943,7 +62943,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -62952,7 +62952,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 21.9
         },
@@ -62961,7 +62961,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 105.0
         },
@@ -62970,7 +62970,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 21.9
         },
@@ -62979,7 +62979,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -62988,7 +62988,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 105.0
         },
@@ -62997,7 +62997,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -63006,7 +63006,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -63015,7 +63015,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 164.95
         },
@@ -63024,7 +63024,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT MAX  HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -63033,7 +63033,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT MAX  HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -63042,7 +63042,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -63051,7 +63051,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -63060,7 +63060,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT SENSE BLUEB C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 164.95
         },
@@ -63069,7 +63069,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "produto": "CHICLETE TRIDENT SENSE BLUEB C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 164.95
         },
@@ -63078,7 +63078,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84822",
           "cliente": "DROGARIA VENDA NOVA LTDA",
           "produto": "CHICLETE TRIDENT MAX MENTABERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -63087,7 +63087,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -63096,7 +63096,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 35.9
         },
@@ -63105,7 +63105,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 59.9
         },
@@ -63114,7 +63114,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 54.99
         },
@@ -63123,7 +63123,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 59.9
         },
@@ -63132,7 +63132,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT INTENSE C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 59.9
         },
@@ -63141,7 +63141,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT INTENSE C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 59.9
         },
@@ -63150,7 +63150,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83926",
           "cliente": "FARMACIA FEITOSA LTDA",
           "produto": "CHICLETE TRIDENT BLUEBERRY C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 57.98
         },
@@ -63159,7 +63159,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84669",
           "cliente": "JB COMERCIAL DE AFONSO CLAUDIO LTDA",
           "produto": "CHICLETE BUBBALOO TUTTI FRUTI C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 6,
           "valor": 87.97
         },
@@ -63168,7 +63168,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84669",
           "cliente": "JB COMERCIAL DE AFONSO CLAUDIO LTDA",
           "produto": "CHICLETE BUBBALOO TUTTI FRUTI C/60 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 6,
           "valor": 87.97
         },
@@ -63935,7 +63935,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91718",
           "cliente": "COMERCIAL TAPERA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -63944,7 +63944,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94232",
           "cliente": "BAR E SUPERMERCADOS VINCO LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -63953,7 +63953,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94232",
           "cliente": "BAR E SUPERMERCADOS VINCO LTDA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.0
         },
@@ -63962,7 +63962,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -63971,7 +63971,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94232",
           "cliente": "BAR E SUPERMERCADOS VINCO LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -63980,7 +63980,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -63989,7 +63989,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91718",
           "cliente": "COMERCIAL TAPERA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -63998,7 +63998,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94232",
           "cliente": "BAR E SUPERMERCADOS VINCO LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -64007,7 +64007,7 @@ const VENDAS_ES_DATA = {
           "codcli": "94232",
           "cliente": "BAR E SUPERMERCADOS VINCO LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -64016,7 +64016,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.9
         },
@@ -64025,7 +64025,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.6
         },
@@ -64034,7 +64034,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT FRESH HERBAL C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -64043,7 +64043,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 37.9
         },
@@ -64052,7 +64052,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 38.9
         },
@@ -64061,7 +64061,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 75.8
         },
@@ -64070,7 +64070,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 57.9
         },
@@ -64079,7 +64079,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85234",
           "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "CHICLETE TRIDENT BLUEBERRY C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 57.9
         },
@@ -64133,7 +64133,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83934",
           "cliente": "COMERCIAL GIUBBINI LTDA",
           "produto": "DP DADINHO BITZ BLACK 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 15,
           "valor": 84.0
         },
@@ -64142,7 +64142,7 @@ const VENDAS_ES_DATA = {
           "codcli": "79791",
           "cliente": "COMERCIAL FIORESE LTDA",
           "produto": "DP DADINHO BITZ BLACK 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 167.4
         },
@@ -64151,7 +64151,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83934",
           "cliente": "COMERCIAL GIUBBINI LTDA",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 15,
           "valor": 84.0
         },
@@ -64160,7 +64160,7 @@ const VENDAS_ES_DATA = {
           "codcli": "79791",
           "cliente": "COMERCIAL FIORESE LTDA",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 167.4
         },
@@ -64169,7 +64169,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83937",
           "cliente": "FARMACIA JDL LTDA",
           "produto": "DP PACOCA DADINHO ZERO 24X18G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 28.53
         },
@@ -64178,7 +64178,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83934",
           "cliente": "COMERCIAL GIUBBINI LTDA",
           "produto": "DP PACOCA GAMADINHO QUADRADA 40X20G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 23.17
         },
@@ -64187,7 +64187,7 @@ const VENDAS_ES_DATA = {
           "codcli": "79791",
           "cliente": "COMERCIAL FIORESE LTDA",
           "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 38.68
         },
@@ -64567,7 +64567,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84010",
           "cliente": "RESTAURANTE VENTURIM LTDA",
           "produto": "CHICLETE TRIDENT MAX MENTABERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 10,
           "valor": 319.9
         },
@@ -64576,7 +64576,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84010",
           "cliente": "RESTAURANTE VENTURIM LTDA",
           "produto": "CHICLETE TRIDENT MAX RASPEBERRY 14X16,5G",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 10,
           "valor": 319.9
         },
@@ -64585,7 +64585,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84010",
           "cliente": "RESTAURANTE VENTURIM LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 10,
           "valor": 519.0
         },
@@ -64594,7 +64594,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84010",
           "cliente": "RESTAURANTE VENTURIM LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 10,
           "valor": 519.0
         },
@@ -64603,7 +64603,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84010",
           "cliente": "RESTAURANTE VENTURIM LTDA",
           "produto": "CHICLETE TRIDENT INTENSE C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 259.5
         },
@@ -64612,7 +64612,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84010",
           "cliente": "RESTAURANTE VENTURIM LTDA",
           "produto": "CHICLETE TRIDENT BLUEBERRY C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 10,
           "valor": 519.0
         },
@@ -64621,7 +64621,7 @@ const VENDAS_ES_DATA = {
           "codcli": "84010",
           "cliente": "RESTAURANTE VENTURIM LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUTI C/ 14 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 5,
           "valor": 274.5
         },
@@ -67300,7 +67300,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI LIMAO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 18,
           "valor": 696.06
         },
@@ -67309,7 +67309,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI LIMAO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 3,
           "valor": 696.0
         },
@@ -67318,7 +67318,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI MORANGO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 66,
           "valor": 2552.22
         },
@@ -67327,7 +67327,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI MORANGO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 5,
           "valor": 1160.0
         },
@@ -67336,7 +67336,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI AMARENA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 42,
           "valor": 1624.14
         },
@@ -67345,7 +67345,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI AMARENA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 232.0
         },
@@ -67354,7 +67354,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI MENTA ZERO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 4,
           "valor": 928.0
         },
@@ -67363,7 +67363,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI MACA VERDE 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 20,
           "valor": 4640.0
         },
@@ -67372,7 +67372,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI FRAMBOESA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 36,
           "valor": 1392.12
         },
@@ -67381,7 +67381,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI AMARENA ZERO ACUCAR 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 7,
           "valor": 1624.0
         },
@@ -67390,7 +67390,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI LIMAO E KIWI 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 15,
           "valor": 3480.0
         },
@@ -69588,7 +69588,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI MORANGO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 42,
           "valor": 1624.0
         },
@@ -69597,7 +69597,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI AMARENA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 42,
           "valor": 1624.0
         },
@@ -69606,7 +69606,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI MENTA ZERO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 11,
           "valor": 425.33
         },
@@ -69615,7 +69615,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI MACA VERDE 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 60,
           "valor": 2320.0
         },
@@ -69687,7 +69687,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85437",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 244.0
         },
@@ -69696,7 +69696,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85439",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 244.0
         },
@@ -69705,7 +69705,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85410",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 244.0
         },
@@ -69714,7 +69714,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85438",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 120,
           "valor": 732.0
         },
@@ -69723,7 +69723,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85441",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 244.0
         },
@@ -69732,7 +69732,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85896",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 244.0
         },
@@ -69741,7 +69741,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85437",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 358.8
         },
@@ -69750,7 +69750,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85439",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 358.8
         },
@@ -69759,7 +69759,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85410",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 358.8
         },
@@ -69768,7 +69768,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85438",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 120,
           "valor": 1076.4
         },
@@ -69777,7 +69777,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85441",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 358.8
         },
@@ -69786,7 +69786,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85896",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 358.8
         },
@@ -69795,7 +69795,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85437",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 18,
           "valor": 304.92
         },
@@ -69804,7 +69804,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85439",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 18,
           "valor": 304.92
         },
@@ -69813,7 +69813,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85410",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 36,
           "valor": 609.84
         },
@@ -69822,7 +69822,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85438",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 54,
           "valor": 914.76
         },
@@ -69831,7 +69831,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85441",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 48,
           "valor": 813.12
         },
@@ -69840,7 +69840,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85896",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 18,
           "valor": 304.92
         },
@@ -69849,7 +69849,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91292",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 197.7
         },
@@ -69858,7 +69858,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85437",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 197.7
         },
@@ -69867,7 +69867,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85439",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 197.7
         },
@@ -69876,7 +69876,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85410",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 197.7
         },
@@ -69885,7 +69885,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85438",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 90,
           "valor": 593.1
         },
@@ -69894,7 +69894,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85441",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 197.7
         },
@@ -69903,7 +69903,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85896",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 197.7
         },
@@ -69912,7 +69912,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91292",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 12,
           "valor": 343.44
         },
@@ -69921,7 +69921,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85437",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 12,
           "valor": 343.44
         },
@@ -69930,7 +69930,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85439",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 12,
           "valor": 343.44
         },
@@ -69939,7 +69939,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85410",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 12,
           "valor": 343.44
         },
@@ -69948,7 +69948,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85438",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 36,
           "valor": 1030.32
         },
@@ -69957,7 +69957,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85441",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 12,
           "valor": 343.44
         },
@@ -69966,7 +69966,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85896",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 12,
           "valor": 343.44
         },
@@ -69975,7 +69975,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85410",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 114.6
         },
@@ -69984,7 +69984,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85437",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 114.6
         },
@@ -69993,7 +69993,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85439",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 114.6
         },
@@ -70002,7 +70002,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85438",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 90,
           "valor": 343.8
         },
@@ -70011,7 +70011,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85441",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 114.6
         },
@@ -70020,7 +70020,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85896",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 114.6
         },
@@ -70029,7 +70029,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21215",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 10,
           "valor": 1302.0
         },
@@ -70038,7 +70038,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21216",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 10,
           "valor": 1302.0
         },
@@ -70047,7 +70047,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82541",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 10,
           "valor": 1302.0
         },
@@ -70056,7 +70056,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76075",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 20,
           "valor": 2604.0
         },
@@ -70065,7 +70065,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76073",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 10,
           "valor": 1302.0
         },
@@ -70074,7 +70074,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82542",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 781.2
         },
@@ -70083,7 +70083,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76072",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 10,
           "valor": 1302.0
         },
@@ -70092,7 +70092,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82537",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 10,
           "valor": 1302.0
         },
@@ -70101,7 +70101,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82538",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 10,
           "valor": 1302.0
         },
@@ -70110,7 +70110,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21216",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 741.0
         },
@@ -70119,7 +70119,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76075",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 10,
           "valor": 1482.0
         },
@@ -70128,7 +70128,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82542",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 741.0
         },
@@ -70137,7 +70137,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76075",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 10,
           "valor": 1482.0
         },
@@ -70146,7 +70146,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82538",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -70155,7 +70155,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76071",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 480.0
         },
@@ -70164,7 +70164,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76075",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -70173,7 +70173,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82542",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 3,
           "valor": 288.0
         },
@@ -70182,7 +70182,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82538",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 480.0
         },
@@ -71345,7 +71345,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI MORANGO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 12,
           "valor": 464.0
         },
@@ -71354,7 +71354,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI AMARENA 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 12,
           "valor": 464.0
         },
@@ -71363,7 +71363,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI MENTA ZERO 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 12,
           "valor": 464.0
         },
@@ -71372,7 +71372,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI MACA VERDE 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 120,
           "valor": 4640.0
         },
@@ -71381,7 +71381,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "XAROPE FABBRI AMARENA ZERO ACUCAR 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 54,
           "valor": 2088.0
         },
@@ -71390,7 +71390,7 @@ const VENDAS_ES_DATA = {
           "codcli": "80859",
           "cliente": "EUDES VENTORIN MORGAN",
           "produto": "DP PACOCA DADINHO ZERO 8X18G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 12,
           "valor": 109.08
         },
@@ -71399,7 +71399,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21217",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 260.4
         },
@@ -71408,7 +71408,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82537",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 781.2
         },
@@ -71417,7 +71417,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82540",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 3,
           "valor": 390.6
         },
@@ -71426,7 +71426,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74418",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 260.4
         },
@@ -71435,7 +71435,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76071",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 781.2
         },
@@ -71444,7 +71444,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82542",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 260.4
         },
@@ -71453,7 +71453,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21215",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 260.4
         },
@@ -71462,7 +71462,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76074",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 781.2
         },
@@ -71471,7 +71471,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21216",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 260.4
         },
@@ -71480,7 +71480,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82538",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 260.4
         },
@@ -71489,7 +71489,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91463",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 260.4
         },
@@ -71498,7 +71498,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76072",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 781.2
         },
@@ -71507,7 +71507,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76073",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 781.2
         },
@@ -71516,7 +71516,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76076",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 781.2
         },
@@ -71525,7 +71525,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82541",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 260.4
         },
@@ -71534,7 +71534,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76075",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 781.2
         },
@@ -71543,7 +71543,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74418",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -71552,7 +71552,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76071",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 741.0
         },
@@ -71561,7 +71561,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82542",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -71570,7 +71570,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21215",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -71579,7 +71579,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76074",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 741.0
         },
@@ -71588,7 +71588,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82538",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -71597,7 +71597,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76076",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 741.0
         },
@@ -71606,7 +71606,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82541",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -71615,7 +71615,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74418",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -71624,7 +71624,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76071",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 741.0
         },
@@ -71633,7 +71633,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82542",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -71642,7 +71642,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21215",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -71651,7 +71651,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76074",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 889.2
         },
@@ -71660,7 +71660,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76076",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 889.2
         },
@@ -71669,7 +71669,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82541",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -71678,7 +71678,7 @@ const VENDAS_ES_DATA = {
           "codcli": "74418",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -71687,7 +71687,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76071",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -71696,7 +71696,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82542",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -71705,7 +71705,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21215",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -71714,7 +71714,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76074",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -71723,7 +71723,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82538",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 1,
           "valor": 96.0
         },
@@ -71732,7 +71732,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76076",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -71741,7 +71741,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82541",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -74497,7 +74497,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85400",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 120,
           "valor": 732.0
         },
@@ -74506,7 +74506,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85433",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 120,
           "valor": 732.0
         },
@@ -74515,7 +74515,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85432",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 120,
           "valor": 732.0
         },
@@ -74524,7 +74524,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85424",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 80,
           "valor": 488.0
         },
@@ -74533,7 +74533,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85438",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 244.0
         },
@@ -74542,7 +74542,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85401",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 80,
           "valor": 488.0
         },
@@ -74551,7 +74551,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85836",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 120,
           "valor": 732.0
         },
@@ -74560,7 +74560,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85411",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 160,
           "valor": 976.0
         },
@@ -74569,7 +74569,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85410",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 244.0
         },
@@ -74578,7 +74578,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85400",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 120,
           "valor": 1076.4
         },
@@ -74587,7 +74587,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85433",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 120,
           "valor": 1076.4
         },
@@ -74596,7 +74596,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85432",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 120,
           "valor": 1076.4
         },
@@ -74605,7 +74605,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85424",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 80,
           "valor": 717.6
         },
@@ -74614,7 +74614,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85438",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 358.8
         },
@@ -74623,7 +74623,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85411",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 160,
           "valor": 1435.2
         },
@@ -74632,7 +74632,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85410",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 40,
           "valor": 358.8
         },
@@ -74641,7 +74641,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85400",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 90,
           "valor": 1524.6
         },
@@ -74650,7 +74650,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85433",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 90,
           "valor": 1524.6
         },
@@ -74659,7 +74659,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85432",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 90,
           "valor": 1524.6
         },
@@ -74668,7 +74668,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85401",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 54,
           "valor": 914.76
         },
@@ -74677,7 +74677,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85400",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 90,
           "valor": 593.1
         },
@@ -74686,7 +74686,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85433",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 150,
           "valor": 988.5
         },
@@ -74695,7 +74695,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85432",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 120,
           "valor": 790.8
         },
@@ -74704,7 +74704,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85424",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 60,
           "valor": 395.4
         },
@@ -74713,7 +74713,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85401",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 197.7
         },
@@ -74722,7 +74722,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85400",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 60,
           "valor": 1717.2
         },
@@ -74731,7 +74731,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85433",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 60,
           "valor": 1717.2
         },
@@ -74740,7 +74740,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85432",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 60,
           "valor": 1717.2
         },
@@ -74749,7 +74749,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85424",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 24,
           "valor": 686.88
         },
@@ -74758,7 +74758,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85438",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 24,
           "valor": 686.88
         },
@@ -74767,7 +74767,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85401",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 60,
           "valor": 1717.2
         },
@@ -74776,7 +74776,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85410",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 12,
           "valor": 343.44
         },
@@ -74785,7 +74785,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85400",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 90,
           "valor": 343.8
         },
@@ -74794,7 +74794,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85433",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 150,
           "valor": 573.0
         },
@@ -74803,7 +74803,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85432",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 120,
           "valor": 458.4
         },
@@ -74812,7 +74812,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85424",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 60,
           "valor": 229.2
         },
@@ -74821,7 +74821,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85401",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 60,
           "valor": 229.2
         },
@@ -74830,7 +74830,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85836",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 60,
           "valor": 229.2
         },
@@ -74839,7 +74839,7 @@ const VENDAS_ES_DATA = {
           "codcli": "85410",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 30,
           "valor": 114.6
         },
@@ -74848,7 +74848,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82539",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 3,
           "valor": 390.6
         },
@@ -74857,7 +74857,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76073",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 741.0
         },
@@ -74866,7 +74866,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21216",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -74875,7 +74875,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21217",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -74884,7 +74884,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82537",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 741.0
         },
@@ -74893,7 +74893,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82540",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 3,
           "valor": 444.6
         },
@@ -74902,7 +74902,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91463",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -74911,7 +74911,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82539",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 3,
           "valor": 444.6
         },
@@ -74920,7 +74920,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76072",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 741.0
         },
@@ -74929,7 +74929,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76075",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 741.0
         },
@@ -74938,7 +74938,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76073",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 889.2
         },
@@ -74947,7 +74947,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21216",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -74956,7 +74956,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21217",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -74965,7 +74965,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82537",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 889.2
         },
@@ -74974,7 +74974,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82540",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 3,
           "valor": 444.6
         },
@@ -74983,7 +74983,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91463",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -74992,7 +74992,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82539",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 3,
           "valor": 444.6
         },
@@ -75001,7 +75001,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76072",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 889.2
         },
@@ -75010,7 +75010,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76075",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 889.2
         },
@@ -75019,7 +75019,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82538",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
         },
@@ -75028,7 +75028,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76073",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -75037,7 +75037,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21216",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -75046,7 +75046,7 @@ const VENDAS_ES_DATA = {
           "codcli": "21217",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -75055,7 +75055,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82537",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -75064,7 +75064,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82540",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -75073,7 +75073,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91463",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -75082,7 +75082,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82539",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -75091,7 +75091,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76072",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -75100,7 +75100,7 @@ const VENDAS_ES_DATA = {
           "codcli": "76075",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 192.0
         },
@@ -75109,7 +75109,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82538",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "",
+          "fantasia": "NAVEIA",
           "qt": 1,
           "valor": 96.0
         },
@@ -77795,7 +77795,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -77804,7 +77804,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 33.92
         },
@@ -77813,7 +77813,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -77822,7 +77822,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "CHICLETE TRIDENT CANELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 33.92
         },
@@ -77831,7 +77831,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -77840,7 +77840,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 33.92
         },
@@ -77849,7 +77849,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "CHICLETE TRIDENT FRESH INTENSE C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -77858,7 +77858,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.8
         },
@@ -77867,7 +77867,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.69
         },
@@ -77876,7 +77876,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.34
         },
@@ -77885,7 +77885,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 33.92
         },
@@ -77894,7 +77894,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -77903,7 +77903,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 33.92
         },
@@ -77912,7 +77912,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.8
         },
@@ -77921,7 +77921,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.69
         },
@@ -77930,7 +77930,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "BALA HALLS CEREJA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.68
         },
@@ -77939,7 +77939,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.8
         },
@@ -77948,7 +77948,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.69
         },
@@ -77957,7 +77957,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.8
         },
@@ -77966,7 +77966,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "BALA HALLS MENTA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.69
         },
@@ -77975,7 +77975,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.8
         },
@@ -77984,7 +77984,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 23.69
         },
@@ -77993,7 +77993,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "CHICLETE TRIDENT MAX  HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.67
         },
@@ -78002,7 +78002,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91221",
           "cliente": "62.448.638 LUCIENE MIRANDA TASSINARI",
           "produto": "XAROPE FABBRI AMARENA ZERO ACUCAR 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 51.52
         },
@@ -78011,7 +78011,7 @@ const VENDAS_ES_DATA = {
           "codcli": "91221",
           "cliente": "62.448.638 LUCIENE MIRANDA TASSINARI",
           "produto": "XAROPE FABBRI GRENADINE 560ML",
-          "fantasia": "",
+          "fantasia": "FABBRI",
           "qt": 1,
           "valor": 39.71
         },
@@ -78029,7 +78029,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90303",
           "cliente": "SILVEIRA E NOGUEIRA LTDA",
           "produto": "DP BOMBOM LOVERS AVELA 660G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 35.25
         },
@@ -78038,7 +78038,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "DP GAMADINHO TRAD 60G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 7,
           "valor": 24.55
         },
@@ -80290,7 +80290,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90494",
           "cliente": "LUFFIM DISTRIBUIDORA LTDA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 68.0
         },
@@ -80299,7 +80299,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 27.51
         },
@@ -80308,7 +80308,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90302",
           "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 27.0
         },
@@ -81264,7 +81264,7 @@ const VENDAS_ES_DATA = {
           "codcli": "93519",
           "cliente": "R.V.L.QUEIROZ",
           "produto": "DP GAMADINHO TRAD 420G",
-          "fantasia": "",
+          "fantasia": "DADINHO",
           "qt": 1,
           "valor": 17.39
         },
@@ -82885,7 +82885,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90306",
           "cliente": "MÁRCIA QUELLEM NASCIMENTO DOS SANTOS",
           "produto": "PF MENTOS STICK 14 B. FR.VER DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 30.9
         },
@@ -82961,7 +82961,7 @@ const VENDAS_ES_DATA = {
           "codcli": "90306",
           "cliente": "MÁRCIA QUELLEM NASCIMENTO DOS SANTOS",
           "produto": "PF MENTOS STICK 14 B. RAINBOW DP/16",
-          "fantasia": "",
+          "fantasia": "MENTOS",
           "qt": 1,
           "valor": 30.9
         },
@@ -83307,7 +83307,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83528",
           "cliente": "VALDECI DOS SANTOS",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -83316,7 +83316,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82432",
           "cliente": "M G FARIA PANIFICACOES",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -83325,7 +83325,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83528",
           "cliente": "VALDECI DOS SANTOS",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -83334,7 +83334,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82432",
           "cliente": "M G FARIA PANIFICACOES",
           "produto": "CHICLETE TRIDENT TUTTI FRUT C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -83343,7 +83343,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83528",
           "cliente": "VALDECI DOS SANTOS",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -83352,7 +83352,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82432",
           "cliente": "M G FARIA PANIFICACOES",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -83361,7 +83361,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83528",
           "cliente": "VALDECI DOS SANTOS",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.9
         },
@@ -83370,7 +83370,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83528",
           "cliente": "VALDECI DOS SANTOS",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -83379,7 +83379,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82432",
           "cliente": "M G FARIA PANIFICACOES",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -83388,7 +83388,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82432",
           "cliente": "M G FARIA PANIFICACOES",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -83397,7 +83397,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83528",
           "cliente": "VALDECI DOS SANTOS",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.9
         },
@@ -83406,7 +83406,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82432",
           "cliente": "M G FARIA PANIFICACOES",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.9
         },
@@ -83415,7 +83415,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82432",
           "cliente": "M G FARIA PANIFICACOES",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.9
         },
@@ -83424,7 +83424,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82432",
           "cliente": "M G FARIA PANIFICACOES",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.9
         },
@@ -84065,7 +84065,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82634",
           "cliente": "DENIVALDO BATISTA VENTURA",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -84074,7 +84074,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82432",
           "cliente": "M G FARIA PANIFICACOES",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -84083,7 +84083,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82314",
           "cliente": "P E S RANGEL HORTIFRUTI",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 73.8
         },
@@ -84092,7 +84092,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82349",
           "cliente": "WANIS MATEUS GOMES",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -84101,7 +84101,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83528",
           "cliente": "VALDECI DOS SANTOS",
           "produto": "CHICLETE TRIDENT MENTA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -84110,7 +84110,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83528",
           "cliente": "VALDECI DOS SANTOS",
           "produto": "CHICLETE TRIDENT MELANCIA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -84119,7 +84119,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82655",
           "cliente": "APARECIDA CRISTINA",
           "produto": "BALA HALLS EXTRA FORTE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.9
         },
@@ -84128,7 +84128,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82314",
           "cliente": "P E S RANGEL HORTIFRUTI",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -84137,7 +84137,7 @@ const VENDAS_ES_DATA = {
           "codcli": "83528",
           "cliente": "VALDECI DOS SANTOS",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -84146,7 +84146,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82634",
           "cliente": "DENIVALDO BATISTA VENTURA",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -84155,7 +84155,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82349",
           "cliente": "WANIS MATEUS GOMES",
           "produto": "CHICLETE TRIDENT MORANGO C/21 UN",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 36.9
         },
@@ -84164,7 +84164,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82634",
           "cliente": "DENIVALDO BATISTA VENTURA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.9
         },
@@ -84173,7 +84173,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82655",
           "cliente": "APARECIDA CRISTINA",
           "produto": "BALA HALLS MELANCIA C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.9
         },
@@ -84182,7 +84182,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82349",
           "cliente": "WANIS MATEUS GOMES",
           "produto": "BALA HALLS MORANGO C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.9
         },
@@ -84191,7 +84191,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82349",
           "cliente": "WANIS MATEUS GOMES",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.9
         },
@@ -84200,7 +84200,7 @@ const VENDAS_ES_DATA = {
           "codcli": "82655",
           "cliente": "APARECIDA CRISTINA",
           "produto": "BALA HALLS UVA VERDE C/21 UND",
-          "fantasia": "",
+          "fantasia": "MONDELEZ",
           "qt": 1,
           "valor": 24.9
         },
