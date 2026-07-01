@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "01/07/2026 16:41",
+  "atualizado_em": "01/07/2026 17:00",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -52363,6 +52363,17 @@ const VENDAS_SP_DATA = {
           "qt": 12,
           "valor": 1186.8
         }
+      ],
+      "Jul/26": [
+        {
+          "data": "01/07/2026",
+          "codcli": "50354",
+          "cliente": "MARIANA VIEIRA SANTIAGO 45604784818",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8
+        }
       ]
     },
     "FABIANO RIBEIRO": {
@@ -80015,6 +80026,28 @@ const VENDAS_SP_DATA = {
         "fat_pernod": 479483.42
       }
     },
+    "SUELY SANTOS": {
+      "Jul/26": {
+        "fat": 1198.8,
+        "pos": 1.0
+      },
+      "Jun/26": {
+        "fat": 103869.97,
+        "pos": 28.0,
+        "fat_pernod": 55036.98,
+        "fat_crs": 1724.52
+      },
+      "Mai/26": {
+        "fat": 73132.92,
+        "pos": 19.0,
+        "fat_pernod": 44970.67
+      },
+      "Abr/26": {
+        "fat": 34481.46,
+        "pos": 9.0,
+        "fat_pernod": 19176.0
+      }
+    },
     "ROBERTO DOS SANTOS": {
       "Jul/26": {
         "fat": 621.36,
@@ -80483,24 +80516,6 @@ const VENDAS_SP_DATA = {
         "fat": 1113.12,
         "pos": 4.0,
         "fat_pernod": 308.4
-      }
-    },
-    "SUELY SANTOS": {
-      "Jun/26": {
-        "fat": 103869.97,
-        "pos": 28.0,
-        "fat_pernod": 55036.98,
-        "fat_crs": 1724.52
-      },
-      "Mai/26": {
-        "fat": 73132.92,
-        "pos": 19.0,
-        "fat_pernod": 44970.67
-      },
-      "Abr/26": {
-        "fat": 34481.46,
-        "pos": 9.0,
-        "fat_pernod": 19176.0
       }
     },
     "ELIZANGELA RODRIGUES": {
