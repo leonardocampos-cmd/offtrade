@@ -584,7 +584,7 @@ if _hier_parts:
                 'qt':  int(grp['QT'].sum()),
             }
 
-        if por_mes_vend.get(mes_atual_str, {}).get('fat', 0) <= 0:
+        if not por_mes_vend:
             continue
 
         estado_top = estado or 'Sem Estado'
