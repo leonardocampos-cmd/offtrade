@@ -267,7 +267,11 @@ pos_ant_total = sum(v.get("pos", 0) for v in totais_ant.values())
 meta_total    = sum(METAS_FAT_ESTADO.values())
 pct_total     = round(fat_total / meta_total * 100, 1) if meta_total else 0.0
 
-mes_str = f"{['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'][hoje.month - 1]}/{str(hoje.year)[2:]}"
+_MESES_PT = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez']
+mes_str     = f"{_MESES_PT[hoje.month - 1]}/{str(hoje.year)[2:]}"
+mes_ant_idx = (hoje.month - 2) % 12
+mes_ant_ano = hoje.year if hoje.month > 1 else hoje.year - 1
+mes_ant_str = f"{_MESES_PT[mes_ant_idx]}/{str(mes_ant_ano)[2:]}"
 
 # Atualiza fat nos estados_out com valores reais de totais_atual
 for e in estados_out:
@@ -285,6 +289,7 @@ for e in estados_out:
 payload = {
     "atualizado_em":  datetime.now().strftime("%d/%m/%Y %H:%M"),
     "mes":            mes_str,
+    "mes_ant":        mes_ant_str,
     "dias_corridos":  dias_corridos,
     "dias_no_mes":    dias_no_mes,
     "dias_restantes": dias_restantes,

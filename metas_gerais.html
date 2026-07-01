@@ -167,7 +167,13 @@
     <h1>&#127758; Metas Gerais — OFF TRADE</h1>
     <p id="header-sub">—</p>
   </div>
-  <a class="btn" href="index.html">&#8962; Home</a>
+  <div style="display:flex;gap:8px;align-items:center">
+    <div id="mes-toggle" style="display:flex;gap:4px;background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:3px">
+      <button id="btn-mes-atual" onclick="setMes('atual')" style="padding:5px 12px;border-radius:6px;border:none;cursor:pointer;font-size:.78rem;font-weight:700;background:var(--accent);color:#111;transition:all .15s">—</button>
+      <button id="btn-mes-ant"   onclick="setMes('ant')"   style="padding:5px 12px;border-radius:6px;border:none;cursor:pointer;font-size:.78rem;font-weight:700;background:transparent;color:var(--muted);transition:all .15s">—</button>
+    </div>
+    <a class="btn" href="index.html">&#8962; Home</a>
+  </div>
 </header>
 
 <div id="app"></div>
@@ -175,10 +181,26 @@
 <script>
 const D = (typeof METAS_GERAIS_DATA !== 'undefined') ? METAS_GERAIS_DATA : null;
 
+let _mesSel = 'atual';
+
+function setMes(sel) {
+  _mesSel = sel;
+  const bA = document.getElementById('btn-mes-atual');
+  const bP = document.getElementById('btn-mes-ant');
+  bA.style.background = sel === 'atual' ? 'var(--accent)' : 'transparent';
+  bA.style.color      = sel === 'atual' ? '#111' : 'var(--muted)';
+  bP.style.background = sel === 'ant'   ? 'var(--accent)' : 'transparent';
+  bP.style.color      = sel === 'ant'   ? '#111' : 'var(--muted)';
+  render();
+}
+
 if (!D) {
   document.getElementById('app').innerHTML =
     '<p style="color:var(--red);padding:32px">Erro: metas_gerais_data.js não encontrado.<br>Execute exportacao_metas_gerais.py primeiro.</p>';
 } else {
+  // Labels dos botões
+  document.getElementById('btn-mes-atual').textContent = D.mes;
+  document.getElementById('btn-mes-ant').textContent   = D.mes_ant || 'Ant.';
   document.getElementById('header-sub').textContent =
     `Atualizado: ${D.atualizado_em}  ·  ${D.mes}  ·  Dia ${D.dias_corridos}/${D.dias_no_mes}`;
   render();
@@ -203,22 +225,27 @@ function varHtml(cur, ant) {
 }
 
 function estadoCard(e, isTotal) {
-  const cls = pctCls(e.pct);
-  const fill = Math.min(e.pct, 100).toFixed(1);
-  const nec  = e.nec_dia > 0
+  const ant  = _mesSel === 'ant';
+  const fat  = ant ? e.fat_ant : e.fat;
+  const pct  = ant ? (e.meta > 0 ? e.fat_ant / e.meta * 100 : 0) : e.pct;
+  const cls  = pctCls(pct);
+  const fill = Math.min(pct, 100).toFixed(1);
+  const nec  = (!ant && e.nec_dia > 0)
     ? `<div class="estado-nec">Nec./dia: ${brl(e.nec_dia)}</div>`
     : '';
+  const antRow = ant ? '' : `
+      <div class="estado-ant muted" style="font-size:.7rem;margin-top:2px">
+        Ant. ${brlk(e.fat_ant)} ${varHtml(e.fat, e.fat_ant)}
+      </div>`;
   return `
     <div class="estado-card${isTotal ? ' total' : ''}">
       <div class="estado-nome">${e.label || e.estado}</div>
       <div style="display:flex;align-items:baseline;gap:8px;margin-top:6px">
-        <div class="estado-fat pct-${cls}">${brlk(e.fat)}</div>
-        <span class="pct-badge pct-${cls}">${e.pct.toFixed(1)}%</span>
+        <div class="estado-fat pct-${cls}">${brlk(fat)}</div>
+        <span class="pct-badge pct-${cls}">${pct.toFixed(1)}%</span>
       </div>
       <div class="estado-meta">Meta: ${brlk(e.meta)}</div>
-      <div class="estado-ant muted" style="font-size:.7rem;margin-top:2px">
-        Ant. ${brlk(e.fat_ant)} ${varHtml(e.fat, e.fat_ant)}
-      </div>
+      ${antRow}
       <div class="bar-track"><div class="bar-fill bar-${cls}" style="width:${fill}%"></div></div>
       ${nec}
     </div>`;
@@ -243,21 +270,29 @@ function kpiHtml(label, val, ant, fmt) {
 }
 
 function render() {
-  const t = D.total;
-  const r = D.resumo || {};
+  const t   = D.total;
+  const r   = D.resumo || {};
+  const ant = _mesSel === 'ant';
+
+  const fatKpi = ant ? (r.fat_ant || t.fat_ant) : (r.fat || t.fat);
+  const posKpi = ant ? (r.pos_ant || 0) : (r.pos || 0);
 
   // Resumo geral no topo
   const resumoHtml = `
     <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
-      ${kpiHtml('Faturamento Total', r.fat || t.fat, r.fat_ant || t.fat_ant, brl)}
-      ${kpiHtml('Positivação Total', r.pos || 0, r.pos_ant || 0, v => Math.round(v).toLocaleString('pt-BR'))}
+      ${kpiHtml('Faturamento Total', fatKpi, ant ? t.fat : t.fat_ant, brl)}
+      ${kpiHtml('Positivação Total', posKpi, ant ? (r.pos || 0) : (r.pos_ant || 0), v => Math.round(v).toLocaleString('pt-BR'))}
     </div>`;
+
+  const tTotal = ant
+    ? {label:'TOTAL GERAL', estado:'TOTAL', meta:t.meta, fat:t.fat_ant, fat_ant:t.fat, pct: t.meta>0?t.fat_ant/t.meta*100:0, nec_dia:0}
+    : {label:'TOTAL GERAL', estado:'TOTAL', meta:t.meta, fat:t.fat, fat_ant:t.fat_ant, pct:t.pct, nec_dia:t.nec_dia};
 
   // Cards de estado + total
   const estadosHtml = `
     <div class="sec-title">Faturamento por Estado</div>
     <div class="estados-grid">
-      ${estadoCard({label: 'TOTAL GERAL', estado: 'TOTAL', meta: t.meta, fat: t.fat, fat_ant: t.fat_ant, pct: t.pct, nec_dia: t.nec_dia}, true)}
+      ${estadoCard(tTotal, true)}
       ${D.estados.map(e => estadoCard(e, false)).join('')}
     </div>`;
 
