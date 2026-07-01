@@ -1,8 +1,9 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "01/07/2026 10:58",
+  "atualizado_em": "01/07/2026 14:38",
   "meses": [
+    "Jul/26",
     "Jun/26",
     "Mai/26",
     "Abr/26",
@@ -213,6 +214,11 @@ const VENDAS_MG_DATA = {
         "fat": 85308.22,
         "pos": 61,
         "fat_ant": 111009.88
+      },
+      "Jul/26": {
+        "fat": 478.8,
+        "pos": 1,
+        "fat_ant": 85308.22
       }
     },
     "BRUNA CASTRO MELLO": {
@@ -80793,6 +80799,17 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 413.4
+        }
+      ],
+      "Jul/26": [
+        {
+          "data": "01/07/2026",
+          "codcli": "38332",
+          "cliente": "ELEGANCE DRINKS E COQUETEIS LTDA",
+          "produto": "YVY DESTILADO GIN MAR GF 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 478.8
         }
       ]
     },
