@@ -5,6 +5,15 @@ from datetime import date, datetime
 from pathlib import Path
 import re as _re
 from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, arquivo, carregar_dados
+import os
+from urllib.parse import quote_plus as _qp
+from sqlalchemy import create_engine as _ce
+import oracledb as _oradb
+_oradb.init_oracle_client(lib_dir=r"C:\instantclient")
+_vpn_u = os.getenv("VPN_USER", "vpn")
+_vpn_p = os.getenv("VPN_PASSWORD", "vpn2320vpn")
+engine_mg = _ce(f'oracle+oracledb://{_vpn_u}:{_qp(_vpn_p)}@mgon_oci',
+                pool_pre_ping=True, pool_recycle=3600, connect_args={"expire_time": 2})
 import nao_positivados as _np_mod
 
 _df_nao_pos = _np_mod.nao_positivados_full
@@ -531,6 +540,7 @@ _HIER_CONFIGS = [
     ("CASTAS",  engine_castas,  "hier_CASTAS",  "Castas",    None),
     ("GARRIDO", engine_garrido, "hier_GARRIDO", "Garrido",   None),
     ("SPON",    engine_spon,    "hier_SPON",    "SPON",      _SPON_EXTRA),
+    ("MGON",    engine_mg,      "hier_MGON",    "MG",        None),
 ]
 
 _hier_parts = []
@@ -583,9 +593,6 @@ if _hier_parts:
                 'fat': round(float(grp['VALOR'].sum()), 2),
                 'qt':  int(grp['QT'].sum()),
             }
-
-        if not por_mes_vend:
-            continue
 
         estado_top = estado or 'Sem Estado'
 
