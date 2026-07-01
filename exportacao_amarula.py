@@ -4,8 +4,8 @@ from datetime import datetime
 from pathlib import Path
 from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, carregar_dados, arquivo as _arquivo_meta
 
-DT_INI = "2026-05-26"
-DT_FIM = "2026-06-26"
+DT_INI = "2026-05-25"
+DT_FIM = "2026-06-25"
 PREMIO_1 = 2000
 PREMIO_2 = 1000
 

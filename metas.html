@@ -1734,7 +1734,7 @@ function buildAmarulaDetail(v) {
 
   return `
     <div class="campanha-detail-box" style="border-color:#d4962a55;background:#1c1810">
-      <div class="campanha-detail-title" style="color:#d4962a">Campanha Amarula &middot; 26/05–26/06</div>
+      <div class="campanha-detail-title" style="color:#d4962a">Campanha Amarula &middot; 25/05–25/06</div>
       ${rows.join('')}
     </div>`;
 }
@@ -1746,9 +1746,9 @@ const _MOVING_METAS_IND = {
   '420':0
 };
 const _MOVING_GATILHO  = 120000;
-const _MOVING_CAMP_INI = new Date(2026, 4, 26); // 26/05/2026
-const _MOVING_CAMP_FIM = new Date(2026, 5, 26); // 26/06/2026
-const _MOVING_MESES    = ['Mai/26', 'Jun/26'];
+const _MOVING_CAMP_INI = new Date(2026, 5,  1); // 01/06/2026
+const _MOVING_CAMP_FIM = new Date(2026, 5, 30); // 30/06/2026
+const _MOVING_MESES    = ['Jun/26'];
 
 function _movingFatCamp(nomeVendedor) {
   const vd = (typeof VENDAS_DATA !== 'undefined') ? VENDAS_DATA : null;
@@ -1785,7 +1785,7 @@ function buildMovingDetail(v) {
 
   return `
     <div class="campanha-detail-box" style="border-color:#10b98155;background:#0c1f18">
-      <div class="campanha-detail-title" style="color:#10b981">Campanha Moving &middot; 26/05–26/06/2026</div>
+      <div class="campanha-detail-title" style="color:#10b981">Campanha Moving &middot; 01/06–30/06/2026</div>
       <div class="campanha-detail-row">
         <span style="color:var(--muted);font-size:0.78rem">Fat. Moving · Meta ${fmtFat(metaInd)}</span>
         <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
