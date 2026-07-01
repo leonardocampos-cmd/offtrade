@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "01/07/2026 10:32",
+  "atualizado_em": "01/07/2026 10:57",
   "data_rota": "01.07",
   "vendedores": [
     {
@@ -194,6 +194,54 @@ const ENTREGAS_DATA = {
               "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
               "qt": 12,
               "val": 418.8
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [],
+      "nao_entregue": []
+    },
+    {
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "155003790",
+          "numnota": "",
+          "data": "01/07/2026",
+          "cliente": "THE DUCK BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 877.2,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "RED BULL CEREJA 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "RED BULL SF AMORA 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 172.56
             }
           ]
         }
