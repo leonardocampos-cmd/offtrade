@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "01/07/2026 10:33",
+  "atualizado_em": "01/07/2026 10:58",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -25184,7 +25184,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50793",
           "cliente": "IMX TECH COMERCIO ELETRONICO LTDA",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "CASTAS",
           "qt": 1,
           "valor": 549.0
         },
@@ -30501,15 +30501,6 @@ const VENDAS_SP_DATA = {
           "valor": 934.8
         },
         {
-          "data": "24/06/2026",
-          "codcli": "50878",
-          "cliente": "60.897.775 MARCIA MONIQUE SANTOS GOMES",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 1198.8
-        },
-        {
           "data": "20/06/2026",
           "codcli": "51084",
           "cliente": "60.777.221 ALUIZIO FERREIRA MARQUES",
@@ -31049,7 +31040,7 @@ const VENDAS_SP_DATA = {
           "codcli": "51301",
           "cliente": "TERRA MEL FRUTAS COMERCIO DE HORTIFRUTICOLA LTDA",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "CASTAS",
           "qt": 6,
           "valor": 2440.8
         },
@@ -31249,7 +31240,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50129",
           "cliente": "QUINTA DO MARQUES ANHANGUERA RESTAURANTE E LANCHES LTDA",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "CASTAS",
           "qt": 1,
           "valor": 406.8
         },
@@ -39234,7 +39225,7 @@ const VENDAS_SP_DATA = {
           "codcli": "50398",
           "cliente": "MIKAMI & ZENJI MERCEARIA LTDA",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "CASTAS",
           "qt": 1,
           "valor": 478.8
         },
@@ -39800,7 +39791,7 @@ const VENDAS_SP_DATA = {
           "codcli": "21908",
           "cliente": "MINI MERCADO HORTISABOR LTDA",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "CASTAS",
           "qt": 10,
           "valor": 5460.0
         },
@@ -39827,7 +39818,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23052",
           "cliente": "FLV COMERCIO DE HORTIFRUTO LTDA",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "CASTAS",
           "qt": 3,
           "valor": 1393.47
         },
@@ -40252,7 +40243,7 @@ const VENDAS_SP_DATA = {
           "codcli": "21908",
           "cliente": "MINI MERCADO HORTISABOR LTDA",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "CASTAS",
           "qt": 10,
           "valor": 4620.0
         },
@@ -40288,7 +40279,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23052",
           "cliente": "FLV COMERCIO DE HORTIFRUTO LTDA",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "CASTAS",
           "qt": 7,
           "valor": 3251.43
         },
@@ -42580,7 +42571,7 @@ const VENDAS_SP_DATA = {
           "codcli": "23052",
           "cliente": "FLV COMERCIO DE HORTIFRUTO LTDA",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "CASTAS",
           "qt": 1,
           "valor": 464.52
         },
@@ -46617,7 +46608,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49274",
           "cliente": "HORTUS COMERCIO DE ALIMENTOS S.A.",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "CASTAS",
           "qt": 114,
           "valor": 52668.0
         },
@@ -47602,7 +47593,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49274",
           "cliente": "HORTUS COMERCIO DE ALIMENTOS S.A.",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "CASTAS",
           "qt": 17,
           "valor": 9282.0
         },
@@ -47620,7 +47611,7 @@ const VENDAS_SP_DATA = {
           "codcli": "49274",
           "cliente": "HORTUS COMERCIO DE ALIMENTOS S.A.",
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "fantasia": "",
+          "fantasia": "CASTAS",
           "qt": 15,
           "valor": 8190.0
         },
@@ -66070,7 +66061,7 @@ const VENDAS_SP_DATA = {
           "codcli": "51169",
           "cliente": "ROGERIO DAS NEVES BOITUVA",
           "produto": "LICOR BANANINHA CARIOCA 750ML",
-          "fantasia": "",
+          "fantasia": "BANANINHA CARIOCA",
           "qt": 1,
           "valor": 61.86
         },
@@ -80128,7 +80119,7 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2438075.63,
+        "fat": 2436876.83,
         "pos": 157.0,
         "fat_pernod": 1246026.13,
         "fat_crs": 49852.32
