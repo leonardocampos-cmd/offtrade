@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clientes Inativos — Rigarr</title>
   <script src="clientes_inativos_data.js"></script>
-  <script src="gerentes_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -128,8 +127,8 @@
 <div id="lista"></div>
 
 <script>
-const D  = (typeof INATIVOS_DATA  !== 'undefined') ? INATIVOS_DATA  : null;
-const GD = (typeof GERENTES_DATA  !== 'undefined') ? GERENTES_DATA  : null;
+const D  = (typeof INATIVOS_DATA !== 'undefined') ? INATIVOS_DATA : null;
+const GD = D ? { estados: D.hierarquia || [] } : null;
 let _tab  = 'inativos';
 let _dias = 30;
 

@@ -136,9 +136,56 @@ for schema, dsn, nome_filter, estado, usr, pwd in SCHEMAS:
             })
             v[cat].append(_row(r, cols))
 
+# ── Hierarquia (estado → gerente → supervisor → vendedor) ────────────────────
+def _q_hier(s, nf):
+    return f"""
+    SELECT U.CODUSUR, U.NOME AS NOME_VENDEDOR, U.ESTADO AS ESTADO_VENDEDOR,
+           S.CODSUPERVISOR, S.NOME AS NOME_SUPERVISOR,
+           G.CODGERENTE, G.NOMEGERENTE
+    FROM {s}.PCUSUARI U
+    LEFT JOIN {s}.PCSUPERV  S ON U.CODSUPERVISOR = S.CODSUPERVISOR
+    LEFT JOIN {s}.PCGERENTE G ON S.CODGERENTE     = G.CODGERENTE
+    WHERE {nf} AND U.BLOQUEIO = 'N'
+    """
+
+_hier_emp = {}
+for schema, dsn, nome_filter, estado, usr, pwd in SCHEMAS:
+    eng = _eng(dsn, usr, pwd)
+    df  = _load(_q_hier(schema, nome_filter), eng, f"hier_{schema}")
+    if df.empty:
+        continue
+    for _, r in df.iterrows():
+        codusur = str(r.get("CODUSUR") or "").strip()
+        nome_v  = str(r.get("NOME_VENDEDOR") or "").strip()
+        est_v   = str(r.get("ESTADO_VENDEDOR") or estado or "").strip()
+        ger     = str(r.get("NOMEGERENTE")    or "").strip() or "Sem Gerente"
+        sup     = str(r.get("NOME_SUPERVISOR") or "").strip() or "Sem Supervisor"
+        if not nome_v:
+            continue
+        est_key = est_v or estado or "Sem Estado"
+        e_ = _hier_emp.setdefault(est_key, {"nome": est_key, "gerentes": {}})
+        g_ = e_["gerentes"].setdefault(ger, {"nome": ger, "supervisores": {}})
+        s_ = g_["supervisores"].setdefault(sup, {"nome": sup, "vendedores": {}})
+        s_["vendedores"][nome_v] = {"nome": nome_v, "rca": codusur}
+
+hierarquia = []
+for est_data in sorted(_hier_emp.values(), key=lambda x: x["nome"]):
+    gers_out = []
+    for g_data in sorted(est_data["gerentes"].values(), key=lambda x: x["nome"]):
+        sups_out = []
+        for s_data in sorted(g_data["supervisores"].values(), key=lambda x: x["nome"]):
+            vends_out = sorted(s_data["vendedores"].values(), key=lambda x: x["nome"])
+            sups_out.append({"nome": s_data["nome"], "vendedores": vends_out})
+        gers_out.append({"nome": g_data["nome"], "supervisores": sups_out})
+    hierarquia.append({"nome": est_data["nome"], "gerentes": gers_out})
+
+total_hier = sum(len(s["vendedores"]) for e in hierarquia for g in e["gerentes"] for s in g["supervisores"])
+print(f"Hierarquia: {len(hierarquia)} estados, {total_hier} vendedores")
+
 payload = {
     "atualizado_em": datetime.now().strftime("%d/%m/%Y %H:%M"),
     "por_vendedor":  por_vendedor,
+    "hierarquia":    hierarquia,
 }
 
 out_path = Path(__file__).parent / "clientes_inativos_data.js"
