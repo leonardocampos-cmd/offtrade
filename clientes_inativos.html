@@ -106,7 +106,10 @@
   <input type="text" id="fil-busca" placeholder="&#128269; Buscar cliente..." oninput="render()" style="min-width:220px">
 </div>
 
-<div class="resumo-grid" id="resumo"></div>
+<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
+  <div class="resumo-grid" id="resumo" style="margin-bottom:0;flex:1"></div>
+  <button class="btn" onclick="exportCSV()" style="white-space:nowrap">&#8615; Exportar CSV</button>
+</div>
 
 <div class="tabs" id="tabs">
   <button class="tab active" onclick="setTab('inativos',this)">&#128683; Inativos <span class="tab-count" id="cnt-inativos"></span></button>
@@ -371,6 +374,43 @@ function toggleVend(el) {
   const ic   = el.querySelector('.vend-ic');
   body.classList.toggle('open');
   ic.classList.toggle('open');
+}
+
+function exportCSV() {
+  const vends = _getVendedores();
+  const tab   = _tab;
+  const busca = document.getElementById('fil-busca').value.trim().toLowerCase();
+
+  const headers = {
+    inativos:   ['Vendedor','Estado','RCA','Cód Cliente','Cliente','Bairro','Cidade','Últ. Compra','Cadastro'],
+    sem_compra: ['Vendedor','Estado','RCA','Cód Cliente','Cliente','Bairro','Cidade','Últ. Compra','Dias'],
+    novos:      ['Vendedor','Estado','RCA','Cód Cliente','Cliente','Bairro','Cidade','Cadastro','Últ. Compra'],
+  };
+
+  const rows = [headers[tab]];
+  vends.forEach(([nome, v]) => {
+    let lista = [];
+    if (tab === 'inativos')   lista = _filtrarClientes(v.inativos);
+    if (tab === 'sem_compra') lista = _filtrarClientes(v.sem_compra.filter(c => c.dias >= _dias));
+    if (tab === 'novos')      lista = _filtrarClientes(v.novos);
+    lista.forEach(c => {
+      if (tab === 'inativos')
+        rows.push([nome, v.estado, v.rca, c.codcli, c.cliente, c.bairro, c.cidade, c.dtultcomp||'', c.dtcadastro||'']);
+      else if (tab === 'sem_compra')
+        rows.push([nome, v.estado, v.rca, c.codcli, c.cliente, c.bairro, c.cidade, c.dtultcomp||'', c.dias||'']);
+      else
+        rows.push([nome, v.estado, v.rca, c.codcli, c.cliente, c.bairro, c.cidade, c.dtcadastro||'', c.dtultcomp||'']);
+    });
+  });
+
+  const csv = rows.map(r => r.map(v => `"${String(v||'').replace(/"/g,'""')}"`).join(';')).join('\n');
+  const blob = new Blob(['﻿' + csv], {type: 'text/csv;charset=utf-8'});
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = `clientes_${tab}_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
 }
 </script>
 </body>
