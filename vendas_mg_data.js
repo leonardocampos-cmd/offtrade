@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "01/07/2026 15:52",
+  "atualizado_em": "01/07/2026 16:12",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -48,6 +48,11 @@ const VENDAS_MG_DATA = {
         "fat": 344972.89,
         "pos": 126,
         "fat_ant": 312476.97
+      },
+      "Jul/26": {
+        "fat": 791.6,
+        "pos": 2,
+        "fat_ant": 344972.89
       }
     },
     "MATHEUS DE SOUZA": {
@@ -216,8 +221,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 478.8,
-        "pos": 1,
+        "fat": 1242.1,
+        "pos": 2,
         "fat_ant": 85308.22
       }
     },
@@ -43572,6 +43577,53 @@ const VENDAS_MG_DATA = {
           "qt": 1,
           "valor": 71.88
         }
+      ],
+      "Jul/26": [
+        {
+          "data": "01/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "XAROPE MONIN TORANJA 700 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "PURE MONIN MANGA MARACUJÁ  330ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 26.9
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "XAROPE MONIN GRENADINE 700 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "TEQUILA EL JIMADOR BLANCO 750 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 314.7
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "30114",
+          "cliente": "EMPREENDIMENTOS VIP LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "",
+          "qt": 7,
+          "valor": 300.3
+        }
       ]
     },
     "MATHEUS DE SOUZA": {
@@ -80810,6 +80862,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 478.8
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "30203",
+          "cliente": "USINA DE ENTRETENIMENTOS LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 17,
+          "valor": 763.3
         }
       ]
     },
