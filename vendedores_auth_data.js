@@ -1,4 +1,4 @@
-// Gerado em 01/07/2026 15:54
+// Gerado em 01/07/2026 16:13
 const VENDEDORES_AUTH = {
   "156": {
     "nome": "MARILENA TRAGEL - OFF TRADE",
