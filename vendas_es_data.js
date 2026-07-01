@@ -1,8 +1,9 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "01/07/2026 16:41",
+  "atualizado_em": "01/07/2026 17:00",
   "meses": [
+    "Jul/26",
     "Jun/26",
     "Mai/26",
     "Abr/26",
@@ -271,6 +272,11 @@ const VENDAS_ES_DATA = {
         "fat": 284639.24,
         "pos": 45,
         "fat_ant": 118062.39
+      },
+      "Jul/26": {
+        "fat": 2863.56,
+        "pos": 3,
+        "fat_ant": 116883.65
       }
     },
     "MARA DEPOLLI": {
@@ -76858,6 +76864,44 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 5,
           "valor": 659.5
+        }
+      ],
+      "Jul/26": [
+        {
+          "data": "01/07/2026",
+          "codcli": "85617",
+          "cliente": "MULTIMERCADO COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 366.24
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "86391",
+          "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 832.44
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "77449",
+          "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 832.44
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "85617",
+          "cliente": "MULTIMERCADO COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 832.44
         }
       ]
     },
