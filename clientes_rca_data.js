@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "01/07/2026 09:32",
-  "total": 4222,
+  "atualizado_em": "01/07/2026 10:33",
+  "total": 4225,
   "clientes": [
     {
       "codcli": "31683",
@@ -518,6 +518,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "439",
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51436",
+      "razao": "31.084.832 JOSE EDVALDO FERNANDES FREITAS",
+      "fantasia": "JOSE EDVALDO FERNANDES FREITAS",
+      "bairro": "JARDIM PRESIDENTE DUTRA",
+      "cidade": "GUARULHOS",
+      "cnpj": "31.084.832/0001-67",
+      "estado": "SP",
+      "ramo": "CAFETERIA",
+      "codusur1": "467",
+      "nome_usur1": "MARLENE RODRIGUES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -22096,6 +22110,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "23323",
+      "razao": "FLAVIO LUCIANO ALVES 27972619840",
+      "fantasia": "DEPOSITO DE BEBIDAS ALVES",
+      "bairro": "JARDIM MARCHESI",
+      "cidade": "RIBEIRAO PRETO",
+      "cnpj": "23.341.032/0001-56",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "41229",
       "razao": "FLAVIO RUBENS PRODUCOES LTDA",
       "fantasia": "FLAVIO RUBENS PRODUCOES",
@@ -22456,6 +22484,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFETERIA",
       "codusur1": "465",
       "nome_usur1": "CIARA PADULA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51435",
+      "razao": "FRANCISCO FERNANDES MAIA DE OLIVEIRA LTDA",
+      "fantasia": "CHAPEU BRASIL",
+      "bairro": "JARDIM DALL'ORTO",
+      "cidade": "SUMARE",
+      "cnpj": "03.803.927/0001-58",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
