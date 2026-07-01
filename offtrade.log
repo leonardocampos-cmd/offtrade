@@ -131720,3 +131720,22 @@ ModuleNotFoundError: No module named 'dotenv'
 [ERRO] Falha na execução:
 [01/07/2026 14:00:13,07] ERRO (codigo 1
 ---------------------------------------- 
+[01/07/2026 16:02:02,84] Iniciando... 
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 18, in main
+    import meta
+  File "g:\Meu Drive\offtrade\meta.py", line 9, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+
+==================================================
+  OFFTRADE - 01/07/2026 16:02
+==================================================
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+
+[ERRO] Falha na execução:
+[01/07/2026 16:02:25,25] ERRO (codigo 1
+---------------------------------------- 
