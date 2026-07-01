@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "01/07/2026 10:58",
+  "atualizado_em": "01/07/2026 14:38",
   "meses": [
     "Jun/26",
     "Mai/26",
@@ -27648,15 +27648,6 @@ const VENDAS_SP_DATA = {
           "valor": 19740.0
         },
         {
-          "data": "29/06/2026",
-          "codcli": "40362",
-          "cliente": "FIDALGO GOUVEIA E CIA LTDA",
-          "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-          "fantasia": "MOET HENNESY",
-          "qt": 30,
-          "valor": 1033.2
-        },
-        {
           "data": "15/06/2026",
           "codcli": "40458",
           "cliente": "EDILMAN PRAZERES BARROS MERCADINHO",
@@ -29464,15 +29455,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 480,
           "valor": 12912.0
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "49249",
-          "cliente": "MERCEARIA E ADEGA FIM DE SEMANA LTDA",
-          "produto": "RUM MONTILLA OURO 1L",
-          "fantasia": "PERNOD",
-          "qt": 660,
-          "valor": 12837.0
         },
         {
           "data": "30/06/2026",
@@ -38796,24 +38778,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 6,
           "valor": 437.4
-        },
-        {
-          "data": "04/06/2026",
-          "codcli": "32426",
-          "cliente": "PIRANA - AUTO SERVICO LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 167.4
-        },
-        {
-          "data": "04/06/2026",
-          "codcli": "32426",
-          "cliente": "PIRANA - AUTO SERVICO LTDA",
-          "produto": "CACHACA SALINAS CARVALHO 700ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 106.89
         },
         {
           "data": "02/06/2026",
@@ -79654,9 +79618,9 @@ const VENDAS_SP_DATA = {
     },
     "BRUNO BARBOSA": {
       "Jun/26": {
-        "fat": 59550.47,
+        "fat": 59276.18,
         "pos": 14.0,
-        "fat_pernod": 33569.54,
+        "fat_pernod": 33402.14,
         "fat_crs": 53.94
       },
       "Mai/26": {
@@ -80119,9 +80083,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jun/26": {
-        "fat": 2436876.83,
+        "fat": 2423006.63,
         "pos": 157.0,
-        "fat_pernod": 1246026.13,
+        "fat_pernod": 1233189.13,
         "fat_crs": 49852.32
       },
       "Mai/26": {
