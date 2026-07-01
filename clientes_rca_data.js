@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "01/07/2026 10:58",
-  "total": 4225,
+  "atualizado_em": "01/07/2026 14:38",
+  "total": 4230,
   "clientes": [
     {
       "codcli": "31683",
@@ -42,6 +42,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ADEGA",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51437",
+      "razao": "14.772.445 ADEMIR DE AGUIAR NETTO",
+      "fantasia": "14.772.445 ADEMIR DE AGUIAR NETTO",
+      "bairro": "JARDIM SANTA LUCIA",
+      "cidade": "BARIRI",
+      "cnpj": "14.772.445/0001-02",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "491",
+      "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -7546,6 +7560,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "153",
       "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "82906",
+      "razao": "ATLM MARECHAL COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+      "fantasia": "ATLM MARECHAL",
+      "bairro": "MARECHAL HERMES",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "32.452.507/0001-72",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -29460,6 +29488,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
     {
+      "codcli": "79083",
+      "razao": "LCR DISTRIBUIDORA DE BEBIDAS LTDA",
+      "fantasia": "L S BEBIDAS LTDA",
+      "bairro": "FRADE (CUNHAMBEBE)",
+      "cidade": "ANGRA DOS REIS",
+      "cnpj": "55.909.559/0001-20",
+      "estado": "RJ",
+      "ramo": "ADEGA",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "76807",
       "razao": "LCS DROGARIA LTDA",
       "fantasia": "LCS DROGARIA",
@@ -30746,6 +30788,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "50767",
+      "razao": "LUCIENE MEDEIROS LTDA",
+      "fantasia": "BAR VEM QUE TEM",
+      "bairro": "CENTRO",
+      "cidade": "BOTUCATU",
+      "cnpj": "58.568.031/0001-23",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "86471",
@@ -32414,14 +32470,14 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "51138",
+      "codcli": "51444",
       "razao": "MARIA DENIR FONSECA DA SILVA",
       "fantasia": "MARIA DENIR FONSECA DA SILVA",
-      "bairro": "RESIDENCIAL SEBASTIANI",
+      "bairro": "CIDADE JARDIM",
       "cidade": "CERQUILHO",
-      "cnpj": "18.948.116/0002-01",
+      "cnpj": "18.948.116/0001-12",
       "estado": "SP",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "ramo": "ADEGA",
       "codusur1": "489",
       "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
       "codusur2": "",
@@ -38124,6 +38180,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "92206",
+      "razao": "MERCEARIA SUPER REDE DE VILA NOVA LTDA",
+      "fantasia": "SUPER REDE",
+      "bairro": "CABRAL",
+      "cidade": "NILOPOLIS",
+      "cnpj": "12.295.958/0004-89",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "412",
+      "nome_usur1": "BARBARA CABRAL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "1071",
