@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Campanha MOVING - Junho 2026</title>
   <script src="metas_data.js"></script>
+  <script src="vendas_data.js"></script>
   <style>
     * { box-sizing:border-box; margin:0; padding:0; }
     :root {
@@ -159,7 +160,9 @@
   </footer>
 
   <script>
-    const MES = 'Jun/26';
+    const CAMP_INI = new Date(2026, 4, 26); // 26/05/2026
+    const CAMP_FIM = new Date(2026, 5, 26); // 26/06/2026
+    const CAMP_MESES = ['Mai/26', 'Jun/26'];
     const GATILHO = 120000;
     const PCT = 0.05;
     const METAS_IND = {
@@ -178,19 +181,39 @@
       '450':  6000,  // LEANDRO PEREIRA
       '471':  3000,  // ANA CLARA
       '158':  3000,  // JOSE MARCELO
-      '420':  0     // KELLY RAMOS
+      '420':  0      // KELLY RAMOS
     };
     const MEDALS = ['🥇','🥈','🥉'];
 
     document.getElementById('atualizado').textContent = METAS_DATA.atualizado_em;
 
-    function _pm(v) { return (v.por_mes && v.por_mes[MES]) || {}; }
+    function _parseDt(s) {
+      const [d, m, y] = s.split('/').map(Number);
+      return new Date(y, m - 1, d);
+    }
+
+    function fatMovingCamp(nomeVendedor) {
+      const vd = (typeof VENDAS_DATA !== 'undefined') ? VENDAS_DATA : null;
+      if (!vd) return 0;
+      let total = 0;
+      for (const mes of CAMP_MESES) {
+        const itens = (vd.por_vendedor[nomeVendedor] || {})[mes] || [];
+        for (const it of itens) {
+          if (it.tipo !== 'Venda') continue;
+          if (!(it.produto || '').toUpperCase().includes('MOVING')) continue;
+          const dt = _parseDt(it.data);
+          if (dt >= CAMP_INI && dt <= CAMP_FIM) total += it.valor || 0;
+        }
+      }
+      return total;
+    }
+
     const fmtFat = v => 'R$ ' + v.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
 
     const rows = METAS_DATA.vendedores
       .filter(v => METAS_IND[v.rca] !== undefined)
       .map(v => {
-        const fat     = (_pm(v).fat_moving || {}).realizado || 0;
+        const fat     = fatMovingCamp(v.nome);
         const metaInd = METAS_IND[v.rca];
         return { nome: v.nome, rca: v.rca, fat, metaInd };
       });
