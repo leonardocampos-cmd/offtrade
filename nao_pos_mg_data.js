@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "01/07/2026 10:33",
+  "atualizado_em": "01/07/2026 10:58",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3411,7 +3411,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38896",
+        "codcli": "35398",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -3449,8 +3449,8 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -3511,7 +3511,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35398",
+        "codcli": "38896",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -3549,8 +3549,8 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
+            "qt": 1,
+            "valor": 141.36
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -4247,26 +4247,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -4283,6 +4263,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -6038,6 +6038,20 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37255",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SION",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 6,
+            "valor": 419.4
+          }
+        ]
+      },
+      {
         "codcli": "33294",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "ROCHEDO",
@@ -6054,20 +6068,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 372.6
-          }
-        ]
-      },
-      {
-        "codcli": "37255",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SION",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 6,
-            "valor": 419.4
           }
         ]
       },
@@ -6186,56 +6186,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33076",
-        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
-        "bairro": "FERNÃO DIAS",
-        "dtultcomp": "12/05/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON BRUT ROSE 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1026.0
-          },
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
-            "fantasia": "BALLENA",
-            "qt": 18,
-            "valor": 1978.2
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 30,
-            "valor": 3297.0
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 12,
-            "valor": 718.8
-          },
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "",
-            "qt": 11,
-            "valor": 1318.9
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
-          }
-        ]
-      },
-      {
         "codcli": "33077",
         "cliente": "CEVAROLI SUPERMERCADOS LTDA",
         "bairro": "VILA CLORIS",
@@ -6294,6 +6244,56 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 6,
             "valor": 329.4
+          }
+        ]
+      },
+      {
+        "codcli": "33076",
+        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
+        "bairro": "FERNÃO DIAS",
+        "dtultcomp": "12/05/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON BRUT ROSE 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 1026.0
+          },
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+            "fantasia": "BALLENA",
+            "qt": 18,
+            "valor": 1978.2
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 30,
+            "valor": 3297.0
+          },
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 12,
+            "valor": 718.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "",
+            "qt": 11,
+            "valor": 1318.9
+          },
+          {
+            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
           }
         ]
       },
@@ -6448,6 +6448,38 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "33288",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SÃO SEBASTIAO",
+        "dtultcomp": "29/05/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 478.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 478.8
+          },
+          {
+            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 804.0
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 642.36
+          }
+        ]
+      },
+      {
         "codcli": "33290",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "ANGÉLICA",
@@ -6488,38 +6520,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 605.28
-          }
-        ]
-      },
-      {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "29/05/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 804.0
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 642.36
           }
         ]
       },
@@ -6917,6 +6917,20 @@ const NAO_POS_MG_DATA = {
     ],
     "LUIZ FERNANDO SALGADO": [
       {
+        "codcli": "39126",
+        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
+        "bairro": "ESTRELA DO ORIENTE",
+        "dtultcomp": "09/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 24,
+            "valor": 2208.0
+          }
+        ]
+      },
+      {
         "codcli": "39121",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
         "bairro": "SÃO BENEDITO",
@@ -6934,20 +6948,6 @@ const NAO_POS_MG_DATA = {
         "codcli": "39125",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
         "bairro": "RENASCENÇA",
-        "dtultcomp": "09/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 24,
-            "valor": 2208.0
-          }
-        ]
-      },
-      {
-        "codcli": "39126",
-        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "ESTRELA DO ORIENTE",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -7059,6 +7059,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "29385",
+        "cliente": "ARMAZEM E MERCEARIA PARANAIBA LTDA",
+        "bairro": "NOSSA SENHORA DE FÁTIMA",
+        "dtultcomp": "10/03/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+            "fantasia": "BALLENA",
+            "qt": 2,
+            "valor": 207.8
+          },
+          {
+            "produto": "LICOR BALLENA COCO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 2,
+            "valor": 207.8
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 2,
+            "valor": 207.8
+          }
+        ]
+      },
+      {
         "codcli": "37254",
         "cliente": "DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS PARANAIBA",
         "bairro": "BELA VISTA",
@@ -7069,6 +7095,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "NSG",
             "qt": 1440,
             "valor": 33840.0
+          }
+        ]
+      },
+      {
+        "codcli": "38189",
+        "cliente": "DISTRIBUIDORA NOVOS HORIZONTES LTDA.",
+        "bairro": "DISTRITO INDUSTRIAL JOÃO DE ALMEIDA",
+        "dtultcomp": "08/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 2,
+            "valor": 231.8
+          },
+          {
+            "produto": "RUM BACARDI CARTA BLANCA 980 ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 48.9
+          },
+          {
+            "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 57.9
           }
         ]
       },
@@ -7089,6 +7141,20 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 24,
             "valor": 525.6
+          }
+        ]
+      },
+      {
+        "codcli": "30614",
+        "cliente": "PARANAIBA SAO BENEDITO ALIMENTOS LTDA",
+        "bairro": "BOTAFOGO (JUSTINÓPOLIS)",
+        "dtultcomp": "23/04/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 503.28
           }
         ]
       },
@@ -7115,6 +7181,62 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 48,
             "valor": 1195.2
+          }
+        ]
+      },
+      {
+        "codcli": "38049",
+        "cliente": "VAREJAO ASTEKA LTDA",
+        "bairro": "ASTECA (SÃO BENEDITO)",
+        "dtultcomp": "29/04/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 335.52
+          }
+        ]
+      },
+      {
+        "codcli": "37423",
+        "cliente": "PARANAIBA RIBEIRO DE ABREU SUPERMERCADOS LTDA",
+        "bairro": "CAPITAO EDURARDO",
+        "dtultcomp": "07/05/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 335.4
+          }
+        ]
+      },
+      {
+        "codcli": "29892",
+        "cliente": "PARANAIBA TUPI SUPERMERCADOS LTDA",
+        "bairro": "TUPI B",
+        "dtultcomp": "07/05/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 335.4
+          }
+        ]
+      },
+      {
+        "codcli": "29878",
+        "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
+        "bairro": "RIO BRANCO",
+        "dtultcomp": "25/05/2026",
+        "produtos": [
+          {
+            "produto": "SMIRNOFF ICE TROPICAL 269ML LT CX 24",
+            "fantasia": "",
+            "qt": 5,
+            "valor": 502.8
           }
         ]
       },
@@ -7331,44 +7453,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 3,
             "valor": 164.7
-          }
-        ]
-      },
-      {
-        "codcli": "37423",
-        "cliente": "PARANAIBA RIBEIRO DE ABREU SUPERMERCADOS LTDA",
-        "bairro": "CAPITAO EDURARDO",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 167.7
-          },
-          {
-            "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 45.8
-          },
-          {
-            "produto": "XAROPE  MONIN TANGERINA 330 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 45.8
-          },
-          {
-            "produto": "XAROPE MONIN MARACUJA 330 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 45.8
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO 330 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 45.8
           }
         ]
       },
@@ -7711,20 +7795,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38189",
-        "cliente": "DISTRIBUIDORA NOVOS HORIZONTES LTDA.",
-        "bairro": "DISTRITO INDUSTRIAL JOÃO DE ALMEIDA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "SMIRNOFF ICE RASPBERRY -24 UNIDADES (LN)",
-            "fantasia": "",
-            "qt": 5,
-            "valor": 600.0
-          }
-        ]
-      },
-      {
         "codcli": "38188",
         "cliente": "SUPERMERCADO NOVO HORIZONTE CHACARAS BOM JESUS LTDA",
         "bairro": "JARDIM ALVORADA",
@@ -7922,94 +7992,6 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "XAROPE  MONIN TANGERINA 330 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 45.8
-          },
-          {
-            "produto": "XAROPE MONIN MARACUJA 330 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 45.8
-          }
-        ]
-      },
-      {
-        "codcli": "29878",
-        "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
-        "bairro": "RIO BRANCO",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 335.4
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 2,
-            "valor": 149.8
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 148.0
-          },
-          {
-            "produto": "VODKA ORLOFF 1,75L",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 115.5
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 419.4
-          },
-          {
-            "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 45.8
-          },
-          {
-            "produto": "XAROPE MONIN MARACUJA 330 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 45.8
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO 330 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 45.8
-          }
-        ]
-      },
-      {
-        "codcli": "29892",
-        "cliente": "PARANAIBA TUPI SUPERMERCADOS LTDA",
-        "bairro": "TUPI B",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 3,
-            "valor": 347.7
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 2,
-            "valor": 149.8
-          },
-          {
-            "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
             "fantasia": "",
             "qt": 2,
             "valor": 45.8
@@ -8311,32 +8293,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30614",
-        "cliente": "PARANAIBA SAO BENEDITO ALIMENTOS LTDA",
-        "bairro": "BOTAFOGO (JUSTINÓPOLIS)",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 75.0
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 3,
-            "valor": 224.7
-          },
-          {
-            "produto": "WHISKY PASSPORT  SELECTION 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 105.8
-          }
-        ]
-      },
-      {
         "codcli": "38373",
         "cliente": "MERCADO FOOD EMBALAGENS E LATICINIOS LTDA",
         "bairro": "SOBRADINHO",
@@ -8507,26 +8463,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "29385",
-        "cliente": "ARMAZEM E MERCEARIA PARANAIBA LTDA",
-        "bairro": "NOSSA SENHORA DE FÁTIMA",
-        "dtultcomp": "24/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 123.04
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 123.04
-          }
-        ]
-      },
-      {
         "codcli": "38527",
         "cliente": "ARTHUR FELIPE FERNANDES REIS",
         "bairro": "CARLOS PRATES",
@@ -8655,20 +8591,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MSLR",
             "qt": 6,
             "valor": 449.4
-          }
-        ]
-      },
-      {
-        "codcli": "38049",
-        "cliente": "VAREJAO ASTEKA LTDA",
-        "bairro": "ASTECA (SÃO BENEDITO)",
-        "dtultcomp": "25/06/2026",
-        "produtos": [
-          {
-            "produto": "SMIRNOFF ICE RASPBERRY -269ML LT CX 24",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 301.68
           }
         ]
       },
