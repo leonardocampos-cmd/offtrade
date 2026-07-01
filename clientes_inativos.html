@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clientes Inativos — Rigarr</title>
   <script src="clientes_inativos_data.js"></script>
+  <script src="gerentes_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -90,8 +91,14 @@
 </header>
 
 <div class="filtros">
-  <select id="fil-estado" onchange="render()">
+  <select id="fil-estado" onchange="_onEstado()">
     <option value="">Todos os estados</option>
+  </select>
+  <select id="fil-ger" onchange="_onGerente()">
+    <option value="">Todos os gerentes</option>
+  </select>
+  <select id="fil-sup" onchange="_onSupervisor()">
+    <option value="">Todos os supervisores</option>
   </select>
   <select id="fil-vend" onchange="render()">
     <option value="">Todos os vendedores</option>
@@ -118,7 +125,8 @@
 <div id="lista"></div>
 
 <script>
-const D = (typeof INATIVOS_DATA !== 'undefined') ? INATIVOS_DATA : null;
+const D  = (typeof INATIVOS_DATA  !== 'undefined') ? INATIVOS_DATA  : null;
+const GD = (typeof GERENTES_DATA  !== 'undefined') ? GERENTES_DATA  : null;
 let _tab  = 'inativos';
 let _dias = 30;
 
@@ -127,6 +135,80 @@ if (!D) {
 } else {
   document.getElementById('sub').textContent = `Atualizado: ${D.atualizado_em}`;
   _initFiltros();
+  render();
+}
+
+/* ── hierarquia: estado → gerente → supervisor → vendedor ── */
+function _hierVendedores(estado, gerente, supervisor) {
+  if (!GD || !GD.estados) return null;
+  const nomes = new Set();
+  for (const est of GD.estados) {
+    if (estado && est.nome !== estado) continue;
+    for (const g of est.gerentes) {
+      if (gerente && g.nome !== gerente) continue;
+      for (const s of g.supervisores) {
+        if (supervisor && s.nome !== supervisor) continue;
+        for (const v of s.vendedores) nomes.add(v.nome);
+      }
+    }
+  }
+  return nomes;
+}
+
+function _onEstado() {
+  const estado = document.getElementById('fil-estado').value;
+  const gerSel = document.getElementById('fil-ger');
+  gerSel.innerHTML = '<option value="">Todos os gerentes</option>';
+  if (GD && estado) {
+    const gers = new Set();
+    for (const est of GD.estados) {
+      if (est.nome !== estado) continue;
+      for (const g of est.gerentes) if (g.nome) gers.add(g.nome);
+    }
+    [...gers].sort().forEach(g => gerSel.insertAdjacentHTML('beforeend', `<option value="${g}">${g}</option>`));
+  }
+  _onGerente();
+}
+
+function _onGerente() {
+  const estado  = document.getElementById('fil-estado').value;
+  const gerente = document.getElementById('fil-ger').value;
+  const supSel  = document.getElementById('fil-sup');
+  supSel.innerHTML = '<option value="">Todos os supervisores</option>';
+  if (GD) {
+    const sups = new Set();
+    for (const est of GD.estados) {
+      if (estado && est.nome !== estado) continue;
+      for (const g of est.gerentes) {
+        if (gerente && g.nome !== gerente) continue;
+        for (const s of g.supervisores) if (s.nome) sups.add(s.nome);
+      }
+    }
+    [...sups].sort().forEach(s => supSel.insertAdjacentHTML('beforeend', `<option value="${s}">${s}</option>`));
+  }
+  _onSupervisor();
+}
+
+function _onSupervisor() {
+  const estado     = document.getElementById('fil-estado').value;
+  const gerente    = document.getElementById('fil-ger').value;
+  const supervisor = document.getElementById('fil-sup').value;
+  const vendSel    = document.getElementById('fil-vend');
+  vendSel.innerHTML = '<option value="">Todos os vendedores</option>';
+  const nomes = _hierVendedores(estado, gerente, supervisor);
+  if (nomes) {
+    // filtra também por INATIVOS_DATA para só mostrar quem tem dados
+    [...nomes].sort().forEach(n => {
+      if (D && D.por_vendedor[n]) {
+        vendSel.insertAdjacentHTML('beforeend', `<option value="${n}">${n}</option>`);
+      }
+    });
+  } else {
+    // sem hierarquia: popula com todos os vendedores dos dados
+    Object.keys(D.por_vendedor).sort().forEach(n =>
+      vendSel.insertAdjacentHTML('beforeend', `<option value="${n}">${n}</option>`)
+    );
+  }
   render();
 }
 
@@ -146,21 +228,35 @@ function setDias(d, btn) {
 }
 
 function _initFiltros() {
-  const estados = [...new Set(Object.values(D.por_vendedor).map(v => v.estado).filter(Boolean))].sort();
+  // Estados: preferir hierarquia GD, senão derivar dos dados
   const selE = document.getElementById('fil-estado');
-  estados.forEach(e => selE.insertAdjacentHTML('beforeend', `<option value="${e}">${e}</option>`));
-
+  if (GD && GD.estados && GD.estados.length) {
+    [...new Set(GD.estados.map(e => e.nome))].sort()
+      .forEach(e => selE.insertAdjacentHTML('beforeend', `<option value="${e}">${e}</option>`));
+  } else {
+    [...new Set(Object.values(D.por_vendedor).map(v => v.estado).filter(Boolean))].sort()
+      .forEach(e => selE.insertAdjacentHTML('beforeend', `<option value="${e}">${e}</option>`));
+  }
+  // Vendedores iniciais (sem filtro de hierarquia)
   const selV = document.getElementById('fil-vend');
-  Object.keys(D.por_vendedor).sort().forEach(n => {
-    selV.insertAdjacentHTML('beforeend', `<option value="${n}">${n}</option>`);
-  });
+  Object.keys(D.por_vendedor).sort()
+    .forEach(n => selV.insertAdjacentHTML('beforeend', `<option value="${n}">${n}</option>`));
 }
 
 function _getVendedores() {
-  const estado = document.getElementById('fil-estado').value;
-  const vend   = document.getElementById('fil-vend').value;
+  const estado     = document.getElementById('fil-estado').value;
+  const gerente    = document.getElementById('fil-ger').value;
+  const supervisor = document.getElementById('fil-sup').value;
+  const vend       = document.getElementById('fil-vend').value;
+
+  // Se há filtro de hierarquia, limita pelo conjunto de nomes da hierarquia
+  const hierNomes = (gerente || supervisor)
+    ? _hierVendedores(estado, gerente, supervisor)
+    : null;
+
   return Object.entries(D.por_vendedor).filter(([nome, v]) => {
     if (estado && v.estado !== estado) return false;
+    if (hierNomes && !hierNomes.has(nome)) return false;
     if (vend && nome !== vend) return false;
     return true;
   });
