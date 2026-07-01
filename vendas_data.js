@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "01/07/2026 16:22",
+  "atualizado_em": "01/07/2026 16:40",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -54435,6 +54435,16 @@ const VENDAS_DATA = {
           "fantasia": "RECKITT",
           "qt": 1,
           "valor": 64.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "84073",
+          "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 575.28,
           "tipo": "Venda"
         },
         {
@@ -134673,6 +134683,46 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 179.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "81167",
+          "cliente": "RESTAURANTE E CHOPERIA BRISA DO HORIZONTE LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 517.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "81167",
+          "cliente": "RESTAURANTE E CHOPERIA BRISA DO HORIZONTE LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 539.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "81167",
+          "cliente": "RESTAURANTE E CHOPERIA BRISA DO HORIZONTE LTDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 539.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "81167",
+          "cliente": "RESTAURANTE E CHOPERIA BRISA DO HORIZONTE LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 359.52,
           "tipo": "Venda"
         },
         {
@@ -227839,6 +227889,48 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 2,
           "valor": 335.38,
+          "tipo": "Venda"
+        }
+      ],
+      "Jul/26": [
+        {
+          "data": "01/07/2026",
+          "codcli": "91668",
+          "cliente": "SENDAS DISTRIBUIDORA S/A",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 264,
+          "valor": 25317.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "91668",
+          "cliente": "SENDAS DISTRIBUIDORA S/A",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 132,
+          "valor": 12658.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "91668",
+          "cliente": "SENDAS DISTRIBUIDORA S/A",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 132,
+          "valor": 12658.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "91668",
+          "cliente": "SENDAS DISTRIBUIDORA S/A",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 132,
+          "valor": 12658.8,
           "tipo": "Venda"
         }
       ]
