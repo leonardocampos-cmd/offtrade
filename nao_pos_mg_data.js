@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "01/07/2026 10:58",
+  "atualizado_em": "01/07/2026 14:38",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3411,6 +3411,56 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "38896",
+        "cliente": "LCA COMERCIO LTDA",
+        "bairro": "PAMPULHA",
+        "dtultcomp": "12/06/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL AMORA EDITION SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          }
+        ]
+      },
+      {
         "codcli": "35398",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
@@ -3507,56 +3557,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 282.72
-          }
-        ]
-      },
-      {
-        "codcli": "38896",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
           }
         ]
       },
@@ -3735,7 +3735,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35387",
+        "codcli": "35392",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -3761,7 +3761,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35392",
+        "codcli": "35387",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -4247,26 +4247,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -4283,6 +4263,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -6668,6 +6668,52 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "35170",
+        "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+        "bairro": "BOM PASTOR",
+        "dtultcomp": "15/06/2026",
+        "produtos": [
+          {
+            "produto": "ST PIERRE PINK LEMONADE LT 270MLX6",
+            "fantasia": "",
+            "qt": 7,
+            "valor": 165.9
+          },
+          {
+            "produto": "ST PIERRE RED MINT LT 270MLX6",
+            "fantasia": "",
+            "qt": 5,
+            "valor": 118.5
+          },
+          {
+            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 71.1
+          },
+          {
+            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+            "fantasia": "",
+            "qt": 10,
+            "valor": 237.0
+          }
+        ]
+      },
+      {
+        "codcli": "35169",
+        "cliente": "ADIÇÃO DISTRIBUIÇÃO EXPRESS S/A",
+        "bairro": "ZONA RURAL",
+        "dtultcomp": "19/06/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 42,
+            "valor": 4424.7
+          }
+        ]
+      },
+      {
         "codcli": "31062",
         "cliente": "SUPERMERCADOS REX LTDA",
         "bairro": "SANTA EFIGENIA",
@@ -6987,52 +7033,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 18,
             "valor": 628.2
-          }
-        ]
-      },
-      {
-        "codcli": "35170",
-        "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
-        "bairro": "BOM PASTOR",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "ST PIERRE PINK LEMONADE LT 270MLX6",
-            "fantasia": "",
-            "qt": 7,
-            "valor": 165.9
-          },
-          {
-            "produto": "ST PIERRE RED MINT LT 270MLX6",
-            "fantasia": "",
-            "qt": 5,
-            "valor": 118.5
-          },
-          {
-            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 71.1
-          },
-          {
-            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
-            "fantasia": "",
-            "qt": 10,
-            "valor": 237.0
-          }
-        ]
-      },
-      {
-        "codcli": "35169",
-        "cliente": "ADIÇÃO DISTRIBUIÇÃO EXPRESS S/A",
-        "bairro": "ZONA RURAL",
-        "dtultcomp": "19/06/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 42,
-            "valor": 4424.7
           }
         ]
       }
@@ -8961,26 +8961,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 922.8
-          }
-        ]
-      },
-      {
-        "codcli": "38332",
-        "cliente": "ELEGANCE DRINKS E COQUETEIS LTDA",
-        "bairro": "ARAGUAIA",
-        "dtultcomp": "15/04/2026",
-        "produtos": [
-          {
-            "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 765.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR GF 750ML",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 957.6
           }
         ]
       },
