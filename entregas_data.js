@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "01/07/2026 15:52",
+  "atualizado_em": "01/07/2026 16:11",
   "data_rota": "01.07",
   "vendedores": [
     {
@@ -339,6 +339,39 @@ const ENTREGAS_DATA = {
       "nao_entregue": []
     },
     {
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "159004957",
+          "numnota": "",
+          "data": "01/07/2026",
+          "cliente": "CHOPERIA FORTE BEER LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2995.2,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 10,
+              "val": 1797.6
+            },
+            {
+              "desc": "RED BULL SF NECTARINA 24X250ML",
+              "qt": 10,
+              "val": 1197.6
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [],
+      "nao_entregue": []
+    },
+    {
       "nome": "JORGE MACIEL - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
@@ -540,6 +573,64 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
+      "nao_entregue": []
+    },
+    {
+      "nome": "MARILENA TRAGEL - OFF TRADE",
+      "em_rota": [],
+      "nao_emitido": [
+        {
+          "numped": "156003658",
+          "numnota": "",
+          "data": "01/07/2026",
+          "cliente": "HORA DO RECREIO COMERCIO DE ALIMENTOS E LANCHES LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1222.04,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 8,
+              "val": 255.94
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 15,
+              "val": 298.5
+            },
+            {
+              "desc": "VODKA SMIRNOFF 600 ML",
+              "qt": 2,
+              "val": 45.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 10,
+              "val": 209.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 8,
+              "val": 231.2
+            },
+            {
+              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+              "qt": 1,
+              "val": 74.9
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 3,
+              "val": 107.5
+            }
+          ]
+        }
+      ],
+      "emitido_s_rota": [],
       "nao_entregue": []
     },
     {
