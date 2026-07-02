@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "02/07/2026 08:58",
+  "atualizado_em": "02/07/2026 17:28",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -169,8 +169,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 84254.44
       },
       "Jun/26": {
-        "fat": 55492.76,
-        "pos": 60,
+        "fat": 54145.65,
+        "pos": 59,
         "fat_ant": 75315.05
       },
       "Mai/26": {
@@ -274,8 +274,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 118062.39
       },
       "Jul/26": {
-        "fat": 2863.56,
-        "pos": 3,
+        "fat": 10247.04,
+        "pos": 7,
         "fat_ant": 116883.65
       }
     },
@@ -43178,15 +43178,6 @@ const VENDAS_ES_DATA = {
           "valor": 81.48
         },
         {
-          "data": "30/06/2026",
-          "codcli": "76472",
-          "cliente": "PADARIA E CONFEITARIA MS LTDA",
-          "produto": "4 PACK RED BULL SUGAR FREE",
-          "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 54.32
-        },
-        {
           "data": "01/06/2026",
           "codcli": "84443",
           "cliente": "46.569.092 VILMAR BERSOT DE MELO",
@@ -43320,15 +43311,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 81.48
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "76472",
-          "cliente": "PADARIA E CONFEITARIA MS LTDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 54.32
         },
         {
           "data": "11/06/2026",
@@ -44186,15 +44168,6 @@ const VENDAS_ES_DATA = {
           "valor": 27.16
         },
         {
-          "data": "30/06/2026",
-          "codcli": "76472",
-          "cliente": "PADARIA E CONFEITARIA MS LTDA",
-          "produto": "4 PACK RED BULL ZERO",
-          "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 54.32
-        },
-        {
           "data": "10/06/2026",
           "codcli": "71679",
           "cliente": "RESTAURANTE E CAFE METROPOLES LTDA",
@@ -44357,15 +44330,6 @@ const VENDAS_ES_DATA = {
           "valor": 54.32
         },
         {
-          "data": "30/06/2026",
-          "codcli": "76472",
-          "cliente": "PADARIA E CONFEITARIA MS LTDA",
-          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
-          "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 54.32
-        },
-        {
           "data": "11/06/2026",
           "codcli": "76368",
           "cliente": "PADARIA E CONFEITARIA AMENDOEIRAS LTDA",
@@ -44463,15 +44427,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "FABBRI",
           "qt": 1,
           "valor": 86.91
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "21132",
-          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
-          "produto": "XAROPE FABBRI MORANGO CA 1L",
-          "fantasia": "FABBRI",
-          "qt": 13,
-          "valor": 1129.83
         },
         {
           "data": "30/06/2026",
@@ -76884,6 +76839,105 @@ const VENDAS_ES_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 832.44
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 15,
+          "valor": 1953.0
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 10,
+          "valor": 1482.0
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 3,
+          "valor": 288.0
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "82540",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 12,
+          "valor": 535.68
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 20,
+          "valor": 892.8
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "82537",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 10,
+          "valor": 446.4
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 10,
+          "valor": 446.4
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 178.56
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 10,
+          "valor": 446.4
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "82537",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 10,
+          "valor": 446.4
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 6,
+          "valor": 267.84
         }
       ]
     },
