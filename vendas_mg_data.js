@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "02/07/2026 17:28",
+  "atualizado_em": "02/07/2026 20:13",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 14321.66,
-        "pos": 13,
+        "fat": 17794.26,
+        "pos": 17,
         "fat_ant": 343937.59
       }
     },
@@ -82,8 +82,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 670.8,
-        "pos": 2,
+        "fat": 2827.2,
+        "pos": 3,
         "fat_ant": 171775.98
       }
     },
@@ -231,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 2266.7,
-        "pos": 4,
+        "fat": 2788.96,
+        "pos": 5,
         "fat_ant": 85308.22
       }
     },
@@ -43677,6 +43677,42 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "02/07/2026",
+          "codcli": "38419",
+          "cliente": "LUKA CHOPP MUSIC LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 2,
+          "valor": 287.52
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "38419",
+          "cliente": "LUKA CHOPP MUSIC LTDA",
+          "produto": "RED BULL 24X250ML ENERG",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "38419",
+          "cliente": "LUKA CHOPP MUSIC LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "38419",
+          "cliente": "LUKA CHOPP MUSIC LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 75.9
+        },
+        {
+          "data": "02/07/2026",
           "codcli": "31402",
           "cliente": "RESTAURANTE E LANCHONETE UNIVERSITARIO II LTDA",
           "produto": "RED BULL 250ML CAIXA C/24 UNID",
@@ -43719,6 +43755,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 191.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "34663",
+          "cliente": "ZE DO CHURRASCO BAR E COMERCIO LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1LT",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 319.8
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "34663",
+          "cliente": "ZE DO CHURRASCO BAR E COMERCIO LTDA",
+          "produto": "CACHACA SELETA 1000ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 538.8
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "34663",
+          "cliente": "ZE DO CHURRASCO BAR E COMERCIO LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 383.52
         },
         {
           "data": "02/07/2026",
@@ -43800,6 +43863,78 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 191.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "31792",
+          "cliente": "CUAREIM ALIMENTOS LTDA",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "31792",
+          "cliente": "CUAREIM ALIMENTOS LTDA",
+          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 375ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 179.6
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 164.7
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VILLA ROSA COLHEITA TINTO 375ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 167.6
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 209.7
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 153.8
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO ARCAIA ROSE 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 153.8
         }
       ]
     },
@@ -51086,6 +51221,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 335.4
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "32067",
+          "cliente": "ORGANIZACOES MARINA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 15,
+          "valor": 2156.4
         }
       ]
     },
@@ -81169,6 +81313,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 54.9
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 179.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 319.6
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 22.9
         }
       ]
     },
@@ -84442,69 +84613,6 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "02/07/2026",
-          "codcli": "39182",
-          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "APERITIVO CAMPARI 998 ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 143.7
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "39182",
-          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "CACHACA SELETA PRATA 1000ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 113.7
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "39182",
-          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "CACHACA SELETA 600ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 69.8
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "39182",
-          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "CACHACA SELETA 1000ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 40.9
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "39182",
-          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "SMIRNOFF ICE RASPBERRY -269ML LT CX 24",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 95.76
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "39182",
-          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
-          "produto": "SMIRNOFF ICE TROPICAL 269ML LT CX 24",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 95.76
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "33304",
-          "cliente": "SG COMERCIO E VAREJO LTDA",
-          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-          "fantasia": "MSLR",
-          "qt": 18,
-          "valor": 1078.2
-        },
-        {
-          "data": "02/07/2026",
           "codcli": "39415",
           "cliente": "PADARIA E CONFEITARIA DOS COMERCIANTES LTDA",
           "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
@@ -84538,6 +84646,69 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 26.9
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33304",
+          "cliente": "SG COMERCIO E VAREJO LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 18,
+          "valor": 1078.2
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CACHACA SELETA 1000ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 40.9
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 143.7
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "SMIRNOFF ICE RASPBERRY -269ML LT CX 24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 95.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "SMIRNOFF ICE TROPICAL 269ML LT CX 24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 95.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CACHACA SELETA PRATA 1000ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 113.7
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CACHACA SELETA 600ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 69.8
         }
       ]
     }
