@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "02/07/2026 17:29",
-  "total": 4273,
+  "atualizado_em": "02/07/2026 20:14",
+  "total": 4284,
   "clientes": [
     {
       "codcli": "31683",
@@ -12366,6 +12366,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
+      "codcli": "48112",
+      "razao": "CAROLINE GOTTARDELLO SILVA DIAN LTDA",
+      "fantasia": "FOODWINE",
+      "bairro": "CAMBUÍ",
+      "cidade": "CAMPINAS",
+      "cnpj": "41.465.913/0001-60",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "47450",
       "razao": "CARPI LANCHONETE & ADEGA LTDA",
       "fantasia": "CARPI LANCHONETE & ADEGA",
@@ -20402,6 +20416,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "47462",
+      "razao": "EMPORIO PAVANELLI LTDA",
+      "fantasia": "EMPORIO PAVANELLI",
+      "bairro": "CENTRO",
+      "cidade": "PIRACICABA",
+      "cnpj": "62.226.220/0001-95",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "7234",
       "razao": "EMPORIO PRAIA RESTAURANTE EIRELI",
       "fantasia": "EMPORIO PRAIA RESTAURANTE EIRELI",
@@ -22540,6 +22568,34 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "378",
       "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51483",
+      "razao": "FOODWINE COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+      "fantasia": "FOODWINE COMERCIO DE BEBIDAS E ALIMENTOS",
+      "bairro": "JARDIM SANTA GENEBRA",
+      "cidade": "CAMPINAS",
+      "cnpj": "08.745.251/0003-79",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51485",
+      "razao": "FOODWINE PIRACICABA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+      "fantasia": "FOODWINE PIRACICABA COMERCIO DE BEBIDAS E ALIMENTOS",
+      "bairro": "ALAMAES",
+      "cidade": "PIRACICABA",
+      "cnpj": "13.752.298/0001-38",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -27862,6 +27918,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "21371",
+      "razao": "JOSE MAR RESTAURANTE LTDA",
+      "fantasia": "JOSE MAR RESTAURANTE",
+      "bairro": "PASSAGEM",
+      "cidade": "CABO FRIO",
+      "cnpj": "35.701.807/0001-36",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "95076",
@@ -36376,6 +36446,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "95587",
+      "razao": "MERCADO R A SEROPEDICA LTDA",
+      "fantasia": "SUPER COMPRAS SEROPEDICA",
+      "bairro": "BOA ESPERANÇA",
+      "cidade": "SEROPEDICA",
+      "cnpj": "60.794.273/0001-87",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "450",
+      "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "90484",
       "razao": "MERCADO RC DE ITAGUAI LTDA",
       "fantasia": "MERCADO RC DE ITAGUAI",
@@ -38385,11 +38469,39 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "12.044.117/0001-56",
       "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "450",
+      "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "18602",
+      "razao": "MERCEARIA R A MARAVILHA LTDA",
+      "fantasia": "LIDERANCA",
+      "bairro": "GUARATIBA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "12.044.117/0001-56",
+      "estado": "RJ",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
       "codusur2": "170",
       "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
+    },
+    {
+      "codcli": "18604",
+      "razao": "MERCEARIA R. A. MARAVILHA EIRELI",
+      "fantasia": "MERCADO RONDA ALTA",
+      "bairro": "GUARATIBA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "12.044.117/0002-37",
+      "estado": "RJ",
+      "ramo": "MERCEARIA",
+      "codusur1": "450",
+      "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "18604",
@@ -53190,6 +53302,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "76898",
+      "razao": "SUPERMERCADO CATIARA LTDA",
+      "fantasia": "SUPERMERCADO CATIARA",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "39.406.722/0001-86",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "450",
+      "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
+    },
+    {
       "codcli": "48278",
       "razao": "SUPERMERCADO CATROQUE LTDA",
       "fantasia": "SUPERMERCADO CATROQUE",
@@ -54756,6 +54882,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "18606",
+      "razao": "SUPERMERCADO SAO TARCISIO LTDA",
+      "fantasia": "SUPERMERCADO SAO TARCISIO LTDA",
+      "bairro": "SEPETIBA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "32.916.969/0001-01",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "450",
+      "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "18606",
@@ -58312,6 +58452,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "51486",
+      "razao": "VERENA GOTTARDELLO MARRAFON LTDA",
+      "fantasia": "VERENA GOTTARDELLO MARRAFON",
+      "bairro": "JARDIM VERGUEIRO",
+      "cidade": "SOROCABA",
+      "cnpj": "41.844.147/0001-45",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "2212",
