@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "02/07/2026 08:59",
+  "atualizado_em": "02/07/2026 17:28",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -45,14 +45,14 @@ const VENDAS_MG_DATA = {
         "fat_ant": 288642.52
       },
       "Jun/26": {
-        "fat": 344972.89,
+        "fat": 343937.59,
         "pos": 126,
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 2774.1,
-        "pos": 4,
-        "fat_ant": 344972.89
+        "fat": 14321.66,
+        "pos": 13,
+        "fat_ant": 343937.59
       }
     },
     "MATHEUS DE SOUZA": {
@@ -77,14 +77,14 @@ const VENDAS_MG_DATA = {
         "fat_ant": 58591.42
       },
       "Jun/26": {
-        "fat": 173932.38,
-        "pos": 54,
+        "fat": 171775.98,
+        "pos": 53,
         "fat_ant": 175829.04
       },
       "Jul/26": {
         "fat": 670.8,
         "pos": 2,
-        "fat_ant": 173932.38
+        "fat_ant": 171775.98
       }
     },
     "JANAIRA MARQUES": {
@@ -202,6 +202,11 @@ const VENDAS_MG_DATA = {
         "fat": 1049712.9,
         "pos": 12,
         "fat_ant": 896376.5
+      },
+      "Jul/26": {
+        "fat": 55232.88,
+        "pos": 2,
+        "fat_ant": 1049712.9
       }
     },
     "TIAGO ANDRADE": {
@@ -226,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 1242.1,
-        "pos": 2,
+        "fat": 2266.7,
+        "pos": 4,
         "fat_ant": 85308.22
       }
     },
@@ -253,8 +258,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 53560.12
       },
       "Jul/26": {
-        "fat": 502.62,
-        "pos": 2,
+        "fat": 2460.08,
+        "pos": 5,
         "fat_ant": 51108.92
       }
     }
@@ -43193,42 +43198,6 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "31386",
-          "cliente": "UPPER EMPREENDIMENTOS LTDA",
-          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
-          "fantasia": "",
-          "qt": 8,
-          "valor": 215.2
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "31386",
-          "cliente": "UPPER EMPREENDIMENTOS LTDA",
-          "produto": "EASY BOOZE SPRITZ LT 12X269ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 389.7
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "31386",
-          "cliente": "UPPER EMPREENDIMENTOS LTDA",
-          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
-          "fantasia": "",
-          "qt": 8,
-          "valor": 215.2
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "31386",
-          "cliente": "UPPER EMPREENDIMENTOS LTDA",
-          "produto": "ST PIERRE ZERO TROPICAL  310 ML",
-          "fantasia": "",
-          "qt": 8,
-          "valor": 215.2
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "32808",
           "cliente": "RESTAURANTE E PETISQUEIRA SCHONS LTDA",
           "produto": "RED BULL 250ML CAIXA C/24 UNID",
@@ -43705,6 +43674,132 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 3,
           "valor": 230.7
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "31402",
+          "cliente": "RESTAURANTE E LANCHONETE UNIVERSITARIO II LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 1130.88
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "31402",
+          "cliente": "RESTAURANTE E LANCHONETE UNIVERSITARIO II LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 1130.88
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "31673",
+          "cliente": "ESQUINA DO CHOPP JARA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 20,
+          "valor": 2835.2
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "31673",
+          "cliente": "ESQUINA DO CHOPP JARA LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33224",
+          "cliente": "CULINARIA JAPAN GDA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 5,
+          "valor": 718.8
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33925",
+          "cliente": "CULINARIA JAPAN GDA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 5,
+          "valor": 718.8
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "30347",
+          "cliente": "DUARTE DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 779.4
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "31838",
+          "cliente": "SCP ADMINISTRADORA HOTEL PAMPULHA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 15,
+          "valor": 2156.4
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33926",
+          "cliente": "CULINARIA JAPAN GDA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 5,
+          "valor": 718.8
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO ORO PREMIUM CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 399.6
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 191.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "RED BULL 24X250ML ENERG",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
         }
       ]
     },
@@ -50296,15 +50391,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "HEINEKEN BRASIL",
           "qt": 4,
           "valor": 282.72
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "32067",
-          "cliente": "ORGANIZACOES MARINA LTDA",
-          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-          "fantasia": "HEINEKEN BRASIL",
-          "qt": 15,
-          "valor": 2156.4
         },
         {
           "data": "19/06/2026",
@@ -71413,6 +71499,44 @@ const VENDAS_MG_DATA = {
           "qt": 240,
           "valor": 5016.0
         }
+      ],
+      "Jul/26": [
+        {
+          "data": "02/07/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 12,
+          "valor": 8630.28
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "VODKA ORLOFF 1,75L",
+          "fantasia": "",
+          "qt": 546,
+          "valor": 21785.4
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 13440.0
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "WHISKY PASSPORT  SELECTION 1L",
+          "fantasia": "",
+          "qt": 228,
+          "valor": 11377.2
+        }
       ]
     },
     "TIAGO ANDRADE": {
@@ -80973,6 +81097,78 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 17,
           "valor": 763.3
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "34476",
+          "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+          "produto": "RED BULL ZERO 24X250ML ENERG",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "34476",
+          "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+          "produto": "RED BULL 24X250ML ENERG",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "34476",
+          "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+          "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 383.52
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 29.96
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 79.9
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 42.9
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 54.9
         }
       ]
     },
@@ -84243,6 +84439,105 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 129.36
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 143.7
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CACHACA SELETA PRATA 1000ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 113.7
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CACHACA SELETA 600ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 69.8
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CACHACA SELETA 1000ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 40.9
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "SMIRNOFF ICE RASPBERRY -269ML LT CX 24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 95.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "SMIRNOFF ICE TROPICAL 269ML LT CX 24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 95.76
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "33304",
+          "cliente": "SG COMERCIO E VAREJO LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 18,
+          "valor": 1078.2
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39415",
+          "cliente": "PADARIA E CONFEITARIA DOS COMERCIANTES LTDA",
+          "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 3,
+          "valor": 212.04
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39415",
+          "cliente": "PADARIA E CONFEITARIA DOS COMERCIANTES LTDA",
+          "produto": "ST PIERRE RED MINT LT 270MLX6",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 53.8
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39415",
+          "cliente": "PADARIA E CONFEITARIA DOS COMERCIANTES LTDA",
+          "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 26.9
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "39415",
+          "cliente": "PADARIA E CONFEITARIA DOS COMERCIANTES LTDA",
+          "produto": "ST PIERRE PINK LEMONADE LT 270MLX6",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 26.9
         }
       ]
     }
