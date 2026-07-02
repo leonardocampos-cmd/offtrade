@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "02/07/2026 17:28",
+  "atualizado_em": "02/07/2026 20:14",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -3382,6 +3382,13 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "48112",
+        "cliente": "CAROLINE GOTTARDELLO SILVA DIAN LTDA",
+        "bairro": "CAMBUÍ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "50983",
         "cliente": "CH CREATIVE HUB SERVICES LTDA",
         "bairro": "CIDADE JARDIM",
@@ -3389,9 +3396,37 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "47462",
+        "cliente": "EMPORIO PAVANELLI LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "49464",
         "cliente": "EXAMINE SUPERMERCADOS LTDA",
         "bairro": "JARDIM PARQUE INDUSTRIAL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51483",
+        "cliente": "FOODWINE COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+        "bairro": "JARDIM SANTA GENEBRA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51484",
+        "cliente": "FOODWINE COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+        "bairro": "DAE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51485",
+        "cliente": "FOODWINE PIRACICABA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+        "bairro": "ALAMAES",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -3406,6 +3441,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "40700",
         "cliente": "SPON DISTRIBUIDORA DE BEBIDAS S.A",
         "bairro": "JARDIM AMÉRICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51486",
+        "cliente": "VERENA GOTTARDELLO MARRAFON LTDA",
+        "bairro": "JARDIM VERGUEIRO",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -10147,6 +10189,20 @@ const NAO_POS_SP_DATA = {
         "codcli": "51480",
         "cliente": "SUPERMERCADO TIO BEBA LTDA",
         "bairro": "13 93847-1138",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51482",
+        "cliente": "SUPERMERCADO TIO BEBA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51481",
+        "cliente": "SUPERMERCADO TIO BEBA LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
