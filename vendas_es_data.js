@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "01/07/2026 17:00",
+  "atualizado_em": "02/07/2026 08:58",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -137,8 +137,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 90000.17
       },
       "Jun/26": {
-        "fat": 42484.41,
-        "pos": 17,
+        "fat": 41723.93,
+        "pos": 16,
         "fat_ant": 123102.29
       },
       "Abr/26": {
@@ -30330,15 +30330,6 @@ const VENDAS_ES_DATA = {
           "valor": 325.92
         },
         {
-          "data": "29/06/2026",
-          "codcli": "94258",
-          "cliente": "ANNA LARA CONTI SANTOS",
-          "produto": "RED BULL SUGAR FREE 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 4,
-          "valor": 651.84
-        },
-        {
           "data": "24/06/2026",
           "codcli": "82137",
           "cliente": "MERCADO COLORADO LTDA",
@@ -30360,15 +30351,6 @@ const VENDAS_ES_DATA = {
           "data": "26/06/2026",
           "codcli": "93523",
           "cliente": "23.999.927 LUZIA GOMES DE ALMEIDA",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 4,
-          "valor": 108.64
-        },
-        {
-          "data": "29/06/2026",
-          "codcli": "94258",
-          "cliente": "ANNA LARA CONTI SANTOS",
           "produto": "4 PACK RED BULL",
           "fantasia": "RED BULL",
           "qt": 4,
