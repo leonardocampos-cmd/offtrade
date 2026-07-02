@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "02/07/2026 08:59",
+  "atualizado_em": "02/07/2026 17:29",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -301,6 +301,26 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "35727",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "ITAIPU (BARREIRO)",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
         "codcli": "35726",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MILIONÁRIOS (BARREIRO)",
@@ -321,9 +341,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35727",
+        "codcli": "35725",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "ITAIPU (BARREIRO)",
+        "bairro": "MINEIRÃO",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -360,26 +380,6 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
-        "codcli": "35725",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MINEIRÃO",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
             "fantasia": "",
             "qt": 1,
             "valor": 184.56
@@ -529,70 +529,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 123.8
-          }
-        ]
-      },
-      {
-        "codcli": "39415",
-        "cliente": "PADARIA E CONFEITARIA DOS COMERCIANTES LTDA",
-        "bairro": "CÂNDIDA FERREIRA",
-        "dtultcomp": "02/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 3,
-            "valor": 208.44
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "ST PIERRE PINK LEMONADE LT 270MLX6",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 26.9
-          },
-          {
-            "produto": "ST PIERRE RED MINT LT 270MLX6",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 26.9
-          }
-        ]
-      },
-      {
-        "codcli": "39182",
-        "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "NOVO BOA VISTA",
-        "dtultcomp": "03/06/2026",
-        "produtos": [
-          {
-            "produto": "CACHACA SELETA 600ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 209.4
-          },
-          {
-            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 129.36
-          },
-          {
-            "produto": "SMIRNOFF ICE TROPICAL 275ML LN CX 24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 129.36
           }
         ]
       },
@@ -767,20 +703,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 4,
             "valor": 479.6
-          }
-        ]
-      },
-      {
-        "codcli": "33304",
-        "cliente": "SG COMERCIO E VAREJO LTDA",
-        "bairro": "SÃO JOSÉ",
-        "dtultcomp": "10/06/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON RICHE DEMI-SEC 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1162.8
           }
         ]
       },
@@ -2801,20 +2723,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33010",
-        "cliente": "GOLDEN ALIMENTOS LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "08/06/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA COLHEITA TINTO  750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 449.4
-          }
-        ]
-      },
-      {
         "codcli": "35439",
         "cliente": "PEDRO  DOS  SANTOS",
         "bairro": "PAMPULHA",
@@ -2969,20 +2877,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33925",
-        "cliente": "CULINARIA JAPAN GDA LTDA",
-        "bairro": "SÃO PEDRO",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 539.4
-          }
-        ]
-      },
-      {
         "codcli": "32823",
         "cliente": "F A MENDONCA GASTRONOMIA LTDA",
         "bairro": "ANGOLA",
@@ -3023,20 +2917,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31838",
-        "cliente": "SCP ADMINISTRADORA HOTEL PAMPULHA",
-        "bairro": "SAO LUIZ",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 15,
-            "valor": 2156.4
-          }
-        ]
-      },
-      {
         "codcli": "36006",
         "cliente": "CAMP NOU ARENA LTDA",
         "bairro": "PALMEIRAS",
@@ -3047,44 +2927,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 383.52
-          }
-        ]
-      },
-      {
-        "codcli": "30347",
-        "cliente": "DUARTE DISTRIBUIDORA DE BEBIDAS LTDA",
-        "bairro": "ANGOLA",
-        "dtultcomp": "10/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 31.96
-          },
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 682.8
-          },
-          {
-            "produto": "GIN TANQUERAY  FLOR SEVILLA 700 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1258.8
-          },
-          {
-            "produto": "VODKA ABSOLUT TABASCO - 750 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 257.7
-          },
-          {
-            "produto": "VODKA ORLOFF 1L",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 274.8
           }
         ]
       },
@@ -3551,20 +3393,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33926",
-        "cliente": "CULINARIA JAPAN GDA LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 3,
-            "valor": 431.28
-          }
-        ]
-      },
-      {
         "codcli": "35399",
         "cliente": "EMAS EMPRESA JR DE MEIO AMBIENTE E SANEAMENTO/ UFMG",
         "bairro": "CAMPUS UFMG",
@@ -3675,7 +3503,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35392",
+        "codcli": "35387",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -3701,7 +3529,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35387",
+        "codcli": "35392",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -3815,26 +3643,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 282.72
-          }
-        ]
-      },
-      {
-        "codcli": "31402",
-        "cliente": "RESTAURANTE E LANCHONETE UNIVERSITARIO II LTDA",
-        "bairro": "CORAÇÃO EUCARÍSTICO",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 20,
-            "valor": 2827.2
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "",
-            "qt": 20,
-            "valor": 2827.2
           }
         ]
       },
@@ -5045,26 +4853,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31673",
-        "cliente": "ESQUINA DO CHOPP JARA LTDA",
-        "bairro": "INDAIA",
-        "dtultcomp": "25/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 191.76
-          }
-        ]
-      },
-      {
         "codcli": "39391",
         "cliente": "MAGNIFICO LGP LTDA",
         "bairro": "SANTA AMÉLIA",
@@ -5151,6 +4939,44 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "31386",
+        "cliente": "UPPER EMPREENDIMENTOS LTDA",
+        "bairro": "FLORESTA",
+        "dtultcomp": "25/06/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 5,
+            "valor": 284.5
+          },
+          {
+            "produto": "ST PIERRE BLUEBERRY LT 270MLX24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 107.6
+          },
+          {
+            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 107.6
+          },
+          {
+            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 107.6
+          },
+          {
+            "produto": "TEQUILA EL JIMADOR REPOSADO 750 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 199.8
+          }
+        ]
+      },
+      {
         "codcli": "39425",
         "cliente": "57.332.019 SANDRA ROSARIA CARDOSO",
         "bairro": "VENDA NOVA",
@@ -5205,20 +5031,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 174.96
-          }
-        ]
-      },
-      {
-        "codcli": "33224",
-        "cliente": "CULINARIA JAPAN GDA LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 4,
-            "valor": 567.04
           }
         ]
       },
@@ -5549,50 +5361,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30091",
-        "cliente": "COMERCIAL COLOMBO EIRELI",
-        "bairro": "SION",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD BRANCO 750ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 179.6
-          },
-          {
-            "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 230.7
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 230.7
-          },
-          {
-            "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 209.7
-          },
-          {
-            "produto": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 599.4
-          },
-          {
-            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 239.7
-          }
-        ]
-      },
-      {
         "codcli": "30374",
         "cliente": "EL MAI LTDA",
         "bairro": "LOURDES",
@@ -5803,38 +5571,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31386",
-        "cliente": "UPPER EMPREENDIMENTOS LTDA",
-        "bairro": "FLORESTA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "EASY BOOZE SPRITZ LT 12X269ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 389.7
-          },
-          {
-            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
-            "fantasia": "",
-            "qt": 8,
-            "valor": 215.2
-          },
-          {
-            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
-            "fantasia": "",
-            "qt": 8,
-            "valor": 215.2
-          },
-          {
-            "produto": "ST PIERRE ZERO TROPICAL  310 ML",
-            "fantasia": "",
-            "qt": 8,
-            "valor": 215.2
-          }
-        ]
-      },
-      {
         "codcli": "39419",
         "cliente": "DECARD - SERVICOS MEDICOS EM DERMATOLOGIA E CARDIOLOGIA LTDA",
         "bairro": "FUNCIONÁRIOS",
@@ -5854,6 +5590,62 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MSLR",
             "qt": 24,
             "valor": 1437.6
+          }
+        ]
+      },
+      {
+        "codcli": "39126",
+        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
+        "bairro": "ESTRELA DO ORIENTE",
+        "dtultcomp": "09/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 24,
+            "valor": 2208.0
+          }
+        ]
+      },
+      {
+        "codcli": "39125",
+        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
+        "bairro": "RENASCENÇA",
+        "dtultcomp": "09/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 24,
+            "valor": 2208.0
+          }
+        ]
+      },
+      {
+        "codcli": "39121",
+        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
+        "bairro": "SÃO BENEDITO",
+        "dtultcomp": "09/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 24,
+            "valor": 2208.0
+          }
+        ]
+      },
+      {
+        "codcli": "38632",
+        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
+        "bairro": "NOVO ALVORADA",
+        "dtultcomp": "09/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 24,
+            "valor": 2208.0
           }
         ]
       },
@@ -5924,20 +5716,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37255",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SION",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 6,
-            "valor": 419.4
-          }
-        ]
-      },
-      {
         "codcli": "33294",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "ROCHEDO",
@@ -5954,6 +5732,20 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 372.6
+          }
+        ]
+      },
+      {
+        "codcli": "37255",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SION",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 6,
+            "valor": 419.4
           }
         ]
       },
@@ -6632,20 +6424,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30232",
-        "cliente": "ORGANIZACAO VERDEMAR LTDA",
-        "bairro": "CARMO",
-        "dtultcomp": "25/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 18,
-            "valor": 12955.32
-          }
-        ]
-      },
-      {
         "codcli": "33293",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "CENTRO",
@@ -6800,32 +6578,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37710",
-        "cliente": "MULTICOM ATACADO E VAREJO S/A",
-        "bairro": "LIBERDABE",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 24,
-            "valor": 1917.6
-          },
-          {
-            "produto": "WHISKY JIM BEAM HONEY 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 24,
-            "valor": 1917.6
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 24,
-            "valor": 1917.6
-          }
-        ]
-      },
-      {
         "codcli": "30231",
         "cliente": "ORGANIZACAO VERDEMAR LTDA",
         "bairro": "JARDIM CANADA",
@@ -6848,48 +6600,6 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "LUIZ FERNANDO SALGADO": [
-      {
-        "codcli": "39126",
-        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "ESTRELA DO ORIENTE",
-        "dtultcomp": "09/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 24,
-            "valor": 2208.0
-          }
-        ]
-      },
-      {
-        "codcli": "39121",
-        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "SÃO BENEDITO",
-        "dtultcomp": "09/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 24,
-            "valor": 2208.0
-          }
-        ]
-      },
-      {
-        "codcli": "39125",
-        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "RENASCENÇA",
-        "dtultcomp": "09/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 24,
-            "valor": 2208.0
-          }
-        ]
-      },
       {
         "codcli": "37356",
         "cliente": "DMA DISTRIBUIDORA S/A",
@@ -6967,6 +6677,20 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BALLENA",
             "qt": 2,
             "valor": 207.8
+          }
+        ]
+      },
+      {
+        "codcli": "32067",
+        "cliente": "ORGANIZACOES MARINA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "24/03/2026",
+        "produtos": [
+          {
+            "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
+            "fantasia": "NSG",
+            "qt": 12,
+            "valor": 282.0
           }
         ]
       },
@@ -8161,20 +7885,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32067",
-        "cliente": "ORGANIZACOES MARINA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "19/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 15,
-            "valor": 2156.4
-          }
-        ]
-      },
-      {
         "codcli": "33186",
         "cliente": "PARANAIBA PEDRO LEOPOLDO ALIMENTOS LTDA",
         "bairro": "DISTRITO LAGOA SANTO ANTONIO",
@@ -8650,6 +8360,56 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "TIAGO ANDRADE": [
+      {
+        "codcli": "34961",
+        "cliente": "RBL EMPREENDIMENTOS  STUDIO BIKE VILA DA SERRA  BH LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "05/03/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL  MAÇA SF",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 73.92
+          },
+          {
+            "produto": "4 PACK RED BULL AMORA SUGAR FREE 250ML",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 74.52
+          },
+          {
+            "produto": "4 PACK RED BULL POMELO SF",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 73.92
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 74.52
+          },
+          {
+            "produto": "4 PACK RED BULL WINTER JUNEBERRY/CEREJA",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 74.52
+          },
+          {
+            "produto": "4 PACK RED BULL ZERO",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 74.52
+          },
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 149.04
+          }
+        ]
+      },
       {
         "codcli": "35981",
         "cliente": "RESTAURANTE GRAN SABOR LTDA",
@@ -10255,38 +10015,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34476",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SAGRADA FAMÍLIA",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SF POMELO 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
         "codcli": "39473",
         "cliente": "KTR BUFFET E PRODUCOES LTDA",
         "bairro": "SANTA AMÉLIA",
@@ -10655,32 +10383,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 179.76
-          }
-        ]
-      },
-      {
-        "codcli": "33637",
-        "cliente": "DIAMOND FOODS LTDA",
-        "bairro": "UNIAO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 79.9
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 1,
-            "valor": 64.9
-          },
-          {
-            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 159.8
           }
         ]
       },
@@ -11170,6 +10872,13 @@ const NAO_POS_MG_DATA = {
         "codcli": "39514",
         "cliente": "CADIVINO COMERCIO DE BEBIDAS LTDA",
         "bairro": "CIDADE NOVA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39567",
+        "cliente": "DISTRITO BURITIS ENTRETENIMENTOS LTDA",
+        "bairro": "BURITIS",
         "dtultcomp": "nan",
         "produtos": []
       },
