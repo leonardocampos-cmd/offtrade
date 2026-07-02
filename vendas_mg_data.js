@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "01/07/2026 17:00",
+  "atualizado_em": "02/07/2026 08:59",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 791.6,
-        "pos": 2,
+        "fat": 2774.1,
+        "pos": 4,
         "fat_ant": 344972.89
       }
     },
@@ -80,6 +80,11 @@ const VENDAS_MG_DATA = {
         "fat": 173932.38,
         "pos": 54,
         "fat_ant": 175829.04
+      },
+      "Jul/26": {
+        "fat": 670.8,
+        "pos": 2,
+        "fat_ant": 173932.38
       }
     },
     "JANAIRA MARQUES": {
@@ -246,6 +251,11 @@ const VENDAS_MG_DATA = {
         "fat": 51108.92,
         "pos": 28,
         "fat_ant": 53560.12
+      },
+      "Jul/26": {
+        "fat": 502.62,
+        "pos": 2,
+        "fat_ant": 51108.92
       }
     }
   },
@@ -43617,12 +43627,84 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "01/07/2026",
+          "codcli": "33024",
+          "cliente": "CASA OUTONO 571 MUSICA E CULTURA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 5,
+          "valor": 718.8
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VILLA ROSA COLHEITA TINTO 375ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 125.7
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VILLA ROSA ROSE 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 214.5
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 214.5
+        },
+        {
+          "data": "01/07/2026",
           "codcli": "30114",
           "cliente": "EMPREENDIMENTOS VIP LTDA",
           "produto": "VILLA ROSA TINTO 750ML",
           "fantasia": "",
           "qt": 7,
           "valor": 300.3
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 164.7
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO ARCAIA ROSE 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 153.8
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO ARESTI RESERVA CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 159.8
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 230.7
         }
       ]
     },
@@ -50898,6 +50980,26 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 18,
           "valor": 603.0
+        }
+      ],
+      "Jul/26": [
+        {
+          "data": "01/07/2026",
+          "codcli": "29893",
+          "cliente": "PARANAIBA SERRA VERDE SUPERMERCADO LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 335.4
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "37423",
+          "cliente": "PARANAIBA RIBEIRO DE ABREU SUPERMERCADOS LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 335.4
         }
       ]
     },
@@ -84094,6 +84196,53 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 281.4
+        }
+      ],
+      "Jul/26": [
+        {
+          "data": "01/07/2026",
+          "codcli": "34399",
+          "cliente": "BEATRIZ MARIA MOREIRA",
+          "produto": "SMIRNOFF ICE RASPBERRY -269ML LT CX 24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 91.57
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "34399",
+          "cliente": "BEATRIZ MARIA MOREIRA",
+          "produto": "SMIRNOFF ICE TROPICAL 269ML LT CX 24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 91.43
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "39240",
+          "cliente": "COMERCIAL NR LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 1,
+          "valor": 143.36
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "39240",
+          "cliente": "COMERCIAL NR LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 46.9
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "39240",
+          "cliente": "COMERCIAL NR LTDA",
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 129.36
         }
       ]
     }
