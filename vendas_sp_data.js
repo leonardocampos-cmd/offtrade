@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "02/07/2026 17:28",
+  "atualizado_em": "02/07/2026 20:13",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -31157,15 +31157,6 @@ const VENDAS_SP_DATA = {
           "valor": 178.8
         },
         {
-          "data": "30/06/2026",
-          "codcli": "51424",
-          "cliente": "CAMP MOTOS COMERCIO DE MOTOCICLETAS LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X250ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 178.8
-        },
-        {
           "data": "09/06/2026",
           "codcli": "50620",
           "cliente": "ALEMAO COMERCIO E DISTRIBUIDORA DE BEBIDAS E MERCEARIA LTDA",
@@ -41878,15 +41869,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 12,
           "valor": 1198.8
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "46809",
-          "cliente": "SUPERMERCADO DA FREGUESIA LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 551.52
         },
         {
           "data": "30/06/2026",
@@ -58548,15 +58530,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 2,
           "valor": 276.0
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "47200",
-          "cliente": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "CASTAS",
-          "qt": 4,
-          "valor": 1103.04
         },
         {
           "data": "30/06/2026",
@@ -81021,11 +80994,11 @@ const VENDAS_SP_DATA = {
         "pos": 2.0
       },
       "Jun/26": {
-        "fat": 141573.72,
+        "fat": 141022.2,
         "pos": 15.0,
         "fat_pernod": 86671.24,
         "fat_crs": 3176.28,
-        "fat_essenza": 4687.92
+        "fat_essenza": 4136.4
       },
       "Mai/26": {
         "fat": 248776.43,
@@ -81293,11 +81266,11 @@ const VENDAS_SP_DATA = {
         "fat_pernod": 262.8
       },
       "Jun/26": {
-        "fat": 29598.07,
+        "fat": 29419.27,
         "pos": 11.0,
         "fat_pernod": 15210.7,
         "fat_crs": 107.88,
-        "fat_essenza": 357.6
+        "fat_essenza": 178.8
       },
       "Mai/26": {
         "fat": 39288.21,
@@ -81574,11 +81547,11 @@ const VENDAS_SP_DATA = {
     },
     "CARLOS DE ALMEIDA": {
       "Jun/26": {
-        "fat": 210310.74,
+        "fat": 209207.7,
         "pos": 36.0,
         "fat_pernod": 66310.2,
         "fat_crs": 20602.32,
-        "fat_essenza": 3382.08
+        "fat_essenza": 2279.04
       },
       "Mai/26": {
         "fat": 428989.75,
