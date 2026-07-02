@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "01/07/2026 17:01",
-  "total": 4234,
+  "atualizado_em": "02/07/2026 08:59",
+  "total": 4235,
   "clientes": [
     {
       "codcli": "31683",
@@ -49994,6 +49994,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "468",
       "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51449",
+      "razao": "ROSSETO DE ASSIS LTDA",
+      "fantasia": "COMERCIO DE DOCES ROSSETO",
+      "bairro": "VILA NOVA SANTANA",
+      "cidade": "ASSIS",
+      "cnpj": "66.731.985/0001-33",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
