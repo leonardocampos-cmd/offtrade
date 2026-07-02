@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "02/07/2026 17:29",
+  "atualizado_em": "02/07/2026 20:15",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -6052,6 +6052,15 @@ const INATIVOS_DATA = {
       ],
       "sem_compra": [
         {
+          "codcli": "21371",
+          "cliente": "JOSE MAR RESTAURANTE LTDA",
+          "bairro": "PASSAGEM",
+          "cidade": "CABO FRIO",
+          "dtultcomp": "04/02/2026",
+          "dias": "148",
+          "media": 0.0
+        },
+        {
           "codcli": "80175",
           "cliente": "M MENDES DE SOUZA",
           "bairro": "CENTRO",
@@ -6088,15 +6097,6 @@ const INATIVOS_DATA = {
           "media": 105.8
         },
         {
-          "codcli": "78894",
-          "cliente": "AMADEU MARINS LTDA",
-          "bairro": "CENTRO",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "08/04/2026",
-          "dias": "85",
-          "media": 0.0
-        },
-        {
           "codcli": "91808",
           "cliente": "F.R. COSTA RESTAURANTES",
           "bairro": "LAGOA",
@@ -6104,6 +6104,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "08/04/2026",
           "dias": "85",
           "media": 100.34
+        },
+        {
+          "codcli": "78894",
+          "cliente": "AMADEU MARINS LTDA",
+          "bairro": "CENTRO",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "08/04/2026",
+          "dias": "85",
+          "media": 0.0
         },
         {
           "codcli": "90450",
@@ -6178,15 +6187,6 @@ const INATIVOS_DATA = {
           "media": 139.8
         },
         {
-          "codcli": "93329",
-          "cliente": "EMPORIO DO ALEMAO LTDA",
-          "bairro": "ITANHANGA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "07/05/2026",
-          "dias": "56",
-          "media": 1914.87
-        },
-        {
           "codcli": "91806",
           "cliente": "RECANTO DO PONTAL DO ATALAIA EMPREENDIMENTOS LTDA",
           "bairro": "ARRAIAL DO CABO - LOTEAMENTO",
@@ -6194,6 +6194,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "07/05/2026",
           "dias": "56",
           "media": 2474.2
+        },
+        {
+          "codcli": "93329",
+          "cliente": "EMPORIO DO ALEMAO LTDA",
+          "bairro": "ITANHANGA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "07/05/2026",
+          "dias": "56",
+          "media": 1914.87
         },
         {
           "codcli": "81867",
@@ -6214,6 +6223,15 @@ const INATIVOS_DATA = {
           "media": 151.6
         },
         {
+          "codcli": "90911",
+          "cliente": "ALUVE BRAND LTDA",
+          "bairro": "PARQUE TAMANDAR",
+          "cidade": "CAMPOS DOS GOYT",
+          "dtultcomp": "13/05/2026",
+          "dias": "50",
+          "media": 0.0
+        },
+        {
           "codcli": "84245",
           "cliente": "59.660.010 LUCIANA MEIRELES DE LIMA PIRES",
           "bairro": "PRAIA DO ANJOS",
@@ -6230,15 +6248,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "13/05/2026",
           "dias": "50",
           "media": 344.16
-        },
-        {
-          "codcli": "90911",
-          "cliente": "ALUVE BRAND LTDA",
-          "bairro": "PARQUE TAMANDAR",
-          "cidade": "CAMPOS DOS GOYT",
-          "dtultcomp": "13/05/2026",
-          "dias": "50",
-          "media": 0.0
         },
         {
           "codcli": "85348",
@@ -6268,15 +6277,6 @@ const INATIVOS_DATA = {
           "media": 179.8
         },
         {
-          "codcli": "72031",
-          "cliente": "MAÍRA BRIXNER",
-          "bairro": "MACEDÔNIA",
-          "cidade": "ARRAIAL DO CABO",
-          "dtultcomp": "21/05/2026",
-          "dias": "42",
-          "media": 436.13
-        },
-        {
           "codcli": "85795",
           "cliente": "VILAREJO MATERIAIS DE CONSTRUCAO LTDA",
           "bairro": "VILA VERDE",
@@ -6284,6 +6284,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "21/05/2026",
           "dias": "42",
           "media": 115.6
+        },
+        {
+          "codcli": "72031",
+          "cliente": "MAÍRA BRIXNER",
+          "bairro": "MACEDÔNIA",
+          "cidade": "ARRAIAL DO CABO",
+          "dtultcomp": "21/05/2026",
+          "dias": "42",
+          "media": 436.13
         },
         {
           "codcli": "80310",
@@ -6304,13 +6313,13 @@ const INATIVOS_DATA = {
           "media": 543.47
         },
         {
-          "codcli": "80803",
-          "cliente": "ADEGA MAIS LTDA",
-          "bairro": "NOVO HORIZONTE",
-          "cidade": "MACAE",
+          "codcli": "81261",
+          "cliente": "BAR E MERCEARIA TERESOPOLITANO LTDA.",
+          "bairro": "AGRIOES",
+          "cidade": "TERESOPOLIS",
           "dtultcomp": "27/05/2026",
           "dias": "36",
-          "media": 0.0
+          "media": 182.05
         },
         {
           "codcli": "67322",
@@ -6322,13 +6331,13 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "81261",
-          "cliente": "BAR E MERCEARIA TERESOPOLITANO LTDA.",
-          "bairro": "AGRIOES",
-          "cidade": "TERESOPOLIS",
+          "codcli": "80803",
+          "cliente": "ADEGA MAIS LTDA",
+          "bairro": "NOVO HORIZONTE",
+          "cidade": "MACAE",
           "dtultcomp": "27/05/2026",
           "dias": "36",
-          "media": 182.05
+          "media": 0.0
         },
         {
           "codcli": "93732",
@@ -6349,13 +6358,13 @@ const INATIVOS_DATA = {
           "media": 471.97
         },
         {
-          "codcli": "67668",
-          "cliente": "R R RESTAURANTE CARIOCA LTDA",
-          "bairro": "BARRA DA TIJUCA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "28/05/2026",
-          "dias": "35",
-          "media": 3354.77
+          "codcli": "94856",
+          "cliente": "SELMA REGINA DE ANDRADE 84740493772",
+          "bairro": "BRAGA",
+          "cidade": "CABO FRIO",
+          "dtultcomp": "30/05/2026",
+          "dias": "33",
+          "media": 153.53
         },
         {
           "codcli": "73858",
@@ -6367,15 +6376,6 @@ const INATIVOS_DATA = {
           "media": 514.8
         },
         {
-          "codcli": "94856",
-          "cliente": "SELMA REGINA DE ANDRADE 84740493772",
-          "bairro": "BRAGA",
-          "cidade": "CABO FRIO",
-          "dtultcomp": "30/05/2026",
-          "dias": "33",
-          "media": 153.53
-        },
-        {
           "codcli": "77976",
           "cliente": "GOTIVO E FAMILIA RESTAURANTE E POUSADA LTDA",
           "bairro": "JARDIM MIRAMAR",
@@ -6383,6 +6383,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "01/06/2026",
           "dias": "31",
           "media": 395.2
+        },
+        {
+          "codcli": "79314",
+          "cliente": "CAFE SEMENTES CABO FRIO LTDA",
+          "bairro": "JARDIM EXCELSIOR",
+          "cidade": "CABO FRIO",
+          "dtultcomp": "02/06/2026",
+          "dias": "30",
+          "media": 119.0
         },
         {
           "codcli": "94014",
@@ -6410,15 +6419,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "02/06/2026",
           "dias": "30",
           "media": 1359.77
-        },
-        {
-          "codcli": "79314",
-          "cliente": "CAFE SEMENTES CABO FRIO LTDA",
-          "bairro": "JARDIM EXCELSIOR",
-          "cidade": "CABO FRIO",
-          "dtultcomp": "02/06/2026",
-          "dias": "30",
-          "media": 119.0
         }
       ],
       "novos": [
@@ -12775,7 +12775,17 @@ const INATIVOS_DATA = {
           "media": 1518.35
         }
       ],
-      "novos": []
+      "novos": [
+        {
+          "codcli": "95587",
+          "cliente": "MERCADO R A SEROPEDICA LTDA",
+          "bairro": "BOA ESPERANÇA",
+          "cidade": "SEROPEDICA",
+          "dtcadastro": "02/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        }
+      ]
     },
     "LUCAS LIMA - OFF TRADE": {
       "rca": "265",
@@ -13910,15 +13920,6 @@ const INATIVOS_DATA = {
       "estado": "RJ",
       "inativos": [],
       "sem_compra": [
-        {
-          "codcli": "81395",
-          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
-          "bairro": "LARANJEIRAS",
-          "cidade": "PARATI",
-          "dtultcomp": "16/05/2026",
-          "dias": "47",
-          "media": 1902.64
-        },
         {
           "codcli": "69375",
           "cliente": "MERCADO TATAIS ITINGA LTDA",
@@ -15709,6 +15710,42 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "51486",
+          "cliente": "VERENA GOTTARDELLO MARRAFON LTDA",
+          "bairro": "JARDIM VERGUEIRO",
+          "cidade": "SOROCABA",
+          "dtcadastro": "02/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51485",
+          "cliente": "FOODWINE PIRACICABA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "bairro": "ALAMAES",
+          "cidade": "PIRACICABA",
+          "dtcadastro": "02/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51484",
+          "cliente": "FOODWINE COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "bairro": "DAE",
+          "cidade": "CAMPINAS",
+          "dtcadastro": "02/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51483",
+          "cliente": "FOODWINE COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "bairro": "JARDIM SANTA GENEBRA",
+          "cidade": "CAMPINAS",
+          "dtcadastro": "02/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "50815",
           "cliente": "KINTAL LANCHES LTDA",
@@ -18650,6 +18687,24 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [],
       "novos": [
+        {
+          "codcli": "51482",
+          "cliente": "SUPERMERCADO TIO BEBA LTDA",
+          "bairro": "CENTRO",
+          "cidade": "ITARIRI",
+          "dtcadastro": "02/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51481",
+          "cliente": "SUPERMERCADO TIO BEBA LTDA",
+          "bairro": "CENTRO",
+          "cidade": "PEDRO DE TOLEDO",
+          "dtcadastro": "02/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "51480",
           "cliente": "SUPERMERCADO TIO BEBA LTDA",
