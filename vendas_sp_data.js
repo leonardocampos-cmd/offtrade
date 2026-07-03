@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "03/07/2026 17:02",
+  "atualizado_em": "03/07/2026 18:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -51087,6 +51087,42 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 75,
           "valor": 2587.5
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51455",
+          "cliente": "A. C. DA SILVA COMERCIAL DE ALIMENTOS",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 5,
+          "valor": 134.5
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51455",
+          "cliente": "A. C. DA SILVA COMERCIAL DE ALIMENTOS",
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 137.4
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51455",
+          "cliente": "A. C. DA SILVA COMERCIAL DE ALIMENTOS",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51455",
+          "cliente": "A. C. DA SILVA COMERCIAL DE ALIMENTOS",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88
         }
       ]
     },
@@ -82233,9 +82269,10 @@ const VENDAS_SP_DATA = {
     },
     "CRISTIANE MORAIS": {
       "Jul/26": {
-        "fat": 9473.82,
-        "pos": 2.0,
-        "fat_pernod": 8215.5
+        "fat": 9961.48,
+        "pos": 3.0,
+        "fat_pernod": 8350.0,
+        "fat_crs": 215.76
       },
       "Jun/26": {
         "fat": 158477.09,
