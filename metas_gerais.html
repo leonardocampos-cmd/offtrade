@@ -226,8 +226,8 @@ function varHtml(cur, ant) {
 
 function estadoCard(e, isTotal) {
   const ant  = _mesSel === 'ant';
-  const fat  = ant ? e.fat_ant : e.fat;
-  const pct  = ant ? (e.meta > 0 ? e.fat_ant / e.meta * 100 : 0) : e.pct;
+  const fat  = ant ? e.fat_ant_completo : e.fat;
+  const pct  = ant ? (e.meta > 0 ? e.fat_ant_completo / e.meta * 100 : 0) : e.pct;
   const cls  = pctCls(pct);
   const fill = Math.min(pct, 100).toFixed(1);
   const nec  = (!ant && e.nec_dia > 0)
@@ -274,8 +274,8 @@ function render() {
   const r   = D.resumo || {};
   const ant = _mesSel === 'ant';
 
-  const fatKpi = ant ? (r.fat_ant || t.fat_ant) : (r.fat || t.fat);
-  const posKpi = ant ? (r.pos_ant || 0) : (r.pos || 0);
+  const fatKpi = ant ? (r.fat_ant_completo || t.fat_ant_completo) : (r.fat || t.fat);
+  const posKpi = ant ? (r.pos_ant_completo || 0) : (r.pos || 0);
 
   // Resumo geral no topo
   const resumoHtml = `
@@ -285,15 +285,20 @@ function render() {
     </div>`;
 
   const tTotal = ant
-    ? {label:'TOTAL GERAL', estado:'TOTAL', meta:t.meta, fat:t.fat_ant, fat_ant:t.fat, pct: t.meta>0?t.fat_ant/t.meta*100:0, nec_dia:0}
-    : {label:'TOTAL GERAL', estado:'TOTAL', meta:t.meta, fat:t.fat, fat_ant:t.fat_ant, pct:t.pct, nec_dia:t.nec_dia};
+    ? {label:'TOTAL GERAL', estado:'TOTAL', meta:t.meta, fat:t.fat_ant_completo, fat_ant:t.fat_ant, fat_ant_completo:t.fat_ant_completo, pct: t.meta>0?t.fat_ant_completo/t.meta*100:0, nec_dia:0}
+    : {label:'TOTAL GERAL', estado:'TOTAL', meta:t.meta, fat:t.fat, fat_ant:t.fat_ant, fat_ant_completo:t.fat_ant_completo, pct:t.pct, nec_dia:t.nec_dia};
 
-  // Cards de estado + total
+  // Cards de estado + total (só estados com faturamento ou positivação > 0)
+  const estadosComMovimento = D.estados.filter(e => {
+    const fat = ant ? e.fat_ant_completo : e.fat;
+    const pos = ant ? e.pos_ant_completo : e.pos;
+    return fat > 0 || pos > 0;
+  });
   const estadosHtml = `
     <div class="sec-title">Faturamento por Estado</div>
     <div class="estados-grid">
       ${estadoCard(tTotal, true)}
-      ${D.estados.map(e => estadoCard(e, false)).join('')}
+      ${estadosComMovimento.map(e => estadoCard(e, false)).join('')}
     </div>`;
 
   // Tabela de indústrias
@@ -346,7 +351,8 @@ function estadoPillsHtml(estados) {
 
 function buildGerentesSection() {
   if (typeof GERENTES_DATA === 'undefined' || !GERENTES_DATA.estados || !GERENTES_DATA.estados.length) return '';
-  const mes    = GERENTES_DATA.meses[0] || '';
+  const ant    = _mesSel === 'ant';
+  const mes    = (ant ? GERENTES_DATA.meses[1] : GERENTES_DATA.meses[0]) || '';
   const fatMes = pm => (pm[mes] || {}).fat || 0;
   const qtMes  = pm => (pm[mes] || {}).qt  || 0;
   const numFmt = v => Number(v).toLocaleString('pt-BR');

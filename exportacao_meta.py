@@ -99,11 +99,11 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
 _SPON_EXTRA = ['%W.S%']
 
 _VH_CONFIGS = [
-    ("CRC",     engine,         "vendas_hist_CRC",     "(1, 2, 4)", "RJ",  "CRC",       None),
-    ("thekings",engine_theking, "vendas_hist_thekings","(1, 2, 4)", "RJ",  "The Kings", None),
-    ("CASTAS",  engine_castas,  "vendas_hist_CASTAS",  None,        "RJ",  "Castas",    None),
-    ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None,        "RJ",  "Garrido",   None),
-    ("SPON",    engine_spon,    "vendas_hist_SPON",    None,        "RJ",  "SPON",      _SPON_EXTRA),
+    ("CRC",     engine,         "vendas_hist_CRC",     "(1, 2, 4)", None,  "CRC",       None),
+    ("thekings",engine_theking, "vendas_hist_thekings","(1, 2, 4)", None,  "The Kings", None),
+    ("CASTAS",  engine_castas,  "vendas_hist_CASTAS",  None,        None,  "Castas",    None),
+    ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None,        None,  "Garrido",   None),
+    ("SPON",    engine_spon,    "vendas_hist_SPON",    None,        None,  "SPON",      _SPON_EXTRA),
 ]
 _vh_parts = []
 for _s, _e, _n, _ff, _fe, _emp, _en in _VH_CONFIGS:

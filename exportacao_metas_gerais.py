@@ -178,12 +178,14 @@ def _carregar_totais(mes_offset: int = 0, limit_day: bool = False) -> dict:
 hoje = date.today()
 print("\n=== Carregando industrias (mes atual) ===")
 df_atual  = _carregar(0, False)
-print("\n=== Carregando industrias (mes anterior) ===")
+print("\n=== Carregando industrias (mes anterior, dias corridos p/ comparativo de ritmo) ===")
 df_ant    = _carregar(-1, True)
 print("\n=== Carregando totais reais (mes atual) ===")
 totais_atual = _carregar_totais(0, False)
-print("\n=== Carregando totais reais (mes anterior) ===")
+print("\n=== Carregando totais reais (mes anterior, dias corridos p/ comparativo de ritmo) ===")
 totais_ant   = _carregar_totais(-1, True)
+print("\n=== Carregando totais reais (mes anterior FECHADO, sem corte de dia) ===")
+totais_ant_completo = _carregar_totais(-1, False)
 
 
 # ── Agrega por estado ──────────────────────────────────────────────────────────
@@ -260,10 +262,12 @@ industrias_out = _industrias(df_atual, df_ant)
 
 # ── Total geral ────────────────────────────────────────────────────────────────
 
-fat_total     = sum(v.get("fat", 0) for v in totais_atual.values())
-fat_ant_total = sum(v.get("fat", 0) for v in totais_ant.values())
-pos_total     = sum(v.get("pos", 0) for v in totais_atual.values())
-pos_ant_total = sum(v.get("pos", 0) for v in totais_ant.values())
+fat_total              = sum(v.get("fat", 0) for v in totais_atual.values())
+fat_ant_total           = sum(v.get("fat", 0) for v in totais_ant.values())
+fat_ant_completo_total  = sum(v.get("fat", 0) for v in totais_ant_completo.values())
+pos_total              = sum(v.get("pos", 0) for v in totais_atual.values())
+pos_ant_total           = sum(v.get("pos", 0) for v in totais_ant.values())
+pos_ant_completo_total  = sum(v.get("pos", 0) for v in totais_ant_completo.values())
 meta_total    = sum(METAS_FAT_ESTADO.values())
 pct_total     = round(fat_total / meta_total * 100, 1) if meta_total else 0.0
 
@@ -275,13 +279,16 @@ mes_ant_str = f"{_MESES_PT[mes_ant_idx]}/{str(mes_ant_ano)[2:]}"
 
 # Atualiza fat nos estados_out com valores reais de totais_atual
 for e in estados_out:
-    est  = e["estado"]
-    real = totais_atual.get(est, {})
-    ant  = totais_ant.get(est, {})
-    e["fat"]     = real.get("fat", e["fat"])
-    e["fat_ant"] = ant.get("fat",  e["fat_ant"])
-    e["pos"]     = real.get("pos", e["pos"])
-    e["pos_ant"] = ant.get("pos",  0)
+    est           = e["estado"]
+    real          = totais_atual.get(est, {})
+    ant           = totais_ant.get(est, {})
+    ant_completo  = totais_ant_completo.get(est, {})
+    e["fat"]              = real.get("fat", e["fat"])
+    e["fat_ant"]           = ant.get("fat",  e["fat_ant"])
+    e["fat_ant_completo"]  = ant_completo.get("fat", 0)
+    e["pos"]               = real.get("pos", e["pos"])
+    e["pos_ant"]           = ant.get("pos",  0)
+    e["pos_ant_completo"]  = ant_completo.get("pos", 0)
     meta = e["meta"]
     e["pct"]     = round(e["fat"] / meta * 100, 1) if meta else 0.0
     e["nec_dia"] = round(max(meta - e["fat"], 0) / dias_restantes, 2)
@@ -294,17 +301,20 @@ payload = {
     "dias_no_mes":    dias_no_mes,
     "dias_restantes": dias_restantes,
     "resumo": {
-        "fat":     round(fat_total, 2),
-        "fat_ant": round(fat_ant_total, 2),
-        "pos":     pos_total,
-        "pos_ant": pos_ant_total,
+        "fat":              round(fat_total, 2),
+        "fat_ant":          round(fat_ant_total, 2),
+        "fat_ant_completo": round(fat_ant_completo_total, 2),
+        "pos":              pos_total,
+        "pos_ant":          pos_ant_total,
+        "pos_ant_completo": pos_ant_completo_total,
     },
     "total": {
-        "meta":    meta_total,
-        "fat":     round(fat_total, 2),
-        "fat_ant": round(fat_ant_total, 2),
-        "pct":     pct_total,
-        "nec_dia": round(max(meta_total - fat_total, 0) / dias_restantes, 2),
+        "meta":             meta_total,
+        "fat":              round(fat_total, 2),
+        "fat_ant":          round(fat_ant_total, 2),
+        "fat_ant_completo": round(fat_ant_completo_total, 2),
+        "pct":              pct_total,
+        "nec_dia":          round(max(meta_total - fat_total, 0) / dias_restantes, 2),
     },
     "estados":    estados_out,
     "industrias": industrias_out,
