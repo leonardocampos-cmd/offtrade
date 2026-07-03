@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/07/2026 14:02",
-  "total": 4305,
+  "atualizado_em": "03/07/2026 15:09",
+  "total": 4306,
   "clientes": [
     {
       "codcli": "31683",
@@ -16116,6 +16116,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51508",
+      "razao": "CRISTAL UNIVERSO COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "ADEGA CRISTAL",
+      "bairro": "JARDIM UNIVERSO",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "26.608.817/0001-30",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "84950",
@@ -41872,8 +41886,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "28.269.443/0001-00",
       "estado": "SP",
       "ramo": "SERVIÇOS",
-      "codusur1": "504",
-      "nome_usur1": "GILVAN AMORIM - OFF TRADE",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
