@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "03/07/2026 14:02",
+  "atualizado_em": "03/07/2026 15:07",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 17794.26,
+        "fat": 18273.66,
         "pos": 17,
         "fat_ant": 343937.59
       }
@@ -231,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 2788.96,
-        "pos": 5,
+        "fat": 4126.56,
+        "pos": 6,
         "fat_ant": 85308.22
       }
     },
@@ -43935,6 +43935,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 153.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 479.4
         }
       ]
     },
@@ -81340,6 +81349,60 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 22.9
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "33623",
+          "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 94.5
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "33623",
+          "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 439.2
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "33623",
+          "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO ARESTI EST SEL MERLOT 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 219.6
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "33623",
+          "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 159.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "33623",
+          "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CERRO DE PEDRA PARC CAB. FRANC TTO 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 254.7
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "33623",
+          "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CERRO DE PEDRA PARC. MERLOT TTO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 169.8
         }
       ]
     },
