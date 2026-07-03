@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "03/07/2026 16:03",
+  "atualizado_em": "03/07/2026 17:03",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3969,26 +3969,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -4009,22 +3989,22 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31868",
-        "cliente": "LMR BAR E COMERCIO LTDA",
-        "bairro": "BURITIS",
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
         "dtultcomp": "18/06/2026",
         "produtos": [
           {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
             "fantasia": "",
-            "qt": 1,
-            "valor": 174.96
+            "qt": 6,
+            "valor": 239.4
           },
           {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
             "fantasia": "",
-            "qt": 1,
-            "valor": 174.96
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -7009,26 +6989,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38177",
-        "cliente": "MERCEARIA NASCIMENTO NOVO HORIZONTE LTDA",
-        "bairro": "SANTA MARTA",
-        "dtultcomp": "10/06/2026",
-        "produtos": [
-          {
-            "produto": "RUM MALIBU 750 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 109.8
-          },
-          {
-            "produto": "WHISKY BALLANTINES 10 YO 1L",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 99.9
-          }
-        ]
-      },
-      {
         "codcli": "29335",
         "cliente": "PARANAIBA CENTRO SUPERMERCADO LTDA",
         "bairro": "JARDIM DO CAMPINHO",
@@ -7061,38 +7021,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35033",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE BOA ESPERANCA LTDA",
-        "bairro": "ESPERANCA (JUSTINOPOLIS)",
-        "dtultcomp": "10/06/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 1,
-            "valor": 115.9
-          },
-          {
-            "produto": "RUM MALIBU 750 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 54.9
-          },
-          {
-            "produto": "TEQUILA J CUERVO SILVER 750ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 129.9
-          },
-          {
-            "produto": "WHISKY BALLANTINES 10 YO 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 199.8
-          }
-        ]
-      },
-      {
         "codcli": "38185",
         "cliente": "SUPERMERCADO NOVO HORIZONTE CRISTINA LTDA",
         "bairro": "CONJUNTO CRISTINA (SÃO BENEDITO)",
@@ -7121,38 +7049,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 99.9
-          }
-        ]
-      },
-      {
-        "codcli": "35497",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE PLUS LTDA",
-        "bairro": "SANTA MARTINHA",
-        "dtultcomp": "10/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 99.8
-          },
-          {
-            "produto": "RUM BACARDI GOLD 980ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 49.9
-          },
-          {
-            "produto": "RUM BACARDI LIMON 980 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 48.9
-          },
-          {
-            "produto": "RUM MALIBU 750 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 54.9
           }
         ]
       },
