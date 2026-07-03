@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/07/2026 13:03",
-  "total": 4300,
+  "atualizado_em": "03/07/2026 14:02",
+  "total": 4305,
   "clientes": [
     {
       "codcli": "31683",
@@ -23384,6 +23384,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "41117",
+      "razao": "G2 COMERCIO ATACADISTA DE BEBIDAS E ALIMENTOS LTDA",
+      "fantasia": "G2 COMERCIO ATACADISTA DE BEBIDAS E ALIMENTOS",
+      "bairro": "JARDIM TRES MARIAS",
+      "cidade": "SAO PAULO",
+      "cnpj": "23.459.215/0002-51",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "95525",
       "razao": "G5 DROGARIAS LTDA",
       "fantasia": "G5 DROGARIAS",
@@ -24738,6 +24752,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ADEGA",
       "codusur1": "498",
       "nome_usur1": "CELSO OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51507",
+      "razao": "GUILHERME GOZZO LTDA",
+      "fantasia": "XULAS BAR",
+      "bairro": "CENTRO",
+      "cidade": "CAPIVARI",
+      "cnpj": "02.126.366/0001-37",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "504",
+      "nome_usur1": "GILVAN AMORIM - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -29456,6 +29484,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51504",
+      "razao": "L.C.T. MATOS LTDA",
+      "fantasia": "ADEGA DO LUCIANO",
+      "bairro": "VILA ELIAS",
+      "cidade": "JACUPIRANGA",
+      "cnpj": "45.777.255/0001-01",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -39606,6 +39648,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51505",
+      "razao": "MINIMERCADO COBAL LTDA",
+      "fantasia": "MINIMERCADO COBAL",
+      "bairro": "ALTO DA BOA VISTA",
+      "cidade": "CAMPOS DO JORDAO",
+      "cnpj": "63.930.703/0001-39",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -57304,6 +57360,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51506",
+      "razao": "TIRA GOSTO BEBIDAS LTDA",
+      "fantasia": "ADEGA TIRA GOSTO",
+      "bairro": "CENTRO",
+      "cidade": "JACAREI",
+      "cnpj": "63.609.624/0001-20",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "31572",
