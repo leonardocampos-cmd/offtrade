@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/07/2026 15:09",
-  "total": 4306,
+  "atualizado_em": "03/07/2026 16:03",
+  "total": 4308,
   "clientes": [
     {
       "codcli": "31683",
@@ -14802,6 +14802,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "32402",
+      "razao": "COMERCIAL MOURA DE JARINU LTDA",
+      "fantasia": "COMERCIAL MOURA",
+      "bairro": "CENTRO",
+      "cidade": "JARINU",
+      "cnpj": "46.651.543/0001-70",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91065",
       "razao": "COMERCIAL MULLER LTDA",
       "fantasia": "SABOR DA VILA",
@@ -22416,6 +22430,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "170",
       "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
+    },
+    {
+      "codcli": "32989",
+      "razao": "FIABCI/BRASIL-CAPITULO NACIONAL BRAS.DA FEDER.INTERN.DAS PR",
+      "fantasia": "FIABCI BRASIL",
+      "bairro": "R DOUTOR BACELAR",
+      "cidade": "SAO PAULO",
+      "cnpj": "49.910.953/0001-86",
+      "estado": "SP",
+      "ramo": "ESCRITÓRIO",
+      "codusur1": "426",
+      "nome_usur1": "ADER ALONSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "40362",
