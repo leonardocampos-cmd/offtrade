@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "03/07/2026 13:03",
+  "atualizado_em": "03/07/2026 14:03",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -15508,6 +15508,33 @@ const INATIVOS_DATA = {
       ],
       "novos": [
         {
+          "codcli": "51506",
+          "cliente": "TIRA GOSTO BEBIDAS LTDA",
+          "bairro": "CENTRO",
+          "cidade": "JACAREI",
+          "dtcadastro": "03/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51505",
+          "cliente": "MINIMERCADO COBAL LTDA",
+          "bairro": "ALTO DA BOA VISTA",
+          "cidade": "CAMPOS DO JORDAO",
+          "dtcadastro": "03/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51504",
+          "cliente": "L.C.T. MATOS LTDA",
+          "bairro": "VILA ELIAS",
+          "cidade": "JACUPIRANGA",
+          "dtcadastro": "03/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
           "codcli": "51464",
           "cliente": "PIT STOP CERVEJARIA LTDA",
           "bairro": "SAO JOAO",
@@ -18754,6 +18781,15 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [],
       "novos": [
+        {
+          "codcli": "51507",
+          "cliente": "GUILHERME GOZZO LTDA",
+          "bairro": "CENTRO",
+          "cidade": "CAPIVARI",
+          "dtcadastro": "03/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "51491",
           "cliente": "OBNNI DISTRIBUIDORA LTDA",
