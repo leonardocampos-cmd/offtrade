@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/07/2026 16:03",
-  "total": 4308,
+  "atualizado_em": "03/07/2026 17:03",
+  "total": 4312,
   "clientes": [
     {
       "codcli": "31683",
@@ -812,6 +812,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51510",
+      "razao": "37.468.732 EMERSON DA SILVA LIMA",
+      "fantasia": "ADEGA IMPERIO DESTILADOS",
+      "bairro": "CIDADE SATÉLITE ÍRIS",
+      "cidade": "CAMPINAS",
+      "cnpj": "37.468.732/0001-10",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -3038,6 +3052,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "LOJA",
       "codusur1": "419",
       "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50628",
+      "razao": "59.172.991 ADELAIDE DE OLIVEIRA SOARES MENDES",
+      "fantasia": "ADELAIDE DE OLIVEIRA SOARES MENDES",
+      "bairro": "VILA MARIA",
+      "cidade": "BOTUCATU",
+      "cnpj": "59.172.991/0001-32",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -19996,7 +20024,7 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "38189",
+      "codcli": "95592",
       "razao": "ELC - NOVA DOSE COMERCIO DE BEBIDAS LTDA",
       "fantasia": "NOVA DOSE",
       "bairro": "VILA SANTA CLARA",
@@ -36332,6 +36360,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "77927",
+      "razao": "MERCADO LAGUNA LTDA",
+      "fantasia": "MERCADO LAGUNA",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "55.700.867/0001-41",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "26638",
@@ -57052,6 +57094,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "49702",
+      "razao": "TCBASE COMERCIAL LTDA",
+      "fantasia": "TCBASE COMERCIAL LTDA",
+      "bairro": "CRUZ",
+      "cidade": "LORENA",
+      "cnpj": "08.633.096/0002-18",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "466",
+      "nome_usur1": "DANIELLE DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "29198",
