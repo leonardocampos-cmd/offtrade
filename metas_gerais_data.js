@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "03/07/2026 13:01",
+  "atualizado_em": "03/07/2026 14:01",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 3,
   "dias_no_mes": 31,
   "dias_restantes": 28,
   "resumo": {
-    "fat": 657873.02,
+    "fat": 657453.52,
     "fat_ant": 964798.32,
-    "fat_ant_completo": 13190403.18,
+    "fat_ant_completo": 13184384.08,
     "pos": 238,
     "pos_ant": 322,
-    "pos_ant_completo": 1812
+    "pos_ant_completo": 1810
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 657873.02,
+    "fat": 657453.52,
     "fat_ant": 964798.32,
-    "fat_ant_completo": 13190403.18,
+    "fat_ant_completo": 13184384.08,
     "pct": 4.6,
-    "nec_dia": 490790.25
+    "nec_dia": 490805.23
   },
   "estados": [
     {
@@ -39,14 +39,14 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 6600000.0,
-      "fat": 355718.29,
+      "fat": 355298.79,
       "fat_ant": 557727.54,
       "pos": 93,
       "pct": 5.4,
-      "nec_dia": 223010.06,
-      "fat_ant_completo": 7712225.29,
+      "nec_dia": 223025.04,
+      "fat_ant_completo": 7706206.19,
       "pos_ant": 109,
-      "pos_ant_completo": 645
+      "pos_ant_completo": 643
     },
     {
       "estado": "ES",
@@ -265,11 +265,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "AURORA",
-      "fat": 6699.16,
+      "fat": 6279.66,
       "fat_ant": 21674.7,
       "por_estado": {
         "RJ": 1168.4,
-        "SP": 5530.76,
+        "SP": 5111.26,
         "ES": 0.0,
         "MG": 0.0
       }
