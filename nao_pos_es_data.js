@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "03/07/2026 13:02",
+  "atualizado_em": "03/07/2026 14:02",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
