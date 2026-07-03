@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "03/07/2026 16:02",
+  "atualizado_em": "03/07/2026 17:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -279,8 +279,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 118062.39
       },
       "Jul/26": {
-        "fat": 10247.04,
-        "pos": 7,
+        "fat": 54270.19,
+        "pos": 8,
         "fat_ant": 116883.65
       }
     },
@@ -76873,6 +76873,51 @@ const VENDAS_ES_DATA = {
           "fantasia": "NAVEIA",
           "qt": 3,
           "valor": 288.0
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 80,
+          "valor": 18628.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 6985.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 60,
+          "valor": 11757.6
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 5878.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 772.15
         },
         {
           "data": "02/07/2026",
