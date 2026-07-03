@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "03/07/2026 10:30",
+  "atualizado_em": "03/07/2026 12:03",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -112,9 +112,9 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "13/05/2026",
-              "PRODUTO": "RUM MONTILLA CRISTAL 1000 ML",
+              "PRODUTO": "RUM MONTILLA OURO 1000ML",
               "FANTASIA": "PERNOD",
-              "VALOR": 9293.3
+              "VALOR": 11462.4
             },
             {
               "DATA": "13/05/2026",
@@ -124,9 +124,9 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "13/05/2026",
-              "PRODUTO": "RUM MONTILLA OURO 1000ML",
+              "PRODUTO": "RUM MONTILLA CRISTAL 1000 ML",
               "FANTASIA": "PERNOD",
-              "VALOR": 11462.4
+              "VALOR": 9293.3
             },
             {
               "DATA": "14/05/2026",
@@ -196,15 +196,15 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "26/05/2026",
-              "PRODUTO": "GIN BAM TANQUERAY RANGPUR  CX C/ 12X50ML",
-              "FANTASIA": "DIAGEO",
-              "VALOR": 561.0
-            },
-            {
-              "DATA": "26/05/2026",
               "PRODUTO": "VODKA BELVEDERE SUMMER 700 ML",
               "FANTASIA": "MOET HENNESY",
               "VALOR": 1656.0
+            },
+            {
+              "DATA": "26/05/2026",
+              "PRODUTO": "GIN BAM TANQUERAY RANGPUR  CX C/ 12X50ML",
+              "FANTASIA": "DIAGEO",
+              "VALOR": 561.0
             },
             {
               "DATA": "26/05/2026",
@@ -250,6 +250,54 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "07/05/2026",
+              "PRODUTO": "MACALLAN DOUBLE CASK 12Y 700ML",
+              "FANTASIA": "BEAM SUNTORY BRASIL",
+              "VALOR": 13917.6
+            },
+            {
+              "DATA": "07/05/2026",
+              "PRODUTO": "WHISKY DEWARS 15 YO 750ML",
+              "FANTASIA": "BACARDI",
+              "VALOR": 1822.8
+            },
+            {
+              "DATA": "07/05/2026",
+              "PRODUTO": "VODKA GREY GOOSE LA POIRE 750 ML",
+              "FANTASIA": "BACARDI",
+              "VALOR": 1210.8
+            },
+            {
+              "DATA": "07/05/2026",
+              "PRODUTO": "RUM HAVANA CLUB 3 YEARS OLD 700 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 2306.5
+            },
+            {
+              "DATA": "07/05/2026",
+              "PRODUTO": "GIN AMAZZONI  750ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 889.9
+            },
+            {
+              "DATA": "07/05/2026",
+              "PRODUTO": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
+              "FANTASIA": "BEAM SUNTORY BRASIL",
+              "VALOR": 3299.4
+            },
+            {
+              "DATA": "07/05/2026",
+              "PRODUTO": "MARTINI ROSATO 750 ML",
+              "FANTASIA": "BACARDI",
+              "VALOR": 2030.4
+            },
+            {
+              "DATA": "07/05/2026",
+              "PRODUTO": "MARTINI EXTRA DRY 750 ML",
+              "FANTASIA": "BACARDI",
+              "VALOR": 717.6
+            },
+            {
+              "DATA": "07/05/2026",
               "PRODUTO": "TEQUILA PATRON SILVER",
               "FANTASIA": "BACARDI",
               "VALOR": 1188.0
@@ -262,57 +310,9 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "07/05/2026",
-              "PRODUTO": "MARTINI EXTRA DRY 750 ML",
-              "FANTASIA": "BACARDI",
-              "VALOR": 717.6
-            },
-            {
-              "DATA": "07/05/2026",
-              "PRODUTO": "MARTINI ROSATO 750 ML",
-              "FANTASIA": "BACARDI",
-              "VALOR": 2030.4
-            },
-            {
-              "DATA": "07/05/2026",
               "PRODUTO": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
               "FANTASIA": "PERINI",
               "VALOR": 861.6
-            },
-            {
-              "DATA": "07/05/2026",
-              "PRODUTO": "WHISKY DEWARS 15 YO 750ML",
-              "FANTASIA": "BACARDI",
-              "VALOR": 1822.8
-            },
-            {
-              "DATA": "07/05/2026",
-              "PRODUTO": "GIN AMAZZONI  750ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 889.9
-            },
-            {
-              "DATA": "07/05/2026",
-              "PRODUTO": "RUM HAVANA CLUB 3 YEARS OLD 700 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 2306.5
-            },
-            {
-              "DATA": "07/05/2026",
-              "PRODUTO": "VODKA GREY GOOSE LA POIRE 750 ML",
-              "FANTASIA": "BACARDI",
-              "VALOR": 1210.8
-            },
-            {
-              "DATA": "07/05/2026",
-              "PRODUTO": "MACALLAN DOUBLE CASK 12Y 700ML",
-              "FANTASIA": "BEAM SUNTORY BRASIL",
-              "VALOR": 13917.6
-            },
-            {
-              "DATA": "07/05/2026",
-              "PRODUTO": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
-              "FANTASIA": "BEAM SUNTORY BRASIL",
-              "VALOR": 3299.4
             },
             {
               "DATA": "08/05/2026",
@@ -334,13 +334,25 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "13/05/2026",
-              "PRODUTO": "RED BULL MELANCIA 250ML CX C/24",
+              "PRODUTO": "RED BULL ZERO 24X250ML",
+              "FANTASIA": "RED BULL",
+              "VALOR": 8988.0
+            },
+            {
+              "DATA": "13/05/2026",
+              "PRODUTO": "RED BULL TROPICAL EDITION 250 ML CX C/24",
               "FANTASIA": "RED BULL",
               "VALOR": 51770.88
             },
             {
               "DATA": "13/05/2026",
-              "PRODUTO": "RED BULL SUGAR FREE  250 ML CX C/24",
+              "PRODUTO": "RED BULL AMORA SF 24X250ML",
+              "FANTASIA": "RED BULL",
+              "VALOR": 1797.6
+            },
+            {
+              "DATA": "13/05/2026",
+              "PRODUTO": "RED BULL MELANCIA 250ML CX C/24",
               "FANTASIA": "RED BULL",
               "VALOR": 51770.88
             },
@@ -352,33 +364,21 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "13/05/2026",
-              "PRODUTO": "RED BULL SF POMELO 24X250ML",
-              "FANTASIA": "RED BULL",
-              "VALOR": 8988.0
-            },
-            {
-              "DATA": "13/05/2026",
-              "PRODUTO": "RED BULL AMORA SF 24X250ML",
-              "FANTASIA": "RED BULL",
-              "VALOR": 1797.6
-            },
-            {
-              "DATA": "13/05/2026",
-              "PRODUTO": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+              "PRODUTO": "RED BULL SUGAR FREE  250 ML CX C/24",
               "FANTASIA": "RED BULL",
               "VALOR": 51770.88
-            },
-            {
-              "DATA": "13/05/2026",
-              "PRODUTO": "RED BULL ZERO 24X250ML",
-              "FANTASIA": "RED BULL",
-              "VALOR": 8988.0
             },
             {
               "DATA": "13/05/2026",
               "PRODUTO": "RED BULL 250ML CAIXA C/ 24",
               "FANTASIA": "RED BULL",
               "VALOR": 25885.44
+            },
+            {
+              "DATA": "13/05/2026",
+              "PRODUTO": "RED BULL SF POMELO 24X250ML",
+              "FANTASIA": "RED BULL",
+              "VALOR": 8988.0
             },
             {
               "DATA": "15/05/2026",
@@ -388,15 +388,15 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "15/05/2026",
-              "PRODUTO": "RUM HAVANA CLUB 3 YEARS OLD 700 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 11862.0
-            },
-            {
-              "DATA": "15/05/2026",
               "PRODUTO": "VODKA ABSOLUT RASPBERRY - 750ML",
               "FANTASIA": "PERNOD",
               "VALOR": 6348.0
+            },
+            {
+              "DATA": "15/05/2026",
+              "PRODUTO": "RUM HAVANA CLUB 3 YEARS OLD 700 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 11862.0
             },
             {
               "DATA": "18/05/2026",
@@ -430,63 +430,9 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "22/05/2026",
-              "PRODUTO": "WHISKY DEWARS 15 YO 750ML",
-              "FANTASIA": "BACARDI",
-              "VALOR": 900.0
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "RUM MONTILLA CRISTAL 1000 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3582.0
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "VERMUTE NOILLY PRAT FRENCH DRY 750ML",
-              "FANTASIA": "BACARDI",
-              "VALOR": 1976.4
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "VODKA ABSOLUT CITRON - 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 1269.6
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "VODCA SMIRNOFF RED 998 ML",
-              "FANTASIA": "DIAGEO",
-              "VALOR": 58320.0
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "VODKA ABSOLUT RASPBERRY - 750ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 6348.0
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "VODKA GREY GOOSE LA POIRE 750 ML",
-              "FANTASIA": "BACARDI",
-              "VALOR": 611.4
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "VODKA ORLOFF 1L",
-              "FANTASIA": "PERNOD",
-              "VALOR": 2786.0
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "WHISKY JAMESON CASKMATES IPA EDIT 750ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 1677.6
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "WHISKY ROYAL SALUTE 700 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 13677.6
+              "PRODUTO": "BOURBON WHISKY WOODFORD RESERVE - DEST",
+              "FANTASIA": "BROWN",
+              "VALOR": 1714.8
             },
             {
               "DATA": "22/05/2026",
@@ -496,9 +442,63 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "22/05/2026",
-              "PRODUTO": "BOURBON WHISKY WOODFORD RESERVE - DEST",
-              "FANTASIA": "BROWN",
-              "VALOR": 1714.8
+              "PRODUTO": "WHISKY ROYAL SALUTE 700 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 13677.6
+            },
+            {
+              "DATA": "22/05/2026",
+              "PRODUTO": "WHISKY JAMESON CASKMATES IPA EDIT 750ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 1677.6
+            },
+            {
+              "DATA": "22/05/2026",
+              "PRODUTO": "VODCA SMIRNOFF RED 998 ML",
+              "FANTASIA": "DIAGEO",
+              "VALOR": 58320.0
+            },
+            {
+              "DATA": "22/05/2026",
+              "PRODUTO": "VODKA ORLOFF 1L",
+              "FANTASIA": "PERNOD",
+              "VALOR": 2786.0
+            },
+            {
+              "DATA": "22/05/2026",
+              "PRODUTO": "VODKA GREY GOOSE LA POIRE 750 ML",
+              "FANTASIA": "BACARDI",
+              "VALOR": 611.4
+            },
+            {
+              "DATA": "22/05/2026",
+              "PRODUTO": "VODKA ABSOLUT RASPBERRY - 750ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 6348.0
+            },
+            {
+              "DATA": "22/05/2026",
+              "PRODUTO": "VODKA ABSOLUT CITRON - 750 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 1269.6
+            },
+            {
+              "DATA": "22/05/2026",
+              "PRODUTO": "VERMUTE NOILLY PRAT FRENCH DRY 750ML",
+              "FANTASIA": "BACARDI",
+              "VALOR": 1976.4
+            },
+            {
+              "DATA": "22/05/2026",
+              "PRODUTO": "RUM MONTILLA CRISTAL 1000 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 3582.0
+            },
+            {
+              "DATA": "22/05/2026",
+              "PRODUTO": "WHISKY DEWARS 15 YO 750ML",
+              "FANTASIA": "BACARDI",
+              "VALOR": 900.0
             },
             {
               "DATA": "26/05/2026",
@@ -912,39 +912,9 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "12/05/2026",
-              "PRODUTO": "BALLANTINES SUNSHINE 700ML",
+              "PRODUTO": "VODKA WYBOROWA 750ML",
               "FANTASIA": "PERNOD",
-              "VALOR": 287.16
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "RUM MALIBU 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 527.76
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "GIN ORLOFF 1L",
-              "FANTASIA": "PERNOD",
-              "VALOR": 415.08
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "GIN SEAGRAMS 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 370.2
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "RUM HAVANA CLUB 3 YEARS OLD 700 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 806.88
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "VODKA ABSOLUT - 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3055.2
+              "VALOR": 1173.12
             },
             {
               "DATA": "12/05/2026",
@@ -954,9 +924,39 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "12/05/2026",
-              "PRODUTO": "VODKA WYBOROWA 750ML",
+              "PRODUTO": "VODKA ABSOLUT - 750 ML",
               "FANTASIA": "PERNOD",
-              "VALOR": 1173.12
+              "VALOR": 3055.2
+            },
+            {
+              "DATA": "12/05/2026",
+              "PRODUTO": "RUM MALIBU 750 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 527.76
+            },
+            {
+              "DATA": "12/05/2026",
+              "PRODUTO": "RUM HAVANA CLUB 3 YEARS OLD 700 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 806.88
+            },
+            {
+              "DATA": "12/05/2026",
+              "PRODUTO": "GIN SEAGRAMS 750 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 370.2
+            },
+            {
+              "DATA": "12/05/2026",
+              "PRODUTO": "GIN ORLOFF 1L",
+              "FANTASIA": "PERNOD",
+              "VALOR": 415.08
+            },
+            {
+              "DATA": "12/05/2026",
+              "PRODUTO": "BALLANTINES SUNSHINE 700ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 287.16
             },
             {
               "DATA": "14/05/2026",
@@ -1530,45 +1530,39 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "05/05/2026",
-              "PRODUTO": "CHANDON MAGNUM BRUT 1,5L",
+              "PRODUTO": "MAGNUM MOET IMPERIAL BRUT 1,5L",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 555.84
+              "VALOR": 749.9
             },
             {
               "DATA": "05/05/2026",
-              "PRODUTO": "CHANDON PASSION ROSE 750ML",
+              "PRODUTO": "VINHO LATITUD 33 MALBEC 750 ML",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 4194.0
+              "VALOR": 172.02
             },
             {
               "DATA": "05/05/2026",
-              "PRODUTO": "CHAMP MOET ICE  IMPERIAL 750ML",
+              "PRODUTO": "VINHO LATITUD 33 CABERNET SAUVIGNON",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 1118.7
+              "VALOR": 172.02
             },
             {
               "DATA": "05/05/2026",
-              "PRODUTO": "CHAMP MOET ICE ROSE IMPERIAL 750ML",
+              "PRODUTO": "MOET IMPERIAL EXTRA BRUT 750 ML",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 1612.12
+              "VALOR": 559.8
             },
             {
               "DATA": "05/05/2026",
-              "PRODUTO": "CHAMP. VEUVE CLICQUOT DEMI-SEC 750 ML",
+              "PRODUTO": "ESPUMANTE CHANDON BRUT ROSE 750ML",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 2099.4
+              "VALOR": 6291.0
             },
             {
               "DATA": "05/05/2026",
-              "PRODUTO": "CHANDON BABY BRUT ROSE 187 ML",
+              "PRODUTO": "CHANDON RICHE DEMI-SEC 750 ML",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 1243.2
-            },
-            {
-              "DATA": "05/05/2026",
-              "PRODUTO": "CHANDON BABY PASSION ROSE 187 ML",
-              "FANTASIA": "MOET HENNESY",
-              "VALOR": 647.5
+              "VALOR": 2336.4
             },
             {
               "DATA": "05/05/2026",
@@ -1584,39 +1578,45 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "05/05/2026",
-              "PRODUTO": "CHANDON RICHE DEMI-SEC 750 ML",
+              "PRODUTO": "CHANDON BABY BRUT ROSE 187 ML",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 2336.4
+              "VALOR": 1243.2
             },
             {
               "DATA": "05/05/2026",
-              "PRODUTO": "ESPUMANTE CHANDON BRUT ROSE 750ML",
+              "PRODUTO": "CHAMP. VEUVE CLICQUOT DEMI-SEC 750 ML",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 6291.0
+              "VALOR": 2099.4
             },
             {
               "DATA": "05/05/2026",
-              "PRODUTO": "MOET IMPERIAL EXTRA BRUT 750 ML",
+              "PRODUTO": "CHAMP MOET ICE ROSE IMPERIAL 750ML",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 559.8
+              "VALOR": 1612.12
             },
             {
               "DATA": "05/05/2026",
-              "PRODUTO": "MAGNUM MOET IMPERIAL BRUT 1,5L",
+              "PRODUTO": "CHAMP MOET ICE  IMPERIAL 750ML",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 749.9
+              "VALOR": 1118.7
             },
             {
               "DATA": "05/05/2026",
-              "PRODUTO": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+              "PRODUTO": "CHANDON PASSION ROSE 750ML",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 172.02
+              "VALOR": 4194.0
             },
             {
               "DATA": "05/05/2026",
-              "PRODUTO": "VINHO LATITUD 33 MALBEC 750 ML",
+              "PRODUTO": "CHANDON MAGNUM BRUT 1,5L",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 172.02
+              "VALOR": 555.84
+            },
+            {
+              "DATA": "05/05/2026",
+              "PRODUTO": "CHANDON BABY PASSION ROSE 187 ML",
+              "FANTASIA": "MOET HENNESY",
+              "VALOR": 647.5
             },
             {
               "DATA": "07/05/2026",
@@ -1754,33 +1754,9 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "15/05/2026",
-              "PRODUTO": "CHANDON RESERVE BRUT 3L",
-              "FANTASIA": "MOET HENNESY",
-              "VALOR": 1286.7
-            },
-            {
-              "DATA": "15/05/2026",
-              "PRODUTO": "GIN TANQUERAY ROYALE 700 ML",
-              "FANTASIA": "DIAGEO",
-              "VALOR": 1020.0
-            },
-            {
-              "DATA": "15/05/2026",
-              "PRODUTO": "RUM BACARDI GOLD 980ML",
-              "FANTASIA": "BACARDI",
-              "VALOR": 398.4
-            },
-            {
-              "DATA": "15/05/2026",
-              "PRODUTO": "TEQUILA DON JULIO BLANCO 750ML",
-              "FANTASIA": "DIAGEO",
-              "VALOR": 1080.0
-            },
-            {
-              "DATA": "15/05/2026",
-              "PRODUTO": "VODKA ABSOLUT TOMORROWLAND 700ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 718.8
+              "PRODUTO": "WHISKY JACK DANIELS SINATRA 1L",
+              "FANTASIA": "BROWN",
+              "VALOR": 3599.4
             },
             {
               "DATA": "15/05/2026",
@@ -1790,15 +1766,45 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "15/05/2026",
-              "PRODUTO": "WHISKY JACK DANIELS SINATRA 1L",
-              "FANTASIA": "BROWN",
-              "VALOR": 3599.4
+              "PRODUTO": "VODKA ABSOLUT TOMORROWLAND 700ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 718.8
+            },
+            {
+              "DATA": "15/05/2026",
+              "PRODUTO": "CHANDON RESERVE BRUT 3L",
+              "FANTASIA": "MOET HENNESY",
+              "VALOR": 1286.7
+            },
+            {
+              "DATA": "15/05/2026",
+              "PRODUTO": "RUM BACARDI GOLD 980ML",
+              "FANTASIA": "BACARDI",
+              "VALOR": 398.4
+            },
+            {
+              "DATA": "15/05/2026",
+              "PRODUTO": "GIN TANQUERAY ROYALE 700 ML",
+              "FANTASIA": "DIAGEO",
+              "VALOR": 1020.0
+            },
+            {
+              "DATA": "15/05/2026",
+              "PRODUTO": "TEQUILA DON JULIO BLANCO 750ML",
+              "FANTASIA": "DIAGEO",
+              "VALOR": 1080.0
             },
             {
               "DATA": "22/05/2026",
               "PRODUTO": "APERITIVO LUCIA 750ML",
               "FANTASIA": "LUCIA",
               "VALOR": 1581.6
+            },
+            {
+              "DATA": "28/05/2026",
+              "PRODUTO": "WHISKY JACK DANIELS 1L",
+              "FANTASIA": "BROWN",
+              "VALOR": 3776.4
             },
             {
               "DATA": "28/05/2026",
@@ -1811,12 +1817,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "VODKA BELVEDERE B10 700 ML",
               "FANTASIA": "MOET HENNESY",
               "VALOR": 3185.4
-            },
-            {
-              "DATA": "28/05/2026",
-              "PRODUTO": "WHISKY JACK DANIELS 1L",
-              "FANTASIA": "BROWN",
-              "VALOR": 3776.4
             },
             {
               "DATA": "28/05/2026",
@@ -2144,12 +2144,6 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "11/05/2026",
-              "PRODUTO": "GIN ORLOFF 1L",
-              "FANTASIA": "PERNOD",
-              "VALOR": 415.08
-            },
-            {
-              "DATA": "11/05/2026",
               "PRODUTO": "BALLANTINES SUNSHINE 700ML",
               "FANTASIA": "PERNOD",
               "VALOR": 287.16
@@ -2159,6 +2153,12 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "VODKA ABSOLUT - 750 ML",
               "FANTASIA": "PERNOD",
               "VALOR": 611.04
+            },
+            {
+              "DATA": "11/05/2026",
+              "PRODUTO": "GIN ORLOFF 1L",
+              "FANTASIA": "PERNOD",
+              "VALOR": 415.08
             },
             {
               "DATA": "14/05/2026",
@@ -2330,12 +2330,6 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "12/05/2026",
-              "PRODUTO": "BEEFEATER PINK 700ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 778.8
-            },
-            {
-              "DATA": "12/05/2026",
               "PRODUTO": "VODKA ABSOLUT TOMORROWLAND 700ML",
               "FANTASIA": "PERNOD",
               "VALOR": 754.8
@@ -2351,6 +2345,12 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "BEEFEATER BLACKBERRY  700ML",
               "FANTASIA": "PERNOD",
               "VALOR": 754.8
+            },
+            {
+              "DATA": "12/05/2026",
+              "PRODUTO": "BEEFEATER PINK 700ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 778.8
             },
             {
               "DATA": "12/05/2026",
@@ -2558,12 +2558,6 @@ const CLIENTES_588_DATA = {
           "itens": [
             {
               "DATA": "27/05/2026",
-              "PRODUTO": "VODKA ABSOLUT VANILLA - 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 634.8
-            },
-            {
-              "DATA": "27/05/2026",
               "PRODUTO": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
               "FANTASIA": "JURUPINGA",
               "VALOR": 2665.77
@@ -2573,6 +2567,12 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "CONHAQUE DOMECQ 1L",
               "FANTASIA": "PERNOD",
               "VALOR": 9324.0
+            },
+            {
+              "DATA": "27/05/2026",
+              "PRODUTO": "VODKA ABSOLUT VANILLA - 750 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 634.8
             },
             {
               "DATA": "27/05/2026",
@@ -2744,6 +2744,18 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "19/05/2026",
+              "PRODUTO": "JACK DANIELS BLACKBERRY 1L",
+              "FANTASIA": "BROWN",
+              "VALOR": 679.6
+            },
+            {
+              "DATA": "19/05/2026",
+              "PRODUTO": "4 PACK RED BULL WINTER JUNEBERRY",
+              "FANTASIA": "RED BULL",
+              "VALOR": 98.28
+            },
+            {
+              "DATA": "19/05/2026",
               "PRODUTO": "RED BULL MORANGO PESSEGO 24X250ML",
               "FANTASIA": "RED BULL",
               "VALOR": 982.8
@@ -2755,16 +2767,10 @@ const CLIENTES_588_DATA = {
               "VALOR": 98.28
             },
             {
-              "DATA": "19/05/2026",
-              "PRODUTO": "4 PACK RED BULL WINTER JUNEBERRY",
-              "FANTASIA": "RED BULL",
-              "VALOR": 98.28
-            },
-            {
-              "DATA": "19/05/2026",
-              "PRODUTO": "JACK DANIELS BLACKBERRY 1L",
-              "FANTASIA": "BROWN",
-              "VALOR": 679.6
+              "DATA": "26/05/2026",
+              "PRODUTO": "RUM MONTILLA CARTA BRANCA 1000 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 21.9
             },
             {
               "DATA": "26/05/2026",
@@ -2801,12 +2807,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "RED BULL 250ML CAIXA C/ 24",
               "FANTASIA": "RED BULL",
               "VALOR": 383.52
-            },
-            {
-              "DATA": "26/05/2026",
-              "PRODUTO": "RUM MONTILLA CARTA BRANCA 1000 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 21.9
             },
             {
               "DATA": "26/05/2026",
@@ -3158,15 +3158,15 @@ const CLIENTES_588_DATA = {
           "itens": [
             {
               "DATA": "12/05/2026",
-              "PRODUTO": "VODKA ABSOLUT 1 LITRO",
-              "FANTASIA": "PERNOD",
-              "VALOR": 512.91
-            },
-            {
-              "DATA": "12/05/2026",
               "PRODUTO": "CACHACA VELHO BARREIRO 910 ML",
               "FANTASIA": "TATUZINHO",
               "VALOR": 142.8
+            },
+            {
+              "DATA": "12/05/2026",
+              "PRODUTO": "VODKA ABSOLUT 1 LITRO",
+              "FANTASIA": "PERNOD",
+              "VALOR": 512.91
             },
             {
               "DATA": "18/05/2026",
