@@ -10,3 +10,8 @@ token_gmail.json.json
 credentials_gmail.json
 *.log
 .git-rewrite/
+
+# Inadimplencia: dado financeiro sensivel (nome de cliente + divida) —
+# so vai pra VPS (deploy_static_vps.py), nunca pro GitHub Pages publico.
+inadimplencia.html
+inadimplencia_data.js

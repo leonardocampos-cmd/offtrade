@@ -359,6 +359,7 @@ function buildGerentesSection() {
 
   let idx = 0;
   const empSorted = [...GERENTES_DATA.estados]
+    .filter(emp => fatMes(emp.por_mes) > 0 || qtMes(emp.por_mes) > 0)
     .sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes));
 
   const rows = empSorted.map(emp => {

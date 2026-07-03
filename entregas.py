@@ -21,16 +21,25 @@ _MESES_PT = {
 }
 
 def _caminho_logistica(d: date) -> str:
+    """Acha o Excel de controle de notas do mes, tolerando variacoes no nome
+    do arquivo (ex: '06 JUNHO - Controle de Notas 2026.xlsx' vs
+    '07 JULHO CONTROLE DE NOTAS.xlsx', '04 ABRIL - Controle de Notas Abril 2026.xlsx', '05 MAIO - Controle de Notas 2026.xlsx')."""
     mm   = d.strftime('%m')
     ano  = d.strftime('%Y')
     upper, cap = _MESES_PT[mm]
-    pasta   = f"{mm} {upper}"
-    arquivo = f"06 JUNHO - Controle de Notas 2026.xlsx"
-    return (
+    pasta_dir = Path(
         r"G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO"
         r"\CONTROLE DE NOTAS"
-        f"\\{ano}\\{pasta}\\{arquivo}"
-    )
+    ) / ano / f"{mm} {upper}"
+    candidatos = [
+        f for f in pasta_dir.glob("*.xlsx")
+        if "controle de notas" in f.stem.lower()
+    ]
+    if candidatos:
+        return str(max(candidatos, key=lambda f: f.stat().st_mtime))
+    # Nenhum candidato encontrado: devolve o nome "padrao" so pra a mensagem
+    # de erro do chamador mostrar onde deveria estar.
+    return str(pasta_dir / f"{mm} {upper} - Controle de Notas {ano}.xlsx")
 
 oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
 engine = create_engine(
@@ -43,6 +52,16 @@ from meta import carregar_dados
 
 # ── Pedidos do mês ─────────────────────────────────────────────────────────────
 
+def _limpar_pedidos(df):
+    df = df.copy()
+    df.columns     = df.columns.str.upper()
+    df['TOTAL']    = pd.to_numeric(df['TOTAL'],   errors='coerce').fillna(0)
+    df['QT']       = pd.to_numeric(df['QT'],      errors='coerce').fillna(0).astype(int)
+    df['NUMNOTA_NUM'] = pd.to_numeric(df['NUMNOTA'], errors='coerce')
+    df['DATA']     = pd.to_datetime(df['DATA'],   errors='coerce').dt.strftime('%d/%m/%Y')
+    df['STATUS']   = df['STATUS'].fillna('').astype(str).str.strip()
+    return df
+
 tabela_pedidos = carregar_dados("""
     SELECT NUMPED, NUMNOTA, NOME, DATA, CODUSUR, CLIENTE, STATUS,
            DESCRICAO, PVENDA, QT, TOTAL, OBSENTREGA1
@@ -53,13 +72,23 @@ tabela_pedidos = carregar_dados("""
       AND DATA < LAST_DAY(SYSDATE) + 1
     ORDER BY DATA DESC
 """, engine, "pedidos")
+tabela_pedidos = _limpar_pedidos(tabela_pedidos)
 
-tabela_pedidos.columns     = tabela_pedidos.columns.str.upper()
-tabela_pedidos['TOTAL']    = pd.to_numeric(tabela_pedidos['TOTAL'],   errors='coerce').fillna(0)
-tabela_pedidos['QT']       = pd.to_numeric(tabela_pedidos['QT'],      errors='coerce').fillna(0).astype(int)
-tabela_pedidos['NUMNOTA_NUM'] = pd.to_numeric(tabela_pedidos['NUMNOTA'], errors='coerce')
-tabela_pedidos['DATA']     = pd.to_datetime(tabela_pedidos['DATA'],   errors='coerce').dt.strftime('%d/%m/%Y')
-tabela_pedidos['STATUS']   = tabela_pedidos['STATUS'].fillna('').astype(str).str.strip()
+# Notas emitidas e nao canceladas dos ultimos N dias (nao so o mes corrente) —
+# usada so pra achar "Emitida / Sem rota" que ficou pra tras em meses anteriores.
+DIAS_NOTAS_ABERTAS = 90
+tabela_pedidos_abertos = carregar_dados(f"""
+    SELECT NUMPED, NUMNOTA, NOME, DATA, CODUSUR, CLIENTE, STATUS,
+           DESCRICAO, PVENDA, QT, TOTAL, OBSENTREGA1
+    FROM crc.PBI_PCPEDI
+    WHERE CODFILIAL IN (2,4)
+      AND NOME LIKE '%OFF TRADE%'
+      AND NUMNOTA IS NOT NULL
+      AND NVL(STATUS, 'X') != 'CANCELADA'
+      AND DATA >= SYSDATE - {DIAS_NOTAS_ABERTAS}
+    ORDER BY DATA DESC
+""", engine, "pedidos_abertos")
+tabela_pedidos_abertos = _limpar_pedidos(tabela_pedidos_abertos)
 
 # ── Mapeia Oracle name → display name (igual ao metas.html) ───────────────────
 
@@ -78,6 +107,13 @@ tabela_pedidos['NOME'] = (
     tabela_pedidos['CODUSUR_NUM']
     .map(_rca_to_display)
     .fillna(tabela_pedidos['NOME'].str.strip())
+)
+
+tabela_pedidos_abertos['CODUSUR_NUM'] = pd.to_numeric(tabela_pedidos_abertos['CODUSUR'], errors='coerce')
+tabela_pedidos_abertos['NOME'] = (
+    tabela_pedidos_abertos['CODUSUR_NUM']
+    .map(_rca_to_display)
+    .fillna(tabela_pedidos_abertos['NOME'].str.strip())
 )
 
 # ── Excel de logística — apenas a aba de HOJE ─────────────────────────────────
@@ -130,6 +166,12 @@ for col in ['PLACA', 'ROTA', 'STATUS_LOG', 'MOTIVO']:
         tabela_final[col] = ''
     tabela_final[col] = tabela_final[col].fillna('').astype(str).str.strip()
 
+tabela_final_abertos = tabela_pedidos_abertos.merge(logistica_hoje, left_on='NUMNOTA_NUM', right_on='NF_NUM', how='left')
+for col in ['PLACA', 'ROTA', 'STATUS_LOG', 'MOTIVO']:
+    if col not in tabela_final_abertos.columns:
+        tabela_final_abertos[col] = ''
+    tabela_final_abertos[col] = tabela_final_abertos[col].fillna('').astype(str).str.strip()
+
 # ── Serialização ───────────────────────────────────────────────────────────────
 
 def _s(v):
@@ -162,11 +204,18 @@ def _agrupar(df):
         })
     return result
 
+_grupos_mes     = dict(tuple(tabela_final.groupby('NOME')))
+_grupos_abertos = dict(tuple(tabela_final_abertos.groupby('NOME')))
+_vazio_mes      = tabela_final.iloc[0:0]
+_vazio_abertos  = tabela_final_abertos.iloc[0:0]
+
 vendedores_out = []
-for nome, grp in tabela_final.groupby('NOME'):
+for nome in sorted(set(_grupos_mes) | set(_grupos_abertos)):
+    grp            = _grupos_mes.get(nome, _vazio_mes)
+    grp_abertos    = _grupos_abertos.get(nome, _vazio_abertos)
     em_rota        = grp[grp['ROTA'] != '']
     nao_emitido    = grp[grp['NUMNOTA_NUM'].isna()]
-    emitido_s_rota = grp[grp['NUMNOTA_NUM'].notna() & (grp['ROTA'] == '')]
+    emitido_s_rota = grp_abertos[grp_abertos['NUMNOTA_NUM'].notna() & (grp_abertos['ROTA'] == '')]
     vendedores_out.append({
         'nome':           _s(nome),
         'em_rota':        _agrupar(em_rota),
