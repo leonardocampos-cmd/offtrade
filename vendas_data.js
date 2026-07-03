@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "03/07/2026 11:03",
+  "atualizado_em": "03/07/2026 12:00",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -43148,36 +43148,6 @@ const VENDAS_DATA = {
           "tipo": "Bonificado"
         },
         {
-          "data": "30/06/2026",
-          "codcli": "21132",
-          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
-          "produto": "RED BULL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 325.86,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "21132",
-          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
-          "produto": "RED BULL TROPICAL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 3,
-          "valor": 488.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "21132",
-          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
-          "produto": "XAROPE FABBRI COCO PLUS 1L",
-          "fantasia": "FABBRI",
-          "qt": 12,
-          "valor": 1139.52,
-          "tipo": "Venda"
-        },
-        {
           "data": "16/06/2026",
           "codcli": "21049",
           "cliente": "CONFEITARIA PAO DO PARQUE LTDA EPP",
@@ -61848,36 +61818,6 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 0.0,
           "tipo": "Bonificado"
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "62232",
-          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 3,
-          "valor": 73.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "62232",
-          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
-          "produto": "VODKA ABSOLUT 1L",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 69.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "62232",
-          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
-          "produto": "JACK DANIELS HONEY 1 L",
-          "fantasia": "BROWN",
-          "qt": 1,
-          "valor": 109.9,
-          "tipo": "Venda"
         },
         {
           "data": "16/06/2026",
@@ -241696,26 +241636,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "24/06/2026",
-          "codcli": "93873",
-          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 4,
-          "valor": 261.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "93873",
-          "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 130.56,
-          "tipo": "Venda"
-        },
-        {
           "data": "02/06/2026",
           "codcli": "81289",
           "cliente": "MERCADO IDEAL DE JACAREI LTDA",
@@ -338469,16 +338389,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "24/04/2026",
-          "codcli": "92086",
-          "cliente": "46.912.337 GIVANILDO DA SILVA MARTINS",
-          "produto": "ROSE MINUTY 281  3000ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 2908.47,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/04/2026",
           "codcli": "90725",
           "cliente": "LUZ DEL FUEGO COMERCIO DE ALIMENTOS LTDA",
           "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
@@ -338635,6 +338545,16 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 18,
           "valor": 1062.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "92086",
+          "cliente": "46.912.337 GIVANILDO DA SILVA MARTINS",
+          "produto": "ROSE MINUTY 281  3000ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 2908.47,
           "tipo": "Venda"
         },
         {

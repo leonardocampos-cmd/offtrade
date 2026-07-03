@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "03/07/2026 11:03",
+  "atualizado_em": "03/07/2026 12:00",
   "meses": [
     "Jun/26"
   ],
@@ -272,11 +272,23 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "60844",
+          "CODCLI": "74407",
           "CLIENTE": "DOM ATACAREJO S.A.",
-          "BAIRROENT": "AREAL (CUNHAMBEBE)",
+          "BAIRROENT": "PRAIA DA CHACARA",
           "DTULTCOMP": "18/06/2026",
           "produtos": [
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO ADELE ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO CHATEAU DAGASSAC TINTO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
+            },
             {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M"
@@ -304,18 +316,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "CASA PERINI",
               "DESCRICAO": "ESPUM CASA PERINI BRUT ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO ADELE ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO CHATEAU DAGASSAC TINTO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             }
           ]
         },
@@ -387,6 +387,14 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "ROBINSON CRUSOE",
+              "DESCRICAO": "RC ATUM PEDACOS NATURAL 24X140G"
+            },
+            {
+              "FANTASIA": "ROBINSON CRUSOE",
+              "DESCRICAO": "RC ATUM RALADO MOLHO DE TOMATE 24X140G"
+            },
+            {
+              "FANTASIA": "ROBINSON CRUSOE",
               "DESCRICAO": "RC SARDINHA MOLHO DE TOMATE 50X125G"
             },
             {
@@ -404,14 +412,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "ROBINSON CRUSOE",
               "DESCRICAO": "RC ATUM SOLIDO OLEO 24X170G"
-            },
-            {
-              "FANTASIA": "ROBINSON CRUSOE",
-              "DESCRICAO": "RC ATUM PEDACOS NATURAL 24X140G"
-            },
-            {
-              "FANTASIA": "ROBINSON CRUSOE",
-              "DESCRICAO": "RC ATUM RALADO MOLHO DE TOMATE 24X140G"
             }
           ]
         }
@@ -791,7 +791,7 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "PERNOD",
-              "DESCRICAO": "GIN BEEFEATER 750ML"
+              "DESCRICAO": "GIN BEEFEATER PINK 700ML"
             },
             {
               "FANTASIA": "FANTE",
@@ -811,7 +811,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "PERNOD",
-              "DESCRICAO": "GIN BEEFEATER PINK 700ML"
+              "DESCRICAO": "GIN BEEFEATER 750ML"
             },
             {
               "FANTASIA": "TATUZINHO",
@@ -867,11 +867,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "FANTE",
-              "DESCRICAO": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML"
+              "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
             },
             {
               "FANTASIA": "FANTE",
-              "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
+              "DESCRICAO": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML"
             },
             {
               "FANTASIA": "SUPERMIX",
@@ -1090,6 +1090,10 @@ const METAS_DATA = {
               "DESCRICAO": "AMARULA C LIQUEUR 750 ML"
             },
             {
+              "FANTASIA": "51",
+              "DESCRICAO": "ICE 51 BALADA LONG NECK 24X275 ML"
+            },
+            {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO P MELANCIA LIMAO 12X500ML"
             },
@@ -1100,10 +1104,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
-            },
-            {
-              "FANTASIA": "51",
-              "DESCRICAO": "ICE 51 BALADA LONG NECK 24X275 ML"
             },
             {
               "FANTASIA": "51",
@@ -1119,19 +1119,19 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
-            },
-            {
-              "FANTASIA": "VITON",
               "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             },
             {
-              "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 12X510ML"
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
             },
             {
               "FANTASIA": "MINALBA",
               "DESCRICAO": "AGUA MINERAL MINALBA C/ GAS 12X510ML"
+            },
+            {
+              "FANTASIA": "MINALBA",
+              "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 12X510ML"
             }
           ]
         },
@@ -1223,11 +1223,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "HENNESSY",
-              "DESCRICAO": "CHANDON GARDEN SPRITZ 750 ML"
+              "DESCRICAO": "CHANDON RESERVE BRUT ROSE 750ML"
             },
             {
               "FANTASIA": "HENNESSY",
-              "DESCRICAO": "CHANDON RESERVE BRUT ROSE 750ML"
+              "DESCRICAO": "CHANDON GARDEN SPRITZ 750 ML"
             }
           ]
         },
@@ -1479,11 +1479,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
+              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
+              "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
             },
             {
               "FANTASIA": "TATUZINHO",
@@ -1799,11 +1799,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "PERNOD",
-              "DESCRICAO": "GIN BEEFEATER PINK 700ML"
+              "DESCRICAO": "GIN BEEFEATER 750ML"
             },
             {
               "FANTASIA": "PERNOD",
-              "DESCRICAO": "GIN BEEFEATER 750ML"
+              "DESCRICAO": "GIN BEEFEATER PINK 700ML"
             },
             {
               "FANTASIA": "BROWN",
@@ -1832,311 +1832,11 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "79254",
-          "CLIENTE": "TRES PODERES COMERCIO ALIMENTICIO LTDA",
-          "BAIRROENT": "JARDIM VINTE E CINCO DE AGOSTO",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINALBA S/ GAS PREMIUM 12X300ML"
-            },
-            {
-              "FANTASIA": "BEAM SUNTORY",
-              "DESCRICAO": "WHISKY JIM BEAM APPLE 1L"
-            },
-            {
-              "FANTASIA": "BEAM SUNTORY",
-              "DESCRICAO": "WHISKY JIM BEAM BLACK CHERRY 1L"
-            },
-            {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "WHISKY BUCHANANS 12 YEARS 750 ML"
-            },
-            {
-              "FANTASIA": "BEAM SUNTORY",
-              "DESCRICAO": "WHISKY JIM BEAM WHITE 1L"
-            },
-            {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "GIN TANQUERAY  750 ML"
-            },
-            {
-              "FANTASIA": "AURORA",
-              "DESCRICAO": "LICOR ESP DIEGO ZAMORA 43 700ML"
-            },
-            {
-              "FANTASIA": "AURORA",
-              "DESCRICAO": "LICOR CAN FIREBALL 750ML"
-            },
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CAMPARI",
-              "DESCRICAO": "APERITIVO CAMPARI 998ML"
-            },
-            {
-              "FANTASIA": "HENNESSY",
-              "DESCRICAO": "ESPUMANTE CHANDON RESERVE BRUT 750ML"
-            },
-            {
-              "FANTASIA": "INTERFOOD",
-              "DESCRICAO": "LICOR JAGERMEISTER 700 ML"
-            },
-            {
-              "FANTASIA": "INTERFOOD",
-              "DESCRICAO": "AMARULA VANILE SPICE 750ML"
-            },
-            {
-              "FANTASIA": "INTERFOOD",
-              "DESCRICAO": "AMARULA C LIQUEUR 750 ML"
-            },
-            {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "GIN ROCKS 1000ML"
-            },
-            {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
-            },
-            {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "GIN ROCKS GREEN APPLE 1000ML"
-            },
-            {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "GIN ROCKS STRAWBERRY 1000ML"
-            },
-            {
-              "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINALBA C/ GAS PREMIUM 12X300ML"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI DB WHEY AVELA E LEITE 12X50G"
-            },
-            {
-              "FANTASIA": "LUCIA",
-              "DESCRICAO": "APERITIVO LUCIA 750ML"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR MARACUJA 12X1000ML"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR MISTO UVA E PERA 12X1000ML"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR GOIABA 12X1000ML"
-            },
-            {
-              "FANTASIA": "HENNESSY",
-              "DESCRICAO": "VINHO LATITUD 33 MALBEC  750 ML"
-            },
-            {
-              "FANTASIA": "HENNESSY",
-              "DESCRICAO": "VINHO LATITUD 33 MALBEC ROSE 750 ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING JUICE PROTEIN LARANJA 12X300ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING JUICE PROTEIN MACA 12X300ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING JUICE PROTEIN UVA 12X300ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO P MELANCIA LIMAO 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SIMPLE WHEY PISTACHE (4)16X35G"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SIMPLE WHEY CHOCO BELGA (4)16X35G"
-            }
-          ]
-        },
-        {
-          "CODCLI": "95366",
-          "CLIENTE": "AUTO POSTO CREMONEZE LTDA",
-          "BAIRROENT": "CAMPO GRANDE",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO CAVAS DE ORO MALBEC 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO GRAVEDAD CARMENERE 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA  ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "82253",
-          "CLIENTE": "AUTO POSTO RUI BARBOSA LTDA",
-          "BAIRROENT": "FLAMENGO",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO ARESTI ESTATE S.  ROSE 187ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "73247",
-          "CLIENTE": "GALAPAGOS CENTRO AUTOMOTIVO LTDA",
-          "BAIRROENT": "CENTRO",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "WHISKY J WALKER RED LABEL 1L"
-            },
-            {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "WHISKY J WALKER BLACK LABEL 1L"
-            },
-            {
-              "FANTASIA": "BROWN",
-              "DESCRICAO": "WHISKY JACK DANIELS  700ML"
-            },
-            {
-              "FANTASIA": "BROWN",
-              "DESCRICAO": "WHISKY JACK DANIELS HONEY 700ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "85669",
-          "CLIENTE": "SNACK STORE LTDA",
-          "BAIRROENT": "MANGUINHOS",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "INTERFOOD",
-              "DESCRICAO": "AMARULA C LIQUEUR 750 ML"
-            },
-            {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML"
-            },
-            {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "GIN ROCKS POCKET PET 12X200ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SIMPLE WHEY CARAM SALG (4)16X35G"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SIMPLE WHEY PISTACHE (4)16X35G"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SLIM WHEY BRIGADEIRO (4) 16X35G"
-            }
-          ]
-        },
-        {
           "CODCLI": "2314",
           "CLIENTE": "POSTO DE GASOLINA SOL DA PRAIA LTDA",
           "BAIRROENT": "ILHA DO GOVERNADOR",
           "DTULTCOMP": "18/06/2026",
           "produtos": [
-            {
-              "FANTASIA": "INTERFOOD",
-              "DESCRICAO": "AMARULA C LIQUEUR 750 ML"
-            },
-            {
-              "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINALBA C/ GAS 6X1,5L"
-            },
-            {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
-            },
-            {
-              "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 6X1,5L"
-            },
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING JUICE PROTEIN MACA 12X300ML"
@@ -2176,6 +1876,174 @@ const METAS_DATA = {
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "ST PIERRE LATA RED MINT LT 6X270ML"
+            },
+            {
+              "FANTASIA": "INTERFOOD",
+              "DESCRICAO": "AMARULA C LIQUEUR 750 ML"
+            },
+            {
+              "FANTASIA": "MINALBA",
+              "DESCRICAO": "AGUA MINALBA C/ GAS 6X1,5L"
+            },
+            {
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
+            },
+            {
+              "FANTASIA": "MINALBA",
+              "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 6X1,5L"
+            }
+          ]
+        },
+        {
+          "CODCLI": "79254",
+          "CLIENTE": "TRES PODERES COMERCIO ALIMENTICIO LTDA",
+          "BAIRROENT": "JARDIM VINTE E CINCO DE AGOSTO",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING JUICE PROTEIN MACA 12X300ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING JUICE PROTEIN UVA 12X300ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO P MELANCIA LIMAO 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING JUICE PROTEIN LARANJA 12X300ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SIMPLE WHEY PISTACHE (4)16X35G"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SIMPLE WHEY CHOCO BELGA (4)16X35G"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI DB WHEY AVELA E LEITE 12X50G"
+            },
+            {
+              "FANTASIA": "LUCIA",
+              "DESCRICAO": "APERITIVO LUCIA 750ML"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR MARACUJA 12X1000ML"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR MISTO UVA E PERA 12X1000ML"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR GOIABA 12X1000ML"
+            },
+            {
+              "FANTASIA": "HENNESSY",
+              "DESCRICAO": "ESPUMANTE CHANDON RESERVE BRUT 750ML"
+            },
+            {
+              "FANTASIA": "HENNESSY",
+              "DESCRICAO": "VINHO LATITUD 33 MALBEC  750 ML"
+            },
+            {
+              "FANTASIA": "HENNESSY",
+              "DESCRICAO": "VINHO LATITUD 33 MALBEC ROSE 750 ML"
+            },
+            {
+              "FANTASIA": "INTERFOOD",
+              "DESCRICAO": "LICOR JAGERMEISTER 700 ML"
+            },
+            {
+              "FANTASIA": "INTERFOOD",
+              "DESCRICAO": "AMARULA VANILE SPICE 750ML"
+            },
+            {
+              "FANTASIA": "INTERFOOD",
+              "DESCRICAO": "AMARULA C LIQUEUR 750 ML"
+            },
+            {
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
+            },
+            {
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "GIN ROCKS GREEN APPLE 1000ML"
+            },
+            {
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "GIN ROCKS STRAWBERRY 1000ML"
+            },
+            {
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "GIN ROCKS 1000ML"
+            },
+            {
+              "FANTASIA": "MINALBA",
+              "DESCRICAO": "AGUA MINALBA C/ GAS PREMIUM 12X300ML"
+            },
+            {
+              "FANTASIA": "MINALBA",
+              "DESCRICAO": "AGUA MINALBA S/ GAS PREMIUM 12X300ML"
+            },
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM APPLE 1L"
+            },
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM BLACK CHERRY 1L"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "WHISKY BUCHANANS 12 YEARS 750 ML"
+            },
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM WHITE 1L"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "GIN TANQUERAY  750 ML"
+            },
+            {
+              "FANTASIA": "AURORA",
+              "DESCRICAO": "LICOR ESP DIEGO ZAMORA 43 700ML"
+            },
+            {
+              "FANTASIA": "AURORA",
+              "DESCRICAO": "LICOR CAN FIREBALL 750ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CAMPARI",
+              "DESCRICAO": "APERITIVO CAMPARI 998ML"
             }
           ]
         },
@@ -2185,18 +2053,6 @@ const METAS_DATA = {
           "BAIRROENT": "GALEAO",
           "DTULTCOMP": "18/06/2026",
           "produtos": [
-            {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR MANGA 12X1000ML"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR GOIABA 12X1000ML"
-            },
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO P MELANCIA LIMAO 12X500ML"
@@ -2216,6 +2072,150 @@ const METAS_DATA = {
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR MANGA 12X1000ML"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR GOIABA 12X1000ML"
+            },
+            {
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "82253",
+          "CLIENTE": "AUTO POSTO RUI BARBOSA LTDA",
+          "BAIRROENT": "FLAMENGO",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO ARESTI ESTATE S.  ROSE 187ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "85669",
+          "CLIENTE": "SNACK STORE LTDA",
+          "BAIRROENT": "MANGUINHOS",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SIMPLE WHEY CARAM SALG (4)16X35G"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SIMPLE WHEY PISTACHE (4)16X35G"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SLIM WHEY BRIGADEIRO (4) 16X35G"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
+            },
+            {
+              "FANTASIA": "INTERFOOD",
+              "DESCRICAO": "AMARULA C LIQUEUR 750 ML"
+            },
+            {
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML"
+            },
+            {
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "GIN ROCKS POCKET PET 12X200ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "95366",
+          "CLIENTE": "AUTO POSTO CREMONEZE LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA  ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO GRAVEDAD CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO CAVAS DE ORO MALBEC 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "73247",
+          "CLIENTE": "GALAPAGOS CENTRO AUTOMOTIVO LTDA",
+          "BAIRROENT": "CENTRO",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "WHISKY J WALKER RED LABEL 1L"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "WHISKY J WALKER BLACK LABEL 1L"
+            },
+            {
+              "FANTASIA": "BROWN",
+              "DESCRICAO": "WHISKY JACK DANIELS  700ML"
+            },
+            {
+              "FANTASIA": "BROWN",
+              "DESCRICAO": "WHISKY JACK DANIELS HONEY 700ML"
             }
           ]
         },
@@ -2555,10 +2555,6 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "DIAGEO",
-              "DESCRICAO": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)"
-            },
-            {
-              "FANTASIA": "DIAGEO",
               "DESCRICAO": "VODKA SMIRNOFF 600 ML"
             },
             {
@@ -2568,6 +2564,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "DIAGEO",
               "DESCRICAO": "SMIRNOFF ICE 24 UNIDADES (LATA) 24X269ML"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)"
             }
           ]
         },
@@ -2627,11 +2627,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "DIAGEO",
-              "DESCRICAO": "WHISKY BUCHANANS 12 YEARS 750 ML"
+              "DESCRICAO": "WHISKY J WALKER RED LABEL 750ML"
             },
             {
               "FANTASIA": "DIAGEO",
-              "DESCRICAO": "WHISKY J WALKER RED LABEL 750ML"
+              "DESCRICAO": "WHISKY BUCHANANS 12 YEARS 750 ML"
             },
             {
               "FANTASIA": "DIAGEO",
@@ -2683,11 +2683,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "FANTE",
-              "DESCRICAO": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML"
+              "DESCRICAO": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML"
             },
             {
               "FANTASIA": "FANTE",
-              "DESCRICAO": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML"
+              "DESCRICAO": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML"
             },
             {
               "FANTASIA": "FANTE",
@@ -2979,11 +2979,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
+              "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
+              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
             },
             {
               "FANTASIA": "INTERFOOD",
@@ -3035,11 +3035,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
+              "DESCRICAO": "MOVING JUICE PROTEIN LARANJA 12X300ML"
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING JUICE PROTEIN LARANJA 12X300ML"
+              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
             },
             {
               "FANTASIA": "TATUZINHO",
@@ -3568,6 +3568,22 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "83180",
+          "CLIENTE": "POSTO MEGA VERAO LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
+          "DTULTCOMP": "12/05/2026",
+          "produtos": [
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "4621",
           "CLIENTE": "AUTO POSTO MAP RECREIO LTDA",
           "BAIRROENT": "BARRA DA TIJUCA",
@@ -3580,22 +3596,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING BOOSTER MORANGO ACEROLA  24X310ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "83180",
-          "CLIENTE": "POSTO MEGA VERAO LTDA",
-          "BAIRROENT": "BARRA DA TIJUCA",
-          "DTULTCOMP": "12/05/2026",
-          "produtos": [
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
             }
           ]
         },
@@ -3714,16 +3714,16 @@ const METAS_DATA = {
           "DTULTCOMP": "23/04/2026",
           "produtos": [
             {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "VODKA SMIRNOFF 600 ML"
-            },
-            {
               "FANTASIA": "PERNOD",
               "DESCRICAO": "VODKA ABSOLUT VANILLA 750ML"
             },
             {
               "FANTASIA": "PERNOD",
               "DESCRICAO": "VODKA ABSOLUT RASPBERRY 750ML"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "VODKA SMIRNOFF 600 ML"
             }
           ]
         },
@@ -3734,14 +3734,6 @@ const METAS_DATA = {
           "DTULTCOMP": "20/04/2026",
           "produtos": [
             {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)"
-            },
-            {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
-            },
-            {
               "FANTASIA": "MINALBA",
               "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 6X1,5L"
             },
@@ -3750,16 +3742,24 @@ const METAS_DATA = {
               "DESCRICAO": "AGUA MINERAL MINALBA C/ GAS 12X510ML"
             },
             {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "VODCA SMIRNOFF RED 998 ML"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)"
+            },
+            {
               "FANTASIA": "MINALBA",
               "DESCRICAO": "AGUA MINALBA C/ GAS 6X1,5L"
             },
             {
-              "FANTASIA": "51",
-              "DESCRICAO": "ICE 51 FRUIT LONG NECK 24X275 ML"
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             },
             {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "VODCA SMIRNOFF RED 998 ML"
+              "FANTASIA": "51",
+              "DESCRICAO": "ICE 51 FRUIT LONG NECK 24X275 ML"
             }
           ]
         },
@@ -4295,16 +4295,16 @@ const METAS_DATA = {
           "DTULTCOMP": "17/06/2026",
           "produtos": [
             {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "RED BULL 24X250ML"
+            },
+            {
               "FANTASIA": "VITON",
               "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             },
             {
               "FANTASIA": "VITON",
               "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
-            },
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "RED BULL 24X250ML"
             }
           ]
         },
@@ -4416,15 +4416,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "FANTE",
-              "DESCRICAO": "GIN ROCKS 1000ML"
-            },
-            {
-              "FANTASIA": "FANTE",
               "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
             },
             {
               "FANTASIA": "FANTE",
               "DESCRICAO": "VINHO TINTO QUINTA DO MORGADO 1LT"
+            },
+            {
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "GIN ROCKS 1000ML"
             }
           ]
         },
@@ -4484,11 +4484,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "COMARY",
-              "DESCRICAO": "CATUABA SELVAGEM 900ML"
+              "DESCRICAO": "CATUABA SELVAGEM ACAI 900ML"
             },
             {
               "FANTASIA": "COMARY",
-              "DESCRICAO": "CATUABA SELVAGEM ACAI 900ML"
+              "DESCRICAO": "CATUABA SELVAGEM 900ML"
             },
             {
               "FANTASIA": "FANTE",
@@ -4548,11 +4548,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
+              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
+              "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
             },
             {
               "FANTASIA": "TATUZINHO",
@@ -4564,15 +4564,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "ROBINSON CRUSOE",
-              "DESCRICAO": "RC SALADA DE ATUM - MEDITERRANEA 12X160G"
-            },
-            {
-              "FANTASIA": "ROBINSON CRUSOE",
               "DESCRICAO": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G"
             },
             {
               "FANTASIA": "ROBINSON CRUSOE",
               "DESCRICAO": "RC SARDINHA MOLHO DE TOMATE 50X125G"
+            },
+            {
+              "FANTASIA": "ROBINSON CRUSOE",
+              "DESCRICAO": "RC SALADA DE ATUM - MEDITERRANEA 12X160G"
             },
             {
               "FANTASIA": "ROBINSON CRUSOE",
@@ -4656,10 +4656,6 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "BEAM SUNTORY",
-              "DESCRICAO": "WHISKY JIM BEAM HONEY 1L"
-            },
-            {
-              "FANTASIA": "BEAM SUNTORY",
               "DESCRICAO": "WHISKY JIM BEAM APPLE 1L"
             },
             {
@@ -4673,6 +4669,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "BEAM SUNTORY",
               "DESCRICAO": "WHISKY JIM BEAM WHITE 1L"
+            },
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM HONEY 1L"
             },
             {
               "FANTASIA": "AURORA",
@@ -4700,15 +4700,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR LARANJA 12X1000ML"
-            },
-            {
-              "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR PESSEGO 12X1000ML"
             },
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR MISTO UVA E PERA 12X1000ML"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR LARANJA 12X1000ML"
             },
             {
               "FANTASIA": "FANTE",
@@ -5064,15 +5064,15 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
             },
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
             },
             {
               "FANTASIA": "DIAGEO",
@@ -5097,6 +5097,18 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "89952",
+          "CLIENTE": "POSTO DE COMBUSTIVEIS BICUIBA BRANCA LTDA",
+          "BAIRROENT": "BICUIBA",
+          "DTULTCOMP": "13/05/2026",
+          "produtos": [
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "RED BULL 24X250ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "94235",
           "CLIENTE": "TAM TAM MINI MERCADO LTDA",
           "BAIRROENT": "REALENGO",
@@ -5109,6 +5121,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "PINATI",
               "DESCRICAO": "PINATI NUTS ORIGINAL 20X30G"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI DOUBLE BAR BRIGADEIRO 16X35G"
             },
             {
               "FANTASIA": "PINATI",
@@ -5133,22 +5149,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI DOUBLE BAR BRIGADEIRO 16X35G"
-            }
-          ]
-        },
-        {
-          "CODCLI": "89952",
-          "CLIENTE": "POSTO DE COMBUSTIVEIS BICUIBA BRANCA LTDA",
-          "BAIRROENT": "BICUIBA",
-          "DTULTCOMP": "13/05/2026",
-          "produtos": [
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "RED BULL 24X250ML"
             }
           ]
         },
@@ -5161,6 +5161,26 @@ const METAS_DATA = {
             {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "RED BULL 24X250ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "91905",
+          "CLIENTE": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
+          "BAIRROENT": "SEPETIBA",
+          "DTULTCOMP": "06/05/2026",
+          "produtos": [
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI NUTS ORIGINAL 20X30G"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI DB WHEY AVELA E LEITE 12X50G"
             }
           ]
         },
@@ -5180,10 +5200,6 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SWEET COCADINHA QUEIMADA 24X14G"
-            },
-            {
-              "FANTASIA": "PINATI",
               "DESCRICAO": "PINATI NUTS ORIGINAL 20X30G"
             },
             {
@@ -5193,6 +5209,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "ST PIERRE LATA RED MINT LT 24X270ML"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SWEET COCADINHA QUEIMADA 24X14G"
             },
             {
               "FANTASIA": "PINATI",
@@ -5237,46 +5257,6 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "91905",
-          "CLIENTE": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
-          "BAIRROENT": "SEPETIBA",
-          "DTULTCOMP": "06/05/2026",
-          "produtos": [
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI NUTS ORIGINAL 20X30G"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI DB WHEY AVELA E LEITE 12X50G"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G"
-            }
-          ]
-        },
-        {
-          "CODCLI": "94238",
-          "CLIENTE": "MARIMAR DROGARIA LTDA",
-          "BAIRROENT": "VARGEM GRANDE",
-          "DTULTCOMP": "04/05/2026",
-          "produtos": [
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SIMPLE WHEY CHOCO BELGA (4)16X35G"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI NUTS ORIGINAL 20X30G"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SWEET COCADINHA QUEIMADA 24X14G"
-            }
-          ]
-        },
-        {
           "CODCLI": "79479",
           "CLIENTE": "POSTO LIGHT HIGHWAY LTDA",
           "BAIRROENT": "CENTRO",
@@ -5293,19 +5273,31 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "94238",
+          "CLIENTE": "MARIMAR DROGARIA LTDA",
+          "BAIRROENT": "VARGEM GRANDE",
+          "DTULTCOMP": "04/05/2026",
+          "produtos": [
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI NUTS ORIGINAL 20X30G"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SIMPLE WHEY CHOCO BELGA (4)16X35G"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SWEET COCADINHA QUEIMADA 24X14G"
+            }
+          ]
+        },
+        {
           "CODCLI": "90886",
           "CLIENTE": "DROGARIA CRAQUE DO SANTISSIMO LTDA",
           "BAIRROENT": "SANTÍSSIMO",
           "DTULTCOMP": "30/04/2026",
           "produtos": [
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
-            },
             {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL ZERO"
@@ -5313,6 +5305,14 @@ const METAS_DATA = {
             {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
             },
             {
               "FANTASIA": "TATUZINHO",
@@ -5327,16 +5327,16 @@ const METAS_DATA = {
           "DTULTCOMP": "29/04/2026",
           "produtos": [
             {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
+              "FANTASIA": "KAISER",
+              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
             },
             {
               "FANTASIA": "VITON",
               "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
             },
             {
-              "FANTASIA": "KAISER",
-              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             }
           ]
         },
@@ -5391,6 +5391,10 @@ const METAS_DATA = {
           "DTULTCOMP": "22/04/2026",
           "produtos": [
             {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SIMPLE WHEY PISTACHE 16X35G"
+            },
+            {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
             },
@@ -5401,10 +5405,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "PINATI",
               "DESCRICAO": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SIMPLE WHEY PISTACHE 16X35G"
             }
           ]
         },
@@ -5416,11 +5416,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
+              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
             },
             {
               "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             }
           ]
         },
@@ -5447,10 +5447,6 @@ const METAS_DATA = {
           "DTULTCOMP": "16/04/2026",
           "produtos": [
             {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
-            },
-            {
               "FANTASIA": "MINALBA",
               "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 6X1,5L"
             },
@@ -5465,6 +5461,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "MINALBA",
               "DESCRICAO": "AGUA MINALBA C/ GAS 6X1,5L"
+            },
+            {
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             }
           ]
         },
@@ -5476,11 +5476,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
+              "DESCRICAO": "ESPUM CASA PERINI MOSCATEL 750ML"
             },
             {
               "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI MOSCATEL 750ML"
+              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
             }
           ]
         },
@@ -5492,6 +5492,10 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "MINALBA",
+              "DESCRICAO": "AGUA MINALBA C/ GAS 6X1,5L"
+            },
+            {
+              "FANTASIA": "MINALBA",
               "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 6X1,5L"
             },
             {
@@ -5501,10 +5505,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "MINALBA",
               "DESCRICAO": "AGUA MINERAL MINALBA C/ GAS 12X510ML"
-            },
-            {
-              "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINALBA C/ GAS 6X1,5L"
             }
           ]
         },
@@ -5849,14 +5849,6 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "PERNOD",
-              "DESCRICAO": "RUM MONTILLA CRISTAL 1L"
-            },
-            {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "RUM MONTILLA CARTA BRANCA 1L"
-            },
-            {
-              "FANTASIA": "PERNOD",
               "DESCRICAO": "RUM MONTILLA OURO 1L"
             },
             {
@@ -5890,6 +5882,14 @@ const METAS_DATA = {
             {
               "FANTASIA": "FANTE",
               "DESCRICAO": "WHISKY BLACK STONE 1LT"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "RUM MONTILLA CRISTAL 1L"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "RUM MONTILLA CARTA BRANCA 1L"
             }
           ]
         },
@@ -5921,11 +5921,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "TIAL",
-              "DESCRICAO": "AGUA DE COCO TIAL 12X1000ML"
+              "DESCRICAO": "NECTAR MISTO GOIABA 24X200ML KIDS"
             },
             {
               "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR MISTO GOIABA 24X200ML KIDS"
+              "DESCRICAO": "AGUA DE COCO TIAL 12X1000ML"
             },
             {
               "FANTASIA": "TIAL",
@@ -6018,6 +6018,18 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "95024",
+          "CLIENTE": "CASA DE QUEIJOS DISTRIBUIDORA E ATACADISTA BALNEARIO SAO PED",
+          "BAIRROENT": "BALNEÁRIO SÃO PEDRO",
+          "DTULTCOMP": "17/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "83642",
           "CLIENTE": "MINIMERCADO JARDIM ROSARIO LTDA",
           "BAIRROENT": "JARDIM ROSARIO",
@@ -6038,18 +6050,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "RECKITT",
               "DESCRICAO": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "95024",
-          "CLIENTE": "CASA DE QUEIJOS DISTRIBUIDORA E ATACADISTA BALNEARIO SAO PED",
-          "BAIRROENT": "BALNEÁRIO SÃO PEDRO",
-          "DTULTCOMP": "17/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
             }
           ]
         },
@@ -6093,10 +6093,6 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "TIAL",
-              "DESCRICAO": "REFRESCO DE UVA MINECRAFT 24X200ML"
-            },
-            {
-              "FANTASIA": "TIAL",
               "DESCRICAO": "REFRESCO DE MORANGO MINECRAFT 24X200ML"
             },
             {
@@ -6106,6 +6102,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR PESSEGO TIAL 12X250ML"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "REFRESCO DE UVA MINECRAFT 24X200ML"
             }
           ]
         },
@@ -6233,14 +6233,6 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "TIAL",
-              "DESCRICAO": "BEB LARANJA ACER AGUA COCO PLEY 12X250ML"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "BEB ABACAX MANGA AGUA COCO PLEY 12X250ML"
-            },
-            {
-              "FANTASIA": "TIAL",
               "DESCRICAO": "REFRESCO DE UVA MINECRAFT 24X200ML"
             },
             {
@@ -6286,6 +6278,14 @@ const METAS_DATA = {
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR GOIABA 12X1000ML"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "BEB LARANJA ACER AGUA COCO PLEY 12X250ML"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "BEB ABACAX MANGA AGUA COCO PLEY 12X250ML"
             }
           ]
         },
@@ -6701,6 +6701,10 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
               "DESCRICAO": "VILLA ROSA BRANCO 750ML"
             },
             {
@@ -6714,10 +6718,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             }
           ]
         },
@@ -6817,15 +6817,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
               "DESCRICAO": "ESPUM CASA PERINI MOSCATEL 750ML"
             },
             {
               "FANTASIA": "CASA PERINI",
               "DESCRICAO": "ESPUM CASA PERINI BRUT ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
             }
           ]
         },
@@ -6925,6 +6925,10 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR CAJU 12X1000ML"
+            },
+            {
+              "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR GOIABA 12X1000ML"
             },
             {
@@ -6974,10 +6978,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR ABACAXI 12X1000ML"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR CAJU 12X1000ML"
             }
           ]
         },
@@ -7025,15 +7025,15 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL"
-            },
-            {
-              "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL ZERO"
             },
             {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL TROPICAL 4X250ML"
+            },
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL"
             },
             {
               "FANTASIA": "CASA PERINI",
@@ -7052,20 +7052,8 @@ const METAS_DATA = {
               "DESCRICAO": "VINHO BARON DE LA VAUXONNE"
             },
             {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "WHISKY ROYAL SALUTE 700ML"
-            },
-            {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "RUM MALIBU 750ML"
-            },
-            {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "WHISKY ROYAL SALUTE GRAIN 700ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
+              "FANTASIA": "HENNESSY",
+              "DESCRICAO": "DOM PERIGNON VINTAGE LUMINOUS  750 ML"
             },
             {
               "FANTASIA": "HENNESSY",
@@ -7076,8 +7064,20 @@ const METAS_DATA = {
               "DESCRICAO": "VEUVE CLICQUOT BRUT 750 ML"
             },
             {
-              "FANTASIA": "HENNESSY",
-              "DESCRICAO": "DOM PERIGNON VINTAGE LUMINOUS  750 ML"
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "WHISKY ROYAL SALUTE 700ML"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "RUM MALIBU 750ML"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "WHISKY ROYAL SALUTE GRAIN 700ML"
             }
           ]
         },
@@ -7089,7 +7089,7 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "ST PIERRE VIDRO PINK LIMONADE LN 275X12"
+              "DESCRICAO": "ST PIERRE VIDRO RED MINT LN 275X12"
             },
             {
               "FANTASIA": "TIAL",
@@ -7098,10 +7098,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR CAJU 12X1000ML"
-            },
-            {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L"
             },
             {
               "FANTASIA": "TIAL",
@@ -7144,8 +7140,12 @@ const METAS_DATA = {
               "DESCRICAO": "REFRESCO DE MARACUJA MINECRAFT 24X200ML"
             },
             {
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L"
+            },
+            {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "ST PIERRE VIDRO RED MINT LN 275X12"
+              "DESCRICAO": "ST PIERRE VIDRO PINK LIMONADE LN 275X12"
             }
           ]
         },
@@ -7224,8 +7224,8 @@ const METAS_DATA = {
           "DTULTCOMP": "03/02/2026",
           "produtos": [
             {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
             },
             {
               "FANTASIA": "CASA PERINI",
@@ -7233,11 +7233,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "CASTAS",
-              "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
+              "DESCRICAO": "ESPUMANTE ALUD ROSE 750ML"
             },
             {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "ESPUMANTE ALUD ROSE 750ML"
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
             },
             {
               "FANTASIA": "CASA PERINI",
@@ -7459,22 +7459,6 @@ const METAS_DATA = {
       "clientes_cadastrados": 0,
       "nao_positivados": [
         {
-          "CODCLI": "3755",
-          "CLIENTE": "SUPERMERCADO BARRA OESTE LTDA",
-          "BAIRROENT": "PENHA CIRCULAR",
-          "DTULTCOMP": "30/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "HENNESSY",
-              "DESCRICAO": "VINHO LATITUD 33 MALBEC ROSE 750 ML"
-            },
-            {
-              "FANTASIA": "HENNESSY",
-              "DESCRICAO": "VINHO LATITUD 33 MALBEC  750 ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "16159",
           "CLIENTE": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
           "BAIRROENT": "PENHA CIRCULAR",
@@ -7491,15 +7475,27 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "3755",
+          "CLIENTE": "SUPERMERCADO BARRA OESTE LTDA",
+          "BAIRROENT": "PENHA CIRCULAR",
+          "DTULTCOMP": "30/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "HENNESSY",
+              "DESCRICAO": "VINHO LATITUD 33 MALBEC  750 ML"
+            },
+            {
+              "FANTASIA": "HENNESSY",
+              "DESCRICAO": "VINHO LATITUD 33 MALBEC ROSE 750 ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "73082",
           "CLIENTE": "PAX SUPERMERCADOS LTDA.",
           "BAIRROENT": "BENTO RIBEIRO",
           "DTULTCOMP": "30/06/2026",
           "produtos": [
-            {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "GIN ROCKS 1000ML"
-            },
             {
               "FANTASIA": "FANTE",
               "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
@@ -7519,6 +7515,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "FANTE",
               "DESCRICAO": "GIN ROCKS STRAWBERRY 1000ML"
+            },
+            {
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "GIN ROCKS 1000ML"
             }
           ]
         },
@@ -8242,11 +8242,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G"
+              "DESCRICAO": "PINATI SLIM WHEY BEIJINHO 16X35G"
             },
             {
               "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SLIM WHEY BEIJINHO 16X35G"
+              "DESCRICAO": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G"
             },
             {
               "FANTASIA": "TATUZINHO",
@@ -8917,16 +8917,16 @@ const METAS_DATA = {
           "DTULTCOMP": "29/04/2026",
           "produtos": [
             {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
             },
             {
               "FANTASIA": "FANTE",
               "DESCRICAO": "GIN ROCKS STRAWBERRY 1000ML"
             },
             {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
             }
           ]
         },
@@ -8937,12 +8937,12 @@ const METAS_DATA = {
           "DTULTCOMP": "29/04/2026",
           "produtos": [
             {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "CACHACA YPIOCA BRASILIZAR CG OURO 965ML"
-            },
-            {
               "FANTASIA": "CASA PERINI",
               "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "CACHACA YPIOCA BRASILIZAR CG OURO 965ML"
             }
           ]
         },
@@ -8965,16 +8965,12 @@ const METAS_DATA = {
           "DTULTCOMP": "23/04/2026",
           "produtos": [
             {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "CACHACA VELHO BARREIRO 910 ML"
+              "FANTASIA": "CATUABA",
+              "DESCRICAO": "COQUETEL BANANINHA REGGIANI 950ML"
             },
             {
               "FANTASIA": "DIAGEO",
               "DESCRICAO": "CACHACA YPIOCA GUARANA 1L"
-            },
-            {
-              "FANTASIA": "CATUABA",
-              "DESCRICAO": "COQUETEL BANANINHA REGGIANI 950ML"
             },
             {
               "FANTASIA": "PERNOD",
@@ -8983,6 +8979,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "COMARY",
               "DESCRICAO": "IMPERADOR 900ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "CACHACA VELHO BARREIRO 910 ML"
             }
           ]
         },
@@ -9094,6 +9094,10 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "FANTE",
+              "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
+            },
+            {
+              "FANTASIA": "FANTE",
               "DESCRICAO": "GIN ROCKS GREEN APPLE 1000ML"
             },
             {
@@ -9103,10 +9107,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "FANTE",
               "DESCRICAO": "GIN ROCKS SCILIAN LEMON 1000ML"
-            },
-            {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
             },
             {
               "FANTASIA": "BALLENA",
@@ -9158,15 +9158,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "FANTE",
+              "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
+            },
+            {
+              "FANTASIA": "FANTE",
               "DESCRICAO": "GIN ROCKS GREEN APPLE 1000ML"
             },
             {
               "FANTASIA": "FANTE",
               "DESCRICAO": "GIN ROCKS SCILIAN LEMON 1000ML"
-            },
-            {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
             }
           ]
         },
@@ -9324,7 +9324,7 @@ const METAS_DATA = {
         "Jun/26": {
           "fat_tt": {
             "meta": 200000.0,
-            "realizado": 202551.27
+            "realizado": 202297.97
           },
           "fat_castas": {
             "meta": 12000.0,
@@ -9376,11 +9376,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 95
+            "realizado": 90
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 19
+            "realizado": 18
           }
         }
       },
@@ -9818,10 +9818,6 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
               "DESCRICAO": "ESPUMANTE VILLA ROSA BLANC DE NOIRS"
             },
             {
@@ -9866,6 +9862,10 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
+            },
+            {
+              "FANTASIA": "CASTAS",
               "DESCRICAO": "HUMB. CANALE DENARIO MALBEC 750ML"
             },
             {
@@ -9882,10 +9882,6 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
-            },
-            {
-              "FANTASIA": "CASTAS",
               "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
             },
             {
@@ -9899,6 +9895,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "ESPUMANTE VILLA ROSA BLANC DE BLANCS"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             }
           ]
         },
@@ -10007,38 +10007,14 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "85451",
-          "CLIENTE": "MERCEARIA LEAO FM LTDA",
-          "BAIRROENT": "ITANHANGA",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "CRS BRANDS",
-              "DESCRICAO": "AGUARDENTE OLD CESAR 88 965 ML"
-            },
-            {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "WHISKY BALLANTINE S FINEST 1L"
-            },
-            {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "WHISKY BALLANTINE S FINEST 750ML"
-            },
-            {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "VINHO TINTO QUINTA DO MORGADO 750ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "91995",
           "CLIENTE": "DOIS AMIGOS CHOPERIA LTDA",
           "BAIRROENT": "ANIL",
           "DTULTCOMP": "18/06/2026",
           "produtos": [
             {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "GIN TANQUERAY  750 ML"
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VEJA MULTIUSO 500ML"
             },
             {
               "FANTASIA": "CASTAS",
@@ -10049,24 +10025,32 @@ const METAS_DATA = {
               "DESCRICAO": "GIN ROCKS 1000ML"
             },
             {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO 500ML"
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "GIN TANQUERAY  750 ML"
             }
           ]
         },
         {
-          "CODCLI": "85383",
-          "CLIENTE": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "CODCLI": "85451",
+          "CLIENTE": "MERCEARIA LEAO FM LTDA",
           "BAIRROENT": "ITANHANGA",
-          "DTULTCOMP": "17/06/2026",
+          "DTULTCOMP": "18/06/2026",
           "produtos": [
             {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "CACHACA VELHO BARREIRO 910 ML"
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "VINHO TINTO QUINTA DO MORGADO 750ML"
             },
             {
-              "FANTASIA": "CAMPARI",
-              "DESCRICAO": "CONHAQUE DREHER 900ML"
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "WHISKY BALLANTINE S FINEST 1L"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "WHISKY BALLANTINE S FINEST 750ML"
+            },
+            {
+              "FANTASIA": "CRS BRANDS",
+              "DESCRICAO": "AGUARDENTE OLD CESAR 88 965 ML"
             }
           ]
         },
@@ -10091,6 +10075,22 @@ const METAS_DATA = {
             {
               "FANTASIA": "DIAGEO",
               "DESCRICAO": "VODCA SMIRNOFF RED 998 ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "85383",
+          "CLIENTE": "MERCADINHO FAMILIA DM COMERCIO DE ALIMENTOS LTDA",
+          "BAIRROENT": "ITANHANGA",
+          "DTULTCOMP": "17/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "CAMPARI",
+              "DESCRICAO": "CONHAQUE DREHER 900ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "CACHACA VELHO BARREIRO 910 ML"
             }
           ]
         },
@@ -10222,10 +10222,6 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR LARANJA 12X1000ML"
-            },
-            {
-              "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR MANGA 12X1000ML"
             },
             {
@@ -10259,6 +10255,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR GOIABA 12X1000ML"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR LARANJA 12X1000ML"
             }
           ]
         },
@@ -10579,14 +10579,34 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "86214",
+          "CLIENTE": "PARADA ARCADIA PADARIA MERCEARIA E ARTESANATO LTDA",
+          "BAIRROENT": "MIGUEL PEREIRA",
+          "DTULTCOMP": "15/04/2026",
+          "produtos": [
+            {
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "7768",
           "CLIENTE": "ARMAZEM URBANO ARAGUAIA COMERCIO DE PRODUTOS ALIMENTICIOS LT",
           "BAIRROENT": "FREGUESIA",
           "DTULTCOMP": "15/04/2026",
           "produtos": [
             {
-              "FANTASIA": "TOP BIRRA",
-              "DESCRICAO": "CHANDON PASSION ROSE 750ML"
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "WHISKY BLACK & WHITE 1L"
+            },
+            {
+              "FANTASIA": "CATUABA",
+              "DESCRICAO": "COQUETEL BANANINHA REGGIANI 950ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI BRUT 750ML"
             },
             {
               "FANTASIA": "CASA PERINI",
@@ -10605,28 +10625,8 @@ const METAS_DATA = {
               "DESCRICAO": "ESPUM CASA PERINI DEMI-SEC 750ML"
             },
             {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "WHISKY BLACK & WHITE 1L"
-            },
-            {
-              "FANTASIA": "CATUABA",
-              "DESCRICAO": "COQUETEL BANANINHA REGGIANI 950ML"
-            },
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI BRUT 750ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "86214",
-          "CLIENTE": "PARADA ARCADIA PADARIA MERCEARIA E ARTESANATO LTDA",
-          "BAIRROENT": "MIGUEL PEREIRA",
-          "DTULTCOMP": "15/04/2026",
-          "produtos": [
-            {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
+              "FANTASIA": "TOP BIRRA",
+              "DESCRICAO": "CHANDON PASSION ROSE 750ML"
             }
           ]
         },
@@ -10708,7 +10708,7 @@ const METAS_DATA = {
         },
         {
           "mes": "Jun/26",
-          "fat": 202551.27,
+          "fat": 202297.97,
           "pos": 46
         },
         {
@@ -10719,7 +10719,7 @@ const METAS_DATA = {
       ],
       "previsao": {
         "fat_proj": 164002.11,
-        "fat_media_hist": 194073.95,
+        "fat_media_hist": 193989.52,
         "pos_proj": 92.0,
         "pos_media_hist": 40.3,
         "du_passados": 3,
@@ -11019,11 +11019,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR MISTO GOIABA 24X200ML KIDS"
+              "DESCRICAO": "NECTAR MISTO UVA E PERA 12X1000ML"
             },
             {
               "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR MISTO UVA E PERA 12X1000ML"
+              "DESCRICAO": "NECTAR MISTO GOIABA 24X200ML KIDS"
             },
             {
               "FANTASIA": "TIAL",
@@ -11042,32 +11042,20 @@ const METAS_DATA = {
           "DTULTCOMP": "18/06/2026",
           "produtos": [
             {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "KIT AQUARELA 7 GARRAFAS + BALDE"
-            },
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "KIT BRUT ROSE 7 GARRAFAS + BALDE"
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
             },
             {
               "FANTASIA": "FANTE",
               "DESCRICAO": "GIN ROCKS 1000ML"
             },
             {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "58584",
-          "CLIENTE": "SUPERMERCADO ALVORADA EIRELI",
-          "BAIRROENT": "ENGENHO VELHO",
-          "DTULTCOMP": "17/06/2026",
-          "produtos": [
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "KIT AQUARELA 7 GARRAFAS + BALDE"
+            },
             {
-              "FANTASIA": "51",
-              "DESCRICAO": "PIRASSUNUNGA OURO 51 965ML"
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "KIT BRUT ROSE 7 GARRAFAS + BALDE"
             }
           ]
         },
@@ -11077,10 +11065,6 @@ const METAS_DATA = {
           "BAIRROENT": "CENTRO",
           "DTULTCOMP": "17/06/2026",
           "produtos": [
-            {
-              "FANTASIA": "BEAM SUNTORY",
-              "DESCRICAO": "WHISKY JIM BEAM HONEY 1L"
-            },
             {
               "FANTASIA": "BEAM SUNTORY",
               "DESCRICAO": "WHISKY JIM BEAM APPLE 1L"
@@ -11096,6 +11080,22 @@ const METAS_DATA = {
             {
               "FANTASIA": "BEAM SUNTORY",
               "DESCRICAO": "WHISKY BOURBON MAKERS MARK 750 ML"
+            },
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM HONEY 1L"
+            }
+          ]
+        },
+        {
+          "CODCLI": "58584",
+          "CLIENTE": "SUPERMERCADO ALVORADA EIRELI",
+          "BAIRROENT": "ENGENHO VELHO",
+          "DTULTCOMP": "17/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "51",
+              "DESCRICAO": "PIRASSUNUNGA OURO 51 965ML"
             }
           ]
         },
@@ -11282,12 +11282,12 @@ const METAS_DATA = {
               "DESCRICAO": "GIN DUBAR 960ML"
             },
             {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "RUM MONTILLA OURO 1L"
-            },
-            {
               "FANTASIA": "CAMPARI",
               "DESCRICAO": "CONHAQUE DREHER 900ML"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "RUM MONTILLA OURO 1L"
             },
             {
               "FANTASIA": "PERNOD",
@@ -11310,16 +11310,16 @@ const METAS_DATA = {
               "DESCRICAO": "GIN ROCKS SCILIAN LEMON 1000ML"
             },
             {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
-            },
-            {
               "FANTASIA": "STOCK",
               "DESCRICAO": "LICOR STOCK MARULA 720 ML"
             },
             {
               "FANTASIA": "STOCK",
               "DESCRICAO": "LICOR STOCK DE DOCE DE LEITE 720 ML"
+            },
+            {
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
             },
             {
               "FANTASIA": "JURUPINGA",
@@ -11496,7 +11496,171 @@ const METAS_DATA = {
         }
       },
       "clientes_cadastrados": 0,
+      "nao_positivados": [],
+      "historico": [
+        {
+          "mes": "Aug/25",
+          "fat": 162353.67,
+          "pos": 14
+        },
+        {
+          "mes": "Sep/25",
+          "fat": 741049.11,
+          "pos": 18
+        },
+        {
+          "mes": "Oct/25",
+          "fat": 1002870.1,
+          "pos": 20
+        },
+        {
+          "mes": "Nov/25",
+          "fat": 682282.05,
+          "pos": 16
+        },
+        {
+          "mes": "Dec/25",
+          "fat": 852135.94,
+          "pos": 17
+        },
+        {
+          "mes": "Jan/26",
+          "fat": 750567.3,
+          "pos": 27
+        },
+        {
+          "mes": "Feb/26",
+          "fat": 416954.18,
+          "pos": 23
+        },
+        {
+          "mes": "Mar/26",
+          "fat": 577934.51,
+          "pos": 50
+        },
+        {
+          "mes": "Apr/26",
+          "fat": 374209.65,
+          "pos": 30
+        },
+        {
+          "mes": "May/26",
+          "fat": 319626.3,
+          "pos": 20
+        },
+        {
+          "mes": "Jun/26",
+          "fat": 194023.32,
+          "pos": 22
+        },
+        {
+          "mes": "Jul/26",
+          "fat": 46700.67,
+          "pos": 4
+        }
+      ],
+      "previsao": {
+        "fat_proj": 358038.47,
+        "fat_media_hist": 295953.09,
+        "pos_proj": 30.7,
+        "pos_media_hist": 24.0,
+        "du_passados": 3,
+        "du_total": 23
+      }
+    },
+    {
+      "nome": "MATEUS CARDOSO - OFF TRADE",
+      "rca": "439",
+      "por_mes": {
+        "Jun/26": {
+          "fat_tt": {
+            "meta": 150000.0,
+            "realizado": 29434.91
+          },
+          "fat_castas": {
+            "meta": 10000.0,
+            "realizado": 3049.5
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 1500.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 33,
+            "realizado": 26
+          },
+          "pos_hob_azeite": {
+            "meta": 3,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 7,
+            "realizado": 2
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 10
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 2
+          }
+        }
+      },
+      "clientes_cadastrados": 2,
       "nao_positivados": [
+        {
+          "CODCLI": "69216",
+          "CLIENTE": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "BAIRROENT": "VILA DOM PEDRO",
+          "DTULTCOMP": "02/07/2026",
+          "produtos": [
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB"
+            },
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA AMSTEL PURO MALTE 473 ML"
+            },
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA HEINEKEN RET 24X600ML"
+            },
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
+            }
+          ]
+        },
         {
           "CODCLI": "74872",
           "CLIENTE": "SUPERMERCADO VICALI PARATY LTDA.",
@@ -11581,283 +11745,6 @@ const METAS_DATA = {
             }
           ]
         },
-        {
-          "CODCLI": "69216",
-          "CLIENTE": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
-          "BAIRROENT": "VILA DOM PEDRO",
-          "DTULTCOMP": "02/07/2026",
-          "produtos": [
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB"
-            },
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA AMSTEL PURO MALTE 473 ML"
-            },
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN RET 24X600ML"
-            },
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
-            }
-          ]
-        },
-        {
-          "CODCLI": "74981",
-          "CLIENTE": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
-          "BAIRROENT": "L PRAIA ITINGA",
-          "DTULTCOMP": "26/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA AMSTEL ULTRA 473 ML"
-            },
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA BADEN WITBIER 12X350ML SLEEK"
-            },
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA AMSTEL ULTRA LATA 12X269 ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "69426",
-          "CLIENTE": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
-          "BAIRROENT": "PARQUE PEREQUE (MAMBUCABA)",
-          "DTULTCOMP": "23/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA AMSTEL ULTRA LN 12X275ML"
-            },
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN RET 24X600ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "79657",
-          "CLIENTE": "MERCADO TATAIS JULIETA LTDA",
-          "BAIRROENT": "JAPUIBA",
-          "DTULTCOMP": "17/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
-            }
-          ]
-        },
-        {
-          "CODCLI": "69203",
-          "CLIENTE": "MERCADO TATAIS BELEM LTDA",
-          "BAIRROENT": "PARQUE BELEM",
-          "DTULTCOMP": "17/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
-            }
-          ]
-        },
-        {
-          "CODCLI": "69204",
-          "CLIENTE": "MERCADO TATAIS PORTUGAL LTDA",
-          "BAIRROENT": "FRADE",
-          "DTULTCOMP": "17/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
-            }
-          ]
-        },
-        {
-          "CODCLI": "69202",
-          "CLIENTE": "MERCADO TATAIS JULIETA FRADE LTDA",
-          "BAIRROENT": "FRADE",
-          "DTULTCOMP": "17/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
-            }
-          ]
-        },
-        {
-          "CODCLI": "13729",
-          "CLIENTE": "PRECO OTIMO SUPERMERCADO LTDA",
-          "BAIRROENT": "VEROLME",
-          "DTULTCOMP": "11/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
-            }
-          ]
-        },
-        {
-          "CODCLI": "69375",
-          "CLIENTE": "MERCADO TATAIS ITINGA LTDA",
-          "BAIRROENT": "BRACUI",
-          "DTULTCOMP": "30/05/2026",
-          "produtos": [
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA AMSTEL ULTRA LATA 12X269 ML"
-            },
-            {
-              "FANTASIA": "HEINEKEN",
-              "DESCRICAO": "CERVEJA AMSTEL PURO MALTE 473 ML"
-            }
-          ]
-        }
-      ],
-      "historico": [
-        {
-          "mes": "Aug/25",
-          "fat": 162353.67,
-          "pos": 14
-        },
-        {
-          "mes": "Sep/25",
-          "fat": 741049.11,
-          "pos": 18
-        },
-        {
-          "mes": "Oct/25",
-          "fat": 1002870.1,
-          "pos": 20
-        },
-        {
-          "mes": "Nov/25",
-          "fat": 682282.05,
-          "pos": 16
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 852135.94,
-          "pos": 17
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 750567.3,
-          "pos": 27
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 416954.18,
-          "pos": 23
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 577934.51,
-          "pos": 50
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 374209.65,
-          "pos": 30
-        },
-        {
-          "mes": "May/26",
-          "fat": 319626.3,
-          "pos": 20
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 194023.32,
-          "pos": 22
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 46700.67,
-          "pos": 4
-        }
-      ],
-      "previsao": {
-        "fat_proj": 358038.47,
-        "fat_media_hist": 295953.09,
-        "pos_proj": 30.7,
-        "pos_media_hist": 24.0,
-        "du_passados": 3,
-        "du_total": 23
-      }
-    },
-    {
-      "nome": "MATEUS CARDOSO - OFF TRADE",
-      "rca": "439",
-      "por_mes": {
-        "Jun/26": {
-          "fat_tt": {
-            "meta": 150000.0,
-            "realizado": 29826.59
-          },
-          "fat_castas": {
-            "meta": 10000.0,
-            "realizado": 3049.5
-          },
-          "fat_domecq_passport": {
-            "meta": 0.0,
-            "realizado": 0.0
-          },
-          "fat_hob_azeite": {
-            "meta": 1500.0,
-            "realizado": 0.0
-          },
-          "fat_pinatti": {
-            "meta": 0,
-            "realizado": 0.0
-          },
-          "fat_moving": {
-            "meta": 0,
-            "realizado": 0.0
-          },
-          "pos_tt": {
-            "meta": 33,
-            "realizado": 27
-          },
-          "pos_hob_azeite": {
-            "meta": 3,
-            "realizado": 0
-          },
-          "pos_reckit": {
-            "meta": 7,
-            "realizado": 3
-          },
-          "pos_crusoe": {
-            "meta": 0,
-            "realizado": 0
-          },
-          "pos_tatuzinho": {
-            "meta": 0,
-            "realizado": 0
-          },
-          "pos_redbull": {
-            "meta": 0,
-            "realizado": 1
-          },
-          "pos_pinatti": {
-            "meta": 0,
-            "realizado": 0
-          },
-          "bonus_pernod": {
-            "meta": 0,
-            "realizado": 10
-          },
-          "pos_pernod": {
-            "meta": 0,
-            "realizado": 2
-          }
-        }
-      },
-      "clientes_cadastrados": 2,
-      "nao_positivados": [
         {
           "CODCLI": "69965",
           "CLIENTE": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
@@ -11999,6 +11886,26 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "74981",
+          "CLIENTE": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "BAIRROENT": "L PRAIA ITINGA",
+          "DTULTCOMP": "26/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA AMSTEL ULTRA 473 ML"
+            },
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA BADEN WITBIER 12X350ML SLEEK"
+            },
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA AMSTEL ULTRA LATA 12X269 ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "69045",
           "CLIENTE": "MERCADO S.A GARATUCAIA LTDA",
           "BAIRROENT": "GARATUCAIA",
@@ -12126,27 +12033,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML"
+              "DESCRICAO": "VEJA MULTIUSO CAMPESTRE 24X500ML"
             },
             {
               "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO CAMPESTRE 24X500ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "93873",
-          "CLIENTE": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
-          "BAIRROENT": "PARAÍSO",
-          "DTULTCOMP": "24/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "RECKITT",
               "DESCRICAO": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML"
-            },
-            {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO CAMPESTRE 24X500ML"
             }
           ]
         },
@@ -12182,15 +12073,63 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
             },
             {
               "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "78995",
+          "CLIENTE": "30.447.604 JACQUELINE LOURENCO DA SILVA",
+          "BAIRROENT": "VILLAGE",
+          "DTULTCOMP": "17/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO CAVAS DE ORO CABERNET FRANC 750ML"
+            },
+            {
+              "FANTASIA": "NOSSO CHOPE",
+              "DESCRICAO": "NOSSO CHOP RED DRAFT VD 6X600ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO CAVAS DE ORO CABERNET SAUV 750ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "79160",
+          "CLIENTE": "53.530.578 RICIELLE DE OLIVEIRA SOUZA",
+          "BAIRROENT": "AREAL (CUNHAMBEBE)",
+          "DTULTCOMP": "17/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI BRUT 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA  ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO CAVAS DE ORO BLEND TINTO 750ML"
             }
           ]
         },
@@ -12310,11 +12249,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
+              "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
+              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
             },
             {
               "FANTASIA": "TATUZINHO",
@@ -12355,26 +12294,6 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "78995",
-          "CLIENTE": "30.447.604 JACQUELINE LOURENCO DA SILVA",
-          "BAIRROENT": "VILLAGE",
-          "DTULTCOMP": "17/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "NOSSO CHOPE",
-              "DESCRICAO": "NOSSO CHOP RED DRAFT VD 6X600ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO CAVAS DE ORO CABERNET SAUV 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO CAVAS DE ORO CABERNET FRANC 750ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "74975",
           "CLIENTE": "JOSE FRANCISCO DA SILVA FILHO - MERCEARIA",
           "BAIRROENT": "MONSUABA",
@@ -12403,43 +12322,11 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "79160",
-          "CLIENTE": "53.530.578 RICIELLE DE OLIVEIRA SOUZA",
-          "BAIRROENT": "AREAL (CUNHAMBEBE)",
-          "DTULTCOMP": "17/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA  ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO CAVAS DE ORO BLEND TINTO 750ML"
-            },
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI BRUT 750ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "69866",
           "CLIENTE": "MERCADO REI DOS REIS NISSIN LTDA",
           "BAIRROENT": "SERRA D'AGUA (CUNHAMBEBE)",
           "DTULTCOMP": "17/06/2026",
           "produtos": [
-            {
-              "FANTASIA": "COMARY",
-              "DESCRICAO": "CANTINA DA SERRA 1,5L"
-            },
             {
               "FANTASIA": "COMARY",
               "DESCRICAO": "COQUETEL PINK MOON 12X600ML - PET"
@@ -12449,8 +12336,72 @@ const METAS_DATA = {
               "DESCRICAO": "CANTINA DA SERRA 750ML"
             },
             {
+              "FANTASIA": "COMARY",
+              "DESCRICAO": "CANTINA DA SERRA 1,5L"
+            },
+            {
               "FANTASIA": "51",
               "DESCRICAO": "PIRASSUNUNGA 51 965 ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "69202",
+          "CLIENTE": "MERCADO TATAIS JULIETA LTDA",
+          "BAIRROENT": "FRADE (CUNHAMBEBE)",
+          "DTULTCOMP": "17/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
+            }
+          ]
+        },
+        {
+          "CODCLI": "69203",
+          "CLIENTE": "MERCADO TATAIS BELEM LTDA",
+          "BAIRROENT": "PARQUE BELEM",
+          "DTULTCOMP": "17/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
+            }
+          ]
+        },
+        {
+          "CODCLI": "69204",
+          "CLIENTE": "MERCADO TATAIS PORTUGAL LTDA",
+          "BAIRROENT": "FRADE",
+          "DTULTCOMP": "17/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
+            }
+          ]
+        },
+        {
+          "CODCLI": "69202",
+          "CLIENTE": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "BAIRROENT": "FRADE",
+          "DTULTCOMP": "17/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
+            }
+          ]
+        },
+        {
+          "CODCLI": "13729",
+          "CLIENTE": "PRECO OTIMO SUPERMERCADO LTDA",
+          "BAIRROENT": "VEROLME",
+          "DTULTCOMP": "11/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
             }
           ]
         },
@@ -12599,26 +12550,18 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "74981",
-          "CLIENTE": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
-          "BAIRROENT": "L PRAIA ITINGA",
-          "DTULTCOMP": "27/05/2026",
+          "CODCLI": "69375",
+          "CLIENTE": "MERCADO TATAIS ITINGA LTDA",
+          "BAIRROENT": "BRACUI",
+          "DTULTCOMP": "30/05/2026",
           "produtos": [
             {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML"
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA AMSTEL ULTRA LATA 12X269 ML"
             },
             {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO LAV ALC PROMO 24X500ML"
-            },
-            {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML"
-            },
-            {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO CAMPESTRE 24X500ML"
+              "FANTASIA": "HEINEKEN",
+              "DESCRICAO": "CERVEJA AMSTEL PURO MALTE 473 ML"
             }
           ]
         },
@@ -12689,10 +12632,6 @@ const METAS_DATA = {
           "DTULTCOMP": "13/05/2026",
           "produtos": [
             {
-              "FANTASIA": "ROBINSON CRUSOE",
-              "DESCRICAO": "RC SARDINHA MOLHO DE TOMATE 50X125G"
-            },
-            {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
             },
@@ -12707,6 +12646,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "COMARY",
               "DESCRICAO": "COMARY MELFORT COQUETEL DE MEL 1L"
+            },
+            {
+              "FANTASIA": "ROBINSON CRUSOE",
+              "DESCRICAO": "RC SARDINHA MOLHO DE TOMATE 50X125G"
             }
           ]
         },
@@ -12731,50 +12674,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "FANTE",
               "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "69202",
-          "CLIENTE": "MERCADO TATAIS JULIETA LTDA",
-          "BAIRROENT": "FRADE (CUNHAMBEBE)",
-          "DTULTCOMP": "25/04/2026",
-          "produtos": [
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI BRUT 750ML"
-            },
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI BRUT ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO MOV BRANCO"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "ESPUMANTE ALUD ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO GRAVEDAD SAUV. BLANC 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA  ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
             }
           ]
         },
@@ -12825,40 +12724,16 @@ const METAS_DATA = {
               "DESCRICAO": "CONHAQUE DREHER 900ML"
             },
             {
-              "FANTASIA": "CASA DI CONTI",
-              "DESCRICAO": "JURUBEBA DUNORTE VINHO COMPOSTO 900ML"
-            },
-            {
               "FANTASIA": "COMARY",
               "DESCRICAO": "COMARY MELFORT COQUETEL DE MEL 1L"
             },
             {
               "FANTASIA": "COMARY",
               "DESCRICAO": "CATUABA SELVAGEM 900ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "76017",
-          "CLIENTE": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
-          "BAIRROENT": "NOVA ANGRA (CUNHAMBEBE)",
-          "DTULTCOMP": "01/04/2026",
-          "produtos": [
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "ST PIERRE LATA PINK LEMON LT 24X270ML"
             },
             {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR LARANJA 12X1000ML"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR MARACUJA 12X1000ML"
+              "FANTASIA": "CASA DI CONTI",
+              "DESCRICAO": "JURUBEBA DUNORTE VINHO COMPOSTO 900ML"
             }
           ]
         },
@@ -12875,6 +12750,30 @@ const METAS_DATA = {
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "CACHACA VELHO BARREIRO 910 ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "76017",
+          "CLIENTE": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "BAIRROENT": "NOVA ANGRA (CUNHAMBEBE)",
+          "DTULTCOMP": "01/04/2026",
+          "produtos": [
+            {
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR LARANJA 12X1000ML"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR MARACUJA 12X1000ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "ST PIERRE LATA PINK LEMON LT 24X270ML"
             }
           ]
         },
@@ -12901,24 +12800,36 @@ const METAS_DATA = {
           "DTULTCOMP": "25/03/2026",
           "produtos": [
             {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "WHISKY CHIVAS REGAL XV 750ML"
-            },
-            {
               "FANTASIA": "DIAGEO",
               "DESCRICAO": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "WHISKY CHIVAS REGAL XV 750ML"
             }
           ]
         },
         {
-          "CODCLI": "69216",
-          "CLIENTE": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
-          "BAIRROENT": "VILA DOM PEDRO",
-          "DTULTCOMP": "06/03/2026",
+          "CODCLI": "93873",
+          "CLIENTE": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
+          "BAIRROENT": "PARAÍSO",
+          "DTULTCOMP": "13/03/2026",
           "produtos": [
             {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "WHISKY PASSPORT 1L"
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VANISH PO WHITE POTE 12X450G"
+            },
+            {
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "KIT VANISH LIQ PINK1,5L+WHITE 1,5L 50%"
+            },
+            {
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML"
+            },
+            {
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VANISH PO PINK POTE 12X450G"
             }
           ]
         }
@@ -12951,8 +12862,8 @@ const METAS_DATA = {
         },
         {
           "mes": "Jun/26",
-          "fat": 29826.58,
-          "pos": 30
+          "fat": 29434.9,
+          "pos": 29
         },
         {
           "mes": "Jul/26",
@@ -12962,9 +12873,9 @@ const METAS_DATA = {
       ],
       "previsao": {
         "fat_proj": 20306.55,
-        "fat_media_hist": 42168.07,
+        "fat_media_hist": 42037.51,
         "pos_proj": 30.7,
-        "pos_media_hist": 28.7,
+        "pos_media_hist": 28.3,
         "du_passados": 3,
         "du_total": 23
       }
@@ -13274,11 +13185,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL SF MAÇA 4X250ML"
+              "DESCRICAO": "4 PACK RED BULL ZERO"
             },
             {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL ZERO"
+              "DESCRICAO": "4 PACK RED BULL SF MAÇA 4X250ML"
             },
             {
               "FANTASIA": "RED BULL",
@@ -13454,15 +13365,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "ST PIERRE ZERO LATA RED MINT LT 24X310ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
               "DESCRICAO": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML"
             },
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "ST PIERRE ZERO LATA PINK LEMON  24X310ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "ST PIERRE ZERO LATA RED MINT LT 24X310ML"
             },
             {
               "FANTASIA": "ROBINSON CRUSOE",
@@ -13806,15 +13717,15 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI DOUBLE BAR DOCE DE LEITE 16X35G"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G"
+              "DESCRICAO": "PINATI DOUBLE BAR BRIGADEIRO 16X35G"
             },
             {
               "FANTASIA": "PINATI",
               "DESCRICAO": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI DOUBLE BAR DOCE DE LEITE 16X35G"
             },
             {
               "FANTASIA": "PINATI",
@@ -13834,7 +13745,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI DOUBLE BAR BRIGADEIRO 16X35G"
+              "DESCRICAO": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G"
             }
           ]
         },
@@ -13846,11 +13757,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "ST PIERRE LATA PALOMA LT 270MLX6"
+              "DESCRICAO": "ST PIERRE LATA RED MINT LT 6X270ML"
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "ST PIERRE LATA RED MINT LT 6X270ML"
+              "DESCRICAO": "ST PIERRE LATA PALOMA LT 270MLX6"
             },
             {
               "FANTASIA": "VITON",
@@ -13883,63 +13794,11 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "91357",
-          "CLIENTE": "JLCC MM COM PROD FARMACEUTICOS LTDA",
-          "BAIRROENT": "REALENGO",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL"
-            }
-          ]
-        },
-        {
-          "CODCLI": "95415",
-          "CLIENTE": "55.064.852 MABEL FERNANDA DE OLIVEIRA",
-          "BAIRROENT": "BANGU",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
-            },
-            {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML"
-            },
-            {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO CAMPESTRE 24X500ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "95427",
           "CLIENTE": "PADARIA E MERCADINHO RENASCER DA SERRA ALTA LTDA",
           "BAIRROENT": "CAMPO GRANDE",
           "DTULTCOMP": "18/06/2026",
           "produtos": [
-            {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "GIN GORDONS 750 ML"
-            },
-            {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "WHISKY CHIVAS REGAL 12 ANOS 1L"
-            },
-            {
-              "FANTASIA": "51",
-              "DESCRICAO": "ICE 51 BALADA LONG NECK 24X275 ML"
-            },
-            {
-              "FANTASIA": "51",
-              "DESCRICAO": "ICE 51 LIMAO LONG NECK 24X275ML"
-            },
-            {
-              "FANTASIA": "51",
-              "DESCRICAO": "ICE 51 FRUIT LONG NECK 24X275 ML"
-            },
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR MACA TIAL 12X1000ML"
@@ -13971,6 +13830,26 @@ const METAS_DATA = {
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR GOIABA 12X1000ML"
+            },
+            {
+              "FANTASIA": "51",
+              "DESCRICAO": "ICE 51 BALADA LONG NECK 24X275 ML"
+            },
+            {
+              "FANTASIA": "51",
+              "DESCRICAO": "ICE 51 LIMAO LONG NECK 24X275ML"
+            },
+            {
+              "FANTASIA": "51",
+              "DESCRICAO": "ICE 51 FRUIT LONG NECK 24X275 ML"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "GIN GORDONS 750 ML"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "WHISKY CHIVAS REGAL 12 ANOS 1L"
             }
           ]
         },
@@ -13981,20 +13860,20 @@ const METAS_DATA = {
           "DTULTCOMP": "18/06/2026",
           "produtos": [
             {
-              "FANTASIA": "51",
-              "DESCRICAO": "ICE 51 BALADA LONG NECK 24X275 ML"
-            },
-            {
-              "FANTASIA": "51",
-              "DESCRICAO": "ICE 51 FRUIT LONG NECK 24X275 ML"
-            },
-            {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR LARANJA 12X1000ML"
             },
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR MISTO UVA E PERA 12X1000ML"
+            },
+            {
+              "FANTASIA": "51",
+              "DESCRICAO": "ICE 51 FRUIT LONG NECK 24X275 ML"
+            },
+            {
+              "FANTASIA": "51",
+              "DESCRICAO": "ICE 51 BALADA LONG NECK 24X275 ML"
             }
           ]
         },
@@ -14005,16 +13884,48 @@ const METAS_DATA = {
           "DTULTCOMP": "18/06/2026",
           "produtos": [
             {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR MANGA 12X1000ML"
+            },
+            {
               "FANTASIA": "RECKITT",
               "DESCRICAO": "VEJA MULTIUSO CAMPESTRE 24X500ML"
             },
             {
               "FANTASIA": "RECKITT",
               "DESCRICAO": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "95415",
+          "CLIENTE": "55.064.852 MABEL FERNANDA DE OLIVEIRA",
+          "BAIRROENT": "BANGU",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML"
             },
             {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR MANGA 12X1000ML"
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VEJA MULTIUSO CAMPESTRE 24X500ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "91357",
+          "CLIENTE": "JLCC MM COM PROD FARMACEUTICOS LTDA",
+          "BAIRROENT": "REALENGO",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL"
             }
           ]
         },
@@ -14302,10 +14213,6 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING JUICE PROTEIN LARANJA 12X300ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING JUICE PROTEIN MACA 12X300ML"
             },
             {
@@ -14319,6 +14226,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING JUICE PROTEIN LARANJA 12X300ML"
             }
           ]
         },
@@ -14733,16 +14644,16 @@ const METAS_DATA = {
           "DTULTCOMP": "13/05/2026",
           "produtos": [
             {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SWEET COCADINHA QUEIMADA 24X14G"
-            },
-            {
               "FANTASIA": "VITON",
               "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
             },
             {
               "FANTASIA": "RECKITT",
               "DESCRICAO": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SWEET COCADINHA QUEIMADA 24X14G"
             }
           ]
         },
@@ -14923,6 +14834,38 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91410",
+          "CLIENTE": "RESTAURANTE E BAR RAINHA DE JACAREPAGUA LTDA",
+          "BAIRROENT": "VARGEM PEQUENA",
+          "DTULTCOMP": "29/04/2026",
+          "produtos": [
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL"
+            },
+            {
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
+            },
+            {
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "91413",
+          "CLIENTE": "KATIA ALVES DA SILVA 05665250708",
+          "BAIRROENT": "JACAREPAGUA",
+          "DTULTCOMP": "29/04/2026",
+          "produtos": [
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL"
+            }
+          ]
+        },
+        {
           "CODCLI": "82825",
           "CLIENTE": "AMOR DO LINS MERCADO LTDA",
           "BAIRROENT": "MEIER",
@@ -14947,43 +14890,15 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "91410",
-          "CLIENTE": "RESTAURANTE E BAR RAINHA DE JACAREPAGUA LTDA",
-          "BAIRROENT": "VARGEM PEQUENA",
-          "DTULTCOMP": "29/04/2026",
-          "produtos": [
-            {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
-            },
-            {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
-            },
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL"
-            }
-          ]
-        },
-        {
-          "CODCLI": "91413",
-          "CLIENTE": "KATIA ALVES DA SILVA 05665250708",
-          "BAIRROENT": "JACAREPAGUA",
-          "DTULTCOMP": "29/04/2026",
-          "produtos": [
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL"
-            }
-          ]
-        },
-        {
           "CODCLI": "90993",
           "CLIENTE": "MARAMBAIA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
           "BAIRROENT": "BARRA DE GUARATIBA",
           "DTULTCOMP": "28/04/2026",
           "produtos": [
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
+            },
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
@@ -15011,10 +14926,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
             }
           ]
         },
@@ -15024,6 +14935,10 @@ const METAS_DATA = {
           "BAIRROENT": "GUARATIBA",
           "DTULTCOMP": "28/04/2026",
           "produtos": [
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
+            },
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
@@ -15039,10 +14954,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
             }
           ]
         },
@@ -15094,10 +15005,6 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL SF NECTARINA 4X250ML"
-            },
-            {
-              "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL MORANGO PESSEGO"
             },
             {
@@ -15123,6 +15030,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL SF POMELO 4X250ML"
+            },
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL SF NECTARINA 4X250ML"
             }
           ]
         },
@@ -15167,22 +15078,34 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "91583",
+          "CLIENTE": "GOLD FARMA DROGARIA CG LTDA",
+          "BAIRROENT": "CAMPO GRANDE",
+          "DTULTCOMP": "24/04/2026",
+          "produtos": [
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL"
+            },
+            {
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "91673",
           "CLIENTE": "TOCA DO AUTOMOVEL LTDA",
           "BAIRROENT": "JARDIM GUANABARA",
           "DTULTCOMP": "24/04/2026",
           "produtos": [
             {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
-            },
-            {
               "FANTASIA": "MINALBA",
               "DESCRICAO": "AGUA MINERAL MINALBA C/ GAS 12X510ML"
             },
             {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR UVA TIAL 12X250ML"
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             },
             {
               "FANTASIA": "TIAL",
@@ -15193,24 +15116,12 @@ const METAS_DATA = {
               "DESCRICAO": "NECTAR LARANJA TIAL 12X250ML"
             },
             {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI PROTEIN CUPS AVELA 18X21G"
-            }
-          ]
-        },
-        {
-          "CODCLI": "91583",
-          "CLIENTE": "GOLD FARMA DROGARIA CG LTDA",
-          "BAIRROENT": "CAMPO GRANDE",
-          "DTULTCOMP": "24/04/2026",
-          "produtos": [
-            {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR UVA TIAL 12X250ML"
             },
             {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL"
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI PROTEIN CUPS AVELA 18X21G"
             }
           ]
         },
@@ -15299,6 +15210,42 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "94426",
+          "CLIENTE": "MINIMERCADO E BAR BUROCK LTDA",
+          "BAIRROENT": "MANGUINHOS",
+          "DTULTCOMP": "14/04/2026",
+          "produtos": [
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SWEET COCADINHA CHOCO 24X14G"
+            },
+            {
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI NUTS COCO 20X30G"
+            }
+          ]
+        },
+        {
+          "CODCLI": "86901",
+          "CLIENTE": "MERCADO T F DA COSTA LTDA",
+          "BAIRROENT": "BALNEARIO DAS CONCHAS",
+          "DTULTCOMP": "14/04/2026",
+          "produtos": [
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL"
+            },
+            {
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "93401",
           "CLIENTE": "MERCADO PONTO CERTO DAS CONCHAS LTDA",
           "BAIRROENT": "BALNEÁRIO DAS CONCHAS",
@@ -15319,18 +15266,6 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "91525",
-          "CLIENTE": "31.626.449 RAMON RAMOS FERNANDES",
-          "BAIRROENT": "BENTO RIBEIRO",
-          "DTULTCOMP": "14/04/2026",
-          "produtos": [
-            {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "81152",
           "CLIENTE": "SUPER REDE MERCEARIA DE REALENGO LTDA",
           "BAIRROENT": "REALENGO",
@@ -15343,38 +15278,14 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "86901",
-          "CLIENTE": "MERCADO T F DA COSTA LTDA",
-          "BAIRROENT": "BALNEARIO DAS CONCHAS",
+          "CODCLI": "91525",
+          "CLIENTE": "31.626.449 RAMON RAMOS FERNANDES",
+          "BAIRROENT": "BENTO RIBEIRO",
           "DTULTCOMP": "14/04/2026",
           "produtos": [
             {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML"
-            },
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL"
-            }
-          ]
-        },
-        {
-          "CODCLI": "94426",
-          "CLIENTE": "MINIMERCADO E BAR BUROCK LTDA",
-          "BAIRROENT": "MANGUINHOS",
-          "DTULTCOMP": "14/04/2026",
-          "produtos": [
-            {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI NUTS COCO 20X30G"
-            },
-            {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SWEET COCADINHA CHOCO 24X14G"
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             }
           ]
         },
@@ -15385,8 +15296,16 @@ const METAS_DATA = {
           "DTULTCOMP": "10/04/2026",
           "produtos": [
             {
+              "FANTASIA": "ROBINSON CRUSOE",
+              "DESCRICAO": "RC PATE ATUM COM AZEITONAS 12X80G"
+            },
+            {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL"
+            },
+            {
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML"
             },
             {
               "FANTASIA": "VITON",
@@ -15397,32 +15316,8 @@ const METAS_DATA = {
               "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
             },
             {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML"
-            },
-            {
-              "FANTASIA": "ROBINSON CRUSOE",
-              "DESCRICAO": "RC PATE ATUM COM AZEITONAS 12X80G"
-            },
-            {
               "FANTASIA": "ROBINSON CRUSOE",
               "DESCRICAO": "RC PATE ATUM TRADICIONAL 12X80G"
-            }
-          ]
-        },
-        {
-          "CODCLI": "94396",
-          "CLIENTE": "CASA DE AVES NOVA BRASILIA LTDA",
-          "BAIRROENT": "BONSUCESSO",
-          "DTULTCOMP": "10/04/2026",
-          "produtos": [
-            {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
-            },
-            {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML"
             }
           ]
         },
@@ -15433,10 +15328,6 @@ const METAS_DATA = {
           "DTULTCOMP": "10/04/2026",
           "produtos": [
             {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
-            },
-            {
               "FANTASIA": "RECKITT",
               "DESCRICAO": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML"
             },
@@ -15445,20 +15336,40 @@ const METAS_DATA = {
               "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             },
             {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR UVA TIAL 12X250ML"
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
             },
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR MANGA 12X1000ML"
             },
             {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SWEET COCADINHA CHOCO 24X14G"
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR UVA TIAL 12X250ML"
             },
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "ST PIERRE LATA PALOMA LT 270MLX6"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SWEET COCADINHA CHOCO 24X14G"
+            }
+          ]
+        },
+        {
+          "CODCLI": "94396",
+          "CLIENTE": "CASA DE AVES NOVA BRASILIA LTDA",
+          "BAIRROENT": "BONSUCESSO",
+          "DTULTCOMP": "10/04/2026",
+          "produtos": [
+            {
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML"
+            },
+            {
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             }
           ]
         },
@@ -15470,7 +15381,7 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL TROPICAL 4X250ML"
+              "DESCRICAO": "4 PACK RED BULL"
             },
             {
               "FANTASIA": "VITON",
@@ -15478,15 +15389,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "ROBINSON CRUSOE",
-              "DESCRICAO": "RC PATE ATUM COM AZEITONAS 12X80G"
-            },
-            {
-              "FANTASIA": "ROBINSON CRUSOE",
               "DESCRICAO": "RC PATE ATUM TRADICIONAL 12X80G"
             },
             {
+              "FANTASIA": "ROBINSON CRUSOE",
+              "DESCRICAO": "RC PATE ATUM COM AZEITONAS 12X80G"
+            },
+            {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL"
+              "DESCRICAO": "4 PACK RED BULL TROPICAL 4X250ML"
             }
           ]
         },
@@ -15498,11 +15409,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 6X1,5L"
+              "DESCRICAO": "AGUA MINALBA C/ GAS 6X1,5L"
             },
             {
               "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINALBA C/ GAS 6X1,5L"
+              "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 6X1,5L"
             }
           ]
         },
@@ -16101,15 +16012,15 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "ROBINSON CRUSOE",
-              "DESCRICAO": "RC SARDINHA EM OLEO 50X125G"
-            },
-            {
-              "FANTASIA": "ROBINSON CRUSOE",
               "DESCRICAO": "RC SARDINHA MOLHO DE TOMATE 50X125G"
             },
             {
               "FANTASIA": "ROBINSON CRUSOE",
               "DESCRICAO": "RC ATUM RALADO NATURAL 24X140G"
+            },
+            {
+              "FANTASIA": "ROBINSON CRUSOE",
+              "DESCRICAO": "RC SARDINHA EM OLEO 50X125G"
             }
           ]
         },
@@ -16141,11 +16052,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
+              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
             },
             {
               "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             },
             {
               "FANTASIA": "CASTAS",
@@ -16309,11 +16220,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "ST PIERRE ZERO LATA RED MINT LT 6X310ML"
+              "DESCRICAO": "CACHACA VELHO BARREIRO 910 ML"
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "CACHACA VELHO BARREIRO 910 ML"
+              "DESCRICAO": "ST PIERRE ZERO LATA RED MINT LT 6X310ML"
             },
             {
               "FANTASIA": "AGUA NA CAIXA",
@@ -16369,11 +16280,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "KAISER",
-              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
+              "DESCRICAO": "CERVEJA HEINEKEN LONG 24X330ML"
             },
             {
               "FANTASIA": "KAISER",
-              "DESCRICAO": "CERVEJA HEINEKEN LONG 24X330ML"
+              "DESCRICAO": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID"
             },
             {
               "FANTASIA": "COMARY",
@@ -16429,15 +16340,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "ROBINSON CRUSOE",
-              "DESCRICAO": "RC SARDINHA EM OLEO 50X125G"
-            },
-            {
-              "FANTASIA": "ROBINSON CRUSOE",
               "DESCRICAO": "RC ATUM RALADO NATURAL 24X140G"
             },
             {
               "FANTASIA": "ROBINSON CRUSOE",
               "DESCRICAO": "RC ATUM RALADO OLEO 24X140G"
+            },
+            {
+              "FANTASIA": "ROBINSON CRUSOE",
+              "DESCRICAO": "RC SARDINHA EM OLEO 50X125G"
             }
           ]
         },
@@ -16504,12 +16415,12 @@ const METAS_DATA = {
               "DESCRICAO": "VILLA ROSA  ROSE 750ML"
             },
             {
-              "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G"
-            },
-            {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "VILLA ROSA BRANCO 750ML"
+            },
+            {
+              "FANTASIA": "PINATI",
+              "DESCRICAO": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G"
             }
           ]
         },
@@ -16525,15 +16436,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
-            },
-            {
-              "FANTASIA": "CASTAS",
               "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE"
             },
             {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "VINHO GRAVEDAD CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
             },
             {
               "FANTASIA": "FANTE",
@@ -17022,34 +16933,6 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "91353",
-          "CLIENTE": "GR 2 ALIMENTOS LTDA",
-          "BAIRROENT": "SEPETIBA",
-          "DTULTCOMP": "02/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR MISTO GOIABA 24X200ML KIDS"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR DE MARACUJA 24X200ML KIDS"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR MISTO PESSEGO E PERA 24X200ML KID"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR MISTO UVA E PERA 24X200ML KIDS"
-            },
-            {
-              "FANTASIA": "INTERFOOD",
-              "DESCRICAO": "AMARULA C LIQUEUR 750 ML + 1 COPO"
-            }
-          ]
-        },
-        {
           "CODCLI": "91443",
           "CLIENTE": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM IRIS LTD",
           "BAIRROENT": "VILAR DOS TELES",
@@ -17086,6 +16969,34 @@ const METAS_DATA = {
             {
               "FANTASIA": "PERNOD",
               "DESCRICAO": "CONHAQUE DOMECQ 1L"
+            }
+          ]
+        },
+        {
+          "CODCLI": "91353",
+          "CLIENTE": "GR 2 ALIMENTOS LTDA",
+          "BAIRROENT": "SEPETIBA",
+          "DTULTCOMP": "02/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR MISTO GOIABA 24X200ML KIDS"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR DE MARACUJA 24X200ML KIDS"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR MISTO PESSEGO E PERA 24X200ML KID"
+            },
+            {
+              "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR MISTO UVA E PERA 24X200ML KIDS"
+            },
+            {
+              "FANTASIA": "INTERFOOD",
+              "DESCRICAO": "AMARULA C LIQUEUR 750 ML + 1 COPO"
             }
           ]
         },
@@ -17409,6 +17320,10 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "TIAL",
+              "DESCRICAO": "NECTAR MISTO GOIABA 24X200ML KIDS"
+            },
+            {
+              "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR MISTO UVA E PERA 24X200ML KIDS"
             },
             {
@@ -17426,10 +17341,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR MISTO MANGA 24X200ML KIDS"
-            },
-            {
-              "FANTASIA": "TIAL",
-              "DESCRICAO": "NECTAR MISTO GOIABA 24X200ML KIDS"
             },
             {
               "FANTASIA": "PINATI",
@@ -17609,11 +17520,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
+              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
             },
             {
               "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             }
           ]
         },
@@ -17624,16 +17535,16 @@ const METAS_DATA = {
           "DTULTCOMP": "15/04/2026",
           "produtos": [
             {
-              "FANTASIA": "CATUABA",
-              "DESCRICAO": "COQUETEL BANANINHA REGGIANI 950ML"
-            },
-            {
               "FANTASIA": "FANTE",
               "DESCRICAO": "GIN ROCKS STRAWBERRY 1000ML"
             },
             {
               "FANTASIA": "FANTE",
               "DESCRICAO": "GIN ROCKS 1000ML"
+            },
+            {
+              "FANTASIA": "CATUABA",
+              "DESCRICAO": "COQUETEL BANANINHA REGGIANI 950ML"
             }
           ]
         },
@@ -17716,6 +17627,14 @@ const METAS_DATA = {
           "DTULTCOMP": "25/03/2026",
           "produtos": [
             {
+              "FANTASIA": "ROBINSON CRUSOE",
+              "DESCRICAO": "RC ATUM RALADO NATURAL 24X140G"
+            },
+            {
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VANISH LIQUIDO WHITE GARAFFA 12X500ML"
+            },
+            {
               "FANTASIA": "RECKITT",
               "DESCRICAO": "VANISH LIQUIDO PINK GARRAFA 12X500ML"
             },
@@ -17736,8 +17655,8 @@ const METAS_DATA = {
               "DESCRICAO": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML"
             },
             {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VANISH LIQUIDO WHITE GARAFFA 12X500ML"
+              "FANTASIA": "ROBINSON CRUSOE",
+              "DESCRICAO": "RC ATUM RALADO OLEO 24X140G"
             },
             {
               "FANTASIA": "TATUZINHO",
@@ -17750,14 +17669,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "ROBINSON CRUSOE",
               "DESCRICAO": "RC SARDINHA MOLHO DE TOMATE 50X125G"
-            },
-            {
-              "FANTASIA": "ROBINSON CRUSOE",
-              "DESCRICAO": "RC ATUM RALADO NATURAL 24X140G"
-            },
-            {
-              "FANTASIA": "ROBINSON CRUSOE",
-              "DESCRICAO": "RC ATUM RALADO OLEO 24X140G"
             }
           ]
         },
@@ -17768,16 +17679,8 @@ const METAS_DATA = {
           "DTULTCOMP": "04/03/2026",
           "produtos": [
             {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI MOSCATEL 750ML"
-            },
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI BRUT ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI DEMI-SEC 750ML"
+              "FANTASIA": "FANTE",
+              "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
             },
             {
               "FANTASIA": "FANTE",
@@ -17788,12 +17691,20 @@ const METAS_DATA = {
               "DESCRICAO": "GIN ROCKS 1000ML"
             },
             {
-              "FANTASIA": "FANTE",
-              "DESCRICAO": "GIN ROCKS WATERMELON 1000ML"
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI BRUT ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI DEMI-SEC 750ML"
             },
             {
               "FANTASIA": "CASA PERINI",
               "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI MOSCATEL 750ML"
             }
           ]
         }
@@ -18020,34 +17931,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "CACHACA VELHO BARREIRO 910 ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "95530",
-          "CLIENTE": "DROGARIA LLIPE FARMA LTDA",
-          "BAIRROENT": "IPANEMA",
-          "DTULTCOMP": "30/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
             }
           ]
         },
@@ -18356,6 +18239,34 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "95530",
+          "CLIENTE": "DROGARIA LLIPE FARMA LTDA",
+          "BAIRROENT": "IPANEMA",
+          "DTULTCOMP": "30/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "VITON",
+              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN UVA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN TANGERINA 12X500ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "63723",
           "CLIENTE": "FONTES DE PRODUTOS NATURAIS LTDA",
           "BAIRROENT": "IPANEMA",
@@ -18363,11 +18274,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINERAL MINALBA C/ GAS 12X310ML"
+              "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 12X310ML"
             },
             {
               "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 12X310ML"
+              "DESCRICAO": "AGUA MINERAL MINALBA C/ GAS 12X310ML"
             }
           ]
         },
@@ -18484,6 +18395,26 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "78872",
+          "CLIENTE": "BAR E RESTAURANTE SOCIAL TRAPIA LTDA",
+          "BAIRROENT": "ROCINHA",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "NOSSO CHOPE",
+              "DESCRICAO": "NOSSO CHOP RED DRAFT PET 12X600ML"
+            },
+            {
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML"
+            },
+            {
+              "FANTASIA": "AURORA",
+              "DESCRICAO": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "95189",
           "CLIENTE": "58.508.336 FERNANDO MOREIRA DE SOUZA",
           "BAIRROENT": "ROCINHA",
@@ -18496,26 +18427,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "CASA PERINI",
               "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "78872",
-          "CLIENTE": "BAR E RESTAURANTE SOCIAL TRAPIA LTDA",
-          "BAIRROENT": "ROCINHA",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "AURORA",
-              "DESCRICAO": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML"
-            },
-            {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML"
-            },
-            {
-              "FANTASIA": "NOSSO CHOPE",
-              "DESCRICAO": "NOSSO CHOP RED DRAFT PET 12X600ML"
             }
           ]
         },
@@ -18538,20 +18449,20 @@ const METAS_DATA = {
           "DTULTCOMP": "17/06/2026",
           "produtos": [
             {
-              "FANTASIA": "HENNESSY",
-              "DESCRICAO": "CHANDON RESERVE BRUT ROSE 750ML"
-            },
-            {
-              "FANTASIA": "HENNESSY",
-              "DESCRICAO": "ESPUMANTE CHANDON RESERVE BRUT 750ML"
-            },
-            {
               "FANTASIA": "PERNOD",
               "DESCRICAO": "RUM MONTILLA OURO 1L"
             },
             {
               "FANTASIA": "CAMPARI",
               "DESCRICAO": "APERITIVO APEROL 750 ML"
+            },
+            {
+              "FANTASIA": "HENNESSY",
+              "DESCRICAO": "CHANDON RESERVE BRUT ROSE 750ML"
+            },
+            {
+              "FANTASIA": "HENNESSY",
+              "DESCRICAO": "ESPUMANTE CHANDON RESERVE BRUT 750ML"
             }
           ]
         },
@@ -18866,12 +18777,12 @@ const METAS_DATA = {
           "DTULTCOMP": "13/05/2026",
           "produtos": [
             {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "WHISKY OLD PARR 750ML"
-            },
-            {
               "FANTASIA": "PERNOD",
               "DESCRICAO": "WHISKY CHIVAS REGAL 12 ANOS 1L"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "WHISKY OLD PARR 750ML"
             }
           ]
         },
@@ -18911,15 +18822,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "RED BULL TROPICAL 24X250ML"
-            },
-            {
-              "FANTASIA": "RED BULL",
               "DESCRICAO": "RED BULL SF MAÇA 24X250ML"
             },
             {
               "FANTASIA": "DIAGEO",
               "DESCRICAO": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)"
+            },
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "RED BULL TROPICAL 24X250ML"
             }
           ]
         },
@@ -18930,12 +18841,12 @@ const METAS_DATA = {
           "DTULTCOMP": "15/04/2026",
           "produtos": [
             {
-              "FANTASIA": "HOB",
-              "DESCRICAO": "CACHACA JOIA DA SERRA OURO 1L"
+              "FANTASIA": "COMARY",
+              "DESCRICAO": "COQUETEL  PINK MOON 12X600ML - VIDRO"
             },
             {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "CONHAQUE DOMECQ 1L"
+              "FANTASIA": "BALLENA",
+              "DESCRICAO": "LICOR BALLENA MORANGO 750 ML"
             },
             {
               "FANTASIA": "DIAGEO",
@@ -18950,12 +18861,12 @@ const METAS_DATA = {
               "DESCRICAO": "WHISKY J WALKER BLACK LABEL 1L"
             },
             {
-              "FANTASIA": "BALLENA",
-              "DESCRICAO": "LICOR BALLENA MORANGO 750 ML"
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "CONHAQUE DOMECQ 1L"
             },
             {
-              "FANTASIA": "COMARY",
-              "DESCRICAO": "COQUETEL  PINK MOON 12X600ML - VIDRO"
+              "FANTASIA": "HOB",
+              "DESCRICAO": "CACHACA JOIA DA SERRA OURO 1L"
             }
           ]
         },
@@ -19293,11 +19204,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G"
+              "DESCRICAO": "PINATI SIMPLE WHEY PISTACHE 16X35G"
             },
             {
               "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI SIMPLE WHEY PISTACHE 16X35G"
+              "DESCRICAO": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G"
             }
           ]
         },
@@ -19393,15 +19304,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING BOOSTER ABACAXI HORTELA 24X310ML"
-            },
-            {
-              "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING HYDRO PROTEIN LIMAO 12X500ML"
             },
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING BOOSTER MORANGO ACEROLA  24X310ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING BOOSTER ABACAXI HORTELA 24X310ML"
             }
           ]
         },
@@ -19412,20 +19323,20 @@ const METAS_DATA = {
           "DTULTCOMP": "17/06/2026",
           "produtos": [
             {
-              "FANTASIA": "COMARY",
-              "DESCRICAO": "CANTINA DA SERRA 750ML"
-            },
-            {
-              "FANTASIA": "51",
-              "DESCRICAO": "PIRASSUNUNGA 51 965 ML"
-            },
-            {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL"
             },
             {
               "FANTASIA": "CRS BRANDS",
               "DESCRICAO": "AGUARDENTE OLD CESAR 88 965 ML"
+            },
+            {
+              "FANTASIA": "COMARY",
+              "DESCRICAO": "CANTINA DA SERRA 750ML"
+            },
+            {
+              "FANTASIA": "51",
+              "DESCRICAO": "PIRASSUNUNGA 51 965 ML"
             }
           ]
         },
@@ -19492,16 +19403,16 @@ const METAS_DATA = {
               "DESCRICAO": "PIRASSUNUNGA 51 965 ML"
             },
             {
+              "FANTASIA": "RECKITT",
+              "DESCRICAO": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML"
+            },
+            {
               "FANTASIA": "BOAZINHA",
               "DESCRICAO": "CACHACA SELETA 600ML"
             },
             {
               "FANTASIA": "CASA DI CONTI",
               "DESCRICAO": "JURUBEBA DUNORTE VINHO COMPOSTO 900ML"
-            },
-            {
-              "FANTASIA": "RECKITT",
-              "DESCRICAO": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML"
             }
           ]
         },
@@ -19514,6 +19425,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL ZERO"
+            },
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL SF MAÇA 4X250ML"
             },
             {
               "FANTASIA": "RED BULL",
@@ -19542,10 +19457,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL"
-            },
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL SF MAÇA 4X250ML"
             }
           ]
         },
@@ -19729,7 +19640,7 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI NUTS ORIGINAL 20X30G"
+              "DESCRICAO": "PINATI NUTS COCO 20X30G"
             },
             {
               "FANTASIA": "PINATI",
@@ -19737,7 +19648,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "PINATI",
-              "DESCRICAO": "PINATI NUTS COCO 20X30G"
+              "DESCRICAO": "PINATI NUTS ORIGINAL 20X30G"
             }
           ]
         },
@@ -19764,10 +19675,6 @@ const METAS_DATA = {
           "DTULTCOMP": "14/04/2026",
           "produtos": [
             {
-              "FANTASIA": "TATUZINHO",
-              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
-            },
-            {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL"
             },
@@ -19778,6 +19685,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "NECTAR MISTO UVA E PERA 12X1000ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML"
             },
             {
               "FANTASIA": "PINATI",
@@ -19841,11 +19752,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
+              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
             },
             {
               "FANTASIA": "VITON",
-              "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
+              "DESCRICAO": "GUARAVITON GINSENG 12X500ML"
             }
           ]
         }
@@ -20327,7 +20238,7 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
             },
             {
               "FANTASIA": "",
@@ -20335,7 +20246,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
+              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
             }
           ]
         },
@@ -20347,19 +20258,19 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
-            },
-            {
-              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
+              "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
             }
           ]
         },
@@ -20415,11 +20326,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
             },
             {
               "FANTASIA": "",
@@ -20444,14 +20355,14 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "91141",
-          "CLIENTE": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-          "BAIRROENT": "ABRANCHES",
+          "CODCLI": "90722",
+          "CLIENTE": "REGRESSO PIZZA BAR LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "22/05/2026",
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO VENTOZELO RESERVA 750ML"
+              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
             }
           ]
         },
@@ -20468,14 +20379,14 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "90722",
-          "CLIENTE": "REGRESSO PIZZA BAR LTDA",
-          "BAIRROENT": "CENTRO",
+          "CODCLI": "91141",
+          "CLIENTE": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "BAIRROENT": "ABRANCHES",
           "DTULTCOMP": "22/05/2026",
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
+              "DESCRICAO": "VINHO TINTO VENTOZELO RESERVA 750ML"
             }
           ]
         },
@@ -21145,10 +21056,6 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
               "DESCRICAO": "VINHO MOV BRANCO"
             },
             {
@@ -21194,6 +21101,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
             }
           ]
         },
@@ -21269,11 +21180,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "HENNESSY",
-              "DESCRICAO": "VINHO LATITUD 33 MALBEC  750 ML"
+              "DESCRICAO": "VINHO LATITUD 33 CHARDONNAY 750 ML"
             },
             {
               "FANTASIA": "HENNESSY",
-              "DESCRICAO": "VINHO LATITUD 33 CHARDONNAY 750 ML"
+              "DESCRICAO": "VINHO LATITUD 33 MALBEC  750 ML"
             },
             {
               "FANTASIA": "BEAM SUNTORY",
@@ -21658,6 +21569,18 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "80373",
+          "CLIENTE": "V. C. MARTINS RESTAURANTE LTDA",
+          "BAIRROENT": "PRAIA DO PECADO",
+          "DTULTCOMP": "22/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "WHISKY J WALKER BLACK LABEL 1L"
+            }
+          ]
+        },
+        {
           "CODCLI": "74744",
           "CLIENTE": "SEGREDO DA MODA LTDA",
           "BAIRROENT": "VILA CAMPO ALEGRE - BARRA DE SAO JOAO",
@@ -21674,18 +21597,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "PERNOD",
               "DESCRICAO": "RUM MALIBU 750ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "80373",
-          "CLIENTE": "V. C. MARTINS RESTAURANTE LTDA",
-          "BAIRROENT": "PRAIA DO PECADO",
-          "DTULTCOMP": "22/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "WHISKY J WALKER BLACK LABEL 1L"
             }
           ]
         },
@@ -21770,6 +21681,82 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "81414",
+          "CLIENTE": "TERRAL GASTROBAR LTDA",
+          "BAIRROENT": "CAVALEIROS",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "AGUA NA CAIXA",
+              "DESCRICAO": "AGUA NA LATA C/ GAS 12X310ML"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "SMIRNOFF RED PET 1750 ML"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "GIN GORDONS 750 ML"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "RUM MONTILLA CARTA BRANCA 1L"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "RUM MALIBU 750ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "77585",
+          "CLIENTE": "SALES DE SOUZA E FRANCA BAR LTDA",
+          "BAIRROENT": "PRAIA CAMPISTA",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "HUMB. CANALE DENARIO MALBEC 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "MAXIME BRANCO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "HUMB. CANALE DENARIO SAUV. BLANC"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "ESPUMANTE ALUD ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO CAVAS DE ORO MALBEC 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "95418",
           "CLIENTE": "JDP COMERCIO E SERVICOS LTDA",
           "BAIRROENT": "ITAUNA",
@@ -21798,82 +21785,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "RED BULL 24X250ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "77585",
-          "CLIENTE": "SALES DE SOUZA E FRANCA BAR LTDA",
-          "BAIRROENT": "PRAIA CAMPISTA",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO CAVAS DE ORO MALBEC 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "ESPUMANTE ALUD ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "HUMB. CANALE DENARIO MALBEC 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "MAXIME BRANCO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "HUMB. CANALE DENARIO SAUV. BLANC"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "81414",
-          "CLIENTE": "TERRAL GASTROBAR LTDA",
-          "BAIRROENT": "CAVALEIROS",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "GIN GORDONS 750 ML"
-            },
-            {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "RUM MONTILLA CARTA BRANCA 1L"
-            },
-            {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "RUM MALIBU 750ML"
-            },
-            {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "SMIRNOFF RED PET 1750 ML"
-            },
-            {
-              "FANTASIA": "AGUA NA CAIXA",
-              "DESCRICAO": "AGUA NA LATA C/ GAS 12X310ML"
             }
           ]
         },
@@ -22141,10 +22052,6 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "YVY",
-              "DESCRICAO": "YVY DESTILADO CACHAÇA 6X710ML LT"
-            },
-            {
-              "FANTASIA": "YVY",
               "DESCRICAO": "YVY DESTILADO GIN AR 6X710ML LT"
             },
             {
@@ -22158,6 +22065,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "YVY",
               "DESCRICAO": "YVY DESTILADO RUM 6X710ML LT"
+            },
+            {
+              "FANTASIA": "YVY",
+              "DESCRICAO": "YVY DESTILADO CACHAÇA 6X710ML LT"
             },
             {
               "FANTASIA": "DIAGEO",
@@ -22229,15 +22140,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
-            },
-            {
-              "FANTASIA": "CASTAS",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
             },
             {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
             }
           ]
         },
@@ -22393,10 +22304,6 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL SF AMORA"
-            },
-            {
-              "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL SF POMELO 4X250ML"
             },
             {
@@ -22414,6 +22321,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "RED BULL",
               "DESCRICAO": "4 PACK RED BULL MELÃO C/ MARACUJA"
+            },
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL SF AMORA"
             },
             {
               "FANTASIA": "RED BULL",
@@ -22485,15 +22396,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
-            },
-            {
-              "FANTASIA": "CASTAS",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
             },
             {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "VINHO GRAVEDAD CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO GRAVEDAD CAB. SAUV."
             }
           ]
         },
@@ -22725,15 +22636,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
               "DESCRICAO": "HUMB. CANALE DENARIO RESERVA PINOT NOIR"
             },
             {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "VINHO TINTO AZUL VENTOZELO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             }
           ]
         },
@@ -22892,12 +22803,8 @@ const METAS_DATA = {
               "DESCRICAO": "SMIRNOFF RED PET 1750 ML"
             },
             {
-              "FANTASIA": "HENNESSY",
-              "DESCRICAO": "ESPUMANTE CHANDON RESERVE BRUT 750ML"
-            },
-            {
-              "FANTASIA": "AURORA",
-              "DESCRICAO": "LICOR CAN FIREBALL 750ML"
+              "FANTASIA": "HOB",
+              "DESCRICAO": "GIN MARINA 750ML"
             },
             {
               "FANTASIA": "CASA PERINI",
@@ -22908,8 +22815,12 @@ const METAS_DATA = {
               "DESCRICAO": "APERITIVO APEROL 750 ML"
             },
             {
-              "FANTASIA": "HOB",
-              "DESCRICAO": "GIN MARINA 750ML"
+              "FANTASIA": "AURORA",
+              "DESCRICAO": "LICOR CAN FIREBALL 750ML"
+            },
+            {
+              "FANTASIA": "HENNESSY",
+              "DESCRICAO": "ESPUMANTE CHANDON RESERVE BRUT 750ML"
             }
           ]
         },
@@ -22941,15 +22852,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "INVICTUS",
-              "DESCRICAO": "SABOR DO SABOR WHISKY + COMBO TRAD"
-            },
-            {
-              "FANTASIA": "INVICTUS",
               "DESCRICAO": "GIN INVICTUS MACA VERDE 900ML"
             },
             {
               "FANTASIA": "INVICTUS",
               "DESCRICAO": "SABOR DO SABOR GIN + COMBO MELANCIA"
+            },
+            {
+              "FANTASIA": "INVICTUS",
+              "DESCRICAO": "SABOR DO SABOR WHISKY + COMBO TRAD"
             }
           ]
         },
@@ -23000,12 +22911,12 @@ const METAS_DATA = {
           "DTULTCOMP": "14/04/2026",
           "produtos": [
             {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "FRISANTE MACAW TROPICAL MOSC. ROSE 750ML"
-            },
-            {
               "FANTASIA": "BOAZINHA",
               "DESCRICAO": "CACHACA SELETA 600ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "FRISANTE MACAW TROPICAL MOSC. ROSE 750ML"
             }
           ]
         },
@@ -23016,6 +22927,14 @@ const METAS_DATA = {
           "DTULTCOMP": "13/04/2026",
           "produtos": [
             {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "WHISKY BUCHANANS 12 YEARS 750 ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
+            },
+            {
               "FANTASIA": "CASA PERINI",
               "DESCRICAO": "ESPUM CASA PERINI BRUT 750ML"
             },
@@ -23024,20 +22943,12 @@ const METAS_DATA = {
               "DESCRICAO": "ESPUM CASA PERINI BRUT ROSE 750ML"
             },
             {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "WHISKY BUCHANANS 12 YEARS 750 ML"
+              "FANTASIA": "JURUPINGA",
+              "DESCRICAO": "VINHO BRANCO JURUPINGA DINALLE 975 ML"
             },
             {
               "FANTASIA": "DIAGEO",
               "DESCRICAO": "WHISKY J WALKER RED LABEL 750ML"
-            },
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
-            },
-            {
-              "FANTASIA": "JURUPINGA",
-              "DESCRICAO": "VINHO BRANCO JURUPINGA DINALLE 975 ML"
             }
           ]
         },
@@ -23048,6 +22959,10 @@ const METAS_DATA = {
           "DTULTCOMP": "08/04/2026",
           "produtos": [
             {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "RUM MALIBU 750ML"
+            },
+            {
               "FANTASIA": "CAMPARI",
               "DESCRICAO": "APERITIVO APEROL 750 ML"
             },
@@ -23056,8 +22971,8 @@ const METAS_DATA = {
               "DESCRICAO": "APERITIVO CAMPARI 998ML"
             },
             {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "RUM MALIBU 750ML"
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL"
             },
             {
               "FANTASIA": "1883",
@@ -23066,10 +22981,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "51",
               "DESCRICAO": "PIRASSUNUNGA 51 965 ML"
-            },
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL"
             }
           ]
         },
@@ -23092,16 +23003,16 @@ const METAS_DATA = {
           "DTULTCOMP": "07/04/2026",
           "produtos": [
             {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI MOSCATEL 750ML"
+              "FANTASIA": "MINALBA",
+              "DESCRICAO": "AGUA MINERAL MINALBA C/ GAS 12X510ML"
             },
             {
               "FANTASIA": "DIAGEO",
               "DESCRICAO": "VODCA SMIRNOFF RED 998 ML"
             },
             {
-              "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINERAL MINALBA C/ GAS 12X510ML"
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI MOSCATEL 750ML"
             }
           ]
         },
@@ -23112,20 +23023,20 @@ const METAS_DATA = {
           "DTULTCOMP": "06/04/2026",
           "produtos": [
             {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "VODKA ABSOLUT 1L"
-            },
-            {
               "FANTASIA": "DIAGEO",
               "DESCRICAO": "WHISKY J WALKER BLACK LABEL 1L"
+            },
+            {
+              "FANTASIA": "51",
+              "DESCRICAO": "PIRASSUNUNGA 51 965 ML"
             },
             {
               "FANTASIA": "BOAZINHA",
               "DESCRICAO": "CACHACA SELETA 600ML"
             },
             {
-              "FANTASIA": "51",
-              "DESCRICAO": "PIRASSUNUNGA 51 965 ML"
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "VODKA ABSOLUT 1L"
             }
           ]
         },
@@ -23148,20 +23059,20 @@ const METAS_DATA = {
           "DTULTCOMP": "04/03/2026",
           "produtos": [
             {
-              "FANTASIA": "BACARDI",
-              "DESCRICAO": "RUM BACARDI SUPERIOR 980ML"
+              "FANTASIA": "CAMPARI",
+              "DESCRICAO": "APERITIVO APEROL 750 ML"
             },
             {
               "FANTASIA": "PERNOD",
               "DESCRICAO": "WHISKY JAMESON 1L"
             },
             {
-              "FANTASIA": "CAMPARI",
-              "DESCRICAO": "APERITIVO APEROL 750 ML"
-            },
-            {
               "FANTASIA": "BEAM SUNTORY",
               "DESCRICAO": "WHISKY JIM BEAM WHITE 1L"
+            },
+            {
+              "FANTASIA": "BACARDI",
+              "DESCRICAO": "RUM BACARDI SUPERIOR 980ML"
             }
           ]
         },
@@ -23221,11 +23132,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA COLHEITA TINTO 750ML"
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             },
             {
               "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
+              "DESCRICAO": "VILLA ROSA COLHEITA TINTO 750ML"
             }
           ]
         },
@@ -24050,11 +23961,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "RED BULL SUGAR FREE 24X250ML"
+              "DESCRICAO": "RED BULL TROPICAL 24X250ML"
             },
             {
               "FANTASIA": "RED BULL",
-              "DESCRICAO": "RED BULL TROPICAL 24X250ML"
+              "DESCRICAO": "RED BULL SUGAR FREE 24X250ML"
             }
           ]
         },
@@ -24166,15 +24077,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "CASTAS",
+              "DESCRICAO": "MAXIME ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
               "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
             },
             {
               "FANTASIA": "CASTAS",
               "DESCRICAO": "MAXIME BRANCO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "MAXIME ROSE 750ML"
             }
           ]
         },
@@ -24213,20 +24124,20 @@ const METAS_DATA = {
               "DESCRICAO": "4 PACK RED BULL"
             },
             {
-              "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 12X310ML"
-            },
-            {
-              "FANTASIA": "MINALBA",
-              "DESCRICAO": "AGUA MINALBA S/ GAS PREMIUM 12X300ML"
-            },
-            {
               "FANTASIA": "TIAL",
               "DESCRICAO": "SUCO MACA 100% TIAL 12X1000 ML"
             },
             {
               "FANTASIA": "TIAL",
               "DESCRICAO": "SUCO GOIABA 100% TIAL 12X1000 ML"
+            },
+            {
+              "FANTASIA": "MINALBA",
+              "DESCRICAO": "AGUA MINERAL MINALBA S/ GAS 12X310ML"
+            },
+            {
+              "FANTASIA": "MINALBA",
+              "DESCRICAO": "AGUA MINALBA S/ GAS PREMIUM 12X300ML"
             },
             {
               "FANTASIA": "TIAL",
@@ -24343,94 +24254,6 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "84070",
-          "CLIENTE": "50.907.363 ANA CAROLINA DA CONCEICAO PEREIRA",
-          "BAIRROENT": "CENTRO (MANGUE)",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "RED BULL",
-              "DESCRICAO": "4 PACK RED BULL MELANCIA"
-            },
-            {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "GIN BEEFEATER PINK 700ML"
-            },
-            {
-              "FANTASIA": "CAMPARI",
-              "DESCRICAO": "CONHAQUE DREHER 900ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "82290",
-          "CLIENTE": "NA BRASA BROTHERS BBQ LTDA",
-          "BAIRROENT": "MARINA",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "WHISKY J WALKER RED LABEL 750ML"
-            },
-            {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "GIN BEEFEATER 750ML"
-            },
-            {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "VODKA ABSOLUT 1L"
-            }
-          ]
-        },
-        {
-          "CODCLI": "50577",
-          "CLIENTE": "TROIA LOUNGE BAR E RESTAURANTE EIRELI",
-          "BAIRROENT": "SAO BENTO",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI MOSCATEL 750ML"
-            },
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI BRUT ROSE 750ML"
-            },
-            {
-              "FANTASIA": "HENNESSY",
-              "DESCRICAO": "ESPUMANTE CHANDON RESERVE BRUT 750ML"
-            },
-            {
-              "FANTASIA": "HENNESSY",
-              "DESCRICAO": "CHANDON PASSION ON ICE 750 ML"
-            },
-            {
-              "FANTASIA": "HENNESSY",
-              "DESCRICAO": "VINHO LATITUD 33 MALBEC  750 ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "91715",
-          "CLIENTE": "PORTO MANGUINHOS BAR E RESTAURANTE LTDA",
-          "BAIRROENT": "MANGUINHOS",
-          "DTULTCOMP": "18/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VILLA ROSA  ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASTAS",
-              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "5531",
           "CLIENTE": "DISTRIBUIDORA G MARKET EIRELI ME",
           "BAIRROENT": "BUZIOS",
@@ -24479,6 +24302,94 @@ const METAS_DATA = {
             {
               "FANTASIA": "TATUZINHO",
               "DESCRICAO": "MOVING BOOSTER ABACAXI HORTELA 24X310ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "91715",
+          "CLIENTE": "PORTO MANGUINHOS BAR E RESTAURANTE LTDA",
+          "BAIRROENT": "MANGUINHOS",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA  ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "50577",
+          "CLIENTE": "TROIA LOUNGE BAR E RESTAURANTE EIRELI",
+          "BAIRROENT": "SAO BENTO",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "HENNESSY",
+              "DESCRICAO": "ESPUMANTE CHANDON RESERVE BRUT 750ML"
+            },
+            {
+              "FANTASIA": "HENNESSY",
+              "DESCRICAO": "CHANDON PASSION ON ICE 750 ML"
+            },
+            {
+              "FANTASIA": "HENNESSY",
+              "DESCRICAO": "VINHO LATITUD 33 MALBEC  750 ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI MOSCATEL 750ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI BRUT ROSE 750ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "82290",
+          "CLIENTE": "NA BRASA BROTHERS BBQ LTDA",
+          "BAIRROENT": "MARINA",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "WHISKY J WALKER RED LABEL 750ML"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "GIN BEEFEATER 750ML"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "VODKA ABSOLUT 1L"
+            }
+          ]
+        },
+        {
+          "CODCLI": "84070",
+          "CLIENTE": "50.907.363 ANA CAROLINA DA CONCEICAO PEREIRA",
+          "BAIRROENT": "CENTRO (MANGUE)",
+          "DTULTCOMP": "18/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "GIN BEEFEATER PINK 700ML"
+            },
+            {
+              "FANTASIA": "CAMPARI",
+              "DESCRICAO": "CONHAQUE DREHER 900ML"
+            },
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "4 PACK RED BULL MELANCIA"
             }
           ]
         },
@@ -25299,6 +25210,18 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "82210",
+          "CLIENTE": "31.916.543 RONALDO CORREA FERREIRA",
+          "BAIRROENT": "CENTRO (MANGUE)",
+          "DTULTCOMP": "17/04/2026",
+          "produtos": [
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "SMIRNOFF ICE RASPBERRY (LATA) 24X269ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "82958",
           "CLIENTE": "RAPHAEL RODRIGUES DE MELLO REIS 09986547601",
           "BAIRROENT": "MANGUINHOS",
@@ -25327,26 +25250,14 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "82210",
-          "CLIENTE": "31.916.543 RONALDO CORREA FERREIRA",
-          "BAIRROENT": "CENTRO (MANGUE)",
-          "DTULTCOMP": "17/04/2026",
-          "produtos": [
-            {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "SMIRNOFF ICE RASPBERRY (LATA) 24X269ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "62699",
           "CLIENTE": "MIRANDA BARRETO MERCADO, ACOUGUE E PADARIA LTDA",
           "BAIRROENT": "VILA CARANGA",
           "DTULTCOMP": "17/04/2026",
           "produtos": [
             {
-              "FANTASIA": "BEAM SUNTORY",
-              "DESCRICAO": "GIN LARIOS ORIGINAL 700ML"
+              "FANTASIA": "BACARDI",
+              "DESCRICAO": "RUM BACARDI GOLD 980ML"
             },
             {
               "FANTASIA": "PERNOD",
@@ -25357,8 +25268,8 @@ const METAS_DATA = {
               "DESCRICAO": "GIN BEEFEATER PINK 700ML"
             },
             {
-              "FANTASIA": "BACARDI",
-              "DESCRICAO": "RUM BACARDI GOLD 980ML"
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "GIN LARIOS ORIGINAL 700ML"
             }
           ]
         },
@@ -25369,12 +25280,12 @@ const METAS_DATA = {
           "DTULTCOMP": "17/04/2026",
           "produtos": [
             {
-              "FANTASIA": "DIAGEO",
-              "DESCRICAO": "VODCA SMIRNOFF RED 998 ML"
-            },
-            {
               "FANTASIA": "VITON",
               "DESCRICAO": "GUARAVITA NATURAL 24X290ML"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "VODCA SMIRNOFF RED 998 ML"
             },
             {
               "FANTASIA": "51",
@@ -25389,8 +25300,12 @@ const METAS_DATA = {
           "DTULTCOMP": "15/04/2026",
           "produtos": [
             {
-              "FANTASIA": "BACARDI",
-              "DESCRICAO": "GIN BOMBAY SAPPHIRE 750ML"
+              "FANTASIA": "INTERFOOD",
+              "DESCRICAO": "LICOR JAGERMEISTER 700 ML"
+            },
+            {
+              "FANTASIA": "BEAM SUNTORY",
+              "DESCRICAO": "WHISKY JIM BEAM WHITE 1L"
             },
             {
               "FANTASIA": "BEAM SUNTORY",
@@ -25417,12 +25332,8 @@ const METAS_DATA = {
               "DESCRICAO": "WHISKY BALLANTINES SWEET BLEND 700ML"
             },
             {
-              "FANTASIA": "BEAM SUNTORY",
-              "DESCRICAO": "WHISKY JIM BEAM WHITE 1L"
-            },
-            {
-              "FANTASIA": "INTERFOOD",
-              "DESCRICAO": "LICOR JAGERMEISTER 700 ML"
+              "FANTASIA": "BACARDI",
+              "DESCRICAO": "GIN BOMBAY SAPPHIRE 750ML"
             }
           ]
         },
@@ -25433,12 +25344,12 @@ const METAS_DATA = {
           "DTULTCOMP": "15/04/2026",
           "produtos": [
             {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
-            },
-            {
               "FANTASIA": "AURORA",
               "DESCRICAO": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
             }
           ]
         },
@@ -26115,15 +26026,15 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
+            },
+            {
+              "FANTASIA": "CASA PERINI",
               "DESCRICAO": "ESPUM CASA PERINI MOSCATEL 750ML"
             },
             {
               "FANTASIA": "CASA PERINI",
               "DESCRICAO": "ESPUM CASA PERINI BRUT ROSE 750ML"
-            },
-            {
-              "FANTASIA": "CASA PERINI",
-              "DESCRICAO": "ESPUM CASA PERINI AQUARELA ROSE 750ML"
             }
           ]
         },
@@ -26140,6 +26051,18 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "85266",
+          "CLIENTE": "FENIX SUPERMERCADOS LTDA",
+          "BAIRROENT": "JARDIM MARILEA",
+          "DTULTCOMP": "01/04/2026",
+          "produtos": [
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "CONHAQUE DOMECQ 1L"
+            }
+          ]
+        },
+        {
           "CODCLI": "85155",
           "CLIENTE": "L MACHADO DE PONTES DEPOSITO DE BEBIDAS",
           "BAIRROENT": "AQUARIUS (TAMOIOS)",
@@ -26152,18 +26075,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "BOAZINHA",
               "DESCRICAO": "CACHACA SELETA 600ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "85266",
-          "CLIENTE": "FENIX SUPERMERCADOS LTDA",
-          "BAIRROENT": "JARDIM MARILEA",
-          "DTULTCOMP": "01/04/2026",
-          "produtos": [
-            {
-              "FANTASIA": "PERNOD",
-              "DESCRICAO": "CONHAQUE DOMECQ 1L"
             }
           ]
         },
