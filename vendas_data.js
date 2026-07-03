@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "03/07/2026 12:00",
+  "atualizado_em": "03/07/2026 13:01",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -61093,6 +61093,38 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 4,
           "valor": 127.84,
+          "tipo": "Venda"
+        }
+      ],
+      "Jul/26": [
+        {
+          "data": "03/07/2026",
+          "codcli": "21132",
+          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 325.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "21132",
+          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 488.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "21132",
+          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
+          "produto": "XAROPE FABBRI COCO PLUS 1L",
+          "fantasia": "FABBRI",
+          "qt": 12,
+          "valor": 957.24,
           "tipo": "Venda"
         }
       ]
@@ -293609,46 +293641,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "02/07/2026",
-          "codcli": "69414",
-          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
-          "produto": "CERV BADEN PILCRIST 600LGFA DES 12UN",
-          "fantasia": "HEINEKEN",
-          "qt": 3,
-          "valor": 475.85,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "69414",
-          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
-          "produto": "CERVEJA BADEN WITBIER 12X350ML SLEEK",
-          "fantasia": "HEINEKEN",
-          "qt": 5,
-          "valor": 310.1,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "69414",
-          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
-          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
-          "fantasia": "HEINEKEN",
-          "qt": 504,
-          "valor": 16032.24,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "69414",
-          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
-          "produto": "PRAYA CLASSSICA 355ML LN C/24",
-          "fantasia": "BETTER DRINKS",
-          "qt": 10,
-          "valor": 1932.3,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/07/2026",
           "codcli": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
           "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
@@ -338389,6 +338381,16 @@ const VENDAS_DATA = {
         },
         {
           "data": "24/04/2026",
+          "codcli": "92086",
+          "cliente": "46.912.337 GIVANILDO DA SILVA MARTINS",
+          "produto": "ROSE MINUTY 281  3000ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 2908.47,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
           "codcli": "90725",
           "cliente": "LUZ DEL FUEGO COMERCIO DE ALIMENTOS LTDA",
           "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
@@ -338545,16 +338547,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 18,
           "valor": 1062.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "92086",
-          "cliente": "46.912.337 GIVANILDO DA SILVA MARTINS",
-          "produto": "ROSE MINUTY 281  3000ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 2908.47,
           "tipo": "Venda"
         },
         {
