@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "03/07/2026 16:03",
+  "atualizado_em": "03/07/2026 17:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 18273.66,
-        "pos": 17,
+        "fat": 19066.66,
+        "pos": 18,
         "fat_ant": 343937.59
       }
     },
@@ -82,8 +82,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 2827.2,
-        "pos": 3,
+        "fat": 5012.9,
+        "pos": 6,
         "fat_ant": 171775.98
       }
     },
@@ -43944,6 +43944,24 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 479.4
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "31868",
+          "cliente": "LMR BAR E COMERCIO LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 153.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 639.2
         }
       ]
     },
@@ -51239,6 +51257,105 @@ const VENDAS_MG_DATA = {
           "fantasia": "HEINEKEN BRASIL",
           "qt": 15,
           "valor": 2156.4
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35497",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE PLUS LTDA",
+          "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 359.4
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35497",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE PLUS LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 159.9
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35497",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE PLUS LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 119.9
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35497",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE PLUS LTDA",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 2,
+          "valor": 231.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35497",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE PLUS LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 2,
+          "valor": 231.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35033",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE BOA ESPERANCA LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 3,
+          "valor": 347.7
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35033",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE BOA ESPERANCA LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 43.9
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38177",
+          "cliente": "MERCEARIA NASCIMENTO NOVO HORIZONTE LTDA",
+          "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 179.7
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38177",
+          "cliente": "MERCEARIA NASCIMENTO NOVO HORIZONTE LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 119.9
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38177",
+          "cliente": "MERCEARIA NASCIMENTO NOVO HORIZONTE LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 159.9
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38177",
+          "cliente": "MERCEARIA NASCIMENTO NOVO HORIZONTE LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 2,
+          "valor": 231.8
         }
       ]
     },
