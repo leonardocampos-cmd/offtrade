@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "02/07/2026 20:14",
-  "total": 4284,
+  "atualizado_em": "03/07/2026 10:29",
+  "total": 4297,
   "clientes": [
     {
       "codcli": "31683",
@@ -1192,6 +1192,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "91171",
+      "razao": "43.970.924 ANDRE MEIRELES DA COSTA SILVA",
+      "fantasia": "ANDRE MEIRELES DA COSTA SILVA",
+      "bairro": "CAMPO DOS AFONSOS",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "43.970.924/0001-23",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50908",
@@ -2954,6 +2968,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "EVENTOS",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51500",
+      "razao": "58.871.505 MARIANA RIBEIRO NEVES DE LIMA",
+      "fantasia": "58.871.505 MARIANA RIBEIRO NEVES DE LIMA",
+      "bairro": "JARDIM IMPERIAL",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "58.871.505/0001-01",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -6640,6 +6668,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "71185",
+      "razao": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
+      "bairro": "BENFICA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "49.306.432/0001-14",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "158",
+      "nome_usur1": "JOSE MARCELO CARDOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51247",
       "razao": "ANDERSON DE SOUSA CAMPOS 45703514843",
       "fantasia": "ANDERSON DE SOUSA CAMPOS",
@@ -7000,6 +7042,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "460",
       "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51499",
+      "razao": "ANTONIO PASCOAL SABINO - LANCHONETE",
+      "fantasia": "LANCHONETE E LAVA RAPIDO CHAPEU DE BICO",
+      "bairro": "VILA ALBERTINA",
+      "cidade": "SAO PAULO",
+      "cnpj": "10.501.159/0001-43",
+      "estado": "SP",
+      "ramo": "CAFETERIA",
+      "codusur1": "467",
+      "nome_usur1": "MARLENE RODRIGUES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -13248,6 +13304,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "83581",
+      "razao": "CEREAIS BRAMIL LTDA",
+      "fantasia": "POSTO DE VENDAS N 19 - CANTAGALO",
+      "bairro": "CANTAGALO",
+      "cidade": "TRES RIOS",
+      "cnpj": "32.296.378/0027-00",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "275",
+      "nome_usur1": "MARIA LUIZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91710",
       "razao": "CEREAIS E MERCEARIA MANDARIM DE NILOPOLIS LTDA",
       "fantasia": "SUPER MINAS - CENTRO (NILOPOLIS)",
@@ -14438,6 +14508,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51488",
+      "razao": "COMERCIAL E SUPERMERCADO DE ALIMENTOS BRESCIANI LTDA",
+      "fantasia": "SUPERMERCADO BRESCIANI",
+      "bairro": "CENTRO",
+      "cidade": "CAPIVARI",
+      "cnpj": "07.583.017/0001-68",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "504",
+      "nome_usur1": "GILVAN AMORIM - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "47425",
       "razao": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
       "fantasia": "COMERCIAL ESPERANCA ATACADISTA",
@@ -14686,6 +14770,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "codusur1": "472",
       "nome_usur1": "FLAVIO RIBEIRO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50602",
+      "razao": "COMERCIAL PAULINHO LTDA",
+      "fantasia": "COMERCIAL PAULINHO",
+      "bairro": "VILA WASHINGTON BELEZA",
+      "cidade": "CRUZEIRO",
+      "cnpj": "54.470.166/0001-09",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "466",
+      "nome_usur1": "DANIELLE DOS SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -23804,6 +23902,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "75569",
+      "razao": "GG WINE COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "ARTE DOS VINHOS",
+      "bairro": "CENTRO",
+      "cidade": "NITEROI",
+      "cnpj": "50.884.357/0001-58",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "158",
+      "nome_usur1": "JOSE MARCELO CARDOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91138",
       "razao": "GHIGNONE E SILVA CIA LTDA",
       "fantasia": "PARIS MON AMOUR - TESOUROS DE CUBA - CAF",
@@ -26016,6 +26128,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51489",
+      "razao": "IRMAOS BARRERA LTDA",
+      "fantasia": "IRMAOS BARRERA",
+      "bairro": "CENTRO",
+      "cidade": "ELIAS FAUSTO",
+      "cnpj": "47.756.739/0002-72",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "504",
+      "nome_usur1": "GILVAN AMORIM - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "20351",
       "razao": "IRMAOS BORBA DE ARAUJO RESTAURANTE EIRELI",
       "fantasia": "DOM HELIO RESTAURANTE",
@@ -26028,6 +26154,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51487",
+      "razao": "IRMAOS BRESCIANI SUPERMERCADO LTDA",
+      "fantasia": "IRMAOS BRESCIANI SUPERMERCADO",
+      "bairro": "VILA NOVA",
+      "cidade": "CAPIVARI",
+      "cnpj": "46.921.821/0001-61",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "504",
+      "nome_usur1": "GILVAN AMORIM - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "47839",
@@ -41612,6 +41752,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51491",
+      "razao": "OBNNI DISTRIBUIDORA LTDA",
+      "fantasia": "OBNNI DISTRIBUIDORA",
+      "bairro": "JARDIM DO BOSQUE",
+      "cidade": "MATAO",
+      "cnpj": "28.269.443/0001-00",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "codusur1": "504",
+      "nome_usur1": "GILVAN AMORIM - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "90653",
       "razao": "OD MARKET LTDA",
       "fantasia": "MINHA QUITANDINHA",
@@ -47028,20 +47182,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "13729",
-      "razao": "PRECO OTIMO SUPERMERCADO LTDA",
-      "fantasia": "PRECO OTIMO SUPERMERCADO",
-      "bairro": "JACUACANGA",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "00.814.712/0001-44",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "codusur1": "439",
-      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "13729",
@@ -53078,6 +53218,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51494",
+      "razao": "SUPERMERCADO ALEAN DE SANTANA LTDA",
+      "fantasia": "SUPERMERCADO PRODUTOR",
+      "bairro": "VILA ROSSI",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "22.329.828/0001-20",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "466",
+      "nome_usur1": "DANIELLE DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51492",
+      "razao": "SUPERMERCADO ALEAN LTDA",
+      "fantasia": "SUPERMERCADO PRODUTOR",
+      "bairro": "CENTRO",
+      "cidade": "CRUZEIRO",
+      "cnpj": "72.671.985/0001-98",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "466",
+      "nome_usur1": "DANIELLE DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50380",
       "razao": "SUPERMERCADO ALEGRIA LTDA",
       "fantasia": "SUPERMERCADO ALEGRIA",
@@ -54518,6 +54686,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RENATO JUNIOR - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "13729",
+      "razao": "SUPERMERCADO PRECOTIMO LTDA",
+      "fantasia": "PRECO OTIMO SUPERMERCADO",
+      "bairro": "JACUACANGA",
+      "cidade": "ANGRA DOS REIS",
+      "cnpj": "00.814.712/0001-44",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "3537",
