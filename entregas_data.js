@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "03/07/2026 15:37",
+  "atualizado_em": "03/07/2026 16:02",
   "data_rota": "03.07",
   "vendedores": [
     {
@@ -96977,6 +96977,41 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "156003669",
+          "numnota": "",
+          "data": "03/07/2026",
+          "cliente": "EL DAHER CONVENIENCIA E ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 955.0,
+          "itens": [
+            {
+              "desc": "VINHO ARESTI ESTATE S.  ROSE 187ML",
+              "qt": 24,
+              "val": 357.6
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 10,
+              "val": 199.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 8,
+              "val": 167.2
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 8,
+              "val": 231.2
+            }
+          ]
+        },
+        {
           "numped": "156003667",
           "numnota": "",
           "data": "03/07/2026",
@@ -97008,41 +97043,6 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY J WALKER BLACK LABEL 1L",
               "qt": 2,
               "val": 321.8
-            }
-          ]
-        },
-        {
-          "numped": "156003669",
-          "numnota": "",
-          "data": "03/07/2026",
-          "cliente": "EL DAHER CONVENIENCIA E ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 955.0,
-          "itens": [
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "qt": 10,
-              "val": 199.0
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-              "qt": 8,
-              "val": 167.2
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-              "qt": 8,
-              "val": 231.2
-            },
-            {
-              "desc": "VINHO ARESTI ESTATE S.  ROSE 187ML",
-              "qt": 24,
-              "val": 357.6
             }
           ]
         },
@@ -121757,7 +121757,43 @@ const ENTREGAS_DATA = {
     {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "419000681",
+          "numnota": "",
+          "data": "03/07/2026",
+          "cliente": "WESLEY DA SILVA NASCIMENTO 16108100745",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "data entrega: 03/07",
+          "total": 394.7,
+          "itens": [
+            {
+              "desc": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+              "qt": 1,
+              "val": 119.9
+            },
+            {
+              "desc": "RUM MONTILLA CRISTAL 1L",
+              "qt": 6,
+              "val": 137.4
+            },
+            {
+              "desc": "RUM MONTILLA CARTA BRANCA 1L",
+              "qt": 3,
+              "val": 65.7
+            },
+            {
+              "desc": "RUM MONTILLA OURO 1L",
+              "qt": 3,
+              "val": 71.7
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "419000680",
