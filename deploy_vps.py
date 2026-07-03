@@ -1,6 +1,7 @@
 """
 Deploy para VPS Hostinger.
-- Sincroniza app.py, utils.py, pages/, .streamlit/ para /opt/offtrade
+- Sincroniza app.py, utils.py, pages/ (Credito_e_Cadastro, Admin_Metas), .streamlit/
+  para /opt/offtrade
 - Reinicia o serviço offtrade
 """
 import os, sys
@@ -33,15 +34,10 @@ SYNC_DIRS = [
     ".streamlit",
 ]
 
-# Arquivo de metas (só envia se existir localmente)
+# Arquivo de metas (só envia se existir localmente) — usado por Admin_Metas.py
 OPTIONAL_FILES = [
     "metas_config.json",
 ]
-
-# Excel de metas (necessário para Metas_Gerais.py na VPS)
-METAS_DIR_LOCAL  = Path(r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS")
-METAS_DIR_REMOTE = f"{REMOTE_DIR}/metas"
-METAS_EXCEL      = ["METAS RJ.xlsx", "METAS SP.xlsx"]
 
 
 def ssh_run(client, cmd, check=True):
@@ -106,25 +102,12 @@ def deploy():
             sftp.put(str(local), f"{REMOTE_DIR}/{fname}")
             print(f"   {fname} -> {REMOTE_DIR}/{fname}")
 
+    print("\n-> Limpando pages/ remoto (evita sobras de páginas removidas)...")
+    ssh_run(client, f"rm -f {REMOTE_DIR}/pages/*.py", check=False)
+
     print("\n-> Sincronizando diretorios...")
     for d in SYNC_DIRS:
         sync_dir(client, sftp, HERE / d, f"{REMOTE_DIR}/{d}")
-
-    print("\n-> Garantindo METAS_DIR no .env remoto...")
-    ssh_run(client,
-        f"grep -q 'METAS_DIR' {REMOTE_DIR}/.env "
-        f"|| echo 'METAS_DIR={METAS_DIR_REMOTE}' >> {REMOTE_DIR}/.env",
-        check=False)
-
-    print("\n-> Sincronizando Excel de metas...")
-    ssh_run(client, f"mkdir -p {METAS_DIR_REMOTE}", check=False)
-    for fname in METAS_EXCEL:
-        local = METAS_DIR_LOCAL / fname
-        if local.exists():
-            sftp.put(str(local), f"{METAS_DIR_REMOTE}/{fname}")
-            print(f"   {fname} -> {METAS_DIR_REMOTE}/{fname}")
-        else:
-            print(f"   [skip] {fname} não encontrado em {METAS_DIR_LOCAL}")
 
     print("\n-> Instalando dependências Python (se necessário)...")
     ssh_run(client, f"pip install -q -r {REMOTE_DIR}/requirements.txt", check=False)

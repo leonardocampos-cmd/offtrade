@@ -225,7 +225,7 @@ def main():
         import envio_whatsapp
 
         step("11/11 - Deploy para VPS")
-        for script in ["deploy_vps.py"]:
+        for script in ["deploy_static_vps.py", "deploy_vps.py"]:
             try:
                 import subprocess, sys as _sys
                 result = subprocess.run(
