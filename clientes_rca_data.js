@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/07/2026 10:29",
+  "atualizado_em": "03/07/2026 12:03",
   "total": 4297,
   "clientes": [
     {
@@ -1724,6 +1724,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "51501",
+      "razao": "50.962.912 ADRIANA PEREIRA DE CARVALHO MARCUSSI",
+      "fantasia": "50.962.912 ADRIANA PEREIRA DE CARVALHO MARCUSSI",
+      "bairro": "QUINTINO FACCI II",
+      "cidade": "RIBEIRAO PRETO",
+      "cnpj": "50.962.912/0001-12",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "47890",
@@ -12898,6 +12912,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "48280",
+      "razao": "CATROQUE MERCADINHO LTDA",
+      "fantasia": "CATROQUE MERCADINHO",
+      "bairro": "VILA PRIMAVERA",
+      "cidade": "JARINU",
+      "cnpj": "11.795.166/0001-68",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "9436",
       "razao": "CATUABA INDUSTRIA DE BEBIDAS S/A",
       "fantasia": "",
@@ -14630,20 +14658,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "439",
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "74981",
-      "razao": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
-      "fantasia": "COMERCIAL ITINGA DE ALIMENTOS",
-      "bairro": "L PRAIA ITINGA",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "21.879.482/0001-71",
-      "estado": "RJ",
-      "ramo": "SUPERMERCADO",
-      "codusur1": "554",
-      "nome_usur1": "DIRLEI ARAUJO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -20269,9 +20283,9 @@ const CLIENTES_RCA_DATA = {
       "cidade": "JARINU",
       "cnpj": "07.835.369/0001-63",
       "estado": "SP",
-      "ramo": "MERCADO",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35474,8 +35488,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "03.545.171/0001-94",
       "estado": "RJ",
       "ramo": "DEPOSITO DE BEBIDAS",
-      "codusur1": "554",
-      "nome_usur1": "DIRLEI ARAUJO - OFF TRADE",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -37210,8 +37224,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "37.893.527/0001-00",
       "estado": "RJ",
       "ramo": "MERCADO",
-      "codusur1": "554",
-      "nome_usur1": "DIRLEI ARAUJO - OFF TRADE",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -37224,8 +37238,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "45.115.522/0001-77",
       "estado": "RJ",
       "ramo": "SUPERMERCADO",
-      "codusur1": "554",
-      "nome_usur1": "DIRLEI ARAUJO - OFF TRADE",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -37238,8 +37252,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "37.893.563/0001-66",
       "estado": "RJ",
       "ramo": "MERCEARIA",
-      "codusur1": "554",
-      "nome_usur1": "DIRLEI ARAUJO - OFF TRADE",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -37266,8 +37280,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "37.893.592/0001-28",
       "estado": "RJ",
       "ramo": "MERCADO",
-      "codusur1": "554",
-      "nome_usur1": "DIRLEI ARAUJO - OFF TRADE",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -47192,8 +47206,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "00.814.712/0001-44",
       "estado": "RJ",
       "ramo": "SUPERMERCADO",
-      "codusur1": "554",
-      "nome_usur1": "DIRLEI ARAUJO - OFF TRADE",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -50040,20 +50054,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "69216",
-      "razao": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
-      "fantasia": "SANTI ATACADO E VAREJO",
-      "bairro": "VILA DOM PEDRO",
-      "cidade": "PARATI",
-      "cnpj": "08.740.247/0003-18",
-      "estado": "RJ",
-      "ramo": "DEPOSITO DE BEBIDAS",
-      "codusur1": "554",
-      "nome_usur1": "DIRLEI ARAUJO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "50454",
       "razao": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
       "fantasia": "RIO-VALE TREMEMBE BEBIDAS",
@@ -52612,8 +52612,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "468",
+      "nome_usur2": "RENATO JUNIOR - OFF TRADE"
     },
     {
       "codcli": "40700",
@@ -53492,8 +53492,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "67.057.315/0001-46",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -55522,8 +55522,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "28.466.073/0003-54",
       "estado": "RJ",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "codusur1": "554",
-      "nome_usur1": "DIRLEI ARAUJO - OFF TRADE",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
