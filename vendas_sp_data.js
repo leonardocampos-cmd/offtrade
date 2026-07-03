@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "03/07/2026 15:06",
+  "atualizado_em": "03/07/2026 16:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -30748,6 +30748,15 @@ const VENDAS_SP_DATA = {
           "valor": 1078.08
         },
         {
+          "data": "03/07/2026",
+          "codcli": "47670",
+          "cliente": "PRESTIGIO COMERCIO E DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 1680,
+          "valor": 57960.0
+        },
+        {
           "data": "02/07/2026",
           "codcli": "49414",
           "cliente": "DISTRIBUIDORA DO ALEMAO MIRIZOLA LTDA",
@@ -30926,6 +30935,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 75,
           "valor": 7492.5
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "50878",
+          "cliente": "60.897.775 MARCIA MONIQUE SANTOS GOMES",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8
         },
         {
           "data": "01/07/2026",
@@ -64230,6 +64248,17 @@ const VENDAS_SP_DATA = {
           "qt": 46,
           "valor": 18395.4
         }
+      ],
+      "Jul/26": [
+        {
+          "data": "03/07/2026",
+          "codcli": "43203",
+          "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
+          "produto": "MOET IMPERIAL EXTRA BRUT 750 ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 180,
+          "valor": 48582.0
+        }
       ]
     },
     "ROBSON DA SILVA": {
@@ -82004,6 +82033,36 @@ const VENDAS_SP_DATA = {
     }
   },
   "realizado": {
+    "VIVIANI ALVES": {
+      "Jul/26": {
+        "fat": 48582.0,
+        "pos": 1.0
+      },
+      "Jun/26": {
+        "fat": 210218.0,
+        "pos": 2.0,
+        "fat_pernod": 13821.6
+      },
+      "Mai/26": {
+        "fat": 126780.4,
+        "pos": 1.0,
+        "fat_pernod": 126780.4
+      },
+      "Abr/26": {
+        "fat": 5219.4,
+        "pos": 1.0
+      },
+      "Mar/26": {
+        "fat": 267824.6,
+        "pos": 1.0,
+        "fat_pernod": 267824.6
+      },
+      "Fev/26": {
+        "fat": 53280.0,
+        "pos": 1.0,
+        "fat_pernod": 17940.0
+      }
+    },
     "ANDERSON CANAVEIS": {
       "Jul/26": {
         "fat": 2189.34,
@@ -82488,9 +82547,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jul/26": {
-        "fat": 133390.42,
-        "pos": 17.0,
-        "fat_pernod": 88252.4,
+        "fat": 192549.22,
+        "pos": 19.0,
+        "fat_pernod": 146212.4,
         "fat_crs": 3649.94
       },
       "Jun/26": {
@@ -82521,32 +82580,6 @@ const VENDAS_SP_DATA = {
         "pos": 143.0,
         "fat_pernod": 2559679.63,
         "fat_crs": 179.28
-      }
-    },
-    "VIVIANI ALVES": {
-      "Jun/26": {
-        "fat": 210218.0,
-        "pos": 2.0,
-        "fat_pernod": 13821.6
-      },
-      "Mai/26": {
-        "fat": 126780.4,
-        "pos": 1.0,
-        "fat_pernod": 126780.4
-      },
-      "Abr/26": {
-        "fat": 5219.4,
-        "pos": 1.0
-      },
-      "Mar/26": {
-        "fat": 267824.6,
-        "pos": 1.0,
-        "fat_pernod": 267824.6
-      },
-      "Fev/26": {
-        "fat": 53280.0,
-        "pos": 1.0,
-        "fat_pernod": 17940.0
       }
     },
     "CARLOS TERRA": {
