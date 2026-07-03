@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "02/07/2026 20:12",
+  "atualizado_em": "03/07/2026 10:27",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -28235,6 +28235,16 @@ const VENDAS_DATA = {
         },
         {
           "data": "02/07/2026",
+          "codcli": "71439",
+          "cliente": "RADIO BOIRE BAR E CAFE LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 249.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
           "codcli": "80151",
           "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
           "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
@@ -28251,16 +28261,6 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 5,
           "valor": 144.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "80151",
-          "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 2,
-          "valor": 53.46,
           "tipo": "Venda"
         },
         {
@@ -42763,16 +42763,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "02/07/2026",
-          "codcli": "84459",
-          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
-          "produto": "RED BULL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 10,
-          "valor": 1700.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/07/2026",
           "codcli": "78947",
           "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
           "produto": "RED BULL 24X250ML",
@@ -42782,6 +42772,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "02/07/2026",
+          "codcli": "84459",
+          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1700.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "01/07/2026",
           "codcli": "78141",
           "cliente": "MARCIO GARCIA SANCHES 01351218760",
@@ -42819,6 +42819,26 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 340.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "62232",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 109.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "62232",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 69.9,
           "tipo": "Venda"
         },
         {
@@ -42902,23 +42922,13 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "02/07/2026",
-          "codcli": "84459",
-          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 70.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "78947",
-          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 70.0,
+          "data": "03/07/2026",
+          "codcli": "62232",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 73.5,
           "tipo": "Venda"
         },
         {
@@ -69225,22 +69235,22 @@ const VENDAS_DATA = {
         },
         {
           "data": "17/03/2026",
-          "codcli": "71195",
-          "cliente": "COMERCIO E DEPOSITO DE BEBIDAS SUBZERO LTDA",
-          "produto": "RED BULL TROPICAL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 10,
-          "valor": 1653.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "17/03/2026",
           "codcli": "18987",
           "cliente": "R MACHARETE NETTO EVENTOS",
           "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 5,
           "valor": 838.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/03/2026",
+          "codcli": "71195",
+          "cliente": "COMERCIO E DEPOSITO DE BEBIDAS SUBZERO LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1653.6,
           "tipo": "Venda"
         },
         {
@@ -96442,16 +96452,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "26/06/2026",
-          "codcli": "92617",
-          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 599.4,
-          "tipo": "Venda"
-        },
-        {
           "data": "02/06/2026",
           "codcli": "82182",
           "cliente": "CAMILA LAROCCA DA COSTA 05624011725",
@@ -96629,16 +96629,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 359.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/06/2026",
-          "codcli": "92617",
-          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 389.4,
           "tipo": "Venda"
         },
         {
@@ -97282,16 +97272,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "26/06/2026",
-          "codcli": "92617",
-          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 12,
-          "valor": 294.0,
-          "tipo": "Venda"
-        },
-        {
           "data": "02/06/2026",
           "codcli": "20765",
           "cliente": "J.W.C. COMERCIO DE BEBIDAS LTDA",
@@ -97339,26 +97319,6 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 6,
           "valor": 557.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/06/2026",
-          "codcli": "92617",
-          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
-          "produto": "GIN TANQUERAY  750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 4,
-          "valor": 359.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/06/2026",
-          "codcli": "92617",
-          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
-          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-          "fantasia": "DIAGEO",
-          "qt": 2,
-          "valor": 419.8,
           "tipo": "Venda"
         },
         {
@@ -97602,16 +97562,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "26/06/2026",
-          "codcli": "92617",
-          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
-          "produto": "WHISKY J WALKER RED LABEL 1L",
-          "fantasia": "DIAGEO",
-          "qt": 10,
-          "valor": 659.0,
-          "tipo": "Venda"
-        },
-        {
           "data": "02/06/2026",
           "codcli": "50875",
           "cliente": "CASA SOMAR BUZIOS LTDA",
@@ -97659,16 +97609,6 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 1,
           "valor": 172.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/06/2026",
-          "codcli": "92617",
-          "cliente": "49.740.689 MARLON FELICIANO RODRIGUES",
-          "produto": "WHISKY J WALKER BLACK LABEL 1L",
-          "fantasia": "DIAGEO",
-          "qt": 2,
-          "valor": 299.8,
           "tipo": "Venda"
         },
         {
@@ -100901,6 +100841,16 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 4,
           "valor": 173.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "86260",
+          "cliente": "NEW LOUNGE CAMBOINHAS LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 249.8,
           "tipo": "Venda"
         },
         {
@@ -104861,16 +104811,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 60,
-          "valor": 1974.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "80354",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
@@ -105011,16 +104951,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "RUM MONTILLA OURO 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 245.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "produto": "RUM MONTILLA OURO 1L",
@@ -105117,16 +105047,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 115.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "RUM MONTILLA CARTA BRANCA 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 231.6,
           "tipo": "Venda"
         },
         {
@@ -105282,16 +105202,6 @@ const VENDAS_DATA = {
         {
           "data": "30/06/2026",
           "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "SAKE AZUMA KIRIN SOFT 740ML",
-          "fantasia": "KIRIN",
-          "qt": 6,
-          "valor": 133.62,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "SAKE AZUMA KIRIN SOFT 740ML",
           "fantasia": "KIRIN",
@@ -106081,16 +105991,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "GIN ROCKS SUNSET 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 135.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "produto": "GIN ROCKS SUNSET 1000ML",
@@ -106307,16 +106207,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 36,
           "valor": 423.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
-          "fantasia": "FANTE",
-          "qt": 60,
-          "valor": 705.0,
           "tipo": "Venda"
         },
         {
@@ -106961,16 +106851,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 30,
-          "valor": 675.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "produto": "GIN ROCKS STRAWBERRY 1000ML",
@@ -107331,16 +107211,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "GIN ROCKS 1000ML",
-          "fantasia": "FANTE",
-          "qt": 30,
-          "valor": 675.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "produto": "GIN ROCKS 1000ML",
@@ -107407,16 +107277,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 135.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 270.0,
           "tipo": "Venda"
         },
         {
@@ -107711,16 +107571,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 30,
-          "valor": 675.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "produto": "GIN ROCKS WATERMELON 1000ML",
@@ -107991,16 +107841,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
-          "fantasia": "FANTE",
-          "qt": 24,
-          "valor": 300.48,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
@@ -108051,16 +107891,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 260.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
@@ -108082,16 +107912,6 @@ const VENDAS_DATA = {
         {
           "data": "30/06/2026",
           "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 260.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
           "fantasia": "FANTE",
@@ -108177,16 +107997,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 76.38,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "VINHO BCO SUAVE QUINTA DO MORGADO 750ML",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 146.28,
           "tipo": "Venda"
         },
         {
@@ -108461,37 +108271,7 @@ const VENDAS_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "LICOR STOCK ANISETTE 720 ML",
-          "fantasia": "STOCK",
-          "qt": 6,
-          "valor": 215.94,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "LICOR STOCK KIWI 720 ML",
-          "fantasia": "STOCK",
-          "qt": 6,
-          "valor": 215.94,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "LICOR STOCK MARULA 720 ML",
-          "fantasia": "STOCK",
-          "qt": 6,
-          "valor": 321.42,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "produto": "LICOR STOCK MARULA 720 ML",
           "fantasia": "STOCK",
@@ -108710,16 +108490,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
-          "fantasia": "JURUPINGA",
-          "qt": 12,
-          "valor": 273.84,
-          "tipo": "Venda"
-        },
-        {
           "data": "22/06/2026",
           "codcli": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
@@ -108867,16 +108637,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 24,
           "valor": 717.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "61684",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 18,
-          "valor": 538.2,
           "tipo": "Venda"
         },
         {
@@ -111385,6 +111145,186 @@ const VENDAS_DATA = {
         }
       ],
       "Jul/26": [
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 60,
+          "valor": 1974.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 245.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 231.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "SAKE AZUMA KIRIN SOFT 740ML",
+          "fantasia": "KIRIN",
+          "qt": 6,
+          "valor": 133.62,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 135.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 60,
+          "valor": 705.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1000ML",
+          "fantasia": "FANTE",
+          "qt": 30,
+          "valor": 675.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS 1000ML",
+          "fantasia": "FANTE",
+          "qt": 30,
+          "valor": 675.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 270.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 30,
+          "valor": 675.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 24,
+          "valor": 300.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 260.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 260.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VINHO BCO SUAVE QUINTA DO MORGADO 750ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 146.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "LICOR STOCK ANISETTE 720 ML",
+          "fantasia": "STOCK",
+          "qt": 6,
+          "valor": 215.94,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "LICOR STOCK KIWI 720 ML",
+          "fantasia": "STOCK",
+          "qt": 6,
+          "valor": 215.94,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "fantasia": "JURUPINGA",
+          "qt": 12,
+          "valor": 273.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "61684",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 18,
+          "valor": 538.2,
+          "tipo": "Venda"
+        },
         {
           "data": "01/07/2026",
           "codcli": "94955",
@@ -136902,7 +136842,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "GIN BOMBAY SAPPHIRE 750ML",
           "fantasia": "BACARDI",
           "qt": 12,
@@ -137722,7 +137662,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "GIN BEEFEATER 750ML",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -137732,7 +137672,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "RUM MALIBU 750 ML",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -137812,7 +137752,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "WHISKY JIM BEAM WHITE 1L",
           "fantasia": "BEAM SUNTORY",
           "qt": 12,
@@ -137892,7 +137832,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "LICOR BALLENA MORANGO 750 ML",
           "fantasia": "BALLENA",
           "qt": 12,
@@ -137922,7 +137862,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "GUARAVITON GINSENG 12X500ML",
           "fantasia": "VITON",
           "qt": 10,
@@ -138392,7 +138332,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "AGUA NA CAIXA 8L",
           "fantasia": "AGUA NA CAIXA",
           "qt": 5,
@@ -138442,7 +138382,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -138482,7 +138422,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING BOOSTER LIMAO 24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -138562,7 +138502,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -138602,7 +138542,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -139854,7 +139794,7 @@ const VENDAS_DATA = {
         {
           "data": "10/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
           "fantasia": "CASA PERINI",
           "qt": 18,
@@ -139914,7 +139854,7 @@ const VENDAS_DATA = {
         {
           "data": "10/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
           "fantasia": "DIAGEO",
           "qt": 2,
@@ -139944,7 +139884,7 @@ const VENDAS_DATA = {
         {
           "data": "10/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "SALINAS CARVALHO 700ML",
           "fantasia": "SALINAS",
           "qt": 6,
@@ -139954,7 +139894,7 @@ const VENDAS_DATA = {
         {
           "data": "17/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -139964,7 +139904,7 @@ const VENDAS_DATA = {
         {
           "data": "17/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
           "fantasia": "RECKITT",
           "qt": 5,
@@ -140004,7 +139944,7 @@ const VENDAS_DATA = {
         {
           "data": "10/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
           "fantasia": "1883",
           "qt": 6,
@@ -140124,7 +140064,7 @@ const VENDAS_DATA = {
         {
           "data": "17/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -140234,7 +140174,7 @@ const VENDAS_DATA = {
         {
           "data": "17/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -140384,7 +140324,7 @@ const VENDAS_DATA = {
         {
           "data": "17/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -140464,7 +140404,7 @@ const VENDAS_DATA = {
         {
           "data": "17/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -140564,7 +140504,7 @@ const VENDAS_DATA = {
         {
           "data": "17/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -140644,7 +140584,7 @@ const VENDAS_DATA = {
         {
           "data": "17/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -140654,7 +140594,7 @@ const VENDAS_DATA = {
         {
           "data": "17/06/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -141356,7 +141296,7 @@ const VENDAS_DATA = {
         {
           "data": "13/05/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "NECTAR CAJU 12X1000ML",
           "fantasia": "TIAL",
           "qt": 2,
@@ -141366,7 +141306,7 @@ const VENDAS_DATA = {
         {
           "data": "13/05/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "NECTAR GOIABA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 2,
@@ -141376,7 +141316,7 @@ const VENDAS_DATA = {
         {
           "data": "13/05/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "NECTAR LARANJA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 2,
@@ -141386,7 +141326,7 @@ const VENDAS_DATA = {
         {
           "data": "13/05/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 2,
@@ -141406,7 +141346,7 @@ const VENDAS_DATA = {
         {
           "data": "13/05/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -141416,7 +141356,7 @@ const VENDAS_DATA = {
         {
           "data": "13/05/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -141426,7 +141366,7 @@ const VENDAS_DATA = {
         {
           "data": "13/05/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -141436,7 +141376,7 @@ const VENDAS_DATA = {
         {
           "data": "13/05/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -142398,7 +142338,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MARTINI ROSATO 750 ML",
           "fantasia": "BACARDI",
           "qt": 12,
@@ -142418,7 +142358,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "MARTINI ROSSO 750 ML",
           "fantasia": "BACARDI",
           "qt": 12,
@@ -142428,7 +142368,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "ESPUM CASA PERINI PROSECCO 750ML",
           "fantasia": "CASA PERINI",
           "qt": 12,
@@ -142448,7 +142388,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 12,
@@ -142498,7 +142438,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
           "fantasia": "CASA PERINI",
           "qt": 12,
@@ -142528,7 +142468,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 12,
@@ -142568,7 +142508,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "ESPUM CASA PERINI BRUT 750ML",
           "fantasia": "CASA PERINI",
           "qt": 12,
@@ -142588,7 +142528,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
           "fantasia": "CASA PERINI",
           "qt": 12,
@@ -142768,7 +142708,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
           "fantasia": "CASTAS",
           "qt": 5,
@@ -142798,7 +142738,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA CRISTAL SACHET 12X400ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -142808,7 +142748,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA AG MARANHENSES COCO MELAO 12X1L",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -142818,7 +142758,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
           "fantasia": "RECKITT",
           "qt": 4,
@@ -142828,7 +142768,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -142848,7 +142788,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -142868,7 +142808,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
           "fantasia": "RECKITT",
           "qt": 12,
@@ -142878,7 +142818,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VANISH LIQUIDO PINK REFIL 12X500ML",
           "fantasia": "RECKITT",
           "qt": 10,
@@ -142888,7 +142828,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA PESADA X14 PROMO 12X1L",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -142898,7 +142838,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA PESADA ORIGINAL OFESPC 24X500ML",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -142908,7 +142848,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA COZINHA SACHET LARANJA 12X400ML",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -142918,7 +142858,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "FINSH POWDER DETERGENTE EM PO 12X450G",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -142928,7 +142868,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "HARPIC POWER PLUS MAR 750ML 36X25G",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -142938,7 +142878,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "HARPIC LIQUIDO CLORO 12X200ML ",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -142948,7 +142888,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "HARPIC CX ACOPLADA  1UN MARINE 24X50G",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -142958,7 +142898,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VANISH PO PINK REFIL 24X400G",
           "fantasia": "RECKITT",
           "qt": 3,
@@ -142968,7 +142908,7 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA COZINHA SACHET LIMAO 12X400ML",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -143128,7 +143068,7 @@ const VENDAS_DATA = {
         {
           "data": "15/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "NECTAR ABACAXI 12X1000ML",
           "fantasia": "TIAL",
           "qt": 2,
@@ -143138,7 +143078,7 @@ const VENDAS_DATA = {
         {
           "data": "15/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "NECTAR CAJU 12X1000ML",
           "fantasia": "TIAL",
           "qt": 3,
@@ -143148,7 +143088,7 @@ const VENDAS_DATA = {
         {
           "data": "15/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "NECTAR GOIABA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 4,
@@ -143178,7 +143118,7 @@ const VENDAS_DATA = {
         {
           "data": "15/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "NECTAR LARANJA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 5,
@@ -143188,7 +143128,7 @@ const VENDAS_DATA = {
         {
           "data": "15/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "NECTAR MANGA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 4,
@@ -143208,7 +143148,7 @@ const VENDAS_DATA = {
         {
           "data": "15/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "NECTAR MARACUJA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 3,
@@ -143238,7 +143178,7 @@ const VENDAS_DATA = {
         {
           "data": "15/04/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
           "fantasia": "TIAL",
           "qt": 4,
@@ -145422,7 +145362,7 @@ const VENDAS_DATA = {
         {
           "data": "01/07/2026",
           "codcli": "13729",
-          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
           "fantasia": "RECKITT",
           "qt": 8,
@@ -227669,16 +227609,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "01/07/2026",
-          "codcli": "76946",
-          "cliente": "AUTO POSTO 500 TINGUI LTDA",
-          "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "fantasia": "NOSSO CHOPE",
-          "qt": 2,
-          "valor": 175.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
           "codcli": "82781",
           "cliente": "ADONAI ATACADISTA LTDA",
           "produto": "RC SARDINHA EM OLEO 50X125G",
@@ -228765,16 +228695,6 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 153.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "3078",
-          "cliente": "POSTO DE ABASTECIMENTO BARRA MONTEIRO",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 96.59,
           "tipo": "Venda"
         }
       ]
