@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "03/07/2026 10:29",
+  "atualizado_em": "03/07/2026 12:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -169,14 +169,19 @@ const VENDAS_ES_DATA = {
         "fat_ant": 84254.44
       },
       "Jun/26": {
-        "fat": 54145.65,
-        "pos": 59,
+        "fat": 52191.39,
+        "pos": 58,
         "fat_ant": 75315.05
       },
       "Mai/26": {
         "fat": 75315.05,
         "pos": 54,
         "fat_ant": 54947.54
+      },
+      "Jul/26": {
+        "fat": 1772.04,
+        "pos": 1,
+        "fat_ant": 52191.39
       }
     },
     "WANDERSON FERREIRA": {
@@ -42828,15 +42833,6 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "21132",
-          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
-          "produto": "RED BULL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 2,
-          "valor": 325.86
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "80819",
           "cliente": "MERCEARIA GENOVEVA LTDA",
           "produto": "RED BULL 24X250ML",
@@ -43055,15 +43051,6 @@ const VENDAS_ES_DATA = {
           "data": "30/06/2026",
           "codcli": "21154",
           "cliente": "CARANGOLEJO ENTRETENIMENTO LTDA",
-          "produto": "RED BULL TROPICAL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 3,
-          "valor": 488.88
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "21132",
-          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
           "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 3,
@@ -44427,15 +44414,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "FABBRI",
           "qt": 1,
           "valor": 86.91
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "21132",
-          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
-          "produto": "XAROPE FABBRI COCO PLUS 1L",
-          "fantasia": "FABBRI",
-          "qt": 12,
-          "valor": 1139.52
         },
         {
           "data": "09/06/2026",
@@ -48110,6 +48088,35 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 2,
           "valor": 54.12
+        }
+      ],
+      "Jul/26": [
+        {
+          "data": "03/07/2026",
+          "codcli": "21132",
+          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 325.92
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "21132",
+          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 488.88
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "21132",
+          "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
+          "produto": "XAROPE FABBRI COCO PLUS 1L",
+          "fantasia": "FABBRI",
+          "qt": 12,
+          "valor": 957.24
         }
       ]
     },
