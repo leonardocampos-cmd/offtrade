@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "03/07/2026 12:01",
+  "atualizado_em": "03/07/2026 13:01",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 3,
   "dias_no_mes": 31,
   "dias_restantes": 28,
   "resumo": {
-    "fat": 656100.98,
+    "fat": 657873.02,
     "fat_ant": 964798.32,
     "fat_ant_completo": 13190403.18,
-    "pos": 237,
+    "pos": 238,
     "pos_ant": 322,
     "pos_ant_completo": 1812
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 656100.98,
+    "fat": 657873.02,
     "fat_ant": 964798.32,
     "fat_ant_completo": 13190403.18,
     "pct": 4.6,
-    "nec_dia": 490853.54
+    "nec_dia": 490790.25
   },
   "estados": [
     {
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 10247.04,
+      "fat": 12019.08,
       "fat_ant": 1835.28,
-      "pos": 7,
-      "pct": 0.6,
-      "nec_dia": 63919.75,
+      "pos": 8,
+      "pct": 0.7,
+      "nec_dia": 63856.46,
       "fat_ant_completo": 987531.95,
       "pos_ant": 6,
       "pos_ant_completo": 134
@@ -144,12 +144,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 26737.48,
+      "fat": 27552.28,
       "fat_ant": 55214.74,
       "por_estado": {
         "RJ": 26737.48,
         "SP": 0.0,
-        "ES": 0.0,
+        "ES": 814.8,
         "MG": 0.0
       }
     },
@@ -415,6 +415,17 @@ const METAS_GERAIS_DATA = {
         "SP": 0.0,
         "ES": 0.0,
         "MG": 1078.2
+      }
+    },
+    {
+      "fantasia": "FABBRI",
+      "fat": 957.24,
+      "fat_ant": 0.0,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 0.0,
+        "ES": 957.24,
+        "MG": 0.0
       }
     },
     {
