@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "03/07/2026 13:01",
+  "atualizado_em": "03/07/2026 14:00",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -386640,56 +386640,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "30/06/2026",
-          "codcli": "40916",
-          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
-          "produto": "GIN BEEFEATER PINK 750ML",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1557.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "40916",
-          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 36,
-          "valor": 2336.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "40916",
-          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
-          "produto": "RUM MALIBU 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 514.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "40916",
-          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
-          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 6,
-          "valor": 581.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "40916",
-          "cliente": "MERCADINHO DA VILA SUZANO LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "BROWN",
-          "qt": 4,
-          "valor": 399.6,
-          "tipo": "Venda"
-        },
-        {
           "data": "29/06/2026",
           "codcli": "40916",
           "cliente": "MERCADINHO DA VILA SUZANO LTDA",
@@ -390543,16 +390493,6 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 1,
           "valor": 99.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51424",
-          "cliente": "CAMP MOTOS COMERCIO DE MOTOCICLETAS LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X250ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 178.8,
           "tipo": "Venda"
         },
         {
@@ -433432,36 +433372,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "30/06/2026",
-          "codcli": "51423",
-          "cliente": "COMPRA FACIL SUPERMERCADOS LTDA",
-          "produto": "CACHAÇA SAO FRANCISCO 970ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 262.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51423",
-          "cliente": "COMPRA FACIL SUPERMERCADOS LTDA",
-          "produto": "CHANDON PASSION ROSE 750ML",
-          "fantasia": "MOET HENNESY",
-          "qt": 1,
-          "valor": 75.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51423",
-          "cliente": "COMPRA FACIL SUPERMERCADOS LTDA",
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 2,
-          "valor": 111.8,
-          "tipo": "Venda"
-        },
-        {
           "data": "25/06/2026",
           "codcli": "51248",
           "cliente": "EMILE SUPERMERCADOS LTDA",
@@ -438812,16 +438722,6 @@ const VENDAS_DATA = {
           "codcli": "50131",
           "cliente": "AMBAR CACHACARIA BAR E RESTAURANTE LTDA",
           "produto": "TEQUILA J CUERVO SILVER 750ML",
-          "fantasia": "AURORA",
-          "qt": 5,
-          "valor": 419.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "50131",
-          "cliente": "AMBAR CACHACARIA BAR E RESTAURANTE LTDA",
-          "produto": "TEQUILA J CUERVO GOLD 750ML",
           "fantasia": "AURORA",
           "qt": 5,
           "valor": 419.5,
