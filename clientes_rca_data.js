@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/07/2026 17:03",
-  "total": 4312,
+  "atualizado_em": "03/07/2026 18:03",
+  "total": 4314,
   "clientes": [
     {
       "codcli": "31683",
@@ -11848,6 +11848,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51512",
+      "razao": "C. JARNALLO - BEBIDAS LTDA",
+      "fantasia": "C. JARNALLO - BEBIDAS",
+      "bairro": "SÍTIOS FRUTAL",
+      "cidade": "VALINHOS",
+      "cnpj": "29.834.216/0001-34",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "49453",
       "razao": "C.G. CAVALCANTE COMERCIO DE BEBIDAS LTDA",
       "fantasia": "ADEGA CAVALCANTE",
@@ -19670,6 +19684,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50058",
+      "razao": "E S NASCIMENTO - SOCIEDADE UNIPESSOAL LTDA",
+      "fantasia": "MERCADO PINHEIRO",
+      "bairro": "ALVARENGA",
+      "cidade": "SAO BERNARDO DO CAMPO",
+      "cnpj": "48.892.488/0001-35",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "464",
+      "nome_usur1": "PATRICIO MASSAGARDI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
