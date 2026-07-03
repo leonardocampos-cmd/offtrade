@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "03/07/2026 12:01",
+  "atualizado_em": "03/07/2026 13:01",
   "data_rota": "03.07",
   "vendedores": [
     {
@@ -762,46 +762,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "378000467",
-          "numnota": "",
-          "data": "03/07/2026",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS E ALIMENTOS HUMAITA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1151.04,
-          "itens": [
-            {
-              "desc": "VEJA PERF LIRIO NILO 24X500ML",
-              "qt": 1,
-              "val": 91.3
-            },
-            {
-              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-              "qt": 5,
-              "val": 649.5
-            },
-            {
-              "desc": "4 PACK RED BULL",
-              "qt": 1,
-              "val": 29.96
-            },
-            {
-              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "qt": 5,
-              "val": 315.0
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-              "qt": 1,
-              "val": 65.28
-            }
-          ]
-        },
-        {
           "numped": "378000464",
           "numnota": "",
           "data": "03/07/2026",
@@ -868,6 +828,46 @@ const ENTREGAS_DATA = {
               "desc": "CATUABA SELVAGEM 900ML",
               "qt": 4,
               "val": 59.6
+            }
+          ]
+        },
+        {
+          "numped": "378000467",
+          "numnota": "",
+          "data": "03/07/2026",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS E ALIMENTOS HUMAITA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1151.04,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 5,
+              "val": 649.5
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 1,
+              "val": 29.96
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 5,
+              "val": 315.0
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 65.28
+            },
+            {
+              "desc": "VEJA PERF LIRIO NILO 24X500ML",
+              "qt": 1,
+              "val": 91.3
             }
           ]
         },
@@ -1619,6 +1619,61 @@ const ENTREGAS_DATA = {
       "nome": "JORGE MACIEL - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "379001196",
+          "numnota": "",
+          "data": "03/07/2026",
+          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 680.29,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "qt": 1,
+              "val": 89.9
+            },
+            {
+              "desc": "RUM MONTILLA OURO 1L",
+              "qt": 3,
+              "val": 77.7
+            },
+            {
+              "desc": "JACK DANIELS HONEY 1 L",
+              "qt": 1,
+              "val": 124.9
+            },
+            {
+              "desc": "WHISKY JACK DANIELS APPLE 1L",
+              "qt": 1,
+              "val": 124.9
+            },
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+              "qt": 1,
+              "val": 12.99
+            },
+            {
+              "desc": "CACHACA 29 CEREJA PET 12X490ML",
+              "qt": 5,
+              "val": 164.5
+            },
+            {
+              "desc": "ESPUMANTE MELT SPRITZ E BITTER LARANJA",
+              "qt": 1,
+              "val": 62.9
+            },
+            {
+              "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+              "qt": 1,
+              "val": 22.5
+            }
+          ]
+        },
         {
           "numped": "379001194",
           "numnota": "",
@@ -2582,6 +2637,51 @@ const ENTREGAS_DATA = {
               "val": 269.7
             }
           ]
+        },
+        {
+          "numped": "155003813",
+          "numnota": "",
+          "data": "03/07/2026",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS TUBARAO DE BUZIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2157.12,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 359.52
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 10,
+              "val": 1797.6
+            }
+          ]
+        },
+        {
+          "numped": "155003814",
+          "numnota": "",
+          "data": "03/07/2026",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS TUBARAO DE BUZIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 517.68,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 3,
+              "val": 517.68
+            }
+          ]
         }
       ],
       "emitido_s_rota": [
@@ -3236,14 +3336,14 @@ const ENTREGAS_DATA = {
           "total": 374.46,
           "itens": [
             {
-              "desc": "VODKA ABSOLUT RASPBERRI 750 ML - EV",
-              "qt": 3,
-              "val": 194.7
-            },
-            {
               "desc": "RED BULL 24X250ML",
               "qt": 1,
               "val": 179.76
+            },
+            {
+              "desc": "VODKA ABSOLUT RASPBERRI 750 ML - EV",
+              "qt": 3,
+              "val": 194.7
             }
           ]
         }
