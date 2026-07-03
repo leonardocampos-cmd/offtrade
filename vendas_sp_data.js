@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "03/07/2026 14:02",
+  "atualizado_em": "03/07/2026 15:06",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -37552,6 +37552,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 6,
           "valor": 839.4
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "31155",
+          "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 180,
+          "valor": 9522.0
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "31155",
+          "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 36,
+          "valor": 3020.4
         }
       ],
       "Fev/26": [
@@ -46184,6 +46202,33 @@ const VENDAS_SP_DATA = {
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 24,
           "valor": 1509.6
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 744.23
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "MARTINI RISERVA RUBINO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 62,
+          "valor": 4619.0
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "WHISKY CHIVAS REGAL XV 750ML",
+          "fantasia": "PERNOD",
+          "qt": 96,
+          "valor": 17270.4
         },
         {
           "data": "02/07/2026",
@@ -71216,6 +71261,53 @@ const VENDAS_SP_DATA = {
           "qt": 24,
           "valor": 215.76
         }
+      ],
+      "Jul/26": [
+        {
+          "data": "03/07/2026",
+          "codcli": "51467",
+          "cliente": "ALDECIR GOMES NOVAES",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 155.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51467",
+          "cliente": "ALDECIR GOMES NOVAES",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 55.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51467",
+          "cliente": "ALDECIR GOMES NOVAES",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 6,
+          "valor": 101.4
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51467",
+          "cliente": "ALDECIR GOMES NOVAES",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 65.7
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51467",
+          "cliente": "ALDECIR GOMES NOVAES",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88
+        }
       ]
     },
     "ELIZANGELA RODRIGUES": {
@@ -78456,6 +78548,15 @@ const VENDAS_SP_DATA = {
           "valor": 246.6
         },
         {
+          "data": "03/07/2026",
+          "codcli": "50047",
+          "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 22,
+          "valor": 636.85
+        },
+        {
           "data": "02/07/2026",
           "codcli": "50047",
           "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
@@ -79794,6 +79895,15 @@ const VENDAS_SP_DATA = {
         }
       ],
       "Jul/26": [
+        {
+          "data": "03/07/2026",
+          "codcli": "50356",
+          "cliente": "FABIO J DOS SANTOS TIRIBA",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 60,
+          "valor": 4794.0
+        },
         {
           "data": "01/07/2026",
           "codcli": "50527",
@@ -81980,9 +82090,9 @@ const VENDAS_SP_DATA = {
     },
     "ADER ALONSO": {
       "Jul/26": {
-        "fat": 26682.33,
-        "pos": 4.0,
-        "fat_pernod": 20313.6
+        "fat": 39224.73,
+        "pos": 5.0,
+        "fat_pernod": 29835.6
       },
       "Jun/26": {
         "fat": 475975.58,
@@ -82013,9 +82123,9 @@ const VENDAS_SP_DATA = {
     },
     "MANUELA ZAPPACOSTA": {
       "Jul/26": {
-        "fat": 48916.8,
-        "pos": 6.0,
-        "fat_pernod": 10425.6,
+        "fat": 71550.43,
+        "pos": 7.0,
+        "fat_pernod": 27696.0,
         "fat_crs": 13726.2
       },
       "Jun/26": {
@@ -82202,8 +82312,8 @@ const VENDAS_SP_DATA = {
     },
     "FLAVIO RIBEIRO": {
       "Jul/26": {
-        "fat": 495.17,
-        "pos": 1.0,
+        "fat": 5289.17,
+        "pos": 2.0,
         "fat_pernod": 65.7
       },
       "Jun/26": {
@@ -82275,7 +82385,7 @@ const VENDAS_SP_DATA = {
     },
     "LUCIANO TOSCHI": {
       "Jul/26": {
-        "fat": 2229.6,
+        "fat": 2866.45,
         "pos": 2.0,
         "fat_pernod": 634.8
       },
@@ -82353,6 +82463,20 @@ const VENDAS_SP_DATA = {
         "fat": 10786.35,
         "pos": 2.0,
         "fat_pernod": 2302.2
+      }
+    },
+    "CAROLINA SOUZA": {
+      "Jul/26": {
+        "fat": 486.58,
+        "pos": 1.0,
+        "fat_pernod": 121.5,
+        "fat_crs": 107.88
+      },
+      "Jun/26": {
+        "fat": 16518.11,
+        "pos": 18.0,
+        "fat_pernod": 11260.4,
+        "fat_crs": 2475.16
       }
     },
     "CELSO OLIVEIRA": {
@@ -82689,14 +82813,6 @@ const VENDAS_SP_DATA = {
         "fat": 10916.4,
         "pos": 3.0,
         "fat_pernod": 8137.2
-      }
-    },
-    "CAROLINA SOUZA": {
-      "Jun/26": {
-        "fat": 16518.11,
-        "pos": 18.0,
-        "fat_pernod": 11260.4,
-        "fat_crs": 2475.16
       }
     },
     "MARCUS TANAMACHI": {
