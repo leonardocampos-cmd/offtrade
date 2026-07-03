@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "03/07/2026 10:28",
+  "atualizado_em": "03/07/2026 11:48",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 3,
@@ -8,13 +8,16 @@ const METAS_GERAIS_DATA = {
   "resumo": {
     "fat": 656100.98,
     "fat_ant": 964798.32,
+    "fat_ant_completo": 13192357.44,
     "pos": 237,
-    "pos_ant": 322
+    "pos_ant": 322,
+    "pos_ant_completo": 1813
   },
   "total": {
     "meta": 14400000.0,
     "fat": 656100.98,
     "fat_ant": 964798.32,
+    "fat_ant_completo": 13192357.44,
     "pct": 4.6,
     "nec_dia": 490853.54
   },
@@ -28,7 +31,9 @@ const METAS_GERAIS_DATA = {
       "pos": 105,
       "pct": 5.4,
       "nec_dia": 131820.28,
-      "pos_ant": 147
+      "fat_ant_completo": 2722938.17,
+      "pos_ant": 147,
+      "pos_ant_completo": 747
     },
     {
       "estado": "SP",
@@ -39,7 +44,9 @@ const METAS_GERAIS_DATA = {
       "pos": 93,
       "pct": 5.4,
       "nec_dia": 223010.06,
-      "pos_ant": 109
+      "fat_ant_completo": 7712225.29,
+      "pos_ant": 109,
+      "pos_ant_completo": 645
     },
     {
       "estado": "ES",
@@ -50,7 +57,9 @@ const METAS_GERAIS_DATA = {
       "pos": 7,
       "pct": 0.6,
       "nec_dia": 63919.75,
-      "pos_ant": 6
+      "fat_ant_completo": 989486.21,
+      "pos_ant": 6,
+      "pos_ant_completo": 135
     },
     {
       "estado": "MG",
@@ -61,7 +70,9 @@ const METAS_GERAIS_DATA = {
       "pos": 32,
       "pct": 3.9,
       "nec_dia": 72103.45,
-      "pos_ant": 60
+      "fat_ant_completo": 1767707.77,
+      "pos_ant": 60,
+      "pos_ant_completo": 286
     }
   ],
   "industrias": [
