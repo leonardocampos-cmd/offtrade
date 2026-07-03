@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "03/07/2026 16:02",
+  "atualizado_em": "03/07/2026 17:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -80990,6 +80990,24 @@ const VENDAS_SP_DATA = {
           "valor": 790.8
         },
         {
+          "data": "03/07/2026",
+          "codcli": "50997",
+          "cliente": "RODRIGO FARIA MACHADO",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 414.0
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "50997",
+          "cliente": "RODRIGO FARIA MACHADO",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
           "data": "02/07/2026",
           "codcli": "51024",
           "cliente": "MARCELO FERREIRA FILHO",
@@ -81078,6 +81096,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "FANTE",
           "qt": 60,
           "valor": 1233.0
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "50999",
+          "cliente": "FARINO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 788.4
         },
         {
           "data": "02/07/2026",
@@ -82476,9 +82503,9 @@ const VENDAS_SP_DATA = {
     },
     "LUIZ RIGLER": {
       "Jul/26": {
-        "fat": 12265.4,
+        "fat": 13730.6,
         "pos": 5.0,
-        "fat_pernod": 4936.2
+        "fat_pernod": 6401.4
       },
       "Jun/26": {
         "fat": 20314.9,
