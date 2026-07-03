@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/07/2026 12:03",
-  "total": 4297,
+  "atualizado_em": "03/07/2026 13:03",
+  "total": 4300,
   "clientes": [
     {
       "codcli": "31683",
@@ -1498,6 +1498,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "241",
       "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95589",
+      "razao": "49.674.482 FRANCISCO DE ASSIS SILVA SOUSA",
+      "fantasia": "49.674.482 FRANCISCO DE ASSIS SILVA SOUS",
+      "bairro": "LAGOMAR",
+      "cidade": "MACAE",
+      "cnpj": "49.674.482/0001-54",
+      "estado": "RJ",
+      "ramo": "ADEGA",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -6416,6 +6430,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "51502",
+      "razao": "ALVO ATACADO LTDA",
+      "fantasia": "ALVO ATACADO HORTOLANDIA",
+      "bairro": "JARDIM AMANDA",
+      "cidade": "HORTOLANDIA",
+      "cnpj": "67.258.648/0001-33",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "78951",
       "razao": "AM/PM COMESTIVEIS LTDA",
       "fantasia": "AM/PM COMESTIVEIS",
@@ -8568,6 +8596,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "POSTO DE GASOLINA",
       "codusur1": "156",
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51503",
+      "razao": "AUTO POSTO RAMALHAO LTDA",
+      "fantasia": "AUTO POSTO RAMALHAO LTDA",
+      "bairro": "VILA MARINA",
+      "cidade": "SANTO ANDRE",
+      "cnpj": "13.267.033/0001-44",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "232",
+      "nome_usur1": "ANDERSON CANAVEIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
