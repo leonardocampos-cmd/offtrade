@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "03/07/2026 16:50",
+  "atualizado_em": "03/07/2026 17:02",
   "data_rota": "03.07",
   "vendedores": [
     {
@@ -6329,6 +6329,31 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "159004980",
+          "numnota": "",
+          "data": "03/07/2026",
+          "cliente": "4P RESTAURANTE E BAR 002 LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 345.12,
+          "itens": [
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "RED BULL SUGAR FREE 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            }
+          ]
+        },
+        {
           "numped": "159004978",
           "numnota": "",
           "data": "03/07/2026",
@@ -6341,26 +6366,6 @@ const ENTREGAS_DATA = {
           "obs": "",
           "total": 1093.7,
           "itens": [
-            {
-              "desc": "ESPUMANTE ALUD ROSE 750ML",
-              "qt": 2,
-              "val": 57.8
-            },
-            {
-              "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
-              "qt": 2,
-              "val": 89.8
-            },
-            {
-              "desc": "VINHO ARESTI ESTATE S. SAUV BLANC 750ML",
-              "qt": 2,
-              "val": 89.8
-            },
-            {
-              "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-              "qt": 2,
-              "val": 29.8
-            },
             {
               "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
               "qt": 2,
@@ -6390,6 +6395,116 @@ const ENTREGAS_DATA = {
               "desc": "ESPUMANTE ALUD BRANCO 750ML",
               "qt": 2,
               "val": 57.8
+            },
+            {
+              "desc": "ESPUMANTE ALUD ROSE 750ML",
+              "qt": 2,
+              "val": 57.8
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+              "qt": 2,
+              "val": 89.8
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. SAUV BLANC 750ML",
+              "qt": 2,
+              "val": 89.8
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+              "qt": 2,
+              "val": 29.8
+            }
+          ]
+        },
+        {
+          "numped": "159004979",
+          "numnota": "",
+          "data": "03/07/2026",
+          "cliente": "4P RESTAURANTE E BAR 003 LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1338.62,
+          "itens": [
+            {
+              "desc": "GIN MARINA 750ML",
+              "qt": 1,
+              "val": 39.9
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 2,
+              "val": 57.8
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 1,
+              "val": 27.9
+            },
+            {
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 1,
+              "val": 59.9
+            },
+            {
+              "desc": "WHISKY J WALKER RED LABEL 1L",
+              "qt": 1,
+              "val": 65.9
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 1,
+              "val": 160.9
+            },
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 1,
+              "val": 70.9
+            },
+            {
+              "desc": "APERITIVO APEROL 750 ML",
+              "qt": 1,
+              "val": 42.9
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 2,
+              "val": 249.8
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "XAROPE MONIN PESSEGO (PEACH) 700 ML",
+              "qt": 1,
+              "val": 49.9
+            },
+            {
+              "desc": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
+              "qt": 1,
+              "val": 49.9
+            },
+            {
+              "desc": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+              "qt": 1,
+              "val": 49.9
+            },
+            {
+              "desc": "VODKA ABSOLUT VANILLA 750ML",
+              "qt": 1,
+              "val": 67.9
             }
           ]
         },
@@ -10568,43 +10683,7 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [
-        {
-          "numped": "156003669",
-          "numnota": "",
-          "data": "03/07/2026",
-          "cliente": "EL DAHER CONVENIENCIA E ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 955.0,
-          "itens": [
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-              "qt": 8,
-              "val": 167.2
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-              "qt": 8,
-              "val": 231.2
-            },
-            {
-              "desc": "VINHO ARESTI ESTATE S.  ROSE 187ML",
-              "qt": 24,
-              "val": 357.6
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "qt": 10,
-              "val": 199.0
-            }
-          ]
-        }
-      ],
+      "nao_emitido": [],
       "emitido_s_rota": [
         {
           "numped": "156003668",
@@ -13139,6 +13218,11 @@ const ENTREGAS_DATA = {
           "total": 1088.9,
           "itens": [
             {
+              "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+              "qt": 5,
+              "val": 479.5
+            },
+            {
               "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
               "qt": 4,
               "val": 383.6
@@ -13152,11 +13236,26 @@ const ENTREGAS_DATA = {
               "desc": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
               "qt": 1,
               "val": 119.9
-            },
+            }
+          ]
+        },
+        {
+          "numped": "419000684",
+          "numnota": "",
+          "data": "03/07/2026",
+          "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "data entrega: 04/07",
+          "total": 95.9,
+          "itens": [
             {
               "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-              "qt": 5,
-              "val": 479.5
+              "qt": 1,
+              "val": 95.9
             }
           ]
         },
@@ -13187,26 +13286,6 @@ const ENTREGAS_DATA = {
               "desc": "ST PIERRE VIDRO GINGER LN 12X275ML",
               "qt": 1,
               "val": 51.9
-            }
-          ]
-        },
-        {
-          "numped": "419000684",
-          "numnota": "",
-          "data": "03/07/2026",
-          "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "data entrega: 04/07",
-          "total": 95.9,
-          "itens": [
-            {
-              "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-              "qt": 1,
-              "val": 95.9
             }
           ]
         }
