@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "06/07/2026 10:31",
+  "atualizado_em": "06/07/2026 11:16",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 6,
   "dias_no_mes": 31,
   "dias_restantes": 25,
   "resumo": {
-    "fat": 1372500.59,
+    "fat": 1372124.39,
     "fat_ant": 1608577.56,
-    "fat_ant_completo": 13182125.68,
-    "pos": 350,
+    "fat_ant_completo": 13181017.48,
+    "pos": 349,
     "pos_ant": 456,
-    "pos_ant_completo": 1810
+    "pos_ant_completo": 1809
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 1372500.59,
+    "fat": 1372124.39,
     "fat_ant": 1608577.56,
-    "fat_ant_completo": 13182125.68,
+    "fat_ant_completo": 13181017.48,
     "pct": 9.5,
-    "nec_dia": 521099.98
+    "nec_dia": 521115.02
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 364410.8,
+      "fat": 364034.6,
       "fat_ant": 388415.51,
-      "pos": 143,
+      "pos": 142,
       "pct": 9.3,
-      "nec_dia": 141423.57,
+      "nec_dia": 141438.62,
       "fat_ant_completo": 2720679.77,
       "pos_ant": 206,
       "pos_ant_completo": 747
@@ -70,9 +70,9 @@ const METAS_GERAIS_DATA = {
       "pos": 43,
       "pct": 5.2,
       "nec_dia": 79624.59,
-      "fat_ant_completo": 1767707.77,
+      "fat_ant_completo": 1766599.57,
       "pos_ant": 80,
-      "pos_ant_completo": 286
+      "pos_ant_completo": 285
     }
   ],
   "industrias": [
@@ -243,10 +243,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "AURORA",
-      "fat": 14026.18,
+      "fat": 13649.98,
       "fat_ant": 28040.04,
       "por_estado": {
-        "RJ": 1667.18,
+        "RJ": 1290.98,
         "SP": 12359.0,
         "ES": 0.0,
         "MG": 0.0
