@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "06/07/2026 12:49",
+  "atualizado_em": "06/07/2026 17:13",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -279,7 +279,7 @@ const VENDAS_ES_DATA = {
         "fat_ant": 118062.39
       },
       "Jul/26": {
-        "fat": 63994.49,
+        "fat": 65825.69,
         "pos": 9,
         "fat_ant": 116883.65
       }
@@ -77116,6 +77116,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 12,
           "valor": 591.66
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 120,
+          "valor": 1831.2
         }
       ]
     },
