@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "06/07/2026 12:49",
+  "atualizado_em": "06/07/2026 17:13",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 25054.2,
-        "pos": 21,
+        "fat": 28394.92,
+        "pos": 23,
         "fat_ant": 343937.59
       }
     },
@@ -231,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 5706.36,
-        "pos": 8,
+        "fat": 6419.46,
+        "pos": 10,
         "fat_ant": 85308.22
       }
     },
@@ -44046,6 +44046,69 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "06/07/2026",
+          "codcli": "34211",
+          "cliente": "PEDRO HENRIQUE OLIVEIRA EVENTOS",
+          "produto": "XAROPE 1883 DE MARACUJA 1LT",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 58.9
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "34211",
+          "cliente": "PEDRO HENRIQUE OLIVEIRA EVENTOS",
+          "produto": "XAROPE 1883 DE DOCE DE LEITE 1LT",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 58.9
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "31113",
+          "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "31113",
+          "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
+          "produto": "TEQUILA EL JIMADOR BLANCO 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 104.9
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "34211",
+          "cliente": "PEDRO HENRIQUE OLIVEIRA EVENTOS",
+          "produto": "XAROPE 1883 DE MARACUJA VERMEL 1LT",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 117.8
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "31113",
+          "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "34211",
+          "cliente": "PEDRO HENRIQUE OLIVEIRA EVENTOS",
+          "produto": "XAROPE 1883 DE TANGERINA 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 58.9
+        },
+        {
+          "data": "06/07/2026",
           "codcli": "32823",
           "cliente": "F A MENDONCA GASTRONOMIA LTDA",
           "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
@@ -44079,6 +44142,51 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 159.8
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 958.8
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 479.4
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 478.8
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 179.4
         }
       ]
     },
@@ -81745,6 +81853,42 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 479.4
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "36311",
+          "cliente": "COMERCIAL TROPICO LTDA",
+          "produto": "WHISKY JACK DANIELS 375 ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 274.5
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "37162",
+          "cliente": "BAFF S COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 175.44
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "37162",
+          "cliente": "BAFF S COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 87.72
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "37162",
+          "cliente": "BAFF S COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 175.44
         }
       ]
     },
