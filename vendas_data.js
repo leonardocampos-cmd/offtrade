@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "06/07/2026 17:04",
+  "atualizado_em": "06/07/2026 17:05",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -448503,6 +448503,26 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 532.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "51488",
+          "cliente": "COMERCIAL E SUPERMERCADO DE ALIMENTOS BRESCIANI LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 347.38,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "51488",
+          "cliente": "COMERCIAL E SUPERMERCADO DE ALIMENTOS BRESCIANI LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.24,
           "tipo": "Venda"
         }
       ]
