@@ -657,8 +657,11 @@ else:
 
 import subprocess
 repo_dir = str(Path(__file__).parent)
-subprocess.run(["git", "-C", repo_dir, "add", "metas_data.js", "vendas_data.js", "gerentes_data.js"], check=True)
-subprocess.run(["git", "-C", repo_dir, "commit", "-m",
-                f"Atualiza metas_data.js + vendas_data.js - {date.today().strftime('%d/%m/%Y')}"])
-subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
-print("OK GitHub Pages atualizado.")
+try:
+    subprocess.run(["git", "-C", repo_dir, "add", "metas_data.js", "vendas_data.js", "gerentes_data.js"], check=True)
+    subprocess.run(["git", "-C", repo_dir, "commit", "-m",
+                    f"Atualiza metas_data.js + vendas_data.js - {date.today().strftime('%d/%m/%Y')}"])
+    subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
+    print("OK GitHub Pages atualizado.")
+except subprocess.CalledProcessError:
+    print("[AVISO] git push falhou — ignorado, pipeline continua.")

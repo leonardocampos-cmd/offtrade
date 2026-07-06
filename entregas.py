@@ -354,8 +354,11 @@ with open(out, 'w', encoding='utf-8') as f:
 print(f"OK - {len(vendedores_out)} vendedores, rota do dia {hoje_str} -> {out}")
 
 repo_dir = str(Path(__file__).parent)
-subprocess.run(["git", "-C", repo_dir, "add", "entregas_data.js"], check=True)
-subprocess.run(["git", "-C", repo_dir, "commit", "-m",
-                f"Atualiza entregas_data.js - {date.today().strftime('%d/%m/%Y')}"])
-subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
-print("OK entregas_data.js enviado ao GitHub Pages.")
+try:
+    subprocess.run(["git", "-C", repo_dir, "add", "entregas_data.js"], check=True)
+    subprocess.run(["git", "-C", repo_dir, "commit", "-m",
+                    f"Atualiza entregas_data.js - {date.today().strftime('%d/%m/%Y')}"])
+    subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
+    print("OK entregas_data.js enviado ao GitHub Pages.")
+except subprocess.CalledProcessError:
+    print("[AVISO] git push falhou — ignorado, pipeline continua.")
