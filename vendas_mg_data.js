@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "03/07/2026 18:03",
+  "atualizado_em": "06/07/2026 10:35",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 19066.66,
-        "pos": 18,
+        "fat": 24095.9,
+        "pos": 20,
         "fat_ant": 343937.59
       }
     },
@@ -82,8 +82,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 5012.9,
-        "pos": 6,
+        "fat": 6366.3,
+        "pos": 8,
         "fat_ant": 171775.98
       }
     },
@@ -204,8 +204,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 55232.88,
-        "pos": 2,
+        "fat": 72116.88,
+        "pos": 3,
         "fat_ant": 1049712.9
       }
     },
@@ -231,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 4126.56,
-        "pos": 6,
+        "fat": 4346.16,
+        "pos": 7,
         "fat_ant": 85308.22
       }
     },
@@ -43947,12 +43947,84 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "03/07/2026",
+          "codcli": "35379",
+          "cliente": "CANTINA SCHUFFNER DIAS LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 848.16
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35379",
+          "cliente": "CANTINA SCHUFFNER DIAS LTDA",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 706.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35379",
+          "cliente": "CANTINA SCHUFFNER DIAS LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 565.44
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35379",
+          "cliente": "CANTINA SCHUFFNER DIAS LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 424.08
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "31673",
+          "cliente": "ESQUINA DO CHOPP JARA LTDA",
+          "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 3,
+          "valor": 431.28
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "31632",
+          "cliente": "TONEL BEBIDAS LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1734.0
+        },
+        {
+          "data": "03/07/2026",
           "codcli": "31868",
           "cliente": "LMR BAR E COMERCIO LTDA",
           "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
           "fantasia": "",
           "qt": 2,
           "valor": 153.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38419",
+          "cliente": "LUKA CHOPP MUSIC LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 2,
+          "valor": 287.52
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38419",
+          "cliente": "LUKA CHOPP MUSIC LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 31.96
         },
         {
           "data": "03/07/2026",
@@ -51320,6 +51392,69 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 43.9
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38185",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CRISTINA LTDA",
+          "produto": "RUM BACARDI MOJITO 980ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 48.9
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38185",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CRISTINA LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 3,
+          "valor": 347.7
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38185",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CRISTINA LTDA",
+          "produto": "RUM MALIBU 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 129.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38186",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE SENHORA APARECIDA LTDA",
+          "produto": "GIN ORLOFF 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 149.7
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38186",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE SENHORA APARECIDA LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 479.7
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38186",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE SENHORA APARECIDA LTDA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "38185",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CRISTINA LTDA",
+          "produto": "RUM BACARDI LIMON 980 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 97.8
         },
         {
           "data": "03/07/2026",
@@ -71806,6 +71941,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 228,
           "valor": 11377.2
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35169",
+          "cliente": "ADIÇÃO DISTRIBUIÇÃO EXPRESS S/A",
+          "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 2814.0
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35169",
+          "cliente": "ADIÇÃO DISTRIBUIÇÃO EXPRESS S/A",
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "fantasia": "",
+          "qt": 162,
+          "valor": 7597.8
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "35169",
+          "cliente": "ADIÇÃO DISTRIBUIÇÃO EXPRESS S/A",
+          "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+          "fantasia": "",
+          "qt": 138,
+          "valor": 6472.2
         }
       ]
     },
@@ -81466,6 +81628,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 22.9
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "39567",
+          "cliente": "DISTRITO BURITIS ENTRETENIMENTOS LTDA",
+          "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 219.6
         },
         {
           "data": "03/07/2026",
