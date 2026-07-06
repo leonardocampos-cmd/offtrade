@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "06/07/2026 16:03",
+  "atualizado_em": "06/07/2026 16:46",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -566,8 +566,8 @@ const GERENTES_DATA = {
       "nome": "RJ",
       "por_mes": {
         "Abr/26": {
-          "fat": 3179520.67,
-          "qt": 59417
+          "fat": 3174741.03,
+          "qt": 59370
         },
         "Fev/26": {
           "fat": 2858159.59,
@@ -578,12 +578,12 @@ const GERENTES_DATA = {
           "qt": 4985
         },
         "Jun/26": {
-          "fat": 3178893.86,
-          "qt": 58868
+          "fat": 3174055.14,
+          "qt": 58792
         },
         "Mai/26": {
-          "fat": 3130472.48,
-          "qt": 52651
+          "fat": 3129406.09,
+          "qt": 52638
         },
         "Mar/26": {
           "fat": 3378030.52,
@@ -598,16 +598,16 @@ const GERENTES_DATA = {
           ],
           "por_mes": {
             "Abr/26": {
-              "fat": 2769038.17,
-              "qt": 50804
+              "fat": 2764258.53,
+              "qt": 50757
             },
             "Jun/26": {
-              "fat": 2711751.26,
-              "qt": 50941
+              "fat": 2706912.54,
+              "qt": 50865
             },
             "Mai/26": {
-              "fat": 2809902.08,
-              "qt": 46425
+              "fat": 2808835.69,
+              "qt": 46412
             },
             "Mar/26": {
               "fat": 2739703.65,
@@ -630,16 +630,16 @@ const GERENTES_DATA = {
               ],
               "por_mes": {
                 "Abr/26": {
-                  "fat": 2769038.17,
-                  "qt": 50804
+                  "fat": 2764258.53,
+                  "qt": 50757
                 },
                 "Jun/26": {
-                  "fat": 2711751.26,
-                  "qt": 50941
+                  "fat": 2706912.54,
+                  "qt": 50865
                 },
                 "Mai/26": {
-                  "fat": 2809902.08,
-                  "qt": 46425
+                  "fat": 2808835.69,
+                  "qt": 46412
                 },
                 "Mar/26": {
                   "fat": 2739703.65,
@@ -742,8 +742,8 @@ const GERENTES_DATA = {
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
-                      "fat": 113150.46,
-                      "qt": 2001
+                      "fat": 108370.82,
+                      "qt": 1954
                     },
                     "Fev/26": {
                       "fat": 75401.45,
@@ -754,8 +754,8 @@ const GERENTES_DATA = {
                       "qt": 442
                     },
                     "Jun/26": {
-                      "fat": 141936.49,
-                      "qt": 3660
+                      "fat": 137097.77,
+                      "qt": 3584
                     },
                     "Mai/26": {
                       "fat": 120183.31,
@@ -1048,8 +1048,8 @@ const GERENTES_DATA = {
                       "qt": 2895
                     },
                     "Mai/26": {
-                      "fat": 312920.57,
-                      "qt": 4734
+                      "fat": 311854.18,
+                      "qt": 4721
                     },
                     "Mar/26": {
                       "fat": 32693.54,
@@ -1888,29 +1888,6 @@ const GERENTES_DATA = {
                   }
                 },
                 {
-                  "nome": "CRISTIANE MORAIS - OFF TRADE",
-                  "rca": "460",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 1113.12,
-                      "qt": 33
-                    },
-                    "Jul/26": {
-                      "fat": 11848.96,
-                      "qt": 317
-                    },
-                    "Jun/26": {
-                      "fat": 158477.09,
-                      "qt": 4529
-                    },
-                    "Mai/26": {
-                      "fat": 59264.83,
-                      "qt": 1787
-                    }
-                  }
-                },
-                {
                   "nome": "DANIELLE DOS SANTOS - OFF TRADE",
                   "rca": "466",
                   "estado": "SP",
@@ -1949,6 +1926,29 @@ const GERENTES_DATA = {
                     "Mai/26": {
                       "fat": 22904.64,
                       "qt": 662
+                    }
+                  }
+                },
+                {
+                  "nome": "IVANILDO MAIA - OFF TRADE",
+                  "rca": "460",
+                  "estado": "SP",
+                  "por_mes": {
+                    "Abr/26": {
+                      "fat": 1113.12,
+                      "qt": 33
+                    },
+                    "Jul/26": {
+                      "fat": 11848.96,
+                      "qt": 317
+                    },
+                    "Jun/26": {
+                      "fat": 158477.09,
+                      "qt": 4529
+                    },
+                    "Mai/26": {
+                      "fat": 59264.83,
+                      "qt": 1787
                     }
                   }
                 },
