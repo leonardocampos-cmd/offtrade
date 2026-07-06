@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "06/07/2026 17:14",
+  "atualizado_em": "06/07/2026 17:52",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -2408,26 +2408,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "49458",
-        "cliente": "EXAMINE SUPERMERCADOS LTDA",
-        "bairro": "JARDIM ANHANGÜERA",
-        "dtultcomp": "16/04/2026",
-        "produtos": [
-          {
-            "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
-            "fantasia": "BROWN",
-            "qt": 4,
-            "valor": 599.6
-          },
-          {
-            "produto": "VODKA ABSOLUT ELYX 750ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 292.96
-          }
-        ]
-      },
-      {
         "codcli": "49455",
         "cliente": "EXAMINE SUPERMERCADOS LTDA",
         "bairro": "BAIRRO DO CASCALHO",
@@ -2474,6 +2454,26 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 1,
             "valor": 146.48
+          }
+        ]
+      },
+      {
+        "codcli": "49458",
+        "cliente": "EXAMINE SUPERMERCADOS LTDA",
+        "bairro": "JARDIM ANHANGÜERA",
+        "dtultcomp": "16/04/2026",
+        "produtos": [
+          {
+            "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
+            "fantasia": "BROWN",
+            "qt": 4,
+            "valor": 599.6
+          },
+          {
+            "produto": "VODKA ABSOLUT ELYX 750ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 292.96
           }
         ]
       },
@@ -3161,26 +3161,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "42711",
-        "cliente": "RETAIL MAKERS SP LTDA",
-        "bairro": "SANTO AMARO",
-        "dtultcomp": "13/06/2026",
-        "produtos": [
-          {
-            "produto": "VINHO ARESTI ESTATE S.  CHARDONNAY 187ML",
-            "fantasia": "CASTAS",
-            "qt": 20,
-            "valor": 286.0
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S. CAB SAUV 187 ML",
-            "fantasia": "CASTAS",
-            "qt": 24,
-            "valor": 343.2
-          }
-        ]
-      },
-      {
         "codcli": "49946",
         "cliente": "AIR GRU 3T LTDA",
         "bairro": "AEROPORTO",
@@ -3191,26 +3171,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "CASTAS",
             "qt": 24,
             "valor": 343.2
-          }
-        ]
-      },
-      {
-        "codcli": "32194",
-        "cliente": "FOME FOOD LANCHONETE LTDA",
-        "bairro": "AEROPORTO",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/ 24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 178.8
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 178.8
           }
         ]
       }
@@ -6921,16 +6881,9 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "51498",
+        "codcli": "51496",
         "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
-        "bairro": "JARDIM GURILANDIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51494",
-        "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
-        "bairro": "VILA ROSSI",
+        "bairro": "VENTURA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6942,9 +6895,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51496",
+        "codcli": "51494",
         "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
-        "bairro": "VENTURA",
+        "bairro": "VILA ROSSI",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51498",
+        "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
+        "bairro": "JARDIM GURILANDIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7091,13 +7051,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "51186",
-        "cliente": "M S KURODA & CIA LTDA",
-        "bairro": "JARDIM GOLLO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51188",
         "cliente": "M S KURODA & CIA LTDA",
         "bairro": "CENTRO",
@@ -7108,6 +7061,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51189",
         "cliente": "M S KURODA & CIA LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51186",
+        "cliente": "M S KURODA & CIA LTDA",
+        "bairro": "JARDIM GOLLO",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -7210,16 +7170,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51444",
+        "codcli": "51138",
         "cliente": "MARIA DENIR FONSECA DA SILVA",
-        "bairro": "CIDADE JARDIM",
+        "bairro": "RESIDENCIAL SEBASTIANI",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51138",
+        "codcli": "51444",
         "cliente": "MARIA DENIR FONSECA DA SILVA",
-        "bairro": "RESIDENCIAL SEBASTIANI",
+        "bairro": "CIDADE JARDIM",
         "dtultcomp": "nan",
         "produtos": []
       },
