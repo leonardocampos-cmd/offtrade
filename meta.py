@@ -11,7 +11,8 @@ from urllib.parse import quote_plus
 
 load_dotenv()
 
-oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
+from utils import ORACLE_LIB
+oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
 user     = os.getenv("VPN_USER", "vpn")
 password = os.getenv("VPN_PASSWORD", "vpn2320vpn")
@@ -51,7 +52,11 @@ engine_spon = create_engine(
     connect_args={"expire_time": 2}
 )
 
-def carregar_dados(query, engine, nome_tabela="tabela", max_tentativas=5):
+# Nomes das fontes (bancos Oracle) que falharam nesta execução — usado para
+# avisar o usuário em metas.html que os resultados podem estar incompletos.
+FONTES_INDISPONIVEIS: list[str] = []
+
+def carregar_dados(query, engine, nome_tabela="tabela", max_tentativas=3):
     for tentativa in range(1, max_tentativas + 1):
         try:
             print(f"-> Lendo {nome_tabela} (Tentativa {tentativa}/{max_tentativas})...")
@@ -108,23 +113,27 @@ def _query_vendas(schema=None, mes_anterior=False, filtro_filial="(1,2,4)", filt
     AND PCUSUARI.NOME LIKE '%OFF TRADE%'{extra_filial}{extra_estent}
 """
 
-_parts_vendas = [
-    carregar_dados(_query_vendas("CRC",      filtro_estent="RJ"), engine,         "vendas_CRC"),
-    carregar_dados(_query_vendas("thekings", filtro_estent="RJ"), engine_theking, "vendas_thekings"),
-]
-for _s, _e, _n, _fe in [
-    ("CASTAS",  engine_castas,  "vendas_CASTAS",  "RJ"),
-    ("GARRIDO", engine_garrido, "vendas_GARRIDO", "RJ"),
-    ("SPON",    engine_spon,    "vendas_SPON",    "RJ"),
+_parts_vendas = []
+for _s, _e, _n, _ff, _fe in [
+    ("CRC",      engine,         "vendas_CRC",      "(1,2,4)", "RJ"),
+    ("thekings", engine_theking, "vendas_thekings",  "(1,2,4)", "RJ"),
+    ("CASTAS",   engine_castas,  "vendas_CASTAS",    None,      "RJ"),
+    ("GARRIDO",  engine_garrido, "vendas_GARRIDO",   None,      "RJ"),
+    ("SPON",     engine_spon,    "vendas_SPON",      None,      "RJ"),
 ]:
     try:
-        _parts_vendas.append(carregar_dados(_query_vendas(_s, filtro_filial=None, filtro_estent=_fe), _e, _n))
+        _parts_vendas.append(carregar_dados(_query_vendas(_s, filtro_filial=_ff, filtro_estent=_fe), _e, _n))
     except Exception as _ex:
         print(f"[AVISO] {_n} falhou ({str(_ex)[:80]}) — ignorado")
+        FONTES_INDISPONIVEIS.append(_n)
+if not _parts_vendas:
+    raise RuntimeError("Nenhuma fonte de vendas disponível — todas as bases Oracle estão fora do ar.")
 tabela_vendas = pd.concat(_parts_vendas, ignore_index=True)
-arquivo = pd.read_excel(
+import baixar_planilhas_drive as _bpd
+arquivo = pd.read_excel(_bpd.com_fallback(
+    _bpd.caminho_metas_rj,
     r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx"
-)
+))
 arquivo.columns = arquivo.columns.str.strip()
 arquivo = arquivo.rename(columns={
     'META FATURAMENTO':              'FATURAMENTO TT',
@@ -146,19 +155,21 @@ tabela_vendas['DTMOV'] = pd.to_datetime(tabela_vendas['DTMOV']).dt.strftime('%d/
 tabela_vendas['FATURAMENTO'] = tabela_vendas['FATURAMENTO'].round(2)
 
 # Vendas do mês anterior (para exibição no detalhe do vendedor)
-_parts_vendas_ant = [
-    carregar_dados(_query_vendas("CRC",      mes_anterior=True, filtro_estent="RJ"), engine,         "vendas_anterior_CRC"),
-    carregar_dados(_query_vendas("thekings", mes_anterior=True, filtro_estent="RJ"), engine_theking, "vendas_anterior_thekings"),
-]
-for _s, _e, _n, _fe in [
-    ("CASTAS",  engine_castas,  "vendas_anterior_CASTAS",  "RJ"),
-    ("GARRIDO", engine_garrido, "vendas_anterior_GARRIDO", "RJ"),
-    ("SPON",    engine_spon,    "vendas_anterior_SPON",    "RJ"),
+_parts_vendas_ant = []
+for _s, _e, _n, _ff, _fe in [
+    ("CRC",      engine,         "vendas_anterior_CRC",      "(1,2,4)", "RJ"),
+    ("thekings", engine_theking, "vendas_anterior_thekings", "(1,2,4)", "RJ"),
+    ("CASTAS",   engine_castas,  "vendas_anterior_CASTAS",   None,      "RJ"),
+    ("GARRIDO",  engine_garrido, "vendas_anterior_GARRIDO",  None,      "RJ"),
+    ("SPON",     engine_spon,    "vendas_anterior_SPON",     None,      "RJ"),
 ]:
     try:
-        _parts_vendas_ant.append(carregar_dados(_query_vendas(_s, mes_anterior=True, filtro_filial=None, filtro_estent=_fe), _e, _n))
+        _parts_vendas_ant.append(carregar_dados(_query_vendas(_s, mes_anterior=True, filtro_filial=_ff, filtro_estent=_fe), _e, _n))
     except Exception as _ex:
         print(f"[AVISO] {_n} falhou ({str(_ex)[:80]}) — ignorado")
+        FONTES_INDISPONIVEIS.append(_n)
+if not _parts_vendas_ant:
+    raise RuntimeError("Nenhuma fonte de vendas do mês anterior disponível — todas as bases Oracle estão fora do ar.")
 tabela_vendas_anterior = pd.concat(_parts_vendas_ant, ignore_index=True)
 tabela_vendas_anterior['FATURAMENTO'] = pd.to_numeric(tabela_vendas_anterior['FATURAMENTO'], errors='coerce')
 tabela_vendas_anterior.drop(columns=['CODPROD', 'CODFORNEC', 'NUMNOTA', 'CODOPER', 'PUNIT',

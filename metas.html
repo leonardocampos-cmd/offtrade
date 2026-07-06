@@ -300,6 +300,21 @@
     }
     .no-data strong { color: var(--text); }
 
+    .fontes-alert {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(239, 68, 68, 0.12);
+      border: 1px solid var(--red);
+      color: var(--text);
+      border-radius: 10px;
+      padding: 10px 16px;
+      font-size: 0.8rem;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+    .fontes-alert strong { color: var(--red); }
+
     /* Tabela não positivados */
     .nao-pos-table {
       width: 100%;
@@ -681,6 +696,7 @@
   <a href="moving.html"  class="camp-pill cp-moving"><span class="dot"></span>Moving <em style="font-style:normal;font-size:.6rem;opacity:.8">Ativa</em></a>
 </div>
 
+<div id="fontes-alert-wrap"></div>
 <div id="app"></div>
 
 <script>
@@ -2016,6 +2032,17 @@ function filterCards(q) {
         </p>
       </div>`;
     return;
+  }
+
+  const _fontesOff = METAS_DATA.fontes_indisponiveis || [];
+  if (_fontesOff.length > 0) {
+    document.getElementById('fontes-alert-wrap').innerHTML = `
+      <div class="fontes-alert">
+        <span>&#9888;&#65039;</span>
+        <span><strong>Atenção:</strong> na última atualização, ${_fontesOff.length === 1 ? 'a base' : 'as bases'}
+          <strong>${_fontesOff.join(', ')}</strong> ${_fontesOff.length === 1 ? 'estava' : 'estavam'} fora do ar.
+          Os resultados exibidos podem estar incompletos.</span>
+      </div>`;
   }
 
   const params = new URLSearchParams(window.location.search);

@@ -106,6 +106,8 @@
     .badge-semrota   .cnt, .badge-semrota   .val { color: var(--blue); }
     .badge-naoentreg { border-color: #7f1d1d; }
     .badge-naoentreg .cnt, .badge-naoentreg .val { color: var(--red); }
+    .badge-canc      { border-color: #3f3f46; }
+    .badge-canc      .cnt, .badge-canc      .val { color: var(--muted); }
 
     .tag-naoentreg { background: #450a0a; color: #fca5a5; border: 1px solid #7f1d1d; }
     .tag-vend      { background: #1e2a3a; color: #93c5fd; border: 1px solid #1e3a5f; font-weight: 600; }
@@ -311,6 +313,11 @@
     <span class="lbl">Não Entregue</span>
     <span class="val" id="val-naoentreg">—</span>
   </div>
+  <div class="badge badge-canc">
+    <span class="cnt" id="cnt-canc">—</span>
+    <span class="lbl">Canceladas</span>
+    <span class="val" id="val-canc">—</span>
+  </div>
 </div>
 
 <div class="tabs">
@@ -319,12 +326,14 @@
   <button class="tab-btn"        onclick="switchTab('noemit',    this)">Não Emitido</button>
   <button class="tab-btn" style="color:var(--red)"
           onclick="switchTab('naoentreg', this)">⚠ Não Entregue</button>
+  <button class="tab-btn"        onclick="switchTab('canc',      this)">Canceladas</button>
 </div>
 
 <div id="sec-rota"      class="section visible"></div>
 <div id="sec-semrota"   class="section"></div>
 <div id="sec-noemit"    class="section"></div>
 <div id="sec-naoentreg" class="section"></div>
+<div id="sec-canc"      class="section"></div>
 
 <script>
 const D = (typeof ENTREGAS_DATA !== 'undefined') ? ENTREGAS_DATA : null;
@@ -376,13 +385,14 @@ function renderVendedor() {
   if (!D) return;
   const nome = _urlV || document.getElementById('vendedor-select').value;
 
-  let emRota, semRota, naoEmitido, naoEntregue;
+  let emRota, semRota, naoEmitido, naoEntregue, canceladas;
 
   if (nome === 'Todos') {
     emRota      = _flatLista('em_rota');
     semRota     = _flatLista('emitido_s_rota');
     naoEmitido  = _flatLista('nao_emitido');
     naoEntregue = _flatLista('nao_entregue');
+    canceladas  = _flatLista('canceladas');
   } else {
     const v = D.vendedores.find(x => x.nome === nome);
     if (!v) return;
@@ -390,12 +400,14 @@ function renderVendedor() {
     semRota     = v.emitido_s_rota || [];
     naoEmitido  = v.nao_emitido;
     naoEntregue = v.nao_entregue   || [];
+    canceladas  = v.canceladas     || [];
   }
 
   const totRota     = emRota.reduce((s,p)=>s+p.total, 0);
   const totSemRota  = semRota.reduce((s,p)=>s+p.total, 0);
   const totNoemit   = naoEmitido.reduce((s,p)=>s+p.total, 0);
   const totNaoEntreg= naoEntregue.reduce((s,p)=>s+p.total, 0);
+  const totCanc     = canceladas.reduce((s,p)=>s+p.total, 0);
 
   const cancelados = emRota.filter(p => {
     const u = p.status_ped.toUpperCase();
@@ -411,11 +423,14 @@ function renderVendedor() {
   document.getElementById('val-noemit').textContent  = fmt(totNoemit);
   document.getElementById('cnt-naoentreg').textContent = naoEntregue.length;
   document.getElementById('val-naoentreg').textContent = fmt(totNaoEntreg);
+  document.getElementById('cnt-canc').textContent    = canceladas.length;
+  document.getElementById('val-canc').textContent    = fmt(totCanc);
 
   document.getElementById('sec-rota').innerHTML      = renderCards(emRota,      'rota');
   document.getElementById('sec-semrota').innerHTML   = renderCards(semRota,     'semrota');
   document.getElementById('sec-noemit').innerHTML    = renderCards(naoEmitido,  'noemit');
   document.getElementById('sec-naoentreg').innerHTML = renderCards(naoEntregue, 'naoentreg');
+  document.getElementById('sec-canc').innerHTML      = renderCards(canceladas,  'canc');
 }
 
 const _emptyMsg = {
@@ -423,6 +438,7 @@ const _emptyMsg = {
   semrota:   'Nenhuma NF emitida aguardando rota.',
   noemit:    'Nenhum pedido pendente de emissão.',
   naoentreg: 'Nenhuma entrega não realizada registrada.',
+  canc:      'Nenhum pedido cancelado nos últimos 90 dias.',
 };
 
 function renderCards(pedidos, prefixo) {
@@ -527,7 +543,7 @@ function toggleItens(id, btn) {
 function switchTab(tab, btn) {
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  ['rota','semrota','noemit','naoentreg'].forEach(t =>
+  ['rota','semrota','noemit','naoentreg','canc'].forEach(t =>
     document.getElementById('sec-' + t).classList.toggle('visible', t === tab)
   );
 }

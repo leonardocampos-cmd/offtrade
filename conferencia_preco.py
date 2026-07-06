@@ -10,7 +10,8 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 # 1. Configuração de Conexão
-oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
+from utils import ORACLE_LIB
+oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 user = "vpn"
 password = "vpn2320vpn"
 dsn = "crc_oci"
@@ -21,11 +22,15 @@ engine = create_engine(
     connect_args={"expire_time": 2}
 )
 from meta import carregar_dados
+import baixar_planilhas_drive as _bpd
 
 # 2. Carga das Tabelas de Referência
 # --- TABELA ON ---
 tabela_preco_on = pd.read_excel(
-    r"G:\Drives compartilhados\EQUIPE DE VENDAS RJ\TABELA DE PREÇO RJ.xlsx",
+    _bpd.com_fallback(
+        _bpd.caminho_tabela_preco_rj,
+        r"G:\Drives compartilhados\EQUIPE DE VENDAS RJ\TABELA DE PREÇO RJ.xlsx"
+    ),
     sheet_name='TABELA', skiprows=5, dtype=str
 )
 col_on_excluir = ['Unnamed: 0', 'COD BRASIL', 'PRODUTOS', 'CATEGORIA', 'FORNECEDOR', 'CX C/', 'PLT C/', 
@@ -35,7 +40,10 @@ tabela_preco_on['PREÇO'] = pd.to_numeric(tabela_preco_on['PREÇO'].str.replace(
 
 # --- TABELA PROMO ---
 tabela_promo = pd.read_excel(
-    r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\PREÇO PROMO.xlsx", 
+    _bpd.com_fallback(
+        _bpd.caminho_preco_promo,
+        r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\PREÇO PROMO.xlsx"
+    ),
     sheet_name='Plan1', dtype=str
 )
 tabela_promo['PREÇO PROMO'] = pd.to_numeric(tabela_promo['PREÇO PROMO'].str.replace(',', '.'), errors='coerce').round(2)
@@ -52,7 +60,10 @@ tabela_mov = """
         AND NOME LIKE '%OFF TRADE%'   
 """
 df = carregar_dados(tabela_mov, engine, "conferencia_preco")
-profit = pd.read_excel(r"G:\Drives compartilhados\Profit RJ\Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb", sheet_name='Precificação', skiprows=8)
+profit = pd.read_excel(_bpd.com_fallback(
+    _bpd.caminho_profit_rj,
+    r"G:\Drives compartilhados\Profit RJ\Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb"
+), sheet_name='Precificação', skiprows=8)
 profit.drop(columns=['Unnamed: 0', 'PRODUTO', 'FORNECEDORA', 'TIPO',
        'NACIONALIDADE', 'PAUTA', 'MVA%', 'BASE DO ST', 'CUSTO SEM ST/IPI',
        'CUSTO COM ST/IPI', 'PREÇO DE VENDA', 'PREÇO SEM ST',

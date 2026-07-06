@@ -11,7 +11,8 @@ from urllib.parse import quote_plus
 from dotenv import load_dotenv
 load_dotenv(Path(__file__).parent / ".env")
 
-oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
+from utils import ORACLE_LIB
+oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
 _crc_user = os.getenv("CRC_USER", os.getenv("VPN_USER", "vpn"))
 _crc_pass = os.getenv("CRC_PASSWORD", os.getenv("VPN_PASSWORD", "vpn2320vpn"))

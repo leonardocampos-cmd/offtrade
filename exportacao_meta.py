@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import date, datetime
 from pathlib import Path
 import re as _re
-from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, arquivo, carregar_dados
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, arquivo, carregar_dados, FONTES_INDISPONIVEIS
 import nao_positivados as _np_mod
 
 _df_nao_pos = _np_mod.nao_positivados_full
@@ -30,19 +30,21 @@ def _mes_sort_key(mes_str):
 
 # ── Mapeamento RCA → Nome Oracle ─────────────────────────────────────────────
 
-_parts_map_rca = [
-    carregar_dados("SELECT CODUSUR AS RCA, NOME FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", engine, "map_rca_CRC"),
-    carregar_dados("SELECT CODUSUR AS RCA, NOME FROM thekings.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'", engine_theking, "map_rca_thekings"),
-]
+_parts_map_rca = []
 for _s, _e, _n, _extra_f in [
-    ("CASTAS",  engine_castas,  "map_rca_CASTAS",  "NOME LIKE '%OFF TRADE%'"),
-    ("GARRIDO", engine_garrido, "map_rca_GARRIDO", "NOME LIKE '%OFF TRADE%'"),
-    ("SPON",    engine_spon,    "map_rca_SPON",    "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
+    ("CRC",      engine,         "map_rca_CRC",      "NOME LIKE '%OFF TRADE%'"),
+    ("thekings", engine_theking, "map_rca_thekings", "NOME LIKE '%OFF TRADE%'"),
+    ("CASTAS",   engine_castas,  "map_rca_CASTAS",   "NOME LIKE '%OFF TRADE%'"),
+    ("GARRIDO",  engine_garrido, "map_rca_GARRIDO",  "NOME LIKE '%OFF TRADE%'"),
+    ("SPON",     engine_spon,    "map_rca_SPON",     "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
 ]:
     try:
         _parts_map_rca.append(carregar_dados(f"SELECT CODUSUR AS RCA, NOME FROM {_s}.PCUSUARI WHERE {_extra_f}", _e, _n))
     except Exception as _ex:
         print(f"[AVISO] {_n} falhou — ignorado")
+        FONTES_INDISPONIVEIS.append(_n)
+if not _parts_map_rca:
+    raise RuntimeError("Nenhuma fonte de RCA disponível — todas as bases Oracle estão fora do ar.")
 map_rca = pd.concat(_parts_map_rca, ignore_index=True)
 map_rca = map_rca.drop_duplicates(subset=['RCA'])
 map_rca['RCA'] = pd.to_numeric(map_rca['RCA'], errors='coerce')
@@ -113,6 +115,7 @@ for _s, _e, _n, _ff, _fe, _emp, _en in _VH_CONFIGS:
         _vh_parts.append(_df)
     except Exception as _ex:
         print(f"[AVISO] {_n} falhou — ignorado")
+        FONTES_INDISPONIVEIS.append(_n)
 _vh = pd.concat(_vh_parts, ignore_index=True)
 _vh['MES']    = pd.to_datetime(_vh['MES'],   errors='coerce')
 _vh['QT']     = pd.to_numeric(_vh['QT'],     errors='coerce').fillna(0).astype(int)
@@ -192,6 +195,7 @@ try:
             _frames_cad.append(_df_part)
         except Exception as _pe:
             print(f"[AVISO] cadastros {_schema} falhou ({str(_pe)[:80]}) — ignorado")
+            FONTES_INDISPONIVEIS.append(f"cadastros_{_schema}")
     if _frames_cad:
         _df_cad = pd.concat(_frames_cad, ignore_index=True)
         _df_cad['_ID'] = _df_cad.apply(
@@ -290,19 +294,21 @@ def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extr
         GROUP BY TRUNC(M.DTMOV, 'MM'), M.CODUSUR
     """
 
-_hist_parts = [
-    carregar_dados(_query_historico("CRC"),      engine,         "historico_CRC"),
-    carregar_dados(_query_historico("thekings"), engine_theking, "historico_thekings"),
-]
-for _s, _e, _n, _fe, _en in [
-    ("CASTAS",  engine_castas,  "historico_CASTAS",  None, None),
-    ("GARRIDO", engine_garrido, "historico_GARRIDO", None, None),
-    ("SPON",    engine_spon,    "historico_SPON",    None, _SPON_EXTRA),
+_hist_parts = []
+for _s, _e, _n, _ff, _fe, _en in [
+    ("CRC",      engine,         "historico_CRC",      "(1, 2, 4)", None, None),
+    ("thekings", engine_theking, "historico_thekings",  "(1, 2, 4)", None, None),
+    ("CASTAS",   engine_castas,  "historico_CASTAS",    None,        None, None),
+    ("GARRIDO",  engine_garrido, "historico_GARRIDO",   None,        None, None),
+    ("SPON",     engine_spon,    "historico_SPON",      None,        None, _SPON_EXTRA),
 ]:
     try:
-        _hist_parts.append(carregar_dados(_query_historico(_s, filtro_filial=None, filtro_estent=_fe, extra_nomes=_en), _e, _n))
+        _hist_parts.append(carregar_dados(_query_historico(_s, filtro_filial=_ff, filtro_estent=_fe, extra_nomes=_en), _e, _n))
     except Exception as _ex:
         print(f"[AVISO] {_n} falhou — ignorado")
+        FONTES_INDISPONIVEIS.append(_n)
+if not _hist_parts:
+    raise RuntimeError("Nenhuma fonte de histórico disponível — todas as bases Oracle estão fora do ar.")
 _hist_raw = pd.concat(_hist_parts, ignore_index=True)
 _hist_raw['MES']         = pd.to_datetime(_hist_raw['MES'], errors='coerce')
 _hist_raw['FATURAMENTO'] = pd.to_numeric(_hist_raw['FATURAMENTO'], errors='coerce').fillna(0)
@@ -435,9 +441,10 @@ vendedores_out = list(vendedores_dict.values())
 # ── Gera metas_data.js ────────────────────────────────────────────────────────
 
 payload = {
-    'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
-    'meses':         _meses_arquivo,
-    'vendedores':    vendedores_out,
+    'atualizado_em':         datetime.now().strftime('%d/%m/%Y %H:%M'),
+    'meses':                 _meses_arquivo,
+    'vendedores':            vendedores_out,
+    'fontes_indisponiveis':  sorted(set(FONTES_INDISPONIVEIS)),
 }
 
 js_out = (
@@ -450,6 +457,8 @@ with open(output_path, 'w', encoding='utf-8') as f:
     f.write(js_out)
 
 print(f"OK metas_data.js gerado — {len(vendedores_out)} vendedores, meses: {_meses_arquivo}")
+if FONTES_INDISPONIVEIS:
+    print(f"[AVISO] Fontes indisponíveis nesta execução: {sorted(set(FONTES_INDISPONIVEIS))} — resultados podem estar incompletos.")
 
 # ── Gera vendas_data.js ───────────────────────────────────────────────────────
 
@@ -546,6 +555,7 @@ for _s, _e, _n, _emp, _en in _HIER_CONFIGS:
             _hier_parts.append(_df)
         except Exception as _ex2:
             print(f"[AVISO] {_n} falhou ({str(_ex2)[:80]}) — ignorado")
+            FONTES_INDISPONIVEIS.append(_n)
 
 if _hier_parts:
     _hier = pd.concat(_hier_parts, ignore_index=True)

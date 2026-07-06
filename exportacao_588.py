@@ -7,7 +7,8 @@ from sqlalchemy import create_engine
 from datetime import datetime, date
 from pathlib import Path
 
-oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
+from utils import ORACLE_LIB
+oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
 user     = "vpn"
 password = "vpn2320vpn"

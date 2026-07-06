@@ -6,7 +6,8 @@ from sqlalchemy import create_engine
 from datetime import date, datetime
 from pathlib import Path
 
-oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
+from utils import ORACLE_LIB
+oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
 engine_mg = create_engine(
     'oracle+oracledb://vpn:vpn2320vpn@mgon_oci',
@@ -31,7 +32,7 @@ def _mes_sort_key(mes_str):
     except Exception:
         return (0, 0)
 
-def carregar_dados(query, engine, nome='tabela', max_tentativas=5):
+def carregar_dados(query, engine, nome='tabela', max_tentativas=3):
     for tentativa in range(1, max_tentativas + 1):
         try:
             print(f"-> Lendo {nome} (Tentativa {tentativa}/{max_tentativas})...")

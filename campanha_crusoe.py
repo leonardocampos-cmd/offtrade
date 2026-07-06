@@ -1,0 +1,39 @@
+#CAMPANHA DE ROBSON CRUSOE - SOMENTE PARA VENDEDORAS DO RJ
+#DATA DE INICIO: 01/07/2026
+#DATA DE ENCERRAMENTO: 31/08/2026
+#KEY ACCOUNT( MARIA LUIZA - OFF TRADE - RCA 275 / JOSE MARCELO CARDOSO - OFF TRADE - RCA 158 )
+#CRITÉRIOS DE PONTUAÇÃO
+#NOVOS SKUS E REATIVACAO(90 DIAS SEM VENDA) - 5 PONTOS
+#ATINGIMENTO DE META DE VENDAS - 5 PONTOS
+#A CADA PEDIDO GANHA 1 PONTO
+#PREMIO: R$ 800,00 PARA O VENDEDOR COM MAIOR PONTUAÇÃO, NO CAJU
+#EM CASO DE EMPATE, O VENDEDOR COM MAIOR FATURAMENTO LEVA O PREMIO SE TIVER EMPATE NO FATURAMENTO, AMBOS LEVAM
+
+#PEQUENO E MÉDIO VAREJO(Barbara - 412; Leandro - 450; Ângelo - 153; Ana - 471; Diogo - 44; Natali - 419 e Mateus - 439 )
+#CRITERIOS DE PONTUACAO
+criterios = """
+POSITIVACAO, NOVOS CLIENTES E/OU REATIVACAO(60 DIAS SEM PEDIDO) - 5 PONTOS
+NOVOS SKUS - 4 PONTOS
+ENTRE DE R$500,00 - R$1000,00 = 1 PONTO
+ENTRE DE R$1001,00 - R$3000,00 = 2 PONTOS
+ACIMA DE R$3000,00 = 3 PONTOS
+"""   
+
+premio = """
+1º LUGAR - R$ 800,00
+2º LUGAR - R$ 500,00
+"""
+
+empate = """
+Maior positivacao entre julho e agosto;
+maior numero de skus entre julho e agosto;
+maior faturamento em dinheiro/boleto"""
+
+#VAREJO TRADICIONAL
+criterio_pontuacao = """
+positivacao = 1 ponto por produtos da linha gourmet(mediterranea, my protein, atum azeite e pate)
+"""
+
+premio_varejo = """
+1º LUGAR - R$ 800,00
+"""

@@ -4,6 +4,7 @@ from sqlalchemy import create_engine
 import json
 from datetime import datetime, date
 from pathlib import Path
+import baixar_planilhas_drive as _bpd
 
 _MESES_PT = {
     '01': ('JANEIRO',   'Janeiro'),
@@ -20,10 +21,9 @@ _MESES_PT = {
     '12': ('DEZEMBRO',  'Dezembro'),
 }
 
-def _caminho_logistica(d: date) -> str:
-    """Acha o Excel de controle de notas do mes, tolerando variacoes no nome
-    do arquivo (ex: '06 JUNHO - Controle de Notas 2026.xlsx' vs
-    '07 JULHO CONTROLE DE NOTAS.xlsx', '04 ABRIL - Controle de Notas Abril 2026.xlsx', '05 MAIO - Controle de Notas 2026.xlsx')."""
+def _caminho_logistica_local(d: date) -> Path:
+    """Fallback: acha o Excel direto na pasta sincronizada G:\\... (usado
+    quando o Drive falha e a máquina local ainda tem o Drive Desktop)."""
     mm   = d.strftime('%m')
     ano  = d.strftime('%Y')
     upper, cap = _MESES_PT[mm]
@@ -36,12 +36,24 @@ def _caminho_logistica(d: date) -> str:
         if "controle de notas" in f.stem.lower()
     ]
     if candidatos:
-        return str(max(candidatos, key=lambda f: f.stat().st_mtime))
-    # Nenhum candidato encontrado: devolve o nome "padrao" so pra a mensagem
-    # de erro do chamador mostrar onde deveria estar.
-    return str(pasta_dir / f"{mm} {upper} - Controle de Notas {ano}.xlsx")
+        return max(candidatos, key=lambda f: f.stat().st_mtime)
+    return pasta_dir / f"{mm} {upper} - Controle de Notas {ano}.xlsx"
 
-oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
+
+def _caminho_logistica(d: date) -> str:
+    """Acha o Excel de controle de notas do mes (via Drive), tolerando
+    variacoes no nome do arquivo (ex: '06 JUNHO - Controle de Notas 2026.xlsx'
+    vs '07 JULHO CONTROLE DE NOTAS.xlsx'). Cai pro caminho G:\\... sincronizado
+    localmente se o Drive falhar."""
+    mm   = d.strftime('%m')
+    upper, cap = _MESES_PT[mm]
+    return str(_bpd.com_fallback(
+        lambda: _bpd.caminho_controle_notas(mm, upper),
+        str(_caminho_logistica_local(d)),
+    ))
+
+from utils import ORACLE_LIB
+oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 engine = create_engine(
     'oracle+oracledb://vpn:vpn2320vpn@crc_oci',
     pool_pre_ping=True,
@@ -58,7 +70,8 @@ def _limpar_pedidos(df):
     df['TOTAL']    = pd.to_numeric(df['TOTAL'],   errors='coerce').fillna(0)
     df['QT']       = pd.to_numeric(df['QT'],      errors='coerce').fillna(0).astype(int)
     df['NUMNOTA_NUM'] = pd.to_numeric(df['NUMNOTA'], errors='coerce')
-    df['DATA']     = pd.to_datetime(df['DATA'],   errors='coerce').dt.strftime('%d/%m/%Y')
+    df['DATA_DT']  = pd.to_datetime(df['DATA'],   errors='coerce')
+    df['DATA']     = df['DATA_DT'].dt.strftime('%d/%m/%Y')
     df['STATUS']   = df['STATUS'].fillna('').astype(str).str.strip()
     return df
 
@@ -79,7 +92,7 @@ tabela_pedidos = _limpar_pedidos(tabela_pedidos)
 DIAS_NOTAS_ABERTAS = 90
 tabela_pedidos_abertos = carregar_dados(f"""
     SELECT NUMPED, NUMNOTA, NOME, DATA, CODUSUR, CLIENTE, STATUS,
-           DESCRICAO, PVENDA, QT, TOTAL, OBSENTREGA1
+           DESCRICAO, PVENDA, QT, QTFALTA, TOTAL, OBSENTREGA1
     FROM crc.PBI_PCPEDI
     WHERE CODFILIAL IN (2,4)
       AND NOME LIKE '%OFF TRADE%'
@@ -89,6 +102,26 @@ tabela_pedidos_abertos = carregar_dados(f"""
     ORDER BY DATA DESC
 """, engine, "pedidos_abertos")
 tabela_pedidos_abertos = _limpar_pedidos(tabela_pedidos_abertos)
+
+# QTFALTA=0 em todos os itens do pedido => ja foi totalmente entregue (mesmo sem
+# rota hoje, porque foi entregue no dia dele). So conta como "aberta" quando
+# ainda falta quantidade, ou quando QTFALTA nunca foi preenchida (incerto).
+tabela_pedidos_abertos['QTFALTA'] = pd.to_numeric(tabela_pedidos_abertos['QTFALTA'], errors='coerce')
+_qtfalta_pedido = tabela_pedidos_abertos.groupby('NUMPED')['QTFALTA'].transform(lambda s: s.sum(min_count=1))
+tabela_pedidos_abertos['_JA_ENTREGUE'] = _qtfalta_pedido == 0
+
+# Pedidos cancelados dos ultimos N dias — aba separada, so pra visibilidade.
+tabela_pedidos_cancelados = carregar_dados(f"""
+    SELECT NUMPED, NUMNOTA, NOME, DATA, CODUSUR, CLIENTE, STATUS,
+           DESCRICAO, PVENDA, QT, TOTAL, OBSENTREGA1
+    FROM crc.PBI_PCPEDI
+    WHERE CODFILIAL IN (2,4)
+      AND NOME LIKE '%OFF TRADE%'
+      AND STATUS = 'CANCELADA'
+      AND DATA >= SYSDATE - {DIAS_NOTAS_ABERTAS}
+    ORDER BY DATA DESC
+""", engine, "pedidos_cancelados")
+tabela_pedidos_cancelados = _limpar_pedidos(tabela_pedidos_cancelados)
 
 # ── Mapeia Oracle name → display name (igual ao metas.html) ───────────────────
 
@@ -114,6 +147,13 @@ tabela_pedidos_abertos['NOME'] = (
     tabela_pedidos_abertos['CODUSUR_NUM']
     .map(_rca_to_display)
     .fillna(tabela_pedidos_abertos['NOME'].str.strip())
+)
+
+tabela_pedidos_cancelados['CODUSUR_NUM'] = pd.to_numeric(tabela_pedidos_cancelados['CODUSUR'], errors='coerce')
+tabela_pedidos_cancelados['NOME'] = (
+    tabela_pedidos_cancelados['CODUSUR_NUM']
+    .map(_rca_to_display)
+    .fillna(tabela_pedidos_cancelados['NOME'].str.strip())
 )
 
 # ── Excel de logística — apenas a aba de HOJE ─────────────────────────────────
@@ -157,6 +197,37 @@ def _prep_logistica(df):
     return out.reset_index(drop=True)
 
 logistica_hoje = _prep_logistica(df_hoje)
+
+# ── Histórico de rotas (todas as abas dos meses relevantes) ───────────────────
+# "Em Rota hoje" só olha a data de hoje (acima). Pro resto das notas
+# (Emitida/Sem rota), verifica se a nota já teve rota registrada em QUALQUER
+# dia, usando o(s) mês(es) da própria data de emissão em PBI_PCPEDI — não só
+# a planilha de hoje. Isso evita mostrar como "sem rota" notas antigas que já
+# foram roteadas/entregues no dia delas (ex: emitida 08/04, roteada 09/04).
+
+_meses_relevantes = sorted({
+    (d.year, d.month) for d in tabela_pedidos_abertos['DATA_DT'].dropna()
+})
+
+_historico_partes = []
+for _ano, _mm in _meses_relevantes:
+    _caminho_mes = _caminho_logistica(date(_ano, _mm, 1))
+    try:
+        _abas_mes = pd.read_excel(_caminho_mes, sheet_name=None)
+    except FileNotFoundError:
+        print(f"Aviso: arquivo de logística de {_mm:02d}/{_ano} não encontrado: {_caminho_mes}")
+        continue
+    for _df_aba in _abas_mes.values():
+        _prep = _prep_logistica(_df_aba)
+        if not _prep.empty:
+            _historico_partes.append(_prep)
+    print(f"Histórico logística {_mm:02d}/{_ano}: {_caminho_mes} | {len(_abas_mes)} aba(s)")
+
+logistica_historico = pd.concat(_historico_partes, ignore_index=True) if _historico_partes else pd.DataFrame(columns=['NF_NUM', 'ROTA'])
+nfs_ja_roteadas = set(
+    logistica_historico.loc[logistica_historico['ROTA'] != '', 'NF_NUM'].dropna().astype(int)
+)
+print(f"   {len(nfs_ja_roteadas)} NF(s) com rota já registrada em algum dia (histórico)")
 
 # ── Merge pedidos × logística de hoje ─────────────────────────────────────────
 
@@ -204,23 +275,32 @@ def _agrupar(df):
         })
     return result
 
-_grupos_mes     = dict(tuple(tabela_final.groupby('NOME')))
-_grupos_abertos = dict(tuple(tabela_final_abertos.groupby('NOME')))
-_vazio_mes      = tabela_final.iloc[0:0]
-_vazio_abertos  = tabela_final_abertos.iloc[0:0]
+_grupos_mes        = dict(tuple(tabela_final.groupby('NOME')))
+_grupos_abertos    = dict(tuple(tabela_final_abertos.groupby('NOME')))
+_grupos_cancelados = dict(tuple(tabela_pedidos_cancelados.groupby('NOME')))
+_vazio_mes         = tabela_final.iloc[0:0]
+_vazio_abertos     = tabela_final_abertos.iloc[0:0]
+_vazio_cancelados  = tabela_pedidos_cancelados.iloc[0:0]
 
 vendedores_out = []
-for nome in sorted(set(_grupos_mes) | set(_grupos_abertos)):
+for nome in sorted(set(_grupos_mes) | set(_grupos_abertos) | set(_grupos_cancelados)):
     grp            = _grupos_mes.get(nome, _vazio_mes)
     grp_abertos    = _grupos_abertos.get(nome, _vazio_abertos)
+    grp_cancelados = _grupos_cancelados.get(nome, _vazio_cancelados)
     em_rota        = grp[grp['ROTA'] != '']
     nao_emitido    = grp[grp['NUMNOTA_NUM'].isna()]
-    emitido_s_rota = grp_abertos[grp_abertos['NUMNOTA_NUM'].notna() & (grp_abertos['ROTA'] == '')]
+    emitido_s_rota = grp_abertos[
+        grp_abertos['NUMNOTA_NUM'].notna()
+        & (grp_abertos['ROTA'] == '')
+        & ~grp_abertos['_JA_ENTREGUE']
+        & ~grp_abertos['NUMNOTA_NUM'].isin(nfs_ja_roteadas)
+    ]
     vendedores_out.append({
         'nome':           _s(nome),
         'em_rota':        _agrupar(em_rota),
         'nao_emitido':    _agrupar(nao_emitido),
         'emitido_s_rota': _agrupar(emitido_s_rota),
+        'canceladas':     _agrupar(grp_cancelados),
         'nao_entregue':   [],
     })
 

@@ -1,32 +1,81 @@
 """
 Gera inadimplencia_data.js com titulos em aberto (vencidos, sem pagamento)
-por vendedor OFF TRADE (RJ/ES, filiais 2 e 4).
+por vendedor OFF TRADE, em todos os estados/empresas (RJ, SP, ES, MG, ...).
 """
+import os
 import json
 import pandas as pd
 from datetime import datetime, date
 from pathlib import Path
+from urllib.parse import quote_plus
+from sqlalchemy import create_engine
 
-from meta import engine, carregar_dados
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, carregar_dados
 
-tabela_pedidos = carregar_dados("""
-    SELECT P.NUMPED, P.DUPLIC, P.DTPAG, P.CODUSUR, U.NOME,
-           S.NOME AS NOME_SUPERVISOR, G.NOMEGERENTE,
-           P.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, '') AS FANTASIA,
-           P.VALOR, P.DTVENC, P.CODCOB, P.VPAGO, P.CODFILIAL
-    FROM crc.PCPREST P
-    JOIN crc.PCUSUARI  U ON U.CODUSUR = P.CODUSUR
-    LEFT JOIN crc.PCCLIENT  C ON C.CODCLI        = P.CODCLI
-    LEFT JOIN crc.PCSUPERV  S ON U.CODSUPERVISOR = S.CODSUPERVISOR
-    LEFT JOIN crc.PCGERENTE G ON S.CODGERENTE    = G.CODGERENTE
-    WHERE P.CODFILIAL IN (2,4)
-      AND U.NOME LIKE '%OFF TRADE%'
-      AND P.DTPAG IS NULL
-      AND P.DTVENC < TRUNC(SYSDATE)
-    ORDER BY P.DTVENC ASC
-""", engine, "inadimplencia")
+# MGON nao tem engine pronto em meta.py — cria aqui, igual exportacao_metas_gerais.py
+_VPN_USER     = os.getenv("VPN_USER",     "vpn")
+_VPN_PASSWORD = os.getenv("VPN_PASSWORD", "vpn2320vpn")
+_DSN_MG       = os.getenv("DSN_MG", "mgon_oci")
+engine_mgon = create_engine(
+    f"oracle+oracledb://{_VPN_USER}:{quote_plus(_VPN_PASSWORD)}@{_DSN_MG}",
+    pool_pre_ping=True, pool_recycle=3600, connect_args={"expire_time": 2},
+)
 
+_SPON_EXTRA = ['%W.S%']
+
+
+def _nome_filter(extra_nomes=None):
+    base = "U.NOME LIKE '%OFF TRADE%'"
+    if extra_nomes:
+        extras = " OR ".join(f"U.NOME LIKE '{p}'" for p in extra_nomes)
+        return f"({base} OR {extras})"
+    return base
+
+
+def _query_inadimplencia(schema, extra_nomes=None):
+    s = schema.upper()
+    nome_f = _nome_filter(extra_nomes)
+    return f"""
+        SELECT P.NUMPED, P.DUPLIC, P.DTPAG, P.CODUSUR, U.NOME,
+               U.ESTADO AS ESTADO_VENDEDOR,
+               S.NOME AS NOME_SUPERVISOR, G.NOMEGERENTE,
+               P.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, '') AS FANTASIA,
+               P.VALOR, P.DTVENC, P.CODCOB, P.VPAGO, P.CODFILIAL
+        FROM {s}.PCPREST P
+        JOIN {s}.PCUSUARI  U ON U.CODUSUR = P.CODUSUR
+        LEFT JOIN {s}.PCCLIENT  C ON C.CODCLI        = P.CODCLI
+        LEFT JOIN {s}.PCSUPERV  S ON U.CODSUPERVISOR = S.CODSUPERVISOR
+        LEFT JOIN {s}.PCGERENTE G ON S.CODGERENTE    = G.CODGERENTE
+        WHERE {nome_f}
+          AND P.DTPAG IS NULL
+          AND P.DTVENC < TRUNC(SYSDATE)
+    """
+
+
+_SOURCES = [
+    ("CRC",      engine,         None),
+    ("thekings", engine_theking, None),
+    ("CASTAS",   engine_castas,  None),
+    ("GARRIDO",  engine_garrido, None),
+    ("SPON",     engine_spon,    _SPON_EXTRA),
+    ("MGON",     engine_mgon,    None),
+]
+
+_parts = []
+for _schema, _eng, _extra in _SOURCES:
+    try:
+        _df = carregar_dados(_query_inadimplencia(_schema, _extra), _eng, f"inadimplencia_{_schema}")
+        _parts.append(_df)
+    except Exception as ex:
+        print(f"[AVISO] inadimplencia_{_schema} falhou ({str(ex)[:80]}) — ignorado")
+
+if not _parts:
+    raise RuntimeError("Nenhuma base carregada.")
+
+tabela_pedidos = pd.concat(_parts, ignore_index=True)
 tabela_pedidos.columns = tabela_pedidos.columns.str.upper()
+
+tabela_pedidos['ESTADO'] = tabela_pedidos['ESTADO_VENDEDOR'].fillna('').astype(str).str.strip().str.upper().replace('', 'Sem Estado')
 tabela_pedidos['NOME_SUPERVISOR'] = tabela_pedidos['NOME_SUPERVISOR'].fillna('').astype(str).str.strip().replace('', 'Sem Supervisor')
 tabela_pedidos['NOMEGERENTE']     = tabela_pedidos['NOMEGERENTE'].fillna('').astype(str).str.strip().replace('', 'Sem Gerente')
 
@@ -61,6 +110,10 @@ tabela_pedidos['NOME'] = (
     .fillna(tabela_pedidos['NOME'].str.strip())
 )
 
+# Um vendedor pode aparecer em mais de um schema com o mesmo CODUSUR — agrupa por
+# (nome, estado) pra nao misturar RCAs de empresas/estados diferentes com o mesmo codigo
+tabela_pedidos['_GRUPO'] = tabela_pedidos['NOME'] + ' | ' + tabela_pedidos['ESTADO']
+
 
 def _s(v):
     return '' if pd.isna(v) else str(v).strip()
@@ -75,7 +128,7 @@ def _s_num(v):
 
 
 vendedores_out = []
-for nome, grp in tabela_pedidos.groupby('NOME'):
+for _grupo, grp in tabela_pedidos.groupby('_GRUPO'):
     titulos = []
     for _, r in grp.iterrows():
         titulos.append({
@@ -91,13 +144,15 @@ for nome, grp in tabela_pedidos.groupby('NOME'):
             'dias_atraso':  int(r['DIAS_ATRASO']) if pd.notna(r['DIAS_ATRASO']) else 0,
             'codcob':       r['CODCOB'],
             'codfilial':    _s(r['CODFILIAL']),
+            'estado':       r['ESTADO'],
             'supervisor':   r['NOME_SUPERVISOR'],
             'gerente':      r['NOMEGERENTE'],
         })
     titulos.sort(key=lambda t: -t['dias_atraso'])
     total_aberto = round(sum(t['valor_aberto'] for t in titulos), 2)
     vendedores_out.append({
-        'nome':         _s(nome),
+        'nome':         _s(grp['NOME'].iloc[0]),
+        'estado':       grp['ESTADO'].iloc[0],
         'supervisor':   grp['NOME_SUPERVISOR'].iloc[0],
         'gerente':      grp['NOMEGERENTE'].iloc[0],
         'qtd_titulos':  len(titulos),

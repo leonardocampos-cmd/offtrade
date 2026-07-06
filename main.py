@@ -1,6 +1,14 @@
+import os
 import sys
 import traceback
 from datetime import datetime
+from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).parent / ".env")
+
+SEND_ALERTS = os.getenv("SEND_ALERTS", "1") == "1"
+OFFTRADE_RUNTIME = os.getenv("OFFTRADE_RUNTIME", "local")
 
 def step(nome):
     print(f"\n{'-' * 50}")
@@ -14,6 +22,21 @@ def main():
     print(f"{'='*50}")
 
     try:
+        step("0/8 - Baixando planilhas do Google Drive")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "baixar_planilhas_drive.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] baixar_planilhas_drive falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] baixar_planilhas_drive falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
         step("1/8 - Carregando metas e vendas (Oracle + Excel)")
         import meta
 
@@ -221,39 +244,56 @@ def main():
             print("[AVISO] exportacao_inadimplencia falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("10/10 - Alertas Logistica RJ (Gmail -> nao entregues)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "alerta_logistica_rj.py"],
-                capture_output=True
-            )
-            print(result.stdout.decode("utf-8", errors="replace"))
-            if result.returncode != 0:
-                print("[AVISO] alerta_logistica_rj falhou — ignorado, pipeline continua.")
-                print(result.stderr.decode("utf-8", errors="replace"))
-        except Exception:
-            print("[AVISO] alerta_logistica_rj falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
-
-        step("10/10 - Enviando alerta WhatsApp")
-        import envio_whatsapp
-
-        step("11/11 - Deploy para VPS")
-        for script in ["deploy_static_vps.py", "deploy_vps.py"]:
+        if SEND_ALERTS:
+            step("10/10 - Alertas Logistica RJ (Gmail -> nao entregues)")
             try:
                 import subprocess, sys as _sys
                 result = subprocess.run(
-                    [_sys.executable, script],
-                    capture_output=True, text=True
+                    [_sys.executable, "alerta_logistica_rj.py"],
+                    capture_output=True
                 )
-                print(result.stdout)
+                print(result.stdout.decode("utf-8", errors="replace"))
                 if result.returncode != 0:
-                    print(f"[AVISO] {script} falhou — ignorado, pipeline continua.")
-                    print(result.stderr)
+                    print("[AVISO] alerta_logistica_rj falhou — ignorado, pipeline continua.")
+                    print(result.stderr.decode("utf-8", errors="replace"))
             except Exception:
-                print(f"[AVISO] {script} falhou — ignorado, pipeline continua.")
+                print("[AVISO] alerta_logistica_rj falhou — ignorado, pipeline continua.")
                 traceback.print_exc()
+
+            step("10/10 - Enviando alerta WhatsApp")
+            import envio_whatsapp
+        else:
+            step("10/10 - Alertas (pulado — SEND_ALERTS=0 neste ambiente)")
+
+        step("11/11 - Deploy para VPS")
+        if OFFTRADE_RUNTIME == "vps":
+            try:
+                import shutil
+                destino = "/opt/offtrade-static"
+                repo_dir = Path(__file__).parent
+                arquivos = [f for f in repo_dir.glob("*.html") if f.name != "exemplo.html"]
+                arquivos += list(repo_dir.glob("*.js"))
+                for f in arquivos:
+                    shutil.copy(f, os.path.join(destino, f.name))
+                print(f"OK - {len(arquivos)} arquivo(s) copiados para {destino} (deploy local, sem SSH)")
+            except Exception:
+                print("[AVISO] cópia local para /opt/offtrade-static falhou — ignorado, pipeline continua.")
+                traceback.print_exc()
+        else:
+            for script in ["deploy_static_vps.py", "deploy_vps.py"]:
+                try:
+                    import subprocess, sys as _sys
+                    result = subprocess.run(
+                        [_sys.executable, script],
+                        capture_output=True, text=True
+                    )
+                    print(result.stdout)
+                    if result.returncode != 0:
+                        print(f"[AVISO] {script} falhou — ignorado, pipeline continua.")
+                        print(result.stderr)
+                except Exception:
+                    print(f"[AVISO] {script} falhou — ignorado, pipeline continua.")
+                    traceback.print_exc()
 
     except Exception:
         print("\n[ERRO] Falha na execução:")

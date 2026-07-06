@@ -30,7 +30,7 @@ engine = create_engine(
 )
 
 # --- FUNÇÃO DE CARGA COM RETRY ---
-def carregar_dados(query, engine, nome_tabela="tabela", max_tentativas=5):
+def carregar_dados(query, engine, nome_tabela="tabela", max_tentativas=3):
     for tentativa in range(1, max_tentativas + 1):
         try:
             print(f"-> Lendo {nome_tabela} (Tentativa {tentativa}/{max_tentativas})...")

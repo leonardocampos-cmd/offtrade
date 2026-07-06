@@ -7,7 +7,8 @@ from sqlalchemy import create_engine
 from datetime import date, datetime
 from pathlib import Path
 
-oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
+from utils import ORACLE_LIB
+oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
 user     = "vpn"
 password = "vpn2320vpn"
@@ -39,7 +40,7 @@ def _mes_sort_key(mes_str):
     except Exception:
         return (0, 0)
 
-def carregar_dados(query, engine, nome='tabela', max_tentativas=5):
+def carregar_dados(query, engine, nome='tabela', max_tentativas=3):
     for tentativa in range(1, max_tentativas + 1):
         try:
             print(f"-> Lendo {nome} (Tentativa {tentativa}/{max_tentativas})...")
@@ -120,6 +121,7 @@ for _, row in _vh[['VENDEDOR', 'CODUSUR']].drop_duplicates().iterrows():
 # ── Metas SP ──────────────────────────────────────────────────────────────────
 
 import unicodedata
+import baixar_planilhas_drive as _bpd
 
 def _norm_col(s):
     return unicodedata.normalize('NFKD', str(s)).encode('ascii', 'ignore').decode().upper().strip()
@@ -133,9 +135,10 @@ def _limpar_nome_sp(nome):
 
 _metas_sp: dict = {}
 try:
-    _df_m = pd.read_excel(
+    _df_m = pd.read_excel(_bpd.com_fallback(
+        _bpd.caminho_metas_sp,
         r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS SP.xlsx"
-    )
+    ))
     _df_m.columns = _df_m.columns.str.strip()
     _cn = {_norm_col(c): c for c in _df_m.columns}  # mapa normalizado → nome real
 

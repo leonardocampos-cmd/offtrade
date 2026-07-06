@@ -3,9 +3,9 @@ import time
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
-from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, tabela_vendas
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, tabela_vendas, FONTES_INDISPONIVEIS
 
-def _read_sql_retry(query, con, engine_obj, nome, dtype=str, max_tentativas=5):
+def _read_sql_retry(query, con, engine_obj, nome, dtype=str, max_tentativas=3):
     for tentativa in range(1, max_tentativas + 1):
         try:
             print(f"-> Lendo {nome} (Tentativa {tentativa}/{max_tentativas})...")
@@ -63,15 +63,21 @@ def _query_clientes(schema, filtro_estent=None):
         ORDER BY LV.DTULTCOMP DESC
 """
 
-_parts_cli = [
-    _read_sql_retry(_query_clientes("CRC"),      engine,         engine,         "nao_pos_CRC"),
-    _read_sql_retry(_query_clientes("thekings"), engine_theking, engine_theking, "nao_pos_thekings"),
-]
-for _s, _e, _fe in [("CASTAS", engine_castas, None), ("GARRIDO", engine_garrido, None), ("SPON", engine_spon, None)]:
+_parts_cli = []
+for _s, _e, _fe in [
+    ("CRC",      engine,         None),
+    ("thekings", engine_theking, None),
+    ("CASTAS",   engine_castas,  None),
+    ("GARRIDO",  engine_garrido, None),
+    ("SPON",     engine_spon,    None),
+]:
     try:
         _parts_cli.append(_read_sql_retry(_query_clientes(_s, filtro_estent=_fe), _e, _e, f"nao_pos_{_s}"))
     except Exception as _ex:
         print(f"[AVISO] nao_pos_{_s} falhou ({str(_ex)[:80]}) — ignorado")
+        FONTES_INDISPONIVEIS.append(f"nao_pos_{_s}")
+if not _parts_cli:
+    raise RuntimeError("Nenhuma fonte de clientes disponível — todas as bases Oracle estão fora do ar.")
 clientes = pd.concat(_parts_cli, ignore_index=True)
 
 clientes.columns = clientes.columns.str.upper()

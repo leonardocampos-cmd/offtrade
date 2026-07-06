@@ -6,7 +6,8 @@ from sqlalchemy import create_engine
 from datetime import datetime
 from pathlib import Path
 
-oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
+from utils import ORACLE_LIB
+oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
 engine_mg = create_engine(
     'oracle+oracledb://vpn:vpn2320vpn@mgon_oci',
