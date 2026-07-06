@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "06/07/2026 11:25",
+  "atualizado_em": "06/07/2026 12:49",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -6921,16 +6921,9 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "51496",
+        "codcli": "51498",
         "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
-        "bairro": "VENTURA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51495",
-        "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
-        "bairro": "LOTEAMENTO VILLA BRANCA",
+        "bairro": "JARDIM GURILANDIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6942,9 +6935,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51498",
+        "codcli": "51495",
         "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
-        "bairro": "JARDIM GURILANDIA",
+        "bairro": "LOTEAMENTO VILLA BRANCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51496",
+        "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
+        "bairro": "VENTURA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7098,16 +7098,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51189",
+        "codcli": "51186",
         "cliente": "M S KURODA & CIA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "JARDIM GOLLO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51186",
+        "codcli": "51189",
         "cliente": "M S KURODA & CIA LTDA",
-        "bairro": "JARDIM GOLLO",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -7214,74 +7214,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "51169",
-        "cliente": "ROGERIO DAS NEVES BOITUVA",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO LUCIA 750ML",
-            "fantasia": "LUCIA",
-            "qt": 1,
-            "valor": 65.9
-          },
-          {
-            "produto": "CASA PERINI DEMI-SEC ICE ROSE 750ML",
-            "fantasia": "PERINI",
-            "qt": 6,
-            "valor": 233.4
-          },
-          {
-            "produto": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
-            "fantasia": "AURORA",
-            "qt": 1,
-            "valor": 104.9
-          },
-          {
-            "produto": "LICOR BANANINHA CARIOCA 750ML",
-            "fantasia": "BANANINHA CARIOCA",
-            "qt": 1,
-            "valor": 61.86
-          },
-          {
-            "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
-            "fantasia": "AURORA",
-            "qt": 2,
-            "valor": 47.88
-          },
-          {
-            "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 59.9
-          },
-          {
-            "produto": "VODKA BELVEDERE B10 700 ML",
-            "fantasia": "MOET HENNESY",
-            "qt": 1,
-            "valor": 726.9
-          },
-          {
-            "produto": "VODKA BELVEDERE BARTEZEK 700 ML",
-            "fantasia": "MOET HENNESY",
-            "qt": 1,
-            "valor": 189.05
-          },
-          {
-            "produto": "VODKA BELVEDERE SMOGORY 700 ML",
-            "fantasia": "MOET HENNESY",
-            "qt": 1,
-            "valor": 169.9
-          },
-          {
-            "produto": "WHISKY PASSPORT HONEY 670ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 34.5
-          }
-        ]
-      },
-      {
         "codcli": "51171",
         "cliente": "ADEGA E CONVENIENCIA BETIL LTDA",
         "bairro": "CENTRO",
@@ -7334,6 +7266,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51444",
         "cliente": "MARIA DENIR FONSECA DA SILVA",
         "bairro": "CIDADE JARDIM",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51169",
+        "cliente": "ROGERIO DAS NEVES BOITUVA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7949,16 +7888,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51070",
+        "codcli": "51068",
         "cliente": "SUPERMERCADOS FURLANETTI LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VILA SANTA MARIA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51068",
+        "codcli": "51070",
         "cliente": "SUPERMERCADOS FURLANETTI LTDA",
-        "bairro": "VILA SANTA MARIA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
