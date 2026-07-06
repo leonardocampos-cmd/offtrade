@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "06/07/2026 10:34",
+  "atualizado_em": "06/07/2026 10:39",
   "data_rota": "06.07",
   "vendedores": [
     {
@@ -25,14 +25,19 @@ const ENTREGAS_DATA = {
               "val": 49.9
             },
             {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 2,
+              "val": 74.02
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 6,
+              "val": 173.4
+            },
+            {
               "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
               "qt": 6,
               "val": 125.4
-            },
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 2,
-              "val": 63.99
             },
             {
               "desc": "4 PACK RED BULL",
@@ -40,19 +45,14 @@ const ENTREGAS_DATA = {
               "val": 196.56
             },
             {
-              "desc": "GUARAVITON GINSENG 12X500ML",
+              "desc": "GUARAVITA NATURAL 24X290ML",
               "qt": 2,
-              "val": 74.02
+              "val": 63.99
             },
             {
               "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
               "qt": 6,
               "val": 119.4
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-              "qt": 6,
-              "val": 173.4
             }
           ]
         }
@@ -5723,11 +5723,6 @@ const ENTREGAS_DATA = {
           "total": 467.3,
           "itens": [
             {
-              "desc": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
-              "qt": 1,
-              "val": 114.9
-            },
-            {
               "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
               "qt": 1,
               "val": 47.9
@@ -5756,6 +5751,11 @@ const ENTREGAS_DATA = {
               "desc": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
               "qt": 1,
               "val": 47.9
+            },
+            {
+              "desc": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
+              "qt": 1,
+              "val": 114.9
             }
           ]
         },
@@ -7266,6 +7266,31 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "379001200",
+          "numnota": "",
+          "data": "06/07/2026",
+          "cliente": "BD DISTRIBUIDORA ATACADISTA E VAREJO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 275.6,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 2,
+              "val": 125.8
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 5,
+              "val": 149.8
+            }
+          ]
+        },
+        {
           "numped": "379001195",
           "numnota": "",
           "data": "03/07/2026",
@@ -8371,11 +8396,6 @@ const ENTREGAS_DATA = {
           "total": 1936.98,
           "itens": [
             {
-              "desc": "GIN ROCKS 1000ML",
-              "qt": 6,
-              "val": 135.0
-            },
-            {
               "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
               "qt": 24,
               "val": 282.0
@@ -8409,6 +8429,11 @@ const ENTREGAS_DATA = {
               "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
               "qt": 12,
               "val": 150.24
+            },
+            {
+              "desc": "GIN ROCKS 1000ML",
+              "qt": 6,
+              "val": 135.0
             },
             {
               "desc": "GIN ROCKS STRAWBERRY 1000ML",
@@ -9176,6 +9201,16 @@ const ENTREGAS_DATA = {
           "total": 2728.2,
           "itens": [
             {
+              "desc": "LICOR COINTREAU 700 ML",
+              "qt": 6,
+              "val": 503.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 12,
+              "val": 464.4
+            },
+            {
               "desc": "CHANDON RICHE DEMI-SEC 750 ML",
               "qt": 12,
               "val": 946.8
@@ -9189,16 +9224,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
               "qt": 6,
               "val": 203.4
-            },
-            {
-              "desc": "LICOR COINTREAU 700 ML",
-              "qt": 6,
-              "val": 503.4
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 12,
-              "val": 464.4
             }
           ]
         }
@@ -11783,12 +11808,12 @@ const ENTREGAS_DATA = {
           "total": 264.6,
           "itens": [
             {
-              "desc": "CHANCELER SABOR MEL 1000ML",
+              "desc": "CHANCELER SABOR CANELA 1000ML",
               "qt": 7,
               "val": 132.3
             },
             {
-              "desc": "CHANCELER SABOR CANELA 1000ML",
+              "desc": "CHANCELER SABOR MEL 1000ML",
               "qt": 7,
               "val": 132.3
             }
