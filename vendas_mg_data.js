@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "06/07/2026 11:24",
+  "atualizado_em": "06/07/2026 12:49",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 24095.9,
-        "pos": 20,
+        "fat": 25054.2,
+        "pos": 21,
         "fat_ant": 343937.59
       }
     },
@@ -204,8 +204,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 72116.88,
-        "pos": 3,
+        "fat": 76010.88,
+        "pos": 4,
         "fat_ant": 1049712.9
       }
     },
@@ -231,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 4346.16,
-        "pos": 7,
+        "fat": 5706.36,
+        "pos": 8,
         "fat_ant": 85308.22
       }
     },
@@ -44034,6 +44034,51 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 8,
           "valor": 639.2
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "TACA COLIBRI 580ML C/6",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 376.2
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "32823",
+          "cliente": "F A MENDONCA GASTRONOMIA LTDA",
+          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 44.9
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "32823",
+          "cliente": "F A MENDONCA GASTRONOMIA LTDA",
+          "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 146.7
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "32823",
+          "cliente": "F A MENDONCA GASTRONOMIA LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 230.7
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "32823",
+          "cliente": "F A MENDONCA GASTRONOMIA LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 159.8
         }
       ]
     },
@@ -71941,6 +71986,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 138,
           "valor": 6472.2
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 60,
+          "valor": 3894.0
         }
       ]
     },
@@ -81664,6 +81718,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 169.8
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 419.4
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 479.4
         }
       ]
     },
