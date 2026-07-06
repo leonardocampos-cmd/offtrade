@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/07/2026 17:15",
-  "total": 4178,
+  "atualizado_em": "06/07/2026 17:53",
+  "total": 4177,
   "clientes": [
     {
       "codcli": "31683",
@@ -21920,20 +21920,6 @@ const CLIENTES_RCA_DATA = {
       "bairro": "AEROPORTO",
       "cidade": "GUARULHOS",
       "cnpj": "29.048.059/0011-03",
-      "estado": "SP",
-      "ramo": "RESTAURANTE",
-      "codusur1": "399",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "399",
-      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "37098",
-      "razao": "FOME FOOD LANCHONETE LTDA",
-      "fantasia": "FOME FOOD LANCHONETE",
-      "bairro": "AEROPORTO",
-      "cidade": "GUARULHOS",
-      "cnpj": "29.048.059/0012-94",
       "estado": "SP",
       "ramo": "RESTAURANTE",
       "codusur1": "340",
@@ -48312,8 +48298,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "62.211.399/0001-07",
       "estado": "SP",
       "ramo": "RESTAURANTE",
-      "codusur1": "399",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
+      "codusur1": "340",
+      "nome_usur1": "PEDRO HENRIQUE DUARTE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
