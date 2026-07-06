@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "06/07/2026 15:12",
+  "atualizado_em": "06/07/2026 16:03",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -106380,6 +106380,26 @@ const VENDAS_DATA = {
       ],
       "Jul/26": [
         {
+          "data": "06/07/2026",
+          "codcli": "82775",
+          "cliente": "ADEGA DO ROMEU LTDA",
+          "produto": "CANTINA DA SERRA 1,5L",
+          "fantasia": "COMARY",
+          "qt": 24,
+          "valor": 220.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "82775",
+          "cliente": "ADEGA DO ROMEU LTDA",
+          "produto": "VEJA COZINHA SACHET LIMAO 12X400ML",
+          "fantasia": "RECKITT",
+          "qt": 1,
+          "valor": 105.2,
+          "tipo": "Venda"
+        },
+        {
           "data": "03/07/2026",
           "codcli": "81145",
           "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE COELHO DA ROCHA",
@@ -106507,6 +106527,36 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 1,
           "valor": 12.99,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "91492",
+          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 199.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "91492",
+          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 399.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "91492",
+          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
+          "produto": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
+          "fantasia": "RECKITT",
+          "qt": 3,
+          "valor": 399.6,
           "tipo": "Venda"
         },
         {
@@ -120489,6 +120539,56 @@ const VENDAS_DATA = {
           "fantasia": "KAISER",
           "qt": 2,
           "valor": 126.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "94518",
+          "cliente": "PADARIA VERA CRUZ LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 12,
+          "valor": 150.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "94518",
+          "cliente": "PADARIA VERA CRUZ LTDA",
+          "produto": "CATUABA SELVAGEM 900ML",
+          "fantasia": "COMARY",
+          "qt": 6,
+          "valor": 89.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "94518",
+          "cliente": "PADARIA VERA CRUZ LTDA",
+          "produto": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 178.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "94518",
+          "cliente": "PADARIA VERA CRUZ LTDA",
+          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 178.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "94518",
+          "cliente": "PADARIA VERA CRUZ LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.96,
           "tipo": "Venda"
         },
         {
@@ -170378,6 +170478,46 @@ const VENDAS_DATA = {
       ],
       "Jul/26": [
         {
+          "data": "06/07/2026",
+          "codcli": "59059",
+          "cliente": "AMIGAOZAO MERCADO LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 24,
+          "valor": 280.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "59059",
+          "cliente": "AMIGAOZAO MERCADO LTDA",
+          "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+          "fantasia": "FANTE",
+          "qt": 24,
+          "valor": 453.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "59059",
+          "cliente": "AMIGAOZAO MERCADO LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "59059",
+          "cliente": "AMIGAOZAO MERCADO LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
           "data": "04/07/2026",
           "codcli": "89954",
           "cliente": "MERCADO RIO SUL PARQUE ELDORADO LTDA",
@@ -170635,6 +170775,76 @@ const VENDAS_DATA = {
           "fantasia": "HENNESSY",
           "qt": 2,
           "valor": 77.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 997.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 997.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 191.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 191.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 191.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 202.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "91575",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+          "produto": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 202.8,
           "tipo": "Venda"
         }
       ]
@@ -241946,6 +242156,196 @@ const VENDAS_DATA = {
           "qt": 6,
           "valor": 209.4,
           "tipo": "Venda"
+        },
+        {
+          "data": "05/05/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 38,
+          "valor": 1488.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/05/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 3130.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/05/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 15,
+          "valor": 587.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/05/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 2087.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 1065.65,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 7,
+          "valor": 392.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 14,
+          "valor": 914.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1349.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/05/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 9,
+          "valor": 1214.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 3373.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "74901",
+          "cliente": "GIOVANNI LEONCIO DE ALMEIDA DIAS 15223940792",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 546.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "AGUARDENTE PITU 965 ML - BRT - CX/12",
+          "fantasia": "PITU LTDA",
+          "qt": 1,
+          "valor": 124.91,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 261.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/05/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1376.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/05/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 3373.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 3373.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2805.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "81289",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+          "produto": "AGUA MINERAL S/G GRF PET 1X10L MINALBA",
+          "fantasia": "",
+          "qt": 80,
+          "valor": 1120.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2805.5,
+          "tipo": "Venda"
         }
       ],
       "Jun/26": [
@@ -242988,6 +243388,266 @@ const VENDAS_DATA = {
           "qt": 4,
           "valor": 261.12,
           "tipo": "Venda"
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "81289",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+          "produto": "AGUA MINERAL S/G GRF PET 1X10L MINALBA",
+          "fantasia": "",
+          "qt": 40,
+          "valor": 560.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/06/2026",
+          "codcli": "79083",
+          "cliente": "LCR DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 298.85,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 4045.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "75420",
+          "cliente": "LIGIA MERCADO OSB LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1172.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 2023.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 583.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/06/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 861.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 153.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 152.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA  AMSTEL LAGER 0,355LN DES 2X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 105.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 19.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/06/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 34.54,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "AGUA MAMBA PROTEIN LIMAO 350LTSLK6U",
+          "fantasia": "BETTER DRINKS",
+          "qt": 1,
+          "valor": 50.33,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 636.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 31,
+          "valor": 1285.26,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 285.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA BADEN CRISTAL 12X350ML SLEEK",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 54.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 13,
+          "valor": 702.26,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA BADEN WITBIER 12X350ML SLEEK",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 54.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA BADEN GOLDEN 12X350ML SLEEK",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 54.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA BADEN CRISTAL  0,60LGFA DES 1UN",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 10.91,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "78995",
+          "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 6,
+          "valor": 348.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "78995",
+          "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 139.57,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 23,
+          "valor": 953.58,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 228.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/06/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA BADEN WITBIER 12X350ML SLEEK",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 54.04,
+          "tipo": "Venda"
         }
       ],
       "Fev/26": [
@@ -243920,6 +244580,326 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 90.81,
           "tipo": "Venda"
+        },
+        {
+          "data": "20/02/2026",
+          "codcli": "79083",
+          "cliente": "LCR DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1154.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/02/2026",
+          "codcli": "81289",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+          "produto": "AGUA MINERAL S/G GRF PET 1X10L MINALBA",
+          "fantasia": "",
+          "qt": 100,
+          "valor": 1400.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "74975",
+          "cliente": "JOSE FRANCISCO DA SILVA FILHO - MERCEARIA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 198,
+          "valor": 12965.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "74975",
+          "cliente": "JOSE FRANCISCO DA SILVA FILHO - MERCEARIA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 91,
+          "valor": 12020.19,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/02/2026",
+          "codcli": "69423",
+          "cliente": "MERCADO BARATAO DE MAMBUCABA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 198,
+          "valor": 12711.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/02/2026",
+          "codcli": "69423",
+          "cliente": "MERCADO BARATAO DE MAMBUCABA LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 512.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/02/2026",
+          "codcli": "69423",
+          "cliente": "MERCADO BARATAO DE MAMBUCABA LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 91,
+          "valor": 11784.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/02/2026",
+          "codcli": "69423",
+          "cliente": "MERCADO BARATAO DE MAMBUCABA LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 60,
+          "valor": 3114.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/02/2026",
+          "codcli": "75192",
+          "cliente": "J. W. DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 45,
+          "valor": 5977.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "18/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML - ENERG",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 664.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 531.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/02/2026",
+          "codcli": "81291",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+          "produto": "AGUA MINERAL S/G GRF PET 1X10L MINALBA",
+          "fantasia": "",
+          "qt": 20,
+          "valor": 280.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/02/2026",
+          "codcli": "81291",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+          "produto": "AGUA MINERAL S/G GRF PET 1X10L MINALBA",
+          "fantasia": "",
+          "qt": 11,
+          "valor": 154.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "20/02/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 3960.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 198.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "4 PACK RED BULL TRADICIONAL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/02/2026",
+          "codcli": "79160",
+          "cliente": "53.530.578 RICIELLE DE OLIVEIRA SOUZA",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 503.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 131.47,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 664.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "RED BULL ZERO BR ALU CAN 24X250",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/02/2026",
+          "codcli": "74901",
+          "cliente": "GIOVANNI LEONCIO DE ALMEIDA DIAS 15223940792",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 266.45,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "78995",
+          "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 198.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "78995",
+          "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
+          "produto": "4 PACK RED BULL TRADICIONAL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "78995",
+          "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 136.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "78995",
+          "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 132.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/02/2026",
+          "codcli": "81289",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+          "produto": "AGUA MINERAL S/G GRF PET 1X10L MINALBA",
+          "fantasia": "",
+          "qt": 80,
+          "valor": 1120.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/02/2026",
+          "codcli": "81289",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 599.4,
+          "tipo": "Venda"
         }
       ],
       "Mar/26": [
@@ -244611,6 +245591,306 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/03/2026",
+          "codcli": "74964",
+          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 39,
+          "valor": 2565.03,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/03/2026",
+          "codcli": "74901",
+          "cliente": "GIOVANNI LEONCIO DE ALMEIDA DIAS 15223940792",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1973.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/03/2026",
+          "codcli": "74901",
+          "cliente": "GIOVANNI LEONCIO DE ALMEIDA DIAS 15223940792",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 664.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/03/2026",
+          "codcli": "74901",
+          "cliente": "GIOVANNI LEONCIO DE ALMEIDA DIAS 15223940792",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/03/2026",
+          "codcli": "79194",
+          "cliente": "JOSELUCIA DOS SANTOS MARTINS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 512.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/03/2026",
+          "codcli": "81158",
+          "cliente": "39.717.498 WELLINGTON DOS SANTOS",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 3130.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/03/2026",
+          "codcli": "75460",
+          "cliente": "52.637.598 JOELMA ABREU DOS SANTOS",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 167.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/03/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1314.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/03/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL LAGER 0,269LT SHR 12UNPBR",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 1959.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/03/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "BAER MATE 269ML LT C/6",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 121.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/03/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "BAER MATE LN 6X350ML",
+          "fantasia": "BETTER DRINKS",
+          "qt": 3,
+          "valor": 114.15,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "75240",
+          "cliente": "PERACIO MORAES BASTOS 91701988704",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 45,
+          "valor": 5977.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 6,
+          "valor": 797.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 132,
+          "valor": 8474.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "79083",
+          "cliente": "LCR DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 45,
+          "valor": 5977.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/03/2026",
+          "codcli": "78995",
+          "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 200.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/03/2026",
+          "codcli": "78995",
+          "cliente": "30.447.604 JACQUELINE LOURENCO DA SILVA",
+          "produto": "4 PACK RED BULL TRADICIONAL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 27.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "75240",
+          "cliente": "PERACIO MORAES BASTOS 91701988704",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 156.43,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 2000.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1314.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 66,
+          "valor": 4237.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 25,
+          "valor": 1402.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 80,
+          "valor": 10232.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERVEJA AMSTEL LAGER 0,269LT SHR 12UNPBR",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 391.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "BAER MATE LN 6X350ML",
+          "fantasia": "BETTER DRINKS",
+          "qt": 1,
+          "valor": 38.05,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "AGUA MINERAL MAMBA WATER S/ GAS- 24X350",
+          "fantasia": "BETTER DRINKS",
+          "qt": 4,
+          "valor": 256.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/03/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 3960.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/03/2026",
+          "codcli": "81289",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+          "produto": "AGUA MINERAL S/G GRF PET 1X10L MINALBA",
+          "fantasia": "",
+          "qt": 80,
+          "valor": 1120.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1980.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "BBMI SKINKA UVA 0,45LPET DES 12UN PBR",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 33.83,
           "tipo": "Venda"
         }
       ],
@@ -245644,6 +246924,166 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 699.9,
           "tipo": "Venda"
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "75340",
+          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 2598.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "79078",
+          "cliente": "52.891.937 GABRIEL DO COUTO TEIXEIRA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 15,
+          "valor": 1596.71,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 140,
+          "valor": 7855.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 45,
+          "valor": 6165.45,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 15,
+          "valor": 2041.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 15,
+          "valor": 841.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "75240",
+          "cliente": "PERACIO MORAES BASTOS 91701988704",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 546.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 624.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 429.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 100,
+          "valor": 6420.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "74928",
+          "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 447.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "20/04/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1349.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 2023.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 3920.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 615.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69400",
+          "cliente": "BOCARRA'S BAR LTDA",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1314.7,
+          "tipo": "Venda"
         }
       ],
       "Jul/26": [
@@ -245735,6 +247175,46 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 173.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "75420",
+          "cliente": "LIGIA MERCADO OSB LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 705.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "75420",
+          "cliente": "LIGIA MERCADO OSB LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 139.57,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "75420",
+          "cliente": "LIGIA MERCADO OSB LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 15,
+          "valor": 1011.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 749.5,
           "tipo": "Venda"
         }
       ]
@@ -285990,6 +287470,956 @@ const VENDAS_DATA = {
           "qt": 3,
           "valor": 689.7,
           "tipo": "Venda"
+        },
+        {
+          "data": "06/05/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 40,
+          "valor": 1201.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA  AMSTEL LAGER 1LGFA RT 12UN",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 421.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 84,
+          "valor": 16991.52,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 901.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1043.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV BADEN CHOC 0,600 DES UN",
+          "fantasia": "",
+          "qt": 92,
+          "valor": 1351.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV BADEN CHOC 0,60LGFA DES 12UN PBR",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 2115.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 50,
+          "valor": 9108.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 20,
+          "valor": 3643.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 50,
+          "valor": 9108.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "69375",
+          "cliente": "MERCADO TATAIS ITINGA LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1038.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "69375",
+          "cliente": "MERCADO TATAIS ITINGA LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 391.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 15,
+          "valor": 980.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 15,
+          "valor": 2732.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 910.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "RED BULL ZERO BR ALU CAN 24X250",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 546.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 910.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 364.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "RED BULL POMELO 250ML CAIXA C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 182.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "RED BULL MACA EDITION SF BR ALU CAN 24X2",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 182.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "RED BULL SUMMER MELAO MARACUJA 24X250ML.",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 182.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2805.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 25,
+          "valor": 1633.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1685.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERV BADEN COFFE AL 600 DES 12UN",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 171.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 783.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN - KEG 5 LITROS C/2 DESC",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 394.64,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 84,
+          "valor": 16992.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1360.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 901.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA AMSTEL LAGER 0,269LT SHR 12UNPBR",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1018.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 560.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2805.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 300.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14841.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV BADEN CHOC 0,600 DES UN",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 881.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 84,
+          "valor": 16992.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1043.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA BADEN IPA 1X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 370.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 285,
+          "valor": 12844.95,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 100,
+          "valor": 5190.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 5218.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 1502.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 200,
+          "valor": 11222.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 91,
+          "valor": 12456.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "74819",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 280.85,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "74819",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2125.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "74819",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 2087.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "74819",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 1502.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "74819",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 4106.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "74819",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA",
+          "produto": "PRAYA CLASSSICA 355ML LN C/24",
+          "fantasia": "BETTER DRINKS",
+          "qt": 2,
+          "valor": 259.62,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL SUGAR FREE 24X250ML - ENERG",
+          "fantasia": "RED BULL",
+          "qt": 100,
+          "valor": 18216.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 501.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 77,
+          "valor": 8038.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 91,
+          "valor": 12467.91,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "69204",
+          "cliente": "MERCADO TATAIS PORTUGAL LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 391.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "69204",
+          "cliente": "MERCADO TATAIS PORTUGAL LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 15,
+          "valor": 2055.15,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 665.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2808.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 783.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 42,
+          "valor": 8496.18,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1043.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 600.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14841.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV PRAYA LAGER 0,330GFA DESC 4X6UNPBR",
+          "fantasia": "BETTER DRINKS",
+          "qt": 5,
+          "valor": 692.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1038.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 391.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 168.51,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN - KEG 5 LITROS C/2 DESC",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 752.52,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 36,
+          "valor": 3756.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 46,
+          "valor": 6302.46,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 40,
+          "valor": 1201.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1122.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 280.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 684.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1038.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 391.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA HEINEKEN 600 ML - 12 UND",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 636.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/05/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA HEINEKEN - KEG 5 LITROS C/2 DESC",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 940.65,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69375",
+          "cliente": "MERCADO TATAIS ITINGA LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 6850.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "69375",
+          "cliente": "MERCADO TATAIS ITINGA LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 560.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2805.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 560.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2595.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/05/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 783.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 561.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2808.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "74872",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1557.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "74872",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 425.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 1502.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 5218.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/05/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 560.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 7,
+          "valor": 457.38,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "81395",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA HEINEKEN - KEG 5 LITROS C/2 DESC",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 188.13,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/05/2026",
+          "codcli": "81395",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 521.8,
+          "tipo": "Venda"
         }
       ],
       "Fev/26": [
@@ -286481,6 +288911,626 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 18,
           "valor": 628.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA AMSTEL LAGER 0,269LT SHR 12UNPBR",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 1698.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 901.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1024.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1024.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1024.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2560.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1121.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 182,
+          "valor": 23569.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 91,
+          "valor": 12456.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 120,
+          "valor": 3604.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 440,
+          "valor": 28248.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 144,
+          "valor": 24157.44,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
+          "fantasia": "",
+          "qt": 100,
+          "valor": 1580.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "fantasia": "",
+          "qt": 400,
+          "valor": 5880.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14091.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "69203",
+          "cliente": "MERCADO TATAIS BELEM LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 66,
+          "valor": 4227.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA AMSTEL LAGER 0,269LT SHR 12UNPBR",
+          "fantasia": "HEINEKEN",
+          "qt": 40,
+          "valor": 1358.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/02/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 40,
+          "valor": 1201.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/02/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "AGUA  MINERAL MINALBA  S/GAS  PET 8X1,5L",
+          "fantasia": "",
+          "qt": 150,
+          "valor": 3432.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 30,
+          "valor": 5032.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL SUGAR FREE 24X250ML - ENERG",
+          "fantasia": "RED BULL",
+          "qt": 20,
+          "valor": 3355.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 144,
+          "valor": 24157.44,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 665.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 210,
+          "valor": 42480.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 3130.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1681.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL SUMMER MELAO MARACUJA 24X250ML.",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1677.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 20,
+          "valor": 3355.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 838.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/02/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1536.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/02/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "fantasia": "",
+          "qt": 20,
+          "valor": 390.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 110,
+          "valor": 7045.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/02/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "fantasia": "",
+          "qt": 200,
+          "valor": 2940.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 25,
+          "valor": 1280.25,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/02/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA HEINEKEN 5L DRAFT BEER",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 991.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 783.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 84,
+          "valor": 16992.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1677.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "69163",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 681.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/02/2026",
+          "codcli": "69163",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 280.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 100,
+          "valor": 3004.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 440,
+          "valor": 28248.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/02/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 182,
+          "valor": 23569.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "fantasia": "",
+          "qt": 47,
+          "valor": 916.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERV BADEN GOLD AL 600 DES 12UN",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 156.33,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERV BADEN PEACH 0,60LGFA DES 12UN PBR",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 156.57,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERV BADEN PILCRIST 600LGFA DES 12UN",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 156.95,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA BADEN GOLD ALE 0,60LGFA DES 1UN",
+          "fantasia": "HEINEKEN",
+          "qt": 12,
+          "valor": 153.03,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/02/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA BADEN PEACH 0,60LGFA DES 1UN PBR",
+          "fantasia": "HEINEKEN",
+          "qt": 12,
+          "valor": 156.24,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/02/2026",
+          "codcli": "81395",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "fantasia": "",
+          "qt": 928,
+          "valor": 13641.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/02/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 2537.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/02/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1121.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/02/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "CERVEJA HEINEKEN - KEG 5 LITROS C/2 DESC",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 376.26,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/02/2026",
+          "codcli": "76094",
+          "cliente": "CLEONICE DE AZEVEDO SANTOS MELLO LIRA 01241687790",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1024.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/02/2026",
+          "codcli": "76094",
+          "cliente": "CLEONICE DE AZEVEDO SANTOS MELLO LIRA 01241687790",
+          "produto": "BEEFEATER PINK 700ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 599.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERV PRAYA LAGER 0,330GFA DESC 4X6UNPBR",
+          "fantasia": "BETTER DRINKS",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "27/02/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "27/02/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "AGUA  MINERAL MINALBA  S/GAS  PET 8X1,5L",
+          "fantasia": "",
+          "qt": 100,
+          "valor": 2288.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14097.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "69375",
+          "cliente": "MERCADO TATAIS ITINGA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 110,
+          "valor": 7048.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "69203",
+          "cliente": "MERCADO TATAIS BELEM LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 70,
+          "valor": 4485.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/02/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14097.6,
           "tipo": "Venda"
         }
       ],
@@ -288314,6 +291364,906 @@ const VENDAS_DATA = {
           "qt": 12,
           "valor": 154.8,
           "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "74873",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 972.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/03/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 783.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "25/03/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 512.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1175.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 84,
+          "valor": 16992.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1043.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14124.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL SUMMER MELAO MARACUJA 24X250ML.",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1629.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1629.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1629.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "BAER MATE 269ML LT C/6",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 91.29,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERV PRAYA LAGER 0,330GFA DESC 4X6UNPBR",
+          "fantasia": "BETTER DRINKS",
+          "qt": 5,
+          "valor": 692.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "61399",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "BAER MATE LN 6X350ML",
+          "fantasia": "BETTER DRINKS",
+          "qt": 4,
+          "valor": 152.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL SUGAR FREE 24X250ML - ENERG",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1629.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 144,
+          "valor": 23466.24,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA WITBIER PRAYA 600ML - CX12 UND",
+          "fantasia": "BETTER DRINKS",
+          "qt": 5,
+          "valor": 586.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 1959.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 252,
+          "valor": 7570.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA BADEN IPA 1X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 60,
+          "valor": 741.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "74819",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA",
+          "produto": "CERVEJA AMSTEL LAGER 0,269LT SHR 12UNPBR",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1018.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "74819",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 486.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "74819",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1175.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "74872",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 381.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 13965.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/03/2026",
+          "codcli": "69163",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 13860.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "19/03/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 13860.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 147.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 171.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 238.54,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL SUGAR FREE 24X250ML - ENERG",
+          "fantasia": "RED BULL",
+          "qt": 25,
+          "valor": 4134.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 94,
+          "valor": 15543.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV PRAYA LAGER 0,330GFA DESC 4X6UNPBR",
+          "fantasia": "BETTER DRINKS",
+          "qt": 10,
+          "valor": 1384.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 20,
+          "valor": 3307.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA  AMSTEL LAGER 1LGFA RT 12UN",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 842.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1536.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 40,
+          "valor": 1567.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 126,
+          "valor": 25488.54,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 51,
+          "valor": 6940.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 100,
+          "valor": 3004.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 13965.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA  AMSTEL LAGER 1LGFA RT 12UN",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 421.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 126,
+          "valor": 25488.54,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "69375",
+          "cliente": "MERCADO TATAIS ITINGA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 13965.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/03/2026",
+          "codcli": "69204",
+          "cliente": "MERCADO TATAIS PORTUGAL LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 110,
+          "valor": 6982.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/03/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1681.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/03/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFRI FYS GUARANA LT 12X350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 64.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/03/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFRI FYS LIMAO - L350ML C/12 DESC",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 64.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/03/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFRI FYS LARANJA LT 12X350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 64.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69375",
+          "cliente": "MERCADO TATAIS ITINGA LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 224.24,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69203",
+          "cliente": "MERCADO TATAIS BELEM LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 110,
+          "valor": 6982.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 13965.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69375",
+          "cliente": "MERCADO TATAIS ITINGA LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 560.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69375",
+          "cliente": "MERCADO TATAIS ITINGA LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 6395.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1677.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1677.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1677.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML - ENERG",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 838.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL CEREJA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 335.52,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 503.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 91,
+          "valor": 11638.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 104,
+          "valor": 10853.44,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/03/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1043.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/03/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 600.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/03/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "CERVEJA HEINEKEN - KEG 5 LITROS C/2 DESC",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 564.39,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "CERV PRAYA LAGER 0,330GFA DESC 4X6UNPBR",
+          "fantasia": "BETTER DRINKS",
+          "qt": 5,
+          "valor": 692.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "BAER MATE LN 6X350ML",
+          "fantasia": "BETTER DRINKS",
+          "qt": 4,
+          "valor": 152.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "74981",
+          "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "produto": "BAER MATE 269ML LT C/6",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 91.29,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "81395",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 783.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69375",
+          "cliente": "MERCADO TATAIS ITINGA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 110,
+          "valor": 6982.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 42,
+          "valor": 8232.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 29,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 91,
+          "valor": 11638.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 560.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 13965.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 112.12,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69204",
+          "cliente": "MERCADO TATAIS PORTUGAL LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 110,
+          "valor": 6982.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69204",
+          "cliente": "MERCADO TATAIS PORTUGAL LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 112.12,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/03/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 391.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "23/03/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 102.42,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 126,
+          "valor": 25488.54,
+          "tipo": "Venda"
+        },
+        {
+          "data": "05/03/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 45,
+          "valor": 5977.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 364,
+          "valor": 46555.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 440,
+          "valor": 28248.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1043.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV BADEN CHOC 0,60LGFA DES 12UN PBR",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 1057.98,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 396,
+          "valor": 25138.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 42,
+          "valor": 8496.18,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1043.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 1502.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/03/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 20,
+          "valor": 3259.2,
+          "tipo": "Venda"
         }
       ],
       "Abr/26": [
@@ -289265,6 +293215,966 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 91,
+          "valor": 11638.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 901.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 560.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 391.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 512.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 2737.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFRI FYS LIMAO - L350ML C/12 DESC",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 32.45,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1681.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "69204",
+          "cliente": "MERCADO TATAIS PORTUGAL LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 15,
+          "valor": 2055.15,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "69204",
+          "cliente": "MERCADO TATAIS PORTUGAL LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 560.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFRI FYS GUARANA LT 12X350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 64.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFRI FYS LARANJA LT 12X350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 64.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "TONICA  FYS ZERO LT 12X350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 68.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFR FYS GUARA ZERO 0,350LT DESC 12UNPBR",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 64.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "REFR FYS LIMAO ZERO 0,350LT DES 12UN PBR",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 64.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN - KEG 5 LITROS C/2 DESC",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 564.39,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN - KEG 5 LITROS C/2 DESC",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 940.65,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 42,
+          "valor": 8496.18,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 399.54,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV BADEN CHOC 0,60LGFA DES 12UN PBR",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 881.85,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "81395",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "fantasia": "",
+          "qt": 340,
+          "valor": 4998.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 168,
+          "valor": 33984.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14841.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV BADEN CHOC 0,60LGFA DES 12UN PBR",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 881.65,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 40,
+          "valor": 1201.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA AMSTEL LAGER 0,269LT SHR 12UNPBR",
+          "fantasia": "HEINEKEN",
+          "qt": 40,
+          "valor": 1358.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 391.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN - KEG 5 LITROS C/2 DESC",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 752.52,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 58,
+          "valor": 6055.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 560.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69203",
+          "cliente": "MERCADO TATAIS BELEM LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 3174.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69203",
+          "cliente": "MERCADO TATAIS BELEM LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 168.18,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 561.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 391.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 84,
+          "valor": 16992.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 440,
+          "valor": 28248.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV BADEN CHOC 0,60LGFA DES 12UN PBR",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 881.65,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2805.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERV BADEN CHOC 0,60LGFA DES 12UN PBR",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 176.33,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 110,
+          "valor": 6982.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 5220.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "fantasia": "",
+          "qt": 20,
+          "valor": 294.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 158.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 2052.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERV BADEN PILCRIST 600LGFA DES 12UN",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 148.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERV BADEN GOLD AL 600 DES 12UN",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 148.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA BADEN WITBIER 1X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 12,
+          "valor": 1807.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA BADEN PEACH 0,60LGFA DES 1UN PBR",
+          "fantasia": "HEINEKEN",
+          "qt": 12,
+          "valor": 150.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERV BADEN PEACH 0,60LGFA DES 12UN PBR",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 150.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 391.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 4110.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1684.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "13/04/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 1959.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 560.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 155.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERV BADEN CHOC 0,60LGFA DES 12UN PBR",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 176.33,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 13965.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "79657",
+          "cliente": "MERCADO TATAIS JULIETA LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1557.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 783.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 100,
+          "valor": 5606.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "69375",
+          "cliente": "MERCADO TATAIS ITINGA LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 110,
+          "valor": 6982.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA WITBIER PRAYA 600ML - CX12 UND",
+          "fantasia": "BETTER DRINKS",
+          "qt": 5,
+          "valor": 586.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "AGUA MINERAL MAMBA WATER S/ GAS- 24X350",
+          "fantasia": "BETTER DRINKS",
+          "qt": 20,
+          "valor": 1282.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/04/2026",
+          "codcli": "74872",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 1038.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69203",
+          "cliente": "MERCADO TATAIS BELEM LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 685.05,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69203",
+          "cliente": "MERCADO TATAIS BELEM LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 280.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 40,
+          "valor": 7286.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 15,
+          "valor": 2732.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 15,
+          "valor": 2732.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 6,
+          "valor": 1092.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL SUMMER NECTARINA SF 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 546.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL ZERO BR ALU CAN 24X250",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1821.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "produto": "RED BULL SUMMER MELAO MARACUJA 24X250ML.",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 910.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 91,
+          "valor": 12467.91,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 15,
+          "valor": 778.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1683.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 391.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERV BADEN PILCRIST 600LGFA DES 12UN",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 148.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 560.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69202",
+          "cliente": "MERCADO TATAIS JULIETA FRADE LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 684.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA  AMSTEL LAGER 1LGFA RT 12UN",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 421.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 783.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERV BADEN CHOC 0,60LGFA DES 12UN PBR",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 881.65,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA AMSTEL LAGER 0,269LT SHR 12UNPBR",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1018.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 391.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "22/04/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 901.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 783.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 320,
+          "valor": 21587.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "21/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 42,
+          "valor": 8496.18,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 168,
+          "valor": 33984.72,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN LONG 250ML - CX 24 UN",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1043.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 1502.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14845.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 3,
+          "valor": 546.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 364.32,
+          "tipo": "Venda"
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "69426",
+          "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 25,
+          "valor": 4554.0,
           "tipo": "Venda"
         }
       ],
@@ -290318,6 +295228,246 @@ const VENDAS_DATA = {
           "qt": 6,
           "valor": 209.4,
           "tipo": "Venda"
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 42,
+          "valor": 8496.18,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 2791.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 5,
+          "valor": 685.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 1579.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2859.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/06/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 12806.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/06/2026",
+          "codcli": "69414",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 100,
+          "valor": 5815.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 42,
+          "valor": 8496.18,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14841.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1395.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 954.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 540.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "13729",
+          "cliente": "PRECO OTIMO SUPERMERCADO LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14124.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 1590.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 84,
+          "valor": 16992.36,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1821.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1821.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 144,
+          "valor": 26231.04,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "69313",
+          "cliente": "R A G ATACAREJO LTDA",
+          "produto": "CERVEJA HEINEKEN 600 ML - 12 UND",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1278.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/06/2026",
+          "codcli": "74819",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA",
+          "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2910.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/06/2026",
+          "codcli": "74819",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 4187.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "04/06/2026",
+          "codcli": "74872",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CERVEJA HEINEKEN ZERO LATA SLEEK 350ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 581.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "70164",
+          "cliente": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+          "produto": "CERVEJA HEINEKEN 600 ML - 12 UND",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 1278.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/06/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
+          "fantasia": "RED BULL",
+          "qt": 144,
+          "valor": 26231.04,
+          "tipo": "Venda"
         }
       ],
       "Jul/26": [
@@ -290339,6 +295489,46 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 120,
           "valor": 478.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 50,
+          "valor": 2632.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN RET 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 42,
+          "valor": 8496.18,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN PIL 0,269LT DESC 8UN PB",
+          "fantasia": "HEINEKEN",
+          "qt": 30,
+          "valor": 954.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "69216",
+          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "HEINEKEN",
+          "qt": 220,
+          "valor": 14841.2,
           "tipo": "Venda"
         }
       ]
@@ -384444,16 +389634,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "24/06/2026",
-          "codcli": "45538",
-          "cliente": "TICO & TECO DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "GIN ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 9,
-          "valor": 179.1,
-          "tipo": "Venda"
-        },
-        {
           "data": "20/06/2026",
           "codcli": "46245",
           "cliente": "JOAO BATISTA RODRIGUES SARMENTO COMERCIO DE BEBIDAS",
@@ -386813,6 +391993,26 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 658.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "49476",
+          "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 716.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "49476",
+          "cliente": "BARATAO DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 669.6,
           "tipo": "Venda"
         },
         {
@@ -405042,6 +410242,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "06/07/2026",
+          "codcli": "30685",
+          "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 48,
+          "valor": 1488.46,
+          "tipo": "Venda"
+        },
+        {
           "data": "04/07/2026",
           "codcli": "47181",
           "cliente": "LATICINIOS TANI LTDA",
@@ -405129,6 +410339,46 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 96,
           "valor": 17270.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 694.75,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 358.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "WHISKY CHIVAS REGAL XV 750ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 359.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "23329",
+          "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 60,
+          "valor": 7014.0,
           "tipo": "Venda"
         },
         {
@@ -412804,6 +418054,56 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "06/07/2026",
+          "codcli": "50913",
+          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 14,
+          "valor": 1398.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "50913",
+          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 6,
+          "valor": 599.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "50913",
+          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "FANTE",
+          "qt": 18,
+          "valor": 369.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "50913",
+          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.24,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "50913",
+          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
+          "produto": "GIN TANQUERAY BOSSA NOVA  700 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 629.4,
+          "tipo": "Venda"
+        },
+        {
           "data": "02/07/2026",
           "codcli": "51253",
           "cliente": "MEDRADO BURGUER LTDA",
@@ -420448,6 +425748,26 @@ const VENDAS_DATA = {
     "LUCAS BUENO - OFF TRADE": {
       "Jul/26": [
         {
+          "data": "06/07/2026",
+          "codcli": "32402",
+          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1413.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "32402",
+          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "04/07/2026",
           "codcli": "32402",
           "cliente": "COMERCIAL MOURA DE JARINU LTDA",
@@ -422451,6 +427771,36 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 1,
           "valor": 23.94,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "50893",
+          "cliente": "EDUARDO GONCALVES ESTACIONAMENTO LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 116.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "50893",
+          "cliente": "EDUARDO GONCALVES ESTACIONAMENTO LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 5,
+          "valor": 44.95,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "50893",
+          "cliente": "EDUARDO GONCALVES ESTACIONAMENTO LTDA",
+          "produto": "RUM CAPITAN CORTEZ CARTA BRANCA 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 3,
+          "valor": 49.5,
           "tipo": "Venda"
         },
         {
@@ -432787,6 +438137,48 @@ const VENDAS_DATA = {
           "valor": 40880.4,
           "tipo": "Venda"
         }
+      ],
+      "Jul/26": [
+        {
+          "data": "06/07/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
+          "fantasia": "BROWN",
+          "qt": 120,
+          "valor": 11988.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 4140.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 240,
+          "valor": 12696.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 480,
+          "valor": 15312.0,
+          "tipo": "Venda"
+        }
       ]
     },
     "ROBERTO DOS SANTOS - OFF TRADE": {
@@ -434171,6 +439563,26 @@ const VENDAS_DATA = {
           "fantasia": "CAMPARI",
           "qt": 24,
           "valor": 405.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "50054",
+          "cliente": "MARCIO SIBUYA AMERICO 17919395895",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "50054",
+          "cliente": "MARCIO SIBUYA AMERICO 17919395895",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.48,
           "tipo": "Venda"
         },
         {
@@ -442678,6 +448090,16 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 54.9,
           "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "50058",
+          "cliente": "E S NASCIMENTO - SOCIEDADE UNIPESSOAL LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 215.76,
+          "tipo": "Venda"
         }
       ]
     },
@@ -443521,6 +448943,26 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "51487",
+          "cliente": "IRMAOS BRESCIANI SUPERMERCADO LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 347.38,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "51487",
+          "cliente": "IRMAOS BRESCIANI SUPERMERCADO LTDA",
+          "produto": "RUM MALIBU 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 532.8,
           "tipo": "Venda"
         }
       ]
