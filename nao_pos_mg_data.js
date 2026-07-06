@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "06/07/2026 11:25",
+  "atualizado_em": "06/07/2026 12:50",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -891,32 +891,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 14,
             "valor": 306.6
-          }
-        ]
-      },
-      {
-        "codcli": "36311",
-        "cliente": "COMERCIAL TROPICO LTDA",
-        "bairro": "LIBERDADE",
-        "dtultcomp": "22/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN TANQUERAY  375ML",
-            "fantasia": "",
-            "qt": 5,
-            "valor": 299.5
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 200 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 209.4
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 375 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 54.9
           }
         ]
       },
@@ -2829,20 +2803,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32823",
-        "cliente": "F A MENDONCA GASTRONOMIA LTDA",
-        "bairro": "ANGOLA",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA COLHEITA TINTO  750ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 224.7
-          }
-        ]
-      },
-      {
         "codcli": "35356",
         "cliente": "MULT JR - CONSULTORIA E PROJETOS",
         "bairro": "PAMPULHA",
@@ -3145,7 +3105,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35398",
+        "codcli": "35400",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -3153,44 +3113,44 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL 250ML CAIXA C/24 UNID",
             "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
+            "qt": 3,
+            "valor": 424.08
           },
           {
             "produto": "RED BULL AMORA EDITION SF 24X250ML",
             "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
             "qt": 2,
             "valor": 282.72
           },
           {
-            "produto": "RED BULL ZERO 24X250ML",
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
             "qt": 1,
             "valor": 141.36
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
           }
         ]
       },
@@ -3245,7 +3205,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35400",
+        "codcli": "35398",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -3253,44 +3213,44 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL 250ML CAIXA C/24 UNID",
             "fantasia": "",
-            "qt": 3,
-            "valor": 424.08
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
             "qt": 1,
             "valor": 141.36
           },
           {
-            "produto": "RED BULL ZERO 24X250ML",
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
             "qt": 2,
             "valor": 282.72
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
           }
         ]
       },
@@ -6357,20 +6317,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BALLENA",
             "qt": 102,
             "valor": 11209.8
-          }
-        ]
-      },
-      {
-        "codcli": "30231",
-        "cliente": "ORGANIZACAO VERDEMAR LTDA",
-        "bairro": "JARDIM CANADA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO LUCIA 750ML",
-            "fantasia": "",
-            "qt": 456,
-            "valor": 31008.0
           }
         ]
       },
@@ -9818,6 +9764,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "36311",
+        "cliente": "COMERCIAL TROPICO LTDA",
+        "bairro": "LIBERDADE",
+        "dtultcomp": "22/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN TANQUERAY  375ML",
+            "fantasia": "",
+            "qt": 5,
+            "valor": 299.5
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 200 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 209.4
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 375 ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 54.9
+          }
+        ]
+      },
+      {
         "codcli": "33722",
         "cliente": "POUSADA CANTO DOS PRAZERES LTDA.",
         "bairro": "LAVRAS NOVAS",
@@ -10184,44 +10156,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "31529",
-        "cliente": "MASSAS MADONINA LTDA",
-        "bairro": "SANTA AMELIA",
-        "dtultcomp": "29/06/2026",
-        "produtos": [
-          {
-            "produto": "HUMB. CANALE DENARIO RESERVA PINOT NOIR",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 569.4
-          },
-          {
-            "produto": "VINHO ARCAIA ROSE 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 419.4
-          },
-          {
-            "produto": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 599.4
-          },
-          {
-            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 479.4
           }
         ]
       },
