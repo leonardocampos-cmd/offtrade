@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "06/07/2026 10:39",
+  "atualizado_em": "06/07/2026 11:23",
   "data_rota": "06.07",
   "vendedores": [
     {
@@ -20,31 +20,6 @@ const ENTREGAS_DATA = {
           "total": 802.66,
           "itens": [
             {
-              "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
-              "qt": 1,
-              "val": 49.9
-            },
-            {
-              "desc": "GUARAVITON GINSENG 12X500ML",
-              "qt": 2,
-              "val": 74.02
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-              "qt": 6,
-              "val": 173.4
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-              "qt": 6,
-              "val": 125.4
-            },
-            {
-              "desc": "4 PACK RED BULL",
-              "qt": 6,
-              "val": 196.56
-            },
-            {
               "desc": "GUARAVITA NATURAL 24X290ML",
               "qt": 2,
               "val": 63.99
@@ -53,6 +28,31 @@ const ENTREGAS_DATA = {
               "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
               "qt": 6,
               "val": 119.4
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 6,
+              "val": 196.56
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 6,
+              "val": 125.4
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 6,
+              "val": 173.4
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 2,
+              "val": 74.02
+            },
+            {
+              "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
+              "qt": 1,
+              "val": 49.9
             }
           ]
         }
@@ -5319,6 +5319,46 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "378000468",
+          "numnota": "",
+          "data": "06/07/2026",
+          "cliente": "PADARIA VERA CRUZ LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 626.96,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 1,
+              "val": 29.96
+            },
+            {
+              "desc": "CATUABA SELVAGEM 900ML",
+              "qt": 6,
+              "val": 89.4
+            },
+            {
+              "desc": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+              "qt": 1,
+              "val": 178.8
+            },
+            {
+              "desc": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
+              "qt": 1,
+              "val": 178.8
+            },
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 12,
+              "val": 150.0
+            }
+          ]
+        },
+        {
           "numped": "378000465",
           "numnota": "",
           "data": "03/07/2026",
@@ -5710,6 +5750,26 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "159004968",
+          "numnota": "",
+          "data": "02/07/2026",
+          "cliente": "RADIO BOIRE BAR E CAFE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 177.8,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML",
+              "qt": 2,
+              "val": 177.8
+            }
+          ]
+        },
+        {
           "numped": "159004972",
           "numnota": "",
           "data": "02/07/2026",
@@ -5722,6 +5782,11 @@ const ENTREGAS_DATA = {
           "obs": "",
           "total": 467.3,
           "itens": [
+            {
+              "desc": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
+              "qt": 1,
+              "val": 114.9
+            },
             {
               "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
               "qt": 1,
@@ -5751,31 +5816,6 @@ const ENTREGAS_DATA = {
               "desc": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
               "qt": 1,
               "val": 47.9
-            },
-            {
-              "desc": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
-              "qt": 1,
-              "val": 114.9
-            }
-          ]
-        },
-        {
-          "numped": "159004968",
-          "numnota": "",
-          "data": "02/07/2026",
-          "cliente": "RADIO BOIRE BAR E CAFE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 177.8,
-          "itens": [
-            {
-              "desc": "AMARULA C LIQUEUR 750 ML",
-              "qt": 2,
-              "val": 177.8
             }
           ]
         },
@@ -7236,36 +7276,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "379001199",
-          "numnota": "",
-          "data": "06/07/2026",
-          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 998.1,
-          "itens": [
-            {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 2,
-              "val": 399.0
-            },
-            {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 1,
-              "val": 199.5
-            },
-            {
-              "desc": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
-              "qt": 3,
-              "val": 399.6
-            }
-          ]
-        },
-        {
           "numped": "379001200",
           "numnota": "",
           "data": "06/07/2026",
@@ -7279,14 +7289,69 @@ const ENTREGAS_DATA = {
           "total": 275.6,
           "itens": [
             {
-              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "qt": 2,
-              "val": 125.8
-            },
-            {
               "desc": "4 PACK RED BULL",
               "qt": 5,
               "val": 149.8
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 2,
+              "val": 125.8
+            }
+          ]
+        },
+        {
+          "numped": "379001201",
+          "numnota": "",
+          "data": "06/07/2026",
+          "cliente": "ADEGA DO ROMEU LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 325.76,
+          "itens": [
+            {
+              "desc": "CANTINA DA SERRA 1,5L",
+              "qt": 24,
+              "val": 220.56
+            },
+            {
+              "desc": "VEJA COZINHA SACHET LIMAO 12X400ML",
+              "qt": 1,
+              "val": 105.2
+            }
+          ]
+        },
+        {
+          "numped": "379001199",
+          "numnota": "",
+          "data": "06/07/2026",
+          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 998.1,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
+              "qt": 3,
+              "val": 399.6
+            },
+            {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 2,
+              "val": 399.0
             }
           ]
         },
@@ -8396,6 +8461,21 @@ const ENTREGAS_DATA = {
           "total": 1936.98,
           "itens": [
             {
+              "desc": "RUM MONTILLA OURO 1L",
+              "qt": 12,
+              "val": 245.4
+            },
+            {
+              "desc": "GIN ROCKS STRAWBERRY 1000ML",
+              "qt": 6,
+              "val": 135.0
+            },
+            {
+              "desc": "GIN ROCKS 1000ML",
+              "qt": 6,
+              "val": 135.0
+            },
+            {
               "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
               "qt": 24,
               "val": 282.0
@@ -8429,21 +8509,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
               "qt": 12,
               "val": 150.24
-            },
-            {
-              "desc": "GIN ROCKS 1000ML",
-              "qt": 6,
-              "val": 135.0
-            },
-            {
-              "desc": "GIN ROCKS STRAWBERRY 1000ML",
-              "qt": 6,
-              "val": 135.0
-            },
-            {
-              "desc": "RUM MONTILLA OURO 1L",
-              "qt": 12,
-              "val": 245.4
             },
             {
               "desc": "RUM MONTILLA CARTA BRANCA 1L",
@@ -9201,16 +9266,6 @@ const ENTREGAS_DATA = {
           "total": 2728.2,
           "itens": [
             {
-              "desc": "LICOR COINTREAU 700 ML",
-              "qt": 6,
-              "val": 503.4
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 12,
-              "val": 464.4
-            },
-            {
               "desc": "CHANDON RICHE DEMI-SEC 750 ML",
               "qt": 12,
               "val": 946.8
@@ -9224,6 +9279,16 @@ const ENTREGAS_DATA = {
               "desc": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
               "qt": 6,
               "val": 203.4
+            },
+            {
+              "desc": "LICOR COINTREAU 700 ML",
+              "qt": 6,
+              "val": 503.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 12,
+              "val": 464.4
             }
           ]
         }
@@ -11808,12 +11873,12 @@ const ENTREGAS_DATA = {
           "total": 264.6,
           "itens": [
             {
-              "desc": "CHANCELER SABOR CANELA 1000ML",
+              "desc": "CHANCELER SABOR MEL 1000ML",
               "qt": 7,
               "val": 132.3
             },
             {
-              "desc": "CHANCELER SABOR MEL 1000ML",
+              "desc": "CHANCELER SABOR CANELA 1000ML",
               "qt": 7,
               "val": 132.3
             }
