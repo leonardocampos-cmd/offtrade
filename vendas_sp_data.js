@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "06/07/2026 11:24",
+  "atualizado_em": "06/07/2026 12:48",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -68808,96 +68808,6 @@ const VENDAS_SP_DATA = {
           "valor": 1078.8
         },
         {
-          "data": "30/06/2026",
-          "codcli": "51169",
-          "cliente": "ROGERIO DAS NEVES BOITUVA",
-          "produto": "CASA PERINI DEMI-SEC ICE ROSE 750ML",
-          "fantasia": "PERINI",
-          "qt": 6,
-          "valor": 233.4
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51169",
-          "cliente": "ROGERIO DAS NEVES BOITUVA",
-          "produto": "VODKA BELVEDERE B10 700 ML",
-          "fantasia": "MOET HENNESY",
-          "qt": 1,
-          "valor": 726.9
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51169",
-          "cliente": "ROGERIO DAS NEVES BOITUVA",
-          "produto": "VODKA BELVEDERE SMOGORY 700 ML",
-          "fantasia": "MOET HENNESY",
-          "qt": 1,
-          "valor": 169.9
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51169",
-          "cliente": "ROGERIO DAS NEVES BOITUVA",
-          "produto": "VODKA BELVEDERE BARTEZEK 700 ML",
-          "fantasia": "MOET HENNESY",
-          "qt": 1,
-          "valor": 189.05
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51169",
-          "cliente": "ROGERIO DAS NEVES BOITUVA",
-          "produto": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 104.9
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51169",
-          "cliente": "ROGERIO DAS NEVES BOITUVA",
-          "produto": "WHISKY PASSPORT HONEY 670ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 34.5
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51169",
-          "cliente": "ROGERIO DAS NEVES BOITUVA",
-          "produto": "APERITIVO LUCIA 750ML",
-          "fantasia": "LUCIA",
-          "qt": 1,
-          "valor": 65.9
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51169",
-          "cliente": "ROGERIO DAS NEVES BOITUVA",
-          "produto": "LICOR BANANINHA CARIOCA 750ML",
-          "fantasia": "BANANINHA CARIOCA",
-          "qt": 1,
-          "valor": 61.86
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51169",
-          "cliente": "ROGERIO DAS NEVES BOITUVA",
-          "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
-          "fantasia": "AURORA",
-          "qt": 2,
-          "valor": 47.88
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51169",
-          "cliente": "ROGERIO DAS NEVES BOITUVA",
-          "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 59.9
-        },
-        {
           "data": "27/06/2026",
           "codcli": "51330",
           "cliente": "CELESTRIM & JULIANI MINIMERCADO LTDA",
@@ -84102,9 +84012,9 @@ const VENDAS_SP_DATA = {
         "fat_pernod": 1665.9
       },
       "Jun/26": {
-        "fat": 30397.21,
-        "pos": 7.0,
-        "fat_pernod": 4215.8,
+        "fat": 28703.02,
+        "pos": 6.0,
+        "fat_pernod": 4121.4,
         "fat_crs": 3128.76
       }
     },
