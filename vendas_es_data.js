@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "06/07/2026 11:24",
+  "atualizado_em": "06/07/2026 12:49",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -279,8 +279,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 118062.39
       },
       "Jul/26": {
-        "fat": 54270.19,
-        "pos": 8,
+        "fat": 63994.49,
+        "pos": 9,
         "fat_ant": 116883.65
       }
     },
@@ -76848,6 +76848,60 @@ const VENDAS_ES_DATA = {
           "valor": 832.44
         },
         {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 732.0
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 1076.4
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 1524.6
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 790.8
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 1717.2
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 458.4
+        },
+        {
           "data": "02/07/2026",
           "codcli": "76076",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
@@ -76990,6 +77044,78 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 6,
           "valor": 267.84
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 355.2
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 16X4X30G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 355.2
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 355.2
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 355.2
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 6,
+          "valor": 418.86
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 12,
+          "valor": 591.66
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 401.92
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 12,
+          "valor": 591.66
         }
       ]
     },
