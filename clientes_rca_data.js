@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/07/2026 10:46",
-  "total": 4158,
+  "atualizado_em": "06/07/2026 11:30",
+  "total": 4161,
   "clientes": [
     {
       "codcli": "31683",
@@ -37293,11 +37293,39 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "12.044.117/0001-56",
       "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "450",
+      "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "18602",
+      "razao": "MERCEARIA R A MARAVILHA LTDA",
+      "fantasia": "LIDERANCA",
+      "bairro": "GUARATIBA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "12.044.117/0001-56",
+      "estado": "RJ",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
       "codusur2": "170",
       "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
+    },
+    {
+      "codcli": "18604",
+      "razao": "MERCEARIA R. A. MARAVILHA EIRELI",
+      "fantasia": "MERCADO RONDA ALTA",
+      "bairro": "GUARATIBA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "12.044.117/0002-37",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "450",
+      "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "18604",
@@ -51760,6 +51788,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "CARLOS DE ALMEIDA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "76898",
+      "razao": "SUPERMERCADO CATIARA LTDA",
+      "fantasia": "SUPERMERCADO CATIARA",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "39.406.722/0001-86",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "450",
+      "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "48278",
