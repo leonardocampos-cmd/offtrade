@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "06/07/2026 17:08",
+  "atualizado_em": "06/07/2026 17:12",
   "data_rota": "06.07",
   "vendedores": [
     {
@@ -1141,76 +1141,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "471000395",
-          "numnota": "",
-          "data": "06/07/2026",
-          "cliente": "MERCADINHO BAMBINA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA: 07/07 - 08HRS AS 15HRS",
-          "total": 1253.8,
-          "itens": [
-            {
-              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-              "qt": 2,
-              "val": 177.4
-            },
-            {
-              "desc": "VILLA ROSA BRANCO 750ML",
-              "qt": 12,
-              "val": 358.8
-            },
-            {
-              "desc": "VILLA ROSA TINTO 750ML",
-              "qt": 12,
-              "val": 358.8
-            },
-            {
-              "desc": "VILLA ROSA  ROSE 750ML",
-              "qt": 12,
-              "val": 358.8
-            }
-          ]
-        },
-        {
-          "numped": "471000398",
-          "numnota": "",
-          "data": "06/07/2026",
-          "cliente": "MERCADINHO BAMBINA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA: 07/07 - 08HRS AS 15HRS",
-          "total": 626.9,
-          "itens": [
-            {
-              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-              "qt": 1,
-              "val": 88.7
-            },
-            {
-              "desc": "VILLA ROSA BRANCO 750ML",
-              "qt": 6,
-              "val": 179.4
-            },
-            {
-              "desc": "VILLA ROSA TINTO 750ML",
-              "qt": 6,
-              "val": 179.4
-            },
-            {
-              "desc": "VILLA ROSA  ROSE 750ML",
-              "qt": 6,
-              "val": 179.4
-            }
-          ]
-        },
-        {
           "numped": "471000392",
           "numnota": "",
           "data": "06/07/2026",
@@ -1232,6 +1162,76 @@ const ENTREGAS_DATA = {
               "desc": "COQUETEL BANANINHA REGGIANI 950ML",
               "qt": 24,
               "val": 429.6
+            }
+          ]
+        },
+        {
+          "numped": "471000398",
+          "numnota": "",
+          "data": "06/07/2026",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA: 07/07 - 08HRS AS 15HRS",
+          "total": 626.9,
+          "itens": [
+            {
+              "desc": "VILLA ROSA BRANCO 750ML",
+              "qt": 6,
+              "val": 179.4
+            },
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 6,
+              "val": 179.4
+            },
+            {
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 6,
+              "val": 179.4
+            },
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 1,
+              "val": 88.7
+            }
+          ]
+        },
+        {
+          "numped": "471000395",
+          "numnota": "",
+          "data": "06/07/2026",
+          "cliente": "MERCADINHO BAMBINA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA: 07/07 - 08HRS AS 15HRS",
+          "total": 1253.8,
+          "itens": [
+            {
+              "desc": "VILLA ROSA BRANCO 750ML",
+              "qt": 12,
+              "val": 358.8
+            },
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 12,
+              "val": 358.8
+            },
+            {
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 12,
+              "val": 358.8
+            },
+            {
+              "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+              "qt": 2,
+              "val": 177.4
             }
           ]
         }
@@ -1975,16 +1975,6 @@ const ENTREGAS_DATA = {
           "total": 2313.6,
           "itens": [
             {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 24,
-              "val": 280.8
-            },
-            {
-              "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-              "qt": 2,
-              "val": 37.8
-            },
-            {
               "desc": "RC SARDINHA EM OLEO 50X125G",
               "qt": 5,
               "val": 997.5
@@ -1993,6 +1983,16 @@ const ENTREGAS_DATA = {
               "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
               "qt": 5,
               "val": 997.5
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 24,
+              "val": 280.8
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+              "qt": 2,
+              "val": 37.8
             }
           ]
         }
@@ -8522,6 +8522,11 @@ const ENTREGAS_DATA = {
           "total": 1936.98,
           "itens": [
             {
+              "desc": "RUM MONTILLA CARTA BRANCA 1L",
+              "qt": 6,
+              "val": 115.8
+            },
+            {
               "desc": "RUM MONTILLA OURO 1L",
               "qt": 12,
               "val": 245.4
@@ -8570,16 +8575,61 @@ const ENTREGAS_DATA = {
               "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
               "qt": 12,
               "val": 150.24
-            },
-            {
-              "desc": "RUM MONTILLA CARTA BRANCA 1L",
-              "qt": 6,
-              "val": 115.8
             }
           ]
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "450000386",
+          "numnota": "",
+          "data": "06/07/2026",
+          "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar ate as 16:00hs",
+          "total": 179.64,
+          "itens": [
+            {
+              "desc": "NECTAR ABACAXI 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR MANGA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR MARACUJA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            }
+          ]
+        },
+        {
+          "numped": "450000382",
+          "numnota": "",
+          "data": "06/07/2026",
+          "cliente": "MERCEARIA R A MARAVILHA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA: 07/07",
+          "total": 394.8,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 12,
+              "val": 394.8
+            }
+          ]
+        },
         {
           "numped": "450000385",
           "numnota": "",
@@ -8661,32 +8711,22 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "450000386",
+          "numped": "450000383",
           "numnota": "",
           "data": "06/07/2026",
-          "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+          "cliente": "MERCEARIA R. A. MARAVILHA EIRELI",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
-          "obs": "entregar ate as 16:00hs",
-          "total": 179.64,
+          "obs": "ENTREGA: 07/07",
+          "total": 394.8,
           "itens": [
             {
-              "desc": "NECTAR ABACAXI 12X1000ML",
-              "qt": 1,
-              "val": 59.88
-            },
-            {
-              "desc": "NECTAR MANGA 12X1000ML",
-              "qt": 1,
-              "val": 59.88
-            },
-            {
-              "desc": "NECTAR MARACUJA 12X1000ML",
-              "qt": 1,
-              "val": 59.88
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 12,
+              "val": 394.8
             }
           ]
         },
@@ -8701,46 +8741,6 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "ENTREGA: 07/07 - 08HRS AS 17HRS",
-          "total": 394.8,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 12,
-              "val": 394.8
-            }
-          ]
-        },
-        {
-          "numped": "450000382",
-          "numnota": "",
-          "data": "06/07/2026",
-          "cliente": "MERCEARIA R A MARAVILHA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA: 07/07",
-          "total": 394.8,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 12,
-              "val": 394.8
-            }
-          ]
-        },
-        {
-          "numped": "450000383",
-          "numnota": "",
-          "data": "06/07/2026",
-          "cliente": "MERCEARIA R. A. MARAVILHA EIRELI",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA: 07/07",
           "total": 394.8,
           "itens": [
             {
@@ -9498,6 +9498,16 @@ const ENTREGAS_DATA = {
           "total": 2728.2,
           "itens": [
             {
+              "desc": "LICOR COINTREAU 700 ML",
+              "qt": 6,
+              "val": 503.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 12,
+              "val": 464.4
+            },
+            {
               "desc": "CHANDON RICHE DEMI-SEC 750 ML",
               "qt": 12,
               "val": 946.8
@@ -9511,16 +9521,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
               "qt": 6,
               "val": 203.4
-            },
-            {
-              "desc": "LICOR COINTREAU 700 ML",
-              "qt": 6,
-              "val": 503.4
-            },
-            {
-              "desc": "ESPUM CASA PERINI BRUT 750ML",
-              "qt": 12,
-              "val": 464.4
             }
           ]
         }
@@ -12666,11 +12666,6 @@ const ENTREGAS_DATA = {
           "total": 297.64,
           "itens": [
             {
-              "desc": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-              "qt": 1,
-              "val": 120.0
-            },
-            {
               "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
               "qt": 2,
               "val": 129.8
@@ -12679,6 +12674,11 @@ const ENTREGAS_DATA = {
               "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
               "qt": 1,
               "val": 47.84
+            },
+            {
+              "desc": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+              "qt": 1,
+              "val": 120.0
             }
           ]
         }
@@ -13354,6 +13354,76 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "155003819",
+          "numnota": "",
+          "data": "06/07/2026",
+          "cliente": "M.J.F BORGES BAR E RESTAURANTE",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 545.06,
+          "itens": [
+            {
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 3,
+              "val": 179.7
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 1,
+              "val": 124.9
+            },
+            {
+              "desc": "WHISKY JAMESON 750ML",
+              "qt": 1,
+              "val": 67.9
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 172.56
+            }
+          ]
+        },
+        {
+          "numped": "155003822",
+          "numnota": "",
+          "data": "06/07/2026",
+          "cliente": "MINI MERCADO G MARKET LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 720.3,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+              "qt": 8,
+              "val": 116.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 2,
+              "val": 41.8
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
+              "qt": 20,
+              "val": 438.0
+            },
+            {
+              "desc": "SUCO MANGA 100% TIAL 12X1000 ML",
+              "qt": 1,
+              "val": 124.5
+            }
+          ]
+        },
+        {
           "numped": "155003821",
           "numnota": "",
           "data": "06/07/2026",
@@ -13405,41 +13475,6 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY SUNTORY CHITA 700ML",
               "qt": 1,
               "val": 439.9
-            }
-          ]
-        },
-        {
-          "numped": "155003819",
-          "numnota": "",
-          "data": "06/07/2026",
-          "cliente": "M.J.F BORGES BAR E RESTAURANTE",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 545.06,
-          "itens": [
-            {
-              "desc": "VODKA ABSOLUT 1L",
-              "qt": 3,
-              "val": 179.7
-            },
-            {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-              "qt": 1,
-              "val": 124.9
-            },
-            {
-              "desc": "WHISKY JAMESON 750ML",
-              "qt": 1,
-              "val": 67.9
-            },
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 1,
-              "val": 172.56
             }
           ]
         }
