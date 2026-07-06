@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "06/07/2026 16:46",
+  "atualizado_em": "06/07/2026 17:04",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -94719,36 +94719,6 @@ const VENDAS_DATA = {
           "fantasia": "INVICTUS",
           "qt": 6,
           "valor": 72.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "84160",
-          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 132.35,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "84160",
-          "cliente": "PQA ALIMENTOS ENGENHO LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 264.71,
-          "tipo": "Venda"
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "84161",
-          "cliente": "PQA ALIMENTOS PRACA SECA LTDA",
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "fantasia": "FANTE",
-          "qt": 6,
-          "valor": 132.35,
           "tipo": "Venda"
         },
         {
@@ -427267,6 +427237,26 @@ const VENDAS_DATA = {
           "fantasia": "BALLENA",
           "qt": 3,
           "valor": 239.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "50467",
+          "cliente": "MERCADINHO MATO DENTRO LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 24,
+          "valor": 405.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "50467",
+          "cliente": "MERCADINHO MATO DENTRO LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 48,
+          "valor": 619.2,
           "tipo": "Venda"
         }
       ]
