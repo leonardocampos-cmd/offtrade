@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "06/07/2026 10:40",
+  "atualizado_em": "06/07/2026 11:24",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -77,14 +77,14 @@ const VENDAS_MG_DATA = {
         "fat_ant": 58591.42
       },
       "Jun/26": {
-        "fat": 171775.98,
-        "pos": 53,
+        "fat": 170667.78,
+        "pos": 52,
         "fat_ant": 175829.04
       },
       "Jul/26": {
         "fat": 6366.3,
         "pos": 8,
-        "fat_ant": 171775.98
+        "fat_ant": 170667.78
       }
     },
     "JANAIRA MARQUES": {
@@ -50700,24 +50700,6 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "22/06/2026",
-          "codcli": "31571",
-          "cliente": "PARANAIBA EXPRESS",
-          "produto": "GIN GORDONS 750 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 329.4
-        },
-        {
-          "data": "22/06/2026",
-          "codcli": "31571",
-          "cliente": "PARANAIBA EXPRESS",
-          "produto": "GIN GORDONS PINK 700ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 329.4
-        },
-        {
-          "data": "22/06/2026",
           "codcli": "38898",
           "cliente": "GILBERTO TRAJANO CASSIMIRO JUNIOR",
           "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
@@ -51066,15 +51048,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 400.32
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "31553",
-          "cliente": "SUPERMERCADO PARANAIBA SANTA LUZIA LTDA",
-          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-          "fantasia": "MSLR",
-          "qt": 6,
-          "valor": 449.4
         },
         {
           "data": "25/06/2026",
