@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "06/07/2026 10:19",
+  "atualizado_em": "06/07/2026 10:28",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -334813,6 +334813,16 @@ const VENDAS_DATA = {
         },
         {
           "data": "24/04/2026",
+          "codcli": "92086",
+          "cliente": "46.912.337 GIVANILDO DA SILVA MARTINS",
+          "produto": "ROSE MINUTY 281  3000ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 2908.47,
+          "tipo": "Venda"
+        },
+        {
+          "data": "24/04/2026",
           "codcli": "90725",
           "cliente": "LUZ DEL FUEGO COMERCIO DE ALIMENTOS LTDA",
           "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
@@ -334969,16 +334979,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 18,
           "valor": 1062.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "92086",
-          "cliente": "46.912.337 GIVANILDO DA SILVA MARTINS",
-          "produto": "ROSE MINUTY 281  3000ML",
-          "fantasia": "",
-          "qt": 3,
-          "valor": 2908.47,
           "tipo": "Venda"
         },
         {
