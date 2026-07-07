@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "07/07/2026 14:11",
+  "atualizado_em": "07/07/2026 15:13",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3363,6 +3363,56 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "38896",
+        "cliente": "LCA COMERCIO LTDA",
+        "bairro": "PAMPULHA",
+        "dtultcomp": "12/06/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL AMORA EDITION SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          }
+        ]
+      },
+      {
         "codcli": "35400",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
@@ -3453,56 +3503,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 282.72
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "38896",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -3623,7 +3623,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35392",
+        "codcli": "35387",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -3649,7 +3649,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35387",
+        "codcli": "35392",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -3843,26 +3843,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 514.8
-          }
-        ]
-      },
-      {
-        "codcli": "30043",
-        "cliente": "E.F.B. HAMBURGUERS LTDA",
-        "bairro": "SAO PEDRO",
-        "dtultcomp": "16/06/2026",
-        "produtos": [
-          {
-            "produto": "ST PIERRE SUGAR FREE LT 270MLX6",
-            "fantasia": "",
-            "qt": 8,
-            "valor": 215.2
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 L/EVENTO",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 79.9
           }
         ]
       },
@@ -4061,26 +4041,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -4097,6 +4057,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -4403,26 +4383,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 1078.8
-          }
-        ]
-      },
-      {
-        "codcli": "32902",
-        "cliente": "LANCHERIA CANTINA AZUL LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "22/06/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA COLHEITA TINTO  750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 449.4
-          },
-          {
-            "produto": "VINHO GRAVEDAD CAB. SAUV.",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 478.8
           }
         ]
       },
@@ -5411,32 +5371,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 273.12
-          }
-        ]
-      },
-      {
-        "codcli": "32813",
-        "cliente": "ROMA MERCEARIAS LTDA",
-        "bairro": "SANTA ROSA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 1,
-            "valor": 71.88
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 1,
-            "valor": 143.76
-          },
-          {
-            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 2,
-            "valor": 431.52
           }
         ]
       },
@@ -8658,9 +8592,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -8678,9 +8612,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -9500,6 +9434,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -9528,32 +9488,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 29.96
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -9978,13 +9912,6 @@ const NAO_POS_MG_DATA = {
         "codcli": "39553",
         "cliente": "58.541.717 CLESIO MATEUS SANTOS GONCALVES",
         "bairro": "HELIÓPOLIS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39578",
-        "cliente": "BRPULLEYS INDUSTRIA, COMERCIO E SERVICOS LTDA",
-        "bairro": "RIACHO DAS PEDRAS",
         "dtultcomp": "nan",
         "produtos": []
       },
