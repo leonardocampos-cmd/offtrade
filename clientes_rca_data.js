@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/07/2026 13:09",
-  "total": 4224,
+  "atualizado_em": "07/07/2026 14:12",
+  "total": 4231,
   "clientes": [
     {
       "codcli": "31683",
@@ -16734,6 +16734,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
+      "codcli": "248",
+      "razao": "DEU LA DEU VINHO IMPORTAÇÃO E EXPORTAÇÃO",
+      "fantasia": "DEU LA DEU VINHOS IMPORTACAO E EXPORTACA",
+      "bairro": "COPACABANA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "04.157.169/0001-00",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "460",
+      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "19138",
       "razao": "DEVAJO MERCEARIA LTDA",
       "fantasia": "DEVAJO MERCEARIA LTDA",
@@ -27528,6 +27542,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51570",
+      "razao": "JOSE FRANCISCO RABELO BEBIDAS",
+      "fantasia": "JOSE FRANCISCO RABELO BEBIDAS",
+      "bairro": "JARDIM ESPERANÇA",
+      "cidade": "JACAREI",
+      "cnpj": "05.274.059/0001-91",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "21371",
       "razao": "JOSE MAR RESTAURANTE LTDA",
       "fantasia": "JOSE MAR RESTAURANTE",
@@ -34272,6 +34300,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "439",
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "6307",
+      "razao": "MERCADO BARRAMARES LTDA",
+      "fantasia": "BARRAMARES",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "17.655.811/0001-23",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
     },
@@ -46610,6 +46652,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "5909",
+      "razao": "PURO CENTEIO DELICATESSEN - EIRELI",
+      "fantasia": "VENDITA WINE E FOOD",
+      "bairro": "LEBLON",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "25.116.929/0001-01",
+      "estado": "RJ",
+      "ramo": "CAFETERIA",
+      "codusur1": "460",
+      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
+      "codusur2": "319",
+      "nome_usur2": "FERNANDA CAMBOIM"
+    },
+    {
       "codcli": "81093",
       "razao": "QB BAR E RESTAURANTE LTDA",
       "fantasia": "QUINTAL DA BARRA",
@@ -47072,6 +47128,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "69313",
+      "razao": "R A G ATACAREJO LTDA",
+      "fantasia": "MAIS BARATO ZUNGU",
+      "bairro": "ZUNGÚ",
+      "cidade": "ANGRA DOS REIS",
+      "cnpj": "42.490.368/0001-25",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "6591",
       "razao": "R B P 2001 DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS EIRELI",
       "fantasia": "MERCADO DE CARNE",
@@ -47308,6 +47378,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "70164",
+      "razao": "R. L. DE OLIVEIRA - MERCADINHO LTDA",
+      "fantasia": "MERCADO MAIS BARATO",
+      "bairro": "ENCRUZO DA ENSEADA (CUNHAMBEBE)",
+      "cidade": "ANGRA DOS REIS",
+      "cnpj": "11.074.872/0001-10",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "51407",
@@ -49982,6 +50066,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "95186",
+      "razao": "S14 EDITORA E COMERCIO DE PRODUTOS NATURAIS LEBLON 2 LTDA",
+      "fantasia": "ARMAZEM 14 LEBLON",
+      "bairro": "LEBLON",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "57.784.752/0001-08",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "76832",
