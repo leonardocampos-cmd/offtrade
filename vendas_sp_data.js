@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "07/07/2026 09:14",
+  "atualizado_em": "07/07/2026 11:08",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -74074,6 +74074,44 @@ const VENDAS_SP_DATA = {
           "qt": 1956,
           "valor": 40880.4
         }
+      ],
+      "Jul/26": [
+        {
+          "data": "07/07/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
+          "fantasia": "BROWN",
+          "qt": 108,
+          "valor": 10789.2
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 240,
+          "valor": 12696.0
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 480,
+          "valor": 15312.0
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 4140.0
+        }
       ]
     },
     "ROBERTO DOS SANTOS": {
@@ -84845,6 +84883,28 @@ const VENDAS_SP_DATA = {
         "fat_pernod": 19176.0
       }
     },
+    "ELIZANGELA RODRIGUES": {
+      "Jul/26": {
+        "fat": 42937.2,
+        "pos": 1.0,
+        "fat_pernod": 32148.0
+      },
+      "Jun/26": {
+        "fat": 165876.4,
+        "pos": 1.0,
+        "fat_pernod": 140541.4
+      },
+      "Mai/26": {
+        "fat": 121577.16,
+        "pos": 1.0,
+        "fat_pernod": 96834.0
+      },
+      "Abr/26": {
+        "fat": 28176.0,
+        "pos": 1.0,
+        "fat_pernod": 28176.0
+      }
+    },
     "ROBERTO DOS SANTOS": {
       "Jul/26": {
         "fat": 1759.92,
@@ -85263,23 +85323,6 @@ const VENDAS_SP_DATA = {
         "fat": 518686.19,
         "pos": 7.0,
         "fat_pernod": 513628.24
-      }
-    },
-    "ELIZANGELA RODRIGUES": {
-      "Jun/26": {
-        "fat": 165876.4,
-        "pos": 1.0,
-        "fat_pernod": 140541.4
-      },
-      "Mai/26": {
-        "fat": 121577.16,
-        "pos": 1.0,
-        "fat_pernod": 96834.0
-      },
-      "Abr/26": {
-        "fat": 28176.0,
-        "pos": 1.0,
-        "fat_pernod": 28176.0
       }
     },
     "CIARA PADULA": {
