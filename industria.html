@@ -384,13 +384,15 @@ function clientesAgregados() {
     if (!c.ult_compra_periodo || _dToSort(r.ult_compra_mes) > _dToSort(c.ult_compra_periodo)) {
       c.ult_compra_periodo = r.ult_compra_mes;
     }
-    let p = c.produtosMap.get(r.codprod);
-    if (!p) {
-      p = { produto: r.produto || '—', valor: 0, qt: 0 };
-      c.produtosMap.set(r.codprod, p);
+    for (const rp of (r.produtos || [])) {
+      let p = c.produtosMap.get(rp.codprod);
+      if (!p) {
+        p = { produto: rp.produto || '—', valor: 0, qt: 0 };
+        c.produtosMap.set(rp.codprod, p);
+      }
+      p.valor += rp.valor;
+      p.qt    += rp.qt;
     }
-    p.valor += r.valor;
-    p.qt    += r.qt;
   }
   let list = [...map.values()];
   for (const c of list) {

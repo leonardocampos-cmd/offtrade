@@ -221,27 +221,55 @@ else:
 
     df["PRODUTO"] = df["PRODUTO"].fillna("")
 
-    registros_out = []
+    # Envelope por (fantasia, mês, cliente, canal) com os produtos aninhados —
+    # evita repetir cliente/cidade/vendedor/etc em cada linha de produto,
+    # o que explodia o tamanho do industria_data.js (>100MB, GitHub rejeita).
+    envelopes: dict = {}
+    ordem = []
     for _, r in df.iterrows():
-        registros_out.append({
-            "fantasia":         r["FANTASIA"],
-            "mes":              _mes_pt(r["MES"]),
-            "codcli":           str(r["CODCLI"]),
-            "cliente":          r["CLIENTE"],
-            "bairro":           r["BAIRRO"] if pd.notna(r["BAIRRO"]) else "",
-            "cidade":           r["CIDADE"] if pd.notna(r["CIDADE"]) else "",
-            "estado":           r["ESTADO"],
-            "vendedor":         r["VENDEDOR"],
-            "rca":              r["RCA"],
-            "canal":            r["CANAL"],
-            "codprod":          str(r["CODPROD"]),
-            "produto":          r["PRODUTO"],
-            "valor":            float(r["VALOR"]),
-            "qt":               int(r["QT"]),
-            "ult_compra_mes":   r["ULT_COMPRA_MES"].strftime("%d/%m/%Y") if pd.notna(r["ULT_COMPRA_MES"]) else None,
-            "dtultcomp_geral":  r["DTULTCOMP_GERAL"].strftime("%d/%m/%Y") if pd.notna(r["DTULTCOMP_GERAL"]) else None,
-            "dias_sem_compra":  r["DIAS_SEM_COMPRA"],
+        key = (r["FANTASIA"], r["MES"], str(r["CODCLI"]), r["CANAL"])
+        env = envelopes.get(key)
+        if env is None:
+            env = {
+                "fantasia":         r["FANTASIA"],
+                "mes":              _mes_pt(r["MES"]),
+                "codcli":           str(r["CODCLI"]),
+                "cliente":          r["CLIENTE"],
+                "bairro":           r["BAIRRO"] if pd.notna(r["BAIRRO"]) else "",
+                "cidade":           r["CIDADE"] if pd.notna(r["CIDADE"]) else "",
+                "estado":           r["ESTADO"],
+                "vendedor":         r["VENDEDOR"],
+                "rca":              r["RCA"],
+                "canal":            r["CANAL"],
+                "valor":            0.0,
+                "qt":               0,
+                "_ult_compra_dt":   None,
+                "dtultcomp_geral":  r["DTULTCOMP_GERAL"].strftime("%d/%m/%Y") if pd.notna(r["DTULTCOMP_GERAL"]) else None,
+                "dias_sem_compra":  r["DIAS_SEM_COMPRA"],
+                "produtos":         [],
+            }
+            envelopes[key] = env
+            ordem.append(key)
+        env["valor"] += float(r["VALOR"])
+        env["qt"]    += int(r["QT"])
+        if pd.notna(r["ULT_COMPRA_MES"]):
+            if env["_ult_compra_dt"] is None or r["ULT_COMPRA_MES"] > env["_ult_compra_dt"]:
+                env["_ult_compra_dt"] = r["ULT_COMPRA_MES"]
+        env["produtos"].append({
+            "codprod": str(r["CODPROD"]),
+            "produto": r["PRODUTO"],
+            "valor":   round(float(r["VALOR"]), 2),
+            "qt":      int(r["QT"]),
         })
+
+    registros_out = []
+    for key in ordem:
+        env = envelopes[key]
+        ult_dt = env.pop("_ult_compra_dt")
+        env["ult_compra_mes"] = ult_dt.strftime("%d/%m/%Y") if ult_dt is not None else None
+        env["valor"] = round(env["valor"], 2)
+        env["produtos"].sort(key=lambda p: p["valor"], reverse=True)
+        registros_out.append(env)
 
 payload = {
     "atualizado_em":         datetime.now().strftime("%d/%m/%Y %H:%M"),
@@ -255,16 +283,24 @@ payload = {
 out = BASE / "industria_data.js"
 out.write_text(
     "// Gerado automaticamente\n\n"
-    f"const INDUSTRIA_DATA = {json.dumps(payload, ensure_ascii=False, indent=2)};\n",
+    f"const INDUSTRIA_DATA = {json.dumps(payload, ensure_ascii=False, separators=(',', ':'))};\n",
     encoding="utf-8",
 )
-print(f"\nOK industria_data.js — {len(registros_out)} registros, {len(fornecedores_out)} fornecedores -> {out}")
+tamanho_mb = out.stat().st_size / (1024 * 1024)
+print(f"\nOK industria_data.js — {len(registros_out)} registros (envelopes), {len(fornecedores_out)} fornecedores, "
+      f"{tamanho_mb:.1f}MB -> {out}")
 if fontes_indisponiveis:
     print(f"[AVISO] Fontes indisponíveis: {sorted(set(fontes_indisponiveis))} — resultados podem estar incompletos.")
 
-repo_dir = str(BASE)
-subprocess.run(["git", "-C", repo_dir, "add", "industria_data.js"], check=True)
-subprocess.run(["git", "-C", repo_dir, "commit", "-m",
-                f"Atualiza industria_data.js - {date.today().strftime('%d/%m/%Y')}"])
-subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
-print("OK GitHub Pages atualizado.")
+LIMITE_MB = 90  # margem de segurança abaixo do limite de 100MB do GitHub
+if tamanho_mb > LIMITE_MB:
+    print(f"[ERRO] industria_data.js tem {tamanho_mb:.1f}MB (> {LIMITE_MB}MB) — "
+          f"commit/push abortados para não quebrar o pipeline no GitHub. "
+          f"Reduza MESES_HISTORICO ou o escopo de dados.")
+else:
+    repo_dir = str(BASE)
+    subprocess.run(["git", "-C", repo_dir, "add", "industria_data.js"], check=True)
+    subprocess.run(["git", "-C", repo_dir, "commit", "-m",
+                    f"Atualiza industria_data.js - {date.today().strftime('%d/%m/%Y')}"])
+    subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
+    print("OK GitHub Pages atualizado.")
