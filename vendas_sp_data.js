@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "07/07/2026 11:08",
+  "atualizado_em": "07/07/2026 12:09",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -61101,24 +61101,6 @@ const VENDAS_SP_DATA = {
           "data": "06/07/2026",
           "codcli": "32402",
           "cliente": "COMERCIAL MOURA DE JARINU LTDA",
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1413.6
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "32402",
-          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 1198.8
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "32402",
-          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
           "produto": "WHISKY JACK DANIELS 1L",
           "fantasia": "BROWN",
           "qt": 12,
@@ -85084,9 +85066,9 @@ const VENDAS_SP_DATA = {
     },
     "LUCAS BUENO": {
       "Jul/26": {
-        "fat": 11446.08,
+        "fat": 8833.68,
         "pos": 4.0,
-        "fat_pernod": 6372.3,
+        "fat_pernod": 4958.7,
         "fat_crs": 1252.68
       },
       "Jun/26": {
