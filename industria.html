@@ -54,6 +54,13 @@
     .ctrl-input:focus { border-color: var(--accent); }
     .ctrl-input::placeholder { color: var(--muted); }
 
+    .filters-row select {
+      background: var(--card); border: 1px solid var(--border); color: var(--text);
+      padding: 7px 12px; border-radius: 8px; font-size: .82rem; font-family: inherit;
+      outline: none; transition: border-color .15s; min-width: 180px;
+    }
+    .filters-row select:focus { border-color: var(--accent); }
+
     /* Tabela */
     .table-wrap { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
     .table-meta { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; background: var(--card); border-bottom: 1px solid var(--border); flex-wrap: wrap; gap: 8px; }
@@ -113,6 +120,18 @@
 
   <div class="filters-row">
     <div id="pills-row" style="display:flex;gap:7px;flex-wrap:wrap;"></div>
+  </div>
+
+  <div class="filters-row">
+    <select id="fil-estado" onchange="_onEstado()">
+      <option value="">Todos os estados</option>
+    </select>
+    <select id="fil-ger" onchange="_onGerente()">
+      <option value="">Todos os gerentes</option>
+    </select>
+    <select id="fil-sup" onchange="_onSupervisor()">
+      <option value="">Todos os supervisores</option>
+    </select>
     <label class="toggle-inativos" id="toggle-inativos">
       <input type="checkbox" id="chk-inativos">
       🚫 Só sem compra há 60+ dias (empresa toda)
@@ -128,6 +147,7 @@
     <table>
       <thead>
         <tr>
+          <th data-k="codcli" onclick="sortBy('codcli')">Código</th>
           <th data-k="cliente" onclick="sortBy('cliente')">Cliente</th>
           <th class="hide-mob" data-k="estado" onclick="sortBy('estado')">UF</th>
           <th class="hide-mob" data-k="vendedor" onclick="sortBy('vendedor')">Vendedor</th>
@@ -139,6 +159,26 @@
         </tr>
       </thead>
       <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+  <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:20px 0 8px 2px">Produtos vendidos no período</div>
+  <div class="table-wrap">
+    <div class="table-meta">
+      <span class="table-count" id="tbl-prod-count">— produtos</span>
+      <button class="btn-csv" onclick="exportCSVProdutos()" type="button">⬇ Exportar CSV</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th data-k="produto" onclick="sortByProd('produto')">Produto</th>
+          <th class="hide-mob" data-k="codprod" onclick="sortByProd('codprod')">Código</th>
+          <th class="r" data-k="positivados" onclick="sortByProd('positivados')">Clientes</th>
+          <th class="r hide-mob" data-k="qt" onclick="sortByProd('qt')">Qtd</th>
+          <th class="r" data-k="valor" onclick="sortByProd('valor')">Valor Período</th>
+        </tr>
+      </thead>
+      <tbody id="tbody-prod"></tbody>
     </table>
   </div>
 </div>
@@ -154,12 +194,17 @@ if (!D) {
 
 const MESES = D.meses || [];
 
-let stForn    = '';
-let stMeses   = new Set();
+let stForn       = '';
+let stMeses      = new Set();
+let stEstado     = '';
+let stGerente    = '';
+let stSupervisor = '';
 let stSoInativos = false;
-let stSearch  = '';
-let stSortK   = 'dias_sem_compra';
-let stSortA   = false;
+let stSearch     = '';
+let stSortK      = 'dias_sem_compra';
+let stSortA      = false;
+
+const GD = { estados: D.hierarquia || [] };
 
 const brl = v => 'R$ ' + v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const num = v => Number(v).toLocaleString('pt-BR');
@@ -210,6 +255,70 @@ function onFornChange() {
   refresh();
 }
 
+// ── Hierarquia: estado → gerente → supervisor → vendedor ────────────────────
+function _hierVendedores(estado, gerente, supervisor) {
+  if (!GD.estados.length) return null;
+  const nomes = new Set();
+  for (const est of GD.estados) {
+    if (estado && est.nome !== estado) continue;
+    for (const g of est.gerentes) {
+      if (gerente && g.nome !== gerente) continue;
+      for (const s of g.supervisores) {
+        if (supervisor && s.nome !== supervisor) continue;
+        for (const v of s.vendedores) nomes.add(v.nome);
+      }
+    }
+  }
+  return nomes;
+}
+
+function _onEstado() {
+  stEstado = document.getElementById('fil-estado').value;
+  stGerente = '';
+  stSupervisor = '';
+  const gerSel = document.getElementById('fil-ger');
+  gerSel.innerHTML = '<option value="">Todos os gerentes</option>';
+  if (stEstado) {
+    const gers = new Set();
+    for (const est of GD.estados) {
+      if (est.nome !== stEstado) continue;
+      for (const g of est.gerentes) if (g.nome) gers.add(g.nome);
+    }
+    [...gers].sort().forEach(g => gerSel.insertAdjacentHTML('beforeend', `<option value="${g}">${g}</option>`));
+  }
+  document.getElementById('fil-sup').innerHTML = '<option value="">Todos os supervisores</option>';
+  refresh();
+}
+
+function _onGerente() {
+  stGerente = document.getElementById('fil-ger').value;
+  stSupervisor = '';
+  const supSel = document.getElementById('fil-sup');
+  supSel.innerHTML = '<option value="">Todos os supervisores</option>';
+  const sups = new Set();
+  for (const est of GD.estados) {
+    if (stEstado && est.nome !== stEstado) continue;
+    for (const g of est.gerentes) {
+      if (stGerente && g.nome !== stGerente) continue;
+      for (const s of g.supervisores) if (s.nome) sups.add(s.nome);
+    }
+  }
+  [...sups].sort().forEach(s => supSel.insertAdjacentHTML('beforeend', `<option value="${s}">${s}</option>`));
+  refresh();
+}
+
+function _onSupervisor() {
+  stSupervisor = document.getElementById('fil-sup').value;
+  refresh();
+}
+
+function _initFiltrosHierarquia() {
+  const selE = document.getElementById('fil-estado');
+  GD.estados.map(e => e.nome).filter(Boolean).sort()
+    .forEach(e => selE.insertAdjacentHTML('beforeend', `<option value="${e}">${e}</option>`));
+}
+_initFiltrosHierarquia();
+
 // ── Pills de mês ─────────────────────────────────────────────────────────────
 function renderPills() {
   const container = document.getElementById('pills-row');
@@ -250,6 +359,11 @@ document.getElementById('search').addEventListener('input', e => {
 function filteredRegistros() {
   let rows = D.registros.filter(r => r.fantasia === stForn);
   if (stMeses.size) rows = rows.filter(r => stMeses.has(r.mes));
+  if (stEstado) rows = rows.filter(r => r.estado === stEstado);
+  if (stGerente || stSupervisor) {
+    const nomes = _hierVendedores(stEstado, stGerente, stSupervisor);
+    if (nomes) rows = rows.filter(r => nomes.has(r.vendedor));
+  }
   return rows;
 }
 
@@ -317,13 +431,14 @@ function renderTable(list) {
 
   const tbody = document.getElementById('tbody');
   if (!list.length) {
-    tbody.innerHTML = `<tr><td colspan="8" class="empty">Nenhum cliente encontrado para os filtros selecionados.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="9" class="empty">Nenhum cliente encontrado para os filtros selecionados.</td></tr>`;
     return;
   }
 
   tbody.innerHTML = list.map(c => `
     <tr>
-      <td><span class="td-cli">${c.cliente}</span><span class="td-sub">${c.codcli}${c.cidade ? ' · ' + c.cidade : ''}</span></td>
+      <td style="color:var(--muted)">${c.codcli}</td>
+      <td><span class="td-cli">${c.cliente}</span><span class="td-sub">${c.cidade || ''}</span></td>
       <td class="hide-mob">${c.estado || '—'}</td>
       <td class="hide-mob">${c.vendedor || '—'}</td>
       <td>${c.ult_compra_periodo || '—'}</td>
@@ -333,6 +448,86 @@ function renderTable(list) {
       <td class="td-r"><span class="dias-pill ${_diasCls(c.dias_sem_compra)}">${c.dias_sem_compra !== null && c.dias_sem_compra !== undefined ? c.dias_sem_compra + 'd' : '—'}</span></td>
     </tr>
   `).join('');
+}
+
+// ── Produtos vendidos do fornecedor selecionado ─────────────────────────────
+let stSortProdK = 'valor';
+let stSortProdA = false;
+
+function filteredProdutos() {
+  let rows = (D.produtos || []).filter(r => r.fantasia === stForn);
+  if (stMeses.size) rows = rows.filter(r => stMeses.has(r.mes));
+  if (stEstado) rows = rows.filter(r => r.estado === stEstado);
+  if (stGerente || stSupervisor) {
+    const nomes = _hierVendedores(stEstado, stGerente, stSupervisor);
+    if (nomes) rows = rows.filter(r => nomes.has(r.vendedor));
+  }
+  return rows;
+}
+
+function produtosAgregados() {
+  const regs = filteredProdutos();
+  const map = new Map();
+  for (const r of regs) {
+    let p = map.get(r.codprod);
+    if (!p) {
+      p = { codprod: r.codprod, produto: r.produto || '—', valor: 0, qt: 0, positivados: 0 };
+      map.set(r.codprod, p);
+    }
+    p.valor       += r.valor;
+    p.qt           += r.qt;
+    p.positivados  += r.positivados;
+  }
+  return [...map.values()];
+}
+
+function renderProdutos() {
+  let list = produtosAgregados();
+  list = list.sort((a, b) => {
+    const va = a[stSortProdK], vb = b[stSortProdK];
+    const cmp = typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb), 'pt-BR');
+    return stSortProdA ? cmp : -cmp;
+  });
+
+  document.getElementById('tbl-prod-count').textContent = `${num(list.length)} produto${list.length === 1 ? '' : 's'}`;
+
+  const tbody = document.getElementById('tbody-prod');
+  if (!list.length) {
+    tbody.innerHTML = `<tr><td colspan="5" class="empty">Nenhum produto encontrado para os filtros selecionados.</td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = list.map(p => `
+    <tr>
+      <td class="td-cli">${p.produto}</td>
+      <td class="hide-mob" style="color:var(--muted)">${p.codprod}</td>
+      <td class="td-r">${num(p.positivados)}</td>
+      <td class="td-r hide-mob">${num(p.qt)}</td>
+      <td class="td-valor">${brl(p.valor)}</td>
+    </tr>
+  `).join('');
+}
+
+function sortByProd(k) {
+  if (stSortProdK === k) { stSortProdA = !stSortProdA; }
+  else { stSortProdK = k; stSortProdA = (k === 'produto'); }
+  renderProdutos();
+}
+
+function exportCSVProdutos() {
+  const list = produtosAgregados();
+  const esc = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+  const lines = [
+    ['Código Produto','Produto','Clientes Positivados','Qtd','Valor Período'].map(esc).join(';'),
+    ...list.map(p => [p.codprod, p.produto, p.positivados, p.qt, p.valor].map(esc).join(';')),
+  ];
+  const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = `industria_produtos_${stForn.replace(/\s+/g,'_')}_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
 }
 
 // ── Sort ─────────────────────────────────────────────────────────────────────
@@ -351,6 +546,7 @@ function refresh(renderPillsToo = true) {
   const list = clientesAgregados();
   renderResumo(list);
   renderTable(list);
+  renderProdutos();
 }
 
 // ── CSV ──────────────────────────────────────────────────────────────────────
