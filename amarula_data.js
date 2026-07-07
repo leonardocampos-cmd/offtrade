@@ -1,5 +1,5 @@
 const AMARULA_DATA = {
-  "atualizado_em": "07/07/2026 17:04",
+  "atualizado_em": "07/07/2026 17:38",
   "periodo": {
     "ini": "25/05/2026",
     "fim": "25/06/2026"
@@ -8,7 +8,7 @@ const AMARULA_DATA = {
   "premio_2": 1000,
   "total_vendedores": 29,
   "total_positivacao": 167,
-  "total_faturamento": 53113.96,
+  "total_volume": 587,
   "ranking_positivacao": [
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
@@ -127,122 +127,122 @@ const AMARULA_DATA = {
       "valor": 1
     }
   ],
-  "ranking_faturamento": [
+  "ranking_volume": [
     {
       "vendedor": "JORGE MACIEL - OFF TRADE",
-      "valor": 14473.9
+      "valor": 161
     },
     {
       "vendedor": "MARILENA TRAGEL - OFF TRADE",
-      "valor": 9726.9
+      "valor": 108
     },
     {
       "vendedor": "LAIS POPPE VILLANOVA",
-      "valor": 3601.1
-    },
-    {
-      "vendedor": "LEANDRO SOUZA - OFF TRADE",
-      "valor": 3262.64
+      "valor": 40
     },
     {
       "vendedor": "BARBARA CABRAL - OFF TRADE",
-      "valor": 3236.4
+      "valor": 36
+    },
+    {
+      "vendedor": "LEANDRO SOUZA - OFF TRADE",
+      "valor": 36
     },
     {
       "vendedor": "MICHELE ALCANTARA",
-      "valor": 2656.1
+      "valor": 29
     },
     {
       "vendedor": "DIOGO RAPOSO - OFF TRADE",
-      "valor": 2531.1
+      "valor": 27
     },
     {
       "vendedor": "RAPHAEL SANTOS - OFF TRADE",
-      "valor": 1866.9
+      "valor": 21
     },
     {
       "vendedor": "VINICIUS AMARAL",
-      "valor": 1674.3
-    },
-    {
-      "vendedor": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "valor": 1621.7
+      "valor": 19
     },
     {
       "vendedor": "INGRID ARAUJO",
-      "valor": 1600.2
+      "valor": 18
+    },
+    {
+      "vendedor": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "valor": 16
     },
     {
       "vendedor": "VANESSA SOUSA",
-      "valor": 1066.8
+      "valor": 12
     },
     {
       "vendedor": "NÁTALI DE OLIVEIRA - OFF TRADE",
-      "valor": 906.3
+      "valor": 10
     },
     {
       "vendedor": "PEDRO RANGEL",
-      "valor": 652.3
+      "valor": 7
     },
     {
       "vendedor": "IASMIM NUNES ",
-      "valor": 533.4
+      "valor": 6
     },
     {
       "vendedor": "CARLOS ARTHUR NETO",
-      "valor": 444.5
+      "valor": 5
     },
     {
       "vendedor": "LUIZA FREIRE",
-      "valor": 444.5
+      "valor": 5
     },
     {
       "vendedor": "FELIPE OLIVEIRA",
-      "valor": 444.5
+      "valor": 5
     },
     {
       "vendedor": "JOÃO VITOR BRAGA",
-      "valor": 375.6
+      "valor": 4
     },
     {
       "vendedor": "THIAGO NASCIMENTO",
-      "valor": 358.6
-    },
-    {
-      "vendedor": "THIAGO CANTISANI",
-      "valor": 288.0
-    },
-    {
-      "vendedor": "JULIANA SALGADO",
-      "valor": 266.7
+      "valor": 4
     },
     {
       "vendedor": "AUGUSTO SILVA",
-      "valor": 266.7
+      "valor": 3
     },
     {
-      "vendedor": "ZEINALDO DE OLIVEIRA - OFF TRADE",
-      "valor": 193.52
+      "vendedor": "THIAGO CANTISANI",
+      "valor": 3
+    },
+    {
+      "vendedor": "JULIANA SALGADO",
+      "valor": 3
     },
     {
       "vendedor": "GISELLE BARFER - OFF TRADE",
-      "valor": 177.8
+      "valor": 2
     },
     {
       "vendedor": "JOHNATTAN MATHEUS",
-      "valor": 176.8
+      "valor": 2
+    },
+    {
+      "vendedor": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "valor": 2
     },
     {
       "vendedor": "JULIA PACIELLO",
-      "valor": 88.9
+      "valor": 1
     },
     {
       "vendedor": "LUCAS MATIAS",
-      "valor": 88.9
+      "valor": 1
     },
     {
       "vendedor": "RAQUEL SANTOS",
-      "valor": 88.9
+      "valor": 1
     }
   ]
 };
