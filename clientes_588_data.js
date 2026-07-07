@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "07/07/2026 18:17",
+  "atualizado_em": "07/07/2026 18:21",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -346,12 +346,6 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "13/05/2026",
-              "PRODUTO": "RED BULL AMORA SF 24X250ML",
-              "FANTASIA": "RED BULL",
-              "VALOR": 1797.6
-            },
-            {
-              "DATA": "13/05/2026",
               "PRODUTO": "RED BULL MORANGO PESSEGO 24X250ML",
               "FANTASIA": "RED BULL",
               "VALOR": 5392.8
@@ -361,6 +355,12 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "RED BULL SF POMELO 24X250ML",
               "FANTASIA": "RED BULL",
               "VALOR": 8988.0
+            },
+            {
+              "DATA": "13/05/2026",
+              "PRODUTO": "RED BULL AMORA SF 24X250ML",
+              "FANTASIA": "RED BULL",
+              "VALOR": 1797.6
             },
             {
               "DATA": "13/05/2026",
@@ -641,12 +641,6 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "18/05/2026",
-              "PRODUTO": "RED BULL ZERO 24X250ML",
-              "FANTASIA": "RED BULL",
-              "VALOR": 1821.6
-            },
-            {
-              "DATA": "18/05/2026",
               "PRODUTO": "RED BULL MORANGO PESSEGO 24X250ML",
               "FANTASIA": "RED BULL",
               "VALOR": 26231.04
@@ -656,6 +650,12 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "RED BULL MELANCIA 250ML CX C/24",
               "FANTASIA": "RED BULL",
               "VALOR": 9108.0
+            },
+            {
+              "DATA": "18/05/2026",
+              "PRODUTO": "RED BULL ZERO 24X250ML",
+              "FANTASIA": "RED BULL",
+              "VALOR": 1821.6
             },
             {
               "DATA": "18/05/2026",
@@ -1202,12 +1202,6 @@ const CLIENTES_588_DATA = {
           "itens": [
             {
               "DATA": "14/05/2026",
-              "PRODUTO": "GIN BOMBAY SAPPHIRE 1,750L",
-              "FANTASIA": "BACARDI",
-              "VALOR": 2026.8
-            },
-            {
-              "DATA": "14/05/2026",
               "PRODUTO": "RUM BACARDI CARTA BLANCA 980ML",
               "FANTASIA": "BACARDI",
               "VALOR": 36347.52
@@ -1223,6 +1217,12 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "VODKA ABSOLUT VANILLA - 750 ML",
               "FANTASIA": "PERNOD",
               "VALOR": 1904.4
+            },
+            {
+              "DATA": "14/05/2026",
+              "PRODUTO": "GIN BOMBAY SAPPHIRE 1,750L",
+              "FANTASIA": "BACARDI",
+              "VALOR": 2026.8
             },
             {
               "DATA": "14/05/2026",
@@ -2300,15 +2300,15 @@ const CLIENTES_588_DATA = {
           "itens": [
             {
               "DATA": "12/05/2026",
-              "PRODUTO": "LICOR DE WHISKY PASSPORT APPLE",
-              "FANTASIA": "PERNOD",
-              "VALOR": 538.5
-            },
-            {
-              "DATA": "12/05/2026",
               "PRODUTO": "CACHACA SAO FRANCISCO 970ML",
               "FANTASIA": "PERNOD",
               "VALOR": 6270.0
+            },
+            {
+              "DATA": "12/05/2026",
+              "PRODUTO": "LICOR DE WHISKY PASSPORT APPLE",
+              "FANTASIA": "PERNOD",
+              "VALOR": 538.5
             },
             {
               "DATA": "12/05/2026",
@@ -2630,15 +2630,15 @@ const CLIENTES_588_DATA = {
           "itens": [
             {
               "DATA": "14/05/2026",
-              "PRODUTO": "VODKA ABSOLUT TABASCO 750ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 838.8
-            },
-            {
-              "DATA": "14/05/2026",
               "PRODUTO": "GIN BOMBAY SAPPHIRE 1,750L",
               "FANTASIA": "BACARDI",
               "VALOR": 1750.8
+            },
+            {
+              "DATA": "14/05/2026",
+              "PRODUTO": "VODKA ABSOLUT TABASCO 750ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 838.8
             },
             {
               "DATA": "27/05/2026",
