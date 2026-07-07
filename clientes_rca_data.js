@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/07/2026 16:52",
-  "total": 4268,
+  "atualizado_em": "07/07/2026 17:08",
+  "total": 4271,
   "clientes": [
     {
       "codcli": "31683",
@@ -7774,6 +7774,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51584",
+      "razao": "AUTO POSTO CANTINHO DO INDEPENDENCIA LTDA",
+      "fantasia": "AUTO POSTO CANTINHO DA INDEPENDENCIA",
+      "bairro": "CHACARA SANTA MARIA",
+      "cidade": "SAO PAULO",
+      "cnpj": "68.112.077/0001-97",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "1180",
       "razao": "AUTO POSTO CIDADE DO PORTO LTDA",
       "fantasia": "",
@@ -13566,6 +13580,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51585",
+      "razao": "CINTRA & CIA COMERCIO DE COMBUSTIVEIS LTDA",
+      "fantasia": "CINTRA & CIA COMERCIO DE COMBUSTIVEIS",
+      "bairro": "CENTRO",
+      "cidade": "PINHALZINHO",
+      "cnpj": "27.839.611/0001-84",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -46132,6 +46160,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "51583",
+      "razao": "POSTO DE SERVICOS PORTAL DE CAMPOS LTDA",
+      "fantasia": "POSTO DE SERVICOS PORTAL DE CAMPOS",
+      "bairro": "VILA ALBERTINA",
+      "cidade": "CAMPOS DO JORDAO",
+      "cnpj": "16.577.821/0001-25",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "14236",
