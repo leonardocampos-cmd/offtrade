@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "07/07/2026 09:15",
+  "atualizado_em": "07/07/2026 11:09",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -264,7 +264,7 @@ const VENDAS_ES_DATA = {
         "fat_ant": 216670.79
       },
       "Jun/26": {
-        "fat": 116883.65,
+        "fat": 116413.13,
         "pos": 23,
         "fat_ant": 284639.24
       },
@@ -281,7 +281,7 @@ const VENDAS_ES_DATA = {
       "Jul/26": {
         "fat": 65825.69,
         "pos": 9,
-        "fat_ant": 116883.65
+        "fat_ant": 116413.13
       }
     },
     "MARA DEPOLLI": {
@@ -69392,15 +69392,6 @@ const VENDAS_ES_DATA = {
         {
           "data": "15/06/2026",
           "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "RUM BACARDI GOLD 700ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 470.52
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85438",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "RUM BACARDI GOLD 700ML",
           "fantasia": "BACARDI",
