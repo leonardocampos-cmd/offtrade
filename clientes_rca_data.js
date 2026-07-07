@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/07/2026 17:08",
-  "total": 4271,
+  "atualizado_em": "07/07/2026 18:17",
+  "total": 4293,
   "clientes": [
     {
       "codcli": "31683",
@@ -7830,6 +7830,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "51592",
+      "razao": "AUTO POSTO DA LAGOA LTDA",
+      "fantasia": "AUTO POSTO DA LAGOA",
+      "bairro": "JARDIM NOSSA SENHORA AUXILIADORA",
+      "cidade": "CAMPINAS",
+      "cnpj": "49.607.039/0001-60",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91122",
       "razao": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
       "fantasia": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
@@ -7998,6 +8012,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "51590",
+      "razao": "AUTO POSTO GROU LTDA",
+      "fantasia": "AUTO POSTO GROU",
+      "bairro": "VILA ISIS CRISTINA",
+      "cidade": "EMBU",
+      "cnpj": "23.037.092/0001-80",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "84274",
       "razao": "AUTO POSTO INAJA LTDA",
       "fantasia": "AUTO POSTO INAJA",
@@ -8092,6 +8120,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "156",
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51594",
+      "razao": "AUTO POSTO MAR BALTICO LTDA",
+      "fantasia": "AUTO POSTO MAR BALTICO",
+      "bairro": "REAL",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "60.226.099/0001-76",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -8208,6 +8250,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "24126",
+      "razao": "AUTO POSTO NOVO BROOKLIN LTDA",
+      "fantasia": "AUTO POSTO NOVO BROOKLIN",
+      "bairro": "BROOKLIN",
+      "cidade": "SAO PAULO",
+      "cnpj": "03.887.584/0001-57",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "44152",
       "razao": "AUTO POSTO NOVO INTENDENTE LTDA",
       "fantasia": "AUTO POSTO NOVO INTENDENTE",
@@ -8234,6 +8290,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "51596",
+      "razao": "AUTO POSTO PARQUE INDUSTRIAL LTDA",
+      "fantasia": "NOSSO POSTO",
+      "bairro": "PARQUE INDUSTRIAL",
+      "cidade": "CAMPINAS",
+      "cnpj": "48.641.534/0001-23",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "2138",
@@ -8330,6 +8400,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "POSTO DE GASOLINA",
       "codusur1": "412",
       "nome_usur1": "BARBARA CABRAL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "24118",
+      "razao": "AUTO POSTO RELIX LTDA",
+      "fantasia": "AUTO POSTO RELIX",
+      "bairro": "JARDIM SANTO ANTONIO",
+      "cidade": "SAO PAULO",
+      "cnpj": "01.409.075/0001-93",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -12940,6 +13024,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
+      "codcli": "51589",
+      "razao": "CENTRO AUTOMOTIVO EDEN 28 LTDA",
+      "fantasia": "CENTRO AUTOMOTIVO EDEN 28",
+      "bairro": "EDEN",
+      "cidade": "SOROCABA",
+      "cnpj": "30.567.868/0001-39",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "83308",
       "razao": "CENTRO AUTOMOTIVO GOLFE CLUBE LTDA",
       "fantasia": "GOLFE CLUBE - SAO CONRADO",
@@ -12952,6 +13050,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "24119",
+      "razao": "CENTRO AUTOMOTIVO OLIMPIA BANDEIRANTES LTDA",
+      "fantasia": "CENTRO AUTOMOTIVO OLIMPIA BANDEIRANTES",
+      "bairro": "VILA OLIMPIA",
+      "cidade": "SAO PAULO",
+      "cnpj": "01.363.816/0001-42",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "435",
+      "nome_usur2": "LUCAS MACIEL"
     },
     {
       "codcli": "79886",
@@ -12974,6 +13086,34 @@ const CLIENTES_RCA_DATA = {
       "bairro": "JARDIM DO LAGO",
       "cidade": "CAMPINAS",
       "cnpj": "22.933.066/0001-77",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51591",
+      "razao": "CENTRO COMERCIAL AVENIDA IMIGRANTES LTDA",
+      "fantasia": "CENTRO COMERCIAL AVENIDA IMIGRANTES",
+      "bairro": "JARDIM AMERICA",
+      "cidade": "BRAGANCA PAULISTA",
+      "cnpj": "11.323.630/0001-13",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51587",
+      "razao": "CENTRO COMERCIAL DOM AGUIRRE LTDA",
+      "fantasia": "CENTRO COMERCIAL DOM AGUIRRE",
+      "bairro": "JARDIM MARIA DO CARMO",
+      "cidade": "SOROCABA",
+      "cnpj": "26.780.986/0001-53",
       "estado": "SP",
       "ramo": "POSTO DE GASOLINA",
       "codusur1": "495",
@@ -13876,6 +14016,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
+    },
+    {
+      "codcli": "51586",
+      "razao": "COLIBRI AUTO POSTO LTDA",
+      "fantasia": "COLIBRI AUTO POSTO",
+      "bairro": "JARDIM DAS FLORES",
+      "cidade": "OSASCO",
+      "cnpj": "01.367.187/0001-29",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "73774",
@@ -16648,6 +16802,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BARBARA CABRAL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "11444",
+      "razao": "DELICATESSEN CATETE LTDA",
+      "fantasia": "LE DEPANNEUR DELICATESSEN",
+      "bairro": "CATETE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "32.320.980/0001-04",
+      "estado": "RJ",
+      "ramo": "DELICATESSEN",
+      "codusur1": "460",
+      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "5371",
@@ -29810,6 +29978,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "51593",
+      "razao": "LEMA AUTO POSTO LTDA",
+      "fantasia": "LEMA AUTO POSTO",
+      "bairro": "PARQUE BAHIA",
+      "cidade": "COTIA",
+      "cnpj": "03.447.645/0001-65",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "49431",
       "razao": "LEME & MACEDO COMERCIO DE BEBIDAS LTDA",
       "fantasia": "LEMAC",
@@ -32524,6 +32706,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51595",
+      "razao": "MARI MANOS AUTO POSTO LTDA.",
+      "fantasia": "REDE 28",
+      "bairro": "JARDIM DA GLORIA",
+      "cidade": "COTIA",
+      "cnpj": "02.260.471/0001-64",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "33861",
@@ -40660,6 +40856,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50480",
+      "razao": "NEUSA APARECIDA DA SILVA CONVENIENCIA LTDA",
+      "fantasia": "NEUSA APARECIDA DA SILVA CONVENIENCIA",
+      "bairro": "CENTRO",
+      "cidade": "PIRAJUI",
+      "cnpj": "52.961.526/0001-31",
+      "estado": "SP",
+      "ramo": "CONVENIENCIA",
+      "codusur1": "477",
+      "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "22021",
       "razao": "NEUSA MARIA MAZZA",
       "fantasia": "O EMPORIO",
@@ -43250,6 +43460,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51597",
+      "razao": "PAINA AUTO POSTO LTDA",
+      "fantasia": "PAINA AUTO POSTO",
+      "bairro": "PESTANA",
+      "cidade": "OSASCO",
+      "cnpj": "73.035.586/0001-01",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "8263",
       "razao": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
       "fantasia": "LANCHONETE PAIS E FILHOS",
@@ -45098,6 +45322,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "24117",
+      "razao": "PORTAL DO PARAISO POSTO DE SERVICOS LTDA",
+      "fantasia": "PORTAL DO PARAISO POSTO DE SERVICOS",
+      "bairro": "MORUMBI",
+      "cidade": "SAO PAULO",
+      "cnpj": "59.236.133/0001-04",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "194",
+      "nome_usur2": "ARACELI ALVES"
+    },
+    {
       "codcli": "16159",
       "razao": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
       "fantasia": "RIO SUL - PENHA CIRCULAR",
@@ -46190,6 +46428,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "JOAO PEDRO - OFF TRADE"
     },
     {
+      "codcli": "51602",
+      "razao": "POSTO DO SINO LTDA",
+      "fantasia": "POSTO DO SINO",
+      "bairro": "JARDIM GUACIARA",
+      "cidade": "TABOAO DA SERRA",
+      "cnpj": "67.117.358/0001-70",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "74078",
       "razao": "POSTO E AUTO SERVICO INSULANO LTDA",
       "fantasia": "POSTO E AUTO SERVICO INSULANO",
@@ -47126,6 +47378,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51599",
+      "razao": "PRYNCIPADO DE VINHEDO - COMERCIO VAREJISTA DE COMBUSTIVEIS L",
+      "fantasia": "ATMA POSTO",
+      "bairro": "SANTA CLAUDINA",
+      "cidade": "VINHEDO",
+      "cnpj": "09.161.888/0001-19",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "35790",
@@ -49494,6 +49760,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
+      "codcli": "24115",
+      "razao": "RF 7 POSTO DE SERVICOS LTDA",
+      "fantasia": "RF 7 POSTO DE SERVICOS",
+      "bairro": "CONSOLACAO",
+      "cidade": "SAO PAULO",
+      "cnpj": "43.946.888/0001-62",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "33971",
       "razao": "RFNP CAFETERIA E LANCHONETE LTDA",
       "fantasia": "BENDITO DOWNTOWN",
@@ -51410,6 +51690,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51600",
+      "razao": "SERVICOS AUTOMOTIVOS REGIS LTDA",
+      "fantasia": "SERVICOS AUTOMOTIVOS REGIS",
+      "bairro": "PARQUE FRANCISCO RIZZO",
+      "cidade": "EMBU",
+      "cnpj": "55.099.832/0001-07",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51370",
@@ -57052,6 +57346,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51603",
+      "razao": "TONINHO TRINTA AUTO POSTO LTDA",
+      "fantasia": "TONINHO TRINTA AUTO POSTO",
+      "bairro": "INTERLAGOS",
+      "cidade": "SAO PAULO",
+      "cnpj": "59.469.775/0001-53",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "89919",
