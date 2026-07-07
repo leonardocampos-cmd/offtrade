@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "07/07/2026 16:53",
+  "atualizado_em": "07/07/2026 17:10",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -18684,6 +18684,42 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [],
       "novos": [
+        {
+          "codcli": "51586",
+          "cliente": "COLIBRI AUTO POSTO LTDA",
+          "bairro": "JARDIM DAS FLORES",
+          "cidade": "OSASCO",
+          "dtcadastro": "07/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51585",
+          "cliente": "CINTRA & CIA COMERCIO DE COMBUSTIVEIS LTDA",
+          "bairro": "CENTRO",
+          "cidade": "PINHALZINHO",
+          "dtcadastro": "07/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51584",
+          "cliente": "AUTO POSTO CANTINHO DO INDEPENDENCIA LTDA",
+          "bairro": "CHACARA SANTA MARIA",
+          "cidade": "SAO PAULO",
+          "dtcadastro": "07/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51583",
+          "cliente": "POSTO DE SERVICOS PORTAL DE CAMPOS LTDA",
+          "bairro": "VILA ALBERTINA",
+          "cidade": "CAMPOS DO JORDAO",
+          "dtcadastro": "07/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "51582",
           "cliente": "AUTO POSTO QUARENTA E UM LIMITADA",
