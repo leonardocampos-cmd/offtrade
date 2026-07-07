@@ -81,6 +81,10 @@
     .td-sub   { display: block; font-size: .68rem; color: var(--muted); margin-top: 2px; }
     .td-r     { text-align: right; font-variant-numeric: tabular-nums; }
     .td-valor { text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+    .td-produtos    { min-width: 200px; max-width: 280px; }
+    .prod-line      { font-size: .76rem; line-height: 1.5; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .prod-line + .prod-line { margin-top: 2px; }
+    .prod-meta      { color: var(--muted); font-size: .7rem; margin-left: 4px; }
     .dias-pill { display: inline-block; padding: 2px 9px; border-radius: 99px; font-size: .7rem; font-weight: 700; white-space: nowrap; }
     .badge-red    { background: rgba(239,68,68,.15);  color: var(--red);    border: 1px solid rgba(239,68,68,.3); }
     .badge-orange { background: rgba(251,146,60,.15); color: var(--orange); border: 1px solid rgba(251,146,60,.3); }
@@ -151,6 +155,7 @@
           <th data-k="cliente" onclick="sortBy('cliente')">Cliente</th>
           <th class="hide-mob" data-k="estado" onclick="sortBy('estado')">UF</th>
           <th class="hide-mob" data-k="vendedor" onclick="sortBy('vendedor')">Vendedor</th>
+          <th>Produtos (Qtd · Valor)</th>
           <th data-k="ult_compra_periodo" onclick="sortBy('ult_compra_periodo')">Últ. Compra (fornecedor)</th>
           <th class="r" data-k="valor" onclick="sortBy('valor')">Valor Período</th>
           <th class="r hide-mob" data-k="qt" onclick="sortBy('qt')">Qtd</th>
@@ -159,26 +164,6 @@
         </tr>
       </thead>
       <tbody id="tbody"></tbody>
-    </table>
-  </div>
-
-  <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:20px 0 8px 2px">Produtos vendidos no período</div>
-  <div class="table-wrap">
-    <div class="table-meta">
-      <span class="table-count" id="tbl-prod-count">— produtos</span>
-      <button class="btn-csv" onclick="exportCSVProdutos()" type="button">⬇ Exportar CSV</button>
-    </div>
-    <table>
-      <thead>
-        <tr>
-          <th data-k="produto" onclick="sortByProd('produto')">Produto</th>
-          <th class="hide-mob" data-k="codprod" onclick="sortByProd('codprod')">Código</th>
-          <th class="r" data-k="positivados" onclick="sortByProd('positivados')">Clientes</th>
-          <th class="r hide-mob" data-k="qt" onclick="sortByProd('qt')">Qtd</th>
-          <th class="r" data-k="valor" onclick="sortByProd('valor')">Valor Período</th>
-        </tr>
-      </thead>
-      <tbody id="tbody-prod"></tbody>
     </table>
   </div>
 </div>
@@ -378,6 +363,7 @@ function clientesAgregados() {
         cidade: r.cidade || '', estado: r.estado || '', vendedor: r.vendedor || '',
         rca: r.rca || '', valor: 0, qt: 0, ult_compra_periodo: null,
         dtultcomp_geral: r.dtultcomp_geral, dias_sem_compra: r.dias_sem_compra,
+        produtosMap: new Map(),
       };
       map.set(r.codcli, c);
     }
@@ -386,8 +372,19 @@ function clientesAgregados() {
     if (!c.ult_compra_periodo || _dToSort(r.ult_compra_mes) > _dToSort(c.ult_compra_periodo)) {
       c.ult_compra_periodo = r.ult_compra_mes;
     }
+    let p = c.produtosMap.get(r.codprod);
+    if (!p) {
+      p = { produto: r.produto || '—', valor: 0, qt: 0 };
+      c.produtosMap.set(r.codprod, p);
+    }
+    p.valor += r.valor;
+    p.qt    += r.qt;
   }
   let list = [...map.values()];
+  for (const c of list) {
+    c.produtos = [...c.produtosMap.values()].sort((a, b) => b.valor - a.valor);
+    delete c.produtosMap;
+  }
   if (stSoInativos) list = list.filter(c => (c.dias_sem_compra ?? -1) >= 60);
   if (stSearch) {
     const q = stSearch.toLowerCase();
@@ -431,7 +428,7 @@ function renderTable(list) {
 
   const tbody = document.getElementById('tbody');
   if (!list.length) {
-    tbody.innerHTML = `<tr><td colspan="9" class="empty">Nenhum cliente encontrado para os filtros selecionados.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="10" class="empty">Nenhum cliente encontrado para os filtros selecionados.</td></tr>`;
     return;
   }
 
@@ -441,6 +438,7 @@ function renderTable(list) {
       <td><span class="td-cli">${c.cliente}</span><span class="td-sub">${c.cidade || ''}</span></td>
       <td class="hide-mob">${c.estado || '—'}</td>
       <td class="hide-mob">${c.vendedor || '—'}</td>
+      <td class="td-produtos">${c.produtos.map(p => `<div class="prod-line" title="${p.produto}">${p.produto}<span class="prod-meta">${num(p.qt)}un · ${brl(p.valor)}</span></div>`).join('')}</td>
       <td>${c.ult_compra_periodo || '—'}</td>
       <td class="td-valor">${brl(c.valor)}</td>
       <td class="td-r hide-mob">${num(c.qt)}</td>
@@ -448,86 +446,6 @@ function renderTable(list) {
       <td class="td-r"><span class="dias-pill ${_diasCls(c.dias_sem_compra)}">${c.dias_sem_compra !== null && c.dias_sem_compra !== undefined ? c.dias_sem_compra + 'd' : '—'}</span></td>
     </tr>
   `).join('');
-}
-
-// ── Produtos vendidos do fornecedor selecionado ─────────────────────────────
-let stSortProdK = 'valor';
-let stSortProdA = false;
-
-function filteredProdutos() {
-  let rows = (D.produtos || []).filter(r => r.fantasia === stForn);
-  if (stMeses.size) rows = rows.filter(r => stMeses.has(r.mes));
-  if (stEstado) rows = rows.filter(r => r.estado === stEstado);
-  if (stGerente || stSupervisor) {
-    const nomes = _hierVendedores(stEstado, stGerente, stSupervisor);
-    if (nomes) rows = rows.filter(r => nomes.has(r.vendedor));
-  }
-  return rows;
-}
-
-function produtosAgregados() {
-  const regs = filteredProdutos();
-  const map = new Map();
-  for (const r of regs) {
-    let p = map.get(r.codprod);
-    if (!p) {
-      p = { codprod: r.codprod, produto: r.produto || '—', valor: 0, qt: 0, positivados: 0 };
-      map.set(r.codprod, p);
-    }
-    p.valor       += r.valor;
-    p.qt           += r.qt;
-    p.positivados  += r.positivados;
-  }
-  return [...map.values()];
-}
-
-function renderProdutos() {
-  let list = produtosAgregados();
-  list = list.sort((a, b) => {
-    const va = a[stSortProdK], vb = b[stSortProdK];
-    const cmp = typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb), 'pt-BR');
-    return stSortProdA ? cmp : -cmp;
-  });
-
-  document.getElementById('tbl-prod-count').textContent = `${num(list.length)} produto${list.length === 1 ? '' : 's'}`;
-
-  const tbody = document.getElementById('tbody-prod');
-  if (!list.length) {
-    tbody.innerHTML = `<tr><td colspan="5" class="empty">Nenhum produto encontrado para os filtros selecionados.</td></tr>`;
-    return;
-  }
-
-  tbody.innerHTML = list.map(p => `
-    <tr>
-      <td class="td-cli">${p.produto}</td>
-      <td class="hide-mob" style="color:var(--muted)">${p.codprod}</td>
-      <td class="td-r">${num(p.positivados)}</td>
-      <td class="td-r hide-mob">${num(p.qt)}</td>
-      <td class="td-valor">${brl(p.valor)}</td>
-    </tr>
-  `).join('');
-}
-
-function sortByProd(k) {
-  if (stSortProdK === k) { stSortProdA = !stSortProdA; }
-  else { stSortProdK = k; stSortProdA = (k === 'produto'); }
-  renderProdutos();
-}
-
-function exportCSVProdutos() {
-  const list = produtosAgregados();
-  const esc = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
-  const lines = [
-    ['Código Produto','Produto','Clientes Positivados','Qtd','Valor Período'].map(esc).join(';'),
-    ...list.map(p => [p.codprod, p.produto, p.positivados, p.qt, p.valor].map(esc).join(';')),
-  ];
-  const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8;' });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
-  a.href     = url;
-  a.download = `industria_produtos_${stForn.replace(/\s+/g,'_')}_${new Date().toISOString().slice(0,10)}.csv`;
-  a.click();
-  URL.revokeObjectURL(url);
 }
 
 // ── Sort ─────────────────────────────────────────────────────────────────────
@@ -546,7 +464,6 @@ function refresh(renderPillsToo = true) {
   const list = clientesAgregados();
   renderResumo(list);
   renderTable(list);
-  renderProdutos();
 }
 
 // ── CSV ──────────────────────────────────────────────────────────────────────
@@ -554,10 +471,11 @@ function exportCSV() {
   const list = clientesAgregados();
   const esc = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
   const lines = [
-    ['Cód Cliente','Cliente','Cidade','Estado','Vendedor','RCA','Últ. Compra Fornecedor','Valor Período','Qtd','Últ. Compra Empresa','Dias Sem Comprar']
+    ['Cód Cliente','Cliente','Cidade','Estado','Vendedor','RCA','Produtos','Últ. Compra Fornecedor','Valor Período','Qtd','Últ. Compra Empresa','Dias Sem Comprar']
       .map(esc).join(';'),
     ...list.map(c => [
       c.codcli, c.cliente, c.cidade, c.estado, c.vendedor, c.rca,
+      c.produtos.map(p => `${p.produto} (${p.qt}un, ${brl(p.valor)})`).join(' | '),
       c.ult_compra_periodo, c.valor, c.qt, c.dtultcomp_geral, c.dias_sem_compra
     ].map(esc).join(';')),
   ];

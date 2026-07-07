@@ -1,5 +1,5 @@
 """
-Gera industria_data.js com vendas agregadas por (fornecedor/indústria, mês, cliente)
+Gera industria_data.js com vendas agregadas por (fornecedor/indústria, mês, cliente, produto)
 nas 4 bases (RJ, SP, ES, MG), para responder:
   - "quais clientes compraram do fornecedor X no período X a Y"
   - cruzando com DTULTCOMP (ERP, empresa toda) para sinalizar clientes
@@ -60,6 +60,8 @@ def _query(schema: str, filiais: list | None) -> str:
             PCCLIENT.CLIENTE                            AS CLIENTE,
             PCCLIENT.BAIRROENT                          AS BAIRRO,
             PCCLIENT.MUNICENT                           AS CIDADE,
+            PCMOV.CODPROD                               AS CODPROD,
+            PCMOV.DESCRICAO                             AS PRODUTO,
             MAX(PCMOV.DTMOV)                            AS ULT_COMPRA_MES,
             SUM(PCMOV.PUNIT * PCMOV.QT)                 AS VALOR,
             SUM(PCMOV.QT)                                AS QT,
@@ -79,37 +81,8 @@ def _query(schema: str, filiais: list | None) -> str:
           AND (PCUSUARI.NOME LIKE '%OFF TRADE%' OR PCUSUARI.NOME LIKE '%W.S%')
           {fil_clause}
         GROUP BY PCFORNEC.FANTASIA, TRUNC(PCMOV.DTMOV, 'MM'), PCMOV.CODCLI, PCCLIENT.CLIENTE,
-                 PCCLIENT.BAIRROENT, PCCLIENT.MUNICENT, RCA_U.NOME, RCA_U.CODUSUR,
-                 PCCLIENT.DTULTCOMP
-    """
-
-
-def _query_produtos(schema: str, filiais: list | None) -> str:
-    p = f"{schema}."
-    fil_clause = f"AND PCMOV.CODFILIAL IN ({','.join(filiais)})" if filiais else ""
-    return f"""
-        SELECT
-            PCFORNEC.FANTASIA                AS FANTASIA,
-            TRUNC(PCMOV.DTMOV, 'MM')          AS MES,
-            PCMOV.CODPROD                     AS CODPROD,
-            PCMOV.DESCRICAO                   AS PRODUTO,
-            RCA_U.NOME                        AS VENDEDOR,
-            SUM(PCMOV.PUNIT * PCMOV.QT)       AS VALOR,
-            SUM(PCMOV.QT)                      AS QT,
-            COUNT(DISTINCT PCMOV.CODCLI)      AS POSITIVADOS
-        FROM {p}PCMOV
-        JOIN {p}PCUSUARI  ON PCMOV.CODUSUR      = PCUSUARI.CODUSUR
-        JOIN {p}PCPRODUT  ON PCMOV.CODPROD      = PCPRODUT.CODPROD
-        JOIN {p}PCFORNEC  ON PCPRODUT.CODFORNEC = PCFORNEC.CODFORNEC
-        JOIN {p}PCCLIENT  ON PCMOV.CODCLI       = PCCLIENT.CODCLI
-        LEFT JOIN {p}PCUSUARI RCA_U ON PCCLIENT.CODUSUR1 = RCA_U.CODUSUR
-        WHERE PCMOV.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -{MESES_HISTORICO - 1})
-          AND PCMOV.CODOPER IN ('S', 'SB')
-          AND PCMOV.NUMNOTADEV IS NULL
-          AND PCMOV.DTCANCEL IS NULL
-          AND (PCUSUARI.NOME LIKE '%OFF TRADE%' OR PCUSUARI.NOME LIKE '%W.S%')
-          {fil_clause}
-        GROUP BY PCFORNEC.FANTASIA, TRUNC(PCMOV.DTMOV, 'MM'), PCMOV.CODPROD, PCMOV.DESCRICAO, RCA_U.NOME
+                 PCCLIENT.BAIRROENT, PCCLIENT.MUNICENT, PCMOV.CODPROD, PCMOV.DESCRICAO,
+                 RCA_U.NOME, RCA_U.CODUSUR, PCCLIENT.DTULTCOMP
     """
 
 
@@ -127,9 +100,8 @@ def _query_hierarquia(schema: str) -> str:
     """
 
 
-def _carregar() -> tuple[pd.DataFrame, pd.DataFrame, list[str], list[dict]]:
+def _carregar() -> tuple[pd.DataFrame, list[str], list[dict]]:
     frames = []
-    frames_prod = []
     fontes_indisponiveis = []
     engines = {}
 
@@ -170,17 +142,6 @@ def _carregar() -> tuple[pd.DataFrame, pd.DataFrame, list[str], list[dict]]:
                 print(f"    Erro: {str(e)[:150]}")
         if not ok:
             fontes_indisponiveis.append(estado)
-            continue
-
-        try:
-            with engines[dsn].connect() as conn:
-                df_p = pd.read_sql(_query_produtos(schema, filiais), conn)
-            df_p.columns = df_p.columns.str.upper()
-            df_p["ESTADO"] = estado
-            frames_prod.append(df_p)
-            print(f"    OK {len(df_p)} produtos")
-        except Exception as e:
-            print(f"    [aviso] produtos {estado} falhou: {str(e)[:150]}")
 
     # ── Hierarquia (estado → gerente → supervisor → vendedor) ────────────────
     # Uma consulta por (dsn, schema) único — RJ e ES compartilham a base CRC,
@@ -225,13 +186,12 @@ def _carregar() -> tuple[pd.DataFrame, pd.DataFrame, list[str], list[dict]]:
             gers_out.append({"nome": g_data["nome"], "supervisores": sups_out})
         hierarquia.append({"nome": est_data["nome"], "gerentes": gers_out})
 
-    df_out      = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
-    df_prod_out = pd.concat(frames_prod, ignore_index=True) if frames_prod else pd.DataFrame()
-    return df_out, df_prod_out, fontes_indisponiveis, hierarquia
+    df_out = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+    return df_out, fontes_indisponiveis, hierarquia
 
 
 print("\n=== Carregando vendas por indústria (6 meses, RJ/SP/ES/MG) ===")
-df, df_prod, fontes_indisponiveis, hierarquia = _carregar()
+df, fontes_indisponiveis, hierarquia = _carregar()
 
 if df.empty:
     meses_out = []
@@ -256,6 +216,8 @@ else:
 
     fornecedores_out = sorted(df["FANTASIA"].unique().tolist())
 
+    df["PRODUTO"] = df["PRODUTO"].fillna("")
+
     registros_out = []
     for _, r in df.iterrows():
         registros_out.append({
@@ -268,6 +230,8 @@ else:
             "estado":           r["ESTADO"],
             "vendedor":         r["VENDEDOR"],
             "rca":              r["RCA"],
+            "codprod":          str(r["CODPROD"]),
+            "produto":          r["PRODUTO"],
             "valor":            float(r["VALOR"]),
             "qt":               int(r["QT"]),
             "ult_compra_mes":   r["ULT_COMPRA_MES"].strftime("%d/%m/%Y") if pd.notna(r["ULT_COMPRA_MES"]) else None,
@@ -275,37 +239,11 @@ else:
             "dias_sem_compra":  r["DIAS_SEM_COMPRA"],
         })
 
-if df_prod.empty:
-    produtos_out = []
-else:
-    df_prod["MES"]       = pd.to_datetime(df_prod["MES"])
-    df_prod["VALOR"]      = pd.to_numeric(df_prod["VALOR"], errors="coerce").fillna(0).round(2)
-    df_prod["QT"]          = pd.to_numeric(df_prod["QT"], errors="coerce").fillna(0).astype(int)
-    df_prod["POSITIVADOS"] = pd.to_numeric(df_prod["POSITIVADOS"], errors="coerce").fillna(0).astype(int)
-    df_prod["FANTASIA"]   = df_prod["FANTASIA"].fillna("SEM FORNECEDOR").str.strip().str.upper()
-    df_prod["PRODUTO"]     = df_prod["PRODUTO"].fillna("")
-    df_prod["VENDEDOR"]   = df_prod["VENDEDOR"].fillna("Sem RCA")
-
-    produtos_out = []
-    for _, r in df_prod.iterrows():
-        produtos_out.append({
-            "fantasia":     r["FANTASIA"],
-            "mes":          _mes_pt(r["MES"]),
-            "estado":       r["ESTADO"],
-            "vendedor":     r["VENDEDOR"],
-            "codprod":      str(r["CODPROD"]),
-            "produto":      r["PRODUTO"],
-            "valor":        float(r["VALOR"]),
-            "qt":           int(r["QT"]),
-            "positivados":  int(r["POSITIVADOS"]),
-        })
-
 payload = {
     "atualizado_em":         datetime.now().strftime("%d/%m/%Y %H:%M"),
     "meses":                 meses_out,
     "fornecedores":          fornecedores_out,
     "registros":             registros_out,
-    "produtos":              produtos_out,
     "hierarquia":            hierarquia,
     "fontes_indisponiveis":  sorted(set(fontes_indisponiveis)),
 }
@@ -316,8 +254,7 @@ out.write_text(
     f"const INDUSTRIA_DATA = {json.dumps(payload, ensure_ascii=False, indent=2)};\n",
     encoding="utf-8",
 )
-print(f"\nOK industria_data.js — {len(registros_out)} registros, {len(produtos_out)} linhas de produto, "
-      f"{len(fornecedores_out)} fornecedores -> {out}")
+print(f"\nOK industria_data.js — {len(registros_out)} registros, {len(fornecedores_out)} fornecedores -> {out}")
 if fontes_indisponiveis:
     print(f"[AVISO] Fontes indisponíveis: {sorted(set(fontes_indisponiveis))} — resultados podem estar incompletos.")
 
