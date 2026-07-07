@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "07/07/2026 17:06",
+  "atualizado_em": "07/07/2026 18:17",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 39988.58,
-        "pos": 33,
+        "fat": 40717.18,
+        "pos": 34,
         "fat_ant": 343937.59
       }
     },
@@ -44358,6 +44358,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 179.4
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "30002",
+          "cliente": "SOCIEDADE COMERCIAL PIRES LTDA",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 179.6
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "30002",
+          "cliente": "SOCIEDADE COMERCIAL PIRES LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "30002",
+          "cliente": "SOCIEDADE COMERCIAL PIRES LTDA",
+          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 219.6
         },
         {
           "data": "07/07/2026",
