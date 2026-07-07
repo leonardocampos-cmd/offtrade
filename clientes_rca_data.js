@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/07/2026 17:53",
-  "total": 4177,
+  "atualizado_em": "07/07/2026 09:16",
+  "total": 4176,
   "clientes": [
     {
       "codcli": "31683",
@@ -11982,8 +11982,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "43.598.533/0001-20",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "codusur1": "170",
+      "nome_usur1": "JULIO CESAR",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -14214,20 +14214,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "91065",
-      "razao": "COMERCIAL MULLER LTDA",
-      "fantasia": "SABOR DA VILA",
-      "bairro": "VILA CAPIXABA",
-      "cidade": "CARIACICA",
-      "cnpj": "39.277.058/0001-12",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "343",
-      "nome_usur1": "JOSIETH LIMA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "50824",
       "razao": "COMERCIAL PARAIBA ALIMENTOS E BEBIDAS LTDA",
       "fantasia": "COMERCIAL PARAIBA ALIMENTOS E BEBIDAS",
@@ -15540,20 +15526,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "433",
       "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "89898",
-      "razao": "CRJ COMERCIAL LTDA",
-      "fantasia": "COMERCIAL DOLIN",
-      "bairro": "CRUZEIRO DO SUL",
-      "cidade": "CARIACICA",
-      "cnpj": "61.338.589/0001-27",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "343",
-      "nome_usur1": "JOSIETH LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -18090,6 +18062,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "84331",
+      "razao": "DR J - CONVENIENCIA LTDA",
+      "fantasia": "DR J  CONVENIENCIA - CACUIA",
+      "bairro": "CACUIA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "57.569.381/0001-41",
+      "estado": "RJ",
+      "ramo": "CONVENIENCIA",
+      "codusur1": "46",
+      "nome_usur1": "THIAGO CANTISANI",
+      "codusur2": "431",
+      "nome_usur2": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
     {
       "codcli": "72894",
