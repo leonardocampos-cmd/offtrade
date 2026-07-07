@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "07/07/2026 11:08",
+  "atualizado_em": "07/07/2026 12:08",
   "data_rota": "07.07",
   "vendedores": [
     {
@@ -4534,6 +4534,31 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "144001634",
+          "numnota": "",
+          "data": "07/07/2026",
+          "cliente": "ERIVALDO DE SOUZA SANTOS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1909.0,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 10,
+              "val": 1270.0
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 10,
+              "val": 639.0
+            }
+          ]
+        },
+        {
           "numped": "144001632",
           "numnota": "",
           "data": "07/07/2026",
@@ -7936,6 +7961,61 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM RALADO OLEO 24X140G",
               "qt": 1,
               "val": 173.37
+            }
+          ]
+        },
+        {
+          "numped": "379001206",
+          "numnota": "",
+          "data": "07/07/2026",
+          "cliente": "MERCEARIA FERREIRA ZANCO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1516.6,
+          "itens": [
+            {
+              "desc": "RUM MONTILLA CARTA BRANCA 1L",
+              "qt": 3,
+              "val": 65.7
+            },
+            {
+              "desc": "RUM MONTILLA OURO 1L",
+              "qt": 3,
+              "val": 65.7
+            },
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 12,
+              "val": 144.0
+            },
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 6,
+              "val": 107.4
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 10,
+              "val": 629.0
+            },
+            {
+              "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
+              "qt": 2,
+              "val": 105.8
+            },
+            {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 1,
+              "val": 199.5
             }
           ]
         },
@@ -14385,6 +14465,46 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "155003825",
+          "numnota": "",
+          "data": "07/07/2026",
+          "cliente": "COMUKERIA ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1822.38,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 3,
+              "val": 539.28
+            },
+            {
+              "desc": "BITTER ANGOSTURA AROMATIC 100 ML",
+              "qt": 1,
+              "val": 114.9
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 3,
+              "val": 539.28
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 2,
+              "val": 359.52
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
+              "qt": 6,
+              "val": 269.4
+            }
+          ]
+        },
         {
           "numped": "155003824",
           "numnota": "",
