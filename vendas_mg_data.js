@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "07/07/2026 15:12",
+  "atualizado_em": "07/07/2026 16:05",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -258,8 +258,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 53560.12
       },
       "Jul/26": {
-        "fat": 3702.08,
-        "pos": 6,
+        "fat": 4209.98,
+        "pos": 7,
         "fat_ant": 51108.92
       }
     }
@@ -85564,6 +85564,51 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 4,
           "valor": 495.6
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39026",
+          "cliente": "COMERCIAL AKTEM LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 1,
+          "valor": 59.9
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39026",
+          "cliente": "COMERCIAL AKTEM LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 85.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39026",
+          "cliente": "COMERCIAL AKTEM LTDA",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 191.6
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39026",
+          "cliente": "COMERCIAL AKTEM LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 50.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39026",
+          "cliente": "COMERCIAL AKTEM LTDA",
+          "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 119.8
         }
       ]
     }
