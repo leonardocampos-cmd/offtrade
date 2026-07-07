@@ -127,6 +127,11 @@
   </div>
 
   <div class="filters-row">
+    <select id="fil-canal" onchange="_onCanal()">
+      <option value="">Off + On Trade</option>
+      <option value="OFF">Off Trade</option>
+      <option value="ON">On Trade</option>
+    </select>
     <select id="fil-estado" onchange="_onEstado()">
       <option value="">Todos os estados</option>
     </select>
@@ -181,6 +186,7 @@ const MESES = D.meses || [];
 
 let stForn       = '';
 let stMeses      = new Set();
+let stCanal      = '';
 let stEstado     = '';
 let stGerente    = '';
 let stSupervisor = '';
@@ -255,6 +261,11 @@ function _hierVendedores(estado, gerente, supervisor) {
     }
   }
   return nomes;
+}
+
+function _onCanal() {
+  stCanal = document.getElementById('fil-canal').value;
+  refresh();
 }
 
 function _onEstado() {
@@ -344,6 +355,7 @@ document.getElementById('search').addEventListener('input', e => {
 function filteredRegistros() {
   let rows = D.registros.filter(r => r.fantasia === stForn);
   if (stMeses.size) rows = rows.filter(r => stMeses.has(r.mes));
+  if (stCanal) rows = rows.filter(r => r.canal === stCanal);
   if (stEstado) rows = rows.filter(r => r.estado === stEstado);
   if (stGerente || stSupervisor) {
     const nomes = _hierVendedores(stEstado, stGerente, stSupervisor);

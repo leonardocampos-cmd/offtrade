@@ -67,7 +67,9 @@ def _query(schema: str, filiais: list | None) -> str:
             SUM(PCMOV.QT)                                AS QT,
             RCA_U.NOME                                   AS VENDEDOR,
             RCA_U.CODUSUR                                AS RCA,
-            PCCLIENT.DTULTCOMP                           AS DTULTCOMP_GERAL
+            PCCLIENT.DTULTCOMP                           AS DTULTCOMP_GERAL,
+            CASE WHEN (PCUSUARI.NOME LIKE '%OFF TRADE%' OR PCUSUARI.NOME LIKE '%W.S%')
+                 THEN 'OFF' ELSE 'ON' END                 AS CANAL
         FROM {p}PCMOV
         JOIN {p}PCUSUARI  ON PCMOV.CODUSUR      = PCUSUARI.CODUSUR
         JOIN {p}PCPRODUT  ON PCMOV.CODPROD      = PCPRODUT.CODPROD
@@ -78,11 +80,12 @@ def _query(schema: str, filiais: list | None) -> str:
           AND PCMOV.CODOPER IN ('S', 'SB')
           AND PCMOV.NUMNOTADEV IS NULL
           AND PCMOV.DTCANCEL IS NULL
-          AND (PCUSUARI.NOME LIKE '%OFF TRADE%' OR PCUSUARI.NOME LIKE '%W.S%')
           {fil_clause}
         GROUP BY PCFORNEC.FANTASIA, TRUNC(PCMOV.DTMOV, 'MM'), PCMOV.CODCLI, PCCLIENT.CLIENTE,
                  PCCLIENT.BAIRROENT, PCCLIENT.MUNICENT, PCMOV.CODPROD, PCMOV.DESCRICAO,
-                 RCA_U.NOME, RCA_U.CODUSUR, PCCLIENT.DTULTCOMP
+                 RCA_U.NOME, RCA_U.CODUSUR, PCCLIENT.DTULTCOMP,
+                 CASE WHEN (PCUSUARI.NOME LIKE '%OFF TRADE%' OR PCUSUARI.NOME LIKE '%W.S%')
+                      THEN 'OFF' ELSE 'ON' END
     """
 
 
@@ -230,6 +233,7 @@ else:
             "estado":           r["ESTADO"],
             "vendedor":         r["VENDEDOR"],
             "rca":              r["RCA"],
+            "canal":            r["CANAL"],
             "codprod":          str(r["CODPROD"]),
             "produto":          r["PRODUTO"],
             "valor":            float(r["VALOR"]),

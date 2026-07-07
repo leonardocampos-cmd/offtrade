@@ -1,4 +1,5 @@
 import json
+import re
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
@@ -9,16 +10,37 @@ DT_FIM = "2026-06-25"
 PREMIO_1 = 2000
 PREMIO_2 = 1000
 
-def _query(schema, filtro_filial="(1, 2, 4)", filtro_estent=None):
+# RJ = filiais 2 e 4 na base CRC (filial 1 é ES, mesma base Oracle) — mesma
+# convenção usada em exportacao_metas_gerais.py / exportacao_industria.py.
+FILIAIS_RJ = "(2, 4)"
+
+# Extrai o multiplicador de pack de descrições tipo "AMARULA 12X50ML",
+# "AMARULA CREAM 6X1L" etc. — o QT do ERP conta caixas/packs, não garrafas.
+_PACK_RE = re.compile(r'(\d+)\s*[xX]\s*\d')
+
+def _pack_multiplier(descricao) -> int:
+    if not descricao:
+        return 1
+    m = _PACK_RE.search(str(descricao))
+    if not m:
+        return 1
+    try:
+        mult = int(m.group(1))
+        return mult if mult > 0 else 1
+    except ValueError:
+        return 1
+
+def _query(schema, filtro_filial=FILIAIS_RJ, filtro_estent=None):
     s = schema.upper()
     extra_filial = f"\n          AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
     join_cli     = f"\n        JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI" if filtro_estent else ""
     extra_estent = f"\n          AND C.ESTENT = '{filtro_estent}'" if filtro_estent else ""
     return f"""
         SELECT
-            U.NOME           AS VENDEDOR,
+            U.NOME       AS VENDEDOR,
             M.CODCLI,
-            (M.PUNIT * M.QT) AS VALOR
+            M.DESCRICAO  AS DESCRICAO,
+            SUM(M.QT)    AS QT
         FROM {s}.PCMOV M
         JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR{join_cli}
         WHERE TRUNC(M.DTMOV) >= TO_DATE('{DT_INI}', 'YYYY-MM-DD')
@@ -27,6 +49,7 @@ def _query(schema, filtro_filial="(1, 2, 4)", filtro_estent=None):
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL
           AND UPPER(M.DESCRICAO) LIKE '%AMARULA%'{extra_filial}{extra_estent}
+        GROUP BY U.NOME, M.CODCLI, M.DESCRICAO
     """
 
 # Monta mapeamento nome Oracle → nome display (igual metas_data.js)
@@ -61,15 +84,17 @@ _parts_am = [df_crc]
 EXCLUIR_VENDEDORES = {"RC", "VENDEDOR 09", "BEES", "VENDEDOR 02", "KELLY RAMOS - OFF TRADE", "RQ", "LOJA", "BEBIDA IN BOX"}
 
 df = pd.concat(_parts_am, ignore_index=True)
-df['VALOR'] = pd.to_numeric(df['VALOR'], errors='coerce').fillna(0)
+df['QT'] = pd.to_numeric(df['QT'], errors='coerce').fillna(0)
+df['MULTIPLICADOR'] = df['DESCRICAO'].apply(_pack_multiplier)
+df['VOLUME'] = df['QT'] * df['MULTIPLICADOR']
 df = df[df['VENDEDOR'].map(_nome).apply(lambda v: v not in EXCLUIR_VENDEDORES)].copy()
 
 if df.empty:
     ranking_pos       = []
-    ranking_fat       = []
+    ranking_vol       = []
     total_vendedores  = 0
     total_positivacao = 0
-    total_faturamento = 0.0
+    total_volume      = 0
 else:
     rp = (
         df.groupby('VENDEDOR')['_CLI'].nunique()
@@ -77,24 +102,23 @@ else:
           .reset_index()
           .rename(columns={'_CLI': 'positivacao'})
     )
-    rf = (
-        df.groupby('VENDEDOR')['VALOR'].sum()
-          .round(2)
+    rv = (
+        df.groupby('VENDEDOR')['VOLUME'].sum()
           .sort_values(ascending=False)
           .reset_index()
-          .rename(columns={'VALOR': 'faturamento'})
+          .rename(columns={'VOLUME': 'volume'})
     )
     ranking_pos = [
         {'vendedor': _nome(r['VENDEDOR']), 'valor': int(r['positivacao'])}
         for _, r in rp.iterrows()
     ]
-    ranking_fat = [
-        {'vendedor': _nome(r['VENDEDOR']), 'valor': float(r['faturamento'])}
-        for _, r in rf.iterrows()
+    ranking_vol = [
+        {'vendedor': _nome(r['VENDEDOR']), 'valor': int(r['volume'])}
+        for _, r in rv.iterrows()
     ]
     total_vendedores  = int(df['VENDEDOR'].nunique())
     total_positivacao = int(df['_CLI'].nunique())
-    total_faturamento = round(float(df['VALOR'].sum()), 2)
+    total_volume      = int(df['VOLUME'].sum())
 
 payload = {
     'atualizado_em':      datetime.now().strftime('%d/%m/%Y %H:%M'),
@@ -103,9 +127,9 @@ payload = {
     'premio_2':           PREMIO_2,
     'total_vendedores':   total_vendedores,
     'total_positivacao':  total_positivacao,
-    'total_faturamento':  total_faturamento,
+    'total_volume':       total_volume,
     'ranking_positivacao': ranking_pos,
-    'ranking_faturamento': ranking_fat,
+    'ranking_volume':      ranking_vol,
 }
 
 output_path = Path(__file__).parent / "amarula_data.js"

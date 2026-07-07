@@ -263,7 +263,7 @@
   <header>
     <div class="camp-badge">Campanha Ativa</div>
     <h1>Campanha Amarula</h1>
-    <p class="camp-sub">Empresa toda — On Trade + Off Trade</p>
+    <p class="camp-sub">Todos os vendedores — Clientes RJ</p>
     <div class="camp-periodo">26/05/2026 a 26/06/2026</div>
     <div class="camp-premios">
       <div class="camp-premio-box">
@@ -272,7 +272,7 @@
         <div class="camp-premio-val camp-premio-2">🥈 R$ 1.000</div>
       </div>
       <div class="camp-premio-box">
-        <div class="camp-premio-label">Faturamento</div>
+        <div class="camp-premio-label">Volume</div>
         <div class="camp-premio-val">🥇 R$ 2.000</div>
         <div class="camp-premio-val camp-premio-2">🥈 R$ 1.000</div>
       </div>
@@ -291,10 +291,10 @@
     </div>
     <div class="rank-card">
       <div class="rank-header">
-        <span class="rank-title">Faturamento</span>
+        <span class="rank-title">Volume</span>
         <span class="rank-prize-label">🥇 R$ 2.000 &nbsp;|&nbsp; 🥈 R$ 1.000</span>
       </div>
-      <div class="rank-list" id="rank-fat"></div>
+      <div class="rank-list" id="rank-vol"></div>
     </div>
   </div>
 
@@ -311,8 +311,8 @@
     document.getElementById('atualizado').textContent = D.atualizado_em;
 
     // ── KPIs ──────────────────────────────────────────────────
-    function fmtFat(v) {
-      return 'R$ ' + v.toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+    function fmtVol(v) {
+      return v.toLocaleString('pt-BR') + ' un';
     }
     function fmtPos(v) {
       return v.toLocaleString('pt-BR');
@@ -321,7 +321,7 @@
     document.getElementById('kpis').innerHTML = [
       { label: 'Vendedores',           val: fmtPos(D.total_vendedores),  sub: 'participando' },
       { label: 'Positivacao Total',    val: fmtPos(D.total_positivacao), sub: 'clientes unicos' },
-      { label: 'Faturamento Total',    val: fmtFat(D.total_faturamento), sub: 'em Amarula' },
+      { label: 'Volume Total',         val: fmtVol(D.total_volume),      sub: 'unidades Amarula' },
     ].map(k => `
       <div class="kpi">
         <div class="kpi-label">${k.label}</div>
@@ -338,8 +338,8 @@
       }
       el.innerHTML = rows.map((r, i) => {
         const pos = i < 3 ? MEDALS[i] : (i + 1);
-        const val = tipo === 'fat'
-          ? fmtFat(r.valor)
+        const val = tipo === 'vol'
+          ? fmtVol(r.valor)
           : fmtPos(r.valor) + ' clientes';
         const prizeTag = i === 0
           ? '<span class="rank-prize-tag">R$ 2.000</span>'
@@ -360,7 +360,7 @@
     }
 
     buildRanking('rank-pos', D.ranking_positivacao, 'pos');
-    buildRanking('rank-fat', D.ranking_faturamento, 'fat');
+    buildRanking('rank-vol', D.ranking_volume, 'vol');
 
     // ── Countdown auto-refresh (5 min) ────────────────────────
     let secs = 300;
