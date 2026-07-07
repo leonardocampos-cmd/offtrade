@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "06/07/2026 17:52",
+  "atualizado_em": "07/07/2026 09:16",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3469,56 +3469,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38896",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "35398",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
@@ -3559,6 +3509,56 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 282.72
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          }
+        ]
+      },
+      {
+        "codcli": "38896",
+        "cliente": "LCA COMERCIO LTDA",
+        "bairro": "PAMPULHA",
+        "dtultcomp": "12/06/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL AMORA EDITION SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -4117,26 +4117,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -4153,6 +4133,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -4389,56 +4389,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 3,
             "valor": 70.68
-          }
-        ]
-      },
-      {
-        "codcli": "32774",
-        "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
-        "bairro": "LOURDES",
-        "dtultcomp": "22/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 95.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUGAR FREE",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 95.88
-          },
-          {
-            "produto": "LICOR COINTREAU 700 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 331.8
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 383.52
-          },
-          {
-            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 49.9
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 49.9
           }
         ]
       },
@@ -5385,20 +5335,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 24,
             "valor": 3357.6
-          }
-        ]
-      },
-      {
-        "codcli": "30374",
-        "cliente": "EL MAI LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD BRANCO 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 538.8
           }
         ]
       },
@@ -7873,56 +7809,6 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "TIAGO ANDRADE": [
-      {
-        "codcli": "34961",
-        "cliente": "RBL EMPREENDIMENTOS  STUDIO BIKE VILA DA SERRA  BH LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "05/03/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL  MAÇA SF",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 73.92
-          },
-          {
-            "produto": "4 PACK RED BULL AMORA SUGAR FREE 250ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 74.52
-          },
-          {
-            "produto": "4 PACK RED BULL POMELO SF",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 73.92
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 74.52
-          },
-          {
-            "produto": "4 PACK RED BULL WINTER JUNEBERRY/CEREJA",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 74.52
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 74.52
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 149.04
-          }
-        ]
-      },
       {
         "codcli": "36851",
         "cliente": "ASSOCIACAO ATLETICA ESPORTIVA DOS ESTUDANTES DA ESCOLA DE EN",
