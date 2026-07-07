@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "06/07/2026 17:52",
+  "atualizado_em": "07/07/2026 09:15",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 28394.92,
-        "pos": 23,
+        "fat": 34746.68,
+        "pos": 25,
         "fat_ant": 343937.59
       }
     },
@@ -231,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 6419.46,
-        "pos": 10,
+        "fat": 6711.88,
+        "pos": 11,
         "fat_ant": 85308.22
       }
     },
@@ -44037,12 +44037,57 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "06/07/2026",
+          "codcli": "31113",
+          "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 89.7
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "31113",
+          "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
+          "produto": "XAROPE 1883 DE CHICLETE 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 167.7
+        },
+        {
+          "data": "06/07/2026",
           "codcli": "30091",
           "cliente": "COMERCIAL COLOMBO EIRELI",
           "produto": "TACA COLIBRI 580ML C/6",
           "fantasia": "",
           "qt": 3,
           "valor": 376.2
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "33024",
+          "cliente": "CASA OUTONO 571 MUSICA E CULTURA LTDA",
+          "produto": "XAROPE  MONIN CARAMELO SALGADO 700 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "33024",
+          "cliente": "CASA OUTONO 571 MUSICA E CULTURA LTDA",
+          "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "33024",
+          "cliente": "CASA OUTONO 571 MUSICA E CULTURA LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
         },
         {
           "data": "06/07/2026",
@@ -44091,6 +44136,33 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "06/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 375ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 269.4
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 439.2
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 274.5
+        },
+        {
+          "data": "06/07/2026",
           "codcli": "31113",
           "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
           "produto": "RED BULL 250ML CAIXA C/24 UNID",
@@ -44106,6 +44178,51 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 58.9
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ADELE BRANCO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 615.2
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "HUMB. CANALE DENARIO RESERVA PINOT NOIR",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 474.5
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ORO PREMIUM MALBEC 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 499.5
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO MARQUÉS DE TEJARES 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 289.5
         },
         {
           "data": "06/07/2026",
@@ -44142,6 +44259,60 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 159.8
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1186.8
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 136.56
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 389.7
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 281.4
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 142.5
         },
         {
           "data": "06/07/2026",
@@ -81862,6 +82033,42 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 5,
           "valor": 274.5
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "34961",
+          "cliente": "RBL EMPREENDIMENTOS  STUDIO BIKE VILA DA SERRA  BH LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 87.72
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "34961",
+          "cliente": "RBL EMPREENDIMENTOS  STUDIO BIKE VILA DA SERRA  BH LTDA",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 87.72
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "34961",
+          "cliente": "RBL EMPREENDIMENTOS  STUDIO BIKE VILA DA SERRA  BH LTDA",
+          "produto": "4 PACK  RED BULL  MAÇA SF",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 87.72
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "34961",
+          "cliente": "RBL EMPREENDIMENTOS  STUDIO BIKE VILA DA SERRA  BH LTDA",
+          "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 29.26
         },
         {
           "data": "06/07/2026",
