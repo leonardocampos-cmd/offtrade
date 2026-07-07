@@ -6,7 +6,7 @@ from pathlib import Path
 from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, carregar_dados, arquivo as _arquivo_meta
 
 DT_INI = "2026-05-25"
-DT_FIM = "2026-06-30"
+DT_FIM = "2026-06-25"
 PREMIO_1 = 2000
 PREMIO_2 = 1000
 
@@ -81,13 +81,6 @@ df_crc['_CLI'] = "CRC_" + df_crc['CODCLI'].astype(str)
 
 _parts_am = [df_crc]
 
-try:
-    df_spon = carregar_dados(_query("SPON", filtro_filial=None, filtro_estent="RJ"), engine_spon, "amarula_SPON")
-    df_spon['_CLI'] = "SPON_" + df_spon['CODCLI'].astype(str)
-    _parts_am.append(df_spon)
-except Exception as _ex:
-    print(f"[AVISO] amarula_SPON falhou ({str(_ex)[:80]}) — ignorado")
-
 EXCLUIR_VENDEDORES = {"RC", "VENDEDOR 09", "BEES", "VENDEDOR 02", "KELLY RAMOS - OFF TRADE", "RQ", "LOJA", "BEBIDA IN BOX"}
 
 df = pd.concat(_parts_am, ignore_index=True)
@@ -129,7 +122,7 @@ else:
 
 payload = {
     'atualizado_em':      datetime.now().strftime('%d/%m/%Y %H:%M'),
-    'periodo':            {'ini': '25/05/2026', 'fim': '30/06/2026'},
+    'periodo':            {'ini': '25/05/2026', 'fim': '25/06/2026'},
     'premio_1':           PREMIO_1,
     'premio_2':           PREMIO_2,
     'total_vendedores':   total_vendedores,
