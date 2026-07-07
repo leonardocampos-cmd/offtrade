@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "07/07/2026 11:09",
+  "atualizado_em": "07/07/2026 12:10",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -204,8 +204,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 76010.88,
-        "pos": 4,
+        "fat": 113212.08,
+        "pos": 5,
         "fat_ant": 1049712.9
       }
     },
@@ -258,8 +258,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 53560.12
       },
       "Jul/26": {
-        "fat": 2460.08,
-        "pos": 5,
+        "fat": 3702.08,
+        "pos": 6,
         "fat_ant": 51108.92
       }
     }
@@ -72274,6 +72274,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "MSLR",
           "qt": 60,
           "valor": 3894.0
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "34048",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "",
+          "qt": 348,
+          "valor": 37201.2
         }
       ]
     },
@@ -85465,6 +85474,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 69.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML DEST",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 299.7
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 446.7
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 495.6
         }
       ]
     }
