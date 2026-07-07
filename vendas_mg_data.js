@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "07/07/2026 16:05",
+  "atualizado_em": "07/07/2026 16:52",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 36715.64,
-        "pos": 28,
+        "fat": 39988.58,
+        "pos": 33,
         "fat_ant": 343937.59
       }
     },
@@ -231,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 12167.06,
-        "pos": 13,
+        "fat": 13125.86,
+        "pos": 14,
         "fat_ant": 85308.22
       }
     },
@@ -44379,12 +44379,183 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "07/07/2026",
+          "codcli": "36006",
+          "cliente": "CAMP NOU ARENA LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "36006",
+          "cliente": "CAMP NOU ARENA LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "07/07/2026",
           "codcli": "32902",
           "cliente": "LANCHERIA CANTINA AZUL LTDA",
           "produto": "VINHO GRAVEDAD CAB. SAUV.",
           "fantasia": "",
           "qt": 24,
           "valor": 957.6
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 149.7
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "XAROPE 1883 DE TANGERINA 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 167.7
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 259.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 53.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 53.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "ST PIERRE PALOMA 270MLX6",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 53.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "CERVEJA AMSTEL RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 3,
+          "valor": 438.48
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 307.6
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39425",
+          "cliente": "57.332.019 SANDRA ROSARIA CARDOSO",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 70.68
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39425",
+          "cliente": "57.332.019 SANDRA ROSARIA CARDOSO",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 70.68
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39425",
+          "cliente": "57.332.019 SANDRA ROSARIA CARDOSO",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 141.36
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39425",
+          "cliente": "57.332.019 SANDRA ROSARIA CARDOSO",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 141.36
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39425",
+          "cliente": "57.332.019 SANDRA ROSARIA CARDOSO",
+          "produto": "RED BULL AMORA EDITION SF 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 141.36
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39579",
+          "cliente": "66.619.912 JULIA BATISTA DA SILVA SANTOS",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39579",
+          "cliente": "66.619.912 JULIA BATISTA DA SILVA SANTOS",
+          "produto": "XAROPE MONIN LICHIA (LYCHEE) 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "33631",
+          "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VODKA ORLOFF 1,75L",
+          "fantasia": "",
+          "qt": 7,
+          "valor": 300.3
         }
       ]
     },
@@ -82132,6 +82303,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 175.44
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "31944",
+          "cliente": "THE BEAT TRAINING ACADEMIA DE GINASTICA LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 958.8
         },
         {
           "data": "07/07/2026",
