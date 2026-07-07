@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/07/2026 17:02",
+  "atualizado_em": "07/07/2026 18:12",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -107500,66 +107500,6 @@ const VENDAS_DATA = {
           "tipo": "Bonificado"
         },
         {
-          "data": "07/07/2026",
-          "codcli": "95355",
-          "cliente": "CASA DE CARNES IMPERIO DO LOTE XV, ACOUGUE E MERCEARIA LTDA",
-          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-          "fantasia": "KAISER",
-          "qt": 2,
-          "valor": 125.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "95355",
-          "cliente": "CASA DE CARNES IMPERIO DO LOTE XV, ACOUGUE E MERCEARIA LTDA",
-          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-          "fantasia": "KAISER",
-          "qt": 1,
-          "valor": 127.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "95355",
-          "cliente": "CASA DE CARNES IMPERIO DO LOTE XV, ACOUGUE E MERCEARIA LTDA",
-          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
-          "fantasia": "PERNOD",
-          "qt": 2,
-          "valor": 105.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "95355",
-          "cliente": "CASA DE CARNES IMPERIO DO LOTE XV, ACOUGUE E MERCEARIA LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 224.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "95355",
-          "cliente": "CASA DE CARNES IMPERIO DO LOTE XV, ACOUGUE E MERCEARIA LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 224.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "95355",
-          "cliente": "CASA DE CARNES IMPERIO DO LOTE XV, ACOUGUE E MERCEARIA LTDA",
-          "produto": "ST PIERRE ZERO LAT PINK LEMONADE 6X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 22.9,
-          "tipo": "Venda"
-        },
-        {
           "data": "02/07/2026",
           "codcli": "95542",
           "cliente": "KM 32 ALIMENTOS LTDA",
@@ -116850,6 +116790,56 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 0.0,
           "tipo": "Bonificado"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "2313",
+          "cliente": "MERCEARIA NOVA CINTRA - EIRELI - EPP",
+          "produto": "BAER MATE LN  6X350ML",
+          "fantasia": "KAISER",
+          "qt": 2,
+          "valor": 71.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "2313",
+          "cliente": "MERCEARIA NOVA CINTRA - EIRELI - EPP",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "2313",
+          "cliente": "MERCEARIA NOVA CINTRA - EIRELI - EPP",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 94.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "2313",
+          "cliente": "MERCEARIA NOVA CINTRA - EIRELI - EPP",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 83.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "2313",
+          "cliente": "MERCEARIA NOVA CINTRA - EIRELI - EPP",
+          "produto": "SUCO UVA 100% DO BEM 24X200ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 88.56,
+          "tipo": "Venda"
         },
         {
           "data": "06/07/2026",
@@ -180246,6 +180236,46 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "07/07/2026",
+          "codcli": "69759",
+          "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "CACHACA JOIA DA SERRA OURO 1L",
+          "fantasia": "HOB",
+          "qt": 12,
+          "valor": 262.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "69759",
+          "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+          "fantasia": "HOB",
+          "qt": 12,
+          "valor": 262.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "69759",
+          "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "CACHACA TATUZINHO PET 750 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 60,
+          "valor": 239.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "69759",
+          "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "produto": "XAROPE MONIN CARAMELO SALGADO 700 ML",
+          "fantasia": "1883",
+          "qt": 1,
+          "valor": 49.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "02/07/2026",
           "codcli": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
@@ -180423,6 +180453,96 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 18,
           "valor": 538.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "94202",
+          "cliente": "EVIVA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 119.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "94202",
+          "cliente": "EVIVA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "NECTAR CAJU 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 119.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "94202",
+          "cliente": "EVIVA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "94202",
+          "cliente": "EVIVA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 249.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "94202",
+          "cliente": "EVIVA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 119.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "94202",
+          "cliente": "EVIVA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "NECTAR MACA TIAL 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 1,
+          "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "94202",
+          "cliente": "EVIVA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 119.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "94202",
+          "cliente": "EVIVA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "NECTAR MARACUJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 2,
+          "valor": 119.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "94202",
+          "cliente": "EVIVA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 249.5,
           "tipo": "Venda"
         },
         {
@@ -226318,6 +226438,86 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "07/07/2026",
+          "codcli": "92342",
+          "cliente": "AUTO POSTO 3F LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "92342",
+          "cliente": "AUTO POSTO 3F LTDA",
+          "produto": "RED BULL SUGAR FREE 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 196.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "92342",
+          "cliente": "AUTO POSTO 3F LTDA",
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "fantasia": "VITON",
+          "qt": 2,
+          "valor": 74.02,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "92342",
+          "cliente": "AUTO POSTO 3F LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 1,
+          "valor": 31.99,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "92342",
+          "cliente": "AUTO POSTO 3F LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 1,
+          "valor": 69.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "92342",
+          "cliente": "AUTO POSTO 3F LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "KAISER",
+          "qt": 1,
+          "valor": 149.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "92342",
+          "cliente": "AUTO POSTO 3F LTDA",
+          "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "fantasia": "KAISER",
+          "qt": 1,
+          "valor": 128.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "92342",
+          "cliente": "AUTO POSTO 3F LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
+          "fantasia": "KAISER",
+          "qt": 1,
+          "valor": 49.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "03/07/2026",
           "codcli": "91422",
           "cliente": "EMMENSA VAREJISTA DE SUPRIMENTOS E ALIMENTOS LTDA.",
@@ -248498,6 +248698,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "07/07/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+          "fantasia": "HEINEKEN",
+          "qt": 10,
+          "valor": 526.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
+          "fantasia": "HEINEKEN",
+          "qt": 20,
+          "valor": 2822.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "02/07/2026",
           "codcli": "75420",
           "cliente": "LIGIA MERCADO OSB LTDA",
@@ -248889,6 +249109,36 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 120,
           "valor": 1831.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 1,
+          "valor": 135.82,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 1,
+          "valor": 154.71,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 1,
+          "valor": 154.71,
           "tipo": "Venda"
         },
         {
@@ -357796,22 +358046,22 @@ const VENDAS_DATA = {
           "tipo": "Bonificado"
         },
         {
-          "data": "17/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO PEYRASSOL LA CROIX ROSE 750ML",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
           "data": "09/04/2026",
           "codcli": "92040",
           "cliente": "BRYAN OLIVEIRA PALOPOLI",
           "produto": "VINHO PEYRASSOL LA CROIX ROSE 750ML",
           "fantasia": "",
           "qt": 2,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "92040",
+          "cliente": "BRYAN OLIVEIRA PALOPOLI",
+          "produto": "VINHO PEYRASSOL LA CROIX ROSE 750ML",
+          "fantasia": "",
+          "qt": 1,
           "valor": 0.0,
           "tipo": "Bonificado"
         },
