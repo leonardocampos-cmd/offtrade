@@ -38,10 +38,18 @@ def main():
             traceback.print_exc()
 
         step("1/8 - Carregando metas e vendas (Oracle + Excel)")
-        import meta
+        try:
+            import meta
+        except Exception:
+            print("[AVISO] meta falhou — metas_data.js não será atualizado, pipeline continua.")
+            traceback.print_exc()
 
         step("2/8 - Exportando dashboard HTML (metas_data.js)")
-        import exportacao_meta
+        try:
+            import exportacao_meta
+        except Exception:
+            print("[AVISO] exportacao_meta falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
 
         step("3/8 - Metas Gerais por estado/indústria (metas_gerais_data.js)")
         try:
@@ -74,10 +82,18 @@ def main():
             traceback.print_exc()
 
         step("4/8 - Conferência de preços")
-        import conferencia_preco
+        try:
+            import conferencia_preco
+        except Exception:
+            print("[AVISO] conferencia_preco falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
 
         step("5/8 - Gerando página de entregas (entregas_data.js)")
-        import entregas
+        try:
+            import entregas
+        except Exception:
+            print("[AVISO] entregas falhou — entregas_data.js não será atualizado, pipeline continua.")
+            traceback.print_exc()
 
         step("6/8 - Exportando dashboard SP (vendas_sp_data.js)")
         try:
@@ -261,7 +277,11 @@ def main():
                 traceback.print_exc()
 
             step("10/10 - Enviando alerta WhatsApp")
-            import envio_whatsapp
+            try:
+                import envio_whatsapp
+            except Exception:
+                print("[AVISO] envio_whatsapp falhou — ignorado, pipeline continua.")
+                traceback.print_exc()
         else:
             step("10/10 - Alertas (pulado — SEND_ALERTS=0 neste ambiente)")
 
