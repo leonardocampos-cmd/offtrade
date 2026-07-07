@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "07/07/2026 11:03",
+  "atualizado_em": "07/07/2026 12:04",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 7,
   "dias_no_mes": 31,
   "dias_restantes": 24,
   "resumo": {
-    "fat": 1603723.53,
+    "fat": 1626667.74,
     "fat_ant": 1606749.72,
-    "fat_ant_completo": 13166950.03,
-    "pos": 426,
+    "fat_ant_completo": 13164558.9,
+    "pos": 429,
     "pos_ant": 454,
     "pos_ant_completo": 1803
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 1603723.53,
+    "fat": 1626667.74,
     "fat_ant": 1606749.72,
-    "fat_ant_completo": 13166950.03,
-    "pct": 11.1,
-    "nec_dia": 533178.19
+    "fat_ant_completo": 13164558.9,
+    "pct": 11.3,
+    "nec_dia": 532222.18
   },
   "estados": [
     {
@@ -39,11 +39,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 6600000.0,
-      "fat": 1007256.56,
+      "fat": 1004644.16,
       "fat_ant": 836093.89,
       "pos": 185,
-      "pct": 15.3,
-      "nec_dia": 233030.98,
+      "pct": 15.2,
+      "nec_dia": 233139.83,
       "fat_ant_completo": 7702176.74,
       "pos_ant": 159,
       "pos_ant_completo": 641
@@ -52,12 +52,12 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 67597.73,
+      "fat": 93154.34,
       "fat_ant": 117956.48,
-      "pos": 10,
-      "pct": 3.8,
-      "nec_dia": 72183.43,
-      "fat_ant_completo": 987061.43,
+      "pos": 13,
+      "pct": 5.2,
+      "nec_dia": 71118.57,
+      "fat_ant_completo": 984670.3,
       "pos_ant": 11,
       "pos_ant_completo": 134
     },
@@ -78,22 +78,22 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 677096.09,
+      "fat": 675682.49,
       "fat_ant": 525887.21,
       "por_estado": {
         "RJ": 119917.73,
-        "SP": 554314.8,
+        "SP": 552901.2,
         "ES": 2863.56,
         "MG": 0.0
       }
     },
     {
       "fantasia": "BROWN",
-      "fat": 182612.7,
+      "fat": 181413.9,
       "fat_ant": 188476.92,
       "por_estado": {
         "RJ": 2731.84,
-        "SP": 179880.86,
+        "SP": 178682.06,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -165,13 +165,24 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "TATUZINHO",
+      "fat": 42217.12,
+      "fat_ant": 21246.8,
+      "por_estado": {
+        "RJ": 14573.92,
+        "SP": 2786.4,
+        "ES": 24856.8,
+        "MG": 0.0
+      }
+    },
+    {
       "fantasia": "RED BULL",
-      "fat": 38932.16,
+      "fat": 39122.28,
       "fat_ant": 177462.99,
       "por_estado": {
         "RJ": 38117.36,
         "SP": 0.0,
-        "ES": 814.8,
+        "ES": 1004.92,
         "MG": 0.0
       }
     },
@@ -231,17 +242,6 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "TATUZINHO",
-      "fat": 19191.52,
-      "fat_ant": 21246.8,
-      "por_estado": {
-        "RJ": 14573.92,
-        "SP": 2786.4,
-        "ES": 1831.2,
-        "MG": 0.0
-      }
-    },
-    {
       "fantasia": "KAISER",
       "fat": 18088.95,
       "fat_ant": 6508.18,
@@ -287,12 +287,23 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "PINATI",
-      "fat": 7745.02,
+      "fat": 8522.45,
       "fat_ant": 1123.81,
       "por_estado": {
         "RJ": 659.64,
         "SP": 0.0,
-        "ES": 7085.38,
+        "ES": 7862.81,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "DADINHO",
+      "fat": 7862.86,
+      "fat_ant": 541.14,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 0.0,
+        "ES": 7862.86,
         "MG": 0.0
       }
     },
@@ -326,17 +337,6 @@ const METAS_GERAIS_DATA = {
         "RJ": 6147.2,
         "SP": 836.4,
         "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "DADINHO",
-      "fat": 6299.4,
-      "fat_ant": 541.14,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 0.0,
-        "ES": 6299.4,
         "MG": 0.0
       }
     },
