@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "07/07/2026 18:16",
+  "atualizado_em": "07/07/2026 18:18",
   "data_rota": "07.07",
   "vendedores": [
     {
@@ -1449,26 +1449,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "471000403",
-          "numnota": "",
-          "data": "07/07/2026",
-          "cliente": "ERS DEPOSITO DE BEBIDAS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1078.8,
-          "itens": [
-            {
-              "desc": "AMARULA CREAM 12X750ML +6 COPOS DUBAI",
-              "qt": 1,
-              "val": 1078.8
-            }
-          ]
-        },
-        {
           "numped": "471000406",
           "numnota": "",
           "data": "07/07/2026",
@@ -2279,7 +2259,33 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "153001260",
+          "numnota": "",
+          "data": "07/07/2026",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 08/07 com pagamento de descarga no valor de R$60,00 por pal",
+          "total": 710.4,
+          "itens": [
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 24,
+              "val": 280.8
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+              "qt": 24,
+              "val": 429.6
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "153001248",
@@ -4213,43 +4219,7 @@ const ENTREGAS_DATA = {
     {
       "nome": "DANIELLE MOURA - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [
-        {
-          "numped": "238000763",
-          "numnota": "",
-          "data": "07/07/2026",
-          "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 3355.8,
-          "itens": [
-            {
-              "desc": "WHISKY JIM BEAM APPLE 1L",
-              "qt": 8,
-              "val": 639.2
-            },
-            {
-              "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
-              "qt": 11,
-              "val": 878.9
-            },
-            {
-              "desc": "WHISKY JIM BEAM HONEY 1L",
-              "qt": 8,
-              "val": 639.2
-            },
-            {
-              "desc": "WHISKY JIM BEAM WHITE 1L",
-              "qt": 15,
-              "val": 1198.5
-            }
-          ]
-        }
-      ],
+      "nao_emitido": [],
       "emitido_s_rota": [],
       "canceladas": [
         {
@@ -4636,46 +4606,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "144001635",
-          "numnota": "",
-          "data": "07/07/2026",
-          "cliente": "MERCADO DONA ANA EIRELI",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 481.44,
-          "itens": [
-            {
-              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-              "qt": 3,
-              "val": 107.28
-            },
-            {
-              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
-              "qt": 1,
-              "val": 35.76
-            },
-            {
-              "desc": "NECTAR CAJU 12X1000ML",
-              "qt": 2,
-              "val": 112.8
-            },
-            {
-              "desc": "NECTAR LARANJA 12X1000ML",
-              "qt": 3,
-              "val": 169.2
-            },
-            {
-              "desc": "NECTAR MARACUJA 12X1000ML",
-              "qt": 1,
-              "val": 56.4
-            }
-          ]
-        },
-        {
           "numped": "144001639",
           "numnota": "",
           "data": "07/07/2026",
@@ -4694,79 +4624,49 @@ const ENTREGAS_DATA = {
               "val": 56.4
             }
           ]
-        },
-        {
-          "numped": "144001637",
-          "numnota": "",
-          "data": "07/07/2026",
-          "cliente": "MAYRON S BAR LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 3562.0,
-          "itens": [
-            {
-              "desc": "GIN TANQUERAY BOSSA NOVA 700 ML",
-              "qt": 3,
-              "val": 312.9
-            },
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 15,
-              "val": 493.5
-            },
-            {
-              "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-              "qt": 2,
-              "val": 479.8
-            },
-            {
-              "desc": "GIN TANQUERAY  750 ML",
-              "qt": 3,
-              "val": 287.7
-            },
-            {
-              "desc": "WHISKY J WALKER RED LABEL 1L",
-              "qt": 9,
-              "val": 728.1
-            },
-            {
-              "desc": "WHISKY J WALKER BLACK LABEL 1L",
-              "qt": 7,
-              "val": 1260.0
-            }
-          ]
-        },
-        {
-          "numped": "144001634",
-          "numnota": "",
-          "data": "07/07/2026",
-          "cliente": "ERIVALDO DE SOUZA SANTOS",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1909.0,
-          "itens": [
-            {
-              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "qt": 10,
-              "val": 639.0
-            },
-            {
-              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-              "qt": 10,
-              "val": 1270.0
-            }
-          ]
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "144001635",
+          "numnota": "410192",
+          "data": "07/07/2026",
+          "cliente": "MERCADO DONA ANA EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 481.44,
+          "itens": [
+            {
+              "desc": "NECTAR CAJU 12X1000ML",
+              "qt": 2,
+              "val": 112.8
+            },
+            {
+              "desc": "NECTAR LARANJA 12X1000ML",
+              "qt": 3,
+              "val": 169.2
+            },
+            {
+              "desc": "NECTAR MARACUJA 12X1000ML",
+              "qt": 1,
+              "val": 56.4
+            },
+            {
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 3,
+              "val": 107.28
+            },
+            {
+              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "qt": 1,
+              "val": 35.76
+            }
+          ]
+        },
         {
           "numped": "144001377",
           "numnota": "389350",
@@ -6485,41 +6385,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "159004998",
-          "numnota": "",
-          "data": "07/07/2026",
-          "cliente": "EMPORIUM SAN PIETRO COMERCIO DE ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 898.8,
-          "itens": [
-            {
-              "desc": "VINHO LATITUD 33 SAUVIGNON BLANC 750 ML",
-              "qt": 6,
-              "val": 210.0
-            },
-            {
-              "desc": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-              "qt": 6,
-              "val": 210.0
-            },
-            {
-              "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
-              "qt": 6,
-              "val": 239.4
-            },
-            {
-              "desc": "VINHO ARESTI ESTATE S. SAUV BLANC 750ML",
-              "qt": 6,
-              "val": 239.4
-            }
-          ]
-        },
-        {
           "numped": "159004999",
           "numnota": "",
           "data": "07/07/2026",
@@ -6571,41 +6436,6 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL 24X250ML",
               "qt": 1,
               "val": 172.56
-            }
-          ]
-        },
-        {
-          "numped": "159004995",
-          "numnota": "",
-          "data": "07/07/2026",
-          "cliente": "TCA COMERCIO CABO FRIO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1886.68,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 3,
-              "val": 517.68
-            },
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 8,
-              "val": 223.2
-            },
-            {
-              "desc": "VODKA CIROC 750 ML",
-              "qt": 2,
-              "val": 299.8
-            },
-            {
-              "desc": "WHISKY J WALKER RED LABEL 1L",
-              "qt": 12,
-              "val": 846.0
             }
           ]
         },
@@ -11766,41 +11596,6 @@ const ENTREGAS_DATA = {
               "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
               "qt": 1,
               "val": 175.2
-            }
-          ]
-        },
-        {
-          "numped": "156003683",
-          "numnota": "",
-          "data": "07/07/2026",
-          "cliente": "P W V CONVENIENCIAS LTDA ME",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 465.34,
-          "itens": [
-            {
-              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 6,
-              "val": 83.94
-            },
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 6,
-              "val": 192.0
             }
           ]
         },
