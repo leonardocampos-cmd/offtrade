@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/07/2026 12:11",
-  "total": 4216,
+  "atualizado_em": "07/07/2026 13:09",
+  "total": 4224,
   "clientes": [
     {
       "codcli": "31683",
@@ -3936,6 +3936,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "82734",
+      "razao": "A MERCE DE MANUH E JOCA MERCEARIA LTDA",
+      "fantasia": "A MERCE DE MANUH E JOCA MERCEARIA",
+      "bairro": "MARACANA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "31.197.793/0001-04",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "3467",
@@ -14984,6 +14998,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "83482",
+      "razao": "CONFEITARIA PANIFICACAO E COPA VERDUN LTDA",
+      "fantasia": "CONFEITARIA PANIFICACAO E COPA VERDUN LT",
+      "bairro": "GRAJAU",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "33.260.449/0001-48",
+      "estado": "RJ",
+      "ramo": "PADARIA",
+      "codusur1": "460",
+      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "21049",
       "razao": "CONFEITARIA PAO DO PARQUE LTDA EPP",
       "fantasia": "CONFEITARIA MONTE LIBANO",
@@ -16382,6 +16410,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "9247",
+      "razao": "DELI BARRA DELICATESSEN LTDA",
+      "fantasia": "DELI BARRA",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "31.852.370/0001-80",
+      "estado": "RJ",
+      "ramo": "DELICATESSEN",
+      "codusur1": "460",
+      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "2218",
@@ -34052,6 +34094,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "JORGE MACIEL - OFF TRADE"
     },
     {
+      "codcli": "51569",
+      "razao": "MERCADINHO VIANA & VIANA LTDA",
+      "fantasia": "MERCADINHO VIANA & VIANA",
+      "bairro": "PARQUE SANTO ANTONIO",
+      "cidade": "JACAREI",
+      "cnpj": "13.349.437/0001-87",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51150",
       "razao": "MERCADINHO WJE LTDA",
       "fantasia": "MERCADINHO VITAL LTDA",
@@ -39274,6 +39330,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "70110",
+      "razao": "MOINHO e CO ALIMENTOS LTDA.",
+      "fantasia": "MOINHO e CO",
+      "bairro": "BOTAFOGO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "39.678.462/0001-06",
+      "estado": "RJ",
+      "ramo": "PADARIA",
+      "codusur1": "460",
+      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91337",
       "razao": "MONTES DOCES MARECHAL HERMES LTDA",
       "fantasia": "LOBDOCES LTDA",
@@ -42884,6 +42954,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "2438",
+      "razao": "PANIFICACAO APOLO LTDA",
+      "fantasia": "PANIFICACAO APOLO",
+      "bairro": "TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "33.264.227/0002-84",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "91365",
@@ -56718,6 +56802,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "68858",
+      "razao": "UNDERGROUND MARKET COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "UNDERGROUND MARKET",
+      "bairro": "LEBLON",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "34.675.508/0001-01",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "460",
+      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "81453",
       "razao": "UNI POSTO LTDA",
       "fantasia": "UNIPOSTO",
@@ -57836,6 +57934,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "14107",
+      "razao": "VINOART COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+      "fantasia": "VINOART",
+      "bairro": "CATETE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "22.734.601/0001-60",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "460",
+      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
+      "codusur2": "319",
+      "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
       "codcli": "90728",
