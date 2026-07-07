@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "07/07/2026 16:52",
+  "atualizado_em": "07/07/2026 17:07",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -4945,20 +4945,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN BRASIL",
             "qt": 4,
             "valor": 575.04
-          }
-        ]
-      },
-      {
-        "codcli": "30002",
-        "cliente": "SOCIEDADE COMERCIAL PIRES LTDA",
-        "bairro": "FUNCIONÁRIOS",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 3,
-            "valor": 647.28
           }
         ]
       },
