@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "07/07/2026 09:16",
+  "atualizado_em": "07/07/2026 11:09",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -333,6 +333,56 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "33076",
+        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
+        "bairro": "FERNÃO DIAS",
+        "dtultcomp": "12/05/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON BRUT ROSE 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 1026.0
+          },
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+            "fantasia": "BALLENA",
+            "qt": 18,
+            "valor": 1978.2
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 30,
+            "valor": 3297.0
+          },
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 12,
+            "valor": 718.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "",
+            "qt": 11,
+            "valor": 1318.9
+          },
+          {
+            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
+          }
+        ]
+      },
+      {
         "codcli": "33077",
         "cliente": "CEVAROLI SUPERMERCADOS LTDA",
         "bairro": "VILA CLORIS",
@@ -391,56 +441,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 6,
             "valor": 329.4
-          }
-        ]
-      },
-      {
-        "codcli": "33076",
-        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
-        "bairro": "FERNÃO DIAS",
-        "dtultcomp": "12/05/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON BRUT ROSE 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1026.0
-          },
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
-            "fantasia": "BALLENA",
-            "qt": 18,
-            "valor": 1978.2
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 30,
-            "valor": 3297.0
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 12,
-            "valor": 718.8
-          },
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "",
-            "qt": 11,
-            "valor": 1318.9
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
           }
         ]
       },
@@ -601,9 +601,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35727",
+        "codcli": "35726",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "ITAIPU (BARREIRO)",
+        "bairro": "MILIONÁRIOS (BARREIRO)",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -647,9 +647,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35725",
+        "codcli": "35727",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MINEIRÃO",
+        "bairro": "ITAIPU (BARREIRO)",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -667,9 +667,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35726",
+        "codcli": "35725",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MILIONÁRIOS (BARREIRO)",
+        "bairro": "MINEIRÃO",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -1003,32 +1003,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 4,
             "valor": 479.6
-          }
-        ]
-      },
-      {
-        "codcli": "30615",
-        "cliente": "BURITIS CONVENIENCIA LTDA",
-        "bairro": "ESTORIL",
-        "dtultcomp": "11/06/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO LUCIA 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 431.4
-          },
-          {
-            "produto": "VINHO ADELE BRANCO 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VINHO ADELE ROSE 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 461.4
           }
         ]
       },
@@ -9102,6 +9076,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 6,
             "valor": 269.4
+          }
+        ]
+      },
+      {
+        "codcli": "30615",
+        "cliente": "BURITIS CONVENIENCIA LTDA",
+        "bairro": "ESTORIL",
+        "dtultcomp": "11/06/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO LUCIA 750ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 431.4
+          },
+          {
+            "produto": "VINHO ADELE BRANCO 750ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VINHO ADELE ROSE 750ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 461.4
           }
         ]
       },
