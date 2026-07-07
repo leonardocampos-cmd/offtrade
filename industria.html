@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vendas por Indústria — Rigarr</title>
+  <script src="industria_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --text: #e2e8f0; --muted: #94a3b8;
+      --border: #2d3144; --red: #ef4444; --green: #4ade80;
+      --yellow: #eab308; --blue: #60a5fa; --orange: #fb923c;
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; padding: 16px; max-width: 1280px; margin: 0 auto; }
+
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap; }
+    .h-title { font-size: 1.25rem; font-weight: 800; color: var(--accent); letter-spacing: -.02em; }
+    .h-sub   { font-size: .75rem; color: var(--muted); margin-top: 3px; }
+    .back-link { font-size: .78rem; color: var(--muted); text-decoration: none; padding: 6px 12px; border: 1px solid var(--border); border-radius: 8px; transition: border-color .15s, color .15s; }
+    .back-link:hover { border-color: var(--accent); color: var(--accent); }
+
+    .fontes-alert { background: rgba(239,68,68,.1); border: 1px solid rgba(239,68,68,.3); color: var(--red); border-radius: 10px; padding: 10px 16px; font-size: .8rem; margin-bottom: 16px; display: none; }
+
+    /* Seletor de fornecedor */
+    .forn-picker { margin-bottom: 18px; }
+    .forn-picker label { display: block; font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 6px; }
+    select#forn-select {
+      background: var(--card); border: 1px solid var(--border); color: var(--text);
+      padding: 10px 14px; border-radius: 10px; font-size: .9rem; font-family: inherit;
+      outline: none; min-width: 280px; max-width: 100%; transition: border-color .15s;
+    }
+    select#forn-select:focus { border-color: var(--accent); }
+
+    /* Cartões resumo */
+    .resumo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; margin-bottom: 18px; }
+    .resumo-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+    .resumo-label { font-size: .62rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 6px; }
+    .resumo-val { font-size: 1.4rem; font-weight: 800; }
+
+    /* Filtros */
+    .filters-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+    .pill { padding: 6px 15px; border-radius: 20px; font-size: .78rem; cursor: pointer; border: 1px solid var(--border); background: var(--card); color: var(--muted); transition: all .15s; user-select: none; white-space: nowrap; }
+    .pill:hover  { border-color: var(--accent); color: var(--text); }
+    .pill.active { background: var(--accent); color: #111; border-color: var(--accent); font-weight: 700; }
+
+    .toggle-inativos { display: flex; align-items: center; gap: 7px; padding: 6px 14px; border-radius: 20px; border: 1px solid var(--border); background: var(--card); font-size: .78rem; cursor: pointer; user-select: none; transition: all .15s; }
+    .toggle-inativos.active { border-color: var(--red); color: var(--red); background: rgba(239,68,68,.1); }
+    .toggle-inativos input { accent-color: var(--red); cursor: pointer; }
+
+    .ctrl-input { flex: 1; min-width: 200px; background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 7px 13px; color: var(--text); font-size: .82rem; outline: none; transition: border-color .15s; font-family: inherit; }
+    .ctrl-input:focus { border-color: var(--accent); }
+    .ctrl-input::placeholder { color: var(--muted); }
+
+    /* Tabela */
+    .table-wrap { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .table-meta { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; background: var(--card); border-bottom: 1px solid var(--border); flex-wrap: wrap; gap: 8px; }
+    .table-count { font-size: .78rem; color: var(--muted); }
+    .btn-csv { font-size: .75rem; color: var(--muted); cursor: pointer; padding: 5px 12px; border: 1px solid var(--border); border-radius: 7px; background: var(--card2); transition: all .15s; font-family: inherit; }
+    .btn-csv:hover { color: var(--accent); border-color: var(--accent); }
+
+    table { width: 100%; border-collapse: collapse; font-size: .8rem; }
+    thead th { background: var(--card2); padding: 9px 12px; text-align: left; font-size: .66rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; cursor: pointer; user-select: none; white-space: nowrap; transition: color .1s; }
+    thead th:hover  { color: var(--text); }
+    thead th.sorted { color: var(--accent); }
+    thead th.r      { text-align: right; }
+    tbody tr { border-bottom: 1px solid var(--border); transition: background .08s; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: rgba(255,255,255,.03); }
+    td { padding: 9px 12px; vertical-align: middle; }
+    .td-cli   { font-weight: 600; }
+    .td-sub   { display: block; font-size: .68rem; color: var(--muted); margin-top: 2px; }
+    .td-r     { text-align: right; font-variant-numeric: tabular-nums; }
+    .td-valor { text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+    .dias-pill { display: inline-block; padding: 2px 9px; border-radius: 99px; font-size: .7rem; font-weight: 700; white-space: nowrap; }
+    .badge-red    { background: rgba(239,68,68,.15);  color: var(--red);    border: 1px solid rgba(239,68,68,.3); }
+    .badge-orange { background: rgba(251,146,60,.15); color: var(--orange); border: 1px solid rgba(251,146,60,.3); }
+    .badge-green  { background: rgba(74,222,128,.15); color: var(--green);  border: 1px solid rgba(74,222,128,.3); }
+    .hide-mob { }
+    .empty { padding: 48px; text-align: center; color: var(--muted); font-size: .9rem; }
+
+    @media (max-width: 700px) {
+      body { padding: 10px; }
+      .hide-mob { display: none; }
+      td { padding: 8px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="h-title">🏭 Vendas por Indústria</div>
+    <div class="h-sub" id="h-sub">Carregando…</div>
+  </div>
+  <a class="back-link" href="index.html">← Início</a>
+</header>
+
+<div class="fontes-alert" id="fontes-alert"></div>
+
+<div class="forn-picker">
+  <label for="forn-select">Fornecedor / Indústria</label>
+  <select id="forn-select" onchange="onFornChange()">
+    <option value="">Selecione um fornecedor…</option>
+  </select>
+</div>
+
+<div id="conteudo" style="display:none">
+
+  <div class="resumo-grid" id="resumo"></div>
+
+  <div class="filters-row">
+    <div id="pills-row" style="display:flex;gap:7px;flex-wrap:wrap;"></div>
+    <label class="toggle-inativos" id="toggle-inativos">
+      <input type="checkbox" id="chk-inativos">
+      🚫 Só sem compra há 60+ dias (empresa toda)
+    </label>
+    <input class="ctrl-input" id="search" type="text" placeholder="🔍  Buscar cliente…">
+  </div>
+
+  <div class="table-wrap">
+    <div class="table-meta">
+      <span class="table-count" id="tbl-count">— clientes</span>
+      <button class="btn-csv" onclick="exportCSV()" type="button">⬇ Exportar CSV</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th data-k="cliente" onclick="sortBy('cliente')">Cliente</th>
+          <th class="hide-mob" data-k="estado" onclick="sortBy('estado')">UF</th>
+          <th class="hide-mob" data-k="vendedor" onclick="sortBy('vendedor')">Vendedor</th>
+          <th data-k="ult_compra_periodo" onclick="sortBy('ult_compra_periodo')">Últ. Compra (fornecedor)</th>
+          <th class="r" data-k="valor" onclick="sortBy('valor')">Valor Período</th>
+          <th class="r hide-mob" data-k="qt" onclick="sortBy('qt')">Qtd</th>
+          <th data-k="dtultcomp_geral" onclick="sortBy('dtultcomp_geral')">Últ. Compra (empresa)</th>
+          <th class="r" data-k="dias_sem_compra" onclick="sortBy('dias_sem_compra')">Dias s/ Comprar</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<div id="sem-forn" class="empty">Selecione um fornecedor acima para ver os clientes que compraram dele.</div>
+
+<script>
+const D = (typeof INDUSTRIA_DATA !== 'undefined') ? INDUSTRIA_DATA : null;
+
+if (!D) {
+  document.body.innerHTML = '<p style="color:#ef4444;padding:32px">Erro: industria_data.js não encontrado.</p>';
+} else {
+
+const MESES = D.meses || [];
+
+let stForn    = '';
+let stMeses   = new Set();
+let stSoInativos = false;
+let stSearch  = '';
+let stSortK   = 'dias_sem_compra';
+let stSortA   = false;
+
+const brl = v => 'R$ ' + v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const num = v => Number(v).toLocaleString('pt-BR');
+
+function _dToSort(dstr) {
+  if (!dstr) return '';
+  const [d, m, y] = dstr.split('/');
+  return `${y}${m}${d}`;
+}
+
+function _diasCls(dias) {
+  if (dias === null || dias === undefined) return 'badge-green';
+  if (dias >= 60) return 'badge-red';
+  if (dias >= 30) return 'badge-orange';
+  return 'badge-green';
+}
+
+// ── Banner de fontes indisponíveis ──────────────────────────────────────────
+if (D.fontes_indisponiveis && D.fontes_indisponiveis.length) {
+  const el = document.getElementById('fontes-alert');
+  el.style.display = 'block';
+  el.textContent = `⚠ Bases indisponíveis na última atualização: ${D.fontes_indisponiveis.join(', ')} — resultados podem estar incompletos para esses estados.`;
+}
+
+// ── Popula select de fornecedores ───────────────────────────────────────────
+const selForn = document.getElementById('forn-select');
+(D.fornecedores || []).forEach(f => {
+  const opt = document.createElement('option');
+  opt.value = f;
+  opt.textContent = f;
+  selForn.appendChild(opt);
+});
+
+function onFornChange() {
+  stForn = selForn.value;
+  const conteudo = document.getElementById('conteudo');
+  const vazio    = document.getElementById('sem-forn');
+  if (!stForn) {
+    conteudo.style.display = 'none';
+    vazio.style.display = 'block';
+    return;
+  }
+  conteudo.style.display = 'block';
+  vazio.style.display = 'none';
+  stMeses.clear();
+  stSoInativos = false;
+  document.getElementById('chk-inativos').checked = false;
+  refresh();
+}
+
+// ── Pills de mês ─────────────────────────────────────────────────────────────
+function renderPills() {
+  const container = document.getElementById('pills-row');
+  container.innerHTML = '';
+
+  const pTodos = document.createElement('span');
+  pTodos.className = 'pill' + (stMeses.size === 0 ? ' active' : '');
+  pTodos.textContent = 'Todos os meses';
+  pTodos.onclick = () => { stMeses.clear(); refresh(); };
+  container.appendChild(pTodos);
+
+  for (const m of MESES) {
+    const p = document.createElement('span');
+    p.className = 'pill' + (stMeses.has(m) ? ' active' : '');
+    p.textContent = m;
+    p.onclick = () => {
+      if (stMeses.has(m)) stMeses.delete(m); else stMeses.add(m);
+      refresh();
+    };
+    container.appendChild(p);
+  }
+}
+
+// ── Toggle inativos ─────────────────────────────────────────────────────────
+document.getElementById('chk-inativos').addEventListener('change', e => {
+  stSoInativos = e.target.checked;
+  document.getElementById('toggle-inativos').classList.toggle('active', stSoInativos);
+  refresh();
+});
+
+// ── Busca ────────────────────────────────────────────────────────────────────
+document.getElementById('search').addEventListener('input', e => {
+  stSearch = e.target.value;
+  refresh();
+});
+
+// ── Filtragem + agregação por cliente ───────────────────────────────────────
+function filteredRegistros() {
+  let rows = D.registros.filter(r => r.fantasia === stForn);
+  if (stMeses.size) rows = rows.filter(r => stMeses.has(r.mes));
+  return rows;
+}
+
+function clientesAgregados() {
+  const regs = filteredRegistros();
+  const map = new Map();
+  for (const r of regs) {
+    let c = map.get(r.codcli);
+    if (!c) {
+      c = {
+        codcli: r.codcli, cliente: r.cliente || '—', bairro: r.bairro || '',
+        cidade: r.cidade || '', estado: r.estado || '', vendedor: r.vendedor || '',
+        rca: r.rca || '', valor: 0, qt: 0, ult_compra_periodo: null,
+        dtultcomp_geral: r.dtultcomp_geral, dias_sem_compra: r.dias_sem_compra,
+      };
+      map.set(r.codcli, c);
+    }
+    c.valor += r.valor;
+    c.qt    += r.qt;
+    if (!c.ult_compra_periodo || _dToSort(r.ult_compra_mes) > _dToSort(c.ult_compra_periodo)) {
+      c.ult_compra_periodo = r.ult_compra_mes;
+    }
+  }
+  let list = [...map.values()];
+  if (stSoInativos) list = list.filter(c => (c.dias_sem_compra ?? -1) >= 60);
+  if (stSearch) {
+    const q = stSearch.toLowerCase();
+    list = list.filter(c => c.cliente.toLowerCase().includes(q) || c.codcli.includes(q));
+  }
+  return list;
+}
+
+// ── Resumo ───────────────────────────────────────────────────────────────────
+function renderResumo(list) {
+  const fat = list.reduce((s, c) => s + c.valor, 0);
+  const inativos60 = list.filter(c => (c.dias_sem_compra ?? -1) >= 60).length;
+  document.getElementById('resumo').innerHTML = `
+    <div class="resumo-card">
+      <div class="resumo-label">Clientes</div>
+      <div class="resumo-val" style="color:var(--accent)">${num(list.length)}</div>
+    </div>
+    <div class="resumo-card">
+      <div class="resumo-label">Faturamento no Período</div>
+      <div class="resumo-val" style="color:var(--text)">${brl(fat)}</div>
+    </div>
+    <div class="resumo-card" style="border-color:rgba(239,68,68,.4)">
+      <div class="resumo-label" style="color:var(--red)">Sem Comprar 60+d (empresa)</div>
+      <div class="resumo-val" style="color:var(--red)">${num(inativos60)}</div>
+    </div>
+  `;
+}
+
+// ── Tabela ───────────────────────────────────────────────────────────────────
+function renderTable(list) {
+  list = [...list].sort((a, b) => {
+    let va = a[stSortK], vb = b[stSortK];
+    if (stSortK === 'ult_compra_periodo' || stSortK === 'dtultcomp_geral') { va = _dToSort(va); vb = _dToSort(vb); }
+    if (va === null || va === undefined) va = stSortA ? Infinity : -Infinity;
+    if (vb === null || vb === undefined) vb = stSortA ? Infinity : -Infinity;
+    const cmp = typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb), 'pt-BR');
+    return stSortA ? cmp : -cmp;
+  });
+
+  document.getElementById('tbl-count').textContent = `${num(list.length)} cliente${list.length === 1 ? '' : 's'}`;
+
+  const tbody = document.getElementById('tbody');
+  if (!list.length) {
+    tbody.innerHTML = `<tr><td colspan="8" class="empty">Nenhum cliente encontrado para os filtros selecionados.</td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = list.map(c => `
+    <tr>
+      <td><span class="td-cli">${c.cliente}</span><span class="td-sub">${c.codcli}${c.cidade ? ' · ' + c.cidade : ''}</span></td>
+      <td class="hide-mob">${c.estado || '—'}</td>
+      <td class="hide-mob">${c.vendedor || '—'}</td>
+      <td>${c.ult_compra_periodo || '—'}</td>
+      <td class="td-valor">${brl(c.valor)}</td>
+      <td class="td-r hide-mob">${num(c.qt)}</td>
+      <td>${c.dtultcomp_geral || '<span style="color:var(--muted)">Nenhuma</span>'}</td>
+      <td class="td-r"><span class="dias-pill ${_diasCls(c.dias_sem_compra)}">${c.dias_sem_compra !== null && c.dias_sem_compra !== undefined ? c.dias_sem_compra + 'd' : '—'}</span></td>
+    </tr>
+  `).join('');
+}
+
+// ── Sort ─────────────────────────────────────────────────────────────────────
+function sortBy(k) {
+  if (stSortK === k) { stSortA = !stSortA; }
+  else { stSortK = k; stSortA = (k === 'cliente' || k === 'vendedor'); }
+  document.querySelectorAll('thead th').forEach(th => th.classList.remove('sorted'));
+  const th = document.querySelector(`th[data-k="${k}"]`);
+  if (th) th.classList.add('sorted');
+  refresh(false);
+}
+
+// ── Refresh ──────────────────────────────────────────────────────────────────
+function refresh(renderPillsToo = true) {
+  if (renderPillsToo) renderPills();
+  const list = clientesAgregados();
+  renderResumo(list);
+  renderTable(list);
+}
+
+// ── CSV ──────────────────────────────────────────────────────────────────────
+function exportCSV() {
+  const list = clientesAgregados();
+  const esc = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+  const lines = [
+    ['Cód Cliente','Cliente','Cidade','Estado','Vendedor','RCA','Últ. Compra Fornecedor','Valor Período','Qtd','Últ. Compra Empresa','Dias Sem Comprar']
+      .map(esc).join(';'),
+    ...list.map(c => [
+      c.codcli, c.cliente, c.cidade, c.estado, c.vendedor, c.rca,
+      c.ult_compra_periodo, c.valor, c.qt, c.dtultcomp_geral, c.dias_sem_compra
+    ].map(esc).join(';')),
+  ];
+  const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = `industria_${stForn.replace(/\s+/g,'_')}_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+document.getElementById('h-sub').textContent =
+  `${MESES.length} meses de histórico (${MESES[MESES.length-1] || '—'} a ${MESES[0] || '—'}) · Atualizado em ${D.atualizado_em}`;
+
+}
+</script>
+</body>
+</html>

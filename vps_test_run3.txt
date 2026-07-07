@@ -1,0 +1,10 @@
+2026-07-07 18:45:29.135 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:45:29.138 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:45:29.141 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/main.py", line 49, in main
+    import exportacao_meta
+  File "/opt/offtrade-pipeline/exportacao_meta.py", line 8, in <module>
+    import nao_positivados as _np_mod
+ModuleNotFoundError: No module named 'nao_positivados'
+

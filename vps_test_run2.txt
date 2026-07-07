@@ -1,0 +1,410 @@
+2026-07-07 18:43:24.089 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:24.093 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:24.096 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/main.py", line 42, in main
+    import meta
+  File "/opt/offtrade-pipeline/meta.py", line 15, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/main.py", line 49, in main
+    import exportacao_meta
+  File "/opt/offtrade-pipeline/exportacao_meta.py", line 7, in <module>
+    from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, arquivo, carregar_dados, FONTES_INDISPONIVEIS
+  File "/opt/offtrade-pipeline/meta.py", line 15, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/main.py", line 86, in main
+    import conferencia_preco
+  File "/opt/offtrade-pipeline/conferencia_preco.py", line 14, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/main.py", line 93, in main
+    import entregas
+  File "/opt/offtrade-pipeline/entregas.py", line 56, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+==================================================
+  OFFTRADE - 07/07/2026 18:43
+==================================================
+
+--------------------------------------------------
+  0/8 - Baixando planilhas do Google Drive
+--------------------------------------------------
+[OK] 'METAS RJ.xlsx' baixado -> /opt/offtrade-pipeline/planilhas_cache/METAS RJ.xlsx
+
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+[AVISO] meta falhou ? metas_data.js n?o ser? atualizado, pipeline continua.
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+[AVISO] exportacao_meta falhou ? ignorado, pipeline continua.
+
+--------------------------------------------------
+  3/8 - Metas Gerais por estado/ind?stria (metas_gerais_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_metas_gerais falhou ? ignorado, pipeline continua.
+2026-07-07 18:43:25.296 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:25.299 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:25.301 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_metas_gerais.py", line 24, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  4/8 - Campanha Amarula (amarula_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_amarula falhou ? ignorado, pipeline continua.
+2026-07-07 18:43:26.484 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:26.487 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:26.488 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_amarula.py", line 5, in <module>
+    from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, carregar_dados, arquivo as _arquivo_meta
+  File "/opt/offtrade-pipeline/meta.py", line 15, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  4/8 - Confer?ncia de pre?os
+--------------------------------------------------
+[AVISO] conferencia_preco falhou ? ignorado, pipeline continua.
+
+--------------------------------------------------
+  5/8 - Gerando p?gina de entregas (entregas_data.js)
+--------------------------------------------------
+[AVISO] entregas falhou ? entregas_data.js n?o ser? atualizado, pipeline continua.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_sp falhou ? SP ignorado, pipeline continua.
+2026-07-07 18:43:27.760 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:27.762 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:27.765 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_sp.py", line 11, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  6b - Exportando dashboard ES (vendas_es_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_es falhou ? ES ignorado, pipeline continua.
+2026-07-07 18:43:29.095 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:29.099 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:29.101 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_es.py", line 15, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  6c - Exportando dashboard MG (vendas_mg_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_mg falhou ? MG ignorado, pipeline continua.
+2026-07-07 18:43:30.390 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:30.393 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:30.395 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_mg.py", line 10, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  7/9 - Nao positivados SP (nao_pos_sp_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_nao_pos_sp falhou ? ignorado, pipeline continua.
+2026-07-07 18:43:31.669 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:31.671 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:31.674 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_nao_pos_sp.py", line 11, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  7b - Nao positivados ES (nao_pos_es_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_nao_pos_es falhou ? ignorado, pipeline continua.
+2026-07-07 18:43:32.990 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:32.993 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:32.996 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_nao_pos_es.py", line 15, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  7c - Nao positivados MG (nao_pos_mg_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_nao_pos_mg falhou ? ignorado, pipeline continua.
+2026-07-07 18:43:34.441 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:34.446 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:34.449 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_nao_pos_mg.py", line 10, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  8/9 - Base de clientes por RCA (clientes_rca_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_clientes_rca falhou ? ignorado, pipeline continua.
+2026-07-07 18:43:35.821 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:35.823 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:35.826 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_clientes_rca.py", line 10, in <module>
+    from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, carregar_dados
+  File "/opt/offtrade-pipeline/meta.py", line 15, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  8/9 - Clientes migrados RCA 588 (clientes_588_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_588 falhou ? ignorado, pipeline continua.
+2026-07-07 18:43:37.090 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:37.092 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:37.095 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_588.py", line 11, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  8/9 - Exportando auth de vendedores (vendedores_auth_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_vendedores_auth falhou ? ignorado, pipeline continua.Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/main.py", line 281, in main
+    import envio_whatsapp
+  File "/opt/offtrade-pipeline/envio_whatsapp.py", line 6, in <module>
+    from conferencia_preco import df
+  File "/opt/offtrade-pipeline/conferencia_preco.py", line 14, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+2026-07-07 18:43:38.392 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:38.395 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:38.398 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_vendedores_auth.py", line 11, in <module>
+    from meta import engine, carregar_dados
+  File "/opt/offtrade-pipeline/meta.py", line 15, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  9/9 - Clientes inativos / sem compra / novos (clientes_inativos_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_clientes_inativos falhou ? ignorado, pipeline continua.
+2026-07-07 18:43:39.491 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:39.493 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:39.495 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_clientes_inativos.py", line 18, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  9b - Inadimplencia (inadimplencia_data.js)
+--------------------------------------------------
+
+[AVISO] exportacao_inadimplencia falhou ? ignorado, pipeline continua.
+2026-07-07 18:43:41.026 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:41.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-07 18:43:41.031 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/exportacao_inadimplencia.py", line 13, in <module>
+    from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, carregar_dados
+  File "/opt/offtrade-pipeline/meta.py", line 15, in <module>
+    oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/oracledb/utils.py", line 215, in init_oracle_client
+    thick_impl.init_oracle_client(lib_dir, config_dir, error_url, driver_name)
+  File "src/oracledb/impl/thick/utils.pyx", line 529, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 564, in oracledb.thick_impl.init_oracle_client
+  File "src/oracledb/impl/thick/utils.pyx", line 476, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: DPI-1047: Cannot locate a 64-bit Oracle Client library: "C:\instantclient/libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+
+
+--------------------------------------------------
+  10/10 - Alertas Logistica RJ (Gmail -> nao entregues)
+--------------------------------------------------
+
+==================================================
+  ALERTA LOG?STICA RJ - Gmail Bot
+==================================================
+
+[AVISO] alerta_logistica_rj falhou ? ignorado, pipeline continua.
+Traceback (most recent call last):
+  File "/opt/offtrade-pipeline/alerta_logistica_rj.py", line 450, in <module>
+    main()
+  File "/opt/offtrade-pipeline/alerta_logistica_rj.py", line 357, in main
+    service = _get_service()
+              ^^^^^^^^^^^^^^
+  File "/opt/offtrade-pipeline/alerta_logistica_rj.py", line 53, in _get_service
+    creds.refresh(Request())
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/google/auth/credentials.py", line 517, in refresh
+    self._perform_refresh_token(request)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/google/oauth2/credentials.py", line 435, in _perform_refresh_token
+    ) = reauth.refresh_grant(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/google/oauth2/reauth.py", line 370, in refresh_grant
+    _client._handle_error_response(response_data, retryable_error)
+  File "/opt/offtrade-pipeline/.venv/lib/python3.12/site-packages/google/oauth2/_client.py", line 73, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+
+
+--------------------------------------------------
+  10/10 - Enviando alerta WhatsApp
+--------------------------------------------------
+[AVISO] envio_whatsapp falhou ? ignorado, pipeline continua.
+
+--------------------------------------------------
+  11/11 - Deploy para VPS
+--------------------------------------------------
+OK - 0 arquivo(s) copiados para /opt/offtrade-static (deploy local, sem SSH)
+
+==================================================
+  Conclu?do em 23s
+==================================================
+
+

@@ -66,6 +66,21 @@ def main():
             print("[AVISO] exportacao_metas_gerais falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
+        step("3b - Vendas por Indústria (industria_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_industria.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_industria falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_industria falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
         step("4/8 - Campanha Amarula (amarula_data.js)")
         try:
             import subprocess, sys as _sys
