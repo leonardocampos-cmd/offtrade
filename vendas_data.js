@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/07/2026 09:03",
+  "atualizado_em": "07/07/2026 11:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -245564,7 +245564,7 @@ const VENDAS_DATA = {
         {
           "data": "18/02/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "RED BULL TRADICIONAL 250ML CX C/24 UND",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -245574,7 +245574,7 @@ const VENDAS_DATA = {
         {
           "data": "18/02/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -245584,7 +245584,7 @@ const VENDAS_DATA = {
         {
           "data": "18/02/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "RED BULL SUGAR FREE 24X250ML - ENERG",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -245594,7 +245594,7 @@ const VENDAS_DATA = {
         {
           "data": "24/02/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
           "fantasia": "HEINEKEN",
           "qt": 5,
@@ -245604,7 +245604,7 @@ const VENDAS_DATA = {
         {
           "data": "24/02/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
           "fantasia": "HEINEKEN",
           "qt": 10,
@@ -245644,7 +245644,7 @@ const VENDAS_DATA = {
         {
           "data": "28/02/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "CERVEJA HEINEKEN RET 24X600ML",
           "fantasia": "HEINEKEN",
           "qt": 1,
@@ -245654,7 +245654,7 @@ const VENDAS_DATA = {
         {
           "data": "28/02/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "4 PACK RED BULL TRADICIONAL",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -245674,7 +245674,7 @@ const VENDAS_DATA = {
         {
           "data": "28/02/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "CERVEJA AMSTEL RET 24X600ML",
           "fantasia": "HEINEKEN",
           "qt": 1,
@@ -245684,7 +245684,7 @@ const VENDAS_DATA = {
         {
           "data": "28/02/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
           "fantasia": "HEINEKEN",
           "qt": 5,
@@ -245694,7 +245694,7 @@ const VENDAS_DATA = {
         {
           "data": "28/02/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -245704,7 +245704,7 @@ const VENDAS_DATA = {
         {
           "data": "28/02/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "RED BULL ZERO BR ALU CAN 24X250",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -245714,7 +245714,7 @@ const VENDAS_DATA = {
         {
           "data": "28/02/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "RED BULL MELANCIA 250ML CX C/24",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -246606,7 +246606,7 @@ const VENDAS_DATA = {
         {
           "data": "05/03/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
           "fantasia": "HEINEKEN",
           "qt": 6,
@@ -246616,7 +246616,7 @@ const VENDAS_DATA = {
         {
           "data": "16/03/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
           "fantasia": "HEINEKEN",
           "qt": 132,
@@ -246686,7 +246686,7 @@ const VENDAS_DATA = {
         {
           "data": "16/03/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
           "fantasia": "HEINEKEN",
           "qt": 66,
@@ -247818,7 +247818,7 @@ const VENDAS_DATA = {
         {
           "data": "02/04/2026",
           "codcli": "75340",
-          "cliente": "ZERO 1 CONVENIENCIA LTDA",
+          "cliente": "DEPOSITO DE BEBIDAS DO BIGODE LTDA",
           "produto": "CERVEJA HEINEKEN LN 330ML DESC 4X6UN",
           "fantasia": "HEINEKEN",
           "qt": 20,
@@ -248098,17 +248098,7 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "03/07/2026",
-          "codcli": "79145",
-          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "fantasia": "",
-          "qt": 5,
-          "valor": 749.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/07/2026",
+          "data": "07/07/2026",
           "codcli": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
           "produto": "CERVEJA  AMSTEL LAGER 1LGFA RT 12UN",
@@ -248118,7 +248108,7 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "06/07/2026",
+          "data": "07/07/2026",
           "codcli": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
           "produto": "CERVEJA AMSTEL RET 24X600ML",
@@ -248128,7 +248118,7 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "06/07/2026",
+          "data": "07/07/2026",
           "codcli": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
           "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
@@ -248138,23 +248128,23 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "06/07/2026",
-          "codcli": "69216",
-          "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
-          "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
-          "fantasia": "HEINEKEN",
-          "qt": 10,
-          "valor": 414.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/07/2026",
+          "data": "07/07/2026",
           "codcli": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA DE BEBIDAS, ALIMENTOS E COMERCIO EM G",
           "produto": "CERV BADEN COFFE AL 600 DES 12UN",
           "fantasia": "HEINEKEN",
           "qt": 10,
           "valor": 1718.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "79145",
+          "cliente": "COMERCIAL DONA LUCIA DO JABAQUARA LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 749.5,
           "tipo": "Venda"
         }
       ]
@@ -261079,16 +261069,6 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 12,
           "valor": 367.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85438",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "RUM BACARDI GOLD 700ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 470.52,
           "tipo": "Venda"
         },
         {
@@ -439746,27 +439726,17 @@ const VENDAS_DATA = {
       ],
       "Jul/26": [
         {
-          "data": "06/07/2026",
+          "data": "07/07/2026",
           "codcli": "47374",
           "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
           "produto": "WHISKEY JACK DANIELS HONEY 1 L",
           "fantasia": "BROWN",
-          "qt": 120,
-          "valor": 11988.0,
+          "qt": 108,
+          "valor": 10789.2,
           "tipo": "Venda"
         },
         {
-          "data": "06/07/2026",
-          "codcli": "47374",
-          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
-          "produto": "WHISKY PASSPORT HONEY 670ML",
-          "fantasia": "PERNOD",
-          "qt": 120,
-          "valor": 4140.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/07/2026",
+          "data": "07/07/2026",
           "codcli": "47374",
           "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
           "produto": "WHISKY BALLANTINE S FINEST 1L",
@@ -439776,13 +439746,23 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "06/07/2026",
+          "data": "07/07/2026",
           "codcli": "47374",
           "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
           "produto": "WHISKY PASSPORT 1L",
           "fantasia": "PERNOD",
           "qt": 480,
           "valor": 15312.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "47374",
+          "cliente": "SIMUS COMERCIAL DISTRIBUIDORA LTDA",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 4140.0,
           "tipo": "Venda"
         }
       ]
