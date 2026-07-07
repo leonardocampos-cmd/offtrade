@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "07/07/2026 17:06",
+  "atualizado_em": "07/07/2026 18:16",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -284,8 +284,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 118062.39
       },
       "Jul/26": {
-        "fat": 91192.18,
-        "pos": 11,
+        "fat": 91637.42,
+        "pos": 12,
         "fat_ant": 114022.0
       }
     },
@@ -76855,6 +76855,15 @@ const VENDAS_ES_DATA = {
           "valor": 1953.0
         },
         {
+          "data": "07/07/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 1,
+          "valor": 135.82
+        },
+        {
           "data": "02/07/2026",
           "codcli": "76076",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
@@ -76862,6 +76871,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "NAVEIA",
           "qt": 10,
           "valor": 1482.0
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 1,
+          "valor": 154.71
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 1,
+          "valor": 154.71
         },
         {
           "data": "02/07/2026",
