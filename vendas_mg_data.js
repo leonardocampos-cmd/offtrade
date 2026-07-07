@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "07/07/2026 12:10",
+  "atualizado_em": "07/07/2026 13:07",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -231,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 6711.88,
-        "pos": 11,
+        "fat": 7551.08,
+        "pos": 12,
         "fat_ant": 85308.22
       }
     },
@@ -82105,6 +82105,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 175.44
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "30615",
+          "cliente": "BURITIS CONVENIENCIA LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 839.2
         }
       ]
     },
