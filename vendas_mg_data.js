@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "07/07/2026 14:11",
+  "atualizado_em": "07/07/2026 15:12",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 34746.68,
-        "pos": 25,
+        "fat": 36715.64,
+        "pos": 28,
         "fat_ant": 343937.59
       }
     },
@@ -231,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 7551.08,
-        "pos": 12,
+        "fat": 12167.06,
+        "pos": 13,
         "fat_ant": 85308.22
       }
     },
@@ -44358,6 +44358,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 179.4
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "32813",
+          "cliente": "ROMA MERCEARIAS LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 2,
+          "valor": 436.32
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "30043",
+          "cliente": "E.F.B. HAMBURGUERS LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 4,
+          "valor": 575.04
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "32902",
+          "cliente": "LANCHERIA CANTINA AZUL LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV.",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 957.6
         }
       ]
     },
@@ -82105,6 +82132,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 175.44
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39578",
+          "cliente": "BRPULLEYS INDUSTRIA, COMERCIO E SERVICOS LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 298.5
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39578",
+          "cliente": "BRPULLEYS INDUSTRIA, COMERCIO E SERVICOS LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 4280.4
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39578",
+          "cliente": "BRPULLEYS INDUSTRIA, COMERCIO E SERVICOS LTDA",
+          "produto": "MAMBA WATER C/GAS CX C/12",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 37.08
         },
         {
           "data": "07/07/2026",
