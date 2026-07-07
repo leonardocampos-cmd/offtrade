@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "07/07/2026 16:50",
+  "atualizado_em": "07/07/2026 17:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -357796,22 +357796,22 @@ const VENDAS_DATA = {
           "tipo": "Bonificado"
         },
         {
-          "data": "09/04/2026",
-          "codcli": "92040",
-          "cliente": "BRYAN OLIVEIRA PALOPOLI",
-          "produto": "VINHO PEYRASSOL LA CROIX ROSE 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 0.0,
-          "tipo": "Bonificado"
-        },
-        {
           "data": "17/04/2026",
           "codcli": "92040",
           "cliente": "BRYAN OLIVEIRA PALOPOLI",
           "produto": "VINHO PEYRASSOL LA CROIX ROSE 750ML",
           "fantasia": "",
           "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "09/04/2026",
+          "codcli": "92040",
+          "cliente": "BRYAN OLIVEIRA PALOPOLI",
+          "produto": "VINHO PEYRASSOL LA CROIX ROSE 750ML",
+          "fantasia": "",
+          "qt": 2,
           "valor": 0.0,
           "tipo": "Bonificado"
         },
