@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/07/2026 16:07",
-  "total": 4258,
+  "atualizado_em": "07/07/2026 16:52",
+  "total": 4268,
   "clientes": [
     {
       "codcli": "31683",
@@ -7648,6 +7648,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "24114",
+      "razao": "AUTO POSTO AIMORES DE PRAIA GRANDE LTDA",
+      "fantasia": "AUTO POSTO AIMORES DE PRAIA GRANDE",
+      "bairro": "TUPI",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "21.948.411/0001-83",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51109",
       "razao": "AUTO POSTO ALVORADA DE PONGAI LTDA",
       "fantasia": "AUTO POSTO ALVORADA",
@@ -8248,6 +8262,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "51582",
+      "razao": "AUTO POSTO QUARENTA E UM LIMITADA",
+      "fantasia": "AUTO POSTO QUARENTA E UM",
+      "bairro": "ITAQUACIARA",
+      "cidade": "ITAPECERICA DA SERRA",
+      "cnpj": "49.667.637/0001-25",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "79820",
@@ -12924,6 +12952,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "38286",
+      "razao": "CENTRO AUTOMOTIVO PORTAL DAS AMOREIRAS LTDA",
+      "fantasia": "CENTRO AUTOMOTIVO PORTAL DAS AMOREIRAS",
+      "bairro": "JARDIM DO LAGO",
+      "cidade": "CAMPINAS",
+      "cnpj": "22.933.066/0001-77",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "48414",
@@ -21172,6 +21214,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51579",
+      "razao": "F. DE JESUS MENEZES",
+      "fantasia": "ALTAS HORAS MINI MERCADO",
+      "bairro": "NOVA MIRIM",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "51.162.032/0001-24",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "39083",
       "razao": "F.A. MAIOLINO ALIMENTOS",
       "fantasia": "DRAFT BBQ",
@@ -25680,14 +25736,14 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "26651",
+      "codcli": "24237",
       "razao": "INFINITY COMERCIO DE LANCHES LTDA",
-      "fantasia": "INFINITY COMERCIO DE LANCHES LTDA",
-      "bairro": "CENTRO",
+      "fantasia": "PASQUIM BAR E PROSA",
+      "bairro": "VILA MADALENA",
       "cidade": "SAO PAULO",
-      "cnpj": "17.985.563/0003-40",
+      "cnpj": "17.985.563/0001-89",
       "estado": "SP",
-      "ramo": "RESTAURANTE",
+      "ramo": "CAFETERIA",
       "codusur1": "340",
       "nome_usur1": "PEDRO HENRIQUE DUARTE",
       "codusur2": "399",
@@ -39120,6 +39176,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51581",
+      "razao": "MINIMERCADO E PADARIA ALMEIDA LTDA",
+      "fantasia": "MINIMERCADO E PADARIA ALMEIDA",
+      "bairro": "SABOÓ",
+      "cidade": "SANTOS",
+      "cnpj": "64.178.965/0001-51",
+      "estado": "SP",
+      "ramo": "PADARIA",
+      "codusur1": "500",
+      "nome_usur1": "PAULO MOREIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "6506",
       "razao": "MINIMERCADO FRANGO DA VILA LTDA\t\t\t\t\t\t\"",
       "fantasia": "MINIMERCADO FRANGO DA VILA",
@@ -41276,6 +41346,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "50631",
+      "razao": "ODAIR MERCADO LTDA",
+      "fantasia": "ODAIR MERCADO LTDA",
+      "bairro": "PARQUE IRAMAIA",
+      "cidade": "CAMPO LIMPO PAULISTA",
+      "cnpj": "07.659.777/0001-01",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51572",
       "razao": "ODETE VERA COMERCIO DE BEBIDAS LTDA",
       "fantasia": "ADEGA 68",
@@ -41578,6 +41662,20 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "65.759.701/0001-54",
       "estado": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "92186",
+      "razao": "ORIGGIO DISTRIBUICAO LTDA",
+      "fantasia": "ORIGENS EMPORIO",
+      "bairro": "SANTA CECILIA",
+      "cidade": "SAO LOURENCO",
+      "cnpj": "48.144.800/0001-02",
+      "estado": "MG",
+      "ramo": "SUPERMERCADO",
       "codusur1": "91",
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "",
@@ -46006,6 +46104,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "24113",
+      "razao": "POSTO DE SERVICOS 2002 LTDA",
+      "fantasia": "POSTO DE SERVICOS 2002",
+      "bairro": "VILA SUZANA",
+      "cidade": "SAO PAULO",
+      "cnpj": "01.495.049/0001-25",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "3691",
@@ -52344,6 +52456,20 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "59.912.602/0001-68",
       "estado": "RJ",
       "ramo": "ACADEMIA",
+      "codusur1": "175",
+      "nome_usur1": "JULIANA SALGADO",
+      "codusur2": "378",
+      "nome_usur2": "FABIO VALOTTI - OFF TRADE"
+    },
+    {
+      "codcli": "85936",
+      "razao": "STUDIO LAGOA CORPORATE LTDA",
+      "fantasia": "STUDIO VELOCITY LAGOA",
+      "bairro": "GAVEA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "59.912.602/0001-68",
+      "estado": "RJ",
+      "ramo": "ATIVIDADES DE CONDICIONAMENTO FISICO",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
       "codusur2": "378",
@@ -52456,6 +52582,20 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "18.147.523/0001-20",
       "estado": "SP",
       "ramo": "MERCADO",
+      "codusur1": "461",
+      "nome_usur1": "SUELY SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50865",
+      "razao": "SUELLEN MARCONDES DA SILVA",
+      "fantasia": "ADEGA DO MAN",
+      "bairro": "PARQUE DOURADO",
+      "cidade": "FERRAZ DE VASCONCELOS",
+      "cnpj": "36.884.026/0001-97",
+      "estado": "SP",
+      "ramo": "BAR",
       "codusur1": "461",
       "nome_usur1": "SUELY SANTOS - OFF TRADE",
       "codusur2": "",
