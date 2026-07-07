@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "07/07/2026 16:06",
+  "atualizado_em": "07/07/2026 16:52",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3021,20 +3021,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33631",
-        "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "CAICARAS",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "VODKA ORLOFF 1,75L",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 514.8
-          }
-        ]
-      },
-      {
         "codcli": "35356",
         "cliente": "MULT JR - CONSULTORIA E PROJETOS",
         "bairro": "PAMPULHA",
@@ -3323,56 +3309,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35398",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "38896",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
@@ -3413,6 +3349,56 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 141.36
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          }
+        ]
+      },
+      {
+        "codcli": "35398",
+        "cliente": "LCA COMERCIO LTDA",
+        "bairro": "PAMPULHA",
+        "dtultcomp": "12/06/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL AMORA EDITION SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -3583,7 +3569,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35387",
+        "codcli": "35392",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -3609,7 +3595,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35392",
+        "codcli": "35387",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -4405,38 +4391,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37207",
-        "cliente": "MEZZA BAR LTDA",
-        "bairro": "OURO PRETO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 63.92
-          },
-          {
-            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 1,
-            "valor": 143.76
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 1,
-            "valor": 143.76
-          },
-          {
-            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 11,
-            "valor": 2373.36
-          }
-        ]
-      },
-      {
         "codcli": "30801",
         "cliente": "SUSHINARA PREMIUM LTDA",
         "bairro": "INGA ALTO",
@@ -4835,20 +4789,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 199.8
-          }
-        ]
-      },
-      {
-        "codcli": "39425",
-        "cliente": "57.332.019 SANDRA ROSARIA CARDOSO",
-        "bairro": "VENDA NOVA",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 70.68
           }
         ]
       },
@@ -5371,13 +5311,6 @@ const NAO_POS_MG_DATA = {
             "valor": 3068.16
           }
         ]
-      },
-      {
-        "codcli": "39579",
-        "cliente": "66.619.912 JULIA BATISTA DA SILVA SANTOS",
-        "bairro": "CAMARGOS",
-        "dtultcomp": "nan",
-        "produtos": []
       },
       {
         "codcli": "39580",
@@ -8700,20 +8633,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 68.9
-          }
-        ]
-      },
-      {
-        "codcli": "31944",
-        "cliente": "THE BEAT TRAINING ACADEMIA DE GINASTICA LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "08/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 5,
-            "valor": 706.8
           }
         ]
       },
