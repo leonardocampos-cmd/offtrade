@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/07/2026 15:14",
-  "total": 4252,
+  "atualizado_em": "07/07/2026 16:07",
+  "total": 4258,
   "clientes": [
     {
       "codcli": "31683",
@@ -9844,6 +9844,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "51578",
+      "razao": "BEBIDAS 68 ADELAIDE COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "ADEGA 68 ADELAIDE",
+      "bairro": "JARDIM ADELAIDE",
+      "cidade": "HORTOLANDIA",
+      "cnpj": "65.043.793/0001-71",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51576",
+      "razao": "BEBIDAS 68 COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "BEBIDAS 68 COMERCIO DE BEBIDAS",
+      "bairro": "JARDIM CAMPO BELO",
+      "cidade": "SUMARE",
+      "cnpj": "41.533.135/0001-08",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51406",
@@ -41248,6 +41276,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "51572",
+      "razao": "ODETE VERA COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "ADEGA 68",
+      "bairro": "JARDIM MALTA",
+      "cidade": "HORTOLANDIA",
+      "cnpj": "40.783.272/0001-20",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51577",
+      "razao": "ODETE VERA MERCEARIA",
+      "fantasia": "MERCEARIA E BEBIDAS 68",
+      "bairro": "JARDIM SUMAREZINHO",
+      "cidade": "HORTOLANDIA",
+      "cnpj": "40.782.246/0001-87",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50929",
       "razao": "OFELIA SARRI MORETE",
       "fantasia": "OFELIA SARRI MORETE",
@@ -44886,6 +44942,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51573",
+      "razao": "PORTAL DA ALVORADA AUTO POSTO LTDA",
+      "fantasia": "PORTAL DA ALVORADA AUTO POSTO",
+      "bairro": "VILA OLÍMPIA",
+      "cidade": "SAO PAULO",
+      "cnpj": "14.954.187/0001-77",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "codusur1": "371",
+      "nome_usur1": "CARLOS DE ALMEIDA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51574",
+      "razao": "PORTAL DO CAMPO BELO AUTO POSTO LTDA",
+      "fantasia": "PORTAL DO CAMPO BELO AUTO POSTO",
+      "bairro": "CAMPO BELO",
+      "cidade": "SAO PAULO",
+      "cnpj": "11.576.381/0001-78",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "codusur1": "371",
+      "nome_usur1": "CARLOS DE ALMEIDA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "16159",
