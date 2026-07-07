@@ -81,11 +81,14 @@ def remote_exists(sftp, remote_path: str) -> bool:
 
 
 def build_remote_env(local_env_text: str) -> str:
-    """Ajusta o .env local para a VPS: OFFTRADE_RUNTIME=vps, SEND_ALERTS=1."""
+    """Ajusta o .env local para a VPS: OFFTRADE_RUNTIME=vps, SEND_ALERTS=1,
+    ORACLE_LIB apontando pro instant client Linux (o .env local tem o
+    caminho C:\\instantclient do Windows, que não existe na VPS)."""
     linhas = local_env_text.splitlines()
-    linhas = [l for l in linhas if not re.match(r"^\s*(OFFTRADE_RUNTIME|SEND_ALERTS)\s*=", l)]
+    linhas = [l for l in linhas if not re.match(r"^\s*(OFFTRADE_RUNTIME|SEND_ALERTS|ORACLE_LIB)\s*=", l)]
     linhas.append("OFFTRADE_RUNTIME=vps")
     linhas.append("SEND_ALERTS=1")
+    linhas.append("ORACLE_LIB=/opt/oracle/instantclient_21_1")
     return "\n".join(linhas) + "\n"
 
 
