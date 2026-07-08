@@ -238,6 +238,21 @@
       line-height: 1.6;
     }
 
+    .fontes-alert {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(239, 68, 68, 0.12);
+      border: 1px solid #ef4444;
+      color: var(--text);
+      border-radius: 10px;
+      padding: 10px 16px;
+      font-size: 0.8rem;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+    .fontes-alert strong { color: #ef4444; }
+
     /* ── Footer ──────────────────────────────────────────────── */
     .nav-back { display:inline-flex; align-items:center; gap:6px; color:var(--muted); font-size:0.8rem; text-decoration:none; margin-bottom:20px; transition:color .15s; }
     .nav-back:hover { color:var(--accent-light); }
@@ -262,6 +277,8 @@
 
   <a class="nav-back" href="index.html">&#8592; Home</a>
 
+  <div id="fontes-alert-wrap"></div>
+
   <header>
     <div class="camp-badge">Campanha Ativa</div>
     <h1>Campanha Robson Crusoe</h1>
@@ -273,8 +290,8 @@
     </div>
     <div class="criterios">
       <span class="criterio-chip"><strong>+1 pt</strong> por pedido</span>
-      <span class="criterio-chip"><strong>+5 pts</strong> novo SKU (90d)</span>
-      <span class="criterio-chip"><strong>+5 pts</strong> reativação (90d)</span>
+      <span class="criterio-chip"><strong>+5 pts</strong> novo SKU (60d)</span>
+      <span class="criterio-chip"><strong>+5 pts</strong> reativação (60d)</span>
       <span class="criterio-chip"><strong>+5 pts</strong> meta batida</span>
     </div>
   </header>
@@ -299,6 +316,17 @@
 
     document.getElementById('atualizado').textContent = D.atualizado_em;
     document.getElementById('periodo').textContent = `${D.periodo.ini} a ${D.periodo.fim}`;
+
+    const _fontesOff = D.fontes_indisponiveis || [];
+    if (_fontesOff.length > 0) {
+      document.getElementById('fontes-alert-wrap').innerHTML = `
+        <div class="fontes-alert">
+          <span>&#9888;&#65039;</span>
+          <span><strong>Atenção:</strong> na última atualização, ${_fontesOff.length === 1 ? 'a base' : 'as bases'}
+            <strong>${_fontesOff.join(', ')}</strong> ${_fontesOff.length === 1 ? 'estava' : 'estavam'} fora do ar.
+            Os resultados exibidos podem estar incompletos.</span>
+        </div>`;
+    }
 
     function fmtMoeda(v) {
       return v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
