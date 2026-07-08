@@ -2,6 +2,8 @@
 <html lang="pt-BR">
 <head>
   <script src="auth.js"></script>
+  <script src="fontes_status_data.js"></script>
+  <script src="fontes_alert.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vendas por Indústria — Rigarr</title>
@@ -22,7 +24,6 @@
     .back-link { font-size: .78rem; color: var(--muted); text-decoration: none; padding: 6px 12px; border: 1px solid var(--border); border-radius: 8px; transition: border-color .15s, color .15s; }
     .back-link:hover { border-color: var(--accent); color: var(--accent); }
 
-    .fontes-alert { background: rgba(239,68,68,.1); border: 1px solid rgba(239,68,68,.3); color: var(--red); border-radius: 10px; padding: 10px 16px; font-size: .8rem; margin-bottom: 16px; display: none; }
 
     /* Seletor de fornecedor */
     .forn-picker { margin-bottom: 18px; }
@@ -108,8 +109,6 @@
   </div>
   <a class="back-link" href="index.html">← Início</a>
 </header>
-
-<div class="fontes-alert" id="fontes-alert"></div>
 
 <div class="forn-picker">
   <label for="forn-select">Fornecedor / Indústria</label>
@@ -213,12 +212,6 @@ function _diasCls(dias) {
   return 'badge-green';
 }
 
-// ── Banner de fontes indisponíveis ──────────────────────────────────────────
-if (D.fontes_indisponiveis && D.fontes_indisponiveis.length) {
-  const el = document.getElementById('fontes-alert');
-  el.style.display = 'block';
-  el.textContent = `⚠ Bases indisponíveis na última atualização: ${D.fontes_indisponiveis.join(', ')} — resultados podem estar incompletos para esses estados.`;
-}
 
 // ── Popula select de fornecedores ───────────────────────────────────────────
 const selForn = document.getElementById('forn-select');

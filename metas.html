@@ -8,6 +8,8 @@
   <script src="vendas_data.js"></script>
   <script src="amarula_data.js"></script>
   <script src="gerentes_data.js"></script>
+  <script src="fontes_status_data.js"></script>
+  <script src="fontes_alert.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -299,21 +301,6 @@
       line-height: 1.8;
     }
     .no-data strong { color: var(--text); }
-
-    .fontes-alert {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      background: rgba(239, 68, 68, 0.12);
-      border: 1px solid var(--red);
-      color: var(--text);
-      border-radius: 10px;
-      padding: 10px 16px;
-      font-size: 0.8rem;
-      line-height: 1.5;
-      margin-bottom: 16px;
-    }
-    .fontes-alert strong { color: var(--red); }
 
     /* Tabela não positivados */
     .nao-pos-table {
@@ -691,12 +678,12 @@
 
 <div class="camp-bar">
   <span class="camp-bar-label">Campanhas:</span>
-  <a href="amarula.html" class="camp-pill cp-amarula"><span class="dot"></span>Amarula <em style="font-style:normal;font-size:.6rem;opacity:.8">Ativa</em></a>
-  <a href="pernod.html"  class="camp-pill cp-pernod"><span class="dot"></span>Pernod <em style="font-style:normal;font-size:.6rem;opacity:.8">Ativa</em></a>
-  <a href="moving.html"  class="camp-pill cp-moving"><span class="dot"></span>Moving <em style="font-style:normal;font-size:.6rem;opacity:.8">Ativa</em></a>
+  <a href="crusoe.html"  class="camp-pill cp-amarula"><span class="dot"></span>Crusoe <em style="font-style:normal;font-size:.6rem;opacity:.8">Ativa</em></a>
+  <a href="amarula.html" class="camp-pill cp-amarula"><span class="dot"></span>Amarula <em style="font-style:normal;font-size:.6rem;opacity:.8">Encerrada</em></a>
+  <a href="pernod.html"  class="camp-pill cp-pernod"><span class="dot"></span>Pernod <em style="font-style:normal;font-size:.6rem;opacity:.8">Encerrada</em></a>
+  <a href="moving.html"  class="camp-pill cp-moving"><span class="dot"></span>Moving <em style="font-style:normal;font-size:.6rem;opacity:.8">Encerrada</em></a>
 </div>
 
-<div id="fontes-alert-wrap"></div>
 <div id="app"></div>
 
 <script>
@@ -2032,17 +2019,6 @@ function filterCards(q) {
         </p>
       </div>`;
     return;
-  }
-
-  const _fontesOff = METAS_DATA.fontes_indisponiveis || [];
-  if (_fontesOff.length > 0) {
-    document.getElementById('fontes-alert-wrap').innerHTML = `
-      <div class="fontes-alert">
-        <span>&#9888;&#65039;</span>
-        <span><strong>Atenção:</strong> na última atualização, ${_fontesOff.length === 1 ? 'a base' : 'as bases'}
-          <strong>${_fontesOff.join(', ')}</strong> ${_fontesOff.length === 1 ? 'estava' : 'estavam'} fora do ar.
-          Os resultados exibidos podem estar incompletos.</span>
-      </div>`;
   }
 
   const params = new URLSearchParams(window.location.search);

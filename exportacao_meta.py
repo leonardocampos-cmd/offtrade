@@ -460,6 +460,27 @@ print(f"OK metas_data.js gerado — {len(vendedores_out)} vendedores, meses: {_m
 if FONTES_INDISPONIVEIS:
     print(f"[AVISO] Fontes indisponíveis nesta execução: {sorted(set(FONTES_INDISPONIVEIS))} — resultados podem estar incompletos.")
 
+# ── Gera fontes_status_data.js ──────────────────────────────────────────────
+# Arquivo leve (independente do metas_data.js, que tem ~750KB) para que
+# qualquer página do site possa mostrar o popup de aviso sem carregar o
+# dashboard inteiro. Normaliza nomes tipo "vendas_CASTAS"/"cadastros_CASTAS"
+# para só "CASTAS".
+_BASES_CONHECIDAS = ["CRC", "thekings", "CASTAS", "GARRIDO", "SPON"]
+def _normalizar_fonte(nome):
+    for _b in _BASES_CONHECIDAS:
+        if _b.lower() in nome.lower():
+            return _b
+    return nome
+
+_fontes_normalizadas = sorted(set(_normalizar_fonte(f) for f in FONTES_INDISPONIVEIS))
+_status_payload = {
+    'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
+    'fontes_indisponiveis': _fontes_normalizadas,
+}
+with open(str(Path(__file__).parent / "fontes_status_data.js"), 'w', encoding='utf-8') as f:
+    f.write(f"const FONTES_STATUS_DATA = {json.dumps(_status_payload, ensure_ascii=False, indent=2)};\n")
+print(f"OK fontes_status_data.js gerado — {_fontes_normalizadas or 'todas as bases OK'}")
+
 # ── Gera vendas_data.js ───────────────────────────────────────────────────────
 
 _meses_vh  = sorted(_vh['MES'].dropna().unique(), reverse=True)
@@ -658,7 +679,7 @@ else:
 import subprocess
 repo_dir = str(Path(__file__).parent)
 try:
-    subprocess.run(["git", "-C", repo_dir, "add", "metas_data.js", "vendas_data.js", "gerentes_data.js"], check=True)
+    subprocess.run(["git", "-C", repo_dir, "add", "metas_data.js", "vendas_data.js", "gerentes_data.js", "fontes_status_data.js"], check=True)
     subprocess.run(["git", "-C", repo_dir, "commit", "-m",
                     f"Atualiza metas_data.js + vendas_data.js - {date.today().strftime('%d/%m/%Y')}"])
     subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
