@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "07/07/2026 22:12",
+  "atualizado_em": "08/07/2026 19:08",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -284,8 +284,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 118062.39
       },
       "Jul/26": {
-        "fat": 91637.42,
-        "pos": 12,
+        "fat": 118510.86,
+        "pos": 13,
         "fat_ant": 114022.0
       }
     },
@@ -2546,15 +2546,6 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "27/02/2026",
-          "codcli": "80277",
-          "cliente": "REDE SUPERMERCADO LTDA",
-          "produto": "NG BARRA NEUGE 80G AO LEITE (DP 16X80G)",
-          "fantasia": "NOIG",
-          "qt": 20,
-          "valor": 1276.8
-        },
-        {
-          "data": "27/02/2026",
           "codcli": "21027",
           "cliente": "SUPERMERCADOS NOROESTE LTDA",
           "produto": "NG BARRA NEUGE 80G AO LEITE (DP 16X80G)",
@@ -2570,6 +2561,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "NOIG",
           "qt": 4,
           "valor": 291.4
+        },
+        {
+          "data": "27/02/2026",
+          "codcli": "80277",
+          "cliente": "REDE SUPERMERCADO LTDA",
+          "produto": "NG BARRA NEUGE 80G AO LEITE (DP 16X80G)",
+          "fantasia": "NOIG",
+          "qt": 20,
+          "valor": 1276.8
         },
         {
           "data": "25/02/2026",
@@ -11786,15 +11786,6 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "14/05/2026",
-          "codcli": "71045",
-          "cliente": "VOICE - CENTRO DE CONDICIONAMENTO FISICO LTDA",
-          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 31.56
-        },
-        {
-          "data": "14/05/2026",
           "codcli": "76353",
           "cliente": "L DA SILVA MASCENA",
           "produto": "4 PACK RED BULL TROPICAL 4X250ML",
@@ -11806,6 +11797,15 @@ const VENDAS_ES_DATA = {
           "data": "14/05/2026",
           "codcli": "93505",
           "cliente": "56.703.137 BEIERSDOF JOHNSON DE MELO OLIVEIRA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 31.56
+        },
+        {
+          "data": "14/05/2026",
+          "codcli": "71045",
+          "cliente": "VOICE - CENTRO DE CONDICIONAMENTO FISICO LTDA",
           "produto": "4 PACK RED BULL TROPICAL 4X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
@@ -12695,21 +12695,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "07/05/2026",
-          "codcli": "76489",
-          "cliente": "LUZINETE SCHADE SOARES",
-          "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
-          "fantasia": "MONDELEZ",
-          "qt": 1,
-          "valor": 39.69
-        },
-        {
-          "data": "07/05/2026",
           "codcli": "73065",
           "cliente": "SPAZZIO ACADEMIA LTDA",
           "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
           "fantasia": "MONDELEZ",
           "qt": 2,
           "valor": 79.38
+        },
+        {
+          "data": "07/05/2026",
+          "codcli": "76489",
+          "cliente": "LUZINETE SCHADE SOARES",
+          "produto": "CHICLETE TRIDENT HORTELA C/21 UN",
+          "fantasia": "MONDELEZ",
+          "qt": 1,
+          "valor": 39.69
         },
         {
           "data": "12/05/2026",
@@ -13788,7 +13788,7 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "26/02/2026",
-          "codcli": "81677",
+          "codcli": "81681",
           "cliente": "PARMA COMERCIAL LTDA",
           "produto": "NG BARRA NEUGE 80G BRANCO (DP 16X80G)",
           "fantasia": "NOIG",
@@ -13797,7 +13797,7 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "26/02/2026",
-          "codcli": "81681",
+          "codcli": "81677",
           "cliente": "PARMA COMERCIAL LTDA",
           "produto": "NG BARRA NEUGE 80G BRANCO (DP 16X80G)",
           "fantasia": "NOIG",
@@ -17704,21 +17704,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "09/03/2026",
-          "codcli": "80824",
-          "cliente": "SUPERMERCADO D AVILA LTDA",
-          "produto": "RC SARDINHA OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 875.0
-        },
-        {
-          "data": "09/03/2026",
           "codcli": "84326",
           "cliente": "COMERCIAL KRUGER LTDA",
           "produto": "RC SARDINHA OLEO 50X125G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 224.5
+        },
+        {
+          "data": "09/03/2026",
+          "codcli": "80824",
+          "cliente": "SUPERMERCADO D AVILA LTDA",
+          "produto": "RC SARDINHA OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 875.0
         },
         {
           "data": "16/03/2026",
@@ -17821,21 +17821,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "09/03/2026",
-          "codcli": "80824",
-          "cliente": "SUPERMERCADO D AVILA LTDA",
-          "produto": "RC SARDINHA TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 15,
-          "valor": 2625.0
-        },
-        {
-          "data": "09/03/2026",
           "codcli": "90170",
           "cliente": "M S SUPERMERCADO LTDA",
           "produto": "RC SARDINHA TOMATE 50X125G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 224.5
+        },
+        {
+          "data": "09/03/2026",
+          "codcli": "80824",
+          "cliente": "SUPERMERCADO D AVILA LTDA",
+          "produto": "RC SARDINHA TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 15,
+          "valor": 2625.0
         },
         {
           "data": "23/03/2026",
@@ -23147,21 +23147,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "03/03/2026",
-          "codcli": "79754",
-          "cliente": "SUPERMERCADO R.D.E. LTDA",
-          "produto": "RC SARDINHA OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 14,
-          "valor": 2450.0
-        },
-        {
-          "data": "03/03/2026",
           "codcli": "79794",
           "cliente": "AUTO SERVICO PEIXOTO LTDA",
           "produto": "RC SARDINHA OLEO 50X125G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 13,
           "valor": 2275.0
+        },
+        {
+          "data": "03/03/2026",
+          "codcli": "79754",
+          "cliente": "SUPERMERCADO R.D.E. LTDA",
+          "produto": "RC SARDINHA OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 14,
+          "valor": 2450.0
         },
         {
           "data": "03/03/2026",
@@ -23210,21 +23210,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "03/03/2026",
-          "codcli": "79754",
-          "cliente": "SUPERMERCADO R.D.E. LTDA",
-          "produto": "RC SARDINHA TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 14,
-          "valor": 2450.0
-        },
-        {
-          "data": "03/03/2026",
           "codcli": "79794",
           "cliente": "AUTO SERVICO PEIXOTO LTDA",
           "produto": "RC SARDINHA TOMATE 50X125G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 12,
           "valor": 2100.0
+        },
+        {
+          "data": "03/03/2026",
+          "codcli": "79754",
+          "cliente": "SUPERMERCADO R.D.E. LTDA",
+          "produto": "RC SARDINHA TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 14,
+          "valor": 2450.0
         },
         {
           "data": "03/03/2026",
@@ -24427,21 +24427,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "30/04/2026",
-          "codcli": "20941",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "ST PIERRE LATA GINGER LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 233.92
-        },
-        {
-          "data": "30/04/2026",
           "codcli": "20943",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "ST PIERRE LATA GINGER LT 24X270ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 116.96
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA GINGER LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92
         },
         {
           "data": "30/04/2026",
@@ -24598,6 +24598,15 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "30/04/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "EASY BOOZE SPRITZ LN 12X275ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 78.6
+        },
+        {
+          "data": "30/04/2026",
           "codcli": "78311",
           "cliente": "ITAPOA SUPERMERCADO LTDA.",
           "produto": "EASY BOOZE SPRITZ LN 12X275ML",
@@ -24607,52 +24616,43 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "30/04/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "EASY BOOZE SPRITZ LN 12X275ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 78.6
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "EASY BOOZE SPRITZ LN 12X275ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 78.6
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA BLUEBERRY LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA BLUEBERRY LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92
+        },
+        {
+          "data": "30/04/2026",
           "codcli": "20943",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "EASY BOOZE SPRITZ LN 12X275ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 78.6
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "20944",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "EASY BOOZE SPRITZ LN 12X275ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 78.6
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "20941",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "EASY BOOZE SPRITZ LN 12X275ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 78.6
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "20941",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "ST PIERRE LATA BLUEBERRY LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 233.92
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "20944",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "ST PIERRE LATA BLUEBERRY LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 233.92
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "20941",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
           "fantasia": "TATUZINHO",
@@ -24661,7 +24661,7 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "30/04/2026",
-          "codcli": "20943",
+          "codcli": "20941",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
           "fantasia": "TATUZINHO",
@@ -24688,15 +24688,6 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "30/04/2026",
-          "codcli": "20941",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 122.38
-        },
-        {
-          "data": "30/04/2026",
           "codcli": "20943",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
@@ -24708,10 +24699,10 @@ const VENDAS_ES_DATA = {
           "data": "30/04/2026",
           "codcli": "20941",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "ST PIERRE LATA MARGARITA LT 24X270ML",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
           "fantasia": "TATUZINHO",
           "qt": 2,
-          "valor": 233.92
+          "valor": 122.38
         },
         {
           "data": "30/04/2026",
@@ -24726,7 +24717,7 @@ const VENDAS_ES_DATA = {
           "data": "30/04/2026",
           "codcli": "20941",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
+          "produto": "ST PIERRE LATA MARGARITA LT 24X270ML",
           "fantasia": "TATUZINHO",
           "qt": 2,
           "valor": 233.92
@@ -24739,6 +24730,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 116.96
+        },
+        {
+          "data": "30/04/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92
         },
         {
           "data": "30/04/2026",
@@ -33933,21 +33933,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "11/03/2026",
-          "codcli": "79333",
-          "cliente": "MARLENE GIESTAS STEIN",
-          "produto": "4 PACK RED BULL",
-          "fantasia": "RED BULL",
-          "qt": 6,
-          "valor": 131.76
-        },
-        {
-          "data": "11/03/2026",
           "codcli": "79244",
           "cliente": "20.093.920 MARCOS GONCALVES VIEIRA",
           "produto": "4 PACK RED BULL",
           "fantasia": "RED BULL",
           "qt": 7,
           "valor": 153.72
+        },
+        {
+          "data": "11/03/2026",
+          "codcli": "79333",
+          "cliente": "MARLENE GIESTAS STEIN",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 6,
+          "valor": 131.76
         },
         {
           "data": "12/03/2026",
@@ -34680,21 +34680,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "27/03/2026",
-          "codcli": "89965",
-          "cliente": "PADARIA E CONFEITARIA PRAIA DO CANTO LTDA",
-          "produto": "4 PACK RED BULL MORANGO PESSEGO",
-          "fantasia": "RED BULL",
-          "qt": 4,
-          "valor": 111.84
-        },
-        {
-          "data": "27/03/2026",
           "codcli": "76435",
           "cliente": "PADARIA E CONFEITARIA VITORIA LTDA",
           "produto": "4 PACK RED BULL MORANGO PESSEGO",
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 55.92
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "89965",
+          "cliente": "PADARIA E CONFEITARIA PRAIA DO CANTO LTDA",
+          "produto": "4 PACK RED BULL MORANGO PESSEGO",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 111.84
         },
         {
           "data": "30/03/2026",
@@ -35382,21 +35382,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "27/03/2026",
-          "codcli": "89965",
-          "cliente": "PADARIA E CONFEITARIA PRAIA DO CANTO LTDA",
-          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
-          "fantasia": "RED BULL",
-          "qt": 4,
-          "valor": 111.84
-        },
-        {
-          "data": "27/03/2026",
           "codcli": "76435",
           "cliente": "PADARIA E CONFEITARIA VITORIA LTDA",
           "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 55.92
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "89965",
+          "cliente": "PADARIA E CONFEITARIA PRAIA DO CANTO LTDA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 111.84
         },
         {
           "data": "27/03/2026",
@@ -61824,8 +61824,8 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "25/03/2026",
-          "codcli": "83939",
-          "cliente": "VNI DOCES E EMBALAGENS LTDA",
+          "codcli": "85234",
+          "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
           "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -61833,8 +61833,8 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "25/03/2026",
-          "codcli": "85234",
-          "cliente": "FARMACIA SANTA TEREZINHA DO MENINO JESUS LTDA",
+          "codcli": "83939",
+          "cliente": "VNI DOCES E EMBALAGENS LTDA",
           "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -71236,6 +71236,15 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "27/04/2026",
+          "codcli": "82540",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 3,
+          "valor": 390.6
+        },
+        {
+          "data": "27/04/2026",
           "codcli": "21217",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
           "produto": "NAVEIA ORIGINAL 12X1L",
@@ -71251,15 +71260,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 781.2
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82540",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 3,
-          "valor": 390.6
         },
         {
           "data": "27/04/2026",
@@ -71308,15 +71308,6 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "27/04/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 260.4
-        },
-        {
-          "data": "27/04/2026",
           "codcli": "82538",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA ORIGINAL 12X1L",
@@ -71350,6 +71341,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "NAVEIA",
           "qt": 6,
           "valor": 781.2
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 260.4
         },
         {
           "data": "27/04/2026",
@@ -71452,21 +71452,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "27/04/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4
-        },
-        {
-          "data": "27/04/2026",
           "codcli": "76071",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
           "fantasia": "NAVEIA",
           "qt": 5,
           "valor": 741.0
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4
         },
         {
           "data": "27/04/2026",
@@ -71497,21 +71497,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "27/04/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 889.2
-        },
-        {
-          "data": "27/04/2026",
           "codcli": "82541",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
           "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 296.4
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 889.2
         },
         {
           "data": "27/04/2026",
@@ -74721,21 +74721,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "21/05/2026",
-          "codcli": "82537",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 741.0
-        },
-        {
-          "data": "21/05/2026",
           "codcli": "82540",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA BARISTA 12X1L",
           "fantasia": "NAVEIA",
           "qt": 3,
           "valor": 444.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "82537",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 741.0
         },
         {
           "data": "21/05/2026",
@@ -74802,21 +74802,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "21/05/2026",
-          "codcli": "82537",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 889.2
-        },
-        {
-          "data": "21/05/2026",
           "codcli": "82540",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "NAVEIA CHOCOLATE 12X1L",
           "fantasia": "NAVEIA",
           "qt": 3,
           "valor": 444.6
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "82537",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 889.2
         },
         {
           "data": "21/05/2026",
@@ -76954,6 +76954,51 @@ const VENDAS_ES_DATA = {
           "valor": 77.6
         },
         {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 38.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 38.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 285.7
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY BANANOFFE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 312.72
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 312.72
+        },
+        {
           "data": "02/07/2026",
           "codcli": "82540",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
@@ -76999,6 +77044,15 @@ const VENDAS_ES_DATA = {
           "valor": 178.56
         },
         {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 85.46
+        },
+        {
           "data": "02/07/2026",
           "codcli": "76076",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
@@ -77026,6 +77080,33 @@ const VENDAS_ES_DATA = {
           "valor": 267.84
         },
         {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SLIM WHEY BEIJINHO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 107.43
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SLIM WHEY BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 107.43
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SLIM WHEY BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 50.24
+        },
+        {
           "data": "06/07/2026",
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -77044,6 +77125,33 @@ const VENDAS_ES_DATA = {
           "valor": 88.8
         },
         {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 95.23
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 285.7
+        },
+        {
           "data": "06/07/2026",
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -77060,6 +77168,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 88.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 16X4X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 16X4X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 95.23
         },
         {
           "data": "06/07/2026",
@@ -77073,6 +77199,15 @@ const VENDAS_ES_DATA = {
         {
           "data": "07/07/2026",
           "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "PINATI NUTS ZERO COCO 16X4X25G",
           "fantasia": "PINATI",
@@ -77096,6 +77231,33 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 88.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR DOCE DE LEITE 32X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 109.62
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY COOKIES AND CREAM 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 312.72
         },
         {
           "data": "06/07/2026",
@@ -77116,6 +77278,24 @@ const VENDAS_ES_DATA = {
           "valor": 69.81
         },
         {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 69.81
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 312.72
+        },
+        {
           "data": "07/07/2026",
           "codcli": "85439",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -77123,6 +77303,33 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 2,
           "valor": 77.6
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS COCO 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 79.36
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI CRUNCH WHEY DOCE DE LEITE 12X40G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 56.76
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR DOCE DE LEITE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 59.3
         },
         {
           "data": "06/07/2026",
@@ -77141,6 +77348,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 2,
           "valor": 98.61
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 49.3
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 59.3
         },
         {
           "data": "06/07/2026",
@@ -77152,6 +77377,15 @@ const VENDAS_ES_DATA = {
           "valor": 401.92
         },
         {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 59.3
+        },
+        {
           "data": "06/07/2026",
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -77168,6 +77402,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 2,
           "valor": 98.61
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SLIM WHEY BEIJINHO (4) 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 200.96
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SLIM WHEY BEIJINHO (4) 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 50.24
         },
         {
           "data": "06/07/2026",
@@ -77186,6 +77438,132 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1440,
           "valor": 23025.6
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 8,
+          "valor": 810.32
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LT GINGER LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 23,
+          "valor": 2329.67
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA AGUA TONICA TRAD 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 15,
+          "valor": 1519.35
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 19,
+          "valor": 1924.51
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 11,
+          "valor": 1114.19
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
+          "fantasia": "TATUZINHO",
+          "qt": 16,
+          "valor": 906.4
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO TONICA LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 14,
+          "valor": 793.1
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 13,
+          "valor": 736.45
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 13,
+          "valor": 736.45
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 25,
+          "valor": 1416.25
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 30,
+          "valor": 3247.2
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 20,
+          "valor": 2164.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 30,
+          "valor": 3247.2
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 25,
+          "valor": 2337.5
         }
       ]
     },
@@ -79245,21 +79623,21 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "02/03/2026",
-          "codcli": "76772",
-          "cliente": "J. MEROTO SUPERMERCADO",
-          "produto": "RC SARDINHA OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 221.7
-        },
-        {
-          "data": "02/03/2026",
           "codcli": "93302",
           "cliente": "CEREAIS CALEGARIO LTDA",
           "produto": "RC SARDINHA OLEO 50X125G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 2,
           "valor": 443.4
+        },
+        {
+          "data": "02/03/2026",
+          "codcli": "76772",
+          "cliente": "J. MEROTO SUPERMERCADO",
+          "produto": "RC SARDINHA OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 221.7
         },
         {
           "data": "02/03/2026",
@@ -79497,6 +79875,15 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "02/03/2026",
+          "codcli": "93423",
+          "cliente": "SUPERMERCADO FOLHA VERDE LTDA",
+          "produto": "RC SARDINHA TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 665.1
+        },
+        {
+          "data": "02/03/2026",
           "codcli": "93256",
           "cliente": "SUPERMERCADO CARVALHO LTDA",
           "produto": "RC SARDINHA TOMATE 50X125G",
@@ -79512,15 +79899,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 2,
           "valor": 443.4
-        },
-        {
-          "data": "02/03/2026",
-          "codcli": "93423",
-          "cliente": "SUPERMERCADO FOLHA VERDE LTDA",
-          "produto": "RC SARDINHA TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 665.1
         },
         {
           "data": "02/03/2026",
@@ -87186,7 +87564,7 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "29/04/2026",
-          "codcli": "81681",
+          "codcli": "81678",
           "cliente": "PARMA COMERCIAL LTDA",
           "produto": "NG AMOR CARIOCA BOMBOM 200G (10X20G)",
           "fantasia": "NOIG",
@@ -87195,7 +87573,7 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "29/04/2026",
-          "codcli": "81678",
+          "codcli": "81681",
           "cliente": "PARMA COMERCIAL LTDA",
           "produto": "NG AMOR CARIOCA BOMBOM 200G (10X20G)",
           "fantasia": "NOIG",
