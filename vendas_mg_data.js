@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "07/07/2026 18:19",
+  "atualizado_em": "07/07/2026 22:13",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 40717.18,
-        "pos": 34,
+        "fat": 43154.28,
+        "pos": 35,
         "fat_ant": 343937.59
       }
     },
@@ -82,8 +82,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 6366.3,
-        "pos": 8,
+        "fat": 7251.46,
+        "pos": 10,
         "fat_ant": 170667.78
       }
     },
@@ -204,7 +204,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 113212.08,
+        "fat": 117106.08,
         "pos": 5,
         "fat_ant": 1049712.9
       }
@@ -231,7 +231,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 13125.86,
+        "fat": 13817.14,
         "pos": 14,
         "fat_ant": 85308.22
       }
@@ -258,8 +258,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 53560.12
       },
       "Jul/26": {
-        "fat": 4209.98,
-        "pos": 7,
+        "fat": 5319.08,
+        "pos": 8,
         "fat_ant": 51108.92
       }
     }
@@ -44406,6 +44406,105 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "07/07/2026",
+          "codcli": "31643",
+          "cliente": "GISELE ATAIDE ANDRADE",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 149.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "31643",
+          "cliente": "GISELE ATAIDE ANDRADE",
+          "produto": "BEEFEATER PINK 700ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 299.6
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "31643",
+          "cliente": "GISELE ATAIDE ANDRADE",
+          "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 179.7
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "31643",
+          "cliente": "GISELE ATAIDE ANDRADE",
+          "produto": "WHISKY BALLANTINE'S SWEET BLEND 700ML",
+          "fantasia": "PERNOD RICARD BRASIL",
+          "qt": 3,
+          "valor": 179.7
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "31643",
+          "cliente": "GISELE ATAIDE ANDRADE",
+          "produto": "TEQUILA EL JIMADOR REPOSADO 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 629.4
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
+          "fantasia": "NSG",
+          "qt": 1,
+          "valor": 259.9
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 164.7
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 159.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO ARESTI RESERVA CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 239.7
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CERRO DE PEDRA PARC SAUV BLANC BCO 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 84.9
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37631",
+          "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO CAZAS NOVAS COLHEITA 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
+          "data": "07/07/2026",
           "codcli": "36006",
           "cliente": "CAMP NOU ARENA LTDA",
           "produto": "RED BULL ZERO 24X250ML",
@@ -52013,6 +52112,60 @@ const VENDAS_MG_DATA = {
           "fantasia": "BALLENA",
           "qt": 2,
           "valor": 231.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "35451",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CATAGUASES PLUS LTDA.",
+          "produto": "GIN ORLOFF 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 149.7
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "35451",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CATAGUASES PLUS LTDA.",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 2,
+          "valor": 231.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "35451",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CATAGUASES PLUS LTDA.",
+          "produto": "RUM BACARDI LIMON 980 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 97.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "35451",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CATAGUASES PLUS LTDA.",
+          "produto": "RUM BACARDI MOJITO 980ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 97.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "38575",
+          "cliente": "MARIA PAULINA VIEIRA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "38575",
+          "cliente": "MARIA PAULINA VIEIRA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 1,
+          "valor": 218.16
         }
       ]
     },
@@ -72508,6 +72661,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 348,
           "valor": 37201.2
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 60,
+          "valor": 3894.0
         }
       ]
     },
@@ -82333,6 +82495,24 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "07/07/2026",
+          "codcli": "39567",
+          "cliente": "DISTRITO BURITIS ENTRETENIMENTOS LTDA",
+          "produto": "VINHO ARESTI EST SEL SAUV BLANC 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39567",
+          "cliente": "DISTRITO BURITIS ENTRETENIMENTOS LTDA",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 307.6
+        },
+        {
+          "data": "07/07/2026",
           "codcli": "31944",
           "cliente": "THE BEAT TRAINING ACADEMIA DE GINASTICA LTDA",
           "produto": "RED BULL ZERO 24X250ML",
@@ -82366,6 +82546,24 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 37.08
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 178.0
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 95.88
         },
         {
           "data": "07/07/2026",
@@ -85744,6 +85942,24 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 69.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39542",
+          "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 598.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "39542",
+          "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 7,
+          "valor": 510.3
         },
         {
           "data": "07/07/2026",
