@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "07/07/2026 22:13",
+  "atualizado_em": "08/07/2026 19:08",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 43154.28,
-        "pos": 35,
+        "fat": 48191.42,
+        "pos": 40,
         "fat_ant": 343937.59
       }
     },
@@ -82,8 +82,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 7251.46,
-        "pos": 10,
+        "fat": 9241.06,
+        "pos": 12,
         "fat_ant": 170667.78
       }
     },
@@ -199,14 +199,14 @@ const VENDAS_MG_DATA = {
         "fat_ant": 1106013.96
       },
       "Jun/26": {
-        "fat": 1049712.9,
+        "fat": 1043277.9,
         "pos": 12,
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 117106.08,
+        "fat": 136888.08,
         "pos": 5,
-        "fat_ant": 1049712.9
+        "fat_ant": 1043277.9
       }
     },
     "TIAGO ANDRADE": {
@@ -231,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 13817.14,
-        "pos": 14,
+        "fat": 21182.02,
+        "pos": 21,
         "fat_ant": 85308.22
       }
     },
@@ -258,8 +258,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 53560.12
       },
       "Jul/26": {
-        "fat": 5319.08,
-        "pos": 8,
+        "fat": 8715.76,
+        "pos": 10,
         "fat_ant": 51108.92
       }
     }
@@ -44682,6 +44682,267 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 7,
           "valor": 300.3
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
+          "fantasia": "NSG",
+          "qt": 3,
+          "valor": 779.7
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 53.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 80.7
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE BLUEBERRY LN 275MLX12",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 113.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 53.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "XAROPE 1883 DE MOJITO MIX 1LT",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 55.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31643",
+          "cliente": "GISELE ATAIDE ANDRADE",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 182.16
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31643",
+          "cliente": "GISELE ATAIDE ANDRADE",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 364.32
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31643",
+          "cliente": "GISELE ATAIDE ANDRADE",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 182.16
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31643",
+          "cliente": "GISELE ATAIDE ANDRADE",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 364.32
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31643",
+          "cliente": "GISELE ATAIDE ANDRADE",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 298.5
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31643",
+          "cliente": "GISELE ATAIDE ANDRADE",
+          "produto": "VODKA ABSOLUT TABASCO - 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 85.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32411",
+          "cliente": "ARIFA'S BAR E RESTAURANTE LTDA",
+          "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 53.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32411",
+          "cliente": "ARIFA'S BAR E RESTAURANTE LTDA",
+          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 53.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32411",
+          "cliente": "ARIFA'S BAR E RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 31.96
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32411",
+          "cliente": "ARIFA'S BAR E RESTAURANTE LTDA",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 159.6
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32411",
+          "cliente": "ARIFA'S BAR E RESTAURANTE LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 48.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE BLUEBERRY LN 275MLX12",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 56.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 53.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "LIQUEUR JAGERMEISTER 700 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 149.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31386",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "XAROPE 1883 DE MANGA 1LT",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 68.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31777",
+          "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 245.04
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31777",
+          "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 219.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "39391",
+          "cliente": "MAGNIFICO LGP LTDA",
+          "produto": "CERVEJA AMSTEL RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 3,
+          "valor": 438.48
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "33182",
+          "cliente": "BUTECO FIADO LTDA",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 346.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "YVY DESTILADO VODKA 710ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 39.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "YVY DESTILADO VODKA 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 39.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "TEQUILA EL JIMADOR BLANCO 750 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 314.7
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "XAROPE MONIN GRENADINE 700 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
         }
       ]
     },
@@ -52166,6 +52427,114 @@ const VENDAS_MG_DATA = {
           "fantasia": "HEINEKEN BRASIL",
           "qt": 1,
           "valor": 218.16
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38181",
+          "cliente": "SUPERMERCADO NOVOS HORIZONTES METROPOLITANO LTDA",
+          "produto": "RUM BACARDI MOJITO 980ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 97.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38181",
+          "cliente": "SUPERMERCADO NOVOS HORIZONTES METROPOLITANO LTDA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 87.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38187",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE MELO VIANA LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 169.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38187",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE MELO VIANA LTDA",
+          "produto": "GIN ORLOFF 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38187",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE MELO VIANA LTDA",
+          "produto": "RUM BACARDI CARTA BLANCA 980 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 97.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38187",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE MELO VIANA LTDA",
+          "produto": "RUM MALIBU 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38181",
+          "cliente": "SUPERMERCADO NOVOS HORIZONTES METROPOLITANO LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 259.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38187",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE MELO VIANA LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 259.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38187",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE MELO VIANA LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 259.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38181",
+          "cliente": "SUPERMERCADO NOVOS HORIZONTES METROPOLITANO LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 259.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38187",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE MELO VIANA LTDA",
+          "produto": "WHISKY BALLANTINES 10 YO 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 199.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38181",
+          "cliente": "SUPERMERCADO NOVOS HORIZONTES METROPOLITANO LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 87.8
         }
       ]
     },
@@ -72556,15 +72925,6 @@ const VENDAS_MG_DATA = {
           "data": "30/06/2026",
           "codcli": "38039",
           "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-          "produto": "VODKA SMIRNOFF RED PET 1750ML",
-          "fantasia": "",
-          "qt": 150,
-          "valor": 6435.0
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "38039",
-          "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
           "produto": "VODKA SMIRNOFF RED 998 ML",
           "fantasia": "",
           "qt": 120,
@@ -72670,6 +73030,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "MSLR",
           "qt": 60,
           "valor": 3894.0
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 180,
+          "valor": 19782.0
         }
       ]
     },
@@ -82396,33 +82765,6 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "06/07/2026",
-          "codcli": "31529",
-          "cliente": "MASSAS MADONINA LTDA",
-          "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 419.4
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "31529",
-          "cliente": "MASSAS MADONINA LTDA",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 461.4
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "31529",
-          "cliente": "MASSAS MADONINA LTDA",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 479.4
-        },
-        {
-          "data": "06/07/2026",
           "codcli": "36311",
           "cliente": "COMERCIAL TROPICO LTDA",
           "produto": "WHISKY JACK DANIELS 375 ML",
@@ -82573,6 +82915,303 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 8,
           "valor": 839.2
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 56.7
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL ROSE 187ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 37.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 219.6
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 219.6
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL SAUV BLANC 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 164.7
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VILLA ROSA COLHEITA BRANCO 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VILLA ROSA COLHEITA ROSE 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 153.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 159.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36021",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36021",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36021",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36021",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 479.4
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO BRANCO BURDIZZO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 449.4
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 419.4
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 187.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 7,
+          "valor": 202.3
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 297.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 72.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36021",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 187.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36021",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 599.6
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "36027",
+          "cliente": "ORGANIZACAO MAAS LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31547",
+          "cliente": "MEET PORCAO LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 546.48
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31547",
+          "cliente": "MEET PORCAO LTDA",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 364.32
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31547",
+          "cliente": "MEET PORCAO LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 182.16
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "37622",
+          "cliente": "KESCO ENGENHARIA E COMERCIO LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 2,
+          "valor": 436.32
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32231",
+          "cliente": "DOISMAISUM EMPREENDIMENTOS GASTRONOMICOS LTDA",
+          "produto": "VERMUT ARG CARPANO ROSSO 950 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 116.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32231",
+          "cliente": "DOISMAISUM EMPREENDIMENTOS GASTRONOMICOS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 76.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32231",
+          "cliente": "DOISMAISUM EMPREENDIMENTOS GASTRONOMICOS LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 122.0
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "35888",
+          "cliente": "SUSHI MIX PAMPULHA LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 182.16
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "35888",
+          "cliente": "SUSHI MIX PAMPULHA LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 364.32
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "35888",
+          "cliente": "SUSHI MIX PAMPULHA LTDA",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 364.32
         }
       ]
     },
@@ -86032,6 +86671,123 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 119.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "35813",
+          "cliente": "CHAMA DISTRIBUIDORA LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 164.7
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "35813",
+          "cliente": "CHAMA DISTRIBUIDORA LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC ROSE",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 164.7
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "35813",
+          "cliente": "CHAMA DISTRIBUIDORA LTDA",
+          "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 54.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "35813",
+          "cliente": "CHAMA DISTRIBUIDORA LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 1092.96
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "35813",
+          "cliente": "CHAMA DISTRIBUIDORA LTDA",
+          "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 54.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "34401",
+          "cliente": "ADEGA DO THIAGUINHO LTDA.",
+          "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 117.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "35813",
+          "cliente": "CHAMA DISTRIBUIDORA LTDA",
+          "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 54.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "34401",
+          "cliente": "ADEGA DO THIAGUINHO LTDA.",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 598.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "35813",
+          "cliente": "CHAMA DISTRIBUIDORA LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 3,
+          "valor": 179.7
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "34401",
+          "cliente": "ADEGA DO THIAGUINHO LTDA.",
+          "produto": "WHISKY JACK DANIELS 375 ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 274.5
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "35813",
+          "cliente": "CHAMA DISTRIBUIDORA LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 182.16
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "35813",
+          "cliente": "CHAMA DISTRIBUIDORA LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 182.16
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "34401",
+          "cliente": "ADEGA DO THIAGUINHO LTDA.",
+          "produto": "WHISKY JACK DANIELS HONEY 375ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 274.5
         }
       ]
     }
