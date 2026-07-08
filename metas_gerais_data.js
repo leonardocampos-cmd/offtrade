@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "07/07/2026 20:39",
+  "atualizado_em": "07/07/2026 21:57",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 7,
   "dias_no_mes": 31,
   "dias_restantes": 24,
   "resumo": {
-    "fat": 1893170.57,
+    "fat": 1954920.16,
     "fat_ant": 1606749.72,
     "fat_ant_completo": 13164558.9,
-    "pos": 522,
+    "pos": 532,
     "pos_ant": 454,
     "pos_ant_completo": 1803
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 1893170.57,
+    "fat": 1954920.16,
     "fat_ant": 1606749.72,
     "fat_ant_completo": 13164558.9,
-    "pct": 13.1,
-    "nec_dia": 521117.89
+    "pct": 13.6,
+    "nec_dia": 518544.99
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 457175.97,
+      "fat": 458134.85,
       "fat_ant": 386587.67,
       "pos": 224,
       "pct": 11.7,
-      "nec_dia": 143451.0,
+      "nec_dia": 143411.05,
       "fat_ant_completo": 2711112.29,
       "pos_ant": 204,
       "pos_ant_completo": 743
@@ -39,11 +39,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 6600000.0,
-      "fat": 1155746.98,
+      "fat": 1216537.69,
       "fat_ant": 836093.89,
-      "pos": 212,
-      "pct": 17.5,
-      "nec_dia": 226843.88,
+      "pos": 222,
+      "pct": 18.4,
+      "nec_dia": 224310.93,
       "fat_ant_completo": 7702176.74,
       "pos_ant": 159,
       "pos_ant_completo": 641
@@ -77,6 +77,28 @@ const METAS_GERAIS_DATA = {
   ],
   "industrias": [
     {
+      "fantasia": "PERNOD",
+      "fat": 792568.3,
+      "fat_ant": 525887.21,
+      "por_estado": {
+        "RJ": 124761.61,
+        "SP": 664943.13,
+        "ES": 2863.56,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "BROWN",
+      "fat": 226476.8,
+      "fat_ant": 188476.92,
+      "por_estado": {
+        "RJ": 3121.94,
+        "SP": 223354.86,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
       "fantasia": "SEM FORNECEDOR",
       "fat": 153886.64,
       "fat_ant": 240475.94,
@@ -88,12 +110,23 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "PERNOD",
-      "fat": 124761.61,
-      "fat_ant": 525887.21,
+      "fantasia": "ROBINSON CRUSOE",
+      "fat": 95276.38,
+      "fat_ant": 34106.24,
       "por_estado": {
-        "RJ": 124761.61,
+        "RJ": 51253.23,
         "SP": 0.0,
+        "ES": 44023.15,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "AURORA",
+      "fat": 67952.76,
+      "fat_ant": 28040.04,
+      "por_estado": {
+        "RJ": 6177.28,
+        "SP": 61775.48,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -110,44 +143,110 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "ROBINSON CRUSOE",
-      "fat": 51253.23,
-      "fat_ant": 34106.24,
+      "fantasia": "MOET HENNESY",
+      "fat": 58948.7,
+      "fat_ant": 7783.3,
       "por_estado": {
-        "RJ": 51253.23,
-        "SP": 0.0,
+        "RJ": 0.0,
+        "SP": 58948.7,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "BEAM SUNTORY BRASIL",
+      "fat": 54619.89,
+      "fat_ant": 15501.22,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 45899.71,
+        "ES": 0.0,
+        "MG": 8720.18
+      }
+    },
+    {
+      "fantasia": "BACARDI",
+      "fat": 49591.91,
+      "fat_ant": 25024.33,
+      "por_estado": {
+        "RJ": 1769.42,
+        "SP": 47822.49,
         "ES": 0.0,
         "MG": 0.0
       }
     },
     {
       "fantasia": "RED BULL",
-      "fat": 46987.46,
+      "fat": 47992.38,
       "fat_ant": 177462.99,
       "por_estado": {
         "RJ": 46987.46,
         "SP": 0.0,
+        "ES": 1004.92,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "TATUZINHO",
+      "fat": 45371.24,
+      "fat_ant": 21246.8,
+      "por_estado": {
+        "RJ": 17728.04,
+        "SP": 2786.4,
+        "ES": 24856.8,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "DIAGEO",
+      "fat": 39830.2,
+      "fat_ant": 75816.11,
+      "por_estado": {
+        "RJ": 20290.35,
+        "SP": 19539.85,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "BALLENA",
+      "fat": 32878.94,
+      "fat_ant": 2764.4,
+      "por_estado": {
+        "RJ": 1050.9,
+        "SP": 30205.44,
+        "ES": 0.0,
+        "MG": 1622.6
+      }
+    },
+    {
+      "fantasia": "CRS BRANDS",
+      "fat": 30528.53,
+      "fat_ant": 13947.96,
+      "por_estado": {
+        "RJ": 1756.28,
+        "SP": 28772.25,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "FANTE",
+      "fat": 29059.3,
+      "fat_ant": 49292.87,
+      "por_estado": {
+        "RJ": 14643.77,
+        "SP": 14415.53,
         "ES": 0.0,
         "MG": 0.0
       }
     },
     {
       "fantasia": "KAISER",
-      "fat": 23209.03,
+      "fat": 23280.91,
       "fat_ant": 6508.18,
       "por_estado": {
-        "RJ": 23209.03,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "DIAGEO",
-      "fat": 20290.35,
-      "fat_ant": 75816.11,
-      "por_estado": {
-        "RJ": 20290.35,
+        "RJ": 23280.91,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
@@ -155,33 +254,22 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CASA PERINI",
-      "fat": 19034.8,
+      "fat": 19175.5,
       "fat_ant": 14957.1,
       "por_estado": {
-        "RJ": 19034.8,
+        "RJ": 19175.5,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
       }
     },
     {
-      "fantasia": "TATUZINHO",
-      "fat": 17065.14,
-      "fat_ant": 21246.8,
+      "fantasia": "INTERFOOD",
+      "fat": 13415.39,
+      "fat_ant": 15595.86,
       "por_estado": {
-        "RJ": 17065.14,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "FANTE",
-      "fat": 14560.37,
-      "fat_ant": 49292.87,
-      "por_estado": {
-        "RJ": 14560.37,
-        "SP": 0.0,
+        "RJ": 7475.5,
+        "SP": 5939.89,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -199,11 +287,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CASTAS",
-      "fat": 11862.9,
+      "fat": 12699.3,
       "fat_ant": 31502.6,
       "por_estado": {
         "RJ": 11862.9,
-        "SP": 0.0,
+        "SP": 836.4,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -220,14 +308,25 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "BEAM SUNTORY BRASIL",
-      "fat": 8720.18,
-      "fat_ant": 15501.22,
+      "fantasia": "PINATI",
+      "fat": 8618.35,
+      "fat_ant": 1123.81,
       "por_estado": {
-        "RJ": 0.0,
+        "RJ": 755.54,
         "SP": 0.0,
+        "ES": 7862.81,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "CAMPARI",
+      "fat": 8597.45,
+      "fat_ant": 3806.76,
+      "por_estado": {
+        "RJ": 1283.65,
+        "SP": 7313.8,
         "ES": 0.0,
-        "MG": 8720.18
+        "MG": 0.0
       }
     },
     {
@@ -242,13 +341,13 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "INTERFOOD",
-      "fat": 7475.5,
-      "fat_ant": 15595.86,
+      "fantasia": "DADINHO",
+      "fat": 7862.86,
+      "fat_ant": 541.14,
       "por_estado": {
-        "RJ": 7475.5,
+        "RJ": 0.0,
         "SP": 0.0,
-        "ES": 0.0,
+        "ES": 7862.86,
         "MG": 0.0
       }
     },
@@ -258,17 +357,6 @@ const METAS_GERAIS_DATA = {
       "fat_ant": 21197.56,
       "por_estado": {
         "RJ": 6237.96,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "AURORA",
-      "fat": 6177.28,
-      "fat_ant": 28040.04,
-      "por_estado": {
-        "RJ": 6177.28,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
@@ -297,13 +385,13 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "BROWN",
-      "fat": 3121.94,
-      "fat_ant": 188476.92,
+      "fantasia": "NAVEIA",
+      "fat": 4168.24,
+      "fat_ant": 0.0,
       "por_estado": {
-        "RJ": 3121.94,
+        "RJ": 0.0,
         "SP": 0.0,
-        "ES": 0.0,
+        "ES": 4168.24,
         "MG": 0.0
       }
     },
@@ -316,17 +404,6 @@ const METAS_GERAIS_DATA = {
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "BALLENA",
-      "fat": 2673.5,
-      "fat_ant": 2764.4,
-      "por_estado": {
-        "RJ": 1050.9,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 1622.6
       }
     },
     {
@@ -352,28 +429,6 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "BACARDI",
-      "fat": 1769.42,
-      "fat_ant": 25024.33,
-      "por_estado": {
-        "RJ": 1769.42,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "CRS BRANDS",
-      "fat": 1756.28,
-      "fat_ant": 13947.96,
-      "por_estado": {
-        "RJ": 1756.28,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
       "fantasia": "HOB",
       "fat": 1312.75,
       "fat_ant": 6031.2,
@@ -385,56 +440,89 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "CAMPARI",
-      "fat": 1283.65,
-      "fat_ant": 3806.76,
+      "fantasia": "COMARY",
+      "fat": 1264.03,
+      "fat_ant": 1463.32,
       "por_estado": {
-        "RJ": 1283.65,
-        "SP": 0.0,
+        "RJ": 1182.94,
+        "SP": 81.09,
         "ES": 0.0,
         "MG": 0.0
       }
     },
     {
-      "fantasia": "COMARY",
-      "fat": 1182.94,
-      "fat_ant": 1463.32,
+      "fantasia": "TOP BIRRA",
+      "fat": 1258.32,
+      "fat_ant": 1258.2,
       "por_estado": {
-        "RJ": 1182.94,
-        "SP": 0.0,
+        "RJ": 0.0,
+        "SP": 1258.32,
         "ES": 0.0,
         "MG": 0.0
       }
     },
     {
       "fantasia": "STOCK",
-      "fat": 1048.98,
+      "fat": 1146.99,
       "fat_ant": 2229.14,
       "por_estado": {
         "RJ": 1048.98,
-        "SP": 0.0,
+        "SP": 98.01,
         "ES": 0.0,
         "MG": 0.0
       }
     },
     {
       "fantasia": "JURUPINGA",
-      "fat": 996.0,
+      "fat": 1072.16,
       "fat_ant": 1823.52,
       "por_estado": {
         "RJ": 996.0,
-        "SP": 0.0,
+        "SP": 76.16,
         "ES": 0.0,
         "MG": 0.0
       }
     },
     {
-      "fantasia": "PINATI",
-      "fat": 755.54,
-      "fat_ant": 1123.81,
+      "fantasia": "FABBRI",
+      "fat": 957.24,
+      "fat_ant": 0.0,
       "por_estado": {
-        "RJ": 755.54,
+        "RJ": 0.0,
         "SP": 0.0,
+        "ES": 957.24,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "NUTRIFRIOS",
+      "fat": 898.2,
+      "fat_ant": 798.4,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 898.2,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "LUCIA",
+      "fat": 856.7,
+      "fat_ant": 23832.0,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 856.7,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "INVICTUS",
+      "fat": 572.28,
+      "fat_ant": 0.0,
+      "por_estado": {
+        "RJ": 397.68,
+        "SP": 174.6,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -451,12 +539,12 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "INVICTUS",
-      "fat": 397.68,
-      "fat_ant": 0.0,
+      "fantasia": "PERINI",
+      "fat": 478.8,
+      "fat_ant": 277.65,
       "por_estado": {
-        "RJ": 397.68,
-        "SP": 0.0,
+        "RJ": 0.0,
+        "SP": 478.8,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -528,12 +616,12 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "DUBAR",
-      "fat": 35.6,
-      "fat_ant": 0.0,
+      "fantasia": "BANANINHA CARIOCA",
+      "fat": 61.86,
+      "fat_ant": 59.9,
       "por_estado": {
-        "RJ": 35.6,
-        "SP": 0.0,
+        "RJ": 0.0,
+        "SP": 61.86,
         "ES": 0.0,
         "MG": 0.0
       }
