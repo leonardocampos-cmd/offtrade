@@ -96,6 +96,21 @@ def main():
             print("[AVISO] exportacao_amarula falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
+        step("4/8 - Campanha Robson Crusoe (crusoe_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "campanha_crusoe.py"],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] campanha_crusoe falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] campanha_crusoe falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
         step("4/8 - Conferência de preços")
         try:
             import conferencia_preco
