@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "07/07/2026 18:20",
+  "atualizado_em": "08/07/2026 19:08",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -507,44 +507,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50196",
-        "cliente": "ADEGA RODRIGUES LTDA",
-        "bairro": "JARDIM ANA ESTELA",
-        "dtultcomp": "10/06/2026",
-        "produtos": [
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 120,
-            "valor": 3108.0
-          },
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 24,
-            "valor": 1557.6
-          },
-          {
-            "produto": "GIN ROCKS 1LT",
-            "fantasia": "FANTE",
-            "qt": 36,
-            "valor": 739.8
-          },
-          {
-            "produto": "MARTINI ROSSO 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 12,
-            "valor": 372.12
-          },
-          {
-            "produto": "RUM BACARDI GOLD 980ML",
-            "fantasia": "BACARDI",
-            "qt": 12,
-            "valor": 398.4
-          }
-        ]
-      },
-      {
         "codcli": "50088",
         "cliente": "PARTY PLAY COMERCIO DE BEBIDAS LTDA",
         "bairro": "PARQUE RESIDENCIAL AEROPORTO",
@@ -827,20 +789,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "27228",
-        "cliente": "BOB PECHINCA ATACADISTA LTDA",
-        "bairro": "CHACARA SANTA MARIA",
-        "dtultcomp": "22/06/2026",
-        "produtos": [
-          {
-            "produto": "LICOR 43 DIEGO ZAMORA 700ML",
-            "fantasia": "AURORA",
-            "qt": 60,
-            "valor": 7014.0
-          }
-        ]
-      },
-      {
         "codcli": "49494",
         "cliente": "COMERCIO DE BEBIDAS JAU LTDA",
         "bairro": "1ª ZONA INDUSTRIAL",
@@ -1096,6 +1044,13 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "51048",
+        "cliente": "SIM EMPREENDIMENTOS COMERCIAIS - SUPERMERCADOS LTDA",
+        "bairro": "JARDIM DAS CEREJEIRAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51052",
         "cliente": "SIM EMPREENDIMENTOS COMERCIAIS - SUPERMERCADOS LTDA",
         "bairro": "PARQUE BRASIL",
@@ -1110,23 +1065,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51048",
-        "cliente": "SIM EMPREENDIMENTOS COMERCIAIS - SUPERMERCADOS LTDA",
-        "bairro": "JARDIM DAS CEREJEIRAS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51050",
         "cliente": "SIM EMPREENDIMENTOS COMERCIAIS - SUPERMERCADOS LTDA",
         "bairro": "JARDIM DO LIMAO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51051",
-        "cliente": "SIM EMPREENDIMENTOS COMERCIAIS SUPERMERCADOS LTDA",
-        "bairro": "PARQUE DOS ESTADOS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -1138,16 +1079,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51042",
-        "cliente": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
-        "bairro": "MATADOURO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51049",
-        "cliente": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
-        "bairro": "PARQUE DAS ROSAS",
+        "codcli": "51051",
+        "cliente": "SIM EMPREENDIMENTOS COMERCIAIS SUPERMERCADOS LTDA",
+        "bairro": "PARQUE DOS ESTADOS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -1166,9 +1100,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51039",
-        "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
-        "bairro": "CENTRO",
+        "codcli": "51042",
+        "cliente": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
+        "bairro": "MATADOURO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51049",
+        "cliente": "UNIAO COMERCIO ATACADISTA E VAREJISTA LTDA",
+        "bairro": "PARQUE DAS ROSAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -1180,23 +1121,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51030",
-        "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51031",
-        "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51038",
         "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
         "bairro": "JARDIM ÁGUAS CLARAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51030",
+        "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -1222,9 +1156,23 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51031",
+        "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51041",
         "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
         "bairro": "ALVINÓPOLIS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51039",
+        "cliente": "UNISUPER UNIAO SUPERMERCADO LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -1432,20 +1380,13 @@ const NAO_POS_SP_DATA = {
         "bairro": "JARDIM VERONIA",
         "dtultcomp": "nan",
         "produtos": []
-      },
-      {
-        "codcli": "51452",
-        "cliente": "MARCO ANTONIO DE FARIA BEBIDAS LTDA",
-        "bairro": "JARDIM NAIR",
-        "dtultcomp": "nan",
-        "produtos": []
       }
     ],
     "ANDRE PINHEIRO": [
       {
-        "codcli": "23144",
+        "codcli": "23791",
         "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
-        "bairro": "BELA VISTA",
+        "bairro": "CIDADE JARDIM",
         "dtultcomp": "26/05/2026",
         "produtos": [
           {
@@ -1457,9 +1398,9 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "23791",
+        "codcli": "23144",
         "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
-        "bairro": "CIDADE JARDIM",
+        "bairro": "BELA VISTA",
         "dtultcomp": "26/05/2026",
         "produtos": [
           {
@@ -1699,50 +1640,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "BEAM SUNTORY BRASIL",
             "qt": 1,
             "valor": 716.17
-          }
-        ]
-      },
-      {
-        "codcli": "49264",
-        "cliente": "52.593.451 ALEX DE OLIVEIRA PENELLE",
-        "bairro": "JARDIM LÍBANO",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN BOMBAY SAPPHIRE 750ML",
-            "fantasia": "BACARDI",
-            "qt": 1,
-            "valor": 70.9
-          },
-          {
-            "produto": "GIN TANQUERAY ROYALE 700 ML",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 85.14
-          },
-          {
-            "produto": "RUM MALIBU 750ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 85.8
-          },
-          {
-            "produto": "WHISKY BALLANTINE S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 4,
-            "valor": 223.6
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 4,
-            "valor": 251.6
-          },
-          {
-            "produto": "WHISKY PASSPORT 1L",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 67.2
           }
         ]
       },
@@ -2212,120 +2109,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "49459",
-        "cliente": "EXAMINE SUPERMERCADOS LTDA",
-        "bairro": "JARDIM CIDADE AZUL",
-        "dtultcomp": "16/04/2026",
-        "produtos": [
-          {
-            "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
-            "fantasia": "BROWN",
-            "qt": 2,
-            "valor": 299.8
-          },
-          {
-            "produto": "GIN BEEFEATER PINK 750ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 129.8
-          },
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 12,
-            "valor": 1054.68
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 12,
-            "valor": 1174.68
-          },
-          {
-            "produto": "RUM BACARDI CARTA BLANCA 980ML",
-            "fantasia": "BACARDI",
-            "qt": 4,
-            "valor": 137.68
-          },
-          {
-            "produto": "VODKA ABSOLUT ELYX 750ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 146.48
-          }
-        ]
-      },
-      {
-        "codcli": "49458",
-        "cliente": "EXAMINE SUPERMERCADOS LTDA",
-        "bairro": "JARDIM ANHANGÜERA",
-        "dtultcomp": "16/04/2026",
-        "produtos": [
-          {
-            "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
-            "fantasia": "BROWN",
-            "qt": 4,
-            "valor": 599.6
-          },
-          {
-            "produto": "VODKA ABSOLUT ELYX 750ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 292.96
-          }
-        ]
-      },
-      {
-        "codcli": "49455",
-        "cliente": "EXAMINE SUPERMERCADOS LTDA",
-        "bairro": "BAIRRO DO CASCALHO",
-        "dtultcomp": "16/04/2026",
-        "produtos": [
-          {
-            "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
-            "fantasia": "BROWN",
-            "qt": 2,
-            "valor": 299.8
-          },
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 51.8
-          },
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 12,
-            "valor": 1054.68
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 12,
-            "valor": 1174.68
-          },
-          {
-            "produto": "RUM BACARDI BIG APPLE 700ML",
-            "fantasia": "BACARDI",
-            "qt": 4,
-            "valor": 120.2
-          },
-          {
-            "produto": "RUM BACARDI CARTA BLANCA 980ML",
-            "fantasia": "BACARDI",
-            "qt": 4,
-            "valor": 137.68
-          },
-          {
-            "produto": "VODKA ABSOLUT ELYX 750ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 146.48
-          }
-        ]
-      },
-      {
         "codcli": "49463",
         "cliente": "EXAMINE SUPERMERCADOS LTDA",
         "bairro": "VILA ALEMÃ",
@@ -2378,6 +2161,56 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 12,
             "valor": 402.0
+          }
+        ]
+      },
+      {
+        "codcli": "49455",
+        "cliente": "EXAMINE SUPERMERCADOS LTDA",
+        "bairro": "BAIRRO DO CASCALHO",
+        "dtultcomp": "16/04/2026",
+        "produtos": [
+          {
+            "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
+            "fantasia": "BROWN",
+            "qt": 2,
+            "valor": 299.8
+          },
+          {
+            "produto": "CONHAQUE DOMECQ 1L",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 51.8
+          },
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 12,
+            "valor": 1054.68
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 12,
+            "valor": 1174.68
+          },
+          {
+            "produto": "RUM BACARDI BIG APPLE 700ML",
+            "fantasia": "BACARDI",
+            "qt": 4,
+            "valor": 120.2
+          },
+          {
+            "produto": "RUM BACARDI CARTA BLANCA 980ML",
+            "fantasia": "BACARDI",
+            "qt": 4,
+            "valor": 137.68
+          },
+          {
+            "produto": "VODKA ABSOLUT ELYX 750ML",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 146.48
           }
         ]
       },
@@ -3188,6 +3021,20 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "48171",
+        "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
+        "bairro": "VELOSO",
+        "dtultcomp": "07/05/2026",
+        "produtos": [
+          {
+            "produto": "RUM MONTILLA OURO 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 269.64
+          }
+        ]
+      },
+      {
         "codcli": "48166",
         "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
         "bairro": "JARDIM VALO VELHO",
@@ -3204,20 +3051,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "BEAM SUNTORY BRASIL",
             "qt": 12,
             "valor": 769.2
-          }
-        ]
-      },
-      {
-        "codcli": "48171",
-        "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
-        "bairro": "VELOSO",
-        "dtultcomp": "07/05/2026",
-        "produtos": [
-          {
-            "produto": "RUM MONTILLA OURO 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 269.64
           }
         ]
       },
@@ -3664,6 +3497,38 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "36188",
+        "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
+        "bairro": "JARDIM ELIANA",
+        "dtultcomp": "25/06/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO LUCIA 750ML",
+            "fantasia": "LUCIA",
+            "qt": 6,
+            "valor": 395.4
+          },
+          {
+            "produto": "JIM BEAM BLACK CHERRY 1L",
+            "fantasia": "BEAM SUNTORY BRASIL",
+            "qt": 60,
+            "valor": 3774.0
+          },
+          {
+            "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+            "fantasia": "AURORA",
+            "qt": 30,
+            "valor": 3417.0
+          },
+          {
+            "produto": "WHISKY CHANCELER 1L",
+            "fantasia": "CRS BRANDS",
+            "qt": 120,
+            "valor": 1558.8
+          }
+        ]
+      },
+      {
         "codcli": "36191",
         "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
         "bairro": "BALNEARIO MAR PAULISTA",
@@ -3706,38 +3571,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "AURORA",
             "qt": 90,
             "valor": 10251.0
-          },
-          {
-            "produto": "WHISKY CHANCELER 1L",
-            "fantasia": "CRS BRANDS",
-            "qt": 120,
-            "valor": 1558.8
-          }
-        ]
-      },
-      {
-        "codcli": "36188",
-        "cliente": "707 AUTO SERVICO DE ALIMENTOS LTDA",
-        "bairro": "JARDIM ELIANA",
-        "dtultcomp": "25/06/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO LUCIA 750ML",
-            "fantasia": "LUCIA",
-            "qt": 6,
-            "valor": 395.4
-          },
-          {
-            "produto": "JIM BEAM BLACK CHERRY 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 60,
-            "valor": 3774.0
-          },
-          {
-            "produto": "LICOR 43 DIEGO ZAMORA 700ML",
-            "fantasia": "AURORA",
-            "qt": 30,
-            "valor": 3417.0
           },
           {
             "produto": "WHISKY CHANCELER 1L",
@@ -3922,6 +3755,26 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "48421",
+        "cliente": "REDE PLUS SUPERMERCADOS LTDA",
+        "bairro": "VILA FANTON",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "CONHAQUE DOMECQ 1L",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 167.4
+          },
+          {
+            "produto": "WHISKEY JACK DANIELS HONEY 1 L",
+            "fantasia": "BROWN",
+            "qt": 3,
+            "valor": 299.7
+          }
+        ]
+      },
+      {
         "codcli": "48422",
         "cliente": "REDE PLUS SUPERMERCADOS LTDA",
         "bairro": "PIRITUBA",
@@ -3980,26 +3833,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "BEAM SUNTORY BRASIL",
             "qt": 3,
             "valor": 188.7
-          }
-        ]
-      },
-      {
-        "codcli": "48421",
-        "cliente": "REDE PLUS SUPERMERCADOS LTDA",
-        "bairro": "VILA FANTON",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 167.4
-          },
-          {
-            "produto": "WHISKEY JACK DANIELS HONEY 1 L",
-            "fantasia": "BROWN",
-            "qt": 3,
-            "valor": 299.7
           }
         ]
       },
@@ -4687,13 +4520,6 @@ const NAO_POS_SP_DATA = {
     ],
     "CELSO OLIVEIRA": [
       {
-        "codcli": "51448",
-        "cliente": "CLAUDINEI TRAVESSOLO MINIMERCADO",
-        "bairro": "JARDIM SÃO BENEDITO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51318",
         "cliente": "GREEN CERVEJA E CIA LTDA",
         "bairro": "JARDIM ELDORADO",
@@ -4701,28 +4527,14 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51334",
-        "cliente": "PAULO JOSE SALINA & CIA LTDA",
-        "bairro": "JARDIM AMERICA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51324",
+        "codcli": "51325",
         "cliente": "PAULO JOSE SALINA & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51323",
-        "cliente": "PAULO JOSE SALINA & CIA LTDA",
-        "bairro": "TERRAS DE SÃO JOAQUIM II",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51325",
+        "codcli": "51324",
         "cliente": "PAULO JOSE SALINA & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -5085,50 +4897,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "TATUZINHO",
             "qt": 36,
             "valor": 464.4
-          }
-        ]
-      },
-      {
-        "codcli": "50313",
-        "cliente": "SUPERMERCADO RND LTDA",
-        "bairro": "SÃO GONÇALO",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "CACHACA VELHO BARREIRO 910 ML",
-            "fantasia": "TATUZINHO",
-            "qt": 12,
-            "valor": 154.8
-          },
-          {
-            "produto": "CONHAQUE DREHER 900ML",
-            "fantasia": "CAMPARI",
-            "qt": 3,
-            "valor": 50.7
-          },
-          {
-            "produto": "GIN ROCKS STRAWBERRY 1LT",
-            "fantasia": "FANTE",
-            "qt": 1,
-            "valor": 20.54
-          },
-          {
-            "produto": "GIN ROCKS WATERMELON 1LT",
-            "fantasia": "FANTE",
-            "qt": 1,
-            "valor": 20.54
-          },
-          {
-            "produto": "SMIRNOFF ICE 24X275ML LONG",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 125.9
-          },
-          {
-            "produto": "WHISKY CHANCELER 1L",
-            "fantasia": "CRS BRANDS",
-            "qt": 3,
-            "valor": 44.82
           }
         ]
       },
@@ -6206,44 +5974,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51194",
+        "codcli": "51203",
         "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
-        "bairro": "VILA MATILDE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51205",
-        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51202",
-        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
-        "bairro": "RESIDENCIAL E COMERCIAL CIDADE JARDIM",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51200",
-        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
-        "bairro": "VILA GUAIANAZES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51198",
-        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
-        "bairro": "CAMPUS DO CTA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51193",
-        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
-        "bairro": "VILA ANTÔNIO AUGUSTO LUIZ",
+        "bairro": "VILA MENINO JESUS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6255,6 +5988,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51204",
+        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
+        "bairro": "VILA MENINO JESUS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51201",
         "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
         "bairro": "CENTRO",
@@ -6262,9 +6002,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51204",
+        "codcli": "51198",
         "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
-        "bairro": "VILA MENINO JESUS",
+        "bairro": "CAMPUS DO CTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51205",
+        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6276,23 +6023,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51203",
-        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
-        "bairro": "VILA MENINO JESUS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51206",
         "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
         "bairro": "CONJUNTO RESIDENCIAL TRINTA E UM DE MARÇ",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51195",
-        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
-        "bairro": "URBANOVA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6304,16 +6037,44 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51192",
-        "cliente": "CVS SUPERMERCADOS LTDA",
-        "bairro": "JARDIM ALLAH",
+        "codcli": "51193",
+        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
+        "bairro": "VILA ANTÔNIO AUGUSTO LUIZ",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51545",
-        "cliente": "EMPORIO ANDROMEDA LTDA",
-        "bairro": "BOSQUE DOS EUCALIPTOS",
+        "codcli": "51194",
+        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
+        "bairro": "VILA MATILDE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51200",
+        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
+        "bairro": "VILA GUAIANAZES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51195",
+        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
+        "bairro": "URBANOVA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51202",
+        "cliente": "COMERCIAL VILLA SIMPATIA LTDA",
+        "bairro": "RESIDENCIAL E COMERCIAL CIDADE JARDIM",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51192",
+        "cliente": "CVS SUPERMERCADOS LTDA",
+        "bairro": "JARDIM ALLAH",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6401,32 +6162,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 6,
             "valor": 353.4
-          }
-        ]
-      },
-      {
-        "codcli": "49854",
-        "cliente": "RENATO SUPERMERCADO LTDA",
-        "bairro": "VARZEA DO GOUVEIA",
-        "dtultcomp": "28/05/2026",
-        "produtos": [
-          {
-            "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-            "fantasia": "MOET HENNESY",
-            "qt": 3,
-            "valor": 86.01
-          },
-          {
-            "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-            "fantasia": "MOET HENNESY",
-            "qt": 6,
-            "valor": 206.64
-          },
-          {
-            "produto": "WHISKY WHITE HORSE - 1L",
-            "fantasia": "DIAGEO",
-            "qt": 3,
-            "valor": 185.48
           }
         ]
       },
@@ -6669,23 +6404,9 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "51495",
-        "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
-        "bairro": "LOTEAMENTO VILLA BRANCA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51498",
         "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
         "bairro": "JARDIM GURILANDIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51496",
-        "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
-        "bairro": "VENTURA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6697,14 +6418,28 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51493",
+        "codcli": "51495",
+        "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
+        "bairro": "LOTEAMENTO VILLA BRANCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51496",
+        "cliente": "SUPERMERCADO ALEAN DE SANTANA LTDA",
+        "bairro": "VENTURA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51492",
         "cliente": "SUPERMERCADO ALEAN LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51492",
+        "codcli": "51493",
         "cliente": "SUPERMERCADO ALEAN LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -6730,20 +6465,6 @@ const NAO_POS_SP_DATA = {
       }
     ],
     "DOUGLAS TEIXEIRA": [
-      {
-        "codcli": "47058",
-        "cliente": "EMPORIUM 5 ESTRELAS BEBIDAS E ALIMENTOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 60,
-            "valor": 1674.0
-          }
-        ]
-      },
       {
         "codcli": "51232",
         "cliente": "CARLOS HENRIQUE FABRI",
@@ -6819,33 +6540,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "46274",
-        "cliente": "COMERCIO 5 ESTRELAS BEBIDAS E ALIMENTOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 240,
-            "valor": 2157.6
-          },
-          {
-            "produto": "VODKA ABSOLUT 1L",
-            "fantasia": "PERNOD",
-            "qt": 24,
-            "valor": 1317.6
-          }
-        ]
-      },
-      {
-        "codcli": "51189",
-        "cliente": "M S KURODA & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51188",
         "cliente": "M S KURODA & CIA LTDA",
         "bairro": "CENTRO",
@@ -6856,6 +6550,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51186",
         "cliente": "M S KURODA & CIA LTDA",
         "bairro": "JARDIM GOLLO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51189",
+        "cliente": "M S KURODA & CIA LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -7299,16 +7000,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51138",
+        "codcli": "51444",
         "cliente": "MARIA DENIR FONSECA DA SILVA",
-        "bairro": "RESIDENCIAL SEBASTIANI",
+        "bairro": "CIDADE JARDIM",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51444",
+        "codcli": "51138",
         "cliente": "MARIA DENIR FONSECA DA SILVA",
-        "bairro": "CIDADE JARDIM",
+        "bairro": "RESIDENCIAL SEBASTIANI",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7338,50 +7039,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 12,
             "valor": 403.2
-          }
-        ]
-      },
-      {
-        "codcli": "50451",
-        "cliente": "NEIDE ROSARIA DE SOUZA",
-        "bairro": "CONJUNTO RESIDENCIAL ARARETAMA",
-        "dtultcomp": "25/05/2026",
-        "produtos": [
-          {
-            "produto": "CACHAÇA SAO FRANCISCO 970ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 125.4
-          },
-          {
-            "produto": "CATUABA SELVAGEM 900ML",
-            "fantasia": "COMARY",
-            "qt": 6,
-            "valor": 81.74
-          },
-          {
-            "produto": "GIN ROCKS WATERMELON 1LT",
-            "fantasia": "FANTE",
-            "qt": 2,
-            "valor": 41.08
-          },
-          {
-            "produto": "SAKE AZUMA KIRIN COMUM 600ML",
-            "fantasia": "KIKKOMAN DO BRASIL",
-            "qt": 2,
-            "valor": 29.39
-          },
-          {
-            "produto": "SMIRNOFF ICE 24X275ML LONG",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 125.9
-          },
-          {
-            "produto": "WHISKY PASSPORT 1L",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 69.0
           }
         ]
       },
@@ -7562,20 +7219,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50289",
-        "cliente": "ROSELIA A.C.TOMAZ SALGADO",
-        "bairro": "JARDIM ANA ROSA",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "CACHAÇA SAO FRANCISCO 970ML",
-            "fantasia": "PERNOD",
-            "qt": 60,
-            "valor": 1314.0
-          }
-        ]
-      },
-      {
         "codcli": "51223",
         "cliente": "MRM SUPERMERCADO LTDA",
         "bairro": "PARQUE SÃO BENEDITO",
@@ -7584,20 +7227,6 @@ const NAO_POS_SP_DATA = {
       }
     ],
     "FRANCIS SILVA": [
-      {
-        "codcli": "50442",
-        "cliente": "MARIA APARECIDA DA SILVA ANDREAZA 28097283808",
-        "bairro": "JARDIM BELA VISTA",
-        "dtultcomp": "27/05/2026",
-        "produtos": [
-          {
-            "produto": "VODKA SMIRNOFF 600 ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 274.8
-          }
-        ]
-      },
       {
         "codcli": "50732",
         "cliente": "CHICOTE BEBIDAS LTDA",
@@ -7961,14 +7590,14 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51489",
+        "codcli": "51490",
         "cliente": "IRMAOS BARRERA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51490",
+        "codcli": "51489",
         "cliente": "IRMAOS BARRERA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -7996,13 +7625,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51547",
-        "cliente": "SUPERMERCADO ARMELIN LTDA",
-        "bairro": "VILA FATIMA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51557",
         "cliente": "SUPERMERCADO ARMELIN LTDA",
         "bairro": "CENTRO",
@@ -8010,14 +7632,21 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51549",
+        "codcli": "51547",
+        "cliente": "SUPERMERCADO ARMELIN LTDA",
+        "bairro": "VILA FATIMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51550",
         "cliente": "SUPERMERCADO ARMELIN LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51550",
+        "codcli": "51549",
         "cliente": "SUPERMERCADO ARMELIN LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -8085,38 +7714,6 @@ const NAO_POS_SP_DATA = {
       }
     ],
     "LEONARDO FLOREZI": [
-      {
-        "codcli": "33061",
-        "cliente": "DISTRIBUIDORA DE BEBIDAS AGUIA REAL LTDA",
-        "bairro": "PARQUE BOM RETIRO",
-        "dtultcomp": "06/08/2024",
-        "produtos": [
-          {
-            "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-            "fantasia": "PERINI",
-            "qt": 1,
-            "valor": 35.95
-          },
-          {
-            "produto": "RUM MONTILLA CARTA BRANCA 1L",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 100.96
-          },
-          {
-            "produto": "RUM MONTILLA OURO 1000ML - DEST",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 50.48
-          },
-          {
-            "produto": "VODKA ABSOLUT VANILLA 750ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 91.57
-          }
-        ]
-      },
       {
         "codcli": "50875",
         "cliente": "DISTRIBUIDORA DE BEBIDAS MIRA LTDA",
@@ -8518,44 +8115,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "32521",
-        "cliente": "THIAGO ALBERTO REIS DA SILVA 22572191806",
-        "bairro": "JOAO ARANHA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "RUM MONTILLA CARTA BRANCA 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 233.4
-          },
-          {
-            "produto": "RUM MONTILLA CRISTAL 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 233.4
-          },
-          {
-            "produto": "RUM MONTILLA OURO 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 233.4
-          },
-          {
-            "produto": "WHISKY BALLANTINE S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 5,
-            "valor": 279.5
-          },
-          {
-            "produto": "WHISKY PASSPORT 1L",
-            "fantasia": "PERNOD",
-            "qt": 5,
-            "valor": 164.5
-          }
-        ]
-      },
-      {
         "codcli": "51510",
         "cliente": "37.468.732 EMERSON DA SILVA LIMA",
         "bairro": "CIDADE SATÉLITE ÍRIS",
@@ -8605,13 +8164,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51537",
-        "cliente": "EDSON BARROS DA SILVA",
-        "bairro": "JOAO ARANHA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "50927",
         "cliente": "FAST VENDAS SUPERMERCADO LTDA",
         "bairro": "VILA SAO JOAO",
@@ -8647,16 +8199,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50930",
+        "codcli": "50929",
         "cliente": "OFELIA SARRI MORETE",
-        "bairro": "JARDIM DAS COLINAS",
+        "bairro": "CHACARAS FAZENDA COELHO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50929",
+        "codcli": "50930",
         "cliente": "OFELIA SARRI MORETE",
-        "bairro": "CHACARAS FAZENDA COELHO",
+        "bairro": "JARDIM DAS COLINAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8827,13 +8379,6 @@ const NAO_POS_SP_DATA = {
         "bairro": "JARDIM DAS PALMEIRAS",
         "dtultcomp": "nan",
         "produtos": []
-      },
-      {
-        "codcli": "50631",
-        "cliente": "ODAIR MERCADO LTDA",
-        "bairro": "PARQUE IRAMAIA",
-        "dtultcomp": "nan",
-        "produtos": []
       }
     ],
     "LUCELIA BARROS": [
@@ -8922,46 +8467,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50476",
-        "cliente": "ELIAS DIAS RAMOS & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "10/06/2026",
-        "produtos": [
-          {
-            "produto": "VODKA ABSOLUT CITRON 750ML",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 170.7
-          },
-          {
-            "produto": "WHISKY PASSPORT 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 403.2
-          }
-        ]
-      },
-      {
-        "codcli": "50484",
-        "cliente": "JOSE MAURICIO ROVAI SIMON",
-        "bairro": "CENTRO",
-        "dtultcomp": "10/06/2026",
-        "produtos": [
-          {
-            "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 12,
-            "valor": 119.88
-          },
-          {
-            "produto": "MARTINI BIANCO 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 12,
-            "valor": 347.38
-          }
-        ]
-      },
-      {
         "codcli": "50493",
         "cliente": "AUTO POSTO ESTRELA DE AVARE LTDA",
         "bairro": "ALTO",
@@ -9046,26 +8551,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "CRS BRANDS",
             "qt": 60,
             "valor": 539.4
-          }
-        ]
-      },
-      {
-        "codcli": "50525",
-        "cliente": "TATIANE MENDES MARTINS DE MELO",
-        "bairro": "VILA CANTIZANI",
-        "dtultcomp": "25/06/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 3,
-            "valor": 239.7
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 12,
-            "valor": 958.8
           }
         ]
       },
@@ -9266,13 +8751,6 @@ const NAO_POS_SP_DATA = {
         "bairro": "SAO BENEDITO",
         "dtultcomp": "nan",
         "produtos": []
-      },
-      {
-        "codcli": "50480",
-        "cliente": "NEUSA APARECIDA DA SILVA CONVENIENCIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
       }
     ],
     "LUIS MACHADO": [
@@ -9389,16 +8867,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51363",
+        "codcli": "51362",
         "cliente": "MERCEARIA BARATEIRO DO VALE LTDA",
-        "bairro": "VILA SANCHES",
+        "bairro": "FLORESTA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51362",
+        "codcli": "51363",
         "cliente": "MERCEARIA BARATEIRO DO VALE LTDA",
-        "bairro": "FLORESTA",
+        "bairro": "VILA SANCHES",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -9480,14 +8958,14 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51479",
+        "codcli": "51482",
         "cliente": "SUPERMERCADO TIO BEBA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51481",
+        "codcli": "51479",
         "cliente": "SUPERMERCADO TIO BEBA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -9501,7 +8979,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51482",
+        "codcli": "51481",
         "cliente": "SUPERMERCADO TIO BEBA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -9798,13 +9276,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51081",
-        "cliente": "SERV FESTA VALENTINA LTDA",
-        "bairro": "JARDIM ANTUNES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51080",
         "cliente": "SIGNORINI COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
         "bairro": "JARDIM PRIMAVERA",
@@ -9979,26 +9450,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "46826",
-        "cliente": "BEER EXPRESS MINIMERCADO LTDA",
-        "bairro": "JARDIM DONA IRMA",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "JACK DANIELS BLACKBERRY 1L",
-            "fantasia": "BROWN",
-            "qt": 3,
-            "valor": 329.7
-          },
-          {
-            "produto": "TEQUILA J CUERVO SILVER 750ML",
-            "fantasia": "AURORA",
-            "qt": 6,
-            "valor": 585.0
-          }
-        ]
-      },
-      {
         "codcli": "47839",
         "cliente": "IRMAOS PINA HOTEL E RESTAURANTE LTDA",
         "bairro": "GUARAVILLE",
@@ -10073,6 +9524,26 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "50903",
+        "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
+        "bairro": "PARQUE NOVO MUNDO",
+        "dtultcomp": "09/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN BEEFEATER PINK 750ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 389.4
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 1L",
+            "fantasia": "BROWN",
+            "qt": 12,
+            "valor": 1198.8
+          }
+        ]
+      },
+      {
         "codcli": "50902",
         "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
         "bairro": "SÍTIO DO PIQUERI",
@@ -10123,26 +9594,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 12,
             "valor": 778.8
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "BROWN",
-            "qt": 12,
-            "valor": 1198.8
-          }
-        ]
-      },
-      {
-        "codcli": "50903",
-        "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
-        "bairro": "PARQUE NOVO MUNDO",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN BEEFEATER PINK 750ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 389.4
           },
           {
             "produto": "WHISKY JACK DANIELS 1L",
@@ -10784,13 +10235,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51512",
-        "cliente": "C. JARNALLO - BEBIDAS LTDA",
-        "bairro": "SÍTIOS FRUTAL",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51556",
         "cliente": "HORTIFRUTI CHACARA FLORA LTDA",
         "bairro": "VILA SOFIA",
@@ -10812,16 +10256,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51552",
+        "codcli": "51553",
         "cliente": "HORTIFRUTI VILA DAS FRUTAS BOSQUE DA SAUDE LTDA",
-        "bairro": "SAUDE",
+        "bairro": "VILA MARIANA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51553",
+        "codcli": "51552",
         "cliente": "HORTIFRUTI VILA DAS FRUTAS BOSQUE DA SAUDE LTDA",
-        "bairro": "VILA MARIANA",
+        "bairro": "SAUDE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10833,23 +10277,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51155",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "JARDIM RECORD",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51154",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "CONJUNTO HABITACIONAL SAO JOSE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51161",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "PARQUE SANTA RITA DE CÁSSIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51160",
-        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10861,16 +10298,23 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51155",
+        "codcli": "51157",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "JARDIM RECORD",
+        "bairro": "JARDIM IRACEMA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51157",
+        "codcli": "51153",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "JARDIM IRACEMA",
+        "bairro": "VILA ZAT",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51161",
+        "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+        "bairro": "PARQUE SANTA RITA DE CÁSSIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10882,9 +10326,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51153",
+        "codcli": "51160",
         "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "VILA ZAT",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10903,16 +10347,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51548",
+        "codcli": "51551",
         "cliente": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA",
-        "bairro": "SAUDE",
+        "bairro": "MOEMA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51551",
+        "codcli": "51548",
         "cliente": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA",
-        "bairro": "MOEMA",
+        "bairro": "SAUDE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10957,26 +10401,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "AURORA",
             "qt": 12,
             "valor": 1006.8
-          }
-        ]
-      },
-      {
-        "codcli": "51265",
-        "cliente": "62.354.916 RAUL ZANELLA",
-        "bairro": "PARQUE RESIDENCIAL PEDRA BRANCA",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "LICOR 43 DIEGO ZAMORA 700ML",
-            "fantasia": "AURORA",
-            "qt": 2,
-            "valor": 233.8
-          },
-          {
-            "produto": "VODCA SMIRNOFF RED 998 ML",
-            "fantasia": "DIAGEO",
-            "qt": 24,
-            "valor": 693.6
           }
         ]
       }
@@ -11255,20 +10679,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 2,
             "valor": 1159.8
-          }
-        ]
-      },
-      {
-        "codcli": "50087",
-        "cliente": "MARCIO XAVIER DOS SANTOS",
-        "bairro": "NOVA PONTE ALTA",
-        "dtultcomp": "05/05/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS 1L - DEST",
-            "fantasia": "BROWN",
-            "qt": 36,
-            "valor": 3560.4
           }
         ]
       },
@@ -12397,13 +11807,13 @@ const NAO_POS_SP_DATA = {
             "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
             "fantasia": "PERNOD",
             "qt": 1,
-            "valor": 62.9
+            "valor": 54.9
           },
           {
             "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
             "fantasia": "PERNOD",
             "qt": 1,
-            "valor": 54.9
+            "valor": 62.9
           },
           {
             "produto": "VODKA ABSOLUT TABASCO 750ML",
@@ -12422,56 +11832,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 2,
             "valor": 203.8
-          }
-        ]
-      },
-      {
-        "codcli": "50340",
-        "cliente": "WASHINGTON NASCIMENTO DA ROCHA BEBIDAS",
-        "bairro": "JARDIM CRUZEIRO",
-        "dtultcomp": "08/06/2026",
-        "produtos": [
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "AURORA",
-            "qt": 4,
-            "valor": 335.6
-          },
-          {
-            "produto": "VODKA ABSOLUT 1L",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 119.4
-          },
-          {
-            "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 611.4
-          },
-          {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 2,
-            "valor": 125.8
-          },
-          {
-            "produto": "WHISKY JIM BEAM HONEY 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 2,
-            "valor": 125.8
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 2,
-            "valor": 125.8
           }
         ]
       },
@@ -12812,14 +12172,14 @@ const NAO_POS_SP_DATA = {
           {
             "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
             "fantasia": "MOET HENNESY",
-            "qt": 6,
-            "valor": 455.4
+            "qt": 12,
+            "valor": 910.8
           },
           {
             "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
             "fantasia": "MOET HENNESY",
-            "qt": 12,
-            "valor": 910.8
+            "qt": 6,
+            "valor": 455.4
           }
         ]
       },
@@ -13782,9 +13142,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50942",
+        "codcli": "50945",
         "cliente": "CASA NEGREIROS LTDA",
-        "bairro": "CIDADE LÍDER",
+        "bairro": "JARDIM MARILU",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -13796,9 +13156,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50945",
+        "codcli": "50942",
         "cliente": "CASA NEGREIROS LTDA",
-        "bairro": "JARDIM MARILU",
+        "bairro": "CIDADE LÍDER",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -13806,6 +13166,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "50950",
         "cliente": "SUPERMERCADO TRIALBA LTDA",
         "bairro": "CHÁCARA BELENZINHO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50948",
+        "cliente": "SUPERMERCADO TRIALBA LTDA",
+        "bairro": "BURGO PAULISTA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -13824,9 +13191,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50948",
-        "cliente": "SUPERMERCADO TRIALBA LTDA",
-        "bairro": "BURGO PAULISTA",
+        "codcli": "50946",
+        "cliente": "SUPERMERCADO TRIALBA LTDA.",
+        "bairro": "CANGAÍBA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -13841,13 +13208,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "50943",
         "cliente": "SUPERMERCADO TRIALBA LTDA.",
         "bairro": "JARDIM IGUATEMI",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "50946",
-        "cliente": "SUPERMERCADO TRIALBA LTDA.",
-        "bairro": "CANGAÍBA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -14352,6 +13712,20 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "49908",
+        "cliente": "SUPERMERCADO ALABARCE LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "09/06/2026",
+        "produtos": [
+          {
+            "produto": "CONHAQUE DOMECQ 1L",
+            "fantasia": "PERNOD",
+            "qt": 24,
+            "valor": 621.6
+          }
+        ]
+      },
+      {
         "codcli": "49909",
         "cliente": "SUPERMERCADO ALABARCE LTDA",
         "bairro": "VILA BERNADOTTI",
@@ -14380,20 +13754,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "FANTE",
             "qt": 6,
             "valor": 123.24
-          }
-        ]
-      },
-      {
-        "codcli": "49908",
-        "cliente": "SUPERMERCADO ALABARCE LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 24,
-            "valor": 621.6
           }
         ]
       },
@@ -14759,16 +14119,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50247",
+        "codcli": "50249",
         "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VILA MOGILAR",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50249",
+        "codcli": "50247",
         "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
-        "bairro": "VILA MOGILAR",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -14859,32 +14219,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "40452",
-        "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-        "bairro": "PARQUE DO LAGO",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 12,
-            "valor": 119.88
-          },
-          {
-            "produto": "CACHAÇA SAO FRANCISCO 970ML",
-            "fantasia": "PERNOD",
-            "qt": 36,
-            "valor": 788.4
-          },
-          {
-            "produto": "GIN ROCKS 1LT",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 123.3
-          }
-        ]
-      },
-      {
         "codcli": "40446",
         "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
         "bairro": "PARQUE RINCAO",
@@ -14919,6 +14253,32 @@ const NAO_POS_SP_DATA = {
             "fantasia": "BROWN",
             "qt": 48,
             "valor": 4795.2
+          }
+        ]
+      },
+      {
+        "codcli": "40452",
+        "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
+        "bairro": "PARQUE DO LAGO",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+            "fantasia": "CRS BRANDS",
+            "qt": 12,
+            "valor": 119.88
+          },
+          {
+            "produto": "CACHAÇA SAO FRANCISCO 970ML",
+            "fantasia": "PERNOD",
+            "qt": 36,
+            "valor": 788.4
+          },
+          {
+            "produto": "GIN ROCKS 1LT",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 123.3
           }
         ]
       },
@@ -15119,32 +14479,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50773",
-        "cliente": "40.420.535 DANILO APARECIDO DE OLIVEIRA",
-        "bairro": "CONJUNTO HABITACIONAL DOUTOR ANTONIO DEL",
-        "dtultcomp": "03/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "BROWN",
-            "qt": 2,
-            "valor": 199.8
-          },
-          {
-            "produto": "WHISKY JACK DANIELS APPLE 1L",
-            "fantasia": "BROWN",
-            "qt": 2,
-            "valor": 199.8
-          },
-          {
-            "produto": "WHISKY PASSPORT 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 403.2
-          }
-        ]
-      },
-      {
         "codcli": "50416",
         "cliente": "27.359.599 MARIO FERNANDO DE FARIA",
         "bairro": "VILA SÃO LÚCIO",
@@ -15209,38 +14543,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50422",
-        "cliente": "ADEGA E MERCEARIA CAPITAO LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VODKA ABSOLUT TABASCO 750ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 119.8
-          },
-          {
-            "produto": "VODKA ABSOLUT TOMORROWLAND 700ML",
-            "fantasia": "PERNOD",
-            "qt": 4,
-            "valor": 239.6
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 10X50 ML- DEST",
-            "fantasia": "BROWN",
-            "qt": 1,
-            "valor": 159.9
-          }
-        ]
-      },
-      {
         "codcli": "50996",
         "cliente": "61.049.182 FABIANA CRISTINA MASSARENTE",
         "bairro": "JARDIM MONTE MOR",
@@ -15271,20 +14573,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "CAMPARI",
             "qt": 60,
             "valor": 1014.0
-          }
-        ]
-      },
-      {
-        "codcli": "50630",
-        "cliente": "39.681.517 PAOLA EDUARDA DE MORAES",
-        "bairro": "CONJUNTO HABITACIONAL ROQUE ORTIZ FILHO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY PASSPORT 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 403.2
           }
         ]
       },
@@ -15477,26 +14765,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "49993",
-        "cliente": "DEPOSITO DE BEBIDAS GOMES LTDA",
-        "bairro": "VILA MARIA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS 1L - DEST",
-            "fantasia": "BROWN",
-            "qt": 24,
-            "valor": 2397.6
-          },
-          {
-            "produto": "WHISKY PASSPORT 1L",
-            "fantasia": "PERNOD",
-            "qt": 48,
-            "valor": 1579.2
-          }
-        ]
-      },
-      {
         "codcli": "50420",
         "cliente": "SUPER OSMARAJA EMPORIO LTDA",
         "bairro": "VILA PADOVAN",
@@ -15597,13 +14865,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "50994",
         "cliente": "RICHARD BRITO MINI MERCADO LTDA",
         "bairro": "VILA FORMOSA (RUBIÃO JUNIOR)",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51565",
-        "cliente": "STEFANI COMERCIO ATACADISTA DE BEBIDAS LTDA",
-        "bairro": "CONJUNTO HABITACIONAL HUMBERTO POPOLO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -15830,26 +15091,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50042",
-        "cliente": "ADEGA E HOJE DISTRIBUIDORA DE BEBIDAS LTDA",
-        "bairro": "VILA MARIETA",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN TANQUERAY BOSSA NOVA  700 ML",
-            "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 629.4
-          },
-          {
-            "produto": "WHISKY GENTLEMAN JACK 1L - DEST",
-            "fantasia": "BROWN",
-            "qt": 6,
-            "valor": 828.0
-          }
-        ]
-      },
-      {
         "codcli": "50111",
         "cliente": "GILBERTO DA HORA LISBOA",
         "bairro": "CIDADE MIGUEL BADRA",
@@ -15948,38 +15189,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 16,
             "valor": 990.4
-          }
-        ]
-      },
-      {
-        "codcli": "40491",
-        "cliente": "57.382.883 ICARO ADRIANO BOMFIM",
-        "bairro": "JUNDIAPEBA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN ROCKS 1LT",
-            "fantasia": "FANTE",
-            "qt": 60,
-            "valor": 1233.0
-          },
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 2,
-            "valor": 159.8
-          },
-          {
-            "produto": "LICOR BALLENA COCO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 2,
-            "valor": 159.8
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 2,
-            "valor": 159.8
           }
         ]
       },
@@ -16942,26 +16151,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "BROWN",
             "qt": 60,
             "valor": 5934.0
-          }
-        ]
-      },
-      {
-        "codcli": "40862",
-        "cliente": "GP MAXX COMERCIO E SERVICOS LTDA",
-        "bairro": "VILA MARIA",
-        "dtultcomp": "24/04/2026",
-        "produtos": [
-          {
-            "produto": "JIM BEAM BLACK CHERRY 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 120,
-            "valor": 7188.0
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 240,
-            "valor": 14376.0
           }
         ]
       },
@@ -18100,26 +17289,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 660,
             "valor": 13794.0
-          }
-        ]
-      },
-      {
-        "codcli": "49268",
-        "cliente": "GLAUCIA F. V. SILVA LTDA.",
-        "bairro": "SAO PEDRO",
-        "dtultcomp": "11/05/2026",
-        "produtos": [
-          {
-            "produto": "VODKA ABSOLUT 1L",
-            "fantasia": "PERNOD",
-            "qt": 24,
-            "valor": 1293.6
-          },
-          {
-            "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-            "fantasia": "PERNOD",
-            "qt": 24,
-            "valor": 1269.6
           }
         ]
       },
@@ -19534,38 +18703,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "47268",
-        "cliente": "MATEUS COSTA DE OLIVEIRA",
-        "bairro": "VILA SANTA MARGARIDA",
-        "dtultcomp": "03/06/2026",
-        "produtos": [
-          {
-            "produto": "JACK DANIELS BONDED TRIPLE MASH 700ML",
-            "fantasia": "BROWN",
-            "qt": 1,
-            "valor": 159.9
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L - DEST",
-            "fantasia": "BROWN",
-            "qt": 36,
-            "valor": 3596.4
-          },
-          {
-            "produto": "WHISKY JACK DANIELS BONDED 700ML",
-            "fantasia": "BROWN",
-            "qt": 1,
-            "valor": 159.9
-          },
-          {
-            "produto": "WHISKY JACK DANIELS BONDED RYE 700ML",
-            "fantasia": "BROWN",
-            "qt": 1,
-            "valor": 159.9
-          }
-        ]
-      },
-      {
         "codcli": "46387",
         "cliente": "MERCADO SAMURAI KEMEL LTDA",
         "bairro": "CIDADE KEMEL",
@@ -20240,20 +19377,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "47062",
-        "cliente": "IMPERIO DE BEBIDAS VITORIA SOCIEDADE UNIPESSOAL LIMITADA",
-        "bairro": "KM 18",
-        "dtultcomp": "11/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-            "fantasia": "BROWN",
-            "qt": 12,
-            "valor": 1197.6
-          }
-        ]
-      },
-      {
         "codcli": "38678",
         "cliente": "J.G.N. COMERCIO",
         "bairro": "VILA SILVA TELES",
@@ -20406,44 +19529,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 240,
             "valor": 6216.0
-          }
-        ]
-      },
-      {
-        "codcli": "36288",
-        "cliente": "BEATRIZ CAETANO AMORIM DA SILVA 32018648",
-        "bairro": "PARQUE PIRATININGA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN BEEFEATER PINK 750ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 389.4
-          },
-          {
-            "produto": "VODKA ABSOLUT TABASCO 750ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 119.8
-          },
-          {
-            "produto": "WHISKY BALLANTINE S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 670.8
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L - DEST",
-            "fantasia": "BROWN",
-            "qt": 12,
-            "valor": 1198.8
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 375 ML - DEST",
-            "fantasia": "BROWN",
-            "qt": 4,
-            "valor": 179.68
           }
         ]
       },
@@ -21044,80 +20129,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "38212",
-        "cliente": "BERTIN BEBIDAS LTDA",
-        "bairro": "VILA ARTURA",
-        "dtultcomp": "19/06/2026",
-        "produtos": [
-          {
-            "produto": "BOURBON WHISKY WOODFORD RESERVE - DEST",
-            "fantasia": "BROWN",
-            "qt": 6,
-            "valor": 828.0
-          },
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 1584,
-            "valor": 39584.16
-          },
-          {
-            "produto": "RUM MALIBU 750ML",
-            "fantasia": "PERNOD",
-            "qt": 120,
-            "valor": 5148.0
-          },
-          {
-            "produto": "VODKA ABSOLUT 1L",
-            "fantasia": "PERNOD",
-            "qt": 36,
-            "valor": 1976.4
-          },
-          {
-            "produto": "WHISKY BALLANTINE S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 60,
-            "valor": 3294.0
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 10X50 ML- DEST",
-            "fantasia": "BROWN",
-            "qt": 2,
-            "valor": 318.0
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L - DEST",
-            "fantasia": "BROWN",
-            "qt": 60,
-            "valor": 5994.0
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 375 ML - DEST",
-            "fantasia": "BROWN",
-            "qt": 24,
-            "valor": 1077.6
-          },
-          {
-            "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-            "fantasia": "BROWN",
-            "qt": 24,
-            "valor": 2397.6
-          },
-          {
-            "produto": "WHISKY JACK DANIELS SINATRA 1L",
-            "fantasia": "BROWN",
-            "qt": 1,
-            "valor": 589.9
-          },
-          {
-            "produto": "WHISKY PASSPORT 1L",
-            "fantasia": "PERNOD",
-            "qt": 420,
-            "valor": 13818.0
-          }
-        ]
-      },
-      {
         "codcli": "30256",
         "cliente": "JESSYCA VILAR DE OLIVEIRA 40904329879",
         "bairro": "JARDIM ANDARAI",
@@ -21324,20 +20335,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "28613",
-        "cliente": "VIEL VIEL E CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "22/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS 375 ML - DEST",
-            "fantasia": "BROWN",
-            "qt": 48,
-            "valor": 2156.16
-          }
-        ]
-      },
-      {
         "codcli": "45350",
         "cliente": "3D COMERCIAL DE ALIMENTOS LTDA",
         "bairro": "ASSUNCAO",
@@ -21360,32 +20357,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 1200,
             "valor": 37440.0
-          }
-        ]
-      },
-      {
-        "codcli": "46025",
-        "cliente": "CAMILA DE HOLANDA PLACIDO COMERCIO DE BEBIDAS",
-        "bairro": "VILA VICENTINA",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "CACHAÇA SAO FRANCISCO 970ML",
-            "fantasia": "PERNOD",
-            "qt": 22,
-            "valor": 459.8
-          },
-          {
-            "produto": "GIN BEEFEATER PINK 750ML",
-            "fantasia": "PERNOD",
-            "qt": 18,
-            "valor": 1114.2
-          },
-          {
-            "produto": "VODKA ABSOLUT 1L",
-            "fantasia": "PERNOD",
-            "qt": 24,
-            "valor": 1269.6
           }
         ]
       },
@@ -21510,38 +20481,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "38929",
-        "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
-        "bairro": "CIDADE KEMEL",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN TANQUERAY ROYALE 700 ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 1021.68
-          },
-          {
-            "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 18,
-            "valor": 1744.2
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 6,
-            "valor": 359.4
-          },
-          {
-            "produto": "WHISKY ROYAL SALUTE 700ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 1159.8
-          }
-        ]
-      },
-      {
         "codcli": "47377",
         "cliente": "ADEGA ISA VITORIA LTDA",
         "bairro": "LUZ",
@@ -21626,20 +20565,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "BROWN",
             "qt": 12,
             "valor": 1198.8
-          }
-        ]
-      },
-      {
-        "codcli": "42457",
-        "cliente": "K.T. DE ALMEIDA SILVA",
-        "bairro": "JARDIM ESTELA",
-        "dtultcomp": "24/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN BEEFEATER PINK 750ML",
-            "fantasia": "PERNOD",
-            "qt": 120,
-            "valor": 7428.0
           }
         ]
       },
@@ -21736,20 +20661,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 6,
             "valor": 3419.4
-          }
-        ]
-      },
-      {
-        "codcli": "39698",
-        "cliente": "BUENO DISTRIBUIDORA LTDA",
-        "bairro": "JARDIM SAGRADO CORACAO",
-        "dtultcomp": "25/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKEY JACK DANIELS HONEY 1 L",
-            "fantasia": "BROWN",
-            "qt": 120,
-            "valor": 11988.0
           }
         ]
       },
@@ -21962,32 +20873,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "28991",
-        "cliente": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS LTDA",
-        "bairro": "JARDIM SANTA GENEBRA",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-            "fantasia": "PERNOD",
-            "qt": 24,
-            "valor": 1317.6
-          },
-          {
-            "produto": "VODKA ABSOLUT VANILLA 750ML",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 658.8
-          },
-          {
-            "produto": "WHISKY GENTLEMAN JACK 1L - DEST",
-            "fantasia": "BROWN",
-            "qt": 12,
-            "valor": 1656.0
-          }
-        ]
-      },
-      {
         "codcli": "51156",
         "cliente": "ADEGA LITORAGUA LTDA",
         "bairro": "JARDIM DOS PRADOS",
@@ -22116,20 +21001,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "40098",
-        "cliente": "L  A COMERCIO DE BEBIDAS LTDA",
-        "bairro": "VILA SILVA RIBEIRO",
-        "dtultcomp": "29/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY CHANCELER 1L",
-            "fantasia": "CRS BRANDS",
-            "qt": 25,
-            "valor": 324.75
-          }
-        ]
-      },
-      {
         "codcli": "40916",
         "cliente": "MERCADINHO DA VILA SUZANO LTDA",
         "bairro": "VILA MALUF",
@@ -22220,26 +21091,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50242",
-        "cliente": "EMPORIO AMINO LTDA",
-        "bairro": "BELA VISTA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS 1L - DEST",
-            "fantasia": "BROWN",
-            "qt": 36,
-            "valor": 3596.4
-          },
-          {
-            "produto": "WHISKY JACK DANIELS APPLE 1L",
-            "fantasia": "BROWN",
-            "qt": 24,
-            "valor": 2397.6
-          }
-        ]
-      },
-      {
         "codcli": "49249",
         "cliente": "MERCEARIA E ADEGA FIM DE SEMANA LTDA",
         "bairro": "JARDIM CASABLANCA",
@@ -22317,13 +21168,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "51288",
         "cliente": "DISTRIBUIDORA DE ALIMENTOS BARCELONA LTDA",
         "bairro": "CAMPANARIO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51570",
-        "cliente": "JOSE FRANCISCO RABELO BEBIDAS",
-        "bairro": "JARDIM ESPERANÇA",
         "dtultcomp": "nan",
         "produtos": []
       },
