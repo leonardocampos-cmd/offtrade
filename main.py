@@ -81,20 +81,22 @@ def main():
             print("[AVISO] exportacao_industria falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("4/8 - Campanha Amarula (amarula_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_amarula.py"],
-                capture_output=True, text=True
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_amarula falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_amarula falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
+        # Campanha Amarula encerrada em 25/06/2026 — geração de dados desativada.
+        # Reativar descomentando o bloco abaixo se a campanha voltar.
+        # step("4/8 - Campanha Amarula (amarula_data.js)")
+        # try:
+        #     import subprocess, sys as _sys
+        #     result = subprocess.run(
+        #         [_sys.executable, "exportacao_amarula.py"],
+        #         capture_output=True, text=True
+        #     )
+        #     print(result.stdout)
+        #     if result.returncode != 0:
+        #         print("[AVISO] exportacao_amarula falhou — ignorado, pipeline continua.")
+        #         print(result.stderr)
+        # except Exception:
+        #     print("[AVISO] exportacao_amarula falhou — ignorado, pipeline continua.")
+        #     traceback.print_exc()
 
         step("4/8 - Campanha Robson Crusoe (crusoe_data.js)")
         try:
