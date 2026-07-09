@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "09/07/2026 10:14",
+  "atualizado_em": "09/07/2026 11:12",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -9737,6 +9737,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "95609",
         "cliente": "DM DEPOSITO COMERCIO DE BEBIDAS LTDA",
         "bairro": "ITANHANGÁ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95618",
+        "cliente": "EMPORIO TIROL LTDA",
+        "bairro": "FREGUESIA (JACAREPAGUA)",
         "dtultcomp": "nan",
         "produtos": []
       },
