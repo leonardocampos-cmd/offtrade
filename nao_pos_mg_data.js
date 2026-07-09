@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "09/07/2026 15:23",
+  "atualizado_em": "09/07/2026 16:52",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1185,44 +1185,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 346.8
-          }
-        ]
-      },
-      {
-        "codcli": "39542",
-        "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
-        "bairro": "LAGOA (JUSTINÓPOLIS)",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 207.6
-          },
-          {
-            "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "",
-            "qt": 8,
-            "valor": 415.2
-          },
-          {
-            "produto": "JACK DANIELS HONEY 1 L",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 359.7
-          },
-          {
-            "produto": "WHISKY JACK DANIELS APPLE 1L",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1438.8
-          },
-          {
-            "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
-            "qt": 8,
-            "valor": 551.2
           }
         ]
       },
@@ -3101,7 +3063,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35400",
+        "codcli": "35398",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -3109,44 +3071,44 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL 250ML CAIXA C/24 UNID",
             "fantasia": "",
-            "qt": 3,
-            "valor": 424.08
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
             "qt": 1,
             "valor": 141.36
           },
           {
-            "produto": "RED BULL ZERO 24X250ML",
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
             "qt": 2,
             "valor": 282.72
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
           }
         ]
       },
@@ -3201,7 +3163,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35398",
+        "codcli": "35400",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -3209,44 +3171,44 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL 250ML CAIXA C/24 UNID",
             "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
+            "qt": 3,
+            "valor": 424.08
           },
           {
             "produto": "RED BULL AMORA EDITION SF 24X250ML",
             "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
             "qt": 2,
             "valor": 282.72
           },
           {
-            "produto": "RED BULL ZERO 24X250ML",
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
             "qt": 1,
             "valor": 141.36
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
           }
         ]
       },
@@ -3347,7 +3309,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35392",
+        "codcli": "35387",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -3373,7 +3335,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35387",
+        "codcli": "35392",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -5947,44 +5909,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37718",
-        "cliente": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS LTDA",
-        "bairro": "VALE DAS ORQUÍDEAS",
-        "dtultcomp": "05/06/2026",
-        "produtos": [
-          {
-            "produto": "PURE MONIN FRUTAS VERMELHAS 330ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "PURE MONIN MAÇA VERDE 330ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE  MONIN TANGERINA 330 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE MONIN MARACUJA 330 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO 330 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 68.7
-          }
-        ]
-      },
-      {
         "codcli": "29386",
         "cliente": "SUPERMERCADO PARANAIBA JARDIM ITAU LTDA",
         "bairro": "PARQUE JARDIM ITAÚ",
@@ -6905,56 +6829,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30538",
-        "cliente": "DAKI BELO HORIZONTE LTDA",
-        "bairro": "ARVOREDO 2ª SECAO",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 7,
-            "valor": 1401.12
-          },
-          {
-            "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
-            "fantasia": "",
-            "qt": 5,
-            "valor": 1000.8
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 600.48
-          },
-          {
-            "produto": "RED BULL SF POMELO 24X250ML",
-            "fantasia": "",
-            "qt": 5,
-            "valor": 1000.8
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 14,
-            "valor": 2802.24
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 800.64
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 7,
-            "valor": 1401.12
-          }
-        ]
-      },
-      {
         "codcli": "37368",
         "cliente": "C & R PADARIA E SUPERMERCADOS LTDA",
         "bairro": "FUNCIONÁRIOS",
@@ -7015,32 +6889,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 18,
             "valor": 592.2
-          }
-        ]
-      },
-      {
-        "codcli": "33955",
-        "cliente": "TAUA RESORT CAETE LTDA",
-        "bairro": "ROCAS NOVA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 149.8
-          },
-          {
-            "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 917.4
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1558.8
           }
         ]
       },
@@ -9246,32 +9094,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 6,
             "valor": 1174.38
-          }
-        ]
-      },
-      {
-        "codcli": "30530",
-        "cliente": "DISTRIBUIDORA CAMPOS - BARBACENA LTDA",
-        "bairro": "PONTILHAO",
-        "dtultcomp": "24/06/2026",
-        "produtos": [
-          {
-            "produto": "JACK DANIELS HONEY 1 L",
-            "fantasia": "",
-            "qt": 60,
-            "valor": 7590.0
-          },
-          {
-            "produto": "WHISKY JACK DANIELS HONEY 375ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 598.8
-          },
-          {
-            "produto": "WHISKY JACK DANIELS SINGLE BARREL 750ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 539.8
           }
         ]
       }
