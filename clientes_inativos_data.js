@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "09/07/2026 11:42",
+  "atualizado_em": "09/07/2026 11:50",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -17594,6 +17594,24 @@ const INATIVOS_DATA = {
       ],
       "novos": [
         {
+          "codcli": "51662",
+          "cliente": "POSTO NOVO PARQUE LTDA",
+          "bairro": "JARDIM JAPÃO",
+          "cidade": "SAO PAULO",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51657",
+          "cliente": "VULCANIA CONVENIENCIAS E UTILIDADES LTDA",
+          "bairro": "INDIANÓPOLIS",
+          "cidade": "SAO PAULO",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
           "codcli": "50953",
           "cliente": "SUPERMERCADO TRIALBA LTDA",
           "bairro": "CONJUNTO HABITACIONAL TEOTONIO VILELA",
@@ -18382,6 +18400,15 @@ const INATIVOS_DATA = {
       "sem_compra": [],
       "novos": [
         {
+          "codcli": "51659",
+          "cliente": "MERCADO FLORESTA AZUL DE VILA SILVIA LTDA",
+          "bairro": "JARDIM DANFER",
+          "cidade": "SAO PAULO",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
           "codcli": "51453",
           "cliente": "62.476.414 VANILZA MARINHO DE SOUSA",
           "bairro": "JARDIM VERONIA",
@@ -18398,6 +18425,15 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [],
       "novos": [
+        {
+          "codcli": "51663",
+          "cliente": "TOP REAL UTILIDADES DOMESTICAS LTDA",
+          "bairro": "PARQUE DAS AMERIICAS",
+          "cidade": "MAUA",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "51468",
           "cliente": "60.071.057 SEBASTIAO LIMA DA SILVA",
@@ -18717,6 +18753,15 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [],
       "novos": [
+        {
+          "codcli": "51660",
+          "cliente": "SUPERMERCADO LIBARDI LTDA",
+          "bairro": "VILA SAO LUIZ",
+          "cidade": "PORANGABA",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "51444",
           "cliente": "MARIA DENIR FONSECA DA SILVA",
@@ -19161,6 +19206,24 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [],
       "novos": [
+        {
+          "codcli": "51661",
+          "cliente": "MERCADINHO VOLTE SEMPRE LTDA",
+          "bairro": "ANHANGUERA",
+          "cidade": "PRAIA GRANDE",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51658",
+          "cliente": "SAO JOSE DE CAICARA SUPERMERCADO E PADARIA LTDA",
+          "bairro": "CAICARA",
+          "cidade": "PRAIA GRANDE",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "51655",
           "cliente": "MENEZES & OLIVEIRA MERCADO, ACOUGUE E PADARIA LTDA",
