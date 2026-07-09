@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/07/2026 16:47",
+  "atualizado_em": "09/07/2026 17:18",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -118322,6 +118322,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "09/07/2026",
+          "codcli": "63723",
+          "cliente": "FONTES DE PRODUTOS NATURAIS LTDA",
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
+          "fantasia": "MINALBA",
+          "qt": 12,
+          "valor": 262.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "01/07/2026",
           "codcli": "83536",
           "cliente": "DROGARIA AICHI LTDA",
@@ -118529,6 +118539,36 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 99.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "95186",
+          "cliente": "S14 EDITORA E COMERCIO DE PRODUTOS NATURAIS LEBLON 2 LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 53.15,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "95186",
+          "cliente": "S14 EDITORA E COMERCIO DE PRODUTOS NATURAIS LEBLON 2 LTDA",
+          "produto": "BAER MATE LN  6X350ML",
+          "fantasia": "KAISER",
+          "qt": 2,
+          "valor": 72.05,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "95186",
+          "cliente": "S14 EDITORA E COMERCIO DE PRODUTOS NATURAIS LEBLON 2 LTDA",
+          "produto": "AGUA NA CAIXA 12X500ML",
+          "fantasia": "AGUA NA CAIXA",
+          "qt": 2,
+          "valor": 71.8,
           "tipo": "Venda"
         },
         {
@@ -202100,6 +202140,46 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "09/07/2026",
+          "codcli": "21371",
+          "cliente": "JOSE MAR RESTAURANTE LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 958.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "21371",
+          "cliente": "JOSE MAR RESTAURANTE LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 449.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "21371",
+          "cliente": "JOSE MAR RESTAURANTE LTDA",
+          "produto": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 539.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "21371",
+          "cliente": "JOSE MAR RESTAURANTE LTDA",
+          "produto": "VINHO CAZAS NOVAS COLHEITA 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 539.4,
+          "tipo": "Venda"
+        },
+        {
           "data": "01/07/2026",
           "codcli": "66026",
           "cliente": "CHOPERIA FORTE BEER LTDA",
@@ -203017,6 +203097,16 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 8,
           "valor": 263.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "82169",
+          "cliente": "ANDRADE MARTINS RESTAURANTE LTDA",
+          "produto": "AGUA MINERAL MAMBA WATER S/ GAS 12X350ML",
+          "fantasia": "KAISER",
+          "qt": 20,
+          "valor": 868.0,
           "tipo": "Venda"
         },
         {
@@ -345938,16 +346028,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "10/03/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 48,
-          "valor": 614.4,
-          "tipo": "Venda"
-        },
-        {
           "data": "12/03/2026",
           "codcli": "90710",
           "cliente": "ALPHA GASTRONOMIA LTDA",
@@ -345955,6 +346035,16 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 24,
           "valor": 456.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/03/2026",
+          "codcli": "50465",
+          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 614.4,
           "tipo": "Venda"
         },
         {
