@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "09/07/2026 15:23",
+  "atualizado_em": "09/07/2026 16:52",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -82,8 +82,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 9241.06,
-        "pos": 12,
+        "fat": 17861.86,
+        "pos": 15,
         "fat_ant": 170338.38
       }
     },
@@ -148,6 +148,11 @@ const VENDAS_MG_DATA = {
         "fat": 57054.36,
         "pos": 5,
         "fat_ant": 35798.3
+      },
+      "Jul/26": {
+        "fat": 7042.8,
+        "pos": 1,
+        "fat_ant": 57054.36
       }
     },
     "LUIZ FERNANDO SALGADO": {
@@ -204,7 +209,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 101602.08,
+        "fat": 123153.96,
         "pos": 6,
         "fat_ant": 1043277.9
       }
@@ -258,8 +263,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 53560.12
       },
       "Jul/26": {
-        "fat": 8883.06,
-        "pos": 11,
+        "fat": 9692.76,
+        "pos": 12,
         "fat_ant": 51108.92
       }
     }
@@ -52697,6 +52702,60 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 87.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37718",
+          "cliente": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS LTDA",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 389.7
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37718",
+          "cliente": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 389.7
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 3835.2
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 353.4
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 2094.0
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "33955",
+          "cliente": "TAUA RESORT CAETE LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1558.8
         }
       ]
     },
@@ -67110,6 +67169,35 @@ const VENDAS_MG_DATA = {
           "qt": 2,
           "valor": 539.8
         }
+      ],
+      "Jul/26": [
+        {
+          "data": "09/07/2026",
+          "codcli": "30530",
+          "cliente": "DISTRIBUIDORA CAMPOS - BARBACENA LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1054.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30530",
+          "cliente": "DISTRIBUIDORA CAMPOS - BARBACENA LTDA",
+          "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 2994.0
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30530",
+          "cliente": "DISTRIBUIDORA CAMPOS - BARBACENA LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 2994.0
+        }
       ]
     },
     "LUIZ FERNANDO SALGADO": {
@@ -73219,6 +73307,42 @@ const VENDAS_MG_DATA = {
           "fantasia": "BALLENA",
           "qt": 180,
           "valor": 19782.0
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 60,
+          "valor": 3894.0
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "",
+          "qt": 180,
+          "valor": 13482.0
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 2098.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY SUNTORY CHITA 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 6,
+          "valor": 2077.08
         }
       ]
     },
@@ -87112,6 +87236,24 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 70.9
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "39542",
+          "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 299.4
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "39542",
+          "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 7,
+          "valor": 510.3
         }
       ]
     }
