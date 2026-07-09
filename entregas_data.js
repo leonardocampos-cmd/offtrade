@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "09/07/2026 09:18",
+  "atualizado_em": "09/07/2026 09:30",
   "data_rota": "09.07",
   "vendedores": [
     {
@@ -1149,14 +1149,14 @@ const ENTREGAS_DATA = {
           "total": 143.85,
           "itens": [
             {
-              "desc": "BAER MATE LN  6X350ML",
-              "qt": 2,
-              "val": 72.05
-            },
-            {
               "desc": "AGUA NA CAIXA 12X500ML",
               "qt": 2,
               "val": 71.8
+            },
+            {
+              "desc": "BAER MATE LN  6X350ML",
+              "qt": 2,
+              "val": 72.05
             }
           ]
         },
@@ -3086,14 +3086,9 @@ const ENTREGAS_DATA = {
           "total": 453.0,
           "itens": [
             {
-              "desc": "VODKA ABSOLUT VANILLA 750ML",
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
               "qt": 1,
-              "val": 65.9
-            },
-            {
-              "desc": "VODKA ABSOLUT RASPBERRY 750ML",
-              "qt": 3,
-              "val": 197.7
+              "val": 94.7
             },
             {
               "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
@@ -3101,9 +3096,14 @@ const ENTREGAS_DATA = {
               "val": 94.7
             },
             {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "desc": "VODKA ABSOLUT RASPBERRY 750ML",
+              "qt": 3,
+              "val": 197.7
+            },
+            {
+              "desc": "VODKA ABSOLUT VANILLA 750ML",
               "qt": 1,
-              "val": 94.7
+              "val": 65.9
             }
           ]
         }
@@ -5167,6 +5167,36 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "378000474",
+          "numnota": "",
+          "data": "08/07/2026",
+          "cliente": "ALDIR CALDAS DO NASCIMENTO 03407917724",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 145.55,
+          "itens": [
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 4,
+              "val": 51.6
+            },
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 63.99
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 1,
+              "val": 29.96
+            }
+          ]
+        },
+        {
           "numped": "378000475",
           "numnota": "",
           "data": "08/07/2026",
@@ -5187,36 +5217,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "378000474",
-          "numnota": "",
-          "data": "08/07/2026",
-          "cliente": "ALDIR CALDAS DO NASCIMENTO 03407917724",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 145.55,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 2,
-              "val": 63.99
-            },
-            {
-              "desc": "4 PACK RED BULL",
-              "qt": 1,
-              "val": 29.96
-            },
-            {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 4,
-              "val": 51.6
-            }
-          ]
-        },
-        {
           "numped": "378000469",
           "numnota": "",
           "data": "07/07/2026",
@@ -5229,6 +5229,11 @@ const ENTREGAS_DATA = {
           "obs": "",
           "total": 376.39,
           "itens": [
+            {
+              "desc": "PINATI SLIM WHEY BRIGADEIRO (4) 16X35G",
+              "qt": 1,
+              "val": 59.9
+            },
             {
               "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
               "qt": 1,
@@ -5263,11 +5268,6 @@ const ENTREGAS_DATA = {
               "desc": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
               "qt": 1,
               "val": 51.49
-            },
-            {
-              "desc": "PINATI SLIM WHEY BRIGADEIRO (4) 16X35G",
-              "qt": 1,
-              "val": 59.9
             }
           ]
         },
@@ -5643,6 +5643,81 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "159005013",
+          "numnota": "",
+          "data": "08/07/2026",
+          "cliente": "4P RESTAURANTE E BAR 003 LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 899.94,
+          "itens": [
+            {
+              "desc": "RED BULL SF MAÇA 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "RED BULL SF POMELO 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 3,
+              "val": 209.7
+            },
+            {
+              "desc": "RED BULL SUGAR FREE 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            }
+          ]
+        },
+        {
+          "numped": "159005012",
+          "numnota": "",
+          "data": "08/07/2026",
+          "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 463.06,
+          "itens": [
+            {
+              "desc": "WHISKY JIM BEAM APPLE 1L",
+              "qt": 2,
+              "val": 141.8
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "MARTINI BIANCO 750 ML",
+              "qt": 2,
+              "val": 77.8
+            },
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 1,
+              "val": 70.9
+            }
+          ]
+        },
+        {
           "numped": "159005005",
           "numnota": "",
           "data": "08/07/2026",
@@ -5656,9 +5731,14 @@ const ENTREGAS_DATA = {
           "total": 9813.0,
           "itens": [
             {
-              "desc": "WHISKY BOURBON MAKERS MARK 750 ML",
+              "desc": "WHISKY PASSPORT HONEY 670ML",
               "qt": 6,
-              "val": 899.4
+              "val": 239.4
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 5,
+              "val": 862.8
             },
             {
               "desc": "WHISKY JIM BEAM HONEY 1L",
@@ -5681,16 +5761,6 @@ const ENTREGAS_DATA = {
               "val": 1366.2
             },
             {
-              "desc": "RED BULL ZERO  24X250ML",
-              "qt": 5,
-              "val": 862.8
-            },
-            {
-              "desc": "WHISKY PASSPORT HONEY 670ML",
-              "qt": 6,
-              "val": 239.4
-            },
-            {
               "desc": "CONHAQUE DOMECQ 1L",
               "qt": 36,
               "val": 1040.4
@@ -5704,26 +5774,11 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY JAMESON 1L",
               "qt": 12,
               "val": 958.8
-            }
-          ]
-        },
-        {
-          "numped": "159005009",
-          "numnota": "",
-          "data": "08/07/2026",
-          "cliente": "VEGAS MOTEL LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 345.12,
-          "itens": [
+            },
             {
-              "desc": "RED BULL 24X250ML",
-              "qt": 2,
-              "val": 345.12
+              "desc": "WHISKY BOURBON MAKERS MARK 750 ML",
+              "qt": 6,
+              "val": 899.4
             }
           ]
         },
@@ -5741,16 +5796,6 @@ const ENTREGAS_DATA = {
           "total": 517.68,
           "itens": [
             {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 172.56
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 1,
-              "val": 172.56
-            },
-            {
               "desc": "4 PACK RED BULL",
               "qt": 3,
               "val": 86.28
@@ -5759,44 +5804,14 @@ const ENTREGAS_DATA = {
               "desc": "4 PACK RED BULL SUGAR FREE",
               "qt": 3,
               "val": 86.28
-            }
-          ]
-        },
-        {
-          "numped": "159005013",
-          "numnota": "",
-          "data": "08/07/2026",
-          "cliente": "4P RESTAURANTE E BAR 003 LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 899.94,
-          "itens": [
+            },
             {
-              "desc": "RED BULL SUGAR FREE 24X250ML",
+              "desc": "RED BULL 24X250ML",
               "qt": 1,
               "val": 172.56
             },
             {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 1,
-              "val": 172.56
-            },
-            {
-              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-              "qt": 3,
-              "val": 209.7
-            },
-            {
-              "desc": "RED BULL SF POMELO 24X250ML",
-              "qt": 1,
-              "val": 172.56
-            },
-            {
-              "desc": "RED BULL SF MAÇA 24X250ML",
+              "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 1,
               "val": 172.56
             }
@@ -5828,37 +5843,22 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "159005012",
+          "numped": "159005009",
           "numnota": "",
           "data": "08/07/2026",
-          "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
+          "cliente": "VEGAS MOTEL LTDA",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 463.06,
+          "total": 345.12,
           "itens": [
             {
-              "desc": "MARTINI BIANCO 750 ML",
+              "desc": "RED BULL 24X250ML",
               "qt": 2,
-              "val": 77.8
-            },
-            {
-              "desc": "WHISKY JIM BEAM WHITE 1L",
-              "qt": 1,
-              "val": 70.9
-            },
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 1,
-              "val": 172.56
-            },
-            {
-              "desc": "WHISKY JIM BEAM APPLE 1L",
-              "qt": 2,
-              "val": 141.8
+              "val": 345.12
             }
           ]
         },
@@ -5896,6 +5896,11 @@ const ENTREGAS_DATA = {
           "total": 467.3,
           "itens": [
             {
+              "desc": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
+              "qt": 1,
+              "val": 114.9
+            },
+            {
               "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
               "qt": 1,
               "val": 47.9
@@ -5924,11 +5929,6 @@ const ENTREGAS_DATA = {
               "desc": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
               "qt": 1,
               "val": 47.9
-            },
-            {
-              "desc": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
-              "qt": 1,
-              "val": 114.9
             }
           ]
         },
@@ -7482,9 +7482,9 @@ const ENTREGAS_DATA = {
           "total": 2799.36,
           "itens": [
             {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 174.96
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 5,
+              "val": 874.8
             },
             {
               "desc": "RED BULL MELANCIA 250ML CX C/24",
@@ -7492,9 +7492,9 @@ const ENTREGAS_DATA = {
               "val": 1749.6
             },
             {
-              "desc": "RED BULL ZERO  24X250ML",
-              "qt": 5,
-              "val": 874.8
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 174.96
             }
           ]
         }
@@ -9728,14 +9728,9 @@ const ENTREGAS_DATA = {
           "total": 614.2,
           "itens": [
             {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 3,
-              "val": 98.7
-            },
-            {
-              "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
               "qt": 1,
-              "val": 42.0
+              "val": 94.7
             },
             {
               "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
@@ -9758,9 +9753,14 @@ const ENTREGAS_DATA = {
               "val": 94.7
             },
             {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
               "qt": 1,
-              "val": 94.7
+              "val": 42.0
+            },
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 3,
+              "val": 98.7
             }
           ]
         },
@@ -9778,14 +9778,14 @@ const ENTREGAS_DATA = {
           "total": 260.96,
           "itens": [
             {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 7,
-              "val": 223.95
-            },
-            {
               "desc": "GUARAVITON GINSENG 12X500ML",
               "qt": 1,
               "val": 37.01
+            },
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 7,
+              "val": 223.95
             }
           ]
         }
@@ -12889,6 +12889,21 @@ const ENTREGAS_DATA = {
           "total": 1672.72,
           "itens": [
             {
+              "desc": "VODKA ABSOLUT TABASCO 750ML",
+              "qt": 1,
+              "val": 69.9
+            },
+            {
+              "desc": "XAROPE MONIN CRANBERRY 700 ML",
+              "qt": 2,
+              "val": 99.8
+            },
+            {
+              "desc": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+              "qt": 6,
+              "val": 299.4
+            },
+            {
               "desc": "RED BULL 24X250ML",
               "qt": 1,
               "val": 179.76
@@ -12912,21 +12927,6 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 1,
               "val": 179.76
-            },
-            {
-              "desc": "XAROPE MONIN CRANBERRY 700 ML",
-              "qt": 2,
-              "val": 99.8
-            },
-            {
-              "desc": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
-              "qt": 6,
-              "val": 299.4
-            },
-            {
-              "desc": "VODKA ABSOLUT TABASCO 750ML",
-              "qt": 1,
-              "val": 69.9
             }
           ]
         },
@@ -12944,11 +12944,6 @@ const ENTREGAS_DATA = {
           "total": 312.5,
           "itens": [
             {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-              "qt": 1,
-              "val": 124.9
-            },
-            {
               "desc": "FRISANTE MACAW TROPICAL MOSCATO 750ML",
               "qt": 1,
               "val": 24.9
@@ -12962,6 +12957,11 @@ const ENTREGAS_DATA = {
               "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
               "qt": 2,
               "val": 147.8
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 1,
+              "val": 124.9
             }
           ]
         }
