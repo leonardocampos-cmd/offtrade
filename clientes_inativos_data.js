@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "09/07/2026 17:04",
+  "atualizado_em": "09/07/2026 17:25",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -55,6 +55,15 @@ const INATIVOS_DATA = {
           "media": 31.2
         },
         {
+          "codcli": "81152",
+          "cliente": "SUPER REDE MERCEARIA DE REALENGO LTDA",
+          "bairro": "REALENGO",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "14/04/2026",
+          "dias": "86",
+          "media": 23.92
+        },
+        {
           "codcli": "60358",
           "cliente": "MERCADINHO MINDELENSE LTDA (LJ.1)",
           "bairro": "SENADOR CAMARA",
@@ -62,6 +71,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "14/04/2026",
           "dias": "86",
           "media": 0.0
+        },
+        {
+          "codcli": "86901",
+          "cliente": "MERCADO T F DA COSTA LTDA",
+          "bairro": "BALNEARIO DAS CONCHAS",
+          "cidade": "SAO PEDRO DA AL",
+          "dtultcomp": "14/04/2026",
+          "dias": "86",
+          "media": 33.11
         },
         {
           "codcli": "91525",
@@ -82,24 +100,6 @@ const INATIVOS_DATA = {
           "media": 119.01
         },
         {
-          "codcli": "81152",
-          "cliente": "SUPER REDE MERCEARIA DE REALENGO LTDA",
-          "bairro": "REALENGO",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "14/04/2026",
-          "dias": "86",
-          "media": 23.92
-        },
-        {
-          "codcli": "86901",
-          "cliente": "MERCADO T F DA COSTA LTDA",
-          "bairro": "BALNEARIO DAS CONCHAS",
-          "cidade": "SAO PEDRO DA AL",
-          "dtultcomp": "14/04/2026",
-          "dias": "86",
-          "media": 33.11
-        },
-        {
           "codcli": "94275",
           "cliente": "SANDRA REGINA DE SOUZA PAREDE 01131644751",
           "bairro": "HONÓRIO GURGEL",
@@ -118,15 +118,6 @@ const INATIVOS_DATA = {
           "media": 71.76
         },
         {
-          "codcli": "548",
-          "cliente": "PADARIA, CONFEITARIA E MERCEARIA SANTA SARAH DE KALLI LTDA",
-          "bairro": "TAQUARA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "22/04/2026",
-          "dias": "78",
-          "media": 63.12
-        },
-        {
           "codcli": "94401",
           "cliente": "LATICINIOS TEM TUDO DE VISTA ALEGRE LTDA",
           "bairro": "VISTA ALEGRE",
@@ -143,6 +134,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "22/04/2026",
           "dias": "78",
           "media": 80.81
+        },
+        {
+          "codcli": "548",
+          "cliente": "PADARIA, CONFEITARIA E MERCEARIA SANTA SARAH DE KALLI LTDA",
+          "bairro": "TAQUARA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "22/04/2026",
+          "dias": "78",
+          "media": 63.12
         },
         {
           "codcli": "91673",
@@ -190,6 +190,24 @@ const INATIVOS_DATA = {
           "media": 157.81
         },
         {
+          "codcli": "82825",
+          "cliente": "AMOR DO LINS MERCADO LTDA",
+          "bairro": "MEIER",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "29/04/2026",
+          "dias": "71",
+          "media": 23.92
+        },
+        {
+          "codcli": "94263",
+          "cliente": "MERCADO NOSSA REDE DE QUINTINO LTDA",
+          "bairro": "QUINTINO BOCAIÚVA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "29/04/2026",
+          "dias": "71",
+          "media": 0.0
+        },
+        {
           "codcli": "91413",
           "cliente": "KATIA ALVES DA SILVA 05665250708",
           "bairro": "JACAREPAGUA",
@@ -208,24 +226,6 @@ const INATIVOS_DATA = {
           "media": 47.84
         },
         {
-          "codcli": "94263",
-          "cliente": "MERCADO NOSSA REDE DE QUINTINO LTDA",
-          "bairro": "QUINTINO BOCAIÚVA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "29/04/2026",
-          "dias": "71",
-          "media": 0.0
-        },
-        {
-          "codcli": "82825",
-          "cliente": "AMOR DO LINS MERCADO LTDA",
-          "bairro": "MEIER",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "29/04/2026",
-          "dias": "71",
-          "media": 23.92
-        },
-        {
           "codcli": "94808",
           "cliente": "PALESE LATICINIOS LTDA",
           "bairro": "TODOS OS SANTOS",
@@ -233,15 +233,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "30/04/2026",
           "dias": "70",
           "media": 15.97
-        },
-        {
-          "codcli": "94206",
-          "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
-          "bairro": "BANGU",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "02/05/2026",
-          "dias": "68",
-          "media": 165.08
         },
         {
           "codcli": "94818",
@@ -253,13 +244,13 @@ const INATIVOS_DATA = {
           "media": 55.12
         },
         {
-          "codcli": "91254",
-          "cliente": "DROGARIA NOBRE DE REALENGO LTDA",
-          "bairro": "REALENGO",
+          "codcli": "94206",
+          "cliente": "NOBRE BOI PADARIA E MERCEARIA LTDA",
+          "bairro": "BANGU",
           "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "04/05/2026",
-          "dias": "66",
-          "media": 72.24
+          "dtultcomp": "02/05/2026",
+          "dias": "68",
+          "media": 165.08
         },
         {
           "codcli": "91161",
@@ -269,6 +260,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "04/05/2026",
           "dias": "66",
           "media": 76.43
+        },
+        {
+          "codcli": "91254",
+          "cliente": "DROGARIA NOBRE DE REALENGO LTDA",
+          "bairro": "REALENGO",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "04/05/2026",
+          "dias": "66",
+          "media": 72.24
         },
         {
           "codcli": "91644",
@@ -316,15 +316,6 @@ const INATIVOS_DATA = {
           "media": 1509.47
         },
         {
-          "codcli": "76914",
-          "cliente": "JOAO WILSON FONTENELE MACHADO 01404916784",
-          "bairro": "CAMPO GRANDE",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "11/05/2026",
-          "dias": "59",
-          "media": 48.89
-        },
-        {
           "codcli": "92326",
           "cliente": "DROGARIA AMOY LTDA",
           "bairro": "PECHINCHA",
@@ -332,6 +323,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "11/05/2026",
           "dias": "59",
           "media": 61.8
+        },
+        {
+          "codcli": "76914",
+          "cliente": "JOAO WILSON FONTENELE MACHADO 01404916784",
+          "bairro": "CAMPO GRANDE",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "11/05/2026",
+          "dias": "59",
+          "media": 48.89
         },
         {
           "codcli": "94407",
@@ -442,15 +442,6 @@ const INATIVOS_DATA = {
           "media": 851.29
         },
         {
-          "codcli": "91782",
-          "cliente": "DROGARIA FERNANDO LEITE LTDA",
-          "bairro": "RECREIO DOS BANDEIRANTES",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "26/05/2026",
-          "dias": "44",
-          "media": 358.18
-        },
-        {
           "codcli": "90876",
           "cliente": "DON RUAN PADARIA E SALGADEIRA LTDA",
           "bairro": "REALENGO",
@@ -460,13 +451,13 @@ const INATIVOS_DATA = {
           "media": 85.6
         },
         {
-          "codcli": "19666",
-          "cliente": "MERCEARIA HORIZONTE VIDIGAL LTDA",
-          "bairro": "VIDIGAL",
+          "codcli": "91782",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "bairro": "RECREIO DOS BANDEIRANTES",
           "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "27/05/2026",
-          "dias": "43",
-          "media": 217.59
+          "dtultcomp": "26/05/2026",
+          "dias": "44",
+          "media": 358.18
         },
         {
           "codcli": "91410",
@@ -476,6 +467,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "27/05/2026",
           "dias": "43",
           "media": 37.31
+        },
+        {
+          "codcli": "19666",
+          "cliente": "MERCEARIA HORIZONTE VIDIGAL LTDA",
+          "bairro": "VIDIGAL",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "27/05/2026",
+          "dias": "43",
+          "media": 217.59
         },
         {
           "codcli": "76961",
@@ -505,6 +505,33 @@ const INATIVOS_DATA = {
           "media": 155.2
         },
         {
+          "codcli": "94266",
+          "cliente": "MERCADINHO SCHIO LTDA",
+          "bairro": "PIEDADE",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "08/06/2026",
+          "dias": "31",
+          "media": 578.03
+        },
+        {
+          "codcli": "76984",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "bairro": "CAMPO GRANDE",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "08/06/2026",
+          "dias": "31",
+          "media": 823.04
+        },
+        {
+          "codcli": "89433",
+          "cliente": "RESTAURANTE E LANCHONETE MIX DAS TORCIDAS LTDA",
+          "bairro": "PIEDADE",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "08/06/2026",
+          "dias": "31",
+          "media": 34.13
+        },
+        {
           "codcli": "92917",
           "cliente": "RINAPEN MERCADO LTDA",
           "bairro": "BACAXA",
@@ -521,33 +548,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "08/06/2026",
           "dias": "31",
           "media": 76.74
-        },
-        {
-          "codcli": "89433",
-          "cliente": "RESTAURANTE E LANCHONETE MIX DAS TORCIDAS LTDA",
-          "bairro": "PIEDADE",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "08/06/2026",
-          "dias": "31",
-          "media": 34.13
-        },
-        {
-          "codcli": "76984",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "bairro": "CAMPO GRANDE",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "08/06/2026",
-          "dias": "31",
-          "media": 823.04
-        },
-        {
-          "codcli": "94266",
-          "cliente": "MERCADINHO SCHIO LTDA",
-          "bairro": "PIEDADE",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "08/06/2026",
-          "dias": "31",
-          "media": 578.03
         },
         {
           "codcli": "93630",
@@ -577,13 +577,13 @@ const INATIVOS_DATA = {
       ],
       "sem_compra": [
         {
-          "codcli": "67339",
-          "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
-          "bairro": "COPACABANA",
+          "codcli": "78873",
+          "cliente": "BAR E RESTAURANTE SOUSA SOUTO LTDA",
+          "bairro": "GAVEA",
           "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "13/04/2026",
-          "dias": "87",
-          "media": 65.6
+          "dtultcomp": "09/12/2024",
+          "dias": "577",
+          "media": 0.0
         },
         {
           "codcli": "94091",
@@ -593,6 +593,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "13/04/2026",
           "dias": "87",
           "media": 196.8
+        },
+        {
+          "codcli": "67339",
+          "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
+          "bairro": "COPACABANA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "13/04/2026",
+          "dias": "87",
+          "media": 65.6
         },
         {
           "codcli": "89348",
@@ -10559,15 +10568,6 @@ const INATIVOS_DATA = {
           "media": 565.76
         },
         {
-          "codcli": "91634",
-          "cliente": "RIO SUL BELFORD ROXO COMERCIO DE ALIMENTOS LTDA",
-          "bairro": "REDENTOR",
-          "cidade": "BELFORD ROXO",
-          "dtultcomp": "14/05/2026",
-          "dias": "56",
-          "media": 304.64
-        },
-        {
           "codcli": "83980",
           "cliente": "SUPERMERCADO TRADICAO RJ LTDA",
           "bairro": "CENTRO",
@@ -10586,6 +10586,15 @@ const INATIVOS_DATA = {
           "media": 3697.44
         },
         {
+          "codcli": "91634",
+          "cliente": "RIO SUL BELFORD ROXO COMERCIO DE ALIMENTOS LTDA",
+          "bairro": "REDENTOR",
+          "cidade": "BELFORD ROXO",
+          "dtultcomp": "14/05/2026",
+          "dias": "56",
+          "media": 304.64
+        },
+        {
           "codcli": "60349",
           "cliente": "CEREAIS IRENE LTDA",
           "bairro": "PARQUE PAULISTA",
@@ -10593,15 +10602,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "18/05/2026",
           "dias": "52",
           "media": 408.88
-        },
-        {
-          "codcli": "92391",
-          "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
-          "bairro": "RICARDO DE ALBUQUERQUE",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "25/05/2026",
-          "dias": "45",
-          "media": 1123.81
         },
         {
           "codcli": "73083",
@@ -10613,21 +10613,21 @@ const INATIVOS_DATA = {
           "media": 1433.8
         },
         {
+          "codcli": "92391",
+          "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
+          "bairro": "RICARDO DE ALBUQUERQUE",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "25/05/2026",
+          "dias": "45",
+          "media": 1123.81
+        },
+        {
           "codcli": "86307",
           "cliente": "CEREAIS IRENE LTDA",
           "bairro": "JARDIM ANHANGÁ",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "26/05/2026",
           "dias": "44",
-          "media": 0.0
-        },
-        {
-          "codcli": "90489",
-          "cliente": "MERCADO ILHA DO GOVERNADOR LTDA",
-          "bairro": "JARDIM GUANABARA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "27/05/2026",
-          "dias": "43",
           "media": 0.0
         },
         {
@@ -10640,6 +10640,15 @@ const INATIVOS_DATA = {
           "media": 1676.62
         },
         {
+          "codcli": "90489",
+          "cliente": "MERCADO ILHA DO GOVERNADOR LTDA",
+          "bairro": "JARDIM GUANABARA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "27/05/2026",
+          "dias": "43",
+          "media": 0.0
+        },
+        {
           "codcli": "91576",
           "cliente": "SUPERMERCADO JAPERI LTDA",
           "bairro": "NOVA BELEM",
@@ -10647,15 +10656,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "28/05/2026",
           "dias": "42",
           "media": 720.73
-        },
-        {
-          "codcli": "83588",
-          "cliente": "MERCADAO DE ALIMENTOS UNIDOS BRASIL LTDA",
-          "bairro": "CAMPOS ELISEOS",
-          "cidade": "DUQUE DE CAXIAS",
-          "dtultcomp": "29/05/2026",
-          "dias": "41",
-          "media": 0.0
         },
         {
           "codcli": "84046",
@@ -10667,13 +10667,13 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "83643",
-          "cliente": "COMERCIO DE BEBIDAS DOS OLIVEIRAS LTDA",
-          "bairro": "JARDIM ANHANGA",
+          "codcli": "83588",
+          "cliente": "MERCADAO DE ALIMENTOS UNIDOS BRASIL LTDA",
+          "bairro": "CAMPOS ELISEOS",
           "cidade": "DUQUE DE CAXIAS",
-          "dtultcomp": "30/05/2026",
-          "dias": "40",
-          "media": 1125.49
+          "dtultcomp": "29/05/2026",
+          "dias": "41",
+          "media": 0.0
         },
         {
           "codcli": "95204",
@@ -10683,6 +10683,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "30/05/2026",
           "dias": "40",
           "media": 506.0
+        },
+        {
+          "codcli": "83643",
+          "cliente": "COMERCIO DE BEBIDAS DOS OLIVEIRAS LTDA",
+          "bairro": "JARDIM ANHANGA",
+          "cidade": "DUQUE DE CAXIAS",
+          "dtultcomp": "30/05/2026",
+          "dias": "40",
+          "media": 1125.49
         },
         {
           "codcli": "94175",
@@ -10712,15 +10721,6 @@ const INATIVOS_DATA = {
           "media": 4225.21
         },
         {
-          "codcli": "84320",
-          "cliente": "MERCADO JV DUQUE DE CAXIAS LTDA",
-          "bairro": "PARQUE NOVA ESPERANÇA",
-          "cidade": "DUQUE DE CAXIAS",
-          "dtultcomp": "08/06/2026",
-          "dias": "31",
-          "media": 1790.42
-        },
-        {
           "codcli": "78216",
           "cliente": "SUPERMERCADO RIO SUL DO GRAMACHO LTDA",
           "bairro": "VILA LEOPOLDINA",
@@ -10728,6 +10728,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "08/06/2026",
           "dias": "31",
           "media": 0.0
+        },
+        {
+          "codcli": "84320",
+          "cliente": "MERCADO JV DUQUE DE CAXIAS LTDA",
+          "bairro": "PARQUE NOVA ESPERANÇA",
+          "cidade": "DUQUE DE CAXIAS",
+          "dtultcomp": "08/06/2026",
+          "dias": "31",
+          "media": 1790.42
         }
       ],
       "novos": []
