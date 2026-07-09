@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "09/07/2026 12:13",
+  "atualizado_em": "09/07/2026 12:21",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 51808.96,
-        "pos": 43,
+        "fat": 52577.66,
+        "pos": 44,
         "fat_ant": 343937.59
       }
     },
@@ -231,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 21182.02,
-        "pos": 21,
+        "fat": 22807.96,
+        "pos": 23,
         "fat_ant": 85308.22
       }
     },
@@ -45051,6 +45051,24 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 99.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "33353",
+          "cliente": "CANGA E CANDEIA DANCING BAR LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 5,
+          "valor": 718.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "33353",
+          "cliente": "CANGA E CANDEIA DANCING BAR LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9
         }
       ]
     },
@@ -83329,6 +83347,42 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 364.32
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "34916",
+          "cliente": "SODEXO DO BRASIL COMERCIAL S A",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 1184.64
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "31096",
+          "cliente": "PLAYBAR LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 149.7
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "31096",
+          "cliente": "PLAYBAR LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 141.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "31096",
+          "cliente": "PLAYBAR LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 149.8
         }
       ]
     },
