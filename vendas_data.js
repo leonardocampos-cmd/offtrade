@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/07/2026 13:48",
+  "atualizado_em": "09/07/2026 14:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -405644,6 +405644,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "09/07/2026",
+          "codcli": "27228",
+          "cliente": "BOB PECHINCA ATACADISTA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 1680,
+          "valor": 41832.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "08/07/2026",
           "codcli": "27557",
           "cliente": "BOB PECHINCHA ATACADISTA LTDA",
@@ -437774,6 +437784,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "09/07/2026",
+          "codcli": "49543",
+          "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 1200,
+          "valor": 10788.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "50439",
+          "cliente": "ADEGA DO PAULINHO LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "50439",
+          "cliente": "ADEGA DO PAULINHO LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "02/07/2026",
           "codcli": "51436",
           "cliente": "31.084.832 JOSE EDVALDO FERNANDES FREITAS",
@@ -451914,6 +451954,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "09/07/2026",
+          "codcli": "50630",
+          "cliente": "39.681.517 PAOLA EDUARDA DE MORAES",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 8,
+          "valor": 375.2,
+          "tipo": "Venda"
+        },
+        {
           "data": "06/07/2026",
           "codcli": "51151",
           "cliente": "20.944.796 RONALDO ANSELMO DE SOUZA JUNIOR",
@@ -453299,6 +453349,56 @@ const VENDAS_DATA = {
           "fantasia": "CRS BRANDS",
           "qt": 48,
           "valor": 431.52,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "49974",
+          "cliente": "AGNALDO ALMEIDA MENDES",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 347.38,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "49974",
+          "cliente": "AGNALDO ALMEIDA MENDES",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 169.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "49974",
+          "cliente": "AGNALDO ALMEIDA MENDES",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 317.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "49974",
+          "cliente": "AGNALDO ALMEIDA MENDES",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 359.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "49974",
+          "cliente": "AGNALDO ALMEIDA MENDES",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 3,
+          "valor": 350.7,
           "tipo": "Venda"
         },
         {
@@ -456689,6 +456789,46 @@ const VENDAS_DATA = {
           "fantasia": "INVICTUS",
           "qt": 3,
           "valor": 43.65,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "50526",
+          "cliente": "H. DE SOUZA MINIMERCADO LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 99.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "50526",
+          "cliente": "H. DE SOUZA MINIMERCADO LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 119.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "50526",
+          "cliente": "H. DE SOUZA MINIMERCADO LTDA",
+          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 99.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "50526",
+          "cliente": "H. DE SOUZA MINIMERCADO LTDA",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 2,
+          "valor": 159.8,
           "tipo": "Venda"
         }
       ]
