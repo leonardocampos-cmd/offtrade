@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/07/2026 09:15",
+  "atualizado_em": "09/07/2026 09:26",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -43311,16 +43311,6 @@ const VENDAS_DATA = {
           "fantasia": "VITON",
           "qt": 20,
           "valor": 534.59,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "74671",
-          "cliente": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 20,
-          "valor": 639.86,
           "tipo": "Venda"
         },
         {
@@ -91353,26 +91343,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 12,
           "valor": 47.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "82609",
-          "cliente": "CAFE E BAR RIVERA LTDA",
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "fantasia": "VITON",
-          "qt": 2,
-          "valor": 74.02,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "82609",
-          "cliente": "CAFE E BAR RIVERA LTDA",
-          "produto": "RUM MONTILLA OURO 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 573.6,
           "tipo": "Venda"
         },
         {
