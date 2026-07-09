@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "09/07/2026 16:04",
+  "atualizado_em": "09/07/2026 16:44",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 9,
   "dias_no_mes": 31,
   "dias_restantes": 22,
   "resumo": {
-    "fat": 2581770.97,
+    "fat": 2599013.91,
     "fat_ant": 2772603.98,
     "fat_ant_completo": 13136996.91,
-    "pos": 637,
+    "pos": 643,
     "pos_ant": 686,
     "pos_ant_completo": 1800
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 2581770.97,
+    "fat": 2599013.91,
     "fat_ant": 2772603.98,
     "fat_ant_completo": 13136996.91,
-    "pct": 17.9,
-    "nec_dia": 537192.23
+    "pct": 18.0,
+    "nec_dia": 536408.46
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 599670.49,
+      "fat": 603588.93,
       "fat_ant": 744565.33,
-      "pos": 256,
-      "pct": 15.4,
-      "nec_dia": 150014.98,
+      "pos": 258,
+      "pct": 15.5,
+      "nec_dia": 149836.87,
       "fat_ant_completo": 2710537.01,
       "pos_ant": 306,
       "pos_ant_completo": 743
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 223108.7,
+      "fat": 236433.2,
       "fat_ant": 320730.96,
-      "pos": 100,
-      "pct": 10.6,
-      "nec_dia": 85313.24,
+      "pos": 104,
+      "pct": 11.3,
+      "nec_dia": 84707.58,
       "fat_ant_completo": 1759835.17,
       "pos_ant": 118,
       "pos_ant_completo": 284
@@ -100,13 +100,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 165220.15,
+      "fat": 174650.65,
       "fat_ant": 285578.98,
       "por_estado": {
         "RJ": 0.0,
         "SP": 447.49,
         "ES": 0.0,
-        "MG": 164772.66
+        "MG": 174203.16
       }
     },
     {
@@ -133,10 +133,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "TATUZINHO",
-      "fat": 83064.47,
+      "fat": 82825.07,
       "fat_ant": 96122.95,
       "por_estado": {
-        "RJ": 20196.76,
+        "RJ": 19957.36,
         "SP": 7120.8,
         "ES": 55746.91,
         "MG": 0.0
@@ -155,10 +155,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 66499.07,
+      "fat": 66757.91,
       "fat_ant": 329308.42,
       "por_estado": {
-        "RJ": 65494.15,
+        "RJ": 65752.99,
         "SP": 0.0,
         "ES": 1004.92,
         "MG": 0.0
@@ -253,22 +253,22 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "HENNESSY",
-      "fat": 20005.36,
-      "fat_ant": 42526.83,
+      "fantasia": "CASA PERINI",
+      "fat": 23501.8,
+      "fat_ant": 18325.7,
       "por_estado": {
-        "RJ": 20005.36,
+        "RJ": 23501.8,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
       }
     },
     {
-      "fantasia": "CASA PERINI",
-      "fat": 19553.8,
-      "fat_ant": 18325.7,
+      "fantasia": "HENNESSY",
+      "fat": 20005.36,
+      "fat_ant": 42526.83,
       "por_estado": {
-        "RJ": 19553.8,
+        "RJ": 20005.36,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
@@ -308,6 +308,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "MSLR",
+      "fat": 12999.8,
+      "fat_ant": 918.6,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 0.0,
+        "ES": 0.0,
+        "MG": 12999.8
+      }
+    },
+    {
       "fantasia": "CAMPARI",
       "fat": 12812.15,
       "fat_ant": 6200.94,
@@ -327,17 +338,6 @@ const METAS_GERAIS_DATA = {
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "MSLR",
-      "fat": 9105.8,
-      "fat_ant": 918.6,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 9105.8
       }
     },
     {
@@ -540,10 +540,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "1883",
-      "fat": 797.5,
+      "fat": 748.5,
       "fat_ant": 730.5,
       "por_estado": {
-        "RJ": 797.5,
+        "RJ": 748.5,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
