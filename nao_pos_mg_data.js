@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "09/07/2026 12:13",
+  "atualizado_em": "09/07/2026 12:22",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -2799,44 +2799,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33353",
-        "cliente": "CANGA E CANDEIA DANCING BAR LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 49.9
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 79.9
-          },
-          {
-            "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 61.8
-          },
-          {
-            "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 159.8
-          },
-          {
-            "produto": "XAR 1883  GRENADINE FRUT VERMELHAS 1LT",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 68.9
-          }
-        ]
-      },
-      {
         "codcli": "31903",
         "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
         "bairro": "BELVEDERE",
@@ -5054,9 +5016,9 @@ const NAO_POS_MG_DATA = {
     ],
     "LEANDRO OLIVEIRA": [
       {
-        "codcli": "39125",
+        "codcli": "38630",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "RENASCENÇA",
+        "bairro": "GLÓRIA",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -5068,9 +5030,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39121",
+        "codcli": "39126",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "SÃO BENEDITO",
+        "bairro": "ESTRELA DO ORIENTE",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -5096,9 +5058,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38630",
+        "codcli": "39121",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "GLÓRIA",
+        "bairro": "SÃO BENEDITO",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -5110,9 +5072,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39126",
+        "codcli": "39125",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "ESTRELA DO ORIENTE",
+        "bairro": "RENASCENÇA",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -5176,6 +5138,20 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37255",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SION",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 6,
+            "valor": 419.4
+          }
+        ]
+      },
+      {
         "codcli": "33294",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "ROCHEDO",
@@ -5192,20 +5168,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 372.6
-          }
-        ]
-      },
-      {
-        "codcli": "37255",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SION",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 6,
-            "valor": 419.4
           }
         ]
       },
@@ -8303,26 +8265,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31096",
-        "cliente": "PLAYBAR LTDA",
-        "bairro": "ESTORIL",
-        "dtultcomp": "10/06/2026",
-        "produtos": [
-          {
-            "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 299.4
-          },
-          {
-            "produto": "VINHO CAVAS DE ORO BLEND ROSADO 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 269.4
-          }
-        ]
-      },
-      {
         "codcli": "30984",
         "cliente": "ESTACAO PARADA DO CARDOSO PIZZARIA E RESTAURANTE LTDA",
         "bairro": "SANTA TEREZA",
@@ -9051,20 +8993,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "34916",
-        "cliente": "SODEXO DO BRASIL COMERCIAL S A",
-        "bairro": "IPIRANGA",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 8,
-            "valor": 1184.64
           }
         ]
       },
