@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "08/07/2026 23:28",
+  "atualizado_em": "09/07/2026 00:03",
   "meses": [
     "Jun/26"
   ],
@@ -499,66 +499,26 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Sep/25",
-          "fat": 143158.92,
-          "pos": 15
+          "fat": 84013.2,
+          "pos": 4
         },
         {
           "mes": "Oct/25",
-          "fat": 103274.66,
-          "pos": 27
-        },
-        {
-          "mes": "Nov/25",
-          "fat": 670585.6,
-          "pos": 32
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 96506.14,
-          "pos": 18
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 249225.72,
-          "pos": 3
+          "fat": 19164.0,
+          "pos": 11
         },
         {
           "mes": "Feb/26",
-          "fat": 112590.24,
-          "pos": 17
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 32693.54,
-          "pos": 7
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 231774.56,
-          "pos": 10
-        },
-        {
-          "mes": "May/26",
-          "fat": 311854.18,
-          "pos": 32
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 232134.51,
-          "pos": 27
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 86280.41,
-          "pos": 5
+          "fat": 12139.2,
+          "pos": 1
         }
       ],
       "previsao": {
-        "fat_proj": 330741.57,
-        "fat_media_hist": 258587.75,
-        "pos_proj": 19.2,
-        "pos_media_hist": 23.0,
-        "du_passados": 6,
+        "fat_proj": 283492.78,
+        "fat_media_hist": 38438.8,
+        "pos_proj": 16.4,
+        "pos_media_hist": 5.3,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -3792,74 +3752,13 @@ const METAS_DATA = {
           ]
         }
       ],
-      "historico": [
-        {
-          "mes": "Aug/25",
-          "fat": 136451.39,
-          "pos": 82
-        },
-        {
-          "mes": "Sep/25",
-          "fat": 152185.04,
-          "pos": 87
-        },
-        {
-          "mes": "Oct/25",
-          "fat": 148384.61,
-          "pos": 109
-        },
-        {
-          "mes": "Nov/25",
-          "fat": 192968.35,
-          "pos": 98
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 274325.78,
-          "pos": 111
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 180606.14,
-          "pos": 91
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 155812.22,
-          "pos": 86
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 136643.46,
-          "pos": 91
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 114506.92,
-          "pos": 83
-        },
-        {
-          "mes": "May/26",
-          "fat": 120276.35,
-          "pos": 100
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 135227.99,
-          "pos": 90
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 26877.26,
-          "pos": 32
-        }
-      ],
+      "historico": [],
       "previsao": {
-        "fat_proj": 103029.5,
-        "fat_media_hist": 123337.09,
-        "pos_proj": 134.2,
-        "pos_media_hist": 91.0,
-        "du_passados": 6,
+        "fat_proj": 88311.0,
+        "fat_media_hist": 0.0,
+        "pos_proj": 115.0,
+        "pos_media_hist": 0.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -5485,74 +5384,13 @@ const METAS_DATA = {
           ]
         }
       ],
-      "historico": [
-        {
-          "mes": "Aug/25",
-          "fat": 33464.57,
-          "pos": 43
-        },
-        {
-          "mes": "Sep/25",
-          "fat": 53676.28,
-          "pos": 56
-        },
-        {
-          "mes": "Oct/25",
-          "fat": 127357.46,
-          "pos": 70
-        },
-        {
-          "mes": "Nov/25",
-          "fat": 409161.66,
-          "pos": 65
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 210615.44,
-          "pos": 63
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 50031.92,
-          "pos": 50
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 99519.11,
-          "pos": 49
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 41583.87,
-          "pos": 48
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 72550.99,
-          "pos": 52
-        },
-        {
-          "mes": "May/26",
-          "fat": 73273.91,
-          "pos": 40
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 163410.7,
-          "pos": 46
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 42362.09,
-          "pos": 16
-        }
-      ],
+      "historico": [],
       "previsao": {
-        "fat_proj": 162388.01,
-        "fat_media_hist": 103078.53,
-        "pos_proj": 65.2,
-        "pos_media_hist": 46.0,
-        "du_passados": 6,
+        "fat_proj": 139189.72,
+        "fat_media_hist": 0.0,
+        "pos_proj": 55.9,
+        "pos_media_hist": 0.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -7153,71 +6991,21 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Aug/25",
-          "fat": 215387.78,
-          "pos": 47
-        },
-        {
-          "mes": "Sep/25",
-          "fat": 125217.14,
-          "pos": 26
+          "fat": 155112.82,
+          "pos": 16
         },
         {
           "mes": "Oct/25",
-          "fat": 581596.58,
-          "pos": 42
-        },
-        {
-          "mes": "Nov/25",
-          "fat": 311150.36,
-          "pos": 36
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 179735.07,
-          "pos": 27
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 57990.45,
-          "pos": 20
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 75401.45,
-          "pos": 32
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 143479.65,
-          "pos": 39
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 108370.81,
-          "pos": 23
-        },
-        {
-          "mes": "May/26",
-          "fat": 118697.02,
-          "pos": 39
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 136183.85,
-          "pos": 25
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 25448.95,
-          "pos": 11
+          "fat": 144268.2,
+          "pos": 1
         }
       ],
       "previsao": {
-        "fat_proj": 97554.31,
-        "fat_media_hist": 121083.89,
-        "pos_proj": 42.2,
-        "pos_media_hist": 29.0,
-        "du_passados": 6,
+        "fat_proj": 83617.98,
+        "fat_media_hist": 149690.51,
+        "pos_proj": 36.1,
+        "pos_media_hist": 8.5,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -7562,71 +7350,26 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Aug/25",
-          "fat": 465190.23,
-          "pos": 14
+          "fat": 258973.04,
+          "pos": 9
         },
         {
           "mes": "Sep/25",
-          "fat": 321026.47,
-          "pos": 8
+          "fat": 22560.0,
+          "pos": 1
         },
         {
           "mes": "Oct/25",
-          "fat": 726945.18,
-          "pos": 15
-        },
-        {
-          "mes": "Nov/25",
-          "fat": 543429.15,
-          "pos": 12
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 445504.93,
-          "pos": 8
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 471676.84,
-          "pos": 9
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 336468.1,
-          "pos": 9
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 392568.34,
-          "pos": 12
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 616057.52,
-          "pos": 8
-        },
-        {
-          "mes": "May/26",
-          "fat": 529437.68,
-          "pos": 11
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 121179.98,
-          "pos": 5
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 1455.18,
+          "fat": 59220.0,
           "pos": 1
         }
       ],
       "previsao": {
-        "fat_proj": 5578.19,
-        "fat_media_hist": 422225.06,
-        "pos_proj": 3.8,
-        "pos_media_hist": 8.0,
-        "du_passados": 6,
+        "fat_proj": 4781.31,
+        "fat_media_hist": 113584.35,
+        "pos_proj": 3.3,
+        "pos_media_hist": 3.7,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -7743,66 +7486,41 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Aug/25",
-          "fat": 119722.78,
-          "pos": 31
-        },
-        {
-          "mes": "Sep/25",
-          "fat": 26029.27,
-          "pos": 17
+          "fat": 68909.9,
+          "pos": 19
         },
         {
           "mes": "Oct/25",
-          "fat": 1397039.08,
-          "pos": 47
+          "fat": 1166842.56,
+          "pos": 31
         },
         {
           "mes": "Nov/25",
-          "fat": 562474.41,
-          "pos": 28
+          "fat": 17871.66,
+          "pos": 1
         },
         {
           "mes": "Dec/25",
-          "fat": 214790.87,
-          "pos": 38
+          "fat": 131034.22,
+          "pos": 28
         },
         {
           "mes": "Jan/26",
-          "fat": 50134.2,
-          "pos": 20
+          "fat": 30572.64,
+          "pos": 1
         },
         {
           "mes": "Feb/26",
-          "fat": 419595.23,
-          "pos": 46
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 284063.08,
-          "pos": 27
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 201153.01,
-          "pos": 30
-        },
-        {
-          "mes": "May/26",
-          "fat": 17978.98,
-          "pos": 5
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 249642.7,
-          "pos": 2
+          "fat": 48448.44,
+          "pos": 19
         }
       ],
       "previsao": {
         "fat_proj": 0.0,
-        "fat_media_hist": 156258.23,
-        "pos_proj": 3.8,
-        "pos_media_hist": 12.3,
-        "du_passados": 6,
+        "fat_media_hist": 70018.43,
+        "pos_proj": 3.3,
+        "pos_media_hist": 16.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -9034,67 +8752,17 @@ const METAS_DATA = {
       ],
       "historico": [
         {
-          "mes": "Sep/25",
-          "fat": 91377.59,
-          "pos": 21
-        },
-        {
-          "mes": "Oct/25",
-          "fat": 157257.26,
-          "pos": 37
-        },
-        {
-          "mes": "Nov/25",
-          "fat": 320704.07,
-          "pos": 31
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 264605.74,
-          "pos": 42
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 151609.71,
-          "pos": 33
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 34983.46,
-          "pos": 17
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 87007.98,
-          "pos": 40
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 47733.55,
-          "pos": 30
-        },
-        {
-          "mes": "May/26",
-          "fat": 38615.83,
-          "pos": 40
-        },
-        {
           "mes": "Jun/26",
-          "fat": 106049.31,
-          "pos": 38
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 19109.14,
-          "pos": 13
+          "fat": 42728.4,
+          "pos": 2
         }
       ],
       "previsao": {
-        "fat_proj": 73251.7,
-        "fat_media_hist": 64132.9,
-        "pos_proj": 49.8,
-        "pos_media_hist": 36.0,
-        "du_passados": 6,
+        "fat_proj": 62787.17,
+        "fat_media_hist": 42728.4,
+        "pos_proj": 42.7,
+        "pos_media_hist": 2.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -10443,71 +10111,21 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Aug/25",
-          "fat": 205445.77,
-          "pos": 71
+          "fat": 79498.5,
+          "pos": 37
         },
         {
           "mes": "Sep/25",
-          "fat": 193539.94,
-          "pos": 38
-        },
-        {
-          "mes": "Oct/25",
-          "fat": 202222.62,
-          "pos": 36
-        },
-        {
-          "mes": "Nov/25",
-          "fat": 303790.86,
-          "pos": 53
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 394010.4,
-          "pos": 53
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 249930.47,
-          "pos": 35
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 72065.42,
-          "pos": 25
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 127085.44,
-          "pos": 25
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 220003.25,
-          "pos": 41
-        },
-        {
-          "mes": "May/26",
-          "fat": 159667.33,
-          "pos": 34
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 202297.97,
-          "pos": 46
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 63046.28,
-          "pos": 19
+          "fat": 1548.6,
+          "pos": 1
         }
       ],
       "previsao": {
-        "fat_proj": 241677.41,
-        "fat_media_hist": 193989.52,
-        "pos_proj": 80.5,
-        "pos_media_hist": 40.3,
-        "du_passados": 6,
+        "fat_proj": 207152.06,
+        "fat_media_hist": 40523.55,
+        "pos_proj": 69.0,
+        "pos_media_hist": 19.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -11345,39 +10963,13 @@ const METAS_DATA = {
           ]
         }
       ],
-      "historico": [
-        {
-          "mes": "Mar/26",
-          "fat": 21007.04,
-          "pos": 12
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 29614.42,
-          "pos": 8
-        },
-        {
-          "mes": "May/26",
-          "fat": 186552.85,
-          "pos": 44
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 245095.92,
-          "pos": 51
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 48959.64,
-          "pos": 13
-        }
-      ],
+      "historico": [],
       "previsao": {
-        "fat_proj": 187678.62,
-        "fat_media_hist": 153754.4,
-        "pos_proj": 49.8,
-        "pos_media_hist": 34.3,
-        "du_passados": 6,
+        "fat_proj": 160867.39,
+        "fat_media_hist": 0.0,
+        "pos_proj": 42.7,
+        "pos_media_hist": 0.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -11473,51 +11065,51 @@ const METAS_DATA = {
         },
         {
           "mes": "Dec/25",
-          "fat": 852135.94,
-          "pos": 17
+          "fat": 765753.32,
+          "pos": 11
         },
         {
           "mes": "Jan/26",
-          "fat": 750567.3,
-          "pos": 27
+          "fat": 380992.84,
+          "pos": 5
         },
         {
           "mes": "Feb/26",
-          "fat": 416954.18,
-          "pos": 23
+          "fat": 371969.06,
+          "pos": 12
         },
         {
           "mes": "Mar/26",
-          "fat": 577934.51,
-          "pos": 50
+          "fat": 507284.71,
+          "pos": 21
         },
         {
           "mes": "Apr/26",
-          "fat": 374209.65,
-          "pos": 30
+          "fat": 335970.68,
+          "pos": 14
         },
         {
           "mes": "May/26",
-          "fat": 319626.3,
-          "pos": 20
+          "fat": 296909.39,
+          "pos": 12
         },
         {
           "mes": "Jun/26",
-          "fat": 190794.48,
-          "pos": 22
+          "fat": 160308.3,
+          "pos": 7
         },
         {
           "mes": "Jul/26",
-          "fat": 27950.18,
-          "pos": 3
+          "fat": 26924.18,
+          "pos": 1
         }
       ],
       "previsao": {
-        "fat_proj": 107142.36,
-        "fat_media_hist": 294876.81,
-        "pos_proj": 11.5,
-        "pos_media_hist": 24.0,
-        "du_passados": 6,
+        "fat_proj": 91836.31,
+        "fat_media_hist": 264396.12,
+        "pos_proj": 9.9,
+        "pos_media_hist": 11.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -12754,46 +12346,46 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Jan/26",
-          "fat": 47977.43,
-          "pos": 15
+          "fat": 479.95,
+          "pos": 2
         },
         {
           "mes": "Feb/26",
-          "fat": 85632.96,
-          "pos": 27
+          "fat": 72241.13,
+          "pos": 11
         },
         {
           "mes": "Mar/26",
-          "fat": 79224.92,
-          "pos": 28
+          "fat": 61267.01,
+          "pos": 13
         },
         {
           "mes": "Apr/26",
-          "fat": 54791.73,
-          "pos": 26
+          "fat": 38789.48,
+          "pos": 7
         },
         {
           "mes": "May/26",
-          "fat": 41885.89,
-          "pos": 30
+          "fat": 31391.38,
+          "pos": 7
         },
         {
           "mes": "Jun/26",
-          "fat": 29434.9,
-          "pos": 29
+          "fat": 14867.46,
+          "pos": 9
         },
         {
           "mes": "Jul/26",
-          "fat": 13052.25,
-          "pos": 12
+          "fat": 9059.78,
+          "pos": 3
         }
       ],
       "previsao": {
-        "fat_proj": 50033.66,
-        "fat_media_hist": 42037.51,
-        "pos_proj": 46.0,
-        "pos_media_hist": 28.3,
-        "du_passados": 6,
+        "fat_proj": 42886.0,
+        "fat_media_hist": 28349.44,
+        "pos_proj": 39.4,
+        "pos_media_hist": 7.7,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -12899,34 +12491,14 @@ const METAS_DATA = {
           "mes": "Jan/26",
           "fat": 192898.8,
           "pos": 1
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 311300.4,
-          "pos": 1
-        },
-        {
-          "mes": "May/26",
-          "fat": 293171.76,
-          "pos": 2
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 354225.6,
-          "pos": 1
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 17038.8,
-          "pos": 1
         }
       ],
       "previsao": {
-        "fat_proj": 65315.4,
-        "fat_media_hist": 319565.92,
-        "pos_proj": 3.8,
-        "pos_media_hist": 1.3,
-        "du_passados": 6,
+        "fat_proj": 55984.63,
+        "fat_media_hist": 206736.6,
+        "pos_proj": 3.3,
+        "pos_media_hist": 1.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -15418,62 +14990,17 @@ const METAS_DATA = {
       ],
       "historico": [
         {
-          "mes": "Oct/25",
-          "fat": 14106.73,
-          "pos": 29
-        },
-        {
           "mes": "Nov/25",
-          "fat": 40924.72,
-          "pos": 77
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 67598.76,
-          "pos": 53
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 42407.53,
-          "pos": 55
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 29311.2,
-          "pos": 46
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 45698.21,
-          "pos": 68
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 42773.83,
-          "pos": 72
-        },
-        {
-          "mes": "May/26",
-          "fat": 42105.35,
-          "pos": 60
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 59959.16,
-          "pos": 56
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 7413.94,
-          "pos": 16
+          "fat": 741.6,
+          "pos": 1
         }
       ],
       "previsao": {
-        "fat_proj": 28420.18,
-        "fat_media_hist": 48279.45,
-        "pos_proj": 61.3,
-        "pos_media_hist": 62.7,
-        "du_passados": 6,
+        "fat_proj": 24360.15,
+        "fat_media_hist": 741.6,
+        "pos_proj": 52.6,
+        "pos_media_hist": 1.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -17691,59 +17218,13 @@ const METAS_DATA = {
           ]
         }
       ],
-      "historico": [
-        {
-          "mes": "Nov/25",
-          "fat": 143621.7,
-          "pos": 60
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 177895.57,
-          "pos": 65
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 120189.01,
-          "pos": 61
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 43093.73,
-          "pos": 42
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 83205.4,
-          "pos": 62
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 81357.56,
-          "pos": 65
-        },
-        {
-          "mes": "May/26",
-          "fat": 88600.15,
-          "pos": 68
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 76836.25,
-          "pos": 71
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 26179.8,
-          "pos": 27
-        }
-      ],
+      "historico": [],
       "previsao": {
-        "fat_proj": 100355.9,
-        "fat_media_hist": 82264.66,
-        "pos_proj": 103.5,
-        "pos_media_hist": 68.0,
-        "du_passados": 6,
+        "fat_proj": 86019.34,
+        "fat_media_hist": 0.0,
+        "pos_proj": 88.7,
+        "pos_media_hist": 0.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -18851,37 +18332,27 @@ const METAS_DATA = {
       ],
       "historico": [
         {
-          "mes": "Mar/26",
-          "fat": 51636.1,
-          "pos": 33
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 39504.83,
-          "pos": 36
-        },
-        {
           "mes": "May/26",
-          "fat": 62777.85,
-          "pos": 45
+          "fat": 17486.74,
+          "pos": 9
         },
         {
           "mes": "Jun/26",
-          "fat": 67368.13,
-          "pos": 61
+          "fat": 22522.12,
+          "pos": 16
         },
         {
           "mes": "Jul/26",
-          "fat": 10072.3,
-          "pos": 9
+          "fat": 1106.8,
+          "pos": 1
         }
       ],
       "previsao": {
-        "fat_proj": 38610.48,
-        "fat_media_hist": 56550.27,
-        "pos_proj": 38.3,
-        "pos_media_hist": 47.3,
-        "du_passados": 6,
+        "fat_proj": 33094.7,
+        "fat_media_hist": 20004.43,
+        "pos_proj": 32.9,
+        "pos_media_hist": 12.5,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -19719,59 +19190,13 @@ const METAS_DATA = {
           ]
         }
       ],
-      "historico": [
-        {
-          "mes": "Nov/25",
-          "fat": 8477.16,
-          "pos": 23
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 33976.12,
-          "pos": 27
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 30910.68,
-          "pos": 22
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 68927.86,
-          "pos": 21
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 77331.5,
-          "pos": 26
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 59211.56,
-          "pos": 34
-        },
-        {
-          "mes": "May/26",
-          "fat": 19052.5,
-          "pos": 17
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 35637.82,
-          "pos": 32
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 10541.47,
-          "pos": 11
-        }
-      ],
+      "historico": [],
       "previsao": {
-        "fat_proj": 40408.93,
-        "fat_media_hist": 37967.29,
-        "pos_proj": 42.2,
-        "pos_media_hist": 27.7,
-        "du_passados": 6,
+        "fat_proj": 34636.23,
+        "fat_media_hist": 0.0,
+        "pos_proj": 36.1,
+        "pos_media_hist": 0.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -19871,34 +19296,24 @@ const METAS_DATA = {
       ],
       "historico": [
         {
-          "mes": "Aug/25",
-          "fat": 140751.0,
-          "pos": 2
-        },
-        {
-          "mes": "Sep/25",
-          "fat": 56616.4,
+          "mes": "Oct/25",
+          "fat": 252516.2,
           "pos": 1
         },
         {
-          "mes": "Oct/25",
-          "fat": 472524.34,
-          "pos": 5
-        },
-        {
           "mes": "Nov/25",
-          "fat": 305209.88,
-          "pos": 16
+          "fat": 124639.4,
+          "pos": 2
         },
         {
           "mes": "Dec/25",
-          "fat": 163721.72,
-          "pos": 15
+          "fat": 5742.0,
+          "pos": 1
         },
         {
           "mes": "Jan/26",
-          "fat": 69824.88,
-          "pos": 4
+          "fat": 59070.0,
+          "pos": 1
         },
         {
           "mes": "Feb/26",
@@ -19907,23 +19322,23 @@ const METAS_DATA = {
         },
         {
           "mes": "Mar/26",
-          "fat": 468097.2,
-          "pos": 5
+          "fat": 267824.6,
+          "pos": 1
         },
         {
           "mes": "Apr/26",
-          "fat": 54657.0,
-          "pos": 3
+          "fat": 5219.4,
+          "pos": 1
         },
         {
           "mes": "May/26",
-          "fat": 273318.1,
-          "pos": 3
+          "fat": 126780.4,
+          "pos": 1
         },
         {
           "mes": "Jun/26",
-          "fat": 224058.22,
-          "pos": 3
+          "fat": 210218.0,
+          "pos": 2
         },
         {
           "mes": "Jul/26",
@@ -19932,11 +19347,11 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 186231.0,
-        "fat_media_hist": 184011.11,
-        "pos_proj": 3.8,
-        "pos_media_hist": 3.0,
-        "du_passados": 6,
+        "fat_proj": 159626.57,
+        "fat_media_hist": 114072.6,
+        "pos_proj": 3.3,
+        "pos_media_hist": 1.3,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -20015,7 +19430,7 @@ const METAS_DATA = {
         "fat_media_hist": 0.0,
         "pos_proj": 0.0,
         "pos_media_hist": 0.0,
-        "du_passados": 6,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -20135,42 +19550,17 @@ const METAS_DATA = {
       ],
       "historico": [
         {
-          "mes": "Nov/25",
-          "fat": 271.3,
-          "pos": 1
-        },
-        {
           "mes": "Dec/25",
           "fat": 50032.26,
-          "pos": 1
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 55645.44,
-          "pos": 1
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 86710.08,
-          "pos": 2
-        },
-        {
-          "mes": "May/26",
-          "fat": 96803.92,
-          "pos": 3
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 65076.48,
           "pos": 1
         }
       ],
       "previsao": {
         "fat_proj": 0.0,
-        "fat_media_hist": 82863.49,
+        "fat_media_hist": 50032.26,
         "pos_proj": 0.0,
-        "pos_media_hist": 2.0,
-        "du_passados": 6,
+        "pos_media_hist": 1.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -22575,71 +21965,16 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Aug/25",
-          "fat": 182934.37,
-          "pos": 67
-        },
-        {
-          "mes": "Sep/25",
-          "fat": 232375.07,
-          "pos": 78
-        },
-        {
-          "mes": "Oct/25",
-          "fat": 270203.33,
-          "pos": 80
-        },
-        {
-          "mes": "Nov/25",
-          "fat": 506221.5,
-          "pos": 90
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 564274.84,
-          "pos": 96
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 491921.21,
-          "pos": 85
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 347158.73,
-          "pos": 76
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 334823.74,
-          "pos": 82
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 169258.69,
-          "pos": 62
-        },
-        {
-          "mes": "May/26",
-          "fat": 184921.52,
-          "pos": 72
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 230025.14,
-          "pos": 76
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 38031.7,
-          "pos": 28
+          "fat": 10040.5,
+          "pos": 4
         }
       ],
       "previsao": {
-        "fat_proj": 145788.18,
-        "fat_media_hist": 194735.12,
-        "pos_proj": 107.3,
-        "pos_media_hist": 70.0,
-        "du_passados": 6,
+        "fat_proj": 124961.3,
+        "fat_media_hist": 10040.5,
+        "pos_proj": 92.0,
+        "pos_media_hist": 4.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -24836,71 +24171,16 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Aug/25",
-          "fat": 110663.92,
-          "pos": 71
-        },
-        {
-          "mes": "Sep/25",
-          "fat": 191781.61,
-          "pos": 72
-        },
-        {
-          "mes": "Oct/25",
-          "fat": 210852.1,
-          "pos": 86
-        },
-        {
-          "mes": "Nov/25",
-          "fat": 325253.04,
-          "pos": 95
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 621003.95,
-          "pos": 115
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 572545.36,
-          "pos": 115
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 517461.5,
-          "pos": 86
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 282926.53,
-          "pos": 101
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 224907.01,
-          "pos": 84
-        },
-        {
-          "mes": "May/26",
-          "fat": 122820.02,
-          "pos": 68
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 208188.28,
-          "pos": 77
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 36223.17,
-          "pos": 34
+          "fat": 809.1,
+          "pos": 1
         }
       ],
       "previsao": {
-        "fat_proj": 138855.48,
-        "fat_media_hist": 185305.1,
-        "pos_proj": 130.3,
-        "pos_media_hist": 76.3,
-        "du_passados": 6,
+        "fat_proj": 119018.99,
+        "fat_media_hist": 809.1,
+        "pos_proj": 111.7,
+        "pos_media_hist": 1.0,
+        "du_passados": 7,
         "du_total": 23
       }
     },
@@ -25430,74 +24710,13 @@ const METAS_DATA = {
           ]
         }
       ],
-      "historico": [
-        {
-          "mes": "Aug/25",
-          "fat": 23510.56,
-          "pos": 15
-        },
-        {
-          "mes": "Sep/25",
-          "fat": 25358.83,
-          "pos": 26
-        },
-        {
-          "mes": "Oct/25",
-          "fat": 66400.91,
-          "pos": 27
-        },
-        {
-          "mes": "Nov/25",
-          "fat": 61982.07,
-          "pos": 24
-        },
-        {
-          "mes": "Dec/25",
-          "fat": 100018.04,
-          "pos": 34
-        },
-        {
-          "mes": "Jan/26",
-          "fat": 51615.94,
-          "pos": 28
-        },
-        {
-          "mes": "Feb/26",
-          "fat": 39470.32,
-          "pos": 26
-        },
-        {
-          "mes": "Mar/26",
-          "fat": 20576.6,
-          "pos": 15
-        },
-        {
-          "mes": "Apr/26",
-          "fat": 16316.8,
-          "pos": 16
-        },
-        {
-          "mes": "May/26",
-          "fat": 12828.86,
-          "pos": 12
-        },
-        {
-          "mes": "Jun/26",
-          "fat": 28929.18,
-          "pos": 23
-        },
-        {
-          "mes": "Jul/26",
-          "fat": 8421.54,
-          "pos": 6
-        }
-      ],
+      "historico": [],
       "previsao": {
-        "fat_proj": 32282.57,
-        "fat_media_hist": 19358.28,
-        "pos_proj": 23.0,
-        "pos_media_hist": 17.0,
-        "du_passados": 6,
+        "fat_proj": 27670.77,
+        "fat_media_hist": 0.0,
+        "pos_proj": 19.7,
+        "pos_media_hist": 0.0,
+        "du_passados": 7,
         "du_total": 23
       }
     }
@@ -25505,6 +24724,7 @@ const METAS_DATA = {
   "fontes_indisponiveis": [
     "cadastros_CASTAS",
     "historico_CASTAS",
+    "historico_CRC",
     "map_rca_CASTAS",
     "nao_pos_CASTAS",
     "vendas_CASTAS",
