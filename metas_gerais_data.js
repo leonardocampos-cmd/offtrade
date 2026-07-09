@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "09/07/2026 12:10",
+  "atualizado_em": "09/07/2026 12:17",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 9,
   "dias_no_mes": 31,
   "dias_restantes": 22,
   "resumo": {
-    "fat": 2402937.56,
+    "fat": 2401494.02,
     "fat_ant": 2772603.98,
     "fat_ant_completo": 13137572.19,
-    "pos": 622,
+    "pos": 620,
     "pos_ant": 686,
     "pos_ant_completo": 1800
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 2402937.56,
+    "fat": 2401494.02,
     "fat_ant": 2772603.98,
     "fat_ant_completo": 13137572.19,
     "pct": 16.7,
-    "nec_dia": 545321.02
+    "nec_dia": 545386.64
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 578737.26,
+      "fat": 577293.72,
       "fat_ant": 744565.33,
-      "pos": 253,
+      "pos": 251,
       "pct": 14.8,
-      "nec_dia": 150966.49,
+      "nec_dia": 151032.1,
       "fat_ant_completo": 2711112.29,
       "pos_ant": 306,
       "pos_ant_completo": 743
@@ -78,10 +78,10 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 1001785.59,
+      "fat": 1001438.79,
       "fat_ant": 966223.35,
       "por_estado": {
-        "RJ": 151496.77,
+        "RJ": 151149.97,
         "SP": 847425.26,
         "ES": 2863.56,
         "MG": 0.0
@@ -144,10 +144,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "TATUZINHO",
-      "fat": 77463.48,
+      "fat": 77200.14,
       "fat_ant": 96122.95,
       "por_estado": {
-        "RJ": 22202.49,
+        "RJ": 21939.15,
         "SP": 7120.8,
         "ES": 48140.19,
         "MG": 0.0
@@ -287,10 +287,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CASTAS",
-      "fat": 14362.7,
+      "fat": 14183.3,
       "fat_ant": 58793.63,
       "por_estado": {
-        "RJ": 13526.3,
+        "RJ": 13346.9,
         "SP": 836.4,
         "ES": 0.0,
         "MG": 0.0
@@ -429,23 +429,23 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "COMARY",
-      "fat": 2300.62,
-      "fat_ant": 2115.52,
-      "por_estado": {
-        "RJ": 1897.74,
-        "SP": 402.88,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
       "fantasia": "HOB",
       "fat": 1897.75,
       "fat_ant": 7585.58,
       "por_estado": {
         "RJ": 1897.75,
         "SP": 0.0,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "COMARY",
+      "fat": 1646.62,
+      "fat_ant": 2115.52,
+      "por_estado": {
+        "RJ": 1243.74,
+        "SP": 402.88,
         "ES": 0.0,
         "MG": 0.0
       }
