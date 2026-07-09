@@ -74,36 +74,35 @@
       font-size: 0.85rem;
       color: var(--accent-light);
       font-weight: 600;
-      margin-bottom: 18px;
     }
-    .camp-premio-box {
-      display: inline-block;
-      background: var(--card2);
-      border: 1px solid #2ea7c944;
-      border-radius: 10px;
-      padding: 10px 28px;
-      text-align: center;
+
+    /* ── Time (secao) ─────────────────────────────────────────── */
+    .time-block { margin-bottom: 32px; }
+    .time-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 10px;
+      padding: 0 2px;
     }
-    .camp-premio-label {
-      font-size: 0.63rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      margin-bottom: 4px;
-    }
-    .camp-premio-val {
-      font-size: 1.35rem;
+    .time-nome {
+      font-size: 1.15rem;
       font-weight: 800;
+      color: var(--text);
+    }
+    .time-premio {
+      font-size: 0.8rem;
+      font-weight: 700;
       color: var(--accent);
     }
 
     /* ── Criterios ────────────────────────────────────────────── */
     .criterios {
       display: flex;
-      justify-content: center;
-      gap: 10px;
+      justify-content: flex-start;
+      gap: 8px;
       flex-wrap: wrap;
-      margin-top: 16px;
+      margin-bottom: 14px;
     }
     .criterio-chip {
       background: var(--card2);
@@ -121,7 +120,6 @@
       border: 1px solid var(--border);
       border-radius: 12px;
       overflow: hidden;
-      margin-bottom: 20px;
     }
     .rank-header {
       padding: 13px 16px;
@@ -194,7 +192,6 @@
 
     .vend-breakdown {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
       gap: 8px;
     }
     .bd-item {
@@ -256,7 +253,6 @@
 
     @media (max-width: 620px) {
       header h1 { font-size: 1.5rem; }
-      .vend-breakdown { grid-template-columns: 1fr 1fr; }
     }
   </style>
 </head>
@@ -267,27 +263,11 @@
   <header>
     <div class="camp-badge">Campanha Ativa</div>
     <h1>Campanha Robinson Crusoe</h1>
-    <p class="camp-sub">Key Account — Clientes RJ</p>
+    <p class="camp-sub">Key Account &middot; Atacarejo &middot; Convenience &mdash; Clientes RJ</p>
     <div class="camp-periodo" id="periodo"></div>
-    <div class="camp-premio-box">
-      <div class="camp-premio-label">Prêmio (maior pontuação)</div>
-      <div class="camp-premio-val" id="premio-val"></div>
-    </div>
-    <div class="criterios">
-      <span class="criterio-chip"><strong>+1 pt</strong> por pedido</span>
-      <span class="criterio-chip"><strong>+5 pts</strong> novo SKU (60d)</span>
-      <span class="criterio-chip"><strong>+5 pts</strong> reativação (60d)</span>
-      <span class="criterio-chip"><strong>+5 pts</strong> meta batida</span>
-    </div>
   </header>
 
-  <div class="rank-card">
-    <div class="rank-header">
-      <span class="rank-title">Ranking</span>
-      <span class="rank-prize-label" id="rank-prize-label"></span>
-    </div>
-    <div class="rank-list" id="rank-list"></div>
-  </div>
+  <div id="times-container"></div>
 
   <footer>
     Atualizado em <strong id="atualizado"></strong>
@@ -306,72 +286,98 @@
       return v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     }
 
-    document.getElementById('premio-val').textContent = fmtMoeda(D.premio);
-    document.getElementById('rank-prize-label').textContent = `🥇 ${fmtMoeda(D.premio)}`;
+    // Cada time tem seus próprios campos de breakdown, já que os critérios
+    // de pontuação (ver campanha_crusoe.py) não são iguais entre times.
+    const BREAKDOWN_CONFIG = {
+      KEY_ACCOUNT: [
+        { label: 'Pedidos', val: r => r.pedidos, pts: r => r.pontos_pedidos },
+        { label: 'Novos SKUs', val: r => r.novos_skus, pts: r => r.pontos_novos_skus },
+        { label: 'Reativações', val: r => r.reativacoes, pts: r => r.pontos_reativacoes },
+        {
+          label: 'Meta', pts: r => r.pontos_meta, nd: r => !r.meta_definida,
+          val: r => r.meta_definida
+            ? (r.meta_atingida ? '✅ Batida' : `${fmtMoeda(r.faturamento)} / ${fmtMoeda(r.meta_valor)}`)
+            : 'N/D',
+        },
+      ],
+      ATACAREJO: [
+        { label: 'Positivações', val: r => r.positivacoes, pts: r => r.pontos_positivacao },
+        { label: 'Novos SKUs', val: r => r.novos_skus, pts: r => r.pontos_novos_skus },
+        { label: 'Pedidos (valor)', val: r => r.pedidos, pts: r => r.pontos_pedidos_valor },
+      ],
+      CONVENIENCE: [
+        { label: 'Clientes Gourmet', val: r => r.clientes_gourmet, pts: r => r.pontos_total },
+      ],
+    };
 
-    function buildRanking() {
-      const el = document.getElementById('rank-list');
-      const rows = D.vendedores || [];
-      if (!rows.length) {
-        el.innerHTML = '<div class="rank-empty">Sem dados da campanha ainda.<br>A campanha comeca em 01/07/2026.</div>';
-        return;
-      }
-
-      // Determina quem leva o premio: maior pontos_total; empate quebrado por
-      // faturamento; se tambem empatado no faturamento, ambos levam.
-      const maxPontos = Math.max(...rows.map(r => r.pontos_total));
-      const empatadosPontos = rows.filter(r => r.pontos_total === maxPontos);
-      const maxFat = Math.max(...empatadosPontos.map(r => r.faturamento));
-      const vencedores = new Set(
-        empatadosPontos.filter(r => r.faturamento === maxFat).map(r => r.rca)
-      );
-
-      el.innerHTML = rows.map((r, i) => {
-        const pos = i < 3 ? MEDALS[i] : (i + 1);
-        const ganhou = vencedores.has(r.rca);
-        const rowCls = ganhou ? ' primeiro' : '';
-        const metaVal = r.meta_definida
-          ? (r.meta_atingida ? '✅ Batida' : `${fmtMoeda(r.faturamento)} / ${fmtMoeda(r.meta_valor)}`)
-          : 'N/D';
-        return `
-          <div class="vend-row${rowCls}">
-            <div class="vend-top">
-              <span class="vend-pos">${pos}</span>
-              <span class="vend-nome">${r.vendedor}</span>
-              <div class="vend-pontos-box">
-                <div class="vend-pontos">${r.pontos_total} pts</div>
-                <div class="vend-pontos-label">pontuação</div>
-                ${ganhou ? '<div class="vend-prize-tag">🏆 Prêmio</div>' : ''}
-              </div>
+    function buildVendRow(r, pos, ganhou, breakdown) {
+      const rowCls = ganhou ? ' primeiro' : '';
+      const bdHtml = breakdown.map(cfg => `
+        <div class="bd-item${cfg.nd && cfg.nd(r) ? ' nd' : ''}">
+          <div class="bd-label">${cfg.label}</div>
+          <div class="bd-val" style="font-size:0.82rem">${cfg.val(r)}</div>
+          <div class="bd-pts">+${cfg.pts(r)} pts</div>
+        </div>`).join('');
+      return `
+        <div class="vend-row${rowCls}">
+          <div class="vend-top">
+            <span class="vend-pos">${pos}</span>
+            <span class="vend-nome">${r.vendedor}</span>
+            <div class="vend-pontos-box">
+              <div class="vend-pontos">${r.pontos_total} pts</div>
+              <div class="vend-pontos-label">pontuação</div>
+              ${ganhou ? '<div class="vend-prize-tag">🏆 Prêmio</div>' : ''}
             </div>
-            <div class="vend-breakdown">
-              <div class="bd-item">
-                <div class="bd-label">Pedidos</div>
-                <div class="bd-val">${r.pedidos}</div>
-                <div class="bd-pts">+${r.pontos_pedidos} pts</div>
-              </div>
-              <div class="bd-item">
-                <div class="bd-label">Novos SKUs</div>
-                <div class="bd-val">${r.novos_skus}</div>
-                <div class="bd-pts">+${r.pontos_novos_skus} pts</div>
-              </div>
-              <div class="bd-item">
-                <div class="bd-label">Reativações</div>
-                <div class="bd-val">${r.reativacoes}</div>
-                <div class="bd-pts">+${r.pontos_reativacoes} pts</div>
-              </div>
-              <div class="bd-item${r.meta_definida ? '' : ' nd'}">
-                <div class="bd-label">Meta</div>
-                <div class="bd-val" style="font-size:0.72rem">${metaVal}</div>
-                <div class="bd-pts">+${r.pontos_meta} pts</div>
-              </div>
-            </div>
-            <div class="vend-faturamento">Faturamento: <strong>${fmtMoeda(r.faturamento)}</strong></div>
-          </div>`;
-      }).join('');
+          </div>
+          <div class="vend-breakdown" style="grid-template-columns: repeat(${breakdown.length}, 1fr)">${bdHtml}</div>
+          <div class="vend-faturamento">Faturamento: <strong>${fmtMoeda(r.faturamento)}</strong></div>
+        </div>`;
     }
 
-    buildRanking();
+    function buildTimeBlock(time) {
+      const rows = time.vendedores || [];
+      const breakdown = BREAKDOWN_CONFIG[time.id] || [];
+      const criteriosHtml = (time.criterios || [])
+        .map(c => `<span class="criterio-chip"><strong>${c.valor}</strong> ${c.label}</span>`)
+        .join('');
+
+      let listHtml;
+      if (!rows.length) {
+        listHtml = '<div class="rank-empty">Sem dados da campanha ainda.<br>A campanha comeca em 01/07/2026.</div>';
+      } else {
+        // Determina quem leva o premio do time: maior pontos_total; empate
+        // quebrado por faturamento; se tambem empatado no faturamento, ambos levam.
+        const maxPontos = Math.max(...rows.map(r => r.pontos_total));
+        const empatadosPontos = rows.filter(r => r.pontos_total === maxPontos);
+        const maxFat = Math.max(...empatadosPontos.map(r => r.faturamento));
+        const vencedores = new Set(
+          empatadosPontos.filter(r => r.faturamento === maxFat).map(r => r.rca)
+        );
+        listHtml = rows.map((r, i) => {
+          const pos = i < 3 ? MEDALS[i] : (i + 1);
+          return buildVendRow(r, pos, vencedores.has(r.rca), breakdown);
+        }).join('');
+      }
+
+      return `
+        <div class="time-block">
+          <div class="time-header">
+            <span class="time-nome">${time.nome}</span>
+            <span class="time-premio">🏆 ${fmtMoeda(time.premio)}</span>
+          </div>
+          <div class="criterios">${criteriosHtml}</div>
+          <div class="rank-card">
+            <div class="rank-header">
+              <span class="rank-title">Ranking</span>
+              <span class="rank-prize-label">🥇 ${fmtMoeda(time.premio)}</span>
+            </div>
+            <div class="rank-list">${listHtml}</div>
+          </div>
+        </div>`;
+    }
+
+    document.getElementById('times-container').innerHTML =
+      (D.times || []).map(buildTimeBlock).join('');
 
     // ── Countdown auto-refresh (5 min) ────────────────────────
     let secs = 300;
