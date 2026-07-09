@@ -1,5 +1,5 @@
 # ─────────────────────────────────────────────────────────────────────────
-# TIME 1 - KEY ACCOUNT (ROBSON CRUSOE) - geração de crusoe_data.js
+# TIME 1 - KEY ACCOUNT (ROBINSON CRUSOE) - geração de crusoe_data.js
 # ─────────────────────────────────────────────────────────────────────────
 #
 # RCAs por time (CODUSUR / NOME / TIPO no Oracle, confirmado em 08/07/2026):
@@ -11,13 +11,13 @@
 #   Time 3 - Convenience:  156 Marilena Tragel · 378 Fabio Valotti ·
 #                          379 Jorge Maciel · 431 Adeilson Gonçalvez
 #
-# Esta campanha (Robson Crusoe) atende só o Time 1 (RCAs 275 e 158).
+# Esta campanha (Robinson Crusoe) atende só o Time 1 (RCAs 275 e 158).
 import json
 import subprocess
 import pandas as pd
 from datetime import datetime, timedelta
 from pathlib import Path
-from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, carregar_dados
+from meta import engine, carregar_dados
 
 DT_INI = "2026-07-01"
 DT_FIM = "2026-08-31"
@@ -66,14 +66,9 @@ def _query(schema, filtro_filial=None, filtro_estado=None):
           AND M.DTCANCEL IS NULL{extra_filial}{extra_estado}
     """
 
-# RJ = filiais 2 e 4 nas bases CRC/thekings; demais bases usam PCUSUARI.ESTADO
-# (mesma convenção de meta.py::_query_vendas).
+# Campanha Robinson Crusoe atende só a base CRC (RJ = filiais 2 e 4).
 FONTES = [
-    ("CRC",      engine,         "(2, 4)", None),
-    ("thekings", engine_theking, "(2, 4)", None),
-    ("CASTAS",   engine_castas,  None,     "RJ"),
-    ("GARRIDO",  engine_garrido, None,     "RJ"),
-    ("SPON",     engine_spon,    None,     "RJ"),
+    ("CRC", engine, "(2, 4)", None),
 ]
 
 FONTES_INDISPONIVEIS: list[str] = []
@@ -156,7 +151,7 @@ for rca, nome in RCAS.items():
     pontos_pedidos = pedidos
     pontos_novos_skus = novos_skus * 5
     pontos_reativacoes = reativacoes * 5
-    pontos_meta = 5 if meta_atingida else 0
+    pontos_meta = 4 if meta_atingida else 0
     pontos_total = pontos_pedidos + pontos_novos_skus + pontos_reativacoes + pontos_meta
 
     resultado.append({

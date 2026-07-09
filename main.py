@@ -98,7 +98,7 @@ def main():
         #     print("[AVISO] exportacao_amarula falhou — ignorado, pipeline continua.")
         #     traceback.print_exc()
 
-        step("4/8 - Campanha Robson Crusoe (crusoe_data.js)")
+        step("4/8 - Campanha Robinson Crusoe (crusoe_data.js)")
         try:
             import subprocess, sys as _sys
             result = subprocess.run(
