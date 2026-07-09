@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "09/07/2026 10:13",
+  "atualizado_em": "09/07/2026 11:11",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -269,8 +269,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 216670.79
       },
       "Jun/26": {
-        "fat": 94593.5,
-        "pos": 22,
+        "fat": 93799.7,
+        "pos": 21,
         "fat_ant": 284639.24
       },
       "Abr/26": {
@@ -284,9 +284,9 @@ const VENDAS_ES_DATA = {
         "fat_ant": 118062.39
       },
       "Jul/26": {
-        "fat": 115534.4,
-        "pos": 13,
-        "fat_ant": 94593.5
+        "fat": 114641.6,
+        "pos": 12,
+        "fat_ant": 93799.7
       }
     },
     "MARA DEPOLLI": {
@@ -69389,15 +69389,6 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "RUM BACARDI SUPERIOR 700ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 427.68
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "85438",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "produto": "RUM BACARDI SUPERIOR 700ML",
@@ -70808,15 +70799,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 24,
           "valor": 366.24
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 24,
-          "valor": 366.12
         },
         {
           "data": "30/06/2026",
@@ -76847,15 +76829,6 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "02/07/2026",
-          "codcli": "82537",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "fantasia": "PINATI",
-          "qt": 10,
-          "valor": 446.4
-        },
-        {
-          "data": "02/07/2026",
           "codcli": "76076",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
           "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
@@ -76876,15 +76849,6 @@ const VENDAS_ES_DATA = {
           "data": "02/07/2026",
           "codcli": "76076",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 10,
-          "valor": 446.4
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "82537",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
           "fantasia": "PINATI",
           "qt": 10,
