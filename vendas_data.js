@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/07/2026 12:10",
+  "atualizado_em": "09/07/2026 12:17",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -251251,46 +251251,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "08/07/2026",
-          "codcli": "69649",
-          "cliente": "MERCADO ENSEADA DO SOL LTDA",
-          "produto": "CACHACA TATUZINHO PET 750 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 60,
-          "valor": 239.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "69649",
-          "cliente": "MERCADO ENSEADA DO SOL LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 59.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "69649",
-          "cliente": "MERCADO ENSEADA DO SOL LTDA",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 59.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "69649",
-          "cliente": "MERCADO ENSEADA DO SOL LTDA",
-          "produto": "VINHO GRAVEDAD CAB. SAUV.",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 59.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/07/2026",
           "codcli": "76068",
           "cliente": "EDUARDO METZKER DE LIMA 88949150778",
           "produto": "VINHO GRAVEDAD CARMENERE 750ML",
@@ -251367,36 +251327,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 3,
           "valor": 89.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74979",
-          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
-          "produto": "COMARY MELFORT COQUETEL DE MEL 1L",
-          "fantasia": "COMARY",
-          "qt": 60,
-          "valor": 654.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74979",
-          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 346.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74979",
-          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
-          "produto": "CACHACA TATUZINHO PET 750 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 6,
-          "valor": 23.94,
           "tipo": "Venda"
         },
         {
