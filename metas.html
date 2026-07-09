@@ -1301,7 +1301,7 @@ function renderDetail(v, mes) {
     </div>`;
 
   // ── Seção: Campanhas ──────────────────────────────────────
-  const _campConteudo = buildAllCampanhas(v) + buildAmarulaDetail(v) + buildMovingDetail(v);
+  const _campConteudo = buildAllCampanhas(v) + buildAmarulaDetail(v, mes) + buildMovingDetail(v, mes);
   const campanhasHtml = _campConteudo.trim().length > 80 ? `
     <div class="detail-card">
       <div class="sec-header" onclick="toggleSec('sec-camp')">
@@ -1694,8 +1694,11 @@ function buildAllCampanhas(v) {
   return buildCampanhaDetail(v, _getMes());
 }
 
-function buildAmarulaDetail(v) {
+const _AMARULA_MESES = ['Mai/26', 'Jun/26']; // período 25/05–25/06
+
+function buildAmarulaDetail(v, mes) {
   if (typeof AMARULA_DATA === 'undefined') return '';
+  if (mes && !_AMARULA_MESES.includes(mes)) return '';
   const medals = ['🥇', '🥈', '🥉'];
 
   const posIdx = AMARULA_DATA.ranking_positivacao.findIndex(r => r.vendedor === v.nome);
@@ -1770,7 +1773,8 @@ function _movingFatCamp(nomeVendedor) {
   return total;
 }
 
-function buildMovingDetail(v) {
+function buildMovingDetail(v, mes) {
+  if (mes && !_MOVING_MESES.includes(mes)) return '';
   if (_MOVING_METAS_IND[v.rca] === undefined) return '';
   const fatReal = _movingFatCamp(v.nome);
   const metaInd = _MOVING_METAS_IND[v.rca];
@@ -1948,8 +1952,8 @@ function _buildCards(vendedores, mes) {
           <span class="stat-val">${v.clientes_cadastrados || 0}</span>
         </div>
         ${buildCampanhaDetail(v, mes)}
-        ${buildAmarulaDetail(v)}
-        ${buildMovingDetail(v)}
+        ${buildAmarulaDetail(v, mes)}
+        ${buildMovingDetail(v, mes)}
         <div class="card-actions" style="gap:8px">
           <button class="btn" onclick="copyLink('${v.nome.replace(/'/g,"\\'")}', this)">&#128279; Link</button>
           <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>
