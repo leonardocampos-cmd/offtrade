@@ -1,8 +1,9 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "09/07/2026 14:17",
+  "atualizado_em": "09/07/2026 14:55",
   "meses": [
+    "Jul/26",
     "Jun/26"
   ],
   "vendedores": [
@@ -71,9 +72,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 2
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 345000.0,
+            "realizado": 86034.32
+          },
+          "fat_castas": {
+            "meta": 44000.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 585.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 2727.72
+          },
+          "pos_tt": {
+            "meta": 30,
+            "realizado": 5
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 3
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 2
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          }
         }
       },
-      "clientes_cadastrados": 1,
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "84032",
@@ -623,9 +686,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 30
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 90000.0,
+            "realizado": 26237.4
+          },
+          "fat_castas": {
+            "meta": 9000.0,
+            "realizado": 2784.7
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 4971.6
+          },
+          "pos_tt": {
+            "meta": 70,
+            "realizado": 35
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 10
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 30
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 6
+          }
         }
       },
-      "clientes_cadastrados": 4,
+      "clientes_cadastrados": 1,
       "nao_positivados": [
         {
           "CODCLI": "90472",
@@ -3928,9 +4053,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 4
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 150000.0,
+            "realizado": 42362.09
+          },
+          "fat_castas": {
+            "meta": 9000.0,
+            "realizado": 621.6
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 38.9
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 473.5
+          },
+          "pos_tt": {
+            "meta": 50,
+            "realizado": 17
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 11
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 2
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          }
         }
       },
-      "clientes_cadastrados": 1,
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "87069",
@@ -5621,9 +5808,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 13
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 190000.0,
+            "realizado": 21813.15
+          },
+          "fat_castas": {
+            "meta": 10000.0,
+            "realizado": 538.2
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 490.8
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 3663.6
+          },
+          "pos_tt": {
+            "meta": 50,
+            "realizado": 10
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 3
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 10
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 2
+          }
         }
       },
-      "clientes_cadastrados": 1,
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "91149",
@@ -7278,9 +7527,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 2
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 450000.0,
+            "realizado": 1455.18
+          },
+          "fat_castas": {
+            "meta": 12000.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 10,
+            "realizado": 1
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 5
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 1
+          }
         }
       },
-      "clientes_cadastrados": 0,
+      "clientes_cadastrados": 1,
       "nao_positivados": [
         {
           "CODCLI": "18798",
@@ -7687,6 +7998,68 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 0
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 150000.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 3000.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 1,
+            "realizado": 1
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          }
         }
       },
       "clientes_cadastrados": 0,
@@ -7863,9 +8236,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 12
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 130000.0,
+            "realizado": 17139.34
+          },
+          "fat_castas": {
+            "meta": 10000.0,
+            "realizado": 85.7
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 47.84
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 50,
+            "realizado": 11
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 2
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 10
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 6
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 4
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 50
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 10
+          }
         }
       },
-      "clientes_cadastrados": 7,
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "90146",
@@ -9150,6 +9585,68 @@ const METAS_DATA = {
           "pos_pernod": {
             "meta": 0,
             "realizado": 18
+          }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 190000.0,
+            "realizado": 63046.28
+          },
+          "fat_castas": {
+            "meta": 10000.0,
+            "realizado": 253.8
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 253.8
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 35,
+            "realizado": 21
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 2
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 4
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 5
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 20
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 4
           }
         }
       },
@@ -10564,9 +11061,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 23
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 250000.0,
+            "realizado": 48959.64
+          },
+          "fat_castas": {
+            "meta": 10000.0,
+            "realizado": 1257.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 3001.1
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 525.6
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 45,
+            "realizado": 13
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 120
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 24
+          }
         }
       },
-      "clientes_cadastrados": 0,
+      "clientes_cadastrados": 1,
       "nao_positivados": [
         {
           "CODCLI": "7755",
@@ -11574,9 +12133,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 2
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 450000.0,
+            "realizado": 11608.72
+          },
+          "fat_castas": {
+            "meta": 10000.0,
+            "realizado": 448.5
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 231.2
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 50,
+            "realizado": 11
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 20
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 4
+          }
         }
       },
-      "clientes_cadastrados": 2,
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "95443",
@@ -12838,6 +13459,68 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 0
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 300000.0,
+            "realizado": 17038.8
+          },
+          "fat_castas": {
+            "meta": 60000.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 1,
+            "realizado": 1
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          }
         }
       },
       "clientes_cadastrados": 0,
@@ -12971,9 +13654,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 11
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 65000.0,
+            "realizado": 6766.34
+          },
+          "fat_castas": {
+            "meta": 3000.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 95.9
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 70,
+            "realizado": 16
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 3
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_tatuzinho": {
+            "meta": 15,
+            "realizado": 6
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 6
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 5
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 1
+          }
         }
       },
-      "clientes_cadastrados": 4,
+      "clientes_cadastrados": 1,
       "nao_positivados": [
         {
           "CODCLI": "91089",
@@ -15518,9 +16263,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 15
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 80000.0,
+            "realizado": 26179.8
+          },
+          "fat_castas": {
+            "meta": 3000.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 116.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 257.49
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 70,
+            "realizado": 27
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 10
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 7
+          },
+          "pos_tatuzinho": {
+            "meta": 15,
+            "realizado": 3
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 2
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 35
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 7
+          }
         }
       },
-      "clientes_cadastrados": 6,
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "94865",
@@ -17788,9 +18595,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 49
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 65000.0,
+            "realizado": 10072.3
+          },
+          "fat_castas": {
+            "meta": 3000.0,
+            "realizado": 1363.2
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 315.85
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 473.44
+          },
+          "pos_tt": {
+            "meta": 50,
+            "realizado": 10
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 2
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 15,
+            "realizado": 5
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          }
         }
       },
-      "clientes_cadastrados": 15,
+      "clientes_cadastrados": 0,
       "nao_positivados": [
         {
           "CODCLI": "95109",
@@ -18926,9 +19795,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 5
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 65000.0,
+            "realizado": 10541.46
+          },
+          "fat_castas": {
+            "meta": 3000.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 173.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 1799.3
+          },
+          "pos_tt": {
+            "meta": 50,
+            "realizado": 11
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 15,
+            "realizado": 7
+          },
+          "pos_redbull": {
+            "meta": 20,
+            "realizado": 7
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 2
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          }
         }
       },
-      "clientes_cadastrados": 5,
+      "clientes_cadastrados": 1,
       "nao_positivados": [
         {
           "CODCLI": "93281",
@@ -19816,9 +20747,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 1
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 48582.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          }
         }
       },
-      "clientes_cadastrados": 2,
+      "clientes_cadastrados": 1,
       "nao_positivados": [
         {
           "CODCLI": "55908",
@@ -20176,11 +21169,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
+              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
             }
           ]
         },
@@ -20196,11 +21189,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
             },
             {
               "FANTASIA": "",
@@ -20228,15 +21221,15 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
-            },
-            {
-              "FANTASIA": "",
               "DESCRICAO": "VINHO TTO BERTOLI CHIANTI DOCG 750ML"
             },
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             }
           ]
         },
@@ -20260,11 +21253,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
+              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
+              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
             },
             {
               "FANTASIA": "",
@@ -20272,7 +21265,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
+              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
             }
           ]
         },
@@ -20289,18 +21282,6 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "90722",
-          "CLIENTE": "REGRESSO PIZZA BAR LTDA",
-          "BAIRROENT": "CENTRO",
-          "DTULTCOMP": "22/05/2026",
-          "produtos": [
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "91141",
           "CLIENTE": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
           "BAIRROENT": "ABRANCHES",
@@ -20309,6 +21290,18 @@ const METAS_DATA = {
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO TINTO VENTOZELO RESERVA 750ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "90722",
+          "CLIENTE": "REGRESSO PIZZA BAR LTDA",
+          "BAIRROENT": "CENTRO",
+          "DTULTCOMP": "22/05/2026",
+          "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
             }
           ]
         },
@@ -20332,11 +21325,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
             }
           ]
         },
@@ -20489,6 +21482,68 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 0
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          }
         }
       },
       "clientes_cadastrados": 0,
@@ -20563,6 +21618,68 @@ const METAS_DATA = {
           "bonus_pernod": {
             "meta": 0,
             "realizado": 0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
           },
           "pos_pernod": {
             "meta": 0,
@@ -20723,9 +21840,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 27
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 38031.7
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 2607.8
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 346.8
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 479.7
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 181.3
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 28
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 3
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 15
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 35
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 7
+          }
         }
       },
-      "clientes_cadastrados": 9,
+      "clientes_cadastrados": 1,
       "nao_positivados": [
         {
           "CODCLI": "80238",
@@ -23192,9 +24371,71 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 59
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 36223.17
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 3386.4
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 1036.2
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 34
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 2
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 17
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 45
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 9
+          }
         }
       },
-      "clientes_cadastrados": 3,
+      "clientes_cadastrados": 2,
       "nao_positivados": [
         {
           "CODCLI": "82523",
@@ -25453,6 +26694,68 @@ const METAS_DATA = {
             "meta": 0,
             "realizado": 1
           }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 8421.54
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 6936.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 6
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 1
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 4
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 10
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 2
+          }
         }
       },
       "clientes_cadastrados": 0,
@@ -25981,6 +27284,263 @@ const METAS_DATA = {
         "fat_media_hist": 19358.28,
         "pos_proj": 19.7,
         "pos_media_hist": 17.0,
+        "du_passados": 7,
+        "du_total": 23
+      }
+    },
+    {
+      "nome": "IVANILDO MAIA - OFF TRADE",
+      "rca": "460",
+      "por_mes": {
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 30000.0,
+            "realizado": 22937.44
+          },
+          "fat_castas": {
+            "meta": 1000.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 3239.5
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 15,
+            "realizado": 7
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 65
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 13
+          }
+        }
+      },
+      "clientes_cadastrados": 1,
+      "nao_positivados": [
+        {
+          "CODCLI": "3593",
+          "CLIENTE": "CRIS MAR MERCADO LTDA",
+          "BAIRROENT": "JARDIM BOTANICO",
+          "DTULTCOMP": "26/03/2026",
+          "produtos": [
+            {
+              "FANTASIA": "ROBINSON CRUSOE",
+              "DESCRICAO": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G"
+            }
+          ]
+        },
+        {
+          "CODCLI": "9247",
+          "CLIENTE": "DELI BARRA DELICATESSEN LTDA",
+          "BAIRROENT": "BARRA DA TIJUCA",
+          "DTULTCOMP": "09/02/2026",
+          "produtos": [
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "RED BULL 24X250ML"
+            },
+            {
+              "FANTASIA": "RED BULL",
+              "DESCRICAO": "RED BULL SUGAR FREE 24X250ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "3538",
+          "CLIENTE": "SUPERMERCADO PREMIUN VILA ISABEL LTDA",
+          "BAIRROENT": "VILA ISABEL",
+          "DTULTCOMP": "30/12/2025",
+          "produtos": [
+            {
+              "FANTASIA": "ROBINSON CRUSOE",
+              "DESCRICAO": "RC SARDINHA EM OLEO 125G"
+            }
+          ]
+        },
+        {
+          "CODCLI": "14107",
+          "CLIENTE": "VINOART COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "BAIRROENT": "CATETE",
+          "DTULTCOMP": "29/12/2025",
+          "produtos": [
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "WHISKY J WALKER GOLD LABEL RESERVE 750ML"
+            },
+            {
+              "FANTASIA": "PERNOD",
+              "DESCRICAO": "WHISKY CHIVAS REGAL 12 ANOS 1L"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "WHISKY BUCHANANS 12 YEARS 1000 ML"
+            },
+            {
+              "FANTASIA": "BROWN",
+              "DESCRICAO": "WHISKY JACK DANIELS 375 ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "11444",
+          "CLIENTE": "DELICATESSEN CATETE LTDA",
+          "BAIRROENT": "CATETE",
+          "DTULTCOMP": "05/02/2024",
+          "produtos": [
+            {
+              "FANTASIA": "KAISER",
+              "DESCRICAO": "CERVEJA HEINEKEN LONG 24X330ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "6312",
+          "CLIENTE": "MERCADO MDG LTDA",
+          "BAIRROENT": "RECREIO DOS BANDEIRANTES",
+          "DTULTCOMP": "16/01/2024",
+          "produtos": [
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "ST PIERRE LATA SUGAR FREE LT 24X270ML"
+            },
+            {
+              "FANTASIA": "HOB",
+              "DESCRICAO": "GIN MARINA ROSE 750ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "ST PIERRE VIDRO PINK LIMONADE LN 275X12"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "ST PIERRE LATA AGUA TONICA TRAD 24X270ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "EASY BOOZE VIDRO 12X275ML PINK LEMON"
+            },
+            {
+              "FANTASIA": "KIRIN",
+              "DESCRICAO": "SAKE AZUMA KIRIN DOURADO 740ML"
+            },
+            {
+              "FANTASIA": "NATIQUE",
+              "DESCRICAO": "CACHACA SALINISSIMA PRATA 670ML"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "EASY BOOZE VIDRO 12X275ML RED MINT"
+            },
+            {
+              "FANTASIA": "TATUZINHO",
+              "DESCRICAO": "ST PIERRE VIDRO RED MINT LN 275X12"
+            }
+          ]
+        },
+        {
+          "CODCLI": "3804",
+          "CLIENTE": "GRAN DELLI COMERCIO DE BEBIDAS E GENEROS ALIMENTICIOS LTDA",
+          "BAIRROENT": "MARACANA",
+          "DTULTCOMP": "22/12/2023",
+          "produtos": [
+            {
+              "FANTASIA": "CASA PERINI",
+              "DESCRICAO": "KIT C/3 CASA PERINI ESPUMANTE AQUARELA"
+            }
+          ]
+        },
+        {
+          "CODCLI": "5419",
+          "CLIENTE": "ACEPIPES COMESTIVEIS FINOS LTDA ME",
+          "BAIRROENT": "FLAMENGO",
+          "DTULTCOMP": "07/10/2022",
+          "produtos": [
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "PACHECA DOC DOURO BRANCO 750ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "5909",
+          "CLIENTE": "PURO CENTEIO DELICATESSEN - EIRELI",
+          "BAIRROENT": "LEBLON",
+          "DTULTCOMP": "24/01/2022",
+          "produtos": [
+            {
+              "FANTASIA": "CASTAS",
+              "DESCRICAO": "VILLA ROSA  ROSE 750ML"
+            }
+          ]
+        }
+      ],
+      "historico": [
+        {
+          "mes": "Apr/26",
+          "fat": 1113.12,
+          "pos": 4
+        },
+        {
+          "mes": "May/26",
+          "fat": 59264.83,
+          "pos": 17
+        },
+        {
+          "mes": "Jun/26",
+          "fat": 158477.06,
+          "pos": 34
+        },
+        {
+          "mes": "Jul/26",
+          "fat": 22937.44,
+          "pos": 7
+        }
+      ],
+      "previsao": {
+        "fat_proj": 75365.87,
+        "fat_media_hist": 72951.67,
+        "pos_proj": 23.0,
+        "pos_media_hist": 18.3,
         "du_passados": 7,
         "du_total": 23
       }

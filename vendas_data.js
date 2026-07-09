@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/07/2026 14:17",
+  "atualizado_em": "09/07/2026 14:55",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -458552,6 +458552,7 @@ const VENDAS_DATA = {
     "ALLAN PAES - OFF TRADE": "174",
     "GISELLE BARFER - OFF TRADE": "159",
     "RAPHAEL SANTOS - OFF TRADE": "155",
-    "ZEINALDO DE OLIVEIRA - OFF TRADE": "241"
+    "ZEINALDO DE OLIVEIRA - OFF TRADE": "241",
+    "IVANILDO MAIA - OFF TRADE": "460"
   }
 };
