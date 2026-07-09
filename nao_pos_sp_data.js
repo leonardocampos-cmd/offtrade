@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "09/07/2026 12:07",
+  "atualizado_em": "09/07/2026 12:13",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -6566,6 +6566,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51678",
+        "cliente": "AUTO POSTO ITALIA MOOCA LTDA",
+        "bairro": "MOOCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51671",
         "cliente": "AUTO POSTO LAR SAO PAULO LIMITADA",
         "bairro": "JARDIM LONDRINA",
@@ -6685,6 +6692,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51677",
+        "cliente": "POSTO AMPARO LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51583",
         "cliente": "POSTO DE SERVICOS PORTAL DE CAMPOS LTDA",
         "bairro": "VILA ALBERTINA",
@@ -6695,6 +6709,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51602",
         "cliente": "POSTO DO SINO LTDA",
         "bairro": "JARDIM GUACIARA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51680",
+        "cliente": "POSTO JN 28 LTDA",
+        "bairro": "BROOKLIN PAULISTA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6723,6 +6744,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51599",
         "cliente": "PRYNCIPADO DE VINHEDO - COMERCIO VAREJISTA DE COMBUSTIVEIS L",
         "bairro": "SANTA CLAUDINA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51681",
+        "cliente": "RESTAURANTE E CONVENIENCIA 28 LTDA",
+        "bairro": "JARDIM MIMAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7436,14 +7464,14 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51489",
+        "codcli": "51490",
         "cliente": "IRMAOS BARRERA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51490",
+        "codcli": "51489",
         "cliente": "IRMAOS BARRERA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -7471,7 +7499,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51549",
+        "codcli": "51550",
         "cliente": "SUPERMERCADO ARMELIN LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -7492,9 +7520,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51550",
+        "codcli": "51549",
         "cliente": "SUPERMERCADO ARMELIN LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51679",
+        "cliente": "VIZINHO SUPERMERCADOS LTDA",
+        "bairro": "JARDIM SANTA RITA",
         "dtultcomp": "nan",
         "produtos": []
       },
