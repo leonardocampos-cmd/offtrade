@@ -127,14 +127,13 @@ def _query(schema, filtro_filial=None, filtro_estado=None):
             M.DTMOV            AS DTMOV,
             M.QT               AS QT,
             M.PUNIT            AS PUNIT,
-            P.DESCRICAO        AS DESCRICAO_PRODUTO
-            F.FANTASIA          AS FORNECEDOR
+            P.DESCRICAO        AS DESCRICAO_PRODUTO,
+            F.FANTASIA         AS FORNECEDOR
         FROM {s}.PCMOV M
         JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
         JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
         JOIN {s}.PCPRODUT P ON M.CODPROD = P.CODPROD
         JOIN {s}.PCFORNEC F ON P.CODFORNEC = F.CODFORNEC
-        LEFT JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
         WHERE ({condicoes_nome})
           AND TRUNC(M.DTMOV) >= TO_DATE('{_dt_lookback_ini}', 'YYYY-MM-DD')
           AND TRUNC(M.DTMOV) <= TO_DATE('{DT_FIM}', 'YYYY-MM-DD')
