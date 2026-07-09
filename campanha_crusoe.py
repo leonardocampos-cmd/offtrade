@@ -11,6 +11,11 @@
 #   Time 3 - Convenience:  156 Marilena Tragel · 378 Fabio Valotti ·
 #                          379 Jorge Maciel · 431 Adeilson Gonçalvez
 #
+# A campanha só considera vendas de produtos do fornecedor com fantasia
+# "Robinson Crusoe" (filtro F.FANTASIA LIKE '%CRUSOE%' na query) — confirmado
+# em 08/07/2026. Pedidos, novos SKUs, positivações/reativações e faturamento
+# de TODOS os times contam só produtos dessa marca, não vendas em geral do RCA.
+#
 # Os 3 times participam da campanha Robinson Crusoe, cada um com seu próprio
 # ranking/vencedor e critério de pontuação (confirmado em 08/07/2026):
 #
@@ -139,7 +144,7 @@ def _query(schema, filtro_filial=None, filtro_estado=None):
           AND TRUNC(M.DTMOV) <= TO_DATE('{DT_FIM}', 'YYYY-MM-DD')
           AND M.CODOPER = 'S'
           AND M.NUMNOTADEV IS NULL
-          AND F.FORNECEDOR LIKE '%CRUSOE%'
+          AND F.FANTASIA LIKE '%CRUSOE%'
           AND M.DTCANCEL IS NULL{extra_filial}{extra_estado}
     """
 
