@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "09/07/2026 12:09",
+  "atualizado_em": "09/07/2026 12:14",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -18592,6 +18592,24 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [],
       "novos": [
+        {
+          "codcli": "51681",
+          "cliente": "RESTAURANTE E CONVENIENCIA 28 LTDA",
+          "bairro": "JARDIM MIMAS",
+          "cidade": "EMBU",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51680",
+          "cliente": "POSTO JN 28 LTDA",
+          "bairro": "BROOKLIN PAULISTA",
+          "cidade": "SAO PAULO",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "51678",
           "cliente": "AUTO POSTO ITALIA MOOCA LTDA",
