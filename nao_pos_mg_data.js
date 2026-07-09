@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "09/07/2026 10:15",
+  "atualizado_em": "09/07/2026 11:12",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1185,6 +1185,44 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 346.8
+          }
+        ]
+      },
+      {
+        "codcli": "39542",
+        "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+        "bairro": "LAGOA (JUSTINÓPOLIS)",
+        "dtultcomp": "26/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 207.6
+          },
+          {
+            "produto": "GIN GORDONS PINK 700ML",
+            "fantasia": "",
+            "qt": 8,
+            "valor": 415.2
+          },
+          {
+            "produto": "JACK DANIELS HONEY 1 L",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 359.7
+          },
+          {
+            "produto": "WHISKY JACK DANIELS APPLE 1L",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 1438.8
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "",
+            "qt": 8,
+            "valor": 551.2
           }
         ]
       },
@@ -5727,6 +5765,20 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "33265",
+        "cliente": "SUPERMERCADO PARANAIBA BELA VISTA LTDA",
+        "bairro": "BELA VISTA",
+        "dtultcomp": "23/04/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 503.28
+          }
+        ]
+      },
+      {
         "codcli": "38049",
         "cliente": "VAREJAO ASTEKA LTDA",
         "bairro": "ASTECA (SÃO BENEDITO)",
@@ -6685,20 +6737,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MSLR",
             "qt": 1,
             "valor": 74.9
-          }
-        ]
-      },
-      {
-        "codcli": "33265",
-        "cliente": "SUPERMERCADO PARANAIBA BELA VISTA LTDA",
-        "bairro": "BELA VISTA",
-        "dtultcomp": "22/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
           }
         ]
       },
