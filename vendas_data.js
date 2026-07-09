@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/07/2026 16:03",
+  "atualizado_em": "09/07/2026 16:44",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -159010,6 +159010,56 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "09/07/2026",
+          "codcli": "84456",
+          "cliente": "J.A ICARAI COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 57.52,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "84456",
+          "cliente": "J.A ICARAI COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 57.52,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "84456",
+          "cliente": "J.A ICARAI COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 57.52,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "84456",
+          "cliente": "J.A ICARAI COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 57.52,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "84456",
+          "cliente": "J.A ICARAI COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "produto": "4 PACK RED BULL SF AMORA",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 28.76,
+          "tipo": "Venda"
+        },
+        {
           "data": "06/07/2026",
           "codcli": "84592",
           "cliente": "MINI MERCADO G MARKET LTDA",
@@ -161471,6 +161521,16 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 12,
           "valor": 435.12,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "71185",
+          "cliente": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 120,
+          "valor": 3948.0,
           "tipo": "Venda"
         }
       ]
@@ -182263,26 +182323,6 @@ const VENDAS_DATA = {
           "fantasia": "HOB",
           "qt": 12,
           "valor": 262.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "69759",
-          "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
-          "produto": "CACHACA TATUZINHO PET 750 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 60,
-          "valor": 239.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "69759",
-          "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
-          "produto": "XAROPE MONIN CARAMELO SALGADO 700 ML",
-          "fantasia": "1883",
-          "qt": 1,
-          "valor": 49.0,
           "tipo": "Venda"
         },
         {
