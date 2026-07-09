@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/07/2026 18:21",
-  "total": 4293,
+  "atualizado_em": "09/07/2026 08:51",
+  "total": 4298,
   "clientes": [
     {
       "codcli": "31683",
@@ -11792,20 +11792,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "50729",
-      "razao": "CAFE METROPOLIS LTDA",
-      "fantasia": "CAFE METROPOLIS",
-      "bairro": "GOIABEIRAS",
-      "cidade": "VITORIA",
-      "cnpj": "08.390.131/0001-34",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "79314",
       "razao": "CAFE SEMENTES CABO FRIO LTDA",
       "fantasia": "CAFE SEMENTES",
@@ -13204,6 +13190,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "83581",
+      "razao": "CEREAIS BRAMIL LTDA",
+      "fantasia": "POSTO DE VENDAS N 19 - CANTAGALO",
+      "bairro": "CANTAGALO",
+      "cidade": "TRES RIOS",
+      "cnpj": "32.296.378/0027-00",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "275",
+      "nome_usur1": "MARIA LUIZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "91710",
@@ -18216,6 +18216,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "95609",
+      "razao": "DM DEPOSITO COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "DM DEPOSITO",
+      "bairro": "ITANHANGÁ",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "64.471.268/0001-94",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50038",
@@ -33406,6 +33420,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "VINICIUS AMARAL",
       "codusur2": "158",
       "nome_usur2": "JOSE MARCELO CARDOSO - OFF TRADE"
+    },
+    {
+      "codcli": "90990",
+      "razao": "MAYA BISTRO FRIOS E LATICINIOS LTDA",
+      "fantasia": "MAYA BISTRO",
+      "bairro": "LARANJEIRAS",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "26.900.802/0001-41",
+      "estado": "RJ",
+      "ramo": "CAFETERIA",
+      "codusur1": "278",
+      "nome_usur1": "RAQUEL SANTOS",
+      "codusur2": "471",
+      "nome_usur2": "ANA CLARA FASSANO - OFF TRADE"
+    },
+    {
+      "codcli": "94434",
+      "razao": "MAYA EM CASA DELIVERY LTDA",
+      "fantasia": "MAYA EM CASA DELIVERY LTDA",
+      "bairro": "LARANJEIRAS",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "53.260.211/0001-20",
+      "estado": "RJ",
+      "ramo": "CAFETERIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "80285",
@@ -52787,7 +52829,7 @@ const CLIENTES_RCA_DATA = {
       "codcli": "85936",
       "razao": "STUDIO LAGOA CORPORATE LTDA",
       "fantasia": "STUDIO VELOCITY LAGOA",
-      "bairro": "GAVEA",
+      "bairro": "HUMAITÁ",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "59.912.602/0001-68",
       "estado": "RJ",
@@ -58424,6 +58466,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "82355",
+      "razao": "VBBR CONVENIENCIA S. A.",
+      "fantasia": "VBBR CONVENIENCIA",
+      "bairro": "PRACA DA BANDEIRA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "50.883.026/0006-08",
+      "estado": "RJ",
+      "ramo": "CONVENIENCIA",
+      "codusur1": "156",
+      "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95612",
+      "razao": "VBBR CONVENIENCIA S. A.",
+      "fantasia": "VBBR CONVENIENCIA",
+      "bairro": "ENGENHO DE DENTRO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "50.883.026/0013-37",
+      "estado": "RJ",
+      "ramo": "CONVENIENCIA",
+      "codusur1": "156",
+      "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82380",
