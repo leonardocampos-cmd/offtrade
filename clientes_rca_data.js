@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "09/07/2026 10:16",
-  "total": 4310,
+  "atualizado_em": "09/07/2026 11:12",
+  "total": 4327,
   "clientes": [
     {
       "codcli": "31683",
@@ -2776,6 +2776,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51619",
+      "razao": "58.097.837 MARILEIDE COSTA DA SILVA",
+      "fantasia": "58.097.837 MARILEIDE COSTA DA SILVA",
+      "bairro": "JARDIM RIO BRANCO",
+      "cidade": "SAO VICENTE",
+      "cnpj": "58.097.837/0001-80",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91029",
       "razao": "58.116.848 JOAO VICTOR MOTTA GUIMARAES",
       "fantasia": "JOAO VICTOR MOTTA GUIMARAES",
@@ -3754,6 +3768,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51620",
+      "razao": "97.544.564 ALEX RIBEIRO",
+      "fantasia": "97.544.564 ALEX RIBEIRO",
+      "bairro": "ANHANGUERA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "97.544.564/0001-27",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82723",
@@ -7128,6 +7156,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "51621",
+      "razao": "ARMANDO BRUM DE LIMA 27631706840",
+      "fantasia": "ARMANDO BRUM DE LIMA 27631706840",
+      "bairro": "SAMAMBAIA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "19.929.149/0001-88",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51321",
@@ -20654,6 +20696,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "95618",
+      "razao": "EMPORIO TIROL LTDA",
+      "fantasia": "EMPORIO TIROL",
+      "bairro": "FREGUESIA (JACAREPAGUA)",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "47.188.092/0001-49",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "21327",
       "razao": "EMPORIO VIGNAMAZZI COMERCIO LTDA.",
       "fantasia": "EMPORIO VIGNAMAZZI COMERCIO",
@@ -23160,6 +23216,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
+      "codcli": "51622",
+      "razao": "G DOS SANTOS MINIMERCADO",
+      "fantasia": "MINIMERCADO, PADARIA E SACOLAO SERGIPE",
+      "bairro": "NOVA MIRIM",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "07.324.318/0001-77",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "7187",
       "razao": "G M A P SUPERMERCADOS S.A.",
       "fantasia": "REDE SUPERMARKET (GMAP)",
@@ -23996,6 +24066,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "497",
       "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51623",
+      "razao": "GILMAR MORAIS RABELO 09068340824",
+      "fantasia": "GILMAR MORAIS RABELO 09068340824",
+      "bairro": "VILA SONIA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "27.352.656/0001-20",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -25774,6 +25858,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFETERIA",
       "codusur1": "412",
       "nome_usur1": "BARBARA CABRAL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51624",
+      "razao": "IDEAL COMERCIO DE ALIMENTOS DO LITORAL LTDA",
+      "fantasia": "IDEAL SUPERMERCADOS",
+      "bairro": "BALNEARIO PAQUETA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "45.001.711/0001-19",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -31350,6 +31448,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "51625",
+      "razao": "LUIZ HENRIQUE PASSOS GONCALVES 39747020831",
+      "fantasia": "LUIZ HENRIQUE PASSOS GONCALVES 39747020831",
+      "bairro": "VILA SONIA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "20.431.799/0001-88",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "83924",
       "razao": "LUIZ PAULO AMARAL  PEREIRA",
       "fantasia": "MINAS ADEGA",
@@ -32440,6 +32552,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARA DEPOLLI - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "51626",
+      "razao": "MAR DE TRIGO PADARIA, LANCHONETE E MERCEARIA LTDA",
+      "fantasia": "MAR DE TRIGO PADARIA, LANCHONETE E MERCEARIA",
+      "bairro": "CAICARA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "51.548.249/0001-77",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "90993",
@@ -36530,6 +36656,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
+      "codcli": "51627",
+      "razao": "MERCADO PRIMO'S LTDA",
+      "fantasia": "MERCADO PRIMO'S",
+      "bairro": "JARDIM RECANTO SAO VICENTE",
+      "cidade": "SAO VICENTE",
+      "cnpj": "65.105.039/0001-19",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "17816",
       "razao": "MERCADO PRINCIPAL DO SAO VITOR EIRELI",
       "fantasia": "MERCADO PRINCIPAL DO SAO VITOR EIRELI",
@@ -39330,6 +39470,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51628",
+      "razao": "MINI MERCADO J.B. DE CUBATAO 3 LTDA",
+      "fantasia": "MINI MERCADO J.B. DE CUBATAO 3",
+      "bairro": "JARDIM NOVA REPUBLICA",
+      "cidade": "CUBATAO",
+      "cnpj": "59.709.141/0001-20",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51629",
+      "razao": "MINI MERCADO J.B. DE CUBATAO 5 LTDA",
+      "fantasia": "MINI MERCADO J.B. DE CUBATAO 5 LTDA",
+      "bairro": "VILA CARAGUATA",
+      "cidade": "CUBATAO",
+      "cnpj": "59.709.449/0001-76",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "3935",
       "razao": "MINI MERCADO MARAVILHA DO CAMP. LTDA",
       "fantasia": "",
@@ -40672,6 +40840,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51630",
+      "razao": "MV FONSECA LTDA",
+      "fantasia": "MV FONSECA",
+      "bairro": "SITIO DO CAMPO",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "59.076.328/0001-34",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "28617",
@@ -49312,6 +49494,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "51632",
+      "razao": "REINALDO & MARCONDES PADARIA E PIZZARIA LTDA",
+      "fantasia": "PADARIA E PIZZARIA GLORIAMAR",
+      "bairro": "GLÓRIA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "15.484.366/0001-50",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "47202",
       "razao": "REINAN BRITO DE SANTANA",
       "fantasia": "DEPOSITO DE BEBIDAS BRITO",
@@ -49322,6 +49518,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "486",
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51631",
+      "razao": "RENATA JOBIM DE SOUZA 27362096801",
+      "fantasia": "RENATA JOBIM DE SOUZA 27362096801",
+      "bairro": "GLORIA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "47.044.302/0001-25",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -51692,6 +51902,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "51636",
+      "razao": "SEBASTIANA RODRIGUES DA SILVA BARBOSA MINIMERCADO",
+      "fantasia": "MERCADO VITORIA",
+      "bairro": "VILA CARAGUATA",
+      "cidade": "CUBATAO",
+      "cnpj": "19.047.263/0001-84",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "74744",
       "razao": "SEGREDO DA MODA LTDA",
       "fantasia": "SEGREDO DA MODA",
@@ -53496,6 +53720,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "51634",
+      "razao": "SUPERMERCADO APR LTDA",
+      "fantasia": "SUPERMERCADO APR",
+      "bairro": "FLORIDA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "11.139.230/0002-33",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51557",
