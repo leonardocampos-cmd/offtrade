@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/07/2026 10:02",
+  "atualizado_em": "09/07/2026 11:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -252055,26 +252055,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "02/07/2026",
-          "codcli": "82537",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 10,
-          "valor": 446.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "82537",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "fantasia": "PINATI",
-          "qt": 10,
-          "valor": 446.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "02/07/2026",
           "codcli": "82540",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
@@ -264971,26 +264951,6 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 12,
           "valor": 958.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 24,
-          "valor": 366.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "RUM BACARDI SUPERIOR 700ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 427.68,
           "tipo": "Venda"
         },
         {
