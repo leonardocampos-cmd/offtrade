@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import pandas as pd
 from datetime import datetime
@@ -37,10 +38,11 @@ def _query(schema, filtro_filial=FILIAIS_RJ, filtro_estent=None):
     extra_estent = f"\n          AND C.ESTENT = '{filtro_estent}'" if filtro_estent else ""
     return f"""
         SELECT
-            U.NOME       AS VENDEDOR,
+            U.NOME              AS VENDEDOR,
             M.CODCLI,
-            M.DESCRICAO  AS DESCRICAO,
-            SUM(M.QT)    AS QT
+            M.DESCRICAO         AS DESCRICAO,
+            SUM(M.QT)           AS QT,
+            SUM(M.PUNIT * M.QT) AS FATURAMENTO
         FROM {s}.PCMOV M
         JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR{join_cli}
         WHERE TRUNC(M.DTMOV) >= TO_DATE('{DT_INI}', 'YYYY-MM-DD')
@@ -51,6 +53,7 @@ def _query(schema, filtro_filial=FILIAIS_RJ, filtro_estent=None):
           AND UPPER(M.DESCRICAO) LIKE '%AMARULA%'{extra_filial}{extra_estent}
         GROUP BY U.NOME, M.CODCLI, M.DESCRICAO
     """
+
 
 # Monta mapeamento nome Oracle → nome display (igual metas_data.js)
 _parts_map_rca_am = [
@@ -85,16 +88,19 @@ EXCLUIR_VENDEDORES = {"RC", "VENDEDOR 09", "BEES", "VENDEDOR 02", "KELLY RAMOS -
 
 df = pd.concat(_parts_am, ignore_index=True)
 df['QT'] = pd.to_numeric(df['QT'], errors='coerce').fillna(0)
+df['FATURAMENTO'] = pd.to_numeric(df['FATURAMENTO'], errors='coerce').fillna(0)
 df['MULTIPLICADOR'] = df['DESCRICAO'].apply(_pack_multiplier)
 df['VOLUME'] = df['QT'] * df['MULTIPLICADOR']
 df = df[df['VENDEDOR'].map(_nome).apply(lambda v: v not in EXCLUIR_VENDEDORES)].copy()
 
 if df.empty:
-    ranking_pos       = []
-    ranking_vol       = []
-    total_vendedores  = 0
-    total_positivacao = 0
-    total_volume      = 0
+    ranking_pos        = []
+    ranking_vol        = []
+    ranking_fat        = []
+    total_vendedores   = 0
+    total_positivacao  = 0
+    total_volume       = 0
+    total_faturamento  = 0.0
 else:
     rp = (
         df.groupby('VENDEDOR')['_CLI'].nunique()
@@ -108,6 +114,12 @@ else:
           .reset_index()
           .rename(columns={'VOLUME': 'volume'})
     )
+    rf = (
+        df.groupby('VENDEDOR')['FATURAMENTO'].sum()
+          .sort_values(ascending=False)
+          .reset_index()
+          .rename(columns={'FATURAMENTO': 'faturamento'})
+    )
     ranking_pos = [
         {'vendedor': _nome(r['VENDEDOR']), 'valor': int(r['positivacao'])}
         for _, r in rp.iterrows()
@@ -116,9 +128,14 @@ else:
         {'vendedor': _nome(r['VENDEDOR']), 'valor': int(r['volume'])}
         for _, r in rv.iterrows()
     ]
+    ranking_fat = [
+        {'vendedor': _nome(r['VENDEDOR']), 'valor': float(r['faturamento'])}
+        for _, r in rf.iterrows()
+    ]
     total_vendedores  = int(df['VENDEDOR'].nunique())
     total_positivacao = int(df['_CLI'].nunique())
     total_volume      = int(df['VOLUME'].sum())
+    total_faturamento = float(df['FATURAMENTO'].sum())
 
 payload = {
     'atualizado_em':      datetime.now().strftime('%d/%m/%Y %H:%M'),
@@ -128,13 +145,17 @@ payload = {
     'total_vendedores':   total_vendedores,
     'total_positivacao':  total_positivacao,
     'total_volume':       total_volume,
+    'total_faturamento':  total_faturamento,
     'ranking_positivacao': ranking_pos,
     'ranking_volume':      ranking_vol,
+    'ranking_faturamento': ranking_fat,
 }
 
 output_path = Path(__file__).parent / "amarula_data.js"
-with open(output_path, 'w', encoding='utf-8') as f:
+tmp_path = output_path.with_suffix(".js.tmp")
+with open(tmp_path, 'w', encoding='utf-8') as f:
     f.write(f"const AMARULA_DATA = {json.dumps(payload, ensure_ascii=False, indent=2)};\n")
+os.replace(tmp_path, output_path)
 
 print(f"OK amarula_data.js — {total_vendedores} vendedores, {len(df)} linhas Amarula")
 
