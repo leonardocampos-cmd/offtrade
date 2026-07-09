@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "08/07/2026 19:08",
+  "atualizado_em": "08/07/2026 21:38",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 48191.42,
-        "pos": 40,
+        "fat": 51808.96,
+        "pos": 43,
         "fat_ant": 343937.59
       }
     },
@@ -204,8 +204,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 136888.08,
-        "pos": 5,
+        "fat": 138803.28,
+        "pos": 7,
         "fat_ant": 1043277.9
       }
     },
@@ -258,8 +258,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 53560.12
       },
       "Jul/26": {
-        "fat": 8715.76,
-        "pos": 10,
+        "fat": 9992.16,
+        "pos": 12,
         "fat_ant": 51108.92
       }
     }
@@ -44685,6 +44685,42 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "08/07/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 364.32
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 182.16
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 182.16
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 182.16
+        },
+        {
+          "data": "08/07/2026",
           "codcli": "30091",
           "cliente": "COMERCIAL COLOMBO EIRELI",
           "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
@@ -44790,6 +44826,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 85.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32865",
+          "cliente": "BAR DA QUADRA LTDA",
+          "produto": "XAROPE MONIN AMORA (BLACKBERRY) 700 ML",
+          "fantasia": "",
+          "qt": 20,
+          "valor": 998.0
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31673",
+          "cliente": "ESQUINA DO CHOPP JARA LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 179.76
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "31673",
+          "cliente": "ESQUINA DO CHOPP JARA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 1,
+          "valor": 143.76
         },
         {
           "data": "08/07/2026",
@@ -44907,6 +44970,51 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 346.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "29363",
+          "cliente": "BHARZIN EMPREENDIMENTOS LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 4,
+          "valor": 875.04
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "29363",
+          "cliente": "BHARZIN EMPREENDIMENTOS LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 1,
+          "valor": 143.76
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32865",
+          "cliente": "BAR DA QUADRA LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 179.76
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32865",
+          "cliente": "BAR DA QUADRA LTDA",
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 136.76
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32865",
+          "cliente": "BAR DA QUADRA LTDA",
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9
         },
         {
           "data": "08/07/2026",
@@ -73033,6 +73141,33 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "08/07/2026",
+          "codcli": "33290",
+          "cliente": "ARMAZEM BRASIL LIMITADA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 957.6
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "33290",
+          "cliente": "ARMAZEM BRASIL LIMITADA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 478.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "33295",
+          "cliente": "ARMAZEM BRASIL LIMITADA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 478.8
+        },
+        {
+          "data": "08/07/2026",
           "codcli": "37710",
           "cliente": "MULTICOM ATACADO E VAREJO S/A",
           "produto": "LICOR BALLENA MORANGO 750ML",
@@ -86674,6 +86809,24 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "08/07/2026",
+          "codcli": "38968",
+          "cliente": "ALEXANDRE BRAS MACIEL ARRUDA BAR",
+          "produto": "WHISKY WHITE HORSE - 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 62.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38968",
+          "cliente": "ALEXANDRE BRAS MACIEL ARRUDA BAR",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 95.8
+        },
+        {
+          "data": "08/07/2026",
           "codcli": "35813",
           "cliente": "CHAMA DISTRIBUIDORA LTDA",
           "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
@@ -86788,6 +86941,87 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 5,
           "valor": 274.5
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32415",
+          "cliente": "CHURRASCARIA JA TO INNO LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 239.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32415",
+          "cliente": "CHURRASCARIA JA TO INNO LTDA",
+          "produto": "XAROPE  MONIN CARAMELO SALGADO 700 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 48.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32415",
+          "cliente": "CHURRASCARIA JA TO INNO LTDA",
+          "produto": "XAROPE MONIN CURACAO BLUE 700 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 48.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32415",
+          "cliente": "CHURRASCARIA JA TO INNO LTDA",
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 97.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32415",
+          "cliente": "CHURRASCARIA JA TO INNO LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 97.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32415",
+          "cliente": "CHURRASCARIA JA TO INNO LTDA",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 123.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32415",
+          "cliente": "CHURRASCARIA JA TO INNO LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 149.9
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "32415",
+          "cliente": "CHURRASCARIA JA TO INNO LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 239.8
+        },
+        {
+          "data": "08/07/2026",
+          "codcli": "38968",
+          "cliente": "ALEXANDRE BRAS MACIEL ARRUDA BAR",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 70.9
         }
       ]
     }
