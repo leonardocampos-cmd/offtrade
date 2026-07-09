@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "09/07/2026 11:49",
-  "total": 4350,
+  "atualizado_em": "09/07/2026 12:08",
+  "total": 4365,
   "clientes": [
     {
       "codcli": "31683",
@@ -8040,6 +8040,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51666",
+      "razao": "AUTO POSTO E CONVENIENCIA SP 12 LTDA",
+      "fantasia": "AUTO POSTO E CONVENIENCIA SP 12 LTDA",
+      "bairro": "LIMÃO",
+      "cidade": "SAO PAULO",
+      "cnpj": "14.179.408/0001-87",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50493",
       "razao": "AUTO POSTO ESTRELA DE AVARE LTDA",
       "fantasia": "POSTO ESTRELA",
@@ -8166,6 +8180,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51668",
+      "razao": "AUTO POSTO INDEPENDENCIA DE VINHEDO LTDA",
+      "fantasia": "INDEPENDENCIA DE VINHEDO",
+      "bairro": "CENTRO",
+      "cidade": "VINHEDO",
+      "cnpj": "02.138.031/0001-39",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "2875",
       "razao": "AUTO POSTO JARDIM CARIOCA LTDA",
       "fantasia": "JARDIM CARIOCA",
@@ -8178,6 +8206,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "51671",
+      "razao": "AUTO POSTO LAR SAO PAULO LIMITADA",
+      "fantasia": "AUTO POSTO LAR SAO PAULO",
+      "bairro": "JARDIM LONDRINA",
+      "cidade": "SAO PAULO",
+      "cnpj": "58.314.931/0001-44",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "91086",
@@ -8612,6 +8654,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "38418",
+      "razao": "AUTO POSTO SATOMI LTDA",
+      "fantasia": "AUTO POSTO SATOMI LTDA",
+      "bairro": "ALTO DE PINHEIROS",
+      "cidade": "SAO PAULO",
+      "cnpj": "43.130.616/0001-90",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "3549",
@@ -13220,6 +13276,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "38416",
+      "razao": "CENTRO AUTOMOTIVO TAPAJOS LTDA",
+      "fantasia": "CENTRO AUTOMOTIVO TAPAJOS",
+      "bairro": "LAPA",
+      "cidade": "SAO PAULO",
+      "cnpj": "61.585.519/0001-73",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51591",
       "razao": "CENTRO COMERCIAL AVENIDA IMIGRANTES LTDA",
       "fantasia": "CENTRO COMERCIAL AVENIDA IMIGRANTES",
@@ -15404,6 +15474,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51670",
+      "razao": "COMPRE FACIL COMERCIO DE PRODUTOS ALIMENTICIOS LIMITADA",
+      "fantasia": "COMPRE MIX",
+      "bairro": "JARDIM PRIMAVERA",
+      "cidade": "SAO JOSE DO RIO PRETO",
+      "cnpj": "05.955.701/0004-40",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "3873",
       "razao": "COMPRE MAIS AUTO SERVIÇO LTDA EPP",
       "fantasia": "REDE ECONOMIA",
@@ -17292,6 +17376,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51667",
+      "razao": "DEVITO ALIMENTOS LTDA",
+      "fantasia": "DEVITO ALIMENTOS",
+      "bairro": "JARDIM PARAISO",
+      "cidade": "BORACEIA",
+      "cnpj": "02.894.198/0001-20",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "91339",
@@ -25988,6 +26086,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51672",
+      "razao": "ILHA DO SOL POSTO EXPRESS WASH LTDA",
+      "fantasia": "ILHA DO SOL POSTO EXPRESS WASH",
+      "bairro": "ALTO DE PINHEIROS",
+      "cidade": "SAO PAULO",
+      "cnpj": "45.544.574/0001-69",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "7755",
       "razao": "IMBATIVEL SUPERMERCADOS LTDA",
       "fantasia": "IMBATIVEL SUPERMERCADOS - PIRATININGA",
@@ -31626,6 +31738,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51675",
+      "razao": "LUMMAR DE IBIUNA AUTO POSTO LTDA",
+      "fantasia": "LUMMAR DE IBIUNA AUTO POSTO",
+      "bairro": "CENTRO",
+      "cidade": "IBIUNA",
+      "cnpj": "07.193.202/0001-46",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -46064,6 +46190,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51677",
+      "razao": "POSTO AMPARO LTDA",
+      "fantasia": "POSTO AMPARO",
+      "bairro": "CENTRO",
+      "cidade": "AMPARO",
+      "cnpj": "43.467.273/0001-53",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "2431",
       "razao": "POSTO AVENIDA CENTRAL LTDA",
       "fantasia": "",
@@ -47618,6 +47758,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ARLLEY FIGUEIREDO - OFF TRADE"
     },
     {
+      "codcli": "51665",
+      "razao": "POSTO URSA MENOR LTDA",
+      "fantasia": "POSTO URSA MENOR",
+      "bairro": "PARQUE LUIZA",
+      "cidade": "EMBU",
+      "cnpj": "02.086.208/0001-09",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "89941",
       "razao": "POSTO VANIA DE ABASTECIMENTO LTDA",
       "fantasia": "POSTO VANIA DE ABASTECIMENTO",
@@ -47628,6 +47782,34 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "412",
       "nome_usur1": "BARBARA CABRAL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "38315",
+      "razao": "POSTO VIBRA CAMPINAS LTDA",
+      "fantasia": "POSTO VIBRA CAMPINAS",
+      "bairro": "BONFIM",
+      "cidade": "CAMPINAS",
+      "cnpj": "50.449.984/0001-60",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51669",
+      "razao": "POSTO VIBRA JUNDIAI LTDA",
+      "fantasia": "POSTO VIBRA JUNDIAI",
+      "bairro": "VILA FRANCISCO EBER",
+      "cidade": "JUNDIAI",
+      "cnpj": "54.199.037/0001-10",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -48930,6 +49112,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51664",
+      "razao": "RADIAL LESTE CONVENIENCIAS E UTILIDADES LTDA",
+      "fantasia": "RADIAL LESTE CONVENIENCIAS E UTILIDADES LTDA",
+      "bairro": "TATUAPÉ",
+      "cidade": "SAO PAULO",
+      "cnpj": "58.331.052/0001-20",
+      "estado": "SP",
+      "ramo": "CONVENIENCIA",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -59964,6 +60160,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51673",
+      "razao": "VIZINHO SUPERMERCADOS LTDA",
+      "fantasia": "VIZINHO SUPERMERCADOS",
+      "bairro": "JARDIM PAULISTA",
+      "cidade": "SANTA BARBARA D OESTE",
+      "cnpj": "45.780.560/0001-44",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "504",
+      "nome_usur1": "GILVAN AMORIM - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "32745",
