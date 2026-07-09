@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "09/07/2026 09:20",
+  "atualizado_em": "09/07/2026 09:35",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -19492,6 +19492,15 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [],
       "novos": [
+        {
+          "codcli": "51607",
+          "cliente": "SERV FESTAS JNS LTDA",
+          "bairro": "JARDIM ARROYO",
+          "cidade": "SAO JOSE DO RIO PRETO",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "51567",
           "cliente": "29.066.261 FABIANO CELIO ROSA",
