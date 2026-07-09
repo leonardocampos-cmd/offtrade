@@ -1994,8 +1994,8 @@ function renderAll(vendedores, mes) {
     </div>` : '';
 
   document.getElementById('app').innerHTML = `
-    <div id="equipe-resumo-wrap">${_buildResumoEquipe(METAS_DATA.vendedores, mes)}</div>
     ${filHtml}
+    <div id="equipe-resumo-wrap">${_buildResumoEquipe(METAS_DATA.vendedores, mes)}</div>
     <div class="search-wrap">
       <input class="search-input" type="text" placeholder="Buscar por nome ou RCA..."
         oninput="filterCards(this.value)">
