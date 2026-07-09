@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "09/07/2026 12:22",
+  "atualizado_em": "09/07/2026 13:47",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -8116,28 +8116,28 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93390",
+        "codcli": "93388",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "VARGEM GRANDE",
+        "bairro": "VARGEM PEQUENA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
             "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 191.76
+            "qt": 3,
+            "valor": 575.28
           },
           {
             "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 191.76
+            "qt": 3,
+            "valor": 575.28
           },
           {
             "produto": "RC ATUM PEDACOS NATURAL 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 191.76
+            "qt": 3,
+            "valor": 575.28
           },
           {
             "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
@@ -8160,38 +8160,38 @@ const NAO_POS_ES_DATA = {
           {
             "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 125.9
+            "qt": 2,
+            "valor": 251.8
           },
           {
             "produto": "RC ATUM SOLIDO NATURAL 24X170G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 208.56
+            "qt": 3,
+            "valor": 625.68
           },
           {
             "produto": "RC ATUM SOLIDO OLEO 24X170G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 208.56
+            "qt": 3,
+            "valor": 625.68
           },
           {
             "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 239.8
+            "qt": 4,
+            "valor": 479.6
           },
           {
             "produto": "RC SARDINHA EM OLEO 50X125G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 249.5
+            "qt": 3,
+            "valor": 748.5
           },
           {
             "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 249.5
+            "qt": 3,
+            "valor": 748.5
           }
         ]
       },
@@ -8276,28 +8276,28 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93388",
+        "codcli": "93390",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "VARGEM PEQUENA",
+        "bairro": "VARGEM GRANDE",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
             "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 575.28
+            "qt": 1,
+            "valor": 191.76
           },
           {
             "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 575.28
+            "qt": 1,
+            "valor": 191.76
           },
           {
             "produto": "RC ATUM PEDACOS NATURAL 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 575.28
+            "qt": 1,
+            "valor": 191.76
           },
           {
             "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
@@ -8320,38 +8320,38 @@ const NAO_POS_ES_DATA = {
           {
             "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 251.8
+            "qt": 1,
+            "valor": 125.9
           },
           {
             "produto": "RC ATUM SOLIDO NATURAL 24X170G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 625.68
+            "qt": 1,
+            "valor": 208.56
           },
           {
             "produto": "RC ATUM SOLIDO OLEO 24X170G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 625.68
+            "qt": 1,
+            "valor": 208.56
           },
           {
             "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 4,
-            "valor": 479.6
+            "qt": 2,
+            "valor": 239.8
           },
           {
             "produto": "RC SARDINHA EM OLEO 50X125G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 748.5
+            "qt": 1,
+            "valor": 249.5
           },
           {
             "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 748.5
+            "qt": 1,
+            "valor": 249.5
           }
         ]
       },
@@ -25281,9 +25281,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94882",
+        "codcli": "94886",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "MADUREIRA",
+        "bairro": "VISTA ALEGRE",
         "dtultcomp": "15/05/2026",
         "produtos": [
           {
@@ -25323,7 +25323,7 @@ const NAO_POS_ES_DATA = {
             "valor": 196.56
           },
           {
-            "produto": "RED BULL SUGAR FREE 24X250ML",
+            "produto": "RED BULL ZERO  24X250ML",
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 196.56
@@ -25381,9 +25381,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94886",
+        "codcli": "94882",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "VISTA ALEGRE",
+        "bairro": "MADUREIRA",
         "dtultcomp": "15/05/2026",
         "produtos": [
           {
@@ -25423,7 +25423,7 @@ const NAO_POS_ES_DATA = {
             "valor": 196.56
           },
           {
-            "produto": "RED BULL ZERO  24X250ML",
+            "produto": "RED BULL SUGAR FREE 24X250ML",
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 196.56
@@ -25559,6 +25559,118 @@ const NAO_POS_ES_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 5,
             "valor": 399.5
+          }
+        ]
+      },
+      {
+        "codcli": "94888",
+        "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+        "bairro": "BANGU",
+        "dtultcomp": "05/06/2026",
+        "produtos": [
+          {
+            "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 175.2
+          },
+          {
+            "produto": "MOVING BOOSTER LIMAO 24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 175.2
+          },
+          {
+            "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 175.2
+          },
+          {
+            "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 87.6
+          },
+          {
+            "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 87.6
+          }
+        ]
+      },
+      {
+        "codcli": "94883",
+        "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
+        "dtultcomp": "05/06/2026",
+        "produtos": [
+          {
+            "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 175.2
+          },
+          {
+            "produto": "MOVING BOOSTER LIMAO 24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 175.2
+          },
+          {
+            "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 175.2
+          },
+          {
+            "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 87.6
+          },
+          {
+            "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 87.6
           }
         ]
       },
@@ -28105,6 +28217,13 @@ const NAO_POS_ES_DATA = {
         "bairro": "TUCUNS",
         "dtultcomp": "nan",
         "produtos": []
+      },
+      {
+        "codcli": "95624",
+        "cliente": "VALCIR DA SILVA COMERCIO DE BEBIDAS E MERCEARIA",
+        "bairro": "JACARE",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "RAQUEL ARAUJO": [
@@ -28284,16 +28403,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "94126",
+        "codcli": "85951",
         "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VILA NOVA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "85951",
+        "codcli": "94126",
         "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-        "bairro": "VILA NOVA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
