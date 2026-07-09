@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "09/07/2026 11:23",
+  "atualizado_em": "09/07/2026 11:41",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -204,8 +204,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 138803.28,
-        "pos": 7,
+        "fat": 101602.08,
+        "pos": 6,
         "fat_ant": 1043277.9
       }
     },
@@ -73111,15 +73111,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "MSLR",
           "qt": 60,
           "valor": 3894.0
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "34048",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "produto": "AMARULA C LIQUEUR 750 ML",
-          "fantasia": "",
-          "qt": 348,
-          "valor": 37201.2
         },
         {
           "data": "07/07/2026",
