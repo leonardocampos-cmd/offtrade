@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "09/07/2026 10:03",
+  "atualizado_em": "09/07/2026 11:03",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 9,
   "dias_no_mes": 31,
   "dias_restantes": 22,
   "resumo": {
-    "fat": 2445776.46,
+    "fat": 2444883.66,
     "fat_ant": 2772603.98,
-    "fat_ant_completo": 13138695.39,
-    "pos": 626,
+    "fat_ant_completo": 13137901.59,
+    "pos": 625,
     "pos_ant": 686,
-    "pos_ant_completo": 1802
+    "pos_ant_completo": 1801
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 2445776.46,
+    "fat": 2444883.66,
     "fat_ant": 2772603.98,
-    "fat_ant_completo": 13138695.39,
+    "fat_ant_completo": 13137901.59,
     "pct": 17.0,
-    "nec_dia": 543373.8
+    "nec_dia": 543414.38
   },
   "estados": [
     {
@@ -52,14 +52,14 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 117496.57,
+      "fat": 116603.77,
       "fat_ant": 287294.14,
-      "pos": 15,
+      "pos": 14,
       "pct": 6.5,
-      "nec_dia": 76477.43,
-      "fat_ant_completo": 965241.79,
+      "nec_dia": 76518.01,
+      "fat_ant_completo": 964447.99,
       "pos_ant": 37,
-      "pos_ant_completo": 133
+      "pos_ant_completo": 132
     },
     {
       "estado": "MG",
@@ -330,17 +330,6 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "PINATI",
-      "fat": 9270.85,
-      "fat_ant": 2292.84,
-      "por_estado": {
-        "RJ": 794.44,
-        "SP": 0.0,
-        "ES": 8476.41,
-        "MG": 0.0
-      }
-    },
-    {
       "fantasia": "MSLR",
       "fat": 9105.8,
       "fat_ant": 918.6,
@@ -349,6 +338,17 @@ const METAS_GERAIS_DATA = {
         "SP": 0.0,
         "ES": 0.0,
         "MG": 9105.8
+      }
+    },
+    {
+      "fantasia": "PINATI",
+      "fat": 8378.05,
+      "fat_ant": 2292.84,
+      "por_estado": {
+        "RJ": 794.44,
+        "SP": 0.0,
+        "ES": 7583.6,
+        "MG": 0.0
       }
     },
     {
