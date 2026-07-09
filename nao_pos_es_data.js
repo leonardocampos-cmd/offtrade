@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "09/07/2026 11:12",
+  "atualizado_em": "09/07/2026 11:22",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -11244,6 +11244,13 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "2164",
+        "cliente": "PANIFICACAO APOLLO LTDA",
+        "bairro": "TIJUCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "2438",
         "cliente": "PANIFICACAO APOLO LTDA",
         "bairro": "TIJUCA",
@@ -11687,16 +11694,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "81442",
+        "codcli": "81441",
         "cliente": "SUPERMERCADO SUPER TOP LTDA",
-        "bairro": "PONTO ALTO",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "81441",
+        "codcli": "81442",
         "cliente": "SUPERMERCADO SUPER TOP LTDA",
-        "bairro": "CENTRO",
+        "bairro": "PONTO ALTO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -14464,13 +14471,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "4996",
         "cliente": "PALADAR COMERCIO DE ALIMENTOS EM GERAL EIRELI",
         "bairro": "IPANEMA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "2164",
-        "cliente": "PANIFICACAO APOLLO LTDA",
-        "bairro": "TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       },
