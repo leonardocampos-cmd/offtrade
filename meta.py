@@ -139,7 +139,7 @@ try:
     arquivo = arquivo.rename(columns={
         'META FATURAMENTO':              'FATURAMENTO TT',
         'META FATURAMENTO CASTAS':       'FAT CASTAS',
-        'META FATURAMENTO AZEITE':       'FATURAMENTO HOB + AZEITE',
+        'META FATURAMENTO AZEITE':       'FATURAMENTO AZEITE (legado)',
         'META POSITIVAÇÃO':              'POSITIVAÇÃO TT',
         'META POSITIVAÇÃO HOB + AZEITE': 'POSITIVAÇÃO HOB + AZEITE',
         'META POSITIVAÇÃO RECKIT':       'POSITIVAÇÃO RECKIT',
@@ -147,6 +147,9 @@ try:
         'META POSITIVAÇÃO TATUZINHO':    'POSITIVAÇÃO TATUZINHO',
         'META POSITIVAÇÃO RED BULL':     'POSITIVAÇÃO RED BULL',
         'META POSITIVAÇÃO PINATTI':      'POSITIVAÇÃO PINATTI',
+        'META POSITIVAÇÃO ESSENZA+HOB': 'POSITIVAÇÃO ESSENZA+HOB',
+        'META FATURAMENTO HOB + AZEITE': 'FATURAMENTO HOB + AZEITE',
+        'META FATURAMENTO PERNOD': 'FATURAMENTO PERNOD',
     })
 except Exception as _ex:
     print(f"[AVISO] METAS RJ.xlsx (Drive) falhou ({str(_ex)[:80]}) — ignorado (arquivo não utilizado no pipeline)")
@@ -203,7 +206,10 @@ positivacao_azeite_hob = int(tabela_vendas[
     tabela_vendas['DESCRICAO'].str.contains('AZEITE', case=False, na=False) |
     tabela_vendas['FANTASIA'].str.contains('HOB', case=False, na=False)
 ]['CODCLI'].nunique())
-
+positivacao_azeite_hob = int(tabela_vendas[
+    tabela_vendas['DESCRICAO'].str.contains('AZEITE', case=False, na=False) |
+    tabela_vendas['FANTASIA'].str.contains('HOB', case=False, na=False)
+]['CODCLI'].nunique())
 positivacao_tt = int(tabela_vendas['CODCLI'].nunique())
 
 positivacao_reckit = int(tabela_vendas[

@@ -237,8 +237,9 @@ def coalesce(row, *keys):
 def _realizado_mes(df):
     """Calcula todas as métricas realizadas a partir de um subset de _vh."""
     _zero = dict(fat_tt=0.0, fat_castas=0.0, fat_domecq_passport=0.0, fat_hob_azeite=0.0, fat_pinatti=0.0, fat_moving=0.0,
+                 fat_pernod=0.0,
                  pos_tt=0, pos_hob_azeite=0, pos_reckit=0, pos_crusoe=0,
-                 pos_tatuzinho=0, pos_redbull=0, pos_pinatti=0,
+                 pos_tatuzinho=0, pos_redbull=0, pos_pinatti=0, pos_essenza_hob=0,
                  bonus_pernod=0.0, pos_pernod=0)
     if df.empty:
         return _zero
@@ -260,6 +261,8 @@ def _realizado_mes(df):
     bonus_pernod  = n_jamerson * 10 + n_outros * 5
     pos_pernod    = n_jamerson + n_outros
 
+    mask_essenza_hob = df['PRODUTO'].str.contains('ESSENZA', case=False, na=False) | df['FANTASIA'].str.contains('HOB', case=False, na=False)
+
     return {
         'fat_tt':              fat(),
         'fat_castas':          fat(df['FANTASIA'].str.contains('castas', case=False, na=False)),
@@ -267,6 +270,7 @@ def _realizado_mes(df):
         'fat_hob_azeite':      fat(df['PRODUTO'].str.contains('AZEITE', case=False, na=False) | df['FANTASIA'].str.contains('HOB', case=False, na=False)),
         'fat_pinatti':         fat(df['FANTASIA'].str.contains('PINATI', case=False, na=False)),
         'fat_moving':          fat(df['PRODUTO'].str.contains('MOVING', case=False, na=False)),
+        'fat_pernod':          fat(mask_pernod),
         'pos_tt':              pos(),
         'pos_hob_azeite':      pos(df['PRODUTO'].str.contains('AZEITE', case=False, na=False) | df['FANTASIA'].str.contains('HOB', case=False, na=False)),
         'pos_reckit':          pos(df['FANTASIA'].str.contains('RECKIT', case=False, na=False)),
@@ -274,6 +278,7 @@ def _realizado_mes(df):
         'pos_tatuzinho':       pos(df['FANTASIA'].str.contains('TATUZINHO', case=False, na=False)),
         'pos_redbull':         pos(df['FANTASIA'].str.contains('RED BULL', case=False, na=False)),
         'pos_pinatti':         pos(df['FANTASIA'].str.contains('PINATI', case=False, na=False)),
+        'pos_essenza_hob':     pos(mask_essenza_hob),
         'bonus_pernod':        bonus_pernod,
         'pos_pernod':          pos_pernod,
     }
@@ -433,6 +438,7 @@ for _, m in metas_com_nome.iterrows():
         'fat_hob_azeite':      {'meta': safe_float(coalesce(m, 'FATURAMENTO AZEITE + ZE TONA', 'FATURAMENTO HOB + AZEITE')), 'realizado': real['fat_hob_azeite']},
         'fat_pinatti':         {'meta': 0,                                              'realizado': real['fat_pinatti']},
         'fat_moving':          {'meta': 0,                                              'realizado': real['fat_moving']},
+        'fat_pernod':          {'meta': safe_float(m.get('FATURAMENTO PERNOD')),         'realizado': real['fat_pernod']},
         'pos_tt':              {'meta': safe_int(m.get('POSITIVAÇÃO TT')),              'realizado': real['pos_tt']},
         'pos_hob_azeite':      {'meta': safe_int(m.get('POSITIVAÇÃO HOB + AZEITE')),    'realizado': real['pos_hob_azeite']},
         'pos_reckit':          {'meta': safe_int(m.get('POSITIVAÇÃO RECKIT')),          'realizado': real['pos_reckit']},
@@ -440,6 +446,7 @@ for _, m in metas_com_nome.iterrows():
         'pos_tatuzinho':       {'meta': safe_int(m.get('POSITIVAÇÃO TATUZINHO')),       'realizado': real['pos_tatuzinho']},
         'pos_redbull':         {'meta': safe_int(m.get('POSITIVAÇÃO RED BULL')),        'realizado': real['pos_redbull']},
         'pos_pinatti':         {'meta': safe_int(m.get('POSITIVAÇÃO PINATTI')),         'realizado': real['pos_pinatti']},
+        'pos_essenza_hob':     {'meta': safe_int(m.get('POSITIVAÇÃO ESSENZA+HOB')),     'realizado': real['pos_essenza_hob']},
         'bonus_pernod':        {'meta': 0, 'realizado': real['bonus_pernod']},
         'pos_pernod':          {'meta': 0, 'realizado': real['pos_pernod']},
     }
