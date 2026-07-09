@@ -1,5 +1,6 @@
 # EXPORTAÇÃO PARA metas.html
 import json
+import os
 import pandas as pd
 from datetime import date, datetime
 from pathlib import Path
@@ -8,6 +9,13 @@ from meta import engine, engine_theking, engine_castas, engine_garrido, engine_s
 import nao_positivados as _np_mod
 
 _df_nao_pos = _np_mod.nao_positivados_full
+
+def _write_js_atomic(path, content):
+    """Grava em arquivo temporário e renomeia, para que páginas nunca leiam um JS truncado a meio-caminho de uma gravação."""
+    tmp_path = f"{path}.tmp"
+    with open(tmp_path, 'w', encoding='utf-8') as f:
+        f.write(content)
+    os.replace(tmp_path, path)
 
 # ── Helpers de mês (PT) ───────────────────────────────────────────────────────
 
@@ -453,8 +461,7 @@ js_out = (
 )
 
 output_path = str(Path(__file__).parent / "metas_data.js")
-with open(output_path, 'w', encoding='utf-8') as f:
-    f.write(js_out)
+_write_js_atomic(output_path, js_out)
 
 print(f"OK metas_data.js gerado — {len(vendedores_out)} vendedores, meses: {_meses_arquivo}")
 if FONTES_INDISPONIVEIS:
@@ -477,8 +484,10 @@ _status_payload = {
     'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
     'fontes_indisponiveis': _fontes_normalizadas,
 }
-with open(str(Path(__file__).parent / "fontes_status_data.js"), 'w', encoding='utf-8') as f:
-    f.write(f"const FONTES_STATUS_DATA = {json.dumps(_status_payload, ensure_ascii=False, indent=2)};\n")
+_write_js_atomic(
+    str(Path(__file__).parent / "fontes_status_data.js"),
+    f"const FONTES_STATUS_DATA = {json.dumps(_status_payload, ensure_ascii=False, indent=2)};\n"
+)
 print(f"OK fontes_status_data.js gerado — {_fontes_normalizadas or 'todas as bases OK'}")
 
 # ── Gera vendas_data.js ───────────────────────────────────────────────────────
@@ -516,8 +525,7 @@ js_vendas = (
 )
 
 vendas_path = str(Path(__file__).parent / "vendas_data.js")
-with open(vendas_path, 'w', encoding='utf-8') as f:
-    f.write(js_vendas)
+_write_js_atomic(vendas_path, js_vendas)
 
 print(f"OK vendas_data.js gerado -> {vendas_path}")
 
@@ -668,8 +676,7 @@ if _hier_parts:
         f"const GERENTES_DATA = {json.dumps(gerentes_payload, ensure_ascii=False, indent=2)};\n"
     )
     ger_path = str(Path(__file__).parent / "gerentes_data.js")
-    with open(ger_path, 'w', encoding='utf-8') as f:
-        f.write(js_ger)
+    _write_js_atomic(ger_path, js_ger)
     print(f"OK gerentes_data.js gerado — {len(estados_out)} estados")
 else:
     print("[AVISO] hierarquia não disponível — gerentes_data.js não gerado")
