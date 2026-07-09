@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "09/07/2026 11:23",
+  "atualizado_em": "09/07/2026 11:42",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -5040,34 +5040,6 @@ const NAO_POS_MG_DATA = {
     ],
     "LEANDRO OLIVEIRA": [
       {
-        "codcli": "38630",
-        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "GLÓRIA",
-        "dtultcomp": "09/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 24,
-            "valor": 2208.0
-          }
-        ]
-      },
-      {
-        "codcli": "39126",
-        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "ESTRELA DO ORIENTE",
-        "dtultcomp": "09/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 24,
-            "valor": 2208.0
-          }
-        ]
-      },
-      {
         "codcli": "39125",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
         "bairro": "RENASCENÇA",
@@ -5099,6 +5071,34 @@ const NAO_POS_MG_DATA = {
         "codcli": "38632",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
         "bairro": "NOVO ALVORADA",
+        "dtultcomp": "09/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 24,
+            "valor": 2208.0
+          }
+        ]
+      },
+      {
+        "codcli": "38630",
+        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
+        "bairro": "GLÓRIA",
+        "dtultcomp": "09/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 24,
+            "valor": 2208.0
+          }
+        ]
+      },
+      {
+        "codcli": "39126",
+        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
+        "bairro": "ESTRELA DO ORIENTE",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -5572,6 +5572,44 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 180,
             "valor": 3762.0
+          }
+        ]
+      },
+      {
+        "codcli": "34048",
+        "cliente": "MART MINAS DISTRIBUICAO LTDA",
+        "bairro": "CHACARAS COTIA",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "",
+            "qt": 72,
+            "valor": 7696.8
+          },
+          {
+            "produto": "CHANDON BRUT ROSE 750ML",
+            "fantasia": "",
+            "qt": 144,
+            "valor": 13678.56
+          },
+          {
+            "produto": "CHANDON PASSION ON ICE 750ML",
+            "fantasia": "",
+            "qt": 66,
+            "valor": 6078.6
+          },
+          {
+            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+            "fantasia": "",
+            "qt": 264,
+            "valor": 23459.04
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 102,
+            "valor": 11209.8
           }
         ]
       },
