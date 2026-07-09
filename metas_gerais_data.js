@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "09/07/2026 08:46",
+  "atualizado_em": "09/07/2026 09:16",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 9,
   "dias_no_mes": 31,
   "dias_restantes": 22,
   "resumo": {
-    "fat": 2447063.94,
+    "fat": 2446424.08,
     "fat_ant": 2772603.98,
-    "fat_ant_completo": 4471276.86,
+    "fat_ant_completo": 13138695.39,
     "pos": 626,
     "pos_ant": 686,
-    "pos_ant_completo": 1028
+    "pos_ant_completo": 1802
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 2447063.94,
+    "fat": 2446424.08,
     "fat_ant": 2772603.98,
-    "fat_ant_completo": 4471276.86,
+    "fat_ant_completo": 13138695.39,
     "pct": 17.0,
-    "nec_dia": 543315.28
+    "nec_dia": 543344.36
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 583660.54,
+      "fat": 583020.68,
       "fat_ant": 744565.33,
       "pos": 254,
-      "pct": 15.0,
-      "nec_dia": 150742.7,
+      "pct": 14.9,
+      "nec_dia": 150771.79,
       "fat_ant_completo": 2711112.29,
       "pos_ant": 306,
       "pos_ant_completo": 743
@@ -44,9 +44,9 @@ const METAS_GERAIS_DATA = {
       "pos": 262,
       "pct": 23.0,
       "nec_dia": 231141.85,
-      "fat_ant_completo": 0,
+      "fat_ant_completo": 7702176.74,
       "pos_ant": 225,
-      "pos_ant_completo": 0
+      "pos_ant_completo": 641
     },
     {
       "estado": "ES",
@@ -57,9 +57,9 @@ const METAS_GERAIS_DATA = {
       "pos": 15,
       "pct": 6.5,
       "nec_dia": 76477.43,
-      "fat_ant_completo": 0,
+      "fat_ant_completo": 965241.79,
       "pos_ant": 37,
-      "pos_ant_completo": 0
+      "pos_ant_completo": 133
     },
     {
       "estado": "MG",
@@ -375,10 +375,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "VITON",
-      "fat": 6249.26,
+      "fat": 5609.4,
       "fat_ant": 5107.14,
       "por_estado": {
-        "RJ": 6249.26,
+        "RJ": 5609.4,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
@@ -627,8 +627,5 @@ const METAS_GERAIS_DATA = {
       }
     }
   ],
-  "fontes_indisponiveis": [
-    "ES",
-    "SP"
-  ]
+  "fontes_indisponiveis": []
 };
