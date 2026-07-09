@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "09/07/2026 13:50",
+  "atualizado_em": "09/07/2026 13:53",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -16388,15 +16388,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "13/05/2026",
           "dias": "57",
           "media": 840.0
-        },
-        {
-          "codcli": "49974",
-          "cliente": "AGNALDO ALMEIDA MENDES",
-          "bairro": "CENTRO",
-          "cidade": "PIQUETE",
-          "dtultcomp": "14/05/2026",
-          "dias": "56",
-          "media": 472.52
         }
       ],
       "novos": [
@@ -16461,15 +16452,6 @@ const INATIVOS_DATA = {
       "estado": "SP",
       "inativos": [],
       "sem_compra": [
-        {
-          "codcli": "50526",
-          "cliente": "H. DE SOUZA MINIMERCADO LTDA",
-          "bairro": "RESIDENCIAL VALE DAS ACÁCIAS",
-          "cidade": "PINDAMONHANGABA",
-          "dtultcomp": "21/05/2026",
-          "dias": "49",
-          "media": 218.0
-        },
         {
           "codcli": "50355",
           "cliente": "JOAO LUCAS DE SOUZA DA SILVA MERCADINHO",
@@ -17073,15 +17055,6 @@ const INATIVOS_DATA = {
           "media": 319.2
         },
         {
-          "codcli": "39494",
-          "cliente": "CONVENIENCIA JARDIM MARAJOARA LTDA",
-          "bairro": "VILA SOFIA",
-          "cidade": "SAO PAULO",
-          "dtultcomp": "16/04/2026",
-          "dias": "84",
-          "media": 319.2
-        },
-        {
           "codcli": "39495",
           "cliente": "CONVENIENCIA JARDIM DO MORUMBI LTDA",
           "bairro": "MORUMBI",
@@ -17095,6 +17068,15 @@ const INATIVOS_DATA = {
           "cliente": "CONVENIENCIA SBC LTDA",
           "bairro": "ASSUNÇÃO",
           "cidade": "SAO BERNARDO DO CAMPO",
+          "dtultcomp": "16/04/2026",
+          "dias": "84",
+          "media": 319.2
+        },
+        {
+          "codcli": "39494",
+          "cliente": "CONVENIENCIA JARDIM MARAJOARA LTDA",
+          "bairro": "VILA SOFIA",
+          "cidade": "SAO PAULO",
           "dtultcomp": "16/04/2026",
           "dias": "84",
           "media": 319.2
@@ -17180,13 +17162,13 @@ const INATIVOS_DATA = {
           "media": 977.4
         },
         {
-          "codcli": "50439",
-          "cliente": "ADEGA DO PAULINHO LTDA",
-          "bairro": "JARDIM LENIZE",
+          "codcli": "50568",
+          "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
+          "bairro": "JARDIM BOM CLIMA",
           "cidade": "GUARULHOS",
-          "dtultcomp": "20/05/2026",
-          "dias": "50",
-          "media": 301.43
+          "dtultcomp": "26/05/2026",
+          "dias": "44",
+          "media": 12670.72
         },
         {
           "codcli": "50548",
@@ -17196,15 +17178,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "26/05/2026",
           "dias": "44",
           "media": 11878.8
-        },
-        {
-          "codcli": "50568",
-          "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
-          "bairro": "JARDIM BOM CLIMA",
-          "cidade": "GUARULHOS",
-          "dtultcomp": "26/05/2026",
-          "dias": "44",
-          "media": 12670.72
         }
       ],
       "novos": [
@@ -17225,6 +17198,24 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
+          "codcli": "50323",
+          "cliente": "SHOPPING FARTURA VALINHOS COMERCIO DE HORTIFRUTIGRANJEIROS L",
+          "bairro": "CHÁCARAS SILVANIA",
+          "cidade": "VALINHOS",
+          "dtultcomp": "13/05/2026",
+          "dias": "57",
+          "media": 377.4
+        },
+        {
+          "codcli": "50322",
+          "cliente": "SHOPPING FARTURA VINHEDO COMERCIO DE HORTIFRUTIGRANJEIROS LT",
+          "bairro": "SANTA CLAUDINA",
+          "cidade": "VINHEDO",
+          "dtultcomp": "13/05/2026",
+          "dias": "57",
+          "media": 377.4
+        },
+        {
           "codcli": "40641",
           "cliente": "SHOPPING FRUTAS VISTA ALEGRE - COMERCIO DE HORTIFRUTIGRANJEI",
           "bairro": "PARQUE NOVA SUICA",
@@ -17243,24 +17234,6 @@ const INATIVOS_DATA = {
           "media": 377.4
         },
         {
-          "codcli": "50322",
-          "cliente": "SHOPPING FARTURA VINHEDO COMERCIO DE HORTIFRUTIGRANJEIROS LT",
-          "bairro": "SANTA CLAUDINA",
-          "cidade": "VINHEDO",
-          "dtultcomp": "13/05/2026",
-          "dias": "57",
-          "media": 377.4
-        },
-        {
-          "codcli": "50323",
-          "cliente": "SHOPPING FARTURA VALINHOS COMERCIO DE HORTIFRUTIGRANJEIROS L",
-          "bairro": "CHÁCARAS SILVANIA",
-          "cidade": "VALINHOS",
-          "dtultcomp": "13/05/2026",
-          "dias": "57",
-          "media": 377.4
-        },
-        {
           "codcli": "50346",
           "cliente": "MAIA GARCIA COMERCIO LTDA",
           "bairro": "CONJUNTO HABITACIONAL EDIVALDO ANTÔNIO O",
@@ -17270,15 +17243,6 @@ const INATIVOS_DATA = {
           "media": 212.37
         },
         {
-          "codcli": "50379",
-          "cliente": "V DA SILVA MERCEARIA",
-          "bairro": "CAMBUÍ",
-          "cidade": "CAMPINAS",
-          "dtultcomp": "14/05/2026",
-          "dias": "56",
-          "media": 53.34
-        },
-        {
           "codcli": "50298",
           "cliente": "SHOPPING FARTURA COMERCIO DE HORTIFRUTIGRANJEIROS LTDA",
           "bairro": "CHACARA PRIMAVERA",
@@ -17286,6 +17250,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "14/05/2026",
           "dias": "56",
           "media": 377.4
+        },
+        {
+          "codcli": "50379",
+          "cliente": "V DA SILVA MERCEARIA",
+          "bairro": "CAMBUÍ",
+          "cidade": "CAMPINAS",
+          "dtultcomp": "14/05/2026",
+          "dias": "56",
+          "media": 53.34
         },
         {
           "codcli": "50299",
@@ -17315,10 +17288,10 @@ const INATIVOS_DATA = {
           "media": 528.19
         },
         {
-          "codcli": "30352",
-          "cliente": "VITORIA MAX SUPERMERCADOS LTDA",
-          "bairro": "JARDIM GARCIA",
-          "cidade": "CAMPINAS",
+          "codcli": "50791",
+          "cliente": "BENFICA COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "bairro": "JARDIM NOVO HORIZONTE",
+          "cidade": "LIMEIRA",
           "dtultcomp": "29/05/2026",
           "dias": "41",
           "media": 211.0
@@ -17333,10 +17306,10 @@ const INATIVOS_DATA = {
           "media": 888.77
         },
         {
-          "codcli": "50791",
-          "cliente": "BENFICA COMERCIO VAREJISTA DE ALIMENTOS LTDA",
-          "bairro": "JARDIM NOVO HORIZONTE",
-          "cidade": "LIMEIRA",
+          "codcli": "30352",
+          "cliente": "VITORIA MAX SUPERMERCADOS LTDA",
+          "bairro": "JARDIM GARCIA",
+          "cidade": "CAMPINAS",
           "dtultcomp": "29/05/2026",
           "dias": "41",
           "media": 211.0
@@ -17405,33 +17378,6 @@ const INATIVOS_DATA = {
           "media": 99.77
         },
         {
-          "codcli": "49698",
-          "cliente": "SUPERMERCADO NEVADA II LTDA",
-          "bairro": "JARDIM ZAIRA",
-          "cidade": "MAUA",
-          "dtultcomp": "30/05/2026",
-          "dias": "40",
-          "media": 399.6
-        },
-        {
-          "codcli": "49699",
-          "cliente": "MERCADO JARDIM ZAIRA LTDA",
-          "bairro": "JARDIM ZAIRA",
-          "cidade": "MAUA",
-          "dtultcomp": "30/05/2026",
-          "dias": "40",
-          "media": 799.2
-        },
-        {
-          "codcli": "50059",
-          "cliente": "MERCADINHO ANGELINA NERI LTDA",
-          "bairro": "VILA SÃO PEDRO",
-          "cidade": "SANTO ANDRE",
-          "dtultcomp": "30/05/2026",
-          "dias": "40",
-          "media": 215.11
-        },
-        {
           "codcli": "49701",
           "cliente": "MERCADINHO IRMAOS DOMINGOS LTDA",
           "bairro": "JARDIM QUARTO CENTENÁRIO",
@@ -17448,6 +17394,33 @@ const INATIVOS_DATA = {
           "dtultcomp": "30/05/2026",
           "dias": "40",
           "media": 399.6
+        },
+        {
+          "codcli": "49698",
+          "cliente": "SUPERMERCADO NEVADA II LTDA",
+          "bairro": "JARDIM ZAIRA",
+          "cidade": "MAUA",
+          "dtultcomp": "30/05/2026",
+          "dias": "40",
+          "media": 399.6
+        },
+        {
+          "codcli": "50059",
+          "cliente": "MERCADINHO ANGELINA NERI LTDA",
+          "bairro": "VILA SÃO PEDRO",
+          "cidade": "SANTO ANDRE",
+          "dtultcomp": "30/05/2026",
+          "dias": "40",
+          "media": 215.11
+        },
+        {
+          "codcli": "49699",
+          "cliente": "MERCADO JARDIM ZAIRA LTDA",
+          "bairro": "JARDIM ZAIRA",
+          "cidade": "MAUA",
+          "dtultcomp": "30/05/2026",
+          "dias": "40",
+          "media": 799.2
         },
         {
           "codcli": "50904",
@@ -17556,13 +17529,13 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "50387",
-          "cliente": "MINIMERCADO REDE CANAA LTDA",
-          "bairro": "JARDIM WILMA FLOR",
+          "codcli": "42942",
+          "cliente": "LS ATACADO DE BEBIDAS E ALIMENTOS LTDA",
+          "bairro": "PARQUE GUARANI",
           "cidade": "SAO PAULO",
           "dtultcomp": "15/05/2026",
           "dias": "55",
-          "media": 234.63
+          "media": 30162.0
         },
         {
           "codcli": "50386",
@@ -17574,13 +17547,13 @@ const INATIVOS_DATA = {
           "media": 238.93
         },
         {
-          "codcli": "42942",
-          "cliente": "LS ATACADO DE BEBIDAS E ALIMENTOS LTDA",
-          "bairro": "PARQUE GUARANI",
+          "codcli": "50387",
+          "cliente": "MINIMERCADO REDE CANAA LTDA",
+          "bairro": "JARDIM WILMA FLOR",
           "cidade": "SAO PAULO",
           "dtultcomp": "15/05/2026",
           "dias": "55",
-          "media": 30162.0
+          "media": 234.63
         },
         {
           "codcli": "50399",
@@ -17592,15 +17565,6 @@ const INATIVOS_DATA = {
           "media": 561.6
         },
         {
-          "codcli": "50085",
-          "cliente": "ATV RIBEIRO MINIMERCADO LTDA",
-          "bairro": "CONJUNTO HABITACIONAL SITIO CONCEIÇÃO",
-          "cidade": "SAO PAULO",
-          "dtultcomp": "25/05/2026",
-          "dias": "45",
-          "media": 67.7
-        },
-        {
           "codcli": "46624",
           "cliente": "ROSIMEIRE CORDEIRO ALVES ARRAIAS",
           "bairro": "JARDIM QUARESMEIRA",
@@ -17610,13 +17574,13 @@ const INATIVOS_DATA = {
           "media": 14894.0
         },
         {
-          "codcli": "50709",
-          "cliente": "MERCADO NOVA GERACAO GUAIANAZES LTDA",
-          "bairro": "JARDIM SÃO PAULO(ZONA LESTE)",
+          "codcli": "50085",
+          "cliente": "ATV RIBEIRO MINIMERCADO LTDA",
+          "bairro": "CONJUNTO HABITACIONAL SITIO CONCEIÇÃO",
           "cidade": "SAO PAULO",
-          "dtultcomp": "27/05/2026",
-          "dias": "43",
-          "media": 284.5
+          "dtultcomp": "25/05/2026",
+          "dias": "45",
+          "media": 67.7
         },
         {
           "codcli": "50710",
@@ -17626,6 +17590,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "27/05/2026",
           "dias": "43",
           "media": 6025.4
+        },
+        {
+          "codcli": "50709",
+          "cliente": "MERCADO NOVA GERACAO GUAIANAZES LTDA",
+          "bairro": "JARDIM SÃO PAULO(ZONA LESTE)",
+          "cidade": "SAO PAULO",
+          "dtultcomp": "27/05/2026",
+          "dias": "43",
+          "media": 284.5
         }
       ],
       "novos": [
@@ -17799,15 +17772,6 @@ const INATIVOS_DATA = {
           "media": 380.75
         },
         {
-          "codcli": "50660",
-          "cliente": "G.A. CARVALHO COMERCIO VAREJISTA DE PRODUTOS ALIMENTICIOS LT",
-          "bairro": "JARDIM RAFAEL",
-          "cidade": "CACAPAVA",
-          "dtultcomp": "05/06/2026",
-          "dias": "34",
-          "media": 547.74
-        },
-        {
           "codcli": "50055",
           "cliente": "24.467.572 JOSE VIEIRA DA SILVA",
           "bairro": "JARDIM PLANALTO",
@@ -17817,13 +17781,22 @@ const INATIVOS_DATA = {
           "media": 188.96
         },
         {
-          "codcli": "50657",
-          "cliente": "G.A.RIBEIRO LTDA",
-          "bairro": "JARDIM GURILÂNDIA",
-          "cidade": "TAUBATE",
+          "codcli": "50660",
+          "cliente": "G.A. CARVALHO COMERCIO VAREJISTA DE PRODUTOS ALIMENTICIOS LT",
+          "bairro": "JARDIM RAFAEL",
+          "cidade": "CACAPAVA",
+          "dtultcomp": "05/06/2026",
+          "dias": "34",
+          "media": 547.74
+        },
+        {
+          "codcli": "50648",
+          "cliente": "RIBEIRO & GARCEZ DE CARVALHO LTDA",
+          "bairro": "JARDIM DAS FLORES",
+          "cidade": "SANTA BRANCA",
           "dtultcomp": "08/06/2026",
           "dias": "31",
-          "media": 513.32
+          "media": 214.37
         },
         {
           "codcli": "50646",
@@ -17835,13 +17808,13 @@ const INATIVOS_DATA = {
           "media": 750.42
         },
         {
-          "codcli": "50648",
-          "cliente": "RIBEIRO & GARCEZ DE CARVALHO LTDA",
-          "bairro": "JARDIM DAS FLORES",
-          "cidade": "SANTA BRANCA",
+          "codcli": "50657",
+          "cliente": "G.A.RIBEIRO LTDA",
+          "bairro": "JARDIM GURILÂNDIA",
+          "cidade": "TAUBATE",
           "dtultcomp": "08/06/2026",
           "dias": "31",
-          "media": 214.37
+          "media": 513.32
         },
         {
           "codcli": "49908",
@@ -19164,6 +19137,15 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [],
       "novos": [
+        {
+          "codcli": "51694",
+          "cliente": "SERTOP OPERACAO E GESTAO DO VAREJO ALIMENTICIO LTDA",
+          "bairro": "JARDIM ZULMIRA",
+          "cidade": "SOROCABA",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "51692",
           "cliente": "DE CASA LTDA",
