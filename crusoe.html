@@ -223,11 +223,71 @@
 
     .vend-faturamento {
       margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       font-size: 0.75rem;
       color: var(--muted);
-      text-align: right;
     }
     .vend-faturamento strong { color: var(--accent-light); }
+
+    .vend-toggle {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--accent-light);
+      font-size: 0.68rem;
+      font-weight: 600;
+      padding: 3px 10px;
+      cursor: pointer;
+    }
+    .vend-toggle:hover { border-color: var(--accent); }
+
+    .vendas-detail {
+      margin-top: 10px;
+      overflow-x: auto;
+    }
+    .vendas-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.72rem;
+    }
+    .vendas-table th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-size: 0.6rem;
+      padding: 6px 8px;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    .vendas-table td {
+      padding: 6px 8px;
+      border-bottom: 1px solid rgba(34,49,64,0.5);
+      vertical-align: top;
+    }
+    .vendas-table td:nth-child(4),
+    .vendas-table td:nth-child(5) { white-space: nowrap; text-align: right; }
+    .pts-badge {
+      display: inline-block;
+      background: var(--card2);
+      border: 1px solid #2ea7c944;
+      color: var(--accent);
+      font-size: 0.6rem;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: 4px;
+      margin: 1px 3px 1px 0;
+      white-space: nowrap;
+    }
+    .vendas-empty {
+      padding: 12px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.75rem;
+    }
 
     .rank-empty {
       padding: 40px 16px;
@@ -310,7 +370,54 @@
       ],
     };
 
-    function buildVendRow(r, pos, ganhou, breakdown) {
+    function pontosBadges(lista) {
+      return (lista || []).map(p => `<span class="pts-badge">${p.tipo} +${p.pontos}</span>`).join('') || '—';
+    }
+
+    function buildVendasTable(vendedor, timeId) {
+      const vendas = vendedor.vendas || [];
+      if (!vendas.length) {
+        return '<div class="vendas-empty">Sem vendas no período.</div>';
+      }
+
+      let bodyHtml = '';
+      if (timeId === 'CONVENIENCE') {
+        bodyHtml = vendas.map(v => `
+          <tr>
+            <td>${v.data}</td>
+            <td>${v.cliente}</td>
+            <td>${v.produto}</td>
+            <td>${v.qt}</td>
+            <td>${fmtMoeda(v.valor)}</td>
+            <td>${pontosBadges(v.pontuacoes)}</td>
+          </tr>`).join('');
+      } else {
+        bodyHtml = vendas.map(pedido => pedido.itens.map((item, idx) => {
+          const badges = [];
+          if (idx === 0) {
+            (pedido.eventos || []).forEach(e => badges.push({ tipo: e.tipo, pontos: e.pontos }));
+          }
+          (item.pontuacoes || []).forEach(p => badges.push(p));
+          return `
+            <tr>
+              <td>${idx === 0 ? pedido.data : ''}</td>
+              <td>${idx === 0 ? pedido.cliente : ''}</td>
+              <td>${item.produto}</td>
+              <td>${item.qt}</td>
+              <td>${fmtMoeda(item.valor)}</td>
+              <td>${pontosBadges(badges)}</td>
+            </tr>`;
+        }).join('')).join('');
+      }
+
+      return `
+        <table class="vendas-table">
+          <thead><tr><th>Data</th><th>Cliente</th><th>Produto</th><th>Qt</th><th>Valor</th><th>Pontuação</th></tr></thead>
+          <tbody>${bodyHtml}</tbody>
+        </table>`;
+    }
+
+    function buildVendRow(r, pos, ganhou, breakdown, timeId) {
       const rowCls = ganhou ? ' primeiro' : '';
       const bdHtml = breakdown.map(cfg => `
         <div class="bd-item${cfg.nd && cfg.nd(r) ? ' nd' : ''}">
@@ -318,6 +425,7 @@
           <div class="bd-val" style="font-size:0.82rem">${cfg.val(r)}</div>
           <div class="bd-pts">+${cfg.pts(r)} pts</div>
         </div>`).join('');
+      const detailId = `vendas-${timeId}-${r.rca}`;
       return `
         <div class="vend-row${rowCls}">
           <div class="vend-top">
@@ -330,7 +438,11 @@
             </div>
           </div>
           <div class="vend-breakdown" style="grid-template-columns: repeat(${breakdown.length}, 1fr)">${bdHtml}</div>
-          <div class="vend-faturamento">Faturamento: <strong>${fmtMoeda(r.faturamento)}</strong></div>
+          <div class="vend-faturamento">
+            <button class="vend-toggle" onclick="const el=document.getElementById('${detailId}'); const oculto = el.style.display==='none'; el.style.display = oculto ? 'block' : 'none'; this.textContent = oculto ? 'Ocultar vendas ▲' : 'Ver vendas ▼';">Ver vendas ▼</button>
+            <span>Faturamento: <strong>${fmtMoeda(r.faturamento)}</strong></span>
+          </div>
+          <div class="vendas-detail" id="${detailId}" style="display:none">${buildVendasTable(r, timeId)}</div>
         </div>`;
     }
 
@@ -355,7 +467,7 @@
         );
         listHtml = rows.map((r, i) => {
           const pos = i < 3 ? MEDALS[i] : (i + 1);
-          return buildVendRow(r, pos, vencedores.has(r.rca), breakdown);
+          return buildVendRow(r, pos, vencedores.has(r.rca), breakdown, time.id);
         }).join('');
       }
 

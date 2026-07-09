@@ -97,25 +97,39 @@ def _strip_accents(s):
     return unicodedata.normalize('NFKD', str(s)).encode('ascii', 'ignore').decode().upper()
 
 
+_ORACLE_ACENTOS = "ÁÀÂÃÄÉÈÊËÍÌÎÏÓÒÔÕÖÚÙÛÜÇ"
+_ORACLE_SEM_ACENTO = "AAAAAEEEEIIIIOOOOOUUUUC"
+
+
+def _unaccent_sql(col):
+    """Remove acentos de uma coluna Oracle via TRANSLATE, para casar contra
+    as chaves de busca (já sem acento) independente de como o nome está
+    gravado no banco — nomes como "Nátali" e "Gonçalvez" não batiam antes
+    disso (confirmado em 08/07/2026: RCAs 419 e 431 vinham zerados)."""
+    return f"TRANSLATE(UPPER({col}), '{_ORACLE_ACENTOS}', '{_ORACLE_SEM_ACENTO}')"
+
+
 def _query(schema, filtro_filial=None, filtro_estado=None):
     s = schema.upper()
     extra_filial = f"\n          AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
     extra_estado = f"\n          AND U.ESTADO = '{filtro_estado}'" if filtro_estado else ""
     condicoes_nome = " OR ".join(
-        f"UPPER(U.NOME) LIKE '%{nome}%'" for nome in NOMES_BUSCA.values()
+        f"{_unaccent_sql('U.NOME')} LIKE '%{nome}%'" for nome in NOMES_BUSCA.values()
     )
     return f"""
         SELECT
-            U.NOME       AS NOME,
-            M.CODCLI     AS CODCLI,
-            M.CODPROD    AS CODPROD,
-            M.DESCRICAO  AS DESCRICAO,
-            M.NUMNOTA    AS NUMNOTA,
-            M.DTMOV      AS DTMOV,
-            M.QT         AS QT,
-            M.PUNIT      AS PUNIT
+            U.NOME             AS NOME,
+            M.CODCLI           AS CODCLI,
+            C.CLIENTE          AS CLIENTE,
+            M.CODPROD          AS CODPROD,
+            M.DESCRICAO        AS DESCRICAO,
+            M.NUMNOTA          AS NUMNOTA,
+            M.DTMOV            AS DTMOV,
+            M.QT               AS QT,
+            M.PUNIT            AS PUNIT
         FROM {s}.PCMOV M
         JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
+        LEFT JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
         WHERE ({condicoes_nome})
           AND TRUNC(M.DTMOV) >= TO_DATE('{_dt_lookback_ini}', 'YYYY-MM-DD')
           AND TRUNC(M.DTMOV) <= TO_DATE('{DT_FIM}', 'YYYY-MM-DD')
@@ -177,34 +191,44 @@ def _teve_venda_antes(rca, chave_col, chave_val, antes_de):
     return not sub.empty
 
 
-def _contar_novos_skus(rca, camp_rca):
-    """Primeira venda de (CODCLI, CODPROD) na campanha sem venda do mesmo
-    par nos LOOKBACK_DIAS anteriores."""
+def _identificar_novos_skus(rca, camp_rca):
+    """Retorna o set de (CODCLI, CODPROD) cuja primeira venda na campanha não
+    teve venda do mesmo par nos LOOKBACK_DIAS anteriores — ou seja, "novo SKU"."""
+    novos = set()
     if camp_rca.empty:
-        return 0
-    novos = 0
+        return novos
     primeiras_skus = camp_rca.groupby(['CODCLI', 'CODPROD'])['DTMOV'].min().reset_index()
     for _, r in primeiras_skus.iterrows():
         sub = hist[(hist['RCA'] == rca) & (hist['CODCLI'] == r['CODCLI']) & (hist['CODPROD'] == r['CODPROD'])]
         janela_ini = r['DTMOV'] - timedelta(days=LOOKBACK_DIAS)
         teve_antes = not sub[(sub['DTMOV'] >= janela_ini) & (sub['DTMOV'] < r['DTMOV'])].empty
         if not teve_antes:
-            novos += 1
+            novos.add((r['CODCLI'], r['CODPROD']))
     return novos
 
 
-def _contar_positivacoes(rca, camp_rca):
-    """Primeiro pedido do cliente na campanha sem NENHUM pedido (qualquer
-    produto) nos LOOKBACK_DIAS anteriores — cobre "cliente novo" e
-    "reativação" com a mesma regra."""
+def _identificar_positivacoes(rca, camp_rca):
+    """Retorna o set de CODCLI cujo primeiro pedido na campanha não teve
+    NENHUM pedido (qualquer produto) nos LOOKBACK_DIAS anteriores — cobre
+    "cliente novo" e "reativação" com a mesma regra."""
+    positivados = set()
     if camp_rca.empty:
-        return 0
-    positivacoes = 0
+        return positivados
     primeiros_cli = camp_rca.groupby('CODCLI')['DTMOV'].min().reset_index()
     for _, r in primeiros_cli.iterrows():
         if not _teve_venda_antes(rca, 'CODCLI', r['CODCLI'], r['DTMOV']):
-            positivacoes += 1
-    return positivacoes
+            positivados.add(r['CODCLI'])
+    return positivados
+
+
+def _nome_cliente(valor, codcli):
+    if pd.isna(valor) or not str(valor).strip():
+        return f"Cliente {codcli}"
+    return str(valor).strip()
+
+
+def _fmt_data(dt):
+    return pd.Timestamp(dt).strftime('%d/%m/%Y')
 
 
 resultado_por_time: dict[str, list] = {"KEY_ACCOUNT": [], "ATACAREJO": [], "CONVENIENCE": []}
@@ -214,72 +238,135 @@ for rca, (nome, time_id) in RCAS.items():
     pedidos = int(camp_rca['NUMNOTA'].nunique())
     faturamento = float(camp_rca['FATURAMENTO'].sum())
 
-    if time_id == "KEY_ACCOUNT":
-        novos_skus = _contar_novos_skus(rca, camp_rca)
-        reativacoes = _contar_positivacoes(rca, camp_rca)
+    if time_id in ("KEY_ACCOUNT", "ATACAREJO"):
+        novos_skus_set = _identificar_novos_skus(rca, camp_rca)
+        positivados_set = _identificar_positivacoes(rca, camp_rca)
+        novos_skus = len(novos_skus_set)
+        reativacoes = len(positivados_set)
 
-        meta_valor = META_FATURAMENTO.get(rca)
-        meta_definida = meta_valor is not None
-        meta_atingida = bool(meta_definida and faturamento >= meta_valor)
+        primeira_data_cliente = camp_rca.groupby('CODCLI')['DTMOV'].min().to_dict()
+        primeira_data_sku = camp_rca.groupby(['CODCLI', 'CODPROD'])['DTMOV'].min().to_dict()
+        pontos_sku_unit = 5 if time_id == "KEY_ACCOUNT" else 4
+        tipo_positivacao = "reativação" if time_id == "KEY_ACCOUNT" else "positivação (novo/reativação)"
 
-        pontos_pedidos = pedidos
-        pontos_novos_skus = novos_skus * 5
-        pontos_reativacoes = reativacoes * 5
-        pontos_meta = 4 if meta_atingida else 0
-        pontos_total = pontos_pedidos + pontos_novos_skus + pontos_reativacoes + pontos_meta
+        vendas_tmp = []
+        pontos_pedidos_valor = 0  # só usado pelo Atacarejo
+        for numnota, grupo in camp_rca.groupby('NUMNOTA'):
+            codcli = grupo['CODCLI'].iloc[0]
+            data_pedido = grupo['DTMOV'].min()
+            cliente_nome = _nome_cliente(grupo['CLIENTE'].iloc[0], codcli)
+            valor_pedido = float(grupo['FATURAMENTO'].sum())
 
-        resultado_por_time[time_id].append({
-            'rca': rca,
-            'vendedor': nome,
-            'pedidos': pedidos,
-            'novos_skus': novos_skus,
-            'reativacoes': reativacoes,
-            'faturamento': round(faturamento, 2),
-            'meta_definida': meta_definida,
-            'meta_valor': meta_valor,
-            'meta_atingida': meta_atingida,
-            'pontos_pedidos': pontos_pedidos,
-            'pontos_novos_skus': pontos_novos_skus,
-            'pontos_reativacoes': pontos_reativacoes,
-            'pontos_meta': pontos_meta,
-            'pontos_total': pontos_total,
-        })
-
-    elif time_id == "ATACAREJO":
-        novos_skus = _contar_novos_skus(rca, camp_rca)
-        positivacoes = _contar_positivacoes(rca, camp_rca)
-
-        pontos_pedidos_valor = 0
-        if not camp_rca.empty:
-            valores_pedido = camp_rca.groupby('NUMNOTA')['FATURAMENTO'].sum()
-            for v in valores_pedido:
-                if v >= 3001:
+            eventos = []
+            if time_id == "KEY_ACCOUNT":
+                eventos.append({'tipo': 'pedido', 'pontos': 1})
+            else:
+                if valor_pedido >= 3001:
+                    eventos.append({'tipo': 'pedido (acima de R$3001)', 'pontos': 3})
                     pontos_pedidos_valor += 3
-                elif v >= 1001:
+                elif valor_pedido >= 1001:
+                    eventos.append({'tipo': 'pedido (R$1001-3000)', 'pontos': 2})
                     pontos_pedidos_valor += 2
-                elif v >= 500:
+                elif valor_pedido >= 500:
+                    eventos.append({'tipo': 'pedido (R$500-1000)', 'pontos': 1})
                     pontos_pedidos_valor += 1
 
-        pontos_positivacao = positivacoes * 5
-        pontos_novos_skus = novos_skus * 4
-        pontos_total = pontos_positivacao + pontos_novos_skus + pontos_pedidos_valor
+            if codcli in positivados_set and data_pedido == primeira_data_cliente.get(codcli):
+                eventos.append({'tipo': tipo_positivacao, 'pontos': 5})
 
-        resultado_por_time[time_id].append({
-            'rca': rca,
-            'vendedor': nome,
-            'pedidos': pedidos,
-            'positivacoes': positivacoes,
-            'novos_skus': novos_skus,
-            'faturamento': round(faturamento, 2),
-            'pontos_positivacao': pontos_positivacao,
-            'pontos_novos_skus': pontos_novos_skus,
-            'pontos_pedidos_valor': pontos_pedidos_valor,
-            'pontos_total': pontos_total,
-        })
+            itens = []
+            for _, row in grupo.iterrows():
+                chave_sku = (row['CODCLI'], row['CODPROD'])
+                pontuacoes = []
+                if chave_sku in novos_skus_set and row['DTMOV'] == primeira_data_sku.get(chave_sku):
+                    pontuacoes.append({'tipo': 'novo SKU', 'pontos': pontos_sku_unit})
+                itens.append({
+                    'produto': row['DESCRICAO'],
+                    'qt': float(row['QT']),
+                    'valor': round(float(row['FATURAMENTO']), 2),
+                    'pontuacoes': pontuacoes,
+                })
+
+            vendas_tmp.append((data_pedido, {
+                'numnota': str(numnota),
+                'data': _fmt_data(data_pedido),
+                'cliente': cliente_nome,
+                'valor_pedido': round(valor_pedido, 2),
+                'eventos': eventos,
+                'itens': itens,
+            }))
+
+        vendas_tmp.sort(key=lambda x: x[0])
+        vendas = [v for _, v in vendas_tmp]
+
+        if time_id == "KEY_ACCOUNT":
+            meta_valor = META_FATURAMENTO.get(rca)
+            meta_definida = meta_valor is not None
+            meta_atingida = bool(meta_definida and faturamento >= meta_valor)
+
+            pontos_pedidos = pedidos
+            pontos_novos_skus = novos_skus * 5
+            pontos_reativacoes = reativacoes * 5
+            pontos_meta = 4 if meta_atingida else 0
+            pontos_total = pontos_pedidos + pontos_novos_skus + pontos_reativacoes + pontos_meta
+
+            resultado_por_time[time_id].append({
+                'rca': rca,
+                'vendedor': nome,
+                'pedidos': pedidos,
+                'novos_skus': novos_skus,
+                'reativacoes': reativacoes,
+                'faturamento': round(faturamento, 2),
+                'meta_definida': meta_definida,
+                'meta_valor': meta_valor,
+                'meta_atingida': meta_atingida,
+                'pontos_pedidos': pontos_pedidos,
+                'pontos_novos_skus': pontos_novos_skus,
+                'pontos_reativacoes': pontos_reativacoes,
+                'pontos_meta': pontos_meta,
+                'pontos_total': pontos_total,
+                'vendas': vendas,
+            })
+
+        else:  # ATACAREJO
+            pontos_positivacao = reativacoes * 5
+            pontos_novos_skus = novos_skus * 4
+            pontos_total = pontos_positivacao + pontos_novos_skus + pontos_pedidos_valor
+
+            resultado_por_time[time_id].append({
+                'rca': rca,
+                'vendedor': nome,
+                'pedidos': pedidos,
+                'positivacoes': reativacoes,
+                'novos_skus': novos_skus,
+                'faturamento': round(faturamento, 2),
+                'pontos_positivacao': pontos_positivacao,
+                'pontos_novos_skus': pontos_novos_skus,
+                'pontos_pedidos_valor': pontos_pedidos_valor,
+                'pontos_total': pontos_total,
+                'vendas': vendas,
+            })
 
     elif time_id == "CONVENIENCE":
-        camp_gourmet = camp_rca[camp_rca['IS_GOURMET']]
-        clientes_gourmet = int(camp_gourmet['CODCLI'].nunique())
+        camp_gourmet = camp_rca[camp_rca['IS_GOURMET']].sort_values('DTMOV')
+        clientes_pontuados = set()
+        vendas = []
+        for _, row in camp_gourmet.iterrows():
+            codcli = row['CODCLI']
+            conta_ponto = codcli not in clientes_pontuados
+            if conta_ponto:
+                clientes_pontuados.add(codcli)
+            vendas.append({
+                'numnota': str(row['NUMNOTA']),
+                'data': _fmt_data(row['DTMOV']),
+                'cliente': _nome_cliente(row['CLIENTE'], codcli),
+                'produto': row['DESCRICAO'],
+                'qt': float(row['QT']),
+                'valor': round(float(row['FATURAMENTO']), 2),
+                'pontuacoes': [{'tipo': 'cliente positivado (Linha Gourmet)', 'pontos': 1}] if conta_ponto else [],
+            })
+
+        clientes_gourmet = len(clientes_pontuados)
         faturamento_gourmet = float(camp_gourmet['FATURAMENTO'].sum())
         pontos_total = clientes_gourmet
 
@@ -290,6 +377,7 @@ for rca, (nome, time_id) in RCAS.items():
             'faturamento': round(faturamento, 2),
             'faturamento_gourmet': round(faturamento_gourmet, 2),
             'pontos_total': pontos_total,
+            'vendas': vendas,
         })
 
 for _time_id in resultado_por_time:
