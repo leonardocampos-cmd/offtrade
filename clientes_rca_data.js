@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "09/07/2026 11:12",
+  "atualizado_em": "09/07/2026 11:22",
   "total": 4327,
   "clientes": [
     {
@@ -44006,20 +44006,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "2164",
-      "razao": "PANIFICACAO APOLLO LTDA",
-      "fantasia": "PANIFICACAO APOLLO",
-      "bairro": "TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "33.264.227/0001-01",
-      "estado": "RJ",
-      "ramo": "MINI-MERCADO",
-      "codusur1": "460",
-      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "2438",
       "razao": "PANIFICACAO APOLO LTDA",
       "fantasia": "PANIFICACAO APOLO",
@@ -57190,6 +57176,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "DELIVERY",
       "codusur1": "144",
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51640",
+      "razao": "TANIA SANTANA 10918156823",
+      "fantasia": "R.T - MERCEARIAS - VENDAS EM GERAIS",
+      "bairro": "SITIO DO CAMPO",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "29.892.506/0001-34",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
