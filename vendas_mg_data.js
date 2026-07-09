@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "09/07/2026 10:14",
+  "atualizado_em": "09/07/2026 11:11",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -77,14 +77,14 @@ const VENDAS_MG_DATA = {
         "fat_ant": 58591.42
       },
       "Jun/26": {
-        "fat": 170667.78,
-        "pos": 52,
+        "fat": 170338.38,
+        "pos": 51,
         "fat_ant": 175829.04
       },
       "Jul/26": {
         "fat": 9241.06,
         "pos": 12,
-        "fat_ant": 170667.78
+        "fat_ant": 170338.38
       }
     },
     "JANAIRA MARQUES": {
@@ -258,8 +258,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 53560.12
       },
       "Jul/26": {
-        "fat": 9992.16,
-        "pos": 12,
+        "fat": 8883.06,
+        "pos": 11,
         "fat_ant": 51108.92
       }
     }
@@ -51725,15 +51725,6 @@ const VENDAS_MG_DATA = {
           "valor": 74.9
         },
         {
-          "data": "22/06/2026",
-          "codcli": "33265",
-          "cliente": "SUPERMERCADO PARANAIBA BELA VISTA LTDA",
-          "produto": "GIN GORDONS 750 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 329.4
-        },
-        {
           "data": "23/06/2026",
           "codcli": "34498",
           "cliente": "ORGANIZACAO PANEFLORENCA LTDA",
@@ -86716,24 +86707,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 69.8
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "39542",
-          "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
-          "produto": "APERITIVO CAMPARI 998 ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 598.8
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "39542",
-          "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
-          "produto": "WHISKY WALKER RED LABEL 1L",
-          "fantasia": "",
-          "qt": 7,
-          "valor": 510.3
         },
         {
           "data": "07/07/2026",
