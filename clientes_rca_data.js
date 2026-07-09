@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "09/07/2026 11:22",
-  "total": 4327,
+  "atualizado_em": "09/07/2026 11:24",
+  "total": 4329,
   "clientes": [
     {
       "codcli": "31683",
@@ -4652,6 +4652,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "32787",
+      "razao": "ADEGA BARRIGUDINHA LTDA",
+      "fantasia": "ADEGA BARRIGUDINHA",
+      "bairro": "JAGUARÉ",
+      "cidade": "SAO PAULO",
+      "cnpj": "09.261.895/0001-92",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "412",
+      "nome_usur2": "LAYZ WERNECK"
+    },
+    {
       "codcli": "47671",
       "razao": "ADEGA COLORADO DISTRIBUIDORA DE BEBIDAS LTDA",
       "fantasia": "ADEGA COLORADO",
@@ -5278,6 +5292,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51643",
+      "razao": "ADEVALDO SOARES DOS SANTOS",
+      "fantasia": "ADEVALDO SOARES DOS SANTOS",
+      "bairro": "MELVI",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "17.015.560/0001-12",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -53708,12 +53736,12 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "51634",
+      "codcli": "51642",
       "razao": "SUPERMERCADO APR LTDA",
       "fantasia": "SUPERMERCADO APR",
-      "bairro": "FLORIDA",
-      "cidade": "PRAIA GRANDE",
-      "cnpj": "11.139.230/0002-33",
+      "bairro": "PARQUE DAS BANDEIRAS",
+      "cidade": "SAO VICENTE",
+      "cnpj": "11.139.230/0001-52",
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "505",
