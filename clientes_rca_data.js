@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "09/07/2026 11:42",
-  "total": 4342,
+  "atualizado_em": "09/07/2026 11:49",
+  "total": 4350,
   "clientes": [
     {
       "codcli": "31683",
@@ -13582,6 +13582,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JULIA PACIELLO",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
+    },
+    {
+      "codcli": "33563",
+      "razao": "CHAMA AUTO POSTO LTDA",
+      "fantasia": "CHAMA AUTO POSTO",
+      "bairro": "VILA ANTONIETA",
+      "cidade": "GUARULHOS",
+      "cnpj": "39.659.302/0001-01",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "412",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "39448",
@@ -34962,6 +34976,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51661",
+      "razao": "MERCADINHO VOLTE SEMPRE LTDA",
+      "fantasia": "MERCADINHO VOLTE SEMPRE",
+      "bairro": "ANHANGUERA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "37.512.120/0001-88",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51150",
       "razao": "MERCADINHO WJE LTDA",
       "fantasia": "MERCADINHO VITAL LTDA",
@@ -35954,6 +35982,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51659",
+      "razao": "MERCADO FLORESTA AZUL DE VILA SILVIA LTDA",
+      "fantasia": "FLORESTA AZUL",
+      "bairro": "JARDIM DANFER",
+      "cidade": "SAO PAULO",
+      "cnpj": "03.167.072/0001-16",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "492",
+      "nome_usur1": "ANDERSON MOTTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "6412",
@@ -47338,6 +47380,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "51662",
+      "razao": "POSTO NOVO PARQUE LTDA",
+      "fantasia": "POSTO NOVO PARQUE LTDA",
+      "bairro": "JARDIM JAPÃO",
+      "cidade": "SAO PAULO",
+      "cnpj": "62.992.490/0001-07",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "82967",
       "razao": "POSTO PALACIO GUANABARA LTDA",
       "fantasia": "POSTO PALACIO GUANABARA",
@@ -51902,6 +51958,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "51658",
+      "razao": "SAO JOSE DE CAICARA SUPERMERCADO E PADARIA LTDA",
+      "fantasia": "SAO JOSE DE CAICARA SUPERMERCADO E PADARIA",
+      "bairro": "CAICARA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "10.494.328/0001-65",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "93892",
       "razao": "SAO MATEUS FITNESS LTDA",
       "fantasia": "CORPO E MENTE",
@@ -54768,6 +54838,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "491",
       "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51660",
+      "razao": "SUPERMERCADO LIBARDI LTDA",
+      "fantasia": "SUPERMERCADO LIBARDI",
+      "bairro": "VILA SAO LUIZ",
+      "cidade": "PORANGABA",
+      "cnpj": "28.345.660/0001-23",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "489",
+      "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -58034,6 +58118,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "51663",
+      "razao": "TOP REAL UTILIDADES DOMESTICAS LTDA",
+      "fantasia": "TOP REAL UTILIDADES DOMESTICAS",
+      "bairro": "PARQUE DAS AMERIICAS",
+      "cidade": "MAUA",
+      "cnpj": "45.877.575/0001-25",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "94766",
       "razao": "TORINO HOUSE PIZZARIA E TRATORIA LTDA",
       "fantasia": "TORINO HOUSE",
@@ -59936,6 +60034,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51657",
+      "razao": "VULCANIA CONVENIENCIAS E UTILIDADES LTDA",
+      "fantasia": "VULCANIA CONVENIENCIAS E UTILIDADES LTDA",
+      "bairro": "INDIANÓPOLIS",
+      "cidade": "SAO PAULO",
+      "cnpj": "54.396.524/0001-72",
+      "estado": "SP",
+      "ramo": "CONVENIENCIA",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "19119",
