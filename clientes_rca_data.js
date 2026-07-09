@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "09/07/2026 12:08",
-  "total": 4365,
+  "atualizado_em": "09/07/2026 12:14",
+  "total": 4368,
   "clientes": [
     {
       "codcli": "31683",
@@ -8186,6 +8186,20 @@ const CLIENTES_RCA_DATA = {
       "bairro": "CENTRO",
       "cidade": "VINHEDO",
       "cnpj": "02.138.031/0001-39",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51678",
+      "razao": "AUTO POSTO ITALIA MOOCA LTDA",
+      "fantasia": "AUTO POSTO ITALIA MOOCA",
+      "bairro": "MOOCA",
+      "cidade": "SAO PAULO",
+      "cnpj": "41.131.803/0001-62",
       "estado": "SP",
       "ramo": "POSTO DE GASOLINA",
       "codusur1": "495",
@@ -47352,6 +47366,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51680",
+      "razao": "POSTO JN 28 LTDA",
+      "fantasia": "POSTO JN 28",
+      "bairro": "BROOKLIN PAULISTA",
+      "cidade": "SAO PAULO",
+      "cnpj": "41.808.906/0001-14",
+      "estado": "SP",
+      "ramo": "POSTO DE GASOLINA",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "85686",
       "razao": "POSTO JULIO DE CASTILHO LIMITADA",
       "fantasia": "POSTO JULIO DE CASTILHO",
@@ -50260,6 +50288,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "260",
       "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51681",
+      "razao": "RESTAURANTE E CONVENIENCIA 28 LTDA",
+      "fantasia": "RESTAURANTE E CONVENIENCIA 28",
+      "bairro": "JARDIM MIMAS",
+      "cidade": "EMBU",
+      "cnpj": "05.778.412/0001-70",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "495",
+      "nome_usur1": "EDUARDO COUTO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
