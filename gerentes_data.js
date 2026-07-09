@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "09/07/2026 11:46",
+  "atualizado_em": "09/07/2026 12:01",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -1371,6 +1371,10 @@ const GERENTES_DATA = {
           "fat": 4508994.61,
           "qt": 106872
         },
+        "Jul/26": {
+          "fat": 1466297.29,
+          "qt": 33119
+        },
         "Jun/26": {
           "fat": 7482563.33,
           "qt": 190077
@@ -1382,10 +1386,6 @@ const GERENTES_DATA = {
         "Mar/26": {
           "fat": 5971590.23,
           "qt": 145685
-        },
-        "Jul/26": {
-          "fat": 1466297.29,
-          "qt": 33111
         }
       },
       "gerentes": [
@@ -1502,6 +1502,10 @@ const GERENTES_DATA = {
               "fat": 1108929.44,
               "qt": 26352
             },
+            "Jul/26": {
+              "fat": 786277.98,
+              "qt": 18312
+            },
             "Jun/26": {
               "fat": 5067520.8,
               "qt": 133116
@@ -1513,10 +1517,6 @@ const GERENTES_DATA = {
             "Mar/26": {
               "fat": 1855258.48,
               "qt": 50370
-            },
-            "Jul/26": {
-              "fat": 786277.98,
-              "qt": 18304
             }
           },
           "supervisores": [
@@ -1779,6 +1779,10 @@ const GERENTES_DATA = {
                   "fat": 14373.58,
                   "qt": 129
                 },
+                "Jul/26": {
+                  "fat": 116829.97,
+                  "qt": 2573
+                },
                 "Jun/26": {
                   "fat": 648140.93,
                   "qt": 16172
@@ -1790,10 +1794,6 @@ const GERENTES_DATA = {
                 "Mar/26": {
                   "fat": 21679.38,
                   "qt": 290
-                },
-                "Jul/26": {
-                  "fat": 116829.97,
-                  "qt": 2565
                 }
               },
               "vendedores": [
@@ -1854,6 +1854,10 @@ const GERENTES_DATA = {
                     "Fev/26": {
                       "fat": 14373.58,
                       "qt": 129
+                    },
+                    "Jul/26": {
+                      "fat": 0.0,
+                      "qt": 8
                     },
                     "Jun/26": {
                       "fat": 36626.91,

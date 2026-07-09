@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/07/2026 11:46",
+  "atualizado_em": "09/07/2026 12:01",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -362554,6 +362554,58 @@ const VENDAS_DATA = {
           "qt": 120,
           "valor": 6588.0,
           "tipo": "Venda"
+        }
+      ],
+      "Jul/26": [
+        {
+          "data": "09/07/2026",
+          "codcli": "92040",
+          "cliente": "BRYAN OLIVEIRA PALOPOLI",
+          "produto": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "92040",
+          "cliente": "BRYAN OLIVEIRA PALOPOLI",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "92040",
+          "cliente": "BRYAN OLIVEIRA PALOPOLI",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "92040",
+          "cliente": "BRYAN OLIVEIRA PALOPOLI",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "92040",
+          "cliente": "BRYAN OLIVEIRA PALOPOLI",
+          "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
         }
       ],
       "Fev/26": [
