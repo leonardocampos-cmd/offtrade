@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "09/07/2026 14:20",
+  "atualizado_em": "09/07/2026 15:22",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -184,8 +184,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 54947.54
       },
       "Jul/26": {
-        "fat": 1772.04,
-        "pos": 1,
+        "fat": 2097.75,
+        "pos": 2,
         "fat_ant": 52191.39
       }
     },
@@ -284,7 +284,7 @@ const VENDAS_ES_DATA = {
         "fat_ant": 118062.39
       },
       "Jul/26": {
-        "fat": 114641.6,
+        "fat": 122248.32,
         "pos": 12,
         "fat_ant": 93799.7
       }
@@ -48160,6 +48160,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "FABBRI",
           "qt": 12,
           "valor": 957.24
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "95091",
+          "cliente": "KG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 325.71
         }
       ]
     },
@@ -77197,6 +77206,15 @@ const VENDAS_ES_DATA = {
           "valor": 3247.2
         },
         {
+          "data": "09/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 20,
+          "valor": 2164.8
+        },
+        {
           "data": "08/07/2026",
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
@@ -77206,6 +77224,15 @@ const VENDAS_ES_DATA = {
           "valor": 2164.8
         },
         {
+          "data": "09/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 13,
+          "valor": 1407.12
+        },
+        {
           "data": "08/07/2026",
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
@@ -77213,6 +77240,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 30,
           "valor": 3247.2
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 20,
+          "valor": 2164.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA GUARANA  LT 6X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 80,
+          "valor": 1870.0
         },
         {
           "data": "08/07/2026",

@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "09/07/2026 14:21",
+  "atualizado_em": "09/07/2026 15:23",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 52577.66,
-        "pos": 44,
+        "fat": 54849.66,
+        "pos": 45,
         "fat_ant": 343937.59
       }
     },
@@ -231,8 +231,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 22807.96,
-        "pos": 23,
+        "fat": 23832.16,
+        "pos": 25,
         "fat_ant": 85308.22
       }
     },
@@ -45054,6 +45054,24 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "09/07/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "33048",
+          "cliente": "PEDROZA DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 874.8
+        },
+        {
+          "data": "09/07/2026",
           "codcli": "33353",
           "cliente": "CANGA E CANDEIA DANCING BAR LTDA",
           "produto": "CERVEJA HEINEKEN LONG 24X330ML",
@@ -45069,6 +45087,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 49.9
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VILLA ROSA COLHEITA TINTO 375ML",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 419.0
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 375ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 179.6
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 139.8
         }
       ]
     },
@@ -83356,6 +83401,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 8,
           "valor": 1184.64
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "39394",
+          "cliente": "BAR E RESTAURANTE FONSECA LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 293.4
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "39394",
+          "cliente": "BAR E RESTAURANTE FONSECA LTDA",
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 301.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30059",
+          "cliente": "BRAVA RESTAURANT CELEBRATION LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 429.0
         },
         {
           "data": "09/07/2026",
