@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "08/07/2026 23:30",
+  "atualizado_em": "09/07/2026 08:48",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
