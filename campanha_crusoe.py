@@ -78,11 +78,14 @@ META_FATURAMENTO = {
     158: None,
 }
 
+# Descrições exatas (M.DESCRICAO no Oracle) dos 4 itens da "Linha Gourmet"
+# confirmadas em 08/07/2026 via consulta ao banco CRC — os nomes de venda não
+# batem literalmente com os nomes de marketing dos produtos.
 GOURMET_PRODUTOS = [
-    "SALADA MEDITERRANEA",
-    "ATUM MY PROTEIN",
-    "ATUM AO AZEITE",
-    "PATE DE ATUM",
+    "RC SALADA DE ATUM - MEDITERRANEA 12X160G",   # Salada Mediterrânea
+    "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",      # Atum My Protein
+    "RC ATUM SOLIDO YF EM OLIVA 12X170G",         # Atum ao Azeite
+    "RC PATE ATUM COM AZEITONAS 12X80G",          # Patê de Atum
 ]
 
 _dt_ini = datetime.strptime(DT_INI, "%Y-%m-%d")
