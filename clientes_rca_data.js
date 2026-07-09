@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "09/07/2026 12:22",
-  "total": 4368,
+  "atualizado_em": "09/07/2026 13:48",
+  "total": 4375,
   "clientes": [
     {
       "codcli": "31683",
@@ -4678,6 +4678,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "EDUARDO COUTO - OFF TRADE",
       "codusur2": "412",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "38618",
+      "razao": "ADEGA BOM BARDEIO LTDA",
+      "fantasia": "ADEGA BOM BARDEIO",
+      "bairro": "JARDIM MARILU",
+      "cidade": "ITAPECERICA DA SERRA",
+      "cnpj": "38.729.223/0001-67",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "232",
+      "nome_usur1": "ANDERSON CANAVEIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "47671",
@@ -14347,7 +14361,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "01.351.380/0001-71",
       "estado": "RJ",
-      "ramo": "CONVENIENCIA",
+      "ramo": "MERCADO",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
@@ -16888,6 +16902,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51692",
+      "razao": "DE CASA LTDA",
+      "fantasia": "DE CASA",
+      "bairro": "RESIDENCIAL VILLA DO SOL",
+      "cidade": "LIMEIRA",
+      "cnpj": "62.770.056/0002-63",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "504",
+      "nome_usur1": "GILVAN AMORIM - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "81373",
       "razao": "DE GUSTO PADARIA E LANCHONETE LTDA",
       "fantasia": "DE GUSTO - PEDRA DE GUARATIBA",
@@ -18015,7 +18043,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "28.579.506/0001-16",
       "estado": "RJ",
-      "ramo": "MINI-MERCADO",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "378",
       "nome_usur1": "FABIO VALOTTI - OFF TRADE",
       "codusur2": "312",
@@ -23314,6 +23342,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "51687",
+      "razao": "FULVIO SUPERMERCADO LTDA",
+      "fantasia": "FULVIO SUPERMERCADO",
+      "bairro": "RODEIO",
+      "cidade": "SAO BENTO DO SAPUCAI",
+      "cnpj": "96.246.822/0001-26",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "21503",
       "razao": "FUTURA DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
       "fantasia": "FUTURA DISTRIBUIDORA",
@@ -23643,7 +23685,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "PARATI",
       "cnpj": "55.935.881/0001-24",
       "estado": "RJ",
-      "ramo": "MERCEARIA",
+      "ramo": "MERCADO",
       "codusur1": "439",
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
@@ -29572,6 +29614,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51688",
+      "razao": "L&T VEICULOS LTDA",
+      "fantasia": "L&T VEICULOS",
+      "bairro": "MONTE CARLO",
+      "cidade": "CAMPOS DO JORDAO",
+      "cnpj": "56.296.498/0001-36",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "71124",
       "razao": "L'AMOUR MOTEL LTDA",
       "fantasia": "L'AMOUR MOTEL LTDA",
@@ -30853,7 +30909,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "74.038.613/0001-54",
       "estado": "RJ",
-      "ramo": "MERCEARIA",
+      "ramo": "MERCADO",
       "codusur1": "153",
       "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
       "codusur2": "156",
@@ -43824,6 +43880,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51693",
+      "razao": "PADARIA E MERCEARIA DA NONO LTDA",
+      "fantasia": "PADARIA E MERCEARIA DA NONO",
+      "bairro": "ESMERALDA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "35.372.896/0001-14",
+      "estado": "SP",
+      "ramo": "PADARIA",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "1049",
       "razao": "PADARIA E MERCEARIA DO NELSON LTDA",
       "fantasia": "",
@@ -52560,6 +52630,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
+      "codcli": "51690",
+      "razao": "SERTOP OPERACAO E GESTAO DO VAREJO ALIMENTICIO LTDA",
+      "fantasia": "SERTOP OPERACAO E GESTAO DO VAREJO ALIMENTICIO",
+      "bairro": "CENTRO",
+      "cidade": "CONCHAS",
+      "cnpj": "33.780.903/0004-34",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "504",
+      "nome_usur1": "GILVAN AMORIM - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51081",
       "razao": "SERV FESTA VALENTINA LTDA",
       "fantasia": "ADEGA VALENTINA",
@@ -59166,6 +59250,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "95624",
+      "razao": "VALCIR DA SILVA COMERCIO DE BEBIDAS E MERCEARIA",
+      "fantasia": "VALCIR DA SILVA COMERCIO DE BEBIDAS E ME",
+      "bairro": "JACARE",
+      "cidade": "CABO FRIO",
+      "cnpj": "22.913.478/0001-45",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "93995",
