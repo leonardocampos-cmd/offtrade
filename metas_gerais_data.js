@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "09/07/2026 09:16",
+  "atualizado_em": "09/07/2026 09:27",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 9,
   "dias_no_mes": 31,
   "dias_restantes": 22,
   "resumo": {
-    "fat": 2446424.08,
+    "fat": 2445776.46,
     "fat_ant": 2772603.98,
     "fat_ant_completo": 13138695.39,
     "pos": 626,
@@ -15,22 +15,22 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 2446424.08,
+    "fat": 2445776.46,
     "fat_ant": 2772603.98,
     "fat_ant_completo": 13138695.39,
     "pct": 17.0,
-    "nec_dia": 543344.36
+    "nec_dia": 543373.8
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 583020.68,
+      "fat": 582373.06,
       "fat_ant": 744565.33,
       "pos": 254,
       "pct": 14.9,
-      "nec_dia": 150771.79,
+      "nec_dia": 150801.22,
       "fat_ant_completo": 2711112.29,
       "pos_ant": 306,
       "pos_ant_completo": 743
@@ -78,10 +78,10 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 1002359.19,
+      "fat": 1001785.59,
       "fat_ant": 966223.35,
       "por_estado": {
-        "RJ": 152070.37,
+        "RJ": 151496.77,
         "SP": 847425.26,
         "ES": 2863.56,
         "MG": 0.0
@@ -375,10 +375,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "VITON",
-      "fat": 5609.4,
+      "fat": 5535.38,
       "fat_ant": 5107.14,
       "por_estado": {
-        "RJ": 5609.4,
+        "RJ": 5535.38,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
