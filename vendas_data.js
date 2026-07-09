@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/07/2026 13:39",
+  "atualizado_em": "09/07/2026 13:48",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -346285,9 +346285,9 @@ const VENDAS_DATA = {
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "VINHO FREIXO RESERVA TINTO 750ML",
           "fantasia": "",
-          "qt": 8,
-          "valor": 1960.0,
-          "tipo": "Venda"
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
         },
         {
           "data": "19/05/2026",
@@ -346295,9 +346295,9 @@ const VENDAS_DATA = {
           "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
           "produto": "VINHO FREIXO RESERVA TINTO 750ML",
           "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
+          "qt": 8,
+          "valor": 1960.0,
+          "tipo": "Venda"
         },
         {
           "data": "21/05/2026",
@@ -397061,6 +397061,16 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 1680,
           "valor": 57960.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "47670",
+          "cliente": "PRESTIGIO COMERCIO E DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 2400,
+          "valor": 62160.0,
           "tipo": "Venda"
         },
         {
