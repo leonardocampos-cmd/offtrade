@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "09/07/2026 11:24",
-  "total": 4329,
+  "atualizado_em": "09/07/2026 11:42",
+  "total": 4342,
   "clientes": [
     {
       "codcli": "31683",
@@ -1442,6 +1442,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "241",
       "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51656",
+      "razao": "49.672.113 GABRIEL FRANTZ WILL",
+      "fantasia": "GABRIEL FRANTZ WILL",
+      "bairro": "FLORESTA",
+      "cidade": "JUQUIA",
+      "cnpj": "49.672.113/0001-22",
+      "estado": "SP",
+      "ramo": "TABACARIA",
+      "codusur1": "497",
+      "nome_usur1": "LUIS MACHADO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -5264,6 +5278,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51653",
+      "razao": "ADEILTON & CLAUDIANA MINIMERCADO LTDA",
+      "fantasia": "ADEILTON & CLAUDIANA MINIMERCADO",
+      "bairro": "NOVA MIRIM",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "11.025.877/0001-53",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -10376,6 +10404,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "1",
       "nome_usur2": "RQ"
+    },
+    {
+      "codcli": "51646",
+      "razao": "BIANCA APARECIDA AFONSO PINTO",
+      "fantasia": "MINIMERCADO DO VIZINHO",
+      "bairro": "VILA LEOZINA",
+      "cidade": "IGARACU DO TIETE",
+      "cnpj": "28.824.169/0001-85",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "64999",
@@ -27024,6 +27066,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51644",
+      "razao": "JACINTO & SILVA MINIMERCADO LTDA",
+      "fantasia": "MINIMERCADO NOSSA SENHORA APARECIDA",
+      "bairro": "TUPIRY",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "26.107.822/0001-60",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "38861",
       "razao": "JACK PONTAL BAR E LANCHONETE LTDA",
       "fantasia": "JACK PONTAL",
@@ -28196,6 +28252,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "477",
       "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51648",
+      "razao": "JOSE NILTON DA SILVA SANTOS 02330518560",
+      "fantasia": "JOSE NILTON DA SILVA SANTOS 02330518560",
+      "bairro": "NOVA MIRIM",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "16.753.503/0001-78",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -33702,6 +33772,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51651",
+      "razao": "MAYARA OLIVEIRA BORGES DE SANTANA",
+      "fantasia": "MAYARA OLIVEIRA BORGES DE SANTANA",
+      "bairro": "SAMAMBAIA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "12.956.761/0001-09",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "80285",
       "razao": "MAYCON MENEGARDO CARES 11877086746",
       "fantasia": "MAYCON MENEGARDO CARES",
@@ -34190,6 +34274,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "51655",
+      "razao": "MENEZES & OLIVEIRA MERCADO, ACOUGUE E PADARIA LTDA",
+      "fantasia": "MENEZES & OLIVEIRA MERCADO, ACOUGUE E PADARIA",
+      "bairro": "TUPIRY",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "30.322.343/0001-33",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "38513",
@@ -36404,6 +36502,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "51649",
+      "razao": "MERCADO MFM LTDA",
+      "fantasia": "MERCADO NOSSO LAR",
+      "bairro": "ANHANGUERA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "32.488.026/0001-17",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "3863",
       "razao": "MERCADO MINI PREÇO DA BOIUNA LTDA",
       "fantasia": "REDE ECONOMIA TAQUARA",
@@ -37240,6 +37352,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51654",
+      "razao": "MERCADO STOCK DE SAO VICENTE LTDA",
+      "fantasia": "MERCADO STOCK DE SAO VICENTE",
+      "bairro": "VILA JOCKEI CLUBE",
+      "cidade": "SAO VICENTE",
+      "cnpj": "11.810.226/0001-74",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -41136,6 +41262,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "50443",
+      "razao": "NATHALIA PERES CORDEIRO 42946186806",
+      "fantasia": "NATHALIA PERES CORDEIRO",
+      "bairro": "JARDIM DONA REGINA",
+      "cidade": "SANTA BARBARA D OESTE",
+      "cnpj": "31.351.053/0001-80",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "474",
+      "nome_usur1": "FRANCIS SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "78774",
       "razao": "NATIVO BISTRO LTDA",
       "fantasia": "NATIVO BISTRO",
@@ -44310,6 +44450,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PADARIA",
       "codusur1": "336",
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51650",
+      "razao": "PANIFICADORA POMPEIA LIMITADA",
+      "fantasia": "PANIFICADORA POMPEIA",
+      "bairro": "SÍTIO DO CAMPO",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "46.496.477/0001-00",
+      "estado": "SP",
+      "ramo": "PADARIA",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -55710,6 +55864,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "W.S"
     },
     {
+      "codcli": "51652",
+      "razao": "SUPERMERCADO TALISMA DE SAO VICENTE LTDA",
+      "fantasia": "SUPERMERCADO TALISMA DE SAO VICENTE LTDA",
+      "bairro": "VILA MARGARIDA",
+      "cidade": "SAO VICENTE",
+      "cnpj": "04.846.763/0001-09",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "500",
+      "nome_usur1": "PAULO MOREIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50772",
       "razao": "SUPERMERCADO TAQUARAL LTDA",
       "fantasia": "SUPERMERCADO TAQUARAL",
@@ -59976,6 +60144,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCEARIA",
       "codusur1": "470",
       "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51645",
+      "razao": "WANG ATACADISTA E DISTRIBUIDORA LTDA",
+      "fantasia": "WANG ATACADISTA E DISTRIBUIDORA",
+      "bairro": "VILA SONIA",
+      "cidade": "PRAIA GRANDE",
+      "cnpj": "62.431.808/0001-80",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
