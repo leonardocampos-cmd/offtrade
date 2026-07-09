@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "09/07/2026 11:23",
+  "atualizado_em": "09/07/2026 11:25",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -19134,6 +19134,24 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [],
       "novos": [
+        {
+          "codcli": "51643",
+          "cliente": "ADEVALDO SOARES DOS SANTOS",
+          "bairro": "MELVI",
+          "cidade": "PRAIA GRANDE",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51642",
+          "cliente": "SUPERMERCADO APR LTDA",
+          "bairro": "PARQUE DAS BANDEIRAS",
+          "cidade": "SAO VICENTE",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "51640",
           "cliente": "TANIA SANTANA 10918156823",
