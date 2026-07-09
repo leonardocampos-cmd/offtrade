@@ -7,6 +7,7 @@ Gera metas_gerais_data.js com:
 import json
 import calendar
 import subprocess
+import time
 from datetime import datetime, date
 from pathlib import Path
 
@@ -53,6 +54,24 @@ ESTADO_LABEL = {
 }
 
 BASE = Path(__file__).parent
+
+# Estados cuja base falhou em pelo menos uma consulta — exibido como aviso em
+# metas_gerais.html via fontes_alert.js (mesmo padrão de meta.py/exportacao_meta.py).
+FONTES_INDISPONIVEIS: list[str] = []
+
+
+def _ler_com_retry(engine, query: str, estado: str, max_tentativas: int = 3) -> pd.DataFrame:
+    for tentativa in range(1, max_tentativas + 1):
+        try:
+            with engine.connect() as conn:
+                return pd.read_sql(query, conn)
+        except Exception as e:
+            print(f"    [tentativa {tentativa}/{max_tentativas}] {estado}: {str(e)[:100]}")
+            engine.dispose()
+            if tentativa < max_tentativas:
+                time.sleep(10)
+            else:
+                raise
 
 
 # ── Query agregada por indústria ───────────────────────────────────────────────
@@ -126,8 +145,7 @@ def _carregar(mes_offset: int = 0, limit_day: bool = False) -> pd.DataFrame:
 
         try:
             print(f"  Consultando {estado} ({schema} filiais={filiais})…")
-            with engines[dsn].connect() as conn:
-                df = pd.read_sql(_query_industria(schema, filiais, mes_offset, limit_day), conn)
+            df = _ler_com_retry(engines[dsn], _query_industria(schema, filiais, mes_offset, limit_day), estado)
             df.columns   = df.columns.str.upper()
             df["ESTADO"] = estado
             df["FATURAMENTO"] = pd.to_numeric(df["FATURAMENTO"], errors="coerce").fillna(0)
@@ -136,7 +154,9 @@ def _carregar(mes_offset: int = 0, limit_day: bool = False) -> pd.DataFrame:
             frames.append(df)
             print(f"    OK {len(df)} indústrias, fat={df['FATURAMENTO'].sum():,.0f}")
         except Exception as e:
-            print(f"  [aviso] {estado}: {e}")
+            print(f"  [aviso] {estado}: falhou após retries — {str(e)[:100]} — desconsiderado, cálculo segue com os demais estados.")
+            if estado not in FONTES_INDISPONIVEIS:
+                FONTES_INDISPONIVEIS.append(estado)
 
     if not frames:
         return pd.DataFrame(columns=["FANTASIA", "FATURAMENTO", "POSITIVADOS", "ESTADO"])
@@ -163,14 +183,15 @@ def _carregar_totais(mes_offset: int = 0, limit_day: bool = False) -> dict:
             except Exception:
                 continue
         try:
-            with engines[dsn].connect() as conn:
-                row = pd.read_sql(_query_totais(schema, filiais, mes_offset, limit_day), conn)
+            row = _ler_com_retry(engines[dsn], _query_totais(schema, filiais, mes_offset, limit_day), estado)
             row.columns = row.columns.str.upper()
             fat = float(pd.to_numeric(row["FATURAMENTO"].iloc[0], errors="coerce") or 0)
             pos = int(pd.to_numeric(row["POSITIVADOS"].iloc[0], errors="coerce") or 0)
             result[estado] = {"fat": round(fat, 2), "pos": pos}
         except Exception as e:
-            print(f"  [aviso totais] {estado}: {e}")
+            print(f"  [aviso totais] {estado}: falhou após retries — {str(e)[:100]} — desconsiderado, cálculo segue com os demais estados.")
+            if estado not in FONTES_INDISPONIVEIS:
+                FONTES_INDISPONIVEIS.append(estado)
     return result
 
 
@@ -319,6 +340,7 @@ payload = {
     },
     "estados":    estados_out,
     "industrias": industrias_out,
+    "fontes_indisponiveis": sorted(FONTES_INDISPONIVEIS),
 }
 
 out = BASE / "metas_gerais_data.js"

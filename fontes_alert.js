@@ -17,6 +17,7 @@
     }
     if (typeof FONTES_STATUS_DATA !== 'undefined') tentar(FONTES_STATUS_DATA);
     if (typeof METAS_DATA !== 'undefined') tentar(METAS_DATA);
+    if (typeof METAS_GERAIS_DATA !== 'undefined') tentar(METAS_GERAIS_DATA);
     if (typeof CRUSOE_DATA !== 'undefined') tentar(CRUSOE_DATA);
     if (typeof AMARULA_DATA !== 'undefined') tentar(AMARULA_DATA);
     if (typeof INDUSTRIA_DATA !== 'undefined') tentar(INDUSTRIA_DATA);

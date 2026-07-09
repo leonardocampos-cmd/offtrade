@@ -259,6 +259,20 @@ for rca, (nome, time_id) in RCAS.items():
         pontos_sku_unit = 5 if time_id == "KEY_ACCOUNT" else 4
         tipo_positivacao = "reativação" if time_id == "KEY_ACCOUNT" else "positivação (novo/reativação)"
 
+        # Quando um cliente positivado faz mais de um pedido na própria data de
+        # estreia (mesmo dia), o crédito de positivação deve aparecer só no
+        # pedido de menor NUMNOTA — sem isso, cada pedido daquele dia mostrava
+        # o selo repetido (o total agregado já estava correto via set(), só a
+        # lista detalhada duplicava visualmente).
+        credito_positivacao_numnota: dict = {}
+        if not camp_rca.empty and positivados_set:
+            cand = camp_rca[camp_rca.apply(
+                lambda r: r['CODCLI'] in positivados_set and r['DTMOV'] == primeira_data_cliente.get(r['CODCLI']),
+                axis=1,
+            )]
+            if not cand.empty:
+                credito_positivacao_numnota = cand.groupby('CODCLI')['NUMNOTA'].min().to_dict()
+
         vendas_tmp = []
         pontos_pedidos_valor = 0  # só usado pelo Atacarejo
         for numnota, grupo in camp_rca.groupby('NUMNOTA'):
@@ -281,7 +295,7 @@ for rca, (nome, time_id) in RCAS.items():
                     eventos.append({'tipo': 'pedido (R$500-1000)', 'pontos': 1})
                     pontos_pedidos_valor += 1
 
-            if codcli in positivados_set and data_pedido == primeira_data_cliente.get(codcli):
+            if codcli in positivados_set and numnota == credito_positivacao_numnota.get(codcli):
                 eventos.append({'tipo': tipo_positivacao, 'pontos': 5})
 
             itens = []
