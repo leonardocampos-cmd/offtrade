@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "09/07/2026 15:24",
-  "total": 4375,
+  "atualizado_em": "09/07/2026 16:53",
+  "total": 4378,
   "clientes": [
     {
       "codcli": "31683",
@@ -9790,6 +9790,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "78873",
+      "razao": "BAR E RESTAURANTE SOUSA SOUTO LTDA",
+      "fantasia": "BAR E RESTAURANTE SOUSA SOUTO",
+      "bairro": "GAVEA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "02.307.689/0001-27",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "94232",
       "razao": "BAR E SUPERMERCADOS VINCO LTDA",
       "fantasia": "BAR E SUPERMERCADOS VINCO",
@@ -17122,8 +17136,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFETERIA",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "229",
-      "nome_usur2": "LUIZA HASSEN"
+      "codusur2": "144",
+      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "13025",
@@ -26698,6 +26712,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "370",
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "40434",
+      "razao": "IVANIR LAZA MONTANI COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "ADEGA SAO JUDAS TADEU",
+      "bairro": "VILA BOCAINA",
+      "cidade": "MAUA",
+      "cnpj": "07.742.887/0001-32",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -50340,6 +50368,20 @@ const CLIENTES_RCA_DATA = {
       "bairro": "MARAZUL",
       "cidade": "NITEROI",
       "cnpj": "57.605.870/0001-01",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95628",
+      "razao": "RESTAURANTE E CHOPERIA DEK LTDA",
+      "fantasia": "RESTAURANTE E CHOPERIA DEK",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "62.488.716/0001-37",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "codusur1": "155",
