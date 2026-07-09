@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "09/07/2026 11:46",
+  "atualizado_em": "09/07/2026 12:02",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 9,
   "dias_no_mes": 31,
   "dias_restantes": 22,
   "resumo": {
-    "fat": 2406573.36,
+    "fat": 2402937.56,
     "fat_ant": 2772603.98,
     "fat_ant_completo": 13137572.19,
-    "pos": 623,
+    "pos": 622,
     "pos_ant": 686,
     "pos_ant_completo": 1800
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 2406573.36,
+    "fat": 2402937.56,
     "fat_ant": 2772603.98,
     "fat_ant_completo": 13137572.19,
     "pct": 16.7,
-    "nec_dia": 545155.76
+    "nec_dia": 545321.02
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 582373.06,
+      "fat": 578737.26,
       "fat_ant": 744565.33,
-      "pos": 254,
-      "pct": 14.9,
-      "nec_dia": 150801.22,
+      "pos": 253,
+      "pct": 14.8,
+      "nec_dia": 150966.49,
       "fat_ant_completo": 2711112.29,
       "pos_ant": 306,
       "pos_ant_completo": 743
@@ -243,10 +243,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "FANTE",
-      "fat": 33680.4,
+      "fat": 31342.8,
       "fat_ant": 97900.27,
       "por_estado": {
-        "RJ": 15447.55,
+        "RJ": 13109.95,
         "SP": 18232.85,
         "ES": 0.0,
         "MG": 0.0
@@ -254,10 +254,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CASA PERINI",
-      "fat": 20608.6,
+      "fat": 19388.2,
       "fat_ant": 18325.7,
       "por_estado": {
-        "RJ": 20608.6,
+        "RJ": 19388.2,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
@@ -265,10 +265,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "HENNESSY",
-      "fat": 15836.76,
+      "fat": 15758.96,
       "fat_ant": 42526.83,
       "por_estado": {
-        "RJ": 15836.76,
+        "RJ": 15758.96,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
