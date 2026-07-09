@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "09/07/2026 13:45",
+  "atualizado_em": "09/07/2026 13:50",
   "data_rota": "09.07",
   "vendedores": [
     {
@@ -274,26 +274,6 @@ const ENTREGAS_DATA = {
               "desc": "SABOR DO SABOR WHISKY + COMBO TRAD",
               "qt": 2,
               "val": 19.6
-            }
-          ]
-        },
-        {
-          "numped": "431001123",
-          "numnota": "",
-          "data": "09/07/2026",
-          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 166.8,
-          "itens": [
-            {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 1,
-              "val": 166.8
             }
           ]
         }
