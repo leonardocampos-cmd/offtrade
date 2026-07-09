@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "09/07/2026 11:11",
+  "atualizado_em": "09/07/2026 11:22",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -8238,13 +8238,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51634",
-        "cliente": "SUPERMERCADO APR LTDA",
-        "bairro": "FLORIDA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51637",
         "cliente": "SUPERMERCADO APR LTDA",
         "bairro": "REAL",
@@ -8252,9 +8245,23 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51634",
+        "cliente": "SUPERMERCADO APR LTDA",
+        "bairro": "FLORIDA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51535",
         "cliente": "SUPERMERCADO NOVA ESMERALDA DE PRAIA GRANDE LTDA",
         "bairro": "ESMERALDA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51640",
+        "cliente": "TANIA SANTANA 10918156823",
+        "bairro": "SITIO DO CAMPO",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -8709,16 +8716,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51363",
+        "codcli": "51362",
         "cliente": "MERCEARIA BARATEIRO DO VALE LTDA",
-        "bairro": "VILA SANCHES",
+        "bairro": "FLORESTA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51362",
+        "codcli": "51363",
         "cliente": "MERCEARIA BARATEIRO DO VALE LTDA",
-        "bairro": "FLORESTA",
+        "bairro": "VILA SANCHES",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8800,21 +8807,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51479",
-        "cliente": "SUPERMERCADO TIO BEBA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51481",
-        "cliente": "SUPERMERCADO TIO BEBA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51482",
         "cliente": "SUPERMERCADO TIO BEBA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -8824,6 +8817,20 @@ const NAO_POS_SP_DATA = {
         "codcli": "51480",
         "cliente": "SUPERMERCADO TIO BEBA LTDA",
         "bairro": "13 93847-1138",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51479",
+        "cliente": "SUPERMERCADO TIO BEBA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51482",
+        "cliente": "SUPERMERCADO TIO BEBA LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
