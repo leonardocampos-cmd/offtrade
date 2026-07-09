@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "09/07/2026 12:01",
+  "atualizado_em": "09/07/2026 12:10",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -172835,66 +172835,6 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 6,
           "valor": 749.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "86195",
-          "cliente": "MERCADO RC DE MIGUEL PEREIRA LTDA",
-          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 36,
-          "valor": 1220.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "86195",
-          "cliente": "MERCADO RC DE MIGUEL PEREIRA LTDA",
-          "produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
-          "fantasia": "FANTE",
-          "qt": 36,
-          "valor": 644.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "86195",
-          "cliente": "MERCADO RC DE MIGUEL PEREIRA LTDA",
-          "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
-          "fantasia": "FANTE",
-          "qt": 48,
-          "valor": 667.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "86195",
-          "cliente": "MERCADO RC DE MIGUEL PEREIRA LTDA",
-          "produto": "VINHO BORDO QUINTA DO MORGADO 750ML",
-          "fantasia": "FANTE",
-          "qt": 24,
-          "valor": 381.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "86195",
-          "cliente": "MERCADO RC DE MIGUEL PEREIRA LTDA",
-          "produto": "VINHO BORDO QUINTA DO MORGADO 1LT",
-          "fantasia": "FANTE",
-          "qt": 36,
-          "valor": 644.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "86195",
-          "cliente": "MERCADO RC DE MIGUEL PEREIRA LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 2,
-          "valor": 77.8,
           "tipo": "Venda"
         },
         {
