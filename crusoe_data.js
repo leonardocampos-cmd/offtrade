@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "08/07/2026 22:30",
+  "atualizado_em": "08/07/2026 23:30",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -1286,12 +1286,7 @@ const CRUSOE_DATA = {
               "data": "01/07/2026",
               "cliente": "MERCADO ADONAI DE INHOAIBA LTDA",
               "valor_pedido": 249.5,
-              "eventos": [
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
+              "eventos": [],
               "itens": [
                 {
                   "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
