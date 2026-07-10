@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/07/2026 14:27",
-  "total": 4392,
+  "atualizado_em": "10/07/2026 14:31",
+  "total": 4393,
   "clientes": [
     {
       "codcli": "31683",
@@ -3306,6 +3306,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "87066",
+      "razao": "61.443.128 MARCELO DA SILVA AZEREDO",
+      "fantasia": "MARCELO DA SILVA AZEREDO",
+      "bairro": "OPERARIO",
+      "cidade": "RIO DAS OSTRAS",
+      "cnpj": "61.443.128/0001-14",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "241",
+      "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "91062",
