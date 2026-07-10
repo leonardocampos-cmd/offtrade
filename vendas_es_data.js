@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "10/07/2026 11:23",
+  "atualizado_em": "10/07/2026 13:47",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -52,8 +52,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 45028.72
       },
       "Jul/26": {
-        "fat": 58.32,
-        "pos": 2,
+        "fat": 87.48,
+        "pos": 3,
         "fat_ant": 0.0
       }
     },
@@ -189,8 +189,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 54947.54
       },
       "Jul/26": {
-        "fat": 2301.87,
-        "pos": 8,
+        "fat": 2389.35,
+        "pos": 11,
         "fat_ant": 52191.39
       }
     },
@@ -13312,6 +13312,15 @@ const VENDAS_ES_DATA = {
         }
       ],
       "Jul/26": [
+        {
+          "data": "10/07/2026",
+          "codcli": "93505",
+          "cliente": "56.703.137 BEIERSDOF JOHNSON DE MELO OLIVEIRA",
+          "produto": "4 PACK RED BULL MORANGO PESSEGO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
         {
           "data": "10/07/2026",
           "codcli": "71151",
@@ -48197,6 +48206,15 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "10/07/2026",
+          "codcli": "21163",
+          "cliente": "IRMAOS AMR LANCHONETE & MERCEARIA LTDA EPP",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
+        {
+          "data": "10/07/2026",
           "codcli": "71748",
           "cliente": "DIAS & DIAS COMERCIO E SERVICOS LTDA",
           "produto": "4 PACK RED BULL",
@@ -48218,6 +48236,24 @@ const VENDAS_ES_DATA = {
           "codcli": "84776",
           "cliente": "RAYANE LIMA SOARES",
           "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "21055",
+          "cliente": "BAR E RESTAURANTE DO PEZAO LTDA",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "92307",
+          "cliente": "55.301.885 MARCOS ROBERTO PUZIOL SANTANA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 29.16
