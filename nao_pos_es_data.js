@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "10/07/2026 16:11",
+  "atualizado_em": "10/07/2026 16:24",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -2079,32 +2079,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "80577",
-        "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-        "bairro": "LEBLON",
-        "dtultcomp": "20/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 102.38
-          },
-          {
-            "produto": "GUARAVITA NATURAL 24X290ML",
-            "fantasia": "VITON",
-            "qt": 15,
-            "valor": 479.89
-          },
-          {
-            "produto": "GUARAVITON GINSENG 12X500ML",
-            "fantasia": "VITON",
-            "qt": 3,
-            "valor": 114.25
-          }
-        ]
-      },
-      {
         "codcli": "91585",
         "cliente": "HELENA TEMPEROS LTDA",
         "bairro": "CAMPO GRANDE",
@@ -3029,20 +3003,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94091",
-        "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
-        "bairro": "LEBLON",
-        "dtultcomp": "13/04/2026",
-        "produtos": [
-          {
-            "produto": "AGUA NA CAIXA 12X330ML",
-            "fantasia": "AGUA NA CAIXA",
-            "qt": 15,
-            "valor": 590.4
-          }
-        ]
-      },
-      {
         "codcli": "10734",
         "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
         "bairro": "LEBLON",
@@ -3053,6 +3013,20 @@ const NAO_POS_ES_DATA = {
             "fantasia": "AGUA NA CAIXA",
             "qt": 10,
             "valor": 393.6
+          }
+        ]
+      },
+      {
+        "codcli": "94091",
+        "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
+        "bairro": "LEBLON",
+        "dtultcomp": "13/04/2026",
+        "produtos": [
+          {
+            "produto": "AGUA NA CAIXA 12X330ML",
+            "fantasia": "AGUA NA CAIXA",
+            "qt": 15,
+            "valor": 590.4
           }
         ]
       },
@@ -4021,44 +3995,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95534",
-        "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "IPANEMA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GUARAVITON GINSENG 12X500ML",
-            "fantasia": "VITON",
-            "qt": 1,
-            "valor": 31.89
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          }
-        ]
-      },
-      {
         "codcli": "95525",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
@@ -4116,6 +4052,44 @@ const NAO_POS_ES_DATA = {
           },
           {
             "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          }
+        ]
+      },
+      {
+        "codcli": "95534",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "IPANEMA",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "GUARAVITON GINSENG 12X500ML",
+            "fantasia": "VITON",
+            "qt": 1,
+            "valor": 31.89
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
             "fantasia": "TATUZINHO",
             "qt": 1,
             "valor": 94.68
@@ -5889,16 +5863,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "86310",
+        "codcli": "86307",
         "cliente": "CEREAIS IRENE LTDA",
-        "bairro": "NOVA CAMPINAS",
+        "bairro": "JARDIM ANHANGÁ",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "86307",
+        "codcli": "86310",
         "cliente": "CEREAIS IRENE LTDA",
-        "bairro": "JARDIM ANHANGÁ",
+        "bairro": "NOVA CAMPINAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7585,28 +7559,28 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93382",
+        "codcli": "93390",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "CURICICA",
+        "bairro": "VARGEM GRANDE",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
             "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 575.28
+            "qt": 1,
+            "valor": 191.76
           },
           {
             "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 575.28
+            "qt": 1,
+            "valor": 191.76
           },
           {
             "produto": "RC ATUM PEDACOS NATURAL 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 575.28
+            "qt": 1,
+            "valor": 191.76
           },
           {
             "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
@@ -7629,38 +7603,38 @@ const NAO_POS_ES_DATA = {
           {
             "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 251.8
+            "qt": 1,
+            "valor": 125.9
           },
           {
             "produto": "RC ATUM SOLIDO NATURAL 24X170G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 625.68
+            "qt": 1,
+            "valor": 208.56
           },
           {
             "produto": "RC ATUM SOLIDO OLEO 24X170G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 625.68
+            "qt": 1,
+            "valor": 208.56
           },
           {
             "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 4,
-            "valor": 479.6
+            "qt": 2,
+            "valor": 239.8
           },
           {
             "produto": "RC SARDINHA EM OLEO 50X125G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 748.5
+            "qt": 1,
+            "valor": 249.5
           },
           {
             "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 748.5
+            "qt": 1,
+            "valor": 249.5
           }
         ]
       },
@@ -7745,28 +7719,28 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93390",
+        "codcli": "93382",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "VARGEM GRANDE",
+        "bairro": "CURICICA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
             "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 191.76
+            "qt": 3,
+            "valor": 575.28
           },
           {
             "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 191.76
+            "qt": 3,
+            "valor": 575.28
           },
           {
             "produto": "RC ATUM PEDACOS NATURAL 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 191.76
+            "qt": 3,
+            "valor": 575.28
           },
           {
             "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
@@ -7789,38 +7763,38 @@ const NAO_POS_ES_DATA = {
           {
             "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 125.9
+            "qt": 2,
+            "valor": 251.8
           },
           {
             "produto": "RC ATUM SOLIDO NATURAL 24X170G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 208.56
+            "qt": 3,
+            "valor": 625.68
           },
           {
             "produto": "RC ATUM SOLIDO OLEO 24X170G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 208.56
+            "qt": 3,
+            "valor": 625.68
           },
           {
             "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 239.8
+            "qt": 4,
+            "valor": 479.6
           },
           {
             "produto": "RC SARDINHA EM OLEO 50X125G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 249.5
+            "qt": 3,
+            "valor": 748.5
           },
           {
             "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 249.5
+            "qt": 3,
+            "valor": 748.5
           }
         ]
       },
@@ -7890,13 +7864,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "76540",
-        "cliente": "ARPOADOR COMERCIO DE MEDICAMENTOS LTDA",
-        "bairro": "CAMPO GRANDE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "77578",
         "cliente": "ARPOADOR COMERCIO DE MEDICAMENTOS LTDA",
         "bairro": "CAMPO GRANDE",
@@ -7905,6 +7872,13 @@ const NAO_POS_ES_DATA = {
       },
       {
         "codcli": "76553",
+        "cliente": "ARPOADOR COMERCIO DE MEDICAMENTOS LTDA",
+        "bairro": "CAMPO GRANDE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "76540",
         "cliente": "ARPOADOR COMERCIO DE MEDICAMENTOS LTDA",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
@@ -7932,20 +7906,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95642",
-        "cliente": "AUTO SERVICO INTERNACIONAL LTDA EM RECUPERACAO JUDICIAL",
-        "bairro": "SANTANA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95641",
-        "cliente": "AUTO SERVICO INTERNACIONAL LTDA EM RECUPERACAO JUDICIAL",
-        "bairro": "NOVA ESPERANÇA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "95640",
         "cliente": "AUTO SERVICO INTERNACIONAL LTDA EM RECUPERACAO JUDICIAL",
         "bairro": "SANTANA",
@@ -7956,6 +7916,27 @@ const NAO_POS_ES_DATA = {
         "codcli": "95643",
         "cliente": "AUTO SERVICO INTERNACIONAL LTDA EM RECUPERACAO JUDICIAL",
         "bairro": "AREINHA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95644",
+        "cliente": "AUTO SERVICO INTERNACIONAL LTDA EM RECUPERACAO JUDICIAL",
+        "bairro": "PORTO DE SANTANA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95642",
+        "cliente": "AUTO SERVICO INTERNACIONAL LTDA EM RECUPERACAO JUDICIAL",
+        "bairro": "SANTANA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95641",
+        "cliente": "AUTO SERVICO INTERNACIONAL LTDA EM RECUPERACAO JUDICIAL",
+        "bairro": "NOVA ESPERANÇA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8058,13 +8039,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "80448",
-        "cliente": "COMERCIO DE PRODUTOS M.S LTDA",
-        "bairro": "VALE DOS REIS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "80428",
         "cliente": "COMERCIO DE PRODUTOS M.S LTDA",
         "bairro": "FLEXAL I",
@@ -8075,6 +8049,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "80447",
         "cliente": "COMERCIO DE PRODUTOS M.S LTDA",
         "bairro": "NOVA ROSA DA PENHA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "80448",
+        "cliente": "COMERCIO DE PRODUTOS M.S LTDA",
+        "bairro": "VALE DOS REIS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8149,30 +8130,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "81679",
-        "cliente": "PARMA COMERCIAL LTDA",
-        "bairro": "FLEXAL I",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "81681",
-        "cliente": "PARMA COMERCIAL LTDA",
-        "bairro": "ITACIBA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "81677",
         "cliente": "PARMA COMERCIAL LTDA",
         "bairro": "SANTA INES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "81690",
-        "cliente": "PARMA COMERCIAL LTDA",
-        "bairro": "PORTO DE SANTANA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8184,9 +8144,30 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "81679",
+        "cliente": "PARMA COMERCIAL LTDA",
+        "bairro": "FLEXAL I",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "81696",
         "cliente": "PARMA COMERCIAL LTDA",
         "bairro": "PORTO NOVO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "81681",
+        "cliente": "PARMA COMERCIAL LTDA",
+        "bairro": "ITACIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "81690",
+        "cliente": "PARMA COMERCIAL LTDA",
+        "bairro": "PORTO DE SANTANA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8205,16 +8186,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "81246",
+        "codcli": "81247",
         "cliente": "RIO VERDE MERCANTIL LTDA",
-        "bairro": "RIO MARINHO",
+        "bairro": "ALECRIM",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "81247",
+        "codcli": "81246",
         "cliente": "RIO VERDE MERCANTIL LTDA",
-        "bairro": "ALECRIM",
+        "bairro": "RIO MARINHO",
         "dtultcomp": "nan",
         "produtos": []
       },
