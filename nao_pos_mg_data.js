@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "10/07/2026 10:15",
+  "atualizado_em": "10/07/2026 11:09",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -4773,6 +4773,13 @@ const NAO_POS_MG_DATA = {
             "valor": 3068.16
           }
         ]
+      },
+      {
+        "codcli": "39591",
+        "cliente": "ANICETO GASTRONOMIA LTDA",
+        "bairro": "MARIA ANTONIETA MELLO AZEVEDO (SÃO BENEDITO)",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "39580",
