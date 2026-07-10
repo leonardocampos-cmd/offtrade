@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "10/07/2026 14:13",
+  "atualizado_em": "10/07/2026 14:29",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -23189,15 +23189,6 @@ const INATIVOS_DATA = {
           "media": 3839.9
         },
         {
-          "codcli": "39379",
-          "cliente": "ANV BEBIDAS E MERCADINHO LTDA",
-          "bairro": "NOVO PROGRESSO",
-          "cidade": "CONTAGEM",
-          "dtultcomp": "26/05/2026",
-          "dias": "45",
-          "media": 100.56
-        },
-        {
           "codcli": "39059",
           "cliente": "ORGANIZACOES VILELA LTDA",
           "bairro": "JARDIM LAGUNA",
@@ -23225,13 +23216,13 @@ const INATIVOS_DATA = {
           "media": 279.6
         },
         {
-          "codcli": "37844",
-          "cliente": "DAP CONVENIENCIA LTDA.",
-          "bairro": "ENGENHO NOGUEIRA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "28/05/2026",
-          "dias": "43",
-          "media": 246.08
+          "codcli": "39379",
+          "cliente": "ANV BEBIDAS E MERCADINHO LTDA",
+          "bairro": "NOVO PROGRESSO",
+          "cidade": "CONTAGEM",
+          "dtultcomp": "26/05/2026",
+          "dias": "45",
+          "media": 100.56
         },
         {
           "codcli": "37495",
@@ -23243,6 +23234,15 @@ const INATIVOS_DATA = {
           "media": 366.25
         },
         {
+          "codcli": "37844",
+          "cliente": "DAP CONVENIENCIA LTDA.",
+          "bairro": "ENGENHO NOGUEIRA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "28/05/2026",
+          "dias": "43",
+          "media": 246.08
+        },
+        {
           "codcli": "39058",
           "cliente": "COMERCIAL PRISMA LTDA",
           "bairro": "PEDRA AZUL",
@@ -23250,15 +23250,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "05/06/2026",
           "dias": "35",
           "media": 297.09
-        },
-        {
-          "codcli": "39110",
-          "cliente": "EMPORIO LOS MANOS LTDA",
-          "bairro": "CÉU AZUL",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "05/06/2026",
-          "dias": "35",
-          "media": 2253.69
         },
         {
           "codcli": "39315",
