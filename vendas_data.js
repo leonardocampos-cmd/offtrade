@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/07/2026 14:03",
+  "atualizado_em": "10/07/2026 14:18",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -480872,6 +480872,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "10/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 74.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 1,
+          "valor": 59.9,
+          "tipo": "Venda"
+        },
+        {
           "data": "08/07/2026",
           "codcli": "32231",
           "cliente": "DOISMAISUM EMPREENDIMENTOS GASTRONOMICOS LTDA",
@@ -532785,6 +532815,16 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 139.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
+          "fantasia": "NSG",
+          "qt": 3,
+          "valor": 779.7,
           "tipo": "Venda"
         },
         {
