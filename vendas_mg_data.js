@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "10/07/2026 10:14",
+  "atualizado_em": "10/07/2026 11:08",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 64767.34,
+        "fat": 63769.34,
         "pos": 49,
         "fat_ant": 343937.59
       }
@@ -44831,15 +44831,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 85.9
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "32865",
-          "cliente": "BAR DA QUADRA LTDA",
-          "produto": "XAROPE MONIN AMORA (BLACKBERRY) 700 ML",
-          "fantasia": "",
-          "qt": 20,
-          "valor": 998.0
         },
         {
           "data": "08/07/2026",
