@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/07/2026 15:23",
-  "total": 4400,
+  "atualizado_em": "10/07/2026 16:12",
+  "total": 4435,
   "clientes": [
     {
       "codcli": "31683",
@@ -4526,6 +4526,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "86395",
+      "razao": "ACOUGUE E MERCEARIA FERREIRA LTDA",
+      "fantasia": "ACOUGUE FERREIRA",
+      "bairro": "CARIACICA SEDE",
+      "cidade": "CARIACICA",
+      "cnpj": "41.402.623/0001-78",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "3445",
       "razao": "ACOUGUE E MERCEARIA JV LTDA ME",
       "fantasia": "",
@@ -7452,6 +7466,48 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "76540",
+      "razao": "ARPOADOR COMERCIO DE MEDICAMENTOS LTDA",
+      "fantasia": "DROGARIAS SANTA LUCIA",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "CARIACICA",
+      "cnpj": "27.326.719/0008-40",
+      "estado": "ES",
+      "ramo": "FARMACIA",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "76553",
+      "razao": "ARPOADOR COMERCIO DE MEDICAMENTOS LTDA",
+      "fantasia": "DROGARIAS SANTA LUCIA",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "CARIACICA",
+      "cnpj": "27.326.719/0017-30",
+      "estado": "ES",
+      "ramo": "FARMACIA",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "77578",
+      "razao": "ARPOADOR COMERCIO DE MEDICAMENTOS LTDA",
+      "fantasia": "DROGARIAS SANTA LUCIA",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "CARIACICA",
+      "cnpj": "27.326.719/0053-02",
+      "estado": "ES",
+      "ramo": "FARMACIA",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
       "codcli": "80794",
       "razao": "ARRAIAL C HOTEL LTDA",
       "fantasia": "ARRAIAL C HOTEL",
@@ -8866,6 +8922,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "83064",
+      "razao": "AUTO SERVICO AVEIRO LTDA",
+      "fantasia": "REDE SHOW SUPERMERCADOS",
+      "bairro": "RIO MARINHO",
+      "cidade": "CARIACICA",
+      "cnpj": "12.247.926/0001-65",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "2557",
       "razao": "AUTO SERVICO BANCARIOS LTDA",
       "fantasia": "",
@@ -8878,6 +8948,48 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "74864",
+      "razao": "AUTO SERVICO FAE LTDA",
+      "fantasia": "AUTO SERVICO FAE",
+      "bairro": "SOTECO",
+      "cidade": "VILA VELHA",
+      "cnpj": "39.339.551/0001-10",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "95640",
+      "razao": "AUTO SERVICO INTERNACIONAL LTDA EM RECUPERACAO JUDICIAL",
+      "fantasia": "AUTO SERVICO INTERNACIONAL",
+      "bairro": "SANTANA",
+      "cidade": "CARIACICA",
+      "cnpj": "36.332.252/0004-08",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "80118",
+      "razao": "AUTO SERVICO LUCRO REAL LTDA",
+      "fantasia": "AUTO SERVICO LUCRO REAL",
+      "bairro": "CARIACICA SEDE",
+      "cidade": "CARIACICA",
+      "cnpj": "05.567.075/0001-72",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "84120",
@@ -11680,6 +11792,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "76689",
+      "razao": "BUZIM DISTRIBUIDORA DE DOCES LTDA",
+      "fantasia": "BUZIM DISTRIBUIDORA",
+      "bairro": "BELA VISTA",
+      "cidade": "CARIACICA",
+      "cnpj": "26.200.662/0001-07",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
       "codcli": "71068",
       "razao": "BWORK ESCRITORIOS LTDA",
       "fantasia": "BWORK ESCRITORIOS",
@@ -11762,6 +11888,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "IVANILDO MAIA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "82073",
+      "razao": "C A DE LIMA COMERCIAL",
+      "fantasia": "DE LIMA COMERCIAL",
+      "bairro": "VILA PALESTINA",
+      "cidade": "CARIACICA",
+      "cnpj": "57.619.581/0001-61",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "6709",
@@ -12434,6 +12574,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RQ",
       "codusur2": "153",
       "nome_usur2": "ANGELO NEVES SUZART - OFF TRADE"
+    },
+    {
+      "codcli": "76423",
+      "razao": "CARIBE MOTEL LTDA",
+      "fantasia": "CARIBE MOTEL",
+      "bairro": "NOVA ROSA DA PENHA",
+      "cidade": "CARIACICA",
+      "cnpj": "39.363.106/0001-95",
+      "estado": "ES",
+      "ramo": "HOTELARIA",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "4627",
@@ -14256,6 +14410,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "81248",
+      "razao": "CMC - COMERCIAL MULTI COMPRAS LTDA.",
+      "fantasia": "ECONOMIA SUPERMERCADOS",
+      "bairro": "BELA AURORA",
+      "cidade": "CARIACICA",
+      "cnpj": "05.286.439/0001-46",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
       "codcli": "77557",
       "razao": "COBATA COMERCIO E DISTRIBUICAO LTDA",
       "fantasia": "DISTRIBUIDORA COBATA",
@@ -14746,6 +14914,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "80407",
+      "razao": "COMERCIAL G&Z DE PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "COMERCIAL G&Z DE PRODUTOS ALIMENTICIOS",
+      "bairro": "ARACAS",
+      "cidade": "VILA VELHA",
+      "cnpj": "08.987.047/0002-83",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
       "codcli": "84438",
       "razao": "COMERCIAL GIRASSOL LTDA",
       "fantasia": "GIACOMIN VARIEDADES",
@@ -14842,6 +15024,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "91118",
+      "razao": "COMERCIAL KIRINO LTDA",
+      "fantasia": "COMERCIAL KIRINO LTDA",
+      "bairro": "VILA INDEPENDÊNCIA",
+      "cidade": "CARIACICA",
+      "cnpj": "39.283.510/0001-59",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "81680",
+      "razao": "COMERCIAL LITORAL LTDA",
+      "fantasia": "COMERCIAL LITORAL",
+      "bairro": "SANTA  MONICAPOPULAR",
+      "cidade": "VILA VELHA",
+      "cnpj": "01.785.887/0001-33",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "76745",
@@ -14956,6 +15166,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "91065",
+      "razao": "COMERCIAL MULLER LTDA",
+      "fantasia": "SABOR DA VILA",
+      "bairro": "VILA CAPIXABA",
+      "cidade": "CARIACICA",
+      "cnpj": "39.277.058/0001-12",
+      "estado": "ES",
+      "ramo": "RESTAURANTE",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50824",
       "razao": "COMERCIAL PARAIBA ALIMENTOS E BEBIDAS LTDA",
       "fantasia": "COMERCIAL PARAIBA ALIMENTOS E BEBIDAS",
@@ -15010,6 +15234,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "PAULO JUNIOR - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "20983",
+      "razao": "COMERCIAL SAO TORQUATO SUPERMERCADOS EIRELI",
+      "fantasia": "SUPERMERCADOS SAO JOSE",
+      "bairro": "PRAIA DO CANTO",
+      "cidade": "VITORIA",
+      "cnpj": "04.473.293/0007-70",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "50261",
@@ -15460,6 +15698,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "82769",
+      "razao": "COMERCIO DE PRODUTOS ALIMENTICIOS KOFFLER LTDA",
+      "fantasia": "AUTO SERVICO KOFFLER",
+      "bairro": "PROLAR",
+      "cidade": "CARIACICA",
+      "cnpj": "05.868.020/0001-00",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "76968",
       "razao": "COMERCIO DE PRODUTOS ALIMENTICIOS SACOLAO DA MARINHA LTDA",
       "fantasia": "MINI MERCADO DA MARINHA",
@@ -15486,6 +15738,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "PAULO JUNIOR - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "80447",
+      "razao": "COMERCIO DE PRODUTOS M.S LTDA",
+      "fantasia": "MULTISHOW NOVA ROSA",
+      "bairro": "NOVA ROSA DA PENHA",
+      "cidade": "CARIACICA",
+      "cnpj": "36.059.928/0002-70",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "71195",
@@ -15850,6 +16116,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "77659",
+      "razao": "CONVENIENCIA E SERVICOS RM 262 LTDA",
+      "fantasia": "LOJA RM 262",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "CARIACICA",
+      "cnpj": "38.636.683/0001-40",
+      "estado": "ES",
+      "ramo": "CONVENIENCIA",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "79500",
@@ -16328,6 +16608,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "89898",
+      "razao": "CRJ COMERCIAL LTDA",
+      "fantasia": "COMERCIAL DOLIN",
+      "bairro": "CRUZEIRO DO SUL",
+      "cidade": "CARIACICA",
+      "cnpj": "61.338.589/0001-27",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50969",
       "razao": "CRUZ ALIMENTACAO E BEBIDAS LTDA",
       "fantasia": "CASA CASTELARES",
@@ -16704,6 +16998,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "318",
       "nome_usur2": "MARCUS TANAMACHI - OFF TRADE"
+    },
+    {
+      "codcli": "71274",
+      "razao": "DALL'ORTO DALVI & CIA",
+      "fantasia": "SUPERMERCADOS CANGURU",
+      "bairro": "JARDIM LIMOEIRO",
+      "cidade": "SERRA",
+      "cnpj": "27.457.498/0001-72",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "92290",
@@ -22838,6 +23146,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "81959",
+      "razao": "FL SUPERMERCADOS LTDA",
+      "fantasia": "CENTRAL FL SUPERMERCADOS",
+      "bairro": "GRAUNA",
+      "cidade": "CARIACICA",
+      "cnpj": "34.895.199/0004-28",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
       "codcli": "90346",
       "razao": "FLAUSINO'S BAR E REFEICOES LTDA",
       "fantasia": "FLAUSINO'S BAR E REFEICOES - GUARATIBA",
@@ -25974,6 +26296,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "86427",
+      "razao": "HORTIMERCADO SABOR DO CAMPO LTDA",
+      "fantasia": "KILAO MERCEARIA SABOR DO CAMPO",
+      "bairro": "VILA MERLO",
+      "cidade": "CARIACICA",
+      "cnpj": "31.468.657/0001-01",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "82561",
       "razao": "HORTO COMERCIAL CACHOEIRO LTDA",
       "fantasia": "HORTIFRUTI",
@@ -26546,6 +26882,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "21162",
+      "razao": "IPAMAR COMERCIAL LTDA",
+      "fantasia": "IPAMAR SUPERMERCADO",
+      "bairro": "NOVA BRASILIA",
+      "cidade": "CARIACICA",
+      "cnpj": "27.547.678/0001-45",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "25546",
@@ -30146,6 +30496,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "77608",
+      "razao": "LANCHONETE CESCONETTO LTDA",
+      "fantasia": "LANCHONETE CASTELO",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "CARIACICA",
+      "cnpj": "03.343.796/0001-73",
+      "estado": "ES",
+      "ramo": "CAFETERIA",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51829",
       "razao": "LANCHONETE CONVENIENCIA BUZIOS EIRELI",
       "fantasia": "BUZIOS EIRELI - MANGUINHOS",
@@ -30310,6 +30674,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCEARIA",
       "codusur1": "460",
       "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "21255",
+      "razao": "LAS VEGAS DIVERSOES EIRELI",
+      "fantasia": "LAS VEGAS",
+      "bairro": "RIO BRANCO",
+      "cidade": "CARIACICA",
+      "cnpj": "04.436.825/0001-04",
+      "estado": "ES",
+      "ramo": "BAR",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -31350,6 +31728,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
+      "codcli": "82470",
+      "razao": "LOJA DE CONVENIENCIA OASIS LTDA",
+      "fantasia": "LOJA DE CONVENIENCIA OASIS",
+      "bairro": "JARDIM AMERICA",
+      "cidade": "CARIACICA",
+      "cnpj": "39.726.501/0001-95",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "76478",
       "razao": "LOJA DE CONVENIENCIA REDE PARCEIRO ANIL LTDA",
       "fantasia": "LOJA DE CONVENIENCIA REDE PARCEIRO ANIL",
@@ -31460,6 +31852,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "155",
       "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
+    },
+    {
+      "codcli": "93305",
+      "razao": "LP GESTAO COMERCIAL LTDA",
+      "fantasia": "LE POINT",
+      "bairro": "VILA PALESTINA",
+      "cidade": "CARIACICA",
+      "cnpj": "61.758.703/0001-78",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "84171",
@@ -40296,6 +40702,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51709",
+      "razao": "MINIMERCADO E DROGARIA HF LTDA",
+      "fantasia": "MINIMERCADO E DROG",
+      "bairro": "PARQUE CONTINENTAL",
+      "cidade": "SAO VICENTE",
+      "cnpj": "56.063.264/0001-49",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51581",
       "razao": "MINIMERCADO E PADARIA ALMEIDA LTDA",
       "fantasia": "MINIMERCADO E PADARIA ALMEIDA",
@@ -44538,6 +44958,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "51707",
+      "razao": "PALMIERO PELICIARI FAGUNDES COMERCIAL LTDA",
+      "fantasia": "PALMIERO PELICIARI FAGUNDES COMERCIAL",
+      "bairro": "JARDIM DAS INDÚSTRIAS",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "64.571.238/0001-50",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51214",
       "razao": "PALOMO & CROCHIQUIA LTDA",
       "fantasia": "SUPERMERCADO KAMEL II",
@@ -45092,8 +45526,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "03.451.716/0002-84",
       "estado": "ES",
       "ramo": "MERCADO",
-      "codusur1": "260",
-      "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
@@ -45180,6 +45614,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "72444",
+      "razao": "PATI GI SUPERMERCADOS LTDA",
+      "fantasia": "PATI GI SUPERMERCADOS",
+      "bairro": "CENTRO",
+      "cidade": "VITORIA",
+      "cnpj": "29.615.313/0004-89",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "72445",
@@ -45964,6 +46412,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51706",
+      "razao": "PIZZO BAR LTDA",
+      "fantasia": "PIZZO BAR",
+      "bairro": "JARDIM SATELITE",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "61.271.212/0001-06",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "91378",
@@ -51242,6 +51704,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "CIARA PADULA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "81246",
+      "razao": "RIO VERDE MERCANTIL LTDA",
+      "fantasia": "ECONOMIA SUPERMERCADOS",
+      "bairro": "RIO MARINHO",
+      "cidade": "VILA VELHA",
+      "cnpj": "04.697.921/0001-06",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "67080",
@@ -57412,8 +57888,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "31.790.702/0002-20",
       "estado": "ES",
       "ramo": "MERCADO",
-      "codusur1": "260",
-      "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
@@ -57570,6 +58046,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "81689",
+      "razao": "SUPERMERCADOS PADOVA LTDA",
+      "fantasia": "SUPERMERCADOS PADOVA",
+      "bairro": "RIO MARINHO",
+      "cidade": "CARIACICA",
+      "cnpj": "00.662.606/0001-92",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "79858",
