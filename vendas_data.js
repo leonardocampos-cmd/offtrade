@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/07/2026 11:18",
+  "atualizado_em": "10/07/2026 13:41",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -62378,6 +62378,26 @@ const VENDAS_DATA = {
       ],
       "Jul/26": [
         {
+          "data": "10/07/2026",
+          "codcli": "21163",
+          "cliente": "IRMAOS AMR LANCHONETE & MERCEARIA LTDA EPP",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "21055",
+          "cliente": "BAR E RESTAURANTE DO PEZAO LTDA",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
           "data": "03/07/2026",
           "codcli": "21132",
           "cliente": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
@@ -62485,6 +62505,16 @@ const VENDAS_DATA = {
           "fantasia": "NAVEIA",
           "qt": 2,
           "valor": 325.71,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "92307",
+          "cliente": "55.301.885 MARCOS ROBERTO PUZIOL SANTANA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
           "tipo": "Venda"
         }
       ]
@@ -65639,86 +65669,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 419.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "86239",
-          "cliente": "MERCADO BELOT LTDA",
-          "produto": "REFRESCO DE LARANJA MINECRAFT 24X200ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 71.52,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "86239",
-          "cliente": "MERCADO BELOT LTDA",
-          "produto": "REFRESCO DE MORANGO MINECRAFT 24X200ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 71.52,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "86239",
-          "cliente": "MERCADO BELOT LTDA",
-          "produto": "REFRESCO DE UVA MINECRAFT 24X200ML",
-          "fantasia": "TIAL",
-          "qt": 3,
-          "valor": 107.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "86239",
-          "cliente": "MERCADO BELOT LTDA",
-          "produto": "NECTAR GOIABA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 3,
-          "valor": 162.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "86239",
-          "cliente": "MERCADO BELOT LTDA",
-          "produto": "NECTAR LARANJA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 3,
-          "valor": 162.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "86239",
-          "cliente": "MERCADO BELOT LTDA",
-          "produto": "NECTAR MANGA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 3,
-          "valor": 162.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "86239",
-          "cliente": "MERCADO BELOT LTDA",
-          "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 3,
-          "valor": 162.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/06/2026",
-          "codcli": "86239",
-          "cliente": "MERCADO BELOT LTDA",
-          "produto": "NECTAR CAJU 12X1000ML",
-          "fantasia": "TIAL",
-          "qt": 2,
-          "valor": 108.0,
           "tipo": "Venda"
         },
         {
@@ -325874,6 +325824,16 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 29.16,
           "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "93505",
+          "cliente": "56.703.137 BEIERSDOF JOHNSON DE MELO OLIVEIRA",
+          "produto": "4 PACK RED BULL MORANGO PESSEGO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
         }
       ]
     },
@@ -356532,16 +356492,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "12/03/2026",
-          "codcli": "90710",
-          "cliente": "ALPHA GASTRONOMIA LTDA",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 24,
-          "valor": 456.0,
-          "tipo": "Venda"
-        },
-        {
           "data": "10/03/2026",
           "codcli": "50465",
           "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
@@ -356549,6 +356499,16 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 48,
           "valor": 614.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "12/03/2026",
+          "codcli": "90710",
+          "cliente": "ALPHA GASTRONOMIA LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 456.0,
           "tipo": "Venda"
         },
         {
@@ -416895,16 +416855,6 @@ const VENDAS_DATA = {
           "fantasia": "CRS BRANDS",
           "qt": 240,
           "valor": 2397.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/07/2026",
-          "codcli": "27228",
-          "cliente": "BOB PECHINCA ATACADISTA LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 1680,
-          "valor": 41832.0,
           "tipo": "Venda"
         },
         {
@@ -531368,6 +531318,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "10/07/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 389.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 239.7,
+          "tipo": "Venda"
+        },
+        {
           "data": "09/07/2026",
           "codcli": "29985",
           "cliente": "BAR E RESTAURANTE CORDEIRO EIRELI",
@@ -531495,6 +531465,16 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 99.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "PURE MONIN FRUTAS VERMELHAS 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8,
           "tipo": "Venda"
         },
         {
@@ -532558,6 +532538,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "10/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "AGUA MINERAL PERRIER C/GÁS 330 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 335.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "MOET CHANDON BRUT IMPERIAL 750 NPP",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 1079.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "09/07/2026",
           "codcli": "33011",
           "cliente": "YOKAI BAR LTDA",
@@ -532635,6 +532635,16 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN BRASIL",
           "qt": 5,
           "valor": 718.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "33350",
+          "cliente": "CASA QUATRO RECEPCOES LTDA",
+          "produto": "XAROPE MONIN AMORA (BLACKBERRY) 700 ML",
+          "fantasia": "",
+          "qt": 20,
+          "valor": 998.0,
           "tipo": "Venda"
         },
         {
@@ -542759,26 +542769,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 60,
           "valor": 1470.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "30231",
-          "cliente": "ORGANIZACAO VERDEMAR LTDA",
-          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-          "fantasia": "",
-          "qt": 30,
-          "valor": 735.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "30231",
-          "cliente": "ORGANIZACAO VERDEMAR LTDA",
-          "produto": "XAROPE  MONIN TANGERINA 330 ML",
-          "fantasia": "",
-          "qt": 120,
-          "valor": 2940.0,
           "tipo": "Venda"
         },
         {
