@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "09/07/2026 17:24",
-  "total": 4378,
+  "atualizado_em": "10/07/2026 09:22",
+  "total": 4382,
   "clientes": [
     {
       "codcli": "31683",
@@ -21046,6 +21046,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "82528",
+      "razao": "ENCONTRO DA PRAIA LTDA",
+      "fantasia": "ENCONTRO DA PRAIA",
+      "bairro": "PRAIA DA COSTA",
+      "cidade": "VILA VELHA",
+      "cnpj": "59.481.765/0001-33",
+      "estado": "ES",
+      "ramo": "BAR",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "94769",
       "razao": "ENERGIE REPRESENTACOES E SERVICOS LTDA",
       "fantasia": "ENERGIE REPRESENTACOES E SERVICOS",
@@ -29360,6 +29374,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "76381",
+      "razao": "KIOSQUE ALEMAO LTDA",
+      "fantasia": "KIOSQUE ALEMAO",
+      "bairro": "ENSEADA DO SUÁ",
+      "cidade": "VITORIA",
+      "cnpj": "36.338.556/0001-30",
+      "estado": "ES",
+      "ramo": "BAR",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "20837",
@@ -49564,6 +49592,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "84776",
+      "razao": "RAYANE LIMA SOARES",
+      "fantasia": "ITA DRINKIS",
+      "bairro": "CENTRO",
+      "cidade": "ITAGUACU",
+      "cnpj": "59.947.223/0001-03",
+      "estado": "ES",
+      "ramo": "BAR",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "42362",
       "razao": "RAYOL MARKET LTDA",
       "fantasia": "RAYOL MARKET",
@@ -59906,6 +59948,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "299",
       "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "82529",
+      "razao": "VILA DA PRAIA LTDA",
+      "fantasia": "VILA DA PRAIA",
+      "bairro": "PRAIA DA COSTA",
+      "cidade": "VILA VELHA",
+      "cnpj": "59.481.744/0001-18",
+      "estado": "ES",
+      "ramo": "BAR",
+      "codusur1": "257",
+      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
