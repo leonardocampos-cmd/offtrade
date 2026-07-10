@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "10/07/2026 16:11",
+  "atualizado_em": "10/07/2026 16:24",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 24016.86,
-        "pos": 25,
+        "fat": 24146.7,
+        "pos": 26,
         "fat_ant": 85308.22
       }
     },
@@ -84065,6 +84065,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 149.8
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 129.84
         },
         {
           "data": "10/07/2026",
