@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "10/07/2026 11:24",
+  "atualizado_em": "10/07/2026 13:48",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -2665,20 +2665,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33350",
-        "cliente": "CASA QUATRO RECEPCOES LTDA",
-        "bairro": "JARDIM CANADA",
-        "dtultcomp": "10/06/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO CAMPARI 998 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
-          }
-        ]
-      },
-      {
         "codcli": "38607",
         "cliente": "M&S COMERCIO DE ALIMENTO LTDA",
         "bairro": "LARANJEIRAS",
@@ -2941,6 +2927,56 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "38896",
+        "cliente": "LCA COMERCIO LTDA",
+        "bairro": "PAMPULHA",
+        "dtultcomp": "12/06/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL AMORA EDITION SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          }
+        ]
+      },
+      {
         "codcli": "35400",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
@@ -3031,56 +3067,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 282.72
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "38896",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -3605,26 +3591,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -3641,6 +3607,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -4791,6 +4777,20 @@ const NAO_POS_MG_DATA = {
     ],
     "LEANDRO OLIVEIRA": [
       {
+        "codcli": "39126",
+        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
+        "bairro": "ESTRELA DO ORIENTE",
+        "dtultcomp": "09/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 24,
+            "valor": 2208.0
+          }
+        ]
+      },
+      {
         "codcli": "39125",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
         "bairro": "RENASCENÇA",
@@ -4836,20 +4836,6 @@ const NAO_POS_MG_DATA = {
         "codcli": "38630",
         "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
         "bairro": "GLÓRIA",
-        "dtultcomp": "09/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 24,
-            "valor": 2208.0
-          }
-        ]
-      },
-      {
-        "codcli": "39126",
-        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "ESTRELA DO ORIENTE",
         "dtultcomp": "09/04/2026",
         "produtos": [
           {
@@ -4913,6 +4899,20 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37255",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SION",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 6,
+            "valor": 419.4
+          }
+        ]
+      },
+      {
         "codcli": "33294",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "ROCHEDO",
@@ -4929,20 +4929,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 372.6
-          }
-        ]
-      },
-      {
-        "codcli": "37255",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SION",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 6,
-            "valor": 419.4
           }
         ]
       },
