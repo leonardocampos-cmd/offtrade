@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/07/2026 14:12",
+  "atualizado_em": "10/07/2026 14:27",
   "total": 4392,
   "clientes": [
     {
@@ -3035,7 +3035,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "59.454.147/0001-02",
       "estado": "RJ",
-      "ramo": "BAR",
+      "ramo": "DELIVERY",
       "codusur1": "419",
       "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "codusur2": "312",
@@ -18708,12 +18708,12 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "79591",
+      "codcli": "79589",
       "razao": "DOM ATACAREJO S.A.",
-      "fantasia": "DOM ATACAREJO",
-      "bairro": "PARQUE CALABOUCO",
-      "cidade": "CAMPOS DOS GOYT",
-      "cnpj": "31.698.759/0021-67",
+      "fantasia": "DOM ATACAREJO - SAO BERNARDO",
+      "bairro": "SAO BERNARDO",
+      "cidade": "BELFORD ROXO",
+      "cnpj": "31.698.759/0023-29",
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "275",
