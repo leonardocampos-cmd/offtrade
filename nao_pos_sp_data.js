@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "10/07/2026 14:31",
+  "atualizado_em": "10/07/2026 15:06",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -7657,6 +7657,48 @@ const NAO_POS_SP_DATA = {
         "bairro": "CAMPOS ELISEOS",
         "dtultcomp": "nan",
         "produtos": []
+      },
+      {
+        "codcli": "49473",
+        "cliente": "SACOLAO SAO JORGE LTDA",
+        "bairro": "SANTA MARIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "49478",
+        "cliente": "SACOLAO STA CATARINA LTDA",
+        "bairro": "VILA ALEXANDRIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "49506",
+        "cliente": "SACOLAO SUPER BOM LTDA",
+        "bairro": "MATRIZ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "49507",
+        "cliente": "SACOLAO TEOTONIO VILELA LTDA.",
+        "bairro": "CONJUNTO HABITACIONAL TEOTONIO VILELA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "49480",
+        "cliente": "SJX COMERCIAL ATACADISTA DE MERCADORIAS LTDA",
+        "bairro": "CIDADE DUTRA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "49479",
+        "cliente": "SJX COMERCIAL ATACADISTA DE MERCADORIAS LTDA",
+        "bairro": "VILA MADALENA",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "LEONARDO FLOREZI": [
@@ -9067,16 +9109,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51362",
+        "codcli": "51363",
         "cliente": "MERCEARIA BARATEIRO DO VALE LTDA",
-        "bairro": "FLORESTA",
+        "bairro": "VILA SANCHES",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51363",
+        "codcli": "51362",
         "cliente": "MERCEARIA BARATEIRO DO VALE LTDA",
-        "bairro": "VILA SANCHES",
+        "bairro": "FLORESTA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -9158,16 +9200,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51479",
+        "codcli": "51482",
         "cliente": "SUPERMERCADO TIO BEBA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51482",
+        "codcli": "51480",
         "cliente": "SUPERMERCADO TIO BEBA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "13 93847-1138",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -9179,9 +9221,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51480",
+        "codcli": "51479",
         "cliente": "SUPERMERCADO TIO BEBA LTDA",
-        "bairro": "13 93847-1138",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11969,13 +12011,13 @@ const NAO_POS_SP_DATA = {
             "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
             "fantasia": "PERNOD",
             "qt": 1,
-            "valor": 54.9
+            "valor": 62.9
           },
           {
             "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
             "fantasia": "PERNOD",
             "qt": 1,
-            "valor": 62.9
+            "valor": 54.9
           },
           {
             "produto": "VODKA ABSOLUT TABASCO 750ML",
@@ -12334,14 +12376,14 @@ const NAO_POS_SP_DATA = {
           {
             "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
             "fantasia": "MOET HENNESY",
-            "qt": 12,
-            "valor": 910.8
+            "qt": 6,
+            "valor": 455.4
           },
           {
             "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
             "fantasia": "MOET HENNESY",
-            "qt": 6,
-            "valor": 455.4
+            "qt": 12,
+            "valor": 910.8
           }
         ]
       },
@@ -21400,6 +21442,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51688",
         "cliente": "L&T VEICULOS LTDA",
         "bairro": "MONTE CARLO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50549",
+        "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
+        "bairro": "MACEDO",
         "dtultcomp": "nan",
         "produtos": []
       },
