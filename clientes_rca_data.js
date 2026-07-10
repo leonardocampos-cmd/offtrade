@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/07/2026 11:25",
-  "total": 4385,
+  "atualizado_em": "10/07/2026 13:49",
+  "total": 4391,
   "clientes": [
     {
       "codcli": "31683",
@@ -562,6 +562,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "85707",
+      "razao": "31.802.997 MAXIMILIANO TORRES DE OLIVEIRA",
+      "fantasia": "MAXIMILIANO TORRES DE OLIVEIRA",
+      "bairro": "SAO BENTO",
+      "cidade": "CABO FRIO",
+      "cnpj": "31.802.997/0001-27",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "82210",
@@ -1512,6 +1526,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51700",
+      "razao": "49.744.575 FERNANDA VITOR DE OLIVEIRA",
+      "fantasia": "49.744.575 FERNANDA VITOR DE OLIVEIRA",
+      "bairro": "VILA SAO SALVADOR",
+      "cidade": "ITAI",
+      "cnpj": "49.744.575/0001-08",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "477",
+      "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -16898,6 +16926,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "336",
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "76017",
+      "razao": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+      "fantasia": "DAVID WESLEY FERREIRA DOS SANTOS",
+      "bairro": "NOVA ANGRA (CUNHAMBEBE)",
+      "cidade": "ANGRA DOS REIS",
+      "cnpj": "45.525.547/0001-49",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -50628,6 +50670,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "83342",
+      "razao": "RESTAURANTE PIANENSE LTDA",
+      "fantasia": "RESTAURANTE PIANENSE",
+      "bairro": "BOTAFOGO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "42.168.161/0001-39",
+      "estado": "RJ",
+      "ramo": "CAFETERIA",
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50237",
       "razao": "RESTAURANTE PIPO LTDA",
       "fantasia": "RESTAURANTE DO PIPO",
@@ -52544,6 +52600,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "51701",
+      "razao": "SC SUPERMERCADO LTDA",
+      "fantasia": "SUPERMERCADO DO MILTINHO",
+      "bairro": "CENTRO",
+      "cidade": "TATUI",
+      "cnpj": "49.567.654/0001-90",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "489",
+      "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "43037",
@@ -55792,6 +55862,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "51699",
+      "razao": "SUPERMERCADO PARE & LEVE LTDA.",
+      "fantasia": "SUPERMERCADO PARE & LEVE",
+      "bairro": "JURACI ALVES GALDINO",
+      "cidade": "JAGUARIUNA",
+      "cnpj": "06.262.734/0001-25",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51172",
