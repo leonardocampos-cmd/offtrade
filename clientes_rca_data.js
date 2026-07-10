@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/07/2026 15:07",
+  "atualizado_em": "10/07/2026 15:23",
   "total": 4400,
   "clientes": [
     {
@@ -8878,20 +8878,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "74864",
-      "razao": "AUTO SERVICO FAE LTDA",
-      "fantasia": "AUTO SERVICO FAE",
-      "bairro": "SOTECO",
-      "cidade": "VILA VELHA",
-      "cnpj": "39.339.551/0001-10",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "260",
-      "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "84120",
@@ -25872,6 +25858,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51705",
+      "razao": "HORTIFRUTI QUEIROZ FILHO LTDA",
+      "fantasia": "HORTIFRUTI QUEIROZ FILHO",
+      "bairro": "VILA HUMAITÁ",
+      "cidade": "SANTO ANDRE",
+      "cnpj": "17.879.943/0001-39",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "499",
+      "nome_usur1": "JOSE SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
