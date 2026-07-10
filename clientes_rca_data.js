@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/07/2026 10:16",
-  "total": 4383,
+  "atualizado_em": "10/07/2026 11:09",
+  "total": 4385,
   "clientes": [
     {
       "codcli": "31683",
@@ -1148,6 +1148,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51698",
+      "razao": "42.541.850 PATRICIA PEREIRA DOS SANTOS",
+      "fantasia": "42.541.850 PATRICIA PEREIRA DOS SANTOS",
+      "bairro": "CIDADE SINGER",
+      "cidade": "CAMPINAS",
+      "cnpj": "42.541.850/0001-47",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -21436,6 +21450,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "412",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "49381",
+      "razao": "ESTACAO DA CERVEJA LTDA",
+      "fantasia": "ESTACAO DA CERVEJA",
+      "bairro": "JARDIM PLANALTO",
+      "cidade": "JAGUARIUNA",
+      "cnpj": "35.575.894/0001-22",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "2206",
