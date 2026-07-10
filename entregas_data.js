@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "10/07/2026 13:46",
+  "atualizado_em": "10/07/2026 14:10",
   "data_rota": "10.07",
   "vendedores": [
     {
@@ -58,41 +58,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "431001129",
-          "numnota": "",
-          "data": "10/07/2026",
-          "cliente": "PANIFICACAO LUANDA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 378.8,
-          "itens": [
-            {
-              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            }
-          ]
-        },
-        {
           "numped": "431001127",
           "numnota": "",
           "data": "10/07/2026",
@@ -105,6 +70,11 @@ const ENTREGAS_DATA = {
           "obs": "",
           "total": 2728.56,
           "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 2,
+              "val": 174.96
+            },
             {
               "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
               "qt": 2,
@@ -149,11 +119,41 @@ const ENTREGAS_DATA = {
               "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
               "qt": 60,
               "val": 839.4
+            }
+          ]
+        },
+        {
+          "numped": "431001129",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 378.8,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
             },
             {
-              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-              "qt": 2,
-              "val": 174.96
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
             }
           ]
         },
@@ -8852,36 +8852,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "379001226",
-          "numnota": "",
-          "data": "10/07/2026",
-          "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 263.3,
-          "itens": [
-            {
-              "desc": "GIN MARINA BLACKBERRY 750ML",
-              "qt": 1,
-              "val": 39.9
-            },
-            {
-              "desc": "FRISANTE MACAW TROPICAL MOSC. ROSE 750ML",
-              "qt": 1,
-              "val": 23.9
-            },
-            {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 1,
-              "val": 199.5
-            }
-          ]
-        },
-        {
           "numped": "379001224",
           "numnota": "",
           "data": "10/07/2026",
@@ -8894,6 +8864,16 @@ const ENTREGAS_DATA = {
           "obs": "",
           "total": 1002.5,
           "itens": [
+            {
+              "desc": "NECTAR MARACUJA 12X1000ML",
+              "qt": 1,
+              "val": 58.68
+            },
+            {
+              "desc": "NECTAR PESSEGO 12X1000ML",
+              "qt": 1,
+              "val": 58.68
+            },
             {
               "desc": "VINHO FRISANTE ROSE QUINTA MORGADO 750ML",
               "qt": 3,
@@ -8943,16 +8923,36 @@ const ENTREGAS_DATA = {
               "desc": "NECTAR MANGA 12X1000ML",
               "qt": 1,
               "val": 58.68
+            }
+          ]
+        },
+        {
+          "numped": "379001226",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "MERCEARIA MAIS ECONOMIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 263.3,
+          "itens": [
+            {
+              "desc": "GIN MARINA BLACKBERRY 750ML",
+              "qt": 1,
+              "val": 39.9
             },
             {
-              "desc": "NECTAR MARACUJA 12X1000ML",
+              "desc": "FRISANTE MACAW TROPICAL MOSC. ROSE 750ML",
               "qt": 1,
-              "val": 58.68
+              "val": 23.9
             },
             {
-              "desc": "NECTAR PESSEGO 12X1000ML",
+              "desc": "RC SARDINHA EM OLEO 50X125G",
               "qt": 1,
-              "val": 58.68
+              "val": 199.5
             }
           ]
         },
@@ -13914,6 +13914,36 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM SOLIDO OLEO 24X170G",
               "qt": 1,
               "val": 208.56
+            }
+          ]
+        },
+        {
+          "numped": "439000239",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 16/09/26",
+          "total": 1024.74,
+          "itens": [
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 12,
+              "val": 346.8
+            },
+            {
+              "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
+              "qt": 60,
+              "val": 654.0
+            },
+            {
+              "desc": "CACHACA TATUZINHO PET 750 ML",
+              "qt": 6,
+              "val": 23.94
             }
           ]
         },
