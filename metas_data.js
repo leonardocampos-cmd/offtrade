@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "10/07/2026 09:02",
+  "atualizado_em": "10/07/2026 09:13",
   "meses": [
     "Jul/26",
     "Jun/26"
@@ -21470,6 +21470,18 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90717",
+          "CLIENTE": "BONATO & BONATO LTDA",
+          "BAIRROENT": "REBOUCAS",
+          "DTULTCOMP": "12/06/2026",
+          "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
+            }
+          ]
+        },
+        {
           "CODCLI": "90903",
           "CLIENTE": "ADL BARIGUI LTDA",
           "BAIRROENT": "MOSSUNGUE",
@@ -21494,26 +21506,14 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "90717",
-          "CLIENTE": "BONATO & BONATO LTDA",
-          "BAIRROENT": "REBOUCAS",
-          "DTULTCOMP": "12/06/2026",
-          "produtos": [
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
-            }
-          ]
-        },
-        {
-          "CODCLI": "90902",
-          "CLIENTE": "POMAR COMERCIO DE BEBIDAS LTDA",
-          "BAIRROENT": "BATEL",
+          "CODCLI": "90722",
+          "CLIENTE": "REGRESSO PIZZA BAR LTDA",
+          "BAIRROENT": "CENTRO",
           "DTULTCOMP": "22/05/2026",
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
+              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
             }
           ]
         },
@@ -21530,14 +21530,14 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "90722",
-          "CLIENTE": "REGRESSO PIZZA BAR LTDA",
-          "BAIRROENT": "CENTRO",
+          "CODCLI": "90902",
+          "CLIENTE": "POMAR COMERCIO DE BEBIDAS LTDA",
+          "BAIRROENT": "BATEL",
           "DTULTCOMP": "22/05/2026",
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA BRANCO 750ML"
+              "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
             }
           ]
         },
@@ -21549,11 +21549,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
             }
           ]
         },
