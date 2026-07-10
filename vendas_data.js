@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/07/2026 14:18",
+  "atualizado_em": "10/07/2026 14:27",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -537420,6 +537420,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "10/07/2026",
+          "codcli": "39110",
+          "cliente": "EMPORIO LOS MANOS LTDA",
+          "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1678.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "02/07/2026",
           "codcli": "39182",
           "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
@@ -543661,6 +543671,36 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 138,
           "valor": 6472.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "fantasia": "",
+          "qt": 192,
+          "valor": 4588.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "XAROPE  MONIN TANGERINA 330 ML",
+          "fantasia": "",
+          "qt": 102,
+          "valor": 2437.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 573.6,
           "tipo": "Venda"
         },
         {
