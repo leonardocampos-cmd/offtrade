@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "10/07/2026 14:30",
+  "atualizado_em": "10/07/2026 15:05",
   "data_rota": "10.07",
   "vendedores": [
     {
@@ -57,6 +57,36 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "431001128",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "DROGARIA FERNANDO LEITE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 402.39,
+          "itens": [
+            {
+              "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
+              "qt": 2,
+              "val": 102.99
+            },
+            {
+              "desc": "RED BULL SUGAR FREE 24X250ML",
+              "qt": 1,
+              "val": 180.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 6,
+              "val": 119.4
+            }
+          ]
+        },
         {
           "numped": "431001127",
           "numnota": "",
@@ -199,36 +229,6 @@ const ENTREGAS_DATA = {
               "desc": "GIN ROCKS WATERMELON 1000ML",
               "qt": 1,
               "val": 25.9
-            }
-          ]
-        },
-        {
-          "numped": "431001128",
-          "numnota": "",
-          "data": "10/07/2026",
-          "cliente": "DROGARIA FERNANDO LEITE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 402.39,
-          "itens": [
-            {
-              "desc": "RED BULL SUGAR FREE 24X250ML",
-              "qt": 1,
-              "val": 180.0
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "qt": 6,
-              "val": 119.4
-            },
-            {
-              "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
-              "qt": 2,
-              "val": 102.99
             }
           ]
         },
@@ -2466,28 +2466,8 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "entregar no dia 13/07 com pagamento de descarga no valor de R$60,00 por pal",
-          "total": 6733.32,
+          "total": 4056.84,
           "itens": [
-            {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 5,
-              "val": 997.5
-            },
-            {
-              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "qt": 24,
-              "val": 1566.72
-            },
-            {
-              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-              "qt": 36,
-              "val": 2350.08
-            },
-            {
-              "desc": "VEJA MULTIUSO CAMPSTR 24X500ML PROMO",
-              "qt": 5,
-              "val": 326.4
-            },
             {
               "desc": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
               "qt": 4,
@@ -2497,6 +2477,41 @@ const ENTREGAS_DATA = {
               "desc": "RC SARDINHA EM OLEO 50X125G",
               "qt": 5,
               "val": 997.5
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 5,
+              "val": 997.5
+            },
+            {
+              "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "qt": 24,
+              "val": 1566.72
+            }
+          ]
+        },
+        {
+          "numped": "153001274",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 13/07 com pagamento de descarga no valor de R$60,00 por pal",
+          "total": 2676.48,
+          "itens": [
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+              "qt": 36,
+              "val": 2350.08
+            },
+            {
+              "desc": "VEJA MULTIUSO CAMPSTR 24X500ML PROMO",
+              "qt": 5,
+              "val": 326.4
             }
           ]
         },
@@ -6143,6 +6158,36 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "378000483",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "RESTAURANTE PIANENSE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 341.36,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 1,
+              "val": 29.96
+            },
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 6,
+              "val": 161.4
+            },
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 12,
+              "val": 150.0
+            }
+          ]
+        },
+        {
           "numped": "378000480",
           "numnota": "",
           "data": "10/07/2026",
@@ -6199,36 +6244,6 @@ const ENTREGAS_DATA = {
               "desc": "CANTINA DA SERRA 1,5L",
               "qt": 6,
               "val": 55.14
-            }
-          ]
-        },
-        {
-          "numped": "378000483",
-          "numnota": "",
-          "data": "10/07/2026",
-          "cliente": "RESTAURANTE PIANENSE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 341.36,
-          "itens": [
-            {
-              "desc": "CONHAQUE DOMECQ 1L",
-              "qt": 6,
-              "val": 161.4
-            },
-            {
-              "desc": "CACHACA VELHO BARREIRO 910 ML",
-              "qt": 12,
-              "val": 150.0
-            },
-            {
-              "desc": "4 PACK RED BULL ZERO",
-              "qt": 1,
-              "val": 29.96
             }
           ]
         },
@@ -8910,6 +8925,16 @@ const ENTREGAS_DATA = {
           "total": 1002.5,
           "itens": [
             {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
               "desc": "NECTAR GOIABA 12X1000ML",
               "qt": 1,
               "val": 58.68
@@ -8958,16 +8983,6 @@ const ENTREGAS_DATA = {
               "desc": "GIN ROCKS WATERMELON 1000ML",
               "qt": 2,
               "val": 47.8
-            },
-            {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 1,
-              "val": 199.5
-            },
-            {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 1,
-              "val": 199.5
             }
           ]
         },
@@ -8985,6 +9000,11 @@ const ENTREGAS_DATA = {
           "total": 263.3,
           "itens": [
             {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
               "desc": "GIN MARINA BLACKBERRY 750ML",
               "qt": 1,
               "val": 39.9
@@ -8993,11 +9013,26 @@ const ENTREGAS_DATA = {
               "desc": "FRISANTE MACAW TROPICAL MOSC. ROSE 750ML",
               "qt": 1,
               "val": 23.9
-            },
+            }
+          ]
+        },
+        {
+          "numped": "379001227",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "RAINHA DO IRIS MERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 598.5,
+          "itens": [
             {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 1,
-              "val": 199.5
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 3,
+              "val": 598.5
             }
           ]
         },
@@ -9022,22 +9057,27 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "379001227",
+          "numped": "379001228",
           "numnota": "",
           "data": "10/07/2026",
-          "cliente": "RAINHA DO IRIS MERCADO LTDA",
+          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 598.5,
+          "total": 3499.2,
           "itens": [
             {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 3,
-              "val": 598.5
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 10,
+              "val": 1749.6
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 10,
+              "val": 1749.6
             }
           ]
         },
@@ -13898,36 +13938,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "439000238",
-          "numnota": "",
-          "data": "10/07/2026",
-          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 243.06,
-          "itens": [
-            {
-              "desc": "RC ATUM RALADO NATURAL 24X140G",
-              "qt": 1,
-              "val": 153.36
-            },
-            {
-              "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
-              "qt": 1,
-              "val": 29.9
-            },
-            {
-              "desc": "VINHO GRAVEDAD CARMENERE 750ML",
-              "qt": 2,
-              "val": 59.8
-            }
-          ]
-        },
-        {
           "numped": "439000237",
           "numnota": "",
           "data": "10/07/2026",
@@ -13940,6 +13950,11 @@ const ENTREGAS_DATA = {
           "obs": "Data entrega: 16/07/26",
           "total": 994.64,
           "itens": [
+            {
+              "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+              "qt": 1,
+              "val": 105.9
+            },
             {
               "desc": "RC ATUM SOLIDO NATURAL 24X170G",
               "qt": 1,
@@ -13984,11 +13999,36 @@ const ENTREGAS_DATA = {
               "desc": "CACHACA TATUZINHO PET 750 ML",
               "qt": 12,
               "val": 47.88
+            }
+          ]
+        },
+        {
+          "numped": "439000238",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 243.06,
+          "itens": [
+            {
+              "desc": "RC ATUM RALADO NATURAL 24X140G",
+              "qt": 1,
+              "val": 153.36
             },
             {
-              "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+              "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
               "qt": 1,
-              "val": 105.9
+              "val": 29.9
+            },
+            {
+              "desc": "VINHO GRAVEDAD CARMENERE 750ML",
+              "qt": 2,
+              "val": 59.8
             }
           ]
         },
@@ -15477,6 +15517,56 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "155003845",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "LA CASADELLA CAFE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 345.12,
+          "itens": [
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            }
+          ]
+        },
+        {
+          "numped": "155003847",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "BIG STAR CONVENIENCIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 272.5,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML",
+              "qt": 2,
+              "val": 177.8
+            }
+          ]
+        },
+        {
           "numped": "155003844",
           "numnota": "",
           "data": "10/07/2026",
@@ -15502,27 +15592,47 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "155003845",
+          "numped": "155003848",
           "numnota": "",
           "data": "10/07/2026",
-          "cliente": "LA CASADELLA CAFE LTDA",
+          "cliente": "31.802.997 MAXIMILIANO TORRES DE OLIVEIRA",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 345.12,
+          "total": 639.4,
           "itens": [
             {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 172.56
+              "desc": "MARTINI BIANCO 750 ML",
+              "qt": 2,
+              "val": 61.0
             },
             {
-              "desc": "RED BULL ZERO  24X250ML",
-              "qt": 1,
-              "val": 172.56
+              "desc": "RUM MONTILLA OURO 1L",
+              "qt": 3,
+              "val": 68.7
+            },
+            {
+              "desc": "RUM MALIBU 750ML",
+              "qt": 2,
+              "val": 99.8
+            },
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 2,
+              "val": 65.8
+            },
+            {
+              "desc": "GIN MARINA 750ML",
+              "qt": 6,
+              "val": 239.4
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 3,
+              "val": 104.7
             }
           ]
         },
@@ -16900,7 +17010,28 @@ const ENTREGAS_DATA = {
     {
       "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "241000522",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "61.443.128 MARCELO DA SILVA AZEREDO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1734.0,
+          "itens": [
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 60,
+              "val": 1734.0
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "241000453",
