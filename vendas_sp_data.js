@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "09/07/2026 17:22",
+  "atualizado_em": "10/07/2026 09:19",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -27806,15 +27806,6 @@ const VENDAS_SP_DATA = {
           "valor": 693.6
         },
         {
-          "data": "30/06/2026",
-          "codcli": "40698",
-          "cliente": "GF COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L",
-          "fantasia": "BROWN",
-          "qt": 10,
-          "valor": 999.0
-        },
-        {
           "data": "26/06/2026",
           "codcli": "40698",
           "cliente": "GF COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
@@ -31739,51 +31730,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 75,
           "valor": 7492.5
-        },
-        {
-          "data": "04/07/2026",
-          "codcli": "51066",
-          "cliente": "ADEGA TENORIO LTDA",
-          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 1198.8
-        },
-        {
-          "data": "04/07/2026",
-          "codcli": "51066",
-          "cliente": "ADEGA TENORIO LTDA",
-          "produto": "VODKA ABSOLUT 1L",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 3174.0
-        },
-        {
-          "data": "04/07/2026",
-          "codcli": "51066",
-          "cliente": "ADEGA TENORIO LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 1614.0
-        },
-        {
-          "data": "04/07/2026",
-          "codcli": "51066",
-          "cliente": "ADEGA TENORIO LTDA",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 90,
-          "valor": 5391.0
-        },
-        {
-          "data": "04/07/2026",
-          "codcli": "51066",
-          "cliente": "ADEGA TENORIO LTDA",
-          "produto": "GIN BEEFEATER PINK 750ML",
-          "fantasia": "PERNOD",
-          "qt": 5,
-          "valor": 309.5
         },
         {
           "data": "08/07/2026",
@@ -83047,15 +82993,6 @@ const VENDAS_SP_DATA = {
           "valor": 2319.6
         },
         {
-          "data": "03/07/2026",
-          "codcli": "49702",
-          "cliente": "TCBASE COMERCIAL LTDA",
-          "produto": "WHISKY ROYAL SALUTE 700ML",
-          "fantasia": "PERNOD",
-          "qt": 4,
-          "valor": 2319.6
-        },
-        {
           "data": "01/07/2026",
           "codcli": "49885",
           "cliente": "O.E.S GUEDES MERCADO LTDA",
@@ -88654,9 +88591,9 @@ const VENDAS_SP_DATA = {
     },
     "DANIELLE DOS SANTOS": {
       "Jul/26": {
-        "fat": 11955.76,
-        "pos": 7.0,
-        "fat_pernod": 8519.7,
+        "fat": 9636.16,
+        "pos": 6.0,
+        "fat_pernod": 6200.1,
         "fat_crs": 970.92
       },
       "Jun/26": {
@@ -88993,13 +88930,13 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jul/26": {
-        "fat": 742179.31,
-        "pos": 51.0,
-        "fat_pernod": 540323.16,
+        "fat": 730492.01,
+        "pos": 50.0,
+        "fat_pernod": 529834.66,
         "fat_crs": 7424.18
       },
       "Jun/26": {
-        "fat": 2415042.53,
+        "fat": 2414043.53,
         "pos": 157.0,
         "fat_pernod": 1228601.23,
         "fat_crs": 49852.32
