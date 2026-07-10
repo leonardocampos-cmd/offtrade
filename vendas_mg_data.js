@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "10/07/2026 16:24",
+  "atualizado_em": "10/07/2026 18:26",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -263,7 +263,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 53560.12
       },
       "Jul/26": {
-        "fat": 13653.56,
+        "fat": 14063.26,
         "pos": 15,
         "fat_ant": 51108.92
       }
@@ -87866,6 +87866,24 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 1678.8
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 129.9
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "39182",
+          "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 279.8
         }
       ]
     }
