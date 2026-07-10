@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Produtos — OFF TRADE RJ</title>
+  <script src="catalogo_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:     #0f1117;
+      --card:   #1a1d27;
+      --card2:  #22263a;
+      --accent: #f5c518;
+      --green:  #22c55e;
+      --text:   #e2e8f0;
+      --muted:  #94a3b8;
+      --border: #2d3144;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+      padding: 16px;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 24px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap; gap: 12px;
+    }
+    .h-title { font-size: 1.25rem; font-weight: 700; color: var(--accent); letter-spacing: -.02em; }
+    .h-sub   { font-size: .75rem; color: var(--muted); margin-top: 3px; }
+    .back-link {
+      font-size: .78rem; color: var(--muted); text-decoration: none;
+      padding: 6px 12px; border: 1px solid var(--border); border-radius: 8px;
+      transition: border-color .15s, color .15s;
+    }
+    .back-link:hover { border-color: var(--accent); color: var(--accent); }
+
+    .summary-card {
+      display: flex; align-items: center; gap: 0;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 20px 28px;
+      margin-bottom: 20px; max-width: 480px;
+    }
+    .sc-block { flex: 1; }
+    .sc-sep { width: 1px; background: var(--border); height: 40px; margin: 0 28px; flex-shrink: 0; }
+    .sc-label { font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 6px; }
+    .sc-valor { font-size: 1.45rem; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
+    .sc-sub   { font-size: .72rem; color: var(--muted); margin-top: 3px; }
+
+    .filters-row {
+      display: flex; gap: 10px; flex-wrap: wrap;
+      align-items: center; margin-bottom: 12px;
+    }
+
+    .forn-wrap { position: relative; }
+    .forn-btn {
+      display: flex; align-items: center; gap: 7px;
+      padding: 7px 14px; border-radius: 8px; cursor: pointer;
+      border: 1px solid var(--border); background: var(--card);
+      color: var(--text); font-size: .82rem; font-family: inherit;
+      transition: border-color .15s; white-space: nowrap;
+    }
+    .forn-btn:hover        { border-color: var(--accent); }
+    .forn-btn.has-filter   { border-color: var(--accent); color: var(--accent); }
+    .forn-btn .badge {
+      background: var(--accent); color: #111; border-radius: 10px;
+      font-size: .65rem; font-weight: 800; padding: 1px 6px; min-width: 18px; text-align: center;
+    }
+    .forn-chevron { font-size: .65rem; color: var(--muted); margin-left: 2px; transition: transform .15s; }
+    .forn-btn.open .forn-chevron { transform: rotate(180deg); }
+
+    .forn-dropdown {
+      display: none; position: absolute; top: calc(100% + 6px); left: 0; z-index: 100;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; min-width: 220px; max-height: 320px;
+      overflow-y: auto; box-shadow: 0 8px 24px rgba(0,0,0,.4);
+    }
+    .forn-dropdown.open { display: block; }
+    .forn-dd-search {
+      padding: 8px 10px; border-bottom: 1px solid var(--border);
+    }
+    .forn-dd-search input {
+      width: 100%; background: var(--card2); border: 1px solid var(--border);
+      border-radius: 6px; padding: 5px 9px; color: var(--text);
+      font-size: .78rem; outline: none; font-family: inherit;
+    }
+    .forn-dd-search input::placeholder { color: var(--muted); }
+    .forn-dd-item {
+      display: flex; align-items: center; gap: 9px;
+      padding: 8px 14px; cursor: pointer; font-size: .81rem;
+      transition: background .1s; user-select: none;
+    }
+    .forn-dd-item:hover { background: var(--card2); }
+    .forn-dd-item input[type=checkbox] { accent-color: var(--accent); width: 14px; height: 14px; flex-shrink: 0; cursor: pointer; }
+    .forn-dd-item.all-item { border-bottom: 1px solid var(--border); font-weight: 600; color: var(--muted); font-size: .76rem; }
+
+    .ctrl-input {
+      flex: 1; min-width: 200px;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; padding: 7px 13px; color: var(--text);
+      font-size: .82rem; outline: none; transition: border-color .15s; font-family: inherit;
+    }
+    .ctrl-input:focus  { border-color: var(--accent); }
+    .ctrl-input::placeholder { color: var(--muted); }
+    .ctrl-clear {
+      font-size: .78rem; color: var(--muted); cursor: pointer;
+      padding: 7px 13px; border: 1px solid var(--border); border-radius: 8px;
+      background: var(--card); transition: all .15s; white-space: nowrap; font-family: inherit;
+    }
+    .ctrl-clear:hover { color: var(--accent); border-color: var(--accent); }
+
+    .tags-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; min-height: 0; }
+    .tag {
+      display: flex; align-items: center; gap: 5px;
+      padding: 3px 10px; border-radius: 20px;
+      background: rgba(245,197,24,.12); border: 1px solid rgba(245,197,24,.3);
+      color: var(--accent); font-size: .72rem; font-weight: 600;
+    }
+    .tag-x { cursor: pointer; opacity: .6; font-size: .9rem; line-height: 1; }
+    .tag-x:hover { opacity: 1; }
+
+    .table-wrap { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .table-meta {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 10px 16px; background: var(--card); border-bottom: 1px solid var(--border);
+      flex-wrap: wrap; gap: 8px;
+    }
+    .table-count { font-size: .78rem; color: var(--muted); }
+    .btn-csv {
+      font-size: .75rem; color: var(--muted); cursor: pointer;
+      padding: 5px 12px; border: 1px solid var(--border); border-radius: 7px;
+      background: var(--card2); transition: all .15s; font-family: inherit;
+    }
+    .btn-csv:hover { color: var(--accent); border-color: var(--accent); }
+
+    table { width: 100%; border-collapse: collapse; }
+    thead th {
+      background: var(--card2); padding: 10px 14px; text-align: left;
+      font-size: .7rem; color: var(--muted); text-transform: uppercase;
+      letter-spacing: .06em; cursor: pointer; user-select: none;
+      white-space: nowrap; transition: color .1s;
+    }
+    thead th:hover  { color: var(--text); }
+    thead th.sorted { color: var(--accent); }
+
+    tbody tr { border-bottom: 1px solid var(--border); transition: background .08s; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: rgba(255,255,255,.03); }
+
+    td { padding: 9px 14px; font-size: .82rem; vertical-align: middle; }
+    .td-cod    { color: var(--muted); font-size: .76rem; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .td-produto{ font-weight: 500; line-height: 1.35; }
+    .td-emb    { font-size: .76rem; color: var(--muted); white-space: nowrap; }
+    .td-forn   { font-size: .78rem; color: var(--accent); font-weight: 600; white-space: nowrap; }
+    .td-tipo   { font-size: .75rem; white-space: nowrap; }
+    .tipo-pill {
+      display: inline-block; padding: 2px 9px; border-radius: 20px;
+      background: var(--card2); border: 1px solid var(--border); color: var(--text);
+    }
+    .empty     { padding: 48px; text-align: center; color: var(--muted); font-size: .9rem; }
+
+    @media (max-width: 640px) {
+      body { padding: 10px; }
+      .summary-card { max-width: 100%; }
+      .ctrl-input { min-width: unset; }
+      td { padding: 8px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="h-title">📖 Catálogo de Produtos</div>
+    <div class="h-sub" id="h-sub">Carregando…</div>
+  </div>
+  <a class="back-link" href="index.html">← Início</a>
+</header>
+
+<div class="summary-card">
+  <div class="sc-block">
+    <div class="sc-label">Produtos</div>
+    <div class="sc-valor" id="sc-total">—</div>
+    <div class="sc-sub" id="sc-total-sub"></div>
+  </div>
+  <div class="sc-sep"></div>
+  <div class="sc-block">
+    <div class="sc-label">Indústrias</div>
+    <div class="sc-valor" id="sc-forns">—</div>
+  </div>
+  <div class="sc-sep"></div>
+  <div class="sc-block">
+    <div class="sc-label">Tipos</div>
+    <div class="sc-valor" id="sc-tipos">—</div>
+  </div>
+</div>
+
+<div class="filters-row">
+  <div class="forn-wrap" id="forn-wrap">
+    <button class="forn-btn" id="forn-btn" type="button">
+      <span id="forn-btn-label">Indústria</span>
+      <span class="badge" id="forn-badge" style="display:none"></span>
+      <span class="forn-chevron">▼</span>
+    </button>
+    <div class="forn-dropdown" id="forn-dropdown">
+      <div class="forn-dd-search">
+        <input type="text" id="forn-dd-search" placeholder="Filtrar indústrias…">
+      </div>
+      <div id="forn-dd-list"></div>
+    </div>
+  </div>
+
+  <div class="forn-wrap" id="tipo-wrap">
+    <button class="forn-btn" id="tipo-btn" type="button">
+      <span id="tipo-btn-label">Tipo de produto</span>
+      <span class="badge" id="tipo-badge" style="display:none"></span>
+      <span class="forn-chevron">▼</span>
+    </button>
+    <div class="forn-dropdown" id="tipo-dropdown">
+      <div class="forn-dd-search">
+        <input type="text" id="tipo-dd-search" placeholder="Filtrar tipos…">
+      </div>
+      <div id="tipo-dd-list"></div>
+    </div>
+  </div>
+
+  <input class="ctrl-input" id="search" type="text" placeholder="🔍  Buscar produto ou código…">
+
+  <button class="ctrl-clear" id="btn-clear" type="button">Limpar filtros</button>
+</div>
+
+<div class="tags-row" id="tags-row"></div>
+
+<div class="table-wrap">
+  <div class="table-meta">
+    <span class="table-count" id="tbl-count">— itens</span>
+    <button class="btn-csv" onclick="exportCSV()" type="button">⬇ Exportar CSV</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th data-k="codprod"   onclick="sortBy('codprod')">Código</th>
+        <th data-k="descricao" onclick="sortBy('descricao')">Produto</th>
+        <th data-k="embalagem" onclick="sortBy('embalagem')">Embalagem</th>
+        <th data-k="fantasia"  onclick="sortBy('fantasia')">Indústria</th>
+        <th data-k="tipo"      onclick="sortBy('tipo')">Tipo</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+const D = (typeof CATALOGO_DATA !== 'undefined') ? CATALOGO_DATA : null;
+const ALL = D ? D.produtos : [];
+
+const ALL_FORNS = [...new Set(ALL.map(r => r.fantasia))].sort();
+const ALL_TIPOS = [...new Set(ALL.map(r => r.tipo))].sort();
+
+let stForns  = new Set();
+let stTipos  = new Set();
+let stSearch = '';
+let stSortK  = 'fantasia';
+let stSortA  = true;
+
+function filteredRows() {
+  let rows = ALL;
+  if (stForns.size) rows = rows.filter(r => stForns.has(r.fantasia));
+  if (stTipos.size) rows = rows.filter(r => stTipos.has(r.tipo));
+  if (stSearch) {
+    const q = stSearch.toLowerCase();
+    rows = rows.filter(r => r.descricao.toLowerCase().includes(q) || String(r.codprod).includes(q));
+  }
+  return rows;
+}
+
+function renderCard() {
+  const rows = filteredRows();
+  document.getElementById('sc-total').textContent = rows.length.toLocaleString('pt-BR');
+  document.getElementById('sc-total-sub').textContent = `de ${ALL.length.toLocaleString('pt-BR')} no total`;
+  document.getElementById('sc-forns').textContent = (stForns.size ? stForns.size : ALL_FORNS.length).toLocaleString('pt-BR');
+  document.getElementById('sc-tipos').textContent = (stTipos.size ? stTipos.size : ALL_TIPOS.length).toLocaleString('pt-BR');
+}
+
+function buildDropdown(listId, allValues, state, searchVal, onToggle, rebuildFn) {
+  const list = document.getElementById(listId);
+  list.innerHTML = '';
+
+  const allItem = document.createElement('div');
+  allItem.className = 'forn-dd-item all-item';
+  const cbAll = document.createElement('input');
+  cbAll.type = 'checkbox';
+  cbAll.checked = state.size === 0;
+  cbAll.onchange = () => { state.clear(); refresh(); rebuildFn(); };
+  allItem.appendChild(cbAll);
+  allItem.appendChild(document.createTextNode('Todos'));
+  allItem.onclick = e => { if (e.target !== cbAll) { cbAll.checked = true; cbAll.onchange(); } };
+  list.appendChild(allItem);
+
+  const q = searchVal.toLowerCase();
+  const visible = q ? allValues.filter(v => v.toLowerCase().includes(q)) : allValues;
+
+  for (const v of visible) {
+    const item = document.createElement('div');
+    item.className = 'forn-dd-item';
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.checked = state.has(v);
+    cb.onchange = () => { onToggle(v, cb.checked); };
+    item.appendChild(cb);
+    item.appendChild(document.createTextNode(v));
+    item.onclick = e => { if (e.target !== cb) { cb.checked = !cb.checked; cb.onchange(); } };
+    list.appendChild(item);
+  }
+}
+
+let ddFornSearch = '';
+let ddTipoSearch = '';
+
+function buildFornDropdown() {
+  buildDropdown('forn-dd-list', ALL_FORNS, stForns, ddFornSearch,
+    (v, checked) => { if (checked) stForns.add(v); else stForns.delete(v); refresh(); updateFornBtn(); },
+    buildFornDropdown);
+}
+function buildTipoDropdown() {
+  buildDropdown('tipo-dd-list', ALL_TIPOS, stTipos, ddTipoSearch,
+    (v, checked) => { if (checked) stTipos.add(v); else stTipos.delete(v); refresh(); updateTipoBtn(); },
+    buildTipoDropdown);
+}
+
+function updateBtn(btnId, labelId, badgeId, state, defaultLabel) {
+  const btn   = document.getElementById(btnId);
+  const label = document.getElementById(labelId);
+  const badge = document.getElementById(badgeId);
+  if (state.size === 0) {
+    label.textContent = defaultLabel;
+    badge.style.display = 'none';
+    btn.classList.remove('has-filter');
+  } else {
+    label.textContent = state.size === 1 ? [...state][0] : defaultLabel;
+    badge.textContent = state.size;
+    badge.style.display = state.size > 1 ? '' : 'none';
+    btn.classList.add('has-filter');
+  }
+}
+function updateFornBtn() { updateBtn('forn-btn', 'forn-btn-label', 'forn-badge', stForns, 'Indústria'); }
+function updateTipoBtn() { updateBtn('tipo-btn', 'tipo-btn-label', 'tipo-badge', stTipos, 'Tipo de produto'); }
+
+function renderTags() {
+  const row = document.getElementById('tags-row');
+  row.innerHTML = '';
+
+  for (const f of stForns) {
+    const t = document.createElement('div');
+    t.className = 'tag';
+    t.innerHTML = `${f} <span class="tag-x" title="Remover">×</span>`;
+    t.querySelector('.tag-x').onclick = () => { stForns.delete(f); refresh(); };
+    row.appendChild(t);
+  }
+  for (const tp of stTipos) {
+    const t = document.createElement('div');
+    t.className = 'tag';
+    t.innerHTML = `${tp} <span class="tag-x" title="Remover">×</span>`;
+    t.querySelector('.tag-x').onclick = () => { stTipos.delete(tp); refresh(); };
+    row.appendChild(t);
+  }
+  if (stSearch) {
+    const t = document.createElement('div');
+    t.className = 'tag';
+    t.innerHTML = `"${stSearch}" <span class="tag-x" title="Remover">×</span>`;
+    t.querySelector('.tag-x').onclick = () => {
+      stSearch = '';
+      document.getElementById('search').value = '';
+      refresh();
+    };
+    row.appendChild(t);
+  }
+}
+
+function renderTable() {
+  let rows = filteredRows();
+
+  rows = [...rows].sort((a, b) => {
+    const va = a[stSortK], vb = b[stSortK];
+    const cmp = typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb), 'pt-BR');
+    return stSortA ? cmp : -cmp;
+  });
+
+  document.getElementById('tbl-count').textContent = `${rows.length.toLocaleString('pt-BR')} itens`;
+
+  const tbody = document.getElementById('tbody');
+  if (!rows.length) {
+    tbody.innerHTML = `<tr><td colspan="5" class="empty">Nenhum resultado encontrado</td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = rows.map(r => `
+    <tr>
+      <td class="td-cod">${r.codprod}</td>
+      <td class="td-produto">${r.descricao}</td>
+      <td class="td-emb">${r.embalagem || '—'}</td>
+      <td><span class="td-forn">${r.fantasia}</span></td>
+      <td class="td-tipo"><span class="tipo-pill">${r.tipo}</span></td>
+    </tr>
+  `).join('');
+}
+
+function sortBy(k) {
+  if (stSortK === k) { stSortA = !stSortA; }
+  else { stSortK = k; stSortA = true; }
+  document.querySelectorAll('thead th').forEach(th => th.classList.remove('sorted'));
+  document.querySelector(`th[data-k="${k}"]`).classList.add('sorted');
+  renderTable();
+}
+
+function refresh() {
+  renderCard();
+  buildFornDropdown();
+  updateFornBtn();
+  buildTipoDropdown();
+  updateTipoBtn();
+  renderTags();
+  renderTable();
+}
+
+const fornBtn = document.getElementById('forn-btn');
+const fornDd  = document.getElementById('forn-dropdown');
+fornBtn.addEventListener('click', e => {
+  e.stopPropagation();
+  const open = fornDd.classList.toggle('open');
+  fornBtn.classList.toggle('open', open);
+  if (open) { document.getElementById('forn-dd-search').focus(); }
+});
+document.getElementById('forn-dd-search').addEventListener('input', e => {
+  ddFornSearch = e.target.value;
+  buildFornDropdown();
+});
+
+const tipoBtn = document.getElementById('tipo-btn');
+const tipoDd  = document.getElementById('tipo-dropdown');
+tipoBtn.addEventListener('click', e => {
+  e.stopPropagation();
+  const open = tipoDd.classList.toggle('open');
+  tipoBtn.classList.toggle('open', open);
+  if (open) { document.getElementById('tipo-dd-search').focus(); }
+});
+document.getElementById('tipo-dd-search').addEventListener('input', e => {
+  ddTipoSearch = e.target.value;
+  buildTipoDropdown();
+});
+
+document.addEventListener('click', e => {
+  if (!document.getElementById('forn-wrap').contains(e.target)) {
+    fornDd.classList.remove('open');
+    fornBtn.classList.remove('open');
+  }
+  if (!document.getElementById('tipo-wrap').contains(e.target)) {
+    tipoDd.classList.remove('open');
+    tipoBtn.classList.remove('open');
+  }
+});
+
+document.getElementById('btn-clear').addEventListener('click', () => {
+  stForns.clear(); stTipos.clear(); stSearch = '';
+  document.getElementById('search').value = '';
+  ddFornSearch = ''; ddTipoSearch = '';
+  document.getElementById('forn-dd-search').value = '';
+  document.getElementById('tipo-dd-search').value = '';
+  refresh();
+});
+
+document.getElementById('search').addEventListener('input', e => {
+  stSearch = e.target.value;
+  refresh();
+});
+
+function exportCSV() {
+  let rows = filteredRows();
+  rows = [...rows].sort((a, b) => {
+    const va = a[stSortK], vb = b[stSortK];
+    const cmp = typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb), 'pt-BR');
+    return stSortA ? cmp : -cmp;
+  });
+
+  const esc = v => '"' + String(v).replace(/"/g, '""') + '"';
+  const lines = [
+    ['Código', 'Produto', 'Embalagem', 'Indústria', 'Tipo'].map(esc).join(';'),
+    ...rows.map(r => [r.codprod, r.descricao, r.embalagem, r.fantasia, r.tipo].map(esc).join(';'))
+  ];
+
+  const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = `catalogo_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+if (!D) {
+  document.body.innerHTML =
+    '<p style="color:var(--red,#ef4444);padding:24px">Erro: catalogo_data.js não encontrado. Execute catalogo.py primeiro.</p>';
+} else {
+  document.getElementById('h-sub').textContent =
+    `Produtos vendidos pelo time OFF TRADE (CRC) nos últimos 18 meses · Atualizado em ${D.atualizado_em}`;
+  refresh();
+}
+</script>
+</body>
+</html>

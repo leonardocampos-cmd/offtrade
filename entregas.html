@@ -102,6 +102,8 @@
 
     .badge-rota      { border-color: #14532d; }
     .badge-rota      .cnt, .badge-rota      .val { color: var(--green); }
+    .badge-entregue  { border-color: #166534; }
+    .badge-entregue  .cnt, .badge-entregue  .val { color: #4ade80; }
     .badge-noemit    { border-color: #713f12; }
     .badge-noemit    .cnt, .badge-noemit    .val { color: var(--yellow); }
     .badge-semrota   { border-color: #1e3a5f; }
@@ -300,6 +302,11 @@
     <span class="val" id="val-rota">—</span>
     <span class="sub" id="sub-rota"></span>
   </div>
+  <div class="badge badge-entregue">
+    <span class="cnt" id="cnt-entregue">—</span>
+    <span class="lbl">Entregues</span>
+    <span class="val" id="val-entregue">—</span>
+  </div>
   <div class="badge badge-semrota">
     <span class="cnt" id="cnt-semrota">—</span>
     <span class="lbl">Emitido / Sem Rota</span>
@@ -324,6 +331,7 @@
 
 <div class="tabs">
   <button class="tab-btn active" onclick="switchTab('rota',      this)">Em Rota</button>
+  <button class="tab-btn"        onclick="switchTab('entregue',  this)">Entregues</button>
   <button class="tab-btn"        onclick="switchTab('semrota',   this)">Emitido / Sem Rota</button>
   <button class="tab-btn"        onclick="switchTab('noemit',    this)">Não Emitido</button>
   <button class="tab-btn" style="color:var(--red)"
@@ -332,6 +340,7 @@
 </div>
 
 <div id="sec-rota"      class="section visible"></div>
+<div id="sec-entregue"  class="section"></div>
 <div id="sec-semrota"   class="section"></div>
 <div id="sec-noemit"    class="section"></div>
 <div id="sec-naoentreg" class="section"></div>
@@ -405,7 +414,10 @@ function renderVendedor() {
     canceladas  = v.canceladas     || [];
   }
 
+  const entregues = emRota.filter(p => (p.status_log || '').toUpperCase().includes('ENTREGUE'));
+
   const totRota     = emRota.reduce((s,p)=>s+p.total, 0);
+  const totEntregue = entregues.reduce((s,p)=>s+p.total, 0);
   const totSemRota  = semRota.reduce((s,p)=>s+p.total, 0);
   const totNoemit   = naoEmitido.reduce((s,p)=>s+p.total, 0);
   const totNaoEntreg= naoEntregue.reduce((s,p)=>s+p.total, 0);
@@ -419,6 +431,8 @@ function renderVendedor() {
   document.getElementById('cnt-rota').textContent    = emRota.length;
   document.getElementById('val-rota').textContent    = fmt(totRota);
   document.getElementById('sub-rota').textContent    = cancelados > 0 ? `${cancelados} cancelado(s)` : '';
+  document.getElementById('cnt-entregue').textContent = entregues.length;
+  document.getElementById('val-entregue').textContent = fmt(totEntregue);
   document.getElementById('cnt-semrota').textContent = semRota.length;
   document.getElementById('val-semrota').textContent = fmt(totSemRota);
   document.getElementById('cnt-noemit').textContent  = naoEmitido.length;
@@ -429,6 +443,7 @@ function renderVendedor() {
   document.getElementById('val-canc').textContent    = fmt(totCanc);
 
   document.getElementById('sec-rota').innerHTML      = renderCards(emRota,      'rota');
+  document.getElementById('sec-entregue').innerHTML  = renderCards(entregues,   'entregue');
   document.getElementById('sec-semrota').innerHTML   = renderCards(semRota,     'semrota');
   document.getElementById('sec-noemit').innerHTML    = renderCards(naoEmitido,  'noemit');
   document.getElementById('sec-naoentreg').innerHTML = renderCards(naoEntregue, 'naoentreg');
@@ -437,6 +452,7 @@ function renderVendedor() {
 
 const _emptyMsg = {
   rota:      'Nenhum pedido em rota hoje.',
+  entregue:  'Nenhuma entrega confirmada hoje.',
   semrota:   'Nenhuma NF emitida aguardando rota.',
   noemit:    'Nenhum pedido pendente de emissão.',
   naoentreg: 'Nenhuma entrega não realizada registrada.',
@@ -545,7 +561,7 @@ function toggleItens(id, btn) {
 function switchTab(tab, btn) {
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  ['rota','semrota','noemit','naoentreg','canc'].forEach(t =>
+  ['rota','entregue','semrota','noemit','naoentreg','canc'].forEach(t =>
     document.getElementById('sec-' + t).classList.toggle('visible', t === tab)
   );
 }

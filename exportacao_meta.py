@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import date, datetime
 from pathlib import Path
 import re as _re
-from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, arquivo, carregar_dados, FONTES_INDISPONIVEIS
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, arquivo, carregar_dados, FONTES_INDISPONIVEIS
 import nao_positivados as _np_mod
 
 _df_nao_pos = _np_mod.nao_positivados_full
@@ -45,6 +45,7 @@ for _s, _e, _n, _extra_f in [
     ("CASTAS",   engine_castas,  "map_rca_CASTAS",   "NOME LIKE '%OFF TRADE%'"),
     ("GARRIDO",  engine_garrido, "map_rca_GARRIDO",  "NOME LIKE '%OFF TRADE%'"),
     ("SPON",     engine_spon,    "map_rca_SPON",     "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
+    ("MGON",     engine_mgon,    "map_rca_MGON",     "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
 ]:
     try:
         _parts_map_rca.append(carregar_dados(f"SELECT CODUSUR AS RCA, NOME FROM {_s}.PCUSUARI WHERE {_extra_f}", _e, _n))
@@ -114,6 +115,7 @@ _VH_CONFIGS = [
     ("CASTAS",  engine_castas,  "vendas_hist_CASTAS",  None,        None,  "Castas",    None),
     ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None,        None,  "Garrido",   None),
     ("SPON",    engine_spon,    "vendas_hist_SPON",    None,        None,  "SPON",      _SPON_EXTRA),
+    ("MGON",    engine_mgon,    "vendas_hist_MGON",    "(1, 2)",    None,  "MGON",      _SPON_EXTRA),
 ]
 _vh_parts = []
 for _s, _e, _n, _ff, _fe, _emp, _en in _VH_CONFIGS:
@@ -479,7 +481,7 @@ if FONTES_INDISPONIVEIS:
 # qualquer página do site possa mostrar o popup de aviso sem carregar o
 # dashboard inteiro. Normaliza nomes tipo "vendas_CASTAS"/"cadastros_CASTAS"
 # para só "CASTAS".
-_BASES_CONHECIDAS = ["CRC", "thekings", "CASTAS", "GARRIDO", "SPON"]
+_BASES_CONHECIDAS = ["CRC", "thekings", "CASTAS", "GARRIDO", "SPON", "MGON"]
 def _normalizar_fonte(nome):
     for _b in _BASES_CONHECIDAS:
         if _b.lower() in nome.lower():
@@ -576,6 +578,7 @@ _HIER_CONFIGS = [
     ("CASTAS",  engine_castas,  "hier_CASTAS",  "Castas",    None),
     ("GARRIDO", engine_garrido, "hier_GARRIDO", "Garrido",   None),
     ("SPON",    engine_spon,    "hier_SPON",    "SPON",      _SPON_EXTRA),
+    ("MGON",    engine_mgon,    "hier_MGON",    "MGON",      _SPON_EXTRA),
 ]
 
 _hier_parts = []

@@ -51,6 +51,12 @@ engine_spon = create_engine(
     pool_recycle=3600,
     connect_args={"expire_time": 2}
 )
+engine_mgon = create_engine(
+    f'oracle+oracledb://{user}:{password}@{os.getenv("DSN_MG", "mgon_oci")}',
+    pool_pre_ping=True,
+    pool_recycle=3600,
+    connect_args={"expire_time": 2}
+)
 
 # Nomes das fontes (bancos Oracle) que falharam nesta execução — usado para
 # avisar o usuário em metas.html que os resultados podem estar incompletos.

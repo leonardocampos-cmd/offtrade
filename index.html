@@ -102,6 +102,24 @@
     .dash-desc { font-size:.72rem; color:var(--muted); margin-top:2px; }
 
     footer { text-align:center; margin-top:32px; padding-top:16px; border-top:1px solid var(--border); color:var(--muted); font-size:.72rem; }
+
+    /* ── Assistente ──────────────────────────────────────────── */
+    .assistant-box {
+      display:flex; align-items:flex-start; gap:14px;
+      background:var(--card); border:1px solid var(--border); border-left:4px solid var(--accent);
+      border-radius:12px; padding:16px 18px; margin-bottom:28px; position:relative;
+    }
+    .assistant-emoji { font-size:2rem; line-height:1; flex-shrink:0; }
+    .assistant-bubble { flex:1; }
+    .assistant-greeting { font-size:1rem; font-weight:800; color:var(--accent); margin-bottom:4px; }
+    .assistant-text { font-size:.8rem; color:var(--text); line-height:1.6; }
+    .assistant-text strong { color:var(--accent); font-weight:700; }
+    .assistant-close {
+      position:absolute; top:10px; right:12px; background:none; border:none; cursor:pointer;
+      color:var(--muted); font-size:1.1rem; line-height:1; padding:2px 6px; border-radius:6px;
+      transition:color .15s, background .15s;
+    }
+    .assistant-close:hover { color:var(--text); background:var(--card2); }
   </style>
 </head>
 <body>
@@ -109,10 +127,23 @@
   <header>
     <div>
       <div class="header-brand">Rigarr &mdash; Dashboard Comercial</div>
-      <div class="header-sub">Off Trade &amp; On Trade &middot; RJ</div>
+      <div class="header-sub">Off Trade</div>
     </div>
     <div class="header-date" id="today"></div>
   </header>
+
+  <!-- Assistente / saudação -->
+  <div class="assistant-box" id="assistant-box">
+    <span class="assistant-emoji">🧑‍💼</span>
+    <div class="assistant-bubble">
+      <div class="assistant-greeting" id="assistant-greeting">Olá!</div>
+      <div class="assistant-text">
+        Aqui você encontra suas <strong>metas</strong>, <strong>entregas</strong>, <strong>base de clientes</strong> e <strong>campanhas ativas</strong> &mdash; tudo em um só lugar.
+        Use os cartões de <strong>Dashboards</strong> abaixo pra acompanhar seus números, e os de <strong>Campanhas</strong> pra ver o ranking e os prêmios em disputa.
+      </div>
+    </div>
+    <button class="assistant-close" id="assistant-close" title="Fechar" type="button">&times;</button>
+  </div>
 
   <!-- Dashboards -->
   <div class="section-title">Dashboards</div>
@@ -276,6 +307,19 @@
   <script>
     const d = new Date();
     document.getElementById('today').textContent = d.toLocaleDateString('pt-BR',{weekday:'long',day:'2-digit',month:'long',year:'numeric'});
+
+    const h = d.getHours();
+    const saudacao = h < 12 ? 'Bom dia!' : h < 18 ? 'Boa tarde!' : 'Boa noite!';
+    document.getElementById('assistant-greeting').textContent = saudacao;
+
+    const assistantBox = document.getElementById('assistant-box');
+    if (localStorage.getItem('assistant_dismissed') === '1') {
+      assistantBox.style.display = 'none';
+    }
+    document.getElementById('assistant-close').addEventListener('click', () => {
+      assistantBox.style.display = 'none';
+      localStorage.setItem('assistant_dismissed', '1');
+    });
   </script>
 </body>
 </html>

@@ -41,6 +41,7 @@ PIPELINE_FILES = [
     "envio_whatsapp.py",
     "alerta_logistica_rj.py",
     "baixar_planilhas_drive.py",
+    "campanha_crusoe.py",
     "requirements.txt",
     "metas_config.json",
 ] + sorted(f.name for f in HERE.glob("exportacao_*.py"))
