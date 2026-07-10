@@ -116,6 +116,7 @@ def _query_vendas(schema=None, mes_anterior=False, filtro_filial="(1,2,4)", filt
     AND PCMOV.CODOPER IN ('S','SB')
     AND PCMOV.NUMNOTADEV IS NULL
     AND PCMOV.DTCANCEL IS NULL
+    AND PCUSUARI.ESTADO = 'RJ'
     AND PCUSUARI.NOME LIKE '%OFF TRADE%'{extra_filial}{extra_estent}
 """
 
@@ -126,6 +127,7 @@ for _s, _e, _n, _ff, _fe in [
     ("CASTAS",   engine_castas,  "vendas_CASTAS",    None,      "RJ"),
     ("GARRIDO",  engine_garrido, "vendas_GARRIDO",   None,      "RJ"),
     ("SPON",     engine_spon,    "vendas_SPON",      None,      "RJ"),
+    ("MGON",     engine_mgon,    "vendas_MGON",      None,      "RJ"),
 ]:
     try:
         _parts_vendas.append(carregar_dados(_query_vendas(_s, filtro_filial=_ff, filtro_estent=_fe), _e, _n))
