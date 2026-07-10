@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "10/07/2026 13:48",
+  "atualizado_em": "10/07/2026 14:11",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -11485,6 +11485,20 @@ const NAO_POS_ES_DATA = {
       }
     ],
     "GISELLE BARFER": [
+      {
+        "codcli": "90510",
+        "cliente": "JOELI CARVALHO BUFFET & EVENTOS LTDA",
+        "bairro": "LAGOMAR",
+        "dtultcomp": "25/09/2025",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE VILLA ROSA BLANC DE NOIRS",
+            "fantasia": "CASTAS",
+            "qt": 24,
+            "valor": 1845.6
+          }
+        ]
+      },
       {
         "codcli": "80803",
         "cliente": "ADEGA MAIS LTDA",
