@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/07/2026 10:04",
+  "atualizado_em": "10/07/2026 11:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -62408,6 +62408,76 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "10/07/2026",
+          "codcli": "71748",
+          "cliente": "DIAS & DIAS COMERCIO E SERVICOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "71748",
+          "cliente": "DIAS & DIAS COMERCIO E SERVICOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "74335",
+          "cliente": "JERE HOSTEL BAR LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "76381",
+          "cliente": "KIOSQUE ALEMAO LTDA",
+          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "82528",
+          "cliente": "ENCONTRO DA PRAIA LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "82529",
+          "cliente": "VILA DA PRAIA LTDA",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "84776",
+          "cliente": "RAYANE LIMA SOARES",
+          "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
           "data": "09/07/2026",
           "codcli": "95091",
           "cliente": "KG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
@@ -92287,16 +92357,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "07/07/2026",
-          "codcli": "95599",
-          "cliente": "DROGARIA FREGUESIA DA ILHA LTDA",
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "fantasia": "VITON",
-          "qt": 5,
-          "valor": 164.61,
-          "tipo": "Venda"
-        },
-        {
-          "data": "07/07/2026",
           "codcli": "95298",
           "cliente": "RESTAURANTE FRIOMENSAO LTDA",
           "produto": "GUARAVITON GINSENG 12X500ML",
@@ -108820,36 +108880,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "08/07/2026",
-          "codcli": "92855",
-          "cliente": "RAINHA DO IRIS MERCADO LTDA",
-          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 65.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "92855",
-          "cliente": "RAINHA DO IRIS MERCADO LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 4,
-          "valor": 261.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "92855",
-          "cliente": "RAINHA DO IRIS MERCADO LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 598.5,
-          "tipo": "Venda"
-        },
-        {
           "data": "09/07/2026",
           "codcli": "92855",
           "cliente": "RAINHA DO IRIS MERCADO LTDA",
@@ -119119,36 +119149,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/07/2026",
-          "codcli": "95186",
-          "cliente": "S14 EDITORA E COMERCIO DE PRODUTOS NATURAIS LEBLON 2 LTDA",
-          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 53.15,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/07/2026",
-          "codcli": "95186",
-          "cliente": "S14 EDITORA E COMERCIO DE PRODUTOS NATURAIS LEBLON 2 LTDA",
-          "produto": "BAER MATE LN  6X350ML",
-          "fantasia": "KAISER",
-          "qt": 2,
-          "valor": 72.05,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/07/2026",
-          "codcli": "95186",
-          "cliente": "S14 EDITORA E COMERCIO DE PRODUTOS NATURAIS LEBLON 2 LTDA",
-          "produto": "AGUA NA CAIXA 12X500ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 2,
-          "valor": 71.8,
           "tipo": "Venda"
         },
         {
@@ -325853,6 +325853,28 @@ const VENDAS_DATA = {
           "valor": 31.56,
           "tipo": "Venda"
         }
+      ],
+      "Jul/26": [
+        {
+          "data": "10/07/2026",
+          "codcli": "71150",
+          "cliente": "V. R. ALVES LTDA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "71151",
+          "cliente": "LEDAN COMERCIAL LTDA",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        }
       ]
     },
     "WANDERSON FERREIRA - OFF TRADE": {
@@ -531773,16 +531795,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 109.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "32865",
-          "cliente": "BAR DA QUADRA LTDA",
-          "produto": "XAROPE MONIN AMORA (BLACKBERRY) 700 ML",
-          "fantasia": "",
-          "qt": 20,
-          "valor": 998.0,
           "tipo": "Venda"
         },
         {
