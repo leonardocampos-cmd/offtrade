@@ -81,6 +81,7 @@ QUERY_VENDAS_ES = """
       AND M.DTCANCEL  IS NULL
       AND M.CODFILIAL = 1
       AND U.NOME LIKE '%OFF TRADE%'
+      AND U.ESTADO = 'ES'
 """
 
 _vh = carregar_dados(QUERY_VENDAS_ES, engine_es, "vendas_ES")

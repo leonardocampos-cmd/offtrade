@@ -73,6 +73,7 @@ QUERY_VENDAS_MG = """
       AND M.DTCANCEL  IS NULL
       AND M.CODFILIAL IN (1, 2)
       AND U.NOME LIKE '%OFF TRADE%'
+      AND U.ESTADO = 'MG'
 """
 
 _vh = carregar_dados(QUERY_VENDAS_MG, engine_mg, "vendas_MG")

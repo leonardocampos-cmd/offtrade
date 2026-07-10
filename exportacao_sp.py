@@ -85,6 +85,7 @@ QUERY_VENDAS_SP = """
       AND M.NUMNOTADEV IS NULL
       AND M.DTCANCEL  IS NULL
       AND (U.NOME LIKE '%OFF TRADE%' OR U.NOME = 'W.S')
+      AND U.ESTADO = 'SP'
 """
 
 # ── Carrega e limpa dados ─────────────────────────────────────────────────────
