@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "10/07/2026 15:06",
+  "atualizado_em": "10/07/2026 15:21",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -7638,6 +7638,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51705",
+        "cliente": "HORTIFRUTI QUEIROZ FILHO LTDA",
+        "bairro": "VILA HUMAITÁ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51562",
         "cliente": "M DE L GONCALVES MERCADO",
         "bairro": "PONTE SECA",
@@ -7690,6 +7697,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "49480",
         "cliente": "SJX COMERCIAL ATACADISTA DE MERCADORIAS LTDA",
         "bairro": "CIDADE DUTRA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51704",
+        "cliente": "SJX COMERCIAL ATACADISTA DE MERCADORIAS LTDA",
+        "bairro": "VILA ASSIS BRASIL",
         "dtultcomp": "nan",
         "produtos": []
       },
