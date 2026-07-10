@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/07/2026 16:25",
-  "total": 4435,
+  "atualizado_em": "10/07/2026 18:27",
+  "total": 4440,
   "clientes": [
     {
       "codcli": "31683",
@@ -1008,6 +1008,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCEARIA",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51710",
+      "razao": "3BEER LTDA",
+      "fantasia": "3BEER LTDA",
+      "bairro": "NOVA JAGUARIÚNA",
+      "cidade": "JAGUARIUNA",
+      "cnpj": "58.097.808/0001-19",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -11330,6 +11344,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "39361",
+      "razao": "BRASILEIRAO ATACADO COMERCIO DE PRODUTOS ALIMENTICIOS SOCIED",
+      "fantasia": "BRASILEIRAO",
+      "bairro": "VILA CURUCA",
+      "cidade": "SAO PAULO",
+      "cnpj": "28.250.980/0001-08",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "37",
+      "nome_usur2": "RC"
+    },
+    {
       "codcli": "37230",
       "razao": "BRASPLANET COMERCIO EXTERIOR LTDA",
       "fantasia": "BRASPLANET COMERCIO EXTERIOR LTDA",
@@ -21154,6 +21182,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "461",
       "nome_usur1": "SUELY SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50488",
+      "razao": "EMPORIO MORAES SOBRINHO LTDA",
+      "fantasia": "CASA SAO JOAO",
+      "bairro": "CENTRO",
+      "cidade": "AVARE",
+      "cnpj": "52.289.212/0001-34",
+      "estado": "SP",
+      "ramo": "BAR",
+      "codusur1": "477",
+      "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -52560,6 +52602,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "49471",
+      "razao": "SACOLAO BOM PASTOR COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+      "fantasia": "SACOLAO BOM PASTOR COMERCIO DE GENEROS ALIMENTICIOS",
+      "bairro": "JARDIM OCARA",
+      "cidade": "SANTO ANDRE",
+      "cnpj": "07.251.514/0001-69",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "499",
+      "nome_usur1": "JOSE SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "33272",
       "razao": "SACOLAO CORIOLANO LTDA.",
       "fantasia": "SACOLAO CORIOLANO",
@@ -52598,6 +52654,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "426",
       "nome_usur1": "ADER ALONSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49472",
+      "razao": "SACOLAO OSWALDO CRUZ LTDA",
+      "fantasia": "SACOLAO OSWALDO CRUZ LTDA",
+      "bairro": "SANTA PAULA",
+      "cidade": "SAO CAETANO DO SUL",
+      "cnpj": "00.286.557/0001-30",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "499",
+      "nome_usur1": "JOSE SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
