@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "10/07/2026 16:11",
+  "atualizado_em": "10/07/2026 16:24",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -2889,7 +2889,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38896",
+        "codcli": "35398",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -2927,8 +2927,8 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -2989,7 +2989,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35398",
+        "codcli": "38896",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -3027,8 +3027,8 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
+            "qt": 1,
+            "valor": 141.36
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -3135,7 +3135,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35387",
+        "codcli": "35392",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -3161,7 +3161,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35392",
+        "codcli": "35387",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -8512,20 +8512,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 6,
             "valor": 413.4
-          }
-        ]
-      },
-      {
-        "codcli": "35993",
-        "cliente": "MFB COMERCIAL LTDA",
-        "bairro": "SANTA EFIGÊNIA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
           }
         ]
       },
