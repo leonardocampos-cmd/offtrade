@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "10/07/2026 15:20",
+  "atualizado_em": "10/07/2026 16:05",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -1498,14 +1498,14 @@ const CRUSOE_DATA = {
         {
           "rca": 419,
           "vendedor": "Natali de Oliveira",
-          "pedidos": 10,
-          "positivacoes": 8,
-          "novos_skus": 10,
-          "faturamento": 1233.06,
-          "pontos_positivacao": 40,
-          "pontos_novos_skus": 40,
+          "pedidos": 11,
+          "positivacoes": 9,
+          "novos_skus": 11,
+          "faturamento": 1386.42,
+          "pontos_positivacao": 45,
+          "pontos_novos_skus": 44,
           "pontos_pedidos_valor": 0,
-          "pontos_total": 80,
+          "pontos_total": 89,
           "vendas": [
             {
               "numnota": "409254",
@@ -1746,20 +1746,45 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "411106",
+              "data": "10/07/2026",
+              "cliente": "ITANIA COSTA ANTONIO VIANA 16136309726",
+              "valor_pedido": 153.36,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 4,
-          "positivacoes": 0,
-          "novos_skus": 4,
-          "faturamento": 8327.97,
-          "pontos_positivacao": 0,
-          "pontos_novos_skus": 16,
-          "pontos_pedidos_valor": 6,
-          "pontos_total": 22,
+          "pedidos": 5,
+          "positivacoes": 1,
+          "novos_skus": 5,
+          "faturamento": 9325.47,
+          "pontos_positivacao": 5,
+          "pontos_novos_skus": 20,
+          "pontos_pedidos_valor": 7,
+          "pontos_total": 32,
           "vendas": [
             {
               "numnota": "408274",
@@ -1889,6 +1914,35 @@ const CRUSOE_DATA = {
                   "qt": 2.0,
                   "valor": 399.0,
                   "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "411066",
+              "data": "10/07/2026",
+              "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+              "valor_pedido": 997.5,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 5.0,
+                  "valor": 997.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
                 }
               ]
             }
@@ -2065,7 +2119,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 3292.8,
+          "faturamento": 3691.8,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
