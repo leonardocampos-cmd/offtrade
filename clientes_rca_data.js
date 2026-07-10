@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/07/2026 14:31",
-  "total": 4393,
+  "atualizado_em": "10/07/2026 15:07",
+  "total": 4400,
   "clientes": [
     {
       "codcli": "31683",
@@ -543,7 +543,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "31.410.843/0001-90",
       "estado": "RJ",
-      "ramo": "OUTROS",
+      "ramo": "SERVIÇOS",
       "codusur1": "419",
       "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "codusur2": "312",
@@ -1439,7 +1439,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "49.298.259/0001-50",
       "estado": "RJ",
-      "ramo": "OUTROS",
+      "ramo": "DELIVERY",
       "codusur1": "419",
       "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "codusur2": "312",
@@ -4774,8 +4774,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ADEGA",
       "codusur1": "329",
       "nome_usur1": "RAPHAELA RIBAS",
-      "codusur2": "588",
-      "nome_usur2": "W.S"
+      "codusur2": "461",
+      "nome_usur2": "SUELY SANTOS - OFF TRADE"
     },
     {
       "codcli": "50804",
@@ -36376,6 +36376,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50549",
+      "razao": "MERCADO FONTE NOVA BELA VISTA LTDA",
+      "fantasia": "MERCADO FONTE NOVA BELA VISTA",
+      "bairro": "MACEDO",
+      "cidade": "GUARULHOS",
+      "cnpj": "04.273.675/0004-08",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50548",
       "razao": "MERCADO FONTE NOVA RECREIO LTDA",
       "fantasia": "FONTE NOVA MAIA",
@@ -41470,6 +41484,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "24527",
+      "razao": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO LTDA",
+      "fantasia": "NSA DISTRIBUIDORA",
+      "bairro": "VILA PLANA",
+      "cidade": "SAO PAULO",
+      "cnpj": "23.090.270/0001-36",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82290",
@@ -52126,6 +52154,62 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "49473",
+      "razao": "SACOLAO SAO JORGE LTDA",
+      "fantasia": "SACOLAO SAO JORGE LTDA",
+      "bairro": "SANTA MARIA",
+      "cidade": "SAO CAETANO DO SUL",
+      "cnpj": "05.376.987/0001-67",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "499",
+      "nome_usur1": "JOSE SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49478",
+      "razao": "SACOLAO STA CATARINA LTDA",
+      "fantasia": "SACOLAO STA CATARINA",
+      "bairro": "VILA ALEXANDRIA",
+      "cidade": "SAO PAULO",
+      "cnpj": "17.879.936/0001-37",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "499",
+      "nome_usur1": "JOSE SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49506",
+      "razao": "SACOLAO SUPER BOM LTDA",
+      "fantasia": "SACOLAO SUPER BOM",
+      "bairro": "MATRIZ",
+      "cidade": "MAUA",
+      "cnpj": "12.237.390/0001-05",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "499",
+      "nome_usur1": "JOSE SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49507",
+      "razao": "SACOLAO TEOTONIO VILELA LTDA.",
+      "fantasia": "BOX 03",
+      "bairro": "CONJUNTO HABITACIONAL TEOTONIO VILELA",
+      "cidade": "SAO PAULO",
+      "cnpj": "07.814.548/0001-14",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "499",
+      "nome_usur1": "JOSE SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "81992",
       "razao": "SAIBEL & MONTIBELER - RESTAURANTE E SELF SERVICE LTDA",
       "fantasia": "VARANDA GRILL CHURRASCARIA SELF SERVICE",
@@ -53410,6 +53494,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "391",
       "nome_usur1": "ANDRE SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49479",
+      "razao": "SJX COMERCIAL ATACADISTA DE MERCADORIAS LTDA",
+      "fantasia": "SJX COMERCIAL ATACADISTA DE MERCADORIAS LTDA",
+      "bairro": "VILA MADALENA",
+      "cidade": "SAO PAULO",
+      "cnpj": "17.608.063/0005-51",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "499",
+      "nome_usur1": "JOSE SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
