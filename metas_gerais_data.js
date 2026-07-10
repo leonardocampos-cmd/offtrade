@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "10/07/2026 14:04",
+  "atualizado_em": "10/07/2026 14:19",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 10,
   "dias_no_mes": 31,
   "dias_restantes": 21,
   "resumo": {
-    "fat": 2632495.5,
+    "fat": 2633459.9,
     "fat_ant": 3447704.61,
     "fat_ant_completo": 13126498.47,
     "pos": 682,
@@ -15,11 +15,11 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 2632495.5,
+    "fat": 2633459.9,
     "fat_ant": 3447704.61,
     "fat_ant_completo": 13126498.47,
     "pct": 18.3,
-    "nec_dia": 560357.36
+    "nec_dia": 560311.43
   },
   "estados": [
     {
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 294072.3,
+      "fat": 295036.7,
       "fat_ant": 381121.78,
       "pos": 114,
       "pct": 14.0,
-      "nec_dia": 85996.56,
+      "nec_dia": 85950.63,
       "fat_ant_completo": 1756160.17,
       "pos_ant": 139,
       "pos_ant_completo": 284
@@ -100,13 +100,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 230269.91,
+      "fat": 230394.71,
       "fat_ant": 341918.26,
       "por_estado": {
         "RJ": 0.0,
         "SP": 447.49,
         "ES": 0.0,
-        "MG": 229822.42
+        "MG": 229947.22
       }
     },
     {
@@ -309,13 +309,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "MSLR",
-      "fat": 12999.8,
+      "fat": 13059.7,
       "fat_ant": 1048.4,
       "por_estado": {
         "RJ": 0.0,
         "SP": 0.0,
         "ES": 0.0,
-        "MG": 12999.8
+        "MG": 13059.7
       }
     },
     {
@@ -440,6 +440,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "NSG",
+      "fat": 1819.3,
+      "fat_ant": 0.0,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 0.0,
+        "ES": 0.0,
+        "MG": 1819.3
+      }
+    },
+    {
       "fantasia": "COMARY",
       "fat": 1661.52,
       "fat_ant": 3564.92,
@@ -481,17 +492,6 @@ const METAS_GERAIS_DATA = {
         "SP": 1258.32,
         "ES": 0.0,
         "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "NSG",
-      "fat": 1039.6,
-      "fat_ant": 0.0,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 1039.6
       }
     },
     {
