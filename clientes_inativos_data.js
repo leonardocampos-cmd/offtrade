@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "10/07/2026 12:28",
+  "atualizado_em": "10/07/2026 13:50",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -16751,6 +16751,15 @@ const INATIVOS_DATA = {
       ],
       "novos": [
         {
+          "codcli": "51700",
+          "cliente": "49.744.575 FERNANDA VITOR DE OLIVEIRA",
+          "bairro": "VILA SAO SALVADOR",
+          "cidade": "ITAI",
+          "dtcadastro": "10/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
           "codcli": "51395",
           "cliente": "DONNA MARIA SUPERMERCADOS LTDA",
           "bairro": "RESIDENCIAL HOLAMBRA II (CAMPOS DE HOLAM",
@@ -19005,6 +19014,24 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [],
       "novos": [
+        {
+          "codcli": "51702",
+          "cliente": "SC SUPERMERCADO LTDA",
+          "bairro": "JARDIM ROSA GARCIA",
+          "cidade": "TATUI",
+          "dtcadastro": "10/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51701",
+          "cliente": "SC SUPERMERCADO LTDA",
+          "bairro": "CENTRO",
+          "cidade": "TATUI",
+          "dtcadastro": "10/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "51660",
           "cliente": "SUPERMERCADO LIBARDI LTDA",
@@ -23500,15 +23527,6 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "37232",
-          "cliente": "SUSHI MIX LIBERDADE LTDA",
-          "bairro": "LIBERDADE",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "13/04/2026",
-          "dias": "88",
-          "media": 1131.8
-        },
-        {
           "codcli": "34541",
           "cliente": "BAR E RESTAURANTE DO GRILO LTDA",
           "bairro": "CONJUNTO CRISTINA (SÃO BENEDITO)",
@@ -23516,6 +23534,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "13/04/2026",
           "dias": "88",
           "media": 228.17
+        },
+        {
+          "codcli": "37232",
+          "cliente": "SUSHI MIX LIBERDADE LTDA",
+          "bairro": "LIBERDADE",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "13/04/2026",
+          "dias": "88",
+          "media": 1131.8
         },
         {
           "codcli": "34313",
@@ -23563,15 +23590,6 @@ const INATIVOS_DATA = {
           "media": 382.2
         },
         {
-          "codcli": "30490",
-          "cliente": "TANNAT VINHOS LTDA",
-          "bairro": "CRUZEIRO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "05/05/2026",
-          "dias": "66",
-          "media": 319.2
-        },
-        {
           "codcli": "36095",
           "cliente": "49.276.607 CAROLINA ARAGAO DE JESUS",
           "bairro": "HELIÓPOLIS",
@@ -23579,6 +23597,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "05/05/2026",
           "dias": "66",
           "media": 54.97
+        },
+        {
+          "codcli": "30490",
+          "cliente": "TANNAT VINHOS LTDA",
+          "bairro": "CRUZEIRO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "05/05/2026",
+          "dias": "66",
+          "media": 319.2
         },
         {
           "codcli": "33928",
@@ -23590,15 +23617,6 @@ const INATIVOS_DATA = {
           "media": 367.47
         },
         {
-          "codcli": "33853",
-          "cliente": "DRINKS & TAL LTDA",
-          "bairro": "CARMO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "13/05/2026",
-          "dias": "58",
-          "media": 182.57
-        },
-        {
           "codcli": "29613",
           "cliente": "CADAR ALIMENTACAO LTDA",
           "bairro": "SÃO BENTO",
@@ -23606,6 +23624,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "13/05/2026",
           "dias": "58",
           "media": 159.6
+        },
+        {
+          "codcli": "33853",
+          "cliente": "DRINKS & TAL LTDA",
+          "bairro": "CARMO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "13/05/2026",
+          "dias": "58",
+          "media": 182.57
         },
         {
           "codcli": "38344",
@@ -23653,6 +23680,15 @@ const INATIVOS_DATA = {
           "media": 821.76
         },
         {
+          "codcli": "39008",
+          "cliente": "ORGANIZACOES TOP ALIMENTOS LTDA",
+          "bairro": "DISTRITO INDUSTRIAL SIMÃO DA CUNHA",
+          "cidade": "SABARA",
+          "dtultcomp": "25/05/2026",
+          "dias": "46",
+          "media": 1251.12
+        },
+        {
           "codcli": "37891",
           "cliente": "PASSADIO LTDA",
           "bairro": "LOURDES",
@@ -23662,13 +23698,13 @@ const INATIVOS_DATA = {
           "media": 70.68
         },
         {
-          "codcli": "39008",
-          "cliente": "ORGANIZACOES TOP ALIMENTOS LTDA",
-          "bairro": "DISTRITO INDUSTRIAL SIMÃO DA CUNHA",
-          "cidade": "SABARA",
-          "dtultcomp": "25/05/2026",
-          "dias": "46",
-          "media": 1251.12
+          "codcli": "33466",
+          "cliente": "DEL CARLO DRINKS LTDA.",
+          "bairro": "SANTA TEREZINHA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "26/05/2026",
+          "dias": "45",
+          "media": 1183.7
         },
         {
           "codcli": "38983",
@@ -23689,15 +23725,6 @@ const INATIVOS_DATA = {
           "media": 581.56
         },
         {
-          "codcli": "33466",
-          "cliente": "DEL CARLO DRINKS LTDA.",
-          "bairro": "SANTA TEREZINHA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "26/05/2026",
-          "dias": "45",
-          "media": 1183.7
-        },
-        {
           "codcli": "30264",
           "cliente": "CAFETERIA E PRODUCAO BOLOS DE JULIETA LTDA.",
           "bairro": "OURO PRETO",
@@ -23705,6 +23732,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "27/05/2026",
           "dias": "44",
           "media": 486.77
+        },
+        {
+          "codcli": "34478",
+          "cliente": "8ZH7 RESTAURANTE LTDA",
+          "bairro": "FUNCIONÁRIOS",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "28/05/2026",
+          "dias": "43",
+          "media": 1967.03
         },
         {
           "codcli": "31401",
@@ -23716,13 +23752,13 @@ const INATIVOS_DATA = {
           "media": 94.2
         },
         {
-          "codcli": "34478",
-          "cliente": "8ZH7 RESTAURANTE LTDA",
-          "bairro": "FUNCIONÁRIOS",
+          "codcli": "36199",
+          "cliente": "SEU FONSECA GASTRONOMIA CRIATIVA LTDA",
+          "bairro": "ESTORIL",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "28/05/2026",
           "dias": "43",
-          "media": 1967.03
+          "media": 70.68
         },
         {
           "codcli": "38919",
@@ -23752,27 +23788,18 @@ const INATIVOS_DATA = {
           "media": 1005.23
         },
         {
-          "codcli": "36199",
-          "cliente": "SEU FONSECA GASTRONOMIA CRIATIVA LTDA",
-          "bairro": "ESTORIL",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "28/05/2026",
-          "dias": "43",
-          "media": 70.68
-        },
-        {
-          "codcli": "30324",
+          "codcli": "39403",
           "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-          "bairro": "BELVEDERE",
+          "bairro": "COMITECO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/05/2026",
           "dias": "42",
           "media": 123.04
         },
         {
-          "codcli": "39403",
+          "codcli": "30324",
           "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-          "bairro": "COMITECO",
+          "bairro": "BELVEDERE",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/05/2026",
           "dias": "42",
@@ -23797,15 +23824,6 @@ const INATIVOS_DATA = {
           "media": 497.44
         },
         {
-          "codcli": "30705",
-          "cliente": "RUA DO JASMIM ALIMENTOS E BEBIDAS LTDA",
-          "bairro": "SANTO ANTÔNIO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "05/06/2026",
-          "dias": "35",
-          "media": 199.6
-        },
-        {
           "codcli": "30204",
           "cliente": "IDEAL COMERCIO DE ALIMENTOS LTDA",
           "bairro": "BURITIS",
@@ -23813,6 +23831,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "05/06/2026",
           "dias": "35",
           "media": 415.8
+        },
+        {
+          "codcli": "30705",
+          "cliente": "RUA DO JASMIM ALIMENTOS E BEBIDAS LTDA",
+          "bairro": "SANTO ANTÔNIO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "05/06/2026",
+          "dias": "35",
+          "media": 199.6
         },
         {
           "codcli": "37890",
@@ -23824,13 +23851,13 @@ const INATIVOS_DATA = {
           "media": 259.16
         },
         {
-          "codcli": "32135",
-          "cliente": "POINT BEER BETANIA LTDA",
-          "bairro": "BETANIA",
+          "codcli": "34226",
+          "cliente": "CLALUA COFFEE BREAK LTDA",
+          "bairro": "RIO BRANCO",
           "cidade": "BELO HORIZONTE",
-          "dtultcomp": "09/06/2026",
-          "dias": "31",
-          "media": 405.4
+          "dtultcomp": "08/06/2026",
+          "dias": "32",
+          "media": 219.67
         },
         {
           "codcli": "33456",
@@ -23851,13 +23878,22 @@ const INATIVOS_DATA = {
           "media": 554.07
         },
         {
-          "codcli": "34096",
-          "cliente": "MINAS 2000 LTDA",
-          "bairro": "MANGABEIRAS",
+          "codcli": "32135",
+          "cliente": "POINT BEER BETANIA LTDA",
+          "bairro": "BETANIA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "09/06/2026",
+          "dias": "31",
+          "media": 405.4
+        },
+        {
+          "codcli": "34958",
+          "cliente": "DIG EMPREENDIMENTOS - STUDIO BIKE LOURDES BH LTDA",
+          "bairro": "LOURDES",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "10/06/2026",
           "dias": "30",
-          "media": 1370.73
+          "media": 971.65
         },
         {
           "codcli": "33881",
@@ -23869,13 +23905,13 @@ const INATIVOS_DATA = {
           "media": 99.7
         },
         {
-          "codcli": "34958",
-          "cliente": "DIG EMPREENDIMENTOS - STUDIO BIKE LOURDES BH LTDA",
-          "bairro": "LOURDES",
+          "codcli": "34096",
+          "cliente": "MINAS 2000 LTDA",
+          "bairro": "MANGABEIRAS",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "10/06/2026",
           "dias": "30",
-          "media": 971.65
+          "media": 1370.73
         }
       ],
       "novos": [
