@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "10/07/2026 16:03",
+  "atualizado_em": "10/07/2026 16:18",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -483169,6 +483169,16 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 4,
           "valor": 599.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 129.84,
           "tipo": "Venda"
         },
         {

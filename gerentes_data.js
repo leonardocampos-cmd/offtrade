@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "10/07/2026 16:03",
+  "atualizado_em": "10/07/2026 16:18",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -586,8 +586,8 @@ const GERENTES_DATA = {
           "qt": 18156
         },
         "Jul/26": {
-          "fat": 304315.7,
-          "qt": 4207
+          "fat": 304445.54,
+          "qt": 4208
         },
         "Jun/26": {
           "fat": 1756160.17,
@@ -618,8 +618,8 @@ const GERENTES_DATA = {
               "qt": 18156
             },
             "Jul/26": {
-              "fat": 304315.7,
-              "qt": 4207
+              "fat": 304445.54,
+              "qt": 4208
             },
             "Jun/26": {
               "fat": 1756160.17,
@@ -650,8 +650,8 @@ const GERENTES_DATA = {
                   "qt": 18156
                 },
                 "Jul/26": {
-                  "fat": 304315.7,
-                  "qt": 4207
+                  "fat": 304445.54,
+                  "qt": 4208
                 },
                 "Jun/26": {
                   "fat": 1756160.17,
@@ -850,8 +850,8 @@ const GERENTES_DATA = {
                       "qt": 1375
                     },
                     "Jul/26": {
-                      "fat": 24016.86,
-                      "qt": 305
+                      "fat": 24146.7,
+                      "qt": 306
                     },
                     "Jun/26": {
                       "fat": 85308.22,
