@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "10/07/2026 16:24",
+  "atualizado_em": "10/07/2026 18:27",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -601,26 +601,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35727",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "ITAIPU (BARREIRO)",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
         "codcli": "35724",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MORADA DA SERRA",
@@ -647,9 +627,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35725",
+        "codcli": "35727",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MINEIRÃO",
+        "bairro": "ITAIPU (BARREIRO)",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -670,6 +650,26 @@ const NAO_POS_MG_DATA = {
         "codcli": "35726",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MILIONÁRIOS (BARREIRO)",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
+        "codcli": "35725",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "MINEIRÃO",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -1143,6 +1143,13 @@ const NAO_POS_MG_DATA = {
             "valor": 103.8
           }
         ]
+      },
+      {
+        "codcli": "39598",
+        "cliente": "CRISTIANA DE SOUZA LUZ BARBOSA",
+        "bairro": "NACIONAL",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "39539",
