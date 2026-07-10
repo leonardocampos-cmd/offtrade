@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "10/07/2026 10:14",
+  "atualizado_em": "10/07/2026 11:08",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,6 +50,11 @@ const VENDAS_ES_DATA = {
         "fat": 20294.13,
         "pos": 49,
         "fat_ant": 45028.72
+      },
+      "Jul/26": {
+        "fat": 58.32,
+        "pos": 2,
+        "fat_ant": 0.0
       }
     },
     "ALDICEIA PEIXOTO": {
@@ -184,8 +189,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 54947.54
       },
       "Jul/26": {
-        "fat": 2097.75,
-        "pos": 2,
+        "fat": 2301.87,
+        "pos": 8,
         "fat_ant": 52191.39
       }
     },
@@ -13304,6 +13309,26 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 2,
           "valor": 54.12
+        }
+      ],
+      "Jul/26": [
+        {
+          "data": "10/07/2026",
+          "codcli": "71151",
+          "cliente": "LEDAN COMERCIAL LTDA",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "71150",
+          "cliente": "V. R. ALVES LTDA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
         }
       ]
     },
@@ -48151,6 +48176,69 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 488.88
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "82529",
+          "cliente": "VILA DA PRAIA LTDA",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "71748",
+          "cliente": "DIAS & DIAS COMERCIO E SERVICOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "71748",
+          "cliente": "DIAS & DIAS COMERCIO E SERVICOS LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "82528",
+          "cliente": "ENCONTRO DA PRAIA LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "84776",
+          "cliente": "RAYANE LIMA SOARES",
+          "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "74335",
+          "cliente": "JERE HOSTEL BAR LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "76381",
+          "cliente": "KIOSQUE ALEMAO LTDA",
+          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
         },
         {
           "data": "03/07/2026",
