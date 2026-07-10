@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "10/07/2026 16:09",
+  "atualizado_em": "10/07/2026 16:23",
   "data_rota": "10.07",
   "vendedores": [
     {
@@ -71,6 +71,11 @@ const ENTREGAS_DATA = {
           "total": 454.31,
           "itens": [
             {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 12,
+              "val": 166.8
+            },
+            {
               "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
               "qt": 12,
               "val": 81.84
@@ -91,20 +96,17 @@ const ENTREGAS_DATA = {
               "val": 25.9
             },
             {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 12,
-              "val": 166.8
-            },
-            {
               "desc": "GUARAVITA NATURAL 24X290ML",
               "qt": 4,
               "val": 127.97
             }
           ]
-        },
+        }
+      ],
+      "emitido_s_rota": [
         {
           "numped": "431001125",
-          "numnota": "",
+          "numnota": "411144",
           "data": "10/07/2026",
           "cliente": "CANTINA QUINTAL CARIOCA LTDA",
           "placa": "",
@@ -126,9 +128,7 @@ const ENTREGAS_DATA = {
               "val": 34.13
             }
           ]
-        }
-      ],
-      "emitido_s_rota": [
+        },
         {
           "numped": "431001126",
           "numnota": "877901",
@@ -1474,6 +1474,31 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "471000421",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "BAR E RESTAURANTE SOUSA SOUTO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 728.4,
+          "itens": [
+            {
+              "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+              "qt": 2,
+              "val": 549.6
+            },
+            {
+              "desc": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+              "qt": 1,
+              "val": 178.8
+            }
+          ]
+        },
+        {
           "numped": "471000420",
           "numnota": "",
           "data": "10/07/2026",
@@ -1509,31 +1534,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "471000421",
-          "numnota": "",
-          "data": "10/07/2026",
-          "cliente": "BAR E RESTAURANTE SOUSA SOUTO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 728.4,
-          "itens": [
-            {
-              "desc": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
-              "qt": 1,
-              "val": 178.8
-            },
-            {
-              "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
-              "qt": 2,
-              "val": 549.6
-            }
-          ]
-        },
-        {
           "numped": "471000406",
           "numnota": "",
           "data": "07/07/2026",
@@ -1547,14 +1547,14 @@ const ENTREGAS_DATA = {
           "total": 143.85,
           "itens": [
             {
-              "desc": "AGUA NA CAIXA 12X500ML",
-              "qt": 2,
-              "val": 71.8
-            },
-            {
               "desc": "BAER MATE LN  6X350ML",
               "qt": 2,
               "val": 72.05
+            },
+            {
+              "desc": "AGUA NA CAIXA 12X500ML",
+              "qt": 2,
+              "val": 71.8
             }
           ]
         },
@@ -5925,11 +5925,6 @@ const ENTREGAS_DATA = {
           "total": 376.39,
           "itens": [
             {
-              "desc": "PINATI SLIM WHEY BRIGADEIRO (4) 16X35G",
-              "qt": 1,
-              "val": 59.9
-            },
-            {
               "desc": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
               "qt": 1,
               "val": 47.9
@@ -5963,6 +5958,11 @@ const ENTREGAS_DATA = {
               "desc": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
               "qt": 1,
               "val": 51.49
+            },
+            {
+              "desc": "PINATI SLIM WHEY BRIGADEIRO (4) 16X35G",
+              "qt": 1,
+              "val": 59.9
             }
           ]
         },
@@ -6699,26 +6699,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "159005023",
-          "numnota": "",
-          "data": "10/07/2026",
-          "cliente": "JOSE MAR RESTAURANTE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 539.4,
-          "itens": [
-            {
-              "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
-              "qt": 6,
-              "val": 539.4
-            }
-          ]
-        },
-        {
           "numped": "159005024",
           "numnota": "",
           "data": "10/07/2026",
@@ -6731,6 +6711,16 @@ const ENTREGAS_DATA = {
           "obs": "",
           "total": 4974.2,
           "itens": [
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 6,
+              "val": 359.4
+            },
+            {
+              "desc": "HUMB. CANALE DENARIO MALBEC 750ML",
+              "qt": 6,
+              "val": 377.4
+            },
             {
               "desc": "LICOR BALLENA MORANGO 750 ML",
               "qt": 2,
@@ -6800,16 +6790,86 @@ const ENTREGAS_DATA = {
               "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
               "qt": 6,
               "val": 341.4
+            }
+          ]
+        },
+        {
+          "numped": "159005023",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "JOSE MAR RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 539.4,
+          "itens": [
+            {
+              "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
+              "qt": 6,
+              "val": 539.4
+            }
+          ]
+        },
+        {
+          "numped": "159005026",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "JOSE MAR RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 220.41,
+          "itens": [
+            {
+              "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
+              "qt": 2,
+              "val": 117.24
             },
             {
-              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-              "qt": 6,
-              "val": 359.4
+              "desc": "VINHO CAZAS NOVAS COLHEITA 750ML",
+              "qt": 1,
+              "val": 58.62
             },
             {
-              "desc": "HUMB. CANALE DENARIO MALBEC 750ML",
+              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+              "qt": 1,
+              "val": 44.55
+            }
+          ]
+        },
+        {
+          "numped": "159005025",
+          "numnota": "",
+          "data": "10/07/2026",
+          "cliente": "R NICOLI EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1648.2,
+          "itens": [
+            {
+              "desc": "CHANDON RESERVE BRUT ROSE 750ML",
               "qt": 6,
-              "val": 377.4
+              "val": 455.4
+            },
+            {
+              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+              "qt": 6,
+              "val": 443.4
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 6,
+              "val": 749.4
             }
           ]
         },
@@ -8619,9 +8679,9 @@ const ENTREGAS_DATA = {
           "total": 2799.36,
           "itens": [
             {
-              "desc": "RED BULL ZERO  24X250ML",
-              "qt": 5,
-              "val": 874.8
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 174.96
             },
             {
               "desc": "RED BULL MELANCIA 250ML CX C/24",
@@ -8629,9 +8689,9 @@ const ENTREGAS_DATA = {
               "val": 1749.6
             },
             {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 174.96
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 5,
+              "val": 874.8
             }
           ]
         }
@@ -11454,14 +11514,14 @@ const ENTREGAS_DATA = {
           "total": 260.96,
           "itens": [
             {
-              "desc": "GUARAVITON GINSENG 12X500ML",
-              "qt": 1,
-              "val": 37.01
-            },
-            {
               "desc": "GUARAVITA NATURAL 24X290ML",
               "qt": 7,
               "val": 223.95
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 1,
+              "val": 37.01
             }
           ]
         }
