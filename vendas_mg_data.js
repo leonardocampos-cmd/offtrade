@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "10/07/2026 14:11",
+  "atualizado_em": "10/07/2026 14:26",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 66921.94,
+        "fat": 67701.64,
         "pos": 50,
         "fat_ant": 343937.59
       }
@@ -209,8 +209,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 123153.96,
-        "pos": 6,
+        "fat": 130754.16,
+        "pos": 7,
         "fat_ant": 1039602.9
       }
     },
@@ -236,7 +236,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 23832.16,
+        "fat": 24016.86,
         "pos": 25,
         "fat_ant": 85308.22
       }
@@ -263,8 +263,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 53560.12
       },
       "Jul/26": {
-        "fat": 11974.76,
-        "pos": 14,
+        "fat": 13653.56,
+        "pos": 15,
         "fat_ant": 51108.92
       }
     }
@@ -45365,6 +45365,15 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "10/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
+          "fantasia": "NSG",
+          "qt": 3,
+          "valor": 779.7
+        },
+        {
+          "data": "10/07/2026",
           "codcli": "33350",
           "cliente": "CASA QUATRO RECEPCOES LTDA",
           "produto": "XAROPE MONIN AMORA (BLACKBERRY) 700 ML",
@@ -73793,6 +73802,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 6,
           "valor": 2077.08
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "fantasia": "",
+          "qt": 192,
+          "valor": 4588.8
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "XAROPE  MONIN TANGERINA 330 ML",
+          "fantasia": "",
+          "qt": 102,
+          "valor": 2437.8
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 573.6
         }
       ]
     },
@@ -84029,6 +84065,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 149.8
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 1,
+          "valor": 59.9
         }
       ]
     },
@@ -87785,6 +87848,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 74.9
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "39110",
+          "cliente": "EMPORIO LOS MANOS LTDA",
+          "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1678.8
         }
       ]
     }
