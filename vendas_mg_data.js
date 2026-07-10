@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "09/07/2026 17:22",
+  "atualizado_em": "10/07/2026 09:20",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 54849.66,
-        "pos": 45,
+        "fat": 64767.34,
+        "pos": 49,
         "fat_ant": 343937.59
       }
     },
@@ -82,8 +82,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 17861.86,
-        "pos": 15,
+        "fat": 61146.68,
+        "pos": 18,
         "fat_ant": 170338.38
       }
     },
@@ -263,8 +263,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 53560.12
       },
       "Jul/26": {
-        "fat": 9692.76,
-        "pos": 12,
+        "fat": 11974.76,
+        "pos": 14,
         "fat_ant": 51108.92
       }
     }
@@ -45059,12 +45059,192 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "09/07/2026",
+          "codcli": "29985",
+          "cliente": "BAR E RESTAURANTE CORDEIRO EIRELI",
+          "produto": "WHISKY OLD PARR GOLD 1 L",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 899.4
+        },
+        {
+          "data": "09/07/2026",
           "codcli": "30091",
           "cliente": "COMERCIAL COLOMBO EIRELI",
           "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
           "fantasia": "",
           "qt": 12,
           "valor": 658.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "39391",
+          "cliente": "MAGNIFICO LGP LTDA",
+          "produto": "CERVEJA AMSTEL RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 3,
+          "valor": 438.48
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37220",
+          "cliente": "JANUZZI PADARIA E CONFEITARIA LTDA",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 191.76
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37220",
+          "cliente": "JANUZZI PADARIA E CONFEITARIA LTDA",
+          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 107.6
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37220",
+          "cliente": "JANUZZI PADARIA E CONFEITARIA LTDA",
+          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 107.6
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30347",
+          "cliente": "DUARTE DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1678.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30347",
+          "cliente": "DUARTE DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 874.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30347",
+          "cliente": "DUARTE DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 1193.4
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30347",
+          "cliente": "DUARTE DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 31.96
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30347",
+          "cliente": "DUARTE DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "XAROPE  MONIN CARAMELO SALGADO 700 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 149.7
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 191.76
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37208",
+          "cliente": "JT BARES LTDA",
+          "produto": "XAROPE MONIN GRENADINE 700 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 299.4
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37208",
+          "cliente": "JT BARES LTDA",
+          "produto": "XAROPE MONIN GENGIBRE 330 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 49.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37208",
+          "cliente": "JT BARES LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 146.7
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37208",
+          "cliente": "JT BARES LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 31.96
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "37208",
+          "cliente": "JT BARES LTDA",
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 273.52
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "31632",
+          "cliente": "TONEL BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 898.8
         },
         {
           "data": "09/07/2026",
@@ -45119,6 +45299,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 139.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "33011",
+          "cliente": "YOKAI BAR LTDA",
+          "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 3,
+          "valor": 431.28
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "33011",
+          "cliente": "YOKAI BAR LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 8,
+          "valor": 1150.08
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "33011",
+          "cliente": "YOKAI BAR LTDA",
+          "produto": "RUM BACARDI CARTA BLANCA 980 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 195.6
         }
       ]
     },
@@ -52705,6 +52912,33 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "09/07/2026",
+          "codcli": "38180",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE VENEZA LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 119.9
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "38180",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE VENEZA LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 129.9
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "38180",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE VENEZA LTDA",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 87.8
+        },
+        {
+          "data": "09/07/2026",
           "codcli": "37718",
           "cliente": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS LTDA",
           "produto": "JACK DANIELS HONEY 1 L",
@@ -52747,6 +52981,195 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 60,
           "valor": 2094.0
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "38183",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE JARDIM LAGUNA LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 129.9
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "38183",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE JARDIM LAGUNA LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 259.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "38183",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE JARDIM LAGUNA LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 119.9
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 2253.6
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 36,
+          "valor": 1256.4
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "fantasia": "",
+          "qt": 13,
+          "valor": 1712.88
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 4803.84
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 4803.84
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "",
+          "qt": 21,
+          "valor": 4203.36
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 43,
+          "valor": 8606.88
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 958.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+          "fantasia": "",
+          "qt": 13,
+          "valor": 2602.08
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL NECTARINA SF 24X250ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 1601.28
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 2401.92
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 1234.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL SF POMELO 24X250ML",
+          "fantasia": "",
+          "qt": 11,
+          "valor": 2201.76
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 13,
+          "valor": 2602.08
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 706.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "35122",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE LIBERDADE PLUS LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 159.9
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "35122",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE LIBERDADE PLUS LTDA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 87.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "35122",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE LIBERDADE PLUS LTDA",
+          "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 239.6
         },
         {
           "data": "09/07/2026",
@@ -87239,6 +87662,24 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "09/07/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 224.7
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 279.8
+        },
+        {
+          "data": "09/07/2026",
           "codcli": "39542",
           "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
           "produto": "APERITIVO CAMPARI 998 ML",
@@ -87254,6 +87695,69 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 7,
           "valor": 510.3
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "35813",
+          "cliente": "CHAMA DISTRIBUIDORA LTDA",
+          "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 839.4
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "39185",
+          "cliente": "49.581.751 EDER PERONA ZUIM",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 141.8
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "39185",
+          "cliente": "49.581.751 EDER PERONA ZUIM",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 47.9
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "39185",
+          "cliente": "49.581.751 EDER PERONA ZUIM",
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 129.9
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "39176",
+          "cliente": "PASCOAL BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 419.7
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "39176",
+          "cliente": "PASCOAL BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 123.9
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "39176",
+          "cliente": "PASCOAL BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 74.9
         }
       ]
     }
