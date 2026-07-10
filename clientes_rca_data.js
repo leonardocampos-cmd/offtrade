@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/07/2026 09:23",
-  "total": 4382,
+  "atualizado_em": "10/07/2026 10:16",
+  "total": 4383,
   "clientes": [
     {
       "codcli": "31683",
@@ -49474,6 +49474,20 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "35.027.636/0001-01",
       "estado": "RJ",
       "ramo": "MERCADO",
+      "codusur1": "379",
+      "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95634",
+      "razao": "RAMIGOS SUPERMERCADOS S.A.",
+      "fantasia": "SUPERMARKET",
+      "bairro": "ANCHIETA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "11.552.261/0001-30",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "",
