@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/07/2026 13:49",
-  "total": 4391,
+  "atualizado_em": "10/07/2026 14:12",
+  "total": 4392,
   "clientes": [
     {
       "codcli": "31683",
@@ -17091,7 +17091,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DAS OSTRAS",
       "cnpj": "14.754.773/0001-78",
       "estado": "RJ",
-      "ramo": "OUTROS",
+      "ramo": "SERVIÇOS",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "313",
@@ -28310,6 +28310,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "90510",
+      "razao": "JOELI CARVALHO BUFFET & EVENTOS LTDA",
+      "fantasia": "JOELI CARVALHO BUFFET & EVENTOS",
+      "bairro": "LAGOMAR",
+      "cidade": "MACAE",
+      "cnpj": "22.112.979/0001-22",
+      "estado": "RJ",
+      "ramo": "EVENTOS",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "229",
+      "nome_usur2": "LUIZA HASSEN"
     },
     {
       "codcli": "28488",
@@ -41871,7 +41885,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "NITEROI",
       "cnpj": "57.657.970/0001-81",
       "estado": "RJ",
-      "ramo": "BAR",
+      "ramo": "DELIVERY",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "43",
