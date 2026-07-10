@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "10/07/2026 11:24",
+  "atualizado_em": "10/07/2026 13:48",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -6861,6 +6861,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51444",
+        "cliente": "MARIA DENIR FONSECA DA SILVA",
+        "bairro": "CIDADE JARDIM",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51138",
         "cliente": "MARIA DENIR FONSECA DA SILVA",
         "bairro": "RESIDENCIAL SEBASTIANI",
@@ -6868,9 +6875,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51444",
-        "cliente": "MARIA DENIR FONSECA DA SILVA",
-        "bairro": "CIDADE JARDIM",
+        "codcli": "51701",
+        "cliente": "SC SUPERMERCADO LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51702",
+        "cliente": "SC SUPERMERCADO LTDA",
+        "bairro": "JARDIM ROSA GARCIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8090,13 +8104,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50929",
-        "cliente": "OFELIA SARRI MORETE",
-        "bairro": "CHACARAS FAZENDA COELHO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "50930",
         "cliente": "OFELIA SARRI MORETE",
         "bairro": "JARDIM DAS COLINAS",
@@ -8104,9 +8111,23 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "50929",
+        "cliente": "OFELIA SARRI MORETE",
+        "bairro": "CHACARAS FAZENDA COELHO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51088",
         "cliente": "SUPERMERCADO JARDIM PARAISO LTDA",
         "bairro": "PARQUE DA FELICIDADE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51699",
+        "cliente": "SUPERMERCADO PARE & LEVE LTDA.",
+        "bairro": "JURACI ALVES GALDINO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8547,16 +8568,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51642",
+        "codcli": "51637",
         "cliente": "SUPERMERCADO APR LTDA",
-        "bairro": "PARQUE DAS BANDEIRAS",
+        "bairro": "REAL",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51637",
+        "codcli": "51642",
         "cliente": "SUPERMERCADO APR LTDA",
-        "bairro": "REAL",
+        "bairro": "PARQUE DAS BANDEIRAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8904,6 +8925,13 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "51700",
+        "cliente": "49.744.575 FERNANDA VITOR DE OLIVEIRA",
+        "bairro": "VILA SAO SALVADOR",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51395",
         "cliente": "DONNA MARIA SUPERMERCADOS LTDA",
         "bairro": "RESIDENCIAL HOLAMBRA II (CAMPOS DE HOLAM",
@@ -9039,16 +9067,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51363",
+        "codcli": "51362",
         "cliente": "MERCEARIA BARATEIRO DO VALE LTDA",
-        "bairro": "VILA SANCHES",
+        "bairro": "FLORESTA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51362",
+        "codcli": "51363",
         "cliente": "MERCEARIA BARATEIRO DO VALE LTDA",
-        "bairro": "FLORESTA",
+        "bairro": "VILA SANCHES",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -9130,16 +9158,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51481",
+        "codcli": "51479",
         "cliente": "SUPERMERCADO TIO BEBA LTDA",
         "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51480",
-        "cliente": "SUPERMERCADO TIO BEBA LTDA",
-        "bairro": "13 93847-1138",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -9151,9 +9172,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51479",
+        "codcli": "51481",
         "cliente": "SUPERMERCADO TIO BEBA LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51480",
+        "cliente": "SUPERMERCADO TIO BEBA LTDA",
+        "bairro": "13 93847-1138",
         "dtultcomp": "nan",
         "produtos": []
       },
