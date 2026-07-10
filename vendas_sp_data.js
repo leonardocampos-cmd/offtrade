@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "10/07/2026 11:23",
+  "atualizado_em": "10/07/2026 13:47",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -38536,15 +38536,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "CRS BRANDS",
           "qt": 240,
           "valor": 2397.6
-        },
-        {
-          "data": "09/07/2026",
-          "codcli": "27228",
-          "cliente": "BOB PECHINCA ATACADISTA LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 1680,
-          "valor": 41832.0
         },
         {
           "data": "08/07/2026",
@@ -88371,9 +88362,9 @@ const VENDAS_SP_DATA = {
     },
     "ADER ALONSO": {
       "Jul/26": {
-        "fat": 163554.82,
+        "fat": 121722.82,
         "pos": 19.0,
-        "fat_pernod": 113832.3,
+        "fat_pernod": 72000.3,
         "fat_crs": 3596.4
       },
       "Jun/26": {
