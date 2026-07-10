@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "10/07/2026 11:24",
+  "atualizado_em": "10/07/2026 13:47",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 63769.34,
-        "pos": 49,
+        "fat": 66921.94,
+        "pos": 50,
         "fat_ant": 343937.59
       }
     },
@@ -204,14 +204,14 @@ const VENDAS_MG_DATA = {
         "fat_ant": 1106013.96
       },
       "Jun/26": {
-        "fat": 1043277.9,
+        "fat": 1039602.9,
         "pos": 12,
         "fat_ant": 896376.5
       },
       "Jul/26": {
         "fat": 123153.96,
         "pos": 6,
-        "fat_ant": 1043277.9
+        "fat_ant": 1039602.9
       }
     },
     "TIAGO ANDRADE": {
@@ -45317,6 +45317,60 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 4,
           "valor": 195.6
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 389.7
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 239.7
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "PURE MONIN FRUTAS VERMELHAS 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "AGUA MINERAL PERRIER C/GÁS 330 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 335.6
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "MOET CHANDON BRUT IMPERIAL 750 NPP",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 1079.8
+        },
+        {
+          "data": "10/07/2026",
+          "codcli": "33350",
+          "cliente": "CASA QUATRO RECEPCOES LTDA",
+          "produto": "XAROPE MONIN AMORA (BLACKBERRY) 700 ML",
+          "fantasia": "",
+          "qt": 20,
+          "valor": 998.0
         }
       ]
     },
@@ -73404,24 +73458,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 60,
           "valor": 1470.0
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "30231",
-          "cliente": "ORGANIZACAO VERDEMAR LTDA",
-          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-          "fantasia": "",
-          "qt": 30,
-          "valor": 735.0
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "30231",
-          "cliente": "ORGANIZACAO VERDEMAR LTDA",
-          "produto": "XAROPE  MONIN TANGERINA 330 ML",
-          "fantasia": "",
-          "qt": 120,
-          "valor": 2940.0
         },
         {
           "data": "30/06/2026",
