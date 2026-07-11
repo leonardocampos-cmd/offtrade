@@ -1894,17 +1894,21 @@ function _buildResumoEquipe(vendedores, mes) {
     const fatM = _mv(pm, 'fat_tt', 'meta');
     return s + (fatM > 0 ? _mv(pm, 'fat_tt', 'realizado') : _fatVendasMes(v.nome, mes));
   }, 0);
+  const totalFatMeta = vendedores.reduce((s, v) => s + _mv(_pm(v, mes), 'fat_tt', 'meta'), 0);
   const totalPos = vendedores.reduce((s, v) => s + _mv(_pm(v, mes), 'pos_tt', 'realizado'), 0);
+  const totalPosMeta = vendedores.reduce((s, v) => s + _mv(_pm(v, mes), 'pos_tt', 'meta'), 0);
   const totalCad = vendedores.reduce((s, v) => s + (v.clientes_cadastrados || 0), 0);
   return `
     <div class="vendas-resumo" style="margin-bottom:18px">
       <div class="vendas-resumo-box">
         <div class="vendas-resumo-label">Faturamento Total</div>
         <div class="vendas-resumo-val">${fmtFat(totalFat)}</div>
+        ${totalFatMeta ? `<div style="font-size:.7rem;color:var(--muted);margin-top:2px">Meta: ${fmtFat(totalFatMeta)}</div>` : ''}
       </div>
       <div class="vendas-resumo-box">
         <div class="vendas-resumo-label">Positivação</div>
         <div class="vendas-resumo-val">${fmtPos(totalPos)} clientes</div>
+        ${totalPosMeta ? `<div style="font-size:.7rem;color:var(--muted);margin-top:2px">Meta: ${Math.round(totalPosMeta)} clientes</div>` : ''}
       </div>
       <div class="vendas-resumo-box">
         <div class="vendas-resumo-label">Cadastros no mês</div>
