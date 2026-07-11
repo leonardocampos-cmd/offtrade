@@ -4,7 +4,7 @@ import re
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
-from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, carregar_dados, arquivo as _arquivo_meta
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, carregar_dados, arquivo as _arquivo_meta, nome_display_por_oracle
 
 DT_INI = "2026-05-25"
 DT_FIM = "2026-06-25"
@@ -70,11 +70,7 @@ _map_rca['RCA'] = pd.to_numeric(_map_rca['RCA'], errors='coerce')
 _arq = _arquivo_meta[['RCA', 'VENDEDOR']].dropna(subset=['RCA', 'VENDEDOR']).drop_duplicates('RCA').copy()
 _arq['RCA'] = pd.to_numeric(_arq['RCA'], errors='coerce')
 _merged = _map_rca.merge(_arq, on='RCA', how='left')
-_oracle_to_display = {
-    str(r['NOME']): str(r['VENDEDOR'])
-    for _, r in _merged.iterrows()
-    if pd.notna(r.get('VENDEDOR')) and str(r.get('VENDEDOR')) not in ('nan', '')
-}
+_oracle_to_display = nome_display_por_oracle(_merged)
 
 def _nome(oracle):
     return _oracle_to_display.get(str(oracle), str(oracle))

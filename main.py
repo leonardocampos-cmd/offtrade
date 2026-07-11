@@ -1,5 +1,6 @@
 import os
 import sys
+import atexit
 import traceback
 from datetime import datetime
 from pathlib import Path
@@ -15,7 +16,37 @@ def step(nome):
     print(f"  {nome}")
     print(f"{'-' * 50}")
 
+# O pipeline roda de forma independente em dois lugares (Task Scheduler local,
+# de hora em hora, e cron da VPS em horário comercial) — sem essa trava, duas
+# execuções concorrentes escrevem nos mesmos _data.js/git ao mesmo tempo
+# (aconteceu em 2026-07-06, gerou commits duplicados em sequência).
+LOCK_PATH = Path(__file__).parent / ".pipeline.lock"
+LOCK_EXPIRA_SEG = 3600  # pipeline normal leva minutos a ~45min; acima disso, trava é considerada órfã
+
+def _adquirir_lock():
+    if LOCK_PATH.exists():
+        try:
+            _, timestamp_str = LOCK_PATH.read_text(encoding='utf-8').strip().split('|', 1)
+            idade = (datetime.now() - datetime.fromisoformat(timestamp_str)).total_seconds()
+        except Exception:
+            idade = None
+        if idade is not None and idade < LOCK_EXPIRA_SEG:
+            print(f"[AVISO] Já existe uma execução do pipeline em andamento (lock criado há {int(idade)}s) — abortando esta execução para não escrever em cima dela.")
+            sys.exit(0)
+        else:
+            print("[AVISO] Lock encontrado mas expirado/inválido — assumindo execução anterior travada, prosseguindo.")
+    LOCK_PATH.write_text(f"{os.getpid()}|{datetime.now().isoformat()}", encoding='utf-8')
+    atexit.register(_liberar_lock)
+
+def _liberar_lock():
+    try:
+        LOCK_PATH.unlink(missing_ok=True)
+    except Exception:
+        pass
+
 def main():
+    _adquirir_lock()
+
     inicio = datetime.now()
     print(f"\n{'='*50}")
     print(f"  OFFTRADE - {inicio.strftime('%d/%m/%Y %H:%M')}")

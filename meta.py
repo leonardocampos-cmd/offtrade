@@ -62,7 +62,17 @@ engine_mgon = create_engine(
 # avisar o usuário em metas.html que os resultados podem estar incompletos.
 FONTES_INDISPONIVEIS: list[str] = []
 
+# Engines que já esgotaram as tentativas nesta mesma execução (processo). Um
+# script como exportacao_meta.py consulta a mesma fonte várias vezes (vendas,
+# histórico, hierarquia, map_rca...); se a fonte já caiu na 1ª chamada, não
+# faz sentido pagar 3 tentativas x 20s de novo em cada chamada seguinte —
+# assume-se indisponível pro resto do processo e falha na hora.
+_FONTES_MORTAS: dict[int, Exception] = {}
+
 def carregar_dados(query, engine, nome_tabela="tabela", max_tentativas=3):
+    if id(engine) in _FONTES_MORTAS:
+        print(f"-> Pulando {nome_tabela}: fonte já indisponível nesta execução")
+        raise _FONTES_MORTAS[id(engine)]
     for tentativa in range(1, max_tentativas + 1):
         try:
             print(f"-> Lendo {nome_tabela} (Tentativa {tentativa}/{max_tentativas})...")
@@ -80,7 +90,23 @@ def carregar_dados(query, engine, nome_tabela="tabela", max_tentativas=3):
             if tentativa < max_tentativas:
                 time.sleep(10)
             else:
+                _FONTES_MORTAS[id(engine)] = e
                 raise e
+
+def nome_display_por_oracle(df_com_nome, coluna_nome='NOME', coluna_display='VENDEDOR'):
+    """Mapa NOME Oracle (string) -> nome de exibição.
+
+    Chaveado por NOME, não por RCA: o número de CODUSUR é atribuído
+    independentemente por sistema (CRC, thekings, CASTAS, GARRIDO, SPON,
+    MGON), então dois vendedores diferentes em dois sistemas diferentes podem
+    ter o mesmo RCA — mapear por RCA cru causaria venda atribuída ao
+    vendedor errado quando os códigos colidem entre sistemas.
+    """
+    return {
+        str(r[coluna_nome]): str(r[coluna_display])
+        for _, r in df_com_nome.drop_duplicates(subset=[coluna_nome]).iterrows()
+        if pd.notna(r.get(coluna_nome)) and pd.notna(r.get(coluna_display))
+    }
 
 def _query_vendas(schema=None, mes_anterior=False, filtro_filial="(1,2,4)", filtro_estent=None):
     p = f"{schema}." if schema else ""

@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import date, datetime
 from pathlib import Path
 import re as _re
-from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, arquivo, carregar_dados, FONTES_INDISPONIVEIS
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, arquivo, carregar_dados, FONTES_INDISPONIVEIS, nome_display_por_oracle
 import nao_positivados as _np_mod
 
 _df_nao_pos = _np_mod.nao_positivados_full
@@ -135,28 +135,13 @@ _vh['CLIENTE']  = _vh['CLIENTE'].fillna(_vh['CODCLI'])
 _vh['FANTASIA'] = _vh['FANTASIA'].fillna('')
 _vh['PRODUTO']  = _vh['PRODUTO'].fillna('')
 
-# RCA → display name (relação pelo código, não pelo nome)
-_rca_to_display = {
-    int(r['RCA']): str(r['VENDEDOR'])
-    for _, r in metas_com_nome.drop_duplicates(subset=['RCA']).iterrows()
-    if pd.notna(r.get('RCA')) and pd.notna(r.get('VENDEDOR'))
-}
-# Fallback: usa nome Oracle para RCAs que não estão no arquivo de metas
-_rca_to_nome_oracle = {
-    int(r['RCA']): str(r['NOME'])
-    for _, r in map_rca.dropna(subset=['RCA', 'NOME']).iterrows()
-    if pd.notna(r.get('RCA'))
-}
-_vh['VENDEDOR'] = _vh['RCA'].map(_rca_to_display).fillna(_vh['RCA'].map(_rca_to_nome_oracle))
+# Oracle name → display name (ver meta.nome_display_por_oracle)
+_oracle_to_display = nome_display_por_oracle(metas_com_nome)
+# NOME_ORACLE já vem correto por linha (JOIN feito dentro do schema de origem
+# da venda) — usa ele direto em vez de reidentificar o vendedor por RCA global.
+_vh['VENDEDOR'] = _vh['NOME_ORACLE'].map(_oracle_to_display).fillna(_vh['NOME_ORACLE'])
 _vh = _vh[_vh['VENDEDOR'].notna()].copy()
 _vh['MES_STR'] = _vh['MES'].apply(_mes_pt)
-
-# Oracle name → display name (mantido apenas para cadastros)
-_oracle_to_display = {
-    str(r['NOME']): str(r['VENDEDOR'])
-    for _, r in metas_com_nome.drop_duplicates(subset=['NOME']).iterrows()
-    if pd.notna(r.get('NOME'))
-}
 
 _vh_grouped = _vh.groupby(['VENDEDOR', 'MES_STR'])
 
@@ -297,6 +282,7 @@ def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extr
         SELECT
             TRUNC(M.DTMOV, 'MM')         AS MES,
             M.CODUSUR                     AS CODUSUR,
+            U.NOME                         AS NOME_ORACLE,
             SUM(M.PUNIT * M.QT)          AS FATURAMENTO,
             COUNT(DISTINCT M.CODCLI)     AS POSITIVACAO
         FROM {s}.PCMOV M
@@ -306,7 +292,7 @@ def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extr
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL
           AND {nome_f}{extra_filial}{extra_estent}
-        GROUP BY TRUNC(M.DTMOV, 'MM'), M.CODUSUR
+        GROUP BY TRUNC(M.DTMOV, 'MM'), M.CODUSUR, U.NOME
     """
 
 _hist_parts = []
@@ -329,7 +315,6 @@ _hist_raw['MES']         = pd.to_datetime(_hist_raw['MES'], errors='coerce')
 _hist_raw['FATURAMENTO'] = pd.to_numeric(_hist_raw['FATURAMENTO'], errors='coerce').fillna(0)
 _hist_raw['POSITIVACAO'] = pd.to_numeric(_hist_raw['POSITIVACAO'], errors='coerce').fillna(0).astype(int)
 _hist_raw['CODUSUR']     = pd.to_numeric(_hist_raw['CODUSUR'], errors='coerce')
-_hist_raw = _hist_raw.merge(map_rca.rename(columns={'NOME': 'NOME_ORACLE'}), left_on='CODUSUR', right_on='RCA', how='left')
 
 def monthly_series(nome_oracle):
     df = _hist_raw[_hist_raw['NOME_ORACLE'] == nome_oracle].copy()
@@ -613,8 +598,9 @@ if _hier_parts:
         rca_num = hier_row['CODUSUR']
         if pd.isna(rca_num):
             continue
-        rca_int      = int(rca_num)
-        nome_display = _rca_to_display.get(rca_int) or _rca_to_nome_oracle.get(rca_int)
+        rca_int         = int(rca_num)
+        nome_oracle_hier = str(hier_row.get('NOME_VENDEDOR', '') or '')
+        nome_display     = _oracle_to_display.get(nome_oracle_hier) or nome_oracle_hier or None
         if not nome_display:
             continue
 

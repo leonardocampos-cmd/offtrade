@@ -1230,6 +1230,16 @@ function renderDetail(v, mes) {
   function r(c) { return _mv(pm, c, 'realizado'); }
   function m(c) { return _mv(pm, c, 'meta'); }
 
+  const _p = v.previsao;
+  const _duRestantes = _p ? _p.du_total - _p.du_passados : 0;
+  const _necHtml = (campo, fmt) => {
+    if (!_duRestantes || !m(campo)) return '';
+    const necDia = (m(campo) - r(campo)) / _duRestantes;
+    const cor = necDia <= 0 ? 'var(--green)' : 'var(--text)';
+    const txt = necDia <= 0 ? '&#10003; Meta atingida' : `Necess./dia (${_duRestantes}d): ${fmt(necDia)}`;
+    return `<div style="font-size:.68rem;color:${cor};margin-top:2px">${txt}</div>`;
+  };
+
   document.getElementById('header-sub').textContent = `Atualizado ${METAS_DATA.atualizado_em}`;
 
   const mesOpts = _todosMeses().map(mo =>
@@ -1252,9 +1262,11 @@ function renderDetail(v, mes) {
       <div id="sec-metas" class="sec-body open">
         <div class="vendas-kpis" style="margin-top:12px">
           <div><div class="kpi-label">Faturamento</div><div class="kpi-val">${fmtFat(r('fat_tt'))}</div>
-            ${m('fat_tt') ? `<div style="font-size:.68rem;color:var(--muted)">Meta: ${fmtFat(m('fat_tt'))}</div>` : ''}</div>
+            ${m('fat_tt') ? `<div style="font-size:.68rem;color:var(--muted)">Meta: ${fmtFat(m('fat_tt'))}</div>` : ''}
+            ${_necHtml('fat_tt', fmtFat)}</div>
           <div><div class="kpi-label">Positivação</div><div class="kpi-val">${r('pos_tt')}</div>
-            ${m('pos_tt') ? `<div style="font-size:.68rem;color:var(--muted)">Meta: ${m('pos_tt')}</div>` : ''}</div>
+            ${m('pos_tt') ? `<div style="font-size:.68rem;color:var(--muted)">Meta: ${m('pos_tt')}</div>` : ''}
+            ${_necHtml('pos_tt', v2 => Number(v2).toFixed(1) + ' clientes')}</div>
           <div><div class="kpi-label">Cadastros</div><div class="kpi-val">${v.clientes_cadastrados || 0}</div></div>
         </div>
         ${buildBar('Fat. Total',         r('fat_tt'),              m('fat_tt'),              'fat')}
@@ -1814,22 +1826,27 @@ function buildMovingDetail(v, mes) {
 
 // ── Filtro Gerente / Supervisor ───────────────────────────────────────────────
 
+const _ESTADO_ATUAL = 'RJ';
+
 let _filtroGerente    = '';
 let _filtroSupervisor = '';
 
-function _getGerentes() {
+function _estadosAtuais() {
   if (typeof GERENTES_DATA === 'undefined') return [];
+  return GERENTES_DATA.estados.filter(e => e.nome === _ESTADO_ATUAL);
+}
+
+function _getGerentes() {
   const set = new Set();
-  for (const est of GERENTES_DATA.estados)
+  for (const est of _estadosAtuais())
     for (const g of est.gerentes)
       if (g.nome && g.nome !== 'Sem Gerente') set.add(g.nome);
   return [...set].sort();
 }
 
 function _getSupervisores(gerente) {
-  if (typeof GERENTES_DATA === 'undefined') return [];
   const set = new Set();
-  for (const est of GERENTES_DATA.estados)
+  for (const est of _estadosAtuais())
     for (const g of est.gerentes) {
       if (gerente && g.nome !== gerente) continue;
       for (const s of g.supervisores)
@@ -1842,7 +1859,7 @@ function _vendedoresFiltrados() {
   if ((!_filtroGerente && !_filtroSupervisor) || typeof GERENTES_DATA === 'undefined')
     return METAS_DATA.vendedores;
   const nomes = new Set();
-  for (const est of GERENTES_DATA.estados)
+  for (const est of _estadosAtuais())
     for (const g of est.gerentes) {
       if (_filtroGerente && g.nome !== _filtroGerente) continue;
       for (const s of g.supervisores) {

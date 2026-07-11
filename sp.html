@@ -9,6 +9,7 @@
   <title>OFF TRADE SP</title>
   <script src="vendas_sp_data.js"></script>
   <script src="nao_pos_sp_data.js"></script>
+  <script src="gerentes_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -205,6 +206,66 @@
 
 function fmtFat(v) {
   return 'R$ ' + Number(v).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
+}
+
+// ── Filtro Gerente / Supervisor ───────────────────────────────────────────────
+
+var _ESTADO_ATUAL     = 'SP';
+var _filtroGerente    = '';
+var _filtroSupervisor = '';
+
+function _normNome(n) {
+  return (n || '').replace(/\s*-?\s*OFF\s*TRADE\s*/gi, '').trim().toUpperCase();
+}
+function _estadosAtuais() {
+  if (typeof GERENTES_DATA === 'undefined') return [];
+  return GERENTES_DATA.estados.filter(function(e) { return e.nome === _ESTADO_ATUAL; });
+}
+function _getGerentes() {
+  var set = new Set();
+  _estadosAtuais().forEach(function(est) {
+    est.gerentes.forEach(function(g) { if (g.nome && g.nome !== 'Sem Gerente') set.add(g.nome); });
+  });
+  return Array.from(set).sort();
+}
+function _getSupervisores(gerente) {
+  var set = new Set();
+  _estadosAtuais().forEach(function(est) {
+    est.gerentes.forEach(function(g) {
+      if (gerente && g.nome !== gerente) return;
+      g.supervisores.forEach(function(s) { if (s.nome && s.nome !== 'Sem Supervisor') set.add(s.nome); });
+    });
+  });
+  return Array.from(set).sort();
+}
+function _vendedoresPermitidos() {
+  if (!_filtroGerente && !_filtroSupervisor) return null;
+  var set = new Set();
+  _estadosAtuais().forEach(function(est) {
+    est.gerentes.forEach(function(g) {
+      if (_filtroGerente && g.nome !== _filtroGerente) return;
+      g.supervisores.forEach(function(s) {
+        if (_filtroSupervisor && s.nome !== _filtroSupervisor) return;
+        s.vendedores.forEach(function(v) { set.add(_normNome(v.nome)); });
+      });
+    });
+  });
+  return set;
+}
+function _buildFiltroHtml(mes) {
+  var gers = _getGerentes();
+  if (!gers.length) return '';
+  var sups = _getSupervisores(_filtroGerente);
+  return '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">' +
+    '<select class="mes-select" onchange="_filtroGerente=this.value;_filtroSupervisor=\'\';renderMain(\'' + mes + '\')">' +
+      '<option value="">Todos os gerentes</option>' +
+      gers.map(function(g) { return '<option value="' + g + '"' + (g === _filtroGerente ? ' selected' : '') + '>' + g + '</option>'; }).join('') +
+    '</select>' +
+    '<select class="mes-select" onchange="_filtroSupervisor=this.value;renderMain(\'' + mes + '\')">' +
+      '<option value="">Todos os supervisores</option>' +
+      sups.map(function(s) { return '<option value="' + s + '"' + (s === _filtroSupervisor ? ' selected' : '') + '>' + s + '</option>'; }).join('') +
+    '</select>' +
+  '</div>';
 }
 
 // ── Copiar link do vendedor ───────────────────────────────────────────────────
@@ -419,6 +480,8 @@ function buildVendasGrouped(lista, prefix) {
 function _buildVendorCards(mes) {
   if (typeof VENDAS_SP_DATA === 'undefined') return '';
   var nomes = Object.keys(VENDAS_SP_DATA.por_vendedor || {});
+  var permitidos = _vendedoresPermitidos();
+  if (permitidos) nomes = nomes.filter(function(n) { return permitidos.has(_normNome(n)); });
   if (!nomes.length) return '<div class="no-data">Nenhum vendedor encontrado.</div>';
 
   var npData = (typeof NAO_POS_SP_DATA !== 'undefined' && NAO_POS_SP_DATA.por_vendedor) || {};
@@ -628,6 +691,7 @@ function renderMain(mes) {
 
   document.getElementById('app').innerHTML =
     '<div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:12px">Vendedores</div>' +
+    _buildFiltroHtml(mes) +
     '<div class="search-wrap">' +
       '<input class="search-input" type="text" placeholder="Buscar vendedor..." oninput="filterCards(this.value)">' +
     '</div>' +
