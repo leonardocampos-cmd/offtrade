@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "10/07/2026 22:19",
+  "atualizado_em": "13/07/2026 09:26",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -1777,14 +1777,14 @@ const CRUSOE_DATA = {
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 5,
+          "pedidos": 6,
           "positivacoes": 1,
           "novos_skus": 5,
-          "faturamento": 9325.47,
+          "faturamento": 10322.97,
           "pontos_positivacao": 5,
           "pontos_novos_skus": 20,
-          "pontos_pedidos_valor": 7,
-          "pontos_total": 32,
+          "pontos_pedidos_valor": 8,
+          "pontos_total": 33,
           "vendas": [
             {
               "numnota": "408274",
@@ -1943,6 +1943,26 @@ const CRUSOE_DATA = {
                       "pontos": 4
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "numnota": "411352",
+              "data": "11/07/2026",
+              "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+              "valor_pedido": 997.5,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 5.0,
+                  "valor": 997.5,
+                  "pontuacoes": []
                 }
               ]
             }
