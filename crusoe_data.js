@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "13/07/2026 13:53",
+  "atualizado_em": "13/07/2026 15:50",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -94,14 +94,14 @@ const CRUSOE_DATA = {
         {
           "rca": 412,
           "vendedor": "Barbara Cabral",
-          "pedidos": 11,
+          "pedidos": 12,
           "positivacoes": 9,
-          "novos_skus": 109,
-          "faturamento": 38970.74,
+          "novos_skus": 110,
+          "faturamento": 39123.94,
           "pontos_positivacao": 45,
-          "pontos_novos_skus": 436,
+          "pontos_novos_skus": 440,
           "pontos_pedidos_valor": 26,
-          "pontos_total": 507,
+          "pontos_total": 511,
           "vendas": [
             {
               "numnota": "408264",
@@ -1492,20 +1492,40 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "411493",
+              "data": "13/07/2026",
+              "cliente": "DIO MAR COMERCIO VAREJISTA DE PRODUTOS ALIMENTICIOS LTDA",
+              "valor_pedido": 153.2,
+              "eventos": [],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.2,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
           "rca": 419,
           "vendedor": "Natali de Oliveira",
-          "pedidos": 11,
-          "positivacoes": 9,
-          "novos_skus": 11,
-          "faturamento": 1386.42,
-          "pontos_positivacao": 45,
-          "pontos_novos_skus": 44,
+          "pedidos": 12,
+          "positivacoes": 10,
+          "novos_skus": 12,
+          "faturamento": 1635.42,
+          "pontos_positivacao": 50,
+          "pontos_novos_skus": 48,
           "pontos_pedidos_valor": 0,
-          "pontos_total": 89,
+          "pontos_total": 98,
           "vendas": [
             {
               "numnota": "409254",
@@ -1771,6 +1791,31 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "411550",
+              "data": "13/07/2026",
+              "cliente": "FLAUSINO'S BAR E REFEICOES LTDA",
+              "valor_pedido": 249.0,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 1.0,
+                  "valor": 249.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2010,18 +2055,38 @@ const CRUSOE_DATA = {
         {
           "rca": 144,
           "vendedor": "Diogo Raposo",
-          "pedidos": 1,
+          "pedidos": 2,
           "positivacoes": 0,
           "novos_skus": 0,
-          "faturamento": 575.28,
+          "faturamento": 1150.56,
           "pontos_positivacao": 0,
           "pontos_novos_skus": 0,
-          "pontos_pedidos_valor": 1,
-          "pontos_total": 1,
+          "pontos_pedidos_valor": 2,
+          "pontos_total": 2,
           "vendas": [
             {
               "numnota": "408373",
               "data": "01/07/2026",
+              "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+              "valor_pedido": 575.28,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 3.0,
+                  "valor": 575.28,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "411531",
+              "data": "13/07/2026",
               "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
               "valor_pedido": 575.28,
               "eventos": [
