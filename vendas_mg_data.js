@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "13/07/2026 09:45",
+  "atualizado_em": "13/07/2026 13:55",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 69160.04,
-        "pos": 51,
+        "fat": 72336.06,
+        "pos": 52,
         "fat_ant": 343937.59
       }
     },
@@ -236,7 +236,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 24915.3,
+        "fat": 25252.9,
         "pos": 28,
         "fat_ant": 85308.22
       }
@@ -45407,6 +45407,87 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 20,
           "valor": 998.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "38493",
+          "cliente": "JM HAMBURGUERS LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "38493",
+          "cliente": "JM HAMBURGUERS LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 274.5
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "HUMB. CANALE DENARIO SAUV. BLANC 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 384.5
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "HUMB. CANALE DENARIO RESERVA PINOT NOIR",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 474.5
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 538.8
         }
       ]
     },
@@ -83863,15 +83944,6 @@ const VENDAS_MG_DATA = {
           "data": "08/07/2026",
           "codcli": "31529",
           "cliente": "MASSAS MADONINA LTDA",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 461.4
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "31529",
-          "cliente": "MASSAS MADONINA LTDA",
           "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
           "fantasia": "",
           "qt": 6,
@@ -84146,6 +84218,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "MSLR",
           "qt": 1,
           "valor": 59.9
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30615",
+          "cliente": "BURITIS CONVENIENCIA LTDA",
+          "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 1,
+          "valor": 799.0
         }
       ]
     },
