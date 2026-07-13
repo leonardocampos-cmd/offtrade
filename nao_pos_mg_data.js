@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "13/07/2026 13:55",
+  "atualizado_em": "13/07/2026 15:51",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1045,32 +1045,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 346.8
-          }
-        ]
-      },
-      {
-        "codcli": "37500",
-        "cliente": "ESTORIL CONVENIENCIA LTDA",
-        "bairro": "AEROPORTO",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "SMIRNOFF  ICE GR APP 275ML LN CX 24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 120.0
-          },
-          {
-            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 129.36
-          },
-          {
-            "produto": "SMIRNOFF ICE RASPBERRY -24 UNIDADES (LN)",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 120.0
           }
         ]
       },
@@ -2648,50 +2622,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39460",
-        "cliente": "BLOOM DIGITAL MIDIA LTDA",
-        "bairro": "LUXEMBURGO",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 31.96
-          },
-          {
-            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 31.96
-          },
-          {
-            "produto": "4 PACK RED BULL POMELO SF",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 31.96
-          },
-          {
-            "produto": "4 PACK RED BULL SUGAR FREE",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 31.96
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 63.92
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "35380",
         "cliente": "E&G LANCHES, EVENTOS E PROMOCOES LTDA",
         "bairro": "CORAÇÃO EUCARÍSTICO",
@@ -2748,56 +2678,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38896",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "35398",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
@@ -2838,6 +2718,56 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 282.72
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          }
+        ]
+      },
+      {
+        "codcli": "38896",
+        "cliente": "LCA COMERCIO LTDA",
+        "bairro": "PAMPULHA",
+        "dtultcomp": "12/06/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL AMORA EDITION SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -2994,7 +2924,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35392",
+        "codcli": "35387",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -3020,7 +2950,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35387",
+        "codcli": "35392",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -6405,26 +6335,6 @@ const NAO_POS_MG_DATA = {
     ],
     "TIAGO ANDRADE": [
       {
-        "codcli": "31850",
-        "cliente": "LA MACELLERIA VILA DA SERRA ACOUGUE GOURMET E RESTAURANTE LT",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "26/03/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 92.28
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 319.6
-          }
-        ]
-      },
-      {
         "codcli": "36851",
         "cliente": "ASSOCIACAO ATLETICA ESPORTIVA DOS ESTUDANTES DA ESCOLA DE EN",
         "bairro": "CRUZEIRO",
@@ -7139,9 +7049,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -7159,9 +7069,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -8125,6 +8035,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 141.36
+          }
+        ]
+      },
+      {
+        "codcli": "37500",
+        "cliente": "ESTORIL CONVENIENCIA LTDA",
+        "bairro": "AEROPORTO",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "SMIRNOFF  ICE GR APP 275ML LN CX 24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 120.0
+          },
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 129.36
+          },
+          {
+            "produto": "SMIRNOFF ICE RASPBERRY -24 UNIDADES (LN)",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 120.0
           }
         ]
       },
