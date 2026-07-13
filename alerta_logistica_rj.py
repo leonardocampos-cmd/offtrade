@@ -165,6 +165,14 @@ def _parse_html(html: str) -> list[dict]:
             txt = elem.get_text(" ", strip=True)
             m = RCA_RE.search(txt)
             if m:
+                # Um elemento pai (ex: <div>) pode "ver" o mesmo texto do
+                # cabecalho <h4> filho via get_text() recursivo, disparando o
+                # mesmo RCA duas vezes — a segunda vez engolindo uma tabela
+                # que na verdade pertence a outro bloco (bug real: gerou NF
+                # 134/66 "Taxa Outros ..." atribuidas ao RCA errado). So'
+                # aceita o match mais especifico (sem filho que tambem bata).
+                if any(RCA_RE.search(child.get_text(" ", strip=True)) for child in elem.find_all(True)):
+                    continue
                 current_rca = {
                     "rca":       int(m.group(1)),
                     "rca_nome":  m.group(2).strip(),
