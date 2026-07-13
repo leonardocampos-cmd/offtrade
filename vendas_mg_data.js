@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "13/07/2026 15:51",
+  "atualizado_em": "13/07/2026 17:11",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 72638.34,
-        "pos": 53,
+        "fat": 78423.38,
+        "pos": 54,
         "fat_ant": 343937.59
       }
     },
@@ -82,8 +82,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 61146.68,
-        "pos": 18,
+        "fat": 62675.28,
+        "pos": 21,
         "fat_ant": 168779.58
       }
     },
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 25606.3,
-        "pos": 29,
+        "fat": 27994.2,
+        "pos": 31,
         "fat_ant": 85308.22
       }
     },
@@ -263,7 +263,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 53560.12
       },
       "Jul/26": {
-        "fat": 14063.26,
+        "fat": 14558.86,
         "pos": 15,
         "fat_ant": 51108.92
       }
@@ -45410,6 +45410,51 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "13/07/2026",
+          "codcli": "32884",
+          "cliente": "BAR A PORCA VOADORA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 1,
+          "valor": 143.76
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "32884",
+          "cliente": "BAR A PORCA VOADORA LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 3,
+          "valor": 654.48
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 538.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "31868",
+          "cliente": "LMR BAR E COMERCIO LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 538.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "31868",
+          "cliente": "LMR BAR E COMERCIO LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 153.8
+        },
+        {
+          "data": "13/07/2026",
           "codcli": "38493",
           "cliente": "JM HAMBURGUERS LTDA",
           "produto": "RED BULL 250ML CAIXA C/24 UNID",
@@ -45425,6 +45470,24 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 191.76
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 20,
+          "valor": 1990.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "CHANDON BRUT ROSE 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 435.6
         },
         {
           "data": "13/07/2026",
@@ -45542,6 +45605,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 67.92
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "MOET CHANDON ROSE IMPERIAL 750 ML C/CART",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 1329.8
         }
       ]
     },
@@ -53386,6 +53458,60 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 1558.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "29879",
+          "cliente": "PARANAIBA FORTALEZA SUPERMERCADOS LTDA.",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 670.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "29895",
+          "cliente": "PARANAIBA VESPASIANO SUPERMERCADOS LTDA.",
+          "produto": "VINHO VILLA ROSA FRISANTE BRANCO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 197.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "29895",
+          "cliente": "PARANAIBA VESPASIANO SUPERMERCADOS LTDA.",
+          "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 197.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "31571",
+          "cliente": "PARANAIBA EXPRESS",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 111.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "31571",
+          "cliente": "PARANAIBA EXPRESS",
+          "produto": "GIN GORDONS PINK 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 111.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "31571",
+          "cliente": "PARANAIBA EXPRESS",
+          "produto": "VINHO CHAO DO CONDE FINO BRANCO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 239.4
         }
       ]
     },
@@ -84284,6 +84410,69 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "13/07/2026",
+          "codcli": "30203",
+          "cliente": "USINA DE ENTRETENIMENTOS LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 20,
+          "valor": 898.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "37500",
+          "cliente": "ESTORIL CONVENIENCIA LTDA",
+          "produto": "J W BLACK LABEL 12/50 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 250.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "37500",
+          "cliente": "ESTORIL CONVENIENCIA LTDA",
+          "produto": "MINIATURA BEEFEATER  12 X 50ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 153.9
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "34139",
+          "cliente": "CHEF PALMEIRA & CIA LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 226.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "34139",
+          "cliente": "CHEF PALMEIRA & CIA LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 269.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "34139",
+          "cliente": "CHEF PALMEIRA & CIA LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 375ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 269.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "34139",
+          "cliente": "CHEF PALMEIRA & CIA LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 319.6
+        },
+        {
+          "data": "13/07/2026",
           "codcli": "30615",
           "cliente": "BURITIS CONVENIENCIA LTDA",
           "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
@@ -88073,6 +88262,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 279.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "39110",
+          "cliente": "EMPORIO LOS MANOS LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 495.6
         }
       ]
     }
