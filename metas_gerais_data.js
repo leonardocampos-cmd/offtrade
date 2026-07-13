@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "13/07/2026 09:42",
+  "atualizado_em": "13/07/2026 13:52",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 13,
   "dias_no_mes": 31,
   "dias_restantes": 18,
   "resumo": {
-    "fat": 2989729.3,
+    "fat": 3075122.78,
     "fat_ant": 4533054.27,
     "fat_ant_completo": 13126498.47,
-    "pos": 797,
+    "pos": 801,
     "pos_ant": 977,
     "pos_ant_completo": 1800
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 2989729.3,
+    "fat": 3075122.78,
     "fat_ant": 4533054.27,
     "fat_ant_completo": 13126498.47,
-    "pct": 20.8,
-    "nec_dia": 633903.93
+    "pct": 21.4,
+    "nec_dia": 629159.85
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 758735.24,
+      "fat": 857669.24,
       "fat_ant": 1173690.17,
-      "pos": 330,
-      "pct": 19.5,
-      "nec_dia": 174514.71,
+      "pos": 333,
+      "pct": 22.0,
+      "nec_dia": 169018.38,
       "fat_ant_completo": 2704712.57,
       "pos_ant": 422,
       "pos_ant_completo": 743
@@ -39,11 +39,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 6600000.0,
-      "fat": 1798996.54,
+      "fat": 1781942.4,
       "fat_ant": 2337747.79,
       "pos": 320,
-      "pct": 27.3,
-      "nec_dia": 266722.41,
+      "pct": 27.0,
+      "nec_dia": 267669.87,
       "fat_ant_completo": 7701177.74,
       "pos_ant": 323,
       "pos_ant_completo": 641
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 307082.24,
+      "fat": 310595.86,
       "fat_ant": 521707.98,
-      "pos": 120,
-      "pct": 14.6,
-      "nec_dia": 99606.54,
+      "pos": 121,
+      "pct": 14.8,
+      "nec_dia": 99411.34,
       "fat_ant_completo": 1756160.17,
       "pos_ant": 176,
       "pos_ant_completo": 284
@@ -78,35 +78,46 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 1178981.61,
+      "fat": 1178748.21,
       "fat_ant": 1269308.56,
       "por_estado": {
         "RJ": 166961.13,
-        "SP": 1009156.92,
+        "SP": 1008923.52,
         "ES": 2863.56,
         "MG": 0.0
       }
     },
     {
       "fantasia": "BROWN",
-      "fat": 311174.24,
+      "fat": 294391.04,
       "fat_ant": 784974.12,
       "por_estado": {
         "RJ": 6030.26,
-        "SP": 305143.98,
+        "SP": 288360.78,
         "ES": 0.0,
         "MG": 0.0
       }
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 242783.21,
+      "fat": 245497.83,
       "fat_ant": 457703.8,
       "por_estado": {
         "RJ": 0.0,
         "SP": 790.45,
         "ES": 0.0,
-        "MG": 241992.76
+        "MG": 244707.38
+      }
+    },
+    {
+      "fantasia": "BEAM SUNTORY",
+      "fat": 161903.78,
+      "fat_ant": 85546.57,
+      "por_estado": {
+        "RJ": 161903.78,
+        "SP": 0.0,
+        "ES": 0.0,
+        "MG": 0.0
       }
     },
     {
@@ -116,17 +127,6 @@ const METAS_GERAIS_DATA = {
       "por_estado": {
         "RJ": 29907.28,
         "SP": 101060.78,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "BEAM SUNTORY",
-      "fat": 105503.78,
-      "fat_ant": 85546.57,
-      "por_estado": {
-        "RJ": 105503.78,
-        "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -176,6 +176,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "CASA PERINI",
+      "fat": 76811.4,
+      "fat_ant": 97294.0,
+      "por_estado": {
+        "RJ": 76811.4,
+        "SP": 0.0,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
       "fantasia": "CRS BRANDS",
       "fat": 72289.03,
       "fat_ant": 20029.62,
@@ -199,13 +210,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "BEAM SUNTORY BRASIL",
-      "fat": 62595.4,
+      "fat": 63394.4,
       "fat_ant": 56390.39,
       "por_estado": {
         "RJ": 0.0,
         "SP": 51798.14,
         "ES": 0.0,
-        "MG": 10797.26
+        "MG": 11596.26
       }
     },
     {
@@ -253,22 +264,11 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "CASA PERINI",
-      "fat": 36173.4,
-      "fat_ant": 97294.0,
-      "por_estado": {
-        "RJ": 36173.4,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
       "fantasia": "CASTAS",
-      "fat": 34213.8,
+      "fat": 36109.8,
       "fat_ant": 77012.81,
       "por_estado": {
-        "RJ": 33377.4,
+        "RJ": 35273.4,
         "SP": 836.4,
         "ES": 0.0,
         "MG": 0.0
@@ -485,11 +485,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "STOCK",
-      "fat": 1588.91,
+      "fat": 1551.37,
       "fat_ant": 2675.7,
       "por_estado": {
         "RJ": 1380.72,
-        "SP": 208.19,
+        "SP": 170.65,
         "ES": 0.0,
         "MG": 0.0
       }
