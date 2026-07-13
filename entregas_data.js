@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "13/07/2026 17:27",
+  "atualizado_em": "13/07/2026 17:28",
   "data_rota": "13.07",
   "vendedores": [
     {
@@ -5758,38 +5758,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_entregue": [
         {
-          "numped": "",
-          "numnota": "134",
-          "data": "",
-          "cliente": "",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "",
-          "responsavel_alerta": ""
-        },
-        {
-          "numped": "",
-          "numnota": "66",
-          "data": "",
-          "cliente": "",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "",
-          "responsavel_alerta": ""
-        },
-        {
           "numped": "144001646",
           "numnota": "6559.0",
           "data": "09/07/2026",
@@ -6433,36 +6401,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "378000474",
-          "numnota": "",
-          "data": "08/07/2026",
-          "cliente": "ALDIR CALDAS DO NASCIMENTO 03407917724",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 145.55,
-          "itens": [
-            {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 4,
-              "val": 51.6
-            },
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 2,
-              "val": 63.99
-            },
-            {
-              "desc": "4 PACK RED BULL",
-              "qt": 1,
-              "val": 29.96
-            }
-          ]
-        },
-        {
           "numped": "378000475",
           "numnota": "",
           "data": "08/07/2026",
@@ -6479,6 +6417,36 @@ const ENTREGAS_DATA = {
               "desc": "VODKA ORLOFF 1L",
               "qt": 6,
               "val": 137.4
+            }
+          ]
+        },
+        {
+          "numped": "378000474",
+          "numnota": "",
+          "data": "08/07/2026",
+          "cliente": "ALDIR CALDAS DO NASCIMENTO 03407917724",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 145.55,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 63.99
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 1,
+              "val": 29.96
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 4,
+              "val": 51.6
             }
           ]
         }
@@ -6890,6 +6858,26 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "159005029",
+          "numnota": "",
+          "data": "13/07/2026",
+          "cliente": "SEGREDO DA MODA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 263.2,
+          "itens": [
+            {
+              "desc": "CACHACA YPIOCA BRASILIZAR EMP OURO 965ML",
+              "qt": 8,
+              "val": 263.2
+            }
+          ]
+        },
+        {
           "numped": "159005034",
           "numnota": "",
           "data": "13/07/2026",
@@ -6906,6 +6894,36 @@ const ENTREGAS_DATA = {
               "desc": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
               "qt": 12,
               "val": 598.8
+            }
+          ]
+        },
+        {
+          "numped": "159005035",
+          "numnota": "",
+          "data": "13/07/2026",
+          "cliente": "MANE NOVA AMERICA BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 431.4,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "4 PACK RED BULL SUGAR FREE",
+              "qt": 3,
+              "val": 86.28
             }
           ]
         },
@@ -6941,26 +6959,6 @@ const ENTREGAS_DATA = {
               "desc": "APERITIVO APEROL 750 ML",
               "qt": 2,
               "val": 83.8
-            }
-          ]
-        },
-        {
-          "numped": "159005029",
-          "numnota": "",
-          "data": "13/07/2026",
-          "cliente": "SEGREDO DA MODA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 263.2,
-          "itens": [
-            {
-              "desc": "CACHACA YPIOCA BRASILIZAR EMP OURO 965ML",
-              "qt": 8,
-              "val": 263.2
             }
           ]
         }
@@ -8471,16 +8469,6 @@ const ENTREGAS_DATA = {
           "total": 463.06,
           "itens": [
             {
-              "desc": "WHISKY JIM BEAM APPLE 1L",
-              "qt": 2,
-              "val": 141.8
-            },
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 1,
-              "val": 172.56
-            },
-            {
               "desc": "MARTINI BIANCO 750 ML",
               "qt": 2,
               "val": 77.8
@@ -8489,6 +8477,16 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY JIM BEAM WHITE 1L",
               "qt": 1,
               "val": 70.9
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "WHISKY JIM BEAM APPLE 1L",
+              "qt": 2,
+              "val": 141.8
             }
           ],
           "motivo_alerta": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
@@ -11012,6 +11010,21 @@ const ENTREGAS_DATA = {
           "total": 6303.91,
           "itens": [
             {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 24,
+              "val": 2277.6
+            },
+            {
+              "desc": "WHISKY SUNTORY CHITA 700ML",
+              "qt": 1,
+              "val": 392.0
+            },
+            {
+              "desc": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+              "qt": 2,
+              "val": 1338.0
+            },
+            {
               "desc": "CACHACA JOIA DA SERRA OURO 1L",
               "qt": 12,
               "val": 390.0
@@ -11055,21 +11068,6 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
               "qt": 5,
               "val": 410.15
-            },
-            {
-              "desc": "WHISKY SUNTORY CHITA 700ML",
-              "qt": 1,
-              "val": 392.0
-            },
-            {
-              "desc": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
-              "qt": 2,
-              "val": 1338.0
-            },
-            {
-              "desc": "WHISKY JIM BEAM WHITE 1L",
-              "qt": 24,
-              "val": 2277.6
             }
           ]
         }
@@ -13532,9 +13530,14 @@ const ENTREGAS_DATA = {
           "total": 614.2,
           "itens": [
             {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 3,
+              "val": 98.7
+            },
+            {
+              "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
               "qt": 1,
-              "val": 94.7
+              "val": 42.0
             },
             {
               "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
@@ -13557,14 +13560,9 @@ const ENTREGAS_DATA = {
               "val": 94.7
             },
             {
-              "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
               "qt": 1,
-              "val": 42.0
-            },
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 3,
-              "val": 98.7
+              "val": 94.7
             }
           ],
           "motivo_alerta": "PEDIDO DUPLICADO — Pedido duplicado, cliente já recebeu essa mercadoria, vendedora Marilena Trangel ciente e solicitou o cancelamento da NF.",
@@ -15179,6 +15177,36 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "155003859",
+          "numnota": "",
+          "data": "13/07/2026",
+          "cliente": "BELLI BELLI RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 308.5,
+          "itens": [
+            {
+              "desc": "CACHACA SANTO GRAU ITIRAPUA 750ML",
+              "qt": 2,
+              "val": 95.8
+            },
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 1,
+              "val": 70.9
+            },
+            {
+              "desc": "WHISKY JIM BEAM HONEY 1L",
+              "qt": 2,
+              "val": 141.8
+            }
+          ]
+        },
+        {
           "numped": "155003858",
           "numnota": "",
           "data": "13/07/2026",
@@ -15330,36 +15358,6 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY JIM BEAM HONEY 1L",
               "qt": 2,
               "val": 141.8
-            }
-          ]
-        },
-        {
-          "numped": "155003859",
-          "numnota": "",
-          "data": "13/07/2026",
-          "cliente": "BELLI BELLI RESTAURANTE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 308.5,
-          "itens": [
-            {
-              "desc": "WHISKY JIM BEAM WHITE 1L",
-              "qt": 1,
-              "val": 70.9
-            },
-            {
-              "desc": "WHISKY JIM BEAM HONEY 1L",
-              "qt": 2,
-              "val": 141.8
-            },
-            {
-              "desc": "CACHACA SANTO GRAU ITIRAPUA 750ML",
-              "qt": 2,
-              "val": 95.8
             }
           ]
         }
@@ -16695,21 +16693,6 @@ const ENTREGAS_DATA = {
           "total": 1523.02,
           "itens": [
             {
-              "desc": "VODKA ABSOLUT TABASCO 750ML",
-              "qt": 1,
-              "val": 69.9
-            },
-            {
-              "desc": "XAROPE MONIN CRANBERRY 700 ML",
-              "qt": 2,
-              "val": 99.8
-            },
-            {
-              "desc": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
-              "qt": 3,
-              "val": 149.7
-            },
-            {
               "desc": "RED BULL 24X250ML",
               "qt": 1,
               "val": 179.76
@@ -16733,6 +16716,21 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 1,
               "val": 179.76
+            },
+            {
+              "desc": "XAROPE MONIN CRANBERRY 700 ML",
+              "qt": 2,
+              "val": 99.8
+            },
+            {
+              "desc": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+              "qt": 3,
+              "val": 149.7
+            },
+            {
+              "desc": "VODKA ABSOLUT TABASCO 750ML",
+              "qt": 1,
+              "val": 69.9
             }
           ],
           "motivo_alerta": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
@@ -16779,38 +16777,6 @@ const ENTREGAS_DATA = {
           ],
           "motivo_alerta": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
           "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "143",
-          "data": "",
-          "cliente": "",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "",
-          "responsavel_alerta": ""
-        },
-        {
-          "numped": "",
-          "numnota": "49",
-          "data": "",
-          "cliente": "",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "",
-          "responsavel_alerta": ""
         },
         {
           "numped": "155003848",
