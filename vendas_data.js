@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/07/2026 15:48",
+  "atualizado_em": "13/07/2026 16:06",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -228163,56 +228163,6 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 72,
           "valor": 6912.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "4321",
-          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 22,
-          "valor": 1848.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "4321",
-          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
-          "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 7,
-          "valor": 570.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "4321",
-          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 24,
-          "valor": 2016.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "4321",
-          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 20,
-          "valor": 1680.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "4321",
-          "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
-          "produto": "MOVING JUICE PROTEIN MACA 12X300ML",
-          "fantasia": "TATUZINHO",
-          "qt": 6,
-          "valor": 488.88,
           "tipo": "Venda"
         },
         {

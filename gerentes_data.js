@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "13/07/2026 15:48",
+  "atualizado_em": "13/07/2026 16:06",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -924,8 +924,8 @@ const GERENTES_DATA = {
           "qt": 15828
         },
         "Jun/26": {
-          "fat": 3165628.53,
-          "qt": 58486
+          "fat": 3159025.29,
+          "qt": 58407
         },
         "Mai/26": {
           "fat": 3112852.64,
@@ -948,8 +948,8 @@ const GERENTES_DATA = {
               "qt": 50757
             },
             "Jun/26": {
-              "fat": 2698485.93,
-              "qt": 50559
+              "fat": 2691882.69,
+              "qt": 50480
             },
             "Mai/26": {
               "fat": 2792282.24,
@@ -980,8 +980,8 @@ const GERENTES_DATA = {
                   "qt": 50757
                 },
                 "Jun/26": {
-                  "fat": 2698485.93,
-                  "qt": 50559
+                  "fat": 2691882.69,
+                  "qt": 50480
                 },
                 "Mai/26": {
                   "fat": 2792282.24,
@@ -1131,8 +1131,8 @@ const GERENTES_DATA = {
                       "qt": 367
                     },
                     "Jun/26": {
-                      "fat": 162835.42,
-                      "qt": 3380
+                      "fat": 156232.18,
+                      "qt": 3301
                     },
                     "Mai/26": {
                       "fat": 73273.91,
@@ -1269,6 +1269,12 @@ const GERENTES_DATA = {
                   }
                 },
                 {
+                  "nome": "IVANILDO MAIA - OFF TRADE",
+                  "rca": "460",
+                  "estado": "RJ",
+                  "por_mes": {}
+                },
+                {
                   "nome": "JORGE MACIEL - OFF TRADE",
                   "rca": "379",
                   "estado": "RJ",
@@ -1379,6 +1385,12 @@ const GERENTES_DATA = {
                       "qt": 672
                     }
                   }
+                },
+                {
+                  "nome": "LUCIANO DUARTE MIRANDA - OFF TRADE",
+                  "rca": "905",
+                  "estado": "RJ",
+                  "por_mes": {}
                 },
                 {
                   "nome": "MARIA LUIZA - OFF TRADE",
@@ -1972,6 +1984,12 @@ const GERENTES_DATA = {
                   }
                 },
                 {
+                  "nome": "DEMETRIUS PELEGRINI - OFF TRADE",
+                  "rca": "496",
+                  "estado": "SP",
+                  "por_mes": {}
+                },
+                {
                   "nome": "JOAO LUPORINI - OFF TRADE",
                   "rca": "312",
                   "estado": "SP",
@@ -2048,6 +2066,12 @@ const GERENTES_DATA = {
                   }
                 },
                 {
+                  "nome": "MARIA PEREIRA - OFF TRADE",
+                  "rca": "478",
+                  "estado": "SP",
+                  "por_mes": {}
+                },
+                {
                   "nome": "PATRICIO MASSAGARDI - OFF TRADE",
                   "rca": "464",
                   "estado": "SP",
@@ -2107,6 +2131,12 @@ const GERENTES_DATA = {
                       "qt": 1866
                     }
                   }
+                },
+                {
+                  "nome": "VITORIA VIEIRA - OFF TRADE",
+                  "rca": "480",
+                  "estado": "SP",
+                  "por_mes": {}
                 },
                 {
                   "nome": "WANDO MACHADO - OFF TRADE",
@@ -2318,6 +2348,12 @@ const GERENTES_DATA = {
                   }
                 },
                 {
+                  "nome": "EDUARDO COUTO - OFF TRADE",
+                  "rca": "495",
+                  "estado": "SP",
+                  "por_mes": {}
+                },
+                {
                   "nome": "FLAVIO RIBEIRO - OFF TRADE",
                   "rca": "472",
                   "estado": "SP",
@@ -2488,6 +2524,12 @@ const GERENTES_DATA = {
                 }
               },
               "vendedores": [
+                {
+                  "nome": "ADELINO SANTOS - OFF TRADE",
+                  "rca": "479",
+                  "estado": "SP",
+                  "por_mes": {}
+                },
                 {
                   "nome": "ADER ALONSO - OFF TRADE",
                   "rca": "426",
@@ -2686,6 +2728,12 @@ const GERENTES_DATA = {
                   }
                 },
                 {
+                  "nome": "JESSICA LIMA -  OFF TRADE",
+                  "rca": "501",
+                  "estado": "SP",
+                  "por_mes": {}
+                },
+                {
                   "nome": "LEONARDO FLOREZI - OFF TRADE",
                   "rca": "486",
                   "estado": "SP",
@@ -2865,6 +2913,12 @@ const GERENTES_DATA = {
                   }
                 },
                 {
+                  "nome": "RENAN SOUZA - OFF TRADE",
+                  "rca": "481",
+                  "estado": "SP",
+                  "por_mes": {}
+                },
+                {
                   "nome": "RODRIGO LIMA - OFF TRADE",
                   "rca": "476",
                   "estado": "SP",
@@ -2907,6 +2961,341 @@ const GERENTES_DATA = {
       },
       "gerentes": [
         {
+          "nome": "ALLAN PAES",
+          "estados": [],
+          "por_mes": {},
+          "supervisores": [
+            {
+              "nome": "DANIELLE MOURA",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "FRANCISCO MACIEL - OFF TRADE",
+                  "rca": "446",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "CRC",
+          "estados": [],
+          "por_mes": {},
+          "supervisores": [
+            {
+              "nome": "BRUNA GEROLIS",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "VIVIANI ALVES - OFF TRADE",
+                  "rca": "119",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            },
+            {
+              "nome": "DANIEL DINIZ",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
+                  "rca": "431",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ALEXSANDRO DOS SANTOS - OFF TRADE",
+                  "rca": "255",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ALLAN PAES - OFF TRADE",
+                  "rca": "174",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ANGELO NEVES SUZART - OFF TRADE",
+                  "rca": "153",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ARETHA AGUIAR - OFF TRADE",
+                  "rca": "408",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ARLLEY FIGUEIREDO - OFF TRADE",
+                  "rca": "161",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "BARBARA CABRAL - OFF TRADE ",
+                  "rca": "412",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "DANIEL COSTA - OFF TRADE",
+                  "rca": "239",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "DANIELLE MOURA - OFF TRADE",
+                  "rca": "238",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "DIMAS GIRARD - OFF TRADE",
+                  "rca": "409",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ELIEL MAIA - OFF TRADE",
+                  "rca": "246",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "FABIO VALOTTI - OFF TRADE",
+                  "rca": "378",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "FERNANDA DE OLIVEIRA - OFF TRADE",
+                  "rca": "173",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "FLÁVIO ALVES - OFF TRADE ",
+                  "rca": "248",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "FÁBIO OLIVEIRA - OFF TRADE",
+                  "rca": "415",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "JOAO PEDRO - OFF TRADE",
+                  "rca": "172",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "JORGE LUIZ - OFF TRADE",
+                  "rca": "406",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "JORGE MACIEL - OFF TRADE",
+                  "rca": "379",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
+                  "rca": "158",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "KELLY RAMOS - OFF TRADE",
+                  "rca": "420",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "LORRAYNE SANTOS - OFF TRADE",
+                  "rca": "416",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "MARCELO SANCHES - OFF TRADE",
+                  "rca": "410",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "MARIA LUIZA - OFF TRADE",
+                  "rca": "275",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "MARILENA TRAGEL - OFF TRADE",
+                  "rca": "156",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "MAYCON COELHO FERRAZ - OFF TRADE",
+                  "rca": "405",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "MOACIR FILHO - OFF TRADE",
+                  "rca": "247",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
+                  "rca": "419",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "SAMARION DE SOUZA FONSECA - OFF TRADE",
+                  "rca": "404",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "WEBERT FIGUEIREDO - OFF TRADE",
+                  "rca": "245",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+                  "rca": "241",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            },
+            {
+              "nome": "GRANDE VITORIA",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "DOUGLAS SCHADE - OFF TRADE",
+                  "rca": "260",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ENEIVA RODRIGUES - OFF TRADE",
+                  "rca": "230",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "EUDES MORGAN - OFF TRADE",
+                  "rca": "388",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "HUMBERTO DA SILVA - OFF TRADE",
+                  "rca": "398",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            },
+            {
+              "nome": "PATRICK MORAES",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "GISELLE BARFER - OFF TRADE",
+                  "rca": "159",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            },
+            {
+              "nome": "RCAs INATIVOS",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "BRUNO FRANCISCO - OFF TRADE",
+                  "rca": "45",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            },
+            {
+              "nome": "ROGERIO DONATO",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "ANDRESSA BARROS FERREIRA - OFF TRADE",
+                  "rca": "146",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "CLAUDIO NOBREGA - OFF TRADE",
+                  "rca": "170",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "DIOGO RAPOSO - OFF TRADE",
+                  "rca": "144",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            },
+            {
+              "nome": "SUPERVISOR - ES",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "DIEGO PAULINO - OFF TRADE",
+                  "rca": "444",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            },
+            {
+              "nome": "TELEVENDAS RJ",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "RAPHAEL SANTOS - OFF TRADE",
+                  "rca": "155",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
           "nome": "DANIEL DINIZ",
           "estados": [],
           "por_mes": {
@@ -2943,6 +3332,12 @@ const GERENTES_DATA = {
               },
               "vendedores": [
                 {
+                  "nome": "ARETHA AGUIAR - OFF TRADE",
+                  "rca": "408",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
                   "nome": "BRYAN PALOPOLI - OFF TRADE",
                   "rca": "299",
                   "estado": "",
@@ -2952,6 +3347,36 @@ const GERENTES_DATA = {
                       "qt": 230
                     }
                   }
+                },
+                {
+                  "nome": "DANIEL COSTA - OFF TRADE",
+                  "rca": "239",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "DANIELLE TITO - OFF TRADE",
+                  "rca": "459",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "DIMAS GIRARD - OFF TRADE",
+                  "rca": "409",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ELIEL MAIA - OFF TRADE",
+                  "rca": "246",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "FLÁVIO ALVES - OFF TRADE ",
+                  "rca": "248",
+                  "estado": "",
+                  "por_mes": {}
                 },
                 {
                   "nome": "GILDO ADRIANO - OFF TRADE",
@@ -2988,6 +3413,12 @@ const GERENTES_DATA = {
                   }
                 },
                 {
+                  "nome": "JORGE LUIZ - OFF TRADE",
+                  "rca": "406",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
                   "nome": "LUCAS LIMA - OFF TRADE",
                   "rca": "265",
                   "estado": "",
@@ -3001,6 +3432,18 @@ const GERENTES_DATA = {
                       "qt": 2320
                     }
                   }
+                },
+                {
+                  "nome": "MARCELO SANCHES - OFF TRADE",
+                  "rca": "410",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "MOACIR FILHO - OFF TRADE",
+                  "rca": "247",
+                  "estado": "",
+                  "por_mes": {}
                 },
                 {
                   "nome": "ROSENIR RIBEIRO - OFF TRADE",
@@ -3022,6 +3465,12 @@ const GERENTES_DATA = {
                   }
                 },
                 {
+                  "nome": "SAMARION DE SOUZA FONSECA - OFF TRADE",
+                  "rca": "404",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
                   "nome": "WANDERSON FERREIRA - OFF TRADE",
                   "rca": "341",
                   "estado": "",
@@ -3031,6 +3480,141 @@ const GERENTES_DATA = {
                       "qt": 1922
                     }
                   }
+                },
+                {
+                  "nome": "WEBERT FIGUEIREDO - OFF TRADE",
+                  "rca": "245",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "GERENTE PARAMETRIZACAO",
+          "estados": [],
+          "por_mes": {},
+          "supervisores": [
+            {
+              "nome": "PATRICK MORAES",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "MARIA LUIZA - OFF TRADE",
+                  "rca": "904",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "MARCUS TANAMACHI",
+          "estados": [],
+          "por_mes": {},
+          "supervisores": [
+            {
+              "nome": "ANDERSON CANAVEIS",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "JOAO AUGUSTO -  OFF TRADE",
+                  "rca": "507",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "LUCELIA BARROS - OFF TRADE",
+                  "rca": "505",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "WILLIAM GONCALVES - OFF TRADE",
+                  "rca": "512",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            },
+            {
+              "nome": "MARCUS TANAMACHI",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "ALEXANDRE SOUZA - OFF TRADE",
+                  "rca": "511",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "RAPHAEL CAMPOS - OFF TRADE",
+                  "rca": "506",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            },
+            {
+              "nome": "PRISCILLA BONACHE",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "PAULO SALES - OFF TRADE",
+                  "rca": "508",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ROBERTO DA SILVA - OFF TRADE",
+                  "rca": "509",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ROSANA AFFONSO - OFF TRADE",
+                  "rca": "510",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "MAYCON MENEGARDO",
+          "estados": [],
+          "por_mes": {},
+          "supervisores": [
+            {
+              "nome": "SUPERVISOR HIBRIDO ES",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "MARCELO DE CAMPOS - OFF TRADE",
+                  "rca": "502",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            },
+            {
+              "nome": "SUPERVISOR OFF - ES",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "BRUNO COSMO - OFF TRADE",
+                  "rca": "458",
+                  "estado": "",
+                  "por_mes": {}
                 }
               ]
             }
@@ -3057,6 +3641,30 @@ const GERENTES_DATA = {
               },
               "vendedores": [
                 {
+                  "nome": "ALLAN PAES - OFF TRADE",
+                  "rca": "174",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ANGELO NEVES SUZART - OFF TRADE",
+                  "rca": "153",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ARETHA AGUIAR - OFF TRADE",
+                  "rca": "408",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "BARBARA CABRAL - OFF TRADE ",
+                  "rca": "412",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
                   "nome": "DANIELLE MOURA - OFF TRADE",
                   "rca": "238",
                   "estado": "",
@@ -3068,6 +3676,60 @@ const GERENTES_DATA = {
                   }
                 },
                 {
+                  "nome": "DIMAS GIRARD - OFF TRADE",
+                  "rca": "409",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "DIOGO RAPOSO - OFF TRADE",
+                  "rca": "144",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "FABIO VALOTTI - OFF TRADE",
+                  "rca": "378",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "FÁBIO OLIVEIRA - OFF TRADE",
+                  "rca": "415",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "GISELLE BARFER - OFF TRADE",
+                  "rca": "159",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "JORGE MACIEL - OFF TRADE",
+                  "rca": "379",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
+                  "rca": "158",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "KELLY RAMOS - OFF TRADE",
+                  "rca": "420",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "LORRAYNE SANTOS - OFF TRADE",
+                  "rca": "416",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
                   "nome": "MARIA LUIZA - OFF TRADE",
                   "rca": "275",
                   "estado": "",
@@ -3077,6 +3739,30 @@ const GERENTES_DATA = {
                       "qt": 156
                     }
                   }
+                },
+                {
+                  "nome": "MARILENA TRAGEL - OFF TRADE",
+                  "rca": "156",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "RAPHAEL SANTOS - OFF TRADE",
+                  "rca": "155",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "VIVIANI ALVES - OFF TRADE",
+                  "rca": "91",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+                  "rca": "241",
+                  "estado": "",
+                  "por_mes": {}
                 }
               ]
             }
