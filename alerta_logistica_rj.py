@@ -16,7 +16,7 @@ import json
 import base64
 import subprocess
 from pathlib import Path
-from datetime import date
+from datetime import date, timedelta
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -380,9 +380,17 @@ def main():
     service = _get_service()
 
     hoje = date.today()
-    after_str = hoje.strftime("%Y/%m/%d")
-    q = f'subject:"{SUBJECT}" after:{after_str}'
-    print(f"Buscando emails de hoje ({hoje.strftime('%d/%m')})...")
+    # Segunda-feira: pega sábado + domingo; demais dias: emails de hoje
+    if hoje.weekday() == 0:
+        data_inicio = hoje - timedelta(days=2)
+        after_str  = data_inicio.strftime("%Y/%m/%d")
+        before_str = hoje.strftime("%Y/%m/%d")
+        q = f'subject:"{SUBJECT}" after:{after_str} before:{before_str}'
+        print(f"Buscando emails de {data_inicio.strftime('%d/%m')} a {(hoje - timedelta(days=1)).strftime('%d/%m')}...")
+    else:
+        after_str = hoje.strftime("%Y/%m/%d")
+        q = f'subject:"{SUBJECT}" after:{after_str}'
+        print(f"Buscando emails de hoje ({hoje.strftime('%d/%m')})...")
 
     results = service.users().messages().list(
         userId="me",

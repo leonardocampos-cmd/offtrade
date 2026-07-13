@@ -1,4 +1,4 @@
-// Gerado em 13/07/2026 15:52
+// Gerado em 13/07/2026 17:12
 const VENDEDORES_AUTH = {
   "156": {
     "nome": "MARILENA TRAGEL - OFF TRADE",
@@ -53,6 +53,11 @@ const VENDEDORES_AUTH = {
   "238": {
     "nome": "DANIELLE MOURA - OFF TRADE",
     "email": "danielle.soares@rigarr.com.br",
+    "email2": ""
+  },
+  "460": {
+    "nome": "IVANILDO MAIA - OFF TRADE",
+    "email": "maia.rigarr@gmail.com",
     "email2": ""
   },
   "275": {
