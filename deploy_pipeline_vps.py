@@ -39,6 +39,7 @@ PIPELINE_FILES = [
     "entregas.py",
     "conferencia_preco.py",
     "envio_whatsapp.py",
+    "report_diario_vendedor.py",
     "alerta_logistica_rj.py",
     "baixar_planilhas_drive.py",
     "campanha_crusoe.py",

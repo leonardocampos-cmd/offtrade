@@ -619,9 +619,11 @@ if _hier_parts:
                 'qt':  int(grp['QT'].sum()),
             }
 
-        if not por_mes_vend:
-            continue
-
+        # Nao pular vendedor sem historico de vendas (por_mes_vend vazio) —
+        # ele ainda tem estado/gerente/supervisor validos no Oracle e precisa
+        # aparecer na arvore (com zeros), senao some dos filtros por
+        # gerente/supervisor mesmo tendo meta ativa (caso IVANILDO MAIA, RCA
+        # 460, supervisor Danielle Moura — zero vendas, mas RJ ativo).
         estado_top = estado or 'Sem Estado'
 
         e  = _emp_dict.setdefault(estado_top, {'nome': estado_top, 'por_mes': {}, 'gerentes': {}})
