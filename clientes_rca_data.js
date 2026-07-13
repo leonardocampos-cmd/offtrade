@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "13/07/2026 15:52",
-  "total": 4308,
+  "atualizado_em": "13/07/2026 17:12",
+  "total": 4317,
   "clientes": [
     {
       "codcli": "31683",
@@ -5894,6 +5894,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "460",
       "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95667",
+      "razao": "ALEMAO MONTEIRO BEBIDAS LTDA",
+      "fantasia": "ALEMAO BEBIDAS",
+      "bairro": "PORTO NOVO",
+      "cidade": "SAQUAREMA",
+      "cnpj": "49.625.798/0001-56",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "450",
+      "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -13682,6 +13696,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "47135",
+      "razao": "CLAUDINEI ANTUNES SILVA",
+      "fantasia": "PIT STOP DA BEBIDA",
+      "bairro": "BELÉM ESTAÇÃO",
+      "cidade": "FRANCISCO MORATO",
+      "cnpj": "45.842.708/0001-28",
+      "estado": "SP",
+      "ramo": "OUTROS",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51448",
       "razao": "CLAUDINEI TRAVESSOLO MINIMERCADO",
       "fantasia": "SUPERMERCADO ATLANTICO",
@@ -20556,6 +20584,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "32999",
+      "razao": "EMPORIO VILLAMARIN LTDA",
+      "fantasia": "EMPORIO VILLAMARIN LTDA",
+      "bairro": "VILA REGENTE FEIJÓ",
+      "cidade": "SAO PAULO",
+      "cnpj": "09.509.581/0001-66",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "codusur1": "426",
+      "nome_usur1": "ADER ALONSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "30073",
       "razao": "EMPORIO WINE & BEER - EIRELI",
       "fantasia": "EMPORIO WINE & BEER",
@@ -20964,7 +21006,7 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "51327",
       "razao": "ESQUINA DO CHOPP FERRAZ LTDA",
-      "fantasia": "ESQUINA DO CHOPP FERRAZ LTDA",
+      "fantasia": "ESQUINA DO CHOPP FERRAZ",
       "bairro": "JARDIM VISTA ALEGRE",
       "cidade": "FERRAZ DE VASCONCELOS",
       "cnpj": "61.956.920/0001-72",
@@ -27802,8 +27844,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "12.183.833/0001-14",
       "estado": "SP",
       "ramo": "MINI-MERCADO",
-      "codusur1": "500",
-      "nome_usur1": "PAULO MOREIRA - OFF TRADE",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -28000,6 +28042,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "505",
       "nome_usur1": "LUCELIA BARROS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51752",
+      "razao": "JOSE VENANCIO BEZERRA",
+      "fantasia": "JOSE VENANCIO BEZERRA",
+      "bairro": "CENTRO",
+      "cidade": "POA",
+      "cnpj": "14.561.113/0001-70",
+      "estado": "SP",
+      "ramo": "CAFETERIA",
+      "codusur1": "461",
+      "nome_usur1": "SUELY SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -43628,6 +43684,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
     },
     {
+      "codcli": "51751",
+      "razao": "PAIVA BEER COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "PAIVA BEER",
+      "bairro": "JARDIM ALTO DOS YPES",
+      "cidade": "MOGI GUACU",
+      "cnpj": "64.736.874/0001-94",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "473",
+      "nome_usur1": "MARCELO PEREIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "92061",
       "razao": "PALERMO PINHEIROS BAR E RESTAURANTE LTDA",
       "fantasia": "PALERMO PINHEIROS BAR E RESTAURANTE",
@@ -53624,6 +53694,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "95664",
+      "razao": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "REDE SUPERMARKET",
+      "bairro": "ANIL",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "08.719.835/0008-84",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "158",
+      "nome_usur1": "JOSE MARCELO CARDOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95666",
+      "razao": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "REDE SUPERMARKET",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "08.719.835/0010-07",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "codusur1": "158",
+      "nome_usur1": "JOSE MARCELO CARDOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "3755",
       "razao": "SUPERMERCADO BARRA OESTE LTDA",
       "fantasia": "SUPER MARKET",
@@ -54224,6 +54322,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51747",
+      "razao": "SUPERMERCADO IPERO LTDA",
+      "fantasia": "SUPERMERCADO DAKI",
+      "bairro": "BACAETAVA",
+      "cidade": "IPERO",
+      "cnpj": "28.846.266/0002-50",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "508",
+      "nome_usur1": "PAULO SALES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50864",
@@ -57414,6 +57526,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "486",
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "47691",
+      "razao": "THIAGO JOSEPHER DE OLIVEIRA LTDA",
+      "fantasia": "ATACADO BETEL",
+      "bairro": "VILA ARTURA",
+      "cidade": "SOROCABA",
+      "cnpj": "22.832.858/0005-89",
+      "estado": "SP",
+      "ramo": "OUTROS",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
