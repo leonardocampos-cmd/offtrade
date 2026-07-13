@@ -309,13 +309,15 @@ def _patch_entregas(alertas: list[dict], hoje: str):
     json_str = re.sub(r"^const\s+ENTREGAS_DATA\s*=\s*", "", raw.strip()).rstrip(";").strip()
     data = json.loads(json_str)
 
-    # Monta set de NFs a marcar
+    # Monta set de NFs a marcar (carrega RCA/nome do alerta-pai junto, usado
+    # no fallback abaixo)
     nfs_alerta = {}
     for alerta in alertas:
         for nf_info in alerta["nfs"]:
-            nfs_alerta[nf_info["nf"]] = nf_info
+            nfs_alerta[nf_info["nf"]] = {**nf_info, "rca": alerta.get("rca"), "rca_nome": alerta.get("rca_nome", "")}
 
     total_movidas = 0
+    nfs_restantes = dict(nfs_alerta)
 
     for vendedor in data["vendedores"]:
         if "nao_entregue" not in vendedor:
@@ -327,8 +329,8 @@ def _patch_entregas(alertas: list[dict], hoje: str):
             restantes = []
             for ped in vendedor.get(lista_key, []):
                 nf = _nf_clean(ped.get("numnota", ""))
-                if nf in nfs_alerta and nf not in nfs_ja:
-                    info = nfs_alerta[nf]
+                if nf in nfs_restantes and nf not in nfs_ja:
+                    info = nfs_restantes.pop(nf)
                     ped_copy = dict(ped)
                     ped_copy["motivo_alerta"]      = info.get("motivo", "")
                     ped_copy["responsavel_alerta"] = info.get("responsavel", "")
@@ -339,6 +341,27 @@ def _patch_entregas(alertas: list[dict], hoje: str):
                 else:
                     restantes.append(ped)
             vendedor[lista_key] = restantes
+
+    # Fallback: NF que ja teve rota num dia passado e falhou, entao nao esta
+    # em 'em_rota' (so' olha rota de hoje) nem 'emitido_s_rota' (exclui de
+    # proposito quem ja teve rota algum dia) — sem acesso aos dataframes do
+    # entregas.py aqui, monta uma entrada minima so' com os dados do proprio
+    # alerta (cliente/motivo/valor), casando o vendedor pelo nome do RCA.
+    for nf, info in nfs_restantes.items():
+        rca_nome = (info.get("rca_nome") or "").strip().upper()
+        if not rca_nome:
+            continue
+        vendedor = next((v for v in data["vendedores"] if v["nome"].upper().startswith(rca_nome)), None)
+        if vendedor is None:
+            continue
+        vendedor.setdefault("nao_entregue", []).append({
+            "numped": "", "numnota": nf, "data": "", "cliente": info.get("cliente", ""),
+            "placa": "", "rota": info.get("rota", ""), "status_ped": "", "status_log": "",
+            "motivo": "", "obs": "", "total": 0.0, "itens": [],
+            "motivo_alerta": info.get("motivo", ""), "responsavel_alerta": info.get("responsavel", ""),
+        })
+        total_movidas += 1
+        print(f"  NF {nf} → Não Entregue ({vendedor['nome']}, fallback sem pedido original)")
 
     ENTREGAS_JS.write_text(
         f"const ENTREGAS_DATA = {json.dumps(data, ensure_ascii=False, indent=2)};\n",

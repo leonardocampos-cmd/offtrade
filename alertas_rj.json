@@ -13722,5 +13722,1039 @@
       "motivo": "LOCAL FECHADO - NÃO ABRE HOJE",
       "valor": "R$ 728,30"
     }
+  ],
+  "2026-07-10": [
+    {
+      "nf": "121",
+      "rca": 153,
+      "rca_nome": "ANGELO NEVES SUZART",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": "Taxa Outros 35.7% 5/14 NFs"
+    },
+    {
+      "nf": "00",
+      "rca": 153,
+      "rca_nome": "ANGELO NEVES SUZART",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": ""
+    },
+    {
+      "nf": "6466",
+      "rca": 153,
+      "rca_nome": "ANGELO NEVES SUZART",
+      "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+      "rota": "LMV5I35 / ZONA OESTE",
+      "responsavel": "Vendas",
+      "motivo": "ESTABELECIMENTO INDISPONÍVEL PARA RECEBIMENTO — Equipe chegou depois do horário de recebimento, vendedor Angelo Neves está ciente.",
+      "valor": "R$ 1.675,68"
+    },
+    {
+      "nf": "410076",
+      "rca": 156,
+      "rca_nome": "MARILENA TRAGEL",
+      "cliente": "POSTO JK NIEMEYER LTDA",
+      "rota": "TTT0A28 / NITEROI",
+      "responsavel": "Vendas",
+      "motivo": "ENDEREÇO NÃO LOCALIZADO — Equipe não localizou o endereço, mesmo com as informações passadas. Vendedora Marilena Trangel está ciente.",
+      "valor": "R$ 478,80"
+    },
+    {
+      "nf": "410570",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "SERRANA COMERCIO DE BEBIDAS LTDA",
+      "rota": "TTW4B24 / PETROPOLIS+ 3RIOS+ PATY DE ALFERES",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — enquanto estava em rota a equipe não solicitou ajuda com a nf nem informou que estaria retornando com ela (entendemos que a jornada de trabalho foi excedida)",
+      "valor": "R$ 2.291,28"
+    },
+    {
+      "nf": "410460",
+      "rca": 379,
+      "rca_nome": "JORGE MACIEL",
+      "cliente": "RAINHA DO IRIS MERCADO LTDA",
+      "rota": "SSE7A76 / CAXIAS + MERITI",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Horário de recebimento só até às 15h, mas essa informação não foi passada ao apoio logístico enquanto a equipe estava em rota.",
+      "valor": "R$ 924,90"
+    },
+    {
+      "nf": "6045",
+      "rca": 417,
+      "rca_nome": "DIRLEI VIEIRA",
+      "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+      "rota": "SRA3F62 / ANGRA",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Horário de funcionamento só até às 15h, essa informação não foi passada ao apoio logístico enquanto os mesmos estavam em rota.",
+      "valor": "R$ 1.071,00"
+    },
+    {
+      "nf": "410221",
+      "rca": 431,
+      "rca_nome": "ADEILSON GONÇALVEZ",
+      "cliente": "DROGARIA FREGUESIA DA ILHA LTDA",
+      "rota": "TTQ1A32 / ILHA + SÃO CRISTOVÃO",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA — Cliente informou que esse não foi o valor combinado passado pelo vendedor. Vendedor Adeilson Gonçalves está ciente e solicitou o cancelamento da NF.",
+      "valor": "R$ 164,60"
+    },
+    {
+      "nf": "5402",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+      "rota": "SRA3F62 / ANGRA",
+      "responsavel": "Vendas",
+      "motivo": "PEDIDO DUPLICADO — Cliente já recebeu essa mercadoria, informação passada pelo vendedor Mateus Cardoso.",
+      "valor": "R$ 1.594,20"
+    },
+    {
+      "nf": "6517",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+      "rota": "SRA3F62 / ANGRA",
+      "responsavel": "Logística",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA - ATRASO NA ROTA — Fora do horário de recebimento, vendedor Mateus Cardoso está ciente",
+      "valor": "R$ 257,88"
+    },
+    {
+      "nf": "410503",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "MERCADO ENSEADA DO SOL LTDA",
+      "rota": "SRA3F62 / ANGRA",
+      "responsavel": "Logística",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA - ATRASO NA ROTA — Fora do horário de recebimento, vendedor Mateus Cardoso está ciente",
+      "valor": "R$ 89,70"
+    },
+    {
+      "nf": "410426",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "EDUARDO METZKER DE LIMA 88949150778",
+      "rota": "SRA3F62 / ANGRA",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedor Mateus Cardoso está ciente",
+      "valor": "R$ 269,10"
+    },
+    {
+      "nf": "410427",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "EDUARDO METZKER DE LIMA 88949150778",
+      "rota": "SRA3F62 / ANGRA",
+      "responsavel": "Logística",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA - ATRASO NA ROTA — Fora do horário de recebimento, vendedor Mateus Cardoso está ciente",
+      "valor": "R$ 448,50"
+    },
+    {
+      "nf": "410584",
+      "rca": 106,
+      "rca_nome": "FERNANDO CESAR",
+      "cliente": "EMBRAZA MERCADO E DISTRIBUIDORA DE BEBIDAS LTDA.",
+      "rota": "TTT0A28 / NITEROI",
+      "responsavel": "Faturamento",
+      "motivo": "DADOS INCORRETOS NA NOTA FISCAL — Cliente informou que o preço está errado, vendedor Fernando Cesar confirmou e solicitou o cancelamento da NF.",
+      "valor": "R$ 2.243,70"
+    },
+    {
+      "nf": "410416",
+      "rca": 112,
+      "rca_nome": "LUCAS MATIAS",
+      "cliente": "QUINTAL ALCARNES CHOPERIA BAR E RESTAURANTE LTDA",
+      "rota": "TTY6J70 / BARRA + RECREIO",
+      "responsavel": "Vendas",
+      "motivo": "FORMA DE PAGAMENTO DIVERGENTE — Forma de pagamento errada, era pra ser no boleto. Vendedor Lucas Matias está ciente e solicitou o cancelamento da NF.",
+      "valor": "R$ 369,00"
+    },
+    {
+      "nf": "410006",
+      "rca": 147,
+      "rca_nome": "THIAGO MENDES",
+      "cliente": "BENEHMERITO BAR E PETISCARIA LTDA",
+      "rota": "TUA4G43 / TIJUCA",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedor Thiago Mendes está ciente.",
+      "valor": "R$ 644,92"
+    },
+    {
+      "nf": "408519",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "N Q RESTAURANTE E BAR LTDA",
+      "rota": "TUK2F64 / FRIBURGO+ TERESOPOLIS",
+      "responsavel": "A Definir",
+      "motivo": "VENDEDOR NÃO CONSEGUIU CONTATO COM CLIENTE — Vendedor Pedro Rangel solicitou o cancelamento da NF, o mesmo não conseguiu contato com o cliente.",
+      "valor": "R$ 325,50"
+    },
+    {
+      "nf": "405997",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "CINEMAQUI VIDEO LOCADORA LTDA ME",
+      "rota": "SSE9J51 / SANTO CRISTO",
+      "responsavel": "Vendas",
+      "motivo": "ENDEREÇO DIVERGENTE — Vendedor Pedro Rangel, informou que o endereço correto é no centro de nova Iguaçu, porém saiu na rota que faz o centro do Rio de janeiro.",
+      "valor": "R$ 936,50"
+    },
+    {
+      "nf": "410643",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "IMOBILIARIA ALVES DA MOTTA SA",
+      "rota": "TTI6D70 / ZONA SUL",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedor Pedro Rangel ciente e pediu para retornar amanhã.",
+      "valor": "R$ 1.166,40"
+    },
+    {
+      "nf": "410030",
+      "rca": 171,
+      "rca_nome": "FELIPE OLIVEIRA",
+      "cliente": "VILLAS FOOD E BEER LTDA",
+      "rota": "TTI6D70 / BAIXADA",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Equipe chegou no local da entrega mas não tinha ninguém lá, passamos a informação ao vendedor Felipe Oliveira, mas não tivemos retorno do mesmo.",
+      "valor": "R$ 994,30"
+    },
+    {
+      "nf": "409986",
+      "rca": 278,
+      "rca_nome": "RAQUEL SANTOS",
+      "cliente": "BAR JACARE DO SAMBA LTDA",
+      "rota": "LTG4A18 / PENHA+NORTE",
+      "responsavel": "Vendas",
+      "motivo": "REPONSÁVEL PELO PAGAMENTO AUSENTE OU CLIENTE SEM MÉTODO — Responsável pelo recebimento ausente, vendedora Raquel Santos solicitou que retorne amanhã.",
+      "valor": "R$ 444,70"
+    },
+    {
+      "nf": "410347",
+      "rca": 297,
+      "rca_nome": "LUIZA FREIRE",
+      "cliente": "BOTECO BERTONE BAR E RESTAURANTE LTDA",
+      "rota": "TTW4B24 / PETROPOLIS+ 3RIOS+ PATY DE ALFERES",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — enquanto estava em rota a equipe não solicitou ajuda com a nf nem informou que estaria retornando com ela (entendemos que a jornada de trabalho foi excedida)",
+      "valor": "R$ 599,21"
+    },
+    {
+      "nf": "410318",
+      "rca": 297,
+      "rca_nome": "LUIZA FREIRE",
+      "cliente": "JG MARKET INDOOR LTDA",
+      "rota": "TTY6J70 / BARRA + RECREIO",
+      "responsavel": "Vendas",
+      "motivo": "ENDEREÇO NÃO LOCALIZADO — Endereço não encontrado pela equipe, vendedora Luiza Freire está ciente.",
+      "valor": "R$ 1.429,01"
+    },
+    {
+      "nf": "410540",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "A4RJ RESTAURANTE LTDA",
+      "rota": "RJV2J20 / SHOPP BARRA",
+      "responsavel": "Logística",
+      "motivo": "PRODUTO INVERTIDO — Pedido errado, era pra ser HUM. CANALE O.V TINTO e não ROSE . Cliente desistiu da compra, vendedora Lais Poppe está ciente.",
+      "valor": "R$ 3.108,50"
+    },
+    {
+      "nf": "409981",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "FERRO E FARINHA RESTAURANTE LEBLON LTDA.",
+      "rota": "LMW9C26 / LEBLON+IPANEMA + EVENTO",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Fora do horário de recebimento, essa informação não foi passada enquanto a equipe estava em rota.",
+      "valor": "R$ 359,10"
+    },
+    {
+      "nf": "410372",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "RIOBARRA EMPREENDIMENTOS IMOBILIARIOS LTDA",
+      "rota": "TTY6J70 / BARRA + RECREIO",
+      "responsavel": "Logística",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA - ATRASO NA ROTA — Equipe não chegou a tempo do horário de recebimento, vendedora Lais Poppe ciente e pediu para retornar amanhã.",
+      "valor": "R$ 3.351,80"
+    },
+    {
+      "nf": "410481",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "15.235.938 ANTONIO LOURENCO RIBEIRO",
+      "rota": "TTT0A28 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Endereço não localizado, equipe não passou essa informação enquanto estava em rota",
+      "valor": "R$ 559,40"
+    },
+    {
+      "nf": "409847",
+      "rca": 445,
+      "rca_nome": "MARIANA RESTUM",
+      "cliente": "J.A.R.D.S BOTAFOGO RESTAURANTE LTDA",
+      "rota": "KZH9D68 / BOTAFOGO+SUL 2",
+      "responsavel": "Vendas",
+      "motivo": "CANCELAMENTO — Cliente ficou com a mercadoria, vendedora Mariana Restum está ciente e solicitou o cancelamento do recibo.",
+      "valor": "R$ 267,46"
+    },
+    {
+      "nf": "409319",
+      "rca": 445,
+      "rca_nome": "MARIANA RESTUM",
+      "cliente": "R.R.A. BAR E RESTAURANTE LTDA",
+      "rota": "TTY6J70 / BARRA + RECREIO",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Equipe não foi até o local para realizar a troca, e só nos passaram essa informação ao retornarem para a base. Com a justificativa de que não daria tempo.",
+      "valor": "R$ 873,62"
+    },
+    {
+      "nf": "410582",
+      "rca": 197,
+      "rca_nome": "EVENTOS",
+      "cliente": "BRUHEN COMERCIO DE BEBIDAS LTDA",
+      "rota": "TTS7J46 / VILLAGE",
+      "responsavel": "A Definir",
+      "motivo": "Carros retodos na fiscalização — Carros retodos na fiscalização",
+      "valor": "R$ 283.022,64"
+    },
+    {
+      "nf": "410578",
+      "rca": 197,
+      "rca_nome": "EVENTOS",
+      "cliente": "BRUHEN COMERCIO DE BEBIDAS LTDA",
+      "rota": "LTH7E27 / VILLAGE",
+      "responsavel": "A Definir",
+      "motivo": "Carros retodos na fiscalização — Carros retodos na fiscalização",
+      "valor": "R$ 283.399,00"
+    },
+    {
+      "nf": "410583",
+      "rca": 197,
+      "rca_nome": "EVENTOS",
+      "cliente": "BRUHEN COMERCIO DE BEBIDAS LTDA",
+      "rota": "LTH7E27 / VILLAGE",
+      "responsavel": "A Definir",
+      "motivo": "Carros retodos na fiscalização — Carros retodos na fiscalização",
+      "valor": "R$ 152.820,01"
+    },
+    {
+      "nf": "410354",
+      "rca": 175,
+      "rca_nome": "Não Identificado",
+      "cliente": "3 FORTIS HOTELARIA E RESTAURANTE LTDA",
+      "rota": "TTW4B24 / PETROPOLIS+ 3RIOS+ PATY DE ALFERES",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — enquanto estava em rota a equipe não solicitou ajuda com a nf nem informou que estaria retornando com ela (entendemos que a jornada de trabalho foi excedida)",
+      "valor": "R$ 345,12"
+    },
+    {
+      "nf": "410568",
+      "rca": 175,
+      "rca_nome": "Não Identificado",
+      "cliente": "PETRO GRILL LTDA",
+      "rota": "TTW4B24 / PETROPOLIS+ 3RIOS+ PATY DE ALFERES",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — enquanto estava em rota a equipe não solicitou ajuda com a nf nem informou que estaria retornando com ela (entendemos que a jornada de trabalho foi excedida)",
+      "valor": "R$ 431,40"
+    },
+    {
+      "nf": "409573",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "39.423.812 JOAO FRANCISCO DE OLIVEIRA",
+      "rota": "TTI6D70 / CENTRO",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedor Bees está ciente.",
+      "valor": "R$ 310,80"
+    }
+  ],
+  "2026-07-13": [
+    {
+      "nf": "134",
+      "rca": 144,
+      "rca_nome": "DIOGO RAPOSO",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": "Taxa Outros 17.4% 4/23 NFs"
+    },
+    {
+      "nf": "66",
+      "rca": 144,
+      "rca_nome": "DIOGO RAPOSO",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": ""
+    },
+    {
+      "nf": "6559",
+      "rca": 144,
+      "rca_nome": "DIOGO RAPOSO",
+      "cliente": "POP CONVENIENCIA E MERCADO LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 921,60"
+    },
+    {
+      "nf": "410959",
+      "rca": 144,
+      "rca_nome": "DIOGO RAPOSO",
+      "cliente": "POP CONVENIENCIA E MERCADO LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 717,60"
+    },
+    {
+      "nf": "410960",
+      "rca": 144,
+      "rca_nome": "DIOGO RAPOSO",
+      "cliente": "POP CONVENIENCIA E MERCADO LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 396,80"
+    },
+    {
+      "nf": "410723",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "TOKITO FRUTOS DO MAR LTDA.",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 1.523,04"
+    },
+    {
+      "nf": "410843",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "NEW LOUNGE CAMBOINHAS LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 2.172,30"
+    },
+    {
+      "nf": "410757",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "J.A ICARAI COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 258,84"
+    },
+    {
+      "nf": "410076",
+      "rca": 156,
+      "rca_nome": "MARILENA TRAGEL",
+      "cliente": "POSTO JK NIEMEYER LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 478,80"
+    },
+    {
+      "nf": "410964",
+      "rca": 156,
+      "rca_nome": "MARILENA TRAGEL",
+      "cliente": "QUERUBIM EXPRESS CONVENIENCIA II LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 443,00"
+    },
+    {
+      "nf": "410710",
+      "rca": 156,
+      "rca_nome": "MARILENA TRAGEL",
+      "cliente": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+      "rota": "TTY6J70 / BARRA",
+      "responsavel": "Vendas",
+      "motivo": "PEDIDO DUPLICADO — Pedido duplicado, cliente já recebeu essa mercadoria, vendedora Marilena Trangel ciente e solicitou o cancelamento da NF.",
+      "valor": "R$ 614,20"
+    },
+    {
+      "nf": "410724",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 345,14"
+    },
+    {
+      "nf": "410725",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 463,07"
+    },
+    {
+      "nf": "410665",
+      "rca": 431,
+      "rca_nome": "ADEILSON GONÇALVEZ",
+      "cliente": "DR J - CONVENIENCIA LTDA",
+      "rota": "TTQ1A32 / ILHA+ S. CRISTOVÃO+ TIJUCA",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — Cliente não pediu as 12 CX de suco de uva, vendedor Adeilson Gonçalves está ciente e solicitou o cancelamento da NF, o mesmo informou que vai refazer o pedido.",
+      "valor": "R$ 1.214,87"
+    },
+    {
+      "nf": "410944",
+      "rca": 1,
+      "rca_nome": "RODRIGO QUINTAS",
+      "cliente": "BAM BAR E RESTAURANTE LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 631,27"
+    },
+    {
+      "nf": "410941",
+      "rca": 106,
+      "rca_nome": "FERNANDO CESAR",
+      "cliente": "EMBRAZA MERCADO E DISTRIBUIDORA DE BEBIDAS LTDA.",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 95,90"
+    },
+    {
+      "nf": "405660",
+      "rca": 107,
+      "rca_nome": "MARCUS VINICIUS",
+      "cliente": "RIVIERA DISTRIBUIDORA DE BEBIDAS LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 3.230,00"
+    },
+    {
+      "nf": "410963",
+      "rca": 107,
+      "rca_nome": "MARCUS VINICIUS",
+      "cliente": "ESPACO LEGAL BAR E RESTAURANTE LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.305,60"
+    },
+    {
+      "nf": "410966",
+      "rca": 107,
+      "rca_nome": "MARCUS VINICIUS",
+      "cliente": "DEPOSITO SHOW LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 787,38"
+    },
+    {
+      "nf": "410863",
+      "rca": 107,
+      "rca_nome": "MARCUS VINICIUS",
+      "cliente": "59.491.672 JOSE ARIMATEIA MARTINS",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Área de risco , essa informação não foi passada ao apoio logístico",
+      "valor": "R$ 517,68"
+    },
+    {
+      "nf": "410967",
+      "rca": 107,
+      "rca_nome": "MARCUS VINICIUS",
+      "cliente": "LEONARDO LOPES BENVINDO DE SOUZA 13013791748",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Área de risco , essa informação não foi passada ao apoio logístico",
+      "valor": "R$ 517,68"
+    },
+    {
+      "nf": "410968",
+      "rca": 107,
+      "rca_nome": "MARCUS VINICIUS",
+      "cliente": "DEPOSITO DO TH LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Local fechado, essa informação foi passada ao apoio logístico vendedor Marcos Vinicius ciente",
+      "valor": "R$ 517,68"
+    },
+    {
+      "nf": "410859",
+      "rca": 112,
+      "rca_nome": "LUCAS MATIAS",
+      "cliente": "BISMARCK GEOVANNI DA SILVA TORRES 15250492754",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Vendas",
+      "motivo": "ENDEREÇO NÃO LOCALIZADO — Não conseguiram encontrar o local da entrega, essa informação foi passada ao apoio logístico, vendedor lucas Matias ciente",
+      "valor": "R$ 1.078,56"
+    },
+    {
+      "nf": "411007",
+      "rca": 135,
+      "rca_nome": "INGRID ARAUJO",
+      "cliente": "MCK BAR E RESTAURANTE LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 1.957,50"
+    },
+    {
+      "nf": "410750",
+      "rca": 135,
+      "rca_nome": "INGRID ARAUJO",
+      "cliente": "ALL IN RIBS ALIMENTOS E BEBIDAS LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 278,70"
+    },
+    {
+      "nf": "410961",
+      "rca": 147,
+      "rca_nome": "THIAGO MENDES",
+      "cliente": "BAR E RESTAURANTE FS 800 LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 736,38"
+    },
+    {
+      "nf": "410943",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "LUIZ CLAUDIO RODRIGUES DE OLIVEIRA BAZAR",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 2.536,80"
+    },
+    {
+      "nf": "410844",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "OGGI ICARAI PIZZARIA LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 838,80"
+    },
+    {
+      "nf": "409588",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "G2WK MERCADO AUTONOMO LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Vendas",
+      "motivo": "ESTABELECIMENTO INDISPONÍVEL PARA RECEBIMENTO — Cliente pediu pra entregar segunda feira , essa informação foi passada ao apoio logístico vendedora Giovana portela ciente",
+      "valor": "R$ 281,78"
+    },
+    {
+      "nf": "410756",
+      "rca": 171,
+      "rca_nome": "FELIPE OLIVEIRA",
+      "cliente": "BEBEZAO DEPOSITO DE BEBIDAS EIRELI",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 389,40"
+    },
+    {
+      "nf": "410862",
+      "rca": 171,
+      "rca_nome": "FELIPE OLIVEIRA",
+      "cliente": "RIOS BAR COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 284,50"
+    },
+    {
+      "nf": "410030",
+      "rca": 171,
+      "rca_nome": "FELIPE OLIVEIRA",
+      "cliente": "VILLAS FOOD E BEER LTDA",
+      "rota": "SSE7A76 / CAXIAS",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Horário de funcionamento só após as 17h, mas essa informação não foi passada ao apoio logístico enquanto a equipe estava em rota.",
+      "valor": "R$ 994,30"
+    },
+    {
+      "nf": "410942",
+      "rca": 176,
+      "rca_nome": "MICHELE ALCANTARA",
+      "cliente": "COMERCIO DE BEBIDAS E CONVENIENCIAS RAVAIAH LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 1.023,80"
+    },
+    {
+      "nf": "410860",
+      "rca": 176,
+      "rca_nome": "MICHELE ALCANTARA",
+      "cliente": "PARADA 88 DEPOSITO DE BEBIDAS , DELIVERY E GRILL LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 386,40"
+    },
+    {
+      "nf": "410864",
+      "rca": 176,
+      "rca_nome": "MICHELE ALCANTARA",
+      "cliente": "CATIA CRISTINA DOS SANTOS MEIRA PEDROSA 07154118709",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 535,38"
+    },
+    {
+      "nf": "411008",
+      "rca": 278,
+      "rca_nome": "RAQUEL SANTOS",
+      "cliente": "THUNDERBOLT PUB E RESTAURANTE LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 763,70"
+    },
+    {
+      "nf": "410739",
+      "rca": 278,
+      "rca_nome": "RAQUEL SANTOS",
+      "cliente": "12.133.604 ROSIMERI SEPULVEDA PITTA",
+      "rota": "LSS7E31 / NORTE",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Cliente ausente, informação não foi passada ao apoio logístico enquanto a equipe estava em rota.",
+      "valor": "R$ 1.312,20"
+    },
+    {
+      "nf": "410901",
+      "rca": 295,
+      "rca_nome": "JOÃO VITOR BRAGA",
+      "cliente": "BRAZZA SMOKEHOUSE LTDA",
+      "rota": "TUM2E95 / MERITI+NOVA IGUAÇU",
+      "responsavel": "Faturamento",
+      "motivo": "DADOS INCORRETOS NA NOTA FISCAL — cliente informou que não recebe nesse CNPJ , vendedor João Vitor Braga ciente",
+      "valor": "R$ 2.598,60"
+    },
+    {
+      "nf": "410683",
+      "rca": 295,
+      "rca_nome": "JOÃO VITOR BRAGA",
+      "cliente": "JOSEARA ROCHA DA SILVA 1121532",
+      "rota": "TUM2E95 / MERITI+NOVA IGUAÇU",
+      "responsavel": "Faturamento",
+      "motivo": "DADOS INCORRETOS NA NOTA FISCAL — vendedor João Vitor Braga pediu para cancelar a NF pois está faturada como 5 Caixas porém são 5 unidades",
+      "valor": "R$ 349,65"
+    },
+    {
+      "nf": "410675",
+      "rca": 295,
+      "rca_nome": "JOÃO VITOR BRAGA",
+      "cliente": "47.919.676 EVALDO FERREIRA DOS SANTOS",
+      "rota": "TTQ1A32 / ILHA+ S. CRISTOVÃO+ TIJUCA",
+      "responsavel": "Faturamento",
+      "motivo": "NOTA DUPLICADA — Pedido duplicado, cliente já recebeu essa mercadoria. Vendedor João Vitor Braga está ciente, e solicitou o cancelamento da NF.",
+      "valor": "R$ 282,72"
+    },
+    {
+      "nf": "408193",
+      "rca": 296,
+      "rca_nome": "LUDMILLA DA SILVA",
+      "cliente": "CRISTIANE DE SOUZA RODRIGUES 08120192702",
+      "rota": "BXD5E49 / SAUDE",
+      "responsavel": "Vendas",
+      "motivo": "ESTABELECIMENTO INDISPONÍVEL PARA RECEBIMENTO — Cliente pediu para voltar amanhã, vendedora Ludmila da Silva está ciente",
+      "valor": "R$ 1.054,70"
+    },
+    {
+      "nf": "410663",
+      "rca": 296,
+      "rca_nome": "LUDMILLA DA SILVA",
+      "cliente": "28.701.547 LUCIANO DOS SANTOS FRANCISCO",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 253,55"
+    },
+    {
+      "nf": "410699",
+      "rca": 297,
+      "rca_nome": "LUIZA FREIRE",
+      "cliente": "BUTECO PREDILETO BAR LTDA",
+      "rota": "TTW4B24 / COPACABANA",
+      "responsavel": "Vendas",
+      "motivo": "ESTABELECIMENTO INDISPONÍVEL PARA RECEBIMENTO — Rua fechada devido ao um evento de festa Junina. Vendedora Luiza Freire está ciente.",
+      "valor": "R$ 1.762,60"
+    },
+    {
+      "nf": "410962",
+      "rca": 297,
+      "rca_nome": "LUIZA FREIRE",
+      "cliente": "JO DEPOSITO DE BEBIDAS E MERCEARIA BOM PRECO LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 460,60"
+    },
+    {
+      "nf": "410662",
+      "rca": 323,
+      "rca_nome": "IASMIM NUNES",
+      "cliente": "EVERTON FORTUNATO DE SOUZA 13076455770",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 933,70"
+    },
+    {
+      "nf": "410749",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "POLO DA PRACA RESTAURANTE E PIZZARIA LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 599,40"
+    },
+    {
+      "nf": "410861",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "BASE TATTOO BARRA LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 257,40"
+    },
+    {
+      "nf": "410660",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "BASE TATTOO BARRA LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 719,04"
+    },
+    {
+      "nf": "410830",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "FOME FOOD LANCHONETE LTDA",
+      "rota": "LTG4A18 / PENHA",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Problema no aplicativo da CNH do motorista: José Edivan da Silva",
+      "valor": "R$ 359,54"
+    },
+    {
+      "nf": "410769",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "HOPS RIO BAR E RESTAURANTE LTDA",
+      "rota": "TUP1A46 / SANTO CRISTO + CENTRO",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedor Thiago Nascimento está ciente.",
+      "valor": "R$ 416,60"
+    },
+    {
+      "nf": "410842",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "43.964.176 LANDES JUNIOR RAPOSO DA SILVA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 889,20"
+    },
+    {
+      "nf": "410481",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "15.235.938 ANTONIO LOURENCO RIBEIRO",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 559,40"
+    },
+    {
+      "nf": "410969",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "LBARCELOS CONVENIENCIA LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.121,65"
+    },
+    {
+      "nf": "409319",
+      "rca": 445,
+      "rca_nome": "MARIANA RESTUM",
+      "cliente": "R.R.A. BAR E RESTAURANTE LTDA",
+      "rota": "RJV2J31 / RECREIO",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Equipe não achou o endereço, mesmo com a localização passada. Vendedora Mariana Restum está ciente. O apoio deu suporte, mesmo assim o não tentaram fazer a entrega",
+      "valor": "R$ 873,62"
+    },
+    {
+      "nf": "410727",
+      "rca": 445,
+      "rca_nome": "MARIANA RESTUM",
+      "cliente": "47.166.321 MATHEUS HENRIQUE DE ANDRADE MONTEIRO",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 250,66"
+    },
+    {
+      "nf": "410845",
+      "rca": 455,
+      "rca_nome": "N/D",
+      "cliente": "REI DA TRINDADE DISTRIBUIDORA DE BEBIDAS LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 1.797,60"
+    },
+    {
+      "nf": "410815",
+      "rca": 455,
+      "rca_nome": "N/D",
+      "cliente": "REI DA TRINDADE DISTRIBUIDORA DE BEBIDAS LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 1.258,33"
+    },
+    {
+      "nf": "410816",
+      "rca": 455,
+      "rca_nome": "N/D",
+      "cliente": "REI DA TRINDADE DISTRIBUIDORA DE BEBIDAS LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 1.416,48"
+    },
+    {
+      "nf": "410858",
+      "rca": 92,
+      "rca_nome": "AUGUSTO SILVA",
+      "cliente": "GRS1 RESTAURANTE EIRELLI",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 301,57"
+    },
+    {
+      "nf": "410751",
+      "rca": 92,
+      "rca_nome": "AUGUSTO SILVA",
+      "cliente": "JAB BROTHERS BAR E RESTAURANTE LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 765,80"
+    },
+    {
+      "nf": "410976",
+      "rca": 92,
+      "rca_nome": "AUGUSTO SILVA",
+      "cliente": "RIO DE JANEIRO COUNTRY CLUB",
+      "rota": "SSE9J52 / IPANEMA + LEBLON",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA — Cliente não solicitou o pedido da Vodca Smirnoff, vendedor Augusto Silva está ciente.",
+      "valor": "R$ 1.350,00"
+    },
+    {
+      "nf": "410925",
+      "rca": 95,
+      "rca_nome": "VINICIUS AMARAL",
+      "cliente": "MAROFA BAR E RESTAURANTE LTDA",
+      "rota": "LTG4A18 / PENHA",
+      "responsavel": "Vendas",
+      "motivo": "REPONSÁVEL PELO PAGAMENTO AUSENTE OU CLIENTE SEM MÉTODO — Responsável pelo pagamento ausente, vendedor Vinícius Amaral está ciente",
+      "valor": "R$ 1.119,20"
+    },
+    {
+      "nf": "408872",
+      "rca": 98,
+      "rca_nome": "CARLOS ARTHUR NETO",
+      "cliente": "MANE NITEROI BAR E RESTAURANTE LTDA",
+      "rota": "SRA3F62 / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
+      "valor": "R$ 808,95"
+    },
+    {
+      "nf": "410857",
+      "rca": 98,
+      "rca_nome": "CARLOS ARTHUR NETO",
+      "cliente": "ACEL MERCEARIA BAR E RESTAURANTE LTDA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 264,90"
+    },
+    {
+      "nf": "410865",
+      "rca": 175,
+      "rca_nome": "Não Identificado",
+      "cliente": "62.841.357 CLEITON CARVALHO DA SILVA",
+      "rota": "RJP3J23 / JPA+TAQUARA",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 380,00"
+    },
+    {
+      "nf": "410669",
+      "rca": 175,
+      "rca_nome": "Não Identificado",
+      "cliente": "NOVA VIBE BAR LTDA",
+      "rota": "LSS7E31 / NORTE",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Estabelecimento fechado, informação não foi passada ao apoio logístico enquanto a equipe estava em rota.",
+      "valor": "R$ 1.461,60"
+    },
+    {
+      "nf": "410708",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "LINDINALVA MARIA DA SILVA 09250294751",
+      "rota": "RJV2J31 / RECREIO",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA — Cliente informou que esse pedido passou do prazo da entrega e solicitou desistiu da compra. Vendedor Bees ciente e solicitou o cancelamento da NF.",
+      "valor": "R$ 611,40"
+    },
+    {
+      "nf": "409573",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "39.423.812 JOAO FRANCISCO DE OLIVEIRA",
+      "rota": "TUP1A46 / SANTO CRISTO + CENTRO",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Ajudante: Leonardo do Nascimento Melo, informou que não deu tempo de realizar essa entrega, e essa informação não foi passada ao apoio logístico enquanto a equipe estava em rota.",
+      "valor": "R$ 310,80"
+    }
   ]
 }

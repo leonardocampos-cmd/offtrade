@@ -275,6 +275,23 @@ def _agrupar(df):
         })
     return result
 
+def _agrupar_por_nf(df):
+    """Indice por NUMNOTA (nao NUMPED) cobrindo todos os pedidos conhecidos,
+    independente de qual 'balde' (em_rota/emitido_s_rota/etc) a nota caiu —
+    usado como fallback pro alerta de nao-entrega achar notas que ja tiveram
+    rota num dia passado e por isso nao aparecem em nenhuma das listas de
+    hoje (nem 'em_rota', que so' olha a rota de hoje, nem 'emitido_s_rota',
+    que exclui de proposito quem ja teve rota algum dia)."""
+    result = {}
+    df_com_nota = df[df['NUMNOTA_NUM'].notna()]
+    for numnota, grp in df_com_nota.groupby('NUMNOTA_NUM'):
+        agrupado = _agrupar(grp)
+        if agrupado:
+            result[int(numnota)] = agrupado[0]
+    return result
+
+_pedidos_por_nf = {**_agrupar_por_nf(tabela_final_abertos), **_agrupar_por_nf(tabela_final)}
+
 _grupos_mes        = dict(tuple(tabela_final.groupby('NOME')))
 _grupos_abertos    = dict(tuple(tabela_final_abertos.groupby('NOME')))
 _grupos_cancelados = dict(tuple(tabela_pedidos_cancelados.groupby('NOME')))
@@ -320,14 +337,16 @@ if alertas_path.exists():
         _nfs_alerta = {item['nf']: item for item in _alertas_all.get(hoje_iso, [])}
         if _nfs_alerta:
             print(f"Alertas de não entrega: {len(_nfs_alerta)} NF(s) para hoje")
+            _nfs_restantes = dict(_nfs_alerta)
+            _vendedor_por_nome = {v['nome']: v for v in vendedores_out}
             for v in vendedores_out:
                 nfs_ja = set()
                 for lista_key in ('em_rota', 'emitido_s_rota'):
                     restantes = []
                     for ped in v[lista_key]:
                         nf = _nf_clean(ped.get('numnota', ''))
-                        if nf in _nfs_alerta and nf not in nfs_ja:
-                            info = _nfs_alerta[nf]
+                        if nf in _nfs_restantes and nf not in nfs_ja:
+                            info = _nfs_restantes.pop(nf)
                             ped = dict(ped)
                             ped['motivo_alerta']      = info.get('motivo', '')
                             ped['responsavel_alerta'] = info.get('responsavel', '')
@@ -336,6 +355,28 @@ if alertas_path.exists():
                         else:
                             restantes.append(ped)
                     v[lista_key] = restantes
+
+            # Fallback: NF que ja teve rota num dia passado e falhou entao nao
+            # esta em 'em_rota' (so' olha rota de hoje) nem 'emitido_s_rota'
+            # (exclui de proposito quem ja teve rota algum dia) — busca o
+            # pedido no indice global por NF e usa o RCA do proprio alerta
+            # pra achar o vendedor certo.
+            for nf, info in _nfs_restantes.items():
+                rca_num = info.get('rca')
+                nome_display = _rca_to_display.get(float(rca_num)) if rca_num is not None else None
+                nome_display = nome_display or info.get('rca_nome', '')
+                v = _vendedor_por_nome.get(_s(nome_display))
+                if v is None:
+                    continue
+                try:
+                    ped = dict(_pedidos_por_nf[int(nf)])
+                except (KeyError, ValueError):
+                    ped = {'numped': '', 'numnota': nf, 'data': '', 'cliente': info.get('cliente', ''),
+                           'placa': '', 'rota': info.get('rota', ''), 'status_ped': '', 'status_log': '',
+                           'motivo': '', 'obs': '', 'total': 0.0, 'itens': []}
+                ped['motivo_alerta']      = info.get('motivo', '')
+                ped['responsavel_alerta'] = info.get('responsavel', '')
+                v['nao_entregue'].append(ped)
     except Exception as e:
         print(f"Aviso: falha ao carregar alertas_rj.json: {e}")
 
