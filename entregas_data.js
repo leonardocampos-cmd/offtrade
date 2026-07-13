@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "13/07/2026 16:55",
+  "atualizado_em": "13/07/2026 17:11",
   "data_rota": "13.07",
   "vendedores": [
     {
@@ -1042,6 +1042,43 @@ const ENTREGAS_DATA = {
       ],
       "nao_entregue": [
         {
+          "numped": "431001129",
+          "numnota": "411170.0",
+          "data": "10/07/2026",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "placa": "LMV5I35",
+          "rota": "ZONA OESTE",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 378.8,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ],
+          "motivo_alerta": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — Cliente alega não ter feito o pedido, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
+          "responsavel_alerta": "Vendas"
+        },
+        {
           "numped": "431001122",
           "numnota": "410665.0",
           "data": "09/07/2026",
@@ -1091,59 +1128,6 @@ const ENTREGAS_DATA = {
             }
           ],
           "motivo_alerta": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — Cliente não pediu as 12 CX de suco de uva, vendedor Adeilson Gonçalves está ciente e solicitou o cancelamento da NF, o mesmo informou que vai refazer o pedido.",
-          "responsavel_alerta": "Vendas"
-        },
-        {
-          "numped": "431001129",
-          "numnota": "411170.0",
-          "data": "10/07/2026",
-          "cliente": "PANIFICACAO LUANDA LTDA",
-          "placa": "LMV5I35",
-          "rota": "ZONA OESTE",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 378.8,
-          "itens": [
-            {
-              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            }
-          ],
-          "motivo_alerta": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — Cliente alega não ter feito o pedido, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
-          "responsavel_alerta": "Vendas"
-        },
-        {
-          "numped": "",
-          "numnota": "411170",
-          "data": "",
-          "cliente": "PANIFICACAO LUANDA LTDA",
-          "placa": "",
-          "rota": "TTX4A47 / BANGU",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — Cliente alega não ter feito o pedido, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
           "responsavel_alerta": "Vendas"
         }
       ]
@@ -1321,28 +1305,7 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [
-        {
-          "numped": "471000426",
-          "numnota": "",
-          "data": "11/07/2026",
-          "cliente": "LUIZ ALOISE 74035169749",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "cliente e uma banca de jornal em frente ao numero do endereco",
-          "total": 386.7,
-          "itens": [
-            {
-              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-              "qt": 3,
-              "val": 386.7
-            }
-          ]
-        }
-      ],
+      "nao_emitido": [],
       "emitido_s_rota": [
         {
           "numped": "471000385",
@@ -6435,7 +6398,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 398.93,
+          "total": 265.99,
           "itens": [
             {
               "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
@@ -6466,51 +6429,6 @@ const ENTREGAS_DATA = {
               "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
               "qt": 1,
               "val": 51.49
-            },
-            {
-              "desc": "PINATI NUTS ORIGINAL 20X30G",
-              "qt": 1,
-              "val": 44.31
-            },
-            {
-              "desc": "PINATI NUTS BANANA 20X30G",
-              "qt": 1,
-              "val": 44.31
-            },
-            {
-              "desc": "PINATI NUTS COCO 20X30G",
-              "qt": 1,
-              "val": 44.31
-            }
-          ]
-        },
-        {
-          "numped": "378000474",
-          "numnota": "",
-          "data": "08/07/2026",
-          "cliente": "ALDIR CALDAS DO NASCIMENTO 03407917724",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 145.55,
-          "itens": [
-            {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 4,
-              "val": 51.6
-            },
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 2,
-              "val": 63.99
-            },
-            {
-              "desc": "4 PACK RED BULL",
-              "qt": 1,
-              "val": 29.96
             }
           ]
         },
@@ -6531,6 +6449,36 @@ const ENTREGAS_DATA = {
               "desc": "VODKA ORLOFF 1L",
               "qt": 6,
               "val": 137.4
+            }
+          ]
+        },
+        {
+          "numped": "378000474",
+          "numnota": "",
+          "data": "08/07/2026",
+          "cliente": "ALDIR CALDAS DO NASCIMENTO 03407917724",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 145.55,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 63.99
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 1,
+              "val": 29.96
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 4,
+              "val": 51.6
             }
           ]
         }
@@ -6943,6 +6891,36 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL 24X250ML",
               "qt": 2,
               "val": 345.12
+            }
+          ]
+        },
+        {
+          "numped": "159005032",
+          "numnota": "",
+          "data": "13/07/2026",
+          "cliente": "53.743.471 ALDANA CAROLINA ASTORGA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 504.44,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL TROPICAL 4X250ML",
+              "qt": 2,
+              "val": 57.52
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 6,
+              "val": 389.4
+            },
+            {
+              "desc": "4 PACK RED BULL MELANCIA",
+              "qt": 2,
+              "val": 57.52
             }
           ]
         },
@@ -8508,16 +8486,6 @@ const ENTREGAS_DATA = {
           "total": 463.06,
           "itens": [
             {
-              "desc": "WHISKY JIM BEAM APPLE 1L",
-              "qt": 2,
-              "val": 141.8
-            },
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 1,
-              "val": 172.56
-            },
-            {
               "desc": "MARTINI BIANCO 750 ML",
               "qt": 2,
               "val": 77.8
@@ -8526,202 +8494,170 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY JIM BEAM WHITE 1L",
               "qt": 1,
               "val": 70.9
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "WHISKY JIM BEAM APPLE 1L",
+              "qt": 2,
+              "val": 141.8
             }
           ],
           "motivo_alerta": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
           "responsavel_alerta": "Logística"
         },
         {
-          "numped": "",
-          "numnota": "411235",
-          "data": "",
+          "numped": "159005026",
+          "numnota": "411235.0",
+          "data": "10/07/2026",
           "cliente": "JOSE MAR RESTAURANTE LTDA",
           "placa": "",
-          "rota": "LUG4J13 / CABO FRIO",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 0.0,
-          "itens": [],
+          "total": 220.41,
+          "itens": [
+            {
+              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+              "qt": 1,
+              "val": 44.55
+            },
+            {
+              "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
+              "qt": 2,
+              "val": 117.24
+            },
+            {
+              "desc": "VINHO CAZAS NOVAS COLHEITA 750ML",
+              "qt": 1,
+              "val": 58.62
+            }
+          ],
           "motivo_alerta": "Pendente de Baixa",
           "responsavel_alerta": "Logística"
         },
         {
-          "numped": "",
-          "numnota": "411183",
-          "data": "",
+          "numped": "159005023",
+          "numnota": "411183.0",
+          "data": "10/07/2026",
           "cliente": "JOSE MAR RESTAURANTE LTDA",
           "placa": "",
-          "rota": "LUG4J13 / CABO FRIO",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 0.0,
-          "itens": [],
+          "total": 539.4,
+          "itens": [
+            {
+              "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
+              "qt": 6,
+              "val": 539.4
+            }
+          ],
           "motivo_alerta": "Pendente de Baixa",
           "responsavel_alerta": "Logística"
         },
         {
-          "numped": "",
-          "numnota": "411081",
-          "data": "",
+          "numped": "159005021",
+          "numnota": "411081.0",
+          "data": "09/07/2026",
           "cliente": "JOSE MAR RESTAURANTE LTDA",
           "placa": "",
-          "rota": "LUG4J13 / CABO FRIO",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 0.0,
-          "itens": [],
+          "total": 256.83,
+          "itens": [
+            {
+              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+              "qt": 1,
+              "val": 44.55
+            },
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 2,
+              "val": 95.04
+            },
+            {
+              "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
+              "qt": 1,
+              "val": 58.62
+            },
+            {
+              "desc": "VINHO CAZAS NOVAS COLHEITA 750ML",
+              "qt": 1,
+              "val": 58.62
+            }
+          ],
           "motivo_alerta": "Pendente de Baixa",
           "responsavel_alerta": "Logística"
         },
         {
-          "numped": "",
-          "numnota": "411082",
-          "data": "",
+          "numped": "159005022",
+          "numnota": "411082.0",
+          "data": "09/07/2026",
           "cliente": "R NICOLI EIRELI",
           "placa": "",
-          "rota": "RJD5F19 / BUZIOS",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 0.0,
-          "itens": [],
+          "total": 92.07,
+          "itens": [
+            {
+              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+              "qt": 1,
+              "val": 44.55
+            },
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 1,
+              "val": 47.52
+            }
+          ],
           "motivo_alerta": "Pendente de Baixa",
           "responsavel_alerta": "Logística"
         },
         {
-          "numped": "",
-          "numnota": "411236",
-          "data": "",
+          "numped": "159005025",
+          "numnota": "411236.0",
+          "data": "10/07/2026",
           "cliente": "R NICOLI EIRELI",
           "placa": "",
-          "rota": "RJD5F19 / BUZIOS",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 0.0,
-          "itens": [],
+          "total": 1648.2,
+          "itens": [
+            {
+              "desc": "CHANDON RESERVE BRUT ROSE 750ML",
+              "qt": 6,
+              "val": 455.4
+            },
+            {
+              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+              "qt": 6,
+              "val": 443.4
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 6,
+              "val": 749.4
+            }
+          ],
           "motivo_alerta": "Pendente de Baixa",
           "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "410724",
-          "data": "",
-          "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
-          "placa": "",
-          "rota": "TUK2F64 / NITEROI 2",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "FATURAMENTO NÃO INCLUIU A OBSERVAÇÃO — Todas as nfs retornaram pois a nf 411264 era para entregar na segunda porem o faturamento não colocou a observação.",
-          "responsavel_alerta": "A Definir"
-        },
-        {
-          "numped": "",
-          "numnota": "411235",
-          "data": "",
-          "cliente": "JOSE MAR RESTAURANTE LTDA",
-          "placa": "",
-          "rota": "LUG4J13 / CABO FRIO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "411183",
-          "data": "",
-          "cliente": "JOSE MAR RESTAURANTE LTDA",
-          "placa": "",
-          "rota": "LUG4J13 / CABO FRIO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "411081",
-          "data": "",
-          "cliente": "JOSE MAR RESTAURANTE LTDA",
-          "placa": "",
-          "rota": "LUG4J13 / CABO FRIO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "411082",
-          "data": "",
-          "cliente": "R NICOLI EIRELI",
-          "placa": "",
-          "rota": "RJD5F19 / BUZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "411236",
-          "data": "",
-          "cliente": "R NICOLI EIRELI",
-          "placa": "",
-          "rota": "RJD5F19 / BUZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "410724",
-          "data": "",
-          "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
-          "placa": "",
-          "rota": "TUK2F64 / NITEROI 2",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "FATURAMENTO NÃO INCLUIU A OBSERVAÇÃO — Todas as nfs retornaram pois a nf 411264 era para entregar na segunda porem o faturamento não colocou a observação.",
-          "responsavel_alerta": "A Definir"
         }
       ]
     },
@@ -8740,22 +8676,22 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 2804.16,
+          "total": 2876.16,
           "itens": [
             {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 179.76
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 5,
+              "val": 898.8
             },
             {
               "desc": "RED BULL MELANCIA 250ML CX C/24",
               "qt": 10,
-              "val": 1749.6
+              "val": 1797.6
             },
             {
-              "desc": "RED BULL ZERO  24X250ML",
-              "qt": 5,
-              "val": 874.8
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 179.76
             }
           ]
         }
@@ -11091,6 +11027,21 @@ const ENTREGAS_DATA = {
           "total": 6303.91,
           "itens": [
             {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 24,
+              "val": 2277.6
+            },
+            {
+              "desc": "WHISKY SUNTORY CHITA 700ML",
+              "qt": 1,
+              "val": 392.0
+            },
+            {
+              "desc": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+              "qt": 2,
+              "val": 1338.0
+            },
+            {
               "desc": "CACHACA JOIA DA SERRA OURO 1L",
               "qt": 12,
               "val": 390.0
@@ -11134,21 +11085,6 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
               "qt": 5,
               "val": 410.15
-            },
-            {
-              "desc": "WHISKY SUNTORY CHITA 700ML",
-              "qt": 1,
-              "val": 392.0
-            },
-            {
-              "desc": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
-              "qt": 2,
-              "val": 1338.0
-            },
-            {
-              "desc": "WHISKY JIM BEAM WHITE 1L",
-              "qt": 24,
-              "val": 2277.6
             }
           ]
         }
@@ -13611,9 +13547,14 @@ const ENTREGAS_DATA = {
           "total": 614.2,
           "itens": [
             {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 3,
+              "val": 98.7
+            },
+            {
+              "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
               "qt": 1,
-              "val": 94.7
+              "val": 42.0
             },
             {
               "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
@@ -13636,14 +13577,9 @@ const ENTREGAS_DATA = {
               "val": 94.7
             },
             {
-              "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
               "qt": 1,
-              "val": 42.0
-            },
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 3,
-              "val": 98.7
+              "val": 94.7
             }
           ],
           "motivo_alerta": "PEDIDO DUPLICADO — Pedido duplicado, cliente já recebeu essa mercadoria, vendedora Marilena Trangel ciente e solicitou o cancelamento da NF.",
@@ -13773,24 +13709,9 @@ const ENTREGAS_DATA = {
           "total": 487.99,
           "itens": [
             {
-              "desc": "CONHAQUE DOMECQ 1L",
-              "qt": 2,
-              "val": 57.8
-            },
-            {
-              "desc": "PIRASSUNUNGA 51 965 ML",
-              "qt": 2,
-              "val": 27.0
-            },
-            {
-              "desc": "CACHACA VELHO BARREIRO 910 ML",
-              "qt": 2,
-              "val": 27.0
-            },
-            {
-              "desc": "CATUABA SELVAGEM 900ML",
-              "qt": 4,
-              "val": 60.8
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 1,
+              "val": 249.5
             },
             {
               "desc": "VINHO CAB.SAUVIG QUINTA DO MORGADO 750ML",
@@ -13808,9 +13729,24 @@ const ENTREGAS_DATA = {
               "val": 7.98
             },
             {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 1,
-              "val": 249.5
+              "desc": "CATUABA SELVAGEM 900ML",
+              "qt": 4,
+              "val": 60.8
+            },
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 2,
+              "val": 57.8
+            },
+            {
+              "desc": "PIRASSUNUNGA 51 965 ML",
+              "qt": 2,
+              "val": 27.0
+            },
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 2,
+              "val": 27.0
             }
           ]
         }
@@ -15250,38 +15186,6 @@ const ENTREGAS_DATA = {
           ],
           "motivo_alerta": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Estabelecimento fechado, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
           "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "411218",
-          "data": "",
-          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
-          "placa": "",
-          "rota": "TTX4A47 / BANGU",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Estabelecimento fechado, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "411106",
-          "data": "",
-          "cliente": "ITANIA COSTA ANTONIO VIANA 16136309726",
-          "placa": "",
-          "rota": "TUP1A46 / NOVA IGUAÇU",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "ENDEREÇO DIVERGENTE — Endereço errado, vendedora Natali de Oliveira está ciente, mas não tivemos um retorno da mesma.",
-          "responsavel_alerta": "Vendas"
         }
       ]
     },
@@ -15311,6 +15215,76 @@ const ENTREGAS_DATA = {
               "desc": "ESPUMANTE ALUD ROSE 750ML",
               "qt": 6,
               "val": 209.4
+            }
+          ]
+        },
+        {
+          "numped": "155003860",
+          "numnota": "",
+          "data": "13/07/2026",
+          "cliente": "COMUKERIA ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1459.66,
+          "itens": [
+            {
+              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+              "qt": 6,
+              "val": 449.4
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 12,
+              "val": 418.8
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
+              "qt": 11,
+              "val": 196.9
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+              "qt": 6,
+              "val": 107.4
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S.  ROSE 187ML",
+              "qt": 6,
+              "val": 107.4
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 179.76
+            }
+          ]
+        },
+        {
+          "numped": "155003861",
+          "numnota": "",
+          "data": "13/07/2026",
+          "cliente": "CHIEFS BUZIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 327.8,
+          "itens": [
+            {
+              "desc": "WHISKY JAMESON CX C/ 12X 50ML",
+              "qt": 1,
+              "val": 139.9
+            },
+            {
+              "desc": "WHISKY JACK DANIELS CX C/ 10X50 ML",
+              "qt": 1,
+              "val": 187.9
             }
           ]
         },
@@ -16706,21 +16680,6 @@ const ENTREGAS_DATA = {
           "total": 1523.02,
           "itens": [
             {
-              "desc": "VODKA ABSOLUT TABASCO 750ML",
-              "qt": 1,
-              "val": 69.9
-            },
-            {
-              "desc": "XAROPE MONIN CRANBERRY 700 ML",
-              "qt": 2,
-              "val": 99.8
-            },
-            {
-              "desc": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
-              "qt": 3,
-              "val": 149.7
-            },
-            {
               "desc": "RED BULL 24X250ML",
               "qt": 1,
               "val": 179.76
@@ -16744,6 +16703,21 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 1,
               "val": 179.76
+            },
+            {
+              "desc": "XAROPE MONIN CRANBERRY 700 ML",
+              "qt": 2,
+              "val": 99.8
+            },
+            {
+              "desc": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+              "qt": 3,
+              "val": 149.7
+            },
+            {
+              "desc": "VODKA ABSOLUT TABASCO 750ML",
+              "qt": 1,
+              "val": 69.9
             }
           ],
           "motivo_alerta": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
@@ -16824,228 +16798,137 @@ const ENTREGAS_DATA = {
           "responsavel_alerta": ""
         },
         {
-          "numped": "",
-          "numnota": "411186",
-          "data": "",
+          "numped": "155003848",
+          "numnota": "411186.0",
+          "data": "10/07/2026",
           "cliente": "31.802.997 MAXIMILIANO TORRES DE OLIVEIRA",
-          "placa": "",
-          "rota": "LUG4J13 / CABO FRIO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "411237",
-          "data": "",
-          "cliente": "BIG STAR CONVENIENCIA LTDA",
-          "placa": "",
-          "rota": "LUG4J13 / CABO FRIO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "411084",
-          "data": "",
-          "cliente": "42.167.762 BEATRIZ XAVIER BESSA",
-          "placa": "",
-          "rota": "RJD5F19 / BUZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "411185",
-          "data": "",
-          "cliente": "CONVENIENCIA BUZIANA LTDA",
-          "placa": "",
-          "rota": "RJD5F19 / BUZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "410843",
-          "data": "",
-          "cliente": "NEW LOUNGE CAMBOINHAS LTDA",
-          "placa": "",
-          "rota": "TUK2F64 / NITEROI 2",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "FATURAMENTO NÃO INCLUIU A OBSERVAÇÃO — Todas as nfs retornaram pois a nf 411264 era para entregar na segunda porem o faturamento não colocou a observação.",
-          "responsavel_alerta": "A Definir"
-        },
-        {
-          "numped": "",
-          "numnota": "410723",
-          "data": "",
-          "cliente": "TOKITO FRUTOS DO MAR LTDA.",
-          "placa": "",
-          "rota": "TUK2F64 / NITEROI 2",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "FATURAMENTO NÃO INCLUIU A OBSERVAÇÃO — Todas as nfs retornaram pois a nf 411264 era para entregar na segunda porem o faturamento não colocou a observação.",
-          "responsavel_alerta": "A Definir"
-        },
-        {
-          "numped": "",
-          "numnota": "143",
-          "data": "",
-          "cliente": "",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "",
-          "responsavel_alerta": ""
+          "total": 639.4,
+          "itens": [
+            {
+              "desc": "GIN MARINA 750ML",
+              "qt": 6,
+              "val": 239.4
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 3,
+              "val": 104.7
+            },
+            {
+              "desc": "MARTINI BIANCO 750 ML",
+              "qt": 2,
+              "val": 61.0
+            },
+            {
+              "desc": "RUM MONTILLA OURO 1L",
+              "qt": 3,
+              "val": 68.7
+            },
+            {
+              "desc": "RUM MALIBU 750ML",
+              "qt": 2,
+              "val": 99.8
+            },
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 2,
+              "val": 65.8
+            }
+          ],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
         },
         {
-          "numped": "",
-          "numnota": "49",
-          "data": "",
-          "cliente": "",
+          "numped": "155003850",
+          "numnota": "411237.0",
+          "data": "10/07/2026",
+          "cliente": "BIG STAR CONVENIENCIA LTDA",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "",
-          "responsavel_alerta": ""
-        },
-        {
-          "numped": "",
-          "numnota": "411186",
-          "data": "",
-          "cliente": "31.802.997 MAXIMILIANO TORRES DE OLIVEIRA",
-          "placa": "",
-          "rota": "LUG4J13 / CABO FRIO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
+          "total": 267.68,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 89.88
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML",
+              "qt": 2,
+              "val": 177.8
+            }
+          ],
           "motivo_alerta": "Pendente de Baixa",
           "responsavel_alerta": "Logística"
         },
         {
-          "numped": "",
-          "numnota": "411237",
-          "data": "",
-          "cliente": "BIG STAR CONVENIENCIA LTDA",
-          "placa": "",
-          "rota": "LUG4J13 / CABO FRIO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "411084",
-          "data": "",
+          "numped": "155003844",
+          "numnota": "411084.0",
+          "data": "10/07/2026",
           "cliente": "42.167.762 BEATRIZ XAVIER BESSA",
           "placa": "",
-          "rota": "RJD5F19 / BUZIOS",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 0.0,
-          "itens": [],
+          "total": 408.02,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 345.12
+            },
+            {
+              "desc": "WHISKY BALLANTINE S FINEST 1L",
+              "qt": 1,
+              "val": 62.9
+            }
+          ],
           "motivo_alerta": "Pendente de Baixa",
           "responsavel_alerta": "Logística"
         },
         {
-          "numped": "",
-          "numnota": "411185",
-          "data": "",
+          "numped": "155003849",
+          "numnota": "411185.0",
+          "data": "10/07/2026",
           "cliente": "CONVENIENCIA BUZIANA LTDA",
           "placa": "",
-          "rota": "RJD5F19 / BUZIOS",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 0.0,
-          "itens": [],
+          "total": 1338.72,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 345.12
+            },
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 334.8
+            },
+            {
+              "desc": "GIN GORDONS 750 ML",
+              "qt": 12,
+              "val": 658.8
+            }
+          ],
           "motivo_alerta": "Pendente de Baixa",
           "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "410843",
-          "data": "",
-          "cliente": "NEW LOUNGE CAMBOINHAS LTDA",
-          "placa": "",
-          "rota": "TUK2F64 / NITEROI 2",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "FATURAMENTO NÃO INCLUIU A OBSERVAÇÃO — Todas as nfs retornaram pois a nf 411264 era para entregar na segunda porem o faturamento não colocou a observação.",
-          "responsavel_alerta": "A Definir"
-        },
-        {
-          "numped": "",
-          "numnota": "410723",
-          "data": "",
-          "cliente": "TOKITO FRUTOS DO MAR LTDA.",
-          "placa": "",
-          "rota": "TUK2F64 / NITEROI 2",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "FATURAMENTO NÃO INCLUIU A OBSERVAÇÃO — Todas as nfs retornaram pois a nf 411264 era para entregar na segunda porem o faturamento não colocou a observação.",
-          "responsavel_alerta": "A Definir"
         }
       ]
     },
@@ -17274,34 +17157,24 @@ const ENTREGAS_DATA = {
       ],
       "nao_entregue": [
         {
-          "numped": "",
-          "numnota": "411094",
-          "data": "",
+          "numped": "241000522",
+          "numnota": "411094.0",
+          "data": "10/07/2026",
           "cliente": "61.443.128 MARCELO DA SILVA AZEREDO",
           "placa": "",
-          "rota": "RJD5F19 / BUZIOS",
+          "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "411094",
-          "data": "",
-          "cliente": "61.443.128 MARCELO DA SILVA AZEREDO",
-          "placa": "",
-          "rota": "RJD5F19 / BUZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
+          "total": 1734.0,
+          "itens": [
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 60,
+              "val": 1734.0
+            }
+          ],
           "motivo_alerta": "Pendente de Baixa",
           "responsavel_alerta": "Logística"
         }
