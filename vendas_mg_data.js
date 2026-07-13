@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "13/07/2026 13:55",
+  "atualizado_em": "13/07/2026 15:51",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 72336.06,
-        "pos": 52,
+        "fat": 72638.34,
+        "pos": 53,
         "fat_ant": 343937.59
       }
     },
@@ -77,14 +77,14 @@ const VENDAS_MG_DATA = {
         "fat_ant": 58591.42
       },
       "Jun/26": {
-        "fat": 170338.38,
+        "fat": 168779.58,
         "pos": 51,
         "fat_ant": 175829.04
       },
       "Jul/26": {
         "fat": 61146.68,
         "pos": 18,
-        "fat_ant": 170338.38
+        "fat_ant": 168779.58
       }
     },
     "JANAIRA MARQUES": {
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 25252.9,
-        "pos": 28,
+        "fat": 25606.3,
+        "pos": 29,
         "fat_ant": 85308.22
       }
     },
@@ -45488,6 +45488,60 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 538.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "39460",
+          "cliente": "BLOOM DIGITAL MIDIA LTDA",
+          "produto": "4 PACK RED BULL SUGAR FREE",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 33.96
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "39460",
+          "cliente": "BLOOM DIGITAL MIDIA LTDA",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 67.92
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "39460",
+          "cliente": "BLOOM DIGITAL MIDIA LTDA",
+          "produto": "AGUA MAMBA C/ GAS 24X350ML",
+          "fantasia": "BETTER DRINKS",
+          "qt": 1,
+          "valor": 64.56
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "39460",
+          "cliente": "BLOOM DIGITAL MIDIA LTDA",
+          "produto": "4 PACK  RED BULL  MAÇA SF",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 33.96
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "39460",
+          "cliente": "BLOOM DIGITAL MIDIA LTDA",
+          "produto": "4 PACK  RED BULL MORANGO PESSEGO",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 33.96
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "39460",
+          "cliente": "BLOOM DIGITAL MIDIA LTDA",
+          "produto": "4 PACK RED BULL POMELO SF",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 67.92
         }
       ]
     },
@@ -50864,15 +50918,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 3,
           "valor": 68.7
-        },
-        {
-          "data": "08/06/2026",
-          "codcli": "33955",
-          "cliente": "TAUA RESORT CAETE LTDA",
-          "produto": "JACK DANIELS HONEY 1 L",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 1558.8
         },
         {
           "data": "08/06/2026",
@@ -84218,6 +84263,24 @@ const VENDAS_MG_DATA = {
           "fantasia": "MSLR",
           "qt": 1,
           "valor": 59.9
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "31850",
+          "cliente": "LA MACELLERIA VILA DA SERRA ACOUGUE GOURMET E RESTAURANTE LT",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 128.7
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "31850",
+          "cliente": "LA MACELLERIA VILA DA SERRA ACOUGUE GOURMET E RESTAURANTE LT",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 224.7
         },
         {
           "data": "13/07/2026",
