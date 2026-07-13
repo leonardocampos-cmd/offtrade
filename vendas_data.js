@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "13/07/2026 09:23",
+  "atualizado_em": "13/07/2026 09:41",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -250961,36 +250961,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 3,
           "valor": 89.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/07/2026",
-          "codcli": "74979",
-          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
-          "produto": "COMARY MELFORT COQUETEL DE MEL 1L",
-          "fantasia": "COMARY",
-          "qt": 60,
-          "valor": 654.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/07/2026",
-          "codcli": "74979",
-          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 346.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/07/2026",
-          "codcli": "74979",
-          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
-          "produto": "CACHACA TATUZINHO PET 750 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 6,
-          "valor": 23.94,
           "tipo": "Venda"
         },
         {
