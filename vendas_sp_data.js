@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "13/07/2026 15:51",
+  "atualizado_em": "13/07/2026 17:11",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -42,6 +42,7 @@ const VENDAS_SP_DATA = {
     "FABIANO RIBEIRO": "367",
     "ANA PAULA": "356",
     "GILSON DE OLIVEIRA": "491",
+    "LUCAS BUENO": "475",
     "ROBSON DA SILVA": "317",
     "CELSO OLIVEIRA": "498",
     "ELIZANGELA RODRIGUES": "462",
@@ -50,7 +51,6 @@ const VENDAS_SP_DATA = {
     "ADRIANO VEZZANI": "488",
     "GILVAN AMORIM": "504",
     "LEONARDO MILAN": "315",
-    "LUCAS BUENO": "475",
     "MARCUS TANAMACHI": "318",
     "PRISCILLA BONACHE": "470",
     "JOSE SILVA": "499",
@@ -39936,6 +39936,15 @@ const VENDAS_SP_DATA = {
           "valor": 439.6
         },
         {
+          "data": "13/07/2026",
+          "codcli": "43134",
+          "cliente": "VAREJAO TATU LTDA",
+          "produto": "WHISKY SUNTORY CHITA 700ML",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 3,
+          "valor": 1160.7
+        },
+        {
           "data": "08/07/2026",
           "codcli": "49459",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
@@ -58548,6 +58557,15 @@ const VENDAS_SP_DATA = {
           "valor": 350.7
         },
         {
+          "data": "13/07/2026",
+          "codcli": "50543",
+          "cliente": "LEDUINO E LEDUINO LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 17,
+          "valor": 1987.3
+        },
+        {
           "data": "01/07/2026",
           "codcli": "50543",
           "cliente": "LEDUINO E LEDUINO LTDA",
@@ -66372,9 +66390,27 @@ const VENDAS_SP_DATA = {
           "valor": 123.3
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51500",
+          "cliente": "58.871.505 MARIANA RIBEIRO NEVES DE LIMA",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.3
+        },
+        {
           "data": "04/07/2026",
           "codcli": "50029",
           "cliente": "R. APARECIDO FERREIRA DE MENEZES",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.48
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51500",
+          "cliente": "58.871.505 MARIANA RIBEIRO NEVES DE LIMA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
           "fantasia": "FANTE",
           "qt": 12,
@@ -74493,6 +74529,15 @@ const VENDAS_SP_DATA = {
           "valor": 573.4
         },
         {
+          "data": "13/07/2026",
+          "codcli": "40688",
+          "cliente": "MICHELLE CARLA GONCALVES",
+          "produto": "GIN TANQUERAY FLOR DE SEVILLA  700 ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 191.13
+        },
+        {
           "data": "02/07/2026",
           "codcli": "49729",
           "cliente": "GILVANDA ANDRADE SANTOS 26811406844",
@@ -74638,6 +74683,15 @@ const VENDAS_SP_DATA = {
         },
         {
           "data": "13/07/2026",
+          "codcli": "40688",
+          "cliente": "MICHELLE CARLA GONCALVES",
+          "produto": "GIN TANQUERAY BOSSA NOVA  700 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 629.4
+        },
+        {
+          "data": "13/07/2026",
           "codcli": "51253",
           "cliente": "MEDRADO BURGUER LTDA",
           "produto": "GIN TANQUERAY BOSSA NOVA  700 ML",
@@ -74653,6 +74707,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "CRS BRANDS",
           "qt": 60,
           "valor": 539.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51253",
+          "cliente": "MEDRADO BURGUER LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 48,
+          "valor": 431.52
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51253",
+          "cliente": "MEDRADO BURGUER LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 215.76
         },
         {
           "data": "06/07/2026",
@@ -81602,6 +81674,527 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
+    "LUCAS BUENO": {
+      "Jul/26": [
+        {
+          "data": "13/07/2026",
+          "codcli": "51734",
+          "cliente": "MERCADO PRIMAVERA ALVES SANTOS LTDA",
+          "produto": "RUM BACARDI CARTA BLANCA 980ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 206.55
+        },
+        {
+          "data": "04/07/2026",
+          "codcli": "32402",
+          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 669.6
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51099",
+          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 119.88
+        },
+        {
+          "data": "04/07/2026",
+          "codcli": "32402",
+          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1413.6
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "32402",
+          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "32402",
+          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
+          "data": "04/07/2026",
+          "codcli": "32402",
+          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
+          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
+          "fantasia": "BACARDI",
+          "qt": 3,
+          "valor": 311.7
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "32402",
+          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1269.6
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51099",
+          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 202.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51734",
+          "cliente": "MERCADO PRIMAVERA ALVES SANTOS LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 3,
+          "valor": 50.7
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51099",
+          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 24,
+          "valor": 309.6
+        },
+        {
+          "data": "04/07/2026",
+          "codcli": "32402",
+          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
+          "produto": "WHISKY ROYAL SALUTE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 579.9
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51099",
+          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 161.88
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51734",
+          "cliente": "MERCADO PRIMAVERA ALVES SANTOS LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 12,
+          "valor": 754.8
+        },
+        {
+          "data": "04/07/2026",
+          "codcli": "32402",
+          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
+          "produto": "WHISKY JAMESON 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1629.6
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "51099",
+          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
+          "fantasia": "BROWN",
+          "qt": 6,
+          "valor": 599.4
+        },
+        {
+          "data": "04/07/2026",
+          "codcli": "32402",
+          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
+          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 666.0
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "50664",
+          "cliente": "MERCADINHO 15 DE AGOSTO LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 36,
+          "valor": 323.64
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "51434",
+          "cliente": "MERCADO SILVA JUNDIAI LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 215.76
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "50631",
+          "cliente": "ODAIR MERCADO LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 120,
+          "valor": 1078.8
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "50664",
+          "cliente": "MERCADINHO 15 DE AGOSTO LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 215.76
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "51434",
+          "cliente": "MERCADO SILVA JUNDIAI LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "51099",
+          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88
+        }
+      ],
+      "Mai/26": [
+        {
+          "data": "21/05/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 310.8
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "VODKA ABSOLUT 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 646.8
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "WHISKY BALLANTINE'S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 706.8
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 403.2
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "50578",
+          "cliente": "COMERCIAL DE ALIMENTOS ZANUTTO BORCEDA LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 202.8
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 569.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "50574",
+          "cliente": "52.324.853 BIANCA BERNARDES FRANCOSO",
+          "produto": "WHISKY ROYAL SALUTE 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 569.9
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "50574",
+          "cliente": "52.324.853 BIANCA BERNARDES FRANCOSO",
+          "produto": "WHISKY ROYAL SALUTE MALT EDITION 700 ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 629.9
+        }
+      ],
+      "Jun/26": [
+        {
+          "data": "17/06/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51230",
+          "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 334.8
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "50578",
+          "cliente": "COMERCIAL DE ALIMENTOS ZANUTTO BORCEDA LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 250.8
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50636",
+          "cliente": "SUPERMERCADO RAMA LTDA",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 119.88
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "50636",
+          "cliente": "SUPERMERCADO RAMA LTDA",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 119.88
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51230",
+          "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 119.88
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "51099",
+          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 167.7
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "51099",
+          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 100.8
+        },
+        {
+          "data": "03/06/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 202.8
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50636",
+          "cliente": "SUPERMERCADO RAMA LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 202.8
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 202.8
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "50636",
+          "cliente": "SUPERMERCADO RAMA LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 202.8
+        },
+        {
+          "data": "22/06/2026",
+          "codcli": "50578",
+          "cliente": "COMERCIAL DE ALIMENTOS ZANUTTO BORCEDA LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 24,
+          "valor": 405.6
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51230",
+          "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 202.8
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51381",
+          "cliente": "PINHEIRO & MAIA COMERCIO DE UTILIDADES LTDA",
+          "produto": "SMIRNOFF ICE 24X275ML LONG",
+          "fantasia": "DIAGEO",
+          "qt": 5,
+          "valor": 629.5
+        },
+        {
+          "data": "03/06/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "LIQUEUR JAGERMEISTER 700 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 3,
+          "valor": 314.7
+        },
+        {
+          "data": "03/06/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "CATUABA SELVAGEM 900ML",
+          "fantasia": "COMARY",
+          "qt": 12,
+          "valor": 163.48
+        },
+        {
+          "data": "01/06/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "VODKA ABSOLUT VANILLA 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "51099",
+          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
+          "fantasia": "BROWN",
+          "qt": 6,
+          "valor": 599.4
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "51230",
+          "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50574",
+          "cliente": "52.324.853 BIANCA BERNARDES FRANCOSO",
+          "produto": "LIQUEUR AMARULA ETHIOPIAN COFFEE",
+          "fantasia": "INTERFOOD",
+          "qt": 1,
+          "valor": 95.14
+        },
+        {
+          "data": "11/06/2026",
+          "codcli": "50574",
+          "cliente": "52.324.853 BIANCA BERNARDES FRANCOSO",
+          "produto": "WHISKY ROYAL SALUTE GRAIN 700ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 579.9
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 263.76
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51381",
+          "cliente": "PINHEIRO & MAIA COMERCIO DE UTILIDADES LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88
+        },
+        {
+          "data": "17/06/2026",
+          "codcli": "50572",
+          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 131.88
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "51381",
+          "cliente": "PINHEIRO & MAIA COMERCIO DE UTILIDADES LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88
+        }
+      ]
+    },
     "ROBSON DA SILVA": {
       "Mar/26": [
         {
@@ -87193,500 +87786,6 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
-    "LUCAS BUENO": {
-      "Mai/26": [
-        {
-          "data": "21/05/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 310.8
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 646.8
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 706.8
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 403.2
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "50578",
-          "cliente": "COMERCIAL DE ALIMENTOS ZANUTTO BORCEDA LTDA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
-          "qt": 12,
-          "valor": 202.8
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 569.9
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "50574",
-          "cliente": "52.324.853 BIANCA BERNARDES FRANCOSO",
-          "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 569.9
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "50574",
-          "cliente": "52.324.853 BIANCA BERNARDES FRANCOSO",
-          "produto": "WHISKY ROYAL SALUTE MALT EDITION 700 ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 629.9
-        }
-      ],
-      "Jun/26": [
-        {
-          "data": "17/06/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 334.8
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "51230",
-          "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 334.8
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "50578",
-          "cliente": "COMERCIAL DE ALIMENTOS ZANUTTO BORCEDA LTDA",
-          "produto": "RUM MONTILLA CARTA BRANCA 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 250.8
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "50636",
-          "cliente": "SUPERMERCADO RAMA LTDA",
-          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 119.88
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "50636",
-          "cliente": "SUPERMERCADO RAMA LTDA",
-          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 119.88
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "51230",
-          "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
-          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 119.88
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "51099",
-          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 167.7
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "51099",
-          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 100.8
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
-          "qt": 12,
-          "valor": 202.8
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "50636",
-          "cliente": "SUPERMERCADO RAMA LTDA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
-          "qt": 12,
-          "valor": 202.8
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
-          "qt": 12,
-          "valor": 202.8
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "50636",
-          "cliente": "SUPERMERCADO RAMA LTDA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
-          "qt": 12,
-          "valor": 202.8
-        },
-        {
-          "data": "22/06/2026",
-          "codcli": "50578",
-          "cliente": "COMERCIAL DE ALIMENTOS ZANUTTO BORCEDA LTDA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
-          "qt": 24,
-          "valor": 405.6
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "51230",
-          "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
-          "qt": 12,
-          "valor": 202.8
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51381",
-          "cliente": "PINHEIRO & MAIA COMERCIO DE UTILIDADES LTDA",
-          "produto": "SMIRNOFF ICE 24X275ML LONG",
-          "fantasia": "DIAGEO",
-          "qt": 5,
-          "valor": 629.5
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "LIQUEUR JAGERMEISTER 700 ML",
-          "fantasia": "INTERFOOD",
-          "qt": 3,
-          "valor": 314.7
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "CATUABA SELVAGEM 900ML",
-          "fantasia": "COMARY",
-          "qt": 12,
-          "valor": 163.48
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "VODKA ABSOLUT VANILLA 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 658.8
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "51099",
-          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
-          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-          "fantasia": "BROWN",
-          "qt": 6,
-          "valor": 599.4
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "51230",
-          "cliente": "MARIA EVA SILVEIRA DOS SANTOS",
-          "produto": "CACHAÇA SAO FRANCISCO 970ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 262.8
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "50574",
-          "cliente": "52.324.853 BIANCA BERNARDES FRANCOSO",
-          "produto": "LIQUEUR AMARULA ETHIOPIAN COFFEE",
-          "fantasia": "INTERFOOD",
-          "qt": 1,
-          "valor": 95.14
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "50574",
-          "cliente": "52.324.853 BIANCA BERNARDES FRANCOSO",
-          "produto": "WHISKY ROYAL SALUTE GRAIN 700ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 579.9
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 24,
-          "valor": 263.76
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51381",
-          "cliente": "PINHEIRO & MAIA COMERCIO DE UTILIDADES LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 107.88
-        },
-        {
-          "data": "17/06/2026",
-          "codcli": "50572",
-          "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 131.88
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "51381",
-          "cliente": "PINHEIRO & MAIA COMERCIO DE UTILIDADES LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 107.88
-        }
-      ],
-      "Jul/26": [
-        {
-          "data": "04/07/2026",
-          "codcli": "32402",
-          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 669.6
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "51099",
-          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
-          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 119.88
-        },
-        {
-          "data": "04/07/2026",
-          "codcli": "32402",
-          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
-          "produto": "VODKA ABSOLUT 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1413.6
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "32402",
-          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 1198.8
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "32402",
-          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "BROWN",
-          "qt": 12,
-          "valor": 1198.8
-        },
-        {
-          "data": "04/07/2026",
-          "codcli": "32402",
-          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
-          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
-          "fantasia": "BACARDI",
-          "qt": 3,
-          "valor": 311.7
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "32402",
-          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1269.6
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "51099",
-          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
-          "qt": 12,
-          "valor": 202.8
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "51099",
-          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
-          "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 24,
-          "valor": 309.6
-        },
-        {
-          "data": "04/07/2026",
-          "codcli": "32402",
-          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
-          "produto": "WHISKY ROYAL SALUTE 700ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 579.9
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "51099",
-          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
-          "produto": "WHISKY CHANCELER 1L",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 161.88
-        },
-        {
-          "data": "04/07/2026",
-          "codcli": "32402",
-          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
-          "produto": "WHISKY JAMESON 1L",
-          "fantasia": "PERNOD",
-          "qt": 24,
-          "valor": 1629.6
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "51099",
-          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
-          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
-          "fantasia": "BROWN",
-          "qt": 6,
-          "valor": 599.4
-        },
-        {
-          "data": "04/07/2026",
-          "codcli": "32402",
-          "cliente": "COMERCIAL MOURA DE JARINU LTDA",
-          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 666.0
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "50664",
-          "cliente": "MERCADINHO 15 DE AGOSTO LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 36,
-          "valor": 323.64
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "51434",
-          "cliente": "MERCADO SILVA JUNDIAI LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 24,
-          "valor": 215.76
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "50631",
-          "cliente": "ODAIR MERCADO LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 120,
-          "valor": 1078.8
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "50664",
-          "cliente": "MERCADINHO 15 DE AGOSTO LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 24,
-          "valor": 215.76
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "51434",
-          "cliente": "MERCADO SILVA JUNDIAI LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 107.88
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "51099",
-          "cliente": "AYMORE I COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 107.88
-        }
-      ]
-    },
     "MARCUS TANAMACHI": {
       "Mai/26": [
         {
@@ -90790,8 +90889,8 @@ const VENDAS_SP_DATA = {
     },
     "BRUNO BARBOSA": {
       "Jul/26": {
-        "fat": 76702.3,
-        "pos": 13.0,
+        "fat": 77863.0,
+        "pos": 14.0,
         "fat_pernod": 37976.51,
         "fat_crs": 5566.86
       },
@@ -90913,8 +91012,8 @@ const VENDAS_SP_DATA = {
     },
     "CRISTIANE MORAIS": {
       "Jul/26": {
-        "fat": 71310.72,
-        "pos": 18.0,
+        "fat": 71680.5,
+        "pos": 19.0,
         "fat_pernod": 51232.68,
         "fat_crs": 215.76
       },
@@ -90937,10 +91036,10 @@ const VENDAS_SP_DATA = {
     },
     "SUELY SANTOS": {
       "Jul/26": {
-        "fat": 33926.56,
-        "pos": 11.0,
+        "fat": 35394.37,
+        "pos": 12.0,
         "fat_pernod": 15926.28,
-        "fat_crs": 863.16
+        "fat_crs": 1510.44
       },
       "Jun/26": {
         "fat": 103869.97,
@@ -91045,7 +91144,7 @@ const VENDAS_SP_DATA = {
     },
     "DANIELLE DOS SANTOS": {
       "Jul/26": {
-        "fat": 9402.76,
+        "fat": 11390.06,
         "pos": 6.0,
         "fat_pernod": 5966.7,
         "fat_crs": 970.92
@@ -91219,8 +91318,8 @@ const VENDAS_SP_DATA = {
     },
     "LUCAS BUENO": {
       "Jul/26": {
-        "fat": 12380.88,
-        "pos": 5.0,
+        "fat": 13392.93,
+        "pos": 6.0,
         "fat_pernod": 6228.3,
         "fat_crs": 2331.48
       },
