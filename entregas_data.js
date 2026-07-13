@@ -4,43 +4,7 @@ const ENTREGAS_DATA = {
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "em_rota": [
-        {
-          "numped": "431001129",
-          "numnota": "411170.0",
-          "data": "10/07/2026",
-          "cliente": "PANIFICACAO LUANDA LTDA",
-          "placa": "LMV5I35",
-          "rota": "ZONA OESTE",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 378.8,
-          "itens": [
-            {
-              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            },
-            {
-              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "qt": 1,
-              "val": 94.7
-            }
-          ]
-        }
-      ],
+      "em_rota": [],
       "nao_emitido": [],
       "emitido_s_rota": [
         {
@@ -1127,6 +1091,43 @@ const ENTREGAS_DATA = {
             }
           ],
           "motivo_alerta": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — Cliente não pediu as 12 CX de suco de uva, vendedor Adeilson Gonçalves está ciente e solicitou o cancelamento da NF, o mesmo informou que vai refazer o pedido.",
+          "responsavel_alerta": "Vendas"
+        },
+        {
+          "numped": "431001129",
+          "numnota": "411170.0",
+          "data": "10/07/2026",
+          "cliente": "PANIFICACAO LUANDA LTDA",
+          "placa": "LMV5I35",
+          "rota": "ZONA OESTE",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 378.8,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ],
+          "motivo_alerta": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — Cliente alega não ter feito o pedido, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
           "responsavel_alerta": "Vendas"
         }
       ]
@@ -8513,6 +8514,102 @@ const ENTREGAS_DATA = {
           ],
           "motivo_alerta": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
           "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "411235",
+          "data": "",
+          "cliente": "JOSE MAR RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "LUG4J13 / CABO FRIO",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "411183",
+          "data": "",
+          "cliente": "JOSE MAR RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "LUG4J13 / CABO FRIO",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "411081",
+          "data": "",
+          "cliente": "JOSE MAR RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "LUG4J13 / CABO FRIO",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "411082",
+          "data": "",
+          "cliente": "R NICOLI EIRELI",
+          "placa": "",
+          "rota": "RJD5F19 / BUZIOS",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "411236",
+          "data": "",
+          "cliente": "R NICOLI EIRELI",
+          "placa": "",
+          "rota": "RJD5F19 / BUZIOS",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "410724",
+          "data": "",
+          "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "TUK2F64 / NITEROI 2",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "FATURAMENTO NÃO INCLUIU A OBSERVAÇÃO — Todas as nfs retornaram pois a nf 411264 era para entregar na segunda porem o faturamento não colocou a observação.",
+          "responsavel_alerta": "A Definir"
         }
       ]
     },
@@ -14411,73 +14508,7 @@ const ENTREGAS_DATA = {
     },
     {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
-      "em_rota": [
-        {
-          "numped": "419000696",
-          "numnota": "411106.0",
-          "data": "10/07/2026",
-          "cliente": "ITANIA COSTA ANTONIO VIANA 16136309726",
-          "placa": "LTM4961",
-          "rota": "BAIXADA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "data entrega: 11/07",
-          "total": 2670.0,
-          "itens": [
-            {
-              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-              "qt": 1,
-              "val": 153.36
-            },
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 10,
-              "val": 1797.6
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 2,
-              "val": 359.52
-            },
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 2,
-              "val": 359.52
-            }
-          ]
-        },
-        {
-          "numped": "419000697",
-          "numnota": "411218.0",
-          "data": "10/07/2026",
-          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
-          "placa": "LMV5I35",
-          "rota": "ZONA OESTE",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "data entrega: 11/07",
-          "total": 594.1,
-          "itens": [
-            {
-              "desc": "CATUABA SELVAGEM ACAI 900ML",
-              "qt": 36,
-              "val": 464.4
-            },
-            {
-              "desc": "RUM MONTILLA OURO 1L",
-              "qt": 5,
-              "val": 114.5
-            },
-            {
-              "desc": "CATUABA SELVAGEM 900ML",
-              "qt": 1,
-              "val": 15.2
-            }
-          ]
-        }
-      ],
+      "em_rota": [],
       "nao_emitido": [],
       "emitido_s_rota": [
         {
@@ -15038,7 +15069,77 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_entregue": []
+      "nao_entregue": [
+        {
+          "numped": "419000696",
+          "numnota": "411106.0",
+          "data": "10/07/2026",
+          "cliente": "ITANIA COSTA ANTONIO VIANA 16136309726",
+          "placa": "LTM4961",
+          "rota": "BAIXADA",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "data entrega: 11/07",
+          "total": 2670.0,
+          "itens": [
+            {
+              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+              "qt": 1,
+              "val": 153.36
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 10,
+              "val": 1797.6
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 359.52
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 2,
+              "val": 359.52
+            }
+          ],
+          "motivo_alerta": "ENDEREÇO DIVERGENTE — Endereço errado, vendedora Natali de Oliveira está ciente, mas não tivemos um retorno da mesma.",
+          "responsavel_alerta": "Vendas"
+        },
+        {
+          "numped": "419000697",
+          "numnota": "411218.0",
+          "data": "10/07/2026",
+          "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+          "placa": "LMV5I35",
+          "rota": "ZONA OESTE",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "data entrega: 11/07",
+          "total": 594.1,
+          "itens": [
+            {
+              "desc": "CATUABA SELVAGEM ACAI 900ML",
+              "qt": 36,
+              "val": 464.4
+            },
+            {
+              "desc": "RUM MONTILLA OURO 1L",
+              "qt": 5,
+              "val": 114.5
+            },
+            {
+              "desc": "CATUABA SELVAGEM 900ML",
+              "qt": 1,
+              "val": 15.2
+            }
+          ],
+          "motivo_alerta": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Estabelecimento fechado, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
+          "responsavel_alerta": "Logística"
+        }
+      ]
     },
     {
       "nome": "RAPHAEL SANTOS - OFF TRADE",
@@ -16545,6 +16646,134 @@ const ENTREGAS_DATA = {
           ],
           "motivo_alerta": "VEÍCULO INOPERANTE (FALHA MECANICA) — TODAS AS NOTAS RETORNARAM DEVIDO A UMA FALHA MECANICA NO VEICULO QUE IMPOSSIBILITOU A ROTA DA EQUIPE",
           "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "143",
+          "data": "",
+          "cliente": "",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "",
+          "responsavel_alerta": ""
+        },
+        {
+          "numped": "",
+          "numnota": "49",
+          "data": "",
+          "cliente": "",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "",
+          "responsavel_alerta": ""
+        },
+        {
+          "numped": "",
+          "numnota": "411186",
+          "data": "",
+          "cliente": "31.802.997 MAXIMILIANO TORRES DE OLIVEIRA",
+          "placa": "",
+          "rota": "LUG4J13 / CABO FRIO",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "411237",
+          "data": "",
+          "cliente": "BIG STAR CONVENIENCIA LTDA",
+          "placa": "",
+          "rota": "LUG4J13 / CABO FRIO",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "411084",
+          "data": "",
+          "cliente": "42.167.762 BEATRIZ XAVIER BESSA",
+          "placa": "",
+          "rota": "RJD5F19 / BUZIOS",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "411185",
+          "data": "",
+          "cliente": "CONVENIENCIA BUZIANA LTDA",
+          "placa": "",
+          "rota": "RJD5F19 / BUZIOS",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "410843",
+          "data": "",
+          "cliente": "NEW LOUNGE CAMBOINHAS LTDA",
+          "placa": "",
+          "rota": "TUK2F64 / NITEROI 2",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "FATURAMENTO NÃO INCLUIU A OBSERVAÇÃO — Todas as nfs retornaram pois a nf 411264 era para entregar na segunda porem o faturamento não colocou a observação.",
+          "responsavel_alerta": "A Definir"
+        },
+        {
+          "numped": "",
+          "numnota": "410723",
+          "data": "",
+          "cliente": "TOKITO FRUTOS DO MAR LTDA.",
+          "placa": "",
+          "rota": "TUK2F64 / NITEROI 2",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "FATURAMENTO NÃO INCLUIU A OBSERVAÇÃO — Todas as nfs retornaram pois a nf 411264 era para entregar na segunda porem o faturamento não colocou a observação.",
+          "responsavel_alerta": "A Definir"
         }
       ]
     },
@@ -16771,7 +17000,24 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_entregue": []
+      "nao_entregue": [
+        {
+          "numped": "",
+          "numnota": "411094",
+          "data": "",
+          "cliente": "61.443.128 MARCELO DA SILVA AZEREDO",
+          "placa": "",
+          "rota": "RJD5F19 / BUZIOS",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
+        }
+      ]
     }
   ]
 };

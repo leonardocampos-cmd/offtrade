@@ -14755,6 +14755,386 @@
       "responsavel": "Logística",
       "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Ajudante: Leonardo do Nascimento Melo, informou que não deu tempo de realizar essa entrega, e essa informação não foi passada ao apoio logístico enquanto a equipe estava em rota.",
       "valor": "R$ 310,80"
+    },
+    {
+      "nf": "143",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": "Taxa Outros 33.3% 5/15 NFs"
+    },
+    {
+      "nf": "49",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "",
+      "rota": "",
+      "responsavel": "",
+      "motivo": "",
+      "valor": ""
+    },
+    {
+      "nf": "411186",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "31.802.997 MAXIMILIANO TORRES DE OLIVEIRA",
+      "rota": "LUG4J13 / CABO FRIO",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 639,40"
+    },
+    {
+      "nf": "411237",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "BIG STAR CONVENIENCIA LTDA",
+      "rota": "LUG4J13 / CABO FRIO",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 267,68"
+    },
+    {
+      "nf": "411084",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "42.167.762 BEATRIZ XAVIER BESSA",
+      "rota": "RJD5F19 / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 408,02"
+    },
+    {
+      "nf": "411185",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "CONVENIENCIA BUZIANA LTDA",
+      "rota": "RJD5F19 / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.338,72"
+    },
+    {
+      "nf": "411235",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "JOSE MAR RESTAURANTE LTDA",
+      "rota": "LUG4J13 / CABO FRIO",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 220,41"
+    },
+    {
+      "nf": "411183",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "JOSE MAR RESTAURANTE LTDA",
+      "rota": "LUG4J13 / CABO FRIO",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 539,40"
+    },
+    {
+      "nf": "411081",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "JOSE MAR RESTAURANTE LTDA",
+      "rota": "LUG4J13 / CABO FRIO",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 256,83"
+    },
+    {
+      "nf": "411082",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "R NICOLI EIRELI",
+      "rota": "RJD5F19 / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 92,07"
+    },
+    {
+      "nf": "411236",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "R NICOLI EIRELI",
+      "rota": "RJD5F19 / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.648,20"
+    },
+    {
+      "nf": "411094",
+      "rca": 241,
+      "rca_nome": "ZEINALDO DE OLIVEIRA",
+      "cliente": "61.443.128 MARCELO DA SILVA AZEREDO",
+      "rota": "RJD5F19 / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.734,00"
+    },
+    {
+      "nf": "411218",
+      "rca": 419,
+      "rca_nome": "NÁTALI DE OLIVEIRA",
+      "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+      "rota": "TTX4A47 / BANGU",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Estabelecimento fechado, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
+      "valor": "R$ 594,10"
+    },
+    {
+      "nf": "411106",
+      "rca": 419,
+      "rca_nome": "NÁTALI DE OLIVEIRA",
+      "cliente": "ITANIA COSTA ANTONIO VIANA 16136309726",
+      "rota": "TUP1A46 / NOVA IGUAÇU",
+      "responsavel": "Vendas",
+      "motivo": "ENDEREÇO DIVERGENTE — Endereço errado, vendedora Natali de Oliveira está ciente, mas não tivemos um retorno da mesma.",
+      "valor": "R$ 2.670,00"
+    },
+    {
+      "nf": "411170",
+      "rca": 431,
+      "rca_nome": "ADEILSON GONÇALVEZ",
+      "cliente": "PANIFICACAO LUANDA LTDA",
+      "rota": "TTX4A47 / BANGU",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — Cliente alega não ter feito o pedido, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
+      "valor": "R$ 378,80"
+    },
+    {
+      "nf": "411194",
+      "rca": 106,
+      "rca_nome": "FERNANDO CESAR",
+      "cliente": "FR EVENTOS E DISTRIBUIDORA DE BEBIDAS LTDA",
+      "rota": "TTX4A47 / BANGU",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — Cliente alega não ter feito o pedido, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
+      "valor": "R$ 286,90"
+    },
+    {
+      "nf": "411083",
+      "rca": 112,
+      "rca_nome": "LUCAS MATIAS",
+      "cliente": "D. O. M GASTRONOMIA LTDA",
+      "rota": "LUG4J13 / CABO FRIO",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 275,30"
+    },
+    {
+      "nf": "411107",
+      "rca": 112,
+      "rca_nome": "LUCAS MATIAS",
+      "cliente": "SINUKKAS RESTAURANTE LTDA",
+      "rota": "TTX4A47 / BANGU",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Estabelecimento fechado, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
+      "valor": "R$ 529,54"
+    },
+    {
+      "nf": "411075",
+      "rca": 135,
+      "rca_nome": "INGRID ARAUJO",
+      "cliente": "MCK BAR E RESTAURANTE LTDA",
+      "rota": "TUK2F64 / NITEROI 2",
+      "responsavel": "A Definir",
+      "motivo": "FATURAMENTO NÃO INCLUIU A OBSERVAÇÃO — Todas as nfs retornaram pois a nf 411264 era para entregar na segunda porem o faturamento não colocou a observação.",
+      "valor": "R$ 804,60"
+    },
+    {
+      "nf": "411284",
+      "rca": 147,
+      "rca_nome": "THIAGO MENDES",
+      "cliente": "VITA SHOP CENTRO DE TREINAMENTO ESPORTIVO LTDA",
+      "rota": "KZH9D68 / BOTAFOGO",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedor Thiago Mendes está ciente",
+      "valor": "R$ 345,14"
+    },
+    {
+      "nf": "411219",
+      "rca": 147,
+      "rca_nome": "THIAGO MENDES",
+      "cliente": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
+      "rota": "TTX4A47 / BANGU",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Estabelecimento fechado, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
+      "valor": "R$ 695,25"
+    },
+    {
+      "nf": "411296",
+      "rca": 147,
+      "rca_nome": "THIAGO MENDES",
+      "cliente": "48.617.792 ALESSANDRA DIONISIO DA SILVA EPEL",
+      "rota": "TUP1A46 / NOVA IGUAÇU",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Informação passada pelo ajudante: Leonardo do Nascimento Melo, é que não deu tempo de realizar entrega dessa NF, essa informação só foi passada ao chegar na base.",
+      "valor": "R$ 517,68"
+    },
+    {
+      "nf": "411283",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "IMOBILIARIA ALVES DA MOTTA SA",
+      "rota": "KZH9D68 / BOTAFOGO",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado , vendedor Pedro Rangel está ciente.",
+      "valor": "R$ 1.327,20"
+    },
+    {
+      "nf": "411264",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "JOE DRINKS EVENTOS E SERVICOS LTDA",
+      "rota": "TUK2F64 / NITEROI 2",
+      "responsavel": "A Definir",
+      "motivo": "FATURAMENTO NÃO INCLUIU A OBSERVAÇÃO — Todas as nfs retornaram pois a nf 411264 era para entregar na segunda porem o faturamento não colocou a observação.",
+      "valor": "R$ 29.320,80"
+    },
+    {
+      "nf": "411286",
+      "rca": 176,
+      "rca_nome": "MICHELE ALCANTARA",
+      "cliente": "MEGA PUB RESTAURANTE LTDA",
+      "rota": "TUK2F64 / NITEROI 2",
+      "responsavel": "A Definir",
+      "motivo": "FATURAMENTO NÃO INCLUIU A OBSERVAÇÃO — Todas as nfs retornaram pois a nf 411264 era para entregar na segunda porem o faturamento não colocou a observação.",
+      "valor": "R$ 1.966,70"
+    },
+    {
+      "nf": "411175",
+      "rca": 295,
+      "rca_nome": "JOÃO VITOR BRAGA",
+      "cliente": "ASSOCIACAO ATLETICA ACADEMICA ESCOLA POLITECNICA",
+      "rota": "LTM4961 / ZONA NORTE",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — NF Retornou pois a equipe alegou que não tinha ninguem para receber , quando foi informado ao vendedor o mesmo disse que a informação não era verdade",
+      "valor": "R$ 344,04"
+    },
+    {
+      "nf": "411184",
+      "rca": 296,
+      "rca_nome": "LUDMILLA DA SILVA",
+      "cliente": "DELIVERY DOS CUNHAS LTDA",
+      "rota": "LUG4J13 / CABO FRIO",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.019,10"
+    },
+    {
+      "nf": "411316",
+      "rca": 296,
+      "rca_nome": "LUDMILLA DA SILVA",
+      "cliente": "FORTUNA SERVICES LTDA",
+      "rota": "RJL0C25 / LEME",
+      "responsavel": "Vendas",
+      "motivo": "REPONSÁVEL PELO PAGAMENTO AUSENTE OU CLIENTE SEM MÉTODO — Nota retornou porque o cliente não tinha o pagamento, essa informação foi passada ao apoio logístico vendedora Ludmila ciente",
+      "valor": "R$ 291,60"
+    },
+    {
+      "nf": "411114",
+      "rca": 297,
+      "rca_nome": "LUIZA FREIRE",
+      "cliente": "61.479.220 YASMIN BOTELHO ROCHA",
+      "rota": "RJV2J20 / SHOP. BARRA",
+      "responsavel": "A Definir",
+      "motivo": "LOCAL FECHADO - LOGÍSTICA IGNOROU O AGENDAMENTO — cliente recebe somente após as 12h , a equipe informou que não teria como esperar até o horário pois terminaram a rota às 10h",
+      "valor": "R$ 337,20"
+    },
+    {
+      "nf": "411119",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "QUINTAL DO STUART GASTRONOMIA LTDA",
+      "rota": "LSS7E31 / PENHA + NORTE",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedora Lais Poppe está ciente.",
+      "valor": "R$ 296,50"
+    },
+    {
+      "nf": "411300",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "GASTROBAR DRINKERIA JAM LTDA",
+      "rota": "KZH9D68 / BOTAFOGO",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA — Cliente desistiu do pedido, vendedor Thiago Nascimento está ciente.",
+      "valor": "R$ 234,90"
+    },
+    {
+      "nf": "411065",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "DEPOSITO DE BEBIDAS E LANCHONETE DUPLA HONRA LTDA",
+      "rota": "TUP1A46 / NOVA IGUAÇU",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Informação passada pelo ajudante: Leonardo do Nascimento Melo, é que não deu tempo de realizar entrega dessa NF, essa informação só foi passada ao chegar na base.",
+      "valor": "R$ 384,50"
+    },
+    {
+      "nf": "411268",
+      "rca": 445,
+      "rca_nome": "MARIANA RESTUM",
+      "cliente": "ALEXANDRE SILVA CRISTOVAO 06993367750",
+      "rota": "TTX4A47 / BANGU",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Estabelecimento fechado, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
+      "valor": "R$ 244,27"
+    },
+    {
+      "nf": "411182",
+      "rca": 92,
+      "rca_nome": "AUGUSTO SILVA",
+      "cliente": "ARCOS DO CANAL RESTAURANTE LTDA",
+      "rota": "LUG4J13 / CABO FRIO",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 898,80"
+    },
+    {
+      "nf": "411265",
+      "rca": 92,
+      "rca_nome": "AUGUSTO SILVA",
+      "cliente": "EL NINO LANCHES LTDA",
+      "rota": "SSE9J52 / COPACABANA",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — . Estabelecimento fechado, essa informação não foi passada ao apoio logístico enquanto a equipe estava em rota.",
+      "valor": "R$ 257,33"
+    },
+    {
+      "nf": "411122",
+      "rca": 151,
+      "rca_nome": "Não Identificado",
+      "cliente": "A . CRUZ LTDA",
+      "rota": "LSS7E31 / PENHA + NORTE",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedora Amanda Oliveira está ciente.",
+      "valor": "R$ 280,00"
+    },
+    {
+      "nf": "410354",
+      "rca": 175,
+      "rca_nome": "Não Identificado",
+      "cliente": "3 FORTIS HOTELARIA E RESTAURANTE LTDA",
+      "rota": "LTM4961 / PETROPOLIS",
+      "responsavel": "Vendas",
+      "motivo": "REPONSÁVEL PELO PAGAMENTO AUSENTE OU CLIENTE SEM MÉTODO — O cliente informou que, no momento, não tem condições de efetuar o pagamento,solicitou a entrega na próxima semana Vendedora está ciente,",
+      "valor": "R$ 345,12"
+    },
+    {
+      "nf": "411145",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "66.422.565 DANILO CESAR SILVA DE OLIVEIRA",
+      "rota": "LMW9C26 / LEBLON + IPANEMA",
+      "responsavel": "Faturamento",
+      "motivo": "DADOS INCORRETOS NA NOTA FISCAL — Cancelar , endereço de cadastro errado . Bees ciente",
+      "valor": "R$ 429,60"
     }
   ]
 }
