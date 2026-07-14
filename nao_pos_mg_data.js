@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "13/07/2026 17:12",
+  "atualizado_em": "14/07/2026 09:35",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -2665,6 +2665,56 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "38896",
+        "cliente": "LCA COMERCIO LTDA",
+        "bairro": "PAMPULHA",
+        "dtultcomp": "12/06/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL AMORA EDITION SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          }
+        ]
+      },
+      {
         "codcli": "35400",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
@@ -2755,56 +2805,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 282.72
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "38896",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -4289,32 +4289,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33176",
-        "cliente": "BELLINI PRODUCOES DE EVENTOS LTDA",
-        "bairro": "SANTA ROSA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 2157.6
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 L/EVENTO",
-            "fantasia": "",
-            "qt": 40,
-            "valor": 2716.0
-          },
-          {
-            "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 3357.6
-          }
-        ]
-      },
-      {
         "codcli": "31812",
         "cliente": "ELTON MUNHOZ DIAS JUNIOR",
         "bairro": "JARDIM ATLANTICO",
@@ -5406,26 +5380,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31553",
-        "cliente": "SUPERMERCADO PARANAIBA SANTA LUZIA LTDA",
-        "bairro": "QUARENTA E DOIS",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 159.45
-          },
-          {
-            "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 159.45
-          }
-        ]
-      },
-      {
         "codcli": "29335",
         "cliente": "PARANAIBA CENTRO SUPERMERCADO LTDA",
         "bairro": "JARDIM DO CAMPINHO",
@@ -5494,108 +5448,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 97.8
-          }
-        ]
-      },
-      {
-        "codcli": "38188",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE CHACARAS BOM JESUS LTDA",
-        "bairro": "JARDIM ALVORADA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 99.8
-          },
-          {
-            "produto": "MARTINI EXTRA DRY 750 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 87.8
-          },
-          {
-            "produto": "RUM MALIBU 750 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 164.7
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 139.8
-          },
-          {
-            "produto": "WHISKY BALLANTINES 10 YO 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 199.8
-          }
-        ]
-      },
-      {
-        "codcli": "35334",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE RESSACA LTDA",
-        "bairro": "RESSACA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 99.8
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 1,
-            "valor": 115.9
-          },
-          {
-            "produto": "MARTINI BIANCO 750 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 87.8
-          },
-          {
-            "produto": "RUM MALIBU 750 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 109.8
-          }
-        ]
-      },
-      {
-        "codcli": "39205",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE SAO JOAO DE DEUS LTDA",
-        "bairro": "SÃO JOÃO DE DEUS (JUSTINÓPOLIS)",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 99.8
-          },
-          {
-            "produto": "MARTINI BIANCO 750 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 87.8
-          },
-          {
-            "produto": "WHISKY BALLANTINES 10 YO 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 199.8
-          },
-          {
-            "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 67.9
           }
         ]
       },
@@ -6536,38 +6388,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35229",
-        "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "19/05/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON BRUT ROSE 750ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 183.8
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 153.8
-          },
-          {
-            "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 61.8
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 127.9
-          }
-        ]
-      },
-      {
         "codcli": "30909",
         "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
         "bairro": "NITEROI",
@@ -6928,9 +6748,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -6948,9 +6768,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -7576,20 +7396,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 179.76
-          }
-        ]
-      },
-      {
-        "codcli": "30423",
-        "cliente": "COMERCIAL GOUVEIA E VIEIRA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "22/06/2026",
-        "produtos": [
-          {
-            "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
-            "fantasia": "",
-            "qt": 10,
-            "valor": 549.0
           }
         ]
       },
