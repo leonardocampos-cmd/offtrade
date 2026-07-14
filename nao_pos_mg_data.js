@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "14/07/2026 09:35",
+  "atualizado_em": "14/07/2026 15:14",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1957,26 +1957,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35736",
-        "cliente": "BAR E RESTAURANTE NUNES LTDA",
-        "bairro": "SANTA AMÉLIA",
-        "dtultcomp": "28/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 31.76
-          },
-          {
-            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
-            "fantasia": "HEINEKEN BRASIL",
-            "qt": 3,
-            "valor": 647.28
-          }
-        ]
-      },
-      {
         "codcli": "30343",
         "cliente": "RESTAURANTE & BOTEQUIM BURITIS EIRELI",
         "bairro": "BURITIS",
@@ -2665,7 +2645,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38896",
+        "codcli": "35398",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -2703,8 +2683,8 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -2765,7 +2745,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35398",
+        "codcli": "38896",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -2803,8 +2783,8 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
+            "qt": 1,
+            "valor": 141.36
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -3117,20 +3097,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 85.8
-          }
-        ]
-      },
-      {
-        "codcli": "33601",
-        "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "CIDADE INDUSTRIAL",
-        "dtultcomp": "16/06/2026",
-        "produtos": [
-          {
-            "produto": "VODKA ORLOFF 1,75L",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 514.8
           }
         ]
       },
@@ -4466,6 +4432,13 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
+        "codcli": "37344",
+        "cliente": "ASSOCIACAO DE MARKETING E PUBLICIDADE",
+        "bairro": "SÃO PEDRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "39580",
         "cliente": "CLUB GOURMET LTDA.",
         "bairro": "LOURDES",
@@ -5130,34 +5103,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "29892",
-        "cliente": "PARANAIBA TUPI SUPERMERCADOS LTDA",
-        "bairro": "TUPI B",
-        "dtultcomp": "07/05/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 335.4
-          }
-        ]
-      },
-      {
-        "codcli": "29878",
-        "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
-        "bairro": "RIO BRANCO",
-        "dtultcomp": "25/05/2026",
-        "produtos": [
-          {
-            "produto": "SMIRNOFF ICE TROPICAL 269ML LT CX 24",
-            "fantasia": "",
-            "qt": 5,
-            "valor": 502.8
-          }
-        ]
-      },
-      {
         "codcli": "39321",
         "cliente": "JEFERSON COSTA CARDOSO",
         "bairro": "VILA ZILAH SPÓSITO",
@@ -5408,46 +5353,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 4,
             "valor": 91.6
-          }
-        ]
-      },
-      {
-        "codcli": "35500",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE NASCIMENTO LTDA.",
-        "bairro": "SAO FRANCISCO DE ASSIS",
-        "dtultcomp": "11/06/2026",
-        "produtos": [
-          {
-            "produto": "RUM MALIBU 750 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 109.8
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 706.8
-          }
-        ]
-      },
-      {
-        "codcli": "35357",
-        "cliente": "SUPERMERCADO NOVOS HORIZONTES LTDA",
-        "bairro": "SEVILHA (1ª SEÇÃO)",
-        "dtultcomp": "11/06/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 1,
-            "valor": 115.9
-          },
-          {
-            "produto": "RUM BACARDI LIMON 980 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 97.8
           }
         ]
       },
@@ -6020,6 +5925,34 @@ const NAO_POS_MG_DATA = {
             "valor": 592.2
           }
         ]
+      },
+      {
+        "codcli": "39613",
+        "cliente": "APAIVA PANIFICACAO LTDA",
+        "bairro": "NOSSA SENHORA DO CARMO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39611",
+        "cliente": "PADARIA E CONFEITARIA SANTISSIMA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39612",
+        "cliente": "PADARIA E CONFEITARIA SETE LAGOAS LIMITADA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39610",
+        "cliente": "REDE BONZAO DE SUPERMERCADOS LTDA",
+        "bairro": "CIDADE DE DEUS",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "SAVIO NETO": [
@@ -6424,20 +6357,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN BRASIL",
             "qt": 1,
             "valor": 213.36
-          }
-        ]
-      },
-      {
-        "codcli": "33464",
-        "cliente": "KRABI EXPRESS RESTAURANTE LTDA",
-        "bairro": "SANTO AGOSTINHO",
-        "dtultcomp": "25/05/2026",
-        "produtos": [
-          {
-            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
-            "fantasia": "",
-            "qt": 48,
-            "valor": 907.2
           }
         ]
       },
