@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "13/07/2026 17:11",
+  "atualizado_em": "14/07/2026 09:34",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -236,7 +236,7 @@ const VENDAS_ES_DATA = {
         "fat_ant": 118062.39
       },
       "Jul/26": {
-        "fat": 140502.12,
+        "fat": 115348.73,
         "pos": 12,
         "fat_ant": 89348.53
       }
@@ -65910,118 +65910,10 @@ const VENDAS_ES_DATA = {
           "valor": 23025.6
         },
         {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 8,
-          "valor": 810.32
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LT GINGER LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 23,
-          "valor": 2329.67
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA AGUA TONICA TRAD 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 15,
-          "valor": 1519.35
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 19,
-          "valor": 1924.51
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 11,
-          "valor": 1114.19
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
-          "fantasia": "TATUZINHO",
-          "qt": 16,
-          "valor": 906.4
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO TONICA LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 14,
-          "valor": 793.1
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 13,
-          "valor": 736.45
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 13,
-          "valor": 736.45
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 25,
-          "valor": 1416.25
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 30,
-          "valor": 3247.2
-        },
-        {
           "data": "09/07/2026",
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 20,
-          "valor": 2164.8
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 20,
           "valor": 2164.8
@@ -66036,15 +65928,6 @@ const VENDAS_ES_DATA = {
           "valor": 1407.12
         },
         {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 30,
-          "valor": 3247.2
-        },
-        {
           "data": "09/07/2026",
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
@@ -66052,24 +65935,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 20,
           "valor": 2164.8
-        },
-        {
-          "data": "09/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA GUARANA  LT 6X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 80,
-          "valor": 1870.0
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 25,
-          "valor": 2337.5
         }
       ]
     },
