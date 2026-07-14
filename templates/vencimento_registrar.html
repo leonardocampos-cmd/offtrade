@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Vencimento — OFF TRADE RJ</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:     #0f1117;
+      --card:   #1a1d27;
+      --card2:  #22263a;
+      --accent: #f5c518;
+      --green:  #22c55e;
+      --red:    #ef4444;
+      --text:   #e2e8f0;
+      --muted:  #94a3b8;
+      --border: #2d3144;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+      padding: 16px;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 24px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap; gap: 12px;
+    }
+    .h-title { font-size: 1.25rem; font-weight: 700; color: var(--accent); letter-spacing: -.02em; }
+    .h-sub   { font-size: .75rem; color: var(--muted); margin-top: 3px; }
+    .nav-link {
+      font-size: .78rem; color: var(--muted); text-decoration: none;
+      padding: 6px 12px; border: 1px solid var(--border); border-radius: 8px;
+      transition: border-color .15s, color .15s;
+    }
+    .nav-link:hover { border-color: var(--accent); color: var(--accent); }
+
+    .card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 24px;
+    }
+
+    label {
+      display: block; font-size: .78rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .06em;
+      margin-bottom: 6px; margin-top: 18px;
+    }
+    label:first-of-type { margin-top: 0; }
+
+    .field-input {
+      width: 100%; background: var(--card2); border: 1px solid var(--border);
+      border-radius: 8px; padding: 10px 13px; color: var(--text);
+      font-size: .92rem; outline: none; transition: border-color .15s; font-family: inherit;
+    }
+    .field-input:focus { border-color: var(--accent); }
+    .field-input::placeholder { color: var(--muted); }
+
+    .busca-wrap { position: relative; }
+    .dropdown {
+      display: none; position: absolute; top: calc(100% + 4px); left: 0; right: 0; z-index: 50;
+      background: var(--card2); border: 1px solid var(--border);
+      border-radius: 8px; max-height: 260px; overflow-y: auto;
+      box-shadow: 0 8px 24px rgba(0,0,0,.5);
+    }
+    .dropdown.open { display: block; }
+    .dropdown-item {
+      padding: 10px 13px; cursor: pointer; font-size: .85rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .dropdown-item:last-child { border-bottom: none; }
+    .dropdown-item:hover { background: var(--border); }
+    .dropdown-item .cod { color: var(--accent); font-weight: 700; margin-right: 8px; }
+    .dropdown-empty { padding: 10px 13px; font-size: .82rem; color: var(--muted); }
+
+    .produto-selecionado {
+      display: none; margin-top: 10px; padding: 10px 13px;
+      background: var(--card2); border: 1px solid var(--accent); border-radius: 8px;
+      font-size: .85rem;
+    }
+    .produto-selecionado.show { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .produto-selecionado .cod { color: var(--accent); font-weight: 700; }
+    .produto-selecionado .limpar { color: var(--muted); cursor: pointer; font-size: .8rem; text-decoration: underline; white-space: nowrap; }
+
+    .btn-salvar {
+      width: 100%; margin-top: 24px; padding: 12px;
+      background: var(--accent); color: #111; border: none;
+      border-radius: 8px; font-size: .95rem; font-weight: 700;
+      cursor: pointer; transition: opacity .15s; font-family: inherit;
+    }
+    .btn-salvar:hover:not(:disabled) { opacity: .88; }
+    .btn-salvar:disabled { opacity: .4; cursor: not-allowed; }
+
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <div class="h-title">Controle de Vencimento</div>
+      <div class="h-sub">Registro de produto por lote/validade — OFF TRADE RJ</div>
+    </div>
+    <a class="nav-link" href="/listagem">Ver registros →</a>
+  </header>
+
+  <div class="card">
+    <form id="form-vencimento" method="POST" action="/salvar">
+      <label for="busca">Produto</label>
+      <div class="busca-wrap">
+        <input class="field-input" id="busca" type="text" autocomplete="off"
+               placeholder="Digite o código ou nome do produto...">
+        <div class="dropdown" id="dropdown"></div>
+      </div>
+      <div class="produto-selecionado" id="produto-selecionado">
+        <span><span class="cod" id="sel-cod"></span><span id="sel-desc"></span></span>
+        <span class="limpar" id="sel-limpar">trocar</span>
+      </div>
+      <input type="hidden" name="codprod" id="codprod" required>
+      <input type="hidden" name="descricao" id="descricao" required>
+
+      <div class="grid-2">
+        <div>
+          <label for="data_vencimento">Data de vencimento</label>
+          <input class="field-input" type="date" id="data_vencimento" name="data_vencimento" required>
+        </div>
+        <div>
+          <label for="qtd">Quantidade</label>
+          <input class="field-input" type="number" id="qtd" name="qtd" min="0" step="1" placeholder="0" required>
+        </div>
+      </div>
+
+      <button class="btn-salvar" type="submit" id="btn-salvar" disabled>Salvar registro</button>
+    </form>
+  </div>
+
+  <script>
+    const busca = document.getElementById('busca');
+    const dropdown = document.getElementById('dropdown');
+    const codprodInput = document.getElementById('codprod');
+    const descricaoInput = document.getElementById('descricao');
+    const selecionado = document.getElementById('produto-selecionado');
+    const selCod = document.getElementById('sel-cod');
+    const selDesc = document.getElementById('sel-desc');
+    const btnSalvar = document.getElementById('btn-salvar');
+
+    let debounceTimer = null;
+
+    function atualizarBotao() {
+      btnSalvar.disabled = !(codprodInput.value && document.getElementById('data_vencimento').value && document.getElementById('qtd').value);
+    }
+
+    busca.addEventListener('input', () => {
+      codprodInput.value = '';
+      descricaoInput.value = '';
+      selecionado.classList.remove('show');
+      atualizarBotao();
+
+      const termo = busca.value.trim();
+      clearTimeout(debounceTimer);
+      if (termo.length < 2) {
+        dropdown.classList.remove('open');
+        return;
+      }
+      debounceTimer = setTimeout(async () => {
+        const resp = await fetch(`/api/produtos?q=${encodeURIComponent(termo)}`);
+        const data = await resp.json();
+        dropdown.innerHTML = '';
+        if (data.produtos.length === 0) {
+          dropdown.innerHTML = '<div class="dropdown-empty">Nenhum produto encontrado.</div>';
+        } else {
+          data.produtos.forEach(p => {
+            const item = document.createElement('div');
+            item.className = 'dropdown-item';
+            item.innerHTML = `<span class="cod">${p.codprod}</span>${p.descricao}`;
+            item.addEventListener('click', () => {
+              codprodInput.value = p.codprod;
+              descricaoInput.value = p.descricao;
+              selCod.textContent = p.codprod;
+              selDesc.textContent = ' ' + p.descricao;
+              selecionado.classList.add('show');
+              busca.value = '';
+              dropdown.classList.remove('open');
+              atualizarBotao();
+            });
+            dropdown.appendChild(item);
+          });
+        }
+        dropdown.classList.add('open');
+      }, 300);
+    });
+
+    document.getElementById('sel-limpar').addEventListener('click', () => {
+      codprodInput.value = '';
+      descricaoInput.value = '';
+      selecionado.classList.remove('show');
+      atualizarBotao();
+    });
+
+    document.getElementById('data_vencimento').addEventListener('change', atualizarBotao);
+    document.getElementById('qtd').addEventListener('input', atualizarBotao);
+
+    document.addEventListener('click', (e) => {
+      if (!busca.contains(e.target) && !dropdown.contains(e.target)) {
+        dropdown.classList.remove('open');
+      }
+    });
+  </script>
+</body>
+</html>

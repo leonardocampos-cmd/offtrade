@@ -8,7 +8,7 @@ from conferencia_preco import df
 # Configurações da Evolution API
 EVOLUTION_URL = "http://localhost:8083"
 EVOLUTION_KEY = "429683C4C977415CAAFCCE10F7D57E11"
-INSTANCE      = "bees"                          # <- nome da instância criada no painel 
+INSTANCE      = "bees"                          # <- nome da instância criada no painel
 NUMERO        = "5521974972433"                 # <- número destino (DDI+DDD, sem + ou espaços)
 
 REGISTRO_JSON = "pedidos_enviados.json"
@@ -49,6 +49,7 @@ else:
         "apikey": EVOLUTION_KEY,
         "Content-Type": "application/json"
     }
+
     payload = {
         "number": NUMERO,
         "text": mensagem
