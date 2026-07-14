@@ -7,9 +7,12 @@ Busca de produto é ao vivo na CRC.PCPRODUT (Oracle), não usa o catalogo_data.j
 (que é só o recorte de produtos já vendidos pelo OFF TRADE nos últimos 18
 meses) — aqui pode registrar qualquer produto do Winthor.
 
-Uso: python controle_vencimento.py  (abre em http://localhost:5050)
+Uso local: python controle_vencimento.py  (abre em http://localhost:5050/vencimento/)
+Na VPS roda atrás do nginx, sob offtrade.duckdns.org/vencimento/ (ver deploy_vencimento_vps.py).
 """
 import os
+import csv
+import io
 import json
 from datetime import datetime
 from pathlib import Path
@@ -19,11 +22,13 @@ import oracledb
 import pandas as pd
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
-from flask import Flask, request, redirect, url_for, render_template
+from flask import Flask, Blueprint, request, redirect, url_for, render_template, Response, abort
 
 load_dotenv()
 
-oracledb.init_oracle_client(lib_dir=os.getenv("ORACLE_LIB", r"C:\instantclient"))
+RUNTIME = os.getenv("OFFTRADE_RUNTIME", "local")
+
+oracledb.init_oracle_client(lib_dir=os.getenv("ORACLE_LIB", "/opt/oracle/instantclient_21_1"))
 
 _user = os.getenv("VPN_USER", "vpn")
 _pass = os.getenv("VPN_PASSWORD", "vpn2320vpn")
@@ -38,6 +43,7 @@ engine = create_engine(
 DATA_FILE = Path(__file__).parent / "vencimento_data.json"
 
 app = Flask(__name__)
+bp = Blueprint("vencimento", __name__, url_prefix="/vencimento")
 
 
 def _buscar_produtos(termo: str) -> list[dict]:
@@ -80,17 +86,17 @@ def _salvar_registros(registros: dict):
     DATA_FILE.write_text(json.dumps(registros, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-@app.route("/")
+@bp.route("/")
 def index():
     return render_template("vencimento_registrar.html")
 
 
-@app.route("/api/produtos")
+@bp.route("/api/produtos")
 def api_produtos():
     return {"produtos": _buscar_produtos(request.args.get("q", ""))}
 
 
-@app.route("/salvar", methods=["POST"])
+@bp.route("/salvar", methods=["POST"])
 def salvar():
     codprod = request.form["codprod"].strip()
     descricao = request.form["descricao"].strip()
@@ -115,10 +121,10 @@ def salvar():
         }
 
     _salvar_registros(registros)
-    return redirect(url_for("listagem", ok=1))
+    return redirect(url_for("vencimento.listagem", ok=1))
 
 
-@app.route("/listagem")
+@bp.route("/listagem")
 def listagem():
     registros = list(_carregar_registros().values())
     registros.sort(key=lambda r: r["data_vencimento"])
@@ -126,8 +132,78 @@ def listagem():
         "vencimento_listagem.html",
         registros=registros,
         ok=request.args.get("ok"),
+        excluido=request.args.get("excluido"),
     )
 
 
+@bp.route("/editar/<chave>")
+def editar_form(chave):
+    registro = _carregar_registros().get(chave)
+    if not registro:
+        abort(404)
+    return render_template("vencimento_editar.html", r=registro)
+
+
+@bp.route("/editar/<chave>", methods=["POST"])
+def editar_salvar(chave):
+    registros = _carregar_registros()
+    registro = registros.pop(chave, None)
+    if not registro:
+        abort(404)
+
+    qtd = float(request.form["qtd"])
+    nova_data = request.form["data_vencimento"].strip()
+    nova_chave = f"{registro['codprod']}-{nova_data}"
+    agora = datetime.now().strftime("%d/%m/%Y %H:%M")
+
+    registro["qtd"] = qtd
+    registro["data_vencimento"] = nova_data
+    registro["data_registro"] = agora
+    registro["chave_unica"] = nova_chave
+
+    if nova_chave in registros:
+        registros[nova_chave]["qtd"] += qtd
+        registros[nova_chave]["data_registro"] = agora
+    else:
+        registros[nova_chave] = registro
+
+    _salvar_registros(registros)
+    return redirect(url_for("vencimento.listagem", ok=1))
+
+
+@bp.route("/excluir/<chave>", methods=["POST"])
+def excluir(chave):
+    registros = _carregar_registros()
+    registros.pop(chave, None)
+    _salvar_registros(registros)
+    return redirect(url_for("vencimento.listagem", excluido=1))
+
+
+@bp.route("/exportar")
+def exportar():
+    registros = list(_carregar_registros().values())
+    registros.sort(key=lambda r: r["data_vencimento"])
+
+    buffer = io.StringIO()
+    writer = csv.writer(buffer, delimiter=";")
+    writer.writerow(["Data Registro", "Codigo", "Produto", "Qtd", "Data Vencimento", "Chave Unica"])
+    for r in registros:
+        writer.writerow([
+            r["data_registro"], r["codprod"], r["produto"],
+            int(r["qtd"]), r["data_vencimento"], r["chave_unica"],
+        ])
+
+    nome_arquivo = f"registros_vencimento_{datetime.now().strftime('%Y%m%d_%H%M')}.csv"
+    return Response(
+        "﻿" + buffer.getvalue(),
+        mimetype="text/csv",
+        headers={"Content-Disposition": f"attachment; filename={nome_arquivo}"},
+    )
+
+
+app.register_blueprint(bp)
+
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5050, debug=True)
+    debug = RUNTIME != "vps"
+    host = "127.0.0.1" if RUNTIME == "vps" else "0.0.0.0"
+    app.run(host=host, port=5050, debug=debug)

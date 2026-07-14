@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Controle de Vencimento — OFF TRADE RJ</title>
+  <title>Controle de Vencimento</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -106,13 +106,13 @@
   <header>
     <div>
       <div class="h-title">Controle de Vencimento</div>
-      <div class="h-sub">Registro de produto por lote/validade — OFF TRADE RJ</div>
+      <div class="h-sub">Registro de produto por lote/validade</div>
     </div>
-    <a class="nav-link" href="/listagem">Ver registros →</a>
+    <a class="nav-link" href="{{ url_for('vencimento.listagem') }}">Ver registros →</a>
   </header>
 
   <div class="card">
-    <form id="form-vencimento" method="POST" action="/salvar">
+    <form id="form-vencimento" method="POST" action="{{ url_for('vencimento.salvar') }}">
       <label for="busca">Produto</label>
       <div class="busca-wrap">
         <input class="field-input" id="busca" type="text" autocomplete="off"
@@ -142,6 +142,7 @@
   </div>
 
   <script>
+    const API_PRODUTOS = "{{ url_for('vencimento.api_produtos') }}";
     const busca = document.getElementById('busca');
     const dropdown = document.getElementById('dropdown');
     const codprodInput = document.getElementById('codprod');
@@ -170,7 +171,7 @@
         return;
       }
       debounceTimer = setTimeout(async () => {
-        const resp = await fetch(`/api/produtos?q=${encodeURIComponent(termo)}`);
+        const resp = await fetch(`${API_PRODUTOS}?q=${encodeURIComponent(termo)}`);
         const data = await resp.json();
         dropdown.innerHTML = '';
         if (data.produtos.length === 0) {

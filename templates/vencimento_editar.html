@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editar Registro</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:     #0f1117;
+      --card:   #1a1d27;
+      --card2:  #22263a;
+      --accent: #f5c518;
+      --text:   #e2e8f0;
+      --muted:  #94a3b8;
+      --border: #2d3144;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+      padding: 16px;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 24px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap; gap: 12px;
+    }
+    .h-title { font-size: 1.25rem; font-weight: 700; color: var(--accent); letter-spacing: -.02em; }
+    .h-sub   { font-size: .75rem; color: var(--muted); margin-top: 3px; }
+    .nav-link {
+      font-size: .78rem; color: var(--muted); text-decoration: none;
+      padding: 6px 12px; border: 1px solid var(--border); border-radius: 8px;
+      transition: border-color .15s, color .15s;
+    }
+    .nav-link:hover { border-color: var(--accent); color: var(--accent); }
+
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; }
+
+    .produto-fixo {
+      padding: 10px 13px; background: var(--card2); border: 1px solid var(--border);
+      border-radius: 8px; font-size: .85rem;
+    }
+    .produto-fixo .cod { color: var(--accent); font-weight: 700; margin-right: 8px; }
+
+    label {
+      display: block; font-size: .78rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .06em;
+      margin-bottom: 6px; margin-top: 18px;
+    }
+    label:first-of-type { margin-top: 0; }
+
+    .field-input {
+      width: 100%; background: var(--card2); border: 1px solid var(--border);
+      border-radius: 8px; padding: 10px 13px; color: var(--text);
+      font-size: .92rem; outline: none; transition: border-color .15s; font-family: inherit;
+    }
+    .field-input:focus { border-color: var(--accent); }
+
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+
+    .btn-salvar {
+      width: 100%; margin-top: 24px; padding: 12px;
+      background: var(--accent); color: #111; border: none;
+      border-radius: 8px; font-size: .95rem; font-weight: 700;
+      cursor: pointer; transition: opacity .15s; font-family: inherit;
+    }
+    .btn-salvar:hover { opacity: .88; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <div class="h-title">Editar Registro</div>
+      <div class="h-sub">Quantidade e data de vencimento</div>
+    </div>
+    <a class="nav-link" href="{{ url_for('vencimento.listagem') }}">← Cancelar</a>
+  </header>
+
+  <div class="card">
+    <label>Produto</label>
+    <div class="produto-fixo"><span class="cod">{{ r.codprod }}</span>{{ r.produto }}</div>
+
+    <form method="POST" action="{{ url_for('vencimento.editar_salvar', chave=r.chave_unica) }}">
+      <div class="grid-2">
+        <div>
+          <label for="data_vencimento">Data de vencimento</label>
+          <input class="field-input" type="date" id="data_vencimento" name="data_vencimento" value="{{ r.data_vencimento }}" required>
+        </div>
+        <div>
+          <label for="qtd">Quantidade</label>
+          <input class="field-input" type="number" id="qtd" name="qtd" min="0" step="1" value="{{ r.qtd | int }}" required>
+        </div>
+      </div>
+
+      <button class="btn-salvar" type="submit">Salvar alterações</button>
+    </form>
+  </div>
+</body>
+</html>

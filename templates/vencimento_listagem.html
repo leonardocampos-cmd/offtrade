@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registros de Vencimento — OFF TRADE RJ</title>
+  <title>Registros de Vencimento</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -43,9 +43,20 @@
       transition: border-color .15s, color .15s;
     }
     .nav-link:hover { border-color: var(--accent); color: var(--accent); }
+    .nav-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn-exportar {
+      font-size: .78rem; color: #111; text-decoration: none; font-weight: 700;
+      padding: 6px 12px; border-radius: 8px; background: var(--accent);
+      transition: opacity .15s;
+    }
+    .btn-exportar:hover { opacity: .88; }
 
     .toast {
       background: rgba(34,197,94,.12); border: 1px solid var(--green); color: var(--green);
+      border-radius: 8px; padding: 10px 14px; font-size: .85rem; margin-bottom: 16px;
+    }
+    .toast-excluido {
+      background: rgba(148,163,184,.12); border: 1px solid var(--muted); color: var(--muted);
       border-radius: 8px; padding: 10px 14px; font-size: .85rem; margin-bottom: 16px;
     }
 
@@ -70,6 +81,17 @@
     .venc-vencido { color: var(--red); font-weight: 700; }
 
     .empty { padding: 48px; text-align: center; color: var(--muted); font-size: .9rem; }
+
+    .acoes { display: flex; gap: 8px; white-space: nowrap; }
+    .acao-btn {
+      font-size: .76rem; text-decoration: none; cursor: pointer;
+      padding: 5px 10px; border-radius: 6px; border: 1px solid var(--border);
+      background: var(--card2); font-family: inherit; transition: border-color .15s, color .15s;
+    }
+    .acao-editar  { color: var(--muted); }
+    .acao-editar:hover  { border-color: var(--accent); color: var(--accent); }
+    .acao-excluir { color: var(--red); }
+    .acao-excluir:hover { border-color: var(--red); }
   </style>
 </head>
 <body>
@@ -78,11 +100,17 @@
       <div class="h-title">Registros de Vencimento</div>
       <div class="h-sub">{{ registros|length }} registro(s) — ordenado por data de vencimento</div>
     </div>
-    <a class="nav-link" href="/">← Novo registro</a>
+    <div class="nav-actions">
+      <a class="btn-exportar" href="{{ url_for('vencimento.exportar') }}">⬇ Exportar CSV</a>
+      <a class="nav-link" href="{{ url_for('vencimento.index') }}">← Novo registro</a>
+    </div>
   </header>
 
   {% if ok %}
   <div class="toast">Registro salvo com sucesso.</div>
+  {% endif %}
+  {% if excluido %}
+  <div class="toast-excluido">Registro excluído.</div>
   {% endif %}
 
   <div class="card">
@@ -96,6 +124,7 @@
           <th style="text-align:right">Qtd</th>
           <th>Data Vencimento</th>
           <th>Chave Única</th>
+          <th></th>
         </tr>
       </thead>
       <tbody>
@@ -107,12 +136,21 @@
           <td class="qtd">{{ r.qtd | int }}</td>
           <td>{{ r.data_vencimento }}</td>
           <td class="chave">{{ r.chave_unica }}</td>
+          <td>
+            <div class="acoes">
+              <a class="acao-btn acao-editar" href="{{ url_for('vencimento.editar_form', chave=r.chave_unica) }}">Editar</a>
+              <form method="POST" action="{{ url_for('vencimento.excluir', chave=r.chave_unica) }}"
+                    onsubmit="return confirm('Excluir o registro {{ r.chave_unica }}?');">
+                <button type="submit" class="acao-btn acao-excluir">Excluir</button>
+              </form>
+            </div>
+          </td>
         </tr>
         {% endfor %}
       </tbody>
     </table>
     {% else %}
-    <div class="empty">Nenhum registro ainda. <a href="/" style="color:var(--accent)">Criar o primeiro →</a></div>
+    <div class="empty">Nenhum registro ainda. <a href="{{ url_for('vencimento.index') }}" style="color:var(--accent)">Criar o primeiro →</a></div>
     {% endif %}
   </div>
 </body>
