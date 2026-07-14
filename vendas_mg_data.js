@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "14/07/2026 15:14",
+  "atualizado_em": "14/07/2026 17:30",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 33169.78,
-        "pos": 34,
+        "fat": 33623.38,
+        "pos": 35,
         "fat_ant": 85308.22
       }
     },
@@ -84986,6 +84986,15 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "14/07/2026",
+          "codcli": "33722",
+          "cliente": "POUSADA CANTO DOS PRAZERES LTDA.",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 226.8
+        },
+        {
+          "data": "14/07/2026",
           "codcli": "35993",
           "cliente": "MFB COMERCIAL LTDA",
           "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
@@ -85037,6 +85046,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 153.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33722",
+          "cliente": "POUSADA CANTO DOS PRAZERES LTDA.",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 226.8
         },
         {
           "data": "14/07/2026",
