@@ -15096,5 +15096,197 @@
       "motivo": "DADOS INCORRETOS NA NOTA FISCAL — Cancelar , endereço de cadastro errado . Bees ciente",
       "valor": "R$ 429,60"
     }
+  ],
+  "2026-07-14": [
+    {
+      "nf": "6320",
+      "rca": 158,
+      "rca_nome": "JOSE MARCELO CARDOSO",
+      "cliente": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
+      "rota": "LTG4A18 / ZONA NORTE",
+      "responsavel": "Faturamento",
+      "motivo": "NOTA DUPLICADA — CLIENTE JA RECEBEU ESSA NF, VENDEDOR JORGE MARCELO ESTÁ CIENTE E CONFIRMOU",
+      "valor": "R$ 40.080,00"
+    },
+    {
+      "nf": "6638",
+      "rca": 275,
+      "rca_nome": "MARIA LUIZA",
+      "cliente": "DOM ATACAREJO S.A.",
+      "rota": "TUP1A46 / BAIXADA",
+      "responsavel": "Faturamento",
+      "motivo": "DADOS INCORRETOS NA NOTA FISCAL — CLIENTE RECUSOU O PEDIDO, POIS INFORMOU QUE O PRODUTO NÃO FOI ENCONTRADO NO SISTEMA, GERENTE DE VENDAS ALLAN CONFIRMOU A INFORMAÇÃO, E COMPLEMENTOU INFORMANDO QUE A MERCADORIA FOI DIGITADA ERRADA.",
+      "valor": "R$ 2.861,28"
+    },
+    {
+      "nf": "411170",
+      "rca": 431,
+      "rca_nome": "ADEILSON GONÇALVEZ",
+      "cliente": "PANIFICACAO LUANDA LTDA",
+      "rota": "LMV5I35 / ZONA OESTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — CLIENTE ALEGA NAO TER FEITO O PEDIDO,  VENDEDOR ADEILSON GONÇALVES CIENTE",
+      "valor": "R$ 378,80"
+    },
+    {
+      "nf": "411194",
+      "rca": 106,
+      "rca_nome": "FERNANDO CESAR",
+      "cliente": "FR EVENTOS E DISTRIBUIDORA DE BEBIDAS LTDA",
+      "rota": "LMV5I35 / ZONA OESTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — CLIENTE ALEGA NAO TER FEITO O PEDIDO, VENDEDOR FERNANDO CESAR CIENTE",
+      "valor": "R$ 286,90"
+    },
+    {
+      "nf": "411350",
+      "rca": 112,
+      "rca_nome": "LUCAS MATIAS",
+      "cliente": "VITER DISTRIBUIDORA DE BEBIDAS LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 5.392,80"
+    },
+    {
+      "nf": "411338",
+      "rca": 297,
+      "rca_nome": "LUIZA FREIRE",
+      "cliente": "COMBOS BAR UNIPESSOAL LTDA",
+      "rota": "TTT0A28 / NITEROI REGIAO",
+      "responsavel": "Logística",
+      "motivo": "LOCAL FECHADO - LOGÍSTICA IGNOROU O AGENDAMENTO — Equipe foi até o local, enviou foto, cliente pediu para retornar amanhã, pois o mesmo não estava em casa para receber. Vendedora Luiza Freire está ciente",
+      "valor": "R$ 1.681,66"
+    },
+    {
+      "nf": "410699",
+      "rca": 297,
+      "rca_nome": "LUIZA FREIRE",
+      "cliente": "BUTECO PREDILETO BAR LTDA",
+      "rota": "SSE9J52 / ZONA SUL",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA — cliente pediu para cancelar o pedido . Luiza Freire ciente",
+      "valor": "R$ 1.762,60"
+    },
+    {
+      "nf": "411119",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "QUINTAL DO STUART GASTRONOMIA LTDA",
+      "rota": "RJV2J31 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "REPONSÁVEL PELO PAGAMENTO AUSENTE OU CLIENTE SEM MÉTODO — Responsável pelo pagamento não estava no local, vendedora Lais Poppe ciente",
+      "valor": "R$ 296,50"
+    },
+    {
+      "nf": "410727",
+      "rca": 445,
+      "rca_nome": "MARIANA RESTUM",
+      "cliente": "47.166.321 MATHEUS HENRIQUE DE ANDRADE MONTEIRO",
+      "rota": "TTT0A28 / NITEROI REGIAO",
+      "responsavel": "Logística",
+      "motivo": "ACESSO RESTRITO DE VEÍCULO — Área de risco confirmada pelo pessoal do monitoramento, vendedora Mariana Restum está ciente",
+      "valor": "R$ 250,66"
+    },
+    {
+      "nf": "411268",
+      "rca": 445,
+      "rca_nome": "MARIANA RESTUM",
+      "cliente": "ALEXANDRE SILVA CRISTOVAO 06993367750",
+      "rota": "LMV5I35 / ZONA OESTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA — Cliente desistiu do pedido, Vendedora Mariana Hestum confirmou o cancelamento",
+      "valor": "R$ 244,27"
+    },
+    {
+      "nf": "409319",
+      "rca": 445,
+      "rca_nome": "MARIANA RESTUM",
+      "cliente": "R.R.A. BAR E RESTAURANTE LTDA",
+      "rota": "TTY6J70 / ZONA SUDOESTE",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Cliente fechado, vendedora Mariana Restum está ciente",
+      "valor": "R$ 873,62"
+    },
+    {
+      "nf": "411349",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.655,76"
+    },
+    {
+      "nf": "411351",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 191,04"
+    },
+    {
+      "nf": "411348",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
+      "rota": "LUG4J13 / REGIÃO DOS LAGOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 477,60"
+    },
+    {
+      "nf": "411339",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+      "rota": "TTT0A28 / NITEROI REGIAO",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Vendedor Leandro Souza informou que o cliente estaria recebendo até às 15h, mas a equipe não informou que tinha seguido viagem. E só sinalizou que não deu tempo de esperar ao chegar na base.",
+      "valor": "R$ 658,08"
+    },
+    {
+      "nf": "411336",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
+      "rota": "TTT0A28 / NITEROI REGIAO",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Vendedor Leandro Souza informou que o cliente estaria recebendo até às 15h, mas a equipe não informou que tinha seguido viagem. E só sinalizou que não deu tempo de esperar ao chegar na base.",
+      "valor": "R$ 700,56"
+    },
+    {
+      "nf": "411337",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+      "rota": "TTT0A28 / NITEROI REGIAO",
+      "responsavel": "Logística",
+      "motivo": "PROBLEMAS COM  MOTORISTA/ AJUDANTE — Vendedor Leandro Souza informou que o cliente estaria recebendo até às 15h, mas a equipe não informou que tinha seguido viagem. E só sinalizou que não deu tempo de esperar ao chegar na base.",
+      "valor": "R$ 276,00"
+    },
+    {
+      "nf": "411265",
+      "rca": 92,
+      "rca_nome": "AUGUSTO SILVA",
+      "cliente": "EL NINO LANCHES LTDA",
+      "rota": "SSE9J52 / ZONA SUL",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Cliente informou que não teria como receber hoje . Augusto Silva ciente",
+      "valor": "R$ 257,33"
+    },
+    {
+      "nf": "410669",
+      "rca": 175,
+      "rca_nome": "Não Identificado",
+      "cliente": "NOVA VIBE BAR LTDA",
+      "rota": "RJV2J31 / ZONA NORTE",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Cliente Fechado, não abre segunda-feira, Vendedora Juliana Salgado ciente.",
+      "valor": "R$ 1.461,60"
+    }
   ]
 }
