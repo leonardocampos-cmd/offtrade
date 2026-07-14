@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "13/07/2026 17:11",
+  "atualizado_em": "14/07/2026 09:34",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -30724,6 +30724,33 @@ const VENDAS_SP_DATA = {
           "valor": 3348.0
         },
         {
+          "data": "13/07/2026",
+          "codcli": "45350",
+          "cliente": "3D COMERCIAL DE ALIMENTOS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 720,
+          "valor": 19368.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "32427",
+          "cliente": "PORTO DISTRIBUIDORA DE BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 480,
+          "valor": 12912.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "23968",
+          "cliente": "DISTRIB DE BEBIDAS MARLENE LT",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 480,
+          "valor": 12912.0
+        },
+        {
           "data": "01/07/2026",
           "codcli": "46477",
           "cliente": "HENRIQUE MEDEIROS DE AZEVEDO DISTRIBUIDORA",
@@ -30805,6 +30832,15 @@ const VENDAS_SP_DATA = {
           "valor": 3808.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "40513",
+          "cliente": "DISTRIBUIDORA TRIPLO X LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 1904.4
+        },
+        {
           "data": "06/07/2026",
           "codcli": "32423",
           "cliente": "COMERCIAL MALTE 21 LTDA",
@@ -30850,6 +30886,24 @@ const VENDAS_SP_DATA = {
           "valor": 5994.0
         },
         {
+          "data": "13/07/2026",
+          "codcli": "38212",
+          "cliente": "BERTIN BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 60,
+          "valor": 5994.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "36371",
+          "cliente": "50.531.445 JOAO BATISTA DA SILVA FILHO",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
           "data": "08/07/2026",
           "codcli": "38929",
           "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
@@ -30880,6 +30934,15 @@ const VENDAS_SP_DATA = {
           "data": "08/07/2026",
           "codcli": "47268",
           "cliente": "MATEUS COSTA DE OLIVEIRA",
+          "produto": "CHANDON PASSION ROSE 750ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "40513",
+          "cliente": "DISTRIBUIDORA TRIPLO X LTDA",
           "produto": "CHANDON PASSION ROSE 750ML",
           "fantasia": "MOET HENNESY",
           "qt": 6,
@@ -30907,6 +30970,15 @@ const VENDAS_SP_DATA = {
           "data": "08/07/2026",
           "codcli": "38929",
           "cliente": "WG ATACADO E DISTRIBUIDORA LTDA",
+          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 599.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "40513",
+          "cliente": "DISTRIBUIDORA TRIPLO X LTDA",
           "produto": "VODKA GREY GOOSE LE CITRON 750ML",
           "fantasia": "BACARDI",
           "qt": 6,
@@ -31066,6 +31138,15 @@ const VENDAS_SP_DATA = {
           "valor": 3828.0
         },
         {
+          "data": "13/07/2026",
+          "codcli": "40513",
+          "cliente": "DISTRIBUIDORA TRIPLO X LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 48,
+          "valor": 1531.2
+        },
+        {
           "data": "11/07/2026",
           "codcli": "47890",
           "cliente": "51.029.581 LUCAS DE SOUZA FARIA",
@@ -31073,6 +31154,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 382.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "36371",
+          "cliente": "50.531.445 JOAO BATISTA DA SILVA FILHO",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 394.8
         },
         {
           "data": "11/07/2026",
@@ -31199,6 +31289,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 60,
           "valor": 3774.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "31179",
+          "cliente": "COMERCIO DE BEBIDAS FORTALEZA LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 72,
+          "valor": 4312.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "36371",
+          "cliente": "50.531.445 JOAO BATISTA DA SILVA FILHO",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 754.8
         },
         {
           "data": "10/07/2026",
@@ -31624,13 +31732,13 @@ const VENDAS_SP_DATA = {
           "valor": 3294.0
         },
         {
-          "data": "11/07/2026",
-          "codcli": "51066",
-          "cliente": "ADEGA TENORIO LTDA",
+          "data": "13/07/2026",
+          "codcli": "40513",
+          "cliente": "DISTRIBUIDORA TRIPLO X LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
           "fantasia": "PERNOD",
-          "qt": 60,
-          "valor": 3294.0
+          "qt": 24,
+          "valor": 1317.6
         },
         {
           "data": "02/07/2026",
@@ -31685,6 +31793,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 360,
           "valor": 7884.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "38212",
+          "cliente": "BERTIN BEBIDAS LTDA",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 1980,
+          "valor": 41382.0
         },
         {
           "data": "13/07/2026",
@@ -31759,6 +31876,15 @@ const VENDAS_SP_DATA = {
           "valor": 479.94
         },
         {
+          "data": "13/07/2026",
+          "codcli": "40513",
+          "cliente": "DISTRIBUIDORA TRIPLO X LTDA",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 6,
+          "valor": 479.4
+        },
+        {
           "data": "07/07/2026",
           "codcli": "38212",
           "cliente": "BERTIN BEBIDAS LTDA",
@@ -31775,6 +31901,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "BALLENA",
           "qt": 6,
           "valor": 479.94
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "40513",
+          "cliente": "DISTRIBUIDORA TRIPLO X LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 6,
+          "valor": 479.4
         },
         {
           "data": "08/07/2026",
@@ -39522,6 +39657,15 @@ const VENDAS_SP_DATA = {
           "valor": 608.4
         },
         {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 24,
+          "valor": 405.6
+        },
+        {
           "data": "10/07/2026",
           "codcli": "32426",
           "cliente": "PIRANA - AUTO SERVICO LTDA",
@@ -39592,6 +39736,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 36,
           "valor": 464.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 12,
+          "valor": 154.8
         },
         {
           "data": "01/07/2026",
@@ -39666,6 +39819,15 @@ const VENDAS_SP_DATA = {
           "valor": 59.76
         },
         {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 161.88
+        },
+        {
           "data": "08/07/2026",
           "codcli": "49455",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
@@ -39738,6 +39900,15 @@ const VENDAS_SP_DATA = {
           "valor": 599.67
         },
         {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "WHISKY JACK DANIELS SINGLE BARREL 750ML",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 199.89
+        },
+        {
           "data": "01/07/2026",
           "codcli": "32797",
           "cliente": "EMPORIO DOS PRIMOS VIEIRA LTDA",
@@ -39756,6 +39927,24 @@ const VENDAS_SP_DATA = {
           "valor": 419.6
         },
         {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "LIQUEUR JAGERMEISTER 700 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 2,
+          "valor": 209.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "32426",
+          "cliente": "PIRANA - AUTO SERVICO LTDA",
+          "produto": "ESPUM CASA PERINI BRUT 750ML",
+          "fantasia": "PERINI",
+          "qt": 24,
+          "valor": 981.6
+        },
+        {
           "data": "01/07/2026",
           "codcli": "32797",
           "cliente": "EMPORIO DOS PRIMOS VIEIRA LTDA",
@@ -39763,6 +39952,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERINI",
           "qt": 6,
           "valor": 245.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "32426",
+          "cliente": "PIRANA - AUTO SERVICO LTDA",
+          "produto": "ESPUM CASA PERINI PROSECCO 750ML",
+          "fantasia": "PERINI",
+          "qt": 21,
+          "valor": 858.9
         },
         {
           "data": "06/07/2026",
@@ -39844,6 +40042,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 1,
           "valor": 62.9
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 2,
+          "valor": 125.8
         },
         {
           "data": "03/07/2026",
@@ -40017,6 +40224,15 @@ const VENDAS_SP_DATA = {
           "valor": 123.3
         },
         {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.48
+        },
+        {
           "data": "08/07/2026",
           "codcli": "49455",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
@@ -40024,6 +40240,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "FANTE",
           "qt": 12,
           "valor": 256.08
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "GIN ROCKS SICILIAN LEMON 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 128.04
         },
         {
           "data": "08/07/2026",
@@ -40037,6 +40262,15 @@ const VENDAS_SP_DATA = {
         {
           "data": "08/07/2026",
           "codcli": "49455",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "GIN ROCKS SUNSET 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 128.04
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49464",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "GIN ROCKS SUNSET 1LT",
           "fantasia": "FANTE",
@@ -40069,6 +40303,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 2,
           "valor": 109.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 329.4
         },
         {
           "data": "01/07/2026",
@@ -40114,6 +40357,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "MOET HENNESY",
           "qt": 1,
           "valor": 126.9
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "VODKA BELVEDERE 700 ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 2,
+          "valor": 253.8
         },
         {
           "data": "08/07/2026",
@@ -40269,6 +40521,15 @@ const VENDAS_SP_DATA = {
           "valor": 303.6
         },
         {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "WHISKY JACK DANIELS FIRE 700ML",
+          "fantasia": "BROWN",
+          "qt": 4,
+          "valor": 303.6
+        },
+        {
           "data": "01/07/2026",
           "codcli": "32797",
           "cliente": "EMPORIO DOS PRIMOS VIEIRA LTDA",
@@ -40276,6 +40537,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 1,
           "valor": 579.9
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 69.0
         },
         {
           "data": "08/07/2026",
@@ -40332,6 +40602,15 @@ const VENDAS_SP_DATA = {
           "valor": 539.4
         },
         {
+          "data": "13/07/2026",
+          "codcli": "49464",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 120,
+          "valor": 1078.8
+        },
+        {
           "data": "08/07/2026",
           "codcli": "49463",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
@@ -40379,6 +40658,15 @@ const VENDAS_SP_DATA = {
         {
           "data": "08/07/2026",
           "codcli": "49466",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.24
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49464",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
           "fantasia": "FANTE",
@@ -40442,6 +40730,15 @@ const VENDAS_SP_DATA = {
         {
           "data": "08/07/2026",
           "codcli": "49466",
+          "cliente": "EXAMINE SUPERMERCADOS LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 329.39
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49464",
           "cliente": "EXAMINE SUPERMERCADOS LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
           "fantasia": "PERNOD",
@@ -54129,6 +54426,15 @@ const VENDAS_SP_DATA = {
           "valor": 322.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "45521",
+          "cliente": "ADEGA DO PREA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1614.0
+        },
+        {
           "data": "10/07/2026",
           "codcli": "30334",
           "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
@@ -54136,6 +54442,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 28,
           "valor": 753.2
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30685",
+          "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 3228.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 322.8
         },
         {
           "data": "03/07/2026",
@@ -54156,6 +54480,15 @@ const VENDAS_SP_DATA = {
           "valor": 700.2
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 233.4
+        },
+        {
           "data": "01/07/2026",
           "codcli": "31513",
           "cliente": "VENTUCCI DISTRIBUIDORES DE BEBIDAS LTDA",
@@ -54163,6 +54496,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "CRS BRANDS",
           "qt": 1320,
           "valor": 13186.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 119.88
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 826.8
         },
         {
           "data": "02/07/2026",
@@ -54192,6 +54543,15 @@ const VENDAS_SP_DATA = {
           "valor": 1904.4
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 646.8
+        },
+        {
           "data": "06/07/2026",
           "codcli": "23329",
           "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
@@ -54199,6 +54559,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "BACARDI",
           "qt": 12,
           "valor": 358.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30685",
+          "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 7,
+          "valor": 209.3
         },
         {
           "data": "01/07/2026",
@@ -54217,6 +54586,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 24,
           "valor": 466.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30685",
+          "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 233.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 233.4
         },
         {
           "data": "10/07/2026",
@@ -54246,6 +54633,15 @@ const VENDAS_SP_DATA = {
           "valor": 1198.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
           "data": "07/07/2026",
           "codcli": "51512",
           "cliente": "C. JARNALLO - BEBIDAS LTDA",
@@ -54262,6 +54658,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 24,
           "valor": 477.6
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "45521",
+          "cliente": "ADEGA DO PREA LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1194.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 262.8
         },
         {
           "data": "10/07/2026",
@@ -54291,6 +54705,15 @@ const VENDAS_SP_DATA = {
           "valor": 634.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
           "data": "07/07/2026",
           "codcli": "46826",
           "cliente": "BEER EXPRESS MINIMERCADO LTDA",
@@ -54318,6 +54741,15 @@ const VENDAS_SP_DATA = {
           "valor": 5359.2
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 828.0
+        },
+        {
           "data": "10/07/2026",
           "codcli": "51526",
           "cliente": "MICHAEL ARANAN DE F PINTO ADEGA",
@@ -54334,6 +54766,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 12,
           "valor": 154.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 12,
+          "valor": 1006.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "AURORA",
+          "qt": 12,
+          "valor": 1006.8
         },
         {
           "data": "02/07/2026",
@@ -54390,6 +54840,15 @@ const VENDAS_SP_DATA = {
           "valor": 1258.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "LIQUEUR JAGERMEISTER 700 ML",
+          "fantasia": "INTERFOOD",
+          "qt": 6,
+          "valor": 629.4
+        },
+        {
           "data": "04/07/2026",
           "codcli": "47181",
           "cliente": "LATICINIOS TANI LTDA",
@@ -54426,6 +54885,15 @@ const VENDAS_SP_DATA = {
           "valor": 1402.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "fantasia": "JURUPINGA",
+          "qt": 24,
+          "valor": 609.32
+        },
+        {
           "data": "10/07/2026",
           "codcli": "51646",
           "cliente": "BIANCA APARECIDA AFONSO PINTO",
@@ -54451,6 +54919,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "BACARDI",
           "qt": 48,
           "valor": 1488.46
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30685",
+          "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 60,
+          "valor": 1860.58
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "VODKA ABSOLUT VANILLA 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
         },
         {
           "data": "03/07/2026",
@@ -54525,6 +55011,15 @@ const VENDAS_SP_DATA = {
           "valor": 369.9
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "FANTE",
+          "qt": 24,
+          "valor": 493.2
+        },
+        {
           "data": "08/07/2026",
           "codcli": "41307",
           "cliente": "JJ ADEGA TERRACOS LTDA",
@@ -54534,6 +55029,42 @@ const VENDAS_SP_DATA = {
           "valor": 543.9
         },
         {
+          "data": "13/07/2026",
+          "codcli": "45521",
+          "cliente": "ADEGA DO PREA LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.48
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.48
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "GIN ROCKS SICILIAN LEMON 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 256.08
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "GIN ROCKS SUNSET 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 256.08
+        },
+        {
           "data": "07/07/2026",
           "codcli": "46826",
           "cliente": "BEER EXPRESS MINIMERCADO LTDA",
@@ -54541,6 +55072,42 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 658.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 262.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "APERITIVO NATU NOBILIS 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 430.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "CACHACA SELETA PRATA 1L",
+          "fantasia": "TOP BIRRA",
+          "qt": 12,
+          "valor": 419.44
         },
         {
           "data": "10/07/2026",
@@ -54561,6 +55128,15 @@ const VENDAS_SP_DATA = {
           "valor": 479.4
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 6,
+          "valor": 479.4
+        },
+        {
           "data": "10/07/2026",
           "codcli": "31513",
           "cliente": "VENTUCCI DISTRIBUIDORES DE BEBIDAS LTDA",
@@ -54568,6 +55144,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "AURORA",
           "qt": 113,
           "valor": 11853.7
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "WHISKY PASSPORT APPLE 670ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 414.0
         },
         {
           "data": "02/07/2026",
@@ -54579,6 +55164,33 @@ const VENDAS_SP_DATA = {
           "valor": 1438.2
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 6,
+          "valor": 479.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "GIN ROCKS GREEN APPLE 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.48
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 414.0
+        },
+        {
           "data": "10/07/2026",
           "codcli": "30334",
           "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
@@ -54586,6 +55198,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "LUCIA",
           "qt": 12,
           "valor": 790.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "APERITIVO LUCIA 750ML",
+          "fantasia": "LUCIA",
+          "qt": 6,
+          "valor": 395.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "BALLANTINES SWEET BLEND 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 550.8
         },
         {
           "data": "02/07/2026",
@@ -54697,6 +55327,15 @@ const VENDAS_SP_DATA = {
         },
         {
           "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 215.76
+        },
+        {
+          "data": "13/07/2026",
           "codcli": "51155",
           "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
           "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
@@ -54759,9 +55398,27 @@ const VENDAS_SP_DATA = {
           "valor": 492.96
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.48
+        },
+        {
           "data": "07/07/2026",
           "codcli": "46826",
           "cliente": "BEER EXPRESS MINIMERCADO LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51732",
+          "cliente": "MGP COMERCIO DE BEBIDAS DE LIMEIRA LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -58449,6 +59106,15 @@ const VENDAS_SP_DATA = {
           "valor": 1040.4
         },
         {
+          "data": "13/07/2026",
+          "codcli": "50543",
+          "cliente": "LEDUINO E LEDUINO LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 346.8
+        },
+        {
           "data": "09/07/2026",
           "codcli": "49974",
           "cliente": "AGNALDO ALMEIDA MENDES",
@@ -58467,6 +59133,15 @@ const VENDAS_SP_DATA = {
           "valor": 169.16
         },
         {
+          "data": "13/07/2026",
+          "codcli": "49912",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 322.8
+        },
+        {
           "data": "02/07/2026",
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
@@ -58483,6 +59158,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 317.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49912",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 634.8
         },
         {
           "data": "01/07/2026",
@@ -58530,6 +59214,24 @@ const VENDAS_SP_DATA = {
           "valor": 359.4
         },
         {
+          "data": "13/07/2026",
+          "codcli": "50543",
+          "cliente": "LEDUINO E LEDUINO LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1677.6
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49912",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 359.4
+        },
+        {
           "data": "02/07/2026",
           "codcli": "50595",
           "cliente": "CAMBREIA BEBIDAS VAREJISTA LTDA",
@@ -58566,6 +59268,15 @@ const VENDAS_SP_DATA = {
           "valor": 1987.3
         },
         {
+          "data": "13/07/2026",
+          "codcli": "50543",
+          "cliente": "LEDUINO E LEDUINO LTDA",
+          "produto": "GIN BEEFEATER BLACKBERRY 700ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 425.4
+        },
+        {
           "data": "01/07/2026",
           "codcli": "50543",
           "cliente": "LEDUINO E LEDUINO LTDA",
@@ -58573,6 +59284,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 15,
           "valor": 517.5
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "50543",
+          "cliente": "LEDUINO E LEDUINO LTDA",
+          "produto": "WHISKY PASSPORT APPLE 670ML",
+          "fantasia": "PERNOD",
+          "qt": 15,
+          "valor": 517.5
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49912",
+          "cliente": "SUPERMERCADO VICALI PARATY LTDA.",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 15,
+          "valor": 493.5
         },
         {
           "data": "02/07/2026",
@@ -62391,6 +63120,15 @@ const VENDAS_SP_DATA = {
           "valor": 52.9
         },
         {
+          "data": "13/07/2026",
+          "codcli": "50804",
+          "cliente": "ADEGA DA TIA COMERCIO DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 317.4
+        },
+        {
           "data": "08/07/2026",
           "codcli": "49993",
           "cliente": "DEPOSITO DE BEBIDAS GOMES LTDA",
@@ -62466,6 +63204,15 @@ const VENDAS_SP_DATA = {
           "data": "08/07/2026",
           "codcli": "49993",
           "cliente": "DEPOSITO DE BEBIDAS GOMES LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "50661",
+          "cliente": "34.668.039 BRUNO SILVA CANCIO",
           "produto": "WHISKY JACK DANIELS 1L",
           "fantasia": "BROWN",
           "qt": 12,
@@ -62688,6 +63435,15 @@ const VENDAS_SP_DATA = {
           "valor": 4976.4
         },
         {
+          "data": "13/07/2026",
+          "codcli": "50416",
+          "cliente": "27.359.599 MARIO FERNANDO DE FARIA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 394.8
+        },
+        {
           "data": "10/07/2026",
           "codcli": "50216",
           "cliente": "JOAO GUILHERME SPERNEGA MARTINELLI MERCEARIA LTDA",
@@ -62904,6 +63660,24 @@ const VENDAS_SP_DATA = {
           "valor": 233.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "50416",
+          "cliente": "27.359.599 MARIO FERNANDO DE FARIA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 3,
+          "valor": 350.7
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "50804",
+          "cliente": "ADEGA DA TIA COMERCIO DE BEBIDAS LTDA",
+          "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+          "fantasia": "AURORA",
+          "qt": 6,
+          "valor": 701.4
+        },
+        {
           "data": "08/07/2026",
           "codcli": "50769",
           "cliente": "53.019.084 DANILO APARECIDO FELIX",
@@ -63109,6 +63883,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 36,
           "valor": 788.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "49990",
+          "cliente": "ADEGA EBURNEO VIVAN PARDINHO LTDA",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 525.6
         },
         {
           "data": "01/07/2026",
@@ -66246,6 +67029,15 @@ const VENDAS_SP_DATA = {
           "valor": 238.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51707",
+          "cliente": "PALMIERO PELICIARI FAGUNDES COMERCIAL LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 317.4
+        },
+        {
           "data": "10/07/2026",
           "codcli": "51569",
           "cliente": "MERCADINHO VIANA & VIANA LTDA",
@@ -66253,6 +67045,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 2,
           "valor": 105.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51707",
+          "cliente": "PALMIERO PELICIARI FAGUNDES COMERCIAL LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 191.4
         },
         {
           "data": "10/07/2026",
@@ -66667,6 +67468,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 15,
           "valor": 517.5
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51707",
+          "cliente": "PALMIERO PELICIARI FAGUNDES COMERCIAL LTDA",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 207.0
         },
         {
           "data": "10/07/2026",
@@ -67318,6 +68128,15 @@ const VENDAS_SP_DATA = {
           "valor": 1739.7
         },
         {
+          "data": "13/07/2026",
+          "codcli": "46946",
+          "cliente": "DIEGO ALVES DE ALMEIDA 36550638810",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 718.8
+        },
+        {
           "data": "07/07/2026",
           "codcli": "49953",
           "cliente": "BEBIDAS ZERO GRAU LTDA",
@@ -67363,6 +68182,24 @@ const VENDAS_SP_DATA = {
           "valor": 1198.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "46946",
+          "cliente": "DIEGO ALVES DE ALMEIDA 36550638810",
+          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "46946",
+          "cliente": "DIEGO ALVES DE ALMEIDA 36550638810",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.3
+        },
+        {
           "data": "04/07/2026",
           "codcli": "48506",
           "cliente": "ALESSANDRA DUARTE TAVARES 08076100623",
@@ -67381,6 +68218,15 @@ const VENDAS_SP_DATA = {
           "valor": 159.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "46946",
+          "cliente": "DIEGO ALVES DE ALMEIDA 36550638810",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 5,
+          "valor": 399.5
+        },
+        {
           "data": "02/07/2026",
           "codcli": "51436",
           "cliente": "31.084.832 JOSE EDVALDO FERNANDES FREITAS",
@@ -67388,6 +68234,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "BALLENA",
           "qt": 2,
           "valor": 159.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "46946",
+          "cliente": "DIEGO ALVES DE ALMEIDA 36550638810",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 3,
+          "valor": 239.7
         },
         {
           "data": "08/07/2026",
@@ -67406,6 +68261,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "CRS BRANDS",
           "qt": 1200,
           "valor": 10788.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "46946",
+          "cliente": "DIEGO ALVES DE ALMEIDA 36550638810",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.3
         }
       ]
     },
@@ -72200,6 +73064,24 @@ const VENDAS_SP_DATA = {
           "valor": 246.48
         },
         {
+          "data": "13/07/2026",
+          "codcli": "50055",
+          "cliente": "24.467.572 JOSE VIEIRA DA SILVA",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 3,
+          "valor": 239.7
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "50055",
+          "cliente": "24.467.572 JOSE VIEIRA DA SILVA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 2,
+          "valor": 159.8
+        },
+        {
           "data": "01/07/2026",
           "codcli": "51420",
           "cliente": "A L PEREIRA SUPERMERCADO LTDA",
@@ -74376,6 +75258,15 @@ const VENDAS_SP_DATA = {
           "valor": 669.6
         },
         {
+          "data": "13/07/2026",
+          "codcli": "40491",
+          "cliente": "57.382.883 ICARO ADRIANO BOMFIM",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 48,
+          "valor": 1291.2
+        },
+        {
           "data": "02/07/2026",
           "codcli": "51253",
           "cliente": "MEDRADO BURGUER LTDA",
@@ -74415,6 +75306,15 @@ const VENDAS_SP_DATA = {
           "data": "06/07/2026",
           "codcli": "50354",
           "cliente": "MARIANA VIEIRA SANTIAGO 45604784818",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51327",
+          "cliente": "ESQUINA DO CHOPP FERRAZ LTDA",
           "produto": "WHISKY JACK DANIELS 1L",
           "fantasia": "BROWN",
           "qt": 12,
@@ -74583,6 +75483,24 @@ const VENDAS_SP_DATA = {
           "valor": 2228.4
         },
         {
+          "data": "13/07/2026",
+          "codcli": "50253",
+          "cliente": "54.699.463 JESSICA SANTIAGO JARDIM",
+          "produto": "GIN GORDONS PINK 700ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 706.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "50253",
+          "cliente": "54.699.463 JESSICA SANTIAGO JARDIM",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 4,
+          "valor": 251.6
+        },
+        {
           "data": "01/07/2026",
           "codcli": "50354",
           "cliente": "MARIANA VIEIRA SANTIAGO 45604784818",
@@ -74689,6 +75607,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "DIAGEO",
           "qt": 6,
           "valor": 629.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51253",
+          "cliente": "MEDRADO BURGUER LTDA",
+          "produto": "GIN TANQUERAY BOSSA NOVA  700 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1258.8
         },
         {
           "data": "13/07/2026",
@@ -77919,6 +78846,15 @@ const VENDAS_SP_DATA = {
           "valor": 101.4
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51744",
+          "cliente": "BAR E RESTAURANTE TRANSVAAL LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 202.8
+        },
+        {
           "data": "03/07/2026",
           "codcli": "51467",
           "cliente": "ALDECIR GOMES NOVAES",
@@ -77946,6 +78882,15 @@ const VENDAS_SP_DATA = {
           "valor": 65.7
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51744",
+          "cliente": "BAR E RESTAURANTE TRANSVAAL LTDA",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 525.6
+        },
+        {
           "data": "03/07/2026",
           "codcli": "51467",
           "cliente": "ALDECIR GOMES NOVAES",
@@ -77962,6 +78907,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "CRS BRANDS",
           "qt": 60,
           "valor": 539.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51663",
+          "cliente": "TOP REAL UTILIDADES DOMESTICAS LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 60,
+          "valor": 539.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51663",
+          "cliente": "TOP REAL UTILIDADES DOMESTICAS LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88
         }
       ]
     },
@@ -78192,6 +79155,15 @@ const VENDAS_SP_DATA = {
           "valor": 275.6
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51510",
+          "cliente": "37.468.732 EMERSON DA SILVA LIMA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 317.4
+        },
+        {
           "data": "02/07/2026",
           "codcli": "32784",
           "cliente": "SEMOG'S MERCEARIA E BEBIDAS LTDA",
@@ -78336,6 +79308,15 @@ const VENDAS_SP_DATA = {
           "valor": 158.7
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51510",
+          "cliente": "37.468.732 EMERSON DA SILVA LIMA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 317.4
+        },
+        {
           "data": "11/07/2026",
           "codcli": "51538",
           "cliente": "COMERCIAL MIGOTTO LTDA",
@@ -78370,6 +79351,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 3,
           "valor": 95.7
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51510",
+          "cliente": "37.468.732 EMERSON DA SILVA LIMA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 191.4
         },
         {
           "data": "11/07/2026",
@@ -78543,6 +79533,15 @@ const VENDAS_SP_DATA = {
           "valor": 359.4
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51510",
+          "cliente": "37.468.732 EMERSON DA SILVA LIMA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 718.8
+        },
+        {
           "data": "11/07/2026",
           "codcli": "51538",
           "cliente": "COMERCIAL MIGOTTO LTDA",
@@ -78550,6 +79549,24 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1437.6
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51510",
+          "cliente": "37.468.732 EMERSON DA SILVA LIMA",
+          "produto": "WHISKY CHANCELER 1L",
+          "fantasia": "CRS BRANDS",
+          "qt": 6,
+          "valor": 80.94
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51510",
+          "cliente": "37.468.732 EMERSON DA SILVA LIMA",
+          "produto": "WHISKY JACK DANIELS SINGLE BARREL 750ML",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 219.9
         },
         {
           "data": "07/07/2026",
@@ -78858,6 +79875,15 @@ const VENDAS_SP_DATA = {
           "valor": 2397.6
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51510",
+          "cliente": "37.468.732 EMERSON DA SILVA LIMA",
+          "produto": "WHISKY GENTLEMAN JACK 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 138.0
+        },
+        {
           "data": "02/07/2026",
           "codcli": "32784",
           "cliente": "SEMOG'S MERCEARIA E BEBIDAS LTDA",
@@ -78883,6 +79909,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.6
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51510",
+          "cliente": "37.468.732 EMERSON DA SILVA LIMA",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.3
         },
         {
           "data": "10/07/2026",
@@ -78915,6 +79950,15 @@ const VENDAS_SP_DATA = {
           "data": "08/07/2026",
           "codcli": "32521",
           "cliente": "THIAGO ALBERTO REIS DA SILVA",
+          "produto": "GIN ROCKS STRAWBERRY 1LT",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 246.48
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51510",
+          "cliente": "37.468.732 EMERSON DA SILVA LIMA",
           "produto": "GIN ROCKS STRAWBERRY 1LT",
           "fantasia": "FANTE",
           "qt": 12,
@@ -79110,6 +80154,15 @@ const VENDAS_SP_DATA = {
           "valor": 143.64
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51510",
+          "cliente": "37.468.732 EMERSON DA SILVA LIMA",
+          "produto": "WHISKY CHIVAS XV GOLD 700ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 199.9
+        },
+        {
           "data": "11/07/2026",
           "codcli": "51538",
           "cliente": "COMERCIAL MIGOTTO LTDA",
@@ -79191,6 +80244,15 @@ const VENDAS_SP_DATA = {
           "valor": 61.62
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51510",
+          "cliente": "37.468.732 EMERSON DA SILVA LIMA",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.24
+        },
+        {
           "data": "10/07/2026",
           "codcli": "51698",
           "cliente": "42.541.850 PATRICIA PEREIRA DOS SANTOS",
@@ -79198,6 +80260,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "FANTE",
           "qt": 12,
           "valor": 246.48
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51510",
+          "cliente": "37.468.732 EMERSON DA SILVA LIMA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 329.4
         },
         {
           "data": "11/07/2026",
@@ -80306,6 +81377,24 @@ const VENDAS_SP_DATA = {
           "valor": 2286.5
         },
         {
+          "data": "13/07/2026",
+          "codcli": "46274",
+          "cliente": "COMERCIO 5 ESTRELAS BEBIDAS E ALIMENTOS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 3228.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "47058",
+          "cliente": "EMPORIUM 5 ESTRELAS BEBIDAS E ALIMENTOS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 3228.0
+        },
+        {
           "data": "07/07/2026",
           "codcli": "46274",
           "cliente": "COMERCIO 5 ESTRELAS BEBIDAS E ALIMENTOS LTDA",
@@ -80735,6 +81824,24 @@ const VENDAS_SP_DATA = {
           "valor": 1198.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51660",
+          "cliente": "SUPERMERCADO LIBARDI LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1198.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51660",
+          "cliente": "SUPERMERCADO LIBARDI LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1269.6
+        },
+        {
           "data": "10/07/2026",
           "codcli": "51179",
           "cliente": "V FORAMIGLIO FILHO DISTRIBUIDORA",
@@ -80807,6 +81914,15 @@ const VENDAS_SP_DATA = {
           "valor": 1198.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "51660",
+          "cliente": "SUPERMERCADO LIBARDI LTDA",
+          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
+          "fantasia": "BROWN",
+          "qt": 6,
+          "valor": 599.4
+        },
+        {
           "data": "06/07/2026",
           "codcli": "51169",
           "cliente": "ROGERIO DAS NEVES BOITUVA",
@@ -80814,6 +81930,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERINI",
           "qt": 6,
           "valor": 233.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "51660",
+          "cliente": "SUPERMERCADO LIBARDI LTDA",
+          "produto": "WHISKY GENTLEMAN JACK 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 3,
+          "valor": 414.0
         },
         {
           "data": "08/07/2026",
@@ -86062,6 +87187,24 @@ const VENDAS_SP_DATA = {
           "valor": 634.8
         },
         {
+          "data": "13/07/2026",
+          "codcli": "50978",
+          "cliente": "52.712.792 TALITA VITORIA MATOS NASCIMENTO FERREIRA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 18,
+          "valor": 952.2
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "50988",
+          "cliente": "61.083.324 ANDERSON THIAGO FERREIRA DOS SANTOS",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 18,
+          "valor": 952.2
+        },
+        {
           "data": "02/07/2026",
           "codcli": "50997",
           "cliente": "RODRIGO FARIA MACHADO",
@@ -86975,6 +88118,15 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 191.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "50488",
+          "cliente": "EMPORIO MORAES SOBRINHO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 382.8
         },
         {
           "data": "10/07/2026",
@@ -90889,10 +92041,10 @@ const VENDAS_SP_DATA = {
     },
     "BRUNO BARBOSA": {
       "Jul/26": {
-        "fat": 77863.0,
-        "pos": 14.0,
-        "fat_pernod": 37976.51,
-        "fat_crs": 5566.86
+        "fat": 83951.06,
+        "pos": 15.0,
+        "fat_pernod": 38704.3,
+        "fat_crs": 6807.54
       },
       "Jun/26": {
         "fat": 59276.18,
@@ -90988,10 +92140,10 @@ const VENDAS_SP_DATA = {
     },
     "MANUELA ZAPPACOSTA": {
       "Jul/26": {
-        "fat": 112069.46,
-        "pos": 27.0,
-        "fat_pernod": 44258.4,
-        "fat_crs": 20199.0
+        "fat": 137022.02,
+        "pos": 29.0,
+        "fat_pernod": 57762.6,
+        "fat_crs": 20534.64
       },
       "Jun/26": {
         "fat": 224919.91,
@@ -91012,9 +92164,9 @@ const VENDAS_SP_DATA = {
     },
     "CRISTIANE MORAIS": {
       "Jul/26": {
-        "fat": 71680.5,
-        "pos": 19.0,
-        "fat_pernod": 51232.68,
+        "fat": 72396.3,
+        "pos": 20.0,
+        "fat_pernod": 51948.48,
         "fat_crs": 215.76
       },
       "Jun/26": {
@@ -91036,9 +92188,9 @@ const VENDAS_SP_DATA = {
     },
     "SUELY SANTOS": {
       "Jul/26": {
-        "fat": 35394.37,
-        "pos": 12.0,
-        "fat_pernod": 15926.28,
+        "fat": 40101.57,
+        "pos": 14.0,
+        "fat_pernod": 17217.48,
         "fat_crs": 1510.44
       },
       "Jun/26": {
@@ -91082,8 +92234,8 @@ const VENDAS_SP_DATA = {
     },
     "ROBERTO DOS SANTOS": {
       "Jul/26": {
-        "fat": 2394.72,
-        "pos": 4.0,
+        "fat": 2794.22,
+        "pos": 5.0,
         "fat_pernod": 1280.4,
         "fat_crs": 215.76
       },
@@ -91144,9 +92296,9 @@ const VENDAS_SP_DATA = {
     },
     "DANIELLE DOS SANTOS": {
       "Jul/26": {
-        "fat": 11390.06,
-        "pos": 6.0,
-        "fat_pernod": 5966.7,
+        "fat": 16167.86,
+        "pos": 7.0,
+        "fat_pernod": 10397.7,
         "fat_crs": 970.92
       },
       "Jun/26": {
@@ -91167,9 +92319,9 @@ const VENDAS_SP_DATA = {
     },
     "MARLENE RODRIGUES": {
       "Jul/26": {
-        "fat": 28975.4,
-        "pos": 7.0,
-        "fat_pernod": 9418.5,
+        "fat": 31778.8,
+        "pos": 8.0,
+        "fat_pernod": 10137.3,
         "fat_crs": 10788.0
       },
       "Jun/26": {
@@ -91337,9 +92489,9 @@ const VENDAS_SP_DATA = {
     },
     "RODRIGO LIMA": {
       "Jul/26": {
-        "fat": 79664.57,
-        "pos": 30.0,
-        "fat_pernod": 40965.5,
+        "fat": 83153.27,
+        "pos": 33.0,
+        "fat_pernod": 42203.3,
         "fat_crs": 1258.34
       },
       "Jun/26": {
@@ -91356,9 +92508,9 @@ const VENDAS_SP_DATA = {
     },
     "LUCIANO TOSCHI": {
       "Jul/26": {
-        "fat": 8926.88,
-        "pos": 9.0,
-        "fat_pernod": 3595.9,
+        "fat": 9309.68,
+        "pos": 10.0,
+        "fat_pernod": 3978.7,
         "fat_crs": 782.13
       },
       "Jun/26": {
@@ -91386,10 +92538,10 @@ const VENDAS_SP_DATA = {
     },
     "LEONARDO FLOREZI": {
       "Jul/26": {
-        "fat": 47393.66,
-        "pos": 18.0,
-        "fat_pernod": 22095.42,
-        "fat_crs": 238.29
+        "fat": 50399.82,
+        "pos": 19.0,
+        "fat_pernod": 24169.72,
+        "fat_crs": 319.23
       },
       "Jun/26": {
         "fat": 26320.66,
@@ -91401,9 +92553,9 @@ const VENDAS_SP_DATA = {
     },
     "LUIZ RIGLER": {
       "Jul/26": {
-        "fat": 18419.6,
+        "fat": 20324.0,
         "pos": 6.0,
-        "fat_pernod": 11090.4
+        "fat_pernod": 12994.8
       },
       "Jun/26": {
         "fat": 20314.9,
@@ -91413,9 +92565,9 @@ const VENDAS_SP_DATA = {
     },
     "FERNANDO BERTIN": {
       "Jul/26": {
-        "fat": 60704.28,
+        "fat": 64186.08,
         "pos": 9.0,
-        "fat_pernod": 43112.0,
+        "fat_pernod": 44381.6,
         "fat_crs": 3236.4
       },
       "Jun/26": {
@@ -91427,9 +92579,9 @@ const VENDAS_SP_DATA = {
     },
     "DOUGLAS TEIXEIRA": {
       "Jul/26": {
-        "fat": 10525.36,
+        "fat": 16981.36,
         "pos": 3.0,
-        "fat_pernod": 5510.0,
+        "fat_pernod": 11966.0,
         "fat_crs": 1438.56
       },
       "Jun/26": {
@@ -91461,10 +92613,10 @@ const VENDAS_SP_DATA = {
     },
     "CAROLINA SOUZA": {
       "Jul/26": {
-        "fat": 1838.26,
-        "pos": 3.0,
-        "fat_pernod": 677.7,
-        "fat_crs": 647.28
+        "fat": 3213.94,
+        "pos": 5.0,
+        "fat_pernod": 1203.3,
+        "fat_crs": 1294.56
       },
       "Jun/26": {
         "fat": 16518.11,
@@ -91513,9 +92665,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jul/26": {
-        "fat": 786298.01,
-        "pos": 56.0,
-        "fat_pernod": 582975.7,
+        "fat": 889006.01,
+        "pos": 60.0,
+        "fat_pernod": 676471.3,
         "fat_crs": 7424.18
       },
       "Jun/26": {
