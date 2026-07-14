@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "14/07/2026 15:10",
+  "atualizado_em": "14/07/2026 15:51",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -67252,6 +67252,16 @@ const VENDAS_DATA = {
           "qt": 3,
           "valor": 381.0,
           "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "95609",
+          "cliente": "DM DEPOSITO COMERCIO DE BEBIDAS LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 358.8,
+          "tipo": "Venda"
         }
       ],
       "Abr/26": [
@@ -123182,6 +123192,66 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "14/07/2026",
+          "codcli": "94429",
+          "cliente": "CATETE COMERCIO DE DOCES E BISCOITOS LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 38.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "94429",
+          "cliente": "CATETE COMERCIO DE DOCES E BISCOITOS LTDA",
+          "produto": "PINATI SLIM WHEY BEIJINHO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 48.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "94429",
+          "cliente": "CATETE COMERCIO DE DOCES E BISCOITOS LTDA",
+          "produto": "PINATI SLIM WHEY BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 48.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "94429",
+          "cliente": "CATETE COMERCIO DE DOCES E BISCOITOS LTDA",
+          "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 51.49,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "94429",
+          "cliente": "CATETE COMERCIO DE DOCES E BISCOITOS LTDA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 38.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "94429",
+          "cliente": "CATETE COMERCIO DE DOCES E BISCOITOS LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 38.9,
+          "tipo": "Venda"
+        },
+        {
           "data": "13/07/2026",
           "codcli": "94757",
           "cliente": "ALDIR CALDAS DO NASCIMENTO 03407917724",
@@ -158760,6 +158830,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "14/07/2026",
+          "codcli": "9196",
+          "cliente": "SILMAS DE BUZIOS DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "SMIRNOFF RED PET 1750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 18,
+          "valor": 898.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "9196",
+          "cliente": "SILMAS DE BUZIOS DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 898.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "9196",
+          "cliente": "SILMAS DE BUZIOS DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 359.52,
+          "tipo": "Venda"
+        },
+        {
           "data": "01/07/2026",
           "codcli": "18987",
           "cliente": "R MACHARETE NETTO EVENTOS",
@@ -159174,6 +159274,36 @@ const VENDAS_DATA = {
           "codcli": "55381",
           "cliente": "THE DUCK BAR E RESTAURANTE LTDA",
           "produto": "RED BULL CEREJA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 179.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "55381",
+          "cliente": "THE DUCK BAR E RESTAURANTE LTDA",
+          "produto": "RED BULL CEREJA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 179.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "55381",
+          "cliente": "THE DUCK BAR E RESTAURANTE LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 179.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "55381",
+          "cliente": "THE DUCK BAR E RESTAURANTE LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 179.76,
@@ -160357,6 +160487,16 @@ const VENDAS_DATA = {
           "fantasia": "BOAZINHA",
           "qt": 6,
           "valor": 245.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "90632",
+          "cliente": "QUIOSQUE DO BAIANO BAR LTDA",
+          "produto": "GIN TANQUERAY BOSSA NOVA 700 ML",
+          "fantasia": "DIAGEO",
+          "qt": 4,
+          "valor": 359.6,
           "tipo": "Venda"
         },
         {
@@ -205728,6 +205868,16 @@ const VENDAS_DATA = {
           "qt": 12,
           "valor": 598.8,
           "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "78075",
+          "cliente": "HUNA BISTRO LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 0.0,
+          "tipo": "Bonificado"
         },
         {
           "data": "09/07/2026",
@@ -351675,9 +351825,9 @@ const VENDAS_DATA = {
           "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
           "produto": "VINHO FREIXO RESERVA TINTO 750ML",
           "fantasia": "",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado"
+          "qt": 8,
+          "valor": 1999.2,
+          "tipo": "Venda"
         },
         {
           "data": "19/05/2026",
@@ -351685,9 +351835,9 @@ const VENDAS_DATA = {
           "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
           "produto": "VINHO FREIXO RESERVA TINTO 750ML",
           "fantasia": "",
-          "qt": 8,
-          "valor": 1999.2,
-          "tipo": "Venda"
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
         },
         {
           "data": "19/05/2026",
@@ -458543,6 +458693,274 @@ const VENDAS_DATA = {
         }
       ]
     },
+    "MARCUS TANAMACHI - OFF TRADE": {
+      "Jul/26": [
+        {
+          "data": "14/07/2026",
+          "codcli": "46386",
+          "cliente": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 960,
+          "valor": 45024.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "46386",
+          "cliente": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 168,
+          "valor": 7879.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "46386",
+          "cliente": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 4320,
+          "valor": 233280.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "46386",
+          "cliente": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
+          "produto": "GIN BEEFEATER PINK 750ML",
+          "fantasia": "PERNOD",
+          "qt": 680,
+          "valor": 36720.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "46386",
+          "cliente": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 2400,
+          "valor": 112560.0,
+          "tipo": "Venda"
+        }
+      ],
+      "Abr/26": [
+        {
+          "data": "15/04/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 1200,
+          "valor": 23988.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+          "fantasia": "PERNOD",
+          "qt": 3288,
+          "valor": 65727.12,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1000 ML",
+          "fantasia": "PERNOD",
+          "qt": 3048,
+          "valor": 60929.52,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "GIN ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 36,
+          "valor": 1221.48,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "GIN ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 456,
+          "valor": 15472.08,
+          "tipo": "Venda"
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "WHISKY NATU NOBILIS",
+          "fantasia": "PERNOD",
+          "qt": 240,
+          "valor": 6696.0,
+          "tipo": "Venda"
+        }
+      ],
+      "Mai/26": [
+        {
+          "data": "28/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "WHISKY NATU NOBILIS",
+          "fantasia": "PERNOD",
+          "qt": 48,
+          "valor": 1339.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
+          "fantasia": "PERNOD",
+          "qt": 120,
+          "valor": 9588.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 10080,
+          "valor": 311472.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 1440,
+          "valor": 28785.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "26/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "WHISKY BALLANTINE'S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 3360,
+          "valor": 154224.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "CACHACA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 8640,
+          "valor": 177033.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 720,
+          "valor": 13608.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 3000,
+          "valor": 76470.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 480,
+          "valor": 43152.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "VODKA ABSOLUT 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 360,
+          "valor": 19404.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 240,
+          "valor": 15816.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "BEEFEATER PINK 700ML",
+          "fantasia": "PERNOD",
+          "qt": 240,
+          "valor": 16776.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "BALLANTINES SWEET BLEND 700ML",
+          "fantasia": "PERNOD",
+          "qt": 90,
+          "valor": 4941.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
+          "fantasia": "PERNOD",
+          "qt": 408,
+          "valor": 11199.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "47425",
+          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
+          "produto": "GIN ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 480,
+          "valor": 16286.4,
+          "tipo": "Venda"
+        }
+      ]
+    },
     "MARCELO PEREIRA - OFF TRADE": {
       "Mai/26": [
         {
@@ -458973,222 +459391,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 3600,
           "valor": 194040.0,
-          "tipo": "Venda"
-        }
-      ]
-    },
-    "MARCUS TANAMACHI - OFF TRADE": {
-      "Abr/26": [
-        {
-          "data": "15/04/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "PERNOD",
-          "qt": 1200,
-          "valor": 23988.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-          "fantasia": "PERNOD",
-          "qt": 3288,
-          "valor": 65727.12,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "RUM MONTILLA CRISTAL 1000 ML",
-          "fantasia": "PERNOD",
-          "qt": 3048,
-          "valor": 60929.52,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "GIN ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 36,
-          "valor": 1221.48,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "GIN ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 456,
-          "valor": 15472.08,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/04/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "WHISKY NATU NOBILIS",
-          "fantasia": "PERNOD",
-          "qt": 240,
-          "valor": 6696.0,
-          "tipo": "Venda"
-        }
-      ],
-      "Mai/26": [
-        {
-          "data": "28/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "WHISKY NATU NOBILIS",
-          "fantasia": "PERNOD",
-          "qt": 48,
-          "valor": 1339.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 120,
-          "valor": 9588.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 10080,
-          "valor": 311472.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "RUM MONTILLA OURO 1000ML",
-          "fantasia": "PERNOD",
-          "qt": 1440,
-          "valor": 28785.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "26/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 3360,
-          "valor": 154224.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "CACHACA SAO FRANCISCO 970ML",
-          "fantasia": "PERNOD",
-          "qt": 8640,
-          "valor": 177033.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "VODKA ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 720,
-          "valor": 13608.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 3000,
-          "valor": 76470.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "fantasia": "PERNOD",
-          "qt": 480,
-          "valor": 43152.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "VODKA ABSOLUT 1 LITRO",
-          "fantasia": "PERNOD",
-          "qt": 360,
-          "valor": 19404.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 240,
-          "valor": 15816.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "BEEFEATER PINK 700ML",
-          "fantasia": "PERNOD",
-          "qt": 240,
-          "valor": 16776.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "BALLANTINES SWEET BLEND 700ML",
-          "fantasia": "PERNOD",
-          "qt": 90,
-          "valor": 4941.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 408,
-          "valor": 11199.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "47425",
-          "cliente": "COMERCIAL ESPERANCA ATACADISTA IMPORTACAO E EXPORTACAO LTDA",
-          "produto": "GIN ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 480,
-          "valor": 16286.4,
           "tipo": "Venda"
         }
       ]
