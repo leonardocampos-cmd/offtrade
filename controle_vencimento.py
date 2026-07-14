@@ -86,6 +86,18 @@ def _salvar_registros(registros: dict):
     DATA_FILE.write_text(json.dumps(registros, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def _data_br(iso_str: str) -> str:
+    """Formata data ISO (YYYY-MM-DD, usada internamente pro <input type=date>
+    e pra ordenação por string) como dd/mm/aa pra exibição."""
+    try:
+        return datetime.strptime(iso_str, "%Y-%m-%d").strftime("%d/%m/%y")
+    except (ValueError, TypeError):
+        return iso_str
+
+
+app.jinja_env.filters["data_br"] = _data_br
+
+
 @bp.route("/")
 def index():
     return render_template("vencimento_registrar.html")
@@ -190,7 +202,7 @@ def exportar():
     for r in registros:
         writer.writerow([
             r["data_registro"], r["codprod"], r["produto"],
-            int(r["qtd"]), r["data_vencimento"], r["chave_unica"],
+            int(r["qtd"]), _data_br(r["data_vencimento"]), r["chave_unica"],
         ])
 
     nome_arquivo = f"registros_vencimento_{datetime.now().strftime('%Y%m%d_%H%M')}.csv"
