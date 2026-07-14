@@ -379,7 +379,7 @@ function buildGerentesSection() {
         const sqt  = qtMes(sup.por_mes);
         const si   = idx++;
 
-        const vendRows = [...sup.vendedores].sort((a, b) => fatMes(b.por_mes) - fatMes(a.por_mes)).map(vend => {
+        const vendRows = [...sup.vendedores].sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR')).map(vend => {
           const vfat = fatMes(vend.por_mes);
           const vqt  = qtMes(vend.por_mes);
           const vEst = vend.estado ? `<span class="estado-pill ${vend.estado.toLowerCase()}">${vend.estado}</span>` : '';

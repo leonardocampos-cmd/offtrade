@@ -137,6 +137,7 @@
           <td>{{ r.data_vencimento | data_br }}</td>
           <td class="chave">{{ r.chave_unica }}</td>
           <td>
+            {% if e_de_hoje(r) %}
             <div class="acoes">
               <a class="acao-btn acao-editar" href="{{ url_for('vencimento.editar_form', chave=r.chave_unica) }}">Editar</a>
               <form method="POST" action="{{ url_for('vencimento.excluir', chave=r.chave_unica) }}"
@@ -144,6 +145,9 @@
                 <button type="submit" class="acao-btn acao-excluir">Excluir</button>
               </form>
             </div>
+            {% else %}
+            <span style="font-size:.72rem;color:var(--muted)" title="Só é possível editar/excluir registros criados hoje">&mdash;</span>
+            {% endif %}
           </td>
         </tr>
         {% endfor %}

@@ -72,7 +72,8 @@
       border-radius: 8px; font-size: .95rem; font-weight: 700;
       cursor: pointer; transition: opacity .15s; font-family: inherit;
     }
-    .btn-salvar:hover { opacity: .88; }
+    .btn-salvar:hover:not(:disabled) { opacity: .88; }
+    .btn-salvar:disabled { opacity: .4; cursor: not-allowed; }
   </style>
 </head>
 <body>
@@ -92,7 +93,10 @@
       <div class="grid-2">
         <div>
           <label for="data_vencimento">Data de vencimento</label>
-          <input class="field-input" type="date" id="data_vencimento" name="data_vencimento" value="{{ r.data_vencimento }}" required>
+          <input class="field-input" type="text" id="data_vencimento" name="data_vencimento"
+                 inputmode="numeric" placeholder="dd/mm/aaaa" maxlength="10"
+                 pattern="\d{2}/\d{2}/\d{4}" autocomplete="off"
+                 value="{{ r.data_vencimento | data_br_full }}" required>
         </div>
         <div>
           <label for="qtd">Quantidade</label>
@@ -100,8 +104,33 @@
         </div>
       </div>
 
-      <button class="btn-salvar" type="submit">Salvar alterações</button>
+      <button class="btn-salvar" type="submit" id="btn-salvar">Salvar alterações</button>
     </form>
   </div>
+
+  <script>
+    function maskData(e) {
+      let v = e.target.value.replace(/\D/g, '').slice(0, 8);
+      if (v.length > 4) v = v.slice(0, 2) + '/' + v.slice(2, 4) + '/' + v.slice(4);
+      else if (v.length > 2) v = v.slice(0, 2) + '/' + v.slice(2);
+      e.target.value = v;
+      atualizarBotao();
+    }
+
+    function dataValida(str) {
+      const m = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(str || '');
+      if (!m) return false;
+      const [, d, mo, y] = m.map(Number);
+      const dt = new Date(y, mo - 1, d);
+      return dt.getFullYear() === y && dt.getMonth() === mo - 1 && dt.getDate() === d;
+    }
+
+    function atualizarBotao() {
+      document.getElementById('btn-salvar').disabled = !dataValida(document.getElementById('data_vencimento').value);
+    }
+
+    document.getElementById('data_vencimento').addEventListener('input', maskData);
+    atualizarBotao();
+  </script>
 </body>
 </html>

@@ -227,7 +227,7 @@ def _realizado_mes(df):
                  fat_pernod=0.0,
                  pos_tt=0, pos_hob_azeite=0, pos_reckit=0, pos_crusoe=0,
                  pos_tatuzinho=0, pos_redbull=0, pos_pinatti=0, pos_essenza_hob=0,
-                 bonus_pernod=0.0, pos_pernod=0)
+                 bonus_pernod=0.0, pos_pernod=0, industrias=0)
     if df.empty:
         return _zero
 
@@ -268,6 +268,7 @@ def _realizado_mes(df):
         'pos_essenza_hob':     pos(mask_essenza_hob),
         'bonus_pernod':        bonus_pernod,
         'pos_pernod':          pos_pernod,
+        'industrias':          int(df[df['FANTASIA'] != '']['FANTASIA'].nunique()),
     }
 
 # ── Histórico mensal agregado (para gráficos) ─────────────────────────────────
@@ -436,6 +437,7 @@ for _, m in metas_com_nome.iterrows():
         'pos_essenza_hob':     {'meta': safe_int(m.get('POSITIVAÇÃO ESSENZA+HOB')),     'realizado': real['pos_essenza_hob']},
         'bonus_pernod':        {'meta': 0, 'realizado': real['bonus_pernod']},
         'pos_pernod':          {'meta': 0, 'realizado': real['pos_pernod']},
+        'industrias':          {'meta': 0, 'realizado': real['industrias']},
     }
 
 vendedores_out = list(vendedores_dict.values())

@@ -129,7 +129,9 @@
       <div class="grid-2">
         <div>
           <label for="data_vencimento">Data de vencimento</label>
-          <input class="field-input" type="date" id="data_vencimento" name="data_vencimento" required>
+          <input class="field-input" type="text" id="data_vencimento" name="data_vencimento"
+                 inputmode="numeric" placeholder="dd/mm/aaaa" maxlength="10"
+                 pattern="\d{2}/\d{2}/\d{4}" autocomplete="off" required>
         </div>
         <div>
           <label for="qtd">Quantidade</label>
@@ -154,8 +156,24 @@
 
     let debounceTimer = null;
 
+    function maskData(e) {
+      let v = e.target.value.replace(/\D/g, '').slice(0, 8);
+      if (v.length > 4) v = v.slice(0, 2) + '/' + v.slice(2, 4) + '/' + v.slice(4);
+      else if (v.length > 2) v = v.slice(0, 2) + '/' + v.slice(2);
+      e.target.value = v;
+      atualizarBotao();
+    }
+
+    function dataValida(str) {
+      const m = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(str || '');
+      if (!m) return false;
+      const [, d, mo, y] = m.map(Number);
+      const dt = new Date(y, mo - 1, d);
+      return dt.getFullYear() === y && dt.getMonth() === mo - 1 && dt.getDate() === d;
+    }
+
     function atualizarBotao() {
-      btnSalvar.disabled = !(codprodInput.value && document.getElementById('data_vencimento').value && document.getElementById('qtd').value);
+      btnSalvar.disabled = !(codprodInput.value && dataValida(document.getElementById('data_vencimento').value) && document.getElementById('qtd').value);
     }
 
     busca.addEventListener('input', () => {
@@ -205,7 +223,7 @@
       atualizarBotao();
     });
 
-    document.getElementById('data_vencimento').addEventListener('change', atualizarBotao);
+    document.getElementById('data_vencimento').addEventListener('input', maskData);
     document.getElementById('qtd').addEventListener('input', atualizarBotao);
 
     document.addEventListener('click', (e) => {

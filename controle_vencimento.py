@@ -11,6 +11,7 @@ Uso local: python controle_vencimento.py  (abre em http://localhost:5050/vencime
 Na VPS roda atrás do nginx, sob offtrade.duckdns.org/vencimento/ (ver deploy_vencimento_vps.py).
 """
 import os
+import re
 import csv
 import io
 import json
@@ -87,15 +88,46 @@ def _salvar_registros(registros: dict):
 
 
 def _data_br(iso_str: str) -> str:
-    """Formata data ISO (YYYY-MM-DD, usada internamente pro <input type=date>
-    e pra ordenação por string) como dd/mm/aa pra exibição."""
+    """Formata data ISO (YYYY-MM-DD, usada internamente pra ordenação por
+    string) como dd/mm/aa pra exibição."""
     try:
         return datetime.strptime(iso_str, "%Y-%m-%d").strftime("%d/%m/%y")
     except (ValueError, TypeError):
         return iso_str
 
 
+def _data_br_full(iso_str: str) -> str:
+    """Formata data ISO como dd/mm/aaaa (4 dígitos) — usado pra pré-preencher
+    o campo de texto editável, que exige esse formato exato pra salvar."""
+    try:
+        return datetime.strptime(iso_str, "%Y-%m-%d").strftime("%d/%m/%Y")
+    except (ValueError, TypeError):
+        return iso_str
+
+
+def _parse_data_br(txt: str) -> str:
+    """Valida dd/mm/aaaa digitado pelo usuário e converte pra ISO (YYYY-MM-DD),
+    formato usado internamente pra ordenação/chave. Levanta ValueError se o
+    texto não bater exatamente com dd/mm/aaaa ou não for uma data real."""
+    txt = (txt or "").strip()
+    if not re.fullmatch(r"\d{2}/\d{2}/\d{4}", txt):
+        raise ValueError(f"Data inválida: '{txt}' — use o formato dd/mm/aaaa.")
+    return datetime.strptime(txt, "%d/%m/%Y").strftime("%Y-%m-%d")
+
+
+def _e_de_hoje(registro: dict) -> bool:
+    """Só permite editar/excluir registros criados hoje (data_registro,
+    formato dd/mm/aaaa HH:MM) — registros de dias anteriores ficam travados."""
+    try:
+        dt = datetime.strptime(registro["data_registro"], "%d/%m/%Y %H:%M")
+        return dt.date() == datetime.now().date()
+    except (ValueError, KeyError, TypeError):
+        return False
+
+
 app.jinja_env.filters["data_br"] = _data_br
+app.jinja_env.filters["data_br_full"] = _data_br_full
+app.jinja_env.globals["e_de_hoje"] = _e_de_hoje
 
 
 @bp.route("/")
@@ -113,7 +145,10 @@ def salvar():
     codprod = request.form["codprod"].strip()
     descricao = request.form["descricao"].strip()
     qtd = request.form["qtd"].strip()
-    data_vencimento = request.form["data_vencimento"].strip()
+    try:
+        data_vencimento = _parse_data_br(request.form["data_vencimento"])
+    except ValueError as e:
+        return str(e), 400
 
     chave = f"{codprod}-{data_vencimento}"
     registros = _carregar_registros()
@@ -153,18 +188,27 @@ def editar_form(chave):
     registro = _carregar_registros().get(chave)
     if not registro:
         abort(404)
+    if not _e_de_hoje(registro):
+        abort(403, "Só é possível editar registros criados hoje.")
     return render_template("vencimento_editar.html", r=registro)
 
 
 @bp.route("/editar/<chave>", methods=["POST"])
 def editar_salvar(chave):
     registros = _carregar_registros()
-    registro = registros.pop(chave, None)
+    registro = registros.get(chave)
     if not registro:
         abort(404)
+    if not _e_de_hoje(registro):
+        abort(403, "Só é possível editar registros criados hoje.")
+    registro = registros.pop(chave)
 
     qtd = float(request.form["qtd"])
-    nova_data = request.form["data_vencimento"].strip()
+    try:
+        nova_data = _parse_data_br(request.form["data_vencimento"])
+    except ValueError as e:
+        registros[chave] = registro  # desfaz o pop
+        return str(e), 400
     nova_chave = f"{registro['codprod']}-{nova_data}"
     agora = datetime.now().strftime("%d/%m/%Y %H:%M")
 
@@ -186,7 +230,12 @@ def editar_salvar(chave):
 @bp.route("/excluir/<chave>", methods=["POST"])
 def excluir(chave):
     registros = _carregar_registros()
-    registros.pop(chave, None)
+    registro = registros.get(chave)
+    if not registro:
+        abort(404)
+    if not _e_de_hoje(registro):
+        abort(403, "Só é possível excluir registros criados hoje.")
+    registros.pop(chave)
     _salvar_registros(registros)
     return redirect(url_for("vencimento.listagem", excluido=1))
 

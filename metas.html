@@ -245,6 +245,12 @@
     .bar-yellow { background: var(--yellow); }
     .bar-red { background: var(--red); }
 
+    .metas-grid { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 10px; }
+    .meta-kpi { flex: 1; min-width: 130px; background: var(--card2); border-radius: 8px; padding: 10px 12px; }
+    .meta-kpi-label { font-size: .65rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 6px; }
+    .meta-kpi-vals  { font-size: .82rem; font-weight: 600; }
+    .meta-kpi-sub   { font-size: .68rem; color: var(--muted); margin-top: 2px; }
+
     /* Detail */
     .detail-header {
       background: var(--card);
@@ -1260,17 +1266,17 @@ function renderDetail(v, mes) {
         <span id="sec-metas-ic" class="sec-ic open">&#9660;</span>
       </div>
       <div id="sec-metas" class="sec-body open">
-        <div class="vendas-kpis" style="margin-top:12px">
-          <div><div class="kpi-label">Faturamento</div><div class="kpi-val">${fmtFat(r('fat_tt'))}</div>
-            ${m('fat_tt') ? `<div style="font-size:.68rem;color:var(--muted)">Meta: ${fmtFat(m('fat_tt'))}</div>` : ''}
-            ${_necHtml('fat_tt', fmtFat)}</div>
-          <div><div class="kpi-label">Positivação</div><div class="kpi-val">${r('pos_tt')}</div>
-            ${m('pos_tt') ? `<div style="font-size:.68rem;color:var(--muted)">Meta: ${m('pos_tt')}</div>` : ''}
-            ${_necHtml('pos_tt', v2 => Number(v2).toFixed(1) + ' clientes')}</div>
-          <div><div class="kpi-label">Cadastros</div><div class="kpi-val">${v.clientes_cadastrados || 0}</div></div>
+        <div class="metas-grid" style="margin-top:12px">
+          ${_metaKpi('Faturamento', m('fat_tt') > 0 ? r('fat_tt') : _fatVendasMes(v.nome, mes), m('fat_tt'), 'fat')}
+          ${_metaKpi('Positivação', m('pos_tt') > 0 ? r('pos_tt') : _posVendasMes(v.nome, mes), m('pos_tt'), 'pos')}
+          ${_statKpi('Indústrias', r('industrias'))}
         </div>
-        ${buildBar('Fat. Total',         r('fat_tt'),              m('fat_tt'),              'fat')}
-        ${buildBar('Pos. Total',         r('pos_tt'),              m('pos_tt'),              'pos')}
+        ${_necHtml('fat_tt', fmtFat)}
+        ${_necHtml('pos_tt', v2 => Number(v2).toFixed(1) + ' clientes')}
+        <div class="stat-row">
+          <span class="stat-label">Cadastros no mês</span>
+          <span class="stat-val">${v.clientes_cadastrados || 0}</span>
+        </div>
         ${m('fat_castas')          > 0 ? buildBar('Castas',          r('fat_castas'),          m('fat_castas'),          'fat') : ''}
         ${m('fat_hob_azeite')      > 0 ? buildBar('HOB + Azeite',    r('fat_hob_azeite'),      m('fat_hob_azeite'),      'fat') : ''}
         ${m('fat_domecq_passport') > 0 ? buildBar('Domecq+Passport', r('fat_domecq_passport'), m('fat_domecq_passport'), 'fat') : ''}
@@ -1328,13 +1334,14 @@ function renderDetail(v, mes) {
     return !_comprou.has((c.CLIENTE || '').trim().toUpperCase());
   });
   const _nNP = _npList.length;
+  const _nCad = v.clientes_cadastrados || 0;
   const npHtml = `
     <div class="detail-card">
       <div class="sec-header" onclick="toggleSec('sec-np')">
         <div>
           <div class="sec-title" style="color:var(--red)">N&atilde;o positivados</div>
           <div class="sec-meta" style="color:${_nNP > 0 ? 'var(--red)' : 'var(--green)'}">
-            ${_nNP > 0 ? _nNP + ' cliente' + (_nNP !== 1 ? 's' : '') : 'Todos positivados &#10003;'}
+            ${_nNP > 0 ? _nNP + ' cliente' + (_nNP !== 1 ? 's' : '') : 'Todos positivados &#10003;'}${_nCad > 0 ? ` &middot; ${_nNP}/${_nCad} cadastrados` : ''}
           </div>
         </div>
         <span id="sec-np-ic" class="sec-ic open">&#9660;</span>
@@ -1926,17 +1933,42 @@ function toggleCardSec(id) {
 
 function toggleSec(id) { toggleCardSec(id); }
 
-function _buildCardBar(label, real, meta) {
-  if (!meta || meta <= 0) return '';
-  const p   = pct(real, meta);
+function _metaKpi(label, real, meta, tipo) {
+  if (!meta || meta <= 0) return _statKpi(label, fmt(real, tipo));
+  const p   = Math.min(Math.round(pct(real, meta)), 999);
   const cls = pctClass(p);
-  const pD  = p > 999 ? '>999' : Math.round(p);
-  const colorMap = { green: 'var(--green)', yellow: 'var(--yellow)', red: 'var(--red)' };
+  return `<div class="meta-kpi">
+    <div class="meta-kpi-label">${label}</div>
+    <div class="meta-kpi-vals pct-${cls}">${fmt(real, tipo)}</div>
+    <div class="meta-kpi-sub">Meta: ${fmt(meta, tipo)} &middot; <span class="pct-${cls}">${p}%</span></div>
+    <div class="bar-bg" style="margin-top:6px"><div class="bar-fill bar-${cls}" style="width:${Math.min(p,100)}%"></div></div>
+  </div>`;
+}
+
+function _statKpi(label, val) {
+  return `<div class="meta-kpi">
+    <div class="meta-kpi-label">${label}</div>
+    <div class="meta-kpi-vals">${val}</div>
+  </div>`;
+}
+
+function _buildLinhaMeta(label, real, meta, tipo) {
+  if (!meta || meta <= 0) {
+    // Sem meta cadastrada pro mês (ex: vendedor novo/sem linha na planilha
+    // ainda) — mostra o valor realizado mesmo assim, só sem badge/barra de %.
+    return `<div class="stat-row">
+      <span class="stat-label">${label}</span>
+      <span class="stat-val">${fmt(real, tipo)}</span>
+    </div>`;
+  }
+  const p   = Math.min(Math.round(pct(real, meta)), 999);
+  const cls = pctClass(p);
   return `<div style="margin:3px 0 10px">
-    <div style="display:flex;justify-content:space-between;font-size:.68rem;color:var(--muted);margin-bottom:3px">
-      <span>${label}</span>
-      <span style="font-weight:700;color:${colorMap[cls]||'var(--muted)'}">${pD}%</span>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:3px">
+      <span class="stat-label">${label}</span>
+      <span class="pct-badge pct-${cls}">${p}%</span>
     </div>
+    <div style="font-size:.78rem;color:var(--muted);margin-bottom:4px">${fmt(real, tipo)} / ${fmt(meta, tipo)}</div>
     <div class="bar-bg"><div class="bar-fill bar-${cls}" style="width:${Math.min(p,100)}%"></div></div>
   </div>`;
 }
@@ -1946,27 +1978,30 @@ function _fatVendasMes(nomeVendedor, mes) {
   return ((VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || []).reduce((s, x) => s + x.valor, 0);
 }
 
+function _posVendasMes(nomeVendedor, mes) {
+  if (typeof VENDAS_DATA === 'undefined') return 0;
+  const vendas = (VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || [];
+  return new Set(vendas.map(x => x.codcli || x.cliente)).size;
+}
+
 function _buildCards(vendedores, mes) {
   return vendedores.map((v, idx) => {
-    const pm   = _pm(v, mes);
-    const fatM = _mv(pm, 'fat_tt', 'meta');
-    const fat  = fatM > 0 ? _mv(pm, 'fat_tt', 'realizado') : _fatVendasMes(v.nome, mes);
-    const pos  = _mv(pm, 'pos_tt', 'realizado');
-    const posM = _mv(pm, 'pos_tt', 'meta');
+    const pm    = _pm(v, mes);
+    const fatM  = _mv(pm, 'fat_tt', 'meta');
+    const fat   = fatM > 0 ? _mv(pm, 'fat_tt', 'realizado') : _fatVendasMes(v.nome, mes);
+    const posM  = _mv(pm, 'pos_tt', 'meta');
+    const pos   = posM > 0 ? _mv(pm, 'pos_tt', 'realizado') : _posVendasMes(v.nome, mes);
+    const indus = _mv(pm, 'industrias', 'realizado');
     return `
       <div class="vendor-card" data-nome="${v.nome.toLowerCase()}" data-rca="${v.rca}">
         <div class="vendor-name">${v.nome}</div>
         <div class="vendor-rca">RCA ${v.rca}</div>
+        ${_buildLinhaMeta('Faturamento', fat, fatM, 'fat')}
+        ${_buildLinhaMeta('Positivação', pos, posM, 'pos')}
         <div class="stat-row">
-          <span class="stat-label">Faturamento</span>
-          <span class="stat-val">${fmtFat(fat)} <span style="font-size:.7rem;color:var(--muted)">/ ${fmtFat(fatM)}</span></span>
+          <span class="stat-label">Indústrias</span>
+          <span class="stat-val">${indus}</span>
         </div>
-        ${_buildCardBar('Fat. vs Meta', fat, fatM)}
-        <div class="stat-row">
-          <span class="stat-label">Positivação</span>
-          <span class="stat-val">${pos} <span style="font-size:.7rem;color:var(--muted)">/ ${posM}</span></span>
-        </div>
-        ${_buildCardBar('Pos. vs Meta', pos, posM)}
         <div class="stat-row">
           <span class="stat-label">Cadastros no mês</span>
           <span class="stat-val">${v.clientes_cadastrados || 0}</span>

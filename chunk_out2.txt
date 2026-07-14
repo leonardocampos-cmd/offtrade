@@ -1,7 +1,0 @@
-
-  File "G:\Meu Drive\offtrade\alerta_logistica_rj.py", line 23, in <module>
-
-    from bs4 import BeautifulSoup
-
-ModuleNotFoundError: No module named 'bs4'
-
