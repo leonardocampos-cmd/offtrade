@@ -7,6 +7,7 @@
   <script src="metas_data.js"></script>
   <script src="vendas_data.js"></script>
   <script src="amarula_data.js"></script>
+  <script src="crusoe_data.js"></script>
   <script src="gerentes_data.js"></script>
   <script src="fontes_status_data.js"></script>
   <script src="fontes_alert.js"></script>
@@ -1318,7 +1319,7 @@ function renderDetail(v, mes) {
     </div>`;
 
   // ── Seção: Campanhas ──────────────────────────────────────
-  const _campConteudo = buildAllCampanhas(v) + buildAmarulaDetail(v, mes) + buildMovingDetail(v, mes);
+  const _campConteudo = buildAllCampanhas(v) + buildAmarulaDetail(v, mes) + buildMovingDetail(v, mes) + buildCrusoeDetail(v, mes);
   const campanhasHtml = _campConteudo.trim().length > 80 ? `
     <div class="detail-card">
       <div class="sec-header" onclick="toggleSec('sec-camp')">
@@ -1831,6 +1832,59 @@ function buildMovingDetail(v, mes) {
     </div>`;
 }
 
+function buildCrusoeDetail(v, mes) {
+  if (typeof CRUSOE_DATA === 'undefined') return '';
+  const periodoMeses = ['Jul/26', 'Ago/26'];
+  if (mes && !periodoMeses.includes(mes)) return '';
+
+  let time = null, entry = null, idx = -1;
+  for (const t of CRUSOE_DATA.times) {
+    const i = t.vendedores.findIndex(x => String(x.rca) === String(v.rca));
+    if (i >= 0) { time = t; entry = t.vendedores[i]; idx = i; break; }
+  }
+  if (!entry) return '';
+
+  const medals  = ['🥇', '🥈', '🥉'];
+  const rankTxt = idx < 3 ? `${medals[idx]} ${idx + 1}º lugar` : `${idx + 1}º lugar`;
+  const prizeSpan = idx === 0 ? `<span class="campanha-rank-prize">${fmtFat(time.premio)}</span>` : '';
+
+  const rows = [];
+  function linha(label, valor) {
+    rows.push(`<div class="campanha-detail-row"><span style="color:var(--muted);font-size:0.78rem">${label}</span><span>${valor}</span></div>`);
+  }
+
+  if (time.id === 'KEY_ACCOUNT') {
+    linha('Pedidos', `${entry.pedidos} <span style="color:var(--muted);font-size:.72rem">(${entry.pontos_pedidos} pts)</span>`);
+    linha('Novos SKUs', `${entry.novos_skus} <span style="color:var(--muted);font-size:.72rem">(${entry.pontos_novos_skus} pts)</span>`);
+    linha('Reativações', `${entry.reativacoes} <span style="color:var(--muted);font-size:.72rem">(${entry.pontos_reativacoes} pts)</span>`);
+    if (entry.meta_definida) {
+      linha('Meta faturamento', `${entry.meta_atingida ? '✓ batida' : 'não batida'} <span style="color:var(--muted);font-size:.72rem">(${entry.pontos_meta} pts)</span>`);
+    }
+  } else if (time.id === 'ATACAREJO') {
+    linha('Positivações', `${entry.positivacoes} <span style="color:var(--muted);font-size:.72rem">(${entry.pontos_positivacao} pts)</span>`);
+    linha('Novos SKUs', `${entry.novos_skus} <span style="color:var(--muted);font-size:.72rem">(${entry.pontos_novos_skus} pts)</span>`);
+    linha('Pontos por valor de pedido', `${entry.pontos_pedidos_valor} pts`);
+  } else {
+    linha('Clientes Linha Gourmet', entry.clientes_gourmet);
+    linha('Fat. Linha Gourmet', fmtFat(entry.faturamento_gourmet));
+  }
+  linha('Faturamento Crusoe', fmtFat(entry.faturamento));
+
+  return `
+    <div class="campanha-detail-box" style="border-color:#8b5cf655;background:#160f24">
+      <div class="campanha-detail-title" style="color:#a78bfa">Campanha Robinson Crusoe &middot; ${time.nome} &middot; ${CRUSOE_DATA.periodo.ini}–${CRUSOE_DATA.periodo.fim}</div>
+      ${rows.join('')}
+      <div class="campanha-detail-row">
+        <span style="font-weight:700">Total de pontos</span>
+        <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
+          <span class="campanha-rank-val">${entry.pontos_total} pts</span>
+          <span style="font-weight:700">${rankTxt}</span>
+          ${prizeSpan}
+        </span>
+      </div>
+    </div>`;
+}
+
 // ── Filtro Gerente / Supervisor ───────────────────────────────────────────────
 
 const _ESTADO_ATUAL = 'RJ';
@@ -2009,6 +2063,7 @@ function _buildCards(vendedores, mes) {
         ${buildCampanhaDetail(v, mes)}
         ${buildAmarulaDetail(v, mes)}
         ${buildMovingDetail(v, mes)}
+        ${buildCrusoeDetail(v, mes)}
         <div class="card-actions" style="gap:8px">
           <button class="btn" onclick="copyLink('${v.nome.replace(/'/g,"\\'")}', this)">&#128279; Link</button>
           <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>

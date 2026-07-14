@@ -11,6 +11,7 @@ from urllib.parse import quote_plus
 from sqlalchemy import create_engine
 
 from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, carregar_dados
+import baixar_planilhas_drive as _bpd
 
 # MGON nao tem engine pronto em meta.py — cria aqui, igual exportacao_metas_gerais.py
 _VPN_USER     = os.getenv("VPN_USER",     "vpn")
@@ -127,6 +128,75 @@ def _s_num(v):
     return str(int(n)) if pd.notna(n) else _s(v)
 
 
+# ── Status de logística (planilha "Controle de Notas") ────────────────────────
+# Cruza cada duplicata com o STATUS (ENTREGUE/RETORNO/CANCELADA/etc.) que a
+# logística mantém no Drive — carrega os ultimos 13 meses, o suficiente pra
+# cobrir a grande maioria dos titulos em aberto (a maior parte tem menos de
+# 90 dias de atraso); titulos muito antigos ficam sem status mesmo.
+
+_MESES_PT_STATUS = {
+    '01': 'JANEIRO', '02': 'FEVEREIRO', '03': 'MARÇO', '04': 'ABRIL',
+    '05': 'MAIO', '06': 'JUNHO', '07': 'JULHO', '08': 'AGOSTO',
+    '09': 'SETEMBRO', '10': 'OUTUBRO', '11': 'NOVEMBRO', '12': 'DEZEMBRO',
+}
+
+
+def _meses_recentes(n=13):
+    hoje = date.today()
+    ano, mes = hoje.year, hoje.month
+    meses = []
+    for _ in range(n):
+        meses.append((ano, mes))
+        mes -= 1
+        if mes == 0:
+            mes, ano = 12, ano - 1
+    return meses
+
+
+def _caminho_controle_notas_local(ano, mm):
+    upper = _MESES_PT_STATUS[mm]
+    pasta_dir = Path(
+        r"G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO"
+        r"\CONTROLE DE NOTAS"
+    ) / str(ano) / f"{mm} {upper}"
+    candidatos = list(pasta_dir.glob("*.xlsx")) if pasta_dir.exists() else []
+    return str(candidatos[0]) if candidatos else str(pasta_dir)
+
+
+_status_por_nf: dict = {}
+for _ano, _mes in _meses_recentes():
+    _mm = f"{_mes:02d}"
+    _upper = _MESES_PT_STATUS[_mm]
+    try:
+        _caminho = _bpd.com_fallback(
+            lambda mm=_mm, up=_upper: _bpd.caminho_controle_notas(mm, up),
+            _caminho_controle_notas_local(_ano, _mm),
+        )
+        _abas = pd.read_excel(_caminho, sheet_name=None)
+    except Exception as _ex:
+        print(f"[AVISO] Controle de Notas {_mm}/{_ano} indisponível ({str(_ex)[:80]}) — ignorado")
+        continue
+    for _df_aba in _abas.values():
+        if 'Nº NF' not in _df_aba.columns or 'STATUS' not in _df_aba.columns:
+            continue
+        _sub = _df_aba[['Nº NF', 'STATUS']].copy()
+        _sub['Nº NF'] = pd.to_numeric(_sub['Nº NF'], errors='coerce')
+        _sub = _sub.dropna(subset=['Nº NF'])
+        for _, _r in _sub.iterrows():
+            _status = str(_r['STATUS']).strip().upper() if pd.notna(_r['STATUS']) else ''
+            if _status:
+                _status_por_nf[int(_r['Nº NF'])] = _status
+
+print(f"Status de logística: {len(_status_por_nf)} NF(s) mapeada(s) (últimos 13 meses)")
+
+
+def _status_log(duplic):
+    try:
+        return _status_por_nf.get(int(float(duplic)), '')
+    except (ValueError, TypeError):
+        return ''
+
+
 vendedores_out = []
 for _grupo, grp in tabela_pedidos.groupby('_GRUPO'):
     titulos = []
@@ -147,6 +217,7 @@ for _grupo, grp in tabela_pedidos.groupby('_GRUPO'):
             'estado':       r['ESTADO'],
             'supervisor':   r['NOME_SUPERVISOR'],
             'gerente':      r['NOMEGERENTE'],
+            'status_log':   _status_log(r['DUPLIC']),
         })
     titulos.sort(key=lambda t: -t['dias_atraso'])
     total_aberto = round(sum(t['valor_aberto'] for t in titulos), 2)
