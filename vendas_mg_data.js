@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "14/07/2026 09:35",
+  "atualizado_em": "14/07/2026 15:14",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 82529.9,
-        "pos": 55,
+        "fat": 84039.46,
+        "pos": 57,
         "fat_ant": 343937.59
       }
     },
@@ -82,8 +82,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 64848.38,
-        "pos": 25,
+        "fat": 66416.48,
+        "pos": 29,
         "fat_ant": 168779.58
       }
     },
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 29168.8,
-        "pos": 33,
+        "fat": 33169.78,
+        "pos": 34,
         "fat_ant": 85308.22
       }
     },
@@ -45713,6 +45713,132 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 1329.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35736",
+          "cliente": "BAR E RESTAURANTE NUNES LTDA",
+          "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 1,
+          "valor": 143.76
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35736",
+          "cliente": "BAR E RESTAURANTE NUNES LTDA",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 95.88
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35736",
+          "cliente": "BAR E RESTAURANTE NUNES LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 63.92
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35736",
+          "cliente": "BAR E RESTAURANTE NUNES LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 63.92
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35736",
+          "cliente": "BAR E RESTAURANTE NUNES LTDA",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 95.88
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33631",
+          "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "LICOR FRANGELICO 700ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 109.9
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33631",
+          "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 149.7
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33631",
+          "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33631",
+          "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33631",
+          "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "XAROPE MONIN GRENADINE 700 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 149.7
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33601",
+          "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33601",
+          "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33601",
+          "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "XAROPE MONIN GRENADINE 700 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33601",
+          "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 187.8
         }
       ]
     },
@@ -53728,6 +53854,78 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 259.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35357",
+          "cliente": "SUPERMERCADO NOVOS HORIZONTES LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 119.9
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35357",
+          "cliente": "SUPERMERCADO NOVOS HORIZONTES LTDA",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 131.7
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "29892",
+          "cliente": "PARANAIBA TUPI SUPERMERCADOS LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 335.4
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "29893",
+          "cliente": "PARANAIBA SERRA VERDE SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 147.0
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "29893",
+          "cliente": "PARANAIBA SERRA VERDE SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1000 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 147.0
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35500",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE NASCIMENTO LTDA.",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 119.9
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35500",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE NASCIMENTO LTDA.",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+          "fantasia": "BALLENA",
+          "qt": 2,
+          "valor": 231.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "29878",
+          "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 335.4
         }
       ]
     },
@@ -84767,6 +84965,159 @@ const VENDAS_MG_DATA = {
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 1,
           "valor": 799.0
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO ARCAIA ROSE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "HUMB. CANALE DENARIO RESERVA PINOT NOIR",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 569.4
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 226.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 75.6
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI EST SEL ROSE 187ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 37.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI EST SEL SAUV BLANC 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 219.6
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 153.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33464",
+          "cliente": "KRABI EXPRESS RESTAURANTE LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 3,
+          "valor": 431.28
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "",
+          "qt": 25,
+          "valor": 472.5
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL ROSE 187ML",
+          "fantasia": "",
+          "qt": 13,
+          "valor": 245.7
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 329.4
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL SAUV BLANC 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VILLA ROSA COLHEITA BRANCO 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 76.9
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 76.9
         }
       ]
     },
