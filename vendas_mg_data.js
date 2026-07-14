@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "13/07/2026 17:11",
+  "atualizado_em": "14/07/2026 09:35",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 78423.38,
-        "pos": 54,
+        "fat": 82529.9,
+        "pos": 55,
         "fat_ant": 343937.59
       }
     },
@@ -82,8 +82,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 62675.28,
-        "pos": 21,
+        "fat": 64848.38,
+        "pos": 25,
         "fat_ant": 168779.58
       }
     },
@@ -209,7 +209,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 130754.16,
+        "fat": 163210.56,
         "pos": 7,
         "fat_ant": 1039602.9
       }
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 27994.2,
-        "pos": 31,
+        "fat": 29168.8,
+        "pos": 33,
         "fat_ant": 85308.22
       }
     },
@@ -45455,6 +45455,105 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "13/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 31.96
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 281.7
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 383.52
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 95.88
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "37207",
+          "cliente": "MEZZA BAR LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 164.7
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "XAROPE MONIN MARACUJÁ 700 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 149.7
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 149.7
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "XAROPE MONIN LICHIA (LYCHEE) 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 163.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "33176",
+          "cliente": "BELLINI PRODUCOES DE EVENTOS LTDA",
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 2394.0
+        },
+        {
+          "data": "13/07/2026",
           "codcli": "38493",
           "cliente": "JM HAMBURGUERS LTDA",
           "produto": "RED BULL 250ML CAIXA C/24 UNID",
@@ -53488,6 +53587,15 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "13/07/2026",
+          "codcli": "31553",
+          "cliente": "SUPERMERCADO PARANAIBA SANTA LUZIA LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 6,
+          "valor": 389.4
+        },
+        {
+          "data": "13/07/2026",
           "codcli": "31571",
           "cliente": "PARANAIBA EXPRESS",
           "produto": "GIN GORDONS 750 ML",
@@ -53512,6 +53620,114 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 239.4
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "35334",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE RESSACA LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 119.9
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "35334",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE RESSACA LTDA",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 1,
+          "valor": 115.9
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "35334",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE RESSACA LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 259.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "35334",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE RESSACA LTDA",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 87.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "35334",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE RESSACA LTDA",
+          "produto": "WHISKY BALLANTINES 10 YO 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 199.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "39205",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE SAO JOAO DE DEUS LTDA",
+          "produto": "RUM MALIBU 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 129.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "39205",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE SAO JOAO DE DEUS LTDA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 143.7
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "39205",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE SAO JOAO DE DEUS LTDA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 149.7
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "38188",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CHACARAS BOM JESUS LTDA",
+          "produto": "AMARULA C LIQUEUR 750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 119.9
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "38188",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CHACARAS BOM JESUS LTDA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "38188",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CHACARAS BOM JESUS LTDA",
+          "produto": "RUM BACARDI LIMON 980 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 97.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "38188",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CHACARAS BOM JESUS LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 259.8
         }
       ]
     },
@@ -74108,6 +74324,42 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 24,
           "valor": 573.6
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "",
+          "qt": 600,
+          "valor": 12540.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "YVY DESTILADO GIN TERRA LT 710ML",
+          "fantasia": "",
+          "qt": 300,
+          "valor": 6270.0
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "YVY DESTILADO GIN TERRA GF 750ML",
+          "fantasia": "",
+          "qt": 180,
+          "valor": 7059.6
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "WHISKY PASSPORT  SELECTION 1L",
+          "fantasia": "",
+          "qt": 132,
+          "valor": 6586.8
         }
       ]
     },
@@ -84392,6 +84644,33 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "13/07/2026",
+          "codcli": "35229",
+          "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
+          "produto": "CACHACA SELETA 1000ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 89.8
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "35229",
+          "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 93.9
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "35229",
+          "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 83.7
+        },
+        {
+          "data": "13/07/2026",
           "codcli": "31850",
           "cliente": "LA MACELLERIA VILA DA SERRA ACOUGUE GOURMET E RESTAURANTE LT",
           "produto": "APERITIVO APEROL 750 ML",
@@ -84470,6 +84749,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 4,
           "valor": 319.6
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "30423",
+          "cliente": "COMERCIAL GOUVEIA E VIEIRA LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 907.2
         },
         {
           "data": "13/07/2026",
