@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "13/07/2026 17:12",
-  "total": 4317,
+  "atualizado_em": "14/07/2026 09:35",
+  "total": 4325,
   "clientes": [
     {
       "codcli": "31683",
@@ -4594,6 +4594,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "26203",
+      "razao": "ADALBERTO P. CAMPOS BEBIDAS",
+      "fantasia": "ADEGA JANDAIA",
+      "bairro": "VILA VELOSO",
+      "cidade": "SAO PAULO",
+      "cnpj": "18.267.636/0001-60",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "49542",
@@ -10530,6 +10544,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51759",
+      "razao": "BLACK ADEGA LTDA",
+      "fantasia": "BLACK ADEGA",
+      "bairro": "RESIDENCIAL BEM VIVER",
+      "cidade": "AREIOPOLIS",
+      "cnpj": "48.375.586/0001-03",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "49110",
@@ -23692,6 +23720,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "51754",
+      "razao": "GERALDO BENEDETE & CIA LTDA",
+      "fantasia": "GERALDO BENEDETE & CIA",
+      "bairro": "BAMBU",
+      "cidade": "PORTO FELIZ",
+      "cnpj": "45.477.452/0001-05",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "509",
+      "nome_usur1": "ROBERTO DA SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51344",
       "razao": "GERCINO BATISTA PEDRO DE TOLEDO",
       "fantasia": "MERCEARIA BATISTA",
@@ -26632,6 +26674,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "51760",
+      "razao": "J. R. J. SUPERMERCADOS LTDA",
+      "fantasia": "J. R. J. SUPERMERCADOS",
+      "bairro": "BAMBU",
+      "cidade": "PORTO FELIZ",
+      "cnpj": "09.341.628/0001-25",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "509",
+      "nome_usur1": "ROBERTO DA SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "94000",
       "razao": "J. W. DEPOSITO DE BEBIDAS LTDA",
       "fantasia": "JW BEBIDAS & CIA",
@@ -27188,6 +27244,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "426",
       "nome_usur1": "ADER ALONSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "41198",
+      "razao": "JESSICA GOMES MOREIRA DAVID",
+      "fantasia": "BREJA & CIA",
+      "bairro": "RESIDENCIAL PORTO FELIZ",
+      "cidade": "PORTO FELIZ",
+      "cnpj": "41.322.235/0001-87",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "509",
+      "nome_usur1": "ROBERTO DA SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -49368,6 +49438,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51756",
+      "razao": "REINALDO FERNANDES BALIERO",
+      "fantasia": "REINALDO FERNANDES BALIERO",
+      "bairro": "PARQUE SANTA ROSA",
+      "cidade": "SUZANO",
+      "cnpj": "05.490.836/0001-35",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "47202",
       "razao": "REINAN BRITO DE SANTANA",
       "fantasia": "DEPOSITO DE BEBIDAS BRITO",
@@ -51394,6 +51478,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "471",
       "nome_usur1": "PAULO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51757",
+      "razao": "SALVATORE COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "SALVATORE COMERCIO DE BEBIDAS",
+      "bairro": "JARDIM NOVO CAMPOS ELISEOS",
+      "cidade": "CAMPINAS",
+      "cnpj": "48.336.800/0001-04",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -55088,8 +55186,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "49.451.560/0001-51",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "510",
+      "nome_usur1": "ROSANA AFFONSO - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -56842,6 +56940,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARA DEPOLLI - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "46386",
+      "razao": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
+      "fantasia": "ATACADO SOARES",
+      "bairro": "JARDIM FLÓRIDA",
+      "cidade": "EMBU",
+      "cnpj": "51.309.974/0001-92",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "318",
+      "nome_usur1": "MARCUS TANAMACHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "77050",
