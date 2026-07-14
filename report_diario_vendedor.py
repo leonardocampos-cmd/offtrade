@@ -198,7 +198,7 @@ def montar_mensagem(resumo, data_ref, is_fallback, meta_vendedor, fontes_indispo
         fat_necessidade_dia = round(max(fat_meta - fat_mes, 0) / du_restantes, 2)
         pos_necessidade_dia = math.ceil(max(pos_meta - pos_mes, 0) / du_restantes)
         fat_proj = round(fat_mes / du_passados * du_total, 2)
-        pos_proj = round(pos_mes / du_passados * du_total, 1)
+        pos_proj = math.ceil(pos_mes / du_passados * du_total)
 
         fat_pct = (fat_mes / fat_meta * 100) if fat_meta else 0.0
         pos_pct = (pos_mes / pos_meta * 100) if pos_meta else 0.0
@@ -216,7 +216,7 @@ def montar_mensagem(resumo, data_ref, is_fallback, meta_vendedor, fontes_indispo
             f"Positivação do dia: *{resumo['positivacao']} cliente(s)*\n"
             f"Meta do mês: *{int(pos_meta)} cliente(s)*\n"
             f"Realizado no mês: *{int(pos_mes)} cliente(s)* ({pos_pct:.0f}% da meta)\n"
-            f"Projeção do mês: *{pos_proj:.1f} cliente(s)* ({pos_proj_pct:.0f}% da meta)"
+            f"Projeção do mês: *{pos_proj} cliente(s)* ({pos_proj_pct:.0f}% da meta)"
         )
     else:
         bloco_meta = (
