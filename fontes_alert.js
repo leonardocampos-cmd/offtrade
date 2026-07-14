@@ -7,12 +7,25 @@
   // `const`/`let` de nível superior não viram propriedades de `window`, então
   // não dá para checar dinamicamente via window[nome] — precisa checar cada
   // identificador literal com `typeof` (não lança erro se não existir).
+  // Normaliza nomes tipo "vendas_CASTAS"/"cadastros_CASTAS"/"historico_CASTAS"
+  // para só "CASTAS" — cada *_DATA pode listar várias tabelas da mesma base
+  // indisponível, e o popup deve mostrar a base uma vez só.
+  var BASES_CONHECIDAS = ['CRC', 'thekings', 'CASTAS', 'GARRIDO', 'SPON', 'MGON'];
+  function normalizarFonte(nome) {
+    for (var i = 0; i < BASES_CONHECIDAS.length; i++) {
+      if (nome.toLowerCase().indexOf(BASES_CONHECIDAS[i].toLowerCase()) !== -1) {
+        return BASES_CONHECIDAS[i];
+      }
+    }
+    return nome;
+  }
+
   function coletarFontes() {
     var fontes = new Set();
     var atualizado = null;
     function tentar(d) {
       if (!d) return;
-      (d.fontes_indisponiveis || []).forEach(function (f) { fontes.add(f); });
+      (d.fontes_indisponiveis || []).forEach(function (f) { fontes.add(normalizarFonte(f)); });
       if (d.atualizado_em && !atualizado) atualizado = d.atualizado_em;
     }
     if (typeof FONTES_STATUS_DATA !== 'undefined') tentar(FONTES_STATUS_DATA);
