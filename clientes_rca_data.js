@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/07/2026 09:35",
-  "total": 4325,
+  "atualizado_em": "14/07/2026 15:14",
+  "total": 4245,
   "clientes": [
     {
       "codcli": "31683",
@@ -16,20 +16,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "90405",
-      "razao": "07.175.533 BIANCA RODRIGUES DE JESUS VASQUEZ",
-      "fantasia": "BIANCA RODRIGUES DE JESUS VASQUEZ",
-      "bairro": "CENTRO",
-      "cidade": "VITORIA",
-      "cnpj": "07.175.533/0001-53",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "51019",
@@ -72,6 +58,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "95696",
+      "razao": "17.442.766 RAIMUNDA MARLI DE CASTRO MACEDO",
+      "fantasia": "RAIMUNDA MARLI DE CASTRO MACEDO",
+      "bairro": "TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "17.442.766/0001-29",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "91201",
@@ -139,7 +139,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RS",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -886,20 +886,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "81399",
-      "razao": "38.167.704 DEBORA ROSA FARIAS",
-      "fantasia": "38.167.704 DEBORA ROSA FARIAS",
-      "bairro": "NOVA PONTA DA FRUTA",
-      "cidade": "VILA VELHA",
-      "cnpj": "38.167.704/0001-26",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "85148",
       "razao": "38.200.029 CLAUDIO LUIZ PEREIRA FARIA",
       "fantasia": "CLAUDIO LUIZ PEREIRA FARIA",
@@ -1292,20 +1278,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "72233",
-      "razao": "45.258.125 RUTH KARLA DIAS HILARIO",
-      "fantasia": "RK LANCHES",
-      "bairro": "SANTA LUCIA",
-      "cidade": "VITORIA",
-      "cnpj": "45.258.125/0001-54",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "50424",
       "razao": "46.547.388 WELLINGTON HENRIQUE ALVES",
       "fantasia": "WELLINGTON HENRIQUE ALVES",
@@ -1316,20 +1288,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCEARIA",
       "codusur1": "470",
       "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "84443",
-      "razao": "46.569.092 VILMAR BERSOT DE MELO",
-      "fantasia": "VILMAR BERSOT DE MELO",
-      "bairro": "FEU ROSA",
-      "cidade": "SERRA",
-      "cnpj": "46.569.092/0001-26",
-      "estado": "ES",
-      "ramo": "OUTROS",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -1348,20 +1306,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "92615",
-      "razao": "47.209.311 RAFAEL OLIVEIRA SILVA",
-      "fantasia": "RAFAEL OLIVEIRA SILVA",
-      "bairro": "SÃO PEDRO",
-      "cidade": "VITORIA",
-      "cnpj": "47.209.311/0001-29",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "90615",
       "razao": "47.241.802 GENUARIO ROMAO",
       "fantasia": "GENUARIO ROMAO",
@@ -1374,20 +1318,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
-    },
-    {
-      "codcli": "82259",
-      "razao": "48.023.839 MARCELO CESAR DA SILVA REIS",
-      "fantasia": "MARCELO CESAR DA SILVA REIS",
-      "bairro": "PRAIA DA COSTA",
-      "cidade": "VILA VELHA",
-      "cnpj": "48.023.839/0001-71",
-      "estado": "ES",
-      "ramo": "OUTROS",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "51087",
@@ -1677,7 +1607,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "50.452.339/0001-05",
       "estado": "RJ",
-      "ramo": "OUTROS",
+      "ramo": "SERVIÇOS",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "312",
@@ -1756,12 +1686,12 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "84070",
       "razao": "50.907.363 ANA CAROLINA DA CONCEICAO PEREIRA",
-      "fantasia": "ANA CAROLINA DA CONCEICAO PER",
+      "fantasia": "ANA CAROLINA DA CONCEICAO PEREIRA",
       "bairro": "CENTRO (MANGUE)",
       "cidade": "ARMACAO DOS BUZ",
       "cnpj": "50.907.363/0001-83",
       "estado": "RJ",
-      "ramo": "OUTROS",
+      "ramo": "SERVIÇOS",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "43",
@@ -2032,20 +1962,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LUIZ RIGLER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "80665",
-      "razao": "52.918.298 GABRIELA VIEIRA TEIXEIRA",
-      "fantasia": "GABRIELA VIEIRA TEIXEIRA",
-      "bairro": "CENTRO DE VILA VELHA",
-      "cidade": "VILA VELHA",
-      "cnpj": "52.918.298/0001-17",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "41310",
@@ -2454,20 +2370,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "92307",
-      "razao": "55.301.885 MARCOS ROBERTO PUZIOL SANTANA",
-      "fantasia": "MARCOS ROBERTO PUZIOL SANTANA",
-      "bairro": "PRAIA DO CANTO",
-      "cidade": "VITORIA",
-      "cnpj": "55.301.885/0001-50",
-      "estado": "ES",
-      "ramo": "BAR",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "91693",
       "razao": "55.529.476 AUREA DOS SANTOS TEIXEIRA",
       "fantasia": "AUREA DOS SANTOS TEIXEIRA",
@@ -2533,7 +2435,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "PR",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -2582,12 +2484,12 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "91172",
       "razao": "56.145.848 CARLOS HENRIQUE DA SILVA FELIPE",
-      "fantasia": "CARLOS HENRIQUE DA SILVA FELI",
+      "fantasia": "CARLOS HENRIQUE DA SILVA FELIPE",
       "bairro": "SANTA CRUZ",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "56.145.848/0001-63",
       "estado": "RJ",
-      "ramo": "OUTROS",
+      "ramo": "SERVIÇOS",
       "codusur1": "419",
       "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "codusur2": "312",
@@ -2872,20 +2774,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RICARDO CLAUDIO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "83152",
-      "razao": "58.152.685 FABIANO GOMES DE PAULA JUNIOR",
-      "fantasia": "FABIANO GOMES DE PAULA JUNIOR",
-      "bairro": "PRAIA DO SUA",
-      "cidade": "VITORIA",
-      "cnpj": "58.152.685/0001-71",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "89926",
@@ -3961,7 +3849,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -4059,7 +3947,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -4269,7 +4157,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -4339,7 +4227,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -4465,7 +4353,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "AÇOUGUE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -4479,7 +4367,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -4507,7 +4395,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -4577,7 +4465,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SC",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -4731,7 +4619,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "BARDEGA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "588",
       "nome_usur2": "W.S"
     },
@@ -4773,7 +4661,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -5212,6 +5100,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "47889",
+      "razao": "ADEGA SONHO DE VERAO LTDA",
+      "fantasia": "SONHO DE VERAO",
+      "bairro": "JARDIM DOM JOSE",
+      "cidade": "EMBU",
+      "cnpj": "26.520.400/0001-11",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "232",
+      "nome_usur1": "ANDERSON CANAVEIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "30270",
       "razao": "ADEGA TAMOIO LTDA",
       "fantasia": "ADEGA TAMOIO",
@@ -5221,7 +5123,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "EVENTOS",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -5431,7 +5333,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "588",
       "nome_usur2": "W.S"
     },
@@ -5459,7 +5361,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -5529,7 +5431,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -5977,7 +5879,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "OUTROS",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -6106,6 +6008,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "38467",
+      "razao": "ALIMENTOS BEBIDAS E VINHOS CORREA LTDA",
+      "fantasia": "ALIMENTOS BEBIDAS E VINHOS CORREA",
+      "bairro": "CAPIVARI",
+      "cidade": "CAMPOS DO JORDAO",
+      "cnpj": "48.497.692/0001-51",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "511",
+      "nome_usur1": "ALEXANDRE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50018",
@@ -6285,7 +6201,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -6411,7 +6327,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -6454,20 +6370,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "89950",
-      "razao": "AMERICAN COOKIES VITORIA ES LTDA",
-      "fantasia": "AMERICAN COOKIES",
-      "bairro": "ENSEADA DO SUA",
-      "cidade": "VITORIA",
-      "cnpj": "54.171.810/0001-30",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -6621,7 +6523,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -6845,7 +6747,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -6873,7 +6775,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "PESSOA FISICA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "588",
       "nome_usur2": "W.S"
     },
@@ -6887,7 +6789,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MINI-MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -7069,7 +6971,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "PR",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -7083,7 +6985,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -7293,7 +7195,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -7321,7 +7223,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -7335,7 +7237,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -7494,20 +7396,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "72325",
-      "razao": "ATLANTICA HOTELS INTERNATIONAL BRASIL LTDA",
-      "fantasia": "ATLANTICA HOTELS INTERNATIONAL",
-      "bairro": "SANTA LUÍZA",
-      "cidade": "VITORIA",
-      "cnpj": "02.223.966/0124-72",
-      "estado": "ES",
-      "ramo": "HOTELARIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "83962",
       "razao": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
       "fantasia": "ATLAS DE IGUACU DISTRIBUIDORA",
@@ -7643,7 +7531,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "ES",
       "ramo": "INDÚSTRIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -7769,7 +7657,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -7797,7 +7685,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -8063,7 +7951,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -8231,7 +8119,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -8539,7 +8427,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -8581,7 +8469,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -8609,7 +8497,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -8740,20 +8628,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "84120",
-      "razao": "AUTO SERVICO OURO NEGRO LTDA",
-      "fantasia": "CONVENIENCIA OURO NEGRO",
-      "bairro": "ILHA DO PRINCIPE",
-      "cidade": "VITORIA",
-      "cnpj": "36.309.276/0002-84",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "80294",
       "razao": "AUTO SERVICO PRAIA GRANDE LTDA",
       "fantasia": "SUPERMERCADO NOROESTE",
@@ -8805,7 +8679,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -8959,7 +8833,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9004,20 +8878,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "74150",
-      "razao": "BAFFS ALIMENTOS VITORIA LTDA",
-      "fantasia": "BAFFS",
-      "bairro": "AEROPORTO",
-      "cidade": "VITORIA",
-      "cnpj": "53.188.377/0001-82",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "90723",
@@ -9267,7 +9127,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9281,7 +9141,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9295,7 +9155,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9309,7 +9169,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9323,7 +9183,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9337,7 +9197,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9351,7 +9211,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9365,7 +9225,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9379,7 +9239,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9393,7 +9253,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9407,7 +9267,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9435,7 +9295,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9449,7 +9309,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9491,7 +9351,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -9548,20 +9408,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFETERIA",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "21055",
-      "razao": "BAR E RESTAURANTE DO PEZAO LTDA",
-      "fantasia": "BAR DO PEZAO",
-      "bairro": "JARDIM DA PENHA",
-      "cidade": "VITORIA",
-      "cnpj": "00.215.262/0001-73",
-      "estado": "ES",
-      "ramo": "BAR",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -9911,7 +9757,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "588",
       "nome_usur2": "W.S"
     },
@@ -10280,6 +10126,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "51778",
+      "razao": "BENEDITO ANTONIO RODRIGUES NOVA EUROPA LTDA",
+      "fantasia": "BENEDITO ANTONIO RODRIGUES NOVA EUROPA",
+      "bairro": "VILA FRAIGE",
+      "cidade": "NOVA EUROPA",
+      "cnpj": "54.271.887/0001-81",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "codusur1": "498",
+      "nome_usur1": "CELSO OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50791",
       "razao": "BENFICA COMERCIO VAREJISTA DE ALIMENTOS LTDA",
       "fantasia": "BENFICA COMERCIO VAREJISTA DE ALIMENTOS",
@@ -10485,7 +10345,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -10597,7 +10457,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -10807,7 +10667,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -10821,7 +10681,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -11367,7 +11227,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "EVENTOS",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "426",
       "nome_usur2": "ADER ALONSO - OFF TRADE"
     },
@@ -11535,7 +11395,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -11563,7 +11423,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -11580,20 +11440,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
-    },
-    {
-      "codcli": "71004",
-      "razao": "C R SIMOES CANTINA LA RUSTICA BAR E RESTAURANTE",
-      "fantasia": "CANTINA LA RUSTICA",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "47.431.433/0001-65",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "93915",
@@ -11694,34 +11540,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "79752",
-      "razao": "CABANA SURF VITORIA LTDA",
-      "fantasia": "CABANA SURF SHOP",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "06.881.824/0001-02",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "76304",
-      "razao": "CAC COMERCIAL LTDA",
-      "fantasia": "PADARIA LETRIGALLE",
-      "bairro": "MATA DA PRAIA",
-      "cidade": "VITORIA",
-      "cnpj": "04.344.817/0001-38",
-      "estado": "ES",
-      "ramo": "PADARIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "28614",
       "razao": "CACIQUE CIGARS DISTRIBUIDORA BRASIL LTDA",
       "fantasia": "CACIQUE CIGARS",
@@ -11731,7 +11549,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -11829,7 +11647,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CAFETERIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -11846,20 +11664,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
-    },
-    {
-      "codcli": "95426",
-      "razao": "CAFFE LORENZON LTDA",
-      "fantasia": "CAFFE LORENZON",
-      "bairro": "PRAIA DA COSTA",
-      "cidade": "VILA VELHA",
-      "cnpj": "21.149.569/0001-93",
-      "estado": "ES",
-      "ramo": "PADARIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "48339",
@@ -11956,20 +11760,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "466",
       "nome_usur1": "DANIELLE DOS SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "95098",
-      "razao": "CAMBURI RESTAURANTES LTDA",
-      "fantasia": "CAMBURI RESTAURANTES",
-      "bairro": "PONTAL DE CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "60.887.611/0001-25",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -12086,20 +11876,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92293",
-      "razao": "CANTINA DO HONOFRE LTDA",
-      "fantasia": "CANTINA DO HONOFRE",
-      "bairro": "GOIABEIRAS",
-      "cidade": "VITORIA",
-      "cnpj": "30.734.388/0003-87",
-      "estado": "ES",
-      "ramo": "CANTINA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "42354",
       "razao": "CANTINA E BAZAR ESCOLAR MALEPA LTDA",
       "fantasia": "BAZAR MALEPA",
@@ -12124,20 +11900,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CANTINA",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "21154",
-      "razao": "CARANGOLEJO ENTRETENIMENTO LTDA",
-      "fantasia": "CARANGOLEJO ENTRETENIMENTO",
-      "bairro": "JOCKEY DE ITAPARICA",
-      "cidade": "VILA VELHA",
-      "cnpj": "24.270.256/0001-87",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -12179,7 +11941,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "ESCRITÓRIO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -12627,7 +12389,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -12725,7 +12487,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "ES",
       "ramo": "OUTROS",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -12907,7 +12669,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -13621,7 +13383,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -13817,23 +13579,9 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "73049",
-      "razao": "CLERICOT CAFE LTDA",
-      "fantasia": "CLERICOT CAFE",
-      "bairro": "ENSEADA DO SUA",
-      "cidade": "VITORIA",
-      "cnpj": "51.836.683/0001-52",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "74979",
@@ -13859,7 +13607,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CASA NOTURNA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -14111,7 +13859,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -14153,7 +13901,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "ES",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -14461,23 +14209,9 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "20928",
-      "razao": "COMERCIAL IATE LTDA",
-      "fantasia": "POSTO IATE",
-      "bairro": "PRAIA DO CANTO",
-      "cidade": "VITORIA",
-      "cnpj": "39.358.593/0001-06",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "61399",
@@ -14503,7 +14237,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -14746,20 +14480,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "82178",
-      "razao": "COMERCIAL UNIAO DE ALIMENTOS LTDA",
-      "fantasia": "COMERCIAL UNIAO DE ALIMENTOS",
-      "bairro": "SANTA TEREZA",
-      "cidade": "VITORIA",
-      "cnpj": "40.211.568/0002-57",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "90523",
       "razao": "COMERCIAL VALDEMIRO HELKER LTDA",
       "fantasia": "COMERCIALHELKER",
@@ -14854,20 +14574,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "471",
       "nome_usur1": "PAULO JUNIOR - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "76303",
-      "razao": "COMERCIO DE ALIMENTOS MR BEEF LTDA",
-      "fantasia": "MR BEEF",
-      "bairro": "ENSEADA DO SUA",
-      "cidade": "VITORIA",
-      "cnpj": "03.806.538/0001-86",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -15217,7 +14923,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -15273,7 +14979,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -15292,20 +14998,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "21049",
-      "razao": "CONFEITARIA PAO DO PARQUE LTDA EPP",
-      "fantasia": "CONFEITARIA MONTE LIBANO",
-      "bairro": "PRAIA DA COSTA",
-      "cidade": "VILA VELHA",
-      "cnpj": "03.560.187/0001-76",
-      "estado": "ES",
-      "ramo": "PADARIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "2023",
       "razao": "CONFEITARIA TIJUCA LTDA",
       "fantasia": "PADARIA SANTA MARTA",
@@ -15315,7 +15007,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -15455,7 +15147,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -15656,20 +15348,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "21155",
-      "razao": "CORONEL PICANHA RESTAURANTE LTDA",
-      "fantasia": "CORONEL PICANHA RESTAURANTE LTDA",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "04.681.614/0001-37",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "21146",
       "razao": "CORUJA VEIA BEACH BAR E LANCHONETE LTDA",
       "fantasia": "CORUJA VEIA BEACH ORLA RIO",
@@ -15735,7 +15413,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -15805,7 +15483,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "ES",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -15819,7 +15497,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -15875,7 +15553,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -16141,7 +15819,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -16356,20 +16034,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARCUS TANAMACHI - OFF TRADE"
     },
     {
-      "codcli": "92290",
-      "razao": "DALLE LANCHES LTDA",
-      "fantasia": "DALLE LANCHES",
-      "bairro": "BONFIM",
-      "cidade": "VITORIA",
-      "cnpj": "39.626.593/0002-12",
-      "estado": "ES",
-      "ramo": "CANTINA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "49322",
       "razao": "DAMA LESTE SUPERMERCADO LTDA",
       "fantasia": "DAMA LESTE",
@@ -16552,6 +16216,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BARBARA CABRAL - OFF TRADE"
     },
     {
+      "codcli": "51766",
+      "razao": "DARLENE APARECIDA CARDOSO",
+      "fantasia": "SUPERMERCADO CARDOSO FILHOS",
+      "bairro": "CENTRO",
+      "cidade": "SANTO ANTONIO DO PINHAL",
+      "cnpj": "20.227.537/0001-04",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "511",
+      "nome_usur1": "ALEXANDRE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "90128",
       "razao": "DAVI DA SILVA RODRIGO",
       "fantasia": "DAVI DA SILVA RODRIGO",
@@ -16576,20 +16254,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCEARIA",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "94511",
-      "razao": "DD BEER CERVEJARIA ARTESANAL LTDA",
-      "fantasia": "DD BEER CERVEJARIA",
-      "bairro": "SANTA PAULA I",
-      "cidade": "VILA VELHA",
-      "cnpj": "47.098.143/0001-41",
-      "estado": "ES",
-      "ramo": "BAR",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -16897,7 +16561,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -17093,7 +16757,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -17112,20 +16776,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "91339",
-      "razao": "DFS GOVERNANCA E COMPLIANCE LTDA",
-      "fantasia": "DFS GOVERNANCA E COMPLIANCE",
-      "bairro": "SANTA LUCIA",
-      "cidade": "VITORIA",
-      "cnpj": "58.656.475/0001-10",
-      "estado": "ES",
-      "ramo": "OUTROS",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "20775",
       "razao": "DG BAR E MERCEARIA LTDA",
       "fantasia": "DG BAR E MERCEARIA LTDA",
@@ -17135,7 +16785,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -17182,48 +16832,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "83943",
-      "razao": "DI FAMIGLIA PIZZA BAR LTDA",
-      "fantasia": "DI FAMIGLIA PIZZA BAR",
-      "bairro": "BENTO FERREIRA",
-      "cidade": "VITORIA",
-      "cnpj": "57.049.151/0001-51",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "74338",
-      "razao": "DI MEDEIROS & DE LUCA LTDA",
-      "fantasia": "DI MEDEIROS LAMA",
-      "bairro": "JARDIM DA PENHA",
-      "cidade": "VITORIA",
-      "cnpj": "53.196.248/0001-36",
-      "estado": "ES",
-      "ramo": "TABACARIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "71691",
-      "razao": "DI MEDEIROS COMERCIO LTDA",
-      "fantasia": "BICHO DA SEDA",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "31.990.842/0001-61",
-      "estado": "ES",
-      "ramo": "TABACARIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "29297",
       "razao": "DIAMANTINO & HOFMAN COMERCIO E REPRESENTACAO LTDA",
       "fantasia": "ELETTROMEC",
@@ -17233,7 +16841,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -17252,20 +16860,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "71748",
-      "razao": "DIAS & DIAS COMERCIO E SERVICOS LTDA",
-      "fantasia": "THERMAS PEOPLE",
-      "bairro": "JUCUTUQUARA",
-      "cidade": "VITORIA",
-      "cnpj": "12.118.117/0001-53",
-      "estado": "ES",
-      "ramo": "BAR",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "48461",
       "razao": "DIAS PASTORINHO S/A COMERCIO E INDUSTRIA",
       "fantasia": "SUPERMERCADO PASTORINHO",
@@ -17275,7 +16869,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -17457,7 +17051,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -17488,34 +17082,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MICHELE ALCANTARA",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
-    },
-    {
-      "codcli": "50621",
-      "razao": "DIRETORIO ACADEMICO DE MEDICINA DA UNIVERSIDADE FEDERAL DO E",
-      "fantasia": "DIRETORIO ACADEMICO DE MEDICINA DA UNIVE",
-      "bairro": "SANTA CECILIA",
-      "cidade": "VITORIA",
-      "cnpj": "43.236.763/0001-49",
-      "estado": "ES",
-      "ramo": "OUTROS",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "71564",
-      "razao": "DIRETORIO ACADEMICO DIDO FONTES",
-      "fantasia": "DIRETORIO ACADEMICO DIDO FONTES",
-      "bairro": "GOIABEIRAS",
-      "cidade": "VITORIA",
-      "cnpj": "00.411.122/0001-70",
-      "estado": "ES",
-      "ramo": "OUTROS",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "23968",
@@ -17933,7 +17499,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "426",
       "nome_usur2": "ADER ALONSO - OFF TRADE"
     },
@@ -18129,7 +17695,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -18185,7 +17751,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -18428,18 +17994,18 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "78030",
-      "razao": "DONA ISABEL COZINHA AFETIVA LTDA",
-      "fantasia": "DONA ISABEL",
-      "bairro": "MATA DA PRAIA",
-      "cidade": "VITORIA",
-      "cnpj": "54.946.170/0001-92",
-      "estado": "ES",
+      "codcli": "51771",
+      "razao": "DONA CHICA GASTRONOMIA E EVENTOS LTDA",
+      "fantasia": "DONA CHICA",
+      "bairro": "HORTO FLORESTAL",
+      "cidade": "CAMPOS DO JORDAO",
+      "cnpj": "13.466.161/0001-17",
+      "estado": "SP",
       "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
+      "codusur1": "511",
+      "nome_usur1": "ALEXANDRE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "3465",
@@ -18451,7 +18017,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -18493,7 +18059,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SC",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -18549,7 +18115,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -18577,7 +18143,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -19403,7 +18969,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -19557,7 +19123,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -19613,7 +19179,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -19641,7 +19207,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -19912,20 +19478,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "93137",
-      "razao": "ELIAS MARQUES DA COSTA 86256319753",
-      "fantasia": "MARQUES CARDOSO ALIMENTOS",
-      "bairro": "CRISTÓVÃO COLOMBO",
-      "cidade": "VILA VELHA",
-      "cnpj": "48.280.653/0001-06",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "89961",
       "razao": "ELIEZER BARBOSA FERREIRA 10307587436",
       "fantasia": "ELIEZER BARBOSA FERREIRA",
@@ -19991,7 +19543,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -20215,7 +19767,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MINI-MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -20229,7 +19781,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -20313,7 +19865,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -20425,7 +19977,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -20439,7 +19991,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -20509,7 +20061,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -20551,7 +20103,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -20607,7 +20159,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "EMPORIO/BAZAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -20706,20 +20258,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFETERIA",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "82528",
-      "razao": "ENCONTRO DA PRAIA LTDA",
-      "fantasia": "ENCONTRO DA PRAIA",
-      "bairro": "PRAIA DA COSTA",
-      "cidade": "VILA VELHA",
-      "cnpj": "59.481.765/0001-33",
-      "estado": "ES",
-      "ramo": "BAR",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -21111,7 +20649,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -21126,6 +20664,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51773",
+      "razao": "ESTANCIA SANTA CLARA LTDA",
+      "fantasia": "ESTANCIA SANTA CLARA IBIUNA",
+      "bairro": "CACHOEIRA",
+      "cidade": "IBIUNA",
+      "cnpj": "04.823.123/0002-64",
+      "estado": "SP",
+      "ramo": "HOTELARIA",
+      "codusur1": "510",
+      "nome_usur1": "ROSANA AFFONSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -21363,7 +20915,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -21629,7 +21181,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -21643,7 +21195,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -21788,20 +21340,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "84765",
-      "razao": "FARMACIA BOM PRECO DE LARANJEIRAS LTDA",
-      "fantasia": "FARMACIA BOM PRECO",
-      "bairro": "PARQUE RESIDENCIAL LARANJEIRAS",
-      "cidade": "SERRA",
-      "cnpj": "46.560.641/0001-00",
-      "estado": "ES",
-      "ramo": "FARMACIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "95532",
       "razao": "FARMACIA DROGAKAR LTDA",
       "fantasia": "DROGARIA CRISTAL",
@@ -21942,6 +21480,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "50927",
+      "razao": "FAST VENDAS SUPERMERCADO LTDA",
+      "fantasia": "FAST VENDAS SUPERMERCADO",
+      "bairro": "VILA SAO JOAO",
+      "cidade": "MOGI MIRIM",
+      "cnpj": "27.426.431/0001-70",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "30945",
       "razao": "FATIMA ELEONORA UMMENN PEREIRA 71277404704",
       "fantasia": "SKINA",
@@ -22021,7 +21573,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "TRANSPORTADOR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -22078,20 +21630,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "OUTROS",
       "codusur1": "460",
       "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "76717",
-      "razao": "FENIX COMERCIO DE ALIMENTOS LTDA",
-      "fantasia": "FENIX PADARIA E RESTAURANTE",
-      "bairro": "ENSEADA DO SUA",
-      "cidade": "VITORIA",
-      "cnpj": "40.343.866/0001-10",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -22231,7 +21769,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -22371,7 +21909,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -22455,7 +21993,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -22735,7 +22273,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RS",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -22749,7 +22287,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -22777,7 +22315,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -22908,20 +22446,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "74637",
-      "razao": "FRISA COMERCIAL S/A",
-      "fantasia": "FRISA COMERCIAL",
-      "bairro": "SANTA LÚCIA",
-      "cidade": "VITORIA",
-      "cnpj": "12.892.415/0006-00",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "41345",
       "razao": "FROM RIO PRODUCOES LTDA",
       "fantasia": "FROM RIO PRODUCOES",
@@ -23015,7 +22539,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "ES",
       "ramo": "INDÚSTRIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -23029,7 +22553,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -23127,7 +22651,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -23393,7 +22917,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -23561,7 +23085,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -23715,7 +23239,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -23771,7 +23295,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -24191,7 +23715,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -24681,7 +24205,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -24779,7 +24303,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -24793,7 +24317,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -24908,20 +24432,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "21235",
-      "razao": "HANY CINTRA LARA",
-      "fantasia": "HANY CINTRA LARA",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "086.622.896-90",
-      "estado": "ES",
-      "ramo": "PESSOA FISICA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "94882",
@@ -25087,7 +24597,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -25101,7 +24611,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -25143,7 +24653,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -25227,7 +24737,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -25358,20 +24868,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "81436",
-      "razao": "HORTIFRUTI PLUS LTDA",
-      "fantasia": "HORTIFRUTI PLUS LTDA",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "41.176.178/0001-75",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "36697",
       "razao": "HORTIFRUTI POMAR DA VILA E MERCEARIA LTDA",
       "fantasia": "HORTIFRUTI POMAR DA VILA",
@@ -25426,20 +24922,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "82771",
-      "razao": "HORTIFRUTI TAMANHON LTDA",
-      "fantasia": "HORTIFRUTI TAMANHON",
-      "bairro": "SANTO ANTÔNIO",
-      "cidade": "VITORIA",
-      "cnpj": "10.486.972/0001-91",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "51544",
@@ -25764,20 +25246,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "21132",
-      "razao": "ILHA DO CARANGUEJO RESTAURANTE ENTRETENIMENTO LTDA",
-      "fantasia": "ILHA DO CARANGUEJO",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "10.794.203/0001-50",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "51672",
       "razao": "ILHA DO SOL POSTO EXPRESS WASH LTDA",
       "fantasia": "ILHA DO SOL POSTO EXPRESS WASH",
@@ -25815,7 +25283,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -25962,24 +25430,10 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "26175",
       "razao": "INFINITY COMERCIO DE LANCHES LTDA",
-      "fantasia": "INFINITY COMERCIO DE LANCHES LTDA",
+      "fantasia": "INFINITY COMERCIO DE LANCHES",
       "bairro": "CASA VERDE",
       "cidade": "SAO PAULO",
       "cnpj": "17.985.563/0002-60",
-      "estado": "SP",
-      "ramo": "CAFETERIA",
-      "codusur1": "399",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "24237",
-      "razao": "INFINITY COMERCIO DE LANCHES LTDA",
-      "fantasia": "PASQUIM BAR E PROSA",
-      "bairro": "VILA MADALENA",
-      "cidade": "SAO PAULO",
-      "cnpj": "17.985.563/0001-89",
       "estado": "SP",
       "ramo": "CAFETERIA",
       "codusur1": "340",
@@ -26067,7 +25521,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -26096,20 +25550,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "588",
       "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "21163",
-      "razao": "IRMAOS AMR LANCHONETE & MERCEARIA LTDA EPP",
-      "fantasia": "BAR 3 IRMAOS",
-      "bairro": "PRAIA DO SUA",
-      "cidade": "VITORIA",
-      "cnpj": "08.039.897/0001-79",
-      "estado": "ES",
-      "ramo": "BAR",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -26221,7 +25661,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -26310,6 +25750,34 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "20944",
+      "razao": "ITAPOA SUPERMERCADO LTDA",
+      "fantasia": "SUPERMERCADOS PERIM",
+      "bairro": "RIVIERA DA BARRA",
+      "cidade": "VILA VELHA",
+      "cnpj": "06.955.576/0005-12",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "508",
+      "nome_usur1": "MARCELO DE SOUZA - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "20943",
+      "razao": "ITAPOA SUPERMERCADO LTDA",
+      "fantasia": "SUPERMERCADOS  PERIM",
+      "bairro": "SAO FRANCISCO",
+      "cidade": "CARIACICA",
+      "cnpj": "06.955.576/0011-60",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "codusur1": "508",
+      "nome_usur1": "MARCELO DE SOUZA - OFF TRADE",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
       "codcli": "20940",
       "razao": "ITAPOA SUPERMERCADO LTDA",
       "fantasia": "SUPERMERCADOS  PERIM",
@@ -26347,7 +25815,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -26473,23 +25941,9 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "92382",
-      "razao": "J L S BELEZA BIG JOHN",
-      "fantasia": "BIG JOHN LANCHES",
-      "bairro": "RIVIERA DA BARRA",
-      "cidade": "VILA VELHA",
-      "cnpj": "35.755.531/0001-79",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "84321",
@@ -26585,7 +26039,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -26781,7 +26235,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -26812,20 +26266,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "71359",
-      "razao": "J.S. PETROLEO E COMERCIO LTDA",
-      "fantasia": "J. S. PETROLEO",
-      "bairro": "MATA DA PRAIA",
-      "cidade": "VITORIA",
-      "cnpj": "08.788.618/0001-70",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "20765",
@@ -26907,7 +26347,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -27033,7 +26473,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -27173,7 +26613,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -27216,20 +26656,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PESSOA FISICA",
       "codusur1": "336",
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "74335",
-      "razao": "JERE HOSTEL BAR LTDA",
-      "fantasia": "JERE HOSTEL BAR",
-      "bairro": "PRAIA DA COSTA",
-      "cidade": "VILA VELHA",
-      "cnpj": "52.239.582/0001-67",
-      "estado": "ES",
-      "ramo": "BAR",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -27397,7 +26823,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -27417,15 +26843,15 @@ const CLIENTES_RCA_DATA = {
     },
     {
       "codcli": "23091",
-      "razao": "JK EMPORIO DE CHOCOLATES EIRELI",
+      "razao": "JK EMPORIO DE CHOCOLATES LTDA",
       "fantasia": "EMPORIO JK",
-      "bairro": "VILA OLIMPIA",
+      "bairro": "VILA OLÍMPIA",
       "cidade": "SAO PAULO",
       "cnpj": "20.964.685/0001-01",
       "estado": "SP",
-      "ramo": "MERCADO",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "codusur1": "127",
+      "nome_usur1": "PAULO CAMILO",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -27481,7 +26907,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -27551,7 +26977,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -27635,7 +27061,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -27663,7 +27089,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -27705,7 +27131,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -27761,7 +27187,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -27836,6 +27262,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "90510",
+      "razao": "JOELI CARVALHO BUFFET & EVENTOS LTDA",
+      "fantasia": "JOELI CARVALHO BUFFET & EVENTOS",
+      "bairro": "LAGOMAR",
+      "cidade": "MACAE",
+      "cnpj": "22.112.979/0001-22",
+      "estado": "RJ",
+      "ramo": "EVENTOS",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "229",
+      "nome_usur2": "LUIZA HASSEN"
+    },
+    {
       "codcli": "28488",
       "razao": "JOFIRA VILUGO ALIMENTOS EIRELI",
       "fantasia": "TEMAKERIA BARRA DA TIJUCA",
@@ -27901,7 +27341,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -27957,7 +27397,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -28307,7 +27747,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -28391,7 +27831,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -28517,7 +27957,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -28886,20 +28326,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "95091",
-      "razao": "KG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-      "fantasia": "CANTO DOS GRAOS",
-      "bairro": "PRAIA DA COSTA",
-      "cidade": "VILA VELHA",
-      "cnpj": "15.671.039/0001-08",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "85951",
       "razao": "KINKAS COMERCIO VAREJISTA LTDA",
       "fantasia": "KINKAS",
@@ -28968,20 +28394,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "76381",
-      "razao": "KIOSQUE ALEMAO LTDA",
-      "fantasia": "KIOSQUE ALEMAO",
-      "bairro": "ENSEADA DO SUÁ",
-      "cidade": "VITORIA",
-      "cnpj": "36.338.556/0001-30",
-      "estado": "ES",
-      "ramo": "BAR",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "20837",
@@ -29432,20 +28844,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "21015",
-      "razao": "LA DOLINA RESTAURANTE LTDA",
-      "fantasia": "LA DOLINA RESTAURANTE",
-      "bairro": "REPUBLICA",
-      "cidade": "VITORIA",
-      "cnpj": "13.094.533/0001-21",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "25934",
       "razao": "LA FRUTERIA COMERCIO DE FRUTAS E PRODUTOS NATURAIS LTDA",
       "fantasia": "LA FRUTERIA",
@@ -29511,7 +28909,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -29539,7 +28937,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -29651,7 +29049,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -29917,7 +29315,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -30001,7 +29399,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SC",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -30323,7 +29721,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -30601,6 +29999,20 @@ const CLIENTES_RCA_DATA = {
       "cidade": "ARMACAO DOS BUZ",
       "cnpj": "23.870.330/0001-33",
       "estado": "RJ",
+      "ramo": "HOTELARIA",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
+    },
+    {
+      "codcli": "5760",
+      "razao": "LOBSTER HOTEL LTDA - ME",
+      "fantasia": "POUSADA DOS TANGARAS",
+      "bairro": "GERIBA",
+      "cidade": "ARMACAO DOS BUZ",
+      "cnpj": "23.870.330/0001-33",
+      "estado": "RJ",
       "ramo": "HOTEL",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
@@ -30617,7 +30029,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -30701,7 +30113,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -30771,7 +30183,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -30981,7 +30393,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -31191,7 +30603,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -31653,7 +31065,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -31779,7 +31191,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -31793,7 +31205,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -31922,6 +31334,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "228",
       "nome_usur2": "RODRIGO ZAMBIASI"
+    },
+    {
+      "codcli": "51779",
+      "razao": "M. DA PENHA DA PAZ MOREIRA CESAR",
+      "fantasia": "MINIMERCADO PONTO CERTO",
+      "bairro": "RESIDENCIAL DOUTOR CÍCERO DA SILVA PRADO",
+      "cidade": "PINDAMONHANGABA",
+      "cnpj": "03.682.840/0001-70",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "472",
+      "nome_usur1": "FLAVIO RIBEIRO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "35526",
@@ -32087,7 +31513,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MINI-MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -32339,7 +31765,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RS",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -32395,7 +31821,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -32409,7 +31835,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -32745,7 +32171,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -32927,7 +32353,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -33081,7 +32507,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -33240,34 +32666,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "79333",
-      "razao": "MARLENE GIESTAS STEIN",
-      "fantasia": "LANCHONETE ESTACIO",
-      "bairro": "DIVINO ESPÍRITO SANTO",
-      "cidade": "VILA VELHA",
-      "cnpj": "19.027.900/0001-50",
-      "estado": "ES",
-      "ramo": "CANTINA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "80537",
-      "razao": "MARLIM AZUL AUTO POSTO LTDA",
-      "fantasia": "MARLIM AZUL AUTO POSTO",
-      "bairro": "AEROPORTO",
-      "cidade": "VITORIA",
-      "cnpj": "44.989.695/0001-51",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "27700",
       "razao": "MAROLI SANTOS SOUSA 15115423812",
       "fantasia": "CANTINHO DA TAPIOCA BRASIL",
@@ -33352,20 +32750,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "86004",
-      "razao": "MASTERGRILL RESTAURANTE LTDA",
-      "fantasia": "MASTERGRILL",
-      "bairro": "BARRO VERMELHO",
-      "cidade": "VITORIA",
-      "cnpj": "37.727.933/0001-95",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "36681",
       "razao": "MATE DOCE DELIVERY LTDA",
       "fantasia": "MATE DOCE DELIVERY",
@@ -33375,7 +32759,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "588",
       "nome_usur2": "W.S"
     },
@@ -33921,7 +33305,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34075,7 +33459,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34117,7 +33501,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34187,7 +33571,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34229,7 +33613,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34271,7 +33655,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34299,7 +33683,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34313,7 +33697,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34369,7 +33753,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34411,7 +33795,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34509,7 +33893,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34523,7 +33907,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34551,7 +33935,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34607,7 +33991,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34635,7 +34019,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34649,7 +34033,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34747,7 +34131,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34775,7 +34159,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34803,7 +34187,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34817,7 +34201,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34831,7 +34215,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34845,7 +34229,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34887,7 +34271,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34915,7 +34299,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34943,7 +34327,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -34985,7 +34369,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35027,7 +34411,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35041,7 +34425,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35139,7 +34523,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35279,7 +34663,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35447,7 +34831,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35475,7 +34859,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35587,7 +34971,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35615,7 +34999,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35629,7 +35013,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35657,7 +35041,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35671,7 +35055,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35699,7 +35083,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35867,7 +35251,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35895,7 +35279,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35909,7 +35293,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35937,7 +35321,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35965,7 +35349,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -35979,7 +35363,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36063,7 +35447,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MINI-MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36105,7 +35489,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36133,7 +35517,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36161,7 +35545,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36189,7 +35573,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36203,7 +35587,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36287,7 +35671,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36301,7 +35685,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36329,7 +35713,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36343,7 +35727,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36413,7 +35797,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36455,7 +35839,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36469,7 +35853,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36483,7 +35867,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36567,7 +35951,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36623,7 +36007,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36637,7 +36021,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36651,7 +36035,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36693,7 +36077,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -36959,7 +36343,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37001,7 +36385,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37071,7 +36455,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37085,7 +36469,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37113,7 +36497,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37127,7 +36511,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37281,7 +36665,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37365,7 +36749,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CAFETERIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37379,7 +36763,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37421,7 +36805,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37435,7 +36819,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37449,7 +36833,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37463,7 +36847,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37477,7 +36861,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37496,20 +36880,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "76776",
-      "razao": "MERCEARIA BASSANI LTDA",
-      "fantasia": "AUTO SERVICO BASSANI",
-      "bairro": "MARIA ORTIZ",
-      "cidade": "VITORIA",
-      "cnpj": "34.716.748/0001-07",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "376",
       "razao": "MERCEARIA BBJ POMAR LTDA ME",
       "fantasia": "MERCADO POMAR - CENTRO",
@@ -37519,23 +36889,9 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "87103",
-      "razao": "MERCEARIA BIA LTDA",
-      "fantasia": "MERCEARIA BIA",
-      "bairro": "SAO PEDRO",
-      "cidade": "VITORIA",
-      "cnpj": "39.815.386/0001-25",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "76995",
@@ -37561,7 +36917,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37589,7 +36945,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37617,7 +36973,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37631,7 +36987,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37659,7 +37015,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37673,7 +37029,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37701,7 +37057,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37715,7 +37071,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37729,7 +37085,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37771,7 +37127,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37799,7 +37155,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37827,7 +37183,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37883,7 +37239,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37897,7 +37253,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37925,7 +37281,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37939,7 +37295,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37953,7 +37309,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37967,7 +37323,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37981,7 +37337,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -37995,7 +37351,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38037,7 +37393,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38084,20 +37440,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "80819",
-      "razao": "MERCEARIA GENOVEVA LTDA",
-      "fantasia": "MERCEARIA GENOVEVA",
-      "bairro": "SOTECO",
-      "cidade": "VILA VELHA",
-      "cnpj": "27.348.556/0001-20",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "19666",
       "razao": "MERCEARIA HORIZONTE 2018 LTDA",
       "fantasia": "MERCEARIA HORIZONTE 2018 LTDA",
@@ -38107,7 +37449,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38135,7 +37477,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38149,7 +37491,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38247,7 +37589,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38261,7 +37603,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38289,7 +37631,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38303,7 +37645,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38317,7 +37659,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38345,7 +37687,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38373,7 +37715,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38387,7 +37729,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38401,7 +37743,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38429,7 +37771,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38443,7 +37785,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38541,7 +37883,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38569,7 +37911,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38653,7 +37995,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38681,7 +38023,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38695,7 +38037,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38709,7 +38051,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38737,7 +38079,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -38807,7 +38149,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "PR",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -38822,20 +38164,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "310",
       "nome_usur1": "CARLOS TERRA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "85188",
-      "razao": "METROPOLES EMPREENDIMENTO LTDA",
-      "fantasia": "METROPOLES EMPREENDIMENTO",
-      "bairro": "GOIABEIRAS",
-      "cidade": "VITORIA",
-      "cnpj": "60.913.842/0001-66",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -39059,7 +38387,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39115,7 +38443,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39157,7 +38485,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39185,7 +38513,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39199,7 +38527,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39227,7 +38555,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39297,7 +38625,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39367,7 +38695,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39423,7 +38751,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39437,7 +38765,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39633,7 +38961,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39703,7 +39031,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MINI-MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39731,7 +39059,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -39787,7 +39115,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -40100,6 +39428,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "51780",
+      "razao": "MODELO SUPERMERCADO LTDA",
+      "fantasia": "MODELO",
+      "bairro": "CENTRO",
+      "cidade": "ITATIBA",
+      "cnpj": "46.381.745/0001-49",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "490",
+      "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "92928",
       "razao": "MODOLETTO BOTECO E LOUNGE LTDA",
       "fantasia": "MODOLETTO",
@@ -40151,7 +39493,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "ES",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -40221,7 +39563,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -40249,7 +39591,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -40338,20 +39680,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "76620",
-      "razao": "MRV LANCHES LTDA",
-      "fantasia": "UNIVERSIDADE DO ACAI",
-      "bairro": "GOIABEIRAS",
-      "cidade": "VITORIA",
-      "cnpj": "32.311.296/0001-58",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "81942",
       "razao": "MS CENTRAL RJ LTDA",
       "fantasia": "MS CENTRAL RJ",
@@ -40406,20 +39734,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "62736",
-      "razao": "MTV BAR E RESTAURANTE LTDA",
-      "fantasia": "DIVINO BOTEQUIM",
-      "bairro": "JARDIM DA PENHA",
-      "cidade": "VITORIA",
-      "cnpj": "19.966.320/0001-29",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "67504",
@@ -40529,7 +39843,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -40599,7 +39913,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -40627,7 +39941,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -40725,7 +40039,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RS",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -40893,7 +40207,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -41010,20 +40324,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANDRE MATTOS"
     },
     {
-      "codcli": "71949",
-      "razao": "NATURALIS HORTIFRUTIGRANJEIROS LTDA",
-      "fantasia": "NATURALIS HORTIFRUTIGRANJEIROS",
-      "bairro": "PRAIA DO CANTO",
-      "cidade": "VITORIA",
-      "cnpj": "26.517.069/0001-80",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "71737",
       "razao": "NATUS BRASILIENSIS INDUSTRIA E COMERCIO LTDA",
       "fantasia": "NATUS BRASILIENSIS",
@@ -41048,20 +40348,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "440",
       "nome_usur1": "ALDICEIA PEIXOTO - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "72686",
-      "razao": "NAVSUPPLY FORNECEDOR DE NAVIOS LTDA",
-      "fantasia": "NAVSUPPLY",
-      "bairro": "ILHA DE SANTA MARIA",
-      "cidade": "VITORIA",
-      "cnpj": "23.177.920/0001-85",
-      "estado": "ES",
-      "ramo": "BENEFICIO FISCAL - ES",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
@@ -41145,7 +40431,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -41383,7 +40669,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -41416,20 +40702,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "73569",
-      "razao": "NOLASCO & VIEIRA LTDA",
-      "fantasia": "NOLASCO & VIEIRA LTDA",
-      "bairro": "ENSEADA DO SUA",
-      "cidade": "VITORIA",
-      "cnpj": "36.317.428/0003-71",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "20362",
       "razao": "NORDESTE PETROLEO LTDA",
       "fantasia": "AUTO POSTO RIO II",
@@ -41453,7 +40725,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -41481,7 +40753,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -41537,7 +40809,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -41598,18 +40870,18 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "78158",
-      "razao": "NOVA VIX DISTRIBUIDORA LTDA",
-      "fantasia": "NOVA VIX DISTRIBUIDORA",
-      "bairro": "MARIA ORTIZ",
-      "cidade": "VITORIA",
-      "cnpj": "50.134.653/0002-12",
-      "estado": "ES",
+      "codcli": "51772",
+      "razao": "NOVA ROMA SUPERMERCADO E PANIFICADORA LTDA",
+      "fantasia": "NOVA ROMA SUPERMERCADO E PANIFICADORA",
+      "bairro": "VILA JAGUARIBE",
+      "cidade": "CAMPOS DO JORDAO",
+      "cnpj": "39.520.645/0001-90",
+      "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
+      "codusur1": "511",
+      "nome_usur1": "ALEXANDRE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "6317",
@@ -41635,7 +40907,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -41677,7 +40949,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SC",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -41943,7 +41215,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42055,7 +41327,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "ES",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42167,7 +41439,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42312,20 +41584,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "71514",
-      "razao": "OUTBACK STEAKHOUSE RESTAURANTES BRASIL S.A.",
-      "fantasia": "OUTBACK STEAKHOUSE",
-      "bairro": "DIVINO ESPIRITO SANTO",
-      "cidade": "VILA VELHA",
-      "cnpj": "17.261.661/0058-09",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "74567",
       "razao": "OUTBACK STEAKHOUSE RESTAURANTES BRASIL S.A.",
       "fantasia": "OUTBACK",
@@ -42405,7 +41663,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42489,7 +41747,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42559,7 +41817,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42587,7 +41845,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42601,7 +41859,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42615,7 +41873,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42629,7 +41887,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42662,20 +41920,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "80349",
-      "razao": "PADARIA E AUTO SERVICO LARANJEIRAS LTDA",
-      "fantasia": "PAO MANIA",
-      "bairro": "PARQUE RESIDENCIAL LARANJEIRAS",
-      "cidade": "SERRA",
-      "cnpj": "39.277.763/0001-10",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "2400",
       "razao": "PADARIA E BAZAR CARIELLO LTDA ME",
       "fantasia": "",
@@ -42685,23 +41929,9 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "76368",
-      "razao": "PADARIA E CONFEITARIA AMENDOEIRAS LTDA",
-      "fantasia": "CONFEITARIA MONTE LIBANO",
-      "bairro": "PRAIA DO CANTO",
-      "cidade": "VITORIA",
-      "cnpj": "09.290.910/0001-20",
-      "estado": "ES",
-      "ramo": "PADARIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "76991",
@@ -42727,7 +41957,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42741,7 +41971,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42755,7 +41985,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42774,20 +42004,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "83156",
-      "razao": "PADARIA E CONFEITARIA BENTO LTDA",
-      "fantasia": "CONFEITARIA MONTE LIBANO",
-      "bairro": "BENTO FERREIRA",
-      "cidade": "VITORIA",
-      "cnpj": "52.258.831/0001-61",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "2000",
       "razao": "PADARIA E CONFEITARIA BONNY LTDA ME",
       "fantasia": "",
@@ -42797,7 +42013,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42811,7 +42027,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42825,7 +42041,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42839,7 +42055,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42853,7 +42069,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42867,7 +42083,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42881,7 +42097,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42895,7 +42111,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42909,7 +42125,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42928,20 +42144,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
-      "codcli": "76449",
-      "razao": "PADARIA E CONFEITARIA ITPC LTDA",
-      "fantasia": "CONFEITARIA MONTE LIBANO",
-      "bairro": "PRAIA DE ITAPARICA",
-      "cidade": "VILA VELHA",
-      "cnpj": "26.772.206/0001-23",
-      "estado": "ES",
-      "ramo": "PADARIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "1982",
       "razao": "PADARIA E CONFEITARIA JOSELE",
       "fantasia": "",
@@ -42951,7 +42153,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -42993,7 +42195,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43007,7 +42209,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43021,7 +42223,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43035,7 +42237,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43049,23 +42251,9 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "76472",
-      "razao": "PADARIA E CONFEITARIA MS LTDA",
-      "fantasia": "PADARIA E CONFEITARIA MS",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "39.998.477/0001-43",
-      "estado": "ES",
-      "ramo": "PADARIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "2389",
@@ -43077,7 +42265,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43091,7 +42279,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43119,7 +42307,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43147,7 +42335,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43189,7 +42377,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43203,7 +42391,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43217,7 +42405,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43231,7 +42419,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43273,7 +42461,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43315,7 +42503,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43371,7 +42559,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43385,7 +42573,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43399,7 +42587,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43427,7 +42615,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43441,7 +42629,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43455,7 +42643,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43469,7 +42657,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43516,20 +42704,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
-      "codcli": "80453",
-      "razao": "PADARIA PAO DIVINO LTDA",
-      "fantasia": "PAO DIVINO",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "34.560.263/0002-58",
-      "estado": "ES",
-      "ramo": "PADARIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "84278",
       "razao": "PADARIA PAO DO GENARO LTDA",
       "fantasia": "PADARIA PAO DO GENARO",
@@ -43567,7 +42741,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43581,7 +42755,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43595,7 +42769,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -43889,7 +43063,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -44001,7 +43175,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -44015,7 +43189,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -44057,7 +43231,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -44169,7 +43343,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -44188,20 +43362,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "81831",
-      "razao": "PAO FRANCES PADARIA E CATERING LTDA",
-      "fantasia": "PAO FRANCES PADARIA E CATERING",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "58.490.708/0001-58",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "4352",
       "razao": "PAO SHOW PADARIA E CONFEITARIA LTDA ME",
       "fantasia": "PADARIA P?O SHOW",
@@ -44211,7 +43371,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -44228,20 +43388,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "21295",
-      "razao": "PAPAGUTH COMERCIAL LTDA",
-      "fantasia": "PAPAGUTH COMERCIAL",
-      "bairro": "ENSEADA DO SUA",
-      "cidade": "VITORIA",
-      "cnpj": "31.697.576/0001-83",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "61917",
@@ -44421,23 +43567,9 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CAFETERIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "72445",
-      "razao": "PATI GI SUPERMERCADOS LTDA",
-      "fantasia": "MARKET EXPRESS",
-      "bairro": "PRAIA DA COSTA",
-      "cidade": "VILA VELHA",
-      "cnpj": "29.615.313/0001-36",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "71238",
@@ -44519,7 +43651,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -44561,7 +43693,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -44673,7 +43805,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -44734,20 +43866,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "71736",
-      "razao": "PEDRO GAUDENSI DOS SANTOS SAMPAIO",
-      "fantasia": "CONVENIENCIA MARLIM",
-      "bairro": "CASTELANDIA",
-      "cidade": "SERRA",
-      "cnpj": "26.460.421/0001-99",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "38528",
       "razao": "PEDRO H. M. VIANNA ESPORTIVA LTDA",
       "fantasia": "SCOOBY SPORTS",
@@ -44760,6 +43878,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51767",
+      "razao": "PEDRO IVAN CARDOSO MINIMERCADO",
+      "fantasia": "MERCADINHO",
+      "bairro": "CENTRO",
+      "cidade": "SANTO ANTONIO DO PINHAL",
+      "cnpj": "04.824.241/0001-06",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "511",
+      "nome_usur1": "ALEXANDRE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "49942",
@@ -44930,20 +44062,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "94282",
-      "razao": "PETIT DOCERIA LTDA",
-      "fantasia": "PETIT DOCERIA",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "28.492.479/0001-40",
-      "estado": "ES",
-      "ramo": "PADARIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "38852",
       "razao": "PETRUS DISTRIBUIDORA DE PRODUTOS DE BELEZA LTDA",
       "fantasia": "PETRUS DISTRIBUIDORA DE PRODUTOS DE BELE",
@@ -45051,7 +44169,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45121,7 +44239,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45252,20 +44370,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANA CLARA FASSANO - OFF TRADE"
     },
     {
-      "codcli": "72316",
-      "razao": "PLAZA CAFE LTDA",
-      "fantasia": "PLAZA CAFE",
-      "bairro": "SANTA LUCIA",
-      "cidade": "VITORIA",
-      "cnpj": "09.041.502/0001-35",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "27791",
       "razao": "PLENA ESPERANCA CONVENIENCIA LTDA",
       "fantasia": "PLENA ESPERANCA CONVENIENCIA",
@@ -45275,7 +44379,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45289,7 +44393,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45303,7 +44407,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45345,7 +44449,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45373,7 +44477,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45513,7 +44617,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45630,20 +44734,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "84830",
-      "razao": "PORTUGAL DISTRIBUIDORA DE MEDICAMENTOS E PERFUMARIA LTDA",
-      "fantasia": "VIX FARMA",
-      "bairro": "JARDIM DE ALAH",
-      "cidade": "CARIACICA",
-      "cnpj": "10.332.340/0001-73",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "11570",
       "razao": "POSTO 15 PADARIA E CONVENIENCIA LTDA",
       "fantasia": "POSTO 15 PADARIA",
@@ -45667,7 +44757,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45737,7 +44827,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "POSTO DE GASOLINA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45765,7 +44855,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45821,7 +44911,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -45849,7 +44939,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "POSTO DE GASOLINA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -46171,7 +45261,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -46241,7 +45331,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "OUTROS",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -46283,7 +45373,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -46381,7 +45471,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -46465,7 +45555,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -46577,7 +45667,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -47011,7 +46101,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -47112,20 +46202,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "80378",
-      "razao": "POSTO PRIME NORTE SUL LTDA",
-      "fantasia": "POSTO PRIME NORTE",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "33.869.754/0001-31",
-      "estado": "ES",
-      "ramo": "POSTO DE GASOLINA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "71",
@@ -47487,7 +46563,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -47501,7 +46577,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -47571,7 +46647,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -47579,11 +46655,11 @@ const CLIENTES_RCA_DATA = {
       "codcli": "91386",
       "razao": "PRISCILA BESSA DE PAULA 08926465780",
       "fantasia": "PRISCILA BESSA DE PAULA",
-      "bairro": "JARDIM METRÓPOLE",
+      "bairro": "JARDIM METROPOLE",
       "cidade": "SAO JOAO DE MER",
       "cnpj": "38.208.380/0001-27",
       "estado": "RJ",
-      "ramo": "OUTROS",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "378",
@@ -47599,7 +46675,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -47767,7 +46843,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "PR",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -47866,20 +46942,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "469",
       "nome_usur1": "PATRICIA RAMOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "81953",
-      "razao": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
-      "fantasia": "QUINTAL DA NATUREZA",
-      "bairro": "BENTO FERREIRA",
-      "cidade": "VITORIA",
-      "cnpj": "13.272.322/0001-31",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -48103,7 +47165,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -48145,7 +47207,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -48159,7 +47221,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "ESCRITÓRIO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -48173,7 +47235,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -48341,7 +47403,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -48355,7 +47417,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -48523,7 +47585,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -48822,18 +47884,18 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "50486",
-      "razao": "RANCHO ALIMENTOS LTDA",
-      "fantasia": "RANCHO ALIMENTOS",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "35.091.355/0001-18",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
+      "codcli": "51768",
+      "razao": "RANGEL NEGRINI LARA",
+      "fantasia": "ACOUGUE E AVICOLA NEGRINI",
+      "bairro": "CENTRO",
+      "cidade": "SANTO ANTONIO DO PINHAL",
+      "cnpj": "07.956.034/0001-01",
+      "estado": "SP",
+      "ramo": "AÇOUGUE",
+      "codusur1": "511",
+      "nome_usur1": "ALEXANDRE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82958",
@@ -48934,20 +47996,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "84776",
-      "razao": "RAYANE LIMA SOARES",
-      "fantasia": "ITA DRINKIS",
-      "bairro": "CENTRO",
-      "cidade": "ITAGUACU",
-      "cnpj": "59.947.223/0001-03",
-      "estado": "ES",
-      "ramo": "BAR",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "42362",
       "razao": "RAYOL MARKET LTDA",
       "fantasia": "RAYOL MARKET",
@@ -48957,7 +48005,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -49013,7 +48061,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -49055,7 +48103,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -49139,7 +48187,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -49167,7 +48215,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -49181,7 +48229,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -49195,7 +48243,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -49209,7 +48257,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "CONVENIENCIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -49335,7 +48383,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -49419,7 +48467,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -49564,20 +48612,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "95169",
-      "razao": "RENOVA SILCOM COMERCIO LTDA",
-      "fantasia": "RENOVA SILCOM",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "17.595.374/0001-08",
-      "estado": "ES",
-      "ramo": "LOJA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "37723",
       "razao": "RENOVO DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS EIREL",
       "fantasia": "RENOVO DISTRIBUIDORA DE BEBIDAS",
@@ -49671,7 +48705,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "PR",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -49742,20 +48776,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "71679",
-      "razao": "RESTAURANTE E CAFE METROPOLES LTDA",
-      "fantasia": "RESTAURANTE E CAFE",
-      "bairro": "MORADA DE LARANJEIRAS",
-      "cidade": "SERRA",
-      "cnpj": "50.253.005/0001-02",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -49900,20 +48920,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "95037",
-      "razao": "RESTAURANTE JARDINS LTDA",
-      "fantasia": "RESTAURANTE JARDINS",
-      "bairro": "JARDIM LIMOEIRO",
-      "cidade": "SERRA",
-      "cnpj": "66.123.240/0001-91",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "90727",
       "razao": "RESTAURANTE MAR E TERRA LTDA",
       "fantasia": "RESTAURANTE MAR E TERRA",
@@ -49966,20 +48972,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "codusur1": "425",
       "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "81899",
-      "razao": "RESTAURANTE QUEBRA NOZES LTDA",
-      "fantasia": "RESTAURANTE QUEBRA NOZES",
-      "bairro": "MATA DA PRAIA",
-      "cidade": "VITORIA",
-      "cnpj": "49.517.944/0001-20",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -50217,7 +49209,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -50539,7 +49531,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -50553,7 +49545,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -50777,7 +49769,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -51141,7 +50133,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -51214,20 +50206,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RENATO JUNIOR - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "80402",
-      "razao": "S.P.MULTISHOW LTDA",
-      "fantasia": "S.P.M",
-      "bairro": "REDENCAO",
-      "cidade": "VITORIA",
-      "cnpj": "35.947.772/0001-10",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "95186",
@@ -51356,20 +50334,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "81992",
-      "razao": "SAIBEL & MONTIBELER - RESTAURANTE E SELF SERVICE LTDA",
-      "fantasia": "VARANDA GRILL CHURRASCARIA SELF SERVICE",
-      "bairro": "PORTAL DE JACARAIPE",
-      "cidade": "SERRA",
-      "cnpj": "21.333.207/0001-58",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "28748",
       "razao": "SAIDERA BRASIL LTDA",
       "fantasia": "SAIDERA BRASIL",
@@ -51449,7 +50413,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "ES",
       "ramo": "OUTROS",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -51664,20 +50628,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
-      "codcli": "83601",
-      "razao": "SANTOS & PIZZIN BAR E RESTAURANTE LTDA",
-      "fantasia": "KING KONE",
-      "bairro": "JARDIM DA PENHA",
-      "cidade": "VITORIA",
-      "cnpj": "10.644.155/0001-14",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "92448",
       "razao": "SANTOS IMPORTACAO E INTERMEDIACAO DE NEGOCIOS LTDA",
       "fantasia": "SANTOS IMPORTACAO E INTERMEDIACAO DE NEG",
@@ -51686,8 +50636,8 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "56.084.001/0001-16",
       "estado": "ES",
       "ramo": "BENEFICIO FISCAL - ES",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
+      "codusur1": "508",
+      "nome_usur1": "MARCELO DE SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -51911,7 +50861,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -52065,7 +51015,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -52149,7 +51099,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -52222,20 +51172,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "80164",
-      "razao": "SHAKA SURF PARK LTDA",
-      "fantasia": "SHAKA SURF PARK",
-      "bairro": "SETIBA",
-      "cidade": "GUARAPARI",
-      "cnpj": "55.037.811/0001-59",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "3190",
@@ -52401,7 +51337,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -52415,7 +51351,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -52541,7 +51477,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -52611,7 +51547,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -52961,7 +51897,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -52976,20 +51912,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "84523",
-      "razao": "SOUTO E VIANA LTDA",
-      "fantasia": "MEGASET",
-      "bairro": "SAO PEDRO",
-      "cidade": "SERRA",
-      "cnpj": "60.850.100/0001-39",
-      "estado": "ES",
-      "ramo": "SERVIÇOS",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -53062,20 +51984,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "85954",
-      "razao": "SR DELIVERY LTDA",
-      "fantasia": "SR DELIVERY",
-      "bairro": "REPUBLICA",
-      "cidade": "VITORIA",
-      "cnpj": "58.169.815/0001-89",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "35854",
@@ -53311,7 +52219,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -53381,7 +52289,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCEARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -53521,7 +52429,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -53606,6 +52514,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "391",
       "nome_usur1": "ANDRE SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51770",
+      "razao": "SUPERCAMPOS COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "SUPERMERCADO SUPERCAMPOS",
+      "bairro": "RECANTO FELIZ",
+      "cidade": "CAMPOS DO JORDAO",
+      "cnpj": "47.696.985/0001-03",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "511",
+      "nome_usur1": "ALEXANDRE SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -53829,7 +52751,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -53843,7 +52765,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -53858,20 +52780,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "336",
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "92166",
-      "razao": "SUPERMERCADO BIA LTDA",
-      "fantasia": "SUPERMERCADO BIA",
-      "bairro": "GRANDE VITORIA",
-      "cidade": "VITORIA",
-      "cnpj": "39.815.386/0002-06",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
@@ -53983,7 +52891,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -54011,7 +52919,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -54053,7 +52961,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -54207,7 +53115,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -54417,7 +53325,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -54660,6 +53568,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51769",
+      "razao": "SUPERMERCADO LINO LTDA",
+      "fantasia": "SUPERMERCADO LINO",
+      "bairro": "VILA ABERNESSIA",
+      "cidade": "CAMPOS DO JORDAO",
+      "cnpj": "62.671.188/0001-57",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "511",
+      "nome_usur1": "ALEXANDRE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "43935",
       "razao": "SUPERMERCADO LINS LTDA",
       "fantasia": "MERCEARIA LINS",
@@ -54683,7 +53605,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -54739,7 +53661,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -54823,7 +53745,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -54907,7 +53829,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -54924,6 +53846,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "51782",
+      "razao": "SUPERMERCADO OLGUIM LTDA",
+      "fantasia": "SUPERMERCADO OLGUIM",
+      "bairro": "JARDIM CENTENÁRIO",
+      "cidade": "MOGI GUACU",
+      "cnpj": "55.077.796/0001-72",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50721",
@@ -55019,7 +53955,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -55243,7 +54179,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -55257,7 +54193,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -55285,7 +54221,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -55355,7 +54291,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "OUTROS",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -55607,7 +54543,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -55719,7 +54655,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -55901,7 +54837,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -55929,7 +54865,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -55985,7 +54921,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -56013,7 +54949,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -56130,6 +55066,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50805",
+      "razao": "SUPERMERCADO ZEBU LTDA",
+      "fantasia": "SUPERMERCADO ZEBU",
+      "bairro": "COHAB I",
+      "cidade": "SAO MANUEL",
+      "cnpj": "03.917.740/0001-85",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51478",
       "razao": "SUPERMERCADO ZIO JOANE LTDA",
       "fantasia": "SUPERMERCADO ZIO JOANE",
@@ -56167,7 +55117,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -56223,7 +55173,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -56517,7 +55467,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -56573,7 +55523,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -56601,7 +55551,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -56615,7 +55565,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -56671,7 +55621,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -56741,7 +55691,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -56839,7 +55789,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -56942,6 +55892,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "42613",
+      "razao": "T W ALCANTARA ATACAREJO LTDA",
+      "fantasia": "T W ALCANTARA ATACAREJO",
+      "bairro": "JARDIM DIAMANTE",
+      "cidade": "LOUVEIRA",
+      "cnpj": "51.448.301/0001-13",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "46386",
       "razao": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
       "fantasia": "ATACADO SOARES",
@@ -56952,20 +55916,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "318",
       "nome_usur1": "MARCUS TANAMACHI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "77050",
-      "razao": "T&C DO PRADO CASA DE CHA LTDA",
-      "fantasia": "T&C DO PRADO CASA DE CHA",
-      "bairro": "ENSEADA DO SUA",
-      "cidade": "VITORIA",
-      "cnpj": "31.087.197/0001-71",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -57231,23 +56181,9 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "94233",
-      "razao": "TANUKI IZAKAYA LTDA",
-      "fantasia": "TANUKI IZAKAYA",
-      "bairro": "PRAIA DO CANTO",
-      "cidade": "VITORIA",
-      "cnpj": "62.701.967/0001-58",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "80158",
@@ -57525,7 +56461,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RS",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -57570,20 +56506,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "71627",
-      "razao": "THALASSA CULINARIA GREGA MEDITERRANEA LTDA",
-      "fantasia": "ALAS RESTAURANTE",
-      "bairro": "SANTA LUIZA",
-      "cidade": "VITORIA",
-      "cnpj": "23.357.901/0001-30",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "27598",
@@ -57707,7 +56629,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -57789,7 +56711,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "54.598.756/0001-03",
       "estado": "RJ",
-      "ramo": "OUTROS",
+      "ramo": "SERVIÇOS",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
@@ -57931,7 +56853,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -57945,7 +56867,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -57973,7 +56895,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58057,7 +56979,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58071,7 +56993,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58127,7 +57049,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "OUTROS",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "426",
       "nome_usur2": "ADER ALONSO - OFF TRADE"
     },
@@ -58272,20 +57194,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "RAFAEL SARNAGLIA"
     },
     {
-      "codcli": "76618",
-      "razao": "UNIVERSIDADE DO ACAI VILA VELHA LTDA",
-      "fantasia": "UNIVERSIDADE DO ACAI",
-      "bairro": "JOCKEY DE ITAPARICA",
-      "cidade": "VILA VELHA",
-      "cnpj": "35.796.298/0001-72",
-      "estado": "ES",
-      "ramo": "CANTINA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "25681",
       "razao": "UP GOURMET RESTAURANTES LTDA",
       "fantasia": "HOTEL UP GOURMET BARRA",
@@ -58337,7 +57245,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58393,7 +57301,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "ES",
       "ramo": "EVENTOS",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58421,7 +57329,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "BAR",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58449,7 +57357,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58463,7 +57371,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58547,7 +57455,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58561,7 +57469,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "ES",
       "ramo": "EVENTOS",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58603,7 +57511,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58701,7 +57609,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58855,7 +57763,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "ES",
       "ramo": "INDÚSTRIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -58995,7 +57903,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PRODUTO NATURAIS",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -59051,7 +57959,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -59079,7 +57987,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -59168,20 +58076,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "82529",
-      "razao": "VILA DA PRAIA LTDA",
-      "fantasia": "VILA DA PRAIA",
-      "bairro": "PRAIA DA COSTA",
-      "cidade": "VILA VELHA",
-      "cnpj": "59.481.744/0001-18",
-      "estado": "ES",
-      "ramo": "BAR",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "25914",
       "razao": "VILA MADALENA CONVENIENCIAS LTDA",
       "fantasia": "L R",
@@ -59205,7 +58099,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "ES",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -59306,20 +58200,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
-    },
-    {
-      "codcli": "79745",
-      "razao": "VILUCCA PADARIA E CONFEITARIA LTDA",
-      "fantasia": "ARMAZEM DO PAO",
-      "bairro": "JARDIM CAMBURI",
-      "cidade": "VITORIA",
-      "cnpj": "53.498.228/0001-10",
-      "estado": "ES",
-      "ramo": "PADARIA",
-      "codusur1": "257",
-      "nome_usur1": "TIAGO SILVA - OFF TRADE",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "14107",
@@ -59709,7 +58589,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -59737,7 +58617,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -59793,7 +58673,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RS",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -60059,7 +58939,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "RJ",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -60423,7 +59303,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "PADARIA",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -60437,7 +59317,7 @@ const CLIENTES_RCA_DATA = {
       "estado": "SP",
       "ramo": "MERCADO",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
