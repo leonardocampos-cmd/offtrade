@@ -159456,3 +159456,7 @@ OK Servico ativo - https://offtrade.duckdns.org
 [10/07/2026 16:27:22,67] OK 
 ---------------------------------------- 
 [10/07/2026 21:23:37,56] Iniciando... 
+[14/07/2026 15:08:52,73] Iniciando... 
+[AVISO] Já existe uma execução do pipeline em andamento (lock criado há 26s) — abortando esta execução para não escrever em cima dela.
+[14/07/2026 15:09:03,30] OK 
+---------------------------------------- 
