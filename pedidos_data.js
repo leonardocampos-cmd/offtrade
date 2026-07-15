@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "15/07/2026 13:24",
+  "atualizado_em": "15/07/2026 13:47",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -701,6 +701,28 @@ const PEDIDOS_DATA = {
       ]
     },
     {
+      "numped": "468000095",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "RENATO JUNIOR - OFF TRADE",
+      "cliente": "TROSTOLF COMERCIO ATACADISTA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 23616.0,
+      "itens": [
+        {
+          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "qt": 2880,
+          "val": 23616.0
+        }
+      ]
+    },
+    {
       "numped": "489000048",
       "numnota": "",
       "data": "15/07/2026",
@@ -1089,6 +1111,38 @@ const PEDIDOS_DATA = {
       ]
     },
     {
+      "numped": "486000083",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "LEONARDO FLOREZI - OFF TRADE",
+      "cliente": "SUP BRASIL",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 1462.44,
+      "itens": [
+        {
+          "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "qt": 1,
+          "val": 275.76
+        },
+        {
+          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "qt": 120,
+          "val": 1078.8
+        },
+        {
+          "desc": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "qt": 12,
+          "val": 107.88
+        }
+      ]
+    },
+    {
       "numped": "474000046",
       "numnota": "",
       "data": "15/07/2026",
@@ -1323,6 +1377,43 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY JACK DANIELS APPLE 1L - DEST",
           "qt": 6,
           "val": 599.4
+        }
+      ]
+    },
+    {
+      "numped": "489000049",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "FERNANDO BERTIN - OFF TRADE",
+      "cliente": "62.384.846 PAULO ROBERTO FLORIANO",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 514.56,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "qt": 1,
+          "val": 99.9
+        },
+        {
+          "desc": "WHISKY PASSPORT 1L",
+          "qt": 3,
+          "val": 98.7
+        },
+        {
+          "desc": "LICOR 43 DIEGO ZAMORA 700ML",
+          "qt": 2,
+          "val": 233.8
+        },
+        {
+          "desc": "GIN ROCKS STRAWBERRY 1LT",
+          "qt": 4,
+          "val": 82.16
         }
       ]
     },
@@ -2116,7 +2207,7 @@ const PEDIDOS_DATA = {
       "nome": "LUCELIA BARROS - OFF TRADE",
       "cliente": "WANG ATACADISTA E DISTRIBUIDORA LTDA",
       "sistema": "SPON",
-      "estado": "Sem Estado",
+      "estado": "SP",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
@@ -2274,7 +2365,7 @@ const PEDIDOS_DATA = {
       "nome": "LUCELIA BARROS - OFF TRADE",
       "cliente": "F. DE JESUS MENEZES",
       "sistema": "SPON",
-      "estado": "Sem Estado",
+      "estado": "SP",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
@@ -2296,7 +2387,7 @@ const PEDIDOS_DATA = {
       "nome": "LUCELIA BARROS - OFF TRADE",
       "cliente": "MINIMERCADO E DROGARIA HF LTDA",
       "sistema": "SPON",
-      "estado": "Sem Estado",
+      "estado": "SP",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
@@ -2355,7 +2446,7 @@ const PEDIDOS_DATA = {
       "nome": "LUCELIA BARROS - OFF TRADE",
       "cliente": "RENATA JOBIM DE SOUZA 27362096801",
       "sistema": "SPON",
-      "estado": "Sem Estado",
+      "estado": "SP",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
@@ -2382,7 +2473,7 @@ const PEDIDOS_DATA = {
       "nome": "LUCELIA BARROS - OFF TRADE",
       "cliente": "M & M SUPERMERCADO LTDA",
       "sistema": "SPON",
-      "estado": "Sem Estado",
+      "estado": "SP",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
@@ -182122,8 +182213,8 @@ const PEDIDOS_DATA = {
       "cliente": "EMPORIO DO BEM LTDA",
       "sistema": "SPON",
       "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
       "obs": "",
       "total": 19770.0,
@@ -238096,8 +238187,8 @@ const PEDIDOS_DATA = {
       "cliente": "ALEXANDRE TEIXEIRA LTDA",
       "sistema": "SPON",
       "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
       "obs": "",
       "total": 1377.0,
@@ -288410,8 +288501,8 @@ const PEDIDOS_DATA = {
       "cliente": "EMPORIO DO BEM LTDA",
       "sistema": "SPON",
       "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
       "obs": "",
       "total": 19770.0,
@@ -296429,8 +296520,8 @@ const PEDIDOS_DATA = {
       "cliente": "ALEXANDRE TEIXEIRA LTDA",
       "sistema": "SPON",
       "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
       "obs": "",
       "total": 1951.44,
