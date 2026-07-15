@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "15/07/2026 13:51",
+  "atualizado_em": "15/07/2026 14:07",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -345,48 +345,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY BALLANTINE S FINEST 1L",
           "qt": 12,
           "val": 778.8
-        }
-      ]
-    },
-    {
-      "numped": "153001300",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "ANGELO NEVES SUZART - OFF TRADE",
-      "cliente": "CLAUDIA HONORIO DE LIMA ASSIS 03369320738",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "obs": "nao paga descarga",
-      "total": 228.58,
-      "itens": [
-        {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 1,
-          "val": 36.9
-        },
-        {
-          "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "qt": 1,
-          "val": 38.9
-        },
-        {
-          "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "qt": 1,
-          "val": 48.98
-        },
-        {
-          "desc": "PINATI SIMPLE WHEY PISTACHE (4)16X35G",
-          "qt": 1,
-          "val": 43.9
-        },
-        {
-          "desc": "PINATI SLIM WHEY BEIJINHO (4) 16X35G",
-          "qt": 1,
-          "val": 59.9
         }
       ]
     },
