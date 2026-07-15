@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "15/07/2026 16:06",
+  "atualizado_em": "15/07/2026 19:11",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -1568,14 +1568,14 @@ const CRUSOE_DATA = {
         {
           "rca": 419,
           "vendedor": "Natali de Oliveira",
-          "pedidos": 12,
-          "positivacoes": 10,
-          "novos_skus": 12,
-          "faturamento": 1635.42,
-          "pontos_positivacao": 50,
-          "pontos_novos_skus": 48,
+          "pedidos": 13,
+          "positivacoes": 11,
+          "novos_skus": 13,
+          "faturamento": 1875.42,
+          "pontos_positivacao": 55,
+          "pontos_novos_skus": 52,
           "pontos_pedidos_valor": 0,
-          "pontos_total": 98,
+          "pontos_total": 107,
           "vendas": [
             {
               "numnota": "409254",
@@ -1866,6 +1866,150 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "412503",
+              "data": "15/07/2026",
+              "cliente": "CHARLES SILVA DE AQUINO 15692489740",
+              "valor_pedido": 240.0,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 1.0,
+                  "valor": 240.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rca": 439,
+          "vendedor": "Mateus Cardoso",
+          "pedidos": 3,
+          "positivacoes": 3,
+          "novos_skus": 5,
+          "faturamento": 1484.06,
+          "pontos_positivacao": 15,
+          "pontos_novos_skus": 20,
+          "pontos_pedidos_valor": 2,
+          "pontos_total": 37,
+          "vendas": [
+            {
+              "numnota": "410357",
+              "data": "08/07/2026",
+              "cliente": "FRANCISCO LUIZ ALVES 75441640715",
+              "valor_pedido": 249.5,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 1.0,
+                  "valor": 249.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "412326",
+              "data": "15/07/2026",
+              "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+              "valor_pedido": 608.88,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 1.0,
+                  "valor": 208.56,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 1.0,
+                  "valor": 208.56,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "412527",
+              "data": "15/07/2026",
+              "cliente": "MERCADO PRAIA BRAVA DE ANGRA DOS REIS LTDA",
+              "valor_pedido": 625.68,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 3.0,
+                  "valor": 625.68,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2064,96 +2208,6 @@ const CRUSOE_DATA = {
           ]
         },
         {
-          "rca": 439,
-          "vendedor": "Mateus Cardoso",
-          "pedidos": 2,
-          "positivacoes": 2,
-          "novos_skus": 4,
-          "faturamento": 858.38,
-          "pontos_positivacao": 10,
-          "pontos_novos_skus": 16,
-          "pontos_pedidos_valor": 1,
-          "pontos_total": 27,
-          "vendas": [
-            {
-              "numnota": "410357",
-              "data": "08/07/2026",
-              "cliente": "FRANCISCO LUIZ ALVES 75441640715",
-              "valor_pedido": 249.5,
-              "eventos": [
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-                  "qt": 1.0,
-                  "valor": 249.5,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "numnota": "412326",
-              "data": "15/07/2026",
-              "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
-              "valor_pedido": 608.88,
-              "eventos": [
-                {
-                  "tipo": "pedido (R$500-1000)",
-                  "pontos": 1
-                },
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 1.0,
-                  "valor": 208.56,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
-                  "qt": 1.0,
-                  "valor": 208.56,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "rca": 144,
           "vendedor": "Diogo Raposo",
           "pedidos": 2,
@@ -2305,7 +2359,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 4115.8,
+          "faturamento": 4399.0,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
