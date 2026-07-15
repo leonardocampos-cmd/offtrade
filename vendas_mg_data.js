@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "15/07/2026 14:08",
+  "atualizado_em": "15/07/2026 15:21",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 87485.96,
-        "pos": 57,
+        "fat": 90327.58,
+        "pos": 60,
         "fat_ant": 343937.59
       }
     },
@@ -45893,6 +45893,105 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 3,
           "valor": 230.7
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "30905",
+          "cliente": "LUC2 COMERCIO DE ALIMENTOS LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 7,
+          "valor": 314.3
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "30801",
+          "cliente": "SUSHINARA PREMIUM LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 383.52
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "30041",
+          "cliente": "B.R.C. HAMBURGUERS EIRELI",
+          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 26.9
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "30041",
+          "cliente": "B.R.C. HAMBURGUERS EIRELI",
+          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 26.9
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "30041",
+          "cliente": "B.R.C. HAMBURGUERS EIRELI",
+          "produto": "ST PIERRE ZERO GREEN APPLE 310 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 26.9
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "30041",
+          "cliente": "B.R.C. HAMBURGUERS EIRELI",
+          "produto": "ST PIERRE SUGAR FREE LT 270MLX6",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 107.6
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "30041",
+          "cliente": "B.R.C. HAMBURGUERS EIRELI",
+          "produto": "ST PIERRE TONICA LT 270MLX6",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 107.6
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "30041",
+          "cliente": "B.R.C. HAMBURGUERS EIRELI",
+          "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 26.9
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 550.8
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO MARQUÉS DE TEJARES 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 347.4
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 922.8
         }
       ]
     },
