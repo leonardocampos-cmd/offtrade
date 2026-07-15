@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "15/07/2026 15:09",
+  "atualizado_em": "15/07/2026 16:06",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2066,14 +2066,14 @@ const CRUSOE_DATA = {
         {
           "rca": 439,
           "vendedor": "Mateus Cardoso",
-          "pedidos": 1,
-          "positivacoes": 1,
-          "novos_skus": 1,
-          "faturamento": 249.5,
-          "pontos_positivacao": 5,
-          "pontos_novos_skus": 4,
-          "pontos_pedidos_valor": 0,
-          "pontos_total": 9,
+          "pedidos": 2,
+          "positivacoes": 2,
+          "novos_skus": 4,
+          "faturamento": 858.38,
+          "pontos_positivacao": 10,
+          "pontos_novos_skus": 16,
+          "pontos_pedidos_valor": 1,
+          "pontos_total": 27,
           "vendas": [
             {
               "numnota": "410357",
@@ -2091,6 +2091,57 @@ const CRUSOE_DATA = {
                   "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
                   "qt": 1.0,
                   "valor": 249.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "412326",
+              "data": "15/07/2026",
+              "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+              "valor_pedido": 608.88,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 1.0,
+                  "valor": 208.56,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 1.0,
+                  "valor": 208.56,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
