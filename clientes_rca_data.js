@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/07/2026 17:32",
-  "total": 4253,
+  "atualizado_em": "15/07/2026 09:28",
+  "total": 4256,
   "clientes": [
     {
       "codcli": "31683",
@@ -5086,6 +5086,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51797",
+      "razao": "ADEGA RDR LTDA",
+      "fantasia": "ADEGA RDR",
+      "bairro": "PIRAPORINHA",
+      "cidade": "DIADEMA",
+      "cnpj": "18.782.986/0001-64",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50196",
       "razao": "ADEGA RODRIGUES LTDA",
       "fantasia": "ADEGA FAZENDINHA",
@@ -5110,6 +5124,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ADEGA",
       "codusur1": "497",
       "nome_usur1": "LUIS MACHADO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51796",
+      "razao": "ADEGA ROTARY LTDA",
+      "fantasia": "ADEGA DO CHICAO E CEARA",
+      "bairro": "SERRARIA",
+      "cidade": "DIADEMA",
+      "cnpj": "01.534.792/0001-47",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -20974,6 +21002,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51795",
+      "razao": "F M P DA SILVA LOJAS DE CONVENIENCIA",
+      "fantasia": "BEER DO PEREIRA",
+      "bairro": "JARDIM SUECIA",
+      "cidade": "MOGI GUACU",
+      "cnpj": "10.622.734/0001-66",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "473",
+      "nome_usur1": "MARCELO PEREIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "62248",
