@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "14/07/2026 17:32",
+  "atualizado_em": "15/07/2026 09:28",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -250,15 +250,15 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "07/05/2026",
-              "PRODUTO": "TEQUILA DON JULIO BLANCO 750ML",
-              "FANTASIA": "DIAGEO",
-              "VALOR": 3238.2
-            },
-            {
-              "DATA": "07/05/2026",
               "PRODUTO": "TEQUILA PATRON SILVER",
               "FANTASIA": "BACARDI",
               "VALOR": 1188.0
+            },
+            {
+              "DATA": "07/05/2026",
+              "PRODUTO": "TEQUILA DON JULIO BLANCO 750ML",
+              "FANTASIA": "DIAGEO",
+              "VALOR": 3238.2
             },
             {
               "DATA": "07/05/2026",
@@ -346,6 +346,12 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "13/05/2026",
+              "PRODUTO": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+              "FANTASIA": "RED BULL",
+              "VALOR": 51770.88
+            },
+            {
+              "DATA": "13/05/2026",
               "PRODUTO": "RED BULL MORANGO PESSEGO 24X250ML",
               "FANTASIA": "RED BULL",
               "VALOR": 5392.8
@@ -361,12 +367,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "RED BULL AMORA SF 24X250ML",
               "FANTASIA": "RED BULL",
               "VALOR": 1797.6
-            },
-            {
-              "DATA": "13/05/2026",
-              "PRODUTO": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-              "FANTASIA": "RED BULL",
-              "VALOR": 51770.88
             },
             {
               "DATA": "13/05/2026",
@@ -454,6 +454,12 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "22/05/2026",
+              "PRODUTO": "VODCA SMIRNOFF RED 998 ML",
+              "FANTASIA": "DIAGEO",
+              "VALOR": 58320.0
+            },
+            {
+              "DATA": "22/05/2026",
               "PRODUTO": "VODKA ABSOLUT RASPBERRY - 750ML",
               "FANTASIA": "PERNOD",
               "VALOR": 6348.0
@@ -469,12 +475,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "VODKA ORLOFF 1L",
               "FANTASIA": "PERNOD",
               "VALOR": 2786.0
-            },
-            {
-              "DATA": "22/05/2026",
-              "PRODUTO": "VODCA SMIRNOFF RED 998 ML",
-              "FANTASIA": "DIAGEO",
-              "VALOR": 58320.0
             },
             {
               "DATA": "22/05/2026",
@@ -2300,15 +2300,15 @@ const CLIENTES_588_DATA = {
           "itens": [
             {
               "DATA": "12/05/2026",
-              "PRODUTO": "CACHACA SAO FRANCISCO 970ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 6270.0
-            },
-            {
-              "DATA": "12/05/2026",
               "PRODUTO": "LICOR DE WHISKY PASSPORT APPLE",
               "FANTASIA": "PERNOD",
               "VALOR": 538.5
+            },
+            {
+              "DATA": "12/05/2026",
+              "PRODUTO": "CACHACA SAO FRANCISCO 970ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 6270.0
             },
             {
               "DATA": "12/05/2026",
@@ -2330,6 +2330,12 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "12/05/2026",
+              "PRODUTO": "BEEFEATER PINK 700ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 778.8
+            },
+            {
+              "DATA": "12/05/2026",
               "PRODUTO": "VODKA ABSOLUT TOMORROWLAND 700ML",
               "FANTASIA": "PERNOD",
               "VALOR": 754.8
@@ -2345,12 +2351,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "BEEFEATER BLACKBERRY  700ML",
               "FANTASIA": "PERNOD",
               "VALOR": 754.8
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "BEEFEATER PINK 700ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 778.8
             },
             {
               "DATA": "12/05/2026",
