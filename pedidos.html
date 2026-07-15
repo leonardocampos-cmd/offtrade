@@ -63,6 +63,13 @@
       font-weight: 700; cursor: pointer; font-family: inherit;
     }
     .btn-csv:hover { opacity: .88; }
+    .chk-hoje {
+      display: flex; align-items: center; gap: 7px;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; padding: 8px 14px; font-size: .88rem;
+      cursor: pointer; user-select: none;
+    }
+    .chk-hoje input { cursor: pointer; accent-color: var(--accent); width: 15px; height: 15px; }
     .info { font-size: .8rem; color: var(--muted); margin-left: auto; }
     .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
     table { width: 100%; border-collapse: collapse; font-size: .82rem; }
@@ -127,6 +134,9 @@
     <option value="">Todos os Vendedores</option>
   </select>
   <input type="text" id="busca" placeholder="Buscar por cliente, pedido, NF..." oninput="aplicarFiltro()">
+  <label class="chk-hoje">
+    <input type="checkbox" id="chk-hoje" onchange="aplicarFiltro()"> Só hoje
+  </label>
   <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
   <span class="info" id="info-count"></span>
 </div>
@@ -310,20 +320,28 @@ function ordenarPor(campo) {
   aplicarFiltro();
 }
 
+function _hojeISO() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
 function _filtrados() {
   const estado     = document.getElementById('sel-estado').value;
   const gerente    = document.getElementById('sel-gerente').value;
   const supervisor = document.getElementById('sel-supervisor').value;
   const vendedor   = document.getElementById('sel-vendedor').value;
   const busca      = document.getElementById('busca').value.trim().toLowerCase();
+  const soHoje     = document.getElementById('chk-hoje').checked;
+  const hoje       = _hojeISO();
   let lista = _listaAtual().filter(p => {
     const matchEstado     = !estado || p.estado === estado;
     const matchGerente    = !gerente || p.gerente === gerente;
     const matchSupervisor = !supervisor || p.supervisor === supervisor;
     const matchVendedor   = !vendedor || p.nome === vendedor;
+    const matchHoje       = !soHoje || p.data_ord === hoje;
     const matchBusca = !busca || [p.cliente, p.numped, p.numnota]
       .some(v => v && String(v).toLowerCase().includes(busca));
-    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchBusca;
+    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchHoje && matchBusca;
   });
   const { campo, asc } = _ordem;
   const campoOrd = campo === 'data' ? 'data_ord' : campo;
