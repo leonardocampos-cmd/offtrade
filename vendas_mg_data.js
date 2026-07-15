@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "15/07/2026 15:21",
+  "atualizado_em": "15/07/2026 16:15",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 90327.58,
+        "fat": 88506.58,
         "pos": 60,
         "fat_ant": 343937.59
       }
@@ -209,7 +209,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 303193.62,
+        "fat": 301094.82,
         "pos": 7,
         "fat_ant": 1039602.9
       }
@@ -45965,33 +45965,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 26.9
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "30374",
-          "cliente": "EL MAI LTDA",
-          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 550.8
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "30374",
-          "cliente": "EL MAI LTDA",
-          "produto": "VINHO MARQUÉS DE TEJARES 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 347.4
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "30374",
-          "cliente": "EL MAI LTDA",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 922.8
         }
       ]
     },
@@ -74630,15 +74603,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 180,
           "valor": 13482.0
-        },
-        {
-          "data": "09/07/2026",
-          "codcli": "30231",
-          "cliente": "ORGANIZACAO VERDEMAR LTDA",
-          "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 2098.8
         },
         {
           "data": "09/07/2026",
