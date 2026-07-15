@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "15/07/2026 10:03",
+  "atualizado_em": "15/07/2026 12:22",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -35599,36 +35599,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "11534",
-          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
-          "produto": "AMARULA C LIQUEUR 750 ML",
-          "fantasia": "INTERFOOD",
-          "qt": 1,
-          "valor": 89.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "11534",
-          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 6,
-          "valor": 167.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "11534",
-          "cliente": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
-          "produto": "GIN BOMBAY SAPPHIRE 750ML",
-          "fantasia": "BACARDI",
-          "qt": 2,
-          "valor": 139.8,
           "tipo": "Venda"
         },
         {
@@ -90324,146 +90294,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 189.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 85.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "ST PIERRE ZERO LATA COLA  LT24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 85.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "ST PIERRE ZERO LATA LARANJA  LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 85.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 85.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 85.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "MOVING BOOSTER LIMAO 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 175.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 175.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 175.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "94097",
-          "cliente": "MERCADO RG LTDA",
-          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 85.92,
-          "tipo": "Venda"
-        },
-        {
           "data": "17/06/2026",
           "codcli": "91357",
           "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
@@ -103166,46 +102996,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "11/06/2026",
-          "codcli": "91485",
-          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
-          "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 65.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "91485",
-          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
-          "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "fantasia": "RECKITT",
-          "qt": 1,
-          "valor": 65.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "91485",
-          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
-          "produto": "RUM MONTILLA OURO 1L",
-          "fantasia": "PERNOD",
-          "qt": 2,
-          "valor": 51.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "91485",
-          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
-          "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
-          "fantasia": "JURUPINGA",
-          "qt": 12,
-          "valor": 310.8,
-          "tipo": "Venda"
-        },
-        {
           "data": "17/06/2026",
           "codcli": "91485",
           "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
@@ -115196,76 +114986,6 @@ const VENDAS_DATA = {
           "qt": 6,
           "valor": 0.0,
           "tipo": "Bonificado"
-        },
-        {
-          "data": "12/06/2026",
-          "codcli": "91081",
-          "cliente": "O ECONOMICO DA GAVEA LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 94.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/06/2026",
-          "codcli": "91081",
-          "cliente": "O ECONOMICO DA GAVEA LTDA",
-          "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 124.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/06/2026",
-          "codcli": "91081",
-          "cliente": "O ECONOMICO DA GAVEA LTDA",
-          "produto": "KIT VANISH LIQ PINK1,5L+WHITE 1,5L 50%",
-          "fantasia": "RECKITT",
-          "qt": 2,
-          "valor": 171.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/06/2026",
-          "codcli": "91081",
-          "cliente": "O ECONOMICO DA GAVEA LTDA",
-          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 179.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/06/2026",
-          "codcli": "91081",
-          "cliente": "O ECONOMICO DA GAVEA LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 179.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/06/2026",
-          "codcli": "91081",
-          "cliente": "O ECONOMICO DA GAVEA LTDA",
-          "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 179.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "12/06/2026",
-          "codcli": "91081",
-          "cliente": "O ECONOMICO DA GAVEA LTDA",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 179.4,
-          "tipo": "Venda"
         },
         {
           "data": "22/06/2026",
@@ -176458,76 +176178,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "06/07/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 997.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 997.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 191.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 191.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 191.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 202.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "91575",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "produto": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 202.8,
-          "tipo": "Venda"
-        },
-        {
           "data": "14/07/2026",
           "codcli": "91575",
           "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
@@ -180174,16 +179824,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "15/06/2026",
-          "codcli": "28385",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 24,
-          "valor": 276.0,
-          "tipo": "Venda"
-        },
-        {
           "data": "30/06/2026",
           "codcli": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
@@ -180461,16 +180101,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 24,
           "valor": 300.48,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "28386",
-          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 24,
-          "valor": 276.0,
           "tipo": "Venda"
         },
         {
@@ -181864,16 +181494,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "15/06/2026",
-          "codcli": "80354",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 24,
-          "valor": 276.0,
-          "tipo": "Venda"
-        },
-        {
           "data": "30/06/2026",
           "codcli": "80354",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
@@ -182241,16 +181861,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 155.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "84612",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 24,
-          "valor": 276.0,
           "tipo": "Venda"
         },
         {
@@ -231868,26 +231478,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "16/06/2026",
-          "codcli": "17484",
-          "cliente": "MERCADO ADONAI DE INHOAIBA LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 514.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/06/2026",
-          "codcli": "17484",
-          "cliente": "MERCADO ADONAI DE INHOAIBA LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 257.4,
-          "tipo": "Venda"
-        },
-        {
           "data": "23/06/2026",
           "codcli": "76946",
           "cliente": "AUTO POSTO 500 TINGUI LTDA",
@@ -232605,46 +232195,6 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 589.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/06/2026",
-          "codcli": "82781",
-          "cliente": "ADONAI ATACADISTA LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 772.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/06/2026",
-          "codcli": "82781",
-          "cliente": "ADONAI ATACADISTA LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 18,
-          "valor": 772.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/06/2026",
-          "codcli": "82781",
-          "cliente": "ADONAI ATACADISTA LTDA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 191.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/06/2026",
-          "codcli": "82781",
-          "cliente": "ADONAI ATACADISTA LTDA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 91.44,
           "tipo": "Venda"
         },
         {
@@ -233908,26 +233458,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "15/06/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "ESPUM CASA PERINI ICE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 257.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 49.8,
-          "tipo": "Venda"
-        },
-        {
           "data": "30/06/2026",
           "codcli": "93380",
           "cliente": "SUPERMERCADOS ADONAI LTDA",
@@ -234315,46 +233845,6 @@ const VENDAS_DATA = {
           "fantasia": "CASA PERINI",
           "qt": 6,
           "valor": 257.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/06/2026",
-          "codcli": "93384",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 91.44,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/06/2026",
-          "codcli": "93384",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 257.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/06/2026",
-          "codcli": "93384",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 257.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/06/2026",
-          "codcli": "93384",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 91.44,
           "tipo": "Venda"
         },
         {
@@ -235015,46 +234505,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 49.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/06/2026",
-          "codcli": "93391",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 257.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/06/2026",
-          "codcli": "93391",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 257.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/06/2026",
-          "codcli": "93391",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "ESPUM CASA PERINI PROSECCO 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 257.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/06/2026",
-          "codcli": "93391",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 6,
-          "valor": 257.4,
           "tipo": "Venda"
         },
         {
@@ -245625,26 +245075,6 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 286.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "90874",
-          "cliente": "56.003.128 GABRIELLY DE OLIVEIRA VIEIRA",
-          "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 286.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "90874",
-          "cliente": "56.003.128 GABRIELLY DE OLIVEIRA VIEIRA",
-          "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-          "fantasia": "INTERFOOD",
-          "qt": 1,
-          "valor": 90.0,
           "tipo": "Venda"
         },
         {
@@ -295596,36 +295026,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "29/05/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING BOOSTER LIMAO 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 5,
-          "valor": 759.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 246.09,
-          "tipo": "Venda"
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 5,
-          "valor": 759.0,
-          "tipo": "Venda"
-        },
-        {
           "data": "13/05/2026",
           "codcli": "84034",
           "cliente": "EMISE SUPERMERCADO LTDA",
@@ -295863,46 +295263,6 @@ const VENDAS_DATA = {
           "fantasia": "HOB",
           "qt": 6,
           "valor": 179.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1150.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 164.06,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING BOOSTER LIMAO 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 5,
-          "valor": 759.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/05/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 30,
-          "valor": 1047.0,
           "tipo": "Venda"
         },
         {
@@ -306504,16 +305864,6 @@ const VENDAS_DATA = {
         {
           "data": "16/06/2026",
           "codcli": "79321",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "produto": "VINHO CASA PERINI CHARDONNAY 750ML",
-          "fantasia": "CASA PERINI",
-          "qt": 12,
-          "valor": 442.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/06/2026",
-          "codcli": "79323",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "produto": "VINHO CASA PERINI CHARDONNAY 750ML",
           "fantasia": "CASA PERINI",
@@ -546103,16 +545453,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 335.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "10/07/2026",
-          "codcli": "33010",
-          "cliente": "GOLDEN ALIMENTOS LTDA",
-          "produto": "MOET CHANDON BRUT IMPERIAL 750 NPP",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 1079.8,
           "tipo": "Venda"
         },
         {
