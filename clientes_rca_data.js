@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "15/07/2026 09:28",
-  "total": 4256,
+  "atualizado_em": "15/07/2026 10:15",
+  "total": 4258,
   "clientes": [
     {
       "codcli": "31683",
@@ -25414,6 +25414,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "92192",
+      "razao": "IMIGRANTES MERCANTIL LTDA",
+      "fantasia": "IMIGRANTES BEBIDAS",
+      "bairro": "AGUA FUNDA",
+      "cidade": "SAO PAULO",
+      "cnpj": "04.517.343/0001-89",
+      "estado": "SP",
+      "ramo": "DEPOSITO DE BEBIDAS",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50968",
       "razao": "IMPERIALLE COMERCIO DE BEBIDAS LTDA",
       "fantasia": "IMPERIALLE COMERCIO DE BEBIDAS",
@@ -50248,6 +50262,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "51798",
+      "razao": "RUI KLEI FRANCISCO DE OLIVEIRA - COMERCIO VAREJISTA DE BEBID",
+      "fantasia": "ADEGA CORUJAO",
+      "bairro": "CONJUNTO RESIDENCIAL JOSE BONIFACIO",
+      "cidade": "SAO PAULO",
+      "cnpj": "27.382.154/0001-41",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51093",
