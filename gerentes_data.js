@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "15/07/2026 13:21",
+  "atualizado_em": "15/07/2026 13:43",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -2058,6 +2058,12 @@ const GERENTES_DATA = {
                   }
                 },
                 {
+                  "nome": "LUCELIA BARROS - OFF TRADE",
+                  "rca": "505",
+                  "estado": "SP",
+                  "por_mes": {}
+                },
+                {
                   "nome": "LUIS MACHADO - OFF TRADE",
                   "rca": "497",
                   "estado": "SP",
@@ -3166,12 +3172,6 @@ const GERENTES_DATA = {
                 {
                   "nome": "JOAO AUGUSTO -  OFF TRADE",
                   "rca": "507",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "LUCELIA BARROS - OFF TRADE",
-                  "rca": "505",
                   "estado": "",
                   "por_mes": {}
                 },

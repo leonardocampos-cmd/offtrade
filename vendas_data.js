@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "15/07/2026 13:21",
+  "atualizado_em": "15/07/2026 13:43",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -374546,7 +374546,7 @@ const VENDAS_DATA = {
         {
           "data": "25/02/2026",
           "codcli": "47269",
-          "cliente": "TEMPO DIVINO COMERCIO DE BEBIDAS E ALIMENTOS LIMITADA",
+          "cliente": "TEMPO DIVINO COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
           "fantasia": "PERNOD",
           "qt": 1440,
