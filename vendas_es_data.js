@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "15/07/2026 16:15",
+  "atualizado_em": "15/07/2026 19:15",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -221,7 +221,7 @@ const VENDAS_ES_DATA = {
     },
     "GILDO ADRIANO": {
       "Mar/26": {
-        "fat": 138154.01,
+        "fat": 137524.01,
         "pos": 99,
         "fat_ant": 18553.74
       },
@@ -233,7 +233,7 @@ const VENDAS_ES_DATA = {
       "Abr/26": {
         "fat": 22247.89,
         "pos": 14,
-        "fat_ant": 138154.01
+        "fat_ant": 137524.01
       }
     },
     "FRANZ BENEVIDES": {
@@ -54870,15 +54870,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 113.07
-        },
-        {
-          "data": "23/03/2026",
-          "codcli": "82242",
-          "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
-          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 630.0
         },
         {
           "data": "18/03/2026",
