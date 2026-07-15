@@ -25,7 +25,7 @@ DIAS_JANELA = 90
 _SPON_EXTRA = ['%W.S%']
 
 _SOURCES = [
-    ("CRC",      engine,         None,         (2, 4)),
+    ("CRC",      engine,         None,         (1, 2, 4)),
     ("thekings", engine_theking, None,         None),
     ("CASTAS",   engine_castas,  None,         None),
     ("GARRIDO",  engine_garrido, None,         None),
