@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "15/07/2026 13:43",
+  "atualizado_em": "15/07/2026 14:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -204878,46 +204878,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "25/06/2026",
-          "codcli": "95512",
-          "cliente": "42.091.059 THIAGO JEFFERSON PETIT",
-          "produto": "APERITIVO APEROL 750 ML",
-          "fantasia": "CAMPARI",
-          "qt": 2,
-          "valor": 85.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "95512",
-          "cliente": "42.091.059 THIAGO JEFFERSON PETIT",
-          "produto": "GIN MARINA 750ML",
-          "fantasia": "HOB",
-          "qt": 3,
-          "valor": 119.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "95512",
-          "cliente": "42.091.059 THIAGO JEFFERSON PETIT",
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 27.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "25/06/2026",
-          "codcli": "95512",
-          "cliente": "42.091.059 THIAGO JEFFERSON PETIT",
-          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
-          "fantasia": "1883",
-          "qt": 1,
-          "valor": 49.9,
-          "tipo": "Venda"
-        },
-        {
           "data": "10/06/2026",
           "codcli": "95330",
           "cliente": "PARTIU PRA BOA LTDA",
@@ -296827,76 +296787,6 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 3,
           "valor": 455.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/07/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "AGUA NA CAIXA 12X500ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 3,
-          "valor": 107.7,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/07/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 164.06,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/07/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "AGUA NA CAIXA 12X330ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 3,
-          "valor": 100.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/07/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 164.06,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/07/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 164.06,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/07/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 12,
-          "valor": 1138.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "11/07/2026",
-          "codcli": "84033",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 24,
-          "valor": 2277.6,
           "tipo": "Venda"
         },
         {
