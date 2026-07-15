@@ -130,13 +130,6 @@
       border-radius: 20px; padding: 1px 8px; font-size: .68rem; font-weight: 700;
       white-space: nowrap;
     }
-    .chk-toggle {
-      display: flex; align-items: center; gap: 7px;
-      background: var(--card); border: 1px solid var(--border);
-      border-radius: 8px; padding: 8px 14px; font-size: .88rem;
-      cursor: pointer; user-select: none;
-    }
-    .chk-toggle input { cursor: pointer; accent-color: var(--accent); width: 15px; height: 15px; }
     .expand-icon { display:inline-block; width: 14px; color: var(--muted); }
     .itens-table { width: 100%; border-collapse: collapse; font-size: .78rem; margin-top: 6px; }
     .itens-table th { text-align:left; color: var(--muted); font-weight: 600; padding: 4px 8px; white-space: normal; }
@@ -178,9 +171,11 @@
     <div class="ms-panel hidden" id="ms-data-panel"></div>
   </div>
   <input type="text" id="busca" placeholder="Buscar por cliente, pedido, NF..." oninput="aplicarFiltro()">
-  <label class="chk-toggle">
-    <input type="checkbox" id="chk-agendamento" onchange="aplicarFiltro()"> 📅 Agendamento
-  </label>
+  <select id="sel-agendamento" onchange="aplicarFiltro()">
+    <option value="">📅 Agendamento</option>
+    <option value="sim">Sim</option>
+    <option value="nao">Não</option>
+  </select>
   <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
   <span class="info" id="info-count"></span>
 </div>
@@ -472,14 +467,14 @@ function _filtrados() {
   const supervisor = document.getElementById('sel-supervisor').value;
   const vendedor   = document.getElementById('sel-vendedor').value;
   const busca      = document.getElementById('busca').value.trim().toLowerCase();
-  const soAgendado = document.getElementById('chk-agendamento').checked;
+  const agendamento = document.getElementById('sel-agendamento').value;
   let lista = _listaAtual().filter(p => {
     const matchEstado     = !estado || p.estado === estado;
     const matchGerente    = !gerente || p.gerente === gerente;
     const matchSupervisor = !supervisor || p.supervisor === supervisor;
     const matchVendedor   = !vendedor || p.nome === vendedor;
     const matchData       = _datasSelecionadas.size === 0 || _datasSelecionadas.has(p.data_ord);
-    const matchAgendado   = !soAgendado || !!_agendamento(p.obs);
+    const matchAgendado   = !agendamento || (agendamento === 'sim' ? !!_agendamento(p.obs) : !_agendamento(p.obs));
     const matchBusca = !busca || [p.cliente, p.numped, p.numnota]
       .some(v => v && String(v).toLowerCase().includes(busca));
     return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchData && matchAgendado && matchBusca;
