@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "15/07/2026 13:26",
+  "atualizado_em": "15/07/2026 13:49",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -15771,13 +15771,40 @@ const INATIVOS_DATA = {
           "media": 808.51
         },
         {
-          "codcli": "48166",
+          "codcli": "48174",
           "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
-          "bairro": "JARDIM VALO VELHO",
+          "bairro": "CENTRO",
           "cidade": "ITAPECERICA DA SERRA",
           "dtultcomp": "07/05/2026",
           "dias": "69",
-          "media": 346.28
+          "media": 256.4
+        },
+        {
+          "codcli": "48168",
+          "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
+          "bairro": "PARQUE BOLOGNE",
+          "cidade": "SAO PAULO",
+          "dtultcomp": "07/05/2026",
+          "dias": "69",
+          "media": 626.28
+        },
+        {
+          "codcli": "48171",
+          "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
+          "bairro": "VELOSO",
+          "cidade": "OSASCO",
+          "dtultcomp": "07/05/2026",
+          "dias": "69",
+          "media": 89.88
+        },
+        {
+          "codcli": "48173",
+          "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
+          "bairro": "PARQUE FERNANDA",
+          "cidade": "SAO PAULO",
+          "dtultcomp": "07/05/2026",
+          "dias": "69",
+          "media": 256.4
         },
         {
           "codcli": "48165",
@@ -15798,40 +15825,13 @@ const INATIVOS_DATA = {
           "media": 313.88
         },
         {
-          "codcli": "48168",
+          "codcli": "48166",
           "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
-          "bairro": "PARQUE BOLOGNE",
-          "cidade": "SAO PAULO",
-          "dtultcomp": "07/05/2026",
-          "dias": "69",
-          "media": 626.28
-        },
-        {
-          "codcli": "48174",
-          "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
-          "bairro": "CENTRO",
+          "bairro": "JARDIM VALO VELHO",
           "cidade": "ITAPECERICA DA SERRA",
           "dtultcomp": "07/05/2026",
           "dias": "69",
-          "media": 256.4
-        },
-        {
-          "codcli": "48171",
-          "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
-          "bairro": "VELOSO",
-          "cidade": "OSASCO",
-          "dtultcomp": "07/05/2026",
-          "dias": "69",
-          "media": 89.88
-        },
-        {
-          "codcli": "48173",
-          "cliente": "SUPERMERCADO CASTELO DA SERRA LTDA",
-          "bairro": "PARQUE FERNANDA",
-          "cidade": "SAO PAULO",
-          "dtultcomp": "07/05/2026",
-          "dias": "69",
-          "media": 256.4
+          "media": 346.28
         },
         {
           "codcli": "44215",
@@ -15859,6 +15859,69 @@ const INATIVOS_DATA = {
           "bairro": "VILA OLÍMPIA",
           "cidade": "SAO PAULO",
           "dtcadastro": "07/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        }
+      ]
+    },
+    "CELSO OLIVEIRA - OFF TRADE": {
+      "rca": "498",
+      "estado": "SP",
+      "inativos": [],
+      "sem_compra": [
+        {
+          "codcli": "51021",
+          "cliente": "SUPERMERCADO BLENTAN LTDA",
+          "bairro": "DISTRITO INDUSTRIAL III",
+          "cidade": "ITAPOLIS",
+          "dtultcomp": "12/06/2026",
+          "dias": "33",
+          "media": 3242.17
+        }
+      ],
+      "novos": [
+        {
+          "codcli": "51335",
+          "cliente": "SUPERMERCADO BLENTAN LTDA",
+          "bairro": "CENTRO",
+          "cidade": "ITAPOLIS",
+          "dtcadastro": "25/06/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51325",
+          "cliente": "PAULO JOSE SALINA & CIA LTDA",
+          "bairro": "CENTRO",
+          "cidade": "BORBOREMA",
+          "dtcadastro": "25/06/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51324",
+          "cliente": "PAULO JOSE SALINA & CIA LTDA",
+          "bairro": "CENTRO",
+          "cidade": "BORACEIA",
+          "dtcadastro": "25/06/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51318",
+          "cliente": "GREEN CERVEJA E CIA LTDA",
+          "bairro": "JARDIM ELDORADO",
+          "cidade": "IBITINGA",
+          "dtcadastro": "25/06/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51315",
+          "cliente": "TALITA DAYANE DA SILVA",
+          "bairro": "JARDIM TRÊS IRMÃOS",
+          "cidade": "IBITINGA",
+          "dtcadastro": "25/06/2026",
           "dtultcomp": null,
           "media": 0.0
         }
@@ -15942,15 +16005,6 @@ const INATIVOS_DATA = {
           "media": 672.0
         },
         {
-          "codcli": "50717",
-          "cliente": "FRANCISCO DE ASSIS OLIVEIRA TAUBATE",
-          "bairro": "PARQUE SENHOR DO BONFIM",
-          "cidade": "TAUBATE",
-          "dtultcomp": "27/05/2026",
-          "dias": "49",
-          "media": 151.2
-        },
-        {
           "codcli": "50716",
           "cliente": "60.629.153 RAFAEL DIVINO COSTA",
           "bairro": "TERRA NOVA",
@@ -15958,6 +16012,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "27/05/2026",
           "dias": "49",
           "media": 158.83
+        },
+        {
+          "codcli": "50717",
+          "cliente": "FRANCISCO DE ASSIS OLIVEIRA TAUBATE",
+          "bairro": "PARQUE SENHOR DO BONFIM",
+          "cidade": "TAUBATE",
+          "dtultcomp": "27/05/2026",
+          "dias": "49",
+          "media": 151.2
         },
         {
           "codcli": "50404",
@@ -16031,15 +16094,6 @@ const INATIVOS_DATA = {
           "media": 3781.7
         },
         {
-          "codcli": "50991",
-          "cliente": "J M DA SILVA S J CAMPOS LTDA",
-          "bairro": "MONTE CASTELO",
-          "cidade": "SAO JOSE DOS CAMPOS",
-          "dtultcomp": "11/06/2026",
-          "dias": "34",
-          "media": 401.97
-        },
-        {
           "codcli": "51009",
           "cliente": "MARCOS R M ALMEIDA BEBIDAS",
           "bairro": "MONTE CASTELO",
@@ -16047,6 +16101,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "11/06/2026",
           "dias": "34",
           "media": 218.12
+        },
+        {
+          "codcli": "50991",
+          "cliente": "J M DA SILVA S J CAMPOS LTDA",
+          "bairro": "MONTE CASTELO",
+          "cidade": "SAO JOSE DOS CAMPOS",
+          "dtultcomp": "11/06/2026",
+          "dias": "34",
+          "media": 401.97
         },
         {
           "codcli": "50014",
@@ -16606,15 +16669,6 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "50969",
-          "cliente": "CRUZ ALIMENTACAO E BEBIDAS LTDA",
-          "bairro": "JARDIM JOAO ROSSI",
-          "cidade": "RIBEIRAO PRETO",
-          "dtultcomp": "11/06/2026",
-          "dias": "34",
-          "media": 291.6
-        },
-        {
           "codcli": "50962",
           "cliente": "VITO SUPERMERCADOS LTDA",
           "bairro": "RESIDENCIAL PARQUE DOS SERVIDORES",
@@ -16633,13 +16687,13 @@ const INATIVOS_DATA = {
           "media": 399.6
         },
         {
-          "codcli": "51021",
-          "cliente": "SUPERMERCADO BLENTAN LTDA",
-          "bairro": "DISTRITO INDUSTRIAL III",
-          "cidade": "ITAPOLIS",
-          "dtultcomp": "12/06/2026",
-          "dias": "33",
-          "media": 3242.17
+          "codcli": "50969",
+          "cliente": "CRUZ ALIMENTACAO E BEBIDAS LTDA",
+          "bairro": "JARDIM JOAO ROSSI",
+          "cidade": "RIBEIRAO PRETO",
+          "dtultcomp": "11/06/2026",
+          "dias": "34",
+          "media": 291.6
         }
       ],
       "novos": [
@@ -18466,59 +18520,6 @@ const INATIVOS_DATA = {
           "bairro": "MONTE ALEGRE",
           "cidade": "RIO GRANDE DA SERRA",
           "dtcadastro": "23/06/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        }
-      ]
-    },
-    "CELSO OLIVEIRA - OFF TRADE": {
-      "rca": "498",
-      "estado": "SP",
-      "inativos": [],
-      "sem_compra": [],
-      "novos": [
-        {
-          "codcli": "51335",
-          "cliente": "SUPERMERCADO BLENTAN LTDA",
-          "bairro": "CENTRO",
-          "cidade": "ITAPOLIS",
-          "dtcadastro": "25/06/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "51325",
-          "cliente": "PAULO JOSE SALINA & CIA LTDA",
-          "bairro": "CENTRO",
-          "cidade": "BORBOREMA",
-          "dtcadastro": "25/06/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "51324",
-          "cliente": "PAULO JOSE SALINA & CIA LTDA",
-          "bairro": "CENTRO",
-          "cidade": "BORACEIA",
-          "dtcadastro": "25/06/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "51318",
-          "cliente": "GREEN CERVEJA E CIA LTDA",
-          "bairro": "JARDIM ELDORADO",
-          "cidade": "IBITINGA",
-          "dtcadastro": "25/06/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "51315",
-          "cliente": "TALITA DAYANE DA SILVA",
-          "bairro": "JARDIM TRÊS IRMÃOS",
-          "cidade": "IBITINGA",
-          "dtcadastro": "25/06/2026",
           "dtultcomp": null,
           "media": 0.0
         }
@@ -24179,6 +24180,10 @@ const INATIVOS_DATA = {
                   "rca": "499"
                 },
                 {
+                  "nome": "LUCELIA BARROS - OFF TRADE",
+                  "rca": "505"
+                },
+                {
                   "nome": "LUIS MACHADO - OFF TRADE",
                   "rca": "497"
                 },
@@ -24516,10 +24521,6 @@ const INATIVOS_DATA = {
                 {
                   "nome": "JOAO AUGUSTO -  OFF TRADE",
                   "rca": "507"
-                },
-                {
-                  "nome": "LUCELIA BARROS - OFF TRADE",
-                  "rca": "505"
                 },
                 {
                   "nome": "WILLIAM GONCALVES - OFF TRADE",
