@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "15/07/2026 14:05",
+  "atualizado_em": "15/07/2026 15:09",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2003,8 +2003,8 @@ const CRUSOE_DATA = {
               ]
             },
             {
-              "numnota": "412216",
-              "data": "14/07/2026",
+              "numnota": "412256",
+              "data": "15/07/2026",
               "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
               "valor_pedido": 2171.28,
               "eventos": [
