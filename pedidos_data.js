@@ -1,10 +1,10 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "15/07/2026 10:29",
+  "atualizado_em": "15/07/2026 10:35",
   "periodo_dias": 90,
   "pedidos_feitos": [
     {
       "numped": "275000540",
-      "numnota": "nan",
+      "numnota": "",
       "data": "30/05/2026",
       "nome": "MARIA LUIZA - OFF TRADE",
       "cliente": "EMISE SUPERMERCADO LTDA",
@@ -36,7 +36,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "431001141",
-      "numnota": "nan",
+      "numnota": "",
       "data": "15/07/2026",
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
       "cliente": "MERCADO ELLISCH E KELLER LTDA",
@@ -58,7 +58,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "439000253",
-      "numnota": "nan",
+      "numnota": "",
       "data": "14/07/2026",
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
@@ -95,7 +95,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "439000255",
-      "numnota": "nan",
+      "numnota": "",
       "data": "14/07/2026",
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
@@ -132,7 +132,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "379001246",
-      "numnota": "nan",
+      "numnota": "",
       "data": "14/07/2026",
       "nome": "JORGE MACIEL - OFF TRADE",
       "cliente": "M&M DEPOSITO DE BEBIDAS LTDA",
@@ -174,7 +174,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "439000254",
-      "numnota": "nan",
+      "numnota": "",
       "data": "14/07/2026",
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
@@ -201,7 +201,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "439000250",
-      "numnota": "nan",
+      "numnota": "",
       "data": "14/07/2026",
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
@@ -228,7 +228,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "439000251",
-      "numnota": "nan",
+      "numnota": "",
       "data": "14/07/2026",
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "cliente": "MERCADO ENSEADA DO SOL LTDA",
@@ -255,7 +255,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "439000247",
-      "numnota": "nan",
+      "numnota": "",
       "data": "13/07/2026",
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "cliente": "52.637.598 JOELMA ABREU DOS SANTOS",
@@ -277,7 +277,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "439000248",
-      "numnota": "nan",
+      "numnota": "",
       "data": "13/07/2026",
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "cliente": "LIGIA MERCADO OSB LTDA",
@@ -294,7 +294,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "439000249",
-      "numnota": "nan",
+      "numnota": "",
       "data": "13/07/2026",
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "cliente": "GABRIEL BARROS MELO",
@@ -311,7 +311,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "439000237",
-      "numnota": "nan",
+      "numnota": "",
       "data": "10/07/2026",
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
@@ -373,7 +373,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "439000238",
-      "numnota": "nan",
+      "numnota": "",
       "data": "10/07/2026",
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
@@ -400,7 +400,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "439000235",
-      "numnota": "nan",
+      "numnota": "",
       "data": "09/07/2026",
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "cliente": "FRADE SPOT PARTICIPACOES S/A",
@@ -422,7 +422,7 @@ const PEDIDOS_DATA = {
     },
     {
       "numped": "439000236",
-      "numnota": "nan",
+      "numnota": "",
       "data": "09/07/2026",
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "cliente": "SUPERMERCADO PRECOTIMO LTDA",
