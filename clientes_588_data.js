@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "15/07/2026 13:25",
+  "atualizado_em": "15/07/2026 13:49",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -1938,7 +1938,7 @@ const CLIENTES_588_DATA = {
     },
     {
       "codcli": "47269",
-      "cliente": "TEMPO DIVINO COMERCIO DE BEBIDAS E ALIMENTOS LIMITADA",
+      "cliente": "TEMPO DIVINO COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
       "ultima_compra_rca": "25/02/2026",
       "valor_jan_abr": 43512.0,
       "meses_ativos": 2,
