@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "14/07/2026 17:25",
+  "atualizado_em": "15/07/2026 09:13",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -94,14 +94,14 @@ const CRUSOE_DATA = {
         {
           "rca": 412,
           "vendedor": "Barbara Cabral",
-          "pedidos": 12,
-          "positivacoes": 9,
-          "novos_skus": 110,
-          "faturamento": 39123.94,
-          "pontos_positivacao": 45,
-          "pontos_novos_skus": 440,
+          "pedidos": 14,
+          "positivacoes": 11,
+          "novos_skus": 112,
+          "faturamento": 39623.94,
+          "pontos_positivacao": 55,
+          "pontos_novos_skus": 448,
           "pontos_pedidos_valor": 26,
-          "pontos_total": 511,
+          "pontos_total": 529,
           "vendas": [
             {
               "numnota": "408264",
@@ -1512,6 +1512,56 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "412111",
+              "data": "14/07/2026",
+              "cliente": "BRASIL WEST ALIMENTOS LTDA",
+              "valor_pedido": 250.0,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 1.0,
+                  "valor": 250.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "412113",
+              "data": "14/07/2026",
+              "cliente": "MERCADO DA FAMILIA REALENGO LTDA",
+              "valor_pedido": 250.0,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 1.0,
+                  "valor": 250.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1822,14 +1872,14 @@ const CRUSOE_DATA = {
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 6,
+          "pedidos": 7,
           "positivacoes": 1,
           "novos_skus": 5,
-          "faturamento": 10322.97,
+          "faturamento": 12494.25,
           "pontos_positivacao": 5,
           "pontos_novos_skus": 20,
-          "pontos_pedidos_valor": 8,
-          "pontos_total": 33,
+          "pontos_pedidos_valor": 10,
+          "pontos_total": 35,
           "vendas": [
             {
               "numnota": "408274",
@@ -2007,6 +2057,50 @@ const CRUSOE_DATA = {
                   "produto": "RC SARDINHA EM OLEO 50X125G",
                   "qt": 5.0,
                   "valor": 997.5,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "412216",
+              "data": "14/07/2026",
+              "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+              "valor_pedido": 2171.28,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 5.0,
+                  "valor": 997.5,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 3.0,
+                  "valor": 598.5,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 1.0,
+                  "valor": 191.76,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
                   "pontuacoes": []
                 }
               ]
