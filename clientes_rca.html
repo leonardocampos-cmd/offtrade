@@ -66,6 +66,18 @@
       white-space: nowrap;
     }
     .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+    .chk-ka {
+      display: flex; align-items: center; gap: 7px;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; padding: 8px 14px; font-size: .88rem;
+      cursor: pointer; user-select: none;
+    }
+    .chk-ka input { cursor: pointer; accent-color: var(--accent); width: 15px; height: 15px; }
+    .badge-ka {
+      display: inline-block; margin-left: 6px; background: rgba(245,197,24,.15);
+      color: var(--accent); border-radius: 20px; padding: 1px 8px;
+      font-size: .68rem; font-weight: 700; white-space: nowrap;
+    }
   </style>
 </head>
 <body>
@@ -81,13 +93,14 @@
 <div class="controls">
   <select id="sel-estado" onchange="onEstadoChange()">
     <option value="">Todos os Estados</option>
-    <option value="RJ">RJ</option>
-    <option value="SP">SP</option>
   </select>
   <select id="sel-rca" onchange="aplicarFiltro()">
     <option value="">Todos os RCAs</option>
   </select>
   <input type="text" id="busca" placeholder="Buscar por nome, fantasia, CNPJ..." oninput="aplicarFiltro()">
+  <label class="chk-ka">
+    <input type="checkbox" id="chk-ka" onchange="aplicarFiltro()"> ⭐ Key Account
+  </label>
   <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
   <span class="info" id="info-count"></span>
 </div>
@@ -119,8 +132,22 @@ if (!DATA) {
   document.getElementById('tbody').innerHTML = '<tr><td colspan="9" class="empty">Dados não encontrados. Execute o pipeline para gerar clientes_rca_data.js.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent = 'Atualizado ' + DATA.atualizado_em;
+  montarEstados();
   reconstruirRcas();
   aplicarFiltro();
+}
+
+function montarEstados() {
+  const atual = document.getElementById('sel-estado').value;
+  const sel = document.getElementById('sel-estado');
+  sel.innerHTML = '<option value="">Todos os Estados</option>';
+  [...new Set(DATA.clientes.map(c => c.estado).filter(Boolean))].sort().forEach(uf => {
+    const o = document.createElement('option');
+    o.value = uf;
+    o.textContent = uf;
+    if (uf === atual) o.selected = true;
+    sel.appendChild(o);
+  });
 }
 
 function reconstruirRcas() {
@@ -162,12 +189,14 @@ function _filtrados() {
   const estado = document.getElementById('sel-estado').value.trim();
   const rca    = document.getElementById('sel-rca').value.trim();
   const busca  = document.getElementById('busca').value.trim().toLowerCase();
+  const soKA   = document.getElementById('chk-ka').checked;
   return DATA.clientes.filter(c => {
     const matchEstado = !estado || c.estado === estado;
     const matchRca    = !rca || c.codusur1 === rca || c.codusur2 === rca;
+    const matchKA      = !soKA || c.key_account;
     const matchBusca  = !busca || [c.razao, c.fantasia, c.cnpj, c.codcli, c.ramo]
       .some(v => v && v.toLowerCase().includes(busca));
-    return matchEstado && matchRca && matchBusca;
+    return matchEstado && matchRca && matchKA && matchBusca;
   });
 }
 
@@ -185,7 +214,7 @@ function aplicarFiltro() {
     <tr>
       <td class="cod">${c.codcli}</td>
       <td class="cnpj">${_fmtCnpj(c.cnpj)}</td>
-      <td>${_esc(c.razao)}</td>
+      <td>${_esc(c.razao)}${c.key_account ? '<span class="badge-ka">⭐ KA</span>' : ''}</td>
       <td style="color:var(--muted)">${_esc(c.fantasia)}</td>
       <td style="color:var(--muted);font-size:.78rem">${_esc(c.ramo)}</td>
       <td style="color:var(--muted)">${_esc(c.bairro)}</td>
@@ -208,7 +237,7 @@ function _fmtCnpj(v) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Codigo','CNPJ','Razao Social','Fantasia','Ramo','Bairro','Cidade','UF','Cod RCA1','RCA1','Cod RCA2','RCA2'];
+  const header = ['Codigo','CNPJ','Razao Social','Fantasia','Ramo','Bairro','Cidade','UF','Key Account','Cod RCA1','RCA1','Cod RCA2','RCA2'];
   const linhas = lista.map(c => [
     c.codcli,
     c.cnpj,
@@ -218,6 +247,7 @@ function exportarCSV() {
     c.bairro,
     c.cidade,
     c.estado,
+    c.key_account ? 'Sim' : 'Não',
     c.codusur1,
     c.nome_usur1.replace(' - OFF TRADE',''),
     c.codusur2,
