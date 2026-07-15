@@ -114,6 +114,15 @@
 <div class="tabs" id="tabs"></div>
 
 <div class="controls">
+  <select id="sel-estado" onchange="onEstadoChange()">
+    <option value="">Todos os Estados</option>
+  </select>
+  <select id="sel-gerente" onchange="onGerenteChange()">
+    <option value="">Todos os Gerentes</option>
+  </select>
+  <select id="sel-supervisor" onchange="onSupervisorChange()">
+    <option value="">Todos os Supervisores</option>
+  </select>
   <select id="sel-vendedor" onchange="aplicarFiltro()">
     <option value="">Todos os Vendedores</option>
   </select>
@@ -168,7 +177,7 @@ if (!DATA) {
   document.getElementById('header-sub').textContent =
     'Atualizado ' + DATA.atualizado_em + ' · últimos ' + DATA.periodo_dias + ' dias';
   montarTabs();
-  montarVendedores();
+  montarEstados();
   aplicarFiltro();
 }
 
@@ -190,7 +199,7 @@ function trocarAba(chave) {
   _abaAtual = chave;
   _expandidos.clear();
   montarTabs();
-  montarVendedores();
+  montarEstados();
   aplicarFiltro();
 }
 
@@ -198,18 +207,98 @@ function _listaAtual() {
   return DATA ? (DATA[_abaAtual] || []) : [];
 }
 
+function montarEstados() {
+  const estAtual = document.getElementById('sel-estado').value;
+  const sel = document.getElementById('sel-estado');
+  sel.innerHTML = '<option value="">Todos os Estados</option>';
+  [...new Set(_listaAtual().map(p => p.estado))].sort().forEach(e => {
+    const o = document.createElement('option');
+    o.value = e;
+    o.textContent = e;
+    if (e === estAtual) o.selected = true;
+    sel.appendChild(o);
+  });
+  if (estAtual && !_listaAtual().some(p => p.estado === estAtual)) sel.value = '';
+  montarGerentes();
+}
+
+function montarGerentes() {
+  const estado = document.getElementById('sel-estado').value;
+  const gerAtual = document.getElementById('sel-gerente').value;
+  const base = _listaAtual().filter(p => !estado || p.estado === estado);
+
+  const sel = document.getElementById('sel-gerente');
+  sel.innerHTML = '<option value="">Todos os Gerentes</option>';
+  [...new Set(base.map(p => p.gerente))].sort().forEach(g => {
+    const o = document.createElement('option');
+    o.value = g;
+    o.textContent = g;
+    if (g === gerAtual) o.selected = true;
+    sel.appendChild(o);
+  });
+  if (gerAtual && !base.some(p => p.gerente === gerAtual)) sel.value = '';
+
+  montarSupervisores();
+}
+
+function montarSupervisores() {
+  const estado   = document.getElementById('sel-estado').value;
+  const gerente  = document.getElementById('sel-gerente').value;
+  const supAtual = document.getElementById('sel-supervisor').value;
+  const base = _listaAtual().filter(p =>
+    (!estado || p.estado === estado) && (!gerente || p.gerente === gerente)
+  );
+
+  const sel = document.getElementById('sel-supervisor');
+  sel.innerHTML = '<option value="">Todos os Supervisores</option>';
+  [...new Set(base.map(p => p.supervisor))].sort().forEach(s => {
+    const o = document.createElement('option');
+    o.value = s;
+    o.textContent = s;
+    if (s === supAtual) o.selected = true;
+    sel.appendChild(o);
+  });
+  if (supAtual && !base.some(p => p.supervisor === supAtual)) sel.value = '';
+
+  montarVendedores();
+}
+
 function montarVendedores() {
-  const atual = document.getElementById('sel-vendedor').value;
+  const estado     = document.getElementById('sel-estado').value;
+  const gerente    = document.getElementById('sel-gerente').value;
+  const supervisor = document.getElementById('sel-supervisor').value;
+  const atual      = document.getElementById('sel-vendedor').value;
+  const base = _listaAtual().filter(p =>
+    (!estado || p.estado === estado) &&
+    (!gerente || p.gerente === gerente) &&
+    (!supervisor || p.supervisor === supervisor)
+  );
+
   const sel = document.getElementById('sel-vendedor');
   sel.innerHTML = '<option value="">Todos os Vendedores</option>';
-  [...new Set(_listaAtual().map(p => p.nome))].sort().forEach(nome => {
+  [...new Set(base.map(p => p.nome))].sort().forEach(nome => {
     const o = document.createElement('option');
     o.value = nome;
     o.textContent = nome.replace(/ - OFF TRADE.*/i, '');
     if (nome === atual) o.selected = true;
     sel.appendChild(o);
   });
-  if (atual && !_listaAtual().some(p => p.nome === atual)) sel.value = '';
+  if (atual && !base.some(p => p.nome === atual)) sel.value = '';
+}
+
+function onEstadoChange() {
+  montarGerentes();
+  aplicarFiltro();
+}
+
+function onGerenteChange() {
+  montarSupervisores();
+  aplicarFiltro();
+}
+
+function onSupervisorChange() {
+  montarVendedores();
+  aplicarFiltro();
 }
 
 function ordenarPor(campo) {
@@ -222,17 +311,24 @@ function ordenarPor(campo) {
 }
 
 function _filtrados() {
-  const vendedor = document.getElementById('sel-vendedor').value;
-  const busca = document.getElementById('busca').value.trim().toLowerCase();
+  const estado     = document.getElementById('sel-estado').value;
+  const gerente    = document.getElementById('sel-gerente').value;
+  const supervisor = document.getElementById('sel-supervisor').value;
+  const vendedor   = document.getElementById('sel-vendedor').value;
+  const busca      = document.getElementById('busca').value.trim().toLowerCase();
   let lista = _listaAtual().filter(p => {
-    const matchVendedor = !vendedor || p.nome === vendedor;
+    const matchEstado     = !estado || p.estado === estado;
+    const matchGerente    = !gerente || p.gerente === gerente;
+    const matchSupervisor = !supervisor || p.supervisor === supervisor;
+    const matchVendedor   = !vendedor || p.nome === vendedor;
     const matchBusca = !busca || [p.cliente, p.numped, p.numnota]
       .some(v => v && String(v).toLowerCase().includes(busca));
-    return matchVendedor && matchBusca;
+    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchBusca;
   });
   const { campo, asc } = _ordem;
+  const campoOrd = campo === 'data' ? 'data_ord' : campo;
   lista = [...lista].sort((a, b) => {
-    let va = a[campo], vb = b[campo];
+    let va = a[campoOrd], vb = b[campoOrd];
     if (typeof va === 'string') { va = va.toLowerCase(); vb = (vb || '').toLowerCase(); }
     if (va < vb) return asc ? -1 : 1;
     if (va > vb) return asc ? 1 : -1;

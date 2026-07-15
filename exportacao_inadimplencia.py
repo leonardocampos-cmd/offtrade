@@ -106,10 +106,15 @@ except Exception as e:
     print(f"Aviso: mapeamento de nomes falhou ({e}), usando nomes Oracle.")
     _rca_to_display = {}
 
-tabela_pedidos['NOME'] = (
-    tabela_pedidos['CODUSUR_NUM']
+tabela_pedidos['NOME'] = tabela_pedidos['NOME'].str.strip()
+# CODUSUR não é chave global — o mesmo número identifica pessoas diferentes em
+# schemas diferentes. Só remapeia o nome dentro do próprio CRC, que é a base
+# de onde vem a planilha de metas usada em _rca_to_display.
+_is_crc = tabela_pedidos['SISTEMA'] == 'CRC'
+tabela_pedidos.loc[_is_crc, 'NOME'] = (
+    tabela_pedidos.loc[_is_crc, 'CODUSUR_NUM']
     .map(_rca_to_display)
-    .fillna(tabela_pedidos['NOME'].str.strip())
+    .fillna(tabela_pedidos.loc[_is_crc, 'NOME'])
 )
 
 # Um vendedor pode aparecer em mais de um schema com o mesmo CODUSUR — agrupa por
@@ -212,6 +217,7 @@ for _grupo, grp in tabela_pedidos.groupby('_GRUPO'):
             'vpago':        round(float(r['VPAGO']), 2),
             'valor_aberto': round(float(r['VALOR_ABERTO']), 2),
             'dtvenc':       _s(r['DTVENC_STR']),
+            'dtvenc_ord':   r['DTVENC_DT'].strftime('%Y-%m-%d') if pd.notna(r['DTVENC_DT']) else '',
             'dias_atraso':  int(r['DIAS_ATRASO']) if pd.notna(r['DIAS_ATRASO']) else 0,
             'codcob':       r['CODCOB'],
             'codfilial':    _s(r['CODFILIAL']),

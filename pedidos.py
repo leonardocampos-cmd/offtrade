@@ -35,23 +35,27 @@ _SOURCES = [
 
 
 def _nome_filter(extra_nomes=None):
-    base = "NOME LIKE '%OFF TRADE%'"
+    base = "PED.NOME LIKE '%OFF TRADE%'"
     if extra_nomes:
-        extras = " OR ".join(f"NOME LIKE '{p}'" for p in extra_nomes)
+        extras = " OR ".join(f"PED.NOME LIKE '{p}'" for p in extra_nomes)
         return f"({base} OR {extras})"
     return base
 
 
 def _query_pedidos(schema, extra_nomes=None, filiais=None):
     nome_f = _nome_filter(extra_nomes)
-    filial_f = f"AND CODFILIAL IN ({','.join(map(str, filiais))})" if filiais else ""
+    filial_f = f"AND PED.CODFILIAL IN ({','.join(map(str, filiais))})" if filiais else ""
     return f"""
-        SELECT NUMPED, NUMNOTA, NOME, DATA, CODUSUR, CLIENTE, STATUS,
-               DESCRICAO, PVENDA, QT, TOTAL, OBSENTREGA1
-        FROM {schema}.PBI_PCPEDI
+        SELECT PED.NUMPED, PED.NUMNOTA, PED.NOME, PED.DATA, PED.CODUSUR, PED.CLIENTE, PED.STATUS,
+               PED.DESCRICAO, PED.PVENDA, PED.QT, PED.TOTAL, PED.OBSENTREGA1,
+               U.ESTADO AS ESTADO_VENDEDOR, S.NOME AS NOME_SUPERVISOR, G.NOMEGERENTE
+        FROM {schema}.PBI_PCPEDI PED
+        LEFT JOIN {schema}.PCUSUARI  U ON U.CODUSUR        = PED.CODUSUR
+        LEFT JOIN {schema}.PCSUPERV  S ON U.CODSUPERVISOR  = S.CODSUPERVISOR
+        LEFT JOIN {schema}.PCGERENTE G ON S.CODGERENTE     = G.CODGERENTE
         WHERE {nome_f}
           {filial_f}
-          AND DATA >= SYSDATE - {DIAS_JANELA}
+          AND PED.DATA >= SYSDATE - {DIAS_JANELA}
     """
 
 
@@ -78,6 +82,10 @@ tabela_pedidos['DATA_DT']     = pd.to_datetime(tabela_pedidos['DATA'], errors='c
 tabela_pedidos['DATA']        = tabela_pedidos['DATA_DT'].dt.strftime('%d/%m/%Y')
 tabela_pedidos['STATUS']      = tabela_pedidos['STATUS'].fillna('').astype(str).str.strip()
 
+tabela_pedidos['ESTADO'] = tabela_pedidos['ESTADO_VENDEDOR'].fillna('').astype(str).str.strip().str.upper().replace('', 'Sem Estado')
+tabela_pedidos['NOME_SUPERVISOR'] = tabela_pedidos['NOME_SUPERVISOR'].fillna('').astype(str).str.strip().replace('', 'Sem Supervisor')
+tabela_pedidos['NOMEGERENTE']     = tabela_pedidos['NOMEGERENTE'].fillna('').astype(str).str.strip().replace('', 'Sem Gerente')
+
 # ── Mapeia Oracle name → display name (igual ao entregas.py) ──────────────────
 
 try:
@@ -91,10 +99,16 @@ except Exception as e:
     _rca_to_display = {}
 
 tabela_pedidos['CODUSUR_NUM'] = pd.to_numeric(tabela_pedidos['CODUSUR'], errors='coerce')
-tabela_pedidos['NOME'] = (
-    tabela_pedidos['CODUSUR_NUM']
+tabela_pedidos['NOME'] = tabela_pedidos['NOME'].str.strip()
+# CODUSUR não é chave global — o mesmo número identifica pessoas diferentes em
+# schemas diferentes (ex: CODUSUR 471 é "Paulo Junior" no SPON, mas RCA 471 na
+# planilha de metas RJ é outra pessoa). Só remapeia o nome dentro do próprio
+# CRC, que é a base de onde vem a planilha de metas.
+_is_crc = tabela_pedidos['SISTEMA'] == 'CRC'
+tabela_pedidos.loc[_is_crc, 'NOME'] = (
+    tabela_pedidos.loc[_is_crc, 'CODUSUR_NUM']
     .map(_rca_to_display)
-    .fillna(tabela_pedidos['NOME'].str.strip())
+    .fillna(tabela_pedidos.loc[_is_crc, 'NOME'])
 )
 
 # ── Status de logística (planilha "Controle de Notas") ────────────────────────
@@ -193,13 +207,18 @@ def _agrupar(df, com_status_log=False):
     for (sistema, numped), grp in df.groupby(['SISTEMA', 'NUMPED'], sort=False):
         r0 = grp.iloc[0]
         nf = _nf_clean(r0.get('NUMNOTA', ''))
+        data_dt = r0.get('DATA_DT')
         item = {
             'numped':     _s(numped),
             'numnota':    nf,
             'data':       _s(r0['DATA']),
+            'data_ord':   data_dt.strftime('%Y-%m-%d') if pd.notna(data_dt) else '',
             'nome':       _s(r0['NOME']),
             'cliente':    _s(r0['CLIENTE']),
             'sistema':    _s(sistema),
+            'estado':     _s(r0['ESTADO']),
+            'supervisor': _s(r0['NOME_SUPERVISOR']),
+            'gerente':    _s(r0['NOMEGERENTE']),
             'status_ped': _s(r0['STATUS']),
             'obs':        _s(r0['OBSENTREGA1']),
             'total':      round(float(grp['TOTAL'].sum()), 2),
@@ -215,7 +234,7 @@ def _agrupar(df, com_status_log=False):
         if com_status_log:
             item['status_log'] = _status_log(nf) if nf else ''
         result.append(item)
-    result.sort(key=lambda p: p['data'], reverse=True)
+    result.sort(key=lambda p: p['data_ord'], reverse=True)
     return result
 
 
