@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "15/07/2026 14:10",
-  "total": 4276,
+  "atualizado_em": "15/07/2026 15:23",
+  "total": 4284,
   "clientes": [
     {
       "codcli": "31683",
@@ -8894,6 +8894,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51827",
+      "razao": "AZEVEDO DISTRIBUIDORA DE BEBIDAS LTDA",
+      "fantasia": "AZEVEDO DISTRIBUIDORA DE BEBIDAS",
+      "bairro": "JARDIM ESPLANADA",
+      "cidade": "MOGI GUACU",
+      "cnpj": "43.555.875/0002-43",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "71701",
       "razao": "AZIMUT BAR E RESTAURANTE LTDA",
       "fantasia": "AZ LOUNGE RIO",
@@ -12460,6 +12474,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "codusur1": "275",
       "nome_usur1": "MARIA LUIZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95720",
+      "razao": "CASAGRANDE KAISERMANN COMESTIVEIS FINOS LTDA",
+      "fantasia": "CASA NOSTRA",
+      "bairro": "IPANEMA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "27.646.785/0001-20",
+      "estado": "RJ",
+      "ramo": "MERCEARIA",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -16044,6 +16072,20 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51819",
+      "razao": "D. NASTARO SUPERMERCADOS LTDA",
+      "fantasia": "D. NASTARO SUPERMERCADOS",
+      "bairro": "JARDIM SÃO JORGE",
+      "cidade": "PIRACICABA",
+      "cnpj": "24.896.365/0001-04",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "504",
+      "nome_usur1": "GILVAN AMORIM - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -21844,6 +21886,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "51828",
+      "razao": "FELIPE PEREIRA ANASTACIO DE ASSIS",
+      "fantasia": "ADEGA PIT STOP COMERCIO DE BEBIDAS",
+      "bairro": "JARDIM ESTELA",
+      "cidade": "POA",
+      "cnpj": "29.754.914/0001-20",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "47136",
       "razao": "FEMAR COMERCIO DE BEBIDAS LTDA",
       "fantasia": "FEMAR BEBIDAS",
@@ -26070,6 +26126,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DOUGLAS SCHADE - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "40434",
+      "razao": "IVANIR LAZA MONTANI COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "ADEGA SAO JUDAS TADEU",
+      "bairro": "VILA BOCAINA",
+      "cidade": "MAUA",
+      "cnpj": "07.742.887/0001-32",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "35375",
@@ -39190,6 +39260,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95718",
+      "razao": "MINIMARKET MENA LTDA",
+      "fantasia": "MERCADINHO MENA",
+      "bairro": "CENTRO",
+      "cidade": "NILOPOLIS",
+      "cnpj": "54.169.482/0001-37",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "codusur1": "379",
+      "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "86115",
       "razao": "MINIMERCADO ALFERES LTDA",
       "fantasia": "MINIMERCADO ALFERES - PQ. BARCELLOS",
@@ -40644,6 +40728,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "95",
       "nome_usur2": "VINICIUS AMARAL"
+    },
+    {
+      "codcli": "51825",
+      "razao": "NASTARO E NICOLETI SUPERMERCADOS LTDA",
+      "fantasia": "NASTARO E NICOLETI SUPERMERCADOS LTDA",
+      "bairro": "VILA INDUSTRIAL",
+      "cidade": "PIRACICABA",
+      "cnpj": "52.296.978/0001-46",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "codusur1": "504",
+      "nome_usur1": "GILVAN AMORIM - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50481",
@@ -57178,6 +57276,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "EDUARDO COUTO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "78212",
+      "razao": "TONTERIA CHOPERIA E PETISCARIA LTDA",
+      "fantasia": "TONTERIA CHOPERIA E PETISCARIA",
+      "bairro": "JARDIM EXCELSIOR",
+      "cidade": "CABO FRIO",
+      "cnpj": "55.695.111/0001-51",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "89919",
