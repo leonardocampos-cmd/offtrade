@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "15/07/2026 13:46",
+  "atualizado_em": "15/07/2026 14:06",
   "data_rota": "15.07",
   "vendedores": [
     {
@@ -2377,46 +2377,6 @@ const ENTREGAS_DATA = {
               "desc": "VINHO CASA RODRIGUES TINTO SUAVE",
               "qt": 24,
               "val": 309.6
-            }
-          ]
-        },
-        {
-          "numped": "153001300",
-          "numnota": "",
-          "data": "15/07/2026",
-          "cliente": "CLAUDIA HONORIO DE LIMA ASSIS 03369320738",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "nao paga descarga",
-          "total": 228.58,
-          "itens": [
-            {
-              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "qt": 1,
-              "val": 36.9
-            },
-            {
-              "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-              "qt": 1,
-              "val": 38.9
-            },
-            {
-              "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
-              "qt": 1,
-              "val": 48.98
-            },
-            {
-              "desc": "PINATI SIMPLE WHEY PISTACHE (4)16X35G",
-              "qt": 1,
-              "val": 43.9
-            },
-            {
-              "desc": "PINATI SLIM WHEY BEIJINHO (4) 16X35G",
-              "qt": 1,
-              "val": 59.9
             }
           ]
         }
