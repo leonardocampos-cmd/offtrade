@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "15/07/2026 14:08",
+  "atualizado_em": "15/07/2026 15:21",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -263,8 +263,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 106627.23
       },
       "Jul/26": {
-        "fat": 29.16,
-        "pos": 1,
+        "fat": 87.48,
+        "pos": 3,
         "fat_ant": 24655.69
       }
     },
@@ -295,8 +295,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 118062.39
       },
       "Jul/26": {
-        "fat": 114289.9,
-        "pos": 10,
+        "fat": 131164.8,
+        "pos": 22,
         "fat_ant": 89348.53
       }
     },
@@ -402,8 +402,8 @@ const VENDAS_ES_DATA = {
     },
     "MARCELO DE SOUZA": {
       "Jul/26": {
-        "fat": 8582.4,
-        "pos": 6,
+        "fat": 86238.72,
+        "pos": 7,
         "fat_ant": 1224.0
       },
       "Jun/26": {
@@ -64815,6 +64815,24 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 29.16
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "71966",
+          "cliente": "TERRAZZO DEI NONNI LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "83930",
+          "cliente": "CHURRASCARIA E RESTAURANTE NOVA GAUCHAO LTDA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
         }
       ]
     },
@@ -76693,6 +76711,105 @@ const VENDAS_ES_DATA = {
           "valor": 11643.0
         },
         {
+          "data": "15/07/2026",
+          "codcli": "81760",
+          "cliente": "A L M SUPERMERCADOS LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 7,
+          "valor": 1536.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81797",
+          "cliente": "SUPERMERCADO FALQUETO LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 658.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21028",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 1097.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21162",
+          "cliente": "IPAMAR COMERCIAL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21027",
+          "cliente": "SUPERMERCADOS NOROESTE LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 10,
+          "valor": 2195.0
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "95661",
+          "cliente": "ALIANCA MERCANTIL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "80907",
+          "cliente": "AUTO SERVICOS IDEAL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 439.0
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "95662",
+          "cliente": "ALIANCA MERCANTIL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "79754",
+          "cliente": "SUPERMERCADO R.D.E. LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 1097.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81885",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 1097.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21014",
+          "cliente": "ECOREAL SUPERMERCADOS LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 439.0
+        },
+        {
           "data": "03/07/2026",
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
@@ -76711,6 +76828,114 @@ const VENDAS_ES_DATA = {
           "valor": 2328.6
         },
         {
+          "data": "15/07/2026",
+          "codcli": "81760",
+          "cliente": "A L M SUPERMERCADOS LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 4,
+          "valor": 878.0
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21162",
+          "cliente": "IPAMAR COMERCIAL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 439.0
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21028",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 658.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21027",
+          "cliente": "SUPERMERCADOS NOROESTE LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 6,
+          "valor": 1317.0
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "95661",
+          "cliente": "ALIANCA MERCANTIL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "80907",
+          "cliente": "AUTO SERVICOS IDEAL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "95662",
+          "cliente": "ALIANCA MERCANTIL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "79754",
+          "cliente": "SUPERMERCADO R.D.E. LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 1097.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81885",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 4,
+          "valor": 878.0
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21014",
+          "cliente": "ECOREAL SUPERMERCADOS LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 439.0
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91826",
+          "cliente": "COMERCIAL DEVENS LTDA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 271.92
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91826",
+          "cliente": "COMERCIAL DEVENS LTDA",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 271.92
+        },
+        {
           "data": "03/07/2026",
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
@@ -76727,6 +76952,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 30,
           "valor": 5878.8
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91826",
+          "cliente": "COMERCIAL DEVENS LTDA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 4,
+          "valor": 746.56
         },
         {
           "data": "03/07/2026",
@@ -88037,6 +88271,24 @@ const VENDAS_ES_DATA = {
     },
     "MARCELO DE SOUZA": {
       "Jul/26": [
+        {
+          "data": "15/07/2026",
+          "codcli": "92448",
+          "cliente": "SANTOS IMPORTACAO E INTERMEDIACAO DE NEGOCIOS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 288,
+          "valor": 51770.88
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "92448",
+          "cliente": "SANTOS IMPORTACAO E INTERMEDIACAO DE NEGOCIOS LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 144,
+          "valor": 25885.44
+        },
         {
           "data": "07/07/2026",
           "codcli": "20944",
