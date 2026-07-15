@@ -1,32 +1,75 @@
 """
-Gera pedidos_data.js: visão única (todos os vendedores OFF TRADE juntos) dos
-pedidos dos últimos 90 dias, separados em Pedidos Feitos (ainda sem nota),
-Faturados (com nota, não cancelados) e Cancelados.
+Gera pedidos_data.js: visão única (todos os vendedores OFF TRADE juntos, em
+todas as empresas/sistemas) dos pedidos dos últimos 90 dias, separados em
+Pedidos Feitos (ainda sem nota), Faturados (com nota, não cancelados) e
+Cancelados.
 
-Mesma fonte/filtro do entregas.py (crc.PBI_PCPEDI, CODFILIAL IN (2,4), NOME
-LIKE '%OFF TRADE%'), mas sem o corte por mês corrente nem o cruzamento com a
-planilha de logística — aqui é só o retrato dos pedidos em si.
+Multi-base igual ao exportacao_inadimplencia.py (CRC, thekings, CASTAS,
+GARRIDO, SPON, MGON) usando PBI_PCPEDI de cada schema — view existe em
+todas as 6 bases. Faturados cruza a NF com a planilha "Controle de Notas"
+da logística (mesmo status ENTREGUE/RETORNO/CANCELADA/etc. usado em
+exportacao_inadimplencia.py) pra popular o status, já que STATUS do
+Winthor normalmente vem vazio pra pedido já faturado.
 """
 import json
-from datetime import datetime
+from datetime import datetime, date
 from pathlib import Path
 
 import pandas as pd
 
-from meta import engine, carregar_dados
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, carregar_dados
+import baixar_planilhas_drive as _bpd
 
 DIAS_JANELA = 90
 
-tabela_pedidos = carregar_dados(f"""
-    SELECT NUMPED, NUMNOTA, NOME, DATA, CODUSUR, CLIENTE, STATUS,
-           DESCRICAO, PVENDA, QT, TOTAL, OBSENTREGA1
-    FROM crc.PBI_PCPEDI
-    WHERE CODFILIAL IN (2,4)
-      AND NOME LIKE '%OFF TRADE%'
-      AND DATA >= SYSDATE - {DIAS_JANELA}
-    ORDER BY DATA DESC
-""", engine, "pedidos")
+_SPON_EXTRA = ['%W.S%']
 
+_SOURCES = [
+    ("CRC",      engine,         None,         (2, 4)),
+    ("thekings", engine_theking, None,         None),
+    ("CASTAS",   engine_castas,  None,         None),
+    ("GARRIDO",  engine_garrido, None,         None),
+    ("SPON",     engine_spon,    _SPON_EXTRA,  None),
+    ("MGON",     engine_mgon,    None,         None),
+]
+
+
+def _nome_filter(extra_nomes=None):
+    base = "NOME LIKE '%OFF TRADE%'"
+    if extra_nomes:
+        extras = " OR ".join(f"NOME LIKE '{p}'" for p in extra_nomes)
+        return f"({base} OR {extras})"
+    return base
+
+
+def _query_pedidos(schema, extra_nomes=None, filiais=None):
+    nome_f = _nome_filter(extra_nomes)
+    filial_f = f"AND CODFILIAL IN ({','.join(map(str, filiais))})" if filiais else ""
+    return f"""
+        SELECT NUMPED, NUMNOTA, NOME, DATA, CODUSUR, CLIENTE, STATUS,
+               DESCRICAO, PVENDA, QT, TOTAL, OBSENTREGA1
+        FROM {schema}.PBI_PCPEDI
+        WHERE {nome_f}
+          {filial_f}
+          AND DATA >= SYSDATE - {DIAS_JANELA}
+    """
+
+
+_parts = []
+_fontes_indisponiveis = []
+for _nome, _eng, _extra, _filiais in _SOURCES:
+    try:
+        _df = carregar_dados(_query_pedidos(_nome, _extra, _filiais), _eng, f"pedidos_{_nome}")
+        _df['SISTEMA'] = _nome
+        _parts.append(_df)
+    except Exception as ex:
+        print(f"[AVISO] pedidos_{_nome} falhou ({str(ex)[:80]}) — ignorado")
+        _fontes_indisponiveis.append(_nome)
+
+if not _parts:
+    raise RuntimeError("Nenhuma base carregada.")
+
+tabela_pedidos = pd.concat(_parts, ignore_index=True)
 tabela_pedidos.columns = tabela_pedidos.columns.str.upper()
 tabela_pedidos['TOTAL']       = pd.to_numeric(tabela_pedidos['TOTAL'], errors='coerce').fillna(0)
 tabela_pedidos['QT']          = pd.to_numeric(tabela_pedidos['QT'],    errors='coerce').fillna(0).astype(int)
@@ -54,6 +97,73 @@ tabela_pedidos['NOME'] = (
     .fillna(tabela_pedidos['NOME'].str.strip())
 )
 
+# ── Status de logística (planilha "Controle de Notas") ────────────────────────
+# Só cobre NFs da logística RJ (CRC) — pedidos de outras bases ficam sem
+# status_log, que é o esperado (mostrado como "—" na página).
+
+_MESES_PT_STATUS = {
+    '01': 'JANEIRO', '02': 'FEVEREIRO', '03': 'MARÇO', '04': 'ABRIL',
+    '05': 'MAIO', '06': 'JUNHO', '07': 'JULHO', '08': 'AGOSTO',
+    '09': 'SETEMBRO', '10': 'OUTUBRO', '11': 'NOVEMBRO', '12': 'DEZEMBRO',
+}
+
+
+def _meses_recentes(n=4):
+    hoje = date.today()
+    ano, mes = hoje.year, hoje.month
+    meses = []
+    for _ in range(n):
+        meses.append((ano, mes))
+        mes -= 1
+        if mes == 0:
+            mes, ano = 12, ano - 1
+    return meses
+
+
+def _caminho_controle_notas_local(ano, mm):
+    upper = _MESES_PT_STATUS[mm]
+    pasta_dir = Path(
+        r"G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO"
+        r"\CONTROLE DE NOTAS"
+    ) / str(ano) / f"{mm} {upper}"
+    candidatos = list(pasta_dir.glob("*.xlsx")) if pasta_dir.exists() else []
+    return str(candidatos[0]) if candidatos else str(pasta_dir)
+
+
+_status_por_nf: dict = {}
+for _ano, _mes in _meses_recentes():
+    _mm = f"{_mes:02d}"
+    _upper = _MESES_PT_STATUS[_mm]
+    try:
+        _caminho = _bpd.com_fallback(
+            lambda mm=_mm, up=_upper: _bpd.caminho_controle_notas(mm, up),
+            _caminho_controle_notas_local(_ano, _mm),
+        )
+        _abas = pd.read_excel(_caminho, sheet_name=None)
+    except Exception as _ex:
+        print(f"[AVISO] Controle de Notas {_mm}/{_ano} indisponível ({str(_ex)[:80]}) — ignorado")
+        continue
+    for _df_aba in _abas.values():
+        if 'Nº NF' not in _df_aba.columns or 'STATUS' not in _df_aba.columns:
+            continue
+        _sub = _df_aba[['Nº NF', 'STATUS']].copy()
+        _sub['Nº NF'] = pd.to_numeric(_sub['Nº NF'], errors='coerce')
+        _sub = _sub.dropna(subset=['Nº NF'])
+        for _, _r in _sub.iterrows():
+            _status = str(_r['STATUS']).strip().upper() if pd.notna(_r['STATUS']) else ''
+            if _status:
+                _status_por_nf[int(_r['Nº NF'])] = _status
+
+print(f"Status de logística: {len(_status_por_nf)} NF(s) mapeada(s) (últimos {_meses_recentes.__defaults__[0]} meses)")
+
+
+def _status_log(numnota):
+    try:
+        return _status_por_nf.get(int(float(numnota)), '')
+    except (ValueError, TypeError):
+        return ''
+
+
 # ── Separação em 3 baldes mutuamente exclusivos ────────────────────────────────
 
 _cancelados = tabela_pedidos[tabela_pedidos['STATUS'] == 'CANCELADA']
@@ -78,16 +188,18 @@ def _nf_clean(numnota):
         return str(numnota).strip()
 
 
-def _agrupar(df):
+def _agrupar(df, com_status_log=False):
     result = []
-    for numped, grp in df.groupby('NUMPED', sort=False):
+    for (sistema, numped), grp in df.groupby(['SISTEMA', 'NUMPED'], sort=False):
         r0 = grp.iloc[0]
-        result.append({
+        nf = _nf_clean(r0.get('NUMNOTA', ''))
+        item = {
             'numped':     _s(numped),
-            'numnota':    _nf_clean(r0.get('NUMNOTA', '')),
+            'numnota':    nf,
             'data':       _s(r0['DATA']),
             'nome':       _s(r0['NOME']),
             'cliente':    _s(r0['CLIENTE']),
+            'sistema':    _s(sistema),
             'status_ped': _s(r0['STATUS']),
             'obs':        _s(r0['OBSENTREGA1']),
             'total':      round(float(grp['TOTAL'].sum()), 2),
@@ -99,17 +211,21 @@ def _agrupar(df):
                 }
                 for _, row in grp.iterrows()
             ],
-        })
+        }
+        if com_status_log:
+            item['status_log'] = _status_log(nf) if nf else ''
+        result.append(item)
     result.sort(key=lambda p: p['data'], reverse=True)
     return result
 
 
 payload = {
-    'atualizado_em':  datetime.now().strftime('%d/%m/%Y %H:%M'),
-    'periodo_dias':   DIAS_JANELA,
-    'pedidos_feitos': _agrupar(_feitos),
-    'faturados':      _agrupar(_faturados),
-    'cancelados':     _agrupar(_cancelados),
+    'atualizado_em':        datetime.now().strftime('%d/%m/%Y %H:%M'),
+    'periodo_dias':         DIAS_JANELA,
+    'fontes_indisponiveis': _fontes_indisponiveis,
+    'pedidos_feitos':       _agrupar(_feitos),
+    'faturados':            _agrupar(_faturados, com_status_log=True),
+    'cancelados':           _agrupar(_cancelados),
 }
 
 out = Path(__file__).parent / 'pedidos_data.js'

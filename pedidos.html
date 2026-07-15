@@ -2,6 +2,8 @@
 <html lang="pt-BR">
 <head>
   <script src="auth.js"></script>
+  <script src="fontes_status_data.js"></script>
+  <script src="fontes_alert.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pedidos OFF TRADE</title>
@@ -86,6 +88,10 @@
     .status-faturado  { background: rgba(34,197,94,.15);   color: var(--green); }
     .status-cancelado { background: rgba(239,68,68,.15);   color: var(--red); }
     .status-none { color: var(--muted); font-size:.78rem; }
+    .status-log-entregue  { background: rgba(34,197,94,.15);  color: var(--green); }
+    .status-log-retorno   { background: rgba(249,115,22,.15); color: var(--orange); }
+    .status-log-cancelada { background: rgba(239,68,68,.15);  color: var(--red); }
+    .status-log-outro     { background: var(--card2); border: 1px solid var(--border); color: var(--text); }
     .expand-icon { display:inline-block; width: 14px; color: var(--muted); }
     .itens-table { width: 100%; border-collapse: collapse; font-size: .78rem; margin-top: 6px; }
     .itens-table th { text-align:left; color: var(--muted); font-weight: 600; padding: 4px 8px; white-space: normal; }
@@ -126,7 +132,7 @@
         <th onclick="ordenarPor('data')">Data</th>
         <th onclick="ordenarPor('nome')">Vendedor</th>
         <th onclick="ordenarPor('cliente')">Cliente</th>
-        <th onclick="ordenarPor('status_ped')">Status Winthor</th>
+        <th id="th-extra"></th>
         <th onclick="ordenarPor('total')">Total</th>
       </tr>
     </thead>
@@ -138,9 +144,18 @@
 const DATA = typeof PEDIDOS_DATA !== 'undefined' ? PEDIDOS_DATA : null;
 
 const ABAS = [
-  { chave: 'pedidos_feitos', label: 'Pedidos Feitos',  cor: 'status-feito' },
-  { chave: 'faturados',      label: 'Faturados',       cor: 'status-faturado' },
-  { chave: 'cancelados',     label: 'Cancelados',      cor: 'status-cancelado' },
+  {
+    chave: 'pedidos_feitos', label: 'Pedidos Feitos', cor: 'status-feito',
+    colExtra: { campo: 'sistema', label: 'Sistema', render: p => `<span class="cod">${_esc(p.sistema)}</span>` },
+  },
+  {
+    chave: 'faturados', label: 'Faturados', cor: 'status-faturado',
+    colExtra: { campo: 'status_log', label: 'Status Logística', render: p => _statusLogBadge(p.status_log) },
+  },
+  {
+    chave: 'cancelados', label: 'Cancelados', cor: 'status-cancelado',
+    colExtra: { campo: 'status_ped', label: 'Status Winthor', render: p => _statusBadge(p.status_ped, 'status-cancelado') },
+  },
 ];
 
 let _abaAtual = 'pedidos_feitos';
@@ -164,6 +179,11 @@ function montarTabs() {
     const ativo = a.chave === _abaAtual ? 'active' : '';
     return `<button class="tab-btn ${ativo}" onclick="trocarAba('${a.chave}')">${a.label} (${qtd})</button>`;
   }).join('');
+
+  const abaInfo = ABAS.find(a => a.chave === _abaAtual);
+  const th = document.getElementById('th-extra');
+  th.textContent = abaInfo.colExtra.label;
+  th.onclick = () => ordenarPor(abaInfo.colExtra.campo);
 }
 
 function trocarAba(chave) {
@@ -262,7 +282,7 @@ function aplicarFiltro() {
       <td>${_esc(p.data)}</td>
       <td><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE',''))}</span></td>
       <td>${_esc(p.cliente)}</td>
-      <td>${_statusBadge(p.status_ped, abaInfo.cor)}</td>
+      <td>${abaInfo.colExtra.render(p)}</td>
       <td>${brl(p.total)}</td>
     </tr>
     <tr class="linha-itens ${expandido ? '' : 'oculta'}" id="itens-${_esc(chave)}">
@@ -297,6 +317,16 @@ function _statusBadge(status, cls) {
   return `<span class="status-badge ${cls}">${_esc(status)}</span>`;
 }
 
+function _statusLogBadge(status) {
+  if (!status) return '<span class="status-none">—</span>';
+  const s = status.toUpperCase();
+  const cls = s === 'ENTREGUE' ? 'status-log-entregue'
+    : s === 'RETORNO' ? 'status-log-retorno'
+    : s === 'CANCELADA' ? 'status-log-cancelada'
+    : 'status-log-outro';
+  return `<span class="status-badge ${cls}">${_esc(status)}</span>`;
+}
+
 function brl(v) {
   return 'R$ ' + Number(v || 0).toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
 }
@@ -307,14 +337,15 @@ function _esc(s) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Pedido','NF','Data','Vendedor','Cliente','Status Winthor','Total'];
+  const abaInfo = ABAS.find(a => a.chave === _abaAtual);
+  const header = ['Pedido','NF','Data','Vendedor','Cliente', abaInfo.colExtra.label, 'Total'];
   const linhas = lista.map(p => [
     p.numped,
     p.numnota,
     p.data,
     (p.nome || '').replace(' - OFF TRADE',''),
     p.cliente,
-    p.status_ped,
+    p[abaInfo.colExtra.campo],
     p.total,
   ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
 

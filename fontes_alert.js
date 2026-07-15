@@ -32,6 +32,7 @@
     if (typeof METAS_DATA !== 'undefined') tentar(METAS_DATA);
     if (typeof METAS_GERAIS_DATA !== 'undefined') tentar(METAS_GERAIS_DATA);
     if (typeof CRUSOE_DATA !== 'undefined') tentar(CRUSOE_DATA);
+    if (typeof PEDIDOS_DATA !== 'undefined') tentar(PEDIDOS_DATA);
     if (typeof AMARULA_DATA !== 'undefined') tentar(AMARULA_DATA);
     if (typeof INDUSTRIA_DATA !== 'undefined') tentar(INDUSTRIA_DATA);
     return { lista: Array.from(fontes).sort(), atualizado: atualizado };

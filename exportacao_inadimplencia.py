@@ -66,6 +66,7 @@ _parts = []
 for _schema, _eng, _extra in _SOURCES:
     try:
         _df = carregar_dados(_query_inadimplencia(_schema, _extra), _eng, f"inadimplencia_{_schema}")
+        _df['SISTEMA'] = _schema
         _parts.append(_df)
     except Exception as ex:
         print(f"[AVISO] inadimplencia_{_schema} falhou ({str(ex)[:80]}) — ignorado")
@@ -217,6 +218,7 @@ for _grupo, grp in tabela_pedidos.groupby('_GRUPO'):
             'estado':       r['ESTADO'],
             'supervisor':   r['NOME_SUPERVISOR'],
             'gerente':      r['NOMEGERENTE'],
+            'sistema':      r['SISTEMA'],
             'status_log':   _status_log(r['DUPLIC']),
         })
     titulos.sort(key=lambda t: -t['dias_atraso'])
