@@ -546,10 +546,17 @@ function aplicarFiltro() {
 
 function _agendamento(obs) {
   if (!obs) return null;
-  const m = obs.match(/Data\s*entrega:?\s*(\d{2})\/?(\d{2})\/?(\d{2,4})/i);
+  // Cobre variações reais vistas nas obs: "ENTREGA AGENDADA: dd/mm/aa",
+  // "entrega agendada para o dia dd/mm", "ENTREGAR [dia da semana] dd/mm",
+  // "Data entrega: dd/mm/aa", "entregar no dia dd/mm...", etc. — o texto é
+  // livre, então busca a palavra "entreg" seguida de uma data por perto.
+  const m = obs.match(/entreg\w*[^\d]{0,30}?(\d{1,2})\/(\d{1,2})(?:\/(\d{2,4}))?/i);
   if (!m) return null;
-  let [, dd, mm, yy] = m;
-  if (yy.length === 2) yy = '20' + yy;
+  const dd = m[1].padStart(2, '0');
+  const mm = m[2].padStart(2, '0');
+  let yy = m[3];
+  if (!yy) yy = String(new Date().getFullYear());
+  else if (yy.length === 2) yy = '20' + yy;
   return `${dd}/${mm}/${yy}`;
 }
 

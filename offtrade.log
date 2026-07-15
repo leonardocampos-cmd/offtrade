@@ -2750,3 +2750,11 @@ OK Servico ativo - https://offtrade.duckdns.org
 
 [15/07/2026 14:17:13,82] OK 
 ---------------------------------------- 
+[15/07/2026 15:00:10,88] Iniciando... 
+2026-07-15 15:03:19.267 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-15 15:03:19.294 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-15 15:03:19.306 No runtime found, using MemoryCacheStorageManager
+[master d49a6ae] Atualiza metas_data.js + vendas_data.js - 15/07/2026
+ 4 files changed, 11269 insertions(+), 10943 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   fcabe2c..d49a6ae  master -> master
