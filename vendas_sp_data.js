@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "15/07/2026 13:24",
+  "atualizado_em": "15/07/2026 13:48",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -693,7 +693,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "25/02/2026",
           "codcli": "47269",
-          "cliente": "TEMPO DIVINO COMERCIO DE BEBIDAS E ALIMENTOS LIMITADA",
+          "cliente": "TEMPO DIVINO COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
           "produto": "CONHAQUE DOMECQ 1L",
           "fantasia": "PERNOD",
           "qt": 1440,
