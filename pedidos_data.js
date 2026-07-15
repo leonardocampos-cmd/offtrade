@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "15/07/2026 18:32",
+  "atualizado_em": "15/07/2026 18:33",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
