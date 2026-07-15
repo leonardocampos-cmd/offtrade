@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "14/07/2026 17:30",
+  "atualizado_em": "15/07/2026 09:26",
   "meses": [
     "Jul/26",
     "Jun/26",
